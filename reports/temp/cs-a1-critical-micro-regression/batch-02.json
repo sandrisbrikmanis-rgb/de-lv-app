@@ -1,0 +1,3155 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-sitzen",
+      "index": 558,
+      "de": "sitzen",
+      "auditType": "changed_card_regression",
+      "repairedFields": [
+        {
+          "field": "study.sectionAccents.explanation.purple[0]",
+          "ownerValue": "sedět"
+        },
+        {
+          "field": "study.sectionAccents.explanation.purple[1]",
+          "ownerValue": "sedí"
+        },
+        {
+          "field": "study.sectionAccents.comparison[0].meaning.purple[0]",
+          "ownerValue": "Sedět"
+        }
+      ],
+      "falsePositiveControl": null,
+      "fullCard": {
+        "cardId": "a1-sitzen",
+        "index": 558,
+        "de": "sitzen",
+        "layout": "standardStudy",
+        "csMain": "Sedět",
+        "studyTranslation": "Sedět",
+        "lvSourceMain": "sēdēt",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "sēdēt",
+            "csText": "Sedět",
+            "de": "sitzen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es sēžu pie galda.",
+            "csText": "Sedím u stolu.",
+            "de": "sitzen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "bērni sēž autobusā.",
+            "csText": "Děti sedí v autobuse.",
+            "de": "sitzen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "viņš stāv pie durvīm.",
+            "csText": "Stojí u dveří.",
+            "de": "sitzen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "kaķis guļ uz dīvāna.",
+            "csText": "Kočka spí na pohovce.",
+            "de": "sitzen"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "sitzen",
+            "csText": "sitzen",
+            "de": "sitzen"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "sēdēt",
+            "csText": "Sedět",
+            "de": "sitzen"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "stehen",
+            "csText": "stehen",
+            "de": "sitzen"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "stāvēt",
+            "csText": "Stát",
+            "de": "sitzen"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "liegen",
+            "csText": "liegen",
+            "de": "sitzen"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "gulēt / atrasties guļus",
+            "csText": "Spát / ležet",
+            "de": "sitzen"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "setzen",
+            "csText": "setzen",
+            "de": "sitzen"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "apsēsties / nosēdināt",
+            "csText": "Sedět / sednout si",
+            "de": "sitzen"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: sēdus → sitzen; stāvus → stehen; guļus → liegen.",
+            "csText": "Pamatujte: sezení → sitzen • Stojící → stehen • Vleže → liegen.",
+            "de": "sitzen"
+          }
+        ],
+        "study": {
+          "id": "a1-sitzen",
+          "layout": "standardStudy",
+          "translation": "Sedět",
+          "explanation": [
+            "Hlavní myšlenka: sitzen znamená sedět.",
+            "Sitzen se používá pro sezení osoby nebo zvířete.",
+            "Někdy sitzen také znamená být na určitém místě, ale v A1 je hlavním významem sedět.",
+            "Je důležité rozlišovat: sitzen = sedět, stehen = stát, liegen = ležet."
+          ],
+          "examples": [
+            {
+              "de": "Ich sitze am Tisch.",
+              "lv": "Sedím u stolu."
+            },
+            {
+              "de": "Die Kinder sitzen im Bus.",
+              "lv": "Děti sedí v autobuse."
+            },
+            {
+              "de": "Er steht an der Tür.",
+              "lv": "Stojí u dveří."
+            },
+            {
+              "de": "Die Katze liegt auf dem Sofa.",
+              "lv": "Kočka spí na pohovce."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sitzen",
+              "meaning": "Sedět",
+              "example": "Ich sitze am Tisch."
+            },
+            {
+              "word": "stehen",
+              "meaning": "Stát",
+              "example": "Er steht an der Tür."
+            },
+            {
+              "word": "liegen",
+              "meaning": "Spát / ležet",
+              "example": "Die Katze liegt dort."
+            },
+            {
+              "word": "setzen",
+              "meaning": "Sedět / sednout si",
+              "example": "Ich setze mich."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: sezení → sitzen • Stojící → stehen • Vleže → liegen."
+          },
+          "important": [
+            "Sitzen ukazuje stav 'sezení'.",
+            "Sednout si je sich setzen, ne sitzen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sitzen"
+              ],
+              "purple": [
+                "sedět",
+                "sedí"
+              ],
+              "red": [
+                "stehen",
+                "liegen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "sitze"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Sedím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sitzen"
+                  ],
+                  "green": [
+                    "Kinder"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Děti"
+                  ],
+                  "green": [
+                    "Děti"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "steht"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Stojí"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "liegt"
+                  ]
+                },
+                "lv": {
+                  "yellow": [
+                    "Kočka"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "sitzen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Sedět"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "sitze"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "stehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Stát"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "steht"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "liegen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Spát",
+                    "Spát"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "liegt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "setzen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Sedět"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "setze"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "sitzen"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ],
+                "red": [
+                  "stehen"
+                ],
+                "yellow": [
+                  "liegen"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "sitzen"
+                ],
+                "purple": [
+                  "Sitzen"
+                ]
+              },
+              {
+                "green": [
+                  "sich setzen"
+                ],
+                "blue": [
+                  "sitzen"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-sitzen",
+          "layout": "standardStudy",
+          "translation": "sēdēt",
+          "explanation": [
+            "Galvenā doma: sitzen nozīmē sēdēt.",
+            "sitzen lieto par cilvēku vai dzīvnieku, kas sēž.",
+            "Dažreiz sitzen nozīmē arī atrasties noteiktā vietā, bet A1 līmenī galvenā nozīme ir sēdēt.",
+            "Svarīgi nošķirt: sitzen = sēdēt, stehen = stāvēt, liegen = gulēt/atrasties guļus."
+          ],
+          "examples": [
+            {
+              "de": "Ich sitze am Tisch.",
+              "lv": "es sēžu pie galda."
+            },
+            {
+              "de": "Die Kinder sitzen im Bus.",
+              "lv": "bērni sēž autobusā."
+            },
+            {
+              "de": "Er steht an der Tür.",
+              "lv": "viņš stāv pie durvīm."
+            },
+            {
+              "de": "Die Katze liegt auf dem Sofa.",
+              "lv": "kaķis guļ uz dīvāna."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sitzen",
+              "meaning": "sēdēt",
+              "example": "Ich sitze am Tisch."
+            },
+            {
+              "word": "stehen",
+              "meaning": "stāvēt",
+              "example": "Er steht an der Tür."
+            },
+            {
+              "word": "liegen",
+              "meaning": "gulēt / atrasties guļus",
+              "example": "Die Katze liegt dort."
+            },
+            {
+              "word": "setzen",
+              "meaning": "apsēsties / nosēdināt",
+              "example": "Ich setze mich."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: sēdus → sitzen; stāvus → stehen; guļus → liegen."
+          },
+          "important": [
+            "sitzen rāda stāvokli “sēdēt”.",
+            "Apsēsties ir sich setzen, nevis sitzen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sitzen"
+              ],
+              "purple": [
+                "sēdēt",
+                "sēž"
+              ],
+              "red": [
+                "stehen",
+                "liegen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "sitze"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "sēžu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sitzen"
+                  ],
+                  "green": [
+                    "Kinder"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "sēž"
+                  ],
+                  "green": [
+                    "Bērni"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "steht"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "stāv"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "liegt"
+                  ]
+                },
+                "lv": {
+                  "yellow": [
+                    "guļ"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "sitzen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "sēdēt"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "sitze"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "stehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "stāvēt"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "steht"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "liegen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "gulēt",
+                    "guļus"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "liegt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "setzen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "apsēsties"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "setze"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "sitzen"
+                ],
+                "purple": [
+                  "sēdus"
+                ],
+                "red": [
+                  "stehen"
+                ],
+                "yellow": [
+                  "liegen"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "sitzen"
+                ],
+                "purple": [
+                  "sēdēt"
+                ]
+              },
+              {
+                "green": [
+                  "sich setzen"
+                ],
+                "blue": [
+                  "sitzen"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-sitzen",
+        "layout": "standardStudy",
+        "translation": "Sedět",
+        "explanation": [
+          "Hlavní myšlenka: sitzen znamená sedět.",
+          "Sitzen se používá pro sezení osoby nebo zvířete.",
+          "Někdy sitzen také znamená být na určitém místě, ale v A1 je hlavním významem sedět.",
+          "Je důležité rozlišovat: sitzen = sedět, stehen = stát, liegen = ležet."
+        ],
+        "examples": [
+          {
+            "de": "Ich sitze am Tisch.",
+            "lv": "Sedím u stolu."
+          },
+          {
+            "de": "Die Kinder sitzen im Bus.",
+            "lv": "Děti sedí v autobuse."
+          },
+          {
+            "de": "Er steht an der Tür.",
+            "lv": "Stojí u dveří."
+          },
+          {
+            "de": "Die Katze liegt auf dem Sofa.",
+            "lv": "Kočka spí na pohovce."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "sitzen",
+            "meaning": "Sedět",
+            "example": "Ich sitze am Tisch."
+          },
+          {
+            "word": "stehen",
+            "meaning": "Stát",
+            "example": "Er steht an der Tür."
+          },
+          {
+            "word": "liegen",
+            "meaning": "Spát / ležet",
+            "example": "Die Katze liegt dort."
+          },
+          {
+            "word": "setzen",
+            "meaning": "Sedět / sednout si",
+            "example": "Ich setze mich."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: sezení → sitzen • Stojící → stehen • Vleže → liegen."
+        },
+        "important": [
+          "Sitzen ukazuje stav 'sezení'.",
+          "Sednout si je sich setzen, ne sitzen."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "sitzen"
+            ],
+            "purple": [
+              "sedět",
+              "sedí"
+            ],
+            "red": [
+              "stehen",
+              "liegen"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "sitze"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Sedím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "sitzen"
+                ],
+                "green": [
+                  "Kinder"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Děti"
+                ],
+                "green": [
+                  "Děti"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "steht"
+                ]
+              },
+              "lv": {
+                "red": [
+                  "Stojí"
+                ]
+              }
+            },
+            {
+              "de": {
+                "yellow": [
+                  "liegt"
+                ]
+              },
+              "lv": {
+                "yellow": [
+                  "Kočka"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "sitzen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Sedět"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "sitze"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "stehen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Stát"
+                ]
+              },
+              "example": {
+                "red": [
+                  "steht"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "liegen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Spát",
+                  "Spát"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "liegt"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "setzen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Sedět"
+                ]
+              },
+              "example": {
+                "green": [
+                  "setze"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "sitzen"
+              ],
+              "purple": [
+                "Pamatujte"
+              ],
+              "red": [
+                "stehen"
+              ],
+              "yellow": [
+                "liegen"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "sitzen"
+              ],
+              "purple": [
+                "Sitzen"
+              ]
+            },
+            {
+              "green": [
+                "sich setzen"
+              ],
+              "blue": [
+                "sitzen"
+              ]
+            }
+          ]
+        }
+      },
+      "csMain": "Sedět"
+    },
+    {
+      "cardId": "a1-stehen",
+      "index": 576,
+      "de": "stehen",
+      "auditType": "changed_card_regression",
+      "repairedFields": [
+        {
+          "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+          "ownerValue": "sedět"
+        }
+      ],
+      "falsePositiveControl": null,
+      "fullCard": {
+        "cardId": "a1-stehen",
+        "index": 576,
+        "de": "stehen",
+        "layout": "standardStudy",
+        "csMain": "Stát",
+        "studyTranslation": "Stát",
+        "lvSourceMain": "stāvēt",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "stāvēt",
+            "csText": "Stát",
+            "de": "stehen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es stāvu pie durvīm.",
+            "csText": "Stojím u dveří.",
+            "de": "stehen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "krēsls stāv virtuvē.",
+            "csText": "Židle je v kuchyni.",
+            "de": "stehen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "viņš sēž pie galda.",
+            "csText": "Sedí u stolu.",
+            "de": "stehen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "grāmata atrodas uz galda.",
+            "csText": "Kniha je na stole.",
+            "de": "stehen"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "stehen",
+            "csText": "stehen",
+            "de": "stehen"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "stāvēt / atrasties stāvus",
+            "csText": "Stát / stát",
+            "de": "stehen"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "sitzen",
+            "csText": "sitzen",
+            "de": "stehen"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "sēdēt",
+            "csText": "Sedět",
+            "de": "stehen"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "liegen",
+            "csText": "liegen",
+            "de": "stehen"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "gulēt / atrasties guļus",
+            "csText": "Spát / ležet",
+            "de": "stehen"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "stellen",
+            "csText": "stellen",
+            "de": "stehen"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "nolikt stāvus",
+            "csText": "Postavit vzpřímeně",
+            "de": "stehen"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: stāvus → stehen; sēdus → sitzen; guļus → liegen.",
+            "csText": "Pamatujte: ve stoje → stehen • Sezení → sitzen • Vleže → liegen.",
+            "de": "stehen"
+          }
+        ],
+        "study": {
+          "id": "a1-stehen",
+          "layout": "standardStudy",
+          "translation": "Stát",
+          "explanation": [
+            "Hlavní myšlenka: stehen znamená stát nebo stát.",
+            "Stehen pro člověka znamená stát.",
+            "Pro objekt stehen znamená, že stojí nebo je na určitém místě.",
+            "Je důležité rozlišovat: stehen = stát, sitzen = sedět, liegen = ležet."
+          ],
+          "examples": [
+            {
+              "de": "Ich stehe an der Tür.",
+              "lv": "Stojím u dveří."
+            },
+            {
+              "de": "Der Stuhl steht in der Küche.",
+              "lv": "Židle je v kuchyni."
+            },
+            {
+              "de": "Er sitzt am Tisch.",
+              "lv": "Sedí u stolu."
+            },
+            {
+              "de": "Das Buch liegt auf dem Tisch.",
+              "lv": "Kniha je na stole."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "stehen",
+              "meaning": "Stát / stát",
+              "example": "Ich stehe hier."
+            },
+            {
+              "word": "sitzen",
+              "meaning": "Sedět",
+              "example": "Er sitzt am Tisch."
+            },
+            {
+              "word": "liegen",
+              "meaning": "Spát / ležet",
+              "example": "Das Buch liegt dort."
+            },
+            {
+              "word": "stellen",
+              "meaning": "Postavit vzpřímeně",
+              "example": "Ich stelle die Flasche hin."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: ve stoje → stehen • Sezení → sitzen • Vleže → liegen."
+          },
+          "important": [
+            "Stehen ukazuje stav, nikoli akci „odkládání“.",
+            "Postavit předmět vzpřímeně je šmrnc, ne stehen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "stehen"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ],
+              "red": [
+                "sitzen",
+                "liegen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "stehe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Stojím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "steht"
+                  ],
+                  "yellow": [
+                    "Stuhl"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Židle"
+                  ],
+                  "yellow": [
+                    "Židle"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "sitzt"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Sedí"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "liegt"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Kniha"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "stehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Stát",
+                    "Stát"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "stehe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "sitzen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "sedět"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "sitzt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "liegen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Spát",
+                    "Spát"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "liegt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "stellen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Postavit"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "stelle"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "stehen"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ],
+                "red": [
+                  "sitzen"
+                ],
+                "yellow": [
+                  "liegen"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "stehen"
+                ],
+                "purple": [
+                  "Stehen"
+                ],
+                "green": [
+                  "stehen"
+                ]
+              },
+              {
+                "green": [
+                  "stehen"
+                ],
+                "blue": [
+                  "stehen"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-stehen",
+          "layout": "standardStudy",
+          "translation": "stāvēt",
+          "explanation": [
+            "Galvenā doma: stehen nozīmē stāvēt vai atrasties stāvus.",
+            "Par cilvēku stehen nozīmē stāvēt.",
+            "Par priekšmetu stehen nozīmē, ka tas atrodas stāvus vai noteiktā vietā.",
+            "Svarīgi nošķirt: stehen = stāvēt, sitzen = sēdēt, liegen = gulēt/atrasties guļus."
+          ],
+          "examples": [
+            {
+              "de": "Ich stehe an der Tür.",
+              "lv": "es stāvu pie durvīm."
+            },
+            {
+              "de": "Der Stuhl steht in der Küche.",
+              "lv": "krēsls stāv virtuvē."
+            },
+            {
+              "de": "Er sitzt am Tisch.",
+              "lv": "viņš sēž pie galda."
+            },
+            {
+              "de": "Das Buch liegt auf dem Tisch.",
+              "lv": "grāmata atrodas uz galda."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "stehen",
+              "meaning": "stāvēt / atrasties stāvus",
+              "example": "Ich stehe hier."
+            },
+            {
+              "word": "sitzen",
+              "meaning": "sēdēt",
+              "example": "Er sitzt am Tisch."
+            },
+            {
+              "word": "liegen",
+              "meaning": "gulēt / atrasties guļus",
+              "example": "Das Buch liegt dort."
+            },
+            {
+              "word": "stellen",
+              "meaning": "nolikt stāvus",
+              "example": "Ich stelle die Flasche hin."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: stāvus → stehen; sēdus → sitzen; guļus → liegen."
+          },
+          "important": [
+            "stehen rāda stāvokli, nevis darbību “nolikt”.",
+            "Nolikt priekšmetu stāvus ir stellen, nevis stehen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "stehen"
+              ],
+              "purple": [
+                "stāvēt",
+                "stāvus"
+              ],
+              "red": [
+                "sitzen",
+                "liegen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "stehe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "stāvu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "steht"
+                  ],
+                  "yellow": [
+                    "Stuhl"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "stāv"
+                  ],
+                  "yellow": [
+                    "Krēsls"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "sitzt"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "sēž"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "liegt"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "atrodas"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "stehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "stāvēt",
+                    "stāvus"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "stehe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "sitzen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "sēdēt"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "sitzt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "liegen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "gulēt",
+                    "guļus"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "liegt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "stellen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "nolikt stāvus"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "stelle"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "stehen"
+                ],
+                "purple": [
+                  "stāvus"
+                ],
+                "red": [
+                  "sitzen"
+                ],
+                "yellow": [
+                  "liegen"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "stehen"
+                ],
+                "purple": [
+                  "stāvokli"
+                ],
+                "green": [
+                  "stehen"
+                ]
+              },
+              {
+                "green": [
+                  "stellen"
+                ],
+                "blue": [
+                  "stehen"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-stehen",
+        "layout": "standardStudy",
+        "translation": "Stát",
+        "explanation": [
+          "Hlavní myšlenka: stehen znamená stát nebo stát.",
+          "Stehen pro člověka znamená stát.",
+          "Pro objekt stehen znamená, že stojí nebo je na určitém místě.",
+          "Je důležité rozlišovat: stehen = stát, sitzen = sedět, liegen = ležet."
+        ],
+        "examples": [
+          {
+            "de": "Ich stehe an der Tür.",
+            "lv": "Stojím u dveří."
+          },
+          {
+            "de": "Der Stuhl steht in der Küche.",
+            "lv": "Židle je v kuchyni."
+          },
+          {
+            "de": "Er sitzt am Tisch.",
+            "lv": "Sedí u stolu."
+          },
+          {
+            "de": "Das Buch liegt auf dem Tisch.",
+            "lv": "Kniha je na stole."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "stehen",
+            "meaning": "Stát / stát",
+            "example": "Ich stehe hier."
+          },
+          {
+            "word": "sitzen",
+            "meaning": "Sedět",
+            "example": "Er sitzt am Tisch."
+          },
+          {
+            "word": "liegen",
+            "meaning": "Spát / ležet",
+            "example": "Das Buch liegt dort."
+          },
+          {
+            "word": "stellen",
+            "meaning": "Postavit vzpřímeně",
+            "example": "Ich stelle die Flasche hin."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: ve stoje → stehen • Sezení → sitzen • Vleže → liegen."
+        },
+        "important": [
+          "Stehen ukazuje stav, nikoli akci „odkládání“.",
+          "Postavit předmět vzpřímeně je šmrnc, ne stehen."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "stehen"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní"
+            ],
+            "red": [
+              "sitzen",
+              "liegen"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "stehe"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Stojím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "steht"
+                ],
+                "yellow": [
+                  "Stuhl"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Židle"
+                ],
+                "yellow": [
+                  "Židle"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "sitzt"
+                ]
+              },
+              "lv": {
+                "red": [
+                  "Sedí"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "liegt"
+                ]
+              },
+              "lv": {
+                "red": [
+                  "Kniha"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "stehen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Stát",
+                  "Stát"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "stehe"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "sitzen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "sedět"
+                ]
+              },
+              "example": {
+                "red": [
+                  "sitzt"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "liegen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Spát",
+                  "Spát"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "liegt"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "stellen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Postavit"
+                ]
+              },
+              "example": {
+                "green": [
+                  "stelle"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "stehen"
+              ],
+              "purple": [
+                "Pamatujte"
+              ],
+              "red": [
+                "sitzen"
+              ],
+              "yellow": [
+                "liegen"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "stehen"
+              ],
+              "purple": [
+                "Stehen"
+              ],
+              "green": [
+                "stehen"
+              ]
+            },
+            {
+              "green": [
+                "stehen"
+              ],
+              "blue": [
+                "stehen"
+              ]
+            }
+          ]
+        }
+      },
+      "csMain": "Stát"
+    },
+    {
+      "cardId": "a1-über",
+      "index": 608,
+      "de": "über",
+      "auditType": "changed_card_regression",
+      "repairedFields": [
+        {
+          "field": "study.sectionAccents.tip.left.purple[0]",
+          "ownerValue": "téma"
+        }
+      ],
+      "falsePositiveControl": null,
+      "fullCard": {
+        "cardId": "a1-über",
+        "index": 608,
+        "de": "über",
+        "layout": "standardStudy",
+        "csMain": "Přes • Pro",
+        "studyTranslation": "Přes • Pro",
+        "lvSourceMain": "virs • par",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "virs • par",
+            "csText": "Přes • Pro",
+            "de": "über"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "lampa karājas virs galda.",
+            "csText": "Nad stolem visí lampa.",
+            "de": "über"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "mēs runājam par laiku.",
+            "csText": "Mluvíme o čase.",
+            "de": "über"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "bērns skrien pāri ielai.",
+            "csText": "Dítě běží přes ulici.",
+            "de": "über"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "es priecājos par dāvanu.",
+            "csText": "Z dárku mám radost.",
+            "de": "über"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "über",
+            "csText": "über",
+            "de": "über"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "virs / par / pāri",
+            "csText": "Přes / přes / přes",
+            "de": "über"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "auf",
+            "csText": "auf",
+            "de": "über"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "uz virsmas",
+            "csText": "Na povrchu",
+            "de": "über"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "unter",
+            "csText": "unter",
+            "de": "über"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "zem",
+            "csText": "Pod",
+            "de": "über"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "von",
+            "csText": "von",
+            "de": "über"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "no / par no kāda avota",
+            "csText": "Z / asi z nějakého zdroje",
+            "de": "über"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: tēma sarunā → über; virs galda → über.",
+            "csText": "Pamatujte: téma konverzace → über • Nad stolem → über.",
+            "de": "über"
+          }
+        ],
+        "study": {
+          "id": "a1-über",
+          "layout": "standardStudy",
+          "translation": "Přes • Pro",
+          "explanation": [
+            "Hlavní myšlenka: über znamená nahoře nebo asi v závislosti na kontextu.",
+            "Pokud jde o umístění, über často znamená výše.",
+            "Pokud jde o konverzaci, text nebo téma, über znamená asi.",
+            "V pohybu může über znamenat konec."
+          ],
+          "examples": [
+            {
+              "de": "Die Lampe hängt über dem Tisch.",
+              "lv": "Nad stolem visí lampa."
+            },
+            {
+              "de": "Wir sprechen über das Wetter.",
+              "lv": "Mluvíme o čase."
+            },
+            {
+              "de": "Das Kind läuft über die Straße.",
+              "lv": "Dítě běží přes ulici."
+            },
+            {
+              "de": "Ich freue mich über das Geschenk.",
+              "lv": "Z dárku mám radost."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "über",
+              "meaning": "Přes / přes / přes",
+              "example": "Wir sprechen über das Wetter."
+            },
+            {
+              "word": "auf",
+              "meaning": "Na povrchu",
+              "example": "Das Buch liegt auf dem Tisch."
+            },
+            {
+              "word": "unter",
+              "meaning": "Pod",
+              "example": "Die Tasche ist unter dem Tisch."
+            },
+            {
+              "word": "von",
+              "meaning": "Z / asi z nějakého zdroje",
+              "example": "Ich höre von dir."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: téma konverzace → über • Nad stolem → über."
+          },
+          "important": [
+            "Über není jen název místa.",
+            "Sprechen über znamená 'hovořit'."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "über"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "über"
+                  ],
+                  "yellow": [
+                    "Tisch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nad"
+                  ],
+                  "yellow": [
+                    "Nad"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "über"
+                  ],
+                  "green": [
+                    "Wetter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mluvíme"
+                  ],
+                  "green": [
+                    "Mluvíme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "über"
+                  ],
+                  "yellow": [
+                    "Straße"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dítě"
+                  ],
+                  "yellow": [
+                    "Dítě"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "über"
+                  ],
+                  "yellow": [
+                    "Geschenk"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "dárku"
+                  ],
+                  "yellow": [
+                    "dárku"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "über"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Přes",
+                    "Přes",
+                    "Přes"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "über"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "auf"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "povrchu"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "auf"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "unter"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Pod"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "unter"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "von"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "asi"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "von"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "über"
+                ],
+                "purple": [
+                  "téma",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "über"
+                ],
+                "purple": [
+                  "Über"
+                ]
+              },
+              {
+                "blue": [
+                  "sprechen über"
+                ],
+                "purple": [
+                  "Sprechen"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-über",
+          "layout": "standardStudy",
+          "translation": "virs • par",
+          "explanation": [
+            "Galvenā doma: über nozīmē virs vai par atkarībā no konteksta.",
+            "Ja runa ir par atrašanās vietu, über bieži nozīmē virs.",
+            "Ja runa ir par sarunu, tekstu vai tēmu, über nozīmē par.",
+            "Kustībā über var nozīmēt pāri."
+          ],
+          "examples": [
+            {
+              "de": "Die Lampe hängt über dem Tisch.",
+              "lv": "lampa karājas virs galda."
+            },
+            {
+              "de": "Wir sprechen über das Wetter.",
+              "lv": "mēs runājam par laiku."
+            },
+            {
+              "de": "Das Kind läuft über die Straße.",
+              "lv": "bērns skrien pāri ielai."
+            },
+            {
+              "de": "Ich freue mich über das Geschenk.",
+              "lv": "es priecājos par dāvanu."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "über",
+              "meaning": "virs / par / pāri",
+              "example": "Wir sprechen über das Wetter."
+            },
+            {
+              "word": "auf",
+              "meaning": "uz virsmas",
+              "example": "Das Buch liegt auf dem Tisch."
+            },
+            {
+              "word": "unter",
+              "meaning": "zem",
+              "example": "Die Tasche ist unter dem Tisch."
+            },
+            {
+              "word": "von",
+              "meaning": "no / par no kāda avota",
+              "example": "Ich höre von dir."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: tēma sarunā → über; virs galda → über."
+          },
+          "important": [
+            "über nav tikai vietas vārds.",
+            "sprechen über nozīmē “runāt par”."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "über"
+              ],
+              "purple": [
+                "virs",
+                "par",
+                "pāri"
+              ],
+              "green": [
+                "sarunu",
+                "tekstu",
+                "tēmu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "über"
+                  ],
+                  "yellow": [
+                    "Tisch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "virs"
+                  ],
+                  "yellow": [
+                    "galda"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "über"
+                  ],
+                  "green": [
+                    "Wetter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "par"
+                  ],
+                  "green": [
+                    "laiku"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "über"
+                  ],
+                  "yellow": [
+                    "Straße"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pāri"
+                  ],
+                  "yellow": [
+                    "ielai"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "über"
+                  ],
+                  "yellow": [
+                    "Geschenk"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "par"
+                  ],
+                  "yellow": [
+                    "dāvanu"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "über"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "virs",
+                    "par",
+                    "pāri"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "über"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "auf"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz virsmas"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "auf"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "unter"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "zem"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "unter"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "von"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "no"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "von"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "über"
+                ],
+                "purple": [
+                  "tēma",
+                  "virs"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "über"
+                ],
+                "purple": [
+                  "vietas vārds"
+                ]
+              },
+              {
+                "blue": [
+                  "sprechen über"
+                ],
+                "purple": [
+                  "runāt par"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-über",
+        "layout": "standardStudy",
+        "translation": "Přes • Pro",
+        "explanation": [
+          "Hlavní myšlenka: über znamená nahoře nebo asi v závislosti na kontextu.",
+          "Pokud jde o umístění, über často znamená výše.",
+          "Pokud jde o konverzaci, text nebo téma, über znamená asi.",
+          "V pohybu může über znamenat konec."
+        ],
+        "examples": [
+          {
+            "de": "Die Lampe hängt über dem Tisch.",
+            "lv": "Nad stolem visí lampa."
+          },
+          {
+            "de": "Wir sprechen über das Wetter.",
+            "lv": "Mluvíme o čase."
+          },
+          {
+            "de": "Das Kind läuft über die Straße.",
+            "lv": "Dítě běží přes ulici."
+          },
+          {
+            "de": "Ich freue mich über das Geschenk.",
+            "lv": "Z dárku mám radost."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "über",
+            "meaning": "Přes / přes / přes",
+            "example": "Wir sprechen über das Wetter."
+          },
+          {
+            "word": "auf",
+            "meaning": "Na povrchu",
+            "example": "Das Buch liegt auf dem Tisch."
+          },
+          {
+            "word": "unter",
+            "meaning": "Pod",
+            "example": "Die Tasche ist unter dem Tisch."
+          },
+          {
+            "word": "von",
+            "meaning": "Z / asi z nějakého zdroje",
+            "example": "Ich höre von dir."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: téma konverzace → über • Nad stolem → über."
+        },
+        "important": [
+          "Über není jen název místa.",
+          "Sprechen über znamená 'hovořit'."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "über"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "über"
+                ],
+                "yellow": [
+                  "Tisch"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Nad"
+                ],
+                "yellow": [
+                  "Nad"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "über"
+                ],
+                "green": [
+                  "Wetter"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mluvíme"
+                ],
+                "green": [
+                  "Mluvíme"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "über"
+                ],
+                "yellow": [
+                  "Straße"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dítě"
+                ],
+                "yellow": [
+                  "Dítě"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "über"
+                ],
+                "yellow": [
+                  "Geschenk"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "dárku"
+                ],
+                "yellow": [
+                  "dárku"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "über"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Přes",
+                  "Přes",
+                  "Přes"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "über"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "auf"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "povrchu"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "auf"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "unter"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Pod"
+                ]
+              },
+              "example": {
+                "red": [
+                  "unter"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "von"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "asi"
+                ]
+              },
+              "example": {
+                "green": [
+                  "von"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "über"
+              ],
+              "purple": [
+                "téma",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "über"
+              ],
+              "purple": [
+                "Über"
+              ]
+            },
+            {
+              "blue": [
+                "sprechen über"
+              ],
+              "purple": [
+                "Sprechen"
+              ]
+            }
+          ]
+        }
+      },
+      "csMain": "Přes • Pro"
+    },
+    {
+      "cardId": "a1-essen",
+      "index": 690,
+      "de": "essen",
+      "auditType": "changed_card_regression",
+      "repairedFields": [
+        {
+          "field": "study.sectionAccents.explanation.purple[0]",
+          "ownerValue": "jíst"
+        }
+      ],
+      "falsePositiveControl": null,
+      "fullCard": {
+        "cardId": "a1-essen",
+        "index": 690,
+        "de": "essen",
+        "layout": "standardStudy",
+        "csMain": "Jíst",
+        "studyTranslation": "Jíst",
+        "lvSourceMain": "ēst",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "ēst",
+            "csText": "Jíst",
+            "de": "essen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Es labprāt ēdu picu.",
+            "csText": "Rád jím pizzu.",
+            "de": "essen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "ko jūs gribat ēst?",
+            "csText": "Co chceš jíst",
+            "de": "essen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "mēs ēdam pulksten 12.",
+            "csText": "Jíme ve 12 hodin.",
+            "de": "essen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "ēdiens ir gatavs.",
+            "csText": "Jídlo je hotové.",
+            "de": "essen"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "ēdiens ļoti labi garšo.",
+            "csText": "Jídlo chutná velmi dobře.",
+            "de": "essen"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "ēdiens garšo labi.",
+            "csText": "Jídlo chutná dobře.",
+            "de": "essen"
+          }
+        ],
+        "study": {
+          "id": "a1-essen",
+          "layout": "standardStudy",
+          "translation": "Jíst",
+          "explanation": [
+            "Hlavní myšlenka: Sloveso - jíst jídlo.",
+            "Essen především znamená: konzumovat jídlo.",
+            "Často popisuje: akce.",
+            "Essen v podstatě znamená: jídlo nebo jídlo.",
+            "Často popisuje: déšť.",
+            "Essen znamená jíst.",
+            "Das Essen může znamenat jídlo nebo jídlo obecně."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse gern Pizza.",
+              "lv": "Rád jím pizzu."
+            },
+            {
+              "de": "Was wollt ihr essen?",
+              "lv": "Co chceš jíst"
+            },
+            {
+              "de": "Wir essen um 12 Uhr.",
+              "lv": "Jíme ve 12 hodin."
+            },
+            {
+              "de": "Das Essen ist fertig.",
+              "lv": "Jídlo je hotové."
+            },
+            {
+              "de": "Das Essen schmeckt sehr gut.",
+              "lv": "Jídlo chutná velmi dobře."
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Jídlo chutná dobře."
+            }
+          ],
+          "tip": [
+            "Essen = jísti",
+            "Použijte essen, když kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Essen je sloveso bez článku.",
+            "Das Essen není totéž co essen.",
+            "Akce: essen.",
+            "Případ/jídlo: das Essen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "essen",
+                "essen"
+              ],
+              "purple": [
+                "jíst"
+              ],
+              "blue": [
+                "essen",
+                "esse"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "esse"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "chceš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Essen"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "essen"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-essen",
+          "layout": "standardStudy",
+          "translation": "ēst",
+          "explanation": [
+            "Galvenā doma: Darbības vārds — ēst pārtiku.",
+            "essen galvenokārt nozīmē: patērēt pārtiku.",
+            "Bieži raksturo: darbību.",
+            "essen galvenokārt nozīmē: pārtika vai maltīte.",
+            "Bieži raksturo: lietu.",
+            "essen nozīmē ēst.",
+            "das Essen var nozīmēt ēdienu vai maltīti kopumā."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse gern Pizza.",
+              "lv": "Es labprāt ēdu picu."
+            },
+            {
+              "de": "Was wollt ihr essen?",
+              "lv": "ko jūs gribat ēst?"
+            },
+            {
+              "de": "Wir essen um 12 Uhr.",
+              "lv": "mēs ēdam pulksten 12."
+            },
+            {
+              "de": "Das Essen ist fertig.",
+              "lv": "ēdiens ir gatavs."
+            },
+            {
+              "de": "Das Essen schmeckt sehr gut.",
+              "lv": "ēdiens ļoti labi garšo."
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "ēdiens garšo labi."
+            }
+          ],
+          "tip": [
+            "essen = ēst",
+            "Izmanto essen, kad konteksts atbilst šai nozīmei."
+          ],
+          "important": [
+            "essen ir darbības vārds bez artikula.",
+            "das Essen nav tas pats, kas essen.",
+            "Darbība: essen.",
+            "Lieta/maltīte: das Essen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "essen",
+                "essen"
+              ],
+              "purple": [
+                "ēst"
+              ],
+              "blue": [
+                "essen",
+                "esse"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "esse"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ēst"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "ēst"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "essen"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-essen",
+        "layout": "standardStudy",
+        "translation": "Jíst",
+        "explanation": [
+          "Hlavní myšlenka: Sloveso - jíst jídlo.",
+          "Essen především znamená: konzumovat jídlo.",
+          "Často popisuje: akce.",
+          "Essen v podstatě znamená: jídlo nebo jídlo.",
+          "Často popisuje: déšť.",
+          "Essen znamená jíst.",
+          "Das Essen může znamenat jídlo nebo jídlo obecně."
+        ],
+        "examples": [
+          {
+            "de": "Ich esse gern Pizza.",
+            "lv": "Rád jím pizzu."
+          },
+          {
+            "de": "Was wollt ihr essen?",
+            "lv": "Co chceš jíst"
+          },
+          {
+            "de": "Wir essen um 12 Uhr.",
+            "lv": "Jíme ve 12 hodin."
+          },
+          {
+            "de": "Das Essen ist fertig.",
+            "lv": "Jídlo je hotové."
+          },
+          {
+            "de": "Das Essen schmeckt sehr gut.",
+            "lv": "Jídlo chutná velmi dobře."
+          },
+          {
+            "de": "Das Essen schmeckt gut.",
+            "lv": "Jídlo chutná dobře."
+          }
+        ],
+        "tip": [
+          "Essen = jísti",
+          "Použijte essen, když kontext odpovídá tomuto významu."
+        ],
+        "important": [
+          "Essen je sloveso bez článku.",
+          "Das Essen není totéž co essen.",
+          "Akce: essen.",
+          "Případ/jídlo: das Essen."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "green": [
+              "essen",
+              "essen"
+            ],
+            "purple": [
+              "jíst"
+            ],
+            "blue": [
+              "essen",
+              "esse"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "green": [
+                  "esse"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "essen",
+                  "essen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "chceš"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "essen",
+                  "essen"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "essen",
+                  "essen"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "essen",
+                  "essen"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "essen",
+                  "essen"
+                ]
+              },
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {
+              "purple": [
+                "Essen"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "green": [
+                "essen"
+              ]
+            }
+          ]
+        }
+      },
+      "csMain": "Jíst"
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-sitzen",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Repaired accent values are correct, but unrelated comparison translations still contain semantic errors.",
+      "findings": [
+        {
+          "field": "study.sectionAccents.explanation.purple[0]; study.sectionAccents.explanation.purple[1]; study.sectionAccents.comparison[0].meaning.purple[0]",
+          "validationStatus": "STALE",
+          "severity": "LOW",
+          "currentCs": "sedět; sedí; Sedět",
+          "proposedCs": "sedět; sedí; Sedět",
+          "reason": "All repaired Czech accent values correctly express sitzen and its form sedí.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.comparison[3].meaning",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "Sedět / sednout si",
+          "proposedCs": "Posadit / sednout si",
+          "reason": "setzen does not mean sedět; the comparison conflicts with the important note distinguishing setzen from sitzen.",
+          "confidence": 0.98
+        },
+        {
+          "field": "study.sectionAccents.comparison[2].meaning; study.sectionAccents.comparison[3].meaning",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "LOW",
+          "currentCs": "Spát / Spát; Sedět",
+          "proposedCs": "Spát / ležet; Sednout si",
+          "reason": "Accent values duplicate or misstate the meanings of liegen and setzen.",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "cardId": "a1-stehen",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "The repaired comparison meaning is correct, but the card contains an unrelated mistranslation and duplicated accent content.",
+      "findings": [
+        {
+          "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+          "validationStatus": "STALE",
+          "severity": "LOW",
+          "currentCs": "sedět",
+          "proposedCs": "sedět",
+          "reason": "The repaired Czech meaning correctly translates sitzen in the stehen comparison.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.important[1]",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "Postavit předmět vzpřímeně je šmrnc, ne stehen.",
+          "proposedCs": "Postavit předmět vzpřímeně je stellen, ne stehen.",
+          "reason": "Šmrnc is unrelated and makes the explanation nonsensical; the Latvian meaning supports stellen.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.sectionAccents.explanation.purple; study.sectionAccents.comparison[0].meaning.purple",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "LOW",
+          "currentCs": "Hlavní; Hlavní; Stát; Stát",
+          "proposedCs": "stát; stát; Stát",
+          "reason": "Accent arrays contain duplicated or nonsemantic text inconsistent with the surrounding Czech study content.",
+          "confidence": 0.96
+        }
+      ]
+    },
+    {
+      "cardId": "a1-über",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "The repaired tip accent is correct, but several existing Czech translations distort the core meanings and examples of über.",
+      "findings": [
+        {
+          "field": "study.sectionAccents.tip.left.purple[0]",
+          "validationStatus": "STALE",
+          "severity": "LOW",
+          "currentCs": "téma",
+          "proposedCs": "téma",
+          "reason": "The repaired accent correctly identifies the topic meaning in the tip.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.translation",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "HIGH",
+          "currentCs": "Přes • Pro",
+          "proposedCs": "Nad • O • Přes",
+          "reason": "Pro is not the relevant core meaning here; the translation omits the topic sense o and misrepresents über.",
+          "confidence": 0.98
+        },
+        {
+          "field": "study.explanation[0..3]",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "HIGH",
+          "currentCs": "nahoře; výše; asi; konec",
+          "proposedCs": "nad; výše; o; přes",
+          "reason": "The explanation uses incorrect meanings for topic and motion contexts, breaking the study meaning.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.examples[1].lv",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "HIGH",
+          "currentCs": "Mluvíme o čase.",
+          "proposedCs": "Mluvíme o počasí.",
+          "reason": "The German example says Wetter, but the Czech translation says time instead of weather.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-essen",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "The repaired accent is correct, but the Czech study contains nonsensical explanation text and an incorrect person in an example translation.",
+      "findings": [
+        {
+          "field": "study.sectionAccents.explanation.purple[0]",
+          "validationStatus": "STALE",
+          "severity": "LOW",
+          "currentCs": "jíst",
+          "proposedCs": "jíst",
+          "reason": "The repaired Czech accent correctly translates essen.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.explanation[4]",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "HIGH",
+          "currentCs": "Často popisuje: déšť.",
+          "proposedCs": "Často popisuje: děj nebo akci.",
+          "reason": "Déšť is unrelated to essen and creates a direct contradiction with the verb explanation.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.examples[1].lv",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "Co chceš jíst",
+          "proposedCs": "Co chcete jíst?",
+          "reason": "The German subject is plural ihr, but the Czech uses singular informal chceš and omits the question mark.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.tip[0]",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "LOW",
+          "currentCs": "Essen = jísti",
+          "proposedCs": "Essen = jíst",
+          "reason": "Jísti is archaic and linguistically inappropriate for this A1 study card.",
+          "confidence": 0.98
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-11T16:40:10.966Z"
+}

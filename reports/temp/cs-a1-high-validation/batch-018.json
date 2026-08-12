@@ -1,0 +1,141 @@
+{
+  "batch": "batch-018",
+  "cardIds": [
+    "a1-wann-640",
+    "a1-waschen-645",
+    "a1-Weg-647",
+    "a1-wenig-654",
+    "a1-zumachen-673"
+  ],
+  "findingCount": 5,
+  "findings": [
+    {
+      "findingId": "HIGH-123",
+      "cardId": "a1-wann-640",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "„Wann“ je tázací příslovce „kdy“, zatímco „když“ je spojka pro časovou podmínku.",
+      "auditCurrentCs": "Když",
+      "auditProposedCs": "Kdy",
+      "auditDe": "wann",
+      "auditLvSource": "kad",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Když",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-124",
+      "cardId": "a1-waschen-645",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "„Waschen“ zde není zvratné; „umýt se“ znamená „sich waschen“ a navíc je dokonavé.",
+      "auditCurrentCs": "Umýt se",
+      "auditProposedCs": "Mýt",
+      "auditDe": "waschen",
+      "auditLvSource": "mazgāt",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Umýt se",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-125",
+      "cardId": "a1-Weg-647",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "„Silnice“ je konkrétně komunikace pro vozidla; obecné „Weg“ znamená „cesta“ nebo „stezka“.",
+      "auditCurrentCs": "Silnice",
+      "auditProposedCs": "Cesta",
+      "auditDe": "Weg",
+      "auditLvSource": "ceļš",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Silnice",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-126",
+      "cardId": "a1-wenig-654",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "„Nic moc“ znamená „not much/not very good“, ne německé „wenig“ = „málo“.",
+      "auditCurrentCs": "Nic moc",
+      "auditProposedCs": "Málo",
+      "auditDe": "wenig",
+      "auditLvSource": "maz",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Nic moc",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-127",
+      "cardId": "a1-zumachen-673",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "„Zblízka“ znamená „aus der Nähe“; „zumachen“ je sloveso „zavřít“.",
+      "auditCurrentCs": "Zblízka",
+      "auditProposedCs": "Zavřít",
+      "auditDe": "zumachen",
+      "auditLvSource": "aiztaisīt",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Zblízka",
+      "productionMatchesAudit": true
+    }
+  ],
+  "validations": [
+    {
+      "findingId": "HIGH-123",
+      "cardId": "a1-wann-640",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Německé „wann“ znamená „kdy“, nikoli českou časovou spojku „když“.",
+      "currentCs": "Když",
+      "proposedCs": "Kdy"
+    },
+    {
+      "findingId": "HIGH-124",
+      "cardId": "a1-waschen-645",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.97,
+      "reason": "„Umýt se“ je zvratné a významově užší; obecné „waschen“ zde odpovídá českému „mýt“.",
+      "currentCs": "Umýt se",
+      "proposedCs": "Mýt"
+    },
+    {
+      "findingId": "HIGH-125",
+      "cardId": "a1-Weg-647",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "„Weg“ je obecná cesta nebo stezka; „silnice“ označuje konkrétní druh komunikace pro vozidla.",
+      "currentCs": "Silnice",
+      "proposedCs": "Cesta"
+    },
+    {
+      "findingId": "HIGH-126",
+      "cardId": "a1-wenig-654",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Německé „wenig“ znamená „málo“; „nic moc“ má jiný význam a neodpovídá tomuto heslu.",
+      "currentCs": "Nic moc",
+      "proposedCs": "Málo"
+    },
+    {
+      "findingId": "HIGH-127",
+      "cardId": "a1-zumachen-673",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Zumachen“ znamená „zavřít“, zatímco „zblízka“ odpovídá německému „aus der Nähe“.",
+      "currentCs": "Zblízka",
+      "proposedCs": "Zavřít"
+    }
+  ],
+  "completedAt": "2026-08-11T17:40:51.805Z"
+}

@@ -1,0 +1,141 @@
+{
+  "batch": "batch-008",
+  "cardIds": [
+    "a1-benutzen-83",
+    "a1-bitten-98",
+    "a1-blond-103",
+    "a1-Buchstabe-117",
+    "a1-Cousine-125"
+  ],
+  "findingCount": 5,
+  "findings": [
+    {
+      "findingId": "HIGH-071",
+      "cardId": "a1-benutzen-83",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Použití je podstatné jméno; benutzen je sloveso používat.",
+      "auditCurrentCs": "Použití",
+      "auditProposedCs": "Používat",
+      "auditDe": "benutzen",
+      "auditLvSource": "lietot",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Použití",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-073",
+      "cardId": "a1-bitten-98",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Zeptat se znamená fragen; bitten znamená požádat nebo prosit.",
+      "auditCurrentCs": "Zeptat se",
+      "auditProposedCs": "Požádat",
+      "auditDe": "bitten",
+      "auditLvSource": "lūgt",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Zeptat se",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-074",
+      "cardId": "a1-blond-103",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Blondýnka je podstatné jméno označující blond ženu; blond je přídavné jméno.",
+      "auditCurrentCs": "Blondýnka",
+      "auditProposedCs": "Blondý",
+      "auditDe": "blond",
+      "auditLvSource": "blonds",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Blondýnka",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-075",
+      "cardId": "a1-Buchstabe-117",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "„Dopis“ znamená písemnou zprávu; německé „Buchstabe“ je znak abecedy.",
+      "auditCurrentCs": "Dopis",
+      "auditProposedCs": "Písmeno",
+      "auditDe": "Buchstabe",
+      "auditLvSource": "burts",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Dopis",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-076",
+      "cardId": "a1-Cousine-125",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "„Bratranec“ je mužský bratranec; „Cousine“ označuje ženskou sestřenici.",
+      "auditCurrentCs": "Bratranec",
+      "auditProposedCs": "Sestřenice",
+      "auditDe": "Cousine",
+      "auditLvSource": "māsīca",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Bratranec",
+      "productionMatchesAudit": true
+    }
+  ],
+  "validations": [
+    {
+      "findingId": "HIGH-071",
+      "cardId": "a1-benutzen-83",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Použití“ je podstatné jméno, ale německé „benutzen“ je sloveso; český infinitiv je „Používat“.",
+      "currentCs": "Použití",
+      "proposedCs": "Používat"
+    },
+    {
+      "findingId": "HIGH-073",
+      "cardId": "a1-bitten-98",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Zeptat se“ odpovídá německému „fragen“; „bitten“ znamená požádat nebo prosit.",
+      "currentCs": "Zeptat se",
+      "proposedCs": "Požádat"
+    },
+    {
+      "findingId": "HIGH-074",
+      "cardId": "a1-blond-103",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "„Blondýnka“ je podstatné jméno pro ženu; německé „blond“ je přídavné jméno.",
+      "currentCs": "Blondýnka",
+      "proposedCs": "Blondý"
+    },
+    {
+      "findingId": "HIGH-075",
+      "cardId": "a1-Buchstabe-117",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Dopis“ znamená písemnou zprávu, zatímco německé „Buchstabe“ označuje znak abecedy, tedy písmeno.",
+      "currentCs": "Dopis",
+      "proposedCs": "Písmeno"
+    },
+    {
+      "findingId": "HIGH-076",
+      "cardId": "a1-Cousine-125",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Bratranec“ označuje muže, ale německé „Cousine“ je ženská sestřenice.",
+      "currentCs": "Bratranec",
+      "proposedCs": "Sestřenice"
+    }
+  ],
+  "completedAt": "2026-08-11T17:39:50.099Z"
+}
