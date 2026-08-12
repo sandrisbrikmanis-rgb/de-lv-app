@@ -1,0 +1,486 @@
+{
+  "batch": "validate-018",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00326",
+      "cardId": "a1-ins",
+      "field": "study.explanation[4]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Indas je chybně napsané; jde o dvě slova in das.",
+      "auditCurrentCs": "V praxi se téměř vždy používá místo plného indas.",
+      "auditProposedCs": "V praxi se téměř vždy používá místo plného in das.",
+      "auditDe": "in das",
+      "auditLvSource": "in das",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "V praxi se téměř vždy používá místo plného indas.",
+      "cardContext": {
+        "cardId": "a1-ins",
+        "de": "ins",
+        "csMain": "V • Do • Kam?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00327",
+      "cardId": "a1-ins",
+      "field": "study.tip[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "První otázka je chybně uvedena jako kde? místo kam?; opraven je i typografický oddělovač.",
+      "auditCurrentCs": "Kde? → ins • Kde? → im - to je hlavní rozdíl!",
+      "auditProposedCs": "Kam? → ins • Kde? → im – to je hlavní rozdíl!",
+      "auditDe": "ins",
+      "auditLvSource": "kurp? → ins; kur? → im",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Kde? → ins • Kde? → im - to je hlavní rozdíl!",
+      "cardContext": {
+        "cardId": "a1-ins",
+        "de": "ins",
+        "csMain": "V • Do • Kam?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00328",
+      "cardId": "a1-in",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Český tip je nesmyslný a neobjasňuje význam německé předložky.",
+      "auditCurrentCs": "Pamatujte: v/v → v.",
+      "auditProposedCs": "Pamatujte: uvnitř / v prostoru → in.",
+      "auditDe": "in",
+      "auditLvSource": "Atceries: iekšā/telpā → in.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pamatujte: v/v → v.",
+      "cardContext": {
+        "cardId": "a1-in",
+        "de": "in",
+        "csMain": "V • Do",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00329",
+      "cardId": "a1-jung",
+      "field": "study.examples[4].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Junges Paar znamená mladý pár; nový pár mění význam na nově vzniklý pár.",
+      "auditCurrentCs": "Je to nový pár.",
+      "auditProposedCs": "Je to mladý pár.",
+      "auditDe": "Das ist ein junges Paar.",
+      "auditLvSource": "jauns pāris",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Je to nový pár.",
+      "cardContext": {
+        "cardId": "a1-jung",
+        "de": "jung",
+        "csMain": "Mladý (o lidech)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00330",
+      "cardId": "a1-kein",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Kein je záporný člen před podstatným jménem, ne přímý překlad zájmen nikdo a nic.",
+      "auditCurrentCs": "Nikdo • Nic",
+      "auditProposedCs": "Žádný • Žádná • Žádné",
+      "auditDe": "kein",
+      "auditLvSource": "neviens • nekāds",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Nikdo • Nic",
+      "cardContext": {
+        "cardId": "a1-kein",
+        "de": "kein",
+        "csMain": "Nikdo • Nic",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00331",
+      "cardId": "a1-kein",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Kein je záporný člen před podstatným jménem, ne přímý překlad zájmen nikdo a nic.",
+      "auditCurrentCs": "Nikdo • Nic",
+      "auditProposedCs": "Žádný • Žádná • Žádné",
+      "auditDe": "kein",
+      "auditLvSource": "neviens • nekāds",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Nikdo • Nic",
+      "cardContext": {
+        "cardId": "a1-kein",
+        "de": "kein",
+        "csMain": "Nikdo • Nic",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00332",
+      "cardId": "a1-kennen-study",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Kennen znamená znát osobu, místo nebo věc; vědět odpovídá německému wissen.",
+      "auditCurrentCs": "Vědět",
+      "auditProposedCs": "Znát",
+      "auditDe": "kennen",
+      "auditLvSource": "pazīt",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Vědět",
+      "cardContext": {
+        "cardId": "a1-kennen-study",
+        "de": "kennen",
+        "csMain": "Vědět",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00333",
+      "cardId": "a1-kennen-study",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Kennen znamená znát osobu, místo nebo věc; vědět odpovídá německému wissen.",
+      "auditCurrentCs": "Vědět",
+      "auditProposedCs": "Znát",
+      "auditDe": "kennen",
+      "auditLvSource": "pazīt",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Vědět",
+      "cardContext": {
+        "cardId": "a1-kennen-study",
+        "de": "kennen",
+        "csMain": "Vědět",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00334",
+      "cardId": "a1-kennen-study",
+      "field": "study.examples[4].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Současný text je nesrozumitelný a obsahuje kontaminaci; kennen je znát, wissen je vědět.",
+      "auditCurrentCs": "Poznat moudrý",
+      "auditProposedCs": "Znát; wissen = vědět",
+      "auditDe": "kennen",
+      "auditLvSource": "pazīt; wissen",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Poznat moudrý",
+      "cardContext": {
+        "cardId": "a1-kennen-study",
+        "de": "kennen",
+        "csMain": "Vědět",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00335",
+      "cardId": "a1-wissen-study",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Německé Sie je vykání nebo 3. osoba množného čísla, ne tykání.",
+      "auditCurrentCs": "Jak to víš?",
+      "auditProposedCs": "Jak to víte?",
+      "auditDe": "Woher wissen Sie das?",
+      "auditLvSource": "no kurienes jūs to zināt?",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Jak to víš?",
+      "cardContext": {
+        "cardId": "a1-wissen-study",
+        "de": "wissen",
+        "csMain": "Vědět",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00336",
+      "cardId": "a1-können",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Können neznamená „vědět“; vyjadřuje schopnost nebo možnost, česky hlavně umět či moci.",
+      "auditCurrentCs": "Umět • Vědět",
+      "auditProposedCs": "Umět • Moci",
+      "auditDe": "können",
+      "auditLvSource": "varēt • prast",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Umět • Vědět",
+      "cardContext": {
+        "cardId": "a1-können",
+        "de": "können",
+        "csMain": "Umět • Vědět",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00337",
+      "cardId": "a1-können",
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Vysvětlení nesprávně uvádí „vědět“ místo „umět“.",
+      "auditCurrentCs": "Pokud jde o schopnosti nebo dovednosti, češtině často říká vědět.",
+      "auditProposedCs": "Pokud jde o schopnosti nebo dovednosti, čeština často používá sloveso umět.",
+      "auditDe": "können",
+      "auditLvSource": "Ja runa ir par spēju vai prasmi, latviski bieži saka prast.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pokud jde o schopnosti nebo dovednosti, češtině často říká vědět.",
+      "cardContext": {
+        "cardId": "a1-können",
+        "de": "können",
+        "csMain": "Umět • Vědět",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00338",
+      "cardId": "a1-können",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Druhá česká významová položka je chybná; wissen znamená vědět.",
+      "auditCurrentCs": "Být schopen / vědět",
+      "auditProposedCs": "Umět / moci",
+      "auditDe": "können",
+      "auditLvSource": "varēt / prast",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Být schopen / vědět",
+      "cardContext": {
+        "cardId": "a1-können",
+        "de": "können",
+        "csMain": "Umět • Vědět",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00339",
+      "cardId": "a1-können",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Text obsahuje poškozenou a významově chybnou formulaci; müssen znamená muset.",
+      "auditCurrentCs": "Potřebovat / být ano-",
+      "auditProposedCs": "Mus et / být nucen",
+      "auditDe": "müssen",
+      "auditLvSource": "vajadzēt / būt jā-",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Potřebovat / být ano-",
+      "cardContext": {
+        "cardId": "a1-können",
+        "de": "können",
+        "csMain": "Umět • Vědět",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00340",
+      "cardId": "a1-können",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Být dovoleno“ je doslovné a nepřirozené jako slovníkový překlad slovesa dürfen.",
+      "auditCurrentCs": "Být dovoleno",
+      "auditProposedCs": "Smět / mít dovoleno",
+      "auditDe": "dürfen",
+      "auditLvSource": "drīkstēt",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Být dovoleno",
+      "cardContext": {
+        "cardId": "a1-können",
+        "de": "können",
+        "csMain": "Umět • Vědět",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00326",
+      "cardId": "a1-ins",
+      "field": "study.explanation[4]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Text obsahuje cizí chybné spojení „indas“ místo německého „in das“.",
+      "currentCs": "V praxi se téměř vždy používá místo plného indas.",
+      "proposedCs": "V praxi se téměř vždy používá místo plného in das."
+    },
+    {
+      "findingId": "FINAL-A1-00327",
+      "cardId": "a1-ins",
+      "field": "study.tip[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "U ins je správná otázka kam?, zatímco kde? patří k im.",
+      "currentCs": "Kde? → ins • Kde? → im - to je hlavní rozdíl!",
+      "proposedCs": "Kam? → ins • Kde? → im – to je hlavní rozdíl!"
+    },
+    {
+      "findingId": "FINAL-A1-00328",
+      "cardId": "a1-in",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Tip je významově nesmyslný a nevysvětluje význam předložky in.",
+      "currentCs": "Pamatujte: v/v → v.",
+      "proposedCs": "Pamatujte: uvnitř / v prostoru → in."
+    },
+    {
+      "findingId": "FINAL-A1-00329",
+      "cardId": "a1-jung",
+      "field": "study.examples[4].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "Junges Paar znamená mladý pár; „nový pár“ mění význam německé věty.",
+      "currentCs": "Je to nový pár.",
+      "proposedCs": "Je to mladý pár."
+    },
+    {
+      "findingId": "FINAL-A1-00330",
+      "cardId": "a1-kein",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "Kein je záporný člen před podstatným jménem, nikoli česká zájmena nikdo a nic.",
+      "currentCs": "Nikdo • Nic",
+      "proposedCs": "Žádný • Žádná • Žádné"
+    },
+    {
+      "findingId": "FINAL-A1-00331",
+      "cardId": "a1-kein",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "Kein je záporný člen před podstatným jménem, nikoli česká zájmena nikdo a nic.",
+      "currentCs": "Nikdo • Nic",
+      "proposedCs": "Žádný • Žádná • Žádné"
+    },
+    {
+      "findingId": "FINAL-A1-00332",
+      "cardId": "a1-kennen-study",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Kennen znamená znát; české „vědět“ odpovídá německému wissen.",
+      "currentCs": "Vědět",
+      "proposedCs": "Znát"
+    },
+    {
+      "findingId": "FINAL-A1-00333",
+      "cardId": "a1-kennen-study",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Kennen znamená znát; české „vědět“ odpovídá německému wissen.",
+      "currentCs": "Vědět",
+      "proposedCs": "Znát"
+    },
+    {
+      "findingId": "FINAL-A1-00334",
+      "cardId": "a1-kennen-study",
+      "field": "study.examples[4].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Text je nesrozumitelný a obsahuje významovou kontaminaci mezi kennen a wissen.",
+      "currentCs": "Poznat moudrý",
+      "proposedCs": "Znát; wissen = vědět"
+    },
+    {
+      "findingId": "FINAL-A1-00335",
+      "cardId": "a1-wissen-study",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Německé Sie vyžaduje české vykání, nikoli tykání.",
+      "currentCs": "Jak to víš?",
+      "proposedCs": "Jak to víte?"
+    },
+    {
+      "findingId": "FINAL-A1-00336",
+      "cardId": "a1-können",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Können vyjadřuje schopnost nebo možnost; „vědět“ je chybný význam.",
+      "currentCs": "Umět • Vědět",
+      "proposedCs": "Umět • Moci"
+    },
+    {
+      "findingId": "FINAL-A1-00337",
+      "cardId": "a1-können",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Vysvětlení chybně uvádí vědět místo umět pro schopnosti a dovednosti.",
+      "currentCs": "Pokud jde o schopnosti nebo dovednosti, češtině často říká vědět.",
+      "proposedCs": "Pokud jde o schopnosti nebo dovednosti, čeština často používá sloveso umět."
+    },
+    {
+      "findingId": "FINAL-A1-00338",
+      "cardId": "a1-können",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "Položka obsahuje chybný význam vědět; können odpovídá umět nebo moci.",
+      "currentCs": "Být schopen / vědět",
+      "proposedCs": "Umět / moci"
+    },
+    {
+      "findingId": "FINAL-A1-00339",
+      "cardId": "a1-können",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Položka je poškozená a významově chybná; müssen znamená muset nebo být nucen.",
+      "currentCs": "Potřebovat / být ano-",
+      "proposedCs": "Muset / být nucen"
+    },
+    {
+      "findingId": "FINAL-A1-00340",
+      "cardId": "a1-können",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": 0.95,
+      "reason": "„Být dovoleno“ je gramaticky správný český význam; navržená varianta je pouze přirozenější synonymum.",
+      "currentCs": "Být dovoleno"
+    }
+  ]
+}

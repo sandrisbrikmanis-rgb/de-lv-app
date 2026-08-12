@@ -1,0 +1,487 @@
+{
+  "batch": "validate-021",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00372",
+      "cardId": "a1-legen",
+      "field": "study.explanation[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Vysvětlení uvádí pro obě slovesa stejný význam a zaměňuje legen za liegen.",
+      "auditCurrentCs": "Na úrovni A1 je nejdůležitější rozdíl: legen = ležet, liegen = ležet.",
+      "auditProposedCs": "Na úrovni A1 je nejdůležitější rozdíl: legen = položit, liegen = ležet.",
+      "auditDe": "legen / liegen",
+      "auditLvSource": "nolikt / atrasties guļus",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Na úrovni A1 je nejdůležitější rozdíl: legen = ležet, liegen = ležet.",
+      "cardContext": {
+        "cardId": "a1-legen",
+        "de": "legen",
+        "csMain": "Položit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00373",
+      "cardId": "a1-legen",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Tip nesprávně spojuje „ležíte“ se slovesem legen; legen vyjadřuje položení, liegen stav.",
+      "auditCurrentCs": "Pamatujte: ležíte → legen • Ta věc už tam je → liegen.",
+      "auditProposedCs": "Pamatujte: pokládáte → legen • Ta věc už leží → liegen.",
+      "auditDe": "legen / liegen",
+      "auditLvSource": "tu noliec → legen; lieta jau atrodas → liegen.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pamatujte: ležíte → legen • Ta věc už tam je → liegen.",
+      "cardContext": {
+        "cardId": "a1-legen",
+        "de": "legen",
+        "csMain": "Položit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00374",
+      "cardId": "a1-legen",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Kniha lže“ je překlep a mění význam; také první překlad zbytečně používá minulý čas.",
+      "auditCurrentCs": "Ich lege das Buch = knihu jsem odložil. Das Buch liegt = kniha lže.",
+      "auditProposedCs": "Ich lege das Buch = Položím knihu. Das Buch liegt = Kniha leží.",
+      "auditDe": "Das Buch liegt auf dem Tisch.",
+      "auditLvSource": "grāmata atrodas uz galda.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Ich lege das Buch = knihu jsem odložil. Das Buch liegt = kniha lže.",
+      "cardContext": {
+        "cardId": "a1-legen",
+        "de": "legen",
+        "csMain": "Položit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00375",
+      "cardId": "a1-leise-study",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Klid“ znamená calm/peace, nikoli německé leise ve významu tichý nebo potichu.",
+      "auditCurrentCs": "Klid",
+      "auditProposedCs": "Tichý • Potichu",
+      "auditDe": "leise",
+      "auditLvSource": "kluss",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Klid",
+      "cardContext": {
+        "cardId": "a1-leise-study",
+        "de": "leise",
+        "csMain": "Tichý • Potichu",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00376",
+      "cardId": "a1-leise-study",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Po oslovení na začátku věty je v češtině nutná čárka.",
+      "auditCurrentCs": "Prosím mluv potichu.",
+      "auditProposedCs": "Prosím, mluv potichu.",
+      "auditDe": "Sprich bitte leise.",
+      "auditLvSource": "lūdzu, runā klusi.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Prosím mluv potichu.",
+      "cardContext": {
+        "cardId": "a1-leise-study",
+        "de": "leise",
+        "csMain": "Tichý • Potichu",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00377",
+      "cardId": "a1-leise-study",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Objem“ označuje množství/velikost, zatímco leise zde označuje nízkou hlasitost.",
+      "auditCurrentCs": "Leise = objem.",
+      "auditProposedCs": "Leise = hlasitost.",
+      "auditDe": "leise",
+      "auditLvSource": "leise = skaļums.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Leise = objem.",
+      "cardContext": {
+        "cardId": "a1-leise-study",
+        "de": "leise",
+        "csMain": "Tichý • Potichu",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00379",
+      "cardId": "a1-liegen",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Stát“ odpovídá německému stehen, nikoli liegen.",
+      "auditCurrentCs": "Liegen ukazuje stát nebo umístění.",
+      "auditProposedCs": "Liegen ukazuje polohu nebo umístění.",
+      "auditDe": "liegen",
+      "auditLvSource": "liegen rāda stāvokli vai atrašanās vietu.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Liegen ukazuje stát nebo umístění.",
+      "cardContext": {
+        "cardId": "a1-liegen",
+        "de": "liegen",
+        "csMain": "Ležet • Být položený",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00380",
+      "cardId": "a1-liegen",
+      "field": "study.sectionAccents.examples[2].lv.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Zvýrazněný český text mění význam z leží na spí; německé liegen zde neznamená spát.",
+      "auditCurrentCs": "Spí",
+      "auditProposedCs": "Leží",
+      "auditDe": "Er liegt im Bett.",
+      "auditLvSource": "viņš guļ gultā.",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Spí",
+      "cardContext": {
+        "cardId": "a1-liegen",
+        "de": "liegen",
+        "csMain": "Ležet • Být položený",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00381",
+      "cardId": "a1-machen",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Chybí otazník a „to“ zde není přirozené ani významově potřebné.",
+      "auditCurrentCs": "Co to děláš",
+      "auditProposedCs": "Co děláš?",
+      "auditDe": "Was machst du?",
+      "auditLvSource": "ko tu dari?",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Co to děláš",
+      "cardContext": {
+        "cardId": "a1-machen",
+        "de": "machen",
+        "csMain": "Dělat • Vyrábět",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00382",
+      "cardId": "a1-machen",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "CRITICAL",
+      "auditProblem": "„Byl machst du?“ obsahuje chybu v německé frázi; správně je „Was machst du?“.",
+      "auditCurrentCs": "Pamatujte: Byl machst du? = Co děláš?",
+      "auditProposedCs": "Pamatujte: Was machst du? = Co děláš?",
+      "auditDe": "Was machst du?",
+      "auditLvSource": "Was machst du? = Ko tu dari?",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Pamatujte: Byl machst du? = Co děláš?",
+      "cardContext": {
+        "cardId": "a1-machen",
+        "de": "machen",
+        "csMain": "Dělat • Vyrábět",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00383",
+      "cardId": "a1-mal",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Německé Mal ve výrazech ein Mal/das erste Mal znamená krát nebo příležitost, ne obecný čas.",
+      "auditCurrentCs": "Čas",
+      "auditProposedCs": "Krát • Příležitost",
+      "auditDe": "Mal",
+      "auditLvSource": "reize",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Čas",
+      "cardContext": {
+        "cardId": "a1-mal",
+        "de": "Mal",
+        "csMain": "Krát • Případ",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00384",
+      "cardId": "a1-mal",
+      "field": "study.explanation[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Jednou“ odpovídá einmal; das Mal je podstatné jméno označující počet opakování či příležitost.",
+      "auditCurrentCs": "Hlavní myšlenka: das Mal znamená jednou jako událost nebo příležitost.",
+      "auditProposedCs": "Hlavní myšlenka: das Mal znamená krát nebo příležitost jako událost.",
+      "auditDe": "das Mal",
+      "auditLvSource": "das Mal nozīmē reizi kā notikumu vai gadījumu.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Hlavní myšlenka: das Mal znamená jednou jako událost nebo příležitost.",
+      "cardContext": {
+        "cardId": "a1-mal",
+        "de": "Mal",
+        "csMain": "Krát • Případ",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00385",
+      "cardId": "a1-mal",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "„Počítat časy“ je v tomto významu nepřirozené a může znamenat měřit čas.",
+      "auditCurrentCs": "Ein Mal, zwei Mal - počítat časy.",
+      "auditProposedCs": "Ein Mal, zwei Mal – počítat opakování.",
+      "auditDe": "ein Mal, zwei Mal",
+      "auditLvSource": "skaita reizes.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Ein Mal, zwei Mal - počítat časy.",
+      "cardContext": {
+        "cardId": "a1-mal",
+        "de": "Mal",
+        "csMain": "Krát • Případ",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00386",
+      "cardId": "a1-mann",
+      "field": "study.sectionAccents.tip[1].purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Zvýraznění je významově opačné: der/ein Mann se používá bez přivlastňovacího zájmena.",
+      "auditCurrentCs": "Přivlastňovací",
+      "auditProposedCs": "Bez přivlastňovacího zájmena",
+      "auditDe": "der Mann, ein Mann",
+      "auditLvSource": "Bez piederības vārda",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Přivlastňovací",
+      "cardContext": {
+        "cardId": "a1-mann",
+        "de": "Mann",
+        "csMain": "Muž • Manžel",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00387",
+      "cardId": "a1-mit",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "CRITICAL",
+      "auditProblem": "„Kde bydlíš?“ znamená Where do you live? a nesouvisí s německým Kommst du mit?",
+      "auditCurrentCs": "Kde bydlíš? znamená \"Půjdeš se mnou?\"",
+      "auditProposedCs": "Kommst du mit? znamená „Půjdeš se mnou?“",
+      "auditDe": "Kommst du mit?",
+      "auditLvSource": "Kommst du mit? nozīmē “Vai tu nāksi līdzi?”",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Kde bydlíš? znamená \"Půjdeš se mnou?\"",
+      "cardContext": {
+        "cardId": "a1-mit",
+        "de": "mit",
+        "csMain": "S",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00372",
+      "cardId": "a1-legen",
+      "field": "study.explanation[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Legen means to lay or put down, while liegen means to lie; the current explanation gives both the same incorrect Czech meaning.",
+      "currentCs": "Na úrovni A1 je nejdůležitější rozdíl: legen = ležet, liegen = ležet.",
+      "proposedCs": "Na úrovni A1 je nejdůležitější rozdíl: legen = položit, liegen = ležet."
+    },
+    {
+      "findingId": "FINAL-A1-00373",
+      "cardId": "a1-legen",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "The tip incorrectly associates ležíte with legen; legen describes placing something, while liegen describes its resulting position.",
+      "currentCs": "Pamatujte: ležíte → legen • Ta věc už tam je → liegen.",
+      "proposedCs": "Pamatujte: pokládáte → legen • Ta věc už leží → liegen."
+    },
+    {
+      "findingId": "FINAL-A1-00374",
+      "cardId": "a1-legen",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 1,
+      "reason": "The first translation changes the tense and the second contains the typo lže instead of leží, creating a semantic error.",
+      "currentCs": "Ich lege das Buch = knihu jsem odložil. Das Buch liegt = kniha lže.",
+      "proposedCs": "Ich lege das Buch = Položím knihu. Das Buch liegt = Kniha leží."
+    },
+    {
+      "findingId": "FINAL-A1-00375",
+      "cardId": "a1-leise-study",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Klid means calm or peace, not the core meaning of leise, which is quiet or softly.",
+      "currentCs": "Klid",
+      "proposedCs": "Tichý • Potichu"
+    },
+    {
+      "findingId": "FINAL-A1-00376",
+      "cardId": "a1-leise-study",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": 0.98,
+      "reason": "The Czech vocative-like introductory request Prosím requires a comma before the imperative.",
+      "currentCs": "Prosím mluv potichu.",
+      "proposedCs": "Prosím, mluv potichu."
+    },
+    {
+      "findingId": "FINAL-A1-00377",
+      "cardId": "a1-leise-study",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 1,
+      "reason": "Objem means volume or quantity; in this context leise concerns loudness, expressed as hlasitost.",
+      "currentCs": "Leise = objem.",
+      "proposedCs": "Leise = hlasitost."
+    },
+    {
+      "findingId": "FINAL-A1-00379",
+      "cardId": "a1-liegen",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Stát means to stand, corresponding to stehen, not liegen. The wording should describe position or location.",
+      "currentCs": "Liegen ukazuje stát nebo umístění.",
+      "proposedCs": "Liegen ukazuje polohu nebo umístění."
+    },
+    {
+      "findingId": "FINAL-A1-00380",
+      "cardId": "a1-liegen",
+      "field": "study.sectionAccents.examples[2].lv.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.98,
+      "reason": "For Er liegt im Bett, the highlighted Czech meaning should be leží; spí adds the separate meaning sleeps.",
+      "currentCs": "Spí",
+      "proposedCs": "Leží"
+    },
+    {
+      "findingId": "FINAL-A1-00381",
+      "cardId": "a1-machen",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.97,
+      "reason": "The Czech sentence is missing a question mark. Removing to is a natural concise rendering of the German question.",
+      "currentCs": "Co to děláš",
+      "proposedCs": "Co děláš?"
+    },
+    {
+      "findingId": "FINAL-A1-00382",
+      "cardId": "a1-machen",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": 1,
+      "reason": "Byl machst du? is invalid German and does not reproduce the source phrase Was machst du?",
+      "currentCs": "Pamatujte: Byl machst du? = Co děláš?",
+      "proposedCs": "Pamatujte: Was machst du? = Co děláš?"
+    },
+    {
+      "findingId": "FINAL-A1-00383",
+      "cardId": "a1-mal",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "In the cited expressions, Mal means a time or occasion, not the general concept of time.",
+      "currentCs": "Čas",
+      "proposedCs": "Krát • Příležitost"
+    },
+    {
+      "findingId": "FINAL-A1-00384",
+      "cardId": "a1-mal",
+      "field": "study.explanation[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.98,
+      "reason": "Jednou primarily translates einmal; das Mal denotes a time or occasion as an occurrence.",
+      "currentCs": "Hlavní myšlenka: das Mal znamená jednou jako událost nebo příležitost.",
+      "proposedCs": "Hlavní myšlenka: das Mal znamená krát nebo příležitost jako událost."
+    },
+    {
+      "findingId": "FINAL-A1-00385",
+      "cardId": "a1-mal",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": 0.96,
+      "reason": "Počítat časy is unnatural here and can suggest measuring time; the intended meaning is counting repetitions.",
+      "currentCs": "Ein Mal, zwei Mal - počítat časy.",
+      "proposedCs": "Ein Mal, zwei Mal – počítat opakování."
+    },
+    {
+      "findingId": "FINAL-A1-00386",
+      "cardId": "a1-mann",
+      "field": "study.sectionAccents.tip[1].purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Der Mann and ein Mann are used without a possessive pronoun; the current highlighted label states the opposite.",
+      "currentCs": "Přivlastňovací",
+      "proposedCs": "Bez přivlastňovacího zájmena"
+    },
+    {
+      "findingId": "FINAL-A1-00387",
+      "cardId": "a1-mit",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": 1,
+      "reason": "Kde bydlíš? means Where do you live? and is unrelated to the German phrase Kommst du mit?",
+      "currentCs": "Kde bydlíš? znamená \"Půjdeš se mnou?\"",
+      "proposedCs": "Kommst du mit? znamená „Půjdeš se mnou?“"
+    }
+  ]
+}

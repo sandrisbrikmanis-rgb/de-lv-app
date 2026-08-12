@@ -1,0 +1,484 @@
+{
+  "batch": "validate-027",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00464",
+      "cardId": "a1-sitzen",
+      "field": "study.comparison[3].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Význam „posadit“ je v češtině bez objektu neúplný; setzen může být tranzitivní.",
+      "auditCurrentCs": "Sednout si / posadit",
+      "auditProposedCs": "Sednout si / posadit někoho",
+      "auditDe": "setzen",
+      "auditLvSource": "apsēsties / nosēdināt",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Sednout si / posadit",
+      "cardContext": {
+        "cardId": "a1-sitzen",
+        "de": "sitzen",
+        "csMain": "Sedět",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00465",
+      "cardId": "a1-sollen",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Přirozený český překlad modálního sollen je „měl by“; „by měl“ není vhodný samostatný titul.",
+      "auditCurrentCs": "By měl",
+      "auditProposedCs": "Měl by",
+      "auditDe": "sollen",
+      "auditLvSource": "vajadzētu",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "By měl",
+      "cardContext": {
+        "cardId": "a1-sollen",
+        "de": "sollen",
+        "csMain": "By měl",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00466",
+      "cardId": "a1-sollen",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Du je neformální jednotné číslo; „musíte“ je vykání nebo množné číslo a navíc zesiluje sollen na müssen.",
+      "auditCurrentCs": "Musíte přijít",
+      "auditProposedCs": "Máš přijít.",
+      "auditDe": "Du sollst kommen.",
+      "auditLvSource": "tev jāatnāk.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Musíte přijít",
+      "cardContext": {
+        "cardId": "a1-sollen",
+        "de": "sollen",
+        "csMain": "By měl",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00467",
+      "cardId": "a1-sollen",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Sollen vyjadřuje pokyn nebo očekávání, ne nutnost; „musím“ odpovídá müssen.",
+      "auditCurrentCs": "Musím zůstat doma",
+      "auditProposedCs": "Mám zůstat doma.",
+      "auditDe": "Ich soll zu Hause bleiben.",
+      "auditLvSource": "man jāpaliek mājās.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Musím zůstat doma",
+      "cardContext": {
+        "cardId": "a1-sollen",
+        "de": "sollen",
+        "csMain": "By měl",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00468",
+      "cardId": "a1-sollen",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Podle pole DE jde o sollen; české „musím“ vyjadřuje müssen.",
+      "auditCurrentCs": "Už musím jít",
+      "auditProposedCs": "Už mám jít.",
+      "auditDe": "sollen",
+      "auditLvSource": "man tagad jāiet.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Už musím jít",
+      "cardContext": {
+        "cardId": "a1-sollen",
+        "de": "sollen",
+        "csMain": "By měl",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00469",
+      "cardId": "a1-sollen",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Byl soll“ je chybný a významově nesrozumitelný text; jde o německou frázi Was soll ich machen?",
+      "auditCurrentCs": "Byl soll ich machen? je velmi častá věta.",
+      "auditProposedCs": "Was soll ich machen? je velmi častá věta.",
+      "auditDe": "Was soll ich machen?",
+      "auditLvSource": "Was soll ich machen? ir ļoti bieža frāze.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Byl soll ich machen? je velmi častá věta.",
+      "cardContext": {
+        "cardId": "a1-sollen",
+        "de": "sollen",
+        "csMain": "By měl",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00470",
+      "cardId": "a1-sollen",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "České sloveso se v této položce píše s malým počátečním písmenem.",
+      "auditCurrentCs": "Musit / být nutné",
+      "auditProposedCs": "Musit / být nutné",
+      "auditDe": "müssen",
+      "auditLvSource": "obligāti vajadzēt",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Musit / být nutné",
+      "cardContext": {
+        "cardId": "a1-sollen",
+        "de": "sollen",
+        "csMain": "By měl",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00471",
+      "cardId": "a1-stehen",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Autoritativní DE je stehen; „sedí“ odpovídá sitzen a je v rozporu s významem karty.",
+      "auditCurrentCs": "Sedí u stolu.",
+      "auditProposedCs": "Stojí u stolu.",
+      "auditDe": "stehen",
+      "auditLvSource": "viņš sēž pie galda.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Sedí u stolu.",
+      "cardContext": {
+        "cardId": "a1-stehen",
+        "de": "stehen",
+        "csMain": "Stát",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00472",
+      "cardId": "a1-stehen",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Liegen znamená „ležet“, nikoli „spát“.",
+      "auditCurrentCs": "Spát / ležet",
+      "auditProposedCs": "Ležet",
+      "auditDe": "liegen",
+      "auditLvSource": "gulēt / atrasties guļus",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Spát / ležet",
+      "cardContext": {
+        "cardId": "a1-stehen",
+        "de": "stehen",
+        "csMain": "Stát",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00473",
+      "cardId": "a1-stehen",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Je šmrnc“ je nesmyslná česká formulace a neodpovídá významu německého stellen.",
+      "auditCurrentCs": "Postavit předmět vzpřímeně je šmrnc, ne stehen.",
+      "auditProposedCs": "Postavit předmět vzpřímeně je stellen, ne stehen.",
+      "auditDe": "stehen / stellen",
+      "auditLvSource": "Nolikt priekšmetu stāvus ir stellen, nevis stehen.",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Postavit předmět vzpřímeně je šmrnc, ne stehen.",
+      "cardContext": {
+        "cardId": "a1-stehen",
+        "de": "stehen",
+        "csMain": "Stát",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00474",
+      "cardId": "a1-über",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Pro“ neodpovídá běžným významům über; chybí význam „nad“ a „o“.",
+      "auditCurrentCs": "Přes • Pro",
+      "auditProposedCs": "Nad • O • Přes",
+      "auditDe": "über",
+      "auditLvSource": "virs • par",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Přes • Pro",
+      "cardContext": {
+        "cardId": "a1-über",
+        "de": "über",
+        "csMain": "Přes • Pro",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00475",
+      "cardId": "a1-über",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Předložka über u tématu znamená „o“, nikoli „asi“.",
+      "auditCurrentCs": "Pokud jde o konverzaci, text nebo téma, über znamená asi.",
+      "auditProposedCs": "Pokud jde o konverzaci, text nebo téma, über znamená o.",
+      "auditDe": "über",
+      "auditLvSource": "par",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pokud jde o konverzaci, text nebo téma, über znamená asi.",
+      "cardContext": {
+        "cardId": "a1-über",
+        "de": "über",
+        "csMain": "Přes • Pro",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00476",
+      "cardId": "a1-über",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Wetter znamená „počasí“, zatímco český text překládá lotyšské „čas“.",
+      "auditCurrentCs": "Mluvíme o čase.",
+      "auditProposedCs": "Mluvíme o počasí.",
+      "auditDe": "Wir sprechen über das Wetter.",
+      "auditLvSource": "Mluvíme o čase.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Mluvíme o čase.",
+      "cardContext": {
+        "cardId": "a1-über",
+        "de": "über",
+        "csMain": "Přes • Pro",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00477",
+      "cardId": "a1-über",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Všechny tři české významy jsou chybně uvedeny jako „přes“.",
+      "auditCurrentCs": "Přes / přes / přes",
+      "auditProposedCs": "Nad / o / přes",
+      "auditDe": "über",
+      "auditLvSource": "virs / par / pāri",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Přes / přes / přes",
+      "cardContext": {
+        "cardId": "a1-über",
+        "de": "über",
+        "csMain": "Přes • Pro",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00478",
+      "cardId": "a1-über",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Překlad je správný; položka je PASS.",
+      "auditCurrentCs": "Na povrchu",
+      "auditProposedCs": "Na povrchu",
+      "auditDe": "auf",
+      "auditLvSource": "uz virsmas",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Na povrchu",
+      "cardContext": {
+        "cardId": "a1-über",
+        "de": "über",
+        "csMain": "Přes • Pro",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00464",
+      "cardId": "a1-sitzen",
+      "field": "study.comparison[3].meaning",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": 0.96,
+      "reason": "„Posadit“ je platný český infinitiv; nevyjádřený objekt je v lexikálním významu běžně implicitní.",
+      "currentCs": "Sednout si / posadit"
+    },
+    {
+      "findingId": "FINAL-A1-00465",
+      "cardId": "a1-sollen",
+      "field": "study.translation",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": 0.94,
+      "reason": "„By měl“ je gramaticky správné a významově odpovídá sollen; „měl by“ je pouze přirozenější slovosled.",
+      "currentCs": "By měl"
+    },
+    {
+      "findingId": "FINAL-A1-00466",
+      "cardId": "a1-sollen",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Musíte“ vyjadřuje vykání nebo množné číslo a mění sollen na význam müssen; Du vyžaduje jednotné neformální oslovení.",
+      "currentCs": "Musíte přijít",
+      "proposedCs": "Máš přijít."
+    },
+    {
+      "findingId": "FINAL-A1-00467",
+      "cardId": "a1-sollen",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Musím“ znamená nutnost odpovídající müssen, nikoli pokyn nebo očekávání vyjádřené sollen.",
+      "currentCs": "Musím zůstat doma",
+      "proposedCs": "Mám zůstat doma."
+    },
+    {
+      "findingId": "FINAL-A1-00468",
+      "cardId": "a1-sollen",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "České „musím“ vyjadřuje nutnost, zatímco zde sollen znamená, že mám jít nebo se očekává, že půjdu.",
+      "currentCs": "Už musím jít",
+      "proposedCs": "Už mám jít."
+    },
+    {
+      "findingId": "FINAL-A1-00469",
+      "cardId": "a1-sollen",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 1,
+      "reason": "„Byl soll“ je chybný český text a obsahuje německý výraz v nesprávné větné podobě.",
+      "currentCs": "Byl soll ich machen? je velmi častá věta.",
+      "proposedCs": "Was soll ich machen? je velmi častá věta."
+    },
+    {
+      "findingId": "FINAL-A1-00470",
+      "cardId": "a1-sollen",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": 0.98,
+      "reason": "Český infinitiv se v této významové položce píše s malým počátečním písmenem.",
+      "currentCs": "Musit / být nutné",
+      "proposedCs": "musit / být nutné"
+    },
+    {
+      "findingId": "FINAL-A1-00471",
+      "cardId": "a1-stehen",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Při autoritativním německém stehen je „Sedí u stolu“ významově chybně; správně jde o stání.",
+      "currentCs": "Sedí u stolu.",
+      "proposedCs": "Stojí u stolu."
+    },
+    {
+      "findingId": "FINAL-A1-00472",
+      "cardId": "a1-stehen",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Liegen znamená „ležet“; „spát“ je jiný význam a v této srovnávací položce je navíc.",
+      "currentCs": "Spát / ležet",
+      "proposedCs": "Ležet"
+    },
+    {
+      "findingId": "FINAL-A1-00473",
+      "cardId": "a1-stehen",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 1,
+      "reason": "„Je šmrnc“ je nesmyslný český překlad a neodpovídá významu stellen.",
+      "currentCs": "Postavit předmět vzpřímeně je šmrnc, ne stehen.",
+      "proposedCs": "Postavit předmět vzpřímeně je stellen, ne stehen."
+    },
+    {
+      "findingId": "FINAL-A1-00474",
+      "cardId": "a1-über",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Běžné významy über zde zahrnují „nad“, „o“ a „přes“; „pro“ je v této sadě chybná náhrada.",
+      "currentCs": "Přes • Pro",
+      "proposedCs": "Nad • O • Přes"
+    },
+    {
+      "findingId": "FINAL-A1-00475",
+      "cardId": "a1-über",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "U konverzace, textu nebo tématu über znamená české „o“, nikoli „asi“.",
+      "currentCs": "Pokud jde o konverzaci, text nebo téma, über znamená asi.",
+      "proposedCs": "Pokud jde o konverzaci, text nebo téma, über znamená o."
+    },
+    {
+      "findingId": "FINAL-A1-00476",
+      "cardId": "a1-über",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Německé Wetter znamená „počasí“, nikoli „čas“.",
+      "currentCs": "Mluvíme o čase.",
+      "proposedCs": "Mluvíme o počasí."
+    },
+    {
+      "findingId": "FINAL-A1-00477",
+      "cardId": "a1-über",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 1,
+      "reason": "Tři odlišné významy über jsou chybně sjednoceny na „přes“; správné pořadí je „nad / o / přes“.",
+      "currentCs": "Přes / přes / přes",
+      "proposedCs": "Nad / o / přes"
+    },
+    {
+      "findingId": "FINAL-A1-00478",
+      "cardId": "a1-über",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Na povrchu“ je správný český význam německého auf; audit tuto položku sám označuje jako PASS.",
+      "currentCs": "Na povrchu"
+    }
+  ]
+}

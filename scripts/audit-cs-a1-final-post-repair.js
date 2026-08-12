@@ -108,7 +108,8 @@ function main() {
   if (!DETERMINISTIC_ONLY && !LINGUISTIC_ONLY) {
     console.log("\n=== PHASE 3: Finding validation ===");
     const extra = process.argv.includes("--test-batch") ? " --test-batch" : "";
-    run(`node scripts/validate-cs-a1-final-audit-findings.js ${FLAG}${extra}`);
+    const resume = fs.existsSync(paths.validationProgressFile) ? " --resume" : "";
+    run(`node scripts/validate-cs-a1-final-audit-findings.js ${FLAG}${extra}${resume}`);
   }
 
   if (DETERMINISTIC_ONLY || LINGUISTIC_ONLY) {

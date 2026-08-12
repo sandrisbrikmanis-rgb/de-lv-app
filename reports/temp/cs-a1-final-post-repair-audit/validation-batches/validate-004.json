@@ -1,0 +1,487 @@
+{
+  "batch": "validate-004",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00106",
+      "cardId": "a1-Cousine-125",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Bratranec“ označuje mužského bratrance; německé „Cousine“ je ženská sestřenice.",
+      "auditCurrentCs": "Bratranec",
+      "auditProposedCs": "Sestřenice",
+      "auditDe": "Cousine",
+      "auditLvSource": "māsīca",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Bratranec",
+      "cardContext": {
+        "cardId": "a1-Cousine-125",
+        "de": "Cousine",
+        "csMain": "Bratranec",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00107",
+      "cardId": "a1-dein-132",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Dein“ je neformální přivlastňovací zájmeno pro jednotné číslo; „vaše“ je vykání nebo množné číslo.",
+      "auditCurrentCs": "Vaše",
+      "auditProposedCs": "Tvůj",
+      "auditDe": "dein",
+      "auditLvSource": "tavs",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Vaše",
+      "cardContext": {
+        "cardId": "a1-dein-132",
+        "de": "dein",
+        "csMain": "Vaše",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00108",
+      "cardId": "a1-deutsch-135",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Němec“ je osoba; „deutsch“ je přídavné jméno „německý“ (případně jazyk „němčina“).",
+      "auditCurrentCs": "Němec",
+      "auditProposedCs": "Německý",
+      "auditDe": "deutsch",
+      "auditLvSource": "vācu",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Němec",
+      "cardContext": {
+        "cardId": "a1-deutsch-135",
+        "de": "deutsch",
+        "csMain": "Němec",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00109",
+      "cardId": "a1-du-149",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Du“ je neformální zájmeno jednotného čísla; „vy“ vyjadřuje množné číslo nebo vykání.",
+      "auditCurrentCs": "Vy",
+      "auditProposedCs": "Ty",
+      "auditDe": "du",
+      "auditLvSource": "tu",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Vy",
+      "cardContext": {
+        "cardId": "a1-du-149",
+        "de": "du",
+        "csMain": "Vy",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00110",
+      "cardId": "a1-Ecke-152",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Rohu“ je nepřímý pád; jako základní překlad německého podstatného jména má být nominativ „roh“.",
+      "auditCurrentCs": "Rohu",
+      "auditProposedCs": "Roh",
+      "auditDe": "Ecke",
+      "auditLvSource": "stūris",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Rohu",
+      "cardContext": {
+        "cardId": "a1-Ecke-152",
+        "de": "Ecke",
+        "csMain": "Rohu",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00111",
+      "cardId": "a1-eins-156",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Základní český tvar číslovky „eins“ je „jeden“; „jedna“ je ženský rod.",
+      "auditCurrentCs": "Jedna",
+      "auditProposedCs": "Jeden",
+      "auditDe": "eins",
+      "auditLvSource": "viens",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Jedna",
+      "cardContext": {
+        "cardId": "a1-eins-156",
+        "de": "eins",
+        "csMain": "Jedna",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00112",
+      "cardId": "a1-Erde-164",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Přistát“ je sloveso; německé podstatné jméno „Erde“ znamená „země“ nebo „Země“.",
+      "auditCurrentCs": "Přistát",
+      "auditProposedCs": "Země",
+      "auditDe": "Erde",
+      "auditLvSource": "zeme",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Přistát",
+      "cardContext": {
+        "cardId": "a1-Erde-164",
+        "de": "Erde",
+        "csMain": "Přistát",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00113",
+      "cardId": "a1-euer-171",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Euer“ je základní tvar přivlastňovacího zájmena; „vaše“ je jen konkrétní rodový nebo množný tvar.",
+      "auditCurrentCs": "Vaše",
+      "auditProposedCs": "Váš",
+      "auditDe": "euer",
+      "auditLvSource": "jūsu",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Vaše",
+      "cardContext": {
+        "cardId": "a1-euer-171",
+        "de": "euer",
+        "csMain": "Vaše",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00114",
+      "cardId": "a1-fett-184",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Tuk“ je podstatné jméno a znamená Fett; německé „fett“ je přídavné jméno „tučný“ nebo „mastný“.",
+      "auditCurrentCs": "Tuk",
+      "auditProposedCs": "Tučný",
+      "auditDe": "fett",
+      "auditLvSource": "trekns",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Tuk",
+      "cardContext": {
+        "cardId": "a1-fett-184",
+        "de": "fett",
+        "csMain": "Tuk",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00115",
+      "cardId": "a1-frei-199",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Uvolnit“ je české sloveso „freigeben/lockern“; německé „frei“ je přídavné jméno „volný“ nebo „svobodný“.",
+      "auditCurrentCs": "Uvolnit",
+      "auditProposedCs": "Volný",
+      "auditDe": "frei",
+      "auditLvSource": "brīvs",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Uvolnit",
+      "cardContext": {
+        "cardId": "a1-frei-199",
+        "de": "frei",
+        "csMain": "Uvolnit",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00116",
+      "cardId": "a1-freundlich-203",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Druh“ je podstatné jméno ve významu typ nebo společník; neznamená německé přídavné jméno „freundlich“.",
+      "auditCurrentCs": "Druh",
+      "auditProposedCs": "Přátelský",
+      "auditDe": "freundlich",
+      "auditLvSource": "laipns",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Druh",
+      "cardContext": {
+        "cardId": "a1-freundlich-203",
+        "de": "freundlich",
+        "csMain": "Druh",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00117",
+      "cardId": "a1-ganz-219",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Všechno“ znamená „alles“; německé „ganz“ znamená „celý“, „úplný“ nebo „zcela“.",
+      "auditCurrentCs": "Všechno",
+      "auditProposedCs": "Celý",
+      "auditDe": "ganz",
+      "auditLvSource": "vesels",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Všechno",
+      "cardContext": {
+        "cardId": "a1-ganz-219",
+        "de": "ganz",
+        "csMain": "Všechno",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00118",
+      "cardId": "a1-gelb-228",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Žluť“ je podstatné jméno označující žlutou barvu; německé „gelb“ je přídavné jméno „žlutý“.",
+      "auditCurrentCs": "Žluť",
+      "auditProposedCs": "Žlutý",
+      "auditDe": "gelb",
+      "auditLvSource": "dzeltens",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Žluť",
+      "cardContext": {
+        "cardId": "a1-gelb-228",
+        "de": "gelb",
+        "csMain": "Žluť",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00119",
+      "cardId": "a1-Glas-241",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Sklenici je akuzativ jednotného čísla; jako základní překlad podstatného jména má být nominativ sklenice.",
+      "auditCurrentCs": "Sklenici",
+      "auditProposedCs": "Sklenice",
+      "auditDe": "Glas",
+      "auditLvSource": "glāze",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Sklenici",
+      "cardContext": {
+        "cardId": "a1-Glas-241",
+        "de": "Glas",
+        "csMain": "Sklenici",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00120",
+      "cardId": "a1-halb-262",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Strana znamená „Seite“ nebo „Partei“, nikoli „halb“; běžný český překlad je půl.",
+      "auditCurrentCs": "Strana",
+      "auditProposedCs": "Půl",
+      "auditDe": "halb",
+      "auditLvSource": "pus",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Strana",
+      "cardContext": {
+        "cardId": "a1-halb-262",
+        "de": "halb",
+        "csMain": "Strana",
+        "hasStudy": false
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00106",
+      "cardId": "a1-Cousine-125",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Bratranec“ znamená mužského bratrance; německé „Cousine“ je ženská sestřenice.",
+      "currentCs": "Bratranec",
+      "proposedCs": "Sestřenice"
+    },
+    {
+      "findingId": "FINAL-A1-00107",
+      "cardId": "a1-dein-132",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Vaše“ vyjadřuje vykání nebo množné číslo, zatímco „dein“ je neformální jednotné číslo.",
+      "currentCs": "Vaše",
+      "proposedCs": "Tvůj"
+    },
+    {
+      "findingId": "FINAL-A1-00108",
+      "cardId": "a1-deutsch-135",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Němec“ označuje osobu; „deutsch“ je přídavné jméno „německý“.",
+      "currentCs": "Němec",
+      "proposedCs": "Německý"
+    },
+    {
+      "findingId": "FINAL-A1-00109",
+      "cardId": "a1-du-149",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Vy“ znamená množné číslo nebo vykání; německé „du“ je neformální jednotné číslo.",
+      "currentCs": "Vy",
+      "proposedCs": "Ty"
+    },
+    {
+      "findingId": "FINAL-A1-00110",
+      "cardId": "a1-Ecke-152",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "„Rohu“ je nepřímý pád; základní český tvar německého „Ecke“ je „roh“.",
+      "currentCs": "Rohu",
+      "proposedCs": "Roh"
+    },
+    {
+      "findingId": "FINAL-A1-00111",
+      "cardId": "a1-eins-156",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.95,
+      "reason": "Jako základní samostatný překlad číslovky „eins“ je vhodný nominativní tvar „jeden“, nikoli „jedna“.",
+      "currentCs": "Jedna",
+      "proposedCs": "Jeden"
+    },
+    {
+      "findingId": "FINAL-A1-00112",
+      "cardId": "a1-Erde-164",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Přistát“ je sloveso a nesouvisí s německým podstatným jménem „Erde“ ve významu „země“.",
+      "currentCs": "Přistát",
+      "proposedCs": "Země"
+    },
+    {
+      "findingId": "FINAL-A1-00113",
+      "cardId": "a1-euer-171",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.94,
+      "reason": "„Vaše“ je pouze jeden skloňovaný tvar; jako základní český tvar přivlastnění je vhodnější „váš“.",
+      "currentCs": "Vaše",
+      "proposedCs": "Váš"
+    },
+    {
+      "findingId": "FINAL-A1-00114",
+      "cardId": "a1-fett-184",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Tuk“ je podstatné jméno, zatímco německé „fett“ je přídavné jméno „tučný“ nebo „mastný“.",
+      "currentCs": "Tuk",
+      "proposedCs": "Tučný"
+    },
+    {
+      "findingId": "FINAL-A1-00115",
+      "cardId": "a1-frei-199",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Uvolnit“ je sloveso; německé „frei“ je přídavné jméno ve významu „volný“.",
+      "currentCs": "Uvolnit",
+      "proposedCs": "Volný"
+    },
+    {
+      "findingId": "FINAL-A1-00116",
+      "cardId": "a1-freundlich-203",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Druh“ je podstatné jméno; německé „freundlich“ znamená „přátelský“.",
+      "currentCs": "Druh",
+      "proposedCs": "Přátelský"
+    },
+    {
+      "findingId": "FINAL-A1-00117",
+      "cardId": "a1-ganz-219",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Všechno“ odpovídá německému „alles“, nikoli „ganz“, které znamená „celý“ nebo „úplný“.",
+      "currentCs": "Všechno",
+      "proposedCs": "Celý"
+    },
+    {
+      "findingId": "FINAL-A1-00118",
+      "cardId": "a1-gelb-228",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "„Žluť“ je podstatné jméno; německé „gelb“ je přídavné jméno „žlutý“.",
+      "currentCs": "Žluť",
+      "proposedCs": "Žlutý"
+    },
+    {
+      "findingId": "FINAL-A1-00119",
+      "cardId": "a1-Glas-241",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.98,
+      "reason": "„Sklenici“ je akuzativ; základní český nominativní tvar je „sklenice“.",
+      "currentCs": "Sklenici",
+      "proposedCs": "Sklenice"
+    },
+    {
+      "findingId": "FINAL-A1-00120",
+      "cardId": "a1-halb-262",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Strana“ znamená „Seite“ nebo „Partei“; německé „halb“ znamená „půl“ nebo „poloviční“.",
+      "currentCs": "Strana",
+      "proposedCs": "Půl"
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "batch": "validate-025",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00433",
+      "cardId": "a1-probieren",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí otazník a česká formulace přirozeně vyžaduje zvratné „si“.",
+      "auditCurrentCs": "Můžu zkusit bundu",
+      "auditProposedCs": "Můžu si vyzkoušet bundu?",
+      "auditDe": "Kann ich die Jacke anprobieren?",
+      "auditLvSource": "vai es varu pielaikot jaku?",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Můžu zkusit bundu",
+      "cardContext": {
+        "cardId": "a1-probieren",
+        "de": "probieren",
+        "csMain": "Vyzkoušet • Ochutnat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00435",
+      "cardId": "a1-reis",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Překlad nesprávně uvádí češtinu a opakuje české slovo místo lotyšského kontextu.",
+      "auditCurrentCs": "Pamatujte: der Reis je jednotné číslo v němčině, ale obvykle rýže v češtině.",
+      "auditProposedCs": "Pamatujte: der Reis je v němčině jednotné číslo, ale v lotyštině se obvykle říká „rīsi“.",
+      "auditDe": "der Reis ist Singular, lettisch meist rīsi.",
+      "auditLvSource": "Atceries: der Reis ir vienskaitlis vāciski, bet latviski parasti — rīsi.",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Pamatujte: der Reis je jednotné číslo v němčině, ale obvykle rýže v češtině.",
+      "cardContext": {
+        "cardId": "a1-reis",
+        "de": "Reis",
+        "csMain": "Rýže",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00436",
+      "cardId": "a1-reis",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka stejně jako v německé větě.",
+      "auditCurrentCs": "Jím rýži",
+      "auditProposedCs": "Jím rýži.",
+      "auditDe": "Ich esse Reis.",
+      "auditLvSource": "es ēdu rīsus.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Jím rýži",
+      "cardContext": {
+        "cardId": "a1-reis",
+        "de": "Reis",
+        "csMain": "Rýže",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00437",
+      "cardId": "a1-sagen-study",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Perfektum gesagt vyjadřuje dokonavé „řekl“, nikoli nedokonavé „říkal“; chybí také otazník.",
+      "auditCurrentCs": "Co jsi říkal",
+      "auditProposedCs": "Co jsi řekl?",
+      "auditDe": "Was hast du gesagt?",
+      "auditLvSource": "ko tu pateici?",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Co jsi říkal",
+      "cardContext": {
+        "cardId": "a1-sagen-study",
+        "de": "sagen",
+        "csMain": "Říct",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00438",
+      "cardId": "a1-sagen-study",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Po slovese mluvit se říká „mluvit jazykem“; původní závorka je navíc redundantní.",
+      "auditCurrentCs": "Mluvit (jazyk, mluvit)",
+      "auditProposedCs": "Mluvit (jazykem, hovořit)",
+      "auditDe": "sprechen",
+      "auditLvSource": "runāt (valodu, sarunāties)",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Mluvit (jazyk, mluvit)",
+      "cardContext": {
+        "cardId": "a1-sagen-study",
+        "de": "sagen",
+        "csMain": "Říct",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00439",
+      "cardId": "a1-sagen-study",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Sagen znamená říct nebo sdělit, nikoli vyprávět; pro vyprávět se používá erzählen.",
+      "auditCurrentCs": "Sagen = vyprávět.",
+      "auditProposedCs": "Sagen = říct.",
+      "auditDe": "sagen",
+      "auditLvSource": "sagen = pateikt",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Sagen = vyprávět.",
+      "cardContext": {
+        "cardId": "a1-sagen-study",
+        "de": "sagen",
+        "csMain": "Říct",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00440",
+      "cardId": "a1-schauen-study",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "CRITICAL",
+      "auditProblem": "„Hodinky“ jsou podstatné jméno a znamenají náramkové hodinky; jde o zjevně chybný překlad slovesa.",
+      "auditCurrentCs": "Hodinky",
+      "auditProposedCs": "Dívat se",
+      "auditDe": "schauen",
+      "auditLvSource": "skatīties",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Hodinky",
+      "cardContext": {
+        "cardId": "a1-schauen-study",
+        "de": "schauen",
+        "csMain": "Hodinky",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00441",
+      "cardId": "a1-schauen-study",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "CRITICAL",
+      "auditProblem": "Hlavní český překlad je chybný; „sledovat“ zde není vhodná základní ekvivalence pro schauen.",
+      "auditCurrentCs": "Sledovat (aktivně)",
+      "auditProposedCs": "Dívat se (aktivně)",
+      "auditDe": "schauen",
+      "auditLvSource": "skatīties (aktīvi)",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Sledovat (aktivně)",
+      "cardContext": {
+        "cardId": "a1-schauen-study",
+        "de": "schauen",
+        "csMain": "Hodinky",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00442",
+      "cardId": "a1-schauen-study",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Dívat“ bez zvratného zájmena je zde neúplné a druhá část je stylisticky nepřirozená.",
+      "auditCurrentCs": "Aktivně se dívat nebo dívat.",
+      "auditProposedCs": "Aktivně se dívat nebo pohlédnout.",
+      "auditDe": "schauen",
+      "auditLvSource": "Aktīvi skatīties vai palūkoties.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Aktivně se dívat nebo dívat.",
+      "cardContext": {
+        "cardId": "a1-schauen-study",
+        "de": "schauen",
+        "csMain": "Hodinky",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00443",
+      "cardId": "a1-schon-study",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Už“ je v běžné češtině praktičtější a přiměřenější základnímu A1 překladu než knižní „již“.",
+      "auditCurrentCs": "Již",
+      "auditProposedCs": "Už",
+      "auditDe": "schon",
+      "auditLvSource": "jau",
+      "category": "STUDY",
+      "productionCurrentCs": "Již",
+      "cardContext": {
+        "cardId": "a1-schon-study",
+        "de": "schon",
+        "csMain": "Již",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00444",
+      "cardId": "a1-schwimmen",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Baden znamená koupat se nebo jít se koupat, ne plavat; karta toto rozlišení sama vysvětluje.",
+      "auditCurrentCs": "Chodím plavat",
+      "auditProposedCs": "Jdu se koupat.",
+      "auditDe": "Ich gehe baden.",
+      "auditLvSource": "es eju peldēties.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Chodím plavat",
+      "cardContext": {
+        "cardId": "a1-schwimmen",
+        "de": "schwimmen",
+        "csMain": "Plavat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00445",
+      "cardId": "a1-schwimmen",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Věta začíná malým písmenem.",
+      "auditCurrentCs": "česky se často říká „plavat“, ale v němčině musíte zkontrolovat, zda jde o pohyb nebo koupání.",
+      "auditProposedCs": "Česky se často říká „plavat“, ale v němčině musíte zkontrolovat, zda jde o pohyb nebo koupání.",
+      "auditDe": "schwimmen",
+      "auditLvSource": "Latviski bieži saka “peldēt”.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "česky se často říká „plavat“, ale v němčině musíte zkontrolovat, zda jde o pohyb nebo koupání.",
+      "cardContext": {
+        "cardId": "a1-schwimmen",
+        "de": "schwimmen",
+        "csMain": "Plavat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00446",
+      "cardId": "a1-sehen",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "CRITICAL",
+      "auditProblem": "„Hodinky“ jsou chybný překlad slovesa schauen.",
+      "auditCurrentCs": "Hodinky",
+      "auditProposedCs": "Dívat se",
+      "auditDe": "schauen",
+      "auditLvSource": "skatīties",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Hodinky",
+      "cardContext": {
+        "cardId": "a1-sehen",
+        "de": "sehen",
+        "csMain": "Vidět",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00447",
+      "cardId": "a1-sehen",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Pohled“ je podstatné jméno; ansehen je sloveso s významem prohlédnout si nebo dívat se na.",
+      "auditCurrentCs": "Pohled / pohled",
+      "auditProposedCs": "Prohlédnout si / dívat se na",
+      "auditDe": "ansehen",
+      "auditLvSource": "apskatīt / skatīties",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Pohled / pohled",
+      "cardContext": {
+        "cardId": "a1-sehen",
+        "de": "sehen",
+        "csMain": "Vidět",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00448",
+      "cardId": "a1-sehen",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka.",
+      "auditCurrentCs": "Vidím tě",
+      "auditProposedCs": "Vidím tě.",
+      "auditDe": "Ich sehe dich.",
+      "auditLvSource": "es tevi redzu.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Vidím tě",
+      "cardContext": {
+        "cardId": "a1-sehen",
+        "de": "sehen",
+        "csMain": "Vidět",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00433",
+      "cardId": "a1-probieren",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Věta postrádá otazník a přirozenější význam „vyzkoušet si“ pro zkoušení oblečení.",
+      "currentCs": "Můžu zkusit bundu",
+      "proposedCs": "Můžu si vyzkoušet bundu?"
+    },
+    {
+      "findingId": "FINAL-A1-00435",
+      "cardId": "a1-reis",
+      "field": "study.tip.text",
+      "validationStatus": "VALID_CONTEXT_DIFFERENCE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "V CS lokalizaci je legitimní vysvětlit český ekvivalent; nejde o chybu češtiny ani nutnou opravu.",
+      "currentCs": "Pamatujte: der Reis je jednotné číslo v němčině, ale obvykle rýže v češtině."
+    },
+    {
+      "findingId": "FINAL-A1-00436",
+      "cardId": "a1-reis",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Česká ukázková věta postrádá koncovou tečku.",
+      "currentCs": "Jím rýži",
+      "proposedCs": "Jím rýži."
+    },
+    {
+      "findingId": "FINAL-A1-00437",
+      "cardId": "a1-sagen-study",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Perfektum gesagt zde odpovídá dokonavému „řekl“ a tázací věta vyžaduje otazník.",
+      "currentCs": "Co jsi říkal",
+      "proposedCs": "Co jsi řekl?"
+    },
+    {
+      "findingId": "FINAL-A1-00438",
+      "cardId": "a1-sagen-study",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Po „mluvit“ je správný instrumentál „jazykem“; původní druhá část je navíc redundantní.",
+      "currentCs": "Mluvit (jazyk, mluvit)",
+      "proposedCs": "Mluvit (jazykem, hovořit)"
+    },
+    {
+      "findingId": "FINAL-A1-00439",
+      "cardId": "a1-sagen-study",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Sagen znamená především „říct“ nebo „sdělit“, zatímco „vyprávět“ odpovídá spíše erzählen.",
+      "currentCs": "Sagen = vyprávět.",
+      "proposedCs": "Sagen = říct."
+    },
+    {
+      "findingId": "FINAL-A1-00440",
+      "cardId": "a1-schauen-study",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "„Hodinky“ jsou podstatné jméno a představují zjevně chybný překlad německého slovesa schauen.",
+      "currentCs": "Hodinky",
+      "proposedCs": "Dívat se"
+    },
+    {
+      "findingId": "FINAL-A1-00441",
+      "cardId": "a1-schauen-study",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "CRITICAL",
+      "confidence": "MEDIUM",
+      "reason": "„Sledovat“ může být v aktivním kontextu významově přijatelné; jde o preferenci základního synonyma, ne jednoznačnou chybu.",
+      "currentCs": "Sledovat (aktivně)"
+    },
+    {
+      "findingId": "FINAL-A1-00442",
+      "cardId": "a1-schauen-study",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Samostatné „dívat“ je zde neúplné a věta je gramaticky i stylisticky nepřirozená.",
+      "currentCs": "Aktivně se dívat nebo dívat.",
+      "proposedCs": "Aktivně se dívat nebo pohlédnout."
+    },
+    {
+      "findingId": "FINAL-A1-00443",
+      "cardId": "a1-schon-study",
+      "field": "study.translation",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Již“ je správný český překlad; „už“ je pouze běžnější a méně knižní varianta.",
+      "currentCs": "Již"
+    },
+    {
+      "findingId": "FINAL-A1-00444",
+      "cardId": "a1-schwimmen",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Baden znamená koupat se, nikoli chodit plavat; současný překlad mění význam německé věty.",
+      "currentCs": "Chodím plavat",
+      "proposedCs": "Jdu se koupat."
+    },
+    {
+      "findingId": "FINAL-A1-00445",
+      "cardId": "a1-schwimmen",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Věta začíná nesprávně malým písmenem.",
+      "currentCs": "česky se často říká „plavat“, ale v němčině musíte zkontrolovat, zda jde o pohyb nebo koupání.",
+      "proposedCs": "Česky se často říká „plavat“, ale v němčině musíte zkontrolovat, zda jde o pohyb nebo koupání."
+    },
+    {
+      "findingId": "FINAL-A1-00446",
+      "cardId": "a1-sehen",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "„Hodinky“ jsou podstatné jméno a jde o zjevně chybný překlad slovesa v porovnání.",
+      "currentCs": "Hodinky",
+      "proposedCs": "Dívat se"
+    },
+    {
+      "findingId": "FINAL-A1-00447",
+      "cardId": "a1-sehen",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Pohled“ je podstatné jméno; ansehen je sloveso „prohlédnout si“ nebo „dívat se na“.",
+      "currentCs": "Pohled / pohled",
+      "proposedCs": "Prohlédnout si / dívat se na"
+    },
+    {
+      "findingId": "FINAL-A1-00448",
+      "cardId": "a1-sehen",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Česká ukázková věta postrádá koncovou tečku.",
+      "currentCs": "Vidím tě",
+      "proposedCs": "Vidím tě."
+    }
+  ]
+}

@@ -1,0 +1,487 @@
+{
+  "batch": "validate-030",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00509",
+      "cardId": "a1-wer",
+      "field": "study.explanation[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Wer je zde podmět, nikoli předmět, a překlad „co“ je chybný.",
+      "auditCurrentCs": "Wer je v němčině obvykle předmětem věty (nominativu) — Wer ist das? = co je to?",
+      "auditProposedCs": "Wer je v němčině obvykle podmětem věty v nominativu — Wer ist das? = Kdo je to?",
+      "auditDe": "Wer ist das?",
+      "auditLvSource": "Wer ist das? = Kas tas ir?",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Wer je v němčině obvykle předmětem věty (nominativu) — Wer ist das? = co je to?",
+      "cardContext": {
+        "cardId": "a1-wer",
+        "de": "wer",
+        "csMain": "Kdo • Kdo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00510",
+      "cardId": "a1-wer",
+      "field": "study.important[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "CRITICAL",
+      "auditProblem": "Navržená správná věta je směs češtiny a němčiny a není překladem německého Was ist passiert?.",
+      "auditCurrentCs": "Špatně: Wer ist passiert? → Správně: Bylo to passiert?",
+      "auditProposedCs": "Špatně: Wer ist passiert? → Správně: Co se stalo?",
+      "auditDe": "Was ist passiert?",
+      "auditLvSource": "Wer ist passiert? → Was ist passiert?",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Špatně: Wer ist passiert? → Správně: Bylo to passiert?",
+      "cardContext": {
+        "cardId": "a1-wer",
+        "de": "wer",
+        "csMain": "Kdo • Kdo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00511",
+      "cardId": "a1-werden",
+      "field": "study.explanation[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Werden vyjadřuje změnu stavu; „jsem unavený“ odpovídá sein, ne werden.",
+      "auditCurrentCs": "Na úrovni A1 je nejdůležitější fráze Ich werde müde. = Jsem unavený.",
+      "auditProposedCs": "Na úrovni A1 je nejdůležitější fráze Ich werde müde. = Začínám být unavený.",
+      "auditDe": "Ich werde müde.",
+      "auditLvSource": "Ich werde müde. = Es kļūstu noguris.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Na úrovni A1 je nejdůležitější fráze Ich werde müde. = Jsem unavený.",
+      "cardContext": {
+        "cardId": "a1-werden",
+        "de": "werden",
+        "csMain": "Stát se",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00513",
+      "cardId": "a1-wetter",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Wetter znamená „počasí“, nikoli český „čas“; závorka působí jako hlavní překlad.",
+      "auditCurrentCs": "Čas (počasí)",
+      "auditProposedCs": "Počasí",
+      "auditDe": "Wetter",
+      "auditLvSource": "laiks (laikapstākļi)",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Čas (počasí)",
+      "cardContext": {
+        "cardId": "a1-wetter",
+        "de": "Wetter",
+        "csMain": "Čas (počasí)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00514",
+      "cardId": "a1-wetter",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Wetter znamená „počasí“, nikoli český „čas“; závorka působí jako hlavní překlad.",
+      "auditCurrentCs": "Čas (počasí)",
+      "auditProposedCs": "Počasí",
+      "auditDe": "Wetter",
+      "auditLvSource": "laiks (laikapstākļi)",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Čas (počasí)",
+      "cardContext": {
+        "cardId": "a1-wetter",
+        "de": "Wetter",
+        "csMain": "Čas (počasí)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00515",
+      "cardId": "a1-wetter",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "CRITICAL",
+      "auditProblem": "Německá věta se ptá na počasí, ne na čas na hodinách.",
+      "auditCurrentCs": "Kolik je dnes hodin?",
+      "auditProposedCs": "Jaké je dnes počasí?",
+      "auditDe": "Wie ist das Wetter heute?",
+      "auditLvSource": "kāds laiks šodien?",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Kolik je dnes hodin?",
+      "cardContext": {
+        "cardId": "a1-wetter",
+        "de": "Wetter",
+        "csMain": "Čas (počasí)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00516",
+      "cardId": "a1-wetter",
+      "field": "study.examples[4].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Das Wetter znamená počasí; český překlad „o čase“ zaměňuje Wetter a Zeit.",
+      "auditCurrentCs": "Mluvíme o čase.",
+      "auditProposedCs": "Mluvíme o počasí.",
+      "auditDe": "Wir sprechen über das Wetter.",
+      "auditLvSource": "mēs runājam par laiku.",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Mluvíme o čase.",
+      "cardContext": {
+        "cardId": "a1-wetter",
+        "de": "Wetter",
+        "csMain": "Čas (počasí)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00517",
+      "cardId": "a1-wetter",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„S dasem Wetterem“ je nepřirozené a gramaticky vadné skloňování německého členu i podstatného jména.",
+      "auditCurrentCs": "Povídejte si o počasí v přírodě s dasem Wetterem: Wie ist das Wetter heute?",
+      "auditProposedCs": "O počasí mluvíme s výrazem das Wetter: Wie ist das Wetter heute?",
+      "auditDe": "das Wetter",
+      "auditLvSource": "Par laiku dabā runā ar das Wetter",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Povídejte si o počasí v přírodě s dasem Wetterem: Wie ist das Wetter heute?",
+      "cardContext": {
+        "cardId": "a1-wetter",
+        "de": "Wetter",
+        "csMain": "Čas (počasí)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00518",
+      "cardId": "a1-wetter",
+      "field": "study.tip[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "CRITICAL",
+      "auditProblem": "Překlad otázky je chybný a přímo odporuje vysvětlení rozdílu mezi Wetter a Zeit.",
+      "auditCurrentCs": "Pamatujte: Wie ist das Wetter? = Kolik je hodin? (ne hodiny).",
+      "auditProposedCs": "Pamatujte: Wie ist das Wetter? = Jaké je počasí? (ne „Kolik je hodin?“).",
+      "auditDe": "Wie ist das Wetter?",
+      "auditLvSource": "Wie ist das Wetter? = Kāds laiks?",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Pamatujte: Wie ist das Wetter? = Kolik je hodin? (ne hodiny).",
+      "cardContext": {
+        "cardId": "a1-wetter",
+        "de": "Wetter",
+        "csMain": "Čas (počasí)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00519",
+      "cardId": "a1-wie",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Přímá otázka v češtině vyžaduje otazník.",
+      "auditCurrentCs": "Jak se jmenuješ",
+      "auditProposedCs": "Jak se jmenuješ?",
+      "auditDe": "Wie heißt du?",
+      "auditLvSource": "kā tevi sauc?",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Jak se jmenuješ",
+      "cardContext": {
+        "cardId": "a1-wie",
+        "de": "wie",
+        "csMain": "Jak • Kolik",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00520",
+      "cardId": "a1-wie",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Přímá otázka v češtině vyžaduje otazník.",
+      "auditCurrentCs": "Kolik to stojí",
+      "auditProposedCs": "Kolik to stojí?",
+      "auditDe": "Wie viel kostet das?",
+      "auditLvSource": "cik tas maksā?",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Kolik to stojí",
+      "cardContext": {
+        "cardId": "a1-wie",
+        "de": "wie",
+        "csMain": "Jak • Kolik",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00522",
+      "cardId": "a1-zu",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Hlavní překlad obsahuje angličtinu a vynechává význam „příliš“.",
+      "auditCurrentCs": "Do • At",
+      "auditProposedCs": "K • Do • Příliš",
+      "auditDe": "zu",
+      "auditLvSource": "uz • pie",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Do • At",
+      "cardContext": {
+        "cardId": "a1-zu",
+        "de": "zu",
+        "csMain": "Do • At",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00523",
+      "cardId": "a1-zu",
+      "field": "study.explanation[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Text obsahuje anglické výrazy „to“ a „at“ místo českých překladů.",
+      "auditCurrentCs": "Hlavní myšlenka: zu velmi často znamená to nebo at, ale má také roli s infinitivem.",
+      "auditProposedCs": "Hlavní myšlenka: zu velmi často znamená k nebo do, ale používá se také s infinitivem.",
+      "auditDe": "zu",
+      "auditLvSource": "zu nozīmē uz vai pie",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Hlavní myšlenka: zu velmi často znamená to nebo at, ale má také roli s infinitivem.",
+      "cardContext": {
+        "cardId": "a1-zu",
+        "de": "zu",
+        "csMain": "Do • At",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00524",
+      "cardId": "a1-zu",
+      "field": "study.explanation[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Neurčito“ není český gramatický termín; správně je infinitiv nebo neurčitek.",
+      "auditCurrentCs": "V konstrukci zu + neurčito pomáhá tvořit neurčito: zu lernen, zu gehen.",
+      "auditProposedCs": "V konstrukci zu + infinitiv stojí zu před slovesem: zu lernen, zu gehen.",
+      "auditDe": "zu + Infinitiv",
+      "auditLvSource": "zu + nenoteiksme",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "V konstrukci zu + neurčito pomáhá tvořit neurčito: zu lernen, zu gehen.",
+      "cardContext": {
+        "cardId": "a1-zu",
+        "de": "zu",
+        "csMain": "Do • At",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00525",
+      "cardId": "a1-zu",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Srovnávací význam obsahuje angličtinu místo češtiny.",
+      "auditCurrentCs": "To / at / too / infinitiv",
+      "auditProposedCs": "K / do / příliš / infinitiv",
+      "auditDe": "zu",
+      "auditLvSource": "uz / pie / pārāk / infinitīvs",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "To / at / too / infinitiv",
+      "cardContext": {
+        "cardId": "a1-zu",
+        "de": "zu",
+        "csMain": "Do • At",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00509",
+      "cardId": "a1-wer",
+      "field": "study.explanation[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Wer je podmět v nominativu; český překlad „co“ je chybný.",
+      "currentCs": "Wer je v němčině obvykle předmětem věty (nominativu) — Wer ist das? = co je to?",
+      "proposedCs": "Wer je v němčině obvykle podmětem věty v nominativu — Wer ist das? = Kdo je to?"
+    },
+    {
+      "findingId": "FINAL-A1-00510",
+      "cardId": "a1-wer",
+      "field": "study.important[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Současný text obsahuje nesprávnou německou větu i českoněmecký překlad.",
+      "currentCs": "Špatně: Wer ist passiert? → Správně: Bylo to passiert?",
+      "proposedCs": "Špatně: Wer ist passiert? → Správně: Co se stalo?"
+    },
+    {
+      "findingId": "FINAL-A1-00511",
+      "cardId": "a1-werden",
+      "field": "study.explanation[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Werden zde vyjadřuje změnu stavu, nikoli prostý stav „jsem unavený“.",
+      "currentCs": "Na úrovni A1 je nejdůležitější fráze Ich werde müde. = Jsem unavený.",
+      "proposedCs": "Na úrovni A1 je nejdůležitější fráze Ich werde müde. = Začínám být unavený."
+    },
+    {
+      "findingId": "FINAL-A1-00513",
+      "cardId": "a1-wetter",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Hlavní český význam Wetter je „počasí“; „čas“ zde význam zkresluje.",
+      "currentCs": "Čas (počasí)",
+      "proposedCs": "Počasí"
+    },
+    {
+      "findingId": "FINAL-A1-00514",
+      "cardId": "a1-wetter",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Hlavní český význam Wetter je „počasí“; „čas“ zde význam zkresluje.",
+      "currentCs": "Čas (počasí)",
+      "proposedCs": "Počasí"
+    },
+    {
+      "findingId": "FINAL-A1-00515",
+      "cardId": "a1-wetter",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Věta se ptá na počasí, nikoli na čas na hodinách.",
+      "currentCs": "Kolik je dnes hodin?",
+      "proposedCs": "Jaké je dnes počasí?"
+    },
+    {
+      "findingId": "FINAL-A1-00516",
+      "cardId": "a1-wetter",
+      "field": "study.examples[4].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Das Wetter znamená počasí; současný překlad zaměňuje Wetter za Zeit.",
+      "currentCs": "Mluvíme o čase.",
+      "proposedCs": "Mluvíme o počasí."
+    },
+    {
+      "findingId": "FINAL-A1-00517",
+      "cardId": "a1-wetter",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Současné „s dasem Wetterem“ je gramaticky i stylisticky nepřirozené.",
+      "currentCs": "Povídejte si o počasí v přírodě s dasem Wetterem: Wie ist das Wetter heute?",
+      "proposedCs": "O počasí mluvíme s výrazem das Wetter: Wie ist das Wetter heute?"
+    },
+    {
+      "findingId": "FINAL-A1-00518",
+      "cardId": "a1-wetter",
+      "field": "study.tip[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Překlad otázky Wie ist das Wetter? je chybný a zaměňuje počasí za čas.",
+      "currentCs": "Pamatujte: Wie ist das Wetter? = Kolik je hodin? (ne hodiny).",
+      "proposedCs": "Pamatujte: Wie ist das Wetter? = Jaké je počasí? (ne „Kolik je hodin?“)."
+    },
+    {
+      "findingId": "FINAL-A1-00519",
+      "cardId": "a1-wie",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Přímá česká otázka vyžaduje koncový otazník.",
+      "currentCs": "Jak se jmenuješ",
+      "proposedCs": "Jak se jmenuješ?"
+    },
+    {
+      "findingId": "FINAL-A1-00520",
+      "cardId": "a1-wie",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Přímá česká otázka vyžaduje koncový otazník.",
+      "currentCs": "Kolik to stojí",
+      "proposedCs": "Kolik to stojí?"
+    },
+    {
+      "findingId": "FINAL-A1-00522",
+      "cardId": "a1-zu",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Text obsahuje angličtinu a vynechává význam „příliš“.",
+      "currentCs": "Do • At",
+      "proposedCs": "K • Do • Příliš"
+    },
+    {
+      "findingId": "FINAL-A1-00523",
+      "cardId": "a1-zu",
+      "field": "study.explanation[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Současné vysvětlení obsahuje anglické výrazy místo českých významů.",
+      "currentCs": "Hlavní myšlenka: zu velmi často znamená to nebo at, ale má také roli s infinitivem.",
+      "proposedCs": "Hlavní myšlenka: zu velmi často znamená k nebo do, ale používá se také s infinitivem."
+    },
+    {
+      "findingId": "FINAL-A1-00524",
+      "cardId": "a1-zu",
+      "field": "study.explanation[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Neurčito“ není vhodný český gramatický termín ani přirozené vysvětlení konstrukce.",
+      "currentCs": "V konstrukci zu + neurčito pomáhá tvořit neurčito: zu lernen, zu gehen.",
+      "proposedCs": "V konstrukci zu + infinitiv stojí zu před slovesem: zu lernen, zu gehen."
+    },
+    {
+      "findingId": "FINAL-A1-00525",
+      "cardId": "a1-zu",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Srovnávací význam obsahuje angličtinu místo českých významů.",
+      "currentCs": "To / at / too / infinitiv",
+      "proposedCs": "K / do / příliš / infinitiv"
+    }
+  ]
+}

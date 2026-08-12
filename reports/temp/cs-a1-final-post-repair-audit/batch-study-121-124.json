@@ -1,0 +1,133 @@
+{
+  "dataset": "a1",
+  "batch": "study-121-124",
+  "auditType": "vocab_study",
+  "cardCount": 4,
+  "cardIds": [
+    "a1-uhr",
+    "a1-zeit",
+    "a1-einmal",
+    "a1-noch-mal"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-uhr",
+      "field": "study.examples[5].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "die Uhr",
+      "lvSource": "ierīce/laiks pulkstenī; die Zeit",
+      "currentCs": "Zařízení/čas na hodinách • Die Zeit",
+      "proposedCs": "Zařízení/čas na hodinách",
+      "reason": "Text obsahuje nepřeložený německý výraz „Die Zeit“, který navíc neodpovídá německému zdroji die Uhr.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-zeit",
+      "field": "csMain",
+      "severity": "LOW",
+      "category": "TITLE_FORMAT",
+      "de": "Zeit",
+      "lvSource": "laiks (brīdis / laika posms)",
+      "currentCs": "Čas (okamžik / časový úsek)",
+      "proposedCs": "Čas • Okamžik • Časový úsek",
+      "reason": "Hlavní překlad používá závorky a lomítko místo projektového formátu • pro více významů.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-zeit",
+      "field": "study.translation",
+      "severity": "LOW",
+      "category": "TITLE_FORMAT",
+      "de": "Zeit",
+      "lvSource": "laiks (brīdis / laika posms)",
+      "currentCs": "Čas (okamžik / časový úsek)",
+      "proposedCs": "Čas • Okamžik • Časový úsek",
+      "reason": "Hlavní překlad používá závorky a lomítko místo projektového formátu • pro více významů.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-zeit",
+      "field": "study.explanation[1]",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Zeit",
+      "lvSource": "die Zeit galvenokārt nozīmē: brīdis, iespēja.",
+      "currentCs": "Die Zeit znamená především: okamžik, příležitost.",
+      "proposedCs": "Die Zeit znamená především: čas a časový úsek.",
+      "reason": "Vysvětlení opomíjí základní význam Zeit = čas a nepřesně upřednostňuje okamžik a příležitost.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-einmal",
+      "field": "csMain",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "einmal",
+      "lvSource": "vienreiz • reiz",
+      "currentCs": "Jednou • Jednou",
+      "proposedCs": "Jednou • Kdysi",
+      "reason": "Oba české významy jsou stejné; ztrácí se rozdíl mezi jednou a kdysi/reiz v minulosti.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-einmal",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "einmal",
+      "lvSource": "vienreiz • reiz",
+      "currentCs": "Jednou • Jednou",
+      "proposedCs": "Jednou • Kdysi",
+      "reason": "Oba české významy jsou stejné; ztrácí se rozdíl mezi jednou a kdysi/reiz v minulosti.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-einmal",
+      "field": "study.explanation[2]",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "einmal",
+      "lvSource": "Bieži raksturo: laika apstākli.",
+      "currentCs": "Často charakterizované: povětrnostními podmínkami.",
+      "proposedCs": "Často se používá jako časové příslovce.",
+      "reason": "„Povětrnostními podmínkami“ je chybný význam; jde o časové příslovce.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-noch-mal",
+      "field": "study.examples[1].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Noch mal, bitte.",
+      "lvSource": "vēlreiz, lūdzu.",
+      "currentCs": "Znovu prosím",
+      "proposedCs": "Znovu, prosím.",
+      "reason": "V ustálené zdvořilé frázi je třeba oddělit vsuvkové „prosím“ čárkou a doplnit tečku.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-noch-mal",
+      "field": "study.examples[2].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Sag das noch mal.",
+      "lvSource": "pasaki to vēlreiz.",
+      "currentCs": "Řekni to znovu",
+      "proposedCs": "Řekni to znovu.",
+      "reason": "Příklad postrádá koncovou tečku.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 0,
+  "completedAt": "2026-08-12T16:46:54.892Z"
+}

@@ -1,0 +1,486 @@
+{
+  "batch": "validate-016",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00296",
+      "cardId": "a1-gut-study",
+      "field": "study.tip[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Střevo je kontaminace chybným překladem; správně má zůstat gut.",
+      "auditCurrentCs": "Střevo bez článku je přídavné jméno/příslovce – dobrý/dobře.",
+      "auditProposedCs": "Gut bez členu je přídavné jméno nebo příslovce – dobrý/dobře.",
+      "auditDe": "gut",
+      "auditLvSource": "gut bez artikula = labs/labi",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Střevo bez článku je přídavné jméno/příslovce – dobrý/dobře.",
+      "cardContext": {
+        "cardId": "a1-gut-study",
+        "de": "gut",
+        "csMain": "Dobrý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00297",
+      "cardId": "a1-gut-study",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Střevo neodpovídá slovu gut v probíraném významu.",
+      "auditCurrentCs": "Střevo = dobrý/dobře (přídavné jméno/přívlastek).",
+      "auditProposedCs": "Gut = dobrý/dobře (přídavné jméno nebo příslovce).",
+      "auditDe": "gut",
+      "auditLvSource": "gut = labs/labi",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Střevo = dobrý/dobře (přídavné jméno/přívlastek).",
+      "cardContext": {
+        "cardId": "a1-gut-study",
+        "de": "gut",
+        "csMain": "Dobrý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00298",
+      "cardId": "a1-gut-study",
+      "field": "study.important[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Střevní změny je nesmyslný překlad; jde o gramatické koncovky přídavného jména.",
+      "auditCurrentCs": "Guten Tag/Morgen/Abend - střevní změny končící po skloňování.",
+      "auditProposedCs": "Guten Tag/Morgen/Abend – koncovka přídavného jména gut se mění podle skloňování.",
+      "auditDe": "Guten Tag/Morgen/Abend",
+      "auditLvSource": "Guten Morgen / Guten Tag / Guten Abend",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Guten Tag/Morgen/Abend - střevní změny končící po skloňování.",
+      "cardContext": {
+        "cardId": "a1-gut-study",
+        "de": "gut",
+        "csMain": "Dobrý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00299",
+      "cardId": "a1-halten",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Sie vyžaduje vykání a halten Sie an znamená zastavte, ne neformální přestaň.",
+      "auditCurrentCs": "Prosím přestaň",
+      "auditProposedCs": "Prosím, zastavte.",
+      "auditDe": "Bitte halten Sie an.",
+      "auditLvSource": "lūdzu, apstājieties.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Prosím přestaň",
+      "cardContext": {
+        "cardId": "a1-halten",
+        "de": "halten",
+        "csMain": "Držet • Zastavit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00300",
+      "cardId": "a1-halten",
+      "field": "study.explanation[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Věta chybně používá české zastavit jako podmět a opakuje stejný význam.",
+      "auditCurrentCs": "Hlavní myšlenka: zastavit znamená držet, ale s přepravou nebo pohybem může znamenat zastavit nebo zastavit.",
+      "auditProposedCs": "Hlavní myšlenka: halten znamená držet; u dopravy může znamenat zastavit nebo mít zastávku.",
+      "auditDe": "halten",
+      "auditLvSource": "halten visbiežāk nozīmē turēt",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Hlavní myšlenka: zastavit znamená držet, ale s přepravou nebo pohybem může znamenat zastavit nebo zastavit.",
+      "cardContext": {
+        "cardId": "a1-halten",
+        "de": "halten",
+        "csMain": "Držet • Zastavit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00301",
+      "cardId": "a1-halten",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Tip zaměňuje držení za zastavení a nepřesně popisuje význam u dopravy.",
+      "auditCurrentCs": "Pamatujte: v ruce → zastavit • Doprava → zastavení/zastávky.",
+      "auditProposedCs": "Pamatujte: předmět v ruce → držet • zastavit se → anhalten; doprava → halten.",
+      "auditDe": "halten",
+      "auditLvSource": "priekšmetu turēt → halten; apstāties → anhalten",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pamatujte: v ruce → zastavit • Doprava → zastavení/zastávky.",
+      "cardContext": {
+        "cardId": "a1-halten",
+        "de": "halten",
+        "csMain": "Držet • Zastavit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00302",
+      "cardId": "a1-heißen",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Podlý je chybný význam a Být nazýván je pro A1 nepřirozený hlavní překlad.",
+      "auditCurrentCs": "Být nazýván • Podlý",
+      "auditProposedCs": "Jmenovat se • Znamenat",
+      "auditDe": "heißen",
+      "auditLvSource": "saukties / nozīmēt",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Být nazýván • Podlý",
+      "cardContext": {
+        "cardId": "a1-heißen",
+        "de": "heißen",
+        "csMain": "Být nazýván • Podlý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00303",
+      "cardId": "a1-heißen",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Druhý význam heißen je znamenat; podlý je zcela nesouvisející překlad.",
+      "auditCurrentCs": "Být nazýván • Podlý",
+      "auditProposedCs": "Jmenovat se • Znamenat",
+      "auditDe": "heißen",
+      "auditLvSource": "saukties",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Být nazýván • Podlý",
+      "cardContext": {
+        "cardId": "a1-heißen",
+        "de": "heißen",
+        "csMain": "Být nazýván • Podlý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00304",
+      "cardId": "a1-heißen",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Střední je chybný překlad bedeuten; správně znamenat.",
+      "auditCurrentCs": "Střední",
+      "auditProposedCs": "Znamenat",
+      "auditDe": "bedeuten",
+      "auditLvSource": "nozīmēt",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Střední",
+      "cardContext": {
+        "cardId": "a1-heißen",
+        "de": "heißen",
+        "csMain": "Být nazýván • Podlý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00305",
+      "cardId": "a1-heißen",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Byl je překlep a mění německou otázku; správně je Was.",
+      "auditCurrentCs": "Byl heißt das? často znamená \"Co to znamená?\".",
+      "auditProposedCs": "Was heißt das? často znamená „Co to znamená?“.",
+      "auditDe": "Was heißt das?",
+      "auditLvSource": "Was heißt das?",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Byl heißt das? často znamená \"Co to znamená?\".",
+      "cardContext": {
+        "cardId": "a1-heißen",
+        "de": "heißen",
+        "csMain": "Být nazýván • Podlý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00306",
+      "cardId": "a1-hoch-study",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Český překlad zaměňuje polici za horu a neodpovídá německé větě.",
+      "auditCurrentCs": "Hora je vysoká.",
+      "auditProposedCs": "Regál je vysoký dva metry.",
+      "auditDe": "Das Regal ist zwei Meter hoch.",
+      "auditLvSource": "plaukts ir divus metrus augsts.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Hora je vysoká.",
+      "cardContext": {
+        "cardId": "a1-hoch-study",
+        "de": "hoch",
+        "csMain": "Vysoký",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00307",
+      "cardId": "a1-hoch-study",
+      "field": "study.explanation[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Věta je gramaticky neúplná a nesprávně používá ženský rod.",
+      "auditCurrentCs": "Hlavní myšlenka: Vysoká svisle, úroveň nebo výška.",
+      "auditProposedCs": "Hlavní myšlenka: Vysoký ve svislém směru nebo na vysoké úrovni.",
+      "auditDe": "hoch",
+      "auditLvSource": "augsts",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Hlavní myšlenka: Vysoká svisle, úroveň nebo výška.",
+      "cardContext": {
+        "cardId": "a1-hoch-study",
+        "de": "hoch",
+        "csMain": "Vysoký",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00308",
+      "cardId": "a1-hoeren-study",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Geschichte znamená příběh; pohádka je užší význam.",
+      "auditCurrentCs": "Děti poslouchají pohádku.",
+      "auditProposedCs": "Děti poslouchají příběh.",
+      "auditDe": "Die Kinder hören eine Geschichte.",
+      "auditLvSource": "bērni klausās stāstu.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Děti poslouchají pohádku.",
+      "cardContext": {
+        "cardId": "a1-hoeren-study",
+        "de": "hören",
+        "csMain": "Slyšet • Poslouchat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00309",
+      "cardId": "a1-ihr",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Překlad je správný, ale hlavní vysvětlení níže obsahuje chyby; samotná položka se nemění.",
+      "auditCurrentCs": "Vy • Jí • Její",
+      "auditProposedCs": "Vy • Jí • Její",
+      "auditDe": "ihr",
+      "auditLvSource": "jūs • viņai",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Vy • Jí • Její",
+      "cardContext": {
+        "cardId": "a1-ihr",
+        "de": "ihr",
+        "csMain": "Vy • Ji",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00310",
+      "cardId": "a1-ihr",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Německé ihr je 2. osoba množného čísla, nikoli české ty.",
+      "auditCurrentCs": "Přijdeš dnes večer?",
+      "auditProposedCs": "Přijdete dnes večer?",
+      "auditDe": "Kommt ihr heute Abend?",
+      "auditLvSource": "vai jūs nākat šovakar?",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Přijdeš dnes večer?",
+      "cardContext": {
+        "cardId": "a1-ihr",
+        "de": "ihr",
+        "csMain": "Vy • Ji",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00296",
+      "cardId": "a1-gut-study",
+      "field": "study.tip[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Střevo“ je chybný překlad slova gut a mění význam celé české studijní poznámky.",
+      "currentCs": "Střevo bez článku je přídavné jméno/příslovce – dobrý/dobře.",
+      "proposedCs": "Gut bez členu je přídavné jméno nebo příslovce – dobrý/dobře."
+    },
+    {
+      "findingId": "FINAL-A1-00297",
+      "cardId": "a1-gut-study",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Střevo“ je nesouvisející překlad a neodpovídá německému slovu gut.",
+      "currentCs": "Střevo = dobrý/dobře (přídavné jméno/přívlastek).",
+      "proposedCs": "Gut = dobrý/dobře (přídavné jméno nebo příslovce)."
+    },
+    {
+      "findingId": "FINAL-A1-00298",
+      "cardId": "a1-gut-study",
+      "field": "study.important[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Střevní změny“ jsou nesmyslný překlad; text má vysvětlovat skloňování přídavného jména gut.",
+      "currentCs": "Guten Tag/Morgen/Abend - střevní změny končící po skloňování.",
+      "proposedCs": "Guten Tag/Morgen/Abend – koncovka přídavného jména gut se mění podle skloňování."
+    },
+    {
+      "findingId": "FINAL-A1-00299",
+      "cardId": "a1-halten",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Sie vyjadřuje vykání nebo množné číslo a halten Sie an zde znamená „zastavte“, nikoli neformální „přestaň“.",
+      "currentCs": "Prosím přestaň",
+      "proposedCs": "Prosím, zastavte."
+    },
+    {
+      "findingId": "FINAL-A1-00300",
+      "cardId": "a1-halten",
+      "field": "study.explanation[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "Vysvětlení zaměňuje základní význam halten „držet“ za „zastavit“ a obsahuje chybnou formulaci.",
+      "currentCs": "Hlavní myšlenka: zastavit znamená držet, ale s přepravou nebo pohybem může znamenat zastavit nebo zastavit.",
+      "proposedCs": "Hlavní myšlenka: halten znamená držet; u dopravy může znamenat zastavit nebo mít zastávku."
+    },
+    {
+      "findingId": "FINAL-A1-00301",
+      "cardId": "a1-halten",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "Tip chybně překládá držení jako zastavení a neodlišuje halten od anhalten.",
+      "currentCs": "Pamatujte: v ruce → zastavit • Doprava → zastavení/zastávky.",
+      "proposedCs": "Pamatujte: předmět v ruce → držet • zastavit se → anhalten; doprava → halten."
+    },
+    {
+      "findingId": "FINAL-A1-00302",
+      "cardId": "a1-heißen",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Podlý“ je chybný význam; heißen v této úrovni znamená „jmenovat se“ nebo „znamenat“.",
+      "currentCs": "Být nazýván • Podlý",
+      "proposedCs": "Jmenovat se • Znamenat"
+    },
+    {
+      "findingId": "FINAL-A1-00303",
+      "cardId": "a1-heißen",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Podlý“ je zcela nesouvisející překlad druhého významu slovesa heißen.",
+      "currentCs": "Být nazýván • Podlý",
+      "proposedCs": "Jmenovat se • Znamenat"
+    },
+    {
+      "findingId": "FINAL-A1-00304",
+      "cardId": "a1-heißen",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Německé bedeuten znamená „znamenat“, nikoli „střední“.",
+      "currentCs": "Střední",
+      "proposedCs": "Znamenat"
+    },
+    {
+      "findingId": "FINAL-A1-00305",
+      "cardId": "a1-heißen",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Byl heißt das?“ je chybná věta; správné německé zájmeno je Was.",
+      "currentCs": "Byl heißt das? často znamená \"Co to znamená?\".",
+      "proposedCs": "Was heißt das? často znamená „Co to znamená?“."
+    },
+    {
+      "findingId": "FINAL-A1-00306",
+      "cardId": "a1-hoch-study",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Překlad „Hora je vysoká“ neodpovídá větě o regálu vysokém dva metry.",
+      "currentCs": "Hora je vysoká.",
+      "proposedCs": "Regál je vysoký dva metry."
+    },
+    {
+      "findingId": "FINAL-A1-00307",
+      "cardId": "a1-hoch-study",
+      "field": "study.explanation[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.98,
+      "reason": "Vysvětlení je gramaticky neúplné a nesprávně používá ženský rod místo obecného významu vysoký.",
+      "currentCs": "Hlavní myšlenka: Vysoká svisle, úroveň nebo výška.",
+      "proposedCs": "Hlavní myšlenka: Vysoký ve svislém směru nebo na vysoké úrovni."
+    },
+    {
+      "findingId": "FINAL-A1-00308",
+      "cardId": "a1-hoeren-study",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.95,
+      "reason": "Geschichte znamená příběh nebo vyprávění; „pohádka“ je užší význam než německý originál.",
+      "currentCs": "Děti poslouchají pohádku.",
+      "proposedCs": "Děti poslouchají příběh."
+    },
+    {
+      "findingId": "FINAL-A1-00309",
+      "cardId": "a1-ihr",
+      "field": "study.translation",
+      "validationStatus": "STALE_ALREADY_FIXED",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Produkční text se liší od auditovaného textu; auditované znění již není aktuální.",
+      "currentCs": "Vy • Ji"
+    },
+    {
+      "findingId": "FINAL-A1-00310",
+      "cardId": "a1-ihr",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Německé ihr je 2. osoba množného čísla, proto český překlad vyžaduje vykání nebo množné číslo.",
+      "currentCs": "Přijdeš dnes večer?",
+      "proposedCs": "Přijdete dnes večer?"
+    }
+  ]
+}

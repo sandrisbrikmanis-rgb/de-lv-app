@@ -1,0 +1,486 @@
+{
+  "batch": "validate-022",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00388",
+      "cardId": "a1-morgen",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí tečka na konci oznamovací věty.",
+      "auditCurrentCs": "Přijdu zítra",
+      "auditProposedCs": "Přijdu zítra.",
+      "auditDe": "Ich komme morgen.",
+      "auditLvSource": "es nāku rīt.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Přijdu zítra",
+      "cardContext": {
+        "cardId": "a1-morgen",
+        "de": "morgen",
+        "csMain": "Zítra",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00389",
+      "cardId": "a1-morgen",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí tečka na konci oznamovací věty.",
+      "auditCurrentCs": "Zítra je pondělí",
+      "auditProposedCs": "Zítra je pondělí.",
+      "auditDe": "Morgen ist Montag.",
+      "auditLvSource": "rīt ir pirmdiena.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Zítra je pondělí",
+      "cardContext": {
+        "cardId": "a1-morgen",
+        "de": "morgen",
+        "csMain": "Zítra",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00390",
+      "cardId": "a1-morgen-study",
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Der Morgen označuje část dne, nikoli druhý den.",
+      "auditCurrentCs": "Der Morgen hlavně znamená: druhý den.",
+      "auditProposedCs": "Der Morgen hlavně znamená: ráno.",
+      "auditDe": "Der Morgen",
+      "auditLvSource": "der Morgen galvenokārt nozīmē: nākamajā dienā.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Der Morgen hlavně znamená: druhý den.",
+      "cardContext": {
+        "cardId": "a1-morgen-study",
+        "de": "Morgen",
+        "csMain": "Ráno",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00391",
+      "cardId": "a1-morgen-study",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Počasí není významovou charakteristikou slova Morgen.",
+      "auditCurrentCs": "Často charakterizováno: počasím.",
+      "auditProposedCs": "Často označuje část dne.",
+      "auditDe": "Der Morgen",
+      "auditLvSource": "Bieži raksturo: dienas daļa.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Často charakterizováno: počasím.",
+      "cardContext": {
+        "cardId": "a1-morgen-study",
+        "de": "Morgen",
+        "csMain": "Ráno",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00392",
+      "cardId": "a1-morgen-study",
+      "field": "study.explanation[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Výklad je téměř správný, ale pro A1 je přirozenější a přesnější přímý překlad „ráno“.",
+      "auditCurrentCs": "Der Morgen primárně znamená: část dne.",
+      "auditProposedCs": "Der Morgen primárně znamená: ráno.",
+      "auditDe": "Der Morgen",
+      "auditLvSource": "der Morgen galvenokārt nozīmē: dienas daļa.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Der Morgen primárně znamená: část dne.",
+      "cardContext": {
+        "cardId": "a1-morgen-study",
+        "de": "Morgen",
+        "csMain": "Ráno",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00393",
+      "cardId": "a1-morgen-study",
+      "field": "study.explanation[4]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Původní formulace je významově neúplná a nepřirozená.",
+      "auditCurrentCs": "Často popisuje: podstatné jméno (der).",
+      "auditProposedCs": "Je to podstatné jméno mužského rodu se členem der.",
+      "auditDe": "Der Morgen",
+      "auditLvSource": "Bieži raksturo: lietvārds (der).",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Často popisuje: podstatné jméno (der).",
+      "cardContext": {
+        "cardId": "a1-morgen-study",
+        "de": "Morgen",
+        "csMain": "Ráno",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00394",
+      "cardId": "a1-morgen-study",
+      "field": "study.explanation[5]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Jednotné číslo der Morgen znamená ráno; „několik ran“ je chybný výklad čísla i významu.",
+      "auditCurrentCs": "Der Morgen v podstatě znamená: několik ran.",
+      "auditProposedCs": "Množné číslo die Morgen znamená rána.",
+      "auditDe": "Der Morgen",
+      "auditLvSource": "der Morgen galvenokārt nozīmē: vairāki rīti.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Der Morgen v podstatě znamená: několik ran.",
+      "cardContext": {
+        "cardId": "a1-morgen-study",
+        "de": "Morgen",
+        "csMain": "Ráno",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00395",
+      "cardId": "a1-morgen-study",
+      "field": "study.explanation[6]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Původní formulace je gramaticky i obsahově neúplná.",
+      "auditCurrentCs": "Často charakterizováno: podstatné jméno (pl.).",
+      "auditProposedCs": "Množné číslo je die Morgen.",
+      "auditDe": "die Morgen",
+      "auditLvSource": "Bieži raksturo: lietvārds (pl.).",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Často charakterizováno: podstatné jméno (pl.).",
+      "cardContext": {
+        "cardId": "a1-morgen-study",
+        "de": "Morgen",
+        "csMain": "Ráno",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00396",
+      "cardId": "a1-morgen-study",
+      "field": "study.explanation[7]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Pozítří“ je chybný význam a věta je navíc neuzavřená závorkou.",
+      "auditCurrentCs": "Morgen s malým počátečním písmenem znamená zítra - pozítří (Ich komme morgen = přijdu zítra, Bis morgen!",
+      "auditProposedCs": "morgen s malým počátečním písmenem znamená zítra (Ich komme morgen = přijdu zítra, Bis morgen!).",
+      "auditDe": "morgen",
+      "auditLvSource": "morgen ar mazo sākumburtu nozīmē rīt.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Morgen s malým počátečním písmenem znamená zítra - pozítří (Ich komme morgen = přijdu zítra, Bis morgen!",
+      "cardContext": {
+        "cardId": "a1-morgen-study",
+        "de": "Morgen",
+        "csMain": "Ráno",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00397",
+      "cardId": "a1-morgen-study",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "V kontextu karty Morgen je třeba rozlišit malé morgen od podstatného jména der Morgen.",
+      "auditCurrentCs": "Morgen je malé písmeno - je to časové příslovce (zítra).",
+      "auditProposedCs": "morgen se píše s malým písmenem – je to časové příslovce (zítra).",
+      "auditDe": "morgen",
+      "auditLvSource": "morgen stāv ar mazo burtu — tas ir laika apstāklis.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Morgen je malé písmeno - je to časové příslovce (zítra).",
+      "cardContext": {
+        "cardId": "a1-morgen-study",
+        "de": "Morgen",
+        "csMain": "Ráno",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00398",
+      "cardId": "a1-morgen-study",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí tečka na konci oznamovací věty.",
+      "auditCurrentCs": "Přijdu zítra",
+      "auditProposedCs": "Přijdu zítra.",
+      "auditDe": "Ich komme morgen.",
+      "auditLvSource": "es nāku rīt.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Přijdu zítra",
+      "cardContext": {
+        "cardId": "a1-morgen-study",
+        "de": "Morgen",
+        "csMain": "Ráno",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00399",
+      "cardId": "a1-morgen-study",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí tečka na konci oznamovací věty.",
+      "auditCurrentCs": "Zítra je pondělí",
+      "auditProposedCs": "Zítra je pondělí.",
+      "auditDe": "Morgen ist Montag.",
+      "auditLvSource": "rīt ir pirmdiena.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Zítra je pondělí",
+      "cardContext": {
+        "cardId": "a1-morgen-study",
+        "de": "Morgen",
+        "csMain": "Ráno",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00400",
+      "cardId": "a1-müssen",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Český infinitiv je „muset“, nikoli „musit“.",
+      "auditCurrentCs": "Musit",
+      "auditProposedCs": "Muset",
+      "auditDe": "müssen",
+      "auditLvSource": "vajadzēt",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Musit",
+      "cardContext": {
+        "cardId": "a1-müssen",
+        "de": "müssen",
+        "csMain": "Musit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00401",
+      "cardId": "a1-müssen",
+      "field": "study.explanation[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Současná formulace nevyjadřuje nutnost a je významově neúplná.",
+      "auditCurrentCs": "Hlavní myšlenka: müssen znamená něco dělat.",
+      "auditProposedCs": "Hlavní myšlenka: müssen znamená, že je nutné něco dělat.",
+      "auditDe": "müssen",
+      "auditLvSource": "müssen nozīmē, ka kaut kas ir jādara.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Hlavní myšlenka: müssen znamená něco dělat.",
+      "cardContext": {
+        "cardId": "a1-müssen",
+        "de": "müssen",
+        "csMain": "Musit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00402",
+      "cardId": "a1-müssen",
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Já ano“ je chybný překlad modální nutnosti.",
+      "auditCurrentCs": "V češtině se müssen často překládá jako „já ano...“, „ty ano...“, „my ano...“.",
+      "auditProposedCs": "V češtině se müssen často překládá jako „já musím...“, „ty musíš...“, „my musíme...“.",
+      "auditDe": "müssen",
+      "auditLvSource": "man jā..., tev jā..., mums jā...",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "V češtině se müssen často překládá jako „já ano...“, „ty ano...“, „my ano...“.",
+      "cardContext": {
+        "cardId": "a1-müssen",
+        "de": "müssen",
+        "csMain": "Musit",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00388",
+      "cardId": "a1-morgen",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Oznamovací věta v produkci skutečně postrádá koncovou tečku.",
+      "currentCs": "Přijdu zítra",
+      "proposedCs": "Přijdu zítra."
+    },
+    {
+      "findingId": "FINAL-A1-00389",
+      "cardId": "a1-morgen",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Oznamovací věta v produkci skutečně postrádá koncovou tečku.",
+      "currentCs": "Zítra je pondělí",
+      "proposedCs": "Zítra je pondělí."
+    },
+    {
+      "findingId": "FINAL-A1-00390",
+      "cardId": "a1-morgen-study",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Produkční výklad zaměňuje německé podstatné jméno Morgen za význam zítřka.",
+      "currentCs": "Der Morgen hlavně znamená: druhý den.",
+      "proposedCs": "Der Morgen hlavně znamená: ráno."
+    },
+    {
+      "findingId": "FINAL-A1-00391",
+      "cardId": "a1-morgen-study",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Produkční text nesprávně spojuje význam slova Morgen s počasím.",
+      "currentCs": "Často charakterizováno: počasím.",
+      "proposedCs": "Často označuje část dne."
+    },
+    {
+      "findingId": "FINAL-A1-00392",
+      "cardId": "a1-morgen-study",
+      "field": "study.explanation[3]",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Část dne“ je významově správné; navržené „ráno“ je pouze přirozenější A1 formulace.",
+      "currentCs": "Der Morgen primárně znamená: část dne."
+    },
+    {
+      "findingId": "FINAL-A1-00393",
+      "cardId": "a1-morgen-study",
+      "field": "study.explanation[4]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Produkční formulace je nepřirozená a neúplně popisuje rod a člen podstatného jména.",
+      "currentCs": "Často popisuje: podstatné jméno (der).",
+      "proposedCs": "Je to podstatné jméno mužského rodu se členem der."
+    },
+    {
+      "findingId": "FINAL-A1-00394",
+      "cardId": "a1-morgen-study",
+      "field": "study.explanation[5]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Produkce chybně uvádí význam jednotného čísla jako několik ran.",
+      "currentCs": "Der Morgen v podstatě znamená: několik ran.",
+      "proposedCs": "Množné číslo die Morgen znamená rána."
+    },
+    {
+      "findingId": "FINAL-A1-00395",
+      "cardId": "a1-morgen-study",
+      "field": "study.explanation[6]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Produkční text je gramaticky neúplný a neuvádí přímo tvar množného čísla.",
+      "currentCs": "Často charakterizováno: podstatné jméno (pl.).",
+      "proposedCs": "Množné číslo je die Morgen."
+    },
+    {
+      "findingId": "FINAL-A1-00396",
+      "cardId": "a1-morgen-study",
+      "field": "study.explanation[7]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Produkce uvádí chybný význam pozítří a obsahuje neuzavřenou závorku.",
+      "currentCs": "Morgen s malým počátečním písmenem znamená zítra - pozítří (Ich komme morgen = přijdu zítra, Bis morgen!",
+      "proposedCs": "morgen s malým počátečním písmenem znamená zítra (Ich komme morgen = přijdu zítra, Bis morgen!)."
+    },
+    {
+      "findingId": "FINAL-A1-00397",
+      "cardId": "a1-morgen-study",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Produkční věta nesprávně označuje Morgen s velkým písmenem za malé písmeno.",
+      "currentCs": "Morgen je malé písmeno - je to časové příslovce (zítra).",
+      "proposedCs": "morgen se píše s malým písmenem – je to časové příslovce (zítra)."
+    },
+    {
+      "findingId": "FINAL-A1-00398",
+      "cardId": "a1-morgen-study",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Oznamovací věta v produkci skutečně postrádá koncovou tečku.",
+      "currentCs": "Přijdu zítra",
+      "proposedCs": "Přijdu zítra."
+    },
+    {
+      "findingId": "FINAL-A1-00399",
+      "cardId": "a1-morgen-study",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Oznamovací věta v produkci skutečně postrádá koncovou tečku.",
+      "currentCs": "Zítra je pondělí",
+      "proposedCs": "Zítra je pondělí."
+    },
+    {
+      "findingId": "FINAL-A1-00400",
+      "cardId": "a1-müssen",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Český infinitiv slovesa müssen je „muset“, nikoli produkční „musit“.",
+      "currentCs": "Musit",
+      "proposedCs": "Muset"
+    },
+    {
+      "findingId": "FINAL-A1-00401",
+      "cardId": "a1-müssen",
+      "field": "study.explanation[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Produkční výklad vynechává význam nutnosti a je významově neúplný.",
+      "currentCs": "Hlavní myšlenka: müssen znamená něco dělat.",
+      "proposedCs": "Hlavní myšlenka: müssen znamená, že je nutné něco dělat."
+    },
+    {
+      "findingId": "FINAL-A1-00402",
+      "cardId": "a1-müssen",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Produkční české příklady „já ano“ chybně překládají modální nutnost.",
+      "currentCs": "V češtině se müssen často překládá jako „já ano...“, „ty ano...“, „my ano...“.",
+      "proposedCs": "V češtině se müssen často překládá jako „já musím...“, „ty musíš...“, „my musíme...“."
+    }
+  ]
+}

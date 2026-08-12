@@ -1,0 +1,485 @@
+{
+  "batch": "validate-015",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00281",
+      "cardId": "a1-finden",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Nález je podstatné jméno; zde je potřeba sloveso najít.",
+      "auditCurrentCs": "Pokud jde o ztracenou věc, překládá se to jako nález.",
+      "auditProposedCs": "Pokud jde o ztracenou věc, překládá se jako najít.",
+      "auditDe": "Wenn es um eine verlorene Sache geht, bedeutet finden: finden.",
+      "auditLvSource": "Ja runa ir par pazaudētu lietu, tulko kā atrast.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pokud jde o ztracenou věc, překládá se to jako nález.",
+      "cardContext": {
+        "cardId": "a1-finden",
+        "de": "finden",
+        "csMain": "Najít • Zvážit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00282",
+      "cardId": "a1-finden",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Nalezená a najdu jsou jiné tvary a významy; tip má uvádět infinitivy nebo správnou frázi.",
+      "auditCurrentCs": "Pamatujte: ztracená věc → nalezená • Názor → najdu...",
+      "auditProposedCs": "Pamatujte: ztracená věc → najít • Názor → myslet si...",
+      "auditDe": "finden",
+      "auditLvSource": "Atceries: pazaudēta lieta → finden; viedoklis → ich finde...",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pamatujte: ztracená věc → nalezená • Názor → najdu...",
+      "cardContext": {
+        "cardId": "a1-finden",
+        "de": "finden",
+        "csMain": "Najít • Zvážit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00283",
+      "cardId": "a1-finden",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Obě části českého upozornění jsou nyní stejné, takže kontrast chybí.",
+      "auditCurrentCs": "Ich finde das gut znamená „považuji to za dobré“, nikoli „považuji to za dobré“.",
+      "auditProposedCs": "Ich finde das gut znamená „považuji to za dobré“, nikoli „najdu to dobré“.",
+      "auditDe": "Ich finde das gut.",
+      "auditLvSource": "Ich finde das gut nozīmē “man tas šķiet labi”, nevis “es to atrodu labi”.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Ich finde das gut znamená „považuji to za dobré“, nikoli „považuji to za dobré“.",
+      "cardContext": {
+        "cardId": "a1-finden",
+        "de": "finden",
+        "csMain": "Najít • Zvážit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00284",
+      "cardId": "a1-fuer",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Für se podle kontextu překládá také jako za, zejména u danke für a bezahlen für.",
+      "auditCurrentCs": "Pro • Pro",
+      "auditProposedCs": "Pro • Za",
+      "auditDe": "für",
+      "auditLvSource": "priekš / par",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Pro • Pro",
+      "cardContext": {
+        "cardId": "a1-fuer",
+        "de": "für",
+        "csMain": "Pro • Pro",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00285",
+      "cardId": "a1-fuer",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Druhý hlavní český význam předložky für je za.",
+      "auditCurrentCs": "Pro • Pro",
+      "auditProposedCs": "Pro • Za",
+      "auditDe": "für",
+      "auditLvSource": "priekš / par",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Pro • Pro",
+      "cardContext": {
+        "cardId": "a1-fuer",
+        "de": "für",
+        "csMain": "Pro • Pro",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00286",
+      "cardId": "a1-fuer",
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Dich je neformální jednotné číslo, nikoli vykání vás.",
+      "auditCurrentCs": "Když mluvíme o příjemci nebo záměru, für = pro (für dich = pro vás).",
+      "auditProposedCs": "Když mluvíme o příjemci nebo záměru, für = pro (für dich = pro tebe).",
+      "auditDe": "für dich",
+      "auditLvSource": "für dich = priekš tevis",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Když mluvíme o příjemci nebo záměru, für = pro (für dich = pro vás).",
+      "cardContext": {
+        "cardId": "a1-fuer",
+        "de": "für",
+        "csMain": "Pro • Pro",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00287",
+      "cardId": "a1-fuer",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německý originál neobsahuje přivlastnění; vaši pomoc význam zbytečně mění.",
+      "auditCurrentCs": "Děkuji za vaši pomoc.",
+      "auditProposedCs": "Děkuji za pomoc.",
+      "auditDe": "Danke für die Hilfe.",
+      "auditLvSource": "paldies par palīdzību.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Děkuji za vaši pomoc.",
+      "cardContext": {
+        "cardId": "a1-fuer",
+        "de": "für",
+        "csMain": "Pro • Pro",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00288",
+      "cardId": "a1-fuer",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "U obou uvedených vazeb je český překlad za, ne pro.",
+      "auditCurrentCs": "Danke für / bezahlen für = 'pro', nikoli 'před'.",
+      "auditProposedCs": "Danke für / bezahlen für = „za“, nikoli „před“.",
+      "auditDe": "Danke für / bezahlen für",
+      "auditLvSource": "danke für / bezahlen für = par",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Danke für / bezahlen für = 'pro', nikoli 'před'.",
+      "cardContext": {
+        "cardId": "a1-fuer",
+        "de": "für",
+        "csMain": "Pro • Pro",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00289",
+      "cardId": "a1-geben",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německé geben vyjadřuje obecně nedokonavé dávat; Dát je dokonavé a mění aspekt.",
+      "auditCurrentCs": "Dát",
+      "auditProposedCs": "Dávat",
+      "auditDe": "geben",
+      "auditLvSource": "dot",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Dát",
+      "cardContext": {
+        "cardId": "a1-geben",
+        "de": "geben",
+        "csMain": "Dát",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00290",
+      "cardId": "a1-geben",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Dva české překlady jsou shodné, zatímco německý protějšek rozlišuje aspekt.",
+      "auditCurrentCs": "Vzít / vzít",
+      "auditProposedCs": "Brát / vzít",
+      "auditDe": "nehmen",
+      "auditLvSource": "ņemt / paņemt",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Vzít / vzít",
+      "cardContext": {
+        "cardId": "a1-geben",
+        "de": "geben",
+        "csMain": "Dát",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00291",
+      "cardId": "a1-geben",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Rozdat je užší význam než běžné geben = dávat.",
+      "auditCurrentCs": "Pamatujte: rozdat → geben • Vzít si pro sebe → nehmen.",
+      "auditProposedCs": "Pamatujte: dávat → geben • Vzít si pro sebe → nehmen.",
+      "auditDe": "geben",
+      "auditLvSource": "dot prom → geben",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pamatujte: rozdat → geben • Vzít si pro sebe → nehmen.",
+      "cardContext": {
+        "cardId": "a1-geben",
+        "de": "geben",
+        "csMain": "Dát",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00292",
+      "cardId": "a1-gleich",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Opakování stejný/stejný je chybná a nepřirozená formulace.",
+      "auditCurrentCs": "Pokud jde o srovnání, gleich = stejný/stejný (die gleiche Farbe = stejná barva).",
+      "auditProposedCs": "Pokud jde o srovnání, gleich = stejný nebo stejný jako (die gleiche Farbe = stejná barva).",
+      "auditDe": "gleich",
+      "auditLvSource": "gleich = vienāds/tāds pats",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Pokud jde o srovnání, gleich = stejný/stejný (die gleiche Farbe = stejná barva).",
+      "cardContext": {
+        "cardId": "a1-gleich",
+        "de": "gleich",
+        "csMain": "Hned • Rovný",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00293",
+      "cardId": "a1-gleich",
+      "field": "study.tip[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Výraz za chvíli je v českém tipu zbytečně zopakován.",
+      "auditCurrentCs": "Za chvíli (za chvíli) → hned.",
+      "auditProposedCs": "Za chvíli → hned.",
+      "auditDe": "gleich",
+      "auditLvSource": "Par laiku (pēc brīža) → tūlīt.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Za chvíli (za chvíli) → hned.",
+      "cardContext": {
+        "cardId": "a1-gleich",
+        "de": "gleich",
+        "csMain": "Hned • Rovný",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00294",
+      "cardId": "a1-gleich",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "České Dobře! neodpovídá německé rozlučovací frázi Bis gleich!.",
+      "auditCurrentCs": "Dobře! = brzy se uvidíme! — běžná rozlučovací fráze.",
+      "auditProposedCs": "Bis gleich! = brzy se uvidíme! — běžná rozlučovací fráze.",
+      "auditDe": "Bis gleich!",
+      "auditLvSource": "Bis gleich! = tiekamies pēc brīža!",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Dobře! = brzy se uvidíme! — běžná rozlučovací fráze.",
+      "cardContext": {
+        "cardId": "a1-gleich",
+        "de": "gleich",
+        "csMain": "Hned • Rovný",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00295",
+      "cardId": "a1-gut-study",
+      "field": "study.explanation[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Střevo je chybný doslovný překlad německého Gut jako podstatného jména.",
+      "auditCurrentCs": "Hlavní myšlenka: střevo je přídavné jméno/příslovce – dobrý, úspěšný, v pořádku.",
+      "auditProposedCs": "Hlavní myšlenka: gut je přídavné jméno nebo příslovce – dobrý, dobře, v pořádku.",
+      "auditDe": "gut",
+      "auditLvSource": "gut ir īpašības/apstākļa vārds",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Hlavní myšlenka: střevo je přídavné jméno/příslovce – dobrý, úspěšný, v pořádku.",
+      "cardContext": {
+        "cardId": "a1-gut-study",
+        "de": "gut",
+        "csMain": "Dobrý",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00281",
+      "cardId": "a1-finden",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Nález je podstatné jméno, ale německé finden zde vyžaduje český infinitiv najít.",
+      "currentCs": "Pokud jde o ztracenou věc, překládá se to jako nález.",
+      "proposedCs": "Pokud jde o ztracenou věc, překládá se jako najít."
+    },
+    {
+      "findingId": "FINAL-A1-00282",
+      "cardId": "a1-finden",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Tip zaměňuje české tvary nalezená a najdu za infinitivní významy najít a myslet si.",
+      "currentCs": "Pamatujte: ztracená věc → nalezená • Názor → najdu...",
+      "proposedCs": "Pamatujte: ztracená věc → najít • Názor → myslet si..."
+    },
+    {
+      "findingId": "FINAL-A1-00283",
+      "cardId": "a1-finden",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 1,
+      "reason": "Obě české části jsou totožné, takže upozornění neodlišuje najít od významu považovat.",
+      "currentCs": "Ich finde das gut znamená „považuji to za dobré“, nikoli „považuji to za dobré“.",
+      "proposedCs": "Ich finde das gut znamená „považuji to za dobré“, nikoli „najdu to dobré“."
+    },
+    {
+      "findingId": "FINAL-A1-00284",
+      "cardId": "a1-fuer",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "České významy für jsou neúplné; ve vazbách jako danke für a bezahlen für se běžně překládá za.",
+      "currentCs": "Pro • Pro",
+      "proposedCs": "Pro • Za"
+    },
+    {
+      "findingId": "FINAL-A1-00285",
+      "cardId": "a1-fuer",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "Druhý hlavní český význam für je za, nikoli opakování pro.",
+      "currentCs": "Pro • Pro",
+      "proposedCs": "Pro • Za"
+    },
+    {
+      "findingId": "FINAL-A1-00286",
+      "cardId": "a1-fuer",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Dich je neformální jednotné číslo a odpovídá českému tebe, ne vykacímu vás.",
+      "currentCs": "Když mluvíme o příjemci nebo záměru, für = pro (für dich = pro vás).",
+      "proposedCs": "Když mluvíme o příjemci nebo záměru, für = pro (für dich = pro tebe)."
+    },
+    {
+      "findingId": "FINAL-A1-00287",
+      "cardId": "a1-fuer",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.95,
+      "reason": "Český překlad přidává přivlastnění, které v německém originálu není a zbytečně zužuje význam.",
+      "currentCs": "Děkuji za vaši pomoc.",
+      "proposedCs": "Děkuji za pomoc."
+    },
+    {
+      "findingId": "FINAL-A1-00288",
+      "cardId": "a1-fuer",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 1,
+      "reason": "V uvedených vazbách se für překládá za; současné upozornění navíc uvádí chybné před.",
+      "currentCs": "Danke für / bezahlen für = 'pro', nikoli 'před'.",
+      "proposedCs": "Danke für / bezahlen für = „za“, nikoli „před“."
+    },
+    {
+      "findingId": "FINAL-A1-00289",
+      "cardId": "a1-geben",
+      "field": "study.translation",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": 0.9,
+      "reason": "Dát je platný český překlad německého geben; požadavek na nedokonavé dávat je preferencí aspektu, ne jednoznačnou chybou.",
+      "currentCs": "Dát"
+    },
+    {
+      "findingId": "FINAL-A1-00290",
+      "cardId": "a1-geben",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": 0.97,
+      "reason": "Porovnání ztrácí české aspektové rozlišení mezi brát a vzít.",
+      "currentCs": "Vzít / vzít",
+      "proposedCs": "Brát / vzít"
+    },
+    {
+      "findingId": "FINAL-A1-00291",
+      "cardId": "a1-geben",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.96,
+      "reason": "Rozdat označuje pouze rozdání; běžný význam geben je obecnější dávat.",
+      "currentCs": "Pamatujte: rozdat → geben • Vzít si pro sebe → nehmen.",
+      "proposedCs": "Pamatujte: dávat → geben • Vzít si pro sebe → nehmen."
+    },
+    {
+      "findingId": "FINAL-A1-00292",
+      "cardId": "a1-gleich",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": 0.96,
+      "reason": "Opakování stejný/stejný je chybná a nepřirozená formulace českého významu.",
+      "currentCs": "Pokud jde o srovnání, gleich = stejný/stejný (die gleiche Farbe = stejná barva).",
+      "proposedCs": "Pokud jde o srovnání, gleich = stejný nebo stejný jako (die gleiche Farbe = stejná barva)."
+    },
+    {
+      "findingId": "FINAL-A1-00293",
+      "cardId": "a1-gleich",
+      "field": "study.tip[0]",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": 0.94,
+      "reason": "Závorka je stylisticky nadbytečná, ale současný tip zůstává srozumitelný a významově správný.",
+      "currentCs": "Za chvíli (za chvíli) → hned."
+    },
+    {
+      "findingId": "FINAL-A1-00294",
+      "cardId": "a1-gleich",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 1,
+      "reason": "Bis gleich! je rozlučovací fráze; české Dobře! neodpovídá německému originálu.",
+      "currentCs": "Dobře! = brzy se uvidíme! — běžná rozlučovací fráze.",
+      "proposedCs": "Bis gleich! = brzy se uvidíme! — běžná rozlučovací fráze."
+    },
+    {
+      "findingId": "FINAL-A1-00295",
+      "cardId": "a1-gut-study",
+      "field": "study.explanation[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 1,
+      "reason": "Střevo je chybné doslovné podstatné jméno; gut je přídavné jméno nebo příslovce.",
+      "currentCs": "Hlavní myšlenka: střevo je přídavné jméno/příslovce – dobrý, úspěšný, v pořádku.",
+      "proposedCs": "Hlavní myšlenka: gut je přídavné jméno nebo příslovce – dobrý, dobře, v pořádku."
+    }
+  ]
+}

@@ -1,0 +1,487 @@
+{
+  "batch": "validate-017",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00311",
+      "cardId": "a1-ihr",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Je použit singulár místo množného čísla a chybí otazník.",
+      "auditCurrentCs": "Kde bydlíš",
+      "auditProposedCs": "Kde bydlíte?",
+      "auditDe": "Wo wohnt ihr?",
+      "auditLvSource": "kur jūs dzīvojat?",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Kde bydlíš",
+      "cardContext": {
+        "cardId": "a1-ihr",
+        "de": "ihr",
+        "csMain": "Vy • Ji",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00312",
+      "cardId": "a1-ihr",
+      "field": "study.examples[4].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Ihr vyžaduje český plurál nebo vykání, ne jednotné číslo.",
+      "auditCurrentCs": "Máš čas?",
+      "auditProposedCs": "Máte čas?",
+      "auditDe": "Habt ihr Zeit?",
+      "auditLvSource": "vai jums ir laiks?",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Máš čas?",
+      "cardContext": {
+        "cardId": "a1-ihr",
+        "de": "ihr",
+        "csMain": "Vy • Ji",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00313",
+      "cardId": "a1-ihr",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Ji je osobní zájmeno; ihr jako přivlastňovací zájmeno znamená její.",
+      "auditCurrentCs": "Ihr jako přivlastňovací zájmeno znamená ji (ihr Buch = její kniha).",
+      "auditProposedCs": "Ihr jako přivlastňovací zájmeno znamená její (ihr Buch = její kniha).",
+      "auditDe": "ihr",
+      "auditLvSource": "viņas",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Ihr jako přivlastňovací zájmeno znamená ji (ihr Buch = její kniha).",
+      "cardContext": {
+        "cardId": "a1-ihr",
+        "de": "ihr",
+        "csMain": "Vy • Ji",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00314",
+      "cardId": "a1-ihr",
+      "field": "study.tip[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Tvary habt ihr a kommt ihr označují 2. osobu množného čísla, tedy vy.",
+      "auditCurrentCs": "Kontrola: Habt ihr...? / Kommt ihr...? = ty • Ich gebe ihr... / ihr Buch = pro ni/její.",
+      "auditProposedCs": "Kontrola: Habt ihr...? / Kommt ihr...? = vy • Ich gebe ihr... / ihr Buch = jí/její.",
+      "auditDe": "ihr",
+      "auditLvSource": "jūs",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Kontrola: Habt ihr...? / Kommt ihr...? = ty • Ich gebe ihr... / ihr Buch = pro ni/její.",
+      "cardContext": {
+        "cardId": "a1-ihr",
+        "de": "ihr",
+        "csMain": "Vy • Ji",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00315",
+      "cardId": "a1-ihr",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Dativní tvar zájmena sie je jí, zatímco její je přivlastňovací zájmeno.",
+      "auditCurrentCs": "Ihr = vy (adresa několika) NEBO její (dativ) NEBO její (přivlastňovací) – v závislosti na kontextu.",
+      "auditProposedCs": "Ihr = vy (adresa několika) NEBO jí (dativ) NEBO její (přivlastňovací) – v závislosti na kontextu.",
+      "auditDe": "ihr",
+      "auditLvSource": "jūs • viņai",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Ihr = vy (adresa několika) NEBO její (dativ) NEBO její (přivlastňovací) – v závislosti na kontextu.",
+      "cardContext": {
+        "cardId": "a1-ihr",
+        "de": "ihr",
+        "csMain": "Vy • Ji",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00316",
+      "cardId": "a1-im",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Komu? není označení českého pádu; německý dativ odpovídá 3. pádu.",
+      "auditCurrentCs": "Uvnitř kde? (komu?)",
+      "auditProposedCs": "V / uvnitř, kde? (3. pád)",
+      "auditDe": "im",
+      "auditLvSource": "iekšā, kur? (kam?)",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Uvnitř kde? (komu?)",
+      "cardContext": {
+        "cardId": "a1-im",
+        "de": "im",
+        "csMain": "V • Kde?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00317",
+      "cardId": "a1-im",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Akk. byl chybně přeložen jako účet místo označení akuzativu.",
+      "auditCurrentCs": "Dovnitř, kam? (účet)",
+      "auditProposedCs": "Dovnitř, kam? (4. pád)",
+      "auditDe": "ins",
+      "auditLvSource": "uz iekšu, kurp? (Akk.)",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Dovnitř, kam? (účet)",
+      "cardContext": {
+        "cardId": "a1-im",
+        "de": "im",
+        "csMain": "V • Kde?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00318",
+      "cardId": "a1-im",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "V češtině se v gramatickém kontextu používá termín člen, ne článek.",
+      "auditCurrentCs": "V / do (žádný článek)",
+      "auditProposedCs": "V / do (bez členu)",
+      "auditDe": "in",
+      "auditLvSource": "iekšā / uz (bez artikula)",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "V / do (žádný článek)",
+      "cardContext": {
+        "cardId": "a1-im",
+        "de": "im",
+        "csMain": "V • Kde?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00319",
+      "cardId": "a1-im",
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Komu? nevystihuje lokalizační význam otázky kde? ani označení dativu.",
+      "auditCurrentCs": "Plná forma: in dem (komu?).",
+      "auditProposedCs": "Plná forma: in dem (3. pád, kde?).",
+      "auditDe": "in dem",
+      "auditLvSource": "iekšā (-ā)",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Plná forma: in dem (komu?).",
+      "cardContext": {
+        "cardId": "a1-im",
+        "de": "im",
+        "csMain": "V • Kde?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00320",
+      "cardId": "a1-im",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Text prohodil otázky kam? a kde?, čímž obrací základní význam im.",
+      "auditCurrentCs": "Odpovědi kam?, ne kde? — umístění, nikoli pohyb.",
+      "auditProposedCs": "Odpovídá na otázku kde?, ne kam? — označuje umístění, nikoli pohyb.",
+      "auditDe": "im",
+      "auditLvSource": "kur? nevis kurp?",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Odpovědi kam?, ne kde? — umístění, nikoli pohyb.",
+      "cardContext": {
+        "cardId": "a1-im",
+        "de": "im",
+        "csMain": "V • Kde?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00321",
+      "cardId": "a1-im",
+      "field": "study.important[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Pro ženy je zde významově nepřesné; jde o gramatický rod podstatného jména.",
+      "auditCurrentCs": "Pro ženy: in der Schule, ne im Schule.",
+      "auditProposedCs": "Pro ženský rod: in der Schule, ne im Schule.",
+      "auditDe": "in der Schule",
+      "auditLvSource": "Sieviešu dzimtei: in der Schule",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Pro ženy: in der Schule, ne im Schule.",
+      "cardContext": {
+        "cardId": "a1-im",
+        "de": "im",
+        "csMain": "V • Kde?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00322",
+      "cardId": "a1-ins",
+      "field": "study.examples[7].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Fahr znamená jeďte, nikoli jděte; současně je zachováno vykání nebo plurál.",
+      "auditCurrentCs": "Prosím jděte do centra.",
+      "auditProposedCs": "Jeďte prosím do centra.",
+      "auditDe": "Fahr bitte ins Zentrum.",
+      "auditLvSource": "lūdzu, brauc uz centru.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Prosím jděte do centra.",
+      "cardContext": {
+        "cardId": "a1-ins",
+        "de": "ins",
+        "csMain": "V • Do • Kam?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00323",
+      "cardId": "a1-ins",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Akk. byl chybně přeložen jako účet místo označení akuzativu.",
+      "auditCurrentCs": "Dovnitř, kam? (účet)",
+      "auditProposedCs": "Dovnitř, kam? (4. pád)",
+      "auditDe": "ins",
+      "auditLvSource": "uz iekšu, kurp? (Akk.)",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Dovnitř, kam? (účet)",
+      "cardContext": {
+        "cardId": "a1-ins",
+        "de": "ins",
+        "csMain": "V • Do • Kam?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00324",
+      "cardId": "a1-ins",
+      "field": "study.comparison[4].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Zum je zkratka zu dem a vyjadřuje směr nebo vztah k někomu či něčemu.",
+      "auditCurrentCs": "Komu / u (koho?)",
+      "auditProposedCs": "K / ke (3. pád)",
+      "auditDe": "zum",
+      "auditLvSource": "uz / pie (kam?)",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Komu / u (koho?)",
+      "cardContext": {
+        "cardId": "a1-ins",
+        "de": "ins",
+        "csMain": "V • Do • Kam?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00325",
+      "cardId": "a1-ins",
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Německá plná forma nesmí být přeložena jako české v das a otázka má být kam?.",
+      "auditCurrentCs": "Plná forma: v das (kde?).",
+      "auditProposedCs": "Plná forma: in das (kam?).",
+      "auditDe": "in das",
+      "auditLvSource": "in das",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Plná forma: v das (kde?).",
+      "cardContext": {
+        "cardId": "a1-ins",
+        "de": "ins",
+        "csMain": "V • Do • Kam?",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00311",
+      "cardId": "a1-ihr",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "German ihr is plural or formal you; Czech requires the plural/formal form and the question mark.",
+      "currentCs": "Kde bydlíš",
+      "proposedCs": "Kde bydlíte?"
+    },
+    {
+      "findingId": "FINAL-A1-00312",
+      "cardId": "a1-ihr",
+      "field": "study.examples[4].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "German ihr is plural you, so the Czech verb must use the plural or formal form.",
+      "currentCs": "Máš čas?",
+      "proposedCs": "Máte čas?"
+    },
+    {
+      "findingId": "FINAL-A1-00313",
+      "cardId": "a1-ihr",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "As a possessive pronoun, ihr means její, not ji.",
+      "currentCs": "Ihr jako přivlastňovací zájmeno znamená ji (ihr Buch = její kniha).",
+      "proposedCs": "Ihr jako přivlastňovací zájmeno znamená její (ihr Buch = její kniha)."
+    },
+    {
+      "findingId": "FINAL-A1-00314",
+      "cardId": "a1-ihr",
+      "field": "study.tip[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Habt ihr and kommt ihr mean vy; dative ihr means jí, while possessive ihr means její.",
+      "currentCs": "Kontrola: Habt ihr...? / Kommt ihr...? = ty • Ich gebe ihr... / ihr Buch = pro ni/její.",
+      "proposedCs": "Kontrola: Habt ihr...? / Kommt ihr...? = vy • Ich gebe ihr... / ihr Buch = jí/její."
+    },
+    {
+      "findingId": "FINAL-A1-00315",
+      "cardId": "a1-ihr",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "The dative pronoun ihr is jí; její is the possessive meaning.",
+      "currentCs": "Ihr = vy (adresa několika) NEBO její (dativ) NEBO její (přivlastňovací) – v závislosti na kontextu.",
+      "proposedCs": "Ihr = vy (adresa několika) NEBO jí (dativ) NEBO její (přivlastňovací) – v závislosti na kontextu."
+    },
+    {
+      "findingId": "FINAL-A1-00316",
+      "cardId": "a1-im",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Im is a dative contraction and indicates location, answering kde?, not komu? in this context.",
+      "currentCs": "Uvnitř kde? (komu?)",
+      "proposedCs": "V / uvnitř, kde? (3. pád)"
+    },
+    {
+      "findingId": "FINAL-A1-00317",
+      "cardId": "a1-im",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Akk. is the abbreviation for accusative, not the Czech word účet.",
+      "currentCs": "Dovnitř, kam? (účet)",
+      "proposedCs": "Dovnitř, kam? (4. pád)"
+    },
+    {
+      "findingId": "FINAL-A1-00318",
+      "cardId": "a1-im",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The Czech grammatical term is člen; bez členu is the appropriate phrasing here.",
+      "currentCs": "V / do (žádný článek)",
+      "proposedCs": "V / do (bez členu)"
+    },
+    {
+      "findingId": "FINAL-A1-00319",
+      "cardId": "a1-im",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "In dem is dative and, with im, expresses location answering kde?, not komu?.",
+      "currentCs": "Plná forma: in dem (komu?).",
+      "proposedCs": "Plná forma: in dem (3. pád, kde?)."
+    },
+    {
+      "findingId": "FINAL-A1-00320",
+      "cardId": "a1-im",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Im expresses stationary location and answers kde?, whereas kam? indicates movement.",
+      "currentCs": "Odpovědi kam?, ne kde? — umístění, nikoli pohyb.",
+      "proposedCs": "Odpovídá na otázku kde?, ne kam? — označuje umístění, nikoli pohyb."
+    },
+    {
+      "findingId": "FINAL-A1-00321",
+      "cardId": "a1-im",
+      "field": "study.important[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Der refers to grammatical feminine gender, not women as people.",
+      "currentCs": "Pro ženy: in der Schule, ne im Schule.",
+      "proposedCs": "Pro ženský rod: in der Schule, ne im Schule."
+    },
+    {
+      "findingId": "FINAL-A1-00322",
+      "cardId": "a1-ins",
+      "field": "study.examples[7].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Fahr denotes travel by vehicle, so jeďte is the semantically accurate Czech imperative.",
+      "currentCs": "Prosím jděte do centra.",
+      "proposedCs": "Jeďte prosím do centra."
+    },
+    {
+      "findingId": "FINAL-A1-00323",
+      "cardId": "a1-ins",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Akk. is the abbreviation for accusative, not the Czech word účet.",
+      "currentCs": "Dovnitř, kam? (účet)",
+      "proposedCs": "Dovnitř, kam? (4. pád)"
+    },
+    {
+      "findingId": "FINAL-A1-00324",
+      "cardId": "a1-ins",
+      "field": "study.comparison[4].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Zum is zu dem and primarily corresponds here to k/ke with the Czech dative.",
+      "currentCs": "Komu / u (koho?)",
+      "proposedCs": "K / ke (3. pád)"
+    },
+    {
+      "findingId": "FINAL-A1-00325",
+      "cardId": "a1-ins",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "The full German form is in das, and ins expresses direction answering kam?, not location kde?.",
+      "currentCs": "Plná forma: v das (kde?).",
+      "proposedCs": "Plná forma: in das (kam?)."
+    }
+  ]
+}

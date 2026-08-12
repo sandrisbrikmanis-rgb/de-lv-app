@@ -1,0 +1,485 @@
+{
+  "batch": "validate-014",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00262",
+      "cardId": "a1-euch",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "euch je 2. osoba množného čísla v akuzativu nebo dativu, nikoli jednotné číslo ty.",
+      "auditCurrentCs": "Ty • Ty",
+      "auditProposedCs": "Vás • Vám",
+      "auditDe": "euch",
+      "auditLvSource": "jūs • jums",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Ty • Ty",
+      "cardContext": {
+        "cardId": "a1-euch",
+        "de": "euch",
+        "csMain": "Ty • Ty",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00263",
+      "cardId": "a1-euch",
+      "field": "study.explanation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Kde?“ je chybná pádová otázka a přímý předmět je nesprávně uveden jako „vy“.",
+      "auditCurrentCs": "„euch“ je zájmeno 2. osoby množného čísla. Používá se jak jako přímý doplněk (kde?) – „vy“ tak jako nepřímý doplněk (ke komu?) – „k vám“.",
+      "auditProposedCs": "„euch“ je zájmeno 2. osoby množného čísla. Používá se jako přímý předmět (koho?) – „vás“ i jako nepřímý předmět (komu?) – „vám“.",
+      "auditDe": "euch",
+      "auditLvSource": "tiešais papildinājums — “jūs”; netiešais papildinājums — “jums”.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "„euch“ je zájmeno 2. osoby množného čísla. Používá se jak jako přímý doplněk (kde?) – „vy“ tak jako nepřímý doplněk (ke komu?) – „k vám“.",
+      "cardContext": {
+        "cardId": "a1-euch",
+        "de": "euch",
+        "csMain": "Ty • Ty",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00264",
+      "cardId": "a1-euch",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "euch označuje množné číslo; český překlad je v jednotném čísle.",
+      "auditCurrentCs": "Vidím tě",
+      "auditProposedCs": "Vidím vás.",
+      "auditDe": "Ich sehe euch.",
+      "auditLvSource": "es redzu jūs.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Vidím tě",
+      "cardContext": {
+        "cardId": "a1-euch",
+        "de": "euch",
+        "csMain": "Ty • Ty",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00265",
+      "cardId": "a1-euch",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "euch je zde dativ množného čísla, nikoli jednotné číslo ti.",
+      "auditCurrentCs": "Pomáhám ti",
+      "auditProposedCs": "Pomáhám vám.",
+      "auditDe": "Ich helfe euch.",
+      "auditLvSource": "es jums palīdzu.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Pomáhám ti",
+      "cardContext": {
+        "cardId": "a1-euch",
+        "de": "euch",
+        "csMain": "Ty • Ty",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00266",
+      "cardId": "a1-euch",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "euch je zde dativ množného čísla; překlad používá jednotné číslo.",
+      "auditCurrentCs": "Dávám ti knihu",
+      "auditProposedCs": "Dávám vám knihu.",
+      "auditDe": "Ich gebe euch das Buch.",
+      "auditLvSource": "es jums dodu grāmatu.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Dávám ti knihu",
+      "cardContext": {
+        "cardId": "a1-euch",
+        "de": "euch",
+        "csMain": "Ty • Ty",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00267",
+      "cardId": "a1-euch",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "euch je zde dativ množného čísla, nikoli ti.",
+      "auditCurrentCs": "Děkuji ti",
+      "auditProposedCs": "Děkuji vám.",
+      "auditDe": "Ich danke euch.",
+      "auditLvSource": "es jums pateicos.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Děkuji ti",
+      "cardContext": {
+        "cardId": "a1-euch",
+        "de": "euch",
+        "csMain": "Ty • Ty",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00268",
+      "cardId": "a1-euch",
+      "field": "study.examples[4].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Podmět ihr i zájmeno euch označují množné číslo; český překlad je v jednotném čísle.",
+      "auditCurrentCs": "Pamatuješ",
+      "auditProposedCs": "Pamatujete si.",
+      "auditDe": "Ihr erinnert euch.",
+      "auditLvSource": "jūs atceraties.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Pamatuješ",
+      "cardContext": {
+        "cardId": "a1-euch",
+        "de": "euch",
+        "csMain": "Ty • Ty",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00270",
+      "cardId": "a1-fahren",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Základní význam fahren je jet/jezdit; „řídit“ je jen jeden kontextový význam a „vést“ je nepřesné.",
+      "auditCurrentCs": "Řídit • Vést • Odvézt",
+      "auditProposedCs": "Jet • Jezdit • Vézt",
+      "auditDe": "fahren",
+      "auditLvSource": "braukt",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Řídit • Vést • Odvézt",
+      "cardContext": {
+        "cardId": "a1-fahren",
+        "de": "fahren",
+        "csMain": "Řídit • Vést • Odvézt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00271",
+      "cardId": "a1-fahren",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Základní význam fahren je jet/jezdit; „řídit“ je jen jeden kontextový význam a „vést“ je nepřesné.",
+      "auditCurrentCs": "Řídit • Vést • Odvézt",
+      "auditProposedCs": "Jet • Jezdit • Vézt",
+      "auditDe": "fahren",
+      "auditLvSource": "braukt",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Řídit • Vést • Odvézt",
+      "cardContext": {
+        "cardId": "a1-fahren",
+        "de": "fahren",
+        "csMain": "Řídit • Vést • Odvézt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00272",
+      "cardId": "a1-fahren",
+      "field": "study.explanation[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Vysvětlení zaměňuje jet za řídit a opakuje neurčité „vzít“ místo vézt/odvézt.",
+      "auditCurrentCs": "Hlavní myšlenka: fahren znamená řídit vozidlo a v některých větách také někoho vzít nebo vzít.",
+      "auditProposedCs": "Hlavní myšlenka: fahren znamená jet nebo jezdit dopravním prostředkem a v některých větách také někoho vézt či odvézt.",
+      "auditDe": "fahren",
+      "auditLvSource": "braukt ar transportu; vest vai aizvest kādu",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Hlavní myšlenka: fahren znamená řídit vozidlo a v některých větách také někoho vzít nebo vzít.",
+      "cardContext": {
+        "cardId": "a1-fahren",
+        "de": "fahren",
+        "csMain": "Řídit • Vést • Odvézt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00273",
+      "cardId": "a1-fahren",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Vést“ a zejména „odnést“ nejsou v tomto významu přesné překlady fahren.",
+      "auditCurrentCs": "Když má věta jako předmět osobu, fahren může znamenat vést nebo odnést.",
+      "auditProposedCs": "Když je předmětem věty osoba, fahren může znamenat vézt nebo odvézt ji.",
+      "auditDe": "fahren",
+      "auditLvSource": "Ja teikumā ir persona kā objekts, fahren var nozīmēt vest vai aizvest.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Když má věta jako předmět osobu, fahren může znamenat vést nebo odnést.",
+      "cardContext": {
+        "cardId": "a1-fahren",
+        "de": "fahren",
+        "csMain": "Řídit • Vést • Odvézt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00274",
+      "cardId": "a1-fahren",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Beru“ je méně přesné; německé fahren zde znamená vézt dceru dopravním prostředkem.",
+      "auditCurrentCs": "Beru dceru do školy.",
+      "auditProposedCs": "Vezmu dceru do školy.",
+      "auditDe": "Ich fahre meine Tochter zur Schule.",
+      "auditLvSource": "es vedu savu meitu uz skolu.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Beru dceru do školy.",
+      "cardContext": {
+        "cardId": "a1-fahren",
+        "de": "fahren",
+        "csMain": "Řídit • Vést • Odvézt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00275",
+      "cardId": "a1-fahren",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "fahren s osobou znamená odvézt/vézt, ne obecně vzít.",
+      "auditCurrentCs": "Vezmu tě domů",
+      "auditProposedCs": "Odvezu tě domů.",
+      "auditDe": "Ich fahre dich nach Hause.",
+      "auditLvSource": "es tevi aizvedu mājās.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Vezmu tě domů",
+      "cardContext": {
+        "cardId": "a1-fahren",
+        "de": "fahren",
+        "csMain": "Řídit • Vést • Odvézt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00279",
+      "cardId": "a1-finden",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Zvážit znamená consider/weigh, ne běžný názorový význam finden.",
+      "auditCurrentCs": "Najít • Zvážit",
+      "auditProposedCs": "Najít • Myslet si",
+      "auditDe": "finden",
+      "auditLvSource": "atrast",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Najít • Zvážit",
+      "cardContext": {
+        "cardId": "a1-finden",
+        "de": "finden",
+        "csMain": "Najít • Zvážit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00280",
+      "cardId": "a1-finden",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "V názorovém významu finden znamená myslet si nebo považovat, nikoli zvážit.",
+      "auditCurrentCs": "Najít / zvážit",
+      "auditProposedCs": "Najít / Myslet si",
+      "auditDe": "finden",
+      "auditLvSource": "atrast / uzskatīt",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Najít / zvážit",
+      "cardContext": {
+        "cardId": "a1-finden",
+        "de": "finden",
+        "csMain": "Najít • Zvážit",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00262",
+      "cardId": "a1-euch",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„euch“ je množné číslo; české „Ty“ je nesprávný překlad v jednotném čísle.",
+      "currentCs": "Ty • Ty",
+      "proposedCs": "Vás • Vám"
+    },
+    {
+      "findingId": "FINAL-A1-00263",
+      "cardId": "a1-euch",
+      "field": "study.explanation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Vysvětlení má chybnou pádovou otázku i nesprávné české tvary pro přímý a nepřímý předmět.",
+      "currentCs": "„euch“ je zájmeno 2. osoby množného čísla. Používá se jak jako přímý doplněk (kde?) – „vy“ tak jako nepřímý doplněk (ke komu?) – „k vám“.",
+      "proposedCs": "„euch“ je zájmeno 2. osoby množného čísla. Používá se jako přímý předmět (koho?) – „vás“ i jako nepřímý předmět (komu?) – „vám“."
+    },
+    {
+      "findingId": "FINAL-A1-00264",
+      "cardId": "a1-euch",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Německé „euch“ označuje více osob, ale český překlad používá jednotné číslo.",
+      "currentCs": "Vidím tě",
+      "proposedCs": "Vidím vás."
+    },
+    {
+      "findingId": "FINAL-A1-00265",
+      "cardId": "a1-euch",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Dativní „euch“ je množné číslo; české „ti“ je nesprávný jednotný tvar.",
+      "currentCs": "Pomáhám ti",
+      "proposedCs": "Pomáhám vám."
+    },
+    {
+      "findingId": "FINAL-A1-00266",
+      "cardId": "a1-euch",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Dativní „euch“ vyžaduje české množné číslo „vám“, nikoli „ti“.",
+      "currentCs": "Dávám ti knihu",
+      "proposedCs": "Dávám vám knihu."
+    },
+    {
+      "findingId": "FINAL-A1-00267",
+      "cardId": "a1-euch",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„euch“ je dativ množného čísla, zatímco české „ti“ je jednotné číslo.",
+      "currentCs": "Děkuji ti",
+      "proposedCs": "Děkuji vám."
+    },
+    {
+      "findingId": "FINAL-A1-00268",
+      "cardId": "a1-euch",
+      "field": "study.examples[4].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Podmět „ihr“ i zájmeno „euch“ jsou množné; český překlad nesprávně používá jednotné číslo.",
+      "currentCs": "Pamatuješ",
+      "proposedCs": "Pamatujete si."
+    },
+    {
+      "findingId": "FINAL-A1-00270",
+      "cardId": "a1-fahren",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Výčet neuvádí základní významy „jet/jezdit“ a obsahuje nepřesné „vést“.",
+      "currentCs": "Řídit • Vést • Odvézt",
+      "proposedCs": "Jet • Jezdit • Vézt"
+    },
+    {
+      "findingId": "FINAL-A1-00271",
+      "cardId": "a1-fahren",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Výčet neuvádí základní významy „jet/jezdit“ a obsahuje nepřesné „vést“.",
+      "currentCs": "Řídit • Vést • Odvézt",
+      "proposedCs": "Jet • Jezdit • Vézt"
+    },
+    {
+      "findingId": "FINAL-A1-00272",
+      "cardId": "a1-fahren",
+      "field": "study.explanation[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Vysvětlení zaměňuje základní význam fahren za „řídit“ a dvakrát používá neurčité „vzít“.",
+      "currentCs": "Hlavní myšlenka: fahren znamená řídit vozidlo a v některých větách také někoho vzít nebo vzít.",
+      "proposedCs": "Hlavní myšlenka: fahren znamená jet nebo jezdit dopravním prostředkem a v některých větách také někoho vézt či odvézt."
+    },
+    {
+      "findingId": "FINAL-A1-00273",
+      "cardId": "a1-fahren",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Vést“ a „odnést“ nejsou přesné české ekvivalenty fahren při přepravě osoby.",
+      "currentCs": "Když má věta jako předmět osobu, fahren může znamenat vést nebo odnést.",
+      "proposedCs": "Když je předmětem věty osoba, fahren může znamenat vézt nebo odvézt ji."
+    },
+    {
+      "findingId": "FINAL-A1-00274",
+      "cardId": "a1-fahren",
+      "field": "study.examples[2].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Beru dceru do školy“ je přirozený český překlad; v tomto kontextu může znamenat i dopravení autem.",
+      "currentCs": "Beru dceru do školy."
+    },
+    {
+      "findingId": "FINAL-A1-00275",
+      "cardId": "a1-fahren",
+      "field": "study.examples[3].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Vezmu tě domů“ je přirozený český překlad a významově odpovídá; „odvezu“ je jen specifičtější varianta.",
+      "currentCs": "Vezmu tě domů"
+    },
+    {
+      "findingId": "FINAL-A1-00279",
+      "cardId": "a1-finden",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Zvážit“ nevyjadřuje běžný názorový význam finden; vhodnější je „myslet si“.",
+      "currentCs": "Najít • Zvážit",
+      "proposedCs": "Najít • Myslet si"
+    },
+    {
+      "findingId": "FINAL-A1-00280",
+      "cardId": "a1-finden",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "V názorovém významu finden znamená „myslet si“ nebo „považovat“, ne „zvážit“.",
+      "currentCs": "Najít / zvážit",
+      "proposedCs": "Najít / Myslet si"
+    }
+  ]
+}

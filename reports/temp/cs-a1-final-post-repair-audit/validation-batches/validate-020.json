@@ -1,0 +1,487 @@
+{
+  "batch": "validate-020",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00357",
+      "cardId": "a1-lassen",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německý originál je v přítomném čase, český překlad je v minulém.",
+      "auditCurrentCs": "Nechal jsem tu tašku",
+      "auditProposedCs": "Nechávám tu tašku",
+      "auditDe": "Ich lasse die Tasche hier.",
+      "auditLvSource": "es atstāju somu šeit.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Nechal jsem tu tašku",
+      "cardContext": {
+        "cardId": "a1-lassen",
+        "de": "lassen",
+        "csMain": "Opustit • Nechat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00358",
+      "cardId": "a1-lassen",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Překlad používá minulý čas, zatímco německá věta je v přítomném čase.",
+      "auditCurrentCs": "Rodiče mě nechali jít.",
+      "auditProposedCs": "Rodiče mě nechávají jít.",
+      "auditDe": "Meine Eltern lassen mich gehen.",
+      "auditLvSource": "vecāki ļauj man iet.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Rodiče mě nechali jít.",
+      "cardContext": {
+        "cardId": "a1-lassen",
+        "de": "lassen",
+        "csMain": "Opustit • Nechat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00359",
+      "cardId": "a1-lassen",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Pobyt“ je podstatné jméno; význam slovesa bleiben je „zůstat“.",
+      "auditCurrentCs": "Pobyt",
+      "auditProposedCs": "Zůstat",
+      "auditDe": "bleiben",
+      "auditLvSource": "palikt",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Pobyt",
+      "cardContext": {
+        "cardId": "a1-lassen",
+        "de": "lassen",
+        "csMain": "Opustit • Nechat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00360",
+      "cardId": "a1-lassen",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "V německé frázi je překlep „v Ruhe“ místo „in Ruhe“ a české uvozovky jsou nekonzistentní.",
+      "auditCurrentCs": "Lass mich v Ruhe! existuje velmi častá věta: \"Nech mě na pokoji!\"",
+      "auditProposedCs": "Lass mich in Ruhe! je velmi častá věta: „Nech mě na pokoji!“",
+      "auditDe": "Lass mich in Ruhe!",
+      "auditLvSource": "Lass mich in Ruhe!",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Lass mich v Ruhe! existuje velmi častá věta: \"Nech mě na pokoji!\"",
+      "cardContext": {
+        "cardId": "a1-lassen",
+        "de": "lassen",
+        "csMain": "Opustit • Nechat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00361",
+      "cardId": "a1-laufen",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "U filmu, stroje nebo programu laufen znamená „běžet“ či „fungovat“, nikoli „provozovat“.",
+      "auditCurrentCs": "Běžet • Provozovat",
+      "auditProposedCs": "Běžet • Fungovat",
+      "auditDe": "laufen",
+      "auditLvSource": "skriet • darboties",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Běžet • Provozovat",
+      "cardContext": {
+        "cardId": "a1-laufen",
+        "de": "laufen",
+        "csMain": "Běžet • Provozovat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00362",
+      "cardId": "a1-laufen",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Druhý hlavní význam je stav zařízení nebo děje, ne činnost provozování něčeho.",
+      "auditCurrentCs": "Běžet • Provozovat",
+      "auditProposedCs": "Běžet • Fungovat",
+      "auditDe": "laufen",
+      "auditLvSource": "skriet • darboties",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Běžet • Provozovat",
+      "cardContext": {
+        "cardId": "a1-laufen",
+        "de": "laufen",
+        "csMain": "Běžet • Provozovat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00363",
+      "cardId": "a1-laufen",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Spustit“ a „provozovat“ jsou kauzativní činnosti; laufen zde popisuje, že něco běží nebo funguje.",
+      "auditCurrentCs": "Spustit / provozovat",
+      "auditProposedCs": "Běžet / fungovat",
+      "auditDe": "laufen",
+      "auditLvSource": "skriet / darboties",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Spustit / provozovat",
+      "cardContext": {
+        "cardId": "a1-laufen",
+        "de": "laufen",
+        "csMain": "Běžet • Provozovat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00364",
+      "cardId": "a1-laufen",
+      "field": "study.comparison[3].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Funktionieren je nepřechodné sloveso „fungovat“, nikoli „provozovat“.",
+      "auditCurrentCs": "Provozovat",
+      "auditProposedCs": "Fungovat",
+      "auditDe": "funktionieren",
+      "auditLvSource": "darboties",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Provozovat",
+      "cardContext": {
+        "cardId": "a1-laufen",
+        "de": "laufen",
+        "csMain": "Běžet • Provozovat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00365",
+      "cardId": "a1-laut",
+      "field": "study.explanation[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Význam přídavného jména laut je zaměněn s významem podstatného jména Laut.",
+      "auditCurrentCs": "Laut v podstatě znamená: zvukový signál.",
+      "auditProposedCs": "Laut znamená „hlasitý“; „zvukový signál“ je význam podstatného jména der Laut.",
+      "auditDe": "laut",
+      "auditLvSource": "skaļš",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Laut v podstatě znamená: zvukový signál.",
+      "cardContext": {
+        "cardId": "a1-laut",
+        "de": "laut",
+        "csMain": "Hlasitý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00366",
+      "cardId": "a1-laut",
+      "field": "study.explanation[4]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Původní věta je gramaticky neúplná a nesrozumitelná.",
+      "auditCurrentCs": "Často popisuje: podstatné jméno (der).",
+      "auditProposedCs": "Je to přídavné jméno, které popisuje podstatné jméno.",
+      "auditDe": "laut",
+      "auditLvSource": "skaļš",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Často popisuje: podstatné jméno (der).",
+      "cardContext": {
+        "cardId": "a1-laut",
+        "de": "laut",
+        "csMain": "Hlasitý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00367",
+      "cardId": "a1-laut",
+      "field": "study.tip[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Bez členu a rozlišení velkého písmene tip chybně přiřazuje význam „zvuk“ slovu laut.",
+      "auditCurrentCs": "Laut = zvuk",
+      "auditProposedCs": "Der Laut = zvuk; laut = hlasitý",
+      "auditDe": "laut / der Laut",
+      "auditLvSource": "laut / der Laut",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Laut = zvuk",
+      "cardContext": {
+        "cardId": "a1-laut",
+        "de": "laut",
+        "csMain": "Hlasitý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00368",
+      "cardId": "a1-laut",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Formulace „je malá písmena“ je gramaticky chybná.",
+      "auditCurrentCs": "Laut je malá písmena a nemá žádný člen - je to přídavné jméno.",
+      "auditProposedCs": "Laut se píše s malým písmenem a bez členu; je to přídavné jméno.",
+      "auditDe": "laut",
+      "auditLvSource": "skaļš",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Laut je malá písmena a nemá žádný člen - je to přídavné jméno.",
+      "cardContext": {
+        "cardId": "a1-laut",
+        "de": "laut",
+        "csMain": "Hlasitý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00369",
+      "cardId": "a1-laut-study",
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Podstatné jméno der Laut neznamená „hlasitý zvuk“; význam „hlasitý“ patří slovu laut.",
+      "auditCurrentCs": "Der Laut primárně znamená: hlasitý zvuk.",
+      "auditProposedCs": "Der Laut primárně znamená zvuk nebo hlásku.",
+      "auditDe": "der Laut",
+      "auditLvSource": "skaņa",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Der Laut primárně znamená: hlasitý zvuk.",
+      "cardContext": {
+        "cardId": "a1-laut-study",
+        "de": "Laut",
+        "csMain": "Zvuk",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00370",
+      "cardId": "a1-legen",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německý originál je v přítomném čase, český překlad v minulém.",
+      "auditCurrentCs": "Položil jsem knihu na stůl.",
+      "auditProposedCs": "Pokládám knihu na stůl.",
+      "auditDe": "Ich lege das Buch auf den Tisch.",
+      "auditLvSource": "es nolieku grāmatu uz galda.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Položil jsem knihu na stůl.",
+      "cardContext": {
+        "cardId": "a1-legen",
+        "de": "legen",
+        "csMain": "Položit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00371",
+      "cardId": "a1-legen",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Liegen znamená ležet nebo nacházet se, nikoli obecně být či spát.",
+      "auditCurrentCs": "Být / spát",
+      "auditProposedCs": "Ležet / nacházet se",
+      "auditDe": "liegen",
+      "auditLvSource": "atrasties / gulēt",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Být / spát",
+      "cardContext": {
+        "cardId": "a1-legen",
+        "de": "legen",
+        "csMain": "Položit",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00357",
+      "cardId": "a1-lassen",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Český překlad je v minulém čase, zatímco německý originál je v přítomném čase.",
+      "currentCs": "Nechal jsem tu tašku",
+      "proposedCs": "Nechávám tu tašku"
+    },
+    {
+      "findingId": "FINAL-A1-00358",
+      "cardId": "a1-lassen",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Český překlad je v minulém čase, německá věta však používá přítomný čas.",
+      "currentCs": "Rodiče mě nechali jít.",
+      "proposedCs": "Rodiče mě nechávají jít."
+    },
+    {
+      "findingId": "FINAL-A1-00359",
+      "cardId": "a1-lassen",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Sloveso bleiben znamená „zůstat“, nikoli podstatné jméno „pobyt“.",
+      "currentCs": "Pobyt",
+      "proposedCs": "Zůstat"
+    },
+    {
+      "findingId": "FINAL-A1-00360",
+      "cardId": "a1-lassen",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Německá fráze obsahuje překlep; oprava zároveň sjednocuje české uvozovky.",
+      "currentCs": "Lass mich v Ruhe! existuje velmi častá věta: \"Nech mě na pokoji!\"",
+      "proposedCs": "Lass mich in Ruhe! je velmi častá věta: „Nech mě na pokoji!“"
+    },
+    {
+      "findingId": "FINAL-A1-00361",
+      "cardId": "a1-laufen",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "U zařízení, filmu nebo programu laufen znamená „fungovat“ či „běžet“, ne „provozovat“.",
+      "currentCs": "Běžet • Provozovat",
+      "proposedCs": "Běžet • Fungovat"
+    },
+    {
+      "findingId": "FINAL-A1-00362",
+      "cardId": "a1-laufen",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Druhý význam slovesa laufen popisuje stav nebo průběh, nikoli činnost provozování něčeho.",
+      "currentCs": "Běžet • Provozovat",
+      "proposedCs": "Běžet • Fungovat"
+    },
+    {
+      "findingId": "FINAL-A1-00363",
+      "cardId": "a1-laufen",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Laufen zde vyjadřuje, že něco běží nebo funguje, nikoli kauzativní činnosti „spustit“ či „provozovat“.",
+      "currentCs": "Spustit / provozovat",
+      "proposedCs": "Běžet / fungovat"
+    },
+    {
+      "findingId": "FINAL-A1-00364",
+      "cardId": "a1-laufen",
+      "field": "study.comparison[3].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Funktionieren je nepřechodné sloveso s významem „fungovat“, nikoli „provozovat“.",
+      "currentCs": "Provozovat",
+      "proposedCs": "Fungovat"
+    },
+    {
+      "findingId": "FINAL-A1-00365",
+      "cardId": "a1-laut",
+      "field": "study.explanation[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Text zaměňuje přídavné jméno laut s podstatným jménem der Laut.",
+      "currentCs": "Laut v podstatě znamená: zvukový signál.",
+      "proposedCs": "Laut znamená „hlasitý“; „zvukový signál“ je význam podstatného jména der Laut."
+    },
+    {
+      "findingId": "FINAL-A1-00366",
+      "cardId": "a1-laut",
+      "field": "study.explanation[4]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Současná formulace je gramaticky neúplná a nesrozumitelná.",
+      "currentCs": "Často popisuje: podstatné jméno (der).",
+      "proposedCs": "Je to přídavné jméno, které popisuje podstatné jméno."
+    },
+    {
+      "findingId": "FINAL-A1-00367",
+      "cardId": "a1-laut",
+      "field": "study.tip[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Tip bez členu zaměňuje význam přídavného jména laut s významem podstatného jména der Laut.",
+      "currentCs": "Laut = zvuk",
+      "proposedCs": "Der Laut = zvuk; laut = hlasitý"
+    },
+    {
+      "findingId": "FINAL-A1-00368",
+      "cardId": "a1-laut",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Současná formulace je gramaticky chybná a nesprávně popisuje zápis přídavného jména.",
+      "currentCs": "Laut je malá písmena a nemá žádný člen - je to přídavné jméno.",
+      "proposedCs": "Laut se píše s malým písmenem a bez členu; je to přídavné jméno."
+    },
+    {
+      "findingId": "FINAL-A1-00369",
+      "cardId": "a1-laut-study",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Der Laut znamená zvuk nebo hlásku; význam „hlasitý“ patří přídavnému jménu laut.",
+      "currentCs": "Der Laut primárně znamená: hlasitý zvuk.",
+      "proposedCs": "Der Laut primárně znamená zvuk nebo hlásku."
+    },
+    {
+      "findingId": "FINAL-A1-00370",
+      "cardId": "a1-legen",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Český překlad je v minulém čase, zatímco německý originál je v přítomném čase.",
+      "currentCs": "Položil jsem knihu na stůl.",
+      "proposedCs": "Pokládám knihu na stůl."
+    },
+    {
+      "findingId": "FINAL-A1-00371",
+      "cardId": "a1-legen",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Liegen znamená „ležet“ nebo „nacházet se“, nikoli obecně „být“ či „spát“.",
+      "currentCs": "Být / spát",
+      "proposedCs": "Ležet / nacházet se"
+    }
+  ]
+}

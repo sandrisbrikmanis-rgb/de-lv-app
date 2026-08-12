@@ -1,0 +1,483 @@
+{
+  "batch": "validate-028",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00479",
+      "cardId": "a1-um",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Hodiny“ není překlad předložky; um vyjadřuje čas, okolí a účel ve vazbě um ... zu.",
+      "auditCurrentCs": "Kolem • Hodiny",
+      "auditProposedCs": "V • Kolem • Aby",
+      "auditDe": "um",
+      "auditLvSource": "ap • pulksten",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Kolem • Hodiny",
+      "cardContext": {
+        "cardId": "a1-um",
+        "de": "um",
+        "csMain": "Kolem • Hodiny",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00480",
+      "cardId": "a1-um",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Am Montag znamená „v pondělí“; „za den“ je chybný význam.",
+      "auditCurrentCs": "Za den / v",
+      "auditProposedCs": "V (dnech) / u",
+      "auditDe": "am",
+      "auditLvSource": "dienā / pie",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Za den / v",
+      "cardContext": {
+        "cardId": "a1-um",
+        "de": "um",
+        "csMain": "Kolem • Hodiny",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00481",
+      "cardId": "a1-um",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Hm“ je překlep a původní formulace je významově i stylisticky chybná.",
+      "auditCurrentCs": "Hm s časem jsou obvykle 'hodiny'.",
+      "auditProposedCs": "Um s časem obvykle znamená „v“ nebo „v ... hodin“ .",
+      "auditDe": "um",
+      "auditLvSource": "um ar laiku parasti ir “pulksten”.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Hm s časem jsou obvykle 'hodiny'.",
+      "cardContext": {
+        "cardId": "a1-um",
+        "de": "um",
+        "csMain": "Kolem • Hodiny",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00482",
+      "cardId": "a1-um",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Vazba um ... zu vyjadřuje účel a překládá se „aby“, ne „do“.",
+      "auditCurrentCs": "Um ... zu často znamená \"do ...\".",
+      "auditProposedCs": "Um ... zu často znamená „aby ...“.",
+      "auditDe": "um ... zu",
+      "auditLvSource": "um ... zu bieži nozīmē “lai ...”.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Um ... zu často znamená \"do ...\".",
+      "cardContext": {
+        "cardId": "a1-um",
+        "de": "um",
+        "csMain": "Kolem • Hodiny",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00483",
+      "cardId": "a1-unter",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Liegen znamená „ležet“; „spí“ odpovídá schlafen.",
+      "auditCurrentCs": "Kočka spí pod židlí.",
+      "auditProposedCs": "Kočka leží pod židlí.",
+      "auditDe": "Die Katze liegt unter dem Stuhl.",
+      "auditLvSource": "kaķis guļ zem krēsla.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Kočka spí pod židlí.",
+      "cardContext": {
+        "cardId": "a1-unter",
+        "de": "unter",
+        "csMain": "Pod",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00484",
+      "cardId": "a1-unter",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Překlad über je v porovnání chybně uveden jako „přes / pro“.",
+      "auditCurrentCs": "Přes / pro",
+      "auditProposedCs": "Nad / o",
+      "auditDe": "über",
+      "auditLvSource": "virs / par",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Přes / pro",
+      "cardContext": {
+        "cardId": "a1-unter",
+        "de": "unter",
+        "csMain": "Pod",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00485",
+      "cardId": "a1-verstehen",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Verstehen je nedokonavé sloveso „rozumět“; „pochopit“ mění vid i význam.",
+      "auditCurrentCs": "Pochopit",
+      "auditProposedCs": "Rozumět",
+      "auditDe": "verstehen",
+      "auditLvSource": "saprast",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pochopit",
+      "cardContext": {
+        "cardId": "a1-verstehen",
+        "de": "verstehen",
+        "csMain": "Pochopit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00486",
+      "cardId": "a1-verstehen",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německý originál výslovně říká „umím mluvit německy“; současný text význam zkracuje.",
+      "auditCurrentCs": "Umím německy",
+      "auditProposedCs": "Umím mluvit německy.",
+      "auditDe": "Ich kann Deutsch sprechen.",
+      "auditLvSource": "es protu runāt vāciski.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Umím německy",
+      "cardContext": {
+        "cardId": "a1-verstehen",
+        "de": "verstehen",
+        "csMain": "Pochopit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00487",
+      "cardId": "a1-verstehen",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Wissen znamená „vědět“, zatímco „znát“ odpovídá kennen.",
+      "auditCurrentCs": "Znát skutečnost",
+      "auditProposedCs": "Vědět skutečnost",
+      "auditDe": "wissen",
+      "auditLvSource": "zināt faktu",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Znát skutečnost",
+      "cardContext": {
+        "cardId": "a1-verstehen",
+        "de": "verstehen",
+        "csMain": "Pochopit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00488",
+      "cardId": "a1-verstehen",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Text omylem mluví o lotyštině a obsahuje neúplnou, nepřirozenou větu.",
+      "auditCurrentCs": "Lotyšštinu zde většinou nemusíte „umět“ ani „učit“ • Jsou častěji können.",
+      "auditProposedCs": "Němčinu zde obvykle nevyjadřujeme slovesem „umět“; pro tuto významovou oblast se častěji používá können.",
+      "auditDe": "verstehen / können",
+      "auditLvSource": "Latviski šeit parasti nevajag “prast” vai “mācēt”; tie biežāk ir können.",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Lotyšštinu zde většinou nemusíte „umět“ ani „učit“ • Jsou častěji können.",
+      "cardContext": {
+        "cardId": "a1-verstehen",
+        "de": "verstehen",
+        "csMain": "Pochopit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00489",
+      "cardId": "a1-verstehen",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Původní věta je nesrozumitelná a nevyjadřuje zamýšlené rozlišení verstehen–können.",
+      "auditCurrentCs": "Verstehen není kořenem slova „rozumět“.",
+      "auditProposedCs": "Verstehen není hlavní sloveso pro význam „umět“ nebo „ovládat dovednost“.",
+      "auditDe": "verstehen",
+      "auditLvSource": "verstehen nav galvenais vārds nozīmei “prast”.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Verstehen není kořenem slova „rozumět“.",
+      "cardContext": {
+        "cardId": "a1-verstehen",
+        "de": "verstehen",
+        "csMain": "Pochopit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00490",
+      "cardId": "a1-vom",
+      "field": "study.tip[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Předložka von znamená „od“, nikoli „pro“; otázka má být od koho? od čeho?.",
+      "auditCurrentCs": "Pamatujte: von + dem → vom (pro koho?).",
+      "auditProposedCs": "Pamatujte: von + dem → vom (od koho? od čeho?).",
+      "auditDe": "vom",
+      "auditLvSource": "Atceries: von + dem → vom (kam?).",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pamatujte: von + dem → vom (pro koho?).",
+      "cardContext": {
+        "cardId": "a1-vom",
+        "de": "vom",
+        "csMain": "Z",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00491",
+      "cardId": "a1-vom",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Význam je správný; jde pouze o nadbytečnou mezeru před tečkou.",
+      "auditCurrentCs": "Vom = von dem. Používá se s podstatnými jmény mužského nebo středního rodu ve významu „od koho?“ nebo „od čeho?“.",
+      "auditProposedCs": "Vom = von dem. Používá se s podstatnými jmény mužského nebo středního rodu ve významu „od koho?“ nebo „od čeho?“ .",
+      "auditDe": "vom",
+      "auditLvSource": "Lieto ar ... kad norāda ... no kā.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Vom = von dem. Používá se s podstatnými jmény mužského nebo středního rodu ve významu „od koho?“ nebo „od čeho?“.",
+      "cardContext": {
+        "cardId": "a1-vom",
+        "de": "vom",
+        "csMain": "Z",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00492",
+      "cardId": "a1-vor",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Pět až osm“ je nesprávná formulace; vor v určování času znamená „za pět minut osm“.",
+      "auditCurrentCs": "Je pět až osm.",
+      "auditProposedCs": "Je za pět minut osm.",
+      "auditDe": "Es ist fünf vor acht.",
+      "auditLvSource": "ir bez piecām astoņi.",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Je pět až osm.",
+      "cardContext": {
+        "cardId": "a1-vor",
+        "de": "vor",
+        "csMain": "Před • Před",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00493",
+      "cardId": "a1-vor",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Toto pole je v rozporu s německým slovem vor a obsahuje chybnou formulaci o otázce „kdy?“ v jiné části karty.",
+      "auditCurrentCs": "Pamatujte: před časem, před místem → vor.",
+      "auditProposedCs": "Pamatujte: před časem i před místem → vor.",
+      "auditDe": "vor",
+      "auditLvSource": "Atceries: nosacījums → wenn; jautājums “kad?” → wann.",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Pamatujte: před časem, před místem → vor.",
+      "cardContext": {
+        "cardId": "a1-vor",
+        "de": "vor",
+        "csMain": "Před • Před",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00479",
+      "cardId": "a1-um",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Hodiny“ samo o sobě není správný překlad časového um; chybí významy „v“ a účelové „aby“.",
+      "currentCs": "Kolem • Hodiny",
+      "proposedCs": "V • Kolem • Aby"
+    },
+    {
+      "findingId": "FINAL-A1-00480",
+      "cardId": "a1-um",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Am Montag znamená „v pondělí“, nikoli „za den“; současné srovnání uvádí chybný význam.",
+      "currentCs": "Za den / v",
+      "proposedCs": "V (dnech) / u"
+    },
+    {
+      "findingId": "FINAL-A1-00481",
+      "cardId": "a1-um",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Text obsahuje překlep „Hm“ místo „Um“ a nepřesně vysvětluje použití předložky s časem.",
+      "currentCs": "Hm s časem jsou obvykle 'hodiny'.",
+      "proposedCs": "Um s časem obvykle znamená „v“ nebo „v ... hodin“ ."
+    },
+    {
+      "findingId": "FINAL-A1-00482",
+      "cardId": "a1-um",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Vazba um ... zu vyjadřuje účel, tedy „aby ...“, nikoli obecně „do ...“.",
+      "currentCs": "Um ... zu často znamená \"do ...\".",
+      "proposedCs": "Um ... zu často znamená „aby ...“."
+    },
+    {
+      "findingId": "FINAL-A1-00483",
+      "cardId": "a1-unter",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Německé liegen znamená „ležet“; české „spí“ odpovídá jinému slovesu schlafen.",
+      "currentCs": "Kočka spí pod židlí.",
+      "proposedCs": "Kočka leží pod židlí."
+    },
+    {
+      "findingId": "FINAL-A1-00484",
+      "cardId": "a1-unter",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "V uvedeném srovnání jsou významy über „přes / pro“ chybné; odpovídající významy jsou „nad / o“.",
+      "currentCs": "Přes / pro",
+      "proposedCs": "Nad / o"
+    },
+    {
+      "findingId": "FINAL-A1-00485",
+      "cardId": "a1-verstehen",
+      "field": "study.translation",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Pochopit“ je běžný a sémanticky správný český překlad verstehen; jde nanejvýš o preferenci vidu.",
+      "currentCs": "Pochopit"
+    },
+    {
+      "findingId": "FINAL-A1-00486",
+      "cardId": "a1-verstehen",
+      "field": "study.examples[3].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Umím německy“ je přirozený český ekvivalent věty „Ich kann Deutsch sprechen“; zkrácení význam nemění.",
+      "currentCs": "Umím německy"
+    },
+    {
+      "findingId": "FINAL-A1-00487",
+      "cardId": "a1-verstehen",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "reason": "Výuka rozlišuje wissen = vědět a kennen = znát; současné „Znát skutečnost“ toto rozlišení vede chybně.",
+      "currentCs": "Znát skutečnost",
+      "proposedCs": "Vědět skutečnost"
+    },
+    {
+      "findingId": "FINAL-A1-00488",
+      "cardId": "a1-verstehen",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Text omylem uvádí lotyštinu místo němčiny a druhá část je gramaticky i významově neúplná.",
+      "currentCs": "Lotyšštinu zde většinou nemusíte „umět“ ani „učit“ • Jsou častěji können.",
+      "proposedCs": "Němčinu zde obvykle nevyjadřujeme slovesem „umět“; pro tuto významovou oblast se častěji používá können."
+    },
+    {
+      "findingId": "FINAL-A1-00489",
+      "cardId": "a1-verstehen",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Současná věta je nesrozumitelná a nevysvětluje rozdíl mezi verstehen a können.",
+      "currentCs": "Verstehen není kořenem slova „rozumět“.",
+      "proposedCs": "Verstehen není hlavní sloveso pro význam „umět“ nebo „ovládat dovednost“."
+    },
+    {
+      "findingId": "FINAL-A1-00490",
+      "cardId": "a1-vom",
+      "field": "study.tip[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Von znamená „od“, nikoli „pro“; tip má uvádět otázky „od koho?“ a „od čeho?“.",
+      "currentCs": "Pamatujte: von + dem → vom (pro koho?).",
+      "proposedCs": "Pamatujte: von + dem → vom (od koho? od čeho?)."
+    },
+    {
+      "findingId": "FINAL-A1-00491",
+      "cardId": "a1-vom",
+      "field": "study.important[0]",
+      "validationStatus": "STALE_ALREADY_FIXED",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Produkční text již nemá uváděnou nadbytečnou mezeru před tečkou; auditní nález je zastaralý.",
+      "currentCs": "Vom = von dem. Používá se s podstatnými jmény mužského nebo středního rodu ve významu „od koho?“ nebo „od čeho?“."
+    },
+    {
+      "findingId": "FINAL-A1-00492",
+      "cardId": "a1-vor",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "V určování času vor fünf bedeutet „za pět minut“; „pět až osm“ je v češtině chybná formulace.",
+      "currentCs": "Je pět až osm.",
+      "proposedCs": "Je za pět minut osm."
+    },
+    {
+      "findingId": "FINAL-A1-00493",
+      "cardId": "a1-vor",
+      "field": "study.tip.text",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Před časem, před místem“ je správné a srozumitelné shrnutí použití vor; doplnění „i“ je pouze stylistické.",
+      "currentCs": "Pamatujte: před časem, před místem → vor."
+    }
+  ]
+}

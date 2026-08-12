@@ -1,0 +1,479 @@
+{
+  "batch": "validate-010",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00200",
+      "cardId": "a1-bis",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Bis jetzt znamená dosud nebo až doteď; Až odpovídá jinému významu.",
+      "auditCurrentCs": "Až",
+      "auditProposedCs": "Dosud",
+      "auditDe": "bis jetzt",
+      "auditLvSource": "līdz šim",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Až",
+      "cardContext": {
+        "cardId": "a1-bis",
+        "de": "bis",
+        "csMain": "Až",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00201",
+      "cardId": "a1-bitte",
+      "field": "study.explanation[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Text obsahuje nesrozumitelnou doslovnou formulaci a chybnou větu „Byl jsem zdvořilý“.",
+      "auditCurrentCs": "Hlavní myšlenka: Zdvořilé slovo s malými písmeny. Byl jsem zdvořilý - prosím.",
+      "auditProposedCs": "Hlavní myšlenka: bitte s malým písmenem je zdvořilé slovo znamenající „prosím“.",
+      "auditDe": "bitte",
+      "auditLvSource": "lūdzu",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Hlavní myšlenka: Zdvořilé slovo s malými písmeny. Byl jsem zdvořilý - prosím.",
+      "cardContext": {
+        "cardId": "a1-bitte",
+        "de": "bitte",
+        "csMain": "Prosím",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00202",
+      "cardId": "a1-bitte",
+      "field": "study.explanation[4]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Věta je gramaticky nesrozumitelná a obsahuje chybný překlad členu die.",
+      "auditCurrentCs": "Často charakterizováno: podstatné jméno (zemřít).",
+      "auditProposedCs": "Jako podstatné jméno se píše die Bitte a znamená prosba nebo žádost.",
+      "auditDe": "bitte",
+      "auditLvSource": "lūdzu",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Často charakterizováno: podstatné jméno (zemřít).",
+      "cardContext": {
+        "cardId": "a1-bitte",
+        "de": "bitte",
+        "csMain": "Prosím",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00203",
+      "cardId": "a1-bitte",
+      "field": "study.explanation[7]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Text je nesrozumitelný a obsahuje chybný překlad německého členu i podstatného jména.",
+      "auditCurrentCs": "Množné číslo: zemřít pokousán.",
+      "auditProposedCs": "Množné číslo: die Bitten znamená prosby nebo žádosti.",
+      "auditDe": "die Bitten",
+      "auditLvSource": "lūgumi",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Množné číslo: zemřít pokousán.",
+      "cardContext": {
+        "cardId": "a1-bitte",
+        "de": "bitte",
+        "csMain": "Prosím",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00204",
+      "cardId": "a1-bitte",
+      "field": "study.tip[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Obsahuje anglické a nesrozumitelné strojové formulace.",
+      "auditCurrentCs": "Zdvořilost malými písmeny. Byl jsem zdvořilý - prosím.",
+      "auditProposedCs": "Bitte s malým písmenem znamená „prosím“; die Bitte s velkým písmenem znamená „prosba“ nebo „žádost“.",
+      "auditDe": "bitte / die Bitte",
+      "auditLvSource": "lūdzu / lūgums",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Zdvořilost malými písmeny. Byl jsem zdvořilý - prosím.",
+      "cardContext": {
+        "cardId": "a1-bitte",
+        "de": "bitte",
+        "csMain": "Prosím",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00205",
+      "cardId": "a1-bleiben",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Pobyt je podstatné jméno; bleiben je sloveso zůstat.",
+      "auditCurrentCs": "Pobyt",
+      "auditProposedCs": "Zůstat",
+      "auditDe": "bleiben",
+      "auditLvSource": "palikt",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Pobyt",
+      "cardContext": {
+        "cardId": "a1-bleiben",
+        "de": "bleiben",
+        "csMain": "Pobyt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00206",
+      "cardId": "a1-bleiben",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Hlavní překlad má být infinitiv slovesa, nikoli podstatné jméno pobyt.",
+      "auditCurrentCs": "Pobyt",
+      "auditProposedCs": "Zůstat",
+      "auditDe": "bleiben",
+      "auditLvSource": "palikt",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Pobyt",
+      "cardContext": {
+        "cardId": "a1-bleiben",
+        "de": "bleiben",
+        "csMain": "Pobyt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00207",
+      "cardId": "a1-bleiben",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Imperativ neodcházejte mění význam a druhá část nemá paralelní infinitivní formulaci.",
+      "auditCurrentCs": "Pamatujte: neodcházejte → bleiben • Odchází pěšky → gehen.",
+      "auditProposedCs": "Pamatujte: zůstat → bleiben • odejít pěšky → gehen.",
+      "auditDe": "bleiben",
+      "auditLvSource": "neiet prom → bleiben",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Pamatujte: neodcházejte → bleiben • Odchází pěšky → gehen.",
+      "cardContext": {
+        "cardId": "a1-bleiben",
+        "de": "bleiben",
+        "csMain": "Pobyt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00209",
+      "cardId": "a1-bleiben",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka v úplné větě.",
+      "auditCurrentCs": "Zůstávám doma",
+      "auditProposedCs": "Zůstávám doma.",
+      "auditDe": "Ich bleibe zu Hause.",
+      "auditLvSource": "es palieku mājās.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Zůstávám doma",
+      "cardContext": {
+        "cardId": "a1-bleiben",
+        "de": "bleiben",
+        "csMain": "Pobyt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00210",
+      "cardId": "a1-bleiben",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka v úplné větě.",
+      "auditCurrentCs": "Jdu domů",
+      "auditProposedCs": "Jdu domů.",
+      "auditDe": "Ich gehe nach Hause.",
+      "auditLvSource": "es eju mājās.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Jdu domů",
+      "cardContext": {
+        "cardId": "a1-bleiben",
+        "de": "bleiben",
+        "csMain": "Pobyt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00211",
+      "cardId": "a1-bringen",
+      "field": "study.explanation[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Vysvětlení obsahuje opakování a gramaticky chybnou konstrukci.",
+      "auditCurrentCs": "Hlavní myšlenka: přinést někomu něco přinést, nést nebo doručit.",
+      "auditProposedCs": "Hlavní myšlenka: bringen znamená něco přinést, odnést, dovést nebo doručit.",
+      "auditDe": "bringen",
+      "auditLvSource": "atnest",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Hlavní myšlenka: přinést někomu něco přinést, nést nebo doručit.",
+      "cardContext": {
+        "cardId": "a1-bringen",
+        "de": "bringen",
+        "csMain": "Přinést • Odnést",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00212",
+      "cardId": "a1-bringen",
+      "field": "study.explanation[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Výklad slovesa holen je nepřirozený a významově nepřesný.",
+      "auditCurrentCs": "Holen znamená jít za a aportovat nebo brát.",
+      "auditProposedCs": "Holen znamená jít pro něco nebo někoho a přinést či přivézt ho.",
+      "auditDe": "holen",
+      "auditLvSource": "aizvest",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Holen znamená jít za a aportovat nebo brát.",
+      "cardContext": {
+        "cardId": "a1-bringen",
+        "de": "bringen",
+        "csMain": "Přinést • Odnést",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00213",
+      "cardId": "a1-bringen",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Význam je zbytečně duplicitní.",
+      "auditCurrentCs": "Vzít / vzít",
+      "auditProposedCs": "Vzít",
+      "auditDe": "nehmen",
+      "auditLvSource": "paņemt",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Vzít / vzít",
+      "cardContext": {
+        "cardId": "a1-bringen",
+        "de": "bringen",
+        "csMain": "Přinést • Odnést",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00214",
+      "cardId": "a1-bringen",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Aport není obecný význam slovesa holen a Jít za je nepřesné.",
+      "auditCurrentCs": "Jít za / aport",
+      "auditProposedCs": "Jít pro / přinést",
+      "auditDe": "holen",
+      "auditLvSource": "aizvest",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Jít za / aport",
+      "cardContext": {
+        "cardId": "a1-bringen",
+        "de": "bringen",
+        "csMain": "Přinést • Odnést",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00215",
+      "cardId": "a1-bringen",
+      "field": "study.comparison[3].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Mitbringen znamená přinést s sebou, nikoli obecně odnést a přinést.",
+      "auditCurrentCs": "Odnést a přinést",
+      "auditProposedCs": "Přinést s sebou",
+      "auditDe": "mitbringen",
+      "auditLvSource": "nogādāt",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Odnést a přinést",
+      "cardContext": {
+        "cardId": "a1-bringen",
+        "de": "bringen",
+        "csMain": "Přinést • Odnést",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00200",
+      "cardId": "a1-bis",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Až“ samo o sobě nevyjadřuje význam německého „bis jetzt“ ve smyslu dosud nebo až doteď.",
+      "currentCs": "Až",
+      "proposedCs": "Dosud"
+    },
+    {
+      "findingId": "FINAL-A1-00201",
+      "cardId": "a1-bitte",
+      "field": "study.explanation[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Vysvětlení je gramaticky i významově nesrozumitelné a obsahuje chybnou větu „Byl jsem zdvořilý“.",
+      "currentCs": "Hlavní myšlenka: Zdvořilé slovo s malými písmeny. Byl jsem zdvořilý - prosím.",
+      "proposedCs": "Hlavní myšlenka: bitte s malým písmenem je zdvořilé slovo znamenající „prosím“."
+    },
+    {
+      "findingId": "FINAL-A1-00202",
+      "cardId": "a1-bitte",
+      "field": "study.explanation[4]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Text je nesrozumitelný a chybně překládá die jako „zemřít“.",
+      "currentCs": "Často charakterizováno: podstatné jméno (zemřít).",
+      "proposedCs": "Jako podstatné jméno se píše die Bitte a znamená prosba nebo žádost."
+    },
+    {
+      "findingId": "FINAL-A1-00203",
+      "cardId": "a1-bitte",
+      "field": "study.explanation[7]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Text je nesrozumitelný a obsahuje chybné překlady členu i podstatného jména.",
+      "currentCs": "Množné číslo: zemřít pokousán.",
+      "proposedCs": "Množné číslo: die Bitten znamená prosby nebo žádosti."
+    },
+    {
+      "findingId": "FINAL-A1-00204",
+      "cardId": "a1-bitte",
+      "field": "study.tip[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Tip je nesrozumitelný a obsahuje chybnou strojovou formulaci místo vysvětlení rozdílu mezi bitte a die Bitte.",
+      "currentCs": "Zdvořilost malými písmeny. Byl jsem zdvořilý - prosím.",
+      "proposedCs": "Bitte s malým písmenem znamená „prosím“; die Bitte s velkým písmenem znamená „prosba“ nebo „žádost“."
+    },
+    {
+      "findingId": "FINAL-A1-00205",
+      "cardId": "a1-bleiben",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "České „pobyt“ je podstatné jméno, zatímco bleiben je sloveso „zůstat“.",
+      "currentCs": "Pobyt",
+      "proposedCs": "Zůstat"
+    },
+    {
+      "findingId": "FINAL-A1-00206",
+      "cardId": "a1-bleiben",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Hlavní překlad používá podstatné jméno místo infinitivu německého slovesa.",
+      "currentCs": "Pobyt",
+      "proposedCs": "Zůstat"
+    },
+    {
+      "findingId": "FINAL-A1-00207",
+      "cardId": "a1-bleiben",
+      "field": "study.tip.text",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Neodcházejte“ je přirozený kontextový překlad slovesa bleiben; rozdíl mezi imperativem a infinitivem není chyba."
+    },
+    {
+      "findingId": "FINAL-A1-00209",
+      "cardId": "a1-bleiben",
+      "field": "study.examples[0].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Chybějící tečka v krátké příkladové větě je pouze stylistická preference, nikoli významová nebo gramatická chyba."
+    },
+    {
+      "findingId": "FINAL-A1-00210",
+      "cardId": "a1-bleiben",
+      "field": "study.examples[3].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Chybějící tečka v krátké příkladové větě je pouze stylistická preference, nikoli významová nebo gramatická chyba."
+    },
+    {
+      "findingId": "FINAL-A1-00211",
+      "cardId": "a1-bringen",
+      "field": "study.explanation[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Vysvětlení obsahuje zjevné opakování a gramaticky chybnou konstrukci.",
+      "currentCs": "Hlavní myšlenka: přinést někomu něco přinést, nést nebo doručit.",
+      "proposedCs": "Hlavní myšlenka: bringen znamená něco přinést, odnést, dovést nebo doručit."
+    },
+    {
+      "findingId": "FINAL-A1-00212",
+      "cardId": "a1-bringen",
+      "field": "study.explanation[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Výklad holen je nepřirozený a „jít za“ ani „aportovat“ přesně nevystihují běžný význam jít pro a přinést.",
+      "currentCs": "Holen znamená jít za a aportovat nebo brát.",
+      "proposedCs": "Holen znamená jít pro něco nebo někoho a přinést či přivézt ho."
+    },
+    {
+      "findingId": "FINAL-A1-00213",
+      "cardId": "a1-bringen",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Opakování ve tvaru „Vzít / vzít“ je formátovací nedokonalost, ale význam slovesa nehmen zůstává správný."
+    },
+    {
+      "findingId": "FINAL-A1-00214",
+      "cardId": "a1-bringen",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Jít za / aport“ je nepřesné a zavádějící; holen běžně znamená jít pro něco a přinést to.",
+      "currentCs": "Jít za / aport",
+      "proposedCs": "Jít pro / přinést"
+    },
+    {
+      "findingId": "FINAL-A1-00215",
+      "cardId": "a1-bringen",
+      "field": "study.comparison[3].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Mitbringen znamená přinést s sebou, nikoli obecnou kombinaci „odnést a přinést“.",
+      "currentCs": "Odnést a přinést",
+      "proposedCs": "Přinést s sebou"
+    }
+  ]
+}
