@@ -24877,7 +24877,7 @@ const A1_WORDS = [
       "explanation": [
         "Zum je zkratka předložky zu a členu dem.",
         "Plná podoba: zu dem (komu?).",
-        "Používá se s podstatnými jmény mužského a středního rodu při označení směru nebo účelu.",
+        "Používá se s podstatnými jmény mužského a středního rodu v dativu, když označuje směr nebo účel.",
         "Často znamená k něčemu nebo někomu – k lékaři, na stanici, ke kamarádovi.",
         "V praxi se místo plného zu dem téměř vždy používá zum."
       ],
@@ -24928,7 +24928,7 @@ const A1_WORDS = [
         },
         {
           "word": "zu",
-          "meaning": "Do / v / také",
+          "meaning": "K / ke • doma • příliš",
           "example": "zu Hause – Doma"
         },
         {
@@ -24938,16 +24938,16 @@ const A1_WORDS = [
         },
         {
           "word": "bei",
-          "meaning": "Na (umístění)",
+          "meaning": "U / při (místo nebo přítomnost)",
           "example": "beim Arzt – K lékaři"
         }
       ],
       "tip": [
-        "Pamatujte: zu + dem → zum (pro koho?).",
+        "Pamatujte: zu + dem → zum (ke komu nebo čemu?).",
         "U ženských slov: zu + der → zur."
       ],
       "important": [
-        "Zum = zu dem, pouze s podstatným jménem mužského nebo bezrodového pro koho? ve skloňování.",
+        "Zum = zu dem, používá se s podstatnými jmény mužského a středního rodu v dativu.",
         "Označuje směr nebo cíl: k lékaři, na stanici, ke kamarádovi.",
         "Pro ženský rod se používá zur: zur Bank, zur Post.",
         "Nezaměňovat s bei (nachází se na) nebo nach (do měst bez článku)."
@@ -25287,7 +25287,7 @@ const A1_WORDS = [
       "id": "a1-fernsehen",
       "layout": "standardStudy",
       "translation": "Dívat se na televizi",
-      "explanation": "Hlavní myšlenka: fernsehen je rozdělené sloveso — ich sehe fern, du siehst fern. To znamená sledování televize. Nezaměňovat s podstatným jménem das Fernsehen (televize jako médium).",
+      "explanation": "Hlavní myšlenka: fernsehen je odlučitelné sloveso — ich sehe fern, du siehst fern. Znamená dívat se na televizi. Nezaměňovat s podstatným jménem das Fernsehen (televize jako médium).",
       "examples": [
         {
           "de": "Ich sehe heute Abend fern.",
@@ -25398,8 +25398,8 @@ const A1_WORDS = [
       "translation": "Televize",
       "explanation": [
         "Hlavní myšlenka: Podstatné jméno, pouze jednotné číslo. Popisuje televizi jako médium nebo vysílání obecně.",
-        "Das Fernsehen v podstatě znamená: dívat se na vysílání.",
-        "Často popisuje: akce.",
+        "Das Fernsehen označuje televizi jako médium nebo televizní vysílání.",
+        "Označuje médium nebo vysílání, nikoli činnost.",
         "Das Fernsehen znamená především: TV jako médium.",
         "Často popisuje: podstatné jméno (pouze jednotné číslo).",
         "Fernsehen je sloveso, které lze rozdělit: ich sehe fern, du siehst fern.",
@@ -25546,7 +25546,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-appetit",
       "layout": "standardStudy",
-      "translation": "Chuť",
+      "translation": "Chuť k jídlu",
       "explanation": [
         "Hlavní myšlenka: Pocit, že chcete jíst. pouze jednotné číslo – žádné množné číslo.",
         "Der Appetit v podstatě znamená: chuť k jídlu.",
@@ -25557,7 +25557,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Guten Appetit!",
-          "lv": "Chuť k jídlu!"
+          "lv": "Dobrou chuť!"
         },
         {
           "de": "Guten Appetit!",
@@ -25601,7 +25601,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Chuť"
+                "Dobrou"
               ]
             }
           },
@@ -25691,14 +25691,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Essen = jísti",
+        "Essen = jíst",
         "Použijte essen, když kontext odpovídá tomuto významu."
       ],
       "important": [
         "Essen je sloveso bez článku.",
         "Das Essen není totéž co essen.",
         "Akce: essen.",
-        "Případ/jídlo: das Essen."
+        "Podstatné jméno / jídlo: das Essen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25798,7 +25798,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-essen-study",
       "layout": "standardStudy",
-      "translation": "Jídlo • Jídlo",
+      "translation": "Jídlo • Pokrm",
       "explanation": [
         "Hlavní myšlenka: Podstatné jméno - jídlo nebo celé jídlo.",
         "Das Essen znamená především: konzumovat jídlo.",
@@ -25842,7 +25842,7 @@ const A1_WORDS = [
         "Essen je sloveso bez článku.",
         "Das Essen není totéž co essen.",
         "Akce: essen.",
-        "Případ/jídlo: das Essen."
+        "Podstatné jméno / jídlo: das Essen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25950,7 +25950,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: Zelenina obecně. Němčina nemá tvar množného čísla pro *die Gemüse.",
         "Das Gemüse znamená hlavně: zelenina obecně.",
-        "Často popisováno: v jakémkoliv pohlaví (pouze v jednotném čísle)."
+        "Je středního rodu a používá se pouze v jednotném čísle."
       ],
       "examples": [
         {
@@ -26100,7 +26100,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: Ovoce obecně. Němčina nemá tvar množného čísla *die Obsts.",
         "Das Obst znamená hlavně: ovoce vůbec.",
-        "Často popisováno: v jakémkoliv pohlaví (pouze v jednotném čísle)."
+        "Je středního rodu a používá se pouze v jednotném čísle."
       ],
       "examples": [
         {
@@ -26268,8 +26268,8 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "die Ferien",
-          "meaning": "Školní/studijní přestávka (pouze dsk.)",
-          "example": "In den Ferien fahren wir weg. – Jezdíme někam na víkendy."
+          "meaning": "Školní/studijní prázdniny (pouze mn. č.)",
+          "example": "In den Ferien fahren wir weg. – O prázdninách někam odjíždíme."
         },
         {
           "word": "der Urlaub",
@@ -26282,7 +26282,7 @@ const A1_WORDS = [
         "Když kontext odpovídá tomuto významu, použijte die Ferien."
       ],
       "important": [
-        "Ferien vždy s dativem: in den Ferien.",
+        "Ve spojení in den Ferien je Ferien v dativu množného čísla.",
         "Nesprávně: in der Ferien → Správně: in den Ferien",
         "Škola: die Ferien (pouze množné číslo).",
         "Pouze množné číslo. Školní nebo studijní prázdniny - vždy v množném čísle."
@@ -26374,7 +26374,7 @@ const A1_WORDS = [
       "translation": "Dovolená",
       "explanation": [
         "Hlavní myšlenka: pouze jednotné číslo. Odejít z práce - vždy v jednotném čísle.",
-        "Der Urlaub v podstatě znamená: volno v práci.",
+        "Der Urlaub znamená především dovolenou nebo volno z práce.",
         "Často charakterizováno: pouze jednotné číslo.",
         "Der Urlaub je pouze jednotné číslo - dovolená z práce (im Urlaub)."
       ],
@@ -26420,7 +26420,7 @@ const A1_WORDS = [
         "Nesprávně: die Ferie, der Urlabe (na úrovni A1).",
         "Urlaub: im Urlaub sein / Urlaub machen.",
         "Nesprávně: die Urlaube → Správně: der Urlaub",
-        "Dílo: der Urlaub (pouze jednotné číslo)."
+        "Dovolená: der Urlaub (obvykle jednotné číslo)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26507,7 +26507,7 @@ const A1_WORDS = [
         "important": [
           {
             "green": [
-              "der Urlabe"
+              "der Urlaub"
             ]
           }
         ]
@@ -26698,7 +26698,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich habe keine Zeit.",
-          "lv": "Nemám čas"
+          "lv": "Nemám čas."
         },
         {
           "de": "Hast du Zeit?",
