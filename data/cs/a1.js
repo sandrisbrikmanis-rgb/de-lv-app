@@ -15384,7 +15384,7 @@ const A1_WORDS = [
         },
         {
           "de": "Du musst warten.",
-          "lv": "Musíte počkat."
+          "lv": "Musíš počkat."
         },
         {
           "de": "Wir müssen lernen.",
@@ -15403,7 +15403,7 @@ const A1_WORDS = [
         },
         {
           "word": "können",
-          "meaning": "Být schopen / vědět",
+          "meaning": "Moci / umět",
           "example": "Ich kann kommen."
         },
         {
@@ -15619,12 +15619,12 @@ const A1_WORDS = [
     "study": {
       "id": "a1-nach",
       "layout": "standardStudy",
-      "translation": "Až • Po",
+      "translation": "Do • Po",
       "explanation": [
         "Hlavní myšlenka: nach znamená to s místy a potom s časem nebo posloupností.",
         "S městy a zeměmi bez článku nach často znamená.",
         "S časem nach znamená po.",
-        "Ve frázi nach Hause to znamená domov."
+        "Ve frázi nach Hause to znamená domů."
       ],
       "examples": [
         {
@@ -15652,7 +15652,7 @@ const A1_WORDS = [
         },
         {
           "word": "zu",
-          "meaning": "Do / v",
+          "meaning": "Do / k",
           "example": "Ich gehe zum Arzt."
         },
         {
@@ -15909,7 +15909,7 @@ const A1_WORDS = [
         },
         {
           "de": "Natürlich helfe ich dir.",
-          "lv": "Samozřejmě vám pomůžu."
+          "lv": "Samozřejmě ti pomůžu."
         },
         {
           "de": "Sie hat natürliche rote Haare.",
@@ -15930,7 +15930,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Natürlich = samozřejmě (příslovce, afirmace) NEBO přirozené (přídavné jméno).",
-        "Přirozeně! jako samostatný vykřičník vždy = samozřejmě!"
+        "Samostatné Natürlich! jako potvrzení znamená „Samozřejmě!“; „přirozeně“ je jiný význam podle kontextu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16051,12 +16051,12 @@ const A1_WORDS = [
   },
   {
     "de": "nehmen",
-    "lv": "Vzít • Vzít",
+    "lv": "Brát • Vzít",
     "level": "A1",
     "study": {
       "id": "a1-nehmen",
       "layout": "standardStudy",
-      "translation": "Vzít • Vzít",
+      "translation": "Brát • Vzít",
       "explanation": [
         "Hlavní myšlenka: nehmen znamená vzít nebo vzít.",
         "Nehmen se používá, když si vezmete něco pro sebe nebo si vyberete.",
@@ -16089,7 +16089,7 @@ const A1_WORDS = [
         },
         {
           "word": "bringen",
-          "meaning": "Přinést / vzít / dodat",
+          "meaning": "Přinést / odnést / dopravit",
           "example": "Ich bringe dir das Buch."
         },
         {
@@ -16337,7 +16337,7 @@ const A1_WORDS = [
         "V češtině má slovo mladý dva významy: mladý ve věku (jung) a mladý/nedávno vytvořený (neu).",
         "Pro věk člověka nebo zvířete se používá jung, nikoli neu.",
         "Neu se používá i přeneseně: nová práce, nová informace, nový začátek.",
-        "Opakem je alt (starý) • Podstatné jméno das Neue znamená nový."
+        "Opakem je alt (starý) • Podstatné jméno das Neue znamená to nové nebo novinku."
       ],
       "examples": [
         {
@@ -16852,7 +16852,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-ob",
       "layout": "standardStudy",
-      "translation": "Nebo",
+      "translation": "Zda • Jestli",
       "explanation": [
         "Hlavní myšlenka: ob zavádí nepřímou otázku a v češtině nejčastěji znamená popř.",
         "Ob se používá po slovech jako fragen, wissen, sehen, sagen, když neexistuje přímá otázka.",
@@ -16862,7 +16862,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich weiß nicht, ob er kommt.",
-          "lv": "Nevím jestli přijde."
+          "lv": "Nevím, jestli přijde."
         },
         {
           "de": "Sie fragt, ob du Zeit hast.",
@@ -16885,7 +16885,7 @@ const A1_WORDS = [
         },
         {
           "word": "oder",
-          "meaning": "Nebo si vyberte mezi možnostmi",
+          "meaning": "Nebo při volbě mezi možnostmi",
           "example": "Kaffee oder Tee?"
         },
         {
@@ -16904,7 +16904,7 @@ const A1_WORDS = [
       },
       "important": [
         "Ob není obvyklá forma volby „nebo“ mezi dvěma věcmi.",
-        "Kaffee nebo Tee? místo ob. užívá se oder."
+        "V otázce „Kaffee oder Tee?“ se používá oder, nikoli ob."
       ],
       "sectionAccents": {
         "explanation": {
@@ -17082,14 +17082,14 @@ const A1_WORDS = [
   },
   {
     "de": "oder",
-    "lv": "Nebo • Nebo",
+    "lv": "Nebo",
     "level": "A1",
     "study": {
       "id": "a1-oder",
       "layout": "standardStudy",
-      "translation": "Nebo • Nebo",
+      "translation": "Nebo",
       "explanation": [
-        "Hlavní myšlenka: oder se používá, když volíme mezi dvěma nebo více možnostmi.",
+        "Hlavní myšlenka: oder znamená „nebo“ a používá se při volbě mezi dvěma nebo více možnostmi.",
         "V češtině oder nejčastěji znamená popř.",
         "Není to totéž jako ob, které zavádí nepřímou otázku.",
         "V rozhovorech může být oder i na konci věty: Du kommst, oder?"
@@ -17105,7 +17105,7 @@ const A1_WORDS = [
         },
         {
           "de": "Willst du Pizza oder Salat?",
-          "lv": "Chceš pizzu nebo salát"
+          "lv": "Chceš pizzu nebo salát?"
         },
         {
           "de": "Du kommst, oder?",
@@ -17120,7 +17120,7 @@ const A1_WORDS = [
         },
         {
           "word": "ob",
-          "meaning": "Nebo v nepřímé otázce",
+          "meaning": "Zda / jestli v nepřímé otázce",
           "example": "Ich weiß nicht, ob er kommt."
         },
         {
@@ -17389,16 +17389,16 @@ const A1_WORDS = [
   },
   {
     "de": "passen",
-    "lv": "Pasovat • Pasovat",
+    "lv": "Pasovat • Slušet",
     "level": "A1",
     "study": {
       "id": "a1-passen",
       "layout": "standardStudy",
-      "translation": "Pasovat • Pasovat",
+      "translation": "Pasovat • Slušet",
       "explanation": [
         "Hlavní myšlenka: passen znamená pasovat, slušet nebo být vhodný.",
-        "U oblečení passen často znamená přizpůsobit se velikosti.",
-        "Pro barvy nebo styl znamená passen padnout.",
+        "U oblečení passen často znamená dobře sedět nebo pasovat velikostí.",
+        "U barev nebo stylu passen znamená slušet nebo ladit.",
         "Velmi častou frází je Das passt. = Hodí se."
       ],
       "examples": [
@@ -17721,7 +17721,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Probier mal die Suppe!",
-          "lv": "Ochutnejte polévku!"
+          "lv": "Ochutnej polévku!"
         },
         {
           "de": "Ich möchte den Kuchen probieren.",
@@ -18074,7 +18074,7 @@ const A1_WORDS = [
       },
       "important": [
         "Der Reis - v němčině pouze jednotné číslo (Der Reis ist..., nicht *sind).",
-        "V českým překladu se často používá množné číslo: rýže je hotová."
+        "V českém překladu se používá jednotné číslo: rýže je hotová."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18605,7 +18605,7 @@ const A1_WORDS = [
         },
         {
           "word": "baden",
-          "meaning": "Plavat / být ve vodě",
+          "meaning": "Koupat se / být ve vodě",
           "example": "Ich gehe baden."
         },
         {
