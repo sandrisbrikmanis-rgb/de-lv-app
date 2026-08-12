@@ -1,0 +1,166 @@
+{
+  "batch": "batch-030",
+  "cardIds": [
+    "a1-probieren",
+    "a1-sagen-study",
+    "a1-schwimmen",
+    "a1-sehen",
+    "a1-sein"
+  ],
+  "findingCount": 6,
+  "findings": [
+    {
+      "findingId": "HIGH-302",
+      "cardId": "a1-probieren",
+      "field": "study.tip.text",
+      "source": "luna",
+      "auditProblem": "„Podle chuti“ znamená according to taste, nikoli ochutnat.",
+      "auditCurrentCs": "Pamatujte: jídlo → probieren = podle chuti.",
+      "auditProposedCs": "Pamatujte: jídlo → probieren = ochutnat.",
+      "auditDe": "probieren",
+      "auditLvSource": "probieren = nogaršot",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Pamatujte: jídlo → probieren = podle chuti.",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-304",
+      "cardId": "a1-sagen-study",
+      "field": "study.important[0]",
+      "source": "luna",
+      "auditProblem": "Sagen znamená říct/povědět; „vyprávět“ odpovídá spíše německému erzählen.",
+      "auditCurrentCs": "Sagen = vyprávět.",
+      "auditProposedCs": "Sagen = říct.",
+      "auditDe": "sagen",
+      "auditLvSource": "sagen = pateikt",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Sagen = vyprávět.",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-305",
+      "cardId": "a1-schwimmen",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "auditProblem": "Baden znamená koupat se/rekreovat se ve vodě, nikoli jít plavat jako sportovní pohyb.",
+      "auditCurrentCs": "Chodím plavat",
+      "auditProposedCs": "Chodím se koupat.",
+      "auditDe": "Ich gehe baden.",
+      "auditLvSource": "es eju peldēties.",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Chodím plavat",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-306",
+      "cardId": "a1-schwimmen",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "auditProblem": "České „plavat“ zde zaměňuje baden se schwimmen.",
+      "auditCurrentCs": "Plavat / být ve vodě",
+      "auditProposedCs": "Koupat se / být ve vodě",
+      "auditDe": "baden",
+      "auditLvSource": "peldēties / atrasties ūdenī",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Plavat / být ve vodě",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-307",
+      "cardId": "a1-sehen",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "auditProblem": "„Pohled“ je podstatné jméno a nevyjadřuje význam slovesa ansehen.",
+      "auditCurrentCs": "Pohled / pohled",
+      "auditProposedCs": "Prohlédnout si / dívat se na",
+      "auditDe": "ansehen",
+      "auditLvSource": "apskatīt / skatīties",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Pohled / pohled",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-308",
+      "cardId": "a1-sein",
+      "field": "study.comparison[3].meaning",
+      "source": "luna",
+      "auditProblem": "„Pobyt“ je podstatné jméno; bleiben je sloveso „zůstat“.",
+      "auditCurrentCs": "Pobyt",
+      "auditProposedCs": "Zůstat",
+      "auditDe": "bleiben",
+      "auditLvSource": "palikt",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Pobyt",
+      "productionMatchesAudit": true
+    }
+  ],
+  "validations": [
+    {
+      "findingId": "HIGH-302",
+      "cardId": "a1-probieren",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "České „podle chuti“ nevyjadřuje význam ochutnat a v kontextu jídla je zavádějící.",
+      "currentCs": "Pamatujte: jídlo → probieren = podle chuti.",
+      "proposedCs": "Pamatujte: jídlo → probieren = ochutnat."
+    },
+    {
+      "findingId": "HIGH-304",
+      "cardId": "a1-sagen-study",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Sagen znamená říct nebo povědět; „vyprávět“ je významově nesprávné a odpovídá spíše erzählen.",
+      "currentCs": "Sagen = vyprávět.",
+      "proposedCs": "Sagen = říct."
+    },
+    {
+      "findingId": "HIGH-305",
+      "cardId": "a1-schwimmen",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Věta Ich gehe baden označuje koupání nebo pobyt ve vodě, nikoli sportovní plavání.",
+      "currentCs": "Chodím plavat",
+      "proposedCs": "Chodím se koupat."
+    },
+    {
+      "findingId": "HIGH-306",
+      "cardId": "a1-schwimmen",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "DUPLICATE",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Stejný produkční problém jako HIGH-305: baden je přeloženo jako plavat místo koupat se.",
+      "currentCs": "Plavat / být ve vodě",
+      "canonicalFindingId": "HIGH-305"
+    },
+    {
+      "findingId": "HIGH-307",
+      "cardId": "a1-sehen",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Pohled“ je podstatné jméno a nevyjadřuje slovesný význam ansehen.",
+      "currentCs": "Pohled / pohled",
+      "proposedCs": "Prohlédnout si / dívat se na"
+    },
+    {
+      "findingId": "HIGH-308",
+      "cardId": "a1-sein",
+      "field": "study.comparison[3].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Pobyt“ je podstatné jméno; německé bleiben znamená zůstat.",
+      "currentCs": "Pobyt",
+      "proposedCs": "Zůstat"
+    }
+  ],
+  "completedAt": "2026-08-11T17:43:33.293Z"
+}

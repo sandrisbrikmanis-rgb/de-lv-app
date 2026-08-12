@@ -1,0 +1,1746 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-ab",
+      "index": 17,
+      "de": "ab",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Z",
+      "repairedFields": [
+        {
+          "block": 5,
+          "n": 246,
+          "field": "study.translation",
+          "pirmd": "Z",
+          "pec": "Od"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-ab",
+        "index": 17,
+        "de": "ab",
+        "layout": "standardStudy",
+        "csMain": "Z",
+        "studyTranslation": "Od",
+        "lvSourceMain": "no",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "no",
+            "csText": "Od",
+            "de": "ab"
+          },
+          {
+            "field": "study.explanation",
+            "lvSource": "Lieto, kad kaut kas sākas no konkrēta laika, vietas vai punkta. Bieži nozīmē “sākot no”.",
+            "csText": "Používá se, když něco začíná od určitého času, místa nebo bodu. Často znamená „začít od“.",
+            "de": "ab"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "no šodienas",
+            "csText": "Ode dneška",
+            "de": "ab"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "no pirmdienas",
+            "csText": "Od pondělí",
+            "de": "ab"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "no plkst. 8",
+            "csText": "Od 8",
+            "de": "ab"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "no stacijas",
+            "csText": "Ze stanice",
+            "de": "ab"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "ab",
+            "csText": "ab",
+            "de": "ab"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "sākot no punkta/laika",
+            "csText": "Počínaje bodem/časem",
+            "de": "ab"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "von",
+            "csText": "von",
+            "de": "ab"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "no kāda/kaut kā • izcelsme",
+            "csText": "Od někoho/něčeho • Původ",
+            "de": "ab"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "aus",
+            "csText": "aus",
+            "de": "ab"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "ārā no iekšienes",
+            "csText": "Ven zevnitř",
+            "de": "ab"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: sākuma punkts laikā/vietā → ab.",
+            "csText": "Pamatujte: výchozí bod v čase/místě → ab.",
+            "de": "ab"
+          }
+        ],
+        "study": {
+          "id": "a1-ab",
+          "layout": "standardStudy",
+          "translation": "Od",
+          "explanation": "Používá se, když něco začíná od určitého času, místa nebo bodu. Často znamená „začít od“.",
+          "examples": [
+            {
+              "de": "ab heute",
+              "lv": "Ode dneška",
+              "level": "A1"
+            },
+            {
+              "de": "ab Montag",
+              "lv": "Od pondělí"
+            },
+            {
+              "de": "ab 8 Uhr",
+              "lv": "Od 8"
+            },
+            {
+              "de": "ab Bahnhof",
+              "lv": "Ze stanice"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ab",
+              "meaning": "Počínaje bodem/časem",
+              "example": "ab Montag – Od pondělí"
+            },
+            {
+              "word": "von",
+              "meaning": "Od někoho/něčeho • Původ",
+              "example": "von mir – Ode mě"
+            },
+            {
+              "word": "aus",
+              "meaning": "Ven zevnitř",
+              "example": "aus dem Haus – Z domu / z domu"
+            }
+          ],
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "ab"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ode"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ab"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pondělí"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ab"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ab"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "stanice"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "ab"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "ab"
+                  ],
+                  "purple": [
+                    "Montag"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "von"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "von"
+                  ],
+                  "purple": [
+                    "von"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "aus"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "aus"
+                  ],
+                  "purple": [
+                    "aus"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "ab"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ],
+                "green": [
+                  "Pamatujte",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "ab"
+                ],
+                "purple": [
+                  "ukazuje"
+                ],
+                "green": [
+                  "ukazuje",
+                  "ukazuje"
+                ]
+              },
+              {
+                "yellow": [
+                  "von"
+                ],
+                "red": [
+                  "aus"
+                ],
+                "purple": [
+                  "Pokud",
+                  "Pokud"
+                ]
+              }
+            ]
+          },
+          "tip": {
+            "text": "Pamatujte: výchozí bod v čase/místě → ab."
+          },
+          "important": [
+            "Ab ukazuje počáteční bod v čase nebo místě.",
+            "Pokud myšlenka vzniká nebo se pohybuje zevnitř, častěji se používá von nebo aus."
+          ]
+        },
+        "lvStudy": {
+          "id": "a1-ab",
+          "layout": "standardStudy",
+          "translation": "no",
+          "explanation": "Lieto, kad kaut kas sākas no konkrēta laika, vietas vai punkta. Bieži nozīmē “sākot no”.",
+          "examples": [
+            {
+              "de": "ab heute",
+              "lv": "no šodienas",
+              "level": "A1"
+            },
+            {
+              "de": "ab Montag",
+              "lv": "no pirmdienas"
+            },
+            {
+              "de": "ab 8 Uhr",
+              "lv": "no plkst. 8"
+            },
+            {
+              "de": "ab Bahnhof",
+              "lv": "no stacijas"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ab",
+              "meaning": "sākot no punkta/laika",
+              "example": "ab Montag – no pirmdienas"
+            },
+            {
+              "word": "von",
+              "meaning": "no kāda/kaut kā • izcelsme",
+              "example": "von mir – no manis"
+            },
+            {
+              "word": "aus",
+              "meaning": "ārā no iekšienes",
+              "example": "aus dem Haus – no mājas / ārā no mājas"
+            }
+          ],
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "ab"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "no"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ab"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "no"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ab"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "no"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ab"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "no"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "ab"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "ab"
+                  ],
+                  "purple": [
+                    "no"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "von"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "von"
+                  ],
+                  "purple": [
+                    "no"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "aus"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "aus"
+                  ],
+                  "purple": [
+                    "no"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "ab"
+                ],
+                "purple": [
+                  "sākuma punkts"
+                ],
+                "green": [
+                  "laikā",
+                  "vietā"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "ab"
+                ],
+                "purple": [
+                  "sākuma punktu"
+                ],
+                "green": [
+                  "laikā",
+                  "vietā"
+                ]
+              },
+              {
+                "yellow": [
+                  "von"
+                ],
+                "red": [
+                  "aus"
+                ],
+                "purple": [
+                  "izcelsme",
+                  "ārā no iekšienes"
+                ]
+              }
+            ]
+          },
+          "tip": {
+            "text": "Atceries: sākuma punkts laikā/vietā → ab."
+          },
+          "important": [
+            "ab rāda sākuma punktu laikā vai vietā.",
+            "Ja doma ir izcelsme vai virziens ārā no iekšienes, biežāk lieto von vai aus."
+          ]
+        }
+      },
+      "study": {
+        "id": "a1-ab",
+        "layout": "standardStudy",
+        "translation": "Od",
+        "explanation": "Používá se, když něco začíná od určitého času, místa nebo bodu. Často znamená „začít od“.",
+        "examples": [
+          {
+            "de": "ab heute",
+            "lv": "Ode dneška",
+            "level": "A1"
+          },
+          {
+            "de": "ab Montag",
+            "lv": "Od pondělí"
+          },
+          {
+            "de": "ab 8 Uhr",
+            "lv": "Od 8"
+          },
+          {
+            "de": "ab Bahnhof",
+            "lv": "Ze stanice"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "ab",
+            "meaning": "Počínaje bodem/časem",
+            "example": "ab Montag – Od pondělí"
+          },
+          {
+            "word": "von",
+            "meaning": "Od někoho/něčeho • Původ",
+            "example": "von mir – Ode mě"
+          },
+          {
+            "word": "aus",
+            "meaning": "Ven zevnitř",
+            "example": "aus dem Haus – Z domu / z domu"
+          }
+        ],
+        "sectionAccents": {
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "ab"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ode"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ab"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "pondělí"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ab"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "blue": [
+                  "ab"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "stanice"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "ab"
+                ]
+              },
+              "example": {
+                "green": [
+                  "ab"
+                ],
+                "purple": [
+                  "Montag"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "von"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "von"
+                ],
+                "purple": [
+                  "von"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "aus"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "aus"
+                ],
+                "purple": [
+                  "aus"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "ab"
+              ],
+              "purple": [
+                "Pamatujte"
+              ],
+              "green": [
+                "Pamatujte",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "ab"
+              ],
+              "purple": [
+                "ukazuje"
+              ],
+              "green": [
+                "ukazuje",
+                "ukazuje"
+              ]
+            },
+            {
+              "yellow": [
+                "von"
+              ],
+              "red": [
+                "aus"
+              ],
+              "purple": [
+                "Pokud",
+                "Pokud"
+              ]
+            }
+          ]
+        },
+        "tip": {
+          "text": "Pamatujte: výchozí bod v čase/místě → ab."
+        },
+        "important": [
+          "Ab ukazuje počáteční bod v čase nebo místě.",
+          "Pokud myšlenka vzniká nebo se pohybuje zevnitř, častěji se používá von nebo aus."
+        ]
+      }
+    },
+    {
+      "cardId": "a1-also",
+      "index": 26,
+      "de": "also",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Proto",
+      "repairedFields": [
+        {
+          "block": 5,
+          "n": 247,
+          "field": "study.tip.text",
+          "pirmd": "Pamatujte: závěr → také.",
+          "pec": "Pamatujte: závěr → tedy."
+        },
+        {
+          "block": 5,
+          "n": 248,
+          "field": "study.important[0]",
+          "pirmd": "Také ukazuje závěr: další myšlenka vyplývá z toho, co bylo řečeno výše.",
+          "pec": "Tedy ukazuje závěr: další myšlenka vyplývá z toho, co bylo řečeno výše."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-also",
+        "index": 26,
+        "de": "also",
+        "layout": "standardStudy",
+        "csMain": "Proto",
+        "studyTranslation": "Proto",
+        "lvSourceMain": "tātad",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "tātad",
+            "csText": "Proto",
+            "de": "also"
+          },
+          {
+            "field": "study.explanation",
+            "lvSource": "Lieto, lai izdarītu secinājumu vai parādītu rezultātu. Nozīmē “tātad”, “līdz ar to”.",
+            "csText": "Používá se k vyvození závěru nebo zobrazení výsledku. Znamená „proto“, „proto“.",
+            "de": "also"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "līst lietus, tāpēc es palieku mājās.",
+            "csText": "Prší, tak zůstávám doma.",
+            "de": "also"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "tu esi slims, tāpēc neej uz darbu.",
+            "csText": "Jsi nemocný, tak nechoď do práce.",
+            "de": "also"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "es daudz esmu mācījies, tātad tagad saprotu.",
+            "csText": "Hodně jsem toho studoval, takže už to chápu.",
+            "de": "also"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "also",
+            "csText": "also",
+            "de": "also"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "tātad • līdz ar to",
+            "csText": "Tak • Proto",
+            "de": "also"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "auch",
+            "csText": "auch",
+            "de": "also"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "arī",
+            "csText": "Také",
+            "de": "also"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "deshalb",
+            "csText": "deshalb",
+            "de": "also"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "tāpēc",
+            "csText": "Proto",
+            "de": "also"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: secinājums → also.",
+            "csText": "Pamatujte: závěr → tedy.",
+            "de": "also"
+          }
+        ],
+        "study": {
+          "id": "a1-also",
+          "layout": "standardStudy",
+          "translation": "Proto",
+          "explanation": "Používá se k vyvození závěru nebo zobrazení výsledku. Znamená „proto“, „proto“.",
+          "examples": [
+            {
+              "de": "Es regnet, also bleibe ich zu Hause.",
+              "lv": "Prší, tak zůstávám doma."
+            },
+            {
+              "de": "Du bist krank, also gehst du nicht zur Arbeit.",
+              "lv": "Jsi nemocný, tak nechoď do práce."
+            },
+            {
+              "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
+              "lv": "Hodně jsem toho studoval, takže už to chápu."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "also",
+              "meaning": "Tak • Proto",
+              "example": "Es regnet, also bleibe ich zu Hause. – Prší, tak zůstávám doma."
+            },
+            {
+              "word": "auch",
+              "meaning": "Také",
+              "example": "Ich komme auch. – Já jdu taky."
+            },
+            {
+              "word": "deshalb",
+              "meaning": "Proto",
+              "example": "Es regnet, deshalb bleibe ich zu Hause. – Prší, tak zůstávám doma."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: závěr → tedy."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "also"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Prší"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "also"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jsi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "also"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hodně"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "also"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "also"
+                  ],
+                  "purple": [
+                    "regnet"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "auch"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "auch"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "deshalb"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "deshalb"
+                  ],
+                  "purple": [
+                    "regnet"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "green": [
+                  "Pamatujte"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "green": [
+                  "Také"
+                ],
+                "purple": [
+                  "Také"
+                ]
+              },
+              {
+                "green": [
+                  "deshalb"
+                ],
+                "purple": [
+                  "České"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "Tedy ukazuje závěr: další myšlenka vyplývá z toho, co bylo řečeno výše.",
+            "České „tak“ může být často také deshalb."
+          ]
+        },
+        "lvStudy": {
+          "id": "a1-also",
+          "layout": "standardStudy",
+          "translation": "tātad",
+          "explanation": "Lieto, lai izdarītu secinājumu vai parādītu rezultātu. Nozīmē “tātad”, “līdz ar to”.",
+          "examples": [
+            {
+              "de": "Es regnet, also bleibe ich zu Hause.",
+              "lv": "līst lietus, tāpēc es palieku mājās."
+            },
+            {
+              "de": "Du bist krank, also gehst du nicht zur Arbeit.",
+              "lv": "tu esi slims, tāpēc neej uz darbu."
+            },
+            {
+              "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
+              "lv": "es daudz esmu mācījies, tātad tagad saprotu."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "also",
+              "meaning": "tātad • līdz ar to",
+              "example": "Es regnet, also bleibe ich zu Hause. – Līst lietus, tātad palieku mājās."
+            },
+            {
+              "word": "auch",
+              "meaning": "arī",
+              "example": "Ich komme auch. – Es arī nāku."
+            },
+            {
+              "word": "deshalb",
+              "meaning": "tāpēc",
+              "example": "Es regnet, deshalb bleibe ich zu Hause. – Līst lietus, tāpēc palieku mājās."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: secinājums → also."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "also"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "tāpēc"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "also"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "tāpēc"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "also"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "tātad"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "also"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "also"
+                  ],
+                  "purple": [
+                    "tātad"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "auch"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "auch"
+                  ],
+                  "purple": [
+                    "arī"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "deshalb"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "deshalb"
+                  ],
+                  "purple": [
+                    "tāpēc"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "green": [
+                  "also"
+                ],
+                "purple": [
+                  "secinājums"
+                ]
+              }
+            },
+            "important": [
+              {
+                "green": [
+                  "also"
+                ],
+                "purple": [
+                  "secinājumu"
+                ]
+              },
+              {
+                "green": [
+                  "deshalb"
+                ],
+                "purple": [
+                  "tāpēc"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "also rāda secinājumu: no iepriekš teiktā izriet nākamā doma.",
+            "Latviešu “tāpēc” bieži var būt arī deshalb."
+          ]
+        }
+      },
+      "study": {
+        "id": "a1-also",
+        "layout": "standardStudy",
+        "translation": "Proto",
+        "explanation": "Používá se k vyvození závěru nebo zobrazení výsledku. Znamená „proto“, „proto“.",
+        "examples": [
+          {
+            "de": "Es regnet, also bleibe ich zu Hause.",
+            "lv": "Prší, tak zůstávám doma."
+          },
+          {
+            "de": "Du bist krank, also gehst du nicht zur Arbeit.",
+            "lv": "Jsi nemocný, tak nechoď do práce."
+          },
+          {
+            "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
+            "lv": "Hodně jsem toho studoval, takže už to chápu."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "also",
+            "meaning": "Tak • Proto",
+            "example": "Es regnet, also bleibe ich zu Hause. – Prší, tak zůstávám doma."
+          },
+          {
+            "word": "auch",
+            "meaning": "Také",
+            "example": "Ich komme auch. – Já jdu taky."
+          },
+          {
+            "word": "deshalb",
+            "meaning": "Proto",
+            "example": "Es regnet, deshalb bleibe ich zu Hause. – Prší, tak zůstávám doma."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: závěr → tedy."
+        },
+        "sectionAccents": {
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "also"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Prší"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "also"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jsi"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "also"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Hodně"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "also"
+                ]
+              },
+              "example": {
+                "green": [
+                  "also"
+                ],
+                "purple": [
+                  "regnet"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "auch"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "auch"
+                ],
+                "purple": [
+                  "Ich"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "deshalb"
+                ]
+              },
+              "example": {
+                "green": [
+                  "deshalb"
+                ],
+                "purple": [
+                  "regnet"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "green": [
+                "Pamatujte"
+              ],
+              "purple": [
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "green": [
+                "Také"
+              ],
+              "purple": [
+                "Také"
+              ]
+            },
+            {
+              "green": [
+                "deshalb"
+              ],
+              "purple": [
+                "České"
+              ]
+            }
+          ]
+        },
+        "important": [
+          "Tedy ukazuje závěr: další myšlenka vyplývá z toho, co bylo řečeno výše.",
+          "České „tak“ může být často také deshalb."
+        ]
+      }
+    },
+    {
+      "cardId": "a1-auch-study",
+      "index": 48,
+      "de": "auch",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Také",
+      "repairedFields": [
+        {
+          "block": 5,
+          "n": 249,
+          "field": "study.examples[1].lv",
+          "pirmd": "Já jdu taky",
+          "pec": "Ona zde také pracuje."
+        },
+        {
+          "block": 5,
+          "n": 250,
+          "field": "study.examples[2].lv",
+          "pirmd": "Ona zde také pracuje.",
+          "pec": "Také vám přeji hezký den."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-auch-study",
+        "index": 48,
+        "de": "auch",
+        "layout": "standardStudy",
+        "csMain": "Také",
+        "studyTranslation": "Také",
+        "lvSourceMain": "arī",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "arī",
+            "csText": "Také",
+            "de": "auch"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Es arī nāku.",
+            "csText": "Já jdu taky.",
+            "de": "auch"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "Viņa arī strādā šeit.",
+            "csText": "Ona zde také pracuje.",
+            "de": "auch"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "Es arī novēlu jums jauku dienu.",
+            "csText": "Také vám přeji hezký den.",
+            "de": "auch"
+          }
+        ],
+        "study": {
+          "id": "a1-auch-study",
+          "layout": "standardStudy",
+          "translation": "Také",
+          "explanation": [
+            "Hlavní myšlenka: Nejběžnější a neutrální „také“.",
+            "Auch v podstatě znamená: jednoduché „také“.",
+            "Často charakterizováno: sčítáním.",
+            "Auch je nejběžnější slovo pro „také“."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme auch.",
+              "lv": "Já jdu taky."
+            },
+            {
+              "de": "Ich komme auch.",
+              "lv": "Ona zde také pracuje."
+            },
+            {
+              "de": "Sie arbeitet auch hier.",
+              "lv": "Také vám přeji hezký den."
+            }
+          ],
+          "tip": [
+            "Auch = také",
+            "Používá auch, když kontext vyhovuje tomuto významu."
+          ],
+          "important": [
+            "Ich auch wünsche Ihnen není správný slovosled.",
+            "Auch = také."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "auch",
+                "auch"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "auch",
+                    "auch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jdu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "auch",
+                    "auch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jdu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "auch",
+                    "auch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ona"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Auch"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "auch"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-auch-study",
+          "layout": "standardStudy",
+          "translation": "arī",
+          "explanation": [
+            "Galvenā doma: Visbiežākais un neitrālākais “arī”.",
+            "auch galvenokārt nozīmē: vienkāršs “arī”.",
+            "Bieži raksturo: papildinājumu.",
+            "auch ir visparastākais vārds “arī”."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme auch.",
+              "lv": "Es arī nāku."
+            },
+            {
+              "de": "Sie arbeitet auch hier.",
+              "lv": "Viņa arī strādā šeit."
+            },
+            {
+              "de": "Ich wünsche Ihnen auch einen schönen Tag.",
+              "lv": "Es arī novēlu jums jauku dienu."
+            }
+          ],
+          "tip": [
+            "auch = arī",
+            "Izmanto auch, kad konteksts atbilst šai nozīmei."
+          ],
+          "important": [
+            "auch ir visbiežākais neitrālais vārds ar nozīmi arī.",
+            "Pareizi: Ich wünsche Ihnen auch einen schönen Tag.",
+            "Nepareizi: Ich auch wünsche Ihnen einen schönen Tag."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "auch",
+                "auch"
+              ],
+              "purple": [
+                "arī"
+              ],
+              "green": [
+                "Arī"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "auch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "arī"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "auch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "arī"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "auch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "arī"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "arī"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "auch"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-auch-study",
+        "layout": "standardStudy",
+        "translation": "Také",
+        "explanation": [
+          "Hlavní myšlenka: Nejběžnější a neutrální „také“.",
+          "Auch v podstatě znamená: jednoduché „také“.",
+          "Často charakterizováno: sčítáním.",
+          "Auch je nejběžnější slovo pro „také“."
+        ],
+        "examples": [
+          {
+            "de": "Ich komme auch.",
+            "lv": "Já jdu taky."
+          },
+          {
+            "de": "Ich komme auch.",
+            "lv": "Ona zde také pracuje."
+          },
+          {
+            "de": "Sie arbeitet auch hier.",
+            "lv": "Také vám přeji hezký den."
+          }
+        ],
+        "tip": [
+          "Auch = také",
+          "Používá auch, když kontext vyhovuje tomuto významu."
+        ],
+        "important": [
+          "Ich auch wünsche Ihnen není správný slovosled.",
+          "Auch = také."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "auch",
+              "auch"
+            ],
+            "purple": [
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "auch",
+                  "auch"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "jdu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "auch",
+                  "auch"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "jdu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "auch",
+                  "auch"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ona"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "purple": [
+                "Auch"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "blue": [
+                "auch"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-siebzehnte-554",
+      "index": 554,
+      "de": "siebzehnte",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Sedmnáctý",
+      "repairedFields": [
+        {
+          "block": 6,
+          "n": 251,
+          "field": "csText",
+          "pirmd": "Sedmnáctého",
+          "pec": "Sedmnáctý"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-siebzehnte-554",
+        "index": 554,
+        "de": "siebzehnte",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "septiņpadsmitais",
+        "csText": "Sedmnáctý",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-ab",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": 0.99,
+      "reason": "The repaired study translation “Od” correctly represents German “ab”. Existing inconsistencies remain elsewhere in the card.",
+      "findings": [
+        {
+          "field": "csMain",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "medium",
+          "currentCs": "Z",
+          "proposedCs": "Od",
+          "reason": "The main card translation remains “Z”, which does not match “ab”; the HIGH repair changed only study.translation.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": null
+        },
+        {
+          "field": "study.explanation",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Často znamená „začít od“.",
+          "proposedCs": null,
+          "reason": "“Začít od” is awkward Czech wording, but this text was not changed by the HIGH repair.",
+          "confidence": 0.97,
+          "relatedFindingId": null,
+          "relatedRepairBlock": null
+        }
+      ]
+    },
+    {
+      "cardId": "a1-also",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "medium",
+      "confidence": 0.98,
+      "reason": "Both HIGH repairs correctly use “tedy” for a conclusion. Unrelated pre-existing wording and example mismatches remain.",
+      "findings": [
+        {
+          "field": "study.explanation",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Znamená „proto“, „proto“.",
+          "proposedCs": null,
+          "reason": "The duplicated Czech synonym is stylistically poor, but the explanation was not changed by the HIGH repair.",
+          "confidence": 0.98,
+          "relatedFindingId": null,
+          "relatedRepairBlock": null
+        },
+        {
+          "field": "study.examples[1].lv",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "medium",
+          "currentCs": "Jsi nemocný, tak nechoď do práce.",
+          "proposedCs": null,
+          "reason": "This is an imperative, while the German sentence means “you therefore do not go to work”; the mismatch predates the HIGH repair.",
+          "confidence": 0.98,
+          "relatedFindingId": null,
+          "relatedRepairBlock": null
+        }
+      ]
+    },
+    {
+      "cardId": "a1-auch-study",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+      "severity": "high",
+      "confidence": 0.99,
+      "reason": "The HIGH repair shifted example translations between rows, leaving both German-Czech example pairs semantically mismatched.",
+      "findings": [
+        {
+          "field": "study.examples[1].lv",
+          "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+          "severity": "high",
+          "currentCs": "Ona zde také pracuje.",
+          "proposedCs": "Já jdu taky",
+          "reason": "German “Ich komme auch.” means “Já jdu taky”, not “Ona zde také pracuje.”",
+          "confidence": 1,
+          "relatedFindingId": "a1-auch-study-examples-1-2",
+          "relatedRepairBlock": "block:5,n:249"
+        },
+        {
+          "field": "study.examples[2].lv",
+          "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+          "severity": "high",
+          "currentCs": "Také vám přeji hezký den.",
+          "proposedCs": "Ona zde také pracuje.",
+          "reason": "German “Sie arbeitet auch hier.” means “Ona zde také pracuje”, not a greeting.",
+          "confidence": 1,
+          "relatedFindingId": "a1-auch-study-examples-1-2",
+          "relatedRepairBlock": "block:5,n:250"
+        }
+      ]
+    },
+    {
+      "cardId": "a1-siebzehnte-554",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "“Sedmnáctý” is the correct Czech masculine nominative form for German “siebzehnte” when no case context is supplied.",
+      "findings": []
+    }
+  ],
+  "completedAt": "2026-08-12T14:47:48.252Z"
+}

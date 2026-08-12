@@ -1,0 +1,3293 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-auf",
+      "index": 49,
+      "de": "auf",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Na",
+      "repairedFields": [
+        {
+          "block": 6,
+          "n": 252,
+          "field": "study.important[1]",
+          "pirmd": "Pokud je něco blízko svislého povrchu, často potřebujete • Pokud jste dovnitř, musíte dovnitř.",
+          "pec": "U svislého povrchu se často používá an. Pro pohyb dovnitř se používá in."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-auf",
+        "index": 49,
+        "de": "auf",
+        "layout": "standardStudy",
+        "csMain": "Na",
+        "studyTranslation": "Na",
+        "lvSourceMain": "uz",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "uz",
+            "csText": "Na",
+            "de": "auf"
+          },
+          {
+            "field": "study.explanation",
+            "lvSource": "Lieto, lai norādītu virzienu uz kādu vietu vai virsmas augšpusi.",
+            "csText": "Používá se k označení směru k místu nebo k horní části povrchu.",
+            "de": "auf"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es lieku grāmatu uz galda.",
+            "csText": "Položil jsem knihu na stůl.",
+            "de": "auf"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "mēs braucam uz kalnu.",
+            "csText": "Jdeme na horu.",
+            "de": "auf"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "kaķis lec uz dīvāna.",
+            "csText": "Kočka vyskočí na pohovku.",
+            "de": "auf"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "auf",
+            "csText": "auf",
+            "de": "auf"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "uz (virsmas vai augšup)",
+            "csText": "Na (povrch nebo nahoru)",
+            "de": "auf"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "an",
+            "csText": "an",
+            "de": "auf"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "pie (vertikālas virsmas)",
+            "csText": "Na (svislý povrch)",
+            "de": "auf"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "in",
+            "csText": "in",
+            "de": "auf"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "iekšā",
+            "csText": "Uvnitř",
+            "de": "auf"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: uz virsmas/augšā → auf.",
+            "csText": "Pamatujte: na povrchu/nahoře → auf.",
+            "de": "auf"
+          }
+        ],
+        "study": {
+          "id": "a1-auf",
+          "layout": "standardStudy",
+          "translation": "Na",
+          "explanation": "Používá se k označení směru k místu nebo k horní části povrchu.",
+          "examples": [
+            {
+              "de": "Ich stelle das Buch auf den Tisch.",
+              "lv": "Položil jsem knihu na stůl."
+            },
+            {
+              "de": "Wir fahren auf den Berg.",
+              "lv": "Jdeme na horu."
+            },
+            {
+              "de": "Die Katze springt auf das Sofa.",
+              "lv": "Kočka vyskočí na pohovku."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "auf",
+              "meaning": "Na (povrch nebo nahoru)",
+              "example": "Ich stelle das Glas auf den Tisch. – Položil jsem sklenici na stůl."
+            },
+            {
+              "word": "an",
+              "meaning": "Na (svislý povrch)",
+              "example": "Ich hänge das Bild an die Wand. – Obraz věším na zeď."
+            },
+            {
+              "word": "in",
+              "meaning": "Uvnitř",
+              "example": "Ich lege das Buch in die Tasche. – Dal jsem knihu do tašky."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: na povrchu/nahoře → auf."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "auf"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Položil"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "auf"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jdeme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "auf"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kočka"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "auf"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "auf"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "an"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "an",
+                    "die"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "in"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "in"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "auf"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ],
+                "green": [
+                  "Pamatujte",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "auf"
+                ],
+                "purple": [
+                  "Auf"
+                ],
+                "green": [
+                  "Auf",
+                  "Auf"
+                ]
+              },
+              {
+                "green": [
+                  "Pokud"
+                ],
+                "yellow": [
+                  "Pokud"
+                ],
+                "purple": [
+                  "Pokud",
+                  "Pokud"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "Auf není jen tak nějaké 'on'. Často to znamená pohyb nebo pobyt na povrchu/nahoře.",
+            "U svislého povrchu se často používá an. Pro pohyb dovnitř se používá in."
+          ]
+        },
+        "lvStudy": {
+          "id": "a1-auf",
+          "layout": "standardStudy",
+          "translation": "uz",
+          "explanation": "Lieto, lai norādītu virzienu uz kādu vietu vai virsmas augšpusi.",
+          "examples": [
+            {
+              "de": "Ich stelle das Buch auf den Tisch.",
+              "lv": "es lieku grāmatu uz galda."
+            },
+            {
+              "de": "Wir fahren auf den Berg.",
+              "lv": "mēs braucam uz kalnu."
+            },
+            {
+              "de": "Die Katze springt auf das Sofa.",
+              "lv": "kaķis lec uz dīvāna."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "auf",
+              "meaning": "uz (virsmas vai augšup)",
+              "example": "Ich stelle das Glas auf den Tisch. – Es lieku glāzi uz galda."
+            },
+            {
+              "word": "an",
+              "meaning": "pie (vertikālas virsmas)",
+              "example": "Ich hänge das Bild an die Wand. – Es karinu bildi pie sienas."
+            },
+            {
+              "word": "in",
+              "meaning": "iekšā",
+              "example": "Ich lege das Buch in die Tasche. – Es lieku grāmatu somā."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: uz virsmas/augšā → auf."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "auf"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "auf"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "auf"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "auf"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "auf"
+                  ],
+                  "purple": [
+                    "uz"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "an"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "an",
+                    "pie"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "in"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "in"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "auf"
+                ],
+                "purple": [
+                  "uz"
+                ],
+                "green": [
+                  "virsmas",
+                  "augšā"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "auf"
+                ],
+                "purple": [
+                  "uz"
+                ],
+                "green": [
+                  "virsmas",
+                  "augšpusē"
+                ]
+              },
+              {
+                "green": [
+                  "an"
+                ],
+                "yellow": [
+                  "in"
+                ],
+                "purple": [
+                  "pie",
+                  "iekšā"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "auf nav vienkārši jebkurš “uz”. Tas bieži nozīmē kustību vai atrašanos uz virsmas/augšpusē.",
+            "Ja kaut kas ir pie vertikālas virsmas, bieži vajag an; ja iekšā, vajag in."
+          ]
+        }
+      },
+      "study": {
+        "id": "a1-auf",
+        "layout": "standardStudy",
+        "translation": "Na",
+        "explanation": "Používá se k označení směru k místu nebo k horní části povrchu.",
+        "examples": [
+          {
+            "de": "Ich stelle das Buch auf den Tisch.",
+            "lv": "Položil jsem knihu na stůl."
+          },
+          {
+            "de": "Wir fahren auf den Berg.",
+            "lv": "Jdeme na horu."
+          },
+          {
+            "de": "Die Katze springt auf das Sofa.",
+            "lv": "Kočka vyskočí na pohovku."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "auf",
+            "meaning": "Na (povrch nebo nahoru)",
+            "example": "Ich stelle das Glas auf den Tisch. – Položil jsem sklenici na stůl."
+          },
+          {
+            "word": "an",
+            "meaning": "Na (svislý povrch)",
+            "example": "Ich hänge das Bild an die Wand. – Obraz věším na zeď."
+          },
+          {
+            "word": "in",
+            "meaning": "Uvnitř",
+            "example": "Ich lege das Buch in die Tasche. – Dal jsem knihu do tašky."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: na povrchu/nahoře → auf."
+        },
+        "sectionAccents": {
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "auf"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Položil"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "auf"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jdeme"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "auf"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Kočka"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "auf"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "auf"
+                ],
+                "purple": [
+                  "Ich"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "an"
+                ]
+              },
+              "example": {
+                "green": [
+                  "an",
+                  "die"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "in"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "in"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "auf"
+              ],
+              "purple": [
+                "Pamatujte"
+              ],
+              "green": [
+                "Pamatujte",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "auf"
+              ],
+              "purple": [
+                "Auf"
+              ],
+              "green": [
+                "Auf",
+                "Auf"
+              ]
+            },
+            {
+              "green": [
+                "Pokud"
+              ],
+              "yellow": [
+                "Pokud"
+              ],
+              "purple": [
+                "Pokud",
+                "Pokud"
+              ]
+            }
+          ]
+        },
+        "important": [
+          "Auf není jen tak nějaké 'on'. Často to znamená pohyb nebo pobyt na povrchu/nahoře.",
+          "U svislého povrchu se často používá an. Pro pohyb dovnitř se používá in."
+        ]
+      }
+    },
+    {
+      "cardId": "a1-aus",
+      "index": 57,
+      "de": "aus",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Od • Ven",
+      "repairedFields": [
+        {
+          "block": 6,
+          "n": 253,
+          "field": "study.translation",
+          "pirmd": "Od • Ven",
+          "pec": "Z • Ven"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-aus",
+        "index": 57,
+        "de": "aus",
+        "layout": "standardStudy",
+        "csMain": "Od • Ven",
+        "studyTranslation": "Z • Ven",
+        "lvSourceMain": "no",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "no",
+            "csText": "Z • Ven",
+            "de": "aus"
+          },
+          {
+            "field": "study.explanation",
+            "lvSource": "Lieto, kad kaut kas nāk no iekšienes, iznāk ārā vai norāda izcelsmi.",
+            "csText": "Používá se, když něco přichází zevnitř, vychází nebo naznačuje původ.",
+            "de": "aus"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es esmu no Vācijas.",
+            "csText": "Jsem z německa.",
+            "de": "aus"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "viņš iziet no mājas.",
+            "csText": "Odchází z domu.",
+            "de": "aus"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "es izņemu grāmatu no somas.",
+            "csText": "Vytáhnu knihu z tašky.",
+            "de": "aus"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "aus",
+            "csText": "aus",
+            "de": "aus"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "no iekšienes, ārā no",
+            "csText": "Zevnitř, zevnitř",
+            "de": "aus"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "von",
+            "csText": "von",
+            "de": "aus"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "no personas, vietas, virsmas",
+            "csText": "Od osoby, místa, povrchu",
+            "de": "aus"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "ab",
+            "csText": "ab",
+            "de": "aus"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "sākot no punkta vai laika",
+            "csText": "Počínaje bodem nebo časem",
+            "de": "aus"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: ārā no iekšienes → aus.",
+            "csText": "Pamatujte: ven zevnitř → aus.",
+            "de": "aus"
+          }
+        ],
+        "study": {
+          "id": "a1-aus",
+          "layout": "standardStudy",
+          "translation": "Z • Ven",
+          "explanation": "Používá se, když něco přichází zevnitř, vychází nebo naznačuje původ.",
+          "examples": [
+            {
+              "de": "Ich komme aus Deutschland.",
+              "lv": "Jsem z německa."
+            },
+            {
+              "de": "Er geht aus dem Haus.",
+              "lv": "Odchází z domu."
+            },
+            {
+              "de": "Ich nehme das Buch aus der Tasche.",
+              "lv": "Vytáhnu knihu z tašky."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aus",
+              "meaning": "Zevnitř, zevnitř",
+              "example": "aus dem Haus – Z domova"
+            },
+            {
+              "word": "von",
+              "meaning": "Od osoby, místa, povrchu",
+              "example": "von meinem Freund – Od mého přítele"
+            },
+            {
+              "word": "ab",
+              "meaning": "Počínaje bodem nebo časem",
+              "example": "ab Montag – Od pondělí"
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: ven zevnitř → aus."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "aus"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jsem"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "aus"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Odchází"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "aus"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vytáhnu"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "aus"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "aus"
+                  ],
+                  "purple": [
+                    "aus"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "von"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "von"
+                  ],
+                  "purple": [
+                    "von"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ab"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "ab"
+                  ],
+                  "purple": [
+                    "Montag"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "green": [
+                  "aus"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "green": [
+                  "aus"
+                ],
+                "purple": [
+                  "Aus",
+                  "Aus"
+                ]
+              },
+              {
+                "blue": [
+                  "ab"
+                ],
+                "purple": [
+                  "Pokud"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "Aus obvykle ukazuje pohyb ven zevnitř nebo původ.",
+            "Pokud jde pouze o výchozí bod v čase nebo místě, často se používá ab."
+          ]
+        },
+        "lvStudy": {
+          "id": "a1-aus",
+          "layout": "standardStudy",
+          "translation": "no",
+          "explanation": "Lieto, kad kaut kas nāk no iekšienes, iznāk ārā vai norāda izcelsmi.",
+          "examples": [
+            {
+              "de": "Ich komme aus Deutschland.",
+              "lv": "es esmu no Vācijas."
+            },
+            {
+              "de": "Er geht aus dem Haus.",
+              "lv": "viņš iziet no mājas."
+            },
+            {
+              "de": "Ich nehme das Buch aus der Tasche.",
+              "lv": "es izņemu grāmatu no somas."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aus",
+              "meaning": "no iekšienes, ārā no",
+              "example": "aus dem Haus – no mājas"
+            },
+            {
+              "word": "von",
+              "meaning": "no personas, vietas, virsmas",
+              "example": "von meinem Freund – no mana drauga"
+            },
+            {
+              "word": "ab",
+              "meaning": "sākot no punkta vai laika",
+              "example": "ab Montag – no pirmdienas"
+            }
+          ],
+          "tip": {
+            "text": "Atceries: ārā no iekšienes → aus."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "aus"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "no"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "aus"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "no"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "aus"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "no"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "aus"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "aus"
+                  ],
+                  "purple": [
+                    "no"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "von"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "von"
+                  ],
+                  "purple": [
+                    "no"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ab"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "ab"
+                  ],
+                  "purple": [
+                    "no"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "green": [
+                  "aus"
+                ],
+                "purple": [
+                  "ārā no iekšienes"
+                ]
+              }
+            },
+            "important": [
+              {
+                "green": [
+                  "aus"
+                ],
+                "purple": [
+                  "ārā no iekšienes",
+                  "izcelsmi"
+                ]
+              },
+              {
+                "blue": [
+                  "ab"
+                ],
+                "purple": [
+                  "sākuma punktu"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "aus parasti rāda kustību ārā no iekšienes vai izcelsmi.",
+            "Ja runa ir tikai par sākuma punktu laikā vai vietā, bieži lieto ab."
+          ]
+        }
+      },
+      "study": {
+        "id": "a1-aus",
+        "layout": "standardStudy",
+        "translation": "Z • Ven",
+        "explanation": "Používá se, když něco přichází zevnitř, vychází nebo naznačuje původ.",
+        "examples": [
+          {
+            "de": "Ich komme aus Deutschland.",
+            "lv": "Jsem z německa."
+          },
+          {
+            "de": "Er geht aus dem Haus.",
+            "lv": "Odchází z domu."
+          },
+          {
+            "de": "Ich nehme das Buch aus der Tasche.",
+            "lv": "Vytáhnu knihu z tašky."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "aus",
+            "meaning": "Zevnitř, zevnitř",
+            "example": "aus dem Haus – Z domova"
+          },
+          {
+            "word": "von",
+            "meaning": "Od osoby, místa, povrchu",
+            "example": "von meinem Freund – Od mého přítele"
+          },
+          {
+            "word": "ab",
+            "meaning": "Počínaje bodem nebo časem",
+            "example": "ab Montag – Od pondělí"
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: ven zevnitř → aus."
+        },
+        "sectionAccents": {
+          "examples": [
+            {
+              "de": {
+                "green": [
+                  "aus"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jsem"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "aus"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Odchází"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "aus"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Vytáhnu"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "aus"
+                ]
+              },
+              "example": {
+                "green": [
+                  "aus"
+                ],
+                "purple": [
+                  "aus"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "von"
+                ]
+              },
+              "example": {
+                "green": [
+                  "von"
+                ],
+                "purple": [
+                  "von"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "ab"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "ab"
+                ],
+                "purple": [
+                  "Montag"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "green": [
+                "aus"
+              ],
+              "purple": [
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "green": [
+                "aus"
+              ],
+              "purple": [
+                "Aus",
+                "Aus"
+              ]
+            },
+            {
+              "blue": [
+                "ab"
+              ],
+              "purple": [
+                "Pokud"
+              ]
+            }
+          ]
+        },
+        "important": [
+          "Aus obvykle ukazuje pohyb ven zevnitř nebo původ.",
+          "Pokud jde pouze o výchozí bod v čase nebo místě, často se používá ab."
+        ]
+      }
+    },
+    {
+      "cardId": "a1-aufs",
+      "index": 60,
+      "de": "aufs",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Kam • Na • Kam?",
+      "repairedFields": [
+        {
+          "block": 6,
+          "n": 254,
+          "field": "study.explanation[2]",
+          "pirmd": "Používá se, když akce ukazuje směr ke konkrétní věci nebo povrchu – odpovídá na otázku kde?",
+          "pec": "Používá se, když děj vyjadřuje směr ke konkrétní věci nebo povrchu – odpovídá na otázku kam?"
+        },
+        {
+          "block": 6,
+          "n": 255,
+          "field": "study.comparison[0].example",
+          "pirmd": "aufs Dach – Na střeše",
+          "pec": "aufs Dach – Na střechu"
+        },
+        {
+          "block": 6,
+          "n": 256,
+          "field": "study.comparison[1].example",
+          "pirmd": "auf den Tisch – Na stole",
+          "pec": "auf den Tisch – Na stůl"
+        },
+        {
+          "block": 6,
+          "n": 257,
+          "field": "study.comparison[2].example",
+          "pirmd": "an die Wand – U zdi",
+          "pec": "an die Wand – Na zeď"
+        },
+        {
+          "block": 6,
+          "n": 258,
+          "field": "study.comparison[3].example",
+          "pirmd": "ins Zimmer – V místnosti",
+          "pec": "ins Zimmer – Do místnosti"
+        },
+        {
+          "block": 6,
+          "n": 259,
+          "field": "study.important[0]",
+          "pirmd": "Aufs = auf das, pouze s podstatným jménem libovolného rodu, kde? ve skloňování.",
+          "pec": "Aufs = auf das. Používá se před podstatnými jmény středního rodu v akuzativu a odpovídá na otázku kam?"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-aufs",
+        "index": 60,
+        "de": "aufs",
+        "layout": "standardStudy",
+        "csMain": "Kam • Na • Kam?",
+        "studyTranslation": "Kam • Na • Kam?",
+        "lvSourceMain": "uz",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "uz",
+            "csText": "Kam • Na • Kam?",
+            "de": "aufs"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Es eju uz jumta.",
+            "csText": "Jdu na střechu",
+            "de": "aufs"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "viņa apsēžas uz dīvāna.",
+            "csText": "Posadí se na pohovku.",
+            "de": "aufs"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "mēs braucam uz laukiem.",
+            "csText": "Jedeme na venkov.",
+            "de": "aufs"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "noliec somu uz gultas.",
+            "csText": "Položte tašku na postel.",
+            "de": "aufs"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "Viņš uzlec zirgam mugurā.",
+            "csText": "Nasedne na koně.",
+            "de": "aufs"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "Noliec grāmatu uz plaukta.",
+            "csText": "Položte knihu na polici.",
+            "de": "aufs"
+          },
+          {
+            "field": "study.examples[6].lv",
+            "lvSource": "Kāp ātri laivā!",
+            "csText": "Pojďte rychle na loď!",
+            "de": "aufs"
+          },
+          {
+            "field": "study.examples[7].lv",
+            "lvSource": "mēs ejam uz svinībām.",
+            "csText": "Jdeme na párty.",
+            "de": "aufs"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "aufs",
+            "csText": "aufs",
+            "de": "aufs"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "uz konkrētu lietu (Akk.)",
+            "csText": "Na konkrétní případ (Akk.)",
+            "de": "aufs"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "auf",
+            "csText": "auf",
+            "de": "aufs"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "uz virsmu vai augšup",
+            "csText": "Na povrch nebo nahoru",
+            "de": "aufs"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "an",
+            "csText": "an",
+            "de": "aufs"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "pie vertikālas virsmas",
+            "csText": "Na svislém povrchu",
+            "de": "aufs"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "ins",
+            "csText": "ins",
+            "de": "aufs"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "uz iekšu (iekš telpas)",
+            "csText": "Dovnitř",
+            "de": "aufs"
+          },
+          {
+            "field": "study.comparison[4].word",
+            "lvSource": "zum",
+            "csText": "zum",
+            "de": "aufs"
+          },
+          {
+            "field": "study.comparison[4].meaning",
+            "lvSource": "uz / pie (kam?)",
+            "csText": "Komu / u (koho?)",
+            "de": "aufs"
+          }
+        ],
+        "study": {
+          "id": "a1-aufs",
+          "layout": "standardStudy",
+          "translation": "Kam • Na • Kam?",
+          "explanation": [
+            "Aufs je zkratka předložky auf a členu das.",
+            "Plná forma: auf das (kde?).",
+            "Používá se, když děj vyjadřuje směr ke konkrétní věci nebo povrchu – odpovídá na otázku kam?",
+            "Často se používá s pohybem: vylézt, sednout, položit, zajet k něčemu.",
+            "V hovorové a každodenní řeči se téměř vždy používá aufs místo plného auf das."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe aufs Dach.",
+              "lv": "Jdu na střechu"
+            },
+            {
+              "de": "Sie setzt sich aufs Sofa.",
+              "lv": "Posadí se na pohovku."
+            },
+            {
+              "de": "Wir fahren aufs Land.",
+              "lv": "Jedeme na venkov."
+            },
+            {
+              "de": "Stell die Tasche aufs Bett.",
+              "lv": "Položte tašku na postel."
+            },
+            {
+              "de": "Er springt aufs Pferd.",
+              "lv": "Nasedne na koně."
+            },
+            {
+              "de": "Leg das Buch aufs Regal.",
+              "lv": "Položte knihu na polici."
+            },
+            {
+              "de": "Komm schnell aufs Boot!",
+              "lv": "Pojďte rychle na loď!"
+            },
+            {
+              "de": "Wir gehen aufs Fest.",
+              "lv": "Jdeme na párty."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aufs",
+              "meaning": "Na konkrétní případ (Akk.)",
+              "example": "aufs Dach – Na střechu"
+            },
+            {
+              "word": "auf",
+              "meaning": "Na povrch nebo nahoru",
+              "example": "auf den Tisch – Na stůl"
+            },
+            {
+              "word": "an",
+              "meaning": "Na svislém povrchu",
+              "example": "an die Wand – Na zeď"
+            },
+            {
+              "word": "ins",
+              "meaning": "Dovnitř",
+              "example": "ins Zimmer – Do místnosti"
+            },
+            {
+              "word": "zum",
+              "meaning": "Komu / u (koho?)",
+              "example": "zum Arzt – K lékaři"
+            }
+          ],
+          "tip": [
+            "Pamatujte: auf + das → aufs (kde?, kde?).",
+            "Plné auf das se téměř nikdy nemluví hovorově – používá se aufs."
+          ],
+          "important": [
+            "Aufs = auf das. Používá se před podstatnými jmény středního rodu v akuzativu a odpovídá na otázku kam?",
+            "Odpovědět kam? — pohyb na určité místo nebo povrch.",
+            "Na vodorovné ploše se místo aufs často používá auf den.",
+            "Nezaměňujte s (na zdi) nebo ins (uvnitř místnosti)."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "aufs",
+                "auf das"
+              ],
+              "purple": [
+                "Aufs",
+                "Aufs",
+                "Aufs"
+              ],
+              "green": [
+                "Aufs",
+                "Aufs"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jdu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Posadí"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jedeme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Položte"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nasedne"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Položte"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Pojďte"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jdeme"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "aufs"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "konkrétní"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "aufs Dach"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "auf"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "povrch"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "auf den Tisch"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "an"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "svislém"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "an die Wand"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ins"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Dovnitř"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "ins Zimmer"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zum"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Komu",
+                    "Komu"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "zum Arzt"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "aufs"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ]
+              },
+              {
+                "purple": [
+                  "auf das"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "aufs"
+                ],
+                "purple": [
+                  "auf das"
+                ],
+                "green": [
+                  "Aufs"
+                ]
+              },
+              {
+                "purple": [
+                  "Odpovědět"
+                ],
+                "green": [
+                  "Odpovědět"
+                ]
+              },
+              {
+                "yellow": [
+                  "auf den"
+                ],
+                "red": [
+                  "aufs"
+                ]
+              },
+              {
+                "green": [
+                  "Nezaměňujte"
+                ],
+                "red": [
+                  "ins"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-aufs",
+          "layout": "standardStudy",
+          "translation": "uz",
+          "explanation": [
+            "aufs ir prievārda auf un artikula das saīsinājums.",
+            "Pilnā forma: auf das (kurp?).",
+            "Lieto, kad darbība norāda virzienu uz konkrētu lietu vai virsmu — atbild uz jautājumu kurp?",
+            "Bieži lieto ar kustību: uzkāpt, apsēsties, nolikt, braukt uz kaut ko.",
+            "Neitrālā ikdienas valodā auf das bieži saīsina par aufs; pilnā forma arī ir gramatiski pareiza."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe aufs Dach.",
+              "lv": "Es eju uz jumta."
+            },
+            {
+              "de": "Sie setzt sich aufs Sofa.",
+              "lv": "viņa apsēžas uz dīvāna."
+            },
+            {
+              "de": "Wir fahren aufs Land.",
+              "lv": "mēs braucam uz laukiem."
+            },
+            {
+              "de": "Stell die Tasche aufs Bett.",
+              "lv": "noliec somu uz gultas."
+            },
+            {
+              "de": "Er springt aufs Pferd.",
+              "lv": "Viņš uzlec zirgam mugurā."
+            },
+            {
+              "de": "Leg das Buch aufs Regal.",
+              "lv": "Noliec grāmatu uz plaukta."
+            },
+            {
+              "de": "Komm schnell aufs Boot!",
+              "lv": "Kāp ātri laivā!"
+            },
+            {
+              "de": "Wir gehen aufs Fest.",
+              "lv": "mēs ejam uz svinībām."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aufs",
+              "meaning": "uz konkrētu lietu (Akk.)",
+              "example": "aufs Dach – uz jumta"
+            },
+            {
+              "word": "auf",
+              "meaning": "uz virsmu vai augšup",
+              "example": "auf den Tisch – uz galda"
+            },
+            {
+              "word": "an",
+              "meaning": "pie vertikālas virsmas",
+              "example": "an die Wand – pie sienas"
+            },
+            {
+              "word": "ins",
+              "meaning": "uz iekšu (iekš telpas)",
+              "example": "ins Zimmer – istabā"
+            },
+            {
+              "word": "zum",
+              "meaning": "uz / pie (kam?)",
+              "example": "zum Arzt – pie ārsta"
+            }
+          ],
+          "tip": [
+            "Atceries: auf + das → aufs (kurp?, kurp?).",
+            "Ikdienas valodā auf das bieži saīsina par aufs."
+          ],
+          "important": [
+            "aufs = auf das, tikai ar nekatras dzimtes lietvārdu kurp? locījumā.",
+            "Atbild uz kurp? — kustība uz konkrētu vietu vai virsmu.",
+            "Uz horizontālas virsmas bieži lieto auf den, nevis aufs.",
+            "Nesajauc ar an (pie sienas) vai ins (iekš telpas)."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "aufs",
+                "auf das"
+              ],
+              "purple": [
+                "uz",
+                "virsmu",
+                "kurp?"
+              ],
+              "green": [
+                "kurp?",
+                "kustību"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz jumta"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz dīvāna"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz laukiem"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz gultas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uzlec zirgam mugurā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz plaukta"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "laivā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz svinībām"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "aufs"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz konkrētu lietu"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "aufs Dach"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "auf"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz virsmu"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "auf den Tisch"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "an"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "pie"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "an die Wand"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ins"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz iekšu"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "ins Zimmer"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zum"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz",
+                    "pie"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "zum Arzt"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "aufs"
+                ],
+                "purple": [
+                  "kurp?"
+                ]
+              },
+              {
+                "purple": [
+                  "auf das"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "aufs"
+                ],
+                "purple": [
+                  "auf das"
+                ],
+                "green": [
+                  "kurp?"
+                ]
+              },
+              {
+                "purple": [
+                  "kurp?"
+                ],
+                "green": [
+                  "kustība"
+                ]
+              },
+              {
+                "yellow": [
+                  "auf den"
+                ],
+                "red": [
+                  "aufs"
+                ]
+              },
+              {
+                "green": [
+                  "an"
+                ],
+                "red": [
+                  "ins"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-aufs",
+        "layout": "standardStudy",
+        "translation": "Kam • Na • Kam?",
+        "explanation": [
+          "Aufs je zkratka předložky auf a členu das.",
+          "Plná forma: auf das (kde?).",
+          "Používá se, když děj vyjadřuje směr ke konkrétní věci nebo povrchu – odpovídá na otázku kam?",
+          "Často se používá s pohybem: vylézt, sednout, položit, zajet k něčemu.",
+          "V hovorové a každodenní řeči se téměř vždy používá aufs místo plného auf das."
+        ],
+        "examples": [
+          {
+            "de": "Ich gehe aufs Dach.",
+            "lv": "Jdu na střechu"
+          },
+          {
+            "de": "Sie setzt sich aufs Sofa.",
+            "lv": "Posadí se na pohovku."
+          },
+          {
+            "de": "Wir fahren aufs Land.",
+            "lv": "Jedeme na venkov."
+          },
+          {
+            "de": "Stell die Tasche aufs Bett.",
+            "lv": "Položte tašku na postel."
+          },
+          {
+            "de": "Er springt aufs Pferd.",
+            "lv": "Nasedne na koně."
+          },
+          {
+            "de": "Leg das Buch aufs Regal.",
+            "lv": "Položte knihu na polici."
+          },
+          {
+            "de": "Komm schnell aufs Boot!",
+            "lv": "Pojďte rychle na loď!"
+          },
+          {
+            "de": "Wir gehen aufs Fest.",
+            "lv": "Jdeme na párty."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "aufs",
+            "meaning": "Na konkrétní případ (Akk.)",
+            "example": "aufs Dach – Na střechu"
+          },
+          {
+            "word": "auf",
+            "meaning": "Na povrch nebo nahoru",
+            "example": "auf den Tisch – Na stůl"
+          },
+          {
+            "word": "an",
+            "meaning": "Na svislém povrchu",
+            "example": "an die Wand – Na zeď"
+          },
+          {
+            "word": "ins",
+            "meaning": "Dovnitř",
+            "example": "ins Zimmer – Do místnosti"
+          },
+          {
+            "word": "zum",
+            "meaning": "Komu / u (koho?)",
+            "example": "zum Arzt – K lékaři"
+          }
+        ],
+        "tip": [
+          "Pamatujte: auf + das → aufs (kde?, kde?).",
+          "Plné auf das se téměř nikdy nemluví hovorově – používá se aufs."
+        ],
+        "important": [
+          "Aufs = auf das. Používá se před podstatnými jmény středního rodu v akuzativu a odpovídá na otázku kam?",
+          "Odpovědět kam? — pohyb na určité místo nebo povrch.",
+          "Na vodorovné ploše se místo aufs často používá auf den.",
+          "Nezaměňujte s (na zdi) nebo ins (uvnitř místnosti)."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "aufs",
+              "auf das"
+            ],
+            "purple": [
+              "Aufs",
+              "Aufs",
+              "Aufs"
+            ],
+            "green": [
+              "Aufs",
+              "Aufs"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "aufs"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jdu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "aufs"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Posadí"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "aufs"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jedeme"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "aufs"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Položte"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "aufs"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Nasedne"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "aufs"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Položte"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "aufs"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Pojďte"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "aufs"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jdeme"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "aufs"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "konkrétní"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "aufs Dach"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "auf"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "povrch"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "auf den Tisch"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "an"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "svislém"
+                ]
+              },
+              "example": {
+                "green": [
+                  "an die Wand"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "ins"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Dovnitř"
+                ]
+              },
+              "example": {
+                "green": [
+                  "ins Zimmer"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "zum"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Komu",
+                  "Komu"
+                ]
+              },
+              "example": {
+                "red": [
+                  "zum Arzt"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "blue": [
+                "aufs"
+              ],
+              "purple": [
+                "Pamatujte"
+              ]
+            },
+            {
+              "purple": [
+                "auf das"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "blue": [
+                "aufs"
+              ],
+              "purple": [
+                "auf das"
+              ],
+              "green": [
+                "Aufs"
+              ]
+            },
+            {
+              "purple": [
+                "Odpovědět"
+              ],
+              "green": [
+                "Odpovědět"
+              ]
+            },
+            {
+              "yellow": [
+                "auf den"
+              ],
+              "red": [
+                "aufs"
+              ]
+            },
+            {
+              "green": [
+                "Nezaměňujte"
+              ],
+              "red": [
+                "ins"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-baden",
+      "index": 68,
+      "de": "baden",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Plavat",
+      "repairedFields": [
+        {
+          "block": 6,
+          "n": 260,
+          "field": "study.translation",
+          "pirmd": "Plavat",
+          "pec": "Koupat se"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-baden",
+        "index": 68,
+        "de": "baden",
+        "layout": "standardStudy",
+        "csMain": "Plavat",
+        "studyTranslation": "Koupat se",
+        "lvSourceMain": "peldēties",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "peldēties",
+            "csText": "Koupat se",
+            "de": "baden"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es eju peldēties.",
+            "csText": "Chodím plavat",
+            "de": "baden"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "mēs ejam peldēties ezerā.",
+            "csText": "Jdeme se koupat do jezera.",
+            "de": "baden"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "viņš ļoti labi peld.",
+            "csText": "Velmi dobře plave.",
+            "de": "baden"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "Es peldu katru pirmdienu.",
+            "csText": "Každé pondělí chodím plavat.",
+            "de": "baden"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "baden",
+            "csText": "baden",
+            "de": "baden"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "peldēties / atrasties ūdenī / mazgāties",
+            "csText": "Plavat / být ve vodě / umýt se",
+            "de": "baden"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "schwimmen",
+            "csText": "schwimmen",
+            "de": "baden"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "peldēt kā kustība vai sports",
+            "csText": "Plavat jako pohyb nebo sport",
+            "de": "baden"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "duschen",
+            "csText": "duschen",
+            "de": "baden"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "mazgāties dušā",
+            "csText": "Osprchovat se",
+            "de": "baden"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "schwimmen gehen",
+            "csText": "schwimmen gehen",
+            "de": "baden"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "iet peldēt",
+            "csText": "Jít plavat",
+            "de": "baden"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: atpūta ūdenī → baden; peldēšanas kustība → schwimmen.",
+            "csText": "Pamatujte: odpočinek ve vodě → baden • Plavecký pohyb → schwimmen.",
+            "de": "baden"
+          }
+        ],
+        "study": {
+          "id": "a1-baden",
+          "layout": "standardStudy",
+          "translation": "Koupat se",
+          "explanation": [
+            "Hlavní myšlenka: baden znamená koupat se, být ve vodě nebo si užívat vodu.",
+            "Baden se používá při rekreaci ve vodě, jezeře, moři nebo bazénu.",
+            "Baden může také znamenat vykoupat se.",
+            "Pokud je kladen důraz na samotný pohyb nebo sport plavání, v němčině se častěji používá schwimmen."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe baden.",
+              "lv": "Chodím plavat"
+            },
+            {
+              "de": "Wir gehen im See baden.",
+              "lv": "Jdeme se koupat do jezera."
+            },
+            {
+              "de": "Er schwimmt sehr gut.",
+              "lv": "Velmi dobře plave."
+            },
+            {
+              "de": "Ich schwimme jeden Montag.",
+              "lv": "Každé pondělí chodím plavat."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "baden",
+              "meaning": "Plavat / být ve vodě / umýt se",
+              "example": "Ich gehe baden."
+            },
+            {
+              "word": "schwimmen",
+              "meaning": "Plavat jako pohyb nebo sport",
+              "example": "Er schwimmt sehr gut."
+            },
+            {
+              "word": "duschen",
+              "meaning": "Osprchovat se",
+              "example": "Ich dusche am Morgen."
+            },
+            {
+              "word": "schwimmen gehen",
+              "meaning": "Jít plavat",
+              "example": "Ich gehe heute schwimmen."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: odpočinek ve vodě → baden • Plavecký pohyb → schwimmen."
+          },
+          "important": [
+            "Baden a schwimmen nejsou synonyma.",
+            "čeština často říká jednoduše „plavat“, ale v němčině si musíte vybrat podle situace."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "baden"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "red": [
+                "schwimmen",
+                "Hlavní",
+                "sport"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "baden"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Chodím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "baden"
+                  ],
+                  "green": [
+                    "See"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jdeme"
+                  ],
+                  "green": [
+                    "jezera"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "schwimmt"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Velmi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "schwimme"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Každé"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "baden"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Plavat",
+                    "Plavat",
+                    "Plavat"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "baden"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "schwimmen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Plavat",
+                    "Plavat",
+                    "sport"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "schwimmt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "duschen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Osprchovat"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "dusche"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "schwimmen gehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Jít"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "schwimmen"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "baden"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ],
+                "red": [
+                  "schwimmen",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "baden"
+                ],
+                "red": [
+                  "schwimmen"
+                ]
+              },
+              {
+                "purple": [
+                  "čeština"
+                ],
+                "blue": [
+                  "čeština"
+                ],
+                "red": [
+                  "čeština"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-baden",
+          "layout": "standardStudy",
+          "translation": "peldēties",
+          "explanation": [
+            "Galvenā doma: baden nozīmē peldēties, atrasties ūdenī vai baudīt ūdeni.",
+            "baden lieto, ja runa ir par atpūtu ūdenī, ezerā, jūrā vai baseinā.",
+            "baden var nozīmēt arī mazgāties vannā.",
+            "Ja uzsvars ir uz pašu peldēšanas kustību vai sportu, vācu valodā biežāk lieto schwimmen."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe baden.",
+              "lv": "es eju peldēties."
+            },
+            {
+              "de": "Wir gehen im See baden.",
+              "lv": "mēs ejam peldēties ezerā."
+            },
+            {
+              "de": "Er schwimmt sehr gut.",
+              "lv": "viņš ļoti labi peld."
+            },
+            {
+              "de": "Ich schwimme jeden Montag.",
+              "lv": "Es peldu katru pirmdienu."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "baden",
+              "meaning": "peldēties / atrasties ūdenī / mazgāties",
+              "example": "Ich gehe baden."
+            },
+            {
+              "word": "schwimmen",
+              "meaning": "peldēt kā kustība vai sports",
+              "example": "Er schwimmt sehr gut."
+            },
+            {
+              "word": "duschen",
+              "meaning": "mazgāties dušā",
+              "example": "Ich dusche am Morgen."
+            },
+            {
+              "word": "schwimmen gehen",
+              "meaning": "iet peldēt",
+              "example": "Ich gehe heute schwimmen."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: atpūta ūdenī → baden; peldēšanas kustība → schwimmen."
+          },
+          "important": [
+            "baden un schwimmen nav pilnīgi sinonīmi.",
+            "baden biežāk uzsver atrašanos vai atpūtu ūdenī, bet schwimmen — peldēšanas kustību."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "baden"
+              ],
+              "purple": [
+                "peldēties",
+                "atrasties ūdenī",
+                "baudīt ūdeni",
+                "mazgāties vannā"
+              ],
+              "green": [
+                "ezerā",
+                "jūrā",
+                "baseinā"
+              ],
+              "red": [
+                "schwimmen",
+                "peldēšanas kustību",
+                "sportu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "baden"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "peldēties"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "baden"
+                  ],
+                  "green": [
+                    "See"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "peldēties"
+                  ],
+                  "green": [
+                    "ezerā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "schwimmt"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "peld"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "schwimme"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "peldu"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "baden"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "peldēties",
+                    "atrasties ūdenī",
+                    "mazgāties"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "baden"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "schwimmen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "peldēt",
+                    "kustība",
+                    "sports"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "schwimmt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "duschen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "mazgāties dušā"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "dusche"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "schwimmen gehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "iet peldēt"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "schwimmen"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "baden"
+                ],
+                "purple": [
+                  "atpūta ūdenī"
+                ],
+                "red": [
+                  "schwimmen",
+                  "peldēšanas kustība"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "baden"
+                ],
+                "red": [
+                  "schwimmen"
+                ]
+              },
+              {
+                "purple": [
+                  "peldēt"
+                ],
+                "blue": [
+                  "vācu valodā"
+                ],
+                "red": [
+                  "situācijas"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-baden",
+        "layout": "standardStudy",
+        "translation": "Koupat se",
+        "explanation": [
+          "Hlavní myšlenka: baden znamená koupat se, být ve vodě nebo si užívat vodu.",
+          "Baden se používá při rekreaci ve vodě, jezeře, moři nebo bazénu.",
+          "Baden může také znamenat vykoupat se.",
+          "Pokud je kladen důraz na samotný pohyb nebo sport plavání, v němčině se častěji používá schwimmen."
+        ],
+        "examples": [
+          {
+            "de": "Ich gehe baden.",
+            "lv": "Chodím plavat"
+          },
+          {
+            "de": "Wir gehen im See baden.",
+            "lv": "Jdeme se koupat do jezera."
+          },
+          {
+            "de": "Er schwimmt sehr gut.",
+            "lv": "Velmi dobře plave."
+          },
+          {
+            "de": "Ich schwimme jeden Montag.",
+            "lv": "Každé pondělí chodím plavat."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "baden",
+            "meaning": "Plavat / být ve vodě / umýt se",
+            "example": "Ich gehe baden."
+          },
+          {
+            "word": "schwimmen",
+            "meaning": "Plavat jako pohyb nebo sport",
+            "example": "Er schwimmt sehr gut."
+          },
+          {
+            "word": "duschen",
+            "meaning": "Osprchovat se",
+            "example": "Ich dusche am Morgen."
+          },
+          {
+            "word": "schwimmen gehen",
+            "meaning": "Jít plavat",
+            "example": "Ich gehe heute schwimmen."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: odpočinek ve vodě → baden • Plavecký pohyb → schwimmen."
+        },
+        "important": [
+          "Baden a schwimmen nejsou synonyma.",
+          "čeština často říká jednoduše „plavat“, ale v němčině si musíte vybrat podle situace."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "baden"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "red": [
+              "schwimmen",
+              "Hlavní",
+              "sport"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "baden"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Chodím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "baden"
+                ],
+                "green": [
+                  "See"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jdeme"
+                ],
+                "green": [
+                  "jezera"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "schwimmt"
+                ]
+              },
+              "lv": {
+                "red": [
+                  "Velmi"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "schwimme"
+                ]
+              },
+              "lv": {
+                "red": [
+                  "Každé"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "baden"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Plavat",
+                  "Plavat",
+                  "Plavat"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "baden"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "schwimmen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Plavat",
+                  "Plavat",
+                  "sport"
+                ]
+              },
+              "example": {
+                "red": [
+                  "schwimmt"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "duschen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Osprchovat"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "dusche"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "schwimmen gehen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Jít"
+                ]
+              },
+              "example": {
+                "green": [
+                  "schwimmen"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "baden"
+              ],
+              "purple": [
+                "Pamatujte"
+              ],
+              "red": [
+                "schwimmen",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "baden"
+              ],
+              "red": [
+                "schwimmen"
+              ]
+            },
+            {
+              "purple": [
+                "čeština"
+              ],
+              "blue": [
+                "čeština"
+              ],
+              "red": [
+                "čeština"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-auf",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.98,
+      "reason": "The repaired explanation correctly distinguishes an for vertical surfaces and in for movement inward; no linguistic regression found.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-aus",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "The repaired translation Z • Ven is correct. The remaining capitalization issue in an example predates the HIGH repair.",
+      "findings": [
+        {
+          "field": "study.examples[0].lv",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "Jsem z německa.",
+          "reason": "The country name should be capitalized, but this issue is unrelated to the repaired translation.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-aufs",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "LOW",
+      "confidence": 0.98,
+      "reason": "The repaired direction question and examples are correct. Residual kde? wording remains in untouched fields and is pre-existing.",
+      "findings": [
+        {
+          "field": "study.explanation[1]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "Plná forma: auf das (kde?).",
+          "reason": "This describes a directional auf das construction but uses the locative question kde?; it was not changed by HIGH repair.",
+          "confidence": 0.98
+        },
+        {
+          "field": "study.tip[0]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "Pamatujte: auf + das → aufs (kde?, kde?).",
+          "reason": "The tip retains an incorrect locative question for the directional meaning; the repaired fields do not cause this residual issue.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "cardId": "a1-baden",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "LOW",
+      "confidence": 0.97,
+      "reason": "The repaired translation Koupat se is correct. A slightly imprecise existing example translation was not introduced by this repair.",
+      "findings": [
+        {
+          "field": "study.examples[0].lv",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "Chodím plavat",
+          "reason": "This is understandable but less precise for Ich gehe baden; the wording predates the repaired translation field.",
+          "confidence": 0.97
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T14:48:01.914Z"
+}

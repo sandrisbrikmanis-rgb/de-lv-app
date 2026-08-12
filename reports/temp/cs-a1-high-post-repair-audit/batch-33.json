@@ -1,0 +1,154 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-Vorname-637",
+      "index": 637,
+      "de": "Vorname",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Křestní jméno",
+      "repairedFields": [
+        {
+          "block": 5,
+          "n": 238,
+          "field": "csText",
+          "pirmd": "Slovo",
+          "pec": "Křestní jméno"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Vorname-637",
+        "index": 637,
+        "de": "Vorname",
+        "de_article": "der",
+        "de_plural": "die Vornamen",
+        "lvSource": "vārds",
+        "csText": "Křestní jméno",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-wann-640",
+      "index": 640,
+      "de": "wann",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Kdy",
+      "repairedFields": [
+        {
+          "block": 5,
+          "n": 239,
+          "field": "csText",
+          "pirmd": "Když",
+          "pec": "Kdy"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-wann-640",
+        "index": 640,
+        "de": "wann",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "kad",
+        "csText": "Kdy",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-waschen-645",
+      "index": 645,
+      "de": "waschen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Mýt",
+      "repairedFields": [
+        {
+          "block": 5,
+          "n": 240,
+          "field": "csText",
+          "pirmd": "Umýt se",
+          "pec": "Mýt"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-waschen-645",
+        "index": 645,
+        "de": "waschen",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "mazgāt",
+        "csText": "Mýt",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-Weg-647",
+      "index": 647,
+      "de": "Weg",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Cesta",
+      "repairedFields": [
+        {
+          "block": 5,
+          "n": 241,
+          "field": "csText",
+          "pirmd": "Silnice",
+          "pec": "Cesta"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Weg-647",
+        "index": 647,
+        "de": "Weg",
+        "de_article": "der",
+        "de_plural": "die Wege",
+        "lvSource": "ceļš",
+        "csText": "Cesta",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-Vorname-637",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "Repair correctly changes the meaning from the incorrect generic Czech word to the accurate translation „křestní jméno“.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-wann-640",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "„Kdy“ is the correct Czech interrogative translation of German „wann“; „když“ would mean „wenn/als“.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-waschen-645",
+      "auditType": "high_post_repair_micro_regression",
+      "severity": "none",
+      "confidence": 0.98,
+      "reason": "„Mýt“ is a correct Czech infinitive for German „waschen“; the repair removes the unnecessarily reflexive and aspectually narrower form.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-Weg-647",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "„Cesta“ is a valid Czech translation of German „Weg“; the former „silnice“ was too narrowly restricted to a road.",
+      "findings": []
+    }
+  ],
+  "completedAt": "2026-08-12T14:47:24.569Z"
+}

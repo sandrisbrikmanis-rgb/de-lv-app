@@ -1,0 +1,88 @@
+{
+  "batch": "batch-035",
+  "cardIds": [
+    "a1-urlaub",
+    "a1-uhr"
+  ],
+  "findingCount": 3,
+  "findings": [
+    {
+      "findingId": "HIGH-369",
+      "cardId": "a1-urlaub",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "auditProblem": "The current wording is an incoherent mistranslation and „všichni“ does not mean singular.",
+      "auditCurrentCs": "Odejít z práce (pouze všichni)",
+      "auditProposedCs": "Dovolená z práce (pouze jednotné číslo)",
+      "auditDe": "der Urlaub",
+      "auditLvSource": "atvaļinājums no darba (tikai vsk.)",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Odejít z práce (pouze všichni)",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-370",
+      "cardId": "a1-urlaub",
+      "field": "study.important[2]",
+      "source": "luna",
+      "auditProblem": "Urlaube is a valid German plural, so presenting it as categorically incorrect teaches false grammar.",
+      "auditCurrentCs": "Nesprávně: die Urlaube → Správně: der Urlaub",
+      "auditProposedCs": "Urlaub se v běžném významu dovolené používá obvykle v jednotném čísle; množné číslo Urlaube je možné v jiném kontextu.",
+      "auditDe": "Urlaub",
+      "auditLvSource": "Nepareizi: die Urlaube → Pareizi: der Urlaub",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Nesprávně: die Urlaube → Správně: der Urlaub",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-371",
+      "cardId": "a1-uhr",
+      "field": "study.examples[5].lv",
+      "source": "luna",
+      "auditProblem": "Czech translation incorrectly contains the German phrase „Die Zeit“, which is not a Czech equivalent of „die Uhr“.",
+      "auditCurrentCs": "Zařízení/čas na hodinách • Die Zeit",
+      "auditProposedCs": "Hodiny/hodinky • čas na hodinách",
+      "auditDe": "die Uhr",
+      "auditLvSource": "ierīce/laiks pulkstenī; die Zeit",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Zařízení/čas na hodinách • Die Zeit",
+      "productionMatchesAudit": true
+    }
+  ],
+  "validations": [
+    {
+      "findingId": "HIGH-369",
+      "cardId": "a1-urlaub",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Czech text is mistranslated and incorrectly uses „všichni“ instead of expressing singular usage.",
+      "currentCs": "Odejít z práce (pouze všichni)",
+      "proposedCs": "Dovolená z práce (pouze jednotné číslo)"
+    },
+    {
+      "findingId": "HIGH-370",
+      "cardId": "a1-urlaub",
+      "field": "study.important[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "The text falsely presents Urlaube as categorically incorrect; the plural is valid in suitable contexts.",
+      "currentCs": "Nesprávně: die Urlaube → Správně: der Urlaub",
+      "proposedCs": "Urlaub se v běžném významu dovolené používá obvykle v jednotném čísle; množné číslo Urlaube je možné v jiném kontextu."
+    },
+    {
+      "findingId": "HIGH-371",
+      "cardId": "a1-uhr",
+      "field": "study.examples[5].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 1,
+      "reason": "The Czech field contains the German phrase „Die Zeit“, a foreign-language remnant rather than a Czech translation.",
+      "currentCs": "Zařízení/čas na hodinách • Die Zeit",
+      "proposedCs": "Hodiny/hodinky • čas na hodinách"
+    }
+  ],
+  "completedAt": "2026-08-11T17:45:16.525Z"
+}

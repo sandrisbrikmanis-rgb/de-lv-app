@@ -1,0 +1,155 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-Tasche-589",
+      "index": 589,
+      "de": "Tasche",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Taška",
+      "repairedFields": [
+        {
+          "block": 5,
+          "n": 234,
+          "field": "csText",
+          "pirmd": "Tašku",
+          "pec": "Taška"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Tasche-589",
+        "index": 589,
+        "de": "Tasche",
+        "de_article": "die",
+        "de_plural": "die Taschen",
+        "lvSource": "soma",
+        "csText": "Taška",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-Tasse-590",
+      "index": 590,
+      "de": "Tasse",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Šálek",
+      "repairedFields": [
+        {
+          "block": 5,
+          "n": 235,
+          "field": "csText",
+          "pirmd": "Pohár",
+          "pec": "Šálek"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Tasse-590",
+        "index": 590,
+        "de": "Tasse",
+        "de_article": "die",
+        "de_plural": "die Tassen",
+        "lvSource": "tase",
+        "csText": "Šálek",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-telefonieren-594",
+      "index": 594,
+      "de": "telefonieren",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Telefonovat",
+      "repairedFields": [
+        {
+          "block": 5,
+          "n": 236,
+          "field": "csText",
+          "pirmd": "Zavolat na telefon",
+          "pec": "Telefonovat"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-telefonieren-594",
+        "index": 594,
+        "de": "telefonieren",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "zvanīt pa tālruni",
+        "csText": "Telefonovat",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-Tisch-599",
+      "index": 599,
+      "de": "Tisch",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Stůl",
+      "repairedFields": [
+        {
+          "block": 5,
+          "n": 237,
+          "field": "csText",
+          "pirmd": "Tabulka",
+          "pec": "Stůl"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Tisch-599",
+        "index": 599,
+        "de": "Tisch",
+        "de_article": "der",
+        "de_plural": "die Tische",
+        "lvSource": "galds",
+        "csText": "Stůl",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-Tasche-589",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "HIGH repair correctly changed the Czech meaning from accusative form to nominative noun Taška; no regression found.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-Tasse-590",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.98,
+      "reason": "Šálek is a linguistically valid Czech translation of Tasse; the HIGH repair introduced no meaning or grammar regression.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-telefonieren-594",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "Telefonovat correctly expresses the German verb telefonieren and is grammatically appropriate; no HIGH repair regression found.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-Tisch-599",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "Stůl is the correct Czech noun for Tisch; the HIGH repair removed the unrelated meaning and introduced no regression.",
+      "findings": []
+    }
+  ],
+  "completedAt": "2026-08-12T14:47:19.638Z"
+}

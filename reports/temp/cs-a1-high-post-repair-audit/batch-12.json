@@ -1,0 +1,195 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-richtig-497",
+      "index": 497,
+      "de": "richtig",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Správný",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 45,
+          "field": "csText",
+          "pirmd": "Opravit",
+          "pec": "Správný"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-richtig-497",
+        "index": 497,
+        "de": "richtig",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "pareizs",
+        "csText": "Správný",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-rund-501",
+      "index": 501,
+      "de": "rund",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Kulatý",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 46,
+          "field": "csText",
+          "pirmd": "Kolo",
+          "pec": "Kulatý"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-rund-501",
+        "index": 501,
+        "de": "rund",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "apaļš",
+        "csText": "Kulatý",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-schmecken-515",
+      "index": 515,
+      "de": "schmecken",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Chutnat",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 47,
+          "field": "csText",
+          "pirmd": "Ochutnat",
+          "pec": "Chutnat"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-schmecken-515",
+        "index": 515,
+        "de": "schmecken",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "garšot",
+        "csText": "Chutnat",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-Schnee-517",
+      "index": 517,
+      "de": "Schnee",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Sníh",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 48,
+          "field": "csText",
+          "pirmd": "Bude sněžit",
+          "pec": "Sníh"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Schnee-517",
+        "index": 517,
+        "de": "Schnee",
+        "de_article": "der",
+        "de_plural": null,
+        "lvSource": "sniegs",
+        "csText": "Sníh",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-richtig-497",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": "HIGH",
+      "reason": "HIGH repair changed the Czech gloss from an incorrect imperative-like form to the correct adjective meaning of richtig.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Správný",
+          "reason": "Správný correctly means the adjective richtig; no grammatical or semantic regression is present.",
+          "confidence": "HIGH",
+          "relatedRepairBlock": 1
+        }
+      ]
+    },
+    {
+      "cardId": "a1-rund-501",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": "HIGH",
+      "reason": "HIGH repair corrected the Czech gloss from a noun meaning circle to the adjective meaning of rund.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Kulatý",
+          "reason": "Kulatý correctly translates rund as an adjective; the repaired form is grammatically and semantically appropriate.",
+          "confidence": "HIGH",
+          "relatedRepairBlock": 1
+        }
+      ]
+    },
+    {
+      "cardId": "a1-schmecken-515",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": "HIGH",
+      "reason": "HIGH repair replaced ochutnat, meaning to taste or sample, with the correct Czech meaning chutnat.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Chutnat",
+          "reason": "Chutnat correctly expresses schmecken; no semantic or grammatical regression is present.",
+          "confidence": "HIGH",
+          "relatedRepairBlock": 1
+        }
+      ]
+    },
+    {
+      "cardId": "a1-Schnee-517",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": "HIGH",
+      "reason": "HIGH repair corrected the field from a future-weather phrase to the noun meaning of Schnee.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Sníh",
+          "reason": "Sníh correctly translates the masculine German noun Schnee; the repaired noun form is grammatically and semantically correct.",
+          "confidence": "HIGH",
+          "relatedRepairBlock": 1
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T14:41:17.449Z"
+}

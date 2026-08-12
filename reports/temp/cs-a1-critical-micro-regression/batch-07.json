@@ -1,0 +1,51 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-Baum-74",
+      "index": 74,
+      "de": "Baum",
+      "auditType": "false_positive_control",
+      "repairedFields": [],
+      "falsePositiveControl": {
+        "cardId": "a1-Baum-74",
+        "field": "lv",
+        "expected": "Strom",
+        "classification": "FALSE_POSITIVE"
+      },
+      "fullCard": {
+        "cardId": "a1-Baum-74",
+        "index": 74,
+        "de": "Baum",
+        "de_article": "der",
+        "de_plural": "die Bäume",
+        "lvSource": "koks",
+        "csText": "Strom",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null,
+      "csMain": "Strom"
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-Baum-74",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "Documented control remains valid: Czech “Strom” correctly translates German “Baum”; no repair introduced contradictions or critical issues.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "LOW",
+          "currentCs": "Strom",
+          "reason": "“Strom” is correct Czech for German “Baum”; the apparent foreign remnant is intentional and documented.",
+          "confidence": 0.99
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-11T16:41:28.284Z"
+}
