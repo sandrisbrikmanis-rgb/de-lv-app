@@ -1,0 +1,34 @@
+{
+  "dataset": "a2",
+  "batch": "simple-1401-1409",
+  "auditType": "vocab_simple",
+  "cardCount": 9,
+  "cardIds": [
+    "a2-zuhören-1610",
+    "a2-Zukunft-1611",
+    "a2-zuletzt-1612",
+    "a2-zunächst-1613",
+    "a2-Zunge-1615",
+    "a2-zurückgeben-1616",
+    "a2-zurückkommen-1617",
+    "a2-Zuschauer-1619",
+    "a2-zweitens-1620"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-zunächst-1613",
+      "field": "csText",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "zunächst",
+      "lvSource": "vispirms",
+      "currentCs": "Především",
+      "proposedCs": "Nejprve",
+      "reason": "„Především“ znamená hlavně nebo zejména, zatímco „zunächst“ znamená nejprve či zpočátku.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 8,
+  "completedAt": "2026-08-10T18:56:41.262Z"
+}
