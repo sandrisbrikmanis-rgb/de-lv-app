@@ -9962,7 +9962,7 @@ const A1_WORDS = [
         {
           "word": "im",
           "meaning": "Uvnitř, kde? (3. pád)",
-          "example": "im Kino – Kino"
+          "example": "im Kino – V kině"
         },
         {
           "word": "in",
@@ -9972,7 +9972,7 @@ const A1_WORDS = [
         {
           "word": "aufs",
           "meaning": "Na povrch (Akk.)",
-          "example": "aufs Dach – Na střeše"
+          "example": "aufs Dach – Na střechu"
         },
         {
           "word": "zum",
@@ -9981,13 +9981,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Pamatujte: in + das → ins (kde?, kde?).",
+        "Pamatujte: in + das → ins (kam?, při pohybu dovnitř).",
         "Kde? → ins • Kde? → im - to je hlavní rozdíl!"
       ],
       "important": [
-        "Ins = in das, pouze s podstatným jménem libovolného rodu kde? ve skloňování.",
+        "Ins = in das; používá se se středním rodem v akuzativu a odpovídá na otázku kam?",
         "Odpovědi kam?, ne kde? — pohyb, nikoli umístění.",
-        "Pro mužský rod: in den Wald • Žen: v die Schule.",
+        "Pro mužský rod: in den Wald • Pro ženský rod: in die Schule.",
         "Nepleťte si: ins Kino gehen (do kina) vs. im Kino sein (být v kině)."
       ],
       "sectionAccents": {
@@ -10298,7 +10298,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-jung",
       "layout": "standardStudy",
-      "translation": "Mladý (o lidech)",
+      "translation": "Mladý",
       "explanation": [
         "Hlavní myšlenka: jung znamená mladý věk – používá se pro lidi a zvířata, ne pro věci.",
         "Jung popisuje věk – opak je alt (starý).",
@@ -10514,10 +10514,10 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Nikdo • Nic",
       "explanation": [
-        "Hlavní myšlenka: kein je negační člen, který neguje podstatné jméno - češtině, v závislosti na kontextu nikdo nebo nic.",
+        "Hlavní myšlenka: kein je záporný člen, který stojí před podstatným jménem a v češtině se podle kontextu překládá například jako „žádný“, „žádná“ nebo „žádné“.",
         "Kein se skloňuje jako ein (kein/keine/keinen...) a stojí před podstatným jménem.",
         "U počitatelných podstatných jmen (lidé) se kein často překládá jako nikdo (kein Mensch = žádný člověk).",
-        "U nezávazných nebo abstraktních podstatných jmen se kein často překládá jako nic/vůbec (kein Geld = žádné peníze/žádné peníze).",
+        "U nepočitatelných nebo abstraktních podstatných jmen se kein často překládá pomocí „žádný“ nebo odpovídajícího záporného vyjádření (kein Geld = žádné peníze).",
         "Kein neguje celé podstatné jméno, nejen sloveso (srovnej nicht)."
       ],
       "examples": [
@@ -10718,22 +10718,22 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "kennen",
-          "meaning": "Vědět (osoba, místo, věc)",
+          "meaning": "Znát (osobu, místo, věc)",
           "example": "Ich kenne ihn. – Znám ho."
         },
         {
           "word": "wissen",
-          "meaning": "Vědět (fakt, informace)",
+          "meaning": "Vědět (fakt, informaci)",
           "example": "Ich weiß seinen Namen. – Znám jeho jméno."
         }
       ],
       "tip": [
-        "Kennen = vědět",
+        "Kennen = znát",
         "Použijte kennen, pokud kontext odpovídá tomuto významu."
       ],
       "important": [
         "Kennen = poznat osobu/místo.",
-        "Kennen = vědět.",
+        "Kennen = znát.",
         "Znát osobu, místo nebo věc ze zkušenosti."
       ],
       "sectionAccents": {
@@ -10857,7 +10857,7 @@ const A1_WORDS = [
         },
         {
           "word": "kennen",
-          "meaning": "Vědět (osoba, místo, věc)",
+          "meaning": "Znát (osobu, místo, věc)",
           "example": "Ich kenne die Stadt. – Znám to město."
         }
       ],
@@ -10866,7 +10866,7 @@ const A1_WORDS = [
         "Použijte wissen, když kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Wissen = znát skutečnost.",
+        "Wissen = vědět skutečnost.",
         "Wissen = vědět.",
         "Znát fakt, odpověď nebo informaci."
       ],
@@ -10986,7 +10986,7 @@ const A1_WORDS = [
         },
         {
           "de": "Kannst du mir helfen?",
-          "lv": "Můžete mi pomoci?"
+          "lv": "Můžeš mi pomoct?"
         },
         {
           "de": "Wir können heute kommen.",
@@ -11023,7 +11023,7 @@ const A1_WORDS = [
         "text": "Pamatujte: dovednost/schopnost → können."
       },
       "important": [
-        "Können není totéž co dürfen. können = moci/vědět, dürfen = mít dovoleno.",
+        "Können není totéž co dürfen. können = moci/umět, dürfen = mít dovoleno.",
         "Ve větě s können je druhé sloveso často na konci: Ich kann schwimmen."
       ],
       "sectionAccents": {
@@ -11214,7 +11214,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Platit",
       "explanation": [
-        "Hlavní myšlenka: kosten znamená platit tak a tak - mluví o ceně věci.",
+        "Hlavní myšlenka: kosten znamená stát určitou částku — mluví o ceně věci.",
         "Toto slovo se používá, když se ptáte nebo říkáte, kolik něco stojí, ne když člověk platí.",
         "Otázka na cenu v němčině často začíná na Was kostet...?",
         "České slovo platit je v tomto kontextu správné: Das kostet 5 Euro. = Stojí 5 eur.",
@@ -11282,7 +11282,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Kosten a bezahlen nejsou synonyma: kosten = kolik to stojí • Bezahlen = platit peníze.",
-        "V češtině se v obou případech často používá plat, ale v němčině je třeba vybrat podle situace."
+        "V češtině se v těchto souvislostech používají slovesa „stát“ nebo „platit“, ale v němčině je třeba vybrat podle situace."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11728,7 +11728,7 @@ const A1_WORDS = [
       "translation": "Nakupovat",
       "explanation": [
         "Hlavní myšlenka: der Laden se píše velkými písmeny a článek der je podstatné jméno – malý obchod.",
-        "Laden je malé sloveso - naložit nebo nabít.",
+        "laden je sloveso — znamená naložit nebo nabít.",
         "Der Laden často označuje malý obchod v každodenním životě (im Laden einkaufen = nakupovat v obchodě).",
         "Množné číslo: die Läden."
       ],
@@ -11869,7 +11869,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-land",
       "layout": "standardStudy",
-      "translation": "Země • Země",
+      "translation": "Země • Venkov",
       "explanation": [
         "Hlavní myšlenka: das Land nejčastěji znamená zemi nebo pozemek za městem.",
         "Pokud jde o Německo, Lotyšsko nebo jiné území s hranicemi, překládá se to jako země.",
@@ -11897,7 +11897,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "das Land",
-          "meaning": "Země / země / venkov",
+          "meaning": "Země / venkov",
           "example": "Deutschland ist ein Land."
         },
         {
@@ -12007,7 +12007,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "Země",
-                "zeme",
+                "venkov",
                 "Země"
               ]
             },
@@ -12059,7 +12059,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "zeme",
+                "Země",
                 "planēta"
               ]
             },
@@ -12291,7 +12291,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-lassen",
       "layout": "standardStudy",
-      "translation": "Opustit • Nechat",
+      "translation": "Nechat • Dovolit",
       "explanation": [
         "Hlavní myšlenka: lassen znamená něco opustit nebo nechat něco, aby se stalo.",
         "Pokud něco zůstane na místě, lassen se překládá jako odejít.",
@@ -12319,7 +12319,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "lassen",
-          "meaning": "Nechat / nechat",
+          "meaning": "Nechat / dovolit",
           "example": "Ich lasse das hier."
         },
         {
@@ -12527,7 +12527,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Běžet • Provozovat",
       "explanation": [
-        "Hlavní myšlenka: laufen znamená běhat, ale u zařízení to může znamenat běhat.",
+        "Hlavní myšlenka: laufen znamená běhat nebo běžet, ale u zařízení může znamenat fungovat nebo běžet.",
         "Pro člověka nebo zvíře laufen často znamená běžet nebo chodit rychlým tempem.",
         "Pro film, stroj nebo program laufen znamená, že běží nebo se děje.",
         "Pro pohyb nohou na úrovni A1 se nejčastěji srovnávají gehen a laufen."
