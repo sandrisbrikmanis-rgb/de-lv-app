@@ -10968,7 +10968,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Umět • Moci",
       "explanation": [
-        "Hlavní myšlenka: können znamená umět nebo vědět, jak něco udělat.",
+        "Hlavní myšlenka: können znamená umět nebo moci něco udělat.",
         "Pokud jde o schopnosti nebo dovednosti, v češtině se často používá umět.",
         "Pokud jde o možnost, často se říká, že je to možné.",
         "Können je modální sloveso, takže druhé sloveso je obvykle na konci."
@@ -12514,7 +12514,7 @@ const A1_WORDS = [
   },
   {
     "de": "laufen",
-    "lv": "Běžet • Provozovat",
+    "lv": "Běžet • Fungovat",
     "level": "A1",
     "study": {
       "id": "a1-laufen",
