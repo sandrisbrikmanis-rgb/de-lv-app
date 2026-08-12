@@ -7,7 +7,7 @@
 | MAIN_BEFORE | `e52e9a472fcfbe98c285fb8864a0d5a0c7f0e47c` |
 | integration branch | `cursor/cs-a1-final-main-consolidation-6850` |
 | integration method | HIGH-micro base + mechanical full-review blocks 01–12 apply |
-| MAIN_AFTER | `ef1fbffb62cee22d47987c3295cd539d30d6883d` (`origin/main`) |
+| MAIN_AFTER | `2fe2104adb519bec2e85cdd96c3808ecba3a535d` (`origin/main`) |
 
 ## DISCOVERY
 
