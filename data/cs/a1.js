@@ -15620,7 +15620,7 @@ const A1_WORDS = [
       "translation": "Až • Po",
       "explanation": [
         "Hlavní myšlenka: nach znamená u míst „do“ a u času nebo posloupnosti „po“.",
-        "S městy a zeměmi bez článku nach často znamená.",
+        "U měst a zemí bez členu nach často znamená „do“.",
         "S časem nach znamená po.",
         "Ve frázi nach Hause to znamená domov."
       ],
@@ -16058,7 +16058,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: nehmen znamená vzít nebo vzít.",
         "Nehmen se používá, když si vezmete něco pro sebe nebo si vyberete.",
-        "Není to totéž jako přinesený, protože přinesený znamená někomu přinést nebo vzít.",
+        "Nehmen není totéž co bringen: bringen znamená něco někomu přinést nebo odnést.",
         "Holen znamená jít za a aportovat/vzít."
       ],
       "examples": [
@@ -16072,11 +16072,11 @@ const A1_WORDS = [
         },
         {
           "de": "Ich bringe dir das Buch.",
-          "lv": "Přinesl jsem ti knihu"
+          "lv": "Přináším ti knihu."
         },
         {
           "de": "Ich hole dich ab.",
-          "lv": "Vezmu tě"
+          "lv": "Vyzvednu tě."
         }
       ],
       "comparison": [
@@ -16092,7 +16092,7 @@ const A1_WORDS = [
         },
         {
           "word": "holen",
-          "meaning": "Jít za / aport",
+          "meaning": "Jít pro / přinést",
           "example": "Ich hole Wasser."
         },
         {
@@ -16105,7 +16105,7 @@ const A1_WORDS = [
         "text": "Pamatujte: vezměte si pro sebe → nehmen • Někoho přivést → přivést."
       },
       "important": [
-        "Ich nehme den Bus znamená v češtině „řídím autobus“.",
+        "Ich nehme den Bus znamená v češtině „jedu autobusem“.",
         "Nehmen není totéž jako přinést."
       ],
       "sectionAccents": {
@@ -16845,14 +16845,14 @@ const A1_WORDS = [
   },
   {
     "de": "ob",
-    "lv": "Nebo",
+    "lv": "Zda • Jestli",
     "level": "A1",
     "study": {
       "id": "a1-ob",
       "layout": "standardStudy",
       "translation": "Nebo",
       "explanation": [
-        "Hlavní myšlenka: ob zavádí nepřímou otázku a v češtině nejčastěji znamená popř.",
+        "Hlavní myšlenka: ob uvádí nepřímou otázku a v češtině nejčastěji znamená zda nebo jestli.",
         "Ob se používá po slovech jako fragen, wissen, sehen, sagen, když neexistuje přímá otázka.",
         "Ob se obvykle nepoužívá v přímé otázce v němčině.",
         "Na úrovni A1 je důležité odlišit ob od oder."
@@ -16878,7 +16878,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "ob",
-          "meaning": "Nebo v nepřímé otázce",
+          "meaning": "Zda / jestli v nepřímé otázce",
           "example": "Ich weiß nicht, ob er kommt."
         },
         {
@@ -17088,7 +17088,7 @@ const A1_WORDS = [
       "translation": "Nebo • Nebo",
       "explanation": [
         "Hlavní myšlenka: oder se používá, když volíme mezi dvěma nebo více možnostmi.",
-        "V češtině oder nejčastěji znamená popř.",
+        "V češtině oder nejčastěji znamená „nebo“.",
         "Není to totéž jako ob, které zavádí nepřímou otázku.",
         "V rozhovorech může být oder i na konci věty: Du kommst, oder?"
       ],
@@ -17420,12 +17420,12 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "passen",
-          "meaning": "Fit / fit",
+          "meaning": "Pasovat / slušet",
           "example": "Die Jacke passt mir."
         },
         {
           "word": "stehen",
-          "meaning": "Stát / stát",
+          "meaning": "Slušet / stát",
           "example": "Rot steht dir gut."
         },
         {
@@ -17435,7 +17435,7 @@ const A1_WORDS = [
         },
         {
           "word": "funktionieren",
-          "meaning": "Provozovat",
+          "meaning": "Fungovat",
           "example": "Das funktioniert."
         }
       ],
@@ -17757,7 +17757,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: jídlo → probieren = podle chuti."
+        "text": "Pamatujte: jídlo → probieren = ochutnat."
       },
       "important": [
         "Probieren není hlavní slovo pro formální zkoušku.",
@@ -18210,7 +18210,7 @@ const A1_WORDS = [
         "Použijte sagen, pokud kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Sagen = vyprávět.",
+        "Sagen = říct.",
         "Sdělit konkrétní myšlenku, slovo nebo větu."
       ],
       "sectionAccents": {
@@ -18592,7 +18592,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich gehe baden.",
-          "lv": "Chodím plavat"
+          "lv": "Chodím se koupat."
         }
       ],
       "comparison": [
@@ -18885,7 +18885,7 @@ const A1_WORDS = [
         },
         {
           "word": "ansehen",
-          "meaning": "Pohled / pohled",
+          "meaning": "Prohlédnout si / dívat se na",
           "example": "Ich sehe mir den Film an."
         },
         {
@@ -19139,7 +19139,7 @@ const A1_WORDS = [
         },
         {
           "word": "bleiben",
-          "meaning": "Pobyt",
+          "meaning": "Zůstat",
           "example": "Ich bleibe hier."
         }
       ],
@@ -19335,7 +19335,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-seite",
       "layout": "standardStudy",
-      "translation": "Strana • Strana",
+      "translation": "Stránka • Strana",
       "explanation": [
         "Hlavní myšlenka: die Seite může znamenat stránku knihy/dokumentu nebo stranu/okraj něčeho.",
         "V knize, časopise nebo webové stránce die Seite = stránka (Seite 5 = strana 5).",
@@ -19517,7 +19517,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-sich",
       "layout": "standardStudy",
-      "translation": "Sebe • Pro sebe",
+      "translation": "Se • Sebe",
       "explanation": [
         "Hlavní myšlenka: sich ukazuje, že akce se vztahuje k samotnému konateli.",
         "V češtině se často překládá jako se, sebe nebo sobě podle pádu.",
@@ -19545,17 +19545,17 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "sich",
-          "meaning": "Já / sebe",
+          "meaning": "Se / sebe",
           "example": "Er wäscht sich."
         },
         {
           "word": "mich",
-          "meaning": "Já / já v ich",
+          "meaning": "Mě / sebe (u ich)",
           "example": "Ich wasche mich."
         },
         {
           "word": "dich",
-          "meaning": "Ty / já v du",
+          "meaning": "Tebe / sebe (u du)",
           "example": "Du wäschst dich."
         },
         {
@@ -19939,7 +19939,7 @@ const A1_WORDS = [
         },
         {
           "de": "Sie kochen, bitte.",
-          "lv": "Vaříš prosím"
+          "lv": "Vařte, prosím."
         }
       ],
       "tip": [
@@ -20526,11 +20526,11 @@ const A1_WORDS = [
         },
         {
           "de": "Du sollst kommen.",
-          "lv": "Musíte přijít"
+          "lv": "Máš přijít."
         },
         {
           "de": "Ich soll zu Hause bleiben.",
-          "lv": "Musím zůstat doma"
+          "lv": "Mám zůstat doma."
         },
         {
           "de": "Ich muss jetzt gehen.",
@@ -21528,9 +21528,9 @@ const A1_WORDS = [
       "translation": "Kolem • Hodiny",
       "explanation": [
         "Hlavní myšlenka: um velmi často znamená hodiny s časem nebo kolem/kolem s místem.",
-        "S přesným časem um znamená hodiny.",
+        "S přesným časem um znamená „v“, například „v osm hodin“.",
         "S místem, um znamená kolem nebo kolem.",
-        "Ve frázi um ... zu pomáhá vyjádřit záměr: to."
+        "Ve frázi um ... zu pomáhá vyjádřit účel: aby."
       ],
       "examples": [
         {
@@ -21576,8 +21576,8 @@ const A1_WORDS = [
         "text": "Pamatujte: um acht = osm hodin."
       },
       "important": [
-        "Hm s časem jsou obvykle 'hodiny'.",
-        "Um ... zu často znamená \"do ...\"."
+        "Um s časem obvykle znamená „v“, například „v osm hodin“.",
+        "Um ... zu často znamená „aby ...“."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21822,7 +21822,7 @@ const A1_WORDS = [
         },
         {
           "word": "über",
-          "meaning": "Přes / pro",
+          "meaning": "Nad / o",
           "example": "Die Lampe hängt über dem Tisch."
         },
         {
@@ -22723,7 +22723,7 @@ const A1_WORDS = [
         },
         {
           "de": "Es ist fünf vor acht.",
-          "lv": "Je pět až osm."
+          "lv": "Je za pět minut osm."
         },
         {
           "de": "Nach dem Essen gehen wir spazieren.",
@@ -22989,11 +22989,11 @@ const A1_WORDS = [
     "study": {
       "id": "a1-was",
       "layout": "standardStudy",
-      "translation": "Kdo • Co",
+      "translation": "Co",
       "explanation": [
-        "Hlavní myšlenka: co je tázací slovo o věcech a událostech - v češtině je to co nebo co, v závislosti na části věty.",
-        "Byl dotazován na věci, události a fakta, nikoli na osoby.",
-        "V němčině se was nemění po skloňování - vždy to vypadá jako bylo.",
+        "Hlavní myšlenka: was je tázací slovo pro věci a události. V češtině se překládá jako „co“.",
+        "Ptá se na věci, události a fakta, nikoli na osoby.",
+        "V němčině se was podle pádu nemění. Vždy má stejný tvar.",
         "Pokud je předmětem věty was, překládá se do češtině jako kas (Was ist das? = Co to je?).",
         "Jestliže was je doplněk (předmět) slovesa, překládá se do češtině jako ko (Was machst du? = Co děláš?).",
         "Lidé jsou dotázáni s wer (kdo/kdo), ne byl."
@@ -23021,7 +23021,7 @@ const A1_WORDS = [
         },
         {
           "de": "Was ist dein Lieblingsessen?",
-          "lv": "Jaké je vaše oblíbené jídlo?"
+          "lv": "Jaké je tvoje oblíbené jídlo?"
         },
         {
           "de": "Was hast du gesagt?",
@@ -23234,7 +23234,7 @@ const A1_WORDS = [
       "translation": "Jestliže • Kdy",
       "explanation": [
         "Hlavní myšlenka: wenn znamená jestli nebo kdy v závislosti na situaci.",
-        "Pokud je to podmínka, přeložte jako kdyby.",
+        "Pokud jde o podmínku, přeložte jako „pokud“ nebo „jestliže“.",
         "Pokud se jedná o opakovaný nebo obecný čas, přeložte jako kdy.",
         "Po wenn končí sloveso většinou německou větou."
       ],
@@ -23264,7 +23264,7 @@ const A1_WORDS = [
         },
         {
           "word": "ob",
-          "meaning": "Nebo v nepřímé otázce",
+          "meaning": "Zda / jestli v nepřímé otázce",
           "example": "Ich weiß nicht, ob..."
         },
         {
@@ -23279,7 +23279,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: podmínka → wenn • Otázka \"kdy?\" → chtít."
+        "text": "Pamatujte: podmínka → wenn • Otázka „kdy?“ → wann."
       },
       "important": [
         "Wenn a wann nejsou totéž.",
@@ -23470,14 +23470,14 @@ const A1_WORDS = [
         "Hlavní myšlenka: wer je dotazovací slovo o identitě osoby – v češtině je to kdo nebo kdo.",
         "Ptali se na lidi, ne na věci nebo události.",
         "Věci a události jsou žádány s was, ne wer.",
-        "Wer je v němčině obvykle předmětem věty (nominativu) — Wer ist das? = co je to?",
+        "Wer je v němčině obvykle podmětem věty v nominativu. Wer ist das? = Kdo je to?",
         "Když se ptáte, kdo z několika lidí, wer se často používá s von (wer von euch = kdo z vás).",
         "Wer mění tvar podle skloňování: wen (akuzativ), wem (dativ), wessen (genitiv) - právě tvar wer je na úrovni A1 nejčastější."
       ],
       "examples": [
         {
           "de": "Wer ist das?",
-          "lv": "Co je to?"
+          "lv": "Kdo je to?"
         },
         {
           "de": "Wer bist du?",
@@ -23485,11 +23485,11 @@ const A1_WORDS = [
         },
         {
           "de": "Wer kommt heute?",
-          "lv": "Co přijde dnes?"
+          "lv": "Kdo dnes přijde?"
         },
         {
           "de": "Wer ist deine Lehrerin?",
-          "lv": "Kdo je tvůj učitel"
+          "lv": "Kdo je tvoje učitelka?"
         },
         {
           "de": "Wer von euch spricht Deutsch?",
@@ -23670,7 +23670,7 @@ const A1_WORDS = [
         "Hlavní myšlenka: werden na A1 nejčastěji znamená stát se.",
         "Používá se, když se něco změní nebo změní.",
         "V pozdější němčině se werden používá také pro budoucnost a pasivum.",
-        "Na úrovni A1 je nejdůležitější fráze Ich werde müde. = Jsem unavený."
+        "Na úrovni A1 je nejdůležitější fráze Ich werde müde. = Začínám být unavený."
       ],
       "examples": [
         {
@@ -23896,7 +23896,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-wetter",
       "layout": "standardStudy",
-      "translation": "Čas (počasí)",
+      "translation": "Počasí",
       "explanation": [
         "Hlavní myšlenka: das Wetter znamená počasí – slunečno, deštivo, chladno nebo teplo.",
         "České slovo „čas“ může znamenat jak počasí, tak čas na hodinách – v němčině je to jinak.",
@@ -23907,7 +23907,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Wie ist das Wetter heute?",
-          "lv": "Kolik je dnes hodin?"
+          "lv": "Jaké je dnes počasí?"
         },
         {
           "de": "Das Wetter ist schön.",
@@ -23923,7 +23923,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wir sprechen über das Wetter.",
-          "lv": "Mluvíme o čase."
+          "lv": "Mluvíme o počasí."
         },
         {
           "de": "Morgen wird das Wetter besser.",
@@ -23954,7 +23954,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Když mluvíte o slunci, dešti nebo venkovní teplotě - použijte das Wetter.",
-        "Pamatujte: Wie ist das Wetter? = Kolik je hodin? (ne hodiny)."
+        "Pamatujte: Wie ist das Wetter? = Jaké je počasí? Nejde o otázku „Kolik je hodin?“."
       ],
       "important": [
         "Das Wetter = počasí, ne čas na hodinách.",
@@ -24389,7 +24389,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-zu",
       "layout": "standardStudy",
-      "translation": "Do • At",
+      "translation": "K • Do • Příliš • Infinitiv",
       "explanation": [
         "Hlavní myšlenka: zu velmi často znamená to nebo at, ale má také roli s infinitivem.",
         "U lidí a institucí zu často znamená u nebo do.",
