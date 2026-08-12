@@ -56,7 +56,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich spreche Deutsch.",
-          "lv": "Mluví se svou učitelkou."
+          "lv": "Mluvím německy."
         }
       ],
       "comparison": [
@@ -1226,11 +1226,11 @@ const A1_WORDS = [
         },
         {
           "de": "Ich komme auch.",
-          "lv": "Ona zde také pracuje."
+          "lv": "Já také přijdu."
         },
         {
           "de": "Sie arbeitet auch hier.",
-          "lv": "Také vám přeji hezký den."
+          "lv": "Ona zde také pracuje."
         }
       ],
       "tip": [
@@ -3350,7 +3350,7 @@ const A1_WORDS = [
   },
   {
     "de": "blond",
-    "lv": "Blondý",
+    "lv": "Blond",
     "level": "A1"
   },
   {
@@ -9970,7 +9970,7 @@ const A1_WORDS = [
         },
         {
           "word": "zum",
-          "meaning": "K / ke, kam? (3. pád)",
+          "meaning": "K / ke (komu/čemu?, 3. pád)",
           "example": "zum Arzt – K lékaři"
         }
       ],
@@ -10674,7 +10674,7 @@ const A1_WORDS = [
   },
   {
     "de": "kennen",
-    "lv": "Vědět",
+    "lv": "Znát",
     "level": "A1",
     "id": "A1-kennen",
     "study": {
@@ -10961,7 +10961,7 @@ const A1_WORDS = [
   },
   {
     "de": "können",
-    "lv": "Umět • Vědět",
+    "lv": "Umět • Moci",
     "level": "A1",
     "study": {
       "id": "a1-können",
@@ -12364,10 +12364,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Nechal"
+                "Nechávám"
               ],
               "yellow": [
-                "Nechal"
+                "Nechávám"
               ]
             }
           },
@@ -12435,7 +12435,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Pobyt"
+                "Zůstat"
               ]
             },
             "example": {
@@ -12650,8 +12650,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Spustit",
-                "Spustit"
+                "Běžet",
+                "Fungovat"
               ]
             },
             "example": {
@@ -12702,7 +12702,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Provozovat"
+                "Fungovat"
               ]
             },
             "example": {
@@ -19330,7 +19330,7 @@ const A1_WORDS = [
     "de": "Seite",
     "de_article": "die",
     "de_plural": "die Seiten",
-    "lv": "Strana • Strana",
+    "lv": "Stránka • Strana",
     "level": "A1",
     "study": {
       "id": "a1-seite",
@@ -19512,7 +19512,7 @@ const A1_WORDS = [
   },
   {
     "de": "sich",
-    "lv": "Sebe • Pro sebe",
+    "lv": "Se • Sebe",
     "level": "A1",
     "study": {
       "id": "a1-sich",
@@ -20037,7 +20037,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Vaříš"
+                "Vařte, prosím."
               ]
             }
           }
@@ -20604,7 +20604,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Musíte"
+                "Máš"
               ]
             }
           },
@@ -20617,7 +20617,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Musím"
+                "Mám"
               ]
             }
           },
@@ -25654,13 +25654,10 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Jíst",
       "explanation": [
-        "Hlavní myšlenka: Sloveso - jíst jídlo.",
-        "Essen především znamená: konzumovat jídlo.",
-        "Často popisuje: akce.",
-        "Essen v podstatě znamená: jídlo nebo jídlo.",
-        "Často popisuje: déšť.",
-        "Essen znamená jíst.",
-        "Das Essen může znamenat jídlo nebo jídlo obecně."
+        "Hlavní myšlenka: essen znamená jíst nebo konzumovat jídlo.",
+        "Používá se jako sloveso pro konzumaci jídla.",
+        "Das Essen je podstatné jméno a znamená jídlo.",
+        "Essen a das Essen nejsou totéž."
       ],
       "examples": [
         {
