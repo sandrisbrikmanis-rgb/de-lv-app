@@ -7000,7 +7000,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Pro • Pro",
       "explanation": [
-        "Hlavní myšlenka: für je předložka, která vždy řídí akuzativ – obvykle pro nebo pro v češtině.",
+        "Hlavní myšlenka: für je předložka, která vždy řídí akuzativ; v češtině se podle kontextu překládá jako pro nebo za.",
         "Když mluvíme o příjemci nebo záměru, für = pro (für dich = pro vás).",
         "Když mluvíme o výměně, poplatku nebo důvodu, für = pro (danke für das Geschenk = děkuji za dar).",
         "Für vždy vyžaduje akuzativ, bez ohledu na význam."
@@ -7573,12 +7573,12 @@ const A1_WORDS = [
     "study": {
       "id": "a1-gleich",
       "layout": "standardStudy",
-      "translation": "Hned • Rovný",
+      "translation": "Hned • Stejný",
       "explanation": [
-        "Hlavní myšlenka: gleich temporally znamená okamžitě, komparativně znamená rovný.",
+        "Hlavní myšlenka: gleich v časovém významu znamená hned a při srovnání znamená stejný.",
         "Když jde o čas, gleich = hned/za chvíli (Ich komme gleich. = hned přijdu.).",
         "Pokud jde o srovnání, gleich = stejný/stejný (die gleiche Farbe = stejná barva).",
-        "Gleich lze použít i jako předložku s dativem ve významu jako (gleich mir = jako já).",
+        "Správný význam určuje kontext, například zda jde o čas nebo o srovnání.",
         "Kontext (čas nebo přirovnání) ukazuje správný význam."
       ],
       "examples": [
@@ -7773,7 +7773,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Velký",
       "explanation": [
-        "Hlavní myšlenka: Velká velikost nebo pro osobu - vysoká na výšku.",
+        "Hlavní myšlenka: groß označuje velkou velikost, u člověka vysokou postavu.",
         "Groß především znamená: velký rozměr.",
         "Často charakterizováno: celkovou velikostí.",
         "Groß především znamená: lidská výška.",
@@ -8174,7 +8174,7 @@ const A1_WORDS = [
       },
       "important": [
         "České „mám“ = německé Ich habe + akuzativ. Nepoužívejte dativ: špatně *mir habe.",
-        "Se seinem a dativem: Mir ist kalt. = Je mi zima. (není to haben!)",
+        "Se slovesem sein a dativem: Mir ist kalt. = Je mi zima. (Není to haben!)",
         "Dokonalé: Ich habe gelernt = naučil jsem se."
       ],
       "sectionAccents": {
@@ -8692,7 +8692,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wie heißt du?",
-          "lv": "Jak se jmenuješ"
+          "lv": "Jak se jmenuješ?"
         },
         {
           "de": "Wie heißt das auf Deutsch?",
@@ -8700,13 +8700,13 @@ const A1_WORDS = [
         },
         {
           "de": "Was heißt das?",
-          "lv": "Co to znamená"
+          "lv": "Co to znamená?"
         }
       ],
       "comparison": [
         {
           "word": "heißen",
-          "meaning": "Být volán / míněn",
+          "meaning": "Jmenovat se / znamenat",
           "example": "Ich heiße Anna. = Jmenuji se Anna."
         },
         {
@@ -9123,7 +9123,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich höre dich.",
-          "lv": "Slyším tě"
+          "lv": "Slyším tě."
         }
       ],
       "tip": [
@@ -9228,9 +9228,9 @@ const A1_WORDS = [
     "study": {
       "id": "a1-ihr",
       "layout": "standardStudy",
-      "translation": "Vy • Ji",
+      "translation": "Vy • Jí • Její",
       "explanation": [
-        "Hlavní myšlenka: ihr jsou dvě různá zájmena se stejným pravopisem - oslovující několik lidí (vy) a dativ zájmena sie (ona/ona).",
+        "Hlavní myšlenka: ihr má několik použití — jako oslovení více lidí znamená „vy“, jako dativ zájmena sie znamená „jí“ a jako přivlastňovací zájmeno může znamenat „její“.",
         "S malými písmeny se ihr jako adresa pro několik lidí překládá jako vy (Kommt ihr mit? = Jdete spolu?).",
         "Ihr jako přivlastňovací zájmeno znamená ji (ihr Buch = její kniha).",
         "Ihr jako tvar dativu (od sie) znamená k ní (Ich gebe ihr das Buch. = dávám jí knihu.).",
@@ -9252,7 +9252,7 @@ const A1_WORDS = [
         },
         {
           "de": "Er schreibt ihr einen Brief.",
-          "lv": "Napíše jí dopis."
+          "lv": "Píše jí dopis."
         },
         {
           "de": "Habt ihr Zeit?",
@@ -9264,7 +9264,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Ihr se slovesem dsk. forma (kommt, habt) = ty • Ihr vedle slova jako dativ nebo přivlastňovací = její/její.",
+        "Ihr se slovesem ve 2. osobě množného čísla (kommt, habt) = vy • ihr jako dativ zájmena sie = jí • ihr jako přivlastňovací zájmeno = její.",
         "Kontrola: Habt ihr...? / Kommt ihr...? = ty • Ich gebe ihr... / ihr Buch = pro ni/její."
       ],
       "important": [
@@ -9405,14 +9405,14 @@ const A1_WORDS = [
       "explanation": [
         "Im je zkratka pro předložku in a člen dem.",
         "Plná forma: in dem (komu?).",
-        "Používá se s podstatnými jmény mužského rodu a podstatnými jmény libovolného pohlaví při odpovědi na otázku kde? — umístění.",
+        "Používá se s podstatnými jmény mužského a středního rodu při odpovědi na otázku kde? — označuje umístění.",
         "S časem a ročními obdobími: v lednu, v létě, v zimě.",
         "V praxi se téměř vždy používá im místo full in dem."
       ],
       "examples": [
         {
           "de": "Ich bin im Park.",
-          "lv": "Jsem v parku"
+          "lv": "Jsem v parku."
         },
         {
           "de": "Wir wohnen im Zentrum.",
@@ -9432,7 +9432,7 @@ const A1_WORDS = [
         },
         {
           "de": "Im Januar fahre ich nach Wien.",
-          "lv": "V lednu jsem jel do Vídně."
+          "lv": "V lednu jedu do Vídně."
         },
         {
           "de": "Sie ist im Kino.",
@@ -9461,7 +9461,7 @@ const A1_WORDS = [
         },
         {
           "word": "am",
-          "meaning": "Kde, kde? (komu?)",
+          "meaning": "U, kde? (3. pád)",
           "example": "am Fenster – U okna"
         },
         {
@@ -9472,10 +9472,10 @@ const A1_WORDS = [
       ],
       "tip": [
         "Pamatujte: in + dem → im (komu?, kde?).",
-        "Kde? → ins • Kde? → im - nezaměňujte tyto dva!"
+        "Kam? → ins • Kde? → im — nezaměňujte tyto dva!"
       ],
       "important": [
-        "Im = in dem, pouze s podstatným jménem mužského nebo středního rodu pro koho? ve skloňování.",
+        "Im = in dem; používá se s podstatnými jmény mužského nebo středního rodu v dativu a odpovídá na otázku kde?",
         "Odpovědi kam?, ne kde? — umístění, nikoli pohyb.",
         "S měsíci a ročními obdobími: im März, im Herbst.",
         "Pro ženy: in der Schule, ne im Schule."
@@ -9750,9 +9750,9 @@ const A1_WORDS = [
       "translation": "V • Do",
       "explanation": [
         "Hlavní myšlenka: in obvykle znamená v nebo na místo, když se odkazuje na prostor, zemi, město nebo budovu.",
-        "S polohou se in často překládá jako v nebo v: v Berlíně = v Berlíně.",
+        "Při označení polohy se in často překládá jako „v“ nebo „ve“: in Berlin = v Berlíně.",
         "S pohybem v znamená dovnitř: ins Kino = do kina.",
-        "Českýý překlad se mění v závislosti na kontextu."
+        "Český překlad se mění v závislosti na kontextu."
       ],
       "examples": [
         {
@@ -9915,7 +9915,7 @@ const A1_WORDS = [
       "explanation": [
         "Ins je zkratka předložky in a členu das.",
         "Plná forma: v das (kde?).",
-        "Používá se s podstatnými jmény jakéhokoli pohlaví při odpovědi na otázku kde? - pohyb dovnitř.",
+        "Používá se s podstatnými jmény středního rodu při odpovědi na otázku kam? — označuje pohyb dovnitř.",
         "Často se slovesy: gehen, fahren, kommen, legen, stecken.",
         "V praxi se téměř vždy používá místo plného indas."
       ],
@@ -9961,7 +9961,7 @@ const A1_WORDS = [
         },
         {
           "word": "im",
-          "meaning": "Uvnitř kde? (komu?)",
+          "meaning": "Uvnitř, kde? (3. pád)",
           "example": "im Kino – Kino"
         },
         {
