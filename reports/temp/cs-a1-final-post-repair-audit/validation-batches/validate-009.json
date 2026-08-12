@@ -1,0 +1,485 @@
+{
+  "batch": "validate-009",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00183",
+      "cardId": "a1-aufs",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Název je redundantní a nejasný; aufs je stažený tvar auf das a v příkladech vyjadřuje směr „na“.",
+      "auditCurrentCs": "Kam • Na • Kam?",
+      "auditProposedCs": "Na (auf das)",
+      "auditDe": "aufs",
+      "auditLvSource": "uz",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Kam • Na • Kam?",
+      "cardContext": {
+        "cardId": "a1-aufs",
+        "de": "aufs",
+        "csMain": "Kam • Na • Kam?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00184",
+      "cardId": "a1-aufs",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Samotné „Na“ nevysvětluje, že jde o stažený tvar předložky auf a členu das.",
+      "auditCurrentCs": "Na",
+      "auditProposedCs": "Na (auf das)",
+      "auditDe": "aufs",
+      "auditLvSource": "uz",
+      "category": "TITLE_FORMAT",
+      "productionCurrentCs": "Na",
+      "cardContext": {
+        "cardId": "a1-aufs",
+        "de": "aufs",
+        "csMain": "Kam • Na • Kam?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00185",
+      "cardId": "a1-aufs",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Předložka s akuzativem vyjadřuje směr a odpovídá na „kam?“, nikoli na „kde?“.",
+      "auditCurrentCs": "Používá se, když akce ukazuje směr ke konkrétní věci nebo povrchu – odpovídá na otázku kde?",
+      "auditProposedCs": "Používá se, když děj vyjadřuje směr ke konkrétní věci nebo povrchu – odpovídá na otázku kam?",
+      "auditDe": "aufs",
+      "auditLvSource": "Lieto, kad darbība norāda virzienu uz konkrētu lietu vai virsmu — atbild uz jautājumu kurp?",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Používá se, když akce ukazuje směr ke konkrétní věci nebo povrchu – odpovídá na otázku kde?",
+      "cardContext": {
+        "cardId": "a1-aufs",
+        "de": "aufs",
+        "csMain": "Kam • Na • Kam?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00186",
+      "cardId": "a1-aufs",
+      "field": "study.comparison[0].example",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Aufs Dach vyjadřuje směr „na střechu“; „na střeše“ je význam pobytu a odpovídá auf dem Dach.",
+      "auditCurrentCs": "aufs Dach – Na střeše",
+      "auditProposedCs": "aufs Dach – Na střechu",
+      "auditDe": "aufs Dach",
+      "auditLvSource": "aufs Dach – uz jumta",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "aufs Dach – Na střeše",
+      "cardContext": {
+        "cardId": "a1-aufs",
+        "de": "aufs",
+        "csMain": "Kam • Na • Kam?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00187",
+      "cardId": "a1-aufs",
+      "field": "study.comparison[1].example",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Akuzativ po auf zde vyjadřuje směr; české „na stole“ vyjadřuje místo.",
+      "auditCurrentCs": "auf den Tisch – Na stole",
+      "auditProposedCs": "auf den Tisch – Na stůl",
+      "auditDe": "auf den Tisch",
+      "auditLvSource": "auf den Tisch – uz galda",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "auf den Tisch – Na stole",
+      "cardContext": {
+        "cardId": "a1-aufs",
+        "de": "aufs",
+        "csMain": "Kam • Na • Kam?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00188",
+      "cardId": "a1-aufs",
+      "field": "study.comparison[2].example",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "An die Wand vyjadřuje směr k/na zeď, nikoli místo „u zdi“.",
+      "auditCurrentCs": "an die Wand – U zdi",
+      "auditProposedCs": "an die Wand – Na zeď",
+      "auditDe": "an die Wand",
+      "auditLvSource": "an die Wand – pie sienas",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "an die Wand – U zdi",
+      "cardContext": {
+        "cardId": "a1-aufs",
+        "de": "aufs",
+        "csMain": "Kam • Na • Kam?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00189",
+      "cardId": "a1-aufs",
+      "field": "study.comparison[3].example",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Ins Zimmer vyjadřuje směr dovnitř; „v místnosti“ označuje místo, nikoli směr.",
+      "auditCurrentCs": "ins Zimmer – V místnosti",
+      "auditProposedCs": "ins Zimmer – Do místnosti",
+      "auditDe": "ins Zimmer",
+      "auditLvSource": "ins Zimmer – istabā",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "ins Zimmer – V místnosti",
+      "cardContext": {
+        "cardId": "a1-aufs",
+        "de": "aufs",
+        "csMain": "Kam • Na • Kam?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00190",
+      "cardId": "a1-aufs",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Aufs se používá pouze s neutrem v akuzativu, ne s podstatnými jmény libovolného rodu; text je navíc nesrozumitelný.",
+      "auditCurrentCs": "Aufs = auf das, pouze s podstatným jménem libovolného rodu, kde? ve skloňování.",
+      "auditProposedCs": "Aufs = auf das; používá se před podstatnými jmény středního rodu v akuzativu.",
+      "auditDe": "aufs = auf das",
+      "auditLvSource": "aufs = auf das, tikai ar nekatras dzimtes lietvārdu kurp? locījumā.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Aufs = auf das, pouze s podstatným jménem libovolného rodu, kde? ve skloňování.",
+      "cardContext": {
+        "cardId": "a1-aufs",
+        "de": "aufs",
+        "csMain": "Kam • Na • Kam?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00191",
+      "cardId": "a1-aufs",
+      "field": "study.important[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Původní formulace chybně zobecňuje auf den; tvar závisí na rodu podstatného jména.",
+      "auditCurrentCs": "Na vodorovné ploše se místo aufs často používá auf den.",
+      "auditProposedCs": "U mužského rodu se pro směr na vodorovnou plochu často používá auf den, ne aufs.",
+      "auditDe": "auf den Tisch",
+      "auditLvSource": "Uz horizontālas virsmas bieži lieto auf den, nevis aufs.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Na vodorovné ploše se místo aufs často používá auf den.",
+      "cardContext": {
+        "cardId": "a1-aufs",
+        "de": "aufs",
+        "csMain": "Kam • Na • Kam?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00194",
+      "cardId": "a1-baden",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Baden znamená koupat se nebo rekreačně se koupat ve vodě; plavat odpovídá spíše schwimmen.",
+      "auditCurrentCs": "Plavat",
+      "auditProposedCs": "Koupat se",
+      "auditDe": "baden",
+      "auditLvSource": "peldēties",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Plavat",
+      "cardContext": {
+        "cardId": "a1-baden",
+        "de": "baden",
+        "csMain": "Plavat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00195",
+      "cardId": "a1-baden",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Hlavní překlad zaměňuje baden za schwimmen.",
+      "auditCurrentCs": "Plavat",
+      "auditProposedCs": "Koupat se",
+      "auditDe": "baden",
+      "auditLvSource": "peldēties",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Plavat",
+      "cardContext": {
+        "cardId": "a1-baden",
+        "de": "baden",
+        "csMain": "Plavat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00196",
+      "cardId": "a1-bei",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Bei zde znamená především u osoby, společnosti nebo za určitých okolností, nikoli obecně na.",
+      "auditCurrentCs": "Na",
+      "auditProposedCs": "U",
+      "auditDe": "bei",
+      "auditLvSource": "pie",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Na",
+      "cardContext": {
+        "cardId": "a1-bei",
+        "de": "bei",
+        "csMain": "Na",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00197",
+      "cardId": "a1-bei",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Hlavní překlad je významově chybný; základní český ekvivalent je u.",
+      "auditCurrentCs": "Na",
+      "auditProposedCs": "U",
+      "auditDe": "bei",
+      "auditLvSource": "pie",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Na",
+      "cardContext": {
+        "cardId": "a1-bei",
+        "de": "bei",
+        "csMain": "Na",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00198",
+      "cardId": "a1-bei",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Bei meinem Freund znamená u přítele, ne konkrétně v jeho domě.",
+      "auditCurrentCs": "Jsem v domě svého přítele.",
+      "auditProposedCs": "Jsem u svého přítele.",
+      "auditDe": "Ich bin bei meinem Freund.",
+      "auditLvSource": "es esmu pie sava drauga.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Jsem v domě svého přítele.",
+      "cardContext": {
+        "cardId": "a1-bei",
+        "de": "bei",
+        "csMain": "Na",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00199",
+      "cardId": "a1-bis",
+      "field": "study.comparison[2].word",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Český údaj neodpovídá zdrojovému německému spojení bis jetzt.",
+      "auditCurrentCs": "bis dass",
+      "auditProposedCs": "bis jetzt",
+      "auditDe": "bis jetzt",
+      "auditLvSource": "līdz šim",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "bis dass",
+      "cardContext": {
+        "cardId": "a1-bis",
+        "de": "bis",
+        "csMain": "Až",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00183",
+      "cardId": "a1-aufs",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Kam • Na • Kam?“ je srozumitelný a významově správný český titul; jde pouze o preferenci formátu.",
+      "currentCs": "Kam • Na • Kam?"
+    },
+    {
+      "findingId": "FINAL-A1-00184",
+      "cardId": "a1-aufs",
+      "field": "study.translation",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Na“ je správný základní překlad; doplnění německého rozvinutí je užitečné, ale není nutnou opravou.",
+      "currentCs": "Na"
+    },
+    {
+      "findingId": "FINAL-A1-00185",
+      "cardId": "a1-aufs",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Vysvětlení zaměňuje směr s místem a uvádí chybnou otázku kde? místo kam?",
+      "currentCs": "Používá se, když akce ukazuje směr ke konkrétní věci nebo povrchu – odpovídá na otázku kde?",
+      "proposedCs": "Používá se, když děj vyjadřuje směr ke konkrétní věci nebo povrchu – odpovídá na otázku kam?"
+    },
+    {
+      "findingId": "FINAL-A1-00186",
+      "cardId": "a1-aufs",
+      "field": "study.comparison[0].example",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Aufs Dach označuje směr na střechu, zatímco „na střeše“ označuje místo.",
+      "currentCs": "aufs Dach – Na střeše",
+      "proposedCs": "aufs Dach – Na střechu"
+    },
+    {
+      "findingId": "FINAL-A1-00187",
+      "cardId": "a1-aufs",
+      "field": "study.comparison[1].example",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Auf den Tisch vyjadřuje směr na stůl; „na stole“ vyjadřuje místo.",
+      "currentCs": "auf den Tisch – Na stole",
+      "proposedCs": "auf den Tisch – Na stůl"
+    },
+    {
+      "findingId": "FINAL-A1-00188",
+      "cardId": "a1-aufs",
+      "field": "study.comparison[2].example",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "An die Wand vyjadřuje směr na zeď, nikoli polohu u zdi.",
+      "currentCs": "an die Wand – U zdi",
+      "proposedCs": "an die Wand – Na zeď"
+    },
+    {
+      "findingId": "FINAL-A1-00189",
+      "cardId": "a1-aufs",
+      "field": "study.comparison[3].example",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Ins Zimmer vyjadřuje směr dovnitř, zatímco „v místnosti“ označuje místo.",
+      "currentCs": "ins Zimmer – V místnosti",
+      "proposedCs": "ins Zimmer – Do místnosti"
+    },
+    {
+      "findingId": "FINAL-A1-00190",
+      "cardId": "a1-aufs",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Text chybně uvádí libovolný rod a otázku kde?; aufs je auf das před neutrem v akuzativu.",
+      "currentCs": "Aufs = auf das, pouze s podstatným jménem libovolného rodu, kde? ve skloňování.",
+      "proposedCs": "Aufs = auf das; používá se před podstatnými jmény středního rodu v akuzativu."
+    },
+    {
+      "findingId": "FINAL-A1-00191",
+      "cardId": "a1-aufs",
+      "field": "study.important[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Formulace zobecňuje auf den; tento tvar souvisí s mužským rodem, nikoli obecně s plochou.",
+      "currentCs": "Na vodorovné ploše se místo aufs často používá auf den.",
+      "proposedCs": "U mužského rodu se pro směr na vodorovnou plochu často používá auf den, ne aufs."
+    },
+    {
+      "findingId": "FINAL-A1-00194",
+      "cardId": "a1-baden",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Baden znamená koupat se nebo rekreačně se koupat; „plavat“ odpovídá spíše německému schwimmen.",
+      "currentCs": "Plavat",
+      "proposedCs": "Koupat se"
+    },
+    {
+      "findingId": "FINAL-A1-00195",
+      "cardId": "a1-baden",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Hlavní překlad zaměňuje baden za schwimmen a neposkytuje správný český význam.",
+      "currentCs": "Plavat",
+      "proposedCs": "Koupat se"
+    },
+    {
+      "findingId": "FINAL-A1-00196",
+      "cardId": "a1-bei",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Na“ není vhodný základní překlad pro bei v tomto významu; jde především o vztah u osoby či okolnosti.",
+      "currentCs": "Na",
+      "proposedCs": "U"
+    },
+    {
+      "findingId": "FINAL-A1-00197",
+      "cardId": "a1-bei",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Hlavní český překlad je významově zavádějící; základní ekvivalent německého bei je „u“.",
+      "currentCs": "Na",
+      "proposedCs": "U"
+    },
+    {
+      "findingId": "FINAL-A1-00198",
+      "cardId": "a1-bei",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Bei meinem Freund znamená být u přítele, ne být v jeho domě.",
+      "currentCs": "Jsem v domě svého přítele.",
+      "proposedCs": "Jsem u svého přítele."
+    },
+    {
+      "findingId": "FINAL-A1-00199",
+      "cardId": "a1-bis",
+      "field": "study.comparison[2].word",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Příklad neodpovídá německému spojení bis jetzt; „bis dass“ je jiná německá konstrukce.",
+      "currentCs": "bis dass",
+      "proposedCs": "bis jetzt"
+    }
+  ]
+}

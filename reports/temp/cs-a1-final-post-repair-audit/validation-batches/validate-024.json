@@ -1,0 +1,484 @@
+{
+  "batch": "validate-024",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00418",
+      "cardId": "a1-neu",
+      "field": "study.examples[6].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Přímá otázka vyžaduje český otazník.",
+      "auditCurrentCs": "Co je nového",
+      "auditProposedCs": "Co je nového?",
+      "auditDe": "Was gibt es Neues?",
+      "auditLvSource": "kas jauns?",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Co je nového",
+      "cardContext": {
+        "cardId": "a1-neu",
+        "de": "neu",
+        "csMain": "Nový (o věcech)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00419",
+      "cardId": "a1-ob",
+      "field": "study.explanation[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Popř.“ znamená případně, nikoli zda/jestli, a mění význam spojky ob.",
+      "auditCurrentCs": "Hlavní myšlenka: ob zavádí nepřímou otázku a v češtině nejčastěji znamená popř.",
+      "auditProposedCs": "Hlavní myšlenka: ob zavádí nepřímou otázku a v češtině nejčastěji znamená „zda“ nebo „jestli“.",
+      "auditDe": "ob",
+      "auditLvSource": "ob visbiežāk nozīmē vai.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Hlavní myšlenka: ob zavádí nepřímou otázku a v češtině nejčastěji znamená popř.",
+      "cardContext": {
+        "cardId": "a1-ob",
+        "de": "ob",
+        "csMain": "Nebo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00420",
+      "cardId": "a1-ob",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Ob neznamená „nebo“ ve významu volby; uvádí nepřímou otázku.",
+      "auditCurrentCs": "Nebo v nepřímé otázce",
+      "auditProposedCs": "Zda nebo jestli v nepřímé otázce",
+      "auditDe": "ob",
+      "auditLvSource": "vai netiešā jautājumā",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Nebo v nepřímé otázce",
+      "cardContext": {
+        "cardId": "a1-ob",
+        "de": "ob",
+        "csMain": "Nebo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00421",
+      "cardId": "a1-ob",
+      "field": "study.sectionAccents.comparison[0].meaning.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Akcentace opakuje chybný překlad ob jako „nebo“ místo „zda“.",
+      "auditCurrentCs": "Nebo",
+      "auditProposedCs": "Zda",
+      "auditDe": "ob",
+      "auditLvSource": "vai netiešā jautājumā",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Nebo",
+      "cardContext": {
+        "cardId": "a1-ob",
+        "de": "ob",
+        "csMain": "Nebo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00422",
+      "cardId": "a1-oder",
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Popř.“ znamená případně, nikoli základní význam spojky oder.",
+      "auditCurrentCs": "V češtině oder nejčastěji znamená popř.",
+      "auditProposedCs": "V češtině oder nejčastěji znamená „nebo“.",
+      "auditDe": "oder",
+      "auditLvSource": "oder visbiežāk nozīmē vai.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "V češtině oder nejčastěji znamená popř.",
+      "cardContext": {
+        "cardId": "a1-oder",
+        "de": "oder",
+        "csMain": "Nebo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00423",
+      "cardId": "a1-oder",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Současný text je imperativní a neodpovídá popisu funkce spojky.",
+      "auditCurrentCs": "Nebo si vyberte",
+      "auditProposedCs": "Nebo při volbě mezi možnostmi",
+      "auditDe": "oder",
+      "auditLvSource": "vai izvēlē",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Nebo si vyberte",
+      "cardContext": {
+        "cardId": "a1-oder",
+        "de": "oder",
+        "csMain": "Nebo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00424",
+      "cardId": "a1-oder",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Akcentace překládá ob jako „nebo“, a tím ruší klíčové rozlišení ob/oder.",
+      "auditCurrentCs": "Nebo",
+      "auditProposedCs": "Zda",
+      "auditDe": "ob",
+      "auditLvSource": "vai netiešā jautājumā",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Nebo",
+      "cardContext": {
+        "cardId": "a1-oder",
+        "de": "oder",
+        "csMain": "Nebo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00425",
+      "cardId": "a1-passen",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Anglické „Fit“ kontaminuje české studijní pole a není českým překladem.",
+      "auditCurrentCs": "Fit / fit",
+      "auditProposedCs": "Pasovat / slušet",
+      "auditDe": "passen",
+      "auditLvSource": "derēt / piestāvēt",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Fit / fit",
+      "cardContext": {
+        "cardId": "a1-passen",
+        "de": "passen",
+        "csMain": "Pasovat • Slušet",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00426",
+      "cardId": "a1-passen",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "V uvedeném příkladu stehen znamená slušet; současný překlad ztrácí tento význam.",
+      "auditCurrentCs": "Stát / stát",
+      "auditProposedCs": "Slušet / stát",
+      "auditDe": "stehen",
+      "auditLvSource": "piestāvēt / stāvēt",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Stát / stát",
+      "cardContext": {
+        "cardId": "a1-passen",
+        "de": "passen",
+        "csMain": "Pasovat • Slušet",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00427",
+      "cardId": "a1-passen",
+      "field": "study.comparison[3].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Funktionieren“ znamená fungovat, zatímco „provozovat“ je jiné sloveso.",
+      "auditCurrentCs": "Provozovat",
+      "auditProposedCs": "Fungovat",
+      "auditDe": "funktionieren",
+      "auditLvSource": "darboties",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Provozovat",
+      "cardContext": {
+        "cardId": "a1-passen",
+        "de": "passen",
+        "csMain": "Pasovat • Slušet",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00428",
+      "cardId": "a1-passen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Akcentace obsahuje anglické slovo místo českého překladu.",
+      "auditCurrentCs": "Fit",
+      "auditProposedCs": "Pasovat",
+      "auditDe": "passen",
+      "auditLvSource": "derēt / piestāvēt",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Fit",
+      "cardContext": {
+        "cardId": "a1-passen",
+        "de": "passen",
+        "csMain": "Pasovat • Slušet",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00429",
+      "cardId": "a1-passen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "První význam stehen v českém příkladu „Rot steht dir gut“ je slušet.",
+      "auditCurrentCs": "Stát",
+      "auditProposedCs": "Slušet",
+      "auditDe": "stehen",
+      "auditLvSource": "piestāvēt / stāvēt",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Stát",
+      "cardContext": {
+        "cardId": "a1-passen",
+        "de": "passen",
+        "csMain": "Pasovat • Slušet",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00430",
+      "cardId": "a1-passen",
+      "field": "study.sectionAccents.comparison[3].meaning.red[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Akcentace používá nesprávný český překlad funktionieren.",
+      "auditCurrentCs": "Provozovat",
+      "auditProposedCs": "Fungovat",
+      "auditDe": "funktionieren",
+      "auditLvSource": "darboties",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-passen",
+        "de": "passen",
+        "csMain": "Pasovat • Slušet",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00431",
+      "cardId": "a1-probieren",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Podle chuti“ znamená podle osobní preference, nikoli ochutnat jídlo.",
+      "auditCurrentCs": "Pamatujte: jídlo → probieren = podle chuti.",
+      "auditProposedCs": "Pamatujte: jídlo → probieren = ochutnat.",
+      "auditDe": "At 기억: Essen → probieren = kosten.",
+      "auditLvSource": "Atceries: ēdiens → probieren = nogaršot.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pamatujte: jídlo → probieren = podle chuti.",
+      "cardContext": {
+        "cardId": "a1-probieren",
+        "de": "probieren",
+        "csMain": "Vyzkoušet • Ochutnat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00432",
+      "cardId": "a1-probieren",
+      "field": "study.comparison[3].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "U oblečení anprobieren znamená vyzkoušet si nebo obléknout si oděv.",
+      "auditCurrentCs": "Vyzkoušet",
+      "auditProposedCs": "Vyzkoušet si",
+      "auditDe": "anprobieren",
+      "auditLvSource": "pielaikot",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Vyzkoušet",
+      "cardContext": {
+        "cardId": "a1-probieren",
+        "de": "probieren",
+        "csMain": "Vyzkoušet • Ochutnat",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00418",
+      "cardId": "a1-neu",
+      "field": "study.examples[6].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "Přímá otázka v češtině vyžaduje otazník.",
+      "currentCs": "Co je nového",
+      "proposedCs": "Co je nového?"
+    },
+    {
+      "findingId": "FINAL-A1-00419",
+      "cardId": "a1-ob",
+      "field": "study.explanation[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Popř.“ znamená „případně“, nikoli „zda“ nebo „jestli“; význam ob je tím zkreslen.",
+      "currentCs": "Hlavní myšlenka: ob zavádí nepřímou otázku a v češtině nejčastěji znamená popř.",
+      "proposedCs": "Hlavní myšlenka: ob zavádí nepřímou otázku a v češtině nejčastěji znamená „zda“ nebo „jestli“."
+    },
+    {
+      "findingId": "FINAL-A1-00420",
+      "cardId": "a1-ob",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Ob“ v tomto kontextu uvádí nepřímou otázku, nikoli volbu ve významu „nebo“.",
+      "currentCs": "Nebo v nepřímé otázce",
+      "proposedCs": "Zda nebo jestli v nepřímé otázce"
+    },
+    {
+      "findingId": "FINAL-A1-00421",
+      "cardId": "a1-ob",
+      "field": "study.sectionAccents.comparison[0].meaning.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Akcentace opakuje chybný překlad spojky ob jako „nebo“.",
+      "currentCs": "Nebo",
+      "proposedCs": "Zda"
+    },
+    {
+      "findingId": "FINAL-A1-00422",
+      "cardId": "a1-oder",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Popř.“ znamená „případně“, ne základní český význam spojky oder.",
+      "currentCs": "V češtině oder nejčastěji znamená popř.",
+      "proposedCs": "V češtině oder nejčastěji znamená „nebo“."
+    },
+    {
+      "findingId": "FINAL-A1-00423",
+      "cardId": "a1-oder",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": 0.93,
+      "reason": "„Nebo si vyberte“ je gramaticky správný a srozumitelný český příklad; jde nanejvýš o stylistickou preferenci.",
+      "currentCs": "Nebo si vyberte"
+    },
+    {
+      "findingId": "FINAL-A1-00424",
+      "cardId": "a1-oder",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Akcentace u ob používá „nebo“, čímž stírá rozdíl mezi ob a oder.",
+      "currentCs": "Nebo",
+      "proposedCs": "Zda"
+    },
+    {
+      "findingId": "FINAL-A1-00425",
+      "cardId": "a1-passen",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Anglické „Fit / fit“ je cizí remnant v českém studijním poli.",
+      "currentCs": "Fit / fit",
+      "proposedCs": "Pasovat / slušet"
+    },
+    {
+      "findingId": "FINAL-A1-00426",
+      "cardId": "a1-passen",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.97,
+      "reason": "V uvedeném významu stehen znamená „slušet“; „stát“ tento význam ztrácí.",
+      "currentCs": "Stát / stát",
+      "proposedCs": "Slušet / stát"
+    },
+    {
+      "findingId": "FINAL-A1-00427",
+      "cardId": "a1-passen",
+      "field": "study.comparison[3].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Německé funktionieren znamená „fungovat“, nikoli „provozovat“.",
+      "currentCs": "Provozovat",
+      "proposedCs": "Fungovat"
+    },
+    {
+      "findingId": "FINAL-A1-00428",
+      "cardId": "a1-passen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Akcentace obsahuje anglické slovo místo českého překladu passen.",
+      "currentCs": "Fit",
+      "proposedCs": "Pasovat"
+    },
+    {
+      "findingId": "FINAL-A1-00429",
+      "cardId": "a1-passen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.98,
+      "reason": "V příkladu „Rot steht dir gut“ znamená stehen „slušet“, ne „stát“.",
+      "currentCs": "Stát",
+      "proposedCs": "Slušet"
+    },
+    {
+      "findingId": "FINAL-A1-00430",
+      "cardId": "a1-passen",
+      "field": "study.sectionAccents.comparison[3].meaning.red[0]",
+      "validationStatus": "STALE_ALREADY_FIXED",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Audit uvádí text „Provozovat“, ale v aktuální produkci je toto pole již odstraněné.",
+      "currentCs": null
+    },
+    {
+      "findingId": "FINAL-A1-00431",
+      "cardId": "a1-probieren",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Podle chuti“ vyjadřuje osobní preferenci; německé probieren u jídla znamená „ochutnat“.",
+      "currentCs": "Pamatujte: jídlo → probieren = podle chuti.",
+      "proposedCs": "Pamatujte: jídlo → probieren = ochutnat."
+    },
+    {
+      "findingId": "FINAL-A1-00432",
+      "cardId": "a1-probieren",
+      "field": "study.comparison[3].meaning",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": 0.91,
+      "reason": "„Vyzkoušet“ je platný český překlad anprobieren; reflexivní „vyzkoušet si“ je pouze přirozenější varianta.",
+      "currentCs": "Vyzkoušet"
+    }
+  ]
+}

@@ -1,0 +1,483 @@
+{
+  "batch": "validate-002",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00036",
+      "cardId": "a1-Fußball-218",
+      "index": 218,
+      "field": "study.layout",
+      "source": "deterministic",
+      "batch": "201-250",
+      "severity": "HIGH",
+      "auditProblem": "Study layout mismatch: LV has standardStudy, CS has none",
+      "auditCurrentCs": "(none)",
+      "auditProposedCs": "standardStudy",
+      "auditDe": "Fußball",
+      "auditLvSource": "standardStudy",
+      "category": "FINDING",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-Fußball-218",
+        "de": "Fußball",
+        "csMain": "Fotbal",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00039",
+      "cardId": "a1-ganz-219",
+      "index": 219,
+      "field": "study.layout",
+      "source": "deterministic",
+      "batch": "201-250",
+      "severity": "HIGH",
+      "auditProblem": "Study layout mismatch: LV has standardStudy, CS has none",
+      "auditCurrentCs": "(none)",
+      "auditProposedCs": "standardStudy",
+      "auditDe": "ganz",
+      "auditLvSource": "standardStudy",
+      "category": "FINDING",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-ganz-219",
+        "de": "ganz",
+        "csMain": "Všechno",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00042",
+      "cardId": "a1-gefallen-225",
+      "index": 225,
+      "field": "study.layout",
+      "source": "deterministic",
+      "batch": "201-250",
+      "severity": "HIGH",
+      "auditProblem": "Study layout mismatch: LV has standardStudy, CS has none",
+      "auditCurrentCs": "(none)",
+      "auditProposedCs": "standardStudy",
+      "auditDe": "gefallen",
+      "auditLvSource": "standardStudy",
+      "category": "FINDING",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-gefallen-225",
+        "de": "gefallen",
+        "csMain": "Líbit se",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00045",
+      "cardId": "a1-Geschichte-233",
+      "index": 233,
+      "field": "study.layout",
+      "source": "deterministic",
+      "batch": "201-250",
+      "severity": "HIGH",
+      "auditProblem": "Study layout mismatch: LV has standardStudy, CS has none",
+      "auditCurrentCs": "(none)",
+      "auditProposedCs": "standardStudy",
+      "auditDe": "Geschichte",
+      "auditLvSource": "standardStudy",
+      "category": "FINDING",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-Geschichte-233",
+        "de": "Geschichte",
+        "csMain": "Příběh • Historie",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00048",
+      "cardId": "a1-Geschwister-234",
+      "index": 234,
+      "field": "study.layout",
+      "source": "deterministic",
+      "batch": "201-250",
+      "severity": "HIGH",
+      "auditProblem": "Study layout mismatch: LV has standardStudy, CS has none",
+      "auditCurrentCs": "(none)",
+      "auditProposedCs": "standardStudy",
+      "auditDe": "Geschwister",
+      "auditLvSource": "standardStudy",
+      "category": "FINDING",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-Geschwister-234",
+        "de": "Geschwister",
+        "csMain": "Bratři a sestry",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00051",
+      "cardId": "a1-Großeltern-251",
+      "index": 251,
+      "field": "study.layout",
+      "source": "deterministic",
+      "batch": "251-300",
+      "severity": "HIGH",
+      "auditProblem": "Study layout mismatch: LV has standardStudy, CS has none",
+      "auditCurrentCs": "(none)",
+      "auditProposedCs": "standardStudy",
+      "auditDe": "Großeltern",
+      "auditLvSource": "standardStudy",
+      "category": "FINDING",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-Großeltern-251",
+        "de": "Großeltern",
+        "csMain": "Prarodiče",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00054",
+      "cardId": "a1-Hand-267",
+      "index": 267,
+      "field": "study.layout",
+      "source": "deterministic",
+      "batch": "251-300",
+      "severity": "HIGH",
+      "auditProblem": "Study layout mismatch: LV has standardStudy, CS has none",
+      "auditCurrentCs": "(none)",
+      "auditProposedCs": "standardStudy",
+      "auditDe": "Hand",
+      "auditLvSource": "standardStudy",
+      "category": "FINDING",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-Hand-267",
+        "de": "Hand",
+        "csMain": "Ruka (dlaň)",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00057",
+      "cardId": "a1-hübsch-288",
+      "index": 288,
+      "field": "study.layout",
+      "source": "deterministic",
+      "batch": "251-300",
+      "severity": "HIGH",
+      "auditProblem": "Study layout mismatch: LV has standardStudy, CS has none",
+      "auditCurrentCs": "(none)",
+      "auditProposedCs": "standardStudy",
+      "auditDe": "hübsch",
+      "auditLvSource": "standardStudy",
+      "category": "FINDING",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-hübsch-288",
+        "de": "hübsch",
+        "csMain": "Úhledný • Pěkný",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00063",
+      "cardId": "a1-land",
+      "field": "study.explanation[1]",
+      "source": "deterministic",
+      "batch": "351-400",
+      "severity": "HIGH",
+      "auditProblem": "Foreign remnant (LV_WORD, FOREIGN_REF) in entry[351].study.explanation[1]",
+      "auditCurrentCs": "Pokud jde o Německo, Lotyšsko nebo jiné území s hranicemi, překládá se to jako země.",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "Land",
+      "auditLvSource": "valsts • zeme",
+      "category": "FINDING",
+      "productionCurrentCs": "Pokud jde o Německo, Lotyšsko nebo jiné území s hranicemi, překládá se to jako země.",
+      "cardContext": {
+        "cardId": "a1-land",
+        "de": "Land",
+        "csMain": "Země • Země",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00067",
+      "cardId": "a1-Million-406",
+      "index": 406,
+      "field": "lv",
+      "source": "deterministic",
+      "batch": "401-450",
+      "severity": "HIGH",
+      "auditProblem": "Foreign language remnant in main translation: PL_CHAR",
+      "auditCurrentCs": "Milión",
+      "auditProposedCs": "(Czech replacement needed)",
+      "auditDe": "Million",
+      "auditLvSource": "miljons",
+      "category": "FINDING",
+      "productionCurrentCs": "Milión",
+      "cardContext": {
+        "cardId": "a1-Million-406",
+        "de": "Million",
+        "csMain": "Milión",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00068",
+      "cardId": "a1-Million-406",
+      "field": "lv",
+      "source": "deterministic",
+      "batch": "401-450",
+      "severity": "HIGH",
+      "auditProblem": "Foreign remnant (PL_CHAR) in entry[406].lv",
+      "auditCurrentCs": "Milión",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "Million",
+      "auditLvSource": "miljons",
+      "category": "FINDING",
+      "productionCurrentCs": "Milión",
+      "cardContext": {
+        "cardId": "a1-Million-406",
+        "de": "Million",
+        "csMain": "Milión",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00069",
+      "cardId": "a1-reis",
+      "field": "study.explanation",
+      "source": "deterministic",
+      "batch": "451-500",
+      "severity": "HIGH",
+      "auditProblem": "Foreign remnant (LV_WORD, FOREIGN_REF) in entry[496].study.explanation",
+      "auditCurrentCs": "V němčině se slovo „der Reis“ používá pouze v jednotném čísle, takže sloveso ve větě musí být v jednotném čísle (např. „ist“, nikoli „sind“). Lotyši však často říkají „rýže“.",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "Reis",
+      "auditLvSource": "rīsi",
+      "category": "FINDING",
+      "productionCurrentCs": "V němčině se slovo „der Reis“ používá pouze v jednotném čísle, takže sloveso ve větě musí být v jednotném čísle (např. „ist“, nikoli „sind“). Lotyši však často říkají „rýže“.",
+      "cardContext": {
+        "cardId": "a1-reis",
+        "de": "Reis",
+        "csMain": "Rýže",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00082",
+      "cardId": "a1-verstehen",
+      "field": "study.explanation[2]",
+      "source": "deterministic",
+      "batch": "601-650",
+      "severity": "HIGH",
+      "auditProblem": "Foreign remnant (FOREIGN_REF) in entry[621].study.explanation[2]",
+      "auditCurrentCs": "Lotyšštinu zde většinou nemusíte „umět“ ani „učit“ • Jsou častěji können.",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "verstehen",
+      "auditLvSource": "saprast",
+      "category": "FINDING",
+      "productionCurrentCs": "Lotyšštinu zde většinou nemusíte „umět“ ani „učit“ • Jsou častěji können.",
+      "cardContext": {
+        "cardId": "a1-verstehen",
+        "de": "verstehen",
+        "csMain": "Pochopit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00085",
+      "cardId": "a1-Zitrone-666",
+      "index": 666,
+      "field": "lv",
+      "source": "deterministic",
+      "batch": "651-700",
+      "severity": "HIGH",
+      "auditProblem": "Foreign language remnant in main translation: PL_CHAR",
+      "auditCurrentCs": "Citrón",
+      "auditProposedCs": "(Czech replacement needed)",
+      "auditDe": "Zitrone",
+      "auditLvSource": "citrons",
+      "category": "FINDING",
+      "productionCurrentCs": "Citrón",
+      "cardContext": {
+        "cardId": "a1-Zitrone-666",
+        "de": "Zitrone",
+        "csMain": "Citrón",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00086",
+      "cardId": "a1-Zitrone-666",
+      "field": "lv",
+      "source": "deterministic",
+      "batch": "651-700",
+      "severity": "HIGH",
+      "auditProblem": "Foreign remnant (PL_CHAR) in entry[666].lv",
+      "auditCurrentCs": "Citrón",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "Zitrone",
+      "auditLvSource": "citrons",
+      "category": "FINDING",
+      "productionCurrentCs": "Citrón",
+      "cardContext": {
+        "cardId": "a1-Zitrone-666",
+        "de": "Zitrone",
+        "csMain": "Citrón",
+        "hasStudy": false
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00036",
+      "cardId": "a1-Fußball-218",
+      "field": "study.layout",
+      "validationStatus": "MISSING_STUDY_PARITY",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "The card is in the documented study-gap set; production lacks standardStudy while LV has it.",
+      "currentCs": null
+    },
+    {
+      "findingId": "FINAL-A1-00039",
+      "cardId": "a1-ganz-219",
+      "field": "study.layout",
+      "validationStatus": "MISSING_STUDY_PARITY",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "The card is in the documented study-gap set; production lacks standardStudy while LV has it.",
+      "currentCs": null
+    },
+    {
+      "findingId": "FINAL-A1-00042",
+      "cardId": "a1-gefallen-225",
+      "field": "study.layout",
+      "validationStatus": "MISSING_STUDY_PARITY",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "The card is in the documented study-gap set; production lacks standardStudy while LV has it.",
+      "currentCs": null
+    },
+    {
+      "findingId": "FINAL-A1-00045",
+      "cardId": "a1-Geschichte-233",
+      "field": "study.layout",
+      "validationStatus": "MISSING_STUDY_PARITY",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "The card is in the documented study-gap set; production lacks standardStudy while LV has it.",
+      "currentCs": null
+    },
+    {
+      "findingId": "FINAL-A1-00048",
+      "cardId": "a1-Geschwister-234",
+      "field": "study.layout",
+      "validationStatus": "MISSING_STUDY_PARITY",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "The card is in the documented study-gap set; production lacks standardStudy while LV has it.",
+      "currentCs": null
+    },
+    {
+      "findingId": "FINAL-A1-00051",
+      "cardId": "a1-Großeltern-251",
+      "field": "study.layout",
+      "validationStatus": "MISSING_STUDY_PARITY",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "The card is in the documented study-gap set; production lacks standardStudy while LV has it.",
+      "currentCs": null
+    },
+    {
+      "findingId": "FINAL-A1-00054",
+      "cardId": "a1-Hand-267",
+      "field": "study.layout",
+      "validationStatus": "MISSING_STUDY_PARITY",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "The card is in the documented study-gap set; production lacks standardStudy while LV has it.",
+      "currentCs": null
+    },
+    {
+      "findingId": "FINAL-A1-00057",
+      "cardId": "a1-hübsch-288",
+      "field": "study.layout",
+      "validationStatus": "MISSING_STUDY_PARITY",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "The card is in the documented study-gap set; production lacks standardStudy while LV has it.",
+      "currentCs": null
+    },
+    {
+      "findingId": "FINAL-A1-00063",
+      "cardId": "a1-land",
+      "field": "study.explanation[1]",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Lotyšsko is valid Czech for Latvia; the explanation is grammatical and contains no foreign-language remnant.",
+      "currentCs": "Pokud jde o Německo, Lotyšsko nebo jiné území s hranicemi, překládá se to jako země."
+    },
+    {
+      "findingId": "FINAL-A1-00067",
+      "cardId": "a1-Million-406",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Milión is valid Czech spelling; the diacritic is not a Polish or foreign remnant.",
+      "currentCs": "Milión"
+    },
+    {
+      "findingId": "FINAL-A1-00068",
+      "cardId": "a1-Million-406",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Milión is valid Czech spelling; the diacritic is not a Polish or foreign remnant.",
+      "currentCs": "Milión"
+    },
+    {
+      "findingId": "FINAL-A1-00069",
+      "cardId": "a1-reis",
+      "field": "study.explanation",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Lotyši and rýže are valid Czech words; the detector is misclassifying Czech text as a foreign remnant.",
+      "currentCs": "V němčině se slovo „der Reis“ používá pouze v jednotném čísle, takže sloveso ve větě musí být v jednotném čísle (např. „ist“, nikoli „sind“). Lotyši však často říkají „rýže“."
+    },
+    {
+      "findingId": "FINAL-A1-00082",
+      "cardId": "a1-verstehen",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "The explanation contains an unrelated Latvian reference and an incomplete German fragment, creating a current semantic and grammatical error.",
+      "currentCs": "Lotyšštinu zde většinou nemusíte „umět“ ani „učit“ • Jsou častěji können.",
+      "proposedCs": "Pro význam „umět“ se v němčině častěji používá sloveso „können“."
+    },
+    {
+      "findingId": "FINAL-A1-00085",
+      "cardId": "a1-Zitrone-666",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Citrón is valid Czech spelling; the diacritic is not a Polish or foreign remnant.",
+      "currentCs": "Citrón"
+    },
+    {
+      "findingId": "FINAL-A1-00086",
+      "cardId": "a1-Zitrone-666",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Citrón is valid Czech spelling; the diacritic is not a Polish or foreign remnant.",
+      "currentCs": "Citrón"
+    }
+  ]
+}

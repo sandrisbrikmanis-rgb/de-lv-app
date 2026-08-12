@@ -1,0 +1,487 @@
+{
+  "batch": "validate-001",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00005",
+      "cardId": "a1-Besuch-87",
+      "index": 87,
+      "field": "study.layout",
+      "source": "deterministic",
+      "batch": "051-100",
+      "severity": "HIGH",
+      "auditProblem": "Study layout mismatch: LV has standardStudy, CS has none",
+      "auditCurrentCs": "(none)",
+      "auditProposedCs": "standardStudy",
+      "auditDe": "Besuch",
+      "auditLvSource": "standardStudy",
+      "category": "FINDING",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-Besuch-87",
+        "de": "Besuch",
+        "csMain": "Návštěva",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00008",
+      "cardId": "a1-besuchen-89",
+      "index": 89,
+      "field": "study.layout",
+      "source": "deterministic",
+      "batch": "051-100",
+      "severity": "HIGH",
+      "auditProblem": "Study layout mismatch: LV has standardStudy, CS has none",
+      "auditCurrentCs": "(none)",
+      "auditProposedCs": "standardStudy",
+      "auditDe": "besuchen",
+      "auditLvSource": "standardStudy",
+      "category": "FINDING",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-besuchen-89",
+        "de": "besuchen",
+        "csMain": "Zúčastnit se • Navštívit",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00015",
+      "cardId": "a1-es",
+      "field": "study.info[0]",
+      "source": "deterministic",
+      "batch": "151-200",
+      "severity": "CRITICAL",
+      "auditProblem": "Foreign remnant (LV_DIACRITIC, LV_WORD) in entry[167].study.info[0]",
+      "auditCurrentCs": "Český “es” = vācu “ich”",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "es",
+      "auditLvSource": "tas",
+      "category": "FINDING",
+      "productionCurrentCs": "Český “es” = vācu “ich”",
+      "cardContext": {
+        "cardId": "a1-es",
+        "de": "es",
+        "csMain": "To • To • Neosobní podoba",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00016",
+      "cardId": "a1-es",
+      "field": "study.info[1]",
+      "source": "deterministic",
+      "batch": "151-200",
+      "severity": "CRITICAL",
+      "auditProblem": "Foreign remnant (LV_DIACRITIC, LV_WORD) in entry[167].study.info[1]",
+      "auditCurrentCs": "Vācu “es” = tas • Tā • Bezpersoniska forma",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "es",
+      "auditLvSource": "tas",
+      "category": "FINDING",
+      "productionCurrentCs": "Vācu “es” = tas • Tā • Bezpersoniska forma",
+      "cardContext": {
+        "cardId": "a1-es",
+        "de": "es",
+        "csMain": "To • To • Neosobní podoba",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00017",
+      "cardId": "a1-fahren",
+      "field": "study.important.example",
+      "source": "deterministic",
+      "batch": "151-200",
+      "severity": "CRITICAL",
+      "auditProblem": "Foreign remnant (LV_DIACRITIC, LV_WORD) in entry[172].study.important.example",
+      "auditCurrentCs": "Vācu valodā viens un tas pats darbības vārds bieži nozīmē: braukt • Vest • Aizvest atkarībā no konteksta.",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "fahren",
+      "auditLvSource": "braukt",
+      "category": "FINDING",
+      "productionCurrentCs": "Vācu valodā viens un tas pats darbības vārds bieži nozīmē: braukt • Vest • Aizvest atkarībā no konteksta.",
+      "cardContext": {
+        "cardId": "a1-fahren",
+        "de": "fahren",
+        "csMain": "Řídit • Vést • Odvézt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00018",
+      "cardId": "a1-fahren",
+      "field": "study.accents.purple[0]",
+      "source": "deterministic",
+      "batch": "151-200",
+      "severity": "HIGH",
+      "auditProblem": "Foreign remnant (LV_WORD) in entry[172].study.accents.purple[0]",
+      "auditCurrentCs": "Braukt",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "fahren",
+      "auditLvSource": "braukt",
+      "category": "FINDING",
+      "productionCurrentCs": "Braukt",
+      "cardContext": {
+        "cardId": "a1-fahren",
+        "de": "fahren",
+        "csMain": "Řídit • Vést • Odvézt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00019",
+      "cardId": "a1-fahren",
+      "field": "study.accents.purple[2]",
+      "source": "deterministic",
+      "batch": "151-200",
+      "severity": "HIGH",
+      "auditProblem": "Foreign remnant (LV_WORD) in entry[172].study.accents.purple[2]",
+      "auditCurrentCs": "Vest",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "fahren",
+      "auditLvSource": "braukt",
+      "category": "FINDING",
+      "productionCurrentCs": "Vest",
+      "cardContext": {
+        "cardId": "a1-fahren",
+        "de": "fahren",
+        "csMain": "Řídit • Vést • Odvézt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00020",
+      "cardId": "a1-fahren",
+      "field": "study.accents.purple[4]",
+      "source": "deterministic",
+      "batch": "151-200",
+      "severity": "HIGH",
+      "auditProblem": "Foreign remnant (LV_WORD) in entry[172].study.accents.purple[4]",
+      "auditCurrentCs": "Aizvest",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "fahren",
+      "auditLvSource": "braukt",
+      "category": "FINDING",
+      "productionCurrentCs": "Aizvest",
+      "cardContext": {
+        "cardId": "a1-fahren",
+        "de": "fahren",
+        "csMain": "Řídit • Vést • Odvézt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00021",
+      "cardId": "a1-fahren",
+      "field": "study.accents.green[1]",
+      "source": "deterministic",
+      "batch": "151-200",
+      "severity": "CRITICAL",
+      "auditProblem": "Foreign remnant (LV_DIACRITIC) in entry[172].study.accents.green[1]",
+      "auditCurrentCs": "Transportlīdzekli",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "fahren",
+      "auditLvSource": "braukt",
+      "category": "FINDING",
+      "productionCurrentCs": "Transportlīdzekli",
+      "cardContext": {
+        "cardId": "a1-fahren",
+        "de": "fahren",
+        "csMain": "Řídit • Vést • Odvézt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00022",
+      "cardId": "a1-fahren",
+      "field": "study.accents.green[5]",
+      "source": "deterministic",
+      "batch": "151-200",
+      "severity": "CRITICAL",
+      "auditProblem": "Foreign remnant (LV_DIACRITIC) in entry[172].study.accents.green[5]",
+      "auditCurrentCs": "Velosipēdu",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "fahren",
+      "auditLvSource": "braukt",
+      "category": "FINDING",
+      "productionCurrentCs": "Velosipēdu",
+      "cardContext": {
+        "cardId": "a1-fahren",
+        "de": "fahren",
+        "csMain": "Řídit • Vést • Odvézt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00023",
+      "cardId": "a1-fahren",
+      "field": "study.sectionAccents.explanation.purple[1]",
+      "source": "deterministic",
+      "batch": "151-200",
+      "severity": "HIGH",
+      "auditProblem": "Foreign remnant (LV_WORD) in entry[172].study.sectionAccents.explanation.purple[1]",
+      "auditCurrentCs": "vest",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "fahren",
+      "auditLvSource": "braukt",
+      "category": "FINDING",
+      "productionCurrentCs": "vest",
+      "cardContext": {
+        "cardId": "a1-fahren",
+        "de": "fahren",
+        "csMain": "Řídit • Vést • Odvézt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00024",
+      "cardId": "a1-fahren",
+      "field": "study.sectionAccents.important[0].text.purple[0]",
+      "source": "deterministic",
+      "batch": "151-200",
+      "severity": "HIGH",
+      "auditProblem": "Foreign remnant (LV_WORD) in entry[172].study.sectionAccents.important[0].text.purple[0]",
+      "auditCurrentCs": "braukt",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "fahren",
+      "auditLvSource": "braukt",
+      "category": "FINDING",
+      "productionCurrentCs": "braukt",
+      "cardContext": {
+        "cardId": "a1-fahren",
+        "de": "fahren",
+        "csMain": "Řídit • Vést • Odvézt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00025",
+      "cardId": "a1-fahren",
+      "field": "study.sectionAccents.important[0].example.purple[0]",
+      "source": "deterministic",
+      "batch": "151-200",
+      "severity": "HIGH",
+      "auditProblem": "Foreign remnant (LV_WORD) in entry[172].study.sectionAccents.important[0].example.purple[0]",
+      "auditCurrentCs": "braukt",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "fahren",
+      "auditLvSource": "braukt",
+      "category": "FINDING",
+      "productionCurrentCs": "braukt",
+      "cardContext": {
+        "cardId": "a1-fahren",
+        "de": "fahren",
+        "csMain": "Řídit • Vést • Odvézt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00026",
+      "cardId": "a1-fahren",
+      "field": "study.sectionAccents.important[0].example.purple[1]",
+      "source": "deterministic",
+      "batch": "151-200",
+      "severity": "HIGH",
+      "auditProblem": "Foreign remnant (LV_WORD) in entry[172].study.sectionAccents.important[0].example.purple[1]",
+      "auditCurrentCs": "vest",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "fahren",
+      "auditLvSource": "braukt",
+      "category": "FINDING",
+      "productionCurrentCs": "vest",
+      "cardContext": {
+        "cardId": "a1-fahren",
+        "de": "fahren",
+        "csMain": "Řídit • Vést • Odvézt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00027",
+      "cardId": "a1-fahren",
+      "field": "study.sectionAccents.important[0].example.purple[2]",
+      "source": "deterministic",
+      "batch": "151-200",
+      "severity": "HIGH",
+      "auditProblem": "Foreign remnant (LV_WORD) in entry[172].study.sectionAccents.important[0].example.purple[2]",
+      "auditCurrentCs": "aizvest",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "fahren",
+      "auditLvSource": "braukt",
+      "category": "FINDING",
+      "productionCurrentCs": "aizvest",
+      "cardContext": {
+        "cardId": "a1-fahren",
+        "de": "fahren",
+        "csMain": "Řídit • Vést • Odvézt",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00005",
+      "cardId": "a1-Besuch-87",
+      "field": "study.layout",
+      "validationStatus": "MISSING_STUDY_PARITY",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Production has no study layout while this card is a documented LV/CS study-parity gap.",
+      "currentCs": null
+    },
+    {
+      "findingId": "FINAL-A1-00008",
+      "cardId": "a1-besuchen-89",
+      "field": "study.layout",
+      "validationStatus": "MISSING_STUDY_PARITY",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Production has no study layout while this card is a documented LV/CS study-parity gap.",
+      "currentCs": null
+    },
+    {
+      "findingId": "FINAL-A1-00015",
+      "cardId": "a1-es",
+      "field": "study.info[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Production text mixes Czech and Latvian and contains an incorrect German gloss.",
+      "currentCs": "Český “es” = vācu “ich”",
+      "proposedCs": "České „es“ = německé „to“"
+    },
+    {
+      "findingId": "FINAL-A1-00016",
+      "cardId": "a1-es",
+      "field": "study.info[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Production text is Latvian rather than Czech and contains a foreign-language remnant.",
+      "currentCs": "Vācu “es” = tas • Tā • Bezpersoniska forma",
+      "proposedCs": "Německé „es“ = to • To • Neosobní podoba"
+    },
+    {
+      "findingId": "FINAL-A1-00017",
+      "cardId": "a1-fahren",
+      "field": "study.important.example",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Production explanatory text is Latvian rather than Czech.",
+      "currentCs": "Vācu valodā viens un tas pats darbības vārds bieži nozīmē: braukt • Vest • Aizvest atkarībā no konteksta.",
+      "proposedCs": "V němčině může stejné sloveso často znamenat: řídit • vést • odvézt podle kontextu."
+    },
+    {
+      "findingId": "FINAL-A1-00018",
+      "cardId": "a1-fahren",
+      "field": "study.accents.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Production accent label is Latvian rather than Czech.",
+      "currentCs": "Braukt",
+      "proposedCs": "Řídit"
+    },
+    {
+      "findingId": "FINAL-A1-00019",
+      "cardId": "a1-fahren",
+      "field": "study.accents.purple[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Production accent label is Latvian rather than Czech.",
+      "currentCs": "Vest",
+      "proposedCs": "Vést"
+    },
+    {
+      "findingId": "FINAL-A1-00020",
+      "cardId": "a1-fahren",
+      "field": "study.accents.purple[4]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Production accent label is Latvian rather than Czech.",
+      "currentCs": "Aizvest",
+      "proposedCs": "Odvézt"
+    },
+    {
+      "findingId": "FINAL-A1-00021",
+      "cardId": "a1-fahren",
+      "field": "study.accents.green[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Production accent label is Latvian rather than Czech.",
+      "currentCs": "Transportlīdzekli",
+      "proposedCs": "Vozidlo"
+    },
+    {
+      "findingId": "FINAL-A1-00022",
+      "cardId": "a1-fahren",
+      "field": "study.accents.green[5]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Production accent label is Latvian rather than Czech.",
+      "currentCs": "Velosipēdu",
+      "proposedCs": "Jízdní kolo"
+    },
+    {
+      "findingId": "FINAL-A1-00023",
+      "cardId": "a1-fahren",
+      "field": "study.sectionAccents.explanation.purple[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Production explanation contains a Latvian word instead of Czech.",
+      "currentCs": "vest",
+      "proposedCs": "vést"
+    },
+    {
+      "findingId": "FINAL-A1-00024",
+      "cardId": "a1-fahren",
+      "field": "study.sectionAccents.important[0].text.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Production example contains a Latvian word instead of Czech.",
+      "currentCs": "braukt",
+      "proposedCs": "řídit"
+    },
+    {
+      "findingId": "FINAL-A1-00025",
+      "cardId": "a1-fahren",
+      "field": "study.sectionAccents.important[0].example.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Production example contains a Latvian word instead of Czech.",
+      "currentCs": "braukt",
+      "proposedCs": "řídit"
+    },
+    {
+      "findingId": "FINAL-A1-00026",
+      "cardId": "a1-fahren",
+      "field": "study.sectionAccents.important[0].example.purple[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Production example contains a Latvian word instead of Czech.",
+      "currentCs": "vest",
+      "proposedCs": "vést"
+    },
+    {
+      "findingId": "FINAL-A1-00027",
+      "cardId": "a1-fahren",
+      "field": "study.sectionAccents.important[0].example.purple[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Production example contains a Latvian word instead of Czech.",
+      "currentCs": "aizvest",
+      "proposedCs": "odvézt"
+    }
+  ]
+}

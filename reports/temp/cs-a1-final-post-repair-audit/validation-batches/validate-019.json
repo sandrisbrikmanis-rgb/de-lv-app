@@ -1,0 +1,487 @@
+{
+  "batch": "validate-019",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00342",
+      "cardId": "a1-kosten",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Kosten se při ceně překládá hlavně jako „stát“; „platit“ označuje jednání osoby a patří k bezahlen/zahlen.",
+      "auditCurrentCs": "Platit",
+      "auditProposedCs": "Stát",
+      "auditDe": "kosten",
+      "auditLvSource": "maksāt",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Platit",
+      "cardContext": {
+        "cardId": "a1-kosten",
+        "de": "kosten",
+        "csMain": "Platit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00343",
+      "cardId": "a1-kosten",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Hlavní překlad směšuje cenu věci s provedením platby, které němčina vyjadřuje bezahlen nebo zahlen.",
+      "auditCurrentCs": "Platit",
+      "auditProposedCs": "Stát",
+      "auditDe": "kosten",
+      "auditLvSource": "maksāt",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Platit",
+      "cardContext": {
+        "cardId": "a1-kosten",
+        "de": "kosten",
+        "csMain": "Platit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00344",
+      "cardId": "a1-kosten",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Zaplatit“ znamená provést platbu, zatímco kosten se ptá na cenu nebo ji uvádí.",
+      "auditCurrentCs": "Zaplatit (cena) • Kolik",
+      "auditProposedCs": "Stát (cenu) • Kolik stát",
+      "auditDe": "kosten",
+      "auditLvSource": "maksāt (cenu) • cik maksā",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Zaplatit (cena) • Kolik",
+      "cardContext": {
+        "cardId": "a1-kosten",
+        "de": "kosten",
+        "csMain": "Platit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00345",
+      "cardId": "a1-laden-study",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Velké Laden je podstatné jméno „obchod“; „nakupovat“ odpovídá spíše einkaufen.",
+      "auditCurrentCs": "Nakupovat",
+      "auditProposedCs": "Obchod",
+      "auditDe": "Laden",
+      "auditLvSource": "veikals",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Nakupovat",
+      "cardContext": {
+        "cardId": "a1-laden-study",
+        "de": "Laden",
+        "csMain": "Nakupovat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00346",
+      "cardId": "a1-laden-study",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Studijní překlad zaměňuje podstatné jméno Laden za sloveso nakupovat.",
+      "auditCurrentCs": "Nakupovat",
+      "auditProposedCs": "Obchod",
+      "auditDe": "Laden",
+      "auditLvSource": "veikals",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Nakupovat",
+      "cardContext": {
+        "cardId": "a1-laden-study",
+        "de": "Laden",
+        "csMain": "Nakupovat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00347",
+      "cardId": "a1-laden-study",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německé muss vyjadřuje povinnost „musím“, nikoli potřebu „potřebuji“.",
+      "auditCurrentCs": "Potřebuji nabít telefon.",
+      "auditProposedCs": "Musím nabít telefon.",
+      "auditDe": "Ich muss mein Handy laden.",
+      "auditLvSource": "man jāuzlādē telefons.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Potřebuji nabít telefon.",
+      "cardContext": {
+        "cardId": "a1-laden-study",
+        "de": "Laden",
+        "csMain": "Nakupovat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00348",
+      "cardId": "a1-land",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Druhá položka opakuje první a ztrácí význam „venkov“ při opozici vůči městu.",
+      "auditCurrentCs": "Země • Země",
+      "auditProposedCs": "Země • Venkov",
+      "auditDe": "Land",
+      "auditLvSource": "valsts • zeme",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Země • Země",
+      "cardContext": {
+        "cardId": "a1-land",
+        "de": "Land",
+        "csMain": "Země • Země",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00349",
+      "cardId": "a1-land",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Dorf označuje vesnici; „obec“ je širší administrativní pojem a není přesným základním překladem.",
+      "auditCurrentCs": "Obec",
+      "auditProposedCs": "Vesnice",
+      "auditDe": "das Dorf",
+      "auditLvSource": "ciems",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Obec",
+      "cardContext": {
+        "cardId": "a1-land",
+        "de": "Land",
+        "csMain": "Země • Země",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00350",
+      "cardId": "a1-land",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Věta obsahuje zjevně duplicitní a nesmyslný kontrast; má rozlišovat venkov a stát.",
+      "auditCurrentCs": "Aufs Land znamená „na venkov“, nikoli „na venkov“.",
+      "auditProposedCs": "Aufs Land znamená „na venkov“, nikoli „do státu“.",
+      "auditDe": "Aufs Land",
+      "auditLvSource": "uz laukiem",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Aufs Land znamená „na venkov“, nikoli „na venkov“.",
+      "cardContext": {
+        "cardId": "a1-land",
+        "de": "Land",
+        "csMain": "Země • Země",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00351",
+      "cardId": "a1-lang",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Časový význam lang se v uvedených příkladech často překládá příslovcem „dlouho“, ne druhým „dlouhý“.",
+      "auditCurrentCs": "Dlouhý • Dlouhý",
+      "auditProposedCs": "Dlouhý • Dlouho",
+      "auditDe": "lang",
+      "auditLvSource": "garš • ilgs",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Dlouhý • Dlouhý",
+      "cardContext": {
+        "cardId": "a1-lang",
+        "de": "lang",
+        "csMain": "Dlouhý • Dlouhý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00352",
+      "cardId": "a1-lang",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Hlavní překlad opakuje stejný český tvar a neodlišuje prostorový a časový význam.",
+      "auditCurrentCs": "Dlouhý • Dlouhý",
+      "auditProposedCs": "Dlouhý • Dlouho",
+      "auditDe": "lang",
+      "auditLvSource": "garš • ilgs",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Dlouhý • Dlouhý",
+      "cardContext": {
+        "cardId": "a1-lang",
+        "de": "lang",
+        "csMain": "Dlouhý • Dlouhý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00353",
+      "cardId": "a1-lang",
+      "field": "study.explanation[4]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Vysvětlení tvrdí, že dvě identická česká slova jsou různá, a proto je nesrozumitelné.",
+      "auditCurrentCs": "České „dlouhý“ a „dlouhý“ jsou dvě různá slova, ale německý jazyk zahrnuje oba významy.",
+      "auditProposedCs": "České „dlouhý“ a „dlouho“ jsou dvě různé formy, zatímco německé lang pokrývá oba významy.",
+      "auditDe": "lang",
+      "auditLvSource": "garš • ilgs",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "České „dlouhý“ a „dlouhý“ jsou dvě různá slova, ale německý jazyk zahrnuje oba významy.",
+      "cardContext": {
+        "cardId": "a1-lang",
+        "de": "lang",
+        "csMain": "Dlouhý • Dlouhý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00354",
+      "cardId": "a1-lang",
+      "field": "study.examples[5].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Dodatek „na délku“ je v češtině v této frázi nepřirozený a významově zavádějící.",
+      "auditCurrentCs": "Celý den (na délku).",
+      "auditProposedCs": "Celý den.",
+      "auditDe": "Den ganzen Tag lang.",
+      "auditLvSource": "visu dienu (garumā).",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Celý den (na délku).",
+      "cardContext": {
+        "cardId": "a1-lang",
+        "de": "lang",
+        "csMain": "Dlouhý • Dlouhý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00355",
+      "cardId": "a1-lassen",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Opustit znamená odejít nebo zanechat někoho; základní význam lassen je zde nechat a dovolit.",
+      "auditCurrentCs": "Opustit • Nechat",
+      "auditProposedCs": "Nechat • Dovolit",
+      "auditDe": "lassen",
+      "auditLvSource": "atstāt • ļaut",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Opustit • Nechat",
+      "cardContext": {
+        "cardId": "a1-lassen",
+        "de": "lassen",
+        "csMain": "Opustit • Nechat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00356",
+      "cardId": "a1-lassen",
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Odejít“ je chybný význam; německé lassen v tomto použití znamená něco nechat.",
+      "auditCurrentCs": "Pokud něco zůstane na místě, lassen se překládá jako odejít.",
+      "auditProposedCs": "Pokud něco necháte na místě, lassen se překládá jako nechat.",
+      "auditDe": "lassen",
+      "auditLvSource": "atstāt • ļaut",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pokud něco zůstane na místě, lassen se překládá jako odejít.",
+      "cardContext": {
+        "cardId": "a1-lassen",
+        "de": "lassen",
+        "csMain": "Opustit • Nechat",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00342",
+      "cardId": "a1-kosten",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Německé kosten označuje cenu nebo náklad; české „platit“ označuje provedení platby.",
+      "currentCs": "Platit",
+      "proposedCs": "Stát"
+    },
+    {
+      "findingId": "FINAL-A1-00343",
+      "cardId": "a1-kosten",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Studijní překlad zaměňuje cenu za činnost placení.",
+      "currentCs": "Platit",
+      "proposedCs": "Stát"
+    },
+    {
+      "findingId": "FINAL-A1-00344",
+      "cardId": "a1-kosten",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Zaplatit“ znamená provést platbu, nikoli vyjádřit cenu.",
+      "currentCs": "Zaplatit (cena) • Kolik",
+      "proposedCs": "Stát (cenu) • Kolik stát"
+    },
+    {
+      "findingId": "FINAL-A1-00345",
+      "cardId": "a1-laden-study",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Velké německé Laden je podstatné jméno „obchod“, nikoli sloveso „nakupovat“.",
+      "currentCs": "Nakupovat",
+      "proposedCs": "Obchod"
+    },
+    {
+      "findingId": "FINAL-A1-00346",
+      "cardId": "a1-laden-study",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Studijní překlad zaměňuje podstatné jméno Laden za sloveso „nakupovat“.",
+      "currentCs": "Nakupovat",
+      "proposedCs": "Obchod"
+    },
+    {
+      "findingId": "FINAL-A1-00347",
+      "cardId": "a1-laden-study",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "V této větě muss vyjadřuje povinnost „musím“, ne potřebu „potřebuji“.",
+      "currentCs": "Potřebuji nabít telefon.",
+      "proposedCs": "Musím nabít telefon."
+    },
+    {
+      "findingId": "FINAL-A1-00348",
+      "cardId": "a1-land",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Duplicitní „země“ nerozlišuje význam venkova oproti státu nebo zemi.",
+      "currentCs": "Země • Země",
+      "proposedCs": "Země • Venkov"
+    },
+    {
+      "findingId": "FINAL-A1-00349",
+      "cardId": "a1-land",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Dorf znamená konkrétně „vesnice“; „obec“ je širší administrativní pojem.",
+      "currentCs": "Obec",
+      "proposedCs": "Vesnice"
+    },
+    {
+      "findingId": "FINAL-A1-00350",
+      "cardId": "a1-land",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Věta opakuje stejný význam a neodlišuje venkov od státu.",
+      "currentCs": "Aufs Land znamená „na venkov“, nikoli „na venkov“.",
+      "proposedCs": "Aufs Land znamená „na venkov“, nikoli „do státu“."
+    },
+    {
+      "findingId": "FINAL-A1-00351",
+      "cardId": "a1-lang",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Druhý význam lang je příslovečné „dlouho“, ne opakované přídavné jméno „dlouhý“.",
+      "currentCs": "Dlouhý • Dlouhý",
+      "proposedCs": "Dlouhý • Dlouho"
+    },
+    {
+      "findingId": "FINAL-A1-00352",
+      "cardId": "a1-lang",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Hlavní překlad nerozlišuje prostorový význam „dlouhý“ a časový význam „dlouho“.",
+      "currentCs": "Dlouhý • Dlouhý",
+      "proposedCs": "Dlouhý • Dlouho"
+    },
+    {
+      "findingId": "FINAL-A1-00353",
+      "cardId": "a1-lang",
+      "field": "study.explanation[4]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Vysvětlení označuje dvě identická česká slova za různá a je proto nesrozumitelné.",
+      "currentCs": "České „dlouhý“ a „dlouhý“ jsou dvě různá slova, ale německý jazyk zahrnuje oba významy.",
+      "proposedCs": "České „dlouhý“ a „dlouho“ jsou dvě různé formy, zatímco německé lang pokrývá oba významy."
+    },
+    {
+      "findingId": "FINAL-A1-00354",
+      "cardId": "a1-lang",
+      "field": "study.examples[5].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Dodatek „na délku“ je v této české větě nepřirozený a zavádějící.",
+      "currentCs": "Celý den (na délku).",
+      "proposedCs": "Celý den."
+    },
+    {
+      "findingId": "FINAL-A1-00355",
+      "cardId": "a1-lassen",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "V uvedeném základním významu lassen znamená „nechat“ nebo „dovolit“, ne „opustit“.",
+      "currentCs": "Opustit • Nechat",
+      "proposedCs": "Nechat • Dovolit"
+    },
+    {
+      "findingId": "FINAL-A1-00356",
+      "cardId": "a1-lassen",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Vysvětlení chybně překládá lassen jako „odejít“ místo „nechat“.",
+      "currentCs": "Pokud něco zůstane na místě, lassen se překládá jako odejít.",
+      "proposedCs": "Pokud něco necháte na místě, lassen se překládá jako nechat."
+    }
+  ]
+}

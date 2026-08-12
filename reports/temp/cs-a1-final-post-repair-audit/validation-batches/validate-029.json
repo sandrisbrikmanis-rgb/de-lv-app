@@ -1,0 +1,486 @@
+{
+  "batch": "validate-029",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00494",
+      "cardId": "a1-was",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Was znamená „co“, nikoli „kdo“; otázka na osoby je wer.",
+      "auditCurrentCs": "Kdo • Co",
+      "auditProposedCs": "Co",
+      "auditDe": "was",
+      "auditLvSource": "kas • ko",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Kdo • Co",
+      "cardContext": {
+        "cardId": "a1-was",
+        "de": "was",
+        "csMain": "Kdo • Co",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00495",
+      "cardId": "a1-was",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Was znamená „co“, nikoli „kdo“; otázka na osoby je wer.",
+      "auditCurrentCs": "Kdo • Co",
+      "auditProposedCs": "Co",
+      "auditDe": "was",
+      "auditLvSource": "kas • ko",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Kdo • Co",
+      "cardContext": {
+        "cardId": "a1-was",
+        "de": "was",
+        "csMain": "Kdo • Co",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00496",
+      "cardId": "a1-was",
+      "field": "study.examples[5].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německé dein je neformální jednotné číslo; české „vaše“ mění osobu nebo zdvořilostní registr.",
+      "auditCurrentCs": "Jaké je vaše oblíbené jídlo?",
+      "auditProposedCs": "Jaké je tvé oblíbené jídlo?",
+      "auditDe": "Was ist dein Lieblingsessen?",
+      "auditLvSource": "Kas ir tavs mīļākais ēdiens?",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Jaké je vaše oblíbené jídlo?",
+      "cardContext": {
+        "cardId": "a1-was",
+        "de": "was",
+        "csMain": "Kdo • Co",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00497",
+      "cardId": "a1-was",
+      "field": "study.explanation[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Text obsahuje nesmyslné opakování „co nebo co“ a nejasnou formulaci.",
+      "auditCurrentCs": "Hlavní myšlenka: co je tázací slovo o věcech a událostech - v češtině je to co nebo co, v závislosti na části věty.",
+      "auditProposedCs": "Hlavní myšlenka: was je tázací slovo pro věci a události; v češtině znamená podle větné funkce „co“ nebo „jaké“.",
+      "auditDe": "was",
+      "auditLvSource": "was ir jautājamvārds par lietām un notikumiem",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Hlavní myšlenka: co je tázací slovo o věcech a událostech - v češtině je to co nebo co, v závislosti na části věty.",
+      "cardContext": {
+        "cardId": "a1-was",
+        "de": "was",
+        "csMain": "Kdo • Co",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00498",
+      "cardId": "a1-was",
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Pasivní a neosobní formulace je gramaticky i významově vadná.",
+      "auditCurrentCs": "Byl dotazován na věci, události a fakta, nikoli na osoby.",
+      "auditProposedCs": "Ptáme se jím na věci, události a fakta, nikoli na osoby.",
+      "auditDe": "was",
+      "auditLvSource": "was jautā par lietām, notikumiem un faktiem, nevis par personām.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Byl dotazován na věci, události a fakta, nikoli na osoby.",
+      "cardContext": {
+        "cardId": "a1-was",
+        "de": "was",
+        "csMain": "Kdo • Co",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00499",
+      "cardId": "a1-was",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Vypadá jako bylo“ je chybný a zavádějící překlad slova was.",
+      "auditCurrentCs": "V němčině se was nemění po skloňování - vždy to vypadá jako bylo.",
+      "auditProposedCs": "V němčině se was při skloňování nemění – vždy má stejný tvar.",
+      "auditDe": "was",
+      "auditLvSource": "Vācu valodā was nemainās pēc locījuma — tas vienmēr izskatās was.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "V němčině se was nemění po skloňování - vždy to vypadá jako bylo.",
+      "cardContext": {
+        "cardId": "a1-was",
+        "de": "was",
+        "csMain": "Kdo • Co",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00500",
+      "cardId": "a1-was",
+      "field": "study.important[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Výklad je srozumitelný, ale příklad je nepřirozený a významově posunutý k otázce „o jaký druh“.",
+      "auditCurrentCs": "Was für (ein/eine) znamená „jaký/jaká“ a ptá se na vlastnost nebo typ (Was für ein Film ist das? = O jaký druh filmu jde?).",
+      "auditProposedCs": "Was für (ein/eine) znamená „jaký/jaká“ a ptá se na vlastnost nebo druh (Was für ein Film ist das? = Jaký je to film?).",
+      "auditDe": "was für (ein/eine)",
+      "auditLvSource": "was für ... nozīmē kāds/kas par",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Was für (ein/eine) znamená „jaký/jaká“ a ptá se na vlastnost nebo typ (Was für ein Film ist das? = O jaký druh filmu jde?).",
+      "cardContext": {
+        "cardId": "a1-was",
+        "de": "was",
+        "csMain": "Kdo • Co",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00501",
+      "cardId": "a1-was",
+      "field": "study.important[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "CRITICAL",
+      "auditProblem": "Navržená správná věta je směs češtiny a němčiny a není překladem německého Was ist passiert?.",
+      "auditCurrentCs": "Špatně: Wer ist passiert? → Správně: Bylo to passiert?",
+      "auditProposedCs": "Špatně: Wer ist passiert? → Správně: Co se stalo?",
+      "auditDe": "Was ist passiert?",
+      "auditLvSource": "Was ist passiert?",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Špatně: Wer ist passiert? → Správně: Bylo to passiert?",
+      "cardContext": {
+        "cardId": "a1-was",
+        "de": "was",
+        "csMain": "Kdo • Co",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00502",
+      "cardId": "a1-wenn",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Chtít“ je chybný překlad slova wann a nahrazuje německý výraz českým slovesem.",
+      "auditCurrentCs": "Pamatujte: podmínka → wenn • Otázka \"kdy?\" → chtít.",
+      "auditProposedCs": "Pamatujte: podmínka nebo opakovaný čas → wenn • Otázka „kdy?“ → wann.",
+      "auditDe": "wenn",
+      "auditLvSource": "Atceries: nosacījums → wenn; jautājums “kad?” → wann.",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Pamatujte: podmínka → wenn • Otázka \"kdy?\" → chtít.",
+      "cardContext": {
+        "cardId": "a1-wenn",
+        "de": "wenn",
+        "csMain": "Jestliže • Kdy",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00503",
+      "cardId": "a1-wenn",
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Kdyby vyjadřuje hypotetickou podmínku a není obecným překladem přítomného wenn.",
+      "auditCurrentCs": "Pokud je to podmínka, přeložte jako kdyby.",
+      "auditProposedCs": "Pokud jde o podmínku, přeložte jako jestli, pokud nebo když.",
+      "auditDe": "wenn",
+      "auditLvSource": "Ja runa ir par nosacījumu, tulko kā ja.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pokud je to podmínka, přeložte jako kdyby.",
+      "cardContext": {
+        "cardId": "a1-wenn",
+        "de": "wenn",
+        "csMain": "Jestliže • Kdy",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00504",
+      "cardId": "a1-wenn",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Ob znamená „zda/jestli“, nikoli „nebo“.",
+      "auditCurrentCs": "Nebo v nepřímé otázce",
+      "auditProposedCs": "Zda nebo jestli v nepřímé otázce",
+      "auditDe": "ob",
+      "auditLvSource": "vai netiešā jautājumā",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Nebo v nepřímé otázce",
+      "cardContext": {
+        "cardId": "a1-wenn",
+        "de": "wenn",
+        "csMain": "Jestliže • Kdy",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00505",
+      "cardId": "a1-wenn",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Stav/napětí“ je nesmyslná a pro studenty zavádějící formulace.",
+      "auditCurrentCs": "Kdy přijedeš? je tu otázka. Wenn du kom­meš... je stav/napětí.",
+      "auditProposedCs": "„Kdy přijedeš?“ je otázka. „Wenn du kommst…“ vyjadřuje podmínku nebo čas.",
+      "auditDe": "wenn / wann",
+      "auditLvSource": "Wenn du kommst... ir nosacījums/laiks.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Kdy přijedeš? je tu otázka. Wenn du kommst... je stav/napětí.",
+      "cardContext": {
+        "cardId": "a1-wenn",
+        "de": "wenn",
+        "csMain": "Jestliže • Kdy",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00506",
+      "cardId": "a1-wer",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Wer se ptá na osobu; „co“ odpovídá německému was.",
+      "auditCurrentCs": "Co je to?",
+      "auditProposedCs": "Kdo je to?",
+      "auditDe": "Wer ist das?",
+      "auditLvSource": "Kas tas ir?",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Co je to?",
+      "cardContext": {
+        "cardId": "a1-wer",
+        "de": "wer",
+        "csMain": "Kdo • Kdo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00507",
+      "cardId": "a1-wer",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Wer znamená „kdo“, nikoli „co“; navíc přijde mění význam na budoucí děj.",
+      "auditCurrentCs": "Co přijde dnes?",
+      "auditProposedCs": "Kdo dnes přijde?",
+      "auditDe": "Wer kommt heute?",
+      "auditLvSource": "Kas šodien nāk?",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Co přijde dnes?",
+      "cardContext": {
+        "cardId": "a1-wer",
+        "de": "wer",
+        "csMain": "Kdo • Kdo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00508",
+      "cardId": "a1-wer",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Lehrerin je ženský rod; český překlad má mužský rod a chybí otazník.",
+      "auditCurrentCs": "Kdo je tvůj učitel",
+      "auditProposedCs": "Kdo je tvoje učitelka?",
+      "auditDe": "Wer ist deine Lehrerin?",
+      "auditLvSource": "Kas ir tava skolotāja?",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Kdo je tvůj učitel",
+      "cardContext": {
+        "cardId": "a1-wer",
+        "de": "wer",
+        "csMain": "Kdo • Kdo",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00494",
+      "cardId": "a1-was",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Německé was znamená „co“, nikoli „kdo“. Překlad „Kdo • Co“ obsahuje nesprávný význam.",
+      "currentCs": "Kdo • Co",
+      "proposedCs": "Co"
+    },
+    {
+      "findingId": "FINAL-A1-00495",
+      "cardId": "a1-was",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Německé was znamená „co“, nikoli „kdo“. Studijní překlad obsahuje nesprávnou možnost.",
+      "currentCs": "Kdo • Co",
+      "proposedCs": "Co"
+    },
+    {
+      "findingId": "FINAL-A1-00496",
+      "cardId": "a1-was",
+      "field": "study.examples[5].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Dein je neformální jednotné oslovení; české „vaše“ mění osobu nebo registr oproti německému originálu.",
+      "currentCs": "Jaké je vaše oblíbené jídlo?",
+      "proposedCs": "Jaké je tvé oblíbené jídlo?"
+    },
+    {
+      "findingId": "FINAL-A1-00497",
+      "cardId": "a1-was",
+      "field": "study.explanation[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Vysvětlení obsahuje nesmyslné opakování „co nebo co“ a neposkytuje správné české významy.",
+      "currentCs": "Hlavní myšlenka: co je tázací slovo o věcech a událostech - v češtině je to co nebo co, v závislosti na části věty.",
+      "proposedCs": "Hlavní myšlenka: was je tázací slovo pro věci a události; v češtině znamená podle větné funkce „co“ nebo „jaké“."
+    },
+    {
+      "findingId": "FINAL-A1-00498",
+      "cardId": "a1-was",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "MEDIUM",
+      "reason": "Pasivní formulace je v tomto výkladu nepřirozená a nejasně vyjadřuje, kdo a na co se slovem was ptá.",
+      "currentCs": "Byl dotazován na věci, události a fakta, nikoli na osoby.",
+      "proposedCs": "Slovem was se ptáme na věci, události a fakta, nikoli na osoby."
+    },
+    {
+      "findingId": "FINAL-A1-00499",
+      "cardId": "a1-was",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Část „vypadá jako bylo“ chybně překládá a popisuje slovo was.",
+      "currentCs": "V němčině se was nemění po skloňování - vždy to vypadá jako bylo.",
+      "proposedCs": "V němčině se was při skloňování nemění – vždy má stejný tvar."
+    },
+    {
+      "findingId": "FINAL-A1-00500",
+      "cardId": "a1-was",
+      "field": "study.important[2]",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "„O jaký druh filmu jde?“ je správný a srozumitelný český překlad otázky na druh nebo typ filmu; jde jen o stylistickou preferenci.",
+      "currentCs": "Was für (ein/eine) znamená „jaký/jaká“ a ptá se na vlastnost nebo typ (Was für ein Film ist das? = O jaký druh filmu jde?)."
+    },
+    {
+      "findingId": "FINAL-A1-00501",
+      "cardId": "a1-was",
+      "field": "study.important[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Současný text obsahuje německo-českou směs a nepřekládá správně větu Was ist passiert?",
+      "currentCs": "Špatně: Wer ist passiert? → Správně: Bylo to passiert?",
+      "proposedCs": "Špatně: Wer ist passiert? → Správně: Co se stalo?"
+    },
+    {
+      "findingId": "FINAL-A1-00502",
+      "cardId": "a1-wenn",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Chtít“ je chybný český ekvivalent; otázka „kdy?“ odpovídá německému wann.",
+      "currentCs": "Pamatujte: podmínka → wenn • Otázka \"kdy?\" → chtít.",
+      "proposedCs": "Pamatujte: podmínka nebo opakovaný čas → wenn • Otázka „kdy?“ → wann."
+    },
+    {
+      "findingId": "FINAL-A1-00503",
+      "cardId": "a1-wenn",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Kdyby vyjadřuje hypotetickou podmínku, zatímco wenn má podle kontextu význam jestli, pokud nebo když.",
+      "currentCs": "Pokud je to podmínka, přeložte jako kdyby.",
+      "proposedCs": "Pokud jde o podmínku, přeložte jako jestli, pokud nebo když."
+    },
+    {
+      "findingId": "FINAL-A1-00504",
+      "cardId": "a1-wenn",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Německé ob v nepřímé otázce znamená „zda“ nebo „jestli“, nikoli „nebo“.",
+      "currentCs": "Nebo v nepřímé otázce",
+      "proposedCs": "Zda nebo jestli v nepřímé otázce"
+    },
+    {
+      "findingId": "FINAL-A1-00505",
+      "cardId": "a1-wenn",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Výraz „stav/napětí“ je v tomto kontrastu nesmyslný a neposkytuje studentovi význam wenn du kommst.",
+      "currentCs": "Kdy přijedeš? je tu otázka. Wenn du kom­meš... je stav/napětí.",
+      "proposedCs": "„Kdy přijedeš?“ je otázka. „Wenn du kommst…“ vyjadřuje podmínku nebo čas."
+    },
+    {
+      "findingId": "FINAL-A1-00506",
+      "cardId": "a1-wer",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Wer se ptá na osobu, proto český překlad musí být „Kdo je to?“, nikoli „Co je to?“",
+      "currentCs": "Co je to?",
+      "proposedCs": "Kdo je to?"
+    },
+    {
+      "findingId": "FINAL-A1-00507",
+      "cardId": "a1-wer",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Wer znamená „kdo“; současný překlad mění otázku na osobu na otázku o věci a ději.",
+      "currentCs": "Co přijde dnes?",
+      "proposedCs": "Kdo dnes přijde?"
+    },
+    {
+      "findingId": "FINAL-A1-00508",
+      "cardId": "a1-wer",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Lehrerin je ženský rod. Překlad má mužský rod a chybí mu otazník.",
+      "currentCs": "Kdo je tvůj učitel",
+      "proposedCs": "Kdo je tvoje učitelka?"
+    }
+  ]
+}

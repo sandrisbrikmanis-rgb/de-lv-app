@@ -1,0 +1,477 @@
+{
+  "batch": "validate-011",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00216",
+      "cardId": "a1-bringen",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Přestěhovat se znamená změnit bydliště, ne dopravit předmět nebo osobu.",
+      "auditCurrentCs": "Pamatujte: přestěhovat se k někomu → přinést • Vzít si pro sebe → nehmen.",
+      "auditProposedCs": "Pamatujte: něco někomu nebo někam dopravit → bringen • vzít si něco pro sebe → nehmen.",
+      "auditDe": "bringen",
+      "auditLvSource": "nogādāt pie citas personas vai vietā",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pamatujte: přestěhovat se k někomu → přinést • Vzít si pro sebe → nehmen.",
+      "cardContext": {
+        "cardId": "a1-bringen",
+        "de": "bringen",
+        "csMain": "Přinést • Odnést",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00217",
+      "cardId": "a1-bringen",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Věta je nesrozumitelná a nepopisuje správně význam slovesa bringen.",
+      "auditCurrentCs": "Přinesený ukazuje někomu směr nebo místo.",
+      "auditProposedCs": "Bringen vyjadřuje směr k osobě nebo na určité místo.",
+      "auditDe": "bringen",
+      "auditLvSource": "nogādāt",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Přinesený ukazuje někomu směr nebo místo.",
+      "cardContext": {
+        "cardId": "a1-bringen",
+        "de": "bringen",
+        "csMain": "Přinést • Odnést",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00218",
+      "cardId": "a1-das",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Neuter není běžný český termín; přirozeně se říká střední rod.",
+      "auditCurrentCs": "Neuter určitý člen",
+      "auditProposedCs": "Určitý člen středního rodu",
+      "auditDe": "das",
+      "auditLvSource": "vidus dzimtes noteiktais artikuls",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Neuter určitý člen",
+      "cardContext": {
+        "cardId": "a1-das",
+        "de": "das",
+        "csMain": "Neuter určitý člen",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00219",
+      "cardId": "a1-das",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Překlad používá cizojazyčný termín místo běžného českého označení.",
+      "auditCurrentCs": "Neuter určitý člen",
+      "auditProposedCs": "Určitý člen středního rodu",
+      "auditDe": "das",
+      "auditLvSource": "vidus dzimtes noteiktais artikuls",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Neuter určitý člen",
+      "cardContext": {
+        "cardId": "a1-das",
+        "de": "das",
+        "csMain": "Neuter určitý člen",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00220",
+      "cardId": "a1-das",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Welches je zájmeno pro věci, nikoli kdo; poslední význam je chybný.",
+      "auditCurrentCs": "Kdo • Který • Kdo",
+      "auditProposedCs": "Který • která • které",
+      "auditDe": "welches",
+      "auditLvSource": "kurš • kura • kuru",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Kdo • Který • Kdo",
+      "cardContext": {
+        "cardId": "a1-das",
+        "de": "das",
+        "csMain": "Neuter určitý člen",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00221",
+      "cardId": "a1-das",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Střední genitiv je chybný termín; das se vztahuje ke střednímu rodu.",
+      "auditCurrentCs": "Pamatujte: střední genitiv → das • Že → dass.",
+      "auditProposedCs": "Pamatujte: střední rod → das • že → dass.",
+      "auditDe": "das",
+      "auditLvSource": "vidus dzimte → das; ka → dass",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Pamatujte: střední genitiv → das • Že → dass.",
+      "cardContext": {
+        "cardId": "a1-das",
+        "de": "das",
+        "csMain": "Neuter určitý člen",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00222",
+      "cardId": "a1-das",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Dass jako spojka znamená že, nikoli to.",
+      "auditCurrentCs": "Das není totéž co dass – das může být člen nebo zájmeno, dass znamená 'to'.",
+      "auditProposedCs": "Das není totéž co dass – das může být člen nebo zájmeno, dass znamená „že“.",
+      "auditDe": "dass",
+      "auditLvSource": "ka",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Das není totéž co dass – das může být člen nebo zájmeno, dass znamená 'to'.",
+      "cardContext": {
+        "cardId": "a1-das",
+        "de": "das",
+        "csMain": "Neuter určitý člen",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00223",
+      "cardId": "a1-dass",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Damit ve vedlejší větě účelové znamená aby, nikoli předložku na.",
+      "auditCurrentCs": "Na",
+      "auditProposedCs": "Aby",
+      "auditDe": "damit",
+      "auditLvSource": "lai",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Na",
+      "cardContext": {
+        "cardId": "a1-dass",
+        "de": "dass",
+        "csMain": "Že",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00224",
+      "cardId": "a1-dass",
+      "field": "study.comparison[3].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Ob uvádí nepřímou otázku a znamená zda nebo jestli, nikoli nebo.",
+      "auditCurrentCs": "Nebo",
+      "auditProposedCs": "Zda • jestli",
+      "auditDe": "ob",
+      "auditLvSource": "vai",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Nebo",
+      "cardContext": {
+        "cardId": "a1-dass",
+        "de": "dass",
+        "csMain": "Že",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00225",
+      "cardId": "a1-dass",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Český ekvivalent dass je že, nikoli to.",
+      "auditCurrentCs": "Pamatujte: to → dass.",
+      "auditProposedCs": "Pamatujte: že → dass.",
+      "auditDe": "dass",
+      "auditLvSource": "ka",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Pamatujte: to → dass.",
+      "cardContext": {
+        "cardId": "a1-dass",
+        "de": "dass",
+        "csMain": "Že",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00226",
+      "cardId": "a1-dass",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Chybný překlad spojky a nepřirozený termín pomocná klauzule.",
+      "auditCurrentCs": "Dass znamená „to“ a zavádí pomocnou klauzuli.",
+      "auditProposedCs": "Dass znamená „že“ a uvádí vedlejší větu.",
+      "auditDe": "dass",
+      "auditLvSource": "ka",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Dass znamená „to“ a zavádí pomocnou klauzuli.",
+      "cardContext": {
+        "cardId": "a1-dass",
+        "de": "dass",
+        "csMain": "Že",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00227",
+      "cardId": "a1-der",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Český slovosled je nepřirozený; přirozeně se říká „určitý člen mužského rodu“.",
+      "auditCurrentCs": "Mužský rod určitý člen",
+      "auditProposedCs": "Určitý člen mužského rodu",
+      "auditDe": "der",
+      "auditLvSource": "vīriešu dzimtes noteiktais artikuls",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Mužský rod určitý člen",
+      "cardContext": {
+        "cardId": "a1-der",
+        "de": "der",
+        "csMain": "Mužský rod určitý člen",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00228",
+      "cardId": "a1-der",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Český slovosled je nepřirozený; přirozeně se říká „určitý člen mužského rodu“.",
+      "auditCurrentCs": "Mužský rod určitý člen",
+      "auditProposedCs": "Určitý člen mužského rodu",
+      "auditDe": "der",
+      "auditLvSource": "vīriešu dzimtes noteiktais artikuls",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Mužský rod určitý člen",
+      "cardContext": {
+        "cardId": "a1-der",
+        "de": "der",
+        "csMain": "Mužský rod určitý člen",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00229",
+      "cardId": "a1-der",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Sedí“ je chybně přeložený význam; německé der je určitý člen mužského rodu.",
+      "auditCurrentCs": "Pamatujte: mužský → sedí.",
+      "auditProposedCs": "Pamatujte: mužský rod → der.",
+      "auditDe": "der",
+      "auditLvSource": "Atceries: vīriešu dzimte → der.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pamatujte: mužský → sedí.",
+      "cardContext": {
+        "cardId": "a1-der",
+        "de": "der",
+        "csMain": "Mužský rod určitý člen",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00230",
+      "cardId": "a1-die",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Název je zkrácený a nepřirozený; chybí výslovné označení rodu.",
+      "auditCurrentCs": "Ženský určitý člen",
+      "auditProposedCs": "Určitý člen ženského rodu",
+      "auditDe": "die",
+      "auditLvSource": "sieviešu dzimtes noteiktais artikuls",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Ženský určitý člen",
+      "cardContext": {
+        "cardId": "a1-die",
+        "de": "die",
+        "csMain": "Ženský určitý člen",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00216",
+      "cardId": "a1-bringen",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Text incorrectly equates bringen with moving house and uses an incorrect contrast with nehmen.",
+      "currentCs": "Pamatujte: přestěhovat se k někomu → přinést • Vzít si pro sebe → nehmen.",
+      "proposedCs": "Pamatujte: něco někomu nebo někam dopravit → bringen • vzít si něco pro sebe → nehmen."
+    },
+    {
+      "findingId": "FINAL-A1-00217",
+      "cardId": "a1-bringen",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "The current sentence is semantically incoherent and does not explain bringen.",
+      "currentCs": "Přinesený ukazuje někomu směr nebo místo.",
+      "proposedCs": "Bringen vyjadřuje směr k osobě nebo na určité místo."
+    },
+    {
+      "findingId": "FINAL-A1-00218",
+      "cardId": "a1-das",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Neuter is a valid Czech linguistic term; replacing it with střední rod is a stylistic preference."
+    },
+    {
+      "findingId": "FINAL-A1-00219",
+      "cardId": "a1-das",
+      "field": "study.translation",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Neuter is an accepted Czech linguistic label, so this is a terminology preference rather than an error."
+    },
+    {
+      "findingId": "FINAL-A1-00220",
+      "cardId": "a1-das",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "The final meaning incorrectly says kdo; welches refers to a thing and should use the neuter form které.",
+      "currentCs": "Kdo • Který • Kdo",
+      "proposedCs": "Který • která • které"
+    },
+    {
+      "findingId": "FINAL-A1-00221",
+      "cardId": "a1-das",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Das is associated here with grammatical gender, not genitive case.",
+      "currentCs": "Pamatujte: střední genitiv → das • Že → dass.",
+      "proposedCs": "Pamatujte: střední rod → das • že → dass."
+    },
+    {
+      "findingId": "FINAL-A1-00222",
+      "cardId": "a1-das",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "The current explanation mistranslates dass as to; the conjunction means že.",
+      "currentCs": "Das není totéž co dass – das může být člen nebo zájmeno, dass znamená 'to'.",
+      "proposedCs": "Das není totéž co dass – das může být člen nebo zájmeno, dass znamená „že“."
+    },
+    {
+      "findingId": "FINAL-A1-00223",
+      "cardId": "a1-dass",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Damit introducing a purpose clause means aby, not the preposition na.",
+      "currentCs": "Na",
+      "proposedCs": "Aby"
+    },
+    {
+      "findingId": "FINAL-A1-00224",
+      "cardId": "a1-dass",
+      "field": "study.comparison[3].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Ob introduces an indirect question and means zda or jestli, not nebo.",
+      "currentCs": "Nebo",
+      "proposedCs": "Zda • jestli"
+    },
+    {
+      "findingId": "FINAL-A1-00225",
+      "cardId": "a1-dass",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "The Czech equivalent of dass is že, while to is not correct in this reminder.",
+      "currentCs": "Pamatujte: to → dass.",
+      "proposedCs": "Pamatujte: že → dass."
+    },
+    {
+      "findingId": "FINAL-A1-00226",
+      "cardId": "a1-dass",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "The text mistranslates dass and uses an unsuitable grammatical description.",
+      "currentCs": "Dass znamená „to“ a zavádí pomocnou klauzuli.",
+      "proposedCs": "Dass znamená „že“ a uvádí vedlejší větu."
+    },
+    {
+      "findingId": "FINAL-A1-00227",
+      "cardId": "a1-der",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "The current Czech phrase is understandable and grammatically acceptable; the proposed order is only more natural stylistically."
+    },
+    {
+      "findingId": "FINAL-A1-00228",
+      "cardId": "a1-der",
+      "field": "study.translation",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "The current Czech phrase is acceptable, with the proposed wording being a stylistic improvement only."
+    },
+    {
+      "findingId": "FINAL-A1-00229",
+      "cardId": "a1-der",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Sedí is an incorrect translation and makes the reminder semantically wrong.",
+      "currentCs": "Pamatujte: mužský → sedí.",
+      "proposedCs": "Pamatujte: mužský rod → der."
+    },
+    {
+      "findingId": "FINAL-A1-00230",
+      "cardId": "a1-die",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Ženský určitý člen is a clear and acceptable Czech label; the longer wording is stylistic."
+    }
+  ]
+}

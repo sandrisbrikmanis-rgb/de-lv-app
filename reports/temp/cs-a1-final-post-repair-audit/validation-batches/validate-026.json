@@ -1,0 +1,484 @@
+{
+  "batch": "validate-026",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00449",
+      "cardId": "a1-sein",
+      "field": "study.comparison[3].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Pobyt“ je podstatné jméno; německé bleiben znamená zůstat.",
+      "auditCurrentCs": "Pobyt",
+      "auditProposedCs": "Zůstat",
+      "auditDe": "bleiben",
+      "auditLvSource": "palikt",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Pobyt",
+      "cardContext": {
+        "cardId": "a1-sein",
+        "de": "sein",
+        "csMain": "Být",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00450",
+      "cardId": "a1-seite",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Dva významy německého Seite nejsou v hlavním překladu rozlišeny.",
+      "auditCurrentCs": "Strana • Strana",
+      "auditProposedCs": "Stránka • Strana",
+      "auditDe": "Seite",
+      "auditLvSource": "lappuse • puse",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Strana • Strana",
+      "cardContext": {
+        "cardId": "a1-seite",
+        "de": "Seite",
+        "csMain": "Strana • Strana",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00451",
+      "cardId": "a1-seite",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Při označení pořadí stránky je v češtině přirozené použít řadovou číslovku.",
+      "auditCurrentCs": "Otevřete stránku dvacet.",
+      "auditProposedCs": "Otevřete dvacátou stránku.",
+      "auditDe": "Schlagt die Seite zwanzig auf.",
+      "auditLvSource": "atveriet divdesmito lappusi.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Otevřete stránku dvacet.",
+      "cardContext": {
+        "cardId": "a1-seite",
+        "de": "Seite",
+        "csMain": "Strana • Strana",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00452",
+      "cardId": "a1-sich",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Pro sebe“ není základní pádový protějšek sich; druhý význam zde má být „sobě“.",
+      "auditCurrentCs": "Sebe • Pro sebe",
+      "auditProposedCs": "Sebe • Sobě",
+      "auditDe": "sich",
+      "auditLvSource": "sevi • sev",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Sebe • Pro sebe",
+      "cardContext": {
+        "cardId": "a1-sich",
+        "de": "sich",
+        "csMain": "Sebe • Pro sebe",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00453",
+      "cardId": "a1-sich",
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Text obsahuje opakovaný nesprávný překlad „já“ místo českého reflexivního zájmena.",
+      "auditCurrentCs": "V češtině se často překládá jako já nebo já.",
+      "auditProposedCs": "V češtině se často překládá jako se, sebe nebo sobě.",
+      "auditDe": "sich",
+      "auditLvSource": "Latviski to bieži tulko kā sevi vai sev.",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "V češtině se často překládá jako já nebo já.",
+      "cardContext": {
+        "cardId": "a1-sich",
+        "de": "sich",
+        "csMain": "Sebe • Pro sebe",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00454",
+      "cardId": "a1-sich",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Sich není osobní zájmeno „já“; vyjadřuje třetí osobu reflexivně, podle pádu sebe nebo sobě.",
+      "auditCurrentCs": "Já / sebe",
+      "auditProposedCs": "Sebe / sobě",
+      "auditDe": "sich",
+      "auditLvSource": "sevi / sev",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Já / sebe",
+      "cardContext": {
+        "cardId": "a1-sich",
+        "de": "sich",
+        "csMain": "Sebe • Pro sebe",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00455",
+      "cardId": "a1-sich",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Mich je akuzativ osobního zájmena ich: „mě“, případně reflexivní „sebe“.",
+      "auditCurrentCs": "Já / já v ich",
+      "auditProposedCs": "Mě / sebe u ich",
+      "auditDe": "mich",
+      "auditLvSource": "mani / sevi pie ich",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Já / já v ich",
+      "cardContext": {
+        "cardId": "a1-sich",
+        "de": "sich",
+        "csMain": "Sebe • Pro sebe",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00456",
+      "cardId": "a1-sich",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Dich je akuzativ osobního zájmena du: „tě“, případně reflexivní „sebe“.",
+      "auditCurrentCs": "Ty / já v du",
+      "auditProposedCs": "Tě / sebe u du",
+      "auditDe": "dich",
+      "auditLvSource": "tevi / sevi pie du",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Ty / já v du",
+      "cardContext": {
+        "cardId": "a1-sich",
+        "de": "sich",
+        "csMain": "Sebe • Pro sebe",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00457",
+      "cardId": "a1-sich",
+      "field": "study.comparison[3].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Ho“ je možné, ale bez kontextu je vhodné uvést základní akuzativní význam „ho/něj“.",
+      "auditCurrentCs": "Ho",
+      "auditProposedCs": "Ho / něj",
+      "auditDe": "ihn",
+      "auditLvSource": "viņu",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Ho",
+      "cardContext": {
+        "cardId": "a1-sich",
+        "de": "sich",
+        "csMain": "Sebe • Pro sebe",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00458",
+      "cardId": "a1-sich",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Freut sich znamená raduje se nebo těší se; „je šťastná“ význam zbytečně posouvá.",
+      "auditCurrentCs": "Je šťastná.",
+      "auditProposedCs": "Raduje se.",
+      "auditDe": "Sie freut sich.",
+      "auditLvSource": "viņa priecājas.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Je šťastná.",
+      "cardContext": {
+        "cardId": "a1-sich",
+        "de": "sich",
+        "csMain": "Sebe • Pro sebe",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00459",
+      "cardId": "a1-sich",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Sich je zvratné zájmeno, nikoli podstatné jméno; formulace je gramaticky nepřesná.",
+      "auditCurrentCs": "Sich není samostatné podstatné jméno.",
+      "auditProposedCs": "Sich není samostatné zájmeno.",
+      "auditDe": "sich",
+      "auditLvSource": "sich nav patstāvīgs lietvārds.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Sich není samostatné podstatné jméno.",
+      "cardContext": {
+        "cardId": "a1-sich",
+        "de": "sich",
+        "csMain": "Sebe • Pro sebe",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00460",
+      "cardId": "a1-sie-study",
+      "field": "study.examples[5].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Německé Sie vyjadřuje vykání; české „vaříš“ je neformální jednotné číslo.",
+      "auditCurrentCs": "Vaříš prosím",
+      "auditProposedCs": "Vařte, prosím.",
+      "auditDe": "Sie kochen, bitte.",
+      "auditLvSource": "jūs gatavojat, lūdzu.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Vaříš prosím",
+      "cardContext": {
+        "cardId": "a1-sie-study",
+        "de": "sie",
+        "csMain": "Oni / ji",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00461",
+      "cardId": "a1-sie-study-2",
+      "field": "study.explanation[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Text obsahuje latvinské označení „Latviski“ a nepřirozené „zdvořilostní adresa“.",
+      "auditCurrentCs": "Hlavní myšlenka: Zdvořilostní adresa - vždy s velkým S. Latviski: vy. Často se slovesem v množném čísle.",
+      "auditProposedCs": "Hlavní myšlenka: Zdvořilostní oslovení – vždy s velkým S. Česky: vy. Často se slovesem v množném čísle.",
+      "auditDe": "Sie",
+      "auditLvSource": "jūs",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Hlavní myšlenka: Zdvořilostní adresa - vždy s velkým S. Latviski: vy. Často se slovesem v množném čísle.",
+      "cardContext": {
+        "cardId": "a1-sie-study-2",
+        "de": "Sie",
+        "csMain": "Vy",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00462",
+      "cardId": "a1-sitzen",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německé liegen znamená „ležet“; „spát“ odpovídá německému schlafen.",
+      "auditCurrentCs": "Spát / ležet",
+      "auditProposedCs": "Ležet",
+      "auditDe": "liegen",
+      "auditLvSource": "gulēt / atrasties guļus",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Spát / ležet",
+      "cardContext": {
+        "cardId": "a1-sitzen",
+        "de": "sitzen",
+        "csMain": "Sedět",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00463",
+      "cardId": "a1-sitzen",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "„Stojící“ je zde nevhodný tvar; tip má uvádět paralelní česká označení poloh.",
+      "auditCurrentCs": "Pamatujte: sezení → sitzen • Stojící → stehen • Vleže → liegen.",
+      "auditProposedCs": "Pamatujte: vsedě → sitzen • vestoje → stehen • vleže → liegen.",
+      "auditDe": "sitzen • stehen • liegen",
+      "auditLvSource": "sēdus → stehen; stāvus → sitzen; guļus → liegen",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Pamatujte: sezení → sitzen • Stojící → stehen • Vleže → liegen.",
+      "cardContext": {
+        "cardId": "a1-sitzen",
+        "de": "sitzen",
+        "csMain": "Sedět",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00449",
+      "cardId": "a1-sein",
+      "field": "study.comparison[3].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Pobyt“ je podstatné jméno, nikoli význam slovesa bleiben; správně je „zůstat“.",
+      "currentCs": "Pobyt",
+      "proposedCs": "Zůstat"
+    },
+    {
+      "findingId": "FINAL-A1-00450",
+      "cardId": "a1-seite",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.96,
+      "reason": "Stejný překlad nerozlišuje významy Seite; „stránka“ a „strana“ významy vhodně odlišují.",
+      "currentCs": "Strana • Strana",
+      "proposedCs": "Stránka • Strana"
+    },
+    {
+      "findingId": "FINAL-A1-00451",
+      "cardId": "a1-seite",
+      "field": "study.examples[0].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": 0.91,
+      "reason": "„Otevřete stránku dvacet“ je v češtině srozumitelné a přijatelné; řadová varianta je pouze stylistická preference.",
+      "currentCs": "Otevřete stránku dvacet."
+    },
+    {
+      "findingId": "FINAL-A1-00452",
+      "cardId": "a1-sich",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "„Pro sebe“ není vhodný základní protějšek druhého významu; zde má být pádová varianta „sobě“.",
+      "currentCs": "Sebe • Pro sebe",
+      "proposedCs": "Sebe • Sobě"
+    },
+    {
+      "findingId": "FINAL-A1-00453",
+      "cardId": "a1-sich",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Vysvětlení obsahuje chybný překlad „já“ a neposkytuje správné české reflexivní tvary.",
+      "currentCs": "V češtině se často překládá jako já nebo já.",
+      "proposedCs": "V češtině se často překládá jako se, sebe nebo sobě."
+    },
+    {
+      "findingId": "FINAL-A1-00454",
+      "cardId": "a1-sich",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Já“ je osobní zájmeno a neodpovídá významu německého reflexivního sich.",
+      "currentCs": "Já / sebe",
+      "proposedCs": "Sebe / sobě"
+    },
+    {
+      "findingId": "FINAL-A1-00455",
+      "cardId": "a1-sich",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Mich znamená „mě“, případně reflexivní „sebe“, nikoli „já“; současné vysvětlení je věcně chybné.",
+      "currentCs": "Já / já v ich",
+      "proposedCs": "Mě / sebe u ich"
+    },
+    {
+      "findingId": "FINAL-A1-00456",
+      "cardId": "a1-sich",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Dich znamená „tě“, případně reflexivní „sebe“, nikoli „ty“ ani „já“.",
+      "currentCs": "Ty / já v du",
+      "proposedCs": "Tě / sebe u du"
+    },
+    {
+      "findingId": "FINAL-A1-00457",
+      "cardId": "a1-sich",
+      "field": "study.comparison[3].meaning",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": 0.95,
+      "reason": "„Ho“ je správný a běžný český akuzativní překlad; doplnění „něj“ je pouze volitelné rozšíření.",
+      "currentCs": "Ho"
+    },
+    {
+      "findingId": "FINAL-A1-00458",
+      "cardId": "a1-sich",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.94,
+      "reason": "„Je šťastná“ posouvá význam freuen sich; vhodnější je „raduje se“ nebo „těší se“.",
+      "currentCs": "Je šťastná.",
+      "proposedCs": "Raduje se."
+    },
+    {
+      "findingId": "FINAL-A1-00459",
+      "cardId": "a1-sich",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Sich je zájmeno, konkrétně zvratné zájmeno, nikoli podstatné jméno.",
+      "currentCs": "Sich není samostatné podstatné jméno.",
+      "proposedCs": "Sich není samostatné zájmeno."
+    },
+    {
+      "findingId": "FINAL-A1-00460",
+      "cardId": "a1-sie-study",
+      "field": "study.examples[5].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Formální Sie kochen vyžaduje české vykání „Vařte“, nikoli neformální jednotné „Vaříš“.",
+      "currentCs": "Vaříš prosím",
+      "proposedCs": "Vařte, prosím."
+    },
+    {
+      "findingId": "FINAL-A1-00461",
+      "cardId": "a1-sie-study-2",
+      "field": "study.explanation[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Text obsahuje latvinský remnant „Latviski“ a nepřirozené označení „zdvořilostní adresa“.",
+      "currentCs": "Hlavní myšlenka: Zdvořilostní adresa - vždy s velkým S. Latviski: vy. Často se slovesem v množném čísle.",
+      "proposedCs": "Hlavní myšlenka: Zdvořilostní oslovení – vždy s velkým S. Česky: vy. Často se slovesem v množném čísle."
+    },
+    {
+      "findingId": "FINAL-A1-00462",
+      "cardId": "a1-sitzen",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Liegen znamená „ležet“; „spát“ je jiný význam a do této položky nepatří.",
+      "currentCs": "Spát / ležet",
+      "proposedCs": "Ležet"
+    },
+    {
+      "findingId": "FINAL-A1-00463",
+      "cardId": "a1-sitzen",
+      "field": "study.tip.text",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": 0.9,
+      "reason": "Současné „sezení“ a „stojící“ jsou srozumitelné; navržené tvary jsou pouze stylisticky uhlazenější.",
+      "currentCs": "Pamatujte: sezení → sitzen • Stojící → stehen • Vleže → liegen."
+    }
+  ]
+}

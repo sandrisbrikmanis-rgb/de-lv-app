@@ -1,0 +1,487 @@
+{
+  "batch": "validate-003",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00091",
+      "cardId": "a1-alle-7",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Každý znamená „each/every“, nikoli „all“. Překlad musí vyjádřit všechny běžné tvary slova alle.",
+      "auditCurrentCs": "Každý",
+      "auditProposedCs": "Všichni • všechny • všechno",
+      "auditDe": "alle",
+      "auditLvSource": "visi",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Každý",
+      "cardContext": {
+        "cardId": "a1-alle-7",
+        "de": "alle",
+        "csMain": "Každý",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00092",
+      "cardId": "a1-Alter-11",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Alter zde znamená věk obecně; stáří označuje spíše pokročilý věk nebo starobu.",
+      "auditCurrentCs": "Stáří",
+      "auditProposedCs": "Věk",
+      "auditDe": "Alter",
+      "auditLvSource": "vecums",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Stáří",
+      "cardContext": {
+        "cardId": "a1-Alter-11",
+        "de": "Alter",
+        "csMain": "Stáří",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00093",
+      "cardId": "a1-achten-22",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Pozorovat znamená „observe/watch“. Achten zde znamená věnovat pozornost nebo dávat pozor.",
+      "auditCurrentCs": "Pozorovat",
+      "auditProposedCs": "Dávat pozor",
+      "auditDe": "achten",
+      "auditLvSource": "ievērot",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pozorovat",
+      "cardContext": {
+        "cardId": "a1-achten-22",
+        "de": "achten",
+        "csMain": "Pozorovat",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00094",
+      "cardId": "a1-anziehen-30",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Anziehen zde znamená obléct si oděv. Nasadit se používá hlavně pro nasazení předmětu, například klobouku.",
+      "auditCurrentCs": "Nasadit",
+      "auditProposedCs": "Obléct si",
+      "auditDe": "anziehen",
+      "auditLvSource": "uzvilkt",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Nasadit",
+      "cardContext": {
+        "cardId": "a1-anziehen-30",
+        "de": "anziehen",
+        "csMain": "Nasadit",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00095",
+      "cardId": "a1-Ärztin-46",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Ärztin označuje ženu lékařku; současný překlad je mužský rod.",
+      "auditCurrentCs": "Lékař",
+      "auditProposedCs": "Lékařka",
+      "auditDe": "Ärztin",
+      "auditLvSource": "ārste",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Lékař",
+      "cardContext": {
+        "cardId": "a1-Ärztin-46",
+        "de": "Ärztin",
+        "csMain": "Lékař",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00096",
+      "cardId": "a1-aufpassen-51",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Současný text je vykání v rozkazovacím způsobu, nikoli infinitivní heslo jako německé aufpassen.",
+      "auditCurrentCs": "Buďte opatrní",
+      "auditProposedCs": "Dávat pozor",
+      "auditDe": "aufpassen",
+      "auditLvSource": "uzmanīties",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Buďte opatrní",
+      "cardContext": {
+        "cardId": "a1-aufpassen-51",
+        "de": "aufpassen",
+        "csMain": "Buďte opatrní",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00097",
+      "cardId": "a1-aufstehen-52",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Aufstehen zde znamená vstát, zejména z postele nebo ze sedu; postavit se znamená zaujmout stojící polohu.",
+      "auditCurrentCs": "Postavit se",
+      "auditProposedCs": "Vstát",
+      "auditDe": "aufstehen",
+      "auditLvSource": "piecelties",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Postavit se",
+      "cardContext": {
+        "cardId": "a1-aufstehen-52",
+        "de": "aufstehen",
+        "csMain": "Postavit se",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00098",
+      "cardId": "a1-Bauch-73",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Bauch znamená břicho nebo oblast břicha; žaludek je v němčině Magen.",
+      "auditCurrentCs": "Žaludek",
+      "auditProposedCs": "Břicho",
+      "auditDe": "Bauch",
+      "auditLvSource": "vēders",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Žaludek",
+      "cardContext": {
+        "cardId": "a1-Bauch-73",
+        "de": "Bauch",
+        "csMain": "Žaludek",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00099",
+      "cardId": "a1-bedeuten-75",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Bedeuten je sloveso „znamenat“; „střední“ odpovídá německému mittel nebo mittlere.",
+      "auditCurrentCs": "Střední",
+      "auditProposedCs": "Znamenat",
+      "auditDe": "bedeuten",
+      "auditLvSource": "nozīmēt",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Střední",
+      "cardContext": {
+        "cardId": "a1-bedeuten-75",
+        "de": "bedeuten",
+        "csMain": "Střední",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00100",
+      "cardId": "a1-benutzen-83",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Benutzen je sloveso „používat“; „použití“ je podstatné jméno.",
+      "auditCurrentCs": "Použití",
+      "auditProposedCs": "Používat",
+      "auditDe": "benutzen",
+      "auditLvSource": "lietot",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Použití",
+      "cardContext": {
+        "cardId": "a1-benutzen-83",
+        "de": "benutzen",
+        "csMain": "Použití",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00101",
+      "cardId": "a1-besuchen-89",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Besuchen znamená navštívit; „zúčastnit se“ je attend, německy teilnehmen.",
+      "auditCurrentCs": "Zúčastnit se • Navštívit",
+      "auditProposedCs": "Navštívit",
+      "auditDe": "besuchen",
+      "auditLvSource": "apmeklēt",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Zúčastnit se • Navštívit",
+      "cardContext": {
+        "cardId": "a1-besuchen-89",
+        "de": "besuchen",
+        "csMain": "Zúčastnit se • Navštívit",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00102",
+      "cardId": "a1-bitten-98",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Bitten znamená prosit nebo požádat; „zeptat se“ odpovídá německému fragen.",
+      "auditCurrentCs": "Zeptat se",
+      "auditProposedCs": "Prosit",
+      "auditDe": "bitten",
+      "auditLvSource": "lūgt",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Zeptat se",
+      "cardContext": {
+        "cardId": "a1-bitten-98",
+        "de": "bitten",
+        "csMain": "Zeptat se",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00103",
+      "cardId": "a1-blond-103",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Blond je přídavné jméno označující blond barvu; blondýnka je blond žena.",
+      "auditCurrentCs": "Blondýnka",
+      "auditProposedCs": "Blond",
+      "auditDe": "blond",
+      "auditLvSource": "blonds",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Blondýnka",
+      "cardContext": {
+        "cardId": "a1-blond-103",
+        "de": "blond",
+        "csMain": "Blondýnka",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00104",
+      "cardId": "a1-Buch-116",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Buch je podstatné jméno „kniha“; „rezervovat“ je německy buchen.",
+      "auditCurrentCs": "Rezervovat",
+      "auditProposedCs": "Kniha",
+      "auditDe": "Buch",
+      "auditLvSource": "grāmata",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Rezervovat",
+      "cardContext": {
+        "cardId": "a1-Buch-116",
+        "de": "Buch",
+        "csMain": "Rezervovat",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00105",
+      "cardId": "a1-Buchstabe-117",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Dopis“ znamená psanou korespondenci; německé „Buchstabe“ je znak abecedy.",
+      "auditCurrentCs": "Dopis",
+      "auditProposedCs": "Písmeno",
+      "auditDe": "Buchstabe",
+      "auditLvSource": "burts",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Dopis",
+      "cardContext": {
+        "cardId": "a1-Buchstabe-117",
+        "de": "Buchstabe",
+        "csMain": "Dopis",
+        "hasStudy": false
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00091",
+      "cardId": "a1-alle-7",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Každý znamená „each/every“, ne obecné „all“. Překlad nevyjadřuje běžné české tvary alle.",
+      "currentCs": "Každý",
+      "proposedCs": "Všichni • všechny • všechno"
+    },
+    {
+      "findingId": "FINAL-A1-00092",
+      "cardId": "a1-Alter-11",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.98,
+      "reason": "Alter zde označuje věk obecně; stáří znamená spíše pokročilý věk nebo starobu.",
+      "currentCs": "Stáří",
+      "proposedCs": "Věk"
+    },
+    {
+      "findingId": "FINAL-A1-00093",
+      "cardId": "a1-achten-22",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "Achten znamená věnovat pozornost nebo dávat pozor, nikoli pozorovat ve smyslu sledování.",
+      "currentCs": "Pozorovat",
+      "proposedCs": "Dávat pozor"
+    },
+    {
+      "findingId": "FINAL-A1-00094",
+      "cardId": "a1-anziehen-30",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Anziehen u oděvu znamená obléct si; nasadit se týká hlavně předmětu.",
+      "currentCs": "Nasadit",
+      "proposedCs": "Obléct si"
+    },
+    {
+      "findingId": "FINAL-A1-00095",
+      "cardId": "a1-Ärztin-46",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Ärztin je ženský tvar označující lékařku, nikoli lékaře.",
+      "currentCs": "Lékař",
+      "proposedCs": "Lékařka"
+    },
+    {
+      "findingId": "FINAL-A1-00096",
+      "cardId": "a1-aufpassen-51",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "Aufpassen je infinitivní slovesné heslo; „Buďte opatrní“ je vykací rozkazovací věta.",
+      "currentCs": "Buďte opatrní",
+      "proposedCs": "Dávat pozor"
+    },
+    {
+      "findingId": "FINAL-A1-00097",
+      "cardId": "a1-aufstehen-52",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.97,
+      "reason": "Aufstehen znamená vstát; postavit se vyjadřuje konkrétně zaujetí stojící polohy.",
+      "currentCs": "Postavit se",
+      "proposedCs": "Vstát"
+    },
+    {
+      "findingId": "FINAL-A1-00098",
+      "cardId": "a1-Bauch-73",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Bauch znamená břicho nebo oblast břicha. Žaludek je německy Magen.",
+      "currentCs": "Žaludek",
+      "proposedCs": "Břicho"
+    },
+    {
+      "findingId": "FINAL-A1-00099",
+      "cardId": "a1-bedeuten-75",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Bedeuten je sloveso „znamenat“; „střední“ odpovídá jinému německému slovu.",
+      "currentCs": "Střední",
+      "proposedCs": "Znamenat"
+    },
+    {
+      "findingId": "FINAL-A1-00100",
+      "cardId": "a1-benutzen-83",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Benutzen je sloveso „používat“, zatímco „použití“ je podstatné jméno.",
+      "currentCs": "Použití",
+      "proposedCs": "Používat"
+    },
+    {
+      "findingId": "FINAL-A1-00101",
+      "cardId": "a1-besuchen-89",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Besuchen znamená navštívit; „zúčastnit se“ je významově navíc a patří k teilnehmen.",
+      "currentCs": "Zúčastnit se • Navštívit",
+      "proposedCs": "Navštívit"
+    },
+    {
+      "findingId": "FINAL-A1-00102",
+      "cardId": "a1-bitten-98",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Bitten znamená prosit nebo požádat; „zeptat se“ odpovídá fragen.",
+      "currentCs": "Zeptat se",
+      "proposedCs": "Prosit"
+    },
+    {
+      "findingId": "FINAL-A1-00103",
+      "cardId": "a1-blond-103",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Blond je přídavné jméno pro blond barvu; blondýnka označuje blond ženu.",
+      "currentCs": "Blondýnka",
+      "proposedCs": "Blond"
+    },
+    {
+      "findingId": "FINAL-A1-00104",
+      "cardId": "a1-Buch-116",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Buch znamená kniha; „rezervovat“ je německy buchen.",
+      "currentCs": "Rezervovat",
+      "proposedCs": "Kniha"
+    },
+    {
+      "findingId": "FINAL-A1-00105",
+      "cardId": "a1-Buchstabe-117",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Buchstabe znamená písmeno, nikoli dopis.",
+      "currentCs": "Dopis",
+      "proposedCs": "Písmeno"
+    }
+  ]
+}

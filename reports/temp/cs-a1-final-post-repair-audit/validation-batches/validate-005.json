@@ -1,0 +1,487 @@
+{
+  "batch": "validate-005",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00121",
+      "cardId": "a1-Hälfte-263",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Strana neznamená „Hälfte“; správný český překlad je polovina.",
+      "auditCurrentCs": "Strana",
+      "auditProposedCs": "Polovina",
+      "auditDe": "Hälfte",
+      "auditLvSource": "puse",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Strana",
+      "cardContext": {
+        "cardId": "a1-Hälfte-263",
+        "de": "Hälfte",
+        "csMain": "Strana",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00122",
+      "cardId": "a1-Handschuh-268",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Rukavici je akuzativ jednotného čísla; základní překlad podstatného jména má být nominativ rukavice.",
+      "auditCurrentCs": "Rukavici",
+      "auditProposedCs": "Rukavice",
+      "auditDe": "Handschuh",
+      "auditLvSource": "cimds",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Rukavici",
+      "cardContext": {
+        "cardId": "a1-Handschuh-268",
+        "de": "Handschuh",
+        "csMain": "Rukavici",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00123",
+      "cardId": "a1-Heft-273",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Německé Heft znamená sešit; české notebook označuje především přenosný počítač.",
+      "auditCurrentCs": "Notebook",
+      "auditProposedCs": "Sešit",
+      "auditDe": "Heft",
+      "auditLvSource": "burtnīca",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Notebook",
+      "cardContext": {
+        "cardId": "a1-Heft-273",
+        "de": "Heft",
+        "csMain": "Notebook",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00124",
+      "cardId": "a1-Hemd-278",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Košili je akuzativ jednotného čísla; základní překlad podstatného jména má být nominativ košile.",
+      "auditCurrentCs": "Košili",
+      "auditProposedCs": "Košile",
+      "auditDe": "Hemd",
+      "auditLvSource": "krekls",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Košili",
+      "cardContext": {
+        "cardId": "a1-Hemd-278",
+        "de": "Hemd",
+        "csMain": "Košili",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00125",
+      "cardId": "a1-ich-291",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Mě je český akuzativ nebo genitiv; německé ich je osobní zájmeno v nominativu, tedy já.",
+      "auditCurrentCs": "Mě",
+      "auditProposedCs": "Já",
+      "auditDe": "ich",
+      "auditLvSource": "es",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Mě",
+      "cardContext": {
+        "cardId": "a1-ich-291",
+        "de": "ich",
+        "csMain": "Mě",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00126",
+      "cardId": "a1-Keks-309",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Cookie je anglicismus a v češtině běžně označuje internetový soubor; Keks znamená sušenka.",
+      "auditCurrentCs": "Cookie",
+      "auditProposedCs": "Sušenka",
+      "auditDe": "Keks",
+      "auditLvSource": "cepums",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Cookie",
+      "cardContext": {
+        "cardId": "a1-Keks-309",
+        "de": "Keks",
+        "csMain": "Cookie",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00127",
+      "cardId": "a1-Hut-328",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Hut znamená pokrývku hlavy typu klobouk; čepice odpovídá spíše německému Mütze.",
+      "auditCurrentCs": "Čepice",
+      "auditProposedCs": "Klobouk",
+      "auditDe": "Hut",
+      "auditLvSource": "cepure",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Čepice",
+      "cardContext": {
+        "cardId": "a1-Hut-328",
+        "de": "Hut",
+        "csMain": "Čepice",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00128",
+      "cardId": "a1-Koch-340",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Koch je podstatné jméno označující osobu; Vařit je sloveso a významově neodpovídá.",
+      "auditCurrentCs": "Vařit",
+      "auditProposedCs": "Kuchař",
+      "auditDe": "Koch",
+      "auditLvSource": "pavārs",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Vařit",
+      "cardContext": {
+        "cardId": "a1-Koch-340",
+        "de": "Koch",
+        "csMain": "Vařit",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00129",
+      "cardId": "a1-Köchin-341",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Köchin je ženské podstatné jméno označující kuchařku; Vařit je sloveso.",
+      "auditCurrentCs": "Vařit",
+      "auditProposedCs": "Kuchařka",
+      "auditDe": "Köchin",
+      "auditLvSource": "pavāre",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Vařit",
+      "cardContext": {
+        "cardId": "a1-Köchin-341",
+        "de": "Köchin",
+        "csMain": "Vařit",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00130",
+      "cardId": "a1-Kopf-342",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Hlavu je akuzativ; jako základní slovníkový tvar pro německé Kopf má být nominativ Hlava.",
+      "auditCurrentCs": "Hlavu",
+      "auditProposedCs": "Hlava",
+      "auditDe": "Kopf",
+      "auditLvSource": "galva",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Hlavu",
+      "cardContext": {
+        "cardId": "a1-Kopf-342",
+        "de": "Kopf",
+        "csMain": "Hlavu",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00131",
+      "cardId": "a1-Lehrerin-365",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Czech masculine noun means male teacher; German feminine noun requires the feminine form.",
+      "auditCurrentCs": "Učitel",
+      "auditProposedCs": "Učitelka",
+      "auditDe": "die Lehrerin",
+      "auditLvSource": "skolotāja",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Učitel",
+      "cardContext": {
+        "cardId": "a1-Lehrerin-365",
+        "de": "Lehrerin",
+        "csMain": "Učitel",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00132",
+      "cardId": "a1-links-380",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "The second sense is the adjective ‘left’, not the adverb ‘to the left’.",
+      "auditCurrentCs": "Vlevo • Vlevo",
+      "auditProposedCs": "Vlevo • Levý",
+      "auditDe": "links",
+      "auditLvSource": "pa kreisi • kreisais",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Vlevo • Vlevo",
+      "cardContext": {
+        "cardId": "a1-links-380",
+        "de": "links",
+        "csMain": "Vlevo • Vlevo",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00133",
+      "cardId": "a1-lustig-385",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "German is an adjective, but ‘zábava’ is a Czech feminine noun meaning entertainment.",
+      "auditCurrentCs": "Zábava",
+      "auditProposedCs": "Veselý",
+      "auditDe": "lustig",
+      "auditLvSource": "jautrs",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Zábava",
+      "cardContext": {
+        "cardId": "a1-lustig-385",
+        "de": "lustig",
+        "csMain": "Zábava",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00134",
+      "cardId": "a1-malen-391",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Both Czech senses are identical, creating a redundant duplicate rather than distinct meanings.",
+      "auditCurrentCs": "Malovat • Malovat",
+      "auditProposedCs": "Malovat",
+      "auditDe": "malen",
+      "auditLvSource": "gleznot • krāsot",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Malovat • Malovat",
+      "cardContext": {
+        "cardId": "a1-malen-391",
+        "de": "malen",
+        "csMain": "Malovat • Malovat",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00135",
+      "cardId": "a1-März-396",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "‘Pochod’ means march/procession; the Czech month März is ‘březen’.",
+      "auditCurrentCs": "Pochod",
+      "auditProposedCs": "Březen",
+      "auditDe": "der März",
+      "auditLvSource": "marts",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Pochod",
+      "cardContext": {
+        "cardId": "a1-März-396",
+        "de": "März",
+        "csMain": "Pochod",
+        "hasStudy": false
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00121",
+      "cardId": "a1-Hälfte-263",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Strana“ znamená side/page, nikoli německé „Hälfte“ ve významu polovina.",
+      "currentCs": "Strana",
+      "proposedCs": "Polovina"
+    },
+    {
+      "findingId": "FINAL-A1-00122",
+      "cardId": "a1-Handschuh-268",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Základní český tvar podstatného jména je nominativ „rukavice“, nikoli akuzativ „rukavici“.",
+      "currentCs": "Rukavici",
+      "proposedCs": "Rukavice"
+    },
+    {
+      "findingId": "FINAL-A1-00123",
+      "cardId": "a1-Heft-273",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Heft“ znamená sešit; „notebook“ v češtině primárně označuje přenosný počítač.",
+      "currentCs": "Notebook",
+      "proposedCs": "Sešit"
+    },
+    {
+      "findingId": "FINAL-A1-00124",
+      "cardId": "a1-Hemd-278",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Základní český tvar je nominativ „košile“, nikoli akuzativ „košili“.",
+      "currentCs": "Košili",
+      "proposedCs": "Košile"
+    },
+    {
+      "findingId": "FINAL-A1-00125",
+      "cardId": "a1-ich-291",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Německé „ich“ je nominativní osobní zájmeno; český ekvivalent je „já“, ne „mě“.",
+      "currentCs": "Mě",
+      "proposedCs": "Já"
+    },
+    {
+      "findingId": "FINAL-A1-00126",
+      "cardId": "a1-Keks-309",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Keks“ znamená sušenku; české „cookie“ běžně označuje internetový soubor.",
+      "currentCs": "Cookie",
+      "proposedCs": "Sušenka"
+    },
+    {
+      "findingId": "FINAL-A1-00127",
+      "cardId": "a1-Hut-328",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Hut“ odpovídá českému „klobouk“; „čepice“ označuje jiný typ pokrývky hlavy.",
+      "currentCs": "Čepice",
+      "proposedCs": "Klobouk"
+    },
+    {
+      "findingId": "FINAL-A1-00128",
+      "cardId": "a1-Koch-340",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Koch“ je osoba, tedy kuchař; „vařit“ je sloveso a významově neodpovídá.",
+      "currentCs": "Vařit",
+      "proposedCs": "Kuchař"
+    },
+    {
+      "findingId": "FINAL-A1-00129",
+      "cardId": "a1-Köchin-341",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Köchin“ je ženský rod podstatného jména, takže český překlad musí být „kuchařka“, ne sloveso.",
+      "currentCs": "Vařit",
+      "proposedCs": "Kuchařka"
+    },
+    {
+      "findingId": "FINAL-A1-00130",
+      "cardId": "a1-Kopf-342",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Základní český tvar pro „Kopf“ je nominativ „hlava“, nikoli akuzativ „hlavu“.",
+      "currentCs": "Hlavu",
+      "proposedCs": "Hlava"
+    },
+    {
+      "findingId": "FINAL-A1-00131",
+      "cardId": "a1-Lehrerin-365",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Lehrerin“ je ženský rod; český překlad musí být „učitelka“, nikoli „učitel“.",
+      "currentCs": "Učitel",
+      "proposedCs": "Učitelka"
+    },
+    {
+      "findingId": "FINAL-A1-00132",
+      "cardId": "a1-links-380",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Druhý význam „links“ je přídavné jméno „levý“, nikoli podruhé příslovce „vlevo“.",
+      "currentCs": "Vlevo • Vlevo",
+      "proposedCs": "Vlevo • Levý"
+    },
+    {
+      "findingId": "FINAL-A1-00133",
+      "cardId": "a1-lustig-385",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Lustig“ je přídavné jméno; „zábava“ je české podstatné jméno. Správně je „veselý“.",
+      "currentCs": "Zábava",
+      "proposedCs": "Veselý"
+    },
+    {
+      "findingId": "FINAL-A1-00134",
+      "cardId": "a1-malen-391",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Oba aktuální české významy jsou identické, takže karta obsahuje redundantní duplicitní překlad.",
+      "currentCs": "Malovat • Malovat",
+      "proposedCs": "Malovat"
+    },
+    {
+      "findingId": "FINAL-A1-00135",
+      "cardId": "a1-März-396",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Německý měsíc „März“ se česky řekne „březen“; „pochod“ označuje průvod nebo march.",
+      "currentCs": "Pochod",
+      "proposedCs": "Březen"
+    }
+  ]
+}

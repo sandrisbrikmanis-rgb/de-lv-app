@@ -1,0 +1,487 @@
+{
+  "batch": "validate-007",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00151",
+      "cardId": "a1-Spiel-571",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Hru“ je akuzativ; samostatné podstatné jméno má být v nominativu „hra“.",
+      "auditCurrentCs": "Hru",
+      "auditProposedCs": "Hra",
+      "auditDe": "Spiel",
+      "auditLvSource": "spēle",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Hru",
+      "cardContext": {
+        "cardId": "a1-Spiel-571",
+        "de": "Spiel",
+        "csMain": "Hru",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00152",
+      "cardId": "a1-Stuhl-582",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Židli“ je akuzativ; základní tvar německého podstatného jména je „židle“.",
+      "auditCurrentCs": "Židli",
+      "auditProposedCs": "Židle",
+      "auditDe": "Stuhl",
+      "auditLvSource": "krēsls",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Židli",
+      "cardContext": {
+        "cardId": "a1-Stuhl-582",
+        "de": "Stuhl",
+        "csMain": "Židli",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00153",
+      "cardId": "a1-Stunde-583",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Hodinu“ je akuzativ; samostatné heslo má být v nominativu „hodina“.",
+      "auditCurrentCs": "Hodinu",
+      "auditProposedCs": "Hodina",
+      "auditDe": "Stunde",
+      "auditLvSource": "stunda",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Hodinu",
+      "cardContext": {
+        "cardId": "a1-Stunde-583",
+        "de": "Stunde",
+        "csMain": "Hodinu",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00154",
+      "cardId": "a1-Tasche-589",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Tašku“ je akuzativ; základní tvar podstatného jména je „taška“.",
+      "auditCurrentCs": "Tašku",
+      "auditProposedCs": "Taška",
+      "auditDe": "Tasche",
+      "auditLvSource": "soma",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Tašku",
+      "cardContext": {
+        "cardId": "a1-Tasche-589",
+        "de": "Tasche",
+        "csMain": "Tašku",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00155",
+      "cardId": "a1-Tasse-590",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Pohár“ znamená sklenici nebo pohár; německé „Tasse“ se česky překládá jako „šálek“.",
+      "auditCurrentCs": "Pohár",
+      "auditProposedCs": "Šálek",
+      "auditDe": "Tasse",
+      "auditLvSource": "tase",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pohár",
+      "cardContext": {
+        "cardId": "a1-Tasse-590",
+        "de": "Tasse",
+        "csMain": "Pohár",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00156",
+      "cardId": "a1-telefonieren-594",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Zavolat na telefon“ je nepřirozené a mění nedokonavé sloveso na dokonavé; správně je „telefonovat“.",
+      "auditCurrentCs": "Zavolat na telefon",
+      "auditProposedCs": "Telefonovat",
+      "auditDe": "telefonieren",
+      "auditLvSource": "zvanīt pa tālruni",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Zavolat na telefon",
+      "cardContext": {
+        "cardId": "a1-telefonieren-594",
+        "de": "telefonieren",
+        "csMain": "Zavolat na telefon",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00157",
+      "cardId": "a1-Tisch-599",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Tabulka“ znamená chart/table, ne nábytek. Německé „Tisch“ se česky překládá jako „stůl“.",
+      "auditCurrentCs": "Tabulka",
+      "auditProposedCs": "Stůl",
+      "auditDe": "Tisch",
+      "auditLvSource": "galds",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Tabulka",
+      "cardContext": {
+        "cardId": "a1-Tisch-599",
+        "de": "Tisch",
+        "csMain": "Tabulka",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00158",
+      "cardId": "a1-unten-614",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Na dně“ znamená na spodku nádoby nebo na dně; německé „unten“ znamená „dole“.",
+      "auditCurrentCs": "Na dně",
+      "auditProposedCs": "Dole",
+      "auditDe": "unten",
+      "auditLvSource": "apakšā",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Na dně",
+      "cardContext": {
+        "cardId": "a1-unten-614",
+        "de": "unten",
+        "csMain": "Na dně",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00159",
+      "cardId": "a1-Vorname-637",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Slovo“ znamená word. Německé „Vorname“ je osobní/křestní jméno.",
+      "auditCurrentCs": "Slovo",
+      "auditProposedCs": "Křestní jméno",
+      "auditDe": "Vorname",
+      "auditLvSource": "vārds",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Slovo",
+      "cardContext": {
+        "cardId": "a1-Vorname-637",
+        "de": "Vorname",
+        "csMain": "Slovo",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00160",
+      "cardId": "a1-wann-640",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Wann“ je tázací příslovce „kdy“. „Když“ odpovídá německému „wenn“.",
+      "auditCurrentCs": "Když",
+      "auditProposedCs": "Kdy",
+      "auditDe": "wann",
+      "auditLvSource": "kad",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Když",
+      "cardContext": {
+        "cardId": "a1-wann-640",
+        "de": "wann",
+        "csMain": "Když",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00161",
+      "cardId": "a1-waschen-645",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Umýt se“ je zvratné a znamená wash oneself; německé „waschen“ zde není zvratné.",
+      "auditCurrentCs": "Umýt se",
+      "auditProposedCs": "Mýt",
+      "auditDe": "waschen",
+      "auditLvSource": "mazgāt",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Umýt se",
+      "cardContext": {
+        "cardId": "a1-waschen-645",
+        "de": "waschen",
+        "csMain": "Umýt se",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00162",
+      "cardId": "a1-Weg-647",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Silnice“ je road/highway, zatímco obecné německé „Weg“ znamená „cesta“ nebo „stezka“.",
+      "auditCurrentCs": "Silnice",
+      "auditProposedCs": "Cesta",
+      "auditDe": "Weg",
+      "auditLvSource": "ceļš",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Silnice",
+      "cardContext": {
+        "cardId": "a1-Weg-647",
+        "de": "Weg",
+        "csMain": "Silnice",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00163",
+      "cardId": "a1-wenig-654",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Nic moc“ znamená „not much/not great“, nikoli přesně „wenig“ ve významu „málo“.",
+      "auditCurrentCs": "Nic moc",
+      "auditProposedCs": "Málo",
+      "auditDe": "wenig",
+      "auditLvSource": "maz",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Nic moc",
+      "cardContext": {
+        "cardId": "a1-wenig-654",
+        "de": "wenig",
+        "csMain": "Nic moc",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00164",
+      "cardId": "a1-zumachen-673",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "CRITICAL",
+      "auditProblem": "„Zblízka“ znamená „aus der Nähe“, zatímco „zumachen“ znamená „zavřít“ nebo „zavírat“.",
+      "auditCurrentCs": "Zblízka",
+      "auditProposedCs": "Zavřít",
+      "auditDe": "zumachen",
+      "auditLvSource": "aiztaisīt",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Zblízka",
+      "cardContext": {
+        "cardId": "a1-zumachen-673",
+        "de": "zumachen",
+        "csMain": "Zblízka",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00165",
+      "cardId": "a1-zurück-674",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Zadní“ je přídavné jméno ve významu „hintere“, nikoli příslovce „zurück“ = „zpět“.",
+      "auditCurrentCs": "Zadní",
+      "auditProposedCs": "Zpět",
+      "auditDe": "zurück",
+      "auditLvSource": "atpakaļ",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Zadní",
+      "cardContext": {
+        "cardId": "a1-zurück-674",
+        "de": "zurück",
+        "csMain": "Zadní",
+        "hasStudy": false
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00151",
+      "cardId": "a1-Spiel-571",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Samostatné české heslo musí být v nominativu „hra“, nikoli v akuzativu „hru“.",
+      "currentCs": "Hru",
+      "proposedCs": "Hra"
+    },
+    {
+      "findingId": "FINAL-A1-00152",
+      "cardId": "a1-Stuhl-582",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Samostatné české heslo musí být v nominativu „židle“, nikoli v akuzativu „židli“.",
+      "currentCs": "Židli",
+      "proposedCs": "Židle"
+    },
+    {
+      "findingId": "FINAL-A1-00153",
+      "cardId": "a1-Stunde-583",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Samostatné české heslo musí být v nominativu „hodina“, nikoli v akuzativu „hodinu“.",
+      "currentCs": "Hodinu",
+      "proposedCs": "Hodina"
+    },
+    {
+      "findingId": "FINAL-A1-00154",
+      "cardId": "a1-Tasche-589",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Samostatné české heslo musí být v nominativu „taška“, nikoli v akuzativu „tašku“.",
+      "currentCs": "Tašku",
+      "proposedCs": "Taška"
+    },
+    {
+      "findingId": "FINAL-A1-00155",
+      "cardId": "a1-Tasse-590",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "České „pohár“ neodpovídá německému „Tasse“, které znamená šálek.",
+      "currentCs": "Pohár",
+      "proposedCs": "Šálek"
+    },
+    {
+      "findingId": "FINAL-A1-00156",
+      "cardId": "a1-telefonieren-594",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Telefonovat“ je přirozený nedokonavý překlad německého „telefonieren“; „zavolat“ je dokonavé.",
+      "currentCs": "Zavolat na telefon",
+      "proposedCs": "Telefonovat"
+    },
+    {
+      "findingId": "FINAL-A1-00157",
+      "cardId": "a1-Tisch-599",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Tabulka“ znamená chart/table, nikoli nábytek; německé „Tisch“ znamená „stůl“.",
+      "currentCs": "Tabulka",
+      "proposedCs": "Stůl"
+    },
+    {
+      "findingId": "FINAL-A1-00158",
+      "cardId": "a1-unten-614",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Na dně“ označuje dno, zatímco německé „unten“ znamená místně „dole“.",
+      "currentCs": "Na dně",
+      "proposedCs": "Dole"
+    },
+    {
+      "findingId": "FINAL-A1-00159",
+      "cardId": "a1-Vorname-637",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Slovo“ znamená word; „Vorname“ je osobní či křestní jméno.",
+      "currentCs": "Slovo",
+      "proposedCs": "Křestní jméno"
+    },
+    {
+      "findingId": "FINAL-A1-00160",
+      "cardId": "a1-wann-640",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Wann“ je tázací příslovce „kdy“; „když“ odpovídá německému „wenn“.",
+      "currentCs": "Když",
+      "proposedCs": "Kdy"
+    },
+    {
+      "findingId": "FINAL-A1-00161",
+      "cardId": "a1-waschen-645",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Umýt se“ je zvratné; německé obecné „waschen“ zde znamená „mýt“.",
+      "currentCs": "Umýt se",
+      "proposedCs": "Mýt"
+    },
+    {
+      "findingId": "FINAL-A1-00162",
+      "cardId": "a1-Weg-647",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Silnice“ je konkrétnější road/highway; obecné „Weg“ se česky překládá jako „cesta“.",
+      "currentCs": "Silnice",
+      "proposedCs": "Cesta"
+    },
+    {
+      "findingId": "FINAL-A1-00163",
+      "cardId": "a1-wenig-654",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Nic moc“ znamená not much/not great, zatímco „wenig“ zde znamená „málo“.",
+      "currentCs": "Nic moc",
+      "proposedCs": "Málo"
+    },
+    {
+      "findingId": "FINAL-A1-00164",
+      "cardId": "a1-zumachen-673",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "„Zblízka“ znamená aus der Nähe; „zumachen“ znamená „zavřít“ nebo „zavírat“.",
+      "currentCs": "Zblízka",
+      "proposedCs": "Zavřít"
+    },
+    {
+      "findingId": "FINAL-A1-00165",
+      "cardId": "a1-zurück-674",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Zadní“ je přídavné jméno ve významu hintere; „zurück“ znamená příslovečné „zpět“.",
+      "currentCs": "Zadní",
+      "proposedCs": "Zpět"
+    }
+  ]
+}

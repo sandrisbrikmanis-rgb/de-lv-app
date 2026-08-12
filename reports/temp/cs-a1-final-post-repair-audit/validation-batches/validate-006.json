@@ -1,0 +1,487 @@
+{
+  "batch": "validate-006",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00136",
+      "cardId": "a1-Million-406",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Standard contemporary Czech spelling is ‘milion’ without the acute accent.",
+      "auditCurrentCs": "Milión",
+      "auditProposedCs": "Milion",
+      "auditDe": "die Million",
+      "auditLvSource": "miljons",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Milión",
+      "cardContext": {
+        "cardId": "a1-Million-406",
+        "de": "Million",
+        "csMain": "Milión",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00137",
+      "cardId": "a1-Minute-407",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "‘Minutu’ is the accusative form; the standalone Czech dictionary form is nominative ‘minuta’.",
+      "auditCurrentCs": "Minutu",
+      "auditProposedCs": "Minuta",
+      "auditDe": "die Minute",
+      "auditLvSource": "minūte",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Minutu",
+      "cardContext": {
+        "cardId": "a1-Minute-407",
+        "de": "Minute",
+        "csMain": "Minutu",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00138",
+      "cardId": "a1-Mittag-410",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "‘Oběd’ means lunch and duplicates Mittagessen; German ‘Mittag’ primarily means midday/noon.",
+      "auditCurrentCs": "Oběd",
+      "auditProposedCs": "Poledne",
+      "auditDe": "der Mittag",
+      "auditLvSource": "pusdiena",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Oběd",
+      "cardContext": {
+        "cardId": "a1-Mittag-410",
+        "de": "Mittag",
+        "csMain": "Oběd",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00139",
+      "cardId": "a1-nein-436",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Žádný“ znamená „kein/none“, zatímco německé „nein“ se překládá jako „ne“.",
+      "auditCurrentCs": "Žádný",
+      "auditProposedCs": "Ne",
+      "auditDe": "nein",
+      "auditLvSource": "nē",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Žádný",
+      "cardContext": {
+        "cardId": "a1-nein-436",
+        "de": "nein",
+        "csMain": "Žádný",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00140",
+      "cardId": "a1-nicht-447",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Žádný“ je zájmeno nebo přídavné jméno; německé „nicht“ je české „ne“.",
+      "auditCurrentCs": "Žádný",
+      "auditProposedCs": "Ne",
+      "auditDe": "nicht",
+      "auditLvSource": "ne",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Žádný",
+      "cardContext": {
+        "cardId": "a1-nicht-447",
+        "de": "nicht",
+        "csMain": "Žádný",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00141",
+      "cardId": "a1-Ostern-467",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Ostern“ je podstatné jméno označující Velikonoce; „velikonoční“ je české přídavné jméno.",
+      "auditCurrentCs": "Velikonoční",
+      "auditProposedCs": "Velikonoce",
+      "auditDe": "Ostern",
+      "auditLvSource": "Lieldienas",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Velikonoční",
+      "cardContext": {
+        "cardId": "a1-Ostern-467",
+        "de": "Ostern",
+        "csMain": "Velikonoční",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00142",
+      "cardId": "a1-Pferd-474",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Koně“ je skloňovaný tvar nebo množné číslo; základní český název pro „Pferd“ je „kůň“.",
+      "auditCurrentCs": "Koně",
+      "auditProposedCs": "Kůň",
+      "auditDe": "Pferd",
+      "auditLvSource": "zirgs",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Koně",
+      "cardContext": {
+        "cardId": "a1-Pferd-474",
+        "de": "Pferd",
+        "csMain": "Koně",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00143",
+      "cardId": "a1-Programm-484",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Naprogramovat znamená „programovat“, což je sloveso; německé Programm je podstatné jméno „program“.",
+      "auditCurrentCs": "Naprogramovat",
+      "auditProposedCs": "Program",
+      "auditDe": "Programm",
+      "auditLvSource": "programma",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Naprogramovat",
+      "cardContext": {
+        "cardId": "a1-Programm-484",
+        "de": "Programm",
+        "csMain": "Naprogramovat",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00144",
+      "cardId": "a1-richtig-497",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Opravit znamená „reparovat/opravit“; richtig znamená „správný“ nebo „správně“.",
+      "auditCurrentCs": "Opravit",
+      "auditProposedCs": "Správný",
+      "auditDe": "richtig",
+      "auditLvSource": "pareizs",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Opravit",
+      "cardContext": {
+        "cardId": "a1-richtig-497",
+        "de": "richtig",
+        "csMain": "Opravit",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00145",
+      "cardId": "a1-rund-501",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Kolo je podstatné jméno; rund je přídavné jméno s významem „kulatý“.",
+      "auditCurrentCs": "Kolo",
+      "auditProposedCs": "Kulatý",
+      "auditDe": "rund",
+      "auditLvSource": "apaļš",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Kolo",
+      "cardContext": {
+        "cardId": "a1-rund-501",
+        "de": "rund",
+        "csMain": "Kolo",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00146",
+      "cardId": "a1-schmecken-515",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Ochutnat znamená „vyzkoušet chuť“; schmecken znamená „chutnat“ nebo „mít chuť“.",
+      "auditCurrentCs": "Ochutnat",
+      "auditProposedCs": "Chutnat",
+      "auditDe": "schmecken",
+      "auditLvSource": "garšot",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Ochutnat",
+      "cardContext": {
+        "cardId": "a1-schmecken-515",
+        "de": "schmecken",
+        "csMain": "Ochutnat",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00147",
+      "cardId": "a1-Schnee-517",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Bude sněžit je věta v budoucím čase; německé Schnee je podstatné jméno „sníh“.",
+      "auditCurrentCs": "Bude sněžit",
+      "auditProposedCs": "Sníh",
+      "auditDe": "Schnee",
+      "auditLvSource": "sniegs",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Bude sněžit",
+      "cardContext": {
+        "cardId": "a1-Schnee-517",
+        "de": "Schnee",
+        "csMain": "Bude sněžit",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00148",
+      "cardId": "a1-Sekunde-545",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Samostatné heslo má být v nominativu; „sekundu“ je akuzativ.",
+      "auditCurrentCs": "Sekundu",
+      "auditProposedCs": "Sekunda",
+      "auditDe": "Sekunde",
+      "auditLvSource": "sekunde",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Sekundu",
+      "cardContext": {
+        "cardId": "a1-Sekunde-545",
+        "de": "Sekunde",
+        "csMain": "Sekundu",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00149",
+      "cardId": "a1-siebzehnte-554",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Sedmnáctého“ je genitiv nebo akuzativ; izolované pořadové číslo má být v základním tvaru.",
+      "auditCurrentCs": "Sedmnáctého",
+      "auditProposedCs": "Sedmnáctý",
+      "auditDe": "siebzehnte",
+      "auditLvSource": "septiņpadsmitais",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Sedmnáctého",
+      "cardContext": {
+        "cardId": "a1-siebzehnte-554",
+        "de": "siebzehnte",
+        "csMain": "Sedmnáctého",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00150",
+      "cardId": "a1-Sommer-565",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Letní“ je přídavné jméno; německé „Sommer“ je podstatné jméno „léto“.",
+      "auditCurrentCs": "Letní",
+      "auditProposedCs": "Léto",
+      "auditDe": "Sommer",
+      "auditLvSource": "vasara",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Letní",
+      "cardContext": {
+        "cardId": "a1-Sommer-565",
+        "de": "Sommer",
+        "csMain": "Letní",
+        "hasStudy": false
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00136",
+      "cardId": "a1-Million-406",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "„Milión“ is an outdated accent form; contemporary Czech spelling is „milion“.",
+      "currentCs": "Milión",
+      "proposedCs": "Milion"
+    },
+    {
+      "findingId": "FINAL-A1-00137",
+      "cardId": "a1-Minute-407",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Minutu“ is accusative; the standalone Czech headword is nominative „minuta“.",
+      "currentCs": "Minutu",
+      "proposedCs": "Minuta"
+    },
+    {
+      "findingId": "FINAL-A1-00138",
+      "cardId": "a1-Mittag-410",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Oběd“ means lunch, while „Mittag“ here denotes midday/noon: „poledne“.",
+      "currentCs": "Oběd",
+      "proposedCs": "Poledne"
+    },
+    {
+      "findingId": "FINAL-A1-00139",
+      "cardId": "a1-nein-436",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Žádný“ means no/none, not the Czech negative answer „ne“ for German „nein“.",
+      "currentCs": "Žádný",
+      "proposedCs": "Ne"
+    },
+    {
+      "findingId": "FINAL-A1-00140",
+      "cardId": "a1-nicht-447",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "German „nicht“ translates as Czech „ne“, whereas „žádný“ means no/none.",
+      "currentCs": "Žádný",
+      "proposedCs": "Ne"
+    },
+    {
+      "findingId": "FINAL-A1-00141",
+      "cardId": "a1-Ostern-467",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Velikonoční“ is an adjective; the noun „Ostern“ is „Velikonoce“.",
+      "currentCs": "Velikonoční",
+      "proposedCs": "Velikonoce"
+    },
+    {
+      "findingId": "FINAL-A1-00142",
+      "cardId": "a1-Pferd-474",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Koně“ is an inflected or plural form; the singular nominative headword is „kůň“.",
+      "currentCs": "Koně",
+      "proposedCs": "Kůň"
+    },
+    {
+      "findingId": "FINAL-A1-00143",
+      "cardId": "a1-Programm-484",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Naprogramovat“ is a verb; German „Programm“ is the noun „program“.",
+      "currentCs": "Naprogramovat",
+      "proposedCs": "Program"
+    },
+    {
+      "findingId": "FINAL-A1-00144",
+      "cardId": "a1-richtig-497",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Opravit“ means repair/correct; „richtig“ means correct/right, here „správný“.",
+      "currentCs": "Opravit",
+      "proposedCs": "Správný"
+    },
+    {
+      "findingId": "FINAL-A1-00145",
+      "cardId": "a1-rund-501",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Kolo“ means wheel/bicycle; adjective „rund“ translates as „kulatý“.",
+      "currentCs": "Kolo",
+      "proposedCs": "Kulatý"
+    },
+    {
+      "findingId": "FINAL-A1-00146",
+      "cardId": "a1-schmecken-515",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Ochutnat“ means taste/try tasting; „schmecken“ means „chutnat“.",
+      "currentCs": "Ochutnat",
+      "proposedCs": "Chutnat"
+    },
+    {
+      "findingId": "FINAL-A1-00147",
+      "cardId": "a1-Schnee-517",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Bude sněžit“ means it will snow; German noun „Schnee“ is „sníh“.",
+      "currentCs": "Bude sněžit",
+      "proposedCs": "Sníh"
+    },
+    {
+      "findingId": "FINAL-A1-00148",
+      "cardId": "a1-Sekunde-545",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Sekundu“ is accusative; the standalone Czech headword is nominative „sekunda“.",
+      "currentCs": "Sekundu",
+      "proposedCs": "Sekunda"
+    },
+    {
+      "findingId": "FINAL-A1-00149",
+      "cardId": "a1-siebzehnte-554",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Sedmnáctého“ is an oblique form; the isolated ordinal headword is „sedmnáctý“.",
+      "currentCs": "Sedmnáctého",
+      "proposedCs": "Sedmnáctý"
+    },
+    {
+      "findingId": "FINAL-A1-00150",
+      "cardId": "a1-Sommer-565",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Letní“ is an adjective; German noun „Sommer“ translates as „léto“.",
+      "currentCs": "Letní",
+      "proposedCs": "Léto"
+    }
+  ]
+}

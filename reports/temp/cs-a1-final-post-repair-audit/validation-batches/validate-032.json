@@ -1,0 +1,452 @@
+{
+  "batch": "validate-032",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00548",
+      "cardId": "a1-ferien",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Význam Urlaub je dovolená/volno z práce; současná formulace je gramaticky i významově chybná.",
+      "auditCurrentCs": "Odejít z práce (pouze všichni)",
+      "auditProposedCs": "Dovolená z práce (pouze jednotné číslo)",
+      "auditDe": "der Urlaub",
+      "auditLvSource": "atvaļinājums no darba (tikai vsk.)",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Odejít z práce (pouze všichni)",
+      "cardContext": {
+        "cardId": "a1-ferien",
+        "de": "Ferien",
+        "csMain": "Prázdniny (škola)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00549",
+      "cardId": "a1-urlaub",
+      "field": "study.explanation[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Odejít z práce“ nevyjadřuje význam Urlaub; jde o dovolenou nebo pracovní volno.",
+      "auditCurrentCs": "Hlavní myšlenka: pouze jednotné číslo. Odejít z práce - vždy v jednotném čísle.",
+      "auditProposedCs": "Hlavní myšlenka: pouze jednotné číslo. Dovolená nebo volno z práce – vždy v jednotném čísle.",
+      "auditDe": "Urlaub",
+      "auditLvSource": "tikai vienskaitlis. Atvaļinājums no darba.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Hlavní myšlenka: pouze jednotné číslo. Odejít z práce - vždy v jednotném čísle.",
+      "cardContext": {
+        "cardId": "a1-urlaub",
+        "de": "Urlaub",
+        "csMain": "Dovolená",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00550",
+      "cardId": "a1-urlaub",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Současný text je nesrozumitelný a neoznačuje dovolenou z práce.",
+      "auditCurrentCs": "Odejít z práce (pouze všichni)",
+      "auditProposedCs": "Dovolená z práce (pouze jednotné číslo)",
+      "auditDe": "der Urlaub",
+      "auditLvSource": "atvaļinājums no darba (tikai vsk.)",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Odejít z práce (pouze všichni)",
+      "cardContext": {
+        "cardId": "a1-urlaub",
+        "de": "Urlaub",
+        "csMain": "Dovolená",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00551",
+      "cardId": "a1-urlaub",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Ferien jsou školní prázdniny, ne obecná přestávka; zkratka „dsk.“ je nevhodná v učebním textu.",
+      "auditCurrentCs": "Školní/studijní přestávka (pouze dsk.)",
+      "auditProposedCs": "Školní/studijní prázdniny (pouze množné číslo)",
+      "auditDe": "die Ferien",
+      "auditLvSource": "skolas/studiju brīvlaiks (tikai dsk.)",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Školní/studijní přestávka (pouze dsk.)",
+      "cardContext": {
+        "cardId": "a1-urlaub",
+        "de": "Urlaub",
+        "csMain": "Dovolená",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00552",
+      "cardId": "a1-urlaub",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Nesprávný tvar slova Urlaub je „der Urlаube“, ne „der Urlabe“.",
+      "auditCurrentCs": "Nesprávně: die Ferie, der Urlabe (na úrovni A1).",
+      "auditProposedCs": "Nesprávně: die Ferie, der Urlaube (na úrovni A1).",
+      "auditDe": "Urlaub",
+      "auditLvSource": "Nav pareizi: die Ferie, der Urlaube",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Nesprávně: die Ferie, der Urlabe (na úrovni A1).",
+      "cardContext": {
+        "cardId": "a1-urlaub",
+        "de": "Urlaub",
+        "csMain": "Dovolená",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00553",
+      "cardId": "a1-uhr",
+      "field": "study.examples[5].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Text obsahuje nepřeložený německý výraz „Die Zeit“, který navíc neodpovídá německému zdroji die Uhr.",
+      "auditCurrentCs": "Zařízení/čas na hodinách • Die Zeit",
+      "auditProposedCs": "Zařízení/čas na hodinách",
+      "auditDe": "die Uhr",
+      "auditLvSource": "ierīce/laiks pulkstenī; die Zeit",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Zařízení/čas na hodinách • Die Zeit",
+      "cardContext": {
+        "cardId": "a1-uhr",
+        "de": "Uhr",
+        "csMain": "Hodiny",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00554",
+      "cardId": "a1-zeit",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Hlavní překlad používá závorky a lomítko místo projektového formátu • pro více významů.",
+      "auditCurrentCs": "Čas (okamžik / časový úsek)",
+      "auditProposedCs": "Čas • Okamžik • Časový úsek",
+      "auditDe": "Zeit",
+      "auditLvSource": "laiks (brīdis / laika posms)",
+      "category": "TITLE_FORMAT",
+      "productionCurrentCs": "Čas (okamžik / časový úsek)",
+      "cardContext": {
+        "cardId": "a1-zeit",
+        "de": "Zeit",
+        "csMain": "Čas (okamžik / časový úsek)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00555",
+      "cardId": "a1-zeit",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Hlavní překlad používá závorky a lomítko místo projektového formátu • pro více významů.",
+      "auditCurrentCs": "Čas (okamžik / časový úsek)",
+      "auditProposedCs": "Čas • Okamžik • Časový úsek",
+      "auditDe": "Zeit",
+      "auditLvSource": "laiks (brīdis / laika posms)",
+      "category": "TITLE_FORMAT",
+      "productionCurrentCs": "Čas (okamžik / časový úsek)",
+      "cardContext": {
+        "cardId": "a1-zeit",
+        "de": "Zeit",
+        "csMain": "Čas (okamžik / časový úsek)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00556",
+      "cardId": "a1-zeit",
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Vysvětlení opomíjí základní význam Zeit = čas a nepřesně upřednostňuje okamžik a příležitost.",
+      "auditCurrentCs": "Die Zeit znamená především: okamžik, příležitost.",
+      "auditProposedCs": "Die Zeit znamená především: čas a časový úsek.",
+      "auditDe": "Zeit",
+      "auditLvSource": "die Zeit galvenokārt nozīmē: brīdis, iespēja.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Die Zeit znamená především: okamžik, příležitost.",
+      "cardContext": {
+        "cardId": "a1-zeit",
+        "de": "Zeit",
+        "csMain": "Čas (okamžik / časový úsek)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00557",
+      "cardId": "a1-einmal",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Oba české významy jsou stejné; ztrácí se rozdíl mezi jednou a kdysi/reiz v minulosti.",
+      "auditCurrentCs": "Jednou • Jednou",
+      "auditProposedCs": "Jednou • Kdysi",
+      "auditDe": "einmal",
+      "auditLvSource": "vienreiz • reiz",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Jednou • Jednou",
+      "cardContext": {
+        "cardId": "a1-einmal",
+        "de": "einmal",
+        "csMain": "Jednou • Jednou",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00558",
+      "cardId": "a1-einmal",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Oba české významy jsou stejné; ztrácí se rozdíl mezi jednou a kdysi/reiz v minulosti.",
+      "auditCurrentCs": "Jednou • Jednou",
+      "auditProposedCs": "Jednou • Kdysi",
+      "auditDe": "einmal",
+      "auditLvSource": "vienreiz • reiz",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Jednou • Jednou",
+      "cardContext": {
+        "cardId": "a1-einmal",
+        "de": "einmal",
+        "csMain": "Jednou • Jednou",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00559",
+      "cardId": "a1-einmal",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Povětrnostními podmínkami“ je chybný význam; jde o časové příslovce.",
+      "auditCurrentCs": "Často charakterizované: povětrnostními podmínkami.",
+      "auditProposedCs": "Často se používá jako časové příslovce.",
+      "auditDe": "einmal",
+      "auditLvSource": "Bieži raksturo: laika apstākli.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Často charakterizované: povětrnostními podmínkami.",
+      "cardContext": {
+        "cardId": "a1-einmal",
+        "de": "einmal",
+        "csMain": "Jednou • Jednou",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00560",
+      "cardId": "a1-noch-mal",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "V ustálené zdvořilé frázi je třeba oddělit vsuvkové „prosím“ čárkou a doplnit tečku.",
+      "auditCurrentCs": "Znovu prosím",
+      "auditProposedCs": "Znovu, prosím.",
+      "auditDe": "Noch mal, bitte.",
+      "auditLvSource": "vēlreiz, lūdzu.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Znovu prosím",
+      "cardContext": {
+        "cardId": "a1-noch-mal",
+        "de": "noch mal",
+        "csMain": "Znovu",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00561",
+      "cardId": "a1-noch-mal",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Příklad postrádá koncovou tečku.",
+      "auditCurrentCs": "Řekni to znovu",
+      "auditProposedCs": "Řekni to znovu.",
+      "auditDe": "Sag das noch mal.",
+      "auditLvSource": "pasaki to vēlreiz.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Řekni to znovu",
+      "cardContext": {
+        "cardId": "a1-noch-mal",
+        "de": "noch mal",
+        "csMain": "Znovu",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00548",
+      "cardId": "a1-ferien",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Význam je chybný: „Odejít z práce“ neodpovídá Urlaub a „pouze všichni“ je nesrozumitelné.",
+      "currentCs": "Odejít z práce (pouze všichni)",
+      "proposedCs": "Dovolená z práce (pouze jednotné číslo)"
+    },
+    {
+      "findingId": "FINAL-A1-00549",
+      "cardId": "a1-urlaub",
+      "field": "study.explanation[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Text nesprávně popisuje Urlaub jako odchod z práce místo dovolené nebo pracovního volna.",
+      "currentCs": "Hlavní myšlenka: pouze jednotné číslo. Odejít z práce - vždy v jednotném čísle.",
+      "proposedCs": "Hlavní myšlenka: pouze jednotné číslo. Dovolená nebo volno z práce – vždy v jednotném čísle."
+    },
+    {
+      "findingId": "FINAL-A1-00550",
+      "cardId": "a1-urlaub",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Současný význam je nesrozumitelný a významově neodpovídá slovu Urlaub.",
+      "currentCs": "Odejít z práce (pouze všichni)",
+      "proposedCs": "Dovolená z práce (pouze jednotné číslo)"
+    },
+    {
+      "findingId": "FINAL-A1-00551",
+      "cardId": "a1-urlaub",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Ferien označuje školní nebo studijní prázdniny, nikoli obecnou přestávku; „dsk.“ je nevhodná zkratka.",
+      "currentCs": "Školní/studijní přestávka (pouze dsk.)",
+      "proposedCs": "Školní/studijní prázdniny (pouze množné číslo)"
+    },
+    {
+      "findingId": "FINAL-A1-00552",
+      "cardId": "a1-urlaub",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Urlabe“ je v aktuálním textu chybný německý tvar; oprava odstraňuje pravopisnou chybu v učebním příkladu.",
+      "currentCs": "Nesprávně: die Ferie, der Urlabe (na úrovni A1).",
+      "proposedCs": "Nesprávně: die Ferie, der Urlaube (na úrovni A1)."
+    },
+    {
+      "findingId": "FINAL-A1-00553",
+      "cardId": "a1-uhr",
+      "field": "study.examples[5].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "České pole obsahuje nepřeložený německý remnant „Die Zeit“, který nesouvisí s významem die Uhr.",
+      "currentCs": "Zařízení/čas na hodinách • Die Zeit",
+      "proposedCs": "Zařízení/čas na hodinách"
+    },
+    {
+      "findingId": "FINAL-A1-00554",
+      "cardId": "a1-zeit",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Závorky a lomítko jsou pouze stylistická varianta; český překlad i význam jsou správné.",
+      "currentCs": "Čas (okamžik / časový úsek)"
+    },
+    {
+      "findingId": "FINAL-A1-00555",
+      "cardId": "a1-zeit",
+      "field": "study.translation",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Závorky a lomítko představují přijatelný formát a nečiní český překlad chybným.",
+      "currentCs": "Čas (okamžik / časový úsek)"
+    },
+    {
+      "findingId": "FINAL-A1-00556",
+      "cardId": "a1-zeit",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Vysvětlení opomíjí základní význam Zeit jako času a nepřesně ho omezuje na okamžik a příležitost.",
+      "currentCs": "Die Zeit znamená především: okamžik, příležitost.",
+      "proposedCs": "Die Zeit znamená především: čas a časový úsek."
+    },
+    {
+      "findingId": "FINAL-A1-00557",
+      "cardId": "a1-einmal",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Oba české významy jsou identické, takže se ztrácí rozdíl mezi „jednou“ a „kdysi“.",
+      "currentCs": "Jednou • Jednou",
+      "proposedCs": "Jednou • Kdysi"
+    },
+    {
+      "findingId": "FINAL-A1-00558",
+      "cardId": "a1-einmal",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Oba české významy jsou identické, takže se ztrácí rozdíl mezi „jednou“ a „kdysi“.",
+      "currentCs": "Jednou • Jednou",
+      "proposedCs": "Jednou • Kdysi"
+    },
+    {
+      "findingId": "FINAL-A1-00559",
+      "cardId": "a1-einmal",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Text mylně spojuje einmal s povětrnostními podmínkami místo jeho použití jako časového příslovce.",
+      "currentCs": "Často charakterizované: povětrnostními podmínkami.",
+      "proposedCs": "Často se používá jako časové příslovce."
+    },
+    {
+      "findingId": "FINAL-A1-00560",
+      "cardId": "a1-noch-mal",
+      "field": "study.examples[1].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "reason": "„Znovu prosím“ je v češtině přijatelné vyjádření; čárka a tečka jsou pouze preferovaná interpunkce.",
+      "currentCs": "Znovu prosím"
+    },
+    {
+      "findingId": "FINAL-A1-00561",
+      "cardId": "a1-noch-mal",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Samostatná česká věta v příkladu postrádá koncovou tečku.",
+      "currentCs": "Řekni to znovu",
+      "proposedCs": "Řekni to znovu."
+    }
+  ]
+}

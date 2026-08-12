@@ -1,0 +1,484 @@
+{
+  "batch": "validate-008",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00166",
+      "cardId": "a1-klein-study",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Český příklad neodpovídá německé větě ani sekundárnímu zdroji; jde o pokoj místo dítěte.",
+      "auditCurrentCs": "Pokoj je malý.",
+      "auditProposedCs": "Dítě je ještě malé.",
+      "auditDe": "Das Kind ist noch klein.",
+      "auditLvSource": "Bērns vēl ir mazs.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pokoj je malý.",
+      "cardContext": {
+        "cardId": "a1-klein-study",
+        "de": "klein",
+        "csMain": "Malý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00167",
+      "cardId": "a1-klein-study",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Český příklad je zaměněn s předchozí větou; německy i zdrojově jde o malou tašku.",
+      "auditCurrentCs": "Dítě je ještě malé.",
+      "auditProposedCs": "Mám malou tašku.",
+      "auditDe": "Ich habe eine kleine Tasche.",
+      "auditLvSource": "Man ir maza soma.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Dítě je ještě malé.",
+      "cardContext": {
+        "cardId": "a1-klein-study",
+        "de": "klein",
+        "csMain": "Malý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00169",
+      "cardId": "a1-ab",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Ab se v uvedeném významu překládá jako „od“ nebo „počínaje“, ne jako české „z“.",
+      "auditCurrentCs": "Z",
+      "auditProposedCs": "Od",
+      "auditDe": "ab",
+      "auditLvSource": "no",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Z",
+      "cardContext": {
+        "cardId": "a1-ab",
+        "de": "ab",
+        "csMain": "Z",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00170",
+      "cardId": "a1-ab",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Hlavní český překlad je významově chybný; „z“ odpovídá spíše aus nebo von.",
+      "auditCurrentCs": "Z",
+      "auditProposedCs": "Od",
+      "auditDe": "ab",
+      "auditLvSource": "no",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Z",
+      "cardContext": {
+        "cardId": "a1-ab",
+        "de": "ab",
+        "csMain": "Z",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00171",
+      "cardId": "a1-aber",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Ne • Ale“ není přirozené české označení spojky sondern a neuvádí její vazbu po záporu.",
+      "auditCurrentCs": "Ne • Ale",
+      "auditProposedCs": "Nýbrž • Ale (po záporu)",
+      "auditDe": "sondern",
+      "auditLvSource": "nevis • bet gan",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Ne • Ale",
+      "cardContext": {
+        "cardId": "a1-aber",
+        "de": "aber",
+        "csMain": "Ale",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00172",
+      "cardId": "a1-also",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "V tomto významu německé also vyjadřuje závěr; „proto“ se zde překrývá s deshalb a je méně přesné.",
+      "auditCurrentCs": "Proto",
+      "auditProposedCs": "Tedy • Takže",
+      "auditDe": "also",
+      "auditLvSource": "tātad",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Proto",
+      "cardContext": {
+        "cardId": "a1-also",
+        "de": "also",
+        "csMain": "Proto",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00173",
+      "cardId": "a1-also",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Hlavní překlad by měl odlišit also jako „tedy/takže“ od deshalb jako „proto“.",
+      "auditCurrentCs": "Proto",
+      "auditProposedCs": "Tedy • Takže",
+      "auditDe": "also",
+      "auditLvSource": "tātad",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Proto",
+      "cardContext": {
+        "cardId": "a1-also",
+        "de": "also",
+        "csMain": "Proto",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00174",
+      "cardId": "a1-also",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Český imperativ „nechoď“ mění oznamovací větu na rozkaz; německá věta pouze konstatuje důsledek.",
+      "auditCurrentCs": "Jsi nemocný, tak nechoď do práce.",
+      "auditProposedCs": "Jsi nemocný, takže nejdeš do práce.",
+      "auditDe": "Du bist krank, also gehst du nicht zur Arbeit.",
+      "auditLvSource": "tu esi slims, tāpēc neej uz darbu.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Jsi nemocný, tak nechoď do práce.",
+      "cardContext": {
+        "cardId": "a1-also",
+        "de": "also",
+        "csMain": "Proto",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00175",
+      "cardId": "a1-also",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "České „také“ znamená „auch“, nikoli závěrové německé also.",
+      "auditCurrentCs": "Pamatujte: závěr → také.",
+      "auditProposedCs": "Pamatujte: závěr → tedy/takže.",
+      "auditDe": "also",
+      "auditLvSource": "Atceries: secinājums → also.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pamatujte: závěr → také.",
+      "cardContext": {
+        "cardId": "a1-also",
+        "de": "also",
+        "csMain": "Proto",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00176",
+      "cardId": "a1-also",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Také“ je chybný český ekvivalent a zaměňuje also s auch.",
+      "auditCurrentCs": "Také ukazuje závěr: další myšlenka vyplývá z toho, co bylo řečeno výše.",
+      "auditProposedCs": "Tedy ukazuje závěr: další myšlenka vyplývá z toho, co bylo řečeno výše.",
+      "auditDe": "also",
+      "auditLvSource": "also rāda secinājumu",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Také ukazuje závěr: další myšlenka vyplývá z toho, co bylo řečeno výše.",
+      "cardContext": {
+        "cardId": "a1-also",
+        "de": "also",
+        "csMain": "Proto",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00177",
+      "cardId": "a1-auch-study",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Příklad je zaměněn s prvním; německy jde o ženu, která zde také pracuje.",
+      "auditCurrentCs": "Já jdu taky.",
+      "auditProposedCs": "Ona zde také pracuje.",
+      "auditDe": "Sie arbeitet auch hier.",
+      "auditLvSource": "Viņa arī strādā šeit.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Já jdu taky",
+      "cardContext": {
+        "cardId": "a1-auch-study",
+        "de": "auch",
+        "csMain": "Také",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00178",
+      "cardId": "a1-auch-study",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Příklad je zaměněn s předchozím; německá věta vyjadřuje přání hezkého dne.",
+      "auditCurrentCs": "Ona zde také pracuje.",
+      "auditProposedCs": "Také vám přeji hezký den.",
+      "auditDe": "Ich wünsche Ihnen auch einen schönen Tag.",
+      "auditLvSource": "Es arī novēlu jums jauku dienu.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Ona zde také pracuje.",
+      "cardContext": {
+        "cardId": "a1-auch-study",
+        "de": "auch",
+        "csMain": "Také",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00180",
+      "cardId": "a1-auf",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Text je gramaticky neúplný a druhá část nedává smysl; chybí předmět a správný význam.",
+      "auditCurrentCs": "Pokud je něco blízko svislého povrchu, často potřebujete • Pokud jste dovnitř, musíte dovnitř.",
+      "auditProposedCs": "Pokud je něco u svislého povrchu, často použijete an; pokud je něco uvnitř, použijete in.",
+      "auditDe": "auf",
+      "auditLvSource": "Ja kaut kas ir pie vertikālas virsmas, bieži vajag an; ja iekšā, vajag in.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Pokud je něco blízko svislého povrchu, často potřebujete • Pokud jste dovnitř, musíte dovnitř.",
+      "cardContext": {
+        "cardId": "a1-auf",
+        "de": "auf",
+        "csMain": "Na",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00181",
+      "cardId": "a1-aus",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Aus se v těchto příkladech překládá jako „z/ze“, ne jako „od“; „ven“ není vhodný hlavní překlad předložky.",
+      "auditCurrentCs": "Od • Ven",
+      "auditProposedCs": "Z • Zevnitř",
+      "auditDe": "aus",
+      "auditLvSource": "no",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Od • Ven",
+      "cardContext": {
+        "cardId": "a1-aus",
+        "de": "aus",
+        "csMain": "Od • Ven",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00182",
+      "cardId": "a1-aus",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Hlavní český překlad neodpovídá významu německé předložky aus ve studijním kontextu.",
+      "auditCurrentCs": "Od • Ven",
+      "auditProposedCs": "Z • Zevnitř",
+      "auditDe": "aus",
+      "auditLvSource": "no",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Od • Ven",
+      "cardContext": {
+        "cardId": "a1-aus",
+        "de": "aus",
+        "csMain": "Od • Ven",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00166",
+      "cardId": "a1-klein-study",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Česká věta mluví o pokoji, ale německý a lotyšský zdroj mluví o malém dítěti.",
+      "currentCs": "Pokoj je malý.",
+      "proposedCs": "Dítě je ještě malé."
+    },
+    {
+      "findingId": "FINAL-A1-00167",
+      "cardId": "a1-klein-study",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Česká věta opakuje předchozí příklad; německý a lotyšský zdroj mluví o malé tašce.",
+      "currentCs": "Dítě je ještě malé.",
+      "proposedCs": "Mám malou tašku."
+    },
+    {
+      "findingId": "FINAL-A1-00169",
+      "cardId": "a1-ab",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "V uvedeném významu německé ab znamená od nebo počínaje, nikoli české z.",
+      "currentCs": "Z",
+      "proposedCs": "Od"
+    },
+    {
+      "findingId": "FINAL-A1-00170",
+      "cardId": "a1-ab",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Hlavní český překlad z neodpovídá předložce ab ve významu od nebo počínaje.",
+      "currentCs": "Z",
+      "proposedCs": "Od"
+    },
+    {
+      "findingId": "FINAL-A1-00171",
+      "cardId": "a1-aber",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Ne • Ale je srozumitelná a významově správná česká vzorová vazba pro sondern po záporu.",
+      "currentCs": "Ne • Ale"
+    },
+    {
+      "findingId": "FINAL-A1-00172",
+      "cardId": "a1-also",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Proto je v češtině přijatelné vyjádření závěru; jde o synonymní či méně preferovanou volbu.",
+      "currentCs": "Proto"
+    },
+    {
+      "findingId": "FINAL-A1-00173",
+      "cardId": "a1-also",
+      "field": "study.translation",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Proto může v češtině překládat závěrové also; nejde o významovou chybu, jen o preferenci přesnějších synonym.",
+      "currentCs": "Proto"
+    },
+    {
+      "findingId": "FINAL-A1-00174",
+      "cardId": "a1-also",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Imperativ nechoď mění německé oznamovací tvrzení na rozkaz.",
+      "currentCs": "Jsi nemocný, tak nechoď do práce.",
+      "proposedCs": "Jsi nemocný, takže nejdeš do práce."
+    },
+    {
+      "findingId": "FINAL-A1-00175",
+      "cardId": "a1-also",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Také znamená auch, nikoli závěrové also ve smyslu tedy nebo takže.",
+      "currentCs": "Pamatujte: závěr → také.",
+      "proposedCs": "Pamatujte: závěr → tedy/takže."
+    },
+    {
+      "findingId": "FINAL-A1-00176",
+      "cardId": "a1-also",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Text zaměňuje německé závěrové also s českým také, které znamená rovněž.",
+      "currentCs": "Také ukazuje závěr: další myšlenka vyplývá z toho, co bylo řečeno výše.",
+      "proposedCs": "Tedy ukazuje závěr: další myšlenka vyplývá z toho, co bylo řečeno výše."
+    },
+    {
+      "findingId": "FINAL-A1-00177",
+      "cardId": "a1-auch-study",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Česká věta neodpovídá německému příkladu o ženě, která zde také pracuje.",
+      "currentCs": "Já jdu taky",
+      "proposedCs": "Ona zde také pracuje."
+    },
+    {
+      "findingId": "FINAL-A1-00178",
+      "cardId": "a1-auch-study",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Česká věta opakuje předchozí příklad a nevyjadřuje přání hezkého dne.",
+      "currentCs": "Ona zde také pracuje.",
+      "proposedCs": "Také vám přeji hezký den."
+    },
+    {
+      "findingId": "FINAL-A1-00180",
+      "cardId": "a1-auf",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Text je gramaticky i významově neúplný a druhá část nedává smysl jako vysvětlení rozdílu an a in.",
+      "currentCs": "Pokud je něco blízko svislého povrchu, často potřebujete • Pokud jste dovnitř, musíte dovnitř.",
+      "proposedCs": "Pokud je něco u svislého povrchu, často použijete an; pokud je něco uvnitř, použijete in."
+    },
+    {
+      "findingId": "FINAL-A1-00181",
+      "cardId": "a1-aus",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Aus se v uvedeném významu překládá jako z nebo zevnitř, ne jako od • ven.",
+      "currentCs": "Od • Ven",
+      "proposedCs": "Z • Zevnitř"
+    },
+    {
+      "findingId": "FINAL-A1-00182",
+      "cardId": "a1-aus",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Hlavní český překlad od • ven neodpovídá běžnému významu německé předložky aus.",
+      "currentCs": "Od • Ven",
+      "proposedCs": "Z • Zevnitř"
+    }
+  ]
+}

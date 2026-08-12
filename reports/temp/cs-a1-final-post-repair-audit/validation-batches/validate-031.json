@@ -1,0 +1,486 @@
+{
+  "batch": "validate-031",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00526",
+      "cardId": "a1-zum",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Text obsahuje anglické slovo „At“ a „Do“ nevystihuje základní význam německého zu dem.",
+      "auditCurrentCs": "Do • At",
+      "auditProposedCs": "K • Ke",
+      "auditDe": "zum",
+      "auditLvSource": "uz • pie",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Do • At",
+      "cardContext": {
+        "cardId": "a1-zum",
+        "de": "zum",
+        "csMain": "Do • At",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00527",
+      "cardId": "a1-zum",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Překlad není celý česky a hlavní význam zum je k/ke, nikoli obecně do.",
+      "auditCurrentCs": "Do • At",
+      "auditProposedCs": "K • Ke",
+      "auditDe": "zum",
+      "auditLvSource": "uz • pie",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Do • At",
+      "cardContext": {
+        "cardId": "a1-zum",
+        "de": "zum",
+        "csMain": "Do • At",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00532",
+      "cardId": "a1-zum",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Akcentovaná česká slova nesouhlasí s významem zu a „také“ zde významově nepatří.",
+      "auditCurrentCs": "[\"také\",\"také\",\"také\"]",
+      "auditProposedCs": "[\"k\",\"ke\",\"příliš\"]",
+      "auditDe": "zu",
+      "auditLvSource": "uz / pie / pārāk",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "[\"také\",\"také\",\"také\"]",
+      "cardContext": {
+        "cardId": "a1-zum",
+        "de": "zum",
+        "csMain": "Do • At",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00533",
+      "cardId": "a1-fernsehen",
+      "field": "study.tip.leftBlocks[0].text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Sloveso fernsehen se v němčině píše s malým počátečním písmenem; velké Fernsehen je podstatné jméno.",
+      "auditCurrentCs": "K akci se používá Fernsehen (ich sehe fern). Das Fernsehen se používá pro televizní program nebo médium.",
+      "auditProposedCs": "K činnosti se používá fernsehen (ich sehe fern). Das Fernsehen se používá pro televizní program nebo médium.",
+      "auditDe": "fernsehen",
+      "auditLvSource": "Par darbību lieto fernsehen (ich sehe fern).",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "K akci se používá Fernsehen (ich sehe fern). Das Fernsehen se používá pro televizní program nebo médium.",
+      "cardContext": {
+        "cardId": "a1-fernsehen",
+        "de": "fernsehen",
+        "csMain": "Dívat se na televizi",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00534",
+      "cardId": "a1-fernsehen",
+      "field": "study.important.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Infinitivní sloveso je fernsehen; Fernsehen je pouze podstatné jméno.",
+      "auditCurrentCs": "Fernsehen = sloveso (ich sehe fern). das Fernsehen = podstatné jméno, pouze jednotné číslo.",
+      "auditProposedCs": "fernsehen = sloveso (ich sehe fern). das Fernsehen = podstatné jméno, pouze jednotné číslo.",
+      "auditDe": "fernsehen",
+      "auditLvSource": "Par darbību lieto fernsehen (ich sehe fern).",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Fernsehen = sloveso (ich sehe fern). das Fernsehen = podstatné jméno, pouze jednotné číslo.",
+      "cardContext": {
+        "cardId": "a1-fernsehen",
+        "de": "fernsehen",
+        "csMain": "Dívat se na televizi",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00535",
+      "cardId": "a1-fernsehen-study",
+      "field": "study.examples[5].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Současný překlad je doslovný a nepřirozený; česká běžná vazba pro televizní program je „co dávají“.",
+      "auditCurrentCs": "Co se zobrazuje v televizi?",
+      "auditProposedCs": "Co dávají v televizi?",
+      "auditDe": "Was gibt es im Fernsehen?",
+      "auditLvSource": "Ko rāda televīzijā?",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Co se zobrazuje v televizi?",
+      "cardContext": {
+        "cardId": "a1-fernsehen-study",
+        "de": "Fernsehen",
+        "csMain": "Televize",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00537",
+      "cardId": "a1-essen",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Německé ihr je 2. osoba množného čísla; čeština musí mít „chcete“. Chybí také otazník.",
+      "auditCurrentCs": "Co chceš jíst",
+      "auditProposedCs": "Co chcete jíst?",
+      "auditDe": "Was wollt ihr essen?",
+      "auditLvSource": "ko jūs gribat ēst?",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Co chceš jíst",
+      "cardContext": {
+        "cardId": "a1-essen",
+        "de": "essen",
+        "csMain": "Jíst",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00538",
+      "cardId": "a1-essen",
+      "field": "study.explanation[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Výklad slovesa omylem uvádí podstatné jméno a opakuje slovo „jídlo“.",
+      "auditCurrentCs": "Essen v podstatě znamená: jídlo nebo jídlo.",
+      "auditProposedCs": "Essen v podstatě znamená: jíst nebo konzumovat jídlo.",
+      "auditDe": "essen",
+      "auditLvSource": "essen galvenokārt nozīmē patērēt pārtiku",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Essen v podstatě znamená: jídlo nebo jídlo.",
+      "cardContext": {
+        "cardId": "a1-essen",
+        "de": "essen",
+        "csMain": "Jíst",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00539",
+      "cardId": "a1-essen",
+      "field": "study.explanation[4]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Déšť“ je významově nesouvisející a v kontextu slovesa essen chybný.",
+      "auditCurrentCs": "Často popisuje: déšť.",
+      "auditProposedCs": "Často popisuje: činnost.",
+      "auditDe": "essen",
+      "auditLvSource": "Bieži raksturo: darbību.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Často popisuje: déšť.",
+      "cardContext": {
+        "cardId": "a1-essen",
+        "de": "essen",
+        "csMain": "Jíst",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00541",
+      "cardId": "a1-essen-study",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Německé ihr je 2. osoba množného čísla; „chceš“ je nesprávné a chybí otazník.",
+      "auditCurrentCs": "Co chceš jíst",
+      "auditProposedCs": "Co chcete jíst?",
+      "auditDe": "Was wollt ihr essen?",
+      "auditLvSource": "ko jūs gribat ēst?",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Co chceš jíst",
+      "cardContext": {
+        "cardId": "a1-essen-study",
+        "de": "Essen",
+        "csMain": "Jídlo • Jídlo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00542",
+      "cardId": "a1-essen-study",
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Das Essen je podstatné jméno označující jídlo či pokrm, nikoli samotnou konzumaci.",
+      "auditCurrentCs": "Das Essen znamená především: konzumovat jídlo.",
+      "auditProposedCs": "Das Essen znamená především: jídlo nebo pokrm.",
+      "auditDe": "Das Essen",
+      "auditLvSource": "das Essen galvenokārt nozīmē pārtika vai maltīte",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Das Essen znamená především: konzumovat jídlo.",
+      "cardContext": {
+        "cardId": "a1-essen-study",
+        "de": "Essen",
+        "csMain": "Jídlo • Jídlo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00543",
+      "cardId": "a1-essen-study",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "U podstatného jména je „akce“ chybná charakteristika; jde o věc/pokrm.",
+      "auditCurrentCs": "Často popisuje: akce.",
+      "auditProposedCs": "Často označuje: věc nebo pokrm.",
+      "auditDe": "Das Essen",
+      "auditLvSource": "Bieži raksturo: lietu.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Často popisuje: akce.",
+      "cardContext": {
+        "cardId": "a1-essen-study",
+        "de": "Essen",
+        "csMain": "Jídlo • Jídlo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00544",
+      "cardId": "a1-essen-study",
+      "field": "study.explanation[4]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Déšť“ je v tomto výkladu zjevně nesouvisející chybný text.",
+      "auditCurrentCs": "Často popisuje: déšť.",
+      "auditProposedCs": "Často označuje: věc nebo pokrm.",
+      "auditDe": "Das Essen",
+      "auditLvSource": "Bieži raksturo: lietu.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Často popisuje: déšť.",
+      "cardContext": {
+        "cardId": "a1-essen-study",
+        "de": "Essen",
+        "csMain": "Jídlo • Jídlo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00546",
+      "cardId": "a1-ferien",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„In den Ferien“ znamená o prázdninách, nikoli o víkendech.",
+      "auditCurrentCs": "O víkendech jezdíme k moři.",
+      "auditProposedCs": "O prázdninách jezdíme k moři.",
+      "auditDe": "In den Ferien fahren wir ans Meer.",
+      "auditLvSource": "Brīvdienās mēs braucam pie jūras.",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "O víkendech jezdíme k moři.",
+      "cardContext": {
+        "cardId": "a1-ferien",
+        "de": "Ferien",
+        "csMain": "Prázdniny (škola)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00547",
+      "cardId": "a1-ferien",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Německé ihr vyžaduje množné číslo „děláte“ a v českém překladu chybí otazník.",
+      "auditCurrentCs": "Co děláš o prázdninách",
+      "auditProposedCs": "Co děláte o prázdninách?",
+      "auditDe": "Was macht ihr in den Ferien?",
+      "auditLvSource": "ko jūs darāt brīvdienās?",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Co děláš o prázdninách",
+      "cardContext": {
+        "cardId": "a1-ferien",
+        "de": "Ferien",
+        "csMain": "Prázdniny (škola)",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00526",
+      "cardId": "a1-zum",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Produkční překlad obsahuje anglické „At“ a významově nevystihuje české k/ke.",
+      "currentCs": "Do • At",
+      "proposedCs": "K • Ke"
+    },
+    {
+      "findingId": "FINAL-A1-00527",
+      "cardId": "a1-zum",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Produkční překlad je chybný a obsahuje anglické slovo; základní český význam je k/ke.",
+      "currentCs": "Do • At",
+      "proposedCs": "K • Ke"
+    },
+    {
+      "findingId": "FINAL-A1-00532",
+      "cardId": "a1-zum",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Akcentované významy „také“ jsou pro německé zu nesprávné.",
+      "currentCs": "[\"také\",\"také\",\"také\"]",
+      "proposedCs": "[\"k\",\"ke\",\"příliš\"]"
+    },
+    {
+      "findingId": "FINAL-A1-00533",
+      "cardId": "a1-fernsehen",
+      "field": "study.tip.leftBlocks[0].text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Ve vysvětlení je sloveso fernsehen chybně napsané s velkým písmenem.",
+      "currentCs": "K akci se používá Fernsehen (ich sehe fern). Das Fernsehen se používá pro televizní program nebo médium.",
+      "proposedCs": "K činnosti se používá fernsehen (ich sehe fern). Das Fernsehen se používá pro televizní program nebo médium."
+    },
+    {
+      "findingId": "FINAL-A1-00534",
+      "cardId": "a1-fernsehen",
+      "field": "study.important.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Infinitivní sloveso má být fernsehen; Fernsehen je zde podstatné jméno.",
+      "currentCs": "Fernsehen = sloveso (ich sehe fern). das Fernsehen = podstatné jméno, pouze jednotné číslo.",
+      "proposedCs": "fernsehen = sloveso (ich sehe fern). das Fernsehen = podstatné jméno, pouze jednotné číslo."
+    },
+    {
+      "findingId": "FINAL-A1-00535",
+      "cardId": "a1-fernsehen-study",
+      "field": "study.examples[5].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "„Co se zobrazuje v televizi?“ je gramaticky správný a srozumitelný český překlad; návrh je pouze přirozenostní preference.",
+      "currentCs": "Co se zobrazuje v televizi?"
+    },
+    {
+      "findingId": "FINAL-A1-00537",
+      "cardId": "a1-essen",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Německé ihr vyžaduje české „chcete“ a věta potřebuje otazník.",
+      "currentCs": "Co chceš jíst",
+      "proposedCs": "Co chcete jíst?"
+    },
+    {
+      "findingId": "FINAL-A1-00538",
+      "cardId": "a1-essen",
+      "field": "study.explanation[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Výklad slovesa obsahuje opakované „jídlo“ a neuvádí slovesný význam.",
+      "currentCs": "Essen v podstatě znamená: jídlo nebo jídlo.",
+      "proposedCs": "Essen v podstatě znamená: jíst nebo konzumovat jídlo."
+    },
+    {
+      "findingId": "FINAL-A1-00539",
+      "cardId": "a1-essen",
+      "field": "study.explanation[4]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Déšť“ je v tomto výkladu nesouvisející významová chyba u slovesa essen.",
+      "currentCs": "Často popisuje: déšť.",
+      "proposedCs": "Často popisuje: činnost."
+    },
+    {
+      "findingId": "FINAL-A1-00541",
+      "cardId": "a1-essen-study",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Německé ihr vyžaduje české „chcete“ a věta potřebuje otazník.",
+      "currentCs": "Co chceš jíst",
+      "proposedCs": "Co chcete jíst?"
+    },
+    {
+      "findingId": "FINAL-A1-00542",
+      "cardId": "a1-essen-study",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Das Essen je podstatné jméno pro jídlo či pokrm, ne sloveso označující konzumaci.",
+      "currentCs": "Das Essen znamená především: konzumovat jídlo.",
+      "proposedCs": "Das Essen znamená především: jídlo nebo pokrm."
+    },
+    {
+      "findingId": "FINAL-A1-00543",
+      "cardId": "a1-essen-study",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "U podstatného jména Das Essen je „akce“ chybná charakteristika.",
+      "currentCs": "Často popisuje: akce.",
+      "proposedCs": "Často označuje: věc nebo pokrm."
+    },
+    {
+      "findingId": "FINAL-A1-00544",
+      "cardId": "a1-essen-study",
+      "field": "study.explanation[4]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Déšť“ je v tomto výkladu zjevně nesouvisející významová chyba.",
+      "currentCs": "Často popisuje: déšť.",
+      "proposedCs": "Často označuje: věc nebo pokrm."
+    },
+    {
+      "findingId": "FINAL-A1-00546",
+      "cardId": "a1-ferien",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Německé In den Ferien znamená o prázdninách, nikoli o víkendech.",
+      "currentCs": "O víkendech jezdíme k moři.",
+      "proposedCs": "O prázdninách jezdíme k moři."
+    },
+    {
+      "findingId": "FINAL-A1-00547",
+      "cardId": "a1-ferien",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Německé ihr vyžaduje množné číslo „děláte“ a věta potřebuje otazník.",
+      "currentCs": "Co děláš o prázdninách",
+      "proposedCs": "Co děláte o prázdninách?"
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "batch": "validate-023",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00403",
+      "cardId": "a1-müssen",
+      "field": "study.sectionAccents.examples[1].lv.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Akcentace obsahuje vykání/plurál, ale český příklad je v jednotném čísle neformálně: Musíš.",
+      "auditCurrentCs": "Musíte",
+      "auditProposedCs": "Musíš",
+      "auditDe": "Du musst warten.",
+      "auditLvSource": "tev jāgaida.",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Musíte",
+      "cardContext": {
+        "cardId": "a1-müssen",
+        "de": "müssen",
+        "csMain": "Musit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00404",
+      "cardId": "a1-nach",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Do“ bylo nahrazeno chybným „až“, které nevyjadřuje směr k místu.",
+      "auditCurrentCs": "Do • Po",
+      "auditProposedCs": "Až • Po",
+      "auditDe": "nach",
+      "auditLvSource": "uz • pēc",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Do • Po",
+      "cardContext": {
+        "cardId": "a1-nach",
+        "de": "nach",
+        "csMain": "Až • Po",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00405",
+      "cardId": "a1-nach",
+      "field": "study.explanation[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Věta je gramaticky i významově chybná a neuvádí správně význam směru.",
+      "auditCurrentCs": "Hlavní myšlenka: nach znamená to s místy a potom s časem nebo posloupností.",
+      "auditProposedCs": "Hlavní myšlenka: nach se používá s místy pro směr a s časem nebo posloupností pro význam „po“.",
+      "auditDe": "nach",
+      "auditLvSource": "nach nozīmē uz ar vietām un pēc ar laiku",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Hlavní myšlenka: nach znamená to s místy a potom s časem nebo posloupností.",
+      "cardContext": {
+        "cardId": "a1-nach",
+        "de": "nach",
+        "csMain": "Až • Po",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00406",
+      "cardId": "a1-nach",
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Věta postrádá významový doplněk; „nach“ zde znamená „do“, ne pouze neurčité tvrzení.",
+      "auditCurrentCs": "S městy a zeměmi bez článku nach často znamená.",
+      "auditProposedCs": "S městy a zeměmi bez členu nach často znamená „do“.",
+      "auditDe": "nach Berlin",
+      "auditLvSource": "Ar pilsētām un valstīm bez artikula nach bieži nozīmē uz.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "S městy a zeměmi bez článku nach často znamená.",
+      "cardContext": {
+        "cardId": "a1-nach",
+        "de": "nach",
+        "csMain": "Až • Po",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00407",
+      "cardId": "a1-nach",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Česká předložka „v“ je zde chybná; německý výraz má zůstat jako citovaná fráze.",
+      "auditCurrentCs": "Do školy se obvykle chodí v die Schule, ne nach Schule.",
+      "auditProposedCs": "Do školy se obvykle chodí „in die Schule“, ne „nach Schule“.",
+      "auditDe": "in die Schule, nicht nach Schule",
+      "auditLvSource": "Uz skolu parasti ir in die Schule, nevis nach Schule.",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Do školy se obvykle chodí v die Schule, ne nach Schule.",
+      "cardContext": {
+        "cardId": "a1-nach",
+        "de": "nach",
+        "csMain": "Až • Po",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00408",
+      "cardId": "a1-nehmen",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Německý přítomný čas byl chybně přeložen českým minulým časem.",
+      "auditCurrentCs": "Přinesl jsem ti knihu",
+      "auditProposedCs": "Přinesu ti knihu.",
+      "auditDe": "Ich bringe dir das Buch.",
+      "auditLvSource": "es tev atnesu grāmatu.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Přinesl jsem ti knihu",
+      "cardContext": {
+        "cardId": "a1-nehmen",
+        "de": "nehmen",
+        "csMain": "Brát • Vzít",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00409",
+      "cardId": "a1-nehmen",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Abholen“ znamená někoho vyzvednout, nikoli obecně vzít.",
+      "auditCurrentCs": "Vezmu tě",
+      "auditProposedCs": "Vyzvednu tě.",
+      "auditDe": "Ich hole dich ab.",
+      "auditLvSource": "es tevi paņemšu.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Vezmu tě",
+      "cardContext": {
+        "cardId": "a1-nehmen",
+        "de": "nehmen",
+        "csMain": "Brát • Vzít",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00410",
+      "cardId": "a1-nehmen",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Jít za“ i „aport“ jsou v tomto srovnání chybné a nepřirozené překlady.",
+      "auditCurrentCs": "Jít za / aport",
+      "auditProposedCs": "Jít pro / vyzvednout",
+      "auditDe": "holen",
+      "auditLvSource": "aiziet pakaļ / atnest",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Jít za / aport",
+      "cardContext": {
+        "cardId": "a1-nehmen",
+        "de": "nehmen",
+        "csMain": "Brát • Vzít",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00411",
+      "cardId": "a1-nehmen",
+      "field": "study.explanation[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Opakování stejného českého slovesa působí jako chyba a nevystihuje dvojici brát/vzít.",
+      "auditCurrentCs": "Hlavní myšlenka: nehmen znamená vzít nebo vzít.",
+      "auditProposedCs": "Hlavní myšlenka: nehmen znamená brát nebo vzít.",
+      "auditDe": "nehmen",
+      "auditLvSource": "nehmen nozīmē ņemt vai paņemt.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Hlavní myšlenka: nehmen znamená vzít nebo vzít.",
+      "cardContext": {
+        "cardId": "a1-nehmen",
+        "de": "nehmen",
+        "csMain": "Brát • Vzít",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00412",
+      "cardId": "a1-nehmen",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Text obsahuje chybný tvar „přinesený“ a nejasně vysvětluje rozdíl mezi nehmen a bringen.",
+      "auditCurrentCs": "Není to totéž jako přinesený, protože přinesený znamená někomu přinést nebo vzít.",
+      "auditProposedCs": "Není to totéž jako bringen, protože bringen znamená někomu něco přinést nebo odnést.",
+      "auditDe": "bringen",
+      "auditLvSource": "bringen nozīmē atnest vai aiznest kādam.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Není to totéž jako přinesený, protože přinesený znamená někomu přinést nebo vzít.",
+      "cardContext": {
+        "cardId": "a1-nehmen",
+        "de": "nehmen",
+        "csMain": "Brát • Vzít",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00413",
+      "cardId": "a1-nehmen",
+      "field": "study.explanation[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Aportovat“ není vhodný obecný překlad slovesa holen.",
+      "auditCurrentCs": "Holen znamená jít za a aportovat/vzít.",
+      "auditProposedCs": "Holen znamená jít pro něco nebo někoho vyzvednout.",
+      "auditDe": "holen",
+      "auditLvSource": "holen nozīmē aiziet pakaļ un atnest/paņemt.",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Holen znamená jít za a aportovat/vzít.",
+      "cardContext": {
+        "cardId": "a1-nehmen",
+        "de": "nehmen",
+        "csMain": "Brát • Vzít",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00414",
+      "cardId": "a1-nehmen",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "nehmen den Bus znamená jet autobusem, nikoli autobus řídit.",
+      "auditCurrentCs": "Ich nehme den Bus znamená v češtině „řídím autobus“.",
+      "auditProposedCs": "Ich nehme den Bus znamená v češtině „jedu autobusem“.",
+      "auditDe": "Ich nehme den Bus.",
+      "auditLvSource": "es braucu ar autobusu.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Ich nehme den Bus znamená v češtině „řídím autobus“.",
+      "cardContext": {
+        "cardId": "a1-nehmen",
+        "de": "nehmen",
+        "csMain": "Brát • Vzít",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00415",
+      "cardId": "a1-nehmen",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Druhá část mění bringen na přivést a opakuje český překlad místo německého slovesa.",
+      "auditCurrentCs": "Pamatujte: vezměte si pro sebe → nehmen • Někoho přivést → přivést.",
+      "auditProposedCs": "Pamatujte: vezměte si něco pro sebe → nehmen • přineste něco někomu → bringen.",
+      "auditDe": "Atnes kādam → bringen.",
+      "auditLvSource": "paņem sev → nehmen; atnes kādam → bringen.",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Pamatujte: vezměte si pro sebe → nehmen • Někoho přivést → přivést.",
+      "cardContext": {
+        "cardId": "a1-nehmen",
+        "de": "nehmen",
+        "csMain": "Brát • Vzít",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00416",
+      "cardId": "a1-neu",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Čeština nepoužívá „mladý“ běžně pro nově vytvořené věci; správný protiklad je nový vs. mladý.",
+      "auditCurrentCs": "V češtině má slovo mladý dva významy: mladý ve věku (jung) a mladý/nedávno vytvořený (neu).",
+      "auditProposedCs": "V češtině se „nový“ používá pro věci a „mladý“ pro věk člověka nebo zvířete (jung).",
+      "auditDe": "neu vs. jung",
+      "auditLvSource": "jauns lietām, jauns vecumā (jung)",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "V češtině má slovo mladý dva významy: mladý ve věku (jung) a mladý/nedávno vytvořený (neu).",
+      "cardContext": {
+        "cardId": "a1-neu",
+        "de": "neu",
+        "csMain": "Nový (o věcech)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00417",
+      "cardId": "a1-neu",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Spojení „ani věk“ je zde gramaticky nesprávné; jde o jednoduché vyloučení.",
+      "auditCurrentCs": "Neu popisuje věci a zprávy, ani věk člověka nebo zvířete.",
+      "auditProposedCs": "Neu popisuje věci a zprávy, ne věk člověka nebo zvířete.",
+      "auditDe": "neu",
+      "auditLvSource": "neu raksturo lietas un jaunumus, ne cilvēka vecumu.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Neu popisuje věci a zprávy, ani věk člověka nebo zvířete.",
+      "cardContext": {
+        "cardId": "a1-neu",
+        "de": "neu",
+        "csMain": "Nový (o věcech)",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00403",
+      "cardId": "a1-müssen",
+      "field": "study.sectionAccents.examples[1].lv.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Český překlad je ve vykání nebo množném čísle, zatímco německý příklad používá neformální jednotné číslo.",
+      "currentCs": "Musíte",
+      "proposedCs": "Musíš"
+    },
+    {
+      "findingId": "FINAL-A1-00404",
+      "cardId": "a1-nach",
+      "field": "study.translation",
+      "validationStatus": "STALE_ALREADY_FIXED",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Produkce již obsahuje správnou variantu „Do • Po“, nikoli auditovanou chybnou variantu.",
+      "currentCs": "Do • Po"
+    },
+    {
+      "findingId": "FINAL-A1-00405",
+      "cardId": "a1-nach",
+      "field": "study.explanation[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Současné vysvětlení je gramaticky chybné a nejasně popisuje význam směru i význam „po“.",
+      "currentCs": "Hlavní myšlenka: nach znamená to s místy a potom s časem nebo posloupností.",
+      "proposedCs": "Hlavní myšlenka: nach se používá s místy pro směr a s časem nebo posloupností pro význam „po“."
+    },
+    {
+      "findingId": "FINAL-A1-00406",
+      "cardId": "a1-nach",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Vysvětlení nedokončuje význam konstrukce; u měst a zemí má nach často význam „do“.",
+      "currentCs": "S městy a zeměmi bez článku nach často znamená.",
+      "proposedCs": "S městy a zeměmi bez členu nach často znamená „do“."
+    },
+    {
+      "findingId": "FINAL-A1-00407",
+      "cardId": "a1-nach",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Citovaná německá fráze je chybně uvedena jako české „v die Schule“ místo „in die Schule“.",
+      "currentCs": "Do školy se obvykle chodí v die Schule, ne nach Schule.",
+      "proposedCs": "Do školy se obvykle chodí „in die Schule“, ne „nach Schule“."
+    },
+    {
+      "findingId": "FINAL-A1-00408",
+      "cardId": "a1-nehmen",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Český minulý čas neodpovídá německému přítomnému času v daném příkladu.",
+      "currentCs": "Přinesl jsem ti knihu",
+      "proposedCs": "Přinesu ti knihu."
+    },
+    {
+      "findingId": "FINAL-A1-00409",
+      "cardId": "a1-nehmen",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Sloveso abholen v tomto kontextu znamená někoho vyzvednout, nikoli pouze vzít.",
+      "currentCs": "Vezmu tě",
+      "proposedCs": "Vyzvednu tě."
+    },
+    {
+      "findingId": "FINAL-A1-00410",
+      "cardId": "a1-nehmen",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Výrazy „jít za“ a „aport“ nejsou vhodnými českými ekvivalenty pro význam slovesa holen.",
+      "currentCs": "Jít za / aport",
+      "proposedCs": "Jít pro / vyzvednout"
+    },
+    {
+      "findingId": "FINAL-A1-00411",
+      "cardId": "a1-nehmen",
+      "field": "study.explanation[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Současné vysvětlení opakuje stejné sloveso a nevyjadřuje dvojici českých významů brát a vzít.",
+      "currentCs": "Hlavní myšlenka: nehmen znamená vzít nebo vzít.",
+      "proposedCs": "Hlavní myšlenka: nehmen znamená brát nebo vzít."
+    },
+    {
+      "findingId": "FINAL-A1-00412",
+      "cardId": "a1-nehmen",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Text obsahuje chybný tvar a zaměňuje české vysvětlení za německé sloveso bringen.",
+      "currentCs": "Není to totéž jako přinesený, protože přinesený znamená někomu přinést nebo vzít.",
+      "proposedCs": "Není to totéž jako bringen, protože bringen znamená někomu něco přinést nebo odnést."
+    },
+    {
+      "findingId": "FINAL-A1-00413",
+      "cardId": "a1-nehmen",
+      "field": "study.explanation[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Aportovat“ není obecný český překlad slovesa holen; význam je jít pro něco nebo někoho vyzvednout.",
+      "currentCs": "Holen znamená jít za a aportovat/vzít.",
+      "proposedCs": "Holen znamená jít pro něco nebo někoho vyzvednout."
+    },
+    {
+      "findingId": "FINAL-A1-00414",
+      "cardId": "a1-nehmen",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "nehmen den Bus znamená jet autobusem, nikoli řídit autobus.",
+      "currentCs": "Ich nehme den Bus znamená v češtině „řídím autobus“.",
+      "proposedCs": "Ich nehme den Bus znamená v češtině „jedu autobusem“."
+    },
+    {
+      "findingId": "FINAL-A1-00415",
+      "cardId": "a1-nehmen",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Druhá část nesprávně používá české sloveso přivést a opakuje překlad místo slovesa bringen.",
+      "currentCs": "Pamatujte: vezměte si pro sebe → nehmen • Někoho přivést → přivést.",
+      "proposedCs": "Pamatujte: vezměte si něco pro sebe → nehmen • přineste něco někomu → bringen."
+    },
+    {
+      "findingId": "FINAL-A1-00416",
+      "cardId": "a1-neu",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Současný text nesprávně připisuje češtině význam „mladý“ pro nově vytvořené věci; správné rozlišení je nový versus mladý.",
+      "currentCs": "V češtině má slovo mladý dva významy: mladý ve věku (jung) a mladý/nedávno vytvořený (neu).",
+      "proposedCs": "V češtině se „nový“ používá pro věci a „mladý“ pro věk člověka nebo zvířete (jung)."
+    },
+    {
+      "findingId": "FINAL-A1-00417",
+      "cardId": "a1-neu",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Spojení „ani věk“ zde nenavazuje na zápor a věta je gramaticky nesprávná.",
+      "currentCs": "Neu popisuje věci a zprávy, ani věk člověka nebo zvířete.",
+      "proposedCs": "Neu popisuje věci a zprávy, ne věk člověka nebo zvířete."
+    }
+  ]
+}

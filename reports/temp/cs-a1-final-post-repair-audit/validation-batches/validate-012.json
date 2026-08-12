@@ -1,0 +1,485 @@
+{
+  "batch": "validate-012",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00231",
+      "cardId": "a1-die",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Název je zkrácený a nepřirozený; chybí výslovné označení rodu.",
+      "auditCurrentCs": "Ženský určitý člen",
+      "auditProposedCs": "Určitý člen ženského rodu",
+      "auditDe": "die",
+      "auditLvSource": "sieviešu dzimtes noteiktais artikuls",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Ženský určitý člen",
+      "cardContext": {
+        "cardId": "a1-die",
+        "de": "die",
+        "csMain": "Ženský určitý člen",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00233",
+      "cardId": "a1-die",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Katze znamená kočka, nikoli kotě.",
+      "auditCurrentCs": "Kotě spí.",
+      "auditProposedCs": "Kočka spí.",
+      "auditDe": "Die Katze schläft.",
+      "auditLvSource": "kaķene guļ.",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Kotě spí.",
+      "cardContext": {
+        "cardId": "a1-die",
+        "de": "die",
+        "csMain": "Ženský určitý člen",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00234",
+      "cardId": "a1-die",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Lehrerin je učitelka; současný překlad mění rod i podmět věty.",
+      "auditCurrentCs": "Vysvětluje učitel.",
+      "auditProposedCs": "Učitelka vysvětluje.",
+      "auditDe": "Die Lehrerin erklärt.",
+      "auditLvSource": "skolotāja skaidro.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Vysvětluje učitel.",
+      "cardContext": {
+        "cardId": "a1-die",
+        "de": "die",
+        "csMain": "Ženský určitý člen",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00235",
+      "cardId": "a1-die",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Zemřít“ je chybně přeložený význam německého die.",
+      "auditCurrentCs": "Pamatujte: ženský → zemřít.",
+      "auditProposedCs": "Pamatujte: ženský rod → die.",
+      "auditDe": "die",
+      "auditLvSource": "Atceries: sieviešu dzimte → die.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pamatujte: ženský → zemřít.",
+      "cardContext": {
+        "cardId": "a1-die",
+        "de": "die",
+        "csMain": "Ženský určitý člen",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00236",
+      "cardId": "a1-die",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Kostky“ je nesmyslný překlad a věta neuvádí správně použití členu v množném čísle.",
+      "auditCurrentCs": "Množné číslo kostky se také používá pro všechna pohlaví.",
+      "auditProposedCs": "V množném čísle se die používá pro všechna tři gramatická rody.",
+      "auditDe": "die",
+      "auditLvSource": "Daudzskaitlī die lieto arī visām dzimtēm.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Množné číslo kostky se také používá pro všechna pohlaví.",
+      "cardContext": {
+        "cardId": "a1-die",
+        "de": "die",
+        "csMain": "Ženský určitý člen",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00237",
+      "cardId": "a1-dieser",
+      "field": "study.explanation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Blízkou“ nepřesně zužuje význam; dieser označuje také konkrétní či zdůrazněnou věc, nejen blízkou.",
+      "auditCurrentCs": "Ukazuje na blízkou osobu, věc nebo zvíře. Používá se s podstatným jménem mužského rodu.",
+      "auditProposedCs": "Ukazuje na konkrétní nebo zvlášť zdůrazněnou osobu, věc či zvíře. Používá se s podstatným jménem mužského rodu.",
+      "auditDe": "dieser",
+      "auditLvSource": "Norāda uz konkrētu vai īpaši izceltu vīriešu dzimtes personu vai lietu.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Ukazuje na blízkou osobu, věc nebo zvíře. Používá se s podstatným jménem mužského rodu.",
+      "cardContext": {
+        "cardId": "a1-dieser",
+        "de": "dieser",
+        "csMain": "Tenhle",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00238",
+      "cardId": "a1-ein",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Někdo“ není samostatný význam ein; jde o neurčitý člen nebo číslovku jeden.",
+      "auditCurrentCs": "Neurčitý člen • Jeden • Někdo",
+      "auditProposedCs": "Neurčitý člen • Jeden",
+      "auditDe": "ein",
+      "auditLvSource": "nenoteiktais artikuls",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Neurčitý člen • Jeden • Někdo",
+      "cardContext": {
+        "cardId": "a1-ein",
+        "de": "ein",
+        "csMain": "Neurčitý člen • Jeden • Někdo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00239",
+      "cardId": "a1-ein",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Překlad je správný; zachován jako praktický titul.",
+      "auditCurrentCs": "Neurčitý člen • Jeden",
+      "auditProposedCs": "Neurčitý člen • Jeden",
+      "auditDe": "ein",
+      "auditLvSource": "nenoteiktais artikuls",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Neurčitý člen • Jeden",
+      "cardContext": {
+        "cardId": "a1-ein",
+        "de": "ein",
+        "csMain": "Neurčitý člen • Jeden • Někdo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00240",
+      "cardId": "a1-ein",
+      "field": "study.explanation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Vysvětlení neprávem omezuje ein jen na mužský rod a druhá věta je gramaticky i významově neúplná.",
+      "auditCurrentCs": "Používá se s podstatným jménem mužského rodu. Ukázání na jednu věc nebo osobu z několika možností.",
+      "auditProposedCs": "Používá se s podstatnými jmény mužského a středního rodu v 1. pádě. Označuje jednu neurčitou věc nebo osobu; v ženském rodě má tvar eine.",
+      "auditDe": "ein",
+      "auditLvSource": "nenoteiktais artikuls",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Používá se s podstatným jménem mužského rodu. Ukázání na jednu věc nebo osobu z několika možností.",
+      "cardContext": {
+        "cardId": "a1-ein",
+        "de": "ein",
+        "csMain": "Neurčitý člen • Jeden • Někdo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00241",
+      "cardId": "a1-eis",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Eis má dva běžné české významy: led a zmrzlina; titul jeden z nich opakuje.",
+      "auditCurrentCs": "Zmrzlina • Zmrzlina",
+      "auditProposedCs": "Led • Zmrzlina",
+      "auditDe": "Eis",
+      "auditLvSource": "ledus • saldējums",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Zmrzlina • Zmrzlina",
+      "cardContext": {
+        "cardId": "a1-eis",
+        "de": "Eis",
+        "csMain": "Zmrzlina • Zmrzlina",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00242",
+      "cardId": "a1-eis",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Eis má dva běžné české významy: led a zmrzlina; titul jeden z nich opakuje.",
+      "auditCurrentCs": "Zmrzlina • Zmrzlina",
+      "auditProposedCs": "Led • Zmrzlina",
+      "auditDe": "Eis",
+      "auditLvSource": "ledus • saldējums",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Zmrzlina • Zmrzlina",
+      "cardContext": {
+        "cardId": "a1-eis",
+        "de": "Eis",
+        "csMain": "Zmrzlina • Zmrzlina",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00243",
+      "cardId": "a1-eis",
+      "field": "study.explanation[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "CRITICAL",
+      "auditProblem": "Věta tvrdí, že oba významy jsou zmrzlina, a vynechává význam led.",
+      "auditCurrentCs": "Hlavní myšlenka: das Eis může znamenat jak zmrzlinu, tak zmrzlinu.",
+      "auditProposedCs": "Hlavní myšlenka: das Eis může znamenat jak led, tak zmrzlinu.",
+      "auditDe": "das Eis",
+      "auditLvSource": "das Eis var nozīmēt gan ledu, gan saldējumu.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Hlavní myšlenka: das Eis může znamenat jak zmrzlinu, tak zmrzlinu.",
+      "cardContext": {
+        "cardId": "a1-eis",
+        "de": "Eis",
+        "csMain": "Zmrzlina • Zmrzlina",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00244",
+      "cardId": "a1-eis",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "CRITICAL",
+      "auditProblem": "Text opakuje zmrzlinu a nesprávně uvádí, že jde o dvě různá česká slova.",
+      "auditCurrentCs": "V češtině jsou zmrzlina a zmrzlina dvě různá slova, ale v němčině se pro obojí často používá das Eis.",
+      "auditProposedCs": "V češtině jsou led a zmrzlina dvě různá slova, ale v němčině se pro obojí často používá das Eis.",
+      "auditDe": "das Eis",
+      "auditLvSource": "Latviski ledus un saldējums ir divi dažādi vārdi.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "V češtině jsou zmrzlina a zmrzlina dvě různá slova, ale v němčině se pro obojí často používá das Eis.",
+      "cardContext": {
+        "cardId": "a1-eis",
+        "de": "Eis",
+        "csMain": "Zmrzlina • Zmrzlina",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00245",
+      "cardId": "a1-eis",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Schnee znamená sníh, nikoli sloveso „bude sněžit“.",
+      "auditCurrentCs": "Bude sněžit",
+      "auditProposedCs": "Sníh",
+      "auditDe": "der Schnee",
+      "auditLvSource": "sniegs",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Bude sněžit",
+      "cardContext": {
+        "cardId": "a1-eis",
+        "de": "Eis",
+        "csMain": "Zmrzlina • Zmrzlina",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00246",
+      "cardId": "a1-erst",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„První“ není správný adverbiální překlad erst; běžné významy jsou nejprve, teprve nebo až.",
+      "auditCurrentCs": "První • Pouze",
+      "auditProposedCs": "Nejprve • Teprve • Až",
+      "auditDe": "erst",
+      "auditLvSource": "tikai",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "První • Pouze",
+      "cardContext": {
+        "cardId": "a1-erst",
+        "de": "erst",
+        "csMain": "První • Pouze",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00231",
+      "cardId": "a1-die",
+      "field": "study.translation",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": 0.97,
+      "reason": "„Ženský určitý člen“ je přirozený a významově správný český titul; navržená varianta je pouze stylistická.",
+      "currentCs": "Ženský určitý člen"
+    },
+    {
+      "findingId": "FINAL-A1-00233",
+      "cardId": "a1-die",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Katze znamená „kočka“, nikoli „kotě“. Aktuální český překlad mění význam německé věty.",
+      "currentCs": "Kotě spí.",
+      "proposedCs": "Kočka spí."
+    },
+    {
+      "findingId": "FINAL-A1-00234",
+      "cardId": "a1-die",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Lehrerin znamená „učitelka“. Aktuální překlad nesprávně mění rod podmětu na mužský.",
+      "currentCs": "Vysvětluje učitel.",
+      "proposedCs": "Učitelka vysvětluje."
+    },
+    {
+      "findingId": "FINAL-A1-00235",
+      "cardId": "a1-die",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 1,
+      "reason": "„Zemřít“ je chybný význam slova die; tip má vysvětlovat ženský rod a určitý člen.",
+      "currentCs": "Pamatujte: ženský → zemřít.",
+      "proposedCs": "Pamatujte: ženský rod → die."
+    },
+    {
+      "findingId": "FINAL-A1-00236",
+      "cardId": "a1-die",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 1,
+      "reason": "Text obsahuje chybný překlad „kostky“ a nevysvětluje správně užití die v množném čísle.",
+      "currentCs": "Množné číslo kostky se také používá pro všechna pohlaví.",
+      "proposedCs": "V množném čísle se die používá pro všechna tři gramatická rody."
+    },
+    {
+      "findingId": "FINAL-A1-00237",
+      "cardId": "a1-dieser",
+      "field": "study.explanation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.9,
+      "reason": "Vysvětlení zužuje význam dieser pouze na blízkost, a tím opomíjí obecné ukazovací a zdůrazňovací užití.",
+      "currentCs": "Ukazuje na blízkou osobu, věc nebo zvíře. Používá se s podstatným jménem mužského rodu.",
+      "proposedCs": "Ukazuje na konkrétní nebo zvlášť zdůrazněnou osobu, věc či zvíře. Používá se s podstatným jménem mužského rodu."
+    },
+    {
+      "findingId": "FINAL-A1-00238",
+      "cardId": "a1-ein",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.96,
+      "reason": "Ein není samostatný český význam „někdo“; titul obsahuje nesprávný význam a opakuje jej v hlavním názvu.",
+      "currentCs": "Neurčitý člen • Jeden • Někdo",
+      "proposedCs": "Neurčitý člen • Jeden"
+    },
+    {
+      "findingId": "FINAL-A1-00239",
+      "cardId": "a1-ein",
+      "field": "study.translation",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "„Neurčitý člen • Jeden“ je správný a praktický český titul; audit navrhuje stejný text.",
+      "currentCs": "Neurčitý člen • Jeden"
+    },
+    {
+      "findingId": "FINAL-A1-00240",
+      "cardId": "a1-ein",
+      "field": "study.explanation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "Výklad neprávem omezuje ein na mužský rod a druhá věta je neúplná; chybí střední rod a tvar eine.",
+      "currentCs": "Používá se s podstatným jménem mužského rodu. Ukázání na jednu věc nebo osobu z několika možností.",
+      "proposedCs": "Používá se s podstatnými jmény mužského a středního rodu v 1. pádě. Označuje jednu neurčitou věc nebo osobu; v ženském rodě má tvar eine."
+    },
+    {
+      "findingId": "FINAL-A1-00241",
+      "cardId": "a1-eis",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 1,
+      "reason": "Titul opakuje „zmrzlina“ a vynechává běžný význam Eis jako „led“.",
+      "currentCs": "Zmrzlina • Zmrzlina",
+      "proposedCs": "Led • Zmrzlina"
+    },
+    {
+      "findingId": "FINAL-A1-00242",
+      "cardId": "a1-eis",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 1,
+      "reason": "Titul opakuje „zmrzlina“ a vynechává běžný český význam německého Eis jako „led“.",
+      "currentCs": "Zmrzlina • Zmrzlina",
+      "proposedCs": "Led • Zmrzlina"
+    },
+    {
+      "findingId": "FINAL-A1-00243",
+      "cardId": "a1-eis",
+      "field": "study.explanation[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": 1,
+      "reason": "Věta chybně uvádí oba významy jako „zmrzlina“ a vynechává význam „led“.",
+      "currentCs": "Hlavní myšlenka: das Eis může znamenat jak zmrzlinu, tak zmrzlinu.",
+      "proposedCs": "Hlavní myšlenka: das Eis může znamenat jak led, tak zmrzlinu."
+    },
+    {
+      "findingId": "FINAL-A1-00244",
+      "cardId": "a1-eis",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": 1,
+      "reason": "Text opakuje „zmrzlina“ místo dvojice „led a zmrzlina“, takže uvádí nesprávné české rozlišení.",
+      "currentCs": "V češtině jsou zmrzlina a zmrzlina dvě různá slova, ale v němčině se pro obojí často používá das Eis.",
+      "proposedCs": "V češtině jsou led a zmrzlina dvě různá slova, ale v němčině se pro obojí často používá das Eis."
+    },
+    {
+      "findingId": "FINAL-A1-00245",
+      "cardId": "a1-eis",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Schnee znamená „sníh“, nikoli slovesné vyjádření „bude sněžit“.",
+      "currentCs": "Bude sněžit",
+      "proposedCs": "Sníh"
+    },
+    {
+      "findingId": "FINAL-A1-00246",
+      "cardId": "a1-erst",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.97,
+      "reason": "„První“ není běžný adverbiální význam erst; titul má uvádět například „nejprve“, „teprve“ nebo „až“.",
+      "currentCs": "První • Pouze",
+      "proposedCs": "Nejprve • Teprve • Až"
+    }
+  ]
+}

@@ -1,0 +1,487 @@
+{
+  "batch": "validate-013",
+  "items": [
+    {
+      "findingId": "FINAL-A1-00247",
+      "cardId": "a1-erst",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„První“ není správný adverbiální překlad erst; běžné významy jsou nejprve, teprve nebo až.",
+      "auditCurrentCs": "První • Pouze",
+      "auditProposedCs": "Nejprve • Teprve • Až",
+      "auditDe": "erst",
+      "auditLvSource": "tikai",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "První • Pouze",
+      "cardContext": {
+        "cardId": "a1-erst",
+        "de": "erst",
+        "csMain": "První • Pouze",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00248",
+      "cardId": "a1-erst",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Překlad zaměňuje učení a hraní za pití a řízení.",
+      "auditCurrentCs": "Nejdřív pij, pak řiď.",
+      "auditProposedCs": "Nejdřív se uč, pak si hraj.",
+      "auditDe": "Erst lernen, dann spielen.",
+      "auditLvSource": "Vispirms mācies, pēc tam spēlējies.",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Nejdřív pij, pak řiď.",
+      "cardContext": {
+        "cardId": "a1-erst",
+        "de": "erst",
+        "csMain": "První • Pouze",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00249",
+      "cardId": "a1-erst",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "V tomto kontextu erst vyjadřuje pozdní časový bod („až“), ne pouhé omezení na jediný čas.",
+      "auditCurrentCs": "Jíme jen v osm.",
+      "auditProposedCs": "Jíme až v osm.",
+      "auditDe": "Wir essen erst um acht Uhr.",
+      "auditLvSource": "mēs ēdam tikai astoņos.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Jíme jen v osm.",
+      "cardContext": {
+        "cardId": "a1-erst",
+        "de": "erst",
+        "csMain": "První • Pouze",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00250",
+      "cardId": "a1-erst",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„První“ není vhodný překlad příslovce erst.",
+      "auditCurrentCs": "První • Pouze",
+      "auditProposedCs": "Nejprve • Teprve/Až",
+      "auditDe": "erst",
+      "auditLvSource": "vispirms • tikai",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "První • Pouze",
+      "cardContext": {
+        "cardId": "a1-erst",
+        "de": "erst",
+        "csMain": "První • Pouze",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00251",
+      "cardId": "a1-erst",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„První“ je zde chybný slovní druh i význam; zuerst znamená nejprve.",
+      "auditCurrentCs": "První • Na začátku",
+      "auditProposedCs": "Nejprve • Na začátku",
+      "auditDe": "zuerst",
+      "auditLvSource": "vispirms • sākumā",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "První • Na začátku",
+      "cardContext": {
+        "cardId": "a1-erst",
+        "de": "erst",
+        "csMain": "První • Pouze",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00252",
+      "cardId": "a1-erst",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„ne“ je chybný překlad nebo záměna; kontrast má být erst versus nur.",
+      "auditCurrentCs": "Pamatujte: čas/číslo → erst • Množství → ne.",
+      "auditProposedCs": "Pamatujte: čas/číslo → erst • množství → nur.",
+      "auditDe": "erst",
+      "auditLvSource": "laiks/skaits → erst; daudzums → nur.",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Pamatujte: čas/číslo → erst • Množství → ne.",
+      "cardContext": {
+        "cardId": "a1-erst",
+        "de": "erst",
+        "csMain": "První • Pouze",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00253",
+      "cardId": "a1-es",
+      "field": "study.explanation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "CRITICAL",
+      "auditProblem": "Text zaměňuje německé es za „já“ a obsahuje opakované „to“.",
+      "auditCurrentCs": "Německé „já“ není zvyklé mluvit o sobě. Používá se k označení: to, to nebo neosobní tvar (počasí, čas, různé neosobní věty).",
+      "auditProposedCs": "Německé „es“ je zájmeno. Používá se ve významu „to“ a v neosobních větách, například o počasí nebo čase.",
+      "auditDe": "es",
+      "auditLvSource": "es ir vietniekvārds; lieto to un bezpersoniskās konstrukcijās.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Německé „já“ není zvyklé mluvit o sobě. Používá se k označení: to, to nebo neosobní tvar (počasí, čas, různé neosobní věty).",
+      "cardContext": {
+        "cardId": "a1-es",
+        "de": "es",
+        "csMain": "To • To • Neosobní podoba",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00254",
+      "cardId": "a1-es",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Příklad pro es regnet je nahrazen překladem jiné věty Ich lerne Deutsch.",
+      "auditCurrentCs": "Učím se německy.",
+      "auditProposedCs": "Prší.",
+      "auditDe": "Es regnet.",
+      "auditLvSource": "Līst.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Učím se německy.",
+      "cardContext": {
+        "cardId": "a1-es",
+        "de": "es",
+        "csMain": "To • To • Neosobní podoba",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00255",
+      "cardId": "a1-es",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Překlad odpovídá větě Er ist müde, nikoli neosobní větě Es ist kalt.",
+      "auditCurrentCs": "Je unavený.",
+      "auditProposedCs": "Je chladno.",
+      "auditDe": "Es ist kalt.",
+      "auditLvSource": "Ir auksts.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Je unavený.",
+      "cardContext": {
+        "cardId": "a1-es",
+        "de": "es",
+        "csMain": "To • To • Neosobní podoba",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00256",
+      "cardId": "a1-es",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Překlad odpovídá větě Sie arbeitet hier, nikoli Das Kind schläft.",
+      "auditCurrentCs": "Ona tady pracuje.",
+      "auditProposedCs": "Dítě spí.",
+      "auditDe": "Das Kind schläft.",
+      "auditLvSource": "Bērns guļ.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Ona tady pracuje.",
+      "cardContext": {
+        "cardId": "a1-es",
+        "de": "es",
+        "csMain": "To • To • Neosobní podoba",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00257",
+      "cardId": "a1-es",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Překlad odpovídá větě Das ist mein Buch, nikoli Es ist müde.",
+      "auditCurrentCs": "Je to moje kniha.",
+      "auditProposedCs": "Je unavené.",
+      "auditDe": "Es ist müde.",
+      "auditLvSource": "Tas ir noguris.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Je to moje kniha.",
+      "cardContext": {
+        "cardId": "a1-es",
+        "de": "es",
+        "csMain": "To • To • Neosobní podoba",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00258",
+      "cardId": "a1-es",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Obsahuje překlep „českýé“ a chybnou formulaci o českém slově es.",
+      "auditCurrentCs": "Pamatujte: českýé \"es\" → ich, ne německé es.",
+      "auditProposedCs": "Pamatujte: české „já“ je německy ich, ne es.",
+      "auditDe": "es",
+      "auditLvSource": "Latviešu “es” → vācu “ich”, nevis vācu es.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Pamatujte: českýé \"es\" → ich, ne německé es.",
+      "cardContext": {
+        "cardId": "a1-es",
+        "de": "es",
+        "csMain": "To • To • Neosobní podoba",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00259",
+      "cardId": "a1-es",
+      "field": "study.info[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Obsahuje lotyšské slovo „vācu“ a zároveň chybný český ekvivalent.",
+      "auditCurrentCs": "Český “es” = vācu “ich”",
+      "auditProposedCs": "České „já“ = německé „ich“",
+      "auditDe": "es",
+      "auditLvSource": "Latviešu “es” = vācu “ich”",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Český “es” = vācu “ich”",
+      "cardContext": {
+        "cardId": "a1-es",
+        "de": "es",
+        "csMain": "To • To • Neosobní podoba",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00260",
+      "cardId": "a1-es",
+      "field": "study.info[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Text je převážně lotyšský, nikoli český.",
+      "auditCurrentCs": "Vācu “es” = tas • Tā • Bezpersoniska forma",
+      "auditProposedCs": "Německé „es“ = to • ono • neosobní podoba",
+      "auditDe": "es",
+      "auditLvSource": "Vācu “es” = tas • Tā • Bezpersoniska forma",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Vācu “es” = tas • Tā • Bezpersoniska forma",
+      "cardContext": {
+        "cardId": "a1-es",
+        "de": "es",
+        "csMain": "To • To • Neosobní podoba",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL-A1-00261",
+      "cardId": "a1-euch",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "euch je 2. osoba množného čísla v akuzativu nebo dativu, nikoli jednotné číslo ty.",
+      "auditCurrentCs": "Ty • Ty",
+      "auditProposedCs": "Vás • Vám",
+      "auditDe": "euch",
+      "auditLvSource": "jūs • jums",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Ty • Ty",
+      "cardContext": {
+        "cardId": "a1-euch",
+        "de": "euch",
+        "csMain": "Ty • Ty",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL-A1-00247",
+      "cardId": "a1-erst",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„První“ je chybný slovní druh i význam; erst se zde překládá jako nejprve, teprve nebo až.",
+      "currentCs": "První • Pouze",
+      "proposedCs": "Nejprve • Teprve • Až"
+    },
+    {
+      "findingId": "FINAL-A1-00248",
+      "cardId": "a1-erst",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Český překlad neodpovídá německé větě; zaměňuje učení a hraní za pití a řízení.",
+      "currentCs": "Nejdřív pij, pak řiď.",
+      "proposedCs": "Nejdřív se uč, pak si hraj."
+    },
+    {
+      "findingId": "FINAL-A1-00249",
+      "cardId": "a1-erst",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "V tomto časovém kontextu erst znamená „až“, nikoli pouze „jen“.",
+      "currentCs": "Jíme jen v osm.",
+      "proposedCs": "Jíme až v osm."
+    },
+    {
+      "findingId": "FINAL-A1-00250",
+      "cardId": "a1-erst",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„První“ není vhodný adverbiální překlad erst.",
+      "currentCs": "První • Pouze",
+      "proposedCs": "Nejprve • Teprve/Až"
+    },
+    {
+      "findingId": "FINAL-A1-00251",
+      "cardId": "a1-erst",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "zuerst znamená „nejprve“; „první“ je zde chybný slovní druh i význam.",
+      "currentCs": "První • Na začátku",
+      "proposedCs": "Nejprve • Na začátku"
+    },
+    {
+      "findingId": "FINAL-A1-00252",
+      "cardId": "a1-erst",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Tip obsahuje chybný překlad „ne“ místo německého nur.",
+      "currentCs": "Pamatujte: čas/číslo → erst • Množství → ne.",
+      "proposedCs": "Pamatujte: čas/číslo → erst • množství → nur."
+    },
+    {
+      "findingId": "FINAL-A1-00253",
+      "cardId": "a1-es",
+      "field": "study.explanation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Text chybně zaměňuje německé es za české „já“ a opakuje „to“.",
+      "currentCs": "Německé „já“ není zvyklé mluvit o sobě. Používá se k označení: to, to nebo neosobní tvar (počasí, čas, různé neosobní věty).",
+      "proposedCs": "Německé „es“ je zájmeno. Používá se ve významu „to“ a v neosobních větách, například o počasí nebo čase."
+    },
+    {
+      "findingId": "FINAL-A1-00254",
+      "cardId": "a1-es",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Překlad neodpovídá větě Es regnet; jde o překlad jiné věty.",
+      "currentCs": "Učím se německy.",
+      "proposedCs": "Prší."
+    },
+    {
+      "findingId": "FINAL-A1-00255",
+      "cardId": "a1-es",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Překlad odpovídá větě Er ist müde, nikoli neosobní větě Es ist kalt.",
+      "currentCs": "Je unavený.",
+      "proposedCs": "Je chladno."
+    },
+    {
+      "findingId": "FINAL-A1-00256",
+      "cardId": "a1-es",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Překlad neodpovídá větě Das Kind schläft; jde o překlad jiné věty.",
+      "currentCs": "Ona tady pracuje.",
+      "proposedCs": "Dítě spí."
+    },
+    {
+      "findingId": "FINAL-A1-00257",
+      "cardId": "a1-es",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Překlad neodpovídá větě Es ist müde; jde o překlad jiné věty.",
+      "currentCs": "Je to moje kniha.",
+      "proposedCs": "Je unavené."
+    },
+    {
+      "findingId": "FINAL-A1-00258",
+      "cardId": "a1-es",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Text obsahuje překlep „českýé“ a zaměňuje české „já“ za německé es.",
+      "currentCs": "Pamatujte: českýé \"es\" → ich, ne německé es.",
+      "proposedCs": "Pamatujte: české „já“ je německy ich, ne es."
+    },
+    {
+      "findingId": "FINAL-A1-00259",
+      "cardId": "a1-es",
+      "field": "study.info[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Text obsahuje lotyšské slovo „vācu“ a chybný český ekvivalent.",
+      "currentCs": "Český “es” = vācu “ich”",
+      "proposedCs": "České „já“ = německé „ich“"
+    },
+    {
+      "findingId": "FINAL-A1-00260",
+      "cardId": "a1-es",
+      "field": "study.info[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Text je převážně lotyšský a neodpovídá českému obsahu k německému es.",
+      "currentCs": "Vācu “es” = tas • Tā • Bezpersoniska forma",
+      "proposedCs": "Německé „es“ = to • ono • neosobní podoba"
+    },
+    {
+      "findingId": "FINAL-A1-00261",
+      "cardId": "a1-euch",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "euch je zájmeno 2. osoby množného čísla; podle pádu znamená „vás“ nebo „vám“, ne „ty“.",
+      "currentCs": "Ty • Ty",
+      "proposedCs": "Vás • Vám"
+    }
+  ]
+}
