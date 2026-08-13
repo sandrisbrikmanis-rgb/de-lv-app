@@ -16922,7 +16922,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jdeš"
+                "Samozřejmě"
               ]
             }
           },
@@ -17128,7 +17128,7 @@ const A1_WORDS = [
                 "Vezmi"
               ],
               "yellow": [
-                "Vezmi"
+                "knihu"
               ]
             }
           },
@@ -19350,6 +19350,32 @@ const A1_WORDS = [
             "green": [
               "schauen"
             ]
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "schauen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Dívat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Vidět"
+              ]
+            }
           }
         ]
       }
@@ -27247,7 +27273,7 @@ const A1_WORDS = [
         "Když kontext odpovídá tomuto významu, použijte die Ferien."
       ],
       "important": [
-        "Ve spojení in den Ferien je Ferien v dativu množného čísla.",
+        "Ferien se používá pouze v množném čísle; ve spojení in den Ferien je v dativu množného čísla.",
         "Nesprávně: in der Ferien → Správně: in den Ferien",
         "Škola: die Ferien (pouze množné číslo).",
         "Pouze množné číslo. Školní nebo studijní prázdniny - vždy v množném čísle."
