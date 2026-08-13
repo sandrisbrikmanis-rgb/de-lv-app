@@ -1,0 +1,146 @@
+[
+  {
+    "de": "Weise",
+    "variants": [
+      "cesta",
+      "chytrý"
+    ],
+    "locations": [
+      "a2:a2-Weise-1575",
+      "b1:b1-Weise-3228",
+      "b2:b2-Weise-2046"
+    ],
+    "locationCount": 3,
+    "severity": "HIGH"
+  },
+  {
+    "de": "ändern",
+    "variants": [
+      "změnit • změnit",
+      "změnit • opravit"
+    ],
+    "locations": [
+      "a2:a2-ändern-35",
+      "b2:b2-aendern"
+    ],
+    "locationCount": 2,
+    "severity": "MEDIUM"
+  },
+  {
+    "de": "Reich",
+    "variants": [
+      "země • říše • království",
+      "říše • země"
+    ],
+    "locations": [
+      "a2:a2-Reich-1143",
+      "b2:b2-Reich-1515"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "wechseln",
+    "variants": [
+      "změnit • vyměnit",
+      "vyměnit • vyměnit"
+    ],
+    "locations": [
+      "a2:a2-wechseln",
+      "b2:b2-wechseln"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "bieten",
+    "variants": [
+      "nabídnout",
+      "nabídnout • poskytnout"
+    ],
+    "locations": [
+      "b1:b1-bieten",
+      "b2:b2-bieten"
+    ],
+    "locationCount": 2,
+    "severity": "MEDIUM"
+  },
+  {
+    "de": "Einschreiben",
+    "variants": [
+      "doporučený dopis",
+      "doporučený dopis nebo balík"
+    ],
+    "locations": [
+      "b1:b1-Einschreiben-705",
+      "b2:b2-Einschreiben-577"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "fordern",
+    "variants": [
+      "požádat",
+      "vyžadovat • vyžadovat"
+    ],
+    "locations": [
+      "b1:b1-fordern-931",
+      "b2:b2-fordern"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "fördern",
+    "variants": [
+      "podporovat",
+      "podporovat • podporovat"
+    ],
+    "locations": [
+      "b1:b1-fördern",
+      "b2:b2-foerdern"
+    ],
+    "locationCount": 2,
+    "severity": "MEDIUM"
+  },
+  {
+    "de": "Verdienst",
+    "variants": [
+      "zisk",
+      "zásluhy"
+    ],
+    "locations": [
+      "b1:b1-Verdienst-3059",
+      "b2:b2-Verdienst-1876"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "sich verlaufen",
+    "variants": [
+      "konat",
+      "zmizte"
+    ],
+    "locations": [
+      "b1:b1-sich verlaufen-3087",
+      "b2:b2-sich-verlaufen"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "voraussetzen",
+    "variants": [
+      "vyžadovat • být předpokladem",
+      "brát jako podmínku"
+    ],
+    "locations": [
+      "b2:b2-voraussetzen-1988",
+      "c1:c1-voraussetzen"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  }
+]

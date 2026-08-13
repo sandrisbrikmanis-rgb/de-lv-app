@@ -1,0 +1,28 @@
+[
+  {
+    "de": "sich entschließen",
+    "variants": [
+      "rozhodnout",
+      "rozhodnout se • rozhodnout"
+    ],
+    "locations": [
+      "b1:b1-sich entschließen-3346",
+      "c1:c1-sich entschließen-299"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "voraussetzen",
+    "variants": [
+      "vyžadovat • být předpokladem",
+      "brát jako podmínku"
+    ],
+    "locations": [
+      "b2:b2-voraussetzen-1988",
+      "c1:c1-voraussetzen"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  }
+]

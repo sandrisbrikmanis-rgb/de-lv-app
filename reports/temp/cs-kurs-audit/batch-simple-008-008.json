@@ -1,0 +1,78 @@
+{
+  "dataset": "kurs",
+  "batch": "simple-008-008",
+  "auditType": "kurs",
+  "cardCount": 1,
+  "cardIds": [
+    "kurssLesson8"
+  ],
+  "findings": [
+    {
+      "cardId": "kurssLesson8",
+      "field": "csText.title",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "(lesson)",
+      "lvSource": "Lesson 8",
+      "currentCs": "Přednáška 8",
+      "proposedCs": "Lekce 8",
+      "reason": "Přednáška znamená „lecture“; pro německé Lesson je správně české „Lekce“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson8",
+      "field": "csText.subtitle",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Reflexive verbs, e → i/ie change and accusative.",
+      "lvSource": "Zvratná slovesa, e → i/ie záměna a akuzativ.",
+      "currentCs": "Zvratná slovesa, e → i/ie záměna a akuzativ.",
+      "proposedCs": "Zvratná slovesa, střídání e → i/ie a akuzativ",
+      "reason": "„Záměna“ je zde méně přirozená; „střídání“ přesněji popisuje změnu ve slovesném kmeni.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson8",
+      "field": "csText.sections[1].items",
+      "severity": "HIGH",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "Vocabulary for the German lesson dialogues",
+      "lvSource": "The section contains Latvian translations mixed with Czech.",
+      "currentCs": "[\"Alle — visi\",\"Aufstehen — vstát\",\"Stehen auf — pieceļas\",\"Grüßen (grüsen) — sveicināt\",\"Guten Morgen — dobré ráno\",\"Gut — labs\",\"Der Morgen — rīts\",\"Der Herr — kungs\",\"Das Kind — dítě\",\"Die Kinder — bērni\",\"Setzt euch (zect oich) — sēstieties!\",\"Sie setzen sich — viņi apsēžas\",\"Fragen (ar akuzatīvu) — jautāt\",\"Sprechen — runāt\",\"Er spricht — on mluví\",\"Aber — bet\",\"Sehr (zēr) — ļoti\",\"Leise — klusi\",\"Laut — skaļi\",\"Jetzt (ject) — tagad\",\"Lesen — číst\",\"Lies! — lasi!\",\"Gut — labi\",\"Schlecht — slikti\",\"Deutlich (doitlich) — skaidri, saprotami\",\"Schreiben — rakstīt\",\"Endlich (entlich) — beidzot\",\"Erzählen (ercēlen) — stāstīt\",\"Zuhören — klausīties\",\"Sie hören zu — viņi klausās\",\"Was ist das — kas tas ir?\",\"Der Arbeiter — strādnieks\",\"Der Müller — dzirnavnieks\",\"Der Tischler — galdnieks\",\"Der Bäcker (dēr beker) — maiznieks\",\"Der Schneider (dēr šneider) — drēbniek\",\"Der Gärtner (dēr gertner) — dārznieks\",\"Der Schuster — kurpnieks\"]",
+      "proposedCs": "[\"Alle — všichni\",\"Aufstehen — vstát\",\"Stehen auf — vstávají\",\"Grüßen (grüsen) — zdravit\",\"Guten Morgen — dobré ráno\",\"Gut — dobrý\",\"Der Morgen — ráno\",\"Der Herr — pán\",\"Das Kind — dítě\",\"Die Kinder — děti\",\"Setzt euch (zect oich) — sedněte si!\",\"Sie setzen sich — oni si sedají\",\"Fragen (s akuzativem) — ptát se\",\"Sprechen — mluvit\",\"Er spricht — on mluví\",\"Aber — ale\",\"Sehr (zér) — velmi\",\"Leise — tiše\",\"Laut — nahlas\",\"Jetzt (ject) — teď\",\"Lesen — číst\",\"Lies! — čti!\",\"Gut — dobře\",\"Schlecht — špatně\",\"Deutlich (dojtl ich) — zřetelně, srozumitelně\",\"Schreiben — psát\",\"Endlich (entlich) — konečně\",\"Erzählen (ercélen) — vyprávět\",\"Zuhören — poslouchat\",\"Sie hören zu — oni poslouchají\",\"Was ist das — co to je?\",\"Der Arbeiter — dělník\",\"Der Müller — mlynář\",\"Der Tischler — truhlář\",\"Der Bäcker (dér bek er) — pekař\",\"Der Schneider (dér šnajdr) — krejčí\",\"Der Gärtner (dér gertner) — zahradník\",\"Der Schuster — švec\"]",
+      "reason": "Většina českých ekvivalentů je nahrazena lotyšskými; sekce proto není použitelná jako česká slovní zásoba.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson8",
+      "field": "csText.sections[2].items",
+      "severity": "HIGH",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "Pronunciation notes for Ä, ü, ie, ß and eu",
+      "lvSource": "The entire pronunciation section is written in Latvian.",
+      "currentCs": "[\"Ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).\",\"Ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).\",\"Vārdos Schüler, Bücher — ü ir garš (ū), bet Müller — īss ü.\",\"Ie izrunā kā garo ī: liest (līst).\",\"SS izrunā kā s: grüßen (grüsen).\",\"Eu izrunā kā oi: deutlich (doitlich).\"]",
+      "proposedCs": "[\"Ä se, jak již bylo zmíněno, vyslovuje jako úzké krátké nebo dlouhé e. Příklady: der Bäcker (béker), das Mädchen (métchen).\",\"Ä se vyslovuje také jako otevřené e, například ve slově der Gärtner (dér gertner).\",\"Ve slovech Schüler a Bücher je ü dlouhé (ú), zatímco ve slově Müller je krátké ü.\",\"Ie se vyslovuje jako dlouhé í: liest (líst).\",\"SS se vyslovuje jako s: grüßen (grüsen).\",\"Eu se vyslovuje jako oj: deutlich (dojtl ich).\"]",
+      "reason": "Text je celý v lotyštině, takže český student nedostává české vysvětlení výslovnosti.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson8",
+      "field": "csText.sections[3].items",
+      "severity": "HIGH",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "Grammar: vowel changes and reflexive verbs",
+      "lvSource": "The grammar section is predominantly Latvian, with German examples.",
+      "currentCs": "[\"Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.\",\"Sprechen — ich spreche, du sprichst, er spricht.\",\"Geben — ich gebe, du gibst, er gibt.\",\"Essen — ich esse, du isst, er isst.\",\"Nehmen — ich nehme, du nimmst, er nimmt.\",\"Lesen — ich lese, du liest, er liest.\",\"Sehen — ich sehe, du siehst, er sieht.\",\"Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!\",\"Český valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. Vācu valodā sevišķas konjugācijas nav. Tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.\",\"Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.\",\"Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie sich!\"]",
+      "proposedCs": "[\"Mnoho sloves s kmenovým e má ve 2. a 3. osobě jednotného čísla v přítomném čase místo e i nebo ie.\",\"Sprechen — ich spreche, du sprichst, er spricht.\",\"Geben — ich gebe, du gibst, er gibt.\",\"Essen — ich esse, du isst, er isst.\",\"Nehmen — ich nehme, du nimmst, er nimmt.\",\"Lesen — ich lese, du liest, er liest.\",\"Sehen — ich sehe, du siehst, er sieht.\",\"U těchto sloves se i v jednotném čísle v rozkazovacím způsobu místo e v kmeni objevuje i nebo ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!\",\"V češtině mají zvratná slovesa vlastní zájmeno a konjugaci. V němčině nemají zvláštní konjugaci. Časují se stejně jako ostatní slovesa a přidává se k nim zvratné zájmeno sich.\",\"Přítomný čas: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.\",\"Rozkazovací způsob: setz(e) dich!, setzt euch!, setzen Sie sich!\"]",
+      "reason": "Výklad je téměř celý v lotyštině; navíc „Český valodā“ je kontaminovaná a gramaticky chybná směs jazyků.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 0,
+  "completedAt": "2026-08-10T21:05:35.609Z"
+}

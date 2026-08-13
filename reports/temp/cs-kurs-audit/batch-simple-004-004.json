@@ -1,0 +1,143 @@
+{
+  "dataset": "kurs",
+  "batch": "simple-004-004",
+  "auditType": "kurs",
+  "cardCount": 1,
+  "cardIds": [
+    "kurssLesson4"
+  ],
+  "findings": [
+    {
+      "cardId": "kurssLesson4",
+      "field": "csText.title",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "lesson",
+      "lvSource": "",
+      "currentCs": "Přednáška 4",
+      "proposedCs": "Lekce 4",
+      "reason": "Přednáška znamená lecture; německé lesson se v tomto kurzu překládá jako lekce.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson4",
+      "field": "csText.dialogues",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Federhalter",
+      "lvSource": "",
+      "currentCs": "Der Federhalter (dēr fēderhalter) - opeřený",
+      "proposedCs": "Der Federhalter (dēr fēderhalter) – držák na pero",
+      "reason": "Federhalter je držák na pero, nikoli přídavné jméno opeřený.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson4",
+      "field": "csText.dialogues",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "einen Federhalter",
+      "lvSource": "",
+      "currentCs": "Einen Federhalter - držák peří",
+      "proposedCs": "Einen Federhalter – držák na pero",
+      "reason": "Význam německého výrazu je držák na pero; držák peří je chybný překlad.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson4",
+      "field": "csText.dialogues",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "spitz",
+      "lvSource": "",
+      "currentCs": "Špic (špic) - špičatý",
+      "proposedCs": "Spitz (špic) – špičatý",
+      "reason": "Německé heslo je Spitz; současné Špic není odpovídající český ani německý zápis hesla.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson4",
+      "field": "csText.dialogues",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Wo legt das Mädchen ... hin?",
+      "lvSource": "",
+      "currentCs": "Byl legt das Mädchen hin?",
+      "proposedCs": "Wo legt das Mädchen hin?",
+      "reason": "Byl je české slovo a v německé otázce nahrazuje správné tázací slovo Wo.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson4",
+      "field": "csText.dialogues",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Wo legst du hin?",
+      "lvSource": "",
+      "currentCs": "Byl legt du hin?",
+      "proposedCs": "Wo legst du hin?",
+      "reason": "Byl je chybná kontaminace češtinou; německé tázací slovo je Wo.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson4",
+      "field": "csText.vocabulary",
+      "severity": "LOW",
+      "category": "STUDY",
+      "de": "stumpf",
+      "lvSource": "",
+      "currentCs": "Stumpf (stumpf) - tupý, tupý",
+      "proposedCs": "Stumpf (stumpf) – tupý",
+      "reason": "Český význam je uveden dvakrát; duplicita zhoršuje studijní použitelnost.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson4",
+      "field": "csText.vocabulary",
+      "severity": "LOW",
+      "category": "STUDY",
+      "de": "hinausgehen",
+      "lvSource": "",
+      "currentCs": "Hinausgehen - jít ven, jít ven",
+      "proposedCs": "Hinausgehen – jít ven",
+      "reason": "Český překlad je uveden dvakrát.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson4",
+      "field": "csText.pronunciation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "H als Längenzeichen",
+      "lvSource": "",
+      "currentCs": "Je-li h dlouhé, nevyslovuje se jako zvuk: nehmen (nēmen).",
+      "proposedCs": "Je-li h pouze značkou délky, nevyslovuje se jako zvuk: nehmen (nēmen).",
+      "reason": "Písmeno h nemůže být „dlouhé“; zde jde o jeho funkci značky délky.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson4",
+      "field": "csText.pronunciation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "die Feder",
+      "lvSource": "",
+      "currentCs": "die (dī) Feder (fēder), den (dēn)",
+      "proposedCs": "die (dī) Feder (fēdər), den (dēn)",
+      "reason": "Druhé e ve slově Feder se vyslovuje jako redukovaná samohláska, nikoli jako dlouhé e.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 0,
+  "completedAt": "2026-08-10T21:03:49.582Z"
+}

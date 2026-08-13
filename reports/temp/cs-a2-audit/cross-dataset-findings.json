@@ -1,0 +1,211 @@
+[
+  {
+    "de": "Weise",
+    "variants": [
+      "cesta",
+      "chytrý"
+    ],
+    "locations": [
+      "a2:a2-Weise-1575",
+      "b1:b1-Weise-3228",
+      "b2:b2-Weise-2046"
+    ],
+    "locationCount": 3,
+    "severity": "HIGH"
+  },
+  {
+    "de": "bringen",
+    "variants": [
+      "přinést • odnést",
+      "přinést • doručit"
+    ],
+    "locations": [
+      "a1:a1-bringen",
+      "a2:a2-bringen"
+    ],
+    "locationCount": 2,
+    "severity": "MEDIUM"
+  },
+  {
+    "de": "erst",
+    "variants": [
+      "první • pouze",
+      "až • ne dříve než"
+    ],
+    "locations": [
+      "a1:a1-erst",
+      "a2:a2-erst"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "gleich",
+    "variants": [
+      "hned • rovný",
+      "rovný • ihned"
+    ],
+    "locations": [
+      "a1:a1-gleich",
+      "a2:a2-gleich"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "legen",
+    "variants": [
+      "položit",
+      "položit se"
+    ],
+    "locations": [
+      "a1:a1-legen",
+      "a2:a2-legen"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "liegen",
+    "variants": [
+      "být • spát",
+      "spát • být"
+    ],
+    "locations": [
+      "a1:a1-liegen",
+      "a2:a2-liegen"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "über",
+    "variants": [
+      "přes • pro",
+      "přes • přes • pro"
+    ],
+    "locations": [
+      "a1:a1-über",
+      "a2:a2-ueber"
+    ],
+    "locationCount": 2,
+    "severity": "MEDIUM"
+  },
+  {
+    "de": "holen",
+    "variants": [
+      "jít za • aportovat",
+      "přinést"
+    ],
+    "locations": [
+      "a2:a2-holen",
+      "b1:b1-holen"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "ändern",
+    "variants": [
+      "změnit • změnit",
+      "změnit • opravit"
+    ],
+    "locations": [
+      "a2:a2-ändern-35",
+      "b2:b2-aendern"
+    ],
+    "locationCount": 2,
+    "severity": "MEDIUM"
+  },
+  {
+    "de": "Leid",
+    "variants": [
+      "utrpení • žal",
+      "utrpení"
+    ],
+    "locations": [
+      "a2:a2-Leid-876",
+      "b1:b1-Leid-1755"
+    ],
+    "locationCount": 2,
+    "severity": "MEDIUM"
+  },
+  {
+    "de": "obwohl",
+    "variants": [
+      "ačkoli",
+      "i když • ačkoli"
+    ],
+    "locations": [
+      "a2:a2-obwohl-1035",
+      "b1:b1-obwohl"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "Reich",
+    "variants": [
+      "země • říše • království",
+      "říše • země"
+    ],
+    "locations": [
+      "a2:a2-Reich-1143",
+      "b2:b2-Reich-1515"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "Rennen",
+    "variants": [
+      "závod • závod",
+      "závod"
+    ],
+    "locations": [
+      "a2:a2-Rennen-1154",
+      "b1:b1-Rennen-2291"
+    ],
+    "locationCount": 2,
+    "severity": "MEDIUM"
+  },
+  {
+    "de": "Schuld",
+    "variants": [
+      "vina • dluh • odpovědnost",
+      "být vinen"
+    ],
+    "locations": [
+      "a2:a2-schuld",
+      "b1:b1-Schuld-2526"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "sich erholen",
+    "variants": [
+      "odpočívat • zotavit se",
+      "odpočívat"
+    ],
+    "locations": [
+      "a2:a2-sich erholen-1293",
+      "b1:b1-sich erholen-3349"
+    ],
+    "locationCount": 2,
+    "severity": "MEDIUM"
+  },
+  {
+    "de": "wechseln",
+    "variants": [
+      "změnit • vyměnit",
+      "vyměnit • vyměnit"
+    ],
+    "locations": [
+      "a2:a2-wechseln",
+      "b2:b2-wechseln"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  }
+]
