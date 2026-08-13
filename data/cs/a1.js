@@ -1226,11 +1226,11 @@ const A1_WORDS = [
         },
         {
           "de": "Ich komme auch.",
-          "lv": "Ona zde také pracuje."
+          "lv": "Já také přijdu."
         },
         {
           "de": "Sie arbeitet auch hier.",
-          "lv": "Také vám přeji hezký den."
+          "lv": "Ona zde také pracuje."
         }
       ],
       "tip": [
@@ -2125,7 +2125,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "baden",
-          "meaning": "Koupat se / být ve vodě / mýt se",
+          "meaning": "Koupat se / pobývat ve vodě",
           "example": "Ich gehe baden."
         },
         {
@@ -4622,7 +4622,7 @@ const A1_WORDS = [
         },
         {
           "word": "weil",
-          "meaning": "Protože • Protože",
+          "meaning": "Protože",
           "example": "Ich bleibe zu Hause, weil es regnet. – Zůstávám doma, protože prší."
         },
         {
@@ -4800,7 +4800,7 @@ const A1_WORDS = [
   },
   {
     "de": "der",
-    "lv": "Mužský rod určitý člen",
+    "lv": "Určitý člen mužského rodu",
     "level": "A1",
     "study": {
       "id": "a1-der",
@@ -4888,7 +4888,7 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "Na úrovni A1 byste se měli nejprve učit jako mužský článek.",
+        "Na úrovni A1 byste se měli nejprve učit der jako určitý člen mužského rodu.",
         "Použití zájmena a vztažného zájmena přijde později."
       ]
     }
@@ -5031,7 +5031,7 @@ const A1_WORDS = [
       "id": "a1-dieser",
       "layout": "standardStudy",
       "translation": "Tenhle",
-      "explanation": "Ukazuje na blízkou osobu, věc nebo zvíře. Používá se s podstatným jménem mužského rodu.",
+      "explanation": "Ukazuje na konkrétní nebo zdůrazněnou osobu, věc či zvíře. Používá se s podstatným jménem mužského rodu.",
       "examples": [
         {
           "de": "Dieser Mann ist nett.",
@@ -6477,11 +6477,11 @@ const A1_WORDS = [
         },
         {
           "de": "Ich fahre meine Tochter zur Schule.",
-          "lv": "Beru dceru do školy."
+          "lv": "Vezu dceru do školy."
         },
         {
           "de": "Ich fahre dich nach Hause.",
-          "lv": "Vezmu tě domů."
+          "lv": "Odvezu tě domů."
         },
         {
           "de": "Wir fahren morgen nach München.",
@@ -7462,7 +7462,7 @@ const A1_WORDS = [
   },
   {
     "de": "für",
-    "lv": "Pro • Pro",
+    "lv": "Pro • Za",
     "level": "A1",
     "study": {
       "id": "a1-fuer",
@@ -8059,7 +8059,7 @@ const A1_WORDS = [
         },
         {
           "word": "mögen",
-          "meaning": "mít rád • líbit se",
+          "meaning": "Mít rád",
           "example": "Ich mag das. – To mám rád."
         }
       ],
@@ -9353,7 +9353,7 @@ const A1_WORDS = [
     "de": "Hand",
     "de_article": "die",
     "de_plural": "die Hände",
-    "lv": "Ruka (dlaň)",
+    "lv": "Ruka",
     "level": "A1",
     "study": {
       "id": "a1-hand-study",
@@ -10206,7 +10206,7 @@ const A1_WORDS = [
       "translation": "Vy • Jí • Její",
       "explanation": [
         "Hlavní myšlenka: ihr má několik použití — jako oslovení více lidí znamená „vy“, jako dativ zájmena sie znamená „jí“ a jako přivlastňovací zájmeno může znamenat „její“.",
-        "S malými písmeny se ihr jako adresa pro několik lidí překládá jako vy (Kommt ihr mit? = Jdete spolu?).",
+        "S malým ihr jako oslovením několika lidí se překládá jako vy (Kommt ihr mit? = Jdete spolu?).",
         "Ihr jako přivlastňovací zájmeno znamená její/jejich (ihr Buch = její kniha).",
         "Ihr jako tvar dativu (od sie) znamená k ní (Ich gebe ihr das Buch. = dávám jí knihu.).",
         "Slovesný tvar (kommt, habt) ukazuje, že jde o vás – oslovení několika lidí.",
@@ -10453,7 +10453,7 @@ const A1_WORDS = [
         "Im = in dem; používá se s podstatnými jmény mužského nebo středního rodu v dativu a odpovídá na otázku kde?",
         "Odpovídá na otázku kde?, ne kam? — označuje umístění, nikoli pohyb.",
         "S měsíci a ročními obdobími: im März, im Herbst.",
-        "Pro ženy: in der Schule, ne im Schule."
+        "Pro ženský rod: in der Schule, ne im Schule."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10732,11 +10732,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich bin in Berlin.",
-          "lv": "Jsem v Berlíně"
+          "lv": "Jsem v Berlíně."
         },
         {
           "de": "Ich gehe in die Schule.",
-          "lv": "Chodím do školy"
+          "lv": "Chodím do školy."
         },
         {
           "de": "Das Buch ist in der Tasche.",
@@ -10897,7 +10897,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich gehe ins Kino.",
-          "lv": "Jdu do kina"
+          "lv": "Jdu do kina."
         },
         {
           "de": "Sie geht ins Bett.",
@@ -11498,7 +11498,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich habe kein Geld.",
-          "lv": "Nemám peníze"
+          "lv": "Nemám peníze."
         },
         {
           "de": "Es gibt keine Milch mehr.",
@@ -11510,7 +11510,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich habe keine Zeit.",
-          "lv": "Nemám čas"
+          "lv": "Nemám čas."
         },
         {
           "de": "Das ist kein Problem.",
@@ -11683,7 +11683,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich kenne ihn.",
-          "lv": "Znám ho"
+          "lv": "Znám ho."
         },
         {
           "de": "kennen",
@@ -11985,7 +11985,7 @@ const A1_WORDS = [
         },
         {
           "word": "müssen",
-          "meaning": "Musit / být nutné",
+          "meaning": "Muset / být nutné",
           "example": "Ich muss lernen. = Musím se učit."
         },
         {
@@ -12849,7 +12849,7 @@ const A1_WORDS = [
         "Hlavní myšlenka: das Land nejčastěji znamená zemi nebo venkov.",
         "Pokud jde o Německo, Lotyšsko nebo jiné území s hranicemi, překládá se to jako země.",
         "Když mluvíte o venkově nebo zemi na rozdíl od města, překládejte jako venkov nebo země.",
-        "Kontext určuje, zda máme na mysli zemi, venkov nebo zemi."
+        "Kontext určuje, zda máme na mysli stát, venkov nebo půdu."
       ],
       "examples": [
         {
@@ -15071,7 +15071,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-mal",
       "layout": "standardStudy",
-      "translation": "Příležitost • Opakování",
+      "translation": "Případ • Opakování",
       "explanation": [
         "Hlavní myšlenka: das Mal označuje jeden případ nebo jedno opakování.",
         "Často se používá s čísly: ein Mal, zwei Mal, drei Mal.",
@@ -15237,7 +15237,7 @@ const A1_WORDS = [
         "Hlavní myšlenka: der Mann může znamenat muž (pohlaví) nebo manžel (manžel).",
         "Pokud je to prostě záležitost pohlaví nebo osoby, der Mann = muž.",
         "Pro manžela, der Mann = manžel (mein Mann = můj manžel).",
-        "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy znamená manžel – manžel.",
+        "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy znamená manžela.",
         "Množné číslo: die Männer.",
         "Ženská forma die Frau má stejný dvojí význam: žena a manželka."
       ],
@@ -15268,7 +15268,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy znamená manžel (manžel).",
+        "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy označuje manžela.",
         "Bez přivlastňovacího (der Mann, ein Mann) obvykle znamená muž."
       ],
       "important": [
@@ -15758,7 +15758,7 @@ const A1_WORDS = [
       "translation": "Mít rád",
       "explanation": [
         "Hlavní myšlenka: mögen nejčastěji znamená mít něco rád.",
-        "Ich mag... je v češtině obvykle „Líbí se mi...“.",
+        "Ich mag... se v češtině obvykle překládá jako „Mám rád/a...“ nebo podle kontextu „Líbí se mi...“.",
         "Möchte je další forma používaná pro zdvořilou touhu: chtěl bych.",
         "Na úrovni A1 je nejdůležitější fráze Ich mag das."
       ],
@@ -15803,7 +15803,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: Ich mag... = Líbí se mi..."
+        "text": "Pamatujte: Ich mag... = Mám rád/a..."
       },
       "important": [
         "Mögen se nepoužívá pro zdvořilé „chtěl bych“. K tomu se obvykle používá möchte.",
@@ -17861,7 +17861,7 @@ const A1_WORDS = [
         },
         {
           "word": "wenn",
-          "meaning": "Jestli / kdy",
+          "meaning": "Když / jestli",
           "example": "Wenn du Zeit hast..."
         },
         {
@@ -18006,7 +18006,11 @@ const A1_WORDS = [
                 "dass"
               ]
             },
-            "meaning": {},
+            "meaning": {
+              "purple": [
+                "Že"
+              ]
+            },
             "example": {
               "green": [
                 "dass"
@@ -20948,7 +20952,7 @@ const A1_WORDS = [
       "important": [
         "Zdvořilost vždy s velkým S: Sie, ne sie.",
         "Ona: Sie kocht. Oni: sie kochen. Vy: Sie kochen.",
-        "Nesprávně: sie kocht → Správně: Sie kocht",
+        "Na začátku věty se sie píše s velkým písmenem: Sie kocht = Ona vaří; uprostřed věty: sie kocht.",
         "Nesprávně: Sie kocht (oni) → Správně: Sie kochen"
       ],
       "sectionAccents": {
@@ -23699,12 +23703,12 @@ const A1_WORDS = [
   },
   {
     "de": "vor",
-    "lv": "Před • Před",
+    "lv": "Před • Za",
     "level": "A1",
     "study": {
       "id": "a1-vor",
       "layout": "standardStudy",
-      "translation": "Před • Před",
+      "translation": "Před • Za",
       "explanation": [
         "Hlavní myšlenka: vor znamená dříve v čase nebo před místem.",
         "Pokud jde o čas, vor znamená předtím.",
@@ -24225,16 +24229,16 @@ const A1_WORDS = [
   },
   {
     "de": "wenn",
-    "lv": "Jestliže • Kdy",
+    "lv": "Jestliže • Když",
     "level": "A1",
     "study": {
       "id": "a1-wenn",
       "layout": "standardStudy",
-      "translation": "Jestliže • Kdy",
+      "translation": "Jestliže • Když",
       "explanation": [
         "Hlavní myšlenka: wenn znamená jestli nebo kdy v závislosti na situaci.",
         "Pokud jde o podmínku, přeložte jako „pokud“ nebo „jestliže“.",
-        "Pokud se jedná o opakovaný nebo obecný čas, přeložte jako kdy.",
+        "Pokud se jedná o opakovaný nebo obecný čas, přeložte jako „když“.",
         "Po wenn stojí sloveso ve vedlejší větě obvykle na konci."
       ],
       "examples": [
@@ -24258,7 +24262,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "wenn",
-          "meaning": "Jestli / kdy",
+          "meaning": "Jestliže / když",
           "example": "Wenn du Zeit hast..."
         },
         {
@@ -25162,12 +25166,12 @@ const A1_WORDS = [
   },
   {
     "de": "wie",
-    "lv": "Jak • Kolik",
+    "lv": "Jak • Kolik • Jako",
     "level": "A1",
     "study": {
       "id": "a1-wie",
       "layout": "standardStudy",
-      "translation": "Jak • Kolik",
+      "translation": "Jak • Kolik • Jako",
       "explanation": [
         "Hlavní myšlenka: wie se ptá na druh nebo kvalitu (jak) a na množství nebo počet (kolik), v závislosti na kontextu.",
         "Wie samo (Wie geht's?) se ptá na způsob nebo stav. V češtině znamená „jak“.",
@@ -25643,7 +25647,7 @@ const A1_WORDS = [
       "translation": "Vlak",
       "explanation": [
         "Hlavní myšlenka: der Zug na úrovni A1 nejčastěji znamená vlak.",
-        "Používá se v každodenních situacích při řízení, příjezdu a odjezdu.",
+        "Používá se v každodenních situacích při cestování, příjezdu a odjezdu.",
         "V některých jiných významech může být Zug pochod, průvan nebo rys, ale to nejsou hlavní významy A1.",
         "Velmi časté fráze jsou mit dem Zug fahren a Der Zug kommt."
       ],
@@ -27404,7 +27408,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Pouze jednotné číslo. Odejít z práce - vždy v jednotném čísle.",
+        "Obvykle jednotné číslo. Jde o dovolenou z práce.",
         "Použijte der Urlaub, pokud kontext odpovídá tomuto významu."
       ],
       "important": [
