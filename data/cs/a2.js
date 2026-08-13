@@ -47223,18 +47223,18 @@ const A2_WORDS = [
   },
   {
     "de": "ruhig",
-    "lv": "Uklidnit",
+    "lv": "Klidný",
     "level": "A2"
   },
   {
     "de": "rühren",
-    "lv": "Rozruch",
+    "lv": "Míchat",
     "level": "A2"
   },
   {
     "de": "Rundfunk",
     "de_article": "der",
-    "lv": "Rádio",
+    "lv": "Rozhlas",
     "level": "A2"
   },
   {
@@ -47246,14 +47246,14 @@ const A2_WORDS = [
     "de": "Saal",
     "de_article": "der",
     "de_plural": "die Säle",
-    "lv": "Tráva",
+    "lv": "Sál",
     "level": "A2"
   },
   {
     "de": "Sack",
     "de_article": "der",
     "de_plural": "die Säcke",
-    "lv": "Taška",
+    "lv": "Pytel",
     "level": "A2"
   },
   {
@@ -47266,19 +47266,19 @@ const A2_WORDS = [
   {
     "de": "Sahne",
     "de_article": "die",
-    "lv": "Krém",
+    "lv": "Smetana",
     "level": "A2"
   },
   {
     "de": "Saison",
     "de_article": "die",
     "de_plural": "die Saisons",
-    "lv": "Některé ne. sezóna",
+    "lv": "Sezóna",
     "level": "A2"
   },
   {
     "de": "salzen",
-    "lv": "Dosolit",
+    "lv": "Solit",
     "level": "A2"
   },
   {
@@ -47315,11 +47315,11 @@ const A2_WORDS = [
         },
         {
           "de": "Die Schüler sammeln sich vor der Schule.",
-          "lv": "Studenti se shromažďují před školou."
+          "lv": "Žáci se shromažďují před školou."
         },
         {
           "de": "Ich muss meine Gedanken sammeln.",
-          "lv": "Potřebuji si shromáždit myšlenky."
+          "lv": "Potřebuji si uspořádat myšlenky."
         }
       ],
       "comparison": [
@@ -47330,17 +47330,17 @@ const A2_WORDS = [
         },
         {
           "word": "sich sammeln",
-          "meaning": "Shromáždit / uklidit",
+          "meaning": "Shromáždit se / sebrat se",
           "example": "Die Schüler sammeln sich. = Studenti se shromáždí."
         },
         {
           "word": "holen",
-          "meaning": "Jít za / aport",
+          "meaning": "Jít pro / přinést",
           "example": "Ich hole Wasser. = Přinesl jsem vodu."
         },
         {
           "word": "aufheben",
-          "meaning": "Zvednout / uložit",
+          "meaning": "Zvednout / schovat",
           "example": "Ich hebe den Zettel auf. = Podržím poznámku."
         }
       ],
@@ -47628,7 +47628,7 @@ const A2_WORDS = [
   },
   {
     "de": "satt",
-    "lv": "Otrávený",
+    "lv": "Sytý",
     "level": "A2"
   },
   {
@@ -47665,13 +47665,13 @@ const A2_WORDS = [
         },
         {
           "de": "Sein erster Satz war sehr weit.",
-          "lv": "Jeho první skok byl velmi daleko."
+          "lv": "Jeho první věta byla velmi dlouhá."
         }
       ],
       "comparison": [
         {
           "word": "der Satz",
-          "meaning": "Věta / sada / sázka / skok",
+          "meaning": "Věta / sada / sazba / skok",
           "example": "Der Satz ist kurz. = Věta je krátká."
         },
         {
@@ -47701,7 +47701,7 @@ const A2_WORDS = [
             "text": "V lingvistickém kontextu Satz téměř vždy znamená větu."
           },
           {
-            "text": "S Reifen, Zins nebo Kaffee se význam stává specifický: set, rate nebo sediment."
+            "text": "Se slovy Reifen, Zins nebo Kaffee se význam upřesňuje: sada, sazba nebo sedlina."
           }
         ]
       },
@@ -48138,7 +48138,7 @@ const A2_WORDS = [
   {
     "de": "Sauerkraut",
     "de_article": "das",
-    "lv": "Kyselé zelí",
+    "lv": "Kysané zelí",
     "level": "A2"
   },
   {
@@ -48167,7 +48167,7 @@ const A2_WORDS = [
   },
   {
     "de": "schade",
-    "lv": "Promiň",
+    "lv": "Škoda",
     "level": "A2"
   },
   {
@@ -48179,12 +48179,12 @@ const A2_WORDS = [
     "de": "Schal",
     "de_article": "der",
     "de_plural": "die Schals",
-    "lv": "Šátek",
+    "lv": "Šála",
     "level": "A2"
   },
   {
     "de": "schälen",
-    "lv": "Peeling",
+    "lv": "Loupat",
     "level": "A2"
   },
   {
@@ -48194,7 +48194,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-schalten",
       "layout": "standardStudy",
-      "translation": "Přepínač",
+      "translation": "Přepínat • Řadit",
       "explanation": [
         "Hlavní myšlenka: schalten znamená přepnout – zapnout, vypnout nebo změnit nějaké nastavení/převodový stupeň.",
         "U elektřiny schalten často znamená přehodit vypínač (Licht schalten = vypínač světla).",
@@ -48205,11 +48205,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich schalte das Licht ein.",
-          "lv": "Rozsvítil jsem světlo."
+          "lv": "Rozsvěcuji světlo."
         },
         {
           "de": "Ich schalte das Licht aus.",
-          "lv": "Zhasl jsem světlo."
+          "lv": "Zhasínám světlo."
         },
         {
           "de": "Er schaltet in den dritten Gang.",
@@ -48217,7 +48217,7 @@ const A2_WORDS = [
         },
         {
           "de": "Kannst du bitte auf Kanal 2 schalten?",
-          "lv": "Můžete prosím přepnout na kanál 2?"
+          "lv": "Můžeš prosím přepnout na kanál 2?"
         },
         {
           "de": "Die Ampel schaltet auf Grün.",
@@ -48229,7 +48229,7 @@ const A2_WORDS = [
         "Přesný význam 'zapnout' = einschalten • 'vypnout' = ausschalten."
       ],
       "important": [
-        "Schalten = spínač, ne jen 'zapnout' - konkrétněji o elektřině/převodech.",
+        "Schalten = přepínat nebo řadit, ne jen „zapnout“. - konkrétněji o elektřině/převodech.",
         "Schnell schalten (hovorový) = rychle rozumět."
       ],
       "sectionAccents": {
@@ -48594,7 +48594,7 @@ const A2_WORDS = [
   },
   {
     "de": "schätzen",
-    "lv": "Hodnotit",
+    "lv": "Odhadovat",
     "level": "A2"
   },
   {
@@ -48644,7 +48644,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-scheinen",
       "layout": "standardStudy",
-      "translation": "Lesknout se • Zdát se",
+      "translation": "Svítit • Zdát se",
       "explanation": "Scheinen znamená zářit, když se odkazuje na slunce nebo světlo. Může to také znamenat zdát se nebo zdát. Konstrukce es scheint často znamená „zdá se“. S zu + infinitiv vyjadřuje dojem osoby nebo situace. Význam je určen kontextem: Sonne nebo Eindruck. Proto je třeba rozlišovat mezi fyzickým světlem a dojmem.",
       "examples": [
         {
@@ -48653,7 +48653,7 @@ const A2_WORDS = [
         },
         {
           "de": "Das Licht scheint durch das Fenster.",
-          "lv": "Světlo svítí oknem."
+          "lv": "Světlo prosvítá oknem."
         },
         {
           "de": "Es scheint so.",
@@ -48680,12 +48680,12 @@ const A2_WORDS = [
         },
         {
           "word": "aussehen",
-          "meaning": "Podívat se",
+          "meaning": "Vypadat",
           "example": "Du siehst müde aus. = Vypadáš unaveně."
         },
         {
           "word": "wirken",
-          "meaning": "Udělat dojem",
+          "meaning": "Působit",
           "example": "Er wirkt ruhig. = Vypadá klidně."
         },
         {
@@ -48994,7 +48994,7 @@ const A2_WORDS = [
   },
   {
     "de": "schenken",
-    "lv": "Dát",
+    "lv": "Darovat",
     "level": "A2"
   },
   {
@@ -49030,7 +49030,7 @@ const A2_WORDS = [
     "de": "Schild",
     "de_article": "das",
     "de_plural": "die Schilder",
-    "lv": "Vývěsní štít • Štítek • Štítek na lahvích • Sešity atd. atd",
+    "lv": "Vývěsní štít",
     "level": "A2"
   },
   {
@@ -49050,12 +49050,12 @@ const A2_WORDS = [
   {
     "de": "Schlaf",
     "de_article": "der",
-    "lv": "Spát",
+    "lv": "Spánek",
     "level": "A2"
   },
   {
     "de": "schlagen",
-    "lv": "Hit",
+    "lv": "Udeřit",
     "level": "A2"
   },
   {
@@ -49067,7 +49067,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-schlange",
       "layout": "standardStudy",
-      "translation": "Had • Veslovat",
+      "translation": "Had • Fronta",
       "explanation": "Die Schlange znamená had jako zvíře. V běžném životě to také velmi často znamená frontu, kde lidé čekají. Fráze in der Schlange stehen znamená stát ve frontě. Kontext obvykle okamžitě ukazuje význam: les a zvíře nebo obchod a lidé. Oba významy jsou důležité pro každodenní jazyk A2.",
       "examples": [
         {
@@ -49098,7 +49098,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "die Schlange",
-          "meaning": "Had / čára",
+          "meaning": "Had / fronta",
           "example": "Die Schlange ist lang. = Fronta je dlouhá."
         },
         {
@@ -49466,7 +49466,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-schließen",
       "layout": "standardStudy",
-      "translation": "Aizvērt",
+      "translation": "Zavřít • Uzavřít • Usoudit",
       "explanation": "Schließen nejčastěji znamená zavřít dveře, okno nebo obchod. Může to také znamenat uzavření smlouvy nebo uzavření dohody. V kontextu myšlení to může znamenat závěr. V kontextu otevírací doby prodejny znamená schließen zavřít nebo zavřít. Je třeba jej odlišit od abschließen, což často znamená zamknout nebo zakončit.",
       "examples": [
         {
@@ -49487,7 +49487,7 @@ const A2_WORDS = [
         },
         {
           "de": "Kannst du das Fenster schließen?",
-          "lv": "Můžete zavřít okno"
+          "lv": "Můžeš zavřít okno?"
         },
         {
           "de": "Die Bank ist heute geschlossen.",
@@ -49497,7 +49497,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "schließen",
-          "meaning": "Uzavřít / uzavřít / uzavřít",
+          "meaning": "Zavřít / uzavřít / usoudit",
           "example": "Ich schließe die Tür. = Es aizveru durvis."
         },
         {
@@ -49507,12 +49507,12 @@ const A2_WORDS = [
         },
         {
           "word": "zumachen",
-          "meaning": "Blízký (hovorový)",
+          "meaning": "Zavřít (hovorově)",
           "example": "Mach das Fenster zu. = Zavřete okno."
         },
         {
           "word": "folgern",
-          "meaning": "Uzavřít",
+          "meaning": "Usoudit",
           "example": "Daraus folgere ich etwas. = Něco z toho usuzuji."
         }
       ],
@@ -49527,7 +49527,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Schließen a absschließen nejsou totéž.",
+        "text": "Schließen a abschließen nejsou totéž.",
         "example": "Tür schließen = aizvērt durvis. Tür abschließen = aizslēgt durvis."
       },
       "sectionAccents": {
@@ -49849,7 +49849,7 @@ const A2_WORDS = [
     "de": "Schlips",
     "de_article": "der",
     "de_plural": "die Schlipse",
-    "lv": "Uvázat",
+    "lv": "Kravata",
     "level": "A2"
   },
   {
@@ -49900,7 +49900,7 @@ const A2_WORDS = [
         },
         {
           "de": "Im Schloss gibt es viele Zimmer.",
-          "lv": "V paláci je mnoho pokojů."
+          "lv": "Na zámku je mnoho pokojů."
         }
       ],
       "comparison": [
@@ -49912,7 +49912,7 @@ const A2_WORDS = [
         {
           "word": "die Burg",
           "meaning": "Tvrz / hrad",
-          "example": "Die Burg steht auf dem Berg. = Zámek stojí na kopci."
+          "example": "Die Burg steht auf dem Berg. = Hrad stojí na kopci."
         },
         {
           "word": "das Türschloss",
@@ -49942,7 +49942,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Význam Schloss je určen kontextem.",
-        "example": "Schloss Neuschwanstein = pils. Türschloss = durvju slēdzene. Fahrradschloss = velosipēda slēdzene."
+        "example": "Schloss Neuschwanstein = zámek. Türschloss = zámek dveří. Fahrradschloss = zámek na kolo."
       },
       "sectionAccents": {
         "examples": [
@@ -50411,7 +50411,7 @@ const A2_WORDS = [
   },
   {
     "de": "schriftlich",
-    "lv": "Napsáno",
+    "lv": "Písemný",
     "level": "A2"
   },
   {
@@ -50450,7 +50450,7 @@ const A2_WORDS = [
       "id": "a2-schuld",
       "layout": "standardStudy",
       "translation": "Vina • Dluh • Odpovědnost",
-      "explanation": "Die Schuld nejčastěji znamená vinu nebo odpovědnost za to, co se stalo. Fráze Schuld haben znamená být vinen. jemandem die Schuld geben znamená vinit někoho. V množném čísle Schulden znamená dluhy. Schuld a Schulden je tedy třeba konkrétně rozlišovat. V češtině mají „vina“ a „dluh“ velmi odlišné významy.",
+      "explanation": "Die Schuld nejčastěji znamená vinu nebo odpovědnost za to, co se stalo. Fráze Schuld haben znamená být vinen. jemandem die Schuld geben znamená vinit někoho. V množném čísle Schulden znamenají dluhy. Schuld a Schulden je tedy třeba konkrétně rozlišovat. V češtině mají „vina“ a „dluh“ velmi odlišné významy.",
       "examples": [
         {
           "de": "Das ist nicht meine Schuld.",
@@ -50485,7 +50485,7 @@ const A2_WORDS = [
         },
         {
           "word": "die Schulden",
-          "meaning": "Dluh",
+          "meaning": "Dluhy",
           "example": "Er hat Schulden. = Má dluhy."
         },
         {
@@ -50516,7 +50516,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Schuld a Schulden nejsou totéž.",
-        "example": "Ich habe Schuld = es esmu vainīgs. Ich habe Schulden = man ir parādi."
+        "example": "Ich habe Schuld = Jsem vinen. Ich habe Schulden = man ir parādi."
       },
       "sectionAccents": {
         "examples": [
@@ -50864,7 +50864,7 @@ const A2_WORDS = [
     "de": "Schürze",
     "de_article": "die",
     "de_plural": "die Schürzen",
-    "lv": "Zástěru",
+    "lv": "Zástěra",
     "level": "A2"
   },
   {
@@ -50888,7 +50888,7 @@ const A2_WORDS = [
   },
   {
     "de": "schwanger",
-    "lv": "Těhotná žena",
+    "lv": "Těhotný",
     "level": "A2"
   },
   {
@@ -50915,7 +50915,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-schwer",
       "layout": "standardStudy",
-      "translation": "Těžký • Těžký",
+      "translation": "Těžký • Obtížný",
       "explanation": [
         "Hlavní myšlenka: schwer fyzicky znamená těžký, přeneseně těžký.",
         "Pokud jde o váhu, schwer = těžký (Der Koffer ist schwer. = Kufr je těžký.).",
@@ -50933,7 +50933,7 @@ const A2_WORDS = [
         },
         {
           "de": "Das Buch ist schwer zu tragen.",
-          "lv": "Kniha se těžko (těžká) přenáší."
+          "lv": "Kniha se těžko přenáší."
         },
         {
           "de": "Das ist eine schwere Frage.",
@@ -51089,7 +51089,7 @@ const A2_WORDS = [
   },
   {
     "de": "schwitzen",
-    "lv": "Pocení",
+    "lv": "Potit se",
     "level": "A2"
   },
   {
@@ -51109,12 +51109,12 @@ const A2_WORDS = [
   {
     "de": "Seilspringen",
     "de_article": "das",
-    "lv": "Švihadlo",
+    "lv": "Skákání přes švihadlo",
     "level": "A2"
   },
   {
     "de": "seitdem",
-    "lv": "Z té doby",
+    "lv": "Od té doby",
     "level": "A2"
   },
   {
@@ -51131,14 +51131,14 @@ const A2_WORDS = [
   },
   {
     "de": "selten",
-    "lv": "Vzácný",
+    "lv": "Zřídka",
     "level": "A2"
   },
   {
     "de": "Semmel",
     "de_article": "die",
     "de_plural": "die Semmeln",
-    "lv": "Kulatý drdol",
+    "lv": "Houska",
     "level": "A2"
   },
   {
@@ -51162,7 +51162,7 @@ const A2_WORDS = [
   },
   {
     "de": "servieren",
-    "lv": "Sloužit • Sloužit",
+    "lv": "Servírovat",
     "level": "A2"
   },
   {
@@ -51199,7 +51199,7 @@ const A2_WORDS = [
   },
   {
     "de": "sich ausziehen",
-    "lv": "Svléknout",
+    "lv": "Svléknout se",
     "level": "A2"
   },
   {
@@ -51209,7 +51209,7 @@ const A2_WORDS = [
   },
   {
     "de": "sich beeilen",
-    "lv": "Pospěš si",
+    "lv": "Pospíšit si",
     "level": "A2"
   },
   {
@@ -51219,8 +51219,8 @@ const A2_WORDS = [
     "study": {
       "id": "a2-sich-befinden",
       "layout": "standardStudy",
-      "translation": "Být lokalizován",
-      "explanation": "Hlavní myšlenka: sich befinden nejčastěji znamená být na určitém místě. Je formálnější než obyčejný sein. Často se používá v popisech, směrech a úředním jazyce. Pocit není hlavním A2 významem této karty. Cit v němčině je obvykle sich fühlen.",
+      "translation": "Nacházet se",
+      "explanation": "Hlavní myšlenka: sich befinden nejčastěji znamená být na určitém místě. Je formálnější než obyčejný sein. Často se používá v popisech, směrech a úředním jazyce. Pocit není hlavním A2 významem této karty. Cítit se německy obvykle znamená sich fühlen.",
       "examples": [
         {
           "de": "Das Hotel befindet sich im Zentrum.",
@@ -51260,7 +51260,7 @@ const A2_WORDS = [
         },
         {
           "word": "liegen",
-          "meaning": "Být / spát",
+          "meaning": "Ležet / nacházet se",
           "example": "Das Buch liegt auf dem Tisch. = Kniha je na stole."
         },
         {
@@ -51270,7 +51270,7 @@ const A2_WORDS = [
         },
         {
           "word": "sich fühlen",
-          "meaning": "Cítit",
+          "meaning": "Cítit se",
           "example": "Ich fühle mich gut. = Cítím se dobře."
         }
       ],
@@ -51558,7 +51558,7 @@ const A2_WORDS = [
   },
   {
     "de": "sich erholen",
-    "lv": "Odpočívat • Zotavit se",
+    "lv": "Odpočinout si",
     "level": "A2"
   },
   {
@@ -51573,12 +51573,12 @@ const A2_WORDS = [
   },
   {
     "de": "sich frisieren",
-    "lv": "Dělat vlasy",
+    "lv": "Česat se",
     "level": "A2"
   },
   {
     "de": "sich fühlen",
-    "lv": "Cítit",
+    "lv": "Cítit se",
     "level": "A2"
   },
   {
@@ -51598,7 +51598,7 @@ const A2_WORDS = [
   },
   {
     "de": "sich setzen",
-    "lv": "Posaďte se",
+    "lv": "Posadit se",
     "level": "A2"
   },
   {
@@ -51624,7 +51624,7 @@ const A2_WORDS = [
       "id": "a2-sich-unterhalten",
       "layout": "standardStudy",
       "translation": "Mluvit",
-      "explanation": "Sich unterhalten znamená nejčastěji mluvit. Je to zvratné sloveso a obvykle používá uns, euch nebo sich. Může to také znamenat bavit se nebo se dobře bavit. V některých kontextech unterhalten znamená finančně udržovat, ale to není hlavní použití A2. Zda jde o konverzaci nebo zábavu, se teprve uvidí.",
+      "explanation": "Sich unterhalten znamená nejčastěji mluvit. Je to zvratné sloveso a používá zvratná zájmena mich, dich, uns, euch nebo sich. Může to také znamenat bavit se nebo se dobře bavit. V některých kontextech unterhalten znamená finančně udržovat, ale to není hlavní použití A2. Zda jde o konverzaci nebo zábavu, se teprve uvidí.",
       "examples": [
         {
           "de": "Wir unterhalten uns über die Arbeit.",
@@ -51644,7 +51644,7 @@ const A2_WORDS = [
         },
         {
           "de": "Worüber unterhaltet ihr euch?",
-          "lv": "O čem to mluvíš"
+          "lv": "O čem se bavíte?"
         },
         {
           "de": "Der Film hat uns gut unterhalten.",
@@ -51669,7 +51669,7 @@ const A2_WORDS = [
         },
         {
           "word": "sich amüsieren",
-          "meaning": "Bavte se",
+          "meaning": "Bavit se",
           "example": "Wir amüsieren uns. = Bavíme se."
         }
       ],
@@ -51985,14 +51985,14 @@ const A2_WORDS = [
   },
   {
     "de": "sich vorbereiten",
-    "lv": "Připravit",
+    "lv": "Připravit se",
     "level": "A2"
   },
   {
     "de": "Sicherheit",
     "de_article": "die",
     "de_plural": "die Sicherheiten",
-    "lv": "Zabezpečení",
+    "lv": "Bezpečnost",
     "level": "A2"
   },
   {
@@ -52040,7 +52040,7 @@ const A2_WORDS = [
     "de": "Situation",
     "de_article": "die",
     "de_plural": "die Situationen",
-    "lv": "Situaci",
+    "lv": "Situace",
     "level": "A2"
   },
   {
@@ -52064,7 +52064,7 @@ const A2_WORDS = [
         },
         {
           "de": "Wo möchten Sie sitzen?",
-          "lv": "Kam se chcete posadit?"
+          "lv": "Kde byste chtěl(a) sedět?"
         },
         {
           "de": "Die Kinder sitzen im Wohnzimmer.",
@@ -52087,12 +52087,12 @@ const A2_WORDS = [
         },
         {
           "word": "setzen",
-          "meaning": "Sedadlo (akce)",
+          "meaning": "Posadit (akce)",
           "example": "Ich setze das Kind hin. – Posadím dítě."
         },
         {
           "word": "liegen",
-          "meaning": "Lehnout (poloha)",
+          "meaning": "Ležet (poloha)",
           "example": "Das Buch liegt hier. – Kniha je zde."
         },
         {
@@ -52117,7 +52117,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Sitzen = poloha.",
-        "Pozice: sed.",
+        "Poloha: sedět.",
         "Situace: někdo už sedí."
       ],
       "sectionAccents": {
