@@ -10,9 +10,9 @@
 |---|---|
 | MAIN_BEFORE | `72f376484bd1804f57803f53c4a3cdb182358709` |
 | integration branch | `cursor/cs-a1-final-main-integration-6850` |
-| integration HEAD | _(set at commit)_ |
-| MAIN_AFTER | _(set after push)_ |
-| origin/main | _(set after push)_ |
+| integration HEAD | `c0974de956873ad1b7bbe12d2719ad026704583c` |
+| MAIN_AFTER | `c0974de956873ad1b7bbe12d2719ad026704583c` |
+| origin/main | `c0974de956873ad1b7bbe12d2719ad026704583c` |
 
 ## REPAIR SOURCES
 
