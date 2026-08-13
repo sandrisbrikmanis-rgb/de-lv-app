@@ -7779,7 +7779,7 @@ const A1_WORDS = [
         },
         {
           "de": "Das Haus ist groß.",
-          "lv": "Dům je velký."
+          "lv": "Berlín je velké město."
         },
         {
           "de": "Er ist groß.",
@@ -7977,7 +7977,7 @@ const A1_WORDS = [
       "important": [
         "Gut = dobrý/dobře (přídavné jméno nebo příslovce).",
         "Das Gut = majetek/panství (podstatné jméno) – nezaměňovat s gut.",
-        "Guten Tag/Morgen/Abend - střevní změny končící po skloňování."
+        "Guten Tag/Morgen/Abend – přídavné jméno gut má po skloňování koncovku -en."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8152,7 +8152,7 @@ const A1_WORDS = [
         },
         {
           "word": "bekommen",
-          "meaning": "Přijímat",
+          "meaning": "Dostat",
           "example": "Ich bekomme ein Geschenk. = Dostanu dárek."
         },
         {
@@ -8167,7 +8167,7 @@ const A1_WORDS = [
       "important": [
         "České „mám“ = německé Ich habe + akuzativ. Nepoužívejte dativ: špatně *mir habe.",
         "Se slovesem sein a dativem: Mir ist kalt. = Je mi zima. (Není to haben!)",
-        "Dokonalé: Ich habe gelernt = naučil jsem se."
+        "Perfektum: Ich habe gelernt = naučil jsem se."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8665,7 +8665,7 @@ const A1_WORDS = [
   },
   {
     "de": "heißen",
-    "lv": "Být nazýván • Podlý",
+    "lv": "Jmenovat se • Znamenat",
     "level": "A1",
     "study": {
       "id": "a1-heißen",
@@ -8713,7 +8713,7 @@ const A1_WORDS = [
         },
         {
           "word": "rufen",
-          "meaning": "Volat / volat",
+          "meaning": "Volat / zavolat",
           "example": "Ich rufe dich. = Volám tě / volám tě."
         }
       ],
@@ -8721,7 +8721,7 @@ const A1_WORDS = [
         "text": "Pamatujte: Ich heiße... → jmenuji se..."
       },
       "important": [
-        "Wie heißt du? znamená \"Jak se jmenuješ?\", ne doslova \"jak se jmenuješ?\".",
+        "Wie heißt du? znamená „Jak se jmenuješ?“.",
         "Was heißt das? často znamená „Co to znamená?“."
       ],
       "sectionAccents": {
@@ -8951,7 +8951,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Vysoký",
       "explanation": [
-        "Hlavní myšlenka: Vysoká svisle, úroveň nebo výška.",
+        "Hlavní myšlenka: hoch znamená vysoký nebo vysoko.",
         "Hoch především znamená: velký na výšku.",
         "Často se vyznačuje: vertikální výškou.",
         "Hoch v podstatě znamená: vysoká úroveň.",
@@ -8965,7 +8965,7 @@ const A1_WORDS = [
         },
         {
           "de": "Der Berg ist hoch.",
-          "lv": "Police je vysoká dva metry."
+          "lv": "Hora je vysoká."
         },
         {
           "de": "Die Miete ist hoch.",
@@ -9215,7 +9215,7 @@ const A1_WORDS = [
   },
   {
     "de": "ihr",
-    "lv": "Vy • Ji",
+    "lv": "Vy • Jí • Její",
     "level": "A1",
     "study": {
       "id": "a1-ihr",
@@ -9257,10 +9257,10 @@ const A1_WORDS = [
       ],
       "tip": [
         "Ihr se slovesem ve 2. osobě množného čísla (kommt, habt) = vy • ihr jako dativ zájmena sie = jí • ihr jako přivlastňovací zájmeno = její.",
-        "Kontrola: Habt ihr...? / Kommt ihr...? = ty • Ich gebe ihr... / ihr Buch = pro ni/její."
+        "Kontrola: Habt ihr...? / Kommt ihr...? = vy • Ich gebe ihr... / ihr Buch = jí/její."
       ],
       "important": [
-        "Ihr = vy (adresa několika) NEBO její (dativ) NEBO její (přivlastňovací) – v závislosti na kontextu.",
+        "Ihr = vy (oslovení více lidí) NEBO jí (dativ) NEBO její (přivlastňovací) – v závislosti na kontextu.",
         "Zdvořilá adresa je vždy Sie s velkým písmenem, nikoli ihr.",
         "Nesprávně: Ihr (zdvořilý) → Správně: Sie."
       ],
@@ -9898,12 +9898,12 @@ const A1_WORDS = [
   },
   {
     "de": "ins",
-    "lv": "V • Do • Kam?",
+    "lv": "Do • Kam?",
     "level": "A1",
     "study": {
       "id": "a1-ins",
       "layout": "standardStudy",
-      "translation": "V • Do • Kam?",
+      "translation": "Do • Kam?",
       "explanation": [
         "Ins je zkratka předložky in a členu das.",
         "Plná forma: in das (kam?).",
@@ -9958,7 +9958,7 @@ const A1_WORDS = [
         },
         {
           "word": "in",
-          "meaning": "V / do (s nezávislým článkem)",
+          "meaning": "V / do (se samostatným členem)",
           "example": "in die Stadt – Do města"
         },
         {
@@ -10285,7 +10285,7 @@ const A1_WORDS = [
   },
   {
     "de": "jung",
-    "lv": "Mladý (o lidech)",
+    "lv": "Mladý (o věku)",
     "level": "A1",
     "study": {
       "id": "a1-jung",
@@ -10499,7 +10499,7 @@ const A1_WORDS = [
   },
   {
     "de": "kein",
-    "lv": "Nikdo • Nic",
+    "lv": "Žádný • Žádná • Žádné",
     "level": "A1",
     "study": {
       "id": "a1-kein",
@@ -10696,7 +10696,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wo habt ihr euch kennengelernt?",
-          "lv": "Kde jste se potkali?"
+          "lv": "Kde jste se poznali?"
         },
         {
           "de": "Ich kenne ihn.",
@@ -10834,7 +10834,7 @@ const A1_WORDS = [
         },
         {
           "de": "Woher wissen Sie das?",
-          "lv": "Jak to víš?"
+          "lv": "Jak to víte?"
         },
         {
           "de": "Ich weiß die Antwort.",
@@ -11054,7 +11054,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Můžete"
+                "Můžeš"
               ]
             }
           },
@@ -11199,7 +11199,7 @@ const A1_WORDS = [
   },
   {
     "de": "kosten",
-    "lv": "Platit",
+    "lv": "Stát",
     "level": "A1",
     "study": {
       "id": "a1-kosten",
@@ -11209,7 +11209,7 @@ const A1_WORDS = [
         "Hlavní myšlenka: kosten znamená stát určitou částku — mluví o ceně věci.",
         "Toto slovo se používá, když se ptáte nebo říkáte, kolik něco stojí, ne když člověk platí.",
         "Otázka na cenu v němčině často začíná na Was kostet...?",
-        "České slovo platit je v tomto kontextu správné: Das kostet 5 Euro. = Stojí 5 eur.",
+        "České slovo stát je v tomto kontextu správné: Das kostet 5 Euro. = Stojí 5 eur.",
         "Když člověk dá peníze za zboží nebo službu, němčina používá bezahlen nebo zahlen."
       ],
       "examples": [
@@ -11401,7 +11401,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Zaplatit",
+                "Stát",
                 "cena",
                 "Zaplatit"
               ]
@@ -11712,7 +11712,7 @@ const A1_WORDS = [
     "de": "Laden",
     "de_article": "der",
     "de_plural": "die Läden",
-    "lv": "Nakupovat",
+    "lv": "Obchod",
     "level": "A1",
     "study": {
       "id": "a1-laden-study",
@@ -11739,7 +11739,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich muss mein Handy laden.",
-          "lv": "Potřebuji nabít telefon."
+          "lv": "Musím nabít telefon."
         }
       ],
       "tip": [
@@ -11856,14 +11856,14 @@ const A1_WORDS = [
     "de": "Land",
     "de_article": "das",
     "de_plural": "die Länder",
-    "lv": "Země • Země",
+    "lv": "Země • Venkov",
     "level": "A1",
     "study": {
       "id": "a1-land",
       "layout": "standardStudy",
       "translation": "Země • Venkov",
       "explanation": [
-        "Hlavní myšlenka: das Land nejčastěji znamená zemi nebo pozemek za městem.",
+        "Hlavní myšlenka: das Land nejčastěji znamená zemi nebo venkov.",
         "Pokud jde o Německo, Lotyšsko nebo jiné území s hranicemi, překládá se to jako země.",
         "Když mluvíte o venkově nebo zemi na rozdíl od města, překládejte jako venkov nebo země.",
         "Kontext určuje, zda máme na mysli zemi, venkov nebo zemi."
@@ -12102,7 +12102,7 @@ const A1_WORDS = [
   },
   {
     "de": "lang",
-    "lv": "Dlouhý • Dlouhý",
+    "lv": "Dlouhý • Dlouho",
     "level": "A1",
     "study": {
       "id": "a1-lang",
@@ -12143,7 +12143,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Pro velikost nebo vzdálenost (vlasy, silnice, stůl) → dlouhé.",
-        "O čase (den, čekání, film) → dlouhý."
+        "O čase (den, film) → dlouhý; o trvání (čekání) → dlouho."
       ],
       "important": [
         "Lang = dlouhý (velikost) NEBO dlouhý (čas) – v závislosti na kontextu.",
@@ -12278,7 +12278,7 @@ const A1_WORDS = [
   },
   {
     "de": "lassen",
-    "lv": "Opustit • Nechat",
+    "lv": "Nechat • Dovolit",
     "level": "A1",
     "study": {
       "id": "a1-lassen",
@@ -13177,7 +13177,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Položil"
+                "Pokládám"
               ],
               "yellow": [
                 "Položil",
@@ -14083,12 +14083,12 @@ const A1_WORDS = [
     "de": "Mal",
     "de_article": "das",
     "de_plural": "die Male",
-    "lv": "Krát • Případ",
+    "lv": "Případ • Opakování",
     "level": "A1",
     "study": {
       "id": "a1-mal",
       "layout": "standardStudy",
-      "translation": "Krát • Případ",
+      "translation": "Případ • Opakování",
       "explanation": [
         "Hlavní myšlenka: das Mal označuje jeden případ nebo jedno opakování.",
         "Často se používá s čísly: ein Mal, zwei Mal, drei Mal.",
@@ -14114,7 +14114,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: das Mal = krát/případ (podstatné jméno) • mal bez členu = hovorová částice."
+        "text": "Pamatujte: das Mal = případ / opakování • mal bez členu = hovorová částice."
       },
       "important": [
         "Das Mal / die Male - podstatné jméno se členem.",
@@ -15036,14 +15036,10 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Zítra",
       "explanation": [
-        "Hlavní myšlenka: Příslovce času je malé. Znamená další den – zítra.",
-        "Morgen hlavně znamená: druhý den.",
-        "Často charakterizováno: počasím.",
-        "Morgen především znamená: část dne.",
-        "Často popisuje: podstatné jméno (der).",
-        "Morgen v podstatě znamená: několik ran.",
-        "Často charakterizováno: podstatné jméno (pl.).",
-        "Morgen s malým počátečním písmenem znamená „zítra“ (Ich komme morgen = Přijdu zítra, Bis morgen!)."
+        "Hlavní myšlenka: morgen s malým písmenem znamená zítra.",
+        "Morgen s velkým písmenem je podstatné jméno a znamená ráno.",
+        "Nezaměňujte morgen ve větě Ich komme morgen s Morgen ve spojení Guten Morgen!.",
+        "Ich komme morgen = Přijdu zítra. Guten Morgen! = Dobré ráno!"
       ],
       "examples": [
         {
@@ -15197,14 +15193,10 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Ráno",
       "explanation": [
-        "Hlavní myšlenka: Podstatné jméno se členem se hodí a je velké. Denní část – dopoledne.",
-        "Der Morgen hlavně znamená ráno, tedy část dne.",
-        "Často charakterizováno: počasím.",
-        "Der Morgen primárně znamená: část dne.",
-        "Často popisuje: podstatné jméno (der).",
-        "Der Morgen v podstatě znamená: několik ran.",
-        "Často charakterizováno: podstatné jméno (pl.).",
-        "Morgen s malým počátečním písmenem znamená zítra - pozítří (Ich komme morgen = přijdu zítra, Bis morgen!"
+        "Hlavní myšlenka: Der Morgen je podstatné jméno, které znamená ráno.",
+        "Používá se s velkým písmenem: der Morgen, am Morgen.",
+        "Nezaměňujte ho s morgen s malým písmenem, které znamená zítra.",
+        "Guten Morgen! = Dobré ráno! Ich komme morgen = Přijdu zítra."
       ],
       "examples": [
         {
@@ -15361,7 +15353,7 @@ const A1_WORDS = [
   },
   {
     "de": "müssen",
-    "lv": "Musit",
+    "lv": "Muset",
     "level": "A1",
     "study": {
       "id": "a1-müssen",
@@ -15459,7 +15451,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Musíte"
+                "Musíš"
               ]
             }
           },
@@ -15653,7 +15645,7 @@ const A1_WORDS = [
         },
         {
           "word": "in",
-          "meaning": "V / na místo s článkem",
+          "meaning": "Do / v nebo na místo s členem",
           "example": "Ich gehe in die Schule."
         },
         {
@@ -16054,10 +16046,10 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Brát • Vzít",
       "explanation": [
-        "Hlavní myšlenka: nehmen znamená vzít nebo vzít.",
+        "Hlavní myšlenka: nehmen znamená brát nebo vzít.",
         "Nehmen se používá, když si vezmete něco pro sebe nebo si vyberete.",
         "Nehmen není totéž co bringen: bringen znamená něco někomu přinést nebo odnést.",
-        "Holen znamená jít za a aportovat/vzít."
+        "Holen znamená jít pro něco nebo někoho vyzvednout a přinést."
       ],
       "examples": [
         {
@@ -16100,7 +16092,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: vezměte si pro sebe → nehmen • Někoho přivést → přivést."
+        "text": "Pamatujte: vzít si něco pro sebe → nehmen • přinést něco někomu → bringen."
       },
       "important": [
         "Ich nehme den Bus znamená v češtině „jedu autobusem“.",
@@ -16168,10 +16160,10 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "Přinesl"
+                "Přináším"
               ],
               "yellow": [
-                "Přinesl"
+                "knihu"
               ]
             }
           },
@@ -16186,10 +16178,10 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "Vezmu"
+                "Vyzvednu"
               ],
               "green": [
-                "Vezmu"
+                "tě"
               ]
             }
           }
@@ -16362,7 +16354,7 @@ const A1_WORDS = [
         },
         {
           "de": "Was gibt es Neues?",
-          "lv": "Co je nového"
+          "lv": "Co je nového?"
         }
       ],
       "tip": [
@@ -16370,7 +16362,7 @@ const A1_WORDS = [
         "Opak: neu ↔ alt (nový ↔ starý)."
       ],
       "important": [
-        "Neu popisuje věci a zprávy, ani věk člověka nebo zvířete.",
+        "Neu popisuje věci a zprávy, ne věk člověka nebo zvířete.",
         "Pro věk člověka nebo zvířete použijte jung místo neu.",
         "Špatně: Meine Schwester ist neu. → Správně: Meine Schwester ist jung."
       ],
@@ -16395,7 +16387,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Můj"
+                "nový"
               ]
             }
           },
@@ -16407,7 +16399,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Máme"
+                "nové"
               ]
             }
           },
@@ -16979,8 +16971,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Nebo",
-                "Nebo"
+                "Zda",
+                "jestli"
               ]
             },
             "example": {
@@ -17166,7 +17158,7 @@ const A1_WORDS = [
               ],
               "yellow": [
                 "Káva",
-                "Káva"
+                "čaj"
               ]
             }
           },
@@ -17242,8 +17234,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Nebo",
-                "Nebo"
+                "Zda",
+                "jestli"
               ]
             },
             "example": {
@@ -17538,7 +17530,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Fit",
+                "Pasovat",
                 "Fit"
               ]
             },
@@ -17556,7 +17548,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Stát",
+                "Slušet",
                 "Stát"
               ]
             },
@@ -17591,7 +17583,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Provozovat"
+                "Fungovat"
               ]
             },
             "example": {
@@ -17729,7 +17721,7 @@ const A1_WORDS = [
         },
         {
           "de": "Kann ich die Jacke anprobieren?",
-          "lv": "Můžu zkusit bundu"
+          "lv": "Můžu si tu bundu vyzkoušet?"
         }
       ],
       "comparison": [
@@ -17750,7 +17742,7 @@ const A1_WORDS = [
         },
         {
           "word": "anprobieren",
-          "meaning": "Vyzkoušet",
+          "meaning": "Vyzkoušet si (oblečení)",
           "example": "Ich probiere die Jacke an."
         }
       ],
@@ -18199,7 +18191,7 @@ const A1_WORDS = [
         },
         {
           "word": "sprechen",
-          "meaning": "Mluvit (jazyk, mluvit)",
+          "meaning": "Mluvit (jazykem, hovořit)",
           "example": "Ich spreche Deutsch. – Mluvím německy."
         }
       ],
@@ -18274,7 +18266,7 @@ const A1_WORDS = [
   },
   {
     "de": "schauen",
-    "lv": "Hodinky",
+    "lv": "Dívat se",
     "level": "A1",
     "study": {
       "id": "a1-schauen-study",
@@ -18620,7 +18612,7 @@ const A1_WORDS = [
       },
       "important": [
         "Schwimmen a baden nejsou totéž.",
-        "česky se často říká „plavat“, ale v němčině musíte zkontrolovat, zda jde o pohyb nebo koupání."
+        "Česky se často říká „plavat“, ale v němčině musíte zkontrolovat, zda jde o pohyb nebo koupání."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19533,7 +19525,7 @@ const A1_WORDS = [
         },
         {
           "de": "Sie freut sich.",
-          "lv": "Je šťastná."
+          "lv": "Má radost."
         },
         {
           "de": "Ich wasche das Auto.",
@@ -19591,7 +19583,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Koupe"
+                "Myje"
               ]
             }
           },
@@ -19755,7 +19747,7 @@ const A1_WORDS = [
         },
         {
           "de": "Kommst du morgen? – Sicher!",
-          "lv": "Přijdeš zítra - určitě!"
+          "lv": "Přijdeš zítra – určitě!"
         },
         {
           "de": "Er ist sicher zu Hause.",
@@ -20062,7 +20054,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Vy",
       "explanation": [
-        "Hlavní myšlenka: Zdvořilostní adresa - vždy s velkým S. Latviski: vy. Často se slovesem v množném čísle.",
+        "Hlavní myšlenka: Zdvořilostní oslovení – vždy s velkým S. Česky: vy. Často se slovesem v množném čísle.",
         "Velké Sie je zdvořilé „Vy“; malé sie může znamenat „ona“, „oni“ nebo „ji“.",
         "Často charakterizováno: sloveso jednotného čísla (-t).",
         "Sie znamená hlavně: několik lidí.",
@@ -20278,7 +20270,7 @@ const A1_WORDS = [
         },
         {
           "word": "liegen",
-          "meaning": "Spát / ležet",
+          "meaning": "Ležet",
           "example": "Die Katze liegt dort."
         },
         {
@@ -20505,12 +20497,12 @@ const A1_WORDS = [
   },
   {
     "de": "sollen",
-    "lv": "By měl",
+    "lv": "Měl by",
     "level": "A1",
     "study": {
       "id": "a1-sollen",
       "layout": "standardStudy",
-      "translation": "By měl",
+      "translation": "Měl by",
       "explanation": [
         "Hlavní myšlenka: sollen znamená, že někdo by měl nebo musí dělat něco podle pokynů.",
         "Sollen se často používá, když vám někdo říká, co máte dělat.",
@@ -20543,7 +20535,7 @@ const A1_WORDS = [
         },
         {
           "word": "müssen",
-          "meaning": "Musit / být nutné",
+          "meaning": "Muset / být nutné",
           "example": "Ich muss gehen."
         },
         {
@@ -20826,7 +20818,7 @@ const A1_WORDS = [
         },
         {
           "de": "Der Stuhl steht in der Küche.",
-          "lv": "Židle je v kuchyni."
+          "lv": "Židle stojí v kuchyni."
         },
         {
           "de": "Er sitzt am Tisch.",
@@ -20834,7 +20826,7 @@ const A1_WORDS = [
         },
         {
           "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "Kniha je na stole."
+          "lv": "Kniha leží na stole."
         }
       ],
       "comparison": [
@@ -20850,7 +20842,7 @@ const A1_WORDS = [
         },
         {
           "word": "liegen",
-          "meaning": "Spát / ležet",
+          "meaning": "Ležet",
           "example": "Das Buch liegt dort."
         },
         {
@@ -21253,7 +21245,7 @@ const A1_WORDS = [
   },
   {
     "de": "über",
-    "lv": "Přes • Pro",
+    "lv": "Nad • O • Přes",
     "level": "A1",
     "study": {
       "id": "a1-über",
@@ -21301,7 +21293,7 @@ const A1_WORDS = [
         },
         {
           "word": "von",
-          "meaning": "Z / asi z nějakého zdroje",
+          "meaning": "Z / od",
           "example": "Ich höre von dir."
         }
       ],
@@ -21518,12 +21510,12 @@ const A1_WORDS = [
   },
   {
     "de": "um",
-    "lv": "Kolem • Hodiny",
+    "lv": "Kolem • V (čas) • Aby",
     "level": "A1",
     "study": {
       "id": "a1-um",
       "layout": "standardStudy",
-      "translation": "Kolem • Hodiny",
+      "translation": "Kolem • V (čas) • Aby",
       "explanation": [
         "Hlavní myšlenka: um velmi často znamená hodiny s časem nebo kolem/kolem s místem.",
         "S přesným časem um znamená „v“, například „v osm hodin“.",
@@ -21551,17 +21543,17 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "um",
-          "meaning": "V / kolem / do",
+          "meaning": "V / kolem / aby",
           "example": "Ich komme um acht."
         },
         {
           "word": "am",
-          "meaning": "Za den / v",
+          "meaning": "V (den) / u",
           "example": "Am Montag komme ich."
         },
         {
           "word": "gegen",
-          "meaning": "Kolem času / vs",
+          "meaning": "Kolem času / proti",
           "example": "Ich komme gegen acht."
         },
         {
@@ -21571,7 +21563,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: um acht = osm hodin."
+        "text": "Pamatujte: um acht = v osm."
       },
       "important": [
         "Um s časem obvykle znamená „v“, například „v osm hodin“.",
@@ -21801,7 +21793,7 @@ const A1_WORDS = [
         },
         {
           "de": "Die Katze liegt unter dem Stuhl.",
-          "lv": "Kočka spí pod židlí."
+          "lv": "Kočka leží pod židlí."
         },
         {
           "de": "Unter Freunden sagt man das so.",
@@ -23027,14 +23019,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Was samo o sobě se nemění - v němčině je to vždy bylo • V češtině vyberte koho nebo co podle části věty.",
-        "Rychlý trik: pokud lze na otázku odpovědět „Je to...“, použijte kdo • Pokud je odpověď za slovesem jako doplněk, použijte ko."
+        "Was samo o sobě se nemění – v němčině má vždy stejný tvar • V češtině vyberte „kdo“ nebo „co“ podle části věty.",
+        "Rychlý trik: pokud lze na otázku odpovědět „Je to…“, použijte co • Pokud je was po slovese jako předmět, použijte co."
       ],
       "important": [
-        "Byl dotazován na věci, události a fakta – nikdy na osoby.",
+        "Ptá se na věci, události a fakta – nikdy na osoby.",
         "Lidé jsou dotázáni s wer (kdo/kdo), ne byl.",
         "Was für (ein/eine) znamená „jaký/jaká“ a ptá se na vlastnost nebo typ (Was für ein Film ist das? = O jaký druh filmu jde?).",
-        "Špatně: Wer ist passiert? → Správně: Bylo to passiert?"
+        "Špatně: Wer ist passiert? → Správně: Was ist passiert?"
       ],
       "sectionAccents": {
         "explanation": {
@@ -23466,8 +23458,8 @@ const A1_WORDS = [
       "translation": "Kdo",
       "explanation": [
         "Hlavní myšlenka: wer je tázací slovo pro osoby a v češtině znamená „kdo“.",
-        "Ptali se na lidi, ne na věci nebo události.",
-        "Věci a události jsou žádány s was, ne wer.",
+        "Ptá se na lidi, ne na věci nebo události.",
+        "Na věci a události se ptáme pomocí was, ne wer.",
         "Wer je v němčině obvykle podmětem věty v nominativu. Wer ist das? = Kdo je to?",
         "Když se ptáte, kdo z několika lidí, wer se často používá s von (wer von euch = kdo z vás).",
         "Wer mění tvar podle skloňování: wen (akuzativ), wem (dativ), wessen (genitiv) - právě tvar wer je na úrovni A1 nejčastější."
@@ -23507,10 +23499,10 @@ const A1_WORDS = [
         "Chcete-li se zeptat na volbu mezi několika lidmi, použijte wer von... (který z...)."
       ],
       "important": [
-        "Ptali jsme se pouze na osoby, nikdy ne na věci.",
+        "Ptáme se pouze na osoby, nikdy ne na věci.",
         "Věci a události jsou žádány s was, ne wer.",
         "Wer mění tvar podle pádu: wen, wem, wessen. Základní tvar je wer.",
-        "Špatně: Wer ist passiert? → Správně: Bylo to passiert?"
+        "Špatně: Wer ist passiert? → Správně: Was ist passiert?"
       ],
       "sectionAccents": {
         "explanation": {
@@ -23898,8 +23890,8 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: das Wetter znamená počasí – slunečno, deštivo, chladno nebo teplo.",
         "České slovo „čas“ může znamenat jak počasí, tak čas na hodinách – v němčině je to jinak.",
-        "Povídejte si o počasí v přírodě s dasem Wetterem: Wie ist das Wetter heute?",
-        "Das Wetter se často používá ve větě spolu se slovy jako teplý nebo kalt.",
+        "O počasí se mluví s výrazem das Wetter: Wie ist das Wetter heute?",
+        "Das Wetter se často používá ve větě spolu se slovy jako warm nebo kalt.",
         "Nezaměňovat s die Zeit – je to čas jako okamžik nebo příležitost (Ich habe keine Zeit)."
       ],
       "examples": [
@@ -24392,7 +24384,7 @@ const A1_WORDS = [
         "Hlavní myšlenka: zu často znamená k nebo do. Používá se také s infinitivem.",
         "U osob zu často znamená „k“ nebo „ke“. U některých institucí také „do“ nebo „na“.",
         "Před přídavnými jmény může zu znamenat „příliš“: zu teuer = příliš drahé.",
-        "V konstrukci zu + neurčito pomáhá tvořit neurčito: zu lernen, zu gehen."
+        "V konstrukci zu + infinitiv se zu používá před infinitivem: zu lernen, zu gehen."
       ],
       "examples": [
         {
@@ -24864,7 +24856,7 @@ const A1_WORDS = [
   },
   {
     "de": "zum",
-    "lv": "Do • At",
+    "lv": "K • Ke",
     "level": "A1",
     "study": {
       "id": "a1-zum",
@@ -24946,7 +24938,7 @@ const A1_WORDS = [
         "Zum = zu dem, používá se s podstatnými jmény mužského a středního rodu v dativu.",
         "Označuje směr nebo cíl: k lékaři, na stanici, ke kamarádovi.",
         "Pro ženský rod se používá zur: zur Bank, zur Post.",
-        "Nezaměňovat s bei (nachází se na) nebo nach (do měst bez článku)."
+        "Nezaměňovat s bei (nachází se u) nebo nach (do měst bez článku)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25306,7 +25298,7 @@ const A1_WORDS = [
         },
         {
           "word": "das Fernsehen",
-          "meaning": "Televize (média)",
+          "meaning": "Televize (médium)",
           "example": "Im Fernsehen läuft ein Film. = V televizi běží film."
         },
         {
@@ -25786,7 +25778,7 @@ const A1_WORDS = [
   {
     "de": "Essen",
     "de_article": "das",
-    "lv": "Jídlo • Jídlo",
+    "lv": "Jídlo • Pokrm",
     "level": "A1",
     "study": {
       "id": "a1-essen-study",
@@ -26225,8 +26217,8 @@ const A1_WORDS = [
       "translation": "Prázdniny (škola)",
       "explanation": [
         "Hlavní myšlenka: pouze množné číslo. Školní nebo studijní prázdniny - vždy v množném čísle.",
-        "Die Ferien v podstatě znamená: školní prázdniny.",
-        "Často charakterizováno: pouze množné číslo.",
+        "Die Ferien v podstatě znamenají: školní prázdniny.",
+        "Často charakterizovány: pouze množné číslo.",
         "Die Ferien je pouze množné číslo — vždy v množném čísle (in den Ferien)."
       ],
       "examples": [
