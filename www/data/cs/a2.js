@@ -1,12 +1,12 @@
 const A2_WORDS = [
   {
     "de": "ab und zu",
-    "lv": "Tu a tam • Někdy",
+    "lv": "Občas",
     "level": "A2",
     "study": {
       "id": "a2-ab-und-zu",
       "layout": "standardStudy",
-      "translation": "Tu a tam • Někdy",
+      "translation": "Občas",
       "explanation": "Používá se k vyjádření toho, že se něco děje nepravidelně – čas od času, tu a tam, občas.",
       "examples": [
         {
@@ -19,7 +19,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ab und zu brauche ich Ruhe.",
-          "lv": "Každou chvíli potřebuji klid."
+          "lv": "Občas potřebuji klid."
         }
       ],
       "comparison": [
@@ -161,18 +161,18 @@ const A2_WORDS = [
     "de": "Abenteuer",
     "de_article": "das",
     "de_plural": "die Abenteuer",
-    "lv": "Dobrodružství • Záležitost",
+    "lv": "Dobrodružství",
     "level": "A2"
   },
   {
     "de": "abfahren",
-    "lv": "Odejít",
+    "lv": "Odjet",
     "level": "A2",
     "study": {
       "id": "a2-abfahren",
       "layout": "standardStudy",
-      "translation": "Odejít",
-      "explanation": "Hlavní myšlenka: abfahren znamená odejít, odejít nebo ujet určitou vzdálenost v závislosti na kontextu. abfahren znamená odejít nebo vyrazit. Pro vlaky, autobusy a tramvaje abfahren znamená odejít. S trasou nebo úsekem silnice to může znamenat projet konkrétní trasu nebo úsek. Toto slovo se často objevuje u Uhr, Bahnhof, Zug nebo Bus. Není to totéž jako wegfahren, protože abfahren často zdůrazňuje konkrétní počáteční okamžik nebo odjezd přepravy.",
+      "translation": "Odjet",
+      "explanation": "Hlavní myšlenka: abfahren znamená odjet, odjíždět nebo projet určitou trasu podle kontextu. U vlaků, autobusů a tramvají znamená odjíždět. S trasou nebo úsekem silnice může znamenat projet konkrétní trasu či úsek. Často se používá s výrazy Uhr, Bahnhof, Zug nebo Bus. Na rozdíl od wegfahren zdůrazňuje odjezd z určitého místa nebo začátek jízdy.",
       "examples": [
         {
           "de": "Der Zug fährt um acht Uhr ab.",
@@ -192,7 +192,7 @@ const A2_WORDS = [
         },
         {
           "de": "Wir fahren die Strecke langsam ab.",
-          "lv": "Pomalu jdeme touto cestou."
+          "lv": "Pomalu projíždíme tuto trasu."
         },
         {
           "de": "Die Reisegruppe fährt gleich ab.",
@@ -212,7 +212,7 @@ const A2_WORDS = [
         },
         {
           "word": "losfahren",
-          "meaning": "Začít řídit",
+          "meaning": "Začít jet • Vyjet",
           "example": "Wir fahren jetzt los. = Teď začínáme jezdit."
         },
         {
@@ -222,14 +222,14 @@ const A2_WORDS = [
         },
         {
           "word": "fahren",
-          "meaning": "Řídit",
+          "meaning": "Jet • Jezdit",
           "example": "Ich fahre mit dem Zug. = Jedu vlakem."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pokud jde o jízdní řád vlaku nebo autobusu, abfahren se obvykle překládá jako dovolená."
+            "text": "Pokud jde o jízdní řád vlaku nebo autobusu, abfahren se obvykle překládá jako odjíždět."
           },
           {
             "text": "Když mluvíme o lidech na cestě, abfahren často znamená odejít nebo vyrazit."
@@ -238,308 +238,9 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Abfahren není 'odnést'.",
-        "example": "Der Zug fährt ab = vilciens atiet. Wir fahren ab = mēs aizbraucam. Eine Strecke abfahren = nobraukt maršrutu."
+        "example": "Der Zug fährt ab = vlak odjíždí. Wir fahren ab = odjíždíme. Eine Strecke abfahren = projet trasu."
       },
-      "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "fährt",
-                "acht"
-              ]
-            },
-            "lv": {
-              "green": [
-                "Vlak"
-              ],
-              "purple": [
-                "Vlak",
-                "Vlak",
-                "Vlak"
-              ]
-            }
-          },
-          {
-            "de": {
-              "purple": [
-                "fahren"
-              ],
-              "blue": [
-                "fahren",
-                "früh"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Zítra",
-                "Zítra"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "abgefahren"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Autobus",
-                "Autobus"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "fährt",
-                "Wann"
-              ]
-            },
-            "lv": {
-              "green": [
-                "Kdy"
-              ],
-              "purple": [
-                "Kdy",
-                "Kdy",
-                "Kdy"
-              ]
-            }
-          },
-          {
-            "de": {
-              "purple": [
-                "fahren"
-              ],
-              "blue": [
-                "langsam",
-                "Strecke",
-                "fahren"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Pomalu",
-                "Pomalu",
-                "Pomalu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Reisegruppe",
-                "gleich",
-                "fährt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Zájezdová",
-                "Zájezdová",
-                "Zájezdová",
-                "Zájezdová",
-                "Zájezdová"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "abfahren"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Odejít"
-              ]
-            },
-            "example": {
-              "green": [
-                "Der"
-              ],
-              "blue": [
-                "Der",
-                "Der",
-                "fährt"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "wegfahren"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Odjet",
-                "Odjet",
-                "Odjet"
-              ]
-            },
-            "example": {
-              "green": [
-                "Ich",
-                "fahre",
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "losfahren"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Začít",
-                "Začít",
-                "Začít"
-              ]
-            },
-            "example": {
-              "purple": [
-                "Wir",
-                "fahren"
-              ],
-              "yellow": [
-                "Wir",
-                "fahren",
-                "jetzt",
-                "Wir",
-                "Wir"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "abgehen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Odejít",
-                "Odejít",
-                "Odejít"
-              ]
-            },
-            "example": {
-              "green": [
-                "Der"
-              ],
-              "red": [
-                "Autobus",
-                "gleich",
-                "Der",
-                "Der",
-                "geht"
-              ]
-            }
-          },
-          {
-            "word": {
-              "purple": [
-                "fahren"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Řídit"
-              ]
-            },
-            "example": {
-              "purple": [
-                "Ich",
-                "Ich",
-                "fahre"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "leftBlocks": [
-            {
-              "text": {
-                "blue": [
-                  "abfahren"
-                ],
-                "green": [
-                  "atiet"
-                ],
-                "yellow": [
-                  "abfahren",
-                  "autobusa",
-                  "vilciena",
-                  "grafiku",
-                  "runa"
-                ]
-              }
-            },
-            {
-              "text": {
-                "blue": [
-                  "abfahren"
-                ],
-                "orange": [
-                  "aizbraukt"
-                ],
-                "red": [
-                  "doties ceļā"
-                ],
-                "yellow": [
-                  "cilvēkiem",
-                  "abfahren",
-                  "ceļojumā",
-                  "bieži",
-                  "runa"
-                ]
-              }
-            }
-          ]
-        },
-        "important": [
-          {
-            "text": {
-              "blue": [
-                "abfahren"
-              ],
-              "red": [
-                "abfahren",
-                "Abfahren"
-              ]
-            },
-            "example": {
-              "blue": [
-                "abfahren"
-              ],
-              "green": [
-                "atiet"
-              ],
-              "yellow": [
-                "nobraukt"
-              ],
-              "purple": [
-                "fahren"
-              ],
-              "red": [
-                "aizbraucam",
-                "vilciens",
-                "Strecke",
-                "fahren",
-                "atiet",
-                "fährt"
-              ]
-            }
-          }
-        ]
-      },
+      "sectionAccents": "cestě",
       "accents": {
         "blue": [
           "StandardStudy",
@@ -551,14 +252,14 @@ const A2_WORDS = [
           "Noteiktu",
           "Tramvaju",
           "Vilcienu",
-          "Nozīmēt",
+          "Znamenat",
           "Doties",
           "Atiet",
           "Bieži",
           "Posmu",
-          "Vārds",
-          "Ceļā",
-          "Ceļu"
+          "Slovo",
+          "Cestě",
+          "Trasu"
         ],
         "green": [
           "Wegfahren",
@@ -573,16 +274,16 @@ const A2_WORDS = [
           "Aizbraukt"
         ],
         "purple": [
-          "Aizbraukt • Atiet • Nobraukt • Doties ceļā",
-          "Aizbraukt / atiet / doties ceļā",
+          "Odjet • Odjíždět • Projet • Vyrazit",
+          "Odjet / odjíždět / vyrazit",
           "Aizbraukt prom",
           "Atiet / noiet",
-          "Sākt braukt",
-          "Braukt",
+          "Začít jet",
+          "Jet",
           "Fahren"
         ],
         "red": [
-          "Doties ceļā",
+          "Vyrazit",
           "Abgehen"
         ]
       }
@@ -592,7 +293,7 @@ const A2_WORDS = [
     "de": "Abfahrt",
     "de_article": "die",
     "de_plural": "die Abfahrten",
-    "lv": "Odchod • Odchod",
+    "lv": "Odjezd",
     "level": "A2"
   },
   {
@@ -604,13 +305,13 @@ const A2_WORDS = [
   },
   {
     "de": "abgeben",
-    "lv": "Odevzdat • Rozdat • Podřídit se",
+    "lv": "Odevzdat",
     "level": "A2",
     "study": {
       "id": "a2-abgeben",
       "layout": "standardStudy",
-      "translation": "Odevzdat • Rozdat • Podřídit se",
-      "explanation": "Hlavní myšlenka: abgeben znamená dát nebo dát něco druhému nebo určitému místu. Používá se s dokumenty, klíči, věcmi, aplikacemi a domácími úkoly. Ve škole nebo v práci abgeben často znamená podřídit se. Prodat a vyzařovat nejsou hlavní významy A2 této karty.",
+      "translation": "Odevzdat",
+      "explanation": "Hlavní myšlenka: abgeben znamená předat nebo odevzdat něco jiné osobě či na určitém místě. Používá se u dokumentů, klíčů, věcí, žádostí a domácích úkolů. Ve škole nebo v práci často znamená odevzdat či předložit. Prodat a vyzařovat nejsou hlavní významy této karty.",
       "examples": [
         {
           "de": "Ich muss den Antrag morgen abgeben.",
@@ -626,7 +327,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich gebe das Paket bei der Post ab.",
-          "lv": "Balíček posílám na poštu."
+          "lv": "Balíček odevzdávám na poště."
         },
         {
           "de": "Wir geben die alten Unterlagen im Büro ab.",
@@ -640,7 +341,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "abgeben",
-          "meaning": "Dát nebo dát jinému nebo na určité místo",
+          "meaning": "Předat nebo odevzdat jiné osobě či na určitém místě",
           "example": "Ich gebe den Antrag ab. = Podala jsem žádost."
         },
         {
@@ -681,289 +382,9 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Abgeben není totéž co verkaufen nebo ausstrahlen.",
-        "example": "Abgeben = nodot / atdot / iesniegt. verkaufen = pārdot. ausstrahlen = izstarot."
+        "example": "Abgeben = odevzdat / předat / vrátit. verkaufen = prodat. ausstrahlen = vyzařovat."
       },
-      "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "abgeben",
-                "Antrag"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Zítra",
-                "Zítra"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "geben",
-                "Schlüssel",
-                "Rezeption"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Prosím",
-                "Prosím",
-                "Prosím"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Hausaufgaben",
-                "abgegeben"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Neodevzdal",
-                "Neodevzdal"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "gebe",
-                "Paket",
-                "Post"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Balíček",
-                "Balíček",
-                "Balíček"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "geben",
-                "Unterlagen",
-                "Büro"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Staré",
-                "Staré",
-                "Staré"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "gebe",
-                "geliehene Gerät"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Půjčený",
-                "Půjčený"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "blue": [
-                "abgeben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Dát"
-              ]
-            },
-            "example": {
-              "blue": [
-                "gebe",
-                "Antrag"
-              ],
-              "purple": [
-                "Ich",
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "geben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Dát"
-              ]
-            },
-            "example": {
-              "green": [
-                "gebe"
-              ],
-              "purple": [
-                "Ich",
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "yellow": [
-                "zurückgeben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Vrátit"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "gebe",
-                "zurück"
-              ],
-              "purple": [
-                "Ich",
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "red": [
-                "einreichen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Oficiálně"
-              ]
-            },
-            "example": {
-              "red": [
-                "reiche",
-                "ein"
-              ],
-              "purple": [
-                "Ich",
-                "dokumenty"
-              ]
-            }
-          },
-          {
-            "word": {
-              "orange": [
-                "verkaufen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Prodat"
-              ]
-            },
-            "example": {
-              "orange": [
-                "verkaufe"
-              ],
-              "purple": [
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "ausstrahlen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Vyzařující"
-              ]
-            },
-            "example": {
-              "green": [
-                "strahlt",
-                "aus"
-              ],
-              "purple": [
-                "Die"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "leftBlocks": [
-            {
-              "text": {
-                "blue": [
-                  "abgeben"
-                ],
-                "purple": [
-                  "nodots vai atdots"
-                ]
-              }
-            },
-            {
-              "text": {
-                "blue": [
-                  "abgeben"
-                ],
-                "purple": [
-                  "iesniegt"
-                ]
-              }
-            }
-          ]
-        },
-        "important": [
-          {
-            "text": {
-              "blue": [
-                "abgeben"
-              ],
-              "orange": [
-                "verkaufen"
-              ],
-              "green": [
-                "ausstrahlen"
-              ]
-            },
-            "example": {
-              "blue": [
-                "abgeben"
-              ],
-              "purple": [
-                "nodot",
-                "atdot",
-                "iesniegt",
-                "pārdot",
-                "izstarot"
-              ],
-              "orange": [
-                "verkaufen"
-              ],
-              "green": [
-                "ausstrahlen"
-              ]
-            }
-          }
-        ]
-      },
+      "sectionAccents": "prodat",
       "accents": {
         "blue": [
           "Abgeben",
@@ -979,10 +400,10 @@ const A2_WORDS = [
         ],
         "purple": [
           "Nodot • Atdot • Iesniegt",
-          "Nodot vai atdot citam vai noteiktā vietā",
-          "Oficiāli iesniegt",
-          "Atdot atpakaļ",
-          "Pārdot",
+          "Předat nebo odevzdat jiné osobě či na určitém místě",
+          "Oficiálně předložit",
+          "Vrátit",
+          "Prodat",
           "Izstarot"
         ]
       }
@@ -990,17 +411,17 @@ const A2_WORDS = [
   },
   {
     "de": "abgemacht",
-    "lv": "Urovnal • Rozhodl • Souhlasil",
+    "lv": "Domluveno",
     "level": "A2"
   },
   {
     "de": "abholen",
-    "lv": "Vzít • Vyndat",
+    "lv": "Vyzvednout",
     "level": "A2",
     "study": {
       "id": "a2-abholen",
       "layout": "standardStudy",
-      "translation": "Vzít • Vyndat",
+      "translation": "Vyzvednout",
       "explanation": [
         "Hlavní myšlenka: Jít za a vyzvednout osobu nebo vyzvednout balíček/objednávku.",
         "Abholen v podstatě znamená: jít za a vzít / odstranit z místa.",
@@ -1010,15 +431,15 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich hole dich ab.",
-          "lv": "Vezmu tě."
+          "lv": "Vyzvednu tě."
         },
         {
           "de": "Kannst du mich vom Bahnhof abholen?",
-          "lv": "Můžeš mě vyzvednout na nádraží"
+          "lv": "Můžeš mě vyzvednout na nádraží?"
         },
         {
           "de": "Ich hole dich ab.",
-          "lv": "Vezmu tě"
+          "lv": "Vyzvednu tě."
         }
       ],
       "tip": [
@@ -1095,12 +516,12 @@ const A2_WORDS = [
   },
   {
     "de": "holen",
-    "lv": "Jít za • Aportovat",
+    "lv": "Dojít pro",
     "level": "A2",
     "study": {
       "id": "a2-holen",
       "layout": "standardStudy",
-      "translation": "Jít za • Aportovat",
+      "translation": "Dojít pro",
       "explanation": [
         "Hlavní myšlenka: Jdi za tím a něco přines.",
         "Holen hlavně znamená: jít a aport.",
@@ -1110,7 +531,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich hole Wasser.",
-          "lv": "Přinesl jsem vodu."
+          "lv": "Přinesu vodu."
         },
         {
           "de": "Kannst du mich vom Bahnhof abholen?",
@@ -1193,12 +614,12 @@ const A2_WORDS = [
   },
   {
     "de": "bringen",
-    "lv": "Přinést • Doručit",
+    "lv": "Přinést",
     "level": "A2",
     "study": {
       "id": "a2-bringen",
       "layout": "standardStudy",
-      "translation": "Přinést • Doručit",
+      "translation": "Přinést",
       "explanation": [
         "Hlavní myšlenka: Něco sem přivézt nebo přinést.",
         "Přinést hlavně znamená: přinést sem.",
@@ -1208,7 +629,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich bringe das Buch.",
-          "lv": "Přinesl jsem knihu."
+          "lv": "Přinesu knihu."
         },
         {
           "de": "Bringen Sie mir bitte noch einen Kaffee!",
@@ -1223,10 +644,7 @@ const A2_WORDS = [
           "lv": "Přinesl jsem knihu"
         }
       ],
-      "tip": [
-        "Přinést = přinést sem",
-        "Když kontext odpovídá tomuto významu, použijte přiveden."
-      ],
+      "tip": "Když kontext odpovídá tomuto významu, použijte bringen.",
       "important": [
         "Přinést = přinést na konkrétní místo.",
         "Přinést = přinést sem.",
@@ -1317,7 +735,7 @@ const A2_WORDS = [
   },
   {
     "de": "abreisen",
-    "lv": "Odejít • Odejít",
+    "lv": "Odjet",
     "level": "A2"
   },
   {
@@ -1340,7 +758,7 @@ const A2_WORDS = [
         },
         {
           "de": "Er hat seine Teilnahme abgesagt.",
-          "lv": "Členství odmítl."
+          "lv": "Odmítl účast."
         },
         {
           "de": "Sie sagt das Treffen ab.",
@@ -1358,18 +776,18 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "absagen",
-          "meaning": "Zrušit / odmítnout členství",
+          "meaning": "Zrušit / odmítnout účast",
           "example": "Ich sage den Termin ab. = Ruším schůzku."
         },
         {
           "word": "ablehnen",
-          "meaning": "Noraidīt / atteikt",
-          "example": "Ich lehne das Angebot ab. = Es noraidu piedāvājumu."
+          "meaning": "Odmítnout",
+          "example": "Ich lehne das Angebot ab. = Odmítám nabídku."
         },
         {
           "word": "kündigen",
           "meaning": "Ukončit / zrušit smlouvu",
-          "example": "Ich kündige den Vertrag. = Es uzteicu līgumu."
+          "example": "Ich kündige den Vertrag. = Vypovídám smlouvu."
         },
         {
           "word": "stornieren",
@@ -1378,8 +796,8 @@ const A2_WORDS = [
         },
         {
           "word": "nein sagen",
-          "meaning": "Pateikt nē",
-          "example": "Er sagt nein. = Viņš saka nē."
+          "meaning": "Říci ne",
+          "example": "Er sagt nein. = Říká ne."
         }
       ],
       "tip": {
@@ -1388,319 +806,37 @@ const A2_WORDS = [
             "text": "Absagen se obvykle používá pro setkání, koncert nebo akci."
           },
           {
-            "text": "Mocihnen se častěji používá pro nabídku nebo návrh."
+            "text": "Pro nabídku nebo návrh se častěji používá ablehnen."
           }
         ]
       },
       "important": {
         "text": "Absagen znamená zrušit nebo odmítnout již sjednanou věc.",
-        "example": "Termin absagen = atcelt tikšanos. Teilnahme absagen = atteikt dalību. Angebot ablehnen = noraidīt piedāvājumu."
+        "example": "Termin absagen = zrušit schůzku. Teilnahme absagen = odmítnout účast. Angebot ablehnen = odmítnout nabídku."
       },
-      "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "absagen",
-                "Termin",
-                "muss"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Musím",
-                "Musím"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "abgesagt",
-                "Konzert",
-                "wurde"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Koncert",
-                "Koncert",
-                "Koncert"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Teilnahme",
-                "abgesagt",
-                "seine"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Členství",
-                "Členství"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Treffen",
-                "sagt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Zruší",
-                "Zruší"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "absagen",
-                "leider",
-                "muss"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Bohužel",
-                "Bohužel"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "abgesagt",
-                "Firma",
-                "Reise"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Společnost",
-                "Společnost",
-                "Společnost"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "absagen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Zrušit"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Ich",
-                "Ich",
-                "Termin",
-                "sage"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "ablehnen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "noraidīt / atteikt",
-                "noraidīt",
-                "atteikt"
-              ]
-            },
-            "example": {
-              "green": [
-                "piedāvājumu",
-                "Angebot",
-                "noraidu",
-                "lehne"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "kündigen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Ukončit",
-                "Ukončit",
-                "Ukončit",
-                "Ukončit"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "kündige",
-                "uzteicu",
-                "Vertrag",
-                "līgumu"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "stornieren"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Zrušit",
-                "rezervaci",
-                "Zrušit",
-                "Zrušit"
-              ]
-            },
-            "example": {
-              "red": [
-                "rezervaci",
-                "storniere",
-                "Buchung",
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "purple": [
-                "nein sagen",
-                "sagen",
-                "nein"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pateikt nē",
-                "pateikt"
-              ]
-            },
-            "example": {
-              "purple": [
-                "nein",
-                "sagt",
-                "saka"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "leftBlocks": [
-            {
-              "text": {
-                "blue": [
-                  "absagen"
-                ],
-                "yellow": [
-                  "koncertu",
-                  "pasākumu",
-                  "tikšanos",
-                  "absagen",
-                  "lieto"
-                ]
-              }
-            },
-            {
-              "text": {
-                "green": [
-                  "ablehnen"
-                ],
-                "yellow": [
-                  "priekšlikumu",
-                  "piedāvājumu",
-                  "ablehnen",
-                  "biežāk",
-                  "lieto"
-                ]
-              }
-            }
-          ]
-        },
-        "important": [
-          {
-            "text": {
-              "blue": [
-                "absagen"
-              ],
-              "green": [
-                "atcelt"
-              ],
-              "orange": [
-                "atteikt"
-              ],
-              "red": [
-                "Absagen",
-                "absagen",
-                "atteikt",
-                "atcelt",
-                "Absagen"
-              ]
-            },
-            "example": {
-              "blue": [
-                "absagen"
-              ],
-              "green": [
-                "ablehnen",
-                "atcelt"
-              ],
-              "orange": [
-                "noraidīt",
-                "atteikt"
-              ],
-              "red": [
-                "atteikt dalību",
-                "Teilnahme",
-                "tikšanos",
-                "absagen",
-                "atteikt",
-                "atcelt",
-                "Termin"
-              ]
-            }
-          }
-        ]
-      },
+      "sectionAccents": "odmítnout účast",
       "accents": {
         "blue": [
           "StandardStudy",
           "Ierasties",
-          "Pasākumu",
-          "Sarunātu",
+          "Akci",
+          "Domluvenou",
           "Tikšanos",
           "Absagen",
           "Atteikt",
           "Konzert",
-          "Nozīmēt",
+          "Znamenat",
           "Pateikt",
           "Treffen",
           "Atcelt",
-          "Dalību",
+          "Účast",
           "Termin",
           "Nevar",
-          "Plānu"
+          "Plán"
         ],
         "green": [
-          "Atcelt rezervāciju",
-          "Lauzt līgumu",
+          "Zrušit rezervaci",
+          "Vypovědět smlouvu",
           "Ablehnen",
           "Atcelt"
         ],
@@ -1708,22 +844,22 @@ const A2_WORDS = [
           "Kündigen"
         ],
         "orange": [
-          "Noraidīt",
+          "Odmítnout",
           "Atteikt",
           "Uzteikt",
-          "Anulēt"
+          "Stornovat"
         ],
         "purple": [
-          "Atcelt • Atteikt • Atteikt dalību",
-          "Anulēt / atcelt rezervāciju",
-          "Atcelt / atteikt dalību",
-          "Uzteikt / lauzt līgumu",
-          "Noraidīt / atteikt",
+          "Zrušit • Odmítnout • Odmítnout účast",
+          "Stornovat / zrušit rezervaci",
+          "Zrušit / odmítnout účast",
+          "Vypovědět / ukončit smlouvu",
+          "Odmítnout",
           "Nein sagen",
-          "Pateikt nē"
+          "Říci ne"
         ],
         "red": [
-          "Atteikt dalību",
+          "Odmítnout účast",
           "Stornieren"
         ]
       }
@@ -1736,21 +872,21 @@ const A2_WORDS = [
   },
   {
     "de": "abschließen",
-    "lv": "Zamknout • Uzavřít • Dokončit",
+    "lv": "Uzavřít",
     "level": "A2",
     "study": {
       "id": "a2-abschließen",
       "layout": "standardStudy",
-      "translation": "Zamknout • Uzavřít • Dokončit",
-      "explanation": "Hlavní myšlenka: abschließen znamená uzavřít, uzavřít nebo doplnit v závislosti na předmětu. Když jde o dveře nebo auto, znamená to „zamknout“. Smlouvou to znamená „uzavřít dohodu“. S prací, kurzem nebo projektem to znamená „dokončit“. Proto se význam mění podle předmětu: dveře, smlouva nebo práce.",
+      "translation": "Uzavřít",
+      "explanation": "Hlavní myšlenka: abschließen znamená zamknout, uzavřít nebo dokončit podle předmětu. U dveří nebo auta znamená „zamknout“. U smlouvy znamená „uzavřít smlouvu“. U práce, kurzu nebo projektu znamená „dokončit“. Význam tedy závisí na předmětu: dveře, smlouva nebo práce.",
       "examples": [
         {
           "de": "Bitte schließ die Tür ab.",
-          "lv": "Lūdzu, aizslēdz durvis."
+          "lv": "Prosím, zamkni dveře."
         },
         {
           "de": "Ich habe das Auto abgeschlossen.",
-          "lv": "Es aizslēdzu automašīnu."
+          "lv": "Zamkl jsem auto."
         },
         {
           "de": "Wir schließen den Vertrag morgen ab.",
@@ -1762,7 +898,7 @@ const A2_WORDS = [
         },
         {
           "de": "Das Projekt ist abgeschlossen.",
-          "lv": "Projekts ir pabeigts."
+          "lv": "Projekt je dokončený."
         },
         {
           "de": "Er möchte das Kapitel abschließen.",
@@ -1772,12 +908,12 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "abschließen",
-          "meaning": "Zavřít / zavřít / dokončit",
-          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
+          "meaning": "Zamknout / uzavřít / dokončit",
+          "example": "Ich schließe die Tür ab. = Zamykám dveře."
         },
         {
           "word": "schließen",
-          "meaning": "Aizvērt",
+          "meaning": "Zavřít",
           "example": "Ich schließe die Tür. = Es aizveru durvis."
         },
         {
@@ -1803,303 +939,45 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Tür schließen = zavřít dveře.",
-        "example": "Tür abschließen = aizslēgt durvis. Vertrag abschließen = noslēgt līgumu. Ausbildung abschließen = pabeigt apmācību."
+        "example": "Tür abschließen = zamknout dveře. Vertrag abschließen = uzavřít smlouvu. Ausbildung abschließen = dokončit vzdělání."
       },
-      "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "schließ",
-                "Bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "aizslēdz",
-                "durvis",
-                "lūdzu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "abgeschlossen",
-                "Auto"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "automašīnu",
-                "aizslēdzu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "schließen"
-              ],
-              "blue": [
-                "schließen",
-                "Vertrag"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Zítra",
-                "Zítra"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "abgeschlossen",
-                "Ausbildung",
-                "ihre"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Dokončila",
-                "Dokončila"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "abgeschlossen",
-                "Projekt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pabeigts",
-                "projekts"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "abschließen",
-                "Kapitel",
-                "möchte"
-              ]
-            },
-            "lv": {
-              "yellow": [
-                "Chce"
-              ],
-              "purple": [
-                "Chce",
-                "Chce",
-                "Chce"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "abschließen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Zavřít",
-                "Zavřít",
-                "Zavřít",
-                "Zavřít"
-              ]
-            },
-            "example": {
-              "blue": [
-                "aizslēdzu",
-                "schließe",
-                "durvis"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "schließen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "aizvērt"
-              ]
-            },
-            "example": {
-              "green": [
-                "schließe",
-                "aizveru",
-                "durvis"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "beenden"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Dokončit"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Ich",
-                "Arbeit",
-                "beende",
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "unterschreiben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Podepsat"
-              ]
-            },
-            "example": {
-              "red": [
-                "unterschreibe",
-                "Ich",
-                "Vertrag",
-                "Ich"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "leftBlocks": [
-            {
-              "text": {
-                "blue": [
-                  "abschließen"
-                ],
-                "green": [
-                  "schließen"
-                ],
-                "yellow": [
-                  "abschließen",
-                  "atslēga",
-                  "bieži",
-                  "nevis",
-                  "tikai"
-                ]
-              }
-            },
-            {
-              "text": {
-                "blue": [
-                  "abschließen"
-                ],
-                "green": [
-                  "noslēgt"
-                ],
-                "yellow": [
-                  "abschließen",
-                  "projektu",
-                  "noslēgt",
-                  "pabeigt",
-                  "līgumu",
-                  "runa"
-                ]
-              }
-            }
-          ]
-        },
-        "important": [
-          {
-            "text": {
-              "green": [
-                "schließen"
-              ],
-              "purple": [
-                "Tür"
-              ],
-              "red": [
-                "schließen",
-                "Tür",
-                "durvis"
-              ]
-            },
-            "example": {
-              "blue": [
-                "abschließen"
-              ],
-              "green": [
-                "noslēgt"
-              ],
-              "yellow": [
-                "pabeigt"
-              ],
-              "orange": [
-                "aizslēgt"
-              ],
-              "red": [
-                "abschließen",
-                "aizslēgt",
-                "noslēgt",
-                "Vertrag",
-                "durvis",
-                "līgumu"
-              ]
-            }
-          }
-        ]
-      },
+      "sectionAccents": "zamknout",
       "accents": {
         "blue": [
           "StandardStudy",
           "Abschließen",
-          "Aizslēgt",
+          "Zamknout",
           "Projektu",
-          "Noslēgt",
+          "Uzavřít",
           "Objekta",
           "Pabeigt",
           "Durvis",
-          "Durvīm",
-          "Līgums",
-          "Līgumu",
-          "Mainās",
-          "Nozīme",
+          "Dveřím",
+          "Smlouva",
+          "Smlouvu",
+          "Mění se",
+          "Význam",
           "Darbu",
           "Kursu",
-          "Tāpēc",
+          "Proto",
           "Auto"
         ],
         "green": [
           "Schließen",
-          "Noslēgt"
+          "Uzavřít"
         ],
         "yellow": [
           "Beenden",
           "Pabeigt"
         ],
         "orange": [
-          "Aizslēgt"
+          "Zamknout"
         ],
         "purple": [
-          "Aizslēgt / noslēgt / pabeigt",
-          "Aizslēgt • Noslēgt • Pabeigt",
-          "Parakstīt",
-          "Aizvērt"
+          "Zamknout / uzavřít / dokončit",
+          "Zamknout • Uzavřít • Dokončit",
+          "Podepsat",
+          "Zavřít"
         ],
         "red": [
           "Unterschreiben"
@@ -2111,39 +989,31 @@ const A2_WORDS = [
     "de": "Abstand",
     "de_article": "der",
     "de_plural": "die Abstände",
-    "lv": "Vzdálenost • Vzdálenost",
+    "lv": "Vzdálenost",
     "level": "A2"
   },
   {
     "de": "absteigen",
-    "lv": "Vystoupit • Zůstat v hotelu",
+    "lv": "Vystoupit",
     "level": "A2"
   },
   {
     "de": "abstellen",
-    "lv": "Odložit • Odložit • Vypnout",
+    "lv": "Odstavit",
     "level": "A2",
     "study": {
       "id": "a2-abstellen",
       "layout": "standardStudy",
-      "translation": "Odložit • Odložit • Vypnout",
-      "explanation": [
-        "Hlavní myšlenka: význam abstellenu je určen objektem: zaparkujte auto nebo tašku, vypněte vodu nebo elektřinu, vypněte motor, opravte problém.",
-        "S autem, kolem, taškou nebo krabicí abstellen znamená umístit nebo umístit na konkrétní místo.",
-        "U vody, plynu nebo elektřiny abstellen znamená vypnout přívod.",
-        "Motor nebo alarm lze také vypnout abstellenem.",
-        "Pro zařízení jako TV, počítač nebo světlo se častěji používá ausschalten.",
-        "Zastavení pohybu je obvykle anhalten nebo stoppen, ne abstellen.",
-        "S chybou nebo problémem abstellen znamená zabránit."
-      ],
+      "translation": "Odstavit",
+      "explanation": "Hlavní myšlenka: význam slovesa abstellen závisí na objektu: auto, kolo nebo tašku odstavit či umístit, vodu nebo elektřinu vypnout, motor vypnout a chybu či problém odstranit. U auta, kola, tašky nebo krabice znamená umístit něco na konkrétní místo. U vody, plynu nebo elektřiny znamená vypnout přívod. Motor nebo budík lze také vypnout pomocí abstellen. U zařízení, jako je televize, počítač nebo světlo, se častěji používá ausschalten. Zastavení pohybu se obvykle vyjadřuje slovesy anhalten nebo stoppen, nikoli abstellen.",
       "examples": [
         {
           "de": "Ich stelle das Fahrrad ab.",
-          "lv": "Zaparkuji kolo"
+          "lv": "Odstavím kolo."
         },
         {
           "de": "Stell die Tasche bitte dort ab.",
-          "lv": "Prosím dejte tam tašku."
+          "lv": "Prosím, dej tam tašku."
         },
         {
           "de": "Der Monteur stellt das Wasser ab.",
@@ -2209,379 +1079,9 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Abstellen není obecné slovo znamenající 'stop'.",
-        "example": "Apturēt kustību = anhalten vai stoppen. Izslēgt ierīci = ausschalten. Wasser abstellen = atslēgt ūdeni."
+        "example": "Zastavit pohyb = anhalten nebo stoppen. Vypnout zařízení = ausschalten. Wasser abstellen = vypnout vodu."
       },
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "abstellen"
-          ],
-          "purple": [
-            "Hlavní",
-            "Hlavní",
-            "Hlavní",
-            "Hlavní",
-            "Hlavní"
-          ],
-          "yellow": [
-            "auto",
-            "Hlavní",
-            "Hlavní",
-            "elektřinu",
-            "motor",
-            "Hlavní",
-            "TV",
-            "Hlavní",
-            "Hlavní",
-            "problém"
-          ],
-          "red": [
-            "ausschalten",
-            "anhalten",
-            "stoppen",
-            "Hlavní"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "stelle",
-                "ab"
-              ],
-              "yellow": [
-                "Fahrrad"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Zaparkuji"
-              ],
-              "yellow": [
-                "Zaparkuji"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Stell",
-                "ab"
-              ],
-              "yellow": [
-                "Tasche"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Prosím"
-              ],
-              "yellow": [
-                "Prosím"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "stellt",
-                "ab"
-              ],
-              "yellow": [
-                "Wasser"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Mistr"
-              ],
-              "yellow": [
-                "Mistr"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "abgestellt"
-              ],
-              "yellow": [
-                "Strom",
-                "Rechnungen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Byla"
-              ],
-              "yellow": [
-                "elektřina",
-                "Byla"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "stellt",
-                "ab"
-              ],
-              "yellow": [
-                "Motor"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Vypne"
-              ],
-              "yellow": [
-                "motor"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "abstellen"
-              ],
-              "yellow": [
-                "Fehler"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Musíme"
-              ],
-              "yellow": [
-                "Musíme"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "abstellen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "objektu"
-              ]
-            },
-            "example": {
-              "blue": [
-                "stelle",
-                "ab"
-              ],
-              "purple": [
-                "Ich"
-              ],
-              "yellow": [
-                "Fahrrad",
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "ausschalten"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Vypněte",
-                "Vypněte",
-                "Vypněte",
-                "Vypněte"
-              ]
-            },
-            "example": {
-              "red": [
-                "schalte",
-                "aus"
-              ],
-              "purple": [
-                "Ich"
-              ],
-              "yellow": [
-                "Computer",
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "anhalten"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Přestat"
-              ]
-            },
-            "example": {
-              "red": [
-                "hält an"
-              ],
-              "purple": [
-                "Der"
-              ],
-              "yellow": [
-                "Bus",
-                "Autobus"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "stoppen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Zastavit",
-                "Zastavit"
-              ]
-            },
-            "example": {
-              "red": [
-                "stoppt"
-              ],
-              "purple": [
-                "Der"
-              ],
-              "yellow": [
-                "Fahrer",
-                "Auto",
-                "Der",
-                "auto"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "stellen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Umístit",
-                "Umístit"
-              ]
-            },
-            "example": {
-              "green": [
-                "stelle"
-              ],
-              "purple": [
-                "Ich"
-              ],
-              "yellow": [
-                "Tasche",
-                "Tür",
-                "Ich",
-                "Ich"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "leftBlocks": [
-            {
-              "text": {
-                "purple": [
-                  "novietot",
-                  "nolikt"
-                ],
-                "yellow": [
-                  "auto",
-                  "velosipēdu",
-                  "somu"
-                ]
-              }
-            },
-            {
-              "text": {
-                "purple": [
-                  "atslēgt"
-                ],
-                "yellow": [
-                  "ūdeni",
-                  "gāzi",
-                  "elektrību"
-                ]
-              }
-            }
-          ],
-          "rightBlocks": [
-            {
-              "text": {
-                "blue": [
-                  "abstellen"
-                ],
-                "purple": [
-                  "izslēgt"
-                ],
-                "yellow": [
-                  "motoru",
-                  "modinātāju"
-                ]
-              }
-            },
-            {
-              "text": {
-                "red": [
-                  "ausschalten"
-                ],
-                "purple": [
-                  "izslēgt"
-                ],
-                "yellow": [
-                  "TV",
-                  "datoru",
-                  "gaismu"
-                ]
-              }
-            }
-          ]
-        },
-        "important": [
-          {
-            "text": {
-              "blue": [
-                "abstellen"
-              ],
-              "red": [
-                "apturēt"
-              ]
-            },
-            "example": {
-              "red": [
-                "anhalten",
-                "stoppen",
-                "ausschalten"
-              ],
-              "purple": [
-                "apturēt",
-                "izslēgt",
-                "atslēgt"
-              ],
-              "yellow": [
-                "kustību",
-                "ierīci",
-                "Wasser",
-                "ūdeni"
-              ]
-            }
-          }
-        ]
-      },
+      "sectionAccents": "zařízení",
       "accents": {
         "blue": [
           "Abstellen"
@@ -2589,25 +1089,25 @@ const A2_WORDS = [
         "purple": [
           "Nolikt",
           "Novietot",
-          "Atslēgt",
-          "Izslēgt",
-          "Novērst"
+          "Vypnout",
+          "Vypnout",
+          "Odstranit"
         ],
         "yellow": [
           "Auto",
-          "Velosipēds",
+          "Kolo",
           "Soma",
-          "Ūdens",
-          "Gāze",
-          "Elektrība",
+          "Voda",
+          "Plyn",
+          "Elektřina",
           "Motors",
-          "Modinātājs"
+          "Budík"
         ],
         "red": [
           "Ausschalten",
           "Anhalten",
           "Stoppen",
-          "Apturēt"
+          "Zastavit"
         ],
         "green": [
           "Stellen"
@@ -2634,14 +1134,14 @@ const A2_WORDS = [
   },
   {
     "de": "abwesend",
-    "lv": "Slibný",
+    "lv": "Nepřítomný",
     "level": "A2"
   },
   {
     "de": "Achse",
     "de_article": "die",
     "de_plural": "die Achsen",
-    "lv": "Osel",
+    "lv": "Osa",
     "level": "A2"
   },
   {
@@ -2685,7 +1185,7 @@ const A2_WORDS = [
   },
   {
     "de": "aktiv",
-    "lv": "Aktivní • Aktivní",
+    "lv": "Aktivní",
     "level": "A2"
   },
   {
@@ -2697,7 +1197,7 @@ const A2_WORDS = [
   },
   {
     "de": "aktuell",
-    "lv": "Proud • Proud",
+    "lv": "Aktuální",
     "level": "A2"
   },
   {
@@ -2713,7 +1213,7 @@ const A2_WORDS = [
   },
   {
     "de": "allgemein",
-    "lv": "Generál",
+    "lv": "Obecný",
     "level": "A2"
   },
   {
@@ -2724,14 +1224,14 @@ const A2_WORDS = [
   },
   {
     "de": "ändern",
-    "lv": "Změnit • Změnit",
+    "lv": "Změnit",
     "level": "A2"
   },
   {
     "de": "Änderung",
     "de_article": "die",
     "de_plural": "die Änderungen",
-    "lv": "Změny",
+    "lv": "Změna",
     "level": "A2"
   },
   {
@@ -2743,12 +1243,12 @@ const A2_WORDS = [
   },
   {
     "de": "angesehen",
-    "lv": "Slušný",
+    "lv": "Uznávaný",
     "level": "A2"
   },
   {
     "de": "angespannt",
-    "lv": "Čas",
+    "lv": "Napjatý",
     "level": "A2"
   },
   {
@@ -2760,13 +1260,13 @@ const A2_WORDS = [
   },
   {
     "de": "angewandt",
-    "lv": "Aplikovaný • Aplikovaný • Praktický",
+    "lv": "Aplikovaný",
     "level": "A2",
     "study": {
       "id": "a2-angewandt",
       "layout": "standardStudy",
-      "translation": "Aplikovaný • Aplikovaný • Praktický",
-      "explanation": "Hlavní myšlenka: angewandt znamená prakticky aplikovaný nebo aplikovaný. Používá se při uvádění teorie, vědy nebo metody do praxe. Na univerzitách a ve vědě angewandt často znamená aplikovaný, například angewandte Mathematik. Aplikovanou metodou nebo zákonem. To není totéž jako einfach nur praktisch, protože angewandt klade důraz na použití v praxi.",
+      "translation": "Aplikovaný",
+      "explanation": "Hlavní myšlenka: angewandt znamená aplikovaný nebo uplatňovaný v praxi. Používá se u teorií, věd a metod využívaných v praxi. Na univerzitách a ve vědě často znamená „aplikovaný“, například angewandte Mathematik. U metody nebo pravidla znamená „uplatněný“. Není to totéž co einfach nur praktisch, protože angewandt zdůrazňuje použití v praxi.",
       "examples": [
         {
           "de": "Angewandte Mathematik ist sehr praktisch.",
@@ -2786,7 +1286,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Regel wird hier nicht angewandt.",
-          "lv": "Pravidlo zde neplatí."
+          "lv": "Pravidlo se zde neuplatňuje."
         },
         {
           "de": "Der Kurs verbindet Theorie und angewandte Praxis.",
@@ -2796,7 +1296,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "angewandt",
-          "meaning": "Aplikováno / aplikováno",
+          "meaning": "Aplikovaný / uplatněný",
           "example": "Diese Methode wird angewandt. = Tato metoda je aplikována."
         },
         {
@@ -2827,235 +1327,9 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Angewandt není jen „praktický“. Znamená to, že se něco uvádí do praxe.",
-        "example": "Angewandte Mathematik = lietišķā matemātika. Diese Methode wird angewandt = šī metode tiek pielietota."
+        "example": "Angewandte Mathematik = aplikovaná matematika. Diese Methode wird angewandt = tato metoda se uplatňuje."
       },
-      "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "Angewandte"
-              ],
-              "purple": [
-                "praktisch"
-              ]
-            },
-            "lv": {
-              "yellow": [
-                "Aplikovaná"
-              ],
-              "purple": [
-                "praktická"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "angewandten",
-                "Forschung"
-              ]
-            },
-            "lv": {
-              "yellow": [
-                "Pracuje",
-                "Pracuje"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "angewandt",
-                "Methode"
-              ]
-            },
-            "lv": {
-              "green": [
-                "Tato"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "angewandte",
-                "Wissenschaft"
-              ]
-            },
-            "lv": {
-              "yellow": [
-                "příkladem",
-                "příkladem"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "angewandt",
-                "Regel"
-              ]
-            },
-            "lv": {
-              "green": [
-                "Pravidlo"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "angewandte",
-                "Praxis"
-              ]
-            },
-            "lv": {
-              "yellow": [
-                "Kurz",
-                "praxi"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "angewandt"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Aplikováno"
-              ]
-            },
-            "example": {
-              "blue": [
-                "angewandt",
-                "Methode"
-              ],
-              "green": [
-                "Diese"
-              ]
-            }
-          },
-          {
-            "word": {
-              "purple": [
-                "praktisch"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Praktický"
-              ]
-            },
-            "example": {
-              "purple": [
-                "praktische",
-                "praktické"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "verwenden"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Používat"
-              ]
-            },
-            "example": {
-              "red": [
-                "verwende",
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "anwenden"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Uplatnit"
-              ]
-            },
-            "example": {
-              "red": [
-                "wende"
-              ],
-              "green": [
-                "Ich"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "leftBlocks": [
-            {
-              "text": {
-                "blue": [
-                  "angewandt"
-                ],
-                "purple": [
-                  "lietišķs"
-                ],
-                "green": [
-                  "zinātni",
-                  "pētījumiem",
-                  "studijām"
-                ]
-              }
-            },
-            {
-              "text": {
-                "blue": [
-                  "angewandt"
-                ],
-                "purple": [
-                  "pielietots"
-                ],
-                "green": [
-                  "metodi",
-                  "noteikumu"
-                ]
-              }
-            }
-          ]
-        },
-        "important": [
-          {
-            "text": {
-              "blue": [
-                "angewandt"
-              ],
-              "red": [
-                "praktický"
-              ],
-              "purple": [
-                "Angewandt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "angewandte",
-                "angewandt"
-              ],
-              "purple": [
-                "lietišķā matemātika",
-                "pielietota"
-              ]
-            }
-          }
-        ]
-      },
+      "sectionAccents": "aplikovaná matematika",
       "accents": {
         "blue": [
           "Angewandt",
@@ -3069,9 +1343,9 @@ const A2_WORDS = [
           "Pielietoju"
         ],
         "yellow": [
-          "Lietišķs",
-          "Lietišķā",
-          "Lietišķajā"
+          "Aplikovaný",
+          "Aplikovaná",
+          "Aplikované"
         ],
         "purple": [
           "Praktisks",
@@ -3132,7 +1406,7 @@ const A2_WORDS = [
         },
         {
           "word": "beleidigen",
-          "meaning": "Urazit / urazit",
+          "meaning": "Urazit / urážet",
           "example": "Er beleidigt mich. = Uráží mě."
         },
         {
@@ -3144,7 +1418,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pokud dojde k fyzickému nebo přímému útoku, použije se angerifen."
+            "text": "Pokud dojde k fyzickému nebo přímému útoku, použije se angreifen."
           },
           {
             "text": "Pokud je někdo jen verbálně urážlivý, přesnější slovo je často beleidigen."
@@ -3152,8 +1426,8 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Angerifen není jednoduše „urazit“. To obvykle zahrnuje útok nebo velmi tvrdou kritiku.",
-        "example": "Jemanden angreifen = uzbrukt kādam. Jemanden beleidigen = apvainot kādu."
+        "text": "Angreifen není jednoduše „urazit“. To obvykle zahrnuje útok nebo velmi tvrdou kritiku.",
+        "example": "Jemanden angreifen = zaútočit na někoho. Jemanden beleidigen = urazit někoho."
       },
       "accents": {
         "blue": [
@@ -3163,10 +1437,10 @@ const A2_WORDS = [
         ],
         "green": [
           "Uzbrukt",
-          "Uzbrūk"
+          "Útočí"
         ],
         "yellow": [
-          "Kritizēt",
+          "Kritizovat",
           "Kritik"
         ],
         "red": [
@@ -3175,73 +1449,10 @@ const A2_WORDS = [
         ],
         "purple": [
           "Aizskarta",
-          "Asi kritizē"
+          "Ostře kritizuje"
         ]
       },
-      "sectionAccents": {
-        "tip": {
-          "leftBlocks": [
-            {
-              "text": {
-                "blue": [
-                  "angreifen"
-                ],
-                "purple": [
-                  "uzbrukums"
-                ],
-                "green": [
-                  "fizisks",
-                  "tiešs"
-                ]
-              }
-            },
-            {
-              "text": {
-                "red": [
-                  "beleidigen"
-                ],
-                "purple": [
-                  "apvaino"
-                ],
-                "green": [
-                  "vārdiem"
-                ]
-              }
-            }
-          ]
-        },
-        "important": [
-          {
-            "text": {
-              "blue": [
-                "angreifen"
-              ],
-              "purple": [
-                "Angerifen",
-                "Angerifen"
-              ],
-              "red": [
-                "Angerifen"
-              ]
-            },
-            "example": {
-              "blue": [
-                "angreifen"
-              ],
-              "red": [
-                "beleidigen"
-              ],
-              "purple": [
-                "uzbrukt",
-                "apvainot"
-              ],
-              "green": [
-                "kādam"
-              ]
-            }
-          }
-        ]
-      }
+      "sectionAccents": "někoho"
     }
   },
   {
@@ -3255,13 +1466,13 @@ const A2_WORDS = [
     "de": "Anhänger",
     "de_article": "der",
     "de_plural": "die Anhänger",
-    "lv": "Přívěs • Podporovatel • Přívěšek",
+    "lv": "Přívěs",
     "level": "A2",
     "study": {
       "id": "a2-anhänger",
       "layout": "standardStudy",
-      "translation": "Přívěs • Podporovatel • Přívěšek",
-      "explanation": "Hlavní myšlenka: der Anhänger znamená něco, co je připojeno nebo následuje. S autem je to přívěs. Pro člověka to znamená přívrženec nebo podporovatel. Pro šperky to může být přívěsek. Význam je určen kontextem: Auto, Partei, Idee nebo Kette.",
+      "translation": "Přívěs",
+      "explanation": "U auta je to přívěs. U člověka to znamená přívrženec nebo podporovatel. U šperku to může být přívěsek.",
       "examples": [
         {
           "de": "Das Auto zieht einen Anhänger.",
@@ -3291,7 +1502,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "der Anhänger",
-          "meaning": "Přívěs / podpěra / přívěsek",
+          "meaning": "Přívěs / podporovatel / přívěsek",
           "example": "Der Anhänger ist schwer. = Přívěs je těžký."
         },
         {
@@ -3313,7 +1524,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Auto nebo Lastwagen der Anhänger téměř vždy znamená přívěs."
+            "text": "U auta nebo nákladního auta Anhänger téměř vždy znamená přívěs."
           },
           {
             "text": "Partei, Idee nebo Verein znamená přívrženec • S Kette to může znamenat přívěsek."
@@ -3321,8 +1532,8 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Nestačí se naučit pouze „trailer“. Stejné slovo může také označovat osobu nebo šperk.",
-        "example": "Autoanhänger = piekabe. Anhänger einer Partei = partijas piekritējs. Anhänger an der Kette = kulons."
+        "text": "Nestačí se naučit pouze „přívěs“. Stejné slovo může také označovat osobu nebo šperk.",
+        "example": "Autoanhänger = přívěs. Anhänger einer Partei = přívrženec strany. Anhänger an der Kette = přívěsek."
       },
       "accents": {
         "blue": [
@@ -3333,9 +1544,9 @@ const A2_WORDS = [
           "Piekabe"
         ],
         "yellow": [
-          "Piekritējs",
-          "Piekritēju",
-          "Atbalstītāju"
+          "Přívrženec",
+          "Přívrženců",
+          "Podporovatelů"
         ],
         "red": [
           "Fan",
@@ -3347,87 +1558,22 @@ const A2_WORDS = [
           "Kette"
         ]
       },
-      "sectionAccents": {
-        "tip": {
-          "leftBlocks": [
-            {
-              "text": {
-                "blue": [
-                  "Anhänger"
-                ],
-                "purple": [
-                  "piekabi"
-                ],
-                "green": [
-                  "Auto",
-                  "Lastwagen"
-                ]
-              }
-            },
-            {
-              "text": {
-                "blue": [
-                  "Anhänger"
-                ],
-                "purple": [
-                  "piekritēju",
-                  "kulonu"
-                ],
-                "green": [
-                  "Partei",
-                  "Idee",
-                  "Verein",
-                  "Kette"
-                ]
-              }
-            }
-          ]
-        },
-        "important": [
-          {
-            "text": {
-              "blue": [
-                "Anhänger"
-              ],
-              "purple": [
-                "piekabe",
-                "Nestačí",
-                "Nestačí"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Autoanhänger",
-                "Anhänger"
-              ],
-              "purple": [
-                "piekabe",
-                "piekritējs",
-                "kulons"
-              ],
-              "green": [
-                "Partei",
-                "Kette"
-              ]
-            }
-          }
-        ]
-      }
+      "sectionAccents": "přívrženec"
     }
   },
   {
     "de": "anheizen",
-    "lv": "Roznítit",
+    "lv": "Zatopit",
     "level": "A2",
     "study": {
       "id": "a2-anheizen",
       "layout": "standardStudy",
-      "translation": "Roznítit",
+      "translation": "Zatopit",
       "explanation": "Hlavní myšlenka: anheizen znamená začít topit nebo zahřívat věci. S kamny nebo ohněm znamená zapálit. Hádkou, atmosférou nebo debatou to znamená roznítit nebo zhoršit. Slovo je často obrazné. To není totéž jako jednoduše \"topit\" heizen.",
       "examples": [
         {
           "de": "Wir heizen den Ofen an.",
-          "lv": "Zapálíme troubu."
+          "lv": "Zatopíme v kamnech."
         },
         {
           "de": "Er heizt das Feuer an.",
@@ -3443,7 +1589,7 @@ const A2_WORDS = [
         },
         {
           "de": "Bitte heiz den Grill an.",
-          "lv": "Prosím zapalte gril."
+          "lv": "Prosím, rozpal gril."
         },
         {
           "de": "Seine Worte haben den Streit angeheizt.",
@@ -3453,12 +1599,12 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "anheizen",
-          "meaning": "Zapálit / zapálit",
+          "meaning": "Rozpálit / rozdmýchat",
           "example": "Ich heize den Ofen an. = Zapaluji troubu."
         },
         {
           "word": "heizen",
-          "meaning": "Zahřát / zahřát",
+          "meaning": "Topit / vytápět",
           "example": "Wir heizen die Wohnung. = Vytápíme byt."
         },
         {
@@ -3475,7 +1621,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "U Ofen, Feuer nebo Grill znamená anheizen zapálit nebo zahřát."
+            "text": "U slov Ofen, Feuer nebo Grill znamená anheizen „zatopit“, „rozdělat“ nebo „rozpálit“."
           },
           {
             "text": "U Stimmung, Diskussion nebo Streit to často znamená eskalaci situace."
@@ -3484,7 +1630,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Anheizen může být doslovný nebo obrazný.",
-        "example": "Ofen anheizen = iekurt krāsni. Streit anheizen = saasināt strīdu."
+        "example": "Ofen anheizen = zatopit v kamnech. Streit anheizen = vyhrotit spor."
       },
       "accents": {
         "blue": [
@@ -3498,13 +1644,13 @@ const A2_WORDS = [
           "Iekuru"
         ],
         "yellow": [
-          "Uzkurināt",
+          "Rozdmýchat",
           "Uzkurina",
-          "Uzkurināja"
+          "Rozdmýchal"
         ],
         "red": [
-          "Saasināt",
-          "Saasināja",
+          "Vyhrotit",
+          "Vyhrotil",
           "Verschärfen"
         ],
         "purple": [
@@ -3514,71 +1660,7 @@ const A2_WORDS = [
           "Diskussion"
         ]
       },
-      "sectionAccents": {
-        "tip": {
-          "leftBlocks": [
-            {
-              "text": {
-                "blue": [
-                  "anheizen"
-                ],
-                "purple": [
-                  "iekurt",
-                  "uzkurināt"
-                ],
-                "yellow": [
-                  "Ofen",
-                  "Feuer",
-                  "Grill"
-                ]
-              }
-            },
-            {
-              "text": {
-                "blue": [
-                  "anheizen"
-                ],
-                "purple": [
-                  "saasināt"
-                ],
-                "green": [
-                  "Stimmung",
-                  "Diskussion",
-                  "Streit"
-                ]
-              }
-            }
-          ]
-        },
-        "important": [
-          {
-            "text": {
-              "blue": [
-                "anheizen"
-              ],
-              "purple": [
-                "Anheizen",
-                "Anheizen"
-              ]
-            },
-            "example": {
-              "blue": [
-                "anheizen"
-              ],
-              "purple": [
-                "iekurt",
-                "saasināt"
-              ],
-              "yellow": [
-                "Ofen",
-                "krāsni",
-                "Streit",
-                "strīdu"
-              ]
-            }
-          }
-        ]
-      }
+      "sectionAccents": "spor"
     }
   },
   {
@@ -3602,7 +1684,7 @@ const A2_WORDS = [
   },
   {
     "de": "ankleiden",
-    "lv": "Oblékat se",
+    "lv": "Obléci",
     "level": "A2"
   },
   {
@@ -3626,12 +1708,12 @@ const A2_WORDS = [
     "de": "Anlass",
     "de_article": "der",
     "de_plural": "die Anlässe",
-    "lv": "Důvod • Případ",
+    "lv": "Důvod",
     "level": "A2"
   },
   {
     "de": "anlässlich",
-    "lv": "Kvůli",
+    "lv": "U příležitosti",
     "level": "A2"
   },
   {
@@ -3642,7 +1724,7 @@ const A2_WORDS = [
       "id": "a2-anlegen",
       "layout": "standardStudy",
       "translation": "Přiložit",
-      "explanation": "Hlavní myšlenka: anlegen znamená oblékat, oblékat, investovat nebo tvořit v závislosti na předmětu. anlegen je sloveso v množném čísle. U oblečení nebo bezpečnostního pásu to může znamenat „nasadit“. Pro peníze to znamená „investovat“. U souborů, složek nebo profilu to může znamenat „vytvořit“. Rukama nebo nástrojem to může znamenat „obléknout si něco“.",
+      "explanation": "Hlavní myšlenka: anlegen znamená nasadit, přiložit, investovat nebo vytvořit v závislosti na kontextu. anlegen je mnohoznačné sloveso. U oblečení nebo bezpečnostního pásu může znamenat „nasadit“. U peněz znamená „investovat“. U souborů, složek nebo profilu může znamenat „vytvořit“. S rukama nebo nástrojem může znamenat „přiložit něco k něčemu“.",
       "examples": [
         {
           "de": "Bitte legen Sie den Sicherheitsgurt an.",
@@ -3672,12 +1754,12 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "anlegen",
-          "meaning": "Uložit / investovat / vytvořit",
+          "meaning": "Nasadit / investovat / vytvořit",
           "example": "Ich lege Geld an. = Investuji peníze."
         },
         {
           "word": "legen",
-          "meaning": "Položit se",
+          "meaning": "Položit",
           "example": "Ich lege das Buch auf den Tisch. = Položil jsem knihu na stůl."
         },
         {
@@ -3703,292 +1785,28 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Gurt anlegen = zapnout bezpečnostní pás.",
-        "example": "Geld anlegen = ieguldīt naudu. Konto anlegen = izveidot kontu. Verband anlegen = uzlikt pārsēju."
+        "example": "Geld anlegen = investovat peníze. Konto anlegen = vytvořit účet. Verband anlegen = přiložit obvaz."
       },
-      "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "green": [
-                "legen"
-              ],
-              "blue": [
-                "Sicherheitsgurt",
-                "Bitte",
-                "legen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Prosím",
-                "Prosím",
-                "Prosím",
-                "Prosím"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Geld",
-                "legt",
-                "sein"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Dobře",
-                "Dobře",
-                "Dobře",
-                "Dobře"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "anlegen",
-                "möchte",
-                "Konto",
-                "neues"
-              ]
-            },
-            "lv": {
-              "red": [
-                "Chci"
-              ],
-              "purple": [
-                "Chci",
-                "Chci",
-                "Chci",
-                "Chci"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Verband",
-                "legt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Aplikuje",
-                "Aplikuje"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "legen"
-              ],
-              "blue": [
-                "Datei",
-                "legen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Vytvoříme",
-                "Vytvoříme"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Gerät",
-                "Arzt",
-                "legt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Lékař",
-                "Lékař",
-                "Lékař",
-                "Lékař"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "anlegen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Uložit"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Ich",
-                "Ich",
-                "Geld",
-                "lege"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "legen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Položit",
-                "Položit",
-                "Položit"
-              ]
-            },
-            "example": {
-              "green": [
-                "Ich",
-                "Ich",
-                "Ich",
-                "Tisch",
-                "Buch",
-                "lege"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "investieren"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Investovat"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "investiere",
-                "Ich",
-                "Ich",
-                "Geld"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "erstellen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Vytvořit"
-              ]
-            },
-            "example": {
-              "red": [
-                "Ich",
-                "erstelle",
-                "Konto",
-                "Konto"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "leftBlocks": [
-            {
-              "text": {
-                "blue": [
-                  "anlegen"
-                ],
-                "yellow": [
-                  "kontekstā",
-                  "ieguldīt",
-                  "anlegen",
-                  "Naudas"
-                ]
-              }
-            },
-            {
-              "text": {
-                "blue": [
-                  "anlegen"
-                ],
-                "red": [
-                  "izveidot"
-                ],
-                "yellow": [
-                  "izveidot",
-                  "anlegen",
-                  "Datorā",
-                  "Datei",
-                  "Konto"
-                ]
-              }
-            }
-          ]
-        },
-        "important": [
-          {
-            "text": {
-              "blue": [
-                "anlegen"
-              ],
-              "red": [
-                "Gurt",
-                "Gurt",
-                "anlegen",
-                "kontu",
-                "Gurt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "anlegen"
-              ],
-              "green": [
-                "uzlikt"
-              ],
-              "yellow": [
-                "ieguldīt"
-              ],
-              "red": [
-                "ieguldīt",
-                "izveidot",
-                "anlegen",
-                "Konto",
-                "naudu",
-                "Geld"
-              ]
-            }
-          }
-        ]
-      },
+      "sectionAccents": "V počítači",
       "accents": {
         "blue": [
-          "Daudznozīmīgs",
+          "Mnohoznačný",
           "StandardStudy",
-          "Apģērbam",
-          "Darbības",
-          "Drošības",
-          "Ieguldīt",
+          "Oblečení",
+          "Činnosti",
+          "Bezpečnosti",
+          "Investovat",
           "Izveidot",
           "Profilam",
           "Anlegen",
           "Failiem",
-          "Nozīmēt",
+          "Znamenat",
           "Pielikt",
           "Jostai",
           "Naudai",
           "Uzlikt",
-          "Mapēm",
-          "Vārds"
+          "Složkám",
+          "Slovo"
         ],
         "green": [
           "Uzlikt",
@@ -3996,15 +1814,15 @@ const A2_WORDS = [
         ],
         "yellow": [
           "Investieren",
-          "Ieguldīt"
+          "Investovat"
         ],
         "orange": [
           "Pielikt"
         ],
         "purple": [
-          "Pielikt • Uzlikt • Ieguldīt • Izveidot",
-          "Uzlikt / ieguldīt / izveidot",
-          "Nolikt guļus"
+          "Přiložit • Nasadit • Investovat • Vytvořit",
+          "Nasadit / investovat / vytvořit",
+          "Položit"
         ],
         "red": [
           "Erstellen",
@@ -4017,18 +1835,18 @@ const A2_WORDS = [
     "de": "Anleitung",
     "de_article": "die",
     "de_plural": "die Anleitungen",
-    "lv": "Návod • Návod",
+    "lv": "Návod",
     "level": "A2"
   },
   {
     "de": "anmelden",
-    "lv": "Uplatnit",
+    "lv": "Přihlásit se",
     "level": "A2",
     "study": {
       "id": "a2-anmelden",
       "layout": "standardStudy",
-      "translation": "Uplatnit",
-      "explanation": "Hlavní myšlenka: anmelden znamená přihlásit se, zaregistrovat, zapsat nebo oznámit v oficiální nebo praktické situaci. anmelden znamená přihlásit nebo zaregistrovat osobu, věc nebo členství. Používá se pro kurzy, školy, akce a systémy. Anmelden k lékaři může znamenat udělat si poznámku nebo požádat o návštěvu. Na počítači nebo aplikaci znamená sich anmelden přihlásit se nebo zaregistrovat. V některých kontextech znamená anmelden oznámit, že někdo přichází nebo že se něco registruje.",
+      "translation": "Přihlásit se",
+      "explanation": "Anmelden u lékaře může znamenat objednat se nebo zaregistrovat se.",
       "examples": [
         {
           "de": "Ich melde mich zum Kurs an.",
@@ -4063,12 +1881,12 @@ const A2_WORDS = [
         },
         {
           "word": "sich anmelden",
-          "meaning": "Aplikovat / připojit",
+          "meaning": "Přihlásit se / zaregistrovat se",
           "example": "Melden Sie sich bitte an. = Přihlaste se prosím."
         },
         {
           "word": "registrieren",
-          "meaning": "Rejstřík",
+          "meaning": "Registrovat",
           "example": "Ich registriere mein Konto. = Zaregistroval jsem svůj účet."
         },
         {
@@ -4088,328 +1906,59 @@ const A2_WORDS = [
             "text": "Anmelden obvykle znamená přihlásit se na kurz, test nebo akci."
           },
           {
-            "text": "U lékaře nebo instituce anmelden často znamená zaregistrovat se nebo zaregistrovat."
+            "text": "U lékaře nebo instituce anmelden často znamená objednat se nebo zaregistrovat se."
           }
         ]
       },
       "important": {
         "text": "Anmelden může být s nebo bez sich.",
-        "example": "Ich melde mich an = es piesakos. Ich melde mein Kind an = es reģistrēju bērnu. Ich melde das Problem = es paziņoju par problēmu."
+        "example": "Ich melde mich an = přihlašuji se. Ich melde mein Kind an = přihlašuji své dítě. Ich melde das Problem an = oznamuji problém."
       },
-      "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "melde",
-                "Kurs",
-                "mich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hlásím",
-                "Hlásím"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "meldet",
-                "Schule",
-                "Kind"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Přihlásí",
-                "Přihlásí",
-                "školy"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "anmelden",
-                "Arzt",
-                "beim",
-                "Kann",
-                "mich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Mohu",
-                "Mohu",
-                "Mohu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "purple": [
-                "melden"
-              ],
-              "blue": [
-                "melden",
-                "online",
-                "Bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Prosím",
-                "Prosím",
-                "Prosím"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Besuch",
-                "meldet",
-                "vorher"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Návštěvu",
-                "Návštěvu",
-                "Návštěvu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "angemeldet",
-                "mich",
-                "Test"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Přihlásil",
-                "Přihlásil"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "anmelden"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Přihlásit",
-                "Přihlásit",
-                "Přihlásit",
-                "Přihlásit"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Ich",
-                "melde",
-                "mich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "sich anmelden",
-                "anmelden"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Aplikovat",
-                "Aplikovat",
-                "Aplikovat"
-              ]
-            },
-            "example": {
-              "purple": [
-                "melden"
-              ],
-              "green": [
-                "Melden",
-                "Melden",
-                "bitte",
-                "Melden"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "registrieren"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Rejstřík"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "registriere",
-                "Ich",
-                "Konto",
-                "Konto",
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "buchen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Rezervovat"
-              ]
-            },
-            "example": {
-              "red": [
-                "Ich",
-                "Termin",
-                "buche",
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "purple": [
-                "melden"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Nahlásit"
-              ]
-            },
-            "example": {
-              "purple": [
-                "Problem",
-                "problem",
-                "Ich",
-                "melde"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "leftBlocks": [
-            {
-              "text": {
-                "blue": [
-                  "anmelden"
-                ],
-                "orange": [
-                  "pieteikties"
-                ],
-                "yellow": [
-                  "anmelden",
-                  "pasākumu",
-                  "kursu",
-                  "testu"
-                ]
-              }
-            },
-            {
-              "text": {
-                "blue": [
-                  "anmelden"
-                ],
-                "yellow": [
-                  "pierakstīties",
-                  "anmelden",
-                  "iestādi",
-                  "ārstu",
-                  "bieži"
-                ]
-              }
-            }
-          ]
-        },
-        "important": [
-          {
-            "text": {
-              "blue": [
-                "anmelden"
-              ],
-              "red": [
-                "anmelden"
-              ]
-            },
-            "example": {
-              "red": [
-                "reģistrēju",
-                "piesakos",
-                "bērnu",
-                "melde",
-                "Kind",
-                "mich"
-              ]
-            }
-          }
-        ]
-      },
+      "sectionAccents": "dítě",
       "accents": {
         "blue": [
           "StandardStudy",
-          "Pasākumiem",
-          "Pierakstīt",
-          "Reģistrēt",
+          "Akcím",
+          "Objednat",
+          "Registrovat",
           "Anmelden",
           "Pieteikt",
-          "Sistēmām",
-          "Cilvēku",
+          "Systémům",
+          "Člověka",
           "Kursiem",
-          "Nozīmēt",
-          "Paziņot",
-          "Dalību",
+          "Znamenat",
+          "Oznámit",
+          "Účast",
           "Skolai",
-          "Vizīti",
-          "Ārsta",
+          "Návštěvu",
+          "Lékaře",
           "Lieto",
           "Lietu"
         ],
         "green": [
           "Sich anmelden",
-          "Pieslēgties",
-          "Reģistrēt"
+          "Přihlásit se",
+          "Registrovat"
         ],
         "yellow": [
           "Registrieren",
-          "Pierakstīt"
+          "Objednat"
         ],
         "orange": [
           "Pieteikties",
           "Pieteikt",
-          "Ziņot"
+          "Nahlásit"
         ],
         "purple": [
-          "Pieteikt • Reģistrēt • Pierakstīt • Paziņot",
-          "Pieteikt / reģistrēt / pierakstīt",
-          "Pieteikties / pieslēgties",
-          "Ziņot / paziņot",
-          "Rezervēt",
+          "Přihlásit • Registrovat • Objednat • Oznámit",
+          "Přihlásit / registrovat / objednat",
+          "Přihlásit se / připojit se",
+          "Nahlásit / oznámit",
+          "Rezervovat",
           "Melden"
         ],
         "red": [
-          "Paziņot",
+          "Oznámit",
           "Buchen"
         ]
       }
@@ -4419,7 +1968,7 @@ const A2_WORDS = [
     "de": "Anmeldung",
     "de_article": "die",
     "de_plural": "die Anmeldungen",
-    "lv": "Aplikace • Registrace",
+    "lv": "Přihláška",
     "level": "A2"
   },
   {
@@ -4429,14 +1978,14 @@ const A2_WORDS = [
   },
   {
     "de": "anordnen",
-    "lv": "Objednat • Zařídit",
+    "lv": "Nařídit",
     "level": "A2"
   },
   {
     "de": "Anordnung",
     "de_article": "die",
     "de_plural": "die Anordnungen",
-    "lv": "Objednávka • Uspořádání",
+    "lv": "Nařízení",
     "level": "A2"
   },
   {
@@ -4452,7 +2001,7 @@ const A2_WORDS = [
       "id": "a2-anstecken",
       "layout": "standardStudy",
       "translation": "Připnout",
-      "explanation": "Hlavní myšlenka: anstecken znamená připnout, zapálit nebo infikovat, v závislosti na předmětu. anstecken může znamenat připnout něco na oděv. Může to také znamenat zapálení svíčky nebo cigarety. V lékařství znamená anstecken někoho nakazit. sich anstecken znamená nakazit se. Toto slovo má několik zcela odlišných významů.",
+      "explanation": "anstecken znamená připnout, zapálit nebo nakazit... Může to také znamenat zapálit svíčku nebo cigaretu.",
       "examples": [
         {
           "de": "Sie steckt sich eine Brosche an.",
@@ -4476,7 +2025,7 @@ const A2_WORDS = [
         },
         {
           "de": "Grippe steckt leicht an.",
-          "lv": "Chřipka je snadno nakažlivá."
+          "lv": "Chřipka se snadno přenáší."
         }
       ],
       "comparison": [
@@ -4487,7 +2036,7 @@ const A2_WORDS = [
         },
         {
           "word": "stecken",
-          "meaning": "Tykat / být",
+          "meaning": "Strčit / být zasunutý",
           "example": "Der Schlüssel steckt im Schloss. = Klíč je v zámku."
         },
         {
@@ -4497,7 +2046,7 @@ const A2_WORDS = [
         },
         {
           "word": "sich anstecken",
-          "meaning": "Infikovat se",
+          "meaning": "Nakazit se",
           "example": "Ich habe mich angesteckt. = Nakazil jsem se."
         }
       ],
@@ -4513,303 +2062,46 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Jemanden anstecken = nakazit někoho.",
-        "example": "Sich anstecken = inficēties. eine Brosche anstecken = piespraust brošu. eine Kerze anstecken = aizdedzināt sveci."
+        "example": "Sich anstecken = nakazit se. Eine Brosche anstecken = připnout brož. Eine Kerze anstecken = zapálit svíčku."
       },
-      "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "Brosche",
-                "steckt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Připne",
-                "Připne"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "steckt",
-                "Kerze"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Zapaluje",
-                "Zapaluje"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "angesteckt",
-                "Kind",
-                "mich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "dítě",
-                "dítě",
-                "dítě"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "anstecken",
-                "möchte",
-                "mich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Nechci",
-                "Nechci"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Mikrofon",
-                "steckt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "mikrofon",
-                "Připne"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Grippe",
-                "leicht",
-                "steckt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Chřipka",
-                "Chřipka",
-                "Chřipka"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "anstecken"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Připíchnout",
-                "Připíchnout",
-                "Připíchnout",
-                "Připíchnout"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Ich",
-                "stecke",
-                "Kerze",
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "stecken"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Tykat",
-                "Tykat",
-                "Tykat"
-              ]
-            },
-            "example": {
-              "green": [
-                "Schlüssel",
-                "Der",
-                "Der",
-                "Schloss",
-                "steckt"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "anzünden"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Zapálit"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Ich",
-                "Kerze",
-                "Ich",
-                "zünde"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "sich anstecken",
-                "anstecken"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Infikovat"
-              ]
-            },
-            "example": {
-              "red": [
-                "angesteckt",
-                "Ich",
-                "mich"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "leftBlocks": [
-            {
-              "text": {
-                "blue": [
-                  "anstecken"
-                ],
-                "yellow": [
-                  "inficēties",
-                  "anstecken",
-                  "slimībām",
-                  "inficēt"
-                ],
-                "purple": [
-                  "inficēties"
-                ]
-              }
-            },
-            {
-              "text": {
-                "blue": [
-                  "anstecken"
-                ],
-                "orange": [
-                  "piespraust"
-                ],
-                "yellow": [
-                  "piespraust",
-                  "anstecken",
-                  "mikrofonu",
-                  "nozīmīti",
-                  "brošu"
-                ]
-              }
-            }
-          ]
-        },
-        "important": [
-          {
-            "text": {
-              "blue": [
-                "anstecken"
-              ],
-              "yellow": [
-                "inficēt"
-              ],
-              "red": [
-                "anstecken",
-                "jemanden",
-                "inficēt",
-                "Jemanden"
-              ]
-            },
-            "example": {
-              "blue": [
-                "anstecken"
-              ],
-              "green": [
-                "aizdedzināt"
-              ],
-              "orange": [
-                "piespraust"
-              ],
-              "purple": [
-                "inficēties"
-              ],
-              "red": [
-                "sich anstecken",
-                "inficēties",
-                "piespraust",
-                "anstecken",
-                "Brosche",
-                "brošu"
-              ]
-            }
-          }
-        ]
-      },
+      "sectionAccents": "zapálit",
       "accents": {
         "blue": [
           "StandardStudy",
-          "Aizdedzināt",
-          "Atšķirīgas",
-          "Inficēties",
+          "Zapálit",
+          "Odlišné",
+          "Nakazit se",
           "Piespraust",
           "Anstecken",
           "Cigareti",
-          "Medicīnā",
-          "Vairākas",
-          "Apģērba",
+          "V medicíně",
+          "Několik",
+          "Oblečení",
           "Diezgan",
-          "Inficēt",
-          "Nozīmēt",
-          "Vārdam",
+          "Nakazit",
+          "Znamenat",
+          "Slovo",
           "Sveci",
-          "Kādu"
+          "Někoho"
         ],
         "green": [
-          "Aizdedzināt",
+          "Zapálit",
           "Atrasties",
           "Stecken"
         ],
         "yellow": [
           "Anzünden",
-          "Inficēt"
+          "Nakazit"
         ],
         "orange": [
           "Piespraust",
-          "Bāzt"
+          "Strčit"
         ],
         "purple": [
-          "Piespraust / aizdedzināt / inficēt",
-          "Piespraust • Aizdedzināt • Inficēt",
-          "Bāzt / atrasties",
-          "Inficēties"
+          "Připnout / zapálit / nakazit",
+          "Připnout • Zapálit • Nakazit",
+          "Strčit / být zasunutý",
+          "Nakazit se"
         ],
         "red": [
           "Sich anstecken"
@@ -4819,7 +2111,7 @@ const A2_WORDS = [
   },
   {
     "de": "ansteckend",
-    "lv": "Nakažlivý • Nakažlivý",
+    "lv": "Nakažlivý",
     "level": "A2"
   },
   {
@@ -4830,7 +2122,7 @@ const A2_WORDS = [
       "id": "a2-anstellen",
       "layout": "standardStudy",
       "translation": "Zapnout",
-      "explanation": "Hlavní myšlenka: anstellen znamená zapnout, najmout, postavit se do řady nebo něco udělat v závislosti na kontextu. anstellen je velmi všestranné sloveso. S osobou to může znamenat „nábor“. U spotřebiče nebo topení to může znamenat „zapnout“. sich anstellen znamená stát ve frontě. Hovorově znamená etwas anstellen něco dělat nebo dělat.",
+      "explanation": "U osoby to může znamenat „zaměstnat“ nebo „přijmout do práce“. Hovorově etwas anstellen znamená něco provést nebo vyvést.",
       "examples": [
         {
           "de": "Die Firma stellt neue Mitarbeiter an.",
@@ -4846,7 +2138,7 @@ const A2_WORDS = [
         },
         {
           "de": "Was hast du wieder angestellt?",
-          "lv": "Co jsi zase udělal"
+          "lv": "Co jsi zase provedl?"
         },
         {
           "de": "Er wurde als Fahrer angestellt.",
@@ -4854,18 +2146,18 @@ const A2_WORDS = [
         },
         {
           "de": "Stell dich bitte nicht so an.",
-          "lv": "Prosím nedělejte si z toho problém."
+          "lv": "Prosím, nedělej z toho takový problém."
         }
       ],
       "comparison": [
         {
           "word": "anstellen",
-          "meaning": "Najmout / zapnout / vyrobit",
+          "meaning": "Zaměstnat / zapnout / provést",
           "example": "Die Firma stellt ihn an. = Firma ho zaměstnává."
         },
         {
           "word": "einstellen",
-          "meaning": "Rekrutovat / set",
+          "meaning": "Zaměstnat / nastavit",
           "example": "Wir stellen neue Leute ein. = Nabíráme nové lidi."
         },
         {
@@ -4882,7 +2174,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Zaměstnáním anstellen často znamená najmout."
+            "text": "V pracovním kontextu anstellen často znamená zaměstnat."
           },
           {
             "text": "Sich anstellen je velmi hovorový výraz pro frontu."
@@ -4891,334 +2183,66 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Jemanden anstellen = najmout někoho.",
-        "example": "Sich anstellen = nostāties rindā. etwas anstellen = kaut ko sadarīt. Stell dich nicht so an! = Netaisi tādu problēmu!"
+        "example": "Sich anstellen = postavit se do fronty. Etwas anstellen = něco provést. Stell dich nicht so an! = Nedělej z toho takový problém!"
       },
-      "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "Mitarbeiter",
-                "stellt",
-                "Firma",
-                "neue"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Společnost",
-                "Společnost",
-                "Společnost",
-                "Společnost",
-                "Společnost"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "anstellen",
-                "Heizung",
-                "Kannst"
-              ]
-            },
-            "lv": {
-              "orange": [
-                "Můžeš"
-              ],
-              "purple": [
-                "Můžeš",
-                "Můžeš",
-                "Můžeš"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "stellen",
-                "hinten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Stojíme",
-                "Stojíme",
-                "Stojíme"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "angestellt",
-                "wieder"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "jsi",
-                "jsi"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "angestellt",
-                "Fahrer",
-                "wurde"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Byl",
-                "Byl",
-                "Byl",
-                "Byl"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte",
-                "Stell",
-                "dich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "problém",
-                "Prosím",
-                "Prosím"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "anstellen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Najmout",
-                "Najmout",
-                "Najmout",
-                "Najmout",
-                "Najmout"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Die",
-                "stellt",
-                "Die",
-                "Firma",
-                "Die"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "einstellen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Rekrutovat",
-                "Rekrutovat",
-                "Rekrutovat",
-                "Rekrutovat"
-              ]
-            },
-            "example": {
-              "green": [
-                "Wir",
-                "stellen",
-                "Wir",
-                "Wir",
-                "Leute",
-                "neue"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "anschalten"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Zapnout"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Ich",
-                "schalte",
-                "Ich",
-                "Licht"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "sich anstellen",
-                "anstellen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Stát",
-                "Stát"
-              ]
-            },
-            "example": {
-              "red": [
-                "Ich",
-                "stelle",
-                "Ich",
-                "mich"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "leftBlocks": [
-            {
-              "text": {
-                "blue": [
-                  "anstellen"
-                ],
-                "green": [
-                  "pieņemt darbā"
-                ],
-                "yellow": [
-                  "anstellen",
-                  "pieņemt",
-                  "bieži",
-                  "darbā",
-                  "darbu"
-                ]
-              }
-            },
-            {
-              "text": {
-                "blue": [
-                  "anstellen"
-                ],
-                "red": [
-                  "sich anstellen"
-                ],
-                "yellow": [
-                  "ikdienišķs",
-                  "izteiciens",
-                  "stāvēšanai",
-                  "anstellen",
-                  "rindā"
-                ]
-              }
-            }
-          ]
-        },
-        "important": [
-          {
-            "text": {
-              "blue": [
-                "anstellen"
-              ],
-              "red": [
-                "anstellen",
-                "jemanden",
-                "Jemanden",
-                "Jemanden",
-                "tādu"
-              ]
-            },
-            "example": {
-              "blue": [
-                "anstellen"
-              ],
-              "yellow": [
-                "nostāties rindā",
-                "sadarīt"
-              ],
-              "red": [
-                "sich anstellen",
-                "anstellen",
-                "nostāties",
-                "sadarīt",
-                "etwas",
-                "rindā"
-              ]
-            }
-          }
-        ]
-      },
+      "sectionAccents": "postavit se",
       "accents": {
         "blue": [
-          "Daudznozīmīgs",
+          "Mnohoznačný",
           "StandardStudy",
-          "Sarunvalodā",
+          "Hovorově",
           "Anstellen",
-          "Nostāties",
-          "Darbības",
-          "Cilvēku",
-          "Ieslēgt",
-          "Sadarīt",
-          "Nozīmēt",
-          "Pieņemt",
+          "Postavit se",
+          "Činnosti",
+          "Člověka",
+          "Zapnout",
+          "Provést",
+          "Znamenat",
+          "Přijmout",
           "Apkuri",
-          "Ierīci",
-          "Darbā",
-          "Rindā",
-          "Vārds"
+          "Zařízení",
+          "Do práce",
+          "Ve frontě",
+          "Slovo"
         ],
         "green": [
-          "Pieņemt darbā",
+          "Zaměstnat",
           "Einstellen",
-          "Iestatīt"
+          "Nastavit"
         ],
         "yellow": [
-          "Nostāties rindā",
+          "Postavit se do fronty",
           "Anschalten",
-          "Sadarīt"
+          "Provést"
         ],
         "orange": [
-          "Ieslēgt"
+          "Zapnout"
         ],
         "purple": [
-          "Ieslēgt • Pieņemt darbā • Nostāties rindā • Sadarīt",
-          "Pieņemt darbā / ieslēgt / sadarīt",
-          "Pieņemt darbā / iestatīt"
+          "Zapnout • Zaměstnat • Postavit se do fronty • Provést",
+          "Zaměstnat / zapnout / provést",
+          "Zaměstnat / nastavit"
         ],
         "red": [
           "Sich anstellen",
-          "Sadarīt"
+          "Provést"
         ]
       }
     }
   },
   {
     "de": "anstreichen",
-    "lv": "Barva • Podtrhnout",
+    "lv": "Natřít",
     "level": "A2"
   },
   {
     "de": "anstrengend",
-    "lv": "Vyčerpávající • Napjatý",
+    "lv": "Náročný",
     "level": "A2",
     "study": {
       "id": "a2-anstrengend",
       "layout": "minimalStudy",
-      "translation": "Vyčerpávající • Napjatý",
+      "translation": "Náročný",
       "accent": "blue",
       "examples": [
         {
@@ -5227,7 +2251,7 @@ const A2_WORDS = [
         },
         {
           "de": "Das war ein anstrengender Tag.",
-          "lv": "Byl to stresující (únavný) den."
+          "lv": "Byl to náročný (únavný) den."
         },
         {
           "de": "Deutsch lernen kann anstrengend sein.",
@@ -5245,7 +2269,7 @@ const A2_WORDS = [
   },
   {
     "de": "anwenden",
-    "lv": "Použití",
+    "lv": "Použít",
     "level": "A2"
   },
   {
@@ -5257,7 +2281,7 @@ const A2_WORDS = [
   },
   {
     "de": "anwesend",
-    "lv": "Současnost",
+    "lv": "Přítomný",
     "level": "A2"
   },
   {
@@ -5271,7 +2295,7 @@ const A2_WORDS = [
     "de": "Anzahl",
     "de_article": "die",
     "de_plural": "die Anzahlen",
-    "lv": "Číslo",
+    "lv": "Počet",
     "level": "A2"
   },
   {
@@ -5290,7 +2314,7 @@ const A2_WORDS = [
     "de": "Apotheke",
     "de_article": "die",
     "de_plural": "die Apotheken",
-    "lv": "LÉKÁRNA",
+    "lv": "Lékárna",
     "level": "A2"
   },
   {
@@ -5304,7 +2328,7 @@ const A2_WORDS = [
     "de": "Äquator",
     "de_article": "der",
     "de_plural": "die Äquatoren",
-    "lv": "Rovníku",
+    "lv": "Rovník",
     "level": "A2"
   },
   {
@@ -5335,7 +2359,7 @@ const A2_WORDS = [
   },
   {
     "de": "ärgerlich",
-    "lv": "Protivný • Vzteklý",
+    "lv": "Nepříjemný",
     "level": "A2"
   },
   {
@@ -5368,13 +2392,13 @@ const A2_WORDS = [
     "de": "Art",
     "de_article": "die",
     "de_plural": "die Arten",
-    "lv": "Cesta",
+    "lv": "Druh",
     "level": "A2",
     "study": {
       "id": "a2-art",
       "layout": "standardStudy",
-      "translation": "Cesta",
-      "explanation": "Hlavní myšlenka: die Art na úrovni A2 nejčastěji znamená typ. Velmi často se používá ve spojeních auf diese Art, auf welche Art, eine andere Art a welche Art. S die Art se můžete ptát, jaký druh věci, pití, práce nebo řešení je myšleno. Pouze v určitých kontextech může umění znamenat druh nebo typ. Tyto významy jsou vzácnější než hlavní významový typ.",
+      "translation": "Druh",
+      "explanation": "Pouze v určitých kontextech může Art znamenat druh nebo typ.",
       "examples": [
         {
           "de": "Auf diese Art lernen wir schneller.",
@@ -5404,7 +2428,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pokud si nejste jisti, můžete si téměř vždy myslet: die Art = cesta."
+            "text": "Pokud si nejste jisti, můžete si téměř vždy myslet: die Art = druh nebo způsob."
           },
           {
             "text": "Fráze auf diese Art, auf welche Art a eine andere Art jsou téměř vždy o typu."
@@ -5412,218 +2436,20 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Hlavní význam je „cesta“.",
-        "example": "Suga un paveids ir atkarīgi no konteksta. Šai A2 kartītei nav vajadzīga papildu retā nozīme."
+        "text": "Hlavní význam je „druh“ nebo „způsob“.",
+        "example": "Druh a typ závisí na kontextu. Pro tuto A2 kartičku není potřeba další vzácný význam."
       },
-      "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "schneller",
-                "lernen",
-                "diese",
-                "Art"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Tímto",
-                "Tímto",
-                "Tímto",
-                "Tímto"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "möchten",
-                "Kaffee",
-                "Welche",
-                "Art"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Jakou",
-                "Jakou",
-                "Jakou",
-                "Jakou"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Problem",
-                "andere",
-                "Art"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "problému",
-                "jiný",
-                "jiný"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "diese",
-                "Musik",
-                "Art"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Mám",
-                "Mám",
-                "Mám",
-                "Mám"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "brauchst",
-                "Welche",
-                "Hilfe",
-                "Art"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Jakou",
-                "Jakou",
-                "Jakou",
-                "Jakou"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Ländern",
-                "warmen",
-                "Diese",
-                "lebt",
-                "Art"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Tento",
-                "Tento",
-                "Tento",
-                "Tento",
-                "Tento"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {},
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "meaning": {},
-            "example": {}
-          }
-        ],
-        "tip": {
-          "leftBlocks": [
-            {
-              "text": {
-                "blue": [
-                  "die Art",
-                  "Art"
-                ],
-                "purple": [
-                  "veids"
-                ],
-                "yellow": [
-                  "domāt",
-                  "drošs",
-                  "neesi",
-                  "vari"
-                ]
-              }
-            },
-            {
-              "text": {
-                "blue": [
-                  "Art"
-                ],
-                "yellow": [
-                  "andere",
-                  "Frāzēs",
-                  "welche",
-                  "diese"
-                ]
-              }
-            }
-          ]
-        },
-        "important": [
-          {
-            "text": {
-              "purple": [
-                "veids"
-              ],
-              "red": [
-                "Hlavní",
-                "nozīme",
-                "veids"
-              ]
-            },
-            "example": {
-              "purple": [
-                "suga"
-              ],
-              "red": [
-                "konteksta",
-                "vajadzīga",
-                "atkarīgi",
-                "kartītei",
-                "paveids",
-                "suga"
-              ]
-            }
-          }
-        ]
-      },
+      "sectionAccents": "kartičku",
       "accents": {
         "blue": [
           "StandardStudy",
-          "Risinājums",
-          "Dzēriens",
+          "Řešení",
+          "Nápoj",
           "Die Art",
           "Andere",
-          "Domāts",
-          "Frāzēs",
-          "Jautāt",
+          "Míněno",
+          "Ve frázích",
+          "Ptát se",
           "Welche",
           "Bieži",
           "Darbs",
@@ -5632,12 +2458,12 @@ const A2_WORDS = [
           "Lieto",
           "Veida",
           "Veids",
-          "Kāda",
+          "Jaký",
           "Art"
         ],
         "green": [
-          "Cilvēka tips",
-          "Paņēmiens"
+          "Typ člověka",
+          "Způsob"
         ],
         "yellow": [
           "Der Typ",
@@ -5647,10 +2473,10 @@ const A2_WORDS = [
           "Tips"
         ],
         "purple": [
-          "Tips / cilvēka tips",
-          "Veids / paņēmiens",
+          "Typ / typ člověka",
+          "Druh / způsob",
           "Die Weise",
-          "Šķirne",
+          "Typ",
           "Veids",
           "Weise",
           "Suga"
@@ -5671,13 +2497,13 @@ const A2_WORDS = [
     "de": "Artikel",
     "de_article": "der",
     "de_plural": "die Artikel",
-    "lv": "Článku",
+    "lv": "Článek",
     "level": "A2",
     "study": {
       "id": "a2-artikel",
       "layout": "standardStudy",
-      "translation": "Článku",
-      "explanation": "Hlavní myšlenka: der Artikel znamená článek, článek, článek gramatiky nebo článek zákona v závislosti na oboru. der Artikel může znamenat článek v novinách, na internetu nebo v časopise. V obchodě znamená Artikel produkt nebo předmět. V gramatice je Artikel článek jako der, die, das. V právním textu může Artikel znamenat článek zákona. Význam obvykle říká prostředí: Zeitung, Geschäft, Grammatik nebo Gesetz. Proto je třeba toto slovo číst podle kontextu.",
+      "translation": "Článek",
+      "explanation": "der Artikel znamená článek, zboží, gramatický člen nebo článek zákona... V gramatice je Artikel člen, například der, die, das.",
       "examples": [
         {
           "de": "Ich lese einen Artikel in der Zeitung.",
@@ -5701,13 +2527,13 @@ const A2_WORDS = [
         },
         {
           "de": "Artikel 5 steht im Gesetz.",
-          "lv": "Článek je v zákoně"
+          "lv": "Článek 5 je v zákoně."
         }
       ],
       "comparison": [
         {
           "word": "der Artikel",
-          "meaning": "Článek / produkt / článek / článek",
+          "meaning": "Článek / zboží / člen / článek zákona",
           "example": "Der Artikel ist kurz. = Článek je krátký."
         },
         {
@@ -5722,13 +2548,13 @@ const A2_WORDS = [
         },
         {
           "word": "der bestimmte Artikel",
-          "meaning": "Definitivní článek",
+          "meaning": "Určitý člen",
           "example": "Der bestimmte Artikel ist „der“. = Určitý člen je \"der\"."
         },
         {
           "word": "der Paragraph",
-          "meaning": "Odstavec / článek",
-          "example": "Der Paragraph ist wichtig. = Důležitý je verš."
+          "meaning": "Paragraf / článek",
+          "example": "Der Paragraph ist wichtig. = Paragraf je důležitý."
         }
       ],
       "tip": {
@@ -5737,371 +2563,32 @@ const A2_WORDS = [
             "text": "V textech a médiích Artikel obvykle znamená článek."
           },
           {
-            "text": "V obchodě nebo gramatice se význam Artikel mění: položka nebo předmět."
+            "text": "V obchodě nebo gramatice se význam Artikel mění: zboží nebo gramatický člen."
           }
         ]
       },
       "important": {
         "text": "Artikel je kontextové slovo.",
-        "example": "Zeitungsartikel = raksts. Artikel im Geschäft = prece. Artikel in der Grammatik = artikuls. Artikel im Gesetz = pants."
+        "example": "Zeitungsartikel = článek. Artikel im Geschäft = zboží. Artikel in der Grammatik = člen. Artikel im Gesetz = článek zákona."
       },
-      "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "Artikel",
-                "Zeitung",
-                "lese"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Čtu",
-                "Čtu",
-                "Čtu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "der Artikel",
-                "interessant",
-                "Internet",
-                "Artikel"
-              ]
-            },
-            "lv": {
-              "orange": [
-                "Článek"
-              ],
-              "purple": [
-                "Článek",
-                "internetu",
-                "Článek"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Artikel",
-                "Dieser",
-                "kostet",
-                "Euro",
-                "zehn"
-              ]
-            },
-            "lv": {
-              "green": [
-                "Tato"
-              ],
-              "purple": [
-                "deset",
-                "Tato",
-                "Tato",
-                "Tato"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "der Artikel",
-                "Angebot",
-                "Artikel"
-              ]
-            },
-            "lv": {
-              "green": [
-                "Toto"
-              ],
-              "purple": [
-                "Toto",
-                "Toto",
-                "Toto"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "der Artikel",
-                "Artikel",
-                "Haus"
-              ]
-            },
-            "lv": {
-              "yellow": [
-                "Člen"
-              ],
-              "purple": [
-                "Člen",
-                "Člen",
-                "haus"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Artikel",
-                "Gesetz",
-                "steht"
-              ]
-            },
-            "lv": {
-              "red": [
-                "Článek"
-              ],
-              "purple": [
-                "Článek",
-                "Článek"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "der Artikel",
-                "Artikel"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Článek",
-                "Článek",
-                "Článek",
-                "Článek"
-              ]
-            },
-            "example": {
-              "blue": [
-                "der Artikel",
-                "Artikel",
-                "Der",
-                "kurz"
-              ],
-              "orange": [
-                "Der"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "der Zeitungsartikel",
-                "Zeitungsartikel"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Novinový",
-                "Novinový",
-                "Novinový"
-              ]
-            },
-            "example": {
-              "green": [
-                "der Zeitungsartikel",
-                "Zeitungsartikel",
-                "Der",
-                "Der",
-                "Der"
-              ],
-              "orange": [
-                "Der"
-              ],
-              "purple": [
-                "Der"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "die Ware",
-                "Ware"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Položka"
-              ]
-            },
-            "example": {
-              "green": [
-                "Die"
-              ],
-              "yellow": [
-                "die Ware",
-                "Die",
-                "Die",
-                "teuer",
-                "Ware"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "der bestimmte Artikel",
-                "bestimmte Artikel",
-                "bestimmte",
-                "Artikel"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Definitivní",
-                "Definitivní",
-                "Definitivní"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Artikel"
-              ],
-              "yellow": [
-                "Artikel"
-              ],
-              "purple": [
-                "Der"
-              ],
-              "red": [
-                "der bestimmte Artikel",
-                "bestimmte Artikel",
-                "Der",
-                "bestimmte",
-                "Artikel",
-                "Artikel"
-              ]
-            }
-          },
-          {
-            "word": {
-              "purple": [
-                "der Paragraph",
-                "paragraph"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Odstavec"
-              ]
-            },
-            "example": {
-              "purple": [
-                "der Paragraph",
-                "paragraph",
-                "Der",
-                "wichtig",
-                "Der"
-              ],
-              "red": [
-                "Der"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "leftBlocks": [
-            {
-              "text": {
-                "blue": [
-                  "Artikel"
-                ],
-                "orange": [
-                  "raksts"
-                ],
-                "yellow": [
-                  "Artikel",
-                  "medijos",
-                  "Tekstos",
-                  "raksts"
-                ]
-              }
-            },
-            {
-              "text": {
-                "blue": [
-                  "Artikel"
-                ],
-                "green": [
-                  "prece"
-                ],
-                "yellow": [
-                  "gramatikā",
-                  "artikuls",
-                  "Artikel",
-                  "Veikalā",
-                  "mainās",
-                  "nozīme",
-                  "prece"
-                ]
-              }
-            }
-          ]
-        },
-        "important": [
-          {
-            "text": {
-              "blue": [
-                "Artikel"
-              ],
-              "red": [
-                "Artikel",
-                "Artikel",
-                "Artikel"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Artikel"
-              ],
-              "green": [
-                "Zeitungsartikel",
-                "prece"
-              ],
-              "yellow": [
-                "artikuls"
-              ],
-              "orange": [
-                "raksts"
-              ],
-              "red": [
-                "Zeitungsartikel",
-                "Grammatik",
-                "Geschäft",
-                "Artikel",
-                "raksts",
-                "pants",
-                "prece"
-              ]
-            }
-          }
-        ]
-      },
+      "sectionAccents": "význam",
       "accents": {
         "blue": [
           "StandardStudy",
           "Der Artikel",
-          "Gramatikā",
-          "Internetā",
-          "Juridiskā",
+          "V gramatice",
+          "Na internetu",
+          "Právní",
           "Artikuls",
           "Artikulu",
-          "Piemēram",
+          "Například",
           "Artikel",
-          "Nozīmēt",
-          "Veikalā",
-          "Žurnālā",
+          "Znamenat",
+          "V obchodě",
+          "V časopise",
           "Raksts",
           "Rakstu",
-          "Avīzē",
+          "V novinách",
           "Pants",
           "Prece",
           "Preci"
@@ -6117,14 +2604,14 @@ const A2_WORDS = [
           "Ware"
         ],
         "orange": [
-          "Paragrāfs",
+          "Paragraf",
           "Raksts"
         ],
         "purple": [
           "Raksts • Prece • Artikuls • Pants",
           "Noteiktais artikuls",
-          "Paragrāfs / pants",
-          "Avīzes raksts",
+          "Paragraf / článek zákona",
+          "Novinový článek",
           "Der Paragraph",
           "Paragraph"
         ],
