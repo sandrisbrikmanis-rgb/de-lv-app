@@ -1,0 +1,3706 @@
+{
+  "title": "CS–DE A2 Repair Group 08",
+  "scope": "Unique finding cards 351–400 from reports/cs-a2-all-findings-by-card.md",
+  "authoritativeRules": [
+    "Composer is COPY-ONLY.",
+    "Copy targetObject exactly into the matching data/cs/a2.js card.",
+    "Do not translate, infer, improve, normalize, or add repairs.",
+    "Front keeps one principal Czech meaning where an explicit correction is supplied.",
+    "DE side is strictly READ-ONLY; any DE mismatch must be blocked and reported.",
+    "Do not change cards outside this group.",
+    "If cardId, production index, or current object does not match, block that card and report instead of guessing."
+  ],
+  "cards": [
+    {
+      "groupOrder": 351,
+      "productionIndex": 867,
+      "cardId": "a2-lebendig-867",
+      "targetObject": {
+        "de": "lebendig",
+        "lv": "Živý",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 352,
+      "productionIndex": 871,
+      "cardId": "a2-Leder-871",
+      "targetObject": {
+        "de": "Leder",
+        "de_article": "das",
+        "de_plural": "die Leder",
+        "lv": "Kůže",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 353,
+      "productionIndex": 873,
+      "cardId": "a2-leeren-873",
+      "targetObject": {
+        "de": "leeren",
+        "lv": "Vyprázdnit",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 354,
+      "productionIndex": 876,
+      "cardId": "a2-Leid-876",
+      "targetObject": {
+        "de": "Leid",
+        "de_article": "das",
+        "lv": "Utrpení • Žal",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 355,
+      "productionIndex": 877,
+      "cardId": "a2-leiden",
+      "targetObject": {
+        "de": "leiden",
+        "lv": "Trpět",
+        "level": "A2",
+        "study": {
+          "id": "a2-leiden",
+          "layout": "standardStudy",
+          "translation": "Trpět",
+          "explanation": [
+            "Hlavní myšlenka: Leiden nejčastěji znamená trpět bolestí, nemocí nebo obtížnou situací.",
+            "S + pro koho? znamená to být nemocný něčím nebo trpět problémem.",
+            "S unter + co? znamená to trpět za nějakých okolností nebo problémů.",
+            "Leiden může také znamenat tolerovat, ale tento význam se často objevuje v záporu: ich kann ihn nicht leiden.",
+            "Pokud se jedná pouze o fyzické onemocnění, častěji uvidíte krank sein nebo krank werden."
+          ],
+          "examples": [
+            {
+              "de": "Er leidet an Kopfschmerzen.",
+              "lv": "Trpí bolestí hlavy."
+            },
+            {
+              "de": "Viele Menschen leiden unter Stress.",
+              "lv": "Mnoho lidí trpí stresem."
+            },
+            {
+              "de": "Sie leidet an einer Allergie.",
+              "lv": "Trpí alergií."
+            },
+            {
+              "de": "Ich kann diesen Lärm nicht leiden.",
+              "lv": "Nemůžu vystát ten hluk."
+            },
+            {
+              "de": "Das Kind leidet sehr.",
+              "lv": "Dítě hodně trpí."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "leiden",
+              "meaning": "Trpět",
+              "example": "Er leidet an Kopfschmerzen. = Trpí bolestmi hlavy."
+            },
+            {
+              "word": "an etwas leiden",
+              "meaning": "Trpět / trpět",
+              "example": "Sie leidet an Asthma. = Trpí astmatem."
+            },
+            {
+              "word": "unter etwas leiden",
+              "meaning": "Trpět vlivem něčeho",
+              "example": "Wir leiden unter der Hitze. = Trpíme horkem."
+            },
+            {
+              "word": "nicht leiden können",
+              "meaning": "Nebýt schopen tolerovat",
+              "example": "Ich kann das nicht leiden. = Nemůžu to vydržet."
+            },
+            {
+              "word": "krank sein",
+              "meaning": "Být nemocný",
+              "example": "Er ist krank. = Je nemocný."
+            }
+          ],
+          "tip": [
+            "Pokud uvidíte leiden an, vzpomeňte si na nemoc nebo problém.",
+            "Pokud vidíte nicht leiden können, v překladu to nevydrží."
+          ],
+          "important": [
+            "Leiden neznamená ve všech případech jednoduše být nemocný.",
+            "Leiden an = trpět • Leiden unter = trpět okolnostmi."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "leiden",
+                "Hlavní",
+                "unter"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "problémem"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "leidet"
+                  ],
+                  "green": [
+                    "Kopfschmerzen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Trpí"
+                  ],
+                  "green": [
+                    "Trpí"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "leiden"
+                  ],
+                  "green": [
+                    "Stress"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mnoho"
+                  ],
+                  "green": [
+                    "stresem"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "leidet"
+                  ],
+                  "green": [
+                    "Allergie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "alergii"
+                  ],
+                  "green": [
+                    "alergii"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "nicht leiden"
+                  ],
+                  "yellow": [
+                    "Lärm"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Nemůžu"
+                  ],
+                  "yellow": [
+                    "Nemůžu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "leidet"
+                  ],
+                  "green": [
+                    "Kind"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dítě"
+                  ],
+                  "green": [
+                    "Dítě"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "leiden"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Trpět"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "leidet"
+                  ],
+                  "purple": [
+                    "leidet"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "an etwas leiden"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Trpět",
+                    "Trpět"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "leidet an"
+                  ],
+                  "purple": [
+                    "Sie"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "unter etwas leiden"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Trpět"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "leiden unter"
+                  ],
+                  "purple": [
+                    "Wir"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nicht leiden können"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Nebýt"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "nicht leiden",
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "krank sein"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Být"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "krank",
+                    "ist"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "leiden an"
+                ],
+                "purple": [
+                  "Pokud",
+                  "problém"
+                ]
+              },
+              {
+                "red": [
+                  "nicht leiden können"
+                ],
+                "purple": [
+                  "Pokud"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "leiden"
+                ],
+                "red": [
+                  "Leiden"
+                ]
+              },
+              {
+                "blue": [
+                  "leiden an",
+                  "leiden unter"
+                ],
+                "purple": [
+                  "Leiden",
+                  "Leiden"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 356,
+      "productionIndex": 878,
+      "cardId": "a2-leihen",
+      "targetObject": {
+        "de": "leihen",
+        "lv": "Půjčovat • Půjčovat",
+        "level": "A2",
+        "study": {
+          "id": "a2-leihen",
+          "layout": "standardStudy",
+          "translation": "Půjčovat • půjčovat si",
+          "explanation": "Leihen je velmi podobné slovu borgen a může znamenat jak půjčit, tak půjčit si. Pokud vám někdo věc dočasně poskytne, půjčí vám ji. Pokud ji dočasně získáte od někoho jiného, půjčíte si ji. Tvar komu? často ukazuje, komu je věc půjčena. Proto je třeba sledovat směr celé věty.",
+          "examples": [
+            {
+              "de": "Kannst du mir dein Auto leihen?",
+              "lv": "Můžeš mi půjčit své auto?"
+            },
+            {
+              "de": "Ich leihe dir meinen Stift.",
+              "lv": "Půjčím ti své pero."
+            },
+            {
+              "de": "Sie leiht sich ein Buch aus der Bibliothek.",
+              "lv": "Půjčuje si knihu z knihovny."
+            },
+            {
+              "de": "Wir leihen den Kindern Spiele.",
+              "lv": "Půjčujeme hry dětem."
+            },
+            {
+              "de": "Darf ich mir dein Handy leihen?",
+              "lv": "Mohu si půjčit tvůj telefon?"
+            },
+            {
+              "de": "Er leiht seinem Freund Geld.",
+              "lv": "Půjčuje svému příteli peníze."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "leihen",
+              "meaning": "Půjčit / vypůjčit",
+              "example": "Leihst du mir den Stift? = Půjčíš mi pero?"
+            },
+            {
+              "word": "borgen",
+              "meaning": "Půjčit si / půjčit",
+              "example": "Ich borge mir Geld. = Půjčuji si peníze."
+            },
+            {
+              "word": "mieten",
+              "meaning": "Pronajmout si / pronajímat za poplatek",
+              "example": "Wir mieten ein Auto. = Půjčujeme auto."
+            },
+            {
+              "word": "kaufen",
+              "meaning": "Koupit",
+              "example": "Ich kaufe das Buch. = Koupím si knihu."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Kannst du mir ... leihen? znamená \"Můžeš mi půjčit...?\""
+              },
+              {
+                "text": "Sich etwas leihen znamená půjčovat si pro sebe."
+              }
+            ]
+          },
+          "important": {
+            "text": "Leihen není totéž co kaufen.",
+            "example": "Leihen = leihen = na dobu určitou. kaufen = koupit."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Kannst",
+                    "leihen",
+                    "Auto"
+                  ]
+                },
+                "lv": {
+                  "orange": [
+                    "Můžete"
+                  ],
+                  "purple": [
+                    "Můžete",
+                    "Můžete",
+                    "Můžete",
+                    "Můžete"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "meinen",
+                    "leihe",
+                    "Stift"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Půjčím",
+                    "Půjčím",
+                    "Půjčím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Bibliothek",
+                    "leiht",
+                    "Buch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Půjčuje",
+                    "Půjčuje",
+                    "Půjčuje"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Kindern",
+                    "leihen",
+                    "Spiele"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Půjčujeme",
+                    "Půjčujeme",
+                    "Půjčujeme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "leihen",
+                    "Handy",
+                    "Darf"
+                  ]
+                },
+                "lv": {
+                  "green": [
+                    "Mohu"
+                  ],
+                  "purple": [
+                    "Mohu",
+                    "telefon",
+                    "Mohu",
+                    "Mohu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Freund",
+                    "seinem",
+                    "leiht",
+                    "Geld"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Půjčuje",
+                    "Půjčuje",
+                    "Půjčuje"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "leihen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Půjčit",
+                    "Půjčit",
+                    "Půjčit"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Leihst",
+                    "Leihst",
+                    "Leihst",
+                    "Stift"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "borgen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Půjčit",
+                    "Půjčit",
+                    "Půjčit"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Ich",
+                    "borge",
+                    "Ich",
+                    "Geld"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "mieten"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Nájem",
+                    "Nájem",
+                    "Nájem",
+                    "Nájem"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Wir",
+                    "Wir",
+                    "mieten",
+                    "Auto"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "kaufen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Koupit"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Ich",
+                    "kaufe",
+                    "Ich",
+                    "Buch"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "leftBlocks": [
+                {
+                  "text": {
+                    "blue": [
+                      "leihen"
+                    ],
+                    "orange": [
+                      "aizdot"
+                    ],
+                    "yellow": [
+                      "aizdot",
+                      "Kannst",
+                      "leihen",
+                      "vari"
+                    ]
+                  }
+                },
+                {
+                  "text": {
+                    "blue": [
+                      "leihen"
+                    ],
+                    "green": [
+                      "aizņemties"
+                    ],
+                    "yellow": [
+                      "aizņemties",
+                      "leihen",
+                      "etwas"
+                    ]
+                  }
+                }
+              ]
+            },
+            "important": [
+              {
+                "text": {
+                  "blue": [
+                    "leihen"
+                  ],
+                  "red": [
+                    "kaufen",
+                    "leihen",
+                    "Leihen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "leihen"
+                  ],
+                  "red": [
+                    "nopirkt",
+                    "kaufen",
+                    "leihen",
+                    "laiku"
+                  ]
+                }
+              }
+            ]
+          },
+          "accents": {
+            "blue": [
+              "StandardStudy",
+              "Aizņemties",
+              "Aizņemies",
+              "Līdzīgs",
+              "Nozīmēt",
+              "Aizdod",
+              "Aizdot",
+              "Borgen",
+              "Kam? forma",
+              "Leihen",
+              "Parāda",
+              "Bieži",
+              "Laiku",
+              "Lieta",
+              "Lietu",
+              "Saņem",
+              "Kāds",
+              "Tiek"
+            ],
+            "green": [
+              "Nomāt par maksu",
+              "Aizņemties",
+              "Borgen"
+            ],
+            "yellow": [
+              "Mieten"
+            ],
+            "orange": [
+              "Aizdot",
+              "Īrēt"
+            ],
+            "purple": [
+              "Īrēt / nomāt par maksu",
+              "Aizdot / aizņemties",
+              "Aizņemties / aizdot",
+              "Aizdot • Aizņemties",
+              "Pirkt"
+            ],
+            "red": [
+              "Kaufen"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 357,
+      "productionIndex": 880,
+      "cardId": "a2-leiter",
+      "targetObject": {
+        "de": "Leiter",
+        "de_article": "der",
+        "de_plural": "die Leiter",
+        "lv": "Vedoucí • Žebřík",
+        "level": "A2",
+        "study": {
+          "id": "a2-leiter",
+          "layout": "standardStudy",
+          "translation": "Vedoucí • Žebřík",
+          "explanation": [
+            "Hlavní myšlenka: Leiter je homonymum – znamená vůdce nebo žebřík, v závislosti na rodině.",
+            "Der Leiter (mužský rod) = vůdce, šéf • Množné číslo: die Leiter.",
+            "Die Leiter (manželka d.) = (šplhání) po schodech • Množné číslo: die Leitern.",
+            "Článek a kontext většinou hned naznačují správný význam."
+          ],
+          "examples": [
+            {
+              "de": "Der Leiter der Firma ist sehr nett.",
+              "lv": "Ředitel společnosti je velmi milý."
+            },
+            {
+              "de": "Unser Abteilungsleiter kommt morgen.",
+              "lv": "Zítra přijede náš vedoucí oddělení."
+            },
+            {
+              "de": "Ich steige auf die Leiter.",
+              "lv": "Lezu na žebřík."
+            },
+            {
+              "de": "Die Leiter steht an der Wand.",
+              "lv": "Žebřík stojí u zdi."
+            },
+            {
+              "de": "Bring bitte die Leitern aus dem Keller.",
+              "lv": "Prosím, vynes žebříky ze sklepa."
+            },
+            {
+              "de": "Der Projektleiter erklärt den Plan.",
+              "lv": "Projektový manažer vysvětluje plán."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Leiter",
+              "meaning": "Manažer",
+              "example": "Der Leiter der Firma. = Manažer společnosti. Množné číslo: die Leiter."
+            },
+            {
+              "word": "die Leiter",
+              "meaning": "Žebřík",
+              "example": "Ich steige auf die Leiter. = Stoupám po schodech. Množné číslo: die Leitern."
+            },
+            {
+              "word": "der Abteilungsleiter",
+              "meaning": "Vedoucí oddělení",
+              "example": "Unser Abteilungsleiter kommt morgen."
+            },
+            {
+              "word": "die Treppe",
+              "meaning": "Schody (trvalé)",
+              "example": "Wir gehen die Treppe hinauf."
+            }
+          ],
+          "tip": [
+            "Der Leiter = osoba, která vede (vůdce).",
+            "Die Leiter = předmět, po kterém se má vylézt (žebřík)."
+          ],
+          "important": [
+            "Der Leiter (mužský rod) = vůdce, Množné číslo die Leiter.",
+            "Die Leiter (ženský rod) = žebřík, množné číslo die Leitern."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "der Leiter",
+                "die Leiter"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Leiter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ředitel"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Abteilungsleiter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Zítra"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Leiter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jdu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Leiter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Žebřík"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Leitern"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vyjděte"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Projektleiter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Projektový"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 358,
+      "productionIndex": 881,
+      "cardId": "a2-leitung",
+      "targetObject": {
+        "de": "Leitung",
+        "de_article": "die",
+        "de_plural": "die Leitungen",
+        "lv": "Řízení",
+        "level": "A2",
+        "study": {
+          "id": "a2-leitung",
+          "layout": "standardStudy",
+          "translation": "Vedení • linka • potrubí",
+          "explanation": "Die Leitung může znamenat vedení nebo lidi, kteří práci vedou. Může to znamenat elektrický drát nebo inženýrské sítě. V kontextu telefonu Leitung znamená telefonní linku nebo spojení. V souvislosti s vodou nebo plynem to může být potrubí nebo přívodní potrubí. Sloučeniny jako Telefonleitung a Wasserleitung pomáhají pochopit význam.",
+          "examples": [
+            {
+              "de": "Das Projekt steht unter der Leitung von Frau Müller.",
+              "lv": "Projekt řídí paní Millerová."
+            },
+            {
+              "de": "Die Leitung der Firma entscheidet morgen.",
+              "lv": "Zítra rozhodne vedení společnosti."
+            },
+            {
+              "de": "Die elektrische Leitung ist kaputt.",
+              "lv": "Je poškozen elektrický kabel."
+            },
+            {
+              "de": "Die Telefonleitung ist besetzt.",
+              "lv": "Telefonní linka je obsazená."
+            },
+            {
+              "de": "Wir haben eine schlechte Leitung.",
+              "lv": "Máme špatné spojení."
+            },
+            {
+              "de": "Die Wasserleitung muss repariert werden.",
+              "lv": "Je třeba opravit vodovodní potrubí."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Leitung",
+              "meaning": "Vedení / linka / drát / potrubí",
+              "example": "Die Leitung ist kaputt. = Linka je přerušená."
+            },
+            {
+              "word": "die Führung",
+              "meaning": "Řízení",
+              "example": "Unter ihrer Führung läuft alles gut. = Pod jejím vedením se vše daří."
+            },
+            {
+              "word": "das Kabel",
+              "meaning": "Kabel / drát",
+              "example": "Das Kabel ist zu kurz. = Kabel je příliš krátký."
+            },
+            {
+              "word": "die Telefonleitung",
+              "meaning": "Telefonní linka",
+              "example": "Die Telefonleitung ist frei. = Telefonní linka je volná."
+            },
+            {
+              "word": "die Wasserleitung",
+              "meaning": "Vodovodní potrubí",
+              "example": "Die Wasserleitung tropft. = Vodní potrubí kape."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Unter der Leitung znamená „pod něčím vedením“."
+              },
+              {
+                "text": "Pokud jde o telefon, elektřinu nebo vodu, Leitung obvykle znamená vedení, drát nebo potrubí."
+              }
+            ]
+          },
+          "important": {
+            "text": "Leitung může být jak řízení lidí, tak technická linka.",
+            "example": "Unter der Leitung = vadībā. elektrische Leitung = elektriskais vads. Telefonleitung = telefona līnija. Wasserleitung = ūdens caurule."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Leitung",
+                    "Projekt",
+                    "steht",
+                    "unter",
+                    "Frau"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Millerová",
+                    "Projekt",
+                    "Projekt",
+                    "Projekt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "die Leitung",
+                    "entscheidet",
+                    "Leitung",
+                    "Firma"
+                  ]
+                },
+                "lv": {
+                  "orange": [
+                    "Zítra"
+                  ],
+                  "purple": [
+                    "Zítra",
+                    "Zítra",
+                    "Zítra"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "elektrische",
+                    "Leitung",
+                    "kaputt"
+                  ]
+                },
+                "lv": {
+                  "yellow": [
+                    "poškozen"
+                  ],
+                  "purple": [
+                    "elektrický",
+                    "poškozen",
+                    "poškozen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "die Telefonleitung",
+                    "Telefonleitung"
+                  ],
+                  "blue": [
+                    "Telefonleitung",
+                    "besetzt"
+                  ]
+                },
+                "lv": {
+                  "green": [
+                    "Telefonní"
+                  ],
+                  "purple": [
+                    "Telefonní",
+                    "Telefonní",
+                    "Telefonní",
+                    "Telefonní"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "schlechte",
+                    "Leitung"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Máme",
+                    "Máme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "purple": [
+                    "die Wasserleitung",
+                    "wasserleitung"
+                  ],
+                  "blue": [
+                    "Wasserleitung",
+                    "repariert",
+                    "muss"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "třeba",
+                    "třeba",
+                    "třeba",
+                    "třeba"
+                  ],
+                  "red": [
+                    "třeba"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "die Leitung",
+                    "Leitung"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Olovo",
+                    "Olovo",
+                    "Olovo",
+                    "Olovo"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "die Leitung",
+                    "Leitung",
+                    "Die",
+                    "kaputt",
+                    "Die"
+                  ],
+                  "green": [
+                    "Die"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Führung",
+                    "Führung"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Řízení"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Führung",
+                    "Unter",
+                    "alles",
+                    "ihrer",
+                    "läuft",
+                    "Unter"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "das Kabel",
+                    "Kabel"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Kabel",
+                    "Kabel",
+                    "Kabel"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "das Kabel",
+                    "Kabel",
+                    "Kabel",
+                    "kurz"
+                  ],
+                  "orange": [
+                    "Kabel"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Telefonleitung",
+                    "Telefonleitung"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Telefonní",
+                    "Telefonní",
+                    "Telefonní"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Die"
+                  ],
+                  "purple": [
+                    "Die"
+                  ],
+                  "red": [
+                    "die Telefonleitung",
+                    "Telefonleitung",
+                    "Telefonní",
+                    "Die",
+                    "Die",
+                    "frei"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "purple": [
+                    "die Wasserleitung",
+                    "wasserleitung"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Vodní"
+                  ]
+                },
+                "example": {
+                  "purple": [
+                    "die Wasserleitung",
+                    "Die",
+                    "wasserleitung",
+                    "Die",
+                    "tropft",
+                    "Die"
+                  ],
+                  "red": [
+                    "Die"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "leftBlocks": [
+                {
+                  "text": {
+                    "blue": [
+                      "Leitung"
+                    ],
+                    "yellow": [
+                      "Leitung",
+                      "vadībā",
+                      "unter",
+                      "kāda"
+                    ]
+                  }
+                },
+                {
+                  "text": {
+                    "blue": [
+                      "Leitung"
+                    ],
+                    "yellow": [
+                      "elektrību",
+                      "telefonu",
+                      "Leitung",
+                      "ūdeni",
+                      "runa"
+                    ]
+                  }
+                }
+              ]
+            },
+            "important": [
+              {
+                "text": {
+                  "blue": [
+                    "Leitung"
+                  ],
+                  "green": [
+                    "līnija"
+                  ],
+                  "orange": [
+                    "vadība"
+                  ],
+                  "red": [
+                    "technická",
+                    "Leitung",
+                    "Leitung",
+                    "līnija",
+                    "vadība"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Leitung"
+                  ],
+                  "green": [
+                    "līnija"
+                  ],
+                  "yellow": [
+                    "vads"
+                  ],
+                  "purple": [
+                    "telefona līnija",
+                    "ūdens caurule",
+                    "wasserleitung"
+                  ],
+                  "red": [
+                    "Telefonleitung",
+                    "elektriskais",
+                    "elektrische",
+                    "caurule",
+                    "Leitung",
+                    "vadībā",
+                    "unter",
+                    "vads"
+                  ]
+                }
+              }
+            ]
+          },
+          "accents": {
+            "blue": [
+              "StandardStudy",
+              "Die Leitung",
+              "Elektrisko",
+              "Kontekstā",
+              "Cilvēkus",
+              "Tehnisku",
+              "Telefona",
+              "Caurule",
+              "Leitung",
+              "Nozīmēt",
+              "Līnija",
+              "Līniju",
+              "Vadība",
+              "Vadību",
+              "Darbu",
+              "Vada",
+              "Vads",
+              "Vadu"
+            ],
+            "green": [
+              "Die Führung",
+              "Führung",
+              "Līnija"
+            ],
+            "yellow": [
+              "Das Kabel",
+              "Kabel",
+              "Vads"
+            ],
+            "orange": [
+              "Kabelis",
+              "Vadība"
+            ],
+            "purple": [
+              "Vadība • Līnija • Vads • Caurule",
+              "Die Wasserleitung",
+              "Telefona līnija",
+              "Kabelis / vads",
+              "Ūdens caurule",
+              "Wasserleitung"
+            ],
+            "red": [
+              "Die Telefonleitung",
+              "Telefonleitung",
+              "Caurule"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 359,
+      "productionIndex": 884,
+      "cardId": "a2-leuchten-884",
+      "targetObject": {
+        "de": "leuchten",
+        "lv": "Zářit",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 360,
+      "productionIndex": 885,
+      "cardId": "a2-lieber-885",
+      "targetObject": {
+        "de": "lieber",
+        "lv": "Raději",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 361,
+      "productionIndex": 889,
+      "cardId": "a2-liegen",
+      "targetObject": {
+        "de": "liegen",
+        "lv": "Spát • Být",
+        "level": "A2",
+        "study": {
+          "id": "a2-liegen",
+          "layout": "standardStudy",
+          "translation": "Ležet • nacházet se",
+          "explanation": [
+            "Hlavní myšlenka: Stav: Něco, co už leží nebo leží vodorovně.",
+            "Liegen znamená především: ležet.",
+            "Často popisuje: kde něco je.",
+            "Liegen se používá, když už něco leží nebo leží vodorovně."
+          ],
+          "examples": [
+            {
+              "de": "Das Buch liegt auf dem Tisch.",
+              "lv": "Kniha leží na stole."
+            },
+            {
+              "de": "Die Schlüssel liegen im Flur.",
+              "lv": "Klíče jsou na chodbě."
+            },
+            {
+              "de": "Das Buch liegt hier.",
+              "lv": "Kniha je zde."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "legen",
+              "meaning": "Položit (akce)",
+              "example": "Ich lege das Buch hin. – Odložil jsem knihu."
+            },
+            {
+              "word": "liegen",
+              "meaning": "Ležet (poloha)",
+              "example": "Das Buch liegt hier. – Kniha je zde."
+            },
+            {
+              "word": "stellen",
+              "meaning": "Postavit (akce)",
+              "example": "Ich stelle die Flasche hin. – Láhev jsem postavil do svislé polohy."
+            },
+            {
+              "word": "stehen",
+              "meaning": "Stát (stát)",
+              "example": "Die Flasche steht hier. – Láhev je tady."
+            },
+            {
+              "word": "setzen",
+              "meaning": "Posadit (akce)",
+              "example": "Ich setze das Kind hin. – Posadím dítě."
+            },
+            {
+              "word": "sitzen",
+              "meaning": "Sedět (pozice)",
+              "example": "Das Kind sitzt hier. – Dítě tady sedí."
+            }
+          ],
+          "tip": [
+            "Poloha: Něco, co již leží nebo leží vodorovně.",
+            "Použijte liegen, pokud kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Liegen = ležet.",
+            "Stav: Liegen.",
+            "Poloha: Něco, co již leží nebo leží vodorovně."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "liegen",
+                "liegen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "liegt"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "liegen",
+                    "liegen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "liegt"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {
+                "blue": [
+                  "liegen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 362,
+      "productionIndex": 890,
+      "cardId": "a2-legen",
+      "targetObject": {
+        "de": "legen",
+        "lv": "Položit se",
+        "level": "A2",
+        "study": {
+          "id": "a2-legen",
+          "layout": "standardStudy",
+          "translation": "Položit",
+          "explanation": [
+            "Hlavní myšlenka: Akce: Někdo něco položí vodorovně nebo horizontálně.",
+            "Legen znamená především: jednání.",
+            "Často popisuje: co někdo umístí.",
+            "Legen se používá, když někdo něco položí nebo vodorovně."
+          ],
+          "examples": [
+            {
+              "de": "Ich lege das Buch hierhin.",
+              "lv": "Položil jsem knihu sem."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "legen",
+              "meaning": "Položit (akce)",
+              "example": "Ich lege das Buch hin. – Odložil jsem knihu."
+            },
+            {
+              "word": "liegen",
+              "meaning": "Ležet (stav)",
+              "example": "Das Buch liegt hier. – Kniha je zde."
+            },
+            {
+              "word": "stellen",
+              "meaning": "Postavit (akce)",
+              "example": "Ich stelle die Flasche hin. – Láhev jsem postavil do svislé polohy."
+            },
+            {
+              "word": "stehen",
+              "meaning": "Stát (stát)",
+              "example": "Die Flasche steht hier. – Láhev je tady."
+            },
+            {
+              "word": "setzen",
+              "meaning": "Posadit (akce)",
+              "example": "Ich setze das Kind hin. – Posadím dítě."
+            },
+            {
+              "word": "sitzen",
+              "meaning": "Sedět (pozice)",
+              "example": "Das Kind sitzt hier. – Dítě tady sedí."
+            }
+          ],
+          "tip": [
+            "Akce: Někdo něco položí vodorovně nebo vodorovně.",
+            "Používá legen, když kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Legen = čin.",
+            "Akce: legenda.",
+            "Akce: Někdo něco položí vodorovně nebo vodorovně."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "legen",
+                "legen"
+              ],
+              "purple": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "lege"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Akce"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "legen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 363,
+      "productionIndex": 893,
+      "cardId": "a2-Lippenstift-893",
+      "targetObject": {
+        "de": "Lippenstift",
+        "de_article": "der",
+        "de_plural": "die Lippenstifte",
+        "lv": "Rtěnka",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 364,
+      "productionIndex": 895,
+      "cardId": "a2-loben-895",
+      "targetObject": {
+        "de": "loben",
+        "lv": "Chválit",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 365,
+      "productionIndex": 899,
+      "cardId": "a2-los",
+      "targetObject": {
+        "de": "los",
+        "lv": "Volný • Volný • Co se děje",
+        "level": "A2",
+        "study": {
+          "id": "a2-los",
+          "layout": "minimalStudy",
+          "translation": "Volný • Uvolněný • Co se děje",
+          "accent": "blue",
+          "tip": "Často se hovorově používá k dotazu na situaci nebo k označení, že bylo něco uvolněno.",
+          "examples": [
+            {
+              "de": "Was ist los?",
+              "lv": "Co se děje? (Co je?)"
+            },
+            {
+              "de": "Der Hund ist los.",
+              "lv": "Pes je na svobodě."
+            },
+            {
+              "de": "Hier ist viel los.",
+              "lv": "Hodně se tu děje (živé místo)."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "groupOrder": 366,
+      "productionIndex": 900,
+      "cardId": "a2-losfahren-900",
+      "targetObject": {
+        "de": "losfahren",
+        "lv": "Vyjet",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 367,
+      "productionIndex": 903,
+      "cardId": "a2-Lüge-903",
+      "targetObject": {
+        "de": "Lüge",
+        "de_article": "die",
+        "de_plural": "die Lügen",
+        "lv": "Lež",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 368,
+      "productionIndex": 905,
+      "cardId": "a2-Lust-905",
+      "targetObject": {
+        "de": "Lust",
+        "de_article": "die",
+        "lv": "Chuť",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 369,
+      "productionIndex": 911,
+      "cardId": "a2-männlich-911",
+      "targetObject": {
+        "de": "männlich",
+        "lv": "Mužský",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 370,
+      "productionIndex": 913,
+      "cardId": "a2-Mappe-913",
+      "targetObject": {
+        "de": "Mappe",
+        "de_article": "die",
+        "de_plural": "die Mappen",
+        "lv": "Složka",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 371,
+      "productionIndex": 916,
+      "cardId": "a2-Markt-916",
+      "targetObject": {
+        "de": "Markt",
+        "de_article": "der",
+        "de_plural": "die Märkte",
+        "lv": "Trh",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 372,
+      "productionIndex": 924,
+      "cardId": "a2-Medikament-924",
+      "targetObject": {
+        "de": "Medikament",
+        "de_article": "das",
+        "de_plural": "die Medikamente",
+        "lv": "Lék",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 373,
+      "productionIndex": 925,
+      "cardId": "a2-Medizin-925",
+      "targetObject": {
+        "de": "Medizin",
+        "de_article": "die",
+        "lv": "Medicína",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 374,
+      "productionIndex": 928,
+      "cardId": "a2-meinen",
+      "targetObject": {
+        "de": "meinen",
+        "lv": "Přemýšlet",
+        "level": "A2",
+        "study": {
+          "id": "a2-meinen",
+          "layout": "standardStudy",
+          "translation": "Myslet • Mínit",
+          "explanation": "Meinen často znamená myslet nebo mít něco za to. Používá se při vyjádření vlastního názoru. Může také znamenat mít na mysli konkrétní osobu nebo věc. Ve frázi Was meinst du? znamená „Co myslíš?“. Když je něco míněno vážně, říká se Ich meine das ernst. Meinen tedy neznamená jen obecně přemýšlet.",
+          "examples": [
+            {
+              "de": "Was meinst du?",
+              "lv": "Co myslíš"
+            },
+            {
+              "de": "Ich meine, das ist richtig.",
+              "lv": "Myslím, že je to správně."
+            },
+            {
+              "de": "Wen meinst du?",
+              "lv": "Koho myslíš"
+            },
+            {
+              "de": "Ich meine dieses Buch.",
+              "lv": "Myslím tuto knihu."
+            },
+            {
+              "de": "Er meint es ernst.",
+              "lv": "Myslí to vážně."
+            },
+            {
+              "de": "Meinst du wirklich?",
+              "lv": "Opravdu si to myslíš?"
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Co myslíš? je velmi častá fráze pro dotazování se na názor."
+              },
+              {
+                "text": "Ich meine das ernst znamená „myslím to vážně“."
+              }
+            ]
+          },
+          "important": {
+            "text": "Meinen často označuje názor nebo konkrétní věc, kterou má někdo na mysli.",
+            "example": "Ich meine dich = Myslím tebe. Ich meine, dass ... = Myslím, že ..."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "meinst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "myslíš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "richtig"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Věřím",
+                    "Věřím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "meinst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Koho",
+                    "Koho"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "dieses",
+                    "Buch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Myslím",
+                    "Myslím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ernst",
+                    "meint"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Myslí",
+                    "Myslí"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "wirklich",
+                    "Meinst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Opravdu",
+                    "Opravdu"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "leftBlocks": [
+                {
+                  "text": {
+                    "yellow": [
+                      "prasīšanai",
+                      "viedokļa",
+                      "meinst",
+                      "bieža",
+                      "frāze"
+                    ]
+                  }
+                },
+                {
+                  "text": {
+                    "yellow": [
+                      "nopietni",
+                      "domāju",
+                      "ernst"
+                    ]
+                  }
+                }
+              ]
+            },
+            "important": [
+              {
+                "text": {
+                  "blue": [
+                    "meinen"
+                  ],
+                  "red": [
+                    "konkrétní",
+                    "Meinen",
+                    "myšlenku",
+                    "meinen",
+                    "Meinen",
+                    "Meinen"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "že",
+                    "Myslím",
+                    "dass",
+                    "dich",
+                    "tebe"
+                  ]
+                }
+              }
+            ]
+          },
+          "accents": {
+            "blue": [
+              "StandardStudy",
+              "Konkrētu",
+              "Teiktais",
+              "Uzskatīt",
+              "Viedokli",
+              "Cilvēku",
+              "Nozīmēt",
+              "Izsaka",
+              "Meinen",
+              "Meinst",
+              "Bieži",
+              "Domāt",
+              "Frāzē",
+              "Lieto",
+              "Lietu",
+              "Domā",
+              "Savu"
+            ],
+            "green": [
+              "Uzskatīt",
+              "Denken"
+            ],
+            "yellow": [
+              "Domāt konkrēti",
+              "Glauben",
+              "Nozīmēt"
+            ],
+            "orange": [
+              "Domāt",
+              "Ticēt"
+            ],
+            "purple": [
+              "Domāt / uzskatīt / domāt konkrēti",
+              "Domāt • Uzskatīt • Nozīmēt",
+              "Ticēt / domāt",
+              "Domāt prātā"
+            ],
+            "red": [
+              "Bedeuten"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 375,
+      "productionIndex": 931,
+      "cardId": "a2-Meister-931",
+      "targetObject": {
+        "de": "Meister",
+        "de_article": "der",
+        "de_plural": "die Meister",
+        "lv": "Mistr",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 376,
+      "productionIndex": 936,
+      "cardId": "a2-merken",
+      "targetObject": {
+        "de": "merken",
+        "lv": "Všímat si • Zapamatovat si",
+        "level": "A2",
+        "study": {
+          "id": "a2-merken",
+          "layout": "standardStudy",
+          "translation": "Všímat si • Zapamatovat si",
+          "explanation": [
+            "Hlavní myšlenka: merken znamená všímat si nebo si zapamatovat v závislosti na větě.",
+            "Když si něčeho všimneme nebo něco pocítíme, merken znamená všímat si.",
+            "Když se používá, sich merken znamená zapamatovat si nebo mít na paměti.",
+            "Merken není totéž co erinnern, protože erinnern častěji znamená zapamatovat si nebo připomenout.",
+            "Na úrovni A2 je zvláště důležitá fráze sich etwas merken."
+          ],
+          "examples": [
+            {
+              "de": "Ich merke, dass du müde bist.",
+              "lv": "Všiml jsem si, že jsi unavený."
+            },
+            {
+              "de": "Hast du den Fehler gemerkt?",
+              "lv": "Všiml sis chyby?"
+            },
+            {
+              "de": "Das muss ich mir merken.",
+              "lv": "Musím si to zapamatovat."
+            },
+            {
+              "de": "Merk dir diese Nummer.",
+              "lv": "Zapamatuj si toto číslo."
+            },
+            {
+              "de": "Ich kann mir Namen schlecht merken.",
+              "lv": "Špatně si pamatuji jména."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "merken",
+              "meaning": "Všímat si",
+              "example": "Ich merke den Fehler. = Všiml jsem si chyby."
+            },
+            {
+              "word": "sich merken",
+              "meaning": "Zapamatovat si",
+              "example": "Merk dir das! = Zapamatujte si to!"
+            },
+            {
+              "word": "bemerken",
+              "meaning": "Všímat si / pozorovat",
+              "example": "Ich bemerke den Fehler. = Všiml jsem si chyby."
+            },
+            {
+              "word": "erinnern",
+              "meaning": "Pamatovat si / připomínat",
+              "example": "Ich erinnere mich. = Vzpomínám."
+            },
+            {
+              "word": "behalten",
+              "meaning": "Zachovat / zapamatovat si",
+              "example": "Ich behalte die Nummer. = Číslo mám na paměti."
+            }
+          ],
+          "tip": [
+            "Pokud má věta sich nebo mir/dir, merken často znamená zapamatovat si.",
+            "Když merken odkazuje na chybu nebo situaci, často znamená všímat si."
+          ],
+          "important": [
+            "Merken a sich merken nejsou úplně to samé.",
+            "Merken = všímat si • Sich merken = zapamatovat si."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "merken",
+                "sich merken"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "red": [
+                "erinnern"
+              ],
+              "green": [
+                "sich"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "merke"
+                  ],
+                  "green": [
+                    "müde"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Všiml"
+                  ],
+                  "green": [
+                    "Všiml"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gemerkt"
+                  ],
+                  "yellow": [
+                    "Fehler"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Všimli"
+                  ],
+                  "yellow": [
+                    "Všimli"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "mir merken"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Musím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Merk dir"
+                  ],
+                  "yellow": [
+                    "Nummer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Zapamatovat"
+                  ],
+                  "yellow": [
+                    "Zapamatovat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "merken"
+                  ],
+                  "yellow": [
+                    "Namen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mám"
+                  ],
+                  "yellow": [
+                    "Mám"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "merken"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Všímat"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "merke"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "sich merken"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Zapamatovat"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Merk dir"
+                  ],
+                  "purple": [
+                    "Merk"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bemerken"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Všímat",
+                    "Všímat"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "bemerke"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "erinnern"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Pamatovat",
+                    "Pamatovat"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "erinnere",
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "behalten"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Zachovat",
+                    "Zachovat"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "behalte",
+                    "Ich"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "sich",
+                  "mir",
+                  "dir",
+                  "merken"
+                ],
+                "purple": [
+                  "Pokud"
+                ]
+              },
+              {
+                "blue": [
+                  "merken"
+                ],
+                "purple": [
+                  "Pokud"
+                ],
+                "yellow": [
+                  "Pokud",
+                  "Pokud"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "merken",
+                  "sich merken"
+                ],
+                "red": [
+                  "Merken"
+                ]
+              },
+              {
+                "blue": [
+                  "merken",
+                  "sich merken"
+                ],
+                "purple": [
+                  "Merken",
+                  "Merken"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 377,
+      "productionIndex": 940,
+      "cardId": "a2-mieten-940",
+      "targetObject": {
+        "de": "mieten",
+        "lv": "Pronajmout si",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 378,
+      "productionIndex": 943,
+      "cardId": "a2-mischen-943",
+      "targetObject": {
+        "de": "mischen",
+        "lv": "Míchat",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 379,
+      "productionIndex": 947,
+      "cardId": "a2-Mitglied-947",
+      "targetObject": {
+        "de": "Mitglied",
+        "de_article": "das",
+        "de_plural": "die Mitglieder",
+        "lv": "Člen",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 380,
+      "productionIndex": 951,
+      "cardId": "a2-mittel",
+      "targetObject": {
+        "de": "Mittel",
+        "de_article": "das",
+        "de_plural": "die Mittel",
+        "lv": "Lék",
+        "level": "A2",
+        "study": {
+          "id": "a2-mittel",
+          "layout": "standardStudy",
+          "translation": "Prostředek",
+          "explanation": [
+            "Hlavní myšlenka: das Mittel nejčastěji znamená prostředek, kterým se něco dosáhne nebo vyřeší.",
+            "Může to být praktická pomůcka, například čisticí prostředek nebo lék.",
+            "V množném čísle může Mittel znamenat i peněžní nebo materiální zdroje.",
+            "V matematice nebo statistice může Mittel znamenat průměr, ale na úrovni A2 je hlavním významem prostředek.",
+            "Kontext ukazuje, zda jde o věc, peníze nebo metodu."
+          ],
+          "examples": [
+            {
+              "de": "Das ist ein gutes Mittel gegen Husten.",
+              "lv": "Je to dobrý prostředek proti kašli."
+            },
+            {
+              "de": "Wir brauchen ein Mittel gegen Flecken.",
+              "lv": "Potřebujeme odstraňovač skvrn."
+            },
+            {
+              "de": "Die Firma hat nicht genug Mittel.",
+              "lv": "Společnost nemá dostatek finančních prostředků."
+            },
+            {
+              "de": "Sport ist ein gutes Mittel gegen Stress.",
+              "lv": "Sport je dobrý odbourávač stresu."
+            },
+            {
+              "de": "Dieses Mittel hilft schnell.",
+              "lv": "Tento prostředek rychle pomáhá."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das Mittel",
+              "meaning": "Prostředek",
+              "example": "ein Mittel gegen Husten = Lék proti kašli"
+            },
+            {
+              "word": "das Medikament",
+              "meaning": "Lék / léčivo",
+              "example": "Das Medikament hilft. = Lék pomáhá."
+            },
+            {
+              "word": "die Methode",
+              "meaning": "Metoda",
+              "example": "Diese Methode ist einfach. = Tato metoda je jednoduchá."
+            },
+            {
+              "word": "das Geld",
+              "meaning": "Peníze",
+              "example": "Wir haben kein Geld. = Nemáme peníze."
+            },
+            {
+              "word": "die Mittel",
+              "meaning": "Prostředky / zdroje",
+              "example": "finanzielle Mittel = Finanční prostředky"
+            }
+          ],
+          "tip": [
+            "Pokud něco pomáhá vyřešit problém, němčina často používá slovo Mittel.",
+            "Pokud jde o konkrétní léky, Medikament se používá častěji."
+          ],
+          "important": [
+            "Das Mittel není totéž co die Mitte.",
+            "Mittel = prostředek • Mitte = střed."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "das Mittel",
+                "Mittel"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "materiální"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Mittel"
+                  ],
+                  "green": [
+                    "Husten"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "dobrý"
+                  ],
+                  "green": [
+                    "dobrý"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Mittel"
+                  ],
+                  "yellow": [
+                    "Flecken"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Potřebujeme"
+                  ],
+                  "yellow": [
+                    "Potřebujeme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Mittel"
+                  ],
+                  "green": [
+                    "Firma"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Společnost"
+                  ],
+                  "green": [
+                    "Společnost"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Mittel"
+                  ],
+                  "green": [
+                    "Stress"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Sport"
+                  ],
+                  "green": [
+                    "stresu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Mittel"
+                  ],
+                  "green": [
+                    "hilft"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Tento"
+                  ],
+                  "green": [
+                    "Tento"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "das Mittel"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Lék"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Mittel"
+                  ],
+                  "purple": [
+                    "ein"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "das Medikament"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Lék",
+                    "Lék"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Medikament",
+                    "Medikament"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Methode"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Metoda"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Methode",
+                    "Methode"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "das Geld"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Peníze"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Geld",
+                    "Wir"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Mittel"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Prostředky",
+                    "Prostředky"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Mittel"
+                  ],
+                  "purple": [
+                    "finanzielle"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "Mittel"
+                ],
+                "purple": [
+                  "Pokud",
+                  "Pokud"
+                ]
+              },
+              {
+                "green": [
+                  "Medikament"
+                ],
+                "purple": [
+                  "Pokud"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "das Mittel"
+                ],
+                "red": [
+                  "die Mitte"
+                ]
+              },
+              {
+                "blue": [
+                  "Mittel"
+                ],
+                "red": [
+                  "Mitte"
+                ],
+                "purple": [
+                  "Mittel",
+                  "Mittel"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 381,
+      "productionIndex": 954,
+      "cardId": "a2-Möbel-954",
+      "targetObject": {
+        "de": "Möbel",
+        "de_article": "das",
+        "de_plural": "die Möbel",
+        "lv": "Nábytek",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 382,
+      "productionIndex": 955,
+      "cardId": "a2-Mode-955",
+      "targetObject": {
+        "de": "Mode",
+        "de_article": "die",
+        "de_plural": "die Moden",
+        "lv": "Móda",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 383,
+      "productionIndex": 958,
+      "cardId": "a2-möglich-958",
+      "targetObject": {
+        "de": "möglich",
+        "lv": "Možný",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 384,
+      "productionIndex": 960,
+      "cardId": "a2-monatlich-960",
+      "targetObject": {
+        "de": "monatlich",
+        "lv": "Měsíční",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 385,
+      "productionIndex": 971,
+      "cardId": "a2-Muster-971",
+      "targetObject": {
+        "de": "Muster",
+        "de_article": "das",
+        "de_plural": "die Muster",
+        "lv": "Vzorek",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 386,
+      "productionIndex": 975,
+      "cardId": "a2-na-gut",
+      "targetObject": {
+        "de": "na gut",
+        "lv": "Dobře",
+        "level": "A2",
+        "study": {
+          "id": "a2-na-gut",
+          "layout": "standardStudy",
+          "translation": "Dobře",
+          "explanation": "Používá se při domlouvání, usmiřování nebo rozhodování. Často vyjadřuje mírné zaváhání nebo ústupek.",
+          "examples": [
+            {
+              "de": "Na gut, dann machen wir das.",
+              "lv": "Ok, tak jdeme na to."
+            },
+            {
+              "de": "Na gut, ich komme mit.",
+              "lv": "Dobře, půjdu s tebou."
+            },
+            {
+              "de": "Na gut, du hast recht.",
+              "lv": "No, máš pravdu."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "na gut",
+              "meaning": "Dobře • Dobře, budiž",
+              "example": "Na gut, dann machen wir das. – No tak pojďme na to."
+            },
+            {
+              "word": "gut",
+              "meaning": "Dobrý • Dobře",
+              "example": "Das ist gut. – To je dobře."
+            },
+            {
+              "word": "okay",
+              "meaning": "Dobře • OK (neformální)",
+              "example": "Okay, ich verstehe. – Dobře, rozumím."
+            }
+          ],
+          "tip": {
+            "text": "„na gut“ je hovorový výraz, který se velmi často používá v každodenním životě. V závislosti na situaci to může znít neutrálně, blahosklonně nebo trochu neochotně.",
+            "example": "Piemērs: Na gut, ich probiere es. – No, zkusím to."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Na gut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "tak"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Na gut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dobře"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Na gut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "máš"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "na gut"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Na gut"
+                  ],
+                  "purple": [
+                    "gut"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "gut"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "gut"
+                  ],
+                  "purple": [
+                    "Das"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "okay"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Okay"
+                  ],
+                  "purple": [
+                    "Okay"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "green": [
+                  "na gut",
+                  "Na gut"
+                ]
+              },
+              "right": {
+                "green": [
+                  "Na gut"
+                ],
+                "purple": [
+                  "Piemērs"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 387,
+      "productionIndex": 978,
+      "cardId": "a2-nachdenken-978",
+      "targetObject": {
+        "de": "nachdenken",
+        "lv": "Přemýšlet",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 388,
+      "productionIndex": 989,
+      "cardId": "a2-nagel",
+      "targetObject": {
+        "de": "Nagel",
+        "de_article": "der",
+        "de_plural": "die Nägel",
+        "lv": "Nehet • Nehet",
+        "level": "A2",
+        "study": {
+          "id": "a2-nagel",
+          "layout": "standardStudy",
+          "translation": "Nehet • Hřebík",
+          "explanation": [
+            "Hlavní myšlenka: der Nagel může znamenat nehet nebo kovový hřebík – kontext určuje význam.",
+            "Když mluvíme o části těla, der Nagel = nehet na prstu.",
+            "Když mluvíme o konstrukci, nábytku nebo nářadí, der Nagel = hřebík (kovový předmět zaražený kladivem).",
+            "Slovní spojení den Nagel auf den Kopf treffen (trefit hřebík přímo na hlavičku) znamená přesně říci/hádat.",
+            "Množné číslo: die Nägel - pro oba významy."
+          ],
+          "examples": [
+            {
+              "de": "Ich schneide mir die Nägel.",
+              "lv": "Stříhám si nehty."
+            },
+            {
+              "de": "Der Nagel ist im Finger eingewachsen.",
+              "lv": "Nehet zarostl do prstu."
+            },
+            {
+              "de": "Ich schlage einen Nagel in die Wand.",
+              "lv": "Zatloukl jsem hřebík do zdi."
+            },
+            {
+              "de": "Wo ist der Hammer und der Nagel?",
+              "lv": "Kde je kladivo a hřebík?"
+            },
+            {
+              "de": "Du hast den Nagel auf den Kopf getroffen.",
+              "lv": "Trefil jsi hřebíček přímo na hlavičku."
+            },
+            {
+              "de": "Ihre Nägel sind lackiert.",
+              "lv": "Její nehty jsou nalakované."
+            }
+          ],
+          "tip": [
+            "Povídání o těle (prsty) → nehet.",
+            "Povídání o stavbě/nářadích (kladivo, zeď) → hřebík."
+          ],
+          "important": [
+            "Der Nagel = nehet NEBO hřebík – podle kontextu.",
+            "Den Nagel auf den Kopf treffen = přesně odhadnout/říkat (idiomatický výraz)."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "der Nagel"
+              ],
+              "purple": [
+                "Hlavní",
+                "Nagel"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Nägel"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Stříhal"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Nagel"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nehet"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Nagel"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Zatloukl"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Nagel"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kde"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Nagel"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Trefil"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Nägel"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Její"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "Povídání"
+                ]
+              },
+              {
+                "green": [
+                  "Povídání"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "Der",
+                  "Nagel"
+                ]
+              },
+              {
+                "green": [
+                  "den Nagel auf den Kopf treffen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 389,
+      "productionIndex": 990,
+      "cardId": "a2-nah-990",
+      "targetObject": {
+        "de": "nah",
+        "lv": "Blízký",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 390,
+      "productionIndex": 993,
+      "cardId": "a2-näher-993",
+      "targetObject": {
+        "de": "näher",
+        "lv": "Bližší",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 391,
+      "productionIndex": 995,
+      "cardId": "a2-Nahrungsmittel-995",
+      "targetObject": {
+        "de": "Nahrungsmittel",
+        "de_article": "die",
+        "de_plural": "die Nahrungsmittel",
+        "lv": "Potraviny",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 392,
+      "productionIndex": 997,
+      "cardId": "a2-naschen-997",
+      "targetObject": {
+        "de": "naschen",
+        "lv": "Mlsat",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 393,
+      "productionIndex": 1004,
+      "cardId": "a2-nervös-1004",
+      "targetObject": {
+        "de": "nervös",
+        "lv": "Nervózní",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 394,
+      "productionIndex": 1011,
+      "cardId": "a2-nicken-1011",
+      "targetObject": {
+        "de": "nicken",
+        "lv": "Kývat hlavou",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 395,
+      "productionIndex": 1012,
+      "cardId": "a2-niedlich-1012",
+      "targetObject": {
+        "de": "niedlich",
+        "lv": "Roztomilý",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 396,
+      "productionIndex": 1015,
+      "cardId": "a2-niesen-1015",
+      "targetObject": {
+        "de": "niesen",
+        "lv": "Kýchat",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 397,
+      "productionIndex": 1018,
+      "cardId": "a2-Norden-1018",
+      "targetObject": {
+        "de": "Norden",
+        "de_article": "der",
+        "lv": "Sever",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 398,
+      "productionIndex": 1019,
+      "cardId": "a2-note",
+      "targetObject": {
+        "de": "Note",
+        "de_article": "die",
+        "de_plural": "die Noten",
+        "lv": "Stupeň",
+        "level": "A2",
+        "study": {
+          "id": "a2-note",
+          "layout": "standardStudy",
+          "translation": "Známka • Nota • Tón",
+          "explanation": "Die Note znamená známku ve škole. V hudbě znamená Note notu. V kontextu peněz Banknote znamená bankovku. V přeneseném smyslu může Note znamenat náladu, podtext nebo nuanci. Kontext: Schule, Musik, Geld nebo Stil obvykle určují význam.",
+          "examples": [
+            {
+              "de": "Ich habe eine gute Note bekommen.",
+              "lv": "Mám dobrou známku."
+            },
+            {
+              "de": "Welche Note hast du in Mathe?",
+              "lv": "Jakou máš známku z matematiky?"
+            },
+            {
+              "de": "Der Musiker spielt eine hohe Note.",
+              "lv": "Hudebník hraje vysokou notu."
+            },
+            {
+              "de": "Diese Note klingt falsch.",
+              "lv": "Tato nota zní špatně."
+            },
+            {
+              "de": "Ich habe nur eine Banknote dabei.",
+              "lv": "Mám u sebe jen bankovku."
+            },
+            {
+              "de": "Der Text hat eine traurige Note.",
+              "lv": "Text má smutný podtext."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Note",
+              "meaning": "Známka / nota / odstín",
+              "example": "Ich bekomme eine Note. = Dostanu známku."
+            },
+            {
+              "word": "die Schulnote",
+              "meaning": "Školní známka",
+              "example": "Die Schulnote ist gut. = Známka ve škole je dobrá."
+            },
+            {
+              "word": "die Musiknote",
+              "meaning": "Hudební nota",
+              "example": "Die Musiknote ist hoch. = Hudební nota je vysoká."
+            },
+            {
+              "word": "die Banknote",
+              "meaning": "Bankovka",
+              "example": "Die Banknote ist neu. = Bankovka je nová."
+            },
+            {
+              "word": "der Ton",
+              "meaning": "Tón / zvuk",
+              "example": "Der Ton ist leise. = Tón je tichý."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Ve škole Note téměř vždy znamená známku."
+              },
+              {
+                "text": "V hudbě znamená Note nota a Banknote je bankovka."
+              }
+            ]
+          },
+          "important": {
+            "text": "Význam slova Note určuje kontext.",
+            "example": "Gute Note bekommen = saņemt labu atzīmi. eine Note spielen = spēlēt noti. Banknote = banknote. traurige Note = skumja pieskaņa."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "bekommen",
+                    "gute",
+                    "Note"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mám",
+                    "Mám",
+                    "Mám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Welche",
+                    "Mathe",
+                    "Note"
+                  ]
+                },
+                "lv": {
+                  "orange": [
+                    "Jakou"
+                  ],
+                  "purple": [
+                    "matematiky",
+                    "Jakou",
+                    "Jakou"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Musiker",
+                    "spielt",
+                    "hohe",
+                    "Note"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hudebník",
+                    "Hudebník",
+                    "Hudebník",
+                    "notu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "falsch",
+                    "klingt",
+                    "Diese",
+                    "Note"
+                  ]
+                },
+                "lv": {
+                  "green": [
+                    "Tato"
+                  ],
+                  "purple": [
+                    "Tato",
+                    "Tato",
+                    "Tato"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "banknote"
+                  ],
+                  "blue": [
+                    "Banknote",
+                    "dabei"
+                  ]
+                },
+                "lv": {
+                  "yellow": [
+                    "Mám"
+                  ],
+                  "purple": [
+                    "Mám",
+                    "Mám",
+                    "Mám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "traurige",
+                    "Note",
+                    "Text"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Text"
+                  ],
+                  "purple": [
+                    "Text",
+                    "Text",
+                    "Text"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "die Note",
+                    "Note"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Značka"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "bekomme",
+                    "Ich",
+                    "Ich",
+                    "Note"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Schulnote",
+                    "Schulnote"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Školní",
+                    "Školní",
+                    "Školní"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "die Schulnote",
+                    "Schulnote",
+                    "Die",
+                    "Die",
+                    "Die"
+                  ],
+                  "orange": [
+                    "Die"
+                  ],
+                  "purple": [
+                    "Die"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Musiknote",
+                    "Musiknote"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Hudební",
+                    "Hudební",
+                    "nota"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "nota"
+                  ],
+                  "yellow": [
+                    "die Musiknote",
+                    "Musiknote",
+                    "Die",
+                    "Die",
+                    "hoch",
+                    "nota"
+                  ],
+                  "purple": [
+                    "Die"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Banknote",
+                    "Banknote"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Bankovka"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "banknote"
+                  ],
+                  "red": [
+                    "die Banknote",
+                    "Banknote",
+                    "Die"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "purple": [
+                    "der Ton",
+                    "ton"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Tón",
+                    "Tón",
+                    "Tón"
+                  ]
+                },
+                "example": {
+                  "orange": [
+                    "Der"
+                  ],
+                  "purple": [
+                    "der Ton",
+                    "Der",
+                    "leise",
+                    "Der",
+                    "ton"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "leftBlocks": [
+                {
+                  "text": {
+                    "blue": [
+                      "Note"
+                    ],
+                    "orange": [
+                      "atzīme"
+                    ],
+                    "yellow": [
+                      "atzīme",
+                      "Skolā",
+                      "Note"
+                    ]
+                  }
+                },
+                {
+                  "text": {
+                    "blue": [
+                      "Note"
+                    ],
+                    "green": [
+                      "nots"
+                    ],
+                    "yellow": [
+                      "naudaszīme",
+                      "banknote",
+                      "Mūzikā",
+                      "Note",
+                      "nots"
+                    ]
+                  }
+                }
+              ]
+            },
+            "important": [
+              {
+                "text": {
+                  "blue": [
+                    "Note"
+                  ],
+                  "red": [
+                    "Význam",
+                    "atzīmi",
+                    "Význam",
+                    "Note"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Note"
+                  ],
+                  "yellow": [
+                    "banknote"
+                  ],
+                  "red": [
+                    "bekommen",
+                    "pieskaņa",
+                    "atzīmi",
+                    "saņemt",
+                    "gute",
+                    "labu",
+                    "Note"
+                  ]
+                }
+              }
+            ]
+          },
+          "accents": {
+            "blue": [
+              "StandardStudy",
+              "Kontekstā",
+              "Banknote",
+              "Banknoti",
+              "Die Note",
+              "Pārnestā",
+              "Pieskaņa",
+              "Pieskaņu",
+              "Noskaņu",
+              "Nozīmēt",
+              "Atzīme",
+              "Atzīmi",
+              "Mūzikā",
+              "Naudas",
+              "Skolā",
+              "Note",
+              "Noti",
+              "Nots"
+            ],
+            "green": [
+              "Die Schulnote",
+              "Schulnote",
+              "Skaņa",
+              "Nots"
+            ],
+            "yellow": [
+              "Die Musiknote",
+              "Musiknote",
+              "Banknote"
+            ],
+            "orange": [
+              "Atzīme",
+              "Tonis"
+            ],
+            "purple": [
+              "Atzīme • Nots • Banknote • Pieskaņa",
+              "Atzīme / nots / pieskaņa",
+              "Skolas atzīme",
+              "Tonis / skaņa",
+              "Mūzikas nots",
+              "Der Ton",
+              "Ton"
+            ],
+            "red": [
+              "Die Banknote",
+              "Pieskaņa"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 399,
+      "productionIndex": 1023,
+      "cardId": "a2-Notizbuch-1023",
+      "targetObject": {
+        "de": "Notizbuch",
+        "de_article": "das",
+        "de_plural": "die Notizbücher",
+        "lv": "Zápisník",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 400,
+      "productionIndex": 1024,
+      "cardId": "a2-nu-1024",
+      "targetObject": {
+        "de": "nu",
+        "lv": "Teď",
+        "level": "A2"
+      }
+    }
+  ]
+}

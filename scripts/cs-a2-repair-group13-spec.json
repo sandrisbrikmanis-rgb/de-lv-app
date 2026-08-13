@@ -1,0 +1,3982 @@
+{
+  "title": "CS–DE A2 Repair Group 13",
+  "scope": "Unique finding cards 601–629 from reports/cs-a2-all-findings-by-card.md",
+  "authoritativeRules": [
+    "Composer is COPY-ONLY.",
+    "Copy targetObject exactly into the matching data/cs/a2.js card.",
+    "Do not translate, infer, improve, normalize, or add repairs.",
+    "Front keeps one principal Czech meaning where an explicit correction is supplied.",
+    "DE side is strictly READ-ONLY; any DE mismatch must be blocked and reported.",
+    "Do not change cards outside this group.",
+    "If cardId, production index, or current object does not match, block that card and report instead of guessing."
+  ],
+  "cards": [
+    {
+      "groupOrder": 601,
+      "productionIndex": 1579,
+      "cardId": "a2-Werbung-1579",
+      "targetObject": {
+        "de": "Werbung",
+        "de_article": "die",
+        "de_plural": null,
+        "lv": "Reklama",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 602,
+      "productionIndex": 1580,
+      "cardId": "a2-werfen-1580",
+      "targetObject": {
+        "de": "werfen",
+        "lv": "Házet",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 603,
+      "productionIndex": 1583,
+      "cardId": "a2-wert",
+      "targetObject": {
+        "de": "Wert",
+        "de_article": "der",
+        "de_plural": "die Werte",
+        "lv": "Hodnota",
+        "level": "A2",
+        "study": {
+          "id": "a2-wert",
+          "layout": "standardStudy",
+          "translation": "Hodnota",
+          "explanation": "Hlavní myšlenka: der Wert znamená hodnotu (např. materiální nebo morální). Samostatně přídavné jméno wert znamená „stojící za to“ nebo „mající hodnotu“: Das ist viel wert. Fráze es ist wert znamená „stojí to za to“. Wert sein se často používá s penězi: Das ist 50 Euro wert. Přídavné jméno „drahý“ je obvykle teuer, ne wert.",
+          "examples": [
+            {
+              "de": "Das ist viel Geld wert.",
+              "lv": "Stojí to hodně peněz."
+            },
+            {
+              "de": "Ist das den Preis wert?",
+              "lv": "Stojí to za tu cenu?"
+            },
+            {
+              "de": "Der Film ist sehenswert.",
+              "lv": "Film stojí za zhlédnutí."
+            },
+            {
+              "de": "Dieses Bild ist 100 Euro wert.",
+              "lv": "Tento obrázek má hodnotu 100 eur."
+            },
+            {
+              "de": "Das Auto ist teuer.",
+              "lv": "Auto je drahé."
+            },
+            {
+              "de": "Der Wert des Hauses ist hoch.",
+              "lv": "Hodnota domu je vysoká."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "wert",
+              "meaning": "Stojící za to / mající hodnotu",
+              "example": "Das ist viel wert. = Stojí to hodně."
+            },
+            {
+              "word": "der Wert",
+              "meaning": "Hodnota",
+              "example": "Der Wert ist hoch. = Hodnota je vysoká."
+            },
+            {
+              "word": "teuer",
+              "meaning": "Drahý",
+              "example": "Das Auto ist teuer. = Auto je drahé."
+            },
+            {
+              "word": "sehenswert",
+              "meaning": "Stojí za to vidět",
+              "example": "Die Stadt ist sehenswert. = Město stojí za to vidět."
+            },
+            {
+              "word": "wichtig",
+              "meaning": "Důležité",
+              "example": "Das ist wichtig. = To je důležité."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Pokud můžete říct „stojí to za to“, v němčině se často používá wert."
+              },
+              {
+                "text": "Pokud jde o cenu, „drahé“ je obvykle teuer."
+              }
+            ]
+          },
+          "important": {
+            "text": "Wert není totéž co teuer.",
+            "example": "Das ist viel wert = tas ir daudz vērts. Das ist teuer = tas ir dārgs."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "wert"
+                  ],
+                  "yellow": [
+                    "Geld"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Stojí"
+                  ],
+                  "yellow": [
+                    "Stojí"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "wert"
+                  ],
+                  "yellow": [
+                    "Preis"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Stojí"
+                  ],
+                  "yellow": [
+                    "Stojí"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "sehenswert"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Film"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "wert"
+                  ],
+                  "yellow": [
+                    "Euro"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Tento"
+                  ],
+                  "yellow": [
+                    "Tento"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "teuer"
+                  ],
+                  "yellow": [
+                    "Auto"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Auto"
+                  ],
+                  "yellow": [
+                    "Auto"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Wert"
+                  ],
+                  "yellow": [
+                    "Hauses"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Cena"
+                  ],
+                  "yellow": [
+                    "Cena"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "wert"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Hodnotu"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "wert"
+                  ],
+                  "purple": [
+                    "Das"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "der Wert",
+                    "Wert"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Hodnota"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Wert"
+                  ],
+                  "purple": [
+                    "Der"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "teuer"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Drahý"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "teuer"
+                  ],
+                  "purple": [
+                    "Das"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "sehenswert"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Stojí"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "sehenswert"
+                  ],
+                  "purple": [
+                    "Die"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wichtig"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Důležité"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "wichtig"
+                  ],
+                  "purple": [
+                    "Das"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "leftBlocks": [
+                {
+                  "text": {
+                    "blue": [
+                      "wert"
+                    ],
+                    "purple": [
+                      "vērts"
+                    ]
+                  }
+                },
+                {
+                  "text": {
+                    "red": [
+                      "teuer"
+                    ],
+                    "purple": [
+                      "dārgs"
+                    ]
+                  }
+                }
+              ]
+            },
+            "important": [
+              {
+                "text": {
+                  "blue": [
+                    "wert"
+                  ],
+                  "red": [
+                    "teuer"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "wert"
+                  ],
+                  "red": [
+                    "teuer"
+                  ],
+                  "purple": [
+                    "vērts",
+                    "dārgs"
+                  ]
+                }
+              }
+            ]
+          },
+          "accents": {
+            "blue": [
+              "Wert"
+            ],
+            "purple": [
+              "Vērts",
+              "Vērts",
+              "Vērta"
+            ],
+            "green": [
+              "Wert",
+              "Sehenswert"
+            ],
+            "yellow": [
+              "Geld",
+              "Preis",
+              "Euro"
+            ],
+            "red": [
+              "Teuer"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 604,
+      "productionIndex": 1585,
+      "cardId": "a2-Westen-1585",
+      "targetObject": {
+        "de": "Westen",
+        "de_article": "der",
+        "lv": "Západ",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 605,
+      "productionIndex": 1589,
+      "cardId": "a2-wiegen",
+      "targetObject": {
+        "de": "wiegen",
+        "lv": "Vážit",
+        "level": "A2",
+        "study": {
+          "id": "a2-wiegen",
+          "layout": "standardStudy",
+          "translation": "Vážit",
+          "explanation": "Hlavní myšlenka: wiegen znamená vážit nebo zvážit. Může vyjadřovat hmotnost: Das Kind wiegt 20 Kilo. Může také znamenat zvážit něco na váze. Samostatné slovo wagen znamená odvážit se a der Wagen je auto nebo vůz, takže si je nepleťte.",
+          "examples": [
+            {
+              "de": "Das Paket wiegt zwei Kilo.",
+              "lv": "Balení váží dva kilogramy."
+            },
+            {
+              "de": "Wie viel wiegst du?",
+              "lv": "Kolik vážíš"
+            },
+            {
+              "de": "Ich wiege das Mehl.",
+              "lv": "Odvážím mouku."
+            },
+            {
+              "de": "Der Arzt wiegt das Baby.",
+              "lv": "Doktor váží dítě."
+            },
+            {
+              "de": "Die Waage zeigt 70 Kilo.",
+              "lv": "Váha ukazuje 70 kilogramů."
+            },
+            {
+              "de": "Der Wagen steht draußen.",
+              "lv": "Auto stojí venku."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "wiegen",
+              "meaning": "Vážit / zvážit",
+              "example": "Das Paket wiegt zwei Kilo. = Balení váží dva kilogramy."
+            },
+            {
+              "word": "die Waage",
+              "meaning": "Váhy",
+              "example": "Die Waage steht im Bad. = Váhy jsou v koupelně."
+            },
+            {
+              "word": "das Gewicht",
+              "meaning": "Hmotnost",
+              "example": "Das Gewicht ist normal. = Hmotnost je normální."
+            },
+            {
+              "word": "messen",
+              "meaning": "Měřit",
+              "example": "Ich messe die Länge. = Měřím délku."
+            },
+            {
+              "word": "der Wagen",
+              "meaning": "Auto / vagón",
+              "example": "Der Wagen ist neu. = Auto je nové."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Když se ptáte na váhu těla nebo předmětu, použijte wiegen."
+              },
+              {
+                "text": "Předmět, kterým se váží, je die Waage."
+              }
+            ]
+          },
+          "important": {
+            "text": "Wiegen a die Waage jsou příbuzné, ale ne totéž.",
+            "example": "Das Paket wiegt zwei Kilo = paka sver divus kilogramus. die Waage = svari."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "wiegt"
+                  ],
+                  "yellow": [
+                    "Paket",
+                    "Kilo"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Balení"
+                  ],
+                  "yellow": [
+                    "Balení",
+                    "kilogramy"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "wiegst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kolik"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "wiege"
+                  ],
+                  "yellow": [
+                    "Mehl"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Odvážím"
+                  ],
+                  "yellow": [
+                    "Odvážím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "wiegt"
+                  ],
+                  "green": [
+                    "Arzt",
+                    "Baby"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Doktor"
+                  ],
+                  "green": [
+                    "Doktor",
+                    "Doktor"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Waage"
+                  ],
+                  "yellow": [
+                    "Kilo"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Váha"
+                  ],
+                  "yellow": [
+                    "kilogramů"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "Wagen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Auto"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "wiegen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Vážit",
+                    "Vážit"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "wiegt"
+                  ],
+                  "purple": [
+                    "Das"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Waage",
+                    "Waage"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Váhy"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Waage"
+                  ],
+                  "purple": [
+                    "Die"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "das Gewicht",
+                    "Gewicht"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Hmotnost"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Gewicht"
+                  ],
+                  "purple": [
+                    "Das"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "messen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "mērīt"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "messe"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "der Wagen",
+                    "Wagen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Auto",
+                    "vagón"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Wagen"
+                  ],
+                  "purple": [
+                    "Der"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "leftBlocks": [
+                {
+                  "text": {
+                    "blue": [
+                      "wiegen"
+                    ],
+                    "purple": [
+                      "svaru"
+                    ]
+                  }
+                },
+                {
+                  "text": {
+                    "green": [
+                      "die Waage"
+                    ],
+                    "purple": [
+                      "sver"
+                    ]
+                  }
+                }
+              ]
+            },
+            "important": [
+              {
+                "text": {
+                  "blue": [
+                    "wiegen"
+                  ],
+                  "green": [
+                    "die Waage"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "wiegt"
+                  ],
+                  "green": [
+                    "Waage"
+                  ],
+                  "purple": [
+                    "sver",
+                    "svari"
+                  ]
+                }
+              }
+            ]
+          },
+          "accents": {
+            "blue": [
+              "Wiegen",
+              "Wiegt",
+              "Wiege",
+              "Wiegst"
+            ],
+            "purple": [
+              "Svērt",
+              "Svērt",
+              "Nosvērt",
+              "Sver",
+              "Nosver"
+            ],
+            "green": [
+              "Waage",
+              "Arzt",
+              "Baby"
+            ],
+            "yellow": [
+              "Paket",
+              "Kilo",
+              "Gewicht"
+            ],
+            "red": [
+              "Wagen",
+              "Messen"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 606,
+      "productionIndex": 1592,
+      "cardId": "a2-Wild-1592",
+      "targetObject": {
+        "de": "Wild",
+        "de_article": "das",
+        "lv": "Zvěř",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 607,
+      "productionIndex": 1596,
+      "cardId": "a2-winken-1596",
+      "targetObject": {
+        "de": "winken",
+        "lv": "Mávat",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 608,
+      "productionIndex": 1599,
+      "cardId": "a2-ziehen",
+      "targetObject": {
+        "de": "ziehen",
+        "lv": "Tahat",
+        "level": "A2",
+        "study": {
+          "id": "a2-ziehen",
+          "layout": "standardStudy",
+          "translation": "Tahat",
+          "explanation": "Základní význam slova ziehen je „táhnout“. Používá se, když je něco taženo rukou nebo silou. Ziehen může také znamenat stěhovat se nebo táhnout určitým směrem. Ve spojení s dětmi znamená vychovávat a s rostlinami pěstovat. V některých větách znamená také vyvodit závěr.",
+          "examples": [
+            {
+              "de": "Zieh bitte die Tür zu.",
+              "lv": "Prosím, zavři dveře."
+            },
+            {
+              "de": "Er zieht den Wagen.",
+              "lv": "Táhne vozík."
+            },
+            {
+              "de": "Wir ziehen nächste Woche nach Berlin.",
+              "lv": "Příští týden se stěhujeme do Berlína."
+            },
+            {
+              "de": "Die Wolken ziehen nach Osten.",
+              "lv": "Mraky táhnou na východ."
+            },
+            {
+              "de": "Es zieht hier.",
+              "lv": "Je tu průvan."
+            },
+            {
+              "de": "Sie ziehen zwei Kinder groß.",
+              "lv": "Vychovávají dvě děti."
+            },
+            {
+              "de": "Daraus kann man einen Schluss ziehen.",
+              "lv": "Lze z toho vyvodit závěr."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ziehen",
+              "meaning": "Přetáhnout / přesunout / přesunout",
+              "example": "Wir ziehen um. = Stěhujeme se."
+            },
+            {
+              "word": "umziehen",
+              "meaning": "Stěhovat se / převlékat se",
+              "example": "Ich ziehe um. = Stěhuji se."
+            },
+            {
+              "word": "anziehen",
+              "meaning": "Obléknout / utáhnout",
+              "example": "Ich ziehe die Jacke an. = Oblékám si bundu."
+            },
+            {
+              "word": "ausziehen",
+              "meaning": "Svléknout / vystěhovat se",
+              "example": "Ich ziehe die Schuhe aus. = Zouvám si boty."
+            },
+            {
+              "word": "ziehen lassen",
+              "meaning": "Nechat odejít / nechat vylouhovat",
+              "example": "Den Tee ziehen lassen. = Nechte čaj vyluhovat."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Pokud jde o stěhování, často uvidíte umziehen nebo ziehen nach."
+              },
+              {
+                "text": "Pokud vidíte es zieht, často to znamená „průvan“."
+              }
+            ]
+          },
+          "important": {
+            "text": "Ziehen není jen fyzický „tah“.",
+            "example": "Wir ziehen nach Berlin = Stěhujeme se do Berlína. Es zieht = Je tu průvan. Einen Schluss ziehen = Vyvodit závěr."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "bitte",
+                    "Zieh"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Prosím",
+                    "Prosím",
+                    "Prosím",
+                    "Prosím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wagen",
+                    "zieht"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Táhne",
+                    "Táhne"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "nächste",
+                    "Berlin",
+                    "ziehen",
+                    "Woche",
+                    "nach"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Příští",
+                    "Příští",
+                    "berlína"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wolken",
+                    "ziehen",
+                    "Osten",
+                    "nach"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mraky",
+                    "Mraky",
+                    "Mraky"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zieht"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "zde",
+                    "zde"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Kinder",
+                    "ziehen",
+                    "groß",
+                    "zwei"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vychovávají",
+                    "Vychovávají",
+                    "Vychovávají"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Schluss",
+                    "Daraus",
+                    "ziehen",
+                    "kann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Lze",
+                    "Lze"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "ziehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Přetáhnout",
+                    "Přetáhnout",
+                    "Přetáhnout",
+                    "Přetáhnout"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Wir",
+                    "ziehen"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "umziehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Pohybovat",
+                    "Pohybovat",
+                    "Pohybovat"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Ich",
+                    "ziehe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "anziehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Obléknout",
+                    "Obléknout",
+                    "Obléknout",
+                    "Obléknout"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Ich",
+                    "Jacke",
+                    "ziehe",
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ausziehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Odtáhnout",
+                    "Odtáhnout",
+                    "Odtáhnout"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Ich",
+                    "Ich",
+                    "Schuhe",
+                    "ziehe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ziehen"
+                  ],
+                  "purple": [
+                    "ziehen lassen",
+                    "lassen",
+                    "ziehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Pustit",
+                    "Pustit",
+                    "Pustit",
+                    "Pustit"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "ziehen"
+                  ],
+                  "green": [
+                    "Den"
+                  ],
+                  "purple": [
+                    "ziehen lassen",
+                    "Den",
+                    "lassen",
+                    "ziehen",
+                    "Den",
+                    "Den"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "leftBlocks": [
+                {
+                  "text": {
+                    "blue": [
+                      "ziehen"
+                    ],
+                    "green": [
+                      "umziehen"
+                    ],
+                    "yellow": [
+                      "pārvākšanos",
+                      "umziehen",
+                      "redzēsi",
+                      "ziehen",
+                      "bieži",
+                      "runa"
+                    ]
+                  }
+                },
+                {
+                  "text": {
+                    "yellow": [
+                      "caurvējš",
+                      "bieži",
+                      "redzi",
+                      "zieht",
+                      "velk"
+                    ]
+                  }
+                }
+              ]
+            },
+            "important": [
+              {
+                "text": {
+                  "blue": [
+                    "ziehen"
+                  ],
+                  "orange": [
+                    "Ziehen"
+                  ],
+                  "red": [
+                    "Ziehen",
+                    "ziehen",
+                    "Ziehen",
+                    "Ziehen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "ziehen"
+                  ],
+                  "red": [
+                    "pārvācamies",
+                    "Berlīni",
+                    "Berlin",
+                    "ziehen",
+                    "zieht",
+                    "nach"
+                  ]
+                }
+              }
+            ]
+          },
+          "accents": {
+            "blue": [
+              "StandardStudy",
+              "Dzīvniekiem",
+              "Pamatnozīme",
+              "Pārvākties",
+              "Audzināt",
+              "Virzienā",
+              "Bērniem",
+              "Izvilkt",
+              "Nozīmēt",
+              "Augiem",
+              "Doties",
+              "Ziehen",
+              "Lieto",
+              "Spēku",
+              "Vilkt",
+              "Kādā",
+              "Roku",
+              "Velk"
+            ],
+            "green": [
+              "Pārģērbties",
+              "Ievilkties",
+              "Izvākties",
+              "Pievilkt",
+              "Umziehen",
+              "Izvilkt"
+            ],
+            "yellow": [
+              "Pārvākties",
+              "Virzīties",
+              "Anziehen"
+            ],
+            "orange": [
+              "Uzvilkt apģērbu",
+              "Ļaut aiziet",
+              "Novilkt",
+              "Vilkt"
+            ],
+            "purple": [
+              "Vilkt • Izvilkt • Pārvākties • Doties • Audzināt",
+              "Vilkt / pārvākties / virzīties",
+              "Uzvilkt apģērbu / pievilkt",
+              "Ļaut aiziet / ievilkties",
+              "Pārvākties / pārģērbties",
+              "Novilkt / izvākties",
+              "Ziehen lassen"
+            ],
+            "red": [
+              "Ausziehen",
+              "Doties"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 609,
+      "productionIndex": 1600,
+      "cardId": "a2-Ziel-1600",
+      "targetObject": {
+        "de": "Ziel",
+        "de_article": "das",
+        "de_plural": "die Ziele",
+        "lv": "Cíl",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 610,
+      "productionIndex": 1604,
+      "cardId": "a2-Zopf-1604",
+      "targetObject": {
+        "de": "Zopf",
+        "de_article": "der",
+        "de_plural": "die Zöpfe",
+        "lv": "Cop",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 611,
+      "productionIndex": 1606,
+      "cardId": "a2-zubereiten-1606",
+      "targetObject": {
+        "de": "zubereiten",
+        "lv": "Připravovat",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 612,
+      "productionIndex": 1613,
+      "cardId": "a2-zunächst-1613",
+      "targetObject": {
+        "de": "zunächst",
+        "lv": "Nejprve",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 613,
+      "productionIndex": 1614,
+      "cardId": "a2-zunehmen",
+      "targetObject": {
+        "de": "zunehmen",
+        "lv": "Přibrat na váze",
+        "level": "A2",
+        "study": {
+          "id": "a2-zunehmen",
+          "layout": "standardStudy",
+          "translation": "Přibrat na váze",
+          "explanation": "Zunehmen může znamenat přibrat na váze. Může také znamenat zvýšit se nebo vzrůst co do počtu, intenzity či množství. U lidí se obvykle překládá jako přibrat na váze. U cen, větru, hluku nebo problémů znamená vzrůst nebo zesílit. Opakem bývá abnehmen.",
+          "examples": [
+            {
+              "de": "Ich habe im Winter zugenommen.",
+              "lv": "V zimě jsem přibral(a)."
+            },
+            {
+              "de": "Der Verkehr nimmt zu.",
+              "lv": "Provoz se zvyšuje."
+            },
+            {
+              "de": "Die Preise nehmen weiter zu.",
+              "lv": "Ceny dál rostou."
+            },
+            {
+              "de": "Der Wind nimmt zu.",
+              "lv": "Vítr zesiluje."
+            },
+            {
+              "de": "Die Zahl der Besucher hat zugenommen.",
+              "lv": "Počet návštěvníků vzrostl."
+            },
+            {
+              "de": "Der Druck nimmt langsam zu.",
+              "lv": "Tlak se pomalu zvyšuje."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "zunehmen",
+              "meaning": "Přibírat / růst",
+              "example": "Die Preise nehmen zu. = Ceny rostou."
+            },
+            {
+              "word": "abnehmen",
+              "meaning": "Hubnout / klesat",
+              "example": "Ich nehme ab. = Zhubla jsem."
+            },
+            {
+              "word": "wachsen",
+              "meaning": "Růst",
+              "example": "Die Stadt wächst. = Město roste."
+            },
+            {
+              "word": "steigen",
+              "meaning": "Stoupat / růst",
+              "example": "Die Preise steigen. = Ceny jdou nahoru."
+            },
+            {
+              "word": "sich erhöhen",
+              "meaning": "Zvyšovat se",
+              "example": "Die Kosten erhöhen sich. = Náklady se zvyšují."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Pro váhu znamená zunehmen přibrat."
+              },
+              {
+                "text": "U čísel, cen nebo intenzity znamená zunehmen vzrůst nebo zvýšit se."
+              }
+            ]
+          },
+          "important": {
+            "text": "Zunehmen mění význam podle předmětu.",
+            "example": "Ich nehme zu = es pieņemos svarā. Die Preise nehmen zu = cenas pieaug. abnehmen = samazināties vai notievēt."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "zugenommen",
+                    "Winter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "zimě",
+                    "zimě",
+                    "zimě"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Verkehr",
+                    "nimmt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Provoz",
+                    "Provoz"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "nehmen",
+                    "Preise",
+                    "weiter"
+                  ]
+                },
+                "lv": {
+                  "yellow": [
+                    "Ceny"
+                  ],
+                  "purple": [
+                    "Ceny",
+                    "Ceny",
+                    "Ceny"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "nimmt",
+                    "Wind"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vítr",
+                    "Vítr"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zugenommen",
+                    "Besucher",
+                    "Zahl"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "zvýšil",
+                    "zvýšil",
+                    "zvýšil"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "langsam",
+                    "Druck",
+                    "nimmt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Tlak",
+                    "Tlak",
+                    "Tlak"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "zunehmen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Přibírat",
+                    "Přibírat",
+                    "Přibírat",
+                    "Přibírat"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "nehmen",
+                    "Die",
+                    "Preise",
+                    "Die"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "abnehmen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Ztenčit",
+                    "Ztenčit",
+                    "Ztenčit"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Ich",
+                    "nehme"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wachsen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Růst"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Die",
+                    "wächst",
+                    "Stadt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "steigen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Stoupat",
+                    "Stoupat",
+                    "Stoupat"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "steigen",
+                    "Preise",
+                    "Die",
+                    "Die"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "purple": [
+                    "sich erhöhen",
+                    "erhöhen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Zvýšení"
+                  ]
+                },
+                "example": {
+                  "purple": [
+                    "Die",
+                    "Die",
+                    "erhöhen",
+                    "kosten"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "leftBlocks": [
+                {
+                  "text": {
+                    "blue": [
+                      "zunehmen"
+                    ],
+                    "orange": [
+                      "pieņemties svarā"
+                    ],
+                    "yellow": [
+                      "pieņemties",
+                      "zunehmen",
+                      "svarā",
+                      "svaru"
+                    ]
+                  }
+                },
+                {
+                  "text": {
+                    "blue": [
+                      "zunehmen"
+                    ],
+                    "green": [
+                      "palielināties"
+                    ],
+                    "yellow": [
+                      "intensitāti",
+                      "skaitļiem",
+                      "zunehmen",
+                      "pieaugt",
+                      "cenām"
+                    ]
+                  }
+                }
+              ]
+            },
+            "important": [
+              {
+                "text": {
+                  "blue": [
+                    "zunehmen"
+                  ],
+                  "red": [
+                    "zunehmen",
+                    "Zunehmen",
+                    "Zunehmen",
+                    "Zunehmen"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "samazināties",
+                    "abnehmen"
+                  ],
+                  "orange": [
+                    "notievēt"
+                  ],
+                  "red": [
+                    "pieņemos",
+                    "nehmen",
+                    "Preise",
+                    "cenas",
+                    "nehme",
+                    "svarā"
+                  ]
+                }
+              }
+            ]
+          },
+          "accents": {
+            "blue": [
+              "Palielināties",
+              "StandardStudy",
+              "Intensitātei",
+              "Pieņemties",
+              "Daudzumam",
+              "Problēmu",
+              "Zunehmen",
+              "Cilvēku",
+              "Nozīmēt",
+              "Pieaugt",
+              "Skaitam",
+              "Troksni",
+              "Svarā",
+              "Svaru",
+              "Tulko",
+              "Cenu",
+              "Vēju"
+            ],
+            "green": [
+              "Palielināties",
+              "Samazināties",
+              "Abnehmen"
+            ],
+            "yellow": [
+              "Pieaugt",
+              "Wachsen"
+            ],
+            "orange": [
+              "Pieņemties svarā",
+              "Notievēt",
+              "Kāpt"
+            ],
+            "purple": [
+              "Pieņemties svarā • Palielināties • Pieaugt",
+              "Pieņemties svarā / pieaugt",
+              "Notievēt / samazināties",
+              "Kāpt / pieaugt",
+              "Sich erhöhen",
+              "Augt"
+            ],
+            "red": [
+              "Steigen"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 614,
+      "productionIndex": 1618,
+      "cardId": "a2-zurzeit",
+      "targetObject": {
+        "de": "zurzeit",
+        "lv": "V současné době",
+        "level": "A2",
+        "study": {
+          "id": "a2-zurzeit",
+          "layout": "standardStudy",
+          "translation": "V současné době",
+          "explanation": "Zurzeit znamená „v současné době“, „právě teď“ nebo „momentálně“. Popisuje situaci v určitém současném období. Často se používá, když se situace může později změnit. Podobá se výrazům derzeit a Im Moment. Jetzt je kratší a obecnější výraz pro „teď“.",
+          "examples": [
+            {
+              "de": "Ich arbeite zurzeit viel.",
+              "lv": "Momentálně hodně pracuji."
+            },
+            {
+              "de": "Zurzeit wohne ich in Berlin.",
+              "lv": "Momentálně bydlím v Berlíně."
+            },
+            {
+              "de": "Wir haben zurzeit keine freien Zimmer.",
+              "lv": "Momentálně nemáme žádné volné pokoje."
+            },
+            {
+              "de": "Er ist zurzeit krank.",
+              "lv": "Momentálně je nemocný."
+            },
+            {
+              "de": "Zurzeit lerne ich Deutsch.",
+              "lv": "V současné době se učím němčinu."
+            },
+            {
+              "de": "Die Firma sucht zurzeit neue Mitarbeiter.",
+              "lv": "Společnost aktuálně hledá nové zaměstnance."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "zurzeit",
+              "meaning": "Aktuálně / v současné době / v tuto chvíli",
+              "example": "Zurzeit bin ich beschäftigt. = Momentálně jsem zaneprázdněn."
+            },
+            {
+              "word": "jetzt",
+              "meaning": "Teď",
+              "example": "Ich gehe jetzt. = Už jdu."
+            },
+            {
+              "word": "im Moment",
+              "meaning": "V tuto chvíli / aktuálně",
+              "example": "Im Moment habe ich keine Zeit. = Teď nemám čas."
+            },
+            {
+              "word": "derzeit",
+              "meaning": "Aktuálně / v současné době",
+              "example": "Derzeit ist das nicht möglich. = To v současné době není možné."
+            },
+            {
+              "word": "momentan",
+              "meaning": "V tuto chvíli / aktuálně",
+              "example": "Momentan bin ich krank. = Právě teď jsem nemocný."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Zurzeit se používá, když současná situace může být dočasná."
+              },
+              {
+                "text": "Jetzt znamená právě teď, ale zurzeit často znamená v současné době."
+              }
+            ]
+          },
+          "important": {
+            "text": "Zurzeit není vždy totéž co jetzt.",
+            "example": "Ich gehe jetzt = es eju tagad. Ich arbeite zurzeit viel = pašlaik es daudz strādāju. derzeit un im Moment ir ļoti tuvi zurzeit."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "arbeite",
+                    "zurzeit",
+                    "viel"
+                  ]
+                },
+                "lv": {
+                  "orange": [
+                    "Momentálně"
+                  ],
+                  "purple": [
+                    "Momentálně",
+                    "Momentálně",
+                    "Momentálně"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zurzeit",
+                    "Berlin",
+                    "wohne"
+                  ]
+                },
+                "lv": {
+                  "green": [
+                    "Momentálně"
+                  ],
+                  "purple": [
+                    "Berlīnē",
+                    "Momentálně",
+                    "Momentálně"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zurzeit",
+                    "freien",
+                    "Zimmer"
+                  ]
+                },
+                "lv": {
+                  "yellow": [
+                    "Momentálně"
+                  ],
+                  "purple": [
+                    "Momentálně",
+                    "Momentálně",
+                    "Momentálně"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zurzeit",
+                    "krank"
+                  ]
+                },
+                "lv": {
+                  "orange": [
+                    "Momentálně"
+                  ],
+                  "purple": [
+                    "Momentálně",
+                    "Momentálně"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Deutsch",
+                    "zurzeit",
+                    "lerne"
+                  ]
+                },
+                "lv": {
+                  "orange": [
+                    "současné"
+                  ],
+                  "purple": [
+                    "současné",
+                    "současné",
+                    "současné",
+                    "současné"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Mitarbeiter",
+                    "zurzeit",
+                    "Firma",
+                    "sucht",
+                    "neue"
+                  ]
+                },
+                "lv": {
+                  "green": [
+                    "Společnost"
+                  ],
+                  "purple": [
+                    "Společnost",
+                    "Společnost",
+                    "Společnost",
+                    "Společnost",
+                    "Společnost"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "zurzeit"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Aktuálně",
+                    "Aktuálně",
+                    "Aktuálně",
+                    "Aktuálně",
+                    "Aktuálně"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "beschäftigt",
+                    "Zurzeit",
+                    "Zurzeit",
+                    "zurzeit",
+                    "Zurzeit"
+                  ],
+                  "orange": [
+                    "Zurzeit"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "jetzt"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Teď"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "jetzt",
+                    "Ich",
+                    "gehe"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "im Moment",
+                    "Moment"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "tuto",
+                    "tuto",
+                    "tuto"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Moment"
+                  ],
+                  "yellow": [
+                    "im Moment",
+                    "Moment",
+                    "Moment",
+                    "Moment",
+                    "Zeit"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "derzeit"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Aktuálně",
+                    "Aktuálně",
+                    "Aktuálně"
+                  ]
+                },
+                "example": {
+                  "orange": [
+                    "Derzeit"
+                  ],
+                  "red": [
+                    "Derzeit",
+                    "derzeit",
+                    "möglich",
+                    "Derzeit"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "purple": [
+                    "momentan"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "tuto",
+                    "tuto",
+                    "tuto"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Momentan"
+                  ],
+                  "purple": [
+                    "momentan",
+                    "Momentan",
+                    "krank",
+                    "Momentan",
+                    "Momentan"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "leftBlocks": [
+                {
+                  "text": {
+                    "blue": [
+                      "zurzeit"
+                    ],
+                    "yellow": [
+                      "pašreizējā",
+                      "īslaicīga",
+                      "situācija",
+                      "zurzeit",
+                      "lieto"
+                    ]
+                  }
+                },
+                {
+                  "text": {
+                    "blue": [
+                      "zurzeit"
+                    ],
+                    "green": [
+                      "jetzt"
+                    ],
+                    "purple": [
+                      "tagad"
+                    ],
+                    "yellow": [
+                      "zurzeit",
+                      "bieži",
+                      "jetzt",
+                      "tagad",
+                      "tieši"
+                    ]
+                  }
+                }
+              ]
+            },
+            "important": [
+              {
+                "text": {
+                  "blue": [
+                    "zurzeit"
+                  ],
+                  "green": [
+                    "jetzt"
+                  ],
+                  "red": [
+                    "zurzeit",
+                    "jetzt",
+                    "Zurzeit"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "zurzeit"
+                  ],
+                  "green": [
+                    "jetzt"
+                  ],
+                  "yellow": [
+                    "im Moment"
+                  ],
+                  "orange": [
+                    "pašlaik"
+                  ],
+                  "purple": [
+                    "tagad"
+                  ],
+                  "red": [
+                    "arbeite",
+                    "derzeit",
+                    "zurzeit",
+                    "jetzt",
+                    "tagad",
+                    "gehe",
+                    "viel"
+                  ]
+                }
+              }
+            ]
+          },
+          "accents": {
+            "blue": [
+              "StandardStudy",
+              "Pašreizējā",
+              "Mainīties",
+              "Situācija",
+              "Situāciju",
+              "Noteiktā",
+              "Patlaban",
+              "Raksturo",
+              "Derzeit",
+              "Līdzīgs",
+              "Pašlaik",
+              "Periodā",
+              "Zurzeit",
+              "Šobrīd",
+              "Bieži",
+              "Lieto",
+              "Vēlāk"
+            ],
+            "green": [
+              "Šobrīd",
+              "Jetzt"
+            ],
+            "yellow": [
+              "Im Moment",
+              "Patlaban"
+            ],
+            "orange": [
+              "Pašlaik"
+            ],
+            "purple": [
+              "Pašlaik / šobrīd / patlaban",
+              "Pašlaik • Šobrīd • Patlaban",
+              "Pašlaik / patlaban",
+              "Šobrīd / patlaban",
+              "Šobrīd / pašlaik",
+              "Momentan",
+              "Tagad"
+            ],
+            "red": [
+              "Derzeit"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 615,
+      "productionIndex": 1622,
+      "cardId": "a2-sehen",
+      "targetObject": {
+        "de": "sehen",
+        "lv": "Vidět",
+        "level": "A2",
+        "study": {
+          "id": "a2-sehen",
+          "layout": "standardStudy",
+          "translation": "Vidět",
+          "explanation": [
+            "Hlavní myšlenka: Vnímat očima, často bez velkého úmyslu.",
+            "Sehen především znamená: vnímat očima.",
+            "Často charakterizováno: viděním.",
+            "Často se to děje bez velkého úsilí."
+          ],
+          "examples": [
+            {
+              "de": "Ich sehe dich.",
+              "lv": "Vidím tě."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sehen",
+              "meaning": "Vidět (bez úmyslu)",
+              "example": "Ich sehe einen Vogel. – Vidím ptáka."
+            },
+            {
+              "word": "schauen",
+              "meaning": "Dívat se (aktivně, se záměrem)",
+              "example": "Ich schaue den Vogel an. – Dívám se na ptáka."
+            }
+          ],
+          "tip": [
+            "Sehen = vidět",
+            "Použijte sehen, když kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Sehen ne vždy sleduje.",
+            "Sehen = vidět."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sehen"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "sehe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vidím"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Sehen"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "sehen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 616,
+      "productionIndex": 1623,
+      "cardId": "a2-schauen",
+      "targetObject": {
+        "de": "schauen",
+        "lv": "Hodinky",
+        "level": "A2",
+        "study": {
+          "id": "a2-schauen",
+          "layout": "standardStudy",
+          "translation": "Dívat se",
+          "explanation": [
+            "Hlavní myšlenka: Dívat se nebo se dívat aktivně.",
+            "Schauen především znamená: aktivně sledovat.",
+            "Často popisuje: akce.",
+            "Schauen znamená aktivně se dívat."
+          ],
+          "examples": [
+            {
+              "de": "Ich schaue fern.",
+              "lv": "Dívám se na televizi."
+            },
+            {
+              "de": "Wir schauen aus dem Fenster.",
+              "lv": "Díváme se z okna."
+            },
+            {
+              "de": "Ich schaue fern.",
+              "lv": "Dívám se na televizi."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "schauen",
+              "meaning": "Dívat se (aktivně)",
+              "example": "Ich schaue aus dem Fenster. – Dívám se z okna."
+            },
+            {
+              "word": "sehen",
+              "meaning": "Vidět (bez úmyslu)",
+              "example": "Ich sehe dich. – Vidím tě"
+            }
+          ],
+          "tip": [
+            "Schauen = dívat se",
+            "Použijte schauen, když kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Schauen = dívat se.",
+            "Aktivně se dívat nebo dívat."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "schauen"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "orange": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "schaue"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "schauen",
+                    "schauen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Díváme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "schaue"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Schauen"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "schauen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 617,
+      "productionIndex": 1625,
+      "cardId": "a2-hoeren",
+      "targetObject": {
+        "de": "hören",
+        "lv": "Slyšet • Poslouchat",
+        "level": "A2",
+        "study": {
+          "id": "a2-hoeren",
+          "layout": "standardStudy",
+          "translation": "Slyšet • Poslouchat",
+          "explanation": [
+            "Hlavní myšlenka: Slyšet zvuk nebo poslouchat hudbu.",
+            "Hören především znamená: vnímat zvuk.",
+            "Často charakterizované: zvuky.",
+            "Hören se používá pro zvuky, hudbu a to, co je slyšet."
+          ],
+          "examples": [
+            {
+              "de": "Ich höre Musik.",
+              "lv": "Poslouchám hudbu."
+            },
+            {
+              "de": "Die Kinder hören eine Geschichte.",
+              "lv": "Děti poslouchají pohádku."
+            },
+            {
+              "de": "Ich höre dich.",
+              "lv": "Slyším tě."
+            }
+          ],
+          "tip": [
+            "Poslouchejte zvuk nebo poslouchejte hudbu.",
+            "Použijte hören, pokud kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Hören = slyšet/poslechnout zvuk.",
+            "Poslouchejte zvuk nebo poslouchejte hudbu."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "hören"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "höre"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "hören",
+                    "hören"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "höre"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Slyším"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Poslouchejte"
+                ]
+              },
+              {
+                "purple": [
+                  "Poslouchejte"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "hören"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 618,
+      "productionIndex": 1626,
+      "cardId": "a2-sagen",
+      "targetObject": {
+        "de": "sagen",
+        "lv": "Říct",
+        "level": "A2",
+        "study": {
+          "id": "a2-sagen",
+          "layout": "standardStudy",
+          "translation": "Říct",
+          "explanation": [
+            "Hlavní myšlenka: Řekněte konkrétní myšlenku, slovo nebo větu.",
+            "Sagen především znamená: uvést konkrétní bod.",
+            "Často popisuje: slova/věty.",
+            "Sagen se používá pro konkrétní daný text."
+          ],
+          "examples": [
+            {
+              "de": "Was hast du gesagt?",
+              "lv": "Co jsi řekl?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sagen",
+              "meaning": "Říct (konkrétní text)",
+              "example": "Was hast du gesagt? – Co jsi říkal"
+            },
+            {
+              "word": "sprechen",
+              "meaning": "Mluvit (jazykem, hovořit)",
+              "example": "Ich spreche Deutsch. – Mluvím německy."
+            }
+          ],
+          "tip": [
+            "Sagen = říci",
+            "Použijte sagen, pokud kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Sagen = říct nebo říkat.",
+            "Sdělit konkrétní myšlenku, slovo nebo větu."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sagen"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Sagen"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "sagen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 619,
+      "productionIndex": 1627,
+      "cardId": "a2-sprechen",
+      "targetObject": {
+        "de": "sprechen",
+        "lv": "Mluvit",
+        "level": "A2",
+        "study": {
+          "id": "a2-sprechen",
+          "layout": "standardStudy",
+          "translation": "Mluvit",
+          "explanation": [
+            "Hlavní myšlenka: Mluvit, konverzovat nebo používat jazyk.",
+            "Sprechen znamená hlavně: mluvit nebo hovořit.",
+            "Často charakterizováno: jazykem/konverzací.",
+            "Sprechen popisuje mluvení nebo používání jazyka."
+          ],
+          "examples": [
+            {
+              "de": "Ich spreche Deutsch.",
+              "lv": "Mluvím německy."
+            },
+            {
+              "de": "Wir sprechen über die Arbeit.",
+              "lv": "Mluvíme o práci."
+            },
+            {
+              "de": "Ich spreche Deutsch.",
+              "lv": "Mluvím německy."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sprechen",
+              "meaning": "Mluvit (proces, jazyk)",
+              "example": "Wir sprechen über die Arbeit. – Mluvíme o práci."
+            },
+            {
+              "word": "sagen",
+              "meaning": "Říct (konkrétní text)",
+              "example": "Sag mir die Wahrheit. – Řekni mi pravdu."
+            }
+          ],
+          "tip": [
+            "Sprechen = mluvit",
+            "Použijte sprechen, když kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Sprechen = mluvit.",
+            "Mluvit, konverzovat nebo používat jazyk."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "sprechen"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "orange": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "spreche"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mluvím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "sprechen",
+                    "sprechen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "spreche"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mluvím"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Sprechen"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "sprechen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 620,
+      "productionIndex": 1628,
+      "cardId": "a2-gross",
+      "targetObject": {
+        "de": "groß",
+        "lv": "Velký",
+        "level": "A2",
+        "study": {
+          "id": "a2-gross",
+          "layout": "standardStudy",
+          "translation": "Velký",
+          "explanation": [
+            "Hlavní myšlenka: Velká velikost nebo pro osobu - vysoká na výšku.",
+            "Groß především znamená: velký rozměr.",
+            "Často charakterizováno: celkovou velikostí.",
+            "Groß především znamená: lidská výška.",
+            "Často popisuje: osobu.",
+            "Groß popisuje velikost obecně nebo výšku osoby."
+          ],
+          "examples": [
+            {
+              "de": "Das Haus ist groß.",
+              "lv": "Dům je velký."
+            },
+            {
+              "de": "Das Haus ist groß.",
+              "lv": "Dům je velký."
+            },
+            {
+              "de": "Er ist groß.",
+              "lv": "Je vysoký."
+            },
+            {
+              "de": "Das Zimmer ist groß.",
+              "lv": "Pokoj je velký."
+            }
+          ],
+          "tip": [
+            "Groß = velký",
+            "Použijte groß, pokud kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Pro člověka znamená Er ist groß vysoký.",
+            "Groß = velký.",
+            "Velký rozměrem nebo vysoký, když mluvíme o člověku."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "groß"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "groß",
+                    "groß"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dům"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "groß",
+                    "groß"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dům"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "groß",
+                    "groß"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "groß",
+                    "groß"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Pokoj"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Groß"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "groß"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 621,
+      "productionIndex": 1630,
+      "cardId": "a2-klein",
+      "targetObject": {
+        "de": "klein",
+        "lv": "Malý",
+        "level": "A2",
+        "study": {
+          "id": "a2-klein",
+          "layout": "standardStudy",
+          "translation": "Malý",
+          "explanation": [
+            "Hlavní myšlenka: Malý velikostí nebo rozsahem.",
+            "Klein znamená především: malá velikost.",
+            "Často popisuje: velikost věci/osoby.",
+            "Klein v podstatě znamená: malý/nový.",
+            "Často popisuje: dítě.",
+            "Klein popisuje malou velikost."
+          ],
+          "examples": [
+            {
+              "de": "Das Zimmer ist klein.",
+              "lv": "Místnost je malá."
+            },
+            {
+              "de": "Das Zimmer ist klein.",
+              "lv": "Pokoj je malý."
+            },
+            {
+              "de": "Das Kind ist noch klein.",
+              "lv": "Dítě je ještě malé."
+            },
+            {
+              "de": "Ich habe eine kleine Tasche.",
+              "lv": "Mám malou tašku."
+            },
+            {
+              "de": "Das Kind ist klein.",
+              "lv": "Dítě je malé."
+            }
+          ],
+          "tip": [
+            "Klein = malý",
+            "Použijte klein, když kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Klein = malý rozměr.",
+            "Klein = malý.",
+            "Malá velikostí nebo rozsahem."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "klein"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "klein",
+                    "klein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Místnost"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "klein",
+                    "klein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Pokoj"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "klein",
+                    "klein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dítě"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "klein",
+                    "klein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "klein",
+                    "klein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dítě"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Klein"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "klein"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 622,
+      "productionIndex": 1631,
+      "cardId": "a2-leise",
+      "targetObject": {
+        "de": "leise",
+        "lv": "Klid",
+        "level": "A2",
+        "study": {
+          "id": "a2-leise",
+          "layout": "standardStudy",
+          "translation": "Tichý • Potichu",
+          "explanation": [
+            "Hlavní myšlenka: Tichá nebo nízká hlasitost.",
+            "Leise v podstatě znamená: nízká hlasitost.",
+            "Často popisuje: zvuk/hlas/hudba.",
+            "Leise popisuje nízkou hlasitost nebo tichý hlas/zvuk."
+          ],
+          "examples": [
+            {
+              "de": "Bitte sei leise.",
+              "lv": "Prosím, buďte zticha."
+            },
+            {
+              "de": "Bitte sei leise.",
+              "lv": "Prosím, buď zticha."
+            },
+            {
+              "de": "Die Musik ist leise.",
+              "lv": "Hudba je tichá."
+            },
+            {
+              "de": "Sprich bitte leise.",
+              "lv": "Prosím mluv potichu."
+            }
+          ],
+          "tip": [
+            "Leise = tichý / potichu",
+            "Použijte leise, když kontext vyhovuje tomuto významu."
+          ],
+          "important": [
+            "Leise = tichý ve zvuku.",
+            "Leise označuje nízkou hlasitost.",
+            "Tichá nebo nízká hlasitost."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "leise"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "orange": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "leise",
+                    "leise"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Prosím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "leise",
+                    "leise"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Prosím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "leise",
+                    "leise"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hudba"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "leise",
+                    "leise"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Prosím"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Klid"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "leise"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 623,
+      "productionIndex": 1632,
+      "cardId": "a2-schon",
+      "targetObject": {
+        "de": "schon",
+        "lv": "Již",
+        "level": "A2",
+        "study": {
+          "id": "a2-schon",
+          "layout": "standardStudy",
+          "translation": "Již",
+          "explanation": [
+            "Hlavní myšlenka: Něco se již stalo nebo je již účinné.",
+            "Schon především znamená: něco se již stalo nebo je v platnosti.",
+            "Často popisuje: skutečnost, která se stala nebo existující stav.",
+            "Schon znamená již: něco se již stalo nebo je již v platnosti."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin schon zu Hause.",
+              "lv": "Už jsem doma."
+            }
+          ],
+          "tip": [
+            "Něco se již stalo nebo je již účinné.",
+            "Použijte schon, pokud kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Schon = již.",
+            "Něco se již stalo nebo je již účinné."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "schon",
+                "schon"
+              ],
+              "purple": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "schon",
+                    "schon"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jsem"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Něco"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "schon"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 624,
+      "productionIndex": 1633,
+      "cardId": "a2-noch",
+      "targetObject": {
+        "de": "noch",
+        "lv": "Ještě",
+        "level": "A2",
+        "study": {
+          "id": "a2-noch",
+          "layout": "standardStudy",
+          "translation": "Ještě",
+          "explanation": [
+            "Hlavní myšlenka: Stále se něco děje nebo ještě není dokončeno.",
+            "Noch hlavně znamená: stále se něco děje.",
+            "Často popisuje: pokračování nebo nedokončený stav.",
+            "Noch znamená stále: něco se stále děje nebo ještě není dokončeno."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin noch zu Hause.",
+              "lv": "Jsem pořád doma."
+            },
+            {
+              "de": "Ich bin noch zu Hause.",
+              "lv": "Jsem stále doma."
+            },
+            {
+              "de": "Bist du noch da?",
+              "lv": "Jsi ještě tady?"
+            }
+          ],
+          "tip": [
+            "Něco se stále děje nebo ještě neskončilo.",
+            "Použijte noch, když kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Noch = ještě.",
+            "Něco se stále děje nebo ještě neskončilo."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "Hlavní"
+              ],
+              "purple": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "noch",
+                    "noch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jsem"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "noch",
+                    "noch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jsem"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "noch",
+                    "noch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jsi"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Něco"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "noch"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 625,
+      "productionIndex": 1634,
+      "cardId": "a2-erst",
+      "targetObject": {
+        "de": "erst",
+        "lv": "Až • Ne dříve než",
+        "level": "A2",
+        "study": {
+          "id": "a2-erst",
+          "layout": "standardStudy",
+          "translation": "Teprve • Až",
+          "explanation": [
+            "Hlavní myšlenka: Označuje čas, sekvenci, ranou fázi nebo něco později, než se očekávalo.",
+            "Erst primárně znamená: čas, posloupnost nebo raná fáze.",
+            "Často popisuje: kdy se něco stane nebo jak je to daleko.",
+            "Erst znamená teprve, jen dosud nebo až: označuje čas, posloupnost či ranou fázi."
+          ],
+          "examples": [
+            {
+              "de": "Es ist erst acht Uhr.",
+              "lv": "Je teprve osm hodin."
+            },
+            {
+              "de": "Ich bin erst seit einer Stunde hier.",
+              "lv": "Jsem tu teprve hodinu."
+            },
+            {
+              "de": "Es ist erst acht Uhr.",
+              "lv": "Je teprve osm hodin."
+            },
+            {
+              "de": "Er kommt erst morgen.",
+              "lv": "Dorazí až zítra."
+            }
+          ],
+          "tip": [
+            "Označuje čas, sekvenci, ranou fázi nebo něco později, než se očekávalo.",
+            "Použijte erst, pokud kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Velmi často bude správné slovo erst, pokud jde o čas nebo sekvenci.",
+            "Erst = teprve / až."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "yellow": [
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "red": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "yellow": [
+                    "erst",
+                    "erst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jich"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "erst",
+                    "erst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jsem"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "erst",
+                    "erst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jich"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "erst",
+                    "erst"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {
+                "yellow": [
+                  "erst"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 626,
+      "productionIndex": 1635,
+      "cardId": "a2-nur",
+      "targetObject": {
+        "de": "nur",
+        "lv": "Pouze • Pouze",
+        "level": "A2",
+        "study": {
+          "id": "a2-nur",
+          "layout": "standardStudy",
+          "translation": "Pouze • Jen",
+          "explanation": [
+            "Hlavní myšlenka: Omezuje množství, počet lidí, výběr nebo možnosti.",
+            "Nur primárně znamená: omezené množství nebo výběr.",
+            "Často popisuje: kolik, přesně nebo kdo jediný.",
+            "Nur znamená pouze, pouze, nic víc: omezuje množství nebo výběr."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe nur zehn Euro.",
+              "lv": "Mám jen deset eur."
+            },
+            {
+              "de": "Ich habe nur zehn Euro.",
+              "lv": "Mám jen deset eur."
+            },
+            {
+              "de": "Nur du kannst mir helfen.",
+              "lv": "Jen ty mi můžeš pomoci."
+            },
+            {
+              "de": "Ich möchte nur Kaffee.",
+              "lv": "Chci jen kafe."
+            },
+            {
+              "de": "Ich habe nur acht Euro.",
+              "lv": "Mám jen osm eur."
+            },
+            {
+              "de": "Ich habe nur acht Euro.",
+              "lv": "Mám jen osm eur."
+            }
+          ],
+          "tip": [
+            "Omezuje množství, počet lidí, výběr nebo možnosti.",
+            "Používá se pouze tehdy, když kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "čeština „jen“ v němčině není vždy nur.",
+            "Nur = pouze / výhradně."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "orange": [
+                "nur",
+                "nur"
+              ],
+              "green": [
+                "Hlavní"
+              ],
+              "red": [
+                "Hlavní"
+              ],
+              "yellow": [
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "orange": [
+                    "nur",
+                    "nur"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "orange": [
+                    "nur",
+                    "nur"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "orange": [
+                    "nur",
+                    "nur"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "orange": [
+                    "nur",
+                    "nur"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Chci"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "orange": [
+                    "nur",
+                    "nur"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "orange": [
+                    "nur",
+                    "nur"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mám"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {
+                "orange": [
+                  "nur"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 627,
+      "productionIndex": 1636,
+      "cardId": "a2-ueber",
+      "targetObject": {
+        "de": "über",
+        "lv": "Přes • Přes • Pro",
+        "level": "A2",
+        "study": {
+          "id": "a2-ueber",
+          "layout": "standardStudy",
+          "translation": "Nad • Přes • O",
+          "explanation": [
+            "Hlavní myšlenka: Může být nad něčím, přes něco nebo o tématu.",
+            "Über znamená především: nad něčím.",
+            "Často charakterizováno: umístěním.",
+            "Über v podstatě znamená: překročit něco.",
+            "Často charakterizováno: dvojicemi pohybů.",
+            "Über znamená především: téma.",
+            "Často popisuje: o čem se mluví.",
+            "Über může znamenat nad, přes nebo o, v závislosti na kontextu."
+          ],
+          "examples": [
+            {
+              "de": "Wir gehen über die Straße.",
+              "lv": "Jdeme přes ulici."
+            },
+            {
+              "de": "Die Lampe hängt über dem Tisch.",
+              "lv": "Nad stolem visí lampa."
+            },
+            {
+              "de": "Wir gehen über die Straße.",
+              "lv": "Jdeme přes ulici."
+            },
+            {
+              "de": "Er spricht über seine Arbeit.",
+              "lv": "Mluví o své práci."
+            },
+            {
+              "de": "Wir sprechen über das Problem.",
+              "lv": "Mluvíme o problému."
+            }
+          ],
+          "tip": [
+            "Může znamenat nad něčím, přes něco nebo o tématu.",
+            "Použijte über, pokud kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Ich gehe über den Park není správná, když je myšlenka „přes park“.",
+            "Über může znamenat nad, přes a o.",
+            "Über = přes / přes / asi."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "Hlavní"
+              ],
+              "yellow": [
+                "Hlavní"
+              ],
+              "orange": [
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "über",
+                    "über"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jdeme",
+                    "Jdeme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "über",
+                    "über"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nad"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "über",
+                    "über"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jdeme",
+                    "Jdeme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "über",
+                    "über"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mluví"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "über",
+                    "über"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mluvíme"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Může"
+                ]
+              },
+              {
+                "purple": [
+                  "Může"
+                ]
+              },
+              {
+                "purple": [
+                  "Může"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "über"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 628,
+      "productionIndex": 1638,
+      "cardId": "a2-gleich",
+      "targetObject": {
+        "de": "gleich",
+        "lv": "Rovný • Ihned",
+        "level": "A2",
+        "study": {
+          "id": "a2-gleich",
+          "layout": "standardStudy",
+          "translation": "Stejný • Hned",
+          "explanation": [
+            "Hlavní myšlenka: Může znamenat stejný nebo hned.",
+            "Gleich znamená hlavně: totéž.",
+            "Často charakterizováno: srovnáním.",
+            "Gleich znamená hlavně: brzy / ihned.",
+            "Často charakterizováno: čas.",
+            "Gleich znamená totéž při srovnávání věcí.",
+            "Gleich může také znamenat ihned nebo brzy, zvláště hovorově."
+          ],
+          "examples": [
+            {
+              "de": "Die Farben sind gleich.",
+              "lv": "Barvy jsou stejné."
+            },
+            {
+              "de": "Die beiden Farben sind gleich.",
+              "lv": "Obě barvy jsou stejné."
+            },
+            {
+              "de": "Ich komme gleich.",
+              "lv": "Hned přijdu."
+            },
+            {
+              "de": "Wir haben die gleiche Tasche.",
+              "lv": "Máme stejnou tašku."
+            },
+            {
+              "de": "Gleich beginnt der Film.",
+              "lv": "Film začne za chvíli."
+            },
+            {
+              "de": "Die Farben sind gleich.",
+              "lv": "Barvy jsou stejné."
+            }
+          ],
+          "tip": [
+            "Gleich = stejný / okamžitě",
+            "Použijte gleich, pokud kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Das ist mir gleich není správné, když je myšlenka „je mi to jedno“.",
+            "Gleich má dva časté významy: stejný a hned.",
+            "Gleich = stejný / okamžitě."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "gleich"
+              ],
+              "red": [
+                "Hlavní"
+              ],
+              "orange": [
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "gleich",
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Barvy"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "gleich",
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Obě"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "gleich",
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hned"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "gleich",
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Máme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "gleich",
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Film"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "gleich",
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Barvy"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Gleich"
+                ]
+              },
+              {
+                "purple": [
+                  "Gleich"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "gleich"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 629,
+      "productionIndex": 1639,
+      "cardId": "a2-auch",
+      "targetObject": {
+        "de": "auch",
+        "lv": "Také",
+        "level": "A2",
+        "study": {
+          "id": "a2-auch",
+          "layout": "standardStudy",
+          "translation": "Také",
+          "explanation": [
+            "Hlavní myšlenka: Nejběžnější a neutrální „také“.",
+            "Auch v podstatě znamená jednoduše „také“.",
+            "Často vyjadřuje přidání.",
+            "Auch je nejběžnější slovo pro „také“."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme auch.",
+              "lv": "Já taky přijdu."
+            },
+            {
+              "de": "Ich komme auch.",
+              "lv": "Já taky přijdu."
+            },
+            {
+              "de": "Sie arbeitet auch hier.",
+              "lv": "Ona zde také pracuje."
+            }
+          ],
+          "tip": [
+            "Auch = také",
+            "Použijte „auch“, když se tento význam hodí do kontextu."
+          ],
+          "important": [
+            "Ich auch wünsche Ihnen není správný slovosled.",
+            "Auch = také."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "auch",
+                "auch"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "auch",
+                    "auch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jdu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "auch",
+                    "auch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jdu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "auch",
+                    "auch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ona"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Auch"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "auch"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
