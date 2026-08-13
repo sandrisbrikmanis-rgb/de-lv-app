@@ -10,9 +10,9 @@
 |---|---|
 | MAIN_BEFORE | `d658e2b591837e9656bbb322fa039faee2293c8d` |
 | integration branch | `cursor/cs-a1-final-repair-main-integration-6850` |
-| integration HEAD | `09c3c7253b0f52f4aef268b41531fda5ac121823` |
-| MAIN_AFTER | _(set after push)_ |
-| origin/main | _(set after push)_ |
+| integration HEAD | `1170071aed12ed28ae09f4d7146091840384b82a` |
+| MAIN_AFTER | `1170071aed12ed28ae09f4d7146091840384b82a` |
+| origin/main | `1170071aed12ed28ae09f4d7146091840384b82a` |
 
 ## SOURCES
 
