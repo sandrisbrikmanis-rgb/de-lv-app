@@ -30045,7 +30045,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-gar",
       "layout": "minimalStudy",
-      "translation": "Celkem • Celkem (v záporných větách)",
+      "translation": "Vůbec • Vůbec (v záporných větách)",
       "accent": "blue",
       "tip": "Používá se pouze s negací (nicht, kein), aby byla silnější (\"vůbec ne\", \"vůbec ne\").",
       "examples": [
@@ -30096,7 +30096,7 @@ const A2_WORDS = [
     "de": "Gasse",
     "de_article": "die",
     "de_plural": "die Gassen",
-    "lv": "Ulice",
+    "lv": "Ulička",
     "level": "A2"
   },
   {
@@ -30156,14 +30156,14 @@ const A2_WORDS = [
     "de": "Gefühl",
     "de_article": "das",
     "de_plural": "die Gefühle",
-    "lv": "Pocit • Pocity",
+    "lv": "Pocit",
     "level": "A2"
   },
   {
     "de": "Gegend",
     "de_article": "die",
     "de_plural": "die Gegenden",
-    "lv": "Lokalita • Sousedství • Sousedství",
+    "lv": "Oblast",
     "level": "A2"
   },
   {
@@ -30180,10 +30180,10 @@ const A2_WORDS = [
     "study": {
       "id": "a2-gegenüber",
       "layout": "standardStudy",
-      "translation": "Proti • Proti • Ve srovnání s",
+      "translation": "Naproti • Vůči • Ve srovnání s",
       "explanation": [
-        "Hlavní myšlenka: gegenüber znamená opak místo postoje k někomu nebo srovnání s něčím.",
-        "Místo znamená gegenüber znamená naproti nebo na druhé straně.",
+        "Hlavní myšlenka: gegenüber znamená naproti, vůči někomu nebo ve srovnání s něčím.",
+        "Ve významu místa gegenüber znamená naproti nebo na druhé straně.",
         "U lidí může gegenüber znamenat postoj k někomu.",
         "Ve srovnání gegenüber znamená ve srovnání s.",
         "Gegenüber často přichází za podstatné jméno: dem Bahnhof gegenüber.",
@@ -30222,7 +30222,7 @@ const A2_WORDS = [
       "important": [
         "Gegenüber může stát za podstatným jménem: dem Bahnhof gegenüber.",
         "Gegenüber místo = opak.",
-        "Gegenüber husman = postoj k někomu.",
+        "Gegenüber člověku = postoj k někomu.",
         "Gegen je jiné slovo a často znamená proti něčemu."
       ],
       "sectionAccents": {
@@ -30444,7 +30444,7 @@ const A2_WORDS = [
     "de": "Geheimnis",
     "de_article": "das",
     "de_plural": "die Geheimnisse",
-    "lv": "Tajný",
+    "lv": "Tajemství",
     "level": "A2"
   },
   {
@@ -30455,7 +30455,7 @@ const A2_WORDS = [
       "id": "a2-gehören",
       "layout": "standardStudy",
       "translation": "Patřit",
-      "explanation": "Gehören nejčastěji znamená patřit. Může to také znamenat zapadnutí do místa nebo skupiny. Konstrukce gehören zu znamená k něčemu patřit nebo být součástí něčeho. V některých větách gehören znamená vyhovovat nebo být potřeba. Význam je určen konstrukcí a kontextem.",
+      "explanation": "Gehören nejčastěji znamená patřit. Může to také znamenat zapadat do místa nebo skupiny. Konstrukce gehören zu znamená k něčemu patřit nebo být součástí něčeho. V některých větách gehören sich znamená být vhodné nebo se slušet. Význam je určen konstrukcí a kontextem.",
       "examples": [
         {
           "de": "Das Buch gehört mir.",
@@ -30475,7 +30475,7 @@ const A2_WORDS = [
         },
         {
           "de": "So etwas gehört sich nicht.",
-          "lv": "Nesmí • Není vhodné"
+          "lv": "To se nesmí • To se nesluší"
         },
         {
           "de": "Der Schlüssel gehört zu dieser Tür.",
@@ -30495,13 +30495,13 @@ const A2_WORDS = [
         },
         {
           "word": "passen",
-          "meaning": "Fit / fit",
+          "meaning": "Hodit se / padnout",
           "example": "Das passt gut. = Dobře sedí."
         },
         {
           "word": "brauchen",
           "meaning": "Potřebovat",
-          "example": "Du brauchst Zeit. = Potřebujete čas."
+          "example": "Du brauchst Zeit. = Potřebuješ čas."
         }
       ],
       "tip": {
@@ -30798,7 +30798,7 @@ const A2_WORDS = [
   },
   {
     "de": "gemeinsam",
-    "lv": "Společný • Společný",
+    "lv": "Společný",
     "level": "A2"
   },
   {
@@ -30813,8 +30813,8 @@ const A2_WORDS = [
     "study": {
       "id": "a2-genau",
       "layout": "standardStudy",
-      "translation": "Přesný • Přesně • Přesně",
-      "explanation": "Hlavní myšlenka: genau znamená přesný nebo přímý, podle toho, zda popisuje věc, číslo, místo nebo akci. Jako přídavné jméno to znamená přesný. Jako příslovce to často znamená přímo nebo přesně. V rozhovoru může genau znamenat „jen tak“. Není to totéž jako gerade nebo eben, i když češtině se někdy překládá podobně.",
+      "translation": "Přesný • Přesně",
+      "explanation": "Hlavní myšlenka: genau znamená přesný nebo přímý, podle toho, zda popisuje věc, číslo, místo nebo akci. Jako přídavné jméno to znamená přesný. Jako příslovce to často znamená přímo nebo přesně. V rozhovoru může genau znamenat „jen tak“. Není to totéž jako gerade nebo eben, i když se v češtině někdy překládá podobně.",
       "examples": [
         {
           "de": "Die Uhr ist sehr genau.",
@@ -30869,7 +30869,7 @@ const A2_WORDS = [
             "text": "Pokud jde o přesnost, obvykle se používá genau."
           },
           {
-            "text": "Pokud jde o „právě teď“, gerade je běžnější • Pokud pro \"jen\", eben často funguje."
+            "text": "Pokud jde o „právě teď“, gerade je běžnější • Pokud jde o „právě“ nebo „před chvílí“, eben často funguje."
           }
         ]
       },
@@ -30996,9 +30996,9 @@ const A2_WORDS = [
     "study": {
       "id": "a2-gerade",
       "layout": "standardStudy",
-      "translation": "Rovně",
+      "translation": "Rovný • Právě",
       "explanation": [
-        "Hlavní myšlenka: gerade může popisovat rovnou čáru nebo znamenat právě teď / právě teď v závislosti na větě.",
+        "Hlavní myšlenka: gerade může popisovat rovnou čáru nebo znamenat právě teď v závislosti na větě.",
         "Jako přídavné jméno gerade znamená rovný.",
         "Časem gerade často znamená právě teď nebo aktuálně.",
         "V dokonalých větách může gerade znamenat právě teď.",
@@ -31034,8 +31034,8 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "gerade",
-          "meaning": "Rovnou / aktuálně / právě teď",
-          "example": "Ich komme gerade. = Přijdu hned."
+          "meaning": "Rovný / právě teď / právě",
+          "example": "Ich komme gerade. = Právě přicházím."
         },
         {
           "word": "geradeaus",
@@ -31343,7 +31343,7 @@ const A2_WORDS = [
     "de": "Gericht",
     "de_article": "das",
     "de_plural": "die Gerichte",
-    "lv": "Jídlo • Jídlo",
+    "lv": "Jídlo",
     "level": "A2"
   },
   {
@@ -31355,8 +31355,8 @@ const A2_WORDS = [
     "study": {
       "id": "a2-geschäft",
       "layout": "standardStudy",
-      "translation": "Nakupovat",
-      "explanation": "Das Geschäft často znamená obchod v každodenním životě. Může to také znamenat společnost nebo firmu. V obchodním kontextu znamená Geschäft transakce. V množném čísle může Geschäfte znamenat také jednání nebo obchodní záležitosti. Fráze ein Geschäft machen znamená uzavřít nebo uzavřít obchod. Kontext je velmi důležitý.",
+      "translation": "Obchod • Podnik • Transakce",
+      "explanation": "Das Geschäft často znamená obchod v každodenním životě. Může to také znamenat společnost nebo firmu. V obchodním kontextu znamená Geschäft transakce. V množném čísle může Geschäfte znamenat také jednání nebo obchodní záležitosti. Fráze ein Geschäft machen znamená uzavřít nebo udělat obchod. Kontext je velmi důležitý.",
       "examples": [
         {
           "de": "Ich gehe ins Geschäft.",
@@ -31380,7 +31380,7 @@ const A2_WORDS = [
         },
         {
           "de": "Sie hat viele Geschäfte in der Stadt.",
-          "lv": "Má mnoho obchodů • Co dělat ve městě"
+          "lv": "Má ve městě mnoho obchodů • Má ve městě mnoho podniků"
         }
       ],
       "comparison": [
@@ -31391,7 +31391,7 @@ const A2_WORDS = [
         },
         {
           "word": "der Laden",
-          "meaning": "Nakupovat",
+          "meaning": "Obchod",
           "example": "Der Laden ist klein. = Prodejna je malá."
         },
         {
@@ -31771,7 +31771,7 @@ const A2_WORDS = [
     "de": "Geschmack",
     "de_article": "der",
     "de_plural": "die Geschmäcke",
-    "lv": "Chuť • Chuť",
+    "lv": "Chuť",
     "level": "A2"
   },
   {
@@ -31784,7 +31784,7 @@ const A2_WORDS = [
     "de": "Gesetz",
     "de_article": "das",
     "de_plural": "die Gesetze",
-    "lv": "Zákona",
+    "lv": "Zákon",
     "level": "A2"
   },
   {
@@ -31801,7 +31801,7 @@ const A2_WORDS = [
   },
   {
     "de": "getrennt",
-    "lv": "Oddělit • Samostatně",
+    "lv": "Odděleně",
     "level": "A2"
   },
   {
@@ -31856,7 +31856,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "gewinnen",
-          "meaning": "Vyhrát / vyhrát / získat",
+          "meaning": "Vyhrát / vyhrát (cenu) / získat",
           "example": "Wir gewinnen das Spiel. = Vyhráváme hru."
         },
         {
@@ -32213,7 +32213,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-gießen",
       "layout": "standardStudy",
-      "translation": "Zalévat • Lit",
+      "translation": "Zalévat • Lít",
       "explanation": [
         "Hlavní myšlenka: gießen znamená zalévat rostliny nebo nalévat tekutinu.",
         "S květinami, rostlinami a zahradou gießen nejčastěji znamená zalévat.",
@@ -32229,7 +32229,7 @@ const A2_WORDS = [
         },
         {
           "de": "Kannst du bitte den Garten gießen?",
-          "lv": "Můžete zalévat zahradu prosím"
+          "lv": "Můžeš prosím zalévat zahradu?"
         },
         {
           "de": "Sie gießt Wasser in die Kanne.",
@@ -32237,7 +32237,7 @@ const A2_WORDS = [
         },
         {
           "de": "Gieß mir bitte Tee ein.",
-          "lv": "Nalijte mi prosím čaj"
+          "lv": "Nalij mi prosím čaj."
         },
         {
           "de": "Es regnet stark.",
@@ -32251,7 +32251,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "gießen",
-          "meaning": "Do vody / lit",
+          "meaning": "Zalévat / lít",
           "example": "Ich gieße die Blumen. = Zalévám květiny."
         },
         {
@@ -32586,7 +32586,7 @@ const A2_WORDS = [
     "de": "Glückwunsch",
     "de_article": "der",
     "de_plural": "die Glückwünsche",
-    "lv": "Gratuluji",
+    "lv": "Blahopřání",
     "level": "A2"
   },
   {
@@ -32629,7 +32629,7 @@ const A2_WORDS = [
   },
   {
     "de": "gratis",
-    "lv": "Zdarma • Za nic",
+    "lv": "Zdarma",
     "level": "A2"
   },
   {
@@ -32641,7 +32641,7 @@ const A2_WORDS = [
     "de": "Grenze",
     "de_article": "die",
     "de_plural": "die Grenzen",
-    "lv": "Pohraniční",
+    "lv": "Hranice",
     "level": "A2"
   },
   {
@@ -32668,7 +32668,7 @@ const A2_WORDS = [
       "id": "a2-grund",
       "layout": "standardStudy",
       "translation": "Důvod",
-      "explanation": "Der Grund znamená nejčastěji rozum. Fráze aus diesem Grund znamená „z tohoto důvodu“. Grund může také znamenat základ nebo půdu, na které něco stojí. V přírodě to může znamenat zemi nebo půdu. V souvislosti s vodou může Grund znamenat dno, například dno jezera. Toto slovo je tedy velmi závislé na kontextu.",
+      "explanation": "Der Grund znamená nejčastěji důvod. Fráze aus diesem Grund znamená „z tohoto důvodu“. Grund může také znamenat základ nebo půdu, na které něco stojí. V přírodě to může znamenat zemi nebo půdu. V souvislosti s vodou může Grund znamenat dno, například dno jezera. Toto slovo je tedy velmi závislé na kontextu.",
       "examples": [
         {
           "de": "Was ist der Grund?",
@@ -32698,7 +32698,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "der Grund",
-          "meaning": "Důvod / základ / dno / dno",
+          "meaning": "Důvod / základ / půda / dno",
           "example": "Aus diesem Grund komme ich nicht. = Z tohoto důvodu nepřijdu."
         },
         {
@@ -32713,7 +32713,7 @@ const A2_WORDS = [
         },
         {
           "word": "der Boden",
-          "meaning": "Přízemí / patro",
+          "meaning": "Půda / podlaha",
           "example": "Der Boden ist nass. = Podlaha je mokrá."
         },
         {
@@ -32734,7 +32734,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Grund není jen důvod.",
-        "example": "Grund des Problems = problēmas iemesls. fester Grund = stingrs pamats. Grund des Sees = ezera dibens."
+        "example": "Grund des Problems = důvod problému. fester Grund = pevný základ. Grund des Sees = dno jezera."
       },
       "sectionAccents": {
         "examples": [
@@ -33149,7 +33149,7 @@ const A2_WORDS = [
   {
     "de": "Gymnastik",
     "de_article": "die",
-    "lv": "Cvičení",
+    "lv": "Gymnastika",
     "level": "A2"
   },
   {
@@ -33163,7 +33163,7 @@ const A2_WORDS = [
     "de": "Haarschnitt",
     "de_article": "der",
     "de_plural": "die Haarschnitte",
-    "lv": "Ostříhat • Účes",
+    "lv": "Střih",
     "level": "A2"
   },
   {
@@ -33176,7 +33176,7 @@ const A2_WORDS = [
   {
     "de": "Hackfleisch",
     "de_article": "das",
-    "lv": "Mleté ​​maso",
+    "lv": "Mleté maso",
     "level": "A2"
   },
   {
@@ -33203,7 +33203,7 @@ const A2_WORDS = [
     "de": "Hähnchen",
     "de_article": "das",
     "de_plural": "die Hähnchen",
-    "lv": "Kuře • Kuře",
+    "lv": "Kuře",
     "level": "A2"
   },
   {
@@ -33236,7 +33236,7 @@ const A2_WORDS = [
   },
   {
     "de": "halt!",
-    "lv": "Stánek!",
+    "lv": "Stůj!",
     "level": "A2"
   },
   {
@@ -33280,7 +33280,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-hängen",
       "layout": "standardStudy",
-      "translation": "Pověsit • Rozkaz",
+      "translation": "Viset • Pověsit",
       "explanation": [
         "Hlavní myšlenka: hängen znamená pověsit nebo pověsit něco na zeď, dveře nebo jiné místo.",
         "Pokud je věc samotná na zdi nebo na háku, v češtině se obvykle říká, že visí.",
@@ -33303,27 +33303,27 @@ const A2_WORDS = [
         },
         {
           "de": "Häng den Mantel bitte an den Haken.",
-          "lv": "Prosím pověs si kabát na háček."
+          "lv": "Prosím, pověs kabát na háček."
         },
         {
           "de": "Der Schlüssel hängt neben der Tür.",
-          "lv": "Klíč visí na dveřích."
+          "lv": "Klíč visí vedle dveří."
         }
       ],
       "comparison": [
         {
           "word": "hängen",
-          "meaning": "Pověsit / objednat",
+          "meaning": "Viset / pověsit",
           "example": "Das Bild hängt an der Wand. = Obraz visí na zdi."
         },
         {
           "word": "stellen",
           "meaning": "Postavit vzpřímeně",
-          "example": "Ich stelle die Flasche auf den Tisch. = Položil jsem láhev na stůl."
+          "example": "Ich stelle die Flasche auf den Tisch. = Postavím láhev na stůl."
         },
         {
           "word": "legen",
-          "meaning": "Položit se",
+          "meaning": "Položit",
           "example": "Ich lege das Buch auf den Tisch. = Položil jsem knihu na stůl."
         },
         {
@@ -33621,7 +33621,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-hart",
       "layout": "standardStudy",
-      "translation": "Těžký • Těžký",
+      "translation": "Tvrdý • Náročný",
       "explanation": [
         "Hlavní myšlenka: hart pro materiál znamená tvrdý, pro situaci nebo charakter znamená tvrdý/drsný.",
         "Když mluvíme o materiálu nebo povrchu, hart = tvrdý (Der Stein ist hart. = Kámen je tvrdý.).",
@@ -33643,7 +33643,7 @@ const A2_WORDS = [
         },
         {
           "de": "Das Brot ist hart geworden.",
-          "lv": "Chleba zůstal tvrdý."
+          "lv": "Chleba ztvrdl."
         },
         {
           "de": "Sie ist eine harte Chefin.",
@@ -33780,7 +33780,7 @@ const A2_WORDS = [
     "de": "Hase",
     "de_article": "der",
     "de_plural": "die Hasen",
-    "lv": "Králíček",
+    "lv": "Zajíc",
     "level": "A2"
   },
   {
@@ -33861,12 +33861,12 @@ const A2_WORDS = [
     "de": "Heim",
     "de_article": "das",
     "de_plural": "die Heime",
-    "lv": "Bydlení",
+    "lv": "Domov",
     "level": "A2"
   },
   {
     "de": "heizen",
-    "lv": "Zahřát se",
+    "lv": "Topit",
     "level": "A2"
   },
   {
@@ -33883,7 +33883,7 @@ const A2_WORDS = [
   },
   {
     "de": "her",
-    "lv": "Zde",
+    "lv": "Sem",
     "level": "A2"
   },
   {
@@ -33895,12 +33895,12 @@ const A2_WORDS = [
     "de": "Herd",
     "de_article": "der",
     "de_plural": "die Herde",
-    "lv": "Krb",
+    "lv": "Sporák",
     "level": "A2"
   },
   {
     "de": "herein",
-    "lv": "Uvnitř",
+    "lv": "Dovnitř",
     "level": "A2"
   },
   {
@@ -33939,7 +33939,7 @@ const A2_WORDS = [
   },
   {
     "de": "herzlich",
-    "lv": "Upřímný",
+    "lv": "Srdečný",
     "level": "A2"
   },
   {
@@ -33951,7 +33951,7 @@ const A2_WORDS = [
   },
   {
     "de": "hierher",
-    "lv": "Zde",
+    "lv": "Sem",
     "level": "A2"
   },
   {
@@ -33969,7 +33969,7 @@ const A2_WORDS = [
   },
   {
     "de": "hin",
-    "lv": "Pokračování",
+    "lv": "Tam",
     "level": "A2"
   },
   {
@@ -33979,7 +33979,7 @@ const A2_WORDS = [
   },
   {
     "de": "hinein",
-    "lv": "Uvnitř",
+    "lv": "Dovnitř",
     "level": "A2"
   },
   {
@@ -33989,7 +33989,7 @@ const A2_WORDS = [
   },
   {
     "de": "hinfallen",
-    "lv": "Padat",
+    "lv": "Spadnout",
     "level": "A2"
   },
   {
@@ -34004,7 +34004,7 @@ const A2_WORDS = [
   },
   {
     "de": "hinuntergehen",
-    "lv": "Klesat",
+    "lv": "Jít dolů",
     "level": "A2"
   },
   {
@@ -34076,7 +34076,7 @@ const A2_WORDS = [
         },
         {
           "de": "Er schneidet Holz.",
-          "lv": "Štípe dříví."
+          "lv": "Řeže dřevo."
         },
         {
           "de": "Das Haus ist aus Holz gebaut.",
@@ -34099,7 +34099,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Holz není živý strom.",
-        "example": "Dzīvs koks = Pasuje na Bauma. Holz může také znamenat palivové dříví."
+        "example": "Živý strom = der Baum. Holz může také znamenat palivové dříví."
       },
       "sectionAccents": {
         "examples": [
@@ -34358,21 +34358,21 @@ const A2_WORDS = [
     "de": "Homepage",
     "de_article": "die",
     "de_plural": "die Homepages",
-    "lv": "Domovskou stránku internetu",
+    "lv": "Domovská stránka",
     "level": "A2"
   },
   {
     "de": "Hosenbein",
     "de_article": "das",
     "de_plural": "die Hosenbeine",
-    "lv": "Kalhotový nosník",
+    "lv": "Nohavice",
     "level": "A2"
   },
   {
     "de": "Hosenträger",
     "de_article": "die",
     "de_plural": "die Hosenträger",
-    "lv": "Podvazky",
+    "lv": "Šle",
     "level": "A2"
   },
   {
@@ -34404,7 +34404,7 @@ const A2_WORDS = [
   {
     "de": "Hundegebell",
     "de_article": "das",
-    "lv": "Pes štěká",
+    "lv": "Štěkot psa",
     "level": "A2"
   },
   {
@@ -34424,7 +34424,7 @@ const A2_WORDS = [
     "de": "Hunderasse",
     "de_article": "die",
     "de_plural": "die Hunderassen",
-    "lv": "Druh psa",
+    "lv": "Plemeno psa",
     "level": "A2"
   },
   {
@@ -34435,12 +34435,12 @@ const A2_WORDS = [
   },
   {
     "de": "hungern",
-    "lv": "Hladovějící",
+    "lv": "Hladovět",
     "level": "A2"
   },
   {
     "de": "hüpfen",
-    "lv": "Skočit",
+    "lv": "Poskakovat",
     "level": "A2"
   },
   {
@@ -34489,7 +34489,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-indem",
       "layout": "standardStudy",
-      "translation": "Dělá",
+      "translation": "Tím, že",
       "explanation": [
         "Hlavní myšlenka: Indem vysvětluje, jak se něco dělá.",
         "V češtině se to často překládá jako něco dělat.",
@@ -34500,7 +34500,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Du lernst Deutsch, indem du jeden Tag übst.",
-          "lv": "Učíte se německy každodenním procvičováním."
+          "lv": "Učíš se německy každodenním procvičováním."
         },
         {
           "de": "Er spart Geld, indem er weniger kauft.",
@@ -34518,7 +34518,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "indem",
-          "meaning": "S tím / něco dělat",
+          "meaning": "Tím, že / pomocí",
           "example": "Ich lerne, indem ich übe. = Učím se cvičením."
         },
         {
@@ -34528,7 +34528,7 @@ const A2_WORDS = [
         },
         {
           "word": "damit",
-          "meaning": "Na",
+          "meaning": "Aby",
           "example": "Ich lerne, damit ich die Prüfung bestehe. = Učím se, abych složil zkoušku."
         },
         {
