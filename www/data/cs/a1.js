@@ -16618,7 +16618,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jsem"
+                "pořád"
               ]
             }
           },
@@ -26219,7 +26219,7 @@ const A1_WORDS = [
         "Hlavní myšlenka: pouze množné číslo. Školní nebo studijní prázdniny - vždy v množném čísle.",
         "Die Ferien v podstatě znamenají: školní prázdniny.",
         "Často charakterizovány: pouze množné číslo.",
-        "Die Ferien je pouze množné číslo — vždy v množném čísle (in den Ferien)."
+        "Die Ferien jsou pouze v množném čísle — vždy v množném čísle (in den Ferien)."
       ],
       "examples": [
         {
@@ -26355,10 +26355,10 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Dovolená",
       "explanation": [
-        "Hlavní myšlenka: pouze jednotné číslo. Odejít z práce - vždy v jednotném čísle.",
+        "Hlavní myšlenka: pouze jednotné číslo. Dovolená z práce – vždy v jednotném čísle.",
         "Der Urlaub znamená především dovolenou nebo volno z práce.",
-        "Často charakterizováno: pouze jednotné číslo.",
-        "Der Urlaub je pouze jednotné číslo - dovolená z práce (im Urlaub)."
+        "Často charakterizován: pouze jednotné číslo.",
+        "Der Urlaub je pouze v jednotném čísle – dovolená z práce (im Urlaub)."
       ],
       "examples": [
         {
@@ -26390,7 +26390,7 @@ const A1_WORDS = [
         },
         {
           "word": "die Ferien",
-          "meaning": "Školní/studijní přestávka (pouze dsk.)",
+          "meaning": "Školní/studijní prázdniny (pouze mn. č.)",
           "example": "Die Kinder haben Ferien. – Děti mají prázdniny."
         }
       ],
@@ -26523,7 +26523,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: Hodiny nebo náramkové hodinky. Také čas na hodinách: Es ist acht Uhr.",
         "Die Uhr v podstatě znamená: zařízení nebo čas v hodinách.",
-        "Často charakterizováno: konkrétním časem.",
+        "Často označuje konkrétní čas.",
         "Die Uhr znamená hodiny - zařízení nebo čas v hodinách (Es ist acht Uhr, meine Uhr)."
       ],
       "examples": [
@@ -26669,8 +26669,8 @@ const A1_WORDS = [
       "translation": "Čas (okamžik / časový úsek)",
       "explanation": [
         "Hlavní myšlenka: Čas jako pojem – okamžik, příležitost, časový úsek.",
-        "Die Zeit znamená především: okamžik, příležitost.",
-        "Často se vyznačuje: abstraktním pojmem.",
+        "Die Zeit znamená především čas; podle kontextu také okamžik nebo příležitost.",
+        "Označuje abstraktní pojem.",
         "Die Zeit je abstraktní pojem – čas, okamžik nebo příležitost (Ich habe keine Zeit)."
       ],
       "examples": [
@@ -26792,7 +26792,7 @@ const A1_WORDS = [
         "Hlavní myšlenka: Odkazuje na čas nebo minulost (kdysi jsem byl...).",
         "Einmal v podstatě znamená: jednou / v minulosti.",
         "Často se používá jako příslovečné určení času.",
-        "Einmal odkazuje na jeden čas nebo minulost (jednou jsem...)."
+        "Einmal odkazuje na jednu příležitost nebo minulost (jednou jsem...)."
       ],
       "examples": [
         {
