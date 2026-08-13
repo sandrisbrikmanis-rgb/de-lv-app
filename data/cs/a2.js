@@ -63643,12 +63643,12 @@ const A2_WORDS = [
     "de": "Werbung",
     "de_article": "die",
     "de_plural": null,
-    "lv": "Inzerát",
+    "lv": "Reklama",
     "level": "A2"
   },
   {
     "de": "werfen",
-    "lv": "Hod",
+    "lv": "Házet",
     "level": "A2"
   },
   {
@@ -63675,7 +63675,7 @@ const A2_WORDS = [
       "id": "a2-wert",
       "layout": "standardStudy",
       "translation": "Hodnota",
-      "explanation": "Hlavní myšlenka: der Wert znamená hodnotu (např. materiální, mravní). Samostatně přídavné jméno wert znamená hodnotu: Das ist viel wert. Fráze es ist wert znamená „stojí to za to“. Wert sein se často používá s penězi: Das ist 50 Euro wert. Přídavné jméno drahý je obvykle teuer, ne wert.",
+      "explanation": "Hlavní myšlenka: der Wert znamená hodnotu (např. materiální nebo morální). Samostatně přídavné jméno wert znamená „stojící za to“ nebo „mající hodnotu“: Das ist viel wert. Fráze es ist wert znamená „stojí to za to“. Wert sein se často používá s penězi: Das ist 50 Euro wert. Přídavné jméno „drahý“ je obvykle teuer, ne wert.",
       "examples": [
         {
           "de": "Das ist viel Geld wert.",
@@ -63683,11 +63683,11 @@ const A2_WORDS = [
         },
         {
           "de": "Ist das den Preis wert?",
-          "lv": "Stojí to za cenu?"
+          "lv": "Stojí to za tu cenu?"
         },
         {
           "de": "Der Film ist sehenswert.",
-          "lv": "Film stojí za to vidět."
+          "lv": "Film stojí za zhlédnutí."
         },
         {
           "de": "Dieses Bild ist 100 Euro wert.",
@@ -63699,13 +63699,13 @@ const A2_WORDS = [
         },
         {
           "de": "Der Wert des Hauses ist hoch.",
-          "lv": "Cena domu je vysoká."
+          "lv": "Hodnota domu je vysoká."
         }
       ],
       "comparison": [
         {
           "word": "wert",
-          "meaning": "Hodnotu",
+          "meaning": "Stojící za to / mající hodnotu",
           "example": "Das ist viel wert. = Stojí to hodně."
         },
         {
@@ -64034,7 +64034,7 @@ const A2_WORDS = [
   {
     "de": "Westen",
     "de_article": "der",
-    "lv": "Na západě",
+    "lv": "Západ",
     "level": "A2"
   },
   {
@@ -64063,7 +64063,7 @@ const A2_WORDS = [
       "id": "a2-wiegen",
       "layout": "standardStudy",
       "translation": "Vážit",
-      "explanation": "Hlavní myšlenka: wiegen znamená vážit nebo vážit. Může to znamenat, kolik je hmotnost: Das Kind wiegt 20 Kilo. Může to také znamenat vážení něčeho na váze. Jediné slovo wagen znamená odvážit se nebo car der Wagen, takže si je nemíchejte.",
+      "explanation": "Hlavní myšlenka: wiegen znamená vážit nebo zvážit. Může vyjadřovat hmotnost: Das Kind wiegt 20 Kilo. Může také znamenat zvážit něco na váze. Samostatné slovo wagen znamená odvážit se a der Wagen je auto nebo vůz, takže si je nepleťte.",
       "examples": [
         {
           "de": "Das Paket wiegt zwei Kilo.",
@@ -64093,7 +64093,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "wiegen",
-          "meaning": "Vážit / vážit",
+          "meaning": "Vážit / zvážit",
           "example": "Das Paket wiegt zwei Kilo. = Balení váží dva kilogramy."
         },
         {
@@ -64123,7 +64123,7 @@ const A2_WORDS = [
             "text": "Když se ptáte na váhu těla nebo předmětu, použijte wiegen."
           },
           {
-            "text": "Předmět, kterým se váží, je zemřít Waage."
+            "text": "Předmět, kterým se váží, je die Waage."
           }
         ]
       },
@@ -64436,7 +64436,7 @@ const A2_WORDS = [
   {
     "de": "Wild",
     "de_article": "das",
-    "lv": "Lov",
+    "lv": "Zvěř",
     "level": "A2"
   },
   {
@@ -64457,7 +64457,7 @@ const A2_WORDS = [
   },
   {
     "de": "winken",
-    "lv": "Kývnutí",
+    "lv": "Mávat",
     "level": "A2"
   },
   {
@@ -64480,11 +64480,11 @@ const A2_WORDS = [
       "id": "a2-ziehen",
       "layout": "standardStudy",
       "translation": "Tahat",
-      "explanation": "Základní význam slova ziehen je „táhnout“. Používá se, když je něco taženo rukou nebo silou. ziehen může také znamenat pohybovat se nebo jít určitým směrem. S dětmi, rostlinami nebo zvířaty to může znamenat pečovat nebo růst. V některých větách ziehen také znamená nakreslit návrh nebo vyvodit závěr.",
+      "explanation": "Základní význam slova ziehen je „táhnout“. Používá se, když je něco taženo rukou nebo silou. Ziehen může také znamenat stěhovat se nebo táhnout určitým směrem. Ve spojení s dětmi znamená vychovávat a s rostlinami pěstovat. V některých větách znamená také vyvodit závěr.",
       "examples": [
         {
           "de": "Zieh bitte die Tür zu.",
-          "lv": "Prosím zavřete/zavřete dveře."
+          "lv": "Prosím, zavři dveře."
         },
         {
           "de": "Er zieht den Wagen.",
@@ -64492,7 +64492,7 @@ const A2_WORDS = [
         },
         {
           "de": "Wir ziehen nächste Woche nach Berlin.",
-          "lv": "Příští týden se stěhujeme do berlína."
+          "lv": "Příští týden se stěhujeme do Berlína."
         },
         {
           "de": "Die Wolken ziehen nach Osten.",
@@ -64500,7 +64500,7 @@ const A2_WORDS = [
         },
         {
           "de": "Es zieht hier.",
-          "lv": "Je zde návrh."
+          "lv": "Je tu průvan."
         },
         {
           "de": "Sie ziehen zwei Kinder groß.",
@@ -64519,22 +64519,22 @@ const A2_WORDS = [
         },
         {
           "word": "umziehen",
-          "meaning": "Pohybovat / převlékat",
+          "meaning": "Stěhovat se / převlékat se",
           "example": "Ich ziehe um. = Stěhuji se."
         },
         {
           "word": "anziehen",
           "meaning": "Obléknout / utáhnout",
-          "example": "Ich ziehe die Jacke an. = Oblékl jsem si bundu."
+          "example": "Ich ziehe die Jacke an. = Oblékám si bundu."
         },
         {
           "word": "ausziehen",
-          "meaning": "Odtáhnout / vystěhovat se",
+          "meaning": "Svléknout / vystěhovat se",
           "example": "Ich ziehe die Schuhe aus. = Zouvám si boty."
         },
         {
           "word": "ziehen lassen",
-          "meaning": "Pustit / vtáhnout",
+          "meaning": "Nechat odejít / nechat vylouhovat",
           "example": "Den Tee ziehen lassen. = Nechte čaj vyluhovat."
         }
       ],
@@ -64550,7 +64550,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Ziehen není jen fyzický „tah“.",
-        "example": "Wir ziehen nach Berlin = Mēs pārvācamies uz Berlīni. Es zieht = Velk caurvējš. einen Schluss ziehen = izdarīt secinājumu."
+        "example": "Wir ziehen nach Berlin = Stěhujeme se do Berlína. Es zieht = Je tu průvan. Einen Schluss ziehen = Vyvodit závěr."
       },
       "sectionAccents": {
         "examples": [
@@ -64915,7 +64915,7 @@ const A2_WORDS = [
     "de": "Ziel",
     "de_article": "das",
     "de_plural": "die Ziele",
-    "lv": "Účel",
+    "lv": "Cíl",
     "level": "A2"
   },
   {
@@ -64941,7 +64941,7 @@ const A2_WORDS = [
     "de": "Zopf",
     "de_article": "der",
     "de_plural": "die Zöpfe",
-    "lv": "Prýmek",
+    "lv": "Cop",
     "level": "A2"
   },
   {
@@ -64951,7 +64951,7 @@ const A2_WORDS = [
   },
   {
     "de": "zubereiten",
-    "lv": "Vařit",
+    "lv": "Připravovat",
     "level": "A2"
   },
   {
@@ -64990,7 +64990,7 @@ const A2_WORDS = [
   },
   {
     "de": "zunächst",
-    "lv": "Především",
+    "lv": "Nejprve",
     "level": "A2"
   },
   {
@@ -65001,11 +65001,11 @@ const A2_WORDS = [
       "id": "a2-zunehmen",
       "layout": "standardStudy",
       "translation": "Přibrat na váze",
-      "explanation": "Zunehnem může znamenat přibrat. Může to také znamenat zvýšení nebo zvýšení počtu, intenzity nebo množství. O váze lidí se zunehmen obvykle překládá jako přibírání. Pro cenu, vítr, hluk nebo problém to znamená zvýšit nebo zvýšit. Opakem je často abnehmen.",
+      "explanation": "Zunehmen může znamenat přibrat na váze. Může také znamenat zvýšit se nebo vzrůst co do počtu, intenzity či množství. U lidí se obvykle překládá jako přibrat na váze. U cen, větru, hluku nebo problémů znamená vzrůst nebo zesílit. Opakem bývá abnehmen.",
       "examples": [
         {
           "de": "Ich habe im Winter zugenommen.",
-          "lv": "V zimě jsem přibrala."
+          "lv": "V zimě jsem přibral(a)."
         },
         {
           "de": "Der Verkehr nimmt zu.",
@@ -65017,11 +65017,11 @@ const A2_WORDS = [
         },
         {
           "de": "Der Wind nimmt zu.",
-          "lv": "Vítr se zvedne."
+          "lv": "Vítr zesiluje."
         },
         {
           "de": "Die Zahl der Besucher hat zugenommen.",
-          "lv": "Se zvýšil počet návštěvníků."
+          "lv": "Počet návštěvníků vzrostl."
         },
         {
           "de": "Der Druck nimmt langsam zu.",
@@ -65036,7 +65036,7 @@ const A2_WORDS = [
         },
         {
           "word": "abnehmen",
-          "meaning": "Ztenčit / snížit",
+          "meaning": "Hubnout / klesat",
           "example": "Ich nehme ab. = Zhubla jsem."
         },
         {
@@ -65046,12 +65046,12 @@ const A2_WORDS = [
         },
         {
           "word": "steigen",
-          "meaning": "Stoupat / stoupat",
+          "meaning": "Stoupat / růst",
           "example": "Die Preise steigen. = Ceny jdou nahoru."
         },
         {
           "word": "sich erhöhen",
-          "meaning": "Zvýšení",
+          "meaning": "Zvyšovat se",
           "example": "Die Kosten erhöhen sich. = Náklady se zvyšují."
         }
       ],
@@ -65061,7 +65061,7 @@ const A2_WORDS = [
             "text": "Pro váhu znamená zunehmen přibrat."
           },
           {
-            "text": "Pro čísla, ceny nebo intenzitu znamená zunehmen zvýšit nebo zvýšit."
+            "text": "U čísel, cen nebo intenzity znamená zunehmen vzrůst nebo zvýšit se."
           }
         ]
       },
@@ -65416,7 +65416,7 @@ const A2_WORDS = [
       "id": "a2-zurzeit",
       "layout": "standardStudy",
       "translation": "V současné době",
-      "explanation": "Zurzeit znamená aktuálně, aktuálně nebo v tuto chvíli. Popisuje situaci v určitém aktuálním období. zurzeit se často používá, když se situace může později změnit. Je to podobné jako derzeit a im moment. jetzt je kratší a obecnější „nyní“.",
+      "explanation": "Zurzeit znamená „v současné době“, „právě teď“ nebo „momentálně“. Popisuje situaci v určitém současném období. Často se používá, když se situace může později změnit. Podobá se výrazům derzeit a Im Moment. Jetzt je kratší a obecnější výraz pro „teď“.",
       "examples": [
         {
           "de": "Ich arbeite zurzeit viel.",
@@ -65446,7 +65446,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "zurzeit",
-          "meaning": "Aktuálně / v tuto chvíli / aktuálně",
+          "meaning": "Aktuálně / v současné době / v tuto chvíli",
           "example": "Zurzeit bin ich beschäftigt. = Momentálně jsem zaneprázdněn."
         },
         {
@@ -65461,7 +65461,7 @@ const A2_WORDS = [
         },
         {
           "word": "derzeit",
-          "meaning": "Aktuálně / aktuálně",
+          "meaning": "Aktuálně / v současné době",
           "example": "Derzeit ist das nicht möglich. = To v současné době není možné."
         },
         {
@@ -65911,7 +65911,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich sehe dich.",
-          "lv": "Vidím tě"
+          "lv": "Vidím tě."
         }
       ],
       "comparison": [
@@ -65984,7 +65984,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-schauen",
       "layout": "standardStudy",
-      "translation": "Hodinky",
+      "translation": "Dívat se",
       "explanation": [
         "Hlavní myšlenka: Dívat se nebo se dívat aktivně.",
         "Schauen především znamená: aktivně sledovat.",
@@ -66002,13 +66002,13 @@ const A2_WORDS = [
         },
         {
           "de": "Ich schaue fern.",
-          "lv": "Dívám se na televizi"
+          "lv": "Dívám se na televizi."
         }
       ],
       "comparison": [
         {
           "word": "schauen",
-          "meaning": "Sledovat (aktivně)",
+          "meaning": "Dívat se (aktivně)",
           "example": "Ich schaue aus dem Fenster. – Dívám se z okna."
         },
         {
@@ -66180,7 +66180,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich höre dich.",
-          "lv": "Slyším tě"
+          "lv": "Slyším tě."
         }
       ],
       "tip": [
@@ -66275,7 +66275,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Was hast du gesagt?",
-          "lv": "Co jsi říkal"
+          "lv": "Co jsi řekl?"
         }
       ],
       "comparison": [
@@ -66286,7 +66286,7 @@ const A2_WORDS = [
         },
         {
           "word": "sprechen",
-          "meaning": "Mluvit (jazyk, mluvit)",
+          "meaning": "Mluvit (jazykem, hovořit)",
           "example": "Ich spreche Deutsch. – Mluvím německy."
         }
       ],
@@ -66295,7 +66295,7 @@ const A2_WORDS = [
         "Použijte sagen, pokud kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Sagen = vyprávět.",
+        "Sagen = říct nebo říkat.",
         "Sdělit konkrétní myšlenku, slovo nebo větu."
       ],
       "sectionAccents": {
@@ -66358,7 +66358,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich spreche Deutsch.",
-          "lv": "Mluvím německy"
+          "lv": "Mluvím německy."
         }
       ],
       "comparison": [
@@ -66375,7 +66375,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Sprechen = mluvit",
-        "Používá sprechen, když kontext odpovídá tomuto významu."
+        "Použijte sprechen, když kontext odpovídá tomuto významu."
       ],
       "important": [
         "Sprechen = mluvit.",
@@ -66486,7 +66486,7 @@ const A2_WORDS = [
       "important": [
         "Pro člověka znamená Er ist groß vysoký.",
         "Groß = velký.",
-        "Velikostně velký nebo na osobu - vysoký vzrůst."
+        "Velký rozměrem nebo vysoký, když mluvíme o člověku."
       ],
       "sectionAccents": {
         "explanation": {
@@ -66719,7 +66719,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Malý",
       "explanation": [
-        "Hlavní myšlenka: Malá velikostí nebo rozsahem.",
+        "Hlavní myšlenka: Malý velikostí nebo rozsahem.",
         "Klein znamená především: malá velikost.",
         "Často popisuje: velikost věci/osoby.",
         "Klein v podstatě znamená: malý/nový.",
@@ -66750,7 +66750,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Klein = malý",
-        "Používá klein, když kontext vyhovuje tomuto významu."
+        "Použijte klein, když kontext odpovídá tomuto významu."
       ],
       "important": [
         "Klein = malý rozměr.",
@@ -66860,7 +66860,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-leise",
       "layout": "standardStudy",
-      "translation": "Klid",
+      "translation": "Tichý • Potichu",
       "explanation": [
         "Hlavní myšlenka: Tichá nebo nízká hlasitost.",
         "Leise v podstatě znamená: nízká hlasitost.",
@@ -66874,7 +66874,7 @@ const A2_WORDS = [
         },
         {
           "de": "Bitte sei leise.",
-          "lv": "Prosím buď zticha"
+          "lv": "Prosím, buď zticha."
         },
         {
           "de": "Die Musik ist leise.",
@@ -66886,12 +66886,12 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Klid = klid",
+        "Leise = tichý / potichu",
         "Použijte leise, když kontext vyhovuje tomuto významu."
       ],
       "important": [
         "Leise = tichý ve zvuku.",
-        "Leise = objem.",
+        "Leise označuje nízkou hlasitost.",
         "Tichá nebo nízká hlasitost."
       ],
       "sectionAccents": {
@@ -66994,7 +66994,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich bin schon zu Hause.",
-          "lv": "Už jsem doma"
+          "lv": "Už jsem doma."
         }
       ],
       "tip": [
@@ -67068,7 +67068,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich bin noch zu Hause.",
-          "lv": "Jsem stále doma"
+          "lv": "Jsem stále doma."
         },
         {
           "de": "Bist du noch da?",
@@ -67157,25 +67157,25 @@ const A2_WORDS = [
     "study": {
       "id": "a2-erst",
       "layout": "standardStudy",
-      "translation": "Až • Ne dříve než",
+      "translation": "Teprve • Až",
       "explanation": [
         "Hlavní myšlenka: Označuje čas, sekvenci, ranou fázi nebo něco později, než se očekávalo.",
         "Erst primárně znamená: čas, posloupnost nebo raná fáze.",
         "Často popisuje: kdy se něco stane nebo jak je to daleko.",
-        "Erst znamená jako dosud, pouze dosud nebo ne dříve než: označuje čas, sekvenci nebo ranou fázi."
+        "Erst znamená teprve, jen dosud nebo až: označuje čas, posloupnost či ranou fázi."
       ],
       "examples": [
         {
           "de": "Es ist erst acht Uhr.",
-          "lv": "Je jich jen osm."
+          "lv": "Je teprve osm hodin."
         },
         {
           "de": "Ich bin erst seit einer Stunde hier.",
-          "lv": "Jsem tu ještě hodinu."
+          "lv": "Jsem tu teprve hodinu."
         },
         {
           "de": "Es ist erst acht Uhr.",
-          "lv": "Je jich jen osm."
+          "lv": "Je teprve osm hodin."
         },
         {
           "de": "Er kommt erst morgen.",
@@ -67188,7 +67188,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Velmi často bude správné slovo erst, pokud jde o čas nebo sekvenci.",
-        "Erst = právě / ještě ne."
+        "Erst = teprve / až."
       ],
       "sectionAccents": {
         "explanation": {
@@ -67276,7 +67276,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-nur",
       "layout": "standardStudy",
-      "translation": "Pouze • Pouze",
+      "translation": "Pouze • Jen",
       "explanation": [
         "Hlavní myšlenka: Omezuje množství, počet lidí, výběr nebo možnosti.",
         "Nur primárně znamená: omezené množství nebo výběr.",
@@ -67298,7 +67298,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich möchte nur Kaffee.",
-          "lv": "Chci jen kafe"
+          "lv": "Chci jen kafe."
         },
         {
           "de": "Ich habe nur acht Euro.",
@@ -67435,7 +67435,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-ueber",
       "layout": "standardStudy",
-      "translation": "Přes • Přes • Pro",
+      "translation": "Nad • Přes • O",
       "explanation": [
         "Hlavní myšlenka: Může být nad něčím, přes něco nebo o tématu.",
         "Über znamená především: nad něčím.",
@@ -67444,7 +67444,7 @@ const A2_WORDS = [
         "Často charakterizováno: dvojicemi pohybů.",
         "Über znamená především: téma.",
         "Často popisuje: o čem se mluví.",
-        "Über může znamenat přes, přes nebo přes, v závislosti na kontextu."
+        "Über může znamenat nad, přes nebo o, v závislosti na kontextu."
       ],
       "examples": [
         {
@@ -67469,12 +67469,12 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Může být nad něčím, nad něčím nebo o tématu.",
+        "Může znamenat nad něčím, přes něco nebo o tématu.",
         "Použijte über, pokud kontext odpovídá tomuto významu."
       ],
       "important": [
         "Ich gehe über den Park není správná, když je myšlenka „přes park“.",
-        "Über může znamenat nahoře, přes a kolem.",
+        "Über může znamenat nad, přes a o.",
         "Über = přes / přes / asi."
       ],
       "sectionAccents": {
@@ -67647,9 +67647,9 @@ const A2_WORDS = [
     "study": {
       "id": "a2-gleich",
       "layout": "standardStudy",
-      "translation": "Rovný • Ihned",
+      "translation": "Stejný • Hned",
       "explanation": [
-        "Hlavní myšlenka: Může znamenat rovný nebo okamžitý.",
+        "Hlavní myšlenka: Může znamenat stejný nebo hned.",
         "Gleich znamená hlavně: totéž.",
         "Často charakterizováno: srovnáním.",
         "Gleich znamená hlavně: brzy / ihned.",
@@ -67676,7 +67676,7 @@ const A2_WORDS = [
         },
         {
           "de": "Gleich beginnt der Film.",
-          "lv": "Film právě začíná."
+          "lv": "Film začne za chvíli."
         },
         {
           "de": "Die Farben sind gleich.",
@@ -67689,7 +67689,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Das ist mir gleich není správné, když je myšlenka „je mi to jedno“.",
-        "Gleich má dva časté významy: rovný a bezprostředně.",
+        "Gleich má dva časté významy: stejný a hned.",
         "Gleich = stejný / okamžitě."
       ],
       "sectionAccents": {
@@ -67817,18 +67817,18 @@ const A2_WORDS = [
       "translation": "Také",
       "explanation": [
         "Hlavní myšlenka: Nejběžnější a neutrální „také“.",
-        "Auch v podstatě znamená: jednoduché „také“.",
-        "Často charakterizováno: sčítáním.",
+        "Auch v podstatě znamená jednoduše „také“.",
+        "Často vyjadřuje přidání.",
         "Auch je nejběžnější slovo pro „také“."
       ],
       "examples": [
         {
           "de": "Ich komme auch.",
-          "lv": "Já jdu taky."
+          "lv": "Já taky přijdu."
         },
         {
           "de": "Ich komme auch.",
-          "lv": "Já jdu taky"
+          "lv": "Já taky přijdu."
         },
         {
           "de": "Sie arbeitet auch hier.",
@@ -67837,7 +67837,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Auch = také",
-        "Používá auch, když kontext vyhovuje tomuto významu."
+        "Použijte „auch“, když se tento význam hodí do kontextu."
       ],
       "important": [
         "Ich auch wünsche Ihnen není správný slovosled.",
