@@ -11,8 +11,8 @@
 | MAIN_BEFORE | `3bfbb4bba56ee9bf1be2df8c539ee58d31736fcb` |
 | integration branch | `cursor/cs-a1-final-closure-repair-main-integration-6850` |
 | integration HEAD | `18a2ba0d314ca8322a6c55cccd5a69c3461773ba` |
-| MAIN_AFTER | _(set after push)_ |
-| origin/main | _(set after push)_ |
+| MAIN_AFTER | `773e9cc67d515a1974404db7cb200ac54b8f671b` |
+| origin/main | `773e9cc67d515a1974404db7cb200ac54b8f671b` |
 
 ## SOURCES
 
