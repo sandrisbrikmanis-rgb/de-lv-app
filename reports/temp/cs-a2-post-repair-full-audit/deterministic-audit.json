@@ -2,7 +2,7 @@
   "meta": {
     "dataset": "a2",
     "label": "A2",
-    "date": "2026-08-13T19:09:11.032Z",
+    "date": "2026-08-13T19:52:42.443Z",
     "lvFile": "data/a2.js",
     "csFile": "data/cs/a2.js",
     "wwwFile": "www/data/cs/a2.js",
@@ -14,8 +14,8 @@
     "csStudyCount": 231,
     "auditedObjects": 1640,
     "coverage": "100%",
-    "hashCs": "cff2098e64040e9336cf4d55a56d121b",
-    "hashWww": "cff2098e64040e9336cf4d55a56d121b",
+    "hashCs": "66af6e741b4596ac3b4d61bbd4f8d9b0",
+    "hashWww": "66af6e741b4596ac3b4d61bbd4f8d9b0",
     "jsSyntax": "PASS"
   },
   "structural": {
@@ -4891,15 +4891,6 @@
       {
         "severity": "HIGH",
         "id": "a2-klar",
-        "path": "entry[806].study.important.example",
-        "types": [
-          "LV_DIACRITIC"
-        ],
-        "text": "Das Wasser ist klar nozīmē, ka ūdens ir dzidrs. Klar! var nozīmēt “protams!”"
-      },
-      {
-        "severity": "HIGH",
-        "id": "a2-klar",
         "path": "entry[806].study.sectionAccents.tip.leftBlocks[1].text.yellow[0]",
         "types": [
           "LV_DIACRITIC"
@@ -5013,15 +5004,6 @@
           "LV_DIACRITIC"
         ],
         "text": "Viss kārtībā / skaidrs"
-      },
-      {
-        "severity": "HIGH",
-        "id": "a2-kleben",
-        "path": "entry[808].study.important.example",
-        "types": [
-          "LV_DIACRITIC"
-        ],
-        "text": "Das Pflaster klebt nicht nozīmē, ka plāksteris nelīp. Der Zettel klebt an der Tür nozīmē, ka zīmīte ir pielipusi."
       },
       {
         "severity": "HIGH",
@@ -5490,15 +5472,6 @@
           "LV_DIACRITIC"
         ],
         "text": "Valkāt"
-      },
-      {
-        "severity": "HIGH",
-        "id": "a2-Konfekt-827",
-        "path": "entry[827].lv",
-        "types": [
-          "PL_CHAR"
-        ],
-        "text": "Bonbón"
       },
       {
         "severity": "HIGH",
@@ -6618,6 +6591,24 @@
       },
       {
         "severity": "HIGH",
+        "id": "a2-nervös-1004",
+        "path": "entry[1004].lv",
+        "types": [
+          "PL_CHAR"
+        ],
+        "text": "Nervózní"
+      },
+      {
+        "severity": "HIGH",
+        "id": "a2-note",
+        "path": "entry[1019].study.translation",
+        "types": [
+          "PL_CHAR"
+        ],
+        "text": "Známka • Nota • Tón"
+      },
+      {
+        "severity": "HIGH",
         "id": "a2-note",
         "path": "entry[1019].study.comparison[4].meaning",
         "types": [
@@ -7280,7 +7271,7 @@
         "types": [
           "PL_CHAR"
         ],
-        "text": "Některé ne. sezóna"
+        "text": "Sezóna"
       },
       {
         "severity": "HIGH",
@@ -7835,15 +7826,6 @@
       {
         "severity": "HIGH",
         "id": "a2-schließen",
-        "path": "entry[1230].study.translation",
-        "types": [
-          "LV_DIACRITIC"
-        ],
-        "text": "Aizvērt"
-      },
-      {
-        "severity": "HIGH",
-        "id": "a2-schließen",
         "path": "entry[1230].study.comparison[1].example",
         "types": [
           "LV_DIACRITIC"
@@ -8105,15 +8087,6 @@
       {
         "severity": "HIGH",
         "id": "a2-schloss",
-        "path": "entry[1236].study.important.example",
-        "types": [
-          "LV_DIACRITIC"
-        ],
-        "text": "Schloss Neuschwanstein = pils. Türschloss = durvju slēdzene. Fahrradschloss = velosipēda slēdzene."
-      },
-      {
-        "severity": "HIGH",
-        "id": "a2-schloss",
         "path": "entry[1236].study.sectionAccents.tip.leftBlocks[0].text.yellow[1]",
         "types": [
           "LV_DIACRITIC"
@@ -8352,7 +8325,7 @@
         "types": [
           "LV_DIACRITIC"
         ],
-        "text": "Ich habe Schuld = es esmu vainīgs. Ich habe Schulden = man ir parādi."
+        "text": "Ich habe Schuld = Jsem vinen. Ich habe Schulden = man ir parādi."
       },
       {
         "severity": "HIGH",
@@ -9395,15 +9368,6 @@
       {
         "severity": "HIGH",
         "id": "a2-stelle",
-        "path": "entry[1380].study.important.example",
-        "types": [
-          "LV_DIACRITIC"
-        ],
-        "text": "An dieser Stelle = šajā vietā. eine Stelle suchen = meklēt darbu. Textstelle = teksta fragments."
-      },
-      {
-        "severity": "HIGH",
-        "id": "a2-stelle",
         "path": "entry[1380].study.sectionAccents.tip.leftBlocks[0].text.yellow[0]",
         "types": [
           "LV_DIACRITIC"
@@ -9539,15 +9503,6 @@
       {
         "severity": "HIGH",
         "id": "a2-stimmen",
-        "path": "entry[1388].study.important.example",
-        "types": [
-          "LV_DIACRITIC"
-        ],
-        "text": "Das stimmt = tā ir. über etwas abstimmen = balsot par kaut ko. jemandem zustimmen = piekrist kādam."
-      },
-      {
-        "severity": "HIGH",
-        "id": "a2-stimmen",
         "path": "entry[1388].study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
         "types": [
           "LV_DIACRITIC"
@@ -9589,15 +9544,6 @@
           "LV_DIACRITIC"
         ],
         "text": "Piekrītu"
-      },
-      {
-        "severity": "HIGH",
-        "id": "a2-stoff",
-        "path": "entry[1392].study.important.example",
-        "types": [
-          "LV_DIACRITIC"
-        ],
-        "text": "Stoff für ein Kleid = audums kleitai. ein giftiger Stoff = indīga viela. Unterrichtsstoff = mācību viela."
       },
       {
         "severity": "HIGH",
@@ -9652,15 +9598,6 @@
           "LV_DIACRITIC"
         ],
         "text": "Materiāls"
-      },
-      {
-        "severity": "HIGH",
-        "id": "a2-tafel",
-        "path": "entry[1416].study.important.example",
-        "types": [
-          "LV_DIACRITIC"
-        ],
-        "text": "Die Tafel = tāfele. die Tabelle = tabula. die Speisekarte = ēdienkarte. eine Tafel Schokolade = šokolādes tāfelīte."
       },
       {
         "severity": "HIGH",
@@ -10674,16 +10611,6 @@
       {
         "severity": "HIGH",
         "id": "a2-übung",
-        "path": "entry[1489].study.important.example",
-        "types": [
-          "LV_DIACRITIC",
-          "LV_WORD"
-        ],
-        "text": "Die Übung = vingrinājums. üben = vingrināties. das Training = treniņš."
-      },
-      {
-        "severity": "HIGH",
-        "id": "a2-übung",
         "path": "entry[1489].study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
         "types": [
           "LV_DIACRITIC",
@@ -10738,15 +10665,6 @@
           "LV_WORD"
         ],
         "text": "Vingrinājums"
-      },
-      {
-        "severity": "HIGH",
-        "id": "a2-umsonst",
-        "path": "entry[1492].study.important.example",
-        "types": [
-          "LV_DIACRITIC"
-        ],
-        "text": "Der Kurs ist umsonst = kurss ir par velti. Ich warte umsonst = es gaidu veltīgi."
       },
       {
         "severity": "HIGH",
@@ -12539,15 +12457,6 @@
           "LV_DIACRITIC"
         ],
         "text": "Nosvērt"
-      },
-      {
-        "severity": "HIGH",
-        "id": "a2-ziehen",
-        "path": "entry[1599].study.important.example",
-        "types": [
-          "LV_DIACRITIC"
-        ],
-        "text": "Wir ziehen nach Berlin = Mēs pārvācamies uz Berlīni. Es zieht = Velk caurvējš. einen Schluss ziehen = izdarīt secinājumu."
       },
       {
         "severity": "HIGH",
@@ -18913,7 +18822,7 @@
       {
         "id": "a2-insgesamt-710",
         "de": "insgesamt",
-        "csMain": "Spolu",
+        "csMain": "Celkem",
         "lvSource": "kopā",
         "status": "OK",
         "flags": []
@@ -18945,7 +18854,7 @@
       {
         "id": "a2-Interesse-714",
         "de": "Interesse",
-        "csMain": "Zajímat",
+        "csMain": "Zájem",
         "lvSource": "interese",
         "status": "OK",
         "flags": []
@@ -18969,7 +18878,7 @@
       {
         "id": "a2-irgendein-717",
         "de": "irgendein",
-        "csMain": "Někdo",
+        "csMain": "Nějaký",
         "lvSource": "kaut kāds",
         "status": "OK",
         "flags": []
@@ -19001,7 +18910,7 @@
       {
         "id": "a2-irgendwohin-721",
         "de": "irgendwohin",
-        "csMain": "Někde",
+        "csMain": "Někam",
         "lvSource": "kaut kurp",
         "status": "OK",
         "flags": []
@@ -19065,7 +18974,7 @@
       {
         "id": "a2-jemals-729",
         "de": "jemals",
-        "csMain": "Vůbec",
+        "csMain": "Někdy",
         "lvSource": "jebkad",
         "status": "OK",
         "flags": []
@@ -19073,7 +18982,7 @@
       {
         "id": "a2-jemanden baden-730",
         "de": "jemanden baden",
-        "csMain": "Plavat • Vykoupat se",
+        "csMain": "Koupat někoho",
         "lvSource": "peldināt • mazgāt vannā",
         "status": "OK",
         "flags": []
@@ -19081,7 +18990,7 @@
       {
         "id": "a2-jener-731",
         "de": "jener",
-        "csMain": "Že",
+        "csMain": "Onen",
         "lvSource": "tas",
         "status": "OK",
         "flags": []
@@ -19089,7 +18998,7 @@
       {
         "id": "a2-jetzig-732",
         "de": "jetzig",
-        "csMain": "Současnost",
+        "csMain": "Současný",
         "lvSource": "tagadējs",
         "status": "OK",
         "flags": []
@@ -19097,7 +19006,7 @@
       {
         "id": "a2-Job-733",
         "de": "Job",
-        "csMain": "Dočasnou práci",
+        "csMain": "Práce",
         "lvSource": "īslaicīgs darbs",
         "status": "OK",
         "flags": []
@@ -19105,7 +19014,7 @@
       {
         "id": "a2-jobben-734",
         "de": "jobben",
-        "csMain": "Dočasně pracovat",
+        "csMain": "Pracovat",
         "lvSource": "īslaicīgi strādāt",
         "status": "OK",
         "flags": []
@@ -19113,7 +19022,7 @@
       {
         "id": "a2-joggen-735",
         "de": "joggen",
-        "csMain": "Běžet pomalu",
+        "csMain": "Joggovat",
         "lvSource": "lēni skriet",
         "status": "OK",
         "flags": []
@@ -19217,7 +19126,7 @@
       {
         "id": "a2-Kaffeepulver-748",
         "de": "Kaffeepulver",
-        "csMain": "Instantní káva",
+        "csMain": "Mletá káva",
         "lvSource": "šķīstošā kafija",
         "status": "OK",
         "flags": []
@@ -19297,7 +19206,7 @@
       {
         "id": "a2-Kaninchen-758",
         "de": "Kaninchen",
-        "csMain": "Králičí",
+        "csMain": "Králík",
         "lvSource": "trusis",
         "status": "OK",
         "flags": []
@@ -19305,7 +19214,7 @@
       {
         "id": "a2-Kanne-759",
         "de": "Kanne",
-        "csMain": "Může",
+        "csMain": "Konvice",
         "lvSource": "kanna",
         "status": "OK",
         "flags": []
@@ -19329,7 +19238,7 @@
       {
         "id": "a2-Kappe-762",
         "de": "Kappe",
-        "csMain": "Klobouk s hřebíkem",
+        "csMain": "Čepice",
         "lvSource": "cepure ar nagu",
         "status": "OK",
         "flags": []
@@ -19337,7 +19246,7 @@
       {
         "id": "a2-kaputt-763",
         "de": "kaputt",
-        "csMain": "Zlomený",
+        "csMain": "Rozbitý",
         "lvSource": "salauzts",
         "status": "OK",
         "flags": []
@@ -19345,7 +19254,7 @@
       {
         "id": "a2-kaputtgehen-764",
         "de": "kaputtgehen",
-        "csMain": "Zlomit se",
+        "csMain": "Rozbít se",
         "lvSource": "salūzt",
         "status": "OK",
         "flags": []
@@ -19353,7 +19262,7 @@
       {
         "id": "a2-Karamelle-765",
         "de": "Karamelle",
-        "csMain": "Karamely",
+        "csMain": "Karamela",
         "lvSource": "karameles",
         "status": "OK",
         "flags": []
@@ -19361,7 +19270,7 @@
       {
         "id": "a2-Karate-766",
         "de": "Karate",
-        "csMain": "V karate",
+        "csMain": "Karate",
         "lvSource": "karatē",
         "status": "OK",
         "flags": []
@@ -19401,7 +19310,7 @@
       {
         "id": "a2-Käsekuchen-771",
         "de": "Käsekuchen",
-        "csMain": "Tvarohový chléb",
+        "csMain": "Tvarohový koláč",
         "lvSource": "biezpienmaizīte",
         "status": "OK",
         "flags": []
@@ -19609,7 +19518,7 @@
       {
         "id": "a2-Kinderheim-797",
         "de": "Kinderheim",
-        "csMain": "Sirotčinec",
+        "csMain": "Dětský domov",
         "lvSource": "bērnunams",
         "status": "OK",
         "flags": []
@@ -19737,7 +19646,7 @@
       {
         "id": "a2-Kleingarten-813",
         "de": "Kleingarten",
-        "csMain": "Malá zahrada",
+        "csMain": "Zahrádka",
         "lvSource": "mazdārziņš",
         "status": "OK",
         "flags": []
@@ -19745,7 +19654,7 @@
       {
         "id": "a2-Kleingeld-814",
         "de": "Kleingeld",
-        "csMain": "Drobné výdaje",
+        "csMain": "Drobné",
         "lvSource": "sīknauda",
         "status": "OK",
         "flags": []
@@ -19769,7 +19678,7 @@
       {
         "id": "a2-Klingel-817",
         "de": "Klingel",
-        "csMain": "Volání",
+        "csMain": "Zvonek",
         "lvSource": "zvans",
         "status": "OK",
         "flags": []
@@ -19777,7 +19686,7 @@
       {
         "id": "a2-klingeln-818",
         "de": "klingeln",
-        "csMain": "Zavolat",
+        "csMain": "Zvonit",
         "lvSource": "zvanīt",
         "status": "OK",
         "flags": []
@@ -19785,7 +19694,7 @@
       {
         "id": "a2-klopfen-819",
         "de": "klopfen",
-        "csMain": "Zaklepat",
+        "csMain": "Klepat",
         "lvSource": "klauvēt",
         "status": "OK",
         "flags": []
@@ -19817,7 +19726,7 @@
       {
         "id": "a2-knien-823",
         "de": "knien",
-        "csMain": "Stát na kolenou",
+        "csMain": "Klečet",
         "lvSource": "stāvēt uz ceļiem",
         "status": "OK",
         "flags": []
@@ -19849,12 +19758,10 @@
       {
         "id": "a2-Konfekt-827",
         "de": "Konfekt",
-        "csMain": "Bonbón",
+        "csMain": "Bonbony",
         "lvSource": "konfekte",
-        "status": "ERROR",
-        "flags": [
-          "PL_CHAR"
-        ]
+        "status": "OK",
+        "flags": []
       },
       {
         "id": "a2-König-828",
@@ -19899,7 +19806,7 @@
       {
         "id": "a2-Kopie-833",
         "de": "Kopie",
-        "csMain": "Kopii",
+        "csMain": "Kopie",
         "lvSource": "kopija",
         "status": "OK",
         "flags": []
@@ -19947,7 +19854,7 @@
       {
         "id": "a2-Kostüm-839",
         "de": "Kostüm",
-        "csMain": "Dámský kostým",
+        "csMain": "Kostým",
         "lvSource": "sieviešu kostīms",
         "status": "OK",
         "flags": []
@@ -19979,7 +19886,7 @@
       {
         "id": "a2-Krankenhaus-843",
         "de": "Krankenhaus",
-        "csMain": "NEMOCNICE",
+        "csMain": "Nemocnice",
         "lvSource": "slimnīca",
         "status": "OK",
         "flags": []
@@ -19995,7 +19902,7 @@
       {
         "id": "a2-Kreditkarte-845",
         "de": "Kreditkarte",
-        "csMain": "Kreditní kartou",
+        "csMain": "Kreditní karta",
         "lvSource": "kredītkarte",
         "status": "OK",
         "flags": []
@@ -20043,7 +19950,7 @@
       {
         "id": "a2-kühl-851",
         "de": "kühl",
-        "csMain": "Ochladit",
+        "csMain": "Chladný",
         "lvSource": "vēss",
         "status": "OK",
         "flags": []
@@ -20051,7 +19958,7 @@
       {
         "id": "a2-kühlen-852",
         "de": "kühlen",
-        "csMain": "Vychladnout",
+        "csMain": "Ochladit",
         "lvSource": "atdzesēt",
         "status": "OK",
         "flags": []
@@ -20107,7 +20014,7 @@
       {
         "id": "a2-Lamm-859",
         "de": "Lamm",
-        "csMain": "Jehněčí",
+        "csMain": "Jehně",
         "lvSource": "jērs",
         "status": "OK",
         "flags": []
@@ -20139,7 +20046,7 @@
       {
         "id": "a2-langweilen-863",
         "de": "langweilen",
-        "csMain": "Nudit se",
+        "csMain": "Nudit",
         "lvSource": "garlaikot",
         "status": "OK",
         "flags": []
@@ -20163,7 +20070,7 @@
       {
         "id": "a2-läuten-866",
         "de": "läuten",
-        "csMain": "Zavolat",
+        "csMain": "Zvonit",
         "lvSource": "zvanīt",
         "status": "OK",
         "flags": []
@@ -20171,7 +20078,7 @@
       {
         "id": "a2-lebendig-867",
         "de": "lebendig",
-        "csMain": "Naživu",
+        "csMain": "Živý",
         "lvSource": "dzīvs",
         "status": "OK",
         "flags": []
@@ -20203,7 +20110,7 @@
       {
         "id": "a2-Leder-871",
         "de": "Leder",
-        "csMain": "Vyvinutá kůže",
+        "csMain": "Kůže",
         "lvSource": "izstrādāta āda",
         "status": "OK",
         "flags": []
@@ -20219,7 +20126,7 @@
       {
         "id": "a2-leeren-873",
         "de": "leeren",
-        "csMain": "Odvodnění",
+        "csMain": "Vyprázdnit",
         "lvSource": "iztukšot",
         "status": "OK",
         "flags": []
@@ -20307,7 +20214,7 @@
       {
         "id": "a2-leuchten-884",
         "de": "leuchten",
-        "csMain": "Zazářit",
+        "csMain": "Zářit",
         "lvSource": "spīdēt",
         "status": "OK",
         "flags": []
@@ -20315,7 +20222,7 @@
       {
         "id": "a2-lieber-885",
         "de": "lieber",
-        "csMain": "Lepší",
+        "csMain": "Raději",
         "lvSource": "labāk",
         "status": "OK",
         "flags": []
@@ -20379,7 +20286,7 @@
       {
         "id": "a2-Lippenstift-893",
         "de": "Lippenstift",
-        "csMain": "Tužka na rty",
+        "csMain": "Rtěnka",
         "lvSource": "lūpu zīmulis",
         "status": "OK",
         "flags": []
@@ -20395,7 +20302,7 @@
       {
         "id": "a2-loben-895",
         "de": "loben",
-        "csMain": "Chvála",
+        "csMain": "Chválit",
         "lvSource": "slavēt",
         "status": "OK",
         "flags": []
@@ -20435,7 +20342,7 @@
       {
         "id": "a2-losfahren-900",
         "de": "losfahren",
-        "csMain": "Začít řídit",
+        "csMain": "Vyjet",
         "lvSource": "sākt braukt",
         "status": "OK",
         "flags": []
@@ -20459,7 +20366,7 @@
       {
         "id": "a2-Lüge-903",
         "de": "Lüge",
-        "csMain": "Lži",
+        "csMain": "Lež",
         "lvSource": "meli",
         "status": "OK",
         "flags": []
@@ -20475,7 +20382,7 @@
       {
         "id": "a2-Lust-905",
         "de": "Lust",
-        "csMain": "Volby",
+        "csMain": "Chuť",
         "lvSource": "vēlēšanās",
         "status": "OK",
         "flags": []
@@ -20523,7 +20430,7 @@
       {
         "id": "a2-männlich-911",
         "de": "männlich",
-        "csMain": "Pánské",
+        "csMain": "Mužský",
         "lvSource": "vīriešu",
         "status": "OK",
         "flags": []
@@ -20539,7 +20446,7 @@
       {
         "id": "a2-Mappe-913",
         "de": "Mappe",
-        "csMain": "Složku",
+        "csMain": "Složka",
         "lvSource": "mape",
         "status": "OK",
         "flags": []
@@ -20563,7 +20470,7 @@
       {
         "id": "a2-Markt-916",
         "de": "Markt",
-        "csMain": "Trhu",
+        "csMain": "Trh",
         "lvSource": "tirgus",
         "status": "OK",
         "flags": []
@@ -20627,7 +20534,7 @@
       {
         "id": "a2-Medikament-924",
         "de": "Medikament",
-        "csMain": "Léky",
+        "csMain": "Lék",
         "lvSource": "medikaments",
         "status": "OK",
         "flags": []
@@ -20635,7 +20542,7 @@
       {
         "id": "a2-Medizin-925",
         "de": "Medizin",
-        "csMain": "Lék",
+        "csMain": "Medicína",
         "lvSource": "medicīna",
         "status": "OK",
         "flags": []
@@ -20683,7 +20590,7 @@
       {
         "id": "a2-Meister-931",
         "de": "Meister",
-        "csMain": "Zvládnout",
+        "csMain": "Mistr",
         "lvSource": "meistars",
         "status": "OK",
         "flags": []
@@ -20755,7 +20662,7 @@
       {
         "id": "a2-mieten-940",
         "de": "mieten",
-        "csMain": "Pronajmout",
+        "csMain": "Pronajmout si",
         "lvSource": "īrēt",
         "status": "OK",
         "flags": []
@@ -20779,7 +20686,7 @@
       {
         "id": "a2-mischen-943",
         "de": "mischen",
-        "csMain": "Zmást",
+        "csMain": "Míchat",
         "lvSource": "sajaukt",
         "status": "OK",
         "flags": []
@@ -20811,7 +20718,7 @@
       {
         "id": "a2-Mitglied-947",
         "de": "Mitglied",
-        "csMain": "Členem",
+        "csMain": "Člen",
         "lvSource": "biedrs",
         "status": "OK",
         "flags": []
@@ -20867,7 +20774,7 @@
       {
         "id": "a2-Möbel-954",
         "de": "Möbel",
-        "csMain": "Nábytek • Nábytek",
+        "csMain": "Nábytek",
         "lvSource": "mēbele • mēbeles",
         "status": "OK",
         "flags": []
@@ -20901,7 +20808,7 @@
       {
         "id": "a2-möglich-958",
         "de": "möglich",
-        "csMain": "Možné",
+        "csMain": "Možný",
         "lvSource": "iespējams",
         "status": "OK",
         "flags": []
@@ -20917,7 +20824,7 @@
       {
         "id": "a2-monatlich-960",
         "de": "monatlich",
-        "csMain": "Měsíční-",
+        "csMain": "Měsíční",
         "lvSource": "ikmēneša-",
         "status": "OK",
         "flags": []
@@ -21005,7 +20912,7 @@
       {
         "id": "a2-Muster-971",
         "de": "Muster",
-        "csMain": "Ochutnat",
+        "csMain": "Vzorek",
         "lvSource": "paraugs",
         "status": "OK",
         "flags": []
@@ -21061,7 +20968,7 @@
       {
         "id": "a2-nachdenken-978",
         "de": "nachdenken",
-        "csMain": "Odrážet",
+        "csMain": "Přemýšlet",
         "lvSource": "pārdomāt",
         "status": "OK",
         "flags": []
@@ -21157,7 +21064,7 @@
       {
         "id": "a2-nah-990",
         "de": "nah",
-        "csMain": "Blízko",
+        "csMain": "Blízký",
         "lvSource": "tuvs",
         "status": "OK",
         "flags": []
@@ -21181,7 +21088,7 @@
       {
         "id": "a2-näher-993",
         "de": "näher",
-        "csMain": "Blíž",
+        "csMain": "Bližší",
         "lvSource": "tuvāks",
         "status": "OK",
         "flags": []
@@ -21197,7 +21104,7 @@
       {
         "id": "a2-Nahrungsmittel-995",
         "de": "Nahrungsmittel",
-        "csMain": "Potravinářské výrobky",
+        "csMain": "Potraviny",
         "lvSource": "pārtikas produkti",
         "status": "OK",
         "flags": []
@@ -21213,7 +21120,7 @@
       {
         "id": "a2-naschen-997",
         "de": "naschen",
-        "csMain": "Svačit",
+        "csMain": "Mlsat",
         "lvSource": "našķēties",
         "status": "OK",
         "flags": []
@@ -21269,10 +21176,12 @@
       {
         "id": "a2-nervös-1004",
         "de": "nervös",
-        "csMain": "Nervový",
+        "csMain": "Nervózní",
         "lvSource": "nervozs",
-        "status": "OK",
-        "flags": []
+        "status": "ERROR",
+        "flags": [
+          "PL_CHAR"
+        ]
       },
       {
         "id": "a2-Nest-1005",
@@ -21325,7 +21234,7 @@
       {
         "id": "a2-nicken-1011",
         "de": "nicken",
-        "csMain": "Kývni hlavou",
+        "csMain": "Kývat hlavou",
         "lvSource": "pamāt ar galvu",
         "status": "OK",
         "flags": []
@@ -21333,7 +21242,7 @@
       {
         "id": "a2-niedlich-1012",
         "de": "niedlich",
-        "csMain": "Pěkný",
+        "csMain": "Roztomilý",
         "lvSource": "jauks",
         "status": "OK",
         "flags": []
@@ -21357,7 +21266,7 @@
       {
         "id": "a2-niesen-1015",
         "de": "niesen",
-        "csMain": "Kýchnout",
+        "csMain": "Kýchat",
         "lvSource": "šķaudīt",
         "status": "OK",
         "flags": []
@@ -21381,7 +21290,7 @@
       {
         "id": "a2-Norden-1018",
         "de": "Norden",
-        "csMain": "Severu",
+        "csMain": "Sever",
         "lvSource": "ziemeļi",
         "status": "OK",
         "flags": []
@@ -21421,7 +21330,7 @@
       {
         "id": "a2-Notizbuch-1023",
         "de": "Notizbuch",
-        "csMain": "Notebook",
+        "csMain": "Zápisník",
         "lvSource": "piezīmju grāmatiņa",
         "status": "OK",
         "flags": []
@@ -21429,7 +21338,7 @@
       {
         "id": "a2-nu-1024",
         "de": "nu",
-        "csMain": "Okamžitě",
+        "csMain": "Teď",
         "lvSource": "acumirklī",
         "status": "OK",
         "flags": []
@@ -21461,7 +21370,7 @@
       {
         "id": "a2-Nuss-1028",
         "de": "Nuss",
-        "csMain": "Matice",
+        "csMain": "Ořech",
         "lvSource": "rieksts",
         "status": "OK",
         "flags": []
@@ -21541,7 +21450,7 @@
       {
         "id": "a2-Öffnungszeit-1038",
         "de": "Öffnungszeit",
-        "csMain": "Pracovní doba",
+        "csMain": "Otevírací doba",
         "lvSource": "darba laiks",
         "status": "OK",
         "flags": []
@@ -21549,7 +21458,7 @@
       {
         "id": "a2-Öl-1039",
         "de": "Öl",
-        "csMain": "Ropa • Ropa",
+        "csMain": "Olej",
         "lvSource": "eļļa • nafta",
         "status": "OK",
         "flags": []
@@ -21557,7 +21466,7 @@
       {
         "id": "a2-Olive-1040",
         "de": "Olive",
-        "csMain": "Olivový",
+        "csMain": "Oliva",
         "lvSource": "olīva",
         "status": "OK",
         "flags": []
@@ -21589,7 +21498,7 @@
       {
         "id": "a2-ordentlich-1044",
         "de": "ordentlich",
-        "csMain": "Elegantní",
+        "csMain": "Pořádný",
         "lvSource": "kārtīgs",
         "status": "OK",
         "flags": []
@@ -21605,7 +21514,7 @@
       {
         "id": "a2-Ordnung-1046",
         "de": "Ordnung",
-        "csMain": "Objednávka",
+        "csMain": "Pořádek",
         "lvSource": "kārtība",
         "status": "OK",
         "flags": []
@@ -21621,7 +21530,7 @@
       {
         "id": "a2-Osten-1048",
         "de": "Osten",
-        "csMain": "Na východě",
+        "csMain": "Východ",
         "lvSource": "austrumi",
         "status": "OK",
         "flags": []
@@ -21669,7 +21578,7 @@
       {
         "id": "a2-Pappbecher-1054",
         "de": "Pappbecher",
-        "csMain": "Kartonový pohár",
+        "csMain": "Kartonový kelímek",
         "lvSource": "kartona glāze",
         "status": "OK",
         "flags": []
@@ -21677,7 +21586,7 @@
       {
         "id": "a2-Parfüm-1055",
         "de": "Parfüm",
-        "csMain": "Parfémy",
+        "csMain": "Parfém",
         "lvSource": "smaržas",
         "status": "OK",
         "flags": []
@@ -21757,7 +21666,7 @@
       {
         "id": "a2-Pech-1065",
         "de": "Pech",
-        "csMain": "Selhání",
+        "csMain": "Smůla",
         "lvSource": "neveiksme",
         "status": "OK",
         "flags": []
@@ -21765,7 +21674,7 @@
       {
         "id": "a2-Pension-1066",
         "de": "Pension",
-        "csMain": "Penzion • Penzion",
+        "csMain": "Penzion",
         "lvSource": "viesu nams • pansija",
         "status": "OK",
         "flags": []
@@ -22037,7 +21946,7 @@
       {
         "id": "a2-Portion-1100",
         "de": "Portion",
-        "csMain": "Část",
+        "csMain": "Porce",
         "lvSource": "porcija",
         "status": "OK",
         "flags": []
@@ -22085,7 +21994,7 @@
       {
         "id": "a2-privat-1106",
         "de": "privat",
-        "csMain": "Soukromé",
+        "csMain": "Soukromý",
         "lvSource": "privāts",
         "status": "OK",
         "flags": []
@@ -22133,7 +22042,7 @@
       {
         "id": "a2-pünktlich-1112",
         "de": "pünktlich",
-        "csMain": "Přesný",
+        "csMain": "Dochvilný",
         "lvSource": "punktuāls",
         "status": "OK",
         "flags": []
@@ -22149,7 +22058,7 @@
       {
         "id": "a2-Putzfrau-1114",
         "de": "Putzfrau",
-        "csMain": "Čistič",
+        "csMain": "Uklízečka",
         "lvSource": "apkopēja",
         "status": "OK",
         "flags": []
@@ -22157,7 +22066,7 @@
       {
         "id": "a2-Quadrat-1115",
         "de": "Quadrat",
-        "csMain": "Náměstí",
+        "csMain": "Čtverec",
         "lvSource": "kvadrāts",
         "status": "OK",
         "flags": []
@@ -22165,7 +22074,7 @@
       {
         "id": "a2-Qualität-1116",
         "de": "Qualität",
-        "csMain": "Kvalitní",
+        "csMain": "Kvalita",
         "lvSource": "kvalitāte",
         "status": "OK",
         "flags": []
@@ -22181,7 +22090,7 @@
       {
         "id": "a2-Quittung-1118",
         "de": "Quittung",
-        "csMain": "Příjem",
+        "csMain": "Účtenka",
         "lvSource": "kvīts",
         "status": "OK",
         "flags": []
@@ -22205,7 +22114,7 @@
       {
         "id": "a2-Radieschen-1121",
         "de": "Radieschen",
-        "csMain": "Ředkev",
+        "csMain": "Ředkvička",
         "lvSource": "redīss",
         "status": "OK",
         "flags": []
@@ -22213,7 +22122,7 @@
       {
         "id": "a2-Rahm-1122",
         "de": "Rahm",
-        "csMain": "Smetana sladká",
+        "csMain": "Sladká smetana",
         "lvSource": "krējums salds",
         "status": "OK",
         "flags": []
@@ -22285,7 +22194,7 @@
       {
         "id": "a2-Raum-1131",
         "de": "Raum",
-        "csMain": "Plocha",
+        "csMain": "Místnost",
         "lvSource": "telpa",
         "status": "OK",
         "flags": []
@@ -22301,7 +22210,7 @@
       {
         "id": "a2-Rechnung-1133",
         "de": "Rechnung",
-        "csMain": "Účtovat",
+        "csMain": "Účet",
         "lvSource": "rēķins",
         "status": "OK",
         "flags": []
@@ -22309,7 +22218,7 @@
       {
         "id": "a2-Recht-1134",
         "de": "Recht",
-        "csMain": "Práv",
+        "csMain": "Právo",
         "lvSource": "tiesības",
         "status": "OK",
         "flags": []
@@ -22317,7 +22226,7 @@
       {
         "id": "a2-Rechte-1135",
         "de": "Rechte",
-        "csMain": "Pravá ruka",
+        "csMain": "Práva",
         "lvSource": "labā roka",
         "status": "OK",
         "flags": []
@@ -22381,7 +22290,7 @@
       {
         "id": "a2-Reich-1143",
         "de": "Reich",
-        "csMain": "Země • Říše • Království",
+        "csMain": "Říše",
         "lvSource": "valsts • impērija • karaliste",
         "status": "OK",
         "flags": []
@@ -22397,7 +22306,7 @@
       {
         "id": "a2-Reihe-1145",
         "de": "Reihe",
-        "csMain": "Řádek",
+        "csMain": "Řada",
         "lvSource": "rinda",
         "status": "OK",
         "flags": []
@@ -22453,7 +22362,7 @@
       {
         "id": "a2-reiten-1152",
         "de": "reiten",
-        "csMain": "Jezdit",
+        "csMain": "Jezdit na koni",
         "lvSource": "jāt",
         "status": "OK",
         "flags": []
@@ -22469,7 +22378,7 @@
       {
         "id": "a2-Rennen-1154",
         "de": "Rennen",
-        "csMain": "Závod • Závod",
+        "csMain": "Běh",
         "lvSource": "skrējiens • sacīkstes",
         "status": "OK",
         "flags": []
@@ -22493,7 +22402,7 @@
       {
         "id": "a2-Reparatur-1157",
         "de": "Reparatur",
-        "csMain": "Opravit",
+        "csMain": "Oprava",
         "lvSource": "remonts",
         "status": "OK",
         "flags": []
@@ -22517,7 +22426,7 @@
       {
         "id": "a2-Rest-1160",
         "de": "Rest",
-        "csMain": "Zbytek • Přebytek • Útržek látky",
+        "csMain": "Zbytek",
         "lvSource": "atlikums • pārpalikums • drānas atgriezums",
         "status": "OK",
         "flags": []
@@ -22533,7 +22442,7 @@
       {
         "id": "a2-retten-1162",
         "de": "retten",
-        "csMain": "Uložit",
+        "csMain": "Zachránit",
         "lvSource": "glābt",
         "status": "OK",
         "flags": []
@@ -22541,7 +22450,7 @@
       {
         "id": "a2-Rezeption-1163",
         "de": "Rezeption",
-        "csMain": "Příjem • Příjem",
+        "csMain": "Recepce",
         "lvSource": "reģistratūra • recepcija",
         "status": "OK",
         "flags": []
@@ -22581,7 +22490,7 @@
       {
         "id": "a2-Rock-1168",
         "de": "Rock",
-        "csMain": "Sukně • Blejzr",
+        "csMain": "Sukně",
         "lvSource": "svārki • žakete",
         "status": "OK",
         "flags": []
@@ -22589,7 +22498,7 @@
       {
         "id": "a2-rodeln-1169",
         "de": "rodeln",
-        "csMain": "Sáňkování z kopce",
+        "csMain": "Sáňkovat",
         "lvSource": "braukt ar ragaviņām no kalna",
         "status": "OK",
         "flags": []
@@ -22669,7 +22578,7 @@
       {
         "id": "a2-Ruhe-1179",
         "de": "Ruhe",
-        "csMain": "Mír",
+        "csMain": "Klid",
         "lvSource": "miers",
         "status": "OK",
         "flags": []
@@ -22677,7 +22586,7 @@
       {
         "id": "a2-ruhig-1180",
         "de": "ruhig",
-        "csMain": "Uklidnit",
+        "csMain": "Klidný",
         "lvSource": "mierīgs",
         "status": "OK",
         "flags": []
@@ -22685,7 +22594,7 @@
       {
         "id": "a2-rühren-1181",
         "de": "rühren",
-        "csMain": "Rozruch",
+        "csMain": "Míchat",
         "lvSource": "maisīt",
         "status": "OK",
         "flags": []
@@ -22693,7 +22602,7 @@
       {
         "id": "a2-Rundfunk-1182",
         "de": "Rundfunk",
-        "csMain": "Rádio",
+        "csMain": "Rozhlas",
         "lvSource": "radio",
         "status": "OK",
         "flags": []
@@ -22709,7 +22618,7 @@
       {
         "id": "a2-Saal-1184",
         "de": "Saal",
-        "csMain": "Tráva",
+        "csMain": "Sál",
         "lvSource": "zāle",
         "status": "OK",
         "flags": []
@@ -22717,7 +22626,7 @@
       {
         "id": "a2-Sack-1185",
         "de": "Sack",
-        "csMain": "Taška",
+        "csMain": "Pytel",
         "lvSource": "maiss",
         "status": "OK",
         "flags": []
@@ -22733,7 +22642,7 @@
       {
         "id": "a2-Sahne-1187",
         "de": "Sahne",
-        "csMain": "Krém",
+        "csMain": "Smetana",
         "lvSource": "krējums",
         "status": "OK",
         "flags": []
@@ -22741,7 +22650,7 @@
       {
         "id": "a2-Saison-1188",
         "de": "Saison",
-        "csMain": "Některé ne. sezóna",
+        "csMain": "Sezóna",
         "lvSource": "daž. noz. sezona",
         "status": "ERROR",
         "flags": [
@@ -22751,7 +22660,7 @@
       {
         "id": "a2-salzen-1189",
         "de": "salzen",
-        "csMain": "Dosolit",
+        "csMain": "Solit",
         "lvSource": "sālīt",
         "status": "OK",
         "flags": []
@@ -22783,7 +22692,7 @@
       {
         "id": "a2-satt-1193",
         "de": "satt",
-        "csMain": "Otrávený",
+        "csMain": "Sytý",
         "lvSource": "paēdis",
         "status": "OK",
         "flags": []
@@ -22807,7 +22716,7 @@
       {
         "id": "a2-Sauerkraut-1196",
         "de": "Sauerkraut",
-        "csMain": "Kyselé zelí",
+        "csMain": "Kysané zelí",
         "lvSource": "skābēti kāposti",
         "status": "OK",
         "flags": []
@@ -22847,7 +22756,7 @@
       {
         "id": "a2-schade-1201",
         "de": "schade",
-        "csMain": "Promiň",
+        "csMain": "Škoda",
         "lvSource": "žēl",
         "status": "OK",
         "flags": []
@@ -22863,7 +22772,7 @@
       {
         "id": "a2-Schal-1203",
         "de": "Schal",
-        "csMain": "Šátek",
+        "csMain": "Šála",
         "lvSource": "šalle",
         "status": "OK",
         "flags": []
@@ -22871,7 +22780,7 @@
       {
         "id": "a2-schälen-1204",
         "de": "schälen",
-        "csMain": "Peeling",
+        "csMain": "Loupat",
         "lvSource": "mizot",
         "status": "OK",
         "flags": []
@@ -22919,7 +22828,7 @@
       {
         "id": "a2-schätzen-1210",
         "de": "schätzen",
-        "csMain": "Hodnotit",
+        "csMain": "Odhadovat",
         "lvSource": "novērtēt",
         "status": "OK",
         "flags": []
@@ -22983,7 +22892,7 @@
       {
         "id": "a2-schenken-1218",
         "de": "schenken",
-        "csMain": "Dát",
+        "csMain": "Darovat",
         "lvSource": "dāvināt",
         "status": "OK",
         "flags": []
@@ -23031,7 +22940,7 @@
       {
         "id": "a2-Schild-1224",
         "de": "Schild",
-        "csMain": "Vývěsní štít • Štítek • Štítek na lahvích • Sešity atd. atd",
+        "csMain": "Vývěsní štít",
         "lvSource": "izkārtne • plāksnīte • etiķete uz pudelēm • burtnīcām u. tml",
         "status": "OK",
         "flags": []
@@ -23055,7 +22964,7 @@
       {
         "id": "a2-Schlaf-1227",
         "de": "Schlaf",
-        "csMain": "Spát",
+        "csMain": "Spánek",
         "lvSource": "miegs",
         "status": "OK",
         "flags": []
@@ -23063,7 +22972,7 @@
       {
         "id": "a2-schlagen-1228",
         "de": "schlagen",
-        "csMain": "Hit",
+        "csMain": "Udeřit",
         "lvSource": "sist",
         "status": "OK",
         "flags": []
@@ -23105,7 +23014,7 @@
       {
         "id": "a2-Schlips-1233",
         "de": "Schlips",
-        "csMain": "Uvázat",
+        "csMain": "Kravata",
         "lvSource": "kaklasaite",
         "status": "OK",
         "flags": []
@@ -23249,7 +23158,7 @@
       {
         "id": "a2-schriftlich-1251",
         "de": "schriftlich",
-        "csMain": "Napsáno",
+        "csMain": "Písemný",
         "lvSource": "rakstisks",
         "status": "OK",
         "flags": []
@@ -23305,7 +23214,7 @@
       {
         "id": "a2-Schürze-1258",
         "de": "Schürze",
-        "csMain": "Zástěru",
+        "csMain": "Zástěra",
         "lvSource": "priekšauts",
         "status": "OK",
         "flags": []
@@ -23337,7 +23246,7 @@
       {
         "id": "a2-schwanger-1262",
         "de": "schwanger",
-        "csMain": "Těhotná žena",
+        "csMain": "Těhotný",
         "lvSource": "grūtniece",
         "status": "OK",
         "flags": []
@@ -23401,7 +23310,7 @@
       {
         "id": "a2-schwitzen-1270",
         "de": "schwitzen",
-        "csMain": "Pocení",
+        "csMain": "Potit se",
         "lvSource": "svīst",
         "status": "OK",
         "flags": []
@@ -23425,7 +23334,7 @@
       {
         "id": "a2-Seilspringen-1273",
         "de": "Seilspringen",
-        "csMain": "Švihadlo",
+        "csMain": "Skákání přes švihadlo",
         "lvSource": "lēkšana ar lecamauklu",
         "status": "OK",
         "flags": []
@@ -23433,7 +23342,7 @@
       {
         "id": "a2-seitdem-1274",
         "de": "seitdem",
-        "csMain": "Z té doby",
+        "csMain": "Od té doby",
         "lvSource": "no tā laika",
         "status": "OK",
         "flags": []
@@ -23457,7 +23366,7 @@
       {
         "id": "a2-selten-1277",
         "de": "selten",
-        "csMain": "Vzácný",
+        "csMain": "Zřídka",
         "lvSource": "rets",
         "status": "OK",
         "flags": []
@@ -23465,7 +23374,7 @@
       {
         "id": "a2-Semmel-1278",
         "de": "Semmel",
-        "csMain": "Kulatý drdol",
+        "csMain": "Houska",
         "lvSource": "apaļa maizīte",
         "status": "OK",
         "flags": []
@@ -23497,7 +23406,7 @@
       {
         "id": "a2-servieren-1282",
         "de": "servieren",
-        "csMain": "Sloužit • Sloužit",
+        "csMain": "Servírovat",
         "lvSource": "pasniegt • servēt",
         "status": "OK",
         "flags": []
@@ -23545,7 +23454,7 @@
       {
         "id": "a2-sich ausziehen-1288",
         "de": "sich ausziehen",
-        "csMain": "Svléknout",
+        "csMain": "Svléknout se",
         "lvSource": "izģērbties",
         "status": "OK",
         "flags": []
@@ -23561,7 +23470,7 @@
       {
         "id": "a2-sich beeilen-1290",
         "de": "sich beeilen",
-        "csMain": "Pospěš si",
+        "csMain": "Pospíšit si",
         "lvSource": "pasteigties",
         "status": "OK",
         "flags": []
@@ -23585,7 +23494,7 @@
       {
         "id": "a2-sich erholen-1293",
         "de": "sich erholen",
-        "csMain": "Odpočívat • Zotavit se",
+        "csMain": "Odpočinout si",
         "lvSource": "atpūsties • atgūties",
         "status": "OK",
         "flags": []
@@ -23609,7 +23518,7 @@
       {
         "id": "a2-sich frisieren-1296",
         "de": "sich frisieren",
-        "csMain": "Dělat vlasy",
+        "csMain": "Česat se",
         "lvSource": "frizēties",
         "status": "OK",
         "flags": []
@@ -23617,7 +23526,7 @@
       {
         "id": "a2-sich fühlen-1297",
         "de": "sich fühlen",
-        "csMain": "Cítit",
+        "csMain": "Cítit se",
         "lvSource": "justies",
         "status": "OK",
         "flags": []
@@ -23649,7 +23558,7 @@
       {
         "id": "a2-sich setzen-1301",
         "de": "sich setzen",
-        "csMain": "Posaďte se",
+        "csMain": "Posadit se",
         "lvSource": "apsēsties",
         "status": "OK",
         "flags": []
@@ -23729,7 +23638,7 @@
       {
         "id": "a2-sich vorbereiten-1311",
         "de": "sich vorbereiten",
-        "csMain": "Připravit",
+        "csMain": "Připravit se",
         "lvSource": "sagatavoties",
         "status": "OK",
         "flags": []
@@ -23737,7 +23646,7 @@
       {
         "id": "a2-Sicherheit-1312",
         "de": "Sicherheit",
-        "csMain": "Zabezpečení",
+        "csMain": "Bezpečnost",
         "lvSource": "drošība",
         "status": "OK",
         "flags": []
@@ -23793,7 +23702,7 @@
       {
         "id": "a2-Situation-1319",
         "de": "Situation",
-        "csMain": "Situaci",
+        "csMain": "Situace",
         "lvSource": "situācija",
         "status": "OK",
         "flags": []
@@ -23833,7 +23742,7 @@
       {
         "id": "a2-so viel-1324",
         "de": "so viel",
-        "csMain": "Tolik • Jako",
+        "csMain": "Tolik",
         "lvSource": "tik daudz • cik",
         "status": "OK",
         "flags": []
@@ -23857,7 +23766,7 @@
       {
         "id": "a2-Sohle-1327",
         "de": "Sohle",
-        "csMain": "Podrážka • Podrážka",
+        "csMain": "Podrážka",
         "lvSource": "zole • pazole",
         "status": "OK",
         "flags": []
@@ -23865,7 +23774,7 @@
       {
         "id": "a2-solange-1328",
         "de": "solange",
-        "csMain": "Zatímco",
+        "csMain": "Dokud",
         "lvSource": "kamēr",
         "status": "OK",
         "flags": []
@@ -23889,7 +23798,7 @@
       {
         "id": "a2-sondern-1331",
         "de": "sondern",
-        "csMain": "Ale",
+        "csMain": "Nýbrž",
         "lvSource": "bet",
         "status": "OK",
         "flags": []
@@ -23913,7 +23822,7 @@
       {
         "id": "a2-Sonnenschein-1334",
         "de": "Sonnenschein",
-        "csMain": "Sluneční světlo",
+        "csMain": "Sluneční svit",
         "lvSource": "saules gaisma",
         "status": "OK",
         "flags": []
@@ -23945,7 +23854,7 @@
       {
         "id": "a2-sortieren-1338",
         "de": "sortieren",
-        "csMain": "Třídění",
+        "csMain": "Třídit",
         "lvSource": "šķirot",
         "status": "OK",
         "flags": []
@@ -23977,7 +23886,7 @@
       {
         "id": "a2-spannend-1342",
         "de": "spannend",
-        "csMain": "Rušivý",
+        "csMain": "Napínavý",
         "lvSource": "satraucošs",
         "status": "OK",
         "flags": []
@@ -23985,7 +23894,7 @@
       {
         "id": "a2-sparen-1343",
         "de": "sparen",
-        "csMain": "Uložit",
+        "csMain": "Šetřit",
         "lvSource": "taupīt",
         "status": "OK",
         "flags": []
@@ -24017,7 +23926,7 @@
       {
         "id": "a2-Speck-1347",
         "de": "Speck",
-        "csMain": "Sádlo",
+        "csMain": "Slanina",
         "lvSource": "speķis",
         "status": "OK",
         "flags": []
@@ -24089,7 +23998,7 @@
       {
         "id": "a2-Sport-1356",
         "de": "Sport",
-        "csMain": "Sportovní",
+        "csMain": "Sport",
         "lvSource": "sports",
         "status": "OK",
         "flags": []
@@ -24113,7 +24022,7 @@
       {
         "id": "a2-springen-1359",
         "de": "springen",
-        "csMain": "Skočit",
+        "csMain": "Skákat",
         "lvSource": "lēkt",
         "status": "OK",
         "flags": []
@@ -24121,7 +24030,7 @@
       {
         "id": "a2-spülen-1360",
         "de": "spülen",
-        "csMain": "Opláchněte",
+        "csMain": "Oplachovat",
         "lvSource": "skalot",
         "status": "OK",
         "flags": []
@@ -24129,7 +24038,7 @@
       {
         "id": "a2-Staat-1361",
         "de": "Staat",
-        "csMain": "Země",
+        "csMain": "Stát",
         "lvSource": "valsts",
         "status": "OK",
         "flags": []
@@ -24155,7 +24064,7 @@
       {
         "id": "a2-starten-1364",
         "de": "starten",
-        "csMain": "Začít",
+        "csMain": "Startovat",
         "lvSource": "startēt",
         "status": "OK",
         "flags": []
@@ -24171,7 +24080,7 @@
       {
         "id": "a2-stattfinden-1366",
         "de": "stattfinden",
-        "csMain": "Stát se",
+        "csMain": "Konat se",
         "lvSource": "notikt",
         "status": "OK",
         "flags": []
@@ -24243,7 +24152,7 @@
       {
         "id": "a2-stehen bleiben-1375",
         "de": "stehen bleiben",
-        "csMain": "Zastavit",
+        "csMain": "Zastavit se",
         "lvSource": "apstāties",
         "status": "OK",
         "flags": []
@@ -24307,7 +24216,7 @@
       {
         "id": "a2-steuern-1383",
         "de": "steuern",
-        "csMain": "Vést",
+        "csMain": "Řídit",
         "lvSource": "vadīt",
         "status": "OK",
         "flags": []
@@ -24355,7 +24264,7 @@
       {
         "id": "a2-stinken-1389",
         "de": "stinken",
-        "csMain": "Vonět",
+        "csMain": "Smrdět",
         "lvSource": "smirdēt",
         "status": "OK",
         "flags": []
@@ -24435,7 +24344,7 @@
       {
         "id": "a2-Straßenverkehr-1399",
         "de": "Straßenverkehr",
-        "csMain": "Pouliční provoz",
+        "csMain": "Silniční provoz",
         "lvSource": "ielu satiksme",
         "status": "OK",
         "flags": []
@@ -24451,7 +24360,7 @@
       {
         "id": "a2-streicheln-1401",
         "de": "streicheln",
-        "csMain": "Pohlazení",
+        "csMain": "Hladit",
         "lvSource": "glāstīt",
         "status": "OK",
         "flags": []
@@ -24459,7 +24368,7 @@
       {
         "id": "a2-Streichholz-1402",
         "de": "Streichholz",
-        "csMain": "Zápas",
+        "csMain": "Zápalka",
         "lvSource": "sērkociņš",
         "status": "OK",
         "flags": []
@@ -24555,7 +24464,7 @@
       {
         "id": "a2-Tablett-1414",
         "de": "Tablett",
-        "csMain": "Zásobník",
+        "csMain": "Podnos",
         "lvSource": "paplāte",
         "status": "OK",
         "flags": []
@@ -24595,7 +24504,7 @@
       {
         "id": "a2-Tankstelle-1419",
         "de": "Tankstelle",
-        "csMain": "Plynová nádrž",
+        "csMain": "Čerpací stanice",
         "lvSource": "benzīntanks",
         "status": "OK",
         "flags": []
@@ -24611,7 +24520,7 @@
       {
         "id": "a2-Tannenbaum-1421",
         "de": "Tannenbaum",
-        "csMain": "Vánoční stromeček • Vánoční stromeček",
+        "csMain": "Jedle",
         "lvSource": "egle • svētku eglīte",
         "status": "OK",
         "flags": []
@@ -24635,7 +24544,7 @@
       {
         "id": "a2-Taschenbuch-1424",
         "de": "Taschenbuch",
-        "csMain": "Zápisník",
+        "csMain": "Brožovaná kniha",
         "lvSource": "kabatas grāmata",
         "status": "OK",
         "flags": []
@@ -24651,7 +24560,7 @@
       {
         "id": "a2-tauschen-1426",
         "de": "tauschen",
-        "csMain": "Změnit",
+        "csMain": "Vyměnit",
         "lvSource": "mainīt",
         "status": "OK",
         "flags": []
@@ -24683,7 +24592,7 @@
       {
         "id": "a2-Teekanne-1430",
         "de": "Teekanne",
-        "csMain": "Varná konvice",
+        "csMain": "Čajová konvice",
         "lvSource": "tējkanna",
         "status": "OK",
         "flags": []
@@ -24699,7 +24608,7 @@
       {
         "id": "a2-teilen-1432",
         "de": "teilen",
-        "csMain": "Podíl",
+        "csMain": "Dělit",
         "lvSource": "dalīt",
         "status": "OK",
         "flags": []
@@ -24763,7 +24672,7 @@
       {
         "id": "a2-Thema-1440",
         "de": "Thema",
-        "csMain": "Podrobit",
+        "csMain": "Téma",
         "lvSource": "temats",
         "status": "OK",
         "flags": []
@@ -24803,7 +24712,7 @@
       {
         "id": "a2-Tischler-1445",
         "de": "Tischler",
-        "csMain": "Tesař",
+        "csMain": "Truhlář",
         "lvSource": "galdnieks",
         "status": "OK",
         "flags": []
@@ -24843,7 +24752,7 @@
       {
         "id": "a2-Top-1450",
         "de": "Top",
-        "csMain": "Vrchol",
+        "csMain": "Top",
         "lvSource": "tops",
         "status": "OK",
         "flags": []
@@ -24931,7 +24840,7 @@
       {
         "id": "a2-Training-1461",
         "de": "Training",
-        "csMain": "Výcvik",
+        "csMain": "Trénink",
         "lvSource": "treniņš",
         "status": "OK",
         "flags": []
@@ -24955,7 +24864,7 @@
       {
         "id": "a2-Traube-1464",
         "de": "Traube",
-        "csMain": "Hrozny",
+        "csMain": "Hrozen",
         "lvSource": "vīnogas",
         "status": "OK",
         "flags": []
@@ -25019,7 +24928,7 @@
       {
         "id": "a2-trocken-1472",
         "de": "trocken",
-        "csMain": "Schnout",
+        "csMain": "Suchý",
         "lvSource": "sauss",
         "status": "OK",
         "flags": []
@@ -25027,7 +24936,7 @@
       {
         "id": "a2-trocknen-1473",
         "de": "trocknen",
-        "csMain": "Uschnout",
+        "csMain": "Sušit",
         "lvSource": "žāvēt",
         "status": "OK",
         "flags": []
@@ -25035,7 +24944,7 @@
       {
         "id": "a2-Trommel-1474",
         "de": "Trommel",
-        "csMain": "Bubny",
+        "csMain": "Buben",
         "lvSource": "bungas",
         "status": "OK",
         "flags": []
@@ -25091,7 +25000,7 @@
       {
         "id": "a2-Tüte-1481",
         "de": "Tüte",
-        "csMain": "Tuta",
+        "csMain": "Sáček",
         "lvSource": "tūta",
         "status": "OK",
         "flags": []
@@ -25123,7 +25032,7 @@
       {
         "id": "a2-überraschen-1485",
         "de": "überraschen",
-        "csMain": "Překvapení",
+        "csMain": "Překvapit",
         "lvSource": "pārsteigt",
         "status": "OK",
         "flags": []
@@ -25131,7 +25040,7 @@
       {
         "id": "a2-Überschrift-1486",
         "de": "Überschrift",
-        "csMain": "Titul",
+        "csMain": "Nadpis",
         "lvSource": "virsraksts",
         "status": "OK",
         "flags": []
@@ -25163,7 +25072,7 @@
       {
         "id": "a2-Ufer-1490",
         "de": "Ufer",
-        "csMain": "Pobřeží",
+        "csMain": "Břeh",
         "lvSource": "krasts",
         "status": "OK",
         "flags": []
@@ -25187,7 +25096,7 @@
       {
         "id": "a2-umsteigen-1493",
         "de": "umsteigen",
-        "csMain": "Změnit sedadlo",
+        "csMain": "Přestoupit",
         "lvSource": "pārsēsties",
         "status": "OK",
         "flags": []
@@ -25203,7 +25112,7 @@
       {
         "id": "a2-umziehen-1495",
         "de": "umziehen",
-        "csMain": "Pohybovat se",
+        "csMain": "Přestěhovat se",
         "lvSource": "pārvākties",
         "status": "OK",
         "flags": []
@@ -25299,7 +25208,7 @@
       {
         "id": "a2-Untertasse-1507",
         "de": "Untertasse",
-        "csMain": "Talířek",
+        "csMain": "Podšálek",
         "lvSource": "apakštase",
         "status": "OK",
         "flags": []
@@ -25347,7 +25256,7 @@
       {
         "id": "a2-verbringen-1513",
         "de": "verbringen",
-        "csMain": "Doprovázet",
+        "csMain": "Trávit",
         "lvSource": "pavadīt",
         "status": "OK",
         "flags": []
@@ -25355,7 +25264,7 @@
       {
         "id": "a2-verdienen-1514",
         "de": "verdienen",
-        "csMain": "Vydělat",
+        "csMain": "Vydělávat",
         "lvSource": "pelnīt",
         "status": "OK",
         "flags": []
@@ -25395,7 +25304,7 @@
       {
         "id": "a2-Verkehrsmittel-1519",
         "de": "Verkehrsmittel",
-        "csMain": "Vozidlo",
+        "csMain": "Dopravní prostředek",
         "lvSource": "transportlīdzeklis",
         "status": "OK",
         "flags": []
@@ -25411,7 +25320,7 @@
       {
         "id": "a2-verlassen-1521",
         "de": "verlassen",
-        "csMain": "Dovolená",
+        "csMain": "Opustit",
         "lvSource": "pamest",
         "status": "OK",
         "flags": []
@@ -25419,7 +25328,7 @@
       {
         "id": "a2-verpassen-1522",
         "de": "verpassen",
-        "csMain": "Být pozdě",
+        "csMain": "Zmeškat",
         "lvSource": "nokavēt",
         "status": "OK",
         "flags": []
@@ -25435,7 +25344,7 @@
       {
         "id": "a2-verschieden-1524",
         "de": "verschieden",
-        "csMain": "Jiný",
+        "csMain": "Různý",
         "lvSource": "dažāds",
         "status": "OK",
         "flags": []
@@ -25443,7 +25352,7 @@
       {
         "id": "a2-verschwinden-1525",
         "de": "verschwinden",
-        "csMain": "Zmizte",
+        "csMain": "Zmizet",
         "lvSource": "pazust",
         "status": "OK",
         "flags": []
@@ -25459,7 +25368,7 @@
       {
         "id": "a2-verstecken-1527",
         "de": "verstecken",
-        "csMain": "Schovat se",
+        "csMain": "Schovat",
         "lvSource": "paslēpt",
         "status": "OK",
         "flags": []
@@ -25523,7 +25432,7 @@
       {
         "id": "a2-vorbei-1535",
         "de": "vorbei",
-        "csMain": "Miss",
+        "csMain": "U konce",
         "lvSource": "garām",
         "status": "OK",
         "flags": []
@@ -25555,7 +25464,7 @@
       {
         "id": "a2-vorlesen-1539",
         "de": "vorlesen",
-        "csMain": "Číst dopředu",
+        "csMain": "Číst nahlas",
         "lvSource": "lasīt priekšā",
         "status": "OK",
         "flags": []
@@ -25627,7 +25536,7 @@
       {
         "id": "a2-wach-1548",
         "de": "wach",
-        "csMain": "Probudit",
+        "csMain": "Vzhůru",
         "lvSource": "nomodā",
         "status": "OK",
         "flags": []
@@ -25659,7 +25568,7 @@
       {
         "id": "a2-wahr-1552",
         "de": "wahr",
-        "csMain": "Věrný",
+        "csMain": "Pravdivý",
         "lvSource": "patiess",
         "status": "OK",
         "flags": []
@@ -25691,7 +25600,7 @@
       {
         "id": "a2-wandern-1556",
         "de": "wandern",
-        "csMain": "Jít na túru",
+        "csMain": "Chodit na túry",
         "lvSource": "pārgājienā iet",
         "status": "OK",
         "flags": []
@@ -25699,7 +25608,7 @@
       {
         "id": "a2-Ware-1557",
         "de": "Ware",
-        "csMain": "Položka",
+        "csMain": "Zboží",
         "lvSource": "prece",
         "status": "OK",
         "flags": []
@@ -25723,7 +25632,7 @@
       {
         "id": "a2-Waschbecken-1560",
         "de": "Waschbecken",
-        "csMain": "Dřez",
+        "csMain": "Umyvadlo",
         "lvSource": "izlietne",
         "status": "OK",
         "flags": []
@@ -25731,7 +25640,7 @@
       {
         "id": "a2-Wäsche-1561",
         "de": "Wäsche",
-        "csMain": "Prádelna",
+        "csMain": "Prádlo",
         "lvSource": "veļa",
         "status": "OK",
         "flags": []
@@ -25763,7 +25672,7 @@
       {
         "id": "a2-wecken-1565",
         "de": "wecken",
-        "csMain": "Probudit se",
+        "csMain": "Probudit",
         "lvSource": "pamodināt",
         "status": "OK",
         "flags": []
@@ -25779,7 +25688,7 @@
       {
         "id": "a2-Weg-1567",
         "de": "Weg",
-        "csMain": "Silnice",
+        "csMain": "Cesta",
         "lvSource": "ceļš",
         "status": "OK",
         "flags": []
@@ -25803,7 +25712,7 @@
       {
         "id": "a2-weh-1570",
         "de": "weh",
-        "csMain": "Bolestivé",
+        "csMain": "Bolavý",
         "lvSource": "sāpīgs",
         "status": "OK",
         "flags": []
@@ -25811,7 +25720,7 @@
       {
         "id": "a2-wehtun-1571",
         "de": "wehtun",
-        "csMain": "Ublížit",
+        "csMain": "Bolet",
         "lvSource": "sāpēt",
         "status": "OK",
         "flags": []
@@ -25827,7 +25736,7 @@
       {
         "id": "a2-weich gekocht-1573",
         "de": "weich gekocht",
-        "csMain": "Na měkko vařené",
+        "csMain": "Uvařený naměkko",
         "lvSource": "mīksti vārīts",
         "status": "OK",
         "flags": []
@@ -25835,7 +25744,7 @@
       {
         "id": "a2-Weintraube-1574",
         "de": "Weintraube",
-        "csMain": "Hroznový",
+        "csMain": "Hroznové víno",
         "lvSource": "vīnoga",
         "status": "OK",
         "flags": []
@@ -25843,7 +25752,7 @@
       {
         "id": "a2-Weise-1575",
         "de": "Weise",
-        "csMain": "Cesta",
+        "csMain": "Způsob",
         "lvSource": "veids",
         "status": "OK",
         "flags": []
@@ -25867,7 +25776,7 @@
       {
         "id": "a2-weiter-1578",
         "de": "weiter",
-        "csMain": "Další",
+        "csMain": "Dále",
         "lvSource": "tālāk",
         "status": "OK",
         "flags": []
@@ -25875,7 +25784,7 @@
       {
         "id": "a2-Werbung-1579",
         "de": "Werbung",
-        "csMain": "Inzerát",
+        "csMain": "Reklama",
         "lvSource": "reklāma",
         "status": "OK",
         "flags": []
@@ -25883,7 +25792,7 @@
       {
         "id": "a2-werfen-1580",
         "de": "werfen",
-        "csMain": "Hod",
+        "csMain": "Házet",
         "lvSource": "mest",
         "status": "OK",
         "flags": []
@@ -25923,7 +25832,7 @@
       {
         "id": "a2-Westen-1585",
         "de": "Westen",
-        "csMain": "Na západě",
+        "csMain": "Západ",
         "lvSource": "rietumi",
         "status": "OK",
         "flags": []
@@ -25979,7 +25888,7 @@
       {
         "id": "a2-Wild-1592",
         "de": "Wild",
-        "csMain": "Lov",
+        "csMain": "Zvěř",
         "lvSource": "medījums",
         "status": "OK",
         "flags": []
@@ -26011,7 +25920,7 @@
       {
         "id": "a2-winken-1596",
         "de": "winken",
-        "csMain": "Kývnutí",
+        "csMain": "Mávat",
         "lvSource": "pamāt",
         "status": "OK",
         "flags": []
@@ -26043,7 +25952,7 @@
       {
         "id": "a2-Ziel-1600",
         "de": "Ziel",
-        "csMain": "Účel",
+        "csMain": "Cíl",
         "lvSource": "mērķis",
         "status": "OK",
         "flags": []
@@ -26075,7 +25984,7 @@
       {
         "id": "a2-Zopf-1604",
         "de": "Zopf",
-        "csMain": "Prýmek",
+        "csMain": "Cop",
         "lvSource": "bize",
         "status": "OK",
         "flags": []
@@ -26091,7 +26000,7 @@
       {
         "id": "a2-zubereiten-1606",
         "de": "zubereiten",
-        "csMain": "Vařit",
+        "csMain": "Připravovat",
         "lvSource": "gatavot",
         "status": "OK",
         "flags": []
@@ -26147,7 +26056,7 @@
       {
         "id": "a2-zunächst-1613",
         "de": "zunächst",
-        "csMain": "Především",
+        "csMain": "Nejprve",
         "lvSource": "vispirms",
         "status": "OK",
         "flags": []
@@ -26485,7 +26394,7 @@
       "start": 700,
       "end": 750,
       "audited": 50,
-      "findings": 0
+      "findings": 2
     },
     {
       "batch": "751-800",
@@ -26499,21 +26408,21 @@
       "start": 800,
       "end": 850,
       "audited": 50,
-      "findings": 163
+      "findings": 165
     },
     {
       "batch": "851-900",
       "start": 850,
       "end": 900,
       "audited": 50,
-      "findings": 51
+      "findings": 53
     },
     {
       "batch": "901-950",
       "start": 900,
       "end": 950,
       "audited": 50,
-      "findings": 24
+      "findings": 25
     },
     {
       "batch": "951-1000",
@@ -26527,14 +26436,14 @@
       "start": 1000,
       "end": 1050,
       "audited": 50,
-      "findings": 42
+      "findings": 44
     },
     {
       "batch": "1051-1100",
       "start": 1050,
       "end": 1100,
       "audited": 50,
-      "findings": 22
+      "findings": 23
     },
     {
       "batch": "1101-1150",
@@ -26555,56 +26464,56 @@
       "start": 1200,
       "end": 1250,
       "audited": 50,
-      "findings": 131
+      "findings": 134
     },
     {
       "batch": "1251-1300",
       "start": 1250,
       "end": 1300,
       "audited": 50,
-      "findings": 35
+      "findings": 37
     },
     {
       "batch": "1301-1350",
       "start": 1300,
       "end": 1350,
       "audited": 50,
-      "findings": 101
+      "findings": 102
     },
     {
       "batch": "1351-1400",
       "start": 1350,
       "end": 1400,
       "audited": 50,
-      "findings": 56
+      "findings": 64
     },
     {
       "batch": "1401-1450",
       "start": 1400,
       "end": 1450,
       "audited": 50,
-      "findings": 86
+      "findings": 89
     },
     {
       "batch": "1451-1500",
       "start": 1450,
       "end": 1500,
       "audited": 50,
-      "findings": 92
+      "findings": 98
     },
     {
       "batch": "1501-1550",
       "start": 1500,
       "end": 1550,
       "audited": 50,
-      "findings": 107
+      "findings": 108
     },
     {
       "batch": "1551-1600",
       "start": 1550,
       "end": 1600,
       "audited": 50,
-      "findings": 160
+      "findings": 161
     },
     {
       "batch": "1601-1640",
@@ -37176,6 +37085,34 @@
     },
     {
       "dataset": "a2",
+      "batch": "701-750",
+      "cardId": "a2-je",
+      "field": "study.sectionAccents.tip",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "jo ... jo",
+      "de": "je",
+      "lvSource": "jebkad • pa",
+      "problem": "Accent term \"jo ... jo\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "701-750",
+      "cardId": "a2-je",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "jo ... jo",
+      "de": "je",
+      "lvSource": "jebkad • pa",
+      "problem": "Accent term \"jo ... jo\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
       "batch": "751-800",
       "cardId": "a2-kamm",
       "field": "entry[755].study.important.example",
@@ -37327,20 +37264,6 @@
       "problem": "LV remnant \"gaiļa\" in sectionAccents",
       "proposedCs": "(Czech term from section text)",
       "rationale": "STUDY_CARD_RULES — accents must match Czech text"
-    },
-    {
-      "dataset": "a2",
-      "batch": "801-850",
-      "cardId": "a2-klar",
-      "field": "entry[806].study.important.example",
-      "severity": "CRITICAL",
-      "status": "FINDING",
-      "currentCs": "Das Wasser ist klar nozīmē, ka ūdens ir dzidrs. Klar! var nozīmēt “protams!”",
-      "de": "klar",
-      "lvSource": "skaidrs",
-      "problem": "Foreign remnant (LV_DIACRITIC) in entry[806].study.important.example",
-      "proposedCs": "(Czech text required)",
-      "rationale": "CS field must not contain LV/PL/SK contamination"
     },
     {
       "dataset": "a2",
@@ -37583,16 +37506,44 @@
     {
       "dataset": "a2",
       "batch": "801-850",
-      "cardId": "a2-kleben",
-      "field": "entry[808].study.important.example",
-      "severity": "CRITICAL",
+      "cardId": "a2-klar",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
       "status": "FINDING",
-      "currentCs": "Das Pflaster klebt nicht nozīmē, ka plāksteris nelīp. Der Zettel klebt an der Tür nozīmē, ka zīmīte ir pielipusi.",
-      "de": "kleben",
-      "lvSource": "līmēt",
-      "problem": "Foreign remnant (LV_DIACRITIC) in entry[808].study.important.example",
-      "proposedCs": "(Czech text required)",
-      "rationale": "CS field must not contain LV/PL/SK contamination"
+      "currentCs": "dzidrs",
+      "de": "klar",
+      "lvSource": "skaidrs",
+      "problem": "Accent term \"dzidrs\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "801-850",
+      "cardId": "a2-klar",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "nozīmēt",
+      "de": "klar",
+      "lvSource": "skaidrs",
+      "problem": "Accent term \"nozīmēt\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "801-850",
+      "cardId": "a2-klar",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "ūdens",
+      "de": "klar",
+      "lvSource": "skaidrs",
+      "problem": "Accent term \"ūdens\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
     },
     {
       "dataset": "a2",
@@ -38059,6 +38010,48 @@
     {
       "dataset": "a2",
       "batch": "801-850",
+      "cardId": "a2-kleben",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "Drby",
+      "de": "kleben",
+      "lvSource": "līmēt",
+      "problem": "Accent term \"Drby\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "801-850",
+      "cardId": "a2-kleben",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "plāksteris",
+      "de": "kleben",
+      "lvSource": "līmēt",
+      "problem": "Accent term \"plāksteris\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "801-850",
+      "cardId": "a2-kleben",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "nelīp",
+      "de": "kleben",
+      "lvSource": "līmēt",
+      "problem": "Accent term \"nelīp\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "801-850",
       "cardId": "a2-kleiden",
       "field": "entry[810].study.examples[4].lv",
       "severity": "HIGH",
@@ -38475,35 +38468,6 @@
       "problem": "LV remnant \"krāsa\" in sectionAccents",
       "proposedCs": "(Czech term from section text)",
       "rationale": "STUDY_CARD_RULES — accents must match Czech text"
-    },
-    {
-      "dataset": "a2",
-      "batch": "801-850",
-      "cardId": "a2-Konfekt-827",
-      "index": 827,
-      "field": "lv",
-      "severity": "HIGH",
-      "status": "FINDING",
-      "currentCs": "Bonbón",
-      "de": "Konfekt",
-      "lvSource": "konfekte",
-      "problem": "Foreign language remnant in main translation: PL_CHAR",
-      "proposedCs": "(Czech replacement needed)",
-      "rationale": "Must be Czech only in CS fields"
-    },
-    {
-      "dataset": "a2",
-      "batch": "801-850",
-      "cardId": "a2-Konfekt-827",
-      "field": "entry[827].lv",
-      "severity": "HIGH",
-      "status": "FINDING",
-      "currentCs": "Bonbón",
-      "de": "Konfekt",
-      "lvSource": "konfekte",
-      "problem": "Foreign remnant (PL_CHAR) in entry[827].lv",
-      "proposedCs": "(Czech text required)",
-      "rationale": "CS field must not contain LV/PL/SK contamination"
     },
     {
       "dataset": "a2",
@@ -39852,6 +39816,34 @@
     {
       "dataset": "a2",
       "batch": "851-900",
+      "cardId": "a2-leihen",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "nopirkt",
+      "de": "leihen",
+      "lvSource": "aizdot • aizņemties",
+      "problem": "Accent term \"nopirkt\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "851-900",
+      "cardId": "a2-leihen",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "laiku",
+      "de": "leihen",
+      "lvSource": "aizdot • aizņemties",
+      "problem": "Accent term \"laiku\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "851-900",
       "cardId": "a2-leitung",
       "field": "entry[881].study.important.example",
       "severity": "CRITICAL",
@@ -40663,6 +40655,20 @@
     },
     {
       "dataset": "a2",
+      "batch": "901-950",
+      "cardId": "a2-meinen",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "myšlenku",
+      "de": "meinen",
+      "lvSource": "domāt",
+      "problem": "Accent term \"myšlenku\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
       "batch": "951-1000",
       "cardId": "a2-Mode-955",
       "index": 955,
@@ -40731,6 +40737,49 @@
       "problem": "LV remnant \"Piemērs\" in sectionAccents",
       "proposedCs": "(Czech term from section text)",
       "rationale": "STUDY_CARD_RULES — accents must match Czech text"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1001-1050",
+      "cardId": "a2-nervös-1004",
+      "index": 1004,
+      "field": "lv",
+      "severity": "HIGH",
+      "status": "FINDING",
+      "currentCs": "Nervózní",
+      "de": "nervös",
+      "lvSource": "nervozs",
+      "problem": "Foreign language remnant in main translation: PL_CHAR",
+      "proposedCs": "(Czech replacement needed)",
+      "rationale": "Must be Czech only in CS fields"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1001-1050",
+      "cardId": "a2-nervös-1004",
+      "field": "entry[1004].lv",
+      "severity": "HIGH",
+      "status": "FINDING",
+      "currentCs": "Nervózní",
+      "de": "nervös",
+      "lvSource": "nervozs",
+      "problem": "Foreign remnant (PL_CHAR) in entry[1004].lv",
+      "proposedCs": "(Czech text required)",
+      "rationale": "CS field must not contain LV/PL/SK contamination"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1001-1050",
+      "cardId": "a2-note",
+      "field": "entry[1019].study.translation",
+      "severity": "HIGH",
+      "status": "FINDING",
+      "currentCs": "Známka • Nota • Tón",
+      "de": "Note",
+      "lvSource": "atzīme",
+      "problem": "Foreign remnant (PL_CHAR) in entry[1019].study.translation",
+      "proposedCs": "(Czech text required)",
+      "rationale": "CS field must not contain LV/PL/SK contamination"
     },
     {
       "dataset": "a2",
@@ -41308,20 +41357,6 @@
     },
     {
       "dataset": "a2",
-      "batch": "1001-1050",
-      "cardId": "a2-nutzen",
-      "field": "study.sectionAccents.tip",
-      "severity": "MEDIUM",
-      "status": "FINDING",
-      "currentCs": "nutzen",
-      "de": "nutzen",
-      "lvSource": "izmantot",
-      "problem": "Accent term \"nutzen\" not found in section text",
-      "proposedCs": "(term matching Czech section text)",
-      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
-    },
-    {
-      "dataset": "a2",
       "batch": "1051-1100",
       "cardId": "a2-pflaster",
       "field": "entry[1078].study.sectionAccents.tip.leftBlocks[0].text.orange[0]",
@@ -41627,6 +41662,20 @@
       "problem": "LV remnant \"bruģis\" in sectionAccents",
       "proposedCs": "(Czech term from section text)",
       "rationale": "STUDY_CARD_RULES — accents must match Czech text"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1051-1100",
+      "cardId": "a2-pflaster",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "ielas",
+      "de": "Pflaster",
+      "lvSource": "plāksteris • bruģis",
+      "problem": "Accent term \"ielas\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
     },
     {
       "dataset": "a2",
@@ -42042,7 +42091,7 @@
       "field": "lv",
       "severity": "HIGH",
       "status": "FINDING",
-      "currentCs": "Některé ne. sezóna",
+      "currentCs": "Sezóna",
       "de": "Saison",
       "lvSource": "daž. noz. sezona",
       "problem": "Foreign language remnant in main translation: PL_CHAR",
@@ -42056,7 +42105,7 @@
       "field": "entry[1188].lv",
       "severity": "HIGH",
       "status": "FINDING",
-      "currentCs": "Některé ne. sezóna",
+      "currentCs": "Sezóna",
       "de": "Saison",
       "lvSource": "daž. noz. sezona",
       "problem": "Foreign remnant (PL_CHAR) in entry[1188].lv",
@@ -43160,20 +43209,6 @@
       "dataset": "a2",
       "batch": "1201-1250",
       "cardId": "a2-schließen",
-      "field": "entry[1230].study.translation",
-      "severity": "CRITICAL",
-      "status": "FINDING",
-      "currentCs": "Aizvērt",
-      "de": "schließen",
-      "lvSource": "aizvērt",
-      "problem": "Foreign remnant (LV_DIACRITIC) in entry[1230].study.translation",
-      "proposedCs": "(Czech text required)",
-      "rationale": "CS field must not contain LV/PL/SK contamination"
-    },
-    {
-      "dataset": "a2",
-      "batch": "1201-1250",
-      "cardId": "a2-schließen",
       "field": "entry[1230].study.comparison[1].example",
       "severity": "CRITICAL",
       "status": "FINDING",
@@ -43650,20 +43685,6 @@
       "dataset": "a2",
       "batch": "1201-1250",
       "cardId": "a2-schloss",
-      "field": "entry[1236].study.important.example",
-      "severity": "CRITICAL",
-      "status": "FINDING",
-      "currentCs": "Schloss Neuschwanstein = pils. Türschloss = durvju slēdzene. Fahrradschloss = velosipēda slēdzene.",
-      "de": "Schloss",
-      "lvSource": "pils • slēdzene",
-      "problem": "Foreign remnant (LV_DIACRITIC) in entry[1236].study.important.example",
-      "proposedCs": "(Czech text required)",
-      "rationale": "CS field must not contain LV/PL/SK contamination"
-    },
-    {
-      "dataset": "a2",
-      "batch": "1201-1250",
-      "cardId": "a2-schloss",
       "field": "entry[1236].study.sectionAccents.tip.leftBlocks[0].text.yellow[1]",
       "severity": "CRITICAL",
       "status": "FINDING",
@@ -44124,12 +44145,82 @@
     },
     {
       "dataset": "a2",
+      "batch": "1201-1250",
+      "cardId": "a2-schloss",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "slēdzene",
+      "de": "Schloss",
+      "lvSource": "pils • slēdzene",
+      "problem": "Accent term \"slēdzene\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1201-1250",
+      "cardId": "a2-schloss",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "pils",
+      "de": "Schloss",
+      "lvSource": "pils • slēdzene",
+      "problem": "Accent term \"pils\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1201-1250",
+      "cardId": "a2-schloss",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "velosipēda slēdzene",
+      "de": "Schloss",
+      "lvSource": "pils • slēdzene",
+      "problem": "Accent term \"velosipēda slēdzene\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1201-1250",
+      "cardId": "a2-schloss",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "durvju slēdzene",
+      "de": "Schloss",
+      "lvSource": "pils • slēdzene",
+      "problem": "Accent term \"durvju slēdzene\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1201-1250",
+      "cardId": "a2-schloss",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "durvju",
+      "de": "Schloss",
+      "lvSource": "pils • slēdzene",
+      "problem": "Accent term \"durvju\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
       "batch": "1251-1300",
       "cardId": "a2-schuld",
       "field": "entry[1256].study.important.example",
       "severity": "CRITICAL",
       "status": "FINDING",
-      "currentCs": "Ich habe Schuld = es esmu vainīgs. Ich habe Schulden = man ir parādi.",
+      "currentCs": "Ich habe Schuld = Jsem vinen. Ich habe Schulden = man ir parādi.",
       "de": "Schuld",
       "lvSource": "vaina • parāds • atbildība",
       "problem": "Foreign remnant (LV_DIACRITIC) in entry[1256].study.important.example",
@@ -44541,6 +44632,34 @@
       "problem": "LV remnant \"vainīgs\" in sectionAccents",
       "proposedCs": "(Czech term from section text)",
       "rationale": "STUDY_CARD_RULES — accents must match Czech text"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1251-1300",
+      "cardId": "a2-schuld",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "vainīgs",
+      "de": "Schuld",
+      "lvSource": "vaina • parāds • atbildība",
+      "problem": "Accent term \"vainīgs\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1251-1300",
+      "cardId": "a2-schuld",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "esmu",
+      "de": "Schuld",
+      "lvSource": "vaina • parāds • atbildība",
+      "problem": "Accent term \"esmu\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
     },
     {
       "dataset": "a2",
@@ -45613,6 +45732,20 @@
       "field": "study.sectionAccents.important",
       "severity": "MEDIUM",
       "status": "FINDING",
+      "currentCs": "Zvuk",
+      "de": "sobald",
+      "lvSource": "tiklīdz • līdzko",
+      "problem": "Accent term \"Zvuk\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1301-1350",
+      "cardId": "a2-sobald",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
       "currentCs": "teikuma",
       "de": "sobald",
       "lvSource": "tiklīdz • līdzko",
@@ -46283,20 +46416,6 @@
       "dataset": "a2",
       "batch": "1351-1400",
       "cardId": "a2-stelle",
-      "field": "entry[1380].study.important.example",
-      "severity": "CRITICAL",
-      "status": "FINDING",
-      "currentCs": "An dieser Stelle = šajā vietā. eine Stelle suchen = meklēt darbu. Textstelle = teksta fragments.",
-      "de": "Stelle",
-      "lvSource": "vieta",
-      "problem": "Foreign remnant (LV_DIACRITIC) in entry[1380].study.important.example",
-      "proposedCs": "(Czech text required)",
-      "rationale": "CS field must not contain LV/PL/SK contamination"
-    },
-    {
-      "dataset": "a2",
-      "batch": "1351-1400",
-      "cardId": "a2-stelle",
       "field": "entry[1380].study.sectionAccents.tip.leftBlocks[0].text.yellow[0]",
       "severity": "CRITICAL",
       "status": "FINDING",
@@ -46562,16 +46681,58 @@
     {
       "dataset": "a2",
       "batch": "1351-1400",
-      "cardId": "a2-stimmen",
-      "field": "entry[1388].study.important.example",
-      "severity": "CRITICAL",
+      "cardId": "a2-stelle",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
       "status": "FINDING",
-      "currentCs": "Das stimmt = tā ir. über etwas abstimmen = balsot par kaut ko. jemandem zustimmen = piekrist kādam.",
-      "de": "stimmen",
-      "lvSource": "saskanēt • būt pareizam • balsot",
-      "problem": "Foreign remnant (LV_DIACRITIC) in entry[1388].study.important.example",
-      "proposedCs": "(Czech text required)",
-      "rationale": "CS field must not contain LV/PL/SK contamination"
+      "currentCs": "fragments",
+      "de": "Stelle",
+      "lvSource": "vieta",
+      "problem": "Accent term \"fragments\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1351-1400",
+      "cardId": "a2-stelle",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "meklēt",
+      "de": "Stelle",
+      "lvSource": "vieta",
+      "problem": "Accent term \"meklēt\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1351-1400",
+      "cardId": "a2-stelle",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "vietā",
+      "de": "Stelle",
+      "lvSource": "vieta",
+      "problem": "Accent term \"vietā\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1351-1400",
+      "cardId": "a2-stelle",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "šajā",
+      "de": "Stelle",
+      "lvSource": "vieta",
+      "problem": "Accent term \"šajā\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
     },
     {
       "dataset": "a2",
@@ -46660,16 +46821,58 @@
     {
       "dataset": "a2",
       "batch": "1351-1400",
-      "cardId": "a2-stoff",
-      "field": "entry[1392].study.important.example",
-      "severity": "CRITICAL",
+      "cardId": "a2-stimmen",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
       "status": "FINDING",
-      "currentCs": "Stoff für ein Kleid = audums kleitai. ein giftiger Stoff = indīga viela. Unterrichtsstoff = mācību viela.",
-      "de": "Stoff",
-      "lvSource": "audums • viela • materiāls",
-      "problem": "Foreign remnant (LV_DIACRITIC) in entry[1392].study.important.example",
-      "proposedCs": "(Czech text required)",
-      "rationale": "CS field must not contain LV/PL/SK contamination"
+      "currentCs": "konstrukcí",
+      "de": "stimmen",
+      "lvSource": "saskanēt • būt pareizam • balsot",
+      "problem": "Accent term \"konstrukcí\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1351-1400",
+      "cardId": "a2-stimmen",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "tā ir",
+      "de": "stimmen",
+      "lvSource": "saskanēt • būt pareizam • balsot",
+      "problem": "Accent term \"tā ir\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1351-1400",
+      "cardId": "a2-stimmen",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "balsot",
+      "de": "stimmen",
+      "lvSource": "saskanēt • būt pareizam • balsot",
+      "problem": "Accent term \"balsot\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1351-1400",
+      "cardId": "a2-stimmen",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "piekrist",
+      "de": "stimmen",
+      "lvSource": "saskanēt • būt pareizam • balsot",
+      "problem": "Accent term \"piekrist\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
     },
     {
       "dataset": "a2",
@@ -46813,17 +47016,45 @@
     },
     {
       "dataset": "a2",
-      "batch": "1401-1450",
-      "cardId": "a2-tafel",
-      "field": "entry[1416].study.important.example",
-      "severity": "CRITICAL",
+      "batch": "1351-1400",
+      "cardId": "a2-stoff",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
       "status": "FINDING",
-      "currentCs": "Die Tafel = tāfele. die Tabelle = tabula. die Speisekarte = ēdienkarte. eine Tafel Schokolade = šokolādes tāfelīte.",
-      "de": "Tafel",
-      "lvSource": "tāfele • plāksne",
-      "problem": "Foreign remnant (LV_DIACRITIC) in entry[1416].study.important.example",
-      "proposedCs": "(Czech text required)",
-      "rationale": "CS field must not contain LV/PL/SK contamination"
+      "currentCs": "audums",
+      "de": "Stoff",
+      "lvSource": "audums • viela • materiāls",
+      "problem": "Accent term \"audums\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1351-1400",
+      "cardId": "a2-stoff",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "viela",
+      "de": "Stoff",
+      "lvSource": "audums • viela • materiāls",
+      "problem": "Accent term \"viela\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1351-1400",
+      "cardId": "a2-stoff",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "mācību viela",
+      "de": "Stoff",
+      "lvSource": "audums • viela • materiāls",
+      "problem": "Accent term \"mācību viela\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
     },
     {
       "dataset": "a2",
@@ -47062,6 +47293,62 @@
       "problem": "LV remnant \"šokolādes tāfelīte\" in sectionAccents",
       "proposedCs": "(Czech term from section text)",
       "rationale": "STUDY_CARD_RULES — accents must match Czech text"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1401-1450",
+      "cardId": "a2-tafel",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "tāfele",
+      "de": "Tafel",
+      "lvSource": "tāfele • plāksne",
+      "problem": "Accent term \"tāfele\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1401-1450",
+      "cardId": "a2-tafel",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "tabula",
+      "de": "Tafel",
+      "lvSource": "tāfele • plāksne",
+      "problem": "Accent term \"tabula\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1401-1450",
+      "cardId": "a2-tafel",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "ēdienkarte",
+      "de": "Tafel",
+      "lvSource": "tāfele • plāksne",
+      "problem": "Accent term \"ēdienkarte\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1401-1450",
+      "cardId": "a2-tafel",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "šokolādes tāfelīte",
+      "de": "Tafel",
+      "lvSource": "tāfele • plāksne",
+      "problem": "Accent term \"šokolādes tāfelīte\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
     },
     {
       "dataset": "a2",
@@ -48873,20 +49160,6 @@
       "dataset": "a2",
       "batch": "1451-1500",
       "cardId": "a2-übung",
-      "field": "entry[1489].study.important.example",
-      "severity": "CRITICAL",
-      "status": "FINDING",
-      "currentCs": "Die Übung = vingrinājums. üben = vingrināties. das Training = treniņš.",
-      "de": "Übung",
-      "lvSource": "vingrinājums • prakse",
-      "problem": "Foreign remnant (LV_DIACRITIC, LV_WORD) in entry[1489].study.important.example",
-      "proposedCs": "(Czech text required)",
-      "rationale": "CS field must not contain LV/PL/SK contamination"
-    },
-    {
-      "dataset": "a2",
-      "batch": "1451-1500",
-      "cardId": "a2-übung",
       "field": "entry[1489].study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
       "severity": "CRITICAL",
       "status": "FINDING",
@@ -49012,16 +49285,44 @@
     {
       "dataset": "a2",
       "batch": "1451-1500",
-      "cardId": "a2-umsonst",
-      "field": "entry[1492].study.important.example",
-      "severity": "CRITICAL",
+      "cardId": "a2-übung",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
       "status": "FINDING",
-      "currentCs": "Der Kurs ist umsonst = kurss ir par velti. Ich warte umsonst = es gaidu veltīgi.",
-      "de": "umsonst",
-      "lvSource": "par velti • veltīgi",
-      "problem": "Foreign remnant (LV_DIACRITIC) in entry[1492].study.important.example",
-      "proposedCs": "(Czech text required)",
-      "rationale": "CS field must not contain LV/PL/SK contamination"
+      "currentCs": "vingrinājums",
+      "de": "Übung",
+      "lvSource": "vingrinājums • prakse",
+      "problem": "Accent term \"vingrinājums\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1451-1500",
+      "cardId": "a2-übung",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "vingrināties",
+      "de": "Übung",
+      "lvSource": "vingrinājums • prakse",
+      "problem": "Accent term \"vingrināties\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1451-1500",
+      "cardId": "a2-übung",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "treniņš",
+      "de": "Übung",
+      "lvSource": "vingrinājums • prakse",
+      "problem": "Accent term \"treniņš\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
     },
     {
       "dataset": "a2",
@@ -49302,6 +49603,90 @@
       "problem": "LV remnant \"rezultātu\" in sectionAccents",
       "proposedCs": "(Czech term from section text)",
       "rationale": "STUDY_CARD_RULES — accents must match Czech text"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1451-1500",
+      "cardId": "a2-umsonst",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "veltīgi",
+      "de": "umsonst",
+      "lvSource": "par velti • veltīgi",
+      "problem": "Accent term \"veltīgi\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1451-1500",
+      "cardId": "a2-umsonst",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "par velti",
+      "de": "umsonst",
+      "lvSource": "par velti • veltīgi",
+      "problem": "Accent term \"par velti\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1451-1500",
+      "cardId": "a2-umsonst",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "gaidu",
+      "de": "umsonst",
+      "lvSource": "par velti • veltīgi",
+      "problem": "Accent term \"gaidu\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1451-1500",
+      "cardId": "a2-umsonst",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "kurss",
+      "de": "umsonst",
+      "lvSource": "par velti • veltīgi",
+      "problem": "Accent term \"kurss\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1451-1500",
+      "cardId": "a2-umsonst",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "velti",
+      "de": "umsonst",
+      "lvSource": "par velti • veltīgi",
+      "problem": "Accent term \"velti\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1501-1550",
+      "cardId": "a2-urlaub-study",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "der Urlabe",
+      "de": "Urlaub",
+      "lvSource": "atvaļinājums",
+      "problem": "Accent term \"der Urlabe\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
     },
     {
       "dataset": "a2",
@@ -52597,20 +52982,6 @@
       "dataset": "a2",
       "batch": "1551-1600",
       "cardId": "a2-ziehen",
-      "field": "entry[1599].study.important.example",
-      "severity": "CRITICAL",
-      "status": "FINDING",
-      "currentCs": "Wir ziehen nach Berlin = Mēs pārvācamies uz Berlīni. Es zieht = Velk caurvējš. einen Schluss ziehen = izdarīt secinājumu.",
-      "de": "ziehen",
-      "lvSource": "vilkt",
-      "problem": "Foreign remnant (LV_DIACRITIC) in entry[1599].study.important.example",
-      "proposedCs": "(Czech text required)",
-      "rationale": "CS field must not contain LV/PL/SK contamination"
-    },
-    {
-      "dataset": "a2",
-      "batch": "1551-1600",
-      "cardId": "a2-ziehen",
       "field": "entry[1599].study.sectionAccents.tip.leftBlocks[0].text.yellow[0]",
       "severity": "CRITICAL",
       "status": "FINDING",
@@ -53040,6 +53411,34 @@
       "problem": "LV remnant \"Berlīni\" in sectionAccents",
       "proposedCs": "(Czech term from section text)",
       "rationale": "STUDY_CARD_RULES — accents must match Czech text"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1551-1600",
+      "cardId": "a2-ziehen",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "pārvācamies",
+      "de": "ziehen",
+      "lvSource": "vilkt",
+      "problem": "Accent term \"pārvācamies\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "a2",
+      "batch": "1551-1600",
+      "cardId": "a2-ziehen",
+      "field": "study.sectionAccents.important",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "Berlīni",
+      "de": "ziehen",
+      "lvSource": "vilkt",
+      "problem": "Accent term \"Berlīni\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
     },
     {
       "dataset": "a2",

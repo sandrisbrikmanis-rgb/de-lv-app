@@ -3,7 +3,7 @@
     "auditType": "CS-DE A2 POST-REPAIR FULL AUDIT",
     "linguisticAuditModel": "GPT-5.6 Luna",
     "apiModel": "gpt-5.6-luna",
-    "date": "2026-08-13T19:09:12.417Z",
+    "date": "2026-08-13T19:52:44.058Z",
     "baselineCommit": "b29203d3067c113c12a97d39fb377bcce4822b9a",
     "currentBranch": "cursor/cs-a2-post-repair-full-audit-6ea4",
     "readOnly": true,
@@ -11,19 +11,19 @@
   },
   "summary": {
     "a2Total": "1640/1640",
-    "repairTargetCards": "300/629",
-    "exactTargetObjectMatches": "300/629",
-    "partialMismatch": 329,
-    "actuallyChangedCards": 297,
-    "expectedChangedValues": 1388,
-    "actualChangedValues": 1388,
+    "repairTargetCards": "629/629",
+    "exactTargetObjectMatches": "629/629",
+    "partialMismatch": 0,
+    "actuallyChangedCards": 619,
+    "expectedChangedValues": 2012,
+    "actualChangedValues": 2012,
     "missingExpectedChanges": 0,
     "unexpectedChanges": 0,
     "deChanges": 0,
-    "CRITICAL": 1452,
-    "HIGH": 813,
-    "MEDIUM": 532,
-    "LOW": 110,
+    "CRITICAL": 1420,
+    "HIGH": 561,
+    "MEDIUM": 477,
+    "LOW": 101,
     "SOURCE_DE_ISSUE": 0,
     "syntax": "PASS",
     "idOrder": "PASS",
@@ -88,118 +88,118 @@
       {
         "group": "07",
         "requested": 50,
-        "foundInSpec": 0,
-        "foundInProduction": 0,
-        "exactTargetMatch": 0,
-        "mismatch": 50,
-        "specMissing": true
+        "foundInSpec": 50,
+        "foundInProduction": 50,
+        "exactTargetMatch": 50,
+        "mismatch": 0,
+        "specMissing": false
       },
       {
         "group": "08",
         "requested": 50,
-        "foundInSpec": 0,
-        "foundInProduction": 0,
-        "exactTargetMatch": 0,
-        "mismatch": 50,
-        "specMissing": true
+        "foundInSpec": 50,
+        "foundInProduction": 50,
+        "exactTargetMatch": 50,
+        "mismatch": 0,
+        "specMissing": false
       },
       {
         "group": "09",
         "requested": 50,
-        "foundInSpec": 0,
-        "foundInProduction": 0,
-        "exactTargetMatch": 0,
-        "mismatch": 50,
-        "specMissing": true
+        "foundInSpec": 50,
+        "foundInProduction": 50,
+        "exactTargetMatch": 50,
+        "mismatch": 0,
+        "specMissing": false
       },
       {
         "group": "10",
         "requested": 50,
-        "foundInSpec": 0,
-        "foundInProduction": 0,
-        "exactTargetMatch": 0,
-        "mismatch": 50,
-        "specMissing": true
+        "foundInSpec": 50,
+        "foundInProduction": 50,
+        "exactTargetMatch": 50,
+        "mismatch": 0,
+        "specMissing": false
       },
       {
         "group": "11",
         "requested": 50,
-        "foundInSpec": 0,
-        "foundInProduction": 0,
-        "exactTargetMatch": 0,
-        "mismatch": 50,
-        "specMissing": true
+        "foundInSpec": 50,
+        "foundInProduction": 50,
+        "exactTargetMatch": 50,
+        "mismatch": 0,
+        "specMissing": false
       },
       {
         "group": "12",
         "requested": 50,
-        "foundInSpec": 0,
-        "foundInProduction": 0,
-        "exactTargetMatch": 0,
-        "mismatch": 50,
-        "specMissing": true
+        "foundInSpec": 50,
+        "foundInProduction": 50,
+        "exactTargetMatch": 50,
+        "mismatch": 0,
+        "specMissing": false
       },
       {
         "group": "13",
         "requested": 29,
-        "foundInSpec": 0,
-        "foundInProduction": 0,
-        "exactTargetMatch": 0,
-        "mismatch": 29,
-        "specMissing": true
+        "foundInSpec": 29,
+        "foundInProduction": 29,
+        "exactTargetMatch": 29,
+        "mismatch": 0,
+        "specMissing": false
       }
     ],
     "total": {
       "requested": 629,
-      "foundInSpec": 300,
+      "foundInSpec": 629,
       "expectedRepairCards": 629,
-      "exactTargetMatch": 300,
-      "mismatch": 329,
-      "specCardsUnique": 300,
+      "exactTargetMatch": 629,
+      "mismatch": 0,
+      "specCardsUnique": 629,
       "duplicateCardIds": []
     }
   },
   "targetObjectReconciliation": {
     "statusCounts": {
-      "EXACT_MATCH": 300,
+      "EXACT_MATCH": 629,
       "PARTIAL_MATCH": 0,
       "CURRENT_VALUE_MISMATCH": 0,
       "CARD_NOT_FOUND": 0,
       "INDEX_MISMATCH": 0,
       "UNEXPECTED_EXTRA_CHANGE": 0,
-      "SPEC_MISSING": 329
+      "SPEC_MISSING": 0
     },
     "mismatches": []
   },
   "changeCounts": {
-    "repairTargetCardsInSpec": 300,
+    "repairTargetCardsInSpec": 629,
     "repairTargetCardsExpected": 629,
-    "actuallyChangedCards": 297,
-    "expectedChangedValues": 1388,
-    "actualChangedValues": 1388,
-    "expectedChangedFields": 1388,
-    "actualChangedFields": 1388,
+    "actuallyChangedCards": 619,
+    "expectedChangedValues": 2012,
+    "actualChangedValues": 2012,
+    "expectedChangedFields": 2012,
+    "actualChangedFields": 2012,
     "expectedByCategory": {
-      "lv": 262,
-      "study.translation": 80,
-      "study.examples[*].lv": 104,
-      "study.explanation": 88,
-      "study.comparison": 121,
-      "study.tip": 42,
-      "study.important": 80,
+      "lv": 482,
+      "study.translation": 124,
+      "study.examples[*].lv": 223,
+      "study.explanation": 133,
+      "study.comparison": 237,
+      "study.tip": 76,
+      "study.important": 125,
       "study.sectionAccents": 184,
-      "study.other": 427
+      "study.other": 428
     },
     "actualByCategory": {
-      "lv": 262,
-      "study.translation": 80,
-      "study.examples[*].lv": 104,
-      "study.explanation": 88,
-      "study.comparison": 121,
-      "study.tip": 42,
-      "study.important": 80,
+      "lv": 482,
+      "study.translation": 124,
+      "study.examples[*].lv": 223,
+      "study.explanation": 133,
+      "study.comparison": 237,
+      "study.tip": 76,
+      "study.important": 125,
       "study.sectionAccents": 184,
-      "study.other": 427
+      "study.other": 428
     },
     "missingExpectedChanges": 0,
     "unexpectedChanges": 0,
@@ -208,7 +208,7 @@
     "unexpectedSample": []
   },
   "copyOnlyValidation": {
-    "SPECIFIED_CHANGE": 1388,
+    "SPECIFIED_CHANGE": 2012,
     "UNSPECIFIED_CHANGE": 0
   },
   "deReadOnly": {
@@ -229,37 +229,68 @@
   "outsideA2": {
     "changedFiles": [
       "data/cs/a2.js",
+      "reports/cs-a2-post-repair-full-audit.md",
       "reports/cs-a2-repair-group01.md",
       "reports/cs-a2-repair-group02.md",
       "reports/cs-a2-repair-group03.md",
       "reports/cs-a2-repair-group04.md",
       "reports/cs-a2-repair-group05.md",
       "reports/cs-a2-repair-group06.md",
+      "reports/cs-a2-repair-group07.md",
+      "reports/cs-a2-repair-group08.md",
+      "reports/cs-a2-repair-group09.md",
+      "reports/cs-a2-repair-group10.md",
+      "reports/cs-a2-repair-group11.md",
+      "reports/cs-a2-repair-group12.md",
+      "reports/cs-a2-repair-group13.md",
+      "reports/temp/cs-a2-post-repair-full-audit.json",
+      "reports/temp/cs-a2-post-repair-full-audit/deterministic-audit.json",
+      "reports/temp/cs-a2-post-repair-full-audit/linguistic-audit.json",
+      "scripts/.cs-a2-post-repair-luna-progress.json",
       "scripts/apply-cs-a2-repair-group01.js",
       "scripts/apply-cs-a2-repair-group02.js",
       "scripts/apply-cs-a2-repair-group03.js",
       "scripts/apply-cs-a2-repair-group04.js",
       "scripts/apply-cs-a2-repair-group05.js",
       "scripts/apply-cs-a2-repair-group06.js",
+      "scripts/apply-cs-a2-repair-group07.js",
+      "scripts/apply-cs-a2-repair-group08.js",
+      "scripts/apply-cs-a2-repair-group09.js",
+      "scripts/apply-cs-a2-repair-group10.js",
+      "scripts/apply-cs-a2-repair-group11.js",
+      "scripts/apply-cs-a2-repair-group12.js",
+      "scripts/apply-cs-a2-repair-group13.js",
+      "scripts/audit-cs-collect.js",
+      "scripts/audit-cs-linguistic.js",
       "scripts/cs-a2-repair-group01-spec.json",
       "scripts/cs-a2-repair-group02-spec.json",
       "scripts/cs-a2-repair-group03-spec.json",
       "scripts/cs-a2-repair-group04-spec.json",
       "scripts/cs-a2-repair-group05-spec.json",
       "scripts/cs-a2-repair-group06-spec.json",
+      "scripts/cs-a2-repair-group07-spec.json",
+      "scripts/cs-a2-repair-group08-spec.json",
+      "scripts/cs-a2-repair-group09-spec.json",
+      "scripts/cs-a2-repair-group10-spec.json",
+      "scripts/cs-a2-repair-group11-spec.json",
+      "scripts/cs-a2-repair-group12-spec.json",
+      "scripts/cs-a2-repair-group13-spec.json",
+      "scripts/lib/cs-a2-post-repair-reconcile.js",
+      "scripts/lib/cs-audit-helpers.js",
+      "scripts/run-cs-a2-post-repair-full-audit.js",
       "www/data/cs/a2.js"
     ],
     "unexpectedProductionFiles": []
   },
   "deterministicAudit": {
-    "totalFindings": 1949,
+    "totalFindings": 1984,
     "structuralPass": "PASS",
     "sectionAccentsPass": "FAIL",
     "foreignRemnantsPass": "FAIL",
     "severityCounts": {
-      "CRITICAL": 1425,
-      "HIGH": 396,
-      "MEDIUM": 128,
+      "CRITICAL": 1414,
+      "HIGH": 397,
+      "MEDIUM": 173,
       "LOW": 0
     }
   },
@@ -267,12 +298,12 @@
     "model": "gpt-5.6-luna",
     "cardsAudited": 1640,
     "cardsExpected": 1640,
-    "qualityFindings": 958,
+    "qualityFindings": 575,
     "severityCounts": {
-      "CRITICAL": 27,
-      "HIGH": 417,
-      "MEDIUM": 404,
-      "LOW": 110
+      "CRITICAL": 6,
+      "HIGH": 164,
+      "MEDIUM": 304,
+      "LOW": 101
     },
     "nonErrorCounts": {
       "SOURCE_DE_ISSUE": 0,
@@ -283,14 +314,14 @@
       "PROJECT_CONVENTION": 0
     },
     "requestCount": 53,
-    "totalTokens": 860017,
+    "totalTokens": 817139,
     "coverage": "100%"
   },
   "regression": {
-    "CRITICAL": 1452,
-    "HIGH": 813,
-    "MEDIUM": 532,
-    "LOW": 110,
+    "CRITICAL": 1420,
+    "HIGH": 561,
+    "MEDIUM": 477,
+    "LOW": 101,
     "SOURCE_DE_ISSUE": 0,
     "FALSE_POSITIVE": 0,
     "topFindings": [
@@ -373,8 +404,8 @@
         "lvSource": "nokāpt • apmesties viesnīcā",
         "currentCs": "Vystoupit",
         "proposedCs": "Sestoupit • Ubytovat se",
-        "reason": "Vystoupit neodpovídá významům „sestoupit“ a „ubytovat se v hotelu“.",
-        "confidence": 0.98,
+        "reason": "Vystoupit znamená hlavně vystoupit z dopravního prostředku; nepokrývá sestup ani ubytování v hotelu.",
+        "confidence": "high",
         "status": "FINDING"
       },
       {
@@ -386,8 +417,8 @@
         "lvSource": "iemesls • gadījums",
         "currentCs": "Důvod",
         "proposedCs": "Důvod • Příležitost",
-        "reason": "Důvod pokrývá pouze význam „Grund“; chybí význam „příležitost/událost“.",
-        "confidence": 0.96,
+        "reason": "Důvod pokrývá jen význam příčina; Anlass označuje také příležitost nebo událost.",
+        "confidence": "high",
         "status": "FINDING"
       },
       {
@@ -399,8 +430,8 @@
         "lvSource": "pavēlēt • sakārtot",
         "currentCs": "Nařídit",
         "proposedCs": "Nařídit • Uspořádat",
-        "reason": "Nařídit odpovídá pouze významu „přikázat“; chybí význam „uspořádat/rozvrhnout“.",
-        "confidence": 0.97,
+        "reason": "Nařídit vystihuje pouze význam vydat příkaz; anordnen znamená také uspořádat nebo rozmístit.",
+        "confidence": "high",
         "status": "FINDING"
       },
       {
@@ -412,8 +443,8 @@
         "lvSource": "rīkojums • izkārtojums",
         "currentCs": "Nařízení",
         "proposedCs": "Nařízení • Uspořádání",
-        "reason": "Nařízení odpovídá pouze významu „příkaz“; chybí význam „uspořádání/rozvržení“.",
-        "confidence": 0.97,
+        "reason": "Nařízení pokrývá pouze význam příkaz; Anordnung označuje také uspořádání nebo rozmístění.",
+        "confidence": "high",
         "status": "FINDING"
       },
       {
@@ -425,8 +456,8 @@
         "lvSource": "nokrāsot • pasvītrot",
         "currentCs": "Natřít",
         "proposedCs": "Natřít • Podtrhnout",
-        "reason": "Natřít odpovídá pouze významu „nabarvit“; chybí význam „podtrhnout“.",
-        "confidence": 0.99,
+        "reason": "Natřít vystihuje pouze malování; anstreichen znamená také podtrhnout text.",
+        "confidence": "high",
         "status": "FINDING"
       },
       {
@@ -437,22 +468,9 @@
         "de": "ärgerlich",
         "lvSource": "kaitinošs • dusmīgs",
         "currentCs": "Nepříjemný",
-        "proposedCs": "Naštvaný • Protivný",
-        "reason": "Překlad zachycuje jen význam „kaitinošs“ a opomíjí význam „dusmīgs“ (naštvaný).",
+        "proposedCs": "Rozzlobený • Otravný",
+        "reason": "„Nepříjemný“ znamená unpleasant; německé ärgerlich znamená rozzlobený nebo otravný.",
         "confidence": 0.97,
-        "status": "FINDING"
-      },
-      {
-        "cardId": "a2-Aufbau-106",
-        "field": "csText",
-        "severity": "MEDIUM",
-        "category": "SEMANTICS",
-        "de": "Aufbau",
-        "lvSource": "uzbūve • izveide",
-        "currentCs": "Struktura",
-        "proposedCs": "Struktura • Výstavba",
-        "reason": "„Struktura“ pokrývá jen jeden význam; chybí význam budování nebo výstavby.",
-        "confidence": 0.9,
         "status": "FINDING"
       },
       {
@@ -463,22 +481,22 @@
         "de": "aufbrechen",
         "lvSource": "doties ceļā • atlauzt",
         "currentCs": "Vyrazit",
-        "proposedCs": "Vyrazit • Vylomit",
-        "reason": "Překlad zachycuje odchod, ale opomíjí význam „vylomit“ nebo násilně otevřít.",
-        "confidence": 0.98,
+        "proposedCs": "Vyrazit • Vypáčit",
+        "reason": "Czech překlad uvádí jen význam „vyrazit“ a vynechává význam „násilně otevřít/vypáčit“.",
+        "confidence": 0.99,
         "status": "FINDING"
       },
       {
-        "cardId": "a2-aufspringen-142",
+        "cardId": "a2-aufmuntern-131",
         "field": "csText",
         "severity": "MEDIUM",
         "category": "SEMANTICS",
-        "de": "aufspringen",
-        "lvSource": "uzlēkt • atsprāgt vaļā",
-        "currentCs": "Vyskočit",
-        "proposedCs": "Vyskočit • Otevřít se",
-        "reason": "Překlad zachycuje pouze význam „vyskočit“, ale chybí význam „prudce se otevřít“.",
-        "confidence": 0.96,
+        "de": "aufmuntern",
+        "lvSource": "uzmundrināt",
+        "currentCs": "Povzbuzovat",
+        "proposedCs": "Povzbudit",
+        "reason": "Povzbuzovat znamená průběžně povzbuzovat; německé aufmuntern vyjadřuje povzbuzení či rozveselení jako dokončený děj.",
+        "confidence": 0.88,
         "status": "FINDING"
       },
       {
@@ -489,9 +507,22 @@
         "de": "aufziehen",
         "lvSource": "izaudzināt • kaitināt",
         "currentCs": "Vychovávat",
-        "proposedCs": "Vychovávat • Dobírat si",
-        "reason": "Chybí běžný význam „škádlit/dobírat si“; uveden je jen význam vychovávat.",
-        "confidence": 0.98,
+        "proposedCs": "Vychovávat • Škádlit",
+        "reason": "Překlad zachycuje jen význam vychovávat a vynechává běžný význam škádlit, uvedený i ve zdroji LV.",
+        "confidence": 0.97,
+        "status": "FINDING"
+      },
+      {
+        "cardId": "a2-ausbilden-156",
+        "field": "csText",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "ausbilden",
+        "lvSource": "apmācīt",
+        "currentCs": "Trénovat",
+        "proposedCs": "Vyškolit",
+        "reason": "Trénovat se v češtině týká hlavně sportu; ausbilden znamená odborně školit nebo vycvičit.",
+        "confidence": 0.84,
         "status": "FINDING"
       }
     ]
