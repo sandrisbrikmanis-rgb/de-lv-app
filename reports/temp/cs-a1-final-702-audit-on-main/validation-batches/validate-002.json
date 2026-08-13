@@ -1,0 +1,487 @@
+{
+  "batch": "validate-002",
+  "items": [
+    {
+      "findingId": "FINAL702-A1-00044",
+      "cardId": "a1-aufs",
+      "field": "study.explanation[4]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Tvrzení „téměř vždy“ je přehnané; plná forma auf das je běžná a gramaticky správná.",
+      "auditCurrentCs": "V hovorové a každodenní řeči se téměř vždy používá aufs místo plného auf das.",
+      "auditProposedCs": "V běžné řeči se často používá aufs místo plného auf das; obě podoby jsou gramaticky správné.",
+      "auditDe": "aufs",
+      "auditLvSource": "auf das",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "V hovorové a každodenní řeči se téměř vždy používá aufs místo plného auf das.",
+      "cardContext": {
+        "cardId": "a1-aufs",
+        "de": "aufs",
+        "csMain": "Kam • Na • Kam?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00047",
+      "cardId": "a1-baden",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Nová věta po odrážce začíná malým písmenem; má začínat velkým.",
+      "auditCurrentCs": "čeština často říká jednoduše „plavat“, ale v němčině si musíte vybrat podle situace.",
+      "auditProposedCs": "Čeština často říká jednoduše „plavat“, ale v němčině si musíte vybrat podle situace.",
+      "auditDe": "baden",
+      "auditLvSource": "čeština často říká jednoduše „plavat“, ale v němčině si musíte vybrat podle situace.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "čeština často říká jednoduše „plavat“, ale v němčině si musíte vybrat podle situace.",
+      "cardContext": {
+        "cardId": "a1-baden",
+        "de": "baden",
+        "csMain": "Koupat se",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00048",
+      "cardId": "a1-bleiben",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Samostatná česká oznamovací věta postrádá koncovou tečku.",
+      "auditCurrentCs": "Zůstávám doma",
+      "auditProposedCs": "Zůstávám doma.",
+      "auditDe": "Ich bleibe zu Hause.",
+      "auditLvSource": "es palieku mājās.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Zůstávám doma",
+      "cardContext": {
+        "cardId": "a1-bleiben",
+        "de": "bleiben",
+        "csMain": "Zůstat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00049",
+      "cardId": "a1-bleiben",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Samostatná česká oznamovací věta postrádá koncovou tečku.",
+      "auditCurrentCs": "Jdu domů",
+      "auditProposedCs": "Jdu domů.",
+      "auditDe": "Ich gehe nach Hause.",
+      "auditLvSource": "es eju mājās.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Jdu domů",
+      "cardContext": {
+        "cardId": "a1-bleiben",
+        "de": "bleiben",
+        "csMain": "Zůstat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00050",
+      "cardId": "a1-bringen",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Dokonavé „donese“ vyjadřuje budoucí dokončení; německý přítomný čas zde znamená „přináší“ nebo „nese“.",
+      "auditCurrentCs": "Donese knihu do školy.",
+      "auditProposedCs": "Přináší knihu do školy.",
+      "auditDe": "Er bringt das Buch zur Schule.",
+      "auditLvSource": "Es aizvedu bērnus uz skolu.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Donese knihu do školy.",
+      "cardContext": {
+        "cardId": "a1-bringen",
+        "de": "bringen",
+        "csMain": "Přinést • Odnést",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00051",
+      "cardId": "a1-bringen",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Význam je duplicitní a druhá položka má přirozeně vyjadřovat nedokonavý protějšek.",
+      "auditCurrentCs": "Vzít / vzít",
+      "auditProposedCs": "Vzít / brát",
+      "auditDe": "nehmen",
+      "auditLvSource": "aiznest",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Vzít / vzít",
+      "cardContext": {
+        "cardId": "a1-bringen",
+        "de": "bringen",
+        "csMain": "Přinést • Odnést",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00052",
+      "cardId": "a1-da",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Druhá česká položka se opakuje; lotyšské „te“ zde odpovídá českému „tady“.",
+      "auditCurrentCs": "Tam • Zde • Zde (obecně)",
+      "auditProposedCs": "Tam • Tady • Zde (obecně)",
+      "auditDe": "da",
+      "auditLvSource": "tur • te • šeit (vispārīgi)",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Tam • Zde • Zde (obecně)",
+      "cardContext": {
+        "cardId": "a1-da",
+        "de": "da",
+        "csMain": "Tam",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00053",
+      "cardId": "a1-das",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Text obsahuje anglické slovo „Neuter“; český název má být plně česky.",
+      "auditCurrentCs": "Neuter určitý člen",
+      "auditProposedCs": "Určitý člen středního rodu",
+      "auditDe": "das",
+      "auditLvSource": "vidus dzimtes noteiktais artikuls",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Neuter určitý člen",
+      "cardContext": {
+        "cardId": "a1-das",
+        "de": "das",
+        "csMain": "Neuter určitý člen",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00054",
+      "cardId": "a1-das",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Samostatné německé „dies“ je v tomto příkladu neutrální „tohle“, nikoli mužské „tenhle“.",
+      "auditCurrentCs": "Tenhle",
+      "auditProposedCs": "Tohle",
+      "auditDe": "dies",
+      "auditLvSource": "šis",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Tenhle",
+      "cardContext": {
+        "cardId": "a1-das",
+        "de": "das",
+        "csMain": "Neuter určitý člen",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00055",
+      "cardId": "a1-das",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka; ostatní české příkladové věty ji mají.",
+      "auditCurrentCs": "Je to moje auto",
+      "auditProposedCs": "Je to moje auto.",
+      "auditDe": "Das ist mein Auto.",
+      "auditLvSource": "tas ir mans auto.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Je to moje auto",
+      "cardContext": {
+        "cardId": "a1-das",
+        "de": "das",
+        "csMain": "Neuter určitý člen",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00056",
+      "cardId": "a1-der",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Současné pořadí slov je v češtině nepřirozené a působí jako doslovný překlad.",
+      "auditCurrentCs": "Mužský rod určitý člen",
+      "auditProposedCs": "Určitý člen mužského rodu",
+      "auditDe": "der",
+      "auditLvSource": "vīriešu dzimtes noteiktais artikuls",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Mužský rod určitý člen",
+      "cardContext": {
+        "cardId": "a1-der",
+        "de": "der",
+        "csMain": "Mužský rod určitý člen",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00057",
+      "cardId": "a1-die",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Současné pořadí slov je v češtině nepřirozené a významově nejasné.",
+      "auditCurrentCs": "Ženský určitý člen",
+      "auditProposedCs": "Určitý člen ženského rodu",
+      "auditDe": "die",
+      "auditLvSource": "sieviešu dzimtes noteiktais artikuls",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Ženský určitý člen",
+      "cardContext": {
+        "cardId": "a1-die",
+        "de": "die",
+        "csMain": "Ženský určitý člen",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00058",
+      "cardId": "a1-dieser",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka u oznamovací věty.",
+      "auditCurrentCs": "Líbí se mi tento pes",
+      "auditProposedCs": "Líbí se mi tento pes.",
+      "auditDe": "Ich mag diesen Hund.",
+      "auditLvSource": "Es redzu šo suni.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Líbí se mi tento pes",
+      "cardContext": {
+        "cardId": "a1-dieser",
+        "de": "dieser",
+        "csMain": "Tenhle",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00059",
+      "cardId": "a1-eis",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka; následující příkladová věta ji také postrádá.",
+      "auditCurrentCs": "Jím zmrzlinu",
+      "auditProposedCs": "Jím zmrzlinu.",
+      "auditDe": "Ich esse ein Eis.",
+      "auditLvSource": "es ēdu saldējumu.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Jím zmrzlinu",
+      "cardContext": {
+        "cardId": "a1-eis",
+        "de": "Eis",
+        "csMain": "Led • Zmrzlina",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00060",
+      "cardId": "a1-eis",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Český překlad otázky má mít otazník.",
+      "auditCurrentCs": "Chceš zmrzlinu",
+      "auditProposedCs": "Chceš zmrzlinu?",
+      "auditDe": "Möchtest du ein Eis?",
+      "auditLvSource": "vai tu gribi saldējumu?",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Chceš zmrzlinu",
+      "cardContext": {
+        "cardId": "a1-eis",
+        "de": "Eis",
+        "csMain": "Led • Zmrzlina",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL702-A1-00044",
+      "cardId": "a1-aufs",
+      "field": "study.explanation[4]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Téměř vždy je nepřiměřeně absolutní; plná forma „auf das“ je běžná a gramaticky správná.",
+      "currentCs": "V hovorové a každodenní řeči se téměř vždy používá aufs místo plného auf das.",
+      "proposedCs": "V běžné řeči se často používá aufs místo plného auf das; obě podoby jsou gramaticky správné."
+    },
+    {
+      "findingId": "FINAL702-A1-00047",
+      "cardId": "a1-baden",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Samostatná věta po odrážce má začínat velkým písmenem.",
+      "currentCs": "čeština často říká jednoduše „plavat“, ale v němčině si musíte vybrat podle situace.",
+      "proposedCs": "Čeština často říká jednoduše „plavat“, ale v němčině si musíte vybrat podle situace."
+    },
+    {
+      "findingId": "FINAL702-A1-00048",
+      "cardId": "a1-bleiben",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Samostatné české oznamovací větě chybí koncová tečka.",
+      "currentCs": "Zůstávám doma",
+      "proposedCs": "Zůstávám doma."
+    },
+    {
+      "findingId": "FINAL702-A1-00049",
+      "cardId": "a1-bleiben",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Samostatné české oznamovací větě chybí koncová tečka.",
+      "currentCs": "Jdu domů",
+      "proposedCs": "Jdu domů."
+    },
+    {
+      "findingId": "FINAL702-A1-00050",
+      "cardId": "a1-bringen",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Dokonavé „donese“ obvykle vyjadřuje budoucí dokončení, ne německý přítomný význam.",
+      "currentCs": "Donese knihu do školy.",
+      "proposedCs": "Přináší knihu do školy."
+    },
+    {
+      "findingId": "FINAL702-A1-00051",
+      "cardId": "a1-bringen",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Obě části významu jsou stejné; druhá má uvádět nedokonavý protějšek.",
+      "currentCs": "Vzít / vzít",
+      "proposedCs": "Vzít / brát"
+    },
+    {
+      "findingId": "FINAL702-A1-00052",
+      "cardId": "a1-da",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Druhá položka se opakuje; v tomto významu české „te“ odpovídá slovu „tady“.",
+      "currentCs": "Tam • Zde • Zde (obecně)",
+      "proposedCs": "Tam • Tady • Zde (obecně)"
+    },
+    {
+      "findingId": "FINAL702-A1-00053",
+      "cardId": "a1-das",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Text obsahuje anglický remnant „Neuter“ místo plně českého označení.",
+      "currentCs": "Neuter určitý člen",
+      "proposedCs": "Určitý člen středního rodu"
+    },
+    {
+      "findingId": "FINAL702-A1-00054",
+      "cardId": "a1-das",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Samostatné německé „dies“ je zde neutrální „tohle“, nikoli mužské „tenhle“.",
+      "currentCs": "Tenhle",
+      "proposedCs": "Tohle"
+    },
+    {
+      "findingId": "FINAL702-A1-00055",
+      "cardId": "a1-das",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Samostatné české oznamovací větě chybí koncová tečka.",
+      "currentCs": "Je to moje auto",
+      "proposedCs": "Je to moje auto."
+    },
+    {
+      "findingId": "FINAL702-A1-00056",
+      "cardId": "a1-der",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Současné pořadí slov je v češtině nepřirozené; přirozené je „určitý člen mužského rodu“.",
+      "currentCs": "Mužský rod určitý člen",
+      "proposedCs": "Určitý člen mužského rodu"
+    },
+    {
+      "findingId": "FINAL702-A1-00057",
+      "cardId": "a1-die",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Současné pořadí slov je v češtině nepřirozené a významově nejasné.",
+      "currentCs": "Ženský určitý člen",
+      "proposedCs": "Určitý člen ženského rodu"
+    },
+    {
+      "findingId": "FINAL702-A1-00058",
+      "cardId": "a1-dieser",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Samostatné české oznamovací větě chybí koncová tečka.",
+      "currentCs": "Líbí se mi tento pes",
+      "proposedCs": "Líbí se mi tento pes."
+    },
+    {
+      "findingId": "FINAL702-A1-00059",
+      "cardId": "a1-eis",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Samostatné české oznamovací větě chybí koncová tečka.",
+      "currentCs": "Jím zmrzlinu",
+      "proposedCs": "Jím zmrzlinu."
+    },
+    {
+      "findingId": "FINAL702-A1-00060",
+      "cardId": "a1-eis",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Český překlad otázky postrádá koncový otazník.",
+      "currentCs": "Chceš zmrzlinu",
+      "proposedCs": "Chceš zmrzlinu?"
+    }
+  ]
+}

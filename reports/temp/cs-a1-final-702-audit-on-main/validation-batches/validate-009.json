@@ -1,0 +1,485 @@
+{
+  "batch": "validate-009",
+  "items": [
+    {
+      "findingId": "FINAL702-A1-00173",
+      "cardId": "a1-verstehen",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Verstehen zde označuje průběžné rozumění; „pochopit“ vyjadřuje dokonavé dosažení pochopení.",
+      "auditCurrentCs": "Pochopit",
+      "auditProposedCs": "Rozumět",
+      "auditDe": "verstehen",
+      "auditLvSource": "saprast",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pochopit",
+      "cardContext": {
+        "cardId": "a1-verstehen",
+        "de": "verstehen",
+        "csMain": "Pochopit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00174",
+      "cardId": "a1-verstehen",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí tečka na konci české věty.",
+      "auditCurrentCs": "Rozumím ti",
+      "auditProposedCs": "Rozumím ti.",
+      "auditDe": "Ich verstehe dich.",
+      "auditLvSource": "es tevi saprotu.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Rozumím ti",
+      "cardContext": {
+        "cardId": "a1-verstehen",
+        "de": "verstehen",
+        "csMain": "Pochopit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00175",
+      "cardId": "a1-verstehen",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí otazník na konci české otázky.",
+      "auditCurrentCs": "Rozumíš německy",
+      "auditProposedCs": "Rozumíš německy?",
+      "auditDe": "Verstehst du Deutsch?",
+      "auditLvSource": "vai tu saproti vāciski?",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Rozumíš německy",
+      "cardContext": {
+        "cardId": "a1-verstehen",
+        "de": "verstehen",
+        "csMain": "Pochopit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00176",
+      "cardId": "a1-verstehen",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Infinitivní význam verstehen je zde „rozumět“, nikoli dokonavé „pochopit“.",
+      "auditCurrentCs": "Pochopit",
+      "auditProposedCs": "Rozumět",
+      "auditDe": "verstehen",
+      "auditLvSource": "saprast",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pochopit",
+      "cardContext": {
+        "cardId": "a1-verstehen",
+        "de": "verstehen",
+        "csMain": "Pochopit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00179",
+      "cardId": "a1-vom",
+      "field": "study.tip[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Pro koho?“ znamená „für wen?“, nikoli význam předložky vom („od koho/čeho?“).",
+      "auditCurrentCs": "Pamatujte: von + dem → vom (pro koho?).",
+      "auditProposedCs": "Pamatujte: von + dem → vom (od koho? od čeho?).",
+      "auditDe": "von + dem → vom",
+      "auditLvSource": "Atceries: von + dem → vom (kam?).",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pamatujte: von + dem → vom (pro koho?).",
+      "cardContext": {
+        "cardId": "a1-vom",
+        "de": "vom",
+        "csMain": "Z",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00180",
+      "cardId": "a1-was",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Was se ptá na věci a události; „kdo“ odpovídá německému wer.",
+      "auditCurrentCs": "Kdo • Co",
+      "auditProposedCs": "Co",
+      "auditDe": "was",
+      "auditLvSource": "kas • ko",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Kdo • Co",
+      "cardContext": {
+        "cardId": "a1-was",
+        "de": "was",
+        "csMain": "Kdo • Co",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00182",
+      "cardId": "a1-was",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Přímá otázka v češtině vyžaduje otazník.",
+      "auditCurrentCs": "Co teď děláš",
+      "auditProposedCs": "Co teď děláš?",
+      "auditDe": "Was machst du gerade?",
+      "auditLvSource": "Ko tu tagad dari?",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Co teď děláš",
+      "cardContext": {
+        "cardId": "a1-was",
+        "de": "was",
+        "csMain": "Kdo • Co",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00183",
+      "cardId": "a1-was",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Přímá otázka v češtině vyžaduje otazník.",
+      "auditCurrentCs": "Co chceš pít",
+      "auditProposedCs": "Co chceš pít?",
+      "auditDe": "Was möchtest du trinken?",
+      "auditLvSource": "Ko tu vēlies dzert?",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Co chceš pít",
+      "cardContext": {
+        "cardId": "a1-was",
+        "de": "was",
+        "csMain": "Kdo • Co",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00184",
+      "cardId": "a1-was",
+      "field": "study.examples[6].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Přímá otázka v češtině vyžaduje otazník.",
+      "auditCurrentCs": "Co jsi říkal",
+      "auditProposedCs": "Co jsi říkal?",
+      "auditDe": "Was hast du gesagt?",
+      "auditLvSource": "Ko tu pasacīji?",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Co jsi říkal",
+      "cardContext": {
+        "cardId": "a1-was",
+        "de": "was",
+        "csMain": "Kdo • Co",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00185",
+      "cardId": "a1-was",
+      "field": "study.sectionAccents.important[0].blue[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Zvýrazněný český text je chybný a mění německé zájmeno was na sloveso „byl“.",
+      "auditCurrentCs": "Byl",
+      "auditProposedCs": "was",
+      "auditDe": "was",
+      "auditLvSource": "was",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Byl",
+      "cardContext": {
+        "cardId": "a1-was",
+        "de": "was",
+        "csMain": "Kdo • Co",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00186",
+      "cardId": "a1-wenn",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Ob v nepřímé otázce znamená „zda/jestli“, ne „nebo“.",
+      "auditCurrentCs": "Nebo",
+      "auditProposedCs": "Zda",
+      "auditDe": "ob",
+      "auditLvSource": "vai netiešā jautājumā",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Nebo",
+      "cardContext": {
+        "cardId": "a1-wenn",
+        "de": "wenn",
+        "csMain": "Jestliže • Kdy",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00187",
+      "cardId": "a1-wenn",
+      "field": "study.sectionAccents.comparison[2].meaning.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Wann je tázací příslovce „kdy“, zatímco „když“ odpovídá typicky wenn.",
+      "auditCurrentCs": "Když",
+      "auditProposedCs": "Kdy",
+      "auditDe": "wann",
+      "auditLvSource": "kad jautājumā",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Když",
+      "cardContext": {
+        "cardId": "a1-wenn",
+        "de": "wenn",
+        "csMain": "Jestliže • Kdy",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00188",
+      "cardId": "a1-wenn",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Stav/napětí“ je v tomto vysvětlení nesrozumitelné a významově chybné.",
+      "auditCurrentCs": "Kdy přijedeš? je tu otázka. Wenn du kommst... je stav/napětí.",
+      "auditProposedCs": "„Kdy přijedeš?“ je otázka. „Wenn du kommst…“ vyjadřuje podmínku.",
+      "auditDe": "Wenn du kommst...",
+      "auditLvSource": "Wenn du kommst... ir nosacījums/laiks.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Kdy přijedeš? je tu otázka. Wenn du kommst... je stav/napětí.",
+      "cardContext": {
+        "cardId": "a1-wenn",
+        "de": "wenn",
+        "csMain": "Jestliže • Kdy",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00189",
+      "cardId": "a1-wer",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Hlavní titul zbytečně opakuje stejný český překlad.",
+      "auditCurrentCs": "Kdo • Kdo",
+      "auditProposedCs": "Kdo",
+      "auditDe": "wer",
+      "auditLvSource": "kas • kurš",
+      "category": "TITLE_FORMAT",
+      "productionCurrentCs": "Kdo • Kdo",
+      "cardContext": {
+        "cardId": "a1-wer",
+        "de": "wer",
+        "csMain": "Kdo • Kdo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00190",
+      "cardId": "a1-wer",
+      "field": "study.tip[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Opakování „kdo/kdo“ je chyba v českém textu; druhý význam má být „kurš“ jen ve zdrojovém kontextu.",
+      "auditCurrentCs": "Wer se ptá na osoby (kdo/kdo) - na věci a události, používáme was.",
+      "auditProposedCs": "Wer se ptá na osoby (kdo/kurš) – na věci a události používáme was.",
+      "auditDe": "wer",
+      "auditLvSource": "wer jautā par personām (kas/kurš)",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Wer se ptá na osoby (kdo/kdo) - na věci a události, používáme was.",
+      "cardContext": {
+        "cardId": "a1-wer",
+        "de": "wer",
+        "csMain": "Kdo • Kdo",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL702-A1-00173",
+      "cardId": "a1-verstehen",
+      "field": "lv",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "reason": "Verstehen can mean both „rozumět“ and „pochopit“; no context proves that the perfective Czech meaning is wrong.",
+      "currentCs": "Pochopit"
+    },
+    {
+      "findingId": "FINAL702-A1-00174",
+      "cardId": "a1-verstehen",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The Czech declarative example lacks its sentence-final period.",
+      "currentCs": "Rozumím ti",
+      "proposedCs": "Rozumím ti."
+    },
+    {
+      "findingId": "FINAL702-A1-00175",
+      "cardId": "a1-verstehen",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The Czech direct question lacks its required question mark.",
+      "currentCs": "Rozumíš německy",
+      "proposedCs": "Rozumíš německy?"
+    },
+    {
+      "findingId": "FINAL702-A1-00176",
+      "cardId": "a1-verstehen",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "reason": "Verstehen can mean both „rozumět“ and „pochopit“; the isolated infinitive does not establish a semantic error.",
+      "currentCs": "Pochopit"
+    },
+    {
+      "findingId": "FINAL702-A1-00179",
+      "cardId": "a1-vom",
+      "field": "study.tip[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Pro koho?“ means „für wen?“ and is incorrect for vom, which expresses origin or source.",
+      "currentCs": "Pamatujte: von + dem → vom (pro koho?).",
+      "proposedCs": "Pamatujte: von + dem → vom (od koho? od čeho?)."
+    },
+    {
+      "findingId": "FINAL702-A1-00180",
+      "cardId": "a1-was",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Was means „co“, while „kdo“ corresponds to wer and is a current semantic error.",
+      "currentCs": "Kdo • Co",
+      "proposedCs": "Co"
+    },
+    {
+      "findingId": "FINAL702-A1-00182",
+      "cardId": "a1-was",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The Czech direct question lacks its required question mark.",
+      "currentCs": "Co teď děláš",
+      "proposedCs": "Co teď děláš?"
+    },
+    {
+      "findingId": "FINAL702-A1-00183",
+      "cardId": "a1-was",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The Czech direct question lacks its required question mark.",
+      "currentCs": "Co chceš pít",
+      "proposedCs": "Co chceš pít?"
+    },
+    {
+      "findingId": "FINAL702-A1-00184",
+      "cardId": "a1-was",
+      "field": "study.examples[6].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The Czech direct question lacks its required question mark.",
+      "currentCs": "Co jsi říkal",
+      "proposedCs": "Co jsi říkal?"
+    },
+    {
+      "findingId": "FINAL702-A1-00185",
+      "cardId": "a1-was",
+      "field": "study.sectionAccents.important[0].blue[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Byl“ is a Czech verb and does not translate the German pronoun was, which means „co“.",
+      "currentCs": "Byl",
+      "proposedCs": "was"
+    },
+    {
+      "findingId": "FINAL702-A1-00186",
+      "cardId": "a1-wenn",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "In an indirect question, ob means „zda“ or „jestli“, not „nebo“.",
+      "currentCs": "Nebo",
+      "proposedCs": "Zda"
+    },
+    {
+      "findingId": "FINAL702-A1-00187",
+      "cardId": "a1-wenn",
+      "field": "study.sectionAccents.comparison[2].meaning.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Wann is the interrogative „kdy“; „když“ is typically translated by wenn.",
+      "currentCs": "Když",
+      "proposedCs": "Kdy"
+    },
+    {
+      "findingId": "FINAL702-A1-00188",
+      "cardId": "a1-wenn",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Stav/napětí“ is incorrect here; Wenn du kommst expresses a condition.",
+      "currentCs": "Kdy přijedeš? je tu otázka. Wenn du kommst... je stav/napětí.",
+      "proposedCs": "„Kdy přijedeš?“ je otázka. „Wenn du kommst…“ vyjadřuje podmínku."
+    },
+    {
+      "findingId": "FINAL702-A1-00189",
+      "cardId": "a1-wer",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The current Czech title repeats „Kdo“ and contains no distinct second translation.",
+      "currentCs": "Kdo • Kdo",
+      "proposedCs": "Kdo"
+    },
+    {
+      "findingId": "FINAL702-A1-00190",
+      "cardId": "a1-wer",
+      "field": "study.tip[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The current Czech explanation repeats „kdo“ and has an incorrect hyphen-minus separator.",
+      "currentCs": "Wer se ptá na osoby (kdo/kdo) - na věci a události, používáme was.",
+      "proposedCs": "Wer se ptá na osoby (kdo) – na věci a události používáme was."
+    }
+  ]
+}

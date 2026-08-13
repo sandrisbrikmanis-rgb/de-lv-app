@@ -1,0 +1,492 @@
+{
+  "batch": "validate-007",
+  "items": [
+    {
+      "findingId": "FINAL702-A1-00132",
+      "cardId": "a1-natuerlich",
+      "field": "study.examples[0] sectionAccents",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Zvýraznění označuje otázku místo českého ekvivalentu německého výrazu „Natürlich!“.",
+      "auditCurrentCs": "[\"Jdeš\"]",
+      "auditProposedCs": [
+        "Samozřejmě"
+      ],
+      "auditDe": "Kommst du mit? – Natürlich!",
+      "auditLvSource": [
+        "Jdeš"
+      ],
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-natuerlich",
+        "de": "natürlich",
+        "csMain": "Samozřejmě • Přirozený",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00133",
+      "cardId": "a1-nehmen",
+      "field": "study.examples[1] sectionAccents",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Druhé zvýraznění chybně opakuje „Vezmi“; v překladu má označovat „knihu“.",
+      "auditCurrentCs": "[\"Vezmi\",\"Vezmi\"]",
+      "auditProposedCs": [
+        "Vezmi",
+        "knihu"
+      ],
+      "auditDe": "Nimm das Buch!",
+      "auditLvSource": [
+        "Vezmi",
+        "Vezmi"
+      ],
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-nehmen",
+        "de": "nehmen",
+        "csMain": "Brát • Vzít",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00134",
+      "cardId": "a1-nur-study",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Hlavní překlad zbytečně opakuje stejné slovo místo dvou běžných českých ekvivalentů.",
+      "auditCurrentCs": "Pouze • Pouze",
+      "auditProposedCs": "Pouze • Jen",
+      "auditDe": "nur",
+      "auditLvSource": "tikai • vienīgi",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Pouze • Pouze",
+      "cardContext": {
+        "cardId": "a1-nur-study",
+        "de": "nur",
+        "csMain": "Pouze • Pouze",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00135",
+      "cardId": "a1-ob",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Wenn“ se zde učí jako podmínkové nebo časové „když/pokud“, ne jako tázací „jestli“.",
+      "auditCurrentCs": "Jestli / kdy",
+      "auditProposedCs": "Když / pokud",
+      "auditDe": "wenn",
+      "auditLvSource": "ja / kad",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Jestli / kdy",
+      "cardContext": {
+        "cardId": "a1-ob",
+        "de": "ob",
+        "csMain": "Zda • Jestli",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00136",
+      "cardId": "a1-oder",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Nebo si vyberte“ je v kolonce významu nepřirozená věta a neodpovídá stručnému významu spojky.",
+      "auditCurrentCs": "Nebo si vyberte",
+      "auditProposedCs": "Nebo",
+      "auditDe": "oder",
+      "auditLvSource": "vai izvēlē",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Nebo si vyberte",
+      "cardContext": {
+        "cardId": "a1-oder",
+        "de": "oder",
+        "csMain": "Nebo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00138",
+      "cardId": "a1-reis",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka ve větě.",
+      "auditCurrentCs": "Jím rýži",
+      "auditProposedCs": "Jím rýži.",
+      "auditDe": "Ich esse Reis.",
+      "auditLvSource": "es ēdu rīsus.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Jím rýži",
+      "cardContext": {
+        "cardId": "a1-reis",
+        "de": "Reis",
+        "csMain": "Rýže",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00139",
+      "cardId": "a1-sagen-study",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Perfektivní německé gesagt zde znamená „řekl“, nikoli imperfektivní „říkal“; chybí také otazník.",
+      "auditCurrentCs": "Co jsi říkal",
+      "auditProposedCs": "Co jsi řekl?",
+      "auditDe": "Was hast du gesagt?",
+      "auditLvSource": "ko tu pateici?",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Co jsi říkal",
+      "cardContext": {
+        "cardId": "a1-sagen-study",
+        "de": "sagen",
+        "csMain": "Říct",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00140",
+      "cardId": "a1-sagen-study",
+      "field": "study.comparison[0].example",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Překlad minulého času má být perfektní „řekl“ a česká otázka potřebuje otazník.",
+      "auditCurrentCs": "Was hast du gesagt? – Co jsi říkal",
+      "auditProposedCs": "Was hast du gesagt? – Co jsi řekl?",
+      "auditDe": "Was hast du gesagt?",
+      "auditLvSource": "Was hast du gesagt? – Ko tu pateici?",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Was hast du gesagt? – Co jsi říkal",
+      "cardContext": {
+        "cardId": "a1-sagen-study",
+        "de": "sagen",
+        "csMain": "Říct",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00141",
+      "cardId": "a1-schauen-study",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka ve větě.",
+      "auditCurrentCs": "Dívám se na televizi",
+      "auditProposedCs": "Dívám se na televizi.",
+      "auditDe": "Ich schaue fern.",
+      "auditLvSource": "es skatos televizoru.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Dívám se na televizi",
+      "cardContext": {
+        "cardId": "a1-schauen-study",
+        "de": "schauen",
+        "csMain": "Dívat se",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00142",
+      "cardId": "a1-schauen-study",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Spojení „dívat se nebo dívat“ je v češtině tautologické a nepřirozené.",
+      "auditCurrentCs": "Aktivně se dívat nebo dívat.",
+      "auditProposedCs": "Aktivně sledovat nebo se dívat.",
+      "auditDe": "schauen",
+      "auditLvSource": "Aktīvi skatīties vai palūkoties.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Aktivně se dívat nebo dívat.",
+      "cardContext": {
+        "cardId": "a1-schauen-study",
+        "de": "schauen",
+        "csMain": "Dívat se",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00143",
+      "cardId": "a1-schauen-study",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Hodinky“ znamená wristwatch; jde o chybný český text v označení významu sehen.",
+      "auditCurrentCs": "Hodinky",
+      "auditProposedCs": "Vidět",
+      "auditDe": "sehen",
+      "auditLvSource": "redzēt (bez nodoma)",
+      "category": "SEMANTICS",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-schauen-study",
+        "de": "schauen",
+        "csMain": "Dívat se",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00144",
+      "cardId": "a1-schon-study",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka ve větě.",
+      "auditCurrentCs": "Už jsem doma",
+      "auditProposedCs": "Už jsem doma.",
+      "auditDe": "Ich bin schon zu Hause.",
+      "auditLvSource": "es jau esmu mājās.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Už jsem doma",
+      "cardContext": {
+        "cardId": "a1-schon-study",
+        "de": "schon",
+        "csMain": "Již",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00145",
+      "cardId": "a1-schwimmen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Význam baden je v akcentačních datech chybně označen jako „Plavat“ místo „Koupat se“.",
+      "auditCurrentCs": "Plavat",
+      "auditProposedCs": "Koupat se",
+      "auditDe": "baden",
+      "auditLvSource": "peldēties / atrasties ūdenī",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Plavat",
+      "cardContext": {
+        "cardId": "a1-schwimmen",
+        "de": "schwimmen",
+        "csMain": "Plavat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00146",
+      "cardId": "a1-sehen",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka ve větě.",
+      "auditCurrentCs": "Vidím tě",
+      "auditProposedCs": "Vidím tě.",
+      "auditDe": "Ich sehe dich.",
+      "auditLvSource": "es tevi redzu.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Vidím tě",
+      "cardContext": {
+        "cardId": "a1-sehen",
+        "de": "sehen",
+        "csMain": "Vidět",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00147",
+      "cardId": "a1-sehen",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí otazník v české otázce.",
+      "auditCurrentCs": "Vidíš to auto",
+      "auditProposedCs": "Vidíš to auto?",
+      "auditDe": "Siehst du das Auto?",
+      "auditLvSource": "vai tu redzi to auto?",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Vidíš to auto",
+      "cardContext": {
+        "cardId": "a1-sehen",
+        "de": "sehen",
+        "csMain": "Vidět",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL702-A1-00132",
+      "cardId": "a1-natuerlich",
+      "field": "study.examples[0] sectionAccents",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "MEDIUM",
+      "confidence": "LOW",
+      "reason": "Current production value is unavailable, so the reported accent cannot be validated safely.",
+      "currentCs": null
+    },
+    {
+      "findingId": "FINAL702-A1-00133",
+      "cardId": "a1-nehmen",
+      "field": "study.examples[1] sectionAccents",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "MEDIUM",
+      "confidence": "LOW",
+      "reason": "Current production value is unavailable, so the reported accent cannot be validated safely.",
+      "currentCs": null
+    },
+    {
+      "findingId": "FINAL702-A1-00134",
+      "cardId": "a1-nur-study",
+      "field": "study.translation",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Pouze • Pouze is correct Czech; replacing the second synonym is a stylistic preference, not an error.",
+      "currentCs": "Pouze • Pouze"
+    },
+    {
+      "findingId": "FINAL702-A1-00135",
+      "cardId": "a1-ob",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "SOURCE_DE_ISSUE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "The card is ob, not wenn. Jestli / kdy is a valid translation for ob; the audit source misidentifies the German term.",
+      "currentCs": "Jestli / kdy"
+    },
+    {
+      "findingId": "FINAL702-A1-00136",
+      "cardId": "a1-oder",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Nebo si vyberte is an example-like phrase rather than a concise meaning for the conjunction oder.",
+      "currentCs": "Nebo si vyberte",
+      "proposedCs": "Nebo"
+    },
+    {
+      "findingId": "FINAL702-A1-00138",
+      "cardId": "a1-reis",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The Czech sentence is missing its final period.",
+      "currentCs": "Jím rýži",
+      "proposedCs": "Jím rýži."
+    },
+    {
+      "findingId": "FINAL702-A1-00139",
+      "cardId": "a1-sagen-study",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "reason": "The Czech translation should match the completed past meaning and include the question mark.",
+      "currentCs": "Co jsi říkal",
+      "proposedCs": "Co jsi řekl?"
+    },
+    {
+      "findingId": "FINAL702-A1-00140",
+      "cardId": "a1-sagen-study",
+      "field": "study.comparison[0].example",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "reason": "The Czech translation uses the less precise říkal and omits the question mark.",
+      "currentCs": "Was hast du gesagt? – Co jsi říkal",
+      "proposedCs": "Was hast du gesagt? – Co jsi řekl?"
+    },
+    {
+      "findingId": "FINAL702-A1-00141",
+      "cardId": "a1-schauen-study",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The Czech sentence is missing its final period.",
+      "currentCs": "Dívám se na televizi",
+      "proposedCs": "Dívám se na televizi."
+    },
+    {
+      "findingId": "FINAL702-A1-00142",
+      "cardId": "a1-schauen-study",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Dívat se nebo dívat is tautological and grammatically incomplete as a natural Czech contrast.",
+      "currentCs": "Aktivně se dívat nebo dívat.",
+      "proposedCs": "Aktivně sledovat nebo se dívat."
+    },
+    {
+      "findingId": "FINAL702-A1-00143",
+      "cardId": "a1-schauen-study",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "reason": "Current production value is unavailable, so the reported accent cannot be validated safely.",
+      "currentCs": null
+    },
+    {
+      "findingId": "FINAL702-A1-00144",
+      "cardId": "a1-schon-study",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The Czech sentence is missing its final period.",
+      "currentCs": "Už jsem doma",
+      "proposedCs": "Už jsem doma."
+    },
+    {
+      "findingId": "FINAL702-A1-00145",
+      "cardId": "a1-schwimmen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Baden means Koupat se in this comparison; Plavat is the meaning of schwimmen and is incorrect here.",
+      "currentCs": "Plavat",
+      "proposedCs": "Koupat se"
+    },
+    {
+      "findingId": "FINAL702-A1-00146",
+      "cardId": "a1-sehen",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The Czech sentence is missing its final period.",
+      "currentCs": "Vidím tě",
+      "proposedCs": "Vidím tě."
+    },
+    {
+      "findingId": "FINAL702-A1-00147",
+      "cardId": "a1-sehen",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The Czech question is missing its question mark.",
+      "currentCs": "Vidíš to auto",
+      "proposedCs": "Vidíš to auto?"
+    }
+  ]
+}

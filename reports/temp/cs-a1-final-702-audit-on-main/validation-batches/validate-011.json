@@ -1,0 +1,197 @@
+{
+  "batch": "validate-011",
+  "items": [
+    {
+      "findingId": "FINAL702-A1-00209",
+      "cardId": "a1-ferien",
+      "field": "study.tip[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Aktuální formulace je gramaticky neúplná a opakuje význam bez přirozené větné vazby.",
+      "auditCurrentCs": "Pouze množné číslo. Školní nebo studijní prázdniny - vždy v množném čísle.",
+      "auditProposedCs": "Pouze množné číslo. Školní nebo studijní prázdniny se vždy používají v množném čísle.",
+      "auditDe": "Die Ferien",
+      "auditLvSource": "Skolas vai studiju brīvlaiks",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Pouze množné číslo. Školní nebo studijní prázdniny - vždy v množném čísle.",
+      "cardContext": {
+        "cardId": "a1-ferien",
+        "de": "Ferien",
+        "csMain": "Prázdniny (škola)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00210",
+      "cardId": "a1-urlaub",
+      "field": "study.explanation[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Urlaub má také množné číslo Urlaube v jiných významech; „vždy“ je příliš absolutní a odporuje pozdějšímu vysvětlení.",
+      "auditCurrentCs": "Hlavní myšlenka: pouze jednotné číslo. Dovolená z práce – vždy v jednotném čísle.",
+      "auditProposedCs": "Hlavní myšlenka: v běžném významu dovolené se používá obvykle jednotné číslo. Jde o dovolenou z práce.",
+      "auditDe": "Urlaub",
+      "auditLvSource": "tikai vienskaitlis. Atvaļinājums no darba",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Hlavní myšlenka: pouze jednotné číslo. Dovolená z práce – vždy v jednotném čísle.",
+      "cardContext": {
+        "cardId": "a1-urlaub",
+        "de": "Urlaub",
+        "csMain": "Dovolená",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00211",
+      "cardId": "a1-urlaub",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Urlaub není výhradně singulárové slovo; množné číslo Urlaube je možné v jiných kontextech.",
+      "auditCurrentCs": "Často charakterizován: pouze jednotné číslo.",
+      "auditProposedCs": "V běžném významu dovolené se často používá v jednotném čísle.",
+      "auditDe": "Urlaub",
+      "auditLvSource": "Bieži raksturo: tikai vienskaitlis.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Často charakterizován: pouze jednotné číslo.",
+      "cardContext": {
+        "cardId": "a1-urlaub",
+        "de": "Urlaub",
+        "csMain": "Dovolená",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00212",
+      "cardId": "a1-urlaub",
+      "field": "study.explanation[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Tvrzení „pouze v jednotném čísle“ je nesprávné a přímo si protiřečí s uvedenou možností množného čísla Urlaube.",
+      "auditCurrentCs": "Der Urlaub je pouze v jednotném čísle – dovolená z práce (im Urlaub).",
+      "auditProposedCs": "Der Urlaub se v běžném významu dovolené používá obvykle v jednotném čísle – dovolená z práce (im Urlaub).",
+      "auditDe": "Urlaub",
+      "auditLvSource": "der Urlaub ir tikai vienskaitlis",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Der Urlaub je pouze v jednotném čísle – dovolená z práce (im Urlaub).",
+      "cardContext": {
+        "cardId": "a1-urlaub",
+        "de": "Urlaub",
+        "csMain": "Dovolená",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00213",
+      "cardId": "a1-urlaub",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "„Urlabe“ je pravopisně chybný německý tvar; odpovídající běžná chyba je „der Urlaube“.",
+      "auditCurrentCs": "Nesprávně: die Ferie, der Urlabe (na úrovni A1).",
+      "auditProposedCs": "Nesprávně: die Ferie, der Urlaube (na úrovni A1).",
+      "auditDe": "Urlaub",
+      "auditLvSource": "Nepareizi: die Ferie, der Urlaube",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Nesprávně: die Ferie, der Urlabe (na úrovni A1).",
+      "cardContext": {
+        "cardId": "a1-urlaub",
+        "de": "Urlaub",
+        "csMain": "Dovolená",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00214",
+      "cardId": "a1-noch-mal",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Vysvětlení používá jiné české slovo než cílový výraz; má uvádět význam „noch mal“.",
+      "auditCurrentCs": "Opět znamená opakovat akci nebo požádat o opakování.",
+      "auditProposedCs": "Noch mal znamená opakovat akci nebo požádat o opakování.",
+      "auditDe": "noch mal",
+      "auditLvSource": "Nozīmē vēlreiz — atkārtot darbību vai lūgt atkārtojumu.",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Opět znamená opakovat akci nebo požádat o opakování.",
+      "cardContext": {
+        "cardId": "a1-noch-mal",
+        "de": "noch mal",
+        "csMain": "Znovu",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL702-A1-00209",
+      "cardId": "a1-ferien",
+      "field": "study.tip[0]",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Aktuální čeština je srozumitelná a gramaticky přijatelná; navržená změna pouze zvyšuje přirozenost formulace.",
+      "currentCs": "Pouze množné číslo. Školní nebo studijní prázdniny - vždy v množném čísle."
+    },
+    {
+      "findingId": "FINAL702-A1-00210",
+      "cardId": "a1-urlaub",
+      "field": "study.explanation[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Absolutní tvrzení „vždy v jednotném čísle“ je věcně nesprávné, protože Urlaube je možné v jiných významech.",
+      "currentCs": "Hlavní myšlenka: pouze jednotné číslo. Dovolená z práce – vždy v jednotném čísle.",
+      "proposedCs": "Hlavní myšlenka: v běžném významu dovolené se používá obvykle jednotné číslo. Jde o dovolenou z práce."
+    },
+    {
+      "findingId": "FINAL702-A1-00211",
+      "cardId": "a1-urlaub",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Tvrzení „pouze jednotné číslo“ je příliš absolutní; množné číslo Urlaube je v jiných kontextech možné.",
+      "currentCs": "Často charakterizován: pouze jednotné číslo.",
+      "proposedCs": "V běžném významu dovolené se často používá v jednotném čísle."
+    },
+    {
+      "findingId": "FINAL702-A1-00212",
+      "cardId": "a1-urlaub",
+      "field": "study.explanation[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Výrok „pouze v jednotném čísle“ je nesprávný a odporuje možnosti množného čísla Urlaube.",
+      "currentCs": "Der Urlaub je pouze v jednotném čísle – dovolená z práce (im Urlaub).",
+      "proposedCs": "Der Urlaub se v běžném významu dovolené používá obvykle v jednotném čísle – dovolená z práce (im Urlaub)."
+    },
+    {
+      "findingId": "FINAL702-A1-00213",
+      "cardId": "a1-urlaub",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "„Urlabe“ je chybný německý tvar; v uvedeném příkladu má být množné číslo „Urlaube“.",
+      "currentCs": "Nesprávně: die Ferie, der Urlabe (na úrovni A1).",
+      "proposedCs": "Nesprávně: die Ferie, der Urlaube (na úrovni A1)."
+    },
+    {
+      "findingId": "FINAL702-A1-00214",
+      "cardId": "a1-noch-mal",
+      "field": "study.important[0]",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Opět“ je správný český ekvivalent významu „noch mal“; použití synonyma není obsahová chyba.",
+      "currentCs": "Opět znamená opakovat akci nebo požádat o opakování."
+    }
+  ]
+}

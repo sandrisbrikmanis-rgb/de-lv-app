@@ -1,0 +1,499 @@
+{
+  "batch": "validate-006",
+  "items": [
+    {
+      "findingId": "FINAL702-A1-00112",
+      "cardId": "a1-legen",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Překlad je obecně správný, ale v kontrastu legen–liegen ztrácí klíčový význam slovesa liegen.",
+      "auditCurrentCs": "Kniha je na stole.",
+      "auditProposedCs": "Kniha leží na stole.",
+      "auditDe": "Das Buch liegt auf dem Tisch.",
+      "auditLvSource": "grāmata atrodas uz galda.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Kniha je na stole.",
+      "cardContext": {
+        "cardId": "a1-legen",
+        "de": "legen",
+        "csMain": "Položit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00113",
+      "cardId": "a1-leise-study",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Po úvodním oslovení Prosím se v češtině píše čárka.",
+      "auditCurrentCs": "Prosím mluv potichu.",
+      "auditProposedCs": "Prosím, mluv potichu.",
+      "auditDe": "Sprich bitte leise.",
+      "auditLvSource": "lūdzu, runā klusi.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Prosím mluv potichu.",
+      "cardContext": {
+        "cardId": "a1-leise-study",
+        "de": "leise",
+        "csMain": "Tichý • Potichu",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00114",
+      "cardId": "a1-liegen",
+      "field": "study.examples[3].de",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Věta Ich lege... obsahuje legen, nikoli liegen; český překlad Pokládám knihu je podle německé věty správný.",
+      "auditCurrentCs": "",
+      "auditProposedCs": "",
+      "auditDe": "",
+      "auditLvSource": "",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Ich lege das Buch auf den Tisch.",
+      "cardContext": {
+        "cardId": "a1-liegen",
+        "de": "liegen",
+        "csMain": "Ležet • Být položený",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00117",
+      "cardId": "a1-mal",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Případ je zde nepřirozené a může znamenat případ; Mal označuje počet opakování nebo příležitost.",
+      "auditCurrentCs": "Případ • Opakování",
+      "auditProposedCs": "Krát • Příležitost",
+      "auditDe": "Mal",
+      "auditLvSource": "reize",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Případ • Opakování",
+      "cardContext": {
+        "cardId": "a1-mal",
+        "de": "Mal",
+        "csMain": "Případ • Opakování",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00121",
+      "cardId": "a1-machen",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Česká otázka na konci vyžaduje otazník.",
+      "auditCurrentCs": "Co to děláš",
+      "auditProposedCs": "Co to děláš?",
+      "auditDe": "Was machst du?",
+      "auditLvSource": "ko tu dari?",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Co to děláš",
+      "cardContext": {
+        "cardId": "a1-machen",
+        "de": "machen",
+        "csMain": "Dělat • Vyrábět",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00122",
+      "cardId": "a1-morgen",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Oznamovací věta vyžaduje tečku.",
+      "auditCurrentCs": "Přijdu zítra",
+      "auditProposedCs": "Přijdu zítra.",
+      "auditDe": "Ich komme morgen.",
+      "auditLvSource": "es nāku rīt.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Přijdu zítra",
+      "cardContext": {
+        "cardId": "a1-morgen",
+        "de": "morgen",
+        "csMain": "Zítra",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00123",
+      "cardId": "a1-morgen",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Oznamovací věta vyžaduje tečku.",
+      "auditCurrentCs": "Zítra je pondělí",
+      "auditProposedCs": "Zítra je pondělí.",
+      "auditDe": "Morgen ist Montag.",
+      "auditLvSource": "rīt ir pirmdiena.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Zítra je pondělí",
+      "cardContext": {
+        "cardId": "a1-morgen",
+        "de": "morgen",
+        "csMain": "Zítra",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00124",
+      "cardId": "a1-morgen-study",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Oznamovací věta vyžaduje tečku.",
+      "auditCurrentCs": "Přijdu zítra",
+      "auditProposedCs": "Přijdu zítra.",
+      "auditDe": "Ich komme morgen.",
+      "auditLvSource": "es nāku rīt.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Přijdu zítra",
+      "cardContext": {
+        "cardId": "a1-morgen-study",
+        "de": "Morgen",
+        "csMain": "Ráno",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00125",
+      "cardId": "a1-morgen-study",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Oznamovací věta vyžaduje tečku.",
+      "auditCurrentCs": "Zítra je pondělí",
+      "auditProposedCs": "Zítra je pondělí.",
+      "auditDe": "Morgen ist Montag.",
+      "auditLvSource": "rīt ir pirmdiena.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Zítra je pondělí",
+      "cardContext": {
+        "cardId": "a1-morgen-study",
+        "de": "Morgen",
+        "csMain": "Ráno",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00126",
+      "cardId": "a1-müssen",
+      "field": "study.comparison[0].meaning sectionAccents",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Zvýraznění neodpovídá textu „Muset / být nutné“ a obsahuje chybný význam „Potřebovat“.",
+      "auditCurrentCs": "[\"Potřebovat\",\"Potřebovat\"]",
+      "auditProposedCs": [
+        "Muset",
+        "být nutné"
+      ],
+      "auditDe": "müssen",
+      "auditLvSource": [
+        "Potřebovat",
+        "Potřebovat"
+      ],
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-müssen",
+        "de": "müssen",
+        "csMain": "Muset",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00127",
+      "cardId": "a1-müssen",
+      "field": "study.comparison[1].meaning sectionAccents",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Zvýraznění neodpovídá textu „Moci / umět“ a neoznačuje správné české významy.",
+      "auditCurrentCs": "[\"Být\",\"Být\"]",
+      "auditProposedCs": [
+        "Moci",
+        "umět"
+      ],
+      "auditDe": "können",
+      "auditLvSource": [
+        "Být",
+        "Být"
+      ],
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-müssen",
+        "de": "müssen",
+        "csMain": "Muset",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00128",
+      "cardId": "a1-müssen",
+      "field": "study.comparison[3].meaning sectionAccents",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Zvýraznění je neúplné; text obsahuje význam „Být dovoleno“.",
+      "auditCurrentCs": "[\"Být\"]",
+      "auditProposedCs": [
+        "Být",
+        "dovoleno"
+      ],
+      "auditDe": "dürfen",
+      "auditLvSource": [
+        "Být"
+      ],
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-müssen",
+        "de": "müssen",
+        "csMain": "Muset",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00129",
+      "cardId": "a1-nach",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Název německé fráze „nach Berlin“ nemá být po odrážce psán s velkým písmenem.",
+      "auditCurrentCs": "Pamatujte: nach Hause • Nach Berlin • Po jídle.",
+      "auditProposedCs": "Pamatujte: nach Hause • nach Berlin • Po jídle.",
+      "auditDe": "nach",
+      "auditLvSource": "Atceries: nach Hause; nach Berlin; pēc ēšanas.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Pamatujte: nach Hause • Nach Berlin • Po jídle.",
+      "cardContext": {
+        "cardId": "a1-nach",
+        "de": "nach",
+        "csMain": "Do • Po",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00130",
+      "cardId": "a1-nach",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "V českém textu je chybně vloženo „v die Schule“; německá fráze musí být „in die Schule“.",
+      "auditCurrentCs": "Do školy se obvykle chodí v die Schule, ne nach Schule.",
+      "auditProposedCs": "Do školy se obvykle chodí in die Schule, ne nach Schule.",
+      "auditDe": "nach",
+      "auditLvSource": "Uz skolu parasti ir in die Schule, nevis nach Schule.",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Do školy se obvykle chodí v die Schule, ne nach Schule.",
+      "cardContext": {
+        "cardId": "a1-nach",
+        "de": "nach",
+        "csMain": "Do • Po",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00131",
+      "cardId": "a1-natuerlich",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí správná pomlčka a začátek samostatné odpovědi má být s velkým písmenem.",
+      "auditCurrentCs": "Jdeš se mnou? - samozřejmě!",
+      "auditProposedCs": "Jdeš se mnou? – Samozřejmě!",
+      "auditDe": "Kommst du mit? – Natürlich!",
+      "auditLvSource": "vai nāc līdzi? – protams!",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Jdeš se mnou? - samozřejmě!",
+      "cardContext": {
+        "cardId": "a1-natuerlich",
+        "de": "natürlich",
+        "csMain": "Samozřejmě • Přirozený",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL702-A1-00112",
+      "cardId": "a1-legen",
+      "field": "study.examples[3].lv",
+      "validationStatus": "SOURCE_DE_ISSUE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "The Czech sentence is valid for the supplied German meaning; the example's German uses liegen on a card for legen.",
+      "currentCs": "Kniha je na stole."
+    },
+    {
+      "findingId": "FINAL702-A1-00113",
+      "cardId": "a1-leise-study",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "A comma is required after the introductory polite expression Prosím.",
+      "currentCs": "Prosím mluv potichu.",
+      "proposedCs": "Prosím, mluv potichu."
+    },
+    {
+      "findingId": "FINAL702-A1-00114",
+      "cardId": "a1-liegen",
+      "field": "study.examples[3].de",
+      "validationStatus": "SOURCE_DE_ISSUE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "The production German sentence uses legen, so the source example is wrong for the liegen card; no Czech repair is indicated.",
+      "currentCs": "Ich lege das Buch auf den Tisch."
+    },
+    {
+      "findingId": "FINAL702-A1-00117",
+      "cardId": "a1-mal",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Případ is not an appropriate meaning for German Mal in this translation field.",
+      "currentCs": "Případ • Opakování",
+      "proposedCs": "Krát • Příležitost"
+    },
+    {
+      "findingId": "FINAL702-A1-00121",
+      "cardId": "a1-machen",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The Czech interrogative sentence is missing its question mark.",
+      "currentCs": "Co to děláš",
+      "proposedCs": "Co to děláš?"
+    },
+    {
+      "findingId": "FINAL702-A1-00122",
+      "cardId": "a1-morgen",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The Czech declarative sentence is missing its final period.",
+      "currentCs": "Přijdu zítra",
+      "proposedCs": "Přijdu zítra."
+    },
+    {
+      "findingId": "FINAL702-A1-00123",
+      "cardId": "a1-morgen",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The Czech declarative sentence is missing its final period.",
+      "currentCs": "Zítra je pondělí",
+      "proposedCs": "Zítra je pondělí."
+    },
+    {
+      "findingId": "FINAL702-A1-00124",
+      "cardId": "a1-morgen-study",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The Czech declarative sentence is missing its final period.",
+      "currentCs": "Přijdu zítra",
+      "proposedCs": "Přijdu zítra."
+    },
+    {
+      "findingId": "FINAL702-A1-00125",
+      "cardId": "a1-morgen-study",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The Czech declarative sentence is missing its final period.",
+      "currentCs": "Zítra je pondělí",
+      "proposedCs": "Zítra je pondělí."
+    },
+    {
+      "findingId": "FINAL702-A1-00126",
+      "cardId": "a1-müssen",
+      "field": "study.comparison[0].meaning sectionAccents",
+      "validationStatus": "STALE_ALREADY_FIXED",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "The audited accent array is no longer present in production, so the reported current value does not match live data.",
+      "currentCs": null
+    },
+    {
+      "findingId": "FINAL702-A1-00127",
+      "cardId": "a1-müssen",
+      "field": "study.comparison[1].meaning sectionAccents",
+      "validationStatus": "STALE_ALREADY_FIXED",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "The audited accent array is no longer present in production, so the reported current value does not match live data.",
+      "currentCs": null
+    },
+    {
+      "findingId": "FINAL702-A1-00128",
+      "cardId": "a1-müssen",
+      "field": "study.comparison[3].meaning sectionAccents",
+      "validationStatus": "STALE_ALREADY_FIXED",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "The audited accent array is no longer present in production, so the reported current value does not match live data.",
+      "currentCs": null
+    },
+    {
+      "findingId": "FINAL702-A1-00129",
+      "cardId": "a1-nach",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The phrase after the bullet is a continuation and should use lowercase nach.",
+      "currentCs": "Pamatujte: nach Hause • Nach Berlin • Po jídle.",
+      "proposedCs": "Pamatujte: nach Hause • nach Berlin • Po jídle."
+    },
+    {
+      "findingId": "FINAL702-A1-00130",
+      "cardId": "a1-nach",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "The German phrase is incorrectly written as v die Schule; the embedded phrase must be in die Schule.",
+      "currentCs": "Do školy se obvykle chodí v die Schule, ne nach Schule.",
+      "proposedCs": "Do školy se obvykle chodí in die Schule, ne nach Schule."
+    },
+    {
+      "findingId": "FINAL702-A1-00131",
+      "cardId": "a1-natuerlich",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The response should use an en dash and begin with a capital letter after the question.",
+      "currentCs": "Jdeš se mnou? - samozřejmě!",
+      "proposedCs": "Jdeš se mnou? – Samozřejmě!"
+    }
+  ]
+}

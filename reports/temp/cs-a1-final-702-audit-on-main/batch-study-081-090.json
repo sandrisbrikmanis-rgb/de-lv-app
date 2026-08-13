@@ -1,0 +1,205 @@
+{
+  "dataset": "a1",
+  "batch": "study-081-090",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a1-müssen",
+    "a1-nach",
+    "a1-natuerlich",
+    "a1-nehmen",
+    "a1-neu",
+    "a1-noch-study",
+    "a1-nur-study",
+    "a1-ob",
+    "a1-oder",
+    "a1-passen"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-müssen",
+      "field": "study.comparison[0].meaning sectionAccents",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "müssen",
+      "lvSource": [
+        "Potřebovat",
+        "Potřebovat"
+      ],
+      "currentCs": [
+        "Potřebovat",
+        "Potřebovat"
+      ],
+      "proposedCs": [
+        "Muset",
+        "být nutné"
+      ],
+      "reason": "Zvýraznění neodpovídá textu „Muset / být nutné“ a obsahuje chybný význam „Potřebovat“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-müssen",
+      "field": "study.comparison[1].meaning sectionAccents",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "können",
+      "lvSource": [
+        "Být",
+        "Být"
+      ],
+      "currentCs": [
+        "Být",
+        "Být"
+      ],
+      "proposedCs": [
+        "Moci",
+        "umět"
+      ],
+      "reason": "Zvýraznění neodpovídá textu „Moci / umět“ a neoznačuje správné české významy.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-müssen",
+      "field": "study.comparison[3].meaning sectionAccents",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "dürfen",
+      "lvSource": [
+        "Být"
+      ],
+      "currentCs": [
+        "Být"
+      ],
+      "proposedCs": [
+        "Být",
+        "dovoleno"
+      ],
+      "reason": "Zvýraznění je neúplné; text obsahuje význam „Být dovoleno“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-nach",
+      "field": "study.tip.text",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "nach",
+      "lvSource": "Atceries: nach Hause; nach Berlin; pēc ēšanas.",
+      "currentCs": "Pamatujte: nach Hause • Nach Berlin • Po jídle.",
+      "proposedCs": "Pamatujte: nach Hause • nach Berlin • Po jídle.",
+      "reason": "Název německé fráze „nach Berlin“ nemá být po odrážce psán s velkým písmenem.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-nach",
+      "field": "study.important[1]",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "nach",
+      "lvSource": "Uz skolu parasti ir in die Schule, nevis nach Schule.",
+      "currentCs": "Do školy se obvykle chodí v die Schule, ne nach Schule.",
+      "proposedCs": "Do školy se obvykle chodí in die Schule, ne nach Schule.",
+      "reason": "V českém textu je chybně vloženo „v die Schule“; německá fráze musí být „in die Schule“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-natuerlich",
+      "field": "study.examples[0].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Kommst du mit? – Natürlich!",
+      "lvSource": "vai nāc līdzi? – protams!",
+      "currentCs": "Jdeš se mnou? - samozřejmě!",
+      "proposedCs": "Jdeš se mnou? – Samozřejmě!",
+      "reason": "Chybí správná pomlčka a začátek samostatné odpovědi má být s velkým písmenem.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-natuerlich",
+      "field": "study.examples[0] sectionAccents",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "Kommst du mit? – Natürlich!",
+      "lvSource": [
+        "Jdeš"
+      ],
+      "currentCs": [
+        "Jdeš"
+      ],
+      "proposedCs": [
+        "Samozřejmě"
+      ],
+      "reason": "Zvýraznění označuje otázku místo českého ekvivalentu německého výrazu „Natürlich!“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-nehmen",
+      "field": "study.examples[1] sectionAccents",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "Nimm das Buch!",
+      "lvSource": [
+        "Vezmi",
+        "Vezmi"
+      ],
+      "currentCs": [
+        "Vezmi",
+        "Vezmi"
+      ],
+      "proposedCs": [
+        "Vezmi",
+        "knihu"
+      ],
+      "reason": "Druhé zvýraznění chybně opakuje „Vezmi“; v překladu má označovat „knihu“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-nur-study",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "nur",
+      "lvSource": "tikai • vienīgi",
+      "currentCs": "Pouze • Pouze",
+      "proposedCs": "Pouze • Jen",
+      "reason": "Hlavní překlad zbytečně opakuje stejné slovo místo dvou běžných českých ekvivalentů.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-ob",
+      "field": "study.comparison[2].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "wenn",
+      "lvSource": "ja / kad",
+      "currentCs": "Jestli / kdy",
+      "proposedCs": "Když / pokud",
+      "reason": "„Wenn“ se zde učí jako podmínkové nebo časové „když/pokud“, ne jako tázací „jestli“.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-oder",
+      "field": "study.comparison[0].meaning",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "oder",
+      "lvSource": "vai izvēlē",
+      "currentCs": "Nebo si vyberte",
+      "proposedCs": "Nebo",
+      "reason": "„Nebo si vyberte“ je v kolonce významu nepřirozená věta a neodpovídá stručnému významu spojky.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 3,
+  "completedAt": "2026-08-13T15:19:28.800Z"
+}

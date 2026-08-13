@@ -1,0 +1,481 @@
+{
+  "batch": "validate-001",
+  "items": [
+    {
+      "findingId": "FINAL702-A1-00016",
+      "cardId": "a1-land",
+      "field": "study.explanation[1]",
+      "source": "deterministic",
+      "batch": "351-400",
+      "severity": "HIGH",
+      "auditProblem": "Foreign remnant (LV_WORD, FOREIGN_REF) in entry[351].study.explanation[1]",
+      "auditCurrentCs": "Pokud jde o Německo, Lotyšsko nebo jiné území s hranicemi, překládá se to jako země.",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "Land",
+      "auditLvSource": "valsts • zeme",
+      "category": "FINDING",
+      "productionCurrentCs": "Pokud jde o Německo, Lotyšsko nebo jiné území s hranicemi, překládá se to jako země.",
+      "cardContext": {
+        "cardId": "a1-land",
+        "de": "Land",
+        "csMain": "Země • Venkov",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00018",
+      "cardId": "a1-Million-406",
+      "index": 406,
+      "field": "lv",
+      "source": "deterministic",
+      "batch": "401-450",
+      "severity": "HIGH",
+      "auditProblem": "Foreign language remnant in main translation: PL_CHAR",
+      "auditCurrentCs": "Milión",
+      "auditProposedCs": "(Czech replacement needed)",
+      "auditDe": "Million",
+      "auditLvSource": "miljons",
+      "category": "FINDING",
+      "productionCurrentCs": "Milión",
+      "cardContext": {
+        "cardId": "a1-Million-406",
+        "de": "Million",
+        "csMain": "Milión",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00019",
+      "cardId": "a1-Million-406",
+      "field": "lv",
+      "source": "deterministic",
+      "batch": "401-450",
+      "severity": "HIGH",
+      "auditProblem": "Foreign remnant (PL_CHAR) in entry[406].lv",
+      "auditCurrentCs": "Milión",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "Million",
+      "auditLvSource": "miljons",
+      "category": "FINDING",
+      "productionCurrentCs": "Milión",
+      "cardContext": {
+        "cardId": "a1-Million-406",
+        "de": "Million",
+        "csMain": "Milión",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00027",
+      "cardId": "a1-Zitrone-666",
+      "index": 666,
+      "field": "lv",
+      "source": "deterministic",
+      "batch": "651-700",
+      "severity": "HIGH",
+      "auditProblem": "Foreign language remnant in main translation: PL_CHAR",
+      "auditCurrentCs": "Citrón",
+      "auditProposedCs": "(Czech replacement needed)",
+      "auditDe": "Zitrone",
+      "auditLvSource": "citrons",
+      "category": "FINDING",
+      "productionCurrentCs": "Citrón",
+      "cardContext": {
+        "cardId": "a1-Zitrone-666",
+        "de": "Zitrone",
+        "csMain": "Citrón",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00028",
+      "cardId": "a1-Zitrone-666",
+      "field": "lv",
+      "source": "deterministic",
+      "batch": "651-700",
+      "severity": "HIGH",
+      "auditProblem": "Foreign remnant (PL_CHAR) in entry[666].lv",
+      "auditCurrentCs": "Citrón",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "Zitrone",
+      "auditLvSource": "citrons",
+      "category": "FINDING",
+      "productionCurrentCs": "Citrón",
+      "cardContext": {
+        "cardId": "a1-Zitrone-666",
+        "de": "Zitrone",
+        "csMain": "Citrón",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00031",
+      "cardId": "a1-fertig-183",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Fertig“ znamená především „hotový“; „připravený“ odpovídá spíše německému „bereit“.",
+      "auditCurrentCs": "Připraven",
+      "auditProposedCs": "Hotový",
+      "auditDe": "fertig",
+      "auditLvSource": "gatavs",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Připraven",
+      "cardContext": {
+        "cardId": "a1-fertig-183",
+        "de": "fertig",
+        "csMain": "Připraven",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00032",
+      "cardId": "a1-verlieren-620",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Prohrát znamená prohrát soutěž nebo hru; verlieren má také běžný význam ztratit věc či osobu.",
+      "auditCurrentCs": "Prohrát",
+      "auditProposedCs": "Ztratit • Prohrát",
+      "auditDe": "verlieren",
+      "auditLvSource": "zaudēt",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Prohrát",
+      "cardContext": {
+        "cardId": "a1-verlieren-620",
+        "de": "verlieren",
+        "csMain": "Prohrát",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00034",
+      "cardId": "a1-also",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Hlavní titul je správný, ale study.translation jej nesprávně redukuje na „Proto“; titul zde není třeba měnit.",
+      "auditCurrentCs": "Tedy • Takže",
+      "auditProposedCs": "Tedy • Takže",
+      "auditDe": "also",
+      "auditLvSource": "tātad",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Tedy • Takže",
+      "cardContext": {
+        "cardId": "a1-also",
+        "de": "also",
+        "csMain": "Tedy • Takže",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00035",
+      "cardId": "a1-also",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Also“ v tomto významu znamená „tedy/takže“; „proto“ je typičtější překlad německého deshalb.",
+      "auditCurrentCs": "Proto",
+      "auditProposedCs": "Tedy • Takže",
+      "auditDe": "also",
+      "auditLvSource": "tātad",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Proto",
+      "cardContext": {
+        "cardId": "a1-also",
+        "de": "also",
+        "csMain": "Tedy • Takže",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00036",
+      "cardId": "a1-also",
+      "field": "study.explanation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Vysvětlení opakuje „proto“ a směšuje význam also s přesnějším překladem deshalb.",
+      "auditCurrentCs": "Používá se k vyvození závěru nebo zobrazení výsledku. Znamená „proto“, „proto“.",
+      "auditProposedCs": "Používá se k vyvození závěru nebo vyjádření výsledku. Znamená „tedy“ nebo „takže“.",
+      "auditDe": "also",
+      "auditLvSource": "tātad • līdz ar to",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Používá se k vyvození závěru nebo zobrazení výsledku. Znamená „proto“, „proto“.",
+      "cardContext": {
+        "cardId": "a1-also",
+        "de": "also",
+        "csMain": "Tedy • Takže",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00037",
+      "cardId": "a1-also",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Tvrzení nesprávně uvádí české „tak“ jako častý ekvivalent německého deshalb.",
+      "auditCurrentCs": "České „tak“ může být často také deshalb.",
+      "auditProposedCs": "České „tak“ může podle kontextu překládat také „also“; „deshalb“ obvykle znamená „proto“.",
+      "auditDe": "also / deshalb",
+      "auditLvSource": "tātad / tāpēc",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "České „tak“ může být často také deshalb.",
+      "cardContext": {
+        "cardId": "a1-also",
+        "de": "also",
+        "csMain": "Tedy • Takže",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00038",
+      "cardId": "a1-auch-study",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Česká věta neodpovídá německému příkladu ani významu zdrojové věty.",
+      "auditCurrentCs": "Já také přijdu.",
+      "auditProposedCs": "Ona zde také pracuje.",
+      "auditDe": "Sie arbeitet auch hier.",
+      "auditLvSource": "Viņa arī strādā šeit.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Já také přijdu.",
+      "cardContext": {
+        "cardId": "a1-auch-study",
+        "de": "auch",
+        "csMain": "Také",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00039",
+      "cardId": "a1-auch-study",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Česká věta je převzata z předchozího příkladu a neodpovídá německému textu.",
+      "auditCurrentCs": "Ona zde také pracuje.",
+      "auditProposedCs": "Také vám přeji hezký den.",
+      "auditDe": "Ich wünsche Ihnen auch einen schönen Tag.",
+      "auditLvSource": "Es arī novēlu jums jauku dienu.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Ona zde také pracuje.",
+      "cardContext": {
+        "cardId": "a1-auch-study",
+        "de": "auch",
+        "csMain": "Také",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00042",
+      "cardId": "a1-aus",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Od“ je zde zavádějící; odpovídá spíše von nebo ab. Aus vyjadřuje původ či pohyb zevnitř.",
+      "auditCurrentCs": "Od • Ven",
+      "auditProposedCs": "Z • Zevnitř",
+      "auditDe": "aus",
+      "auditLvSource": "no",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Od • Ven",
+      "cardContext": {
+        "cardId": "a1-aus",
+        "de": "aus",
+        "csMain": "Od • Ven",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00043",
+      "cardId": "a1-aufs",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Titul zbytečně opakuje „Kam“ a obsahuje otázku místo krátkého praktického překladu.",
+      "auditCurrentCs": "Kam • Na • Kam?",
+      "auditProposedCs": "Na",
+      "auditDe": "aufs",
+      "auditLvSource": "uz",
+      "category": "TITLE_FORMAT",
+      "productionCurrentCs": "Kam • Na • Kam?",
+      "cardContext": {
+        "cardId": "a1-aufs",
+        "de": "aufs",
+        "csMain": "Kam • Na • Kam?",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL702-A1-00016",
+      "cardId": "a1-land",
+      "field": "study.explanation[1]",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Produkční text je gramaticky správný český text; neobsahuje cizojazyčný zbytek ani významovou chybu.",
+      "currentCs": "Pokud jde o Německo, Lotyšsko nebo jiné území s hranicemi, překládá se to jako země."
+    },
+    {
+      "findingId": "FINAL702-A1-00018",
+      "cardId": "a1-Million-406",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Milión“ je platná česká podoba. České diakritické znaménko není cizojazyčný zbytek.",
+      "currentCs": "Milión"
+    },
+    {
+      "findingId": "FINAL702-A1-00019",
+      "cardId": "a1-Million-406",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Milión“ je platná česká podoba. České diakritické znaménko není cizojazyčný zbytek.",
+      "currentCs": "Milión"
+    },
+    {
+      "findingId": "FINAL702-A1-00027",
+      "cardId": "a1-Zitrone-666",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Citrón“ je platné české slovo. České diakritické znaménko není cizojazyčný zbytek.",
+      "currentCs": "Citrón"
+    },
+    {
+      "findingId": "FINAL702-A1-00028",
+      "cardId": "a1-Zitrone-666",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Citrón“ je platné české slovo. České diakritické znaménko není cizojazyčný zbytek.",
+      "currentCs": "Citrón"
+    },
+    {
+      "findingId": "FINAL702-A1-00031",
+      "cardId": "a1-fertig-183",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": 0.96,
+      "reason": "„Připraven“ je v češtině validní překlad významu „fertig“ ve smyslu připravený nebo hotový.",
+      "currentCs": "Připraven"
+    },
+    {
+      "findingId": "FINAL702-A1-00032",
+      "cardId": "a1-verlieren-620",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.98,
+      "reason": "„Prohrát“ pokrývá jen význam soutěže či hry; běžný význam „ztratit“ v produkci chybí.",
+      "currentCs": "Prohrát",
+      "proposedCs": "Ztratit • Prohrát"
+    },
+    {
+      "findingId": "FINAL702-A1-00034",
+      "cardId": "a1-also",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Hlavní český titul „Tedy • Takže“ je správný a odpovídá běžným významům německého „also“.",
+      "currentCs": "Tedy • Takže"
+    },
+    {
+      "findingId": "FINAL702-A1-00035",
+      "cardId": "a1-also",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Studijní překlad „Proto“ zaměňuje „also“ za typičtější překlad „deshalb“.",
+      "currentCs": "Proto",
+      "proposedCs": "Tedy • Takže"
+    },
+    {
+      "findingId": "FINAL702-A1-00036",
+      "cardId": "a1-also",
+      "field": "study.explanation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Vysvětlení opakuje „proto“ a nesprávně popisuje význam německého „also“.",
+      "currentCs": "Používá se k vyvození závěru nebo zobrazení výsledku. Znamená „proto“, „proto“.",
+      "proposedCs": "Používá se k vyvození závěru nebo vyjádření výsledku. Znamená „tedy“ nebo „takže“."
+    },
+    {
+      "findingId": "FINAL702-A1-00037",
+      "cardId": "a1-also",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.98,
+      "reason": "Tvrzení nesprávně spojuje české „tak“ s německým „deshalb“ místo s „also“ podle kontextu.",
+      "currentCs": "České „tak“ může být často také deshalb.",
+      "proposedCs": "České „tak“ může podle kontextu překládat také „also“; „deshalb“ obvykle znamená „proto“."
+    },
+    {
+      "findingId": "FINAL702-A1-00038",
+      "cardId": "a1-auch-study",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Český příklad „Já také přijdu“ neodpovídá německé větě o její práci zde.",
+      "currentCs": "Já také přijdu.",
+      "proposedCs": "Ona zde také pracuje."
+    },
+    {
+      "findingId": "FINAL702-A1-00039",
+      "cardId": "a1-auch-study",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Příklad opakuje předchozí větu a neodpovídá německému přání hezkého dne.",
+      "currentCs": "Ona zde také pracuje.",
+      "proposedCs": "Také vám přeji hezký den."
+    },
+    {
+      "findingId": "FINAL702-A1-00042",
+      "cardId": "a1-aus",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.98,
+      "reason": "„Od“ je pro „aus“ zavádějící a „Ven“ nevyjadřuje základní původ či pohyb zevnitř.",
+      "currentCs": "Od • Ven",
+      "proposedCs": "Z • Zevnitř"
+    },
+    {
+      "findingId": "FINAL702-A1-00043",
+      "cardId": "a1-aufs",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": 0.97,
+      "reason": "„Kam • Na • Kam?“ je srozumitelné kontextové zobrazení směru a nejde o významovou chybu.",
+      "currentCs": "Kam • Na • Kam?"
+    }
+  ]
+}
