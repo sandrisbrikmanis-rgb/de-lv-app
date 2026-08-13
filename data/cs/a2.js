@@ -43250,7 +43250,7 @@ const A2_WORDS = [
     "de": "Nuss",
     "de_article": "die",
     "de_plural": "die Nüsse",
-    "lv": "Matice",
+    "lv": "Ořech",
     "level": "A2"
   },
   {
@@ -43275,7 +43275,7 @@ const A2_WORDS = [
         },
         {
           "de": "Wir nutzen diese Chance.",
-          "lv": "Využíváme této příležitosti."
+          "lv": "Využíváme tuto příležitost."
         },
         {
           "de": "Das nutzt mir nichts.",
@@ -43287,7 +43287,7 @@ const A2_WORDS = [
         },
         {
           "de": "Kann ich dein Fahrrad benutzen?",
-          "lv": "Mohu použít vaše kolo"
+          "lv": "Mohu použít tvé kolo?"
         }
       ],
       "comparison": [
@@ -43298,7 +43298,7 @@ const A2_WORDS = [
         },
         {
           "word": "benutzen",
-          "meaning": "Použití",
+          "meaning": "Používat",
           "example": "Ich benutze den Computer. = Používám počítač."
         },
         {
@@ -43313,7 +43313,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Když je kladen důraz na prospěch nebo příležitost, často se používá nitzen.",
+        "Když je kladen důraz na prospěch nebo příležitost, často se používá nutzen.",
         "Pokud jde o běžné použití zařízení nebo předmětu, často se používá benutzen."
       ],
       "important": [
@@ -43619,7 +43619,7 @@ const A2_WORDS = [
         },
         {
           "de": "Sie spricht offen über das Problem.",
-          "lv": "Je k problému otevřená."
+          "lv": "Mluví otevřeně o problému."
         },
         {
           "de": "Die Frage bleibt offen.",
@@ -43633,7 +43633,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "offen",
-          "meaning": "Otevřít / otevřít",
+          "meaning": "Otevřený • otevřeno",
           "example": "Die Tür ist offen. = Dveře jsou otevřené."
         },
         {
@@ -43648,7 +43648,7 @@ const A2_WORDS = [
         },
         {
           "word": "frei",
-          "meaning": "Uvolnit",
+          "meaning": "Volný",
           "example": "Der Platz ist frei. = Místo je volné."
         }
       ],
@@ -43901,21 +43901,21 @@ const A2_WORDS = [
     "de": "Öffnungszeit",
     "de_article": "die",
     "de_plural": "die Öffnungszeiten",
-    "lv": "Pracovní doba",
+    "lv": "Otevírací doba",
     "level": "A2"
   },
   {
     "de": "Öl",
     "de_article": "das",
     "de_plural": "die Öle",
-    "lv": "Ropa • Ropa",
+    "lv": "Olej",
     "level": "A2"
   },
   {
     "de": "Olive",
     "de_article": "die",
     "de_plural": "die Oliven",
-    "lv": "Olivový",
+    "lv": "Oliva",
     "level": "A2"
   },
   {
@@ -43941,7 +43941,7 @@ const A2_WORDS = [
   },
   {
     "de": "ordentlich",
-    "lv": "Elegantní",
+    "lv": "Pořádný",
     "level": "A2"
   },
   {
@@ -43953,7 +43953,7 @@ const A2_WORDS = [
     "de": "Ordnung",
     "de_article": "die",
     "de_plural": "die Ordnungen",
-    "lv": "Objednávka",
+    "lv": "Pořádek",
     "level": "A2"
   },
   {
@@ -43966,7 +43966,7 @@ const A2_WORDS = [
   {
     "de": "Osten",
     "de_article": "der",
-    "lv": "Na východě",
+    "lv": "Východ",
     "level": "A2"
   },
   {
@@ -44006,14 +44006,14 @@ const A2_WORDS = [
     "de": "Pappbecher",
     "de_article": "der",
     "de_plural": "die Pappbecher",
-    "lv": "Kartonový pohár",
+    "lv": "Kartonový kelímek",
     "level": "A2"
   },
   {
     "de": "Parfüm",
     "de_article": "das",
     "de_plural": "die Parfüms",
-    "lv": "Parfémy",
+    "lv": "Parfém",
     "level": "A2"
   },
   {
@@ -44074,7 +44074,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Was ist passiert?",
-          "lv": "Co se stalo"
+          "lv": "Co se stalo?"
         },
         {
           "de": "Das kann jedem passieren.",
@@ -44086,7 +44086,7 @@ const A2_WORDS = [
         },
         {
           "de": "Mir ist ein Fehler passiert.",
-          "lv": "Měl jsem chybu."
+          "lv": "Stala se mi chyba."
         },
         {
           "de": "So etwas passiert manchmal.",
@@ -44281,7 +44281,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-patient",
       "layout": "standardStudy",
-      "translation": "Pacienta",
+      "translation": "Pacient",
       "explanation": "Hlavní myšlenka: der Patient je osoba, která se léčí v nemocnici nebo v ordinaci lékaře. Ženská forma je die Patientin. Množné číslo: die Patienten.",
       "examples": [
         {
@@ -44290,7 +44290,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Ärztin untersucht den Patienten.",
-          "lv": "Lékař pacienta vyšetří."
+          "lv": "Lékařka pacienta vyšetřuje."
         },
         {
           "de": "Die Patientin fühlt sich besser.",
@@ -44305,7 +44305,7 @@ const A2_WORDS = [
         },
         {
           "word": "die Patientin",
-          "meaning": "Pacient",
+          "meaning": "Pacientka",
           "example": "Die Patientin ruht sich aus. = Pacient odpočívá."
         },
         {
@@ -44317,12 +44317,12 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "V lékařském kontextu se používá Patient/Pacientin. Kranke je obecnější slovo pro nemocného člověka."
+            "text": "V lékařském kontextu se používá Patient/Pacientka. Kranke je obecnější slovo pro nemocného člověka."
           }
         ]
       },
       "important": {
-        "text": "Der Patient = pacient. die Patientin = pacient. Množné číslo: die Patienten."
+        "text": "Der Patient = pacient. Die Patientin = pacientka. Množné číslo: die Patienten."
       },
       "sectionAccents": {
         "explanation": {
@@ -44378,14 +44378,14 @@ const A2_WORDS = [
   {
     "de": "Pech",
     "de_article": "das",
-    "lv": "Selhání",
+    "lv": "Smůla",
     "level": "A2"
   },
   {
     "de": "Pension",
     "de_article": "die",
     "de_plural": "die Pensionen",
-    "lv": "Penzion • Penzion",
+    "lv": "Penzion",
     "level": "A2"
   },
   {
@@ -44442,7 +44442,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Das Osobní = osobní (jednotné, kolektivní). Obvykle ne *die Personale."
+        "text": "Das Personal = personál (jednotné číslo, kolektivní podstatné jméno). Obvykle ne *die Personale."
       },
       "sectionAccents": {
         "explanation": {
@@ -44562,7 +44562,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-pflaster",
       "layout": "standardStudy",
-      "translation": "Záplata • Chodník",
+      "translation": "Náplast • Dlažba",
       "explanation": [
         "Hlavní myšlenka: das Pflaster je dvouznakové slovo - záplata nebo chodník, v závislosti na kontextu.",
         "V medicíně a doma Pflaster znamená náplast, která se aplikuje na ránu nebo škrábnutí.",
@@ -44590,13 +44590,13 @@ const A2_WORDS = [
             "text": "Když se mluví o ráně nebo kůži, Pflaster znamená náplast."
           },
           {
-            "text": "Pokud jde o ulici, náměstí nebo procházku, Pflaster znamená chodník."
+            "text": "Pokud jde o ulici, náměstí nebo procházku, Pflaster znamená dlažbu."
           }
         ]
       },
       "important": {
         "text": "Pflaster v lékařství = náplast.",
-        "example": "Pflaster uz ielas = Dlažba. Das Pflaster klebt nicht je obvykle o záplatě."
+        "example": "Pflaster na ulici = dlažba. Das Pflaster klebt nicht se obvykle týká náplasti."
       },
       "sectionAccents": {
         "examples": [
@@ -44935,7 +44935,7 @@ const A2_WORDS = [
     "de": "Portion",
     "de_article": "die",
     "de_plural": "die Portionen",
-    "lv": "Část",
+    "lv": "Porce",
     "level": "A2"
   },
   {
@@ -44971,7 +44971,7 @@ const A2_WORDS = [
   },
   {
     "de": "privat",
-    "lv": "Soukromé",
+    "lv": "Soukromý",
     "level": "A2"
   },
   {
@@ -45008,7 +45008,7 @@ const A2_WORDS = [
   },
   {
     "de": "pünktlich",
-    "lv": "Přesný",
+    "lv": "Dochvilný",
     "level": "A2"
   },
   {
@@ -45022,21 +45022,21 @@ const A2_WORDS = [
     "de": "Putzfrau",
     "de_article": "die",
     "de_plural": "die Putzfrauen",
-    "lv": "Čistič",
+    "lv": "Uklízečka",
     "level": "A2"
   },
   {
     "de": "Quadrat",
     "de_article": "das",
     "de_plural": "die Quadrate",
-    "lv": "Náměstí",
+    "lv": "Čtverec",
     "level": "A2"
   },
   {
     "de": "Qualität",
     "de_article": "die",
     "de_plural": "die Qualitäten",
-    "lv": "Kvalitní",
+    "lv": "Kvalita",
     "level": "A2"
   },
   {
@@ -45049,7 +45049,7 @@ const A2_WORDS = [
     "de": "Quittung",
     "de_article": "die",
     "de_plural": "die Quittungen",
-    "lv": "Příjem",
+    "lv": "Účtenka",
     "level": "A2"
   },
   {
@@ -45076,7 +45076,7 @@ const A2_WORDS = [
         },
         {
           "de": "Mein Rad steht vor dem Haus.",
-          "lv": "Moje kolo je zaparkované před domem."
+          "lv": "Moje kolo stojí před domem."
         },
         {
           "de": "Das Auto hat vier Räder.",
@@ -45273,13 +45273,13 @@ const A2_WORDS = [
     "de": "Radieschen",
     "de_article": "das",
     "de_plural": "die Radieschen",
-    "lv": "Ředkev",
+    "lv": "Ředkvička",
     "level": "A2"
   },
   {
     "de": "Rahm",
     "de_article": "der",
-    "lv": "Smetana sladká",
+    "lv": "Sladká smetana",
     "level": "A2"
   },
   {
@@ -45308,7 +45308,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Der Rasen ist grün.",
-          "lv": "Tráva je zelená."
+          "lv": "Trávník je zelený."
         },
         {
           "de": "Ich mähe den Rasen.",
@@ -45320,16 +45320,16 @@ const A2_WORDS = [
         },
         {
           "de": "Bitte den Rasen nicht betreten.",
-          "lv": "Prosím nevstupujte do trávy."
+          "lv": "Prosím, nevstupujte na trávník."
         }
       ],
       "tip": [
         "Der Rasen s velkým písmenem - podstatné jméno (trávník).",
-        "Rasen s malým písmenem - sloveso (žertovat)."
+        "Rasen s malým písmenem – sloveso (řítit se, uhánět)."
       ],
       "important": [
         "Der Rasen = trávník (podstatné jméno).",
-        "Rasen = trápit se (sloveso)."
+        "Rasen = řítit se, uhánět (sloveso)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45433,7 +45433,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-raten",
       "layout": "standardStudy",
-      "translation": "Navrhnout • Hádat",
+      "translation": "Radit • Hádat",
       "explanation": [
         "Hlavní myšlenka: raten znamená poradit nebo zkusit uhodnout.",
         "Když někomu dáváte radu, v němčině často používáte raten s čím? formulář.",
@@ -45444,15 +45444,15 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich rate dir, zum Arzt zu gehen.",
-          "lv": "Doporučuji vám jít k lékaři."
+          "lv": "Doporučuji ti jít k lékaři."
         },
         {
           "de": "Was rätst du mir?",
-          "lv": "Co mi doporučíte?"
+          "lv": "Co mi doporučíš?"
         },
         {
           "de": "Kannst du die Antwort raten?",
-          "lv": "Můžete hádat odpověď?"
+          "lv": "Můžeš hádat odpověď?"
         },
         {
           "de": "Er hat richtig geraten.",
@@ -45464,7 +45464,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Pokud existuje osoba pro koho? v konjugaci je často význam naznačovat.",
+        "Pokud po raten následuje osoba v dativu (komu?), má často význam radit nebo doporučovat.",
         "Pokud po raten následuje Antwort, Lösung nebo Zahl, význam je často hádat."
       ],
       "important": [
@@ -45682,7 +45682,7 @@ const A2_WORDS = [
     "de": "Raum",
     "de_article": "der",
     "de_plural": "die Räume",
-    "lv": "Plocha",
+    "lv": "Místnost",
     "level": "A2"
   },
   {
@@ -45719,7 +45719,7 @@ const A2_WORDS = [
         },
         {
           "de": "Du musst mit Problemen rechnen.",
-          "lv": "Musíte očekávat problémy."
+          "lv": "Musíš očekávat problémy."
         }
       ],
       "tip": [
@@ -45913,20 +45913,20 @@ const A2_WORDS = [
     "de": "Rechnung",
     "de_article": "die",
     "de_plural": "die Rechnungen",
-    "lv": "Účtovat",
+    "lv": "Účet",
     "level": "A2"
   },
   {
     "de": "Recht",
     "de_article": "das",
     "de_plural": "die Rechte",
-    "lv": "Práv",
+    "lv": "Právo",
     "level": "A2"
   },
   {
     "de": "Rechte",
     "de_article": "die",
-    "lv": "Pravá ruka",
+    "lv": "Práva",
     "level": "A2"
   },
   {
@@ -45980,7 +45980,7 @@ const A2_WORDS = [
     "de": "Reich",
     "de_article": "das",
     "de_plural": "die Reiche",
-    "lv": "Země • Říše • Království",
+    "lv": "Říše",
     "level": "A2"
   },
   {
@@ -45990,7 +45990,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-reichen",
       "layout": "standardStudy",
-      "translation": "Stačí • Přítomný",
+      "translation": "Stačit • Podat",
       "explanation": [
         "Hlavní myšlenka: reichen znamená stačit nebo sloužit, v závislosti na trestu.",
         "Pokud jde o množství, čas nebo peníze, reichen často znamená dost.",
@@ -46001,15 +46001,15 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das Geld reicht nicht.",
-          "lv": "Není dost peněz."
+          "lv": "Peníze nestačí."
         },
         {
           "de": "Das reicht für heute.",
-          "lv": "Pro dnešek dost."
+          "lv": "To na dnešek stačí."
         },
         {
           "de": "Kannst du mir das Salz reichen?",
-          "lv": "Můžeš mi dát trochu soli"
+          "lv": "Můžeš mi podat sůl?"
         },
         {
           "de": "Der Weg reicht bis zum Fluss.",
@@ -46021,12 +46021,12 @@ const A2_WORDS = [
         },
         {
           "de": "Das reicht.",
-          "lv": "Dost"
+          "lv": "To stačí."
         }
       ],
       "tip": [
         "Když věta obsahuje Geld, Zeit nebo genug, reichen často znamená dost.",
-        "Pokud někdo něco dává rukou, reichen znamená prezentovat."
+        "Pokud někdo něco podává rukou, reichen znamená podat."
       ],
       "important": [
         "Das reicht je velmi rozšířená fráze s významem stačí.",
@@ -46225,7 +46225,7 @@ const A2_WORDS = [
     "de": "Reihe",
     "de_article": "die",
     "de_plural": "die Reihen",
-    "lv": "Řádek",
+    "lv": "Řada",
     "level": "A2"
   },
   {
@@ -46268,7 +46268,7 @@ const A2_WORDS = [
   },
   {
     "de": "reiten",
-    "lv": "Jezdit",
+    "lv": "Jezdit na koni",
     "level": "A2"
   },
   {
@@ -46282,7 +46282,7 @@ const A2_WORDS = [
     "de": "Rennen",
     "de_article": "das",
     "de_plural": "die Rennen",
-    "lv": "Závod • Závod",
+    "lv": "Běh",
     "level": "A2"
   },
   {
@@ -46303,7 +46303,7 @@ const A2_WORDS = [
     "de": "Reparatur",
     "de_article": "die",
     "de_plural": "die Reparaturen",
-    "lv": "Opravit",
+    "lv": "Oprava",
     "level": "A2"
   },
   {
@@ -46320,7 +46320,7 @@ const A2_WORDS = [
     "de": "Rest",
     "de_article": "der",
     "de_plural": "die Reste",
-    "lv": "Zbytek • Přebytek • Útržek látky",
+    "lv": "Zbytek",
     "level": "A2"
   },
   {
@@ -46332,14 +46332,14 @@ const A2_WORDS = [
   },
   {
     "de": "retten",
-    "lv": "Uložit",
+    "lv": "Zachránit",
     "level": "A2"
   },
   {
     "de": "Rezeption",
     "de_article": "die",
     "de_plural": "die Rezeptionen",
-    "lv": "Příjem • Příjem",
+    "lv": "Recepce",
     "level": "A2"
   },
   {
@@ -46375,7 +46375,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Hund riecht an der Tasche.",
-          "lv": "Psí přístav finština."
+          "lv": "Pes čichá k tašce."
         },
         {
           "de": "Ich kann den Rauch riechen.",
@@ -46398,22 +46398,22 @@ const A2_WORDS = [
         },
         {
           "word": "an etwas riechen",
-          "meaning": "Něco cítit",
-          "example": "Der Hund riecht an der Tasche. = Psí přístav ve Finsku."
+          "meaning": "Čichat k něčemu",
+          "example": "Der Hund riecht an der Tasche. = Pes čichá k tašce."
         },
         {
           "word": "nach etwas riechen",
-          "meaning": "Cítit něčím",
+          "meaning": "Vonět po něčem",
           "example": "Es riecht nach Kaffee. = Voní jako káva."
         },
         {
           "word": "duften",
-          "meaning": "Příjemná na vůni",
+          "meaning": "Příjemně vonět",
           "example": "Die Blumen duften. = Květiny voní."
         },
         {
           "word": "stinken",
-          "meaning": "Vonět",
+          "meaning": "Smrdět",
           "example": "Der Müll stinkt. = Odpad smrdí."
         }
       ],
@@ -46722,12 +46722,12 @@ const A2_WORDS = [
     "de": "Rock",
     "de_article": "der",
     "de_plural": "die Röcke",
-    "lv": "Sukně • Blejzr",
+    "lv": "Sukně",
     "level": "A2"
   },
   {
     "de": "rodeln",
-    "lv": "Sáňkování z kopce",
+    "lv": "Sáňkovat",
     "level": "A2"
   },
   {
@@ -46751,8 +46751,8 @@ const A2_WORDS = [
     "study": {
       "id": "a2-rolle",
       "layout": "standardStudy",
-      "translation": "Role • Válet",
-      "explanation": "Die Rolle velmi často znamená roli ve filmu, díle nebo situaci. Fráze eine Rolle spielen znamená hrát roli nebo být důležitý. Role může také znamenat roli nebo váleček, jako je role papíru. V kontextu divadla a filmu je role rolí. V souvislosti s předměty je to často role nebo váleček.",
+      "translation": "Role • Rolka",
+      "explanation": "Die Rolle velmi často znamená roli ve filmu, díle nebo situaci. Fráze eine Rolle spielen znamená hrát roli nebo být důležitý. Role může také znamenat rolku nebo váleček, například papíru. V kontextu divadla a filmu je role rolí. V souvislosti s předměty je to často role nebo váleček.",
       "examples": [
         {
           "de": "Sie spielt eine wichtige Rolle im Team.",
@@ -46768,11 +46768,11 @@ const A2_WORDS = [
         },
         {
           "de": "Ich brauche eine Rolle Papier.",
-          "lv": "Potřebuji roli papíru."
+          "lv": "Potřebuji rolku papíru."
         },
         {
           "de": "Die Rolle liegt auf dem Tisch.",
-          "lv": "Svitek je na stole."
+          "lv": "Rolka je na stole."
         },
         {
           "de": "Welche Rolle spielst du?",
@@ -46809,7 +46809,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Eine Rolle spielen znamená „hrát roli“ nebo „mít roli“."
+            "text": "Eine Rolle spielen znamená „hrát roli“ nebo „být důležitý“."
           },
           {
             "text": "Když se odkazuje na papír, látku nebo předmět, Rolle obvykle znamená roli."
@@ -47218,7 +47218,7 @@ const A2_WORDS = [
   {
     "de": "Ruhe",
     "de_article": "die",
-    "lv": "Mír",
+    "lv": "Klid",
     "level": "A2"
   },
   {
