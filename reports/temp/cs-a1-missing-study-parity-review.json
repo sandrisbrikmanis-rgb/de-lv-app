@@ -1,0 +1,5871 @@
+{
+  "summary": {
+    "totalAuditFindings": 14,
+    "uniqueCards": 14,
+    "processed": "14/14",
+    "mappingConfirmed": 14,
+    "mappingNeedsOwnerReview": 0,
+    "missingFullStudy": 10,
+    "missingStudyFields": 4,
+    "structureDifference": 0,
+    "integrity": {
+      "productionChanges": 0,
+      "deChanges": 0,
+      "cards": 702,
+      "idUniqueness": "PASS",
+      "idOrder": "PASS",
+      "syntax": "PASS",
+      "mirror": "PASS"
+    },
+    "generatedAt": "2026-08-13T14:13:10.878Z",
+    "sourceValidatedJson": "reports/temp/cs-a1-final-audit-on-main-validated.json",
+    "lvReference": "data/a1.js",
+    "csProduction": "data/cs/a1.js"
+  },
+  "cards": [
+    {
+      "number": 1,
+      "auditFindingId": "MAIN-A1-00004",
+      "cardId": "a1-Besuch-87",
+      "index": 87,
+      "deIdentity": {
+        "cardId": "a1-Besuch-87",
+        "index": 87,
+        "lvDe": "Besuch",
+        "csDe": "Besuch",
+        "lvDeArticle": "der",
+        "csDeArticle": "der",
+        "lvDePlural": "die Besuche",
+        "csDePlural": "die Besuche",
+        "deLemmaMatch": true,
+        "deArticleMatch": true,
+        "dePluralMatch": true,
+        "orderAligned": true,
+        "lvCardId": "a1-besuch",
+        "csCardId": "a1-Besuch-87",
+        "auditCardId": "a1-Besuch-87",
+        "cardIdMatch": false
+      },
+      "mappingStatus": "CONFIRMED",
+      "parityStatus": "MISSING_FULL_STUDY",
+      "lvStudyMeta": {
+        "hasStudy": true,
+        "studyType": "standardStudy",
+        "studyKeys": [
+          "comparison",
+          "examples",
+          "explanation",
+          "id",
+          "important",
+          "layout",
+          "sectionAccents",
+          "tip",
+          "translation"
+        ],
+        "studyId": "a1-besuch"
+      },
+      "csStudyMeta": {
+        "hasStudy": false,
+        "studyType": null,
+        "studyKeys": [],
+        "studyId": null
+      },
+      "missingStudyFields": [
+        "id",
+        "layout",
+        "translation",
+        "explanation",
+        "examples",
+        "examples[0].de",
+        "examples[0].lv",
+        "examples[1].de",
+        "examples[1].lv",
+        "examples[2].de",
+        "examples[2].lv",
+        "comparison",
+        "comparison[0].word",
+        "comparison[0].meaning",
+        "comparison[0].example",
+        "comparison[1].word",
+        "comparison[1].meaning",
+        "comparison[1].example",
+        "comparison[2].word",
+        "comparison[2].meaning",
+        "comparison[2].example",
+        "tip",
+        "tip.text",
+        "important",
+        "sectionAccents",
+        "sectionAccents.explanation",
+        "sectionAccents.explanation.blue",
+        "sectionAccents.explanation.purple",
+        "sectionAccents.examples",
+        "sectionAccents.examples[0].de",
+        "sectionAccents.examples[0].de.blue",
+        "sectionAccents.examples[0].de.green",
+        "sectionAccents.examples[0].lv",
+        "sectionAccents.examples[0].lv.purple",
+        "sectionAccents.examples[0].lv.green",
+        "sectionAccents.examples[1].de",
+        "sectionAccents.examples[1].de.blue",
+        "sectionAccents.examples[1].lv",
+        "sectionAccents.examples[1].lv.purple",
+        "sectionAccents.examples[2].de",
+        "sectionAccents.examples[2].de.blue",
+        "sectionAccents.examples[2].de.green",
+        "sectionAccents.examples[2].lv",
+        "sectionAccents.examples[2].lv.purple",
+        "sectionAccents.examples[2].lv.green",
+        "sectionAccents.comparison",
+        "sectionAccents.comparison[0].word",
+        "sectionAccents.comparison[0].word.green",
+        "sectionAccents.comparison[0].meaning",
+        "sectionAccents.comparison[0].meaning.purple",
+        "sectionAccents.comparison[1].word",
+        "sectionAccents.comparison[1].word.green",
+        "sectionAccents.comparison[1].meaning",
+        "sectionAccents.comparison[1].meaning.purple",
+        "sectionAccents.comparison[2].word",
+        "sectionAccents.comparison[2].word.green",
+        "sectionAccents.comparison[2].meaning",
+        "sectionAccents.comparison[2].meaning.purple",
+        "sectionAccents.tip",
+        "sectionAccents.tip.left",
+        "sectionAccents.tip.left.blue",
+        "sectionAccents.tip.left.purple",
+        "sectionAccents.tip.left.green",
+        "sectionAccents.important",
+        "sectionAccents.important[0].blue",
+        "sectionAccents.important[0].purple",
+        "sectionAccents.important[1].blue"
+      ],
+      "extraCsStudyFields": [],
+      "lvCard": {
+        "de": "Besuch",
+        "de_article": "der",
+        "de_plural": "die Besuche",
+        "lv": "apmeklējums",
+        "level": "A1",
+        "study": {
+          "id": "a1-besuch",
+          "layout": "standardStudy",
+          "translation": "apmeklējums",
+          "explanation": [
+            "Galvenā doma: der Besuch nozīmē apmeklējumu, vizīti vai apciemojumu.",
+            "Ja runa ir par vietu vai pasākumu, latviski piemērots ir apmeklējums.",
+            "Ja runa ir par cilvēka apmeklēšanu, latviski var teikt apciemojums vai vizīte.",
+            "Daudzskaitlis ir die Besuche."
+          ],
+          "examples": [
+            {
+              "de": "Der Besuch im Museum war interessant.",
+              "lv": "Muzeja apmeklējums bija interesants."
+            },
+            {
+              "de": "Danke für deinen Besuch.",
+              "lv": "Paldies par tavu apciemojumu."
+            },
+            {
+              "de": "Der Arzt macht einen Besuch.",
+              "lv": "Ārsts dodas vizītē."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Besuch",
+              "meaning": "apmeklējums • apciemojums • vizīte",
+              "example": "Danke für deinen Besuch. – Paldies par tavu apciemojumu."
+            },
+            {
+              "word": "der Besucher",
+              "meaning": "apmeklētājs",
+              "example": "Der Besucher wartet draußen. – Apmeklētājs gaida ārā."
+            },
+            {
+              "word": "besuchen",
+              "meaning": "apmeklēt • apciemot",
+              "example": "Ich besuche meine Großeltern. – Es apciemoju savus vecvecākus."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: Besuch ir notikums vai vizīte, bet Besucher ir cilvēks."
+          },
+          "important": [
+            "der Besuch nav tikai apciemojums; tas var būt arī apmeklējums vai vizīte.",
+            "Daudzskaitlis: die Besuche."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "der Besuch",
+                "die Besuche"
+              ],
+              "purple": [
+                "apmeklējums",
+                "apciemojums",
+                "vizīte"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Besuch"
+                  ],
+                  "green": [
+                    "Museum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "apmeklējums"
+                  ],
+                  "green": [
+                    "Muzeja"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Besuch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "apciemojumu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Besuch"
+                  ],
+                  "green": [
+                    "Arzt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vizītē"
+                  ],
+                  "green": [
+                    "Ārsts"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "der Besuch"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "apmeklējums",
+                    "apciemojums",
+                    "vizīte"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "der Besucher"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "apmeklētājs"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "besuchen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "apmeklēt",
+                    "apciemot"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Besuch"
+                ],
+                "purple": [
+                  "notikums",
+                  "vizīte"
+                ],
+                "green": [
+                  "Besucher"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "der Besuch"
+                ],
+                "purple": [
+                  "apmeklējums",
+                  "apciemojums",
+                  "vizīte"
+                ]
+              },
+              {
+                "blue": [
+                  "die Besuche"
+                ]
+              }
+            ]
+          }
+        },
+        "_meta": {
+          "index": 87,
+          "cardId": "a1-besuch",
+          "lang": "LV"
+        }
+      },
+      "csCard": {
+        "de": "Besuch",
+        "de_article": "der",
+        "de_plural": "die Besuche",
+        "lv": "Návštěva",
+        "level": "A1",
+        "_meta": {
+          "index": 87,
+          "cardId": "a1-Besuch-87",
+          "lang": "CS"
+        }
+      },
+      "lvStudy": {
+        "id": "a1-besuch",
+        "layout": "standardStudy",
+        "translation": "apmeklējums",
+        "explanation": [
+          "Galvenā doma: der Besuch nozīmē apmeklējumu, vizīti vai apciemojumu.",
+          "Ja runa ir par vietu vai pasākumu, latviski piemērots ir apmeklējums.",
+          "Ja runa ir par cilvēka apmeklēšanu, latviski var teikt apciemojums vai vizīte.",
+          "Daudzskaitlis ir die Besuche."
+        ],
+        "examples": [
+          {
+            "de": "Der Besuch im Museum war interessant.",
+            "lv": "Muzeja apmeklējums bija interesants."
+          },
+          {
+            "de": "Danke für deinen Besuch.",
+            "lv": "Paldies par tavu apciemojumu."
+          },
+          {
+            "de": "Der Arzt macht einen Besuch.",
+            "lv": "Ārsts dodas vizītē."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "der Besuch",
+            "meaning": "apmeklējums • apciemojums • vizīte",
+            "example": "Danke für deinen Besuch. – Paldies par tavu apciemojumu."
+          },
+          {
+            "word": "der Besucher",
+            "meaning": "apmeklētājs",
+            "example": "Der Besucher wartet draußen. – Apmeklētājs gaida ārā."
+          },
+          {
+            "word": "besuchen",
+            "meaning": "apmeklēt • apciemot",
+            "example": "Ich besuche meine Großeltern. – Es apciemoju savus vecvecākus."
+          }
+        ],
+        "tip": {
+          "text": "Atceries: Besuch ir notikums vai vizīte, bet Besucher ir cilvēks."
+        },
+        "important": [
+          "der Besuch nav tikai apciemojums; tas var būt arī apmeklējums vai vizīte.",
+          "Daudzskaitlis: die Besuche."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "der Besuch",
+              "die Besuche"
+            ],
+            "purple": [
+              "apmeklējums",
+              "apciemojums",
+              "vizīte"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Besuch"
+                ],
+                "green": [
+                  "Museum"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "apmeklējums"
+                ],
+                "green": [
+                  "Muzeja"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Besuch"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "apciemojumu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Besuch"
+                ],
+                "green": [
+                  "Arzt"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "vizītē"
+                ],
+                "green": [
+                  "Ārsts"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "der Besuch"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "apmeklējums",
+                  "apciemojums",
+                  "vizīte"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "der Besucher"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "apmeklētājs"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "besuchen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "apmeklēt",
+                  "apciemot"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "Besuch"
+              ],
+              "purple": [
+                "notikums",
+                "vizīte"
+              ],
+              "green": [
+                "Besucher"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "der Besuch"
+              ],
+              "purple": [
+                "apmeklējums",
+                "apciemojums",
+                "vizīte"
+              ]
+            },
+            {
+              "blue": [
+                "die Besuche"
+              ]
+            }
+          ]
+        }
+      },
+      "csStudy": null,
+      "notes": [
+        "Missing fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.tip.text, study.important",
+        "Audit findingId: MAIN-A1-00004",
+        "Audit cardId: a1-Besuch-87",
+        "LV cardId at index: a1-besuch",
+        "CS cardId at index: a1-Besuch-87",
+        "LV study keys: 9",
+        "CS study keys: 0",
+        "CardId strings differ between LV study.id and CS entryId; mapped by shared index + DE lemma.",
+        "Missing vs LV: id, layout, translation, explanation, examples, examples[0].de, examples[0].lv, examples[1].de, examples[1].lv, examples[2].de, examples[2].lv, comparison, comparison[0].word, comparison[0].meaning, comparison[0].example, comparison[1].word, comparison[1].meaning, comparison[1].example, comparison[2].word, comparison[2].meaning, comparison[2].example, tip, tip.text, important, sectionAccents, sectionAccents.explanation, sectionAccents.explanation.blue, sectionAccents.explanation.purple, sectionAccents.examples, sectionAccents.examples[0].de, sectionAccents.examples[0].de.blue, sectionAccents.examples[0].de.green, sectionAccents.examples[0].lv, sectionAccents.examples[0].lv.purple, sectionAccents.examples[0].lv.green, sectionAccents.examples[1].de, sectionAccents.examples[1].de.blue, sectionAccents.examples[1].lv, sectionAccents.examples[1].lv.purple, sectionAccents.examples[2].de, sectionAccents.examples[2].de.blue, sectionAccents.examples[2].de.green, sectionAccents.examples[2].lv, sectionAccents.examples[2].lv.purple, sectionAccents.examples[2].lv.green, sectionAccents.comparison, sectionAccents.comparison[0].word, sectionAccents.comparison[0].word.green, sectionAccents.comparison[0].meaning, sectionAccents.comparison[0].meaning.purple, sectionAccents.comparison[1].word, sectionAccents.comparison[1].word.green, sectionAccents.comparison[1].meaning, sectionAccents.comparison[1].meaning.purple, sectionAccents.comparison[2].word, sectionAccents.comparison[2].word.green, sectionAccents.comparison[2].meaning, sectionAccents.comparison[2].meaning.purple, sectionAccents.tip, sectionAccents.tip.left, sectionAccents.tip.left.blue, sectionAccents.tip.left.purple, sectionAccents.tip.left.green, sectionAccents.important, sectionAccents.important[0].blue, sectionAccents.important[0].purple, sectionAccents.important[1].blue"
+      ]
+    },
+    {
+      "number": 2,
+      "auditFindingId": "MAIN-A1-00007",
+      "cardId": "a1-besuchen-89",
+      "index": 89,
+      "deIdentity": {
+        "cardId": "a1-besuchen-89",
+        "index": 89,
+        "lvDe": "besuchen",
+        "csDe": "besuchen",
+        "lvDeArticle": null,
+        "csDeArticle": null,
+        "lvDePlural": null,
+        "csDePlural": null,
+        "deLemmaMatch": true,
+        "deArticleMatch": true,
+        "dePluralMatch": true,
+        "orderAligned": true,
+        "lvCardId": "a1-besuchen",
+        "csCardId": "a1-besuchen-89",
+        "auditCardId": "a1-besuchen-89",
+        "cardIdMatch": false
+      },
+      "mappingStatus": "CONFIRMED",
+      "parityStatus": "MISSING_FULL_STUDY",
+      "lvStudyMeta": {
+        "hasStudy": true,
+        "studyType": "standardStudy",
+        "studyKeys": [
+          "comparison",
+          "examples",
+          "explanation",
+          "id",
+          "important",
+          "layout",
+          "sectionAccents",
+          "tip",
+          "translation"
+        ],
+        "studyId": "a1-besuchen"
+      },
+      "csStudyMeta": {
+        "hasStudy": false,
+        "studyType": null,
+        "studyKeys": [],
+        "studyId": null
+      },
+      "missingStudyFields": [
+        "id",
+        "layout",
+        "translation",
+        "explanation",
+        "examples",
+        "examples[0].de",
+        "examples[0].lv",
+        "examples[1].de",
+        "examples[1].lv",
+        "examples[2].de",
+        "examples[2].lv",
+        "comparison",
+        "comparison[0].word",
+        "comparison[0].meaning",
+        "comparison[0].example",
+        "comparison[1].word",
+        "comparison[1].meaning",
+        "comparison[1].example",
+        "comparison[2].word",
+        "comparison[2].meaning",
+        "comparison[2].example",
+        "tip",
+        "tip.text",
+        "important",
+        "sectionAccents",
+        "sectionAccents.explanation",
+        "sectionAccents.explanation.blue",
+        "sectionAccents.explanation.purple",
+        "sectionAccents.explanation.green",
+        "sectionAccents.examples",
+        "sectionAccents.examples[0].de",
+        "sectionAccents.examples[0].de.blue",
+        "sectionAccents.examples[0].de.green",
+        "sectionAccents.examples[0].lv",
+        "sectionAccents.examples[0].lv.purple",
+        "sectionAccents.examples[0].lv.green",
+        "sectionAccents.examples[1].de",
+        "sectionAccents.examples[1].de.blue",
+        "sectionAccents.examples[1].de.green",
+        "sectionAccents.examples[1].lv",
+        "sectionAccents.examples[1].lv.purple",
+        "sectionAccents.examples[1].lv.green",
+        "sectionAccents.examples[2].de",
+        "sectionAccents.examples[2].de.blue",
+        "sectionAccents.examples[2].de.green",
+        "sectionAccents.examples[2].lv",
+        "sectionAccents.examples[2].lv.purple",
+        "sectionAccents.examples[2].lv.green",
+        "sectionAccents.comparison",
+        "sectionAccents.comparison[0].word",
+        "sectionAccents.comparison[0].word.green",
+        "sectionAccents.comparison[0].meaning",
+        "sectionAccents.comparison[0].meaning.purple",
+        "sectionAccents.comparison[0].example",
+        "sectionAccents.comparison[0].example.blue",
+        "sectionAccents.comparison[0].example.purple",
+        "sectionAccents.comparison[1].word",
+        "sectionAccents.comparison[1].word.green",
+        "sectionAccents.comparison[1].meaning",
+        "sectionAccents.comparison[1].meaning.purple",
+        "sectionAccents.comparison[1].example",
+        "sectionAccents.comparison[1].example.yellow",
+        "sectionAccents.comparison[2].word",
+        "sectionAccents.comparison[2].word.green",
+        "sectionAccents.comparison[2].meaning",
+        "sectionAccents.comparison[2].meaning.purple",
+        "sectionAccents.comparison[2].example",
+        "sectionAccents.comparison[2].example.yellow",
+        "sectionAccents.tip",
+        "sectionAccents.tip.left",
+        "sectionAccents.tip.left.blue",
+        "sectionAccents.tip.left.purple",
+        "sectionAccents.important",
+        "sectionAccents.important[0].blue",
+        "sectionAccents.important[0].purple",
+        "sectionAccents.important[1].green",
+        "sectionAccents.important[1].purple"
+      ],
+      "extraCsStudyFields": [],
+      "lvCard": {
+        "de": "besuchen",
+        "lv": "apmeklēt",
+        "level": "A1",
+        "study": {
+          "id": "a1-besuchen",
+          "layout": "standardStudy",
+          "translation": "apmeklēt",
+          "explanation": [
+            "Galvenā doma: besuchen lieto, apmeklējot vietu, pasākumu vai personu.",
+            "Vietu, pasākumu vai kursu latviski parasti apmeklē.",
+            "Ja besuchen attiecas uz cilvēku, latviski bieži dabiskāk ir apciemot.",
+            "Vācu valodā besuchen lieto bez prievārda un ar akuzatīvu."
+          ],
+          "examples": [
+            {
+              "de": "Ich besuche das Museum.",
+              "lv": "Es apmeklēju muzeju."
+            },
+            {
+              "de": "Wir besuchen einen Deutschkurs.",
+              "lv": "Mēs apmeklējam vācu valodas kursu."
+            },
+            {
+              "de": "Ich besuche meine Großeltern.",
+              "lv": "Es apciemoju savus vecvecākus."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "besuchen",
+              "meaning": "apmeklēt vietu vai pasākumu • apciemot personu",
+              "example": "Ich besuche meine Großeltern. – Es apciemoju savus vecvecākus."
+            },
+            {
+              "word": "treffen",
+              "meaning": "satikt",
+              "example": "Ich treffe meinen Freund. – Es satieku savu draugu."
+            },
+            {
+              "word": "zu jemandem gehen",
+              "meaning": "iet pie kāda",
+              "example": "Ich gehe zu meinem Freund. – Es eju pie sava drauga."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: vietu apmeklē, bet personu latviski bieži apciemo."
+          },
+          "important": [
+            "besuchen lieto bez prievārda: Ich besuche meine Freundin.",
+            "Latviešu tulkojums ir atkarīgs no objekta: apmeklēt vietu, apciemot personu."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "besuchen"
+              ],
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ],
+              "green": [
+                "vietu",
+                "pasākumu",
+                "personu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "besuche"
+                  ],
+                  "green": [
+                    "Museum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "apmeklēju"
+                  ],
+                  "green": [
+                    "muzeju"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "besuchen"
+                  ],
+                  "green": [
+                    "Deutschkurs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "apmeklējam"
+                  ],
+                  "green": [
+                    "vācu valodas kursu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "besuche"
+                  ],
+                  "green": [
+                    "Großeltern"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "apciemoju"
+                  ],
+                  "green": [
+                    "vecvecākus"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "besuchen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "apmeklēt",
+                    "apciemot"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "besuche"
+                  ],
+                  "purple": [
+                    "apciemoju"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "treffen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "satikt"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "treffe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zu jemandem gehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "iet pie kāda"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "gehe zu"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "besuchen"
+                ],
+                "purple": [
+                  "apmeklēt",
+                  "apciemot"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "besuchen"
+                ],
+                "purple": [
+                  "bez prievārda"
+                ]
+              },
+              {
+                "green": [
+                  "vietu",
+                  "personu"
+                ],
+                "purple": [
+                  "apmeklēt",
+                  "apciemot"
+                ]
+              }
+            ]
+          }
+        },
+        "_meta": {
+          "index": 89,
+          "cardId": "a1-besuchen",
+          "lang": "LV"
+        }
+      },
+      "csCard": {
+        "de": "besuchen",
+        "lv": "Navštívit",
+        "level": "A1",
+        "_meta": {
+          "index": 89,
+          "cardId": "a1-besuchen-89",
+          "lang": "CS"
+        }
+      },
+      "lvStudy": {
+        "id": "a1-besuchen",
+        "layout": "standardStudy",
+        "translation": "apmeklēt",
+        "explanation": [
+          "Galvenā doma: besuchen lieto, apmeklējot vietu, pasākumu vai personu.",
+          "Vietu, pasākumu vai kursu latviski parasti apmeklē.",
+          "Ja besuchen attiecas uz cilvēku, latviski bieži dabiskāk ir apciemot.",
+          "Vācu valodā besuchen lieto bez prievārda un ar akuzatīvu."
+        ],
+        "examples": [
+          {
+            "de": "Ich besuche das Museum.",
+            "lv": "Es apmeklēju muzeju."
+          },
+          {
+            "de": "Wir besuchen einen Deutschkurs.",
+            "lv": "Mēs apmeklējam vācu valodas kursu."
+          },
+          {
+            "de": "Ich besuche meine Großeltern.",
+            "lv": "Es apciemoju savus vecvecākus."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "besuchen",
+            "meaning": "apmeklēt vietu vai pasākumu • apciemot personu",
+            "example": "Ich besuche meine Großeltern. – Es apciemoju savus vecvecākus."
+          },
+          {
+            "word": "treffen",
+            "meaning": "satikt",
+            "example": "Ich treffe meinen Freund. – Es satieku savu draugu."
+          },
+          {
+            "word": "zu jemandem gehen",
+            "meaning": "iet pie kāda",
+            "example": "Ich gehe zu meinem Freund. – Es eju pie sava drauga."
+          }
+        ],
+        "tip": {
+          "text": "Atceries: vietu apmeklē, bet personu latviski bieži apciemo."
+        },
+        "important": [
+          "besuchen lieto bez prievārda: Ich besuche meine Freundin.",
+          "Latviešu tulkojums ir atkarīgs no objekta: apmeklēt vietu, apciemot personu."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ],
+            "green": [
+              "vietu",
+              "pasākumu",
+              "personu"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "besuche"
+                ],
+                "green": [
+                  "Museum"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "apmeklēju"
+                ],
+                "green": [
+                  "muzeju"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "besuchen"
+                ],
+                "green": [
+                  "Deutschkurs"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "apmeklējam"
+                ],
+                "green": [
+                  "vācu valodas kursu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "besuche"
+                ],
+                "green": [
+                  "Großeltern"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "apciemoju"
+                ],
+                "green": [
+                  "vecvecākus"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "besuchen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "apmeklēt",
+                  "apciemot"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "besuche"
+                ],
+                "purple": [
+                  "apciemoju"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "treffen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "satikt"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "treffe"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "zu jemandem gehen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "iet pie kāda"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "gehe zu"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "besuchen"
+              ],
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "besuchen"
+              ],
+              "purple": [
+                "bez prievārda"
+              ]
+            },
+            {
+              "green": [
+                "vietu",
+                "personu"
+              ],
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            }
+          ]
+        }
+      },
+      "csStudy": null,
+      "notes": [
+        "Missing fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.tip.text, study.important",
+        "Audit findingId: MAIN-A1-00007",
+        "Audit cardId: a1-besuchen-89",
+        "LV cardId at index: a1-besuchen",
+        "CS cardId at index: a1-besuchen-89",
+        "LV study keys: 9",
+        "CS study keys: 0",
+        "CardId strings differ between LV study.id and CS entryId; mapped by shared index + DE lemma.",
+        "Missing vs LV: id, layout, translation, explanation, examples, examples[0].de, examples[0].lv, examples[1].de, examples[1].lv, examples[2].de, examples[2].lv, comparison, comparison[0].word, comparison[0].meaning, comparison[0].example, comparison[1].word, comparison[1].meaning, comparison[1].example, comparison[2].word, comparison[2].meaning, comparison[2].example, tip, tip.text, important, sectionAccents, sectionAccents.explanation, sectionAccents.explanation.blue, sectionAccents.explanation.purple, sectionAccents.explanation.green, sectionAccents.examples, sectionAccents.examples[0].de, sectionAccents.examples[0].de.blue, sectionAccents.examples[0].de.green, sectionAccents.examples[0].lv, sectionAccents.examples[0].lv.purple, sectionAccents.examples[0].lv.green, sectionAccents.examples[1].de, sectionAccents.examples[1].de.blue, sectionAccents.examples[1].de.green, sectionAccents.examples[1].lv, sectionAccents.examples[1].lv.purple, sectionAccents.examples[1].lv.green, sectionAccents.examples[2].de, sectionAccents.examples[2].de.blue, sectionAccents.examples[2].de.green, sectionAccents.examples[2].lv, sectionAccents.examples[2].lv.purple, sectionAccents.examples[2].lv.green, sectionAccents.comparison, sectionAccents.comparison[0].word, sectionAccents.comparison[0].word.green, sectionAccents.comparison[0].meaning, sectionAccents.comparison[0].meaning.purple, sectionAccents.comparison[0].example, sectionAccents.comparison[0].example.blue, sectionAccents.comparison[0].example.purple, sectionAccents.comparison[1].word, sectionAccents.comparison[1].word.green, sectionAccents.comparison[1].meaning, sectionAccents.comparison[1].meaning.purple, sectionAccents.comparison[1].example, sectionAccents.comparison[1].example.yellow, sectionAccents.comparison[2].word, sectionAccents.comparison[2].word.green, sectionAccents.comparison[2].meaning, sectionAccents.comparison[2].meaning.purple, sectionAccents.comparison[2].example, sectionAccents.comparison[2].example.yellow, sectionAccents.tip, sectionAccents.tip.left, sectionAccents.tip.left.blue, sectionAccents.tip.left.purple, sectionAccents.important, sectionAccents.important[0].blue, sectionAccents.important[0].purple, sectionAccents.important[1].green, sectionAccents.important[1].purple"
+      ]
+    },
+    {
+      "number": 3,
+      "auditFindingId": "MAIN-A1-00010",
+      "cardId": "a1-bitte",
+      "index": 93,
+      "deIdentity": {
+        "cardId": "a1-bitte",
+        "index": 93,
+        "lvDe": "bitte",
+        "csDe": "bitte",
+        "lvDeArticle": null,
+        "csDeArticle": null,
+        "lvDePlural": null,
+        "csDePlural": null,
+        "deLemmaMatch": true,
+        "deArticleMatch": true,
+        "dePluralMatch": true,
+        "orderAligned": true,
+        "lvCardId": "a1-bitte",
+        "csCardId": "a1-bitte",
+        "auditCardId": "a1-bitte",
+        "cardIdMatch": true
+      },
+      "mappingStatus": "CONFIRMED",
+      "parityStatus": "MISSING_STUDY_FIELDS",
+      "lvStudyMeta": {
+        "hasStudy": true,
+        "studyType": "standardStudy",
+        "studyKeys": [
+          "comparison",
+          "examples",
+          "explanation",
+          "id",
+          "important",
+          "layout",
+          "sectionAccents",
+          "tip",
+          "translation"
+        ],
+        "studyId": "a1-bitte"
+      },
+      "csStudyMeta": {
+        "hasStudy": true,
+        "studyType": "standardStudy",
+        "studyKeys": [
+          "examples",
+          "explanation",
+          "id",
+          "important",
+          "layout",
+          "sectionAccents",
+          "tip",
+          "translation"
+        ],
+        "studyId": "a1-bitte"
+      },
+      "missingStudyFields": [
+        "comparison",
+        "comparison[0].word",
+        "comparison[0].meaning",
+        "comparison[0].example",
+        "comparison[1].word",
+        "comparison[1].meaning",
+        "comparison[1].example",
+        "tip.text",
+        "sectionAccents.explanation.green",
+        "sectionAccents.comparison",
+        "sectionAccents.comparison[0].word",
+        "sectionAccents.comparison[0].word.blue",
+        "sectionAccents.comparison[0].meaning",
+        "sectionAccents.comparison[0].meaning.purple",
+        "sectionAccents.comparison[1].word",
+        "sectionAccents.comparison[1].word.green",
+        "sectionAccents.comparison[1].meaning",
+        "sectionAccents.comparison[1].meaning.purple",
+        "sectionAccents.tip.left",
+        "sectionAccents.tip.left.blue",
+        "sectionAccents.tip.left.purple",
+        "sectionAccents.tip.left.green",
+        "sectionAccents.important[0].purple",
+        "sectionAccents.important[1].green",
+        "sectionAccents.important[1].purple"
+      ],
+      "extraCsStudyFields": [
+        "examples[3].de",
+        "examples[3].lv",
+        "examples[4].de",
+        "examples[4].lv",
+        "examples[5].de",
+        "examples[5].lv",
+        "sectionAccents.examples[3].de",
+        "sectionAccents.examples[3].de.blue",
+        "sectionAccents.examples[3].lv",
+        "sectionAccents.examples[3].lv.purple",
+        "sectionAccents.examples[4].de",
+        "sectionAccents.examples[4].de.blue",
+        "sectionAccents.examples[4].lv",
+        "sectionAccents.examples[5].de",
+        "sectionAccents.examples[5].de.blue",
+        "sectionAccents.examples[5].lv",
+        "sectionAccents.tip[0].purple"
+      ],
+      "lvCard": {
+        "de": "bitte",
+        "lv": "lūdzu",
+        "level": "A1",
+        "study": {
+          "id": "a1-bitte",
+          "layout": "standardStudy",
+          "translation": "lūdzu",
+          "explanation": [
+            "Galvenā doma: bitte ar mazo sākumburtu ir pieklājības vārds ar nozīmi lūdzu.",
+            "To lieto lūgumos, pasūtījumos un pieklājīgās atbildēs.",
+            "Lietvārds die Bitte ar lielo sākumburtu nozīmē lūgums."
+          ],
+          "examples": [
+            {
+              "de": "Eine Tasse Kaffee, bitte.",
+              "lv": "Vienu tasi kafijas, lūdzu."
+            },
+            {
+              "de": "Komm bitte herein.",
+              "lv": "Lūdzu, nāc iekšā."
+            },
+            {
+              "de": "Bitte schön!",
+              "lv": "Lūdzu!"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bitte",
+              "meaning": "lūdzu",
+              "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+            },
+            {
+              "word": "die Bitte",
+              "meaning": "lūgums",
+              "example": "Ich habe eine Bitte. – Man ir lūgums."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: bitte ar mazo burtu nozīmē lūdzu; die Bitte ar lielo burtu nozīmē lūgums."
+          },
+          "important": [
+            "bitte ir pieklājības vārds.",
+            "die Bitte ir lietvārds ar artikulu die.",
+            "Nepareizi: Die Bitte schön! Pareizi: Bitte schön!"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "bitte"
+              ],
+              "purple": [
+                "lūdzu"
+              ],
+              "green": [
+                "die Bitte"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "lūdzu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Lūdzu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Lūdzu"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "blue": [
+                    "bitte"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "lūdzu"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Bitte"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "lūgums"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "bitte"
+                ],
+                "purple": [
+                  "lūdzu"
+                ],
+                "green": [
+                  "die Bitte",
+                  "lūgums"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "bitte"
+                ],
+                "purple": [
+                  "pieklājības vārds"
+                ]
+              },
+              {
+                "green": [
+                  "die Bitte"
+                ],
+                "purple": [
+                  "lietvārds"
+                ]
+              }
+            ]
+          }
+        },
+        "_meta": {
+          "index": 93,
+          "cardId": "a1-bitte",
+          "lang": "LV"
+        }
+      },
+      "csCard": {
+        "de": "bitte",
+        "lv": "Prosím",
+        "level": "A1",
+        "study": {
+          "id": "a1-bitte",
+          "layout": "standardStudy",
+          "translation": "Prosím",
+          "explanation": [
+            "Hlavní myšlenka: bitte s malým písmenem je zdvořilostní výraz a znamená „prosím“.",
+            "Používá se například v prosbě, žádosti nebo zdvořilé odpovědi.",
+            "Die Bitte s velkým písmenem je podstatné jméno ženského rodu a znamená prosbu nebo žádost.",
+            "Množné číslo je die Bitten."
+          ],
+          "examples": [
+            {
+              "de": "Bitte schön!",
+              "lv": "Prosím!"
+            },
+            {
+              "de": "Bitte schön!",
+              "lv": "Prosím!"
+            },
+            {
+              "de": "Eine Tasse Kaffee, bitte.",
+              "lv": "Jeden šálek kávy, prosím."
+            },
+            {
+              "de": "Kann ich bitte fragen?",
+              "lv": "Mohu se prosím zeptat"
+            },
+            {
+              "de": "Ich habe eine Bitte.",
+              "lv": "Mám jednu prosbu."
+            },
+            {
+              "de": "Die Bitte ist wichtig.",
+              "lv": "Žádost je důležitá."
+            }
+          ],
+          "tip": [
+            "Malé bitte znamená prosím (Bitte schön!, Kaffee, bitte). Die Bitte s velkým písmenem znamená prosba nebo žádost (eine Bitte, meine Bitte).",
+            "Bitte s malým písmenem je zdvořilostní výraz."
+          ],
+          "important": [
+            "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
+            "Die Bitte s velkým písmenem a člen die je podstatné jméno.",
+            "Množné číslo: die Bitten (žádosti).",
+            "Špatně: Die Bitte schön! → Správně: Bitte schön!"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "bitte"
+              ],
+              "purple": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "bitte",
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Prosím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bitte",
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Prosím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bitte",
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jeden"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bitte",
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mohu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bitte",
+                    "bitte"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bitte",
+                    "bitte"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Little"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "bitte"
+                ]
+              }
+            ]
+          }
+        },
+        "_meta": {
+          "index": 93,
+          "cardId": "a1-bitte",
+          "lang": "CS"
+        }
+      },
+      "lvStudy": {
+        "id": "a1-bitte",
+        "layout": "standardStudy",
+        "translation": "lūdzu",
+        "explanation": [
+          "Galvenā doma: bitte ar mazo sākumburtu ir pieklājības vārds ar nozīmi lūdzu.",
+          "To lieto lūgumos, pasūtījumos un pieklājīgās atbildēs.",
+          "Lietvārds die Bitte ar lielo sākumburtu nozīmē lūgums."
+        ],
+        "examples": [
+          {
+            "de": "Eine Tasse Kaffee, bitte.",
+            "lv": "Vienu tasi kafijas, lūdzu."
+          },
+          {
+            "de": "Komm bitte herein.",
+            "lv": "Lūdzu, nāc iekšā."
+          },
+          {
+            "de": "Bitte schön!",
+            "lv": "Lūdzu!"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "bitte",
+            "meaning": "lūdzu",
+            "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          },
+          {
+            "word": "die Bitte",
+            "meaning": "lūgums",
+            "example": "Ich habe eine Bitte. – Man ir lūgums."
+          }
+        ],
+        "tip": {
+          "text": "Atceries: bitte ar mazo burtu nozīmē lūdzu; die Bitte ar lielo burtu nozīmē lūgums."
+        },
+        "important": [
+          "bitte ir pieklājības vārds.",
+          "die Bitte ir lietvārds ar artikulu die.",
+          "Nepareizi: Die Bitte schön! Pareizi: Bitte schön!"
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "bitte"
+            ],
+            "purple": [
+              "lūdzu"
+            ],
+            "green": [
+              "die Bitte"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "lūdzu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Lūdzu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Lūdzu"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "blue": [
+                  "bitte"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "lūdzu"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "die Bitte"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "lūgums"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "bitte"
+              ],
+              "purple": [
+                "lūdzu"
+              ],
+              "green": [
+                "die Bitte",
+                "lūgums"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "bitte"
+              ],
+              "purple": [
+                "pieklājības vārds"
+              ]
+            },
+            {
+              "green": [
+                "die Bitte"
+              ],
+              "purple": [
+                "lietvārds"
+              ]
+            }
+          ]
+        }
+      },
+      "csStudy": {
+        "id": "a1-bitte",
+        "layout": "standardStudy",
+        "translation": "Prosím",
+        "explanation": [
+          "Hlavní myšlenka: bitte s malým písmenem je zdvořilostní výraz a znamená „prosím“.",
+          "Používá se například v prosbě, žádosti nebo zdvořilé odpovědi.",
+          "Die Bitte s velkým písmenem je podstatné jméno ženského rodu a znamená prosbu nebo žádost.",
+          "Množné číslo je die Bitten."
+        ],
+        "examples": [
+          {
+            "de": "Bitte schön!",
+            "lv": "Prosím!"
+          },
+          {
+            "de": "Bitte schön!",
+            "lv": "Prosím!"
+          },
+          {
+            "de": "Eine Tasse Kaffee, bitte.",
+            "lv": "Jeden šálek kávy, prosím."
+          },
+          {
+            "de": "Kann ich bitte fragen?",
+            "lv": "Mohu se prosím zeptat"
+          },
+          {
+            "de": "Ich habe eine Bitte.",
+            "lv": "Mám jednu prosbu."
+          },
+          {
+            "de": "Die Bitte ist wichtig.",
+            "lv": "Žádost je důležitá."
+          }
+        ],
+        "tip": [
+          "Malé bitte znamená prosím (Bitte schön!, Kaffee, bitte). Die Bitte s velkým písmenem znamená prosba nebo žádost (eine Bitte, meine Bitte).",
+          "Bitte s malým písmenem je zdvořilostní výraz."
+        ],
+        "important": [
+          "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
+          "Die Bitte s velkým písmenem a člen die je podstatné jméno.",
+          "Množné číslo: die Bitten (žádosti).",
+          "Špatně: Die Bitte schön! → Správně: Bitte schön!"
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "bitte"
+            ],
+            "purple": [
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "bitte",
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Prosím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "bitte",
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Prosím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "bitte",
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jeden"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "bitte",
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mohu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "bitte",
+                  "bitte"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "blue": [
+                  "bitte",
+                  "bitte"
+                ]
+              },
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {
+              "purple": [
+                "Little"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "blue": [
+                "bitte"
+              ]
+            }
+          ]
+        }
+      },
+      "notes": [
+        "Missing fields vs LV: study.comparison, study.tip.text",
+        "Audit findingId: MAIN-A1-00010",
+        "Audit cardId: a1-bitte",
+        "LV cardId at index: a1-bitte",
+        "CS cardId at index: a1-bitte",
+        "LV study keys: 9",
+        "CS study keys: 8",
+        "Missing vs LV: comparison, comparison[0].word, comparison[0].meaning, comparison[0].example, comparison[1].word, comparison[1].meaning, comparison[1].example, tip.text, sectionAccents.explanation.green, sectionAccents.comparison, sectionAccents.comparison[0].word, sectionAccents.comparison[0].word.blue, sectionAccents.comparison[0].meaning, sectionAccents.comparison[0].meaning.purple, sectionAccents.comparison[1].word, sectionAccents.comparison[1].word.green, sectionAccents.comparison[1].meaning, sectionAccents.comparison[1].meaning.purple, sectionAccents.tip.left, sectionAccents.tip.left.blue, sectionAccents.tip.left.purple, sectionAccents.tip.left.green, sectionAccents.important[0].purple, sectionAccents.important[1].green, sectionAccents.important[1].purple",
+        "Extra in CS: examples[3].de, examples[3].lv, examples[4].de, examples[4].lv, examples[5].de, examples[5].lv, sectionAccents.examples[3].de, sectionAccents.examples[3].de.blue, sectionAccents.examples[3].lv, sectionAccents.examples[3].lv.purple, sectionAccents.examples[4].de, sectionAccents.examples[4].de.blue, sectionAccents.examples[4].lv, sectionAccents.examples[5].de, sectionAccents.examples[5].de.blue, sectionAccents.examples[5].lv, sectionAccents.tip[0].purple"
+      ]
+    },
+    {
+      "number": 4,
+      "auditFindingId": "MAIN-A1-00012",
+      "cardId": "a1-bitte-study",
+      "index": 94,
+      "deIdentity": {
+        "cardId": "a1-bitte-study",
+        "index": 94,
+        "lvDe": "Bitte",
+        "csDe": "Bitte",
+        "lvDeArticle": "die",
+        "csDeArticle": "die",
+        "lvDePlural": "die Bitten",
+        "csDePlural": "die Bitten",
+        "deLemmaMatch": true,
+        "deArticleMatch": true,
+        "dePluralMatch": true,
+        "orderAligned": true,
+        "lvCardId": "a1-bitte-study",
+        "csCardId": "a1-bitte-study",
+        "auditCardId": "a1-bitte-study",
+        "cardIdMatch": true
+      },
+      "mappingStatus": "CONFIRMED",
+      "parityStatus": "MISSING_STUDY_FIELDS",
+      "lvStudyMeta": {
+        "hasStudy": true,
+        "studyType": "standardStudy",
+        "studyKeys": [
+          "comparison",
+          "examples",
+          "explanation",
+          "id",
+          "important",
+          "layout",
+          "sectionAccents",
+          "tip",
+          "translation"
+        ],
+        "studyId": "a1-bitte-study"
+      },
+      "csStudyMeta": {
+        "hasStudy": true,
+        "studyType": "standardStudy",
+        "studyKeys": [
+          "examples",
+          "explanation",
+          "id",
+          "important",
+          "layout",
+          "sectionAccents",
+          "tip",
+          "translation"
+        ],
+        "studyId": "a1-bitte-study"
+      },
+      "missingStudyFields": [
+        "comparison",
+        "comparison[0].word",
+        "comparison[0].meaning",
+        "comparison[0].example",
+        "comparison[1].word",
+        "comparison[1].meaning",
+        "comparison[1].example",
+        "tip.text",
+        "sectionAccents.explanation.blue",
+        "sectionAccents.examples[1].lv.purple",
+        "sectionAccents.examples[2].lv.purple",
+        "sectionAccents.comparison",
+        "sectionAccents.comparison[0].word",
+        "sectionAccents.comparison[0].word.green",
+        "sectionAccents.comparison[0].meaning",
+        "sectionAccents.comparison[0].meaning.purple",
+        "sectionAccents.comparison[1].word",
+        "sectionAccents.comparison[1].word.blue",
+        "sectionAccents.comparison[1].meaning",
+        "sectionAccents.comparison[1].meaning.purple",
+        "sectionAccents.tip.left",
+        "sectionAccents.tip.left.green",
+        "sectionAccents.tip.left.purple",
+        "sectionAccents.tip.left.blue",
+        "sectionAccents.important[0].green",
+        "sectionAccents.important[1].purple"
+      ],
+      "extraCsStudyFields": [
+        "examples[3].de",
+        "examples[3].lv",
+        "examples[4].de",
+        "examples[4].lv",
+        "examples[5].de",
+        "examples[5].lv",
+        "sectionAccents.explanation.yellow",
+        "sectionAccents.examples[3].de",
+        "sectionAccents.examples[3].de.green",
+        "sectionAccents.examples[3].lv",
+        "sectionAccents.examples[4].de",
+        "sectionAccents.examples[4].de.green",
+        "sectionAccents.examples[4].lv",
+        "sectionAccents.examples[4].lv.purple",
+        "sectionAccents.examples[5].de",
+        "sectionAccents.examples[5].de.green",
+        "sectionAccents.examples[5].lv",
+        "sectionAccents.examples[5].lv.purple",
+        "sectionAccents.tip[0].purple"
+      ],
+      "lvCard": {
+        "de": "Bitte",
+        "de_article": "die",
+        "de_plural": "die Bitten",
+        "lv": "lūgums",
+        "level": "A1",
+        "study": {
+          "id": "a1-bitte-study",
+          "layout": "standardStudy",
+          "translation": "lūgums",
+          "explanation": [
+            "Galvenā doma: die Bitte ir lietvārds ar nozīmi lūgums.",
+            "Vārdu raksta ar lielo sākumburtu un lieto ar artikulu die.",
+            "Daudzskaitlis ir die Bitten.",
+            "Pieklājības vārds bitte ar mazo sākumburtu nozīmē lūdzu."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe eine Bitte.",
+              "lv": "Man ir lūgums."
+            },
+            {
+              "de": "Er erfüllt meine Bitte.",
+              "lv": "Viņš izpilda manu lūgumu."
+            },
+            {
+              "de": "Sie hat zwei Bitten.",
+              "lv": "Viņai ir divi lūgumi."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Bitte",
+              "meaning": "lūgums",
+              "example": "Ich habe eine Bitte. – Man ir lūgums."
+            },
+            {
+              "word": "bitte",
+              "meaning": "lūdzu",
+              "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: die Bitte ir lietvārds, bet bitte ir pieklājības vārds."
+          },
+          "important": [
+            "Artikuls: die Bitte.",
+            "Daudzskaitlis: die Bitten.",
+            "Lietvārdu raksta ar lielo sākumburtu."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "die Bitte",
+                "die Bitten"
+              ],
+              "purple": [
+                "lūgums"
+              ],
+              "blue": [
+                "bitte"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "Bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "lūgums"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "lūgumu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Bitten"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "lūgumi"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "die Bitte"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "lūgums"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "blue": [
+                    "bitte"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "lūdzu"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "green": [
+                  "die Bitte"
+                ],
+                "purple": [
+                  "lūgums"
+                ],
+                "blue": [
+                  "bitte",
+                  "lūdzu"
+                ]
+              }
+            },
+            "important": [
+              {
+                "green": [
+                  "die Bitte",
+                  "die Bitten"
+                ]
+              },
+              {
+                "purple": [
+                  "lietvārds",
+                  "lielais sākumburts"
+                ]
+              }
+            ]
+          }
+        },
+        "_meta": {
+          "index": 94,
+          "cardId": "a1-bitte-study",
+          "lang": "LV"
+        }
+      },
+      "csCard": {
+        "de": "Bitte",
+        "de_article": "die",
+        "de_plural": "die Bitten",
+        "lv": "Žádost",
+        "level": "A1",
+        "study": {
+          "id": "a1-bitte-study",
+          "layout": "standardStudy",
+          "translation": "Žádost",
+          "explanation": [
+            "Hlavní myšlenka: die Bitte je podstatné jméno ženského rodu se členem die a znamená prosbu nebo žádost.",
+            "Píše se s velkým písmenem.",
+            "Množné číslo je die Bitten.",
+            "Pozor: bitte s malým písmenem znamená „prosím“ a není podstatné jméno."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe eine Bitte.",
+              "lv": "Mám jednu prosbu."
+            },
+            {
+              "de": "Bitte schön!",
+              "lv": "Prosím!"
+            },
+            {
+              "de": "Eine Tasse Kaffee, bitte.",
+              "lv": "Jeden šálek kávy, prosím."
+            },
+            {
+              "de": "Kann ich bitte fragen?",
+              "lv": "Mohu se prosím zeptat"
+            },
+            {
+              "de": "Ich habe eine Bitte.",
+              "lv": "Mám jednu prosbu."
+            },
+            {
+              "de": "Die Bitte ist wichtig.",
+              "lv": "Žádost je důležitá."
+            }
+          ],
+          "tip": [
+            "Malé bitte znamená prosím. Die Bitte s velkým písmenem znamená prosba nebo žádost.",
+            "Die Bitte je podstatné jméno se členem die a píše se s velkým písmenem."
+          ],
+          "important": [
+            "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
+            "Die Bitte s velkým písmenem a člen die je podstatné jméno.",
+            "Množné číslo: die Bitten (žádosti).",
+            "Špatně: Die Bitte schön! → Správně: Bitte schön!"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "die Bitte",
+                "bitte"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "yellow": [
+                "Bitte",
+                "Bitte"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "bitte"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "bitte"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "bitte"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "die Bitte",
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Žádost"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Little"
+                ]
+              }
+            ],
+            "important": [
+              {}
+            ]
+          }
+        },
+        "_meta": {
+          "index": 94,
+          "cardId": "a1-bitte-study",
+          "lang": "CS"
+        }
+      },
+      "lvStudy": {
+        "id": "a1-bitte-study",
+        "layout": "standardStudy",
+        "translation": "lūgums",
+        "explanation": [
+          "Galvenā doma: die Bitte ir lietvārds ar nozīmi lūgums.",
+          "Vārdu raksta ar lielo sākumburtu un lieto ar artikulu die.",
+          "Daudzskaitlis ir die Bitten.",
+          "Pieklājības vārds bitte ar mazo sākumburtu nozīmē lūdzu."
+        ],
+        "examples": [
+          {
+            "de": "Ich habe eine Bitte.",
+            "lv": "Man ir lūgums."
+          },
+          {
+            "de": "Er erfüllt meine Bitte.",
+            "lv": "Viņš izpilda manu lūgumu."
+          },
+          {
+            "de": "Sie hat zwei Bitten.",
+            "lv": "Viņai ir divi lūgumi."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "die Bitte",
+            "meaning": "lūgums",
+            "example": "Ich habe eine Bitte. – Man ir lūgums."
+          },
+          {
+            "word": "bitte",
+            "meaning": "lūdzu",
+            "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          }
+        ],
+        "tip": {
+          "text": "Atceries: die Bitte ir lietvārds, bet bitte ir pieklājības vārds."
+        },
+        "important": [
+          "Artikuls: die Bitte.",
+          "Daudzskaitlis: die Bitten.",
+          "Lietvārdu raksta ar lielo sākumburtu."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "green": [
+              "die Bitte",
+              "die Bitten"
+            ],
+            "purple": [
+              "lūgums"
+            ],
+            "blue": [
+              "bitte"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "green": [
+                  "Bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "lūgums"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "Bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "lūgumu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "Bitten"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "lūgumi"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "die Bitte"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "lūgums"
+                ]
+              }
+            },
+            {
+              "word": {
+                "blue": [
+                  "bitte"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "lūdzu"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "green": [
+                "die Bitte"
+              ],
+              "purple": [
+                "lūgums"
+              ],
+              "blue": [
+                "bitte",
+                "lūdzu"
+              ]
+            }
+          },
+          "important": [
+            {
+              "green": [
+                "die Bitte",
+                "die Bitten"
+              ]
+            },
+            {
+              "purple": [
+                "lietvārds",
+                "lielais sākumburts"
+              ]
+            }
+          ]
+        }
+      },
+      "csStudy": {
+        "id": "a1-bitte-study",
+        "layout": "standardStudy",
+        "translation": "Žádost",
+        "explanation": [
+          "Hlavní myšlenka: die Bitte je podstatné jméno ženského rodu se členem die a znamená prosbu nebo žádost.",
+          "Píše se s velkým písmenem.",
+          "Množné číslo je die Bitten.",
+          "Pozor: bitte s malým písmenem znamená „prosím“ a není podstatné jméno."
+        ],
+        "examples": [
+          {
+            "de": "Ich habe eine Bitte.",
+            "lv": "Mám jednu prosbu."
+          },
+          {
+            "de": "Bitte schön!",
+            "lv": "Prosím!"
+          },
+          {
+            "de": "Eine Tasse Kaffee, bitte.",
+            "lv": "Jeden šálek kávy, prosím."
+          },
+          {
+            "de": "Kann ich bitte fragen?",
+            "lv": "Mohu se prosím zeptat"
+          },
+          {
+            "de": "Ich habe eine Bitte.",
+            "lv": "Mám jednu prosbu."
+          },
+          {
+            "de": "Die Bitte ist wichtig.",
+            "lv": "Žádost je důležitá."
+          }
+        ],
+        "tip": [
+          "Malé bitte znamená prosím. Die Bitte s velkým písmenem znamená prosba nebo žádost.",
+          "Die Bitte je podstatné jméno se členem die a píše se s velkým písmenem."
+        ],
+        "important": [
+          "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
+          "Die Bitte s velkým písmenem a člen die je podstatné jméno.",
+          "Množné číslo: die Bitten (žádosti).",
+          "Špatně: Die Bitte schön! → Správně: Bitte schön!"
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "green": [
+              "die Bitte",
+              "bitte"
+            ],
+            "purple": [
+              "Hlavní"
+            ],
+            "yellow": [
+              "Bitte",
+              "Bitte"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "green": [
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mám"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "bitte"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "bitte"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "bitte"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mám"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "die Bitte",
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Žádost"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "purple": [
+                "Little"
+              ]
+            }
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "notes": [
+        "Missing fields vs LV: study.comparison, study.tip.text",
+        "Audit findingId: MAIN-A1-00012",
+        "Audit cardId: a1-bitte-study",
+        "LV cardId at index: a1-bitte-study",
+        "CS cardId at index: a1-bitte-study",
+        "LV study keys: 9",
+        "CS study keys: 8",
+        "Missing vs LV: comparison, comparison[0].word, comparison[0].meaning, comparison[0].example, comparison[1].word, comparison[1].meaning, comparison[1].example, tip.text, sectionAccents.explanation.blue, sectionAccents.examples[1].lv.purple, sectionAccents.examples[2].lv.purple, sectionAccents.comparison, sectionAccents.comparison[0].word, sectionAccents.comparison[0].word.green, sectionAccents.comparison[0].meaning, sectionAccents.comparison[0].meaning.purple, sectionAccents.comparison[1].word, sectionAccents.comparison[1].word.blue, sectionAccents.comparison[1].meaning, sectionAccents.comparison[1].meaning.purple, sectionAccents.tip.left, sectionAccents.tip.left.green, sectionAccents.tip.left.purple, sectionAccents.tip.left.blue, sectionAccents.important[0].green, sectionAccents.important[1].purple",
+        "Extra in CS: examples[3].de, examples[3].lv, examples[4].de, examples[4].lv, examples[5].de, examples[5].lv, sectionAccents.explanation.yellow, sectionAccents.examples[3].de, sectionAccents.examples[3].de.green, sectionAccents.examples[3].lv, sectionAccents.examples[4].de, sectionAccents.examples[4].de.green, sectionAccents.examples[4].lv, sectionAccents.examples[4].lv.purple, sectionAccents.examples[5].de, sectionAccents.examples[5].de.green, sectionAccents.examples[5].lv, sectionAccents.examples[5].lv.purple, sectionAccents.tip[0].purple"
+      ]
+    },
+    {
+      "number": 5,
+      "auditFindingId": "MAIN-A1-00017",
+      "cardId": "a1-ein",
+      "index": 154,
+      "deIdentity": {
+        "cardId": "a1-ein",
+        "index": 154,
+        "lvDe": "ein",
+        "csDe": "ein",
+        "lvDeArticle": null,
+        "csDeArticle": null,
+        "lvDePlural": null,
+        "csDePlural": null,
+        "deLemmaMatch": true,
+        "deArticleMatch": true,
+        "dePluralMatch": true,
+        "orderAligned": true,
+        "lvCardId": "a1-ein",
+        "csCardId": "a1-ein",
+        "auditCardId": "a1-ein",
+        "cardIdMatch": true
+      },
+      "mappingStatus": "CONFIRMED",
+      "parityStatus": "MISSING_STUDY_FIELDS",
+      "lvStudyMeta": {
+        "hasStudy": true,
+        "studyType": "standardStudy",
+        "studyKeys": [
+          "comparison",
+          "examples",
+          "explanation",
+          "id",
+          "important",
+          "layout",
+          "sectionAccents",
+          "tip",
+          "translation"
+        ],
+        "studyId": "a1-ein"
+      },
+      "csStudyMeta": {
+        "hasStudy": true,
+        "studyType": "standardStudy",
+        "studyKeys": [
+          "examples",
+          "explanation",
+          "id",
+          "important",
+          "layout",
+          "sectionAccents",
+          "tip",
+          "translation"
+        ],
+        "studyId": "a1-ein"
+      },
+      "missingStudyFields": [
+        "examples[3].de",
+        "examples[3].lv",
+        "comparison",
+        "comparison[0].word",
+        "comparison[0].meaning",
+        "comparison[0].example",
+        "comparison[1].word",
+        "comparison[1].meaning",
+        "comparison[1].example",
+        "comparison[2].word",
+        "comparison[2].meaning",
+        "comparison[2].example",
+        "comparison[3].word",
+        "comparison[3].meaning",
+        "comparison[3].example"
+      ],
+      "extraCsStudyFields": [],
+      "lvCard": {
+        "de": "ein",
+        "lv": "nenoteiktais artikuls",
+        "level": "A1",
+        "study": {
+          "id": "a1-ein",
+          "layout": "standardStudy",
+          "translation": "nenoteiktais artikuls",
+          "explanation": [
+            "Galvenā doma: ein ir nenoteiktais artikuls.",
+            "ein ir nenoteiktais artikuls vīriešu un vidus dzimtes lietvārdiem nominatīvā.",
+            "ein lieto vīriešu dzimtē: ein Mann.",
+            "ein lieto vidus dzimtē: ein Buch.",
+            "Sieviešu dzimtē lieto: eine.",
+            "Akuzatīvā vīriešu dzimtē: einen."
+          ],
+          "examples": [
+            {
+              "de": "Ein Mann wartet draußen.",
+              "lv": "kāds vīrietis gaida ārā."
+            },
+            {
+              "de": "Ich habe ein Buch.",
+              "lv": "man ir viena grāmata."
+            },
+            {
+              "de": "Er sucht einen Stift.",
+              "lv": "viņš meklē kādu pildspalvu."
+            },
+            {
+              "de": "Ein Kind spielt.",
+              "lv": "Bērns spēlējas."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ein Mann",
+              "meaning": "vīriešu dzimte",
+              "example": "Ein Mann wartet draußen."
+            },
+            {
+              "word": "eine Frau",
+              "meaning": "sieviešu dzimte",
+              "example": "eine Frau"
+            },
+            {
+              "word": "ein Buch",
+              "meaning": "vidus dzimte",
+              "example": "Ich habe ein Buch."
+            },
+            {
+              "word": "einen Mann",
+              "meaning": "akuzatīvs",
+              "example": "einen Mann"
+            }
+          ],
+          "tip": {
+            "text": "Atceries: ein nav tikai \"viens\". Bieži tas ir tikai nenoteiktais artikuls."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Ein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kāds"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "viena"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "einen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kādu"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "ein"
+                ],
+                "purple": [
+                  "viens",
+                  "kāds"
+                ],
+                "green": [
+                  "nekonkrēts"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "ein"
+                ],
+                "red": [
+                  "noteiktais artikuls"
+                ]
+              },
+              {
+                "blue": [
+                  "der",
+                  "die",
+                  "das"
+                ],
+                "green": [
+                  "konkrēti zināma"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "ein — vīriešu dzimte.",
+            "ein — vidus dzimte.",
+            "eine — sieviešu dzimte.",
+            "einen — akuzatīvs."
+          ]
+        },
+        "_meta": {
+          "index": 154,
+          "cardId": "a1-ein",
+          "lang": "LV"
+        }
+      },
+      "csCard": {
+        "de": "ein",
+        "lv": "Neurčitý člen • Jeden • Někdo",
+        "level": "A1",
+        "study": {
+          "id": "a1-ein",
+          "layout": "standardStudy",
+          "translation": "Neurčitý člen • Jeden",
+          "explanation": "Používá se s podstatnými jmény mužského a středního rodu v jednotném čísle. Označuje jednu věc nebo osobu z několika možností.",
+          "examples": [
+            {
+              "de": "Ein Mann wartet draußen.",
+              "lv": "Venku čeká muž."
+            },
+            {
+              "de": "Ich habe ein Buch.",
+              "lv": "Mám jednu knihu."
+            },
+            {
+              "de": "Er sucht einen Stift.",
+              "lv": "Hledá pero."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: ein není jen „jeden“, často je to neurčitý člen."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Ein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Venku"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "einen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hledá"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "ein"
+                ],
+                "purple": [
+                  "Pamatujte",
+                  "Pamatujte"
+                ],
+                "green": [
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "ein"
+                ],
+                "red": [
+                  "Ein"
+                ]
+              },
+              {
+                "blue": [
+                  "der",
+                  "die",
+                  "das"
+                ],
+                "green": [
+                  "konkrétně známa"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "Ein není určitý člen.",
+            "Pokud je záležitost již konkrétně známa, je často potřeba der, die nebo das."
+          ]
+        },
+        "_meta": {
+          "index": 154,
+          "cardId": "a1-ein",
+          "lang": "CS"
+        }
+      },
+      "lvStudy": {
+        "id": "a1-ein",
+        "layout": "standardStudy",
+        "translation": "nenoteiktais artikuls",
+        "explanation": [
+          "Galvenā doma: ein ir nenoteiktais artikuls.",
+          "ein ir nenoteiktais artikuls vīriešu un vidus dzimtes lietvārdiem nominatīvā.",
+          "ein lieto vīriešu dzimtē: ein Mann.",
+          "ein lieto vidus dzimtē: ein Buch.",
+          "Sieviešu dzimtē lieto: eine.",
+          "Akuzatīvā vīriešu dzimtē: einen."
+        ],
+        "examples": [
+          {
+            "de": "Ein Mann wartet draußen.",
+            "lv": "kāds vīrietis gaida ārā."
+          },
+          {
+            "de": "Ich habe ein Buch.",
+            "lv": "man ir viena grāmata."
+          },
+          {
+            "de": "Er sucht einen Stift.",
+            "lv": "viņš meklē kādu pildspalvu."
+          },
+          {
+            "de": "Ein Kind spielt.",
+            "lv": "Bērns spēlējas."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "ein Mann",
+            "meaning": "vīriešu dzimte",
+            "example": "Ein Mann wartet draußen."
+          },
+          {
+            "word": "eine Frau",
+            "meaning": "sieviešu dzimte",
+            "example": "eine Frau"
+          },
+          {
+            "word": "ein Buch",
+            "meaning": "vidus dzimte",
+            "example": "Ich habe ein Buch."
+          },
+          {
+            "word": "einen Mann",
+            "meaning": "akuzatīvs",
+            "example": "einen Mann"
+          }
+        ],
+        "tip": {
+          "text": "Atceries: ein nav tikai \"viens\". Bieži tas ir tikai nenoteiktais artikuls."
+        },
+        "sectionAccents": {
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Ein"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "kāds"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ein"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "viena"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "einen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "kādu"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "ein"
+              ],
+              "purple": [
+                "viens",
+                "kāds"
+              ],
+              "green": [
+                "nekonkrēts"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "ein"
+              ],
+              "red": [
+                "noteiktais artikuls"
+              ]
+            },
+            {
+              "blue": [
+                "der",
+                "die",
+                "das"
+              ],
+              "green": [
+                "konkrēti zināma"
+              ]
+            }
+          ]
+        },
+        "important": [
+          "ein — vīriešu dzimte.",
+          "ein — vidus dzimte.",
+          "eine — sieviešu dzimte.",
+          "einen — akuzatīvs."
+        ]
+      },
+      "csStudy": {
+        "id": "a1-ein",
+        "layout": "standardStudy",
+        "translation": "Neurčitý člen • Jeden",
+        "explanation": "Používá se s podstatnými jmény mužského a středního rodu v jednotném čísle. Označuje jednu věc nebo osobu z několika možností.",
+        "examples": [
+          {
+            "de": "Ein Mann wartet draußen.",
+            "lv": "Venku čeká muž."
+          },
+          {
+            "de": "Ich habe ein Buch.",
+            "lv": "Mám jednu knihu."
+          },
+          {
+            "de": "Er sucht einen Stift.",
+            "lv": "Hledá pero."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: ein není jen „jeden“, často je to neurčitý člen."
+        },
+        "sectionAccents": {
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Ein"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Venku"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ein"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mám"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "einen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Hledá"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "ein"
+              ],
+              "purple": [
+                "Pamatujte",
+                "Pamatujte"
+              ],
+              "green": [
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "ein"
+              ],
+              "red": [
+                "Ein"
+              ]
+            },
+            {
+              "blue": [
+                "der",
+                "die",
+                "das"
+              ],
+              "green": [
+                "konkrétně známa"
+              ]
+            }
+          ]
+        },
+        "important": [
+          "Ein není určitý člen.",
+          "Pokud je záležitost již konkrétně známa, je často potřeba der, die nebo das."
+        ]
+      },
+      "notes": [
+        "Missing fields vs LV: study.comparison",
+        "Audit findingId: MAIN-A1-00017",
+        "Audit cardId: a1-ein",
+        "LV cardId at index: a1-ein",
+        "CS cardId at index: a1-ein",
+        "LV study keys: 9",
+        "CS study keys: 8",
+        "Missing vs LV: examples[3].de, examples[3].lv, comparison, comparison[0].word, comparison[0].meaning, comparison[0].example, comparison[1].word, comparison[1].meaning, comparison[1].example, comparison[2].word, comparison[2].meaning, comparison[2].example, comparison[3].word, comparison[3].meaning, comparison[3].example"
+      ]
+    },
+    {
+      "number": 6,
+      "auditFindingId": "MAIN-A1-00018",
+      "cardId": "a1-es",
+      "index": 167,
+      "deIdentity": {
+        "cardId": "a1-es",
+        "index": 167,
+        "lvDe": "es",
+        "csDe": "es",
+        "lvDeArticle": null,
+        "csDeArticle": null,
+        "lvDePlural": null,
+        "csDePlural": null,
+        "deLemmaMatch": true,
+        "deArticleMatch": true,
+        "dePluralMatch": true,
+        "orderAligned": true,
+        "lvCardId": "a1-es",
+        "csCardId": "a1-es",
+        "auditCardId": "a1-es",
+        "cardIdMatch": true
+      },
+      "mappingStatus": "CONFIRMED",
+      "parityStatus": "MISSING_STUDY_FIELDS",
+      "lvStudyMeta": {
+        "hasStudy": true,
+        "studyType": "standardStudy",
+        "studyKeys": [
+          "comparison",
+          "examples",
+          "explanation",
+          "id",
+          "important",
+          "info",
+          "layout",
+          "sectionAccents",
+          "tip",
+          "translation"
+        ],
+        "studyId": "a1-es"
+      },
+      "csStudyMeta": {
+        "hasStudy": true,
+        "studyType": "standardStudy",
+        "studyKeys": [
+          "examples",
+          "explanation",
+          "id",
+          "important",
+          "info",
+          "layout",
+          "sectionAccents",
+          "tip",
+          "translation"
+        ],
+        "studyId": "a1-es"
+      },
+      "missingStudyFields": [
+        "comparison",
+        "comparison[0].word",
+        "comparison[0].meaning",
+        "comparison[0].example",
+        "comparison[1].word",
+        "comparison[1].meaning",
+        "comparison[1].example"
+      ],
+      "extraCsStudyFields": [
+        "examples[4].de",
+        "examples[4].lv",
+        "examples[5].de",
+        "examples[5].lv"
+      ],
+      "lvCard": {
+        "de": "es",
+        "lv": "tas",
+        "level": "A1",
+        "study": {
+          "id": "a1-es",
+          "layout": "standardStudy",
+          "translation": "tas",
+          "explanation": [
+            "Galvenā doma: es ir vietniekvārds.",
+            "To lieto: tas, bezpersoniskās konstrukcijās."
+          ],
+          "examples": [
+            {
+              "de": "Es regnet.",
+              "lv": "Līst."
+            },
+            {
+              "de": "Es ist kalt.",
+              "lv": "Ir auksts."
+            },
+            {
+              "de": "Das Kind schläft.",
+              "lv": "Bērns guļ."
+            },
+            {
+              "de": "Es ist müde.",
+              "lv": "Tas ir noguris."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "es",
+              "meaning": "tas • bezpersoniska forma",
+              "example": "Es regnet. – Līst."
+            },
+            {
+              "word": "ich",
+              "meaning": "es (persona)",
+              "example": "Ich lerne Deutsch. – Es mācos vācu valodu."
+            }
+          ],
+          "info": [
+            "Latviešu “es” = vācu “ich”",
+            "Vācu “es” = tas; tā; bezpersoniska forma"
+          ],
+          "tip": {
+            "text": "Atceries: latviešu “es” → ich, nevis vācu es."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              {
+                "blue": [
+                  "Er"
+                ]
+              },
+              {
+                "red": [
+                  "Sie"
+                ]
+              },
+              {
+                "yellow": [
+                  "Das"
+                ]
+              },
+              {
+                "blue": [
+                  "Es"
+                ]
+              },
+              {
+                "blue": [
+                  "Es"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              }
+            ],
+            "info": [
+              {
+                "blue": [
+                  "ich"
+                ]
+              },
+              {
+                "green": [
+                  "es"
+                ]
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "es"
+                ],
+                "red": [
+                  "ich"
+                ],
+                "purple": [
+                  "es"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "es"
+                ],
+                "purple": [
+                  "es"
+                ]
+              },
+              {
+                "red": [
+                  "ich"
+                ],
+                "blue": [
+                  "es"
+                ],
+                "purple": [
+                  "tas",
+                  "tā"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "ich un es nav viens un tas pats.",
+            "Vācu es nav latviešu “es”.",
+            "Latviešu “es” vāciski ir ich; vācu es bieži nozīmē tas vai netiek tulkots."
+          ]
+        },
+        "_meta": {
+          "index": 167,
+          "cardId": "a1-es",
+          "lang": "LV"
+        }
+      },
+      "csCard": {
+        "de": "es",
+        "lv": "To • To • Neosobní podoba",
+        "level": "A1",
+        "study": {
+          "id": "a1-es",
+          "layout": "standardStudy",
+          "translation": "To • Ono • Neosobní podoba",
+          "explanation": "Německé „es“ neznamená „já“. Používá se jako „to“ nebo „ono“ a také v neosobních větách o počasí, čase a dalších dějích.",
+          "examples": [
+            {
+              "de": "Ich lerne Deutsch.",
+              "lv": "Učím se německy."
+            },
+            {
+              "de": "Er ist müde.",
+              "lv": "Je unavený."
+            },
+            {
+              "de": "Sie arbeitet hier.",
+              "lv": "Ona tady pracuje."
+            },
+            {
+              "de": "Das ist mein Buch.",
+              "lv": "Je to moje kniha."
+            },
+            {
+              "de": "Es regnet.",
+              "lv": "Prší"
+            },
+            {
+              "de": "Es schneit.",
+              "lv": "Sněží"
+            }
+          ],
+          "info": [
+            "České „já“ = německé „ich“",
+            "Německé „es“ = to • ono • bezosobní tvar"
+          ],
+          "tip": {
+            "text": "Pamatujte: lotyšské „es“ znamená německy „ich“, ne německé „es“."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              {
+                "blue": [
+                  "Er"
+                ]
+              },
+              {
+                "red": [
+                  "Sie"
+                ]
+              },
+              {
+                "yellow": [
+                  "Das"
+                ]
+              },
+              {
+                "blue": [
+                  "Es"
+                ]
+              },
+              {
+                "blue": [
+                  "Es"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              }
+            ],
+            "info": [
+              {
+                "blue": [
+                  "ich"
+                ]
+              },
+              {
+                "green": [
+                  "es"
+                ]
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "es"
+                ],
+                "red": [
+                  "ich"
+                ],
+                "purple": [
+                  "es"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "Německé"
+                ],
+                "purple": [
+                  "Německé"
+                ]
+              },
+              {
+                "red": [
+                  "ich"
+                ],
+                "blue": [
+                  "es"
+                ],
+                "purple": [
+                  "České",
+                  "České"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "Německé „ich“ a „es“ nejsou totéž.",
+            "České „já“ je v němčině ich • Německé es často znamená to/to nebo se nepřekládá."
+          ]
+        },
+        "_meta": {
+          "index": 167,
+          "cardId": "a1-es",
+          "lang": "CS"
+        }
+      },
+      "lvStudy": {
+        "id": "a1-es",
+        "layout": "standardStudy",
+        "translation": "tas",
+        "explanation": [
+          "Galvenā doma: es ir vietniekvārds.",
+          "To lieto: tas, bezpersoniskās konstrukcijās."
+        ],
+        "examples": [
+          {
+            "de": "Es regnet.",
+            "lv": "Līst."
+          },
+          {
+            "de": "Es ist kalt.",
+            "lv": "Ir auksts."
+          },
+          {
+            "de": "Das Kind schläft.",
+            "lv": "Bērns guļ."
+          },
+          {
+            "de": "Es ist müde.",
+            "lv": "Tas ir noguris."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "es",
+            "meaning": "tas • bezpersoniska forma",
+            "example": "Es regnet. – Līst."
+          },
+          {
+            "word": "ich",
+            "meaning": "es (persona)",
+            "example": "Ich lerne Deutsch. – Es mācos vācu valodu."
+          }
+        ],
+        "info": [
+          "Latviešu “es” = vācu “ich”",
+          "Vācu “es” = tas; tā; bezpersoniska forma"
+        ],
+        "tip": {
+          "text": "Atceries: latviešu “es” → ich, nevis vācu es."
+        },
+        "sectionAccents": {
+          "examples": [
+            {
+              "blue": [
+                "Ich"
+              ]
+            },
+            {
+              "blue": [
+                "Er"
+              ]
+            },
+            {
+              "red": [
+                "Sie"
+              ]
+            },
+            {
+              "yellow": [
+                "Das"
+              ]
+            },
+            {
+              "blue": [
+                "Es"
+              ]
+            },
+            {
+              "blue": [
+                "Es"
+              ]
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            }
+          ],
+          "info": [
+            {
+              "blue": [
+                "ich"
+              ]
+            },
+            {
+              "green": [
+                "es"
+              ]
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "es"
+              ],
+              "red": [
+                "ich"
+              ],
+              "purple": [
+                "es"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "es"
+              ],
+              "purple": [
+                "es"
+              ]
+            },
+            {
+              "red": [
+                "ich"
+              ],
+              "blue": [
+                "es"
+              ],
+              "purple": [
+                "tas",
+                "tā"
+              ]
+            }
+          ]
+        },
+        "important": [
+          "ich un es nav viens un tas pats.",
+          "Vācu es nav latviešu “es”.",
+          "Latviešu “es” vāciski ir ich; vācu es bieži nozīmē tas vai netiek tulkots."
+        ]
+      },
+      "csStudy": {
+        "id": "a1-es",
+        "layout": "standardStudy",
+        "translation": "To • Ono • Neosobní podoba",
+        "explanation": "Německé „es“ neznamená „já“. Používá se jako „to“ nebo „ono“ a také v neosobních větách o počasí, čase a dalších dějích.",
+        "examples": [
+          {
+            "de": "Ich lerne Deutsch.",
+            "lv": "Učím se německy."
+          },
+          {
+            "de": "Er ist müde.",
+            "lv": "Je unavený."
+          },
+          {
+            "de": "Sie arbeitet hier.",
+            "lv": "Ona tady pracuje."
+          },
+          {
+            "de": "Das ist mein Buch.",
+            "lv": "Je to moje kniha."
+          },
+          {
+            "de": "Es regnet.",
+            "lv": "Prší"
+          },
+          {
+            "de": "Es schneit.",
+            "lv": "Sněží"
+          }
+        ],
+        "info": [
+          "České „já“ = německé „ich“",
+          "Německé „es“ = to • ono • bezosobní tvar"
+        ],
+        "tip": {
+          "text": "Pamatujte: lotyšské „es“ znamená německy „ich“, ne německé „es“."
+        },
+        "sectionAccents": {
+          "examples": [
+            {
+              "blue": [
+                "Ich"
+              ]
+            },
+            {
+              "blue": [
+                "Er"
+              ]
+            },
+            {
+              "red": [
+                "Sie"
+              ]
+            },
+            {
+              "yellow": [
+                "Das"
+              ]
+            },
+            {
+              "blue": [
+                "Es"
+              ]
+            },
+            {
+              "blue": [
+                "Es"
+              ]
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            }
+          ],
+          "info": [
+            {
+              "blue": [
+                "ich"
+              ]
+            },
+            {
+              "green": [
+                "es"
+              ]
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "es"
+              ],
+              "red": [
+                "ich"
+              ],
+              "purple": [
+                "es"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "Německé"
+              ],
+              "purple": [
+                "Německé"
+              ]
+            },
+            {
+              "red": [
+                "ich"
+              ],
+              "blue": [
+                "es"
+              ],
+              "purple": [
+                "České",
+                "České"
+              ]
+            }
+          ]
+        },
+        "important": [
+          "Německé „ich“ a „es“ nejsou totéž.",
+          "České „já“ je v němčině ich • Německé es často znamená to/to nebo se nepřekládá."
+        ]
+      },
+      "notes": [
+        "Missing fields vs LV: study.comparison",
+        "Audit findingId: MAIN-A1-00018",
+        "Audit cardId: a1-es",
+        "LV cardId at index: a1-es",
+        "CS cardId at index: a1-es",
+        "LV study keys: 10",
+        "CS study keys: 9",
+        "Missing vs LV: comparison, comparison[0].word, comparison[0].meaning, comparison[0].example, comparison[1].word, comparison[1].meaning, comparison[1].example",
+        "Extra in CS: examples[4].de, examples[4].lv, examples[5].de, examples[5].lv"
+      ]
+    },
+    {
+      "number": 7,
+      "auditFindingId": "MAIN-A1-00024",
+      "cardId": "a1-Fußball-218",
+      "index": 218,
+      "deIdentity": {
+        "cardId": "a1-Fußball-218",
+        "index": 218,
+        "lvDe": "Fußball",
+        "csDe": "Fußball",
+        "lvDeArticle": "der",
+        "csDeArticle": "der",
+        "lvDePlural": "die Fußbälle",
+        "csDePlural": "die Fußbälle",
+        "deLemmaMatch": true,
+        "deArticleMatch": true,
+        "dePluralMatch": true,
+        "orderAligned": true,
+        "lvCardId": "a1-fussball-study",
+        "csCardId": "a1-Fußball-218",
+        "auditCardId": "a1-Fußball-218",
+        "cardIdMatch": false
+      },
+      "mappingStatus": "CONFIRMED",
+      "parityStatus": "MISSING_FULL_STUDY",
+      "lvStudyMeta": {
+        "hasStudy": true,
+        "studyType": "standardStudy",
+        "studyKeys": [
+          "comparison",
+          "examples",
+          "explanation",
+          "id",
+          "important",
+          "layout",
+          "tip",
+          "translation"
+        ],
+        "studyId": "a1-fussball-study"
+      },
+      "csStudyMeta": {
+        "hasStudy": false,
+        "studyType": null,
+        "studyKeys": [],
+        "studyId": null
+      },
+      "missingStudyFields": [
+        "id",
+        "layout",
+        "translation",
+        "explanation",
+        "examples",
+        "examples[0].de",
+        "examples[0].lv",
+        "examples[1].de",
+        "examples[1].lv",
+        "examples[2].de",
+        "examples[2].lv",
+        "comparison",
+        "comparison[0].word",
+        "comparison[0].meaning",
+        "comparison[0].example",
+        "comparison[1].word",
+        "comparison[1].meaning",
+        "comparison[1].example",
+        "tip",
+        "important"
+      ],
+      "extraCsStudyFields": [],
+      "lvCard": {
+        "de": "Fußball",
+        "de_article": "der",
+        "de_plural": "die Fußbälle",
+        "lv": "futbols",
+        "level": "A1",
+        "study": {
+          "id": "a1-fussball-study",
+          "layout": "standardStudy",
+          "translation": "futbols",
+          "explanation": [
+            "Galvenā doma: Fußball visbiežāk nozīmē futbolu kā sporta veidu.",
+            "Ar artikulu un skaitāmā nozīmē der Fußball var nozīmēt arī futbola bumbu.",
+            "Daudzskaitlis die Fußbälle nozīmē futbola bumbas, nevis vairākus sporta veidus."
+          ],
+          "examples": [
+            {
+              "de": "Ich spiele Fußball.",
+              "lv": "es spēlēju futbolu."
+            },
+            {
+              "de": "Der Fußball liegt im Garten.",
+              "lv": "futbola bumba atrodas dārzā."
+            },
+            {
+              "de": "Wir kaufen zwei Fußbälle.",
+              "lv": "mēs pērkam divas futbola bumbas."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "Fußball",
+              "meaning": "futbols kā sporta veids",
+              "example": "Ich spiele Fußball. – Es spēlēju futbolu."
+            },
+            {
+              "word": "der Fußball",
+              "meaning": "futbola bumba",
+              "example": "Der Fußball ist neu. – Futbola bumba ir jauna."
+            }
+          ],
+          "tip": [
+            "Bez artikula spielen Fußball parasti nozīmē spēlēt futbolu.",
+            "Skaitāmā nozīmē ein Fußball un die Fußbälle ir futbola bumba un futbola bumbas."
+          ],
+          "important": [
+            "die Fußbälle nozīmē futbola bumbas.",
+            "Sporta veidu Fußball parasti lieto vienskaitlī."
+          ]
+        },
+        "_meta": {
+          "index": 218,
+          "cardId": "a1-fussball-study",
+          "lang": "LV"
+        }
+      },
+      "csCard": {
+        "de": "Fußball",
+        "de_article": "der",
+        "de_plural": "die Fußbälle",
+        "lv": "Fotbal",
+        "level": "A1",
+        "_meta": {
+          "index": 218,
+          "cardId": "a1-Fußball-218",
+          "lang": "CS"
+        }
+      },
+      "lvStudy": {
+        "id": "a1-fussball-study",
+        "layout": "standardStudy",
+        "translation": "futbols",
+        "explanation": [
+          "Galvenā doma: Fußball visbiežāk nozīmē futbolu kā sporta veidu.",
+          "Ar artikulu un skaitāmā nozīmē der Fußball var nozīmēt arī futbola bumbu.",
+          "Daudzskaitlis die Fußbälle nozīmē futbola bumbas, nevis vairākus sporta veidus."
+        ],
+        "examples": [
+          {
+            "de": "Ich spiele Fußball.",
+            "lv": "es spēlēju futbolu."
+          },
+          {
+            "de": "Der Fußball liegt im Garten.",
+            "lv": "futbola bumba atrodas dārzā."
+          },
+          {
+            "de": "Wir kaufen zwei Fußbälle.",
+            "lv": "mēs pērkam divas futbola bumbas."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "Fußball",
+            "meaning": "futbols kā sporta veids",
+            "example": "Ich spiele Fußball. – Es spēlēju futbolu."
+          },
+          {
+            "word": "der Fußball",
+            "meaning": "futbola bumba",
+            "example": "Der Fußball ist neu. – Futbola bumba ir jauna."
+          }
+        ],
+        "tip": [
+          "Bez artikula spielen Fußball parasti nozīmē spēlēt futbolu.",
+          "Skaitāmā nozīmē ein Fußball un die Fußbälle ir futbola bumba un futbola bumbas."
+        ],
+        "important": [
+          "die Fußbälle nozīmē futbola bumbas.",
+          "Sporta veidu Fußball parasti lieto vienskaitlī."
+        ]
+      },
+      "csStudy": null,
+      "notes": [
+        "Missing fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important",
+        "Audit findingId: MAIN-A1-00024",
+        "Audit cardId: a1-Fußball-218",
+        "LV cardId at index: a1-fussball-study",
+        "CS cardId at index: a1-Fußball-218",
+        "LV study keys: 8",
+        "CS study keys: 0",
+        "CardId strings differ between LV study.id and CS entryId; mapped by shared index + DE lemma.",
+        "Missing vs LV: id, layout, translation, explanation, examples, examples[0].de, examples[0].lv, examples[1].de, examples[1].lv, examples[2].de, examples[2].lv, comparison, comparison[0].word, comparison[0].meaning, comparison[0].example, comparison[1].word, comparison[1].meaning, comparison[1].example, tip, important"
+      ]
+    },
+    {
+      "number": 8,
+      "auditFindingId": "MAIN-A1-00027",
+      "cardId": "a1-ganz-219",
+      "index": 219,
+      "deIdentity": {
+        "cardId": "a1-ganz-219",
+        "index": 219,
+        "lvDe": "ganz",
+        "csDe": "ganz",
+        "lvDeArticle": null,
+        "csDeArticle": null,
+        "lvDePlural": null,
+        "csDePlural": null,
+        "deLemmaMatch": true,
+        "deArticleMatch": true,
+        "dePluralMatch": true,
+        "orderAligned": true,
+        "lvCardId": "a1-ganz-study",
+        "csCardId": "a1-ganz-219",
+        "auditCardId": "a1-ganz-219",
+        "cardIdMatch": false
+      },
+      "mappingStatus": "CONFIRMED",
+      "parityStatus": "MISSING_FULL_STUDY",
+      "lvStudyMeta": {
+        "hasStudy": true,
+        "studyType": "standardStudy",
+        "studyKeys": [
+          "comparison",
+          "examples",
+          "explanation",
+          "id",
+          "important",
+          "layout",
+          "tip",
+          "translation"
+        ],
+        "studyId": "a1-ganz-study"
+      },
+      "csStudyMeta": {
+        "hasStudy": false,
+        "studyType": null,
+        "studyKeys": [],
+        "studyId": null
+      },
+      "missingStudyFields": [
+        "id",
+        "layout",
+        "translation",
+        "explanation",
+        "examples",
+        "examples[0].de",
+        "examples[0].lv",
+        "examples[1].de",
+        "examples[1].lv",
+        "examples[2].de",
+        "examples[2].lv",
+        "examples[3].de",
+        "examples[3].lv",
+        "comparison",
+        "comparison[0].word",
+        "comparison[0].meaning",
+        "comparison[0].example",
+        "comparison[1].word",
+        "comparison[1].meaning",
+        "comparison[1].example",
+        "tip",
+        "important"
+      ],
+      "extraCsStudyFields": [],
+      "lvCard": {
+        "de": "ganz",
+        "lv": "vesels",
+        "level": "A1",
+        "study": {
+          "id": "a1-ganz-study",
+          "layout": "standardStudy",
+          "translation": "vesels",
+          "explanation": [
+            "Galvenā doma: ganz kopā ar lietvārdu nozīmē vesels vai viss kopumā.",
+            "Pirms īpašības vārda vai apstākļa vārda ganz var nozīmēt pilnīgi, pavisam vai diezgan.",
+            "ganz nav tas pats, kas vietniekvārds alles."
+          ],
+          "examples": [
+            {
+              "de": "Ich arbeite den ganzen Tag.",
+              "lv": "es strādāju visu dienu."
+            },
+            {
+              "de": "Das ganze Haus ist sauber.",
+              "lv": "visa māja ir tīra."
+            },
+            {
+              "de": "Das ist ganz sicher.",
+              "lv": "tas ir pilnīgi droši."
+            },
+            {
+              "de": "Das Essen ist ganz gut.",
+              "lv": "ēdiens ir diezgan labs."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ganz",
+              "meaning": "vesels • viss kopumā • pilnīgi",
+              "example": "der ganze Tag – visa diena"
+            },
+            {
+              "word": "alles",
+              "meaning": "viss",
+              "example": "Alles ist gut. – Viss ir kārtībā."
+            }
+          ],
+          "tip": [
+            "Lietvārda priekšā ganz bieži nozīmē viss vai vesels.",
+            "Īpašības vārda priekšā ganz bieži nozīmē pilnīgi vai diezgan."
+          ],
+          "important": [
+            "der ganze Tag = visa diena.",
+            "alles = viss kā vietniekvārds."
+          ]
+        },
+        "_meta": {
+          "index": 219,
+          "cardId": "a1-ganz-study",
+          "lang": "LV"
+        }
+      },
+      "csCard": {
+        "de": "ganz",
+        "lv": "Celý",
+        "level": "A1",
+        "_meta": {
+          "index": 219,
+          "cardId": "a1-ganz-219",
+          "lang": "CS"
+        }
+      },
+      "lvStudy": {
+        "id": "a1-ganz-study",
+        "layout": "standardStudy",
+        "translation": "vesels",
+        "explanation": [
+          "Galvenā doma: ganz kopā ar lietvārdu nozīmē vesels vai viss kopumā.",
+          "Pirms īpašības vārda vai apstākļa vārda ganz var nozīmēt pilnīgi, pavisam vai diezgan.",
+          "ganz nav tas pats, kas vietniekvārds alles."
+        ],
+        "examples": [
+          {
+            "de": "Ich arbeite den ganzen Tag.",
+            "lv": "es strādāju visu dienu."
+          },
+          {
+            "de": "Das ganze Haus ist sauber.",
+            "lv": "visa māja ir tīra."
+          },
+          {
+            "de": "Das ist ganz sicher.",
+            "lv": "tas ir pilnīgi droši."
+          },
+          {
+            "de": "Das Essen ist ganz gut.",
+            "lv": "ēdiens ir diezgan labs."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "ganz",
+            "meaning": "vesels • viss kopumā • pilnīgi",
+            "example": "der ganze Tag – visa diena"
+          },
+          {
+            "word": "alles",
+            "meaning": "viss",
+            "example": "Alles ist gut. – Viss ir kārtībā."
+          }
+        ],
+        "tip": [
+          "Lietvārda priekšā ganz bieži nozīmē viss vai vesels.",
+          "Īpašības vārda priekšā ganz bieži nozīmē pilnīgi vai diezgan."
+        ],
+        "important": [
+          "der ganze Tag = visa diena.",
+          "alles = viss kā vietniekvārds."
+        ]
+      },
+      "csStudy": null,
+      "notes": [
+        "Missing fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important",
+        "Audit findingId: MAIN-A1-00027",
+        "Audit cardId: a1-ganz-219",
+        "LV cardId at index: a1-ganz-study",
+        "CS cardId at index: a1-ganz-219",
+        "LV study keys: 8",
+        "CS study keys: 0",
+        "CardId strings differ between LV study.id and CS entryId; mapped by shared index + DE lemma.",
+        "Missing vs LV: id, layout, translation, explanation, examples, examples[0].de, examples[0].lv, examples[1].de, examples[1].lv, examples[2].de, examples[2].lv, examples[3].de, examples[3].lv, comparison, comparison[0].word, comparison[0].meaning, comparison[0].example, comparison[1].word, comparison[1].meaning, comparison[1].example, tip, important"
+      ]
+    },
+    {
+      "number": 9,
+      "auditFindingId": "MAIN-A1-00030",
+      "cardId": "a1-gefallen-225",
+      "index": 225,
+      "deIdentity": {
+        "cardId": "a1-gefallen-225",
+        "index": 225,
+        "lvDe": "gefallen",
+        "csDe": "gefallen",
+        "lvDeArticle": null,
+        "csDeArticle": null,
+        "lvDePlural": null,
+        "csDePlural": null,
+        "deLemmaMatch": true,
+        "deArticleMatch": true,
+        "dePluralMatch": true,
+        "orderAligned": true,
+        "lvCardId": "a1-gefallen-study",
+        "csCardId": "a1-gefallen-225",
+        "auditCardId": "a1-gefallen-225",
+        "cardIdMatch": false
+      },
+      "mappingStatus": "CONFIRMED",
+      "parityStatus": "MISSING_FULL_STUDY",
+      "lvStudyMeta": {
+        "hasStudy": true,
+        "studyType": "standardStudy",
+        "studyKeys": [
+          "comparison",
+          "examples",
+          "explanation",
+          "id",
+          "important",
+          "layout",
+          "tip",
+          "translation"
+        ],
+        "studyId": "a1-gefallen-study"
+      },
+      "csStudyMeta": {
+        "hasStudy": false,
+        "studyType": null,
+        "studyKeys": [],
+        "studyId": null
+      },
+      "missingStudyFields": [
+        "id",
+        "layout",
+        "translation",
+        "explanation",
+        "examples",
+        "examples[0].de",
+        "examples[0].lv",
+        "examples[1].de",
+        "examples[1].lv",
+        "examples[2].de",
+        "examples[2].lv",
+        "comparison",
+        "comparison[0].word",
+        "comparison[0].meaning",
+        "comparison[0].example",
+        "comparison[1].word",
+        "comparison[1].meaning",
+        "comparison[1].example",
+        "tip",
+        "important"
+      ],
+      "extraCsStudyFields": [],
+      "lvCard": {
+        "de": "gefallen",
+        "lv": "patikt",
+        "level": "A1",
+        "study": {
+          "id": "a1-gefallen-study",
+          "layout": "standardStudy",
+          "translation": "patikt",
+          "explanation": [
+            "Galvenā doma: gefallen nozīmē patikt, bet vācu teikuma uzbūve atšķiras no latviešu valodas.",
+            "Lieta, kas patīk, vāciski ir teikuma priekšmets.",
+            "Persona, kurai kaut kas patīk, ir datīvā: mir, dir, ihm, ihr, uns, euch, ihnen."
+          ],
+          "examples": [
+            {
+              "de": "Das gefällt mir.",
+              "lv": "man tas patīk."
+            },
+            {
+              "de": "Gefällt dir das Kleid?",
+              "lv": "vai tev patīk kleita?"
+            },
+            {
+              "de": "Der Film gefällt uns.",
+              "lv": "mums patīk filma."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "gefallen",
+              "meaning": "patikt • persona datīvā",
+              "example": "Das gefällt mir. – Man tas patīk."
+            },
+            {
+              "word": "mögen",
+              "meaning": "patikt • labprāt izvēlēties",
+              "example": "Ich mag das. – Man tas patīk."
+            }
+          ],
+          "tip": [
+            "Atceries konstrukciju: Das gefällt mir.",
+            "Neveido burtisku latviešu vārdu secību."
+          ],
+          "important": [
+            "gefallen lieto ar datīvu: mir, dir, ihm, ihr.",
+            "Das gefällt mir = man tas patīk."
+          ]
+        },
+        "_meta": {
+          "index": 225,
+          "cardId": "a1-gefallen-study",
+          "lang": "LV"
+        }
+      },
+      "csCard": {
+        "de": "gefallen",
+        "lv": "Líbit se",
+        "level": "A1",
+        "_meta": {
+          "index": 225,
+          "cardId": "a1-gefallen-225",
+          "lang": "CS"
+        }
+      },
+      "lvStudy": {
+        "id": "a1-gefallen-study",
+        "layout": "standardStudy",
+        "translation": "patikt",
+        "explanation": [
+          "Galvenā doma: gefallen nozīmē patikt, bet vācu teikuma uzbūve atšķiras no latviešu valodas.",
+          "Lieta, kas patīk, vāciski ir teikuma priekšmets.",
+          "Persona, kurai kaut kas patīk, ir datīvā: mir, dir, ihm, ihr, uns, euch, ihnen."
+        ],
+        "examples": [
+          {
+            "de": "Das gefällt mir.",
+            "lv": "man tas patīk."
+          },
+          {
+            "de": "Gefällt dir das Kleid?",
+            "lv": "vai tev patīk kleita?"
+          },
+          {
+            "de": "Der Film gefällt uns.",
+            "lv": "mums patīk filma."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "gefallen",
+            "meaning": "patikt • persona datīvā",
+            "example": "Das gefällt mir. – Man tas patīk."
+          },
+          {
+            "word": "mögen",
+            "meaning": "patikt • labprāt izvēlēties",
+            "example": "Ich mag das. – Man tas patīk."
+          }
+        ],
+        "tip": [
+          "Atceries konstrukciju: Das gefällt mir.",
+          "Neveido burtisku latviešu vārdu secību."
+        ],
+        "important": [
+          "gefallen lieto ar datīvu: mir, dir, ihm, ihr.",
+          "Das gefällt mir = man tas patīk."
+        ]
+      },
+      "csStudy": null,
+      "notes": [
+        "Missing fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important",
+        "Audit findingId: MAIN-A1-00030",
+        "Audit cardId: a1-gefallen-225",
+        "LV cardId at index: a1-gefallen-study",
+        "CS cardId at index: a1-gefallen-225",
+        "LV study keys: 8",
+        "CS study keys: 0",
+        "CardId strings differ between LV study.id and CS entryId; mapped by shared index + DE lemma.",
+        "Missing vs LV: id, layout, translation, explanation, examples, examples[0].de, examples[0].lv, examples[1].de, examples[1].lv, examples[2].de, examples[2].lv, comparison, comparison[0].word, comparison[0].meaning, comparison[0].example, comparison[1].word, comparison[1].meaning, comparison[1].example, tip, important"
+      ]
+    },
+    {
+      "number": 10,
+      "auditFindingId": "MAIN-A1-00033",
+      "cardId": "a1-Geschichte-233",
+      "index": 233,
+      "deIdentity": {
+        "cardId": "a1-Geschichte-233",
+        "index": 233,
+        "lvDe": "Geschichte",
+        "csDe": "Geschichte",
+        "lvDeArticle": "die",
+        "csDeArticle": "die",
+        "lvDePlural": "die Geschichten",
+        "csDePlural": "die Geschichten",
+        "deLemmaMatch": true,
+        "deArticleMatch": true,
+        "dePluralMatch": true,
+        "orderAligned": true,
+        "lvCardId": "a1-geschichte-study",
+        "csCardId": "a1-Geschichte-233",
+        "auditCardId": "a1-Geschichte-233",
+        "cardIdMatch": false
+      },
+      "mappingStatus": "CONFIRMED",
+      "parityStatus": "MISSING_FULL_STUDY",
+      "lvStudyMeta": {
+        "hasStudy": true,
+        "studyType": "standardStudy",
+        "studyKeys": [
+          "comparison",
+          "examples",
+          "explanation",
+          "id",
+          "important",
+          "layout",
+          "tip",
+          "translation"
+        ],
+        "studyId": "a1-geschichte-study"
+      },
+      "csStudyMeta": {
+        "hasStudy": false,
+        "studyType": null,
+        "studyKeys": [],
+        "studyId": null
+      },
+      "missingStudyFields": [
+        "id",
+        "layout",
+        "translation",
+        "explanation",
+        "examples",
+        "examples[0].de",
+        "examples[0].lv",
+        "examples[1].de",
+        "examples[1].lv",
+        "examples[2].de",
+        "examples[2].lv",
+        "comparison",
+        "comparison[0].word",
+        "comparison[0].meaning",
+        "comparison[0].example",
+        "comparison[1].word",
+        "comparison[1].meaning",
+        "comparison[1].example",
+        "tip",
+        "important"
+      ],
+      "extraCsStudyFields": [],
+      "lvCard": {
+        "de": "Geschichte",
+        "de_article": "die",
+        "de_plural": "die Geschichten",
+        "lv": "stāsts",
+        "level": "A1",
+        "study": {
+          "id": "a1-geschichte-study",
+          "layout": "standardStudy",
+          "translation": "stāsts",
+          "explanation": [
+            "Galvenā doma: Geschichte var nozīmēt stāstu vai vēsturi.",
+            "Daudzskaitlis die Geschichten parasti nozīmē stāstus.",
+            "Nozīmē vēsture vārdu Geschichte parasti lieto vienskaitlī."
+          ],
+          "examples": [
+            {
+              "de": "Er erzählt eine Geschichte.",
+              "lv": "viņš stāsta stāstu."
+            },
+            {
+              "de": "Ich lerne Geschichte.",
+              "lv": "es mācos vēsturi."
+            },
+            {
+              "de": "Das ist die Geschichte Deutschlands.",
+              "lv": "tā ir Vācijas vēsture."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "eine Geschichte",
+              "meaning": "stāsts",
+              "example": "eine interessante Geschichte – interesants stāsts"
+            },
+            {
+              "word": "Geschichte",
+              "meaning": "vēsture",
+              "example": "Geschichte lernen – mācīties vēsturi"
+            }
+          ],
+          "tip": [
+            "Ar eine un daudzskaitlī parasti runa ir par stāstu.",
+            "Kā mācību priekšmets Geschichte nozīmē vēsturi."
+          ],
+          "important": [
+            "die Geschichten = stāsti.",
+            "Geschichte kā vēsture parasti ir vienskaitlī."
+          ]
+        },
+        "_meta": {
+          "index": 233,
+          "cardId": "a1-geschichte-study",
+          "lang": "LV"
+        }
+      },
+      "csCard": {
+        "de": "Geschichte",
+        "de_article": "die",
+        "de_plural": "die Geschichten",
+        "lv": "Příběh • Historie",
+        "level": "A1",
+        "_meta": {
+          "index": 233,
+          "cardId": "a1-Geschichte-233",
+          "lang": "CS"
+        }
+      },
+      "lvStudy": {
+        "id": "a1-geschichte-study",
+        "layout": "standardStudy",
+        "translation": "stāsts",
+        "explanation": [
+          "Galvenā doma: Geschichte var nozīmēt stāstu vai vēsturi.",
+          "Daudzskaitlis die Geschichten parasti nozīmē stāstus.",
+          "Nozīmē vēsture vārdu Geschichte parasti lieto vienskaitlī."
+        ],
+        "examples": [
+          {
+            "de": "Er erzählt eine Geschichte.",
+            "lv": "viņš stāsta stāstu."
+          },
+          {
+            "de": "Ich lerne Geschichte.",
+            "lv": "es mācos vēsturi."
+          },
+          {
+            "de": "Das ist die Geschichte Deutschlands.",
+            "lv": "tā ir Vācijas vēsture."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "eine Geschichte",
+            "meaning": "stāsts",
+            "example": "eine interessante Geschichte – interesants stāsts"
+          },
+          {
+            "word": "Geschichte",
+            "meaning": "vēsture",
+            "example": "Geschichte lernen – mācīties vēsturi"
+          }
+        ],
+        "tip": [
+          "Ar eine un daudzskaitlī parasti runa ir par stāstu.",
+          "Kā mācību priekšmets Geschichte nozīmē vēsturi."
+        ],
+        "important": [
+          "die Geschichten = stāsti.",
+          "Geschichte kā vēsture parasti ir vienskaitlī."
+        ]
+      },
+      "csStudy": null,
+      "notes": [
+        "Missing fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important",
+        "Audit findingId: MAIN-A1-00033",
+        "Audit cardId: a1-Geschichte-233",
+        "LV cardId at index: a1-geschichte-study",
+        "CS cardId at index: a1-Geschichte-233",
+        "LV study keys: 8",
+        "CS study keys: 0",
+        "CardId strings differ between LV study.id and CS entryId; mapped by shared index + DE lemma.",
+        "Missing vs LV: id, layout, translation, explanation, examples, examples[0].de, examples[0].lv, examples[1].de, examples[1].lv, examples[2].de, examples[2].lv, comparison, comparison[0].word, comparison[0].meaning, comparison[0].example, comparison[1].word, comparison[1].meaning, comparison[1].example, tip, important"
+      ]
+    },
+    {
+      "number": 11,
+      "auditFindingId": "MAIN-A1-00036",
+      "cardId": "a1-Geschwister-234",
+      "index": 234,
+      "deIdentity": {
+        "cardId": "a1-Geschwister-234",
+        "index": 234,
+        "lvDe": "Geschwister",
+        "csDe": "Geschwister",
+        "lvDeArticle": "die",
+        "csDeArticle": "die",
+        "lvDePlural": null,
+        "csDePlural": null,
+        "deLemmaMatch": true,
+        "deArticleMatch": true,
+        "dePluralMatch": true,
+        "orderAligned": true,
+        "lvCardId": "a1-geschwister-study",
+        "csCardId": "a1-Geschwister-234",
+        "auditCardId": "a1-Geschwister-234",
+        "cardIdMatch": false
+      },
+      "mappingStatus": "CONFIRMED",
+      "parityStatus": "MISSING_FULL_STUDY",
+      "lvStudyMeta": {
+        "hasStudy": true,
+        "studyType": "standardStudy",
+        "studyKeys": [
+          "comparison",
+          "examples",
+          "explanation",
+          "id",
+          "important",
+          "layout",
+          "tip",
+          "translation"
+        ],
+        "studyId": "a1-geschwister-study"
+      },
+      "csStudyMeta": {
+        "hasStudy": false,
+        "studyType": null,
+        "studyKeys": [],
+        "studyId": null
+      },
+      "missingStudyFields": [
+        "id",
+        "layout",
+        "translation",
+        "explanation",
+        "examples",
+        "examples[0].de",
+        "examples[0].lv",
+        "examples[1].de",
+        "examples[1].lv",
+        "comparison",
+        "comparison[0].word",
+        "comparison[0].meaning",
+        "comparison[0].example",
+        "comparison[1].word",
+        "comparison[1].meaning",
+        "comparison[1].example",
+        "comparison[2].word",
+        "comparison[2].meaning",
+        "comparison[2].example",
+        "tip",
+        "important"
+      ],
+      "extraCsStudyFields": [],
+      "lvCard": {
+        "de": "Geschwister",
+        "de_article": "die",
+        "lv": "brāļi un māsas",
+        "level": "A1",
+        "study": {
+          "id": "a1-geschwister-study",
+          "layout": "standardStudy",
+          "translation": "brāļi un māsas",
+          "explanation": [
+            "Galvenā doma: Geschwister nozīmē brāļus un māsas kopā.",
+            "Šo vārdu parasti lieto tikai daudzskaitlī.",
+            "Par vienu personu lieto Bruder vai Schwester."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe zwei Geschwister.",
+              "lv": "man ir divi brāļi vai māsas."
+            },
+            {
+              "de": "Meine Geschwister wohnen in Berlin.",
+              "lv": "mani brāļi un māsas dzīvo Berlīnē."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "Geschwister",
+              "meaning": "brāļi un māsas",
+              "example": "Meine Geschwister – mani brāļi un māsas"
+            },
+            {
+              "word": "Bruder",
+              "meaning": "brālis",
+              "example": "mein Bruder – mans brālis"
+            },
+            {
+              "word": "Schwester",
+              "meaning": "māsa",
+              "example": "meine Schwester – mana māsa"
+            }
+          ],
+          "tip": [
+            "Geschwister parasti lieto daudzskaitlī.",
+            "Vienai personai izvēlies Bruder vai Schwester."
+          ],
+          "important": [
+            "Neizmanto ein Geschwister kā parastu A1 vienskaitļa formu."
+          ]
+        },
+        "_meta": {
+          "index": 234,
+          "cardId": "a1-geschwister-study",
+          "lang": "LV"
+        }
+      },
+      "csCard": {
+        "de": "Geschwister",
+        "de_article": "die",
+        "lv": "Bratři a sestry",
+        "level": "A1",
+        "_meta": {
+          "index": 234,
+          "cardId": "a1-Geschwister-234",
+          "lang": "CS"
+        }
+      },
+      "lvStudy": {
+        "id": "a1-geschwister-study",
+        "layout": "standardStudy",
+        "translation": "brāļi un māsas",
+        "explanation": [
+          "Galvenā doma: Geschwister nozīmē brāļus un māsas kopā.",
+          "Šo vārdu parasti lieto tikai daudzskaitlī.",
+          "Par vienu personu lieto Bruder vai Schwester."
+        ],
+        "examples": [
+          {
+            "de": "Ich habe zwei Geschwister.",
+            "lv": "man ir divi brāļi vai māsas."
+          },
+          {
+            "de": "Meine Geschwister wohnen in Berlin.",
+            "lv": "mani brāļi un māsas dzīvo Berlīnē."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "Geschwister",
+            "meaning": "brāļi un māsas",
+            "example": "Meine Geschwister – mani brāļi un māsas"
+          },
+          {
+            "word": "Bruder",
+            "meaning": "brālis",
+            "example": "mein Bruder – mans brālis"
+          },
+          {
+            "word": "Schwester",
+            "meaning": "māsa",
+            "example": "meine Schwester – mana māsa"
+          }
+        ],
+        "tip": [
+          "Geschwister parasti lieto daudzskaitlī.",
+          "Vienai personai izvēlies Bruder vai Schwester."
+        ],
+        "important": [
+          "Neizmanto ein Geschwister kā parastu A1 vienskaitļa formu."
+        ]
+      },
+      "csStudy": null,
+      "notes": [
+        "Missing fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important",
+        "Audit findingId: MAIN-A1-00036",
+        "Audit cardId: a1-Geschwister-234",
+        "LV cardId at index: a1-geschwister-study",
+        "CS cardId at index: a1-Geschwister-234",
+        "LV study keys: 8",
+        "CS study keys: 0",
+        "CardId strings differ between LV study.id and CS entryId; mapped by shared index + DE lemma.",
+        "Missing vs LV: id, layout, translation, explanation, examples, examples[0].de, examples[0].lv, examples[1].de, examples[1].lv, comparison, comparison[0].word, comparison[0].meaning, comparison[0].example, comparison[1].word, comparison[1].meaning, comparison[1].example, comparison[2].word, comparison[2].meaning, comparison[2].example, tip, important"
+      ]
+    },
+    {
+      "number": 12,
+      "auditFindingId": "MAIN-A1-00040",
+      "cardId": "a1-Großeltern-251",
+      "index": 251,
+      "deIdentity": {
+        "cardId": "a1-Großeltern-251",
+        "index": 251,
+        "lvDe": "Großeltern",
+        "csDe": "Großeltern",
+        "lvDeArticle": "die",
+        "csDeArticle": "die",
+        "lvDePlural": null,
+        "csDePlural": null,
+        "deLemmaMatch": true,
+        "deArticleMatch": true,
+        "dePluralMatch": true,
+        "orderAligned": true,
+        "lvCardId": "a1-grosseltern-study",
+        "csCardId": "a1-Großeltern-251",
+        "auditCardId": "a1-Großeltern-251",
+        "cardIdMatch": false
+      },
+      "mappingStatus": "CONFIRMED",
+      "parityStatus": "MISSING_FULL_STUDY",
+      "lvStudyMeta": {
+        "hasStudy": true,
+        "studyType": "standardStudy",
+        "studyKeys": [
+          "comparison",
+          "examples",
+          "explanation",
+          "id",
+          "important",
+          "layout",
+          "tip",
+          "translation"
+        ],
+        "studyId": "a1-grosseltern-study"
+      },
+      "csStudyMeta": {
+        "hasStudy": false,
+        "studyType": null,
+        "studyKeys": [],
+        "studyId": null
+      },
+      "missingStudyFields": [
+        "id",
+        "layout",
+        "translation",
+        "explanation",
+        "examples",
+        "examples[0].de",
+        "examples[0].lv",
+        "examples[1].de",
+        "examples[1].lv",
+        "comparison",
+        "comparison[0].word",
+        "comparison[0].meaning",
+        "comparison[0].example",
+        "comparison[1].word",
+        "comparison[1].meaning",
+        "comparison[1].example",
+        "comparison[2].word",
+        "comparison[2].meaning",
+        "comparison[2].example",
+        "tip",
+        "important"
+      ],
+      "extraCsStudyFields": [],
+      "lvCard": {
+        "de": "Großeltern",
+        "de_article": "die",
+        "lv": "vecvecāki",
+        "level": "A1",
+        "study": {
+          "id": "a1-grosseltern-study",
+          "layout": "standardStudy",
+          "translation": "vecvecāki",
+          "explanation": [
+            "Galvenā doma: Großeltern nozīmē vecmāmiņu un vectētiņu kopā.",
+            "Šo vārdu lieto daudzskaitlī.",
+            "Vienskaitlī lieto Großmutter vai Großvater."
+          ],
+          "examples": [
+            {
+              "de": "Meine Großeltern wohnen auf dem Land.",
+              "lv": "mani vecvecāki dzīvo laukos."
+            },
+            {
+              "de": "Ich besuche meine Großeltern.",
+              "lv": "es apciemoju savus vecvecākus."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "Großeltern",
+              "meaning": "vecvecāki",
+              "example": "meine Großeltern – mani vecvecāki"
+            },
+            {
+              "word": "Großmutter",
+              "meaning": "vecmāmiņa",
+              "example": "meine Großmutter – mana vecmāmiņa"
+            },
+            {
+              "word": "Großvater",
+              "meaning": "vectētiņš",
+              "example": "mein Großvater – mans vectētiņš"
+            }
+          ],
+          "tip": [
+            "Großeltern ir daudzskaitlis.",
+            "Vienai personai lieto Großmutter vai Großvater."
+          ],
+          "important": [
+            "die Großeltern = vecvecāki."
+          ]
+        },
+        "_meta": {
+          "index": 251,
+          "cardId": "a1-grosseltern-study",
+          "lang": "LV"
+        }
+      },
+      "csCard": {
+        "de": "Großeltern",
+        "de_article": "die",
+        "lv": "Prarodiče",
+        "level": "A1",
+        "_meta": {
+          "index": 251,
+          "cardId": "a1-Großeltern-251",
+          "lang": "CS"
+        }
+      },
+      "lvStudy": {
+        "id": "a1-grosseltern-study",
+        "layout": "standardStudy",
+        "translation": "vecvecāki",
+        "explanation": [
+          "Galvenā doma: Großeltern nozīmē vecmāmiņu un vectētiņu kopā.",
+          "Šo vārdu lieto daudzskaitlī.",
+          "Vienskaitlī lieto Großmutter vai Großvater."
+        ],
+        "examples": [
+          {
+            "de": "Meine Großeltern wohnen auf dem Land.",
+            "lv": "mani vecvecāki dzīvo laukos."
+          },
+          {
+            "de": "Ich besuche meine Großeltern.",
+            "lv": "es apciemoju savus vecvecākus."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "Großeltern",
+            "meaning": "vecvecāki",
+            "example": "meine Großeltern – mani vecvecāki"
+          },
+          {
+            "word": "Großmutter",
+            "meaning": "vecmāmiņa",
+            "example": "meine Großmutter – mana vecmāmiņa"
+          },
+          {
+            "word": "Großvater",
+            "meaning": "vectētiņš",
+            "example": "mein Großvater – mans vectētiņš"
+          }
+        ],
+        "tip": [
+          "Großeltern ir daudzskaitlis.",
+          "Vienai personai lieto Großmutter vai Großvater."
+        ],
+        "important": [
+          "die Großeltern = vecvecāki."
+        ]
+      },
+      "csStudy": null,
+      "notes": [
+        "Missing fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important",
+        "Audit findingId: MAIN-A1-00040",
+        "Audit cardId: a1-Großeltern-251",
+        "LV cardId at index: a1-grosseltern-study",
+        "CS cardId at index: a1-Großeltern-251",
+        "LV study keys: 8",
+        "CS study keys: 0",
+        "CardId strings differ between LV study.id and CS entryId; mapped by shared index + DE lemma.",
+        "Missing vs LV: id, layout, translation, explanation, examples, examples[0].de, examples[0].lv, examples[1].de, examples[1].lv, comparison, comparison[0].word, comparison[0].meaning, comparison[0].example, comparison[1].word, comparison[1].meaning, comparison[1].example, comparison[2].word, comparison[2].meaning, comparison[2].example, tip, important"
+      ]
+    },
+    {
+      "number": 13,
+      "auditFindingId": "MAIN-A1-00044",
+      "cardId": "a1-Hand-267",
+      "index": 267,
+      "deIdentity": {
+        "cardId": "a1-Hand-267",
+        "index": 267,
+        "lvDe": "Hand",
+        "csDe": "Hand",
+        "lvDeArticle": "die",
+        "csDeArticle": "die",
+        "lvDePlural": "die Hände",
+        "csDePlural": "die Hände",
+        "deLemmaMatch": true,
+        "deArticleMatch": true,
+        "dePluralMatch": true,
+        "orderAligned": true,
+        "lvCardId": "a1-hand-study",
+        "csCardId": "a1-Hand-267",
+        "auditCardId": "a1-Hand-267",
+        "cardIdMatch": false
+      },
+      "mappingStatus": "CONFIRMED",
+      "parityStatus": "MISSING_FULL_STUDY",
+      "lvStudyMeta": {
+        "hasStudy": true,
+        "studyType": "standardStudy",
+        "studyKeys": [
+          "comparison",
+          "examples",
+          "explanation",
+          "id",
+          "important",
+          "layout",
+          "tip",
+          "translation"
+        ],
+        "studyId": "a1-hand-study"
+      },
+      "csStudyMeta": {
+        "hasStudy": false,
+        "studyType": null,
+        "studyKeys": [],
+        "studyId": null
+      },
+      "missingStudyFields": [
+        "id",
+        "layout",
+        "translation",
+        "explanation",
+        "examples",
+        "examples[0].de",
+        "examples[0].lv",
+        "examples[1].de",
+        "examples[1].lv",
+        "examples[2].de",
+        "examples[2].lv",
+        "comparison",
+        "comparison[0].word",
+        "comparison[0].meaning",
+        "comparison[0].example",
+        "comparison[1].word",
+        "comparison[1].meaning",
+        "comparison[1].example",
+        "tip",
+        "important"
+      ],
+      "extraCsStudyFields": [],
+      "lvCard": {
+        "de": "Hand",
+        "de_article": "die",
+        "de_plural": "die Hände",
+        "lv": "plauksta",
+        "level": "A1",
+        "study": {
+          "id": "a1-hand-study",
+          "layout": "standardStudy",
+          "translation": "plauksta",
+          "explanation": [
+            "Galvenā doma: die Hand nozīmē plaukstu.",
+            "Vācu valodā Arm un Hand ir divi atsevišķi vārdi.",
+            "Latviešu ikdienas valodā vārds roka bieži var apzīmēt gan Arm, gan Hand."
+          ],
+          "examples": [
+            {
+              "de": "Ich wasche meine Hände.",
+              "lv": "es mazgāju rokas."
+            },
+            {
+              "de": "Sie hält das Glas in der Hand.",
+              "lv": "viņa tur glāzi plaukstā."
+            },
+            {
+              "de": "Mein Arm tut weh.",
+              "lv": "man sāp roka."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Hand",
+              "meaning": "plauksta",
+              "example": "in der Hand – plaukstā"
+            },
+            {
+              "word": "der Arm",
+              "meaning": "roka",
+              "example": "Mein Arm tut weh. – Man sāp roka."
+            }
+          ],
+          "tip": [
+            "Hand = plauksta.",
+            "Arm = roka no pleca līdz plaukstai."
+          ],
+          "important": [
+            "Vācu valodā Hand un Arm nav viens un tas pats vārds."
+          ]
+        },
+        "_meta": {
+          "index": 267,
+          "cardId": "a1-hand-study",
+          "lang": "LV"
+        }
+      },
+      "csCard": {
+        "de": "Hand",
+        "de_article": "die",
+        "de_plural": "die Hände",
+        "lv": "Ruka (dlaň)",
+        "level": "A1",
+        "_meta": {
+          "index": 267,
+          "cardId": "a1-Hand-267",
+          "lang": "CS"
+        }
+      },
+      "lvStudy": {
+        "id": "a1-hand-study",
+        "layout": "standardStudy",
+        "translation": "plauksta",
+        "explanation": [
+          "Galvenā doma: die Hand nozīmē plaukstu.",
+          "Vācu valodā Arm un Hand ir divi atsevišķi vārdi.",
+          "Latviešu ikdienas valodā vārds roka bieži var apzīmēt gan Arm, gan Hand."
+        ],
+        "examples": [
+          {
+            "de": "Ich wasche meine Hände.",
+            "lv": "es mazgāju rokas."
+          },
+          {
+            "de": "Sie hält das Glas in der Hand.",
+            "lv": "viņa tur glāzi plaukstā."
+          },
+          {
+            "de": "Mein Arm tut weh.",
+            "lv": "man sāp roka."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "die Hand",
+            "meaning": "plauksta",
+            "example": "in der Hand – plaukstā"
+          },
+          {
+            "word": "der Arm",
+            "meaning": "roka",
+            "example": "Mein Arm tut weh. – Man sāp roka."
+          }
+        ],
+        "tip": [
+          "Hand = plauksta.",
+          "Arm = roka no pleca līdz plaukstai."
+        ],
+        "important": [
+          "Vācu valodā Hand un Arm nav viens un tas pats vārds."
+        ]
+      },
+      "csStudy": null,
+      "notes": [
+        "Missing fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important",
+        "Audit findingId: MAIN-A1-00044",
+        "Audit cardId: a1-Hand-267",
+        "LV cardId at index: a1-hand-study",
+        "CS cardId at index: a1-Hand-267",
+        "LV study keys: 8",
+        "CS study keys: 0",
+        "CardId strings differ between LV study.id and CS entryId; mapped by shared index + DE lemma.",
+        "Missing vs LV: id, layout, translation, explanation, examples, examples[0].de, examples[0].lv, examples[1].de, examples[1].lv, examples[2].de, examples[2].lv, comparison, comparison[0].word, comparison[0].meaning, comparison[0].example, comparison[1].word, comparison[1].meaning, comparison[1].example, tip, important"
+      ]
+    },
+    {
+      "number": 14,
+      "auditFindingId": "MAIN-A1-00048",
+      "cardId": "a1-hübsch-288",
+      "index": 288,
+      "deIdentity": {
+        "cardId": "a1-hübsch-288",
+        "index": 288,
+        "lvDe": "hübsch",
+        "csDe": "hübsch",
+        "lvDeArticle": null,
+        "csDeArticle": null,
+        "lvDePlural": null,
+        "csDePlural": null,
+        "deLemmaMatch": true,
+        "deArticleMatch": true,
+        "dePluralMatch": true,
+        "orderAligned": true,
+        "lvCardId": "a1-huebsch",
+        "csCardId": "a1-hübsch-288",
+        "auditCardId": "a1-hübsch-288",
+        "cardIdMatch": false
+      },
+      "mappingStatus": "CONFIRMED",
+      "parityStatus": "MISSING_FULL_STUDY",
+      "lvStudyMeta": {
+        "hasStudy": true,
+        "studyType": "standardStudy",
+        "studyKeys": [
+          "comparison",
+          "examples",
+          "explanation",
+          "id",
+          "important",
+          "layout",
+          "sectionAccents",
+          "tip",
+          "translation"
+        ],
+        "studyId": "a1-huebsch"
+      },
+      "csStudyMeta": {
+        "hasStudy": false,
+        "studyType": null,
+        "studyKeys": [],
+        "studyId": null
+      },
+      "missingStudyFields": [
+        "id",
+        "layout",
+        "translation",
+        "explanation",
+        "examples",
+        "examples[0].de",
+        "examples[0].lv",
+        "examples[1].de",
+        "examples[1].lv",
+        "examples[2].de",
+        "examples[2].lv",
+        "comparison",
+        "comparison[0].word",
+        "comparison[0].meaning",
+        "comparison[0].example",
+        "comparison[1].word",
+        "comparison[1].meaning",
+        "comparison[1].example",
+        "comparison[2].word",
+        "comparison[2].meaning",
+        "comparison[2].example",
+        "tip",
+        "tip.text",
+        "important",
+        "sectionAccents",
+        "sectionAccents.explanation",
+        "sectionAccents.explanation.blue",
+        "sectionAccents.explanation.purple",
+        "sectionAccents.explanation.green",
+        "sectionAccents.explanation.yellow",
+        "sectionAccents.examples",
+        "sectionAccents.examples[0].de",
+        "sectionAccents.examples[0].de.blue",
+        "sectionAccents.examples[0].de.green",
+        "sectionAccents.examples[0].lv",
+        "sectionAccents.examples[0].lv.purple",
+        "sectionAccents.examples[0].lv.green",
+        "sectionAccents.examples[1].de",
+        "sectionAccents.examples[1].de.blue",
+        "sectionAccents.examples[1].lv",
+        "sectionAccents.examples[1].lv.purple",
+        "sectionAccents.examples[2].de",
+        "sectionAccents.examples[2].de.blue",
+        "sectionAccents.examples[2].lv",
+        "sectionAccents.examples[2].lv.purple",
+        "sectionAccents.comparison",
+        "sectionAccents.comparison[0].word",
+        "sectionAccents.comparison[0].word.green",
+        "sectionAccents.comparison[0].meaning",
+        "sectionAccents.comparison[0].meaning.purple",
+        "sectionAccents.comparison[0].example",
+        "sectionAccents.comparison[0].example.blue",
+        "sectionAccents.comparison[0].example.purple",
+        "sectionAccents.comparison[1].word",
+        "sectionAccents.comparison[1].word.green",
+        "sectionAccents.comparison[1].meaning",
+        "sectionAccents.comparison[1].meaning.purple",
+        "sectionAccents.comparison[2].word",
+        "sectionAccents.comparison[2].word.green",
+        "sectionAccents.comparison[2].meaning",
+        "sectionAccents.comparison[2].meaning.purple",
+        "sectionAccents.tip",
+        "sectionAccents.tip.left",
+        "sectionAccents.tip.left.blue",
+        "sectionAccents.tip.left.purple",
+        "sectionAccents.tip.left.yellow",
+        "sectionAccents.tip.left.green",
+        "sectionAccents.important",
+        "sectionAccents.important[0].blue",
+        "sectionAccents.important[0].purple",
+        "sectionAccents.important[1].yellow",
+        "sectionAccents.important[1].purple"
+      ],
+      "extraCsStudyFields": [],
+      "lvCard": {
+        "de": "hübsch",
+        "lv": "glīts",
+        "level": "A1",
+        "study": {
+          "id": "a1-huebsch",
+          "layout": "standardStudy",
+          "translation": "glīts",
+          "explanation": [
+            "Galvenā doma: hübsch nozīmē glīts, pievilcīgs vai simpātisks pēc izskata.",
+            "hübsch bieži raksturo cilvēka, apģērba, telpas vai priekšmeta izskatu.",
+            "Latviešu jauks dažos kontekstos ir iespējams, bet tas ir pārāk plašs kā galvenais tulkojums.",
+            "Raksturu vai laipnu izturēšanos vācu valodā biežāk raksturo ar nett."
+          ],
+          "examples": [
+            {
+              "de": "Sie trägt ein hübsches Kleid.",
+              "lv": "Viņai ir glīta kleita."
+            },
+            {
+              "de": "Das Zimmer ist hübsch.",
+              "lv": "Istaba ir glīta."
+            },
+            {
+              "de": "Das ist ein hübsches Bild.",
+              "lv": "Tā ir glīta bilde."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "hübsch",
+              "meaning": "glīts • pievilcīgs pēc izskata",
+              "example": "Das ist ein hübsches Kleid. – Tā ir glīta kleita."
+            },
+            {
+              "word": "schön",
+              "meaning": "skaists • patīkams",
+              "example": "Der Garten ist schön. – Dārzs ir skaists."
+            },
+            {
+              "word": "nett",
+              "meaning": "jauks • laipns",
+              "example": "Sie ist sehr nett. – Viņa ir ļoti jauka."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: hübsch galvenokārt raksturo glītu izskatu, bet nett biežāk raksturo jauku cilvēku vai izturēšanos."
+          },
+          "important": [
+            "hübsch nav universāls tulkojums vārdam jauks.",
+            "Cilvēka raksturam vai laipnai izturēšanās formai parasti piemērotāks ir nett."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "hübsch"
+              ],
+              "purple": [
+                "glīts",
+                "pievilcīgs",
+                "simpātisks"
+              ],
+              "green": [
+                "izskatu"
+              ],
+              "yellow": [
+                "nett"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "hübsches"
+                  ],
+                  "green": [
+                    "Kleid"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "glīta"
+                  ],
+                  "green": [
+                    "kleita"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "hübsch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "glīta"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "hübsches"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "glīta"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "hübsch"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "glīts",
+                    "pievilcīgs"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "hübsches"
+                  ],
+                  "purple": [
+                    "glīta"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "schön"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "skaists",
+                    "patīkams"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nett"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "jauks",
+                    "laipns"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "hübsch"
+                ],
+                "purple": [
+                  "glīts izskats"
+                ],
+                "yellow": [
+                  "nett"
+                ],
+                "green": [
+                  "jauks cilvēks"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "hübsch"
+                ],
+                "purple": [
+                  "glīts"
+                ]
+              },
+              {
+                "yellow": [
+                  "nett"
+                ],
+                "purple": [
+                  "jauks",
+                  "laipns"
+                ]
+              }
+            ]
+          }
+        },
+        "_meta": {
+          "index": 288,
+          "cardId": "a1-huebsch",
+          "lang": "LV"
+        }
+      },
+      "csCard": {
+        "de": "hübsch",
+        "lv": "Úhledný • Pěkný",
+        "level": "A1",
+        "_meta": {
+          "index": 288,
+          "cardId": "a1-hübsch-288",
+          "lang": "CS"
+        }
+      },
+      "lvStudy": {
+        "id": "a1-huebsch",
+        "layout": "standardStudy",
+        "translation": "glīts",
+        "explanation": [
+          "Galvenā doma: hübsch nozīmē glīts, pievilcīgs vai simpātisks pēc izskata.",
+          "hübsch bieži raksturo cilvēka, apģērba, telpas vai priekšmeta izskatu.",
+          "Latviešu jauks dažos kontekstos ir iespējams, bet tas ir pārāk plašs kā galvenais tulkojums.",
+          "Raksturu vai laipnu izturēšanos vācu valodā biežāk raksturo ar nett."
+        ],
+        "examples": [
+          {
+            "de": "Sie trägt ein hübsches Kleid.",
+            "lv": "Viņai ir glīta kleita."
+          },
+          {
+            "de": "Das Zimmer ist hübsch.",
+            "lv": "Istaba ir glīta."
+          },
+          {
+            "de": "Das ist ein hübsches Bild.",
+            "lv": "Tā ir glīta bilde."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "hübsch",
+            "meaning": "glīts • pievilcīgs pēc izskata",
+            "example": "Das ist ein hübsches Kleid. – Tā ir glīta kleita."
+          },
+          {
+            "word": "schön",
+            "meaning": "skaists • patīkams",
+            "example": "Der Garten ist schön. – Dārzs ir skaists."
+          },
+          {
+            "word": "nett",
+            "meaning": "jauks • laipns",
+            "example": "Sie ist sehr nett. – Viņa ir ļoti jauka."
+          }
+        ],
+        "tip": {
+          "text": "Atceries: hübsch galvenokārt raksturo glītu izskatu, bet nett biežāk raksturo jauku cilvēku vai izturēšanos."
+        },
+        "important": [
+          "hübsch nav universāls tulkojums vārdam jauks.",
+          "Cilvēka raksturam vai laipnai izturēšanās formai parasti piemērotāks ir nett."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts",
+              "pievilcīgs",
+              "simpātisks"
+            ],
+            "green": [
+              "izskatu"
+            ],
+            "yellow": [
+              "nett"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "hübsches"
+                ],
+                "green": [
+                  "Kleid"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "glīta"
+                ],
+                "green": [
+                  "kleita"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "hübsch"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "glīta"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "hübsches"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "glīta"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "hübsch"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "glīts",
+                  "pievilcīgs"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "hübsches"
+                ],
+                "purple": [
+                  "glīta"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "schön"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "skaists",
+                  "patīkams"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "nett"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "jauks",
+                  "laipns"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "hübsch"
+              ],
+              "purple": [
+                "glīts izskats"
+              ],
+              "yellow": [
+                "nett"
+              ],
+              "green": [
+                "jauks cilvēks"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "hübsch"
+              ],
+              "purple": [
+                "glīts"
+              ]
+            },
+            {
+              "yellow": [
+                "nett"
+              ],
+              "purple": [
+                "jauks",
+                "laipns"
+              ]
+            }
+          ]
+        }
+      },
+      "csStudy": null,
+      "notes": [
+        "Missing fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.tip.text, study.important",
+        "Audit findingId: MAIN-A1-00048",
+        "Audit cardId: a1-hübsch-288",
+        "LV cardId at index: a1-huebsch",
+        "CS cardId at index: a1-hübsch-288",
+        "LV study keys: 9",
+        "CS study keys: 0",
+        "CardId strings differ between LV study.id and CS entryId; mapped by shared index + DE lemma.",
+        "Missing vs LV: id, layout, translation, explanation, examples, examples[0].de, examples[0].lv, examples[1].de, examples[1].lv, examples[2].de, examples[2].lv, comparison, comparison[0].word, comparison[0].meaning, comparison[0].example, comparison[1].word, comparison[1].meaning, comparison[1].example, comparison[2].word, comparison[2].meaning, comparison[2].example, tip, tip.text, important, sectionAccents, sectionAccents.explanation, sectionAccents.explanation.blue, sectionAccents.explanation.purple, sectionAccents.explanation.green, sectionAccents.explanation.yellow, sectionAccents.examples, sectionAccents.examples[0].de, sectionAccents.examples[0].de.blue, sectionAccents.examples[0].de.green, sectionAccents.examples[0].lv, sectionAccents.examples[0].lv.purple, sectionAccents.examples[0].lv.green, sectionAccents.examples[1].de, sectionAccents.examples[1].de.blue, sectionAccents.examples[1].lv, sectionAccents.examples[1].lv.purple, sectionAccents.examples[2].de, sectionAccents.examples[2].de.blue, sectionAccents.examples[2].lv, sectionAccents.examples[2].lv.purple, sectionAccents.comparison, sectionAccents.comparison[0].word, sectionAccents.comparison[0].word.green, sectionAccents.comparison[0].meaning, sectionAccents.comparison[0].meaning.purple, sectionAccents.comparison[0].example, sectionAccents.comparison[0].example.blue, sectionAccents.comparison[0].example.purple, sectionAccents.comparison[1].word, sectionAccents.comparison[1].word.green, sectionAccents.comparison[1].meaning, sectionAccents.comparison[1].meaning.purple, sectionAccents.comparison[2].word, sectionAccents.comparison[2].word.green, sectionAccents.comparison[2].meaning, sectionAccents.comparison[2].meaning.purple, sectionAccents.tip, sectionAccents.tip.left, sectionAccents.tip.left.blue, sectionAccents.tip.left.purple, sectionAccents.tip.left.yellow, sectionAccents.tip.left.green, sectionAccents.important, sectionAccents.important[0].blue, sectionAccents.important[0].purple, sectionAccents.important[1].yellow, sectionAccents.important[1].purple"
+      ]
+    }
+  ]
+}
