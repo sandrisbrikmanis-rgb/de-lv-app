@@ -918,8 +918,8 @@ const A1_WORDS = [
     "study": {
       "id": "a1-also",
       "layout": "standardStudy",
-      "translation": "Proto",
-      "explanation": "Používá se k vyvození závěru nebo zobrazení výsledku. Znamená „proto“, „proto“.",
+      "translation": "Tedy • Takže",
+      "explanation": "Používá se k vyvození závěru nebo vyjádření výsledku. Znamená „tedy“ nebo „takže“.",
       "examples": [
         {
           "de": "Es regnet, also bleibe ich zu Hause.",
@@ -1071,7 +1071,7 @@ const A1_WORDS = [
       },
       "important": [
         "Tedy ukazuje závěr: další myšlenka vyplývá z toho, co bylo řečeno výše.",
-        "České „tak“ může být často také deshalb."
+        "České „tak“ může podle kontextu překládat také „also“; „deshalb“ obvykle znamená „proto“."
       ]
     }
   },
@@ -1226,11 +1226,11 @@ const A1_WORDS = [
         },
         {
           "de": "Ich komme auch.",
-          "lv": "Já také přijdu."
+          "lv": "Ona zde také pracuje."
         },
         {
           "de": "Sie arbeitet auch hier.",
-          "lv": "Ona zde také pracuje."
+          "lv": "Také vám přeji hezký den."
         }
       ],
       "tip": [
@@ -1525,7 +1525,7 @@ const A1_WORDS = [
   },
   {
     "de": "aus",
-    "lv": "Od • Ven",
+    "lv": "Z • Zevnitř",
     "level": "A1",
     "study": {
       "id": "a1-aus",
@@ -1700,7 +1700,7 @@ const A1_WORDS = [
   },
   {
     "de": "aufs",
-    "lv": "Kam • Na • Kam?",
+    "lv": "Na",
     "level": "A1",
     "study": {
       "id": "a1-aufs",
@@ -1711,7 +1711,7 @@ const A1_WORDS = [
         "Plná forma: „auf das“. Vyjadřuje směr a odpovídá na otázku „kam?“.",
         "Používá se, když děj vyjadřuje směr ke konkrétní věci nebo povrchu – odpovídá na otázku kam?",
         "Často se používá s pohybem: vylézt, sednout, položit, zajet k něčemu.",
-        "V hovorové a každodenní řeči se téměř vždy používá aufs místo plného auf das."
+        "V běžné řeči se často používá aufs místo plného auf das; obě podoby jsou gramaticky správné."
       ],
       "examples": [
         {
@@ -2149,7 +2149,7 @@ const A1_WORDS = [
       },
       "important": [
         "Baden a schwimmen nejsou synonyma.",
-        "čeština často říká jednoduše „plavat“, ale v němčině si musíte vybrat podle situace."
+        "Čeština často říká jednoduše „plavat“, ale v němčině si musíte vybrat podle situace."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3545,7 +3545,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich bleibe zu Hause.",
-          "lv": "Zůstávám doma"
+          "lv": "Zůstávám doma."
         },
         {
           "de": "Bleib hier!",
@@ -3557,7 +3557,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich gehe nach Hause.",
-          "lv": "Jdu domů"
+          "lv": "Jdu domů."
         }
       ],
       "comparison": [
@@ -3842,7 +3842,7 @@ const A1_WORDS = [
         },
         {
           "de": "Er bringt das Buch zur Schule.",
-          "lv": "Donese knihu do školy."
+          "lv": "Přináší knihu do školy."
         },
         {
           "de": "Ich nehme das Buch.",
@@ -3857,7 +3857,7 @@ const A1_WORDS = [
         },
         {
           "word": "nehmen",
-          "meaning": "Vzít / vzít",
+          "meaning": "Vzít / brát",
           "example": "Ich nehme das Buch."
         },
         {
@@ -4206,7 +4206,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "da",
-          "meaning": "Tam • Zde • Zde (obecně)",
+          "meaning": "Tam • Tady • Zde (obecně)",
           "example": "Da ist mein Auto."
         },
         {
@@ -4443,7 +4443,7 @@ const A1_WORDS = [
   },
   {
     "de": "das",
-    "lv": "Neuter určitý člen",
+    "lv": "Určitý člen středního rodu",
     "level": "A1",
     "study": {
       "id": "a1-das",
@@ -4453,7 +4453,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Das ist mein Auto.",
-          "lv": "Je to moje auto"
+          "lv": "Je to moje auto."
         },
         {
           "de": "Das ist gut.",
@@ -4472,7 +4472,7 @@ const A1_WORDS = [
         },
         {
           "word": "dies",
-          "meaning": "Tenhle",
+          "meaning": "Tohle",
           "example": "Dies ist mein Auto. – Tohle je moje auto."
         },
         {
@@ -4805,7 +4805,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-der",
       "layout": "standardStudy",
-      "translation": "Mužský rod určitý člen",
+      "translation": "Určitý člen mužského rodu",
       "explanation": "Používá se s podstatnými jmény mužského rodu. V některých větách může „der“ fungovat také jako zájmeno nebo vztažné zájmeno.",
       "examples": [
         {
@@ -4911,7 +4911,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-die",
       "layout": "standardStudy",
-      "translation": "Ženský určitý člen",
+      "translation": "Určitý člen ženského rodu",
       "explanation": "Používá se s podstatnými jmény ženského rodu. V některých větách může „die“ fungovat také jako zájmeno nebo vztažné zájmeno.",
       "examples": [
         {
@@ -5039,7 +5039,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich mag diesen Hund.",
-          "lv": "Líbí se mi tento pes"
+          "lv": "Líbí se mi tento pes."
         },
         {
           "de": "Dieser Stift ist neu.",
@@ -5442,11 +5442,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich esse ein Eis.",
-          "lv": "Jím zmrzlinu"
+          "lv": "Jím zmrzlinu."
         },
         {
           "de": "Möchtest du ein Eis?",
-          "lv": "Chceš zmrzlinu"
+          "lv": "Chceš zmrzlinu?"
         },
         {
           "de": "Im Winter liegt Eis auf dem See.",
@@ -6131,15 +6131,15 @@ const A1_WORDS = [
         },
         {
           "de": "Hast du etwas Zeit?",
-          "lv": "Máš trochu času"
+          "lv": "Máš trochu času?"
         },
         {
           "de": "Ich bin etwas müde.",
-          "lv": "Jsem trochu unavený"
+          "lv": "Jsem trochu unavený."
         },
         {
           "de": "Ich habe etwas für dich.",
-          "lv": "Něco pro tebe mám"
+          "lv": "Něco pro tebe mám."
         },
         {
           "de": "Das ist etwas teuer.",
@@ -6154,7 +6154,7 @@ const A1_WORDS = [
         },
         {
           "word": "was",
-          "meaning": "Něco (hovorové)",
+          "meaning": "Něco (hovorově)",
           "example": "Willst du was trinken? = Chceš něco k pití?"
         },
         {
@@ -6379,7 +6379,7 @@ const A1_WORDS = [
   },
   {
     "de": "euch",
-    "lv": "Ty • Ty",
+    "lv": "Vás • Vám",
     "level": "A1",
     "study": {
       "id": "a1-euch",
@@ -6481,7 +6481,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich fahre dich nach Hause.",
-          "lv": "Vezmu tě domů"
+          "lv": "Vezmu tě domů."
         },
         {
           "de": "Wir fahren morgen nach München.",
@@ -6529,7 +6529,7 @@ const A1_WORDS = [
         ],
         "purple": [
           "Jezdit",
-          "Braucu",
+          "Jedu",
           "Vézt",
           "Vedu",
           "Odvézt"
@@ -6539,7 +6539,7 @@ const A1_WORDS = [
           "dopravním prostředkem",
           "Auto",
           "Autobusu",
-          "Vilcienu",
+          "Vlakem",
           "jízdní kolo"
         ],
         "yellow": [
@@ -6900,15 +6900,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich finde meinen Schlüssel nicht.",
-          "lv": "Nemohu najít svůj klíč"
+          "lv": "Nemohu najít svůj klíč."
         },
         {
           "de": "Hast du dein Handy gefunden?",
-          "lv": "Zdá se mi to dobré."
+          "lv": "Našel/našla jsi svůj telefon?"
         },
         {
           "de": "Ich finde das gut.",
-          "lv": "Co si myslíš o filmu?"
+          "lv": "Myslím si, že je to dobré."
         },
         {
           "de": "Wie findest du den Film?",
@@ -7209,7 +7209,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Sie ist eine nette Frau.",
-          "lv": "Je to pěkná žena."
+          "lv": "Je to milá žena."
         },
         {
           "de": "Das ist meine Frau.",
@@ -7470,7 +7470,7 @@ const A1_WORDS = [
       "translation": "Pro • Za",
       "explanation": [
         "Hlavní myšlenka: für je předložka, která vždy řídí akuzativ; v češtině se podle kontextu překládá jako pro nebo za.",
-        "Když mluvíme o příjemci nebo záměru, für = pro (für dich = pro vás).",
+        "Když mluvíme o příjemci nebo záměru, für = pro (für dich = pro tebe).",
         "Když mluvíme o výměně, poplatku nebo důvodu, für = za (danke für das Geschenk = děkuji za dar).",
         "Für vždy vyžaduje akuzativ, bez ohledu na význam."
       ],
@@ -7690,7 +7690,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-ganz-study",
       "layout": "standardStudy",
-      "translation": "Celý • Úplně",
+      "translation": "Celý • Úplně • Docela",
       "explanation": [
         "Hlavní myšlenka: ganz ve spojení s podstatným jménem často znamená celý.",
         "Před přídavným jménem nebo příslovcem může znamenat úplně, docela nebo celkem.",
@@ -7778,15 +7778,15 @@ const A1_WORDS = [
         },
         {
           "de": "Ich gebe dir meine Nummer.",
-          "lv": "Dávám ti své číslo"
+          "lv": "Dávám ti své číslo."
         },
         {
           "de": "Ich nehme das Buch.",
-          "lv": "Beru knihu"
+          "lv": "Beru knihu."
         },
         {
           "de": "Ich bekomme ein Geschenk.",
-          "lv": "Dostanu dárek"
+          "lv": "Dostanu dárek."
         }
       ],
       "comparison": [
@@ -8270,7 +8270,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: gleich v časovém významu znamená hned a při srovnání znamená stejný.",
         "Když jde o čas, gleich = hned/za chvíli (Ich komme gleich. = hned přijdu.).",
-        "Pokud jde o srovnání, gleich = stejný/stejný (die gleiche Farbe = stejná barva).",
+        "Pokud jde o srovnání, gleich = stejný (die gleiche Farbe = stejná barva).",
         "Správný význam určuje kontext, například zda jde o čas nebo o srovnání.",
         "Kontext (čas nebo přirovnání) ukazuje správný význam."
       ],
@@ -8480,7 +8480,7 @@ const A1_WORDS = [
         },
         {
           "de": "Das Haus ist groß.",
-          "lv": "Berlín je velké město."
+          "lv": "Dům je velký."
         },
         {
           "de": "Er ist groß.",
@@ -8696,7 +8696,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wie geht es dir? – Gut, danke!",
-          "lv": "Jak se máš - dobře, díky!"
+          "lv": "Jak se máš – dobře, díky!"
         },
         {
           "de": "Er spricht gut Deutsch.",
@@ -8862,8 +8862,8 @@ const A1_WORDS = [
       "translation": "Mám",
       "explanation": [
         "Hlavní myšlenka: haben znamená, že někdo má nebo má k něčemu přístup.",
-        "Česká dativní konstrukce „I have / you have“ v němčině je nominativ + haben: Ich habe ..., Du hast ..., Er hat ... — ne *mir habe.",
-        "Po Habenovi následuje akuzativ: Ich habe ein Auto. = Mám auto.",
+        "Anglické „I have / you have“ se v němčině vyjadřuje nominativem + haben: Ich habe ..., Du hast ..., Er hat ... — ne *mir habe.",
+        "Po slovese haben následuje akuzativ: Ich habe ein Auto. = Mám auto.",
         "Haben se také používá jako pomocné sloveso v perfektu: Ich habe gelernt."
       ],
       "examples": [
@@ -9145,7 +9145,7 @@ const A1_WORDS = [
           "example": "Ich nehme die Tasche. = Beru tašku."
         },
         {
-          "word": "stoppen",
+          "word": "anhalten",
           "meaning": "Zastavit",
           "example": "Stoppen Sie das Auto. = Zastavte auto."
         },
@@ -9889,7 +9889,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: Slyšet zvuk nebo poslouchat hudbu.",
         "Hören především znamená: vnímat zvuk.",
-        "Často charakterizované: zvuky.",
+        "Často se používá pro zvuky.",
         "Hören se používá pro zvuky, hudbu a to, co je slyšet."
       ],
       "examples": [
@@ -9911,7 +9911,7 @@ const A1_WORDS = [
         "Použijte hören, pokud kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Hören = slyšet/poslechnout zvuk.",
+        "hören = slyšet zvuk / poslouchat hudbu.",
         "Poslouchejte zvuk nebo poslouchejte hudbu."
       ],
       "sectionAccents": {
@@ -11707,7 +11707,7 @@ const A1_WORDS = [
         "Použijte kennen, pokud kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Kennen = poznat osobu/místo.",
+        "Kennen = znát osobu/místo.",
         "Kennen = znát.",
         "Znát osobu, místo nebo věc ze zkušenosti."
       ],
@@ -23033,7 +23033,7 @@ const A1_WORDS = [
   },
   {
     "de": "verlieren",
-    "lv": "Prohrát",
+    "lv": "Ztratit • Prohrát",
     "level": "A1"
   },
   {
