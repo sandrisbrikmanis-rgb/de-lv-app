@@ -12,7 +12,7 @@
 | integration branch | `cursor/cs-a1-final-closure-repair-main-integration-6850` |
 | integration HEAD | `18a2ba0d314ca8322a6c55cccd5a69c3461773ba` |
 | MAIN_AFTER | `773e9cc67d515a1974404db7cb200ac54b8f671b` |
-| origin/main | `7e75bc20a8f2e8c0e8b0e8c0e8b0e8c0e8b0e8c0` |
+| origin/main | `22a13e76d479e13c064f5553711b47dddba8e95d` |
 
 ## SOURCES
 
