@@ -1,0 +1,194 @@
+{
+  "mainBefore": "3bfbb4bba56ee9bf1be2df8c539ee58d31736fcb",
+  "mainAfter": "3652cc1650a57427b493b589d72d19a4fe8e2e85",
+  "closeBranch": "cursor/cs-a1-final-close-on-main-6850",
+  "pass": true,
+  "shaLock": {
+    "EXPECTED_MAIN_SHA": "3652cc1650a57427b493b589d72d19a4fe8e2e85",
+    "AUDIT_MAIN_SHA": "3652cc1650a57427b493b589d72d19a4fe8e2e85",
+    "ORIGIN_MAIN_SHA": "3652cc1650a57427b493b589d72d19a4fe8e2e85",
+    "SHA_LOCK": "PASS",
+    "pass": true
+  },
+  "integration": {
+    "pr": 466,
+    "sha": "18a2ba0d314ca8322a6c55cccd5a69c3461773ba",
+    "parent": "3bfbb4bba56ee9bf1be2df8c539ee58d31736fcb",
+    "inMainBefore": false,
+    "inMainNow": true,
+    "action": "ALREADY_INTEGRATED",
+    "integrationBranch": "cursor/cs-a1-final-closure-repair-main-integration-6850",
+    "integrationHead": "18a2ba0d314ca8322a6c55cccd5a69c3461773ba"
+  },
+  "closure": {
+    "source": 39,
+    "retained": 39,
+    "missing": 0,
+    "pass": true,
+    "obStructural": "PASS",
+    "details": []
+  },
+  "owner": {
+    "source": 5,
+    "labot": 3,
+    "ownerKeep": 2,
+    "remaining": 0,
+    "pass": true,
+    "details": [
+      {
+        "findingId": "FINAL702-A1-00132",
+        "cardId": "a1-natuerlich",
+        "field": "study.sectionAccents.examples[0].lv.purple",
+        "decision": "LABOT",
+        "pec": [
+          "Samozřejmě"
+        ],
+        "actual": "[\"Samozřejmě\"]",
+        "status": "LABOT"
+      },
+      {
+        "findingId": "FINAL702-A1-00133",
+        "cardId": "a1-nehmen",
+        "field": "study.sectionAccents.examples[1].lv",
+        "decision": "LABOT",
+        "pec": {
+          "purple": [
+            "Vezmi"
+          ],
+          "yellow": [
+            "knihu"
+          ]
+        },
+        "actual": "{\"purple\":[\"Vezmi\"],\"yellow\":[\"knihu\"]}",
+        "status": "LABOT"
+      },
+      {
+        "findingId": "FINAL702-A1-00143",
+        "cardId": "a1-schauen-study",
+        "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+        "decision": "LABOT",
+        "pec": "Vidět",
+        "actual": "Vidět",
+        "status": "LABOT"
+      },
+      {
+        "findingId": "FINAL702-A1-00173",
+        "cardId": "a1-verstehen",
+        "field": "lv",
+        "decision": "OWNER_KEEP",
+        "pec": "Pochopit",
+        "actual": "Pochopit",
+        "status": "OWNER_KEEP"
+      },
+      {
+        "findingId": "FINAL702-A1-00176",
+        "cardId": "a1-verstehen",
+        "field": "study.comparison[0].meaning",
+        "decision": "OWNER_KEEP",
+        "pec": "Pochopit",
+        "actual": "Pochopit",
+        "status": "OWNER_KEEP"
+      }
+    ]
+  },
+  "sectionAccents": {
+    "real": 0,
+    "issues": [],
+    "ownerOverride": true
+  },
+  "foreignRemnants": {
+    "real": 0,
+    "raw": [],
+    "falsePositives": [
+      {
+        "cardId": "a1-Balkon-70",
+        "field": "lv",
+        "reason": "Czech Balkón is valid"
+      },
+      {
+        "cardId": "a1-in",
+        "field": "study.sectionAccents.examples[0].lv.purple[0]",
+        "value": "Berlīnē",
+        "reason": "OWNER_OVERRIDE_FALSE_POSITIVE"
+      },
+      {
+        "cardId": "a1-land",
+        "field": "study.explanation[1]",
+        "reason": "Intentional Czech country name in explanatory context"
+      },
+      {
+        "cardId": "a1-Million-406",
+        "field": "lv",
+        "reason": "Czech Milión is valid"
+      },
+      {
+        "cardId": "a1-Zitrone-666",
+        "field": "lv",
+        "reason": "Czech Citrón is valid"
+      }
+    ]
+  },
+  "technical": {
+    "cards": 702,
+    "studyCount": 134,
+    "idOrder": "PASS",
+    "idUniqueness": "PASS",
+    "syntax": "PASS",
+    "mirror": "PASS",
+    "deChanges": 0,
+    "obAccentOk": true,
+    "missingStudyParity": 0
+  },
+  "diff": {
+    "changedFiles": [
+      "data/cs/a1.js",
+      "reports/cs-a1-final-closure-repair-main-integration.md",
+      "reports/cs-a1-final-closure-residual-repair.md",
+      "scripts/apply-cs-a1-final-closure-residual-repair.js",
+      "scripts/validate-cs-a1-final-closure-repair-main-integration.js",
+      "www/data/cs/a1.js"
+    ],
+    "productionFiles": [
+      "data/cs/a1.js",
+      "www/data/cs/a1.js"
+    ],
+    "unexpectedProduction": [],
+    "unexpectedCount": 0,
+    "otherDatasetsCount": 0
+  },
+  "luna": {
+    "cardsChecked": 27,
+    "stats": {
+      "model": "gpt-5.6-luna",
+      "requestCount": 3,
+      "initialBatchRequests": 0,
+      "retryRequests": 0,
+      "batchCount": 3,
+      "batchSizes": [
+        10,
+        10,
+        7
+      ],
+      "retryCount": 0,
+      "retryReasons": {},
+      "inputTokens": 0,
+      "cachedInputTokens": 0,
+      "outputTokens": 0,
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "findingsCount": 2,
+      "passCount": 26
+    },
+    "confirmedRepairRegression": 0,
+    "newConfirmedRealCausedByRepair": 0,
+    "needsOwnerReview": 0,
+    "pass": true,
+    "details": {
+      "confirmedRepairRegression": [],
+      "newConfirmedReal": [],
+      "needsOwnerReview": [],
+      "qualityFindings": []
+    }
+  },
+  "finalStatus": "CS–DE A1 = CLOSED ON MAIN"
+}
