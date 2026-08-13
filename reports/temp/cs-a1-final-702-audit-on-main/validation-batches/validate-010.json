@@ -1,0 +1,495 @@
+{
+  "batch": "validate-010",
+  "items": [
+    {
+      "findingId": "FINAL702-A1-00191",
+      "cardId": "a1-wer",
+      "field": "study.tip[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Který z“ se používá pro volbu věcí; zde jde výslovně o osoby.",
+      "auditCurrentCs": "Chcete-li se zeptat na volbu mezi několika lidmi, použijte wer von... (který z...).",
+      "auditProposedCs": "Chcete-li se zeptat, kdo z několika lidí, použijte wer von... (kdo z...).",
+      "auditDe": "wer von...",
+      "auditLvSource": "wer von... (kurš no...)",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Chcete-li se zeptat na volbu mezi několika lidmi, použijte wer von... (který z...).",
+      "cardContext": {
+        "cardId": "a1-wer",
+        "de": "wer",
+        "csMain": "Kdo • Kdo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00192",
+      "cardId": "a1-wer",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Současná formulace je nepřirozený kalk a v češtině se takto neříká.",
+      "auditCurrentCs": "Věci a události jsou žádány s was, ne wer.",
+      "auditProposedCs": "Na věci a události se ptáme pomocí was, ne wer.",
+      "auditDe": "was",
+      "auditLvSource": "Par lietām un notikumiem jautā ar was, ne wer.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Věci a události jsou žádány s was, ne wer.",
+      "cardContext": {
+        "cardId": "a1-wer",
+        "de": "wer",
+        "csMain": "Kdo • Kdo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00193",
+      "cardId": "a1-wer",
+      "field": "study.sectionAccents.important[0].blue[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Zvýraznění obsahuje české slovo „Ptali“ místo německého hesla wer.",
+      "auditCurrentCs": "Ptali",
+      "auditProposedCs": "wer",
+      "auditDe": "wer",
+      "auditLvSource": "wer",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Ptali",
+      "cardContext": {
+        "cardId": "a1-wer",
+        "de": "wer",
+        "csMain": "Kdo • Kdo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00194",
+      "cardId": "a1-werden",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka u oznamovací věty.",
+      "auditCurrentCs": "Jsem unavený",
+      "auditProposedCs": "Jsem unavený.",
+      "auditDe": "Ich bin müde.",
+      "auditLvSource": "es esmu noguris.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Jsem unavený",
+      "cardContext": {
+        "cardId": "a1-werden",
+        "de": "werden",
+        "csMain": "Stát se",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00195",
+      "cardId": "a1-werden",
+      "field": "study.sectionAccents.comparison[2].meaning.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Pobyt je podstatné jméno; německé sloveso bleiben znamená „zůstat“.",
+      "auditCurrentCs": "Pobyt",
+      "auditProposedCs": "Zůstat",
+      "auditDe": "bleiben",
+      "auditLvSource": "palikt",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Pobyt",
+      "cardContext": {
+        "cardId": "a1-werden",
+        "de": "werden",
+        "csMain": "Stát se",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00196",
+      "cardId": "a1-wetter",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Hlavní titul nesmí uvádět český význam „čas“, který odpovídá německému Zeit.",
+      "auditCurrentCs": "Čas (počasí)",
+      "auditProposedCs": "Počasí",
+      "auditDe": "Wetter",
+      "auditLvSource": "laiks (laikapstākļi)",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Čas (počasí)",
+      "cardContext": {
+        "cardId": "a1-wetter",
+        "de": "Wetter",
+        "csMain": "Čas (počasí)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00197",
+      "cardId": "a1-wetter",
+      "field": "study.sectionAccents.examples[0].lv.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "V české otázce „Jaké je dnes počasí?“ je zvýrazněno nesprávné slovo „Kolik“.",
+      "auditCurrentCs": "Kolik",
+      "auditProposedCs": "Jaké",
+      "auditDe": "Wie ist das Wetter heute?",
+      "auditLvSource": "kāds laiks šodien?",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Kolik",
+      "cardContext": {
+        "cardId": "a1-wetter",
+        "de": "Wetter",
+        "csMain": "Čas (počasí)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00198",
+      "cardId": "a1-wetter",
+      "field": "study.sectionAccents.examples[5].lv.green[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německému besser odpovídá české „lepší“, nikoli „Zítra“.",
+      "auditCurrentCs": "Zítra",
+      "auditProposedCs": "lepší",
+      "auditDe": "besser",
+      "auditLvSource": "labāks",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Zítra",
+      "cardContext": {
+        "cardId": "a1-wetter",
+        "de": "Wetter",
+        "csMain": "Čas (počasí)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00199",
+      "cardId": "a1-wie",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Přímá otázka v češtině vyžaduje otazník.",
+      "auditCurrentCs": "Jak se jmenuješ",
+      "auditProposedCs": "Jak se jmenuješ?",
+      "auditDe": "Wie heißt du?",
+      "auditLvSource": "kā tevi sauc?",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Jak se jmenuješ",
+      "cardContext": {
+        "cardId": "a1-wie",
+        "de": "wie",
+        "csMain": "Jak • Kolik",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00200",
+      "cardId": "a1-wie",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Přímá otázka v češtině vyžaduje otazník.",
+      "auditCurrentCs": "Kolik to stojí",
+      "auditProposedCs": "Kolik to stojí?",
+      "auditDe": "Wie viel kostet das?",
+      "auditLvSource": "cik tas maksā?",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Kolik to stojí",
+      "cardContext": {
+        "cardId": "a1-wie",
+        "de": "wie",
+        "csMain": "Jak • Kolik",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00201",
+      "cardId": "a1-wie",
+      "field": "study.sectionAccents.examples[5].lv.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Ve srovnání so ... wie znamená wie české „jako“, nikoli „stejně“.",
+      "auditCurrentCs": "stejně",
+      "auditProposedCs": "jako",
+      "auditDe": "wie",
+      "auditLvSource": "kā",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "stejně",
+      "cardContext": {
+        "cardId": "a1-wie",
+        "de": "wie",
+        "csMain": "Jak • Kolik",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00203",
+      "cardId": "a1-zu",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Zvýraznění obsahuje anglické „too“ místo českých významů hesla zu.",
+      "auditCurrentCs": "[\"too\",\"too\",\"too\",\"infinitiv\"]",
+      "auditProposedCs": [
+        "K",
+        "do",
+        "příliš",
+        "infinitiv"
+      ],
+      "auditDe": "zu",
+      "auditLvSource": "uz / pie / pārāk / infinitīvs",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "[\"too\",\"too\",\"too\",\"infinitiv\"]",
+      "cardContext": {
+        "cardId": "a1-zu",
+        "de": "zu",
+        "csMain": "Do • At",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00205",
+      "cardId": "a1-fernsehen-study",
+      "field": "study.examples[5].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Česká věta znamená, co se zobrazuje, zatímco německý originál se ptá, co dávají v televizi.",
+      "auditCurrentCs": "Co se zobrazuje v televizi?",
+      "auditProposedCs": "Co dávají v televizi?",
+      "auditDe": "Was gibt es im Fernsehen?",
+      "auditLvSource": "Ko rāda televīzijā?",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Co se zobrazuje v televizi?",
+      "cardContext": {
+        "cardId": "a1-fernsehen-study",
+        "de": "Fernsehen",
+        "csMain": "Televize",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00207",
+      "cardId": "a1-ferien",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Aktuální formulace je sice gramaticky správná, ale neuvádí, že Ferien je podstatné jméno pouze v množném čísle.",
+      "auditCurrentCs": "Ve spojení in den Ferien je Ferien v dativu množného čísla.",
+      "auditProposedCs": "Ferien se používá v množném čísle; ve spojení in den Ferien je v dativu množného čísla.",
+      "auditDe": "Die Ferien",
+      "auditLvSource": "tikai daudzskaitlis. Skolas vai studiju brīvlaiks",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Ve spojení in den Ferien je Ferien v dativu množného čísla.",
+      "cardContext": {
+        "cardId": "a1-ferien",
+        "de": "Ferien",
+        "csMain": "Prázdniny (škola)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00208",
+      "cardId": "a1-ferien",
+      "field": "study.important[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Škola“ není český překlad významu, ale jen zkratkovitý kontext; správně jde o školní prázdniny.",
+      "auditCurrentCs": "Škola: die Ferien (pouze množné číslo).",
+      "auditProposedCs": "Školní prázdniny: die Ferien (pouze množné číslo).",
+      "auditDe": "Die Ferien",
+      "auditLvSource": "Skola: die Ferien (tikai daudzskaitlī).",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Škola: die Ferien (pouze množné číslo).",
+      "cardContext": {
+        "cardId": "a1-ferien",
+        "de": "Ferien",
+        "csMain": "Prázdniny (škola)",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL702-A1-00191",
+      "cardId": "a1-wer",
+      "field": "study.tip[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "V kontextu volby mezi lidmi české „který z“ významově neodpovídá německému wer von....",
+      "currentCs": "Chcete-li se zeptat na volbu mezi několika lidmi, použijte wer von... (který z...).",
+      "proposedCs": "Chcete-li se zeptat, kdo z několika lidí, použijte wer von... (kdo z...)."
+    },
+    {
+      "findingId": "FINAL702-A1-00192",
+      "cardId": "a1-wer",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Současná věta je nepřirozený český kalk; navržená formulace je přirozená a významově přesná.",
+      "currentCs": "Věci a události jsou žádány s was, ne wer.",
+      "proposedCs": "Na věci a události se ptáme pomocí was, ne wer."
+    },
+    {
+      "findingId": "FINAL702-A1-00193",
+      "cardId": "a1-wer",
+      "field": "study.sectionAccents.important[0].blue[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Zvýrazněné české slovo „Ptali“ neodpovídá německému heslu wer.",
+      "currentCs": "Ptali",
+      "proposedCs": "wer"
+    },
+    {
+      "findingId": "FINAL702-A1-00194",
+      "cardId": "a1-werden",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Oznamovací věta v českém studijním příkladu postrádá koncovou tečku.",
+      "currentCs": "Jsem unavený",
+      "proposedCs": "Jsem unavený."
+    },
+    {
+      "findingId": "FINAL702-A1-00195",
+      "cardId": "a1-werden",
+      "field": "study.sectionAccents.comparison[2].meaning.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Překlad „Pobyt“ neodpovídá slovesu bleiben; správný význam je „zůstat“.",
+      "currentCs": "Pobyt",
+      "proposedCs": "Zůstat"
+    },
+    {
+      "findingId": "FINAL702-A1-00196",
+      "cardId": "a1-wetter",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "U hesla Wetter je český význam „Čas“ zavádějící; správný základní překlad je „Počasí“.",
+      "currentCs": "Čas (počasí)",
+      "proposedCs": "Počasí"
+    },
+    {
+      "findingId": "FINAL702-A1-00197",
+      "cardId": "a1-wetter",
+      "field": "study.sectionAccents.examples[0].lv.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "V otázce „Jaké je dnes počasí?“ odpovídá německému wie české „Jaké“, nikoli „Kolik“.",
+      "currentCs": "Kolik",
+      "proposedCs": "Jaké"
+    },
+    {
+      "findingId": "FINAL702-A1-00198",
+      "cardId": "a1-wetter",
+      "field": "study.sectionAccents.examples[5].lv.green[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Německému besser odpovídá české „lepší“; „Zítra“ je jiný význam.",
+      "currentCs": "Zítra",
+      "proposedCs": "lepší"
+    },
+    {
+      "findingId": "FINAL702-A1-00199",
+      "cardId": "a1-wie",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Přímá česká otázka postrádá povinný koncový otazník.",
+      "currentCs": "Jak se jmenuješ",
+      "proposedCs": "Jak se jmenuješ?"
+    },
+    {
+      "findingId": "FINAL702-A1-00200",
+      "cardId": "a1-wie",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Přímá česká otázka postrádá povinný koncový otazník.",
+      "currentCs": "Kolik to stojí",
+      "proposedCs": "Kolik to stojí?"
+    },
+    {
+      "findingId": "FINAL702-A1-00201",
+      "cardId": "a1-wie",
+      "field": "study.sectionAccents.examples[5].lv.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Ve vazbě so ... wie se české wie překládá jako „jako“, nikoli „stejně“.",
+      "currentCs": "stejně",
+      "proposedCs": "jako"
+    },
+    {
+      "findingId": "FINAL702-A1-00203",
+      "cardId": "a1-zu",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Zvýraznění obsahuje anglické překlady místo českých významů německého hesla zu.",
+      "currentCs": "[\"too\",\"too\",\"too\",\"infinitiv\"]",
+      "proposedCs": [
+        "K",
+        "do",
+        "příliš",
+        "infinitiv"
+      ]
+    },
+    {
+      "findingId": "FINAL702-A1-00205",
+      "cardId": "a1-fernsehen-study",
+      "field": "study.examples[5].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Současná věta znamená, co se zobrazuje, ne přirozené české „Co dávají v televizi?“ odpovídající originálu.",
+      "currentCs": "Co se zobrazuje v televizi?",
+      "proposedCs": "Co dávají v televizi?"
+    },
+    {
+      "findingId": "FINAL702-A1-00207",
+      "cardId": "a1-ferien",
+      "field": "study.important[0]",
+      "validationStatus": "MISSING_STUDY_PARITY",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Poznámka uvádí jen jeden pád a neinformuje, že Ferien je podstatné jméno používané pouze v množném čísle.",
+      "currentCs": "Ve spojení in den Ferien je Ferien v dativu množného čísla."
+    },
+    {
+      "findingId": "FINAL702-A1-00208",
+      "cardId": "a1-ferien",
+      "field": "study.important[2]",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Škola:“ je srozumitelný kontextový štítek; význam školních prázdnin je už uveden v hlavním českém názvu.",
+      "currentCs": "Škola: die Ferien (pouze množné číslo)."
+    }
+  ]
+}

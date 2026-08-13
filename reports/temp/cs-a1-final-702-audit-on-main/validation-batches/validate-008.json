@@ -1,0 +1,486 @@
+{
+  "batch": "validate-008",
+  "items": [
+    {
+      "findingId": "FINAL702-A1-00148",
+      "cardId": "a1-sehen",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka ve větě.",
+      "auditCurrentCs": "Nic nevidím",
+      "auditProposedCs": "Nic nevidím.",
+      "auditDe": "Ich sehe nichts.",
+      "auditLvSource": "es neko neredzu.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Nic nevidím",
+      "cardContext": {
+        "cardId": "a1-sehen",
+        "de": "sehen",
+        "csMain": "Vidět",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00149",
+      "cardId": "a1-sehen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Hodinky“ znamená wristwatch; jde o chybný český text v označení významu schauen.",
+      "auditCurrentCs": "Hodinky",
+      "auditProposedCs": "Dívat se",
+      "auditDe": "schauen",
+      "auditLvSource": "skatīties",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Hodinky",
+      "cardContext": {
+        "cardId": "a1-sehen",
+        "de": "sehen",
+        "csMain": "Vidět",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00150",
+      "cardId": "a1-sein",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka ve větě.",
+      "auditCurrentCs": "Jsem tady",
+      "auditProposedCs": "Jsem tady.",
+      "auditDe": "Ich bin hier.",
+      "auditLvSource": "es esmu šeit.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Jsem tady",
+      "cardContext": {
+        "cardId": "a1-sein",
+        "de": "sein",
+        "csMain": "Být",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00151",
+      "cardId": "a1-sein",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka ve větě.",
+      "auditCurrentCs": "Jsi unavený",
+      "auditProposedCs": "Jsi unavený.",
+      "auditDe": "Du bist müde.",
+      "auditLvSource": "tu esi noguris.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Jsi unavený",
+      "cardContext": {
+        "cardId": "a1-sein",
+        "de": "sein",
+        "csMain": "Být",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00152",
+      "cardId": "a1-sein",
+      "field": "study.sectionAccents.comparison[3].meaning.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Pobyt“ je podstatné jméno; infinitiv bleiben znamená česky „zůstat“.",
+      "auditCurrentCs": "Pobyt",
+      "auditProposedCs": "Zůstat",
+      "auditDe": "bleiben",
+      "auditLvSource": "palikt",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pobyt",
+      "cardContext": {
+        "cardId": "a1-sein",
+        "de": "sein",
+        "csMain": "Být",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00153",
+      "cardId": "a1-seite",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "U číslované stránky je v češtině běžná a přirozenější formulace „stranu dvacet“.",
+      "auditCurrentCs": "Otevřete stránku dvacet.",
+      "auditProposedCs": "Otevřete stranu dvacet.",
+      "auditDe": "Schlagt die Seite zwanzig auf.",
+      "auditLvSource": "atveriet divdesmito lappusi.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Otevřete stránku dvacet.",
+      "cardContext": {
+        "cardId": "a1-seite",
+        "de": "Seite",
+        "csMain": "Stránka • Strana",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00154",
+      "cardId": "a1-sich",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Český překlad opomíjí běžný dativní význam „sobě“, který uvádí i české vysvětlení.",
+      "auditCurrentCs": "Se • Sebe",
+      "auditProposedCs": "Se • Sebe • Sobě",
+      "auditDe": "sich",
+      "auditLvSource": "sevi • sev",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Se • Sebe",
+      "cardContext": {
+        "cardId": "a1-sich",
+        "de": "sich",
+        "csMain": "Se • Sebe",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00156",
+      "cardId": "a1-sich",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka ve větě.",
+      "auditCurrentCs": "Myji auto",
+      "auditProposedCs": "Myji auto.",
+      "auditDe": "Ich wasche das Auto.",
+      "auditLvSource": "es mazgāju auto.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Myji auto",
+      "cardContext": {
+        "cardId": "a1-sich",
+        "de": "sich",
+        "csMain": "Se • Sebe",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00157",
+      "cardId": "a1-sicher",
+      "field": "study.examples[4].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí tečka na konci české věty.",
+      "auditCurrentCs": "Jsem si jistý",
+      "auditProposedCs": "Jsem si jistý.",
+      "auditDe": "Ich bin mir sicher.",
+      "auditLvSource": "es esmu pārliecināts.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Jsem si jistý",
+      "cardContext": {
+        "cardId": "a1-sicher",
+        "de": "sicher",
+        "csMain": "Bezpečný • Jistě",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00158",
+      "cardId": "a1-sicher",
+      "field": "study.sectionAccents.examples[5].lv.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Zvýrazněný český text neodpovídá překladu ani osobě věty „Jeď bezpečně!“",
+      "auditCurrentCs": "Jezděte",
+      "auditProposedCs": "Jeď",
+      "auditDe": "Fahr sicher!",
+      "auditLvSource": "brauc droši!",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Jezděte",
+      "cardContext": {
+        "cardId": "a1-sicher",
+        "de": "sicher",
+        "csMain": "Bezpečný • Jistě",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00159",
+      "cardId": "a1-sie-study",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí tečka na konci české věty.",
+      "auditCurrentCs": "Ona jí",
+      "auditProposedCs": "Ona jí.",
+      "auditDe": "Sie isst.",
+      "auditLvSource": "Ona jí",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Ona jí",
+      "cardContext": {
+        "cardId": "a1-sie-study",
+        "de": "sie",
+        "csMain": "Oni / ji",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00162",
+      "cardId": "a1-sollen",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí otazník na konci české otázky.",
+      "auditCurrentCs": "Co mám dělat",
+      "auditProposedCs": "Co mám dělat?",
+      "auditDe": "Was soll ich machen?",
+      "auditLvSource": "ko man darīt?",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Co mám dělat",
+      "cardContext": {
+        "cardId": "a1-sollen",
+        "de": "sollen",
+        "csMain": "Měl by",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00163",
+      "cardId": "a1-sollen",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí tečka na konci české věty.",
+      "auditCurrentCs": "Už musím jít",
+      "auditProposedCs": "Už musím jít.",
+      "auditDe": "Ich muss jetzt gehen.",
+      "auditLvSource": "man tagad jāiet.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Už musím jít",
+      "cardContext": {
+        "cardId": "a1-sollen",
+        "de": "sollen",
+        "csMain": "Měl by",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00165",
+      "cardId": "a1-sollen",
+      "field": "study.sectionAccents.important[0].blue[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Zvýraznění „Byl“ nesouvisí s českým obsahem ani s německým heslem sollen.",
+      "auditCurrentCs": "Byl",
+      "auditProposedCs": "sollen",
+      "auditDe": "sollen",
+      "auditLvSource": "sollen",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Byl",
+      "cardContext": {
+        "cardId": "a1-sollen",
+        "de": "sollen",
+        "csMain": "Měl by",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00166",
+      "cardId": "a1-stehen",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Druhá část má vysvětlit význam u předmětů, ale opakuje pouze „stát“.",
+      "auditCurrentCs": "Stát / stát",
+      "auditProposedCs": "Stát / být postavený",
+      "auditDe": "stehen",
+      "auditLvSource": "stāvēt / atrasties stāvus",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Stát / stát",
+      "cardContext": {
+        "cardId": "a1-stehen",
+        "de": "stehen",
+        "csMain": "Stát",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL702-A1-00148",
+      "cardId": "a1-sehen",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Česká oznamovací věta v produkci postrádá koncovou tečku.",
+      "currentCs": "Nic nevidím",
+      "proposedCs": "Nic nevidím."
+    },
+    {
+      "findingId": "FINAL702-A1-00149",
+      "cardId": "a1-sehen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Hodinky“ znamená wristwatch, nikoli německé schauen; význam je sémanticky chybný.",
+      "currentCs": "Hodinky",
+      "proposedCs": "Dívat se"
+    },
+    {
+      "findingId": "FINAL702-A1-00150",
+      "cardId": "a1-sein",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Česká oznamovací věta v produkci postrádá koncovou tečku.",
+      "currentCs": "Jsem tady",
+      "proposedCs": "Jsem tady."
+    },
+    {
+      "findingId": "FINAL702-A1-00151",
+      "cardId": "a1-sein",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Česká oznamovací věta v produkci postrádá koncovou tečku.",
+      "currentCs": "Jsi unavený",
+      "proposedCs": "Jsi unavený."
+    },
+    {
+      "findingId": "FINAL702-A1-00152",
+      "cardId": "a1-sein",
+      "field": "study.sectionAccents.comparison[3].meaning.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Pobyt“ je podstatné jméno, zatímco bleiben zde vyžaduje český infinitiv „zůstat“.",
+      "currentCs": "Pobyt",
+      "proposedCs": "Zůstat"
+    },
+    {
+      "findingId": "FINAL702-A1-00153",
+      "cardId": "a1-seite",
+      "field": "study.examples[0].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Otevřete stránku dvacet“ je gramaticky správné a přirozené; „stranu“ je pouze stylistická varianta.",
+      "currentCs": "Otevřete stránku dvacet."
+    },
+    {
+      "findingId": "FINAL702-A1-00154",
+      "cardId": "a1-sich",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Výčet českých významů opomíjí běžný dativní význam „sobě“.",
+      "currentCs": "Se • Sebe",
+      "proposedCs": "Se • Sebe • Sobě"
+    },
+    {
+      "findingId": "FINAL702-A1-00156",
+      "cardId": "a1-sich",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Česká oznamovací věta v produkci postrádá koncovou tečku.",
+      "currentCs": "Myji auto",
+      "proposedCs": "Myji auto."
+    },
+    {
+      "findingId": "FINAL702-A1-00157",
+      "cardId": "a1-sicher",
+      "field": "study.examples[4].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Česká oznamovací věta v produkci postrádá koncovou tečku.",
+      "currentCs": "Jsem si jistý",
+      "proposedCs": "Jsem si jistý."
+    },
+    {
+      "findingId": "FINAL702-A1-00158",
+      "cardId": "a1-sicher",
+      "field": "study.sectionAccents.examples[5].lv.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "„Jezděte“ je formální množné číslo a neodpovídá neformálnímu rozkazu „Fahr sicher!“ ani významu věty.",
+      "currentCs": "Jezděte",
+      "proposedCs": "Jeď"
+    },
+    {
+      "findingId": "FINAL702-A1-00159",
+      "cardId": "a1-sie-study",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Česká oznamovací věta v produkci postrádá koncovou tečku.",
+      "currentCs": "Ona jí",
+      "proposedCs": "Ona jí."
+    },
+    {
+      "findingId": "FINAL702-A1-00162",
+      "cardId": "a1-sollen",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Česká otázka v produkci postrádá koncový otazník.",
+      "currentCs": "Co mám dělat",
+      "proposedCs": "Co mám dělat?"
+    },
+    {
+      "findingId": "FINAL702-A1-00163",
+      "cardId": "a1-sollen",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Česká oznamovací věta v produkci postrádá koncovou tečku.",
+      "currentCs": "Už musím jít",
+      "proposedCs": "Už musím jít."
+    },
+    {
+      "findingId": "FINAL702-A1-00165",
+      "cardId": "a1-sollen",
+      "field": "study.sectionAccents.important[0].blue[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "„Byl“ neodpovídá významu sollen; český ekvivalent je „měl by“.",
+      "currentCs": "Byl",
+      "proposedCs": "Měl by"
+    },
+    {
+      "findingId": "FINAL702-A1-00166",
+      "cardId": "a1-stehen",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Druhá část opakuje „stát“ a nevysvětluje odlišný význam stehen u umístění či postavení.",
+      "currentCs": "Stát / stát",
+      "proposedCs": "Stát / být postavený"
+    }
+  ]
+}

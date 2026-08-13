@@ -1,0 +1,487 @@
+{
+  "batch": "validate-003",
+  "items": [
+    {
+      "findingId": "FINAL702-A1-00061",
+      "cardId": "a1-etwas",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "V závorce je potřeba příslovce „hovorově“, ne přídavné jméno „hovorové“.",
+      "auditCurrentCs": "Něco (hovorové)",
+      "auditProposedCs": "Něco (hovorově)",
+      "auditDe": "was",
+      "auditLvSource": "kaut kas (sarunvalodā)",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Něco (hovorové)",
+      "cardContext": {
+        "cardId": "a1-etwas",
+        "de": "etwas",
+        "csMain": "Něco • Trochu",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00062",
+      "cardId": "a1-etwas",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Český překlad otázky má mít otazník.",
+      "auditCurrentCs": "Máš trochu času",
+      "auditProposedCs": "Máš trochu času?",
+      "auditDe": "Hast du etwas Zeit?",
+      "auditLvSource": "vai tev ir nedaudz laika?",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Máš trochu času",
+      "cardContext": {
+        "cardId": "a1-etwas",
+        "de": "etwas",
+        "csMain": "Něco • Trochu",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00063",
+      "cardId": "a1-etwas",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka u oznamovací věty.",
+      "auditCurrentCs": "Jsem trochu unavený",
+      "auditProposedCs": "Jsem trochu unavený.",
+      "auditDe": "Ich bin etwas müde.",
+      "auditLvSource": "es esmu nedaudz noguris.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Jsem trochu unavený",
+      "cardContext": {
+        "cardId": "a1-etwas",
+        "de": "etwas",
+        "csMain": "Něco • Trochu",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00064",
+      "cardId": "a1-etwas",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka u oznamovací věty.",
+      "auditCurrentCs": "Něco pro tebe mám",
+      "auditProposedCs": "Něco pro tebe mám.",
+      "auditDe": "Ich habe etwas für dich.",
+      "auditLvSource": "man tev ir kaut kas.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Něco pro tebe mám",
+      "cardContext": {
+        "cardId": "a1-etwas",
+        "de": "etwas",
+        "csMain": "Něco • Trochu",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00065",
+      "cardId": "a1-euch",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Ty“ je jednotné číslo a nominativ; euch znamená množné číslo v akuzativu nebo dativu: vás/vám.",
+      "auditCurrentCs": "Ty • Ty",
+      "auditProposedCs": "Vás • Vám",
+      "auditDe": "euch",
+      "auditLvSource": "jūs • jums",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Ty • Ty",
+      "cardContext": {
+        "cardId": "a1-euch",
+        "de": "euch",
+        "csMain": "Ty • Ty",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00066",
+      "cardId": "a1-fahren",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka ve větě.",
+      "auditCurrentCs": "Vezmu tě domů",
+      "auditProposedCs": "Vezmu tě domů.",
+      "auditDe": "Ich fahre dich nach Hause.",
+      "auditLvSource": "es tevi aizvedu mājās.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Vezmu tě domů",
+      "cardContext": {
+        "cardId": "a1-fahren",
+        "de": "fahren",
+        "csMain": "Jet • Jezdit • Vézt / odvézt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00067",
+      "cardId": "a1-fahren",
+      "field": "study.accents.purple[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Braucu“ je lotyšské slovo, nikoli český překlad.",
+      "auditCurrentCs": "Braucu",
+      "auditProposedCs": "Jedu",
+      "auditDe": "fahren",
+      "auditLvSource": "braucu",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Braucu",
+      "cardContext": {
+        "cardId": "a1-fahren",
+        "de": "fahren",
+        "csMain": "Jet • Jezdit • Vézt / odvézt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00068",
+      "cardId": "a1-fahren",
+      "field": "study.accents.green[4]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Vilcienu“ je lotyšské slovo; český výraz je „vlakem“.",
+      "auditCurrentCs": "Vilcienu",
+      "auditProposedCs": "Vlakem",
+      "auditDe": "fahren",
+      "auditLvSource": "vilcienu",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Vilcienu",
+      "cardContext": {
+        "cardId": "a1-fahren",
+        "de": "fahren",
+        "csMain": "Jet • Jezdit • Vézt / odvézt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00069",
+      "cardId": "a1-finden",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka ve větě.",
+      "auditCurrentCs": "Nemohu najít svůj klíč",
+      "auditProposedCs": "Nemohu najít svůj klíč.",
+      "auditDe": "Ich finde meinen Schlüssel nicht.",
+      "auditLvSource": "Es atrodu savu atslēgu.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Nemohu najít svůj klíč",
+      "cardContext": {
+        "cardId": "a1-finden",
+        "de": "finden",
+        "csMain": "Najít • Myslet si",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00070",
+      "cardId": "a1-finden",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Český text překládá jinou větu („Ich finde das gut“) než uvedený německý originál.",
+      "auditCurrentCs": "Zdá se mi to dobré.",
+      "auditProposedCs": "Našel/našla jsi svůj telefon?",
+      "auditDe": "Hast du dein Handy gefunden?",
+      "auditLvSource": "—",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Zdá se mi to dobré.",
+      "cardContext": {
+        "cardId": "a1-finden",
+        "de": "finden",
+        "csMain": "Najít • Myslet si",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00071",
+      "cardId": "a1-finden",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Český text odpovídá otázce „Wie findest du den Film?“, nikoli uvedené německé větě.",
+      "auditCurrentCs": "Co si myslíš o filmu?",
+      "auditProposedCs": "Myslím si, že je to dobré.",
+      "auditDe": "Ich finde das gut.",
+      "auditLvSource": "Man tas šķiet labi.",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Co si myslíš o filmu?",
+      "cardContext": {
+        "cardId": "a1-finden",
+        "de": "finden",
+        "csMain": "Najít • Myslet si",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00072",
+      "cardId": "a1-frau",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německé „nett“ znamená v tomto kontextu „milá“, nikoli „pěkná“ ve smyslu vzhledu.",
+      "auditCurrentCs": "Je to pěkná žena.",
+      "auditProposedCs": "Je to milá žena.",
+      "auditDe": "Sie ist eine nette Frau.",
+      "auditLvSource": "viņa ir jauka sieviete.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Je to pěkná žena.",
+      "cardContext": {
+        "cardId": "a1-frau",
+        "de": "Frau",
+        "csMain": "Žena • Manželka",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00073",
+      "cardId": "a1-fuer",
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„dich“ je 2. osoba jednotného čísla; české „vás“ je množné nebo vykací.",
+      "auditCurrentCs": "Když mluvíme o příjemci nebo záměru, für = pro (für dich = pro vás).",
+      "auditProposedCs": "Když mluvíme o příjemci nebo záměru, für = pro (für dich = pro tebe).",
+      "auditDe": "für",
+      "auditLvSource": "für dich = priekš tevis",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Když mluvíme o příjemci nebo záměru, für = pro (für dich = pro vás).",
+      "cardContext": {
+        "cardId": "a1-fuer",
+        "de": "für",
+        "csMain": "Pro • Pro",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00074",
+      "cardId": "a1-ganz-study",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Hlavní překlad vynechává běžný význam „docela“, který je přitom uveden v příkladech a vysvětlení.",
+      "auditCurrentCs": "Celý • Úplně",
+      "auditProposedCs": "Celý • Úplně • Docela",
+      "auditDe": "ganz",
+      "auditLvSource": "vesels",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Celý • Úplně",
+      "cardContext": {
+        "cardId": "a1-ganz-study",
+        "de": "ganz",
+        "csMain": "Celý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00075",
+      "cardId": "a1-geben",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka ve větě.",
+      "auditCurrentCs": "Dávám ti své číslo",
+      "auditProposedCs": "Dávám ti své číslo.",
+      "auditDe": "Ich gebe dir meine Nummer.",
+      "auditLvSource": "es tev dodu savu numuru.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Dávám ti své číslo",
+      "cardContext": {
+        "cardId": "a1-geben",
+        "de": "geben",
+        "csMain": "Dát",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL702-A1-00061",
+      "cardId": "a1-etwas",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "Závorková poznámka vyžaduje příslovce „hovorově“, nikoli přídavné jméno „hovorové“.",
+      "currentCs": "Něco (hovorové)",
+      "proposedCs": "Něco (hovorově)"
+    },
+    {
+      "findingId": "FINAL702-A1-00062",
+      "cardId": "a1-etwas",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "Překlad otázky postrádá koncový otazník.",
+      "currentCs": "Máš trochu času",
+      "proposedCs": "Máš trochu času?"
+    },
+    {
+      "findingId": "FINAL702-A1-00063",
+      "cardId": "a1-etwas",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "Oznamovací věta postrádá koncovou tečku.",
+      "currentCs": "Jsem trochu unavený",
+      "proposedCs": "Jsem trochu unavený."
+    },
+    {
+      "findingId": "FINAL702-A1-00064",
+      "cardId": "a1-etwas",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "Oznamovací věta postrádá koncovou tečku.",
+      "currentCs": "Něco pro tebe mám",
+      "proposedCs": "Něco pro tebe mám."
+    },
+    {
+      "findingId": "FINAL702-A1-00065",
+      "cardId": "a1-euch",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 1,
+      "reason": "„Euch“ je množné číslo v akuzativu nebo dativu; „Ty“ neodpovídá významu ani pádu.",
+      "currentCs": "Ty • Ty",
+      "proposedCs": "Vás • Vám"
+    },
+    {
+      "findingId": "FINAL702-A1-00066",
+      "cardId": "a1-fahren",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "Oznamovací věta postrádá koncovou tečku.",
+      "currentCs": "Vezmu tě domů",
+      "proposedCs": "Vezmu tě domů."
+    },
+    {
+      "findingId": "FINAL702-A1-00067",
+      "cardId": "a1-fahren",
+      "field": "study.accents.purple[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 1,
+      "reason": "„Braucu“ je lotyšský text a v české sekci accentů jde o cizojazyčný zbytek.",
+      "currentCs": "Braucu",
+      "proposedCs": "Jedu"
+    },
+    {
+      "findingId": "FINAL702-A1-00068",
+      "cardId": "a1-fahren",
+      "field": "study.accents.green[4]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 1,
+      "reason": "„Vilcienu“ je lotyšský text; český překlad má být „Vlakem“.",
+      "currentCs": "Vilcienu",
+      "proposedCs": "Vlakem"
+    },
+    {
+      "findingId": "FINAL702-A1-00069",
+      "cardId": "a1-finden",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "Oznamovací věta postrádá koncovou tečku.",
+      "currentCs": "Nemohu najít svůj klíč",
+      "proposedCs": "Nemohu najít svůj klíč."
+    },
+    {
+      "findingId": "FINAL702-A1-00070",
+      "cardId": "a1-finden",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 1,
+      "reason": "Český překlad odpovídá jiné větě než uvedený německý originál.",
+      "currentCs": "Zdá se mi to dobré.",
+      "proposedCs": "Našel/našla jsi svůj telefon?"
+    },
+    {
+      "findingId": "FINAL702-A1-00071",
+      "cardId": "a1-finden",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 1,
+      "reason": "Český překlad neodpovídá uvedené německé větě „Ich finde das gut.“",
+      "currentCs": "Co si myslíš o filmu?",
+      "proposedCs": "Myslím si, že je to dobré."
+    },
+    {
+      "findingId": "FINAL702-A1-00072",
+      "cardId": "a1-frau",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.94,
+      "reason": "V tomto kontextu „nett“ vyjadřuje povahu, tedy „milá“, nikoli primárně vzhledovou „pěkná“.",
+      "currentCs": "Je to pěkná žena.",
+      "proposedCs": "Je to milá žena."
+    },
+    {
+      "findingId": "FINAL702-A1-00073",
+      "cardId": "a1-fuer",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 1,
+      "reason": "„Dich“ je 2. osoba jednotného čísla; české „vás“ je množné číslo nebo vykání.",
+      "currentCs": "Když mluvíme o příjemci nebo záměru, für = pro (für dich = pro vás).",
+      "proposedCs": "Když mluvíme o příjemci nebo záměru, für = pro (für dich = pro tebe)."
+    },
+    {
+      "findingId": "FINAL702-A1-00074",
+      "cardId": "a1-ganz-study",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.9,
+      "reason": "Hlavní překlad neuvádí běžný význam „docela“, který je relevantní i pro studijní obsah k tomuto slovu.",
+      "currentCs": "Celý • Úplně",
+      "proposedCs": "Celý • Úplně • Docela"
+    },
+    {
+      "findingId": "FINAL702-A1-00075",
+      "cardId": "a1-geben",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "Oznamovací věta postrádá koncovou tečku.",
+      "currentCs": "Dávám ti své číslo",
+      "proposedCs": "Dávám ti své číslo."
+    }
+  ]
+}

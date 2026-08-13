@@ -1,0 +1,51 @@
+◇ injected env (1) from .env // tip: ⌘ suppress logs { quiet: true }
+CS a1 Luna audit: 702 entries (568 simple, 134 study)
+  luna simple-001-050: 50 cards, findings=1, pass=49, tokens=4535
+  luna simple-051-100: 50 cards, findings=0, pass=50, tokens=4465
+  luna simple-101-150: 50 cards, findings=0, pass=50, tokens=5178
+  luna simple-151-200: 50 cards, findings=1, pass=49, tokens=4581
+  luna simple-201-250: 50 cards, findings=0, pass=50, tokens=4453
+  luna simple-251-300: 50 cards, findings=0, pass=50, tokens=4751
+  luna simple-301-350: 50 cards, findings=0, pass=50, tokens=4459
+  luna simple-351-400: 50 cards, findings=0, pass=50, tokens=4192
+  luna simple-401-450: 50 cards, findings=0, pass=50, tokens=4327
+  luna simple-451-500: 50 cards, findings=0, pass=50, tokens=4190
+  luna simple-501-550: 50 cards, findings=1, pass=49, tokens=4509
+  luna simple-551-568: 18 cards, findings=0, pass=18, tokens=2057
+  luna study-001-010: 10 cards, findings=16, pass=4, tokens=18607
+  luna study-011-020: 10 cards, findings=6, pass=6, tokens=20571
+  luna study-021-030: 10 cards, findings=12, pass=4, tokens=18542
+  luna study-031-040: 10 cards, findings=13, pass=3, tokens=17821
+  luna study-041-050: 10 cards, findings=9, pass=4, tokens=17853
+  luna study-051-060: 10 cards, findings=11, pass=5, tokens=20566
+  luna study-061-070: 10 cards, findings=15, pass=2, tokens=21513
+  luna study-071-080: 10 cards, findings=13, pass=2, tokens=17397
+  luna study-081-090: 10 cards, findings=11, pass=3, tokens=19556
+  luna study-091-100: 10 cards, findings=20, pass=0, tokens=18127
+  luna study-101-110: 10 cards, findings=22, pass=1, tokens=21236
+  luna study-111-120: 10 cards, findings=25, pass=2, tokens=23294
+  luna study-121-130: 10 cards, findings=10, pass=5, tokens=19327
+  luna study-131-134: 4 cards, findings=1, pass=3, tokens=4888
+
+=== CS linguistic audit complete ===
+{
+  "dataset": "a1",
+  "cardsAudited": 702,
+  "cardsExpected": 702,
+  "findings": 185,
+  "severity": {
+    "CRITICAL": 1,
+    "HIGH": 29,
+    "MEDIUM": 65,
+    "LOW": 92
+  },
+  "nonError": {
+    "SOURCE_DE_ISSUE": 0,
+    "SOURCE_LV_ISSUE": 0,
+    "NEEDS_OWNER_REVIEW": 0,
+    "FALSE_POSITIVE": 0,
+    "STYLE_ONLY": 0,
+    "PROJECT_CONVENTION": 0
+  },
+  "tokens": 310995
+}

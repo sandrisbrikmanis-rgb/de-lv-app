@@ -1,0 +1,484 @@
+{
+  "batch": "validate-005",
+  "items": [
+    {
+      "findingId": "FINAL702-A1-00097",
+      "cardId": "a1-kennen-study",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Poznat“ má jiný aspekt a význam; základní překlad kennen je „znát“.",
+      "auditCurrentCs": "Kennen = poznat osobu/místo.",
+      "auditProposedCs": "Kennen = znát osobu/místo.",
+      "auditDe": "kennen",
+      "auditLvSource": "kennen = pazīt cilvēku/vietu.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Kennen = poznat osobu/místo.",
+      "cardContext": {
+        "cardId": "a1-kennen-study",
+        "de": "kennen",
+        "csMain": "Znát",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00098",
+      "cardId": "a1-können",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Být dovoleno“ je neosobní opis a jako základní význam slovesa dürfen je méně přesný i přirozený.",
+      "auditCurrentCs": "Být dovoleno",
+      "auditProposedCs": "Smět / mít dovoleno",
+      "auditDe": "dürfen",
+      "auditLvSource": "drīkstēt",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Být dovoleno",
+      "cardContext": {
+        "cardId": "a1-können",
+        "de": "können",
+        "csMain": "Umět • Moci",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00099",
+      "cardId": "a1-können",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Text je významově správný; chybí pouze koncová interpunkce v původním poli.",
+      "auditCurrentCs": "Můžeš mi pomoct?",
+      "auditProposedCs": "Můžeš mi pomoct?",
+      "auditDe": "Kannst du mir helfen?",
+      "auditLvSource": "vai tu vari man palīdzēt?",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Můžeš mi pomoct?",
+      "cardContext": {
+        "cardId": "a1-können",
+        "de": "können",
+        "csMain": "Umět • Moci",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00100",
+      "cardId": "a1-kosten",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Česká otázka musí být zakončena otazníkem.",
+      "auditCurrentCs": "Kolik to stojí",
+      "auditProposedCs": "Kolik to stojí?",
+      "auditDe": "Was kostet das?",
+      "auditLvSource": "cik tas maksā?",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Kolik to stojí",
+      "cardContext": {
+        "cardId": "a1-kosten",
+        "de": "kosten",
+        "csMain": "Stát",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00101",
+      "cardId": "a1-kosten",
+      "field": "study.examples[4].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka.",
+      "auditCurrentCs": "Platím účet",
+      "auditProposedCs": "Platím účet.",
+      "auditDe": "Ich bezahle die Rechnung.",
+      "auditLvSource": "es maksāju rēķinu.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Platím účet",
+      "cardContext": {
+        "cardId": "a1-kosten",
+        "de": "kosten",
+        "csMain": "Stát",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00102",
+      "cardId": "a1-kosten",
+      "field": "study.examples[5].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Česká otázka musí být zakončena otazníkem.",
+      "auditCurrentCs": "Mohu platit v hotovosti",
+      "auditProposedCs": "Mohu platit v hotovosti?",
+      "auditDe": "Kann ich bar bezahlen?",
+      "auditLvSource": "vai varu maksāt skaidrā naudā?",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Mohu platit v hotovosti",
+      "cardContext": {
+        "cardId": "a1-kosten",
+        "de": "kosten",
+        "csMain": "Stát",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00103",
+      "cardId": "a1-kosten",
+      "field": "study.examples[7].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka.",
+      "auditCurrentCs": "Teď zaplatím",
+      "auditProposedCs": "Teď zaplatím.",
+      "auditDe": "Ich zahle gleich.",
+      "auditLvSource": "es samaksāšu tūlīt.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Teď zaplatím",
+      "cardContext": {
+        "cardId": "a1-kosten",
+        "de": "kosten",
+        "csMain": "Stát",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00104",
+      "cardId": "a1-land",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Dorf znamená „vesnice“; „obec“ může označovat širší správní jednotku a není přesným základním překladem.",
+      "auditCurrentCs": "Obec",
+      "auditProposedCs": "Vesnice",
+      "auditDe": "das Dorf",
+      "auditLvSource": "ciems",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Obec",
+      "cardContext": {
+        "cardId": "a1-land",
+        "de": "Land",
+        "csMain": "Země • Venkov",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00105",
+      "cardId": "a1-lang",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Česká otázka musí být zakončena otazníkem.",
+      "auditCurrentCs": "Jak dlouho to trvá",
+      "auditProposedCs": "Jak dlouho to trvá?",
+      "auditDe": "Wie lange dauert es?",
+      "auditLvSource": "cik ilgi tas ilgst?",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Jak dlouho to trvá",
+      "cardContext": {
+        "cardId": "a1-lang",
+        "de": "lang",
+        "csMain": "Dlouhý • Dlouho",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00106",
+      "cardId": "a1-lang",
+      "field": "study.examples[5].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Závorka je nepřirozený doslovný doplněk a v běžném českém překladu není potřebná.",
+      "auditCurrentCs": "Celý den (na délku).",
+      "auditProposedCs": "Celý den.",
+      "auditDe": "Den ganzen Tag lang.",
+      "auditLvSource": "visu dienu (garumā).",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Celý den (na délku).",
+      "cardContext": {
+        "cardId": "a1-lang",
+        "de": "lang",
+        "csMain": "Dlouhý • Dlouho",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00107",
+      "cardId": "a1-laufen",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Jezdit transportem“ je v češtině nepřirozený kalk; běžné je „jezdit dopravním prostředkem“.",
+      "auditCurrentCs": "Jezdit transportem",
+      "auditProposedCs": "Jezdit dopravním prostředkem",
+      "auditDe": "fahren",
+      "auditLvSource": "braukt ar transportu",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Jezdit transportem",
+      "cardContext": {
+        "cardId": "a1-laufen",
+        "de": "laufen",
+        "csMain": "Běžet • Fungovat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00108",
+      "cardId": "a1-laut",
+      "field": "study.examples[5].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka.",
+      "auditCurrentCs": "Slyším zvuk",
+      "auditProposedCs": "Slyším zvuk.",
+      "auditDe": "Ich höre einen Laut.",
+      "auditLvSource": "es dzirdu kādu skaņu.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Slyším zvuk",
+      "cardContext": {
+        "cardId": "a1-laut",
+        "de": "laut",
+        "csMain": "Hlasitý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00109",
+      "cardId": "a1-laut-study",
+      "field": "study.explanation[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Se členem se hodí“ je gramaticky i významově chybné; má se vysvětlit člen der a velké písmeno.",
+      "auditCurrentCs": "Hlavní myšlenka: Podstatné jméno se členem se hodí a je velké. Znamená zvuk jako věc, signál nebo zvuk jazyka.",
+      "auditProposedCs": "Hlavní myšlenka: Podstatné jméno se členem der se píše s velkým písmenem. Znamená zvuk jako věc, signál nebo zvuk jazyka.",
+      "auditDe": "Laut",
+      "auditLvSource": "skaņa",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Hlavní myšlenka: Podstatné jméno se členem se hodí a je velké. Znamená zvuk jako věc, signál nebo zvuk jazyka.",
+      "cardContext": {
+        "cardId": "a1-laut-study",
+        "de": "Laut",
+        "csMain": "Zvuk",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00110",
+      "cardId": "a1-laut-study",
+      "field": "study.explanation[4]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Věta „Často popisuje“ nedává v tomto kontextu gramatický ani významový smysl.",
+      "auditCurrentCs": "Často popisuje: podstatné jméno (der).",
+      "auditProposedCs": "Jde o podstatné jméno se členem der.",
+      "auditDe": "Laut",
+      "auditLvSource": "skaņa",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Často popisuje: podstatné jméno (der).",
+      "cardContext": {
+        "cardId": "a1-laut-study",
+        "de": "Laut",
+        "csMain": "Zvuk",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00111",
+      "cardId": "a1-laut-study",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Malá písmena“ je nesprávná vazba; jde o jednotné podstatné jméno „písmeno“ a německé slovo je laut.",
+      "auditCurrentCs": "Laut je malá písmena a nemá žádný člen - je to přídavné jméno.",
+      "auditProposedCs": "laut se píše malým písmenem a nemá žádný člen – je to přídavné jméno.",
+      "auditDe": "laut",
+      "auditLvSource": "skaņa",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Laut je malá písmena a nemá žádný člen - je to přídavné jméno.",
+      "cardContext": {
+        "cardId": "a1-laut-study",
+        "de": "Laut",
+        "csMain": "Zvuk",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL702-A1-00097",
+      "cardId": "a1-kennen-study",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Poznat“ vyjadřuje spíše dokonavé seznámení; pro kennen je zde správně „znát“.",
+      "currentCs": "Kennen = poznat osobu/místo.",
+      "proposedCs": "Kennen = znát osobu/místo."
+    },
+    {
+      "findingId": "FINAL702-A1-00098",
+      "cardId": "a1-können",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": 0.95,
+      "reason": "„Být dovoleno“ je významově správné české vyjádření slovesa dürfen; jde jen o preferenci přirozenějšího synonyma.",
+      "currentCs": "Být dovoleno"
+    },
+    {
+      "findingId": "FINAL702-A1-00099",
+      "cardId": "a1-können",
+      "field": "study.examples[1].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": 1,
+      "reason": "Produkční text už obsahuje správný koncový otazník.",
+      "currentCs": "Můžeš mi pomoct?"
+    },
+    {
+      "findingId": "FINAL702-A1-00100",
+      "cardId": "a1-kosten",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "Česká tázací věta v produkci postrádá koncový otazník.",
+      "currentCs": "Kolik to stojí",
+      "proposedCs": "Kolik to stojí?"
+    },
+    {
+      "findingId": "FINAL702-A1-00101",
+      "cardId": "a1-kosten",
+      "field": "study.examples[4].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "Produkční oznamovací věta postrádá koncovou tečku.",
+      "currentCs": "Platím účet",
+      "proposedCs": "Platím účet."
+    },
+    {
+      "findingId": "FINAL702-A1-00102",
+      "cardId": "a1-kosten",
+      "field": "study.examples[5].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "Česká tázací věta v produkci postrádá koncový otazník.",
+      "currentCs": "Mohu platit v hotovosti",
+      "proposedCs": "Mohu platit v hotovosti?"
+    },
+    {
+      "findingId": "FINAL702-A1-00103",
+      "cardId": "a1-kosten",
+      "field": "study.examples[7].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "Produkční oznamovací věta postrádá koncovou tečku.",
+      "currentCs": "Teď zaplatím",
+      "proposedCs": "Teď zaplatím."
+    },
+    {
+      "findingId": "FINAL702-A1-00104",
+      "cardId": "a1-land",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.94,
+      "reason": "Základní český překlad německého Dorf je „vesnice“; „obec“ je širší a méně přesné označení.",
+      "currentCs": "Obec",
+      "proposedCs": "Vesnice"
+    },
+    {
+      "findingId": "FINAL702-A1-00105",
+      "cardId": "a1-lang",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "Česká tázací věta v produkci postrádá koncový otazník.",
+      "currentCs": "Jak dlouho to trvá",
+      "proposedCs": "Jak dlouho to trvá?"
+    },
+    {
+      "findingId": "FINAL702-A1-00106",
+      "cardId": "a1-lang",
+      "field": "study.examples[5].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": 0.9,
+      "reason": "Závorka je stylisticky méně běžná, ale význam je srozumitelný a nejde o skutečnou chybu.",
+      "currentCs": "Celý den (na délku)."
+    },
+    {
+      "findingId": "FINAL702-A1-00107",
+      "cardId": "a1-laufen",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.96,
+      "reason": "„Jezdit transportem“ je nepřirozený kalk; běžné české vyjádření je „jezdit dopravním prostředkem“.",
+      "currentCs": "Jezdit transportem",
+      "proposedCs": "Jezdit dopravním prostředkem"
+    },
+    {
+      "findingId": "FINAL702-A1-00108",
+      "cardId": "a1-laut",
+      "field": "study.examples[5].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "Produkční oznamovací věta postrádá koncovou tečku.",
+      "currentCs": "Slyším zvuk",
+      "proposedCs": "Slyším zvuk."
+    },
+    {
+      "findingId": "FINAL702-A1-00109",
+      "cardId": "a1-laut-study",
+      "field": "study.explanation[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Vysvětlení obsahuje gramaticky nesrozumitelnou formulaci a neuvádí správně člen der.",
+      "currentCs": "Hlavní myšlenka: Podstatné jméno se členem se hodí a je velké. Znamená zvuk jako věc, signál nebo zvuk jazyka.",
+      "proposedCs": "Hlavní myšlenka: Podstatné jméno se členem der se píše s velkým písmenem. Znamená zvuk jako věc, signál nebo zvuk jazyka."
+    },
+    {
+      "findingId": "FINAL702-A1-00110",
+      "cardId": "a1-laut-study",
+      "field": "study.explanation[4]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Věta „Často popisuje“ je v tomto kontextu gramaticky i významově nesrozumitelná.",
+      "currentCs": "Často popisuje: podstatné jméno (der).",
+      "proposedCs": "Jde o podstatné jméno se členem der."
+    },
+    {
+      "findingId": "FINAL702-A1-00111",
+      "cardId": "a1-laut-study",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Text má chybnou vazbu „je malá písmena“; zároveň je třeba správně rozlišit malé laut jako přídavné jméno.",
+      "currentCs": "Laut je malá písmena a nemá žádný člen - je to přídavné jméno.",
+      "proposedCs": "laut se píše malým písmenem a nemá žádný člen – je to přídavné jméno."
+    }
+  ]
+}

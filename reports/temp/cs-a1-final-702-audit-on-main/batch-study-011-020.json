@@ -1,0 +1,100 @@
+{
+  "dataset": "a1",
+  "batch": "study-011-020",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a1-baden",
+    "a1-bei",
+    "a1-besuch",
+    "a1-besuchen",
+    "a1-bis",
+    "a1-bitte",
+    "a1-bitte-study",
+    "a1-bleiben",
+    "a1-bringen",
+    "a1-da"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-baden",
+      "field": "study.important[1]",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "baden",
+      "lvSource": "čeština často říká jednoduše „plavat“, ale v němčině si musíte vybrat podle situace.",
+      "currentCs": "čeština často říká jednoduše „plavat“, ale v němčině si musíte vybrat podle situace.",
+      "proposedCs": "Čeština často říká jednoduše „plavat“, ale v němčině si musíte vybrat podle situace.",
+      "reason": "Nová věta po odrážce začíná malým písmenem; má začínat velkým.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-bleiben",
+      "field": "study.examples[0].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Ich bleibe zu Hause.",
+      "lvSource": "es palieku mājās.",
+      "currentCs": "Zůstávám doma",
+      "proposedCs": "Zůstávám doma.",
+      "reason": "Samostatná česká oznamovací věta postrádá koncovou tečku.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-bleiben",
+      "field": "study.examples[3].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Ich gehe nach Hause.",
+      "lvSource": "es eju mājās.",
+      "currentCs": "Jdu domů",
+      "proposedCs": "Jdu domů.",
+      "reason": "Samostatná česká oznamovací věta postrádá koncovou tečku.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-bringen",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Er bringt das Buch zur Schule.",
+      "lvSource": "Es aizvedu bērnus uz skolu.",
+      "currentCs": "Donese knihu do školy.",
+      "proposedCs": "Přináší knihu do školy.",
+      "reason": "Dokonavé „donese“ vyjadřuje budoucí dokončení; německý přítomný čas zde znamená „přináší“ nebo „nese“.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-bringen",
+      "field": "study.comparison[1].meaning",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "nehmen",
+      "lvSource": "aiznest",
+      "currentCs": "Vzít / vzít",
+      "proposedCs": "Vzít / brát",
+      "reason": "Význam je duplicitní a druhá položka má přirozeně vyjadřovat nedokonavý protějšek.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-da",
+      "field": "study.comparison[0].meaning",
+      "severity": "LOW",
+      "category": "TRANSLATION",
+      "de": "da",
+      "lvSource": "tur • te • šeit (vispārīgi)",
+      "currentCs": "Tam • Zde • Zde (obecně)",
+      "proposedCs": "Tam • Tady • Zde (obecně)",
+      "reason": "Druhá česká položka se opakuje; lotyšské „te“ zde odpovídá českému „tady“.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 6,
+  "completedAt": "2026-08-13T15:14:22.020Z"
+}

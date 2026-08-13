@@ -1,0 +1,1319 @@
+{
+  "auditedAt": "2026-08-13T15:27:05.209Z",
+  "confirmedReal": {
+    "expected": 160,
+    "retained": 158,
+    "superseded_by_newer_owner_repair": 2,
+    "missing": 0,
+    "conflicting": 0,
+    "sum": 160
+  },
+  "studyParity": {
+    "expected": 14,
+    "hasStudy": 14,
+    "missing": 0,
+    "cardIds": []
+  },
+  "sectionAccentsMicroRepair": {
+    "expectedResolved": 10,
+    "remainingIssues": 0
+  },
+  "ownerOverride": {
+    "cardId": "a1-in",
+    "field": "study.sectionAccents.examples[0].lv.purple[0]",
+    "value": "Berlīnē",
+    "status": "OWNER_OVERRIDE_FALSE_POSITIVE"
+  },
+  "details": [
+    {
+      "findingId": "MAIN-A1-00066",
+      "cardId": "a1-Alter-11",
+      "field": "lv",
+      "pec": "Věk",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00071",
+      "cardId": "a1-jawohl-299",
+      "field": "lv",
+      "pec": "Ano, jistě",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00072",
+      "cardId": "a1-malen-391",
+      "field": "lv",
+      "pec": "Malovat • Vybarvovat",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00073",
+      "cardId": "a1-schnell-519",
+      "field": "lv",
+      "pec": "Rychlý • Rychle",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00074",
+      "cardId": "a1-unten-614",
+      "field": "lv",
+      "pec": "Dole",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00075",
+      "cardId": "a1-sich waschen-646",
+      "field": "lv",
+      "pec": "Mýt se",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00076",
+      "cardId": "a1-an",
+      "field": "study.examples[0].lv",
+      "pec": "U zdi / na zdi",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00077",
+      "cardId": "a1-ab",
+      "field": "lv",
+      "pec": "Od",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00078",
+      "cardId": "a1-aber",
+      "field": "study.comparison[1].meaning",
+      "pec": "Ne..., ale...",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00079",
+      "cardId": "a1-also",
+      "field": "lv",
+      "pec": "Tedy • Takže",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00081",
+      "cardId": "a1-also",
+      "field": "study.examples[1].lv",
+      "pec": "Jsi nemocný, takže nejdeš do práce.",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00082",
+      "cardId": "a1-auch-study",
+      "field": "study.examples[0].lv",
+      "pec": "Já také přijdu.",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00085",
+      "cardId": "a1-aufs",
+      "field": "study.tip.text",
+      "pec": "Pamatujte: auf + das → aufs (kam?).",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00086",
+      "cardId": "a1-aufs",
+      "field": "study.comparison[2].meaning",
+      "pec": "Na svislý povrch",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00087",
+      "cardId": "a1-aufs",
+      "field": "study.comparison[4].meaning",
+      "pec": "K (někomu/něčemu)",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00090",
+      "cardId": "a1-baden",
+      "field": "lv",
+      "pec": "Koupat se",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00094",
+      "cardId": "a1-bis",
+      "field": "study.comparison[2].word",
+      "pec": "bis jetzt",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00095",
+      "cardId": "a1-bis",
+      "field": "study.comparison[2].meaning",
+      "pec": "Až doteď",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00096",
+      "cardId": "a1-bitte",
+      "field": "study.examples[0].lv",
+      "pec": "Jeden šálek kávy, prosím.",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00097",
+      "cardId": "a1-bitte",
+      "field": "study.examples[2].lv",
+      "pec": "Prosím!",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00098",
+      "cardId": "a1-bitte",
+      "field": "study.important[0]",
+      "pec": "Bitte se píše s malým písmenem – je to zdvořilostní výraz, nikoli podstatné jméno.",
+      "block": "01",
+      "status": "superseded_by_newer_owner_repair"
+    },
+    {
+      "findingId": "MAIN-A1-00100",
+      "cardId": "a1-bitte-study",
+      "field": "study.examples[1].lv",
+      "pec": "Plní mou prosbu.",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00101",
+      "cardId": "a1-bitte-study",
+      "field": "study.examples[2].lv",
+      "pec": "Má dvě prosby.",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00102",
+      "cardId": "a1-bitte-study",
+      "field": "study.important[0]",
+      "pec": "Bitte se píše s malým písmenem – je to zdvořilostní výraz, nikoli podstatné jméno.",
+      "block": "01",
+      "status": "superseded_by_newer_owner_repair"
+    },
+    {
+      "findingId": "MAIN-A1-00103",
+      "cardId": "a1-bleiben",
+      "field": "lv",
+      "pec": "Zůstat",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00104",
+      "cardId": "a1-bringen",
+      "field": "study.comparison[0].meaning",
+      "pec": "Přinést / odnést / dodat",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00107",
+      "cardId": "a1-das",
+      "field": "study.comparison[0].meaning",
+      "pec": "To (člen / zájmeno)",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00108",
+      "cardId": "a1-das",
+      "field": "study.important[0]",
+      "pec": "Na úrovni A1 je das nejprve studován jako určitý člen středního rodu.",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00113",
+      "cardId": "a1-ein",
+      "field": "lv",
+      "pec": "Neurčitý člen • Jeden",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00114",
+      "cardId": "a1-eis",
+      "field": "lv",
+      "pec": "Led • Zmrzlina",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00115",
+      "cardId": "a1-erst",
+      "field": "lv",
+      "pec": "Nejprve • Až / teprve",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00116",
+      "cardId": "a1-erst",
+      "field": "study.examples[3].lv",
+      "pec": "Jíme až v osm.",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00117",
+      "cardId": "a1-erst",
+      "field": "study.comparison[1].meaning",
+      "pec": "Nejprve • Na začátku",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00118",
+      "cardId": "a1-es",
+      "field": "lv",
+      "pec": "To • Ono • Neosobní podoba",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00119",
+      "cardId": "a1-fahren",
+      "field": "lv",
+      "pec": "Jet • Jezdit • Vézt / odvézt",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00120",
+      "cardId": "a1-fahren",
+      "field": "study.comparison[0].meaning",
+      "pec": "Jezdit dopravním prostředkem",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00121",
+      "cardId": "a1-finden",
+      "field": "lv",
+      "pec": "Najít • Myslet si",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00122",
+      "cardId": "a1-finden",
+      "field": "study.examples[1].lv",
+      "pec": "Zdá se mi to dobré.",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00123",
+      "cardId": "a1-finden",
+      "field": "study.examples[2].lv",
+      "pec": "Co si myslíš o filmu?",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00124",
+      "cardId": "a1-finden",
+      "field": "study.comparison[0].meaning",
+      "pec": "Najít / Myslet si",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00125",
+      "cardId": "a1-finden",
+      "field": "study.important[1]",
+      "pec": "Ich finde das gut znamená „považuji to za dobré“, nikoli „najdu to dobře“.",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00126",
+      "cardId": "a1-frau",
+      "field": "study.important[1]",
+      "pec": "Meine Frau = moje žena.",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00127",
+      "cardId": "a1-fuer",
+      "field": "study.examples[1].lv",
+      "pec": "Děkuji za pomoc.",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00128",
+      "cardId": "a1-fuer",
+      "field": "study.examples[2].lv",
+      "pec": "Kupuji dárek pro maminku.",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00129",
+      "cardId": "a1-geben",
+      "field": "study.examples[0].lv",
+      "pec": "Dej mi prosím knihu.",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00130",
+      "cardId": "a1-geben",
+      "field": "study.comparison[1].meaning",
+      "pec": "Brát / vzít",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00131",
+      "cardId": "a1-geben",
+      "field": "study.comparison[2].meaning",
+      "pec": "Dostat / obdržet",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00132",
+      "cardId": "a1-gleich",
+      "field": "lv",
+      "pec": "Hned • Stejný",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00133",
+      "cardId": "a1-gleich",
+      "field": "study.important[0]",
+      "pec": "Gleich = hned (čas) NEBO stejný (srovnání).",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00134",
+      "cardId": "a1-gleich",
+      "field": "study.tip[0]",
+      "pec": "Za chvíli → hned.",
+      "block": "01",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00135",
+      "cardId": "a1-gross-study",
+      "field": "study.examples[1].lv",
+      "pec": "Berlín je velké město.",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00136",
+      "cardId": "a1-gut-study",
+      "field": "study.important[2]",
+      "pec": "Guten Tag/Morgen/Abend – přídavné jméno gut má po skloňování koncovku -en.",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00138",
+      "cardId": "a1-haben",
+      "field": "study.comparison[2].meaning",
+      "pec": "Dostat",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00139",
+      "cardId": "a1-haben",
+      "field": "study.important[2]",
+      "pec": "Perfektum: Ich habe gelernt = naučil jsem se.",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00140",
+      "cardId": "a1-heißen",
+      "field": "lv",
+      "pec": "Jmenovat se • Znamenat",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00141",
+      "cardId": "a1-heißen",
+      "field": "study.comparison[3].meaning",
+      "pec": "Volat / zavolat",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00142",
+      "cardId": "a1-heißen",
+      "field": "study.important[0]",
+      "pec": "Wie heißt du? znamená „Jak se jmenuješ?“.",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00146",
+      "cardId": "a1-hoch-study",
+      "field": "study.examples[1].lv",
+      "pec": "Hora je vysoká.",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00147",
+      "cardId": "a1-hoch-study",
+      "field": "study.explanation[0]",
+      "pec": "Hlavní myšlenka: hoch znamená vysoký nebo vysoko.",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00148",
+      "cardId": "a1-ihr",
+      "field": "lv",
+      "pec": "Vy • Jí • Její",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00149",
+      "cardId": "a1-ihr",
+      "field": "study.tip[1]",
+      "pec": "Kontrola: Habt ihr...? / Kommt ihr...? = vy • Ich gebe ihr... / ihr Buch = jí/její.",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00150",
+      "cardId": "a1-ihr",
+      "field": "study.important[0]",
+      "pec": "Ihr = vy (oslovení více lidí) NEBO jí (dativ) NEBO její (přivlastňovací) – v závislosti na kontextu.",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00151",
+      "cardId": "a1-ins",
+      "field": "lv",
+      "pec": "Do • Kam?",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00152",
+      "cardId": "a1-ins",
+      "field": "study.translation",
+      "pec": "Do • Kam?",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00153",
+      "cardId": "a1-ins",
+      "field": "study.comparison[2].meaning",
+      "pec": "V / do (se samostatným členem)",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00154",
+      "cardId": "a1-jung",
+      "field": "lv",
+      "pec": "Mladý (o věku)",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00157",
+      "cardId": "a1-kein",
+      "field": "lv",
+      "pec": "Žádný • Žádná • Žádné",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00159",
+      "cardId": "a1-kennen-study",
+      "field": "study.examples[2].lv",
+      "pec": "Kde jste se poznali?",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00160",
+      "cardId": "a1-wissen-study",
+      "field": "study.examples[1].lv",
+      "pec": "Jak to víte?",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00161",
+      "cardId": "a1-können",
+      "field": "study.sectionAccents.examples[1].lv.purple[0]",
+      "pec": "Můžeš",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00162",
+      "cardId": "a1-kosten",
+      "field": "lv",
+      "pec": "Stát",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00163",
+      "cardId": "a1-kosten",
+      "field": "study.explanation[3]",
+      "pec": "České slovo stát je v tomto kontextu správné: Das kostet 5 Euro. = Stojí 5 eur.",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00164",
+      "cardId": "a1-kosten",
+      "field": "study.sectionAccents.comparison[0].meaning.purple[0]",
+      "pec": "Stát",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00165",
+      "cardId": "a1-laden-study",
+      "field": "lv",
+      "pec": "Obchod",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00166",
+      "cardId": "a1-laden-study",
+      "field": "study.examples[3].lv",
+      "pec": "Musím nabít telefon.",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00167",
+      "cardId": "a1-land",
+      "field": "lv",
+      "pec": "Země • Venkov",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00168",
+      "cardId": "a1-land",
+      "field": "study.explanation[0]",
+      "pec": "Hlavní myšlenka: das Land nejčastěji znamená zemi nebo venkov.",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00170",
+      "cardId": "a1-lang",
+      "field": "lv",
+      "pec": "Dlouhý • Dlouho",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00172",
+      "cardId": "a1-lang",
+      "field": "study.tip[1]",
+      "pec": "O čase (den, film) → dlouhý; o trvání (čekání) → dlouho.",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00174",
+      "cardId": "a1-lassen",
+      "field": "lv",
+      "pec": "Nechat • Dovolit",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00177",
+      "cardId": "a1-legen",
+      "field": "study.sectionAccents.examples[0].lv.purple[0]",
+      "pec": "Pokládám",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00178",
+      "cardId": "a1-mal",
+      "field": "lv",
+      "pec": "Případ • Opakování",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00179",
+      "cardId": "a1-mal",
+      "field": "study.translation",
+      "pec": "Případ • Opakování",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00180",
+      "cardId": "a1-mal",
+      "field": "study.tip.text",
+      "pec": "Pamatujte: das Mal = případ / opakování • mal bez členu = hovorová částice.",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00182",
+      "cardId": "a1-morgen",
+      "field": "study.explanation",
+      "pec": [
+        "Hlavní myšlenka: morgen s malým písmenem znamená zítra.",
+        "Morgen s velkým písmenem je podstatné jméno a znamená ráno.",
+        "Nezaměňujte morgen ve větě Ich komme morgen s Morgen ve spojení Guten Morgen!.",
+        "Ich komme morgen = Přijdu zítra. Guten Morgen! = Dobré ráno!"
+      ],
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00184",
+      "cardId": "a1-morgen-study",
+      "field": "study.explanation",
+      "pec": [
+        "Hlavní myšlenka: Der Morgen je podstatné jméno, které znamená ráno.",
+        "Používá se s velkým písmenem: der Morgen, am Morgen.",
+        "Nezaměňujte ho s morgen s malým písmenem, které znamená zítra.",
+        "Guten Morgen! = Dobré ráno! Ich komme morgen = Přijdu zítra."
+      ],
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00185",
+      "cardId": "a1-müssen",
+      "field": "lv",
+      "pec": "Muset",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00186",
+      "cardId": "a1-müssen",
+      "field": "study.sectionAccents.examples[1].lv.purple[0]",
+      "pec": "Musíš",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00188",
+      "cardId": "a1-nach",
+      "field": "study.comparison[2].meaning",
+      "pec": "Do / v nebo na místo s členem",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00189",
+      "cardId": "a1-nehmen",
+      "field": "study.explanation[0]",
+      "pec": "Hlavní myšlenka: nehmen znamená brát nebo vzít.",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00190",
+      "cardId": "a1-nehmen",
+      "field": "study.explanation[3]",
+      "pec": "Holen znamená jít pro něco nebo někoho vyzvednout a přinést.",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00191",
+      "cardId": "a1-nehmen",
+      "field": "study.tip.text",
+      "pec": "Pamatujte: vzít si něco pro sebe → nehmen • přinést něco někomu → bringen.",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00192",
+      "cardId": "a1-nehmen",
+      "field": "study.sectionAccents.examples[2].lv.red[0]",
+      "pec": "Přináším",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00193",
+      "cardId": "a1-nehmen",
+      "field": "study.sectionAccents.examples[2].lv.yellow[0]",
+      "pec": "knihu",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00194",
+      "cardId": "a1-nehmen",
+      "field": "study.sectionAccents.examples[3].lv.red[0]",
+      "pec": "Vyzvednu",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00195",
+      "cardId": "a1-nehmen",
+      "field": "study.sectionAccents.examples[3].lv.green[0]",
+      "pec": "tě",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00196",
+      "cardId": "a1-neu",
+      "field": "study.examples[6].lv",
+      "pec": "Co je nového?",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00197",
+      "cardId": "a1-neu",
+      "field": "study.important[0]",
+      "pec": "Neu popisuje věci a zprávy, ne věk člověka nebo zvířete.",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00198",
+      "cardId": "a1-neu",
+      "field": "study.sectionAccents.examples[0].lv.purple[0]",
+      "pec": "nový",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00199",
+      "cardId": "a1-neu",
+      "field": "study.sectionAccents.examples[1].lv.purple[0]",
+      "pec": "nové",
+      "block": "02",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00203",
+      "cardId": "a1-ob",
+      "field": "study.sectionAccents.comparison[0].meaning.purple[0]",
+      "pec": "Zda",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00204",
+      "cardId": "a1-ob",
+      "field": "study.sectionAccents.comparison[0].meaning.purple[1]",
+      "pec": "jestli",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00206",
+      "cardId": "a1-oder",
+      "field": "study.sectionAccents.examples[0].lv.yellow[1]",
+      "pec": "čaj",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00207",
+      "cardId": "a1-oder",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "pec": "Zda",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00208",
+      "cardId": "a1-oder",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[1]",
+      "pec": "jestli",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00209",
+      "cardId": "a1-passen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple[0]",
+      "pec": "Pasovat",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00210",
+      "cardId": "a1-passen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "pec": "Slušet",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00211",
+      "cardId": "a1-passen",
+      "field": "study.sectionAccents.comparison[3].meaning.purple[0]",
+      "pec": "Fungovat",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00212",
+      "cardId": "a1-probieren",
+      "field": "study.examples[3].lv",
+      "pec": "Můžu si tu bundu vyzkoušet?",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00213",
+      "cardId": "a1-probieren",
+      "field": "study.comparison[3].meaning",
+      "pec": "Vyzkoušet si (oblečení)",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00215",
+      "cardId": "a1-sagen-study",
+      "field": "study.comparison[1].meaning",
+      "pec": "Mluvit (jazykem, hovořit)",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00216",
+      "cardId": "a1-schauen-study",
+      "field": "lv",
+      "pec": "Dívat se",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00218",
+      "cardId": "a1-schwimmen",
+      "field": "study.important[1]",
+      "pec": "Česky se často říká „plavat“, ale v němčině musíte zkontrolovat, zda jde o pohyb nebo koupání.",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00223",
+      "cardId": "a1-sich",
+      "field": "study.examples[2].lv",
+      "pec": "Má radost.",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00224",
+      "cardId": "a1-sich",
+      "field": "study.sectionAccents.examples[0].lv.purple[0]",
+      "pec": "Myje",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00225",
+      "cardId": "a1-sicher",
+      "field": "study.examples[1].lv",
+      "pec": "Přijdeš zítra – určitě!",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00226",
+      "cardId": "a1-sie-study-2",
+      "field": "study.explanation[0]",
+      "pec": "Hlavní myšlenka: Zdvořilostní oslovení – vždy s velkým S. Česky: vy. Často se slovesem v množném čísle.",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00227",
+      "cardId": "a1-sitzen",
+      "field": "study.comparison[2].meaning",
+      "pec": "Ležet",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00229",
+      "cardId": "a1-sollen",
+      "field": "lv",
+      "pec": "Měl by",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00230",
+      "cardId": "a1-sollen",
+      "field": "study.translation",
+      "pec": "Měl by",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00231",
+      "cardId": "a1-sollen",
+      "field": "study.comparison[1].meaning",
+      "pec": "Muset / být nutné",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00233",
+      "cardId": "a1-stehen",
+      "field": "study.examples[1].lv",
+      "pec": "Židle stojí v kuchyni.",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00234",
+      "cardId": "a1-stehen",
+      "field": "study.examples[3].lv",
+      "pec": "Kniha leží na stole.",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00235",
+      "cardId": "a1-stehen",
+      "field": "study.comparison[2].meaning",
+      "pec": "Ležet",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00237",
+      "cardId": "a1-über",
+      "field": "lv",
+      "pec": "Nad • O • Přes",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00238",
+      "cardId": "a1-über",
+      "field": "study.comparison[3].meaning",
+      "pec": "Z / od",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00239",
+      "cardId": "a1-um",
+      "field": "lv",
+      "pec": "Kolem • V (čas) • Aby",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00240",
+      "cardId": "a1-um",
+      "field": "study.translation",
+      "pec": "Kolem • V (čas) • Aby",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00241",
+      "cardId": "a1-um",
+      "field": "study.comparison[0].meaning",
+      "pec": "V / kolem / aby",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00242",
+      "cardId": "a1-um",
+      "field": "study.comparison[1].meaning",
+      "pec": "V (den) / u",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00243",
+      "cardId": "a1-um",
+      "field": "study.comparison[2].meaning",
+      "pec": "Kolem času / proti",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00244",
+      "cardId": "a1-um",
+      "field": "study.tip.text",
+      "pec": "Pamatujte: um acht = v osm.",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00245",
+      "cardId": "a1-unter",
+      "field": "study.examples[1].lv",
+      "pec": "Kočka leží pod židlí.",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00250",
+      "cardId": "a1-was",
+      "field": "study.tip[0]",
+      "pec": "Was samo o sobě se nemění – v němčině má vždy stejný tvar • V češtině vyberte „kdo“ nebo „co“ podle části věty.",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00251",
+      "cardId": "a1-was",
+      "field": "study.tip[1]",
+      "pec": "Rychlý trik: pokud lze na otázku odpovědět „Je to…“, použijte co • Pokud je was po slovese jako předmět, použijte co.",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00252",
+      "cardId": "a1-was",
+      "field": "study.important[0]",
+      "pec": "Ptá se na věci, události a fakta – nikdy na osoby.",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00253",
+      "cardId": "a1-was",
+      "field": "study.important[3]",
+      "pec": "Špatně: Wer ist passiert? → Správně: Was ist passiert?",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00254",
+      "cardId": "a1-wer",
+      "field": "study.explanation[1]",
+      "pec": "Ptá se na lidi, ne na věci nebo události.",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00255",
+      "cardId": "a1-wer",
+      "field": "study.explanation[2]",
+      "pec": "Na věci a události se ptáme pomocí was, ne wer.",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00257",
+      "cardId": "a1-wer",
+      "field": "study.important[0]",
+      "pec": "Ptáme se pouze na osoby, nikdy ne na věci.",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00258",
+      "cardId": "a1-wer",
+      "field": "study.important[3]",
+      "pec": "Špatně: Wer ist passiert? → Správně: Was ist passiert?",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00261",
+      "cardId": "a1-wetter",
+      "field": "study.explanation[2]",
+      "pec": "O počasí se mluví s výrazem das Wetter: Wie ist das Wetter heute?",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00262",
+      "cardId": "a1-wetter",
+      "field": "study.explanation[3]",
+      "pec": "Das Wetter se často používá ve větě spolu se slovy jako warm nebo kalt.",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00266",
+      "cardId": "a1-zu",
+      "field": "study.explanation[3]",
+      "pec": "V konstrukci zu + infinitiv se zu používá před infinitivem: zu lernen, zu gehen.",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00268",
+      "cardId": "a1-zum",
+      "field": "lv",
+      "pec": "K • Ke",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00270",
+      "cardId": "a1-zum",
+      "field": "study.important[3]",
+      "pec": "Nezaměňovat s bei (nachází se u) nebo nach (do měst bez článku).",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00271",
+      "cardId": "a1-fernsehen",
+      "field": "study.comparison[1].meaning",
+      "pec": "Televize (médium)",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00273",
+      "cardId": "a1-essen-study",
+      "field": "lv",
+      "pec": "Jídlo • Pokrm",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00278",
+      "cardId": "a1-ferien",
+      "field": "study.explanation[1]",
+      "pec": "Die Ferien v podstatě znamenají: školní prázdniny.",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00279",
+      "cardId": "a1-ferien",
+      "field": "study.explanation[2]",
+      "pec": "Často charakterizovány: pouze množné číslo.",
+      "block": "03",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00200",
+      "cardId": "a1-noch-study",
+      "field": "study.sectionAccents.examples[0].lv.purple[0]",
+      "pec": "pořád",
+      "block": "04",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00280",
+      "cardId": "a1-ferien",
+      "field": "study.explanation[3]",
+      "pec": "Die Ferien jsou pouze v množném čísle — vždy v množném čísle (in den Ferien).",
+      "block": "04",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00282",
+      "cardId": "a1-urlaub",
+      "field": "study.explanation[0]",
+      "pec": "Hlavní myšlenka: pouze jednotné číslo. Dovolená z práce – vždy v jednotném čísle.",
+      "block": "04",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00283",
+      "cardId": "a1-urlaub",
+      "field": "study.explanation[2]",
+      "pec": "Často charakterizován: pouze jednotné číslo.",
+      "block": "04",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00284",
+      "cardId": "a1-urlaub",
+      "field": "study.explanation[3]",
+      "pec": "Der Urlaub je pouze v jednotném čísle – dovolená z práce (im Urlaub).",
+      "block": "04",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00285",
+      "cardId": "a1-urlaub",
+      "field": "study.comparison[1].meaning",
+      "pec": "Školní/studijní prázdniny (pouze mn. č.)",
+      "block": "04",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00286",
+      "cardId": "a1-uhr",
+      "field": "study.explanation[2]",
+      "pec": "Často označuje konkrétní čas.",
+      "block": "04",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00287",
+      "cardId": "a1-zeit",
+      "field": "study.explanation[1]",
+      "pec": "Die Zeit znamená především čas; podle kontextu také okamžik nebo příležitost.",
+      "block": "04",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00288",
+      "cardId": "a1-zeit",
+      "field": "study.explanation[2]",
+      "pec": "Označuje abstraktní pojem.",
+      "block": "04",
+      "status": "retained"
+    },
+    {
+      "findingId": "MAIN-A1-00289",
+      "cardId": "a1-einmal",
+      "field": "study.explanation[3]",
+      "pec": "Einmal odkazuje na jednu příležitost nebo minulost (jednou jsem...).",
+      "block": "04",
+      "status": "retained"
+    }
+  ]
+}

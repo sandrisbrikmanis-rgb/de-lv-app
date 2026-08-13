@@ -1,0 +1,29 @@
+{
+  "dataset": "a1",
+  "batch": "study-131-134",
+  "auditType": "vocab_study",
+  "cardCount": 4,
+  "cardIds": [
+    "a1-uhr",
+    "a1-zeit",
+    "a1-einmal",
+    "a1-noch-mal"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-noch-mal",
+      "field": "study.important[0]",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "noch mal",
+      "lvSource": "Nozīmē vēlreiz — atkārtot darbību vai lūgt atkārtojumu.",
+      "currentCs": "Opět znamená opakovat akci nebo požádat o opakování.",
+      "proposedCs": "Noch mal znamená opakovat akci nebo požádat o opakování.",
+      "reason": "Vysvětlení používá jiné české slovo než cílový výraz; má uvádět význam „noch mal“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 3,
+  "completedAt": "2026-08-13T15:22:30.190Z"
+}

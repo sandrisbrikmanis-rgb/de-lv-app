@@ -1,0 +1,484 @@
+{
+  "batch": "validate-004",
+  "items": [
+    {
+      "findingId": "FINAL702-A1-00076",
+      "cardId": "a1-geben",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka ve větě.",
+      "auditCurrentCs": "Beru knihu",
+      "auditProposedCs": "Beru knihu.",
+      "auditDe": "Ich nehme das Buch.",
+      "auditLvSource": "es paņemu grāmatu.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Beru knihu",
+      "cardContext": {
+        "cardId": "a1-geben",
+        "de": "geben",
+        "csMain": "Dát",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00077",
+      "cardId": "a1-geben",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka ve větě.",
+      "auditCurrentCs": "Dostanu dárek",
+      "auditProposedCs": "Dostanu dárek.",
+      "auditDe": "Ich bekomme ein Geschenk.",
+      "auditLvSource": "es saņemu dāvanu.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Dostanu dárek",
+      "cardContext": {
+        "cardId": "a1-geben",
+        "de": "geben",
+        "csMain": "Dát",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00078",
+      "cardId": "a1-gleich",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Výraz „stejný/stejný“ je duplicitní a působí jako chyba v učebním vysvětlení.",
+      "auditCurrentCs": "Pokud jde o srovnání, gleich = stejný/stejný (die gleiche Farbe = stejná barva).",
+      "auditProposedCs": "Pokud jde o srovnání, gleich = stejný (die gleiche Farbe = stejná barva).",
+      "auditDe": "gleich",
+      "auditLvSource": "Ja runa ir par salīdzinājumu, gleich = vienāds/tāds pats (die gleiche Farbe = vienāda krāsa).",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Pokud jde o srovnání, gleich = stejný/stejný (die gleiche Farbe = stejná barva).",
+      "cardContext": {
+        "cardId": "a1-gleich",
+        "de": "gleich",
+        "csMain": "Hned • Stejný",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00079",
+      "cardId": "a1-gross-study",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Český překlad neodpovídá německé větě; překládá jiný podmět i význam.",
+      "auditCurrentCs": "Berlín je velké město.",
+      "auditProposedCs": "Dům je velký.",
+      "auditDe": "Das Haus ist groß.",
+      "auditLvSource": "Berlín je velké město.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Berlín je velké město.",
+      "cardContext": {
+        "cardId": "a1-gross-study",
+        "de": "groß",
+        "csMain": "Velký",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00080",
+      "cardId": "a1-gut-study",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "V českém dialogu má být místo spojovníku použit pomlčkový oddělovač.",
+      "auditCurrentCs": "Jak se máš - dobře, díky!",
+      "auditProposedCs": "Jak se máš – dobře, díky!",
+      "auditDe": "Wie geht es dir? – Gut, danke!",
+      "auditLvSource": "kā tev iet? – labi, paldies!",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Jak se máš - dobře, díky!",
+      "cardContext": {
+        "cardId": "a1-gut-study",
+        "de": "gut",
+        "csMain": "Dobrý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00081",
+      "cardId": "a1-haben",
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Text nesprávně označuje anglickou konstrukci za českou; v kontextu jde o anglické fráze.",
+      "auditCurrentCs": "Česká dativní konstrukce „I have / you have“ v němčině je nominativ + haben: Ich habe ..., Du hast ..., Er hat ... — ne *mir habe.",
+      "auditProposedCs": "Anglické „I have / you have“ se v němčině vyjadřuje nominativem + haben: Ich habe ..., Du hast ..., Er hat ... — ne *mir habe.",
+      "auditDe": "Ich habe ..., Du hast ..., Er hat ...",
+      "auditLvSource": "Latviešu datīva konstrukcija „man ir / tev ir” vāciski ir nominatīvs + haben.",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Česká dativní konstrukce „I have / you have“ v němčině je nominativ + haben: Ich habe ..., Du hast ..., Er hat ... — ne *mir habe.",
+      "cardContext": {
+        "cardId": "a1-haben",
+        "de": "haben",
+        "csMain": "Mám",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00082",
+      "cardId": "a1-haben",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Počeštěné „Habenovi“ je v gramatickém výkladu nepřirozené; vhodnější je „po slovese haben“.",
+      "auditCurrentCs": "Po Habenovi následuje akuzativ: Ich habe ein Auto. = Mám auto.",
+      "auditProposedCs": "Po slovese haben následuje akuzativ: Ich habe ein Auto. = Mám auto.",
+      "auditDe": "Ich habe ein Auto.",
+      "auditLvSource": "Pēc haben seko akuzatīvs: Ich habe ein Auto.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Po Habenovi následuje akuzativ: Ich habe ein Auto. = Mám auto.",
+      "cardContext": {
+        "cardId": "a1-haben",
+        "de": "haben",
+        "csMain": "Mám",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00083",
+      "cardId": "a1-haben",
+      "field": "study.comparison[3].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Překlad obsahuje zbytečnou duplicitu a neuvádí odlišný význam.",
+      "auditCurrentCs": "Dělat / dělat",
+      "auditProposedCs": "Dělat",
+      "auditDe": "machen",
+      "auditLvSource": "darīt / taisīt",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Dělat / dělat",
+      "cardContext": {
+        "cardId": "a1-haben",
+        "de": "haben",
+        "csMain": "Mám",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00084",
+      "cardId": "a1-halten",
+      "field": "study.comparison[2].word",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Pole s německým srovnávacím slovem obsahuje jiné německé sloveso stoppen místo anhalten.",
+      "auditCurrentCs": "stoppen",
+      "auditProposedCs": "anhalten",
+      "auditDe": "anhalten",
+      "auditLvSource": "apstāties • apturēt",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "stoppen",
+      "cardContext": {
+        "cardId": "a1-halten",
+        "de": "halten",
+        "csMain": "Držet • Zastavit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00087",
+      "cardId": "a1-hoeren-study",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Poslechnout zvuk“ není přirozená česká kolokace a mění význam slovesa.",
+      "auditCurrentCs": "Hören = slyšet/poslechnout zvuk.",
+      "auditProposedCs": "hören = slyšet zvuk / poslouchat hudbu.",
+      "auditDe": "hören",
+      "auditLvSource": "hören = dzirdēt/klausīties skaņu.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Hören = slyšet/poslechnout zvuk.",
+      "cardContext": {
+        "cardId": "a1-hoeren-study",
+        "de": "hören",
+        "csMain": "Slyšet • Poslouchat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00088",
+      "cardId": "a1-hoeren-study",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Současná formulace je v češtině nepřirozená a gramaticky neúplná.",
+      "auditCurrentCs": "Často charakterizované: zvuky.",
+      "auditProposedCs": "Často se používá pro zvuky.",
+      "auditDe": "hören",
+      "auditLvSource": "Bieži raksturo: skaņas.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Často charakterizované: zvuky.",
+      "cardContext": {
+        "cardId": "a1-hoeren-study",
+        "de": "hören",
+        "csMain": "Slyšet • Poslouchat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00089",
+      "cardId": "a1-ihr",
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Adresa“ znamená adresu, nikoli oslovení; jde o chybný překlad německého pojmu Anrede.",
+      "auditCurrentCs": "S malými písmeny se ihr jako adresa pro několik lidí překládá jako vy (Kommt ihr mit? = Jdete spolu?).",
+      "auditProposedCs": "S malým písmenem se ihr jako oslovení více lidí překládá jako vy (Kommt ihr mit? = Jdete spolu?).",
+      "auditDe": "ihr",
+      "auditLvSource": "Ar mazo ihr kā uzrunu vairākiem cilvēkiem tulko kā jūs.",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "S malými písmeny se ihr jako adresa pro několik lidí překládá jako vy (Kommt ihr mit? = Jdete spolu?).",
+      "cardContext": {
+        "cardId": "a1-ihr",
+        "de": "ihr",
+        "csMain": "Vy • Jí • Její",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00090",
+      "cardId": "a1-ihr",
+      "field": "study.explanation[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Dativní zájmeno ihr se zde překládá jako „jí“, nikoli obecně jako „k ní“.",
+      "auditCurrentCs": "Ihr jako tvar dativu (od sie) znamená k ní (Ich gebe ihr das Buch. = dávám jí knihu.).",
+      "auditProposedCs": "Ihr jako tvar dativu (od sie) znamená jí (Ich gebe ihr das Buch. = Dávám jí knihu.).",
+      "auditDe": "ihr",
+      "auditLvSource": "ihr kā datīva forma nozīmē viņai.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Ihr jako tvar dativu (od sie) znamená k ní (Ich gebe ihr das Buch. = dávám jí knihu.).",
+      "cardContext": {
+        "cardId": "a1-ihr",
+        "de": "ihr",
+        "csMain": "Vy • Jí • Její",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00093",
+      "cardId": "a1-im",
+      "field": "study.explanation[4]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Anglické slovo „full“ kontaminuje český výukový text.",
+      "auditCurrentCs": "V praxi se téměř vždy používá im místo full in dem.",
+      "auditProposedCs": "V praxi se téměř vždy používá im místo plné formy in dem.",
+      "auditDe": "im",
+      "auditLvSource": "Praksē gandrīz vienmēr lieto im, nevis pilno in dem.",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "V praxi se téměř vždy používá im místo full in dem.",
+      "cardContext": {
+        "cardId": "a1-im",
+        "de": "im",
+        "csMain": "V • Kde?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "FINAL702-A1-00094",
+      "cardId": "a1-jung",
+      "field": "study.examples[5].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Současný slovosled je možný, ale pro neutrální překlad německé věty je méně přirozený.",
+      "auditCurrentCs": "Usmívá se mladá žena.",
+      "auditProposedCs": "Mladá žena se usmívá.",
+      "auditDe": "Die junge Frau lächelt.",
+      "auditLvSource": "jaunā sieviete smaida.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Usmívá se mladá žena.",
+      "cardContext": {
+        "cardId": "a1-jung",
+        "de": "jung",
+        "csMain": "Mladý (o věku)",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "FINAL702-A1-00076",
+      "cardId": "a1-geben",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Výuková věta v produkci postrádá koncovou tečku.",
+      "currentCs": "Beru knihu",
+      "proposedCs": "Beru knihu."
+    },
+    {
+      "findingId": "FINAL702-A1-00077",
+      "cardId": "a1-geben",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Výuková věta v produkci postrádá koncovou tečku.",
+      "currentCs": "Dostanu dárek",
+      "proposedCs": "Dostanu dárek."
+    },
+    {
+      "findingId": "FINAL702-A1-00078",
+      "cardId": "a1-gleich",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Duplicitní překlad stejný/stejný je v učebním vysvětlení zjevná chyba.",
+      "currentCs": "Pokud jde o srovnání, gleich = stejný/stejný (die gleiche Farbe = stejná barva).",
+      "proposedCs": "Pokud jde o srovnání, gleich = stejný (die gleiche Farbe = stejná barva)."
+    },
+    {
+      "findingId": "FINAL702-A1-00079",
+      "cardId": "a1-gross-study",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Česká věta překládá jiný podmět i význam než německý originál.",
+      "currentCs": "Berlín je velké město.",
+      "proposedCs": "Dům je velký."
+    },
+    {
+      "findingId": "FINAL702-A1-00080",
+      "cardId": "a1-gut-study",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "V dialogu je použit spojovník místo běžného pomlčkového oddělovače.",
+      "currentCs": "Jak se máš - dobře, díky!",
+      "proposedCs": "Jak se máš – dobře, díky!"
+    },
+    {
+      "findingId": "FINAL702-A1-00081",
+      "cardId": "a1-haben",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Text chybně označuje anglickou konstrukci za českou.",
+      "currentCs": "Česká dativní konstrukce „I have / you have“ v němčině je nominativ + haben: Ich habe ..., Du hast ..., Er hat ... — ne *mir habe.",
+      "proposedCs": "Anglické „I have / you have“ se v němčině vyjadřuje nominativem + haben: Ich habe ..., Du hast ..., Er hat ... — ne *mir habe."
+    },
+    {
+      "findingId": "FINAL702-A1-00082",
+      "cardId": "a1-haben",
+      "field": "study.explanation[2]",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "reason": "„Po Habenovi“ je srozumitelné metajazykové vyjádření; navržená změna je stylistická preference.",
+      "currentCs": "Po Habenovi následuje akuzativ: Ich habe ein Auto. = Mám auto."
+    },
+    {
+      "findingId": "FINAL702-A1-00083",
+      "cardId": "a1-haben",
+      "field": "study.comparison[3].meaning",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Opakování se liší pouze kapitalizací; nejde o významovou chybu v učebním kontextu.",
+      "currentCs": "Dělat / dělat"
+    },
+    {
+      "findingId": "FINAL702-A1-00084",
+      "cardId": "a1-halten",
+      "field": "study.comparison[2].word",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Srovnávací pole obsahuje jiné německé sloveso než anhalten.",
+      "currentCs": "stoppen",
+      "proposedCs": "anhalten"
+    },
+    {
+      "findingId": "FINAL702-A1-00087",
+      "cardId": "a1-hoeren-study",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Poslechnout zvuk“ je nepřirozené a nevhodně vymezuje význam slovesa hören.",
+      "currentCs": "Hören = slyšet/poslechnout zvuk.",
+      "proposedCs": "hören = slyšet zvuk / poslouchat hudbu."
+    },
+    {
+      "findingId": "FINAL702-A1-00088",
+      "cardId": "a1-hoeren-study",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Současná formulace je gramaticky neúplná a v češtině nepřirozená.",
+      "currentCs": "Často charakterizované: zvuky.",
+      "proposedCs": "Často se používá pro zvuky."
+    },
+    {
+      "findingId": "FINAL702-A1-00089",
+      "cardId": "a1-ihr",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Slovo adresa je chybný překlad pojmu Anrede; jde o oslovení více lidí.",
+      "currentCs": "S malými písmeny se ihr jako adresa pro několik lidí překládá jako vy (Kommt ihr mit? = Jdete spolu?).",
+      "proposedCs": "S malým písmenem se ihr jako oslovení více lidí překládá jako vy (Kommt ihr mit? = Jdete spolu?)."
+    },
+    {
+      "findingId": "FINAL702-A1-00090",
+      "cardId": "a1-ihr",
+      "field": "study.explanation[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Základní český význam dativu ihr je jí; „k ní“ je zde zavádějící.",
+      "currentCs": "Ihr jako tvar dativu (od sie) znamená k ní (Ich gebe ihr das Buch. = dávám jí knihu.).",
+      "proposedCs": "Ihr jako tvar dativu (od sie) znamená jí (Ich gebe ihr das Buch. = Dávám jí knihu.)."
+    },
+    {
+      "findingId": "FINAL702-A1-00093",
+      "cardId": "a1-im",
+      "field": "study.explanation[4]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Anglické slovo full je cizojazyčný pozůstatek v českém výukovém textu.",
+      "currentCs": "V praxi se téměř vždy používá im místo full in dem.",
+      "proposedCs": "V praxi se téměř vždy používá im místo plné formy in dem."
+    },
+    {
+      "findingId": "FINAL702-A1-00094",
+      "cardId": "a1-jung",
+      "field": "study.examples[5].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Současný slovosled je gramaticky správný a významově odpovídá originálu; změna je stylistická.",
+      "currentCs": "Usmívá se mladá žena."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+◇ injected env (1) from .env // tip: ⌘ enable debugging { debug: true }
+CS-DE A1 FINAL 702/702 AUDIT ON MAIN — FINDING VALIDATION
+Raw findings: 214 (det=29, luna=185)
+Programmatic: 58, Luna validation needed: 156
+  luna validate validate-001: 15 findings, tokens=5118
+  luna validate validate-002: 15 findings, tokens=4990
+  luna validate validate-003: 15 findings, tokens=4892
+  luna validate validate-004: 15 findings, tokens=5465
+  luna validate validate-005: 15 findings, tokens=4991
+  luna validate validate-006: 15 findings, tokens=5512
+  luna validate validate-007: 15 findings, tokens=4945
+  luna validate validate-008: 15 findings, tokens=4650
+  luna validate validate-009: 15 findings, tokens=5216
+  luna validate validate-010: 15 findings, tokens=5558
+  luna validate validate-011: 6 findings, tokens=2869
+
+Validation complete:
+{
+  "statusCounts": {
+    "CONFIRMED_REAL": 125,
+    "FALSE_POSITIVE": 21,
+    "STALE_ALREADY_FIXED": 53,
+    "OWNER_KEEP": 2,
+    "OWNER_OVERRIDE_FALSE_POSITIVE": 2,
+    "VALID_CONTEXT_DIFFERENCE": 0,
+    "CONFIRMED_REPAIR_REGRESSION": 0,
+    "NEEDS_OWNER_REVIEW": 5,
+    "SOURCE_DE_ISSUE": 3,
+    "DE_PARITY_ISSUE": 2,
+    "MISSING_STUDY_PARITY": 1
+  },
+  "severityCounts": {
+    "CRITICAL": 0,
+    "HIGH": 21,
+    "MEDIUM": 40,
+    "LOW": 64
+  },
+  "studyParityCards": 1
+}
