@@ -12202,7 +12202,7 @@ const A1_WORDS = [
         },
         {
           "de": "Was kostet das?",
-          "lv": "Kolik to stojí"
+          "lv": "Kolik to stojí?"
         },
         {
           "de": "Wie viel kostet der Pullover?",
@@ -12214,11 +12214,11 @@ const A1_WORDS = [
         },
         {
           "de": "Ich bezahle die Rechnung.",
-          "lv": "Platím účet"
+          "lv": "Platím účet."
         },
         {
           "de": "Kann ich bar bezahlen?",
-          "lv": "Mohu platit v hotovosti"
+          "lv": "Mohu platit v hotovosti?"
         },
         {
           "de": "Er zahlt mit Karte.",
@@ -12226,7 +12226,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich zahle gleich.",
-          "lv": "Teď zaplatím"
+          "lv": "Teď zaplatím."
         }
       ],
       "comparison": [
@@ -12882,7 +12882,7 @@ const A1_WORDS = [
         },
         {
           "word": "das Dorf",
-          "meaning": "Obec",
+          "meaning": "Vesnice",
           "example": "Er lebt in einem Dorf."
         },
         {
@@ -13109,7 +13109,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wie lange dauert es?",
-          "lv": "Jak dlouho to trvá"
+          "lv": "Jak dlouho to trvá?"
         },
         {
           "de": "Sie hat lange Haare.",
@@ -13538,7 +13538,7 @@ const A1_WORDS = [
         },
         {
           "word": "fahren",
-          "meaning": "Jezdit transportem",
+          "meaning": "Jezdit dopravním prostředkem",
           "example": "Ich fahre mit dem Bus."
         },
         {
@@ -13774,7 +13774,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich höre einen Laut.",
-          "lv": "Slyším zvuk"
+          "lv": "Slyším zvuk."
         }
       ],
       "tip": [
@@ -13904,11 +13904,11 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Zvuk",
       "explanation": [
-        "Hlavní myšlenka: Podstatné jméno se členem se hodí a je velké. Znamená zvuk jako věc, signál nebo zvuk jazyka.",
+        "Hlavní myšlenka: Podstatné jméno se členem der se píše s velkým písmenem. Znamená zvuk jako věc, signál nebo zvuk jazyka.",
         "Der Laut primárně znamená zvuk nebo hlásku.",
         "Malé laut je přídavné jméno s významem „hlasitý“.",
         "Der Laut může znamenat zvuk, zvukový signál nebo hlásku.",
-        "Často popisuje: podstatné jméno (der).",
+        "Jde o podstatné jméno se členem der.",
         "Malá písmena laut je přídavné jméno - popisuje, jak hlasitý je zvuk (Die Musik ist laut = hudba je hlasitá).",
         "Der Laut s velkým písmenem a členem der je podstatné jméno - znamená zvuk jako věc nebo signál (Der Laut ist schön = zvuk je krásný).",
         "Množné číslo: die Laute."
@@ -13944,7 +13944,7 @@ const A1_WORDS = [
         "Der Laut = zvuk nebo hláska"
       ],
       "important": [
-        "Laut je malá písmena a nemá žádný člen - je to přídavné jméno.",
+        "laut se píše malým písmenem a nemá žádný člen – je to přídavné jméno.",
         "Der Laut s velkým písmenem a členem der je podstatné jméno.",
         "Množné číslo: die Laute (zvuky jazyka, pípání).",
         "Špatně: Der Laut ist sehr. → Správně: Das ist sehr laut."
@@ -14394,7 +14394,7 @@ const A1_WORDS = [
         },
         {
           "de": "Sprich bitte leise.",
-          "lv": "Prosím mluv potichu."
+          "lv": "Prosím, mluv potichu."
         }
       ],
       "tip": [
@@ -14887,7 +14887,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Was machst du?",
-          "lv": "Co to děláš"
+          "lv": "Co to děláš?"
         },
         {
           "de": "Ich mache Hausaufgaben.",
@@ -15071,7 +15071,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-mal",
       "layout": "standardStudy",
-      "translation": "Případ • Opakování",
+      "translation": "Příležitost • Opakování",
       "explanation": [
         "Hlavní myšlenka: das Mal označuje jeden případ nebo jedno opakování.",
         "Často se používá s čísly: ein Mal, zwei Mal, drei Mal.",
@@ -16035,11 +16035,11 @@ const A1_WORDS = [
         },
         {
           "de": "Ich komme morgen.",
-          "lv": "Přijdu zítra"
+          "lv": "Přijdu zítra."
         },
         {
           "de": "Morgen ist Montag.",
-          "lv": "Zítra je pondělí"
+          "lv": "Zítra je pondělí."
         },
         {
           "de": "Guten Morgen!",
@@ -16192,11 +16192,11 @@ const A1_WORDS = [
         },
         {
           "de": "Ich komme morgen.",
-          "lv": "Přijdu zítra"
+          "lv": "Přijdu zítra."
         },
         {
           "de": "Morgen ist Montag.",
-          "lv": "Zítra je pondělí"
+          "lv": "Zítra je pondělí."
         },
         {
           "de": "Guten Morgen!",
@@ -16638,11 +16638,11 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: nach Hause • Nach Berlin • Po jídle."
+        "text": "Pamatujte: nach Hause • nach Berlin • po jídle."
       },
       "important": [
         "Nach se nepoužívá u všech míst.",
-        "Do školy se obvykle chodí v die Schule, ne nach Schule."
+        "Do školy se obvykle chodí in die Schule, ne nach Schule."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16872,7 +16872,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Kommst du mit? – Natürlich!",
-          "lv": "Jdeš se mnou? - samozřejmě!"
+          "lv": "Jdeš se mnou? – Samozřejmě!"
         },
         {
           "de": "Das ist eine natürliche Reaktion.",
@@ -18086,7 +18086,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "oder",
-          "meaning": "Nebo si vyberte",
+          "meaning": "Nebo",
           "example": "Kaffee oder Tee?"
         },
         {
@@ -19029,7 +19029,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich esse Reis.",
-          "lv": "Jím rýži"
+          "lv": "Jím rýži."
         },
         {
           "de": "Kochst du Reis?",
@@ -19163,14 +19163,14 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Was hast du gesagt?",
-          "lv": "Co jsi říkal"
+          "lv": "Co jsi řekl?"
         }
       ],
       "comparison": [
         {
           "word": "sagen",
           "meaning": "Říct (konkrétní text)",
-          "example": "Was hast du gesagt? – Co jsi říkal"
+          "example": "Was hast du gesagt? – Co jsi řekl?"
         },
         {
           "word": "sprechen",
@@ -19272,7 +19272,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich schaue fern.",
-          "lv": "Dívám se na televizi"
+          "lv": "Dívám se na televizi."
         }
       ],
       "comparison": [
@@ -19293,7 +19293,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Schauen = dívat se.",
-        "Aktivně se dívat nebo dívat."
+        "Aktivně sledovat nebo se dívat."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19426,7 +19426,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich bin schon zu Hause.",
-          "lv": "Už jsem doma"
+          "lv": "Už jsem doma."
         }
       ],
       "tip": [
@@ -19695,7 +19695,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Plavat",
+                "Koupat se",
                 "Plavat"
               ]
             },
@@ -19830,15 +19830,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich sehe dich.",
-          "lv": "Vidím tě"
+          "lv": "Vidím tě."
         },
         {
           "de": "Siehst du das Auto?",
-          "lv": "Vidíš to auto"
+          "lv": "Vidíš to auto?"
         },
         {
           "de": "Ich sehe nichts.",
-          "lv": "Nic nevidím"
+          "lv": "Nic nevidím."
         },
         {
           "de": "Wir schauen einen Film.",
@@ -19965,7 +19965,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Hodinky"
+                "Dívat se"
               ]
             },
             "example": {
@@ -20079,11 +20079,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich bin hier.",
-          "lv": "Jsem tady"
+          "lv": "Jsem tady."
         },
         {
           "de": "Du bist müde.",
-          "lv": "Jsi unavený"
+          "lv": "Jsi unavený."
         },
         {
           "de": "Er ist Lehrer.",
@@ -20248,7 +20248,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Pobyt"
+                "Zůstat"
               ]
             },
             "example": {
@@ -20490,7 +20490,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-sich",
       "layout": "standardStudy",
-      "translation": "Se • Sebe",
+      "translation": "Se • Sebe • Sobě",
       "explanation": [
         "Hlavní myšlenka: sich ukazuje, že akce se vztahuje k samotnému konateli.",
         "V češtině se často překládá jako se, sebe nebo sobě podle pádu.",
@@ -20512,7 +20512,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich wasche das Auto.",
-          "lv": "Myji auto"
+          "lv": "Myji auto."
         }
       ],
       "comparison": [
@@ -20742,7 +20742,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich bin mir sicher.",
-          "lv": "Jsem si jistý"
+          "lv": "Jsem si jistý."
         },
         {
           "de": "Fahr sicher!",
@@ -20836,7 +20836,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jezděte"
+                "Jeď"
               ]
             }
           }
@@ -20900,7 +20900,7 @@ const A1_WORDS = [
         },
         {
           "de": "Sie isst.",
-          "lv": "Ona jí"
+          "lv": "Ona jí."
         },
         {
           "de": "Sie kochen.",
@@ -21495,7 +21495,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Was soll ich machen?",
-          "lv": "Co mám dělat"
+          "lv": "Co mám dělat?"
         },
         {
           "de": "Du sollst kommen.",
@@ -21507,7 +21507,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich muss jetzt gehen.",
-          "lv": "Už musím jít"
+          "lv": "Už musím jít."
         }
       ],
       "comparison": [
@@ -21696,7 +21696,7 @@ const A1_WORDS = [
         "important": [
           {
             "blue": [
-              "Byl"
+              "Měl by"
             ]
           },
           {
@@ -21815,7 +21815,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "stehen",
-          "meaning": "Stát / stát",
+          "meaning": "Stát / být ve vzpřímené poloze",
           "example": "Ich stehe hier."
         },
         {
@@ -23053,11 +23053,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich verstehe dich.",
-          "lv": "Rozumím ti"
+          "lv": "Rozumím ti."
         },
         {
           "de": "Verstehst du Deutsch?",
-          "lv": "Rozumíš německy"
+          "lv": "Rozumíš německy?"
         },
         {
           "de": "Ich verstehe das nicht.",
@@ -23408,7 +23408,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Pamatujte: von + dem → vom (pro koho?).",
+        "Pamatujte: von + dem → vom (od koho? od čeho?).",
         "V hovorové řeči skoro nikdy neříkáte von dem – použijte vom."
       ],
       "important": [
@@ -23957,7 +23957,7 @@ const A1_WORDS = [
   },
   {
     "de": "was",
-    "lv": "Kdo • Co",
+    "lv": "Co",
     "level": "A1",
     "study": {
       "id": "a1-was",
@@ -23982,7 +23982,7 @@ const A1_WORDS = [
         },
         {
           "de": "Was machst du gerade?",
-          "lv": "Co teď děláš"
+          "lv": "Co teď děláš?"
         },
         {
           "de": "Was möchtest du trinken?",
