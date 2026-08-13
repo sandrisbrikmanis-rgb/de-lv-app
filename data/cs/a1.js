@@ -2590,7 +2590,185 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Besuche",
     "lv": "Návštěva",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuch",
+      "layout": "standardStudy",
+      "translation": "Návštěva",
+      "explanation": [
+        "Hlavní myšlenka: der Besuch znamená návštěvu.",
+        "Může jít o návštěvu místa, akce nebo osoby.",
+        "Der Besucher označuje návštěvníka, tedy osobu, která někoho nebo něco navštěvuje.",
+        "Množné číslo je die Besuche."
+      ],
+      "examples": [
+        {
+          "de": "Der Besuch im Museum war interessant.",
+          "lv": "Návštěva muzea byla zajímavá."
+        },
+        {
+          "de": "Danke für deinen Besuch.",
+          "lv": "Děkuji za tvoji návštěvu."
+        },
+        {
+          "de": "Der Arzt macht einen Besuch.",
+          "lv": "Lékař jde na návštěvu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Besuch",
+          "meaning": "návštěva",
+          "example": "Danke für deinen Besuch. – Děkuji za tvoji návštěvu."
+        },
+        {
+          "word": "der Besucher",
+          "meaning": "návštěvník",
+          "example": "Der Besucher wartet draußen. – Návštěvník čeká venku."
+        },
+        {
+          "word": "besuchen",
+          "meaning": "navštívit • navštěvovat",
+          "example": "Ich besuche meine Großeltern. – Navštěvuji své prarodiče."
+        }
+      ],
+      "tip": {
+        "text": "Pamatujte: Besuch je návštěva, zatímco Besucher je návštěvník."
+      },
+      "important": [
+        "der Besuch označuje návštěvu, nikoli návštěvníka.",
+        "Množné číslo: die Besuche."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Besuch",
+            "die Besuche"
+          ],
+          "purple": [
+            "návštěvu",
+            "návštěvníka"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Návštěva"
+              ],
+              "green": [
+                "muzea"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "návštěvu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "návštěvu"
+              ],
+              "green": [
+                "Lékař"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "návštěva"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "návštěvník"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "navštívit",
+                "navštěvovat"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "návštěva"
+            ],
+            "green": [
+              "Besucher"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "návštěvu"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besucher",
@@ -2602,7 +2780,215 @@ const A1_WORDS = [
   {
     "de": "besuchen",
     "lv": "Navštívit",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuchen",
+      "layout": "standardStudy",
+      "translation": "Navštívit • Navštěvovat",
+      "explanation": [
+        "Hlavní myšlenka: besuchen znamená navštívit nebo navštěvovat místo, akci nebo osobu.",
+        "U místa, akce nebo kurzu se v češtině často používá navštěvovat.",
+        "U osoby může podle kontextu znamenat navštívit nebo navštěvovat.",
+        "V němčině se besuchen používá bez předložky a s akuzativem."
+      ],
+      "examples": [
+        {
+          "de": "Ich besuche das Museum.",
+          "lv": "Navštěvuji muzeum."
+        },
+        {
+          "de": "Wir besuchen einen Deutschkurs.",
+          "lv": "Navštěvujeme kurz němčiny."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Navštěvuji své prarodiče."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besuchen",
+          "meaning": "navštívit • navštěvovat",
+          "example": "Ich besuche meine Großeltern. – Navštěvuji své prarodiče."
+        },
+        {
+          "word": "treffen",
+          "meaning": "potkat • setkat se",
+          "example": "Ich treffe meinen Freund. – Potkávám svého kamaráda."
+        },
+        {
+          "word": "zu jemandem gehen",
+          "meaning": "jít k někomu",
+          "example": "Ich gehe zu meinem Freund. – Jdu ke svému kamarádovi."
+        }
+      ],
+      "tip": {
+        "text": "Pamatujte: besuchen se používá přímo s osobou nebo místem, bez předložky."
+      },
+      "important": [
+        "besuchen se používá bez předložky: Ich besuche meine Freundin.",
+        "besuchen vyžaduje akuzativ."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besuchen"
+          ],
+          "purple": [
+            "navštívit",
+            "navštěvovat"
+          ],
+          "green": [
+            "místo",
+            "akci",
+            "osobu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Navštěvuji"
+              ],
+              "green": [
+                "muzeum"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Navštěvujeme"
+              ],
+              "green": [
+                "kurz němčiny"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Navštěvuji"
+              ],
+              "green": [
+                "prarodiče"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "navštívit",
+                "navštěvovat"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "Navštěvuji"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "potkat",
+                "setkat se"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jít k někomu"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "navštívit",
+              "navštěvovat"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "bez předložky"
+            ]
+          },
+          {
+            "green": [
+              "akuzativ"
+            ],
+            "purple": [
+              "akuzativ"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Bett",
@@ -2791,44 +3177,41 @@ const A1_WORDS = [
       "translation": "Prosím",
       "explanation": [
         "Hlavní myšlenka: bitte s malým písmenem je zdvořilostní výraz a znamená „prosím“.",
-        "Používá se například v prosbě, žádosti nebo zdvořilé odpovědi.",
-        "Die Bitte s velkým písmenem je podstatné jméno ženského rodu a znamená prosbu nebo žádost.",
-        "Množné číslo je die Bitten."
+        "Používá se v prosbách, žádostech, objednávkách a zdvořilých odpovědích.",
+        "Die Bitte s velkým písmenem je podstatné jméno a znamená prosbu nebo žádost."
       ],
       "examples": [
-        {
-          "de": "Bitte schön!",
-          "lv": "Prosím!"
-        },
-        {
-          "de": "Bitte schön!",
-          "lv": "Prosím!"
-        },
         {
           "de": "Eine Tasse Kaffee, bitte.",
           "lv": "Jeden šálek kávy, prosím."
         },
         {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Mohu se prosím zeptat"
+          "de": "Komm bitte herein.",
+          "lv": "Prosím, pojď dál."
         },
         {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Mám jednu prosbu."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Žádost je důležitá."
+          "de": "Bitte schön!",
+          "lv": "Prosím!"
         }
       ],
-      "tip": [
-        "Malé bitte znamená prosím (Bitte schön!, Kaffee, bitte). Die Bitte s velkým písmenem znamená prosba nebo žádost (eine Bitte, meine Bitte).",
-        "Bitte s malým písmenem je zdvořilostní výraz."
+      "comparison": [
+        {
+          "word": "bitte",
+          "meaning": "prosím",
+          "example": "Komm bitte herein. – Prosím, pojď dál."
+        },
+        {
+          "word": "die Bitte",
+          "meaning": "prosba • žádost",
+          "example": "Ich habe eine Bitte. – Mám jednu prosbu."
+        }
       ],
+      "tip": {
+        "text": "Pamatujte: bitte s malým písmenem znamená „prosím“, zatímco die Bitte s velkým písmenem znamená „prosba“ nebo „žádost“."
+      },
       "important": [
-        "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
-        "Die Bitte s velkým písmenem a člen die je podstatné jméno.",
-        "Množné číslo: die Bitten (žádosti).",
+        "bitte je zdvořilostní výraz.",
+        "die Bitte je podstatné jméno se členem die.",
         "Špatně: Die Bitte schön! → Správně: Bitte schön!"
       ],
       "sectionAccents": {
@@ -2837,14 +3220,28 @@ const A1_WORDS = [
             "bitte"
           ],
           "purple": [
-            "Hlavní"
+            "prosím"
+          ],
+          "green": [
+            "Die Bitte"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "bitte",
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "prosím"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "bitte"
               ]
             },
@@ -2857,8 +3254,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bitte",
-                "bitte"
+                "Bitte"
               ]
             },
             "lv": {
@@ -2866,63 +3262,64 @@ const A1_WORDS = [
                 "Prosím"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte",
-                "bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Jeden"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte",
-                "bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Mohu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte",
-                "bitte"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte",
-                "bitte"
-              ]
-            },
-            "lv": {}
           }
         ],
-        "tip": [
+        "comparison": [
           {
+            "word": {
+              "blue": [
+                "bitte"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "prosím"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Bitte"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "prosba",
+                "žádost"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "bitte"
+            ],
             "purple": [
-              "Little"
+              "prosím"
+            ],
+            "green": [
+              "die Bitte",
+              "prosba"
             ]
           }
-        ],
+        },
         "important": [
           {
             "blue": [
               "bitte"
+            ],
+            "purple": [
+              "zdvořilostní výraz"
+            ]
+          },
+          {
+            "green": [
+              "die Bitte"
+            ],
+            "purple": [
+              "podstatné jméno"
             ]
           }
         ]
@@ -2938,12 +3335,12 @@ const A1_WORDS = [
     "study": {
       "id": "a1-bitte-study",
       "layout": "standardStudy",
-      "translation": "Žádost",
+      "translation": "Prosba • Žádost",
       "explanation": [
-        "Hlavní myšlenka: die Bitte je podstatné jméno ženského rodu se členem die a znamená prosbu nebo žádost.",
-        "Píše se s velkým písmenem.",
+        "Hlavní myšlenka: die Bitte je podstatné jméno ženského rodu a znamená prosbu nebo žádost.",
+        "Píše se s velkým písmenem a používá se se členem die.",
         "Množné číslo je die Bitten.",
-        "Pozor: bitte s malým písmenem znamená „prosím“ a není podstatné jméno."
+        "bitte s malým písmenem znamená „prosím“ a není podstatné jméno."
       ],
       "examples": [
         {
@@ -2951,122 +3348,140 @@ const A1_WORDS = [
           "lv": "Mám jednu prosbu."
         },
         {
-          "de": "Bitte schön!",
-          "lv": "Prosím!"
+          "de": "Er erfüllt meine Bitte.",
+          "lv": "Plní mou prosbu."
         },
         {
-          "de": "Eine Tasse Kaffee, bitte.",
-          "lv": "Jeden šálek kávy, prosím."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Mohu se prosím zeptat"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Mám jednu prosbu."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Žádost je důležitá."
+          "de": "Sie hat zwei Bitten.",
+          "lv": "Má dvě prosby."
         }
       ],
-      "tip": [
-        "Malé bitte znamená prosím. Die Bitte s velkým písmenem znamená prosba nebo žádost.",
-        "Die Bitte je podstatné jméno se členem die a píše se s velkým písmenem."
+      "comparison": [
+        {
+          "word": "die Bitte",
+          "meaning": "prosba • žádost",
+          "example": "Ich habe eine Bitte. – Mám jednu prosbu."
+        },
+        {
+          "word": "bitte",
+          "meaning": "prosím",
+          "example": "Komm bitte herein. – Prosím, pojď dál."
+        }
       ],
+      "tip": {
+        "text": "Pamatujte: die Bitte je podstatné jméno, zatímco bitte je zdvořilostní výraz."
+      },
       "important": [
-        "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
-        "Die Bitte s velkým písmenem a člen die je podstatné jméno.",
-        "Množné číslo: die Bitten (žádosti).",
-        "Špatně: Die Bitte schön! → Správně: Bitte schön!"
+        "Člen: die Bitte.",
+        "Množné číslo: die Bitten.",
+        "Podstatné jméno Bitte se píše s velkým písmenem."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "die Bitte",
-            "bitte"
+            "die Bitten"
           ],
           "purple": [
-            "Hlavní"
+            "prosbu",
+            "žádost"
           ],
-          "yellow": [
-            "Bitte",
-            "Bitte"
+          "blue": [
+            "bitte"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "bitte"
+                "Bitte"
               ]
             },
             "lv": {
               "purple": [
-                "Mám"
+                "prosbu"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "bitte"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "bitte"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "bitte"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "bitte"
+                "Bitte"
               ]
             },
             "lv": {
               "purple": [
-                "Mám"
+                "prosbu"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "die Bitte",
-                "bitte"
+                "Bitten"
               ]
             },
             "lv": {
               "purple": [
-                "Žádost"
+                "prosby"
               ]
             }
           }
         ],
-        "tip": [
+        "comparison": [
           {
+            "word": {
+              "green": [
+                "die Bitte"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "prosba",
+                "žádost"
+              ]
+            }
+          },
+          {
+            "word": {
+              "blue": [
+                "bitte"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "prosím"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "green": [
+              "die Bitte"
+            ],
             "purple": [
-              "Little"
+              "podstatné jméno"
+            ],
+            "blue": [
+              "bitte",
+              "zdvořilostní výraz"
             ]
           }
-        ],
+        },
         "important": [
-          {}
+          {
+            "green": [
+              "die Bitte",
+              "die Bitten"
+            ]
+          },
+          {
+            "purple": [
+              "Podstatné jméno",
+              "velkým písmenem"
+            ]
+          }
         ]
       }
     }
@@ -4817,11 +5232,18 @@ const A1_WORDS = [
       "id": "a1-ein",
       "layout": "standardStudy",
       "translation": "Neurčitý člen • Jeden",
-      "explanation": "Používá se s podstatnými jmény mužského a středního rodu v jednotném čísle. Označuje jednu věc nebo osobu z několika možností.",
+      "explanation": [
+        "Hlavní myšlenka: ein je neurčitý člen.",
+        "V nominativu se používá u podstatných jmen mužského a středního rodu.",
+        "Mužský rod: ein Mann.",
+        "Střední rod: ein Buch.",
+        "Ženský rod má tvar eine.",
+        "V akuzativu mužského rodu se používá einen."
+      ],
       "examples": [
         {
           "de": "Ein Mann wartet draußen.",
-          "lv": "Venku čeká muž."
+          "lv": "Venku čeká nějaký muž."
         },
         {
           "de": "Ich habe ein Buch.",
@@ -4829,12 +5251,44 @@ const A1_WORDS = [
         },
         {
           "de": "Er sucht einen Stift.",
-          "lv": "Hledá pero."
+          "lv": "Hledá nějaké pero."
+        },
+        {
+          "de": "Ein Kind spielt.",
+          "lv": "Dítě si hraje."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ein Mann",
+          "meaning": "mužský rod",
+          "example": "Ein Mann wartet draußen."
+        },
+        {
+          "word": "eine Frau",
+          "meaning": "ženský rod",
+          "example": "eine Frau"
+        },
+        {
+          "word": "ein Buch",
+          "meaning": "střední rod",
+          "example": "Ich habe ein Buch."
+        },
+        {
+          "word": "einen Mann",
+          "meaning": "akuzativ mužského rodu",
+          "example": "einen Mann"
         }
       ],
       "tip": {
-        "text": "Pamatujte: ein není jen „jeden“, často je to neurčitý člen."
+        "text": "Pamatujte: ein neznamená vždy jen „jeden“. Velmi často je to neurčitý člen."
       },
+      "important": [
+        "ein – mužský rod v nominativu.",
+        "ein – střední rod v nominativu.",
+        "eine – ženský rod.",
+        "einen – mužský rod v akuzativu."
+      ],
       "sectionAccents": {
         "examples": [
           {
@@ -4845,7 +5299,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Venku"
+                "nějaký"
               ]
             }
           },
@@ -4857,7 +5311,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Mám"
+                "jednu"
               ]
             }
           },
@@ -4869,7 +5323,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hledá"
+                "nějaké"
               ]
             }
           }
@@ -4906,11 +5360,10 @@ const A1_WORDS = [
               "ein"
             ],
             "purple": [
-              "Pamatujte",
-              "Pamatujte"
+              "jeden"
             ],
             "green": [
-              "Pamatujte"
+              "neurčitý člen"
             ]
           }
         },
@@ -4920,25 +5373,21 @@ const A1_WORDS = [
               "ein"
             ],
             "red": [
-              "Ein"
+              "neurčitý člen"
             ]
           },
           {
             "blue": [
-              "der",
-              "die",
-              "das"
+              "eine",
+              "einen"
             ],
             "green": [
-              "konkrétně známa"
+              "ženský rod",
+              "akuzativ"
             ]
           }
         ]
-      },
-      "important": [
-        "Ein není určitý člen.",
-        "Pokud je záležitost již konkrétně známa, je často potřeba der, die nebo das."
-      ]
+      }
     }
   },
   {
@@ -5478,65 +5927,68 @@ const A1_WORDS = [
       "id": "a1-es",
       "layout": "standardStudy",
       "translation": "To • Ono • Neosobní podoba",
-      "explanation": "Německé „es“ neznamená „já“. Používá se jako „to“ nebo „ono“ a také v neosobních větách o počasí, čase a dalších dějích.",
+      "explanation": [
+        "Hlavní myšlenka: es je německé zájmeno.",
+        "Může znamenat „to“ nebo „ono“ a používá se také v neosobních větách.",
+        "V neosobních větách se do češtiny často vůbec nepřekládá."
+      ],
       "examples": [
         {
-          "de": "Ich lerne Deutsch.",
-          "lv": "Učím se německy."
-        },
-        {
-          "de": "Er ist müde.",
-          "lv": "Je unavený."
-        },
-        {
-          "de": "Sie arbeitet hier.",
-          "lv": "Ona tady pracuje."
-        },
-        {
-          "de": "Das ist mein Buch.",
-          "lv": "Je to moje kniha."
-        },
-        {
           "de": "Es regnet.",
-          "lv": "Prší"
+          "lv": "Prší."
         },
         {
-          "de": "Es schneit.",
-          "lv": "Sněží"
+          "de": "Es ist kalt.",
+          "lv": "Je zima."
+        },
+        {
+          "de": "Das Kind schläft.",
+          "lv": "Dítě spí."
+        },
+        {
+          "de": "Es ist müde.",
+          "lv": "Je unavené."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "es",
+          "meaning": "to • ono • neosobní forma",
+          "example": "Es regnet. – Prší."
+        },
+        {
+          "word": "ich",
+          "meaning": "já",
+          "example": "Ich lerne Deutsch. – Učím se německy."
         }
       ],
       "info": [
         "České „já“ = německé „ich“",
-        "Německé „es“ = to • ono • bezosobní tvar"
+        "Německé „es“ = to • ono • neosobní forma"
       ],
       "tip": {
-        "text": "Pamatujte: lotyšské „es“ znamená německy „ich“, ne německé „es“."
+        "text": "Pamatujte: české „já“ je německy ich, nikoli es."
       },
+      "important": [
+        "ich a es nejsou totéž.",
+        "Německé es často znamená „to“ nebo „ono“, případně se v češtině nepřekládá.",
+        "České „já“ je německy ich."
+      ],
       "sectionAccents": {
         "examples": [
           {
             "blue": [
-              "Ich"
-            ]
-          },
-          {
-            "blue": [
-              "Er"
-            ]
-          },
-          {
-            "red": [
-              "Sie"
-            ]
-          },
-          {
-            "yellow": [
-              "Das"
+              "Es"
             ]
           },
           {
             "blue": [
               "Es"
+            ]
+          },
+          {
+            "yellow": [
+              "Das"
             ]
           },
           {
@@ -5592,17 +6044,18 @@ const A1_WORDS = [
               "ich"
             ],
             "purple": [
-              "es"
+              "já"
             ]
           }
         },
         "important": [
           {
             "blue": [
-              "Německé"
+              "ich",
+              "es"
             ],
             "purple": [
-              "Německé"
+              "nejsou totéž"
             ]
           },
           {
@@ -5613,16 +6066,12 @@ const A1_WORDS = [
               "es"
             ],
             "purple": [
-              "České",
-              "České"
+              "to",
+              "ono"
             ]
           }
         ]
-      },
-      "important": [
-        "Německé „ich“ a „es“ nejsou totéž.",
-        "České „já“ je v němčině ich • Německé es často znamená to/to nebo se nepřekládá."
-      ]
+      }
     }
   },
   {
@@ -7160,12 +7609,104 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Fußbälle",
     "lv": "Fotbal",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-fussball-study",
+      "layout": "standardStudy",
+      "translation": "Fotbal",
+      "explanation": [
+        "Hlavní myšlenka: Fußball nejčastěji znamená fotbal jako sport.",
+        "Se členem může der Fußball v počitatelném významu označovat také fotbalový míč.",
+        "Množné číslo die Fußbälle označuje fotbalové míče, nikoli několik druhů sportu."
+      ],
+      "examples": [
+        {
+          "de": "Ich spiele Fußball.",
+          "lv": "Hraji fotbal."
+        },
+        {
+          "de": "Der Fußball liegt im Garten.",
+          "lv": "Fotbalový míč leží na zahradě."
+        },
+        {
+          "de": "Wir kaufen zwei Fußbälle.",
+          "lv": "Kupujeme dva fotbalové míče."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Fußball",
+          "meaning": "fotbal jako sport",
+          "example": "Ich spiele Fußball. – Hraji fotbal."
+        },
+        {
+          "word": "der Fußball",
+          "meaning": "fotbalový míč",
+          "example": "Der Fußball ist neu. – Fotbalový míč je nový."
+        }
+      ],
+      "tip": [
+        "Bez členu znamená spielen Fußball obvykle hrát fotbal.",
+        "V počitatelném významu ein Fußball a die Fußbälle označují fotbalový míč a fotbalové míče."
+      ],
+      "important": [
+        "die Fußbälle = fotbalové míče.",
+        "Fußball jako sport se obvykle používá v jednotném čísle."
+      ]
+    }
   },
   {
     "de": "ganz",
     "lv": "Celý",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-ganz-study",
+      "layout": "standardStudy",
+      "translation": "Celý • Úplně",
+      "explanation": [
+        "Hlavní myšlenka: ganz ve spojení s podstatným jménem často znamená celý.",
+        "Před přídavným jménem nebo příslovcem může znamenat úplně, docela nebo celkem.",
+        "ganz není totéž jako zájmeno alles."
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite den ganzen Tag.",
+          "lv": "Pracuji celý den."
+        },
+        {
+          "de": "Das ganze Haus ist sauber.",
+          "lv": "Celý dům je čistý."
+        },
+        {
+          "de": "Das ist ganz sicher.",
+          "lv": "To je úplně jisté."
+        },
+        {
+          "de": "Das Essen ist ganz gut.",
+          "lv": "Jídlo je docela dobré."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ganz",
+          "meaning": "celý • úplně • docela",
+          "example": "der ganze Tag – celý den"
+        },
+        {
+          "word": "alles",
+          "meaning": "všechno",
+          "example": "Alles ist gut. – Všechno je v pořádku."
+        }
+      ],
+      "tip": [
+        "Před podstatným jménem ganz často znamená celý.",
+        "Před přídavným jménem může ganz znamenat úplně nebo docela."
+      ],
+      "important": [
+        "der ganze Tag = celý den.",
+        "alles = všechno jako zájmeno."
+      ]
+    }
   },
   {
     "de": "Garage",
@@ -7458,7 +7999,51 @@ const A1_WORDS = [
   {
     "de": "gefallen",
     "lv": "Líbit se",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-gefallen-study",
+      "layout": "standardStudy",
+      "translation": "Líbit se",
+      "explanation": [
+        "Hlavní myšlenka: gefallen znamená líbit se, ale německá větná stavba se liší od češtiny.",
+        "Věc, která se někomu líbí, je v němčině podmětem.",
+        "Osoba, které se něco líbí, je v dativu: mir, dir, ihm, ihr, uns, euch, ihnen."
+      ],
+      "examples": [
+        {
+          "de": "Das gefällt mir.",
+          "lv": "To se mi líbí."
+        },
+        {
+          "de": "Gefällt dir das Kleid?",
+          "lv": "Líbí se ti ty šaty?"
+        },
+        {
+          "de": "Der Film gefällt uns.",
+          "lv": "Ten film se nám líbí."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefallen",
+          "meaning": "líbit se • osoba v dativu",
+          "example": "Das gefällt mir. – To se mi líbí."
+        },
+        {
+          "word": "mögen",
+          "meaning": "mít rád • líbit se",
+          "example": "Ich mag das. – To mám rád."
+        }
+      ],
+      "tip": [
+        "Pamatujte si konstrukci: Das gefällt mir.",
+        "Osoba je u gefallen v dativu."
+      ],
+      "important": [
+        "gefallen se používá s dativem: mir, dir, ihm, ihr.",
+        "Das gefällt mir = To se mi líbí."
+      ]
+    }
   },
   {
     "de": "gegen",
@@ -7501,13 +8086,101 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Geschichten",
     "lv": "Příběh • Historie",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschichte-study",
+      "layout": "standardStudy",
+      "translation": "Příběh • Historie",
+      "explanation": [
+        "Hlavní myšlenka: Geschichte může znamenat příběh nebo historii.",
+        "Množné číslo die Geschichten obvykle znamená příběhy.",
+        "Ve významu historie se Geschichte obvykle používá v jednotném čísle."
+      ],
+      "examples": [
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "Vypráví příběh."
+        },
+        {
+          "de": "Ich lerne Geschichte.",
+          "lv": "Učím se historii."
+        },
+        {
+          "de": "Das ist die Geschichte Deutschlands.",
+          "lv": "To je historie Německa."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eine Geschichte",
+          "meaning": "příběh",
+          "example": "eine interessante Geschichte – zajímavý příběh"
+        },
+        {
+          "word": "Geschichte",
+          "meaning": "historie • dějepis",
+          "example": "Geschichte lernen – učit se dějepis"
+        }
+      ],
+      "tip": [
+        "S eine nebo v množném čísle jde obvykle o příběh.",
+        "Jako školní předmět znamená Geschichte dějepis."
+      ],
+      "important": [
+        "die Geschichten = příběhy.",
+        "Geschichte ve významu historie se obvykle používá v jednotném čísle."
+      ]
+    }
   },
   {
     "de": "Geschwister",
     "de_article": "die",
     "lv": "Bratři a sestry",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschwister-study",
+      "layout": "standardStudy",
+      "translation": "Bratři a sestry • Sourozenci",
+      "explanation": [
+        "Hlavní myšlenka: Geschwister znamená sourozence, tedy bratry a sestry dohromady.",
+        "Toto slovo se běžně používá v množném čísle.",
+        "Pro jednu osobu se používá Bruder nebo Schwester."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe zwei Geschwister.",
+          "lv": "Mám dva sourozence."
+        },
+        {
+          "de": "Meine Geschwister wohnen in Berlin.",
+          "lv": "Moji sourozenci žijí v Berlíně."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Geschwister",
+          "meaning": "sourozenci • bratři a sestry",
+          "example": "Meine Geschwister – moji sourozenci"
+        },
+        {
+          "word": "Bruder",
+          "meaning": "bratr",
+          "example": "mein Bruder – můj bratr"
+        },
+        {
+          "word": "Schwester",
+          "meaning": "sestra",
+          "example": "meine Schwester – moje sestra"
+        }
+      ],
+      "tip": [
+        "Geschwister se běžně používá v množném čísle.",
+        "Pro jednu osobu použijte Bruder nebo Schwester."
+      ],
+      "important": [
+        "Pro běžnou A1 němčinu nepoužívejte ein Geschwister jako standardní jednotné číslo."
+      ]
+    }
   },
   {
     "de": "Gesicht",
@@ -7882,7 +8555,51 @@ const A1_WORDS = [
     "de": "Großeltern",
     "de_article": "die",
     "lv": "Prarodiče",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-grosseltern-study",
+      "layout": "standardStudy",
+      "translation": "Prarodiče",
+      "explanation": [
+        "Hlavní myšlenka: Großeltern znamená prarodiče, tedy babičku a dědečka.",
+        "Toto slovo se používá v množném čísle.",
+        "Pro jednu osobu se používá Großmutter nebo Großvater."
+      ],
+      "examples": [
+        {
+          "de": "Meine Großeltern wohnen auf dem Land.",
+          "lv": "Moji prarodiče žijí na venkově."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Navštěvuji své prarodiče."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Großeltern",
+          "meaning": "prarodiče",
+          "example": "meine Großeltern – moji prarodiče"
+        },
+        {
+          "word": "Großmutter",
+          "meaning": "babička",
+          "example": "meine Großmutter – moje babička"
+        },
+        {
+          "word": "Großvater",
+          "meaning": "dědeček",
+          "example": "mein Großvater – můj dědeček"
+        }
+      ],
+      "tip": [
+        "Großeltern je množné číslo.",
+        "Pro jednu osobu použijte Großmutter nebo Großvater."
+      ],
+      "important": [
+        "die Großeltern = prarodiče."
+      ]
+    }
   },
   {
     "de": "Großmutter",
@@ -8609,7 +9326,50 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Hände",
     "lv": "Ruka (dlaň)",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-hand-study",
+      "layout": "standardStudy",
+      "translation": "Ruka",
+      "explanation": [
+        "Hlavní myšlenka: die Hand označuje ruku od zápěstí po prsty.",
+        "V němčině jsou Hand a Arm dvě různá slova.",
+        "der Arm označuje paži nebo celou horní končetinu podle kontextu."
+      ],
+      "examples": [
+        {
+          "de": "Ich wasche meine Hände.",
+          "lv": "Myji si ruce."
+        },
+        {
+          "de": "Sie hält das Glas in der Hand.",
+          "lv": "Drží sklenici v ruce."
+        },
+        {
+          "de": "Mein Arm tut weh.",
+          "lv": "Bolí mě paže."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hand",
+          "meaning": "ruka od zápěstí po prsty",
+          "example": "in der Hand – v ruce"
+        },
+        {
+          "word": "der Arm",
+          "meaning": "paže",
+          "example": "Mein Arm tut weh. – Bolí mě paže."
+        }
+      ],
+      "tip": [
+        "Hand = ruka od zápěstí po prsty.",
+        "Arm = paže."
+      ],
+      "important": [
+        "V němčině Hand a Arm nejsou totéž."
+      ]
+    }
   },
   {
     "de": "Handschuh",
@@ -9196,7 +9956,202 @@ const A1_WORDS = [
   {
     "de": "hübsch",
     "lv": "Úhledný • Pěkný",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-huebsch",
+      "layout": "standardStudy",
+      "translation": "Pěkný • Hezký",
+      "explanation": [
+        "Hlavní myšlenka: hübsch znamená pěkný, hezký nebo půvabný vzhledem.",
+        "Často popisuje vzhled člověka, oblečení, místnosti nebo předmětu.",
+        "České „milý“ je pro hübsch příliš široké jako hlavní překlad.",
+        "Pro milou povahu nebo chování se v němčině častěji používá nett."
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt ein hübsches Kleid.",
+          "lv": "Má na sobě pěkné šaty."
+        },
+        {
+          "de": "Das Zimmer ist hübsch.",
+          "lv": "Pokoj je pěkný."
+        },
+        {
+          "de": "Das ist ein hübsches Bild.",
+          "lv": "To je hezký obrázek."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hübsch",
+          "meaning": "pěkný • hezký vzhledem",
+          "example": "Das ist ein hübsches Kleid. – To jsou pěkné šaty."
+        },
+        {
+          "word": "schön",
+          "meaning": "krásný • příjemný",
+          "example": "Der Garten ist schön. – Zahrada je krásná."
+        },
+        {
+          "word": "nett",
+          "meaning": "milý • příjemný",
+          "example": "Sie ist sehr nett. – Je velmi milá."
+        }
+      ],
+      "tip": {
+        "text": "Pamatujte: hübsch popisuje hlavně pěkný vzhled, zatímco nett častěji popisuje milého člověka nebo chování."
+      },
+      "important": [
+        "hübsch není univerzální překlad českého slova „milý“.",
+        "Pro milou povahu nebo chování je obvykle vhodnější nett."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hübsch"
+          ],
+          "purple": [
+            "pěkný",
+            "hezký",
+            "půvabný"
+          ],
+          "green": [
+            "vzhled"
+          ],
+          "yellow": [
+            "nett"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ],
+              "green": [
+                "Kleid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pěkné"
+              ],
+              "green": [
+                "šaty"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pěkný"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hezký"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hübsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pěkný",
+                "hezký"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hübsches"
+              ],
+              "purple": [
+                "pěkné"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "krásný",
+                "příjemný"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "milý",
+                "příjemný"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "pěkný vzhled"
+            ],
+            "yellow": [
+              "nett"
+            ],
+            "green": [
+              "milého člověka"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "milý"
+            ]
+          },
+          {
+            "yellow": [
+              "nett"
+            ],
+            "purple": [
+              "milou povahu",
+              "chování"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "hundert",
