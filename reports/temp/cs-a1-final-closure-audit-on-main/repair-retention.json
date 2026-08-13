@@ -1,0 +1,49 @@
+{
+  "confirmedReal": {
+    "source": 125,
+    "accounted": 125,
+    "appliedRetained": 124,
+    "noOp": 1,
+    "missing": 0,
+    "conflicting": 0,
+    "pass": true
+  },
+  "owner": {
+    "source": 5,
+    "labot": 3,
+    "ownerKeep": 2,
+    "remaining": 0,
+    "pass": true
+  },
+  "ferien": {
+    "hasStudy": true,
+    "importantRetained": true
+  },
+  "sectionAccents": {
+    "oldReal": 14,
+    "resolvedByRepair": 14,
+    "realRemaining": 0,
+    "ownerOverride": true,
+    "pass": true
+  },
+  "studyParity": {
+    "cards": 702,
+    "studyCount": 134,
+    "missing": 0,
+    "pass": true
+  },
+  "technical": {
+    "cards": 702,
+    "studyCount": 134,
+    "idOrder": "PASS",
+    "idUniqueness": "PASS",
+    "syntax": "PASS",
+    "mirror": "PASS",
+    "ferienHasStudy": true,
+    "ferienImportant": true,
+    "deChanges": 0,
+    "missingStudyParity": 0
+  },
+  "pass": true,
+  "completedAt": "2026-08-13T16:04:43.531Z"
+}

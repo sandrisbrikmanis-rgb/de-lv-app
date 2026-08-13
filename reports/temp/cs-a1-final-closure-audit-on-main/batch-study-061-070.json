@@ -1,0 +1,185 @@
+{
+  "dataset": "a1",
+  "batch": "study-061-070",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a1-können",
+    "a1-kosten",
+    "a1-laden-study",
+    "a1-land",
+    "a1-lang",
+    "a1-lassen",
+    "a1-laufen",
+    "a1-laut",
+    "a1-laut-study",
+    "a1-legen"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-können",
+      "field": "study.comparison[1].meaning",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "dürfen",
+      "lvSource": "drīkstēt",
+      "currentCs": "Být dovoleno",
+      "proposedCs": "Smět • Mít dovoleno",
+      "reason": "„Být dovoleno“ je doslovné a nepřirozené jako základní překlad modálního slovesa dürfen.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-können",
+      "field": "study.comparison[2].meaning",
+      "severity": "HIGH",
+      "category": "ORTHOGRAPHY",
+      "de": "müssen",
+      "lvSource": "vajadzēt / būt jā-",
+      "currentCs": "Musit / být nutné",
+      "proposedCs": "Muset / být nutné",
+      "reason": "Český infinitiv je „muset“, nikoli „musit“; současná podoba působí jako slovakismus.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-können",
+      "field": "study.sectionAccents.comparison[0].meaning",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "können",
+      "lvSource": "varēt / prast",
+      "currentCs": [
+        "Být",
+        "Být"
+      ],
+      "proposedCs": [
+        "Umět",
+        "moci"
+      ],
+      "reason": "Akcentované výrazy neodpovídají českému významu „Umět / moci“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-können",
+      "field": "study.sectionAccents.comparison[2].meaning",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "müssen",
+      "lvSource": "vajadzēt / būt jā-",
+      "currentCs": [
+        "Potřebovat"
+      ],
+      "proposedCs": [
+        "Muset"
+      ],
+      "reason": "„Potřebovat“ vyjadřuje brauchen, ne müssen, a navíc není obsaženo v příslušném českém významu.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-kosten",
+      "field": "study.sectionAccents.comparison[0].meaning",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "kosten",
+      "lvSource": "maksāt (cenu) • cik maksā",
+      "currentCs": [
+        "Stát",
+        "cena",
+        "Zaplatit"
+      ],
+      "proposedCs": [
+        "Stát",
+        "ceně",
+        "Kolik stojí"
+      ],
+      "reason": "Akcentace obsahuje „Zaplatit“, které patří k bezahlen/zahlen, a neodpovídá textu významu.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-land",
+      "field": "study.explanation[3]",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Land",
+      "lvSource": "valsts • zeme • lauki",
+      "currentCs": "Kontext určuje, zda máme na mysli zemi, venkov nebo zemi.",
+      "proposedCs": "Kontext určuje, zda máme na mysli stát, venkov nebo půdu.",
+      "reason": "„Zemi“ se v jedné větě opakuje a nejasně rozlišuje významy slova Land.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-land",
+      "field": "study.sectionAccents.comparison[2].meaning",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "das Dorf",
+      "lvSource": "ciems",
+      "currentCs": [
+        "Obec"
+      ],
+      "proposedCs": [
+        "Vesnice"
+      ],
+      "reason": "Akcentovaný výraz „Obec“ neodpovídá českému významu uvedenému u das Dorf: „Vesnice“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-lang",
+      "field": "study.sectionAccents.examples[4].lv",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "Ich warte schon lange.",
+      "lvSource": "es gaidu jau ilgi.",
+      "currentCs": "Čekal",
+      "proposedCs": "Čekám",
+      "reason": "Akcentovaný tvar „Čekal“ neodpovídá českému překladu „Už dlouho čekám“ ani německému přítomnému času.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-legen",
+      "field": "study.sectionAccents.examples[0].lv",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "Ich lege das Buch auf den Tisch.",
+      "lvSource": "es nolieku grāmatu uz galda.",
+      "currentCs": [
+        "Položil",
+        "Položil"
+      ],
+      "proposedCs": [
+        "Pokládám"
+      ],
+      "reason": "Akcentovaný výraz „Položil“ je minulý čas a neodpovídá překladu „Pokládám knihu na stůl“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-legen",
+      "field": "study.sectionAccents.comparison[1].meaning",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "liegen",
+      "lvSource": "atrasties / gulēt",
+      "currentCs": [
+        "Být",
+        "Být"
+      ],
+      "proposedCs": [
+        "Ležet",
+        "nacházet se"
+      ],
+      "reason": "Akcentace uvádí „Být“, které neodpovídá významu slovesa liegen: „Ležet / nacházet se“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 5,
+  "completedAt": "2026-08-13T16:11:47.001Z"
+}

@@ -1,0 +1,194 @@
+{
+  "batch": "validate-005",
+  "items": [
+    {
+      "findingId": "CLOSURE-A1-00136",
+      "cardId": "a1-zum",
+      "field": "study.sectionAccents.comparison[2].meaning.lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Zvýraznění „také“ není obsaženo v českém významu ani neodpovídá německému zu v tomto srovnání.",
+      "auditCurrentCs": "také",
+      "auditProposedCs": "doma",
+      "auditDe": "zu",
+      "auditLvSource": "K / ke • doma • příliš",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-zum",
+        "de": "zum",
+        "csMain": "K • Ke",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00137",
+      "cardId": "a1-essen",
+      "field": "study.sectionAccents.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Český překlad neobsahuje zvýraznění odpovídající německému esse; pro studium má být zvýrazněno „jím“.",
+      "auditCurrentCs": "",
+      "auditProposedCs": "jím",
+      "auditDe": "Ich esse gern Pizza.",
+      "auditLvSource": "Rád jím pizzu.",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "{}",
+      "cardContext": {
+        "cardId": "a1-essen",
+        "de": "essen",
+        "csMain": "Jíst",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00139",
+      "cardId": "a1-essen",
+      "field": "study.sectionAccents.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Český překlad neobsahuje zvýraznění odpovídající německému essen; pro studium má být zvýrazněno „jíst“.",
+      "auditCurrentCs": "",
+      "auditProposedCs": "jíst",
+      "auditDe": "Was wollt ihr essen?",
+      "auditLvSource": "Co chcete jíst?",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "{\"purple\":[\"chceš\"]}",
+      "cardContext": {
+        "cardId": "a1-essen",
+        "de": "essen",
+        "csMain": "Jíst",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00140",
+      "cardId": "a1-essen",
+      "field": "study.sectionAccents.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Český překlad neobsahuje zvýraznění odpovídající německému essen; pro studium má být zvýrazněno „Jíme“.",
+      "auditCurrentCs": "",
+      "auditProposedCs": "Jíme",
+      "auditDe": "Wir essen um 12 Uhr.",
+      "auditLvSource": "Jíme ve 12 hodin.",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "{}",
+      "cardContext": {
+        "cardId": "a1-essen",
+        "de": "essen",
+        "csMain": "Jíst",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00141",
+      "cardId": "a1-urlaub",
+      "field": "study.tip[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Odejít z práce“ znamená opustit zaměstnání, ne čerpat dovolenou; „vždy“ navíc příliš absolutně vylučuje možné množné číslo.",
+      "auditCurrentCs": "Pouze jednotné číslo. Odejít z práce - vždy v jednotném čísle.",
+      "auditProposedCs": "Obvykle jednotné číslo. Jde o dovolenou z práce.",
+      "auditDe": "Urlaub",
+      "auditLvSource": "tikai vienskaitlis. Atvaļinājums no darba — vienmēr vienskaitlī.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pouze jednotné číslo. Odejít z práce - vždy v jednotném čísle.",
+      "cardContext": {
+        "cardId": "a1-urlaub",
+        "de": "Urlaub",
+        "csMain": "Dovolená",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00142",
+      "cardId": "a1-zeit",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Více významů je uvedeno v závorkách se lomítkem; podle formátu Learning First mají být odděleny symbolem •.",
+      "auditCurrentCs": "Čas (okamžik / časový úsek)",
+      "auditProposedCs": "Čas • Okamžik • Časový úsek",
+      "auditDe": "Zeit",
+      "auditLvSource": "laiks (brīdis / laika posms)",
+      "category": "TITLE_FORMAT",
+      "productionCurrentCs": "Čas (okamžik / časový úsek)",
+      "cardContext": {
+        "cardId": "a1-zeit",
+        "de": "Zeit",
+        "csMain": "Čas (okamžik / časový úsek)",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "CLOSURE-A1-00136",
+      "cardId": "a1-zum",
+      "field": "study.sectionAccents.comparison[2].meaning.lv",
+      "validationStatus": "STALE_ALREADY_FIXED",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Audit current text „také“ no longer matches production; the live value is null.",
+      "currentCs": null
+    },
+    {
+      "findingId": "CLOSURE-A1-00137",
+      "cardId": "a1-essen",
+      "field": "study.sectionAccents.examples[0].lv",
+      "validationStatus": "STALE_ALREADY_FIXED",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Audit current text no longer matches production; the live value is {}.",
+      "currentCs": "{}"
+    },
+    {
+      "findingId": "CLOSURE-A1-00139",
+      "cardId": "a1-essen",
+      "field": "study.sectionAccents.examples[1].lv",
+      "validationStatus": "STALE_ALREADY_FIXED",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Audit current text no longer matches production; the live value is {\"purple\":[\"chceš\"]}.",
+      "currentCs": "{\"purple\":[\"chceš\"]}"
+    },
+    {
+      "findingId": "CLOSURE-A1-00140",
+      "cardId": "a1-essen",
+      "field": "study.sectionAccents.examples[2].lv",
+      "validationStatus": "STALE_ALREADY_FIXED",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Audit current text no longer matches production; the live value is {}.",
+      "currentCs": "{}"
+    },
+    {
+      "findingId": "CLOSURE-A1-00141",
+      "cardId": "a1-urlaub",
+      "field": "study.tip[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "The current tip incorrectly equates Urlaub with leaving employment and uses an unjustifiably absolute statement.",
+      "currentCs": "Pouze jednotné číslo. Odejít z práce - vždy v jednotném čísle.",
+      "proposedCs": "Obvykle jednotné číslo. Jde o dovolenou z práce."
+    },
+    {
+      "findingId": "CLOSURE-A1-00142",
+      "cardId": "a1-zeit",
+      "field": "study.translation",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The current Czech translation is correct; parenthetical clarification with a slash is an acceptable stylistic format.",
+      "currentCs": "Čas (okamžik / časový úsek)"
+    }
+  ]
+}

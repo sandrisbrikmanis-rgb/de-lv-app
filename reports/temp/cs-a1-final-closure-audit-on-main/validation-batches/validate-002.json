@@ -1,0 +1,485 @@
+{
+  "batch": "validate-002",
+  "items": [
+    {
+      "findingId": "CLOSURE-A1-00045",
+      "cardId": "a1-dieser",
+      "field": "study.explanation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Dieser“ nevyjadřuje vždy fyzickou blízkost; může označovat i konkrétní či zdůrazněný objekt.",
+      "auditCurrentCs": "Ukazuje na blízkou osobu, věc nebo zvíře. Používá se s podstatným jménem mužského rodu.",
+      "auditProposedCs": "Ukazuje na konkrétní nebo zdůrazněnou osobu, věc či zvíře. Používá se s podstatným jménem mužského rodu.",
+      "auditDe": "Dieser zeigt auf eine bestimmte oder besonders hervorgehobene männliche Person oder Sache.",
+      "auditLvSource": "Norāda uz konkrētu vai īpaši izceltu vīriešu dzimtes personu vai lietu.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Ukazuje na blízkou osobu, věc nebo zvíře. Používá se s podstatným jménem mužského rodu.",
+      "cardContext": {
+        "cardId": "a1-dieser",
+        "de": "dieser",
+        "csMain": "Tenhle",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00046",
+      "cardId": "a1-fahren",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Beru“ vyjadřuje pouze vzít, zatímco fahren zde znamená vézt autem nebo jiným dopravním prostředkem.",
+      "auditCurrentCs": "Beru dceru do školy.",
+      "auditProposedCs": "Vezu dceru do školy.",
+      "auditDe": "Ich fahre meine Tochter zur Schule.",
+      "auditLvSource": "es vedu savu meitu uz skolu.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Beru dceru do školy.",
+      "cardContext": {
+        "cardId": "a1-fahren",
+        "de": "fahren",
+        "csMain": "Jet • Jezdit • Vézt / odvézt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00047",
+      "cardId": "a1-fahren",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Překlad „vezmu“ nevyjadřuje význam vézt nebo odvézt dopravním prostředkem.",
+      "auditCurrentCs": "Vezmu tě domů.",
+      "auditProposedCs": "Odvezu tě domů.",
+      "auditDe": "Ich fahre dich nach Hause.",
+      "auditLvSource": "es tevi aizvedu mājās.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Vezmu tě domů.",
+      "cardContext": {
+        "cardId": "a1-fahren",
+        "de": "fahren",
+        "csMain": "Jet • Jezdit • Vézt / odvézt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00048",
+      "cardId": "a1-fuer",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Hlavní překlad opakuje „Pro“ a chybí v něm běžný význam „za“, který je správně uveden ve studijním překladu.",
+      "auditCurrentCs": "Pro • Pro",
+      "auditProposedCs": "Pro • Za",
+      "auditDe": "für",
+      "auditLvSource": "priekš",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Pro • Pro",
+      "cardContext": {
+        "cardId": "a1-fuer",
+        "de": "für",
+        "csMain": "Pro • Pro",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00049",
+      "cardId": "a1-gefallen-study",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "mögen znamená „mít rád“; „líbit se“ má v češtině jinou vazbu a odpovídá spíše gefallen.",
+      "auditCurrentCs": "mít rád • líbit se",
+      "auditProposedCs": "Mít rád",
+      "auditDe": "mögen",
+      "auditLvSource": "patikt • labprāt izvēlēties",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "mít rád • líbit se",
+      "cardContext": {
+        "cardId": "a1-gefallen-study",
+        "de": "gefallen",
+        "csMain": "Líbit se",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00051",
+      "cardId": "a1-halten",
+      "field": "study.comparison[3].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "denken znamená obecně „myslet“; „přemýšlet“ označuje spíše proces uvažování a neodpovídá zde příkladu „Ich denke“.",
+      "auditCurrentCs": "Přemýšlet",
+      "auditProposedCs": "Myslet",
+      "auditDe": "denken",
+      "auditLvSource": "domāt",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Přemýšlet",
+      "cardContext": {
+        "cardId": "a1-halten",
+        "de": "halten",
+        "csMain": "Držet • Zastavit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00052",
+      "cardId": "a1-hand-study",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Hand označuje ruku od zápěstí po prsty, ne pouze dlaň; závorka význam zbytečně a nepřesně zužuje.",
+      "auditCurrentCs": "Ruka (dlaň)",
+      "auditProposedCs": "Ruka",
+      "auditDe": "Hand",
+      "auditLvSource": "plauksta",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Ruka (dlaň)",
+      "cardContext": {
+        "cardId": "a1-hand-study",
+        "de": "Hand",
+        "csMain": "Ruka (dlaň)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00055",
+      "cardId": "a1-ihr",
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Adresa“ znamená adresa/bydliště, nikoli oslovení; česká formulace je nepřirozená a významově nepřesná.",
+      "auditCurrentCs": "S malými písmeny se ihr jako adresa pro několik lidí překládá jako vy (Kommt ihr mit? = Jdete spolu?).",
+      "auditProposedCs": "S malým ihr jako oslovením několika lidí se překládá jako vy (Kommt ihr mit? = Jdete spolu?).",
+      "auditDe": "ihr",
+      "auditLvSource": "Ar mazo ihr kā uzrunu vairākiem cilvēkiem",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "S malými písmeny se ihr jako adresa pro několik lidí překládá jako vy (Kommt ihr mit? = Jdete spolu?).",
+      "cardContext": {
+        "cardId": "a1-ihr",
+        "de": "ihr",
+        "csMain": "Vy • Jí • Její",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00059",
+      "cardId": "a1-im",
+      "field": "study.important[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Pro ženy“ označuje osoby, ale zde se vysvětluje gramatický rod podstatných jmen.",
+      "auditCurrentCs": "Pro ženy: in der Schule, ne im Schule.",
+      "auditProposedCs": "Pro ženský rod: in der Schule, ne im Schule.",
+      "auditDe": "im",
+      "auditLvSource": "Sieviešu dzimtei: in der Schule, nevis im Schule.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Pro ženy: in der Schule, ne im Schule.",
+      "cardContext": {
+        "cardId": "a1-im",
+        "de": "im",
+        "csMain": "V • Kde?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00060",
+      "cardId": "a1-in",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka; ostatní české příkladové věty ji používají.",
+      "auditCurrentCs": "Jsem v Berlíně",
+      "auditProposedCs": "Jsem v Berlíně.",
+      "auditDe": "Ich bin in Berlin.",
+      "auditLvSource": "es esmu Berlīnē.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Jsem v Berlíně",
+      "cardContext": {
+        "cardId": "a1-in",
+        "de": "in",
+        "csMain": "V • Do",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00061",
+      "cardId": "a1-in",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka; ostatní české příkladové věty ji používají.",
+      "auditCurrentCs": "Chodím do školy",
+      "auditProposedCs": "Chodím do školy.",
+      "auditDe": "Ich gehe in die Schule.",
+      "auditLvSource": "es eju uz skolu.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Chodím do školy",
+      "cardContext": {
+        "cardId": "a1-in",
+        "de": "in",
+        "csMain": "V • Do",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00062",
+      "cardId": "a1-ins",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka; ostatní české příkladové věty ji používají.",
+      "auditCurrentCs": "Jdu do kina",
+      "auditProposedCs": "Jdu do kina.",
+      "auditDe": "Ich gehe ins Kino.",
+      "auditLvSource": "es eju uz kino.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Jdu do kina",
+      "cardContext": {
+        "cardId": "a1-ins",
+        "de": "ins",
+        "csMain": "Do • Kam?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00063",
+      "cardId": "a1-jung",
+      "field": "study.examples[5].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Současný slovosled je gramatický, ale v neutrální češtině působí nepřirozeně.",
+      "auditCurrentCs": "Usmívá se mladá žena.",
+      "auditProposedCs": "Mladá žena se usmívá.",
+      "auditDe": "Die junge Frau lächelt.",
+      "auditLvSource": "jaunā sieviete smaida.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Usmívá se mladá žena.",
+      "cardContext": {
+        "cardId": "a1-jung",
+        "de": "jung",
+        "csMain": "Mladý (o věku)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00065",
+      "cardId": "a1-kein",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka v českém příkladu.",
+      "auditCurrentCs": "Nemám peníze",
+      "auditProposedCs": "Nemám peníze.",
+      "auditDe": "Ich habe kein Geld.",
+      "auditLvSource": "man nav naudas.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Nemám peníze",
+      "cardContext": {
+        "cardId": "a1-kein",
+        "de": "kein",
+        "csMain": "Žádný • Žádná • Žádné",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00066",
+      "cardId": "a1-kein",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka v českém příkladu.",
+      "auditCurrentCs": "Nemám čas",
+      "auditProposedCs": "Nemám čas.",
+      "auditDe": "Ich habe keine Zeit.",
+      "auditLvSource": "man nav laika.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Nemám čas",
+      "cardContext": {
+        "cardId": "a1-kein",
+        "de": "kein",
+        "csMain": "Žádný • Žádná • Žádné",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "CLOSURE-A1-00045",
+      "cardId": "a1-dieser",
+      "field": "study.explanation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Vysvětlení zužuje význam dieser na fyzickou blízkost; může označovat i konkrétní nebo zdůrazněný objekt.",
+      "currentCs": "Ukazuje na blízkou osobu, věc nebo zvíře. Používá se s podstatným jménem mužského rodu.",
+      "proposedCs": "Ukazuje na konkrétní nebo zdůrazněnou osobu, věc či zvíře. Používá se s podstatným jménem mužského rodu."
+    },
+    {
+      "findingId": "CLOSURE-A1-00046",
+      "cardId": "a1-fahren",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "V daném kontextu fahren znamená vézt dceru dopravním prostředkem, nikoli obecně ji brát.",
+      "currentCs": "Beru dceru do školy.",
+      "proposedCs": "Vezu dceru do školy."
+    },
+    {
+      "findingId": "CLOSURE-A1-00047",
+      "cardId": "a1-fahren",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Vezmu nevyjadřuje odvoz dopravním prostředkem, který zde odpovídá významu fahren.",
+      "currentCs": "Vezmu tě domů.",
+      "proposedCs": "Odvezu tě domů."
+    },
+    {
+      "findingId": "CLOSURE-A1-00048",
+      "cardId": "a1-fuer",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Hlavní český překlad obsahuje stejnou položku dvakrát a chybí běžný význam „za“.",
+      "currentCs": "Pro • Pro",
+      "proposedCs": "Pro • Za"
+    },
+    {
+      "findingId": "CLOSURE-A1-00049",
+      "cardId": "a1-gefallen-study",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Mögen se zde překládá jako „mít rád“; „líbit se“ má jiný význam i českou vazbu.",
+      "currentCs": "mít rád • líbit se",
+      "proposedCs": "Mít rád"
+    },
+    {
+      "findingId": "CLOSURE-A1-00051",
+      "cardId": "a1-halten",
+      "field": "study.comparison[3].meaning",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Přemýšlet“ je přípustný český překlad slovesa denken; nejde o významovou chybu, pouze o preferenci obecnějšího „myslet“.",
+      "currentCs": "Přemýšlet"
+    },
+    {
+      "findingId": "CLOSURE-A1-00052",
+      "cardId": "a1-hand-study",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Hand označuje celou ruku, nejen dlaň; závorka význam zbytečně zužuje.",
+      "currentCs": "Ruka (dlaň)",
+      "proposedCs": "Ruka"
+    },
+    {
+      "findingId": "CLOSURE-A1-00055",
+      "cardId": "a1-ihr",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Adresa“ znamená adresu, nikoli oslovení; vysvětlení proto významově i formulací klame.",
+      "currentCs": "S malými písmeny se ihr jako adresa pro několik lidí překládá jako vy (Kommt ihr mit? = Jdete spolu?).",
+      "proposedCs": "S malým ihr jako oslovením několika lidí se překládá jako vy (Kommt ihr mit? = Jdete spolu?)."
+    },
+    {
+      "findingId": "CLOSURE-A1-00059",
+      "cardId": "a1-im",
+      "field": "study.important[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Vysvětlení se týká gramatického rodu podstatných jmen, nikoli osob ženského pohlaví.",
+      "currentCs": "Pro ženy: in der Schule, ne im Schule.",
+      "proposedCs": "Pro ženský rod: in der Schule, ne im Schule."
+    },
+    {
+      "findingId": "CLOSURE-A1-00060",
+      "cardId": "a1-in",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Česká příkladová věta postrádá koncovou tečku v rozporu s používaným formátováním.",
+      "currentCs": "Jsem v Berlíně",
+      "proposedCs": "Jsem v Berlíně."
+    },
+    {
+      "findingId": "CLOSURE-A1-00061",
+      "cardId": "a1-in",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Česká příkladová věta postrádá koncovou tečku v rozporu s používaným formátováním.",
+      "currentCs": "Chodím do školy",
+      "proposedCs": "Chodím do školy."
+    },
+    {
+      "findingId": "CLOSURE-A1-00062",
+      "cardId": "a1-ins",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Česká příkladová věta postrádá koncovou tečku v rozporu s používaným formátováním.",
+      "currentCs": "Jdu do kina",
+      "proposedCs": "Jdu do kina."
+    },
+    {
+      "findingId": "CLOSURE-A1-00063",
+      "cardId": "a1-jung",
+      "field": "study.examples[5].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Usmívá se mladá žena“ je gramaticky správná česká věta; navržený slovosled je jen neutrálnější stylistická preference.",
+      "currentCs": "Usmívá se mladá žena."
+    },
+    {
+      "findingId": "CLOSURE-A1-00065",
+      "cardId": "a1-kein",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Česká příkladová věta postrádá koncovou tečku v rozporu s používaným formátováním.",
+      "currentCs": "Nemám peníze",
+      "proposedCs": "Nemám peníze."
+    },
+    {
+      "findingId": "CLOSURE-A1-00066",
+      "cardId": "a1-kein",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Česká příkladová věta postrádá koncovou tečku v rozporu s používaným formátováním.",
+      "currentCs": "Nemám čas",
+      "proposedCs": "Nemám čas."
+    }
+  ]
+}

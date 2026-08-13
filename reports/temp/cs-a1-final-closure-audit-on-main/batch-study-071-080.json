@@ -1,0 +1,87 @@
+{
+  "dataset": "a1",
+  "batch": "study-071-080",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a1-leise-study",
+    "a1-liegen",
+    "a1-liter",
+    "a1-machen",
+    "a1-mal",
+    "a1-mann",
+    "a1-mit",
+    "a1-mögen",
+    "a1-morgen",
+    "a1-morgen-study"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-mal",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Mal",
+      "lvSource": "reize",
+      "currentCs": "Příležitost • Opakování",
+      "proposedCs": "Případ • Opakování",
+      "reason": "Příležitost znamená „opportunity“; das Mal označuje případ nebo opakování, nikoli příležitost.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-mann",
+      "field": "study.explanation[3]",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Mann",
+      "lvSource": "Piederības vietniekvārds (mein/dein/ihr Mann) gandrīz vienmēr nozīmē vīru — laulāto.",
+      "currentCs": "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy znamená manžel – manžel.",
+      "proposedCs": "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy znamená manžela.",
+      "reason": "Po slovese „znamenat“ je zde nutný akuzativ „manžela“; navíc se zbytečně opakuje slovo „manžel“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-mann",
+      "field": "study.tip[0]",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Mann",
+      "lvSource": "Ar piederības vārdu (mein/dein/ihr Mann) gandrīz vienmēr domāts vīrs (laulātais).",
+      "currentCs": "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy znamená manžel (manžel).",
+      "proposedCs": "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy označuje manžela.",
+      "reason": "Původní formulace má chybný pád a opakuje „manžel“; „označuje manžela“ je gramaticky i stylisticky správné.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-mögen",
+      "field": "study.explanation[1]",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "mögen",
+      "lvSource": "Ich mag... latviski parasti ir “man patīk...”.",
+      "currentCs": "Ich mag... je v češtině obvykle „Líbí se mi...“.",
+      "proposedCs": "Ich mag... se v češtině obvykle překládá jako „Mám rád/a...“ nebo podle kontextu „Líbí se mi...“.",
+      "reason": "„Líbí se mi“ není obecně vhodné; u lidí a oblíbených činností je přirozenější „mám rád/a“.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-mögen",
+      "field": "study.tip.text",
+      "severity": "MEDIUM",
+      "category": "STUDY",
+      "de": "mögen",
+      "lvSource": "Atceries: Ich mag... = man patīk...",
+      "currentCs": "Pamatujte: Ich mag... = Líbí se mi...",
+      "proposedCs": "Pamatujte: Ich mag... = Mám rád/a...",
+      "reason": "Tip uvádí zavádějící výchozí překlad; základní český ekvivalent mögen je „mít rád/a“.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 7,
+  "completedAt": "2026-08-13T16:12:17.860Z"
+}

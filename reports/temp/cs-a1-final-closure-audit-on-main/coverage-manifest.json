@@ -1,0 +1,14 @@
+{
+  "productionCards": 702,
+  "cardsSubmittedToLuna": 702,
+  "cardsAuditedByLuna": 702,
+  "missingCards": 0,
+  "duplicateAuditedCards": 0,
+  "studyObjectsExpected": 134,
+  "studyObjectsFound": 134,
+  "coverageComplete": true,
+  "deterministicFindingsRaw": 27,
+  "linguisticFindingsRaw": 115,
+  "validatedFindings": 142,
+  "completedAt": "2026-08-13T16:17:00.656Z"
+}
