@@ -1,0 +1,74 @@
+{
+  "dataset": "a1",
+  "batch": "study-021-030",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a1-das",
+    "a1-dass",
+    "a1-der",
+    "a1-die",
+    "a1-dieser",
+    "a1-ein",
+    "a1-eis",
+    "a1-erst",
+    "a1-es",
+    "a1-etwas"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-dass",
+      "field": "study.comparison[1].meaning",
+      "severity": "LOW",
+      "category": "STUDY",
+      "de": "weil",
+      "lvSource": "jo • tāpēc ka",
+      "currentCs": "Protože • Protože",
+      "proposedCs": "Protože",
+      "reason": "Význam je správný, ale stejný český překlad je uveden dvakrát.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-der",
+      "field": "csMain",
+      "severity": "MEDIUM",
+      "category": "TITLE_FORMAT",
+      "de": "der",
+      "lvSource": "vīriešu dzimtes noteiktais artikuls",
+      "currentCs": "Mužský rod určitý člen",
+      "proposedCs": "Určitý člen mužského rodu",
+      "reason": "České pořadí slov je nepřirozené a neodpovídá běžnému názvu gramatické kategorie.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-der",
+      "field": "study.important[0]",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Auf A1-Niveau sollte man ihn zuerst als männlichen Artikel lernen.",
+      "lvSource": "A1 līmenī der vispirms mācies kā vīriešu dzimtes artikulu.",
+      "currentCs": "Na úrovni A1 byste se měli nejprve učit jako mužský článek.",
+      "proposedCs": "Na úrovni A1 byste se měli nejprve učit der jako určitý člen mužského rodu.",
+      "reason": "U slovesa „učit se“ chybí předmět; věta je bez uvedení „der“ gramaticky neúplná.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-dieser",
+      "field": "study.explanation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Dieser zeigt auf eine bestimmte oder besonders hervorgehobene männliche Person oder Sache.",
+      "lvSource": "Norāda uz konkrētu vai īpaši izceltu vīriešu dzimtes personu vai lietu.",
+      "currentCs": "Ukazuje na blízkou osobu, věc nebo zvíře. Používá se s podstatným jménem mužského rodu.",
+      "proposedCs": "Ukazuje na konkrétní nebo zdůrazněnou osobu, věc či zvíře. Používá se s podstatným jménem mužského rodu.",
+      "reason": "„Dieser“ nevyjadřuje vždy fyzickou blízkost; může označovat i konkrétní či zdůrazněný objekt.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 7,
+  "completedAt": "2026-08-13T16:09:17.252Z"
+}

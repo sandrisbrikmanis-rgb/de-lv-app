@@ -1,0 +1,74 @@
+{
+  "dataset": "a1",
+  "batch": "study-011-020",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a1-baden",
+    "a1-bei",
+    "a1-besuch",
+    "a1-besuchen",
+    "a1-bis",
+    "a1-bitte",
+    "a1-bitte-study",
+    "a1-bleiben",
+    "a1-bringen",
+    "a1-da"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-baden",
+      "field": "study.comparison[0].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "baden",
+      "lvSource": "peldēties / atrasties ūdenī / mazgāties",
+      "currentCs": "Koupat se / být ve vodě / mýt se",
+      "proposedCs": "Koupat se / být ve vodě / užívat si vodu",
+      "reason": "Mýt se znamená osobní hygienu; u baden jde o koupání nebo rekreační pobyt ve vodě.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-baden",
+      "field": "fields[6].csText",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "baden",
+      "lvSource": "peldēties / atrasties ūdenī / mazgāties",
+      "currentCs": "Koupat se / být ve vodě / mýt se",
+      "proposedCs": "Koupat se / být ve vodě / užívat si vodu",
+      "reason": "Mýt se znamená osobní hygienu; u baden jde o koupání nebo rekreační pobyt ve vodě.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-bei",
+      "field": "study.comparison[1].meaning",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "an",
+      "lvSource": "pie sienas, malas, krasta, virsmas malas",
+      "currentCs": "U stěny, okraje nebo břehu • na okraji hladiny",
+      "proposedCs": "U stěny, okraje nebo břehu",
+      "reason": "Spojení „na okraji hladiny“ není v češtině přirozené a nepřidává užitečný význam.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-bei",
+      "field": "fields[9].csText",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "an",
+      "lvSource": "pie sienas, malas, krasta, virsmas malas",
+      "currentCs": "U stěny, okraje nebo břehu • na okraji hladiny",
+      "proposedCs": "U stěny, okraje nebo břehu",
+      "reason": "Spojení „na okraji hladiny“ není v češtině přirozené a nepřidává užitečný význam.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 8,
+  "completedAt": "2026-08-13T16:08:52.088Z"
+}

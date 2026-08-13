@@ -1,0 +1,87 @@
+{
+  "dataset": "a1",
+  "batch": "study-041-050",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a1-geschwister-study",
+    "a1-gleich",
+    "a1-gross-study",
+    "a1-grosseltern-study",
+    "a1-gut-study",
+    "a1-haben",
+    "a1-halten",
+    "a1-hand-study",
+    "a1-heißen",
+    "a1-hoch-study"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-gut-study",
+      "field": "study.sectionAccents.important[0].blue",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "das Gut",
+      "lvSource": "das Gut = īpašums/muiža",
+      "currentCs": "Střevo",
+      "proposedCs": "gut",
+      "reason": "Zvýrazněné české slovo „Střevo“ nesouvisí s významem německého das Gut („majetek, panství“).",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-halten",
+      "field": "study.comparison[3].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "denken",
+      "lvSource": "domāt",
+      "currentCs": "Přemýšlet",
+      "proposedCs": "Myslet",
+      "reason": "denken znamená obecně „myslet“; „přemýšlet“ označuje spíše proces uvažování a neodpovídá zde příkladu „Ich denke“.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-hand-study",
+      "field": "csMain",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Hand",
+      "lvSource": "plauksta",
+      "currentCs": "Ruka (dlaň)",
+      "proposedCs": "Ruka",
+      "reason": "Hand označuje ruku od zápěstí po prsty, ne pouze dlaň; závorka význam zbytečně a nepřesně zužuje.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-heißen",
+      "field": "study.sectionAccents.important[1]",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "Was heißt das?",
+      "lvSource": "ko tas nozīmē?",
+      "currentCs": "Byl → Byl",
+      "proposedCs": "Was heißt das? → Co to znamená?",
+      "reason": "Zvýraznění obsahuje nesouvisející slovo „Byl“ místo německé fráze a jejího českého významu.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-heißen",
+      "field": "study.comparison[3].example",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Ich rufe dich.",
+      "lvSource": "Es tevi pasaucu.",
+      "currentCs": "Volám tě / volám tě.",
+      "proposedCs": "Volám na tebe.",
+      "reason": "Překlad je zdvojený a „Volám tě“ je v tomto významu méně přirozené než „Volám na tebe“.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 6,
+  "completedAt": "2026-08-13T16:10:33.427Z"
+}

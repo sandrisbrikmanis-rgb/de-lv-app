@@ -1,0 +1,481 @@
+{
+  "batch": "validate-003",
+  "items": [
+    {
+      "findingId": "CLOSURE-A1-00067",
+      "cardId": "a1-kennen-study",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Kennengelernt“ znamená seznámit se; „poznali“ může znamenat také rozpoznat nebo poznat.",
+      "auditCurrentCs": "Kde jste se poznali?",
+      "auditProposedCs": "Kde jste se seznámili?",
+      "auditDe": "Wo habt ihr euch kennengelernt?",
+      "auditLvSource": "kur jūs iepazināties?",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Kde jste se poznali?",
+      "cardContext": {
+        "cardId": "a1-kennen-study",
+        "de": "kennen",
+        "csMain": "Znát",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00068",
+      "cardId": "a1-kennen-study",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí koncová tečka v českém příkladu.",
+      "auditCurrentCs": "Znám ho",
+      "auditProposedCs": "Znám ho.",
+      "auditDe": "Ich kenne ihn.",
+      "auditLvSource": "es viņu pazīstu.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Znám ho",
+      "cardContext": {
+        "cardId": "a1-kennen-study",
+        "de": "kennen",
+        "csMain": "Znát",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00069",
+      "cardId": "a1-können",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Být dovoleno“ je doslovné a nepřirozené jako základní překlad modálního slovesa dürfen.",
+      "auditCurrentCs": "Být dovoleno",
+      "auditProposedCs": "Smět • Mít dovoleno",
+      "auditDe": "dürfen",
+      "auditLvSource": "drīkstēt",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Být dovoleno",
+      "cardContext": {
+        "cardId": "a1-können",
+        "de": "können",
+        "csMain": "Umět • Moci",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00070",
+      "cardId": "a1-können",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Český infinitiv je „muset“, nikoli „musit“; současná podoba působí jako slovakismus.",
+      "auditCurrentCs": "Musit / být nutné",
+      "auditProposedCs": "Muset / být nutné",
+      "auditDe": "müssen",
+      "auditLvSource": "vajadzēt / būt jā-",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Musit / být nutné",
+      "cardContext": {
+        "cardId": "a1-können",
+        "de": "können",
+        "csMain": "Umět • Moci",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00074",
+      "cardId": "a1-land",
+      "field": "study.explanation[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Zemi“ se v jedné větě opakuje a nejasně rozlišuje významy slova Land.",
+      "auditCurrentCs": "Kontext určuje, zda máme na mysli zemi, venkov nebo zemi.",
+      "auditProposedCs": "Kontext určuje, zda máme na mysli stát, venkov nebo půdu.",
+      "auditDe": "Land",
+      "auditLvSource": "valsts • zeme • lauki",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Kontext určuje, zda máme na mysli zemi, venkov nebo zemi.",
+      "cardContext": {
+        "cardId": "a1-land",
+        "de": "Land",
+        "csMain": "Země • Venkov",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00079",
+      "cardId": "a1-mal",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Příležitost znamená „opportunity“; das Mal označuje případ nebo opakování, nikoli příležitost.",
+      "auditCurrentCs": "Příležitost • Opakování",
+      "auditProposedCs": "Případ • Opakování",
+      "auditDe": "Mal",
+      "auditLvSource": "reize",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Příležitost • Opakování",
+      "cardContext": {
+        "cardId": "a1-mal",
+        "de": "Mal",
+        "csMain": "Případ • Opakování",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00080",
+      "cardId": "a1-mann",
+      "field": "study.explanation[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Po slovese „znamenat“ je zde nutný akuzativ „manžela“; navíc se zbytečně opakuje slovo „manžel“.",
+      "auditCurrentCs": "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy znamená manžel – manžel.",
+      "auditProposedCs": "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy znamená manžela.",
+      "auditDe": "Mann",
+      "auditLvSource": "Piederības vietniekvārds (mein/dein/ihr Mann) gandrīz vienmēr nozīmē vīru — laulāto.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy znamená manžel – manžel.",
+      "cardContext": {
+        "cardId": "a1-mann",
+        "de": "Mann",
+        "csMain": "Muž • Manžel",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00081",
+      "cardId": "a1-mann",
+      "field": "study.tip[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Původní formulace má chybný pád a opakuje „manžel“; „označuje manžela“ je gramaticky i stylisticky správné.",
+      "auditCurrentCs": "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy znamená manžel (manžel).",
+      "auditProposedCs": "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy označuje manžela.",
+      "auditDe": "Mann",
+      "auditLvSource": "Ar piederības vārdu (mein/dein/ihr Mann) gandrīz vienmēr domāts vīrs (laulātais).",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy znamená manžel (manžel).",
+      "cardContext": {
+        "cardId": "a1-mann",
+        "de": "Mann",
+        "csMain": "Muž • Manžel",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00082",
+      "cardId": "a1-mögen",
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Líbí se mi“ není obecně vhodné; u lidí a oblíbených činností je přirozenější „mám rád/a“.",
+      "auditCurrentCs": "Ich mag... je v češtině obvykle „Líbí se mi...“.",
+      "auditProposedCs": "Ich mag... se v češtině obvykle překládá jako „Mám rád/a...“ nebo podle kontextu „Líbí se mi...“.",
+      "auditDe": "mögen",
+      "auditLvSource": "Ich mag... latviski parasti ir “man patīk...”.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Ich mag... je v češtině obvykle „Líbí se mi...“.",
+      "cardContext": {
+        "cardId": "a1-mögen",
+        "de": "mögen",
+        "csMain": "Mít rád",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00083",
+      "cardId": "a1-mögen",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Tip uvádí zavádějící výchozí překlad; základní český ekvivalent mögen je „mít rád/a“.",
+      "auditCurrentCs": "Pamatujte: Ich mag... = Líbí se mi...",
+      "auditProposedCs": "Pamatujte: Ich mag... = Mám rád/a...",
+      "auditDe": "mögen",
+      "auditLvSource": "Atceries: Ich mag... = man patīk...",
+      "category": "STUDY",
+      "productionCurrentCs": "Pamatujte: Ich mag... = Líbí se mi...",
+      "cardContext": {
+        "cardId": "a1-mögen",
+        "de": "mögen",
+        "csMain": "Mít rád",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00097",
+      "cardId": "a1-nur-study",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Hlavní překlad zbytečně opakuje stejný český význam místo dvou praktických synonym.",
+      "auditCurrentCs": "Pouze • Pouze",
+      "auditProposedCs": "Pouze • Jen",
+      "auditDe": "nur",
+      "auditLvSource": "tikai • vienīgi",
+      "category": "STUDY",
+      "productionCurrentCs": "Pouze • Pouze",
+      "cardContext": {
+        "cardId": "a1-nur-study",
+        "de": "nur",
+        "csMain": "Pouze • Pouze",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00098",
+      "cardId": "a1-nur-study",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Hlavní překlad zbytečně opakuje stejný český význam místo dvou praktických synonym.",
+      "auditCurrentCs": "Pouze • Pouze",
+      "auditProposedCs": "Pouze • Jen",
+      "auditDe": "nur",
+      "auditLvSource": "tikai • vienīgi",
+      "category": "STUDY",
+      "productionCurrentCs": "Pouze • Pouze",
+      "cardContext": {
+        "cardId": "a1-nur-study",
+        "de": "nur",
+        "csMain": "Pouze • Pouze",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00099",
+      "cardId": "a1-ob",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Kdy je otázkové „when“; wenn v této konstrukci znamená když nebo podmínkové jestli.",
+      "auditCurrentCs": "Jestli / kdy",
+      "auditProposedCs": "Když / jestli",
+      "auditDe": "wenn",
+      "auditLvSource": "ja / kad",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Jestli / kdy",
+      "cardContext": {
+        "cardId": "a1-ob",
+        "de": "ob",
+        "csMain": "Zda • Jestli",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00101",
+      "cardId": "a1-ob",
+      "field": "study.sectionAccents.comparison[3].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Význam dass je v české sekci prázdný, ačkoli srovnání uvádí jeho překlad Že.",
+      "auditCurrentCs": "",
+      "auditProposedCs": "Že",
+      "auditDe": "dass",
+      "auditLvSource": "ka",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "{}",
+      "cardContext": {
+        "cardId": "a1-ob",
+        "de": "ob",
+        "csMain": "Zda • Jestli",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00110",
+      "cardId": "a1-schon-study",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "„Již“ je sice správně, ale působí formálně a méně přirozeně pro praktickou A1 slovní zásobu.",
+      "auditCurrentCs": "Již",
+      "auditProposedCs": "Už",
+      "auditDe": "schon",
+      "auditLvSource": "jau",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Již",
+      "cardContext": {
+        "cardId": "a1-schon-study",
+        "de": "schon",
+        "csMain": "Již",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "CLOSURE-A1-00067",
+      "cardId": "a1-kennen-study",
+      "field": "study.examples[2].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Kde jste se poznali?“ je přirozený český překlad vzájemného seznámení; nejde o významovou chybu.",
+      "currentCs": "Kde jste se poznali?"
+    },
+    {
+      "findingId": "CLOSURE-A1-00068",
+      "cardId": "a1-kennen-study",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Českému příkladu v produkci chybí koncová tečka.",
+      "currentCs": "Znám ho",
+      "proposedCs": "Znám ho."
+    },
+    {
+      "findingId": "CLOSURE-A1-00069",
+      "cardId": "a1-können",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Být dovoleno“ je gramaticky správný a významově přesný překlad slovesa dürfen; navržená varianta je jen přirozenější synonymum.",
+      "currentCs": "Být dovoleno"
+    },
+    {
+      "findingId": "CLOSURE-A1-00070",
+      "cardId": "a1-können",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Standardní český infinitiv je „muset“; produkční „musit“ je v tomto významu nesprávný.",
+      "currentCs": "Musit / být nutné",
+      "proposedCs": "Muset / být nutné"
+    },
+    {
+      "findingId": "CLOSURE-A1-00074",
+      "cardId": "a1-land",
+      "field": "study.explanation[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Produkční věta opakuje „zemi“ a nerozlišuje významy stát, venkov a půda.",
+      "currentCs": "Kontext určuje, zda máme na mysli zemi, venkov nebo zemi.",
+      "proposedCs": "Kontext určuje, zda máme na mysli stát, venkov nebo půdu."
+    },
+    {
+      "findingId": "CLOSURE-A1-00079",
+      "cardId": "a1-mal",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Příležitost“ není základní význam německého Mal; správně jde o případ nebo opakování.",
+      "currentCs": "Příležitost • Opakování",
+      "proposedCs": "Případ • Opakování"
+    },
+    {
+      "findingId": "CLOSURE-A1-00080",
+      "cardId": "a1-mann",
+      "field": "study.explanation[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Produkce obsahuje chybný pád i zbytečné opakování slova „manžel“.",
+      "currentCs": "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy znamená manžel – manžel.",
+      "proposedCs": "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy znamená manžela."
+    },
+    {
+      "findingId": "CLOSURE-A1-00081",
+      "cardId": "a1-mann",
+      "field": "study.tip[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Po slovese „znamenat“ je zde nutný akuzativ „manžela“ a produkce opakuje stejné slovo.",
+      "currentCs": "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy znamená manžel (manžel).",
+      "proposedCs": "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy označuje manžela."
+    },
+    {
+      "findingId": "CLOSURE-A1-00082",
+      "cardId": "a1-mögen",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Výklad uvádí „líbí se mi“ jako obvyklý překlad, ač u lidí a činností je základní význam „mám rád/a“.",
+      "currentCs": "Ich mag... je v češtině obvykle „Líbí se mi...“.",
+      "proposedCs": "Ich mag... se v češtině obvykle překládá jako „Mám rád/a...“ nebo podle kontextu „Líbí se mi...“."
+    },
+    {
+      "findingId": "CLOSURE-A1-00083",
+      "cardId": "a1-mögen",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Tip podává „líbí se mi“ jako základní ekvivalent, což může u lidí a oblíbených činností měnit význam.",
+      "currentCs": "Pamatujte: Ich mag... = Líbí se mi...",
+      "proposedCs": "Pamatujte: Ich mag... = Mám rád/a..."
+    },
+    {
+      "findingId": "CLOSURE-A1-00097",
+      "cardId": "a1-nur-study",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Opakování stejného synonyma je stylistická nevýhoda, nikoli významová nebo gramatická chyba.",
+      "currentCs": "Pouze • Pouze"
+    },
+    {
+      "findingId": "CLOSURE-A1-00098",
+      "cardId": "a1-nur-study",
+      "field": "study.translation",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "„Pouze“ je správný význam; použití druhého synonyma „jen“ je pouze stylistická preference.",
+      "currentCs": "Pouze • Pouze"
+    },
+    {
+      "findingId": "CLOSURE-A1-00099",
+      "cardId": "a1-ob",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "U časového wenn je české „když“, nikoli „kdy“; produkční dvojice proto obsahuje nesprávný ekvivalent.",
+      "currentCs": "Jestli / kdy",
+      "proposedCs": "Když / jestli"
+    },
+    {
+      "findingId": "CLOSURE-A1-00101",
+      "cardId": "a1-ob",
+      "field": "study.sectionAccents.comparison[3].meaning",
+      "validationStatus": "MISSING_STUDY_PARITY",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Česká sekce má u srovnávací položky prázdnou strukturu, zatímco studijní srovnání uvádí dass = „Že“; jde o strukturální mezeru parity.",
+      "currentCs": "{}"
+    },
+    {
+      "findingId": "CLOSURE-A1-00110",
+      "cardId": "a1-schon-study",
+      "field": "study.translation",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "„Již“ je správný český překlad; jeho formálnost je pouze stylistická otázka, nikoli chyba.",
+      "currentCs": "Již"
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+{
+  "batch": "validate-004",
+  "items": [
+    {
+      "findingId": "CLOSURE-A1-00111",
+      "cardId": "a1-sie-study",
+      "field": "study.important[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Tvrzení nesprávně označuje sie kocht za chybu; malé sie je správné pro „ona“, pokud není na začátku věty.",
+      "auditCurrentCs": "Nesprávně: sie kocht → Správně: Sie kocht",
+      "auditProposedCs": "Na začátku věty se sie píše s velkým písmenem: Sie kocht = Ona vaří; uprostřed věty: sie kocht.",
+      "auditDe": "sie",
+      "auditLvSource": "Nepareizi: sie kocht → Pareizi: Sie kocht",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Nesprávně: sie kocht → Správně: Sie kocht",
+      "cardContext": {
+        "cardId": "a1-sie-study",
+        "de": "sie",
+        "csMain": "Oni / ji",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00112",
+      "cardId": "a1-sie-study-2",
+      "field": "study.important[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Tvrzení nesprávně označuje sie kocht za chybu; malé sie je správné pro „ona“, pokud není na začátku věty.",
+      "auditCurrentCs": "Nesprávně: sie kocht → Správně: Sie kocht",
+      "auditProposedCs": "Na začátku věty se sie píše s velkým písmenem: Sie kocht = Ona vaří; uprostřed věty: sie kocht.",
+      "auditDe": "sie",
+      "auditLvSource": "Nepareizi: sie kocht → Pareizi: Sie kocht",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Nesprávně: sie kocht → Správně: Sie kocht",
+      "cardContext": {
+        "cardId": "a1-sie-study-2",
+        "de": "Sie",
+        "csMain": "Vy",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00115",
+      "cardId": "a1-sitzen",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "„Stojící“ je přídavné jméno a v této řadě nefunguje jako přirozený název stavu.",
+      "auditCurrentCs": "Pamatujte: sezení → sitzen • Stojící → stehen • Vleže → liegen.",
+      "auditProposedCs": "Pamatujte: sezení → sitzen • stání → stehen • vleže → liegen.",
+      "auditDe": "stehen",
+      "auditLvSource": "stāvus → stehen",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Pamatujte: sezení → sitzen • Stojící → stehen • Vleže → liegen.",
+      "cardContext": {
+        "cardId": "a1-sitzen",
+        "de": "sitzen",
+        "csMain": "Sedět",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00121",
+      "cardId": "a1-vor",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Chybí význam „za“ v časovém údaji, např. fünf vor acht = za pět minut osm.",
+      "auditCurrentCs": "Před • Před",
+      "auditProposedCs": "Před • Za",
+      "auditDe": "vor",
+      "auditLvSource": "pirms • priekšā",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Před • Před",
+      "cardContext": {
+        "cardId": "a1-vor",
+        "de": "vor",
+        "csMain": "Před • Před",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00122",
+      "cardId": "a1-vor",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Hlavní překlad opakuje „před“ a neuvádí význam „za“ v časovém údaji.",
+      "auditCurrentCs": "Před • Před",
+      "auditProposedCs": "Před • Za",
+      "auditDe": "vor",
+      "auditLvSource": "pirms • priekšā",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Před • Před",
+      "cardContext": {
+        "cardId": "a1-vor",
+        "de": "vor",
+        "csMain": "Před • Před",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00123",
+      "cardId": "a1-vor",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Opakování je nepřehledné; významy předložky je vhodné rozlišit podle použití.",
+      "auditCurrentCs": "Před / před",
+      "auditProposedCs": "Před (čas) / před (místo)",
+      "auditDe": "vor",
+      "auditLvSource": "pirms / priekšā",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Před / před",
+      "cardContext": {
+        "cardId": "a1-vor",
+        "de": "vor",
+        "csMain": "Před • Před",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00125",
+      "cardId": "a1-wenn",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "České „kdy“ je otázkové zájmeno; ve všeobecné časové větě se wenn překládá jako „když“.",
+      "auditCurrentCs": "Jestliže • Kdy",
+      "auditProposedCs": "Jestliže • Když",
+      "auditDe": "wenn",
+      "auditLvSource": "ja • kad",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Jestliže • Kdy",
+      "cardContext": {
+        "cardId": "a1-wenn",
+        "de": "wenn",
+        "csMain": "Jestliže • Kdy",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00126",
+      "cardId": "a1-wenn",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "České „kdy“ je otázkové zájmeno; ve všeobecné časové větě se wenn překládá jako „když“.",
+      "auditCurrentCs": "Jestliže • Kdy",
+      "auditProposedCs": "Jestliže • Když",
+      "auditDe": "wenn",
+      "auditLvSource": "ja • kad",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Jestliže • Kdy",
+      "cardContext": {
+        "cardId": "a1-wenn",
+        "de": "wenn",
+        "csMain": "Jestliže • Kdy",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00127",
+      "cardId": "a1-wenn",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "V tomto typu vedlejší věty je český ekvivalent „když“, nikoli „kdy“.",
+      "auditCurrentCs": "Pokud se jedná o opakovaný nebo obecný čas, přeložte jako kdy.",
+      "auditProposedCs": "Pokud se jedná o opakovaný nebo obecný čas, přeložte jako „když“.",
+      "auditDe": "wenn",
+      "auditLvSource": "Ja runa ir par atkārtotu vai vispārīgu laiku, tulko kā kad.",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Pokud se jedná o opakovaný nebo obecný čas, přeložte jako kdy.",
+      "cardContext": {
+        "cardId": "a1-wenn",
+        "de": "wenn",
+        "csMain": "Jestliže • Kdy",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00128",
+      "cardId": "a1-wenn",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Kdy“ v češtině označuje otázku; německé wenn zde vyjadřuje podmínku nebo časovou opakovanost.",
+      "auditCurrentCs": "Jestli / kdy",
+      "auditProposedCs": "Jestliže / když",
+      "auditDe": "wenn",
+      "auditLvSource": "ja / kad",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Jestli / kdy",
+      "cardContext": {
+        "cardId": "a1-wenn",
+        "de": "wenn",
+        "csMain": "Jestliže • Kdy",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00129",
+      "cardId": "a1-werden",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Původní formulace je tautologická a nepřirozená: „změna/stav se změní“.",
+      "auditCurrentCs": "Pamatujte: změna/stav se změní → werden.",
+      "auditProposedCs": "Pamatujte: když se něco změní nebo se stane jiným, použijte werden.",
+      "auditDe": "werden",
+      "auditLvSource": "Atceries: izmaiņa/stāvoklis kļūst citāds → werden.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Pamatujte: změna/stav se změní → werden.",
+      "cardContext": {
+        "cardId": "a1-werden",
+        "de": "werden",
+        "csMain": "Stát se",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00130",
+      "cardId": "a1-wie",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Karta obsahuje i přirovnání so ... wie, kde wie znamená „jako“; tento význam v hlavním překladu chybí.",
+      "auditCurrentCs": "Jak • Kolik",
+      "auditProposedCs": "Jak • Kolik • Jako",
+      "auditDe": "wie",
+      "auditLvSource": "kā • cik",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Jak • Kolik",
+      "cardContext": {
+        "cardId": "a1-wie",
+        "de": "wie",
+        "csMain": "Jak • Kolik",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00131",
+      "cardId": "a1-wie",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Karta obsahuje i přirovnání so ... wie, kde wie znamená „jako“; tento význam v hlavním překladu chybí.",
+      "auditCurrentCs": "Jak • Kolik",
+      "auditProposedCs": "Jak • Kolik • Jako",
+      "auditDe": "wie",
+      "auditLvSource": "kā • cik",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Jak • Kolik",
+      "cardContext": {
+        "cardId": "a1-wie",
+        "de": "wie",
+        "csMain": "Jak • Kolik",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00133",
+      "cardId": "a1-zug",
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Vlak se běžně nespojuje s „řízením“; správný kontext je cestování.",
+      "auditCurrentCs": "Používá se v každodenních situacích při řízení, příjezdu a odjezdu.",
+      "auditProposedCs": "Používá se v každodenních situacích při cestování, příjezdu a odjezdu.",
+      "auditDe": "Zug",
+      "auditLvSource": "To lieto ikdienas situācijās par braukšanu, pienākšanu un atiešanu.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Používá se v každodenních situacích při řízení, příjezdu a odjezdu.",
+      "cardContext": {
+        "cardId": "a1-zug",
+        "de": "Zug",
+        "csMain": "Vlak",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "CLOSURE-A1-00135",
+      "cardId": "a1-zum",
+      "field": "study.sectionAccents.comparison[1].meaning.lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Zvýraznění „rodina“ nesouvisí s významem zur ani s českým textem „ženský rod“.",
+      "auditCurrentCs": "rodina",
+      "auditProposedCs": "ženský rod",
+      "auditDe": "zur",
+      "auditLvSource": "K / ke (ženský rod)",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-zum",
+        "de": "zum",
+        "csMain": "K • Ke",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "CLOSURE-A1-00111",
+      "cardId": "a1-sie-study",
+      "field": "study.important[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "The study text incorrectly marks lowercase sie kocht as wrong; lowercase is correct for “she” when not sentence-initial.",
+      "currentCs": "Nesprávně: sie kocht → Správně: Sie kocht",
+      "proposedCs": "Na začátku věty se sie píše s velkým písmenem: Sie kocht = Ona vaří; uprostřed věty: sie kocht."
+    },
+    {
+      "findingId": "CLOSURE-A1-00112",
+      "cardId": "a1-sie-study-2",
+      "field": "study.important[2]",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "For Sie meaning formal “you,” capitalization in “Sie kocht” is correct; the current study note is valid in this card context.",
+      "currentCs": "Nesprávně: sie kocht → Správně: Sie kocht"
+    },
+    {
+      "findingId": "CLOSURE-A1-00115",
+      "cardId": "a1-sitzen",
+      "field": "study.tip.text",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "“Stojící” is understandable and acceptable as a concise label; replacing it with “stání” is only a stylistic preference.",
+      "currentCs": "Pamatujte: sezení → sitzen • Stojící → stehen • Vleže → liegen."
+    },
+    {
+      "findingId": "CLOSURE-A1-00121",
+      "cardId": "a1-vor",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "The translation omits the clock-time meaning of vor, where fünf vor acht means five minutes to eight.",
+      "currentCs": "Před • Před",
+      "proposedCs": "Před • Za"
+    },
+    {
+      "findingId": "CLOSURE-A1-00122",
+      "cardId": "a1-vor",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "The current Czech translation duplicates “Před” and omits the valid clock-time meaning “Za”.",
+      "currentCs": "Před • Před",
+      "proposedCs": "Před • Za"
+    },
+    {
+      "findingId": "CLOSURE-A1-00123",
+      "cardId": "a1-vor",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "“Před / před” is correct; the proposed parenthetical labels would improve clarity but are stylistic, not a CS error.",
+      "currentCs": "Před / před"
+    },
+    {
+      "findingId": "CLOSURE-A1-00125",
+      "cardId": "a1-wenn",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "In the temporal meaning shown, German wenn translates as Czech “když,” not the interrogative “kdy”.",
+      "currentCs": "Jestliže • Kdy",
+      "proposedCs": "Jestliže • Když"
+    },
+    {
+      "findingId": "CLOSURE-A1-00126",
+      "cardId": "a1-wenn",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "The current Czech translation duplicates the semantic error by using interrogative “Kdy” for temporal wenn.",
+      "currentCs": "Jestliže • Kdy",
+      "proposedCs": "Jestliže • Když"
+    },
+    {
+      "findingId": "CLOSURE-A1-00127",
+      "cardId": "a1-wenn",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "The explanation gives the wrong Czech equivalent for repeated or general time; it should say “když”, not “kdy”.",
+      "currentCs": "Pokud se jedná o opakovaný nebo obecný čas, přeložte jako kdy.",
+      "proposedCs": "Pokud se jedná o opakovaný nebo obecný čas, přeložte jako „když“."
+    },
+    {
+      "findingId": "CLOSURE-A1-00128",
+      "cardId": "a1-wenn",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "The comparison incorrectly uses interrogative “kdy”; the relevant meanings are conditional “jestliže” and temporal “když”.",
+      "currentCs": "Jestli / kdy",
+      "proposedCs": "Jestliže / když"
+    },
+    {
+      "findingId": "CLOSURE-A1-00129",
+      "cardId": "a1-werden",
+      "field": "study.tip.text",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The wording is somewhat awkward but understandable and semantically correct; the proposed rewrite is a stylistic improvement.",
+      "currentCs": "Pamatujte: změna/stav se změní → werden."
+    },
+    {
+      "findingId": "CLOSURE-A1-00130",
+      "cardId": "a1-wie",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "The card context includes comparisons such as so ... wie, where wie correctly means “jako”; that meaning is missing.",
+      "currentCs": "Jak • Kolik",
+      "proposedCs": "Jak • Kolik • Jako"
+    },
+    {
+      "findingId": "CLOSURE-A1-00131",
+      "cardId": "a1-wie",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "The current Czech translation omits the comparison meaning “jako”, which is required by the card’s study context.",
+      "currentCs": "Jak • Kolik",
+      "proposedCs": "Jak • Kolik • Jako"
+    },
+    {
+      "findingId": "CLOSURE-A1-00133",
+      "cardId": "a1-zug",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "“Řízení” suggests driving, which is not the normal context for a train; “cestování” is accurate.",
+      "currentCs": "Používá se v každodenních situacích při řízení, příjezdu a odjezdu.",
+      "proposedCs": "Používá se v každodenních situacích při cestování, příjezdu a odjezdu."
+    },
+    {
+      "findingId": "CLOSURE-A1-00135",
+      "cardId": "a1-zum",
+      "field": "study.sectionAccents.comparison[1].meaning.lv",
+      "validationStatus": "STALE_ALREADY_FIXED",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Production currently has no value for this field, so the audited “rodina” text is no longer present.",
+      "currentCs": null
+    }
+  ]
+}

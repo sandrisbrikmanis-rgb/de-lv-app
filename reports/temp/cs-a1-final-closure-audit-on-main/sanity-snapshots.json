@@ -1,0 +1,1342 @@
+{
+  "auditedAt": "2026-08-13T16:04:43.416Z",
+  "cardCount": 19,
+  "found": 9,
+  "snapshots": [
+    {
+      "cardId": "a1-heißen",
+      "index": 276,
+      "found": true,
+      "snapshot": {
+        "de": "heißen",
+        "lv": "Jmenovat se • Znamenat",
+        "study": {
+          "id": "a1-heißen",
+          "layout": "standardStudy",
+          "translation": "Jmenovat se • Znamenat",
+          "explanation": [
+            "Hlavní myšlenka: heißen se nejčastěji používá k vyjádření toho, jak se někdo jmenuje.",
+            "Fráze Ich heiße... znamená „jmenuji se...“.",
+            "Se slovy nebo výrazy může heißen také znamenat znamenat.",
+            "Na úrovni A1 je nejdůležitější fráze Wie heißt du?"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "heißen",
+                "Ich heiße",
+                "Wie heißt du"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "heiße"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jmenuji"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "heißt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jak"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "heißt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jak"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "heißt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "znamená"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "heißen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Být",
+                    "Být"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "heiße"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nennen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Volat"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "nennt",
+                    "nennt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bedeuten"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Střední"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "bedeutet",
+                    "Was"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "rufen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Volat",
+                    "Volat"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "rufe"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Ich heiße"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "Wie heißt du"
+                ],
+                "purple": [
+                  "Wie"
+                ]
+              },
+              {
+                "blue": [
+                  "Byl"
+                ],
+                "purple": [
+                  "Byl"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "cardId": "a1-schauen-study",
+      "index": 510,
+      "found": true,
+      "snapshot": {
+        "de": "schauen",
+        "lv": "Dívat se",
+        "study": {
+          "id": "a1-schauen-study",
+          "layout": "standardStudy",
+          "translation": "Dívat se",
+          "explanation": [
+            "Hlavní myšlenka: Dívat se nebo se dívat aktivně.",
+            "Schauen především znamená: aktivně sledovat.",
+            "Často popisuje: akce.",
+            "Schauen znamená aktivně se dívat."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "schauen"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "orange": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "schaue"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "schauen",
+                    "schauen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Díváme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "schaue"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Schauen"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "schauen"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "schauen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Dívat"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "sehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Vidět"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "cardId": "a1-in",
+      "index": 295,
+      "found": true,
+      "snapshot": {
+        "de": "in",
+        "lv": "V • Do",
+        "study": {
+          "id": "a1-in",
+          "layout": "standardStudy",
+          "translation": "V • Do",
+          "explanation": [
+            "Hlavní myšlenka: in obvykle znamená v nebo na místo, když se odkazuje na prostor, zemi, město nebo budovu.",
+            "Při označení polohy se in často překládá jako „v“ nebo „ve“: in Berlin = v Berlíně.",
+            "S pohybem v znamená dovnitř: ins Kino = do kina.",
+            "Český překlad se mění v závislosti na kontextu."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "in"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "in"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Berlīnē"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "in"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Chodím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "in"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kniha"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jdeme"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Pamatujte"
+                ],
+                "purple": [
+                  "Pamatujte",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "in"
+                ],
+                "purple": [
+                  "Berlíně",
+                  "škole",
+                  "není"
+                ]
+              },
+              {
+                "yellow": [
+                  "auf"
+                ],
+                "red": [
+                  "Pokud"
+                ],
+                "purple": [
+                  "Pokud"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "cardId": "a1-morgen",
+      "index": 417,
+      "found": true,
+      "snapshot": {
+        "de": "morgen",
+        "lv": "Zítra",
+        "study": {
+          "id": "a1-morgen",
+          "layout": "standardStudy",
+          "translation": "Zítra",
+          "explanation": [
+            "Hlavní myšlenka: morgen s malým písmenem znamená zítra.",
+            "Morgen s velkým písmenem je podstatné jméno a znamená ráno.",
+            "Nezaměňujte morgen ve větě Ich komme morgen s Morgen ve spojení Guten Morgen!.",
+            "Ich komme morgen = Přijdu zítra. Guten Morgen! = Dobré ráno!"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "morgen"
+              ],
+              "purple": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "morgen",
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Přijdu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen",
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "zítra"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen",
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Přijdu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen",
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Zítra"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen",
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dobré"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen",
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ráno"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Malý"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "morgen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "cardId": "a1-müssen",
+      "index": 423,
+      "found": true,
+      "snapshot": {
+        "de": "müssen",
+        "lv": "Muset",
+        "study": {
+          "id": "a1-müssen",
+          "layout": "standardStudy",
+          "translation": "Muset",
+          "explanation": [
+            "Hlavní myšlenka: müssen vyjadřuje nutnost něco udělat.",
+            "V češtině se müssen často překládá jako „já musím…“, „ty musíš…“, „my musíme…“.",
+            "V německé větě je druhé sloveso obvykle na konci.",
+            "Na úrovni A1 je nejdůležitější formou Ich muss..."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "müssen",
+                "Ich muss"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "muss",
+                    "gehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Musím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "musst",
+                    "warten"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Musíš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "müssen",
+                    "lernen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Musíme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "muss",
+                    "arbeiten"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dnes"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "müssen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Potřebovat",
+                    "Potřebovat"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "muss"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "können"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Být",
+                    "Být"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "kann"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wollen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Chtít"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "will"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "dürfen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Být"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Darf"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Ich muss"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "müssen"
+                ],
+                "purple": [
+                  "Müssen"
+                ]
+              },
+              {
+                "blue": [
+                  "muss",
+                  "arbeiten"
+                ],
+                "purple": [
+                  "Druhé"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "cardId": "a1-Besuch-87",
+      "index": -1,
+      "found": false,
+      "snapshot": null
+    },
+    {
+      "cardId": "a1-besuchen-89",
+      "index": -1,
+      "found": false,
+      "snapshot": null
+    },
+    {
+      "cardId": "a1-bitte",
+      "index": 93,
+      "found": true,
+      "snapshot": {
+        "de": "bitte",
+        "lv": "Prosím",
+        "study": {
+          "id": "a1-bitte",
+          "layout": "standardStudy",
+          "translation": "Prosím",
+          "explanation": [
+            "Hlavní myšlenka: bitte s malým písmenem je zdvořilostní výraz a znamená „prosím“.",
+            "Používá se v prosbách, žádostech, objednávkách a zdvořilých odpovědích.",
+            "Die Bitte s velkým písmenem je podstatné jméno a znamená prosbu nebo žádost."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "bitte"
+              ],
+              "purple": [
+                "prosím"
+              ],
+              "green": [
+                "Die Bitte"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "prosím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Prosím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Prosím"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "blue": [
+                    "bitte"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "prosím"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Bitte"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "prosba",
+                    "žádost"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "bitte"
+                ],
+                "purple": [
+                  "prosím"
+                ],
+                "green": [
+                  "die Bitte",
+                  "prosba"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "bitte"
+                ],
+                "purple": [
+                  "zdvořilostní výraz"
+                ]
+              },
+              {
+                "green": [
+                  "die Bitte"
+                ],
+                "purple": [
+                  "podstatné jméno"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "cardId": "a1-bitte-study",
+      "index": 94,
+      "found": true,
+      "snapshot": {
+        "de": "Bitte",
+        "lv": "Žádost",
+        "study": {
+          "id": "a1-bitte-study",
+          "layout": "standardStudy",
+          "translation": "Prosba • Žádost",
+          "explanation": [
+            "Hlavní myšlenka: die Bitte je podstatné jméno ženského rodu a znamená prosbu nebo žádost.",
+            "Píše se s velkým písmenem a používá se se členem die.",
+            "Množné číslo je die Bitten.",
+            "bitte s malým písmenem znamená „prosím“ a není podstatné jméno."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "die Bitte",
+                "die Bitten"
+              ],
+              "purple": [
+                "prosbu",
+                "žádost"
+              ],
+              "blue": [
+                "bitte"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "Bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "prosbu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "prosbu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Bitten"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "prosby"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "die Bitte"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "prosba",
+                    "žádost"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "blue": [
+                    "bitte"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "prosím"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "green": [
+                  "die Bitte"
+                ],
+                "purple": [
+                  "podstatné jméno"
+                ],
+                "blue": [
+                  "bitte",
+                  "zdvořilostní výraz"
+                ]
+              }
+            },
+            "important": [
+              {
+                "green": [
+                  "die Bitte"
+                ]
+              },
+              {
+                "green": [
+                  "die Bitten"
+                ]
+              },
+              {
+                "green": [
+                  "Bitte"
+                ],
+                "purple": [
+                  "Podstatné jméno",
+                  "velkým písmenem"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "cardId": "a1-ein",
+      "index": 154,
+      "found": true,
+      "snapshot": {
+        "de": "ein",
+        "lv": "Neurčitý člen • Jeden",
+        "study": {
+          "id": "a1-ein",
+          "layout": "standardStudy",
+          "translation": "Neurčitý člen • Jeden",
+          "explanation": [
+            "Hlavní myšlenka: ein je neurčitý člen.",
+            "V nominativu se používá u podstatných jmen mužského a středního rodu.",
+            "Mužský rod: ein Mann.",
+            "Střední rod: ein Buch.",
+            "Ženský rod má tvar eine.",
+            "V akuzativu mužského rodu se používá einen."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Ein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "nějaký"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jednu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "einen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "nějaké"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "ein"
+                ],
+                "purple": [
+                  "jeden"
+                ],
+                "green": [
+                  "neurčitý člen"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "ein"
+                ],
+                "green": [
+                  "mužský rod",
+                  "nominativu"
+                ]
+              },
+              {
+                "blue": [
+                  "ein"
+                ],
+                "green": [
+                  "střední rod",
+                  "nominativu"
+                ]
+              },
+              {
+                "blue": [
+                  "eine"
+                ],
+                "green": [
+                  "ženský rod"
+                ]
+              },
+              {
+                "blue": [
+                  "einen"
+                ],
+                "green": [
+                  "mužský rod",
+                  "akuzativu"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "cardId": "a1-es",
+      "index": 167,
+      "found": true,
+      "snapshot": {
+        "de": "es",
+        "lv": "To • Ono • Neosobní podoba",
+        "study": {
+          "id": "a1-es",
+          "layout": "standardStudy",
+          "translation": "To • Ono • Neosobní podoba",
+          "explanation": [
+            "Hlavní myšlenka: es je německé zájmeno.",
+            "Může znamenat „to“ nebo „ono“ a používá se také v neosobních větách.",
+            "V neosobních větách se do češtiny často vůbec nepřekládá."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {
+                "blue": [
+                  "Es"
+                ]
+              },
+              {
+                "blue": [
+                  "Es"
+                ]
+              },
+              {
+                "yellow": [
+                  "Das"
+                ]
+              },
+              {
+                "blue": [
+                  "Es"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              }
+            ],
+            "info": [
+              {
+                "blue": [
+                  "ich"
+                ]
+              },
+              {
+                "green": [
+                  "es"
+                ]
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "es"
+                ],
+                "red": [
+                  "ich"
+                ],
+                "purple": [
+                  "já"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "ich",
+                  "es"
+                ],
+                "purple": [
+                  "nejsou totéž"
+                ]
+              },
+              {
+                "blue": [
+                  "es"
+                ],
+                "purple": [
+                  "to",
+                  "ono"
+                ]
+              },
+              {
+                "red": [
+                  "ich"
+                ],
+                "purple": [
+                  "já"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "cardId": "a1-Fußball-218",
+      "index": -1,
+      "found": false,
+      "snapshot": null
+    },
+    {
+      "cardId": "a1-ganz-219",
+      "index": -1,
+      "found": false,
+      "snapshot": null
+    },
+    {
+      "cardId": "a1-gefallen-225",
+      "index": -1,
+      "found": false,
+      "snapshot": null
+    },
+    {
+      "cardId": "a1-Geschichte-233",
+      "index": -1,
+      "found": false,
+      "snapshot": null
+    },
+    {
+      "cardId": "a1-Geschwister-234",
+      "index": -1,
+      "found": false,
+      "snapshot": null
+    },
+    {
+      "cardId": "a1-Großeltern-251",
+      "index": -1,
+      "found": false,
+      "snapshot": null
+    },
+    {
+      "cardId": "a1-Hand-267",
+      "index": -1,
+      "found": false,
+      "snapshot": null
+    },
+    {
+      "cardId": "a1-hübsch-288",
+      "index": -1,
+      "found": false,
+      "snapshot": null
+    }
+  ]
+}

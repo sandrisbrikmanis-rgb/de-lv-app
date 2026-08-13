@@ -1,0 +1,29 @@
+{
+  "dataset": "a1",
+  "batch": "study-131-134",
+  "auditType": "vocab_study",
+  "cardCount": 4,
+  "cardIds": [
+    "a1-uhr",
+    "a1-zeit",
+    "a1-einmal",
+    "a1-noch-mal"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-zeit",
+      "field": "study.translation",
+      "severity": "LOW",
+      "category": "TITLE_FORMAT",
+      "de": "Zeit",
+      "lvSource": "laiks (brīdis / laika posms)",
+      "currentCs": "Čas (okamžik / časový úsek)",
+      "proposedCs": "Čas • Okamžik • Časový úsek",
+      "reason": "Více významů je uvedeno v závorkách se lomítkem; podle formátu Learning First mají být odděleny symbolem •.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 3,
+  "completedAt": "2026-08-13T16:15:38.799Z"
+}
