@@ -23986,7 +23986,7 @@ const A1_WORDS = [
         },
         {
           "de": "Was möchtest du trinken?",
-          "lv": "Co chceš pít"
+          "lv": "Co chceš pít?"
         },
         {
           "de": "Was bedeutet dieses Wort?",
@@ -23998,7 +23998,7 @@ const A1_WORDS = [
         },
         {
           "de": "Was hast du gesagt?",
-          "lv": "Co jsi říkal"
+          "lv": "Co jsi říkal?"
         }
       ],
       "tip": [
@@ -24119,7 +24119,7 @@ const A1_WORDS = [
         "important": [
           {
             "blue": [
-              "Byl"
+              "was"
             ]
           },
           {
@@ -24256,7 +24256,7 @@ const A1_WORDS = [
       },
       "important": [
         "Wenn a wann nejsou totéž.",
-        "Kdy přijedeš? je tu otázka. Wenn du kommst... je stav/napětí."
+        "„Kdy přijedeš?“ je otázka. „Wenn du kommst…“ vyjadřuje podmínku."
       ],
       "sectionAccents": {
         "explanation": {
@@ -24352,7 +24352,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Nebo"
+                "Zda"
               ]
             },
             "example": {
@@ -24369,7 +24369,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Když"
+                "Kdy"
               ]
             },
             "example": {
@@ -24433,7 +24433,7 @@ const A1_WORDS = [
   },
   {
     "de": "wer",
-    "lv": "Kdo • Kdo",
+    "lv": "Kdo",
     "level": "A1",
     "study": {
       "id": "a1-wer",
@@ -24478,12 +24478,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Wer se ptá na osoby (kdo/kdo) - na věci a události, používáme was.",
-        "Chcete-li se zeptat na volbu mezi několika lidmi, použijte wer von... (který z...)."
+        "Wer se ptá na osoby (kdo) – na věci a události používáme was.",
+        "Chcete-li se zeptat, kdo z několika lidí, použijte wer von... (kdo z...)."
       ],
       "important": [
         "Ptáme se pouze na osoby, nikdy ne na věci.",
-        "Věci a události jsou žádány s was, ne wer.",
+        "Na věci a události se ptáme pomocí was, ne wer.",
         "Wer mění tvar podle pádu: wen, wem, wessen. Základní tvar je wer.",
         "Špatně: Wer ist passiert? → Správně: Was ist passiert?"
       ],
@@ -24603,7 +24603,7 @@ const A1_WORDS = [
         "important": [
           {
             "blue": [
-              "Ptali"
+              "wer"
             ]
           },
           {
@@ -24660,7 +24660,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich bin müde.",
-          "lv": "Jsem unavený"
+          "lv": "Jsem unavený."
         }
       ],
       "comparison": [
@@ -24797,7 +24797,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Pobyt"
+                "Zůstat"
               ]
             },
             "example": {
@@ -24864,7 +24864,7 @@ const A1_WORDS = [
   {
     "de": "Wetter",
     "de_article": "das",
-    "lv": "Čas (počasí)",
+    "lv": "Počasí",
     "level": "A1",
     "study": {
       "id": "a1-wetter",
@@ -24952,7 +24952,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kolik"
+                "Jaké"
               ]
             }
           },
@@ -25024,7 +25024,7 @@ const A1_WORDS = [
                 "Zítra"
               ],
               "green": [
-                "Zítra"
+                "lepší"
               ]
             }
           }
@@ -25156,11 +25156,11 @@ const A1_WORDS = [
         },
         {
           "de": "Wie heißt du?",
-          "lv": "Jak se jmenuješ"
+          "lv": "Jak se jmenuješ?"
         },
         {
           "de": "Wie viel kostet das?",
-          "lv": "Kolik to stojí"
+          "lv": "Kolik to stojí?"
         },
         {
           "de": "Wie alt bist du?",
@@ -25263,7 +25263,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "stejně"
+                "jako"
               ]
             }
           }
@@ -25493,9 +25493,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "too",
-                "too",
-                "too",
+                "K",
+                "do",
+                "příliš",
                 "infinitiv"
               ]
             },
@@ -26399,7 +26399,7 @@ const A1_WORDS = [
         },
         {
           "de": "Was gibt es im Fernsehen?",
-          "lv": "Co se zobrazuje v televizi?"
+          "lv": "Co dávají v televizi?"
         }
       ],
       "tip": [
@@ -27338,10 +27338,10 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Dovolená",
       "explanation": [
-        "Hlavní myšlenka: pouze jednotné číslo. Dovolená z práce – vždy v jednotném čísle.",
+        "Hlavní myšlenka: v běžném významu dovolené se používá obvykle jednotné číslo. Jde o dovolenou z práce.",
         "Der Urlaub znamená především dovolenou nebo volno z práce.",
-        "Často charakterizován: pouze jednotné číslo.",
-        "Der Urlaub je pouze v jednotném čísle – dovolená z práce (im Urlaub)."
+        "V běžném významu dovolené se často používá v jednotném čísle.",
+        "Der Urlaub se v běžném významu dovolené používá obvykle v jednotném čísle – dovolená z práce (im Urlaub)."
       ],
       "examples": [
         {
@@ -27382,7 +27382,7 @@ const A1_WORDS = [
         "Použijte der Urlaub, pokud kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Nesprávně: die Ferie, der Urlabe (na úrovni A1).",
+        "Nesprávně: die Ferie, der Urlaube (na úrovni A1).",
         "Urlaub: im Urlaub sein / Urlaub machen.",
         "Urlaub se v běžném významu dovolené používá obvykle v jednotném čísle. Množné číslo Urlaube je možné v jiných kontextech.",
         "Dovolená: der Urlaub (obvykle jednotné číslo)."
