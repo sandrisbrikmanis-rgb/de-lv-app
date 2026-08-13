@@ -11,8 +11,8 @@
 | MAIN_BEFORE | `d658e2b591837e9656bbb322fa039faee2293c8d` |
 | integration branch | `cursor/cs-a1-final-repair-main-integration-6850` |
 | integration HEAD | `1170071aed12ed28ae09f4d7146091840384b82a` |
-| MAIN_AFTER | `1170071aed12ed28ae09f4d7146091840384b82a` |
-| origin/main | `1170071aed12ed28ae09f4d7146091840384b82a` |
+| MAIN_AFTER | `eb2d68e0075c55999545658c5910ba144297f1a7` |
+| origin/main | `eb2d68e0075c55999545658c5910ba144297f1a7` |
 
 ## SOURCES
 
