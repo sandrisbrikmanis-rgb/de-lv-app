@@ -8248,24 +8248,24 @@ const A2_WORDS = [
     "de": "Bauarbeiter",
     "de_article": "der",
     "de_plural": "die Bauarbeiter",
-    "lv": "Stavební dělník • Stavitel",
+    "lv": "Stavební dělník",
     "level": "A2"
   },
   {
     "de": "Bauchweh",
     "de_article": "das",
-    "lv": "Bolest žaludku",
+    "lv": "Bolest břicha",
     "level": "A2"
   },
   {
     "de": "bauen",
-    "lv": "Stavět • Stavět • Dělat",
+    "lv": "Stavět",
     "level": "A2",
     "study": {
       "id": "a2-bauen",
       "layout": "standardStudy",
-      "translation": "Stavět • Stavět • Dělat",
-      "explanation": "Hlavní myšlenka: bauen znamená postavit, postavit nebo vyrobit něco praktického. bauen není jen „postavit dům“. Používá se při stavbě nebo stavbě budov a mostů. V každodenním životě může bauen také znamenat něco vyrobit nebo vyrobit rukama. V zemědělství může bauen znamenat pěstování, například zeleniny. Ve frázích s auf to může znamenat opřít se o něco nebo se na něco spolehnout.",
+      "translation": "Stavět",
+      "explanation": "bauen znamená stavět, budovat nebo vyrábět něco praktického.",
       "examples": [
         {
           "de": "Wir bauen ein Haus.",
@@ -8285,7 +8285,7 @@ const A2_WORDS = [
         },
         {
           "de": "Wir bauen auf Vertrauen.",
-          "lv": "Jsme postaveni na důvěře."
+          "lv": "Spoléháme na důvěru."
         },
         {
           "de": "Er baut ein Modellflugzeug.",
@@ -8566,7 +8566,7 @@ const A2_WORDS = [
       "id": "a2-bauer",
       "layout": "standardStudy",
       "translation": "Farmář",
-      "explanation": "Hlavní myšlenka: der Bauer nejčastěji znamená pěšec, ale v šachu znamená pěšec. V běžném životě je der Bauer většinou člověk, který pracuje v zemědělství. V kontextu šachu je der Bauer jednou z figur. Farmář není hlavním významem A2. Z kontextu je většinou jasné, zda jde o osobu nebo šachovou figurku.",
+      "explanation": "der Bauer nejčastěji znamená zemědělce nebo farmáře; v šachu znamená pěšce.",
       "examples": [
         {
           "de": "Der Bauer arbeitet auf dem Feld.",
@@ -8606,7 +8606,7 @@ const A2_WORDS = [
         },
         {
           "word": "der Bauernhof",
-          "meaning": "Hospodařit",
+          "meaning": "Statek / farma",
           "example": "Wir besuchen einen Bauernhof. = Navštěvujeme farmu."
         },
         {
@@ -8616,7 +8616,7 @@ const A2_WORDS = [
         },
         {
           "word": "der Spielstein",
-          "meaning": "Kostky hry",
+          "meaning": "Herní kámen / figurka",
           "example": "Der Spielstein liegt auf dem Brett. = Kostky jsou na stole."
         }
       ],
@@ -8902,7 +8902,7 @@ const A2_WORDS = [
     "de": "Bäuerin",
     "de_article": "die",
     "de_plural": "die Bäuerinnen",
-    "lv": "Farmář",
+    "lv": "Farmářka",
     "level": "A2"
   },
   {
@@ -8914,19 +8914,19 @@ const A2_WORDS = [
   },
   {
     "de": "beachten",
-    "lv": "Pozorovat • Brát v úvahu",
+    "lv": "Brát v úvahu",
     "level": "A2"
   },
   {
     "de": "Becher",
     "de_article": "der",
     "de_plural": "die Becher",
-    "lv": "Hrnek • Sklenice",
+    "lv": "Kelímek",
     "level": "A2",
     "study": {
       "id": "a2-becher",
       "layout": "standardStudy",
-      "translation": "Hrnek • Sklenice",
+      "translation": "Kelímek",
       "explanation": "Hlavní myšlenka: der Becher je pohár nebo jednoduchá sklenice, často vyrobená z papíru nebo plastu. Používá se pro nápojové nádoby bez držadel nebo jednorázové nádoby. das Glas je obvykle sklenice. die Tasse je často šálek nebo hrnek s uchem. Pappbecher a Plastikbecher označují materiál velmi jasně.",
       "examples": [
         {
@@ -8935,7 +8935,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Becher ist aus Plastik.",
-          "lv": "Sklo je vyrobeno z plastu."
+          "lv": "Kelímek je z plastu."
         },
         {
           "de": "Bitte wirf den Pappbecher weg.",
@@ -8960,12 +8960,12 @@ const A2_WORDS = [
             "text": "Káva s sebou se v němčině velmi často nazývá Becher, zejména Pappbecher nebo Plastikbecher."
           },
           {
-            "text": "Je-li nádoba skleněná, používá se obvykle das Glas • Pokud má rukojeť, často zemře Tasse."
+            "text": "Je-li nádoba ze skla, používá se obvykle das Glas. Pokud má ucho, často se používá die Tasse."
           }
         ]
       },
       "important": {
-        "text": "Der Becher není ledajaké sklo. Často se odkazuje na šálek nebo jednorázovou nádobu na pití.",
+        "text": "Der Becher není jen obyčejná sklenice. Často označuje kelímek nebo jednorázovou nádobu na pití.",
         "example": "Pappbecher = kartona glāze. Plastikbecher = plastmasas glāze. Glas = stikla glāze."
       },
       "sectionAccents": {
@@ -9174,13 +9174,13 @@ const A2_WORDS = [
   },
   {
     "de": "bedienen",
-    "lv": "Sloužit",
+    "lv": "Obsluhovat",
     "level": "A2",
     "study": {
       "id": "a2-bedienen",
       "layout": "standardStudy",
-      "translation": "Sloužit",
-      "explanation": "Hlavní myšlenka: bedienen znamená sloužit osobě nebo používat/obsluhovat zařízení. V restauraci nebo obchodě to znamená obsluhu zákazníků. U stroje, přístroje nebo programu to znamená vědět, jak je používat nebo ovládat. bedienen není totéž co helfen. servieren znamená podávat jídlo, ale nemusí nutně sloužit v širším smyslu.",
+      "translation": "Obsluhovat",
+      "explanation": "bedienen znamená obsluhovat člověka nebo používat či ovládat zařízení. ... U stroje, přístroje nebo programu znamená umět ho obsluhovat nebo ovládat. bedienen není totéž co helfen. servieren znamená podávat jídlo, ne obsluhovat v širším smyslu.",
       "examples": [
         {
           "de": "Der Kellner bedient die Gäste.",
@@ -9192,11 +9192,11 @@ const A2_WORDS = [
         },
         {
           "de": "Kannst du die Maschine bedienen?",
-          "lv": "Víš jak se to auto používá?"
+          "lv": "Umíš obsluhovat tento stroj?"
         },
         {
           "de": "Ich kann das Gerät nicht bedienen.",
-          "lv": "Nevím, jak toto zařízení používat."
+          "lv": "Neumím toto zařízení obsluhovat."
         },
         {
           "de": "Er bedient den Computer sehr schnell.",
@@ -9210,7 +9210,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "bedienen",
-          "meaning": "Servis / použití zařízení",
+          "meaning": "Obsluha / používání zařízení",
           "example": "Der Kellner bedient uns. = Obsluhuje nás číšník."
         },
         {
@@ -9237,7 +9237,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pokud jde o zákazníka, hosta nebo kupujícího, bedienen obvykle znamená sloužit."
+            "text": "Pokud jde o zákazníka, hosta nebo kupujícího, bedienen obvykle znamená obsluhovat."
           },
           {
             "text": "Pokud jde o stroj, zařízení nebo program, bedienen znamená používat nebo ovládat."
@@ -9542,17 +9542,17 @@ const A2_WORDS = [
     "de": "Bedienung",
     "de_article": "die",
     "de_plural": "die Bedienungen",
-    "lv": "Servis",
+    "lv": "Obsluha",
     "level": "A2",
     "study": {
       "id": "a2-bedienung",
       "layout": "standardStudy",
-      "translation": "Servis",
-      "explanation": "Hlavní myšlenka: die Bedienung může znamenat službu nebo osobu, která slouží. V restauraci to může být často číšník nebo číšník/servírka. U spotřebičů může die Bedienung znamenat i použití nebo ovládání. Posádka není hlavním významem A2. Kontext určuje, zda se jedná o proces nebo osobu.",
+      "translation": "Obsluha",
+      "explanation": "die Bedienung může znamenat obsluhu nebo osobu, která obsluhuje. V restauraci jde často o obsluhu, číšníka nebo servírku. U zařízení může znamenat také obsluhování či ovládání. Posádka není hlavním významem A2.",
       "examples": [
         {
           "de": "Die Bedienung war sehr freundlich.",
-          "lv": "Server byl velmi laskavý."
+          "lv": "Obsluha byla velmi milá."
         },
         {
           "de": "Die Bedienung im Restaurant war gut.",
@@ -9613,7 +9613,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Die Bedienung není primárně posádka. Na úrovni A2 jsou nejdůležitějšími významy služba a server.",
+        "text": "Die Bedienung není primárně posádka. Na úrovni A2 jsou nejdůležitějšími významy obsluha a obsluhující osoba.",
         "example": "Freundliche Bedienung = laipns apkalpotājs. gute Bedienung = laba apkalpošana."
       },
       "sectionAccents": {
@@ -9893,13 +9893,13 @@ const A2_WORDS = [
     "de": "Beet",
     "de_article": "das",
     "de_plural": "die Beete",
-    "lv": "Postel",
+    "lv": "Záhon",
     "level": "A2"
   },
   {
     "de": "Beginn",
     "de_article": "der",
-    "lv": "Začátek • Začátek",
+    "lv": "Začátek",
     "level": "A2"
   },
   {
@@ -9909,25 +9909,25 @@ const A2_WORDS = [
   },
   {
     "de": "begrüßen",
-    "lv": "Pozdravit • Pozdravit",
+    "lv": "Pozdravit",
     "level": "A2"
   },
   {
     "de": "Begrüßung",
     "de_article": "die",
     "de_plural": "die Begrüßungen",
-    "lv": "Pozdrav • Pozdrav",
+    "lv": "Pozdrav",
     "level": "A2"
   },
   {
     "de": "behalten",
-    "lv": "Uchovávat • Pamatovat",
+    "lv": "Ponechat",
     "level": "A2",
     "study": {
       "id": "a2-behalten",
       "layout": "standardStudy",
-      "translation": "Uchovávat • Pamatovat",
-      "explanation": "Hlavní myšlenka: behalten znamená mít něco u sebe nebo mít na paměti. behalten znamená držet něco ve svém vlastnictví nebo u sebe. Může to také znamenat mít na paměti, takže pamatujte. U objektů se behalten obvykle překládá jako udržovat. S informací, slovem nebo číslem to často znamená zapamatovat si. Fráze im Kopf behalten znamená udržet v hlavě.",
+      "translation": "Ponechat",
+      "explanation": "Může to také znamenat mít něco na paměti, tedy pamatovat si to. U předmětů se behalten obvykle překládá jako ponechat si. Fráze im Kopf behalten znamená mít na paměti.",
       "examples": [
         {
           "de": "Du kannst das Buch behalten.",
@@ -9939,7 +9939,7 @@ const A2_WORDS = [
         },
         {
           "de": "Behalten Sie den Rest.",
-          "lv": "Udržet rovnováhu."
+          "lv": "Nechte si zbytek."
         },
         {
           "de": "Ich kann mir die Nummer nicht behalten.",
@@ -9977,14 +9977,14 @@ const A2_WORDS = [
         },
         {
           "word": "aufbewahren",
-          "meaning": "Udržet",
+          "meaning": "Uchovávat",
           "example": "Ich bewahre die Quittung auf. = Účtenku si schovávám."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pro věci, behalten obvykle znamená zachovat."
+            "text": "U věcí behalten obvykle znamená ponechat si je."
           },
           {
             "text": "Pro slova, čísla a informace, behalten často znamená zapamatovat si nebo mít na paměti."
@@ -9992,7 +9992,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Behalten není jednoduše zastavit.",
+        "text": "Behalten není totéž co halten (držet).",
         "example": "Halten = turēt. behalten = paturēt. sich merken = iegaumēt. im Kopf behalten = paturēt prātā."
       },
       "sectionAccents": {
@@ -10347,7 +10347,7 @@ const A2_WORDS = [
       "id": "a2-beinahe",
       "layout": "standardStudy",
       "translation": "Téměř",
-      "explanation": "Hlavní myšlenka: beinahe znamená téměř nebo sotva, když bylo něco velmi blízko k tomu, aby se stalo. beinahe znamená téměř. Zdůrazňuje, že se něco málem stalo, ale nestalo se, nebo bylo velmi blízko. V některých kontextech se češtině sotva hodí. beinahe je velmi blízko k rychlému. Obvykle beinahe zní o něco důrazněji než rychle.",
+      "explanation": "V některých kontextech se v češtině hodí také sotva. beinahe je velmi podobné slovu fast. Obvykle zní o něco důrazněji než fast.",
       "examples": [
         {
           "de": "Ich hätte beinahe den Bus verpasst.",
@@ -10363,7 +10363,7 @@ const A2_WORDS = [
         },
         {
           "de": "Wir waren beinahe zu spät.",
-          "lv": "Málem jsme to minuli."
+          "lv": "Málem jsme přišli pozdě."
         },
         {
           "de": "Er hat beinahe gewonnen.",
@@ -10387,8 +10387,8 @@ const A2_WORDS = [
         },
         {
           "word": "knapp",
-          "meaning": "Sotva / s malým rozdílem",
-          "example": "Das war knapp. = Bylo to sotva."
+          "meaning": "Těsně / s malým rozdílem",
+          "example": "To bylo o fous."
         },
         {
           "word": "kaum",
@@ -10398,7 +10398,7 @@ const A2_WORDS = [
         {
           "word": "gerade noch",
           "meaning": "Jen stěží",
-          "example": "Wir haben es gerade noch geschafft. = Pořád jsme to sotva stihli."
+          "example": "Jen tak tak jsme to zvládli."
         }
       ],
       "tip": {
@@ -10745,22 +10745,22 @@ const A2_WORDS = [
   },
   {
     "de": "beißen",
-    "lv": "Kousat • Kousat • Kousat",
+    "lv": "Kousat",
     "level": "A2"
   },
   {
     "de": "bekannt",
-    "lv": "Známý • Známý",
+    "lv": "Známý",
     "level": "A2",
     "study": {
       "id": "a2-bekannt",
       "layout": "standardStudy",
-      "translation": "Známý • Známý",
-      "explanation": "Hlavní myšlenka: bekannt znamená známý nebo známý, podle toho, zda se jedná o osobu, skutečnost nebo věc. bekannt znamená známý nebo známý. Může popisovat osobu, místo, skutečnost nebo informaci. Pokud je člověk bekannt, může být známý ostatním nebo slavný. Je-li nějaká skutečnost bekannt, je známá. bekannt není totéž co befreundet, protože befreundet znamená přátelský ve vztahu nebo v přátelích.",
+      "translation": "Známý",
+      "explanation": "befreundet znamená, že jsou lidé přátelé nebo jsou spolu spřátelení.",
       "examples": [
         {
           "de": "Er ist ein bekannter Schauspieler.",
-          "lv": "Je to slavný herec."
+          "lv": "Je to známý herec."
         },
         {
           "de": "Das Problem ist bekannt.",
@@ -10796,12 +10796,12 @@ const A2_WORDS = [
         },
         {
           "word": "vertraut",
-          "meaning": "Známé / obvyklé",
+          "meaning": "Povědomý / důvěrně známý",
           "example": "Die Umgebung ist mir vertraut. = Oblast je mi známá."
         },
         {
           "word": "befreundet",
-          "meaning": "V přátelích / přátelských vztazích",
+          "meaning": "Být přáteli / spřátelený",
           "example": "Wir sind befreundet. = Jsme přátelé."
         },
         {
@@ -11171,27 +11171,27 @@ const A2_WORDS = [
     "de": "Bekannte",
     "de_article": "der",
     "de_plural": "die Bekannten",
-    "lv": "Známost",
+    "lv": "Známý",
     "level": "A2"
   },
   {
     "de": "beliebt",
-    "lv": "Oblíbený • Oblíbený • Oblíbený",
+    "lv": "Oblíbený",
     "level": "A2"
   },
   {
     "de": "bellen",
-    "lv": "Západ slunce",
+    "lv": "Štěkat",
     "level": "A2"
   },
   {
     "de": "benötigen",
-    "lv": "Potřebovat • Být nezbytný",
+    "lv": "Potřebovat",
     "level": "A2"
   },
   {
     "de": "benützen",
-    "lv": "Použití",
+    "lv": "Používat",
     "level": "A2"
   },
   {
@@ -11202,7 +11202,7 @@ const A2_WORDS = [
   },
   {
     "de": "bequem",
-    "lv": "Pohodlný • Šikovný",
+    "lv": "Pohodlný",
     "level": "A2"
   },
   {
@@ -11236,19 +11236,19 @@ const A2_WORDS = [
   },
   {
     "de": "besitzen",
-    "lv": "Patřit",
+    "lv": "Vlastnit",
     "level": "A2"
   },
   {
     "de": "Besitzer",
     "de_article": "der",
     "de_plural": "die Besitzer",
-    "lv": "Vlastníka",
+    "lv": "Majitel",
     "level": "A2"
   },
   {
     "de": "besonders",
-    "lv": "Zvláště • Zvláště • Zvláště",
+    "lv": "Zvláště",
     "level": "A2"
   },
   {
@@ -11266,7 +11266,7 @@ const A2_WORDS = [
       "id": "a2-bestellen",
       "layout": "standardStudy",
       "translation": "Objednat",
-      "explanation": "Hlavní myšlenka: bestellen v každodenním životě nejčastěji znamená objednat nebo rezervovat. Používá se pro jídlo v restauraci, zboží na internetu a někdy i pro rezervaci stolu. Ve výrazu Grüße bestellen znamená zprostředkovat pozdravy. Zemědělský význam „obdělávat pole“ není hlavním významem A2. Pokud jde o zpracování, přesnější slova jsou berbeiten nebo verarbeiten.",
+      "explanation": "bearbeiten nebo verarbeiten",
       "examples": [
         {
           "de": "Ich bestelle eine Pizza.",
@@ -11290,7 +11290,7 @@ const A2_WORDS = [
         },
         {
           "de": "Hast du schon die Tickets bestellt?",
-          "lv": "Už máte objednané vstupenky?"
+          "lv": "Už jsi objednal vstupenky?"
         }
       ],
       "comparison": [
@@ -11311,12 +11311,12 @@ const A2_WORDS = [
         },
         {
           "word": "grüßen",
-          "meaning": "Pozdravit / přenést pozdravy",
+          "meaning": "Pozdravit / předat pozdravy",
           "example": "Grüß deine Mutter! = Pozdravuj mámu!"
         },
         {
           "word": "bearbeiten",
-          "meaning": "Proces",
+          "meaning": "Zpracovávat",
           "example": "Ich bearbeite den Text. = Text zpracovávám."
         }
       ],
@@ -11326,7 +11326,7 @@ const A2_WORDS = [
             "text": "V restauraci a na internetu znamená bestellen téměř vždy objednat."
           },
           {
-            "text": "Na stůl se hodí bestellen i reservieren • Reservieren je nejjasnější slovo pro \"rezervu\"."
+            "text": "U stolu lze použít bestellen i reservieren • Reservieren je nejjasnější slovo pro „rezervovat“."
           }
         ]
       },
@@ -11628,13 +11628,13 @@ const A2_WORDS = [
   },
   {
     "de": "bestimmt",
-    "lv": "Rozhodně",
+    "lv": "Určitě",
     "level": "A2",
     "study": {
       "id": "a2-bestimmt",
       "layout": "standardStudy",
-      "translation": "Rozhodně",
-      "explanation": "Hlavní myšlenka: bestimmt může znamenat „určitě“ nebo „určité/specifické“ v závislosti na kontextu. Když se bestimmt používá jako příslovce, často to znamená „určitě“, „pravděpodobně“ nebo „absolutně“. Když se bestimmt použije jako přídavné jméno, znamená to „jistý“ nebo „konkrétní“. Ve větě Das ist bestimmt richtig vyjadřuje přesvědčení. Ve větě Ich suche eine bestimmte Person popisuje konkrétní osobu.",
+      "translation": "Určitě",
+      "explanation": "Když bestimmt stojí před podstatným jménem, často znamená určitý nebo konkrétní.",
       "examples": [
         {
           "de": "Das ist bestimmt richtig.",
@@ -11980,7 +11980,7 @@ const A2_WORDS = [
   },
   {
     "de": "beten",
-    "lv": "Modlit se k Bohu",
+    "lv": "Modlit se",
     "level": "A2"
   },
   {
@@ -11992,7 +11992,7 @@ const A2_WORDS = [
   },
   {
     "de": "bevor",
-    "lv": "Před",
+    "lv": "Než",
     "level": "A2"
   },
   {
@@ -12002,7 +12002,7 @@ const A2_WORDS = [
   },
   {
     "de": "bewundern",
-    "lv": "Obdivující",
+    "lv": "Obdivovat",
     "level": "A2"
   },
   {
@@ -12035,12 +12035,12 @@ const A2_WORDS = [
     "de": "Birne",
     "de_article": "die",
     "de_plural": "die Birnen",
-    "lv": "Hruška • Žárovka",
+    "lv": "Hruška",
     "level": "A2",
     "study": {
       "id": "a2-birne",
       "layout": "standardStudy",
-      "translation": "Hruška • Žárovka",
+      "translation": "Hruška",
       "explanation": "Hlavní myšlenka: die Birne znamená nejčastěji hrušku, ale může znamenat i žárovku v běžném životě. U ovoce je kontextem jídlo, obchod nebo strom. U žárovky je kontextem lampa, světlo nebo elektřina. die Lampe je lampa, ne ovoce samotné. Pokud musíte být ohledně žárovky velmi přesní, můžete použít také die Glühbirne.",
       "examples": [
         {
@@ -12081,7 +12081,7 @@ const A2_WORDS = [
         },
         {
           "word": "die Lampe",
-          "meaning": "Svítilna",
+          "meaning": "Lampa",
           "example": "Die Lampe ist hell. = Lampa je jasná."
         },
         {
@@ -12101,7 +12101,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Die Birne může znamenat ovoce i cibuli. Je vyžadován kontext.",
+        "text": "Die Birne může znamenat hrušku i žárovku. Rozhoduje kontext.",
         "example": "Eine Birne essen = ēst bumbieri. eine Birne wechseln = nomainīt spuldzi."
       },
       "sectionAccents": {
@@ -12357,22 +12357,13 @@ const A2_WORDS = [
     "de": "Bitte",
     "de_article": "die",
     "de_plural": "die Bitten",
-    "lv": "Žádost",
+    "lv": "Prosba",
     "level": "A2",
     "study": {
       "id": "a2-bitte-study",
       "layout": "standardStudy",
-      "translation": "Žádost",
-      "explanation": [
-        "Hlavní myšlenka: Podstatné jméno se členem zemřít a velkým písmenem. Konkrétní požadavek nebo požadavek.",
-        "Die Bitte znamená hlavně: zdvořilost.",
-        "Často popisuje: zdvořilé slovo.",
-        "Die Bitte v podstatě znamená: žádost/žádost.",
-        "Často charakterizováno: podstatné jméno (zemřít).",
-        "Bitte s malým písmenem je zdvořilé slovo - znamená prosím (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "Die Bitte s velkým písmenem a členem die je podstatné jméno - znamená žádost nebo žádost (Ich habe eine Bitte = mám žádost).",
-        "Množné číslo: zemřít pokousán."
-      ],
+      "translation": "Prosba",
+      "explanation": "Hlavní myšlenka: Podstatné jméno se členem die a velkým písmenem. die Bitte znamená žádost nebo prosbu. bitte s malým písmenem je zdvořilé slovo a znamená prosím. Množné číslo: die Bitten.",
       "examples": [
         {
           "de": "Ich habe eine Bitte.",
@@ -12399,10 +12390,7 @@ const A2_WORDS = [
           "lv": "Žádost je důležitá."
         }
       ],
-      "tip": [
-        "Little bitte = prosím (Bitte schön!, Kaffee, bitte). die Bitte s velkým písmenem = žádost (eine Bitte, meine Bitte).",
-        "Podstatné jméno s členem zemřít a velké písmeno. Konkrétní požadavek nebo požadavek."
-      ],
+      "tip": "Malé bitte = prosím (Bitte schön!, Kaffee, bitte). die Bitte s velkým písmenem = žádost nebo prosba (eine Bitte, meine Bitte).",
       "important": [
         "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
         "Die Bitte s velkým písmenem a člen die je podstatné jméno.",
@@ -12507,7 +12495,7 @@ const A2_WORDS = [
       "id": "a2-bitter",
       "layout": "standardStudy",
       "translation": "Hořký",
-      "explanation": "Hlavní myšlenka: hořký znamená hořkou chuť nebo drsný/bolestivý v přeneseném smyslu. hořký nejčastěji znamená hořký v chuti. Může to také znamenat prudký, ostrý nebo drsný pocit, zkušenost nebo slova. U kávy, bylinek a čokolády je obvykle hořká chuť. Pro ztrátu nebo pravdu, hořký znamená drsný nebo bolestivý. V češtině se ne vždy hodí pouze „hořký“.",
+      "explanation": "Může to také znamenat hořký, trpký nebo bolestný v přeneseném smyslu, například u zkušenosti, ztráty nebo slov. U výrazu bitter kalt znamená velmi studený nebo mrazivý.",
       "examples": [
         {
           "de": "Der Kaffee schmeckt bitter.",
@@ -12531,13 +12519,13 @@ const A2_WORDS = [
         },
         {
           "de": "Der Wind war bitter kalt.",
-          "lv": "Vítr byl velmi ostrý a studený."
+          "lv": "Vítr byl mrazivě studený."
         }
       ],
       "comparison": [
         {
           "word": "bitter",
-          "meaning": "Hořký / prudký / ostrý",
+          "meaning": "Hořký / trpký / bolestný",
           "example": "Der Kaffee ist bitter. = Káva je hořká."
         },
         {
@@ -12552,7 +12540,7 @@ const A2_WORDS = [
         },
         {
           "word": "streng",
-          "meaning": "Pevný / ostrý",
+          "meaning": "Přísný / strohý",
           "example": "Der Lehrer ist streng. = Učitel je přísný."
         },
         {
@@ -12567,12 +12555,12 @@ const A2_WORDS = [
             "text": "O chuti se bitter obvykle překládá jako hořký."
           },
           {
-            "text": "Zážitek, pravda nebo ztráta, hořký často znamená bolestný, drsný nebo ostrý."
+            "text": "U zkušenosti, pravdy nebo ztráty bitter často znamená bolestný, trpký nebo drsný."
           }
         ]
       },
       "important": {
-        "text": "Hořký není jen slovo pro chuť.",
+        "text": "bitter kalt = mrazivý chlad nebo velmi studený.",
         "example": "Bitterer Kaffee = rūgta kafija. bittere Wahrheit = skarba patiesība. bitter kalt = ļoti ass aukstums."
       },
       "sectionAccents": {
@@ -12913,7 +12901,7 @@ const A2_WORDS = [
   },
   {
     "de": "blind",
-    "lv": "Roleta",
+    "lv": "Slepý",
     "level": "A2"
   },
   {
@@ -12925,7 +12913,7 @@ const A2_WORDS = [
   },
   {
     "de": "blühen",
-    "lv": "Kvést • Kvést",
+    "lv": "Kvést",
     "level": "A2"
   },
   {
@@ -12977,12 +12965,12 @@ const A2_WORDS = [
     "de": "Boden",
     "de_article": "der",
     "de_plural": "die Böden",
-    "lv": "Podlahu",
+    "lv": "Podlaha",
     "level": "A2",
     "study": {
       "id": "a2-boden",
       "layout": "standardStudy",
-      "translation": "Podlahu",
+      "translation": "Podlaha",
       "explanation": "Hlavní myšlenka: der Boden znamená podlahu v místnosti, zem/půdu venku nebo dno v určitém kontextu. der Boden často znamená podlahu v místnosti. Venku může Boden znamenat zemi nebo půdu. Obrazně to může znamenat základ nebo pevný základ. V kontextu láhve, sklenice nebo jezera může Boden znamenat dno. V některých oblastech nebo kontextech může Boden také znamenat podkroví, ale hlavní významy A2 jsou podlaha, země a dno.",
       "examples": [
         {
@@ -13003,7 +12991,7 @@ const A2_WORDS = [
         },
         {
           "de": "Das steht auf festem Boden.",
-          "lv": "Stojí na pevných základech."
+          "lv": "Stojí na pevném základě."
         },
         {
           "de": "Am Boden der Flasche ist noch Wasser.",
@@ -13437,17 +13425,17 @@ const A2_WORDS = [
   },
   {
     "de": "borgen",
-    "lv": "Půjčovat • Půjčovat",
+    "lv": "Půjčit",
     "level": "A2",
     "study": {
       "id": "a2-borgen",
       "layout": "standardStudy",
-      "translation": "Půjčovat • Půjčovat",
-      "explanation": "Hlavní myšlenka: borgen může znamenat půjčit i půjčit a směr určuje věta. borgen může znamenat jak půjčovat, tak půjčovat. Směr je jasný podle osoby a dativu. Když něco vezmu od druhého, v češtině je to půjčit si. Pokud dám čas někomu jinému, v češtině je to půjčit. V každodenním životě se leihen také často používá s velmi podobným významem. Proto je třeba borgen číst v kontextu.",
+      "translation": "Půjčit",
+      "explanation": "Pokud něco dočasně půjčím někomu jinému, v češtině je to půjčit.",
       "examples": [
         {
           "de": "Kann ich mir dein Fahrrad borgen?",
-          "lv": "Mohu si půjčit vaše kolo"
+          "lv": "Mohu si půjčit tvoje kolo?"
         },
         {
           "de": "Ich borge dir mein Buch.",
@@ -13504,7 +13492,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Význam borgen závisí na směru.",
-        "example": "Ich borge mir etwas = es aizņemos. Ich borge dir etwas = es tev aizdodu."
+        "example": "Ich borge mir etwas = půjčuji si něco. Ich borge dir etwas = půjčuji ti něco."
       },
       "sectionAccents": {
         "examples": [
@@ -13808,13 +13796,13 @@ const A2_WORDS = [
   },
   {
     "de": "böse",
-    "lv": "Podlý • Vzteklý",
+    "lv": "Zlý",
     "level": "A2",
     "study": {
       "id": "a2-böse",
       "layout": "standardStudy",
-      "translation": "Podlý • Vzteklý",
-      "explanation": "Hlavní myšlenka: böse znamená zlý nebo naštvaný v závislosti na kontextu. Může to znamenat zlo ohledně charakteru nebo jednání člověka. V každodenní konverzaci böse auf jemanden sein znamená být na někoho naštvaný. Špatné je obvykle schlecht. Rage je přesněji zornig nebo velmi naštvaný.",
+      "translation": "Zlý",
+      "explanation": "Zuřivý se německy řekne přesněji zornig; böse obvykle znamená zlý nebo naštvaný.",
       "examples": [
         {
           "de": "Der Hund ist nicht böse.",
@@ -13880,7 +13868,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Böse není univerzální slovo pro „špatný“. Na úrovni A2 jsou nejdůležitější významy zlý a naštvaný.",
-        "example": "Ein böser Mensch = ļauns cilvēks. Ich bin böse auf dich = es esmu dusmīgs uz tevi."
+        "example": "Ein böser Mensch = zlý člověk. Ich bin böse auf dich = jsem na tebe naštvaný."
       },
       "sectionAccents": {
         "examples": [
@@ -14198,14 +14186,14 @@ const A2_WORDS = [
   },
   {
     "de": "brav",
-    "lv": "Poslušný",
+    "lv": "Hodný",
     "level": "A2",
     "study": {
       "id": "a2-brav",
       "layout": "standardStudy",
-      "translation": "Poslušný",
+      "translation": "Hodný",
       "explanation": [
-        "Hlavní myšlenka: statečnost znamená poslušné, spořádané nebo dobře vychované chování.",
+        "Hlavní myšlenka: brav označuje poslušné, spořádané nebo dobře vychované chování.",
         "Brav se používá hlavně pro děti, zvířata nebo lidské chování.",
         "Znamená to, že se člověk nebo zvíře chová klidně, spořádaně a poslušně.",
         "Brav není totéž co gut.",
@@ -14220,7 +14208,7 @@ const A2_WORDS = [
         },
         {
           "de": "Sei brav!",
-          "lv": "Buď úhledný!"
+          "lv": "Buď hodný!"
         },
         {
           "de": "Der Hund war heute brav.",
@@ -14228,7 +14216,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Kinder waren sehr brav.",
-          "lv": "Děti byly velmi uklizené."
+          "lv": "Děti byly velmi hodné."
         },
         {
           "de": "Er ist ein guter Mensch.",
@@ -14272,12 +14260,12 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Pokud jde o chování dítěte nebo zvířete, statečný často znamená poslušný nebo spořádaný.",
+        "Pokud jde o chování dítěte nebo zvířete, brav často znamená poslušný nebo spořádaný.",
         "Pokud jde o charakter člověka obecně, „dobrý“ je obvykle gut, nett nebo freundlich, ne statečný."
       ],
       "important": [
         "Brav není kořen slova pro „dobrý“.",
-        "Das Kind ist brav = dítě je poslušné / pořádkumilovné.",
+        "Das Kind ist brav = dítě je poslušné / hodné.",
         "Er ist ein guter Mensch = je to dobrý člověk.",
         "Sie ist nett = je hodná."
       ],
@@ -14615,7 +14603,7 @@ const A2_WORDS = [
     "de": "Bremse",
     "de_article": "die",
     "de_plural": "die Bremsen",
-    "lv": "Brzda • Bouchnutí",
+    "lv": "Brzda",
     "level": "A2"
   },
   {
@@ -14625,19 +14613,19 @@ const A2_WORDS = [
   },
   {
     "de": "brennen",
-    "lv": "Spálit",
+    "lv": "Hořet",
     "level": "A2",
     "study": {
       "id": "a2-brennen",
       "layout": "standardStudy",
-      "translation": "Spálit",
+      "translation": "Hořet",
       "explanation": [
-        "Hlavní myšlenka: brennen znamená hořet, hořet nebo hořet, v závislosti na kontextu.",
+        "Hlavní myšlenka: brennen znamená hořet, pálit nebo vypalovat podle kontextu.",
         "Když jde o oheň, světlo nebo svíčku, brennen znamená hořet.",
         "Když se odkazuje na pocit v těle, brennen často znamená pálit nebo bolet.",
         "U počítačů může brennen znamenat vypálení na disk.",
         "Brennen není kořenové slovo znamenající „zapálit“ • Obvykle se k tomu používá anzünden.",
-        "Brennen není totéž co verbrennen, což znamená hořet nebo hořet."
+        "Brennen není totéž co verbrennen, které znamená spálit nebo popálit."
       ],
       "examples": [
         {
@@ -14668,7 +14656,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "brennen",
-          "meaning": "Pálit / pálit / palčivě bolet",
+          "meaning": "Hořet / pálit / palčivě bolet",
           "example": "Das Feuer brennt. = Oheň hoří."
         },
         {
@@ -14683,12 +14671,12 @@ const A2_WORDS = [
         },
         {
           "word": "löschen",
-          "meaning": "Vymazat / smazat",
+          "meaning": "Uhasit / hasit",
           "example": "Die Feuerwehr löscht das Feuer. = Hasiči požár likvidují."
         },
         {
           "word": "aufnehmen",
-          "meaning": "Záznam / záznam",
+          "meaning": "Nahrávat / zaznamenat",
           "example": "Ich nehme ein Video auf. = Natáčím video."
         }
       ],
@@ -14699,7 +14687,7 @@ const A2_WORDS = [
       "important": [
         "Brennen ≠ zapálit.",
         "Zapálit = anzünden.",
-        "Burn = verbrennen.",
+        "Spálit = verbrennen.",
         "Meine Augen brennen znamená, že oči hoří, ne že hoří ohněm."
       ],
       "sectionAccents": {
@@ -14945,7 +14933,7 @@ const A2_WORDS = [
     "de": "Briefmarke",
     "de_article": "die",
     "de_plural": "die Briefmarken",
-    "lv": "Razítko",
+    "lv": "Poštovní známka",
     "level": "A2"
   },
   {
@@ -14994,7 +14982,7 @@ const A2_WORDS = [
     "de": "Bügeleisen",
     "de_article": "das",
     "de_plural": "die Bügeleisen",
-    "lv": "Železo",
+    "lv": "Žehlička",
     "level": "A2"
   },
   {
@@ -15025,7 +15013,7 @@ const A2_WORDS = [
     "de": "Bürste",
     "de_article": "die",
     "de_plural": "die Bürsten",
-    "lv": "Štětec",
+    "lv": "Kartáč",
     "level": "A2"
   },
   {
@@ -15046,7 +15034,7 @@ const A2_WORDS = [
     "de": "Chance",
     "de_article": "die",
     "de_plural": "die Chancen",
-    "lv": "Příležitost • Vyhlídka • Příležitost",
+    "lv": "Šance",
     "level": "A2"
   },
   {
@@ -15105,17 +15093,17 @@ const A2_WORDS = [
   },
   {
     "de": "dabei",
-    "lv": "Současnost",
+    "lv": "Přitom",
     "level": "A2",
     "study": {
       "id": "a2-dabei",
       "layout": "standardStudy",
-      "translation": "Současnost",
+      "translation": "Přitom",
       "explanation": [
         "Hlavní myšlenka: dabei znamená přítomný, spolu s, nebo navíc, v závislosti na větě.",
         "Může to znamenat, že někdo nebo něco je přítomno na akci.",
         "Může to také znamenat s vámi nebo s vámi.",
-        "V hovorové řeči znamená dabe často také kromě • „vedle“ je vedlejší varianta, nikoli význam hlavního názvu.",
+        "V hovorové řeči dabei často znamená také přitom nebo navíc; „kromě“ není jeho hlavní význam.",
         "Proto prostý překlad slova „současnost“ není vždy dostačující."
       ],
       "examples": [
@@ -15125,11 +15113,11 @@ const A2_WORDS = [
         },
         {
           "de": "Hast du deinen Ausweis dabei?",
-          "lv": "Máte u sebe pas/doklad?"
+          "lv": "Máš u sebe průkaz?"
         },
         {
           "de": "Ich war dabei.",
-          "lv": "Byl jsem tam"
+          "lv": "Byl jsem u toho."
         },
         {
           "de": "Er hat geholfen und dabei viel gelernt.",
@@ -15141,13 +15129,13 @@ const A2_WORDS = [
         },
         {
           "de": "Beim Kochen höre ich Musik dabei.",
-          "lv": "Při vaření občas poslouchám hudbu."
+          "lv": "Při vaření přitom poslouchám hudbu."
         }
       ],
       "comparison": [
         {
           "word": "dabei",
-          "meaning": "Přítomný / s / kromě",
+          "meaning": "U toho / s sebou / přitom",
           "example": "Ich habe den Schlüssel dabei. = Klíč mám u sebe."
         },
         {
@@ -15174,7 +15162,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pokud můžete česky říct „Jsem s tebou“, němčina je často užitečná."
+            "text": "Pokud můžete česky říct „mám to u sebe“ nebo „mám to s sebou“, často se německy použije dabei."
           },
           {
             "text": "Pokud je myšlenka „vedle“, používá se dabei k přidání další myšlenky o stejné situaci."
@@ -15182,7 +15170,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Dabe není totéž jako jen 'da'.",
+        "text": "Dabei není totéž co jen „da“.",
         "example": "Ich bin da = Es esmu klāt. Ich bin dabei = Es piedalos / esmu iesaistīts / esmu klāt procesā. Ich habe es dabei = Man tas ir līdzi."
       },
       "sectionAccents": {
@@ -15510,14 +15498,14 @@ const A2_WORDS = [
   },
   {
     "de": "dafür",
-    "lv": "Za to • Že • Nicméně",
+    "lv": "Za to",
     "level": "A2",
     "study": {
       "id": "a2-dafür",
       "layout": "standardStudy",
-      "translation": "Za to • Že • Nicméně",
+      "translation": "Za to",
       "explanation": [
-        "Hlavní myšlenka: dafür znamená pro to, to nebo jakkoli v závislosti na větě.",
+        "Hlavní myšlenka: dafür znamená pro to, na to nebo zato podle věty.",
         "Dafür často odkazuje na věc nebo akci uvedenou výše: o tom.",
         "Může to také znamenat, pokud jde o účel, potřebu nebo zamýšlené použití.",
         "Naproti tomu dafür může znamenat nicméně.",
@@ -15586,13 +15574,13 @@ const A2_WORDS = [
             "text": "Pokud se česky řekne „za to“, němčina se k tomu často hodí."
           },
           {
-            "text": "Když je ve větě opak, dafar často znamená „nicméně“."
+            "text": "Když je ve větě kontrast, dafür často znamená „zato“."
           }
         ]
       },
       "important": {
-        "text": "Dafar není totéž co damit.",
-        "example": "Dafür = par to / tam. damit = ar to vai lai. Ich bin dafür = Es esmu par to."
+        "text": "Dafür není totéž co damit.",
+        "example": "Dafür = pro to / na to. Damit = s tím nebo aby."
       },
       "sectionAccents": {
         "examples": [
@@ -15923,7 +15911,7 @@ const A2_WORDS = [
   },
   {
     "de": "damals",
-    "lv": "Pak • V té době",
+    "lv": "Tehdy",
     "level": "A2"
   },
   {
