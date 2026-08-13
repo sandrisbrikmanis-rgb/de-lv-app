@@ -2964,8 +2964,7 @@ const A1_WORDS = [
               "besuchen"
             ],
             "purple": [
-              "navštívit",
-              "navštěvovat"
+              "bez předložky"
             ]
           }
         },
@@ -3472,11 +3471,18 @@ const A1_WORDS = [
         "important": [
           {
             "green": [
-              "die Bitte",
+              "die Bitte"
+            ]
+          },
+          {
+            "green": [
               "die Bitten"
             ]
           },
           {
+            "green": [
+              "Bitte"
+            ],
             "purple": [
               "Podstatné jméno",
               "velkým písmenem"
@@ -5372,18 +5378,35 @@ const A1_WORDS = [
             "blue": [
               "ein"
             ],
-            "red": [
-              "neurčitý člen"
+            "green": [
+              "mužský rod",
+              "nominativu"
             ]
           },
           {
             "blue": [
-              "eine",
+              "ein"
+            ],
+            "green": [
+              "střední rod",
+              "nominativu"
+            ]
+          },
+          {
+            "blue": [
+              "eine"
+            ],
+            "green": [
+              "ženský rod"
+            ]
+          },
+          {
+            "blue": [
               "einen"
             ],
             "green": [
-              "ženský rod",
-              "akuzativ"
+              "mužský rod",
+              "akuzativu"
             ]
           }
         ]
@@ -6059,15 +6082,20 @@ const A1_WORDS = [
             ]
           },
           {
-            "red": [
-              "ich"
-            ],
             "blue": [
               "es"
             ],
             "purple": [
               "to",
               "ono"
+            ]
+          },
+          {
+            "red": [
+              "ich"
+            ],
+            "purple": [
+              "já"
             ]
           }
         ]
