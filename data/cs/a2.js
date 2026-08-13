@@ -15923,16 +15923,16 @@ const A2_WORDS = [
   },
   {
     "de": "damit",
-    "lv": "S tím",
+    "lv": "Tím",
     "level": "A2",
     "study": {
       "id": "a2-damit",
       "layout": "standardStudy",
-      "translation": "S tím",
+      "translation": "Tím",
       "explanation": [
-        "Hlavní myšlenka: damit znamená s, když odkazuje na věc, nebo nechat, když odkazuje na cíl.",
+        "Hlavní myšlenka: damit znamená s tím, když odkazuje na věc, nebo aby, když vyjadřuje cíl.",
         "Pokud damit nahradí výše zmíněnou věc, překládá se to jako s tím.",
-        "Když damit představí pomocnou branku, často se to překládá jako k.",
+        "Když damit uvádí účelovou vedlejší větu, překládá se často jako aby.",
         "Damit není totéž jako mit dem, i když obojí může v češtině vypadat podobně.",
         "Pokud je „proto“ důvodem myšlenka, obvykle se místo slova damit používá deshalb."
       ],
@@ -15969,7 +15969,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "damit",
-          "meaning": "S tím / do",
+          "meaning": "S tím / aby",
           "example": "Ich lerne, damit ich bestehe. = Studuji, abych prošel."
         },
         {
@@ -15999,8 +15999,8 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Damit jako \"to\" mění slovosled v pomocné klauzi.",
-        "example": "Sprich langsam, damit ich dich verstehe. Nejaukt damit ar dafür. dafür = par to • Damit = ar to / lai."
+        "text": "Damit ve významu „aby“ mění slovosled ve vedlejší větě.",
+        "example": "Sprich langsam, damit ich dich verstehe. Nezaměňujte damit s dafür. Dafür = pro to • damit = s tím / aby."
       },
       "sectionAccents": {
         "examples": [
@@ -16289,13 +16289,13 @@ const A2_WORDS = [
           "Instrumentu",
           "Galvenie",
           "Jāatdala",
-          "Nozīmēt",
+          "Znamenat",
           "Teikumā",
           "Vārdiem",
           "Mērķis",
           "Damit",
           "Lietu",
-          "Tāpēc",
+          "Proto",
           "Viens",
           "Divi",
           "Runa"
@@ -16326,18 +16326,18 @@ const A2_WORDS = [
   },
   {
     "de": "danach",
-    "lv": "Po tom • Po tom",
+    "lv": "Potom",
     "level": "A2"
   },
   {
     "de": "Dank",
     "de_article": "der",
-    "lv": "Vděčnost",
+    "lv": "Vděk",
     "level": "A2",
     "study": {
       "id": "study-der-dank",
       "layout": "standardStudy",
-      "translation": "Vděčnost",
+      "translation": "Vděk",
       "explanation": [
         "Hlavní myšlenka: der Dank je podstatné jméno a znamená díky jako pojem. Hlavním významem je vděčnost – nezaměňovat s hovorovou odpovědí danke.",
         "Nejčastější fráze jsou Vielen Dank! a Herzlichen Dank! — znamenají \"moc děkuji!\" a \"moc děkuji!\".",
@@ -16352,7 +16352,7 @@ const A2_WORDS = [
         },
         {
           "de": "Herzlichen Dank!",
-          "lv": "Děkuji moc!"
+          "lv": "Srdečné díky!"
         },
         {
           "de": "Danke schön!",
@@ -16360,7 +16360,7 @@ const A2_WORDS = [
         },
         {
           "de": "Nein, danke.",
-          "lv": "Ne děkuji"
+          "lv": "Ne, děkuji."
         },
         {
           "de": "Ich danke Ihnen für die Hilfe.",
@@ -16399,7 +16399,7 @@ const A2_WORDS = [
         {
           "word": "bedanken (sich)",
           "meaning": "Formálně poděkovat",
-          "example": "Ich bedanke mich bei Ihnen. = Děkuji ti."
+          "example": "Ich bedanke mich bei Ihnen. = Děkuji vám."
         }
       ],
       "tip": {
@@ -16719,18 +16719,18 @@ const A2_WORDS = [
   },
   {
     "de": "darauf",
-    "lv": "Na to • Na to • Po tom",
+    "lv": "Na to",
     "level": "A2",
     "study": {
       "id": "a2-darauf",
       "layout": "standardStudy",
-      "translation": "Na to • Na to • Po tom",
+      "translation": "Na to",
       "explanation": [
-        "Hlavní myšlenka: daraaf znamená na tom, na tom nebo po, v závislosti na kontextu.",
-        "Když přijde na povrch, daraf znamená na něm.",
+        "Hlavní myšlenka: darauf znamená na to, na tom nebo poté podle kontextu.",
+        "Když označuje umístění na povrchu, darauf znamená „na tom“ nebo „na něm“.",
         "Pokud se jedná o odkaz na věc uvedenou výše, znamená daraaf to.",
         "V chronologickém pořadí může darauf znamenat po.",
-        "Darauf není totéž co darufer, protože darufer obvykle znamená asi nebo nahoře."
+        "Darauf není totéž co darüber, protože darüber obvykle znamená „o tom“ nebo „nad tím“."
       ],
       "examples": [
         {
@@ -16739,11 +16739,11 @@ const A2_WORDS = [
         },
         {
           "de": "Darauf freue ich mich.",
-          "lv": "Z toho mám radost. / Na to se těším."
+          "lv": "Na to se těším."
         },
         {
           "de": "Du kannst dich darauf verlassen.",
-          "lv": "Můžete se na to spolehnout."
+          "lv": "Můžeš se na to spolehnout."
         },
         {
           "de": "Ich habe keine Antwort darauf.",
@@ -16766,12 +16766,12 @@ const A2_WORDS = [
         {
           "word": "darauf",
           "meaning": "Na tom / na tom / po tom",
-          "example": "Ich warte darauf. = Těším se na to."
+          "example": "Ich warte darauf. = Čekám na to."
         },
         {
           "word": "auf das",
           "meaning": "Na ten konkrétní případ",
-          "example": "Ich lege es auf das Buch. = Dal jsem to na knihu."
+          "example": "Ich lege es auf das Buch. = Pokládám to na knihu."
         },
         {
           "word": "danach",
@@ -16790,13 +16790,13 @@ const A2_WORDS = [
             "text": "Podívejte se na sloveso: warten auf → darauf warten."
           },
           {
-            "text": "Pokud má češtině „na to“, němčina bude mít často darauf."
+            "text": "Pokud je v češtině „na to“, němčina bude mít často darauf."
           }
         ]
       },
       "important": {
         "text": "Darauf freue ich mich doslova znamená „tím se raduji“.",
-        "example": "Tas nozīmē: es to gaidu ar prieku. Ich warte darauf = Es to gaidu. Ich verlasse mich darauf = Es uz to paļaujos."
+        "example": "To znamená: těším se na to. Ich warte darauf = Čekám na to. Ich verlasse mich darauf = Spoléhám na to."
       },
       "sectionAccents": {
         "examples": [
@@ -17071,7 +17071,7 @@ const A2_WORDS = [
           "Uz tā"
         ],
         "yellow": [
-          "Pēc tam",
+          "Potom",
           "Davor"
         ],
         "orange": [
@@ -17100,8 +17100,8 @@ const A2_WORDS = [
       "translation": "O tom",
       "explanation": [
         "Hlavní myšlenka: nejčastěji o tom myslí darüber.",
-        "Pokud jde o téma, rozhovor, myšlenku nebo pocit, darber se obvykle překládá jako asi.",
-        "V prostorovém smyslu může darüber znamenat nad nebo za.",
+        "Pokud jde o téma, rozhovor, myšlenku nebo pocit, darüber se obvykle překládá jako „o tom“.",
+        "V prostorovém smyslu může darüber znamenat „nad tím“ nebo „přes to“.",
         "Kontext určuje, zda se jedná o předmět nebo místo.",
         "Darüber není totéž co darauf, protože darauf častěji znamená to, upon nebo after."
       ],
@@ -17138,7 +17138,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "darüber",
-          "meaning": "O tom / nad tím / nad tím",
+          "meaning": "O tom / nad tím / přes to",
           "example": "Wir sprechen darüber. = Mluvíme o tom."
         },
         {
@@ -17163,7 +17163,7 @@ const A2_WORDS = [
             "text": "Je-li sloveso sprechen über nebo reden über, bude tvar zájmena často darüber."
           },
           {
-            "text": "Když přijde na to být výš, darber znamená „nad tím“."
+            "text": "Když jde o polohu výše, darüber znamená „nad tím“."
           }
         ]
       },
@@ -17385,7 +17385,7 @@ const A2_WORDS = [
                   "atrašanās",
                   "augstāk",
                   "darüber",
-                  "virs tā",
+                  "nad tím",
                   "vietu",
                   "runa"
                 ],
@@ -17413,7 +17413,7 @@ const A2_WORDS = [
                 "darüber"
               ],
               "yellow": [
-                "virs tā"
+                "nad tím"
               ],
               "orange": [
                 "par to",
@@ -17439,7 +17439,7 @@ const A2_WORDS = [
           "Darbības",
           "Sprechen",
           "Darüber",
-          "Nozīmēt",
+          "Znamenat",
           "Vārdiem",
           "Sarunu",
           "Bieži",
@@ -17459,7 +17459,7 @@ const A2_WORDS = [
           "Pāri"
         ],
         "yellow": [
-          "Virs tā",
+          "Nad tím",
           "Daran"
         ],
         "orange": [
@@ -17488,7 +17488,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Proto",
       "explanation": [
-        "Hlavní myšlenka: darum nejčastěji znamená kvůli nebo kvůli.",
+        "Hlavní myšlenka: darum nejčastěji znamená „proto“ nebo „tudíž“.",
         "Používá se, když následující věta vyjadřuje závěr nebo výsledek důvodu.",
         "Méně často může darum znamenat kolem, když se jedná o místo nebo předmět.",
         "Proto na úrovni A2 je hlavní význam tedy / proto.",
@@ -17501,7 +17501,7 @@ const A2_WORDS = [
         },
         {
           "de": "Es regnet, darum fahren wir nicht.",
-          "lv": "Prší, tak nejedeme."
+          "lv": "Prší, proto nejedeme."
         },
         {
           "de": "Darum habe ich dich angerufen.",
@@ -17554,7 +17554,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Když věta vysvětluje příčinu nebo následek, darum často znamená „protože“."
+            "text": "Když věta vyjadřuje důsledek nebo výsledek, darum často znamená „proto“."
           },
           {
             "text": "Výraz darum geht es znamená „o tom to je“."
@@ -17562,7 +17562,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Darum není jen „kolem toho“.",
+        "text": "Darum neznamená jen „kolem toho“.",
         "example": "Darum bleibe ich zu Hause = Tāpēc es palieku mājās. Darum geht es = Par to ir runa. Mach dir darum keine Sorgen = Par to neuztraucies."
       },
       "sectionAccents": {
@@ -17777,7 +17777,7 @@ const A2_WORDS = [
                   "darum"
                 ],
                 "orange": [
-                  "tāpēc"
+                  "proto"
                 ],
                 "yellow": [
                   "paskaidro",
@@ -17827,7 +17827,7 @@ const A2_WORDS = [
               ],
               "orange": [
                 "par to",
-                "tāpēc"
+                "proto"
               ],
               "red": [
                 "palieku",
@@ -17835,7 +17835,7 @@ const A2_WORDS = [
                 "Darum",
                 "Hause",
                 "mājās",
-                "Tāpēc"
+                "Proto"
               ]
             }
           }
@@ -17849,13 +17849,13 @@ const A2_WORDS = [
           "Formālais",
           "Dabiskāk",
           "Iemeslu",
-          "Nozīmēt",
+          "Znamenat",
           "Bieži",
           "Darum",
           "Lieto",
           "Sekas",
           "Tādēļ",
-          "Tāpēc",
+          "Proto",
           "Vietu",
           "Nekā",
           "Runa",
@@ -17871,7 +17871,7 @@ const A2_WORDS = [
         ],
         "orange": [
           "Par to",
-          "Tāpēc"
+          "Proto"
         ],
         "purple": [
           "Tāpēc • Tādēļ • Ap to",
@@ -17890,17 +17890,17 @@ const A2_WORDS = [
   },
   {
     "de": "davon",
-    "lv": "O tom • O tom",
+    "lv": "Z toho",
     "level": "A2",
     "study": {
       "id": "a2-davon",
       "layout": "standardStudy",
-      "translation": "O tom • O tom",
+      "translation": "Z toho",
       "explanation": [
         "Hlavní myšlenka: davon znamená „od toho“ nebo „o tom“ v závislosti na kontextu.",
         "Pokud jde o původ nebo část, davon obvykle znamená od.",
         "Pokud jde o téma, slyšení nebo vědění, davon o tom často myslí.",
-        "Davon není totéž co darber, protože darber je častěji o tématu nebo konverzaci.",
+        "Davon není totéž co darüber, protože darüber se častěji používá pro téma nebo rozhovor.",
         "Můžete použít von dem s konkrétním podstatným jménem."
       ],
       "examples": [
@@ -17910,7 +17910,7 @@ const A2_WORDS = [
         },
         {
           "de": "Nimm etwas davon.",
-          "lv": "Něco si z toho vzít."
+          "lv": "Vezmi si z toho něco."
         },
         {
           "de": "Ich weiß nichts davon.",
@@ -17918,7 +17918,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ein Teil davon ist kaputt.",
-          "lv": "Část je rozbitá."
+          "lv": "Část z toho je rozbitá."
         },
         {
           "de": "Wir sprechen darüber.",
@@ -17931,10 +17931,10 @@ const A2_WORDS = [
       ],
       "tip": [
         "Pokud můžete česky říct „Slyšel jsem o tom / vím o tom“, davon často pracuje v němčině.",
-        "Když se mluví o tématu konverzace, často se používá déberer."
+        "Když se mluví o tématu rozhovoru, často se používá darüber."
       ],
       "important": [
-        "Davon může znamenat jak od, tak kolem.",
+        "Davon může znamenat „z toho“ i „o tom“.",
         "Darüber má v konverzacích obvykle blíže k „o tom“.",
         "Daraus znamená z toho, pokud něco vzniká nebo vychází."
       ],
@@ -18132,17 +18132,17 @@ const A2_WORDS = [
   },
   {
     "de": "davor",
-    "lv": "Vpředu",
+    "lv": "Před tím",
     "level": "A2",
     "study": {
       "id": "a2-davor",
       "layout": "standardStudy",
-      "translation": "Vpředu",
+      "translation": "Před tím",
       "explanation": [
-        "Hlavní myšlenka: davor může znamenat místo před, čas před nebo „od toho“ po strachu/varování.",
+        "Hlavní myšlenka: davor může označovat místo před něčím, čas předtím nebo „před tím“ po slovesech strachu či varování.",
         "Prostorově znamená davor před něčím.",
         "Ve smyslu času davor znamená dříve.",
-        "Se strachem nebo varovným davor prostředky z toho.",
+        "Po slovesech vyjadřujících strach nebo varování davor znamená „před tím“.",
         "Kontext ukazuje, zda jde o místo, čas nebo reakci."
       ],
       "examples": [
@@ -18164,7 +18164,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Tür ist davor.",
-          "lv": "Dveře jsou před námi."
+          "lv": "Dveře jsou před tím."
         },
         {
           "de": "Davor habe ich nichts gewusst.",
@@ -18443,14 +18443,14 @@ const A2_WORDS = [
   },
   {
     "de": "dazu",
-    "lv": "Za to",
+    "lv": "K tomu",
     "level": "A2",
     "study": {
       "id": "a2-dazu",
       "layout": "standardStudy",
-      "translation": "Za to",
+      "translation": "K tomu",
       "explanation": [
-        "Hlavní myšlenka: dazu znamená „do“, „v“, „přítomnost“ nebo „kromě“, v závislosti na kontextu.",
+        "Hlavní myšlenka: dazu znamená „k tomu“, „navíc“ nebo „k tomu účelu“ podle kontextu.",
         "Dazu často odkazuje na věc nebo akci zmíněnou výše.",
         "Může to znamenat vedle něj nebo přítomné, pokud je něco přidáno.",
         "Může to znamenat, že pokud jde o postoj nebo názor.",
@@ -18463,7 +18463,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich nehme noch Brot dazu.",
-          "lv": "Přinesu více chleba."
+          "lv": "Vezmu si k tomu ještě chleba."
         },
         {
           "de": "Dazu habe ich keine Zeit.",
@@ -18485,7 +18485,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "dazu",
-          "meaning": "K tomu / k tomu / současnému / navíc",
+          "meaning": "K tomu / k tomu / k tomu navíc / navíc",
           "example": "Was sagst du dazu? = Co na to říkáš?"
         },
         {
@@ -18495,7 +18495,7 @@ const A2_WORDS = [
         },
         {
           "word": "dabei",
-          "meaning": "Přítomný / s / kromě",
+          "meaning": "Při tom / u toho / navíc",
           "example": "Ich war dabei. = Byl jsem tam."
         },
         {
@@ -18505,11 +18505,11 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Pokud se něco přidá, dazu se často překládá jako přítomný nebo vedle něj.",
+        "Pokud se něco přidává, dazu se často překládá jako „k tomu“ nebo „navíc“.",
         "Pokud se ptáte na názor, Was sagst du dazu? znamená \"Co na to říkáš?\""
       ],
       "important": [
-        "Neexistuje pro to jediné českýé slovo.",
+        "Neexistuje pro něj jedno jediné české slovo.",
         "Překlad by měl být zvolen podle situace: k tomu, k tomu, současnému nebo navíc."
       ],
       "sectionAccents": {
@@ -18763,7 +18763,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich brauche eine Decke.",
-          "lv": "Potřebuji deku"
+          "lv": "Potřebuji deku."
         },
         {
           "de": "Die Lampe hängt an der Decke.",
@@ -19099,12 +19099,12 @@ const A2_WORDS = [
   },
   {
     "de": "denn",
-    "lv": "Protože",
+    "lv": "Vždyť",
     "level": "A2",
     "study": {
       "id": "a2-denn",
       "layout": "standardStudy",
-      "translation": "Protože",
+      "translation": "Vždyť",
       "explanation": [
         "Hlavní myšlenka: denn může znamenat „protože“ nebo posílit význam v otázkách jako českýé „pak“.",
         "Když denn spojuje dvě myšlenky, často to znamená protože.",
@@ -19119,7 +19119,7 @@ const A2_WORDS = [
         },
         {
           "de": "Was machst du denn?",
-          "lv": "Co potom děláš"
+          "lv": "Co vlastně děláš?"
         },
         {
           "de": "Warum denn?",
@@ -19131,7 +19131,7 @@ const A2_WORDS = [
         },
         {
           "de": "Wer ist denn das?",
-          "lv": "Co je potom?"
+          "lv": "Kdo to je?"
         },
         {
           "de": "Dann gehen wir nach Hause.",
@@ -19141,7 +19141,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "denn",
-          "meaning": "Protože / pak otázky",
+          "meaning": "Protože / částice v otázkách",
           "example": "Was machst du denn? = Co potom děláš"
         },
         {
@@ -19162,7 +19162,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "V kladné větě se denn často překládá jako jo.",
-        "V otázkách je denn často českýý, pak: Byl denn? = Co potom?"
+        "V otázkách se denn obvykle nepřekládá doslova; například Was machst du denn? = Co vlastně děláš?"
       ],
       "important": [
         "Denn a dann nejsou totéž.",
@@ -19434,17 +19434,17 @@ const A2_WORDS = [
   },
   {
     "de": "deshalb",
-    "lv": "Proto • Proto",
+    "lv": "Proto",
     "level": "A2"
   },
   {
     "de": "deswegen",
-    "lv": "Proto • Proto",
+    "lv": "Proto",
     "level": "A2"
   },
   {
     "de": "deutlich",
-    "lv": "Jasný • Jasný • Srozumitelný",
+    "lv": "Jasný",
     "level": "A2"
   },
   {
@@ -19456,9 +19456,9 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Tlustý",
       "explanation": [
-        "Hlavní myšlenka: péro znamená tlustý, když se odkazuje na osobu nebo zvíře, a tlustý, když se odkazuje na předmět, vrstvu nebo knihu.",
-        "Pro člověka může péro znamenat tlustý, ale může to znít přímo nebo nezdvořile.",
-        "Pro knihu, stěnu, vrstvu nebo látku znamená péro tlustý.",
+        "Hlavní myšlenka: dick znamená „tlustý“ u lidí a zvířat a „silný“ či „tlustý“ u předmětů, vrstev nebo knih.",
+        "U člověka může dick znamenat „tlustý“, ale může to znít přímo nebo nezdvořile.",
+        "U knihy, stěny, vrstvy nebo látky znamená dick „tlustý“ či „silný“ podle kontextu.",
         "Péro není totéž co breit.",
         "Opak je často dünn."
       ],
@@ -19496,7 +19496,7 @@ const A2_WORDS = [
         },
         {
           "word": "fett",
-          "meaning": "Tuk / tuk",
+          "meaning": "Tučný / mastný",
           "example": "Das Essen ist fett. = Jídlo je mastné."
         },
         {
@@ -19516,11 +19516,11 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Na předmětech, péro často znamená tlustý.",
+        "U předmětů dick často znamená „tlustý“ nebo „silný“.",
         "Pro lidi je lepší používat opatrně, protože péro může znít urážlivě."
       ],
       "important": [
-        "Čurák ≠ střeva.",
+        "Dick ≠ gut.",
         "Péro a dünn jsou často protikladné: tlustý/tenký nebo tlustý/tenký.",
         "Breit znamená široký, ne tlustý."
       ],
@@ -19828,12 +19828,12 @@ const A2_WORDS = [
   },
   {
     "de": "doch",
-    "lv": "Však",
+    "lv": "Přece",
     "level": "A2",
     "study": {
       "id": "a2-doch",
       "layout": "standardStudy",
-      "translation": "Však",
+      "translation": "Přece",
       "explanation": "Hlavní myšlenka: doch pomáhá vyjádřit kontrast, námitku nebo hovorové posílení. doch je jedním z nejdůležitějších slov v německém hovorovém jazyce. Může to znamenat „nicméně“ nebo „ale“, když mluvíme proti předchozí myšlence. V odpovědích doch často znamená opačnou odpověď na negativní otázku. Hovorově může doch posílit žádost nebo nutkání. V mnoha větách se doch nepřekládá doslovně, ale mění náladu věty.",
       "examples": [
         {
@@ -19842,7 +19842,7 @@ const A2_WORDS = [
         },
         {
           "de": "Komm doch mit!",
-          "lv": "Pojďte dál!"
+          "lv": "Pojď se mnou!"
         },
         {
           "de": "Sprich doch!",
@@ -19858,7 +19858,7 @@ const A2_WORDS = [
         },
         {
           "de": "Bist du nicht müde? Doch.",
-          "lv": "Nejsi unavený? jsem."
+          "lv": "Nejsi unavený? Jsem."
         },
         {
           "de": "Du kennst ihn doch.",
@@ -19872,7 +19872,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "doch",
-          "meaning": "Ale / přesto / obojí / jel",
+          "meaning": "Však / přece / přesto / jen",
           "example": "Komm doch! = Pojď!"
         },
         {
@@ -19892,14 +19892,14 @@ const A2_WORDS = [
         },
         {
           "word": "nein",
-          "meaning": "Žádný",
+          "meaning": "Ne",
           "example": "Kommst du? Nein. = Přijdeš ne."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pokud doch zní jako emoce nebo důraz v německé větě, češtině často používá „taču“."
+            "text": "Pokud doch v německé větě vyjadřuje emoci nebo důraz, v češtině se často použije „přece“ nebo „však“."
           },
           {
             "text": "Když je otázka záporná a odpověď je kladná, němčina často používá doch."
@@ -19907,8 +19907,8 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Ale často není nutné překládat slovo od slova.",
-        "example": "Bist du nicht müde? Doch. = Vai tu neesi noguris? Esmu gan. Komm doch! nav tikai “nāc”, bet “nāc taču”. Das ist doch klar = Tas taču ir skaidrs."
+        "text": "Doch často není nutné překládat slovo od slova.",
+        "example": "Bist du nicht müde? Doch. = Nejsi unavený? Jsem. Komm doch! není jen „pojď“, ale „pojď přece“. Das ist doch klar = To je přece jasné."
       },
       "sectionAccents": {
         "examples": [
@@ -20272,7 +20272,7 @@ const A2_WORDS = [
           "Bieži",
           "Domai",
           "Pretī",
-          "Tomēr",
+          "Avšak",
           "Viens",
           "Doch",
           "Runā",
@@ -20289,7 +20289,7 @@ const A2_WORDS = [
           "Jel"
         ],
         "orange": [
-          "Tomēr"
+          "Avšak"
         ],
         "purple": [
           "Tomēr • Taču • Jel • Gan • Pretēji tam",
@@ -20310,12 +20310,12 @@ const A2_WORDS = [
     "de": "Doktor",
     "de_article": "der",
     "de_plural": "die Doktoren",
-    "lv": "Lékař",
+    "lv": "Doktor",
     "level": "A2",
     "study": {
       "id": "a2-doktor",
       "layout": "standardStudy",
-      "translation": "Lékař",
+      "translation": "Doktor",
       "explanation": [
         "Hlavní myšlenka: der Doktor může znamenat člověka s doktorátem nebo lidově řečeno lékaře.",
         "Nejpřesnější slovo pro lékaře je der Arzt.",
@@ -20338,11 +20338,11 @@ const A2_WORDS = [
         },
         {
           "de": "Die Ärztin ist sehr freundlich.",
-          "lv": "Pan doktor je velmi milý."
+          "lv": "Paní doktorka je velmi milá."
         },
         {
           "de": "Doktor Müller kommt gleich.",
-          "lv": "Dr. Miller bude přímo tady."
+          "lv": "Doktor Müller přijde hned."
         },
         {
           "de": "Die Praxis ist geschlossen.",
@@ -20362,8 +20362,8 @@ const A2_WORDS = [
         },
         {
           "word": "die Ärztin",
-          "meaning": "Lékař",
-          "example": "Die Ärztin arbeitet hier. = Zde pracuje lékař."
+          "meaning": "Lékařka",
+          "example": "Zde pracuje lékařka."
         },
         {
           "word": "der Titel",
@@ -20383,7 +20383,7 @@ const A2_WORDS = [
       "important": [
         "Lékař je přesněji der Arzt.",
         "Doktor jako titul je der Doktor.",
-        "Ne každý doktor je doktorem každý den."
+        "Ne každý doktor je lékař."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20660,41 +20660,35 @@ const A2_WORDS = [
   },
   {
     "de": "doppelt",
-    "lv": "Dvojitý • Dvojitý • Dvojitý",
+    "lv": "Dvojitý",
     "level": "A2"
   },
   {
     "de": "Dorf",
     "de_article": "das",
     "de_plural": "die Dörfer",
-    "lv": "Obec",
+    "lv": "Vesnice",
     "level": "A2"
   },
   {
     "de": "dorthin",
-    "lv": "Tam • Další",
+    "lv": "Tam",
     "level": "A2"
   },
   {
     "de": "draußen",
-    "lv": "Ven • V terénu",
+    "lv": "Venku",
     "level": "A2"
   },
   {
     "de": "drehen",
-    "lv": "Řezat",
+    "lv": "Otočit",
     "level": "A2",
     "study": {
       "id": "a2-drehen",
       "layout": "standardStudy",
-      "translation": "Řezat",
-      "explanation": [
-        "Hlavní myšlenka: drehen znamená něco otočit nebo otočit kolem osy, ne řezat nožem.",
-        "Používá se, když se něco otáčí nebo otáčí.",
-        "S tělem sich drehen znamená zatočit.",
-        "Při řezání nožem nebo nůžkami použijte schneiden.",
-        "Umdrehen znamená obrátit se vzhůru nohama nebo se otočit."
-      ],
+      "translation": "Otočit",
+      "explanation": "Umdrehen znamená otočit nebo obrátit se.",
       "examples": [
         {
           "de": "Dreh den Schlüssel!",
@@ -20710,7 +20704,7 @@ const A2_WORDS = [
         },
         {
           "de": "Bitte nicht drehen!",
-          "lv": "Prosím neupravujte!"
+          "lv": "Prosím, neotáčejte!"
         },
         {
           "de": "Ich schneide Brot.",
@@ -20725,11 +20719,7 @@ const A2_WORDS = [
         "Pokud je pohyb kolem osy, použije se drehen.",
         "Při řezání nožem nebo nůžkami použijte schneiden."
       ],
-      "important": [
-        "Nožem řezat = schneiden.",
-        "Drehen = otočit / otočit / otočit.",
-        "Sich drehen znamená otočit."
-      ],
+      "important": "Drehen = otočit / točit.",
       "sectionAccents": {
         "explanation": {
           "text": {
@@ -20931,7 +20921,7 @@ const A2_WORDS = [
   },
   {
     "de": "dreißigste",
-    "lv": "Třicátého",
+    "lv": "Třicátý",
     "level": "A2"
   },
   {
@@ -20941,7 +20931,7 @@ const A2_WORDS = [
   },
   {
     "de": "dreizehnte",
-    "lv": "Třináctého",
+    "lv": "Třináctý",
     "level": "A2"
   },
   {
@@ -20958,7 +20948,7 @@ const A2_WORDS = [
   },
   {
     "de": "drüben",
-    "lv": "Na druhé straně • Držet se",
+    "lv": "Tam naproti",
     "level": "A2"
   },
   {
@@ -20983,7 +20973,7 @@ const A2_WORDS = [
         },
         {
           "de": "Bitte hier drücken.",
-          "lv": "Klikněte prosím zde."
+          "lv": "Stiskněte prosím zde."
         },
         {
           "de": "Er drückt die Tür auf.",
@@ -20991,7 +20981,7 @@ const A2_WORDS = [
         },
         {
           "de": "Das Kind drückt die Mutter.",
-          "lv": "Dítě přilne k matce."
+          "lv": "Dítě tlačí na matku."
         },
         {
           "de": "Ich drucke das Dokument.",
@@ -21006,11 +20996,7 @@ const A2_WORDS = [
         "Pomocí tlačítek a obrazovek se drücken často mačká.",
         "Pamatujte na přehlásku: drücken s ü není totéž jako drucken bez ü."
       ],
-      "important": [
-        "Drücken = tisknouti.",
-        "Drucken = tisknouti.",
-        "Tato slova vypadají podobně, ale význam je jiný."
-      ],
+      "important": "Drücken = tlačit nebo stisknout. Drucken = tisknout.",
       "sectionAccents": {
         "explanation": {
           "text": {
@@ -21231,19 +21217,13 @@ const A2_WORDS = [
   },
   {
     "de": "dünn",
-    "lv": "Plán",
+    "lv": "Tenký",
     "level": "A2",
     "study": {
       "id": "a2-dünn",
       "layout": "standardStudy",
-      "translation": "Plán",
-      "explanation": [
-        "Hlavní myšlenka: Význam dünn se mění podle pádů: člověk je hubený, papír je tenký, vlasy mohou být řídké, polévka může být tekutá.",
-        "Pro člověka nebo zvíře dünn znamená hubený.",
-        "Pro papír, stěnu nebo látku dünn znamená tenký.",
-        "U vlasů může dünn znamenat vzácný.",
-        "Pro polévku nebo tekutinu může dünn znamenat tekutinu."
-      ],
+      "translation": "Tenký",
+      "explanation": "U vlasů může dünn znamenat řídký. Pro polévku nebo tekutinu může dünn znamenat řídký nebo tekutý.",
       "examples": [
         {
           "de": "Das Papier ist dünn.",
@@ -21273,12 +21253,12 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "dünn",
-          "meaning": "Tenký / tenký / tenký / tekutý",
+          "meaning": "Tenký / hubený / řídký / tekutý",
           "example": "Das Papier ist dünn. = Papír je tenký."
         },
         {
           "word": "dick",
-          "meaning": "Hustý / tučný",
+          "meaning": "Tlustý / tlustý nebo silný",
           "example": "Das Buch ist dick. = Kniha je tlustá."
         },
         {
@@ -21288,7 +21268,7 @@ const A2_WORDS = [
         },
         {
           "word": "mager",
-          "meaning": "Hubený / hubený",
+          "meaning": "Vychrtlý / libový",
           "example": "Das Fleisch ist mager. = Maso je libové."
         },
         {
@@ -21571,19 +21551,13 @@ const A2_WORDS = [
   },
   {
     "de": "durch",
-    "lv": "Přes",
+    "lv": "Skrz",
     "level": "A2",
     "study": {
       "id": "a2-durch",
       "layout": "standardStudy",
-      "translation": "Přes",
-      "explanation": [
-        "Hlavní myšlenka: durch může znamenat pohyb něčím, směr podél něčeho nebo prostředek/příčinu „s / protože“.",
-        "S místem durch často znamená průchozí.",
-        "S městem nebo parkem, čeština často říká pá.",
-        "Prostředkem nebo důvodem může durch znamenat s nebo kvůli.",
-        "Durch není totéž co mit."
-      ],
+      "translation": "Skrz",
+      "explanation": "durch může znamenat pohyb skrz něco nebo prostředek či příčinu „díky / prostřednictvím“.",
       "examples": [
         {
           "de": "Wir gehen durch den Park.",
@@ -21595,7 +21569,7 @@ const A2_WORDS = [
         },
         {
           "de": "Durch viel Übung lernt man.",
-          "lv": "S velkou praxí se člověk naučí."
+          "lv": "Díky velkému množství procvičování se člověk učí."
         },
         {
           "de": "Er kam durch die Tür.",
@@ -21835,18 +21809,18 @@ const A2_WORDS = [
   },
   {
     "de": "e-mailen",
-    "lv": "Poslat email",
+    "lv": "Poslat e-mail",
     "level": "A2"
   },
   {
     "de": "eben",
-    "lv": "Právě teď",
+    "lv": "Právě",
     "level": "A2",
     "study": {
       "id": "a2-eben",
       "layout": "standardStudy",
-      "translation": "Právě teď",
-      "explanation": "Hlavní myšlenka: eben může znamenat plochý, hladký, rovný, sotva nebo právě teď, v závislosti na kontextu. eben je mnohostranné slovo. Jako přídavné jméno to může znamenat „hladký“ nebo „hladký“. Hovorově eben často znamená „přesně“ nebo „tak to je“. Časem může eben znamenat „právě teď“ nebo „právě teď“. V mnoha větách eben vyjadřuje přijetí: nic dělat, tak to je.",
+      "translation": "Právě",
+      "explanation": "eben může znamenat rovný, hladký, právě, zrovna, právě teď nebo prostě, podle kontextu.",
       "examples": [
         {
           "de": "Der Boden ist eben.",
@@ -21862,7 +21836,7 @@ const A2_WORDS = [
         },
         {
           "de": "Er war eben noch hier.",
-          "lv": "Byl stále tady."
+          "lv": "Ještě před chvílí tu byl."
         },
         {
           "de": "Das ist eben so.",
@@ -21899,7 +21873,7 @@ const A2_WORDS = [
         },
         {
           "word": "flach",
-          "meaning": "Byt",
+          "meaning": "Plochý",
           "example": "Das Land ist flach. = Země je placatá."
         }
       ],
@@ -21914,7 +21888,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Eben nutně neznamená \"plochý\".",
+        "text": "Eben nemusí vždy znamenat „rovný“.",
         "example": "Ich habe ihn eben gesehen = Es viņu tikko redzēju. Das ist eben so = Tā tas vienkārši ir. Der Boden ist eben = Grīda ir līdzena."
       },
       "sectionAccents": {
@@ -22181,7 +22155,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "attieksme",
-                  "vienkārši",
+                  "prostě",
                   "latviski",
                   "bieži",
                   "eben",
@@ -22210,7 +22184,7 @@ const A2_WORDS = [
                 "eben"
               ],
               "red": [
-                "vienkārši",
+                "prostě",
                 "gesehen",
                 "redzēju",
                 "tikko",
@@ -22230,7 +22204,7 @@ const A2_WORDS = [
           "Teikumos",
           "Daudzos",
           "Līdzens",
-          "Nozīmēt",
+          "Znamenat",
           "Izsaka",
           "Bieži",
           "Gluds",
@@ -22275,22 +22249,22 @@ const A2_WORDS = [
   },
   {
     "de": "ebenso",
-    "lv": "Podobně • Úplně stejný",
+    "lv": "Stejně",
     "level": "A2"
   },
   {
     "de": "ebenso viel",
-    "lv": "Tolik",
+    "lv": "Stejně mnoho",
     "level": "A2"
   },
   {
     "de": "echt",
-    "lv": "Nemovitý",
+    "lv": "Pravý",
     "level": "A2"
   },
   {
     "de": "egal",
-    "lv": "Stejně",
+    "lv": "Jedno",
     "level": "A2"
   },
   {
@@ -22309,12 +22283,12 @@ const A2_WORDS = [
   },
   {
     "de": "ehrlich",
-    "lv": "Poctivý • Otevřený",
+    "lv": "Upřímný",
     "level": "A2",
     "study": {
       "id": "a2-ehrlich",
       "layout": "standardStudy",
-      "translation": "Poctivý • Otevřený",
+      "translation": "Upřímný",
       "explanation": [
         "Hlavní myšlenka: ehrlich znamená čestný nebo upřímný, zvláště když člověk nelže.",
         "Ehrlich se používá pro osobu, odezvu nebo akci.",
@@ -22341,7 +22315,7 @@ const A2_WORDS = [
         },
         {
           "de": "Er ist nett.",
-          "lv": "On je pěkný"
+          "lv": "Je milý."
         },
         {
           "de": "Das war eine aufrichtige Entschuldigung.",
@@ -22357,7 +22331,7 @@ const A2_WORDS = [
         {
           "word": "aufrichtig",
           "meaning": "Upřímný / upřímný / otevřený",
-          "example": "Das war aufrichtig. = Byla to pravda."
+          "example": "Bylo to upřímné."
         },
         {
           "word": "nett",
@@ -22374,11 +22348,7 @@ const A2_WORDS = [
         "Pokud je hlavní myšlenkou, že člověk nelže, používá se ehrlich.",
         "Pokud jde o laskavý nebo milý přístup, může být vhodnější nett nebo freundlich."
       ],
-      "important": [
-        "Ehrlich = poctivý / upřímný.",
-        "Nett = pěkné, ne nutně spravedlivé.",
-        "Aufrichtig je často citově upřímnější."
-      ],
+      "important": "Nett = milý, ne nutně upřímný.",
       "sectionAccents": {
         "explanation": {
           "text": {
@@ -22628,12 +22598,12 @@ const A2_WORDS = [
   },
   {
     "de": "eigentlich",
-    "lv": "Ve skutečnosti",
+    "lv": "Vlastně",
     "level": "A2",
     "study": {
       "id": "a2-eigentlich",
       "layout": "standardStudy",
-      "translation": "Ve skutečnosti",
+      "translation": "Vlastně",
       "explanation": [
         "Hlavní myšlenka: eigentlich velmi často znamená skutečně nebo skutečně, ale jako přídavné jméno může znamenat skutečný.",
         "V rozhovoru eigentlich často uvádí skutečnou myšlenku nebo objasnění.",
@@ -22675,12 +22645,12 @@ const A2_WORDS = [
         },
         {
           "word": "echt",
-          "meaning": "Nemovitý",
+          "meaning": "Skutečný",
           "example": "Das ist echt. = Je to skutečné."
         },
         {
           "word": "wahr",
-          "meaning": "Věrný",
+          "meaning": "Pravdivý",
           "example": "Das ist wahr. = Je to pravda."
         },
         {
@@ -22960,7 +22930,7 @@ const A2_WORDS = [
   },
   {
     "de": "einander",
-    "lv": "Navzájem • Navzájem",
+    "lv": "Navzájem",
     "level": "A2"
   },
   {
@@ -22972,12 +22942,12 @@ const A2_WORDS = [
     "de": "Eingang",
     "de_article": "der",
     "de_plural": "die Eingänge",
-    "lv": "Vjezd",
+    "lv": "Vchod",
     "level": "A2"
   },
   {
     "de": "einige",
-    "lv": "Někteří • Málo",
+    "lv": "Několik",
     "level": "A2"
   },
   {
@@ -23002,7 +22972,7 @@ const A2_WORDS = [
       "id": "a2-einladen",
       "layout": "standardStudy",
       "translation": "Pozvat",
-      "explanation": "Einladen obvykle znamená pozvat nebo pozvat osobu. Používá se pro hosty, přátele a akce. V jiných kontextech může laden/einladen znamenat naložení zboží nebo nákladu. Lidé jsou zváni, ale krabice nebo zboží se nakládají. Takže musíte vidět, co je to za objekt.",
+      "explanation": "Einladen obvykle znamená pozvat nebo pozvat nějakou osobu.",
       "examples": [
         {
           "de": "Ich lade dich zum Essen ein.",
@@ -23032,17 +23002,17 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "einladen",
-          "meaning": "Pozvat / načíst",
+          "meaning": "Pozvat / naložit",
           "example": "Ich lade dich ein. = Zvu tě."
         },
         {
           "word": "laden",
-          "meaning": "Zatížení / nabíjení",
+          "meaning": "Nakládat / nabíjet",
           "example": "Ich lade das Handy. = Nabíjím si telefon."
         },
         {
           "word": "besuchen",
-          "meaning": "Navštívit / navštívit",
+          "meaning": "Navštívit / navštěvovat",
           "example": "Ich besuche dich. = Jsem u vás na návštěvě."
         },
         {
@@ -23269,11 +23239,11 @@ const A2_WORDS = [
                   "ielūgt"
                 ],
                 "orange": [
-                  "uzaicināt"
+                  "pozvat"
                 ],
                 "yellow": [
                   "kontekstā",
-                  "uzaicināt",
+                  "pozvat",
                   "einladen",
                   "Personu",
                   "ielūgt"
@@ -23336,12 +23306,12 @@ const A2_WORDS = [
           "StandardStudy",
           "Pasākumiem",
           "Kontekstā",
-          "Uzaicināt",
+          "Pozvat",
           "Draugiem",
           "Einladen",
           "Cilvēku",
           "Iekraut",
-          "Nozīmēt",
+          "Znamenat",
           "Viesiem",
           "Ielūgt",
           "Preces",
@@ -23361,7 +23331,7 @@ const A2_WORDS = [
           "Iekraut"
         ],
         "orange": [
-          "Uzaicināt",
+          "Pozvat",
           "Apmeklēt",
           "Kraut"
         ],
@@ -23392,7 +23362,7 @@ const A2_WORDS = [
   },
   {
     "de": "einsam",
-    "lv": "Osamělý • Osamělý",
+    "lv": "Osamělý",
     "level": "A2"
   },
   {
@@ -23407,11 +23377,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich schalte das Licht ein.",
-          "lv": "Rozsvítil jsem světlo."
+          "lv": "Rozsvítím světlo."
         },
         {
           "de": "Schalte bitte den Fernseher ein.",
-          "lv": "Prosím zapněte televizi."
+          "lv": "Prosím, zapni televizi."
         },
         {
           "de": "Der Computer schaltet sich automatisch ein.",
@@ -23419,7 +23389,7 @@ const A2_WORDS = [
         },
         {
           "de": "Wir schalten einen Anwalt ein.",
-          "lv": "Najmeme právníka."
+          "lv": "Zapojíme právníka."
         },
         {
           "de": "Die Polizei wurde eingeschaltet.",
@@ -23427,14 +23397,14 @@ const A2_WORDS = [
         },
         {
           "de": "Kannst du das Radio einschalten?",
-          "lv": "Můžete zapnout rádio"
+          "lv": "Můžeš zapnout rádio?"
         }
       ],
       "comparison": [
         {
           "word": "einschalten",
           "meaning": "Zapnout / zapojit",
-          "example": "Ich schalte das Licht ein. = Rozsvítil jsem světlo."
+          "example": "Rozsvítím světlo."
         },
         {
           "word": "ausschalten",
@@ -23463,7 +23433,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Einschalten a ausschalten jsou protiklady zařízení.",
+        "text": "Einschalten a ausschalten jsou protiklady při ovládání zařízení.",
         "example": "Licht einschalten = ieslēgt gaismu. Licht ausschalten = izslēgt gaismu."
       },
       "sectionAccents": {
@@ -23657,12 +23627,12 @@ const A2_WORDS = [
                   "einschalten"
                 ],
                 "orange": [
-                  "ieslēgt"
+                  "zapnout"
                 ],
                 "yellow": [
                   "einschalten",
                   "Ierīcēm",
-                  "ieslēgt"
+                  "zapnout"
                 ]
               }
             },
@@ -23704,7 +23674,7 @@ const A2_WORDS = [
                 "ausschalten"
               ],
               "orange": [
-                "ieslēgt"
+                "zapnout"
               ],
               "purple": [
                 "izslēgt"
@@ -23712,7 +23682,7 @@ const A2_WORDS = [
               "red": [
                 "ausschalten",
                 "einschalten",
-                "ieslēgt",
+                "zapnout",
                 "izslēgt",
                 "gaismu",
                 "Licht"
@@ -23732,8 +23702,8 @@ const A2_WORDS = [
           "Problēmas",
           "Cilvēku",
           "Dažreiz",
-          "Ieslēgt",
-          "Nozīmēt",
+          "Zapnout",
+          "Znamenat",
           "Datoru",
           "Gaismu",
           "Ierīci",
@@ -23749,7 +23719,7 @@ const A2_WORDS = [
           "Anmachen"
         ],
         "orange": [
-          "Ieslēgt"
+          "Zapnout"
         ],
         "purple": [
           "Ieslēgt (sarunvalodā",
@@ -23770,33 +23740,33 @@ const A2_WORDS = [
   },
   {
     "de": "einschlafen",
-    "lv": "Usnout • Otupělý",
+    "lv": "Usnout",
     "level": "A2",
     "study": {
       "id": "a2-einschlafen",
       "layout": "standardStudy",
-      "translation": "Usnout • Otupělý",
-      "explanation": "Hlavní myšlenka: einschlafen znamená usnout • Pro ruku nebo nohu to znamená znecitlivění. U člověka to obvykle znamená, že někdo usne. S částí těla einschlafen znamená, že se stává znecitlivělá. V češtině je „spát“ synonymem, ale hlavní význam A2 je „usnout“. Kontext vám napoví, zda jde o spánek nebo mravenčení.",
+      "translation": "Usnout",
+      "explanation": "V češtině „spát“ není synonymem; einschlafen znamená začít spát, tedy usnout.",
       "examples": [
         {
           "de": "Ich schlafe schnell ein.",
-          "lv": "Rychle jsem usnul."
+          "lv": "Rychle usínám."
         },
         {
           "de": "Das Kind ist schon eingeschlafen.",
-          "lv": "Dítě už spí."
+          "lv": "Dítě už usnulo."
         },
         {
           "de": "Ich kann heute nicht einschlafen.",
-          "lv": "Dnes nemůžu spát"
+          "lv": "Dnes nemůžu usnout."
         },
         {
           "de": "Mein Bein ist eingeschlafen.",
-          "lv": "Moje noha byla necitlivá."
+          "lv": "Usnula mi noha."
         },
         {
           "de": "Mir ist der Arm eingeschlafen.",
-          "lv": "Ztuhla mi ruka."
+          "lv": "Usnula mi ruka."
         },
         {
           "de": "Er schläft um zehn Uhr ein.",
@@ -23822,19 +23792,14 @@ const A2_WORDS = [
         {
           "word": "taub werden",
           "meaning": "Znecitlivět",
-          "example": "Mein Bein wird taub. = Noha mi znecitlivuje."
+          "example": "Noha mi znecitliví."
         }
       ],
       "tip": [
         "Pokud jde o lidi a spánek, einschlafen se překládá jako usínání.",
         "Pokud jde o ruku nebo nohu, eingeschlafen je v češtině obvykle otupělý."
       ],
-      "important": [
-        "Einschlafen není totéž co schlafen.",
-        "Schlafen = spát.",
-        "Einschlafen = usnout.",
-        "Mein Bein ist eingeschlafen = ztrnula mi noha."
-      ],
+      "important": "Mein Bein ist eingeschlafen = usnula mi noha.",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -24113,13 +24078,13 @@ const A2_WORDS = [
   },
   {
     "de": "einsteigen",
-    "lv": "Vstoupit",
+    "lv": "Nastoupit",
     "level": "A2",
     "study": {
       "id": "a2-einsteigen",
       "layout": "standardStudy",
-      "translation": "Vstoupit",
-      "explanation": "Einsteigen znamená nastoupit do vozidla. Používá se autobusem, vlakem, autem nebo letadlem. Obrazně to může znamenat zapojení se do projektu, podnikání nebo konverzace. Někdy to znamená začít se podílet na procesu. Význam závisí na tom, zda jde o dopravu nebo abstraktní akci.",
+      "translation": "Nastoupit",
+      "explanation": "Používá se u autobusu, vlaku, auta nebo letadla.",
       "examples": [
         {
           "de": "Ich steige in den Bus ein.",
@@ -24127,7 +24092,7 @@ const A2_WORDS = [
         },
         {
           "de": "Bitte steigen Sie vorne ein.",
-          "lv": "Prosím vpřed."
+          "lv": "Prosím, nastupte předními dveřmi."
         },
         {
           "de": "Wir steigen in den Zug ein.",
@@ -24143,7 +24108,7 @@ const A2_WORDS = [
         },
         {
           "de": "Steig schnell ein!",
-          "lv": "Rychle vstoupit!"
+          "lv": "Rychle nastup!"
         }
       ],
       "comparison": [
@@ -24159,7 +24124,7 @@ const A2_WORDS = [
         },
         {
           "word": "umsteigen",
-          "meaning": "Změnit sedadlo",
+          "meaning": "Přestoupit",
           "example": "Wir steigen um. = Měníme místa."
         },
         {
@@ -24174,7 +24139,7 @@ const A2_WORDS = [
             "text": "V dopravě znamená einsteigen nastoupit."
           },
           {
-            "text": "V projektu nebo na trhu einsteigen znamená zapojit se nebo se začít účastnit."
+            "text": "Ve významu zapojit se do projektu nebo vstoupit na trh znamená einsteigen zapojit se či začít působit."
           }
         ]
       },
@@ -24359,12 +24324,12 @@ const A2_WORDS = [
                   "einsteigen"
                 ],
                 "orange": [
-                  "iekāpt"
+                  "nastoupit"
                 ],
                 "yellow": [
                   "einsteigen",
                   "Transportā",
-                  "iekāpt"
+                  "nastoupit"
                 ]
               }
             },
@@ -24414,15 +24379,15 @@ const A2_WORDS = [
                 "aussteigen"
               ],
               "orange": [
-                "iekāpt",
+                "nastoupit",
                 "izkāpt"
               ],
               "red": [
                 "aussteigen",
                 "einsteigen",
                 "autobusa",
-                "autobusā",
-                "iekāpt",
+                "do autobusu",
+                "nastoupit",
                 "izkāpt"
               ]
             }
@@ -24442,8 +24407,8 @@ const A2_WORDS = [
           "Vilcienu",
           "Biznesā",
           "Dažreiz",
-          "Nozīmēt",
-          "Iekāpt",
+          "Znamenat",
+          "Nastoupit",
           "Sarunā",
           "Lieto",
           "Auto",
@@ -24458,7 +24423,7 @@ const A2_WORDS = [
           "Umsteigen"
         ],
         "orange": [
-          "Iekāpt",
+          "Nastoupit",
           "Izkāpt"
         ],
         "purple": [
@@ -24478,13 +24443,13 @@ const A2_WORDS = [
     "de": "Eintritt",
     "de_article": "der",
     "de_plural": "die Eintritte",
-    "lv": "Vjezd",
+    "lv": "Vstup",
     "level": "A2",
     "study": {
       "id": "a2-eintritt",
       "layout": "standardStudy",
-      "translation": "Vjezd",
-      "explanation": "Hlavní myšlenka: der Eintritt znamená vstup, vstupné nebo vstup v závislosti na kontextu. V muzeu, kině nebo na akci to často znamená vstupné nebo vstupné. S organizací nebo sdružením to může znamenat připojení. To není totéž jako Eingang, protože Eingang je fyzický vchod nebo dveře. Eintritt je často právo na vstup nebo platba za vstup.",
+      "translation": "Vstup",
+      "explanation": "V souvislosti s organizací nebo sdružením může znamenat vstoupení nebo členství.",
       "examples": [
         {
           "de": "Der Eintritt kostet zehn Euro.",
@@ -24504,7 +24469,7 @@ const A2_WORDS = [
         },
         {
           "de": "Wo ist der Eingang?",
-          "lv": "Kde je vchod"
+          "lv": "Kde je vchod?"
         },
         {
           "de": "Ich kaufe eine Eintrittskarte.",
@@ -24514,7 +24479,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "der Eintritt",
-          "meaning": "Vstup / vstupné / vstup",
+          "meaning": "Vstup / vstupné / vstoupení",
           "example": "Der Eintritt ist frei. = Vstup je zdarma."
         },
         {
@@ -24834,7 +24799,7 @@ const A2_WORDS = [
   },
   {
     "de": "einverstanden",
-    "lv": "S mírem",
+    "lv": "Souhlasit",
     "level": "A2"
   },
   {
@@ -24891,7 +24856,7 @@ const A2_WORDS = [
     "de": "Ellbogen",
     "de_article": "der",
     "de_plural": "die Ellbogen",
-    "lv": "Koleno",
+    "lv": "Loket",
     "level": "A2"
   },
   {
@@ -24901,7 +24866,7 @@ const A2_WORDS = [
   },
   {
     "de": "enden",
-    "lv": "Vyběhnout",
+    "lv": "Končit",
     "level": "A2"
   },
   {
@@ -24911,18 +24876,13 @@ const A2_WORDS = [
   },
   {
     "de": "eng",
-    "lv": "Úzký • Těsný",
+    "lv": "Těsný",
     "level": "A2",
     "study": {
       "id": "a2-eng",
       "layout": "standardStudy",
-      "translation": "Úzký • Těsný",
-      "explanation": [
-        "Hlavní myšlenka: eng pro pokoj znamená úzký, pro oblečení nebo vztah znamená těsné.",
-        "Když mluvíme o prostoru nebo silnici, eng = úzká (eine enge Straße = úzká ulice).",
-        "Pokud jde o oblečení, eng = těsné/těsné (Die Hose ist eng. = Kalhoty jsou těsné/úzké.).",
-        "Pokud jde o vztahy, eng = blízcí (enge Freunde = blízcí/blízcí přátelé)."
-      ],
+      "translation": "Těsný",
+      "explanation": "Pokud jde o oblečení, eng = těsné nebo přiléhavé.",
       "examples": [
         {
           "de": "Die Straße ist sehr eng.",
@@ -25090,7 +25050,7 @@ const A2_WORDS = [
   },
   {
     "de": "entlang",
-    "lv": "Dlouho",
+    "lv": "Podél",
     "level": "A2"
   },
   {
