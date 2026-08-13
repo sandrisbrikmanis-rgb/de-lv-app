@@ -309,7 +309,7 @@ const A1_WORDS = [
   {
     "de": "Alter",
     "de_article": "das",
-    "lv": "Stáří",
+    "lv": "Věk",
     "level": "A1"
   },
   {
@@ -324,7 +324,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "an der Wand",
-          "lv": "Na stěně / na stěně"
+          "lv": "U zdi / na zdi"
         },
         {
           "de": "am Fenster",
@@ -512,7 +512,7 @@ const A1_WORDS = [
   },
   {
     "de": "ab",
-    "lv": "Z",
+    "lv": "Od",
     "level": "A1",
     "study": {
       "id": "a1-ab",
@@ -749,7 +749,7 @@ const A1_WORDS = [
         },
         {
           "word": "sondern",
-          "meaning": "Ne • Ale",
+          "meaning": "Ne..., ale...",
           "example": "Ich wollte Tee, sondern Kaffee. – Chtěl jsem čaj, ne kávu."
         },
         {
@@ -913,7 +913,7 @@ const A1_WORDS = [
   },
   {
     "de": "also",
-    "lv": "Proto",
+    "lv": "Tedy • Takže",
     "level": "A1",
     "study": {
       "id": "a1-also",
@@ -927,7 +927,7 @@ const A1_WORDS = [
         },
         {
           "de": "Du bist krank, also gehst du nicht zur Arbeit.",
-          "lv": "Jsi nemocný, tak nechoď do práce."
+          "lv": "Jsi nemocný, takže nejdeš do práce."
         },
         {
           "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
@@ -1222,7 +1222,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich komme auch.",
-          "lv": "Já jdu taky."
+          "lv": "Já také přijdu."
         },
         {
           "de": "Ich komme auch.",
@@ -1760,7 +1760,7 @@ const A1_WORDS = [
         },
         {
           "word": "an",
-          "meaning": "Na svislém povrchu",
+          "meaning": "Na svislý povrch",
           "example": "an die Wand – Na zeď"
         },
         {
@@ -1770,12 +1770,12 @@ const A1_WORDS = [
         },
         {
           "word": "zum",
-          "meaning": "Komu / u (koho?)",
+          "meaning": "K (někomu/něčemu)",
           "example": "zum Arzt – K lékaři"
         }
       ],
       "tip": [
-        "Pamatujte: auf + das → aufs (kde?, kde?).",
+        "Pamatujte: auf + das → aufs (kam?).",
         "Plné auf das se téměř nikdy nemluví hovorově – používá se aufs."
       ],
       "important": [
@@ -2092,7 +2092,7 @@ const A1_WORDS = [
   },
   {
     "de": "baden",
-    "lv": "Plavat",
+    "lv": "Koupat se",
     "level": "A1",
     "study": {
       "id": "a1-baden",
@@ -2650,8 +2650,8 @@ const A1_WORDS = [
           "example": "Ich arbeite von 9 bis 17 Uhr. – Pracuji od 9 do 17."
         },
         {
-          "word": "bis dass",
-          "meaning": "Až",
+          "word": "bis jetzt",
+          "meaning": "Až doteď",
           "example": "Ich warte, bis dass du kommst. – Čekám, až přijdeš."
         },
         {
@@ -2798,7 +2798,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Bitte schön!",
-          "lv": "Prosím!"
+          "lv": "Jeden šálek kávy, prosím."
         },
         {
           "de": "Bitte schön!",
@@ -2806,7 +2806,7 @@ const A1_WORDS = [
         },
         {
           "de": "Eine Tasse Kaffee, bitte.",
-          "lv": "Jeden šálek kávy, prosím."
+          "lv": "Prosím!"
         },
         {
           "de": "Kann ich bitte fragen?",
@@ -2826,7 +2826,7 @@ const A1_WORDS = [
         "Bitte s malým písmenem je zdvořilostní výraz."
       ],
       "important": [
-        "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
+        "Bitte se píše s malým písmenem – je to zdvořilostní výraz, nikoli podstatné jméno.",
         "Die Bitte s velkým písmenem a člen die je podstatné jméno.",
         "Množné číslo: die Bitten (žádosti).",
         "Špatně: Die Bitte schön! → Správně: Bitte schön!"
@@ -2952,11 +2952,11 @@ const A1_WORDS = [
         },
         {
           "de": "Bitte schön!",
-          "lv": "Prosím!"
+          "lv": "Plní mou prosbu."
         },
         {
           "de": "Eine Tasse Kaffee, bitte.",
-          "lv": "Jeden šálek kávy, prosím."
+          "lv": "Má dvě prosby."
         },
         {
           "de": "Kann ich bitte fragen?",
@@ -2976,7 +2976,7 @@ const A1_WORDS = [
         "Die Bitte je podstatné jméno se členem die a píše se s velkým písmenem."
       ],
       "important": [
-        "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
+        "Bitte se píše s malým písmenem – je to zdvořilostní výraz, nikoli podstatné jméno.",
         "Die Bitte s velkým písmenem a člen die je podstatné jméno.",
         "Množné číslo: die Bitten (žádosti).",
         "Špatně: Die Bitte schön! → Správně: Bitte schön!"
@@ -3109,7 +3109,7 @@ const A1_WORDS = [
   },
   {
     "de": "bleiben",
-    "lv": "Pobyt",
+    "lv": "Zůstat",
     "level": "A1",
     "study": {
       "id": "a1-bleiben",
@@ -3431,7 +3431,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "bringen",
-          "meaning": "Přinést / vzít / dodat",
+          "meaning": "Přinést / odnést / dodat",
           "example": "Bring mir Wasser."
         },
         {
@@ -4046,7 +4046,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "das",
-          "meaning": "To (článek / zájmeno)",
+          "meaning": "To (člen / zájmeno)",
           "example": "Das ist mein Auto. – Je to moje auto."
         },
         {
@@ -4165,7 +4165,7 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "Na úrovni A1 je das nejprve studován jako článek středního rodu.",
+        "Na úrovni A1 je das nejprve studován jako určitý člen středního rodu.",
         "Das není totéž co dass – das může být člen nebo zájmeno, dass znamená „že“."
       ]
     }
@@ -4811,7 +4811,7 @@ const A1_WORDS = [
   },
   {
     "de": "ein",
-    "lv": "Neurčitý člen • Jeden • Někdo",
+    "lv": "Neurčitý člen • Jeden",
     "level": "A1",
     "study": {
       "id": "a1-ein",
@@ -4954,7 +4954,7 @@ const A1_WORDS = [
   {
     "de": "Eis",
     "de_article": "das",
-    "lv": "Zmrzlina • Zmrzlina",
+    "lv": "Led • Zmrzlina",
     "level": "A1",
     "study": {
       "id": "a1-eis",
@@ -5267,7 +5267,7 @@ const A1_WORDS = [
   },
   {
     "de": "erst",
-    "lv": "První • Pouze",
+    "lv": "Nejprve • Až / teprve",
     "level": "A1",
     "study": {
       "id": "a1-erst",
@@ -5289,7 +5289,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wir essen erst um acht Uhr.",
-          "lv": "Jíme jen v osm."
+          "lv": "Jíme až v osm."
         }
       ],
       "comparison": [
@@ -5300,7 +5300,7 @@ const A1_WORDS = [
         },
         {
           "word": "zuerst",
-          "meaning": "První • Na začátku",
+          "meaning": "Nejprve • Na začátku",
           "example": "Zuerst frühstücken wir. = Nejprve snídáme."
         },
         {
@@ -5472,7 +5472,7 @@ const A1_WORDS = [
   },
   {
     "de": "es",
-    "lv": "To • To • Neosobní podoba",
+    "lv": "To • Ono • Neosobní podoba",
     "level": "A1",
     "study": {
       "id": "a1-es",
@@ -5977,7 +5977,7 @@ const A1_WORDS = [
   },
   {
     "de": "fahren",
-    "lv": "Řídit • Vést • Odvézt",
+    "lv": "Jet • Jezdit • Vézt / odvézt",
     "level": "A1",
     "study": {
       "id": "a1-fahren",
@@ -6014,7 +6014,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "fahren",
-          "meaning": "Jezdit transportem",
+          "meaning": "Jezdit dopravním prostředkem",
           "example": "Ich fahre mit dem Bus."
         },
         {
@@ -6408,7 +6408,7 @@ const A1_WORDS = [
   },
   {
     "de": "finden",
-    "lv": "Najít • Zvážit",
+    "lv": "Najít • Myslet si",
     "level": "A1",
     "study": {
       "id": "a1-finden",
@@ -6427,11 +6427,11 @@ const A1_WORDS = [
         },
         {
           "de": "Hast du dein Handy gefunden?",
-          "lv": "Našel jsi svůj telefon"
+          "lv": "Zdá se mi to dobré."
         },
         {
           "de": "Ich finde das gut.",
-          "lv": "Zdá se mi to dobré."
+          "lv": "Co si myslíš o filmu?"
         },
         {
           "de": "Wie findest du den Film?",
@@ -6441,7 +6441,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "finden",
-          "meaning": "Najít / zvážit",
+          "meaning": "Najít / Myslet si",
           "example": "Ich finde das gut. = Zdá se mi to v pořádku."
         },
         {
@@ -6465,7 +6465,7 @@ const A1_WORDS = [
       },
       "important": [
         "Finden není jen 'najít'.",
-        "Ich finde das gut znamená „považuji to za dobré“, nikoli „považuji to za dobré“."
+        "Ich finde das gut znamená „považuji to za dobré“, nikoli „najdu to dobře“."
       ],
       "sectionAccents": {
         "explanation": {
@@ -6761,7 +6761,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Die Frau = žena NEBO manželka – podle kontextu.",
-        "Meine Frau = moje žena (nikoli 'moje žena').",
+        "Meine Frau = moje žena.",
         "Množné číslo: die Frauen."
       ],
       "sectionAccents": {
@@ -7004,11 +7004,11 @@ const A1_WORDS = [
         },
         {
           "de": "Danke für die Hilfe.",
-          "lv": "Děkuji za vaši pomoc."
+          "lv": "Děkuji za pomoc."
         },
         {
           "de": "Ich kaufe ein Geschenk für meine Mutter.",
-          "lv": "Koupím dárek pro maminku."
+          "lv": "Kupuji dárek pro maminku."
         },
         {
           "de": "Was bezahlst du für das Auto?",
@@ -7205,7 +7205,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Gib mir bitte das Buch.",
-          "lv": "Dej mi knihu prosím"
+          "lv": "Dej mi prosím knihu."
         },
         {
           "de": "Ich gebe dir meine Nummer.",
@@ -7228,12 +7228,12 @@ const A1_WORDS = [
         },
         {
           "word": "nehmen",
-          "meaning": "Vzít / vzít",
+          "meaning": "Brát / vzít",
           "example": "Ich nehme das Buch."
         },
         {
           "word": "bekommen",
-          "meaning": "Přijímat / dostávat",
+          "meaning": "Dostat / obdržet",
           "example": "Ich bekomme ein Geschenk."
         },
         {
@@ -7560,7 +7560,7 @@ const A1_WORDS = [
   },
   {
     "de": "gleich",
-    "lv": "Hned • Rovný",
+    "lv": "Hned • Stejný",
     "level": "A1",
     "study": {
       "id": "a1-gleich",
@@ -7600,11 +7600,11 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Za chvíli (za chvíli) → hned.",
+        "Za chvíli → hned.",
         "Pro srovnání (stejné) → stejné."
       ],
       "important": [
-        "Gleich = okamžitě (čas) NEBO rovno (srovnání).",
+        "Gleich = hned (čas) NEBO stejný (srovnání).",
         "Bis gleich! = Brzy na viděnou! — běžná rozlučovací fráze."
       ],
       "sectionAccents": {
@@ -10259,7 +10259,7 @@ const A1_WORDS = [
   },
   {
     "de": "jawohl",
-    "lv": "Přesně tak",
+    "lv": "Ano, jistě",
     "level": "A1"
   },
   {
@@ -14225,7 +14225,7 @@ const A1_WORDS = [
   },
   {
     "de": "malen",
-    "lv": "Malovat • Malovat",
+    "lv": "Malovat • Vybarvovat",
     "level": "A1"
   },
   {
@@ -18425,7 +18425,7 @@ const A1_WORDS = [
   },
   {
     "de": "schnell",
-    "lv": "Rychle",
+    "lv": "Rychlý • Rychle",
     "level": "A1"
   },
   {
@@ -21777,7 +21777,7 @@ const A1_WORDS = [
   },
   {
     "de": "unten",
-    "lv": "Na dně",
+    "lv": "Dole",
     "level": "A1"
   },
   {
@@ -23173,7 +23173,7 @@ const A1_WORDS = [
   },
   {
     "de": "sich waschen",
-    "lv": "Umýt se",
+    "lv": "Mýt se",
     "level": "A1"
   },
   {
