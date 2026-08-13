@@ -52216,7 +52216,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "setzen",
-          "meaning": "Sedadlo (akce)",
+          "meaning": "Posadit (akce)",
           "example": "Ich setze das Kind hin. – Posadím dítě."
         },
         {
@@ -52231,7 +52231,7 @@ const A2_WORDS = [
         },
         {
           "word": "liegen",
-          "meaning": "Lehnout (poloha)",
+          "meaning": "Ležet (poloha)",
           "example": "Das Buch liegt hier. – Kniha je zde."
         },
         {
@@ -52247,11 +52247,11 @@ const A2_WORDS = [
       ],
       "tip": [
         "Akce: přimět někoho, aby si sedl, nebo aby si někdo sednul.",
-        "Použijte setten, když kontext odpovídá tomuto významu."
+        "Použijte setzen, když kontext odpovídá tomuto významu."
       ],
       "important": [
         "Setten = akce.",
-        "Akce: Setten.",
+        "Akce: setzen.",
         "Akce: přimět někoho, aby si sedl, nebo aby si někdo sednul."
       ],
       "sectionAccents": {
@@ -52308,7 +52308,7 @@ const A2_WORDS = [
   },
   {
     "de": "so viel",
-    "lv": "Tolik • Jako",
+    "lv": "Tolik",
     "level": "A2"
   },
   {
@@ -52318,12 +52318,12 @@ const A2_WORDS = [
     "study": {
       "id": "a2-sobald",
       "layout": "standardStudy",
-      "translation": "Jakmile • Jakmile",
-      "explanation": "Co nejdříve nebo co nejdříve. Zavádí pomocnou větu a v němčině je sloveso v této pomocné větě obvykle na konci. jakmile ukáže, že jedna akce probíhá bezprostředně za druhou. Není to totéž jako wenn, protože wenn může znamenat „kdy“ nebo „pokud“. čeština často zní přirozeně jako „jakmile“.",
+      "translation": "Jakmile",
+      "explanation": "Sobald znamená jakmile nebo hned jak. Uvozuje vedlejší větu. a v němčině je sloveso v této pomocné větě obvykle na konci. jakmile ukáže, že jedna akce probíhá bezprostředně za druhou. Není to totéž jako wenn, protože wenn může znamenat „kdy“ nebo „pokud“. čeština často zní přirozeně jako „jakmile“.",
       "examples": [
         {
           "de": "Sobald ich Zeit habe, rufe ich dich an.",
-          "lv": "Zavolám vám, jakmile budu mít čas."
+          "lv": "Zavolám ti, jakmile budu mít čas."
         },
         {
           "de": "Wir gehen los, sobald er kommt.",
@@ -52335,15 +52335,15 @@ const A2_WORDS = [
         },
         {
           "de": "Ich sage dir Bescheid, sobald ich mehr weiß.",
-          "lv": "Dám vám vědět, jakmile budu vědět víc."
+          "lv": "Dám ti vědět, jakmile budu vědět víc."
         },
         {
           "de": "Sobald du da bist, beginnen wir.",
-          "lv": "Jakmile tam budete, začneme."
+          "lv": "Jakmile tu budeš, začneme."
         },
         {
           "de": "Sie schreibt mir, sobald sie zu Hause ist.",
-          "lv": "Napíše mi hned jak bude doma."
+          "lv": "Napíše mi, hned jak bude doma."
         }
       ],
       "comparison": [
@@ -52354,7 +52354,7 @@ const A2_WORDS = [
         },
         {
           "word": "wenn",
-          "meaning": "Kdy / kdyby",
+          "meaning": "Když / pokud",
           "example": "Wenn ich Zeit habe, komme ich. = Pokud budu mít čas, přijedu."
         },
         {
@@ -52369,14 +52369,14 @@ const A2_WORDS = [
         },
         {
           "word": "nachdem",
-          "meaning": "Po kdy",
+          "meaning": "Poté, co",
           "example": "Nachdem ich gegessen habe, gehe ich. = Po jídle jdu."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Německé sloveso se často nachází na konci pomocné věty za souft: souft er kommt."
+            "text": "Německé sloveso se po sobald často nachází na konci vedlejší věty: sobald er kommt."
           },
           {
             "text": "Jakmile znamená, že další akce začne ihned po splnění podmínky."
@@ -52384,7 +52384,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Zvuk ovlivňuje německou větnou stavbu.",
+        "text": "Slovo sobald ovlivňuje německou větnou stavbu.",
         "example": "Sobald ich Zeit habe, rufe ich dich an. Vārds habe ir palīgteikuma beigās. sobald = Jakmile"
       },
       "sectionAccents": {
@@ -52759,12 +52759,12 @@ const A2_WORDS = [
     "de": "Sohle",
     "de_article": "die",
     "de_plural": "die Sohlen",
-    "lv": "Podrážka • Podrážka",
+    "lv": "Podrážka",
     "level": "A2"
   },
   {
     "de": "solange",
-    "lv": "Zatímco",
+    "lv": "Dokud",
     "level": "A2"
   },
   {
@@ -52781,7 +52781,7 @@ const A2_WORDS = [
   },
   {
     "de": "sondern",
-    "lv": "Ale",
+    "lv": "Nýbrž",
     "level": "A2"
   },
   {
@@ -52801,7 +52801,7 @@ const A2_WORDS = [
   {
     "de": "Sonnenschein",
     "de_article": "der",
-    "lv": "Sluneční světlo",
+    "lv": "Sluneční svit",
     "level": "A2"
   },
   {
@@ -52817,7 +52817,7 @@ const A2_WORDS = [
       "id": "a2-sonst",
       "layout": "standardStudy",
       "translation": "Jinak",
-      "explanation": "Sonst často znamená jinak nebo jinak. Používá se k varování před důsledky: udělejte to, nebo se stane něco jiného. V některých kontextech sonst znamená bez nebo ještě. Zvykem může synst znamenat obvykle. Slovo velmi závisí na situaci ve větě.",
+      "explanation": "Sonst často znamená jinak nebo v opačném případě. Používá se k varování před důsledky: udělejte to, nebo se stane něco jiného. V některých kontextech sonst znamená kromě toho nebo ještě. Při vyjádření zvyku může sonst znamenat obvykle. Slovo velmi závisí na situaci ve větě.",
       "examples": [
         {
           "de": "Beeil dich, sonst kommen wir zu spät.",
@@ -52877,12 +52877,12 @@ const A2_WORDS = [
             "text": "Pokud věta obsahuje varování nebo následek, znamená sonst obvykle něco jiného."
           },
           {
-            "text": "Pokud jde o zvyk, synst může znamenat obvykle."
+            "text": "Pokud jde o zvyk, sonst může znamenat obvykle."
           }
         ]
       },
       "important": {
-        "text": "Sonst není jen „jiný“.",
+        "text": "Sonst neznamená jen „jinak“.",
         "example": "Sonst kommen wir zu spät = citādi nokavēsim. Was machst du sonst? = ko tu parasti dari? sonst noch Fragen = vēl jautājumi?"
       },
       "sectionAccents": {
@@ -53232,7 +53232,7 @@ const A2_WORDS = [
   },
   {
     "de": "sortieren",
-    "lv": "Třídění",
+    "lv": "Třídit",
     "level": "A2"
   },
   {
@@ -53256,12 +53256,12 @@ const A2_WORDS = [
   },
   {
     "de": "spannend",
-    "lv": "Rušivý",
+    "lv": "Napínavý",
     "level": "A2"
   },
   {
     "de": "sparen",
-    "lv": "Uložit",
+    "lv": "Šetřit",
     "level": "A2"
   },
   {
@@ -53288,7 +53288,7 @@ const A2_WORDS = [
   {
     "de": "Speck",
     "de_article": "der",
-    "lv": "Sádlo",
+    "lv": "Slanina",
     "level": "A2"
   },
   {
@@ -53349,7 +53349,7 @@ const A2_WORDS = [
   {
     "de": "Sport",
     "de_article": "der",
-    "lv": "Sportovní",
+    "lv": "Sport",
     "level": "A2"
   },
   {
@@ -53368,19 +53368,19 @@ const A2_WORDS = [
   },
   {
     "de": "springen",
-    "lv": "Skočit",
+    "lv": "Skákat",
     "level": "A2"
   },
   {
     "de": "spülen",
-    "lv": "Opláchněte",
+    "lv": "Oplachovat",
     "level": "A2"
   },
   {
     "de": "Staat",
     "de_article": "der",
     "de_plural": "die Staaten",
-    "lv": "Země",
+    "lv": "Stát",
     "level": "A2"
   },
   {
@@ -53399,7 +53399,7 @@ const A2_WORDS = [
   },
   {
     "de": "starten",
-    "lv": "Začít",
+    "lv": "Startovat",
     "level": "A2"
   },
   {
@@ -53411,7 +53411,7 @@ const A2_WORDS = [
   },
   {
     "de": "stattfinden",
-    "lv": "Stát se",
+    "lv": "Konat se",
     "level": "A2"
   },
   {
@@ -53492,7 +53492,7 @@ const A2_WORDS = [
         },
         {
           "word": "liegen",
-          "meaning": "Lehnout (poloha)",
+          "meaning": "Ležet (poloha)",
           "example": "Das Buch liegt hier. – Kniha je zde."
         },
         {
@@ -53507,7 +53507,7 @@ const A2_WORDS = [
         },
         {
           "word": "setzen",
-          "meaning": "Sedadlo (akce)",
+          "meaning": "Posadit (akce)",
           "example": "Ich setze das Kind hin. – Posadím dítě."
         }
       ],
@@ -53595,11 +53595,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich stelle die Flasche auf den Tisch.",
-          "lv": "Položil jsem láhev na stůl."
+          "lv": "Postavím láhev na stůl."
         },
         {
           "de": "Darf ich eine Frage stellen?",
-          "lv": "Mohu mít otázku"
+          "lv": "Mohu položit otázku?"
         },
         {
           "de": "Ich stelle die Flasche hin.",
@@ -53624,12 +53624,12 @@ const A2_WORDS = [
         },
         {
           "word": "liegen",
-          "meaning": "Lehnout (poloha)",
+          "meaning": "Ležet (poloha)",
           "example": "Das Buch liegt hier. – Kniha je zde."
         },
         {
           "word": "setzen",
-          "meaning": "Sedadlo (akce)",
+          "meaning": "Posadit (akce)",
           "example": "Ich setze das Kind hin. – Posadím dítě."
         },
         {
@@ -53645,7 +53645,7 @@ const A2_WORDS = [
       "important": [
         "Stellen = akce.",
         "Eine Frage stellen = položit otázku.",
-        "Akce: stelen.",
+        "Akce: stellen.",
         "Akce: někdo něco postaví nebo umístí."
       ],
       "sectionAccents": {
@@ -53704,7 +53704,7 @@ const A2_WORDS = [
   },
   {
     "de": "stehen bleiben",
-    "lv": "Zastavit",
+    "lv": "Zastavit se",
     "level": "A2"
   },
   {
@@ -53726,8 +53726,8 @@ const A2_WORDS = [
     "study": {
       "id": "a2-steigen",
       "layout": "standardStudy",
-      "translation": "Vylézt • Vstát",
-      "explanation": "Hlavní myšlenka: steigen znamená šplhat nebo stoupat nahoru. Používá se, když člověk leze po schodech, na horu nebo v dopravě. S cenami, čísly, teplotou nebo hladinou vody znamená steigen stoupat nebo stoupat. Není to totéž jako einsteigen, aussteigen nebo aufstehen.",
+      "translation": "Stoupat • Lézt",
+      "explanation": "Hlavní myšlenka: steigen znamená lézt nebo stoupat nahoru. Používá se při lezení po schodech nebo na horu. U cen, čísel, teploty a hladiny vody znamená stoupat. V dopravě se používá hlavně v einsteigen a aussteigen. Není to totéž jako aufstehen.",
       "examples": [
         {
           "de": "Wir steigen die Treppe hinauf.",
@@ -53762,12 +53762,12 @@ const A2_WORDS = [
         },
         {
           "word": "einsteigen",
-          "meaning": "Dostat se do dopravy",
+          "meaning": "Nastoupit do dopravního prostředku",
           "example": "Ich steige in den Bus ein. = Nastupuji do autobusu."
         },
         {
           "word": "aussteigen",
-          "meaning": "Vystupte z transportu",
+          "meaning": "Vystoupit z dopravního prostředku",
           "example": "Ich steige aus. = Vypadnu."
         },
         {
@@ -54123,11 +54123,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "An dieser Stelle darf man nicht parken.",
-          "lv": "Nestůjte na tomto místě."
+          "lv": "Na tomto místě se nesmí parkovat."
         },
         {
           "de": "Ich suche eine neue Stelle.",
-          "lv": "Hledám novou práci."
+          "lv": "Hledám nové pracovní místo."
         },
         {
           "de": "Die Stelle ist gut bezahlt.",
@@ -54135,7 +54135,7 @@ const A2_WORDS = [
         },
         {
           "de": "Lies diese Stelle im Text noch einmal.",
-          "lv": "Přečtěte si toto místo v textu znovu."
+          "lv": "Přečti si toto místo v textu ještě jednou."
         },
         {
           "de": "An dieser Stelle tut es weh.",
@@ -54164,7 +54164,7 @@ const A2_WORDS = [
         },
         {
           "word": "die Textstelle",
-          "meaning": "Textový prostor / fragment",
+          "meaning": "Místo v textu / pasáž",
           "example": "Diese Textstelle ist wichtig. = Tato pasáž je důležitá."
         },
         {
@@ -54185,7 +54185,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Stelle velmi často znamená víc než jen fyzické místo.",
-        "example": "An dieser Stelle = šajā vietā. eine Stelle suchen = meklēt darbu. Textstelle = teksta fragments."
+        "example": "An dieser Stelle = na tomto místě. eine Stelle suchen = hledat práci. Textstelle = místo v textu."
       },
       "sectionAccents": {
         "examples": [
@@ -54570,7 +54570,7 @@ const A2_WORDS = [
   },
   {
     "de": "steuern",
-    "lv": "Vést",
+    "lv": "Řídit",
     "level": "A2"
   },
   {
@@ -54606,8 +54606,8 @@ const A2_WORDS = [
     "study": {
       "id": "a2-stimmen",
       "layout": "standardStudy",
-      "translation": "Souhlasit • Mít pravdu • Volit",
-      "explanation": "Hlavní myšlenka: stimmen znamená, že něco souhlasí nebo je správné • V jiném kontextu to znamená volit. \"Das stimmt\" = \"Je to\" nebo \"Je to správné\" je velmi běžné v každodenním životě. V politice nebo skupině znamená stimmen volit. U nástroje znamená stimmen ladit.",
+      "translation": "Být správný • Hlasovat • Ladit",
+      "explanation": "Hlavní myšlenka: stimmen znamená, že něco souhlasí nebo je správně. V jiném kontextu znamená hlasovat. „Das stimmt“ znamená „To je pravda“ nebo „To je správně“. U nástroje znamená stimmen ladit.",
       "examples": [
         {
           "de": "Das stimmt.",
@@ -54619,7 +54619,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Zahlen stimmen nicht.",
-          "lv": "Čísla se nesčítají."
+          "lv": "Čísla nesedí."
         },
         {
           "de": "Wir stimmen über den Plan ab.",
@@ -54647,17 +54647,17 @@ const A2_WORDS = [
         },
         {
           "word": "abstimmen",
-          "meaning": "Hlasovat / souhlasit",
+          "meaning": "Hlasovat / sladit",
           "example": "Wir stimmen darüber ab. = Hlasujeme pro to."
         },
         {
           "word": "wählen",
-          "meaning": "Vybrat / vybrat",
+          "meaning": "Volit / vybrat",
           "example": "Wir wählen den Präsidenten. = Chceme prezidenta."
         },
         {
           "word": "passen",
-          "meaning": "Fit / fit",
+          "meaning": "Hodit se / slušet",
           "example": "Die Farbe passt. = Barva vyhovuje."
         }
       ],
@@ -54672,8 +54672,8 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Stimmen mění význam konstrukcí.",
-        "example": "Das stimmt = tā ir. über etwas abstimmen = balsot par kaut ko. jemandem zustimmen = piekrist kādam."
+        "text": "Sloveso stimmen mění význam podle vazby.",
+        "example": "Das stimmt = to je pravda. über etwas abstimmen = hlasovat o něčem. jemandem zustimmen = souhlasit s někým."
       },
       "sectionAccents": {
         "examples": [
@@ -54982,7 +54982,7 @@ const A2_WORDS = [
   },
   {
     "de": "stinken",
-    "lv": "Vonět",
+    "lv": "Smrdět",
     "level": "A2"
   },
   {
@@ -55059,8 +55059,8 @@ const A2_WORDS = [
         },
         {
           "word": "das Thema",
-          "meaning": "Podrobit",
-          "example": "Das Thema ist interessant. = Téma je to zajímavé."
+          "meaning": "Téma",
+          "example": "Das Thema ist interessant. = Téma je zajímavé."
         }
       ],
       "tip": {
@@ -55075,7 +55075,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Der Stoff není jen látka.",
-        "example": "Stoff für ein Kleid = audums kleitai. ein giftiger Stoff = indīga viela. Unterrichtsstoff = mācību viela."
+        "example": "Stoff für ein Kleid = látka na šaty. ein giftiger Stoff = jedovatá látka. Unterrichtsstoff = učivo."
       },
       "sectionAccents": {
         "examples": [
@@ -55425,7 +55425,7 @@ const A2_WORDS = [
   {
     "de": "Straßenverkehr",
     "de_article": "der",
-    "lv": "Pouliční provoz",
+    "lv": "Silniční provoz",
     "level": "A2"
   },
   {
@@ -55437,14 +55437,14 @@ const A2_WORDS = [
   },
   {
     "de": "streicheln",
-    "lv": "Pohlazení",
+    "lv": "Hladit",
     "level": "A2"
   },
   {
     "de": "Streichholz",
     "de_article": "das",
     "de_plural": "die Streichhölzer",
-    "lv": "Zápas",
+    "lv": "Zápalka",
     "level": "A2"
   },
   {
@@ -55521,7 +55521,7 @@ const A2_WORDS = [
     "de": "Tablett",
     "de_article": "das",
     "de_plural": "die Tabletts",
-    "lv": "Zásobník",
+    "lv": "Podnos",
     "level": "A2"
   },
   {
@@ -55541,7 +55541,7 @@ const A2_WORDS = [
       "id": "a2-tafel",
       "layout": "standardStudy",
       "translation": "Tabule • Deska",
-      "explanation": "Hlavní myšlenka: die Tafel znamená nejčastěji tabuli ve škole, ale může to znamenat i talíř nebo tabuli. Ve škole die Tafel je tabule na zdi. Čokoláda je často označována jako eine Tafel Schokolade = čokoládová tyčinka. Tabula v němčině je obvykle die Tabelle, ne die Tafel.",
+      "explanation": "Hlavní myšlenka: die Tafel znamená nejčastěji školní tabuli, ale může označovat i desku nebo tabulku. Čokoláda se často prodává jako eine Tafel Schokolade = tabulka čokolády. Tabulka s údaji je německy die Tabelle, ne die Tafel.",
       "examples": [
         {
           "de": "Der Lehrer schreibt an die Tafel.",
@@ -55549,11 +55549,11 @@ const A2_WORDS = [
         },
         {
           "de": "Bitte wisch die Tafel ab.",
-          "lv": "Prosím otřete desku."
+          "lv": "Prosím, otři tabuli."
         },
         {
           "de": "Ich kaufe eine Tafel Schokolade.",
-          "lv": "Koupím čokoládovou tyčinku."
+          "lv": "Kupuji tabulku čokolády."
         },
         {
           "de": "An der Wand hängt eine Informationstafel.",
@@ -55571,7 +55571,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "die Tafel",
-          "meaning": "Tabule / deska / tabule",
+          "meaning": "Tabule / deska / tabulka",
           "example": "Der Lehrer schreibt an die Tafel. = Učitel píše na tabuli."
         },
         {
@@ -55586,7 +55586,7 @@ const A2_WORDS = [
         },
         {
           "word": "das Schild",
-          "meaning": "Znak / plaketu",
+          "meaning": "Znak / plaketa",
           "example": "Das Schild ist rot. = Značka je červená."
         },
         {
@@ -55598,7 +55598,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Ve škole je tafel téměř vždy tabule."
+            "text": "Ve škole je Tafel téměř vždy tabule."
           },
           {
             "text": "Die Tabelle se používá pro datovou tabulku a die Speisekarte se používá pro menu."
@@ -55607,7 +55607,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Die Tafel není obvyklé slovo pro tabulku dat.",
-        "example": "Die Tafel = tāfele. die Tabelle = tabula. die Speisekarte = ēdienkarte. eine Tafel Schokolade = šokolādes tāfelīte."
+        "example": "Die Tafel = tabule. die Tabelle = tabulka. die Speisekarte = jídelní lístek. eine Tafel Schokolade = tabulka čokolády."
       },
       "sectionAccents": {
         "examples": [
@@ -55926,7 +55926,7 @@ const A2_WORDS = [
     "de": "Tankstelle",
     "de_article": "die",
     "de_plural": "die Tankstellen",
-    "lv": "Plynová nádrž",
+    "lv": "Čerpací stanice",
     "level": "A2"
   },
   {
@@ -55940,7 +55940,7 @@ const A2_WORDS = [
     "de": "Tannenbaum",
     "de_article": "der",
     "de_plural": "die Tannenbäume",
-    "lv": "Vánoční stromeček • Vánoční stromeček",
+    "lv": "Jedle",
     "level": "A2"
   },
   {
@@ -55961,7 +55961,7 @@ const A2_WORDS = [
     "de": "Taschenbuch",
     "de_article": "das",
     "de_plural": "die Taschenbücher",
-    "lv": "Zápisník",
+    "lv": "Brožovaná kniha",
     "level": "A2"
   },
   {
@@ -55973,7 +55973,7 @@ const A2_WORDS = [
   },
   {
     "de": "tauschen",
-    "lv": "Změnit",
+    "lv": "Vyměnit",
     "level": "A2"
   },
   {
@@ -56001,7 +56001,7 @@ const A2_WORDS = [
     "de": "Teekanne",
     "de_article": "die",
     "de_plural": "die Teekannen",
-    "lv": "Varná konvice",
+    "lv": "Čajová konvice",
     "level": "A2"
   },
   {
@@ -56013,8 +56013,8 @@ const A2_WORDS = [
     "study": {
       "id": "a2-teil",
       "layout": "standardStudy",
-      "translation": "Část • Detail • Kus",
-      "explanation": "Das Teil nejčastěji znamená část něčeho většího. V technickém kontextu to může znamenat detail. Hovorově může být Teil předmět, kus nebo kus oblečení. Kompozity jako Ersatzteil pomáhají: jedná se o náhradní díl. Kontext auta, spotřebičů, oblečení nebo celku určuje význam.",
+      "translation": "Část • Díl • Kus",
+      "explanation": "Das Teil nejčastěji znamená část něčeho většího. V technickém kontextu může znamenat díl. Hovorově může označovat předmět, kus nebo kus oblečení. Složeniny jako Ersatzteil pomáhají určit význam: jde o náhradní díl. Kontext auta, spotřebičů, oblečení nebo celku význam upřesňuje.",
       "examples": [
         {
           "de": "Das ist nur ein Teil der Geschichte.",
@@ -56030,7 +56030,7 @@ const A2_WORDS = [
         },
         {
           "de": "Dieses Teil gehört zur Maschine.",
-          "lv": "Tato část patří ke stroji."
+          "lv": "Tento díl patří ke stroji."
         },
         {
           "de": "Das ist ein schönes Teil.",
@@ -56044,7 +56044,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "das Teil",
-          "meaning": "Díl / detail / kus",
+          "meaning": "Část / díl / kus",
           "example": "Ein Teil fehlt. = Jedna část chybí."
         },
         {
@@ -56071,7 +56071,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "V technickém kontextu Teil často znamená detail."
+            "text": "V technickém kontextu Teil často znamená díl."
           },
           {
             "text": "Pro text, příběh nebo celek znamená Teil část."
@@ -56079,7 +56079,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Teil může mít jak abstraktní část, tak fyzický detail.",
+        "text": "Teil může označovat abstraktní část i fyzický díl.",
         "example": "Ein Teil der Geschichte = daļa no stāsta. Ersatzteil = rezerves detaļa. ein schönes Teil = skaists priekšmets / gabals."
       },
       "sectionAccents": {
@@ -56480,7 +56480,7 @@ const A2_WORDS = [
   },
   {
     "de": "teilen",
-    "lv": "Podíl",
+    "lv": "Dělit",
     "level": "A2"
   },
   {
@@ -56527,16 +56527,16 @@ const A2_WORDS = [
     "study": {
       "id": "a2-termin",
       "layout": "standardStudy",
-      "translation": "Dohodnuté jmenování • Termín",
-      "explanation": "Hlavní myšlenka: der Termin je dohodnutý čas u lékaře, v ústavu, v práci nebo konkrétní termín. V běžném životě to často znamená schůzku nebo schůzku v určitou dobu. S dokumenty a listinami může Termin znamenat termín. Není to totéž jako das Treffen, protože Treffen je samotné setkání, ale Termin je dohodnutý čas.",
+      "translation": "Schůzka • Termín",
+      "explanation": "Hlavní myšlenka: der Termin je domluvený čas u lékaře, v instituci nebo v práci, případně lhůta či termín. V běžném životě znamená často objednanou schůzku. U dokumentů a úkolů může znamenat termín. Není to totéž jako das Treffen: Treffen je samotné setkání, Termin je domluvený čas.",
       "examples": [
         {
           "de": "Ich habe morgen einen Termin beim Arzt.",
-          "lv": "Zítra jsem u lékaře."
+          "lv": "Zítra mám termín u lékaře."
         },
         {
           "de": "Kann ich einen Termin machen?",
-          "lv": "Mohu se přihlásit?"
+          "lv": "Mohu se objednat?"
         },
         {
           "de": "Der Termin ist um zehn Uhr.",
@@ -56544,7 +56544,7 @@ const A2_WORDS = [
         },
         {
           "de": "Wir müssen den Termin verschieben.",
-          "lv": "Musíme schůzku přeložit."
+          "lv": "Musíme schůzku přesunout."
         },
         {
           "de": "Der Termin für die Abgabe ist Freitag.",
@@ -56559,11 +56559,11 @@ const A2_WORDS = [
         {
           "word": "der Termin",
           "meaning": "Dohodnutý čas / termín / termín",
-          "example": "Ich habe einen Termin. = Mám schůzku / schůzku."
+          "example": "Ich habe einen Termin. = Mám schůzku / termín."
         },
         {
           "word": "das Treffen",
-          "meaning": "Zasedání",
+          "meaning": "Setkání",
           "example": "Das Treffen war nett. = Setkání bylo fajn."
         },
         {
@@ -56905,7 +56905,7 @@ const A2_WORDS = [
     "de": "Thema",
     "de_article": "das",
     "de_plural": "die Themen",
-    "lv": "Podrobit",
+    "lv": "Téma",
     "level": "A2"
   },
   {
@@ -56942,7 +56942,7 @@ const A2_WORDS = [
         },
         {
           "de": "Er hat eine tiefe Stimme.",
-          "lv": "Má tichý hlas."
+          "lv": "Má hluboký hlas."
         },
         {
           "de": "Die Temperaturen sind tief.",
@@ -56960,12 +56960,12 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "tief",
-          "meaning": "Hluboký / hluboký s hlasem, zvukem, teplotou",
+          "meaning": "Hluboký / nízký u hlasu, zvuku a teploty",
           "example": "Der See ist tief. = Jezero je hluboké."
         },
         {
           "word": "niedrig",
-          "meaning": "Nízkého vzrůstu nebo postavy",
+          "meaning": "Nízký z hlediska výšky nebo čísla",
           "example": "Das Regal ist niedrig. = Police je nízká."
         },
         {
@@ -56980,7 +56980,7 @@ const A2_WORDS = [
         },
         {
           "word": "leise",
-          "meaning": "Klid",
+          "meaning": "Tichý",
           "example": "Die Stimme ist leise. = Hlas je tichý."
         }
       ],
@@ -57317,7 +57317,7 @@ const A2_WORDS = [
     "de": "Tischler",
     "de_article": "der",
     "de_plural": "die Tischler",
-    "lv": "Tesař",
+    "lv": "Truhlář",
     "level": "A2"
   },
   {
@@ -57346,7 +57346,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-toll",
       "layout": "standardStudy",
-      "translation": "Skvělý • Skvělý • Skvělý",
+      "translation": "Skvělý • Bezva • Úžasný",
       "explanation": [
         "Hlavní myšlenka: hovorově toll znamená skvělé, cool, úžasné – pozitivní zvolání.",
         "Mýtné se často používá k vyjádření nadšení nebo obdivu (Das ist toll! = To je skvělé!).",
@@ -57510,7 +57510,7 @@ const A2_WORDS = [
     "de": "Top",
     "de_article": "das",
     "de_plural": "die Tops",
-    "lv": "Vrchol",
+    "lv": "Top",
     "level": "A2"
   },
   {
@@ -57565,12 +57565,12 @@ const A2_WORDS = [
     "study": {
       "id": "a2-tragen",
       "layout": "standardStudy",
-      "translation": "Nést",
-      "explanation": "Hlavní myšlenka: tragen znamená něco nosit, nosit něco s sebou nebo nosit oblečení. S taškou nebo dítětem, to znamená nosit. S brýlemi, hodinkami nebo oblečením to znamená nosit nebo nosit. Není to totéž jako přinést 'přinést' nebo anziehen 'nasadit'.",
+      "translation": "Nést • Nosit • Mít na sobě",
+      "explanation": "Hlavní myšlenka: tragen znamená nést něco, nosit něco u sebe nebo mít na sobě oblečení. U tašky nebo dítěte znamená nést; u brýlí, hodinek a oblečení znamená nosit. Není to totéž jako bringen „přinést“ nebo anziehen „obléct si“.",
       "examples": [
         {
           "de": "Kannst du die Tasche tragen?",
-          "lv": "Můžeš nosit tašku"
+          "lv": "Můžeš nést tašku?"
         },
         {
           "de": "Er trägt das Kind auf dem Arm.",
@@ -57596,12 +57596,12 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "tragen",
-          "meaning": "Nosit / nosit / nosit",
+          "meaning": "Nést / nosit / mít na sobě",
           "example": "Ich trage eine Tasche. = Nesu tašku."
         },
         {
           "word": "anziehen",
-          "meaning": "Nasadit",
+          "meaning": "Obléct si / oblékat",
           "example": "Ich ziehe die Jacke an. = Oblékl jsem si bundu."
         },
         {
@@ -57621,7 +57621,7 @@ const A2_WORDS = [
             "text": "Oblečení se často „nosí“ s tragen v němčině: eine Jacke tragen."
           },
           {
-            "text": "Pokud chcete říct „nasadit“, použijte anziehen • Pro 'přinést' použití přinést."
+            "text": "Pokud chcete říct „obléct si“, použijte anziehen; pro „přinést“ použijte bringen."
           }
         ]
       },
@@ -57741,7 +57741,7 @@ const A2_WORDS = [
     "de": "Training",
     "de_article": "das",
     "de_plural": "die Trainings",
-    "lv": "Výcvik",
+    "lv": "Trénink",
     "level": "A2"
   },
   {
@@ -57762,7 +57762,7 @@ const A2_WORDS = [
     "de": "Traube",
     "de_article": "die",
     "de_plural": "die Trauben",
-    "lv": "Hrozny",
+    "lv": "Hrozen",
     "level": "A2"
   },
   {
@@ -57851,14 +57851,14 @@ const A2_WORDS = [
         },
         {
           "word": "passen",
-          "meaning": "Fit / fit",
+          "meaning": "Hodit se / vyhovovat",
           "example": "Das passt. = To sedí."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "V lidském kontextu je treffen často „k setkání“."
+            "text": "V kontextu lidí treffen často znamená „potkat“ nebo „setkat se“."
           },
           {
             "text": "V kontextu rozhodnutí eine Entscheidung treffen znamená „učinit rozhodnutí“."
@@ -57866,7 +57866,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Ich treffe dich = Poznávám tě.",
+        "text": "Ich treffe dich = Potkávám tě.",
         "example": "Wir treffen uns = Mēs tiekamies. das Ziel treffen = trāpīt mērķī. eine Wahl treffen = izdarīt izvēli."
       },
       "sectionAccents": {
