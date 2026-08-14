@@ -653,7 +653,7 @@ function buildMarkdown(data) {
     `| Metric | Value |`,
     `|---|---|`,
     `| Groups applied | ${s.groupsApplied}/26 |`,
-    `| Residual OWNER-review cards | ${s.residualCards}/${RESIDUAL_CARDS_07_32} |`,
+    `| Residual OWNER-review cards | ${s.residualOwnerCards} |`,
     `| Exact targetObject match | ${s.exactTargetMatch} |`,
     `| CURRENT_VALUE_MISMATCH | ${s.currentValueMismatch} |`,
     `| diverged | ${s.diverged} |`,
@@ -874,7 +874,7 @@ async function main() {
   const summary = {
     prerequisitePass: prereq.pass,
     groupsApplied: prereq.groupsApplied,
-    residualCards: `${RESIDUAL_CARDS_07_32}/${RESIDUAL_CARDS_07_32}`,
+    residualOwnerCards: `${RESIDUAL_CARDS_07_32}/${RESIDUAL_CARDS_07_32}`,
     exactTargetMatch: `${prereq.exact}/${RESIDUAL_CARDS_07_32}`,
     currentValueMismatch: 0,
     diverged: prereq.mismatches.length,

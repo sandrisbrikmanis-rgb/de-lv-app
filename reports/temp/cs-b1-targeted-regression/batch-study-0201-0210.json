@@ -1,0 +1,44 @@
+{
+  "batch": "study-0201-0210",
+  "cardIds": [
+    "b1-ohnmacht",
+    "b1-opfern",
+    "b1-orientieren",
+    "b1-periode",
+    "b1-pflegen",
+    "b1-pochen",
+    "b1-posten",
+    "b1-probe",
+    "b1-rang",
+    "b1-rasen"
+  ],
+  "findings": [
+    {
+      "cardId": "b1-pochen",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-rasen",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 8
+}

@@ -1,0 +1,57 @@
+{
+  "batch": "study-0241-0250",
+  "cardIds": [
+    "b1-sowie-2660",
+    "b1-spannung",
+    "b1-speichern",
+    "b1-sperren",
+    "b1-spitze",
+    "b1-spritzen",
+    "b1-sprung",
+    "b1-stand",
+    "b1-stellung",
+    "b1-stift"
+  ],
+  "findings": [
+    {
+      "cardId": "b1-speichern",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-sperren",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-sprung",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 7
+}
