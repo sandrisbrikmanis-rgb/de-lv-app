@@ -1249,12 +1249,12 @@ const B1_WORDS = [
   },
   {
     "de": "abgehen",
-    "lv": "Dovolená",
+    "lv": "Odejít",
     "level": "B1",
     "study": {
       "id": "b1-abgehen",
       "layout": "standardStudy",
-      "translation": "Dovolená",
+      "translation": "Odejít",
       "explanation": "Hlavní myšlenka: abgehen znamená odejít nebo odejít z místa. V určitých kontextech to může také znamenat utéct nebo minout.",
       "examples": [
         {
@@ -1591,7 +1591,7 @@ const B1_WORDS = [
       "id": "b1-ablegen",
       "layout": "standardStudy",
       "translation": "Položit",
-      "explanation": "Hlavní myšlenka: aablegen znamená odložit nebo odstranit něco ze sebe. V kontextu školy a zkoušek to znamená udělat zkoušku.",
+      "explanation": "Hlavní myšlenka: ablegen znamená odložit nebo odstranit něco ze sebe. V kontextu školy a zkoušek to znamená udělat zkoušku.",
       "examples": [
         {
           "de": "Bitte legen Sie den Mantel ab.",
@@ -1626,7 +1626,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Prüfungablen znamená složení zkoušky, nikoli „absolvování“ předmětu."
+            "text": "Prüfung ablegen znamená složit zkoušku, nikoli „absolvovat“ předmět."
           }
         ]
       },
@@ -2160,7 +2160,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Abschluss",
-          "meaning": "Závěr / závěr edukace",
+          "meaning": "Závěr / ukončení studia",
           "example": "Der Abschluss ist wichtig. = Důležitý je závěr."
         },
         {
@@ -2299,7 +2299,7 @@ const B1_WORDS = [
       "id": "b1-abschnitt",
       "layout": "standardStudy",
       "translation": "Fáze",
-      "explanation": "Hlavní myšlenka: der Abschnitt znamená část nebo část textu. Používá se pro text, cestu, práci nebo čas.",
+      "explanation": "Hlavní myšlenka: der Abschnitt znamená úsek nebo část, zejména část textu. Používá se pro text, cestu, práci nebo čas.",
       "examples": [
         {
           "de": "Dieser Abschnitt ist schwer.",
@@ -2317,7 +2317,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Abschnitt",
-          "meaning": "Etapa / část",
+          "meaning": "Úsek / část",
           "example": "Dieser Abschnitt ist wichtig. = Tato fáze je důležitá."
         },
         {
@@ -2396,7 +2396,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Etapa"
+                "Úsek"
               ]
             }
           },
@@ -2420,7 +2420,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "fāze"
+                "Fáze"
               ]
             }
           }
@@ -2967,7 +2967,7 @@ const B1_WORDS = [
   },
   {
     "de": "anlehnen",
-    "lv": "TAM",
+    "lv": "Opřít",
     "level": "B1"
   },
   {
@@ -3176,7 +3176,7 @@ const B1_WORDS = [
   },
   {
     "de": "anschaulich",
-    "lv": "Zvážil",
+    "lv": "Názorný",
     "level": "B1"
   },
   {
@@ -3360,7 +3360,7 @@ const B1_WORDS = [
       "id": "b1-anschluss",
       "layout": "standardStudy",
       "translation": "Spojení",
-      "explanation": "Hlavní myšlenka: der Anschluss znamená spojení nebo spojení. V dopravě to znamená další spojení, například přestup vlakem.",
+      "explanation": "Hlavní myšlenka: der Anschluss znamená připojení nebo navazující spojení. V dopravě označuje například přestup na navazující vlak.",
       "examples": [
         {
           "de": "Der Anschluss funktioniert nicht.",
@@ -3762,12 +3762,12 @@ const B1_WORDS = [
     "de": "Antrag",
     "de_article": "der",
     "de_plural": "die Anträge",
-    "lv": "Podání",
+    "lv": "Žádost",
     "level": "B1",
     "study": {
       "id": "b1-antrag",
       "layout": "standardStudy",
-      "translation": "Podání",
+      "translation": "Žádost",
       "explanation": "Hlavní myšlenka: der Antrag znamená podání nebo formální žádost. Na schůzích to může znamenat i návrh na hlasování.",
       "examples": [
         {
@@ -4302,7 +4302,7 @@ const B1_WORDS = [
       "id": "b1-aufwand",
       "layout": "standardStudy",
       "translation": "Úsilí",
-      "explanation": "Hlavní myšlenka: der Ausführt znamená úsilí nebo investice potřebné k tomu, abychom něco udělali. V kontextu nákladů to může také znamenat výdaje, ale u B1 je nejdůležitější myšlenkou požadované úsilí.",
+      "explanation": "Hlavní myšlenka: der Aufwand znamená úsilí nebo investice potřebné k tomu, abychom něco udělali.",
       "examples": [
         {
           "de": "Der Aufwand ist zu groß.",
@@ -4337,12 +4337,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Když přijde na to, kolik práce něco vyžaduje, myslete na der Ausführt."
+            "text": "Když přijde na to, kolik práce něco vyžaduje, myslete na der Aufwand."
           }
         ]
       },
       "important": {
-        "text": "Der Ausführt není běžná „spotřeba“ • Častěji je to vynaložené úsilí, čas nebo práce."
+        "text": "Der Aufwand není běžná „spotřeba“ • Častěji je to vynaložené úsilí, čas nebo práce."
       },
       "sectionAccents": {
         "examples": [
@@ -4466,12 +4466,12 @@ const B1_WORDS = [
   },
   {
     "de": "aufführen",
-    "lv": "Vychovat",
+    "lv": "Uvést",
     "level": "B1",
     "study": {
       "id": "b1-aufführen",
       "layout": "standardStudy",
-      "translation": "Vychovat",
+      "translation": "Uvést",
       "explanation": "Hlavní myšlenka: aufführen znamená předvést nebo něco vypsat. Význam je určen situací: divadlo nebo seznam.",
       "examples": [
         {
@@ -4507,7 +4507,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Divadlo → aufführen • Seznam → erättät."
+            "text": "Divadlo → aufführen • Seznam → aufführen."
           }
         ]
       },
@@ -4797,8 +4797,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "uzturēties",
-                  "aizkavēt"
+                  "pobyt",
+                  "zpoždění"
                 ]
               }
             }
@@ -5219,8 +5219,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "izruna",
-                  "domu apmaiņa"
+                  "výslovnost",
+                  "výměna myšlenek"
                 ]
               }
             }
@@ -5383,9 +5383,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "izsniegt",
-                  "izrakstīt",
-                  "izstādīt"
+                  "vydání",
+                  "vydání",
+                  "vystavovati"
                 ]
               }
             }
@@ -5812,8 +5812,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "izraksts",
-                  "izvākšanās"
+                  "výpis",
+                  "vystěhování"
                 ]
               }
             }
@@ -6126,9 +6126,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "būvniecība",
-                  "celtne",
-                  "būvlaukumā"
+                  "stavba",
+                  "budova",
+                  "stavbě"
                 ]
               }
             }
@@ -6375,10 +6375,10 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "baseinā",
-                  "iegurnis",
-                  "tvertne",
-                  "bļoda"
+                  "bazénu",
+                  "pánev",
+                  "nádoba",
+                  "miska"
                 ]
               }
             }
@@ -6575,9 +6575,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "nozīmīgs",
-                  "ievērojams",
-                  "ievērojami"
+                  "významný",
+                  "významný",
+                  "výrazně"
                 ]
               }
             }
@@ -6754,8 +6754,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "ņemiet paši",
-                  "apkalpot"
+                  "vezmi si to sám",
+                  "sloužit"
                 ]
               }
             }
@@ -6922,7 +6922,7 @@ const B1_WORDS = [
   },
   {
     "de": "begießen",
-    "lv": "Do vody",
+    "lv": "Zalévat",
     "level": "B1"
   },
   {
@@ -7028,7 +7028,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Podívejte se na předmět: pacient behandeln = behandeln • Lidský behandeln = chovat se • Téma behandeln = diskutovat."
+            "text": "Podívejte se na předmět: pacienta behandeln = léčit • člověka behandeln = chovat se k němu • téma behandeln = probírat."
           }
         ]
       },
@@ -7116,7 +7116,7 @@ const B1_WORDS = [
             "Hlavní"
           ],
           "yellow": [
-            "tēma"
+            "téma"
           ],
           "green": [
             "pacienta",
@@ -7166,9 +7166,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "ārstēt",
-                  "izturēties",
-                  "apspriest"
+                  "léčit",
+                  "chovat se k němu",
+                  "probírat"
                 ]
               }
             }
@@ -7718,9 +7718,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "kļūdu",
-                  "izmaiņu",
-                  "faktu"
+                  "chyby",
+                  "změny",
+                  "skutečnosti"
                 ]
               }
             }
@@ -7995,7 +7995,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Odborně týraní lidé • Skupina berät über otázka • Lidé nadávali sich."
+            "text": "Odborník radí člověku • Skupina probírá otázku • Lidé se radí."
           }
         ]
       },
@@ -8116,9 +8116,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "eksperts",
-                  "grupa",
-                  "cilvēki"
+                  "Odborník",
+                  "Skupina",
+                  "Lidé"
                 ]
               }
             }
@@ -8283,7 +8283,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "Hlavní",
-            "zonu"
+            "zónu"
           ]
         },
         "comparison": [
@@ -8329,8 +8329,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "joma",
-                  "zona"
+                  "oblast",
+                  "plocha"
                 ]
               }
             }
@@ -8566,8 +8566,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "notikumiem",
-                  "rezultātiem"
+                  "události",
+                  "výsledky"
                 ]
               }
             }
@@ -8763,8 +8763,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "nomierinās",
-                  "nomierini"
+                  "uklidní",
+                  "uchlácholíš"
                 ]
               }
             }
@@ -8929,8 +8929,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "slava",
-                  "slavenības"
+                  "sláva",
+                  "slavné osobnosti"
                 ]
               }
             }
@@ -9150,8 +9150,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "lēmums",
-                  "aizvērt"
+                  "Rozhodnutí",
+                  "Zavřít"
                 ]
               }
             }
@@ -9337,8 +9337,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "sūdzība",
-                  "kaites"
+                  "stížnost",
+                  "neduhy"
                 ]
               }
             }
@@ -9543,8 +9543,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "dabūt",
-                  "noorganizēt"
+                  "získat",
+                  "zařídit"
                 ]
               }
             }
@@ -9761,9 +9761,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "nokārtot",
-                  "sastāvēt",
-                  "uzstāt"
+                  "projít",
+                  "sestávat",
+                  "trvat"
                 ]
               }
             }
@@ -9947,8 +9947,8 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "cenu",
-                  "devu",
-                  "termiņu"
+                  "dávku",
+                  "termín"
                 ]
               }
             }
@@ -9989,7 +9989,7 @@ const B1_WORDS = [
   {
     "de": "Beton",
     "de_article": "der",
-    "lv": "Konkrétní",
+    "lv": "Beton",
     "level": "B1"
   },
   {
@@ -10193,8 +10193,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "uzņēmums",
-                  "darbojas"
+                  "Společnost",
+                  "provozu"
                 ]
               }
             }
@@ -10658,9 +10658,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "saņemt",
-                  "ievākties",
-                  "attiekties"
+                  "pobírat důchod",
+                  "nastěhovat se",
+                  "odkazovat"
                 ]
               }
             }
@@ -10875,7 +10875,7 @@ const B1_WORDS = [
       "id": "b1-bieten",
       "layout": "standardStudy",
       "translation": "Nabídnout",
-      "explanation": "Hlavní myšlenka: Řepa znamená nabídnout nebo poskytnout něco jako příležitost, službu nebo výhodu. anbieten častěji znamená aktivně nabízet někomu konkrétnímu.",
+      "explanation": "Hlavní myšlenka: bieten znamená nabídnout nebo poskytnout něco jako příležitost, službu nebo výhodu. anbieten častěji znamená aktivně nabízet někomu konkrétnímu.",
       "examples": [
         {
           "de": "Die Schule bietet viele Kurse an.",
@@ -11047,8 +11047,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "sniedz",
-                  "piedāvā"
+                  "dává",
+                  "nabízí"
                 ]
               }
             }
@@ -11257,9 +11257,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "tulzna",
-                  "pūslis",
-                  "burbuļi"
+                  "puchýř",
+                  "měchýř",
+                  "bubliny"
                 ]
               }
             }
@@ -11290,7 +11290,7 @@ const B1_WORDS = [
     "de": "Blei",
     "de_article": "das",
     "de_plural": null,
-    "lv": "Vést",
+    "lv": "Olovo",
     "level": "B1"
   },
   {
@@ -11300,7 +11300,7 @@ const B1_WORDS = [
   },
   {
     "de": "blicken",
-    "lv": "Hodinky",
+    "lv": "Dívat se",
     "level": "B1"
   },
   {
@@ -11492,9 +11492,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "blociņš",
-                  "bloks",
-                  "klucis"
+                  "block",
+                  "blok",
+                  "blok"
                 ]
               }
             }
@@ -11912,7 +11912,7 @@ const B1_WORDS = [
     "de": "Bombe",
     "de_article": "die",
     "de_plural": "die Bomben",
-    "lv": "Míč",
+    "lv": "Bomba",
     "level": "B1"
   },
   {
@@ -12171,7 +12171,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Ve zprávách Značka = oheň • Anglická \"značka\" je německy Marke."
+            "text": "Ve zprávách Brand = požár • Anglické „brand“ = značka, německy die Marke."
           }
         ]
       },
@@ -12291,8 +12291,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "ugunsgrēks",
-                  "zīmols"
+                  "požár",
+                  "značka"
                 ]
               }
             }
@@ -12395,7 +12395,7 @@ const B1_WORDS = [
     "de": "Brett",
     "de_article": "das",
     "de_plural": "die Bretter",
-    "lv": "Rada",
+    "lv": "Prkno",
     "level": "B1"
   },
   {
@@ -12710,8 +12710,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "federācija",
-                  "saišķis"
+                  "federace",
+                  "svazek"
                 ]
               }
             }
@@ -13370,12 +13370,12 @@ const B1_WORDS = [
   },
   {
     "de": "dahin",
-    "lv": "Pokračování",
+    "lv": "Tam",
     "level": "B1",
     "study": {
       "id": "b1-dahin",
       "layout": "standardStudy",
-      "translation": "Pokračování",
+      "translation": "Tam",
       "explanation": "Hlavní myšlenka: dahin znamená tam, tam. V přeneseném smyslu es ist dahin znamená, že je něco ztraceno nebo ztraceno.",
       "examples": [
         {
@@ -13388,7 +13388,7 @@ const B1_WORDS = [
         },
         {
           "de": "Meine Hoffnung ist dahin.",
-          "lv": "Moje naděje je pro dvůr."
+          "lv": "Moje naděje je ztracena."
         }
       ],
       "comparison": [
@@ -13416,7 +13416,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Dahin ukazuje směr k místu a dort ukazuje umístění. I ist dahin = to je na dvůr."
+        "text": "Dahin ukazuje směr k místu, zatímco dort označuje místo. Es ist dahin = je to pryč nebo ztracené."
       },
       "sectionAccents": {
         "examples": [
@@ -13522,8 +13522,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "kustība",
-                  "atrašanās vieta"
+                  "Pohyb",
+                  "Umístění"
                 ]
               }
             }
@@ -13887,7 +13887,7 @@ const B1_WORDS = [
                   "danke"
                 ],
                 "purple": [
-                  "atbildei",
+                  "odpověď",
                   "děkuji"
                 ]
               }
@@ -13899,8 +13899,8 @@ const B1_WORDS = [
                   "danke Ihnen"
                 ],
                 "purple": [
-                  "formālākai",
-                  "pateicībai"
+                  "formálnější",
+                  "poděkování"
                 ]
               }
             }
@@ -14176,7 +14176,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Data, grafy, situace a role werden dargestellt • Sev vorstellen = představit se."
+            "text": "Data, grafy, situace a role werden dargestellt • Sich vorstellen = představit se."
           }
         ]
       },
@@ -14307,7 +14307,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "iepazīstināties"
+                  "představit se"
                 ]
               }
             }
@@ -14856,7 +14856,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Dien není obvyklé „pomáhat muži“ • Pomoci je obvykle helfen."
+        "text": "Dienen není obvyklé „pomáhat někomu“ • Pomoci je obvykle helfen."
       },
       "sectionAccents": {
         "examples": [
@@ -15300,8 +15300,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "būt zem spiediena",
-                  "drukāšana"
+                  "být pod tlakem",
+                  "knihtisk"
                 ]
               }
             }
@@ -15548,7 +15548,7 @@ const B1_WORDS = [
       "id": "b1-durchführen",
       "layout": "standardStudy",
       "translation": "Provést",
-      "explanation": "Hlavní myšlenka: gebieben znamená provést nebo provést plánovanou akci. Používá se při kontrolách, opravách, experimentech a akcích.",
+      "explanation": "Hlavní myšlenka: durchführen znamená provést nebo uskutečnit plánovanou činnost. Používá se u kontrol, oprav, experimentů a akcí.",
       "examples": [
         {
           "de": "Wir führen eine Kontrolle durch.",
@@ -15588,7 +15588,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Gerünfung není doslovně „procházet“ • V textech B1 to obvykle znamená vystupovat."
+        "text": "Durchführen doslova neznamená „provádět skrz“ • V textech B1 obvykle znamená provést nebo uskutečnit."
       },
       "sectionAccents": {
         "examples": [
@@ -15958,8 +15958,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "izvēlē",
-                  "laikā"
+                  "výběru",
+                  "čase"
                 ]
               }
             }
@@ -16375,9 +16375,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "ielauzties",
-                  "iebrukt",
-                  "iestāties"
+                  "vloupat se",
+                  "napadnout",
+                  "vstoupit"
                 ]
               }
             }
@@ -16400,7 +16400,7 @@ const B1_WORDS = [
       "id": "b1-eindeutig",
       "layout": "standardStudy",
       "translation": "Nezaměnitelný",
-      "explanation": "Hlavní myšlenka: einveitt znamená jasné a jednoznačné, když neexistují žádné pochybnosti nebo dva výklady. To není totéž jako einfach = jednoduché.",
+      "explanation": "Hlavní myšlenka: eindeutig znamená jasný a jednoznačný, když neexistují pochybnosti ani dva možné výklady. Není totéž co einfach = jednoduchý.",
       "examples": [
         {
           "de": "Die Antwort ist eindeutig.",
@@ -16418,7 +16418,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pokud není pochyb o významu nebo výsledku, použijte einteigt."
+            "text": "Pokud není pochyb o významu nebo výsledku, použijte eindeutig."
           }
         ]
       },
@@ -16699,7 +16699,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "atstāt labu iespaidu"
+                  "udělat dobrý dojem"
                 ]
               }
             }
@@ -16722,7 +16722,7 @@ const B1_WORDS = [
       "id": "b1-einerlei",
       "layout": "standardStudy",
       "translation": "Stejně",
-      "explanation": "Hlavní myšlenka: einerle znamená nezáleží nebo nezáleží. Zní to více formálně nebo staromódně než každodenní egal.",
+      "explanation": "Hlavní myšlenka: einerlei znamená „je mi to jedno“ nebo „nezáleží na tom“. Zní formálněji či staromódněji než běžné egal.",
       "examples": [
         {
           "de": "Mir ist das einerlei.",
@@ -16878,8 +16878,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "formālāku",
-                  "vienalga"
+                  "formálnější",
+                  "nevadí"
                 ]
               }
             }
@@ -17391,7 +17391,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "ienāk prātā"
+                  "něco mě napadá"
                 ]
               }
             }
@@ -17574,8 +17574,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "viena krāsa",
-                  "daudz krāsu"
+                  "jedna barva",
+                  "mnoho barev"
                 ]
               }
             }
@@ -17900,8 +17900,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "ievietot",
-                  "iekļauties"
+                  "vložit",
+                  "zapadnout"
                 ]
               }
             }
@@ -18102,10 +18102,10 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "noteikumus",
-                  "sistēmu",
-                  "metodi",
-                  "preces"
+                  "Pravidla",
+                  "systém",
+                  "metoda",
+                  "Zboží"
                 ]
               }
             }
@@ -18286,10 +18286,10 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "teksts",
-                  "kurss",
-                  "sistēma",
-                  "noteikumi"
+                  "Text",
+                  "kurz",
+                  "Systém",
+                  "pravidla"
                 ]
               }
             }
@@ -18474,9 +18474,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "darbā",
-                  "skolā",
-                  "vietā"
+                  "práci",
+                  "škole",
+                  "místě"
                 ]
               }
             }
@@ -18848,9 +18848,10 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "augi",
-                  "dzīvnieki",
-                  "produkti"
+                  "Lidé",
+                  "rostliny",
+                  "zvířata",
+                  "produkty"
                 ]
               }
             }
@@ -19031,9 +19032,10 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "mācību vienība",
-                  "mērvienība",
-                  "modulis"
+                  "studijní jednotka",
+                  "měrná jednotka",
+                  "jednotka",
+                  "modul"
                 ]
               }
             }
@@ -19208,9 +19210,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "garums",
-                  "vienība",
-                  "garuma mērvienība"
+                  "délka",
+                  "jednotka",
+                  "jednotka délky"
                 ]
               }
             }
@@ -19355,8 +19357,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "vienādam stilam",
-                  "kārtībai"
+                  "stejný styl",
+                  "řád"
                 ]
               }
             }
@@ -19544,10 +19546,10 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "informāciju",
-                  "padomu",
-                  "atļauju",
-                  "skrējēju"
+                  "Informace",
+                  "rady",
+                  "povolení",
+                  "Běžec"
                 ]
               }
             }
@@ -19633,7 +19635,7 @@ const B1_WORDS = [
   },
   {
     "de": "einnehmen",
-    "lv": "Otěhotnět",
+    "lv": "Užívat",
     "level": "B1"
   },
   {
@@ -19829,8 +19831,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "iesaistīts",
-                  "izmantots"
+                  "zapojen",
+                  "použit"
                 ]
               }
             }
@@ -20468,8 +20470,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "telpā",
-                  "sekas"
+                  "místnosti",
+                  "Následky"
                 ]
               }
             }
@@ -20685,9 +20687,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "ievākties",
-                  "iekasēt",
-                  "ievilkt"
+                  "nastěhovat se",
+                  "účtovat",
+                  "vtáhnout"
                 ]
               }
             }
@@ -20789,7 +20791,7 @@ const B1_WORDS = [
   {
     "de": "Elend",
     "de_article": "das",
-    "lv": "Bída • Bída",
+    "lv": "Bída",
     "level": "B1"
   },
   {
@@ -20972,7 +20974,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "uzņemt"
+                  "přijímat lidi"
                 ]
               }
             }
@@ -21214,8 +21216,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "noņemt",
-                  "attālinās"
+                  "odstranit",
+                  "vzdálí"
                 ]
               }
             }
@@ -21418,8 +21420,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "iekšā",
-                  "iekļauts"
+                  "uvnitř",
+                  "zahrnuté"
                 ]
               }
             }
@@ -21616,7 +21618,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "izdevās izbēgt"
+                  "podařilo uniknout"
                 ]
               }
             }
@@ -21816,7 +21818,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "izvēlies pēc vietas"
+                  "vyberte podle místa"
                 ]
               }
             }
@@ -22212,7 +22214,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "izveidojas procesa gaitā"
+                  "během procesu vytvoří"
                 ]
               }
             }
@@ -22538,8 +22540,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "saņemt",
-                  "saglabāt"
+                  "přijímat",
+                  "zachovat"
                 ]
               }
             }
@@ -22718,7 +22720,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Kontu, vystavovat nebo sit överfünt muž • Otevři mi dveře."
+            "text": "Účet, výstavu nebo schůzi otevíráme či zahajujeme pomocí eröffnen • Dveře otevíráme pomocí öffnen."
           }
         ]
       },
@@ -22853,10 +22855,10 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "kontu",
-                  "izstādi",
-                  "sēdi",
-                  "durvis"
+                  "Účet",
+                  "výstavu",
+                  "schůzi",
+                  "Dveře"
                 ]
               }
             }
@@ -23062,8 +23064,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "iznāk",
-                  "ierodas"
+                  "vychází",
+                  "přijíždí"
                 ]
               }
             }
@@ -23266,7 +23268,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "stājas citas lietas vietā"
+                  "nahrazuje něco jiného"
                 ]
               }
             }
@@ -23575,7 +23577,7 @@ const B1_WORDS = [
         },
         {
           "de": "Ich kann diesen Gedanken nicht fassen.",
-          "lv": "Nemůžu zabalit hlavu kolem té myšlenky."
+          "lv": "Nemohu tuto myšlenku pochopit."
         },
         {
           "de": "Der Saal fasst 200 Personen.",
@@ -23602,7 +23604,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Rukou fassen = uchopit • Rozumem fassen = uchopit • Saal rychle = hodí se."
+            "text": "Rukou fassen = uchopit • Myšlenku fassen = pochopit • Saal fasst = pojme určitý počet osob."
           }
         ]
       },
@@ -24077,7 +24079,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Nezaměňujte festhalten s festhalten: festhalten = držet/upravovat, festhalten = zakládat."
+        "text": "Nezaměňujte festhalten s feststellen: festhalten = držet/zaznamenat, feststellen = konstatovat."
       },
       "sectionAccents": {
         "examples": [
@@ -24190,8 +24192,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "turēt cieši",
-                  "fiksēt"
+                  "pevně se držet",
+                  "opravit"
                 ]
               }
             }
@@ -24403,7 +24405,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-feststellen",
       "layout": "standardStudy",
-      "translation": "Založit",
+      "translation": "Konstatovat",
       "explanation": "Hlavní myšlenka: zjistit znamená zjistit nebo zjistit skutečnost zkoumáním, pozorováním nebo analýzou. To není totéž jako stanovit si předem termín nebo cenu.",
       "examples": [
         {
@@ -24444,7 +24446,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Verzetten = stanovit již existující skutečnost • Festlegen = stanovit rozhodnutí, termín nebo cenu."
+        "text": "Feststellen = konstatovat již existující skutečnost • Festlegen = předem stanovit rozhodnutí, termín nebo cenu."
       },
       "sectionAccents": {
         "examples": [
@@ -24567,11 +24569,11 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "faktu",
-                  "kļūdu",
-                  "slimību",
-                  "termiņu",
-                  "cenu"
+                  "Skutečnost",
+                  "chyba",
+                  "nemoc",
+                  "Termín",
+                  "cena"
                 ]
               }
             }
@@ -24976,8 +24978,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "sekas",
-                  "sērija"
+                  "následky",
+                  "další díl"
                 ]
               }
             }
@@ -25265,7 +25267,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "V rozhovoru Pevnost Fahren Sie! = Pokračovat! • Autem fortfahren = odjet."
+            "text": "V rozhovoru Fahren Sie fort! = Pokračujte! • Autem fortfahren = odjet."
           }
         ]
       },
@@ -25485,8 +25487,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-fressen",
       "layout": "standardStudy",
-      "translation": "Zítra",
-      "explanation": "Hlavní myšlenka: fressen se používá, když zvíře žere. O člověku to zní neslušně nebo hanlivě, zhruba jako „zítra“ nebo „zítra“.",
+      "translation": "Žrát",
+      "explanation": "Hlavní myšlenka: fressen se používá, když zvíře žere. O člověku to zní neslušně nebo hanlivě, zhruba jako „žrát“ nebo „sežrat“.",
       "examples": [
         {
           "de": "Der Hund frisst sein Futter.",
@@ -25521,7 +25523,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Zvířecí náklonnost, mužská náklonnost. Pro člověka je fressen záměrně hrubý."
+            "text": "Zvíře žere, člověk jí. O člověku je fressen záměrně hrubé."
           }
         ]
       },
@@ -26524,7 +26526,7 @@ const B1_WORDS = [
   },
   {
     "de": "gedruckt",
-    "lv": "Vytištěné",
+    "lv": "Vytištěný",
     "level": "B1"
   },
   {
@@ -27010,7 +27012,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Regel, Gesetz, Lístek pozlacený • Osoba pozlacená jako Expertin."
+            "text": "Pravidlo, zákon nebo lístek platí • Osoba je považována za expertku."
           }
         ]
       },
@@ -27312,7 +27314,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "negatīvs"
+                  "negativní"
                 ]
               }
             }
@@ -27746,7 +27748,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pro osobu Geschlecht = sex • Za slovo v gramatice Geschlecht = rodina."
+            "text": "U osoby Geschlecht = pohlaví • U slova v gramatice Geschlecht = rod."
           }
         ]
       },
@@ -28314,8 +28316,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "peļņa",
-                  "laimests"
+                  "zisk",
+                  "vyhrál"
                 ]
               }
             }
@@ -28337,7 +28339,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-gewiss",
       "layout": "standardStudy",
-      "translation": "Trezor",
+      "translation": "Jistý",
       "explanation": "Hlavní myšlenka: gewiss znamená jistý, jistý nebo „určitě“. Zní to trochu formálněji než sicher a často se objevuje ve frázích jako ein gewisses Risiko.",
       "examples": [
         {
@@ -28896,9 +28898,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "loga",
-                  "durvīm",
-                  "būra"
+                  "okno",
+                  "dveře",
+                  "klec"
                 ]
               }
             }
@@ -29233,7 +29235,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "kustību uz kaut ko"
+                  "pohyb směrem k něčemu"
                 ]
               }
             }
@@ -29426,9 +29428,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "vieta",
-                  "darbība",
-                  "satver"
+                  "místo",
+                  "akce",
+                  "chytnete"
                 ]
               }
             }
@@ -30091,9 +30093,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "ko darīt",
-                  "par ko ir teksts",
-                  "tirgojas"
+                  "co dělat",
+                  "o čem je text",
+                  "obchoduje"
                 ]
               }
             }
@@ -30273,7 +30275,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "darba procesā"
+                  "pracovním procesu"
                 ]
               }
             }
@@ -30535,8 +30537,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "trieciens",
-                  "pazūdi"
+                  "rána",
+                  "Ztrať se"
                 ]
               }
             }
@@ -30637,7 +30639,7 @@ const B1_WORDS = [
                 "stole"
               ],
               "yellow": [
-                "papīru"
+                "stole"
               ]
             }
           },
@@ -30718,8 +30720,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "nekārtīga kaudze",
-                  "kārtīgi sakrauts"
+                  "Haufen",
+                  "Haufen"
                 ]
               }
             }
@@ -30981,7 +30983,7 @@ const B1_WORDS = [
   },
   {
     "de": "herausgeben",
-    "lv": "Problém",
+    "lv": "Vydat",
     "level": "B1",
     "study": {
       "id": "b1-herausgeben",
@@ -31244,7 +31246,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Co jí kommst? ne o pohybu okamžiku, ale o původu."
+        "text": "„Wo kommst du her?“ se netýká právě probíhajícího pohybu, ale původu."
       },
       "sectionAccents": {
         "examples": [
@@ -31599,8 +31601,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "prom ārā",
-                  "uz šejieni ārā"
+                  "Hinaus",
+                  "Hinaus"
                 ]
               }
             }
@@ -31703,12 +31705,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Hinweis něco naznačuje • Krysa navrhuje, co dělat."
+            "text": "Hinweis na něco upozorňuje • Rada doporučuje, co dělat."
           }
         ]
       },
       "important": {
-        "text": "Der Hinweis není totéž jako der Rat: Hinweis naznačuje, Krysa radí."
+        "text": "Hinweis není totéž co Rat: Hinweis upozorňuje, rada doporučuje."
       },
       "sectionAccents": {
         "examples": [
@@ -31810,7 +31812,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "norāda",
+                  "Hinweis",
                   "iesaka"
                 ]
               }
@@ -32126,8 +32128,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "aiziešanu pēc",
-                  "nogādāšanu kādam"
+                  "Holen",
+                  "Holen"
                 ]
               }
             }
@@ -32692,7 +32694,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-hupe",
       "layout": "standardStudy",
-      "translation": "Roh • Roh",
+      "translation": "Klakson • lodní houkačka",
       "explanation": "Hlavní myšlenka: die Hupe je klakson auta nebo lodní klakson. Varuje ostatní v provozu. Množné číslo: die Hupen.",
       "examples": [
         {
@@ -32733,7 +32735,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Die Hupe = polnice nebo polnice. Množné číslo: die Hupen."
+        "text": "Die Hupe = klakson nebo lodní houkačka. Množné číslo: die Hupen."
       },
       "sectionAccents": {
         "explanation": {
@@ -32982,9 +32984,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "pieskatīšanu",
-                  "sargāšanu",
-                  "sargāties"
+                  "Hüten",
+                  "Hüten",
+                  "Hüten"
                 ]
               }
             }
@@ -33375,9 +33377,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "pilsētas",
-                  "nedēļas",
-                  "iespēju"
+                  "Innerhalb",
+                  "Innerhalb",
+                  "Innerhalb"
                 ]
               }
             }
@@ -33521,7 +33523,7 @@ const B1_WORDS = [
   },
   {
     "de": "irdisch",
-    "lv": "Přistát-",
+    "lv": "Pozemský",
     "level": "B1"
   },
   {
@@ -33617,7 +33619,7 @@ const B1_WORDS = [
                 "Udělal"
               ],
               "yellow": [
-                "adresē"
+                "Udělal"
               ]
             }
           },
@@ -33697,7 +33699,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "kļūdīties"
+                  "Základní"
                 ]
               }
             }
@@ -33939,7 +33941,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "mērķi"
+                  "Jagen"
                 ]
               }
             }
@@ -34168,7 +34170,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "cilvēku"
+                  "Jahrgang"
                 ]
               }
             }
@@ -35120,7 +35122,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "cits vārds"
+                  "Kehren"
                 ]
               }
             }
@@ -35348,9 +35350,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "auglī",
-                  "lietā",
-                  "argumentā"
+                  "Kern",
+                  "Kern",
+                  "Kern"
                 ]
               }
             }
@@ -35630,7 +35632,7 @@ const B1_WORDS = [
         },
         {
           "word": "umdrehen",
-          "meaning": "Řezat",
+          "meaning": "Otočit",
           "example": "Dreh die Karte um. = Otočte kartu."
         }
       ],
@@ -35759,9 +35761,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "glāze",
-                  "krēsls",
-                  "situācija"
+                  "Kippen",
+                  "Kippen",
+                  "Kippen"
                 ]
               }
             }
@@ -35778,7 +35780,7 @@ const B1_WORDS = [
   },
   {
     "de": "kitzeln",
-    "lv": "Lechtat",
+    "lv": "lechtat",
     "level": "B1"
   },
   {
@@ -36321,7 +36323,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "gandrīz nepietiek"
+                  "Knapp"
                 ]
               }
             }
@@ -36551,8 +36553,8 @@ const B1_WORDS = [
               "green": "Soldat"
             },
             "lv": {
-              "purple": "pavēli",
-              "green": "Karavīrs"
+              "purple": "Voják",
+              "green": "Voják"
             }
           },
           {
@@ -36569,8 +36571,8 @@ const B1_WORDS = [
               "yellow": "Leitung"
             },
             "lv": {
-              "purple": "Vadības vienība",
-              "yellow": "vadību"
+              "purple": "Přebírá",
+              "yellow": "Přebírá"
             }
           }
         ],
@@ -36580,7 +36582,7 @@ const B1_WORDS = [
               "green": "das Kommando"
             },
             "meaning": {
-              "purple": "pavēle"
+              "purple": "Příkaz"
             },
             "example": {
               "blue": "Kommando",
@@ -36592,11 +36594,11 @@ const B1_WORDS = [
               "green": "der Befehl"
             },
             "meaning": {
-              "purple": "pavēle"
+              "purple": "Příkaz"
             },
             "example": {
               "red": "Befehl",
-              "purple": "Pavēle"
+              "purple": "Der"
             }
           },
           {
@@ -36604,7 +36606,7 @@ const B1_WORDS = [
               "green": "die Mannschaft"
             },
             "meaning": {
-              "purple": "komanda sportā"
+              "purple": "Tým"
             },
             "example": {
               "red": "Mannschaft",
@@ -36614,7 +36616,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "das Kommando",
-          "purple": "Pavēle"
+          "purple": "Rozkaz"
         },
         "important": {
           "red": [
@@ -37317,7 +37319,7 @@ const B1_WORDS = [
               "yellow": "Straße"
             },
             "lv": {
-              "purple": "šķērsojam",
+              "purple": "Přecházíme",
               "yellow": "ielu"
             }
           },
@@ -37328,7 +37330,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": "krustojas",
-              "yellow": "Ceļi"
+              "yellow": "Cesty"
             }
           },
           {
@@ -37337,7 +37339,7 @@ const B1_WORDS = [
               "yellow": "Antwort"
             },
             "lv": {
-              "purple": "Atzīmē",
+              "purple": "Prosím",
               "yellow": "atbildi"
             }
           }
@@ -37348,7 +37350,7 @@ const B1_WORDS = [
               "green": "kreuzen"
             },
             "meaning": {
-              "purple": "šķērsot"
+              "purple": "Kříž"
             },
             "example": {
               "blue": "kreuzen",
@@ -37360,11 +37362,11 @@ const B1_WORDS = [
               "green": "überqueren"
             },
             "meaning": {
-              "purple": "šķērsot"
+              "purple": "Přejít"
             },
             "example": {
               "red": "überqueren",
-              "purple": "šķērsojam"
+              "purple": "Wir"
             }
           },
           {
@@ -37372,11 +37374,11 @@ const B1_WORDS = [
               "green": "ankreuzen"
             },
             "meaning": {
-              "purple": "atzīmēt"
+              "purple": "Označit"
             },
             "example": {
               "red": "Kreuzen",
-              "purple": "Atzīmējiet"
+              "purple": "Kreuzen"
             }
           }
         ],
@@ -37391,7 +37393,7 @@ const B1_WORDS = [
         "important": {
           "red": "ankreuzen",
           "blue": "kreuzen",
-          "purple": "testā"
+          "purple": "Odpověď"
         }
       }
     }
@@ -37595,8 +37597,8 @@ const B1_WORDS = [
           "example": "Die Kunde kam spät. = Zpráva přišla pozdě."
         }
       ],
-      "tip": "Veikalā vai servisā gandrīz vienmēr: der Kunde = klients.",
-      "important": "Artikuls maina nozīmi: der Kunde ir cilvēks, die Kunde ir vēsts.",
+      "tip": "",
+      "important": "",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -37632,7 +37634,7 @@ const B1_WORDS = [
               "blue": "Kunde"
             },
             "lv": {
-              "purple": "Vēsts"
+              "purple": "Slovo"
             }
           }
         ],
@@ -37666,11 +37668,11 @@ const B1_WORDS = [
               "green": "die Kunde"
             },
             "meaning": {
-              "purple": "vēsts"
+              "purple": "Zpráva"
             },
             "example": {
               "red": "Kunde",
-              "purple": "Vēsts"
+              "purple": "Die"
             }
           }
         ],
@@ -37678,8 +37680,8 @@ const B1_WORDS = [
           "blue": "der Kunde",
           "purple": "klients",
           "green": [
-            "Veikalā",
-            "servisā"
+            "",
+            ""
           ]
         },
         "important": {
@@ -37689,8 +37691,8 @@ const B1_WORDS = [
             "die Kunde"
           ],
           "purple": [
-            "cilvēks",
-            "vēsts"
+            "",
+            ""
           ]
         }
       }
@@ -37737,8 +37739,8 @@ const B1_WORDS = [
           "example": "Ich habe eine Nachricht bekommen. = Dostal jsem zprávu."
         }
       ],
-      "tip": "Artikuls maina nozīmi: die Kunde = vēsts, der Kunde = klients.",
-      "important": "Frontē šai kartītei jāpaliek 'vēsts', jo klients ir der Kunde ar citu artikulu.",
+      "tip": "",
+      "important": "",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -37749,7 +37751,7 @@ const B1_WORDS = [
             "Hlavní",
             "Hlavní"
           ],
-          "red": "Savukārt"
+          "red": "die"
         },
         "examples": [
           {
@@ -37757,7 +37759,7 @@ const B1_WORDS = [
               "blue": "Kunde"
             },
             "lv": {
-              "purple": "Vēsts"
+              "purple": "Slovo"
             }
           },
           {
@@ -37766,8 +37768,8 @@ const B1_WORDS = [
               "green": "Norden"
             },
             "lv": {
-              "purple": "Ziņa",
-              "green": "ziemeļiem"
+              "purple": "Zpráva",
+              "green": "Zpráva"
             }
           },
           {
@@ -37787,11 +37789,11 @@ const B1_WORDS = [
               "green": "die Kunde"
             },
             "meaning": {
-              "purple": "vēsts"
+              "purple": "Zpráva"
             },
             "example": {
               "blue": "Kunde",
-              "purple": "Vēsts"
+              "purple": "Die"
             }
           },
           {
@@ -37811,11 +37813,11 @@ const B1_WORDS = [
               "green": "die Nachricht"
             },
             "meaning": {
-              "purple": "ziņa"
+              "purple": "Zpráva"
             },
             "example": {
               "red": "Nachricht",
-              "purple": "ziņu"
+              "purple": "Ich"
             }
           }
         ],
@@ -37825,13 +37827,13 @@ const B1_WORDS = [
             "der Kunde"
           ],
           "purple": [
-            "vēsts",
+            "",
             "klients"
           ],
           "red": "Artikuls"
         },
         "important": {
-          "purple": "vēsts",
+          "purple": "",
           "red": "der Kunde"
         }
       }
@@ -37864,7 +37866,7 @@ const B1_WORDS = [
       "id": "b1-kündigen",
       "layout": "standardStudy",
       "translation": "Ukončit práci",
-      "explanation": "Galvenā doma: kündigen nozīmē oficiāli pārtraukt darba attiecības, līgumu vai abonementu.",
+      "explanation": "",
       "examples": [
         {
           "de": "Ich habe meinen Job gekündigt.",
@@ -37901,10 +37903,10 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "kündigen",
-          "purple": "oficiāli pārtraukt",
+          "purple": "",
           "yellow": [
-            "darba attiecības",
-            "līgumu",
+            "",
+            "",
             "abonementu"
           ]
         },
@@ -37942,7 +37944,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": "laužam",
-              "yellow": "līgumu"
+              "yellow": "konci"
             }
           }
         ],
@@ -37976,17 +37978,17 @@ const B1_WORDS = [
               "green": "aufhören"
             },
             "meaning": {
-              "purple": "pārtraukt"
+              "purple": "Zastavit"
             },
             "example": {
               "red": "höre",
-              "purple": "pārtraucu"
+              "purple": "Ich"
             }
           }
         ],
         "tip": {
           "blue": "kündigen",
-          "purple": "oficiāli",
+          "purple": "Úloha",
           "yellow": [
             "Úloha",
             "Úloha",
@@ -38127,7 +38129,7 @@ const B1_WORDS = [
             "lv": {
               "purple": "piekabina",
               "yellow": "piekabi",
-              "green": "Vadītājs"
+              "green": "Řidič"
             }
           },
           {
@@ -38137,7 +38139,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": "savienotas",
-              "yellow": "sistēmas"
+              "yellow": "Oba"
             }
           }
         ],
@@ -38147,7 +38149,7 @@ const B1_WORDS = [
               "green": "kuppeln"
             },
             "meaning": {
-              "purple": "sakabināt"
+              "purple": "Připojit"
             },
             "example": {
               "blue": "kuppelt",
@@ -38171,23 +38173,23 @@ const B1_WORDS = [
               "green": "anschließen"
             },
             "meaning": {
-              "purple": "pieslēgt"
+              "purple": "Připojit"
             },
             "example": {
               "red": "schließe",
-              "purple": "pieslēdzu"
+              "purple": "Ich"
             }
           }
         ],
         "tip": {
           "blue": "kuppeln",
           "purple": "savienošana",
-          "yellow": "mehāniska"
+          "yellow": "Technické"
         },
         "important": {
           "blue": "kuppeln",
           "red": "verbinden",
-          "purple": "vispārīgs"
+          "purple": "Kuppeln"
         }
       }
     }
@@ -38281,7 +38283,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": "kursu",
-              "yellow": "Kuģis"
+              "yellow": "Loď"
             }
           },
           {
@@ -38325,7 +38327,7 @@ const B1_WORDS = [
               "green": "der Unterricht"
             },
             "meaning": {
-              "purple": "mācību stunda"
+              "purple": "Lekce"
             },
             "example": {
               "red": "Unterricht",
@@ -38335,7 +38337,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "der Kurs",
-          "purple": "Mācības",
+          "purple": "Školení",
           "yellow": [
             "Školení",
             "Školení",
@@ -38420,7 +38422,7 @@ const B1_WORDS = [
             "Hlavní",
             "Hlavní"
           ],
-          "red": "atsevišķa konstrukcija"
+          "red": "die"
         },
         "examples": [
           {
@@ -38429,7 +38431,7 @@ const B1_WORDS = [
               "yellow": "Textes"
             },
             "lv": {
-              "purple": "īsums",
+              "purple": "Stručnost",
               "yellow": "Teksta"
             }
           },
@@ -38438,7 +38440,7 @@ const B1_WORDS = [
               "blue": "Kürze"
             },
             "lv": {
-              "purple": "īsi"
+              "purple": "Vysvětlím"
             }
           },
           {
@@ -38447,7 +38449,7 @@ const B1_WORDS = [
               "yellow": "Zug"
             },
             "lv": {
-              "purple": "drīzumā",
+              "purple": "Vlak",
               "yellow": "Vilciens"
             }
           }
@@ -38458,11 +38460,11 @@ const B1_WORDS = [
               "green": "die Kürze"
             },
             "meaning": {
-              "purple": "īsums"
+              "purple": "Stručnost"
             },
             "example": {
               "blue": "Kürze",
-              "purple": "Īsums"
+              "purple": "Die"
             }
           },
           {
@@ -38470,11 +38472,11 @@ const B1_WORDS = [
               "green": "in Kürze"
             },
             "meaning": {
-              "purple": "drīzumā"
+              "purple": "Brzy"
             },
             "example": {
               "red": "in Kürze",
-              "purple": "drīzumā"
+              "purple": "Der"
             }
           },
           {
@@ -38482,11 +38484,11 @@ const B1_WORDS = [
               "green": "kurz"
             },
             "meaning": {
-              "purple": "īss"
+              "purple": "Krátký"
             },
             "example": {
               "red": "kurz",
-              "purple": "īss"
+              "purple": "Der"
             }
           }
         ],
@@ -38503,7 +38505,7 @@ const B1_WORDS = [
         "important": {
           "blue": "die Kürze",
           "red": "in Kürze",
-          "purple": "drīzumā"
+          "purple": "Die"
         }
       }
     }
@@ -38661,7 +38663,7 @@ const B1_WORDS = [
             "Hlavní",
             "Hlavní"
           ],
-          "green": "cilvēkiem"
+          "green": "Laden"
         },
         "examples": [
           {
@@ -38686,7 +38688,7 @@ const B1_WORDS = [
               "yellow": "Handy"
             },
             "lv": {
-              "purple": "jāuzlādē",
+              "purple": "Potřebuji",
               "yellow": "telefons"
             }
           },
@@ -38699,8 +38701,8 @@ const B1_WORDS = [
               "green": "uns"
             },
             "lv": {
-              "purple": "ielūdz",
-              "green": "mūs"
+              "purple": "Nás",
+              "green": "Nás"
             }
           }
         ],
@@ -38710,11 +38712,11 @@ const B1_WORDS = [
               "green": "laden"
             },
             "meaning": {
-              "purple": "uzlādēt"
+              "purple": "Zatížení"
             },
             "example": {
               "blue": "lade",
-              "purple": "uzlādēju"
+              "purple": "Ich"
             }
           },
           {
@@ -38722,11 +38724,11 @@ const B1_WORDS = [
               "green": "einladen"
             },
             "meaning": {
-              "purple": "ielūgt"
+              "purple": "Pozvat"
             },
             "example": {
               "red": "ein",
-              "purple": "ielūdz"
+              "purple": "Sie"
             }
           },
           {
@@ -38756,7 +38758,7 @@ const B1_WORDS = [
         "important": {
           "blue": "laden",
           "red": "einladen",
-          "purple": "Ielūgt"
+          "purple": "Pozvat"
         }
       }
     }
@@ -38834,7 +38836,7 @@ const B1_WORDS = [
             "Hlavní",
             "Hlavní"
           ],
-          "yellow": "glabāšanas vieta"
+          "yellow": "das"
         },
         "examples": [
           {
@@ -38843,7 +38845,7 @@ const B1_WORDS = [
               "yellow": "Waren"
             },
             "lv": {
-              "purple": "noliktavā",
+              "purple": "Zboží",
               "yellow": "Preces"
             }
           },
@@ -38854,7 +38856,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": "nometni",
-              "green": "Bērni"
+              "green": "Děti"
             }
           },
           {
@@ -38864,7 +38866,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": "gultnis",
-              "yellow": "Mašīnas"
+              "yellow": "Ložisko"
             }
           }
         ],
@@ -38878,7 +38880,7 @@ const B1_WORDS = [
             },
             "example": {
               "blue": "Lager",
-              "purple": "noliktavā"
+              "purple": "Die"
             }
           },
           {
@@ -38886,11 +38888,11 @@ const B1_WORDS = [
               "green": "die Unterkunft"
             },
             "meaning": {
-              "purple": "naktsmītne"
+              "purple": "Ubytování"
             },
             "example": {
               "red": "Unterkunft",
-              "purple": "Naktsmītne"
+              "purple": "Die"
             }
           },
           {
@@ -38908,7 +38910,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "das Lager",
-          "purple": "glabājas",
+          "purple": "Zboží",
           "yellow": "Preces"
         },
         "important": {
@@ -38988,7 +38990,7 @@ const B1_WORDS = [
             "Hlavní",
             "Hlavní"
           ],
-          "yellow": "tālruņa"
+          "yellow": "der"
         },
         "examples": [
           {
@@ -38996,7 +38998,7 @@ const B1_WORDS = [
               "blue": "Hörer"
             },
             "lv": {
-              "purple": "Klausītāji"
+              "purple": "Publikum"
             }
           },
           {
@@ -39005,8 +39007,8 @@ const B1_WORDS = [
               "green": "Moderator"
             },
             "lv": {
-              "purple": "klausītājus",
-              "green": "vadītājs"
+              "purple": "Pozdraví",
+              "green": "Pozdraví"
             }
           },
           {
@@ -39024,11 +39026,11 @@ const B1_WORDS = [
               "green": "der Hörer"
             },
             "meaning": {
-              "purple": "klausītājs"
+              "purple": "Posluchač"
             },
             "example": {
               "blue": "Hörer",
-              "purple": "Klausītāji"
+              "purple": "Die"
             }
           },
           {
@@ -39036,11 +39038,11 @@ const B1_WORDS = [
               "green": "der Zuhörer"
             },
             "meaning": {
-              "purple": "klausītājs klātienē"
+              "purple": "Posluchač"
             },
             "example": {
               "red": "Zuhörer",
-              "purple": "Klausītāji"
+              "purple": "Die"
             }
           },
           {
@@ -39048,17 +39050,17 @@ const B1_WORDS = [
               "green": "der Kopfhörer"
             },
             "meaning": {
-              "purple": "austiņas"
+              "purple": "Sluchátka"
             },
             "example": {
               "red": "Kopfhörer",
-              "purple": "austiņas"
+              "purple": "Ich"
             }
           }
         ],
         "tip": {
           "blue": "der Hörer",
-          "purple": "klausās",
+          "purple": "rádiu",
           "yellow": [
             "rádiu",
             "rádiu"
@@ -39066,7 +39068,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "der Hörer",
-          "yellow": "Tālruņa",
+          "yellow": "kontextu",
           "purple": "klausule"
         }
       }
@@ -39115,7 +39117,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Co je uvnitř textu, sáčku nebo kontejneru → der Inhalt.",
-      "important": "Význam objemu je technický • V každodenním životě je der Inhalt nejčastěji spokojený.",
+      "important": "der Inhalt nejčastěji znamená obsah",
       "sectionAccents": {
         "explanation": {
           "blue": "der Inhalt",
@@ -39136,7 +39138,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": "saturs",
-              "yellow": "Vēstules"
+              "yellow": "Důležitý"
             }
           },
           {
@@ -39178,11 +39180,11 @@ const B1_WORDS = [
               "green": "das Thema"
             },
             "meaning": {
-              "purple": "tēma"
+              "purple": "Téma"
             },
             "example": {
               "red": "Thema",
-              "purple": "Tēma"
+              "purple": "Das"
             }
           },
           {
@@ -39200,7 +39202,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "der Inhalt",
-          "purple": "iekšā",
+          "purple": "uvnitř",
           "yellow": [
             "uvnitř",
             "uvnitř",
@@ -39276,7 +39278,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": "malas",
-              "red": "asās"
+              "red": "Pozor"
             }
           },
           {
@@ -39296,7 +39298,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": "malas",
-              "yellow": "glāzi"
+              "yellow": "Položí"
             }
           }
         ],
@@ -39322,7 +39324,7 @@ const B1_WORDS = [
             },
             "example": {
               "red": "Rand",
-              "purple": "Malā"
+              "purple": "Rand"
             }
           },
           {
@@ -39415,7 +39417,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": "kastanis",
-              "green": "mājas"
+              "green": "domu"
             }
           },
           {
@@ -39424,8 +39426,8 @@ const B1_WORDS = [
               "green": "Kind"
             },
             "lv": {
-              "purple": "kastaņus",
-              "green": "Bērns"
+              "purple": "Dítě",
+              "green": "Dítě"
             }
           },
           {
@@ -39434,8 +39436,8 @@ const B1_WORDS = [
               "green": "Herbst"
             },
             "lv": {
-              "purple": "kastaņi",
-              "green": "Rudenī"
+              "purple": "podzim",
+              "green": "podzim"
             }
           }
         ],
@@ -39457,11 +39459,11 @@ const B1_WORDS = [
               "green": "der Kastanienbaum"
             },
             "meaning": {
-              "purple": "kastaņu koks"
+              "purple": "Kaštanovník"
             },
             "example": {
               "red": "Kastanienbaum",
-              "purple": "Kastaņu koks"
+              "purple": "Der"
             }
           },
           {
@@ -39653,7 +39655,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-landen",
       "layout": "standardStudy",
-      "translation": "Posaďte se",
+      "translation": "Přistát • skončit",
       "explanation": "Hlavní myšlenka: landen znamená přistát nebo přijít na místo. Pro loď nebo člun to může znamenat i dokování.",
       "examples": [
         {
@@ -39691,8 +39693,8 @@ const B1_WORDS = [
               "yellow": "Flugzeug"
             },
             "lv": {
-              "purple": "nosēžas",
-              "yellow": "Lidmašīna"
+              "purple": "Letadlo",
+              "yellow": "Letadlo"
             }
           },
           {
@@ -39701,7 +39703,7 @@ const B1_WORDS = [
               "yellow": "Boot"
             },
             "lv": {
-              "purple": "piestāj",
+              "purple": "Loď",
               "yellow": "Laiva"
             }
           },
@@ -39711,7 +39713,7 @@ const B1_WORDS = [
               "yellow": "E-Mail"
             },
             "lv": {
-              "purple": "nonāk",
+              "purple": "mail",
               "yellow": "E-pasts"
             }
           }
@@ -39722,11 +39724,11 @@ const B1_WORDS = [
               "green": "landen"
             },
             "meaning": {
-              "purple": "nosēsties"
+              "purple": ""
             },
             "example": {
               "blue": "landet",
-              "purple": "nosēžas"
+              "purple": ""
             }
           },
           {
@@ -39756,8 +39758,8 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "landen",
-          "purple": "nonāk",
-          "yellow": "Lidmašīna"
+          "purple": "Letadlo",
+          "yellow": "Letadlo"
         },
         "important": {
           "blue": "landet",
@@ -39910,16 +39912,7 @@ const B1_WORDS = [
       "id": "b1-laut-study",
       "layout": "standardStudy",
       "translation": "Zvuk",
-      "explanation": [
-        "Hlavní myšlenka: Podstatné jméno se členem se hodí a je velké. Znamená zvuk jako věc, signál nebo zvuk jazyka.",
-        "Der Laut primárně znamená: hlasitý zvuk.",
-        "Často popisuje: přídavné jméno.",
-        "Der Laut primárně znamená: zvukový signál.",
-        "Často popisuje: podstatné jméno (der).",
-        "Malá písmena laut je přídavné jméno - popisuje, jak hlasitý je zvuk (Die Musik ist laut = hudba je hlasitá).",
-        "Der Laut s velkým písmenem a členem der je podstatné jméno - znamená zvuk jako věc nebo signál (Der Laut ist schön = zvuk je krásný).",
-        "Množné číslo: die Laute."
-      ],
+      "explanation": "Der Laut znamená zvuk; laut znamená hlasitý.",
       "examples": [
         {
           "de": "Der Laut ist schön.",
@@ -40128,7 +40121,7 @@ const B1_WORDS = [
   },
   {
     "de": "lehnen",
-    "lv": "TAM",
+    "lv": "Opírat se",
     "level": "B1"
   },
   {
@@ -40149,7 +40142,7 @@ const B1_WORDS = [
     "de": "Lehrmittel",
     "de_article": "das",
     "de_plural": "die Lehrmittel",
-    "lv": "Výukový nástroj",
+    "lv": "Učební pomůcka",
     "level": "B1"
   },
   {
@@ -40298,7 +40291,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": "sniedzam",
-              "yellow": "palīdzību"
+              "yellow": "Poskytujeme"
             }
           },
           {
@@ -40307,7 +40300,7 @@ const B1_WORDS = [
               "red": "mir"
             },
             "lv": {
-              "purple": "atļauties"
+              "purple": "nemůžu"
             }
           }
         ],
@@ -40341,11 +40334,11 @@ const B1_WORDS = [
               "green": "sich leisten"
             },
             "meaning": {
-              "purple": "atļauties"
+              "purple": "Dovolit"
             },
             "example": {
               "red": "leisten",
-              "purple": "atļauties"
+              "purple": "Ich"
             }
           }
         ],
@@ -40359,7 +40352,7 @@ const B1_WORDS = [
         },
         "important": {
           "red": "sich leisten",
-          "purple": "atļauties"
+          "purple": "Sich"
         }
       }
     }
@@ -40597,7 +40590,7 @@ const B1_WORDS = [
     "de": "Lichtung",
     "de_article": "die",
     "de_plural": "die Lichtungen",
-    "lv": "Zúčtování",
+    "lv": "Mýtina",
     "level": "B1"
   },
   {
@@ -40785,7 +40778,7 @@ const B1_WORDS = [
               "yellow": "Schraube"
             },
             "lv": {
-              "purple": "vaļīga"
+              "purple": "Šroub"
             }
           },
           {
@@ -40794,7 +40787,7 @@ const B1_WORDS = [
               "yellow": "Jacke"
             },
             "lv": {
-              "purple": "brīvu"
+              "purple": "Nosí"
             }
           },
           {
@@ -40813,7 +40806,7 @@ const B1_WORDS = [
               "green": "locker"
             },
             "meaning": {
-              "purple": "vaļīgs"
+              "purple": "Volný"
             },
             "example": {
               "blue": "locker",
@@ -40825,7 +40818,7 @@ const B1_WORDS = [
               "green": "lose"
             },
             "meaning": {
-              "purple": "vaļējs"
+              "purple": "Volné"
             },
             "example": {
               "red": "loser",
@@ -40903,7 +40896,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-los",
       "layout": "standardStudy",
-      "translation": "Hodně",
+      "translation": "Los",
       "explanation": "Hlavní myšlenka: das Los je loterie, která se losuje nebo kupuje. Ve vážnějším, obrazném jazyce to může znamenat i osud člověka.",
       "examples": [
         {
@@ -40960,7 +40953,7 @@ const B1_WORDS = [
               "purple": "gewonnen"
             },
             "lv": {
-              "purple": "laimēja"
+              "purple": "touto"
             }
           },
           {
@@ -41074,7 +41067,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "löschen",
-          "purple": "dzēš",
+          "purple": "löschen",
           "yellow": "datus"
         },
         "examples": [
@@ -41084,7 +41077,7 @@ const B1_WORDS = [
               "yellow": "Brand"
             },
             "lv": {
-              "purple": "dzēš"
+              "purple": "Hasiči"
             }
           },
           {
@@ -41093,7 +41086,7 @@ const B1_WORDS = [
               "yellow": "Datei"
             },
             "lv": {
-              "purple": "izdzēs"
+              "purple": "Prosím"
             }
           },
           {
@@ -41102,7 +41095,7 @@ const B1_WORDS = [
               "yellow": "Durst"
             },
             "lv": {
-              "purple": "remdē"
+              "purple": "Sklenice"
             }
           }
         ],
@@ -41112,7 +41105,7 @@ const B1_WORDS = [
               "green": "löschen"
             },
             "meaning": {
-              "purple": "dzēst"
+              "purple": "Uhasit"
             },
             "example": {
               "blue": "lösche",
@@ -41124,7 +41117,7 @@ const B1_WORDS = [
               "green": "ausschalten"
             },
             "meaning": {
-              "purple": "izslēgt"
+              "purple": "Vypněte"
             },
             "example": {
               "red": "Schalte",
@@ -41136,7 +41129,7 @@ const B1_WORDS = [
               "green": "lösen"
             },
             "meaning": {
-              "purple": "atrisināt"
+              "purple": "Vyřešit"
             },
             "example": {
               "red": "lösen",
@@ -41208,7 +41201,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "lösen",
-          "purple": "atrisināt",
+          "purple": "lösen",
           "red": "objektu"
         },
         "examples": [
@@ -41218,7 +41211,7 @@ const B1_WORDS = [
               "yellow": "Problem"
             },
             "lv": {
-              "purple": "jāatrisina"
+              "purple": "Musíme"
             }
           },
           {
@@ -41236,7 +41229,7 @@ const B1_WORDS = [
               "yellow": "Zucker"
             },
             "lv": {
-              "purple": "izšķīst"
+              "purple": "Cukr"
             }
           },
           {
@@ -41245,7 +41238,7 @@ const B1_WORDS = [
               "yellow": "Fahrkarte"
             },
             "lv": {
-              "purple": "pērku"
+              "purple": "Kupuji"
             }
           }
         ],
@@ -41255,7 +41248,7 @@ const B1_WORDS = [
               "green": "lösen"
             },
             "meaning": {
-              "purple": "atrisināt"
+              "purple": "Vyřešit"
             },
             "example": {
               "blue": "lösen",
@@ -41267,7 +41260,7 @@ const B1_WORDS = [
               "green": "auflösen"
             },
             "meaning": {
-              "purple": "izšķīdināt"
+              "purple": "Rozpustit"
             },
             "example": {
               "red": "löst sich auf"
@@ -41278,7 +41271,7 @@ const B1_WORDS = [
               "green": "löschen"
             },
             "meaning": {
-              "purple": "dzēst"
+              "purple": "Vymazat"
             },
             "example": {
               "red": "lösche",
@@ -41353,8 +41346,8 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "die Lösung",
-          "purple": "risinājums",
-          "yellow": "šķīdumu"
+          "purple": "die",
+          "yellow": "die"
         },
         "examples": [
           {
@@ -41363,7 +41356,7 @@ const B1_WORDS = [
               "yellow": "Problem"
             },
             "lv": {
-              "purple": "risinājumu"
+              "purple": "Hledáme"
             }
           },
           {
@@ -41372,7 +41365,7 @@ const B1_WORDS = [
               "yellow": "Zeit"
             },
             "lv": {
-              "purple": "risinājums"
+              "purple": "řešení"
             }
           },
           {
@@ -41381,7 +41374,7 @@ const B1_WORDS = [
               "green": "Labor"
             },
             "lv": {
-              "purple": "šķīdums"
+              "purple": "laboratoři"
             }
           }
         ],
@@ -41391,7 +41384,7 @@ const B1_WORDS = [
               "green": "die Lösung"
             },
             "meaning": {
-              "purple": "risinājums"
+              "purple": "Roztok"
             },
             "example": {
               "blue": "Lösung"
@@ -41413,7 +41406,7 @@ const B1_WORDS = [
               "green": "das Ergebnis"
             },
             "meaning": {
-              "purple": "rezultāts"
+              "purple": "Výsledek"
             },
             "example": {
               "red": "Ergebnis"
@@ -41598,7 +41591,7 @@ const B1_WORDS = [
               "green": "die Kraft"
             },
             "meaning": {
-              "purple": "spēks"
+              "purple": "Fyzická"
             },
             "example": {
               "red": "Kraft"
@@ -41824,7 +41817,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-maß",
       "layout": "standardStudy",
-      "translation": "Starosta",
+      "translation": "Míra",
       "explanation": "Hlavní myšlenka: das Maß znamená míru, limit nebo rozsah. V množném čísle die Maße obvykle znamená rozměry.",
       "examples": [
         {
@@ -41862,7 +41855,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "das Maß",
-          "purple": "mēru",
+          "purple": "das",
           "red": "die Maße"
         },
         "examples": [
@@ -41871,7 +41864,7 @@ const B1_WORDS = [
               "blue": "Maß"
             },
             "lv": {
-              "purple": "mērs"
+              "purple": "Vše"
             }
           },
           {
@@ -41880,7 +41873,7 @@ const B1_WORDS = [
               "yellow": "Kritik"
             },
             "lv": {
-              "purple": "mēru"
+              "purple": "kritika"
             }
           },
           {
@@ -41888,7 +41881,7 @@ const B1_WORDS = [
               "red": "Maße"
             },
             "lv": {
-              "purple": "izmērus"
+              "purple": "Pošlete"
             }
           }
         ],
@@ -41898,7 +41891,7 @@ const B1_WORDS = [
               "green": "das Maß"
             },
             "meaning": {
-              "purple": "mērs"
+              "purple": "Měřit"
             },
             "example": {
               "blue": "Maß"
@@ -41909,7 +41902,7 @@ const B1_WORDS = [
               "green": "die Maße"
             },
             "meaning": {
-              "purple": "izmēri"
+              "purple": "Rozměry"
             },
             "example": {
               "red": "Maße"
@@ -41920,7 +41913,7 @@ const B1_WORDS = [
               "green": "die Maßnahme"
             },
             "meaning": {
-              "purple": "pasākums"
+              "purple": "Opatření"
             },
             "example": {
               "red": "Maßnahme"
@@ -42149,7 +42142,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "die Messe",
-          "purple": "izstāde",
+          "purple": "die",
           "red": "misi"
         },
         "examples": [
@@ -42159,7 +42152,7 @@ const B1_WORDS = [
               "green": "Frankfurt"
             },
             "lv": {
-              "purple": "izstādi"
+              "purple": "účastníme"
             }
           },
           {
@@ -42169,7 +42162,7 @@ const B1_WORDS = [
               "yellow": "Produkte"
             },
             "lv": {
-              "purple": "izstādē"
+              "purple": "Řada"
             }
           },
           {
@@ -42188,7 +42181,7 @@ const B1_WORDS = [
               "green": "die Messe"
             },
             "meaning": {
-              "purple": "izstāde"
+              "purple": "Výstava"
             },
             "example": {
               "blue": "Messe"
@@ -42199,7 +42192,7 @@ const B1_WORDS = [
               "green": "die Ausstellung"
             },
             "meaning": {
-              "purple": "izstāde"
+              "purple": "Výstava"
             },
             "example": {
               "red": "Ausstellung"
@@ -42219,7 +42212,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "die Messe",
-          "green": "Uzņēmumi"
+          "green": "Společnosti"
         },
         "important": {
           "blue": "die Messe",
@@ -42712,8 +42705,8 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "nachdem",
-          "purple": "pēc tam kad",
-          "red": "beigās"
+          "purple": "nachdem",
+          "red": "nachdem"
         },
         "examples": [
           {
@@ -42722,7 +42715,7 @@ const B1_WORDS = [
               "purple": "hatte"
             },
             "lv": {
-              "purple": "Pēc tam kad"
+              "purple": "jídle"
             }
           },
           {
@@ -42731,7 +42724,7 @@ const B1_WORDS = [
               "yellow": "Kurs"
             },
             "lv": {
-              "purple": "Pēc tam kad"
+              "purple": "skončení"
             }
           },
           {
@@ -42740,7 +42733,7 @@ const B1_WORDS = [
               "yellow": "Wetter"
             },
             "lv": {
-              "purple": "Atkarībā"
+              "purple": "Podle"
             }
           }
         ],
@@ -42750,7 +42743,7 @@ const B1_WORDS = [
               "green": "nachdem"
             },
             "meaning": {
-              "purple": "pēc tam kad"
+              "purple": "kdy"
             },
             "example": {
               "blue": "Nachdem"
@@ -42761,7 +42754,7 @@ const B1_WORDS = [
               "green": "danach"
             },
             "meaning": {
-              "purple": "pēc tam"
+              "purple": "Poté"
             },
             "example": {
               "red": "Danach"
@@ -42844,8 +42837,8 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "die Nachfrage",
-          "purple": "pieprasījumu",
-          "red": "jautājumu"
+          "purple": "die",
+          "red": "die"
         },
         "examples": [
           {
@@ -42854,7 +42847,7 @@ const B1_WORDS = [
               "yellow": "Wohnungen"
             },
             "lv": {
-              "purple": "Pieprasījums"
+              "purple": "Poptávka"
             }
           },
           {
@@ -42863,7 +42856,7 @@ const B1_WORDS = [
               "yellow": "Preise"
             },
             "lv": {
-              "purple": "pieprasījums"
+              "purple": "Když"
             }
           },
           {
@@ -42871,7 +42864,7 @@ const B1_WORDS = [
               "blue": "Nachfrage"
             },
             "lv": {
-              "purple": "apvaicāšanos"
+              "purple": "Děkujeme"
             }
           }
         ],
@@ -42881,7 +42874,7 @@ const B1_WORDS = [
               "green": "die Nachfrage"
             },
             "meaning": {
-              "purple": "pieprasījums"
+              "purple": "Žádost"
             },
             "example": {
               "blue": "Nachfrage"
@@ -42892,7 +42885,7 @@ const B1_WORDS = [
               "green": "die Frage"
             },
             "meaning": {
-              "purple": "jautājums"
+              "purple": "Otázka"
             },
             "example": {
               "red": "Frage"
@@ -42903,7 +42896,7 @@ const B1_WORDS = [
               "green": "das Angebot"
             },
             "meaning": {
-              "purple": "piedāvājums"
+              "purple": "Nabídka"
             },
             "example": {
               "red": "Angebot"
@@ -42966,7 +42959,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "nachgeben",
-          "purple": "piekāpties",
+          "purple": "nachgeben",
           "red": "spiedienam"
         },
         "examples": [
@@ -42976,7 +42969,7 @@ const B1_WORDS = [
               "green": "er"
             },
             "lv": {
-              "purple": "piekāpās"
+              "purple": "dlouhé"
             }
           },
           {
@@ -43004,7 +42997,7 @@ const B1_WORDS = [
               "green": "nachgeben"
             },
             "meaning": {
-              "purple": "piekāpties"
+              "purple": "Ustoupit"
             },
             "example": {
               "blue": "gab nach"
@@ -43026,7 +43019,7 @@ const B1_WORDS = [
               "green": "zugeben"
             },
             "meaning": {
-              "purple": "atzīt"
+              "purple": "Přiznat"
             },
             "example": {
               "red": "gibt den Fehler zu",
@@ -43036,7 +43029,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "nachgeben",
-          "purple": "solis atpakaļ"
+          "purple": "Zatlačte"
         },
         "important": {
           "blue": "nachgeben",
@@ -43109,7 +43102,7 @@ const B1_WORDS = [
     "de": "Nacken",
     "de_article": "der",
     "de_plural": "die Nacken",
-    "lv": "Ničema",
+    "lv": "Zátylek",
     "level": "B1"
   },
   {
@@ -43201,7 +43194,7 @@ const B1_WORDS = [
   },
   {
     "de": "necken",
-    "lv": "Pištění",
+    "lv": "Škádlit",
     "level": "B1"
   },
   {
@@ -43284,7 +43277,7 @@ const B1_WORDS = [
               "yellow": "Extremen"
             },
             "lv": {
-              "purple": "mēdz"
+              "purple": ""
             }
           }
         ],
@@ -43318,7 +43311,7 @@ const B1_WORDS = [
               "green": "biegen"
             },
             "meaning": {
-              "purple": "locīt"
+              "purple": ""
             },
             "example": {
               "red": "biegt",
@@ -43385,7 +43378,7 @@ const B1_WORDS = [
         "explanation": {
           "blue": "die Neigung",
           "purple": "tieksmi",
-          "red": "slīpumu"
+          "red": ""
         },
         "examples": [
           {
@@ -43412,7 +43405,7 @@ const B1_WORDS = [
               "yellow": "Daches"
             },
             "lv": {
-              "red": "slīpums"
+              "red": ""
             }
           }
         ],
@@ -43445,7 +43438,7 @@ const B1_WORDS = [
               "green": "der Hang"
             },
             "meaning": {
-              "purple": "nogāze"
+              "purple": ""
             },
             "example": {
               "red": "Hang"
@@ -43522,8 +43515,8 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "nerven",
-          "purple": "kaitināt",
-          "red": "sarunvalodā"
+          "purple": "",
+          "red": ""
         },
         "examples": [
           {
@@ -43549,7 +43542,7 @@ const B1_WORDS = [
               "blue": "nervst"
             },
             "lv": {
-              "purple": "krīti uz nerviem"
+              "purple": ""
             }
           }
         ],
@@ -43559,7 +43552,7 @@ const B1_WORDS = [
               "green": "nerven"
             },
             "meaning": {
-              "purple": "kaitināt"
+              "purple": ""
             },
             "example": {
               "blue": "nervt",
@@ -43571,7 +43564,7 @@ const B1_WORDS = [
               "green": "stören"
             },
             "meaning": {
-              "purple": "traucēt"
+              "purple": ""
             },
             "example": {
               "red": "stören"
@@ -43591,7 +43584,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "nerven",
-          "purple": "krīt uz nerviem"
+          "purple": ""
         },
         "important": {
           "blue": "nerven",
@@ -43673,8 +43666,8 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "nieder",
-          "purple": "lejā",
-          "red": "salikteņos"
+          "purple": "",
+          "red": ""
         },
         "examples": [
           {
@@ -43683,7 +43676,7 @@ const B1_WORDS = [
               "yellow": "Baum"
             },
             "lv": {
-              "purple": "zemē"
+              "purple": ""
             }
           },
           {
@@ -43692,7 +43685,7 @@ const B1_WORDS = [
               "green": "Gegner"
             },
             "lv": {
-              "purple": "nogāza"
+              "purple": ""
             }
           },
           {
@@ -43701,7 +43694,7 @@ const B1_WORDS = [
               "yellow": "Stuhl"
             },
             "lv": {
-              "purple": "apsēdās"
+              "purple": ""
             }
           }
         ],
@@ -43711,7 +43704,7 @@ const B1_WORDS = [
               "green": "nieder"
             },
             "meaning": {
-              "purple": "lejā"
+              "purple": ""
             },
             "example": {
               "blue": "nieder"
@@ -43722,7 +43715,7 @@ const B1_WORDS = [
               "green": "unten"
             },
             "meaning": {
-              "purple": "apakšā"
+              "purple": ""
             },
             "example": {
               "red": "unten"
@@ -43873,8 +43866,8 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "die Not",
-          "purple": "trūkumu",
-          "red": "spiedīgu situāciju"
+          "purple": "",
+          "red": ""
         },
         "examples": [
           {
@@ -43883,7 +43876,7 @@ const B1_WORDS = [
               "green": "Menschen"
             },
             "lv": {
-              "purple": "trūkumā"
+              "purple": ""
             }
           },
           {
@@ -43891,7 +43884,7 @@ const B1_WORDS = [
               "blue": "Not"
             },
             "lv": {
-              "purple": "Grūtā brīdī"
+              "purple": ""
             }
           },
           {
@@ -43900,7 +43893,7 @@ const B1_WORDS = [
               "yellow": "Taxi"
             },
             "lv": {
-              "purple": "Ja vajadzēs"
+              "purple": ""
             }
           }
         ],
@@ -43910,7 +43903,7 @@ const B1_WORDS = [
               "green": "die Not"
             },
             "meaning": {
-              "purple": "trūkums"
+              "purple": ""
             },
             "example": {
               "blue": "Not"
@@ -43921,7 +43914,7 @@ const B1_WORDS = [
               "green": "die Notwendigkeit"
             },
             "meaning": {
-              "purple": "nepieciešamība"
+              "purple": ""
             },
             "example": {
               "red": "Notwendigkeit"
@@ -43932,7 +43925,7 @@ const B1_WORDS = [
               "green": "der Notfall"
             },
             "meaning": {
-              "purple": "ārkārtas gadījums"
+              "purple": ""
             },
             "example": {
               "red": "Notfall"
@@ -43941,7 +43934,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "die Not",
-          "red": "vajadzība"
+          "red": ""
         },
         "important": {
           "blue": "die Not",
@@ -43980,7 +43973,7 @@ const B1_WORDS = [
   },
   {
     "de": "notwendig",
-    "lv": "Nutné",
+    "lv": "Nutný",
     "level": "B1"
   },
   {
@@ -44029,7 +44022,7 @@ const B1_WORDS = [
         "explanation": {
           "blue": "nüchtern",
           "purple": "neiereibis",
-          "red": "tukšā dūšā"
+          "red": ""
         },
         "examples": [
           {
@@ -44047,7 +44040,7 @@ const B1_WORDS = [
               "yellow": "Untersuchung"
             },
             "lv": {
-              "red": "tukšā dūšā"
+              "red": ""
             }
           },
           {
@@ -44056,7 +44049,7 @@ const B1_WORDS = [
               "yellow": "Lage"
             },
             "lv": {
-              "purple": "lietišķi"
+              "purple": ""
             }
           }
         ],
@@ -44077,7 +44070,7 @@ const B1_WORDS = [
               "green": "betrunken"
             },
             "meaning": {
-              "purple": "piedzēries"
+              "purple": ""
             },
             "example": {
               "red": "betrunken"
@@ -44088,7 +44081,7 @@ const B1_WORDS = [
               "green": "sachlich"
             },
             "meaning": {
-              "purple": "lietišķs"
+              "purple": ""
             },
             "example": {
               "red": "sachlich"
@@ -44104,7 +44097,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "nüchtern",
-          "red": "tukšā dūšā"
+          "red": ""
         }
       }
     }
@@ -44352,7 +44345,7 @@ const B1_WORDS = [
         "explanation": {
           "blue": "das Objekt",
           "purple": "objekts",
-          "red": "papildinātāju"
+          "red": ""
         },
         "examples": [
           {
@@ -44378,7 +44371,7 @@ const B1_WORDS = [
               "yellow": "Satz"
             },
             "lv": {
-              "red": "papildinātājs"
+              "red": ""
             }
           }
         ],
@@ -44423,14 +44416,14 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "Objekt",
-          "red": "papildinātājs"
+          "red": ""
         }
       }
     }
   },
   {
     "de": "obligatorisch",
-    "lv": "Povinné",
+    "lv": "Povinný",
     "level": "B1"
   },
   {
@@ -44533,8 +44526,8 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "die Ohnmacht",
-          "purple": "bezsamaņu",
-          "red": "bezspēcību"
+          "purple": "",
+          "red": ""
         },
         "examples": [
           {
@@ -44542,7 +44535,7 @@ const B1_WORDS = [
               "blue": "Ohnmacht"
             },
             "lv": {
-              "purple": "noģība"
+              "purple": ""
             }
           },
           {
@@ -44551,7 +44544,7 @@ const B1_WORDS = [
               "yellow": "Unfall"
             },
             "lv": {
-              "purple": "bezsamaņā"
+              "purple": ""
             }
           },
           {
@@ -44560,7 +44553,7 @@ const B1_WORDS = [
               "yellow": "Situation"
             },
             "lv": {
-              "red": "bezspēcību"
+              "red": ""
             }
           }
         ],
@@ -44570,7 +44563,7 @@ const B1_WORDS = [
               "green": "die Ohnmacht"
             },
             "meaning": {
-              "purple": "bezsamaņa"
+              "purple": ""
             },
             "example": {
               "blue": "Ohnmacht"
@@ -44581,7 +44574,7 @@ const B1_WORDS = [
               "green": "die Bewusstlosigkeit"
             },
             "meaning": {
-              "purple": "bezsamaņa"
+              "purple": ""
             },
             "example": {
               "red": "Bewusstlosigkeit"
@@ -44592,7 +44585,7 @@ const B1_WORDS = [
               "green": "die Machtlosigkeit"
             },
             "meaning": {
-              "purple": "bezspēcība"
+              "purple": ""
             },
             "example": {
               "red": "Machtlosigkeit"
@@ -44601,11 +44594,11 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "in Ohnmacht fallen",
-          "purple": "noģībt"
+          "purple": ""
         },
         "important": {
           "blue": "Ohnmacht",
-          "red": "neko nevar ietekmēt"
+          "red": ""
         }
       }
     }
@@ -44737,7 +44730,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "opfern",
-          "purple": "upurēt",
+          "purple": "",
           "red": "spenden"
         },
         "examples": [
@@ -44747,7 +44740,7 @@ const B1_WORDS = [
               "yellow": "Zeit"
             },
             "lv": {
-              "purple": "upurē"
+              "purple": ""
             }
           },
           {
@@ -44756,7 +44749,7 @@ const B1_WORDS = [
               "yellow": "Freizeit"
             },
             "lv": {
-              "purple": "upurē"
+              "purple": ""
             }
           },
           {
@@ -44775,7 +44768,7 @@ const B1_WORDS = [
               "green": "opfern"
             },
             "meaning": {
-              "purple": "upurēt"
+              "purple": ""
             },
             "example": {
               "blue": "opfert",
@@ -44799,7 +44792,7 @@ const B1_WORDS = [
               "green": "sich einsetzen"
             },
             "meaning": {
-              "purple": "iestāties"
+              "purple": ""
             },
             "example": {
               "red": "setzt sich",
@@ -44908,8 +44901,8 @@ const B1_WORDS = [
             "sich orientieren",
             "Hlavní"
           ],
-          "purple": "orientēties",
-          "red": "vadīties"
+          "purple": "",
+          "red": ""
         },
         "examples": [
           {
@@ -44918,7 +44911,7 @@ const B1_WORDS = [
               "green": "Stadt"
             },
             "lv": {
-              "purple": "orientējos"
+              "purple": ""
             }
           },
           {
@@ -44927,7 +44920,7 @@ const B1_WORDS = [
               "yellow": "Preisen"
             },
             "lv": {
-              "purple": "vadāmies"
+              "purple": ""
             }
           },
           {
@@ -44936,7 +44929,7 @@ const B1_WORDS = [
               "yellow": "Karte"
             },
             "lv": {
-              "purple": "orientēties"
+              "purple": ""
             }
           }
         ],
@@ -44946,7 +44939,7 @@ const B1_WORDS = [
               "green": "sich orientieren"
             },
             "meaning": {
-              "purple": "orientēties"
+              "purple": ""
             },
             "example": {
               "blue": "orientiere mich",
@@ -44958,7 +44951,7 @@ const B1_WORDS = [
               "green": "sich informieren"
             },
             "meaning": {
-              "purple": "iegūt informāciju"
+              "purple": ""
             },
             "example": {
               "red": "informiere mich",
@@ -44970,7 +44963,7 @@ const B1_WORDS = [
               "green": "sich richten nach"
             },
             "meaning": {
-              "purple": "vadīties pēc"
+              "purple": ""
             },
             "example": {
               "red": "richten uns",
@@ -44983,11 +44976,11 @@ const B1_WORDS = [
             "sich orientieren",
             "orientieren an"
           ],
-          "purple": "vadīties"
+          "purple": ""
         },
         "important": {
           "blue": "orientiere mich",
-          "red": "refleksīvi"
+          "red": ""
         }
       }
     }
@@ -45026,7 +45019,7 @@ const B1_WORDS = [
   {
     "de": "Ozon",
     "de_article": "das",
-    "lv": "Ozón",
+    "lv": "Ozon",
     "level": "B1"
   },
   {
@@ -45286,7 +45279,7 @@ const B1_WORDS = [
         "explanation": {
           "blue": "die Periode",
           "purple": "periodu",
-          "red": "menstruāciju"
+          "red": ""
         },
         "examples": [
           {
@@ -45304,7 +45297,7 @@ const B1_WORDS = [
               "yellow": "Veränderungen"
             },
             "lv": {
-              "purple": "posmā"
+              "purple": ""
             }
           },
           {
@@ -45312,7 +45305,7 @@ const B1_WORDS = [
               "blue": "Periode"
             },
             "lv": {
-              "red": "mēnešreizes"
+              "red": ""
             }
           }
         ],
@@ -45344,7 +45337,7 @@ const B1_WORDS = [
               "green": "die Regel"
             },
             "meaning": {
-              "purple": "mēnešreizes"
+              "purple": ""
             },
             "example": {
               "red": "Regel"
@@ -45357,7 +45350,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "Periode",
-          "red": "mēnešreizes"
+          "red": ""
         }
       }
     }
@@ -45530,7 +45523,7 @@ const B1_WORDS = [
             "pflegen zu"
           ],
           "purple": "kopt",
-          "red": "mēdz darīt"
+          "red": ""
         },
         "examples": [
           {
@@ -45548,7 +45541,7 @@ const B1_WORDS = [
               "yellow": "Haut"
             },
             "lv": {
-              "purple": "jākopj"
+              "purple": ""
             }
           },
           {
@@ -45557,7 +45550,7 @@ const B1_WORDS = [
               "purple": "aufzustehen"
             },
             "lv": {
-              "red": "mēdz"
+              "red": ""
             }
           }
         ],
@@ -45579,7 +45572,7 @@ const B1_WORDS = [
               "green": "sich kümmern um"
             },
             "meaning": {
-              "purple": "rūpēties par"
+              "purple": ""
             },
             "example": {
               "red": "kümmert sich",
@@ -45591,7 +45584,7 @@ const B1_WORDS = [
               "green": "putzen"
             },
             "meaning": {
-              "purple": "tīrīt"
+              "purple": ""
             },
             "example": {
               "red": "putze",
@@ -45605,7 +45598,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "pflegen zu",
-          "red": "mēdz darīt"
+          "red": ""
         }
       }
     }
@@ -45846,8 +45839,8 @@ const B1_WORDS = [
             "pochen",
             "pochen auf"
           ],
-          "purple": "klauvēt",
-          "red": "uzstāt"
+          "purple": "",
+          "red": ""
         },
         "examples": [
           {
@@ -45856,7 +45849,7 @@ const B1_WORDS = [
               "yellow": "Tür"
             },
             "lv": {
-              "purple": "klauvē"
+              "purple": ""
             }
           },
           {
@@ -45874,7 +45867,7 @@ const B1_WORDS = [
               "yellow": "Recht"
             },
             "lv": {
-              "red": "uzstāj"
+              "red": ""
             }
           }
         ],
@@ -45884,7 +45877,7 @@ const B1_WORDS = [
               "green": "pochen"
             },
             "meaning": {
-              "purple": "klauvēt"
+              "purple": ""
             },
             "example": {
               "blue": "pocht",
@@ -45896,7 +45889,7 @@ const B1_WORDS = [
               "green": "klopfen"
             },
             "meaning": {
-              "purple": "klauvēt"
+              "purple": ""
             },
             "example": {
               "red": "klopft",
@@ -45908,7 +45901,7 @@ const B1_WORDS = [
               "green": "bestehen auf"
             },
             "meaning": {
-              "purple": "uzstāt uz"
+              "purple": ""
             },
             "example": {
               "red": "besteht auf",
@@ -45928,7 +45921,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "pochen",
-          "red": "uzstāt"
+          "red": ""
         }
       }
     }
@@ -45970,7 +45963,7 @@ const B1_WORDS = [
     "de": "Polarlicht",
     "de_article": "das",
     "de_plural": "die Polarlichter",
-    "lv": "Severní polární záře",
+    "lv": "Polární záře",
     "level": "B1"
   },
   {
@@ -46121,7 +46114,7 @@ const B1_WORDS = [
               "green": "Soldat"
             },
             "lv": {
-              "red": "postenī"
+              "red": ""
             }
           },
           {
@@ -46130,7 +46123,7 @@ const B1_WORDS = [
               "yellow": "Budget"
             },
             "lv": {
-              "purple": "pozīcija"
+              "purple": ""
             }
           }
         ],
@@ -46322,8 +46315,8 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "die Probe",
-          "purple": "pārbaudi",
-          "red": "mēģinājumu"
+          "purple": "",
+          "red": ""
         },
         "examples": [
           {
@@ -46331,7 +46324,7 @@ const B1_WORDS = [
               "blue": "Probe"
             },
             "lv": {
-              "purple": "Pārbaude"
+              "purple": ""
             }
           },
           {
@@ -46349,7 +46342,7 @@ const B1_WORDS = [
               "yellow": "Konzert"
             },
             "lv": {
-              "red": "mēģinājums"
+              "red": ""
             }
           }
         ],
@@ -46359,7 +46352,7 @@ const B1_WORDS = [
               "green": "die Probe"
             },
             "meaning": {
-              "purple": "pārbaude"
+              "purple": ""
             },
             "example": {
               "blue": "Probe"
@@ -46370,7 +46363,7 @@ const B1_WORDS = [
               "green": "die Prüfung"
             },
             "meaning": {
-              "purple": "eksāmens"
+              "purple": ""
             },
             "example": {
               "red": "Prüfung"
@@ -46475,7 +46468,7 @@ const B1_WORDS = [
     "de": "Prozentsatz",
     "de_article": "der",
     "de_plural": "die Prozentsätze",
-    "lv": "Úroková sazba",
+    "lv": "Procentní sazba",
     "level": "B1"
   },
   {
@@ -46750,7 +46743,7 @@ const B1_WORDS = [
         "explanation": {
           "blue": "der Rang",
           "purple": "rangu",
-          "red": "Teātrī"
+          "red": ""
         },
         "examples": [
           {
@@ -46768,7 +46761,7 @@ const B1_WORDS = [
               "yellow": "Frage"
             },
             "lv": {
-              "purple": "nozīme"
+              "purple": ""
             }
           },
           {
@@ -46777,7 +46770,7 @@ const B1_WORDS = [
               "yellow": "Plätze"
             },
             "lv": {
-              "red": "balkonā"
+              "red": ""
             }
           }
         ],
@@ -46822,7 +46815,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "Rang",
-          "red": "Teātrī"
+          "red": ""
         }
       }
     }
@@ -46884,8 +46877,8 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "rasen",
-          "purple": "joņot",
-          "red": "pārāk ātri"
+          "purple": "",
+          "red": ""
         },
         "examples": [
           {
@@ -46894,7 +46887,7 @@ const B1_WORDS = [
               "yellow": "Auto"
             },
             "lv": {
-              "purple": "joņo"
+              "purple": ""
             }
           },
           {
@@ -46903,7 +46896,7 @@ const B1_WORDS = [
               "yellow": "Zug"
             },
             "lv": {
-              "purple": "aiztraucās"
+              "purple": ""
             }
           },
           {
@@ -46912,7 +46905,7 @@ const B1_WORDS = [
               "yellow": "Sturm"
             },
             "lv": {
-              "red": "plosās"
+              "red": ""
             }
           }
         ],
@@ -46922,7 +46915,7 @@ const B1_WORDS = [
               "green": "rasen"
             },
             "meaning": {
-              "purple": "joņot"
+              "purple": ""
             },
             "example": {
               "blue": "rast",
@@ -46945,7 +46938,7 @@ const B1_WORDS = [
               "green": "toben"
             },
             "meaning": {
-              "purple": "plosīties"
+              "purple": ""
             },
             "example": {
               "red": "tobt",
@@ -46955,7 +46948,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "rasen",
-          "red": "pārāk liels"
+          "red": ""
         },
         "important": {
           "blue": "rasen",
@@ -47063,7 +47056,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "die Rate",
-          "purple": "maksājuma daļa",
+          "purple": "",
           "red": "der Rat"
         },
         "examples": [
@@ -47073,7 +47066,7 @@ const B1_WORDS = [
               "yellow": "Auto"
             },
             "lv": {
-              "purple": "pa daļām"
+              "purple": ""
             }
           },
           {
@@ -47132,7 +47125,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "Rate",
-          "purple": "maksājuma daļa"
+          "purple": ""
         },
         "important": {
           "blue": "die Rate",
@@ -47243,7 +47236,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "räumen",
-          "purple": "brīvu",
+          "purple": "",
           "red": "aufräumen"
         },
         "examples": [
@@ -47253,7 +47246,7 @@ const B1_WORDS = [
               "yellow": "Straße"
             },
             "lv": {
-              "purple": "atbrīvo"
+              "purple": ""
             }
           },
           {
@@ -47262,7 +47255,7 @@ const B1_WORDS = [
               "yellow": "Wohnung"
             },
             "lv": {
-              "purple": "jāizvācas"
+              "purple": ""
             }
           },
           {
@@ -47271,7 +47264,7 @@ const B1_WORDS = [
               "yellow": "Zimmer"
             },
             "lv": {
-              "red": "sakārto"
+              "red": ""
             }
           }
         ],
@@ -47281,7 +47274,7 @@ const B1_WORDS = [
               "green": "räumen"
             },
             "meaning": {
-              "purple": "atbrīvot"
+              "purple": ""
             },
             "example": {
               "blue": "räumt",
@@ -47293,7 +47286,7 @@ const B1_WORDS = [
               "green": "aufräumen"
             },
             "meaning": {
-              "purple": "sakārtot"
+              "purple": ""
             },
             "example": {
               "red": "räume",
@@ -47305,7 +47298,7 @@ const B1_WORDS = [
               "green": "verlassen"
             },
             "meaning": {
-              "purple": "atstāt"
+              "purple": ""
             },
             "example": {
               "red": "verlassen",
@@ -47315,7 +47308,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "räumen",
-          "purple": "brīvai"
+          "purple": ""
         },
         "important": {
           "blue": "räumen",
@@ -47387,7 +47380,7 @@ const B1_WORDS = [
               "blue": "Rausch"
             },
             "lv": {
-              "purple": "reibumā"
+              "purple": ""
             }
           },
           {
@@ -47436,7 +47429,7 @@ const B1_WORDS = [
               "green": "die Sucht"
             },
             "meaning": {
-              "purple": "atkarība"
+              "purple": ""
             },
             "example": {
               "red": "Sucht"
@@ -47480,7 +47473,7 @@ const B1_WORDS = [
   },
   {
     "de": "realisieren",
-    "lv": "Nářadí",
+    "lv": "Uskutečnit",
     "level": "B1"
   },
   {
@@ -47587,8 +47580,8 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "regeln",
-          "purple": "nokārtot",
-          "red": "regulēt"
+          "purple": "",
+          "red": ""
         },
         "examples": [
           {
@@ -47596,7 +47589,7 @@ const B1_WORDS = [
               "blue": "regeln"
             },
             "lv": {
-              "purple": "nokārtosim"
+              "purple": ""
             }
           },
           {
@@ -47605,7 +47598,7 @@ const B1_WORDS = [
               "yellow": "Frage"
             },
             "lv": {
-              "red": "regulē"
+              "red": ""
             }
           },
           {
@@ -47614,7 +47607,7 @@ const B1_WORDS = [
               "yellow": "Temperatur"
             },
             "lv": {
-              "red": "regulē"
+              "red": ""
             }
           }
         ],
@@ -47624,7 +47617,7 @@ const B1_WORDS = [
               "green": "regeln"
             },
             "meaning": {
-              "purple": "kārtot"
+              "purple": ""
             },
             "example": {
               "blue": "regeln"
@@ -47635,7 +47628,7 @@ const B1_WORDS = [
               "green": "organisieren"
             },
             "meaning": {
-              "purple": "organizēt"
+              "purple": ""
             },
             "example": {
               "red": "organisiert",
@@ -47647,7 +47640,7 @@ const B1_WORDS = [
               "green": "einstellen"
             },
             "meaning": {
-              "purple": "noregulēt"
+              "purple": ""
             },
             "example": {
               "red": "stelle",
@@ -47657,11 +47650,11 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "regeln",
-          "purple": "kārtībā"
+          "purple": ""
         },
         "important": {
           "blue": "regeln",
-          "red": "regulēšana"
+          "red": ""
         }
       }
     }
@@ -47859,7 +47852,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "reißen",
-          "purple": "plīst",
+          "purple": "",
           "red": "Reisen"
         },
         "examples": [
@@ -47869,7 +47862,7 @@ const B1_WORDS = [
               "yellow": "Seil"
             },
             "lv": {
-              "purple": "plīst"
+              "purple": ""
             }
           },
           {
@@ -47878,7 +47871,7 @@ const B1_WORDS = [
               "yellow": "Papier"
             },
             "lv": {
-              "purple": "saplēš"
+              "purple": ""
             }
           },
           {
@@ -47897,7 +47890,7 @@ const B1_WORDS = [
               "green": "reißen"
             },
             "meaning": {
-              "purple": "plīst"
+              "purple": ""
             },
             "example": {
               "blue": "reißt",
@@ -47909,7 +47902,7 @@ const B1_WORDS = [
               "green": "reisen"
             },
             "meaning": {
-              "purple": "ceļot"
+              "purple": ""
             },
             "example": {
               "red": "reisen",
@@ -47921,7 +47914,7 @@ const B1_WORDS = [
               "green": "brechen"
             },
             "meaning": {
-              "purple": "lūzt"
+              "purple": ""
             },
             "example": {
               "red": "bricht",
@@ -47998,8 +47991,8 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "reizen",
-          "purple": "kairināt",
-          "red": "vilināt"
+          "purple": "",
+          "red": ""
         },
         "examples": [
           {
@@ -48017,7 +48010,7 @@ const B1_WORDS = [
               "yellow": "Worte"
             },
             "lv": {
-              "purple": "aizkaitināja"
+              "purple": ""
             }
           },
           {
@@ -48036,7 +48029,7 @@ const B1_WORDS = [
               "green": "reizen"
             },
             "meaning": {
-              "purple": "kairināt"
+              "purple": ""
             },
             "example": {
               "blue": "reizt",
@@ -48048,7 +48041,7 @@ const B1_WORDS = [
               "green": "nerven"
             },
             "meaning": {
-              "purple": "kaitināt"
+              "purple": ""
             },
             "example": {
               "red": "nervt",
@@ -48060,7 +48053,7 @@ const B1_WORDS = [
               "green": "locken"
             },
             "meaning": {
-              "purple": "vilināt"
+              "purple": ""
             },
             "example": {
               "red": "lockt",
@@ -48302,8 +48295,8 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "richten",
-          "purple": "vērst",
-          "red": "tiesāt"
+          "purple": "",
+          "red": ""
         },
         "examples": [
           {
@@ -48312,7 +48305,7 @@ const B1_WORDS = [
               "yellow": "Blick"
             },
             "lv": {
-              "purple": "vērš"
+              "purple": ""
             }
           },
           {
@@ -48321,7 +48314,7 @@ const B1_WORDS = [
               "green": "Lehrer"
             },
             "lv": {
-              "purple": "adresēts"
+              "purple": ""
             }
           },
           {
@@ -48330,7 +48323,7 @@ const B1_WORDS = [
               "green": "Richter"
             },
             "lv": {
-              "red": "tiesā"
+              "red": ""
             }
           }
         ],
@@ -48340,7 +48333,7 @@ const B1_WORDS = [
               "green": "richten"
             },
             "meaning": {
-              "purple": "vērst"
+              "purple": ""
             },
             "example": {
               "blue": "richtet",
@@ -48352,7 +48345,7 @@ const B1_WORDS = [
               "green": "schicken"
             },
             "meaning": {
-              "purple": "sūtīt"
+              "purple": ""
             },
             "example": {
               "red": "schicke",
@@ -48377,7 +48370,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "richten",
-          "red": "sūtīt"
+          "red": ""
         }
       }
     }
@@ -48596,7 +48589,7 @@ const B1_WORDS = [
               "yellow": "Teppich"
             },
             "lv": {
-              "purple": "sarullē"
+              "purple": ""
             }
           },
           {
@@ -48649,12 +48642,12 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "rollen",
-          "purple": "Apaļa kustība"
+          "purple": ""
         },
         "important": {
           "blue": "rollen",
           "purple": "ripot",
-          "red": "sarullēt"
+          "red": ""
         }
       }
     }
@@ -48730,7 +48723,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "rösten",
-          "purple": "grauzdēt",
+          "purple": "",
           "yellow": "riekstus"
         },
         "examples": [
@@ -48740,7 +48733,7 @@ const B1_WORDS = [
               "yellow": "Kaffee"
             },
             "lv": {
-              "purple": "grauzdējam"
+              "purple": ""
             }
           },
           {
@@ -48749,7 +48742,7 @@ const B1_WORDS = [
               "yellow": "Brot"
             },
             "lv": {
-              "purple": "apgrauzdēju"
+              "purple": ""
             }
           },
           {
@@ -48758,7 +48751,7 @@ const B1_WORDS = [
               "yellow": "Nüsse"
             },
             "lv": {
-              "purple": "grauzdēti"
+              "purple": ""
             }
           }
         ],
@@ -48768,7 +48761,7 @@ const B1_WORDS = [
               "green": "rösten"
             },
             "meaning": {
-              "purple": "grauzdēt"
+              "purple": ""
             },
             "example": {
               "blue": "rösten",
@@ -48792,7 +48785,7 @@ const B1_WORDS = [
               "green": "backen"
             },
             "meaning": {
-              "purple": "cept krāsnī"
+              "purple": ""
             },
             "example": {
               "red": "backt",
@@ -48965,7 +48958,7 @@ const B1_WORDS = [
         "explanation": {
           "blue": "der Ruf",
           "purple": "saucienu",
-          "red": "reputāciju"
+          "red": ""
         },
         "examples": [
           {
@@ -48991,7 +48984,7 @@ const B1_WORDS = [
               "green": "Firma"
             },
             "lv": {
-              "red": "reputācija"
+              "red": ""
             }
           }
         ],
@@ -49032,7 +49025,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "der Ruf",
-          "purple": "reputācija"
+          "purple": ""
         },
         "important": {
           "blue": "Ruf",
@@ -49086,7 +49079,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "ruhen",
-          "purple": "būt mierā",
+          "purple": "",
           "red": "sich ausruhen"
         },
         "examples": [
@@ -49096,7 +49089,7 @@ const B1_WORDS = [
               "green": "er"
             },
             "lv": {
-              "purple": "atpūšas"
+              "purple": ""
             }
           },
           {
@@ -49105,7 +49098,7 @@ const B1_WORDS = [
               "yellow": "See"
             },
             "lv": {
-              "purple": "mierīgi"
+              "purple": ""
             }
           },
           {
@@ -49114,7 +49107,7 @@ const B1_WORDS = [
               "yellow": "Verfahren"
             },
             "lv": {
-              "red": "apturēts"
+              "red": ""
             }
           }
         ],
@@ -49124,7 +49117,7 @@ const B1_WORDS = [
               "green": "ruhen"
             },
             "meaning": {
-              "purple": "būt mierā"
+              "purple": ""
             },
             "example": {
               "blue": "ruht",
@@ -49136,11 +49129,11 @@ const B1_WORDS = [
               "green": "sich ausruhen"
             },
             "meaning": {
-              "purple": "atpūsties"
+              "purple": ""
             },
             "example": {
               "red": "ruhe mich",
-              "purple": "atpūšos"
+              "purple": ""
             }
           },
           {
@@ -49148,7 +49141,7 @@ const B1_WORDS = [
               "green": "schlafen"
             },
             "meaning": {
-              "purple": "gulēt"
+              "purple": ""
             },
             "example": {
               "red": "schläft"
@@ -49161,7 +49154,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "ruhen",
-          "red": "formālāk"
+          "red": ""
         }
       }
     }
@@ -49286,7 +49279,7 @@ const B1_WORDS = [
         "explanation": {
           "blue": "rüsten",
           "purple": "sagatavoties",
-          "red": "bruņoties"
+          "red": ""
         },
         "examples": [
           {
@@ -49304,7 +49297,7 @@ const B1_WORDS = [
               "yellow": "Armee"
             },
             "lv": {
-              "red": "apbruņo"
+              "red": ""
             }
           },
           {
@@ -49347,7 +49340,7 @@ const B1_WORDS = [
               "green": "aufrüsten"
             },
             "meaning": {
-              "purple": "bruņojumu"
+              "purple": ""
             },
             "example": {
               "red": "rüstet auf"
@@ -49356,7 +49349,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "rüsten",
-          "yellow": "aprīkojumu"
+          "yellow": ""
         },
         "important": {
           "blue": "rüsten",
@@ -49431,7 +49424,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "die Saat",
-          "purple": "sēklu",
+          "purple": "",
           "red": "der Samen"
         },
         "examples": [
@@ -49440,7 +49433,7 @@ const B1_WORDS = [
               "blue": "Saat"
             },
             "lv": {
-              "purple": "Sējums"
+              "purple": ""
             }
           },
           {
@@ -49449,7 +49442,7 @@ const B1_WORDS = [
               "green": "Bauer"
             },
             "lv": {
-              "purple": "izsēj"
+              "purple": ""
             }
           },
           {
@@ -49457,7 +49450,7 @@ const B1_WORDS = [
               "blue": "Saat"
             },
             "lv": {
-              "purple": "Sējums"
+              "purple": ""
             }
           }
         ],
@@ -49467,7 +49460,7 @@ const B1_WORDS = [
               "green": "die Saat"
             },
             "meaning": {
-              "purple": "sējums"
+              "purple": ""
             },
             "example": {
               "blue": "Saat"
@@ -49478,7 +49471,7 @@ const B1_WORDS = [
               "green": "der Samen"
             },
             "meaning": {
-              "purple": "sēkla"
+              "purple": ""
             },
             "example": {
               "red": "Samen"
@@ -49489,7 +49482,7 @@ const B1_WORDS = [
               "green": "säen"
             },
             "meaning": {
-              "purple": "sēt"
+              "purple": ""
             },
             "example": {
               "red": "säen",
@@ -49499,7 +49492,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "die Saat",
-          "purple": "iesētais"
+          "purple": ""
         },
         "important": {
           "blue": "die Saat",
@@ -49641,7 +49634,7 @@ const B1_WORDS = [
   },
   {
     "de": "saufen",
-    "lv": "Uschnout",
+    "lv": "Chlastat",
     "level": "B1"
   },
   {
@@ -49679,7 +49672,7 @@ const B1_WORDS = [
   },
   {
     "de": "säumen",
-    "lv": "Zklamat",
+    "lv": "Lemovat",
     "level": "B1"
   },
   {
@@ -49777,7 +49770,7 @@ const B1_WORDS = [
         "explanation": {
           "blue": "die Schale",
           "purple": "miza",
-          "red": "bļodu"
+          "red": ""
         },
         "examples": [
           {
@@ -49804,7 +49797,7 @@ const B1_WORDS = [
               "yellow": "Tisch"
             },
             "lv": {
-              "red": "bļodu"
+              "red": ""
             }
           }
         ],
@@ -49837,7 +49830,7 @@ const B1_WORDS = [
               "green": "die Schüssel"
             },
             "meaning": {
-              "purple": "bļoda"
+              "purple": ""
             },
             "example": {
               "red": "Schüssel"
@@ -49957,7 +49950,7 @@ const B1_WORDS = [
     "de": "Scheinwerfer",
     "de_article": "der",
     "de_plural": "die Scheinwerfer",
-    "lv": "Hvězdný muž",
+    "lv": "Světlomet",
     "level": "B1"
   },
   {
@@ -50031,8 +50024,8 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "die Schicht",
-          "purple": "slāni",
-          "red": "maiņu"
+          "purple": "",
+          "red": ""
         },
         "examples": [
           {
@@ -50041,7 +50034,7 @@ const B1_WORDS = [
               "yellow": "Staub"
             },
             "lv": {
-              "purple": "slānis"
+              "purple": ""
             }
           },
           {
@@ -50049,7 +50042,7 @@ const B1_WORDS = [
               "blue": "Nachtschicht"
             },
             "lv": {
-              "red": "maiņā"
+              "red": ""
             }
           },
           {
@@ -50058,7 +50051,7 @@ const B1_WORDS = [
               "yellow": "Farbe"
             },
             "lv": {
-              "purple": "kārtu"
+              "purple": ""
             }
           }
         ],
@@ -50068,7 +50061,7 @@ const B1_WORDS = [
               "green": "die Schicht"
             },
             "meaning": {
-              "purple": "slānis"
+              "purple": ""
             },
             "example": {
               "blue": "Schicht"
@@ -50079,7 +50072,7 @@ const B1_WORDS = [
               "green": "die Lage"
             },
             "meaning": {
-              "purple": "situācija"
+              "purple": ""
             },
             "example": {
               "red": "Lage"
@@ -50090,7 +50083,7 @@ const B1_WORDS = [
               "green": "die Schichtarbeit"
             },
             "meaning": {
-              "purple": "maiņu darbs"
+              "purple": ""
             },
             "example": {
               "red": "Schichtarbeit"
@@ -50099,11 +50092,11 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "Schicht",
-          "red": "maiņa"
+          "red": ""
         },
         "important": {
           "blue": "Schicht",
-          "red": "maiņu"
+          "red": ""
         }
       }
     }
@@ -50205,7 +50198,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "der Schimmel",
-          "purple": "pelējumu",
+          "purple": "",
           "red": "zirgu"
         },
         "examples": [
@@ -50215,7 +50208,7 @@ const B1_WORDS = [
               "yellow": "Wand"
             },
             "lv": {
-              "purple": "pelējums"
+              "purple": ""
             }
           },
           {
@@ -50224,7 +50217,7 @@ const B1_WORDS = [
               "green": "Wohnung"
             },
             "lv": {
-              "purple": "Pelējums"
+              "purple": ""
             }
           },
           {
@@ -50243,7 +50236,7 @@ const B1_WORDS = [
               "green": "der Schimmel"
             },
             "meaning": {
-              "purple": "pelējums"
+              "purple": ""
             },
             "example": {
               "blue": "Schimmel"
@@ -50254,7 +50247,7 @@ const B1_WORDS = [
               "green": "der Pilz"
             },
             "meaning": {
-              "purple": "sēne"
+              "purple": ""
             },
             "example": {
               "red": "Pilz"
@@ -50274,7 +50267,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "Schimmel",
-          "purple": "pelējums"
+          "purple": ""
         },
         "important": {
           "blue": "Schimmel",
@@ -50393,7 +50386,7 @@ const B1_WORDS = [
         "explanation": {
           "blue": "der Schlag",
           "purple": "sitienu",
-          "red": "zibens spēriens"
+          "red": ""
         },
         "examples": [
           {
@@ -50411,7 +50404,7 @@ const B1_WORDS = [
               "yellow": "Baum"
             },
             "lv": {
-              "red": "Zibens spēriens"
+              "red": ""
             }
           },
           {
@@ -50441,7 +50434,7 @@ const B1_WORDS = [
               "green": "der Stoß"
             },
             "meaning": {
-              "purple": "grūdiens"
+              "purple": ""
             },
             "example": {
               "red": "Stoß"
@@ -50465,7 +50458,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "Schlag",
-          "red": "spēriens"
+          "red": ""
         }
       }
     }
@@ -50579,7 +50572,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "schleifen",
-          "purple": "slīpēt",
+          "purple": "",
           "red": "vilkt pa zemi"
         },
         "examples": [
@@ -50598,7 +50591,7 @@ const B1_WORDS = [
               "yellow": "Tisch"
             },
             "lv": {
-              "purple": "noslīpējam"
+              "purple": ""
             }
           },
           {
@@ -50617,7 +50610,7 @@ const B1_WORDS = [
               "green": "schleifen"
             },
             "meaning": {
-              "purple": "slīpēt"
+              "purple": ""
             },
             "example": {
               "blue": "schleift",
@@ -50629,7 +50622,7 @@ const B1_WORDS = [
               "green": "schärfen"
             },
             "meaning": {
-              "purple": "asināt"
+              "purple": ""
             },
             "example": {
               "red": "schärfe",
@@ -50651,7 +50644,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "schleifen",
-          "purple": "apstrādā"
+          "purple": ""
         },
         "important": {
           "blue": "schleifen",
@@ -50782,8 +50775,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-schmelzen",
       "layout": "standardStudy",
-      "translation": "Pohybující se",
-      "explanation": "Hlavní myšlenka: schmelzen znamená roztavit nebo splynout. Pokud se látka sama změní, překládá se jako „pohyb“ • Pokud to někdo udělá, překládá se to jako „tavení“.",
+      "translation": "Tát • Tavit",
+      "explanation": "Hlavní myšlenka: schmelzen znamená tát nebo tavit. Pokud se látka mění sama, překládá se jako „tát“ • Pokud ji někdo taví, překládá se jako „tavit“.",
       "examples": [
         {
           "de": "Der Schnee schmilzt in der Sonne.",
@@ -50821,7 +50814,7 @@ const B1_WORDS = [
         "explanation": {
           "blue": "schmelzen",
           "purple": "kust",
-          "red": "kausēt"
+          "red": ""
         },
         "examples": [
           {
@@ -50830,7 +50823,7 @@ const B1_WORDS = [
               "yellow": "Schnee"
             },
             "lv": {
-              "purple": "kūst"
+              "purple": ""
             }
           },
           {
@@ -50839,7 +50832,7 @@ const B1_WORDS = [
               "yellow": "Butter"
             },
             "lv": {
-              "red": "kausēju"
+              "red": ""
             }
           },
           {
@@ -50870,7 +50863,7 @@ const B1_WORDS = [
               "green": "auftauen"
             },
             "meaning": {
-              "purple": "atkausēt"
+              "purple": ""
             },
             "example": {
               "red": "taue",
@@ -50882,7 +50875,7 @@ const B1_WORDS = [
               "green": "kochen"
             },
             "meaning": {
-              "purple": "vārīt"
+              "purple": ""
             },
             "example": {
               "red": "kocht",
@@ -50977,8 +50970,8 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "schmieren",
-          "purple": "smērēt",
-          "red": "nekārtīgi"
+          "purple": "",
+          "red": ""
         },
         "examples": [
           {
@@ -50987,7 +50980,7 @@ const B1_WORDS = [
               "yellow": "Butter"
             },
             "lv": {
-              "purple": "smērē"
+              "purple": ""
             }
           },
           {
@@ -50996,7 +50989,7 @@ const B1_WORDS = [
               "yellow": "Kette"
             },
             "lv": {
-              "purple": "ieeļļo"
+              "purple": ""
             }
           },
           {
@@ -51005,7 +50998,7 @@ const B1_WORDS = [
               "green": "Kind"
             },
             "lv": {
-              "red": "ķēpā"
+              "red": ""
             }
           }
         ],
@@ -51015,7 +51008,7 @@ const B1_WORDS = [
               "green": "schmieren"
             },
             "meaning": {
-              "purple": "smērēt"
+              "purple": ""
             },
             "example": {
               "blue": "schmiert",
@@ -51027,7 +51020,7 @@ const B1_WORDS = [
               "green": "streichen"
             },
             "meaning": {
-              "purple": "krāsot"
+              "purple": ""
             },
             "example": {
               "red": "streicht",
@@ -51039,7 +51032,7 @@ const B1_WORDS = [
               "green": "ölen"
             },
             "meaning": {
-              "purple": "eļļot"
+              "purple": ""
             },
             "example": {
               "red": "öle",
@@ -51122,7 +51115,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "schmücken",
-          "purple": "rotāt",
+          "purple": "",
           "red": "sich schmücken"
         },
         "examples": [
@@ -51132,7 +51125,7 @@ const B1_WORDS = [
               "yellow": "Weihnachtsbaum"
             },
             "lv": {
-              "purple": "rotājam"
+              "purple": ""
             }
           },
           {
@@ -51141,7 +51134,7 @@ const B1_WORDS = [
               "yellow": "Tisch"
             },
             "lv": {
-              "purple": "rotā"
+              "purple": ""
             }
           },
           {
@@ -51150,7 +51143,7 @@ const B1_WORDS = [
               "yellow": "Kette"
             },
             "lv": {
-              "red": "rotājas"
+              "red": ""
             }
           }
         ],
@@ -51160,7 +51153,7 @@ const B1_WORDS = [
               "green": "schmücken"
             },
             "meaning": {
-              "purple": "rotāt"
+              "purple": ""
             },
             "example": {
               "blue": "schmücken",
@@ -51172,7 +51165,7 @@ const B1_WORDS = [
               "green": "dekorieren"
             },
             "meaning": {
-              "purple": "dekorēt"
+              "purple": ""
             },
             "example": {
               "red": "dekoriert",
@@ -51184,7 +51177,7 @@ const B1_WORDS = [
               "green": "sich anziehen"
             },
             "meaning": {
-              "purple": "apģērbties"
+              "purple": ""
             },
             "example": {
               "red": "zieht sich",
@@ -51194,14 +51187,14 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "schmücken",
-          "purple": "skaistāks"
+          "purple": ""
         },
         "important": {
           "blue": [
             "sich schmücken",
             "schmücken"
           ],
-          "red": "rotāties"
+          "red": ""
         }
       }
     }
@@ -51355,7 +51348,7 @@ const B1_WORDS = [
               "yellow": "Film"
             },
             "lv": {
-              "red": "montāža"
+              "red": ""
             }
           }
         ],
@@ -51376,7 +51369,7 @@ const B1_WORDS = [
               "green": "der Durchschnitt"
             },
             "meaning": {
-              "purple": "vidējais rādītājs"
+              "purple": ""
             },
             "example": {
               "red": "Durchschnitt"
@@ -51387,7 +51380,7 @@ const B1_WORDS = [
               "green": "die Wunde"
             },
             "meaning": {
-              "purple": "brūce"
+              "purple": ""
             },
             "example": {
               "red": "Wunde"
@@ -51618,8 +51611,8 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "schuldig",
-          "purple": "vainīgs",
-          "red": "parādā"
+          "purple": "",
+          "red": ""
         },
         "examples": [
           {
@@ -51628,7 +51621,7 @@ const B1_WORDS = [
               "green": "Er"
             },
             "lv": {
-              "purple": "vainīgs"
+              "purple": ""
             }
           },
           {
@@ -51637,7 +51630,7 @@ const B1_WORDS = [
               "green": "Sie"
             },
             "lv": {
-              "purple": "vainīga"
+              "purple": ""
             }
           },
           {
@@ -51646,7 +51639,7 @@ const B1_WORDS = [
               "yellow": "Euro"
             },
             "lv": {
-              "red": "parādā"
+              "red": ""
             }
           }
         ],
@@ -51656,7 +51649,7 @@ const B1_WORDS = [
               "green": "schuldig"
             },
             "meaning": {
-              "purple": "vainīgs"
+              "purple": ""
             },
             "example": {
               "blue": "schuldig"
@@ -51678,7 +51671,7 @@ const B1_WORDS = [
               "green": "unschuldig"
             },
             "meaning": {
-              "purple": "nevainīgs"
+              "purple": ""
             },
             "example": {
               "red": "unschuldig"
@@ -51687,12 +51680,12 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "schuldig",
-          "purple": "Vainīgs",
-          "red": "parādā"
+          "purple": "",
+          "red": ""
         },
         "important": {
           "blue": "schuldig",
-          "red": "parādā"
+          "red": ""
         }
       }
     }
@@ -52386,7 +52379,7 @@ const B1_WORDS = [
       "id": "b1-senden",
       "layout": "standardStudy",
       "translation": "Poslat",
-      "explanation": "Hlavní myšlenka: Senden znamená poslat zprávu nebo poslat signál/vysílat. V každodenním životě je pro lidi často přirozenější mít kuřátko.",
+      "explanation": "Hlavní myšlenka: senden znamená poslat zprávu nebo vysílat signál či pořad. V každodenním životě je pro lidi často přirozenější používat schicken.",
       "examples": [
         {
           "de": "Ich sende dir eine Nachricht.",
@@ -52939,7 +52932,7 @@ const B1_WORDS = [
   },
   {
     "de": "sinnlos",
-    "lv": "K ničemu",
+    "lv": "Nesmyslný",
     "level": "B1"
   },
   {
@@ -52983,7 +52976,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Sitz",
-          "meaning": "Sedák, sedák • Sedák",
+          "meaning": "Sedadlo, místo k sezení • sídlo",
           "example": "Der Sitz ist frei. = Sedačka je volná."
         },
         {
@@ -53141,7 +53134,7 @@ const B1_WORDS = [
   },
   {
     "de": "sogenannt",
-    "lv": "Tzv",
+    "lv": "Tzv.",
     "level": "B1"
   },
   {
@@ -53886,11 +53879,11 @@ const B1_WORDS = [
         {
           "word": "abschließen",
           "meaning": "Zámek s klíčem",
-          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
+          "example": "(Czech text required)"
         },
         {
           "word": "schließen",
-          "meaning": "Aizvērt",
+          "meaning": "(Czech text required)",
           "example": "Ich schließe das Fenster. = Zavírám okno."
         }
       ],
@@ -55473,7 +55466,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-stoßen",
       "layout": "standardStudy",
-      "translation": "TAM",
+      "translation": "Strčit",
       "explanation": "Hlavní myšlenka: stoßen znamená tlačit, narážet nebo do něčeho narážet. Konstrukce auf etwas stoßen znamená náhodně narazit nebo najít.",
       "examples": [
         {
@@ -56102,7 +56095,7 @@ const B1_WORDS = [
     "de": "Stürmer",
     "de_article": "der",
     "de_plural": "die Stürmer",
-    "lv": "Sp. útočník",
+    "lv": "Fotbalový útočník",
     "level": "B1"
   },
   {
@@ -57246,7 +57239,7 @@ const B1_WORDS = [
   },
   {
     "de": "taumeln",
-    "lv": "Pruhování",
+    "lv": "Potácet se",
     "level": "B1"
   },
   {
@@ -57278,7 +57271,7 @@ const B1_WORDS = [
     "de": "Teig",
     "de_article": "der",
     "de_plural": "die Teige",
-    "lv": "Hádanka",
+    "lv": "Těsto",
     "level": "B1"
   },
   {
@@ -57336,7 +57329,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Řekněte dem Kurs teilnen nebo am Kurs teilein, ne den Kurs teilein."
+        "text": "Řekněte an dem Kurs teilnehmen nebo am Kurs teilnehmen, ne den Kurs teilnehmen."
       },
       "sectionAccents": {
         "explanation": {
@@ -57490,7 +57483,7 @@ const B1_WORDS = [
     "de": "Tempo",
     "de_article": "das",
     "de_plural": "die Tempi",
-    "lv": "Tepl",
+    "lv": "Tempo",
     "level": "B1"
   },
   {
@@ -57852,7 +57845,7 @@ const B1_WORDS = [
     "de": "Tonne",
     "de_article": "die",
     "de_plural": "die Tonnen",
-    "lv": "Tón",
+    "lv": "Tuna",
     "level": "B1"
   },
   {
@@ -58211,7 +58204,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-treiben",
       "layout": "standardStudy",
-      "translation": "Obsadit",
+      "translation": "Věnovat se • hnát",
       "explanation": "Hlavní myšlenka: treiben často znamená něco dělat, zvláště sport. Může to také znamenat řídit, řídit nebo dělat něco nedefinovaného.",
       "examples": [
         {
@@ -58380,7 +58373,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Sich trennen znamená oddělit • Verskeiden znamená rozlišovat podle vlastností."
+        "text": "Sich trennen znamená rozejít se • Unterscheiden znamená rozlišovat podle vlastností."
       },
       "sectionAccents": {
         "explanation": {
@@ -58603,14 +58596,14 @@ const B1_WORDS = [
     "de": "Truthahn",
     "de_article": "der",
     "de_plural": "die Truthähne",
-    "lv": "Turecko",
+    "lv": "Krocan",
     "level": "B1"
   },
   {
     "de": "Truthenne",
     "de_article": "die",
     "de_plural": "die Truthennen",
-    "lv": "Krůtí samice",
+    "lv": "Krůta",
     "level": "B1"
   },
   {
@@ -58723,7 +58716,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Bez sich je to zradit • Se sich je to zvratky."
+            "text": "Bez sich to znamená předat • Se sich to znamená zvracet."
           }
         ]
       },
@@ -60154,7 +60147,7 @@ const B1_WORDS = [
   },
   {
     "de": "unvernünftig",
-    "lv": "Nerozumné",
+    "lv": "Nerozumný",
     "level": "B1"
   },
   {
@@ -60195,7 +60188,7 @@ const B1_WORDS = [
     "de": "Vaterland",
     "de_article": "das",
     "de_plural": "die Vaterländer",
-    "lv": "Otec",
+    "lv": "Vlast",
     "level": "B1"
   },
   {
@@ -60355,7 +60348,7 @@ const B1_WORDS = [
   },
   {
     "de": "verarbeiten",
-    "lv": "Proces",
+    "lv": "Zpracovat",
     "level": "B1"
   },
   {
@@ -60666,7 +60659,7 @@ const B1_WORDS = [
   },
   {
     "de": "verbreiten",
-    "lv": "Šíření",
+    "lv": "Šířit",
     "level": "B1"
   },
   {
@@ -61024,7 +61017,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Novinky lze sledovat • Člověk může být pronásledován: verschreibung."
+            "text": "Zprávy lze sledovat • člověka lze pronásledovat: verfolgen."
           }
         ]
       },
@@ -61141,12 +61134,12 @@ const B1_WORDS = [
   },
   {
     "de": "vergrößern",
-    "lv": "Zvýšení",
+    "lv": "Zvětšit",
     "level": "B1"
   },
   {
     "de": "sich vergrößern",
-    "lv": "Zvýšení",
+    "lv": "Zvětšit se",
     "level": "B1"
   },
   {
@@ -61310,7 +61303,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich verirren",
-    "lv": "Zmizte",
+    "lv": "Zabloudit",
     "level": "B1"
   },
   {
@@ -61788,7 +61781,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Ich versichere dir znamená, že vás ujišťuji, nikoli já vás ujišťuji."
+        "text": "Ich versichere dir znamená „ujišťuji tě“, nikoli „pojišťuji tě“."
       },
       "sectionAccents": {
         "explanation": {
@@ -62162,7 +62155,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Verwandte",
-          "meaning": "Relativní",
+          "meaning": "Příbuzná (žena)",
           "example": "Sie ist meine Verwandte. = Je to moje příbuzná."
         },
         {
@@ -62241,7 +62234,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-verwandte-2",
       "layout": "standardStudy",
-      "translation": "Relativní",
+      "translation": "Příbuzná",
       "explanation": "Hlavní myšlenka: die Verwandte znamená ženská příbuzná. Mužská forma je der Verwandte. Množné číslo pro obě formy je die Verwandten.",
       "examples": [
         {
@@ -62260,7 +62253,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Verwandte",
-          "meaning": "Relativní",
+          "meaning": "Příbuzná (žena)",
           "example": "Sie ist meine Verwandte. = Je to moje příbuzná."
         },
         {
@@ -63610,7 +63603,7 @@ const B1_WORDS = [
     "de": "Wasserleitung",
     "de_article": "die",
     "de_plural": "die Wasserleitungen",
-    "lv": "Vodní dýmka",
+    "lv": "Vodovodní potrubí",
     "level": "B1"
   },
   {
@@ -64042,7 +64035,7 @@ const B1_WORDS = [
     "de": "Weise",
     "de_article": "die",
     "de_plural": "die Weisen",
-    "lv": "Chytrý",
+    "lv": "Způsob",
     "level": "B1"
   },
   {
@@ -64239,7 +64232,7 @@ const B1_WORDS = [
     "de": "Weltraum",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Plocha",
+    "lv": "Vesmírný prostor",
     "level": "B1"
   },
   {
@@ -64389,7 +64382,7 @@ const B1_WORDS = [
     "de": "Wendung",
     "de_article": "die",
     "de_plural": "die Wendungen",
-    "lv": "Odbočka",
+    "lv": "Obrat",
     "level": "B1"
   },
   {
@@ -64757,7 +64750,7 @@ const B1_WORDS = [
   },
   {
     "de": "wild",
-    "lv": "Divoký • Divoký",
+    "lv": "Divoký",
     "level": "B1"
   },
   {
@@ -65545,7 +65538,7 @@ const B1_WORDS = [
   },
   {
     "de": "zwar",
-    "lv": "Obě",
+    "lv": "Sice",
     "level": "B1"
   },
   {
@@ -65693,7 +65686,7 @@ const B1_WORDS = [
       },
       "important": {
         "text": "Der Beruf není jen tak ledajaké povolání. Obvykle se jedná o profesi nebo pracovní oblast člověka.",
-        "example": "Von Beruf Lehrer = pēc profesijas skolotājs. viel Arbeit = daudz darba."
+        "example": "(Czech text required)"
       },
       "sectionAccents": {
         "examples": [
@@ -65952,7 +65945,7 @@ const B1_WORDS = [
           "Arods",
           "Darbs",
           "Darba",
-          "Nodarbošanās",
+          "(Czech text required)",
           "Darba joma"
         ]
       }
@@ -67017,7 +67010,7 @@ const B1_WORDS = [
       },
       "important": {
         "text": "Sich befinden není o lidských pocitech na úrovni A2. Poloha je klíčová.",
-        "example": "Das Hotel befindet sich hier = viesnīca atrodas šeit. Ich fühle mich gut = es jūtos labi."
+        "example": "(Czech text required)"
       },
       "sectionAccents": {
         "examples": [
@@ -67276,8 +67269,8 @@ const B1_WORDS = [
           "Atrasties",
           "Atrodas",
           "Justies",
-          "Jūtos",
-          "Atrašanās vieta"
+          "(Czech text required)",
+          "(Czech text required)"
         ]
       }
     }
@@ -67319,7 +67312,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich konzentrieren",
-    "lv": "Koncentrát",
+    "lv": "Soustředit se",
     "level": "B1"
   },
   {
@@ -67329,7 +67322,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich scheiden",
-    "lv": "Rozbít",
+    "lv": "Rozvést se",
     "level": "B1"
   },
   {
