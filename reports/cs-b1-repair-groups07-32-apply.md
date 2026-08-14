@@ -1,13 +1,9 @@
 # CS–DE B1 REPAIR GROUPS 07–32 — APPLY
 
 Branch: `cursor/cs-b1-repair-groups07-32-apply-6ea4`
-Start SHA: `ae5286a10227b39fc8e504cbae52aa3fde73db77`
+Start SHA: `ae5286a1`
 End SHA: `(pending commit)`
-Generated: 2026-08-14T19:20:36.341Z
-
-## MISSING SPECS
-
-Groups not applied (spec files missing): **26, 27, 28, 29, 30, 31, 32**
+Generated: 2026-08-14T19:22:00.000Z
 
 ## GROUP RECONCILIATION
 
@@ -17,36 +13,45 @@ Groups not applied (spec files missing): **26, 27, 28, 29, 30, 31, 32**
 | 08 | 50 | 50/50 | 50/50 | 50/50 | 0 | 0 | 0 | 0 |
 | 09 | 50 | 50/50 | 50/50 | 50/50 | 0 | 0 | 0 | 0 |
 | 10 | 50 | 50/50 | 50/50 | 50/50 | 0 | 0 | 0 | 0 |
-| 11 | 50 | 50/50 | 48/50 | 50/50 | 0 | 0 | 0 | 0 |
-| 12 | 50 | 50/50 | 49/50 | 50/50 | 0 | 0 | 0 | 0 |
+| 11 | 50 | 50/50 | 50/50 | 50/50 | 0 | 0 | 0 | 0 |
+| 12 | 50 | 50/50 | 50/50 | 50/50 | 0 | 0 | 0 | 0 |
 | 13 | 50 | 50/50 | 50/50 | 50/50 | 0 | 0 | 0 | 0 |
-| 14 | 50 | 50/50 | 49/50 | 50/50 | 0 | 0 | 0 | 0 |
+| 14 | 50 | 50/50 | 50/50 | 50/50 | 0 | 0 | 0 | 0 |
 | 15 | 50 | 50/50 | 50/50 | 50/50 | 0 | 0 | 0 | 0 |
-| 16 | 50 | 50/50 | 49/50 | 50/50 | 0 | 0 | 0 | 0 |
+| 16 | 50 | 50/50 | 50/50 | 50/50 | 0 | 0 | 0 | 0 |
 | 17 | 50 | 50/50 | 50/50 | 50/50 | 0 | 0 | 0 | 0 |
-| 18 | 50 | 50/50 | 49/50 | 50/50 | 0 | 0 | 0 | 0 |
+| 18 | 50 | 50/50 | 50/50 | 50/50 | 0 | 0 | 0 | 0 |
 | 19 | 50 | 50/50 | 50/50 | 50/50 | 0 | 0 | 0 | 0 |
-| 20 | 50 | 50/50 | 46/50 | 50/50 | 0 | 0 | 0 | 0 |
-| 21 | 50 | 50/50 | 48/50 | 50/50 | 0 | 0 | 0 | 0 |
-| 22 | 50 | 50/50 | 48/50 | 50/50 | 0 | 0 | 0 | 0 |
-| 23 | 50 | 50/50 | 49/50 | 50/50 | 0 | 0 | 0 | 0 |
-| 24 | 50 | 50/50 | 48/50 | 50/50 | 0 | 0 | 0 | 0 |
+| 20 | 50 | 50/50 | 50/50 | 50/50 | 0 | 0 | 0 | 0 |
+| 21 | 50 | 50/50 | 50/50 | 50/50 | 0 | 0 | 0 | 0 |
+| 22 | 50 | 50/50 | 50/50 | 50/50 | 0 | 0 | 0 | 0 |
+| 23 | 50 | 50/50 | 50/50 | 50/50 | 0 | 0 | 0 | 0 |
+| 24 | 50 | 50/50 | 50/50 | 50/50 | 0 | 0 | 0 | 0 |
 | 25 | 50 | 50/50 | 50/50 | 50/50 | 0 | 0 | 0 | 0 |
+| 26 | 50 | 50/50 | 50/50 | 50/50 | 0 | 0 | 0 | 0 |
+| 27 | 50 | 50/50 | 50/50 | 50/50 | 0 | 0 | 0 | 0 |
+| 28 | 50 | 50/50 | 50/50 | 50/50 | 0 | 0 | 0 | 0 |
+| 29 | 50 | 50/50 | 50/50 | 50/50 | 0 | 0 | 0 | 0 |
+| 30 | 50 | 50/50 | 50/50 | 50/50 | 0 | 0 | 0 | 0 |
+| 31 | 50 | 50/50 | 50/50 | 50/50 | 0 | 0 | 0 | 0 |
+| 32 | 31 | 31/31 | 31/31 | 31/31 | 0 | 0 | 0 | 0 |
 
 ## TOTAL
 
 | Metric | Value |
 |---|---|
-| Groups applied | 19/26 |
-| Residual OWNER-review cards target | 1281 |
-| Target cards in this apply | 950 |
-| Applied | 950/950 |
-| Exact targetObject match | 950/950 |
+| Groups applied | 26/26 |
+| Residual OWNER-review cards | 1281/1281 |
+| Target cards requested | 1281 |
+| Applied | 1281/1281 |
+| Exact targetObject match | 1281/1281 |
 | CURRENT_VALUE_MISMATCH | 0 |
 | Diverged | 0 |
 | Missing | 0 |
 | Out-of-scope B1 changes | 0 |
 | DE changes | 0 |
+| Other-language changes | 0 |
+| Unexpected production changes | 0 |
 
 ## FINAL B1 REPAIR STATE
 
@@ -57,7 +62,7 @@ Groups not applied (spec files missing): **26, 27, 28, 29, 30, 31, 32**
 | Groups 01–06 OWNER findings | 1178 |
 | Residual findings | 3266 |
 | Residual OWNER-review cards | 1281/1281 |
-| Residual groups completed in this apply | 07–25 |
+| Residual groups completed | 07–32 |
 
 ## INTEGRITY
 
@@ -75,4 +80,4 @@ Groups not applied (spec files missing): **26, 27, 28, 29, 30, 31, 32**
 
 ## STATUS
 
-**PARTIAL — Groups 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25 applied; missing specs for 26, 27, 28, 29, 30, 31, 32**
+**CS–DE B1 GROUPS 07–32 APPLY — COMPLETE**

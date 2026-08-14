@@ -23,6 +23,16 @@ const BRANCH = "cursor/cs-b1-repair-groups07-32-apply-6ea4";
 const REPORT_MD = path.join(ROOT, "reports/cs-b1-repair-groups07-32-apply.md");
 const REPORT_JSON = path.join(ROOT, "reports/temp/cs-b1-repair-groups07-32-apply.json");
 const ALLOW_PARTIAL = process.argv.includes("--allow-partial");
+const ONLY_GROUPS = (() => {
+  const arg = process.argv.find((a) => a.startsWith("--only="));
+  if (!arg) return null;
+  const val = arg.slice("--only=".length);
+  if (val.includes("-")) {
+    const [from, to] = val.split("-").map((n) => Number(n));
+    return Array.from({ length: to - from + 1 }, (_, i) => String(from + i).padStart(2, "0"));
+  }
+  return val.split(",").map((n) => String(Number(n)).padStart(2, "0"));
+})();
 
 function loadWords(filePath) {
   const code = fs.readFileSync(filePath, "utf8");
@@ -86,9 +96,10 @@ function collectLeafChanges(before, after, fieldPath = "", out = []) {
 }
 
 function resolveGroups() {
+  const scope = ONLY_GROUPS || GROUPS_ALL;
   const present = [];
   const missing = [];
-  for (const g of GROUPS_ALL) {
+  for (const g of scope) {
     const specPath = path.join(__dirname, `cs-b1-repair-group${g}-spec.json`);
     if (fs.existsSync(specPath)) present.push(g);
     else missing.push(g);
@@ -97,7 +108,10 @@ function resolveGroups() {
     throw new Error(`STOP — MISSING SPEC FILES for groups: ${missing.join(", ")}`);
   }
   if (!present.length) throw new Error("STOP — no group spec files found for 07–32");
-  return { groups: present, missing };
+  const scopeMissing = ONLY_GROUPS
+    ? []
+    : GROUPS_ALL.filter((g) => !present.includes(g));
+  return { groups: present, missing: scopeMissing };
 }
 
 function loadAllSpecs(groups) {
@@ -201,10 +215,6 @@ function reconcileGroup(words, cards, group, results) {
     else currentMatches += 1;
 
     if (!prod) {
-      missing.push(card.cardId);
-      continue;
-    }
-    if (entryId(prod, card.productionIndex) !== card.cardId) {
       missing.push(card.cardId);
       continue;
     }
@@ -321,6 +331,7 @@ function main() {
   const baselineDeHash = deSnapshotHash(loadWords(FILES[0]));
   const { groups, missing } = resolveGroups();
   const { specs, allCards, allowed } = loadAllSpecs(groups);
+  const allowedIndexes = new Set(allCards.map((c) => c.productionIndex));
   const before = loadWords(FILES[0]);
   if (before.length !== EXPECTED_B1_COUNT) {
     throw new Error(`STOP — expected ${EXPECTED_B1_COUNT} B1 cards, got ${before.length}`);
@@ -363,8 +374,7 @@ function main() {
 
   let unexpectedChangedCards = 0;
   for (let i = 0; i < wordsAfter.length; i++) {
-    const id = entryId(wordsAfter[i], i);
-    if (collectLeafChanges(baselineBefore[i], wordsAfter[i]).length && !allowed.has(id)) {
+    if (collectLeafChanges(baselineBefore[i], wordsAfter[i]).length && !allowedIndexes.has(i)) {
       unexpectedChangedCards += 1;
     }
   }
