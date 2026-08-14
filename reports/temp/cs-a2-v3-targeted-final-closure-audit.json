@@ -9,7 +9,8 @@
     "v3BaselineSha": "aaa4adae4b7a6af0564c311395d82256ebede389",
     "readOnly": true,
     "productionChangesDuringAudit": 0,
-    "previousFullCoverage": "V2 1640/1640"
+    "previousFullCoverage": "V2 1640/1640",
+    "auditCommit": "6628d4a3"
   },
   "summary": {
     "v3ExactMatch": "115/115",
