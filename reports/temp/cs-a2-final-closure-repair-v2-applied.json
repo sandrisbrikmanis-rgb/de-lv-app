@@ -1,0 +1,981 @@
+{
+  "baselineSha": "19672fb7107447b91b9958bf47be9f16255b7042",
+  "applySha": null,
+  "summary": {
+    "specifications": 3,
+    "targets": 149,
+    "found": 149,
+    "exactTargetMatches": 149,
+    "diverged": 0,
+    "missing": 0,
+    "duplicateTargetIds": 0,
+    "appliedCards": 125,
+    "alreadyTargetCards": 24,
+    "actualChangedLeafValues": 302,
+    "unexpectedChangedCards": 0,
+    "unexpectedChangedValues": 0,
+    "deChanges": 0,
+    "a2Total": 1640,
+    "syntax": "PASS",
+    "importLoad": "PASS",
+    "idUniqueness": "PASS",
+    "idOrder": "PASS",
+    "structure": "PASS",
+    "studyStructure": "PASS",
+    "sectionAccentsStructure": "PASS",
+    "deReadOnly": "PASS",
+    "overall": "PASS",
+    "changedTargetCards": 125,
+    "baselineA2Hash": "7977235692b7523c342306fae07b22a9e4f1004555afd524e44e767f92f7245b",
+    "finalA2Hash": "56634de9e55cbe96cbad55c54034bf6faf94f6c47ce7105da4d004e654550a3f",
+    "baselineDeHash": "4307fd1ec333206de6c59ea86f02ea897759c50a8c3d429fc32584f3c25a2319",
+    "finalDeHash": "4307fd1ec333206de6c59ea86f02ea897759c50a8c3d429fc32584f3c25a2319",
+    "baselineIdSequenceMatch": "PASS"
+  },
+  "groupResults": {
+    "01": {
+      "group": "01",
+      "requested": 50,
+      "found": 50,
+      "exact": 50,
+      "diverged": 0,
+      "missing": 0,
+      "divergedCards": [],
+      "missingCards": []
+    },
+    "02": {
+      "group": "02",
+      "requested": 50,
+      "found": 50,
+      "exact": 50,
+      "diverged": 0,
+      "missing": 0,
+      "divergedCards": [],
+      "missingCards": []
+    },
+    "03": {
+      "group": "03",
+      "requested": 49,
+      "found": 49,
+      "exact": 49,
+      "diverged": 0,
+      "missing": 0,
+      "divergedCards": [],
+      "missingCards": []
+    }
+  },
+  "specs": [
+    {
+      "group": "01",
+      "specPath": "scripts/cs-a2-final-closure-repair-v2-group01-spec.json",
+      "cardCount": 50
+    },
+    {
+      "group": "02",
+      "specPath": "scripts/cs-a2-final-closure-repair-v2-group02-spec.json",
+      "cardCount": 50
+    },
+    {
+      "group": "03",
+      "specPath": "scripts/cs-a2-final-closure-repair-v2-group03-spec.json",
+      "cardCount": 49
+    }
+  ],
+  "divergedCards": [],
+  "results": [
+    {
+      "group": "01",
+      "productionIndex": 2,
+      "cardId": "a2-abfahren",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 5,
+      "cardId": "a2-abgeben",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 8,
+      "cardId": "a2-holen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 16,
+      "cardId": "a2-abstellen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 42,
+      "cardId": "a2-angreifen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 44,
+      "cardId": "a2-anhänger",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 45,
+      "cardId": "a2-anheizen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 55,
+      "cardId": "a2-anlegen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 57,
+      "cardId": "a2-anmelden",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 63,
+      "cardId": "a2-anstecken",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 65,
+      "cardId": "a2-anstellen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 83,
+      "cardId": "a2-ärgerlich-83",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 88,
+      "cardId": "a2-art",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 90,
+      "cardId": "a2-artikel",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 106,
+      "cardId": "a2-Aufbau-106",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 107,
+      "cardId": "a2-aufbrechen-107",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 118,
+      "cardId": "a2-aufheben",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 127,
+      "cardId": "a2-auflage",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 132,
+      "cardId": "a2-aufnahme",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 133,
+      "cardId": "a2-aufnehmen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 138,
+      "cardId": "a2-aufrichtig",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 139,
+      "cardId": "a2-aufrufen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 146,
+      "cardId": "a2-auftragen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 147,
+      "cardId": "a2-auftreten",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 149,
+      "cardId": "a2-aufwenden",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 150,
+      "cardId": "a2-aufzeichnen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 159,
+      "cardId": "a2-aussteigen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 165,
+      "cardId": "a2-auswählen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 169,
+      "cardId": "a2-ausziehen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 187,
+      "cardId": "a2-bahn",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 192,
+      "cardId": "a2-Ballon-192",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 193,
+      "cardId": "a2-band",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 194,
+      "cardId": "a2-bank",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 206,
+      "cardId": "a2-bauen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 207,
+      "cardId": "a2-bauer",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 211,
+      "cardId": "a2-becher",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 213,
+      "cardId": "a2-bedienen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 214,
+      "cardId": "a2-bedienung",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 221,
+      "cardId": "a2-behalten",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 244,
+      "cardId": "a2-bestimmt",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 255,
+      "cardId": "a2-birne",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 272,
+      "cardId": "a2-boden",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 276,
+      "cardId": "a2-borgen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 277,
+      "cardId": "a2-böse",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 285,
+      "cardId": "a2-brav",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 289,
+      "cardId": "a2-brennen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 315,
+      "cardId": "a2-dabei",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 321,
+      "cardId": "a2-damit",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 323,
+      "cardId": "study-der-dank",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 325,
+      "cardId": "a2-darüber",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 329,
+      "cardId": "a2-davor",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 330,
+      "cardId": "a2-dazu",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 331,
+      "cardId": "a2-decke",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 334,
+      "cardId": "a2-denn",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 340,
+      "cardId": "a2-deutlich-340",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 341,
+      "cardId": "a2-dick",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 360,
+      "cardId": "a2-drücken",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 364,
+      "cardId": "a2-dünn",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 365,
+      "cardId": "a2-durch",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 369,
+      "cardId": "a2-eben",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 378,
+      "cardId": "a2-eigentlich",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 387,
+      "cardId": "a2-einladen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 391,
+      "cardId": "a2-einschalten",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 394,
+      "cardId": "a2-einsteigen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 410,
+      "cardId": "a2-eng",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 439,
+      "cardId": "a2-etwa",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 444,
+      "cardId": "a2-fach",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 455,
+      "cardId": "a2-fall",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 467,
+      "cardId": "a2-fehlen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 479,
+      "cardId": "a2-fertig / bereit-479",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 481,
+      "cardId": "a2-fest",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 496,
+      "cardId": "a2-Flaschenöffner-496",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 570,
+      "cardId": "a2-gegenüber",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 572,
+      "cardId": "a2-gehören",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 576,
+      "cardId": "a2-genau",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 595,
+      "cardId": "a2-gießen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 607,
+      "cardId": "a2-grund",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 621,
+      "cardId": "a2-Hähnchen-621",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 632,
+      "cardId": "a2-hängen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 755,
+      "cardId": "a2-kamm",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 783,
+      "cardId": "a2-kaum",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 788,
+      "cardId": "a2-kennen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 796,
+      "cardId": "a2-kinderfunk",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 806,
+      "cardId": "a2-klar",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 808,
+      "cardId": "a2-kleben",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 810,
+      "cardId": "a2-kleiden",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 840,
+      "cardId": "a2-kraft",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 855,
+      "cardId": "a2-kurz",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 877,
+      "cardId": "a2-leiden",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 880,
+      "cardId": "a2-leiter",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 881,
+      "cardId": "a2-leitung",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 889,
+      "cardId": "a2-liegen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 890,
+      "cardId": "a2-legen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 955,
+      "cardId": "a2-Mode-955",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 1004,
+      "cardId": "a2-nervös-1004",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 1019,
+      "cardId": "a2-note",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 1029,
+      "cardId": "a2-nutzen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 1054,
+      "cardId": "a2-Pappbecher-1054",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 1062,
+      "cardId": "a2-passieren",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 1124,
+      "cardId": "a2-rasen-study",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1126,
+      "cardId": "a2-raten",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1144,
+      "cardId": "a2-reichen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1165,
+      "cardId": "a2-riechen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1172,
+      "cardId": "a2-rolle",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1188,
+      "cardId": "a2-Saison-1188",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1190,
+      "cardId": "a2-sammeln",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1194,
+      "cardId": "a2-satz",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1205,
+      "cardId": "a2-schalten",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1217,
+      "cardId": "a2-scheinen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1229,
+      "cardId": "a2-schlange",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1230,
+      "cardId": "a2-schließen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1256,
+      "cardId": "a2-schuld",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1266,
+      "cardId": "a2-schwer",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1275,
+      "cardId": "a2-Sekretär-1275",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1291,
+      "cardId": "a2-sich-befinden",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1305,
+      "cardId": "a2-sich-unterhalten",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1320,
+      "cardId": "a2-sitzen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1321,
+      "cardId": "a2-setzen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1325,
+      "cardId": "a2-sobald",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1336,
+      "cardId": "a2-sonst",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1362,
+      "cardId": "a2-Stadion-1362",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1373,
+      "cardId": "a2-stehen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1378,
+      "cardId": "a2-steigen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1388,
+      "cardId": "a2-stimmen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1392,
+      "cardId": "a2-stoff",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1416,
+      "cardId": "a2-tafel",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1421,
+      "cardId": "a2-Tannenbaum-1421",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1431,
+      "cardId": "a2-teil",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1438,
+      "cardId": "a2-termin",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1443,
+      "cardId": "a2-tief",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1449,
+      "cardId": "a2-toll",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1458,
+      "cardId": "a2-tragen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1469,
+      "cardId": "a2-treffen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1488,
+      "cardId": "a2-übrig",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1492,
+      "cardId": "a2-umsonst",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1509,
+      "cardId": "a2-urlaub-study",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1529,
+      "cardId": "a2-viertel",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1544,
+      "cardId": "a2-vorstellen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1548,
+      "cardId": "a2-wach-1548",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1550,
+      "cardId": "a2-wagen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1551,
+      "cardId": "a2-wählen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1553,
+      "cardId": "a2-während",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1555,
+      "cardId": "a2-wahrscheinlich",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1583,
+      "cardId": "a2-wert",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1589,
+      "cardId": "a2-wiegen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1594,
+      "cardId": "a2-willkommen-1594",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1614,
+      "cardId": "a2-zunehmen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1618,
+      "cardId": "a2-zurzeit",
+      "status": "APPLIED"
+    },
+    {
+      "group": "03",
+      "productionIndex": 1624,
+      "cardId": "a2-ansehen",
+      "status": "APPLIED"
+    }
+  ]
+}
