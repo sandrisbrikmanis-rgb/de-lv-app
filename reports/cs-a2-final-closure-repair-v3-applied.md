@@ -2,7 +2,7 @@
 
 Branch: `cursor/cs-a2-final-closure-repair-v3-groups01-03-6ea4`
 Baseline SHA: `aaa4adae4b7a6af0564c311395d82256ebede389`
-Apply SHA: `(pending commit)`
+Apply SHA: `b2b08279`
 Generated: 2026-08-14T17:11:48.419Z
 
 ## GROUP RECONCILIATION
