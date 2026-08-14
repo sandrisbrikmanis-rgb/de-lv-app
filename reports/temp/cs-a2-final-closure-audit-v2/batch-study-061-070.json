@@ -1,0 +1,113 @@
+{
+  "dataset": "a2",
+  "batch": "study-061-070",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-darüber",
+    "a2-darum",
+    "a2-davon",
+    "a2-davor",
+    "a2-dazu",
+    "a2-decke",
+    "a2-denn",
+    "a2-dick",
+    "a2-doch",
+    "a2-doktor"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-davor",
+      "field": "study.comparison[3].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "darauf",
+      "lvSource": "uz to / pēc tam",
+      "currentCs": "Na tom / po tom",
+      "proposedCs": "Na to / potom",
+      "reason": "Běžné významy darauf jsou „na to“ a „potom“; „na tom“ zde význam zkresluje.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-davor",
+      "field": "study.comparison[3].example",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Ich warte darauf. = Těším se na to.",
+      "lvSource": "Ich warte darauf. = Es gaidu uz to.",
+      "currentCs": "Ich warte darauf. = Těším se na to.",
+      "proposedCs": "Ich warte darauf. = Čekám na to.",
+      "reason": "Warten znamená „čekat“, nikoli „těšit se“; jde o záměnu slovesa.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-doch",
+      "field": "study.explanation",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "doch",
+      "lvSource": "Galvenā doma: doch palīdz izteikt pretstatu, iebildumu vai sarunvalodas pastiprinājumu. doch ir viens no svarīgākajiem vācu sarunvalodas vārdiem. Tas var nozīmēt “tomēr” vai “taču”, ja runā pretī iepriekšējai domai. Atbildēs doch bieži nozīmē pretēju atbildi uz noliedzošu jautājumu. Sarunvalodā doch var pastiprināt lūgumu vai mudinājumu. Daudzos teikumos doch netulko burtiski, bet tas maina teikuma noskaņu.",
+      "currentCs": "Hlavní myšlenka: doch pomáhá vyjádřit kontrast, námitku nebo hovorové posílení. doch je jedním z nejdůležitějších slov v německém hovorovém jazyce. Může to znamenat „nicméně“ nebo „ale“, když mluvíme proti předchozí myšlence. V odpovědích doch často znamená opačnou odpověď na negativní otázku. Hovorově může doch posílit žádost nebo nutkání. V mnoha větách se doch nepřekládá doslovně, ale mění náladu věty.",
+      "proposedCs": "Hlavní myšlenka: doch pomáhá vyjádřit kontrast, námitku nebo hovorové posílení. doch je jedním z nejdůležitějších slov v německém hovorovém jazyce. Může to znamenat „nicméně“ nebo „ale“, když mluvíme proti předchozí myšlence. V odpovědích doch často znamená opačnou odpověď na negativní otázku. Hovorově může doch posílit žádost nebo pobídku. V mnoha větách se doch nepřekládá doslovně, ale mění náladu věty.",
+      "reason": "„Nutkání“ znamená urge/compulsion; německé Aufforderung je zde přirozeně „pobídka“ nebo „výzva“.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-doch",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Sprich doch!",
+      "lvSource": "runā taču! / Runājiet jel!",
+      "currentCs": "Ale mluv! / Mluvte!",
+      "proposedCs": "Ale mluv!",
+      "reason": "Německé Sprich je rozkazovací způsob pro jednotné číslo; „Mluvte!“ neoprávněně mění osobu.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-doch",
+      "field": "study.comparison[0].meaning",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "doch",
+      "lvSource": "taču / tomēr / gan / jel",
+      "currentCs": "Však / přece / přesto / jen",
+      "proposedCs": "Však / přece / přesto / jel",
+      "reason": "„Jen“ není přesný obecný ekvivalent částice doch; pro pobídku je vhodnější „jel“.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-doktor",
+      "field": "study.comparison[0].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "der Doktor",
+      "lvSource": "doktors / sarunvalodā ārsts",
+      "currentCs": "Lékař / hovorově lékař",
+      "proposedCs": "Doktor / hovorově lékař",
+      "reason": "Význam der Doktor zahrnuje akademický titul; současný překlad jej nahrazuje pouze významem „lékař“.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-doktor",
+      "field": "study.comparison[1].example",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Der Arzt hilft mir. = Doktor mi pomáhá.",
+      "lvSource": "Der Arzt hilft mir. = Ārsts man palīdz.",
+      "currentCs": "Der Arzt hilft mir. = Doktor mi pomáhá.",
+      "proposedCs": "Der Arzt hilft mir. = Lékař mi pomáhá.",
+      "reason": "Arzt znamená „lékař“, zatímco „doktor“ označuje titul nebo hovorové pojmenování.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 7,
+  "completedAt": "2026-08-14T16:49:03.418Z"
+}

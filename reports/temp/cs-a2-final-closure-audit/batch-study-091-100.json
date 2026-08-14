@@ -1,0 +1,48 @@
+{
+  "dataset": "a2",
+  "batch": "study-091-100",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-feuer",
+    "a2-folgen",
+    "a2-führen",
+    "a2-gang",
+    "a2-gar",
+    "a2-gegenüber",
+    "a2-gehören",
+    "a2-genau",
+    "a2-gerade",
+    "a2-geschäft"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-gehören",
+      "field": "study.explanation",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "gehören",
+      "lvSource": "gehören visbiežāk nozīmē piederēt. Tas var nozīmēt arī iederēties kādā vietā vai grupā. Konstrukcija gehören zu nozīmē piederēt pie kaut kā vai būt daļai no kaut kā. Dažos teikumos gehören nozīmē pieklāties vai būt vajadzīgam. Nozīmi nosaka konstrukcija un konteksts.",
+      "currentCs": "V některých větách gehören sich znamená být vhodné nebo slušet se.",
+      "proposedCs": "V některých větách výraz sich gehören znamená „slušet se“ nebo „být vhodné“.",
+      "reason": "Ustálené německé spojení je sich gehören, ne gehören sich; současná formulace učí chybný slovosled.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-genau",
+      "field": "study.comparison[0].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "genau",
+      "lvSource": "precīzs / tieši / precīzi",
+      "currentCs": "Přesný / přímo / přesně",
+      "proposedCs": "Přesný / právě / přesně",
+      "reason": "Příslovce genau zde znamená „právě“ nebo „přesně“, nikoli obecně „přímo“, které označuje jiný významový odstín.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 8,
+  "completedAt": "2026-08-14T15:48:41.869Z"
+}

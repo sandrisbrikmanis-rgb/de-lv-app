@@ -1,0 +1,35 @@
+{
+  "dataset": "a2",
+  "batch": "study-151-160",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-offen",
+    "a2-passieren",
+    "a2-patient",
+    "a2-personal",
+    "a2-pflaster",
+    "a2-rad",
+    "a2-rasen-study",
+    "a2-raten",
+    "a2-rechnen",
+    "a2-reichen"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-rasen-study",
+      "field": "study.explanation[1]",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Rasen",
+      "lvSource": "rasen ar mazo burtu ir darbības vārds — joņot, traukties ļoti ātri.",
+      "currentCs": "Rasen je sloveso s malým písmenem - spěchat, spěchat velmi rychle.",
+      "proposedCs": "Sloveso rasen se píše s malým písmenem a znamená řítit se nebo uhánět.",
+      "reason": "Sloveso rasen znamená „řítit se/uhánět“, ne jen spěchat; věta navíc opakuje „spěchat“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 9,
+  "completedAt": "2026-08-14T16:53:42.389Z"
+}

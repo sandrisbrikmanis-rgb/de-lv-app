@@ -1,0 +1,21 @@
+{
+  "dataset": "a2",
+  "batch": "study-221-230",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-hoch",
+    "a2-klein",
+    "a2-leise",
+    "a2-schon",
+    "a2-noch",
+    "a2-erst",
+    "a2-nur",
+    "a2-ueber",
+    "a2-drin-drinnen",
+    "a2-gleich"
+  ],
+  "findings": [],
+  "passCount": 10,
+  "completedAt": "2026-08-14T15:56:12.392Z"
+}

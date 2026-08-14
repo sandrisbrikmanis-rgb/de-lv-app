@@ -1,0 +1,113 @@
+{
+  "dataset": "a2",
+  "batch": "study-131-140",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-kleiden",
+    "a2-körper",
+    "a2-kraft",
+    "a2-kurz",
+    "a2-lage",
+    "a2-leiden",
+    "a2-leihen",
+    "a2-leiter",
+    "a2-leitung",
+    "a2-liegen"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-kleiden",
+      "field": "study.comparison[2].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "kleidet jemanden",
+      "lvSource": "piestāv kādam",
+      "currentCs": "Obléká někoho",
+      "proposedCs": "Slušet někomu",
+      "reason": "Význam odporuje příkladu „Die Farbe kleidet dich“, kde kleiden znamená slušet, nikoli oblékat.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-kraft",
+      "field": "study.examples[0].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Ich habe keine Kraft.",
+      "lvSource": "man nav spēka.",
+      "currentCs": "Nemám sílu",
+      "proposedCs": "Nemám sílu.",
+      "reason": "Samostatná česká příkladová věta postrádá koncovou tečku.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-leiden",
+      "field": "study.explanation[2]",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "unter etwas leiden",
+      "lvSource": "ciest no apstākļiem",
+      "currentCs": "S unter + co? znamená to trpět za nějakých okolností nebo problémů.",
+      "proposedCs": "S unter + 3. pádem znamená trpět vlivem nějakých okolností nebo problémů.",
+      "reason": "Věta je gramaticky i stylisticky nepřirozená; „za problémů“ zde není vhodná vazba.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-leiden",
+      "field": "study.comparison[1].meaning",
+      "severity": "LOW",
+      "category": "STUDY",
+      "de": "an etwas leiden",
+      "lvSource": "slimot ar / ciest no",
+      "currentCs": "Trpět / trpět",
+      "proposedCs": "Trpět nemocí",
+      "reason": "Duplicitní překlad neposkytuje studentovi význam vazby an etwas leiden.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-leiter",
+      "field": "study.explanation[0]",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Leiter",
+      "lvSource": "vadītājs • pieslienamās kāpnes",
+      "currentCs": "Hlavní myšlenka: Leiter je homonymum – znamená vůdce nebo žebřík, v závislosti na rodině.",
+      "proposedCs": "Hlavní myšlenka: Leiter je homonymum – podle rodu znamená vedoucího nebo žebřík.",
+      "reason": "„V závislosti na rodině“ je chybná formulace; význam se rozlišuje podle gramatického rodu.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-leitung",
+      "field": "study.examples[0].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Das Projekt steht unter der Leitung von Frau Müller.",
+      "lvSource": "projekts ir Milleres kundzes vadībā.",
+      "currentCs": "Projekt řídí paní Millerová.",
+      "proposedCs": "Projekt je pod vedením paní Müllerové.",
+      "reason": "Český text přebírá chybnou podobu příjmení Millerová; německý zdroj uvádí Frau Müller.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-liegen",
+      "field": "study.explanation[0]",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "liegen",
+      "lvSource": "Stāvoklis: kaut kas jau atrodas guļus vai horizontāli.",
+      "currentCs": "Hlavní myšlenka: Stav: Něco, co už leží nebo leží vodorovně.",
+      "proposedCs": "Hlavní myšlenka: liegen označuje stav – něco už leží nebo se nachází ve vodorovné poloze.",
+      "reason": "Původní formulace je fragmentární a opakuje sloveso bez přirozené větné stavby.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 4,
+  "completedAt": "2026-08-14T15:51:05.163Z"
+}

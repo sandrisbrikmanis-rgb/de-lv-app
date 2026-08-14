@@ -1,0 +1,113 @@
+{
+  "dataset": "a2",
+  "batch": "study-041-050",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-bedienen",
+    "a2-bedienung",
+    "a2-behalten",
+    "a2-beinahe",
+    "a2-bekannt",
+    "a2-bestellen",
+    "a2-bestimmt",
+    "a2-birne",
+    "a2-bitte-study",
+    "a2-bitter"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-bedienen",
+      "field": "study.sectionAccents.comparison[4].meaning",
+      "severity": "LOW",
+      "category": "TRANSLATION",
+      "de": "steuern",
+      "lvSource": "vadīt",
+      "currentCs": "Vést",
+      "proposedCs": "Řídit",
+      "reason": "V tomto významovém srovnání steuern znamená řídit, ne vést.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-behalten",
+      "field": "study.comparison[3].meaning",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "erinnern",
+      "lvSource": "atcerēties / atgādināt",
+      "currentCs": "Pamatovat / připomínat",
+      "proposedCs": "Pamatovat si / připomínat",
+      "reason": "Pamatovat bez zvratného zájmena neodpovídá významu „erinnern sich“ = pamatovat si.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-bekannt",
+      "field": "study.sectionAccents.examples[0].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "bekannter Schauspieler",
+      "lvSource": "pazīstams aktieris",
+      "currentCs": "slavný",
+      "proposedCs": "známý",
+      "reason": "bekannt zde znamená známý; slavný odpovídá spíše německému berühmt.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-bestimmt",
+      "field": "study.comparison[4].meaning",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "wahrscheinlich",
+      "lvSource": "droši vien / iespējams",
+      "currentCs": "Pravděpodobně / možná",
+      "proposedCs": "Pravděpodobně",
+      "reason": "wahrscheinlich znamená pravděpodobně; možná vyjadřuje slabší nejistotu a není přesným ekvivalentem.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-birne",
+      "field": "study.comparison[0].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "die Birne",
+      "lvSource": "bumbieris / spuldze",
+      "currentCs": "Hruška / Hruška",
+      "proposedCs": "Hruška / žárovka",
+      "reason": "Srovnání uvádí jen význam hruška a opomíjí druhý význam Birne = žárovka.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-birne",
+      "field": "study.comparison[2].example",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Die Lampe ist hell.",
+      "lvSource": "Lampa ir spoža.",
+      "currentCs": "Die Lampe ist hell. = Lampa je jasná.",
+      "proposedCs": "Die Lampe ist hell. = Lampa svítí jasně.",
+      "reason": "Lampa je jasná je v češtině nepřirozené; pro světlo se běžně říká, že lampa jasně svítí.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-bitter",
+      "field": "study.important.text",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "bitter kalt",
+      "lvSource": "ļoti ass aukstums",
+      "currentCs": "bitter kalt = mrazivý chlad nebo velmi studený.",
+      "proposedCs": "Bitter kalt znamená „mrazivě studený“.",
+      "reason": "Současná formulace je gramaticky i významově neobratný fragment; mísí přídavné jméno se jmenným spojením.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 4,
+  "completedAt": "2026-08-14T16:47:51.319Z"
+}

@@ -1,0 +1,100 @@
+{
+  "dataset": "a2",
+  "batch": "study-041-050",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-bedienen",
+    "a2-bedienung",
+    "a2-behalten",
+    "a2-beinahe",
+    "a2-bekannt",
+    "a2-bestellen",
+    "a2-bestimmt",
+    "a2-birne",
+    "a2-bitte-study",
+    "a2-bitter"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-bedienen",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Die Verkäuferin bedient einen Kunden.",
+      "lvSource": "pārdevēja apkalpo klientu.",
+      "currentCs": "Prodejce obsluhuje zákazníka.",
+      "proposedCs": "Prodavačka obsluhuje zákazníka.",
+      "reason": "Německý podmět Verkäuferin je ženského rodu; české Prodejce označuje muže.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-bedienung",
+      "field": "study.comparison[0].meaning",
+      "severity": "LOW",
+      "category": "STUDY",
+      "de": "die Bedienung",
+      "lvSource": "apkalpošana / apkalpotājs",
+      "currentCs": "Obsluha / obsluha",
+      "proposedCs": "Obsluha / obsluhující osoba",
+      "reason": "Stejný český ekvivalent nerozlišuje význam služby a osoby, která obsluhuje.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-behalten",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "behalten",
+      "lvSource": "paturēt • atcerēties",
+      "currentCs": "Ponechat",
+      "proposedCs": "Ponechat si • pamatovat si",
+      "reason": "Ponechat bez si nevystihuje význam držet si něco; hlavní význam zahrnuje i pamatování.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-bestimmt",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "bestimmt",
+      "lvSource": "noteikti",
+      "currentCs": "Určitě",
+      "proposedCs": "Určitě • určitý",
+      "reason": "Český překlad pokrývá jen příslovečný význam, ale německé bestimmt je také přídavné jméno „určitý/konkrétní“.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-bestimmt",
+      "field": "study.examples[4].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Sie hat bestimmt viel Arbeit.",
+      "lvSource": "viņai noteikti ir daudz darba.",
+      "currentCs": "Musí mít hodně práce.",
+      "proposedCs": "Určitě má hodně práce.",
+      "reason": "Musí mít vyjadřuje nutný závěr, zatímco bestimmt zde znamená určitě nebo jistě.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-birne",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Birne",
+      "lvSource": "bumbieris • spuldze",
+      "currentCs": "Hruška",
+      "proposedCs": "Hruška • žárovka",
+      "reason": "Německé Birne má v běžném použití dva odlišné významy; český hlavní překlad uvádí jen jeden.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 5,
+  "completedAt": "2026-08-14T15:45:36.611Z"
+}

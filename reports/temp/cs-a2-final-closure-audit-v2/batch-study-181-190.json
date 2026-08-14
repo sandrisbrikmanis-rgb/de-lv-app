@@ -1,0 +1,87 @@
+{
+  "dataset": "a2",
+  "batch": "study-181-190",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-steigen",
+    "a2-stelle",
+    "a2-stimmen",
+    "a2-stoff",
+    "a2-tafel",
+    "a2-teil",
+    "a2-termin",
+    "a2-tief",
+    "a2-toll",
+    "a2-tragen"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-steigen",
+      "field": "study.comparison[0].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "steigen",
+      "lvSource": "kāpt / celties / paaugstināties",
+      "currentCs": "Stoupat / stoupat / stoupat",
+      "proposedCs": "Stoupat / zvedat se / zvyšovat se",
+      "reason": "Tři uvedené české významy jsou identické a nerozlišují stoupat, zvedat se a zvyšovat se.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-stelle",
+      "field": "study.explanation",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Stelle",
+      "lvSource": "die Stelle var nozīmēt konkrētu vietu telpā.",
+      "currentCs": "Die Stelle může znamenat konkrétní místo v místnosti. V kontextu práce znamená Stelle pracoviště nebo pozici. V textu může znamenat pasáž nebo konkrétní místo v textu. V kontextu těla nebo zranění Stelle znamená místo na těle. Fráze an dieser Stelle znamená „na tomto místě“.",
+      "proposedCs": "Slovo Stelle může znamenat konkrétní místo v místnosti. V kontextu práce znamená Stelle pracoviště nebo pozici. V textu může znamenat pasáž nebo konkrétní místo v textu. V kontextu těla nebo zranění Stelle znamená místo na těle. Fráze an dieser Stelle znamená „na tomto místě“.",
+      "reason": "Výklad začíná německým členem a působí jako neúplně přeložená věta; „Slovo Stelle“ je v češtině přirozené.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-termin",
+      "field": "study.important.example",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Termin",
+      "lvSource": "einen Termin beim Arzt haben = būt pierakstam pie ārsta.",
+      "currentCs": "Einen Termin beim Arzt haben = mít termín u lékaře. ein Treffen haben = mít schůzku. eine Frist haben = mít lhůtu.",
+      "proposedCs": "Einen Termin beim Arzt haben = mít schůzku u lékaře. ein Treffen haben = mít schůzku. eine Frist haben = mít lhůtu.",
+      "reason": "V češtině se u lékaře běžně říká „mít schůzku“ nebo „mít termín“, ale „mít termín u lékaře“ je méně přirozené.",
+      "confidence": "MEDIUM",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-toll",
+      "field": "study.tip[1]",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "toll",
+      "lvSource": "Nejauc s verrückt (traks) — toll mūsdienās gandrīz netiek lietots šajā nozīmē.",
+      "currentCs": "Nezaměňovat s verrückt (bláznivý) – mýtné se dnes v tomto smyslu téměř nepoužívá.",
+      "proposedCs": "Nezaměňovat s verrückt (bláznivý) – toll se dnes v tomto smyslu téměř nepoužívá.",
+      "reason": "„Mýtné“ je český překlad anglického toll, nikoli staršího významu německého toll.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-toll",
+      "field": "study.important[1]",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "toll",
+      "lvSource": "Nepareizi: toll = traks (mūsdienu nozīmē) → Pareizi: verrückt = traks.",
+      "currentCs": "Nesprávně: toll = „blázen“ (starší význam) → Správně: verrückt = „blázen“.",
+      "proposedCs": "Nesprávně: toll = „bláznivý“ (starší význam) → Správně: verrückt = „bláznivý“.",
+      "reason": "„Blázen“ je podstatné jméno, zatímco německá přídavná jména toll a verrückt zde znamenají „bláznivý“ nebo „šílený“.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 6,
+  "completedAt": "2026-08-14T16:55:25.571Z"
+}

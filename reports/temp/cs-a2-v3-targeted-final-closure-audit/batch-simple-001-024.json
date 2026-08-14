@@ -1,0 +1,31 @@
+{
+  "batch": "simple-001-024",
+  "cardIds": [
+    "a2-Anlass-53",
+    "a2-Anmeldung-58",
+    "a2-anordnen-60",
+    "a2-Anordnung-61",
+    "a2-anstreichen-66",
+    "a2-ärgerlich-83",
+    "a2-aufbrechen-107",
+    "a2-aufspringen-142",
+    "a2-aufziehen-151",
+    "a2-auswendig-168",
+    "a2-Ballon-192",
+    "a2-fertig / bereit-479",
+    "a2-Fliege-499",
+    "a2-Freibad-518",
+    "a2-Geschmack-585",
+    "a2-Jackett-723",
+    "a2-Mode-955",
+    "a2-nervös-1004",
+    "a2-Öl-1039",
+    "a2-Reich-1143",
+    "a2-Saison-1188",
+    "a2-Stadion-1362",
+    "a2-Tannenbaum-1421",
+    "a2-vorbei-1535"
+  ],
+  "findings": [],
+  "passCount": 24
+}

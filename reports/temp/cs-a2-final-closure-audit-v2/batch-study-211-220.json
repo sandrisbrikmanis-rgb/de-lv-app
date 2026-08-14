@@ -1,0 +1,21 @@
+{
+  "dataset": "a2",
+  "batch": "study-211-220",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-zunehmen",
+    "a2-zurzeit",
+    "a2-zwilling",
+    "a2-sehen",
+    "a2-schauen",
+    "a2-ansehen",
+    "a2-hoeren",
+    "a2-sagen",
+    "a2-sprechen",
+    "a2-gross"
+  ],
+  "findings": [],
+  "passCount": 10,
+  "completedAt": "2026-08-14T16:56:20.759Z"
+}

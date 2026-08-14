@@ -1,0 +1,17 @@
+{
+  "batch": "study-081-090",
+  "cardIds": [
+    "a2-termin",
+    "a2-tief",
+    "a2-toll",
+    "a2-tragen",
+    "a2-treffen",
+    "a2-umsonst",
+    "a2-wagen",
+    "a2-wahrscheinlich",
+    "a2-wiegen",
+    "a2-zurzeit"
+  ],
+  "findings": [],
+  "passCount": 10
+}

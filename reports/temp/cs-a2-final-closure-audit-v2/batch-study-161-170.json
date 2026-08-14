@@ -1,0 +1,113 @@
+{
+  "dataset": "a2",
+  "batch": "study-161-170",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-riechen",
+    "a2-rolle",
+    "a2-sammeln",
+    "a2-satz",
+    "a2-schalten",
+    "a2-scharf",
+    "a2-scheinen",
+    "a2-schlange",
+    "a2-schließen",
+    "a2-schloss"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-scharf",
+      "field": "study.sectionAccents.examples[4].lv.purple[0]",
+      "severity": "LOW",
+      "category": "GRAMMAR",
+      "de": "Ich esse gern scharf.",
+      "lvSource": "man patīk ēst pikantu ēdienu.",
+      "currentCs": "Ráda",
+      "proposedCs": "Rád",
+      "reason": "Accent text uses feminine Ráda, but the Czech example consistently has masculine speaker: Rád jím pikantní jídla.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-schlange",
+      "field": "study.explanation",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Die Schlange bedeutet eine Schlange oder eine Warteschlange.",
+      "lvSource": "die Schlange nozīmē čūsku kā dzīvnieku. Ikdienā tas ļoti bieži nozīmē arī rindu.",
+      "currentCs": "Die Schlange znamená had jako zvíře. V běžném životě to také velmi často znamená frontu, kde lidé čekají. Fráze in der Schlange stehen znamená stát ve frontě. Kontext obvykle okamžitě ukazuje význam: les a zvíře nebo obchod a lidé. Oba významy jsou důležité pro každodenní jazyk A2.",
+      "proposedCs": "Die Schlange znamená hada jako zvíře. V běžném životě to také velmi často znamená frontu, kde lidé čekají. Fráze in der Schlange stehen znamená stát ve frontě. Kontext obvykle okamžitě ukazuje význam: les a zvíře nebo obchod a lidé. Oba významy jsou důležité pro každodenní jazyk A2.",
+      "reason": "Po slovese znamenat je zde nutný 4. pád: znamená hada, ne had.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-schlange",
+      "field": "study.tip.leftBlocks[0].text",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "An der Kasse oder bei Menschen bedeutet Schlange Warteschlange.",
+      "lvSource": "Pie kases, biļetēm vai cilvēkiem Schlange nozīmē rinda.",
+      "currentCs": "U pokladny, vstupenek nebo lidí Schlange znamená fronta.",
+      "proposedCs": "U pokladny, při čekání na vstupenky nebo mezi lidmi znamená Schlange frontu.",
+      "reason": "Text má chybný pád po znamená a spojení „u vstupenek nebo lidí“ je v češtině nepřirozené.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-schlange",
+      "field": "study.tip.leftBlocks[1].text",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Im Natur- oder Tierkontext bedeutet Schlange Schlange.",
+      "lvSource": "Dabas vai dzīvnieku kontekstā Schlange nozīmē čūska.",
+      "currentCs": "V kontextu přírody nebo zvířat Schlange znamená had.",
+      "proposedCs": "V kontextu přírody nebo zvířat znamená Schlange hada.",
+      "reason": "Po slovese znamenat je nutný 4. pád: znamená hada.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-schließen",
+      "field": "study.examples[0].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Bitte schließen Sie die Tür.",
+      "lvSource": "lūdzu, aizveriet durvis.",
+      "currentCs": "Prosím zavřete dveře.",
+      "proposedCs": "Prosím, zavřete dveře.",
+      "reason": "Po úvodním výrazu „Prosím“ se v této větě píše čárka.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-schloss",
+      "field": "study.examples[0].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Wir besuchen ein altes Schloss.",
+      "lvSource": "mēs apmeklējam vecu pili.",
+      "currentCs": "Navštívíme starý hrad.",
+      "proposedCs": "Navštívíme starý zámek.",
+      "reason": "Karta zde vysvětluje Schloss v turistickém a historickém kontextu jako český zámek; „hrad“ je v rozporu s tímto rozlišením.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-schloss",
+      "field": "study.examples[4].lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Der Schlüssel passt nicht ins Schloss.",
+      "lvSource": "atslēga neder slēdzenē.",
+      "currentCs": "Klíč se nevejde do zámku.",
+      "proposedCs": "Klíč nepasuje do zámku.",
+      "reason": "U klíče se v češtině běžně říká „nepasuje do zámku“; „nevejde se“ je zde méně přirozené.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 6,
+  "completedAt": "2026-08-14T16:54:21.495Z"
+}

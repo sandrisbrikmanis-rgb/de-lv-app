@@ -1,0 +1,2633 @@
+{
+  "title": "CS-DE A2 Repair Group 01",
+  "scope": "First 50 unique cards with audit findings, work-list positions 001-050",
+  "source": "reports/cs-a2-all-findings-by-card.md",
+  "rules": {
+    "composerRole": "COPY_ONLY",
+    "replaceExactProductionObjects": true,
+    "deReadOnly": true,
+    "preserveProductionOrder": true,
+    "noIndependentTranslation": true,
+    "noIndependentEdits": true
+  },
+  "cards": [
+    {
+      "groupOrder": 1,
+      "productionIndex": 0,
+      "cardId": "a2-ab-und-zu",
+      "targetObject": {
+        "de": "ab und zu",
+        "lv": "Občas",
+        "level": "A2",
+        "study": {
+          "id": "a2-ab-und-zu",
+          "layout": "standardStudy",
+          "translation": "Občas",
+          "explanation": "Používá se k vyjádření toho, že se něco děje nepravidelně – čas od času, tu a tam, občas.",
+          "examples": [
+            {
+              "de": "Ich gehe ab und zu ins Kino.",
+              "lv": "Občas zajdu do kina."
+            },
+            {
+              "de": "Er ruft mich ab und zu an.",
+              "lv": "Občas mi zavolá."
+            },
+            {
+              "de": "Ab und zu brauche ich Ruhe.",
+              "lv": "Občas potřebuji klid."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ab",
+              "meaning": "Počínaje bodem/časem",
+              "example": "ab Montag – Od pondělí"
+            },
+            {
+              "word": "von",
+              "meaning": "Od někoho/něčeho • Původ",
+              "example": "von mir – Ode mě"
+            },
+            {
+              "word": "aus",
+              "meaning": "Ven zevnitř",
+              "example": "aus dem Haus – Z domu / z domu"
+            }
+          ],
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "ab und zu"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Občas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ab und zu"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Občas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ab und zu"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Každou"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "ab"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "ab"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "von"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "von"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "aus"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "aus"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "ab und zu"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "ab und zu"
+                ],
+                "purple": [
+                  "und"
+                ],
+                "red": [
+                  "und",
+                  "und"
+                ]
+              },
+              {
+                "purple": [
+                  "češtině",
+                  "češtině",
+                  "češtině"
+                ]
+              }
+            ]
+          },
+          "tip": {
+            "text": "Pamatujte: nepravidelné → ab und zu."
+          },
+          "important": [
+            "Ab und zu znamená příležitostně, ne často nebo každý den.",
+            "V češtině jsou nejpřirozenější překlady tu a tam, někdy nebo čas od času."
+          ]
+        }
+      }
+    },
+    {
+      "groupOrder": 2,
+      "productionIndex": 1,
+      "cardId": "a2-Abenteuer-1",
+      "targetObject": {
+        "de": "Abenteuer",
+        "de_article": "das",
+        "de_plural": "die Abenteuer",
+        "lv": "Dobrodružství",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 3,
+      "productionIndex": 2,
+      "cardId": "a2-abfahren",
+      "targetObject": {
+        "de": "abfahren",
+        "lv": "Odjet",
+        "level": "A2",
+        "study": {
+          "id": "a2-abfahren",
+          "layout": "standardStudy",
+          "translation": "Odjet",
+          "explanation": "Hlavní myšlenka: abfahren znamená odjet, odjíždět nebo projet určitou trasu podle kontextu. U vlaků, autobusů a tramvají znamená odjíždět. S trasou nebo úsekem silnice může znamenat projet konkrétní trasu či úsek. Často se používá s výrazy Uhr, Bahnhof, Zug nebo Bus. Na rozdíl od wegfahren zdůrazňuje odjezd z určitého místa nebo začátek jízdy.",
+          "examples": [
+            {
+              "de": "Der Zug fährt um acht Uhr ab.",
+              "lv": "Vlak odjíždí v osm."
+            },
+            {
+              "de": "Wir fahren morgen früh ab.",
+              "lv": "Zítra vyrážíme brzy."
+            },
+            {
+              "de": "Der Bus ist schon abgefahren.",
+              "lv": "Autobus už odjel."
+            },
+            {
+              "de": "Wann fährt dein Zug ab?",
+              "lv": "Kdy ti jede vlak?"
+            },
+            {
+              "de": "Wir fahren die Strecke langsam ab.",
+              "lv": "Pomalu projíždíme tuto trasu."
+            },
+            {
+              "de": "Die Reisegruppe fährt gleich ab.",
+              "lv": "Zájezdová skupina okamžitě odjíždí."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "abfahren",
+              "meaning": "Odejít / odejít / vyrazit",
+              "example": "Der Zug fährt ab. = Vlak odjíždí."
+            },
+            {
+              "word": "wegfahren",
+              "meaning": "Odjet",
+              "example": "Ich fahre morgen weg. = Zítra odjíždím."
+            },
+            {
+              "word": "losfahren",
+              "meaning": "Začít jet • Vyjet",
+              "example": "Wir fahren jetzt los. = Teď začínáme jezdit."
+            },
+            {
+              "word": "abgehen",
+              "meaning": "Odejít / odejít",
+              "example": "Der Bus geht gleich ab. = Autobus už odjíždí."
+            },
+            {
+              "word": "fahren",
+              "meaning": "Jet • Jezdit",
+              "example": "Ich fahre mit dem Zug. = Jedu vlakem."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Pokud jde o jízdní řád vlaku nebo autobusu, abfahren se obvykle překládá jako odjíždět."
+              },
+              {
+                "text": "Když mluvíme o lidech na cestě, abfahren často znamená odejít nebo vyrazit."
+              }
+            ]
+          },
+          "important": {
+            "text": "Abfahren není 'odnést'.",
+            "example": "Der Zug fährt ab = vlak odjíždí. Wir fahren ab = odjíždíme. Eine Strecke abfahren = projet trasu."
+          },
+          "sectionAccents": "cestě",
+          "accents": {
+            "blue": [
+              "StandardStudy",
+              "Aizbraukt",
+              "Abfahren",
+              "Autobusu",
+              "Maršrutu",
+              "Nobraukt",
+              "Noteiktu",
+              "Tramvaju",
+              "Vilcienu",
+              "Znamenat",
+              "Doties",
+              "Atiet",
+              "Bieži",
+              "Posmu",
+              "Slovo",
+              "Cestě",
+              "Trasu"
+            ],
+            "green": [
+              "Wegfahren",
+              "Atiet",
+              "Noiet"
+            ],
+            "yellow": [
+              "Losfahren",
+              "Nobraukt"
+            ],
+            "orange": [
+              "Aizbraukt"
+            ],
+            "purple": [
+              "Odjet • Odjíždět • Projet • Vyrazit",
+              "Odjet / odjíždět / vyrazit",
+              "Aizbraukt prom",
+              "Atiet / noiet",
+              "Začít jet",
+              "Jet",
+              "Fahren"
+            ],
+            "red": [
+              "Vyrazit",
+              "Abgehen"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 4,
+      "productionIndex": 3,
+      "cardId": "a2-Abfahrt-3",
+      "targetObject": {
+        "de": "Abfahrt",
+        "de_article": "die",
+        "de_plural": "die Abfahrten",
+        "lv": "Odjezd",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 5,
+      "productionIndex": 5,
+      "cardId": "a2-abgeben",
+      "targetObject": {
+        "de": "abgeben",
+        "lv": "Odevzdat",
+        "level": "A2",
+        "study": {
+          "id": "a2-abgeben",
+          "layout": "standardStudy",
+          "translation": "Odevzdat",
+          "explanation": "Hlavní myšlenka: abgeben znamená předat nebo odevzdat něco jiné osobě či na určitém místě. Používá se u dokumentů, klíčů, věcí, žádostí a domácích úkolů. Ve škole nebo v práci často znamená odevzdat či předložit. Prodat a vyzařovat nejsou hlavní významy této karty.",
+          "examples": [
+            {
+              "de": "Ich muss den Antrag morgen abgeben.",
+              "lv": "Zítra musím podat žádost."
+            },
+            {
+              "de": "Bitte geben Sie den Schlüssel an der Rezeption ab.",
+              "lv": "Prosím předejte klíč na recepci."
+            },
+            {
+              "de": "Er hat seine Hausaufgaben nicht abgegeben.",
+              "lv": "Neodevzdal domácí úkol."
+            },
+            {
+              "de": "Ich gebe das Paket bei der Post ab.",
+              "lv": "Balíček odevzdávám na poště."
+            },
+            {
+              "de": "Wir geben die alten Unterlagen im Büro ab.",
+              "lv": "Staré doklady předáme úřadu."
+            },
+            {
+              "de": "Ich gebe das geliehene Gerät heute ab.",
+              "lv": "Půjčený přístroj dnes vracím."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "abgeben",
+              "meaning": "Předat nebo odevzdat jiné osobě či na určitém místě",
+              "example": "Ich gebe den Antrag ab. = Podala jsem žádost."
+            },
+            {
+              "word": "geben",
+              "meaning": "Dát",
+              "example": "Ich gebe dir den Schlüssel. = Dávám ti klíč."
+            },
+            {
+              "word": "zurückgeben",
+              "meaning": "Vrátit",
+              "example": "Ich gebe das Buch zurück. = Vracím knihu."
+            },
+            {
+              "word": "einreichen",
+              "meaning": "Oficiálně předložit",
+              "example": "Ich reiche die Unterlagen ein. = Předložil jsem dokumenty."
+            },
+            {
+              "word": "verkaufen",
+              "meaning": "Prodat",
+              "example": "Ich verkaufe mein Fahrrad. = Prodám své kolo."
+            },
+            {
+              "word": "ausstrahlen",
+              "meaning": "Vyzařující",
+              "example": "Die Lampe strahlt Wärme aus. = Lampa vydává teplo."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Pokud je něco dáno nebo dáno jinému nebo na určitém místě, často se používá abgeben."
+              },
+              {
+                "text": "Pokud jde o dokumenty, žádosti nebo domácí úkoly, abgeben se nejčastěji překládá jako „předložit“."
+              }
+            ]
+          },
+          "important": {
+            "text": "Abgeben není totéž co verkaufen nebo ausstrahlen.",
+            "example": "Abgeben = odevzdat / předat / vrátit. verkaufen = prodat. ausstrahlen = vyzařovat."
+          },
+          "sectionAccents": "prodat",
+          "accents": {
+            "blue": [
+              "Abgeben",
+              "Nodot",
+              "Atdot",
+              "Iesniegt"
+            ],
+            "green": [
+              "Ausstrahlen"
+            ],
+            "orange": [
+              "Verkaufen"
+            ],
+            "purple": [
+              "Nodot • Atdot • Iesniegt",
+              "Předat nebo odevzdat jiné osobě či na určitém místě",
+              "Oficiálně předložit",
+              "Vrátit",
+              "Prodat",
+              "Izstarot"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 6,
+      "productionIndex": 6,
+      "cardId": "a2-abgemacht-6",
+      "targetObject": {
+        "de": "abgemacht",
+        "lv": "Domluveno",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 7,
+      "productionIndex": 7,
+      "cardId": "a2-abholen",
+      "targetObject": {
+        "de": "abholen",
+        "lv": "Vyzvednout",
+        "level": "A2",
+        "study": {
+          "id": "a2-abholen",
+          "layout": "standardStudy",
+          "translation": "Vyzvednout",
+          "explanation": [
+            "Hlavní myšlenka: Jít za a vyzvednout osobu nebo vyzvednout balíček/objednávku.",
+            "Abholen v podstatě znamená: jít za a vzít / odstranit z místa.",
+            "Často popisuje: osobu, balíček, objednávku.",
+            "Abholen vždy zahrnuje pohyb: jít za a vyzvednout osobu, balíček nebo objednávku."
+          ],
+          "examples": [
+            {
+              "de": "Ich hole dich ab.",
+              "lv": "Vyzvednu tě."
+            },
+            {
+              "de": "Kannst du mich vom Bahnhof abholen?",
+              "lv": "Můžeš mě vyzvednout na nádraží?"
+            },
+            {
+              "de": "Ich hole dich ab.",
+              "lv": "Vyzvednu tě."
+            }
+          ],
+          "tip": [
+            "Abholen = vzít po",
+            "Používá abholen, když kontext vyhovuje tomuto významu."
+          ],
+          "important": [
+            "Abholen vždy zahrnuje pohyb: jít po a vzít.",
+            "Bekommen není totéž co abholen.",
+            "Abholen = jít za a vzít.",
+            "Jděte za a vyzvedněte osobu nebo vyzvedněte balíček/objednávku."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "abholen"
+              ],
+              "purple": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {},
+                "lv": {
+                  "purple": [
+                    "Vezmu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "abholen",
+                    "abholen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Můžeš"
+                  ]
+                }
+              },
+              {
+                "de": {},
+                "lv": {
+                  "purple": [
+                    "Vezmu"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Abholen"
+                ]
+              },
+              {
+                "purple": [
+                  "Abholen"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "abholen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 8,
+      "productionIndex": 8,
+      "cardId": "a2-holen",
+      "targetObject": {
+        "de": "holen",
+        "lv": "Dojít pro",
+        "level": "A2",
+        "study": {
+          "id": "a2-holen",
+          "layout": "standardStudy",
+          "translation": "Dojít pro",
+          "explanation": [
+            "Hlavní myšlenka: Jdi za tím a něco přines.",
+            "Holen hlavně znamená: jít a aport.",
+            "Často charakterizováno: věcmi převzatými odjinud.",
+            "Holen znamená jít za něčím a přinést něco (např. vodu)."
+          ],
+          "examples": [
+            {
+              "de": "Ich hole Wasser.",
+              "lv": "Přinesu vodu."
+            },
+            {
+              "de": "Kannst du mich vom Bahnhof abholen?",
+              "lv": "Můžeš mě vyzvednout na nádraží"
+            },
+            {
+              "de": "Ich hole Wasser.",
+              "lv": "Přinesl jsem vodu"
+            }
+          ],
+          "tip": [
+            "Holen = přivést odtud",
+            "Používá holen, když kontext vyhovuje tomuto významu."
+          ],
+          "important": [
+            "Holen = jít za a aportovat.",
+            "Holen: před použitím zkontrolujte kontext."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "holen"
+              ],
+              "purple": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "hole"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Přinesl"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "holen",
+                    "holen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "hole"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Přinesl"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {},
+              {
+                "purple": [
+                  "Holen"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "holen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 9,
+      "productionIndex": 9,
+      "cardId": "a2-bringen",
+      "targetObject": {
+        "de": "bringen",
+        "lv": "Přinést",
+        "level": "A2",
+        "study": {
+          "id": "a2-bringen",
+          "layout": "standardStudy",
+          "translation": "Přinést",
+          "explanation": [
+            "Hlavní myšlenka: Něco sem přivézt nebo přinést.",
+            "Přinést hlavně znamená: přinést sem.",
+            "Často charakterizováno: dodáním na místo.",
+            "Přinést znamená přinést nebo doručit něco na určité místo."
+          ],
+          "examples": [
+            {
+              "de": "Ich bringe das Buch.",
+              "lv": "Přinesu knihu."
+            },
+            {
+              "de": "Bringen Sie mir bitte noch einen Kaffee!",
+              "lv": "Prosím přineste mi další kávu!"
+            },
+            {
+              "de": "Wir bringen die Kuchen zur Party.",
+              "lv": "Přinášíme dorty na oslavu."
+            },
+            {
+              "de": "Ich bringe das Buch.",
+              "lv": "Přinesl jsem knihu"
+            }
+          ],
+          "tip": "Když kontext odpovídá tomuto významu, použijte bringen.",
+          "important": [
+            "Přinést = přinést na konkrétní místo.",
+            "Přinést = přinést sem.",
+            "Přineste nebo doručte něco sem."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "yellow": [
+                "Hlavní",
+                "Hlavní"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "orange": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "yellow": [
+                    "bringe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Přinesl"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "bringen",
+                    "bringen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Prosím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "bringen",
+                    "bringen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Přinášíme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "bringe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Přinesl"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Přinést"
+                ]
+              },
+              {}
+            ],
+            "important": [
+              {
+                "yellow": [
+                  "Přinést"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 10,
+      "productionIndex": 10,
+      "cardId": "a2-abreisen-10",
+      "targetObject": {
+        "de": "abreisen",
+        "lv": "Odjet",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 11,
+      "productionIndex": 11,
+      "cardId": "a2-absagen",
+      "targetObject": {
+        "de": "absagen",
+        "lv": "Zrušit",
+        "level": "A2",
+        "study": {
+          "id": "a2-absagen",
+          "layout": "standardStudy",
+          "translation": "Zrušit",
+          "explanation": "Hlavní myšlenka: absagen znamená zrušit schůzku nebo událost nebo odmítnout účast. absagen znamená zrušit domluvenou schůzku, událost nebo plán. Může to také znamenat odmítnutí účasti nebo prohlášení, že nemůžete přijít. U Termin, Treffen, Konzert nebo Einladung je často význam „zrušit“ nebo „odmítnout“. Není to totéž jako nein sagen, protože absagen obvykle označuje předem uspořádanou záležitost. V češtině byste měli vidět, zda je událost zrušena nebo zda se odmítáte zúčastnit.",
+          "examples": [
+            {
+              "de": "Ich muss den Termin absagen.",
+              "lv": "Musím zrušit schůzku."
+            },
+            {
+              "de": "Das Konzert wurde abgesagt.",
+              "lv": "Koncert byl zrušen."
+            },
+            {
+              "de": "Er hat seine Teilnahme abgesagt.",
+              "lv": "Odmítl účast."
+            },
+            {
+              "de": "Sie sagt das Treffen ab.",
+              "lv": "Zruší schůzku."
+            },
+            {
+              "de": "Ich muss leider absagen.",
+              "lv": "Bohužel musím odmítnout."
+            },
+            {
+              "de": "Die Firma hat die Reise abgesagt.",
+              "lv": "Společnost zájezd zrušila."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "absagen",
+              "meaning": "Zrušit / odmítnout účast",
+              "example": "Ich sage den Termin ab. = Ruším schůzku."
+            },
+            {
+              "word": "ablehnen",
+              "meaning": "Odmítnout",
+              "example": "Ich lehne das Angebot ab. = Odmítám nabídku."
+            },
+            {
+              "word": "kündigen",
+              "meaning": "Ukončit / zrušit smlouvu",
+              "example": "Ich kündige den Vertrag. = Vypovídám smlouvu."
+            },
+            {
+              "word": "stornieren",
+              "meaning": "Zrušit / zrušit rezervaci",
+              "example": "Ich storniere die Buchung. = Ruším rezervaci."
+            },
+            {
+              "word": "nein sagen",
+              "meaning": "Říci ne",
+              "example": "Er sagt nein. = Říká ne."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Absagen se obvykle používá pro setkání, koncert nebo akci."
+              },
+              {
+                "text": "Pro nabídku nebo návrh se častěji používá ablehnen."
+              }
+            ]
+          },
+          "important": {
+            "text": "Absagen znamená zrušit nebo odmítnout již sjednanou věc.",
+            "example": "Termin absagen = zrušit schůzku. Teilnahme absagen = odmítnout účast. Angebot ablehnen = odmítnout nabídku."
+          },
+          "sectionAccents": "odmítnout účast",
+          "accents": {
+            "blue": [
+              "StandardStudy",
+              "Ierasties",
+              "Akci",
+              "Domluvenou",
+              "Tikšanos",
+              "Absagen",
+              "Atteikt",
+              "Konzert",
+              "Znamenat",
+              "Pateikt",
+              "Treffen",
+              "Atcelt",
+              "Účast",
+              "Termin",
+              "Nevar",
+              "Plán"
+            ],
+            "green": [
+              "Zrušit rezervaci",
+              "Vypovědět smlouvu",
+              "Ablehnen",
+              "Atcelt"
+            ],
+            "yellow": [
+              "Kündigen"
+            ],
+            "orange": [
+              "Odmítnout",
+              "Atteikt",
+              "Uzteikt",
+              "Stornovat"
+            ],
+            "purple": [
+              "Zrušit • Odmítnout • Odmítnout účast",
+              "Stornovat / zrušit rezervaci",
+              "Zrušit / odmítnout účast",
+              "Vypovědět / ukončit smlouvu",
+              "Odmítnout",
+              "Nein sagen",
+              "Říci ne"
+            ],
+            "red": [
+              "Odmítnout účast",
+              "Stornieren"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 12,
+      "productionIndex": 13,
+      "cardId": "a2-abschließen",
+      "targetObject": {
+        "de": "abschließen",
+        "lv": "Uzavřít",
+        "level": "A2",
+        "study": {
+          "id": "a2-abschließen",
+          "layout": "standardStudy",
+          "translation": "Uzavřít",
+          "explanation": "Hlavní myšlenka: abschließen znamená zamknout, uzavřít nebo dokončit podle předmětu. U dveří nebo auta znamená „zamknout“. U smlouvy znamená „uzavřít smlouvu“. U práce, kurzu nebo projektu znamená „dokončit“. Význam tedy závisí na předmětu: dveře, smlouva nebo práce.",
+          "examples": [
+            {
+              "de": "Bitte schließ die Tür ab.",
+              "lv": "Prosím, zamkni dveře."
+            },
+            {
+              "de": "Ich habe das Auto abgeschlossen.",
+              "lv": "Zamkl jsem auto."
+            },
+            {
+              "de": "Wir schließen den Vertrag morgen ab.",
+              "lv": "Zítra podepíšeme smlouvu."
+            },
+            {
+              "de": "Sie hat ihre Ausbildung abgeschlossen.",
+              "lv": "Dokončila výcvik."
+            },
+            {
+              "de": "Das Projekt ist abgeschlossen.",
+              "lv": "Projekt je dokončený."
+            },
+            {
+              "de": "Er möchte das Kapitel abschließen.",
+              "lv": "Chce dokončit kapitolu."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "abschließen",
+              "meaning": "Zamknout / uzavřít / dokončit",
+              "example": "Ich schließe die Tür ab. = Zamykám dveře."
+            },
+            {
+              "word": "schließen",
+              "meaning": "Zavřít",
+              "example": "Ich schließe die Tür. = Es aizveru durvis."
+            },
+            {
+              "word": "beenden",
+              "meaning": "Dokončit",
+              "example": "Ich beende die Arbeit. = Práci jsem dokončil."
+            },
+            {
+              "word": "unterschreiben",
+              "meaning": "Podepsat",
+              "example": "Ich unterschreibe den Vertrag. = Podepisuji smlouvu."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Pokud existuje klíč, často potřebujete abschließen, nejen schließen."
+              },
+              {
+                "text": "Abschließen znamená „uzavřít“ nebo „dokončit“, pokud jde o smlouvu nebo projekt."
+              }
+            ]
+          },
+          "important": {
+            "text": "Tür schließen = zavřít dveře.",
+            "example": "Tür abschließen = zamknout dveře. Vertrag abschließen = uzavřít smlouvu. Ausbildung abschließen = dokončit vzdělání."
+          },
+          "sectionAccents": "zamknout",
+          "accents": {
+            "blue": [
+              "StandardStudy",
+              "Abschließen",
+              "Zamknout",
+              "Projektu",
+              "Uzavřít",
+              "Objekta",
+              "Pabeigt",
+              "Durvis",
+              "Dveřím",
+              "Smlouva",
+              "Smlouvu",
+              "Mění se",
+              "Význam",
+              "Darbu",
+              "Kursu",
+              "Proto",
+              "Auto"
+            ],
+            "green": [
+              "Schließen",
+              "Uzavřít"
+            ],
+            "yellow": [
+              "Beenden",
+              "Pabeigt"
+            ],
+            "orange": [
+              "Zamknout"
+            ],
+            "purple": [
+              "Zamknout / uzavřít / dokončit",
+              "Zamknout • Uzavřít • Dokončit",
+              "Podepsat",
+              "Zavřít"
+            ],
+            "red": [
+              "Unterschreiben"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 13,
+      "productionIndex": 14,
+      "cardId": "a2-Abstand-14",
+      "targetObject": {
+        "de": "Abstand",
+        "de_article": "der",
+        "de_plural": "die Abstände",
+        "lv": "Vzdálenost",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 14,
+      "productionIndex": 15,
+      "cardId": "a2-absteigen-15",
+      "targetObject": {
+        "de": "absteigen",
+        "lv": "Vystoupit",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 15,
+      "productionIndex": 16,
+      "cardId": "a2-abstellen",
+      "targetObject": {
+        "de": "abstellen",
+        "lv": "Odstavit",
+        "level": "A2",
+        "study": {
+          "id": "a2-abstellen",
+          "layout": "standardStudy",
+          "translation": "Odstavit",
+          "explanation": "Hlavní myšlenka: význam slovesa abstellen závisí na objektu: auto, kolo nebo tašku odstavit či umístit, vodu nebo elektřinu vypnout, motor vypnout a chybu či problém odstranit. U auta, kola, tašky nebo krabice znamená umístit něco na konkrétní místo. U vody, plynu nebo elektřiny znamená vypnout přívod. Motor nebo budík lze také vypnout pomocí abstellen. U zařízení, jako je televize, počítač nebo světlo, se častěji používá ausschalten. Zastavení pohybu se obvykle vyjadřuje slovesy anhalten nebo stoppen, nikoli abstellen.",
+          "examples": [
+            {
+              "de": "Ich stelle das Fahrrad ab.",
+              "lv": "Odstavím kolo."
+            },
+            {
+              "de": "Stell die Tasche bitte dort ab.",
+              "lv": "Prosím, dej tam tašku."
+            },
+            {
+              "de": "Der Monteur stellt das Wasser ab.",
+              "lv": "Mistr vypne vodu."
+            },
+            {
+              "de": "Wegen unbezahlter Rechnungen wurde der Strom abgestellt.",
+              "lv": "Byla vypnuta elektřina z důvodu nezaplacených účtů."
+            },
+            {
+              "de": "Er stellt den Motor ab.",
+              "lv": "Vypne motor."
+            },
+            {
+              "de": "Wir müssen den Fehler abstellen.",
+              "lv": "Musíme chybu opravit."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "abstellen",
+              "meaning": "Umístit / zakázat / vypnout / zabránit v závislosti na objektu",
+              "example": "Ich stelle das Fahrrad ab. = Zaparkoval jsem kolo."
+            },
+            {
+              "word": "ausschalten",
+              "meaning": "Vypněte zařízení, světlo, televizi nebo počítač",
+              "example": "Ich schalte den Computer aus. = Vypnul jsem počítač."
+            },
+            {
+              "word": "anhalten",
+              "meaning": "Přestat se pohybovat / zastavit",
+              "example": "Der Bus hält an. = Autobus zastavuje."
+            },
+            {
+              "word": "stoppen",
+              "meaning": "Zastavit / zastavit",
+              "example": "Der Fahrer stoppt das Auto. = Řidič zastaví auto."
+            },
+            {
+              "word": "stellen",
+              "meaning": "Umístit / umístit",
+              "example": "Ich stelle die Tasche neben die Tür. = Položila jsem tašku ke dveřím."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Pokud je to auto, kolo nebo taška, přemýšlejte o parkování nebo odložení."
+              },
+              {
+                "text": "Pokud jde o vodu, plyn nebo elektřinu, myslete na to, že ji vypnete."
+              }
+            ],
+            "rightBlocks": [
+              {
+                "text": "Když mluvíme o motoru nebo budíku, abstellen může znamenat vypnout."
+              },
+              {
+                "text": "Pokud jde o televizi, počítač nebo světlo, obvykle se používá ausschalten."
+              }
+            ]
+          },
+          "important": {
+            "text": "Abstellen není obecné slovo znamenající 'stop'.",
+            "example": "Zastavit pohyb = anhalten nebo stoppen. Vypnout zařízení = ausschalten. Wasser abstellen = vypnout vodu."
+          },
+          "sectionAccents": "zařízení",
+          "accents": {
+            "blue": [
+              "Abstellen"
+            ],
+            "purple": [
+              "Nolikt",
+              "Novietot",
+              "Vypnout",
+              "Vypnout",
+              "Odstranit"
+            ],
+            "yellow": [
+              "Auto",
+              "Kolo",
+              "Soma",
+              "Voda",
+              "Plyn",
+              "Elektřina",
+              "Motors",
+              "Budík"
+            ],
+            "red": [
+              "Ausschalten",
+              "Anhalten",
+              "Stoppen",
+              "Zastavit"
+            ],
+            "green": [
+              "Stellen"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 16,
+      "productionIndex": 20,
+      "cardId": "a2-abwesend-20",
+      "targetObject": {
+        "de": "abwesend",
+        "lv": "Nepřítomný",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 17,
+      "productionIndex": 21,
+      "cardId": "a2-Achse-21",
+      "targetObject": {
+        "de": "Achse",
+        "de_article": "die",
+        "de_plural": "die Achsen",
+        "lv": "Osa",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 18,
+      "productionIndex": 28,
+      "cardId": "a2-aktiv-28",
+      "targetObject": {
+        "de": "aktiv",
+        "lv": "Aktivní",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 19,
+      "productionIndex": 30,
+      "cardId": "a2-aktuell-30",
+      "targetObject": {
+        "de": "aktuell",
+        "lv": "Aktuální",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 20,
+      "productionIndex": 33,
+      "cardId": "a2-allgemein-33",
+      "targetObject": {
+        "de": "allgemein",
+        "lv": "Obecný",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 21,
+      "productionIndex": 35,
+      "cardId": "a2-ändern-35",
+      "targetObject": {
+        "de": "ändern",
+        "lv": "Změnit",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 22,
+      "productionIndex": 36,
+      "cardId": "a2-Änderung-36",
+      "targetObject": {
+        "de": "Änderung",
+        "de_article": "die",
+        "de_plural": "die Änderungen",
+        "lv": "Změna",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 23,
+      "productionIndex": 38,
+      "cardId": "a2-angesehen-38",
+      "targetObject": {
+        "de": "angesehen",
+        "lv": "Uznávaný",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 24,
+      "productionIndex": 39,
+      "cardId": "a2-angespannt-39",
+      "targetObject": {
+        "de": "angespannt",
+        "lv": "Napjatý",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 25,
+      "productionIndex": 41,
+      "cardId": "a2-angewandt",
+      "targetObject": {
+        "de": "angewandt",
+        "lv": "Aplikovaný",
+        "level": "A2",
+        "study": {
+          "id": "a2-angewandt",
+          "layout": "standardStudy",
+          "translation": "Aplikovaný",
+          "explanation": "Hlavní myšlenka: angewandt znamená aplikovaný nebo uplatňovaný v praxi. Používá se u teorií, věd a metod využívaných v praxi. Na univerzitách a ve vědě často znamená „aplikovaný“, například angewandte Mathematik. U metody nebo pravidla znamená „uplatněný“. Není to totéž co einfach nur praktisch, protože angewandt zdůrazňuje použití v praxi.",
+          "examples": [
+            {
+              "de": "Angewandte Mathematik ist sehr praktisch.",
+              "lv": "Aplikovaná matematika je velmi praktická."
+            },
+            {
+              "de": "Sie arbeitet in der angewandten Forschung.",
+              "lv": "Pracuje v aplikovaném výzkumu."
+            },
+            {
+              "de": "Diese Methode wird angewandt.",
+              "lv": "Tato metoda je aplikována."
+            },
+            {
+              "de": "Das ist ein Beispiel für angewandte Wissenschaft.",
+              "lv": "Je příkladem aplikované vědy."
+            },
+            {
+              "de": "Die Regel wird hier nicht angewandt.",
+              "lv": "Pravidlo se zde neuplatňuje."
+            },
+            {
+              "de": "Der Kurs verbindet Theorie und angewandte Praxis.",
+              "lv": "Kurz kombinuje teorii a aplikovanou praxi."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "angewandt",
+              "meaning": "Aplikovaný / uplatněný",
+              "example": "Diese Methode wird angewandt. = Tato metoda je aplikována."
+            },
+            {
+              "word": "praktisch",
+              "meaning": "Praktický",
+              "example": "Das ist eine praktische Lösung. = Toto je praktické řešení."
+            },
+            {
+              "word": "verwenden",
+              "meaning": "Používat",
+              "example": "Ich verwende diese Methode. = Používám tuto metodu."
+            },
+            {
+              "word": "anwenden",
+              "meaning": "Uplatnit",
+              "example": "Ich wende die Regel an. = Aplikuji pravidlo."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "S vědou, výzkumem nebo studiem se angewandt často překládá jako aplikovaný."
+              },
+              {
+                "text": "Pokud jde o metodu nebo pravidlo, angewandt znamená použito."
+              }
+            ]
+          },
+          "important": {
+            "text": "Angewandt není jen „praktický“. Znamená to, že se něco uvádí do praxe.",
+            "example": "Angewandte Mathematik = aplikovaná matematika. Diese Methode wird angewandt = tato metoda se uplatňuje."
+          },
+          "sectionAccents": "aplikovaná matematika",
+          "accents": {
+            "blue": [
+              "Angewandt",
+              "Angewandte",
+              "Angewandten"
+            ],
+            "green": [
+              "Pielietots",
+              "Pielietota",
+              "Pielietot",
+              "Pielietoju"
+            ],
+            "yellow": [
+              "Aplikovaný",
+              "Aplikovaná",
+              "Aplikované"
+            ],
+            "purple": [
+              "Praktisks",
+              "Praktisch"
+            ],
+            "red": [
+              "Verwenden",
+              "Anwenden"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 26,
+      "productionIndex": 42,
+      "cardId": "a2-angreifen",
+      "targetObject": {
+        "de": "angreifen",
+        "lv": "Zaútočit",
+        "level": "A2",
+        "study": {
+          "id": "a2-angreifen",
+          "layout": "standardStudy",
+          "translation": "Zaútočit",
+          "explanation": "Hlavní myšlenka: angreifen znamená zaútočit na osobu, místo nebo myšlenku. Ve fyzickém kontextu je to „útok“. V rozhovoru nebo diskusi to může znamenat ostře kritizovat nebo urážet. Pokud jde o emocionální urážku, častěji se používá beleidigen. Proto je třeba vidět, zda jde o útok nebo o slova.",
+          "examples": [
+            {
+              "de": "Der Hund greift den Mann an.",
+              "lv": "Pes napadne muže."
+            },
+            {
+              "de": "Die Soldaten greifen die Stadt an.",
+              "lv": "Vojáci útočí na město."
+            },
+            {
+              "de": "Er greift meinen Plan an.",
+              "lv": "Ostře kritizuje můj plán."
+            },
+            {
+              "de": "Warum greifst du mich immer an?",
+              "lv": "Proč na mě pořád útočíš?"
+            },
+            {
+              "de": "Sie fühlte sich persönlich angegriffen.",
+              "lv": "Cítila se osobně uražena."
+            },
+            {
+              "de": "Die Kritik greift das Problem direkt an.",
+              "lv": "Kritika směřuje přímo k problému."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "angreifen",
+              "meaning": "Napadnout / ostře kritizovat",
+              "example": "Der Hund greift an. = Pes útočí."
+            },
+            {
+              "word": "attackieren",
+              "meaning": "Zaútočit",
+              "example": "Die Gruppe attackiert ihn. = Skupina na něj zaútočí."
+            },
+            {
+              "word": "beleidigen",
+              "meaning": "Urazit / urážet",
+              "example": "Er beleidigt mich. = Uráží mě."
+            },
+            {
+              "word": "kritisieren",
+              "meaning": "Kritizovat",
+              "example": "Sie kritisiert den Vorschlag. = Ta návrh kritizuje."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Pokud dojde k fyzickému nebo přímému útoku, použije se angreifen."
+              },
+              {
+                "text": "Pokud je někdo jen verbálně urážlivý, přesnější slovo je často beleidigen."
+              }
+            ]
+          },
+          "important": {
+            "text": "Angreifen není jednoduše „urazit“. To obvykle zahrnuje útok nebo velmi tvrdou kritiku.",
+            "example": "Jemanden angreifen = zaútočit na někoho. Jemanden beleidigen = urazit někoho."
+          },
+          "accents": {
+            "blue": [
+              "Angreifen",
+              "Greift",
+              "Angegriffen"
+            ],
+            "green": [
+              "Uzbrukt",
+              "Útočí"
+            ],
+            "yellow": [
+              "Kritizovat",
+              "Kritik"
+            ],
+            "red": [
+              "Beleidigen",
+              "Apvaino"
+            ],
+            "purple": [
+              "Aizskarta",
+              "Ostře kritizuje"
+            ]
+          },
+          "sectionAccents": "někoho"
+        }
+      }
+    },
+    {
+      "groupOrder": 27,
+      "productionIndex": 44,
+      "cardId": "a2-anhänger",
+      "targetObject": {
+        "de": "Anhänger",
+        "de_article": "der",
+        "de_plural": "die Anhänger",
+        "lv": "Přívěs",
+        "level": "A2",
+        "study": {
+          "id": "a2-anhänger",
+          "layout": "standardStudy",
+          "translation": "Přívěs",
+          "explanation": "U auta je to přívěs. U člověka to znamená přívrženec nebo podporovatel. U šperku to může být přívěsek.",
+          "examples": [
+            {
+              "de": "Das Auto zieht einen Anhänger.",
+              "lv": "Auto táhne přívěs."
+            },
+            {
+              "de": "Wir fahren mit einem Anhänger in den Urlaub.",
+              "lv": "Jedeme na dovolenou s přívěsem."
+            },
+            {
+              "de": "Er ist ein Anhänger dieser Partei.",
+              "lv": "Je příznivcem této strany."
+            },
+            {
+              "de": "Viele Anhänger warten vor dem Stadion.",
+              "lv": "Mnoho fanoušků čeká před stadionem."
+            },
+            {
+              "de": "Sie trägt einen kleinen Anhänger an der Kette.",
+              "lv": "Na řetízku nosí malý přívěsek."
+            },
+            {
+              "de": "Der Anhänger ist aus Silber.",
+              "lv": "Přívěsek je vyroben ze stříbra."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Anhänger",
+              "meaning": "Přívěs / podporovatel / přívěsek",
+              "example": "Der Anhänger ist schwer. = Přívěs je těžký."
+            },
+            {
+              "word": "der Fan",
+              "meaning": "Fanoušek",
+              "example": "Er ist ein Fan der Mannschaft. = Je fanouškem týmu."
+            },
+            {
+              "word": "der Unterstützer",
+              "meaning": "Podporovatel",
+              "example": "Sie hat viele Unterstützer. = Má mnoho příznivců."
+            },
+            {
+              "word": "der Wohnwagen",
+              "meaning": "Karavana",
+              "example": "Der Wohnwagen steht am See. = Přívěs je zaparkovaný u jezera."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "U auta nebo nákladního auta Anhänger téměř vždy znamená přívěs."
+              },
+              {
+                "text": "Partei, Idee nebo Verein znamená přívrženec • S Kette to může znamenat přívěsek."
+              }
+            ]
+          },
+          "important": {
+            "text": "Nestačí se naučit pouze „přívěs“. Stejné slovo může také označovat osobu nebo šperk.",
+            "example": "Autoanhänger = přívěs. Anhänger einer Partei = přívrženec strany. Anhänger an der Kette = přívěsek."
+          },
+          "accents": {
+            "blue": [
+              "Anhänger"
+            ],
+            "green": [
+              "Piekabe",
+              "Piekabe"
+            ],
+            "yellow": [
+              "Přívrženec",
+              "Přívrženců",
+              "Podporovatelů"
+            ],
+            "red": [
+              "Fan",
+              "Fani"
+            ],
+            "purple": [
+              "Kulons",
+              "Kulonu",
+              "Kette"
+            ]
+          },
+          "sectionAccents": "přívrženec"
+        }
+      }
+    },
+    {
+      "groupOrder": 28,
+      "productionIndex": 45,
+      "cardId": "a2-anheizen",
+      "targetObject": {
+        "de": "anheizen",
+        "lv": "Zatopit",
+        "level": "A2",
+        "study": {
+          "id": "a2-anheizen",
+          "layout": "standardStudy",
+          "translation": "Zatopit",
+          "explanation": "Hlavní myšlenka: anheizen znamená začít topit nebo zahřívat věci. S kamny nebo ohněm znamená zapálit. Hádkou, atmosférou nebo debatou to znamená roznítit nebo zhoršit. Slovo je často obrazné. To není totéž jako jednoduše \"topit\" heizen.",
+          "examples": [
+            {
+              "de": "Wir heizen den Ofen an.",
+              "lv": "Zatopíme v kamnech."
+            },
+            {
+              "de": "Er heizt das Feuer an.",
+              "lv": "Rozdmýchává oheň."
+            },
+            {
+              "de": "Die Rede heizte die Stimmung an.",
+              "lv": "Řeč roznítila náladu."
+            },
+            {
+              "de": "Die Medien heizen die Diskussion an.",
+              "lv": "Média podněcují debatu."
+            },
+            {
+              "de": "Bitte heiz den Grill an.",
+              "lv": "Prosím, rozpal gril."
+            },
+            {
+              "de": "Seine Worte haben den Streit angeheizt.",
+              "lv": "Jeho slova vystupňovala hádku."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "anheizen",
+              "meaning": "Rozpálit / rozdmýchat",
+              "example": "Ich heize den Ofen an. = Zapaluji troubu."
+            },
+            {
+              "word": "heizen",
+              "meaning": "Topit / vytápět",
+              "example": "Wir heizen die Wohnung. = Vytápíme byt."
+            },
+            {
+              "word": "anzünden",
+              "meaning": "Zapálit",
+              "example": "Ich zünde die Kerze an. = Zapaluji svíčku."
+            },
+            {
+              "word": "verschärfen",
+              "meaning": "Zhoršit",
+              "example": "Das verschärft den Streit. = To eskaluje argument."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "U slov Ofen, Feuer nebo Grill znamená anheizen „zatopit“, „rozdělat“ nebo „rozpálit“."
+              },
+              {
+                "text": "U Stimmung, Diskussion nebo Streit to často znamená eskalaci situace."
+              }
+            ]
+          },
+          "important": {
+            "text": "Anheizen může být doslovný nebo obrazný.",
+            "example": "Ofen anheizen = zatopit v kamnech. Streit anheizen = vyhrotit spor."
+          },
+          "accents": {
+            "blue": [
+              "Anheizen",
+              "Heizen",
+              "Angeheizt"
+            ],
+            "green": [
+              "Iekurt",
+              "Iekuram",
+              "Iekuru"
+            ],
+            "yellow": [
+              "Rozdmýchat",
+              "Uzkurina",
+              "Rozdmýchal"
+            ],
+            "red": [
+              "Vyhrotit",
+              "Vyhrotil",
+              "Verschärfen"
+            ],
+            "purple": [
+              "Ofen",
+              "Feuer",
+              "Streit",
+              "Diskussion"
+            ]
+          },
+          "sectionAccents": "spor"
+        }
+      }
+    },
+    {
+      "groupOrder": 29,
+      "productionIndex": 49,
+      "cardId": "a2-ankleiden-49",
+      "targetObject": {
+        "de": "ankleiden",
+        "lv": "Obléci",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 30,
+      "productionIndex": 53,
+      "cardId": "a2-Anlass-53",
+      "targetObject": {
+        "de": "Anlass",
+        "de_article": "der",
+        "de_plural": "die Anlässe",
+        "lv": "Důvod",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 31,
+      "productionIndex": 54,
+      "cardId": "a2-anlässlich-54",
+      "targetObject": {
+        "de": "anlässlich",
+        "lv": "U příležitosti",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 32,
+      "productionIndex": 55,
+      "cardId": "a2-anlegen",
+      "targetObject": {
+        "de": "anlegen",
+        "lv": "Přiložit",
+        "level": "A2",
+        "study": {
+          "id": "a2-anlegen",
+          "layout": "standardStudy",
+          "translation": "Přiložit",
+          "explanation": "Hlavní myšlenka: anlegen znamená nasadit, přiložit, investovat nebo vytvořit v závislosti na kontextu. anlegen je mnohoznačné sloveso. U oblečení nebo bezpečnostního pásu může znamenat „nasadit“. U peněz znamená „investovat“. U souborů, složek nebo profilu může znamenat „vytvořit“. S rukama nebo nástrojem může znamenat „přiložit něco k něčemu“.",
+          "examples": [
+            {
+              "de": "Bitte legen Sie den Sicherheitsgurt an.",
+              "lv": "Prosím zapněte si bezpečnostní pás."
+            },
+            {
+              "de": "Er legt sein Geld gut an.",
+              "lv": "Dobře investuje své peníze."
+            },
+            {
+              "de": "Ich möchte ein neues Konto anlegen.",
+              "lv": "Chci si vytvořit nový účet."
+            },
+            {
+              "de": "Sie legt einen Verband an.",
+              "lv": "Aplikuje obvaz."
+            },
+            {
+              "de": "Wir legen eine Datei an.",
+              "lv": "Vytvoříme soubor."
+            },
+            {
+              "de": "Der Arzt legt das Gerät an den Arm an.",
+              "lv": "Lékař umístí zařízení na ruku."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "anlegen",
+              "meaning": "Nasadit / investovat / vytvořit",
+              "example": "Ich lege Geld an. = Investuji peníze."
+            },
+            {
+              "word": "legen",
+              "meaning": "Položit",
+              "example": "Ich lege das Buch auf den Tisch. = Položil jsem knihu na stůl."
+            },
+            {
+              "word": "investieren",
+              "meaning": "Investovat",
+              "example": "Ich investiere Geld. = Investuji peníze."
+            },
+            {
+              "word": "erstellen",
+              "meaning": "Vytvořit",
+              "example": "Ich erstelle ein Konto. = Vytvořil jsem účet."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "V kontextu peněz anlegen téměř vždy znamená investovat."
+              },
+              {
+                "text": "Na počítači Konto/Datei anlegen znamená vytvořit účet/soubor."
+              }
+            ]
+          },
+          "important": {
+            "text": "Gurt anlegen = zapnout bezpečnostní pás.",
+            "example": "Geld anlegen = investovat peníze. Konto anlegen = vytvořit účet. Verband anlegen = přiložit obvaz."
+          },
+          "sectionAccents": "V počítači",
+          "accents": {
+            "blue": [
+              "Mnohoznačný",
+              "StandardStudy",
+              "Oblečení",
+              "Činnosti",
+              "Bezpečnosti",
+              "Investovat",
+              "Izveidot",
+              "Profilam",
+              "Anlegen",
+              "Failiem",
+              "Znamenat",
+              "Pielikt",
+              "Jostai",
+              "Naudai",
+              "Uzlikt",
+              "Složkám",
+              "Slovo"
+            ],
+            "green": [
+              "Uzlikt",
+              "Legen"
+            ],
+            "yellow": [
+              "Investieren",
+              "Investovat"
+            ],
+            "orange": [
+              "Pielikt"
+            ],
+            "purple": [
+              "Přiložit • Nasadit • Investovat • Vytvořit",
+              "Nasadit / investovat / vytvořit",
+              "Položit"
+            ],
+            "red": [
+              "Erstellen",
+              "Izveidot"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 33,
+      "productionIndex": 56,
+      "cardId": "a2-Anleitung-56",
+      "targetObject": {
+        "de": "Anleitung",
+        "de_article": "die",
+        "de_plural": "die Anleitungen",
+        "lv": "Návod",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 34,
+      "productionIndex": 57,
+      "cardId": "a2-anmelden",
+      "targetObject": {
+        "de": "anmelden",
+        "lv": "Přihlásit se",
+        "level": "A2",
+        "study": {
+          "id": "a2-anmelden",
+          "layout": "standardStudy",
+          "translation": "Přihlásit se",
+          "explanation": "Anmelden u lékaře může znamenat objednat se nebo zaregistrovat se.",
+          "examples": [
+            {
+              "de": "Ich melde mich zum Kurs an.",
+              "lv": "Hlásím se do kurzu."
+            },
+            {
+              "de": "Sie meldet ihr Kind in der Schule an.",
+              "lv": "Přihlásí dítě do školy."
+            },
+            {
+              "de": "Kann ich mich beim Arzt anmelden?",
+              "lv": "Mohu se objednat k doktorovi?"
+            },
+            {
+              "de": "Bitte melden Sie sich online an.",
+              "lv": "Prosím zaregistrujte se online."
+            },
+            {
+              "de": "Er meldet den Besuch vorher an.",
+              "lv": "Návštěvu ohlásí předem."
+            },
+            {
+              "de": "Ich habe mich für den Test angemeldet.",
+              "lv": "Přihlásil jsem se na test."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "anmelden",
+              "meaning": "Přihlásit / zaregistrovat / zapsat",
+              "example": "Ich melde mich an. = Hlásím se."
+            },
+            {
+              "word": "sich anmelden",
+              "meaning": "Přihlásit se / zaregistrovat se",
+              "example": "Melden Sie sich bitte an. = Přihlaste se prosím."
+            },
+            {
+              "word": "registrieren",
+              "meaning": "Registrovat",
+              "example": "Ich registriere mein Konto. = Zaregistroval jsem svůj účet."
+            },
+            {
+              "word": "buchen",
+              "meaning": "Rezervovat",
+              "example": "Ich buche einen Termin. = Zarezervoval jsem si čas."
+            },
+            {
+              "word": "melden",
+              "meaning": "Nahlásit / oznámit",
+              "example": "Ich melde das Problem. = Nahlásil jsem problém."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Anmelden obvykle znamená přihlásit se na kurz, test nebo akci."
+              },
+              {
+                "text": "U lékaře nebo instituce anmelden často znamená objednat se nebo zaregistrovat se."
+              }
+            ]
+          },
+          "important": {
+            "text": "Anmelden může být s nebo bez sich.",
+            "example": "Ich melde mich an = přihlašuji se. Ich melde mein Kind an = přihlašuji své dítě. Ich melde das Problem an = oznamuji problém."
+          },
+          "sectionAccents": "dítě",
+          "accents": {
+            "blue": [
+              "StandardStudy",
+              "Akcím",
+              "Objednat",
+              "Registrovat",
+              "Anmelden",
+              "Pieteikt",
+              "Systémům",
+              "Člověka",
+              "Kursiem",
+              "Znamenat",
+              "Oznámit",
+              "Účast",
+              "Skolai",
+              "Návštěvu",
+              "Lékaře",
+              "Lieto",
+              "Lietu"
+            ],
+            "green": [
+              "Sich anmelden",
+              "Přihlásit se",
+              "Registrovat"
+            ],
+            "yellow": [
+              "Registrieren",
+              "Objednat"
+            ],
+            "orange": [
+              "Pieteikties",
+              "Pieteikt",
+              "Nahlásit"
+            ],
+            "purple": [
+              "Přihlásit • Registrovat • Objednat • Oznámit",
+              "Přihlásit / registrovat / objednat",
+              "Přihlásit se / připojit se",
+              "Nahlásit / oznámit",
+              "Rezervovat",
+              "Melden"
+            ],
+            "red": [
+              "Oznámit",
+              "Buchen"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 35,
+      "productionIndex": 58,
+      "cardId": "a2-Anmeldung-58",
+      "targetObject": {
+        "de": "Anmeldung",
+        "de_article": "die",
+        "de_plural": "die Anmeldungen",
+        "lv": "Přihláška",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 36,
+      "productionIndex": 60,
+      "cardId": "a2-anordnen-60",
+      "targetObject": {
+        "de": "anordnen",
+        "lv": "Nařídit",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 37,
+      "productionIndex": 61,
+      "cardId": "a2-Anordnung-61",
+      "targetObject": {
+        "de": "Anordnung",
+        "de_article": "die",
+        "de_plural": "die Anordnungen",
+        "lv": "Nařízení",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 38,
+      "productionIndex": 63,
+      "cardId": "a2-anstecken",
+      "targetObject": {
+        "de": "anstecken",
+        "lv": "Připnout",
+        "level": "A2",
+        "study": {
+          "id": "a2-anstecken",
+          "layout": "standardStudy",
+          "translation": "Připnout",
+          "explanation": "anstecken znamená připnout, zapálit nebo nakazit... Může to také znamenat zapálit svíčku nebo cigaretu.",
+          "examples": [
+            {
+              "de": "Sie steckt sich eine Brosche an.",
+              "lv": "Připne si na sebe brož."
+            },
+            {
+              "de": "Er steckt die Kerze an.",
+              "lv": "Zapaluje svíčku."
+            },
+            {
+              "de": "Das Kind hat mich angesteckt.",
+              "lv": "To dítě mě nakazilo."
+            },
+            {
+              "de": "Ich möchte mich nicht anstecken.",
+              "lv": "Nechci se nakazit."
+            },
+            {
+              "de": "Sie steckt das Mikrofon an.",
+              "lv": "Připne mikrofon."
+            },
+            {
+              "de": "Grippe steckt leicht an.",
+              "lv": "Chřipka se snadno přenáší."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "anstecken",
+              "meaning": "Připíchnout / zapálit / nakazit",
+              "example": "Ich stecke die Kerze an. = Zapaluji svíčku."
+            },
+            {
+              "word": "stecken",
+              "meaning": "Strčit / být zasunutý",
+              "example": "Der Schlüssel steckt im Schloss. = Klíč je v zámku."
+            },
+            {
+              "word": "anzünden",
+              "meaning": "Zapálit",
+              "example": "Ich zünde die Kerze an. = Zapaluji svíčku."
+            },
+            {
+              "word": "sich anstecken",
+              "meaning": "Nakazit se",
+              "example": "Ich habe mich angesteckt. = Nakazil jsem se."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "S nemocemi znamená anstecken infikovat nebo se nakazit."
+              },
+              {
+                "text": "S broží, mikrofonem nebo odznakem anstecken znamená připnout."
+              }
+            ]
+          },
+          "important": {
+            "text": "Jemanden anstecken = nakazit někoho.",
+            "example": "Sich anstecken = nakazit se. Eine Brosche anstecken = připnout brož. Eine Kerze anstecken = zapálit svíčku."
+          },
+          "sectionAccents": "zapálit",
+          "accents": {
+            "blue": [
+              "StandardStudy",
+              "Zapálit",
+              "Odlišné",
+              "Nakazit se",
+              "Piespraust",
+              "Anstecken",
+              "Cigareti",
+              "V medicíně",
+              "Několik",
+              "Oblečení",
+              "Diezgan",
+              "Nakazit",
+              "Znamenat",
+              "Slovo",
+              "Sveci",
+              "Někoho"
+            ],
+            "green": [
+              "Zapálit",
+              "Atrasties",
+              "Stecken"
+            ],
+            "yellow": [
+              "Anzünden",
+              "Nakazit"
+            ],
+            "orange": [
+              "Piespraust",
+              "Strčit"
+            ],
+            "purple": [
+              "Připnout / zapálit / nakazit",
+              "Připnout • Zapálit • Nakazit",
+              "Strčit / být zasunutý",
+              "Nakazit se"
+            ],
+            "red": [
+              "Sich anstecken"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 39,
+      "productionIndex": 64,
+      "cardId": "a2-ansteckend-64",
+      "targetObject": {
+        "de": "ansteckend",
+        "lv": "Nakažlivý",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 40,
+      "productionIndex": 65,
+      "cardId": "a2-anstellen",
+      "targetObject": {
+        "de": "anstellen",
+        "lv": "Zapnout",
+        "level": "A2",
+        "study": {
+          "id": "a2-anstellen",
+          "layout": "standardStudy",
+          "translation": "Zapnout",
+          "explanation": "U osoby to může znamenat „zaměstnat“ nebo „přijmout do práce“. Hovorově etwas anstellen znamená něco provést nebo vyvést.",
+          "examples": [
+            {
+              "de": "Die Firma stellt neue Mitarbeiter an.",
+              "lv": "Společnost nabírá nové zaměstnance."
+            },
+            {
+              "de": "Kannst du die Heizung anstellen?",
+              "lv": "Můžeš zapnout topení?"
+            },
+            {
+              "de": "Wir stellen uns hinten an.",
+              "lv": "Stojíme na konci řady."
+            },
+            {
+              "de": "Was hast du wieder angestellt?",
+              "lv": "Co jsi zase provedl?"
+            },
+            {
+              "de": "Er wurde als Fahrer angestellt.",
+              "lv": "Byl přijat jako řidič."
+            },
+            {
+              "de": "Stell dich bitte nicht so an.",
+              "lv": "Prosím, nedělej z toho takový problém."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "anstellen",
+              "meaning": "Zaměstnat / zapnout / provést",
+              "example": "Die Firma stellt ihn an. = Firma ho zaměstnává."
+            },
+            {
+              "word": "einstellen",
+              "meaning": "Zaměstnat / nastavit",
+              "example": "Wir stellen neue Leute ein. = Nabíráme nové lidi."
+            },
+            {
+              "word": "anschalten",
+              "meaning": "Zapnout",
+              "example": "Ich schalte das Licht an. = Rozsvítil jsem světlo."
+            },
+            {
+              "word": "sich anstellen",
+              "meaning": "Stát ve frontě",
+              "example": "Ich stelle mich an. = Stál jsem ve frontě."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "V pracovním kontextu anstellen často znamená zaměstnat."
+              },
+              {
+                "text": "Sich anstellen je velmi hovorový výraz pro frontu."
+              }
+            ]
+          },
+          "important": {
+            "text": "Jemanden anstellen = najmout někoho.",
+            "example": "Sich anstellen = postavit se do fronty. Etwas anstellen = něco provést. Stell dich nicht so an! = Nedělej z toho takový problém!"
+          },
+          "sectionAccents": "postavit se",
+          "accents": {
+            "blue": [
+              "Mnohoznačný",
+              "StandardStudy",
+              "Hovorově",
+              "Anstellen",
+              "Postavit se",
+              "Činnosti",
+              "Člověka",
+              "Zapnout",
+              "Provést",
+              "Znamenat",
+              "Přijmout",
+              "Apkuri",
+              "Zařízení",
+              "Do práce",
+              "Ve frontě",
+              "Slovo"
+            ],
+            "green": [
+              "Zaměstnat",
+              "Einstellen",
+              "Nastavit"
+            ],
+            "yellow": [
+              "Postavit se do fronty",
+              "Anschalten",
+              "Provést"
+            ],
+            "orange": [
+              "Zapnout"
+            ],
+            "purple": [
+              "Zapnout • Zaměstnat • Postavit se do fronty • Provést",
+              "Zaměstnat / zapnout / provést",
+              "Zaměstnat / nastavit"
+            ],
+            "red": [
+              "Sich anstellen",
+              "Provést"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 41,
+      "productionIndex": 66,
+      "cardId": "a2-anstreichen-66",
+      "targetObject": {
+        "de": "anstreichen",
+        "lv": "Natřít",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 42,
+      "productionIndex": 67,
+      "cardId": "a2-anstrengend",
+      "targetObject": {
+        "de": "anstrengend",
+        "lv": "Náročný",
+        "level": "A2",
+        "study": {
+          "id": "a2-anstrengend",
+          "layout": "minimalStudy",
+          "translation": "Náročný",
+          "accent": "blue",
+          "examples": [
+            {
+              "de": "Der Job ist anstrengend.",
+              "lv": "Práce je vyčerpávající."
+            },
+            {
+              "de": "Das war ein anstrengender Tag.",
+              "lv": "Byl to náročný (únavný) den."
+            },
+            {
+              "de": "Deutsch lernen kann anstrengend sein.",
+              "lv": "Učení němčiny může být vyčerpávající."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "groupOrder": 43,
+      "productionIndex": 69,
+      "cardId": "a2-anwenden-69",
+      "targetObject": {
+        "de": "anwenden",
+        "lv": "Použít",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 44,
+      "productionIndex": 71,
+      "cardId": "a2-anwesend-71",
+      "targetObject": {
+        "de": "anwesend",
+        "lv": "Přítomný",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 45,
+      "productionIndex": 73,
+      "cardId": "a2-Anzahl-73",
+      "targetObject": {
+        "de": "Anzahl",
+        "de_article": "die",
+        "de_plural": "die Anzahlen",
+        "lv": "Počet",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 46,
+      "productionIndex": 76,
+      "cardId": "a2-Apotheke-76",
+      "targetObject": {
+        "de": "Apotheke",
+        "de_article": "die",
+        "de_plural": "die Apotheken",
+        "lv": "Lékárna",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 47,
+      "productionIndex": 78,
+      "cardId": "a2-Äquator-78",
+      "targetObject": {
+        "de": "Äquator",
+        "de_article": "der",
+        "de_plural": "die Äquatoren",
+        "lv": "Rovník",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 48,
+      "productionIndex": 83,
+      "cardId": "a2-ärgerlich-83",
+      "targetObject": {
+        "de": "ärgerlich",
+        "lv": "Nepříjemný",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 49,
+      "productionIndex": 88,
+      "cardId": "a2-art",
+      "targetObject": {
+        "de": "Art",
+        "de_article": "die",
+        "de_plural": "die Arten",
+        "lv": "Druh",
+        "level": "A2",
+        "study": {
+          "id": "a2-art",
+          "layout": "standardStudy",
+          "translation": "Druh",
+          "explanation": "Pouze v určitých kontextech může Art znamenat druh nebo typ.",
+          "examples": [
+            {
+              "de": "Auf diese Art lernen wir schneller.",
+              "lv": "Tímto způsobem se učíme rychleji."
+            },
+            {
+              "de": "Welche Art Kaffee möchten Sie?",
+              "lv": "Jakou kávu chceš?"
+            },
+            {
+              "de": "Das ist eine andere Art von Problem.",
+              "lv": "Je to jiný druh problému."
+            },
+            {
+              "de": "Ich mag diese Art von Musik.",
+              "lv": "Mám rád tento druh hudby."
+            },
+            {
+              "de": "Welche Art Hilfe brauchst du?",
+              "lv": "Jakou pomoc potřebuješ?"
+            },
+            {
+              "de": "Diese Art lebt nur in warmen Ländern.",
+              "lv": "Tento druh žije pouze v teplých zemích."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Pokud si nejste jisti, můžete si téměř vždy myslet: die Art = druh nebo způsob."
+              },
+              {
+                "text": "Fráze auf diese Art, auf welche Art a eine andere Art jsou téměř vždy o typu."
+              }
+            ]
+          },
+          "important": {
+            "text": "Hlavní význam je „druh“ nebo „způsob“.",
+            "example": "Druh a typ závisí na kontextu. Pro tuto A2 kartičku není potřeba další vzácný význam."
+          },
+          "sectionAccents": "kartičku",
+          "accents": {
+            "blue": [
+              "StandardStudy",
+              "Řešení",
+              "Nápoj",
+              "Die Art",
+              "Andere",
+              "Míněno",
+              "Ve frázích",
+              "Ptát se",
+              "Welche",
+              "Bieži",
+              "Darbs",
+              "Diese",
+              "Lieta",
+              "Lieto",
+              "Veida",
+              "Veids",
+              "Jaký",
+              "Art"
+            ],
+            "green": [
+              "Typ člověka",
+              "Způsob"
+            ],
+            "yellow": [
+              "Der Typ",
+              "Typ"
+            ],
+            "orange": [
+              "Tips"
+            ],
+            "purple": [
+              "Typ / typ člověka",
+              "Druh / způsob",
+              "Die Weise",
+              "Typ",
+              "Veids",
+              "Weise",
+              "Suga"
+            ],
+            "red": [
+              "Die Sorte",
+              "Sorte"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 50,
+      "productionIndex": 90,
+      "cardId": "a2-artikel",
+      "targetObject": {
+        "de": "Artikel",
+        "de_article": "der",
+        "de_plural": "die Artikel",
+        "lv": "Článek",
+        "level": "A2",
+        "study": {
+          "id": "a2-artikel",
+          "layout": "standardStudy",
+          "translation": "Článek",
+          "explanation": "der Artikel znamená článek, zboží, gramatický člen nebo článek zákona... V gramatice je Artikel člen, například der, die, das.",
+          "examples": [
+            {
+              "de": "Ich lese einen Artikel in der Zeitung.",
+              "lv": "Čtu článek v novinách."
+            },
+            {
+              "de": "Der Artikel im Internet ist interessant.",
+              "lv": "Článek na internetu je zajímavý."
+            },
+            {
+              "de": "Dieser Artikel kostet zehn Euro.",
+              "lv": "Tato položka stojí deset eur."
+            },
+            {
+              "de": "Der Artikel ist heute im Angebot.",
+              "lv": "Toto zboží je dnes v prodeji."
+            },
+            {
+              "de": "Der Artikel von „Haus“ ist „das“.",
+              "lv": "Člen slova \"Haus\" je \"das\"."
+            },
+            {
+              "de": "Artikel 5 steht im Gesetz.",
+              "lv": "Článek 5 je v zákoně."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Artikel",
+              "meaning": "Článek / zboží / člen / článek zákona",
+              "example": "Der Artikel ist kurz. = Článek je krátký."
+            },
+            {
+              "word": "der Zeitungsartikel",
+              "meaning": "Novinový článek",
+              "example": "Der Zeitungsartikel ist neu. = Článek v novinách je nový."
+            },
+            {
+              "word": "die Ware",
+              "meaning": "Položka",
+              "example": "Die Ware ist teuer. = Produkt je drahý."
+            },
+            {
+              "word": "der bestimmte Artikel",
+              "meaning": "Určitý člen",
+              "example": "Der bestimmte Artikel ist „der“. = Určitý člen je \"der\"."
+            },
+            {
+              "word": "der Paragraph",
+              "meaning": "Paragraf / článek",
+              "example": "Der Paragraph ist wichtig. = Paragraf je důležitý."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "V textech a médiích Artikel obvykle znamená článek."
+              },
+              {
+                "text": "V obchodě nebo gramatice se význam Artikel mění: zboží nebo gramatický člen."
+              }
+            ]
+          },
+          "important": {
+            "text": "Artikel je kontextové slovo.",
+            "example": "Zeitungsartikel = článek. Artikel im Geschäft = zboží. Artikel in der Grammatik = člen. Artikel im Gesetz = článek zákona."
+          },
+          "sectionAccents": "význam",
+          "accents": {
+            "blue": [
+              "StandardStudy",
+              "Der Artikel",
+              "V gramatice",
+              "Na internetu",
+              "Právní",
+              "Artikuls",
+              "Artikulu",
+              "Například",
+              "Artikel",
+              "Znamenat",
+              "V obchodě",
+              "V časopise",
+              "Raksts",
+              "Rakstu",
+              "V novinách",
+              "Pants",
+              "Prece",
+              "Preci"
+            ],
+            "green": [
+              "Der Zeitungsartikel",
+              "Zeitungsartikel",
+              "Prece"
+            ],
+            "yellow": [
+              "Artikuls",
+              "Die Ware",
+              "Ware"
+            ],
+            "orange": [
+              "Paragraf",
+              "Raksts"
+            ],
+            "purple": [
+              "Raksts • Prece • Artikuls • Pants",
+              "Noteiktais artikuls",
+              "Paragraf / článek zákona",
+              "Novinový článek",
+              "Der Paragraph",
+              "Paragraph"
+            ],
+            "red": [
+              "Der bestimmte Artikel",
+              "Bestimmte Artikel",
+              "Pants"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

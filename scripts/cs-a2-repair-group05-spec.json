@@ -1,0 +1,4681 @@
+{
+  "title": "CS–DE A2 Repair Group 05",
+  "scope": "Unique finding cards 201–250 from reports/cs-a2-all-findings-by-card.md",
+  "authoritativeRules": [
+    "Composer is COPY-ONLY.",
+    "Copy targetObject exactly; do not translate, infer, improve, or add repairs.",
+    "Front contains one principal Czech meaning; additional meanings remain in Study where pedagogically useful.",
+    "DE side is strictly READ-ONLY. Any DE mismatch must be blocked and reported.",
+    "Do not change cards outside this group."
+  ],
+  "cards": [
+    {
+      "groupOrder": 201,
+      "productionIndex": 417,
+      "cardId": "a2-Erdgeschoss-417",
+      "targetObject": {
+        "de": "Erdgeschoss",
+        "de_article": "das",
+        "de_plural": "die Erdgeschosse",
+        "lv": "Přízemí",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 202,
+      "productionIndex": 418,
+      "cardId": "a2-erfahren",
+      "targetObject": {
+        "de": "erfahren",
+        "lv": "Dozvědět se",
+        "level": "A2",
+        "study": {
+          "id": "a2-erfahren",
+          "layout": "standardStudy",
+          "translation": "Dozvědět se",
+          "explanation": "Hlavní myšlenka: erfahren znamená dozvědět se informace nebo něco zažít. V běžném životě to velmi často znamená dozvědět se nějakou zprávu, fakt nebo novou informaci. V jiném kontextu to znamená prožít nebo prožít situaci. erfahren není totéž co wissen, protože wissen znamená již vědět. U člověka znamená přídavné jméno erfahren „zkušený“.",
+          "examples": [
+            {
+              "de": "Ich habe die Nachricht erst heute erfahren.",
+              "lv": "Teprve dnes jsem se o té zprávě dozvěděl."
+            },
+            {
+              "de": "Wann hast du davon erfahren?",
+              "lv": "Kdy ses o tom dozvěděl?"
+            },
+            {
+              "de": "Sie erfährt die Wahrheit.",
+              "lv": "Se dozví pravdu."
+            },
+            {
+              "de": "Wir haben viel Unterstützung erfahren.",
+              "lv": "Zažili jsme velkou podporu."
+            },
+            {
+              "de": "Er ist ein erfahrener Arzt.",
+              "lv": "Je to zkušený lékař."
+            },
+            {
+              "de": "Ich weiß die Antwort schon.",
+              "lv": "Odpověď už znám."
+            }
+          ],
+          "tip": [
+            "Pokud k vám informace přicházejí poprvé, němčina často používá erfahren.",
+            "Pokud již tyto informace znáte, použijte wissen."
+          ],
+          "important": [
+            "Erfahren = dozvědět se nové informace.",
+            "Wissen = znát již existující informace.",
+            "Erleben = zažít situaci.",
+            "Erfahren jako přídavné jméno znamená zkušený."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "erfahren"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "red": [
+                "wissen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "erfahren"
+                  ],
+                  "yellow": [
+                    "Nachricht"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Právě"
+                  ],
+                  "yellow": [
+                    "Právě"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "erfahren"
+                  ],
+                  "purple": [
+                    "davon"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kdy",
+                    "Kdy"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "erfährt"
+                  ],
+                  "yellow": [
+                    "Wahrheit"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "dozví"
+                  ],
+                  "yellow": [
+                    "dozví"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "erfahren"
+                  ],
+                  "yellow": [
+                    "Unterstützung"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dostali"
+                  ],
+                  "yellow": [
+                    "Dostali"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "erfahrener"
+                  ],
+                  "green": [
+                    "Arzt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "zkušený"
+                  ],
+                  "green": [
+                    "zkušený"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "weiß"
+                  ],
+                  "yellow": [
+                    "Antwort"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Odpověď"
+                  ],
+                  "yellow": [
+                    "Odpověď"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": [
+              {
+                "text": {
+                  "blue": [
+                    "erfahren"
+                  ],
+                  "purple": [
+                    "Pokud"
+                  ],
+                  "yellow": [
+                    "Pokud"
+                  ]
+                }
+              },
+              {
+                "text": {
+                  "red": [
+                    "wissen"
+                  ],
+                  "purple": [
+                    "Pokud"
+                  ]
+                }
+              }
+            ],
+            "important": [
+              {
+                "text": {
+                  "blue": [
+                    "erfahren"
+                  ],
+                  "purple": [
+                    "Erfahren"
+                  ]
+                }
+              },
+              {
+                "text": {
+                  "red": [
+                    "wissen"
+                  ],
+                  "purple": [
+                    "Wissen"
+                  ]
+                }
+              },
+              {
+                "text": {
+                  "yellow": [
+                    "erleben"
+                  ],
+                  "purple": [
+                    "Erleben"
+                  ]
+                }
+              },
+              {
+                "text": {
+                  "blue": [
+                    "erfahren"
+                  ],
+                  "purple": [
+                    "Erfahren"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 203,
+      "productionIndex": 420,
+      "cardId": "a2-erinnern",
+      "targetObject": {
+        "de": "erinnern",
+        "lv": "Připomenout",
+        "level": "A2",
+        "study": {
+          "id": "a2-erinnern",
+          "layout": "standardStudy",
+          "translation": "Připomenout",
+          "explanation": [
+            "Hlavní myšlenka: erinnern bez sich znamená připomínat, ale sich erinnern znamená pamatovat.",
+            "Erinnern se používá, když jedna osoba nebo jedna věc někomu něco připomíná.",
+            "Sich erinnern se používá, když si člověk něco sám pamatuje.",
+            "Tvar sich erinnern obvykle potřebuje zvratné zájmeno: ich erinnere mich, du erinnerst dich.",
+            "Je proto důležité na úrovni A2 nezaměňovat erinnern se sich erinnern.",
+            "V češtině jsou obě slova podobná, ale v němčině se význam mění na sich."
+          ],
+          "examples": [
+            {
+              "de": "Kannst du mich morgen daran erinnern?",
+              "lv": "Můžeš mi zítra připomenout"
+            },
+            {
+              "de": "Der Termin erinnert mich an den Arzt.",
+              "lv": "Schůzka mi připomíná lékaře."
+            },
+            {
+              "de": "Das Foto erinnert mich an meine Kindheit.",
+              "lv": "Ta fotka mi připomíná dětství."
+            },
+            {
+              "de": "Ich erinnere mich an dich.",
+              "lv": "Pamatuji si tě"
+            },
+            {
+              "de": "Er erinnert sich nicht an den Namen.",
+              "lv": "Nepamatuje si jméno."
+            },
+            {
+              "de": "Wir erinnern uns an den Urlaub.",
+              "lv": "Vzpomínáme na prázdniny."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "erinnern",
+              "meaning": "Připomenout",
+              "example": "Erinnere mich bitte daran. = Prosím, připomeňte mi to."
+            },
+            {
+              "word": "sich erinnern",
+              "meaning": "Pamatovat si",
+              "example": "Ich erinnere mich daran. = To si pamatuji."
+            },
+            {
+              "word": "vergessen",
+              "meaning": "Zapomenout",
+              "example": "Ich vergesse den Termin. = Zapomínám na schůzku."
+            },
+            {
+              "word": "denken an",
+              "meaning": "Přemýšlet o / pamatovat si udělat",
+              "example": "Denk an den Schlüssel. = Pamatujte si klíč."
+            }
+          ],
+          "tip": [
+            "Pokud věta obsahuje mich, dich, sich, uns nebo euch, význam je velmi často k zapamatování.",
+            "Pokud vám někdo něco říká, abyste nezapomněli, použijte erinnern ve významu připomenout."
+          ],
+          "important": [
+            "Erinnern = připomínat.",
+            "Sich erinnern = pamatovat si nebo vzpomínat si.",
+            "Ich erinnere dich = připomínám ti.",
+            "Ich erinnere mich = vzpomínám."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "erinnern",
+                "sich erinnern"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "sich",
+                "mich",
+                "dich"
+              ],
+              "red": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "erinnern"
+                  ],
+                  "green": [
+                    "mich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Můžeš"
+                  ],
+                  "green": [
+                    "Můžeš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "erinnert"
+                  ],
+                  "green": [
+                    "mich"
+                  ],
+                  "yellow": [
+                    "Termin"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Schůzka"
+                  ],
+                  "yellow": [
+                    "Schůzka"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "erinnert"
+                  ],
+                  "green": [
+                    "mich"
+                  ],
+                  "yellow": [
+                    "Foto"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "fotka"
+                  ],
+                  "yellow": [
+                    "fotka"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "erinnere"
+                  ],
+                  "green": [
+                    "mich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Pamatuji"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "erinnert"
+                  ],
+                  "green": [
+                    "sich"
+                  ],
+                  "yellow": [
+                    "Namen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nepamatuje"
+                  ],
+                  "yellow": [
+                    "Nepamatuje"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "erinnern"
+                  ],
+                  "green": [
+                    "uns"
+                  ],
+                  "yellow": [
+                    "Urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vzpomínáme"
+                  ],
+                  "yellow": [
+                    "Vzpomínáme"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "erinnern"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Připomenout"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Erinnere"
+                  ],
+                  "purple": [
+                    "Erinnere"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "sich"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Pamatovat"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "erinnere"
+                  ],
+                  "green": [
+                    "mich"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "vergessen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Zapomenout"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "vergesse"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "denken an"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Přemýšlet",
+                    "Přemýšlet"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Denk an"
+                  ],
+                  "purple": [
+                    "Denk"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "text": {
+                  "green": [
+                    "mich",
+                    "dich",
+                    "sich",
+                    "uns",
+                    "euch"
+                  ],
+                  "purple": [
+                    "Pokud"
+                  ]
+                }
+              },
+              {
+                "text": {
+                  "blue": [
+                    "erinnern"
+                  ],
+                  "purple": [
+                    "Pokud"
+                  ],
+                  "red": [
+                    "Pokud"
+                  ]
+                }
+              }
+            ],
+            "important": [
+              {
+                "text": {
+                  "blue": [
+                    "erinnern"
+                  ],
+                  "purple": [
+                    "Erinnern"
+                  ]
+                }
+              },
+              {
+                "text": {
+                  "blue": [
+                    "sich erinnern"
+                  ],
+                  "purple": [
+                    "Sich"
+                  ]
+                }
+              },
+              {
+                "text": {
+                  "blue": [
+                    "erinnere"
+                  ],
+                  "green": [
+                    "dich"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "text": {
+                  "blue": [
+                    "erinnere"
+                  ],
+                  "green": [
+                    "mich"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 204,
+      "productionIndex": 423,
+      "cardId": "a2-erkennen-423",
+      "targetObject": {
+        "de": "erkennen",
+        "lv": "Rozpoznat",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 205,
+      "productionIndex": 424,
+      "cardId": "a2-erklären-424",
+      "targetObject": {
+        "de": "erklären",
+        "lv": "Vysvětlit",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 206,
+      "productionIndex": 425,
+      "cardId": "a2-erlauben-425",
+      "targetObject": {
+        "de": "erlauben",
+        "lv": "Dovolit",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 207,
+      "productionIndex": 427,
+      "cardId": "a2-ernst-427",
+      "targetObject": {
+        "de": "ernst",
+        "lv": "Vážný",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 208,
+      "productionIndex": 428,
+      "cardId": "a2-erreichen-428",
+      "targetObject": {
+        "de": "erreichen",
+        "lv": "Dosáhnout",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 209,
+      "productionIndex": 431,
+      "cardId": "a2-erwärmen-431",
+      "targetObject": {
+        "de": "erwärmen",
+        "lv": "Zahřát",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 210,
+      "productionIndex": 433,
+      "cardId": "a2-erzählen-433",
+      "targetObject": {
+        "de": "erzählen",
+        "lv": "Vyprávět",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 211,
+      "productionIndex": 439,
+      "cardId": "a2-etwa",
+      "targetObject": {
+        "de": "etwa",
+        "lv": "Přibližně",
+        "level": "A2",
+        "study": {
+          "id": "a2-etwa",
+          "layout": "standardStudy",
+          "translation": "Přibližně",
+          "explanation": [
+            "Hlavní myšlenka: etwa znamená asi, ale často vyjadřuje překvapení, pochybnosti nebo pokárání v otázkách jako „nebo snad, copak či opravdu“ nebo „opravdu“.",
+            "Etwa + číslo obvykle znamená asi.",
+            "Stojí to asi 10 eur. = Stojí to asi 10 eur.",
+            "Etwa často není jednoduché \"možná\" v otázce.",
+            "Hast du das etwa vergessen? = Pak jsi na to zapomněl?",
+            "S čísly jsou etwa a ungefähr často velmi podobné, ale ungefähr je neutrálnější a velmi často se používá s čísly.",
+            "V otázkách může etwa dát zvláštní odstín, který ungefähr nemá."
+          ],
+          "examples": [
+            {
+              "de": "Das kostet etwa 10 Euro.",
+              "lv": "Stojí to asi 10 eur."
+            },
+            {
+              "de": "Das dauert etwa 20 Minuten.",
+              "lv": "Trvá to asi 20 minut."
+            },
+            {
+              "de": "Wir brauchen etwa zwei Stunden.",
+              "lv": "Potřebujeme asi dvě hodiny."
+            },
+            {
+              "de": "Hast du das etwa vergessen?",
+              "lv": "To jsi snad zapomněl?"
+            },
+            {
+              "de": "Bist du etwa krank?",
+              "lv": "Jsi pak nemocný?"
+            },
+            {
+              "de": "Willst du etwa gehen?",
+              "lv": "Chceš pak odejít?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "etwa",
+              "meaning": "Asi • v otázkách také snad / copak / opravdu",
+              "example": "Das dauert etwa 20 Minuten. = Trvá to asi 20 minut."
+            },
+            {
+              "word": "ungefähr",
+              "meaning": "Asi / přibližně, neutrální",
+              "example": "Das dauert ungefähr 20 Minuten. = Trvá to asi 20 minut."
+            },
+            {
+              "word": "etwa?",
+              "meaning": "Nebo pak / opravdu v otázce",
+              "example": "Hast du das etwa vergessen? = Zapomněl jsi na to?"
+            },
+            {
+              "word": "vielleicht",
+              "meaning": "Možná",
+              "example": "Vielleicht kommt er. = Možná přijde."
+            }
+          ],
+          "tip": [
+            "Pokud etwa stojí s číslem, nejprve přemýšlejte „o“.",
+            "Pokud se jedná o etwa, zkontrolujte, zda „nebo pak“ nebo „opravdu“ zní v češtině přirozeněji."
+          ],
+          "important": [
+            "Etwa + číslo = asi.",
+            "Gäffer + číslo = asi / přibližně, neutrálnější.",
+            "Např. v otázce může být vyjádřeno překvapení, pochybnost nebo výtka.",
+            "Hast du das etwa vergessen? = Pak jsi na to zapomněl?"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "etwa",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní"
+              ],
+              "red": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "yellow": [
+                "Hlavní",
+                "10 eur",
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "etwa"
+                  ],
+                  "yellow": [
+                    "10 Euro"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Stojí"
+                  ],
+                  "yellow": [
+                    "Stojí"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "etwa"
+                  ],
+                  "yellow": [
+                    "20 Minuten"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Trvá"
+                  ],
+                  "yellow": [
+                    "Trvá"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "etwa"
+                  ],
+                  "yellow": [
+                    "zwei Stunden"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Potřebujeme"
+                  ],
+                  "yellow": [
+                    "Potřebujeme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "etwa"
+                  ],
+                  "red": [
+                    "vergessen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Pak"
+                  ],
+                  "red": [
+                    "Pak"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "etwa"
+                  ],
+                  "green": [
+                    "krank"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jsi"
+                  ],
+                  "green": [
+                    "Jsi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "etwa"
+                  ],
+                  "purple": [
+                    "gehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Chceš",
+                    "Chceš"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "etwa"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "otázkách",
+                    "otázkách",
+                    "otázkách"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "etwa"
+                  ],
+                  "purple": [
+                    "Das"
+                  ],
+                  "yellow": [
+                    "20 Minuten",
+                    "20 Minuten"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ungefähr"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Asi"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "ungefähr"
+                  ],
+                  "purple": [
+                    "Das"
+                  ],
+                  "yellow": [
+                    "20 Minuten",
+                    "20 Minuten"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "etwa"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Nebo",
+                    "Nebo"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "etwa"
+                  ],
+                  "purple": [
+                    "Hast"
+                  ],
+                  "red": [
+                    "vergessen",
+                    "Hast"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "vielleicht"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Možná"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Vielleicht"
+                  ],
+                  "purple": [
+                    "Vielleicht"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "text": {
+                  "blue": [
+                    "etwa"
+                  ],
+                  "purple": [
+                    "Pokud"
+                  ],
+                  "yellow": [
+                    "Pokud"
+                  ]
+                }
+              },
+              {
+                "text": {
+                  "blue": [
+                    "etwa"
+                  ],
+                  "purple": [
+                    "Pokud",
+                    "Pokud"
+                  ],
+                  "yellow": [
+                    "Pokud"
+                  ]
+                }
+              }
+            ],
+            "important": [
+              {
+                "text": {
+                  "blue": [
+                    "etwa"
+                  ],
+                  "purple": [
+                    "Etwa"
+                  ],
+                  "yellow": [
+                    "Etwa"
+                  ]
+                }
+              },
+              {
+                "text": {
+                  "green": [
+                    "Gäffer"
+                  ],
+                  "purple": [
+                    "Gäffer",
+                    "Gäffer"
+                  ]
+                }
+              },
+              {
+                "text": {
+                  "blue": [
+                    "Např"
+                  ],
+                  "red": [
+                    "Např",
+                    "Např",
+                    "Např"
+                  ]
+                }
+              },
+              {
+                "text": {
+                  "blue": [
+                    "etwa"
+                  ],
+                  "purple": [
+                    "Hast"
+                  ],
+                  "red": [
+                    "vergessen",
+                    "Hast"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 212,
+      "productionIndex": 441,
+      "cardId": "a2-Europäer-441",
+      "targetObject": {
+        "de": "Europäer",
+        "de_article": "der",
+        "de_plural": "die Europäer",
+        "lv": "Evropan",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 213,
+      "productionIndex": 443,
+      "cardId": "a2-Fabrik-443",
+      "targetObject": {
+        "de": "Fabrik",
+        "de_article": "die",
+        "de_plural": "die Fabriken",
+        "lv": "Továrna",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 214,
+      "productionIndex": 444,
+      "cardId": "a2-fach",
+      "targetObject": {
+        "de": "Fach",
+        "de_article": "das",
+        "de_plural": "die Fächer",
+        "lv": "Přihrádka",
+        "level": "A2",
+        "study": {
+          "id": "a2-fach",
+          "layout": "standardStudy",
+          "translation": "Přihrádka",
+          "explanation": [
+            "Hlavní myšlenka: das Fach znamená přihrádku, předmět nebo odborný obor v závislosti na kontextu.",
+            "Ve skříni, tašce nebo poličce znamená Fach přihrádku.",
+            "Ve škole znamená Fach předmět.",
+            "V profesionálním prostředí může Fach znamenat obor, specializaci nebo profesní oblast.",
+            "Fráze vom Fach sein znamená být specialistou v oboru.",
+            "Fach tedy není jen fyzický úložný prostor."
+          ],
+          "examples": [
+            {
+              "de": "Leg das Buch ins obere Fach.",
+              "lv": "Vložte knihu do horní přihrádky."
+            },
+            {
+              "de": "Mathe ist mein Lieblingsfach.",
+              "lv": "Matematika je můj oblíbený předmět."
+            },
+            {
+              "de": "Deutsch ist ein wichtiges Fach.",
+              "lv": "Němčina je důležitý předmět."
+            },
+            {
+              "de": "Er arbeitet in diesem Fach seit Jahren.",
+              "lv": "V tomto odvětví pracuje již léta."
+            },
+            {
+              "de": "Sie ist vom Fach.",
+              "lv": "Je odbornicí v této oblasti."
+            },
+            {
+              "de": "Das Fach im Schrank ist leer.",
+              "lv": "Přihrádka ve skříni je prázdná."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das Fach",
+              "meaning": "Přihrádka / předmět / obor",
+              "example": "Das Fach ist leer. = Přihrádka je prázdná."
+            },
+            {
+              "word": "das Schulfach",
+              "meaning": "Předmět studia",
+              "example": "Biologie ist ein Schulfach. = Biologie je předmět."
+            },
+            {
+              "word": "das Schrankfach",
+              "meaning": "Skříňová přihrádka",
+              "example": "Das Schrankfach ist klein. = Skříňka je malá."
+            },
+            {
+              "word": "das Fachgebiet",
+              "meaning": "Specializace / obor",
+              "example": "Das ist mein Fachgebiet. = To je moje specialita."
+            },
+            {
+              "word": "der Beruf",
+              "meaning": "Profese",
+              "example": "Mein Beruf ist Lehrer. = Moje profese je učitel."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Ve škole znamená Fach předmět."
+              },
+              {
+                "text": "Ve skříni, tašce nebo poličce znamená Fach přihrádku."
+              }
+            ]
+          },
+          "important": {
+            "text": "Fach může být jak fyzická lokalita, tak studijní obor nebo profese.",
+            "example": "Schrankfach = přihrádka ve skříni. Schulfach = školní předmět. Fachgebiet = odborný obor."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "obere",
+                    "Buch",
+                    "Fach"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vložte",
+                    "Vložte",
+                    "Vložte",
+                    "Vložte"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Lieblingsfach",
+                    "Mathe"
+                  ]
+                },
+                "lv": {
+                  "green": [
+                    "Matematika"
+                  ],
+                  "purple": [
+                    "matematika",
+                    "Matematika",
+                    "Matematika",
+                    "Matematika"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "wichtiges",
+                    "Deutsch",
+                    "Fach"
+                  ]
+                },
+                "lv": {
+                  "green": [
+                    "Němčina"
+                  ],
+                  "purple": [
+                    "Němčina",
+                    "Němčina",
+                    "Němčina",
+                    "Němčina",
+                    "Němčina",
+                    "Němčina"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "arbeitet",
+                    "diesem",
+                    "Jahren",
+                    "Fach",
+                    "seit"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "tomto",
+                    "tomto",
+                    "tomto",
+                    "tomto"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Fach"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "odbornicí",
+                    "odbornicí",
+                    "odbornicí"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "das Fach",
+                    "Schrank",
+                    "Fach",
+                    "leer"
+                  ]
+                },
+                "lv": {
+                  "orange": [
+                    "Přihrádka"
+                  ],
+                  "purple": [
+                    "Přihrádka",
+                    "Přihrádka",
+                    "Přihrádka"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "das Fach",
+                    "Fach"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Oddělení",
+                    "Oddělení",
+                    "Oddělení",
+                    "Oddělení"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Das",
+                    "das Fach",
+                    "Das",
+                    "Fach",
+                    "leer"
+                  ],
+                  "orange": [
+                    "Das"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "das Schulfach",
+                    "Schulfach"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Předmět",
+                    "Předmět",
+                    "Předmět"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Biologie",
+                    "Biologie",
+                    "Schulfach",
+                    "Biologie",
+                    "Biologie"
+                  ],
+                  "purple": [
+                    "Biologie"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "das Schrankfach",
+                    "Schrankfach"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Skříňová",
+                    "Skříňová",
+                    "Skříňová"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "das Schrankfach",
+                    "Schrankfach",
+                    "Das",
+                    "Das",
+                    "klein",
+                    "Das"
+                  ],
+                  "orange": [
+                    "Das"
+                  ],
+                  "purple": [
+                    "Das"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "das Fachgebiet",
+                    "Fachgebiet"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Specialita",
+                    "Specialita",
+                    "Specialita"
+                  ]
+                },
+                "example": {
+                  "orange": [
+                    "specialita"
+                  ],
+                  "red": [
+                    "specialita",
+                    "Fachgebiet",
+                    "Das"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "purple": [
+                    "der Beruf",
+                    "beruf"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Profese"
+                  ]
+                },
+                "example": {
+                  "purple": [
+                    "Mein",
+                    "Mein",
+                    "lehrer",
+                    "beruf",
+                    "Mein"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "leftBlocks": [
+                {
+                  "text": {
+                    "blue": [
+                      "Fach"
+                    ],
+                    "green": [
+                      "priekšmets"
+                    ],
+                    "purple": [
+                      "školní předmět"
+                    ],
+                    "yellow": [
+                      "priekšmets",
+                      "školní",
+                      "Ve škole",
+                      "Fach"
+                    ]
+                  }
+                },
+                {
+                  "text": {
+                    "blue": [
+                      "Fach"
+                    ],
+                    "orange": [
+                      "přihrádka"
+                    ],
+                    "yellow": [
+                      "přihrádka",
+                      "na polici",
+                      "Ve skříni",
+                      "Fach",
+                      "v tašce"
+                    ]
+                  }
+                }
+              ]
+            },
+            "important": [
+              {
+                "text": {
+                  "blue": [
+                    "Fach"
+                  ],
+                  "red": [
+                    "Fach",
+                    "Fach",
+                    "školní",
+                    "Fach",
+                    "Fach",
+                    "Fach"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "priekšmets",
+                    "Schulfach"
+                  ],
+                  "yellow": [
+                    "Schrankfach"
+                  ],
+                  "orange": [
+                    "odborný obor",
+                    "přihrádka"
+                  ],
+                  "purple": [
+                    "školní předmět",
+                    "přihrádka ve skříni"
+                  ],
+                  "red": [
+                    "Schrankfach",
+                    "Fachgebiet",
+                    "přihrádka",
+                    "priekšmets",
+                    "Schulfach",
+                    "školní",
+                    "skapja"
+                  ]
+                }
+              }
+            ],
+            "explanation": {
+              "blue": [
+                "das Fach",
+                "Fach",
+                "vom Fach sein"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní",
+                "specializaci"
+              ],
+              "green": [
+                "škole",
+                "Hlavní",
+                "specialistou"
+              ],
+              "yellow": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ]
+            }
+          },
+          "accents": {
+            "blue": [
+              "StandardStudy",
+              "Odborný",
+              "Obor",
+              "Přihrádka",
+              "Přihrádku",
+              "Priekšmets",
+              "Priekšmetu",
+              "Das Fach",
+              "Znamenat",
+              "Na polici",
+              "Školní",
+              "Nozare",
+              "Nozari",
+              "Ve skříni",
+              "Ve škole",
+              "Fach",
+              "Somā",
+              "Vidē"
+            ],
+            "green": [
+              "Das Schulfach",
+              "Priekšmets",
+              "Schulfach"
+            ],
+            "yellow": [
+              "Das Schrankfach",
+              "Schrankfach",
+              "Nozare"
+            ],
+            "orange": [
+              "Specialitāte",
+              "Přihrádka"
+            ],
+            "purple": [
+              "Nodalījums / priekšmets / nozare",
+              "Nodalījums • Priekšmets • Nozare",
+              "Specialitāte / nozare",
+              "Mācību priekšmets",
+              "Skapja nodalījums",
+              "Der Beruf",
+              "Profesija",
+              "Beruf"
+            ],
+            "red": [
+              "Das Fachgebiet",
+              "Fachgebiet"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 215,
+      "productionIndex": 449,
+      "cardId": "a2-Fahrer-449",
+      "targetObject": {
+        "de": "Fahrer",
+        "de_article": "der",
+        "de_plural": "die Fahrer",
+        "lv": "Řidič",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 216,
+      "productionIndex": 452,
+      "cardId": "a2-Fahrt-452",
+      "targetObject": {
+        "de": "Fahrt",
+        "de_article": "die",
+        "de_plural": "die Fahrten",
+        "lv": "Jízda",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 217,
+      "productionIndex": 455,
+      "cardId": "a2-fall",
+      "targetObject": {
+        "de": "Fall",
+        "de_article": "der",
+        "de_plural": "die Fälle",
+        "lv": "Případ",
+        "level": "A2",
+        "study": {
+          "id": "a2-fall",
+          "layout": "standardStudy",
+          "translation": "Případ",
+          "explanation": [
+            "Hlavní myšlenka: der Fall znamená případ, pád, skloňování nebo právní záležitost v závislosti na kontextu.",
+            "V každodenním životě to často znamená případ nebo situaci.",
+            "Ve fyzickém smyslu může pád znamenat pád.",
+            "V gramatice pád znamená skloňování, jako co? nebo kde?.",
+            "V právní řeči je Fall případ nebo případ u soudu.",
+            "Fráze v diesem Fall znamená „v tomto případě“."
+          ],
+          "examples": [
+            {
+              "de": "In diesem Fall bleibe ich zu Hause.",
+              "lv": "V tomto případě zůstávám doma."
+            },
+            {
+              "de": "Das ist ein besonderer Fall.",
+              "lv": "Je to zvláštní případ."
+            },
+            {
+              "de": "Der Fall von der Treppe war gefährlich.",
+              "lv": "Pád ze schodů byl nebezpečný."
+            },
+            {
+              "de": "Der Dativ ist ein Fall in der Grammatik.",
+              "lv": "Dativ je skloňování v gramatice."
+            },
+            {
+              "de": "Der Fall kommt vor Gericht.",
+              "lv": "Případ jde k soudu."
+            },
+            {
+              "de": "Auf keinen Fall mache ich das.",
+              "lv": "V žádném případě nebudu."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Fall",
+              "meaning": "Případ / pád / gramatický pád / soudní případ",
+              "example": "In diesem Fall komme ich. = V tomto případě přijedu."
+            },
+            {
+              "word": "der Unfall",
+              "meaning": "Nehoda",
+              "example": "Der Unfall war schlimm. = Nehoda byla vážná."
+            },
+            {
+              "word": "die Situation",
+              "meaning": "Situace",
+              "example": "Die Situation ist schwierig. = Situace je obtížná."
+            },
+            {
+              "word": "der Kasus",
+              "meaning": "Gramatický pád",
+              "example": "Der Kasus ist wichtig. = Záhyb je důležitý."
+            },
+            {
+              "word": "der Gerichtsfall",
+              "meaning": "Soudní případ",
+              "example": "Der Gerichtsfall dauert lange. = Soudní řízení trvá dlouho."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "In diesem Fall je velmi častá fráze a znamená 'v tomto případě'."
+              },
+              {
+                "text": "V gramatickém kontextu znamená pád téměř vždy skloňování."
+              }
+            ]
+          },
+          "important": {
+            "text": "Fall může označovat každodenní případ i gramatický termín.",
+            "example": "In diesem Fall = v tomto případě. der Wem-Fall = dativ. ein Fall vor Gericht = soudní případ."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "bleibe",
+                    "diesem",
+                    "Hause",
+                    "Fall"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "tomto",
+                    "tomto",
+                    "tomto",
+                    "tomto"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "besonderer",
+                    "Fall"
+                  ]
+                },
+                "lv": {
+                  "orange": [
+                    "zvláštní"
+                  ],
+                  "purple": [
+                    "zvláštní",
+                    "zvláštní"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gefährlich",
+                    "der Fall",
+                    "Treppe",
+                    "Fall"
+                  ]
+                },
+                "lv": {
+                  "green": [
+                    "Pád"
+                  ],
+                  "purple": [
+                    "Pád",
+                    "Pád",
+                    "Pád"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Grammatik",
+                    "Dativ",
+                    "Fall"
+                  ]
+                },
+                "lv": {
+                  "yellow": [
+                    "Dativ"
+                  ],
+                  "purple": [
+                    "gramatice",
+                    "Dativ",
+                    "Dativ"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "der Fall",
+                    "Gericht",
+                    "kommt",
+                    "Fall"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Případ"
+                  ],
+                  "purple": [
+                    "Případ",
+                    "Případ",
+                    "Případ"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "keinen",
+                    "mache",
+                    "Fall"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "žádném",
+                    "žádném",
+                    "žádném"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "der Fall",
+                    "Fall"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Pouzdro",
+                    "Pouzdro",
+                    "Pouzdro",
+                    "Pouzdro"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "diesem",
+                    "diesem",
+                    "komme",
+                    "diesem",
+                    "Fall",
+                    "diesem"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "der Unfall",
+                    "Unfall"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Nehoda"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "der Unfall",
+                    "Der",
+                    "schlimm",
+                    "Unfall",
+                    "Der"
+                  ],
+                  "purple": [
+                    "Der"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Situation",
+                    "Situation"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Situaci"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "die Situation",
+                    "schwierig",
+                    "Situation",
+                    "Die",
+                    "Die"
+                  ],
+                  "purple": [
+                    "Die"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "der Kasus",
+                    "Kasus"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Gramatické",
+                    "Gramatické",
+                    "Gramatické"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Der"
+                  ],
+                  "red": [
+                    "der Kasus",
+                    "Der",
+                    "Der",
+                    "wichtig",
+                    "Kasus"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "purple": [
+                    "der Gerichtsfall",
+                    "gerichtsfall"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Soudní"
+                  ]
+                },
+                "example": {
+                  "purple": [
+                    "der Gerichtsfall",
+                    "gerichtsfall",
+                    "Der",
+                    "dauert",
+                    "Der",
+                    "Der",
+                    "lange",
+                    "Der"
+                  ],
+                  "red": [
+                    "Der"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "leftBlocks": [
+                {
+                  "text": {
+                    "blue": [
+                      "Fall"
+                    ],
+                    "yellow": [
+                      "diesem",
+                      "bieža",
+                      "fráze",
+                      "Fall",
+                      "tomto"
+                    ]
+                  }
+                },
+                {
+                  "text": {
+                    "blue": [
+                      "Fall"
+                    ],
+                    "yellow": [
+                      "Gramatikas",
+                      "kontextu",
+                      "pád",
+                      "Fall"
+                    ]
+                  }
+                }
+              ]
+            },
+            "important": [
+              {
+                "text": {
+                  "blue": [
+                    "Fall"
+                  ],
+                  "purple": [
+                    "Podzim"
+                  ],
+                  "red": [
+                    "gramatický",
+                    "Podzim",
+                    "Podzim",
+                    "termín",
+                    "Fall"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Fall"
+                  ],
+                  "yellow": [
+                    "pád"
+                  ],
+                  "purple": [
+                    "tiesas lieta"
+                  ],
+                  "red": [
+                    "dativ",
+                    "případě",
+                    "dativu",
+                    "diesem",
+                    "lieta",
+                    "Fall",
+                    "tomto"
+                  ]
+                }
+              }
+            ],
+            "explanation": {
+              "blue": [
+                "der Fall",
+                "Fall",
+                "Hlavní"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "gramatice",
+                "Hlavní"
+              ],
+              "red": [
+                "Hlavní",
+                "Hlavní"
+              ]
+            }
+          },
+          "accents": {
+            "blue": [
+              "StandardStudy",
+              "Nejdůležitějším",
+              "Mnohoznačným",
+              "Situaci",
+              "Der Fall",
+              "Případ",
+              "Případ",
+              "Kritiens",
+              "Kritienu",
+              "Pád",
+              "Fyzický",
+              "Znamenat",
+              "Slovy",
+              "Bieži",
+              "Lieta",
+              "Viens",
+              "Fall"
+            ],
+            "green": [
+              "Der Unfall",
+              "Kritiens",
+              "Unfall"
+            ],
+            "yellow": [
+              "Die Situation",
+              "Situation",
+              "Pád"
+            ],
+            "orange": [
+              "Případ"
+            ],
+            "purple": [
+              "Případ • Pád • Gramatický pád • Soudní případ",
+              "Gramatický pád",
+              "Der Gerichtsfall",
+              "Gerichtsfall",
+              "Tiesas lieta",
+              "Nehoda",
+              "Situace"
+            ],
+            "red": [
+              "Der Kasus",
+              "Kasus",
+              "Lieta"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 218,
+      "productionIndex": 456,
+      "cardId": "a2-fallen-456",
+      "targetObject": {
+        "de": "fallen",
+        "lv": "Padat",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 219,
+      "productionIndex": 460,
+      "cardId": "a2-fangen-460",
+      "targetObject": {
+        "de": "fangen",
+        "lv": "Chytit",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 220,
+      "productionIndex": 461,
+      "cardId": "a2-färben-461",
+      "targetObject": {
+        "de": "färben",
+        "lv": "Barvit",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 221,
+      "productionIndex": 463,
+      "cardId": "a2-Farm-463",
+      "targetObject": {
+        "de": "Farm",
+        "de_article": "die",
+        "de_plural": "die Farmen",
+        "lv": "Farma",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 222,
+      "productionIndex": 466,
+      "cardId": "a2-fegen-466",
+      "targetObject": {
+        "de": "fegen",
+        "lv": "Zametat",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 223,
+      "productionIndex": 467,
+      "cardId": "a2-fehlen",
+      "targetObject": {
+        "de": "fehlen",
+        "lv": "Chybět",
+        "level": "A2",
+        "study": {
+          "id": "a2-fehlen",
+          "layout": "standardStudy",
+          "translation": "Chybět",
+          "explanation": "Hlavní myšlenka: fehlen znamená chybět, scházet nebo nebýt přítomen. Pokud je nedostatek předmětu nebo peněz, fehlen se překládá jako nedostatek nebo nedostatek. Pokud člověk chybí ve škole nebo v práci, fehlen znamená nepřítomnost. V konstrukci mir fehlt etwas čeština často říká „něco mi chybí“. Není to totéž jako brauchen, protože brauchen znamená potřebovat.",
+          "examples": [
+            {
+              "de": "Mir fehlt Geld.",
+              "lv": "Chybí mi peníze."
+            },
+            {
+              "de": "Es fehlen noch zwei Euro.",
+              "lv": "Dvě eura stále chybí."
+            },
+            {
+              "de": "Heute fehlen drei Schüler.",
+              "lv": "Tři studenti dnes chybí."
+            },
+            {
+              "de": "Was fehlt dir?",
+              "lv": "Co ti chybí?"
+            },
+            {
+              "de": "Du fehlst mir.",
+              "lv": "Chybíš mi"
+            },
+            {
+              "de": "Ich brauche Hilfe.",
+              "lv": "Potřebuji pomoc"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "fehlen",
+              "meaning": "Chybí / není přítomen",
+              "example": "Mir fehlt Geld. = Chybí mi peníze."
+            },
+            {
+              "word": "brauchen",
+              "meaning": "Potřebovat",
+              "example": "Ich brauche Geld. = Potřebuji peníze."
+            },
+            {
+              "word": "vermissen",
+              "meaning": "Postrádat / stýskat se po člověku",
+              "example": "Ich vermisse dich. = Chybíš mi"
+            },
+            {
+              "word": "abwesend sein",
+              "meaning": "Nebýt přítomen",
+              "example": "Er ist abwesend. = Není přítomen."
+            }
+          ],
+          "tip": [
+            "Když česky řeknete „něco mi chybí“, němčina často používá mir fehlt.",
+            "Pokud je myšlenka „potřebuji“, pak se častěji používá brauchen než fehlen."
+          ],
+          "important": [
+            "Mir fehlt Geld = Chybí mi peníze.",
+            "Ich brauche Geld = potřebuji peníze.",
+            "Du fehlst mir = Chybíš mi.",
+            "Schüler fehlen = chybí studenti."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "fehlen",
+                "fehlt"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "red": [
+                "brauchen"
+              ],
+              "yellow": [
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "fehlt"
+                  ],
+                  "yellow": [
+                    "Geld"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Chybí"
+                  ],
+                  "yellow": [
+                    "Chybí"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "fehlen"
+                  ],
+                  "yellow": [
+                    "zwei Euro"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dvě"
+                  ],
+                  "yellow": [
+                    "Dvě"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "fehlen"
+                  ],
+                  "green": [
+                    "Schüler"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Tři"
+                  ],
+                  "green": [
+                    "Tři"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "fehlt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "tebou"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "fehlst"
+                  ],
+                  "green": [
+                    "Du",
+                    "mir"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Chybíš"
+                  ],
+                  "green": [
+                    "Chybíš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "brauche"
+                  ],
+                  "yellow": [
+                    "Hilfe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Potřebuji"
+                  ],
+                  "yellow": [
+                    "Potřebuji"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "fehlen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Chybí",
+                    "Chybí"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "fehlt"
+                  ],
+                  "purple": [
+                    "Mir"
+                  ],
+                  "yellow": [
+                    "Geld",
+                    "Mir"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "brauchen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Potřebovat"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "brauche"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ],
+                  "yellow": [
+                    "Geld",
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "vermissen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Touha",
+                    "Touha"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "dich",
+                    "Ich"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "abwesend sein"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Nebýt"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "abwesend"
+                  ],
+                  "purple": [
+                    "ist"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "text": {
+                  "blue": [
+                    "fehlt"
+                  ],
+                  "purple": [
+                    "Pokud"
+                  ]
+                }
+              },
+              {
+                "text": {
+                  "red": [
+                    "brauchen"
+                  ],
+                  "blue": [
+                    "fehlen"
+                  ],
+                  "purple": [
+                    "Pokud"
+                  ]
+                }
+              }
+            ],
+            "important": [
+              {
+                "text": {
+                  "blue": [
+                    "fehlt"
+                  ],
+                  "purple": [
+                    "Mir"
+                  ],
+                  "yellow": [
+                    "Geld",
+                    "Mir"
+                  ]
+                }
+              },
+              {
+                "text": {
+                  "red": [
+                    "brauche"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ],
+                  "yellow": [
+                    "Geld",
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "text": {
+                  "blue": [
+                    "fehlst"
+                  ],
+                  "purple": [
+                    "fehlst"
+                  ],
+                  "green": [
+                    "fehlst"
+                  ]
+                }
+              },
+              {
+                "text": {
+                  "blue": [
+                    "fehlen"
+                  ],
+                  "purple": [
+                    "Schüler"
+                  ],
+                  "green": [
+                    "Schüler",
+                    "Schüler"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 224,
+      "productionIndex": 468,
+      "cardId": "a2-Feier-468",
+      "targetObject": {
+        "de": "Feier",
+        "de_article": "die",
+        "de_plural": "die Feiern",
+        "lv": "Oslava",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 225,
+      "productionIndex": 470,
+      "cardId": "a2-feiern-470",
+      "targetObject": {
+        "de": "feiern",
+        "lv": "Slavit",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 226,
+      "productionIndex": 471,
+      "cardId": "a2-Feiertag-471",
+      "targetObject": {
+        "de": "Feiertag",
+        "de_article": "der",
+        "de_plural": "die Feiertage",
+        "lv": "Svátek",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 227,
+      "productionIndex": 475,
+      "cardId": "a2-Fell-475",
+      "targetObject": {
+        "de": "Fell",
+        "de_article": "das",
+        "de_plural": "die Felle",
+        "lv": "Kožich",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 228,
+      "productionIndex": 479,
+      "cardId": "a2-fertig / bereit-479",
+      "targetObject": {
+        "de": "fertig / bereit",
+        "lv": "Připravený",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 229,
+      "productionIndex": 481,
+      "cardId": "a2-fest",
+      "targetObject": {
+        "de": "fest",
+        "lv": "Pevný",
+        "level": "A2",
+        "study": {
+          "id": "a2-fest",
+          "layout": "standardStudy",
+          "translation": "Pevný",
+          "explanation": "Fest může znamenat pevný, když se odkazuje na materiál nebo povrch. Může to znamenat těsné nebo těsné, jako šroub nebo uzel. fest také často znamená pevný nebo stanovený, jako je například termín. Pro práci nebo vztah to může znamenat trvalé. Fest tedy neznamená jen „tvrdý“. Často znamená pevný, stabilní nebo stálý.",
+          "examples": [
+            {
+              "de": "Der Boden ist fest.",
+              "lv": "Země je pevná."
+            },
+            {
+              "de": "Zieh die Schraube fest.",
+              "lv": "Pevně utáhni šroub!"
+            },
+            {
+              "de": "Ich habe einen festen Termin.",
+              "lv": "Termín mám pevně daný."
+            },
+            {
+              "de": "Sie hat eine feste Arbeit.",
+              "lv": "Má stálou práci."
+            },
+            {
+              "de": "Ich brauche feste Schuhe.",
+              "lv": "Potřebuji pevné boty."
+            },
+            {
+              "de": "Der Deckel sitzt fest.",
+              "lv": "Víko drží pevně."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Když se odkazuje na šroub, kryt nebo uzel, fest často znamená pevně nebo utaženě."
+              },
+              {
+                "text": "Když se odkazuje na práci, termín nebo plán, fest často znamená pevné nebo trvalé."
+              }
+            ]
+          },
+          "important": {
+            "text": "Fest neznamená jen „tvrdý“.",
+            "example": "Ein fester Termin = pevně stanovený termín. eine feste Arbeit = stálá práce."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Boden",
+                    "fest"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Země",
+                    "zeme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Schraube",
+                    "fest",
+                    "Zieh"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Pevně",
+                    "Pevně",
+                    "Pevně"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "festen",
+                    "Termin"
+                  ]
+                },
+                "lv": {
+                  "orange": [
+                    "Termín"
+                  ],
+                  "purple": [
+                    "Termín",
+                    "Termín"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Arbeit",
+                    "feste"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "stálou"
+                  ],
+                  "purple": [
+                    "stálou",
+                    "stálou",
+                    "stálou"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Schuhe",
+                    "feste"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Potřebuji",
+                    "Potřebuji"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Deckel",
+                    "sitzt",
+                    "fest"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Víko",
+                    "Víko",
+                    "Víko"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "leftBlocks": [
+                {
+                  "text": {
+                    "blue": [
+                      "fest"
+                    ],
+                    "yellow": [
+                      "mezglu",
+                      "šroub",
+                      "bieži",
+                      "fest",
+                      "runa",
+                      "víko"
+                    ]
+                  }
+                },
+                {
+                  "text": {
+                    "blue": [
+                      "fest"
+                    ],
+                    "orange": [
+                      "pevně stanovený"
+                    ],
+                    "red": [
+                      "stálý"
+                    ],
+                    "yellow": [
+                      "termín",
+                      "bieži",
+                      "darbu",
+                      "plán",
+                      "fest",
+                      "runa"
+                    ]
+                  }
+                }
+              ]
+            },
+            "important": [
+              {
+                "text": {
+                  "blue": [
+                    "fest"
+                  ],
+                  "orange": [
+                    "Fest"
+                  ],
+                  "red": [
+                    "Fest",
+                    "Fest",
+                    "fest"
+                  ]
+                },
+                "example": {
+                  "orange": [
+                    "pevně stanovený"
+                  ],
+                  "red": [
+                    "stálý",
+                    "pevně stanovený",
+                    "termín",
+                    "Arbeit",
+                    "fester",
+                    "Termin",
+                    "feste"
+                  ]
+                }
+              }
+            ]
+          },
+          "accents": {
+            "blue": [
+              "StandardStudy",
+              "Materiál",
+              "Stálý",
+              "Pievilkts",
+              "Například",
+              "Pevně stanovený",
+              "Znamenat",
+              "Stingrs",
+              "Mezgls",
+              "Šroub",
+              "Stiprs",
+              "Virsmu",
+              "Bieži",
+              "Cieši",
+              "Ciets",
+              "Fest",
+              "Runa"
+            ],
+            "green": [
+              "Noteikts",
+              "Stingrs"
+            ],
+            "yellow": [
+              "Stiprs"
+            ],
+            "orange": [
+              "Pevně stanovený",
+              "Ciets"
+            ],
+            "purple": [
+              "Pevný • Tuhý • Silný • Stálý",
+              "Pevně stanovený / určený",
+              "Ciets / stingrs",
+              "Tvrdý materiál",
+              "Stabils",
+              "Stabil"
+            ],
+            "red": [
+              "Stálý",
+              "Hart"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 230,
+      "productionIndex": 484,
+      "cardId": "a2-feuer",
+      "targetObject": {
+        "de": "Feuer",
+        "de_article": "das",
+        "de_plural": "die Feuer",
+        "lv": "Oheň",
+        "level": "A2",
+        "study": {
+          "id": "a2-feuer",
+          "layout": "standardStudy",
+          "translation": "Oheň",
+          "explanation": "Das Feuer může znamenat řízený oheň, jako je táborák nebo oheň v kamnech. Může to také znamenat požár, pokud je oheň nebezpečný nebo mimo kontrolu. Feuer je často spojován s hořením a plameny. Ve spojení s Feuerwehr často znamená požár, který hasiči hasí. Ve vojenském nebo policejním kontextu může Feuer znamenat střílet nebo zahájit palbu.",
+          "examples": [
+            {
+              "de": "Mach bitte Feuer.",
+              "lv": "Prosím zapalte oheň."
+            },
+            {
+              "de": "Das Feuer brennt.",
+              "lv": "Oheň hoří."
+            },
+            {
+              "de": "Im Haus ist Feuer.",
+              "lv": "V domě hoří."
+            },
+            {
+              "de": "Die Feuerwehr löscht das Feuer.",
+              "lv": "Hasiči likvidují požár."
+            },
+            {
+              "de": "Wir sitzen am Feuer.",
+              "lv": "Sedíme u ohně."
+            },
+            {
+              "de": "Das Feuer ist gefährlich.",
+              "lv": "Oheň je nebezpečný."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das Feuer",
+              "meaning": "Oheň / požár",
+              "example": "Das Feuer brennt. = Oheň hoří."
+            },
+            {
+              "word": "der Brand",
+              "meaning": "Požár",
+              "example": "Der Brand ist groß. = Oheň je velký."
+            },
+            {
+              "word": "die Flamme",
+              "meaning": "Plamen",
+              "example": "Die Flamme ist klein. = Plamen je malý."
+            },
+            {
+              "word": "die Feuerwehr",
+              "meaning": "Hasiči",
+              "example": "Die Feuerwehr kommt. = Hasiči jsou na cestě."
+            },
+            {
+              "word": "Feuer geben",
+              "meaning": "Zahájit palbu",
+              "example": "Die Soldaten geben Feuer. = Vojáci zahajují palbu."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Pokud je oheň pod kontrolou, Feuer se často překládá jako oheň."
+              },
+              {
+                "text": "Když jde o dům, nebezpečí nebo Feuerwehr, Feuer často znamená požár."
+              }
+            ]
+          },
+          "important": {
+            "text": "Feuer může být jak řízený oheň, tak požár.",
+            "example": "Der Brand je přesnější slovo pro požár. Die Flamme znamená plamen."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "bitte",
+                    "Feuer",
+                    "Mach"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Prosím",
+                    "Prosím",
+                    "Prosím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "das Feuer",
+                    "brennt",
+                    "Feuer"
+                  ]
+                },
+                "lv": {
+                  "orange": [
+                    "Oheň"
+                  ],
+                  "purple": [
+                    "Oheň"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Feuer",
+                    "Haus"
+                  ]
+                },
+                "lv": {
+                  "green": [
+                    "domě"
+                  ],
+                  "purple": [
+                    "domě",
+                    "domě"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "das Feuer",
+                    "Feuerwehr",
+                    "löscht",
+                    "Feuer"
+                  ],
+                  "red": [
+                    "die Feuerwehr",
+                    "Feuerwehr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hasiči",
+                    "Hasiči",
+                    "Hasiči"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sitzen",
+                    "Feuer"
+                  ]
+                },
+                "lv": {
+                  "orange": [
+                    "Sedíme"
+                  ],
+                  "purple": [
+                    "Sedíme",
+                    "Sedíme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gefährlich",
+                    "das Feuer",
+                    "Feuer"
+                  ]
+                },
+                "lv": {
+                  "orange": [
+                    "Oheň"
+                  ],
+                  "purple": [
+                    "Oheň",
+                    "Oheň"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "das Feuer",
+                    "Feuer"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Oheň",
+                    "Oheň",
+                    "Oheň"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "das Feuer",
+                    "brennt",
+                    "Feuer",
+                    "Das"
+                  ],
+                  "orange": [
+                    "Das"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "der Brand",
+                    "Brand"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Oheň"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Der",
+                    "der Brand",
+                    "Brand",
+                    "Der",
+                    "groß"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Flamme",
+                    "Flamme"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Plamen"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "die Flamme",
+                    "Flamme",
+                    "Die",
+                    "klein",
+                    "Die"
+                  ],
+                  "purple": [
+                    "Die"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Feuerwehr",
+                    "Feuerwehr"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Hasiči"
+                  ]
+                },
+                "example": {
+                  "purple": [
+                    "Die"
+                  ],
+                  "red": [
+                    "die Feuerwehr",
+                    "Die",
+                    "Feuerwehr",
+                    "Die",
+                    "kommt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "Feuer"
+                  ],
+                  "purple": [
+                    "feuer geben",
+                    "feuer",
+                    "geben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Otevřený",
+                    "Otevřený",
+                    "Otevřený"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Feuer"
+                  ],
+                  "purple": [
+                    "Die",
+                    "soldaten",
+                    "Die",
+                    "feuer",
+                    "geben",
+                    "Die"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "leftBlocks": [
+                {
+                  "text": {
+                    "blue": [
+                      "Feuer"
+                    ],
+                    "orange": [
+                      "uguns"
+                    ],
+                    "yellow": [
+                      "kontrolovaný",
+                      "bieži",
+                      "Feuer",
+                      "tulko",
+                      "uguns"
+                    ]
+                  }
+                },
+                {
+                  "text": {
+                    "blue": [
+                      "Feuer"
+                    ],
+                    "green": [
+                      "požár"
+                    ],
+                    "red": [
+                      "Feuerwehr"
+                    ],
+                    "yellow": [
+                      "nebezpečí",
+                      "Feuerwehr",
+                      "bieži",
+                      "Feuer",
+                      "dům",
+                      "runa"
+                    ]
+                  }
+                }
+              ]
+            },
+            "important": [
+              {
+                "text": {
+                  "blue": [
+                    "Feuer"
+                  ],
+                  "green": [
+                    "požár"
+                  ],
+                  "orange": [
+                    "uguns"
+                  ],
+                  "red": [
+                    "Feuer",
+                    "požár",
+                    "Feuer",
+                    "uguns"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "der Brand",
+                    "Brand"
+                  ],
+                  "yellow": [
+                    "die Flamme",
+                    "Flamme"
+                  ],
+                  "purple": [
+                    "liesma"
+                  ],
+                  "red": [
+                    "požár",
+                    "přesnější",
+                    "Flamme",
+                    "Brand",
+                    "slovo"
+                  ]
+                }
+              }
+            ]
+          },
+          "accents": {
+            "blue": [
+              "StandardStudy",
+              "Nekontrolovaný",
+              "Kontrolovaný",
+              "Požár",
+              "Požár",
+              "Das Feuer",
+              "Feuerwehr",
+              "Ugunskuru",
+              "Například",
+              "Nebezpečný",
+              "Degšanu",
+              "Plameny",
+              "Znamenat",
+              "Souvisí",
+              "V kamnech",
+              "Bieži",
+              "Feuer",
+              "Uguni",
+              "Uguns"
+            ],
+            "green": [
+              "Požár",
+              "Der Brand",
+              "Brand"
+            ],
+            "yellow": [
+              "Die Flamme",
+              "Flamme"
+            ],
+            "orange": [
+              "Uguns"
+            ],
+            "purple": [
+              "Oheň / požár",
+              "Oheň • Požár",
+              "Zahájit palbu",
+              "Hasiči",
+              "Feuer geben",
+              "Liesma"
+            ],
+            "red": [
+              "Die Feuerwehr",
+              "Feuerwehr"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 231,
+      "productionIndex": 487,
+      "cardId": "a2-Fichte-487",
+      "targetObject": {
+        "de": "Fichte",
+        "de_article": "die",
+        "de_plural": "die Fichten",
+        "lv": "Smrk",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 232,
+      "productionIndex": 489,
+      "cardId": "a2-Figur-489",
+      "targetObject": {
+        "de": "Figur",
+        "de_article": "die",
+        "de_plural": "die Figuren",
+        "lv": "Postava",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 233,
+      "productionIndex": 492,
+      "cardId": "a2-fischen-492",
+      "targetObject": {
+        "de": "fischen",
+        "lv": "Rybařit",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 234,
+      "productionIndex": 499,
+      "cardId": "a2-Fliege-499",
+      "targetObject": {
+        "de": "Fliege",
+        "de_article": "die",
+        "de_plural": "die Fliegen",
+        "lv": "Moucha",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 235,
+      "productionIndex": 504,
+      "cardId": "a2-Flugplatz-504",
+      "targetObject": {
+        "de": "Flugplatz",
+        "de_article": "der",
+        "de_plural": "die Flugplätze",
+        "lv": "Letiště",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 236,
+      "productionIndex": 505,
+      "cardId": "a2-Flur-505",
+      "targetObject": {
+        "de": "Flur",
+        "de_article": "der",
+        "de_plural": "die Flure",
+        "lv": "Chodba",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 237,
+      "productionIndex": 507,
+      "cardId": "a2-föhnen-507",
+      "targetObject": {
+        "de": "föhnen",
+        "lv": "Fénovat",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 238,
+      "productionIndex": 508,
+      "cardId": "a2-folgen",
+      "targetObject": {
+        "de": "folgen",
+        "lv": "Následovat",
+        "level": "A2",
+        "study": {
+          "id": "a2-folgen",
+          "layout": "standardStudy",
+          "translation": "Následovat",
+          "explanation": [
+            "Hlavní myšlenka: folgen znamená následovat někoho nebo něco, ale ze situace může vyplývat i výsledek.",
+            "Pokud jde o osobu, způsob nebo pokyn, folgen obvykle znamená následovat.",
+            "Často se používá sousloví jemandem folgen, kde je němčina dativ.",
+            "Pokud něco logicky vyplývá z toho, co bylo řečeno dříve, folgen může znamenat následovat.",
+            "Folgen není slovo pro význam „poslouchat“ nebo „poslechnout“ • k tomu se častěji používá gehorchen.",
+            "Na úrovni A2 jsou nejdůležitější významy následovat a následovat."
+          ],
+          "examples": [
+            {
+              "de": "Folgen Sie mir bitte.",
+              "lv": "Prosím, následujte mě."
+            },
+            {
+              "de": "Der Hund folgt dem Kind.",
+              "lv": "Pes jde za dítětem."
+            },
+            {
+              "de": "Ich folge deinem Rat.",
+              "lv": "Řídil jsem se tvou radou."
+            },
+            {
+              "de": "Bitte folgen Sie den Anweisungen.",
+              "lv": "Prosím postupujte podle pokynů."
+            },
+            {
+              "de": "Aus diesen Zahlen folgt ein Problem.",
+              "lv": "Z těchto čísel vyplývá problém."
+            },
+            {
+              "de": "Das Kind gehorcht den Eltern.",
+              "lv": "Dítě poslouchá rodiče."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "folgen",
+              "meaning": "Následovat / vyplývat",
+              "example": "Ich folge dir. = Sleduji tě."
+            },
+            {
+              "word": "verfolgen",
+              "meaning": "Pronásledovat / sledovat",
+              "example": "Die Polizei verfolgt den Täter. = Policie po viníkovi stíhá."
+            },
+            {
+              "word": "gehorchen",
+              "meaning": "Poslouchat / poslouchat",
+              "example": "Das Kind gehorcht. = Dítě poslouchá."
+            },
+            {
+              "word": "befolgen",
+              "meaning": "Dodržovat / řídit se",
+              "example": "Befolgen Sie die Regeln. = Dodržujte pravidla."
+            }
+          ],
+          "tip": [
+            "Pokud můžete říci „následovat někoho“, němčina často používá folgen s dativem.",
+            "Pokud je myšlenkou „poslouchat rodiče“ nebo „poslechnout rozkazy“, je často přesnější gehorchen nebo befolgen."
+          ],
+          "important": [
+            "Folgen = následovat.",
+            "Aus etwas folgt ... = z něčeho vyplývá ...",
+            "Gehorchen = poslouchat / poslouchat.",
+            "Folgen vyžaduje dativ: ich folge dir."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "folgen"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ],
+              "red": [
+                "gehorchen",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "dativ"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Folgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Prosím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "folgt"
+                  ],
+                  "green": [
+                    "Hund",
+                    "Kind"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Pes"
+                  ],
+                  "green": [
+                    "Pes",
+                    "Pes"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "folge"
+                  ],
+                  "yellow": [
+                    "Rat"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Řídil"
+                  ],
+                  "yellow": [
+                    "Řídil"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "folgen"
+                  ],
+                  "yellow": [
+                    "Anweisungen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Prosím"
+                  ],
+                  "yellow": [
+                    "Prosím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "folgt"
+                  ],
+                  "yellow": [
+                    "Zahlen",
+                    "Problem"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "těchto"
+                  ],
+                  "yellow": [
+                    "těchto",
+                    "problém"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "gehorcht"
+                  ],
+                  "green": [
+                    "Kind",
+                    "Eltern"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Dítě"
+                  ],
+                  "green": [
+                    "Dítě",
+                    "Dítě"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "folgen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Sledovat",
+                    "Sledovat"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "folge"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "verfolgen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Pronásledovat",
+                    "Pronásledovat"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "verfolgt"
+                  ],
+                  "purple": [
+                    "Die"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "gehorchen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Poslouchat",
+                    "Poslouchat"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "gehorcht"
+                  ],
+                  "purple": [
+                    "Das"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "befolgen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Postupujte"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Befolgen"
+                  ],
+                  "purple": [
+                    "Befolgen"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "text": {
+                  "blue": [
+                    "folgen"
+                  ],
+                  "purple": [
+                    "Pokud"
+                  ],
+                  "green": [
+                    "Pokud"
+                  ]
+                }
+              },
+              {
+                "text": {
+                  "red": [
+                    "gehorchen",
+                    "befolgen"
+                  ],
+                  "purple": [
+                    "Pokud",
+                    "Pokud"
+                  ]
+                }
+              }
+            ],
+            "important": [
+              {
+                "text": {
+                  "blue": [
+                    "folgen"
+                  ],
+                  "purple": [
+                    "Folgen"
+                  ]
+                }
+              },
+              {
+                "text": {
+                  "blue": [
+                    "folgt"
+                  ],
+                  "purple": [
+                    "Aus"
+                  ]
+                }
+              },
+              {
+                "text": {
+                  "red": [
+                    "gehorchen"
+                  ],
+                  "purple": [
+                    "Gehorchen",
+                    "Gehorchen"
+                  ]
+                }
+              },
+              {
+                "text": {
+                  "blue": [
+                    "folge"
+                  ],
+                  "green": [
+                    "dativ",
+                    "dir"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 239,
+      "productionIndex": 511,
+      "cardId": "a2-formen-511",
+      "targetObject": {
+        "de": "formen",
+        "lv": "Tvarovat",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 240,
+      "productionIndex": 527,
+      "cardId": "a2-frieren-527",
+      "targetObject": {
+        "de": "frieren",
+        "lv": "Mrznout",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 241,
+      "productionIndex": 529,
+      "cardId": "a2-frisieren-529",
+      "targetObject": {
+        "de": "frisieren",
+        "lv": "Upravovat vlasy",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 242,
+      "productionIndex": 532,
+      "cardId": "a2-fröhlich-532",
+      "targetObject": {
+        "de": "fröhlich",
+        "lv": "Veselý",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 243,
+      "productionIndex": 539,
+      "cardId": "a2-führen",
+      "targetObject": {
+        "de": "führen",
+        "lv": "Vést",
+        "level": "A2",
+        "study": {
+          "id": "a2-führen",
+          "layout": "standardStudy",
+          "translation": "Vést",
+          "explanation": "Führen znamená vést nebo řídit někoho či něco. S lidmi to může znamenat vzít někoho na cestu nebo na prohlídku. Se společností, konverzací nebo týmem to znamená vést. Ve sportu führen znamená být ve vedení. V obchodě může führen znamenat, že je zboží v sortimentu nebo se prodává.",
+          "examples": [
+            {
+              "de": "Der Weg führt zum Bahnhof.",
+              "lv": "Cesta vede k nádraží."
+            },
+            {
+              "de": "Er führt die Gruppe durch die Stadt.",
+              "lv": "Vede skupinu po městě."
+            },
+            {
+              "de": "Sie führt ein kleines Geschäft.",
+              "lv": "Provozuje malý obchod."
+            },
+            {
+              "de": "Wir führen ein Gespräch.",
+              "lv": "Vedeme / řešíme konverzaci."
+            },
+            {
+              "de": "Unsere Mannschaft führt zwei zu eins.",
+              "lv": "Náš tým vede 2:1."
+            },
+            {
+              "de": "Führen Sie dieses Produkt?",
+              "lv": "Máte toto zboží na prodej?"
+            },
+            {
+              "de": "Das kann zu Problemen führen.",
+              "lv": "To může vést k problémům."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "führen",
+              "meaning": "Vést / řídit / být ve vedení",
+              "example": "Der Weg führt zum Bahnhof. = Cesta vede k nádraží."
+            },
+            {
+              "word": "leiten",
+              "meaning": "Řídit organizaci/proces",
+              "example": "Sie leitet die Firma. = Vede společnost."
+            },
+            {
+              "word": "fahren",
+              "meaning": "Řídit / jezdit s dopravou",
+              "example": "Ich fahre nach Hause. = Jedu domů."
+            },
+            {
+              "word": "bringen",
+              "meaning": "Přivést / vzít k cíli",
+              "example": "Ich bringe dich nach Hause. = Vezmu tě domů."
+            },
+            {
+              "word": "führen zu",
+              "meaning": "Vést k",
+              "example": "Das führt zu Problemen. = To vede k problémům."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Pokud jde o silnici, führen často znamená „někam vést“."
+              },
+              {
+                "text": "Pokud jde o tým, firmu nebo konverzaci, führen často znamená „vést“."
+              }
+            ]
+          },
+          "important": {
+            "text": "Der Weg führt ... = Cesta vede ...",
+            "example": "Ein Gespräch führen = vést rozhovor. In Führung liegen / führen = být ve vedení. Führen zu = vést k."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Bahnhof",
+                    "führt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Cesta",
+                    "Cesta"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Gruppe",
+                    "durch",
+                    "führt",
+                    "Stadt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vede",
+                    "Vede",
+                    "Vede"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Geschäft",
+                    "kleines",
+                    "führt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Provozuje",
+                    "Provozuje",
+                    "Provozuje"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Gespräch",
+                    "führen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vedeme",
+                    "Vedeme",
+                    "Vedeme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Mannschaft",
+                    "Unsere",
+                    "führt",
+                    "eins",
+                    "zwei"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Náš",
+                    "Náš",
+                    "Náš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Produkt",
+                    "dieses",
+                    "führen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Máte",
+                    "Máte"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Problemen",
+                    "führen",
+                    "kann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "může",
+                    "problémům",
+                    "může"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "führen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Vést",
+                    "Vést",
+                    "Vést",
+                    "vest"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Bahnhof",
+                    "Der",
+                    "führt",
+                    "Der"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "leiten"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Řídit",
+                    "Řídit",
+                    "Řídit",
+                    "Řídit"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "leitet",
+                    "Firma",
+                    "Firma",
+                    "Sie"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "fahren"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Řídit",
+                    "Řídit",
+                    "Řídit",
+                    "Řídit"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Ich",
+                    "fahre",
+                    "Hause",
+                    "Ich",
+                    "nach"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Přivést",
+                    "Přivést",
+                    "Přivést",
+                    "Přivést",
+                    "Přivést"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Ich",
+                    "bringe",
+                    "Hause",
+                    "dich",
+                    "nach",
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "führen"
+                  ],
+                  "purple": [
+                    "führen zu",
+                    "führen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Vést",
+                    "Vést"
+                  ]
+                },
+                "example": {
+                  "purple": [
+                    "problemen",
+                    "problémům",
+                    "führt",
+                    "Das"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "leftBlocks": [
+                {
+                  "text": {
+                    "blue": [
+                      "führen"
+                    ],
+                    "orange": [
+                      "vest"
+                    ],
+                    "yellow": [
+                      "führen",
+                      "bieži",
+                      "cestu",
+                      "runa",
+                      "vest"
+                    ]
+                  }
+                },
+                {
+                  "text": {
+                    "blue": [
+                      "führen"
+                    ],
+                    "green": [
+                      "řídit"
+                    ],
+                    "yellow": [
+                      "komandu",
+                      "führen",
+                      "sarunu",
+                      "bieži",
+                      "firmu",
+                      "runa"
+                    ]
+                  }
+                }
+              ]
+            },
+            "important": [
+              {
+                "text": {
+                  "red": [
+                    "führt",
+                    "Der"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "führen"
+                  ],
+                  "yellow": [
+                    "být ve vedení"
+                  ],
+                  "purple": [
+                    "novest pie",
+                    "führen zu"
+                  ],
+                  "red": [
+                    "Gespräch",
+                    "Führung",
+                    "vést",
+                    "führen",
+                    "liegen",
+                    "sarunu"
+                  ]
+                }
+              }
+            ]
+          },
+          "accents": {
+            "blue": [
+              "StandardStudy",
+              "Na exkurzi",
+              "Lidem",
+              "V prodeji",
+              "Podnik",
+              "Komandu",
+              "Znamenat",
+              "V obchodě",
+              "Führen",
+              "Sarunu",
+              "Ve sportu",
+              "Ve vedení",
+              "Prece",
+              "Řídit",
+              "Cestu",
+              "Někoho",
+              "Vest"
+            ],
+            "green": [
+              "Dovést k cíli",
+              "Vest ar transportu",
+              "Procesu",
+              "Leiten",
+              "Řídit"
+            ],
+            "yellow": [
+              "Být ve vedení",
+              "Fahren"
+            ],
+            "orange": [
+              "Řídit organizaci",
+              "Atnest",
+              "Braukt",
+              "Vest"
+            ],
+            "purple": [
+              "Vést • Řídit • Být ve vedení • Mít v nabídce",
+              "Dovést k cíli",
+              "Braukt / vest ar transportu",
+              "Řídit organizaci/proces",
+              "Vést / řídit / být ve vedení",
+              "Novest pie",
+              "Führen zu"
+            ],
+            "red": [
+              "Mít v nabídce",
+              "Bringen"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "groupOrder": 244,
+      "productionIndex": 541,
+      "cardId": "a2-Füllfederhalter-541",
+      "targetObject": {
+        "de": "Füllfederhalter",
+        "de_article": "der",
+        "de_plural": "die Füllfederhalter",
+        "lv": "Plnicí pero",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 245,
+      "productionIndex": 542,
+      "cardId": "a2-funktionieren-542",
+      "targetObject": {
+        "de": "funktionieren",
+        "lv": "Fungovat",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 246,
+      "productionIndex": 543,
+      "cardId": "a2-furchtbar-543",
+      "targetObject": {
+        "de": "furchtbar",
+        "lv": "Hrozný",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 247,
+      "productionIndex": 545,
+      "cardId": "a2-Fußballspieler-545",
+      "targetObject": {
+        "de": "Fußballspieler",
+        "de_article": "der",
+        "de_plural": "die Fußballspieler",
+        "lv": "Fotbalista",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 248,
+      "productionIndex": 546,
+      "cardId": "a2-Fußboden-546",
+      "targetObject": {
+        "de": "Fußboden",
+        "de_article": "der",
+        "de_plural": "die Fußböden",
+        "lv": "Podlaha",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 249,
+      "productionIndex": 547,
+      "cardId": "a2-Fußgänger-547",
+      "targetObject": {
+        "de": "Fußgänger",
+        "de_article": "der",
+        "de_plural": "die Fußgänger",
+        "lv": "Chodec",
+        "level": "A2"
+      }
+    },
+    {
+      "groupOrder": 250,
+      "productionIndex": 551,
+      "cardId": "a2-gang",
+      "targetObject": {
+        "de": "Gang",
+        "de_article": "der",
+        "de_plural": "die Gänge",
+        "lv": "Chodba",
+        "level": "A2",
+        "study": {
+          "id": "a2-gang",
+          "layout": "standardStudy",
+          "translation": "Chodba",
+          "explanation": [
+            "Hlavní myšlenka: Význam der Gang je dán kontextem: v místnosti je to chodba, v pohybu je to chod, v jídelníčku chod jídla.",
+            "V domě, škole nebo hotelu Gang velmi často znamená chodbu.",
+            "Pokud jde o lidský pohyb, Gang znamená chůze.",
+            "V restauraci nebo na jídelním lístku může Gang znamenat chod jídla.",
+            "V technickém kontextu může Gang znamenat zařízení, ale to není hlavní použití A2.",
+            "České „tah“ obvykle není nejlepší první překlad pro tuto kartu."
+          ],
+          "examples": [
+            {
+              "de": "Der Gang ist dunkel.",
+              "lv": "Chodba je tmavá."
+            },
+            {
+              "de": "Die Toilette ist am Ende des Gangs.",
+              "lv": "WC je na konci chodby."
+            },
+            {
+              "de": "Er hat einen sicheren Gang.",
+              "lv": "Má jistou chůzi."
+            },
+            {
+              "de": "Das Menü hat drei Gänge.",
+              "lv": "Menu má tři chody."
+            },
+            {
+              "de": "Der erste Gang war eine Suppe.",
+              "lv": "Prvním chodem jídla byla polévka."
+            },
+            {
+              "de": "Der Wagen ist im ersten Gang.",
+              "lv": "Auto je na prvním rychlostním stupni."
+            }
+          ],
+          "tip": [
+            "Pokud jde o budovu, Gang se nejčastěji překládá jako chodba.",
+            "Když přijde na menu, Gang znamená chod jídla."
+          ],
+          "important": [
+            "Der Gang nemá jediný význam.",
+            "Im Gang může znamenat na chodbě.",
+            "Drei Gänge v restauraci znamená tři chody jídla.",
+            "Význam převodového stupně je technický a musí být rozpoznán v kontextu vozu."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "der Gang",
+                "Gang"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "yellow": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Gang"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Chodba"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Gangs"
+                  ],
+                  "yellow": [
+                    "Toilette"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "konci"
+                  ],
+                  "yellow": [
+                    "konci"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Gang"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jistou"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Gänge"
+                  ],
+                  "yellow": [
+                    "Menü"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Menu"
+                  ],
+                  "yellow": [
+                    "Menu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Gang"
+                  ],
+                  "yellow": [
+                    "Suppe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Prvním"
+                  ],
+                  "yellow": [
+                    "Prvním"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Gang"
+                  ],
+                  "yellow": [
+                    "Wagen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Auto"
+                  ],
+                  "yellow": [
+                    "Auto"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": [
+              {
+                "text": {
+                  "blue": [
+                    "Gang"
+                  ],
+                  "purple": [
+                    "Pokud"
+                  ],
+                  "yellow": [
+                    "Pokud"
+                  ]
+                }
+              },
+              {
+                "text": {
+                  "blue": [
+                    "Gang"
+                  ],
+                  "purple": [
+                    "Pokud"
+                  ],
+                  "yellow": [
+                    "Pokud"
+                  ]
+                }
+              }
+            ],
+            "important": [
+              {
+                "text": {
+                  "blue": [
+                    "der Gang"
+                  ],
+                  "red": [
+                    "Der"
+                  ]
+                }
+              },
+              {
+                "text": {
+                  "blue": [
+                    "im Gang"
+                  ],
+                  "purple": [
+                    "Gang"
+                  ]
+                }
+              },
+              {
+                "text": {
+                  "blue": [
+                    "Gänge"
+                  ],
+                  "purple": [
+                    "Drei"
+                  ],
+                  "yellow": [
+                    "Drei"
+                  ]
+                }
+              },
+              {
+                "text": {
+                  "purple": [
+                    "Význam"
+                  ],
+                  "yellow": [
+                    "Význam"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

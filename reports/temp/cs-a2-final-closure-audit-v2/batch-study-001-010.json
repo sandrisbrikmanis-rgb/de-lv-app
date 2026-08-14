@@ -1,0 +1,48 @@
+{
+  "dataset": "a2",
+  "batch": "study-001-010",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-ab-und-zu",
+    "a2-abfahren",
+    "a2-abgeben",
+    "a2-abholen",
+    "a2-holen",
+    "a2-bringen",
+    "a2-absagen",
+    "a2-abschließen",
+    "a2-abstellen",
+    "a2-angewandt"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-holen",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "COMPARISON",
+      "de": "Kannst du mich vom Bahnhof abholen?",
+      "lvSource": "vai vari mani paņemt stacijā?",
+      "currentCs": "Můžeš mě vyzvednout na nádraží",
+      "proposedCs": "Můžeš mě vyzvednout na nádraží?",
+      "reason": "Český překlad otázky postrádá koncové otazníkové znaménko.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-angewandt",
+      "field": "study.examples[5].lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Der Kurs verbindet Theorie und angewandte Praxis.",
+      "lvSource": "kurss apvieno teoriju un lietišķu praksi.",
+      "currentCs": "Kurz kombinuje teorii a aplikovanou praxi.",
+      "proposedCs": "Kurz kombinuje teorii a praktické využití.",
+      "reason": "„Aplikovaná praxe“ působí v češtině tautologicky a méně přirozeně než „praktické využití“.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 8,
+  "completedAt": "2026-08-14T16:45:18.389Z"
+}

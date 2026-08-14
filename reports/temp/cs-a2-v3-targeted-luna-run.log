@@ -1,0 +1,39 @@
+◇ injected env (1) from .env // tip: ⌘ override existing { override: true }
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+
+=== V3 Prerequisite PASS: 115/115 exact targetObject match ===
+
+=== Full A2 deterministic integrity (1640/1640) ===
+{
+  "dataset": "a2",
+  "total": 1640,
+  "findings": 23,
+  "severity": {
+    "CRITICAL": 0,
+    "HIGH": 20,
+    "MEDIUM": 3,
+    "LOW": 0
+  },
+  "structural": true,
+  "germanIntegrity": false,
+  "outFile": "/workspace/reports/temp/cs-a2-audit/deterministic-audit.json"
+}
+
+=== GPT-5.6 Luna targeted audit (114 cards) ===
+  luna simple-001-024: 24 cards, findings=0, pass=24, tokens=2613
+  luna study-001-010: 10 cards, findings=10, pass=0, tokens=27722
+  luna study-011-020: 10 cards, findings=3, pass=7, tokens=34208
+  luna study-021-030: 10 cards, findings=10, pass=0, tokens=33128
+  luna study-031-040: 10 cards, findings=10, pass=0, tokens=30197
+  luna study-041-050: 10 cards, findings=10, pass=0, tokens=30669
+  luna study-051-060: 10 cards, findings=2, pass=8, tokens=23605
+  luna study-061-070: 10 cards, findings=0, pass=10, tokens=21190
+  luna study-071-080: 10 cards, findings=2, pass=8, tokens=31113
+  luna study-081-090: 10 cards, findings=0, pass=10, tokens=28928
+
+Wrote /workspace/reports/cs-a2-v3-targeted-final-closure-audit.md
+
+OVERALL: FAIL
+CLOSURE: A2 NOT CLOSED
+VALIDATED REAL: 2159
+OWNER_LOCK: confirmed=26 reopen=0

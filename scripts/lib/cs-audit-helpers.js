@@ -230,6 +230,33 @@ function isPostRepairA1(dataset) {
       || process.env.CS_A1_POST_REPAIR === "1");
 }
 
+function isPostRepairA2(dataset) {
+  return dataset === "a2"
+    && (process.argv.includes("--post-repair")
+      || process.env.CS_A2_POST_REPAIR === "1");
+}
+
+function isFinalClosureA2(dataset) {
+  return dataset === "a2"
+    && !isA2FullFinalClosureAudit(dataset)
+    && !isA2FinalClosureAuditV2(dataset)
+    && (process.argv.includes("--final-closure")
+      || process.env.CS_A2_FINAL_CLOSURE === "1");
+}
+
+function isA2FullFinalClosureAudit(dataset) {
+  return dataset === "a2"
+    && !isA2FinalClosureAuditV2(dataset)
+    && (process.argv.includes("--a2-full-final-closure")
+      || process.env.CS_A2_FULL_FINAL_CLOSURE === "1");
+}
+
+function isA2FinalClosureAuditV2(dataset) {
+  return dataset === "a2"
+    && (process.argv.includes("--a2-final-closure-v2")
+      || process.env.CS_A2_FINAL_CLOSURE_V2 === "1");
+}
+
 function tempDir(dataset) {
   if (isFinalClosureAuditOnMainA1(dataset)) {
     return path.join(ROOT, "reports", "temp", "cs-a1-final-closure-audit-on-main");
@@ -245,6 +272,18 @@ function tempDir(dataset) {
   }
   if (isPostRepairA1(dataset)) {
     return path.join(ROOT, "reports", "temp", "cs-a1-post-repair-audit");
+  }
+  if (isPostRepairA2(dataset)) {
+    return path.join(ROOT, "reports", "temp", "cs-a2-post-repair-full-audit");
+  }
+  if (isA2FinalClosureAuditV2(dataset)) {
+    return path.join(ROOT, "reports", "temp", "cs-a2-final-closure-audit-v2");
+  }
+  if (isA2FullFinalClosureAudit(dataset)) {
+    return path.join(ROOT, "reports", "temp", "cs-a2-final-closure-audit");
+  }
+  if (isFinalClosureA2(dataset)) {
+    return path.join(ROOT, "reports", "temp", "cs-a2-final-post-repair-closure-audit");
   }
   return path.join(ROOT, "reports", "temp", `cs-${dataset}-audit`);
 }
@@ -467,6 +506,10 @@ module.exports = {
   collectSectionAccentTerms,
   detectForeignRemnant,
   isPostRepairA1,
+  isPostRepairA2,
+  isFinalClosureA2,
+  isA2FullFinalClosureAudit,
+  isA2FinalClosureAuditV2,
   isFinalPostRepairA1,
   isFinalClosureAuditOnMainA1,
   isFinal702AuditOnMainA1,
