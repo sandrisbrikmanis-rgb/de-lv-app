@@ -236,6 +236,12 @@ function isPostRepairA2(dataset) {
       || process.env.CS_A2_POST_REPAIR === "1");
 }
 
+function isFinalClosureA2(dataset) {
+  return dataset === "a2"
+    && (process.argv.includes("--final-closure")
+      || process.env.CS_A2_FINAL_CLOSURE === "1");
+}
+
 function tempDir(dataset) {
   if (isFinalClosureAuditOnMainA1(dataset)) {
     return path.join(ROOT, "reports", "temp", "cs-a1-final-closure-audit-on-main");
@@ -254,6 +260,9 @@ function tempDir(dataset) {
   }
   if (isPostRepairA2(dataset)) {
     return path.join(ROOT, "reports", "temp", "cs-a2-post-repair-full-audit");
+  }
+  if (isFinalClosureA2(dataset)) {
+    return path.join(ROOT, "reports", "temp", "cs-a2-final-post-repair-closure-audit");
   }
   return path.join(ROOT, "reports", "temp", `cs-${dataset}-audit`);
 }
@@ -477,6 +486,7 @@ module.exports = {
   detectForeignRemnant,
   isPostRepairA1,
   isPostRepairA2,
+  isFinalClosureA2,
   isFinalPostRepairA1,
   isFinalClosureAuditOnMainA1,
   isFinal702AuditOnMainA1,
