@@ -2,7 +2,7 @@
 
 ## FINAL STATUS
 
-**CS–DE A2 — CLOSED / READY TO MERGE TO MAIN**
+**CS–DE A2 — CLOSED ON MAIN**
 
 ## GIT
 
@@ -10,11 +10,13 @@
 |---|---|
 | integration branch | `cursor/cs-a2-final-main-integration-6ea4` |
 | MAIN_BEFORE | `b29203d3067c113c12a97d39fb377bcce4822b9a` |
-| integration SHA | `0c41faeeaec9b1c992cf0d68349de1eaebe44fbd` |
+| integration SHA | `3548328c` |
+| MAIN_AFTER | `9bba06d38fc9be9425193243e756726168440ff5` |
+| origin/main | `9bba06d38fc9be9425193243e756726168440ff5` |
 | audited production SHA | `9551f5d3b85a7ba6121a6e986c4ce10cfbe32506` |
-| merge type | fast-forward |
+| merge type | merge commit (PR #494) |
 | conflicts | 0 |
-| integrated commits | 30 |
+| integrated commits | 31 |
 
 ### Integrated PR chain (closure stack)
 
