@@ -1,0 +1,44 @@
+{
+  "batch": "study-071-080",
+  "cardIds": [
+    "a2-schlange",
+    "a2-schließen",
+    "a2-schloss",
+    "a2-sitzen",
+    "a2-setzen",
+    "a2-sobald",
+    "a2-sonst",
+    "a2-stellen",
+    "a2-steigen",
+    "a2-stelle"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-schlange",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-schloss",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 8
+}
