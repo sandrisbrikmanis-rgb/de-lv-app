@@ -1,0 +1,44 @@
+{
+  "batch": "study-051-060",
+  "cardIds": [
+    "a2-gewinnen",
+    "a2-hart",
+    "a2-indem",
+    "a2-kaum",
+    "a2-wissen",
+    "a2-kiosk",
+    "a2-klar",
+    "a2-kleiden",
+    "a2-leitung",
+    "a2-liegen"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-kleiden",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-liegen",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 8
+}

@@ -1,0 +1,57 @@
+{
+  "batch": "study-011-020",
+  "cardIds": [
+    "a2-aufnahme",
+    "a2-aufnehmen",
+    "a2-aufrichtig",
+    "a2-aufrufen",
+    "a2-auftragen",
+    "a2-auftreten",
+    "a2-aussteigen",
+    "a2-auswählen",
+    "a2-ausziehen",
+    "a2-bahn"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-auftragen",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-auswählen",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-ausziehen",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 7
+}

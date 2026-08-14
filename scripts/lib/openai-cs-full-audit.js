@@ -138,6 +138,7 @@ async function auditCardsBatch(options) {
     batchLabel = "",
     auditType = "full_linguistic",
     dataset = "",
+    instructions = SYSTEM_PROMPT,
   } = options;
 
   if (!Array.isArray(cards) || cards.length === 0) {
@@ -156,7 +157,7 @@ async function auditCardsBatch(options) {
 
   const response = await client.responses.create({
     model,
-    instructions: SYSTEM_PROMPT,
+    instructions,
     input,
     text: { format: { type: "json_object" } },
   });
