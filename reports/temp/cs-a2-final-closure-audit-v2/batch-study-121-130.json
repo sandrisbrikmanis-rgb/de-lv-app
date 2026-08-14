@@ -1,0 +1,48 @@
+{
+  "dataset": "a2",
+  "batch": "study-121-130",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-kinderwagen",
+    "a2-kindheit",
+    "a2-kino",
+    "a2-kiosk",
+    "a2-kirsche",
+    "a2-kissen",
+    "a2-kissenbezug",
+    "a2-kiste",
+    "a2-klar",
+    "a2-kleben"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-kiosk",
+      "field": "csMain",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Kiosk",
+      "lvSource": "kiosks",
+      "currentCs": "Stánek",
+      "proposedCs": "Kiosek",
+      "reason": "„Stánek“ je obecnější; německé Kiosk se přesně překládá jako „kiosek“.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-klar",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "klar",
+      "lvSource": "skaidrs",
+      "currentCs": "Jasný",
+      "proposedCs": "Jasný • čirý • srozumitelný",
+      "reason": "„Jasný“ nepokrývá význam čirý u vody/vzduchu ani význam srozumitelný; karta učí více běžných smyslů.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 8,
+  "completedAt": "2026-08-14T16:52:09.262Z"
+}

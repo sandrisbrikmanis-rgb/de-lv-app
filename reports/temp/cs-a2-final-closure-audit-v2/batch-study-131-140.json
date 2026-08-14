@@ -1,0 +1,87 @@
+{
+  "dataset": "a2",
+  "batch": "study-131-140",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-kleiden",
+    "a2-körper",
+    "a2-kraft",
+    "a2-kurz",
+    "a2-lage",
+    "a2-leiden",
+    "a2-leihen",
+    "a2-leiter",
+    "a2-leitung",
+    "a2-liegen"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-kleiden",
+      "field": "study.comparison[2].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "kleidet jemanden",
+      "lvSource": "piestāv kādam",
+      "currentCs": "Slušet někomu",
+      "proposedCs": "Oblékat někoho",
+      "reason": "„kleidet jemanden“ znamená někoho oblékat; význam „slušet někomu“ má konstrukce, kde je oděv nebo barva podmětem.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-leitung",
+      "field": "study.comparison[4].example",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Die Wasserleitung tropft.",
+      "lvSource": "Ūdens caurule pil.",
+      "currentCs": "Vodní potrubí kape.",
+      "proposedCs": "Vodovodní potrubí kape.",
+      "reason": "V češtině se pro potrubí přivádějící vodu běžně používá spojení „vodovodní potrubí“, nikoli „vodní potrubí“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-leitung",
+      "field": "study.accents.blue",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "Leitung",
+      "lvSource": "vadība / līnija / vads / caurule",
+      "currentCs": "[\"StandardStudy\",\"Die Leitung\",\"Telefona\",\"Caurule\",\"Leitung\",\"Vads\"]",
+      "proposedCs": "[\"StandardStudy\",\"Die Leitung\",\"Telefonní linka\",\"Potrubí\",\"Leitung\",\"Kabel\"]",
+      "reason": "Pole Czech accentů obsahuje lotyšská slova „Telefona“, „Caurule“ a „Vads“, která kontaminují českou lokalizaci.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-leitung",
+      "field": "study.accents.red",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "die Wasserleitung",
+      "lvSource": "ūdens caurule",
+      "currentCs": "[\"Die Telefonleitung\",\"Telefonleitung\",\"Caurule\"]",
+      "proposedCs": "[\"Die Telefonleitung\",\"Telefonleitung\",\"Potrubí\"]",
+      "reason": "„Caurule“ je lotyšské slovo; český ekvivalent v tomto kontextu je „potrubí“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-liegen",
+      "field": "study.comparison[2].example",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Ich stelle die Flasche hin.",
+      "lvSource": "Es nolieku pudeli stāvus.",
+      "currentCs": "Láhev jsem postavil do svislé polohy.",
+      "proposedCs": "Postavím láhev do svislé polohy.",
+      "reason": "Německá věta je v přítomném čase, zatímco český překlad používá minulý čas.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 7,
+  "completedAt": "2026-08-14T16:52:43.738Z"
+}

@@ -1,0 +1,189 @@
+{
+  "dataset": "a2",
+  "batch": "study-111-120",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-kaum",
+    "a2-keller",
+    "a2-kellner",
+    "a2-kennen",
+    "a2-wissen",
+    "a2-kerl",
+    "a2-kerze",
+    "a2-keyboard",
+    "a2-kinderarzt",
+    "a2-kinderfunk"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-kaum",
+      "field": "study.sectionAccents.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "Sie ist kaum angekommen.",
+      "lvSource": "viņa tikko ir ieradusies.",
+      "currentCs": "[\"Sotva\"]",
+      "proposedCs": {
+        "purple": [
+          "Sotva"
+        ]
+      },
+      "reason": "Accent markup is a string containing serialized JSON instead of the expected color-group object.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-kennen",
+      "field": "study.comparison[1].meaning",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "wissen",
+      "lvSource": "zināt (faktu, informāciju)",
+      "currentCs": "Vědět (fakt, informace)",
+      "proposedCs": "Vědět (fakt, informaci)",
+      "reason": "The second object is accusative: informaci, not nominative/genitive informace.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-wissen",
+      "field": "study.comparison[0].meaning",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "wissen",
+      "lvSource": "zināt (faktu, informāciju)",
+      "currentCs": "Vědět (fakt, informace)",
+      "proposedCs": "Vědět (fakt, informaci)",
+      "reason": "The second object is accusative: informaci, not nominative/genitive informace.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-wissen",
+      "field": "study.explanation[0]",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "wissen",
+      "lvSource": "Zināt faktu, atbildi vai informāciju.",
+      "currentCs": "Hlavní myšlenka: Znát fakt, odpověď nebo informaci.",
+      "proposedCs": "Hlavní myšlenka: Vědět, že něco platí, nebo znát odpověď či informaci.",
+      "reason": "The explanation incorrectly uses znát as the general equivalent of wissen and blurs the Czech distinction.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-wissen",
+      "field": "study.explanation[1]",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "wissen",
+      "lvSource": "wissen galvenokārt nozīmē: informācija/fakts.",
+      "currentCs": "Wissen znamená především: informace/fakt.",
+      "proposedCs": "Wissen se týká především faktů a informací.",
+      "reason": "The current Czech is an unnatural sentence fragment with an unsuitable colon construction.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-wissen",
+      "field": "study.explanation[2]",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "wissen",
+      "lvSource": "Bieži raksturo: atbildes, datus.",
+      "currentCs": "Často charakterizováno: odpověďmi, daty.",
+      "proposedCs": "Často se používá u odpovědí a údajů.",
+      "reason": "The passive fragment and colon construction are unnatural Czech for describing usage.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-wissen",
+      "field": "study.explanation[3]",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "wissen",
+      "lvSource": "wissen lieto, ja zini faktu, atbildi vai informāciju.",
+      "currentCs": "Wissen se používá, když znáte fakt, odpověď nebo informaci.",
+      "proposedCs": "Wissen se používá, když víte, jaká je daná skutečnost, nebo znáte odpověď či informaci.",
+      "reason": "Znáte incorrectly replaces víte in the general explanation of wissen.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-wissen",
+      "field": "study.sectionAccents.examples",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "Ich weiß, wo er wohnt. / Woher wissen Sie das? / Ich weiß die Antwort.",
+      "lvSource": "Es zinu, kur viņš dzīvo. / no kurienes jūs to zināt? / es zinu atbildi.",
+      "currentCs": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {
+            "green": [
+              "wissen",
+              "wissen"
+            ]
+          },
+          "lv": {
+            "purple": [
+              "Jak"
+            ]
+          }
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "proposedCs": [
+        {
+          "de": {
+            "green": [
+              "weiß"
+            ]
+          },
+          "lv": {
+            "purple": [
+              "Vím"
+            ]
+          }
+        },
+        {
+          "de": {
+            "green": [
+              "wissen"
+            ]
+          },
+          "lv": {
+            "purple": [
+              "Jak"
+            ]
+          }
+        },
+        {
+          "de": {
+            "green": [
+              "weiß"
+            ]
+          },
+          "lv": {
+            "purple": [
+              "znám"
+            ]
+          }
+        }
+      ],
+      "reason": "The markup omits target words in examples 1 and 3 and duplicates wissen in example 2.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 8,
+  "completedAt": "2026-08-14T16:51:50.183Z"
+}

@@ -239,14 +239,22 @@ function isPostRepairA2(dataset) {
 function isFinalClosureA2(dataset) {
   return dataset === "a2"
     && !isA2FullFinalClosureAudit(dataset)
+    && !isA2FinalClosureAuditV2(dataset)
     && (process.argv.includes("--final-closure")
       || process.env.CS_A2_FINAL_CLOSURE === "1");
 }
 
 function isA2FullFinalClosureAudit(dataset) {
   return dataset === "a2"
+    && !isA2FinalClosureAuditV2(dataset)
     && (process.argv.includes("--a2-full-final-closure")
       || process.env.CS_A2_FULL_FINAL_CLOSURE === "1");
+}
+
+function isA2FinalClosureAuditV2(dataset) {
+  return dataset === "a2"
+    && (process.argv.includes("--a2-final-closure-v2")
+      || process.env.CS_A2_FINAL_CLOSURE_V2 === "1");
 }
 
 function tempDir(dataset) {
@@ -267,6 +275,9 @@ function tempDir(dataset) {
   }
   if (isPostRepairA2(dataset)) {
     return path.join(ROOT, "reports", "temp", "cs-a2-post-repair-full-audit");
+  }
+  if (isA2FinalClosureAuditV2(dataset)) {
+    return path.join(ROOT, "reports", "temp", "cs-a2-final-closure-audit-v2");
   }
   if (isA2FullFinalClosureAudit(dataset)) {
     return path.join(ROOT, "reports", "temp", "cs-a2-final-closure-audit");
@@ -498,6 +509,7 @@ module.exports = {
   isPostRepairA2,
   isFinalClosureA2,
   isA2FullFinalClosureAudit,
+  isA2FinalClosureAuditV2,
   isFinalPostRepairA1,
   isFinalClosureAuditOnMainA1,
   isFinal702AuditOnMainA1,

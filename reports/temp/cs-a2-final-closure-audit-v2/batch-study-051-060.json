@@ -1,0 +1,87 @@
+{
+  "dataset": "a2",
+  "batch": "study-051-060",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-boden",
+    "a2-borgen",
+    "a2-böse",
+    "a2-brav",
+    "a2-brennen",
+    "a2-dabei",
+    "a2-dafür",
+    "a2-damit",
+    "study-der-dank",
+    "a2-darauf"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-borgen",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "borgen",
+      "lvSource": "aizņemties • aizdot",
+      "currentCs": "Půjčit",
+      "proposedCs": "Půjčit někomu • půjčit si",
+      "reason": "České „půjčit“ nevyjadřuje jasně oba směry, které německé borgen v kartě rozlišuje.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-böse",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "böse",
+      "lvSource": "ļauns • dusmīgs",
+      "currentCs": "Zlý",
+      "proposedCs": "Zlý • naštvaný",
+      "reason": "Hlavní překlad uvádí jen význam „zlý“, ačkoli karta systematicky učí i význam „naštvaný“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-dabei",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "dabei",
+      "lvSource": "klāt",
+      "currentCs": "Přitom",
+      "proposedCs": "S sebou • přitom",
+      "reason": "„Přitom“ nepokrývá běžný význam dabei ve spojeních jako kein Geld dabei nebo Ausweis dabei.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-damit",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "damit",
+      "lvSource": "ar to",
+      "currentCs": "S tím",
+      "proposedCs": "S tím • aby",
+      "reason": "Hlavní překlad opomíjí velmi běžný účelový význam damit, který karta procvičuje v několika příkladech.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-darauf",
+      "field": "study.translation",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "darauf",
+      "lvSource": "uz to • uz tā • pēc tam",
+      "currentCs": "Na to",
+      "proposedCs": "Na to • na tom • poté",
+      "reason": "„Na to“ je správné, ale hlavní překlad neuvádí význam umístění na povrchu ani časový význam „poté“.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 5,
+  "completedAt": "2026-08-14T16:48:26.633Z"
+}

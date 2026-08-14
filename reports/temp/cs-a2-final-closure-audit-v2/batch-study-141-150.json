@@ -1,0 +1,61 @@
+{
+  "dataset": "a2",
+  "batch": "study-141-150",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-legen",
+    "a2-los",
+    "a2-meinen",
+    "a2-merken",
+    "a2-mittel",
+    "a2-na-gut",
+    "a2-nagel",
+    "a2-note",
+    "a2-nummernschild",
+    "a2-nutzen"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-na-gut",
+      "field": "study.explanation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "na gut",
+      "lvSource": "Lieto, kad piekrīt, samierinās vai pieņem kādu lēmumu. Bieži izsaka nelielu vilcināšanos vai piekāpšanos.",
+      "currentCs": "Používá se při domlouvání, usmiřování nebo rozhodování. Často vyjadřuje mírné zaváhání nebo ústupek.",
+      "proposedCs": "Používá se při souhlasu, přijetí návrhu nebo rozhodování. Často vyjadřuje mírné zaváhání nebo ústupek.",
+      "reason": "„Na gut“ neoznačuje usmiřování; vyjadřuje hlavně souhlas, přijetí návrhu nebo ústupek.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-nagel",
+      "field": "study.important[1]",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Den Nagel auf den Kopf treffen",
+      "lvSource": "den Nagel auf den Kopf treffen = precīzi uzminēt/pateikt (idiomātisks izteiciens).",
+      "currentCs": "Den Nagel auf den Kopf treffen = přesně odhadnout/říkat (idiomatický výraz).",
+      "proposedCs": "Den Nagel auf den Kopf treffen = přesně odhadnout / říct (idiomatický výraz).",
+      "reason": "„Říkat“ je zde nedokonavé a spojení „přesně říkat“ není přirozené; idiom znamená přesně odhadnout nebo říct.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-nutzen",
+      "field": "study.explanation[2]",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "nutzen",
+      "lvSource": "lietot ikdienā bieži ir benutzen, bet nutzen vairāk uzsver ieguvumu vai mērķi.",
+      "currentCs": "Používat každý den je často benutzen, ale nutzen více zdůrazňuje přínos nebo účel.",
+      "proposedCs": "Pro každodenní používání se často používá benutzen, ale nutzen více zdůrazňuje přínos nebo účel.",
+      "reason": "Původní formulace je gramaticky nepřirozená; chybí jasná konstrukce s německým slovesem.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 7,
+  "completedAt": "2026-08-14T16:53:11.823Z"
+}

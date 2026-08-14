@@ -1,0 +1,87 @@
+{
+  "dataset": "a2",
+  "batch": "study-101-110",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-gewinnen",
+    "a2-gießen",
+    "a2-gott",
+    "a2-grund",
+    "a2-hängen",
+    "a2-hart",
+    "a2-holz",
+    "a2-indem",
+    "a2-je",
+    "a2-kamm"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-gewinnen",
+      "field": "study.explanation[4]",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "gewinnen / bekommen",
+      "lvSource": "Gewinnen nav tas pats, kas bekommen, jo bekommen nozīmē saņemt.",
+      "currentCs": "Gewinnen není totéž co bekommen, protože bekommen znamená přijímat.",
+      "proposedCs": "Gewinnen není totéž co bekommen, protože bekommen znamená dostávat nebo obdržet.",
+      "reason": "Přijímat obvykle znamená aktivně akceptovat; německé bekommen zde znamená dostávat nebo obdržet.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-gewinnen",
+      "field": "study.important[3]",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "bekommen",
+      "lvSource": "bekommen = saņemt, nevis uzvarēt.",
+      "currentCs": "Bekommen = přijímat, ne vyhrávat.",
+      "proposedCs": "Bekommen = dostávat nebo obdržet, ne vyhrávat.",
+      "reason": "Význam slovesa bekommen je zde nepřesně uveden jako přijímat.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-hart",
+      "field": "study.examples[4].lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Sie ist eine harte Chefin.",
+      "lvSource": "viņa ir skarba šefe.",
+      "currentCs": "Je tvrdá šéfová.",
+      "proposedCs": "Je to tvrdá šéfová.",
+      "reason": "Bez podmětu a spona „je tvrdá šéfová“ zní v češtině nepřirozeně; běžné je „Je to tvrdá šéfová“.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-indem",
+      "field": "study.comparison[0].example",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Ich lerne, indem ich übe.",
+      "lvSource": "Es mācos, trenējoties.",
+      "currentCs": "Ich lerne, indem ich übe. = Učím se cvičením.",
+      "proposedCs": "Ich lerne, indem ich übe. = Učím se tím, že cvičím.",
+      "reason": "„Učím se cvičením“ je v tomto kontextu nepřirozené; přirozenější je vedlejší věta se „tím, že“.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-je",
+      "field": "study.examples[3]",
+      "severity": "MEDIUM",
+      "category": "SOURCE_DE_ISSUE",
+      "de": "Ich habe das noch nie je gesehen.",
+      "lvSource": "es to nekad neesmu redzējis.",
+      "currentCs": "Nikdy jsem to neviděl.",
+      "proposedCs": "Nikdy jsem to neviděl.",
+      "reason": "Německá věta obsahuje nadbytečné „je“; český překlad správně odpovídá zamýšlenému významu.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 6,
+  "completedAt": "2026-08-14T16:51:18.831Z"
+}

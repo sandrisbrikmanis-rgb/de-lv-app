@@ -1,0 +1,35 @@
+{
+  "dataset": "a2",
+  "batch": "study-191-200",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-treffen",
+    "a2-übrig",
+    "a2-übung",
+    "a2-umsonst",
+    "a2-urlaub-study",
+    "a2-verbinden",
+    "a2-verkehr",
+    "a2-verlangen",
+    "a2-viertel",
+    "a2-vorn"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-umsonst",
+      "field": "csMain",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "umsonst",
+      "lvSource": "par velti • veltīgi",
+      "currentCs": "Marně • Marně",
+      "proposedCs": "Zdarma • Marně",
+      "reason": "Hlavní překlad opakuje význam „marně“ a zcela vynechává běžný význam „zdarma“.",
+      "confidence": 1,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 9,
+  "completedAt": "2026-08-14T16:55:51.394Z"
+}
