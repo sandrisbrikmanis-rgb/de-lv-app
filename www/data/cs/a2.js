@@ -237,7 +237,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Abfahren není 'odnést'.",
+        "text": "Abfahren není „odvézt“ nebo „převážet“.",
         "example": "Der Zug fährt ab = vlak odjíždí. Wir fahren ab = odjíždíme. Eine Strecke abfahren = projet trasu."
       },
       "sectionAccents": "cestě",
@@ -342,7 +342,7 @@ const A2_WORDS = [
         {
           "word": "abgeben",
           "meaning": "Předat nebo odevzdat jiné osobě či na určitém místě",
-          "example": "Ich gebe den Antrag ab. = Podala jsem žádost."
+          "example": "Podávám žádost."
         },
         {
           "word": "geben",
@@ -376,7 +376,7 @@ const A2_WORDS = [
             "text": "Pokud něco předáváme nebo odevzdáváme jiné osobě či na určitém místě, často použijeme abgeben."
           },
           {
-            "text": "Pokud jde o dokumenty, žádosti nebo domácí úkoly, abgeben se nejčastěji překládá jako „předložit“."
+            "text": "Pokud jde o dokumenty, žádosti nebo domácí úkoly, abgeben se nejčastěji překládá jako „odevzdat“ nebo „podat“."
           }
         ]
       },
@@ -423,10 +423,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Vyzvednout",
       "explanation": [
-        "Hlavní myšlenka: Jít za a vyzvednout osobu nebo vyzvednout balíček/objednávku.",
+        "Hlavní myšlenka: Jít pro někoho nebo něco a vyzvednout to.",
         "Abholen v podstatě znamená: jít pro někoho nebo něco a vyzvednout to.",
-        "Často popisuje: osobu, balíček, objednávku.",
-        "Abholen vždy zahrnuje pohyb: jít za a vyzvednout osobu, balíček nebo objednávku."
+        "Často se používá u osob, balíčků a objednávek.",
+        "Abholen zahrnuje pohyb: jít pro osobu, balíček nebo objednávku a vyzvednout ji či ho."
       ],
       "examples": [
         {
@@ -444,13 +444,13 @@ const A2_WORDS = [
       ],
       "tip": [
         "Abholen = jít pro a vyzvednout",
-        "Používá abholen, když kontext vyhovuje tomuto významu."
+        "Sloveso abholen použijte, když kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Abholen vždy zahrnuje pohyb: jít pro osobu nebo věc a vyzvednout ji.",
+        "Abholen zahrnuje pohyb: jít pro osobu nebo věc a vyzvednout ji.",
         "Bekommen není totéž co abholen.",
-        "Abholen = jít za a vzít.",
-        "Jděte za a vyzvedněte osobu nebo vyzvedněte balíček/objednávku."
+        "Abholen = jít pro někoho nebo něco a vyzvednout to.",
+        "Jděte pro osobu a vyzvedněte ji nebo vyzvedněte balíček či objednávku."
       ],
       "sectionAccents": {
         "explanation": {
@@ -523,10 +523,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Dojít pro",
       "explanation": [
-        "Hlavní myšlenka: Jdi za tím a něco přines.",
+        "Hlavní myšlenka: Jít pro něco a přinést to.",
         "Holen hlavně znamená: jít pro něco a přinést to.",
-        "Často charakterizováno: věcmi převzatými odjinud.",
-        "Holen znamená jít za něčím a přinést něco (např. vodu)."
+        "Často se používá u věcí, které přineseme odjinud.",
+        "Holen znamená jít pro něco a přinést to (např. vodu)."
       ],
       "examples": [
         {
@@ -547,7 +547,7 @@ const A2_WORDS = [
         "Používá holen, když kontext vyhovuje tomuto významu."
       ],
       "important": [
-        "Holen = jít za a aportovat.",
+        "Holen = jít pro něco a přinést to.",
         "Holen: před použitím zkontrolujte kontext."
       ],
       "sectionAccents": {
@@ -914,12 +914,12 @@ const A2_WORDS = [
         {
           "word": "schließen",
           "meaning": "Zavřít",
-          "example": "Ich schließe die Tür. = Es aizveru durvis."
+          "example": "Zavírám dveře."
         },
         {
           "word": "beenden",
           "meaning": "Dokončit",
-          "example": "Ich beende die Arbeit. = Práci jsem dokončil."
+          "example": "Dokončuji práci."
         },
         {
           "word": "unterschreiben",
@@ -1036,7 +1036,7 @@ const A2_WORDS = [
         {
           "word": "abstellen",
           "meaning": "Odstavit / umístit / vypnout / odstranit v závislosti na objektu",
-          "example": "Ich stelle das Fahrrad ab. = Zaparkoval jsem kolo."
+          "example": "Odstavuji kolo."
         },
         {
           "word": "ausschalten",
@@ -1045,18 +1045,18 @@ const A2_WORDS = [
         },
         {
           "word": "anhalten",
-          "meaning": "Přestat se pohybovat / zastavit",
+          "meaning": "Zastavit se / zastavit",
           "example": "Der Bus hält an. = Autobus zastavuje."
         },
         {
           "word": "stoppen",
-          "meaning": "Zastavit / zastavit",
+          "meaning": "Zastavit / zastavit něco",
           "example": "Der Fahrer stoppt das Auto. = Řidič zastaví auto."
         },
         {
           "word": "stellen",
           "meaning": "Postavit / umístit",
-          "example": "Ich stelle die Tasche neben die Tür. = Položila jsem tašku ke dveřím."
+          "example": "Pokládám tašku vedle dveří."
         }
       ],
       "tip": {
@@ -1600,7 +1600,7 @@ const A2_WORDS = [
         {
           "word": "anheizen",
           "meaning": "Rozpálit / rozdmýchat",
-          "example": "Ich heize den Ofen an. = Zapaluji troubu."
+          "example": "Zatápím v kamnech."
         },
         {
           "word": "heizen",
@@ -1760,7 +1760,7 @@ const A2_WORDS = [
         {
           "word": "legen",
           "meaning": "Položit",
-          "example": "Ich lege das Buch auf den Tisch. = Položil jsem knihu na stůl."
+          "example": "Pokládám knihu na stůl."
         },
         {
           "word": "investieren",
@@ -1887,17 +1887,17 @@ const A2_WORDS = [
         {
           "word": "registrieren",
           "meaning": "Registrovat",
-          "example": "Ich registriere mein Konto. = Zaregistroval jsem svůj účet."
+          "example": "Registruji svůj účet."
         },
         {
           "word": "buchen",
           "meaning": "Rezervovat",
-          "example": "Ich buche einen Termin. = Zarezervoval jsem si čas."
+          "example": "Rezervuji si termín."
         },
         {
           "word": "melden",
           "meaning": "Nahlásit / oznámit",
-          "example": "Ich melde das Problem. = Nahlásil jsem problém."
+          "example": "Nahlašuji problém."
         }
       ],
       "tip": {
@@ -2005,7 +2005,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Sie steckt sich eine Brosche an.",
-          "lv": "Připne si na sebe brož."
+          "lv": "Připíná si brož."
         },
         {
           "de": "Er steckt die Kerze an.",
@@ -2021,7 +2021,7 @@ const A2_WORDS = [
         },
         {
           "de": "Sie steckt das Mikrofon an.",
-          "lv": "Zapojí mikrofon."
+          "lv": "Připojuje mikrofon."
         },
         {
           "de": "Grippe steckt leicht an.",
@@ -2134,7 +2134,7 @@ const A2_WORDS = [
         },
         {
           "de": "Wir stellen uns hinten an.",
-          "lv": "Stojíme na konci řady."
+          "lv": "Řadíme se na konec fronty."
         },
         {
           "de": "Was hast du wieder angestellt?",
@@ -2163,12 +2163,12 @@ const A2_WORDS = [
         {
           "word": "anschalten",
           "meaning": "Zapnout",
-          "example": "Ich schalte das Licht an. = Rozsvítil jsem světlo."
+          "example": "Rozsvěcuji světlo."
         },
         {
           "word": "sich anstellen",
           "meaning": "Stát ve frontě",
-          "example": "Ich stelle mich an. = Stál jsem ve frontě."
+          "example": "Řadím se do fronty."
         }
       ],
       "tip": {
@@ -2364,7 +2364,7 @@ const A2_WORDS = [
   },
   {
     "de": "ärgern",
-    "lv": "Otravovat • Zlobit",
+    "lv": "Zlobit",
     "level": "A2"
   },
   {
@@ -2871,7 +2871,7 @@ const A2_WORDS = [
             },
             "lv": {
               "orange": [
-                "Můžete"
+                "Můžeš"
               ],
               "purple": [
                 "Můžete",
@@ -2938,7 +2938,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ušetřil",
+                "Uschovávám",
                 "Ušetřil"
               ]
             }
@@ -3125,7 +3125,7 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "StandardStudy",
-          "Aizliegumu",
+          "Zákaz",
           "Odlišné",
           "Noteikumu",
           "Aufheben",
@@ -3288,7 +3288,7 @@ const A2_WORDS = [
           "Náklad"
         ],
         "yellow": [
-          "Izdevums",
+          "Vydání",
           "Izdevums",
           "Vydání"
         ],
@@ -3347,9 +3347,7 @@ const A2_WORDS = [
               "red": [
                 "vydání"
               ],
-              "purple": [
-                "Die"
-              ]
+              "purple": []
             },
             "example": {
               "blue": [
@@ -3423,13 +3421,13 @@ const A2_WORDS = [
         },
         {
           "de": "Die Aufnahme in den Kurs ist nicht einfach.",
-          "lv": "Vstup do kurzu není snadný."
+          "lv": "Přijetí do kurzu není snadné."
         }
       ],
       "comparison": [
         {
           "word": "die Aufnahme",
-          "meaning": "Fotografování / nahrávání / fotografie",
+          "meaning": "Přijetí / nahrávka / fotografie",
           "example": "Die Aufnahme ist gut. = Záznam je dobrý."
         },
         {
@@ -3476,7 +3474,7 @@ const A2_WORDS = [
           "Přijetí"
         ],
         "yellow": [
-          "Ieraksts",
+          "Záznam",
           "Ierakstu",
           "Ieraksts"
         ],
@@ -3536,8 +3534,7 @@ const A2_WORDS = [
               ],
               "purple": [
                 "záznam",
-                "fotografie",
-                "Die"
+                "fotografie"
               ]
             },
             "example": {
@@ -3837,10 +3834,10 @@ const A2_WORDS = [
                 "yellow": [
                   "aufnehmen",
                   "kontextu",
-                  "audio",
-                  "bieži",
-                  "Video",
-                  "foto"
+                  "audia",
+                  "často",
+                  "videa",
+                  "fotografií"
                 ]
               }
             },
@@ -4184,7 +4181,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Objeveno"
+                "Otevřený"
               ]
             },
             "example": {
@@ -4258,7 +4255,7 @@ const A2_WORDS = [
           "Aufrichtigen"
         ],
         "green": [
-          "Patiess",
+          "Upřímný",
           "Patiesa",
           "Patiesi",
           "Patiesajiem"
@@ -4359,7 +4356,7 @@ const A2_WORDS = [
           "Rufen"
         ],
         "green": [
-          "Izsaukt",
+          "Vyvolat",
           "Izsauc"
         ],
         "yellow": [
@@ -4401,13 +4398,13 @@ const A2_WORDS = [
                   "aufrufen"
                 ],
                 "purple": [
-                  "izsaukt",
+                  "vyvolat",
                   "vyzvat"
                 ],
                 "green": [
                   "Namen",
                   "Nummer",
-                  "zu + kam?"
+                  "zu + 3. pádem"
                 ]
               }
             }
@@ -4504,7 +4501,7 @@ const A2_WORDS = [
         },
         {
           "de": "Im Restaurant wird das Essen schnell aufgetragen.",
-          "lv": "Jídlo se podává rychle v restauraci."
+          "lv": "V restauraci se jídlo podává rychle."
         },
         {
           "de": "Mein Chef hat mir viel Arbeit aufgetragen.",
@@ -4836,7 +4833,7 @@ const A2_WORDS = [
           "StandardStudy",
           "Auftragen",
           "Činnosti",
-          "Pasniegt",
+          "Podávat",
           "Důležitým",
           "Uzdevumu",
           "Několika",
@@ -4986,7 +4983,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Zpěvák",
+                "Zpěvačka",
                 "Zpěvák",
                 "Zpěvák"
               ]
@@ -5201,7 +5198,7 @@ const A2_WORDS = [
           "Chování",
           "Určitým",
           "Problém",
-          "Simptoms",
+          "Příznak",
           "Skatuves",
           "Člověka",
           "Znamenat",
@@ -5253,7 +5250,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Wir müssen viel Zeit aufwenden.",
-          "lv": "Musíme trávit hodně času."
+          "lv": "Musíme věnovat hodně času."
         },
         {
           "de": "Sie hat viel Mühe aufgewendet.",
@@ -5553,7 +5550,7 @@ const A2_WORDS = [
         ],
         "green": [
           "Věnovat",
-          "Velta",
+          "Věnovat",
           "Věnoval jsi",
           "Je třeba věnovat"
         ],
@@ -5601,7 +5598,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Arzt zeichnet die Werte auf.",
-          "lv": "Lékař zapisuje ukazatele."
+          "lv": "Lékař zapisuje hodnoty."
         },
         {
           "de": "Die App zeichnet meine Schritte auf.",
@@ -5661,7 +5658,7 @@ const A2_WORDS = [
         ],
         "yellow": [
           "Zapsat",
-          "Pieraksta",
+          "Zapisuje",
           "Pierakstiet"
         ],
         "red": [
@@ -5795,7 +5792,7 @@ const A2_WORDS = [
         },
         {
           "de": "Bitte steigen Sie aus dem Auto aus.",
-          "lv": "Prosím vystupte z auta."
+          "lv": "Prosím, vystupte z auta."
         },
         {
           "de": "Wir steigen am Bahnhof aus.",
@@ -5975,7 +5972,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Vstoupit",
+                "Nastoupit",
                 "Vstoupit",
                 "Vstoupit"
               ]
@@ -5996,7 +5993,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Změnit"
+                "Přestoupit"
               ]
             },
             "example": {
@@ -6111,13 +6108,13 @@ const A2_WORDS = [
           "Autobusu",
           "Je třeba sledovat",
           "Přeneseném",
-          "Projekta",
+          "Projektu",
           "Tramvaju",
-          "Vilcienu",
+          "Vlakem",
           "Znamenat",
           "Vystoupit",
-          "Bieži",
-          "Lieto",
+          "Často",
+          "Používá",
           "Auto"
         ],
         "green": [
@@ -6223,7 +6220,7 @@ const A2_WORDS = [
         {
           "word": "aussuchen",
           "meaning": "Vybrat si",
-          "example": "Such dir ein Buch aus. = Vyberte si knihu pro sebe."
+          "example": "Vyber si knihu."
         },
         {
           "word": "entscheiden",
@@ -6545,7 +6542,7 @@ const A2_WORDS = [
           "Vybrat",
           "Auswählen",
           "Kandidáta",
-          "Sarakstos",
+          "Seznamech",
           "Vědomě",
           "Možnostem",
           "V nabídkách",
@@ -6568,7 +6565,7 @@ const A2_WORDS = [
         ],
         "orange": [
           "Vybrat",
-          "Vyšetřit"
+          "Vybrat si"
         ],
         "purple": [
           "Vybrat • Zvolit",
@@ -6577,7 +6574,7 @@ const A2_WORDS = [
           "Vybrat / volit",
           "Markieren",
           "Označit",
-          "Izlemt"
+          "Rozhodnout"
         ],
         "red": [
           "Entscheiden"
@@ -6614,7 +6611,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Zieh bitte die Schuhe aus.",
-          "lv": "Prosím sundejte si boty."
+          "lv": "Prosím, sundej si boty."
         },
         {
           "de": "Ich ziehe meine Jacke aus.",
@@ -6776,7 +6773,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Odtáhnout",
+                "Svléknout / vystěhovat se",
                 "Odtáhnout",
                 "Odtáhnout"
               ]
@@ -6798,7 +6795,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Nasadit"
+                "Obléknout / obléct"
               ]
             },
             "example": {
@@ -6818,7 +6815,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Pohybovat",
+                "Přestěhovat se / převléknout se",
                 "Pohybovat",
                 "Pohybovat"
               ]
@@ -6952,7 +6949,7 @@ const A2_WORDS = [
         ],
         "yellow": [
           "Umziehen",
-          "Izvilkt"
+          "Svléknout"
         ],
         "orange": [
           "Přestěhovat se",
@@ -7145,7 +7142,7 @@ const A2_WORDS = [
         },
         {
           "word": "das Gleis",
-          "meaning": "Kolej / nástupiště",
+          "meaning": "Kolej",
           "example": "Der Zug fährt von Gleis 3. = Vlak odjíždí z nástupiště 3."
         }
       ],
@@ -7423,12 +7420,12 @@ const A2_WORDS = [
         ],
         "purple": [
           "Železnice",
-          "Vilciens",
+          "Vlak",
           "Vilciens",
           "Jet vlakem",
           "Konkrétní vlak",
           "Tramvajs",
-          "Železniční stanice",
+          "Nádraží",
           "Perons",
           "Kolej"
         ]
@@ -7766,12 +7763,12 @@ const A2_WORDS = [
           "Vlasů"
         ],
         "green": [
-          "Saite"
+          "Pouto"
         ],
         "yellow": [
           "Das Förderband",
           "Förderband",
-          "Josla"
+          "Pás"
         ],
         "orange": [
           "Lente"
@@ -7856,7 +7853,7 @@ const A2_WORDS = [
         },
         {
           "word": "die Sandbank",
-          "meaning": "Písčina",
+          "meaning": "Písečná mělčina",
           "example": "Das Schiff steckt auf einer Sandbank. = Loď najela na mělčinu."
         },
         {
@@ -8137,12 +8134,12 @@ const A2_WORDS = [
           "V kontextu",
           "Složeniny",
           "Die Bank",
-          "Finanšu",
+          "Finance",
           "Instituci",
           "Znamenat",
           "Pomáhá",
           "Mělčina",
-          "Smilšu",
+          "Písečná",
           "Lavičku",
           "Banka",
           "Banku",
@@ -8274,7 +8271,7 @@ const A2_WORDS = [
         },
         {
           "de": "Mein Bruder baut ein Regal.",
-          "lv": "Můj bratr dělá polici."
+          "lv": "Můj bratr staví polici."
         },
         {
           "de": "Die Bauern bauen Gemüse.",
@@ -8535,7 +8532,7 @@ const A2_WORDS = [
         },
         {
           "word": "der Landwirt",
-          "meaning": "Farmář / farmář",
+          "meaning": "Zemědělec / farmář",
           "example": "Der Landwirt führt einen Hof. = Farmář hospodaří na farmě."
         },
         {
@@ -8551,7 +8548,7 @@ const A2_WORDS = [
         {
           "word": "der Spielstein",
           "meaning": "Herní kámen / figurka",
-          "example": "Der Spielstein liegt auf dem Brett. = Kostky jsou na stole."
+          "example": "Herní kámen leží na desce."
         }
       ],
       "tip": {
@@ -8565,7 +8562,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Bauer není hlavní slovo pro význam „zemědělec“. Na úrovni A2 se naučte dva praktické významy: farmář a pěšec.",
+        "text": "Bauer je běžné slovo pro význam „farmář“. Na úrovni A2 se naučte dva praktické významy: farmář a pěšec.",
         "example": "Der Bauer auf dem Feld = farmář na poli. der Bauer im Schach = pěšec v šachu."
       },
       "sectionAccents": {
@@ -8735,7 +8732,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Kostky"
+                "Herní kámen / figurka"
               ]
             },
             "example": {
@@ -9133,7 +9130,7 @@ const A2_WORDS = [
         },
         {
           "word": "steuern",
-          "meaning": "Vést",
+          "meaning": "Řídit",
           "example": "Er steuert das Auto. = Řídí auto."
         }
       ],
@@ -9452,7 +9449,7 @@ const A2_WORDS = [
         {
           "word": "die Bedienung",
           "meaning": "Obsluha / obsluha",
-          "example": "Die Bedienung ist freundlich. = Číšník je laskavý."
+          "example": "Obsluha je milá."
         },
         {
           "word": "der Kellner",
@@ -9783,7 +9780,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Du kannst das Buch behalten.",
-          "lv": "Knihu si můžete nechat."
+          "lv": "Knihu si můžeš nechat."
         },
         {
           "de": "Ich möchte den Schlüssel behalten.",
@@ -9810,7 +9807,7 @@ const A2_WORDS = [
         {
           "word": "behalten",
           "meaning": "Zachovat / zapamatovat si",
-          "example": "Du kannst es behalten. = Můžete si to nechat."
+          "example": "Můžeš si to nechat."
         },
         {
           "word": "halten",
@@ -10178,7 +10175,7 @@ const A2_WORDS = [
         {
           "word": "beinahe",
           "meaning": "Téměř / málem",
-          "example": "Ich hätte beinahe gelacht. = Skoro jsem se začala smát."
+          "example": "Skoro jsem se začal(a) smát."
         },
         {
           "word": "fast",
@@ -10518,7 +10515,7 @@ const A2_WORDS = [
       "id": "a2-bekannt",
       "layout": "standardStudy",
       "translation": "Známý",
-      "explanation": "Bekannt znamená podle kontextu známý nebo povědomý. U lidí a míst může znamenat známý či slavný, u faktů a informací znamená známý nebo známý jako fakt. Není totéž co befreundet, což znamená být přáteli.",
+      "explanation": "Bekannt podle kontextu znamená známý nebo povědomý. U lidí a míst může znamenat známý či slavný, u faktů a informací znamená, že jsou známé. Není totéž co befreundet, což znamená být přáteli.",
       "examples": [
         {
           "de": "Er ist ein bekannter Schauspieler.",
@@ -10993,7 +10990,7 @@ const A2_WORDS = [
         },
         {
           "de": "Bestell deiner Mutter schöne Grüße.",
-          "lv": "Pošli své mamince pozdravy."
+          "lv": "Vyřiď své mamince pozdravy."
         },
         {
           "de": "Hast du schon die Tickets bestellt?",
@@ -11355,7 +11352,7 @@ const A2_WORDS = [
         {
           "word": "fest",
           "meaning": "Pevný / odhodlaný",
-          "example": "Wir haben einen festen Termin. = Máme termín."
+          "example": "Máme pevně stanovený termín."
         },
         {
           "word": "wahrscheinlich",
@@ -12151,7 +12148,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Niederlage war bitter.",
-          "lv": "Porážka byla bolestivá."
+          "lv": "Porážka byla hořká."
         },
         {
           "de": "Der Wind war bitter kalt.",
@@ -12960,7 +12957,7 @@ const A2_WORDS = [
     "de": "Bonbon",
     "de_article": "das",
     "de_plural": "die Bonbons",
-    "lv": "Bonbón",
+    "lv": "Bonbon",
     "level": "A2"
   },
   {
@@ -13364,7 +13361,7 @@ const A2_WORDS = [
         {
           "word": "sauer",
           "meaning": "Naštvaný / kyselý",
-          "example": "Ich bin sauer. = Jsem naštvaná."
+          "example": "Jsem naštvaný/naštvaná."
         }
       ],
       "tip": {
@@ -14112,7 +14109,7 @@ const A2_WORDS = [
         "Když jde o oheň, světlo nebo svíčku, brennen znamená hořet.",
         "Když se odkazuje na pocit v těle, brennen často znamená pálit nebo bolet.",
         "U počítačů může brennen znamenat vypálení na disk.",
-        "Brennen není kořenové slovo znamenající „zapálit“ • Obvykle se k tomu používá anzünden.",
+        "Brennen neznamená „zapálit“ • K tomu se obvykle používá anzünden.",
         "Brennen není totéž co verbrennen, které znamená spálit nebo popálit."
       ],
       "examples": [
@@ -14169,7 +14166,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Pokud se něco spálí, použijte brennen.",
+        "Pokud se něco spálí, použijte verbrennen.",
         "Pokud něco zapálíte, obvykle použijete anzünden • Když se něco spálí, použije se verbrennen."
       ],
       "important": [
@@ -14611,7 +14608,7 @@ const A2_WORDS = [
         },
         {
           "de": "Sie ist sehr jung und dabei sehr verantwortungsbewusst.",
-          "lv": "Je velmi mladá a velmi zodpovědná."
+          "lv": "Je velmi mladá a přitom velmi zodpovědná."
         },
         {
           "de": "Beim Kochen höre ich Musik dabei.",
@@ -14874,9 +14871,7 @@ const A2_WORDS = [
                 "da"
               ],
               "red": [
-                "dabei",
-                "Dabe",
-                "Dabe"
+                "dabei"
               ]
             },
             "example": {
@@ -14930,7 +14925,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-dafür",
       "layout": "standardStudy",
-      "translation": "Za to",
+      "translation": "Pro to • na to • zato",
       "explanation": [
         "Hlavní myšlenka: dafür znamená pro to, na to nebo zato podle věty.",
         "Dafür často odkazuje na věc nebo činnost uvedenou výše: pro to nebo na to.",
@@ -14991,14 +14986,14 @@ const A2_WORDS = [
         },
         {
           "word": "für das",
-          "meaning": "Za to / za to",
+          "meaning": "Pro to / pro danou věc",
           "example": "Das ist für das Kind. = Je to pro dítě."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pokud se česky řekne „za to“, němčina se k tomu často hodí."
+            "text": "Pokud se česky řekne „pro to“ nebo „na to“, v němčině se často použije dafür."
           },
           {
             "text": "Když je ve větě kontrast, dafür často znamená „zato“."
@@ -15345,7 +15340,7 @@ const A2_WORDS = [
         },
         {
           "de": "Damit bin ich einverstanden.",
-          "lv": "S tím souhlasím. / Jsem s tím smířený."
+          "lv": "S tím souhlasím."
         }
       ],
       "comparison": [
@@ -16104,7 +16099,7 @@ const A2_WORDS = [
         },
         {
           "word": "auf das",
-          "meaning": "Na ten konkrétní případ",
+          "meaning": "Na konkrétní věc",
           "example": "Ich lege es auf das Buch. = Pokládám to na knihu."
         },
         {
@@ -16404,7 +16399,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Lampe hängt darüber.",
-          "lv": "Nad ním visí lampa."
+          "lv": "Nad tím visí lampa."
         },
         {
           "de": "Er springt darüber.",
@@ -16423,13 +16418,13 @@ const A2_WORDS = [
         },
         {
           "word": "über das",
-          "meaning": "Pro tu konkrétní věc / nad ní",
+          "meaning": "O té konkrétní věci / nad ní",
           "example": "Wir sprechen über das Problem. = Mluvíme o problému."
         },
         {
           "word": "darauf",
           "meaning": "Na tom / na tom / po tom",
-          "example": "Ich warte darauf. = Těším se na to."
+          "example": "Čekám na to."
         },
         {
           "word": "davon",
@@ -17714,7 +17709,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Neexistuje pro něj jedno jediné české slovo.",
-        "Překlad by měl být zvolen podle situace: k tomu, k tomu, současnému nebo navíc."
+        "Překlad by měl být zvolen podle situace: k tomu, k tomu účelu nebo navíc."
       ],
       "sectionAccents": {
         "explanation": {
@@ -17956,7 +17951,7 @@ const A2_WORDS = [
         "V ložnici znamená die Decke obvykle přikrývku.",
         "V místnosti nebo budově znamená die Decke často strop.",
         "Význam „pokryv“ není hlavním zaměřením této karty na úrovni A2.",
-        "Kontext pomáhá pochopit, zda se jedná o postel nebo pokoj."
+        "Tlustý není totéž co široký."
       ],
       "examples": [
         {
@@ -18306,12 +18301,12 @@ const A2_WORDS = [
     "study": {
       "id": "a2-denn",
       "layout": "standardStudy",
-      "translation": "Vždyť",
+      "translation": "Protože • vždyť",
       "explanation": [
         "Hlavní myšlenka: denn může znamenat „protože“ nebo v otázkách zesiluje význam podobně jako české „pak“.",
         "Když denn spojuje dvě myšlenky, často to znamená protože.",
         "V otázkách denn často dělá otázku přirozenější nebo vyjadřuje zájem.",
-        "Protože není třeba vyzdvihovat jako samostatný hlavní význam, protože se prakticky překrývá s protože.",
+        "Význam „protože“ se prakticky překrývá s významem slova weil.",
         "Denn není totéž co dann, což znamená pak v chronologickém pořadí."
       ],
       "examples": [
@@ -18358,12 +18353,12 @@ const A2_WORDS = [
         },
         {
           "word": "deshalb",
-          "meaning": "Protože",
+          "meaning": "Proto",
           "example": "Deshalb bleibe ich. = Proto zůstávám."
         }
       ],
       "tip": [
-        "V kladné větě se denn často překládá jako jo.",
+        "V oznamovací větě se denn často překládá jako „protože“.",
         "V otázkách se denn obvykle nepřekládá doslova; například Was machst du denn? = Co vlastně děláš?"
       ],
       "important": [
@@ -18742,7 +18737,6 @@ const A2_WORDS = [
               "Hlavní"
             ],
             "red": [
-              "dünn",
               "breit"
             ]
           }
@@ -18798,9 +18792,7 @@ const A2_WORDS = [
           },
           {
             "de": {
-              "red": [
-                "dünn"
-              ]
+              "red": []
             },
             "lv": {
               "red": [
@@ -18860,9 +18852,7 @@ const A2_WORDS = [
           },
           {
             "word": {
-              "green": [
-                "dünn"
-              ]
+              "green": []
             },
             "meaning": {
               "purple": [
@@ -18936,18 +18926,9 @@ const A2_WORDS = [
           },
           {
             "text": {
-              "blue": [
-                "Péro"
-              ],
-              "red": [
-                "dünn"
-              ],
-              "purple": [
-                "Péro",
-                "Péro",
-                "Péro",
-                "Péro"
-              ]
+              "blue": [],
+              "red": [],
+              "purple": []
             }
           },
           {
@@ -19065,8 +19046,8 @@ const A2_WORDS = [
         },
         {
           "word": "ja",
-          "meaning": "Již / přece, když mluvčí považuje něco za známé",
-          "example": "Du weißt ja. = Vy už víte."
+          "meaning": "Přece / vždyť, když mluvčí považuje něco za známé",
+          "example": "Vždyť to víte."
         },
         {
           "word": "nein",
@@ -19442,7 +19423,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Er ist Doktor der Medizin.",
-          "lv": "Je doktor medicíny."
+          "lv": "Je doktorem medicíny."
         },
         {
           "de": "Ich gehe zum Doktor.",
@@ -19806,7 +19787,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Dreh den Schlüssel!",
-          "lv": "Otočte klíčem!"
+          "lv": "Otoč klíčem!"
         },
         {
           "de": "Die Erde dreht sich.",
@@ -19842,9 +19823,7 @@ const A2_WORDS = [
             ],
             "purple": [],
             "green": [],
-            "yellow": [
-              "schneiden"
-            ],
+            "yellow": [],
             "red": []
           }
         },
@@ -19963,9 +19942,7 @@ const A2_WORDS = [
           },
           {
             "text": {
-              "red": [
-                "schneiden"
-              ],
+              "red": [],
               "purple": [
                 "Pokud",
                 "Pokud"
@@ -19976,12 +19953,8 @@ const A2_WORDS = [
         "important": [
           {
             "text": {
-              "red": [
-                "schneiden"
-              ],
-              "purple": [
-                "Nožem"
-              ]
+              "red": [],
+              "purple": []
             }
           },
           {
@@ -19999,9 +19972,7 @@ const A2_WORDS = [
           {
             "text": {
               "blue": [],
-              "purple": [
-                "Sich"
-              ]
+              "purple": []
             }
           }
         ]
@@ -20062,13 +20033,7 @@ const A2_WORDS = [
       "id": "a2-drücken",
       "layout": "standardStudy",
       "translation": "Stisknout",
-      "explanation": [
-        "Hlavní myšlenka: drücken znamená stisknout, stisknout nebo vynutit, v závislosti na předmětu.",
-        "Pomocí tlačítka drücken často znamená stisknout.",
-        "S osobou nebo předmětem to může znamenat donutit.",
-        "Drücken není totéž co drucken.",
-        "Drucken znamená tisknout."
-      ],
+      "explanation": "Hlavní myšlenka: drücken znamená tlačit, stisknout nebo vynutit, podle předmětu.",
       "examples": [
         {
           "de": "Drück den Knopf!",
@@ -20095,10 +20060,7 @@ const A2_WORDS = [
           "lv": "Klikněte zde."
         }
       ],
-      "tip": [
-        "Pomocí tlačítek a obrazovek se drücken často mačká.",
-        "Pamatujte na přehlásku: drücken s ü není totéž jako drucken bez ü."
-      ],
+      "tip": "U tlačítek a obrazovek se drücken často překládá jako „stisknout“.",
       "important": "Drücken = tlačit nebo stisknout. Drucken = tisknout.",
       "sectionAccents": {
         "explanation": {
@@ -20340,7 +20302,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Suppe ist dünn.",
-          "lv": "Polévka je tekutá."
+          "lv": "Polévka je řídká."
         },
         {
           "de": "Das Buch ist dick.",
@@ -20394,9 +20356,7 @@ const A2_WORDS = [
               "dünn"
             ],
             "purple": [],
-            "green": [
-              "papír"
-            ]
+            "green": []
           }
         },
         "examples": [
@@ -20572,9 +20532,7 @@ const A2_WORDS = [
                 "Překlad",
                 "Překlad"
               ],
-              "yellow": [
-                "papír"
-              ],
+              "yellow": [],
               "green": [
                 "Překlad"
               ]
@@ -20655,7 +20613,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich fahre durch die Stadt.",
-          "lv": "Jezdím po městě."
+          "lv": "Projíždím městem."
         },
         {
           "de": "Durch viel Übung lernt man.",
@@ -20691,9 +20649,7 @@ const A2_WORDS = [
             ],
             "purple": [],
             "green": [],
-            "yellow": [
-              "mit"
-            ]
+            "yellow": []
           }
         },
         "examples": [
@@ -20745,9 +20701,7 @@ const A2_WORDS = [
           },
           {
             "de": {
-              "yellow": [
-                "mit"
-              ]
+              "yellow": []
             },
             "lv": {
               "yellow": [
@@ -20812,9 +20766,7 @@ const A2_WORDS = [
           },
           {
             "text": {
-              "red": [
-                "mit"
-              ],
+              "red": [],
               "purple": [
                 "Pokud"
               ]
@@ -20850,9 +20802,7 @@ const A2_WORDS = [
           },
           {
             "text": {
-              "red": [
-                "mit"
-              ],
+              "red": [],
               "purple": [
                 "Mit",
                 "Mit"
@@ -20909,7 +20859,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Straße ist eben.",
-          "lv": "Ulice je rovná."
+          "lv": "Ulice je bez nerovností."
         },
         {
           "de": "Ich habe ihn eben gesehen.",
@@ -20929,7 +20879,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich kann eben nicht alles wissen.",
-          "lv": "Nemůžu vědět všechno."
+          "lv": "Prostě nemůžu vědět všechno."
         },
         {
           "de": "Genau eben das meine ich.",
@@ -20964,13 +20914,13 @@ const A2_WORDS = [
             "text": "Když eben souvisí s časem, často znamená „právě“ nebo „ještě před chvílí“."
           },
           {
-            "text": "Pokud eben zní jako postoj, v češtině je to často „jednoduše“, „no je to tak“ nebo „ale“."
+            "text": "Pokud eben vyjadřuje postoj, v češtině je to často „jednoduše“ nebo „no je to tak“."
           }
         ]
       },
       "important": {
         "text": "Eben nemusí vždy znamenat „rovný“.",
-        "example": "Ich habe ihn eben gesehen = Es viņu tikko redzēju. Das ist eben so = Tā tas vienkārši ir. Der Boden ist eben = Grīda ir līdzena."
+        "example": "Ich habe ihn eben gesehen = Právě jsem ho viděl. Das ist eben so = Tak to prostě je."
       },
       "sectionAccents": {
         "examples": [
@@ -21226,7 +21176,6 @@ const A2_WORDS = [
                 ],
                 "green": [],
                 "yellow": [
-                  "prostě",
                   "eben"
                 ]
               }
@@ -21239,11 +21188,8 @@ const A2_WORDS = [
               "blue": [
                 "eben"
               ],
-              "orange": [
-                "līdzena"
-              ],
+              "orange": [],
               "red": [
-                "līdzena",
                 "eben"
               ]
             },
@@ -21252,12 +21198,9 @@ const A2_WORDS = [
                 "eben"
               ],
               "red": [
-                "prostě",
                 "gesehen",
-                "redzēju",
                 "tikko",
-                "eben",
-                "viņu"
+                "eben"
               ]
             }
           }
@@ -21378,7 +21321,7 @@ const A2_WORDS = [
         },
         {
           "word": "nett",
-          "meaning": "Pěkný",
+          "meaning": "Milý / hodný",
           "example": "Sie ist nett. = Je hodná."
         },
         {
@@ -21395,9 +21338,7 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "text": {
-            "blue": [
-              "ehrlich"
-            ],
+            "blue": [],
             "purple": [
               "Hlavní",
               "Hlavní",
@@ -21407,9 +21348,7 @@ const A2_WORDS = [
               "Hlavní",
               "Hlavní"
             ],
-            "yellow": [
-              "aufrichtig"
-            ],
+            "yellow": [],
             "red": [
               "nett"
             ]
@@ -21418,9 +21357,7 @@ const A2_WORDS = [
         "examples": [
           {
             "de": {
-              "blue": [
-                "ehrlich"
-              ]
+              "blue": []
             },
             "lv": {
               "purple": [
@@ -21430,9 +21367,7 @@ const A2_WORDS = [
           },
           {
             "de": {
-              "blue": [
-                "ehrlich"
-              ]
+              "blue": []
             },
             "lv": {
               "purple": [
@@ -21454,9 +21389,7 @@ const A2_WORDS = [
           },
           {
             "de": {
-              "blue": [
-                "ehrlich"
-              ]
+              "blue": []
             },
             "lv": {
               "purple": [
@@ -21492,9 +21425,7 @@ const A2_WORDS = [
         "comparison": [
           {
             "word": {
-              "green": [
-                "ehrlich"
-              ]
+              "green": []
             },
             "meaning": {
               "purple": [
@@ -21503,9 +21434,7 @@ const A2_WORDS = [
               ]
             },
             "example": {
-              "blue": [
-                "ehrlich"
-              ],
+              "blue": [],
               "purple": [
                 "ist"
               ]
@@ -21513,9 +21442,7 @@ const A2_WORDS = [
           },
           {
             "word": {
-              "green": [
-                "aufrichtig"
-              ]
+              "green": []
             },
             "meaning": {
               "purple": [
@@ -21568,9 +21495,7 @@ const A2_WORDS = [
         "tip": [
           {
             "text": {
-              "blue": [
-                "ehrlich"
-              ],
+              "blue": [],
               "purple": [
                 "Pokud"
               ]
@@ -21592,13 +21517,8 @@ const A2_WORDS = [
         "important": [
           {
             "text": {
-              "blue": [
-                "ehrlich"
-              ],
-              "purple": [
-                "Ehrlich",
-                "Ehrlich"
-              ]
+              "blue": [],
+              "purple": []
             }
           },
           {
@@ -21614,12 +21534,8 @@ const A2_WORDS = [
           },
           {
             "text": {
-              "red": [
-                "aufrichtig"
-              ],
-              "purple": [
-                "Aufrichtig"
-              ]
+              "red": [],
+              "purple": []
             }
           }
         ]
@@ -21702,13 +21618,10 @@ const A2_WORDS = [
           "example": "Das ist wirklich gut. = Je to opravdu dobré."
         }
       ],
-      "tip": [
-        "Hovorově se eigentlich často překládá jako skutečně nebo skutečně.",
-        "Když se odkazuje na skutečnou věc, obvykle se používá echt • Pokud jde o pravdivé tvrzení, použijte wahr."
-      ],
+      "tip": "Hovorově se eigentlich často překládá jako „vlastně“ nebo „ve skutečnosti“.",
       "important": [
         "Eigentlich ≠ prostě echt.",
-        "Eigentlich často mění tón věty: ve skutečnosti vlastně.",
+        "Eigentlich často mění tón věty: ve skutečnosti, vlastně.",
         "Der eigentliche Grund = pravý důvod."
       ],
       "sectionAccents": {
@@ -22011,7 +21924,7 @@ const A2_WORDS = [
       "id": "a2-einladen",
       "layout": "standardStudy",
       "translation": "Pozvat",
-      "explanation": "Einladen obvykle znamená pozvat nebo pozvat nějakého člověka.",
+      "explanation": "Einladen obvykle znamená pozvat člověka; v jiném kontextu také naložit náklad.",
       "examples": [
         {
           "de": "Ich lade dich zum Essen ein.",
@@ -22052,7 +21965,7 @@ const A2_WORDS = [
         {
           "word": "besuchen",
           "meaning": "Navštívit / navštěvovat",
-          "example": "Ich besuche dich. = Jsem u vás na návštěvě."
+          "example": "Navštěvuji tě."
         },
         {
           "word": "mitbringen",
@@ -22063,7 +21976,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "V kontextu osob einladen znamená pozvat nebo pozvat."
+            "text": "V kontextu osob einladen znamená pozvat nebo pozvat někoho."
           },
           {
             "text": "V souvislosti s nákladem einladen znamená naložit."
@@ -22072,7 +21985,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Einladen může být sociální nebo fyzické sloveso.",
-        "example": "Gäste einladen = ielūgt viesus. Waren einladen = iekraut preces."
+        "example": "Gäste einladen = pozvat hosty. Waren einladen = naložit zboží."
       },
       "sectionAccents": {
         "examples": [
@@ -22268,16 +22181,13 @@ const A2_WORDS = [
                 "blue": [
                   "einladen"
                 ],
-                "green": [
-                  "ielūgt"
-                ],
+                "green": [],
                 "orange": [
                   "pozvat"
                 ],
                 "yellow": [
                   "pozvat",
-                  "einladen",
-                  "ielūgt"
+                  "einladen"
                 ]
               }
             },
@@ -22312,16 +22222,13 @@ const A2_WORDS = [
               "blue": [
                 "einladen"
               ],
-              "green": [
-                "ielūgt"
-              ],
+              "green": [],
               "yellow": [
                 "iekraut"
               ],
               "red": [
                 "einladen",
                 "iekraut",
-                "ielūgt",
                 "preces",
                 "viesus",
                 "Gäste"
@@ -22336,12 +22243,10 @@ const A2_WORDS = [
           "Pozvat",
           "Einladen",
           "Iekraut",
-          "Ielūgt",
           "Preces",
           "Laden"
         ],
         "green": [
-          "Ielūgt",
           "Laden"
         ],
         "yellow": [
@@ -22445,7 +22350,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Einschalten a ausschalten jsou protiklady při ovládání zařízení.",
-        "example": "Licht einschalten = ieslēgt gaismu. Licht ausschalten = izslēgt gaismu."
+        "example": "Licht einschalten = zapnout světlo. Licht ausschalten = vypnout světlo."
       },
       "sectionAccents": {
         "examples": [
@@ -22670,14 +22575,11 @@ const A2_WORDS = [
               "orange": [
                 "zapnout"
               ],
-              "purple": [
-                "izslēgt"
-              ],
+              "purple": [],
               "red": [
                 "ausschalten",
                 "einschalten",
                 "zapnout",
-                "izslēgt",
                 "gaismu",
                 "Licht"
               ]
@@ -22703,9 +22605,7 @@ const A2_WORDS = [
         "orange": [
           "Zapnout"
         ],
-        "purple": [
-          "Izslēgt"
-        ],
+        "purple": [],
         "red": [
           "Einbeziehen"
         ]
@@ -22781,13 +22681,9 @@ const A2_WORDS = [
       "important": "Mein Bein ist eingeschlafen = usnula mi noha.",
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "einschlafen"
-          ],
+          "blue": [],
           "purple": [],
-          "green": [
-            "ruku"
-          ]
+          "green": []
         },
         "examples": [
           {
@@ -22823,9 +22719,7 @@ const A2_WORDS = [
           },
           {
             "de": {
-              "blue": [
-                "einschlafen"
-              ]
+              "blue": []
             },
             "lv": {
               "purple": [
@@ -22880,9 +22774,7 @@ const A2_WORDS = [
         "comparison": [
           {
             "word": {
-              "green": [
-                "einschlafen"
-              ]
+              "green": []
             },
             "meaning": {
               "purple": [
@@ -22902,9 +22794,7 @@ const A2_WORDS = [
           },
           {
             "word": {
-              "green": [
-                "schlafen"
-              ]
+              "green": []
             },
             "meaning": {
               "purple": [
@@ -22965,9 +22855,7 @@ const A2_WORDS = [
         "tip": [
           {
             "text": {
-              "blue": [
-                "einschlafen"
-              ],
+              "blue": [],
               "purple": [
                 "Pokud"
               ],
@@ -22986,7 +22874,6 @@ const A2_WORDS = [
                 "Pokud"
               ],
               "green": [
-                "ruku",
                 "Pokud"
               ]
             }
@@ -22995,32 +22882,20 @@ const A2_WORDS = [
         "important": [
           {
             "text": {
-              "blue": [
-                "einschlafen"
-              ],
-              "red": [
-                "schlafen"
-              ]
+              "blue": [],
+              "red": []
             }
           },
           {
             "text": {
-              "red": [
-                "schlafen"
-              ],
-              "purple": [
-                "Schlafen"
-              ]
+              "red": [],
+              "purple": []
             }
           },
           {
             "text": {
-              "blue": [
-                "einschlafen"
-              ],
-              "purple": [
-                "Einschlafen"
-              ]
+              "blue": [],
+              "purple": []
             }
           },
           {
@@ -23090,7 +22965,7 @@ const A2_WORDS = [
         {
           "word": "umsteigen",
           "meaning": "Přestoupit",
-          "example": "Wir steigen um. = Měníme místa."
+          "example": "Přestupujeme."
         },
         {
           "word": "mitmachen",
@@ -23379,7 +23254,7 @@ const A2_WORDS = [
       "id": "a2-eintritt",
       "layout": "standardStudy",
       "translation": "Vstup",
-      "explanation": "V souvislosti s organizací nebo sdružením může znamenat vstoupení nebo členství.",
+      "explanation": "Eintritt znamená vstup, vstupné nebo vstoupení podle kontextu.",
       "examples": [
         {
           "de": "Der Eintritt kostet zehn Euro.",
@@ -23440,21 +23315,15 @@ const A2_WORDS = [
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "Eintritt"
-          ],
+          "blue": [],
           "purple": [],
-          "red": [
-            "Eingang"
-          ],
+          "red": [],
           "yellow": []
         },
         "examples": [
           {
             "de": {
-              "blue": [
-                "Eintritt"
-              ],
+              "blue": [],
               "yellow": [
                 "zehn Euro"
               ]
@@ -23470,9 +23339,7 @@ const A2_WORDS = [
           },
           {
             "de": {
-              "blue": [
-                "Eintritt"
-              ],
+              "blue": [],
               "purple": [
                 "frei"
               ]
@@ -23486,9 +23353,7 @@ const A2_WORDS = [
           },
           {
             "de": {
-              "blue": [
-                "Eintritt"
-              ],
+              "blue": [],
               "green": [
                 "Kinder"
               ],
@@ -23508,9 +23373,7 @@ const A2_WORDS = [
           },
           {
             "de": {
-              "blue": [
-                "Eintritt"
-              ],
+              "blue": [],
               "green": [
                 "Verein"
               ]
@@ -23526,9 +23389,7 @@ const A2_WORDS = [
           },
           {
             "de": {
-              "red": [
-                "Eingang"
-              ]
+              "red": []
             },
             "lv": {
               "purple": [
@@ -23552,9 +23413,7 @@ const A2_WORDS = [
         "comparison": [
           {
             "word": {
-              "green": [
-                "Eintritt"
-              ]
+              "green": []
             },
             "meaning": {
               "purple": [
@@ -23564,9 +23423,7 @@ const A2_WORDS = [
               ]
             },
             "example": {
-              "blue": [
-                "Eintritt"
-              ],
+              "blue": [],
               "purple": [
                 "Der",
                 "Der"
@@ -23575,9 +23432,7 @@ const A2_WORDS = [
           },
           {
             "word": {
-              "green": [
-                "Eingang"
-              ]
+              "green": []
             },
             "meaning": {
               "purple": [
@@ -23585,9 +23440,7 @@ const A2_WORDS = [
               ]
             },
             "example": {
-              "red": [
-                "Eingang"
-              ],
+              "red": [],
               "purple": [
                 "Der"
               ]
@@ -23642,9 +23495,7 @@ const A2_WORDS = [
         "tip": [
           {
             "text": {
-              "blue": [
-                "Eintritt"
-              ],
+              "blue": [],
               "purple": [
                 "Když"
               ],
@@ -23656,9 +23507,7 @@ const A2_WORDS = [
           },
           {
             "text": {
-              "red": [
-                "Eingang"
-              ],
+              "red": [],
               "purple": [
                 "Když",
                 "Když"
@@ -23669,9 +23518,7 @@ const A2_WORDS = [
         "important": [
           {
             "text": {
-              "blue": [
-                "Eintritt"
-              ],
+              "blue": [],
               "purple": [
                 "Der",
                 "Der"
@@ -23680,9 +23527,7 @@ const A2_WORDS = [
           },
           {
             "text": {
-              "red": [
-                "Eingang"
-              ],
+              "red": [],
               "purple": [
                 "Der"
               ]
@@ -23836,7 +23681,7 @@ const A2_WORDS = [
         "O oblečení nebo vztazích → těsné."
       ],
       "important": [
-        "Eng = těsný (pokoj) NEBO těsný (oblečení, vztah).",
+        "Eng = úzký (prostor) NEBO těsný či blízký (oblečení, vztah).",
         "Kontrast: eng ↔ weit (úzký ↔ široký)."
       ],
       "sectionAccents": {
@@ -24303,7 +24148,7 @@ const A2_WORDS = [
         {
           "word": "erinnern",
           "meaning": "Připomenout",
-          "example": "Erinnere mich bitte daran. = Prosím, připomeňte mi to."
+          "example": "Prosím, připomeň mi to."
         },
         {
           "word": "sich erinnern",
@@ -24322,7 +24167,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Pokud věta obsahuje mich, dich, sich, uns nebo euch, význam je velmi často k zapamatování.",
+        "Pokud věta obsahuje mich, dich, sich, uns nebo euch, jde velmi často o význam „pamatovat si“ nebo „vzpomínat si“.",
         "Pokud vám někdo něco říká, abyste nezapomněli, použijte erinnern ve významu připomenout."
       ],
       "important": [
@@ -24750,7 +24595,7 @@ const A2_WORDS = [
         "Etwa + číslo obvykle znamená asi.",
         "Stojí to asi 10 eur. = Stojí to asi 10 eur.",
         "Etwa často není jednoduché \"možná\" v otázce.",
-        "Hast du das etwa vergessen? = Pak jsi na to zapomněl?",
+        "Hast du das etwa vergessen? = Snad jsi na to zapomněl?",
         "S čísly jsou etwa a ungefähr často velmi podobné, ale ungefähr je neutrálnější a velmi často se používá s čísly.",
         "V otázkách může etwa dát zvláštní odstín, který ungefähr nemá."
       ],
@@ -24793,7 +24638,7 @@ const A2_WORDS = [
         },
         {
           "word": "etwa?",
-          "meaning": "Nebo pak / opravdu v otázce",
+          "meaning": "Snad / copak / opravdu v otázkách",
           "example": "Hast du das etwa vergessen? = Zapomněl jsi na to?"
         },
         {
@@ -24810,7 +24655,7 @@ const A2_WORDS = [
         "Etwa + číslo = asi.",
         "Ungefähr + číslo = asi / přibližně, neutrálnější.",
         "Např. v otázce může být vyjádřeno překvapení, pochybnost nebo výtka.",
-        "Hast du das etwa vergessen? = Pak jsi na to zapomněl?"
+        "Hast du das etwa vergessen? = Snad jsi na to zapomněl?"
       ],
       "sectionAccents": {
         "explanation": {
@@ -25170,7 +25015,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Leg das Buch ins obere Fach.",
-          "lv": "Vložte knihu do horní přihrádky."
+          "lv": "Vlož knihu do horní přihrádky."
         },
         {
           "de": "Mathe ist mein Lieblingsfach.",
@@ -25217,7 +25062,7 @@ const A2_WORDS = [
         {
           "word": "der Beruf",
           "meaning": "Profese",
-          "example": "Mein Beruf ist Lehrer. = Moje profese je učitel."
+          "example": "Jsem učitel."
         }
       ],
       "tip": {
@@ -25751,7 +25596,7 @@ const A2_WORDS = [
         {
           "word": "der Gerichtsfall",
           "meaning": "Soudní případ",
-          "example": "Der Gerichtsfall dauert lange. = Soudní řízení trvá dlouho."
+          "example": "Soudní případ trvá dlouho."
         }
       ],
       "tip": {
@@ -25760,7 +25605,7 @@ const A2_WORDS = [
             "text": "In diesem Fall je velmi častá fráze a znamená 'v tomto případě'."
           },
           {
-            "text": "V gramatickém kontextu znamená pád téměř vždy skloňování."
+            "text": "V gramatickém kontextu znamená Fall téměř vždy gramatický pád."
           }
         ]
       },
@@ -26031,7 +25876,6 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "kontextu",
-                  "pád",
                   "Fall"
                 ]
               }
@@ -26055,9 +25899,7 @@ const A2_WORDS = [
               "blue": [
                 "Fall"
               ],
-              "yellow": [
-                "pád"
-              ],
+              "yellow": [],
               "purple": [],
               "red": [
                 "dativ",
@@ -26640,7 +26482,7 @@ const A2_WORDS = [
     "de": "Fertiggericht",
     "de_article": "das",
     "de_plural": "die Fertiggerichte",
-    "lv": "Připravené jídlo",
+    "lv": "Hotové jídlo",
     "level": "A2"
   },
   {
@@ -26655,7 +26497,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Der Boden ist fest.",
-          "lv": "Země je pevná."
+          "lv": "Půda je pevná."
         },
         {
           "de": "Zieh die Schraube fest.",
@@ -26838,9 +26680,7 @@ const A2_WORDS = [
                 "orange": [
                   "pevně stanovený"
                 ],
-                "red": [
-                  "stálý"
-                ],
+                "red": [],
                 "yellow": [
                   "termín",
                   "plán",
@@ -26870,7 +26710,6 @@ const A2_WORDS = [
                 "pevně stanovený"
               ],
               "red": [
-                "stálý",
                 "pevně stanovený",
                 "termín",
                 "Arbeit",
@@ -26935,7 +26774,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Mach bitte Feuer.",
-          "lv": "Prosím zapalte oheň."
+          "lv": "Prosím zapal oheň."
         },
         {
           "de": "Das Feuer brennt.",
@@ -27518,7 +27357,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich folge deinem Rat.",
-          "lv": "Řídil jsem se tvou radou."
+          "lv": "Řídím se tvou radou."
         },
         {
           "de": "Bitte folgen Sie den Anweisungen.",
@@ -27537,7 +27376,7 @@ const A2_WORDS = [
         {
           "word": "folgen",
           "meaning": "Následovat / vyplývat",
-          "example": "Ich folge dir. = Sleduji tě."
+          "example": "Ich folge dir. = Následuji tě."
         },
         {
           "word": "verfolgen",
@@ -27546,7 +27385,7 @@ const A2_WORDS = [
         },
         {
           "word": "gehorchen",
-          "meaning": "Poslouchat / poslouchat",
+          "meaning": "Poslouchat / být poslušný",
           "example": "Das Kind gehorcht. = Dítě poslouchá."
         },
         {
@@ -28547,7 +28386,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der erste Gang war eine Suppe.",
-          "lv": "První chod byla polévka."
+          "lv": "Prvním chodem byla polévka."
         },
         {
           "de": "Der Wagen ist im ersten Gang.",
@@ -28790,12 +28629,12 @@ const A2_WORDS = [
   },
   {
     "de": "gar",
-    "lv": "Celkem • Celkem (v záporných větách)",
+    "lv": "Vůbec",
     "level": "A2",
     "study": {
       "id": "a2-gar",
       "layout": "minimalStudy",
-      "translation": "Vůbec • Vůbec (v záporných větách)",
+      "translation": "Vůbec (v záporných větách)",
       "accent": "blue",
       "tip": "Používá se pouze s negací (nicht, kein), aby byla silnější (\"vůbec ne\", \"vůbec ne\").",
       "examples": [
@@ -28925,7 +28764,7 @@ const A2_WORDS = [
   },
   {
     "de": "gegenüber",
-    "lv": "Proti • Proti • Ve srovnání s",
+    "lv": "Naproti",
     "level": "A2",
     "study": {
       "id": "a2-gegenüber",
@@ -28967,7 +28806,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Když mluvíme o místě na druhé straně ulice nebo místnosti, gegenüber často znamená naproti.",
-        "Pokud jde o postoj, gegenüber se často překládá jako proti někomu."
+        "Pokud jde o postoj, gegenüber se často překládá jako vůči někomu."
       ],
       "important": [
         "Gegenüber může stát za podstatným jménem: dem Bahnhof gegenüber.",
@@ -29203,7 +29042,7 @@ const A2_WORDS = [
       "id": "a2-gehören",
       "layout": "standardStudy",
       "translation": "Patřit",
-      "explanation": "Gehören nejčastěji znamená patřit. Může to také znamenat zapadat do místa nebo skupiny. Konstrukce gehören zu znamená k něčemu patřit nebo být součástí něčeho. V některých větách gehören sich znamená být vhodné nebo se slušet. Význam je určen konstrukcí a kontextem.",
+      "explanation": "V některých větách gehören sich znamená být vhodné nebo slušet se.",
       "examples": [
         {
           "de": "Das Buch gehört mir.",
@@ -29264,7 +29103,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Gehören není jen majetek.",
-        "example": "Das gehört mir = tas pieder man. Das gehört dazu = tas pieder pie tā / tas ir daļa no tā."
+        "example": "Das gehört mir = patří mi to. Das gehört dazu = patří to k tomu / je to jeho součást."
       },
       "sectionAccents": {
         "examples": [
@@ -29454,8 +29293,7 @@ const A2_WORDS = [
               "text": {
                 "yellow": [
                   "gehört",
-                  "pieder",
-                  "daļa"
+                  "pieder"
                 ]
               }
             }
@@ -29477,7 +29315,6 @@ const A2_WORDS = [
               "red": [
                 "gehört",
                 "pieder",
-                "daļa",
                 "dazu"
               ]
             }
@@ -29522,7 +29359,7 @@ const A2_WORDS = [
   },
   {
     "de": "genau",
-    "lv": "Přesný • Přesně • Přesně",
+    "lv": "Přesný",
     "level": "A2",
     "study": {
       "id": "a2-genau",
@@ -29589,7 +29426,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Genau nemusí být nahrazeno gerade nebo eben bez kontextu.",
-        "example": "Genaue Adresse = precīza adrese. genau um acht = tieši astoņos. gerade jetzt = tieši tagad. eben = tikko."
+        "example": "Genaue Adresse = přesná adresa. genau um acht = přesně v osm. gerade jetzt = právě teď. eben = před chvílí."
       },
       "accents": {
         "blue": [
@@ -29662,7 +29499,6 @@ const A2_WORDS = [
                 "eben"
               ],
               "purple": [
-                "precīza",
                 "tieši",
                 "tikko"
               ],
@@ -29698,7 +29534,7 @@ const A2_WORDS = [
   },
   {
     "de": "gerade",
-    "lv": "Rovně",
+    "lv": "Rovný",
     "level": "A2",
     "study": {
       "id": "a2-gerade",
@@ -29756,7 +29592,7 @@ const A2_WORDS = [
         },
         {
           "word": "eben",
-          "meaning": "Právě teď",
+          "meaning": "Právě / před chvílí",
           "example": "Ich war eben dort. = Právě jsem tam byl."
         }
       ],
@@ -30057,7 +29893,7 @@ const A2_WORDS = [
     "de": "Geschäft",
     "de_article": "das",
     "de_plural": "die Geschäfte",
-    "lv": "Nakupovat",
+    "lv": "Obchod",
     "level": "A2",
     "study": {
       "id": "a2-geschäft",
@@ -30495,7 +30331,7 @@ const A2_WORDS = [
       "translation": "Vyhrát",
       "explanation": [
         "Hlavní myšlenka: gewinnen znamená vyhrát soutěž, vyhrát cenu nebo získat něco hodnotného.",
-        "Ve sportu, hře nebo soutěži gewinnen obvykle znamená vyhrát nebo vyhrát.",
+        "Ve sportu, hře nebo soutěži gewinnen obvykle znamená vyhrát.",
         "S cenou, penězi nebo loterií znamená gewinnen vyhrát.",
         "Se zkušenostmi, časem nebo důvěrou může gewinnen znamenat získat něco.",
         "Gewinnen není totéž co bekommen, protože bekommen znamená přijímat.",
@@ -30550,7 +30386,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Pokud jde o hru, soutěž nebo soutěž, gewinnen často znamená vyhrát.",
+        "Pokud jde o hru, soutěž nebo závod, gewinnen často znamená vyhrát.",
         "Pokud je předmětem cena nebo peníze, je přirozené vyhrát v češtině."
       ],
       "important": [
@@ -31344,7 +31180,7 @@ const A2_WORDS = [
         },
         {
           "de": "Das Haus steht auf festem Grund.",
-          "lv": "Dům stojí na pevných základech."
+          "lv": "Dům stojí na pevném podkladu."
         },
         {
           "de": "Der Boden hat einen sandigen Grund.",
@@ -31754,7 +31590,7 @@ const A2_WORDS = [
     "de": "Gutschein",
     "de_article": "der",
     "de_plural": "die Gutscheine",
-    "lv": "Kupón",
+    "lv": "Poukaz",
     "level": "A2"
   },
   {
@@ -31886,14 +31722,14 @@ const A2_WORDS = [
   },
   {
     "de": "hängen",
-    "lv": "Pověsit • Rozkaz",
+    "lv": "Viset",
     "level": "A2",
     "study": {
       "id": "a2-hängen",
       "layout": "standardStudy",
       "translation": "Viset • Pověsit",
       "explanation": [
-        "Hlavní myšlenka: hängen znamená pověsit nebo pověsit něco na zeď, dveře nebo jiné místo.",
+        "Hlavní myšlenka: hängen znamená viset nebo něco pověsit na zeď, dveře či jiné místo.",
         "Pokud je věc samotná na zdi nebo na háku, v češtině se obvykle říká, že visí.",
         "Pokud člověk něco pověsí na zeď, na háček nebo do skříně, hängen znamená pověsit.",
         "V němčině může jediná forma popisovat stav i akci.",
@@ -31935,7 +31771,7 @@ const A2_WORDS = [
         {
           "word": "legen",
           "meaning": "Položit",
-          "example": "Ich lege das Buch auf den Tisch. = Položil jsem knihu na stůl."
+          "example": "Ich lege das Buch auf den Tisch. = Pokládám knihu na stůl."
         },
         {
           "word": "an die Wand hängen",
@@ -32227,7 +32063,7 @@ const A2_WORDS = [
   },
   {
     "de": "hart",
-    "lv": "Těžký • Těžký",
+    "lv": "Tvrdý",
     "level": "A2",
     "study": {
       "id": "a2-hart",
@@ -32236,7 +32072,7 @@ const A2_WORDS = [
       "explanation": [
         "Hlavní myšlenka: hart pro materiál znamená tvrdý, pro situaci nebo charakter znamená tvrdý/drsný.",
         "Když mluvíme o materiálu nebo povrchu, hart = tvrdý (Der Stein ist hart. = Kámen je tvrdý.).",
-        "Když mluvíme o životní situaci nebo chování, hart = tvrdý/drsný (harte Zeiten = těžké časy • Ein harter Chef = drsný kuchař).",
+        "Když mluvíme o životní situaci nebo chování, hart = tvrdý/drsný (harte Zeiten = těžké časy • Ein harter Chef = drsný šéf).",
         "Hart arbeiten znamená tvrdě pracovat."
       ],
       "examples": [
@@ -32695,7 +32531,7 @@ const A2_WORDS = [
         },
         {
           "de": "Im Wald stehen viele Bäume.",
-          "lv": "V lese roste mnoho stromů."
+          "lv": "V lese stojí mnoho stromů."
         }
       ],
       "tip": {
@@ -33039,7 +32875,7 @@ const A2_WORDS = [
   },
   {
     "de": "indem",
-    "lv": "Dělá",
+    "lv": "Tím, že",
     "level": "A2",
     "study": {
       "id": "a2-indem",
@@ -33047,7 +32883,7 @@ const A2_WORDS = [
       "translation": "Tím, že",
       "explanation": [
         "Hlavní myšlenka: Indem vysvětluje, jak se něco dělá.",
-        "V češtině se to často překládá jako něco dělat.",
+        "V češtině se to často překládá jako „tím, že něco děláme“ nebo „pomocí něčeho“.",
         "Indem není běžný význam slova zatímco.",
         "Pokud je myšlenka simultánní akcí, častěji se používá während.",
         "Na úrovni A2 je nejdůležitější pochopit vzorec: hlavní akce + jak se to děje."
@@ -33055,7 +32891,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Du lernst Deutsch, indem du jeden Tag übst.",
-          "lv": "Učíš se německy každodenním procvičováním."
+          "lv": "Učíš se německy tím, že každý den procvičuješ němčinu."
         },
         {
           "de": "Er spart Geld, indem er weniger kauft.",
@@ -33078,7 +32914,7 @@ const A2_WORDS = [
         },
         {
           "word": "während",
-          "meaning": "Zatímco / během kdy",
+          "meaning": "Zatímco / během (něčeho)",
           "example": "Während ich koche, höre ich Musik. = Při vaření poslouchám hudbu."
         },
         {
@@ -33099,7 +32935,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Indem obvykle neříká jednoduše zatímco.",
-        "Indem ukazuje způsob nebo typ • Während ukazuje čas."
+        "Indem ukazuje způsob nebo metodu • Während ukazuje čas."
       ],
       "sectionAccents": {
         "explanation": {
@@ -33424,7 +33260,7 @@ const A2_WORDS = [
   },
   {
     "de": "je",
-    "lv": "Kdy • Pa",
+    "lv": "Někdy",
     "level": "A2",
     "study": {
       "id": "a2-je",
@@ -33432,7 +33268,7 @@ const A2_WORDS = [
       "translation": "Někdy • Za / na jednotku",
       "explanation": [
         "Hlavní myšlenka: je mění význam podle tvaru věty a často by se mělo vidět společně s jinými slovy.",
-        "V otázkách a záporech je často znamená někdy.",
+        "V otázkách je je často „někdy“, v záporných větách obvykle „nikdy“ nebo „nikdy už“.",
         "S čísly nebo jednotkami může je znamenat pa nebo každý.",
         "V konstrukci je ... desto znamená čím ... tím.",
         "Je tedy není jednoduchý překlad • Význam je určen frází."
@@ -33440,7 +33276,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Warst du je in Berlin?",
-          "lv": "Byl jsi někdy v Berlíně"
+          "lv": "Byl jsi někdy v Berlíně?"
         },
         {
           "de": "Das kostet drei Euro je Stück.",
@@ -33829,7 +33665,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "V každodenním životě der Kamm téměř vždy znamená hřeben.",
-        "example": "Der Kamm des Hahns = gaiļa sekste. der Bergkamm = kalna kore."
+        "example": "Der Kamm des Hahns = kohoutí hřebínek. Der Bergkamm = horský hřeben."
       },
       "sectionAccents": {
         "examples": [
@@ -33980,7 +33816,6 @@ const A2_WORDS = [
               ],
               "green": [
                 "Hahns",
-                "gaiļa",
                 "sekste"
               ],
               "yellow": [
@@ -34001,10 +33836,7 @@ const A2_WORDS = [
         "green": [
           "Hahn",
           "Hahns",
-          "Sekste",
-          "Gaiļa",
-          "Gaiļa",
-          "Gaiļa sekste"
+          "Sekste"
         ],
         "yellow": [
           "Berg",
@@ -34199,7 +34031,7 @@ const A2_WORDS = [
   },
   {
     "de": "kaum",
-    "lv": "Sotva vůbec • Sotva",
+    "lv": "Sotva",
     "level": "A2",
     "study": {
       "id": "a2-kaum",
@@ -34208,7 +34040,7 @@ const A2_WORDS = [
       "explanation": [
         "Hlavní myšlenka: Kaum obvykle znamená téměř vůbec nebo sotva, v závislosti na větě.",
         "Pokud jde o množství nebo možnosti, kaum často znamená téměř žádné.",
-        "Pokud jde o čas, kaum může znamenat sotva nebo právě.",
+        "Pokud jde o čas, kaum může znamenat sotva nebo sotva co.",
         "Kaum není totéž jako fast, protože fast znamená téměř.",
         "Ve spojeních s als nebo sobald může kaum vyjadřovat význam „sotva“ nebo „sotva co“.",
         "V konstrukci „kaum zu + infinitiv“ kaum často znamená „těžko“ nebo „sotva možné“, například kaum zu glauben."
@@ -34220,7 +34052,7 @@ const A2_WORDS = [
         },
         {
           "de": "Man kann ihn kaum verstehen.",
-          "lv": "Těžko mu rozumět."
+          "lv": "Je těžké mu rozumět."
         },
         {
           "de": "Sie ist kaum angekommen.",
@@ -34248,7 +34080,7 @@ const A2_WORDS = [
         {
           "word": "fast",
           "meaning": "Téměř",
-          "example": "Ich bin fast fertig. = Jsem téměř připraven."
+          "example": "Ich bin fast fertig. = Jsem téměř hotový."
         },
         {
           "word": "gerade",
@@ -34334,12 +34166,7 @@ const A2_WORDS = [
                 "angekommen"
               ]
             },
-            "lv": {
-              "purple": [
-                "Právě",
-                "Právě"
-              ]
-            }
+            "lv": "[\"Sotva\"]"
           },
           {
             "de": {
@@ -34588,7 +34415,7 @@ const A2_WORDS = [
   },
   {
     "de": "kennen",
-    "lv": "Vědět",
+    "lv": "Znát",
     "level": "A2",
     "study": {
       "id": "a2-kennen",
@@ -34927,7 +34754,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-kinderfunk",
       "layout": "minimalStudy",
-      "translation": "Program pro děti",
+      "translation": "Dětský rozhlasový program",
       "accent": "blue",
       "variants": [
         {
@@ -35013,7 +34840,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-kiosk",
       "layout": "minimalStudy",
-      "translation": "Stánek",
+      "translation": "Kiosek",
       "accent": "blue",
       "variants": [
         {
@@ -35132,7 +34959,7 @@ const A2_WORDS = [
         },
         {
           "de": "Klar, ich komme mit.",
-          "lv": "Samozřejmě přijdu."
+          "lv": "Samozřejmě půjdu s tebou."
         },
         {
           "de": "Die Antwort ist klar.",
@@ -35361,11 +35188,11 @@ const A2_WORDS = [
       "id": "a2-kleben",
       "layout": "standardStudy",
       "translation": "Lepit",
-      "explanation": "Lepit může označovat činnost: někdo něco lepí. Může označovat také stav: něco se přilepí nebo je přilepené. Toto slovo se často používá u papíru, fotografií, samolepek a náplastí. Hovorově může popisovat lepkavé ruce nebo povrch. Proto je třeba význam určit podle věty: zda někdo lepí, nebo zda něco už drží či je přilepené.",
+      "explanation": "Může označovat také stav: něco drží nebo je přilepené.",
       "examples": [
         {
           "de": "Ich klebe das Foto ins Heft.",
-          "lv": "Fotku jsem vlepil do sešitu."
+          "lv": "Vlepuji fotku do sešitu."
         },
         {
           "de": "Der Zettel klebt an der Tür.",
@@ -35381,11 +35208,11 @@ const A2_WORDS = [
         },
         {
           "de": "Kannst du das Papier kleben?",
-          "lv": "Můžeš nalepit papír?"
+          "lv": "Můžeš lepit papír?"
         },
         {
           "de": "Der Aufkleber klebt am Fenster.",
-          "lv": "Nálepka je nalepena na okno."
+          "lv": "Nálepka je přilepená na okně."
         }
       ],
       "tip": {
@@ -35596,7 +35423,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-kleiden",
       "layout": "standardStudy",
-      "translation": "Obléknout se",
+      "translation": "Oblékat • oblékat se • slušet",
       "explanation": "Kleiden může znamenat oblékat někoho jiného. Se sich znamená oblékat se nebo oblékat se v určitém stylu. Důležitý je také význam „slušet“, když oblečení nebo barva člověku dobře padne. Slovo je o něco formálnější než běžné anziehen. Proto je třeba sledovat, zda je ve větě sich, nebo předmět, kterému něco sluší.",
       "examples": [
         {
@@ -35637,7 +35464,7 @@ const A2_WORDS = [
         },
         {
           "word": "kleidet jemanden",
-          "meaning": "Někomu sluší",
+          "meaning": "Obléká někoho",
           "example": "Die Farbe kleidet dich. = Barva ti sluší."
         },
         {
@@ -36013,7 +35840,7 @@ const A2_WORDS = [
   },
   {
     "de": "knabbern",
-    "lv": "Hlodat",
+    "lv": "Chroupat",
     "level": "A2"
   },
   {
@@ -36308,7 +36135,7 @@ const A2_WORDS = [
     "de": "Kraft",
     "de_article": "die",
     "de_plural": "die Kräfte",
-    "lv": "Pevnost",
+    "lv": "Síla",
     "level": "A2",
     "study": {
       "id": "a2-kraft",
@@ -36722,7 +36549,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Jestli se můžeš zeptat jak dlouho? nebo jak dlouho?, což často znamená krátký.",
+        "Pokud se můžeš zeptat „jak dlouho?“, kurz často znamená „krátký“.",
         "S vor a nach se to naučte jako fráze: kurz vor = krátce předtím, kurz nach = krátce poté."
       ],
       "important": [
@@ -37027,7 +36854,7 @@ const A2_WORDS = [
         },
         {
           "de": "Eine Lage Papier liegt auf dem Tisch.",
-          "lv": "Na stole je jeden list papíru."
+          "lv": "Na stole leží jedna vrstva papíru."
         }
       ],
       "comparison": [
@@ -37435,7 +37262,7 @@ const A2_WORDS = [
       "translation": "Trpět",
       "explanation": [
         "Hlavní myšlenka: Leiden nejčastěji znamená trpět bolestí, nemocí nebo obtížnou situací.",
-        "S + pro koho? znamená to být nemocný něčím nebo trpět problémem.",
+        "S an + 3. pádem znamená trpět nějakou nemocí nebo problémem.",
         "S unter + co? znamená to trpět za nějakých okolností nebo problémů.",
         "Leiden může také znamenat tolerovat, ale tento význam se často objevuje v záporu: ich kann ihn nicht leiden.",
         "Pokud se jedná pouze o fyzické onemocnění, častěji uvidíte krank sein nebo krank werden."
@@ -37480,7 +37307,7 @@ const A2_WORDS = [
         },
         {
           "word": "nicht leiden können",
-          "meaning": "Nebýt schopen tolerovat",
+          "meaning": "Nemoci snést",
           "example": "Ich kann das nicht leiden. = Nemůžu to vydržet."
         },
         {
@@ -37745,7 +37572,7 @@ const A2_WORDS = [
   },
   {
     "de": "leihen",
-    "lv": "Půjčovat • Půjčovat",
+    "lv": "Půjčovat",
     "level": "A2",
     "study": {
       "id": "a2-leihen",
@@ -37812,7 +37639,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Leihen není totéž co kaufen.",
-        "example": "Leihen = leihen = na dobu určitou. kaufen = koupit."
+        "example": "Leihen = půjčovat si / půjčovat = na dobu určitou. Kaufen = koupit."
       },
       "sectionAccents": {
         "examples": [
@@ -38308,7 +38135,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Leitung může být jak řízení lidí, tak technická linka.",
-        "example": "Unter der Leitung = vadībā. elektrische Leitung = elektriskais vads. Telefonleitung = telefona līnija. Wasserleitung = ūdens caurule."
+        "example": "Unter der Leitung = pod vedením. Elektrische Leitung = elektrické vedení. Telefonleitung = telefonní linka. Wasserleitung = vodovodní potrubí."
       },
       "sectionAccents": {
         "examples": [
@@ -38577,7 +38404,6 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "Leitung",
-                  "vadībā",
                   "unter"
                 ]
               }
@@ -38601,30 +38427,23 @@ const A2_WORDS = [
               "blue": [
                 "Leitung"
               ],
-              "green": [
-                "līnija"
-              ],
+              "green": [],
               "orange": [],
               "red": [
                 "technická",
                 "Leitung",
-                "Leitung",
-                "līnija"
+                "Leitung"
               ]
             },
             "example": {
               "blue": [
                 "Leitung"
               ],
-              "green": [
-                "līnija"
-              ],
+              "green": [],
               "yellow": [
                 "vads"
               ],
               "purple": [
-                "telefona līnija",
-                "ūdens caurule",
                 "wasserleitung"
               ],
               "red": [
@@ -38633,7 +38452,6 @@ const A2_WORDS = [
                 "elektrische",
                 "caurule",
                 "Leitung",
-                "vadībā",
                 "unter",
                 "vads"
               ]
@@ -38648,13 +38466,11 @@ const A2_WORDS = [
           "Telefona",
           "Caurule",
           "Leitung",
-          "Līnija",
           "Vads"
         ],
         "green": [
           "Die Führung",
-          "Führung",
-          "Līnija"
+          "Führung"
         ],
         "yellow": [
           "Das Kabel",
@@ -38664,8 +38480,6 @@ const A2_WORDS = [
         "orange": [],
         "purple": [
           "Die Wasserleitung",
-          "Telefona līnija",
-          "Ūdens caurule",
           "Wasserleitung"
         ],
         "red": [
@@ -38721,7 +38535,7 @@ const A2_WORDS = [
   },
   {
     "de": "liegen",
-    "lv": "Spát • Být",
+    "lv": "Ležet",
     "level": "A2",
     "study": {
       "id": "a2-liegen",
@@ -38838,7 +38652,7 @@ const A2_WORDS = [
   },
   {
     "de": "legen",
-    "lv": "Položit se",
+    "lv": "Položit",
     "level": "A2",
     "study": {
       "id": "a2-legen",
@@ -38853,7 +38667,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich lege das Buch hierhin.",
-          "lv": "Položil jsem knihu sem."
+          "lv": "Položím knihu sem."
         }
       ],
       "comparison": [
@@ -38889,13 +38703,13 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Akce: Někdo něco položí vodorovně nebo vodorovně.",
-        "Používá legen, když kontext odpovídá tomuto významu."
+        "Akce: Někdo něco položí vodorovně nebo horizontálně.",
+        "Legen se používá, když kontext odpovídá tomuto významu."
       ],
       "important": [
         "Legen = čin.",
         "Akce: legen.",
-        "Akce: Někdo něco položí vodorovně nebo vodorovně."
+        "Akce: Někdo něco položí vodorovně nebo horizontálně."
       ],
       "sectionAccents": {
         "explanation": {
@@ -38990,7 +38804,7 @@ const A2_WORDS = [
   },
   {
     "de": "los",
-    "lv": "Volný • Volný • Co se děje",
+    "lv": "Volný",
     "level": "A2",
     "study": {
       "id": "a2-los",
@@ -39028,7 +38842,7 @@ const A2_WORDS = [
   },
   {
     "de": "lüften",
-    "lv": "Ventilovat",
+    "lv": "Větrat",
     "level": "A2"
   },
   {
@@ -39196,7 +39010,7 @@ const A2_WORDS = [
   },
   {
     "de": "meinen",
-    "lv": "Přemýšlet",
+    "lv": "Myslet",
     "level": "A2",
     "study": {
       "id": "a2-meinen",
@@ -39501,7 +39315,7 @@ const A2_WORDS = [
         },
         {
           "word": "erinnern",
-          "meaning": "Pamatovat si / připomínat",
+          "meaning": "Vzpomínat si / připomínat",
           "example": "Ich erinnere mich. = Vzpomínám si."
         },
         {
@@ -39854,7 +39668,7 @@ const A2_WORDS = [
     "de": "Mittel",
     "de_article": "das",
     "de_plural": "die Mittel",
-    "lv": "Lék",
+    "lv": "Prostředek",
     "level": "A2",
     "study": {
       "id": "a2-mittel",
@@ -40367,7 +40181,7 @@ const A2_WORDS = [
       ],
       "tip": {
         "text": "„na gut“ je hovorový výraz, který se velmi často používá v každodenním životě. V závislosti na situaci může znít neutrálně, ústupně nebo trochu neochotně.",
-        "example": "Piemērs: Na gut, ich probiere es. – No, zkusím to."
+        "example": "Příklad: Na gut, ich probiere es. – No, zkusím to."
       },
       "sectionAccents": {
         "examples": [
@@ -40466,9 +40280,7 @@ const A2_WORDS = [
             "green": [
               "Na gut"
             ],
-            "purple": [
-              "Piemērs"
-            ]
+            "purple": []
           }
         }
       }
@@ -40551,7 +40363,7 @@ const A2_WORDS = [
     "de": "Nagel",
     "de_article": "der",
     "de_plural": "die Nägel",
-    "lv": "Nehet • Nehet",
+    "lv": "Nehet",
     "level": "A2",
     "study": {
       "id": "a2-nagel",
@@ -40575,7 +40387,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich schlage einen Nagel in die Wand.",
-          "lv": "Zatloukl jsem hřebík do zdi."
+          "lv": "Zatloukám hřebík do zdi."
         },
         {
           "de": "Wo ist der Hammer und der Nagel?",
@@ -40879,12 +40691,12 @@ const A2_WORDS = [
     "de": "Note",
     "de_article": "die",
     "de_plural": "die Noten",
-    "lv": "Stupeň",
+    "lv": "Známka",
     "level": "A2",
     "study": {
       "id": "a2-note",
       "layout": "standardStudy",
-      "translation": "Známka • Nota • Tón",
+      "translation": "Známka • Nota",
       "explanation": "Die Note znamená známku ve škole. V hudbě znamená Note notu. V kontextu peněz Banknote znamená bankovku. V přeneseném smyslu může Note znamenat náladu, podtext nebo nuanci. Kontext: Schule, Musik, Geld nebo Stil obvykle určují význam.",
       "examples": [
         {
@@ -40951,7 +40763,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Význam slova Note určuje kontext.",
-        "example": "Gute Note bekommen = saņemt labu atzīmi. eine Note spielen = spēlēt noti. Banknote = banknote. traurige Note = skumja pieskaņa."
+        "example": "Gute Note bekommen = dostat dobrou známku. Eine Note spielen = hrát notu. Banknote = bankovka. Traurige Note = smutný nádech."
       },
       "sectionAccents": {
         "examples": [
@@ -41181,11 +40993,7 @@ const A2_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "Tón",
-                "Tón",
-                "Tón"
-              ]
+              "purple": []
             },
             "example": {
               "orange": [
@@ -41236,7 +41044,6 @@ const A2_WORDS = [
               ],
               "red": [
                 "Význam",
-                "atzīmi",
                 "Význam",
                 "Note"
               ]
@@ -41250,9 +41057,6 @@ const A2_WORDS = [
               ],
               "red": [
                 "bekommen",
-                "pieskaņa",
-                "atzīmi",
-                "saņemt",
                 "gute",
                 "labu",
                 "Note"
@@ -41266,15 +41070,12 @@ const A2_WORDS = [
           "StandardStudy",
           "Banknote",
           "Die Note",
-          "Pieskaņa",
-          "Atzīmi",
           "Note",
           "Noti"
         ],
         "green": [
           "Die Schulnote",
-          "Schulnote",
-          "Skaņa"
+          "Schulnote"
         ],
         "yellow": [
           "Die Musiknote",
@@ -41287,8 +41088,7 @@ const A2_WORDS = [
           "Ton"
         ],
         "red": [
-          "Die Banknote",
-          "Pieskaņa"
+          "Die Banknote"
         ]
       }
     }
@@ -41300,7 +41100,7 @@ const A2_WORDS = [
   },
   {
     "de": "nötig",
-    "lv": "Nutné",
+    "lv": "Nutný",
     "level": "A2"
   },
   {
@@ -41432,17 +41232,14 @@ const A2_WORDS = [
         {
           "word": "die Chance nutzen",
           "meaning": "Využít příležitosti",
-          "example": "Nutze die Chance! = Využijte příležitosti!"
+          "example": "Nutze die Chance! = Využij příležitosti!"
         }
       ],
       "tip": [
         "Když je kladen důraz na prospěch nebo příležitost, často se používá nutzen.",
         "Pokud jde o běžné použití zařízení nebo předmětu, často se používá benutzen."
       ],
-      "important": [
-        "Sloveso nutzen není vždy snadné používat.",
-        "Das nutzt mir nichts znamená: nedělá mi to/nepomáhá mi."
-      ],
+      "important": "Das nutzt mir nichts znamená: To mi k ničemu není / To mi nepomáhá.",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -41728,7 +41525,7 @@ const A2_WORDS = [
         "Hlavní myšlenka: offen nejčastěji znamená otevřený nebo otevřeno.",
         "Používá se na dveře, okna, obchody a pracovní dobu.",
         "O osobě nebo rozhovoru může offen znamenat otevřený nebo upřímný.",
-        "Offen může také znamenat otevřený nebo nerozhodnutý při odkazu na otázku nebo místo.",
+        "Offen může také znamenat otevřený u otázky nebo volný u místa.",
         "Kontext určuje, zda se jedná o fyzicky otevřený případ nebo otevřený postoj."
       ],
       "examples": [
@@ -42103,7 +41900,7 @@ const A2_WORDS = [
   },
   {
     "de": "packen",
-    "lv": "Sbalit",
+    "lv": "Balit",
     "level": "A2"
   },
   {
@@ -42136,7 +41933,7 @@ const A2_WORDS = [
   },
   {
     "de": "parken",
-    "lv": "Zaparkovat auto",
+    "lv": "Parkovat",
     "level": "A2"
   },
   {
@@ -42204,7 +42001,7 @@ const A2_WORDS = [
         },
         {
           "de": "Mir ist ein Fehler passiert.",
-          "lv": "Stala se mi chyba."
+          "lv": "Přihodila se mi chyba."
         },
         {
           "de": "So etwas passiert manchmal.",
@@ -42213,7 +42010,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Pokud se zeptáte Co se stalo?, v němčině je velmi běžné říci Was ist passiert?",
-        "Pro události je běžnější používat stattfinden než passieren."
+        "U plánovaných akcí se častěji používá stattfinden než passieren."
       ],
       "important": [
         "Passieren na úrovni A2 se má hlavně stát / stát.",
@@ -42390,7 +42187,7 @@ const A2_WORDS = [
     "de": "Patient",
     "de_article": "der",
     "de_plural": "die Patienten",
-    "lv": "Pacienta",
+    "lv": "Pacient",
     "level": "A2",
     "study": {
       "id": "a2-patient",
@@ -42480,9 +42277,7 @@ const A2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "Pacient"
-              ]
+              "purple": "Pacientka"
             }
           }
         ]
@@ -42671,7 +42466,7 @@ const A2_WORDS = [
     "de": "Pflaster",
     "de_article": "das",
     "de_plural": "die Pflaster",
-    "lv": "Záplata • Chodník",
+    "lv": "Náplast",
     "level": "A2",
     "study": {
       "id": "a2-pflaster",
@@ -42681,7 +42476,7 @@ const A2_WORDS = [
         "Hlavní myšlenka: das Pflaster je víceznačné slovo – náplast nebo dlažba podle kontextu.",
         "V medicíně a doma Pflaster znamená náplast, která se aplikuje na ránu nebo škrábnutí.",
         "V kontextu ulic, náměstí a měst Pflaster znamená dlažba - dlážděný povrch chodníku.",
-        "Das Pflaster klebt nicht je obvykle o záplatě • Die Straße hat altes Pflaster - o chodníku.",
+        "Das Pflaster klebt nicht je obvykle o náplasti • Die Straße hat altes Pflaster – o dlažbě.",
         "Vždy se dívejte na kontext: lékárna, rána, kůže → náplast • Ulice, dlažba, chůze → dlažba."
       ],
       "examples": [
@@ -43372,7 +43167,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Trávník",
       "explanation": [
-        "Hlavní myšlenka: Rasen je podstatné jméno s velkým písmenem a člen der je trávník, louka (např. na zahradě).",
+        "Hlavní myšlenka: Rasen je podstatné jméno s velkým písmenem a členem der; znamená trávník (např. na zahradě).",
         "Rasen je sloveso s malým písmenem - spěchat, spěchat velmi rychle.",
         "Der Rasen často odkazuje na pěstěný trávník na zahradě nebo stadionu.",
         "Množné číslo: die Rasen."
@@ -43493,12 +43288,12 @@ const A2_WORDS = [
   },
   {
     "de": "sich rasieren",
-    "lv": "Oholit se",
+    "lv": "Holit se",
     "level": "A2"
   },
   {
     "de": "raten",
-    "lv": "Navrhnout • Hádat",
+    "lv": "Radit",
     "level": "A2",
     "study": {
       "id": "a2-raten",
@@ -43539,7 +43334,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Raten neznamená jen hádat.",
-        "Ich rate dir znamená „doporučuji ti“, ne „tuším tě“."
+        "Ich rate dir znamená „doporučuji ti“, ne „snažím se tě uhodnout“."
       ],
       "sectionAccents": {
         "explanation": {
@@ -43792,7 +43587,6 @@ const A2_WORDS = [
         "explanation": {
           "blue": [
             "rechnen",
-            "mit rechnen",
             "damit rechnen"
           ],
           "purple": [
@@ -43932,9 +43726,7 @@ const A2_WORDS = [
             ]
           },
           {
-            "blue": [
-              "mit rechnen"
-            ],
+            "blue": [],
             "purple": [
               "matematice"
             ]
@@ -44041,7 +43833,7 @@ const A2_WORDS = [
   },
   {
     "de": "reichen",
-    "lv": "Stačí • Přítomný",
+    "lv": "Stačit",
     "level": "A2",
     "study": {
       "id": "a2-reichen",
@@ -44049,10 +43841,10 @@ const A2_WORDS = [
       "translation": "Stačit • Podat",
       "explanation": [
         "Hlavní myšlenka: reichen znamená stačit nebo podat podle kontextu.",
-        "Pokud jde o množství, čas nebo peníze, reichen často znamená dost.",
+        "Pokud jde o množství, čas nebo peníze, reichen často znamená stačit.",
         "Když někdo něco podává rukou, reichen znamená podat.",
         "Slovní spojení Das reicht znamená dost.",
-        "Reichen může také znamenat rozšířit se na místo."
+        "Reichen může také znamenat sahat až k určitému místu."
       ],
       "examples": [
         {
@@ -44086,7 +43878,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Das reicht je velmi rozšířená fráze s významem stačí.",
-        "Reichen není jen o dávání • Velmi často to znamená dost."
+        "Reichen není jen o dávání • Velmi často to znamená stačit."
       ],
       "sectionAccents": {
         "explanation": {
@@ -44403,18 +44195,18 @@ const A2_WORDS = [
   },
   {
     "de": "riechen",
-    "lv": "Vonět • Ost",
+    "lv": "Vonět",
     "level": "A2",
     "study": {
       "id": "a2-riechen",
       "layout": "standardStudy",
       "translation": "Vonět • Čichat",
       "explanation": [
-        "Hlavní myšlenka: riechen znamená cítit něco nebo cítit něco.",
-        "Když je předmětem věc, riechen znamená cítit nebo ost.",
-        "Když je subjektem osoba nebo zvíře, riechen často znamená cítit nebo cítit.",
-        "Fráze nach etwas riechen znamená cítit něco.",
-        "Kontext ukazuje, zda se jedná o vůni nebo o akt čichu."
+        "Hlavní myšlenka: riechen znamená vonět nebo čichat.",
+        "Když je podmětem věc, riechen obvykle znamená vonět nebo páchnout.",
+        "Když je podmětem člověk nebo zvíře, může znamenat čichat nebo ucítit.",
+        "Fráze nach etwas riechen znamená vonět po něčem.",
+        "Kontext ukazuje, zda jde o vůni, zápach, nebo čichání."
       ],
       "examples": [
         {
@@ -44470,8 +44262,8 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Je-li tam nach, překládá se to jako vonící něčím.",
-        "Pokud existuje + pro koho? a člověk nebo zvíře, často překládáno jako ostite."
+        "Je-li ve větě nach, překládá se to jako vonět po něčem.",
+        "Je-li ve větě an + 3. pád a podmětem je člověk nebo zvíře, často se překládá jako čichat k něčemu."
       ],
       "important": [
         "Riechen může být jak cítit, tak cítit.",
@@ -44790,13 +44582,13 @@ const A2_WORDS = [
     "de": "Rolle",
     "de_article": "die",
     "de_plural": "die Rollen",
-    "lv": "Role • Válet",
+    "lv": "Role",
     "level": "A2",
     "study": {
       "id": "a2-rolle",
       "layout": "standardStudy",
       "translation": "Role • Rolka",
-      "explanation": "Die Rolle velmi často znamená roli ve filmu, práci nebo situaci. Fráze eine Rolle spielen znamená hrát roli nebo být důležitý. Rolle může také znamenat rolku nebo váleček, například papíru. V kontextu divadla a filmu znamená roli. V souvislosti s předměty znamená často rolku nebo váleček.",
+      "explanation": "Rolle velmi často znamená roli ve filmu, práci nebo situaci. Fráze eine Rolle spielen znamená hrát roli nebo být důležitý. Rolle může také znamenat rolku nebo váleček, například papíru. V kontextu divadla a filmu znamená roli. V souvislosti s předměty znamená často rolku nebo váleček.",
       "examples": [
         {
           "de": "Sie spielt eine wichtige Rolle im Team.",
@@ -44856,13 +44648,13 @@ const A2_WORDS = [
             "text": "Eine Rolle spielen znamená „hrát roli“ nebo „být důležitý“."
           },
           {
-            "text": "Když se odkazuje na papír, látku nebo předmět, Rolle obvykle znamená roli."
+            "text": "Když jde o papír, látku nebo jiný předmět, Rolle obvykle znamená rolku nebo váleček."
           }
         ]
       },
       "important": {
         "text": "Role je často abstraktní význam, nikoli jen objekt.",
-        "example": "Eine wichtige Rolle spielen = spēlēt svarīgu lomu. eine Rolle Papier = papīra rullis."
+        "example": "Eine wichtige Rolle spielen = hrát důležitou roli. Eine Rolle Papier = role papíru."
       },
       "sectionAccents": {
         "examples": [
@@ -45096,7 +44888,6 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "spielen",
-                  "spēlēt",
                   "Rolle",
                   "lomu"
                 ]
@@ -45142,14 +44933,10 @@ const A2_WORDS = [
               "green": [
                 "rullis"
               ],
-              "purple": [
-                "papīra rullis"
-              ],
+              "purple": [],
               "red": [
                 "wichtige",
                 "spielen",
-                "svarīgu",
-                "spēlēt",
                 "Rolle",
                 "lomu"
               ]
@@ -45163,7 +44950,6 @@ const A2_WORDS = [
           "Die Rolle",
           "Spielen",
           "Rullis",
-          "Spēlēt",
           "Rolle",
           "Rulli",
           "Lomu"
@@ -45179,7 +44965,6 @@ const A2_WORDS = [
         ],
         "orange": [],
         "purple": [
-          "Papīra rullis",
           "Der Teil",
           "Teil"
         ],
@@ -45307,11 +45092,11 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Sbírat",
       "explanation": [
-        "Hlavní myšlenka: sammeln znamená sbírat nebo sbírat věci dohromady.",
-        "Používá se na známky, houby, informace, peníze nebo body.",
-        "Se sich sammeln to znamená sejít se nebo sejít.",
-        "Fráze Gedanken sammeln znamená sbírat své myšlenky.",
-        "Kontext ukazuje, zda se jedná o shromažďování věcí nebo shromáždění lidí."
+        "Hlavní myšlenka: sammeln znamená sbírat nebo shromažďovat věci.",
+        "Používá se u známek, hub, informací, peněz nebo bodů.",
+        "Sich sammeln znamená shromáždit se nebo se sebrat.",
+        "Fráze Gedanken sammeln znamená uspořádat nebo soustředit si myšlenky.",
+        "Kontext ukazuje, zda jde o shromažďování věcí, nebo lidí."
       ],
       "examples": [
         {
@@ -45367,7 +45152,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Sammeln není totéž co holen.",
-        "Sammeln = sbírat/hromadit • Holen = jít za a aportovat."
+        "Sammeln = sbírat nebo hromadit • Holen = jít pro něco a přinést to."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45657,8 +45442,8 @@ const A2_WORDS = [
     "study": {
       "id": "a2-satz",
       "layout": "standardStudy",
-      "translation": "Věta",
-      "explanation": "Der Satz nejčastěji znamená větu v jazyce. Může to také znamenat sadu, například sadu pneumatik. Ve sportu může Satz znamenat skok nebo nastavení v závislosti na kontextu. V ekonomii nebo finančním jazyce může Satz znamenat sazbu, tarif nebo úrok. V některých kontextech Satz znamená sediment. Proto se musíte podívat na okolní slova: Satz Reifen, Zinssatz, deutscher Satz.",
+      "translation": "Věta • Sada • Sazba • Set",
+      "explanation": "Satz nejčastěji znamená větu. Může také znamenat sadu, například sadu pneumatik. Ve sportu znamená set. V ekonomii nebo finančním kontextu může znamenat sazbu nebo úrokovou sazbu. Kaffeesatz znamená kávovou sedlinu. Význam určují okolní slova: Satz Reifen, Zinssatz, deutscher Satz.",
       "examples": [
         {
           "de": "Schreibe bitte einen deutschen Satz.",
@@ -45682,7 +45467,7 @@ const A2_WORDS = [
         },
         {
           "de": "Sein erster Satz war sehr weit.",
-          "lv": "Jeho první skok byl velmi daleký."
+          "lv": "Jeho první set byl velmi dlouhý."
         }
       ],
       "comparison": [
@@ -45724,7 +45509,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Satz je velmi kontextové slovo.",
-        "example": "Ein Satz = teikums. ein Satz Reifen = riepu komplekts. Zinssatz = procentu likme. Kaffeesatz = kafijas biezumi."
+        "example": "Ein Satz = věta. Ein Satz Reifen = sada pneumatik. Zinssatz = úroková sazba. Kaffeesatz = kávová sedlina."
       },
       "sectionAccents": {
         "examples": [
@@ -46183,18 +45968,18 @@ const A2_WORDS = [
   },
   {
     "de": "schalten",
-    "lv": "Přepínač",
+    "lv": "Přepínat",
     "level": "A2",
     "study": {
       "id": "a2-schalten",
       "layout": "standardStudy",
       "translation": "Přepínat • Řadit",
       "explanation": [
-        "Hlavní myšlenka: schalten znamená přepnout – zapnout, vypnout nebo změnit nějaké nastavení/převodový stupeň.",
-        "U elektřiny schalten často znamená přehodit vypínač (Licht schalten = vypínač světla).",
+        "Hlavní myšlenka: schalten znamená přepínat nebo řadit.",
+        "U elektřiny schalten často znamená přepínat (Licht schalten = přepínat světlo).",
         "V kontextu automobilu znamená schalten přeřadit (in den zweiten Gang schalten = přeřadit na druhý rychlostní stupeň).",
-        "Specifický význam „zapnout“ je přesněji vyjádřen výrazem einschalten, nikoli jednoduše schalten.",
-        "Schalten lze použít i v přeneseném smyslu - 'rozumět, uchopit' (hovorově: Er schaltet schnell. = rozumí rychle)."
+        "Specifický význam „zapnout“ přesněji vyjadřuje einschalten, nikoli samotné schalten.",
+        "Schalten lze použít i přeneseně: Er schaltet schnell. = rychle chápe."
       ],
       "examples": [
         {
@@ -46367,7 +46152,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich esse gern scharf.",
-          "lv": "Ráda jím kořeněná jídla."
+          "lv": "Rád jím pikantní jídla."
         }
       ],
       "tip": [
@@ -46627,13 +46412,13 @@ const A2_WORDS = [
   },
   {
     "de": "scheinen",
-    "lv": "Lesknout se • Zdát se",
+    "lv": "Svítit",
     "level": "A2",
     "study": {
       "id": "a2-scheinen",
       "layout": "standardStudy",
       "translation": "Svítit • Zdát se",
-      "explanation": "Scheinen znamená zářit, když se odkazuje na slunce nebo světlo. Může to také znamenat zdát se nebo zdát. Konstrukce es scheint často znamená „zdá se“. S zu + infinitiv vyjadřuje dojem osoby nebo situace. Význam je určen kontextem: Sonne nebo Eindruck. Proto je třeba rozlišovat mezi fyzickým světlem a dojmem.",
+      "explanation": "Scheinen znamená svítit nebo zářit, když jde o slunce či světlo. Může také znamenat zdát se nebo jevit se. Konstrukce es scheint často znamená „zdá se“. Se zu + infinitivem vyjadřuje dojem o osobě nebo situaci. Význam určuje kontext: Sonne nebo Eindruck. Je třeba rozlišovat fyzické světlo a dojem.",
       "examples": [
         {
           "de": "Die Sonne scheint.",
@@ -46913,9 +46698,7 @@ const A2_WORDS = [
                 "scheint",
                 "saule",
                 "Sonne",
-                "šķiet",
-                "müde",
-                "spīd"
+                "müde"
               ]
             }
           }
@@ -46925,8 +46708,7 @@ const A2_WORDS = [
         "blue": [
           "StandardStudy",
           "Scheinen",
-          "Scheint",
-          "Šķiet"
+          "Scheint"
         ],
         "green": [
           "Aussehen"
@@ -47311,12 +47093,9 @@ const A2_WORDS = [
                 "blue": [
                   "Schlange"
                 ],
-                "orange": [
-                  "čūska"
-                ],
+                "orange": [],
                 "yellow": [
-                  "Schlange",
-                  "čūska"
+                  "Schlange"
                 ]
               }
             }
@@ -47339,15 +47118,10 @@ const A2_WORDS = [
               "blue": [
                 "Schlange"
               ],
-              "orange": [
-                "čūska"
-              ],
+              "orange": [],
               "red": [
                 "Schlange",
-                "stāvēt",
                 "stehen",
-                "čūska",
-                "mežā",
                 "Wald"
               ]
             }
@@ -47359,10 +47133,7 @@ const A2_WORDS = [
           "StandardStudy",
           "Die Schlange",
           "Schlange",
-          "Stāvēt",
-          "Stehen",
-          "Čūska",
-          "Rindā"
+          "Stehen"
         ],
         "green": [
           "Die Warteschlange",
@@ -47372,9 +47143,7 @@ const A2_WORDS = [
           "Die Reihe",
           "Reihe"
         ],
-        "orange": [
-          "Čūska"
-        ],
+        "orange": [],
         "purple": [],
         "red": [
           "Das Reptil",
@@ -47446,7 +47215,7 @@ const A2_WORDS = [
             "text": "Dveře/okna + schließen znamená zavřít."
           },
           {
-            "text": "Mit Schlüssel používáme abschließen, když chceme zdůraznit zamykání."
+            "text": "S klíčem používáme abschließen, když chceme zdůraznit zamykání."
           }
         ]
       },
@@ -47586,7 +47355,6 @@ const A2_WORDS = [
             },
             "example": {
               "green": [
-                "aizslēdzu",
                 "schließe",
                 "durvis"
               ]
@@ -47638,12 +47406,9 @@ const A2_WORDS = [
                 "blue": [
                   "schließen"
                 ],
-                "orange": [
-                  "aizvērt"
-                ],
+                "orange": [],
                 "yellow": [
                   "schließen",
-                  "aizvērt",
                   "Durvis"
                 ]
               }
@@ -47684,15 +47449,10 @@ const A2_WORDS = [
               "green": [
                 "abschließen"
               ],
-              "orange": [
-                "aizslēgt",
-                "aizvērt"
-              ],
+              "orange": [],
               "red": [
                 "abschließen",
                 "schließen",
-                "aizslēgt",
-                "aizvērt",
                 "durvis"
               ]
             }
@@ -47703,21 +47463,15 @@ const A2_WORDS = [
         "blue": [
           "StandardStudy",
           "Schließen",
-          "Aizvērt",
-          "Durvis",
-          "Slēgt"
+          "Durvis"
         ],
         "green": [
-          "Abschließen",
-          "Slēgt"
+          "Abschließen"
         ],
         "yellow": [
           "Zumachen"
         ],
-        "orange": [
-          "Aizslēgt",
-          "Aizvērt"
-        ],
+        "orange": [],
         "purple": [],
         "red": [
           "Folgern"
@@ -48323,8 +48077,8 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "die Schuld",
-          "meaning": "Chyba / odpovědnost",
-          "example": "Das ist meine Schuld. = Je to moje chyba."
+          "meaning": "Vina / odpovědnost",
+          "example": "Das ist meine Schuld. = Je to moje vina."
         },
         {
           "word": "die Schulden",
@@ -48353,7 +48107,7 @@ const A2_WORDS = [
             "text": "Schuld v jednotném čísle obvykle znamená vinu nebo odpovědnost."
           },
           {
-            "text": "Schulden v množném čísle znamená dluhy, nikoli jednoduše viny."
+            "text": "Schulden v množném čísle znamenají dluhy, nikoli jednoduše viny."
           }
         ]
       },
@@ -48719,7 +48473,7 @@ const A2_WORDS = [
   },
   {
     "de": "schwer",
-    "lv": "Těžký • Těžký",
+    "lv": "Těžký",
     "level": "A2",
     "study": {
       "id": "a2-schwer",
@@ -49023,7 +48777,7 @@ const A2_WORDS = [
   },
   {
     "de": "sich befinden",
-    "lv": "Být lokalizován",
+    "lv": "Nacházet se",
     "level": "A2",
     "study": {
       "id": "a2-sich-befinden",
@@ -49059,7 +48813,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "sich befinden",
-          "meaning": "Být lokalizován",
+          "meaning": "Nacházet se",
           "example": "Das Büro befindet sich im zweiten Stock. = Kancelář je ve druhém patře."
         },
         {
@@ -49086,7 +48840,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "V mapách, směrech a popisech znamená sich befinden být lokalizován."
+            "text": "V mapách, směrech a popisech znamená sich befinden nacházet se."
           },
           {
             "text": "Pokud chcete říci „cítit se“, použijte sich fühlen, nikoli sich befinden."
@@ -49420,7 +49174,7 @@ const A2_WORDS = [
       "id": "a2-sich-unterhalten",
       "layout": "standardStudy",
       "translation": "Mluvit",
-      "explanation": "Sich unterhalten znamená nejčastěji mluvit. Je to zvratné sloveso a používá zvratná zájmena mich, dich, uns, euch nebo sich. Může to také znamenat bavit se nebo se dobře bavit. V některých kontextech unterhalten znamená finančně udržovat, ale to není hlavní použití A2. Zda jde o konverzaci nebo zábavu, se teprve uvidí.",
+      "explanation": "Sich unterhalten znamená nejčastěji mluvit. Je to zvratné sloveso a používá zvratná zájmena mich, dich, uns, euch nebo sich. Může to také znamenat bavit se nebo se dobře bavit. V některých kontextech unterhalten znamená finančně udržovat, ale to není hlavní použití A2. Zda jde o konverzaci, nebo zábavu, závisí na kontextu.",
       "examples": [
         {
           "de": "Wir unterhalten uns über die Arbeit.",
@@ -49460,7 +49214,7 @@ const A2_WORDS = [
         },
         {
           "word": "reden",
-          "meaning": "Mluvit / mluvit",
+          "meaning": "Mluvit / hovořit",
           "example": "Wir reden viel. = Hodně mluvíme."
         },
         {
@@ -49475,7 +49229,7 @@ const A2_WORDS = [
             "text": "Sich unterhalten obvykle znamená s někým mluvit."
           },
           {
-            "text": "Pokud je kontextem film, událost nebo večer, může to znamenat zábavu."
+            "text": "Pokud je kontextem film, událost nebo večer, může to znamenat bavit se."
           }
         ]
       },
@@ -49951,19 +49705,13 @@ const A2_WORDS = [
   },
   {
     "de": "setzen",
-    "lv": "Posadit • Posadit",
+    "lv": "Posadit",
     "level": "A2",
     "study": {
       "id": "a2-setzen",
       "layout": "standardStudy",
       "translation": "Posadit",
-      "explanation": [
-        "Hlavní myšlenka: Akce: někdo si sedne nebo někoho přiměje se posadit.",
-        "Setzen znamená především: jednání.",
-        "Často popisuje, koho nebo co někdo posadí či umístí.",
-        "Setzen se používá, když si někdo sedne nebo někoho přiměje se posadit.",
-        "Sich setzen znamená sednout si sám."
-      ],
+      "explanation": "Setzen se používá, když někdo někoho posadí nebo něco umístí; sich setzen znamená sednout si.",
       "examples": [
         {
           "de": "Ich setze das Kind auf den Stuhl.",
@@ -49994,7 +49742,7 @@ const A2_WORDS = [
         {
           "word": "stellen",
           "meaning": "Postavit (akce)",
-          "example": "Ich stelle die Flasche hin. – Láhev jsem postavil do svislé polohy."
+          "example": "Postavím láhev do svislé polohy."
         },
         {
           "word": "stehen",
@@ -50114,7 +49862,7 @@ const A2_WORDS = [
         },
         {
           "word": "als",
-          "meaning": "Kdy (jednou v minulosti)",
+          "meaning": "Když (jednou v minulosti)",
           "example": "Als ich Kind war, spielte ich viel. = Když jsem byl dítě, hodně jsem si hrál."
         },
         {
@@ -50557,7 +50305,7 @@ const A2_WORDS = [
         {
           "word": "sonst",
           "meaning": "Jinak / jinak / obvykle",
-          "example": "Komm jetzt, sonst ist es zu spät. = Přijďte hned, nebo bude příliš pozdě."
+          "example": "Komm jetzt, sonst ist es zu spät. = Přijď hned, nebo bude příliš pozdě."
         },
         {
           "word": "ansonsten",
@@ -50592,7 +50340,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Sonst neznamená jen „jinak“.",
-        "example": "Sonst kommen wir zu spät = citādi nokavēsim. Was machst du sonst? = ko tu parasti dari? sonst noch Fragen = vēl jautājumi?"
+        "example": "Sonst kommen wir zu spät = Jinak přijdeme pozdě. Was machst du sonst? = Co obvykle děláš? sonst noch Fragen = ještě nějaké otázky?"
       },
       "sectionAccents": {
         "examples": [
@@ -50827,9 +50575,7 @@ const A2_WORDS = [
                 "blue": [
                   "sonst"
                 ],
-                "orange": [
-                  "citādi"
-                ],
+                "orange": [],
                 "red": [],
                 "yellow": [
                   "sonst"
@@ -50855,11 +50601,8 @@ const A2_WORDS = [
               "blue": [
                 "sonst"
               ],
-              "orange": [
-                "citādi"
-              ],
+              "orange": [],
               "red": [
-                "citādi",
                 "sonst",
                 "Sonst"
               ]
@@ -50868,12 +50611,8 @@ const A2_WORDS = [
               "blue": [
                 "sonst"
               ],
-              "orange": [
-                "citādi"
-              ],
+              "orange": [],
               "red": [
-                "nokavēsim",
-                "citādi",
                 "kommen",
                 "machst",
                 "sonst",
@@ -50886,7 +50625,6 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "StandardStudy",
-          "Citādi",
           "Sonst",
           "Dari"
         ],
@@ -50896,9 +50634,7 @@ const A2_WORDS = [
         "yellow": [
           "Andernfalls"
         ],
-        "orange": [
-          "Citādi"
-        ],
+        "orange": [],
         "purple": [
           "Außerdem"
         ],
@@ -51151,22 +50887,22 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Die Flasche steht auf dem Tisch.",
-          "lv": "Láhev je na stole."
+          "lv": "Láhev stojí na stole."
         },
         {
           "de": "Die Flasche steht auf dem Tisch.",
-          "lv": "Láhev je na stole."
+          "lv": "Láhev stojí na stole."
         },
         {
           "de": "Das Auto steht vor dem Haus.",
-          "lv": "Auto je zaparkované před domem."
+          "lv": "Auto stojí před domem."
         }
       ],
       "comparison": [
         {
           "word": "stehen",
-          "meaning": "Stát (stát)",
-          "example": "Die Flasche steht hier. – Láhev je tady."
+          "meaning": "Stát (poloha)",
+          "example": "Láhev tady stojí."
         },
         {
           "word": "stellen",
@@ -51286,7 +51022,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich stelle die Flasche hin.",
-          "lv": "Láhev jsem postavil do svislé polohy."
+          "lv": "Postavím láhev do svislé polohy."
         }
       ],
       "comparison": [
@@ -51308,7 +51044,7 @@ const A2_WORDS = [
         {
           "word": "liegen",
           "meaning": "Ležet (poloha)",
-          "example": "Das Buch liegt hier. – Kniha je zde."
+          "example": "Ich lege das Buch hin. – Položím knihu."
         },
         {
           "word": "setzen",
@@ -51404,13 +51140,13 @@ const A2_WORDS = [
   },
   {
     "de": "steigen",
-    "lv": "Vylézt • Vstát",
+    "lv": "Stoupat",
     "level": "A2",
     "study": {
       "id": "a2-steigen",
       "layout": "standardStudy",
       "translation": "Stoupat • Lézt",
-      "explanation": "Hlavní myšlenka: steigen znamená lézt nebo stoupat nahoru. Používá se při lezení po schodech nebo na horu. U cen, čísel, teploty a hladiny vody znamená stoupat. V dopravě se používá hlavně v einsteigen a aussteigen. Není to totéž jako aufstehen.",
+      "explanation": "Hlavní myšlenka: steigen znamená stoupat nebo vystupovat vzhůru. Používá se při stoupání po schodech nebo na horu. U cen, čísel, teploty a hladiny vody znamená růst. V dopravě se používá hlavně v einsteigen a aussteigen. Není to totéž jako aufstehen.",
       "examples": [
         {
           "de": "Wir steigen die Treppe hinauf.",
@@ -51736,11 +51472,7 @@ const A2_WORDS = [
               "red": [
                 "stehe auf"
               ],
-              "purple": [
-                "ceļas",
-                "pieceļos",
-                "iekāpju"
-              ]
+              "purple": []
             }
           }
         ]
@@ -51841,7 +51573,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Eine Stelle suchen obvykle znamená hledání práce."
+            "text": "Eine Stelle suchen obvykle znamená hledat práci."
           },
           {
             "text": "Im Text / an dieser Stelle znamená konkrétní místo v textu nebo situaci."
@@ -52219,7 +51951,7 @@ const A2_WORDS = [
   },
   {
     "de": "stimmen",
-    "lv": "Souhlasit • Mít pravdu • Volit",
+    "lv": "Být správný",
     "level": "A2",
     "study": {
       "id": "a2-stimmen",
@@ -52233,7 +51965,7 @@ const A2_WORDS = [
         },
         {
           "de": "Deine Antwort stimmt.",
-          "lv": "Vaše odpověď je správná."
+          "lv": "Tvoje odpověď je správná."
         },
         {
           "de": "Die Zahlen stimmen nicht.",
@@ -52241,7 +51973,7 @@ const A2_WORDS = [
         },
         {
           "de": "Wir stimmen über den Plan ab.",
-          "lv": "Hlasujeme pro plán."
+          "lv": "Hlasujeme o plánu."
         },
         {
           "de": "Der Musiker stimmt die Gitarre.",
@@ -52255,7 +51987,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "stimmen",
-          "meaning": "Být správný / souhlasit / ladit / hlasovat",
+          "meaning": "Být správný / Být v pořádku / Ladit / Hlasovat",
           "example": "Das stimmt. = To je pravda. / To je správně."
         },
         {
@@ -52650,7 +52382,7 @@ const A2_WORDS = [
         },
         {
           "word": "der Unterrichtsstoff",
-          "meaning": "Studijní materiál",
+          "meaning": "Učivo",
           "example": "Der Unterrichtsstoff ist schwer. = Učivo je obtížné."
         },
         {
@@ -53164,7 +52896,7 @@ const A2_WORDS = [
         {
           "word": "die Tafel Schokolade",
           "meaning": "Tabulka čokolády",
-          "example": "Eine Tafel Schokolade = Čokoládová tyčinka."
+          "example": "Tabulka čokolády."
         }
       ],
       "tip": {
@@ -53559,7 +53291,7 @@ const A2_WORDS = [
     "de": "Teil",
     "de_article": "das",
     "de_plural": "die Teile",
-    "lv": "Část • Detail • Kus",
+    "lv": "Část",
     "level": "A2",
     "study": {
       "id": "a2-teil",
@@ -53631,7 +53363,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Teil může označovat abstraktní část i fyzický díl.",
-        "example": "Ein Teil der Geschichte = daļa no stāsta. Ersatzteil = rezerves detaļa. ein schönes Teil = skaists priekšmets / gabals."
+        "example": "Ein Teil der Geschichte = část příběhu. Ersatzteil = náhradní díl. ein schönes Teil = krásný předmět / kus."
       },
       "sectionAccents": {
         "examples": [
@@ -53889,11 +53621,8 @@ const A2_WORDS = [
                 "blue": [
                   "Teil"
                 ],
-                "green": [
-                  "detaļa"
-                ],
+                "green": [],
                 "yellow": [
-                  "detaļa",
                   "Teil"
                 ]
               }
@@ -53903,11 +53632,8 @@ const A2_WORDS = [
                 "blue": [
                   "Teil"
                 ],
-                "orange": [
-                  "daļa"
-                ],
+                "orange": [],
                 "yellow": [
-                  "daļa",
                   "Teil"
                 ]
               }
@@ -53920,17 +53646,11 @@ const A2_WORDS = [
               "blue": [
                 "Teil"
               ],
-              "green": [
-                "detaļa"
-              ],
-              "orange": [
-                "daļa"
-              ],
+              "green": [],
+              "orange": [],
               "red": [
                 "abstraktní",
                 "Teil",
-                "detaļa",
-                "daļa",
                 "Teil"
               ]
             },
@@ -53939,25 +53659,18 @@ const A2_WORDS = [
                 "Teil"
               ],
               "green": [
-                "priekšmets",
-                "detaļa"
+                "priekšmets"
               ],
               "yellow": [
                 "Ersatzteil",
                 "gabals"
               ],
-              "orange": [
-                "daļa"
-              ],
-              "purple": [
-                "rezerves detaļa"
-              ],
+              "orange": [],
+              "purple": [],
               "red": [
                 "Ersatzteil",
                 "Geschichte",
                 "rezerves",
-                "stāsta",
-                "daļa",
                 "Teil"
               ]
             }
@@ -53970,26 +53683,20 @@ const A2_WORDS = [
           "Ersatzteil",
           "Priekšmets",
           "Das Teil",
-          "Detaļa",
           "Gabals",
-          "Daļa",
           "Teil"
         ],
         "green": [
           "Priekšmets",
-          "Der Teil",
-          "Detaļa"
+          "Der Teil"
         ],
         "yellow": [
           "Das Ersatzteil",
           "Ersatzteil",
           "Gabals"
         ],
-        "orange": [
-          "Daļa"
-        ],
+        "orange": [],
         "purple": [
-          "Rezerves detaļa",
           "Die Sache",
           "Sache"
         ],
@@ -54044,7 +53751,7 @@ const A2_WORDS = [
     "de": "Termin",
     "de_article": "der",
     "de_plural": "die Termine",
-    "lv": "Dohodnuté jmenování • Termín",
+    "lv": "Schůzka",
     "level": "A2",
     "study": {
       "id": "a2-termin",
@@ -54070,7 +53777,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Termin für die Abgabe ist Freitag.",
-          "lv": "Termín odevzdání je pátek."
+          "lv": "Termín odevzdání je v pátek."
         },
         {
           "de": "Unser Treffen war sehr nett.",
@@ -54107,7 +53814,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "U lékaře, kadeřníka nebo instituce der Termín obvykle znamená schůzku."
+            "text": "U lékaře, kadeřníka nebo v instituci Termin obvykle znamená schůzku."
           },
           {
             "text": "Pokud jde o čas odevzdání, Termin může znamenat konečný termín."
@@ -54116,7 +53823,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Termín není ledajaká schůzka.",
-        "example": "Einen Termin beim Arzt haben = būt pierakstam pie ārsta. ein Treffen haben = satikties. eine Frist haben = būt termiņam."
+        "example": "Einen Termin beim Arzt haben = mít termín u lékaře. ein Treffen haben = mít schůzku. eine Frist haben = mít lhůtu."
       },
       "sectionAccents": {
         "examples": [
@@ -54336,9 +54043,7 @@ const A2_WORDS = [
                   "Termin"
                 ],
                 "purple": [],
-                "green": [
-                  "ārsta"
-                ]
+                "green": []
               }
             },
             {
@@ -54374,8 +54079,7 @@ const A2_WORDS = [
               ],
               "purple": [
                 "pierakstam",
-                "satikties",
-                "termiņam"
+                "satikties"
               ]
             }
           }
@@ -54722,9 +54426,7 @@ const A2_WORDS = [
                 "blue": [
                   "tief"
                 ],
-                "purple": [
-                  "dziļš"
-                ],
+                "purple": [],
                 "yellow": []
               }
             },
@@ -54760,7 +54462,6 @@ const A2_WORDS = [
                 "niedriger"
               ],
               "purple": [
-                "dziļš",
                 "zema",
                 "zems"
               ],
@@ -54780,9 +54481,7 @@ const A2_WORDS = [
           "Tiefer"
         ],
         "purple": [
-          "Dziļš",
           "Zems",
-          "Dziļš",
           "Zems",
           "Zema"
         ],
@@ -54836,7 +54535,7 @@ const A2_WORDS = [
   },
   {
     "de": "toll",
-    "lv": "Skvělý • Skvělý • Skvělý",
+    "lv": "Skvělý",
     "level": "A2",
     "study": {
       "id": "a2-toll",
@@ -54880,7 +54579,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Toll = skvělé, bezva nebo báječné – kladné hovorové slovo.",
-        "Nesprávně: mýto = blázen (moderní smysl) → Správně: verrückt = blázen."
+        "Nesprávně: toll = „blázen“ (starší význam) → Správně: verrückt = „blázen“."
       ],
       "sectionAccents": {
         "explanation": {
@@ -55069,7 +54768,7 @@ const A2_WORDS = [
         },
         {
           "de": "Er trägt das Kind auf dem Arm.",
-          "lv": "Nosí dítě v náručí."
+          "lv": "Nese dítě v náručí."
         },
         {
           "de": "Sie trägt eine blaue Jacke.",
@@ -55097,12 +54796,12 @@ const A2_WORDS = [
         {
           "word": "anziehen",
           "meaning": "Obléct si / oblékat",
-          "example": "Ich ziehe die Jacke an. = Oblékl jsem si bundu."
+          "example": "Ich ziehe die Jacke an. = Oblékám si bundu."
         },
         {
           "word": "bringen",
           "meaning": "Přinést / doručit",
-          "example": "Ich bringe dir das Buch. = Přinesl jsem ti knihu."
+          "example": "Ich bringe dir das Buch. = Přináším ti knihu."
         },
         {
           "word": "halten",
@@ -55137,13 +54836,9 @@ const A2_WORDS = [
           "Nes"
         ],
         "yellow": [
-          "Nēsāt",
           "Brilles"
         ],
-        "red": [
-          "Valkāt",
-          "Valkā"
-        ],
+        "red": [],
         "purple": [
           "Anziehen",
           "Bringen",
@@ -55158,9 +54853,7 @@ const A2_WORDS = [
                 "blue": [
                   "tragen"
                 ],
-                "purple": [
-                  "valkā"
-                ],
+                "purple": [],
                 "yellow": [
                   "Jacke"
                 ]
@@ -55199,8 +54892,6 @@ const A2_WORDS = [
               ],
               "purple": [
                 "nest",
-                "valkāt",
-                "nēsāt",
                 "uzvilkt"
               ],
               "yellow": [
@@ -55338,7 +55029,7 @@ const A2_WORDS = [
         },
         {
           "word": "erreichen",
-          "meaning": "Dosáhnout / zavolat",
+          "meaning": "Dosáhnout / dovolat se",
           "example": "Ich erreiche dich nicht. = Nemůžu ti zavolat."
         },
         {
@@ -55359,7 +55050,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Ich treffe dich = Potkávám tě.",
-        "example": "Wir treffen uns = Mēs tiekamies. das Ziel treffen = trāpīt mērķī. eine Wahl treffen = izdarīt izvēli."
+        "example": "Wir treffen uns = Scházíme se. Das Ziel treffen = zasáhnout cíl. Eine Wahl treffen = učinit volbu."
       },
       "sectionAccents": {
         "examples": [
@@ -55620,14 +55311,10 @@ const A2_WORDS = [
               "blue": [
                 "treffen"
               ],
-              "green": [
-                "trāpīt"
-              ],
+              "green": [],
               "red": [
                 "tiekamies",
                 "treffen",
-                "trāpīt",
-                "mērķī",
                 "Wahl",
                 "Ziel"
               ]
@@ -55638,14 +55325,10 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "StandardStudy",
-          "Izdarīt",
-          "Treffen",
-          "Izvēli",
-          "Trāpīt"
+          "Treffen"
         ],
         "green": [
-          "Sich treffen",
-          "Trāpīt"
+          "Sich treffen"
         ],
         "yellow": [
           "Kennenlernen"
@@ -55774,12 +55457,12 @@ const A2_WORDS = [
   },
   {
     "de": "übrig",
-    "lv": "Vlevo • Zbytek",
+    "lv": "Zbývající",
     "level": "A2",
     "study": {
       "id": "a2-übrig",
       "layout": "standardStudy",
-      "translation": "Zbývat • Zbytek",
+      "translation": "Zbývající • Zbytek",
       "explanation": "Hlavní myšlenka: übrig znamená zbývající nebo zbylý poté, co už bylo něco použito, uděláno nebo odebráno. Často se používá s bleiben: übrig bleiben = zůstat nebo zbýt. Pokud jde o lidi nebo věci, die übrigen znamená ostatní. To není totéž co unnötig „zbytečný“.",
       "examples": [
         {
@@ -55821,7 +55504,7 @@ const A2_WORDS = [
         {
           "word": "der Rest",
           "meaning": "Zbytek",
-          "example": "Der Rest ist für morgen. = Zůstatek je splatný zítra."
+          "example": "Zbytek je na zítřek."
         },
         {
           "word": "die übrigen",
@@ -55846,7 +55529,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Übrig neznamená jednoduše „zbytečný“ jako nepotřebný.",
-        "example": "Geld ist übrig = nauda ir atlikusi. Das ist unnötig = tas ir nevajadzīgi."
+        "example": "Geld ist übrig = Zbyly peníze. Das ist unnötig = Je to zbytečné."
       },
       "sectionAccents": {
         "examples": [
@@ -56079,8 +55762,7 @@ const A2_WORDS = [
                 "übrig"
               ],
               "red": [
-                "Übrig",
-                "nevajadzīgi"
+                "Übrig"
               ]
             },
             "example": {
@@ -56091,8 +55773,7 @@ const A2_WORDS = [
                 "unnötig"
               ],
               "purple": [
-                "atlikusi",
-                "nevajadzīgi"
+                "atlikusi"
               ]
             }
           }
@@ -56125,7 +55806,7 @@ const A2_WORDS = [
     "de": "Übung",
     "de_article": "die",
     "de_plural": "die Übungen",
-    "lv": "Cvičit • Cvičit",
+    "lv": "Cvičení",
     "level": "A2",
     "study": {
       "id": "a2-übung",
@@ -56171,7 +55852,7 @@ const A2_WORDS = [
         },
         {
           "word": "das Training",
-          "meaning": "Výcvik",
+          "meaning": "Trénink",
           "example": "Das Training beginnt um sechs. = Trénink začíná v šest."
         },
         {
@@ -56945,11 +56626,11 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Pouze jednotné číslo. Odejít z práce - vždy v jednotném čísle.",
+        "Dovolená z práce – vždy v jednotném čísle.",
         "Použijte der Urlaub, pokud kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Nesprávně: die Ferien, der Urlab (na úrovni A1).",
+        "Nesprávně: die Ferien, der Url[a]ub (na úrovni A1).",
         "Urlaub: im Urlaub sein / Urlaub machen.",
         "Nesprávně: die Urlaube → Správně: der Urlaub",
         "Shrnutí: der Urlaub (pouze jednotné číslo)."
@@ -57117,7 +56798,7 @@ const A2_WORDS = [
             "text": "Verbinden se často používá, když se dvě věci propojí nebo spojí."
           },
           {
-            "text": "Verbinden s ranou znamená obvazovat, ne jen vázat."
+            "text": "Sloveso verbinden ve spojení s ranou znamená obvazovat, ne jen vázat."
           }
         ]
       },
@@ -57819,8 +57500,7 @@ const A2_WORDS = [
               "orange": [],
               "red": [
                 "Verkehr",
-                "Verkehr",
-                "auto"
+                "Verkehr"
               ]
             },
             "example": {
@@ -57880,7 +57560,7 @@ const A2_WORDS = [
   },
   {
     "de": "verlangen",
-    "lv": "Vyžadovat • Poptávka",
+    "lv": "Požadovat",
     "level": "A2",
     "study": {
       "id": "a2-verlangen",
@@ -57979,7 +57659,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich wohne in einem ruhigen Viertel.",
-          "lv": "Bydlím v klidné oblasti."
+          "lv": "Bydlím v klidné čtvrti."
         },
         {
           "de": "Dieses Viertel ist sehr alt.",
@@ -58010,7 +57690,7 @@ const A2_WORDS = [
         {
           "word": "das Quartier",
           "meaning": "Čtvrť / sousedství",
-          "example": "Das Quartier ist ruhig. = Blok je tichý."
+          "example": "Čtvrť je klidná."
         }
       ],
       "tip": {
@@ -58025,7 +57705,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Viertel je slovo pro množství, čas a město.",
-        "example": "Ein Viertel = ceturtdaļa. Viertel vor acht = bez ceturkšņa astoņi. im Viertel wohnen = dzīvot rajonā."
+        "example": "Ein Viertel = čtvrtina. Viertel vor acht = tři čtvrtě na osm. Im Viertel wohnen = bydlet ve čtvrti."
       },
       "sectionAccents": {
         "examples": [
@@ -58254,11 +57934,8 @@ const A2_WORDS = [
                 "blue": [
                   "Viertel"
                 ],
-                "orange": [
-                  "ceturtdaļa"
-                ],
+                "orange": [],
                 "yellow": [
-                  "ceturtdaļa",
                   "Viertel"
                 ]
               }
@@ -58294,14 +57971,9 @@ const A2_WORDS = [
               "blue": [
                 "Viertel"
               ],
-              "orange": [
-                "ceturtdaļa"
-              ],
+              "orange": [],
               "red": [
-                "ceturtdaļa",
-                "ceturkšņa",
                 "Viertel",
-                "astoņi",
                 "wohnen",
                 "acht"
               ]
@@ -58313,7 +57985,6 @@ const A2_WORDS = [
         "blue": [
           "StandardStudy",
           "Das Viertel",
-          "Ceturtdaļa",
           "Viertel",
           "Acht"
         ],
@@ -58325,9 +57996,7 @@ const A2_WORDS = [
           "Das Drittel",
           "Drittel"
         ],
-        "orange": [
-          "Ceturtdaļa"
-        ],
+        "orange": [],
         "purple": [
           "Das Quartier",
           "Quartier"
@@ -58418,7 +58087,7 @@ const A2_WORDS = [
       "translation": "Vpředu",
       "subtitle": "Vorn / vorne",
       "accent": "blue",
-      "note": "Atbild uz jautājumu \"Kur?\" (Wo?).",
+      "note": "Odpovídá na otázku „Kde?“ (Wo?).",
       "examples": [
         {
           "de": "Er sitzt vorn.",
@@ -58521,7 +58190,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Ich stelle mich vor = Představuji se.",
-        "example": "Ich stelle mir das vor = Es to iedomājos. Ich stelle dich vor = Es tevi iepazīstinu. Der Plan wird vorgestellt = Plāns tiek prezentēts."
+        "example": "Ich stelle mir das vor = Představuji si to. Ich stelle dich vor = Představuji tě. Der Plan wird vorgestellt = Plán je představen."
       },
       "sectionAccents": {
         "examples": [
@@ -58793,8 +58462,6 @@ const A2_WORDS = [
             },
             "example": {
               "red": [
-                "iepazīstinu",
-                "iedomājos",
                 "stelle",
                 "dich",
                 "Plan",
@@ -58808,12 +58475,10 @@ const A2_WORDS = [
         "blue": [
           "StandardStudy",
           "Vorstellen",
-          "Prezentēt",
           "Etwas"
         ],
         "green": [
-          "Sich vorstellen",
-          "Prezentēt"
+          "Sich vorstellen"
         ],
         "yellow": [
           "Denken"
@@ -59072,7 +58737,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Wählen není jen si vybrat.",
-        "example": "Partei wählen = balsot par partiju. Nummer wählen = sastādīt numuru. Menü wählen = izvēlēties izvēlni."
+        "example": "Partei wählen = volit stranu. Nummer wählen = vytočit číslo. Menü wählen = zvolit nabídku."
       },
       "sectionAccents": {
         "examples": [
@@ -59276,7 +58941,6 @@ const A2_WORDS = [
                   "wählen"
                 ],
                 "yellow": [
-                  "sastādīt",
                   "Nummer",
                   "numuru",
                   "wählen"
@@ -59291,11 +58955,8 @@ const A2_WORDS = [
               "blue": [
                 "wählen"
               ],
-              "orange": [
-                "izvēlēties"
-              ],
+              "orange": [],
               "red": [
-                "izvēlēties",
                 "wählen",
                 "Wählen"
               ]
@@ -59307,15 +58968,9 @@ const A2_WORDS = [
               "green": [
                 "balsot"
               ],
-              "yellow": [
-                "sastādīt numuru",
-                "sastādīt"
-              ],
-              "orange": [
-                "izvēlēties"
-              ],
+              "yellow": [],
+              "orange": [],
               "red": [
-                "sastādīt",
                 "partiju",
                 "balsot",
                 "Nummer",
@@ -59329,26 +58984,18 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "StandardStudy",
-          "Izvēlēties",
-          "Sastādīt",
-          "Izvēlni",
           "Balsot",
           "Numuru",
-          "Wählen",
-          "Vēlēt"
+          "Wählen"
         ],
         "green": [
           "Auswählen",
           "Balsot"
         ],
         "yellow": [
-          "Sastādīt numuru",
-          "Entscheiden",
-          "Sastādīt"
+          "Entscheiden"
         ],
-        "orange": [
-          "Izvēlēties"
-        ],
+        "orange": [],
         "purple": [],
         "red": [
           "Abstimmen"
@@ -59430,7 +59077,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Während mění strukturu věty.",
-        "example": "Während ich arbeite = kamēr es strādāju. Während des Tages = dienas laikā."
+        "example": "Während ich arbeite = Zatímco pracuji. Während des Tages = Během dne."
       },
       "sectionAccents": {
         "examples": [
@@ -59670,12 +59317,9 @@ const A2_WORDS = [
                 "blue": [
                   "während"
                 ],
-                "orange": [
-                  "laikā"
-                ],
+                "orange": [],
                 "yellow": [
-                  "während",
-                  "laikā"
+                  "während"
                 ]
               }
             },
@@ -59684,12 +59328,9 @@ const A2_WORDS = [
                 "blue": [
                   "während"
                 ],
-                "green": [
-                  "kamēr"
-                ],
+                "green": [],
                 "yellow": [
-                  "während",
-                  "kamēr"
+                  "während"
                 ]
               }
             }
@@ -59711,18 +59352,12 @@ const A2_WORDS = [
               "blue": [
                 "während"
               ],
-              "green": [
-                "kamēr"
-              ],
-              "orange": [
-                "laikā"
-              ],
+              "green": [],
+              "orange": [],
               "red": [
-                "strādāju",
                 "arbeite",
                 "Während",
                 "dienas",
-                "kamēr",
                 "Tages"
               ]
             }
@@ -59733,21 +59368,16 @@ const A2_WORDS = [
         "blue": [
           "StandardStudy",
           "Während",
-          "Kamēr",
-          "Laikā",
           "Tages"
         ],
         "green": [
-          "Kamēr",
           "Bei",
           "Ja"
         ],
         "yellow": [
           "Wenn"
         ],
-        "orange": [
-          "Laikā"
-        ],
+        "orange": [],
         "purple": [],
         "red": [
           "Solange"
@@ -59836,7 +59466,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Wahrscheinlich není jen „možná“.",
-        "example": "Wahrscheinlich = droši vien / visticamāk. vielleicht = varbūt. sicher vai bestimmt = noteikti."
+        "example": "Wahrscheinlich = pravděpodobně. vielleicht = možná. sicher nebo bestimmt = jistě."
       },
       "sectionAccents": {
         "examples": [
@@ -60057,9 +59687,7 @@ const A2_WORDS = [
                 "red": [
                   "vielleicht"
                 ],
-                "purple": [
-                  "varbūt"
-                ]
+                "purple": []
               }
             }
           ]
@@ -60070,9 +59698,7 @@ const A2_WORDS = [
               "blue": [
                 "wahrscheinlich"
               ],
-              "red": [
-                "varbūt"
-              ]
+              "red": []
             },
             "example": {
               "blue": [
@@ -60085,8 +59711,6 @@ const A2_WORDS = [
               ],
               "purple": [
                 "droši vien",
-                "visticamāk",
-                "varbūt",
                 "noteikti"
               ]
             }
@@ -60100,8 +59724,7 @@ const A2_WORDS = [
         ],
         "purple": [
           "Droši vien",
-          "Droši vien",
-          "Visticamāk"
+          "Droši vien"
         ],
         "green": [
           "Möglich"
@@ -60241,7 +59864,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Wechseln není jediné slovo pro „změnu“.",
-        "example": "Geld wechseln = samainīt naudu. die Jacke umtauschen = apmainīt jaku. im Zug umsteigen = pārsēsties vilcienā."
+        "example": "Geld wechseln = vyměnit peníze. die Jacke umtauschen = vyměnit bundu. im Zug umsteigen = přestoupit ve vlaku."
       },
       "sectionAccents": {
         "examples": [
@@ -60467,9 +60090,7 @@ const A2_WORDS = [
                 "red": [
                   "umtauschen"
                 ],
-                "purple": [
-                  "apmainīt"
-                ],
+                "purple": [],
                 "yellow": []
               }
             }
@@ -60481,9 +60102,7 @@ const A2_WORDS = [
               "blue": [
                 "wechseln"
               ],
-              "red": [
-                "mainīt"
-              ]
+              "red": []
             },
             "example": {
               "blue": [
@@ -60493,11 +60112,7 @@ const A2_WORDS = [
                 "umtauschen",
                 "umsteigen"
               ],
-              "purple": [
-                "samainīt",
-                "apmainīt",
-                "pārsēsties"
-              ],
+              "purple": [],
               "yellow": [
                 "Geld",
                 "Jacke",
@@ -60513,13 +60128,7 @@ const A2_WORDS = [
           "Wechselt",
           "Wechsle"
         ],
-        "purple": [
-          "Mainīt",
-          "Samainīt",
-          "Mainīt",
-          "Samainīt",
-          "Apmainīt"
-        ],
+        "purple": [],
         "green": [
           "Umsteigen"
         ],
@@ -60813,7 +60422,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das ist viel Geld wert.",
-          "lv": "Má to hodnotu hodně peněz."
+          "lv": "Stojí to hodně peněz."
         },
         {
           "de": "Ist das den Preis wert?",
@@ -60875,7 +60484,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Wert není totéž co teuer.",
-        "example": "Das ist viel wert = tas ir daudz vērts. Das ist teuer = tas ir dārgs."
+        "example": "Das ist viel wert = Má to velkou hodnotu. Das ist teuer = Je to drahé."
       },
       "sectionAccents": {
         "examples": [
@@ -61088,9 +60697,7 @@ const A2_WORDS = [
                 "blue": [
                   "wert"
                 ],
-                "purple": [
-                  "vērts"
-                ]
+                "purple": []
               }
             },
             {
@@ -61098,9 +60705,7 @@ const A2_WORDS = [
                 "red": [
                   "teuer"
                 ],
-                "purple": [
-                  "dārgs"
-                ]
+                "purple": []
               }
             }
           ]
@@ -61122,10 +60727,7 @@ const A2_WORDS = [
               "red": [
                 "teuer"
               ],
-              "purple": [
-                "vērts",
-                "dārgs"
-              ]
+              "purple": []
             }
           }
         ]
@@ -61134,10 +60736,7 @@ const A2_WORDS = [
         "blue": [
           "Wert"
         ],
-        "purple": [
-          "Vērts",
-          "Vērts"
-        ],
+        "purple": [],
         "green": [
           "Wert",
           "Sehenswert"
@@ -61258,7 +60857,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Wiegen a die Waage jsou příbuzné, ale ne totéž.",
-        "example": "Das Paket wiegt zwei Kilo = paka sver divus kilogramus. die Waage = svari."
+        "example": "Das Paket wiegt zwei Kilo = Balení váží dva kilogramy. die Waage = Váhy."
       },
       "sectionAccents": {
         "examples": [
@@ -61454,8 +61053,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Auto",
-                "vagón"
+                "Auto"
               ]
             },
             "example": {
@@ -62852,7 +62450,7 @@ const A2_WORDS = [
     "de": "Zwilling",
     "de_article": "der",
     "de_plural": "die Zwillinge",
-    "lv": "Dvojčata",
+    "lv": "Dvojče",
     "level": "A2",
     "study": {
       "id": "a2-zwilling",
@@ -62953,7 +62551,7 @@ const A2_WORDS = [
   },
   {
     "de": "schauen",
-    "lv": "Hodinky",
+    "lv": "Dívat se",
     "level": "A2",
     "study": {
       "id": "a2-schauen",
@@ -63076,7 +62674,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Schau dir das an!",
-          "lv": "Podívejte se na to!"
+          "lv": "Podívej se na to!"
         }
       ],
       "tip": [
@@ -63150,7 +62748,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Kinder hören eine Geschichte.",
-          "lv": "Děti poslouchají pohádku."
+          "lv": "Děti poslouchají příběh."
         },
         {
           "de": "Ich höre dich.",
@@ -63829,7 +63427,7 @@ const A2_WORDS = [
   },
   {
     "de": "leise",
-    "lv": "Klid",
+    "lv": "Tichý",
     "level": "A2",
     "study": {
       "id": "a2-leise",
@@ -63844,7 +63442,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Bitte sei leise.",
-          "lv": "Prosím, buďte zticha."
+          "lv": "Prosím, buď zticha."
         },
         {
           "de": "Bitte sei leise.",
@@ -63856,7 +63454,7 @@ const A2_WORDS = [
         },
         {
           "de": "Sprich bitte leise.",
-          "lv": "Prosím mluv potichu."
+          "lv": "Prosím, mluv potichu."
         }
       ],
       "tip": [
@@ -64126,7 +63724,7 @@ const A2_WORDS = [
   },
   {
     "de": "erst",
-    "lv": "Až • Ne dříve než",
+    "lv": "Teprve",
     "level": "A2",
     "study": {
       "id": "a2-erst",
@@ -64241,7 +63839,7 @@ const A2_WORDS = [
   },
   {
     "de": "nur",
-    "lv": "Pouze • Pouze",
+    "lv": "Pouze",
     "level": "A2",
     "study": {
       "id": "a2-nur",
@@ -64400,7 +63998,7 @@ const A2_WORDS = [
   },
   {
     "de": "über",
-    "lv": "Přes • Přes • Pro",
+    "lv": "Přes",
     "level": "A2",
     "study": {
       "id": "a2-ueber",
@@ -64443,7 +64041,7 @@ const A2_WORDS = [
         "Použijte über, pokud kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Ich gehe über den Park není správná, když je myšlenka „přes park“.",
+        "Pro význam „jdu parkem“ se obvykle používá Ich gehe durch den Park, ne Ich gehe über den Park.",
         "Über může znamenat nad, přes a o.",
         "Über = nad / přes / o."
       ],
@@ -64612,7 +64210,7 @@ const A2_WORDS = [
   },
   {
     "de": "gleich",
-    "lv": "Rovný • Ihned",
+    "lv": "Stejný",
     "level": "A2",
     "study": {
       "id": "a2-gleich",
@@ -64658,7 +64256,7 @@ const A2_WORDS = [
         "Použijte gleich, pokud kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Das ist mir gleich není správné, když je myšlenka „je mi to jedno“.",
+        "Das ist mir gleich může znamenat „je mi to jedno“; běžněji se říká Das ist mir egal.",
         "Gleich má dva časté významy: stejný a hned.",
         "Gleich = stejný / okamžitě."
       ],
@@ -64834,11 +64432,7 @@ const A2_WORDS = [
                 "auch"
               ]
             },
-            "lv": {
-              "purple": [
-                "přijdu"
-              ]
-            }
+            "lv": "taky"
           },
           {
             "de": {
@@ -64847,11 +64441,7 @@ const A2_WORDS = [
                 "auch"
               ]
             },
-            "lv": {
-              "purple": [
-                "přijdu"
-              ]
-            }
+            "lv": "taky"
           },
           {
             "de": {
@@ -64860,11 +64450,7 @@ const A2_WORDS = [
                 "auch"
               ]
             },
-            "lv": {
-              "purple": [
-                "Ona"
-              ]
-            }
+            "lv": "také"
           }
         ],
         "tip": [

@@ -1,0 +1,880 @@
+{
+  "metadata": {
+    "languagePair": "CS-DE",
+    "dataset": "A2",
+    "operation": "FINAL_CLOSURE_REPAIR",
+    "group": "05",
+    "worklistRange": "201-205",
+    "source": "reports/temp/cs-a2-final-closure-findings-by-card.json",
+    "sourceAuditModel": "GPT-5.6 Luna",
+    "productionFile": "data/cs/a2.js",
+    "composerMode": "COPY-ONLY",
+    "deMode": "STRICT_READ_ONLY"
+  },
+  "summary": {
+    "cardsReviewed": 5,
+    "findingsReviewed": 9,
+    "cardsChanged": 5,
+    "leafValueChanges": 9,
+    "LABOT": 9,
+    "NELABOT": 0,
+    "FALSE_POSITIVE": 0,
+    "unresolvedOwnerDecisions": 0,
+    "deChanges": 0,
+    "firstCardId": "a2-erst",
+    "lastCardId": "a2-auch"
+  },
+  "applyInstructions": [
+    "Composer must not translate, rewrite, optimize, infer, or add content.",
+    "For each card, copy targetObject exactly to the matching production object.",
+    "Preserve production card order and IDs.",
+    "Preserve all NELABOT and FALSE_POSITIVE decisions.",
+    "German-side data is STRICT READ-ONLY.",
+    "Do not make any out-of-scope production changes."
+  ],
+  "decisions": [
+    {
+      "worklistIndex": 201,
+      "cardId": "a2-erst",
+      "findingIndex": 1,
+      "field": "csMain",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "decision": "LABOT",
+      "currentCs": "Až • Ne dříve než",
+      "auditRecommendedCs": "Teprve • Až",
+      "appliedValue": "Teprve",
+      "note": "Frontē atstāta viena galvenā/biežāk lietotā čehu nozīme."
+    },
+    {
+      "worklistIndex": 202,
+      "cardId": "a2-nur",
+      "findingIndex": 1,
+      "field": "csMain",
+      "severity": "LOW",
+      "category": "TITLE_FORMAT",
+      "decision": "LABOT",
+      "currentCs": "Pouze • Pouze",
+      "auditRecommendedCs": "Pouze • Jen",
+      "appliedValue": "Pouze",
+      "note": "Frontē atstāta viena galvenā/biežāk lietotā čehu nozīme."
+    },
+    {
+      "worklistIndex": 203,
+      "cardId": "a2-ueber",
+      "findingIndex": 1,
+      "field": "csMain",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "decision": "LABOT",
+      "currentCs": "Přes • Přes • Pro",
+      "auditRecommendedCs": "Nad • Přes • O",
+      "appliedValue": "Přes",
+      "note": "Frontē atstāta viena galvenā/biežāk lietotā čehu nozīme."
+    },
+    {
+      "worklistIndex": 203,
+      "cardId": "a2-ueber",
+      "findingIndex": 2,
+      "field": "study.important[0]",
+      "severity": "MEDIUM",
+      "category": "STUDY",
+      "decision": "LABOT",
+      "currentCs": "Ich gehe über den Park není správná, když je myšlenka „přes park“.",
+      "auditRecommendedCs": "Pro význam „jdu parkem“ se obvykle používá Ich gehe durch den Park, ne Ich gehe über den Park.",
+      "appliedValue": "Pro význam „jdu parkem“ se obvykle používá Ich gehe durch den Park, ne Ich gehe über den Park.",
+      "note": "LABOT pēc individuālas finding izvērtēšanas."
+    },
+    {
+      "worklistIndex": 204,
+      "cardId": "a2-gleich",
+      "findingIndex": 1,
+      "field": "csMain",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "decision": "LABOT",
+      "currentCs": "Rovný • Ihned",
+      "auditRecommendedCs": "Stejný • Hned",
+      "appliedValue": "Stejný",
+      "note": "Frontē atstāta viena galvenā/biežāk lietotā čehu nozīme."
+    },
+    {
+      "worklistIndex": 204,
+      "cardId": "a2-gleich",
+      "findingIndex": 2,
+      "field": "study.important[0]",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "decision": "LABOT",
+      "currentCs": "Das ist mir gleich není správné, když je myšlenka „je mi to jedno“.",
+      "auditRecommendedCs": "Das ist mir gleich může znamenat „je mi to jedno“; běžněji se říká Das ist mir egal.",
+      "appliedValue": "Das ist mir gleich může znamenat „je mi to jedno“; běžněji se říká Das ist mir egal.",
+      "note": "LABOT pēc individuālas finding izvērtēšanas."
+    },
+    {
+      "worklistIndex": 205,
+      "cardId": "a2-auch",
+      "findingIndex": 1,
+      "field": "study.sectionAccents.examples[0].lv",
+      "severity": "LOW",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "decision": "LABOT",
+      "currentCs": "přijdu",
+      "auditRecommendedCs": "taky",
+      "appliedValue": "taky",
+      "note": "LABOT pēc individuālas finding izvērtēšanas."
+    },
+    {
+      "worklistIndex": 205,
+      "cardId": "a2-auch",
+      "findingIndex": 2,
+      "field": "study.sectionAccents.examples[1].lv",
+      "severity": "LOW",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "decision": "LABOT",
+      "currentCs": "přijdu",
+      "auditRecommendedCs": "taky",
+      "appliedValue": "taky",
+      "note": "LABOT pēc individuālas finding izvērtēšanas."
+    },
+    {
+      "worklistIndex": 205,
+      "cardId": "a2-auch",
+      "findingIndex": 3,
+      "field": "study.sectionAccents.examples[2].lv",
+      "severity": "LOW",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "decision": "LABOT",
+      "currentCs": "Ona",
+      "auditRecommendedCs": "také",
+      "appliedValue": "také",
+      "note": "LABOT pēc individuālas finding izvērtēšanas."
+    }
+  ],
+  "cards": [
+    {
+      "worklistIndex": 201,
+      "productionIndex": 1634,
+      "cardId": "a2-erst",
+      "de": "erst",
+      "targetObject": {
+        "de": "erst",
+        "lv": "Teprve",
+        "level": "A2",
+        "study": {
+          "id": "a2-erst",
+          "layout": "standardStudy",
+          "translation": "Teprve • Až",
+          "explanation": [
+            "Hlavní myšlenka: Označuje čas, sekvenci, ranou fázi nebo něco později, než se očekávalo.",
+            "Erst primárně znamená: čas, posloupnost nebo raná fáze.",
+            "Často popisuje: kdy se něco stane nebo jak je to daleko.",
+            "Erst znamená teprve, jen dosud nebo až: označuje čas, posloupnost či ranou fázi."
+          ],
+          "examples": [
+            {
+              "de": "Es ist erst acht Uhr.",
+              "lv": "Je teprve osm hodin."
+            },
+            {
+              "de": "Ich bin erst seit einer Stunde hier.",
+              "lv": "Jsem tu teprve hodinu."
+            },
+            {
+              "de": "Es ist erst acht Uhr.",
+              "lv": "Je teprve osm hodin."
+            },
+            {
+              "de": "Er kommt erst morgen.",
+              "lv": "Dorazí až zítra."
+            }
+          ],
+          "tip": [
+            "Označuje čas, sekvenci, ranou fázi nebo něco později, než se očekávalo.",
+            "Použijte erst, pokud kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Velmi často bude správné slovo erst, pokud jde o čas nebo sekvenci.",
+            "Erst = teprve / až."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "yellow": [
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "red": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "yellow": [
+                    "erst",
+                    "erst"
+                  ]
+                },
+                "lv": {
+                  "purple": []
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "erst",
+                    "erst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jsem"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "erst",
+                    "erst"
+                  ]
+                },
+                "lv": {
+                  "purple": []
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "erst",
+                    "erst"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {
+                "yellow": [
+                  "erst"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "worklistIndex": 202,
+      "productionIndex": 1635,
+      "cardId": "a2-nur",
+      "de": "nur",
+      "targetObject": {
+        "de": "nur",
+        "lv": "Pouze",
+        "level": "A2",
+        "study": {
+          "id": "a2-nur",
+          "layout": "standardStudy",
+          "translation": "Pouze • Jen",
+          "explanation": [
+            "Hlavní myšlenka: Omezuje množství, počet lidí, výběr nebo možnosti.",
+            "Nur primárně znamená: omezené množství nebo výběr.",
+            "Často popisuje: kolik, přesně nebo kdo jediný.",
+            "Nur znamená pouze, pouze, nic víc: omezuje množství nebo výběr."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe nur zehn Euro.",
+              "lv": "Mám jen deset eur."
+            },
+            {
+              "de": "Ich habe nur zehn Euro.",
+              "lv": "Mám jen deset eur."
+            },
+            {
+              "de": "Nur du kannst mir helfen.",
+              "lv": "Jen ty mi můžeš pomoci."
+            },
+            {
+              "de": "Ich möchte nur Kaffee.",
+              "lv": "Chci jen kafe."
+            },
+            {
+              "de": "Ich habe nur acht Euro.",
+              "lv": "Mám jen osm eur."
+            },
+            {
+              "de": "Ich habe nur acht Euro.",
+              "lv": "Mám jen osm eur."
+            }
+          ],
+          "tip": [
+            "Omezuje množství, počet lidí, výběr nebo možnosti.",
+            "Používá se pouze tehdy, když kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "čeština „jen“ v němčině není vždy nur.",
+            "Nur = pouze / výhradně."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "orange": [
+                "nur",
+                "nur"
+              ],
+              "green": [
+                "Hlavní"
+              ],
+              "red": [
+                "Hlavní"
+              ],
+              "yellow": [
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "orange": [
+                    "nur",
+                    "nur"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "orange": [
+                    "nur",
+                    "nur"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "orange": [
+                    "nur",
+                    "nur"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "orange": [
+                    "nur",
+                    "nur"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Chci"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "orange": [
+                    "nur",
+                    "nur"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "orange": [
+                    "nur",
+                    "nur"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mám"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {
+                "orange": [
+                  "nur"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "worklistIndex": 203,
+      "productionIndex": 1636,
+      "cardId": "a2-ueber",
+      "de": "über",
+      "targetObject": {
+        "de": "über",
+        "lv": "Přes",
+        "level": "A2",
+        "study": {
+          "id": "a2-ueber",
+          "layout": "standardStudy",
+          "translation": "Nad • Přes • O",
+          "explanation": [
+            "Hlavní myšlenka: Může být nad něčím, přes něco nebo o tématu.",
+            "Über znamená především: nad něčím.",
+            "Často charakterizováno: umístěním.",
+            "Über v podstatě znamená: překročit něco.",
+            "Často charakterizováno: dvojicemi pohybů.",
+            "Über znamená především: téma.",
+            "Často popisuje: o čem se mluví.",
+            "Über může znamenat nad, přes nebo o, v závislosti na kontextu."
+          ],
+          "examples": [
+            {
+              "de": "Wir gehen über die Straße.",
+              "lv": "Jdeme přes ulici."
+            },
+            {
+              "de": "Die Lampe hängt über dem Tisch.",
+              "lv": "Nad stolem visí lampa."
+            },
+            {
+              "de": "Wir gehen über die Straße.",
+              "lv": "Jdeme přes ulici."
+            },
+            {
+              "de": "Er spricht über seine Arbeit.",
+              "lv": "Mluví o své práci."
+            },
+            {
+              "de": "Wir sprechen über das Problem.",
+              "lv": "Mluvíme o problému."
+            }
+          ],
+          "tip": [
+            "Může znamenat nad něčím, přes něco nebo o tématu.",
+            "Použijte über, pokud kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Pro význam „jdu parkem“ se obvykle používá Ich gehe durch den Park, ne Ich gehe über den Park.",
+            "Über může znamenat nad, přes a o.",
+            "Über = nad / přes / o."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "Hlavní"
+              ],
+              "yellow": [
+                "Hlavní"
+              ],
+              "orange": [
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "über",
+                    "über"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jdeme",
+                    "Jdeme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "über",
+                    "über"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nad"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "über",
+                    "über"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jdeme",
+                    "Jdeme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "über",
+                    "über"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mluví"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "über",
+                    "über"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mluvíme"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Může"
+                ]
+              },
+              {
+                "purple": [
+                  "Může"
+                ]
+              },
+              {
+                "purple": [
+                  "Může"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "über"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "worklistIndex": 204,
+      "productionIndex": 1638,
+      "cardId": "a2-gleich",
+      "de": "gleich",
+      "targetObject": {
+        "de": "gleich",
+        "lv": "Stejný",
+        "level": "A2",
+        "study": {
+          "id": "a2-gleich",
+          "layout": "standardStudy",
+          "translation": "Stejný • Hned",
+          "explanation": [
+            "Hlavní myšlenka: Může znamenat stejný nebo hned.",
+            "Gleich znamená hlavně: totéž.",
+            "Často charakterizováno: srovnáním.",
+            "Gleich znamená hlavně: brzy / ihned.",
+            "Často charakterizováno: čas.",
+            "Gleich znamená totéž při srovnávání věcí.",
+            "Gleich může také znamenat ihned nebo brzy, zvláště hovorově."
+          ],
+          "examples": [
+            {
+              "de": "Die Farben sind gleich.",
+              "lv": "Barvy jsou stejné."
+            },
+            {
+              "de": "Die beiden Farben sind gleich.",
+              "lv": "Obě barvy jsou stejné."
+            },
+            {
+              "de": "Ich komme gleich.",
+              "lv": "Hned přijdu."
+            },
+            {
+              "de": "Wir haben die gleiche Tasche.",
+              "lv": "Máme stejnou tašku."
+            },
+            {
+              "de": "Gleich beginnt der Film.",
+              "lv": "Film začne za chvíli."
+            },
+            {
+              "de": "Die Farben sind gleich.",
+              "lv": "Barvy jsou stejné."
+            }
+          ],
+          "tip": [
+            "Gleich = stejný / okamžitě",
+            "Použijte gleich, pokud kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Das ist mir gleich může znamenat „je mi to jedno“; běžněji se říká Das ist mir egal.",
+            "Gleich má dva časté významy: stejný a hned.",
+            "Gleich = stejný / okamžitě."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "gleich"
+              ],
+              "red": [
+                "Hlavní"
+              ],
+              "orange": [
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "gleich",
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Barvy"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "gleich",
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Obě"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "gleich",
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hned"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "gleich",
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Máme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "gleich",
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Film"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "gleich",
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Barvy"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Gleich"
+                ]
+              },
+              {
+                "purple": [
+                  "Gleich"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "gleich"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "worklistIndex": 205,
+      "productionIndex": 1639,
+      "cardId": "a2-auch",
+      "de": "auch",
+      "targetObject": {
+        "de": "auch",
+        "lv": "Také",
+        "level": "A2",
+        "study": {
+          "id": "a2-auch",
+          "layout": "standardStudy",
+          "translation": "Také",
+          "explanation": [
+            "Hlavní myšlenka: Nejběžnější a neutrální „také“.",
+            "Auch v podstatě znamená jednoduše „také“.",
+            "Často vyjadřuje přidání.",
+            "Auch je nejběžnější slovo pro „také“."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme auch.",
+              "lv": "Já taky přijdu."
+            },
+            {
+              "de": "Ich komme auch.",
+              "lv": "Já taky přijdu."
+            },
+            {
+              "de": "Sie arbeitet auch hier.",
+              "lv": "Ona zde také pracuje."
+            }
+          ],
+          "tip": [
+            "Auch = také",
+            "Použijte „auch“, když se tento význam hodí do kontextu."
+          ],
+          "important": [
+            "Ich auch wünsche Ihnen není správný slovosled.",
+            "Auch = také."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "auch",
+                "auch"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "auch",
+                    "auch"
+                  ]
+                },
+                "lv": "taky"
+              },
+              {
+                "de": {
+                  "blue": [
+                    "auch",
+                    "auch"
+                  ]
+                },
+                "lv": "taky"
+              },
+              {
+                "de": {
+                  "blue": [
+                    "auch",
+                    "auch"
+                  ]
+                },
+                "lv": "také"
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Auch"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "auch"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
