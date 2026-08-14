@@ -1,0 +1,87 @@
+{
+  "dataset": "a2",
+  "batch": "study-171-180",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-schuld",
+    "a2-schwer",
+    "a2-sich-befinden",
+    "a2-sich-unterhalten",
+    "a2-sitzen",
+    "a2-setzen",
+    "a2-sobald",
+    "a2-sonst",
+    "a2-stehen",
+    "a2-stellen"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-sitzen",
+      "field": "study.comparison[4].meaning",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "stehen",
+      "lvSource": "atrasties stāvus (stāvoklis)",
+      "currentCs": "Stát (stát)",
+      "proposedCs": "Stát (poloha)",
+      "reason": "„Stát (stát)“ je redundantní a nepřirozené; kontrast má označovat polohu.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-sobald",
+      "field": "csMain",
+      "severity": "LOW",
+      "category": "TITLE_FORMAT",
+      "de": "sobald",
+      "lvSource": "",
+      "currentCs": "Jakmile • Jakmile",
+      "proposedCs": "Jakmile",
+      "reason": "Hlavní překlad opakuje stejný význam; duplicitní položka porušuje formát krátkého titulu.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-sonst",
+      "field": "study.comparison[0].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "sonst",
+      "lvSource": "citādi / pretējā gadījumā / parasti",
+      "currentCs": "Jinak / jinak / obvykle",
+      "proposedCs": "Jinak / v opačném případě / obvykle",
+      "reason": "Dvě různé německé funkce jsou v češtině uvedeny duplicitně, takže se významy nerozlišují.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-stellen",
+      "field": "study.comparison[1].meaning",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "stehen",
+      "lvSource": "atrasties stāvus (stāvoklis)",
+      "currentCs": "Stát (stát)",
+      "proposedCs": "Stát (poloha)",
+      "reason": "„Stát (stát)“ je redundantní a nepřirozené; kontrast má označovat polohu.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-stellen",
+      "field": "study.comparison[3].example",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Das Buch liegt hier.",
+      "lvSource": "atrasties guļus (stāvoklis)",
+      "currentCs": "Ich lege das Buch hin. – Položím knihu.",
+      "proposedCs": "Das Buch liegt hier. – Kniha tady leží.",
+      "reason": "Příklad patří ke slovu liegen, ale současný německý i český text popisuje legen.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 6,
+  "completedAt": "2026-08-14T16:54:51.191Z"
+}

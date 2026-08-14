@@ -1,0 +1,74 @@
+{
+  "dataset": "a2",
+  "batch": "study-081-090",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-einsteigen",
+    "a2-eintritt",
+    "a2-eng",
+    "a2-erfahren",
+    "a2-erinnern",
+    "a2-etwa",
+    "a2-fach",
+    "a2-fall",
+    "a2-fehlen",
+    "a2-fest"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-einsteigen",
+      "field": "study.comparison[0].meaning",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "einsteigen",
+      "lvSource": "iekāpt / iesaistīties",
+      "currentCs": "Vstoupit / zapojit se",
+      "proposedCs": "Nastoupit / zapojit se",
+      "reason": "V dopravním významu einsteigen se česky překládá jako „nastoupit“, ne „vstoupit“.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-fach",
+      "field": "study.comparison[3].example",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Das ist mein Fachgebiet.",
+      "lvSource": "Tā ir mana specialitāte.",
+      "currentCs": "To je moje specialita.",
+      "proposedCs": "To je můj obor.",
+      "reason": "„Specialita“ v češtině znamená spíše zvláštnost nebo specialitu; Fachgebiet je obor či oblast odbornosti.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-fest",
+      "field": "study.explanation",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "fest",
+      "lvSource": "fest var nozīmēt ciets, ja runa ir par materiālu vai virsmu. Tas var nozīmēt stingrs vai cieši pievilkts, piemēram skrūve vai mezgls. fest bieži nozīmē arī fiksēts vai noteikts, piemēram termiņš. Par darbu vai attiecībām tas var nozīmēt pastāvīgs. Tāpēc fest nav tikai “ciets”; bieži tas nozīmē stabils vai nemainīgs.",
+      "currentCs": "Fest může znamenat pevný, když se odkazuje na materiál nebo povrch. Může znamenat pevně utažený nebo pevně uvázaný, například u šroubu nebo uzlu. fest také často znamená pevný nebo stanovený, jako je například termín. Pro práci nebo vztah to může znamenat trvalé. Fest tedy neznamená jen „tvrdý“. Často znamená pevný, stabilní nebo stálý.",
+      "proposedCs": "Fest může znamenat pevný, když se odkazuje na materiál nebo povrch. Může znamenat pevně utažený nebo pevně uvázaný, například u šroubu nebo uzlu. Fest také často znamená pevný nebo stanovený, například u termínu. U práce nebo vztahu může znamenat stálý či trvalý. Fest tedy neznamená jen „tvrdý“. Často znamená pevný, stabilní nebo stálý.",
+      "reason": "„Pro práci nebo vztah to může znamenat trvalé“ má chybnou shodu a nepřirozenou formulaci.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-fest",
+      "field": "study.tip.leftBlocks[0].text",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "fest",
+      "lvSource": "Ja runa ir par skrūvi, vāku vai mezglu, fest bieži nozīmē cieši vai stingri.",
+      "currentCs": "Když se odkazuje na šroub, kryt nebo uzel, fest často znamená pevně nebo utaženě.",
+      "proposedCs": "Když jde o šroub, víko nebo uzel, fest často znamená pevně či těsně.",
+      "reason": "„Odkazuje se na“ je v tomto kontextu nepřirozený kalk a „utaženě“ není běžné vyjádření.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 7,
+  "completedAt": "2026-08-14T16:50:16.621Z"
+}

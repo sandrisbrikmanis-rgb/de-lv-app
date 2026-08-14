@@ -1,0 +1,113 @@
+{
+  "dataset": "a2",
+  "batch": "study-011-020",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-angreifen",
+    "a2-anhänger",
+    "a2-anheizen",
+    "a2-anlegen",
+    "a2-anmelden",
+    "a2-anstecken",
+    "a2-anstellen",
+    "a2-anstrengend",
+    "a2-art",
+    "a2-artikel"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-anheizen",
+      "field": "study.tip.leftBlocks[0].text",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "anheizen",
+      "lvSource": "Ar Ofen, Feuer vai Grill anheizen nozīmē iekurt vai uzkurināt.",
+      "currentCs": "U slov Ofen, Feuer nebo Grill znamená anheizen „zatopit“, „rozdělat“ nebo „rozpálit“.",
+      "proposedCs": "U výrazů Ofen, Feuer nebo Grill znamená anheizen „zatopit“, „rozdělat“ nebo „rozpálit“.",
+      "reason": "„U slov“ je zde nepřirozené; jde o kontexty nebo výrazy, ne o jednotlivá slova.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-anlegen",
+      "field": "study.explanation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "anlegen",
+      "lvSource": "Galvenā doma: anlegen nozīmē uzlikt, pielikt, ieguldīt vai izveidot atkarībā no objekta. anlegen ir daudznozīmīgs darbības vārds. Apģērbam vai drošības jostai tas var nozīmēt “uzlikt”. Naudai tas nozīmē “ieguldīt”. Failiem, mapēm vai profilam tas var nozīmēt “izveidot”. Ar rokām vai instrumentu tas var nozīmēt “pielikt pie kaut kā”.",
+      "currentCs": "Hlavní myšlenka: anlegen znamená nasadit, přiložit, investovat nebo vytvořit v závislosti na kontextu. anlegen je mnohoznačné sloveso. U oblečení nebo bezpečnostního pásu může znamenat „nasadit“. U peněz znamená „investovat“. U souborů, složek nebo profilu může znamenat „vytvořit“. S rukama nebo nástrojem může znamenat „přiložit něco k něčemu“.",
+      "proposedCs": "Hlavní myšlenka: anlegen znamená nasadit, přiložit, investovat nebo vytvořit v závislosti na kontextu. anlegen je mnohoznačné sloveso. U oblečení může znamenat „obléct si“, u bezpečnostního pásu „zapnout“. U peněz znamená „investovat“. U souborů, složek nebo profilu může znamenat „vytvořit“. S rukama nebo nástrojem může znamenat „přiložit něco k něčemu“.",
+      "reason": "„Nasadit“ se běžně nepoužívá pro oblečení; německé anlegen zde znamená obléct si, zatímco u pásu zapnout.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-anmelden",
+      "field": "study.explanation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "anmelden",
+      "lvSource": "Galvenā doma: anmelden nozīmē pieteikt, reģistrēt, pierakstīt vai paziņot oficiālā vai praktiskā situācijā. anmelden nozīmē pieteikt vai reģistrēt cilvēku, lietu vai dalību. To lieto kursiem, skolai, pasākumiem un sistēmām. Pie ārsta anmelden var nozīmēt pierakstīt vai pieteikt vizīti. Datorā vai lietotnē sich anmelden nozīmē pieslēgties vai reģistrēties. Dažos kontekstos anmelden nozīmē paziņot, ka kāds ierodas vai ka kaut kas tiek reģistrēts.",
+      "currentCs": "Anmelden u lékaře může znamenat objednat se nebo zaregistrovat se.",
+      "proposedCs": "Anmelden může znamenat přihlásit se, zaregistrovat někoho nebo něco či předem ohlásit návštěvu; u lékaře také objednat se.",
+      "reason": "Vysvětlení pokrývá pouze význam u lékaře a opomíjí běžné významy přihlásit se, registrovat a ohlásit.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-anmelden",
+      "field": "study.important.example",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "anmelden",
+      "lvSource": "Ich melde das Problem an = es paziņoju par problēmu.",
+      "currentCs": "Ich melde das Problem an = oznamuji problém.",
+      "proposedCs": "Ich melde den Besuch an = ohlašuji návštěvu.",
+      "reason": "„Ich melde das Problem an“ není běžný příklad pro anmelden; zde jde o sloveso melden, nikoli anmelden.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-anstellen",
+      "field": "study.tip.leftBlocks[1].text",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "anstellen",
+      "lvSource": "sich anstellen ir ļoti ikdienišķs izteiciens rindā stāvēšanai.",
+      "currentCs": "Sich anstellen je velmi hovorový výraz pro frontu.",
+      "proposedCs": "Sich anstellen je velmi hovorový výraz pro stání ve frontě.",
+      "reason": "„Výraz pro frontu“ nevyjadřuje přesně význam stání nebo řazení ve frontě.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-art",
+      "field": "study.tip.leftBlocks[1].text",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Art",
+      "lvSource": "Frāzēs auf diese Art, auf welche Art un eine andere Art gandrīz vienmēr runa ir par veidu.",
+      "currentCs": "Fráze auf diese Art, auf welche Art a eine andere Art jsou téměř vždy o typu.",
+      "proposedCs": "Fráze auf diese Art, auf welche Art a eine andere Art se téměř vždy týkají způsobu nebo druhu.",
+      "reason": "U auf diese Art a auf welche Art jde především o způsob, ne pouze o typ.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-artikel",
+      "field": "study.comparison[2].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Artikel",
+      "lvSource": "prece",
+      "currentCs": "Položka",
+      "proposedCs": "Zboží",
+      "reason": "Německé Ware znamená obecně zboží; „položka“ je užší a může označovat jen jednotlivou položku.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 4,
+  "completedAt": "2026-08-14T16:45:54.598Z"
+}

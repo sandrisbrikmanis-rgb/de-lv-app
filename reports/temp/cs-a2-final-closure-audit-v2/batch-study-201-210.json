@@ -1,0 +1,21 @@
+{
+  "dataset": "a2",
+  "batch": "study-201-210",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-vorstellen",
+    "a2-wagen",
+    "a2-wählen",
+    "a2-während",
+    "a2-wahrscheinlich",
+    "a2-wechseln",
+    "a2-weit",
+    "a2-wert",
+    "a2-wiegen",
+    "a2-ziehen"
+  ],
+  "findings": [],
+  "passCount": 10,
+  "completedAt": "2026-08-14T16:56:06.461Z"
+}

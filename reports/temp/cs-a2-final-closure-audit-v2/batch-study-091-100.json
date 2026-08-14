@@ -1,0 +1,74 @@
+{
+  "dataset": "a2",
+  "batch": "study-091-100",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-feuer",
+    "a2-folgen",
+    "a2-führen",
+    "a2-gang",
+    "a2-gar",
+    "a2-gegenüber",
+    "a2-gehören",
+    "a2-genau",
+    "a2-gerade",
+    "a2-geschäft"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-feuer",
+      "field": "study.comparison[1].example",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Der Brand ist groß.",
+      "lvSource": "Ugunsgrēks ir liels.",
+      "currentCs": "Der Brand ist groß. = Oheň je velký.",
+      "proposedCs": "Der Brand ist groß. = Požár je velký.",
+      "reason": "Brand znamená požár, nikoli obecně oheň.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-folgen",
+      "field": "study.examples[3].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Bitte folgen Sie den Anweisungen.",
+      "lvSource": "lūdzu, sekojiet norādījumiem.",
+      "currentCs": "Prosím postupujte podle pokynů.",
+      "proposedCs": "Prosím, postupujte podle pokynů.",
+      "reason": "Česká částice „prosím“ oddělená na začátku věty vyžaduje čárku.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-folgen",
+      "field": "study.important[2]",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "gehorchen",
+      "lvSource": "gehorchen = klausīt / paklausīt.",
+      "currentCs": "Gehorchen = poslouchat / poslouchat.",
+      "proposedCs": "Gehorchen = poslouchat / být poslušný.",
+      "reason": "Význam je v češtině omylem zopakován místo druhého významu „být poslušný“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-gehören",
+      "field": "study.explanation",
+      "severity": "MEDIUM",
+      "category": "STUDY",
+      "de": "gehören",
+      "lvSource": "gehören visbiežāk nozīmē piederēt. Tas var nozīmēt arī iederēties kādā vietā vai grupā.",
+      "currentCs": "V některých větách výraz sich gehören znamená „slušet se“ nebo „být vhodné“.",
+      "proposedCs": "Gehören nejčastěji znamená patřit. Může také znamenat hodit se na nějaké místo nebo do skupiny. Konstrukce gehören zu znamená patřit k něčemu nebo být jeho součástí. V některých větách gehören znamená slušet se nebo být vhodné. Význam určuje konstrukce a kontext.",
+      "reason": "Vysvětlení uvádí jen okrajový význam sich gehören a vynechává základní významy patřit a patřit k.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 7,
+  "completedAt": "2026-08-14T16:50:47.651Z"
+}
