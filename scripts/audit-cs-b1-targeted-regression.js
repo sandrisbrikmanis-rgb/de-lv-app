@@ -172,11 +172,11 @@ function verifyGroups0732Prerequisite(words) {
     for (const card of spec.cards || []) {
       total += 1;
       const current = words[card.productionIndex];
-      const actualId = entryId(current, card.productionIndex, "b1");
-      if (actualId !== card.cardId) {
-        mismatches.push({ cardId: card.cardId, group: g, reason: "INDEX_MISMATCH", actualId });
+      if (!current) {
+        mismatches.push({ cardId: card.cardId, group: g, reason: "MISSING_AT_INDEX" });
         continue;
       }
+      // Reconcile by productionIndex + targetObject (cardId may change when study.id removed)
       if (JSON.stringify(current) === JSON.stringify(card.targetObject)) exact += 1;
       else mismatches.push({ cardId: card.cardId, group: g, reason: "TARGET_MISMATCH" });
     }
@@ -195,17 +195,21 @@ function computeChangeScope(baselineWords, currentWords, uniqueCards) {
   const changed = [];
   const unchanged = [];
   const cardMeta = new Map();
+  const seenIndices = new Set();
 
   for (const card of uniqueCards) {
     const idx = card.productionIndex;
+    if (seenIndices.has(idx)) continue;
+    seenIndices.add(idx);
     const b = baselineWords[idx];
     const a = currentWords[idx];
+    const actualId = entryId(a, idx, "b1");
     const specChanged = JSON.stringify(card.currentProductionObject) !== JSON.stringify(card.targetObject);
     const prodChanged = JSON.stringify(b) !== JSON.stringify(a);
-    cardMeta.set(card.cardId, { productionIndex: idx, specChanged, prodChanged, group: card.group });
+    cardMeta.set(actualId, { productionIndex: idx, specChanged, prodChanged, group: card.group, specCardId: card.cardId });
 
-    if (prodChanged) changed.push(card.cardId);
-    else unchanged.push(card.cardId);
+    if (prodChanged) changed.push(actualId);
+    else unchanged.push(actualId);
   }
 
   return { changed, unchanged, changedSet: new Set(changed), cardMeta };
@@ -229,15 +233,18 @@ function checkOutsideScopeImmutability(baselineWords, currentWords, changedSet) 
   };
 }
 
-function loadOwnerLockMap(uniqueCards) {
+function loadOwnerLockMap(uniqueCards, currentWords) {
   const map = new Map();
 
   for (const card of uniqueCards) {
+    const idx = card.productionIndex;
+    const actualId = currentWords[idx] ? entryId(currentWords[idx], idx, "b1") : card.cardId;
     for (const f of card.findings || []) {
       if (f.ownerDecision !== "NELABOT" && f.ownerDecision !== "FALSE_POSITIVE") continue;
       const nf = normalizeField(f.field);
       const entry = {
-        cardId: card.cardId,
+        cardId: actualId,
+        specCardId: card.cardId,
         field: nf,
         problem: f.problem || f.rationale || null,
         category: f.category || f.batch || null,
@@ -246,11 +253,13 @@ function loadOwnerLockMap(uniqueCards) {
         approvedValue: f.targetValue ?? getByPath(card.targetObject, nf),
         reopenedPreviousOwnerDecision: Boolean(f.reopenedPreviousOwnerDecision),
       };
-      const key = `${card.cardId}\x1f${nf}`;
-      if (!map.has(key)) map.set(key, entry);
-      if (nf !== f.field) {
-        const altKey = `${card.cardId}\x1f${f.field}`;
-        if (!map.has(altKey)) map.set(altKey, entry);
+      for (const id of [actualId, card.cardId]) {
+        const key = `${id}\x1f${nf}`;
+        if (!map.has(key)) map.set(key, entry);
+        if (nf !== f.field) {
+          const altKey = `${id}\x1f${f.field}`;
+          if (!map.has(altKey)) map.set(altKey, entry);
+        }
       }
     }
   }
@@ -755,7 +764,7 @@ async function main() {
   const { uniqueCards, cardMap } = loadAllB1Specs();
   const changeScope = computeChangeScope(baselineWords, words, uniqueCards);
   const outsideScope = checkOutsideScopeImmutability(baselineWords, words, changeScope.changedSet);
-  const ownerLockMap = loadOwnerLockMap(uniqueCards);
+  const ownerLockMap = loadOwnerLockMap(uniqueCards, words);
 
   if (outsideScope.unexpectedChanges > 0) {
     console.error(JSON.stringify({ status: "OUTSIDE_SCOPE_FAIL — STOP", outsideScope }, null, 2));
