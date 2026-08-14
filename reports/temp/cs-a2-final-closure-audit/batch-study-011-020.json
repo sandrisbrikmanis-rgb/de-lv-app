@@ -1,0 +1,813 @@
+{
+  "dataset": "a2",
+  "batch": "study-011-020",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-angreifen",
+    "a2-anhänger",
+    "a2-anheizen",
+    "a2-anlegen",
+    "a2-anmelden",
+    "a2-anstecken",
+    "a2-anstellen",
+    "a2-anstrengend",
+    "a2-art",
+    "a2-artikel"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-angreifen",
+      "field": "study.accents",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "angreifen",
+      "lvSource": "uzbrukt / asi kritizēt",
+      "currentCs": [
+        "blue:[\"Angreifen\",\"Greift\",\"Angegriffen\"]",
+        "green:[\"Uzbrukt\",\"Útočí\"]",
+        "yellow:[\"Kritizovat\",\"Kritik\"]",
+        "red:[\"Beleidigen\",\"Apvaino\"]",
+        "purple:[\"Aizskarta\",\"Ostře kritizuje\"]"
+      ],
+      "proposedCs": {
+        "blue": [
+          "Angreifen",
+          "Greift",
+          "Angegriffen"
+        ],
+        "green": [
+          "Útočit",
+          "Útočí"
+        ],
+        "yellow": [
+          "Kritizovat",
+          "Kritika"
+        ],
+        "red": [
+          "Beleidigen",
+          "Urazit"
+        ],
+        "purple": [
+          "Napadena",
+          "Ostře kritizuje"
+        ]
+      },
+      "reason": "Akcenty obsahují lotyšské výrazy Uzbrukt, Apvaino a Aizskarta místo českých ekvivalentů.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-anhänger",
+      "field": "study.accents",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "Anhänger",
+      "lvSource": "piekabe • piekritējs • kulons",
+      "currentCs": {
+        "blue": [
+          "Anhänger"
+        ],
+        "green": [
+          "Piekabe",
+          "Piekabe"
+        ],
+        "yellow": [
+          "Přívrženec",
+          "Přívrženců",
+          "Podporovatelů"
+        ],
+        "red": [
+          "Fan",
+          "Fani"
+        ],
+        "purple": [
+          "Kulons",
+          "Kulonu",
+          "Kette"
+        ]
+      },
+      "proposedCs": {
+        "blue": [
+          "Anhänger"
+        ],
+        "green": [
+          "Přívěs",
+          "Přívěs"
+        ],
+        "yellow": [
+          "Přívrženec",
+          "Přívrženců",
+          "Podporovatelů"
+        ],
+        "red": [
+          "Fan",
+          "Fanoušci"
+        ],
+        "purple": [
+          "Přívěsek",
+          "Přívěsku",
+          "Kette"
+        ]
+      },
+      "reason": "Akcenty obsahují lotyšská slova Piekabe, Kulons a Kulonu; české překlady jsou přívěs a přívěsek.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-anheizen",
+      "field": "study.explanation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "anheizen",
+      "lvSource": "iekurt / uzkurināt",
+      "currentCs": "Hlavní myšlenka: anheizen znamená začít topit nebo zahřívat věci. S kamny nebo ohněm znamená zapálit. Hádkou, atmosférou nebo debatou to znamená roznítit nebo zhoršit. Slovo je často obrazné. To není totéž jako jednoduše \"topit\" heizen.",
+      "proposedCs": "Hlavní myšlenka: anheizen znamená začít topit nebo zesílit žár. U kamen, ohně či grilu znamená zatopit nebo rozpálit, obrazně pak podněcovat či vyostřovat. Není to totéž co heizen, tedy topit.",
+      "reason": "Anheizen u kamen nebo ohně obecně neznamená zapálit; jde o zatopení, rozpálení či zesílení žáru.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-anheizen",
+      "field": "study.accents",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "anheizen",
+      "lvSource": "iekurt / uzkurināt",
+      "currentCs": {
+        "blue": [
+          "Anheizen",
+          "Heizen",
+          "Angeheizt"
+        ],
+        "green": [
+          "Iekurt",
+          "Iekuram",
+          "Iekuru"
+        ],
+        "yellow": [
+          "Rozdmýchat",
+          "Uzkurina",
+          "Rozdmýchal"
+        ],
+        "red": [
+          "Vyhrotit",
+          "Vyhrotil",
+          "Verschärfen"
+        ],
+        "purple": [
+          "Ofen",
+          "Feuer",
+          "Streit",
+          "Diskussion"
+        ]
+      },
+      "proposedCs": {
+        "blue": [
+          "Anheizen",
+          "Heizen",
+          "Angeheizt"
+        ],
+        "green": [
+          "Zatopit",
+          "Zatopíme",
+          "Zatápím"
+        ],
+        "yellow": [
+          "Rozdmýchat",
+          "Rozdmýchává",
+          "Rozdmýchal"
+        ],
+        "red": [
+          "Vyhrotit",
+          "Vyhrotil",
+          "Verschärfen"
+        ],
+        "purple": [
+          "Ofen",
+          "Feuer",
+          "Streit",
+          "Diskussion"
+        ]
+      },
+      "reason": "Akcenty obsahují lotyšské tvary Iekurt, Iekuram, Iekuru a Uzkurina místo českých výrazů.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-anlegen",
+      "field": "study.accents",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "anlegen",
+      "lvSource": "pielikt / uzlikt / ieguldīt / izveidot",
+      "currentCs": {
+        "blue": [
+          "Mnohoznačný",
+          "StandardStudy",
+          "Oblečení",
+          "Činnosti",
+          "Bezpečnosti",
+          "Investovat",
+          "Izveidot",
+          "Profilam",
+          "Anlegen",
+          "Failiem",
+          "Znamenat",
+          "Pielikt",
+          "Jostai",
+          "Naudai",
+          "Uzlikt",
+          "Složkám",
+          "Slovo"
+        ],
+        "green": [
+          "Uzlikt",
+          "Legen"
+        ],
+        "yellow": [
+          "Investieren",
+          "Investovat"
+        ],
+        "orange": [
+          "Pielikt"
+        ],
+        "purple": [
+          "Přiložit • Nasadit • Investovat • Vytvořit",
+          "Nasadit / investovat / vytvořit",
+          "Položit"
+        ],
+        "red": [
+          "Erstellen",
+          "Izveidot"
+        ]
+      },
+      "proposedCs": {
+        "blue": [
+          "Mnohoznačný",
+          "StandardStudy",
+          "Oblečení",
+          "Činnosti",
+          "Bezpečnostního pásu",
+          "Investovat",
+          "Vytvořit",
+          "Profilu",
+          "Anlegen",
+          "Souborů",
+          "Znamenat",
+          "Přiložit",
+          "Pásu",
+          "Peněz",
+          "Nasadit",
+          "Složkám",
+          "Slovo"
+        ],
+        "green": [
+          "Nasadit",
+          "Legen"
+        ],
+        "yellow": [
+          "Investieren",
+          "Investovat"
+        ],
+        "orange": [
+          "Přiložit"
+        ],
+        "purple": [
+          "Přiložit • Nasadit • Investovat • Vytvořit",
+          "Nasadit / investovat / vytvořit",
+          "Položit"
+        ],
+        "red": [
+          "Erstellen",
+          "Vytvořit"
+        ]
+      },
+      "reason": "Akcenty obsahují lotyšské výrazy Izveidot, Pielikt, Jostai, Naudai a další tvary místo češtiny.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-anmelden",
+      "field": "study.accents",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "anmelden",
+      "lvSource": "pieteikt / reģistrēt / pierakstīt",
+      "currentCs": {
+        "blue": [
+          "StandardStudy",
+          "Akcím",
+          "Objednat",
+          "Registrovat",
+          "Anmelden",
+          "Pieteikt",
+          "Systémům",
+          "Člověka",
+          "Kursiem",
+          "Znamenat",
+          "Oznámit",
+          "Účast",
+          "Skolai",
+          "Návštěvu",
+          "Lékaře",
+          "Lieto",
+          "Lietu"
+        ],
+        "green": [
+          "Sich anmelden",
+          "Přihlásit se",
+          "Registrovat"
+        ],
+        "yellow": [
+          "Registrieren",
+          "Objednat"
+        ],
+        "orange": [
+          "Pieteikties",
+          "Pieteikt",
+          "Nahlásit"
+        ],
+        "purple": [
+          "Přihlásit • Registrovat • Objednat • Oznámit",
+          "Přihlásit / registrovat / objednat",
+          "Přihlásit se / připojit se",
+          "Nahlásit / oznámit",
+          "Rezervovat",
+          "Melden"
+        ],
+        "red": [
+          "Oznámit",
+          "Buchen"
+        ]
+      },
+      "proposedCs": {
+        "blue": [
+          "StandardStudy",
+          "Akcím",
+          "Objednat",
+          "Registrovat",
+          "Anmelden",
+          "Přihlásit",
+          "Systémům",
+          "Člověka",
+          "Kurzům",
+          "Znamenat",
+          "Oznámit",
+          "Účast",
+          "Škole",
+          "Návštěvu",
+          "Lékaře",
+          "Používá",
+          "Věc"
+        ],
+        "green": [
+          "Sich anmelden",
+          "Přihlásit se",
+          "Registrovat"
+        ],
+        "yellow": [
+          "Registrieren",
+          "Objednat"
+        ],
+        "orange": [
+          "Přihlásit se",
+          "Přihlásit",
+          "Nahlásit"
+        ],
+        "purple": [
+          "Přihlásit • Registrovat • Objednat • Oznámit",
+          "Přihlásit / registrovat / objednat",
+          "Přihlásit se / připojit se",
+          "Nahlásit / oznámit",
+          "Rezervovat",
+          "Melden"
+        ],
+        "red": [
+          "Oznámit",
+          "Buchen"
+        ]
+      },
+      "reason": "Akcenty obsahují lotyšské výrazy Pieteikt, Pieteikties, Skolai, Lieto a Lietu místo českých výrazů.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-anstecken",
+      "field": "study.accents",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "anstecken",
+      "lvSource": "piespraust / aizdedzināt / inficēt",
+      "currentCs": {
+        "blue": [
+          "StandardStudy",
+          "Zapálit",
+          "Odlišné",
+          "Nakazit se",
+          "Piespraust",
+          "Anstecken",
+          "Cigareti",
+          "V medicíně",
+          "Několik",
+          "Oblečení",
+          "Diezgan",
+          "Nakazit",
+          "Znamenat",
+          "Slovo",
+          "Sveci",
+          "Někoho"
+        ],
+        "green": [
+          "Zapálit",
+          "Atrasties",
+          "Stecken"
+        ],
+        "yellow": [
+          "Anzünden",
+          "Nakazit"
+        ],
+        "orange": [
+          "Piespraust",
+          "Strčit"
+        ],
+        "purple": [
+          "Připnout / zapálit / nakazit",
+          "Připnout • Zapálit • Nakazit",
+          "Strčit / být zasunutý",
+          "Nakazit se"
+        ],
+        "red": [
+          "Sich anstecken"
+        ]
+      },
+      "proposedCs": {
+        "blue": [
+          "StandardStudy",
+          "Zapálit",
+          "Odlišné",
+          "Nakazit se",
+          "Připnout",
+          "Anstecken",
+          "Cigaretu",
+          "V medicíně",
+          "Několik",
+          "Oblečení",
+          "Poměrně",
+          "Nakazit",
+          "Znamenat",
+          "Slovo",
+          "Svíčku",
+          "Někoho"
+        ],
+        "green": [
+          "Zapálit",
+          "Nacházet se",
+          "Stecken"
+        ],
+        "yellow": [
+          "Anzünden",
+          "Nakazit"
+        ],
+        "orange": [
+          "Připnout",
+          "Strčit"
+        ],
+        "purple": [
+          "Připnout / zapálit / nakazit",
+          "Připnout • Zapálit • Nakazit",
+          "Strčit / být zasunutý",
+          "Nakazit se"
+        ],
+        "red": [
+          "Sich anstecken"
+        ]
+      },
+      "reason": "Akcenty obsahují lotyšské výrazy Piespraust, Cigareti, Diezgan, Atrasties a Sveci místo češtiny.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-anstellen",
+      "field": "study.accents",
+      "severity": "LOW",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "anstellen",
+      "lvSource": "ieslēgt / pieņemt darbā / sadarīt",
+      "currentCs": {
+        "blue": [
+          "Mnohoznačný",
+          "StandardStudy",
+          "Hovorově",
+          "Anstellen",
+          "Postavit se",
+          "Činnosti",
+          "Člověka",
+          "Zapnout",
+          "Provést",
+          "Znamenat",
+          "Přijmout",
+          "Apkuri",
+          "Zařízení",
+          "Do práce",
+          "Ve frontě",
+          "Slovo"
+        ],
+        "green": [
+          "Zaměstnat",
+          "Einstellen",
+          "Nastavit"
+        ],
+        "yellow": [
+          "Postavit se do fronty",
+          "Anschalten",
+          "Provést"
+        ],
+        "orange": [
+          "Zapnout"
+        ],
+        "purple": [
+          "Zapnout • Zaměstnat • Postavit se do fronty • Provést",
+          "Zaměstnat / zapnout / provést",
+          "Zaměstnat / nastavit"
+        ],
+        "red": [
+          "Sich anstellen",
+          "Provést"
+        ]
+      },
+      "proposedCs": {
+        "blue": [
+          "Mnohoznačný",
+          "StandardStudy",
+          "Hovorově",
+          "Anstellen",
+          "Postavit se",
+          "Činnosti",
+          "Člověka",
+          "Zapnout",
+          "Provést",
+          "Znamenat",
+          "Přijmout",
+          "Topení",
+          "Zařízení",
+          "Do práce",
+          "Ve frontě",
+          "Slovo"
+        ],
+        "green": [
+          "Zaměstnat",
+          "Einstellen",
+          "Nastavit"
+        ],
+        "yellow": [
+          "Postavit se do fronty",
+          "Anschalten",
+          "Provést"
+        ],
+        "orange": [
+          "Zapnout"
+        ],
+        "purple": [
+          "Zapnout • Zaměstnat • Postavit se do fronty • Provést",
+          "Zaměstnat / zapnout / provést",
+          "Zaměstnat / nastavit"
+        ],
+        "red": [
+          "Sich anstellen",
+          "Provést"
+        ]
+      },
+      "reason": "Akcenty obsahují lotyšské slovo Apkuri místo českého výrazu topení.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-art",
+      "field": "study.explanation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Art",
+      "lvSource": "veids",
+      "currentCs": "Pouze v určitých kontextech může Art znamenat druh nebo typ.",
+      "proposedCs": "Hlavní význam Art je druh, typ nebo způsob. Používá se například ve frázích auf diese Art, auf welche Art, eine andere Art a welche Art.",
+      "reason": "Vysvětlení nesprávně tvrdí, že druh nebo typ je jen okrajový význam, a neuvádí hlavní význam způsob.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-art",
+      "field": "study.accents",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "Art",
+      "lvSource": "veids",
+      "currentCs": {
+        "blue": [
+          "StandardStudy",
+          "Řešení",
+          "Nápoj",
+          "Die Art",
+          "Andere",
+          "Míněno",
+          "Ve frázích",
+          "Ptát se",
+          "Welche",
+          "Bieži",
+          "Darbs",
+          "Diese",
+          "Lieta",
+          "Lieto",
+          "Veida",
+          "Veids",
+          "Jaký",
+          "Art"
+        ],
+        "green": [
+          "Typ člověka",
+          "Způsob"
+        ],
+        "yellow": [
+          "Der Typ",
+          "Typ"
+        ],
+        "orange": [
+          "Tips"
+        ],
+        "purple": [
+          "Typ / typ člověka",
+          "Druh / způsob",
+          "Die Weise",
+          "Typ",
+          "Veids",
+          "Weise",
+          "Suga"
+        ],
+        "red": [
+          "Die Sorte",
+          "Sorte"
+        ]
+      },
+      "proposedCs": {
+        "blue": [
+          "StandardStudy",
+          "Řešení",
+          "Nápoj",
+          "Die Art",
+          "Andere",
+          "Míněno",
+          "Ve frázích",
+          "Ptát se",
+          "Welche",
+          "Často",
+          "Práce",
+          "Diese",
+          "Věc",
+          "Používá",
+          "Způsob",
+          "Způsob",
+          "Jaký",
+          "Art"
+        ],
+        "green": [
+          "Typ člověka",
+          "Způsob"
+        ],
+        "yellow": [
+          "Der Typ",
+          "Typ"
+        ],
+        "orange": [
+          "Typ"
+        ],
+        "purple": [
+          "Typ / typ člověka",
+          "Druh / způsob",
+          "Die Weise",
+          "Typ",
+          "Způsob",
+          "Weise",
+          "Druh"
+        ],
+        "red": [
+          "Die Sorte",
+          "Sorte"
+        ]
+      },
+      "reason": "Akcenty obsahují lotyšské výrazy Bieži, Darbs, Lieta, Lieto, Veida, Veids, Tips a Suga.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-artikel",
+      "field": "study.accents",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "Artikel",
+      "lvSource": "raksts / prece / artikuls / pants",
+      "currentCs": {
+        "blue": [
+          "StandardStudy",
+          "Der Artikel",
+          "V gramatice",
+          "Na internetu",
+          "Právní",
+          "Artikuls",
+          "Artikulu",
+          "Například",
+          "Artikel",
+          "Znamenat",
+          "V obchodě",
+          "V časopise",
+          "Raksts",
+          "Rakstu",
+          "V novinách",
+          "Pants",
+          "Prece",
+          "Preci"
+        ],
+        "green": [
+          "Der Zeitungsartikel",
+          "Zeitungsartikel",
+          "Prece"
+        ],
+        "yellow": [
+          "Artikuls",
+          "Die Ware",
+          "Ware"
+        ],
+        "orange": [
+          "Paragraf",
+          "Raksts"
+        ],
+        "purple": [
+          "Raksts • Prece • Artikuls • Pants",
+          "Noteiktais artikuls",
+          "Paragraf / článek zákona",
+          "Novinový článek",
+          "Der Paragraph",
+          "Paragraph"
+        ],
+        "red": [
+          "Der bestimmte Artikel",
+          "Bestimmte Artikel",
+          "Pants"
+        ]
+      },
+      "proposedCs": {
+        "blue": [
+          "StandardStudy",
+          "Der Artikel",
+          "V gramatice",
+          "Na internetu",
+          "Právní",
+          "Člen",
+          "Členu",
+          "Například",
+          "Artikel",
+          "Znamenat",
+          "V obchodě",
+          "V časopise",
+          "Článek",
+          "Článek",
+          "V novinách",
+          "Článek",
+          "Zboží",
+          "Zboží"
+        ],
+        "green": [
+          "Der Zeitungsartikel",
+          "Zeitungsartikel",
+          "Zboží"
+        ],
+        "yellow": [
+          "Člen",
+          "Die Ware",
+          "Ware"
+        ],
+        "orange": [
+          "Paragraf",
+          "Článek"
+        ],
+        "purple": [
+          "Článek • Zboží • Člen • Článek zákona",
+          "Určitý člen",
+          "Paragraf / článek zákona",
+          "Novinový článek",
+          "Der Paragraph",
+          "Paragraph"
+        ],
+        "red": [
+          "Der bestimmte Artikel",
+          "Bestimmte Artikel",
+          "Článek"
+        ]
+      },
+      "reason": "Akcenty obsahují lotyšská slova Artikuls, Raksts, Pants, Prece a Noteiktais místo českých překladů.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 1,
+  "completedAt": "2026-08-14T15:43:33.942Z"
+}

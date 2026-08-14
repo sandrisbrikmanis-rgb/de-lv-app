@@ -1,0 +1,100 @@
+{
+  "dataset": "a2",
+  "batch": "study-001-010",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-ab-und-zu",
+    "a2-abfahren",
+    "a2-abgeben",
+    "a2-abholen",
+    "a2-holen",
+    "a2-bringen",
+    "a2-absagen",
+    "a2-abschließen",
+    "a2-abstellen",
+    "a2-angewandt"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-abfahren",
+      "field": "study.comparison[2].example",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Wir fahren jetzt los.",
+      "lvSource": "Mēs tagad sākam braukt.",
+      "currentCs": "Wir fahren jetzt los. = Teď začínáme jezdit.",
+      "proposedCs": "Wir fahren jetzt los. = Teď vyjíždíme.",
+      "reason": "„Začínáme jezdit“ znamená začít jezdit obecně, ne právě vyjet nebo se rozjet.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-abgeben",
+      "field": "study.comparison[3].example",
+      "severity": "LOW",
+      "category": "GRAMMAR",
+      "de": "Ich reiche die Unterlagen ein.",
+      "lvSource": "Es iesniedzu dokumentus.",
+      "currentCs": "Ich reiche die Unterlagen ein. = Předložil jsem dokumenty.",
+      "proposedCs": "Ich reiche die Unterlagen ein. = Předkládám dokumenty.",
+      "reason": "Německý originál je v přítomném čase, ale český překlad v minulém.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-holen",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "holen",
+      "lvSource": "aiziet pakaļ • atnest",
+      "currentCs": "Dojít pro",
+      "proposedCs": "Jít pro",
+      "reason": "„Dojít pro“ zbytečně naznačuje pohyb pěšky a zužuje obecný význam slovesa holen.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-holen",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-abstellen",
+      "field": "study.tip.leftBlocks[0].text",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Wenn es um ein Auto, Fahrrad oder eine Tasche geht, denken Sie an Abstellen oder Hinstellen.",
+      "lvSource": "Ja runa ir par auto, velosipēdu vai somu, domā novietot vai nolikt.",
+      "currentCs": "Pokud je to auto, kolo nebo taška, přemýšlejte o parkování nebo odložení.",
+      "proposedCs": "Pokud jde o auto, kolo nebo tašku, myslete na odstavení nebo odložení.",
+      "reason": "„Parkování“ se přirozeně týká hlavně auta, ne kola nebo tašky; česká formulace je navíc nepřirozeně doslovná.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-abstellen",
+      "field": "study.comparison[4].example",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ich stelle die Tasche neben die Tür.",
+      "lvSource": "Es nolieku somu pie durvīm.",
+      "currentCs": "Ich stelle die Tasche neben die Tür. = Pokládám tašku vedle dveří.",
+      "proposedCs": "Ich stelle die Tasche neben die Tür. = Dávám tašku vedle dveří.",
+      "reason": "„Pokládám“ znamená položit naležato, zatímco stellen vyjadřuje postavení nebo obecné umístění.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 6,
+  "completedAt": "2026-08-14T15:42:47.404Z"
+}

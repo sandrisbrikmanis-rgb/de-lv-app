@@ -1,0 +1,100 @@
+{
+  "dataset": "a2",
+  "batch": "study-201-210",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-vorstellen",
+    "a2-wagen",
+    "a2-wählen",
+    "a2-während",
+    "a2-wahrscheinlich",
+    "a2-wechseln",
+    "a2-weit",
+    "a2-wert",
+    "a2-wiegen",
+    "a2-ziehen"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-vorstellen",
+      "field": "study.comparison[0].example",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ich stelle dir meinen Freund vor.",
+      "lvSource": "Es tevi iepazīstinu ar draugu.",
+      "currentCs": "Představuji vám přítele.",
+      "proposedCs": "Představuji ti svého přítele.",
+      "reason": "Německé dir znamená „ti“, nikoli „vám“, a meinen Freund je „svého přítele“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-wählen",
+      "field": "csMain",
+      "severity": "MEDIUM",
+      "category": "STUDY",
+      "de": "wählen",
+      "lvSource": "izvēlēties",
+      "currentCs": "Vybrat si",
+      "proposedCs": "Vybrat si • Volit • Vytočit číslo",
+      "reason": "Hlavní překlad uvádí jen jeden význam, ačkoli karta správně vysvětluje i volení a vytáčení čísla.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-wählen",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "STUDY",
+      "de": "wählen",
+      "lvSource": "izvēlēties",
+      "currentCs": "Vybrat si",
+      "proposedCs": "Vybrat si • Volit • Vytočit číslo",
+      "reason": "Hlavní překlad uvádí jen jeden význam, ačkoli wählen běžně znamená také volit a vytočit číslo.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-während",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "STUDY",
+      "de": "während",
+      "lvSource": "kamēr",
+      "currentCs": "Zatímco",
+      "proposedCs": "Během • Zatímco",
+      "reason": "Překlad opomíjí běžné předložkové použití während ve významu „během“, které karta sama vysvětluje.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-wert",
+      "field": "study.examples[0].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Das ist viel Geld wert.",
+      "lvSource": "tas ir daudz naudas vērts.",
+      "currentCs": "Stojí to hodně peněz.",
+      "proposedCs": "Má to velkou peněžní hodnotu.",
+      "reason": "České „stojí to hodně peněz“ znamená vysokou cenu, nikoli hodnotu; stírá se rozdíl oproti teuer.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-wert",
+      "field": "study.comparison[0].example",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Das ist viel wert.",
+      "lvSource": "Tas ir daudz vērts.",
+      "currentCs": "Stojí to hodně.",
+      "proposedCs": "Má to velkou hodnotu.",
+      "reason": "„Stojí to hodně“ obvykle označuje cenu, zatímco německé wert vyjadřuje hodnotu nebo užitek.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 7,
+  "completedAt": "2026-08-14T15:55:27.583Z"
+}

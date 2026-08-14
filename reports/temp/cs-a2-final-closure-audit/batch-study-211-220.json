@@ -1,0 +1,74 @@
+{
+  "dataset": "a2",
+  "batch": "study-211-220",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-zunehmen",
+    "a2-zurzeit",
+    "a2-zwilling",
+    "a2-sehen",
+    "a2-schauen",
+    "a2-ansehen",
+    "a2-hoeren",
+    "a2-sagen",
+    "a2-sprechen",
+    "a2-gross"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-zunehmen",
+      "field": "study.comparison[1].example",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "zunehmen",
+      "lvSource": "notievēt / samazināties",
+      "currentCs": "Ich nehme ab. = Zhubla jsem.",
+      "proposedCs": "Ich nehme ab. = Hubnu.",
+      "reason": "Německý přítomný čas vyjadřuje probíhající děj; „Zhubla jsem“ je minulý čas a navíc ženský rod.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-zurzeit",
+      "field": "study.important.example",
+      "severity": "HIGH",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "zurzeit",
+      "lvSource": "Ich gehe jetzt = es eju tagad. Ich arbeite zurzeit viel = pašlaik es daudz strādāju. derzeit un im Moment ir ļoti tuvi zurzeit.",
+      "currentCs": "Ich gehe jetzt = es eju tagad. Ich arbeite zurzeit viel = pašlaik es daudz strādāju. derzeit un im Moment ir ļoti tuvi zurzeit.",
+      "proposedCs": "Ich gehe jetzt = Teď jdu. Ich arbeite zurzeit viel = Momentálně hodně pracuji. derzeit a im Moment jsou velmi podobné výrazy jako zurzeit.",
+      "reason": "Text obsahuje lotyšskou kontaminaci místo češtiny a míchá oba jazyky v jednom studijním poli.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-ansehen",
+      "field": "csMain",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "ansehen",
+      "lvSource": "apskatīt • noskatīties",
+      "currentCs": "Prohlížet • Dívat se",
+      "proposedCs": "Prohlížet si • Dívat se na",
+      "reason": "Ansehen je cílené dívání se na konkrétní objekt; české „dívat se“ bez předložky význam nedokončuje.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-ansehen",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "ansehen",
+      "lvSource": "apskatīt • noskatīties",
+      "currentCs": "Prohlížet • Dívat se",
+      "proposedCs": "Prohlížet si • Dívat se na",
+      "reason": "Ansehen je cílené dívání se na konkrétní objekt; české „dívat se“ bez předložky význam nedokončuje.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 8,
+  "completedAt": "2026-08-14T15:56:00.816Z"
+}
