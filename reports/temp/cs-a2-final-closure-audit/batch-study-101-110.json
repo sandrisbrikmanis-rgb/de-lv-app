@@ -1,0 +1,74 @@
+{
+  "dataset": "a2",
+  "batch": "study-101-110",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-gewinnen",
+    "a2-gießen",
+    "a2-gott",
+    "a2-grund",
+    "a2-hängen",
+    "a2-hart",
+    "a2-holz",
+    "a2-indem",
+    "a2-je",
+    "a2-kamm"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-gießen",
+      "field": "study.comparison[3].example",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Er schüttet Wasser aus. = Nalévá vodu.",
+      "lvSource": "Er schüttet Wasser aus. = Viņš izlej ūdeni.",
+      "currentCs": "Er schüttet Wasser aus. = Nalévá vodu.",
+      "proposedCs": "Er schüttet Wasser aus. = Vylévá vodu.",
+      "reason": "Aus znamená v tomto kontextu „ven“; Wasser ausgießen se česky překládá jako „vylévat vodu“, ne „nalévat“.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-grund",
+      "field": "study.examples[4].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Der Boden hat einen sandigen Grund.",
+      "lvSource": "zemei ir smilšaina grunts.",
+      "currentCs": "Země má písčité dno.",
+      "proposedCs": "Půda má písčitý podklad.",
+      "reason": "V kontextu půdy Grund znamená podklad nebo zeminu, nikoli dno; „dno“ patří hlavně k vodním plochám.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-hängen",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Ich hänge die Jacke in den Schrank.",
+      "lvSource": "es iekaru jaku skapī.",
+      "currentCs": "Pověsím bundu do skříně.",
+      "proposedCs": "Věším bundu do skříně.",
+      "reason": "Německý prézens zde popisuje probíhající děj; české „pověsím“ je dokonavý budoucí tvar.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-hängen",
+      "field": "study.comparison[3].example",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Wir hängen das Bild an die Wand. = Obraz zavěsíme na zeď.",
+      "lvSource": "Wir hängen das Bild an die Wand. = Mēs piekaram attēlu pie sienas.",
+      "currentCs": "Wir hängen das Bild an die Wand. = Obraz zavěsíme na zeď.",
+      "proposedCs": "Wir hängen das Bild an die Wand. = Věšíme obraz na zeď.",
+      "reason": "„Zavěsíme“ vyjadřuje budoucnost; německý prézens zde odpovídá českému nedokonavému „věšíme“.",
+      "confidence": "high",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 7,
+  "completedAt": "2026-08-14T15:49:15.118Z"
+}

@@ -45,6 +45,9 @@ function md5(filePath) {
 }
 
 function progressPath(dataset) {
+  if (process.env.CS_A2_FULL_FINAL_CLOSURE === "1" && dataset === "a2") {
+    return path.join(ROOT, "scripts", ".cs-a2-full-final-closure-luna-progress.json");
+  }
   if (process.env.CS_A2_FINAL_CLOSURE === "1" && dataset === "a2") {
     return path.join(ROOT, "scripts", ".cs-a2-final-closure-luna-progress.json");
   }

@@ -1,0 +1,104 @@
+◇ injected env (1) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+
+=== Prerequisite PASS: 205/205 targetObject exact match ===
+
+=== Deterministic audit ===
+{
+  "dataset": "a2",
+  "total": 1640,
+  "findings": 98,
+  "severity": {
+    "CRITICAL": 16,
+    "HIGH": 23,
+    "MEDIUM": 59,
+    "LOW": 0
+  },
+  "structural": true,
+  "germanIntegrity": false,
+  "outFile": "/workspace/reports/temp/cs-a2-final-closure-audit/deterministic-audit.json"
+}
+
+=== GPT-5.6 Luna linguistic audit ===
+
+Wrote /workspace/reports/cs-a2-final-closure-audit.md
+Wrote /workspace/reports/temp/cs-a2-final-closure-audit.json
+
+OVERALL: FAIL
+CLOSURE: A2 NOT CLOSED
+VALIDATED REAL: 298 (CRIT 16 / HIGH 61 / MED 193 / LOW 28)
+le-051-100: 50 cards, findings=3, pass=47, tokens=6416
+  luna simple-101-150: 50 cards, findings=0, pass=50, tokens=4665
+  luna simple-151-200: 50 cards, findings=0, pass=50, tokens=4635
+  luna simple-201-250: 50 cards, findings=0, pass=50, tokens=5080
+  luna simple-251-300: 50 cards, findings=1, pass=49, tokens=5592
+  luna simple-301-350: 50 cards, findings=0, pass=50, tokens=4960
+  luna simple-351-400: 50 cards, findings=1, pass=49, tokens=4747
+  luna simple-401-450: 50 cards, findings=1, pass=49, tokens=5580
+  luna simple-451-500: 50 cards, findings=0, pass=50, tokens=4743
+  luna simple-501-550: 50 cards, findings=1, pass=49, tokens=5218
+  luna simple-551-600: 50 cards, findings=0, pass=50, tokens=4502
+  luna simple-601-650: 50 cards, findings=0, pass=50, tokens=5122
+  luna simple-651-700: 50 cards, findings=0, pass=50, tokens=5000
+  luna simple-701-750: 50 cards, findings=0, pass=50, tokens=5084
+  luna simple-751-800: 50 cards, findings=0, pass=50, tokens=4423
+  luna simple-801-850: 50 cards, findings=0, pass=50, tokens=5406
+  luna simple-851-900: 50 cards, findings=0, pass=50, tokens=6036
+  luna simple-901-950: 50 cards, findings=1, pass=49, tokens=5059
+  luna simple-951-1000: 50 cards, findings=0, pass=50, tokens=4670
+  luna simple-1001-1050: 50 cards, findings=0, pass=50, tokens=4890
+  luna simple-1051-1100: 50 cards, findings=0, pass=50, tokens=4891
+  luna simple-1101-1150: 50 cards, findings=1, pass=49, tokens=5049
+  luna simple-1151-1200: 50 cards, findings=0, pass=50, tokens=5058
+  luna simple-1201-1250: 50 cards, findings=1, pass=49, tokens=5571
+  luna simple-1251-1300: 50 cards, findings=0, pass=50, tokens=5328
+  luna simple-1301-1350: 50 cards, findings=1, pass=49, tokens=5352
+  luna simple-1351-1400: 50 cards, findings=1, pass=49, tokens=5540
+  luna simple-1401-1409: 9 cards, findings=0, pass=9, tokens=1260
+  luna study-001-010: 10 cards, findings=6, pass=6, tokens=25917
+  luna study-011-020: 10 cards, findings=11, pass=1, tokens=30208
+  luna study-021-030: 10 cards, findings=17, pass=1, tokens=31432
+  luna study-031-040: 10 cards, findings=29, pass=0, tokens=34349
+  luna study-041-050: 10 cards, findings=6, pass=5, tokens=34252
+  luna study-051-060: 10 cards, findings=11, pass=3, tokens=34678
+  luna study-061-070: 10 cards, findings=7, pass=5, tokens=30091
+  luna study-071-080: 10 cards, findings=11, pass=5, tokens=29019
+  luna study-081-090: 10 cards, findings=8, pass=3, tokens=31309
+  luna study-091-100: 10 cards, findings=2, pass=8, tokens=28334
+  luna study-101-110: 10 cards, findings=4, pass=7, tokens=24395
+  luna study-111-120: 10 cards, findings=3, pass=8, tokens=9678
+  luna study-121-130: 10 cards, findings=8, pass=8, tokens=10028
+  luna study-131-140: 10 cards, findings=7, pass=4, tokens=29566
+  luna study-141-150: 10 cards, findings=3, pass=9, tokens=21917
+  luna study-151-160: 10 cards, findings=5, pass=6, tokens=19978
+  luna study-161-170: 10 cards, findings=11, pass=3, tokens=33126
+  luna study-171-180: 10 cards, findings=13, pass=2, tokens=29318
+  luna study-181-190: 10 cards, findings=8, pass=5, tokens=33183
+  luna study-191-200: 10 cards, findings=8, pass=5, tokens=29079
+  luna study-201-210: 10 cards, findings=6, pass=7, tokens=32806
+  luna study-211-220: 10 cards, findings=4, pass=8, tokens=16650
+  luna study-221-230: 10 cards, findings=0, pass=10, tokens=11346
+  luna study-231-231: 1 cards, findings=0, pass=1, tokens=1367
+
+=== CS linguistic audit complete ===
+{
+  "dataset": "a2",
+  "cardsAudited": 1640,
+  "cardsExpected": 1640,
+  "findings": 200,
+  "severity": {
+    "CRITICAL": 0,
+    "HIGH": 38,
+    "MEDIUM": 134,
+    "LOW": 28
+  },
+  "nonError": {
+    "SOURCE_DE_ISSUE": 0,
+    "SOURCE_LV_ISSUE": 0,
+    "NEEDS_OWNER_REVIEW": 0,
+    "FALSE_POSITIVE": 0,
+    "STYLE_ONLY": 0,
+    "PROJECT_CONVENTION": 0
+  },
+  "tokens": 757153
+}

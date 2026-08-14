@@ -1,0 +1,61 @@
+{
+  "dataset": "a2",
+  "batch": "study-111-120",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-kaum",
+    "a2-keller",
+    "a2-kellner",
+    "a2-kennen",
+    "a2-wissen",
+    "a2-kerl",
+    "a2-kerze",
+    "a2-keyboard",
+    "a2-kinderarzt",
+    "a2-kinderfunk"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-kennen",
+      "field": "study.examples[4].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "kennen",
+      "lvSource": "pazīt; wissen",
+      "currentCs": "Znát; wissen",
+      "proposedCs": "Znát",
+      "reason": "„wissen“ je německé slovo, nikoli český překlad, a navíc označuje jiný lexém než kennen.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-kinderfunk",
+      "field": "csMain",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Kinderfunk",
+      "lvSource": "raidījums bērniem",
+      "currentCs": "Program pro děti",
+      "proposedCs": "Dětský rozhlasový program",
+      "reason": "Překlad vynechává význam rozhlasového vysílání; může označovat libovolný program pro děti.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-kaum",
+      "field": "study.comparison[3].example",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Sobald ich Zeit habe, rufe ich dich an.",
+      "lvSource": "Tiklīdz man būs laiks, es tev piezvanīšu.",
+      "currentCs": "Zavolám vám, jakmile budu mít čas.",
+      "proposedCs": "Zavolám ti, jakmile budu mít čas.",
+      "reason": "Německé „dir“ i lotyšské „tev“ jsou neformální jednotné číslo; české „vám“ mění osobu a registr.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 8,
+  "completedAt": "2026-08-14T15:49:49.132Z"
+}

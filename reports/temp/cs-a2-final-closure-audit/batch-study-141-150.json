@@ -1,0 +1,61 @@
+{
+  "dataset": "a2",
+  "batch": "study-141-150",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-legen",
+    "a2-los",
+    "a2-meinen",
+    "a2-merken",
+    "a2-mittel",
+    "a2-na-gut",
+    "a2-nagel",
+    "a2-note",
+    "a2-nummernschild",
+    "a2-nutzen"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-legen",
+      "field": "study.explanation[1]",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "legen",
+      "lvSource": "legen galvenokārt nozīmē: darbība.",
+      "currentCs": "Legen znamená především: jednání.",
+      "proposedCs": "Legen především označuje děj.",
+      "reason": "„Znamená jednání“ je v češtině neobratné a nepřesně popisuje dějový význam slovesa.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-legen",
+      "field": "study.comparison[0].example",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Ich lege das Buch hin. – Odložil jsem knihu.",
+      "lvSource": "Ich lege das Buch hin. – Es nolieku grāmatu.",
+      "currentCs": "Ich lege das Buch hin. – Odložil jsem knihu.",
+      "proposedCs": "Ich lege das Buch hin. – Položím knihu.",
+      "reason": "Německý originál je v přítomném čase, zatímco český překlad je v minulém čase.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-legen",
+      "field": "study.comparison[2].example",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Ich stelle die Flasche hin. – Láhev jsem postavil do svislé polohy.",
+      "lvSource": "Ich stelle die Flasche hin. – Es nolieku pudeli stāvus.",
+      "currentCs": "Ich stelle die Flasche hin. – Láhev jsem postavil do svislé polohy.",
+      "proposedCs": "Ich stelle die Flasche hin. – Postavím láhev.",
+      "reason": "Německý originál je v přítomném čase, český překlad používá minulý čas.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 9,
+  "completedAt": "2026-08-14T15:51:41.429Z"
+}

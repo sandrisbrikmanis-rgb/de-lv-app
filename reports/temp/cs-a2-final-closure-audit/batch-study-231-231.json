@@ -1,0 +1,12 @@
+{
+  "dataset": "a2",
+  "batch": "study-231-231",
+  "auditType": "vocab_study",
+  "cardCount": 1,
+  "cardIds": [
+    "a2-auch"
+  ],
+  "findings": [],
+  "passCount": 1,
+  "completedAt": "2026-08-14T15:56:15.310Z"
+}

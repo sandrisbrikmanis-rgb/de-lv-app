@@ -1,0 +1,87 @@
+{
+  "dataset": "a2",
+  "batch": "study-151-160",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-offen",
+    "a2-passieren",
+    "a2-patient",
+    "a2-personal",
+    "a2-pflaster",
+    "a2-rad",
+    "a2-rasen-study",
+    "a2-raten",
+    "a2-rechnen",
+    "a2-reichen"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-passieren",
+      "field": "study.explanation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "passieren",
+      "lvSource": "Galvenā doma: passieren visbiežāk nozīmē notikt vai atgadīties.",
+      "currentCs": "Hlavní myšlenka: passieren nejčastěji znamená stát se nebo stát.",
+      "proposedCs": "Hlavní myšlenka: passieren nejčastěji znamená stát se.",
+      "reason": "Samotné „stát“ zde není správný překlad významu „happen“; správně je „stát se“.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-passieren",
+      "field": "study.examples[3].lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Mir ist ein Fehler passiert.",
+      "lvSource": "man gadījās kļūda.",
+      "currentCs": "Přihodila se mi chyba.",
+      "proposedCs": "Stala se mi chyba.",
+      "reason": "Spojení „přihodila se mi chyba“ není v češtině přirozené; běžné je „stala se mi chyba“.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-rasen-study",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Rasen",
+      "lvSource": "zālājs",
+      "currentCs": "Trávník",
+      "proposedCs": "Trávník • Řítit se",
+      "reason": "Německé Rasen má vedle podstatného jména také běžný slovesný význam „řítit se/uhánět“, který v hlavním překladu chybí.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-raten",
+      "field": "study.explanation",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Ich rate dir...",
+      "lvSource": "Frāze Ich rate dir... nozīmē es tev iesaku.",
+      "currentCs": "Fráze Ich rate dir... znamená, doporučuji vám.",
+      "proposedCs": "Fráze Ich rate dir... znamená „doporučuji ti“.",
+      "reason": "Věta obsahuje chybnou čárku a nesprávný zájmenový protějšek: dir znamená „ti“, ne „vám“.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-reichen",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "reichen",
+      "lvSource": "pietikt • pasniegt",
+      "currentCs": "Stačit • Podat",
+      "proposedCs": "Stačit • Podat • Sahat",
+      "reason": "Reichen má také běžný význam „sahat až k místu“, který je uveden ve vysvětlení, ale chybí v hlavním překladu.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 6,
+  "completedAt": "2026-08-14T15:52:21.028Z"
+}

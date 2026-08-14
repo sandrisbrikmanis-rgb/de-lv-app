@@ -1,0 +1,20 @@
+{
+  "dataset": "a2",
+  "batch": "simple-1401-1409",
+  "auditType": "vocab_simple",
+  "cardCount": 9,
+  "cardIds": [
+    "a2-zuhören-1610",
+    "a2-Zukunft-1611",
+    "a2-zuletzt-1612",
+    "a2-zunächst-1613",
+    "a2-Zunge-1615",
+    "a2-zurückgeben-1616",
+    "a2-zurückkommen-1617",
+    "a2-Zuschauer-1619",
+    "a2-zweitens-1620"
+  ],
+  "findings": [],
+  "passCount": 9,
+  "completedAt": "2026-08-14T15:42:18.656Z"
+}

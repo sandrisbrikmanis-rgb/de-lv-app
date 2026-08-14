@@ -1,0 +1,113 @@
+{
+  "dataset": "a2",
+  "batch": "study-061-070",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a2-darüber",
+    "a2-darum",
+    "a2-davon",
+    "a2-davor",
+    "a2-dazu",
+    "a2-decke",
+    "a2-denn",
+    "a2-dick",
+    "a2-doch",
+    "a2-doktor"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-darüber",
+      "field": "study.explanation[4]",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "darüber",
+      "lvSource": "darüber není totéž co darauf, protože darauf častěji znamená uz to, uz tā vai pēc tam.",
+      "currentCs": "Darüber není totéž co darauf, protože darauf častěji znamená to, upon or after.",
+      "proposedCs": "Darüber není totéž co darauf, protože darauf častěji znamená „na to“, „na tom“ nebo „potom“.",
+      "reason": "Text obsahuje anglickou kontaminaci místo českého překladu.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-darüber",
+      "field": "study.comparison[2].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "darauf",
+      "lvSource": "uz to / uz tā / pēc tam",
+      "currentCs": "Na tom / na tom / po tom",
+      "proposedCs": "Na to / na tom / potom",
+      "reason": "První význam má být „na to“, ne „na tom“; „po tom“ je méně přirozené než „potom“.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-darüber",
+      "field": "study.comparison[3].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "davon",
+      "lvSource": "par to / no tā",
+      "currentCs": "Za to / z toho",
+      "proposedCs": "O tom / z toho",
+      "reason": "„Davon“ ve významu tématu znamená „o tom“, nikoli „za to“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-davor",
+      "field": "study.examples[0].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Das Auto steht davor.",
+      "lvSource": "auto stāv priekšā.",
+      "currentCs": "Auto stojí vepředu.",
+      "proposedCs": "Auto stojí před ním.",
+      "reason": "„Davor“ odkazuje na něco předtím zmíněného; „vepředu“ tento vztah ztrácí.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-dazu",
+      "field": "study.comparison[1].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "dafür",
+      "lvSource": "par to / tam / toties",
+      "currentCs": "Za to / to / však",
+      "proposedCs": "Za to / pro to / na to",
+      "reason": "„Však“ není běžný význam dafür a samotné „to“ je neúplný překlad.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-decke",
+      "field": "study.explanation[4]",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Decke",
+      "lvSource": "Konteksts palīdz saprast, vai runa ir par gultu vai telpu.",
+      "currentCs": "Tlustý není totéž co široký.",
+      "proposedCs": "Die Decke není totéž co das Dach.",
+      "reason": "Věta tematicky nepatří ke kartě Decke a zjevně je převzatá z karty dick.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-dick",
+      "field": "study.explanation[3]",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "dick",
+      "lvSource": "dick nav tas pats, kas breit.",
+      "currentCs": "Péro není totéž co breit.",
+      "proposedCs": "Tlustý není totéž co široký.",
+      "reason": "„Péro“ je nesouvisející a významově chybný výraz; má zde být rozdíl mezi tlustý a široký.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 5,
+  "completedAt": "2026-08-14T15:46:48.712Z"
+}
