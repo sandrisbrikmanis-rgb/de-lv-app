@@ -7,6 +7,8 @@ const { loadWindowGlobals, readFile } = require("./lib/audit-common");
 
 const DASH_RE = /\s*[–—-]\s*/;
 const LESSON_KEYS = Array.from({ length: 21 }, (_, i) => `kurssLesson${i + 1}`);
+const EXTRA_HTML_KEYS = ["kurssVerbBasicsLesson", "kurssSentenceStructureLesson"];
+const HTML_CHECK_KEYS = [...EXTRA_HTML_KEYS, ...LESSON_KEYS];
 const DE_CARD_FIELDS = ["de", "back", "prompt", "answer"];
 
 function findDash(text) {
@@ -140,7 +142,7 @@ function main() {
   const csHtml = csWin.COURSE_LESSON_HTML;
   const mismatches = [];
 
-  for (const key of LESSON_KEYS) {
+  for (const key of HTML_CHECK_KEYS) {
     if (lvHtml[key] && csHtml[key]) {
       checkLegacyHtml(key, lvHtml[key], csHtml[key], mismatches);
     }
@@ -178,7 +180,7 @@ function main() {
     process.exit(1);
   }
 
-  console.log("CS Kurss DE compliance PASS (lessons 1–21, training cards)");
+  console.log("CS Kurss DE compliance PASS (verb basics, sentence structure, lessons 1–21, training cards)");
   console.log("DE mismatches: 0");
 }
 

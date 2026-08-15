@@ -11,6 +11,8 @@ const { ROOT, loadWindowGlobals, readFile, isSyncedWithWww } = require("./lib/au
 const DASH_RE = /\s*[–—-]\s*/;
 const DE_CARD_FIELDS = ["de", "back", "prompt", "answer"];
 const LESSON_KEYS = Array.from({ length: 21 }, (_, i) => `kurssLesson${i + 1}`);
+const EXTRA_HTML_KEYS = ["kurssVerbBasicsLesson", "kurssSentenceStructureLesson"];
+const HTML_SYNC_KEYS = [...EXTRA_HTML_KEYS, ...LESSON_KEYS];
 
 let changeCount = 0;
 
@@ -287,7 +289,7 @@ function main() {
   const csData = JSON.parse(JSON.stringify(csWin.COURSE_LESSON_DATA));
   const lvData = lvWin.COURSE_LESSON_DATA;
 
-  for (const key of LESSON_KEYS) {
+  for (const key of HTML_SYNC_KEYS) {
     if (key in lvHtml && key in csHtml) {
       csHtml[key] = syncLegacyHtml(lvHtml[key], csHtml[key]);
     }
