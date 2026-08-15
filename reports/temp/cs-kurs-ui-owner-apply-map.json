@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "scope": "CS-DE Kurss UI only",
+    "sourceAudit": "reports/cs-kurs-ui-full-linguistic-audit.md",
+    "ownerReviewComplete": true,
+    "totalFindings": 55,
+    "linguisticFindings": 52,
+    "functionalFindings": 3,
+    "verdict": {
+      "LABOT": 54,
+      "NELABOT": 1,
+      "FALSE_POSITIVE": 0
+    },
+    "deChanges": 0,
+    "lvMasterChanges": 0,
+    "applyMode": "field-precise COPY-ONLY + universal registry"
+  },
+  "ownerOverridesVsLuna": [
+    {
+      "key": "kurss.back",
+      "lunaProposed": "‹ Kurs",
+      "ownerNew": "‹ Kurz",
+      "verdict": "NELABOT"
+    },
+    {
+      "key": "kurss.lessonProgress",
+      "lunaProposed": "Lekce {lesson} · Překlad: {current} / {total}",
+      "ownerNew": "Lekce {lesson} · Přeloženo: {current} / {total}"
+    },
+    {
+      "key": "kurss.exerciseMeta.formIhr",
+      "lunaProposed": "Forma 2/3: Vy (množné číslo)",
+      "ownerNew": "Forma 2/3: vy (množné číslo)"
+    },
+    {
+      "key": "kurss.lessonItems.7.menuDesc",
+      "lunaProposed": "Imperativ, oslovení a množné číslo.",
+      "ownerNew": "Imperativ, způsob oslovení a množné číslo."
+    },
+    {
+      "key": "kurss.panelLabel / menu.course / progress.courseHeading / kurss.title",
+      "note": "Kurs → Kurz (not Kurz → Kurs as Luna Finding 2 suggested)"
+    }
+  ],
+  "globalPrinciples": [
+    "CS Kurs → Kurz (kurss.back already ‹ Kurz — NELABOT)",
+    "CS Přednáška/Přednášky → Lekce for course units",
+    "Field-precise apply only — no global string replace",
+    "Do not use Luna PROPOSED where OWNER NEW differs",
+    "No DE changes",
+    "No LV MASTER changes",
+    "kurss.sections.exerciseCombined not in linguistic LABOT list — unchanged unless separate OWNER decision"
+  ],
+  "uiCopyApply": [
+    { "id": "L1", "key": "kurss.panelLabel", "file": "languages/cs/ui.js", "current": "Kurs", "ownerNew": "Kurz", "verdict": "LABOT" },
+    { "id": "L1b", "key": "kurss.title", "file": "languages/cs/ui.js", "current": "Kurs", "ownerNew": "Kurz", "verdict": "LABOT" },
+    { "id": "L1c", "key": "menu.course", "file": "languages/cs/ui.js", "current": "Kurs", "ownerNew": "Kurz", "verdict": "LABOT" },
+    { "id": "L1d", "key": "progress.courseHeading", "file": "languages/cs/ui.js", "current": "Kurs", "ownerNew": "Kurz", "verdict": "LABOT" },
+    { "id": "L2", "key": "kurss.back", "file": "languages/cs/ui.js", "current": "‹ Kurz", "ownerNew": "‹ Kurz", "verdict": "NELABOT" },
+    { "id": "L3", "key": "kurss.tipTitle", "file": "languages/cs/ui.js", "current": "Poradenství", "ownerNew": "Tip", "verdict": "LABOT" },
+    { "id": "L4", "key": "kurss.articles", "file": "languages/cs/ui.js", "current": "Články", "ownerNew": "Členy", "verdict": "LABOT" },
+    { "id": "L5", "key": "kurss.pronounsDesc", "file": "languages/cs/ui.js", "current": "Formy nominativ, akkusativ a dativ.", "ownerNew": "Tvary v nominativu, akuzativu a dativu.", "verdict": "LABOT" },
+    { "id": "L6", "key": "kurss.lessons", "file": "languages/cs/ui.js", "current": "Přednášky", "ownerNew": "Lekce", "verdict": "LABOT" },
+    { "id": "L7", "key": "kurss.lessonsDesc", "file": "languages/cs/ui.js", "current": "Výuka přednášek v sekvenčním pořadí od 1 do 21.", "ownerNew": "Lekce v pořadí od 1 do 21.", "verdict": "LABOT" },
+    { "id": "L8", "key": "kurss.verbBasicsDesc", "file": "languages/cs/ui.js", "current": "Osoby, tvary a obecná slovesa.", "ownerNew": "Osoby, tvary a běžná slovesa.", "verdict": "LABOT" },
+    { "id": "L9", "key": "kurss.pronounsSubtitle", "file": "languages/cs/ui.js", "current": "Nominativ, Akkusativ a Dativ - tvary zájmen.", "ownerNew": "Tvary zájmen v nominativu, akuzativu a dativu.", "verdict": "LABOT" },
+    { "id": "L10", "key": "kurss.vowelsSubtitle", "file": "languages/cs/ui.js", "current": "Samohlásky - dlouhé a krátké", "ownerNew": "Dlouhé a krátké samohlásky", "verdict": "LABOT" },
+    { "id": "L11", "key": "kurss.lessonsSubtitle", "file": "languages/cs/ui.js", "current": "Výuka přednášek v sekvenčním pořadí od 1 do 21.", "ownerNew": "Lekce v pořadí od 1 do 21.", "verdict": "LABOT" },
+    { "id": "L12", "key": "kurss.vowelsTitle", "file": "languages/cs/ui.js", "current": "Samohlásky - dlouhé a krátké", "ownerNew": "Dlouhé a krátké samohlásky", "verdict": "LABOT" },
+    { "id": "L13", "key": "kurss.consonantsDesc", "file": "languages/cs/ui.js", "current": "Nejdůležitější zvuky souhlásek pro začátečníky.", "ownerNew": "Nejdůležitější souhláskové zvuky pro začátečníky.", "verdict": "LABOT" },
+    { "id": "L14", "key": "kurss.lessonProgress", "file": "languages/cs/ui.js", "current": "Přednáška {lesson} · Přeložil: {current} / {total}", "ownerNew": "Lekce {lesson} · Přeloženo: {current} / {total}", "verdict": "LABOT" },
+    { "id": "L15", "key": "kurss.exerciseProgress", "file": "languages/cs/ui.js", "current": "Přednáška {lesson} · Cvičení", "ownerNew": "Lekce {lesson} · Cvičení", "verdict": "LABOT" },
+    { "id": "L16", "key": "kurss.cta.tapContinue", "file": "languages/cs/ui.js", "current": "Klepněte na pokračovat", "ownerNew": "Klepněte na tlačítko Pokračovat", "verdict": "LABOT" },
+    { "id": "L17", "key": "kurss.exerciseMeta.fillCase", "file": "languages/cs/ui.js", "current": "Übung I - Použijte správnou konjugaci", "ownerNew": "Cvičení I – použijte správný pád", "verdict": "LABOT" },
+    { "id": "L18", "key": "kurss.exerciseMeta.chooseCasePlural", "file": "languages/cs/ui.js", "current": "Dejte správnou konjugaci a udělejte z ní množné číslo!", "ownerNew": "Doplňte správný pád a vytvořte množné číslo!", "verdict": "LABOT" },
+    { "id": "L19", "key": "kurss.exerciseMeta.translate", "file": "languages/cs/ui.js", "current": "Übung II - přeložit", "ownerNew": "Cvičení II – překlad", "verdict": "LABOT" },
+    { "id": "L20", "key": "kurss.exerciseMeta.formDu", "file": "languages/cs/ui.js", "current": "Formulář 1/3: Vy (jednotné číslo)", "ownerNew": "Forma 1/3: Ty (jednotné číslo)", "verdict": "LABOT" },
+    { "id": "L21", "key": "kurss.exerciseMeta.formIhr", "file": "languages/cs/ui.js", "current": "Formulář 2/3: Vy (množné číslo)", "ownerNew": "Forma 2/3: vy (množné číslo)", "verdict": "LABOT" },
+    { "id": "L22", "key": "kurss.exerciseMeta.formSie", "file": "languages/cs/ui.js", "current": "Forma 3/3: Sie (slušná forma)", "ownerNew": "Forma 3/3: Sie (zdvořilá forma)", "verdict": "LABOT" },
+    { "id": "L23", "key": "kurss.lessonItems.1.title", "file": "languages/cs/ui.js", "current": "Přednáška 1", "ownerNew": "Lekce 1", "verdict": "LABOT" },
+    { "id": "L24", "key": "kurss.lessonItems.1.menuDesc", "file": "languages/cs/ui.js", "current": "Slovesa v přítomném čase, slova, gramatika a procvičování.", "ownerNew": "Slovesa v přítomném čase, slovíčka, gramatika a procvičování.", "verdict": "LABOT" },
+    { "id": "L25", "key": "kurss.lessonItems.2.title", "file": "languages/cs/ui.js", "current": "Přednáška 2", "ownerNew": "Lekce 2", "verdict": "LABOT" },
+    { "id": "L26", "key": "kurss.lessonItems.2.menuDesc", "file": "languages/cs/ui.js", "current": "Dialogy, slova, výslovnost, gramatika a překlad.", "ownerNew": "Dialogy, slovíčka, výslovnost, gramatika a překlad.", "verdict": "LABOT" },
+    { "id": "L27", "key": "kurss.lessonItems.3.title", "file": "languages/cs/ui.js", "current": "Přednáška 3", "ownerNew": "Lekce 3", "verdict": "LABOT" },
+    { "id": "L28", "key": "kurss.lessonItems.3.menuDesc", "file": "languages/cs/ui.js", "current": "Dialogy, slova, výslovnost, gramatika a překlad.", "ownerNew": "Dialogy, slovíčka, výslovnost, gramatika a překlad.", "verdict": "LABOT" },
+    { "id": "L29", "key": "kurss.lessonItems.4.title", "file": "languages/cs/ui.js", "current": "Přednáška 4", "ownerNew": "Lekce 4", "verdict": "LABOT" },
+    { "id": "L30", "key": "kurss.lessonItems.5.title", "file": "languages/cs/ui.js", "current": "Přednáška 5", "ownerNew": "Lekce 5", "verdict": "LABOT" },
+    { "id": "L31", "key": "kurss.lessonItems.5.menuDesc", "file": "languages/cs/ui.js", "current": "Wen?, akuzativ, sitzen, fragen a -in koncovka.", "ownerNew": "Wen?, akuzativ, sitzen, fragen a koncovka -in.", "verdict": "LABOT" },
+    { "id": "L32", "key": "kurss.lessonItems.6.title", "file": "languages/cs/ui.js", "current": "Přednáška 6", "ownerNew": "Lekce 6", "verdict": "LABOT" },
+    { "id": "L33", "key": "kurss.lessonItems.7.title", "file": "languages/cs/ui.js", "current": "Přednáška 7", "ownerNew": "Lekce 7", "verdict": "LABOT" },
+    { "id": "L34", "key": "kurss.lessonItems.7.menuDesc", "file": "languages/cs/ui.js", "current": "Imperativ, forma adresy a množné číslo.", "ownerNew": "Imperativ, způsob oslovení a množné číslo.", "verdict": "LABOT" },
+    { "id": "L35", "key": "kurss.lessonItems.8.title", "file": "languages/cs/ui.js", "current": "Přednáška 8", "ownerNew": "Lekce 8", "verdict": "LABOT" },
+    { "id": "L36", "key": "kurss.lessonItems.8.menuDesc", "file": "languages/cs/ui.js", "current": "Zvratná slovesa, e → i/ie záměna a akuzativ.", "ownerNew": "Zvratná slovesa, střídání e → i/ie a akuzativ.", "verdict": "LABOT" },
+    { "id": "L37", "key": "kurss.lessonItems.9.title", "file": "languages/cs/ui.js", "current": "Přednáška 9", "ownerNew": "Lekce 9", "verdict": "LABOT" },
+    { "id": "L38", "key": "kurss.lessonItems.10.title", "file": "languages/cs/ui.js", "current": "Přednáška 10", "ownerNew": "Lekce 10", "verdict": "LABOT" },
+    { "id": "L39", "key": "kurss.lessonItems.11.title", "file": "languages/cs/ui.js", "current": "Přednáška 11", "ownerNew": "Lekce 11", "verdict": "LABOT" },
+    { "id": "L40", "key": "kurss.lessonItems.11.menuDesc", "file": "languages/cs/ui.js", "current": "Haben, kein/keine/keinen, přivlastňovací a složená podstatná jména.", "ownerNew": "Haben, kein/keine/keinen, přivlastňovací zájmena a složená podstatná jména.", "verdict": "LABOT" },
+    { "id": "L41", "key": "kurss.lessonItems.12.title", "file": "languages/cs/ui.js", "current": "Přednáška 12", "ownerNew": "Lekce 12", "verdict": "LABOT" },
+    { "id": "L42", "key": "kurss.lessonItems.12.menuDesc", "file": "languages/cs/ui.js", "current": "Srovnatelné stupně, als/wie, věk a barvy.", "ownerNew": "Stupňování, als/wie, věk a barvy.", "verdict": "LABOT" },
+    { "id": "L43", "key": "kurss.lessonItems.13.title", "file": "languages/cs/ui.js", "current": "Přednáška 13", "ownerNew": "Lekce 13", "verdict": "LABOT" },
+    { "id": "L44", "key": "kurss.lessonItems.14.title", "file": "languages/cs/ui.js", "current": "Přednáška 14", "ownerNew": "Lekce 14", "verdict": "LABOT" },
+    { "id": "L45", "key": "kurss.lessonItems.15.title", "file": "languages/cs/ui.js", "current": "Přednáška 15", "ownerNew": "Lekce 15", "verdict": "LABOT" },
+    { "id": "L46", "key": "kurss.lessonItems.16.title", "file": "languages/cs/ui.js", "current": "Přednáška 16", "ownerNew": "Lekce 16", "verdict": "LABOT" },
+    { "id": "L47", "key": "kurss.lessonItems.17.title", "file": "languages/cs/ui.js", "current": "Přednáška 17", "ownerNew": "Lekce 17", "verdict": "LABOT" },
+    { "id": "L48", "key": "kurss.lessonItems.18.title", "file": "languages/cs/ui.js", "current": "Přednáška 18", "ownerNew": "Lekce 18", "verdict": "LABOT" },
+    { "id": "L49", "key": "kurss.lessonItems.18.menuDesc", "file": "languages/cs/ui.js", "current": "Wohin / wo, Akkusativ nebo Dativ s / in / auf.", "ownerNew": "Wohin / wo, Akkusativ nebo Dativ s an / in / auf.", "verdict": "LABOT" },
+    { "id": "L50", "key": "kurss.lessonItems.19.title", "file": "languages/cs/ui.js", "current": "Přednáška 19", "ownerNew": "Lekce 19", "verdict": "LABOT" },
+    { "id": "L51", "key": "kurss.lessonItems.20.title", "file": "languages/cs/ui.js", "current": "Přednáška 20", "ownerNew": "Lekce 20", "verdict": "LABOT" },
+    { "id": "L52", "key": "kurss.lessonItems.21.title", "file": "languages/cs/ui.js", "current": "Přednáška 21", "ownerNew": "Lekce 21", "verdict": "LABOT" }
+  ],
+  "rendererApply": [
+    {
+      "id": "R1",
+      "file": "ui.js",
+      "mirror": "www/ui.js",
+      "registry": "COURSE_TRANSLATE_SECTION_TITLES",
+      "add": "Přeložit",
+      "verdict": "LABOT",
+      "reason": "getCourseTranslateCards() returns [] for lessons 7+ when title not recognized"
+    },
+    {
+      "id": "R2",
+      "file": "ui.js",
+      "mirror": "www/ui.js",
+      "registry": "COURSE_EXERCISE_SECTION_TITLES",
+      "add": "Cvičení",
+      "verdict": "LABOT",
+      "reason": "getCourseExerciseCards() returns [] when title not recognized"
+    },
+    {
+      "id": "R3",
+      "file": "ui.js",
+      "mirror": "www/ui.js",
+      "registry": "COURSE_EXERCISE_SECTION_TITLES",
+      "add": "Übung / Cvičení",
+      "verdict": "LABOT",
+      "precondition": "Add only if production section titles still use this string after UI COPY apply. Current data/cs/courseLessons.js uses Übung / Cvičení in lessons 8–9 structured sections and legacy lesson 7 HTML; also kurss.sections.exerciseCombined in ui.js. Until content removes Übung prefix, registry must include this variant for functional parity.",
+      "reason": "Combined exercise section title not recognized by matcher"
+    }
+  ],
+  "mirrorSync": [
+    "languages/cs/ui.js → www/languages/cs/ui.js",
+    "ui.js → www/ui.js"
+  ],
+  "outOfScope": [
+    "data/cs/courseLessons.js content (629 content OWNER workflow)",
+    "kurss.sections.exerciseCombined — not in linguistic LABOT list; still Übung / Cvičení in ui.js",
+    "DE fields",
+    "LV MASTER"
+  ]
+}
