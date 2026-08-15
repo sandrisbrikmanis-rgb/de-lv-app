@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-08-09T07:43:13.435Z",
+  "scope": "EN-DE B1 CRITICAL targeted regression #1",
+  "cardsAudited": 4,
+  "followUpRepair": {
+    "card": "b1-fressen",
+    "field": "lv",
+    "expected": "Eat (of animals)",
+    "actual": "Eat (of animals)",
+    "status": "COMPLETE"
+  },
+  "cardResults": [
+    {
+      "cardId": "Baumstumpf",
+      "lemma": "Baumstumpf",
+      "pass": true,
+      "remainingCRITICAL": 0,
+      "remainingHIGH": 0,
+      "remainingMEDIUM": 0,
+      "remainingLOW": 0,
+      "sectionAccentsTECHNICAL": 0,
+      "sectionAccentsPEDAGOGICAL": 0
+    },
+    {
+      "cardId": "b1-fressen",
+      "lemma": "fressen",
+      "pass": true,
+      "remainingCRITICAL": 0,
+      "remainingHIGH": 0,
+      "remainingMEDIUM": 0,
+      "remainingLOW": 0,
+      "sectionAccentsTECHNICAL": 0,
+      "sectionAccentsPEDAGOGICAL": 1
+    },
+    {
+      "cardId": "b1-tau-2",
+      "lemma": "Tau",
+      "pass": true,
+      "remainingCRITICAL": 0,
+      "remainingHIGH": 0,
+      "remainingMEDIUM": 0,
+      "remainingLOW": 0,
+      "sectionAccentsTECHNICAL": 0,
+      "sectionAccentsPEDAGOGICAL": 0
+    },
+    {
+      "cardId": "b1-verfolgen",
+      "lemma": "verfolgen",
+      "pass": true,
+      "remainingCRITICAL": 0,
+      "remainingHIGH": 0,
+      "remainingMEDIUM": 0,
+      "remainingLOW": 0,
+      "sectionAccentsTECHNICAL": 0,
+      "sectionAccentsPEDAGOGICAL": 1
+    }
+  ],
+  "findings": [
+    {
+      "severity": "MEDIUM",
+      "cardId": "b1-fressen",
+      "field": "sectionAccents.explanation.purple[1]",
+      "issue": "sectionAccents targets stale \"tomorrow\" not in explanation",
+      "kind": "sectionAccents",
+      "accentKind": "PEDAGOGICAL"
+    },
+    {
+      "severity": "MEDIUM",
+      "cardId": "b1-verfolgen",
+      "field": "sectionAccents.comparison[1].meaning.purple",
+      "issue": "sectionAccents contains Latvian token \"sekot\"",
+      "kind": "sectionAccents",
+      "accentKind": "PEDAGOGICAL"
+    }
+  ],
+  "totals": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "sectionAccentsTECHNICAL": 0,
+    "sectionAccentsPEDAGOGICAL": 2
+  },
+  "verdict": "EN–DE B1 CRITICAL TARGETED REGRESSION #1 — PASS",
+  "validation": {
+    "javascriptSyntax": true,
+    "totalCards": 3367,
+    "structuralParity": true,
+    "orderParity": true,
+    "idParity": true,
+    "deReadOnly": true,
+    "mirrorParity": true
+  }
+}
