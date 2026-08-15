@@ -428,111 +428,127 @@ window.lesson7ExerciseCardsCs = [
     "lv": "Zeptat se",
     "du": "frag! / frage!",
     "ihr": "fragt!",
-    "sie": "fragen Sie!"
+    "sie": "fragen Sie!",
+    "back": ""
   },
   {
     "infinitive": "antworten",
     "lv": "Odpovědět",
     "du": "antworte!",
     "ihr": "antwortet!",
-    "sie": "antworten Sie!"
+    "sie": "antworten Sie!",
+    "back": ""
   },
   {
     "infinitive": "loben",
     "lv": "Chvála",
     "du": "lob! / lobe!",
     "ihr": "lobt!",
-    "sie": "loben Sie!"
+    "sie": "loben Sie!",
+    "back": ""
   },
   {
     "infinitive": "lieben",
     "lv": "Milovat",
     "du": "lieb! / liebe!",
     "ihr": "liebt!",
-    "sie": "lieben Sie!"
+    "sie": "lieben Sie!",
+    "back": ""
   },
   {
     "infinitive": "zählen",
     "lv": "Počítat",
     "du": "zähl! / zähle!",
     "ihr": "zählt!",
-    "sie": "zählen Sie!"
+    "sie": "zählen Sie!",
+    "back": ""
   },
   {
     "infinitive": "zeigen",
     "lv": "Show",
     "du": "zeig! / zeige!",
     "ihr": "zeigt!",
-    "sie": "zeigen Sie!"
+    "sie": "zeigen Sie!",
+    "back": ""
   },
   {
     "infinitive": "zeichnen",
     "lv": "Kreslit",
     "du": "zeichne!",
     "ihr": "zeichnet!",
-    "sie": "zeichnen Sie!"
+    "sie": "zeichnen Sie!",
+    "back": ""
   },
   {
     "infinitive": "rechnen",
     "lv": "Počítat",
     "du": "rechne!",
     "ihr": "rechnet!",
-    "sie": "rechnen Sie!"
+    "sie": "rechnen Sie!",
+    "back": ""
   },
   {
     "infinitive": "arbeiten",
     "lv": "Pracovat",
     "du": "arbeite!",
     "ihr": "arbeitet!",
-    "sie": "arbeiten Sie!"
+    "sie": "arbeiten Sie!",
+    "back": ""
   },
   {
     "infinitive": "kommen",
     "lv": "Přijít",
     "du": "komm! / komme!",
     "ihr": "kommt!",
-    "sie": "kommen Sie!"
+    "sie": "kommen Sie!",
+    "back": ""
   },
   {
     "infinitive": "gehen",
     "lv": "Jít",
     "du": "geh! / gehe!",
     "ihr": "geht!",
-    "sie": "gehen Sie!"
+    "sie": "gehen Sie!",
+    "back": ""
   },
   {
     "infinitive": "stehen",
     "lv": "Stát",
     "du": "steh! / stehe!",
     "ihr": "steht!",
-    "sie": "stehen Sie!"
+    "sie": "stehen Sie!",
+    "back": ""
   },
   {
     "infinitive": "öffnen",
     "lv": "Otevřít",
     "du": "öffne!",
     "ihr": "öffnet!",
-    "sie": "öffnen Sie!"
+    "sie": "öffnen Sie!",
+    "back": ""
   },
   {
     "infinitive": "singen",
     "lv": "Zpívat",
     "du": "sing! / singe!",
     "ihr": "singt!",
-    "sie": "singen Sie!"
+    "sie": "singen Sie!",
+    "back": ""
   },
   {
     "infinitive": "tun",
     "lv": "Dělat",
     "du": "tu!",
     "ihr": "tut!",
-    "sie": "tun Sie!"
+    "sie": "tun Sie!",
+    "back": ""
   },
   {
     "infinitive": "nehmen",
     "lv": "Vzít",
     "du": "nimm!",
     "ihr": "nehmt!",
-    "sie": "nehmen Sie!"
+    "sie": "nehmen Sie!",
+    "back": ""
   }
 ];
