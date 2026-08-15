@@ -274,9 +274,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Německý člen se ne vždy shoduje s českým rodem. Podstatná jména se proto nejlépe učí společně se členem.
 
 OWNER note:
 
@@ -307,9 +308,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+• Příklady členů
 
 OWNER note:
 
@@ -343,9 +345,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Člen der se často používá u označení mužských osob, dnů, měsíců, ročních období a u některých slov s určitými koncovkami.
 
 OWNER note:
 
@@ -381,9 +384,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+-er → často der, například: der Computer, der Lehrer, ale ne vždy.
 
 OWNER note:
 
@@ -417,9 +421,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Značky aut → der BMW, der Mercedes
 
 OWNER note:
 
@@ -453,9 +458,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Der August — srpen
 
 OWNER note:
 
@@ -486,9 +492,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+♀ Často DIE
 
 OWNER note:
 
@@ -522,9 +529,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Člen die se často používá u podstatných jmen ženského rodu a v množném čísle. Často se objevuje také u slov s koncovkami -ung, -heit, -keit, -schaft, -ion, -tät a -ei.
 
 OWNER note:
 
@@ -558,9 +566,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+-ion → die Nation
 
 OWNER note:
 
@@ -594,9 +603,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Motocyklové značky → die Harley-Davidson, die Yamaha
 
 OWNER note:
 
@@ -630,9 +640,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Množné číslo: v 1. a 4. pádě die → die Autos, die Häuser, die Kinder. Ve 3. pádě je den a ve 2. pádě der.
 
 OWNER note:
 
@@ -666,9 +677,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+U DAS jsou častá podstatná jména se zdrobňovacími příponami -chen / -lein, mnoho slov s -ment / -um a slovesa použitá jako podstatná jména.
 
 OWNER note:
 
@@ -702,11 +714,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Chemické prvky → das Eisen, der Sauerstoff
 
 OWNER note:
+Sdílený target s #014; rozšířený Luna text neodpovídá formátu karty — korekce členu u Sauerstoff.
 
 ---
 
@@ -738,11 +752,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Chemické prvky → das Eisen, der Sauerstoff
 
 OWNER note:
+SOURCE_DE_ISSUE: CS text opraven (der Sauerstoff), DE zdroj neměněn.
 
 ---
 
@@ -774,9 +790,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Slovesa jako podstatná jména → das Essen, das Lernen
 
 OWNER note:
 
@@ -807,9 +824,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+! Důležité výjimky / nutno se naučit se členem
 
 OWNER note:
 
@@ -843,9 +861,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+U některých slov nelze člen spolehlivě určit podle koncovky nebo českého rodu. Nejlépe se učí společně se členem.
 
 OWNER note:
 
@@ -879,11 +898,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+U některých slov nelze člen spolehlivě určit podle koncovky nebo českého rodu. Nejlépe se učí společně se členem.
 
 OWNER note:
+Sdílený target s #017 — stejný OWNER NEW.
 
 ---
 
@@ -912,9 +933,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Koncovky a skupiny slov pomáhají uhodnout člen, ale nejsou stoprocentně spolehlivým pravidlem. Pokud si nejste jisti, naučte se slovo se členem.
 
 OWNER note:
 
@@ -948,11 +970,12 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: NELABOT
 
 OWNER NEW:
 
 OWNER note:
+Kurz konzistentně používá „Přednáška“ (shodně s L2–L21 a intro).
 
 ---
 
@@ -984,9 +1007,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Slovesa v přítomném čase, podstatná jména, gramatika a překlad
 
 OWNER note:
 
@@ -1020,9 +1044,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Členy, názvy míst a překlady
 
 OWNER note:
 
@@ -1053,9 +1078,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+2 Členy
 
 OWNER note:
 
@@ -1086,9 +1112,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Určitý člen
 
 OWNER note:
 
@@ -1119,9 +1146,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Neurčitý člen
 
 OWNER note:
 
@@ -1155,11 +1183,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Mužský rod — der
 
 OWNER note:
+Sdílený target s #027.
 
 ---
 
@@ -1191,11 +1221,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Mužský rod — der
 
 OWNER note:
+Sdílený target s #026.
 
 ---
 
@@ -1227,11 +1259,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Ženský rod — die
 
 OWNER note:
+Sdílený target s #029.
 
 ---
 
@@ -1263,11 +1297,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Ženský rod — die
 
 OWNER note:
+Sdílený target s #028.
 
 ---
 
@@ -1299,9 +1335,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Střední rod — das
 
 OWNER note:
 
@@ -1335,11 +1372,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Určitý člen množného čísla pro všechny tři rody je die.
 
 OWNER note:
+Sdílený target s #032.
 
 ---
 
@@ -1371,11 +1410,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Určitý člen množného čísla pro všechny tři rody je die.
 
 OWNER note:
+Sdílený target s #031.
 
 ---
 
@@ -1407,9 +1448,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Mužský rod — ein
 
 OWNER note:
 
@@ -1443,9 +1485,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Ženský rod — eine
 
 OWNER note:
 
@@ -1479,9 +1522,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Střední rod — ein
 
 OWNER note:
 
@@ -1515,9 +1559,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Před většinou vlastních jmen se člen nepoužívá.
 
 OWNER note:
 
@@ -1548,9 +1593,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+4 Pozice slovesa
 
 OWNER note:
 
@@ -1584,9 +1630,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+V oznamovací hlavní větě stojí určité sloveso na druhém místě.
 
 OWNER note:
 
@@ -1620,9 +1667,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+V ženském a středním rodě se akuzativ shoduje s nominativem. Mění se pouze mužský rod.
 
 OWNER note:
 
@@ -1656,9 +1704,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Nominativ: der Federhalter, die Feder, das Messer.
 
 OWNER note:
 
@@ -1692,9 +1741,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Akuzativ: einen Federhalter, eine Feder, ein Messer.
 
 OWNER note:
 
@@ -1728,9 +1778,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Wen?, akuzativ, slovesa sitzen a fragen a koncovka -in
 
 OWNER note:
 
@@ -1764,9 +1815,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+V češtině nominativ odpovídá otázkám kdo? a co?, zatímco akuzativ otázkám koho? a co?.
 
 OWNER note:
 
@@ -1800,9 +1852,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+V němčině se v nominativu ptáme wer? u osob a was? u věcí.
 
 OWNER note:
 
@@ -1836,9 +1889,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+V akuzativu se ptáme wen? u osob a was? u věcí.
 
 OWNER note:
 
@@ -1869,9 +1923,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Změna členů v akuzativu
 
 OWNER note:
 
@@ -1905,9 +1960,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Nominativ: der Vater, die Mutter, das Kind.
 
 OWNER note:
 
@@ -1941,9 +1997,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Nominativ: der Federhalter, die Feder, das Messer.
 
 OWNER note:
 
@@ -1977,9 +2034,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Neurčitý člen má před podstatným jménem v jednotném čísle tyto tvary: ein v mužském rodě, eine v ženském rodě a ein ve středním rodě.
 
 OWNER note:
 
@@ -2013,9 +2071,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Podstatné jméno Schüler má v němčině tvar jednotného i množného čísla: der Schüler ist klein; die Schüler sind klein.
 
 OWNER note:
 
