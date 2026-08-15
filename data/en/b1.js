@@ -6025,7 +6025,7 @@ const B1_WORDS = [
     "de": "Baumstumpf",
     "de_article": "der",
     "de_plural": "die Baumstümpfe",
-    "lv": "Strain",
+    "lv": "Tree stump",
     "level": "B1"
   },
   {
@@ -23830,13 +23830,13 @@ const B1_WORDS = [
   },
   {
     "de": "fressen",
-    "lv": "Tomorrow",
+    "lv": "Eat (of animals)",
     "level": "B1",
     "study": {
       "id": "b1-fressen",
       "layout": "standardStudy",
-      "translation": "Tomorrow",
-      "explanation": "Main idea: fressen is used when an animal eats. It sounds rude or derogatory about a person, roughly like \"tomorrow\" or \"tomorrow\".",
+      "translation": "Eat (of animals)",
+      "explanation": "fressen is the usual verb for animals eating. When used about people, it is rude or disparaging and can mean “gobble” or “wolf down”.",
       "examples": [
         {
           "de": "Der Hund frisst sein Futter.",
@@ -23854,12 +23854,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "fressen",
-          "meaning": "Eat the animal / tomorrow",
+          "meaning": "Eat (of animals) / gobble",
           "example": "Der Hund frisst. = The dog eats."
         },
         {
           "word": "essen",
-          "meaning": "To eat a person",
+          "meaning": "To eat (of people)",
           "example": "Ich esse Brot. = I eat bread."
         },
         {
@@ -23934,8 +23934,9 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "eat",
-            "tomorrow"
+            "animals eating",
+            "gobble",
+            "wolf down"
           ]
         },
         "comparison": [
@@ -23981,7 +23982,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "rupji"
+                  "rude"
                 ]
               }
             }
@@ -54725,7 +54726,7 @@ const B1_WORDS = [
       "id": "b1-tau-2",
       "layout": "standardStudy",
       "translation": "Ship's tow",
-      "explanation": "Main Idea: das Tau means ship's tow or strong rope. The plural is die Taue. Der Tau, on the other hand, means race and is only used in the singular.",
+      "explanation": "Main Idea: das Tau means ship's tow or strong rope. The plural is die Taue. Der Tau, on the other hand, means dew and is used only in the singular.",
       "examples": [
         {
           "de": "Das Schiff liegt am Tau.",
@@ -54733,7 +54734,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Taue sind fest gebunden.",
-          "lv": "The tows are tied tightly."
+          "lv": "The ropes are tied tightly."
         },
         {
           "de": "Am Morgen liegt Tau auf der Wiese.",
@@ -54760,7 +54761,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "For the lashing and ropes of the ship — das Tau. About the dew on the grass - der Tau."
+            "text": "For tying up a ship and for ropes — das Tau. For dew on the grass — der Tau."
           }
         ]
       },
@@ -59027,7 +59028,7 @@ const B1_WORDS = [
       "id": "b1-verfolgen",
       "layout": "standardStudy",
       "translation": "To follow",
-      "explanation": "Main idea: verförchen means to follow, to chase, or to pursue. The meaning becomes stronger when the object is a person.",
+      "explanation": "Main idea: verfolgen means to follow, chase, or pursue. The meaning becomes stronger when the object is a person.",
       "examples": [
         {
           "de": "Die Polizei verfolgt den Täter.",
@@ -59062,12 +59063,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "News can be followed; a person can be persecuted: verschreibung."
+            "text": "You can follow the news; you can chase or pursue a person: verfolgen."
           }
         ]
       },
       "important": {
-        "text": "to persehen with a person often means to chase rather than to follow calmly."
+        "text": "verfolgen with a person often means to chase rather than to follow calmly."
       },
       "sectionAccents": {
         "explanation": {
@@ -59123,7 +59124,7 @@ const B1_WORDS = [
               "green": "folgen"
             },
             "meaning": {
-              "purple": "sekot"
+              "purple": "follow"
             },
             "example": {
               "red": "folge"
