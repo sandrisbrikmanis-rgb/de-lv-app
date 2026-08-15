@@ -1,0 +1,2600 @@
+{
+  "meta": {
+    "date": "2026-08-15T09:46:34.850Z",
+    "branch": "cursor/cs-c1-targeted-regression-audit-6ea4",
+    "auditCommit": "ab324d1a63b3cf9dffb5b4e0d2d379b7d55eeb8a",
+    "model": "GPT-5.6 Luna",
+    "apiModel": "gpt-5.6-luna"
+  },
+  "summary": {
+    "prerequisitePass": true,
+    "ownerNewExact": 265,
+    "ownerDrift": 0,
+    "currentMismatch": 0,
+    "cardNotFound": 0,
+    "fieldNotFound": 0,
+    "ownerConflict": 0,
+    "changedMappings": 265,
+    "uniqueChangedCards": 222,
+    "mainTranslationFields": 208,
+    "studyFields": 57,
+    "studyCardsChecked": 14,
+    "rawFindings": 2,
+    "malformedFiltered": 0,
+    "falsePositive": 2,
+    "sourceDeIssue": 0,
+    "validated": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "MEDIUM": 0,
+      "LOW": 0
+    },
+    "productionChanges": 0,
+    "deChanges": 0,
+    "syntax": "PASS",
+    "idOrder": "PASS",
+    "cardCount": 572,
+    "mirrorParity": "PASS",
+    "lunaRequests": 4,
+    "lunaTokens": 33192
+  },
+  "ownerCheck": {
+    "pass": true,
+    "exact": 265,
+    "drift": 0,
+    "cardNotFound": 0,
+    "fieldNotFound": 0,
+    "conflict": 0,
+    "currentMismatch": 0,
+    "results": [
+      {
+        "cardId": "c1-gewährleisten-1",
+        "field": "csText",
+        "current": "Poskytnout",
+        "new": "Zajistit",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          1 `c1-gewährleisten-1`               `csText`   Poskytnout      Zajistit       ",
+        "actual": "Zajistit"
+      },
+      {
+        "cardId": "c1-umstritten-3",
+        "field": "csText",
+        "current": "Rozporuplné",
+        "new": "Kontroverzní • Sporný",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          2 `c1-umstritten-3`                  `csText`   Rozporuplné     Kontroverzní • \n                                                                          Sporný         ",
+        "actual": "Kontroverzní • Sporný"
+      },
+      {
+        "cardId": "c1-nachvollziehen-5",
+        "field": "csText",
+        "current": "Rozumět • Následovat logiku",
+        "new": "Rozumět • Sledovat logiku",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          3 `c1-nachvollziehen-5`              `csText`   Rozumět •       Rozumět •      \n                                                          Následovat      Sledovat       \n                                                          logiku          logiku         ",
+        "actual": "Rozumět • Sledovat logiku"
+      },
+      {
+        "cardId": "c1-Aktionsprogramm-10",
+        "field": "csText",
+        "current": "Program akcí",
+        "new": "Akční program",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          4 `c1-Aktionsprogramm-10`            `csText`   Program akcí    Akční program  ",
+        "actual": "Akční program"
+      },
+      {
+        "cardId": "c1-Alarmbereitschaft-11",
+        "field": "csText",
+        "current": "Pohotovosti",
+        "new": "Pohotovost",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          5 `c1-Alarmbereitschaft-11`          `csText`   Pohotovosti     Pohotovost     ",
+        "actual": "Pohotovost"
+      },
+      {
+        "cardId": "c1-Altweibersommer-12",
+        "field": "csText",
+        "current": "Jaro",
+        "new": "Babí léto",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          6 `c1-Altweibersommer-12`            `csText`   Jaro            Babí léto      ",
+        "actual": "Babí léto"
+      },
+      {
+        "cardId": "c1-anfechten-13",
+        "field": "csText",
+        "current": "Spor • Otázka",
+        "new": "Napadnout • Zpochybnit",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          7 `c1-anfechten-13`                  `csText`   Spor • Otázka   Napadnout •    \n                                                                          Zpochybnit     ",
+        "actual": "Napadnout • Zpochybnit"
+      },
+      {
+        "cardId": "c1-Frachtbrief-26",
+        "field": "csText",
+        "current": "Nákladní nákladní list",
+        "new": "Nákladní list",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          8 `c1-Frachtbrief-26`                `csText`   Nákladní        Nákladní list  \n                                                          nákladní list                  ",
+        "actual": "Nákladní list"
+      },
+      {
+        "cardId": "c1-Frachtgeld-27",
+        "field": "csText",
+        "current": "Poplatky za přepravu",
+        "new": "Přepravné",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          9 `c1-Frachtgeld-27`                 `csText`   Poplatky za     Přepravné      \n                                                          přepravu                       ",
+        "actual": "Přepravné"
+      },
+      {
+        "cardId": "c1-Frauenrechtlerin-28",
+        "field": "csText",
+        "current": "Bojovník za rovnoprávnost žen",
+        "new": "Bojovnice za práva žen",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         10 `c1-Frauenrechtlerin-28`           `csText`   Bojovník za     Bojovnice za   \n                                                          rovnoprávnost   práva žen      \n                                                          žen                            ",
+        "actual": "Bojovnice za práva žen"
+      },
+      {
+        "cardId": "c1-Kinderschänder-30",
+        "field": "csText",
+        "current": "Pedofil",
+        "new": "Pachatel sexuálního zneužívání dětí",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         11 `c1-Kinderschänder-30`             `csText`   Pedofil         Pachatel       \n                                                                          sexuálního     \n                                                                          zneužívání     \n                                                                          dětí           ",
+        "actual": "Pachatel sexuálního zneužívání dětí"
+      },
+      {
+        "cardId": "c1-Kindesmisshandlung-31",
+        "field": "csText",
+        "current": "Násilí na dětech",
+        "new": "Týrání dětí",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         12 `c1-Kindesmisshandlung-31`         `csText`   Násilí na       Týrání dětí    \n                                                          dětech                         ",
+        "actual": "Týrání dětí"
+      },
+      {
+        "cardId": "c1-Zivilgesetzbuch-32",
+        "field": "csText",
+        "current": "Občanské právo",
+        "new": "Občanský zákoník",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         13 `c1-Zivilgesetzbuch-32`            `csText`   Občanské právo  Občanský       \n                                                                          zákoník        ",
+        "actual": "Občanský zákoník"
+      },
+      {
+        "cardId": "c1-Aktie-33",
+        "field": "csText",
+        "current": "Akce",
+        "new": "Akcie",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         14 `c1-Aktie-33`                      `csText`   Akce            Akcie          ",
+        "actual": "Akcie"
+      },
+      {
+        "cardId": "c1-Anwalt-35",
+        "field": "csText",
+        "current": "Právník",
+        "new": "Advokát",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         15 `c1-Anwalt-35`                     `csText`   Právník         Advokát        ",
+        "actual": "Advokát"
+      },
+      {
+        "cardId": "c1-Bäckerhandwerk-39",
+        "field": "csText",
+        "current": "Práce pekaře",
+        "new": "Pekařské řemeslo",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         16 `c1-Bäckerhandwerk-39`             `csText`   Práce pekaře    Pekařské       \n                                                                          řemeslo        ",
+        "actual": "Pekařské řemeslo"
+      },
+      {
+        "cardId": "c1-sich beschäftigen-43",
+        "field": "csText",
+        "current": "Obsadit",
+        "new": "Zabývat se",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         17 `c1-sich beschäftigen-43`          `csText`   Obsadit         Zabývat se     ",
+        "actual": "Zabývat se"
+      },
+      {
+        "cardId": "c1-Beschäftigung-44",
+        "field": "csText",
+        "current": "Povolání",
+        "new": "Zaměstnání • Činnost",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         18 `c1-Beschäftigung-44`              `csText`   Povolání        Zaměstnání •   \n                                                                          Činnost        ",
+        "actual": "Zaměstnání • Činnost"
+      },
+      {
+        "cardId": "c1-Besichtigung-46",
+        "field": "csText",
+        "current": "Inspekce",
+        "new": "Prohlídka",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         19 `c1-Besichtigung-46`               `csText`   Inspekce        Prohlídka      ",
+        "actual": "Prohlídka"
+      },
+      {
+        "cardId": "c1-Autobahnbrücke-48",
+        "field": "csText",
+        "current": "Silniční nadjezd",
+        "new": "Dálniční most",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         20 `c1-Autobahnbrücke-48`             `csText`   Silniční        Dálniční most  \n                                                          nadjezd                        ",
+        "actual": "Dálniční most"
+      },
+      {
+        "cardId": "c1-Gepäckträger-70",
+        "field": "csText",
+        "current": "Kufr",
+        "new": "Nosič zavazadel",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         21 `c1-Gepäckträger-70`               `csText`   Kufr            Nosič          \n                                                                          zavazadel      ",
+        "actual": "Nosič zavazadel"
+      },
+      {
+        "cardId": "c1-geschäftlich-71",
+        "field": "csText",
+        "current": "Transakce",
+        "new": "Obchodní",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         22 `c1-geschäftlich-71`               `csText`   Transakce       Obchodní       ",
+        "actual": "Obchodní"
+      },
+      {
+        "cardId": "c1-Gesichtspunkt-77",
+        "field": "csText",
+        "current": "Názor",
+        "new": "Hledisko • Aspekt",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         23 `c1-Gesichtspunkt-77`              `csText`   Názor           Hledisko •     \n                                                                          Aspekt         ",
+        "actual": "Hledisko • Aspekt"
+      },
+      {
+        "cardId": "c1-Tasteninstrument-90",
+        "field": "csText",
+        "current": "Klávesnice",
+        "new": "Klávesový nástroj",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         24 `c1-Tasteninstrument-90`           `csText`   Klávesnice      Klávesový      \n                                                                          nástroj        ",
+        "actual": "Klávesový nástroj"
+      },
+      {
+        "cardId": "c1-Krankheitsbild-101",
+        "field": "csText",
+        "current": "Nemocná scéna",
+        "new": "Klinický obraz",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         25 `c1-Krankheitsbild-101`            `csText`   Nemocná scéna   Klinický obraz ",
+        "actual": "Klinický obraz"
+      },
+      {
+        "cardId": "c1-Lastkraftwagen-102",
+        "field": "csText",
+        "current": "Těžké auto",
+        "new": "Nákladní automobil",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         26 `c1-Lastkraftwagen-102`            `csText`   Těžké auto      Nákladní       \n                                                                          automobil      ",
+        "actual": "Nákladní automobil"
+      },
+      {
+        "cardId": "c1-Morgengymnastik-112",
+        "field": "csText",
+        "current": "Svítání",
+        "new": "Ranní cvičení",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         28 `c1-Morgengymnastik-112`           `csText`   Svítání         Ranní cvičení  ",
+        "actual": "Ranní cvičení"
+      },
+      {
+        "cardId": "c1-Notarzt-116",
+        "field": "csText",
+        "current": "Pohotovostní lékař",
+        "new": "Lékař záchranné služby",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         29 `c1-Notarzt-116`                   `csText`   Pohotovostní    Lékař          \n                                                          lékař           záchranné      \n                                                                          služby         ",
+        "actual": "Lékař záchranné služby"
+      },
+      {
+        "cardId": "c1-Rechtsanwalt-129",
+        "field": "csText",
+        "current": "Právník",
+        "new": "Advokát",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         30 `c1-Rechtsanwalt-129`              `csText`   Právník         Advokát        ",
+        "actual": "Advokát"
+      },
+      {
+        "cardId": "c1-Rennen mit Hindernissen-131",
+        "field": "csText",
+        "current": "Překážkovou dráhu",
+        "new": "Překážkový závod",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         31 `c1-Rennen mit Hindernissen-131`   `csText`   Překážkovou     Překážkový     \n                                                          dráhu           závod          ",
+        "actual": "Překážkový závod"
+      },
+      {
+        "cardId": "c1-Scheibenwischer-136",
+        "field": "csText",
+        "current": "Čistič oken automobilů",
+        "new": "Stěrač",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         32 `c1-Scheibenwischer-136`           `csText`   Čistič oken     Stěrač         \n                                                          automobilů                     ",
+        "actual": "Stěrač"
+      },
+      {
+        "cardId": "c1-Schiedsrichter-137",
+        "field": "csText",
+        "current": "Soudce",
+        "new": "Rozhodčí",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         33 `c1-Schiedsrichter-137`            `csText`   Soudce          Rozhodčí       ",
+        "actual": "Rozhodčí"
+      },
+      {
+        "cardId": "c1-schmerzhaft-139",
+        "field": "csText",
+        "current": "Bolestivé",
+        "new": "Bolestivý",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         35 `c1-schmerzhaft-139`               `csText`   Bolestivé       Bolestivý      ",
+        "actual": "Bolestivý"
+      },
+      {
+        "cardId": "c1-Schutzumschlag-142",
+        "field": "csText",
+        "current": "Pokrýt",
+        "new": "Ochranný přebal",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         36 `c1-Schutzumschlag-142`            `csText`   Pokrýt          Ochranný       \n                                                                          přebal         ",
+        "actual": "Ochranný přebal"
+      },
+      {
+        "cardId": "c1-Schwiegereltern-143",
+        "field": "csText",
+        "current": "Manželovi rodiče",
+        "new": "Tchán a tchyně",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         37 `c1-Schwiegereltern-143`           `csText`   Manželovi       Tchán a tchyně \n                                                          rodiče                         ",
+        "actual": "Tchán a tchyně"
+      },
+      {
+        "cardId": "c1-Stadtrundfahrt-149",
+        "field": "csText",
+        "current": "Výlet městem",
+        "new": "Okružní prohlídka města",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         38 `c1-Stadtrundfahrt-149`            `csText`   Výlet městem    Okružní        \n                                                                          prohlídka      \n                                                                          města          ",
+        "actual": "Okružní prohlídka města"
+      },
+      {
+        "cardId": "c1-Stellvertreter-151",
+        "field": "csText",
+        "current": "Nahradit",
+        "new": "Zástupce",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         39 `c1-Stellvertreter-151`            `csText`   Nahradit        Zástupce       ",
+        "actual": "Zástupce"
+      },
+      {
+        "cardId": "c1-Strampelhöschen-153",
+        "field": "csText",
+        "current": "Dětská prolézačka",
+        "new": "Dupačky",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         40 `c1-Strampelhöschen-153`           `csText`   Dětská          Dupačky        \n                                                          prolézačka                     ",
+        "actual": "Dupačky"
+      },
+      {
+        "cardId": "c1-Stromverbrauch-154",
+        "field": "csText",
+        "current": "Aktuální spotřeba",
+        "new": "Spotřeba elektřiny",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         41 `c1-Stromverbrauch-154`            `csText`   Aktuální        Spotřeba       \n                                                          spotřeba        elektřiny      ",
+        "actual": "Spotřeba elektřiny"
+      },
+      {
+        "cardId": "c1-Terminkalender-157",
+        "field": "csText",
+        "current": "Poznámkový kalendář",
+        "new": "Kalendář termínů",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         42 `c1-Terminkalender-157`            `csText`   Poznámkový      Kalendář       \n                                                          kalendář        termínů        ",
+        "actual": "Kalendář termínů"
+      },
+      {
+        "cardId": "c1-transportieren-160",
+        "field": "csText",
+        "current": "K přepravě",
+        "new": "Přepravovat",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         43 `c1-transportieren-160`            `csText`   K přepravě      Přepravovat    ",
+        "actual": "Přepravovat"
+      },
+      {
+        "cardId": "c1-Überschwemmung-161",
+        "field": "csText",
+        "current": "Zaplavit",
+        "new": "Povodeň • Záplava",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         44 `c1-Überschwemmung-161`            `csText`   Zaplavit        Povodeň •      \n                                                                          Záplava        ",
+        "actual": "Povodeň • Záplava"
+      },
+      {
+        "cardId": "c1-Unternehmen-162",
+        "field": "csText",
+        "current": "Společnost • Event",
+        "new": "Podnik • Společnost",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         45 `c1-Unternehmen-162`               `csText`   Společnost •    Podnik •       \n                                                          Event           Společnost     ",
+        "actual": "Podnik • Společnost"
+      },
+      {
+        "cardId": "c1-verantworten-168",
+        "field": "csText",
+        "current": "Převzít zodpovědnost za",
+        "new": "Nést odpovědnost za",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         46 `c1-verantworten-168`              `csText`   Převzít         Nést           \n                                                          zodpovědnost za odpovědnost za ",
+        "actual": "Nést odpovědnost za"
+      },
+      {
+        "cardId": "c1-Verlegenheit-173",
+        "field": "csText",
+        "current": "Zmatek",
+        "new": "Rozpaky",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         47 `c1-Verlegenheit-173`              `csText`   Zmatek          Rozpaky        ",
+        "actual": "Rozpaky"
+      },
+      {
+        "cardId": "c1-verschlucken-175",
+        "field": "csText",
+        "current": "Polykat",
+        "new": "Spolknout",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         48 `c1-verschlucken-175`              `csText`   Polykat         Spolknout      ",
+        "actual": "Spolknout"
+      },
+      {
+        "cardId": "c1-sich verständigen-178",
+        "field": "csText",
+        "current": "Vycházet spolu",
+        "new": "Dorozumět se",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         49 `c1-sich verständigen-178`         `csText`   Vycházet spolu  Dorozumět se   ",
+        "actual": "Dorozumět se"
+      },
+      {
+        "cardId": "c1-sich zufrieden geben-185",
+        "field": "csText",
+        "current": "Uspokojit",
+        "new": "Spokojit se",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         50 `c1-sich zufrieden geben-185`      `csText`   Uspokojit       Spokojit se    ",
+        "actual": "Spokojit se"
+      },
+      {
+        "cardId": "c1-Aufmerksamkeit-189",
+        "field": "csText",
+        "current": "Pozor",
+        "new": "Pozornost",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          51 `c1-Aufmerksamkeit-189`        `csText`   Pozor           Pozornost       ",
+        "actual": "Pozornost"
+      },
+      {
+        "cardId": "c1-Abgeordnete-197",
+        "field": "csText",
+        "current": "Zástupce • Zástupce • Delegát",
+        "new": "Poslanec • Zástupce • Delegát",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          52 `c1-Abgeordnete-197`           `csText`   Zástupce •      Poslanec •      \n                                                       Zástupce •      Zástupce •      \n                                                       Delegát         Delegát         ",
+        "actual": "Poslanec • Zástupce • Delegát"
+      },
+      {
+        "cardId": "c1-Abkommen-198",
+        "field": "csText",
+        "current": "Dohoda • Dohoda",
+        "new": "Dohoda • Úmluva",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          53 `c1-Abkommen-198`              `csText`   Dohoda • Dohoda Dohoda • Úmluva ",
+        "actual": "Dohoda • Úmluva"
+      },
+      {
+        "cardId": "c1-Abschleppdienst-199",
+        "field": "csText",
+        "current": "Evakuační služba • Stěhovací služba",
+        "new": "Odtahová služba",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          54 `c1-Abschleppdienst-199`       `csText`   Evakuační       Odtahová služba \n                                                       služba •                        \n                                                       Stěhovací                       \n                                                       služba                          ",
+        "actual": "Odtahová služba"
+      },
+      {
+        "cardId": "c1-beachtenswert-207",
+        "field": "csText",
+        "current": "Pozoruhodný • Značný",
+        "new": "Pozoruhodný",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          55 `c1-beachtenswert-207`         `csText`   Pozoruhodný •   Pozoruhodný     \n                                                       Značný                          ",
+        "actual": "Pozoruhodný"
+      },
+      {
+        "cardId": "c1-bedingungslos-210",
+        "field": "csText",
+        "current": "Bezpodmínečný • Bezpodmínečný • Bez výhrad • Bez podmínek",
+        "new": "Bezpodmínečný • Bez výhrad • Bez podmínek",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          56 `c1-bedingungslos-210`         `csText`   Bezpodmínečný • Bezpodmínečný • \n                                                       Bezpodmínečný • Bez výhrad •    \n                                                       Bez výhrad •    Bez podmínek    \n                                                       Bez podmínek                    ",
+        "actual": "Bezpodmínečný • Bez výhrad • Bez podmínek"
+      },
+      {
+        "cardId": "c1-Befangenheit-211",
+        "field": "csText",
+        "current": "Rozpaky • Rozpaky",
+        "new": "Podjatost • Rozpaky",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          57 `c1-Befangenheit-211`          `csText`   Rozpaky •       Podjatost •     \n                                                       Rozpaky         Rozpaky         ",
+        "actual": "Podjatost • Rozpaky"
+      },
+      {
+        "cardId": "c1-beglückwünschen-213",
+        "field": "csText",
+        "current": "Přát si štěstí • Blahopřát",
+        "new": "Blahopřát",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          58 `c1-beglückwünschen-213`       `csText`   Přát si štěstí  Blahopřát       \n                                                       • Blahopřát                     ",
+        "actual": "Blahopřát"
+      },
+      {
+        "cardId": "c1-beiderseitig-214",
+        "field": "csText",
+        "current": "Oboustranný • Oboustranný",
+        "new": "Oboustranný",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          59 `c1-beiderseitig-214`          `csText`   Oboustranný •   Oboustranný     \n                                                       Oboustranný                     ",
+        "actual": "Oboustranný"
+      },
+      {
+        "cardId": "c1-beispielhaft-216",
+        "field": "csText",
+        "current": "Vzorný • Vzorný",
+        "new": "Vzorný • Příkladný",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          60 `c1-beispielhaft-216`          `csText`   Vzorný • Vzorný Vzorný •        \n                                                                       Příkladný       ",
+        "actual": "Vzorný • Příkladný"
+      },
+      {
+        "cardId": "c1-beklagen-217",
+        "field": "csText",
+        "current": "Litovat • Truchlit • Truchlit • Naříkat • Stěžovat si",
+        "new": "Litovat • Oplakávat • Naříkat • Stěžovat si",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          61 `c1-beklagen-217`              `csText`   Litovat •       Litovat •       \n                                                       Truchlit •      Oplakávat •     \n                                                       Truchlit •      Naříkat •       \n                                                       Naříkat •       Stěžovat si     \n                                                       Stěžovat si                     ",
+        "actual": "Litovat • Oplakávat • Naříkat • Stěžovat si"
+      },
+      {
+        "cardId": "c1-Zahnbelag-218",
+        "field": "csText",
+        "current": "Zubního plaku",
+        "new": "Zubní plak",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          62 `c1-Zahnbelag-218`             `csText`   Zubního plaku   Zubní plak      ",
+        "actual": "Zubní plak"
+      },
+      {
+        "cardId": "c1-Belegschaft-219",
+        "field": "csText",
+        "current": "Kolektivní • Zaměstnanci",
+        "new": "Personál • Zaměstnanci",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          63 `c1-Belegschaft-219`           `csText`   Kolektivní •    Personál •      \n                                                       Zaměstnanci     Zaměstnanci     ",
+        "actual": "Personál • Zaměstnanci"
+      },
+      {
+        "cardId": "c1-benachteiligen-220",
+        "field": "csText",
+        "current": "Škodit • Způsobit škodu • Škodit",
+        "new": "Znevýhodňovat • Poškozovat",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          64 `c1-benachteiligen-220`        `csText`   Škodit •        Znevýhodňovat • \n                                                       Způsobit škodu  Poškozovat      \n                                                       • Škodit                        ",
+        "actual": "Znevýhodňovat • Poškozovat"
+      },
+      {
+        "cardId": "c1-beratschlagen-222",
+        "field": "csText",
+        "current": "Diskutovat",
+        "new": "Radit se • Projednávat",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          65 `c1-beratschlagen-222`         `csText`   Diskutovat      Radit se •      \n                                                                       Projednávat     ",
+        "actual": "Radit se • Projednávat"
+      },
+      {
+        "cardId": "c1-bereitwillig-224",
+        "field": "csText",
+        "current": "Připraven sloužit • Zavazující",
+        "new": "Ochotný • Vstřícný",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          66 `c1-bereitwillig-224`          `csText`   Připraven       Ochotný •       \n                                                       sloužit •       Vstřícný        \n                                                       Zavazující                      ",
+        "actual": "Ochotný • Vstřícný"
+      },
+      {
+        "cardId": "c1-Berufsberatung-225",
+        "field": "csText",
+        "current": "Konzultace odborné orientace",
+        "new": "Profesní poradenství",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          67 `c1-Berufsberatung-225`        `csText`   Konzultace      Profesní        \n                                                       odborné         poradenství     \n                                                       orientace                       ",
+        "actual": "Profesní poradenství"
+      },
+      {
+        "cardId": "c1-Berufsgeheimnis-226",
+        "field": "csText",
+        "current": "Tajemství úřadu",
+        "new": "Profesní tajemství",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          68 `c1-Berufsgeheimnis-226`       `csText`   Tajemství úřadu Profesní        \n                                                                       tajemství       ",
+        "actual": "Profesní tajemství"
+      },
+      {
+        "cardId": "c1-Berufung-227",
+        "field": "csText",
+        "current": "Volání • Sklon • Apel",
+        "new": "Povolání • Odvolání • Jmenování",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          69 `c1-Berufung-227`              `csText`   Volání • Sklon  Povolání •      \n                                                       • Apel          Odvolání •      \n                                                                       Jmenování       ",
+        "actual": "Povolání • Odvolání • Jmenování"
+      },
+      {
+        "cardId": "c1-Beschaffenheit-229",
+        "field": "csText",
+        "current": "Kvalita • Příroda • Podstata",
+        "new": "Kvalita • Povaha • Podstata",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          70 `c1-Beschaffenheit-229`        `csText`   Kvalita •       Kvalita •       \n                                                       Příroda •       Povaha •        \n                                                       Podstata        Podstata        ",
+        "actual": "Kvalita • Povaha • Podstata"
+      },
+      {
+        "cardId": "c1-Bescheinigung-231",
+        "field": "csText",
+        "current": "Odkaz • Osvědčení • Atestace • Atest",
+        "new": "Potvrzení • Osvědčení • Certifikát",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          71 `c1-Bescheinigung-231`         `csText`   Odkaz •         Potvrzení •     \n                                                       Osvědčení •     Osvědčení •     \n                                                       Atestace •      Certifikát      \n                                                       Atest                           ",
+        "actual": "Potvrzení • Osvědčení • Certifikát"
+      },
+      {
+        "cardId": "c1-beschlagnahmen-232",
+        "field": "csText",
+        "current": "Zabavit • Zabavit • Vyvlastnit",
+        "new": "Zabavit • Konfiskovat",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          72 `c1-beschlagnahmen-232`        `csText`   Zabavit •       Zabavit •       \n                                                       Zabavit •       Konfiskovat     \n                                                       Vyvlastnit                      ",
+        "actual": "Zabavit • Konfiskovat"
+      },
+      {
+        "cardId": "c1-beschuldigen-233",
+        "field": "csText",
+        "current": "Obviňovat • Urážet",
+        "new": "Obviňovat • Nařknout",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          73 `c1-beschuldigen-233`          `csText`   Obviňovat •     Obviňovat •     \n                                                       Urážet          Nařknout        ",
+        "actual": "Obviňovat • Nařknout"
+      },
+      {
+        "cardId": "c1-beträchtlich-235",
+        "field": "csText",
+        "current": "Značný • Docela velký • Značný",
+        "new": "Značný • Poměrně velký • Výrazný",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          74 `c1-beträchtlich-235`          `csText`   Značný • Docela Značný •        \n                                                       velký • Značný  Poměrně velký • \n                                                                       Výrazný         ",
+        "actual": "Značný • Poměrně velký • Výrazný"
+      },
+      {
+        "cardId": "c1-Betriebssystem-237",
+        "field": "csText",
+        "current": "Počítačový instalační systém",
+        "new": "Operační systém",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          75 `c1-Betriebssystem-237`        `csText`   Počítačový      Operační systém \n                                                       instalační                      \n                                                       systém                          ",
+        "actual": "Operační systém"
+      },
+      {
+        "cardId": "c1-bevorstehend-239",
+        "field": "csText",
+        "current": "Nadcházející • Další",
+        "new": "Nadcházející • Blížící se",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          76 `c1-bevorstehend-239`          `csText`   Nadcházející •  Nadcházející •  \n                                                       Další           Blížící se      ",
+        "actual": "Nadcházející • Blížící se"
+      },
+      {
+        "cardId": "c1-bewähren, sich-240",
+        "field": "csText",
+        "current": "Ukázat se jako pravdivé • Ospravedlnit",
+        "new": "Osvědčit se • Obstát",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          77 `c1-bewähren, sich-240`        `csText`   Ukázat se jako  Osvědčit se •   \n                                                       pravdivé •      Obstát          \n                                                       Ospravedlnit                    ",
+        "actual": "Osvědčit se • Obstát"
+      },
+      {
+        "cardId": "c1-bewerben, sich-242",
+        "field": "csText",
+        "current": "Uplatnit • Běžet • Usilovat • Aspirovat",
+        "new": "Ucházet se • Přihlásit se • Usilovat o",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          78 `c1-bewerben, sich-242`        `csText`   Uplatnit •      Ucházet se •    \n                                                       Běžet •         Přihlásit se •  \n                                                       Usilovat •      Usilovat o      \n                                                       Aspirovat                       ",
+        "actual": "Ucházet se • Přihlásit se • Usilovat o"
+      },
+      {
+        "cardId": "c1-Bezugsperson-243",
+        "field": "csText",
+        "current": "Kontakt • Nejbližší osoba",
+        "new": "Kontaktní osoba • Blízká osoba",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          79 `c1-Bezugsperson-243`          `csText`   Kontakt •       Kontaktní osoba \n                                                       Nejbližší osoba • Blízká osoba  ",
+        "actual": "Kontaktní osoba • Blízká osoba"
+      },
+      {
+        "cardId": "c1-Bilanz-245",
+        "field": "csText",
+        "current": "Váhy",
+        "new": "Bilance",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          80 `c1-Bilanz-245`                `csText`   Váhy            Bilance         ",
+        "actual": "Bilance"
+      },
+      {
+        "cardId": "c1-Bundesdeutsche-250",
+        "field": "csText",
+        "current": "Občan FFR",
+        "new": "Občan SRN",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          81 `c1-Bundesdeutsche-250`        `csText`   Občan FFR       Občan SRN       ",
+        "actual": "Občan SRN"
+      },
+      {
+        "cardId": "c1-dauerhaft-255",
+        "field": "csText",
+        "current": "Trvanlivý • Dlouhý • Trvanlivý",
+        "new": "Trvalý • Dlouhodobý • Odolný",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          82 `c1-dauerhaft-255`             `csText`   Trvanlivý •     Trvalý •        \n                                                       Dlouhý •        Dlouhodobý •    \n                                                       Trvanlivý       Odolný          ",
+        "actual": "Trvalý • Dlouhodobý • Odolný"
+      },
+      {
+        "cardId": "c1-dazwischenkommen-256",
+        "field": "csText",
+        "current": "Stát se • Stát se mezi • Zasáhnout",
+        "new": "Přihodit se • Vměšovat se • Zasáhnout",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          83 `c1-dazwischenkommen-256`      `csText`   Stát se • Stát  Přihodit se •   \n                                                       se mezi •       Vměšovat se •   \n                                                       Zasáhnout       Zasáhnout       ",
+        "actual": "Přihodit se • Vměšovat se • Zasáhnout"
+      },
+      {
+        "cardId": "c1-Eigentumsdelikt-260",
+        "field": "csText",
+        "current": "Porušení vlastnických práv",
+        "new": "Majetkový delikt",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          84 `c1-Eigentumsdelikt-260`       `csText`   Porušení        Majetkový       \n                                                       vlastnických    delikt          \n                                                       práv                            ",
+        "actual": "Majetkový delikt"
+      },
+      {
+        "cardId": "c1-Nachrichtendienst-264",
+        "field": "csText",
+        "current": "Státní tajná služba",
+        "new": "Zpravodajská služba",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          85 `c1-Nachrichtendienst-264`     `csText`   Státní tajná    Zpravodajská    \n                                                       služba          služba          ",
+        "actual": "Zpravodajská služba"
+      },
+      {
+        "cardId": "c1-Dienstleistung-266",
+        "field": "csText",
+        "current": "Domácí služba",
+        "new": "Služba",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          86 `c1-Dienstleistung-266`        `csText`   Domácí služba   Služba          ",
+        "actual": "Služba"
+      },
+      {
+        "cardId": "c1-dienstpflichtig-267",
+        "field": "csText",
+        "current": "Podroben vojenské službě",
+        "new": "Podléhající vojenské službě",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          87 `c1-dienstpflichtig-267`       `csText`   Podroben        Podléhající     \n                                                       vojenské službě vojenské službě ",
+        "actual": "Podléhající vojenské službě"
+      },
+      {
+        "cardId": "c1-Durchfuhrverbot-275",
+        "field": "csText",
+        "current": "Zákaz průjezdu",
+        "new": "Zákaz tranzitu",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          88 `c1-Durchfuhrverbot-275`       `csText`   Zákaz průjezdu  Zákaz tranzitu  ",
+        "actual": "Zákaz tranzitu"
+      },
+      {
+        "cardId": "c1-eingeschrieben-279",
+        "field": "csText",
+        "current": "Zaznamenané • Registrované",
+        "new": "Zapsaný • Registrovaný",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          89 `c1-eingeschrieben-279`        `csText`   Zaznamenané •   Zapsaný •       \n                                                       Registrované    Registrovaný    ",
+        "actual": "Zapsaný • Registrovaný"
+      },
+      {
+        "cardId": "c1-Währungseinheit-280",
+        "field": "csText",
+        "current": "Jednotka peněz",
+        "new": "Peněžní jednotka",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          90 `c1-Währungseinheit-280`       `csText`   Jednotka peněz  Peněžní         \n                                                                       jednotka        ",
+        "actual": "Peněžní jednotka"
+      },
+      {
+        "cardId": "c1-einreden-283",
+        "field": "csText",
+        "current": "Říct • Naléhat • Snažit se přesvědčit",
+        "new": "Namluvit • Přesvědčovat",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          91 `c1-einreden-283`              `csText`   Říct • Naléhat  Namluvit •      \n                                                       • Snažit se     Přesvědčovat    \n                                                       přesvědčit                      ",
+        "actual": "Namluvit • Přesvědčovat"
+      },
+      {
+        "cardId": "c1-sich einschmeicheln-284",
+        "field": "csText",
+        "current": "Lichotit • Lichotit",
+        "new": "Vetřít se do přízně • Podlézat",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          92 `c1-sich einschmeicheln-284`   `csText`   Lichotit •      Vetřít se do    \n                                                       Lichotit        přízně •        \n                                                                       Podlézat        ",
+        "actual": "Vetřít se do přízně • Podlézat"
+      },
+      {
+        "cardId": "c1-Einspruchsrecht-286",
+        "field": "csText",
+        "current": "Právo protestu • Právo veta",
+        "new": "Právo podat námitku",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          93 `c1-Einspruchsrecht-286`       `csText`   Právo protestu  Právo podat     \n                                                       • Právo veta    námitku         ",
+        "actual": "Právo podat námitku"
+      },
+      {
+        "cardId": "c1-Elementarregel-293",
+        "field": "csText",
+        "current": "Základní zákon",
+        "new": "Základní pravidlo",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          94 `c1-Elementarregel-293`        `csText`   Základní zákon  Základní        \n                                                                       pravidlo        ",
+        "actual": "Základní pravidlo"
+      },
+      {
+        "cardId": "c1-sich entgegensetzen-297",
+        "field": "csText",
+        "current": "Odolat",
+        "new": "Postavit se proti • Vzepřít se",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          95 `c1-sich entgegensetzen-297`   `csText`   Odolat          Postavit se     \n                                                                       proti • Vzepřít \n                                                                       se              ",
+        "actual": "Postavit se proti • Vzepřít se"
+      },
+      {
+        "cardId": "c1-sich entschließen-299",
+        "field": "csText",
+        "current": "Rozhodnout se • Rozhodnout",
+        "new": "Rozhodnout se • Odhodlat se",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          96 `c1-sich entschließen-299`     `csText`   Rozhodnout se • Rozhodnout se • \n                                                       Rozhodnout      Odhodlat se     ",
+        "actual": "Rozhodnout se • Odhodlat se"
+      },
+      {
+        "cardId": "c1-entschlossen-300",
+        "field": "csText",
+        "current": "Odhodlaný • Odhodlaný • Neochvějný",
+        "new": "Rozhodný • Odhodlaný • Neochvějný",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          97 `c1-entschlossen-300`          `csText`   Odhodlaný •     Rozhodný •      \n                                                       Odhodlaný •     Odhodlaný •     \n                                                       Neochvějný      Neochvějný      ",
+        "actual": "Rozhodný • Odhodlaný • Neochvějný"
+      },
+      {
+        "cardId": "c1-Gesetzentwurf-302",
+        "field": "csText",
+        "current": "Účtovat",
+        "new": "Návrh zákona",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          98 `c1-Gesetzentwurf-302`         `csText`   Účtovat         Návrh zákona    ",
+        "actual": "Návrh zákona"
+      },
+      {
+        "cardId": "c1-Erbkrankheit-304",
+        "field": "csText",
+        "current": "Vrozené onemocnění",
+        "new": "Dědičné onemocnění",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          99 `c1-Erbkrankheit-304`          `csText`   Vrozené         Dědičné         \n                                                       onemocnění      onemocnění      ",
+        "actual": "Dědičné onemocnění"
+      },
+      {
+        "cardId": "c1-Erntearbeiten-306",
+        "field": "csText",
+        "current": "Sklizňové operace",
+        "new": "Sklizňové práce",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         100 `c1-Erntearbeiten-306`         `csText`   Sklizňové       Sklizňové práce \n                                                       operace                         ",
+        "actual": "Sklizňové práce"
+      },
+      {
+        "cardId": "c1-festgesetzt-309",
+        "field": "csText",
+        "current": "Určený • Podmíněný • Stanovený",
+        "new": "Určený • Stanovený • Zadržený",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        101 `c1-festgesetzt-309`             `csText`   Určený •          Určený •        \n                                                        Podmíněný •       Stanovený •     \n                                                        Stanovený         Zadržený        ",
+        "actual": "Určený • Stanovený • Zadržený"
+      },
+      {
+        "cardId": "c1-feuergefährlich-310",
+        "field": "csText",
+        "current": "Ohnivzdorný",
+        "new": "Hořlavý",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        102 `c1-feuergefährlich-310`         `csText`   Ohnivzdorný       Hořlavý         ",
+        "actual": "Hořlavý"
+      },
+      {
+        "cardId": "c1-Feuerwerkskörper-312",
+        "field": "csText",
+        "current": "Raketa pro ohňostroje",
+        "new": "Pyrotechnický výrobek",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        103 `c1-Feuerwerkskörper-312`        `csText`   Raketa pro        Pyrotechnický   \n                                                        ohňostroje        výrobek         ",
+        "actual": "Pyrotechnický výrobek"
+      },
+      {
+        "cardId": "c1-fortgeschritten-316",
+        "field": "csText",
+        "current": "Relativně pozdě ve vývoji",
+        "new": "Pokročilý",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        104 `c1-fortgeschritten-316`         `csText`   Relativně pozdě   Pokročilý       \n                                                        ve vývoji                         ",
+        "actual": "Pokročilý"
+      },
+      {
+        "cardId": "c1-Führunternehmen-322",
+        "field": "csText",
+        "current": "Společnost pro nákladní dopravu",
+        "new": "Dopravní podnik",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        105 `c1-Führunternehmen-322`         `csText`   Společnost pro    Dopravní podnik \n                                                        nákladní dopravu                  ",
+        "actual": "Dopravní podnik"
+      },
+      {
+        "cardId": "c1-soziale Fürsorge-323",
+        "field": "csText",
+        "current": "Sociální zabezpečení",
+        "new": "Sociální péče",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        106 `c1-soziale Fürsorge-323`        `csText`   Sociální          Sociální péče   \n                                                        zabezpečení                       ",
+        "actual": "Sociální péče"
+      },
+      {
+        "cardId": "c1-Auffassungsgabe-324",
+        "field": "csText",
+        "current": "Schopnost vnímat",
+        "new": "Schopnost chápání",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        107 `c1-Auffassungsgabe-324`         `csText`   Schopnost vnímat  Schopnost       \n                                                                          chápání         ",
+        "actual": "Schopnost chápání"
+      },
+      {
+        "cardId": "c1-Beichtgeheimnis-332",
+        "field": "csText",
+        "current": "Přiznané tajemství",
+        "new": "Zpovědní tajemství",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        108 `c1-Beichtgeheimnis-332`         `csText`   Přiznané          Zpovědní        \n                                                        tajemství         tajemství       ",
+        "actual": "Zpovědní tajemství"
+      },
+      {
+        "cardId": "c1-geistesschwach-337",
+        "field": "csText",
+        "current": "Slabý duchem • Svévolný",
+        "new": "Duševně slabý • Slabomyslný",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        109 `c1-geistesschwach-337`          `csText`   Slabý duchem •    Duševně slabý • \n                                                        Svévolný          Slabomyslný     ",
+        "actual": "Duševně slabý • Slabomyslný"
+      },
+      {
+        "cardId": "c1-Geländefahrt-338",
+        "field": "csText",
+        "current": "Výlet na běžkách",
+        "new": "Jízda v terénu",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        110 `c1-Geländefahrt-338`            `csText`   Výlet na běžkách  Jízda v terénu  ",
+        "actual": "Jízda v terénu"
+      },
+      {
+        "cardId": "c1-Gemeineigentum-343",
+        "field": "csText",
+        "current": "Veřejný majetek",
+        "new": "Společný majetek",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        111 `c1-Gemeineigentum-343`          `csText`   Veřejný majetek   Společný        \n                                                                          majetek         ",
+        "actual": "Společný majetek"
+      },
+      {
+        "cardId": "c1-Gemütsmensch-344",
+        "field": "csText",
+        "current": "Laskavý a laskavý člověk",
+        "new": "Citově založený • Dobrosrdečný člověk",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        112 `c1-Gemütsmensch-344`            `csText`   Laskavý a laskavý Citově založený \n                                                        člověk            • Dobrosrdečný  \n                                                                          člověk          ",
+        "actual": "Citově založený • Dobrosrdečný člověk"
+      },
+      {
+        "cardId": "c1-Genmanipulation-345",
+        "field": "csText",
+        "current": "Modifikace genu",
+        "new": "Genová manipulace",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        113 `c1-Genmanipulation-345`         `csText`   Modifikace genu   Genová          \n                                                                          manipulace      ",
+        "actual": "Genová manipulace"
+      },
+      {
+        "cardId": "c1-genmanipuliert-348",
+        "field": "csText",
+        "current": "S upravenými geny",
+        "new": "Geneticky modifikovaný",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        114 `c1-genmanipuliert-348`          `csText`   S upravenými geny Geneticky       \n                                                                          modifikovaný    ",
+        "actual": "Geneticky modifikovaný"
+      },
+      {
+        "cardId": "c1-Gepäckschein-349",
+        "field": "csText",
+        "current": "Příjem zavazadel",
+        "new": "Zavazadlový lístek",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        115 `c1-Gepäckschein-349`            `csText`   Příjem zavazadel  Zavazadlový     \n                                                                          lístek          ",
+        "actual": "Zavazadlový lístek"
+      },
+      {
+        "cardId": "c1-Gepflogenheit-350",
+        "field": "csText",
+        "current": "Vlastní • Vlastní",
+        "new": "Zvyklost • Zvyk",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        116 `c1-Gepflogenheit-350`           `csText`   Vlastní • Vlastní Zvyklost • Zvyk ",
+        "actual": "Zvyklost • Zvyk"
+      },
+      {
+        "cardId": "c1-Gerichtshof-353",
+        "field": "csText",
+        "current": "Soudní síň • Tribunál",
+        "new": "Soudní dvůr • Tribunál",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        117 `c1-Gerichtshof-353`             `csText`   Soudní síň •      Soudní dvůr •   \n                                                        Tribunál          Tribunál        ",
+        "actual": "Soudní dvůr • Tribunál"
+      },
+      {
+        "cardId": "c1-Gesamtergebnis-356",
+        "field": "csText",
+        "current": "Konečný výsledek • Konečný výsledek",
+        "new": "Celkový výsledek",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        118 `c1-Gesamtergebnis-356`          `csText`   Konečný výsledek  Celkový         \n                                                        • Konečný         výsledek        \n                                                        výsledek                          ",
+        "actual": "Celkový výsledek"
+      },
+      {
+        "cardId": "c1-Gesandtschaft-357",
+        "field": "csText",
+        "current": "Velvyslanectví",
+        "new": "Vyslanectví",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        119 `c1-Gesandtschaft-357`           `csText`   Velvyslanectví    Vyslanectví     ",
+        "actual": "Vyslanectví"
+      },
+      {
+        "cardId": "c1-Geschäftsjahr-359",
+        "field": "csText",
+        "current": "Farmářský rok",
+        "new": "Hospodářský rok • Účetní rok",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        120 `c1-Geschäftsjahr-359`           `csText`   Farmářský rok     Hospodářský rok \n                                                                          • Účetní rok    ",
+        "actual": "Hospodářský rok • Účetní rok"
+      },
+      {
+        "cardId": "c1-geschlechtsreif-360",
+        "field": "csText",
+        "current": "Dosáhl pohlavní dospělosti",
+        "new": "Pohlavně dospělý",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        121 `c1-geschlechtsreif-360`         `csText`   Dosáhl pohlavní   Pohlavně        \n                                                        dospělosti        dospělý         ",
+        "actual": "Pohlavně dospělý"
+      },
+      {
+        "cardId": "c1-gesetzgebend-362",
+        "field": "csText",
+        "current": "Zákonodárce",
+        "new": "Zákonodárný",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        122 `c1-gesetzgebend-362`            `csText`   Zákonodárce       Zákonodárný     ",
+        "actual": "Zákonodárný"
+      },
+      {
+        "cardId": "c1-gesetzlos-363",
+        "field": "csText",
+        "current": "Ilegální",
+        "new": "Bezprávný • Nezákonný",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        123 `c1-gesetzlos-363`               `csText`   Ilegální          Bezprávný •     \n                                                                          Nezákonný       ",
+        "actual": "Bezprávný • Nezákonný"
+      },
+      {
+        "cardId": "c1-gesetzmäßig-364",
+        "field": "csText",
+        "current": "Zákonný • Zákonný",
+        "new": "Zákonný • Zákonitý",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        124 `c1-gesetzmäßig-364`             `csText`   Zákonný • Zákonný Zákonný •       \n                                                                          Zákonitý        ",
+        "actual": "Zákonný • Zákonitý"
+      },
+      {
+        "cardId": "c1-Gesichtskreis-366",
+        "field": "csText",
+        "current": "Horizont • Horizont",
+        "new": "Horizont • Obzor",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        125 `c1-Gesichtskreis-366`           `csText`   Horizont •        Horizont •      \n                                                        Horizont          Obzor           ",
+        "actual": "Horizont • Obzor"
+      },
+      {
+        "cardId": "c1-Gewissensbisse-368",
+        "field": "csText",
+        "current": "Lítost",
+        "new": "Výčitky svědomí",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        126 `c1-Gewissensbisse-368`          `csText`   Lítost            Výčitky svědomí ",
+        "actual": "Výčitky svědomí"
+      },
+      {
+        "cardId": "c1-gleichberechtigt-371",
+        "field": "csText",
+        "current": "Rovný • Se stejnými právy",
+        "new": "Rovnoprávný • Se stejnými právy",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        127 `c1-gleichberechtigt-371`        `csText`   Rovný • Se        Rovnoprávný •   \n                                                        stejnými právy    Se stejnými     \n                                                                          právy           ",
+        "actual": "Rovnoprávný • Se stejnými právy"
+      },
+      {
+        "cardId": "c1-Haft-376",
+        "field": "csText",
+        "current": "Zadržení • Zatčení",
+        "new": "Vazba • Vězení",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        128 `c1-Haft-376`                    `csText`   Zadržení •        Vazba • Vězení  \n                                                        Zatčení                           ",
+        "actual": "Vazba • Vězení"
+      },
+      {
+        "cardId": "c1-haften-378",
+        "field": "csText",
+        "current": "Přilepit • Být přilepený",
+        "new": "Přilnout • Být přilepený",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        129 `c1-haften-378`                  `csText`   Přilepit • Být    Přilnout • Být  \n                                                        přilepený         přilepený       ",
+        "actual": "Přilnout • Být přilepený"
+      },
+      {
+        "cardId": "c1-Haltbarkeitsdauer-380",
+        "field": "csText",
+        "current": "Doba skladování",
+        "new": "Doba trvanlivosti",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        130 `c1-Haltbarkeitsdauer-380`       `csText`   Doba skladování   Doba            \n                                                                          trvanlivosti    ",
+        "actual": "Doba trvanlivosti"
+      },
+      {
+        "cardId": "c1-Handelspartner-381",
+        "field": "csText",
+        "current": "Obchodního partnera",
+        "new": "Obchodní partner",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        131 `c1-Handelspartner-381`          `csText`   Obchodního        Obchodní        \n                                                        partnera          partner         ",
+        "actual": "Obchodní partner"
+      },
+      {
+        "cardId": "c1-Hausdurchsuchung-384",
+        "field": "csText",
+        "current": "Policejní pátrání",
+        "new": "Domovní prohlídka",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        132 `c1-Hausdurchsuchung-384`        `csText`   Policejní pátrání Domovní         \n                                                                          prohlídka       ",
+        "actual": "Domovní prohlídka"
+      },
+      {
+        "cardId": "c1-herunterkommen-390",
+        "field": "csText",
+        "current": "Sestoupit • Chátrat • Klesat • Klesat",
+        "new": "Sestoupit • Chátrat • Upadat • Zchudnout",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        133 `c1-herunterkommen-390`          `csText`   Sestoupit •       Sestoupit •     \n                                                        Chátrat • Klesat  Chátrat •       \n                                                        • Klesat          Upadat •        \n                                                                          Zchudnout       ",
+        "actual": "Sestoupit • Chátrat • Upadat • Zchudnout"
+      },
+      {
+        "cardId": "c1-herunterstürzen-391",
+        "field": "csText",
+        "current": "Spadnout na zem • Spadnout na zem",
+        "new": "Spadnout dolů • Zřítit se",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        134 `c1-herunterstürzen-391`         `csText`   Spadnout na zem • Spadnout dolů • \n                                                        Spadnout na zem   Zřítit se       ",
+        "actual": "Spadnout dolů • Zřítit se"
+      },
+      {
+        "cardId": "c1-sich hinreißen lassen-392",
+        "field": "csText",
+        "current": "Vzrušit se",
+        "new": "Nechat se strhnout • Nechat se unést",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        135 `c1-sich hinreißen lassen-392`   `csText`   Vzrušit se        Nechat se       \n                                                                          strhnout •      \n                                                                          Nechat se unést ",
+        "actual": "Nechat se strhnout • Nechat se unést"
+      },
+      {
+        "cardId": "c1-Industrieanlage-395",
+        "field": "csText",
+        "current": "Průmyslový komplex",
+        "new": "Průmyslové zařízení • Průmyslový provoz",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        136 `c1-Industrieanlage-395`         `csText`   Průmyslový        Průmyslové      \n                                                        komplex           zařízení •      \n                                                                          Průmyslový      \n                                                                          provoz          ",
+        "actual": "Průmyslové zařízení • Průmyslový provoz"
+      },
+      {
+        "cardId": "c1-inhaftieren-396",
+        "field": "csText",
+        "current": "Zatknout",
+        "new": "Uvěznit • Vzít do vazby",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        137 `c1-inhaftieren-396`             `csText`   Zatknout          Uvěznit • Vzít  \n                                                                          do vazby        ",
+        "actual": "Uvěznit • Vzít do vazby"
+      },
+      {
+        "cardId": "c1-Justiz-401",
+        "field": "csText",
+        "current": "Spravedlnost • Právní případy",
+        "new": "Justice • Soudnictví",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        138 `c1-Justiz-401`                  `csText`   Spravedlnost •    Justice •       \n                                                        Právní případy    Soudnictví      ",
+        "actual": "Justice • Soudnictví"
+      },
+      {
+        "cardId": "c1-Kaution-404",
+        "field": "csText",
+        "current": "Zástava • Ručení • Kauce • Záruka",
+        "new": "Kauce • Jistota",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        139 `c1-Kaution-404`                 `csText`   Zástava • Ručení  Kauce • Jistota \n                                                        • Kauce • Záruka                  ",
+        "actual": "Kauce • Jistota"
+      },
+      {
+        "cardId": "c1-Lebensgefährte-414",
+        "field": "csText",
+        "current": "Manžel v neregistrovaném manželství",
+        "new": "Životní partner",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        140 `c1-Lebensgefährte-414`          `csText`   Manžel v          Životní partner \n                                                        neregistrovaném                   \n                                                        manželství                        ",
+        "actual": "Životní partner"
+      },
+      {
+        "cardId": "c1-Leistungssport-416",
+        "field": "csText",
+        "current": "Profesionální sport",
+        "new": "Výkonnostní sport • Vrcholový sport",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        141 `c1-Leistungssport-416`          `csText`   Profesionální     Výkonnostní     \n                                                        sport             sport •         \n                                                                          Vrcholový sport ",
+        "actual": "Výkonnostní sport • Vrcholový sport"
+      },
+      {
+        "cardId": "c1-Liebesbeziehung-418",
+        "field": "csText",
+        "current": "Intimní vztahy",
+        "new": "Milostný vztah",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        142 `c1-Liebesbeziehung-418`         `csText`   Intimní vztahy    Milostný vztah  ",
+        "actual": "Milostný vztah"
+      },
+      {
+        "cardId": "c1-Liebeserklärung-419",
+        "field": "csText",
+        "current": "Objevení lásky",
+        "new": "Vyznání lásky",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        143 `c1-Liebeserklärung-419`         `csText`   Objevení lásky    Vyznání lásky   ",
+        "actual": "Vyznání lásky"
+      },
+      {
+        "cardId": "c1-Machtübernahme-422",
+        "field": "csText",
+        "current": "Uchopení moci",
+        "new": "Převzetí moci",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        144 `c1-Machtübernahme-422`          `csText`   Uchopení moci     Převzetí moci   ",
+        "actual": "Převzetí moci"
+      },
+      {
+        "cardId": "c1-Marschflugkörper-424",
+        "field": "csText",
+        "current": "Řízená střela • Řízená střela",
+        "new": "Střela s plochou dráhou letu",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        145 `c1-Marschflugkörper-424`        `csText`   Řízená střela •   Střela s        \n                                                        Řízená střela     plochou dráhou  \n                                                                          letu            ",
+        "actual": "Střela s plochou dráhou letu"
+      },
+      {
+        "cardId": "c1-Massenherstellung-425",
+        "field": "csText",
+        "current": "Sériová výroba",
+        "new": "Hromadná výroba",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        146 `c1-Massenherstellung-425`       `csText`   Sériová výroba    Hromadná výroba ",
+        "actual": "Hromadná výroba"
+      },
+      {
+        "cardId": "c1-Presseerklärung-445",
+        "field": "csText",
+        "current": "Tisková zpráva",
+        "new": "Tiskové prohlášení",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        147 `c1-Presseerklärung-445`         `csText`   Tisková zpráva    Tiskové         \n                                                                          prohlášení      ",
+        "actual": "Tiskové prohlášení"
+      },
+      {
+        "cardId": "c1-Produktionsweise-447",
+        "field": "csText",
+        "current": "Druh výroby",
+        "new": "Způsob výroby",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        148 `c1-Produktionsweise-447`        `csText`   Druh výroby       Způsob výroby   ",
+        "actual": "Způsob výroby"
+      },
+      {
+        "cardId": "c1-Rangierbahnhof-448",
+        "field": "csText",
+        "current": "Kolejiště",
+        "new": "Seřaďovací nádraží",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        149 `c1-Rangierbahnhof-448`          `csText`   Kolejiště         Seřaďovací      \n                                                                          nádraží         ",
+        "actual": "Seřaďovací nádraží"
+      },
+      {
+        "cardId": "c1-Rechenschaft-451",
+        "field": "csText",
+        "current": "Odpovědnost (za své činy) • Odpovědnost",
+        "new": "Skládání účtů • Odpovědnost",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        150 `c1-Rechenschaft-451`            `csText`   Odpovědnost (za   Skládání účtů • \n                                                        své činy) •       Odpovědnost     \n                                                        Odpovědnost                       ",
+        "actual": "Skládání účtů • Odpovědnost"
+      },
+      {
+        "cardId": "c1-republikanisch-459",
+        "field": "csText",
+        "current": "Republikánské • Republiky",
+        "new": "Republikánský • Republikový",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        151 `c1-republikanisch-459`        `csText`   Republikánské • Republikánský •  \n                                                      Republiky       Republikový      ",
+        "actual": "Republikánský • Republikový"
+      },
+      {
+        "cardId": "c1-sanktionieren-461",
+        "field": "csText",
+        "current": "Podpora • Sankce",
+        "new": "Sankcionovat",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        152 `c1-sanktionieren-461`         `csText`   Podpora •       Sankcionovat     \n                                                      Sankce                           ",
+        "actual": "Sankcionovat"
+      },
+      {
+        "cardId": "c1-schmerzstillend-465",
+        "field": "csText",
+        "current": "Lék proti bolesti",
+        "new": "Tišící bolest",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        153 `c1-schmerzstillend-465`       `csText`   Lék proti       Tišící bolest    \n                                                      bolesti                          ",
+        "actual": "Tišící bolest"
+      },
+      {
+        "cardId": "c1-Selbstverwaltung-469",
+        "field": "csText",
+        "current": "Obec",
+        "new": "Samospráva",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        154 `c1-Selbstverwaltung-469`      `csText`   Obec            Samospráva       ",
+        "actual": "Samospráva"
+      },
+      {
+        "cardId": "c1-Sensationsmeldung-471",
+        "field": "csText",
+        "current": "Senzační prohlášení",
+        "new": "Senzační zpráva",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        155 `c1-Sensationsmeldung-471`     `csText`   Senzační        Senzační zpráva  \n                                                      prohlášení                       ",
+        "actual": "Senzační zpráva"
+      },
+      {
+        "cardId": "c1-sesshaft-472",
+        "field": "csText",
+        "current": "Bydlení na jednom místě • Táborník",
+        "new": "Usazený",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        156 `c1-sesshaft-472`              `csText`   Bydlení na      Usazený          \n                                                      jednom místě •                   \n                                                      Táborník                         ",
+        "actual": "Usazený"
+      },
+      {
+        "cardId": "c1-Sinnestäuschung-474",
+        "field": "csText",
+        "current": "Halucinace",
+        "new": "Smyslový klam • Smyslová iluze",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        157 `c1-Sinnestäuschung-474`       `csText`   Halucinace      Smyslový klam •  \n                                                                      Smyslová iluze   ",
+        "actual": "Smyslový klam • Smyslová iluze"
+      },
+      {
+        "cardId": "c1-Krisensituation-476",
+        "field": "csText",
+        "current": "Krizová situace • Krize",
+        "new": "Krizová situace",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        158 `c1-Krisensituation-476`       `csText`   Krizová situace Krizová situace  \n                                                      • Krize                          ",
+        "actual": "Krizová situace"
+      },
+      {
+        "cardId": "c1-Sonnenfinsternis-478",
+        "field": "csText",
+        "current": "Zatmění slunce",
+        "new": "Zatmění Slunce",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        159 `c1-Sonnenfinsternis-478`      `csText`   Zatmění slunce  Zatmění Slunce   ",
+        "actual": "Zatmění Slunce"
+      },
+      {
+        "cardId": "c1-Spitzenleistung-479",
+        "field": "csText",
+        "current": "Rekord • Nejvyšší výkon • Tech. maximální výkon",
+        "new": "Špičkový výkon • Vynikající výkon",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        160 `c1-Spitzenleistung-479`       `csText`   Rekord •        Špičkový výkon • \n                                                      Nejvyšší výkon  Vynikající výkon \n                                                      • Tech.                          \n                                                      maximální výkon                  ",
+        "actual": "Špičkový výkon • Vynikající výkon"
+      },
+      {
+        "cardId": "c1-Staatsanwalt-481",
+        "field": "csText",
+        "current": "Žalobce",
+        "new": "Státní zástupce",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        161 `c1-Staatsanwalt-481`          `csText`   Žalobce         Státní zástupce  ",
+        "actual": "Státní zástupce"
+      },
+      {
+        "cardId": "c1-Steuereinnahmen-483",
+        "field": "csText",
+        "current": "Daňový příjem",
+        "new": "Daňové příjmy",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        162 `c1-Steuereinnahmen-483`       `csText`   Daňový příjem   Daňové příjmy    ",
+        "actual": "Daňové příjmy"
+      },
+      {
+        "cardId": "c1-stimmberechtigt-484",
+        "field": "csText",
+        "current": "Oprávněn volit",
+        "new": "Oprávněný hlasovat",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        163 `c1-stimmberechtigt-484`       `csText`   Oprávněn volit  Oprávněný        \n                                                                      hlasovat         ",
+        "actual": "Oprávněný hlasovat"
+      },
+      {
+        "cardId": "c1-Studienbewerber-485",
+        "field": "csText",
+        "current": "Uchazeč o vysokou školu",
+        "new": "Uchazeč o studium",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        164 `c1-Studienbewerber-485`       `csText`   Uchazeč o       Uchazeč o        \n                                                      vysokou školu   studium          ",
+        "actual": "Uchazeč o studium"
+      },
+      {
+        "cardId": "c1-synchronisieren-486",
+        "field": "csText",
+        "current": "Dabovat film",
+        "new": "Synchronizovat",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        165 `c1-synchronisieren-486`       `csText`   Dabovat film    Synchronizovat   ",
+        "actual": "Synchronizovat"
+      },
+      {
+        "cardId": "c1-Tageseinnahmen-487",
+        "field": "csText",
+        "current": "Denní výdělek",
+        "new": "Denní příjmy • Denní tržby",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        166 `c1-Tageseinnahmen-487`        `csText`   Denní výdělek   Denní příjmy •   \n                                                                      Denní tržby      ",
+        "actual": "Denní příjmy • Denní tržby"
+      },
+      {
+        "cardId": "c1-Transfusion-488",
+        "field": "csText",
+        "current": "Přímou transfuzi krve z jedné osoby na druhou",
+        "new": "Transfuze",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        167 `c1-Transfusion-488`           `csText`   Přímou          Transfuze        \n                                                      transfuzi krve                   \n                                                      z jedné osoby                    \n                                                      na druhou                        ",
+        "actual": "Transfuze"
+      },
+      {
+        "cardId": "c1-überanstrengen-489",
+        "field": "csText",
+        "current": "Přetěžovat • Sich ü. k přepracování",
+        "new": "Přetěžovat • Přepínat",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        168 `c1-überanstrengen-489`        `csText`   Přetěžovat •    Přetěžovat •     \n                                                      Sich ü. k       Přepínat         \n                                                      přepracování                     ",
+        "actual": "Přetěžovat • Přepínat"
+      },
+      {
+        "cardId": "c1-Überbleibsel-491",
+        "field": "csText",
+        "current": "Přebytek • Zůstává",
+        "new": "Pozůstatek • Zbytek",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        169 `c1-Überbleibsel-491`          `csText`   Přebytek •      Pozůstatek •     \n                                                      Zůstává         Zbytek           ",
+        "actual": "Pozůstatek • Zbytek"
+      },
+      {
+        "cardId": "c1-übereinstimmen-492",
+        "field": "csText",
+        "current": "Souhlasit • Souhlasit s někým",
+        "new": "Shodovat se • Souhlasit",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        170 `c1-übereinstimmen-492`        `csText`   Souhlasit •     Shodovat se •    \n                                                      Souhlasit s     Souhlasit        \n                                                      někým                            ",
+        "actual": "Shodovat se • Souhlasit"
+      },
+      {
+        "cardId": "c1-Überschuss-493",
+        "field": "csText",
+        "current": "Zbytek • Přebytek • Likvidace",
+        "new": "Přebytek • Nadbytek",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        171 `c1-Überschuss-493`            `csText`   Zbytek •        Přebytek •       \n                                                      Přebytek •      Nadbytek         \n                                                      Likvidace                        ",
+        "actual": "Přebytek • Nadbytek"
+      },
+      {
+        "cardId": "c1-Unannehmlichkeit-495",
+        "field": "csText",
+        "current": "Potíže • Nepříjemná příležitost",
+        "new": "Nepříjemnost • Potíže",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        172 `c1-Unannehmlichkeit-495`      `csText`   Potíže •        Nepříjemnost •   \n                                                      Nepříjemná      Potíže           \n                                                      příležitost                      ",
+        "actual": "Nepříjemnost • Potíže"
+      },
+      {
+        "cardId": "c1-Unterschätzung-498",
+        "field": "csText",
+        "current": "Podceňovat • Podceňovat",
+        "new": "Podcenění • Podceňování",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        173 `c1-Unterschätzung-498`        `csText`   Podceňovat •    Podcenění •      \n                                                      Podceňovat      Podceňování      ",
+        "actual": "Podcenění • Podceňování"
+      },
+      {
+        "cardId": "c1-verabschieden-500",
+        "field": "csText",
+        "current": "Uvolnění z práce • Odejít do důchodu",
+        "new": "Rozloučit se • Propustit • Schválit",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        174 `c1-verabschieden-500`         `csText`   Uvolnění z      Rozloučit se •   \n                                                      práce • Odejít  Propustit •      \n                                                      do důchodu      Schválit         ",
+        "actual": "Rozloučit se • Propustit • Schválit"
+      },
+      {
+        "cardId": "c1-veranschlagen-502",
+        "field": "csText",
+        "current": "Počítat • Počítat • Odhadovat",
+        "new": "Odhadovat • Kalkulovat • Rozpočtovat",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        175 `c1-veranschlagen-502`         `csText`   Počítat •       Odhadovat •      \n                                                      Počítat •       Kalkulovat •     \n                                                      Odhadovat       Rozpočtovat      ",
+        "actual": "Odhadovat • Kalkulovat • Rozpočtovat"
+      },
+      {
+        "cardId": "c1-verdrießlich-503",
+        "field": "csText",
+        "current": "Nepříjemný • Mrzutý • Mrzutý",
+        "new": "Mrzutý • Rozmrzelý • Nepříjemný",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        176 `c1-verdrießlich-503`          `csText`   Nepříjemný •    Mrzutý •         \n                                                      Mrzutý • Mrzutý Rozmrzelý •      \n                                                                      Nepříjemný       ",
+        "actual": "Mrzutý • Rozmrzelý • Nepříjemný"
+      },
+      {
+        "cardId": "c1-vergewaltigen-506",
+        "field": "csText",
+        "current": "Znásilnění",
+        "new": "Znásilnit",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        177 `c1-vergewaltigen-506`         `csText`   Znásilnění      Znásilnit        ",
+        "actual": "Znásilnit"
+      },
+      {
+        "cardId": "c1-sich vergewissern-507",
+        "field": "csText",
+        "current": "Ujistěte se",
+        "new": "Ujistit se",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        178 `c1-sich vergewissern-507`     `csText`   Ujistěte se     Ujistit se       ",
+        "actual": "Ujistit se"
+      },
+      {
+        "cardId": "c1-Verhandlungen-511",
+        "field": "csText",
+        "current": "Rozhovory",
+        "new": "Jednání • Vyjednávání",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        179 `c1-Verhandlungen-511`         `csText`   Rozhovory       Jednání •        \n                                                                      Vyjednávání      ",
+        "actual": "Jednání • Vyjednávání"
+      },
+      {
+        "cardId": "c1-Verpflichtung-515",
+        "field": "csText",
+        "current": "Povinnost • Povinnost",
+        "new": "Povinnost • Závazek",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        180 `c1-Verpflichtung-515`         `csText`   Povinnost •     Povinnost •      \n                                                      Povinnost       Závazek          ",
+        "actual": "Povinnost • Závazek"
+      },
+      {
+        "cardId": "c1-vernachlässigen-518",
+        "field": "csText",
+        "current": "Zanedbávat • Být nedbalý",
+        "new": "Zanedbávat • Opomíjet",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        181 `c1-vernachlässigen-518`       `csText`   Zanedbávat •    Zanedbávat •     \n                                                      Být nedbalý     Opomíjet         ",
+        "actual": "Zanedbávat • Opomíjet"
+      },
+      {
+        "cardId": "c1-verpflichten-519",
+        "field": "csText",
+        "current": "Zavázat se",
+        "new": "Zavázat • Uložit povinnost",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        182 `c1-verpflichten-519`          `csText`   Zavázat se      Zavázat • Uložit \n                                                                      povinnost        ",
+        "actual": "Zavázat • Uložit povinnost"
+      },
+      {
+        "cardId": "c1-sich verpflichten-520",
+        "field": "csText",
+        "current": "Podniknout",
+        "new": "Zavázat se",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        183 `c1-sich verpflichten-520`     `csText`   Podniknout      Zavázat se       ",
+        "actual": "Zavázat se"
+      },
+      {
+        "cardId": "c1-sich verschließen-521",
+        "field": "csText",
+        "current": "Vypnout • Vypnout",
+        "new": "Uzavřít se • Bránit se něčemu",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        184 `c1-sich verschließen-521`     `csText`   Vypnout •       Uzavřít se •     \n                                                      Vypnout         Bránit se něčemu ",
+        "actual": "Uzavřít se • Bránit se něčemu"
+      },
+      {
+        "cardId": "c1-verschlossen-522",
+        "field": "csText",
+        "current": "Zamčený • Zavřený • Přel. uzavřený • Soběstačný",
+        "new": "Zamčený • Uzavřený • Zamlklý",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        185 `c1-verschlossen-522`          `csText`   Zamčený •       Zamčený •        \n                                                      Zavřený • Přel. Uzavřený •       \n                                                      uzavřený •      Zamlklý          \n                                                      Soběstačný                       ",
+        "actual": "Zamčený • Uzavřený • Zamlklý"
+      },
+      {
+        "cardId": "c1-verschreiben-524",
+        "field": "csText",
+        "current": "Med. podepsat",
+        "new": "Předepsat",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        187 `c1-verschreiben-524`          `csText`   Med. podepsat   Předepsat        ",
+        "actual": "Předepsat"
+      },
+      {
+        "cardId": "c1-verschweigen-525",
+        "field": "csText",
+        "current": "Zadržet • Neprozradit",
+        "new": "Zamlčet • Neprozradit",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        188 `c1-verschweigen-525`          `csText`   Zadržet •       Zamlčet •        \n                                                      Neprozradit     Neprozradit      ",
+        "actual": "Zamlčet • Neprozradit"
+      },
+      {
+        "cardId": "c1-Versuchsgelände-528",
+        "field": "csText",
+        "current": "Testovací hřiště",
+        "new": "Zkušební areál",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        189 `c1-Versuchsgelände-528`       `csText`   Testovací       Zkušební areál   \n                                                      hřiště                           ",
+        "actual": "Zkušební areál"
+      },
+      {
+        "cardId": "c1-verunglücken-530",
+        "field": "csText",
+        "current": "Trpět při nehodě • Trpět při nehodě",
+        "new": "Mít nehodu • Utrpět nehodu",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        190 `c1-verunglücken-530`          `csText`   Trpět při       Mít nehodu •     \n                                                      nehodě • Trpět  Utrpět nehodu    \n                                                      při nehodě                       ",
+        "actual": "Mít nehodu • Utrpět nehodu"
+      },
+      {
+        "cardId": "c1-vervollkommnen-533",
+        "field": "csText",
+        "current": "Doplnit • Zlepšit",
+        "new": "Zdokonalit • Zlepšit",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        191 `c1-vervollkommnen-533`        `csText`   Doplnit •       Zdokonalit •     \n                                                      Zlepšit         Zlepšit          ",
+        "actual": "Zdokonalit • Zlepšit"
+      },
+      {
+        "cardId": "c1-sich vervollkommnen-534",
+        "field": "csText",
+        "current": "Doplnit si znalosti",
+        "new": "Zdokonalit se",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        192 `c1-sich vervollkommnen-534`   `csText`   Doplnit si      Zdokonalit se    \n                                                      znalosti                         ",
+        "actual": "Zdokonalit se"
+      },
+      {
+        "cardId": "c1-Volksbefragung-537",
+        "field": "csText",
+        "current": "Anketa všech lidí • Referendum",
+        "new": "Veřejná konzultace • Referendum",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        193 `c1-Volksbefragung-537`        `csText`   Anketa všech    Veřejná          \n                                                      lidí •          konzultace •     \n                                                      Referendum      Referendum       ",
+        "actual": "Veřejná konzultace • Referendum"
+      },
+      {
+        "cardId": "c1-Vollversammlung-538",
+        "field": "csText",
+        "current": "Plénum • Valná hromada • Valná hromada",
+        "new": "Plénum • Valná hromada • Generální shromáždění",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        194 `c1-Vollversammlung-538`       `csText`   Plénum • Valná  Plénum • Valná   \n                                                      hromada • Valná hromada •        \n                                                      hromada         Generální        \n                                                                      shromáždění      ",
+        "actual": "Plénum • Valná hromada • Generální shromáždění"
+      },
+      {
+        "cardId": "c1-waag[e]recht-540",
+        "field": "csText",
+        "current": "Úroveň • Horizontální",
+        "new": "Vodorovný • Horizontální",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        195 `c1-waag[e]recht-540`          `csText`   Úroveň •        Vodorovný •      \n                                                      Horizontální    Horizontální     ",
+        "actual": "Vodorovný • Horizontální"
+      },
+      {
+        "cardId": "c1-Wasserheilanstalt-546",
+        "field": "csText",
+        "current": "Zařízení na úpravu vody",
+        "new": "Vodolečebný ústav • Vodoléčebné zařízení",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        196 `c1-Wasserheilanstalt-546`     `csText`   Zařízení na     Vodolečebný      \n                                                      úpravu vody     ústav •          \n                                                                      Vodoléčebné      \n                                                                      zařízení         ",
+        "actual": "Vodolečebný ústav • Vodoléčebné zařízení"
+      },
+      {
+        "cardId": "c1-Wasserversorgung-548",
+        "field": "csText",
+        "current": "Vodovod",
+        "new": "Zásobování vodou",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        197 `c1-Wasserversorgung-548`      `csText`   Vodovod         Zásobování vodou ",
+        "actual": "Zásobování vodou"
+      },
+      {
+        "cardId": "c1-Wechselbeziehung-549",
+        "field": "csText",
+        "current": "Vzájemná komunikace",
+        "new": "Vzájemný vztah • Vzájemná souvislost",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        198 `c1-Wechselbeziehung-549`      `csText`   Vzájemná        Vzájemný vztah • \n                                                      komunikace      Vzájemná         \n                                                                      souvislost       ",
+        "actual": "Vzájemný vztah • Vzájemná souvislost"
+      },
+      {
+        "cardId": "c1-Wehrersatzdienst-550",
+        "field": "csText",
+        "current": "Civilní službu místo vojenské služby",
+        "new": "Civilní služba místo vojenské služby",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        199 `c1-Wehrersatzdienst-550`      `csText`   Civilní službu  Civilní služba   \n                                                      místo vojenské  místo vojenské   \n                                                      služby          služby           ",
+        "actual": "Civilní služba místo vojenské služby"
+      },
+      {
+        "cardId": "c1-Weidenkätzchen-551",
+        "field": "csText",
+        "current": "Mák",
+        "new": "Kočičky • Jehnědy vrby",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        200 `c1-Weidenkätzchen-551`        `csText`   Mák             Kočičky •        \n                                                                      Jehnědy vrby     ",
+        "actual": "Kočičky • Jehnědy vrby"
+      },
+      {
+        "cardId": "c1-Wetterleuchten-553",
+        "field": "csText",
+        "current": "Rez",
+        "new": "Vzdálené blýskání",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          201 `c1-Wetterleuchten-553`    `csText`   Rez         Vzdálené      \n                                                                blýskání      ",
+        "actual": "Vzdálené blýskání"
+      },
+      {
+        "cardId": "c1-widerrechtlich-554",
+        "field": "csText",
+        "current": "Ilegální",
+        "new": "Protiprávní",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          202 `c1-widerrechtlich-554`    `csText`   Ilegální    Protiprávní   ",
+        "actual": "Protiprávní"
+      },
+      {
+        "cardId": "c1-zusammenfallen-556",
+        "field": "csText",
+        "current": "Zhroucení • Stát se",
+        "new": "Zhroutit se • Shodovat se",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          203 `c1-zusammenfallen-556`    `csText`   Zhroucení • Zhroutit se • \n                                                    Stát se     Shodovat se   ",
+        "actual": "Zhroutit se • Shodovat se"
+      },
+      {
+        "cardId": "c1-zusammenstellen-557",
+        "field": "csText",
+        "current": "Skládat",
+        "new": "Sestavit",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          204 `c1-zusammenstellen-557`   `csText`   Skládat     Sestavit      ",
+        "actual": "Sestavit"
+      },
+      {
+        "cardId": "c1-Hektar-565",
+        "field": "csText",
+        "current": "Hektar",
+        "new": "hektar",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          205 `c1-Hektar-565`            `csText`   Hektar      hektar        ",
+        "actual": "hektar"
+      },
+      {
+        "cardId": "c1-Karre-566",
+        "field": "csText",
+        "current": "Kolečko",
+        "new": "kára",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          206 `c1-Karre-566`             `csText`   Kolečko     kára          ",
+        "actual": "kára"
+      },
+      {
+        "cardId": "c1-Karren-567",
+        "field": "csText",
+        "current": "Kolečko",
+        "new": "kára • vozík",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          207 `c1-Karren-567`            `csText`   Kolečko     kára • vozík  ",
+        "actual": "kára • vozík"
+      },
+      {
+        "cardId": "c1-Krüppel-568",
+        "field": "csText",
+        "current": "Mrzák",
+        "new": "mrzák",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          208 `c1-Krüppel-568`           `csText`   Mrzák       mrzák         ",
+        "actual": "mrzák"
+      },
+      {
+        "cardId": "c1-Matsch-569",
+        "field": "csText",
+        "current": "Bláto • Břečka",
+        "new": "bláto • břečka",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          209 `c1-Matsch-569`            `csText`   Bláto •     bláto •       \n                                                    Břečka      břečka        ",
+        "actual": "bláto • břečka"
+      },
+      {
+        "cardId": "c1-Panter-570",
+        "field": "csText",
+        "current": "Panter",
+        "new": "panter",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          210 `c1-Panter-570`            `csText`   Panter      panter        ",
+        "actual": "panter"
+      },
+      {
+        "cardId": "c1-Panther-571",
+        "field": "csText",
+        "current": "Panter",
+        "new": "panter",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "          211 `c1-Panther-571`           `csText`   Panter      panter        ",
+        "actual": "panter"
+      },
+      {
+        "cardId": "c1-offentlichkeit",
+        "field": "study.translation",
+        "current": "Společnost • Otevřenost",
+        "new": "Veřejnost • Veřejný prostor",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "      1 `c1-offentlichkeit`               `study.translation`                            Společnost • Otevřenost                   Veřejnost • Veřejný prostor                ",
+        "actual": "Veřejnost • Veřejný prostor"
+      },
+      {
+        "cardId": "c1-offentlichkeit",
+        "field": "study.examples[1].lv",
+        "current": "Případ vyšel najevo.",
+        "new": "Případ se dostal na veřejnost.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "      2 `c1-offentlichkeit`               `study.examples[1].lv`                         Případ vyšel najevo.                      Případ se dostal na veřejnost.             ",
+        "actual": "Případ se dostal na veřejnost."
+      },
+      {
+        "cardId": "c1-partei",
+        "field": "study.translation",
+        "current": "Večírek • Večírek",
+        "new": "Politická strana • Strana",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "      3 `c1-partei`                       `study.translation`                            Večírek • Večírek                         Politická strana • Strana                  ",
+        "actual": "Politická strana • Strana"
+      },
+      {
+        "cardId": "c1-partei",
+        "field": "study.explanation",
+        "current": "Hlavní myšlenka: die Partei je obvykle politická strana. V právnickém nebo konfliktním jazyce to může znamenat i večírek.",
+        "new": "Hlavní myšlenka: die Partei je obvykle politická strana. V právním nebo konfliktním kontextu může znamenat také stranu.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "      4 `c1-partei`                       `study.explanation`                            Hlavní myšlenka: die Partei je obvykle    Hlavní myšlenka: die Partei je obvykle     \n                                                                                         politická strana. V právnickém nebo       politická strana. V právním nebo           \n                                                                                         konfliktním jazyce to může znamenat i     konfliktním kontextu může znamenat také    \n                                                                                         večírek.                                  stranu.                                    ",
+        "actual": "Hlavní myšlenka: die Partei je obvykle politická strana. V právním nebo konfliktním kontextu může znamenat také stranu."
+      },
+      {
+        "cardId": "c1-prozess",
+        "field": "study.translation",
+        "current": "Proces • Žaloba",
+        "new": "Proces • Soudní řízení",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "      5 `c1-prozess`                      `study.translation`                            Proces • Žaloba                           Proces • Soudní řízení                     ",
+        "actual": "Proces • Soudní řízení"
+      },
+      {
+        "cardId": "c1-prozess",
+        "field": "study.explanation",
+        "current": "Hlavní myšlenka: der Prozess je proces nebo postup. U soudu der Prozess znamená soud.",
+        "new": "Hlavní myšlenka: der Prozess znamená proces nebo postup. V právním kontextu znamená soudní řízení.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "      6 `c1-prozess`                      `study.explanation`                            Hlavní myšlenka: der Prozess je proces    Hlavní myšlenka: der Prozess znamená       \n                                                                                         nebo postup. U soudu der Prozess znamená  proces nebo postup. V právním kontextu     \n                                                                                         soud.                                     znamená soudní řízení.                     ",
+        "actual": "Hlavní myšlenka: der Prozess znamená proces nebo postup. V právním kontextu znamená soudní řízení."
+      },
+      {
+        "cardId": "c1-prozess",
+        "field": "study.examples[1].lv",
+        "current": "Soud začíná zítra.",
+        "new": "Soudní proces začíná zítra.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "      7 `c1-prozess`                      `study.examples[1].lv`                         Soud začíná zítra.                        Soudní proces začíná zítra.                ",
+        "actual": "Soudní proces začíná zítra."
+      },
+      {
+        "cardId": "c1-zusammenfassen",
+        "field": "study.translation",
+        "current": "Shrnout • Shrnout",
+        "new": "Shrnout",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "      8 `c1-zusammenfassen`               `study.translation`                            Shrnout • Shrnout                         Shrnout                                    ",
+        "actual": "Shrnout"
+      },
+      {
+        "cardId": "c1-zusammenfassen",
+        "field": "study.explanation[4]",
+        "current": "Stejně jako mnoho německých sloves se zusammenfassen může stát velkým jménem a členem: zusammenfassen → die Zusammenfassen (substantivizace).",
+        "new": "Podstatné jméno od slovesa zusammenfassen je die Zusammenfassung.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "      9 `c1-zusammenfassen`               `study.explanation[4]`                         Stejně jako mnoho německých sloves se     Podstatné jméno od slovesa zusammenfassen  \n                                                                                         zusammenfassen může stát velkým jménem a  je die Zusammenfassung.                    \n                                                                                         členem: zusammenfassen → die                                                         \n                                                                                         Zusammenfassen (substantivizace).                                                    ",
+        "actual": "Podstatné jméno od slovesa zusammenfassen je die Zusammenfassung."
+      },
+      {
+        "cardId": "c1-zusammenfassen",
+        "field": "study.examples[2].lv",
+        "current": "Stručně shrnul recenzi.",
+        "new": "Stručně shrnul zprávu.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     10 `c1-zusammenfassen`               `study.examples[2].lv`                         Stručně shrnul recenzi.                   Stručně shrnul zprávu.                     ",
+        "actual": "Stručně shrnul zprávu."
+      },
+      {
+        "cardId": "c1-zusammenfassen",
+        "field": "study.important[2]",
+        "current": "Nesprávně: die zusammenfassen → Správně: die Zusammenfassen (podstatné jméno vždy s velkým písmenem).",
+        "new": "Nesprávně: die zusammenfassen → Správně: die Zusammenfassung.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     11 `c1-zusammenfassen`               `study.important[2]`                           Nesprávně: die zusammenfassen → Správně:  Nesprávně: die zusammenfassen → Správně:   \n                                                                                         die Zusammenfassen (podstatné jméno vždy  die Zusammenfassung.                       \n                                                                                         s velkým písmenem).                                                                  ",
+        "actual": "Nesprávně: die zusammenfassen → Správně: die Zusammenfassung."
+      },
+      {
+        "cardId": "c1-wahl",
+        "field": "study.translation",
+        "current": "Volba • Volba",
+        "new": "Volba • Volby",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     12 `c1-wahl`                         `study.translation`                            Volba • Volba                             Volba • Volby                              ",
+        "actual": "Volba • Volby"
+      },
+      {
+        "cardId": "c1-gelegentlich",
+        "field": "study.translation",
+        "current": "Někdy • Příležitost • Kvůli",
+        "new": "Občas • Příležitostný • U příležitosti",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     13 `c1-gelegentlich`                 `study.translation`                            Někdy • Příležitost • Kvůli               Občas • Příležitostný • U příležitosti     ",
+        "actual": "Občas • Příležitostný • U příležitosti"
+      },
+      {
+        "cardId": "c1-gelegentlich",
+        "field": "study.explanation",
+        "current": "Hlavní myšlenka: gelegentlich je slovo se třemi funkcemi. Přídavné jméno: příležitostný (ein gelegentlicher Besuch). Příslovce: někdy, čas od času (Er kommt gelegentlich). Předložka + dativ: kvůli (gelegentlich des Festes).",
+        "new": "Hlavní myšlenka: gelegentlich má tři funkce. Jako přídavné jméno znamená příležitostný (ein gelegentlicher Besuch). Jako příslovce znamená občas, někdy (Er kommt gelegentlich). V předložkovém užití s genitivem znamená u příležitosti (gelegentlich des Festes).",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     14 `c1-gelegentlich`                 `study.explanation`                            Hlavní myšlenka: gelegentlich je slovo se Hlavní myšlenka: gelegentlich má tři       \n                                                                                         třemi funkcemi. Přídavné jméno:           funkce. Jako přídavné jméno znamená        \n                                                                                         příležitostný (ein gelegentlicher         příležitostný (ein gelegentlicher Besuch). \n                                                                                         Besuch). Příslovce: někdy, čas od času    Jako příslovce znamená občas, někdy (Er    \n                                                                                         (Er kommt gelegentlich). Předložka +      kommt gelegentlich). V předložkovém užití  \n                                                                                         dativ: kvůli (gelegentlich des Festes).   s genitivem znamená u příležitosti         \n                                                                                                                                   (gelegentlich des Festes).                 ",
+        "actual": "Hlavní myšlenka: gelegentlich má tři funkce. Jako přídavné jméno znamená příležitostný (ein gelegentlicher Besuch). Jako příslovce znamená občas, někdy (Er kommt gelegentlich). V předložkovém užití s genitivem znamená u příležitosti (gelegentlich des Festes)."
+      },
+      {
+        "cardId": "c1-gelegentlich",
+        "field": "study.examples[1].lv",
+        "current": "Stačí občasná návštěva.",
+        "new": "Stačí příležitostná návštěva.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     15 `c1-gelegentlich`                 `study.examples[1].lv`                         Stačí občasná návštěva.                   Stačí příležitostná návštěva.              ",
+        "actual": "Stačí příležitostná návštěva."
+      },
+      {
+        "cardId": "c1-gelegentlich",
+        "field": "study.comparison[1].meaning",
+        "current": "Náhodný • Náhodný",
+        "new": "Příležitostný • Občasný",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     16 `c1-gelegentlich`                 `study.comparison[1].meaning`                  Náhodný • Náhodný                         Příležitostný • Občasný                    ",
+        "actual": "Příležitostný • Občasný"
+      },
+      {
+        "cardId": "c1-gelegentlich",
+        "field": "study.comparison[2].meaning",
+        "current": "Kvůli",
+        "new": "U příležitosti",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     17 `c1-gelegentlich`                 `study.comparison[2].meaning`                  Kvůli                                     U příležitosti                             ",
+        "actual": "U příležitosti"
+      },
+      {
+        "cardId": "c1-gelegentlich",
+        "field": "study.important.text",
+        "current": "Příl.: ležérní. Adv.: někdy. Přípravka. + Gen.: kvůli. Kontext určuje význam.",
+        "new": "Adj.: příležitostný. Adv.: občas, někdy. Předložkové užití + genitiv: u příležitosti. Kontext určuje význam.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     18 `c1-gelegentlich`                 `study.important.text`                         Příl.: ležérní. Adv.: někdy. Přípravka. + Adj.: příležitostný. Adv.: občas, někdy.   \n                                                                                         Gen.: kvůli. Kontext určuje význam.       Předložkové užití + genitiv: u             \n                                                                                                                                   příležitosti. Kontext určuje význam.       ",
+        "actual": "Adj.: příležitostný. Adv.: občas, někdy. Předložkové užití + genitiv: u příležitosti. Kontext určuje význam."
+      },
+      {
+        "cardId": "c1-wahlberechtigt",
+        "field": "study.explanation",
+        "current": "Hlavní myšlenka: wahlberechtig je přídavné jméno, které znamená, že osoba má právo účastnit se voleb -- volit nebo kandidovat ve volbách. Složení: Wahl (volby) + behrechtig (oprávněný).",
+        "new": "Hlavní myšlenka: wahlberechtigt je přídavné jméno, které znamená, že osoba má právo volit. Složení: Wahl (volby) + berechtigt (oprávněný).",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     19 `c1-wahlberechtigt`               `study.explanation`                            Hlavní myšlenka: wahlberechtig je         Hlavní myšlenka: wahlberechtigt je         \n                                                                                         přídavné jméno, které znamená, že osoba   přídavné jméno, které znamená, že osoba má \n                                                                                         má právo účastnit se voleb -- volit nebo  právo volit. Složení: Wahl (volby) +       \n                                                                                         kandidovat ve volbách. Složení: Wahl      berechtigt (oprávněný).                    \n                                                                                         (volby) + behrechtig (oprávněný).                                                    ",
+        "actual": "Hlavní myšlenka: wahlberechtigt je přídavné jméno, které znamená, že osoba má právo volit. Složení: Wahl (volby) + berechtigt (oprávněný)."
+      },
+      {
+        "cardId": "c1-wahlberechtigt",
+        "field": "study.comparison[1].meaning",
+        "current": "Přát si • Volit",
+        "new": "Vybrat • Volit",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     20 `c1-wahlberechtigt`               `study.comparison[1].meaning`                  Přát si • Volit                           Vybrat • Volit                             ",
+        "actual": "Vybrat • Volit"
+      },
+      {
+        "cardId": "c1-wahlberechtigt",
+        "field": "study.tip.leftBlocks[0].text",
+        "current": "Wahl = volba, behrechtig = způsobilý. Běžné v tisku a právních textech.",
+        "new": "Wahl = volba, berechtigt = oprávněný. Běžné v tisku a právních textech.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     21 `c1-wahlberechtigt`               `study.tip.leftBlocks[0].text`                 Wahl = volba, behrechtig = způsobilý.     Wahl = volba, berechtigt = oprávněný.      \n                                                                                         Běžné v tisku a právních textech.         Běžné v tisku a právních textech.          ",
+        "actual": "Wahl = volba, berechtigt = oprávněný. Běžné v tisku a právních textech."
+      },
+      {
+        "cardId": "c1-wahlberechtigt",
+        "field": "study.important.text",
+        "current": "Wahlberechtig = s právem volit. Naproti: nicht wahlberechtigkeit.",
+        "new": "Wahlberechtigt = s právem volit. Opak: nicht wahlberechtigt.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     22 `c1-wahlberechtigt`               `study.important.text`                         Wahlberechtig = s právem volit. Naproti:  Wahlberechtigt = s právem volit. Opak:     \n                                                                                         nicht wahlberechtigkeit.                  nicht wahlberechtigt.                      ",
+        "actual": "Wahlberechtigt = s právem volit. Opak: nicht wahlberechtigt."
+      },
+      {
+        "cardId": "c1-wahlberechtigt",
+        "field": "study.sectionAccents.explanation.blue",
+        "current": "\\[\"wahlberechtig\",\"Wahl\",\"behrechtig\"\\]",
+        "new": "\\[\"wahlberechtigt\",\"Wahl\",\"berechtigt\"\\]",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     23 `c1-wahlberechtigt`               `study.sectionAccents.explanation.blue`        \\[\"wahlberechtig\",\"Wahl\",\"behrechtig\"\\]   \\[\"wahlberechtigt\",\"Wahl\",\"berechtigt\"\\]   ",
+        "actual": [
+          "wahlberechtigt",
+          "Wahl",
+          "berechtigt"
+        ]
+      },
+      {
+        "cardId": "c1-zuschlag",
+        "field": "study.translation",
+        "current": "Prémie • Přirážka",
+        "new": "Příplatek • Přirážka",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     24 `c1-zuschlag`                     `study.translation`                            Prémie • Přirážka                         Příplatek • Přirážka                       ",
+        "actual": "Příplatek • Přirážka"
+      },
+      {
+        "cardId": "c1-zuschlag",
+        "field": "study.tip[0]",
+        "current": "Der Zuschlag = příplatek/příplatek (příplatek), nikoli příloha dokumentu.",
+        "new": "Der Zuschlag = příplatek nebo přirážka, nikoli příloha dokumentu.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     25 `c1-zuschlag`                     `study.tip[0]`                                 Der Zuschlag = příplatek/příplatek        Der Zuschlag = příplatek nebo přirážka,    \n                                                                                         (příplatek), nikoli příloha dokumentu.    nikoli příloha dokumentu.                  ",
+        "actual": "Der Zuschlag = příplatek nebo přirážka, nikoli příloha dokumentu."
+      },
+      {
+        "cardId": "c1-beziehen-sich-beziehen-auf",
+        "field": "study.translation",
+        "current": "Aplikovat • Aplikovat na",
+        "new": "Pobírat • Vztahovat se na",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     26 `c1-beziehen-sich-beziehen-auf`   `study.translation`                            Aplikovat • Aplikovat na                  Pobírat • Vztahovat se na                  ",
+        "actual": "Pobírat • Vztahovat se na"
+      },
+      {
+        "cardId": "c1-beziehen-sich-beziehen-auf",
+        "field": "study.explanation[0]",
+        "current": "Hlavní myšlenka: Formální registr: atribut zdroje, pravidelný příjem o důchodu/platu nebo stěhování do bytu.",
+        "new": "Hlavní myšlenka: beziehen může znamenat pobírat důchod nebo plat či nastěhovat se do bytu; sich beziehen auf znamená vztahovat se na něco.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     27 `c1-beziehen-sich-beziehen-auf`   `study.explanation[0]`                         Hlavní myšlenka: Formální registr:        Hlavní myšlenka: beziehen může znamenat    \n                                                                                         atribut zdroje, pravidelný příjem o       pobírat důchod nebo plat či nastěhovat se  \n                                                                                         důchodu/platu nebo stěhování do bytu.     do bytu; sich beziehen auf znamená         \n                                                                                                                                   vztahovat se na něco.                      ",
+        "actual": "Hlavní myšlenka: beziehen může znamenat pobírat důchod nebo plat či nastěhovat se do bytu; sich beziehen auf znamená vztahovat se na něco."
+      },
+      {
+        "cardId": "c1-beziehen-sich-beziehen-auf",
+        "field": "study.examples[0].lv",
+        "current": "Aplikovat • Aplikovat na",
+        "new": "Pobírat • Vztahovat se na",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     28 `c1-beziehen-sich-beziehen-auf`   `study.examples[0].lv`                         Aplikovat • Aplikovat na                  Pobírat • Vztahovat se na                  ",
+        "actual": "Pobírat • Vztahovat se na"
+      },
+      {
+        "cardId": "c1-beabsichtigen",
+        "field": "study.examples[1].lv",
+        "current": "Co myslíš touto událostí?",
+        "new": "Co zamýšlíte tímto opatřením?",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     29 `c1-beabsichtigen`                `study.examples[1].lv`                         Co myslíš touto událostí?                 Co zamýšlíte tímto opatřením?              ",
+        "actual": "Co zamýšlíte tímto opatřením?"
+      },
+      {
+        "cardId": "c1-beabsichtigen",
+        "field": "study.explanation[5]",
+        "current": "Beabsichtigen znamená záměrně zamýšlet nebo plánovat akci -- ne vztah, ale záměr.",
+        "new": "Beabsichtigen znamená zamýšlet nebo plánovat určitou činnost – jde o záměr, nikoli o vztah.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     30 `c1-beabsichtigen`                `study.explanation[5]`                         Beabsichtigen znamená záměrně zamýšlet    Beabsichtigen znamená zamýšlet nebo        \n                                                                                         nebo plánovat akci -- ne vztah, ale       plánovat určitou činnost -- jde o záměr,   \n                                                                                         záměr.                                    nikoli o vztah.                            ",
+        "actual": "Beabsichtigen znamená zamýšlet nebo plánovat určitou činnost – jde o záměr, nikoli o vztah."
+      },
+      {
+        "cardId": "c1-beabsichtigen",
+        "field": "study.tip[1]",
+        "current": "Beabsichtigen = myslet",
+        "new": "Beabsichtigen = zamýšlet • mít v úmyslu",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     31 `c1-beabsichtigen`                `study.tip[1]`                                 Beabsichtigen = myslet                    Beabsichtigen = zamýšlet • mít v úmyslu    ",
+        "actual": "Beabsichtigen = zamýšlet • mít v úmyslu"
+      },
+      {
+        "cardId": "c1-beabsichtigen",
+        "field": "study.important[0]",
+        "current": "Beabsichtigen + zu + nepravidelnost: Er beabsichtigt zu gehen.",
+        "new": "Beabsichtigen + zu + infinitiv: Er beabsichtigt zu gehen.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     32 `c1-beabsichtigen`                `study.important[0]`                           Beabsichtigen + zu + nepravidelnost: Er   Beabsichtigen + zu + infinitiv: Er         \n                                                                                         beabsichtigt zu gehen.                    beabsichtigt zu gehen.                     ",
+        "actual": "Beabsichtigen + zu + infinitiv: Er beabsichtigt zu gehen."
+      },
+      {
+        "cardId": "c1-beabsichtigen",
+        "field": "study.sectionAccents.examples[1].lv.purple",
+        "current": "\\[\"myslíš\"\\]",
+        "new": "\\[\"zamýšlíte\"\\]",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     33 `c1-beabsichtigen`                `study.sectionAccents.examples[1].lv.purple`   \\[\"myslíš\"\\]                              \\[\"zamýšlíte\"\\]                            ",
+        "actual": [
+          "zamýšlíte"
+        ]
+      },
+      {
+        "cardId": "c1-beabsichtigen",
+        "field": "study.sectionAccents.tip[1]",
+        "current": "{\"purple\":\\[\"Pokud\"\\]}",
+        "new": "{\"green\":\\[\"Beabsichtigen\"\\]}",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     34 `c1-beabsichtigen`                `study.sectionAccents.tip[1]`                  {\"purple\":\\[\"Pokud\"\\]}                    {\"green\":\\[\"Beabsichtigen\"\\]}              ",
+        "actual": {
+          "green": [
+            "Beabsichtigen"
+          ]
+        }
+      },
+      {
+        "cardId": "c1-unterstellen",
+        "field": "study.examples[0].lv",
+        "current": "Jsem obviněn ze špatných úmyslů.",
+        "new": "Přičítají mi špatné úmysly.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     1 `c1-unterstellen`       `study.examples[0].lv`                         Jsem obviněn ze špatných úmyslů.                              Přičítají mi špatné úmysly.                          ",
+        "actual": "Přičítají mi špatné úmysly."
+      },
+      {
+        "cardId": "c1-unterstellen",
+        "field": "study.examples[1].lv",
+        "current": "Nic mě neobviňujte!",
+        "new": "Nic mi nepodsouvejte!",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     2 `c1-unterstellen`       `study.examples[1].lv`                         Nic mě neobviňujte!                                           Nic mi nepodsouvejte!                                ",
+        "actual": "Nic mi nepodsouvejte!"
+      },
+      {
+        "cardId": "c1-unterstellen",
+        "field": "study.examples[2].lv",
+        "current": "Nikdo by neměl být nespravedlivě obviněn ze zrady.",
+        "new": "Nikomu by se neměla bezdůvodně přičítat zrada.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     3 `c1-unterstellen`       `study.examples[2].lv`                         Nikdo by neměl být nespravedlivě obviněn ze zrady.            Nikomu by se neměla bezdůvodně přičítat zrada.       ",
+        "actual": "Nikomu by se neměla bezdůvodně přičítat zrada."
+      },
+      {
+        "cardId": "c1-unterstellen",
+        "field": "study.examples[3].lv",
+        "current": "Je obviněn z nedůvěry.",
+        "new": "Je mu přičítána nevěra.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     4 `c1-unterstellen`       `study.examples[3].lv`                         Je obviněn z nedůvěry.                                        Je mu přičítána nevěra.                              ",
+        "actual": "Je mu přičítána nevěra."
+      },
+      {
+        "cardId": "c1-unterstellen",
+        "field": "study.examples[4].lv",
+        "current": "Neoprávněná vina • Předpověď",
+        "new": "Neoprávněné obvinění • Předpoklad",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     5 `c1-unterstellen`       `study.examples[4].lv`                         Neoprávněná vina • Předpověď                                  Neoprávněné obvinění • Předpoklad                    ",
+        "actual": "Neoprávněné obvinění • Předpoklad"
+      },
+      {
+        "cardId": "c1-unterstellen",
+        "field": "study.explanation[2]",
+        "current": "Často charakterizováno: obviňováním / přitažlivostí.",
+        "new": "Často charakterizováno: obviňováním / připisováním.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     6 `c1-unterstellen`       `study.explanation[2]`                         Často charakterizováno: obviňováním / přitažlivostí.          Často charakterizováno: obviňováním / připisováním.  ",
+        "actual": "Často charakterizováno: obviňováním / připisováním."
+      },
+      {
+        "cardId": "c1-voraussetzen",
+        "field": "study.sectionAccents.explanation",
+        "current": "{\"green\":\\[\"voraussetzen\",\"voraus\"\\],\"purple\":\\[\"Hlavní\"\\]}",
+        "new": "{\"green\":\\[\"voraussetzen\"\\],\"purple\":\\[\"Hlavní\"\\]}",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     7 `c1-voraussetzen`       `study.sectionAccents.explanation`             {\"green\":\\[\"voraussetzen\",\"voraus\"\\],\"purple\":\\[\"Hlavní\"\\]}   {\"green\":\\[\"voraussetzen\"\\],\"purple\":\\[\"Hlavní\"\\]}   ",
+        "actual": {
+          "green": [
+            "voraussetzen"
+          ],
+          "purple": [
+            "Hlavní"
+          ]
+        }
+      },
+      {
+        "cardId": "c1-voraussetzen",
+        "field": "study.examples[0].lv",
+        "current": "Základní znalosti akceptujeme jako předpoklad.",
+        "new": "Předpokládáme základní znalosti.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     8 `c1-voraussetzen`       `study.examples[0].lv`                         Základní znalosti akceptujeme jako předpoklad.                Předpokládáme základní znalosti.                     ",
+        "actual": "Předpokládáme základní znalosti."
+      },
+      {
+        "cardId": "c1-voraussetzen",
+        "field": "study.examples[1].lv",
+        "current": "Základní znalosti přijímáme jako předpoklad.",
+        "new": "Předpokládáme základní znalosti.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "     9 `c1-voraussetzen`       `study.examples[1].lv`                         Základní znalosti přijímáme jako předpoklad.                  Předpokládáme základní znalosti.                     ",
+        "actual": "Předpokládáme základní znalosti."
+      },
+      {
+        "cardId": "c1-voraussetzen",
+        "field": "study.tip[0]",
+        "current": "Voraussetzen = předpokládat předpoklad",
+        "new": "Voraussetzen = předpokládat",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "    10 `c1-voraussetzen`       `study.tip[0]`                                 Voraussetzen = předpokládat předpoklad                        Voraussetzen = předpokládat                          ",
+        "actual": "Voraussetzen = předpokládat"
+      },
+      {
+        "cardId": "c1-voraussetzen",
+        "field": "study.important[0]",
+        "current": "Voraussetzen je střední rod --- předložka.",
+        "new": "Voraussetzen je sloveso znamenající „předpokládat“; vyjadřuje předpoklad.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "    11 `c1-voraussetzen`       `study.important[0]`                           Voraussetzen je střední rod --- předložka.                    Voraussetzen je sloveso znamenající „předpokládat\";  \n                                                                                                                                            vyjadřuje předpoklad.                                ",
+        "actual": "Voraussetzen je sloveso znamenající „předpokládat“; vyjadřuje předpoklad."
+      },
+      {
+        "cardId": "c1-bewahren",
+        "field": "study.translation",
+        "current": "Chránit • Chránit",
+        "new": "Chránit • Zachovat",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "    12 `c1-bewahren`           `study.translation`                            Chránit • Chránit                                             Chránit • Zachovat                                   ",
+        "actual": "Chránit • Zachovat"
+      },
+      {
+        "cardId": "c1-bewahren",
+        "field": "study.examples[0].lv",
+        "current": "Dodržujeme tradice.",
+        "new": "Zachováváme tradice.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "    13 `c1-bewahren`           `study.examples[0].lv`                         Dodržujeme tradice.                                           Zachováváme tradice.                                 ",
+        "actual": "Zachováváme tradice."
+      },
+      {
+        "cardId": "c1-bewahren",
+        "field": "study.examples[2].lv",
+        "current": "Dodržujeme tradice.",
+        "new": "Zachováváme tradice.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "    14 `c1-bewahren`           `study.examples[2].lv`                         Dodržujeme tradice.                                           Zachováváme tradice.                                 ",
+        "actual": "Zachováváme tradice."
+      },
+      {
+        "cardId": "c1-bewahren",
+        "field": "study.examples[3].lv",
+        "current": "Chránit/zachovat • Aufrechterhalten",
+        "new": "Chránit/zachovat • Udržovat v platnosti",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "    15 `c1-bewahren`           `study.examples[3].lv`                         Chránit/zachovat • Aufrechterhalten                           Chránit/zachovat • Udržovat v platnosti              ",
+        "actual": "Chránit/zachovat • Udržovat v platnosti"
+      },
+      {
+        "cardId": "c1-bewahren",
+        "field": "study.important[2]",
+        "current": "Bewahren → chránit, chránit.",
+        "new": "Bewahren → chránit, zachovat.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "    16 `c1-bewahren`           `study.important[2]`                           Bewahren → chránit, chránit.                                  Bewahren → chránit, zachovat.                        ",
+        "actual": "Bewahren → chránit, zachovat."
+      },
+      {
+        "cardId": "c1-bewahren",
+        "field": "study.sectionAccents.examples[0].lv.purple",
+        "current": "\\[\"Dodržujeme\"\\]",
+        "new": "\\[\"Zachováváme\"\\]",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "    17 `c1-bewahren`           `study.sectionAccents.examples[0].lv.purple`   \\[\"Dodržujeme\"\\]                                              \\[\"Zachováváme\"\\]                                    ",
+        "actual": [
+          "Zachováváme"
+        ]
+      },
+      {
+        "cardId": "c1-bewahren",
+        "field": "study.sectionAccents.examples[2].lv.purple",
+        "current": "\\[\"Dodržujeme\"\\]",
+        "new": "\\[\"Zachováváme\"\\]",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "    18 `c1-bewahren`           `study.sectionAccents.examples[2].lv.purple`   \\[\"Dodržujeme\"\\]                                              \\[\"Zachováváme\"\\]                                    ",
+        "actual": [
+          "Zachováváme"
+        ]
+      },
+      {
+        "cardId": "c1-aufrechterhalten",
+        "field": "study.sectionAccents.explanation",
+        "current": "{\"green\":\\[\"aufrechterhalten\",\"erhält\",\"auf\"\\]}",
+        "new": "{\"green\":\\[\"aufrechterhalten\"\\]}",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "    19 `c1-aufrechterhalten`   `study.sectionAccents.explanation`             {\"green\":\\[\"aufrechterhalten\",\"erhält\",\"auf\"\\]}               {\"green\":\\[\"aufrechterhalten\"\\]}                     ",
+        "actual": {
+          "green": [
+            "aufrechterhalten"
+          ]
+        }
+      },
+      {
+        "cardId": "c1-aufrechterhalten",
+        "field": "study.examples[0].lv",
+        "current": "Stát udržuje pořádek v platnosti.",
+        "new": "Stát udržuje pořádek.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "    20 `c1-aufrechterhalten`   `study.examples[0].lv`                         Stát udržuje pořádek v platnosti.                             Stát udržuje pořádek.                                ",
+        "actual": "Stát udržuje pořádek."
+      },
+      {
+        "cardId": "c1-aufrechterhalten",
+        "field": "study.examples[1].lv",
+        "current": "Musí akci ponechat v platnosti.",
+        "new": "Je třeba udržovat provoz v chodu.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "    21 `c1-aufrechterhalten`   `study.examples[1].lv`                         Musí akci ponechat v platnosti.                               Je třeba udržovat provoz v chodu.                    ",
+        "actual": "Je třeba udržovat provoz v chodu."
+      },
+      {
+        "cardId": "c1-aufrechterhalten",
+        "field": "study.examples[2].lv",
+        "current": "Stát udržuje pořádek v platnosti.",
+        "new": "Stát udržuje pořádek.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "    22 `c1-aufrechterhalten`   `study.examples[2].lv`                         Stát udržuje pořádek v platnosti.                             Stát udržuje pořádek.                                ",
+        "actual": "Stát udržuje pořádek."
+      },
+      {
+        "cardId": "c1-aufrechterhalten",
+        "field": "study.explanation[2]",
+        "current": "Často charakterizováno: udržováním kondice.",
+        "new": "Často charakterizováno: udržováním stavu.",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "    23 `c1-aufrechterhalten`   `study.explanation[2]`                         Často charakterizováno: udržováním kondice.                   Často charakterizováno: udržováním stavu.            ",
+        "actual": "Často charakterizováno: udržováním stavu."
+      }
+    ]
+  },
+  "scope": {
+    "changedMappings": 265,
+    "uniqueChangedCards": 222,
+    "mainTranslationFields": 208,
+    "studyFields": 57,
+    "cardIdSet": {}
+  },
+  "rawFindings": [
+    {
+      "cardId": "c1-Volksbefragung-537",
+      "field": "csText",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION_ERROR",
+      "current": "",
+      "proposed": "",
+      "reason": "Veřejná konzultace means public consultation, not Volksbefragung, which denotes a popular vote or plebiscite.",
+      "source": "gpt-5.6-luna",
+      "raw": {
+        "cardId": "c1-Volksbefragung-537",
+        "field": "csText",
+        "severity": "MEDIUM",
+        "category": "TRANSLATION_ERROR",
+        "de": "",
+        "lvSource": "",
+        "currentCs": "",
+        "proposedCs": "",
+        "reason": "Veřejná konzultace means public consultation, not Volksbefragung, which denotes a popular vote or plebiscite.",
+        "confidence": "medium",
+        "status": "FINDING"
+      }
+    },
+    {
+      "cardId": "c1-zusammenstellen-557",
+      "field": "csText",
+      "severity": "MEDIUM",
+      "category": "CZECH_ORTHOGRAPHY",
+      "current": "",
+      "proposed": "",
+      "reason": "Czech infinitive translations are written lowercase.",
+      "source": "gpt-5.6-luna",
+      "raw": {
+        "cardId": "c1-zusammenstellen-557",
+        "field": "csText",
+        "severity": "MEDIUM",
+        "category": "CZECH_ORTHOGRAPHY",
+        "de": "",
+        "lvSource": "",
+        "currentCs": "",
+        "proposedCs": "",
+        "reason": "Czech infinitive translations are written lowercase.",
+        "confidence": "medium",
+        "status": "FINDING"
+      }
+    }
+  ],
+  "validatedReal": [],
+  "falsePositives": [
+    {
+      "cardId": "c1-Volksbefragung-537",
+      "field": "csText",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION_ERROR",
+      "current": "Veřejná konzultace • Referendum",
+      "proposed": "",
+      "reason": "Veřejná konzultace means public consultation, not Volksbefragung, which denotes a popular vote or plebiscite.",
+      "source": "gpt-5.6-luna",
+      "raw": {
+        "cardId": "c1-Volksbefragung-537",
+        "field": "csText",
+        "severity": "MEDIUM",
+        "category": "TRANSLATION_ERROR",
+        "de": "",
+        "lvSource": "",
+        "currentCs": "",
+        "proposedCs": "",
+        "reason": "Veřejná konzultace means public consultation, not Volksbefragung, which denotes a popular vote or plebiscite.",
+        "confidence": "medium",
+        "status": "FINDING"
+      },
+      "validationStatus": "FALSE_POSITIVE"
+    },
+    {
+      "cardId": "c1-zusammenstellen-557",
+      "field": "csText",
+      "severity": "MEDIUM",
+      "category": "CZECH_ORTHOGRAPHY",
+      "current": "Sestavit",
+      "proposed": "",
+      "reason": "Czech infinitive translations are written lowercase.",
+      "source": "gpt-5.6-luna",
+      "raw": {
+        "cardId": "c1-zusammenstellen-557",
+        "field": "csText",
+        "severity": "MEDIUM",
+        "category": "CZECH_ORTHOGRAPHY",
+        "de": "",
+        "lvSource": "",
+        "currentCs": "",
+        "proposedCs": "",
+        "reason": "Czech infinitive translations are written lowercase.",
+        "confidence": "medium",
+        "status": "FINDING"
+      },
+      "validationStatus": "FALSE_POSITIVE"
+    }
+  ],
+  "sourceDeIssues": [],
+  "integrity": {
+    "cardCount": 572,
+    "syntax": "PASS",
+    "idOrder": "PASS",
+    "mirrorParity": "PASS",
+    "deChanges": 0,
+    "deIntegrity": "PASS"
+  },
+  "lunaUsage": {
+    "model": "gpt-5.6-luna",
+    "requestCount": 4,
+    "initialBatchRequests": 0,
+    "retryRequests": 0,
+    "batchCount": 4,
+    "batchSizes": [
+      50,
+      50,
+      10,
+      4
+    ],
+    "retryCount": 0,
+    "retryReasons": {},
+    "inputTokens": 23933,
+    "cachedInputTokens": 23921,
+    "outputTokens": 9259,
+    "reasoningTokens": 6413,
+    "totalTokens": 33192,
+    "findingsCount": 0,
+    "passCount": 114
+  },
+  "realFindings": []
+}
