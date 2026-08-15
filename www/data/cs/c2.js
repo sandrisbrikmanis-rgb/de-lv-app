@@ -8,19 +8,19 @@ const C2_WORDS = [
   },
   {
     "de": "konterkarieren",
-    "lv": "Rušit",
+    "lv": "Mařit",
     "level": "C2"
   },
   {
     "de": "Stichhaltigkeit",
     "de_article": "die",
     "de_plural": "die Stichhaltigkeiten",
-    "lv": "Rozumnost",
+    "lv": "Opodstatněnost • Přesvědčivost",
     "level": "C2"
   },
   {
     "de": "unmissverständlich",
-    "lv": "Nezaměnitelný",
+    "lv": "Jednoznačný • Naprosto jasný",
     "level": "C2"
   },
   {
@@ -32,7 +32,7 @@ const C2_WORDS = [
   },
   {
     "de": "veranschaulichen",
-    "lv": "Prokazatelně ukázat",
+    "lv": "Znázornit • Názorně vysvětlit",
     "level": "C2"
   },
   {
@@ -80,7 +80,7 @@ const C2_WORDS = [
     "de": "Teilnehmerausweis",
     "de_article": "der",
     "de_plural": "die Teilnehmerausweise",
-    "lv": "Členská karta",
+    "lv": "Průkaz účastníka",
     "level": "C2"
   },
   {
@@ -90,7 +90,7 @@ const C2_WORDS = [
   },
   {
     "de": "beaufsichtigen",
-    "lv": "Monitor",
+    "lv": "Dohlížet • Dozorovat",
     "level": "C2"
   },
   {
@@ -104,7 +104,7 @@ const C2_WORDS = [
     "de": "Behandlungsraum",
     "de_article": "der",
     "de_plural": "die Behandlungsräume",
-    "lv": "Ordinaci lékaře",
+    "lv": "Ošetřovna • Místnost pro ošetření",
     "level": "C2"
   },
   {
@@ -206,7 +206,7 @@ const C2_WORDS = [
   },
   {
     "de": "entgegenkommen",
-    "lv": "Narazit",
+    "lv": "Vyjít vstříc",
     "level": "C2"
   },
   {
@@ -227,7 +227,7 @@ const C2_WORDS = [
     "de": "Gehaltsabrechnung",
     "de_article": "die",
     "de_plural": "die Gehaltsabrechnungen",
-    "lv": "Výpočet mzdy",
+    "lv": "Výplatní páska • Vyúčtování mzdy",
     "level": "C2"
   },
   {
@@ -310,35 +310,35 @@ const C2_WORDS = [
   {
     "de": "Katastrophendienst",
     "de_article": "der",
-    "lv": "Katastrofická služba",
+    "lv": "Služba při katastrofách",
     "level": "C2"
   },
   {
     "de": "Kostenerstattung",
     "de_article": "die",
     "de_plural": "die Kostenerstattungen",
-    "lv": "Náhradu nákladů",
+    "lv": "Náhrada nákladů",
     "level": "C2"
   },
   {
     "de": "Kostensteigerung",
     "de_article": "die",
     "de_plural": "die Kostensteigerungen",
-    "lv": "Zvyšující se náklady",
+    "lv": "Zvýšení nákladů",
     "level": "C2"
   },
   {
     "de": "Krankenversicherung",
     "de_article": "die",
     "de_plural": "die Krankenversicherungen",
-    "lv": "Pojištění pro případ nemoci",
+    "lv": "Zdravotní pojištění",
     "level": "C2"
   },
   {
     "de": "Krankheitssymptom",
     "de_article": "das",
     "de_plural": "die Krankheitssymptome",
-    "lv": "Příznakem onemocnění",
+    "lv": "Příznak onemocnění",
     "level": "C2"
   },
   {
@@ -366,7 +366,7 @@ const C2_WORDS = [
     "de": "Lungenentzündung",
     "de_article": "die",
     "de_plural": "die Lungenentzündungen",
-    "lv": "Rakovina plic",
+    "lv": "Zápal plic • Pneumonie",
     "level": "C2"
   },
   {
@@ -408,14 +408,14 @@ const C2_WORDS = [
     "de": "Schlafwagenzimmer",
     "de_article": "das",
     "de_plural": "die Schlafwagenzimmer",
-    "lv": "Ložnice",
+    "lv": "Kupé ve spacím voze",
     "level": "C2"
   },
   {
     "de": "Schlittschuhkufe",
     "de_article": "die",
     "de_plural": "die Schlittschuhkufen",
-    "lv": "Sklon saní",
+    "lv": "Nůž brusle",
     "level": "C2"
   },
   {
@@ -427,12 +427,12 @@ const C2_WORDS = [
   },
   {
     "de": "selbstverständlich",
-    "lv": "Samovysvětlující",
+    "lv": "Samozřejmý",
     "level": "C2"
   },
   {
     "de": "sicherheitshalber",
-    "lv": "Pro bezpečnost",
+    "lv": "Pro jistotu",
     "level": "C2"
   },
   {
@@ -467,7 +467,7 @@ const C2_WORDS = [
     "de": "Straßenunterführung",
     "de_article": "die",
     "de_plural": "die Straßenunterführungen",
-    "lv": "Pěší tunel",
+    "lv": "Silniční podjezd",
     "level": "C2"
   },
   {
@@ -522,21 +522,21 @@ const C2_WORDS = [
     "de": "Sehenswürdigkeit",
     "de_article": "die",
     "de_plural": "die Sehenswürdigkeiten",
-    "lv": "Prominentní místo",
+    "lv": "Pamětihodnost",
     "level": "C2"
   },
   {
     "de": "Abenteuergeschichte",
     "de_article": "die",
     "de_plural": "die Abenteuergeschichten",
-    "lv": "Příběh aféry",
+    "lv": "Dobrodružný příběh",
     "level": "C2"
   },
   {
     "de": "Abgeordnetenhaus",
     "de_article": "das",
     "de_plural": "die Abgeordnetenhäuser",
-    "lv": "Parlament",
+    "lv": "Poslanecká sněmovna",
     "level": "C2"
   },
   {
@@ -564,7 +564,7 @@ const C2_WORDS = [
     "de": "Baugenossenschaft",
     "de_article": "die",
     "de_plural": "die Baugenossenschaften",
-    "lv": "Bytové družstvo družstvo",
+    "lv": "Stavební družstvo",
     "level": "C2"
   },
   {
@@ -578,7 +578,7 @@ const C2_WORDS = [
     "de": "Ausbildungsbeihilfe",
     "de_article": "die",
     "de_plural": "die Ausbildungsbeihilfen",
-    "lv": "Příspěvek na školné",
+    "lv": "Příspěvek na vzdělávání • Příspěvek na odbornou přípravu",
     "level": "C2"
   },
   {
@@ -592,14 +592,14 @@ const C2_WORDS = [
     "de": "Berichterstatter",
     "de_article": "der",
     "de_plural": "die Berichterstatter",
-    "lv": "Reportér • Reportér • Dopisovatel • Reportér",
+    "lv": "Zpravodaj • Referent • Korespondent • Reportér",
     "level": "C2"
   },
   {
     "de": "Berufsbezeichnung",
     "de_article": "die",
     "de_plural": "die Berufsbezeichnungen",
-    "lv": "Pracovní název",
+    "lv": "Označení povolání",
     "level": "C2"
   },
   {
@@ -620,7 +620,7 @@ const C2_WORDS = [
     "de": "Bevölkerungsdichte",
     "de_article": "die",
     "de_plural": "die Bevölkerungsdichten",
-    "lv": "Hustota obyvatel",
+    "lv": "Hustota obyvatelstva",
     "level": "C2"
   },
   {
@@ -682,7 +682,7 @@ const C2_WORDS = [
     "de": "Rauschgiftdezernat",
     "de_article": "das",
     "de_plural": "die Rauschgiftdezernate",
-    "lv": "Divize narkotik",
+    "lv": "Oddělení pro boj s narkotiky",
     "level": "C2"
   },
   {
@@ -696,7 +696,7 @@ const C2_WORDS = [
     "de": "Bereitschaftsdienst",
     "de_article": "der",
     "de_plural": "die Bereitschaftsdienste",
-    "lv": "Provozní služba",
+    "lv": "Pohotovostní služba",
     "level": "C2"
   },
   {
@@ -708,7 +708,7 @@ const C2_WORDS = [
   },
   {
     "de": "durchkreuzen",
-    "lv": "Vyškrtnout • Překřížit • Překřížit • Narušit",
+    "lv": "Vyškrtnout • Překřížit • Překazit • Narušit",
     "level": "C2"
   },
   {
@@ -757,7 +757,7 @@ const C2_WORDS = [
     "de": "Empfehlungsschreiben",
     "de_article": "das",
     "de_plural": "die Empfehlungsschreiben",
-    "lv": "Písemné doporučení",
+    "lv": "Doporučující dopis",
     "level": "C2"
   },
   {
@@ -769,21 +769,21 @@ const C2_WORDS = [
   },
   {
     "de": "entgegengesetzt",
-    "lv": "Opak",
+    "lv": "Opačný",
     "level": "C2"
   },
   {
     "de": "Entschlossenheit",
     "de_article": "die",
     "de_plural": "die Entschlossenheiten",
-    "lv": "Jistota • Rozhodnost • Nezpochybnitelnost",
+    "lv": "Rozhodnost • Odhodlanost",
     "level": "C2"
   },
   {
     "de": "Entwicklungsland",
     "de_article": "das",
     "de_plural": "die Entwicklungsländer",
-    "lv": "Země rozvoje",
+    "lv": "Rozvojová země",
     "level": "C2"
   },
   {
@@ -804,7 +804,7 @@ const C2_WORDS = [
     "de": "Errungenschaft",
     "de_article": "die",
     "de_plural": "die Errungenschaften",
-    "lv": "Úspěch • Prospěch • Zisk",
+    "lv": "Úspěch • Výdobytek",
     "level": "C2"
   },
   {
@@ -817,7 +817,7 @@ const C2_WORDS = [
   {
     "de": "Fallschirmspringen",
     "de_article": "das",
-    "lv": "Skydiving",
+    "lv": "Parašutismus • Seskok padákem",
     "level": "C2"
   },
   {
@@ -873,7 +873,7 @@ const C2_WORDS = [
     "de": "Gedächtnisstörung",
     "de_article": "die",
     "de_plural": "die Gedächtnisstörungen",
-    "lv": "Zhoršení paměti",
+    "lv": "Porucha paměti",
     "level": "C2"
   },
   {
@@ -900,7 +900,7 @@ const C2_WORDS = [
   {
     "de": "Geistesgegenwart",
     "de_article": "die",
-    "lv": "Vynalézavost",
+    "lv": "Duchapřítomnost",
     "level": "C2"
   },
   {
@@ -933,7 +933,7 @@ const C2_WORDS = [
     "de": "Dorfgemeinschaft",
     "de_article": "die",
     "de_plural": "die Dorfgemeinschaften",
-    "lv": "Vesničané",
+    "lv": "Vesnické společenství • Vesnická komunita",
     "level": "C2"
   },
   {
@@ -961,21 +961,21 @@ const C2_WORDS = [
     "de": "Genossenschaft",
     "de_article": "die",
     "de_plural": "die Genossenschaften",
-    "lv": "Družstevní • Artel",
+    "lv": "Družstvo • Artel",
     "level": "C2"
   },
   {
     "de": "Gerechtigkeitsgefühl",
     "de_article": "das",
     "de_plural": "die Gerechtigkeitsgefühle",
-    "lv": "Spravedlnost • Smysl pro spravedlnost",
+    "lv": "Smysl pro spravedlnost",
     "level": "C2"
   },
   {
     "de": "Schiedsgericht",
     "de_article": "das",
     "de_plural": "die Schiedsgerichte",
-    "lv": "Arbitráž",
+    "lv": "Rozhodčí soud • Arbitrážní soud",
     "level": "C2"
   },
   {
@@ -989,7 +989,7 @@ const C2_WORDS = [
     "de": "Geschäftsordnung",
     "de_article": "die",
     "de_plural": "die Geschäftsordnungen",
-    "lv": "Nařízení • Nařízení",
+    "lv": "Jednací řád",
     "level": "C2"
   },
   {
@@ -1009,7 +1009,7 @@ const C2_WORDS = [
     "de": "Geschwindigkeitskontrolle",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitskontrollen",
-    "lv": "Ovládání rychlosti",
+    "lv": "Kontrola rychlosti • Měření rychlosti",
     "level": "C2"
   },
   {
@@ -1023,26 +1023,26 @@ const C2_WORDS = [
     "de": "Geschwindigkeitsüberschreitung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsüberschreitungen",
-    "lv": "Nedodržení předepsané rychlosti • Porušení",
+    "lv": "Překročení rychlosti",
     "level": "C2"
   },
   {
     "de": "gesellschaftlich",
-    "lv": " • Veřejné společnosti",
+    "lv": "Společenský • Sociální",
     "level": "C2"
   },
   {
     "de": "Gesellschaftsordnung",
     "de_article": "die",
     "de_plural": "die Gesellschaftsordnungen",
-    "lv": "Veřejné zařízení",
+    "lv": "Společenské uspořádání • Společenský řád",
     "level": "C2"
   },
   {
     "de": "Gesetzesvorlage",
     "de_article": "die",
     "de_plural": "die Gesetzesvorlagen",
-    "lv": "Účtovat",
+    "lv": "Návrh zákona",
     "level": "C2"
   },
   {
@@ -1056,7 +1056,7 @@ const C2_WORDS = [
     "de": "Gewerkschaftsbeitrag",
     "de_article": "der",
     "de_plural": "die Gewerkschaftsbeiträge",
-    "lv": "Členské poplatky odborů",
+    "lv": "Odborový příspěvek • Členský příspěvek odborům",
     "level": "C2"
   },
   {
@@ -1070,7 +1070,7 @@ const C2_WORDS = [
     "de": "Gewinnauszahlung",
     "de_article": "die",
     "de_plural": "die Gewinnauszahlungen",
-    "lv": "Výplata výher v loterii",
+    "lv": "Výplata zisku",
     "level": "C2"
   },
   {
@@ -1084,7 +1084,7 @@ const C2_WORDS = [
     "de": "Gleichberechtigung",
     "de_article": "die",
     "de_plural": "die Gleichberechtigungen",
-    "lv": "Rovnost",
+    "lv": "Rovnoprávnost",
     "level": "C2"
   },
   {
@@ -1105,7 +1105,7 @@ const C2_WORDS = [
     "de": "Hausgemeinschaft",
     "de_article": "die",
     "de_plural": "die Hausgemeinschaften",
-    "lv": "Rodinní příslušníci • Obyvatelé domu",
+    "lv": "Společenství obyvatel domu",
     "level": "C2"
   },
   {
@@ -1147,7 +1147,7 @@ const C2_WORDS = [
     "de": "Koalitionspartner",
     "de_article": "der",
     "de_plural": "die Koalitionspartner",
-    "lv": "Koaličním partnerem",
+    "lv": "Koaliční partner",
     "level": "C2"
   },
   {
@@ -1168,14 +1168,14 @@ const C2_WORDS = [
     "de": "Lebenserhaltungstrieb",
     "de_article": "der",
     "de_plural": "die Lebenserhaltungstriebe",
-    "lv": "Pohon života",
+    "lv": "Pud zachování života",
     "level": "C2"
   },
   {
     "de": "Lebenshaltungskosten",
     "de_article": "die",
     "de_plural": "die Lebenshaltungskosten",
-    "lv": "Prostředky k obživě • Náklady",
+    "lv": "Životní náklady",
     "level": "C2"
   },
   {
@@ -1217,12 +1217,12 @@ const C2_WORDS = [
     "de": "Meisterschaftsspiel",
     "de_article": "das",
     "de_plural": "die Meisterschaftsspiele",
-    "lv": "Mistrovský závod",
+    "lv": "Mistrovský zápas",
     "level": "C2"
   },
   {
     "de": "menschenfreundlich",
-    "lv": "Humánní • Humánní",
+    "lv": "Humánní • Lidský",
     "level": "C2"
   },
   {
@@ -1236,7 +1236,7 @@ const C2_WORDS = [
     "de": "Mutterschaftsurlaub",
     "de_article": "der",
     "de_plural": "die Mutterschaftsurlaube",
-    "lv": "Mateřské dovolené",
+    "lv": "Mateřská dovolená",
     "level": "C2"
   },
   {
@@ -1264,7 +1264,7 @@ const C2_WORDS = [
     "de": "Pflichtversicherung",
     "de_article": "die",
     "de_plural": "die Pflichtversicherungen",
-    "lv": "Povinné ručení",
+    "lv": "Povinné pojištění",
     "level": "C2"
   },
   {
@@ -1275,7 +1275,7 @@ const C2_WORDS = [
   },
   {
     "de": "populärwissenschaftlich",
-    "lv": "Populární věda",
+    "lv": "Populárněvědecký",
     "level": "C2"
   },
   {
@@ -1287,14 +1287,14 @@ const C2_WORDS = [
   },
   {
     "de": "rechtsextremistisch",
-    "lv": "Pravicový extremista",
+    "lv": "Pravicově extremistický",
     "level": "C2"
   },
   {
     "de": "Satellitenübertragung",
     "de_article": "die",
     "de_plural": "die Satellitenübertragungen",
-    "lv": "Satelitní televizní přenos",
+    "lv": "Satelitní přenos",
     "level": "C2"
   },
   {
@@ -1308,7 +1308,7 @@ const C2_WORDS = [
     "de": "Beschwerdeschrift",
     "de_article": "die",
     "de_plural": "die Beschwerdeschriften",
-    "lv": "Stížnost",
+    "lv": "Písemná stížnost",
     "level": "C2"
   },
   {
@@ -1336,28 +1336,28 @@ const C2_WORDS = [
     "de": "Selbstverteidigung",
     "de_article": "die",
     "de_plural": "die Selbstverteidigungen",
-    "lv": "Soubor sebeobranných technik",
+    "lv": "Sebeobrana",
     "level": "C2"
   },
   {
     "de": "Staatsangehörigkeit",
     "de_article": "die",
     "de_plural": "die Staatsangehörigkeiten",
-    "lv": "Státnosti",
+    "lv": "Státní příslušnost • Občanství",
     "level": "C2"
   },
   {
     "de": "Steuererleichterung",
     "de_article": "die",
     "de_plural": "die Steuererleichterungen",
-    "lv": "Daňové výhody",
+    "lv": "Daňová úleva",
     "level": "C2"
   },
   {
     "de": "Strafgesetzbuch",
     "de_article": "das",
     "de_plural": "die Strafgesetzbücher",
-    "lv": "Jur trestní zákoník",
+    "lv": "Trestní zákoník",
     "level": "C2"
   },
   {
@@ -1371,7 +1371,7 @@ const C2_WORDS = [
     "de": "Vaterschaftsklage",
     "de_article": "die",
     "de_plural": "die Vaterschaftsklagen",
-    "lv": "Žalobu o určení otcovství",
+    "lv": "Žaloba o určení otcovství",
     "level": "C2"
   },
   {
@@ -1383,7 +1383,7 @@ const C2_WORDS = [
     "de": "Verhütungsmittel",
     "de_article": "das",
     "de_plural": "die Verhütungsmittel",
-    "lv": "Antikoncepce",
+    "lv": "Antikoncepční prostředek",
     "level": "C2"
   },
   {
@@ -1409,12 +1409,12 @@ const C2_WORDS = [
   },
   {
     "de": "zugrunde, zu Grunde",
-    "lv": "V podstatě",
+    "lv": "V základu • V podstatě",
     "level": "C2"
   },
   {
     "de": "zugunsten, zu Gunsten",
-    "lv": "Pro dobro • Pro dobro",
+    "lv": "Ve prospěch",
     "level": "C2"
   },
   {
@@ -1429,12 +1429,12 @@ const C2_WORDS = [
   },
   {
     "de": "instand",
-    "lv": "V pořadí",
+    "lv": "V pořádku • Provozuschopný",
     "level": "C2"
   },
   {
     "de": "in Stand",
-    "lv": "V pořadí",
+    "lv": "V pořádku • V provozuschopném stavu",
     "level": "C2"
   },
   {
@@ -1479,7 +1479,7 @@ const C2_WORDS = [
     "de": "Sachverständige",
     "de_article": "der",
     "de_plural": "die Sachverständigen",
-    "lv": "Zdatný • Odborník",
+    "lv": "Odborník • Znalec",
     "level": "C2"
   }
 ];

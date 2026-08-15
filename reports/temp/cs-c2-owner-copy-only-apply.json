@@ -1,0 +1,624 @@
+{
+  "stats": {
+    "raw": 75,
+    "labotRows": 75,
+    "uniqueLabot": 75,
+    "applied": 75,
+    "alreadyMatchedNew": 0,
+    "currentMismatch": 0,
+    "cardNotFound": 0,
+    "fieldNotFound": 0,
+    "conflicts": 0,
+    "skipped": 0,
+    "ownerNewExact": true,
+    "deChanges": 0,
+    "unexpectedChanges": 0,
+    "syntax": "PASS",
+    "idOrder": true,
+    "cardCount": 219,
+    "mirrorParity": true
+  },
+  "details": [
+    {
+      "cardId": "c2-konterkarieren-1",
+      "field": "csText",
+      "current": "Rušit",
+      "new": "Mařit",
+      "status": "APPLIED",
+      "actual": "Rušit"
+    },
+    {
+      "cardId": "c2-Stichhaltigkeit-2",
+      "field": "csText",
+      "current": "Rozumnost",
+      "new": "Opodstatněnost • Přesvědčivost",
+      "status": "APPLIED",
+      "actual": "Rozumnost"
+    },
+    {
+      "cardId": "c2-unmissverständlich-3",
+      "field": "csText",
+      "current": "Nezaměnitelný",
+      "new": "Jednoznačný • Naprosto jasný",
+      "status": "APPLIED",
+      "actual": "Nezaměnitelný"
+    },
+    {
+      "cardId": "c2-veranschaulichen-5",
+      "field": "csText",
+      "current": "Prokazatelně ukázat",
+      "new": "Znázornit • Názorně vysvětlit",
+      "status": "APPLIED",
+      "actual": "Prokazatelně ukázat"
+    },
+    {
+      "cardId": "c2-Teilnehmerausweis-12",
+      "field": "csText",
+      "current": "Členská karta",
+      "new": "Průkaz účastníka",
+      "status": "APPLIED",
+      "actual": "Členská karta"
+    },
+    {
+      "cardId": "c2-beaufsichtigen-14",
+      "field": "csText",
+      "current": "Monitor",
+      "new": "Dohlížet • Dozorovat",
+      "status": "APPLIED",
+      "actual": "Monitor"
+    },
+    {
+      "cardId": "c2-Behandlungsraum-16",
+      "field": "csText",
+      "current": "Ordinaci lékaře",
+      "new": "Ošetřovna • Místnost pro ošetření",
+      "status": "APPLIED",
+      "actual": "Ordinaci lékaře"
+    },
+    {
+      "cardId": "c2-entgegenkommen-29",
+      "field": "csText",
+      "current": "Narazit",
+      "new": "Vyjít vstříc",
+      "status": "APPLIED",
+      "actual": "Narazit"
+    },
+    {
+      "cardId": "c2-Gehaltsabrechnung-32",
+      "field": "csText",
+      "current": "Výpočet mzdy",
+      "new": "Výplatní páska • Vyúčtování mzdy",
+      "status": "APPLIED",
+      "actual": "Výpočet mzdy"
+    },
+    {
+      "cardId": "c2-Katastrophendienst-44",
+      "field": "csText",
+      "current": "Katastrofická služba",
+      "new": "Služba při katastrofách",
+      "status": "APPLIED",
+      "actual": "Katastrofická služba"
+    },
+    {
+      "cardId": "c2-Kostenerstattung-45",
+      "field": "csText",
+      "current": "Náhradu nákladů",
+      "new": "Náhrada nákladů",
+      "status": "APPLIED",
+      "actual": "Náhradu nákladů"
+    },
+    {
+      "cardId": "c2-Kostensteigerung-46",
+      "field": "csText",
+      "current": "Zvyšující se náklady",
+      "new": "Zvýšení nákladů",
+      "status": "APPLIED",
+      "actual": "Zvyšující se náklady"
+    },
+    {
+      "cardId": "c2-Krankenversicherung-47",
+      "field": "csText",
+      "current": "Pojištění pro případ nemoci",
+      "new": "Zdravotní pojištění",
+      "status": "APPLIED",
+      "actual": "Pojištění pro případ nemoci"
+    },
+    {
+      "cardId": "c2-Krankheitssymptom-48",
+      "field": "csText",
+      "current": "Příznakem onemocnění",
+      "new": "Příznak onemocnění",
+      "status": "APPLIED",
+      "actual": "Příznakem onemocnění"
+    },
+    {
+      "cardId": "c2-Lungenentzündung-52",
+      "field": "csText",
+      "current": "Rakovina plic",
+      "new": "Zápal plic • Pneumonie",
+      "status": "APPLIED",
+      "actual": "Rakovina plic"
+    },
+    {
+      "cardId": "c2-Schlafwagenzimmer-58",
+      "field": "csText",
+      "current": "Ložnice",
+      "new": "Kupé ve spacím voze",
+      "status": "APPLIED",
+      "actual": "Ložnice"
+    },
+    {
+      "cardId": "c2-Schlittschuhkufe-59",
+      "field": "csText",
+      "current": "Sklon saní",
+      "new": "Nůž brusle",
+      "status": "APPLIED",
+      "actual": "Sklon saní"
+    },
+    {
+      "cardId": "c2-selbstverständlich-61",
+      "field": "csText",
+      "current": "Samovysvětlující",
+      "new": "Samozřejmý",
+      "status": "APPLIED",
+      "actual": "Samovysvětlující"
+    },
+    {
+      "cardId": "c2-sicherheitshalber-62",
+      "field": "csText",
+      "current": "Pro bezpečnost",
+      "new": "Pro jistotu",
+      "status": "APPLIED",
+      "actual": "Pro bezpečnost"
+    },
+    {
+      "cardId": "c2-Straßenunterführung-67",
+      "field": "csText",
+      "current": "Pěší tunel",
+      "new": "Silniční podjezd",
+      "status": "APPLIED",
+      "actual": "Pěší tunel"
+    },
+    {
+      "cardId": "c2-Sehenswürdigkeit-76",
+      "field": "csText",
+      "current": "Prominentní místo",
+      "new": "Pamětihodnost",
+      "status": "APPLIED",
+      "actual": "Prominentní místo"
+    },
+    {
+      "cardId": "c2-Abenteuergeschichte-77",
+      "field": "csText",
+      "current": "Příběh aféry",
+      "new": "Dobrodružný příběh",
+      "status": "APPLIED",
+      "actual": "Příběh aféry"
+    },
+    {
+      "cardId": "c2-Abgeordnetenhaus-78",
+      "field": "csText",
+      "current": "Parlament",
+      "new": "Poslanecká sněmovna",
+      "status": "APPLIED",
+      "actual": "Parlament"
+    },
+    {
+      "cardId": "c2-Baugenossenschaft-82",
+      "field": "csText",
+      "current": "Bytové družstvo družstvo",
+      "new": "Stavební družstvo",
+      "status": "APPLIED",
+      "actual": "Bytové družstvo družstvo"
+    },
+    {
+      "cardId": "c2-Ausbildungsbeihilfe-84",
+      "field": "csText",
+      "current": "Příspěvek na školné",
+      "new": "Příspěvek na vzdělávání • Příspěvek na odbornou přípravu",
+      "status": "APPLIED",
+      "actual": "Příspěvek na školné"
+    },
+    {
+      "cardId": "c2-Berichterstatter-86",
+      "field": "csText",
+      "current": "Reportér • Reportér • Dopisovatel • Reportér",
+      "new": "Zpravodaj • Referent • Korespondent • Reportér",
+      "status": "APPLIED",
+      "actual": "Reportér • Reportér • Dopisovatel • Reportér"
+    },
+    {
+      "cardId": "c2-Berufsbezeichnung-87",
+      "field": "csText",
+      "current": "Pracovní název",
+      "new": "Označení povolání",
+      "status": "APPLIED",
+      "actual": "Pracovní název"
+    },
+    {
+      "cardId": "c2-Bevölkerungsdichte-90",
+      "field": "csText",
+      "current": "Hustota obyvatel",
+      "new": "Hustota obyvatelstva",
+      "status": "APPLIED",
+      "actual": "Hustota obyvatel"
+    },
+    {
+      "cardId": "c2-Rauschgiftdezernat-99",
+      "field": "csText",
+      "current": "Divize narkotik",
+      "new": "Oddělení pro boj s narkotiky",
+      "status": "APPLIED",
+      "actual": "Divize narkotik"
+    },
+    {
+      "cardId": "c2-Bereitschaftsdienst-101",
+      "field": "csText",
+      "current": "Provozní služba",
+      "new": "Pohotovostní služba",
+      "status": "APPLIED",
+      "actual": "Provozní služba"
+    },
+    {
+      "cardId": "c2-durchkreuzen-103",
+      "field": "csText",
+      "current": "Vyškrtnout • Překřížit • Překřížit • Narušit",
+      "new": "Vyškrtnout • Překřížit • Překazit • Narušit",
+      "status": "APPLIED",
+      "actual": "Vyškrtnout • Překřížit • Překřížit • Narušit"
+    },
+    {
+      "cardId": "c2-Empfehlungsschreiben-110",
+      "field": "csText",
+      "current": "Písemné doporučení",
+      "new": "Doporučující dopis",
+      "status": "APPLIED",
+      "actual": "Písemné doporučení"
+    },
+    {
+      "cardId": "c2-entgegengesetzt-112",
+      "field": "csText",
+      "current": "Opak",
+      "new": "Opačný",
+      "status": "APPLIED",
+      "actual": "Opak"
+    },
+    {
+      "cardId": "c2-Entschlossenheit-113",
+      "field": "csText",
+      "current": "Jistota • Rozhodnost • Nezpochybnitelnost",
+      "new": "Rozhodnost • Odhodlanost",
+      "status": "APPLIED",
+      "actual": "Jistota • Rozhodnost • Nezpochybnitelnost"
+    },
+    {
+      "cardId": "c2-Entwicklungsland-114",
+      "field": "csText",
+      "current": "Země rozvoje",
+      "new": "Rozvojová země",
+      "status": "APPLIED",
+      "actual": "Země rozvoje"
+    },
+    {
+      "cardId": "c2-Errungenschaft-117",
+      "field": "csText",
+      "current": "Úspěch • Prospěch • Zisk",
+      "new": "Úspěch • Výdobytek",
+      "status": "APPLIED",
+      "actual": "Úspěch • Prospěch • Zisk"
+    },
+    {
+      "cardId": "c2-Fallschirmspringen-119",
+      "field": "csText",
+      "current": "Skydiving",
+      "new": "Parašutismus • Seskok padákem",
+      "status": "APPLIED",
+      "actual": "Skydiving"
+    },
+    {
+      "cardId": "c2-Gedächtnisstörung-127",
+      "field": "csText",
+      "current": "Zhoršení paměti",
+      "new": "Porucha paměti",
+      "status": "APPLIED",
+      "actual": "Zhoršení paměti"
+    },
+    {
+      "cardId": "c2-Geistesgegenwart-131",
+      "field": "csText",
+      "current": "Vynalézavost",
+      "new": "Duchapřítomnost",
+      "status": "APPLIED",
+      "actual": "Vynalézavost"
+    },
+    {
+      "cardId": "c2-Dorfgemeinschaft-136",
+      "field": "csText",
+      "current": "Vesničané",
+      "new": "Vesnické společenství • Vesnická komunita",
+      "status": "APPLIED",
+      "actual": "Vesničané"
+    },
+    {
+      "cardId": "c2-Genossenschaft-140",
+      "field": "csText",
+      "current": "Družstevní • Artel",
+      "new": "Družstvo • Artel",
+      "status": "APPLIED",
+      "actual": "Družstevní • Artel"
+    },
+    {
+      "cardId": "c2-Gerechtigkeitsgefühl-141",
+      "field": "csText",
+      "current": "Spravedlnost • Smysl pro spravedlnost",
+      "new": "Smysl pro spravedlnost",
+      "status": "APPLIED",
+      "actual": "Spravedlnost • Smysl pro spravedlnost"
+    },
+    {
+      "cardId": "c2-Schiedsgericht-142",
+      "field": "csText",
+      "current": "Arbitráž",
+      "new": "Rozhodčí soud • Arbitrážní soud",
+      "status": "APPLIED",
+      "actual": "Arbitráž"
+    },
+    {
+      "cardId": "c2-Geschäftsordnung-144",
+      "field": "csText",
+      "current": "Nařízení • Nařízení",
+      "new": "Jednací řád",
+      "status": "APPLIED",
+      "actual": "Nařízení • Nařízení"
+    },
+    {
+      "cardId": "c2-Geschwindigkeitskontrolle-147",
+      "field": "csText",
+      "current": "Ovládání rychlosti",
+      "new": "Kontrola rychlosti • Měření rychlosti",
+      "status": "APPLIED",
+      "actual": "Ovládání rychlosti"
+    },
+    {
+      "cardId": "c2-Geschwindigkeitsüberschreitung-149",
+      "field": "csText",
+      "current": "Nedodržení předepsané rychlosti • Porušení",
+      "new": "Překročení rychlosti",
+      "status": "APPLIED",
+      "actual": "Nedodržení předepsané rychlosti • Porušení"
+    },
+    {
+      "cardId": "c2-gesellschaftlich-150",
+      "field": "csText",
+      "current": " • Veřejné společnosti",
+      "new": "Společenský • Sociální",
+      "status": "APPLIED",
+      "actual": " • Veřejné společnosti"
+    },
+    {
+      "cardId": "c2-Gesellschaftsordnung-151",
+      "field": "csText",
+      "current": "Veřejné zařízení",
+      "new": "Společenské uspořádání • Společenský řád",
+      "status": "APPLIED",
+      "actual": "Veřejné zařízení"
+    },
+    {
+      "cardId": "c2-Gesetzesvorlage-152",
+      "field": "csText",
+      "current": "Účtovat",
+      "new": "Návrh zákona",
+      "status": "APPLIED",
+      "actual": "Účtovat"
+    },
+    {
+      "cardId": "c2-Gewerkschaftsbeitrag-154",
+      "field": "csText",
+      "current": "Členské poplatky odborů",
+      "new": "Odborový příspěvek • Členský příspěvek odborům",
+      "status": "APPLIED",
+      "actual": "Členské poplatky odborů"
+    },
+    {
+      "cardId": "c2-Gewinnauszahlung-156",
+      "field": "csText",
+      "current": "Výplata výher v loterii",
+      "new": "Výplata zisku",
+      "status": "APPLIED",
+      "actual": "Výplata výher v loterii"
+    },
+    {
+      "cardId": "c2-Gleichberechtigung-158",
+      "field": "csText",
+      "current": "Rovnost",
+      "new": "Rovnoprávnost",
+      "status": "APPLIED",
+      "actual": "Rovnost"
+    },
+    {
+      "cardId": "c2-Hausgemeinschaft-161",
+      "field": "csText",
+      "current": "Rodinní příslušníci • Obyvatelé domu",
+      "new": "Společenství obyvatel domu",
+      "status": "APPLIED",
+      "actual": "Rodinní příslušníci • Obyvatelé domu"
+    },
+    {
+      "cardId": "c2-Koalitionspartner-167",
+      "field": "csText",
+      "current": "Koaličním partnerem",
+      "new": "Koaliční partner",
+      "status": "APPLIED",
+      "actual": "Koaličním partnerem"
+    },
+    {
+      "cardId": "c2-Lebenserhaltungstrieb-170",
+      "field": "csText",
+      "current": "Pohon života",
+      "new": "Pud zachování života",
+      "status": "APPLIED",
+      "actual": "Pohon života"
+    },
+    {
+      "cardId": "c2-Lebenshaltungskosten-171",
+      "field": "csText",
+      "current": "Prostředky k obživě • Náklady",
+      "new": "Životní náklady",
+      "status": "APPLIED",
+      "actual": "Prostředky k obživě • Náklady"
+    },
+    {
+      "cardId": "c2-Meisterschaftsspiel-177",
+      "field": "csText",
+      "current": "Mistrovský závod",
+      "new": "Mistrovský zápas",
+      "status": "APPLIED",
+      "actual": "Mistrovský závod"
+    },
+    {
+      "cardId": "c2-menschenfreundlich-178",
+      "field": "csText",
+      "current": "Humánní • Humánní",
+      "new": "Humánní • Lidský",
+      "status": "APPLIED",
+      "actual": "Humánní • Humánní"
+    },
+    {
+      "cardId": "c2-Mutterschaftsurlaub-180",
+      "field": "csText",
+      "current": "Mateřské dovolené",
+      "new": "Mateřská dovolená",
+      "status": "APPLIED",
+      "actual": "Mateřské dovolené"
+    },
+    {
+      "cardId": "c2-Pflichtversicherung-184",
+      "field": "csText",
+      "current": "Povinné ručení",
+      "new": "Povinné pojištění",
+      "status": "APPLIED",
+      "actual": "Povinné ručení"
+    },
+    {
+      "cardId": "c2-populärwissenschaftlich-186",
+      "field": "csText",
+      "current": "Populární věda",
+      "new": "Populárněvědecký",
+      "status": "APPLIED",
+      "actual": "Populární věda"
+    },
+    {
+      "cardId": "c2-rechtsextremistisch-188",
+      "field": "csText",
+      "current": "Pravicový extremista",
+      "new": "Pravicově extremistický",
+      "status": "APPLIED",
+      "actual": "Pravicový extremista"
+    },
+    {
+      "cardId": "c2-Satellitenübertragung-189",
+      "field": "csText",
+      "current": "Satelitní televizní přenos",
+      "new": "Satelitní přenos",
+      "status": "APPLIED",
+      "actual": "Satelitní televizní přenos"
+    },
+    {
+      "cardId": "c2-Beschwerdeschrift-191",
+      "field": "csText",
+      "current": "Stížnost",
+      "new": "Písemná stížnost",
+      "status": "APPLIED",
+      "actual": "Stížnost"
+    },
+    {
+      "cardId": "c2-Selbstverteidigung-195",
+      "field": "csText",
+      "current": "Soubor sebeobranných technik",
+      "new": "Sebeobrana",
+      "status": "APPLIED",
+      "actual": "Soubor sebeobranných technik"
+    },
+    {
+      "cardId": "c2-Staatsangehörigkeit-196",
+      "field": "csText",
+      "current": "Státnosti",
+      "new": "Státní příslušnost • Občanství",
+      "status": "APPLIED",
+      "actual": "Státnosti"
+    },
+    {
+      "cardId": "c2-Steuererleichterung-197",
+      "field": "csText",
+      "current": "Daňové výhody",
+      "new": "Daňová úleva",
+      "status": "APPLIED",
+      "actual": "Daňové výhody"
+    },
+    {
+      "cardId": "c2-Strafgesetzbuch-198",
+      "field": "csText",
+      "current": "Jur trestní zákoník",
+      "new": "Trestní zákoník",
+      "status": "APPLIED",
+      "actual": "Jur trestní zákoník"
+    },
+    {
+      "cardId": "c2-Vaterschaftsklage-200",
+      "field": "csText",
+      "current": "Žalobu o určení otcovství",
+      "new": "Žaloba o určení otcovství",
+      "status": "APPLIED",
+      "actual": "Žalobu o určení otcovství"
+    },
+    {
+      "cardId": "c2-Verhütungsmittel-202",
+      "field": "csText",
+      "current": "Antikoncepce",
+      "new": "Antikoncepční prostředek",
+      "status": "APPLIED",
+      "actual": "Antikoncepce"
+    },
+    {
+      "cardId": "c2-zugrunde, zu Grunde-206",
+      "field": "csText",
+      "current": "V podstatě",
+      "new": "V základu • V podstatě",
+      "status": "APPLIED",
+      "actual": "V podstatě"
+    },
+    {
+      "cardId": "c2-zugunsten, zu Gunsten-207",
+      "field": "csText",
+      "current": "Pro dobro • Pro dobro",
+      "new": "Ve prospěch",
+      "status": "APPLIED",
+      "actual": "Pro dobro • Pro dobro"
+    },
+    {
+      "cardId": "c2-instand-210",
+      "field": "csText",
+      "current": "V pořadí",
+      "new": "V pořádku • Provozuschopný",
+      "status": "APPLIED",
+      "actual": "V pořadí"
+    },
+    {
+      "cardId": "c2-in Stand-211",
+      "field": "csText",
+      "current": "V pořadí",
+      "new": "V pořádku • V provozuschopném stavu",
+      "status": "APPLIED",
+      "actual": "V pořadí"
+    },
+    {
+      "cardId": "c2-Sachverständige-218",
+      "field": "csText",
+      "current": "Zdatný • Odborník",
+      "new": "Odborník • Znalec",
+      "status": "APPLIED",
+      "actual": "Zdatný • Odborník"
+    }
+  ],
+  "unexpected": []
+}
