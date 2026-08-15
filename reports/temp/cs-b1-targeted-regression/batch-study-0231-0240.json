@@ -1,0 +1,31 @@
+{
+  "batch": "study-0231-0240",
+  "cardIds": [
+    "b1-schmücken",
+    "b1-schnitt",
+    "b1-schuldig",
+    "b1-schützen",
+    "b1-schwanken",
+    "b1-senden",
+    "b1-senken",
+    "b1-sinn",
+    "b1-sitz",
+    "b1-sich-sorgen"
+  ],
+  "findings": [
+    {
+      "cardId": "b1-sich-sorgen",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 9
+}

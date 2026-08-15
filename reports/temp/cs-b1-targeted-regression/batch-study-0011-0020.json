@@ -1,0 +1,57 @@
+{
+  "batch": "study-0011-0020",
+  "cardIds": [
+    "b1-absatz",
+    "b1-abschluss",
+    "b1-abschnitt",
+    "b1-absetzen",
+    "b1-anlage",
+    "b1-anmachen",
+    "b1-anschlag",
+    "b1-anschluss",
+    "b1-ansehen",
+    "b1-antrag"
+  ],
+  "findings": [
+    {
+      "cardId": "b1-absetzen",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-anmachen",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-anschluss",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 7
+}

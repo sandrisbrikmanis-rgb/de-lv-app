@@ -1,0 +1,84 @@
+◇ injected env (1) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+
+=== B1 Groups 07–32 Prerequisite Check ===
+PASS: 1281/1281 exact targetObject match, 26/26 groups
+
+=== Targeted scope: 1307 actually changed cards ===
+
+=== Full B1 deterministic integrity (3367/3367) ===
+{
+  "dataset": "b1",
+  "total": 3367,
+  "findings": 1095,
+  "severity": {
+    "CRITICAL": 403,
+    "HIGH": 369,
+    "MEDIUM": 323,
+    "LOW": 0
+  },
+  "structural": false,
+  "germanIntegrity": false,
+  "outFile": "/workspace/reports/temp/cs-b1-audit/deterministic-audit.json"
+}
+
+=== GPT-5.6 Luna targeted audit (1307 cards) ===
+  luna simple-0001-0050: 50 cards, findings=1, pass=49, tokens=5028
+  luna simple-0051-0100: 50 cards, findings=0, pass=50, tokens=4752
+  luna simple-0101-0150: 50 cards, findings=2, pass=48, tokens=4948
+  luna simple-0151-0200: 50 cards, findings=0, pass=50, tokens=4615
+  luna simple-0201-0250: 50 cards, findings=50, pass=0, tokens=4421
+  luna simple-0251-0300: 50 cards, findings=0, pass=50, tokens=5177
+  luna simple-0301-0350: 50 cards, findings=0, pass=50, tokens=5124
+  luna simple-0351-0400: 50 cards, findings=50, pass=0, tokens=4631
+  luna simple-0401-0450: 50 cards, findings=0, pass=50, tokens=4798
+  luna simple-0451-0500: 50 cards, findings=50, pass=0, tokens=5465
+  luna simple-0501-0550: 50 cards, findings=0, pass=50, tokens=4862
+  luna simple-0551-0600: 50 cards, findings=0, pass=50, tokens=4930
+  luna simple-0601-0650: 50 cards, findings=0, pass=50, tokens=4778
+  luna simple-0651-0700: 50 cards, findings=0, pass=50, tokens=4591
+  luna simple-0701-0750: 50 cards, findings=0, pass=50, tokens=4891
+  luna simple-0751-0800: 50 cards, findings=0, pass=50, tokens=5550
+  luna simple-0801-0850: 50 cards, findings=0, pass=50, tokens=4561
+  luna simple-0851-0900: 50 cards, findings=0, pass=50, tokens=4601
+  luna simple-0901-0950: 50 cards, findings=2, pass=48, tokens=6052
+  luna simple-0951-0987: 37 cards, findings=37, pass=0, tokens=3637
+  luna study-0001-0010: 10 cards, findings=6, pass=4, tokens=18799
+  luna study-0011-0020: 10 cards, findings=3, pass=7, tokens=17562
+  luna study-0021-0030: 10 cards, findings=10, pass=0, tokens=19381
+  luna study-0031-0040: 10 cards, findings=8, pass=2, tokens=22055
+  luna study-0041-0050: 10 cards, findings=5, pass=5, tokens=20988
+  luna study-0051-0060: 10 cards, findings=10, pass=0, tokens=19386
+  luna study-0061-0070: 10 cards, findings=5, pass=5, tokens=19822
+  luna study-0071-0080: 10 cards, findings=7, pass=3, tokens=18751
+  luna study-0081-0090: 10 cards, findings=6, pass=4, tokens=20101
+  luna study-0091-0100: 10 cards, findings=7, pass=3, tokens=20701
+  luna study-0101-0110: 10 cards, findings=6, pass=4, tokens=21673
+  luna study-0111-0120: 10 cards, findings=6, pass=4, tokens=19511
+  luna study-0121-0130: 10 cards, findings=4, pass=6, tokens=19235
+  luna study-0131-0140: 10 cards, findings=10, pass=0, tokens=20987
+  luna study-0141-0150: 10 cards, findings=5, pass=5, tokens=18581
+  luna study-0151-0160: 10 cards, findings=7, pass=3, tokens=20962
+  luna study-0161-0170: 10 cards, findings=9, pass=1, tokens=21334
+  luna study-0171-0180: 10 cards, findings=6, pass=4, tokens=16681
+  luna study-0181-0190: 10 cards, findings=5, pass=5, tokens=16960
+  luna study-0191-0200: 10 cards, findings=4, pass=6, tokens=19234
+  luna study-0201-0210: 10 cards, findings=2, pass=8, tokens=18951
+  luna study-0211-0220: 10 cards, findings=8, pass=2, tokens=19530
+  luna study-0221-0230: 10 cards, findings=6, pass=4, tokens=18841
+  luna study-0231-0240: 10 cards, findings=1, pass=9, tokens=17641
+  luna study-0241-0250: 10 cards, findings=3, pass=7, tokens=16158
+  luna study-0251-0260: 10 cards, findings=7, pass=3, tokens=19880
+  luna study-0261-0270: 10 cards, findings=4, pass=6, tokens=18202
+  luna study-0271-0280: 10 cards, findings=3, pass=7, tokens=18650
+  luna study-0281-0290: 10 cards, findings=7, pass=3, tokens=18968
+  luna study-0291-0300: 10 cards, findings=5, pass=5, tokens=19322
+  luna study-0301-0310: 10 cards, findings=6, pass=4, tokens=19467
+  luna study-0311-0320: 10 cards, findings=6, pass=4, tokens=18997
+
+Wrote /workspace/reports/cs-b1-targeted-regression-audit.md
+
+VERDICT: CS–DE B1 TARGETED REGRESSION — RESIDUAL REPAIR REQUIRED
+VALIDATED REAL: 785
+OWNER_LOCK: confirmed=243 reopen=3
+SOURCE_DE_ISSUE: 0

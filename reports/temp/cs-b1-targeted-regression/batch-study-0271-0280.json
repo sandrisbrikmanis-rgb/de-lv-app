@@ -1,0 +1,57 @@
+{
+  "batch": "study-0271-0280",
+  "cardIds": [
+    "b1-übernehmen",
+    "b1-übersehen",
+    "b1-umgehen",
+    "b1-umschlag",
+    "b1-unterhalten",
+    "b1-untersuchung",
+    "b1-verändern",
+    "b1-verband",
+    "b1-verbindung",
+    "b1-verbrennen"
+  ],
+  "findings": [
+    {
+      "cardId": "b1-umgehen",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-verbindung",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-verbrennen",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 7
+}
