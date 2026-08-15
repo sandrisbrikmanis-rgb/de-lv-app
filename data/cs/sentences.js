@@ -2031,7 +2031,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf diesem Wege.",
-    "lv": "Takhle. • Takovými prostředky.",
+    "lv": "Takhle. • Tímto způsobem.",
     "level": "Sätze"
   },
   {

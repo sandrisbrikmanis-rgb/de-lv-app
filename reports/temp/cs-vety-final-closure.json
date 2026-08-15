@@ -1,0 +1,2717 @@
+{
+  "meta": {
+    "date": "2026-08-15T12:13:09.010Z",
+    "branch": "cursor/cs-vety-final-closure-6ea4",
+    "closureCommit": "865c8c8da9a2d59ad58a97aad18d998855b6d03a",
+    "targetedRegressionCommit": "3ac154b05a0ba69e8f47893080a1c01822f3f769",
+    "microRegressionCommit": "865c8c8da9a2d59ad58a97aad18d998855b6d03a",
+    "mode": "READ-ONLY"
+  },
+  "owner": {
+    "pass": true,
+    "exact": 328,
+    "drift": 0,
+    "cardNotFound": 0,
+    "fieldNotFound": 0,
+    "conflict": 0,
+    "results": [
+      {
+        "cardId": "sentence-1",
+        "field": "lv",
+        "new": "Jestli do toho nic nepřijde. • Pokud vše půjde podle plánu.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jestli do toho nic nepřijde. • Pokud vše půjde podle plánu."
+      },
+      {
+        "cardId": "sentence-2",
+        "field": "lv",
+        "new": "To si umím představit!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "To si umím představit!"
+      },
+      {
+        "cardId": "sentence-3",
+        "field": "lv",
+        "new": "Je snad nemocný?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Je snad nemocný?"
+      },
+      {
+        "cardId": "sentence-4",
+        "field": "lv",
+        "new": "Co je?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Co je?"
+      },
+      {
+        "cardId": "sentence-5",
+        "field": "lv",
+        "new": "O to více.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "O to více."
+      },
+      {
+        "cardId": "sentence-7",
+        "field": "lv",
+        "new": "Vše nasvědčuje dešti.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vše nasvědčuje dešti."
+      },
+      {
+        "cardId": "sentence-8",
+        "field": "lv",
+        "new": "To mi moc nepomůže.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "To mi moc nepomůže."
+      },
+      {
+        "cardId": "sentence-11",
+        "field": "lv",
+        "new": "Hřmí.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Hřmí."
+      },
+      {
+        "cardId": "sentence-12",
+        "field": "lv",
+        "new": "Dvakrát tak velký.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Dvakrát tak velký."
+      },
+      {
+        "cardId": "sentence-14",
+        "field": "lv",
+        "new": "Čas tlačí.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Čas tlačí."
+      },
+      {
+        "cardId": "sentence-15",
+        "field": "lv",
+        "new": "Trápí ho starosti.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Trápí ho starosti."
+      },
+      {
+        "cardId": "sentence-16",
+        "field": "lv",
+        "new": "Prostudoval jsi tu knihu?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Prostudoval jsi tu knihu?"
+      },
+      {
+        "cardId": "sentence-17",
+        "field": "lv",
+        "new": "Průchod zakázán!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Průchod zakázán!"
+      },
+      {
+        "cardId": "sentence-18",
+        "field": "lv",
+        "new": "Mohu vás poprosit?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mohu vás poprosit?"
+      },
+      {
+        "cardId": "sentence-22",
+        "field": "lv",
+        "new": "Co vlastně chcete?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Co vlastně chcete?"
+      },
+      {
+        "cardId": "sentence-26",
+        "field": "lv",
+        "new": "Jen si namlouváš, že jsi nemocný.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jen si namlouváš, že jsi nemocný."
+      },
+      {
+        "cardId": "sentence-27",
+        "field": "lv",
+        "new": "Jak se opovažuješ?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jak se opovažuješ?"
+      },
+      {
+        "cardId": "sentence-28",
+        "field": "lv",
+        "new": "Bylo nebylo.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Bylo nebylo."
+      },
+      {
+        "cardId": "sentence-29",
+        "field": "lv",
+        "new": "Prosím, nastupte!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Prosím, nastupte!"
+      },
+      {
+        "cardId": "sentence-39",
+        "field": "lv",
+        "new": "Jak se jmenujete?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jak se jmenujete?"
+      },
+      {
+        "cardId": "sentence-42",
+        "field": "lv",
+        "new": "Tak ven s tím!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Tak ven s tím!"
+      },
+      {
+        "cardId": "sentence-47",
+        "field": "lv",
+        "new": "Dnes v noci",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Dnes v noci"
+      },
+      {
+        "cardId": "sentence-50",
+        "field": "lv",
+        "new": "Můžeš to prosím zopakovat?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Můžeš to prosím zopakovat?"
+      },
+      {
+        "cardId": "sentence-62",
+        "field": "lv",
+        "new": "Zavolejte mi.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zavolejte mi."
+      },
+      {
+        "cardId": "sentence-63",
+        "field": "lv",
+        "new": "Prosím, vypněte rádio.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Prosím, vypněte rádio."
+      },
+      {
+        "cardId": "sentence-64",
+        "field": "lv",
+        "new": "Dávej prosím pozor na provoz.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Dávej prosím pozor na provoz."
+      },
+      {
+        "cardId": "sentence-65",
+        "field": "lv",
+        "new": "Na to si musíš dát pozor.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Na to si musíš dát pozor."
+      },
+      {
+        "cardId": "sentence-68",
+        "field": "lv",
+        "new": "Bydlí sám.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Bydlí sám."
+      },
+      {
+        "cardId": "sentence-69",
+        "field": "lv",
+        "new": "Absolvoval jsem odborné vzdělání. • Absolvovala jsem odborné vzdělání.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Absolvoval jsem odborné vzdělání. • Absolvovala jsem odborné vzdělání."
+      },
+      {
+        "cardId": "sentence-79",
+        "field": "lv",
+        "new": "Podobné problémy jsme měli už dříve.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Podobné problémy jsme měli už dříve."
+      },
+      {
+        "cardId": "sentence-80",
+        "field": "lv",
+        "new": "Nemám ponětí!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nemám ponětí!"
+      },
+      {
+        "cardId": "sentence-82",
+        "field": "lv",
+        "new": "Tyto šaty jsou v akademickém stylu.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Tyto šaty jsou v akademickém stylu."
+      },
+      {
+        "cardId": "sentence-84",
+        "field": "lv",
+        "new": "Můžeš kliknout na zařízení?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Můžeš kliknout na zařízení?"
+      },
+      {
+        "cardId": "sentence-85",
+        "field": "lv",
+        "new": "Otevři soubor a klikni na něj.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Otevři soubor a klikni na něj."
+      },
+      {
+        "cardId": "sentence-87",
+        "field": "lv",
+        "new": "Běžíme na nádraží.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Běžíme na nádraží."
+      },
+      {
+        "cardId": "sentence-88",
+        "field": "lv",
+        "new": "Zapni prosím televizi.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zapni prosím televizi."
+      },
+      {
+        "cardId": "sentence-89",
+        "field": "lv",
+        "new": "Můj počítač spadl.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Můj počítač spadl."
+      },
+      {
+        "cardId": "sentence-90",
+        "field": "lv",
+        "new": "O víkendu jdu na ryby.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "O víkendu jdu na ryby."
+      },
+      {
+        "cardId": "sentence-92",
+        "field": "lv",
+        "new": "Můžeš mi zavolat později?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Můžeš mi zavolat později?"
+      },
+      {
+        "cardId": "sentence-93",
+        "field": "lv",
+        "new": "Přijmi prosím můj návrh.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Přijmi prosím můj návrh."
+      },
+      {
+        "cardId": "sentence-94",
+        "field": "lv",
+        "new": "Přijímám tvou nabídku.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Přijímám tvou nabídku."
+      },
+      {
+        "cardId": "sentence-98",
+        "field": "lv",
+        "new": "Najít ohlas. • Setkat se s kladným přijetím.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Najít ohlas. • Setkat se s kladným přijetím."
+      },
+      {
+        "cardId": "sentence-99",
+        "field": "lv",
+        "new": "Záleží na tom.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Záleží na tom."
+      },
+      {
+        "cardId": "sentence-100",
+        "field": "lv",
+        "new": "Při této příležitosti.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Při této příležitosti."
+      },
+      {
+        "cardId": "sentence-102",
+        "field": "lv",
+        "new": "Co jsi tam provedl?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Co jsi tam provedl?"
+      },
+      {
+        "cardId": "sentence-106",
+        "field": "lv",
+        "new": "Nedělej takové cavyky!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nedělej takové cavyky!"
+      },
+      {
+        "cardId": "sentence-107",
+        "field": "lv",
+        "new": "Pustit se do práce.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pustit se do práce."
+      },
+      {
+        "cardId": "sentence-109",
+        "field": "lv",
+        "new": "Dobrou chuť!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Dobrou chuť!"
+      },
+      {
+        "cardId": "sentence-113",
+        "field": "lv",
+        "new": "Prosím, otevři dveře!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Prosím, otevři dveře!"
+      },
+      {
+        "cardId": "sentence-115",
+        "field": "lv",
+        "new": "Dnes musíme uklidit.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Dnes musíme uklidit."
+      },
+      {
+        "cardId": "sentence-116",
+        "field": "lv",
+        "new": "Teď přestanu.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Teď přestanu."
+      },
+      {
+        "cardId": "sentence-119",
+        "field": "lv",
+        "new": "Rozčílila mě.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Rozčílila mě."
+      },
+      {
+        "cardId": "sentence-122",
+        "field": "lv",
+        "new": "Uhradit škodu.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Uhradit škodu."
+      },
+      {
+        "cardId": "sentence-124",
+        "field": "lv",
+        "new": "Sedět vzpřímeně.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Sedět vzpřímeně."
+      },
+      {
+        "cardId": "sentence-125",
+        "field": "lv",
+        "new": "Už je vzhůru.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Už je vzhůru."
+      },
+      {
+        "cardId": "sentence-126",
+        "field": "lv",
+        "new": "Vynaložit veškeré síly.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vynaložit veškeré síly."
+      },
+      {
+        "cardId": "sentence-127",
+        "field": "lv",
+        "new": "Vynaložit velké úsilí.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vynaložit velké úsilí."
+      },
+      {
+        "cardId": "sentence-128",
+        "field": "lv",
+        "new": "Zmiz mi z očí!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zmiz mi z očí!"
+      },
+      {
+        "cardId": "sentence-129",
+        "field": "lv",
+        "new": "Mezi čtyřma očima.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mezi čtyřma očima."
+      },
+      {
+        "cardId": "sentence-133",
+        "field": "lv",
+        "new": "Dbát na vnější vzhled.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Dbát na vnější vzhled."
+      },
+      {
+        "cardId": "sentence-139",
+        "field": "lv",
+        "new": "Vyjádřit soustrast.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vyjádřit soustrast."
+      },
+      {
+        "cardId": "sentence-140",
+        "field": "lv",
+        "new": "Kdy se konaly mistrovské zápasy?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kdy se konaly mistrovské zápasy?"
+      },
+      {
+        "cardId": "sentence-143",
+        "field": "lv",
+        "new": "Jíst mimo domov.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jíst mimo domov."
+      },
+      {
+        "cardId": "sentence-148",
+        "field": "lv",
+        "new": "Odkládat. • Protahovat. • Odkládat na neurčito.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Odkládat. • Protahovat. • Odkládat na neurčito."
+      },
+      {
+        "cardId": "sentence-150",
+        "field": "lv",
+        "new": "Těžit rudu.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Těžit rudu."
+      },
+      {
+        "cardId": "sentence-151",
+        "field": "lv",
+        "new": "Vyvádět hlouposti. • Dělat chyby.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vyvádět hlouposti. • Dělat chyby."
+      },
+      {
+        "cardId": "sentence-152",
+        "field": "lv",
+        "new": "Jsem pověřen(a).",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jsem pověřen(a)."
+      },
+      {
+        "cardId": "sentence-156",
+        "field": "lv",
+        "new": "Za podmínky, že...",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Za podmínky, že..."
+      },
+      {
+        "cardId": "sentence-157",
+        "field": "lv",
+        "new": "Vypadá sklesle.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vypadá sklesle."
+      },
+      {
+        "cardId": "sentence-158",
+        "field": "lv",
+        "new": "Řídit se pokyny.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Řídit se pokyny."
+      },
+      {
+        "cardId": "sentence-159",
+        "field": "lv",
+        "new": "Řídit se rozkazy.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Řídit se rozkazy."
+      },
+      {
+        "cardId": "sentence-164",
+        "field": "lv",
+        "new": "Na začátku.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Na začátku."
+      },
+      {
+        "cardId": "sentence-166",
+        "field": "lv",
+        "new": "S jeho doprovodem.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "S jeho doprovodem."
+      },
+      {
+        "cardId": "sentence-167",
+        "field": "lv",
+        "new": "Pomalu chápe. • Má pomalé myšlení.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pomalu chápe. • Má pomalé myšlení."
+      },
+      {
+        "cardId": "sentence-168",
+        "field": "lv",
+        "new": "Pamatovat si. • Uchovat v paměti.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pamatovat si. • Uchovat v paměti."
+      },
+      {
+        "cardId": "sentence-170",
+        "field": "lv",
+        "new": "Být při smyslech.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Být při smyslech."
+      },
+      {
+        "cardId": "sentence-172",
+        "field": "lv",
+        "new": "Zdaleka ne tak.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zdaleka ne tak."
+      },
+      {
+        "cardId": "sentence-175",
+        "field": "lv",
+        "new": "Setkat se s ohlasem. • Získat uznání.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Setkat se s ohlasem. • Získat uznání."
+      },
+      {
+        "cardId": "sentence-176",
+        "field": "lv",
+        "new": "Vyjádřit soustrast.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vyjádřit soustrast."
+      },
+      {
+        "cardId": "sentence-179",
+        "field": "lv",
+        "new": "Poskytnout pomoc.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Poskytnout pomoc."
+      },
+      {
+        "cardId": "sentence-180",
+        "field": "lv",
+        "new": "Přispět svým dílem.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Přispět svým dílem."
+      },
+      {
+        "cardId": "sentence-181",
+        "field": "lv",
+        "new": "Seznámit se s někým.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Seznámit se s někým."
+      },
+      {
+        "cardId": "sentence-182",
+        "field": "lv",
+        "new": "Seznámit se. • Navázat známost.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Seznámit se. • Navázat známost."
+      },
+      {
+        "cardId": "sentence-183",
+        "field": "lv",
+        "new": "Obložené housky.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Obložené housky."
+      },
+      {
+        "cardId": "sentence-188",
+        "field": "lv",
+        "new": "Být připraven.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Být připraven."
+      },
+      {
+        "cardId": "sentence-189",
+        "field": "lv",
+        "new": "Zachraňovat oběti nehody.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zachraňovat oběti nehody."
+      },
+      {
+        "cardId": "sentence-190",
+        "field": "lv",
+        "new": "Podat zprávu.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Podat zprávu."
+      },
+      {
+        "cardId": "sentence-197",
+        "field": "lv",
+        "new": "Při nejlepší vůli.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Při nejlepší vůli."
+      },
+      {
+        "cardId": "sentence-198",
+        "field": "lv",
+        "new": "Nejlépe.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nejlépe."
+      },
+      {
+        "cardId": "sentence-201",
+        "field": "lv",
+        "new": "Vyřídit pozdravy.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vyřídit pozdravy."
+      },
+      {
+        "cardId": "sentence-202",
+        "field": "lv",
+        "new": "Rozhodně.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Rozhodně."
+      },
+      {
+        "cardId": "sentence-203",
+        "field": "lv",
+        "new": "Přijít na návštěvu.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Přijít na návštěvu."
+      },
+      {
+        "cardId": "sentence-204",
+        "field": "lv",
+        "new": "Být na návštěvě.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Být na návštěvě."
+      },
+      {
+        "cardId": "sentence-205",
+        "field": "lv",
+        "new": "Často chodit na koncerty.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Často chodit na koncerty."
+      },
+      {
+        "cardId": "sentence-207",
+        "field": "lv",
+        "new": "Vzít v úvahu. • Zvážit.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vzít v úvahu. • Zvážit."
+      },
+      {
+        "cardId": "sentence-208",
+        "field": "lv",
+        "new": "Nevzít v úvahu. • Pominout.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nevzít v úvahu. • Pominout."
+      },
+      {
+        "cardId": "sentence-211",
+        "field": "lv",
+        "new": "Zaplatit všechno.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zaplatit všechno."
+      },
+      {
+        "cardId": "sentence-214",
+        "field": "lv",
+        "new": "Prosím?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Prosím?"
+      },
+      {
+        "cardId": "sentence-217",
+        "field": "lv",
+        "new": "Troubit na trubku.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Troubit na trubku."
+      },
+      {
+        "cardId": "sentence-218",
+        "field": "lv",
+        "new": "Listovat v knize.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Listovat v knize."
+      },
+      {
+        "cardId": "sentence-219",
+        "field": "lv",
+        "new": "Bosýma nohama.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Bosýma nohama."
+      },
+      {
+        "cardId": "sentence-221",
+        "field": "lv",
+        "new": "Díky za kompliment!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Díky za kompliment!"
+      },
+      {
+        "cardId": "sentence-223",
+        "field": "lv",
+        "new": "Prosím, zkontrolujte.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Prosím, zkontrolujte."
+      },
+      {
+        "cardId": "sentence-225",
+        "field": "lv",
+        "new": "Všechno tomu nasvědčuje.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Všechno tomu nasvědčuje."
+      },
+      {
+        "cardId": "sentence-226",
+        "field": "lv",
+        "new": "Nemůžu za to.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nemůžu za to."
+      },
+      {
+        "cardId": "sentence-230",
+        "field": "lv",
+        "new": "Táhnout dámou.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Táhnout dámou."
+      },
+      {
+        "cardId": "sentence-234",
+        "field": "lv",
+        "new": "Na to se můžeš spolehnout.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Na to se můžeš spolehnout."
+      },
+      {
+        "cardId": "sentence-236",
+        "field": "lv",
+        "new": "Takže...",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Takže..."
+      },
+      {
+        "cardId": "sentence-237",
+        "field": "lv",
+        "new": "Za koho mě považujete?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Za koho mě považujete?"
+      },
+      {
+        "cardId": "sentence-239",
+        "field": "lv",
+        "new": "Nevěš hlavu!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nevěš hlavu!"
+      },
+      {
+        "cardId": "sentence-242",
+        "field": "lv",
+        "new": "Od přírody. • Odjakživa.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Od přírody. • Odjakživa."
+      },
+      {
+        "cardId": "sentence-243",
+        "field": "lv",
+        "new": "Srdečně blahopřeji!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Srdečně blahopřeji!"
+      },
+      {
+        "cardId": "sentence-244",
+        "field": "lv",
+        "new": "Buďte tak laskav!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Buďte tak laskav!"
+      },
+      {
+        "cardId": "sentence-245",
+        "field": "lv",
+        "new": "Buďte tak laskav!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Buďte tak laskav!"
+      },
+      {
+        "cardId": "sentence-251",
+        "field": "lv",
+        "new": "Včera večer",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Včera večer"
+      },
+      {
+        "cardId": "sentence-254",
+        "field": "lv",
+        "new": "Nedělej hlouposti!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nedělej hlouposti!"
+      },
+      {
+        "cardId": "sentence-255",
+        "field": "lv",
+        "new": "O tom nemluvě. • Natož...",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "O tom nemluvě. • Natož..."
+      },
+      {
+        "cardId": "sentence-257",
+        "field": "lv",
+        "new": "Jak se máte?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jak se máte?"
+      },
+      {
+        "cardId": "sentence-258",
+        "field": "lv",
+        "new": "Občas se ho zeptej, jestli...",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Občas se ho zeptej, jestli..."
+      },
+      {
+        "cardId": "sentence-263",
+        "field": "lv",
+        "new": "Pokračuj!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pokračuj!"
+      },
+      {
+        "cardId": "sentence-266",
+        "field": "lv",
+        "new": "Pamatuješ si mě? • Myslíš na mě?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pamatuješ si mě? • Myslíš na mě?"
+      },
+      {
+        "cardId": "sentence-268",
+        "field": "lv",
+        "new": "Který jste ročník?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Který jste ročník?"
+      },
+      {
+        "cardId": "sentence-269",
+        "field": "lv",
+        "new": "Je mi líto vidět...",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Je mi líto vidět..."
+      },
+      {
+        "cardId": "sentence-271",
+        "field": "lv",
+        "new": "Doteď",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Doteď"
+      },
+      {
+        "cardId": "sentence-277",
+        "field": "lv",
+        "new": "Přestaň! • Nech toho!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Přestaň! • Nech toho!"
+      },
+      {
+        "cardId": "sentence-280",
+        "field": "lv",
+        "new": "Pojďme!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pojďme!"
+      },
+      {
+        "cardId": "sentence-281",
+        "field": "lv",
+        "new": "Tak jak to jde?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Tak jak to jde?"
+      },
+      {
+        "cardId": "sentence-283",
+        "field": "lv",
+        "new": "Sbohem!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Sbohem!"
+      },
+      {
+        "cardId": "sentence-284",
+        "field": "lv",
+        "new": "Co se děje?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Co se děje?"
+      },
+      {
+        "cardId": "sentence-286",
+        "field": "lv",
+        "new": "Byl to náročný den.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Byl to náročný den."
+      },
+      {
+        "cardId": "sentence-294",
+        "field": "lv",
+        "new": "Pes je na volno.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pes je na volno."
+      },
+      {
+        "cardId": "sentence-296",
+        "field": "lv",
+        "new": "Zadrž dech!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zadrž dech!"
+      },
+      {
+        "cardId": "sentence-297",
+        "field": "lv",
+        "new": "Co to děláš?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Co to děláš?"
+      },
+      {
+        "cardId": "sentence-298",
+        "field": "lv",
+        "new": "Hele!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Hele!"
+      },
+      {
+        "cardId": "sentence-299",
+        "field": "lv",
+        "new": "Co tím myslíte?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Co tím myslíte?"
+      },
+      {
+        "cardId": "sentence-310",
+        "field": "lv",
+        "new": "Nejnovější novinka!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nejnovější novinka!"
+      },
+      {
+        "cardId": "sentence-311",
+        "field": "lv",
+        "new": "Že ano?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Že ano?"
+      },
+      {
+        "cardId": "sentence-312",
+        "field": "lv",
+        "new": "Ale ne! • To ne!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ale ne! • To ne!"
+      },
+      {
+        "cardId": "sentence-329",
+        "field": "lv",
+        "new": "Jakkoli...",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jakkoli..."
+      },
+      {
+        "cardId": "sentence-333",
+        "field": "lv",
+        "new": "Nejen..., ale i...",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nejen..., ale i..."
+      },
+      {
+        "cardId": "sentence-335",
+        "field": "lv",
+        "new": "Ale vážně! • Žerty stranou!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ale vážně! • Žerty stranou!"
+      },
+      {
+        "cardId": "sentence-336",
+        "field": "lv",
+        "new": "Kolik je hodin?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kolik je hodin?"
+      },
+      {
+        "cardId": "sentence-337",
+        "field": "lv",
+        "new": "Průjezd uzavřen!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Průjezd uzavřen!"
+      },
+      {
+        "cardId": "sentence-340",
+        "field": "lv",
+        "new": "Jak se máte?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jak se máte?"
+      },
+      {
+        "cardId": "sentence-342",
+        "field": "lv",
+        "new": "Dobrý den!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Dobrý den!"
+      },
+      {
+        "cardId": "sentence-344",
+        "field": "lv",
+        "new": "Pojďte blíž!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pojďte blíž!"
+      },
+      {
+        "cardId": "sentence-347",
+        "field": "lv",
+        "new": "Ujde! • Není to špatné!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ujde! • Není to špatné!"
+      },
+      {
+        "cardId": "sentence-349",
+        "field": "lv",
+        "new": "Je o tom přesvědčen.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Je o tom přesvědčen."
+      },
+      {
+        "cardId": "sentence-350",
+        "field": "lv",
+        "new": "Tak se to běžně dělá.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Tak se to běžně dělá."
+      },
+      {
+        "cardId": "sentence-351",
+        "field": "lv",
+        "new": "Tvoje hodinky jdou pozdě.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Tvoje hodinky jdou pozdě."
+      },
+      {
+        "cardId": "sentence-355",
+        "field": "lv",
+        "new": "Vpravo v bok!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vpravo v bok!"
+      },
+      {
+        "cardId": "sentence-356",
+        "field": "lv",
+        "new": "A jak!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "A jak!"
+      },
+      {
+        "cardId": "sentence-357",
+        "field": "lv",
+        "new": "A sice",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "A sice"
+      },
+      {
+        "cardId": "sentence-360",
+        "field": "lv",
+        "new": "Není zač!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Není zač!"
+      },
+      {
+        "cardId": "sentence-363",
+        "field": "lv",
+        "new": "Špatné spojení!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Špatné spojení!"
+      },
+      {
+        "cardId": "sentence-365",
+        "field": "lv",
+        "new": "Rozumíte mi?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Rozumíte mi?"
+      },
+      {
+        "cardId": "sentence-367",
+        "field": "lv",
+        "new": "Zastávat jeho názor.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zastávat jeho názor."
+      },
+      {
+        "cardId": "sentence-371",
+        "field": "lv",
+        "new": "Z doslechu.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Z doslechu."
+      },
+      {
+        "cardId": "sentence-373",
+        "field": "lv",
+        "new": "Povoláním.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Povoláním."
+      },
+      {
+        "cardId": "sentence-375",
+        "field": "lv",
+        "new": "Stojí před oknem.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Stojí před oknem."
+      },
+      {
+        "cardId": "sentence-377",
+        "field": "lv",
+        "new": "Před čtrnácti dny.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Před čtrnácti dny."
+      },
+      {
+        "cardId": "sentence-378",
+        "field": "lv",
+        "new": "Radostí.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Radostí."
+      },
+      {
+        "cardId": "sentence-379",
+        "field": "lv",
+        "new": "Především.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Především."
+      },
+      {
+        "cardId": "sentence-380",
+        "field": "lv",
+        "new": "Předem.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Předem."
+      },
+      {
+        "cardId": "sentence-382",
+        "field": "lv",
+        "new": "S výhradou.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "S výhradou."
+      },
+      {
+        "cardId": "sentence-383",
+        "field": "lv",
+        "new": "Být k dispozici. • Být přítomen.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Být k dispozici. • Být přítomen."
+      },
+      {
+        "cardId": "sentence-385",
+        "field": "lv",
+        "new": "Učinit opatření.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Učinit opatření."
+      },
+      {
+        "cardId": "sentence-388",
+        "field": "lv",
+        "new": "Dnes dopoledne.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Dnes dopoledne."
+      },
+      {
+        "cardId": "sentence-392",
+        "field": "lv",
+        "new": "Být ve výhodě.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Být ve výhodě."
+      },
+      {
+        "cardId": "sentence-394",
+        "field": "lv",
+        "new": "Probudit se.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Probudit se."
+      },
+      {
+        "cardId": "sentence-395",
+        "field": "lv",
+        "new": "Být na stráži.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Být na stráži."
+      },
+      {
+        "cardId": "sentence-398",
+        "field": "lv",
+        "new": "Mluvit do zdi.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mluvit do zdi."
+      },
+      {
+        "cardId": "sentence-402",
+        "field": "lv",
+        "new": "Čekat na zprávu.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Čekat na zprávu."
+      },
+      {
+        "cardId": "sentence-403",
+        "field": "lv",
+        "new": "Co chcete?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Co chcete?"
+      },
+      {
+        "cardId": "sentence-407",
+        "field": "lv",
+        "new": "Mírovou cestou.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mírovou cestou."
+      },
+      {
+        "cardId": "sentence-409",
+        "field": "lv",
+        "new": "Právem.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Právem."
+      },
+      {
+        "cardId": "sentence-410",
+        "field": "lv",
+        "new": "Bolet.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Bolet."
+      },
+      {
+        "cardId": "sentence-413",
+        "field": "lv",
+        "new": "Způsob.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Způsob."
+      },
+      {
+        "cardId": "sentence-414",
+        "field": "lv",
+        "new": "Bez dalšího.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Bez dalšího."
+      },
+      {
+        "cardId": "sentence-420",
+        "field": "lv",
+        "new": "Za několik dní.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Za několik dní."
+      },
+      {
+        "cardId": "sentence-423",
+        "field": "lv",
+        "new": "Kdo je tam?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kdo je tam?"
+      },
+      {
+        "cardId": "sentence-425",
+        "field": "lv",
+        "new": "Vybraná díla.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vybraná díla."
+      },
+      {
+        "cardId": "sentence-430",
+        "field": "lv",
+        "new": "Zapojit se do soutěže.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zapojit se do soutěže."
+      },
+      {
+        "cardId": "sentence-431",
+        "field": "lv",
+        "new": "Závodit.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Závodit."
+      },
+      {
+        "cardId": "sentence-432",
+        "field": "lv",
+        "new": "O co se sázíme?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "O co se sázíme?"
+      },
+      {
+        "cardId": "sentence-436",
+        "field": "lv",
+        "new": "Vznést námitku.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vznést námitku."
+      },
+      {
+        "cardId": "sentence-438",
+        "field": "lv",
+        "new": "Jak dlouho?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jak dlouho?"
+      },
+      {
+        "cardId": "sentence-439",
+        "field": "lv",
+        "new": "Na slyšenou!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Na slyšenou!"
+      },
+      {
+        "cardId": "sentence-440",
+        "field": "lv",
+        "new": "Na shledanou!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Na shledanou!"
+      },
+      {
+        "cardId": "sentence-442",
+        "field": "lv",
+        "new": "Srdečně vítejte!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Srdečně vítejte!"
+      },
+      {
+        "cardId": "sentence-443",
+        "field": "lv",
+        "new": "Musíš táhnout.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Musíš táhnout."
+      },
+      {
+        "cardId": "sentence-444",
+        "field": "lv",
+        "new": "Táhne.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Táhne."
+      },
+      {
+        "cardId": "sentence-446",
+        "field": "lv",
+        "new": "Konec klobásy.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Konec klobásy."
+      },
+      {
+        "cardId": "sentence-447",
+        "field": "lv",
+        "new": "Jít k němu.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jít k němu."
+      },
+      {
+        "cardId": "sentence-448",
+        "field": "lv",
+        "new": "Jít do školy.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jít do školy."
+      },
+      {
+        "cardId": "sentence-449",
+        "field": "lv",
+        "new": "Zůstat doma.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zůstat doma."
+      },
+      {
+        "cardId": "sentence-450",
+        "field": "lv",
+        "new": "Den ode dne.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Den ode dne."
+      },
+      {
+        "cardId": "sentence-453",
+        "field": "lv",
+        "new": "Pěšky.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pěšky."
+      },
+      {
+        "cardId": "sentence-454",
+        "field": "lv",
+        "new": "Na koni.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Na koni."
+      },
+      {
+        "cardId": "sentence-461",
+        "field": "lv",
+        "new": "Vypít jedním douškem.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vypít jedním douškem."
+      },
+      {
+        "cardId": "sentence-463",
+        "field": "lv",
+        "new": "Položit za základ. • Brát jako základ.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Položit za základ. • Brát jako základ."
+      },
+      {
+        "cardId": "sentence-471",
+        "field": "lv",
+        "new": "Volný vstup.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Volný vstup."
+      },
+      {
+        "cardId": "sentence-474",
+        "field": "lv",
+        "new": "Stát se protivným. • Zprotivit se.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Stát se protivným. • Zprotivit se."
+      },
+      {
+        "cardId": "sentence-477",
+        "field": "lv",
+        "new": "Bez pochyby.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Bez pochyby."
+      },
+      {
+        "cardId": "sentence-482",
+        "field": "lv",
+        "new": "Rád vás poznávám.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Rád vás poznávám."
+      },
+      {
+        "cardId": "sentence-483",
+        "field": "lv",
+        "new": "Byl byste prosím tak laskav?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Byl byste prosím tak laskav?"
+      },
+      {
+        "cardId": "sentence-488",
+        "field": "lv",
+        "new": "Prosím, jděte do sportovní haly!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Prosím, jděte do sportovní haly!"
+      },
+      {
+        "cardId": "sentence-490",
+        "field": "lv",
+        "new": "Spíte ještě?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Spíte ještě?"
+      },
+      {
+        "cardId": "sentence-491",
+        "field": "lv",
+        "new": "Pevně usnul.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pevně usnul."
+      },
+      {
+        "cardId": "sentence-492",
+        "field": "lv",
+        "new": "Prosím, vzbuď ho, už je pozdě!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Prosím, vzbuď ho, už je pozdě!"
+      },
+      {
+        "cardId": "sentence-496",
+        "field": "lv",
+        "new": "Čtěte s námi, prosím!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Čtěte s námi, prosím!"
+      },
+      {
+        "cardId": "sentence-499",
+        "field": "lv",
+        "new": "Vrať se prosím na své místo!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vrať se prosím na své místo!"
+      },
+      {
+        "cardId": "sentence-501",
+        "field": "lv",
+        "new": "Kdy se obvykle probouzíš?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kdy se obvykle probouzíš?"
+      },
+      {
+        "cardId": "sentence-503",
+        "field": "lv",
+        "new": "Vstávej, Hanno, zvoní!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vstávej, Hanno, zvoní!"
+      },
+      {
+        "cardId": "sentence-505",
+        "field": "lv",
+        "new": "Nezapomeň vyvětrat pokoj!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nezapomeň vyvětrat pokoj!"
+      },
+      {
+        "cardId": "sentence-506",
+        "field": "lv",
+        "new": "Kde je ručník?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kde je ručník?"
+      },
+      {
+        "cardId": "sentence-508",
+        "field": "lv",
+        "new": "Čím si čistíš zuby?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Čím si čistíš zuby?"
+      },
+      {
+        "cardId": "sentence-511",
+        "field": "lv",
+        "new": "Obleč se tepleji, venku je chladno.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Obleč se tepleji, venku je chladno."
+      },
+      {
+        "cardId": "sentence-515",
+        "field": "lv",
+        "new": "To je ale nepořádek!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "To je ale nepořádek!"
+      },
+      {
+        "cardId": "sentence-519",
+        "field": "lv",
+        "new": "Nejraději piju černou kávu.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nejraději piju černou kávu."
+      },
+      {
+        "cardId": "sentence-520",
+        "field": "lv",
+        "new": "Dobré ráno, vyspal ses dobře?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Dobré ráno, vyspal ses dobře?"
+      },
+      {
+        "cardId": "sentence-523",
+        "field": "lv",
+        "new": "Dej mi prosím housku se sýrem.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Dej mi prosím housku se sýrem."
+      },
+      {
+        "cardId": "sentence-525",
+        "field": "lv",
+        "new": "Nezapomeň na snídani!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nezapomeň na snídani!"
+      },
+      {
+        "cardId": "sentence-526",
+        "field": "lv",
+        "new": "Klaro, prosím, prostři stůl!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Klaro, prosím, prostři stůl!"
+      },
+      {
+        "cardId": "sentence-527",
+        "field": "lv",
+        "new": "Nezapomeň na ubrousky!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nezapomeň na ubrousky!"
+      },
+      {
+        "cardId": "sentence-528",
+        "field": "lv",
+        "new": "Kdy obědváte?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kdy obědváte?"
+      },
+      {
+        "cardId": "sentence-531",
+        "field": "lv",
+        "new": "Jak ti chutná polévka?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jak ti chutná polévka?"
+      },
+      {
+        "cardId": "sentence-532",
+        "field": "lv",
+        "new": "Upřímně řečeno, je trochu příliš slaná.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Upřímně řečeno, je trochu příliš slaná."
+      },
+      {
+        "cardId": "sentence-538",
+        "field": "lv",
+        "new": "Máš dnes večer volno?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Máš dnes večer volno?"
+      },
+      {
+        "cardId": "sentence-539",
+        "field": "lv",
+        "new": "Přijď dnes na oběd!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Přijď dnes na oběd!"
+      },
+      {
+        "cardId": "sentence-541",
+        "field": "lv",
+        "new": "Posluž si, prosím!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Posluž si, prosím!"
+      },
+      {
+        "cardId": "sentence-542",
+        "field": "lv",
+        "new": "Vadí ti kouření?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vadí ti kouření?"
+      },
+      {
+        "cardId": "sentence-543",
+        "field": "lv",
+        "new": "Děkuji za vřelé přivítání!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Děkuji za vřelé přivítání!"
+      },
+      {
+        "cardId": "sentence-544",
+        "field": "lv",
+        "new": "Kdy jdeš spát?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kdy jdeš spát?"
+      },
+      {
+        "cardId": "sentence-547",
+        "field": "lv",
+        "new": "Je hezké počasí.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Je hezké počasí."
+      },
+      {
+        "cardId": "sentence-548",
+        "field": "lv",
+        "new": "Chceš se se mnou projít?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Chceš se se mnou projít?"
+      },
+      {
+        "cardId": "sentence-550",
+        "field": "lv",
+        "new": "Vezmi si s sebou deštník!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vezmi si s sebou deštník!"
+      },
+      {
+        "cardId": "sentence-553",
+        "field": "lv",
+        "new": "Myslíš, že bude celý den pršet?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Myslíš, že bude celý den pršet?"
+      },
+      {
+        "cardId": "sentence-556",
+        "field": "lv",
+        "new": "Je velmi teplo.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Je velmi teplo."
+      },
+      {
+        "cardId": "sentence-559",
+        "field": "lv",
+        "new": "Bouřka přechází.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Bouřka přechází."
+      },
+      {
+        "cardId": "sentence-560",
+        "field": "lv",
+        "new": "Mraky se rozptylují.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mraky se rozptylují."
+      },
+      {
+        "cardId": "sentence-562",
+        "field": "lv",
+        "new": "Zima je tady, sněžilo.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zima je tady, sněžilo."
+      },
+      {
+        "cardId": "sentence-568",
+        "field": "lv",
+        "new": "Obleč si bundu, mohl bys nastydnout.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Obleč si bundu, mohl bys nastydnout."
+      },
+      {
+        "cardId": "sentence-569",
+        "field": "lv",
+        "new": "Je půl sedmé.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Je půl sedmé."
+      },
+      {
+        "cardId": "sentence-570",
+        "field": "lv",
+        "new": "Moje hodinky jdou o pět minut napřed.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Moje hodinky jdou o pět minut napřed."
+      },
+      {
+        "cardId": "sentence-576",
+        "field": "lv",
+        "new": "Jak se máš?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jak se máš?"
+      },
+      {
+        "cardId": "sentence-577",
+        "field": "lv",
+        "new": "Promiň, chci s tebou něco probrat.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Promiň, chci s tebou něco probrat."
+      },
+      {
+        "cardId": "sentence-580",
+        "field": "lv",
+        "new": "Jdu tě vyzvednout na procházku.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jdu tě vyzvednout na procházku."
+      },
+      {
+        "cardId": "sentence-582",
+        "field": "lv",
+        "new": "Jsem v této oblasti poprvé.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jsem v této oblasti poprvé."
+      },
+      {
+        "cardId": "sentence-586",
+        "field": "lv",
+        "new": "Promiň, kde je nejbližší stanice metra?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Promiň, kde je nejbližší stanice metra?"
+      },
+      {
+        "cardId": "sentence-588",
+        "field": "lv",
+        "new": "Tady odboč druhou ulicí doleva a pak jdi pořád rovně.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Tady odboč druhou ulicí doleva a pak jdi pořád rovně."
+      },
+      {
+        "cardId": "sentence-589",
+        "field": "lv",
+        "new": "Jak se nejrychleji dostanu na nádraží?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jak se nejrychleji dostanu na nádraží?"
+      },
+      {
+        "cardId": "sentence-591",
+        "field": "lv",
+        "new": "Kam chceš jet?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kam chceš jet?"
+      },
+      {
+        "cardId": "sentence-592",
+        "field": "lv",
+        "new": "Cestuješ služebně, nebo soukromě?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Cestuješ služebně, nebo soukromě?"
+      },
+      {
+        "cardId": "sentence-595",
+        "field": "lv",
+        "new": "Za půl hodiny.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Za půl hodiny."
+      },
+      {
+        "cardId": "sentence-596",
+        "field": "lv",
+        "new": "Mohu ještě dostat kajutu?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mohu ještě dostat kajutu?"
+      },
+      {
+        "cardId": "sentence-597",
+        "field": "lv",
+        "new": "Nezapomeň si pas!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nezapomeň si pas!"
+      },
+      {
+        "cardId": "sentence-599",
+        "field": "lv",
+        "new": "Vlak odjíždí v půl sedmé.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vlak odjíždí v půl sedmé."
+      },
+      {
+        "cardId": "sentence-600",
+        "field": "lv",
+        "new": "Zavolej mi prosím taxi, jinak zmeškám vlak!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zavolej mi prosím taxi, jinak zmeškám vlak!"
+      },
+      {
+        "cardId": "sentence-601",
+        "field": "lv",
+        "new": "Jeď prosím na nádraží!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jeď prosím na nádraží!"
+      },
+      {
+        "cardId": "sentence-607",
+        "field": "lv",
+        "new": "Musím v Koblenzi přestoupit?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Musím v Koblenzi přestoupit?"
+      },
+      {
+        "cardId": "sentence-608",
+        "field": "lv",
+        "new": "Ano, tam musíš přestoupit.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ano, tam musíš přestoupit."
+      },
+      {
+        "cardId": "sentence-612",
+        "field": "lv",
+        "new": "Dej moje příruční zavazadlo do sítě na zavazadla.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Dej moje příruční zavazadlo do sítě na zavazadla."
+      },
+      {
+        "cardId": "sentence-614",
+        "field": "lv",
+        "new": "Táhne, prosím, zavři okno!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Táhne, prosím, zavři okno!"
+      },
+      {
+        "cardId": "sentence-617",
+        "field": "lv",
+        "new": "Kde musím přestoupit?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kde musím přestoupit?"
+      },
+      {
+        "cardId": "sentence-619",
+        "field": "lv",
+        "new": "Tento vůz je pro nekuřáky.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Tento vůz je pro nekuřáky."
+      },
+      {
+        "cardId": "sentence-621",
+        "field": "lv",
+        "new": "Máš něco k proclení?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Máš něco k proclení?"
+      },
+      {
+        "cardId": "sentence-623",
+        "field": "lv",
+        "new": "Můžeš mi doporučit dobrý hotel?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Můžeš mi doporučit dobrý hotel?"
+      },
+      {
+        "cardId": "sentence-628",
+        "field": "lv",
+        "new": "Účet, prosím!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Účet, prosím!"
+      },
+      {
+        "cardId": "sentence-636",
+        "field": "lv",
+        "new": "Číšníku, jídelní lístek, prosím!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Číšníku, jídelní lístek, prosím!"
+      },
+      {
+        "cardId": "sentence-639",
+        "field": "lv",
+        "new": "Číšníku, zaplatíme, prosím!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Číšníku, zaplatíme, prosím!"
+      },
+      {
+        "cardId": "sentence-640",
+        "field": "lv",
+        "new": "Jdu do kavárny na kávu.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jdu do kavárny na kávu."
+      },
+      {
+        "cardId": "sentence-644",
+        "field": "lv",
+        "new": "Nenech svou kávu vychladnout!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nenech svou kávu vychladnout!"
+      },
+      {
+        "cardId": "sentence-651",
+        "field": "lv",
+        "new": "Připomeň mi, abych zítra napsal!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Připomeň mi, abych zítra napsal!"
+      },
+      {
+        "cardId": "sentence-656",
+        "field": "lv",
+        "new": "Prosím, ostříhejte mi vlasy.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Prosím, ostříhejte mi vlasy."
+      },
+      {
+        "cardId": "sentence-659",
+        "field": "lv",
+        "new": "Začíná v půl osmé.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Začíná v půl osmé."
+      },
+      {
+        "cardId": "sentence-660",
+        "field": "lv",
+        "new": "Všechna místa jsou vyprodaná.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Všechna místa jsou vyprodaná."
+      },
+      {
+        "cardId": "sentence-662",
+        "field": "lv",
+        "new": "Bundy necháme v šatně.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Bundy necháme v šatně."
+      },
+      {
+        "cardId": "sentence-663",
+        "field": "lv",
+        "new": "Rychle, prosím, opona se brzy zvedne!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Rychle, prosím, opona se brzy zvedne!"
+      },
+      {
+        "cardId": "sentence-665",
+        "field": "lv",
+        "new": "Mohu tě požádat o tanec?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mohu tě požádat o tanec?"
+      },
+      {
+        "cardId": "sentence-666",
+        "field": "lv",
+        "new": "Kdy máte svatbu?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kdy máte svatbu?"
+      },
+      {
+        "cardId": "sentence-674",
+        "field": "lv",
+        "new": "Jsem v kontaktu se svým přítelem.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jsem v kontaktu se svým přítelem."
+      },
+      {
+        "cardId": "sentence-676",
+        "field": "lv",
+        "new": "Je všechno naložené?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Je všechno naložené?"
+      },
+      {
+        "cardId": "sentence-678",
+        "field": "lv",
+        "new": "Nyní můžeme všechno znovu uklidit.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nyní můžeme všechno znovu uklidit."
+      },
+      {
+        "cardId": "sentence-681",
+        "field": "lv",
+        "new": "Umíš plavat?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Umíš plavat?"
+      },
+      {
+        "cardId": "sentence-682",
+        "field": "lv",
+        "new": "Neplav příliš daleko!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Neplav příliš daleko!"
+      },
+      {
+        "cardId": "sentence-683",
+        "field": "lv",
+        "new": "Koupeš se každý den?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Koupeš se každý den?"
+      },
+      {
+        "cardId": "sentence-688",
+        "field": "lv",
+        "new": "Je vždy milý a přátelský.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Je vždy milý a přátelský."
+      },
+      {
+        "cardId": "sentence-696",
+        "field": "lv",
+        "new": "Máš horečku?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Máš horečku?"
+      },
+      {
+        "cardId": "sentence-697",
+        "field": "lv",
+        "new": "Včera jsem měl zvýšenou teplotu.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Včera jsem měl zvýšenou teplotu."
+      },
+      {
+        "cardId": "sentence-702",
+        "field": "lv",
+        "new": "Chci znovu zařídit byt.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Chci znovu zařídit byt."
+      },
+      {
+        "cardId": "sentence-703",
+        "field": "lv",
+        "new": "Mohu to koupit na splátky?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mohu to koupit na splátky?"
+      },
+      {
+        "cardId": "sentence-704",
+        "field": "lv",
+        "new": "Zůstaň v posteli, dokud se nebudeš cítit lépe!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zůstaň v posteli, dokud se nebudeš cítit lépe!"
+      },
+      {
+        "cardId": "sentence-706",
+        "field": "lv",
+        "new": "Buď ještě opatrný s jídlem.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Buď ještě opatrný s jídlem."
+      },
+      {
+        "cardId": "sentence-707",
+        "field": "lv",
+        "new": "Mluvíš německy?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mluvíš německy?"
+      },
+      {
+        "cardId": "sentence-709",
+        "field": "lv",
+        "new": "Mluvíš docela plynule.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mluvíš docela plynule."
+      },
+      {
+        "cardId": "sentence-710",
+        "field": "lv",
+        "new": "Kde ses naučil německy?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kde ses naučil německy?"
+      },
+      {
+        "cardId": "sentence-712",
+        "field": "lv",
+        "new": "Vždy hledám příležitost mluvit německy.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vždy hledám příležitost mluvit německy."
+      },
+      {
+        "cardId": "sentence-717",
+        "field": "lv",
+        "new": "Máte opravdu čerstvá vejce?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Máte opravdu čerstvá vejce?"
+      },
+      {
+        "cardId": "sentence-720",
+        "field": "lv",
+        "new": "Můžete mi odvážit půl kila?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Můžete mi odvážit půl kila?"
+      },
+      {
+        "cardId": "sentence-726",
+        "field": "lv",
+        "new": "Dejte mi dva kilogramy mletého masa.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Dejte mi dva kilogramy mletého masa."
+      },
+      {
+        "cardId": "sentence-727",
+        "field": "lv",
+        "new": "Jeden bochník chleba, prosím, ale ne příliš křupavý.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jeden bochník chleba, prosím, ale ne příliš křupavý."
+      },
+      {
+        "cardId": "sentence-734",
+        "field": "lv",
+        "new": "Máte rýži?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Máte rýži?"
+      },
+      {
+        "cardId": "sentence-738",
+        "field": "lv",
+        "new": "Můžete mi doručit nábytek do mého bytu?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Můžete mi doručit nábytek do mého bytu?"
+      },
+      {
+        "cardId": "sentence-742",
+        "field": "lv",
+        "new": "Tato látka se mi líbí.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Tato látka se mi líbí."
+      },
+      {
+        "cardId": "sentence-743",
+        "field": "lv",
+        "new": "Prosím, odstřihněte mi tři metry.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Prosím, odstřihněte mi tři metry."
+      },
+      {
+        "cardId": "sentence-744",
+        "field": "lv",
+        "new": "Máte také jiné vzory?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Máte také jiné vzory?"
+      },
+      {
+        "cardId": "sentence-746",
+        "field": "lv",
+        "new": "Dejte mi světlejší.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Dejte mi světlejší."
+      },
+      {
+        "cardId": "sentence-747",
+        "field": "lv",
+        "new": "Kolik stojí tyto ponožky?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kolik stojí tyto ponožky?"
+      },
+      {
+        "cardId": "sentence-748",
+        "field": "lv",
+        "new": "Jaké rukavice si přejete?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jaké rukavice si přejete?"
+      },
+      {
+        "cardId": "sentence-750",
+        "field": "lv",
+        "new": "Tak, teď dobře sedí.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Tak, teď dobře sedí."
+      },
+      {
+        "cardId": "sentence-751",
+        "field": "lv",
+        "new": "Můžeš mi doporučit dobrého krejčího?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Můžeš mi doporučit dobrého krejčího?"
+      },
+      {
+        "cardId": "sentence-753",
+        "field": "lv",
+        "new": "Kdy bude hotový?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kdy bude hotový?"
+      },
+      {
+        "cardId": "sentence-756",
+        "field": "lv",
+        "new": "Prosím, vyčistěte ho a vyžehlete ho!",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Prosím, vyčistěte ho a vyžehlete ho!"
+      },
+      {
+        "cardId": "sentence-759",
+        "field": "lv",
+        "new": "Můžete mi dnes opravit boty?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Můžete mi dnes opravit boty?"
+      },
+      {
+        "cardId": "sentence-760",
+        "field": "lv",
+        "new": "Kdy si mohu vyzvednout boty?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kdy si mohu vyzvednout boty?"
+      },
+      {
+        "cardId": "sentence-762",
+        "field": "lv",
+        "new": "Jdou pět minut napřed.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jdou pět minut napřed."
+      },
+      {
+        "cardId": "sentence-763",
+        "field": "lv",
+        "new": "Jsi krátkozraký nebo dalekozraký?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jsi krátkozraký nebo dalekozraký?"
+      },
+      {
+        "cardId": "sentence-769",
+        "field": "lv",
+        "new": "Prosím, zabalte to a pošlete mi to domů.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Prosím, zabalte to a pošlete mi to domů."
+      },
+      {
+        "cardId": "sentence-773",
+        "field": "lv",
+        "new": "Kdy mohu vidět zkušební fotografii?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kdy mohu vidět zkušební fotografii?"
+      },
+      {
+        "cardId": "sentence-780",
+        "field": "lv",
+        "new": "Ukažte mi prosím snubní prsteny.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ukažte mi prosím snubní prsteny."
+      },
+      {
+        "cardId": "sentence-782",
+        "field": "lv",
+        "new": "Můžu ho zúžit.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Můžu ho zúžit."
+      },
+      {
+        "cardId": "sentence-785",
+        "field": "lv",
+        "new": "Jak se ti líbí tyto náušnice?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jak se ti líbí tyto náušnice?"
+      },
+      {
+        "cardId": "sentence-790",
+        "field": "lv",
+        "new": "Je mimořádně jemně zpracovaný.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Je mimořádně jemně zpracovaný."
+      },
+      {
+        "cardId": "sentence-792",
+        "field": "lv",
+        "new": "Dostanu krabičku zdarma?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Dostanu krabičku zdarma?"
+      },
+      {
+        "cardId": "sentence-793",
+        "field": "lv",
+        "new": "Všechny šperky jsou označené puncem.",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Všechny šperky jsou označené puncem."
+      },
+      {
+        "cardId": "sentence-794",
+        "field": "lv",
+        "new": "Pokud se mé ženě nebude líbit, mohu to vyměnit?",
+        "source": "copy-only",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pokud se mé ženě nebude líbit, mohu to vyměnit?"
+      },
+      {
+        "cardId": "sentence-406",
+        "field": "lv",
+        "new": "Takhle. • Tímto způsobem.",
+        "source": "micro-repair",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Takhle. • Tímto způsobem."
+      }
+    ]
+  },
+  "targeted": {
+    "pass": true,
+    "actual": {
+      "changedMappings": 328,
+      "uniqueChangedCards": 328,
+      "rawFindings": 1,
+      "validatedReal": 1,
+      "critical": 0,
+      "high": 0,
+      "medium": 1,
+      "low": 0,
+      "falsePositive": 0,
+      "sourceDeIssue": 0,
+      "residualResolvedByMicro": true
+    },
+    "source": "/workspace/reports/cs-vety-targeted-regression.md",
+    "auditCommit": "3ac154b05a0ba69e8f47893080a1c01822f3f769",
+    "note": "1 MEDIUM REAL on sentence-406 resolved by OWNER micro-repair"
+  },
+  "micro": {
+    "pass": true,
+    "actual": {
+      "targetCard": "sentence-406",
+      "rawFindings": 0,
+      "validatedReal": 0,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "microRegressionPass": true
+    },
+    "source": "/workspace/reports/cs-vety-1-card-micro-regression.md",
+    "auditCommit": "865c8c8da9a2d59ad58a97aad18d998855b6d03a"
+  },
+  "integrity": {
+    "cardCount": 796,
+    "syntax": "PASS",
+    "idOrder": "PASS",
+    "mirrorParity": "PASS",
+    "deChanges": 0,
+    "deIntegrity": "PASS",
+    "unexpectedProductionChanges": 0,
+    "sinceMicroRegression": 0,
+    "csHash": "a052846bb2ae265333651aa709938ff47888c5906fdf66c72e2ae7050039a334",
+    "deHash": "8b52c9426450d496feed3ad2e71e3c43bbda9f69849c0695ff16477806ea4cee"
+  },
+  "checks": [
+    {
+      "name": "owner_repair",
+      "pass": true
+    },
+    {
+      "name": "targeted_regression_reconfirm",
+      "pass": true
+    },
+    {
+      "name": "micro_regression_reconfirm",
+      "pass": true
+    },
+    {
+      "name": "integrity",
+      "pass": true
+    },
+    {
+      "name": "closure_immutability",
+      "pass": true
+    },
+    {
+      "name": "final_validated_real_zero",
+      "pass": true
+    }
+  ],
+  "allPass": true
+}
