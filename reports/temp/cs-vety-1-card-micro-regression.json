@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "date": "2026-08-15T12:12:18.319Z",
+    "branch": "cursor/cs-vety-final-closure-6ea4",
+    "auditCommit": "424f1acfb7457703ff277af35cb0ccd8f1b7554d",
+    "model": "GPT-5.6 Luna"
+  },
+  "summary": {
+    "microRepairExact": true,
+    "targetCard": "sentence-406",
+    "rawFindings": 0,
+    "falsePositive": 0,
+    "sourceDeIssue": 0,
+    "validated": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "MEDIUM": 0,
+      "LOW": 0
+    },
+    "productionChanges": 0,
+    "deChanges": 0,
+    "cardCount": 796,
+    "syntax": "PASS",
+    "mirrorParity": "PASS",
+    "lunaRequests": 1,
+    "lunaTokens": 411,
+    "pass": true
+  },
+  "validatedReal": [],
+  "falsePositives": [],
+  "sourceDeIssues": [],
+  "realFindings": []
+}

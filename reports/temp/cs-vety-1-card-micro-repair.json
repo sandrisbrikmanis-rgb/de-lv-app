@@ -1,0 +1,24 @@
+{
+  "summary": {
+    "targets": 1,
+    "applied": 1,
+    "alreadyMatchedNew": 0,
+    "currentValueMismatch": 0,
+    "cardNotFound": 0,
+    "ownerNewExact": 1,
+    "deChanges": 0,
+    "cardCount": 796,
+    "overall": "PASS"
+  },
+  "details": [
+    {
+      "cardId": "sentence-406",
+      "field": "lv",
+      "current": "Takhle. • Takovými prostředky.",
+      "new": "Takhle. • Tímto způsobem.",
+      "status": "APPLIED",
+      "actual": "Takhle. • Takovými prostředky.",
+      "productionIndex": 406
+    }
+  ]
+}
