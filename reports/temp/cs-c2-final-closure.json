@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "date": "2026-08-15T10:06:06.832Z",
+    "branch": "cursor/cs-c2-final-closure-6ea4",
+    "closureCommit": "9905e6ce64a54dc6197c936b4b38147bbb768d0b",
+    "targetedRegressionCommit": "294d310b2a848642adc9cde0df5762ddac1bab81",
+    "mode": "READ-ONLY"
+  },
+  "owner": {
+    "pass": true,
+    "exact": 75,
+    "drift": 0,
+    "cardNotFound": 0,
+    "fieldNotFound": 0,
+    "conflict": 0
+  },
+  "targeted": {
+    "pass": true,
+    "expected": {
+      "changedMappings": 75,
+      "uniqueChangedCards": 75,
+      "mainTranslationFields": 75,
+      "studyFields": 0,
+      "studyCardsChecked": 0,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "validatedReal": 0,
+      "falsePositive": 0,
+      "sourceDeIssue": 0,
+      "targetedRegressionPass": true
+    },
+    "actual": {
+      "changedMappings": 75,
+      "uniqueChangedCards": 75,
+      "mainTranslationFields": 75,
+      "studyFields": 0,
+      "studyCardsChecked": 0,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "validatedReal": 0,
+      "falsePositive": 0,
+      "sourceDeIssue": 0,
+      "targetedRegressionPass": true
+    },
+    "source": "/workspace/reports/cs-c2-targeted-regression.md",
+    "auditCommit": "294d310b2a848642adc9cde0df5762ddac1bab81"
+  },
+  "integrity": {
+    "cardCount": 219,
+    "syntax": "PASS",
+    "idOrder": "PASS",
+    "mirrorParity": "PASS",
+    "deChanges": 0,
+    "deIntegrity": "PASS",
+    "unexpectedProductionChanges": 0,
+    "sinceTargetedRegression": 0,
+    "targetedRegressionCsHash": "a177fd7397ce01313e0e20e1dfc219e3aa590e3e193c07bf16cf304ddcfeb926",
+    "csHash": "a177fd7397ce01313e0e20e1dfc219e3aa590e3e193c07bf16cf304ddcfeb926",
+    "deHash": "e5dbb3865254eea141e16585fb79b62d3d6b59ae34d7c327a42f0a6e59168067"
+  },
+  "checks": [
+    {
+      "name": "owner_repair",
+      "pass": true
+    },
+    {
+      "name": "targeted_regression_reconfirm",
+      "pass": true
+    },
+    {
+      "name": "integrity",
+      "pass": true
+    },
+    {
+      "name": "closure_immutability",
+      "pass": true
+    }
+  ],
+  "allPass": true
+}
