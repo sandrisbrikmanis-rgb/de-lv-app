@@ -18,7 +18,7 @@ const BRANCH = "cursor/cs-vety-final-closure-6ea4";
 const VETY_TOTAL = 796;
 const COPY_ONLY_TOTAL = 328;
 const MICRO_TOTAL = 1;
-const OWNER_TOTAL = COPY_ONLY_TOTAL + MICRO_TOTAL;
+const OWNER_TOTAL = COPY_ONLY_TOTAL;
 const SENTENCES_FILE = path.join(ROOT, "data/cs/sentences.js");
 const WWW_FILE = path.join(ROOT, "www/data/cs/sentences.js");
 const DE_FILE = path.join(ROOT, "data/sentences.js");
@@ -62,10 +62,10 @@ function loadAuthoritativeMappings() {
     new: micro.new,
     source: "micro-repair",
   };
-  return [
-    ...copyOnly.map((d) => ({ cardId: d.cardId, field: d.field, new: d.new, source: "copy-only" })),
-    microMapping,
-  ];
+  const withoutMicroTarget = copyOnly
+    .filter((d) => !(d.cardId === micro.cardId && d.field === micro.field))
+    .map((d) => ({ cardId: d.cardId, field: d.field, new: d.new, source: "copy-only" }));
+  return [...withoutMicroTarget, microMapping];
 }
 
 function verifyOwnerMappings(entries, mappings) {
@@ -242,8 +242,8 @@ function buildMarkdown(data) {
     `Cards: ${data.integrity.cardCount}/${VETY_TOTAL}`,
     "",
     `OWNER LABOT mappings: ${OWNER_TOTAL}`,
-    `  COPY-ONLY apply: ${COPY_ONLY_TOTAL}`,
-    `  Micro-repair: ${MICRO_TOTAL}`,
+    `  COPY-ONLY apply: ${COPY_ONLY_TOTAL - MICRO_TOTAL}`,
+    `  Micro-repair override: ${MICRO_TOTAL} (sentence-406)`,
     `OWNER NEW exact: ${data.owner.exact}/${OWNER_TOTAL}`,
     `OWNER drift: ${data.owner.drift}`,
     "",
@@ -276,8 +276,8 @@ function buildMarkdown(data) {
     "",
     "| Metric | Value |",
     "|--------|------:|",
-    `| COPY-ONLY apply | ${COPY_ONLY_TOTAL} |`,
-    `| Micro-repair | ${MICRO_TOTAL} |`,
+    `| COPY-ONLY apply | ${COPY_ONLY_TOTAL - MICRO_TOTAL} |`,
+    `| Micro-repair override | ${MICRO_TOTAL} |`,
     `| Total LABOT mappings | ${OWNER_TOTAL} |`,
     `| OWNER NEW exact | ${data.owner.exact}/${OWNER_TOTAL} |`,
     `| OWNER drift | ${data.owner.drift} |`,
