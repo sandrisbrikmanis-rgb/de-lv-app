@@ -10,7 +10,7 @@
 
   function loadScript(src) {
     return new Promise((resolve, reject) => {
-      const cacheVersion = window.__APP_DATA_CACHE_VERSION__ || "115";
+      const cacheVersion = window.__APP_DATA_CACHE_VERSION__ || "116";
       const versionedSrc = src.includes("?") ? `${src}&v=${cacheVersion}` : `${src}?v=${cacheVersion}`;
       const existing = document.querySelector(`script[data-lang-data="${src}"]`);
       if (existing) {
