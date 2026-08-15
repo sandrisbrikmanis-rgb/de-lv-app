@@ -10,13 +10,15 @@
 
   function loadScript(src) {
     return new Promise((resolve, reject) => {
+      const cacheVersion = window.__APP_DATA_CACHE_VERSION__ || "115";
+      const versionedSrc = src.includes("?") ? `${src}&v=${cacheVersion}` : `${src}?v=${cacheVersion}`;
       const existing = document.querySelector(`script[data-lang-data="${src}"]`);
       if (existing) {
         resolve();
         return;
       }
       const script = document.createElement("script");
-      script.src = src;
+      script.src = versionedSrc;
       script.dataset.langData = src;
       script.onload = () => resolve();
       script.onerror = () => reject(new Error(`Failed to load dataset script: ${src}`));
