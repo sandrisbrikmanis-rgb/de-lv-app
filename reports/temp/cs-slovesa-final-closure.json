@@ -1,0 +1,4327 @@
+{
+  "meta": {
+    "date": "2026-08-15T12:39:21.810Z",
+    "branch": "cursor/cs-slovesa-final-closure-6ea4",
+    "closureCommit": "a6b2c47ac562c1500eff018b44f57ef8b47e1e40",
+    "targetedRegressionCommit": "d26e5ea285b2bd523428d8db524d64baed492e91",
+    "mode": "READ-ONLY",
+    "status": "OWNER ACCEPTED / CLOSED"
+  },
+  "ownerGroups": [
+    {
+      "file": "cs-slovesa-repair-group01-verbs-001-050.md",
+      "labot": 135
+    },
+    {
+      "file": "cs-slovesa-repair-group02-verbs-051-100.md",
+      "labot": 119
+    },
+    {
+      "file": "cs-slovesa-repair-group03-verbs-101-150.md",
+      "labot": 121
+    },
+    {
+      "file": "cs-slovesa-repair-group04-verbs-151-189.md",
+      "labot": 93
+    }
+  ],
+  "owner": {
+    "pass": true,
+    "exact": 468,
+    "drift": 0,
+    "verbNotFound": 0,
+    "fieldNotFound": 0,
+    "conflict": 0,
+    "results": [
+      {
+        "verbId": "verb-0",
+        "field": "partizipVergangenheit",
+        "current": "Smažené / pečené",
+        "new": "Pečené",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pečené"
+      },
+      {
+        "verbId": "verb-1",
+        "field": "partizipVergangenheit",
+        "current": "Přikázal",
+        "new": "Nařízeno",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nařízeno"
+      },
+      {
+        "verbId": "verb-2",
+        "field": "partizipVergangenheit",
+        "current": "Začala",
+        "new": "Začato",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Začato"
+      },
+      {
+        "verbId": "verb-3",
+        "field": "infinitiv",
+        "current": "Skus",
+        "new": "Kousat",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kousat"
+      },
+      {
+        "verbId": "verb-3",
+        "field": "imperfektIndikativ",
+        "current": "Zakódoval",
+        "new": "Kousal",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kousal"
+      },
+      {
+        "verbId": "verb-3",
+        "field": "imperfektKonjunktiv",
+        "current": "Kouše",
+        "new": "Kousal by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kousal by"
+      },
+      {
+        "verbId": "verb-3",
+        "field": "partizipVergangenheit",
+        "current": "Pokousaný / pokousaný",
+        "new": "Pokousaný",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pokousaný"
+      },
+      {
+        "verbId": "verb-5",
+        "field": "infinitiv",
+        "current": "Prasknutí",
+        "new": "Prasknout",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Prasknout"
+      },
+      {
+        "verbId": "verb-5",
+        "field": "imperfektIndikativ",
+        "current": "Vybuchl",
+        "new": "Praskl",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Praskl"
+      },
+      {
+        "verbId": "verb-5",
+        "field": "imperfektKonjunktiv",
+        "current": "Praskne",
+        "new": "Praskl by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Praskl by"
+      },
+      {
+        "verbId": "verb-5",
+        "field": "partizipVergangenheit",
+        "current": "Zlomený",
+        "new": "Prasklý",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Prasklý"
+      },
+      {
+        "verbId": "verb-6",
+        "field": "imperfektIndikativ",
+        "current": "Naléhal",
+        "new": "Pohnul",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pohnul"
+      },
+      {
+        "verbId": "verb-7",
+        "field": "infinitiv",
+        "current": "Ohyb",
+        "new": "Ohýbat",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ohýbat"
+      },
+      {
+        "verbId": "verb-7",
+        "field": "praesens",
+        "current": "Ukloní se",
+        "new": "Ohýbá",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ohýbá"
+      },
+      {
+        "verbId": "verb-7",
+        "field": "imperfektIndikativ",
+        "current": "Prohnul se",
+        "new": "Ohýbal",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ohýbal"
+      },
+      {
+        "verbId": "verb-7",
+        "field": "imperfektKonjunktiv",
+        "current": "Ohnul by se",
+        "new": "Ohýbal by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ohýbal by"
+      },
+      {
+        "verbId": "verb-8",
+        "field": "infinitiv",
+        "current": "Slíbit",
+        "new": "Nabízet",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nabízet"
+      },
+      {
+        "verbId": "verb-8",
+        "field": "praesens",
+        "current": "Slibuje",
+        "new": "Nabízí",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nabízí"
+      },
+      {
+        "verbId": "verb-8",
+        "field": "imperfektIndikativ",
+        "current": "Slíbil",
+        "new": "Nabízel",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nabízel"
+      },
+      {
+        "verbId": "verb-8",
+        "field": "imperfektKonjunktiv",
+        "current": "Slíbil by",
+        "new": "Nabízel by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nabízel by"
+      },
+      {
+        "verbId": "verb-8",
+        "field": "partizipVergangenheit",
+        "current": "Slíbil / nabídl",
+        "new": "Nabídnutý",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nabídnutý"
+      },
+      {
+        "verbId": "verb-9",
+        "field": "infinitiv",
+        "current": "Síto",
+        "new": "Vázat",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vázat"
+      },
+      {
+        "verbId": "verb-9",
+        "field": "praesens",
+        "current": "On seno",
+        "new": "Váže",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Váže"
+      },
+      {
+        "verbId": "verb-9",
+        "field": "imperfektIndikativ",
+        "current": "Zaséval",
+        "new": "Vázal",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vázal"
+      },
+      {
+        "verbId": "verb-9",
+        "field": "imperfektKonjunktiv",
+        "current": "Proséval",
+        "new": "Vázal by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vázal by"
+      },
+      {
+        "verbId": "verb-9",
+        "field": "partizipVergangenheit",
+        "current": "Síto",
+        "new": "Vázaný",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vázaný"
+      },
+      {
+        "verbId": "verb-10",
+        "field": "infinitiv",
+        "current": "Zeptat se",
+        "new": "Prosit",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Prosit"
+      },
+      {
+        "verbId": "verb-10",
+        "field": "imperfektIndikativ",
+        "current": "Zeptal se",
+        "new": "Prosil",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Prosil"
+      },
+      {
+        "verbId": "verb-10",
+        "field": "imperfektKonjunktiv",
+        "current": "Modlil by se",
+        "new": "Prosil by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Prosil by"
+      },
+      {
+        "verbId": "verb-10",
+        "field": "partizipVergangenheit",
+        "current": "Vyžádáno",
+        "new": "Prošený",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Prošený"
+      },
+      {
+        "verbId": "verb-11",
+        "field": "imperfektIndikativ",
+        "current": "Zafoukal",
+        "new": "Foukal",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Foukal"
+      },
+      {
+        "verbId": "verb-12",
+        "field": "imperfektIndikativ",
+        "current": "Fermentuje to",
+        "new": "Kvasilo to",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kvasilo to"
+      },
+      {
+        "verbId": "verb-12",
+        "field": "imperfektKonjunktiv",
+        "current": "Bylo by to hořké",
+        "new": "Kvasilo by to",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kvasilo by to"
+      },
+      {
+        "verbId": "verb-12",
+        "field": "partizipVergangenheit",
+        "current": "Žito",
+        "new": "Vykvašené",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vykvašené"
+      },
+      {
+        "verbId": "verb-13",
+        "field": "praesens",
+        "current": "V jejím lůně",
+        "new": "Rodí",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Rodí"
+      },
+      {
+        "verbId": "verb-13",
+        "field": "partizipVergangenheit",
+        "current": "Narodil se / narodil se",
+        "new": "Narozený",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Narozený"
+      },
+      {
+        "verbId": "verb-14",
+        "field": "imperfektIndikativ",
+        "current": "Fungovalo to",
+        "new": "Podařilo se to",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Podařilo se to"
+      },
+      {
+        "verbId": "verb-14",
+        "field": "imperfektKonjunktiv",
+        "current": "Šlo by to",
+        "new": "Podařilo by se to",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Podařilo by se to"
+      },
+      {
+        "verbId": "verb-14",
+        "field": "partizipVergangenheit",
+        "current": "Podařilo",
+        "new": "Podařilo se",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Podařilo se"
+      },
+      {
+        "verbId": "verb-15",
+        "field": "infinitiv",
+        "current": "Přijít vhod",
+        "new": "Platit",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Platit"
+      },
+      {
+        "verbId": "verb-15",
+        "field": "praesens",
+        "current": "Hodí se / je platný",
+        "new": "Platí",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Platí"
+      },
+      {
+        "verbId": "verb-15",
+        "field": "imperfektIndikativ",
+        "current": "Hodil / byl fit",
+        "new": "Platil",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Platil"
+      },
+      {
+        "verbId": "verb-15",
+        "field": "imperfektKonjunktiv",
+        "current": "Hodilo by se / hodilo by se",
+        "new": "Platil by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Platil by"
+      },
+      {
+        "verbId": "verb-15",
+        "field": "partizipVergangenheit",
+        "current": "Použito / bylo platné",
+        "new": "Platilo",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Platilo"
+      },
+      {
+        "verbId": "verb-16",
+        "field": "partizipVergangenheit",
+        "current": "Uzdrav se",
+        "new": "Uzdravený",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Uzdravený"
+      },
+      {
+        "verbId": "verb-18",
+        "field": "praesens",
+        "current": "Stane se to",
+        "new": "Děje se to",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Děje se to"
+      },
+      {
+        "verbId": "verb-18",
+        "field": "partizipVergangenheit",
+        "current": "Stalo",
+        "new": "Stalo se",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Stalo se"
+      },
+      {
+        "verbId": "verb-19",
+        "field": "infinitiv",
+        "current": "Poručík",
+        "new": "Lít",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Lít"
+      },
+      {
+        "verbId": "verb-19",
+        "field": "imperfektIndikativ",
+        "current": "Nalil",
+        "new": "Lil",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Lil"
+      },
+      {
+        "verbId": "verb-19",
+        "field": "imperfektKonjunktiv",
+        "current": "Prší",
+        "new": "Lil by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Lil by"
+      },
+      {
+        "verbId": "verb-19",
+        "field": "partizipVergangenheit",
+        "current": "Věc",
+        "new": "Litý",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Litý"
+      },
+      {
+        "verbId": "verb-20",
+        "field": "imperfektIndikativ",
+        "current": "Napodoboval",
+        "new": "Podobal se",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Podobal se"
+      },
+      {
+        "verbId": "verb-20",
+        "field": "imperfektKonjunktiv",
+        "current": "Napodoboval by",
+        "new": "Podobal by se",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Podobal by se"
+      },
+      {
+        "verbId": "verb-20",
+        "field": "partizipVergangenheit",
+        "current": "Podobal",
+        "new": "Podobný",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Podobný"
+      },
+      {
+        "verbId": "verb-21",
+        "field": "partizipVergangenheit",
+        "current": "Uklouzl",
+        "new": "Klouzal",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Klouzal"
+      },
+      {
+        "verbId": "verb-22",
+        "field": "infinitiv",
+        "current": "Řeřavý",
+        "new": "Žhnout",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Žhnout"
+      },
+      {
+        "verbId": "verb-22",
+        "field": "praesens",
+        "current": "Září",
+        "new": "Žhne",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Žhne"
+      },
+      {
+        "verbId": "verb-22",
+        "field": "imperfektIndikativ",
+        "current": "Zářil",
+        "new": "Žhnul",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Žhnul"
+      },
+      {
+        "verbId": "verb-22",
+        "field": "imperfektKonjunktiv",
+        "current": "Zářil by",
+        "new": "Žhnul by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Žhnul by"
+      },
+      {
+        "verbId": "verb-22",
+        "field": "partizipVergangenheit",
+        "current": "Řeřavý",
+        "new": "Žhnoucí",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Žhnoucí"
+      },
+      {
+        "verbId": "verb-23",
+        "field": "partizipVergangenheit",
+        "current": "Kopat",
+        "new": "Vykopaný",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vykopaný"
+      },
+      {
+        "verbId": "verb-24",
+        "field": "imperfektKonjunktiv",
+        "current": "Chytil by se",
+        "new": "Chytil by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Chytil by"
+      },
+      {
+        "verbId": "verb-24",
+        "field": "partizipVergangenheit",
+        "current": "Chytil / chytil",
+        "new": "Chycený",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Chycený"
+      },
+      {
+        "verbId": "verb-25",
+        "field": "infinitiv",
+        "current": "Řezat",
+        "new": "Sekat",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Sekat"
+      },
+      {
+        "verbId": "verb-25",
+        "field": "praesens",
+        "current": "Vybral",
+        "new": "Seká",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Seká"
+      },
+      {
+        "verbId": "verb-25",
+        "field": "imperfektIndikativ",
+        "current": "Vyštěkl",
+        "new": "Sekal",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Sekal"
+      },
+      {
+        "verbId": "verb-25",
+        "field": "imperfektKonjunktiv",
+        "current": "Vyřezal by",
+        "new": "Sekal by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Sekal by"
+      },
+      {
+        "verbId": "verb-25",
+        "field": "partizipVergangenheit",
+        "current": "Vyřezávané",
+        "new": "Sekaný",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Sekaný"
+      },
+      {
+        "verbId": "verb-26",
+        "field": "infinitiv",
+        "current": "Zvýšit",
+        "new": "Zvedat",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zvedat"
+      },
+      {
+        "verbId": "verb-26",
+        "field": "imperfektIndikativ",
+        "current": "Přinesl",
+        "new": "Zvedal",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zvedal"
+      },
+      {
+        "verbId": "verb-26",
+        "field": "imperfektKonjunktiv",
+        "current": "Postavil by",
+        "new": "Zvedal by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zvedal by"
+      },
+      {
+        "verbId": "verb-26",
+        "field": "partizipVergangenheit",
+        "current": "Postavený",
+        "new": "Zvednutý",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zvednutý"
+      },
+      {
+        "verbId": "verb-27",
+        "field": "infinitiv",
+        "current": "Vědět / vědět",
+        "new": "Znát",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Znát"
+      },
+      {
+        "verbId": "verb-27",
+        "field": "praesens",
+        "current": "Ví",
+        "new": "Zná",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zná"
+      },
+      {
+        "verbId": "verb-27",
+        "field": "imperfektIndikativ",
+        "current": "Věděl",
+        "new": "Znal",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Znal"
+      },
+      {
+        "verbId": "verb-27",
+        "field": "imperfektKonjunktiv",
+        "current": "Věděl",
+        "new": "Znal by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Znal by"
+      },
+      {
+        "verbId": "verb-27",
+        "field": "partizipVergangenheit",
+        "current": "Známost",
+        "new": "Známý",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Známý"
+      },
+      {
+        "verbId": "verb-28",
+        "field": "infinitiv",
+        "current": "Zaznít",
+        "new": "Znít",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Znít"
+      },
+      {
+        "verbId": "verb-29",
+        "field": "praesens",
+        "current": "Vtipkuje",
+        "new": "Štípe",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Štípe"
+      },
+      {
+        "verbId": "verb-29",
+        "field": "imperfektKonjunktiv",
+        "current": "Štípl by se",
+        "new": "Štípl by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Štípl by"
+      },
+      {
+        "verbId": "verb-29",
+        "field": "partizipVergangenheit",
+        "current": "Sevřený",
+        "new": "Štípnutý",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Štípnutý"
+      },
+      {
+        "verbId": "verb-30",
+        "field": "infinitiv",
+        "current": "Pobyt",
+        "new": "Zůstat",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zůstat"
+      },
+      {
+        "verbId": "verb-30",
+        "field": "partizipVergangenheit",
+        "current": "Vlevo",
+        "new": "Zůstal",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zůstal"
+      },
+      {
+        "verbId": "verb-31",
+        "field": "imperfektIndikativ",
+        "current": "Vybělené",
+        "new": "Vybledl",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vybledl"
+      },
+      {
+        "verbId": "verb-31",
+        "field": "imperfektKonjunktiv",
+        "current": "Vybělené",
+        "new": "Vybledl by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vybledl by"
+      },
+      {
+        "verbId": "verb-31",
+        "field": "partizipVergangenheit",
+        "current": "Vybělené",
+        "new": "Vybledlý",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vybledlý"
+      },
+      {
+        "verbId": "verb-32",
+        "field": "infinitiv",
+        "current": "Upéct",
+        "new": "Smažit",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Smažit"
+      },
+      {
+        "verbId": "verb-33",
+        "field": "infinitiv",
+        "current": "Zlomit se",
+        "new": "Lámat",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Lámat"
+      },
+      {
+        "verbId": "verb-33",
+        "field": "praesens",
+        "current": "Zlomí se",
+        "new": "Láme",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Láme"
+      },
+      {
+        "verbId": "verb-33",
+        "field": "imperfektIndikativ",
+        "current": "Zlomil se",
+        "new": "Lámal",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Lámal"
+      },
+      {
+        "verbId": "verb-33",
+        "field": "imperfektKonjunktiv",
+        "current": "Zlomil by se",
+        "new": "Lámal by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Lámal by"
+      },
+      {
+        "verbId": "verb-33",
+        "field": "partizipVergangenheit",
+        "current": "Zlomený / zlomený",
+        "new": "Zlomený",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zlomený"
+      },
+      {
+        "verbId": "verb-34",
+        "field": "infinitiv",
+        "current": "Spálit",
+        "new": "Hořet",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Hořet"
+      },
+      {
+        "verbId": "verb-34",
+        "field": "praesens",
+        "current": "Je v plamenech",
+        "new": "Hoří",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Hoří"
+      },
+      {
+        "verbId": "verb-34",
+        "field": "imperfektKonjunktiv",
+        "current": "Hořel",
+        "new": "Hořel by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Hořel by"
+      },
+      {
+        "verbId": "verb-35",
+        "field": "infinitiv",
+        "current": "Nést",
+        "new": "Přinést",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Přinést"
+      },
+      {
+        "verbId": "verb-35",
+        "field": "praesens",
+        "current": "On nese",
+        "new": "Přináší",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Přináší"
+      },
+      {
+        "verbId": "verb-35",
+        "field": "imperfektIndikativ",
+        "current": "Nesl",
+        "new": "Přinesl",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Přinesl"
+      },
+      {
+        "verbId": "verb-35",
+        "field": "imperfektKonjunktiv",
+        "current": "Nesl by",
+        "new": "Přinesl by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Přinesl by"
+      },
+      {
+        "verbId": "verb-35",
+        "field": "partizipVergangenheit",
+        "current": "Přinesl / přinesl",
+        "new": "Přinesený",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Přinesený"
+      },
+      {
+        "verbId": "verb-36",
+        "field": "partizipVergangenheit",
+        "current": "Zamýšlený",
+        "new": "Myšlený",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Myšlený"
+      },
+      {
+        "verbId": "verb-37",
+        "field": "imperfektKonjunktiv",
+        "current": "Najal",
+        "new": "Najal by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Najal by"
+      },
+      {
+        "verbId": "verb-37",
+        "field": "partizipVergangenheit",
+        "current": "Najal",
+        "new": "Najatý",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Najatý"
+      },
+      {
+        "verbId": "verb-38",
+        "field": "infinitiv",
+        "current": "Kult",
+        "new": "Mlátit",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mlátit"
+      },
+      {
+        "verbId": "verb-38",
+        "field": "imperfektKonjunktiv",
+        "current": "Uctíval by",
+        "new": "Mlátil by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mlátil by"
+      },
+      {
+        "verbId": "verb-38",
+        "field": "partizipVergangenheit",
+        "current": "Kult",
+        "new": "Vymlácený",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vymlácený"
+      },
+      {
+        "verbId": "verb-39",
+        "field": "praesens",
+        "current": "Vtrhne dovnitř",
+        "new": "Vniká",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vniká"
+      },
+      {
+        "verbId": "verb-39",
+        "field": "imperfektIndikativ",
+        "current": "Vloupal se dovnitř",
+        "new": "Vnikl",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vnikl"
+      },
+      {
+        "verbId": "verb-39",
+        "field": "imperfektKonjunktiv",
+        "current": "Vloupal by se dovnitř",
+        "new": "Vnikl by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vnikl by"
+      },
+      {
+        "verbId": "verb-39",
+        "field": "partizipVergangenheit",
+        "current": "Vnikl do",
+        "new": "Vnikl",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vnikl"
+      },
+      {
+        "verbId": "verb-40",
+        "field": "infinitiv",
+        "current": "Zdá se",
+        "new": "Zdát se",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zdát se"
+      },
+      {
+        "verbId": "verb-40",
+        "field": "imperfektKonjunktiv",
+        "current": "Zdálo se",
+        "new": "Zdálo by se",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zdálo by se"
+      },
+      {
+        "verbId": "verb-41",
+        "field": "praesens",
+        "current": "Může",
+        "new": "Smí",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Smí"
+      },
+      {
+        "verbId": "verb-41",
+        "field": "imperfektIndikativ",
+        "current": "Bylo povoleno",
+        "new": "Směl",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Směl"
+      },
+      {
+        "verbId": "verb-41",
+        "field": "imperfektKonjunktiv",
+        "current": "Bylo povoleno",
+        "new": "Směl by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Směl by"
+      },
+      {
+        "verbId": "verb-41",
+        "field": "partizipVergangenheit",
+        "current": "Povoleno",
+        "new": "Směl",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Směl"
+      },
+      {
+        "verbId": "verb-42",
+        "field": "praesens",
+        "current": "Navrhuje",
+        "new": "Doporučuje",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Doporučuje"
+      },
+      {
+        "verbId": "verb-42",
+        "field": "imperfektIndikativ",
+        "current": "Navrhl",
+        "new": "Doporučil",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Doporučil"
+      },
+      {
+        "verbId": "verb-42",
+        "field": "imperfektKonjunktiv",
+        "current": "By doporučil",
+        "new": "Doporučil by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Doporučil by"
+      },
+      {
+        "verbId": "verb-43",
+        "field": "imperfektKonjunktiv",
+        "current": "Cítil by se",
+        "new": "Cítil by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Cítil by"
+      },
+      {
+        "verbId": "verb-43",
+        "field": "partizipVergangenheit",
+        "current": "Plstěný",
+        "new": "Pociťovaný",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pociťovaný"
+      },
+      {
+        "verbId": "verb-44",
+        "field": "infinitiv",
+        "current": "Zhasne",
+        "new": "Zhasnout",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zhasnout"
+      },
+      {
+        "verbId": "verb-44",
+        "field": "praesens",
+        "current": "Jde ven",
+        "new": "Zhasíná",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zhasíná"
+      },
+      {
+        "verbId": "verb-44",
+        "field": "imperfektIndikativ",
+        "current": "Vyšel ven",
+        "new": "Zhasl",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zhasl"
+      },
+      {
+        "verbId": "verb-44",
+        "field": "imperfektKonjunktiv",
+        "current": "Zmizel by",
+        "new": "Zhasl by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zhasl by"
+      },
+      {
+        "verbId": "verb-45",
+        "field": "infinitiv",
+        "current": "Zmást",
+        "new": "Leknout se",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Leknout se"
+      },
+      {
+        "verbId": "verb-45",
+        "field": "imperfektKonjunktiv",
+        "current": "Zbláznil by se",
+        "new": "Leknul by se",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Leknul by se"
+      },
+      {
+        "verbId": "verb-46",
+        "field": "partizipVergangenheit",
+        "current": "Sněden / sněden",
+        "new": "Snědený",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Snědený"
+      },
+      {
+        "verbId": "verb-47",
+        "field": "infinitiv",
+        "current": "Řídit",
+        "new": "Jet",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jet"
+      },
+      {
+        "verbId": "verb-47",
+        "field": "praesens",
+        "current": "On řídí",
+        "new": "Jede",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jede"
+      },
+      {
+        "verbId": "verb-47",
+        "field": "imperfektIndikativ",
+        "current": "Řídil",
+        "new": "Jel",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jel"
+      },
+      {
+        "verbId": "verb-47",
+        "field": "imperfektKonjunktiv",
+        "current": "Řídil by",
+        "new": "Jel by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jel by"
+      },
+      {
+        "verbId": "verb-47",
+        "field": "partizipVergangenheit",
+        "current": "Jel / odešel",
+        "new": "Jel / odjel",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jel / odjel"
+      },
+      {
+        "verbId": "verb-49",
+        "field": "imperfektKonjunktiv",
+        "current": "Chytil by se",
+        "new": "Chytil by",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Chytil by"
+      },
+      {
+        "verbId": "verb-49",
+        "field": "partizipVergangenheit",
+        "current": "Chycený / chycený",
+        "new": "Chycený",
+        "sourceFile": "cs-slovesa-repair-group01-verbs-001-050.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Chycený"
+      },
+      {
+        "verbId": "verb-53",
+        "field": "praesens",
+        "current": "Běží",
+        "new": "Teče",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Teče"
+      },
+      {
+        "verbId": "verb-53",
+        "field": "imperfektIndikativ",
+        "current": "Běžel",
+        "new": "Tekl",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Tekl"
+      },
+      {
+        "verbId": "verb-53",
+        "field": "imperfektKonjunktiv",
+        "current": "Běžel by",
+        "new": "Tekl by",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Tekl by"
+      },
+      {
+        "verbId": "verb-53",
+        "field": "partizipVergangenheit",
+        "current": "Prošel",
+        "new": "Tekl",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Tekl"
+      },
+      {
+        "verbId": "verb-54",
+        "field": "infinitiv",
+        "current": "Jíst zítra",
+        "new": "Žrát",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Žrát"
+      },
+      {
+        "verbId": "verb-54",
+        "field": "praesens",
+        "current": "Jí / polyká",
+        "new": "Žere",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Žere"
+      },
+      {
+        "verbId": "verb-54",
+        "field": "imperfektIndikativ",
+        "current": "Snědl / spolkl",
+        "new": "Žral",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Žral"
+      },
+      {
+        "verbId": "verb-54",
+        "field": "imperfektKonjunktiv",
+        "current": "Jedl/snídal",
+        "new": "Žral by",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Žral by"
+      },
+      {
+        "verbId": "verb-54",
+        "field": "partizipVergangenheit",
+        "current": "Sněden/ráno",
+        "new": "Sežraný",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Sežraný"
+      },
+      {
+        "verbId": "verb-55",
+        "field": "infinitiv",
+        "current": "Studený",
+        "new": "Mrznout",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mrznout"
+      },
+      {
+        "verbId": "verb-55",
+        "field": "imperfektIndikativ",
+        "current": "On ostrov",
+        "new": "Mrzl",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mrzl"
+      },
+      {
+        "verbId": "verb-55",
+        "field": "imperfektKonjunktiv",
+        "current": "Mrzl",
+        "new": "Mrzl by",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mrzl by"
+      },
+      {
+        "verbId": "verb-55",
+        "field": "partizipVergangenheit",
+        "current": "Ostrov",
+        "new": "Zmrzlý",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zmrzlý"
+      },
+      {
+        "verbId": "verb-57",
+        "field": "infinitiv",
+        "current": "Uspět",
+        "new": "Prospívat",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Prospívat"
+      },
+      {
+        "verbId": "verb-57",
+        "field": "praesens",
+        "current": "Daří se mu to",
+        "new": "Prospívá",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Prospívá"
+      },
+      {
+        "verbId": "verb-57",
+        "field": "imperfektIndikativ",
+        "current": "Se mu to povedlo",
+        "new": "Prospíval",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Prospíval"
+      },
+      {
+        "verbId": "verb-57",
+        "field": "imperfektKonjunktiv",
+        "current": "Uspěl by",
+        "new": "Prospíval by",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Prospíval by"
+      },
+      {
+        "verbId": "verb-57",
+        "field": "partizipVergangenheit",
+        "current": "Podařilo",
+        "new": "Prospíval",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Prospíval"
+      },
+      {
+        "verbId": "verb-58",
+        "field": "imperfektIndikativ",
+        "current": "Chodil",
+        "new": "Šel",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Šel"
+      },
+      {
+        "verbId": "verb-60",
+        "field": "infinitiv",
+        "current": "Být / patřit",
+        "new": "Mít",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mít"
+      },
+      {
+        "verbId": "verb-60",
+        "field": "imperfektIndikativ",
+        "current": "Byl",
+        "new": "Měl",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Měl"
+      },
+      {
+        "verbId": "verb-60",
+        "field": "imperfektKonjunktiv",
+        "current": "Byl",
+        "new": "Měl by",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Měl by"
+      },
+      {
+        "verbId": "verb-60",
+        "field": "partizipVergangenheit",
+        "current": "Byl",
+        "new": "Měl",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Měl"
+      },
+      {
+        "verbId": "verb-61",
+        "field": "praesens",
+        "current": "On tam",
+        "new": "Drží",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Drží"
+      },
+      {
+        "verbId": "verb-61",
+        "field": "imperfektKonjunktiv",
+        "current": "Držel by se",
+        "new": "Držel by",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Držel by"
+      },
+      {
+        "verbId": "verb-62",
+        "field": "infinitiv",
+        "current": "Zavolat",
+        "new": "Jmenovat se",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jmenovat se"
+      },
+      {
+        "verbId": "verb-62",
+        "field": "praesens",
+        "current": "Volá / je volán",
+        "new": "Jmenuje se",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jmenuje se"
+      },
+      {
+        "verbId": "verb-62",
+        "field": "imperfektIndikativ",
+        "current": "Volal / byl volán",
+        "new": "Jmenoval se",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jmenoval se"
+      },
+      {
+        "verbId": "verb-62",
+        "field": "imperfektKonjunktiv",
+        "current": "Zavolal by / byl by povolán",
+        "new": "Jmenoval by se",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jmenoval by se"
+      },
+      {
+        "verbId": "verb-62",
+        "field": "partizipVergangenheit",
+        "current": "Volal",
+        "new": "Jmenoval se",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jmenoval se"
+      },
+      {
+        "verbId": "verb-65",
+        "field": "imperfektKonjunktiv",
+        "current": "Mohl",
+        "new": "Mohl by",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mohl by"
+      },
+      {
+        "verbId": "verb-66",
+        "field": "infinitiv",
+        "current": "Prší",
+        "new": "Lézt",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Lézt"
+      },
+      {
+        "verbId": "verb-66",
+        "field": "praesens",
+        "current": "Nakloní se",
+        "new": "Leze",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Leze"
+      },
+      {
+        "verbId": "verb-66",
+        "field": "imperfektIndikativ",
+        "current": "Pršelo",
+        "new": "Lezl",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Lezl"
+      },
+      {
+        "verbId": "verb-66",
+        "field": "imperfektKonjunktiv",
+        "current": "On prší",
+        "new": "Lezl by",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Lezl by"
+      },
+      {
+        "verbId": "verb-66",
+        "field": "partizipVergangenheit",
+        "current": "Zemřel",
+        "new": "Lezl",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Lezl"
+      },
+      {
+        "verbId": "verb-67",
+        "field": "infinitiv",
+        "current": "Načíst, pozvat",
+        "new": "Nakládat / zvát",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nakládat / zvát"
+      },
+      {
+        "verbId": "verb-67",
+        "field": "praesens",
+        "current": "Hromadí / zve",
+        "new": "Nakládá / zve",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nakládá / zve"
+      },
+      {
+        "verbId": "verb-67",
+        "field": "imperfektKonjunktiv",
+        "current": "By naložil / pozval",
+        "new": "Naložil by / pozval by",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Naložil by / pozval by"
+      },
+      {
+        "verbId": "verb-67",
+        "field": "partizipVergangenheit",
+        "current": "Načteno / pozváno",
+        "new": "Naložený / pozvaný",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Naložený / pozvaný"
+      },
+      {
+        "verbId": "verb-68",
+        "field": "infinitiv",
+        "current": "Dát, nechat",
+        "new": "Nechat",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nechat"
+      },
+      {
+        "verbId": "verb-68",
+        "field": "praesens",
+        "current": "Položí / nechá",
+        "new": "Nechá / dovolí",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nechá / dovolí"
+      },
+      {
+        "verbId": "verb-68",
+        "field": "imperfektIndikativ",
+        "current": "Nařídil / dovolil",
+        "new": "Nechal / dovolil",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nechal / dovolil"
+      },
+      {
+        "verbId": "verb-68",
+        "field": "imperfektKonjunktiv",
+        "current": "Dal by / nechal",
+        "new": "Nechal by / dovolil by",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nechal by / dovolil by"
+      },
+      {
+        "verbId": "verb-68",
+        "field": "partizipVergangenheit",
+        "current": "Dát / povoleno",
+        "new": "Nechaný / dovolený",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nechaný / dovolený"
+      },
+      {
+        "verbId": "verb-71",
+        "field": "praesens",
+        "current": "Půjčuje / půjčuje",
+        "new": "Půjčuje / vypůjčuje si",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Půjčuje / vypůjčuje si"
+      },
+      {
+        "verbId": "verb-71",
+        "field": "imperfektIndikativ",
+        "current": "Půjčil / vypůjčil",
+        "new": "Půjčil / vypůjčil si",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Půjčil / vypůjčil si"
+      },
+      {
+        "verbId": "verb-71",
+        "field": "imperfektKonjunktiv",
+        "current": "By půjčil / půjčil",
+        "new": "Půjčil by / vypůjčil by si",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Půjčil by / vypůjčil by si"
+      },
+      {
+        "verbId": "verb-71",
+        "field": "partizipVergangenheit",
+        "current": "Půjčil / vypůjčil",
+        "new": "Půjčený / vypůjčený",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Půjčený / vypůjčený"
+      },
+      {
+        "verbId": "verb-72",
+        "field": "partizipVergangenheit",
+        "current": "Číst",
+        "new": "Čtený",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Čtený"
+      },
+      {
+        "verbId": "verb-73",
+        "field": "infinitiv",
+        "current": "Spát",
+        "new": "Ležet",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ležet"
+      },
+      {
+        "verbId": "verb-73",
+        "field": "praesens",
+        "current": "On spí",
+        "new": "Leží",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Leží"
+      },
+      {
+        "verbId": "verb-73",
+        "field": "imperfektIndikativ",
+        "current": "Spal",
+        "new": "Ležel",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ležel"
+      },
+      {
+        "verbId": "verb-73",
+        "field": "imperfektKonjunktiv",
+        "current": "Spal by",
+        "new": "Ležel by",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ležel by"
+      },
+      {
+        "verbId": "verb-73",
+        "field": "partizipVergangenheit",
+        "current": "Spal",
+        "new": "Ležel",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ležel"
+      },
+      {
+        "verbId": "verb-75",
+        "field": "infinitiv",
+        "current": "Země",
+        "new": "Mlít",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mlít"
+      },
+      {
+        "verbId": "verb-75",
+        "field": "imperfektIndikativ",
+        "current": "On okraj",
+        "new": "Mlel",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mlel"
+      },
+      {
+        "verbId": "verb-75",
+        "field": "imperfektKonjunktiv",
+        "current": "Mele",
+        "new": "Mlel by",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mlel by"
+      },
+      {
+        "verbId": "verb-75",
+        "field": "partizipVergangenheit",
+        "current": "Země",
+        "new": "Mletý",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mletý"
+      },
+      {
+        "verbId": "verb-76",
+        "field": "imperfektKonjunktiv",
+        "current": "Vyhnul by se",
+        "new": "Vyhýbal by se",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vyhýbal by se"
+      },
+      {
+        "verbId": "verb-76",
+        "field": "partizipVergangenheit",
+        "current": "Vyhnout",
+        "new": "Vyhýbaný",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vyhýbaný"
+      },
+      {
+        "verbId": "verb-77",
+        "field": "infinitiv",
+        "current": "Na mléko",
+        "new": "Dojit",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Dojit"
+      },
+      {
+        "verbId": "verb-77",
+        "field": "praesens",
+        "current": "Zametá",
+        "new": "Dojí",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Dojí"
+      },
+      {
+        "verbId": "verb-77",
+        "field": "imperfektIndikativ",
+        "current": "Zametl",
+        "new": "Dojil",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Dojil"
+      },
+      {
+        "verbId": "verb-79",
+        "field": "imperfektIndikativ",
+        "current": "Nepodařilo",
+        "new": "Nepodařilo se",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nepodařilo se"
+      },
+      {
+        "verbId": "verb-79",
+        "field": "imperfektKonjunktiv",
+        "current": "Nepodařilo",
+        "new": "Nepodařilo by se",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nepodařilo by se"
+      },
+      {
+        "verbId": "verb-79",
+        "field": "partizipVergangenheit",
+        "current": "Nepodařilo",
+        "new": "Nezdařený",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nezdařený"
+      },
+      {
+        "verbId": "verb-80",
+        "field": "imperfektIndikativ",
+        "current": "Se to líbilo",
+        "new": "Měl rád",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Měl rád"
+      },
+      {
+        "verbId": "verb-80",
+        "field": "imperfektKonjunktiv",
+        "current": "Se to líbilo",
+        "new": "Měl by rád",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Měl by rád"
+      },
+      {
+        "verbId": "verb-80",
+        "field": "partizipVergangenheit",
+        "current": "Líbilo",
+        "new": "Měl rád",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Měl rád"
+      },
+      {
+        "verbId": "verb-81",
+        "field": "infinitiv",
+        "current": "Potřebovat",
+        "new": "Muset",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Muset"
+      },
+      {
+        "verbId": "verb-81",
+        "field": "praesens",
+        "current": "Potřebuje",
+        "new": "Musí",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Musí"
+      },
+      {
+        "verbId": "verb-81",
+        "field": "imperfektIndikativ",
+        "current": "By měl mít",
+        "new": "Musel",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Musel"
+      },
+      {
+        "verbId": "verb-81",
+        "field": "imperfektKonjunktiv",
+        "current": "By měl mít",
+        "new": "Musel by",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Musel by"
+      },
+      {
+        "verbId": "verb-81",
+        "field": "partizipVergangenheit",
+        "current": "Potřebná",
+        "new": "Musel",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Musel"
+      },
+      {
+        "verbId": "verb-82",
+        "field": "partizipVergangenheit",
+        "current": "Přijato",
+        "new": "Vzato",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vzato"
+      },
+      {
+        "verbId": "verb-83",
+        "field": "praesens",
+        "current": "Jmenoval",
+        "new": "Jmenuje",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jmenuje"
+      },
+      {
+        "verbId": "verb-83",
+        "field": "imperfektIndikativ",
+        "current": "Zavolal",
+        "new": "Jmenoval",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jmenoval"
+      },
+      {
+        "verbId": "verb-83",
+        "field": "partizipVergangenheit",
+        "current": "Jmenoval",
+        "new": "Jmenovaný",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Jmenovaný"
+      },
+      {
+        "verbId": "verb-85",
+        "field": "imperfektIndikativ",
+        "current": "Soubor",
+        "new": "Pečoval",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pečoval"
+      },
+      {
+        "verbId": "verb-85",
+        "field": "imperfektKonjunktiv",
+        "current": "Soubor",
+        "new": "Pečoval by",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pečoval by"
+      },
+      {
+        "verbId": "verb-86",
+        "field": "infinitiv",
+        "current": "Chvála",
+        "new": "Chválit",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Chválit"
+      },
+      {
+        "verbId": "verb-86",
+        "field": "partizipVergangenheit",
+        "current": "Chválil",
+        "new": "Chválený",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Chválený"
+      },
+      {
+        "verbId": "verb-87",
+        "field": "infinitiv",
+        "current": "Nakypřít se",
+        "new": "Bobtnat",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Bobtnat"
+      },
+      {
+        "verbId": "verb-87",
+        "field": "praesens",
+        "current": "Tloustne",
+        "new": "Bobtná",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Bobtná"
+      },
+      {
+        "verbId": "verb-87",
+        "field": "imperfektIndikativ",
+        "current": "Vyzrál",
+        "new": "Bobtnal",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Bobtnal"
+      },
+      {
+        "verbId": "verb-87",
+        "field": "imperfektKonjunktiv",
+        "current": "Je tlustý",
+        "new": "Bobtnal by",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Bobtnal by"
+      },
+      {
+        "verbId": "verb-87",
+        "field": "partizipVergangenheit",
+        "current": "Oteklý",
+        "new": "Nabobtnalý",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Nabobtnalý"
+      },
+      {
+        "verbId": "verb-88",
+        "field": "infinitiv",
+        "current": "Navrhnout / zmínit",
+        "new": "Radit / hádat",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Radit / hádat"
+      },
+      {
+        "verbId": "verb-88",
+        "field": "praesens",
+        "current": "On doporučuje / min",
+        "new": "Radí / hádá",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Radí / hádá"
+      },
+      {
+        "verbId": "verb-88",
+        "field": "imperfektIndikativ",
+        "current": "Navrhl / navrhl",
+        "new": "Radil / hádal",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Radil / hádal"
+      },
+      {
+        "verbId": "verb-88",
+        "field": "imperfektKonjunktiv",
+        "current": "By navrhl / zmínil",
+        "new": "Radil by / hádal by",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Radil by / hádal by"
+      },
+      {
+        "verbId": "verb-88",
+        "field": "partizipVergangenheit",
+        "current": "Navrhl / zmínil",
+        "new": "Razený / hádaný",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Razený / hádaný"
+      },
+      {
+        "verbId": "verb-89",
+        "field": "praesens",
+        "current": "Tře se",
+        "new": "Tře",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Tře"
+      },
+      {
+        "verbId": "verb-89",
+        "field": "imperfektIndikativ",
+        "current": "Tře se",
+        "new": "Třel",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Třel"
+      },
+      {
+        "verbId": "verb-90",
+        "field": "infinitiv",
+        "current": "SEM",
+        "new": "Trhat",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Trhat"
+      },
+      {
+        "verbId": "verb-90",
+        "field": "praesens",
+        "current": "Vyštěkne",
+        "new": "Trhá",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Trhá"
+      },
+      {
+        "verbId": "verb-90",
+        "field": "imperfektIndikativ",
+        "current": "Vyštěkl",
+        "new": "Trhal",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Trhal"
+      },
+      {
+        "verbId": "verb-90",
+        "field": "imperfektKonjunktiv",
+        "current": "Vyštěkl",
+        "new": "Trhal by",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Trhal by"
+      },
+      {
+        "verbId": "verb-93",
+        "field": "infinitiv",
+        "current": "Ost",
+        "new": "Čichat",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Čichat"
+      },
+      {
+        "verbId": "verb-93",
+        "field": "imperfektIndikativ",
+        "current": "On zpívá",
+        "new": "Čichal",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Čichal"
+      },
+      {
+        "verbId": "verb-93",
+        "field": "imperfektKonjunktiv",
+        "current": "On port",
+        "new": "Čichal by",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Čichal by"
+      },
+      {
+        "verbId": "verb-93",
+        "field": "partizipVergangenheit",
+        "current": "Přístav",
+        "new": "Čichal",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Čichal"
+      },
+      {
+        "verbId": "verb-94",
+        "field": "infinitiv",
+        "current": "Zlomit se",
+        "new": "Zápasit",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zápasit"
+      },
+      {
+        "verbId": "verb-94",
+        "field": "praesens",
+        "current": "Zlomí se",
+        "new": "Zápasí",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zápasí"
+      },
+      {
+        "verbId": "verb-94",
+        "field": "imperfektIndikativ",
+        "current": "Rozbil se",
+        "new": "Zápasil",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zápasil"
+      },
+      {
+        "verbId": "verb-94",
+        "field": "imperfektKonjunktiv",
+        "current": "Zlomil by se",
+        "new": "Zápasil by",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zápasil by"
+      },
+      {
+        "verbId": "verb-94",
+        "field": "partizipVergangenheit",
+        "current": "Počkejte",
+        "new": "Zápasil",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zápasil"
+      },
+      {
+        "verbId": "verb-95",
+        "field": "praesens",
+        "current": "Běží",
+        "new": "Teče",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Teče"
+      },
+      {
+        "verbId": "verb-95",
+        "field": "imperfektIndikativ",
+        "current": "Běžel",
+        "new": "Tekl",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Tekl"
+      },
+      {
+        "verbId": "verb-95",
+        "field": "imperfektKonjunktiv",
+        "current": "Běžel by",
+        "new": "Tekl by",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Tekl by"
+      },
+      {
+        "verbId": "verb-95",
+        "field": "partizipVergangenheit",
+        "current": "Tekla / koagulovala",
+        "new": "Tekl / srazil se",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Tekl / srazil se"
+      },
+      {
+        "verbId": "verb-97",
+        "field": "infinitiv",
+        "current": "Dosolit",
+        "new": "Solit",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Solit"
+      },
+      {
+        "verbId": "verb-97",
+        "field": "praesens",
+        "current": "Osolil",
+        "new": "Solí",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Solí"
+      },
+      {
+        "verbId": "verb-98",
+        "field": "infinitiv",
+        "current": "Usušit / vypít",
+        "new": "Chlastat / pít",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Chlastat / pít"
+      },
+      {
+        "verbId": "verb-98",
+        "field": "praesens",
+        "current": "Pije / pije",
+        "new": "Chlastá / pije",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Chlastá / pije"
+      },
+      {
+        "verbId": "verb-98",
+        "field": "imperfektIndikativ",
+        "current": "Pil / pil",
+        "new": "Chlastal / pil",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Chlastal / pil"
+      },
+      {
+        "verbId": "verb-98",
+        "field": "imperfektKonjunktiv",
+        "current": "By pil / pil",
+        "new": "Chlastal by / pil by",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Chlastal by / pil by"
+      },
+      {
+        "verbId": "verb-98",
+        "field": "partizipVergangenheit",
+        "current": "Opilý",
+        "new": "Chlastal / pil",
+        "sourceFile": "cs-slovesa-repair-group02-verbs-051-100.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Chlastal / pil"
+      },
+      {
+        "verbId": "verb-100",
+        "field": "partizipVergangenheit",
+        "current": "Vytvořené",
+        "new": "Vytvořený",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vytvořený"
+      },
+      {
+        "verbId": "verb-101",
+        "field": "imperfektKonjunktiv",
+        "current": "Zaznělo",
+        "new": "Zaznělo by",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zaznělo by"
+      },
+      {
+        "verbId": "verb-101",
+        "field": "partizipVergangenheit",
+        "current": "Zaznělo",
+        "new": "Zazněl",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zazněl"
+      },
+      {
+        "verbId": "verb-102",
+        "field": "infinitiv",
+        "current": "Rozvod / rozchod",
+        "new": "Rozdělit / rozvést se",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Rozdělit / rozvést se"
+      },
+      {
+        "verbId": "verb-102",
+        "field": "praesens",
+        "current": "On se rozvádí / rozvádí",
+        "new": "Rozvádí se / rozděluje",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Rozvádí se / rozděluje"
+      },
+      {
+        "verbId": "verb-102",
+        "field": "imperfektIndikativ",
+        "current": "Se rozvedl / rozvedl",
+        "new": "Rozvedl se / rozdělil",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Rozvedl se / rozdělil"
+      },
+      {
+        "verbId": "verb-102",
+        "field": "imperfektKonjunktiv",
+        "current": "Rozvedl by se / rozvedl",
+        "new": "Rozvedl by se / rozdělil by",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Rozvedl by se / rozdělil by"
+      },
+      {
+        "verbId": "verb-103",
+        "field": "infinitiv",
+        "current": "Svítit / objevit se",
+        "new": "Svítit / zdát se",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Svítit / zdát se"
+      },
+      {
+        "verbId": "verb-103",
+        "field": "imperfektKonjunktiv",
+        "current": "Leskl by se / zdál se",
+        "new": "Svítit by / zdál by se",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Svítit by / zdál by se"
+      },
+      {
+        "verbId": "verb-104",
+        "field": "infinitiv",
+        "current": "Bart",
+        "new": "Kárat / vynadat",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kárat / vynadat"
+      },
+      {
+        "verbId": "verb-104",
+        "field": "imperfektIndikativ",
+        "current": "Zatarasil",
+        "new": "Vynadal",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vynadal"
+      },
+      {
+        "verbId": "verb-104",
+        "field": "imperfektKonjunktiv",
+        "current": "Oholí se",
+        "new": "Vynadal by / káral by",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vynadal by / káral by"
+      },
+      {
+        "verbId": "verb-104",
+        "field": "partizipVergangenheit",
+        "current": "Vousy",
+        "new": "Káraný",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Káraný"
+      },
+      {
+        "verbId": "verb-105",
+        "field": "infinitiv",
+        "current": "Řezat",
+        "new": "Stříhat / holit",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Stříhat / holit"
+      },
+      {
+        "verbId": "verb-105",
+        "field": "praesens",
+        "current": "On řeže",
+        "new": "Stříhá",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Stříhá"
+      },
+      {
+        "verbId": "verb-105",
+        "field": "imperfektIndikativ",
+        "current": "Nůžky",
+        "new": "Stříhal",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Stříhal"
+      },
+      {
+        "verbId": "verb-105",
+        "field": "imperfektKonjunktiv",
+        "current": "Nůžky",
+        "new": "Stříhal by",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Stříhal by"
+      },
+      {
+        "verbId": "verb-105",
+        "field": "partizipVergangenheit",
+        "current": "Oříznuté",
+        "new": "Ostříhaný",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ostříhaný"
+      },
+      {
+        "verbId": "verb-106",
+        "field": "partizipVergangenheit",
+        "current": "Tlačil",
+        "new": "Tlačený",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Tlačený"
+      },
+      {
+        "verbId": "verb-107",
+        "field": "partizipVergangenheit",
+        "current": "Shot",
+        "new": "Zastřelený",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zastřelený"
+      },
+      {
+        "verbId": "verb-108",
+        "field": "infinitiv",
+        "current": "Trápení",
+        "new": "Mučit / trápit",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mučit / trápit"
+      },
+      {
+        "verbId": "verb-108",
+        "field": "imperfektIndikativ",
+        "current": "Utrápený",
+        "new": "Mučil",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mučil"
+      },
+      {
+        "verbId": "verb-108",
+        "field": "imperfektKonjunktiv",
+        "current": "Utrápený",
+        "new": "Mučil by",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mučil by"
+      },
+      {
+        "verbId": "verb-110",
+        "field": "infinitiv",
+        "current": "Hit",
+        "new": "Bít / udeřit",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Bít / udeřit"
+      },
+      {
+        "verbId": "verb-110",
+        "field": "praesens",
+        "current": "Zasáhne",
+        "new": "Bije",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Bije"
+      },
+      {
+        "verbId": "verb-110",
+        "field": "imperfektIndikativ",
+        "current": "Trefil se",
+        "new": "Udeřil",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Udeřil"
+      },
+      {
+        "verbId": "verb-110",
+        "field": "imperfektKonjunktiv",
+        "current": "Trefil by se",
+        "new": "Udeřil by",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Udeřil by"
+      },
+      {
+        "verbId": "verb-111",
+        "field": "infinitiv",
+        "current": "Prší",
+        "new": "Plížit se",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Plížit se"
+      },
+      {
+        "verbId": "verb-111",
+        "field": "praesens",
+        "current": "Nakloní se",
+        "new": "Plíží se",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Plíží se"
+      },
+      {
+        "verbId": "verb-111",
+        "field": "imperfektIndikativ",
+        "current": "Pršelo",
+        "new": "Plížil se",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Plížil se"
+      },
+      {
+        "verbId": "verb-111",
+        "field": "imperfektKonjunktiv",
+        "current": "On prší",
+        "new": "Plížil by se",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Plížil by se"
+      },
+      {
+        "verbId": "verb-111",
+        "field": "partizipVergangenheit",
+        "current": "Zemřel",
+        "new": "Plížil se",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Plížil se"
+      },
+      {
+        "verbId": "verb-112",
+        "field": "praesens",
+        "current": "Mele",
+        "new": "Brousí",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Brousí"
+      },
+      {
+        "verbId": "verb-112",
+        "field": "imperfektIndikativ",
+        "current": "Mlel",
+        "new": "Brousil",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Brousil"
+      },
+      {
+        "verbId": "verb-112",
+        "field": "imperfektKonjunktiv",
+        "current": "Mlel by",
+        "new": "Brousil by",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Brousil by"
+      },
+      {
+        "verbId": "verb-112",
+        "field": "partizipVergangenheit",
+        "current": "Leštěný",
+        "new": "Broušený",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Broušený"
+      },
+      {
+        "verbId": "verb-113",
+        "field": "imperfektKonjunktiv",
+        "current": "Zavřel by se",
+        "new": "Zavřel by",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zavřel by"
+      },
+      {
+        "verbId": "verb-113",
+        "field": "partizipVergangenheit",
+        "current": "ZAVŘENO",
+        "new": "Zavřený",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zavřený"
+      },
+      {
+        "verbId": "verb-114",
+        "field": "infinitiv",
+        "current": "Zítra",
+        "new": "Hltat",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Hltat"
+      },
+      {
+        "verbId": "verb-114",
+        "field": "praesens",
+        "current": "Polyká",
+        "new": "Hltá",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Hltá"
+      },
+      {
+        "verbId": "verb-114",
+        "field": "imperfektIndikativ",
+        "current": "Polkl",
+        "new": "Hltal",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Hltal"
+      },
+      {
+        "verbId": "verb-114",
+        "field": "imperfektKonjunktiv",
+        "current": "On ráno",
+        "new": "Hltal by",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Hltal by"
+      },
+      {
+        "verbId": "verb-114",
+        "field": "partizipVergangenheit",
+        "current": "Ráno",
+        "new": "Hltal",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Hltal"
+      },
+      {
+        "verbId": "verb-115",
+        "field": "infinitiv",
+        "current": "Hod",
+        "new": "Hodit",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Hodit"
+      },
+      {
+        "verbId": "verb-115",
+        "field": "imperfektKonjunktiv",
+        "current": "Hodil",
+        "new": "Hodil by",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Hodil by"
+      },
+      {
+        "verbId": "verb-116",
+        "field": "infinitiv",
+        "current": "Pohybující se",
+        "new": "Tát",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Tát"
+      },
+      {
+        "verbId": "verb-116",
+        "field": "praesens",
+        "current": "Roztaje se",
+        "new": "Taje",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Taje"
+      },
+      {
+        "verbId": "verb-116",
+        "field": "imperfektIndikativ",
+        "current": "Zasténal",
+        "new": "Tál",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Tál"
+      },
+      {
+        "verbId": "verb-116",
+        "field": "imperfektKonjunktiv",
+        "current": "Pohyboval se",
+        "new": "Tál by",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Tál by"
+      },
+      {
+        "verbId": "verb-117",
+        "field": "infinitiv",
+        "current": "Zasyčet",
+        "new": "Funět / odfrkávat",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Funět / odfrkávat"
+      },
+      {
+        "verbId": "verb-117",
+        "field": "praesens",
+        "current": "Odfrkne si",
+        "new": "Odfrkuje si",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Odfrkuje si"
+      },
+      {
+        "verbId": "verb-117",
+        "field": "imperfektKonjunktiv",
+        "current": "Odfrkl si",
+        "new": "Odfrkl by si",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Odfrkl by si"
+      },
+      {
+        "verbId": "verb-117",
+        "field": "partizipVergangenheit",
+        "current": "Šňupat",
+        "new": "Odfrkl si",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Odfrkl si"
+      },
+      {
+        "verbId": "verb-118",
+        "field": "praesens",
+        "current": "Točí se",
+        "new": "Řeže",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Řeže"
+      },
+      {
+        "verbId": "verb-118",
+        "field": "partizipVergangenheit",
+        "current": "Střih",
+        "new": "Řezaný",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Řezaný"
+      },
+      {
+        "verbId": "verb-121",
+        "field": "infinitiv",
+        "current": "Chůze",
+        "new": "Kráčet",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kráčet"
+      },
+      {
+        "verbId": "verb-121",
+        "field": "praesens",
+        "current": "On chodí",
+        "new": "Kráčí",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kráčí"
+      },
+      {
+        "verbId": "verb-121",
+        "field": "imperfektIndikativ",
+        "current": "Chodil",
+        "new": "Kráčel",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kráčel"
+      },
+      {
+        "verbId": "verb-121",
+        "field": "imperfektKonjunktiv",
+        "current": "Chodil by",
+        "new": "Kráčel by",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kráčel by"
+      },
+      {
+        "verbId": "verb-121",
+        "field": "partizipVergangenheit",
+        "current": "Chodil",
+        "new": "Kráčel",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kráčel"
+      },
+      {
+        "verbId": "verb-122",
+        "field": "partizipVergangenheit",
+        "current": "Umlčen",
+        "new": "Mlčel",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mlčel"
+      },
+      {
+        "verbId": "verb-123",
+        "field": "infinitiv",
+        "current": "Pamp",
+        "new": "Otékat / puchnout",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Otékat / puchnout"
+      },
+      {
+        "verbId": "verb-123",
+        "field": "praesens",
+        "current": "Našpulí se",
+        "new": "Otéká",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Otéká"
+      },
+      {
+        "verbId": "verb-123",
+        "field": "imperfektIndikativ",
+        "current": "On pampa",
+        "new": "Otekl",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Otekl"
+      },
+      {
+        "verbId": "verb-123",
+        "field": "imperfektKonjunktiv",
+        "current": "Pumpoval by",
+        "new": "Otekl by",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Otekl by"
+      },
+      {
+        "verbId": "verb-123",
+        "field": "partizipVergangenheit",
+        "current": "Čerpadlo",
+        "new": "Oteklý",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Oteklý"
+      },
+      {
+        "verbId": "verb-125",
+        "field": "praesens",
+        "current": "Zmizí",
+        "new": "Mizí",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mizí"
+      },
+      {
+        "verbId": "verb-125",
+        "field": "partizipVergangenheit",
+        "current": "Ztracený",
+        "new": "Zmizelý",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zmizelý"
+      },
+      {
+        "verbId": "verb-126",
+        "field": "infinitiv",
+        "current": "Vlna",
+        "new": "Kývat / mávat",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kývat / mávat"
+      },
+      {
+        "verbId": "verb-126",
+        "field": "praesens",
+        "current": "Mává",
+        "new": "Kývá",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kývá"
+      },
+      {
+        "verbId": "verb-126",
+        "field": "imperfektIndikativ",
+        "current": "Zamával",
+        "new": "Kýval",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kýval"
+      },
+      {
+        "verbId": "verb-126",
+        "field": "imperfektKonjunktiv",
+        "current": "Zamával by",
+        "new": "Kýval by",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kýval by"
+      },
+      {
+        "verbId": "verb-126",
+        "field": "partizipVergangenheit",
+        "current": "Zamával",
+        "new": "Kýval",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kýval"
+      },
+      {
+        "verbId": "verb-127",
+        "field": "infinitiv",
+        "current": "Nadávat",
+        "new": "Přísahat",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Přísahat"
+      },
+      {
+        "verbId": "verb-127",
+        "field": "imperfektIndikativ",
+        "current": "Zaklel",
+        "new": "Přísahal",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Přísahal"
+      },
+      {
+        "verbId": "verb-127",
+        "field": "partizipVergangenheit",
+        "current": "Přísežný",
+        "new": "Přísahal",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Přísahal"
+      },
+      {
+        "verbId": "verb-128",
+        "field": "partizipVergangenheit",
+        "current": "Viděl",
+        "new": "Viděný",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Viděný"
+      },
+      {
+        "verbId": "verb-131",
+        "field": "imperfektIndikativ",
+        "current": "Vařené",
+        "new": "Vařil",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vařil"
+      },
+      {
+        "verbId": "verb-131",
+        "field": "imperfektKonjunktiv",
+        "current": "Vařené",
+        "new": "Vařil by",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vařil by"
+      },
+      {
+        "verbId": "verb-133",
+        "field": "infinitiv",
+        "current": "Potopit se",
+        "new": "Klesat / potápět se",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Klesat / potápět se"
+      },
+      {
+        "verbId": "verb-133",
+        "field": "imperfektIndikativ",
+        "current": "Vymýšlel",
+        "new": "Klesal",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Klesal"
+      },
+      {
+        "verbId": "verb-133",
+        "field": "imperfektKonjunktiv",
+        "current": "Potopil by se",
+        "new": "Klesal by / potápěl by se",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Klesal by / potápěl by se"
+      },
+      {
+        "verbId": "verb-133",
+        "field": "partizipVergangenheit",
+        "current": "Make up",
+        "new": "Klesl / potopil se",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Klesl / potopil se"
+      },
+      {
+        "verbId": "verb-134",
+        "field": "infinitiv",
+        "current": "Divit se",
+        "new": "Přemýšlet / rozjímat",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Přemýšlet / rozjímat"
+      },
+      {
+        "verbId": "verb-134",
+        "field": "praesens",
+        "current": "Diví se",
+        "new": "Přemýšlí",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Přemýšlí"
+      },
+      {
+        "verbId": "verb-134",
+        "field": "imperfektIndikativ",
+        "current": "Divil se",
+        "new": "Přemýšlel",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Přemýšlel"
+      },
+      {
+        "verbId": "verb-134",
+        "field": "imperfektKonjunktiv",
+        "current": "Divil by se",
+        "new": "Přemýšlel by",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Přemýšlel by"
+      },
+      {
+        "verbId": "verb-134",
+        "field": "partizipVergangenheit",
+        "current": "Smýšlející",
+        "new": "Přemýšlel",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Přemýšlel"
+      },
+      {
+        "verbId": "verb-135",
+        "field": "partizipVergangenheit",
+        "current": "Posadil se",
+        "new": "Seděl",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Seděl"
+      },
+      {
+        "verbId": "verb-136",
+        "field": "infinitiv",
+        "current": "Potřebovat / být povinen",
+        "new": "Mít / být povinen",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mít / být povinen"
+      },
+      {
+        "verbId": "verb-136",
+        "field": "praesens",
+        "current": "Potřebuje",
+        "new": "Má / má povinnost",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Má / má povinnost"
+      },
+      {
+        "verbId": "verb-136",
+        "field": "imperfektIndikativ",
+        "current": "By měl mít",
+        "new": "Měl",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Měl"
+      },
+      {
+        "verbId": "verb-136",
+        "field": "imperfektKonjunktiv",
+        "current": "By měl mít",
+        "new": "Měl by",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Měl by"
+      },
+      {
+        "verbId": "verb-136",
+        "field": "partizipVergangenheit",
+        "current": "Potřebná",
+        "new": "Měl",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Měl"
+      },
+      {
+        "verbId": "verb-137",
+        "field": "imperfektKonjunktiv",
+        "current": "Plival by",
+        "new": "Odplivl by si",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Odplivl by si"
+      },
+      {
+        "verbId": "verb-138",
+        "field": "infinitiv",
+        "current": "Roztočit",
+        "new": "Příst",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Příst"
+      },
+      {
+        "verbId": "verb-138",
+        "field": "praesens",
+        "current": "Kroutí se",
+        "new": "Přede",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Přede"
+      },
+      {
+        "verbId": "verb-138",
+        "field": "imperfektIndikativ",
+        "current": "Točil se",
+        "new": "Předl",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Předl"
+      },
+      {
+        "verbId": "verb-138",
+        "field": "imperfektKonjunktiv",
+        "current": "Točil by se",
+        "new": "Předl by",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Předl by"
+      },
+      {
+        "verbId": "verb-139",
+        "field": "infinitiv",
+        "current": "Připojit se",
+        "new": "Spojit / splétat",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Spojit / splétat"
+      },
+      {
+        "verbId": "verb-139",
+        "field": "praesens",
+        "current": "Spojuje se",
+        "new": "Spojuje / splétá",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Spojuje / splétá"
+      },
+      {
+        "verbId": "verb-139",
+        "field": "imperfektIndikativ",
+        "current": "Připojeno",
+        "new": "Spojil / splétal",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Spojil / splétal"
+      },
+      {
+        "verbId": "verb-139",
+        "field": "imperfektKonjunktiv",
+        "current": "Připojeno",
+        "new": "Spojil by / splétal by",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Spojil by / splétal by"
+      },
+      {
+        "verbId": "verb-139",
+        "field": "partizipVergangenheit",
+        "current": "Připojeno",
+        "new": "Spojený / spletený",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Spojený / spletený"
+      },
+      {
+        "verbId": "verb-141",
+        "field": "infinitiv",
+        "current": "Vzkvétat",
+        "new": "Rašit",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Rašit"
+      },
+      {
+        "verbId": "verb-141",
+        "field": "praesens",
+        "current": "Daří se mu",
+        "new": "Raší",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Raší"
+      },
+      {
+        "verbId": "verb-141",
+        "field": "imperfektIndikativ",
+        "current": "Prospíval",
+        "new": "Rašil",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Rašil"
+      },
+      {
+        "verbId": "verb-141",
+        "field": "imperfektKonjunktiv",
+        "current": "On police",
+        "new": "Rašil by",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Rašil by"
+      },
+      {
+        "verbId": "verb-141",
+        "field": "partizipVergangenheit",
+        "current": "Rameno",
+        "new": "Vyrašil",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vyrašil"
+      },
+      {
+        "verbId": "verb-142",
+        "field": "partizipVergangenheit",
+        "current": "Čočka",
+        "new": "Skočil",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Skočil"
+      },
+      {
+        "verbId": "verb-143",
+        "field": "imperfektIndikativ",
+        "current": "Udeřil pěstí",
+        "new": "Bodl",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Bodl"
+      },
+      {
+        "verbId": "verb-144",
+        "field": "infinitiv",
+        "current": "Přilepit / zapíchnout",
+        "new": "Strčit / zasunout",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Strčit / zasunout"
+      },
+      {
+        "verbId": "verb-144",
+        "field": "praesens",
+        "current": "Tlačí",
+        "new": "Strká / zasouvá",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Strká / zasouvá"
+      },
+      {
+        "verbId": "verb-144",
+        "field": "imperfektIndikativ",
+        "current": "Plněné",
+        "new": "Strčil / zasunul",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Strčil / zasunul"
+      },
+      {
+        "verbId": "verb-144",
+        "field": "imperfektKonjunktiv",
+        "current": "Plněné",
+        "new": "Strčil by / zasunul by",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Strčil by / zasunul by"
+      },
+      {
+        "verbId": "verb-144",
+        "field": "partizipVergangenheit",
+        "current": "Plněné",
+        "new": "Zasunutý",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zasunutý"
+      },
+      {
+        "verbId": "verb-149",
+        "field": "infinitiv",
+        "current": "Pěna / víření",
+        "new": "Pěnit / vířit",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pěnit / vířit"
+      },
+      {
+        "verbId": "verb-149",
+        "field": "praesens",
+        "current": "Fouká",
+        "new": "Pění / víří",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pění / víří"
+      },
+      {
+        "verbId": "verb-149",
+        "field": "imperfektIndikativ",
+        "current": "Napěněný",
+        "new": "Pěnil / vířil",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pěnil / vířil"
+      },
+      {
+        "verbId": "verb-149",
+        "field": "imperfektKonjunktiv",
+        "current": "Napěněný",
+        "new": "Pěnil by / vířil by",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pěnil by / vířil by"
+      },
+      {
+        "verbId": "verb-149",
+        "field": "partizipVergangenheit",
+        "current": "Rozmazlený",
+        "new": "Pěnil / vířil",
+        "sourceFile": "cs-slovesa-repair-group03-verbs-101-150.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pěnil / vířil"
+      },
+      {
+        "verbId": "verb-153",
+        "field": "infinitiv",
+        "current": "Bojovat",
+        "new": "Hádat se",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Hádat se"
+      },
+      {
+        "verbId": "verb-153",
+        "field": "praesens",
+        "current": "On bojuje",
+        "new": "Hádá se",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Hádá se"
+      },
+      {
+        "verbId": "verb-153",
+        "field": "imperfektIndikativ",
+        "current": "Bojoval",
+        "new": "Hádal se",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Hádal se"
+      },
+      {
+        "verbId": "verb-153",
+        "field": "imperfektKonjunktiv",
+        "current": "Bojoval by",
+        "new": "Hádal by se",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Hádal by se"
+      },
+      {
+        "verbId": "verb-153",
+        "field": "partizipVergangenheit",
+        "current": "Bojoval",
+        "new": "Hádal se",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Hádal se"
+      },
+      {
+        "verbId": "verb-155",
+        "field": "partizipVergangenheit",
+        "current": "Setkali",
+        "new": "Setkal se",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Setkal se"
+      },
+      {
+        "verbId": "verb-156",
+        "field": "infinitiv",
+        "current": "Honit",
+        "new": "Hnát",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Hnát"
+      },
+      {
+        "verbId": "verb-156",
+        "field": "praesens",
+        "current": "On řídí",
+        "new": "Žene",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Žene"
+      },
+      {
+        "verbId": "verb-156",
+        "field": "imperfektIndikativ",
+        "current": "Řídil",
+        "new": "Hnal",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Hnal"
+      },
+      {
+        "verbId": "verb-156",
+        "field": "imperfektKonjunktiv",
+        "current": "Řídil by",
+        "new": "Hnal by",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Hnal by"
+      },
+      {
+        "verbId": "verb-156",
+        "field": "partizipVergangenheit",
+        "current": "Honil",
+        "new": "Hnal",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Hnal"
+      },
+      {
+        "verbId": "verb-157",
+        "field": "infinitiv",
+        "current": "Vstoupit / jít",
+        "new": "Vstoupit / kráčet",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vstoupit / kráčet"
+      },
+      {
+        "verbId": "verb-157",
+        "field": "praesens",
+        "current": "Vchází / odchází",
+        "new": "Vstupuje / kráčí",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vstupuje / kráčí"
+      },
+      {
+        "verbId": "verb-157",
+        "field": "imperfektIndikativ",
+        "current": "Stál / chodil",
+        "new": "Vstoupil / kráčel",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vstoupil / kráčel"
+      },
+      {
+        "verbId": "verb-157",
+        "field": "imperfektKonjunktiv",
+        "current": "Stál/šel by",
+        "new": "Vstoupil by / kráčel by",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vstoupil by / kráčel by"
+      },
+      {
+        "verbId": "verb-157",
+        "field": "partizipVergangenheit",
+        "current": "Stál / chodil",
+        "new": "Vstoupil / kráčel",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vstoupil / kráčel"
+      },
+      {
+        "verbId": "verb-158",
+        "field": "partizipVergangenheit",
+        "current": "Opilý",
+        "new": "Pil",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pil"
+      },
+      {
+        "verbId": "verb-159",
+        "field": "partizipVergangenheit",
+        "current": "Podvedený",
+        "new": "Podváděl",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Podváděl"
+      },
+      {
+        "verbId": "verb-160",
+        "field": "partizipVergangenheit",
+        "current": "Hotovo",
+        "new": "Udělal",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Udělal"
+      },
+      {
+        "verbId": "verb-161",
+        "field": "infinitiv",
+        "current": "Poškodit",
+        "new": "Zkazit",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zkazit"
+      },
+      {
+        "verbId": "verb-161",
+        "field": "praesens",
+        "current": "On ničí",
+        "new": "Kazí",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Kazí"
+      },
+      {
+        "verbId": "verb-161",
+        "field": "imperfektIndikativ",
+        "current": "Poškodil",
+        "new": "Zkazil",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zkazil"
+      },
+      {
+        "verbId": "verb-161",
+        "field": "imperfektKonjunktiv",
+        "current": "Poškodil by",
+        "new": "Zkazil by",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zkazil by"
+      },
+      {
+        "verbId": "verb-161",
+        "field": "partizipVergangenheit",
+        "current": "Poškozené",
+        "new": "Zkažený",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zkažený"
+      },
+      {
+        "verbId": "verb-162",
+        "field": "infinitiv",
+        "current": "Způsobit obtěžování",
+        "new": "Obtěžovat",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Obtěžovat"
+      },
+      {
+        "verbId": "verb-162",
+        "field": "praesens",
+        "current": "Způsobuje obtěžování",
+        "new": "Obtěžuje",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Obtěžuje"
+      },
+      {
+        "verbId": "verb-162",
+        "field": "imperfektIndikativ",
+        "current": "Způsobil nepříjemnost",
+        "new": "Obtěžoval",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Obtěžoval"
+      },
+      {
+        "verbId": "verb-162",
+        "field": "imperfektKonjunktiv",
+        "current": "Způsobil by nepříjemnost",
+        "new": "Obtěžoval by",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Obtěžoval by"
+      },
+      {
+        "verbId": "verb-162",
+        "field": "partizipVergangenheit",
+        "current": "Naštvaný",
+        "new": "Rozmrzelý",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Rozmrzelý"
+      },
+      {
+        "verbId": "verb-164",
+        "field": "infinitiv",
+        "current": "Prohrát",
+        "new": "Ztratit",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ztratit"
+      },
+      {
+        "verbId": "verb-164",
+        "field": "praesens",
+        "current": "Prohrává",
+        "new": "Ztrácí",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ztrácí"
+      },
+      {
+        "verbId": "verb-164",
+        "field": "imperfektIndikativ",
+        "current": "Prohrál",
+        "new": "Ztratil",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ztratil"
+      },
+      {
+        "verbId": "verb-164",
+        "field": "imperfektKonjunktiv",
+        "current": "Prohrál by",
+        "new": "Ztratil by",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ztratil by"
+      },
+      {
+        "verbId": "verb-165",
+        "field": "imperfektKonjunktiv",
+        "current": "Vyrostl by",
+        "new": "Rostl by",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Rostl by"
+      },
+      {
+        "verbId": "verb-166",
+        "field": "infinitiv",
+        "current": "Umýt se",
+        "new": "Mýt",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Mýt"
+      },
+      {
+        "verbId": "verb-166",
+        "field": "imperfektIndikativ",
+        "current": "Umyl se",
+        "new": "Myl",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Myl"
+      },
+      {
+        "verbId": "verb-166",
+        "field": "imperfektKonjunktiv",
+        "current": "Umyl by se",
+        "new": "Myl by",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Myl by"
+      },
+      {
+        "verbId": "verb-166",
+        "field": "partizipVergangenheit",
+        "current": "Vyprané",
+        "new": "Umytý",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Umytý"
+      },
+      {
+        "verbId": "verb-167",
+        "field": "infinitiv",
+        "current": "Vazba",
+        "new": "Tkat",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Tkat"
+      },
+      {
+        "verbId": "verb-167",
+        "field": "imperfektIndikativ",
+        "current": "Tkáň",
+        "new": "Tkal",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Tkal"
+      },
+      {
+        "verbId": "verb-167",
+        "field": "imperfektKonjunktiv",
+        "current": "Tkáň",
+        "new": "Tkal by",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Tkal by"
+      },
+      {
+        "verbId": "verb-168",
+        "field": "infinitiv",
+        "current": "Stáhnout se",
+        "new": "Ustupovat",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ustupovat"
+      },
+      {
+        "verbId": "verb-168",
+        "field": "praesens",
+        "current": "Ustoupí",
+        "new": "Ustupuje",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ustupuje"
+      },
+      {
+        "verbId": "verb-168",
+        "field": "partizipVergangenheit",
+        "current": "Ustoupit",
+        "new": "Ustoupil",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ustoupil"
+      },
+      {
+        "verbId": "verb-169",
+        "field": "infinitiv",
+        "current": "Show",
+        "new": "Ukazovat",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ukazovat"
+      },
+      {
+        "verbId": "verb-169",
+        "field": "partizipVergangenheit",
+        "current": "Zobrazeno",
+        "new": "Ukázal",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ukázal"
+      },
+      {
+        "verbId": "verb-170",
+        "field": "infinitiv",
+        "current": "Upravit / oříznout",
+        "new": "Otočit / obrátit",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Otočit / obrátit"
+      },
+      {
+        "verbId": "verb-170",
+        "field": "praesens",
+        "current": "Kroutí / obrací",
+        "new": "Otáčí / obrací",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Otáčí / obrací"
+      },
+      {
+        "verbId": "verb-170",
+        "field": "imperfektIndikativ",
+        "current": "Zkroutil / otočil",
+        "new": "Otočil / obrátil",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Otočil / obrátil"
+      },
+      {
+        "verbId": "verb-170",
+        "field": "imperfektKonjunktiv",
+        "current": "By upravil / obrátil",
+        "new": "Otočil by / obrátil by",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Otočil by / obrátil by"
+      },
+      {
+        "verbId": "verb-170",
+        "field": "partizipVergangenheit",
+        "current": "Změněno / obráceno",
+        "new": "Otočeno / obráceno",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Otočeno / obráceno"
+      },
+      {
+        "verbId": "verb-171",
+        "field": "infinitiv",
+        "current": "Navrhnout",
+        "new": "Ucházet se / propagovat",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ucházet se / propagovat"
+      },
+      {
+        "verbId": "verb-171",
+        "field": "praesens",
+        "current": "Navrhuje",
+        "new": "Uchází se / propaguje",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Uchází se / propaguje"
+      },
+      {
+        "verbId": "verb-171",
+        "field": "imperfektIndikativ",
+        "current": "Navrhl",
+        "new": "Ucházel se / propagoval",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ucházel se / propagoval"
+      },
+      {
+        "verbId": "verb-171",
+        "field": "imperfektKonjunktiv",
+        "current": "Navrhl by",
+        "new": "Ucházel by se / propagoval by",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ucházel by se / propagoval by"
+      },
+      {
+        "verbId": "verb-171",
+        "field": "partizipVergangenheit",
+        "current": "Navrženo",
+        "new": "Ucházel se / propagoval",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ucházel se / propagoval"
+      },
+      {
+        "verbId": "verb-172",
+        "field": "imperfektIndikativ",
+        "current": "Se stal",
+        "new": "Stal se",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Stal se"
+      },
+      {
+        "verbId": "verb-172",
+        "field": "imperfektKonjunktiv",
+        "current": "Se stal",
+        "new": "Stal by se",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Stal by se"
+      },
+      {
+        "verbId": "verb-172",
+        "field": "partizipVergangenheit",
+        "current": "Se stal",
+        "new": "Stal se",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Stal se"
+      },
+      {
+        "verbId": "verb-173",
+        "field": "infinitiv",
+        "current": "Hod",
+        "new": "Házet",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Házet"
+      },
+      {
+        "verbId": "verb-173",
+        "field": "imperfektKonjunktiv",
+        "current": "Hodil",
+        "new": "Hodil by",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Hodil by"
+      },
+      {
+        "verbId": "verb-174",
+        "field": "partizipVergangenheit",
+        "current": "Vážený",
+        "new": "Zvážený",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zvážený"
+      },
+      {
+        "verbId": "verb-175",
+        "field": "infinitiv",
+        "current": "Prýmek",
+        "new": "Vinout / plést",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vinout / plést"
+      },
+      {
+        "verbId": "verb-175",
+        "field": "praesens",
+        "current": "On pin",
+        "new": "Vine / plete",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vine / plete"
+      },
+      {
+        "verbId": "verb-175",
+        "field": "imperfektIndikativ",
+        "current": "Plete copánky",
+        "new": "Vinul / pletl",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vinul / pletl"
+      },
+      {
+        "verbId": "verb-175",
+        "field": "imperfektKonjunktiv",
+        "current": "Zapletl by cop",
+        "new": "Vinul by / pletl by",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vinul by / pletl by"
+      },
+      {
+        "verbId": "verb-175",
+        "field": "partizipVergangenheit",
+        "current": "Pletené",
+        "new": "Vinutý / pletený",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vinutý / pletený"
+      },
+      {
+        "verbId": "verb-176",
+        "field": "partizipVergangenheit",
+        "current": "Známý",
+        "new": "Věděl",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Věděl"
+      },
+      {
+        "verbId": "verb-177",
+        "field": "imperfektKonjunktiv",
+        "current": "Chtěl",
+        "new": "Chtěl by",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Chtěl by"
+      },
+      {
+        "verbId": "verb-178",
+        "field": "infinitiv",
+        "current": "Vystřihnout / vymáčknout",
+        "new": "Ždímat / vyždímat",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ždímat / vyždímat"
+      },
+      {
+        "verbId": "verb-178",
+        "field": "praesens",
+        "current": "Vystřihne",
+        "new": "Ždímá",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ždímá"
+      },
+      {
+        "verbId": "verb-178",
+        "field": "imperfektIndikativ",
+        "current": "Vystřihnout",
+        "new": "Ždímal",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ždímal"
+      },
+      {
+        "verbId": "verb-178",
+        "field": "imperfektKonjunktiv",
+        "current": "Vystřihnout",
+        "new": "Ždímal by",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Ždímal by"
+      },
+      {
+        "verbId": "verb-178",
+        "field": "partizipVergangenheit",
+        "current": "Vystřihnout",
+        "new": "Vyždímaný",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Vyždímaný"
+      },
+      {
+        "verbId": "verb-179",
+        "field": "imperfektIndikativ",
+        "current": "Obviňován",
+        "new": "Obvinil",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Obvinil"
+      },
+      {
+        "verbId": "verb-179",
+        "field": "imperfektKonjunktiv",
+        "current": "Obviňován",
+        "new": "Obvinil by",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Obvinil by"
+      },
+      {
+        "verbId": "verb-179",
+        "field": "partizipVergangenheit",
+        "current": "Obviňován",
+        "new": "Obviněný",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Obviněný"
+      },
+      {
+        "verbId": "verb-180",
+        "field": "imperfektIndikativ",
+        "current": "Vytáhl",
+        "new": "Táhl",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Táhl"
+      },
+      {
+        "verbId": "verb-180",
+        "field": "imperfektKonjunktiv",
+        "current": "Přetáhl by",
+        "new": "Táhl by",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Táhl by"
+      },
+      {
+        "verbId": "verb-180",
+        "field": "partizipVergangenheit",
+        "current": "Přetáhl",
+        "new": "Táhl",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Táhl"
+      },
+      {
+        "verbId": "verb-183",
+        "field": "imperfektKonjunktiv",
+        "current": "Zvážil by",
+        "new": "Zvažoval by",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Zvažoval by"
+      },
+      {
+        "verbId": "verb-185",
+        "field": "infinitiv",
+        "current": "Prýmek",
+        "new": "Plést",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Plést"
+      },
+      {
+        "verbId": "verb-185",
+        "field": "praesens",
+        "current": "On pin",
+        "new": "Plete",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Plete"
+      },
+      {
+        "verbId": "verb-185",
+        "field": "imperfektIndikativ",
+        "current": "Plete copánky",
+        "new": "Pletl copánky",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pletl copánky"
+      },
+      {
+        "verbId": "verb-185",
+        "field": "imperfektKonjunktiv",
+        "current": "Zapletl by cop",
+        "new": "Pletl by copánky",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Pletl by copánky"
+      },
+      {
+        "verbId": "verb-186",
+        "field": "infinitiv",
+        "current": "Pověsit",
+        "new": "Viset",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Viset"
+      },
+      {
+        "verbId": "verb-186",
+        "field": "imperfektKonjunktiv",
+        "current": "Oběsil by se",
+        "new": "Visel by",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Visel by"
+      },
+      {
+        "verbId": "verb-186",
+        "field": "partizipVergangenheit",
+        "current": "Vydrž",
+        "new": "Visel",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Visel"
+      },
+      {
+        "verbId": "verb-187",
+        "field": "infinitiv",
+        "current": "Rozdělit se",
+        "new": "Štípat / rozdělit",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Štípat / rozdělit"
+      },
+      {
+        "verbId": "verb-187",
+        "field": "praesens",
+        "current": "Rozdělí se",
+        "new": "Štípe",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Štípe"
+      },
+      {
+        "verbId": "verb-187",
+        "field": "imperfektIndikativ",
+        "current": "Rozdělil se",
+        "new": "Štípal",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Štípal"
+      },
+      {
+        "verbId": "verb-187",
+        "field": "imperfektKonjunktiv",
+        "current": "Rozdělil by se",
+        "new": "Štípal by",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Štípal by"
+      },
+      {
+        "verbId": "verb-187",
+        "field": "partizipVergangenheit",
+        "current": "Rozdělit",
+        "new": "Rozštípaný",
+        "sourceFile": "cs-slovesa-repair-group04-verbs-151-189.md",
+        "status": "OWNER_NEW_EXACT",
+        "actual": "Rozštípaný"
+      }
+    ]
+  },
+  "targeted": {
+    "pass": true,
+    "expected": {
+      "changedMappings": 468,
+      "uniqueChangedVerbs": 149,
+      "rawFindings": 0,
+      "validatedReal": 0,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "falsePositive": 0,
+      "sourceDeIssue": 0,
+      "targetedRegressionPass": true,
+      "ownerNewExact": 468,
+      "ownerDrift": 0
+    },
+    "actual": {
+      "changedMappings": 468,
+      "uniqueChangedVerbs": 149,
+      "rawFindings": 0,
+      "validatedReal": 0,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "falsePositive": 0,
+      "sourceDeIssue": 0,
+      "targetedRegressionPass": true,
+      "ownerNewExact": 468,
+      "ownerDrift": 0
+    },
+    "source": "/workspace/reports/cs-slovesa-targeted-regression.md",
+    "auditCommit": "d26e5ea285b2bd523428d8db524d64baed492e91",
+    "verdict": "PASS"
+  },
+  "integrity": {
+    "verbCount": 189,
+    "syntax": "PASS",
+    "idOrder": "PASS",
+    "fiveFormStructure": "PASS",
+    "mirrorParity": "PASS",
+    "deChanges": 0,
+    "deIntegrity": "PASS",
+    "unexpectedProductionChanges": 0,
+    "sinceTargetedRegression": 0,
+    "targetedRegressionCsHash": "5b7dd5706addce43d217390aa226ba3e7b2af63ffbed7bda0ce954d86af90a74",
+    "csHash": "5b7dd5706addce43d217390aa226ba3e7b2af63ffbed7bda0ce954d86af90a74",
+    "deHash": "df50e16b4cf948288c32070e2fced3a1e1947be6608e80c1a216f4a2daddbbeb"
+  },
+  "checks": [
+    {
+      "name": "owner_repair",
+      "pass": true
+    },
+    {
+      "name": "owner_groups",
+      "pass": true
+    },
+    {
+      "name": "targeted_regression_reconfirm",
+      "pass": true
+    },
+    {
+      "name": "integrity",
+      "pass": true
+    },
+    {
+      "name": "closure_immutability",
+      "pass": true
+    },
+    {
+      "name": "final_validated_real_zero",
+      "pass": true
+    }
+  ],
+  "allPass": true
+}
