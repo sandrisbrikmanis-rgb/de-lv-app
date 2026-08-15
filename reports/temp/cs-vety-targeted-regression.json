@@ -1,0 +1,3124 @@
+{
+  "meta": {
+    "date": "2026-08-15T11:54:16.728Z",
+    "branch": "cursor/cs-vety-targeted-regression-audit-6ea4",
+    "auditCommit": "3ac154b05a0ba69e8f47893080a1c01822f3f769",
+    "model": "GPT-5.6 Luna",
+    "apiModel": "gpt-5.6-luna"
+  },
+  "summary": {
+    "prerequisitePass": true,
+    "ownerNewExact": 328,
+    "ownerDrift": 0,
+    "currentMismatch": 0,
+    "cardNotFound": 0,
+    "fieldNotFound": 0,
+    "ownerConflict": 0,
+    "changedMappings": 328,
+    "uniqueChangedCards": 328,
+    "mainTranslationFields": 328,
+    "studyFields": 0,
+    "studyCardsChecked": 0,
+    "rawFindings": 1,
+    "malformedFiltered": 0,
+    "falsePositive": 0,
+    "sourceDeIssue": 0,
+    "validated": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "MEDIUM": 1,
+      "LOW": 0
+    },
+    "productionChanges": 0,
+    "unexpectedProductionChanges": 0,
+    "deChanges": 0,
+    "syntax": "PASS",
+    "idOrder": "PASS",
+    "cardCount": 796,
+    "mirrorParity": "PASS",
+    "lunaRequests": 7,
+    "lunaTokens": 29125
+  },
+  "ownerCheck": {
+    "pass": true,
+    "exact": 328,
+    "drift": 0,
+    "cardNotFound": 0,
+    "fieldNotFound": 0,
+    "conflict": 0,
+    "currentMismatch": 0,
+    "results": [
+      {
+        "cardId": "sentence-1",
+        "field": "lv",
+        "current": "Pokud nic nepřekáží. • Pokud vše půjde podle plánu.",
+        "new": "Jestli do toho nic nepřijde. • Pokud vše půjde podle plánu.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group01-cards-001-050.md",
+        "actual": "Jestli do toho nic nepřijde. • Pokud vše půjde podle plánu."
+      },
+      {
+        "cardId": "sentence-2",
+        "field": "lv",
+        "current": "Já to vím!",
+        "new": "To si umím představit!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group01-cards-001-050.md",
+        "actual": "To si umím představit!"
+      },
+      {
+        "cardId": "sentence-3",
+        "field": "lv",
+        "current": "Je pak nemocný?",
+        "new": "Je snad nemocný?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group01-cards-001-050.md",
+        "actual": "Je snad nemocný?"
+      },
+      {
+        "cardId": "sentence-4",
+        "field": "lv",
+        "current": "Co potom?",
+        "new": "Co je?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group01-cards-001-050.md",
+        "actual": "Co je?"
+      },
+      {
+        "cardId": "sentence-5",
+        "field": "lv",
+        "current": "Čím více.",
+        "new": "O to více.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group01-cards-001-050.md",
+        "actual": "O to více."
+      },
+      {
+        "cardId": "sentence-7",
+        "field": "lv",
+        "current": "Vše ukazuje na případ.",
+        "new": "Vše nasvědčuje dešti.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group01-cards-001-050.md",
+        "actual": "Vše nasvědčuje dešti."
+      },
+      {
+        "cardId": "sentence-8",
+        "field": "lv",
+        "current": "Nedává mi to smysl.",
+        "new": "To mi moc nepomůže.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group01-cards-001-050.md",
+        "actual": "To mi moc nepomůže."
+      },
+      {
+        "cardId": "sentence-11",
+        "field": "lv",
+        "current": "Hrom burácí.",
+        "new": "Hřmí.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group01-cards-001-050.md",
+        "actual": "Hřmí."
+      },
+      {
+        "cardId": "sentence-12",
+        "field": "lv",
+        "current": "Dvakrát větší.",
+        "new": "Dvakrát tak velký.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group01-cards-001-050.md",
+        "actual": "Dvakrát tak velký."
+      },
+      {
+        "cardId": "sentence-14",
+        "field": "lv",
+        "current": "Čas běží.",
+        "new": "Čas tlačí.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group01-cards-001-050.md",
+        "actual": "Čas tlačí."
+      },
+      {
+        "cardId": "sentence-15",
+        "field": "lv",
+        "current": "Je přemožen starostí.",
+        "new": "Trápí ho starosti.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group01-cards-001-050.md",
+        "actual": "Trápí ho starosti."
+      },
+      {
+        "cardId": "sentence-16",
+        "field": "lv",
+        "current": "Prošli jste knihu pečlivě?",
+        "new": "Prostudoval jsi tu knihu?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group01-cards-001-050.md",
+        "actual": "Prostudoval jsi tu knihu?"
+      },
+      {
+        "cardId": "sentence-17",
+        "field": "lv",
+        "current": "Neprocházejte! • Výjezd uzavřen!",
+        "new": "Průchod zakázán!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group01-cards-001-050.md",
+        "actual": "Průchod zakázán!"
+      },
+      {
+        "cardId": "sentence-18",
+        "field": "lv",
+        "current": "Můžu se tě zeptat?",
+        "new": "Mohu vás poprosit?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group01-cards-001-050.md",
+        "actual": "Mohu vás poprosit?"
+      },
+      {
+        "cardId": "sentence-22",
+        "field": "lv",
+        "current": "Co vlastně chceš?",
+        "new": "Co vlastně chcete?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group01-cards-001-050.md",
+        "actual": "Co vlastně chcete?"
+      },
+      {
+        "cardId": "sentence-26",
+        "field": "lv",
+        "current": "Představte si, že jste nemocní.",
+        "new": "Jen si namlouváš, že jsi nemocný.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group01-cards-001-050.md",
+        "actual": "Jen si namlouváš, že jsi nemocný."
+      },
+      {
+        "cardId": "sentence-27",
+        "field": "lv",
+        "current": "Co tě napadne?",
+        "new": "Jak se opovažuješ?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group01-cards-001-050.md",
+        "actual": "Jak se opovažuješ?"
+      },
+      {
+        "cardId": "sentence-28",
+        "field": "lv",
+        "current": "Jednou tam bylo.",
+        "new": "Bylo nebylo.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group01-cards-001-050.md",
+        "actual": "Bylo nebylo."
+      },
+      {
+        "cardId": "sentence-29",
+        "field": "lv",
+        "current": "Vstupte prosím!",
+        "new": "Prosím, nastupte!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group01-cards-001-050.md",
+        "actual": "Prosím, nastupte!"
+      },
+      {
+        "cardId": "sentence-39",
+        "field": "lv",
+        "current": "Jak se jmenuješ",
+        "new": "Jak se jmenujete?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group01-cards-001-050.md",
+        "actual": "Jak se jmenujete?"
+      },
+      {
+        "cardId": "sentence-42",
+        "field": "lv",
+        "current": "Mluvit! • Příběhy!",
+        "new": "Tak ven s tím!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group01-cards-001-050.md",
+        "actual": "Tak ven s tím!"
+      },
+      {
+        "cardId": "sentence-47",
+        "field": "lv",
+        "current": "Včera v noci",
+        "new": "Dnes v noci",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group01-cards-001-050.md",
+        "actual": "Dnes v noci"
+      },
+      {
+        "cardId": "sentence-50",
+        "field": "lv",
+        "current": "Můžete to prosím zopakovat?",
+        "new": "Můžeš to prosím zopakovat?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group02-cards-051-100.md",
+        "actual": "Můžeš to prosím zopakovat?"
+      },
+      {
+        "cardId": "sentence-62",
+        "field": "lv",
+        "current": "Zavolej mi.",
+        "new": "Zavolejte mi.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group02-cards-051-100.md",
+        "actual": "Zavolejte mi."
+      },
+      {
+        "cardId": "sentence-63",
+        "field": "lv",
+        "current": "Prosím vypněte rádio.",
+        "new": "Prosím, vypněte rádio.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group02-cards-051-100.md",
+        "actual": "Prosím, vypněte rádio."
+      },
+      {
+        "cardId": "sentence-64",
+        "field": "lv",
+        "current": "Věnujte prosím pozornost provozu.",
+        "new": "Dávej prosím pozor na provoz.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group02-cards-051-100.md",
+        "actual": "Dávej prosím pozor na provoz."
+      },
+      {
+        "cardId": "sentence-65",
+        "field": "lv",
+        "current": "Na to byste měli dávat pozor.",
+        "new": "Na to si musíš dát pozor.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group02-cards-051-100.md",
+        "actual": "Na to si musíš dát pozor."
+      },
+      {
+        "cardId": "sentence-68",
+        "field": "lv",
+        "current": "Žije sám.",
+        "new": "Bydlí sám.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group02-cards-051-100.md",
+        "actual": "Bydlí sám."
+      },
+      {
+        "cardId": "sentence-69",
+        "field": "lv",
+        "current": "Skončil jsem trénink. • Ukončila jsem vzdělání.",
+        "new": "Absolvoval jsem odborné vzdělání. • Absolvovala jsem odborné vzdělání.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group02-cards-051-100.md",
+        "actual": "Absolvoval jsem odborné vzdělání. • Absolvovala jsem odborné vzdělání."
+      },
+      {
+        "cardId": "sentence-79",
+        "field": "lv",
+        "current": "Předtím jsme měli podobné problémy.",
+        "new": "Podobné problémy jsme měli už dříve.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group02-cards-051-100.md",
+        "actual": "Podobné problémy jsme měli už dříve."
+      },
+      {
+        "cardId": "sentence-80",
+        "field": "lv",
+        "current": "Žádný nápad!",
+        "new": "Nemám ponětí!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group02-cards-051-100.md",
+        "actual": "Nemám ponětí!"
+      },
+      {
+        "cardId": "sentence-82",
+        "field": "lv",
+        "current": "Tyto šaty jsou stylově konzervativní.",
+        "new": "Tyto šaty jsou v akademickém stylu.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group02-cards-051-100.md",
+        "actual": "Tyto šaty jsou v akademickém stylu."
+      },
+      {
+        "cardId": "sentence-84",
+        "field": "lv",
+        "current": "Můžete kliknout na zařízení?",
+        "new": "Můžeš kliknout na zařízení?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group02-cards-051-100.md",
+        "actual": "Můžeš kliknout na zařízení?"
+      },
+      {
+        "cardId": "sentence-85",
+        "field": "lv",
+        "current": "Otevřete soubor a klikněte na něj.",
+        "new": "Otevři soubor a klikni na něj.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group02-cards-051-100.md",
+        "actual": "Otevři soubor a klikni na něj."
+      },
+      {
+        "cardId": "sentence-87",
+        "field": "lv",
+        "current": "Jdeme na nádraží.",
+        "new": "Běžíme na nádraží.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group02-cards-051-100.md",
+        "actual": "Běžíme na nádraží."
+      },
+      {
+        "cardId": "sentence-88",
+        "field": "lv",
+        "current": "Zapněte prosím televizi.",
+        "new": "Zapni prosím televizi.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group02-cards-051-100.md",
+        "actual": "Zapni prosím televizi."
+      },
+      {
+        "cardId": "sentence-89",
+        "field": "lv",
+        "current": "Můj počítač se zhroutil.",
+        "new": "Můj počítač spadl.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group02-cards-051-100.md",
+        "actual": "Můj počítač spadl."
+      },
+      {
+        "cardId": "sentence-90",
+        "field": "lv",
+        "current": "O víkendu pojedu na ryby.",
+        "new": "O víkendu jdu na ryby.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group02-cards-051-100.md",
+        "actual": "O víkendu jdu na ryby."
+      },
+      {
+        "cardId": "sentence-92",
+        "field": "lv",
+        "current": "Můžeš mi zavolat později",
+        "new": "Můžeš mi zavolat později?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group02-cards-051-100.md",
+        "actual": "Můžeš mi zavolat později?"
+      },
+      {
+        "cardId": "sentence-93",
+        "field": "lv",
+        "current": "Přijměte prosím můj návrh.",
+        "new": "Přijmi prosím můj návrh.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group02-cards-051-100.md",
+        "actual": "Přijmi prosím můj návrh."
+      },
+      {
+        "cardId": "sentence-94",
+        "field": "lv",
+        "current": "Vaši nabídku přijímám.",
+        "new": "Přijímám tvou nabídku.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group02-cards-051-100.md",
+        "actual": "Přijímám tvou nabídku."
+      },
+      {
+        "cardId": "sentence-98",
+        "field": "lv",
+        "current": "Najděte ozvěnu. • Najděte schopnost reagovat",
+        "new": "Najít ohlas. • Setkat se s kladným přijetím.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group02-cards-051-100.md",
+        "actual": "Najít ohlas. • Setkat se s kladným přijetím."
+      },
+      {
+        "cardId": "sentence-99",
+        "field": "lv",
+        "current": "Na tom záleží.",
+        "new": "Záleží na tom.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group02-cards-051-100.md",
+        "actual": "Záleží na tom."
+      },
+      {
+        "cardId": "sentence-100",
+        "field": "lv",
+        "current": "Kvůli této době. • V tomto ohledu",
+        "new": "Při této příležitosti.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group03-cards-101-150.md",
+        "actual": "Při této příležitosti."
+      },
+      {
+        "cardId": "sentence-102",
+        "field": "lv",
+        "current": "Co jsi tam dělal",
+        "new": "Co jsi tam provedl?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group03-cards-101-150.md",
+        "actual": "Co jsi tam provedl?"
+      },
+      {
+        "cardId": "sentence-106",
+        "field": "lv",
+        "current": "Nepředstírejte!",
+        "new": "Nedělej takové cavyky!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group03-cards-101-150.md",
+        "actual": "Nedělej takové cavyky!"
+      },
+      {
+        "cardId": "sentence-107",
+        "field": "lv",
+        "current": "Pusťte se do práce.",
+        "new": "Pustit se do práce.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group03-cards-101-150.md",
+        "actual": "Pustit se do práce."
+      },
+      {
+        "cardId": "sentence-109",
+        "field": "lv",
+        "current": "Chuť k jídlu!",
+        "new": "Dobrou chuť!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group03-cards-101-150.md",
+        "actual": "Dobrou chuť!"
+      },
+      {
+        "cardId": "sentence-113",
+        "field": "lv",
+        "current": "Prosím, otevřete dveře!",
+        "new": "Prosím, otevři dveře!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group03-cards-101-150.md",
+        "actual": "Prosím, otevři dveře!"
+      },
+      {
+        "cardId": "sentence-115",
+        "field": "lv",
+        "current": "Dnes musíme uklidit pokoj.",
+        "new": "Dnes musíme uklidit.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group03-cards-101-150.md",
+        "actual": "Dnes musíme uklidit."
+      },
+      {
+        "cardId": "sentence-116",
+        "field": "lv",
+        "current": "Teď se zastavím.",
+        "new": "Teď přestanu.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group03-cards-101-150.md",
+        "actual": "Teď přestanu."
+      },
+      {
+        "cardId": "sentence-119",
+        "field": "lv",
+        "current": "Rozčilovala mě.",
+        "new": "Rozčílila mě.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group03-cards-101-150.md",
+        "actual": "Rozčílila mě."
+      },
+      {
+        "cardId": "sentence-122",
+        "field": "lv",
+        "current": "Pokryjte škody.",
+        "new": "Uhradit škodu.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group03-cards-101-150.md",
+        "actual": "Uhradit škodu."
+      },
+      {
+        "cardId": "sentence-124",
+        "field": "lv",
+        "current": "Posaďte se rovně.",
+        "new": "Sedět vzpřímeně.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group03-cards-101-150.md",
+        "actual": "Sedět vzpřímeně."
+      },
+      {
+        "cardId": "sentence-125",
+        "field": "lv",
+        "current": "Vstal.",
+        "new": "Už je vzhůru.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group03-cards-101-150.md",
+        "actual": "Už je vzhůru."
+      },
+      {
+        "cardId": "sentence-126",
+        "field": "lv",
+        "current": "Věnujte všechny své síly.",
+        "new": "Vynaložit veškeré síly.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group03-cards-101-150.md",
+        "actual": "Vynaložit veškeré síly."
+      },
+      {
+        "cardId": "sentence-127",
+        "field": "lv",
+        "current": "Velmi se snažte.",
+        "new": "Vynaložit velké úsilí.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group03-cards-101-150.md",
+        "actual": "Vynaložit velké úsilí."
+      },
+      {
+        "cardId": "sentence-128",
+        "field": "lv",
+        "current": "Už se na mě nedívej!",
+        "new": "Zmiz mi z očí!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group03-cards-101-150.md",
+        "actual": "Zmiz mi z očí!"
+      },
+      {
+        "cardId": "sentence-129",
+        "field": "lv",
+        "current": "Ve dvou. • Tiše",
+        "new": "Mezi čtyřma očima.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group03-cards-101-150.md",
+        "actual": "Mezi čtyřma očima."
+      },
+      {
+        "cardId": "sentence-133",
+        "field": "lv",
+        "current": "Dejte důraz na vzhled.",
+        "new": "Dbát na vnější vzhled.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group03-cards-101-150.md",
+        "actual": "Dbát na vnější vzhled."
+      },
+      {
+        "cardId": "sentence-139",
+        "field": "lv",
+        "current": "Vyjádřete soustrast.",
+        "new": "Vyjádřit soustrast.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group03-cards-101-150.md",
+        "actual": "Vyjádřit soustrast."
+      },
+      {
+        "cardId": "sentence-140",
+        "field": "lv",
+        "current": "Kdy bylo mistrovství?",
+        "new": "Kdy se konaly mistrovské zápasy?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group03-cards-101-150.md",
+        "actual": "Kdy se konaly mistrovské zápasy?"
+      },
+      {
+        "cardId": "sentence-143",
+        "field": "lv",
+        "current": "Jezte venku.",
+        "new": "Jíst mimo domov.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group03-cards-101-150.md",
+        "actual": "Jíst mimo domov."
+      },
+      {
+        "cardId": "sentence-148",
+        "field": "lv",
+        "current": "Odkládat. • Přetáhněte na délku • Odložte na neurčito",
+        "new": "Odkládat. • Protahovat. • Odkládat na neurčito.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group03-cards-101-150.md",
+        "actual": "Odkládat. • Protahovat. • Odkládat na neurčito."
+      },
+      {
+        "cardId": "sentence-150",
+        "field": "lv",
+        "current": "Získejte rudu.",
+        "new": "Těžit rudu.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "Těžit rudu."
+      },
+      {
+        "cardId": "sentence-151",
+        "field": "lv",
+        "current": "Střílet. • Udělejte ze sebe blázna",
+        "new": "Vyvádět hlouposti. • Dělat chyby.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "Vyvádět hlouposti. • Dělat chyby."
+      },
+      {
+        "cardId": "sentence-152",
+        "field": "lv",
+        "current": "Byla mi přidělena práce.",
+        "new": "Jsem pověřen(a).",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "Jsem pověřen(a)."
+      },
+      {
+        "cardId": "sentence-156",
+        "field": "lv",
+        "current": "Pokud...",
+        "new": "Za podmínky, že...",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "Za podmínky, že..."
+      },
+      {
+        "cardId": "sentence-157",
+        "field": "lv",
+        "current": "Vypadá depresivně.",
+        "new": "Vypadá sklesle.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "Vypadá sklesle."
+      },
+      {
+        "cardId": "sentence-158",
+        "field": "lv",
+        "current": "Postupujte podle pokynů.",
+        "new": "Řídit se pokyny.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "Řídit se pokyny."
+      },
+      {
+        "cardId": "sentence-159",
+        "field": "lv",
+        "current": "Postupujte podle rozkazů.",
+        "new": "Řídit se rozkazy.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "Řídit se rozkazy."
+      },
+      {
+        "cardId": "sentence-164",
+        "field": "lv",
+        "current": "Spuštění",
+        "new": "Na začátku.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "Na začátku."
+      },
+      {
+        "cardId": "sentence-166",
+        "field": "lv",
+        "current": "S doprovodem.",
+        "new": "S jeho doprovodem.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "S jeho doprovodem."
+      },
+      {
+        "cardId": "sentence-167",
+        "field": "lv",
+        "current": "Je pomalý na vnímání. • Má pomalé myšlení",
+        "new": "Pomalu chápe. • Má pomalé myšlení.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "Pomalu chápe. • Má pomalé myšlení."
+      },
+      {
+        "cardId": "sentence-168",
+        "field": "lv",
+        "current": "Pamatujte si. • Uchovávejte v paměti",
+        "new": "Pamatovat si. • Uchovat v paměti.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "Pamatovat si. • Uchovat v paměti."
+      },
+      {
+        "cardId": "sentence-170",
+        "field": "lv",
+        "current": "Abych byl při smyslech.",
+        "new": "Být při smyslech.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "Být při smyslech."
+      },
+      {
+        "cardId": "sentence-172",
+        "field": "lv",
+        "current": "Vůbec ne.",
+        "new": "Zdaleka ne tak.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "Zdaleka ne tak."
+      },
+      {
+        "cardId": "sentence-175",
+        "field": "lv",
+        "current": "Získejte souhlas.",
+        "new": "Setkat se s ohlasem. • Získat uznání.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "Setkat se s ohlasem. • Získat uznání."
+      },
+      {
+        "cardId": "sentence-176",
+        "field": "lv",
+        "current": "Vyjádřete soustrast.",
+        "new": "Vyjádřit soustrast.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "Vyjádřit soustrast."
+      },
+      {
+        "cardId": "sentence-179",
+        "field": "lv",
+        "current": "Na pomoc. • Poskytněte pomoc",
+        "new": "Poskytnout pomoc.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "Poskytnout pomoc."
+      },
+      {
+        "cardId": "sentence-180",
+        "field": "lv",
+        "current": "Investujte svůj podíl.",
+        "new": "Přispět svým dílem.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "Přispět svým dílem."
+      },
+      {
+        "cardId": "sentence-181",
+        "field": "lv",
+        "current": "Seznamte se s někým.",
+        "new": "Seznámit se s někým.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "Seznámit se s někým."
+      },
+      {
+        "cardId": "sentence-182",
+        "field": "lv",
+        "current": "Seznamte se navzájem. • Navažte kontakt",
+        "new": "Seznámit se. • Navázat známost.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "Seznámit se. • Navázat známost."
+      },
+      {
+        "cardId": "sentence-183",
+        "field": "lv",
+        "current": "Sendviče s polevou.",
+        "new": "Obložené housky.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "Obložené housky."
+      },
+      {
+        "cardId": "sentence-188",
+        "field": "lv",
+        "current": "Buďte připraveni. • Buďte v klidu",
+        "new": "Být připraven.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "Být připraven."
+      },
+      {
+        "cardId": "sentence-189",
+        "field": "lv",
+        "current": "Záchrana obětí v případě nehody.",
+        "new": "Zachraňovat oběti nehody.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "Zachraňovat oběti nehody."
+      },
+      {
+        "cardId": "sentence-190",
+        "field": "lv",
+        "current": "Zpráva. • Poskytněte zprávu • Poskytněte přehled",
+        "new": "Podat zprávu.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "Podat zprávu."
+      },
+      {
+        "cardId": "sentence-197",
+        "field": "lv",
+        "current": "Cokoli chcete.",
+        "new": "Při nejlepší vůli.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "Při nejlepší vůli."
+      },
+      {
+        "cardId": "sentence-198",
+        "field": "lv",
+        "current": "Nejlepší.",
+        "new": "Nejlépe.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group04-cards-151-200.md",
+        "actual": "Nejlépe."
+      },
+      {
+        "cardId": "sentence-201",
+        "field": "lv",
+        "current": "Pozdravit.",
+        "new": "Vyřídit pozdravy.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Vyřídit pozdravy."
+      },
+      {
+        "cardId": "sentence-202",
+        "field": "lv",
+        "current": "Rozhodně. • Zcela bezpečné",
+        "new": "Rozhodně.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Rozhodně."
+      },
+      {
+        "cardId": "sentence-203",
+        "field": "lv",
+        "current": "Přijďte navštívit.",
+        "new": "Přijít na návštěvu.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Přijít na návštěvu."
+      },
+      {
+        "cardId": "sentence-204",
+        "field": "lv",
+        "current": "Na návštěvu. • Navštívit",
+        "new": "Být na návštěvě.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Být na návštěvě."
+      },
+      {
+        "cardId": "sentence-205",
+        "field": "lv",
+        "current": "Často chodí na koncerty.",
+        "new": "Často chodit na koncerty.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Často chodit na koncerty."
+      },
+      {
+        "cardId": "sentence-207",
+        "field": "lv",
+        "current": "Vzít v úvahu. • Zvažte",
+        "new": "Vzít v úvahu. • Zvážit.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Vzít v úvahu. • Zvážit."
+      },
+      {
+        "cardId": "sentence-208",
+        "field": "lv",
+        "current": "Ignorovat. • Neuvažujte",
+        "new": "Nevzít v úvahu. • Pominout.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Nevzít v úvahu. • Pominout."
+      },
+      {
+        "cardId": "sentence-211",
+        "field": "lv",
+        "current": "Zaplať všechno.",
+        "new": "Zaplatit všechno.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Zaplatit všechno."
+      },
+      {
+        "cardId": "sentence-214",
+        "field": "lv",
+        "current": "Jak prosím",
+        "new": "Prosím?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Prosím?"
+      },
+      {
+        "cardId": "sentence-217",
+        "field": "lv",
+        "current": "Trubte na trubku.",
+        "new": "Troubit na trubku.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Troubit na trubku."
+      },
+      {
+        "cardId": "sentence-218",
+        "field": "lv",
+        "current": "Roztřiďte knihu.",
+        "new": "Listovat v knize.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Listovat v knize."
+      },
+      {
+        "cardId": "sentence-219",
+        "field": "lv",
+        "current": "Bosé nohy.",
+        "new": "Bosýma nohama.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Bosýma nohama."
+      },
+      {
+        "cardId": "sentence-221",
+        "field": "lv",
+        "current": "Díky za květiny!",
+        "new": "Díky za kompliment!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Díky za kompliment!"
+      },
+      {
+        "cardId": "sentence-223",
+        "field": "lv",
+        "current": "Kontrola. • Zkontrolujte",
+        "new": "Prosím, zkontrolujte.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Prosím, zkontrolujte."
+      },
+      {
+        "cardId": "sentence-225",
+        "field": "lv",
+        "current": "Všechno mluví dobře.",
+        "new": "Všechno tomu nasvědčuje.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Všechno tomu nasvědčuje."
+      },
+      {
+        "cardId": "sentence-226",
+        "field": "lv",
+        "current": "Nemůžu tam nic dělat.",
+        "new": "Nemůžu za to.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Nemůžu za to."
+      },
+      {
+        "cardId": "sentence-230",
+        "field": "lv",
+        "current": "Udělejte dámský tah.",
+        "new": "Táhnout dámou.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Táhnout dámou."
+      },
+      {
+        "cardId": "sentence-234",
+        "field": "lv",
+        "current": "Na to se můžete spolehnout.",
+        "new": "Na to se můžeš spolehnout.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Na to se můžeš spolehnout."
+      },
+      {
+        "cardId": "sentence-236",
+        "field": "lv",
+        "current": "Aby...",
+        "new": "Takže...",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Takže..."
+      },
+      {
+        "cardId": "sentence-237",
+        "field": "lv",
+        "current": "Co si myslíš, že jsem?",
+        "new": "Za koho mě považujete?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Za koho mě považujete?"
+      },
+      {
+        "cardId": "sentence-239",
+        "field": "lv",
+        "current": "Neskláněj hlavu!",
+        "new": "Nevěš hlavu!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Nevěš hlavu!"
+      },
+      {
+        "cardId": "sentence-242",
+        "field": "lv",
+        "current": "Od dětství • Od samého počátku",
+        "new": "Od přírody. • Odjakživa.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Od přírody. • Odjakživa."
+      },
+      {
+        "cardId": "sentence-243",
+        "field": "lv",
+        "current": "Gratuluji!",
+        "new": "Srdečně blahopřeji!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Srdečně blahopřeji!"
+      },
+      {
+        "cardId": "sentence-244",
+        "field": "lv",
+        "current": "Buď tak laskav! • Buďte tak dobří!",
+        "new": "Buďte tak laskav!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Buďte tak laskav!"
+      },
+      {
+        "cardId": "sentence-245",
+        "field": "lv",
+        "current": "Buď tak laskav!",
+        "new": "Buďte tak laskav!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group05-cards-201-250.md",
+        "actual": "Buďte tak laskav!"
+      },
+      {
+        "cardId": "sentence-251",
+        "field": "lv",
+        "current": "Včera v noci",
+        "new": "Včera večer",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group06-cards-251-300.md",
+        "actual": "Včera večer"
+      },
+      {
+        "cardId": "sentence-254",
+        "field": "lv",
+        "current": "Nedělejte nesmysly! • Nedělejte si legraci!",
+        "new": "Nedělej hlouposti!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group06-cards-251-300.md",
+        "actual": "Nedělej hlouposti!"
+      },
+      {
+        "cardId": "sentence-255",
+        "field": "lv",
+        "current": "O tom nemluvě. • Kde jinde",
+        "new": "O tom nemluvě. • Natož...",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group06-cards-251-300.md",
+        "actual": "O tom nemluvě. • Natož..."
+      },
+      {
+        "cardId": "sentence-257",
+        "field": "lv",
+        "current": "Jak se máš • Jak se máš?",
+        "new": "Jak se máte?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group06-cards-251-300.md",
+        "actual": "Jak se máte?"
+      },
+      {
+        "cardId": "sentence-258",
+        "field": "lv",
+        "current": "Zeptejte se ho, jestli vyjde, jestli...",
+        "new": "Občas se ho zeptej, jestli...",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group06-cards-251-300.md",
+        "actual": "Občas se ho zeptej, jestli..."
+      },
+      {
+        "cardId": "sentence-263",
+        "field": "lv",
+        "current": "Jen tak dál!",
+        "new": "Pokračuj!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group06-cards-251-300.md",
+        "actual": "Pokračuj!"
+      },
+      {
+        "cardId": "sentence-266",
+        "field": "lv",
+        "current": "Pamatuješ si mě • Myslel jsi na mě?",
+        "new": "Pamatuješ si mě? • Myslíš na mě?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group06-cards-251-300.md",
+        "actual": "Pamatuješ si mě? • Myslíš na mě?"
+      },
+      {
+        "cardId": "sentence-268",
+        "field": "lv",
+        "current": "V jakém roce jsi se narodil?",
+        "new": "Který jste ročník?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group06-cards-251-300.md",
+        "actual": "Který jste ročník?"
+      },
+      {
+        "cardId": "sentence-269",
+        "field": "lv",
+        "current": "Smutné sledovat...",
+        "new": "Je mi líto vidět...",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group06-cards-251-300.md",
+        "actual": "Je mi líto vidět..."
+      },
+      {
+        "cardId": "sentence-271",
+        "field": "lv",
+        "current": "Až do teď",
+        "new": "Doteď",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group06-cards-251-300.md",
+        "actual": "Doteď"
+      },
+      {
+        "cardId": "sentence-277",
+        "field": "lv",
+        "current": "Přestaň! • Pusťte to!",
+        "new": "Přestaň! • Nech toho!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group06-cards-251-300.md",
+        "actual": "Přestaň! • Nech toho!"
+      },
+      {
+        "cardId": "sentence-280",
+        "field": "lv",
+        "current": "Jdeme na to!",
+        "new": "Pojďme!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group06-cards-251-300.md",
+        "actual": "Pojďme!"
+      },
+      {
+        "cardId": "sentence-281",
+        "field": "lv",
+        "current": "Jak se máte",
+        "new": "Tak jak to jde?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group06-cards-251-300.md",
+        "actual": "Tak jak to jde?"
+      },
+      {
+        "cardId": "sentence-283",
+        "field": "lv",
+        "current": "Žijte zdravě! • Sbohem!",
+        "new": "Sbohem!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group06-cards-251-300.md",
+        "actual": "Sbohem!"
+      },
+      {
+        "cardId": "sentence-284",
+        "field": "lv",
+        "current": "Co se stalo?",
+        "new": "Co se děje?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group06-cards-251-300.md",
+        "actual": "Co se děje?"
+      },
+      {
+        "cardId": "sentence-286",
+        "field": "lv",
+        "current": "Byl to rušný den.",
+        "new": "Byl to náročný den.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group06-cards-251-300.md",
+        "actual": "Byl to náročný den."
+      },
+      {
+        "cardId": "sentence-294",
+        "field": "lv",
+        "current": "Pes byl propuštěn.",
+        "new": "Pes je na volno.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group06-cards-251-300.md",
+        "actual": "Pes je na volno."
+      },
+      {
+        "cardId": "sentence-296",
+        "field": "lv",
+        "current": "Zadržte dech!",
+        "new": "Zadrž dech!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group06-cards-251-300.md",
+        "actual": "Zadrž dech!"
+      },
+      {
+        "cardId": "sentence-297",
+        "field": "lv",
+        "current": "Co to děláš",
+        "new": "Co to děláš?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group06-cards-251-300.md",
+        "actual": "Co to děláš?"
+      },
+      {
+        "cardId": "sentence-298",
+        "field": "lv",
+        "current": "Řekni ano!",
+        "new": "Hele!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group06-cards-251-300.md",
+        "actual": "Hele!"
+      },
+      {
+        "cardId": "sentence-299",
+        "field": "lv",
+        "current": "Co tím myslíš? • Co si myslíte?",
+        "new": "Co tím myslíte?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group06-cards-251-300.md",
+        "actual": "Co tím myslíte?"
+      },
+      {
+        "cardId": "sentence-310",
+        "field": "lv",
+        "current": "Nejnovější zprávy!",
+        "new": "Nejnovější novinka!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group07-cards-301-350.md",
+        "actual": "Nejnovější novinka!"
+      },
+      {
+        "cardId": "sentence-311",
+        "field": "lv",
+        "current": "Právo?",
+        "new": "Že ano?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group07-cards-301-350.md",
+        "actual": "Že ano?"
+      },
+      {
+        "cardId": "sentence-312",
+        "field": "lv",
+        "current": "Ne, samozřejmě! • Ne!",
+        "new": "Ale ne! • To ne!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group07-cards-301-350.md",
+        "actual": "Ale ne! • To ne!"
+      },
+      {
+        "cardId": "sentence-329",
+        "field": "lv",
+        "current": "Kolik...",
+        "new": "Jakkoli...",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group07-cards-301-350.md",
+        "actual": "Jakkoli..."
+      },
+      {
+        "cardId": "sentence-333",
+        "field": "lv",
+        "current": "Nejen... ale i...",
+        "new": "Nejen..., ale i...",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group07-cards-301-350.md",
+        "actual": "Nejen..., ale i..."
+      },
+      {
+        "cardId": "sentence-335",
+        "field": "lv",
+        "current": "Žádný vtip! • Vtipy na hraně!",
+        "new": "Ale vážně! • Žerty stranou!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group07-cards-301-350.md",
+        "actual": "Ale vážně! • Žerty stranou!"
+      },
+      {
+        "cardId": "sentence-336",
+        "field": "lv",
+        "current": "Kolik je hodin",
+        "new": "Kolik je hodin?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group07-cards-301-350.md",
+        "actual": "Kolik je hodin?"
+      },
+      {
+        "cardId": "sentence-337",
+        "field": "lv",
+        "current": "Projíždění je zakázáno!",
+        "new": "Průjezd uzavřen!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group07-cards-301-350.md",
+        "actual": "Průjezd uzavřen!"
+      },
+      {
+        "cardId": "sentence-340",
+        "field": "lv",
+        "current": "Jak se máte",
+        "new": "Jak se máte?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group07-cards-301-350.md",
+        "actual": "Jak se máte?"
+      },
+      {
+        "cardId": "sentence-342",
+        "field": "lv",
+        "current": "Ahoj!",
+        "new": "Dobrý den!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group07-cards-301-350.md",
+        "actual": "Dobrý den!"
+      },
+      {
+        "cardId": "sentence-344",
+        "field": "lv",
+        "current": "Pojď blíž!",
+        "new": "Pojďte blíž!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group07-cards-301-350.md",
+        "actual": "Pojďte blíž!"
+      },
+      {
+        "cardId": "sentence-347",
+        "field": "lv",
+        "current": "Velmi dobře! • Nejsou žádné námitky",
+        "new": "Ujde! • Není to špatné!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group07-cards-301-350.md",
+        "actual": "Ujde! • Není to špatné!"
+      },
+      {
+        "cardId": "sentence-349",
+        "field": "lv",
+        "current": "Je si tím jistý.",
+        "new": "Je o tom přesvědčen.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group07-cards-301-350.md",
+        "actual": "Je o tom přesvědčen."
+      },
+      {
+        "cardId": "sentence-350",
+        "field": "lv",
+        "current": "Je to přijato.",
+        "new": "Tak se to běžně dělá.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group08-cards-351-400.md",
+        "actual": "Tak se to běžně dělá."
+      },
+      {
+        "cardId": "sentence-351",
+        "field": "lv",
+        "current": "Vaše hodinky jsou pozadu.",
+        "new": "Tvoje hodinky jdou pozdě.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group08-cards-351-400.md",
+        "actual": "Tvoje hodinky jdou pozdě."
+      },
+      {
+        "cardId": "sentence-355",
+        "field": "lv",
+        "current": "Odbočte doprava!",
+        "new": "Vpravo v bok!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group08-cards-351-400.md",
+        "actual": "Vpravo v bok!"
+      },
+      {
+        "cardId": "sentence-356",
+        "field": "lv",
+        "current": "A co ještě!",
+        "new": "A jak!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group08-cards-351-400.md",
+        "actual": "A jak!"
+      },
+      {
+        "cardId": "sentence-357",
+        "field": "lv",
+        "current": "A to",
+        "new": "A sice",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group08-cards-351-400.md",
+        "actual": "A sice"
+      },
+      {
+        "cardId": "sentence-360",
+        "field": "lv",
+        "current": "Nic za nic!",
+        "new": "Není zač!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group08-cards-351-400.md",
+        "actual": "Není zač!"
+      },
+      {
+        "cardId": "sentence-363",
+        "field": "lv",
+        "current": "Špatné připojení!",
+        "new": "Špatné spojení!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group08-cards-351-400.md",
+        "actual": "Špatné spojení!"
+      },
+      {
+        "cardId": "sentence-365",
+        "field": "lv",
+        "current": "Rozumíš mi?",
+        "new": "Rozumíte mi?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group08-cards-351-400.md",
+        "actual": "Rozumíte mi?"
+      },
+      {
+        "cardId": "sentence-367",
+        "field": "lv",
+        "current": "Obhajujte svůj názor.",
+        "new": "Zastávat jeho názor.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group08-cards-351-400.md",
+        "actual": "Zastávat jeho názor."
+      },
+      {
+        "cardId": "sentence-371",
+        "field": "lv",
+        "current": "Po vyslechnutí.",
+        "new": "Z doslechu.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group08-cards-351-400.md",
+        "actual": "Z doslechu."
+      },
+      {
+        "cardId": "sentence-373",
+        "field": "lv",
+        "current": "Podle povolání.",
+        "new": "Povoláním.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group08-cards-351-400.md",
+        "actual": "Povoláním."
+      },
+      {
+        "cardId": "sentence-375",
+        "field": "lv",
+        "current": "Stojí u okna.",
+        "new": "Stojí před oknem.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group08-cards-351-400.md",
+        "actual": "Stojí před oknem."
+      },
+      {
+        "cardId": "sentence-377",
+        "field": "lv",
+        "current": "Před dvěma týdny.",
+        "new": "Před čtrnácti dny.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group08-cards-351-400.md",
+        "actual": "Před čtrnácti dny."
+      },
+      {
+        "cardId": "sentence-378",
+        "field": "lv",
+        "current": "Pro zábavu.",
+        "new": "Radostí.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group08-cards-351-400.md",
+        "actual": "Radostí."
+      },
+      {
+        "cardId": "sentence-379",
+        "field": "lv",
+        "current": "Především. • Především",
+        "new": "Především.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group08-cards-351-400.md",
+        "actual": "Především."
+      },
+      {
+        "cardId": "sentence-380",
+        "field": "lv",
+        "current": "Dříve.",
+        "new": "Předem.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group08-cards-351-400.md",
+        "actual": "Předem."
+      },
+      {
+        "cardId": "sentence-382",
+        "field": "lv",
+        "current": "Podmíněně.",
+        "new": "S výhradou.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group08-cards-351-400.md",
+        "actual": "S výhradou."
+      },
+      {
+        "cardId": "sentence-383",
+        "field": "lv",
+        "current": "Být. • Buďte přítomni • Buďte k dispozici",
+        "new": "Být k dispozici. • Být přítomen.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group08-cards-351-400.md",
+        "actual": "Být k dispozici. • Být přítomen."
+      },
+      {
+        "cardId": "sentence-385",
+        "field": "lv",
+        "current": "Přijměte opatření na ochranu.",
+        "new": "Učinit opatření.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group08-cards-351-400.md",
+        "actual": "Učinit opatření."
+      },
+      {
+        "cardId": "sentence-388",
+        "field": "lv",
+        "current": "Dnes ráno. • Dnes ráno",
+        "new": "Dnes dopoledne.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group08-cards-351-400.md",
+        "actual": "Dnes dopoledne."
+      },
+      {
+        "cardId": "sentence-392",
+        "field": "lv",
+        "current": "Buďte v lepší pozici.",
+        "new": "Být ve výhodě.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group08-cards-351-400.md",
+        "actual": "Být ve výhodě."
+      },
+      {
+        "cardId": "sentence-394",
+        "field": "lv",
+        "current": "Probuď se.",
+        "new": "Probudit se.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group08-cards-351-400.md",
+        "actual": "Probudit se."
+      },
+      {
+        "cardId": "sentence-395",
+        "field": "lv",
+        "current": "Stůj na stráži.",
+        "new": "Být na stráži.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group08-cards-351-400.md",
+        "actual": "Být na stráži."
+      },
+      {
+        "cardId": "sentence-398",
+        "field": "lv",
+        "current": "Marné řeči.",
+        "new": "Mluvit do zdi.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group08-cards-351-400.md",
+        "actual": "Mluvit do zdi."
+      },
+      {
+        "cardId": "sentence-402",
+        "field": "lv",
+        "current": "Počkejte na zprávu.",
+        "new": "Čekat na zprávu.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "Čekat na zprávu."
+      },
+      {
+        "cardId": "sentence-403",
+        "field": "lv",
+        "current": "Co chceš?",
+        "new": "Co chcete?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "Co chcete?"
+      },
+      {
+        "cardId": "sentence-406",
+        "field": "lv",
+        "current": "Takhle. • Za takové prostředky",
+        "new": "Takhle. • Takovými prostředky.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "Takhle. • Takovými prostředky."
+      },
+      {
+        "cardId": "sentence-407",
+        "field": "lv",
+        "current": "Na cestě míru.",
+        "new": "Mírovou cestou.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "Mírovou cestou."
+      },
+      {
+        "cardId": "sentence-409",
+        "field": "lv",
+        "current": "Spravedlností.",
+        "new": "Právem.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "Právem."
+      },
+      {
+        "cardId": "sentence-410",
+        "field": "lv",
+        "current": "Ublížit.",
+        "new": "Bolet.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "Bolet."
+      },
+      {
+        "cardId": "sentence-413",
+        "field": "lv",
+        "current": "Typ.",
+        "new": "Způsob.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "Způsob."
+      },
+      {
+        "cardId": "sentence-414",
+        "field": "lv",
+        "current": "Ihned. • Okamžitě",
+        "new": "Bez dalšího.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "Bez dalšího."
+      },
+      {
+        "cardId": "sentence-420",
+        "field": "lv",
+        "current": "V některých dnech.",
+        "new": "Za několik dní.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "Za několik dní."
+      },
+      {
+        "cardId": "sentence-423",
+        "field": "lv",
+        "current": "Co je tam?",
+        "new": "Kdo je tam?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "Kdo je tam?"
+      },
+      {
+        "cardId": "sentence-425",
+        "field": "lv",
+        "current": "Výběr děl.",
+        "new": "Vybraná díla.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "Vybraná díla."
+      },
+      {
+        "cardId": "sentence-430",
+        "field": "lv",
+        "current": "Zapojte se do soutěže.",
+        "new": "Zapojit se do soutěže.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "Zapojit se do soutěže."
+      },
+      {
+        "cardId": "sentence-431",
+        "field": "lv",
+        "current": "Běžte závod.",
+        "new": "Závodit.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "Závodit."
+      },
+      {
+        "cardId": "sentence-432",
+        "field": "lv",
+        "current": "O čem vyjednáváme?",
+        "new": "O co se sázíme?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "O co se sázíme?"
+      },
+      {
+        "cardId": "sentence-436",
+        "field": "lv",
+        "current": "Na protest. • Vznést námitky",
+        "new": "Vznést námitku.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "Vznést námitku."
+      },
+      {
+        "cardId": "sentence-438",
+        "field": "lv",
+        "current": "Jak dlouho",
+        "new": "Jak dlouho?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "Jak dlouho?"
+      },
+      {
+        "cardId": "sentence-439",
+        "field": "lv",
+        "current": "Sbohem!",
+        "new": "Na slyšenou!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "Na slyšenou!"
+      },
+      {
+        "cardId": "sentence-440",
+        "field": "lv",
+        "current": "Sbohem!",
+        "new": "Na shledanou!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "Na shledanou!"
+      },
+      {
+        "cardId": "sentence-442",
+        "field": "lv",
+        "current": "Srdečné pozdravy!",
+        "new": "Srdečně vítejte!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "Srdečně vítejte!"
+      },
+      {
+        "cardId": "sentence-443",
+        "field": "lv",
+        "current": "Máš tah.",
+        "new": "Musíš táhnout.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "Musíš táhnout."
+      },
+      {
+        "cardId": "sentence-444",
+        "field": "lv",
+        "current": "SEM",
+        "new": "Táhne.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "Táhne."
+      },
+      {
+        "cardId": "sentence-446",
+        "field": "lv",
+        "current": "Tip na klobásu.",
+        "new": "Konec klobásy.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "Konec klobásy."
+      },
+      {
+        "cardId": "sentence-447",
+        "field": "lv",
+        "current": "Jdi k němu.",
+        "new": "Jít k němu.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "Jít k němu."
+      },
+      {
+        "cardId": "sentence-448",
+        "field": "lv",
+        "current": "Jdi do školy.",
+        "new": "Jít do školy.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "Jít do školy."
+      },
+      {
+        "cardId": "sentence-449",
+        "field": "lv",
+        "current": "Zůstaňte doma.",
+        "new": "Zůstat doma.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group09-cards-401-450.md",
+        "actual": "Zůstat doma."
+      },
+      {
+        "cardId": "sentence-450",
+        "field": "lv",
+        "current": "Na denní bázi.",
+        "new": "Den ode dne.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group10-cards-451-500.md",
+        "actual": "Den ode dne."
+      },
+      {
+        "cardId": "sentence-453",
+        "field": "lv",
+        "current": "Pro nohy.",
+        "new": "Pěšky.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group10-cards-451-500.md",
+        "actual": "Pěšky."
+      },
+      {
+        "cardId": "sentence-454",
+        "field": "lv",
+        "current": "Ano.",
+        "new": "Na koni.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group10-cards-451-500.md",
+        "actual": "Na koni."
+      },
+      {
+        "cardId": "sentence-461",
+        "field": "lv",
+        "current": "Vypijte jedním douškem.",
+        "new": "Vypít jedním douškem.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group10-cards-451-500.md",
+        "actual": "Vypít jedním douškem."
+      },
+      {
+        "cardId": "sentence-463",
+        "field": "lv",
+        "current": "Položte na základ. • Vezměte jako základ.",
+        "new": "Položit za základ. • Brát jako základ.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group10-cards-451-500.md",
+        "actual": "Položit za základ. • Brát jako základ."
+      },
+      {
+        "cardId": "sentence-471",
+        "field": "lv",
+        "current": "Vstup zdarma.",
+        "new": "Volný vstup.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group10-cards-451-500.md",
+        "actual": "Volný vstup."
+      },
+      {
+        "cardId": "sentence-474",
+        "field": "lv",
+        "current": "Staňte se nechutnými. • Onemocnět",
+        "new": "Stát se protivným. • Zprotivit se.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group10-cards-451-500.md",
+        "actual": "Stát se protivným. • Zprotivit se."
+      },
+      {
+        "cardId": "sentence-477",
+        "field": "lv",
+        "current": "Bez váhání.",
+        "new": "Bez pochyby.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group10-cards-451-500.md",
+        "actual": "Bez pochyby."
+      },
+      {
+        "cardId": "sentence-482",
+        "field": "lv",
+        "current": "Rád tě poznávám.",
+        "new": "Rád vás poznávám.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group10-cards-451-500.md",
+        "actual": "Rád vás poznávám."
+      },
+      {
+        "cardId": "sentence-483",
+        "field": "lv",
+        "current": "Byl bys prosím tak laskav?",
+        "new": "Byl byste prosím tak laskav?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group10-cards-451-500.md",
+        "actual": "Byl byste prosím tak laskav?"
+      },
+      {
+        "cardId": "sentence-488",
+        "field": "lv",
+        "current": "Prosím, jděte do posilovny!",
+        "new": "Prosím, jděte do sportovní haly!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group10-cards-451-500.md",
+        "actual": "Prosím, jděte do sportovní haly!"
+      },
+      {
+        "cardId": "sentence-490",
+        "field": "lv",
+        "current": "Ty ještě spíš?",
+        "new": "Spíte ještě?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group10-cards-451-500.md",
+        "actual": "Spíte ještě?"
+      },
+      {
+        "cardId": "sentence-491",
+        "field": "lv",
+        "current": "Tvrdě spí.",
+        "new": "Pevně usnul.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group10-cards-451-500.md",
+        "actual": "Pevně usnul."
+      },
+      {
+        "cardId": "sentence-492",
+        "field": "lv",
+        "current": "Prosím, vzbuďte ho, už je pozdě!",
+        "new": "Prosím, vzbuď ho, už je pozdě!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group10-cards-451-500.md",
+        "actual": "Prosím, vzbuď ho, už je pozdě!"
+      },
+      {
+        "cardId": "sentence-496",
+        "field": "lv",
+        "current": "Čtěte, prosím!",
+        "new": "Čtěte s námi, prosím!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group10-cards-451-500.md",
+        "actual": "Čtěte s námi, prosím!"
+      },
+      {
+        "cardId": "sentence-499",
+        "field": "lv",
+        "current": "Vraťte se na své místo!",
+        "new": "Vrať se prosím na své místo!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group10-cards-451-500.md",
+        "actual": "Vrať se prosím na své místo!"
+      },
+      {
+        "cardId": "sentence-501",
+        "field": "lv",
+        "current": "Kdy obvykle vstáváš?",
+        "new": "Kdy se obvykle probouzíš?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group11-cards-501-550.md",
+        "actual": "Kdy se obvykle probouzíš?"
+      },
+      {
+        "cardId": "sentence-503",
+        "field": "lv",
+        "current": "Vstávej, Hannah, zvonek zvoní!",
+        "new": "Vstávej, Hanno, zvoní!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group11-cards-501-550.md",
+        "actual": "Vstávej, Hanno, zvoní!"
+      },
+      {
+        "cardId": "sentence-505",
+        "field": "lv",
+        "current": "Nezapomeňte místnost větrat!",
+        "new": "Nezapomeň vyvětrat pokoj!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group11-cards-501-550.md",
+        "actual": "Nezapomeň vyvětrat pokoj!"
+      },
+      {
+        "cardId": "sentence-506",
+        "field": "lv",
+        "current": "Kde je ručník",
+        "new": "Kde je ručník?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group11-cards-501-550.md",
+        "actual": "Kde je ručník?"
+      },
+      {
+        "cardId": "sentence-508",
+        "field": "lv",
+        "current": "Čím si čistíte zuby?",
+        "new": "Čím si čistíš zuby?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group11-cards-501-550.md",
+        "actual": "Čím si čistíš zuby?"
+      },
+      {
+        "cardId": "sentence-511",
+        "field": "lv",
+        "current": "Teple se oblečte, venku je zima.",
+        "new": "Obleč se tepleji, venku je chladno.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group11-cards-501-550.md",
+        "actual": "Obleč se tepleji, venku je chladno."
+      },
+      {
+        "cardId": "sentence-515",
+        "field": "lv",
+        "current": "Jaký je tady nepořádek!",
+        "new": "To je ale nepořádek!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group11-cards-501-550.md",
+        "actual": "To je ale nepořádek!"
+      },
+      {
+        "cardId": "sentence-519",
+        "field": "lv",
+        "current": "Nejlépe piju černou kávu.",
+        "new": "Nejraději piju černou kávu.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group11-cards-501-550.md",
+        "actual": "Nejraději piju černou kávu."
+      },
+      {
+        "cardId": "sentence-520",
+        "field": "lv",
+        "current": "Dobré ráno, vyspali jste se dobře?",
+        "new": "Dobré ráno, vyspal ses dobře?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group11-cards-501-550.md",
+        "actual": "Dobré ráno, vyspal ses dobře?"
+      },
+      {
+        "cardId": "sentence-523",
+        "field": "lv",
+        "current": "Dejte mi sýrovou buchtu, prosím.",
+        "new": "Dej mi prosím housku se sýrem.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group11-cards-501-550.md",
+        "actual": "Dej mi prosím housku se sýrem."
+      },
+      {
+        "cardId": "sentence-525",
+        "field": "lv",
+        "current": "Nezapomeňte na snídani!",
+        "new": "Nezapomeň na snídani!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group11-cards-501-550.md",
+        "actual": "Nezapomeň na snídani!"
+      },
+      {
+        "cardId": "sentence-526",
+        "field": "lv",
+        "current": "Claro, prosím prostřeš stůl!",
+        "new": "Klaro, prosím, prostři stůl!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group11-cards-501-550.md",
+        "actual": "Klaro, prosím, prostři stůl!"
+      },
+      {
+        "cardId": "sentence-527",
+        "field": "lv",
+        "current": "Nezapomeňte na ubrousky!",
+        "new": "Nezapomeň na ubrousky!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group11-cards-501-550.md",
+        "actual": "Nezapomeň na ubrousky!"
+      },
+      {
+        "cardId": "sentence-528",
+        "field": "lv",
+        "current": "Kdy obědváš",
+        "new": "Kdy obědváte?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group11-cards-501-550.md",
+        "actual": "Kdy obědváte?"
+      },
+      {
+        "cardId": "sentence-531",
+        "field": "lv",
+        "current": "Jak vám chutná polévka?",
+        "new": "Jak ti chutná polévka?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group11-cards-501-550.md",
+        "actual": "Jak ti chutná polévka?"
+      },
+      {
+        "cardId": "sentence-532",
+        "field": "lv",
+        "current": "Upřímně řečeno, je to trochu příliš slané.",
+        "new": "Upřímně řečeno, je trochu příliš slaná.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group11-cards-501-550.md",
+        "actual": "Upřímně řečeno, je trochu příliš slaná."
+      },
+      {
+        "cardId": "sentence-538",
+        "field": "lv",
+        "current": "Máš dnes večer volno",
+        "new": "Máš dnes večer volno?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group11-cards-501-550.md",
+        "actual": "Máš dnes večer volno?"
+      },
+      {
+        "cardId": "sentence-539",
+        "field": "lv",
+        "current": "Přijďte dnes na oběd!",
+        "new": "Přijď dnes na oběd!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group11-cards-501-550.md",
+        "actual": "Přijď dnes na oběd!"
+      },
+      {
+        "cardId": "sentence-541",
+        "field": "lv",
+        "current": "Jezte, prosím, kolik chcete!",
+        "new": "Posluž si, prosím!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group11-cards-501-550.md",
+        "actual": "Posluž si, prosím!"
+      },
+      {
+        "cardId": "sentence-542",
+        "field": "lv",
+        "current": "Vadí vám kouření?",
+        "new": "Vadí ti kouření?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group11-cards-501-550.md",
+        "actual": "Vadí ti kouření?"
+      },
+      {
+        "cardId": "sentence-543",
+        "field": "lv",
+        "current": "Děkujeme za vřelé přivítání!",
+        "new": "Děkuji za vřelé přivítání!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group11-cards-501-550.md",
+        "actual": "Děkuji za vřelé přivítání!"
+      },
+      {
+        "cardId": "sentence-544",
+        "field": "lv",
+        "current": "Kdy jdeš spát",
+        "new": "Kdy jdeš spát?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group11-cards-501-550.md",
+        "actual": "Kdy jdeš spát?"
+      },
+      {
+        "cardId": "sentence-547",
+        "field": "lv",
+        "current": "Je to pěkný čas.",
+        "new": "Je hezké počasí.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group11-cards-501-550.md",
+        "actual": "Je hezké počasí."
+      },
+      {
+        "cardId": "sentence-548",
+        "field": "lv",
+        "current": "Chceš jít se mnou?",
+        "new": "Chceš se se mnou projít?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group11-cards-501-550.md",
+        "actual": "Chceš se se mnou projít?"
+      },
+      {
+        "cardId": "sentence-550",
+        "field": "lv",
+        "current": "Vezměte si s sebou deštník!",
+        "new": "Vezmi si s sebou deštník!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group12-cards-551-600.md",
+        "actual": "Vezmi si s sebou deštník!"
+      },
+      {
+        "cardId": "sentence-553",
+        "field": "lv",
+        "current": "Myslíte, že bude celý den pršet?",
+        "new": "Myslíš, že bude celý den pršet?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group12-cards-551-600.md",
+        "actual": "Myslíš, že bude celý den pršet?"
+      },
+      {
+        "cardId": "sentence-556",
+        "field": "lv",
+        "current": "Je velmi horko.",
+        "new": "Je velmi teplo.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group12-cards-551-600.md",
+        "actual": "Je velmi teplo."
+      },
+      {
+        "cardId": "sentence-559",
+        "field": "lv",
+        "current": "Bouře přešla.",
+        "new": "Bouřka přechází.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group12-cards-551-600.md",
+        "actual": "Bouřka přechází."
+      },
+      {
+        "cardId": "sentence-560",
+        "field": "lv",
+        "current": "Mraky se rozptýlí.",
+        "new": "Mraky se rozptylují.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group12-cards-551-600.md",
+        "actual": "Mraky se rozptylují."
+      },
+      {
+        "cardId": "sentence-562",
+        "field": "lv",
+        "current": "Zima je tady, v noci sněžilo.",
+        "new": "Zima je tady, sněžilo.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group12-cards-551-600.md",
+        "actual": "Zima je tady, sněžilo."
+      },
+      {
+        "cardId": "sentence-568",
+        "field": "lv",
+        "current": "Oblečte si bundu, mohli byste nastydnout.",
+        "new": "Obleč si bundu, mohl bys nastydnout.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group12-cards-551-600.md",
+        "actual": "Obleč si bundu, mohl bys nastydnout."
+      },
+      {
+        "cardId": "sentence-569",
+        "field": "lv",
+        "current": "Je půl osmé.",
+        "new": "Je půl sedmé.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group12-cards-551-600.md",
+        "actual": "Je půl sedmé."
+      },
+      {
+        "cardId": "sentence-570",
+        "field": "lv",
+        "current": "Moje hodinky jsou rychlé pět minut.",
+        "new": "Moje hodinky jdou o pět minut napřed.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group12-cards-551-600.md",
+        "actual": "Moje hodinky jdou o pět minut napřed."
+      },
+      {
+        "cardId": "sentence-576",
+        "field": "lv",
+        "current": "Jak se máte",
+        "new": "Jak se máš?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group12-cards-551-600.md",
+        "actual": "Jak se máš?"
+      },
+      {
+        "cardId": "sentence-577",
+        "field": "lv",
+        "current": "Promiňte, chci s vámi něco probrat.",
+        "new": "Promiň, chci s tebou něco probrat.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group12-cards-551-600.md",
+        "actual": "Promiň, chci s tebou něco probrat."
+      },
+      {
+        "cardId": "sentence-580",
+        "field": "lv",
+        "current": "Přišel jsem tě vzít na procházku.",
+        "new": "Jdu tě vyzvednout na procházku.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group12-cards-551-600.md",
+        "actual": "Jdu tě vyzvednout na procházku."
+      },
+      {
+        "cardId": "sentence-582",
+        "field": "lv",
+        "current": "Jsem tu poprvé.",
+        "new": "Jsem v této oblasti poprvé.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group12-cards-551-600.md",
+        "actual": "Jsem v této oblasti poprvé."
+      },
+      {
+        "cardId": "sentence-586",
+        "field": "lv",
+        "current": "Promiňte, kde je nejbližší stanice metra?",
+        "new": "Promiň, kde je nejbližší stanice metra?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group12-cards-551-600.md",
+        "actual": "Promiň, kde je nejbližší stanice metra?"
+      },
+      {
+        "cardId": "sentence-588",
+        "field": "lv",
+        "current": "Zde odbočte druhou ulicí doleva a jděte rovně.",
+        "new": "Tady odboč druhou ulicí doleva a pak jdi pořád rovně.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group12-cards-551-600.md",
+        "actual": "Tady odboč druhou ulicí doleva a pak jdi pořád rovně."
+      },
+      {
+        "cardId": "sentence-589",
+        "field": "lv",
+        "current": "Jak se rychleji dostat na nádraží?",
+        "new": "Jak se nejrychleji dostanu na nádraží?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group12-cards-551-600.md",
+        "actual": "Jak se nejrychleji dostanu na nádraží?"
+      },
+      {
+        "cardId": "sentence-591",
+        "field": "lv",
+        "current": "Kam chceš jít?",
+        "new": "Kam chceš jet?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group12-cards-551-600.md",
+        "actual": "Kam chceš jet?"
+      },
+      {
+        "cardId": "sentence-592",
+        "field": "lv",
+        "current": "Cestujete za prací nebo za zábavou?",
+        "new": "Cestuješ služebně, nebo soukromě?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group12-cards-551-600.md",
+        "actual": "Cestuješ služebně, nebo soukromě?"
+      },
+      {
+        "cardId": "sentence-595",
+        "field": "lv",
+        "current": "Po půl hodině.",
+        "new": "Za půl hodiny.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group12-cards-551-600.md",
+        "actual": "Za půl hodiny."
+      },
+      {
+        "cardId": "sentence-596",
+        "field": "lv",
+        "current": "Mohu ještě dostat chatu?",
+        "new": "Mohu ještě dostat kajutu?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group12-cards-551-600.md",
+        "actual": "Mohu ještě dostat kajutu?"
+      },
+      {
+        "cardId": "sentence-597",
+        "field": "lv",
+        "current": "Nezapomeňte si pas!",
+        "new": "Nezapomeň si pas!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group12-cards-551-600.md",
+        "actual": "Nezapomeň si pas!"
+      },
+      {
+        "cardId": "sentence-599",
+        "field": "lv",
+        "current": "Vlak odjíždí v půl osmé.",
+        "new": "Vlak odjíždí v půl sedmé.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group12-cards-551-600.md",
+        "actual": "Vlak odjíždí v půl sedmé."
+      },
+      {
+        "cardId": "sentence-600",
+        "field": "lv",
+        "current": "Zavolej si taxi, prosím, jinak zmeškám vlak!",
+        "new": "Zavolej mi prosím taxi, jinak zmeškám vlak!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group13-cards-601-650.md",
+        "actual": "Zavolej mi prosím taxi, jinak zmeškám vlak!"
+      },
+      {
+        "cardId": "sentence-601",
+        "field": "lv",
+        "current": "Prosím, vezměte mě na stanici!",
+        "new": "Jeď prosím na nádraží!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group13-cards-601-650.md",
+        "actual": "Jeď prosím na nádraží!"
+      },
+      {
+        "cardId": "sentence-607",
+        "field": "lv",
+        "current": "Musím v Koblenz změnit místo?",
+        "new": "Musím v Koblenzi přestoupit?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group13-cards-601-650.md",
+        "actual": "Musím v Koblenzi přestoupit?"
+      },
+      {
+        "cardId": "sentence-608",
+        "field": "lv",
+        "current": "Ano, musíte si tam přesednout.",
+        "new": "Ano, tam musíš přestoupit.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group13-cards-601-650.md",
+        "actual": "Ano, tam musíš přestoupit."
+      },
+      {
+        "cardId": "sentence-612",
+        "field": "lv",
+        "current": "Dejte mi příruční zavazadlo do mřížky.",
+        "new": "Dej moje příruční zavazadlo do sítě na zavazadla.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group13-cards-601-650.md",
+        "actual": "Dej moje příruční zavazadlo do sítě na zavazadla."
+      },
+      {
+        "cardId": "sentence-614",
+        "field": "lv",
+        "current": "Protáhněte se, prosím, zavřete okno!",
+        "new": "Táhne, prosím, zavři okno!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group13-cards-601-650.md",
+        "actual": "Táhne, prosím, zavři okno!"
+      },
+      {
+        "cardId": "sentence-617",
+        "field": "lv",
+        "current": "Kam mám přestoupit?",
+        "new": "Kde musím přestoupit?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group13-cards-601-650.md",
+        "actual": "Kde musím přestoupit?"
+      },
+      {
+        "cardId": "sentence-619",
+        "field": "lv",
+        "current": "Tento kočár je nekuřácký.",
+        "new": "Tento vůz je pro nekuřáky.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group13-cards-601-650.md",
+        "actual": "Tento vůz je pro nekuřáky."
+      },
+      {
+        "cardId": "sentence-621",
+        "field": "lv",
+        "current": "Máte něco na vymazání?",
+        "new": "Máš něco k proclení?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group13-cards-601-650.md",
+        "actual": "Máš něco k proclení?"
+      },
+      {
+        "cardId": "sentence-623",
+        "field": "lv",
+        "current": "Můžete mi doporučit dobrý hotel?",
+        "new": "Můžeš mi doporučit dobrý hotel?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group13-cards-601-650.md",
+        "actual": "Můžeš mi doporučit dobrý hotel?"
+      },
+      {
+        "cardId": "sentence-628",
+        "field": "lv",
+        "current": "Bille, prosím!",
+        "new": "Účet, prosím!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group13-cards-601-650.md",
+        "actual": "Účet, prosím!"
+      },
+      {
+        "cardId": "sentence-636",
+        "field": "lv",
+        "current": "Číšníci, menu, prosím!",
+        "new": "Číšníku, jídelní lístek, prosím!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group13-cards-601-650.md",
+        "actual": "Číšníku, jídelní lístek, prosím!"
+      },
+      {
+        "cardId": "sentence-639",
+        "field": "lv",
+        "current": "Číšníci, prosím zaplaťte!",
+        "new": "Číšníku, zaplatíme, prosím!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group13-cards-601-650.md",
+        "actual": "Číšníku, zaplatíme, prosím!"
+      },
+      {
+        "cardId": "sentence-640",
+        "field": "lv",
+        "current": "Půjdu do kavárny vypít kávu.",
+        "new": "Jdu do kavárny na kávu.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group13-cards-601-650.md",
+        "actual": "Jdu do kavárny na kávu."
+      },
+      {
+        "cardId": "sentence-644",
+        "field": "lv",
+        "current": "Nenechte kávu vychladnout!",
+        "new": "Nenech svou kávu vychladnout!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group13-cards-601-650.md",
+        "actual": "Nenech svou kávu vychladnout!"
+      },
+      {
+        "cardId": "sentence-651",
+        "field": "lv",
+        "current": "Připomeňte mi, abych se zítra podepsal!",
+        "new": "Připomeň mi, abych zítra napsal!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group14-cards-651-700.md",
+        "actual": "Připomeň mi, abych zítra napsal!"
+      },
+      {
+        "cardId": "sentence-656",
+        "field": "lv",
+        "current": "Prosím ostříhej mi vlasy.",
+        "new": "Prosím, ostříhejte mi vlasy.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group14-cards-651-700.md",
+        "actual": "Prosím, ostříhejte mi vlasy."
+      },
+      {
+        "cardId": "sentence-659",
+        "field": "lv",
+        "current": "Začíná se v půl deváté.",
+        "new": "Začíná v půl osmé.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group14-cards-651-700.md",
+        "actual": "Začíná v půl osmé."
+      },
+      {
+        "cardId": "sentence-660",
+        "field": "lv",
+        "current": "Všechny vstupenky jsou vyprodány.",
+        "new": "Všechna místa jsou vyprodaná.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group14-cards-651-700.md",
+        "actual": "Všechna místa jsou vyprodaná."
+      },
+      {
+        "cardId": "sentence-662",
+        "field": "lv",
+        "current": "Nechme bundy v šatníku.",
+        "new": "Bundy necháme v šatně.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group14-cards-651-700.md",
+        "actual": "Bundy necháme v šatně."
+      },
+      {
+        "cardId": "sentence-663",
+        "field": "lv",
+        "current": "Rychleji, prosím, opona se právě otevírá!",
+        "new": "Rychle, prosím, opona se brzy zvedne!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group14-cards-651-700.md",
+        "actual": "Rychle, prosím, opona se brzy zvedne!"
+      },
+      {
+        "cardId": "sentence-665",
+        "field": "lv",
+        "current": "Mohu vás požádat o tanec?",
+        "new": "Mohu tě požádat o tanec?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group14-cards-651-700.md",
+        "actual": "Mohu tě požádat o tanec?"
+      },
+      {
+        "cardId": "sentence-666",
+        "field": "lv",
+        "current": "Kdy máš svatbu?",
+        "new": "Kdy máte svatbu?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group14-cards-651-700.md",
+        "actual": "Kdy máte svatbu?"
+      },
+      {
+        "cardId": "sentence-674",
+        "field": "lv",
+        "current": "Jsem v korespondenci se svým přítelem.",
+        "new": "Jsem v kontaktu se svým přítelem.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group14-cards-651-700.md",
+        "actual": "Jsem v kontaktu se svým přítelem."
+      },
+      {
+        "cardId": "sentence-676",
+        "field": "lv",
+        "current": "Je vše nabité?",
+        "new": "Je všechno naložené?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group14-cards-651-700.md",
+        "actual": "Je všechno naložené?"
+      },
+      {
+        "cardId": "sentence-678",
+        "field": "lv",
+        "current": "Nyní můžeme dát vše zpět dohromady.",
+        "new": "Nyní můžeme všechno znovu uklidit.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group14-cards-651-700.md",
+        "actual": "Nyní můžeme všechno znovu uklidit."
+      },
+      {
+        "cardId": "sentence-681",
+        "field": "lv",
+        "current": "Umíte plavat",
+        "new": "Umíš plavat?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group14-cards-651-700.md",
+        "actual": "Umíš plavat?"
+      },
+      {
+        "cardId": "sentence-682",
+        "field": "lv",
+        "current": "Neplavte příliš daleko!",
+        "new": "Neplav příliš daleko!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group14-cards-651-700.md",
+        "actual": "Neplav příliš daleko!"
+      },
+      {
+        "cardId": "sentence-683",
+        "field": "lv",
+        "current": "Plaveš každý den?",
+        "new": "Koupeš se každý den?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group14-cards-651-700.md",
+        "actual": "Koupeš se každý den?"
+      },
+      {
+        "cardId": "sentence-688",
+        "field": "lv",
+        "current": "Je vždy milý a hodný.",
+        "new": "Je vždy milý a přátelský.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group14-cards-651-700.md",
+        "actual": "Je vždy milý a přátelský."
+      },
+      {
+        "cardId": "sentence-696",
+        "field": "lv",
+        "current": "Máte horečku?",
+        "new": "Máš horečku?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group14-cards-651-700.md",
+        "actual": "Máš horečku?"
+      },
+      {
+        "cardId": "sentence-697",
+        "field": "lv",
+        "current": "Včera jsem měl vysokou teplotu.",
+        "new": "Včera jsem měl zvýšenou teplotu.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group14-cards-651-700.md",
+        "actual": "Včera jsem měl zvýšenou teplotu."
+      },
+      {
+        "cardId": "sentence-702",
+        "field": "lv",
+        "current": "Chci zařídit byt.",
+        "new": "Chci znovu zařídit byt.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group15-cards-701-750.md",
+        "actual": "Chci znovu zařídit byt."
+      },
+      {
+        "cardId": "sentence-703",
+        "field": "lv",
+        "current": "Mohu nakupovat na splátky?",
+        "new": "Mohu to koupit na splátky?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group15-cards-701-750.md",
+        "actual": "Mohu to koupit na splátky?"
+      },
+      {
+        "cardId": "sentence-704",
+        "field": "lv",
+        "current": "Zůstaňte v posteli, dokud se nebudete cítit lépe!",
+        "new": "Zůstaň v posteli, dokud se nebudeš cítit lépe!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group15-cards-701-750.md",
+        "actual": "Zůstaň v posteli, dokud se nebudeš cítit lépe!"
+      },
+      {
+        "cardId": "sentence-706",
+        "field": "lv",
+        "current": "Buďte opatrní s jídlem.",
+        "new": "Buď ještě opatrný s jídlem.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group15-cards-701-750.md",
+        "actual": "Buď ještě opatrný s jídlem."
+      },
+      {
+        "cardId": "sentence-707",
+        "field": "lv",
+        "current": "Mluvíš německy",
+        "new": "Mluvíš německy?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group15-cards-701-750.md",
+        "actual": "Mluvíš německy?"
+      },
+      {
+        "cardId": "sentence-709",
+        "field": "lv",
+        "current": "Mluvíte docela plynule.",
+        "new": "Mluvíš docela plynule.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group15-cards-701-750.md",
+        "actual": "Mluvíš docela plynule."
+      },
+      {
+        "cardId": "sentence-710",
+        "field": "lv",
+        "current": "Kde jste se naučil německy?",
+        "new": "Kde ses naučil německy?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group15-cards-701-750.md",
+        "actual": "Kde ses naučil německy?"
+      },
+      {
+        "cardId": "sentence-712",
+        "field": "lv",
+        "current": "Vždy hledám příležitost domluvit se německy.",
+        "new": "Vždy hledám příležitost mluvit německy.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group15-cards-701-750.md",
+        "actual": "Vždy hledám příležitost mluvit německy."
+      },
+      {
+        "cardId": "sentence-717",
+        "field": "lv",
+        "current": "Máte čerstvá vejce?",
+        "new": "Máte opravdu čerstvá vejce?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group15-cards-701-750.md",
+        "actual": "Máte opravdu čerstvá vejce?"
+      },
+      {
+        "cardId": "sentence-720",
+        "field": "lv",
+        "current": "Dokážeš vážit půl kila?",
+        "new": "Můžete mi odvážit půl kila?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group15-cards-701-750.md",
+        "actual": "Můžete mi odvážit půl kila?"
+      },
+      {
+        "cardId": "sentence-726",
+        "field": "lv",
+        "current": "Dejte dva kilogramy mletého masa.",
+        "new": "Dejte mi dva kilogramy mletého masa.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group15-cards-701-750.md",
+        "actual": "Dejte mi dva kilogramy mletého masa."
+      },
+      {
+        "cardId": "sentence-727",
+        "field": "lv",
+        "current": "Jeden bochník chleba, prosím, ale ne příliš tvrdý.",
+        "new": "Jeden bochník chleba, prosím, ale ne příliš křupavý.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group15-cards-701-750.md",
+        "actual": "Jeden bochník chleba, prosím, ale ne příliš křupavý."
+      },
+      {
+        "cardId": "sentence-734",
+        "field": "lv",
+        "current": "Máš rýži?",
+        "new": "Máte rýži?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group15-cards-701-750.md",
+        "actual": "Máte rýži?"
+      },
+      {
+        "cardId": "sentence-738",
+        "field": "lv",
+        "current": "Můžete dodat nábytek do bytu?",
+        "new": "Můžete mi doručit nábytek do mého bytu?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group15-cards-701-750.md",
+        "actual": "Můžete mi doručit nábytek do mého bytu?"
+      },
+      {
+        "cardId": "sentence-742",
+        "field": "lv",
+        "current": "Miluji tuto látku.",
+        "new": "Tato látka se mi líbí.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group15-cards-701-750.md",
+        "actual": "Tato látka se mi líbí."
+      },
+      {
+        "cardId": "sentence-743",
+        "field": "lv",
+        "current": "Prosím, uřízněte tři metry.",
+        "new": "Prosím, odstřihněte mi tři metry.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group15-cards-701-750.md",
+        "actual": "Prosím, odstřihněte mi tři metry."
+      },
+      {
+        "cardId": "sentence-744",
+        "field": "lv",
+        "current": "Máte jiné vzorky?",
+        "new": "Máte také jiné vzory?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group15-cards-701-750.md",
+        "actual": "Máte také jiné vzory?"
+      },
+      {
+        "cardId": "sentence-746",
+        "field": "lv",
+        "current": "Dejte jasnější.",
+        "new": "Dejte mi světlejší.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group15-cards-701-750.md",
+        "actual": "Dejte mi světlejší."
+      },
+      {
+        "cardId": "sentence-747",
+        "field": "lv",
+        "current": "Kolik jsou tyto ponožky?",
+        "new": "Kolik stojí tyto ponožky?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group15-cards-701-750.md",
+        "actual": "Kolik stojí tyto ponožky?"
+      },
+      {
+        "cardId": "sentence-748",
+        "field": "lv",
+        "current": "Jaké chceš rukavice?",
+        "new": "Jaké rukavice si přejete?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group15-cards-701-750.md",
+        "actual": "Jaké rukavice si přejete?"
+      },
+      {
+        "cardId": "sentence-750",
+        "field": "lv",
+        "current": "Takže teď to funguje dobře.",
+        "new": "Tak, teď dobře sedí.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group16-cards-751-796.md",
+        "actual": "Tak, teď dobře sedí."
+      },
+      {
+        "cardId": "sentence-751",
+        "field": "lv",
+        "current": "Můžete mi doporučit dobrého krejčího?",
+        "new": "Můžeš mi doporučit dobrého krejčího?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group16-cards-751-796.md",
+        "actual": "Můžeš mi doporučit dobrého krejčího?"
+      },
+      {
+        "cardId": "sentence-753",
+        "field": "lv",
+        "current": "Kdy to bude hotové?",
+        "new": "Kdy bude hotový?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group16-cards-751-796.md",
+        "actual": "Kdy bude hotový?"
+      },
+      {
+        "cardId": "sentence-756",
+        "field": "lv",
+        "current": "Prosím vyčistěte a vyžehlete!",
+        "new": "Prosím, vyčistěte ho a vyžehlete ho!",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group16-cards-751-796.md",
+        "actual": "Prosím, vyčistěte ho a vyžehlete ho!"
+      },
+      {
+        "cardId": "sentence-759",
+        "field": "lv",
+        "current": "Můžete si dnes opravit boty?",
+        "new": "Můžete mi dnes opravit boty?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group16-cards-751-796.md",
+        "actual": "Můžete mi dnes opravit boty?"
+      },
+      {
+        "cardId": "sentence-760",
+        "field": "lv",
+        "current": "Kdy mohu přinést boty?",
+        "new": "Kdy si mohu vyzvednout boty?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group16-cards-751-796.md",
+        "actual": "Kdy si mohu vyzvednout boty?"
+      },
+      {
+        "cardId": "sentence-762",
+        "field": "lv",
+        "current": "Je pět minut dřív.",
+        "new": "Jdou pět minut napřed.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group16-cards-751-796.md",
+        "actual": "Jdou pět minut napřed."
+      },
+      {
+        "cardId": "sentence-763",
+        "field": "lv",
+        "current": "Jste krátkozraký nebo dalekozraký?",
+        "new": "Jsi krátkozraký nebo dalekozraký?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group16-cards-751-796.md",
+        "actual": "Jsi krátkozraký nebo dalekozraký?"
+      },
+      {
+        "cardId": "sentence-769",
+        "field": "lv",
+        "current": "Prosím zabalte a pošlete domů.",
+        "new": "Prosím, zabalte to a pošlete mi to domů.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group16-cards-751-796.md",
+        "actual": "Prosím, zabalte to a pošlete mi to domů."
+      },
+      {
+        "cardId": "sentence-773",
+        "field": "lv",
+        "current": "Kdy mohu vidět vzorek?",
+        "new": "Kdy mohu vidět zkušební fotografii?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group16-cards-751-796.md",
+        "actual": "Kdy mohu vidět zkušební fotografii?"
+      },
+      {
+        "cardId": "sentence-780",
+        "field": "lv",
+        "current": "Ukažte mi snubní prsteny, prosím.",
+        "new": "Ukažte mi prosím snubní prsteny.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group16-cards-751-796.md",
+        "actual": "Ukažte mi prosím snubní prsteny."
+      },
+      {
+        "cardId": "sentence-782",
+        "field": "lv",
+        "current": "Můžu to zúžit.",
+        "new": "Můžu ho zúžit.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group16-cards-751-796.md",
+        "actual": "Můžu ho zúžit."
+      },
+      {
+        "cardId": "sentence-785",
+        "field": "lv",
+        "current": "Jak se vám líbí tyto náušnice?",
+        "new": "Jak se ti líbí tyto náušnice?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group16-cards-751-796.md",
+        "actual": "Jak se ti líbí tyto náušnice?"
+      },
+      {
+        "cardId": "sentence-790",
+        "field": "lv",
+        "current": "Je mimořádně jemně zpracovaná.",
+        "new": "Je mimořádně jemně zpracovaný.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group16-cards-751-796.md",
+        "actual": "Je mimořádně jemně zpracovaný."
+      },
+      {
+        "cardId": "sentence-792",
+        "field": "lv",
+        "current": "Dostal jsem krabici zdarma?",
+        "new": "Dostanu krabičku zdarma?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group16-cards-751-796.md",
+        "actual": "Dostanu krabičku zdarma?"
+      },
+      {
+        "cardId": "sentence-793",
+        "field": "lv",
+        "current": "Všechny šperky jsou vyraženy.",
+        "new": "Všechny šperky jsou označené puncem.",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group16-cards-751-796.md",
+        "actual": "Všechny šperky jsou označené puncem."
+      },
+      {
+        "cardId": "sentence-794",
+        "field": "lv",
+        "current": "Pokud se mé ženě nelíbí, mohu ji vyměnit?",
+        "new": "Pokud se mé ženě nebude líbit, mohu to vyměnit?",
+        "status": "OWNER_NEW_EXACT",
+        "sourceFile": "cs-vety-repair-group16-cards-751-796.md",
+        "actual": "Pokud se mé ženě nebude líbit, mohu to vyměnit?"
+      }
+    ]
+  },
+  "scope": {
+    "changedMappings": 328,
+    "uniqueChangedCards": 328,
+    "mainTranslationFields": 328,
+    "studyFields": 0,
+    "cardIdSet": {}
+  },
+  "rawFindings": [
+    {
+      "cardId": "sentence-406",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "current": "Takhle. • Takovými prostředky.",
+      "proposed": "",
+      "reason": "The second variant uses the demonstrative meaning “such means,” whereas German „diesem“ means “this” in „Auf diesem Wege“.",
+      "source": "gpt-5.6-luna",
+      "raw": {
+        "cardId": "sentence-406",
+        "field": "lv",
+        "severity": "MEDIUM",
+        "category": "TRANSLATION",
+        "de": "",
+        "lvSource": "",
+        "currentCs": "Takhle. • Takovými prostředky.",
+        "proposedCs": "",
+        "reason": "The second variant uses the demonstrative meaning “such means,” whereas German „diesem“ means “this” in „Auf diesem Wege“.",
+        "confidence": "medium",
+        "status": "FINDING"
+      }
+    }
+  ],
+  "validatedReal": [
+    {
+      "cardId": "sentence-406",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "current": "Takhle. • Takovými prostředky.",
+      "proposed": "",
+      "reason": "The second variant uses the demonstrative meaning “such means,” whereas German „diesem“ means “this” in „Auf diesem Wege“.",
+      "source": "gpt-5.6-luna",
+      "raw": {
+        "cardId": "sentence-406",
+        "field": "lv",
+        "severity": "MEDIUM",
+        "category": "TRANSLATION",
+        "de": "",
+        "lvSource": "",
+        "currentCs": "Takhle. • Takovými prostředky.",
+        "proposedCs": "",
+        "reason": "The second variant uses the demonstrative meaning “such means,” whereas German „diesem“ means “this” in „Auf diesem Wege“.",
+        "confidence": "medium",
+        "status": "FINDING"
+      },
+      "validationStatus": "REAL"
+    }
+  ],
+  "falsePositives": [],
+  "sourceDeIssues": [],
+  "integrity": {
+    "cardCount": 796,
+    "syntax": "PASS",
+    "idOrder": "PASS",
+    "mirrorParity": "PASS",
+    "deChanges": 0,
+    "deIntegrity": "PASS"
+  },
+  "lunaUsage": {
+    "model": "gpt-5.6-luna",
+    "requestCount": 7,
+    "initialBatchRequests": 0,
+    "retryRequests": 0,
+    "batchCount": 7,
+    "batchSizes": [
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      28
+    ],
+    "retryCount": 0,
+    "retryReasons": {},
+    "inputTokens": 16917,
+    "cachedInputTokens": 0,
+    "outputTokens": 12208,
+    "reasoningTokens": 10344,
+    "totalTokens": 29125,
+    "findingsCount": 1,
+    "passCount": 327
+  },
+  "realFindings": [
+    {
+      "cardId": "sentence-406",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "current": "Takhle. • Takovými prostředky.",
+      "proposed": "",
+      "reason": "The second variant uses the demonstrative meaning “such means,” whereas German „diesem“ means “this” in „Auf diesem Wege“.",
+      "source": "gpt-5.6-luna",
+      "raw": {
+        "cardId": "sentence-406",
+        "field": "lv",
+        "severity": "MEDIUM",
+        "category": "TRANSLATION",
+        "de": "",
+        "lvSource": "",
+        "currentCs": "Takhle. • Takovými prostředky.",
+        "proposedCs": "",
+        "reason": "The second variant uses the demonstrative meaning “such means,” whereas German „diesem“ means “this” in „Auf diesem Wege“.",
+        "confidence": "medium",
+        "status": "FINDING"
+      },
+      "validationStatus": "REAL"
+    }
+  ]
+}
