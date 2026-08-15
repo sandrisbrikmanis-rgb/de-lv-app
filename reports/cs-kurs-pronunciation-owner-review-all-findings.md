@@ -58,9 +58,9 @@ warm (varm) — silts
 Uživatelský text obsahuje lotyšské slovo „varm“ místo německého příkladu; český překlad je navíc duplicitně uveden jako „teplý — teplý“.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Warm (varm) — teplý
+**OWNER note:** 
 
 ---
 
@@ -86,9 +86,9 @@ gut (gūt) — labs
 „Střevo“ neodpovídá zamýšlenému německému slovu gut a „dostat“ je lotyšský cizí zbytek. Český význam je nesprávný.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Gut (gút) — dobrý
+**OWNER note:** 
 
 ---
 
@@ -114,9 +114,9 @@ gut (gūt) — labs
 Německé gut znamená „dobrý“, nikoli „střevo“; současný text proto neposkytuje správný německý příklad dlouhé samohlásky.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Gut (gút) — dobrý
+**OWNER note:** Duplicate target — apply once (same as #002).
 
 ---
 
@@ -142,9 +142,9 @@ Tat (tāt) — darbs / rīcība
 Tat má dlouhé /aː/, ale přepis „tat“ naznačuje krátké a. Aproximace je proto PEDAGOGICALLY_ACCEPTABLE pouze po označení délky; v současné podobě je pro začátečníka zavádějící.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Tat (tát) — čin / skutek
+**OWNER note:** 
 
 ---
 
@@ -170,9 +170,9 @@ Tat (tāt) — darbs / rīcība
 Tat znamená „čin“ nebo „skutek“, ne obecně „práce / akce“.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Tat (tát) — čin / skutek
+**OWNER note:** Duplicate target — apply once (same as #004).
 
 ---
 
@@ -198,9 +198,9 @@ Weg (vēk) — ceļš
 Weg znamená „cesta“, nikoli přesně „silnice“.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Weg (vék) — cesta
+**OWNER note:** 
 
 ---
 
@@ -226,9 +226,9 @@ Weg (vēk) — ceļš
 „weg“ není pro začátečníka jasný výslovnostní přepis: neoznačuje dlouhé /eː/ a může vést k výslovnosti německého g jako [g]. Vhodnější česká aproximace je „vék“. Aproximace současného zápisu je MISLEADING_APPROXIMATION.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Weg (vék) — cesta
+**OWNER note:** Duplicate target — apply once (same as #006).
 
 ---
 
@@ -254,9 +254,9 @@ Schlaf (šlāf) — miegs
 Příklad Schlaf sice správně ukazuje dlouhé a, ale bez výslovnostní nápovědy nemusí začátečník jasně poznat, že sch se vyslovuje [š] a a je dlouhé.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Schlaf (šláf) — spánek
+**OWNER note:** 
 
 ---
 
@@ -282,9 +282,9 @@ bald (balt) — drīz
 The Czech text does not contain the German example bald. „Lysý (bílý)“ gives Czech words with unrelated meanings and cannot demonstrate the German pronunciation.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Bald (balt) — brzy
+**OWNER note:** 
 
 ---
 
@@ -310,9 +310,9 @@ scharf (šarf) — ass
 The pronunciation is written in Cyrillic („шарф“), although the course is for Czech learners. A Czech approximation should use „šarf“. The approximation itself is PEDAGOGICALLY_ACCEPTABLE.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Scharf (šarf) — ostrý
+**OWNER note:** 
 
 ---
 
@@ -338,9 +338,9 @@ Feld (felt) — lauks
 „plsť“ is a Czech translation, not a pronunciation guide. It therefore cannot represent the German pronunciation of Feld; the relevant approximation is „felt“. The current card repeats two Czech meanings instead of showing the sound.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Feld (felt) — pole
+**OWNER note:** 
 
 ---
 
@@ -366,9 +366,9 @@ Strauch (štrauh) — krūms
 Ve slově Strauch je ch německé Ach-Laut /x/, nikoli české h. Zápis „štrauh“ proto obsahuje PHONETICALLY_WRONG aproximaci koncové hlásky. Dvojhláska au je zachycena přibližně správně; problém se týká hlavně ch.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Strauch (štrauch; ch jako v německém Ach) — keř
+**OWNER note:** OWNER wording — čehu h/ch neaizstāj vācu Ach-Laut; skaidrojums, ne viltus transkripcija.
 
 ---
 
@@ -394,9 +394,9 @@ Sträucher (štroiher) — krūmi
 Ve Sträucher je ch německé Ich-Laut /ç/, nikoli české h. Zápis „štroiher“ je proto PHONETICALLY_WRONG. „oi“ jako přibližný zápis německého äu (/ɔʏ̯/) je PEDAGOGICALLY_ACCEPTABLE, ale koncové ch musí být vysvětleno odděleně.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Sträucher (štroichr; ch jako německé Ich-Laut) — keře
+**OWNER note:** OWNER wording — Ich-Laut skaidrots eksplicīti.
 
 ---
 
@@ -422,9 +422,9 @@ Mäuse (moize) — peles
 Ve slově Mäuse se mezi samohláskami písmeno s vyslovuje zněle jako /z/. Zápis „moise“ obsahuje neznělé s, a proto je pro tento detail MISLEADING_APPROXIMATION. Dvojhláska äu je přibližně zachycena zápisem „oi“.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Mäuse (moize) — myši
+**OWNER note:** 
 
 ---
 
@@ -450,9 +450,9 @@ mein (main) — mans
 „hlavní“ je překlad anglického main, nikoli výslovnost německého Mein. Německé Mein znamená „můj“; výslovnost lze pro začátečníky přiblížit jako „main“ (PEDAGOGICALLY_ACCEPTABLE).
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Mein (main) — můj
+**OWNER note:** 
 
 ---
 
@@ -478,9 +478,9 @@ sein (zain) — viņa / viņas / būt
 „sein“ neznamená „ona“ ani „její“. Znamená „jeho“ nebo „být“ podle kontextu. Výslovnost „zain“ je pro začátečníky PEDAGOGICALLY_ACCEPTABLE.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Sein (zain) — jeho / být
+**OWNER note:** 
 
 ---
 
@@ -506,9 +506,9 @@ Divskaņi: ei
 Nadpis „Ahoj“ neodpovídá obsahu: následující příklady procvičují německé dvojhláskové ei, nikoli německý pozdrav.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Dvojhláska ei
+**OWNER note:** 
 
 ---
 
@@ -534,9 +534,9 @@ Poznámky k výslovnosti z přednášky 2
 Český slovosled je nepřirozený. Přirozenější je „Poznámky k výslovnosti z přednášky 2“ nebo stručně „Výslovnost — poznámky z přednášky 2“.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Poznámky k výslovnosti z lekce 2
+**OWNER note:** OWNER — lekce (ne Přednáška), saskaņā ar CS Kurss UI terminoloģiju.
 
 ---
 
@@ -562,9 +562,9 @@ darbības vārdā tun burts “u” izrunājams garš
 Formulace zaměňuje písmeno za hlásku: nevyslovuje se samotné písmeno, ale hláska, kterou v daném slově představuje. Pro začátečníka je vhodnější mluvit o dlouhé samohlásce u.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově tun se samohláska „u“ vyslovuje dlouze.
+**OWNER note:** 
 
 ---
 
@@ -590,9 +590,9 @@ ie bieži nozīmē garo i
 „Tj.“ je zde zjevně chyba nebo zkratka bez významu. V kontextu německé výslovnosti má být uvedeno „ie“. Současná formulace je pro začátečníka nesrozumitelná.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** „ie“ často označuje dlouhé i.
+**OWNER note:** 
 
 ---
 
@@ -618,9 +618,9 @@ dubultie patskaņi parasti ir gari
 Dvojhláska není dlouhá samohláska, ale spojení dvou samohláskových prvků v jedné slabice. Tvrzení „dvojhlásky jsou dlouhé“ je proto MISLEADING_APPROXIMATION. Lze říci, že obvykle trvají déle než krátké monoftongy, ale jejich hlavní vlastností je změna kvality.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Dvojhlásky se vyslovují jako spojení dvou samohláskových zvuků v jedné slabice.
+**OWNER note:** 
 
 ---
 
@@ -646,9 +646,9 @@ tragen (trāgen) — nest
 The approximation „trägen“ uses ä, but tragen has a long a: [ˈtʁaːɡən] or [ˈtʁaːɡn̩]. This is a PHONETICALLY_WRONG representation of the vowel.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Tragen (trágen) — nést
+**OWNER note:** 
 
 ---
 
@@ -674,9 +674,9 @@ wieder (vīder) — atkal
 The card has no pronunciation approximation, so it does not demonstrate the long ie sound or the pronunciation of the word Wieder.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Wieder (víder) — znovu
+**OWNER note:** 
 
 ---
 
@@ -702,9 +702,9 @@ Segel (zēgel) — bura
 The card has no pronunciation approximation, even though it belongs to a pronunciation section and the example demonstrates the ending -el. A beginner is not shown how Segel is pronounced.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Segel (zégel) — plachta
+**OWNER note:** 
 
 ---
 
@@ -730,9 +730,9 @@ Braten (brāten) — cepetis
 „bratr“ is not a pronunciation approximation of Braten. The German word has long a and t, approximately „bráten“; the current form also introduces an unrelated Czech lexical item.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Braten (bráten) — pečeně
+**OWNER note:** 
 
 ---
 
@@ -758,9 +758,9 @@ Spiegel (špīgel) — spogulis
 Spiegel begins with German sch [ʃ], not Czech s. „spiegel“ can mislead a Czech beginner into pronouncing /sp/; the approximation should begin „šp…“. The long i should also be shown.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Spiegel (špígel) — zrcadlo
+**OWNER note:** LABOT — špígel pareizi; Luna Reason par sch nav autoritatīvs (sākas ar sp).
 
 ---
 
@@ -786,9 +786,9 @@ Finger (finger) — pirksts
 „prst“ in parentheses is a Czech translation, not a pronunciation guide, and it is repeated after the dash. The card gives no approximation for Finger and therefore does not demonstrate the target ending.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Finger (finger) — prst
+**OWNER note:** 
 
 ---
 
@@ -814,9 +814,9 @@ Halter (halter) — turētājs
 „ohlávka“ in parentheses is a translation, not a pronunciation approximation. The card does not show how Halter is pronounced or how the -er ending sounds.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Halter (halter) — držák
+**OWNER note:** 
 
 ---
 
@@ -842,9 +842,9 @@ Rahmen (rāmen) — rāmis
 Rahmen has a long a, [ˈʁaːmən]. The notation „rämen“ suggests ä and therefore a different vowel. The approximation is PHONETICALLY_WRONG.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Rahmen (rámen) — rám
+**OWNER note:** 
 
 ---
 
@@ -870,9 +870,9 @@ Zahl (cāl) — skaitlis
 Výslovnostní přepis v závorce neodpovídá německému slovu. Přibližný přepis „cāl“ je ACCURATE_APPROXIMATION pro [tsaːl].
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Zahl (cál) — číslo
+**OWNER note:** 
 
 ---
 
@@ -898,9 +898,9 @@ Zahl (cāl) — skaitlis
 „Kuře“ je chybný význam i chybná výslovnostní nápověda. Německé Zahl znamená „číslo“ a vyslovuje se přibližně [cāl]; písmeno h zde neoznačuje samostatný zvuk, ale délku samohlásky.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Zahl (cál) — číslo
+**OWNER note:** Duplicate target — apply once (same as #030).
 
 ---
 
@@ -926,9 +926,9 @@ ihn (īn) — viņu
 Ihn neznamená „jeho“, ale „ho“ nebo „jej“; „jeho“ je německy sein. Výslovnostní přepis „īn“ je PEDAGOGICALLY_ACCEPTABLE jako přiblížení německému [iːn].
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ihn (ín) — ho / jej
+**OWNER note:** OWNER — (ín) ne īn.
 
 ---
 
@@ -954,9 +954,9 @@ Huhn (hūn) — vista
 U příkladu z oddílu o němém h chybí výslovnostní přepis. Začátečník tak nevidí, že Huhn se vyslovuje přibližně [hūn] a že h po u pouze označuje délku samohlásky.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** FALSE_POSITIVE
+**OWNER NEW:** 
+**OWNER note:** CURRENT jau ir Huhn (hūn) — Luna kļūdaini apgalvo, ka trūkst transkripcijas.
 
 ---
 
@@ -982,9 +982,9 @@ Schuh (šū) — kurpe
 Příklad neobsahuje výslovnostní přepis, přestože má demonstrovat němé h po dlouhé samohlásce. Německé Schuh se vyslovuje přibližně [šū].
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Schuh (šú) — bota
+**OWNER note:** 
 
 ---
 
@@ -1010,9 +1010,9 @@ Burts h kā garumzīme
 „Zeměpisná délka“ means geographical longitude. It is unrelated to vowel length and makes the heading semantically incorrect.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Písmeno h jako označení délky samohlásky
+**OWNER note:** 
 
 ---
 
@@ -1038,9 +1038,9 @@ Lampe (lampe) — lampa
 Závorka obsahuje český překlad, nikoli výslovnostní přepis, a opakuje význam za pomlčkou. Německé Lampe se vyslovuje přibližně [lampe].
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Lampe (lampe) — lampa
+**OWNER note:** 
 
 ---
 
@@ -1066,9 +1066,9 @@ Hase (hāze) — zaķis
 „Opar“ není význam ani výslovnost slova Hase. Hase znamená „zajíc“ a vyslovuje se přibližně [hāze].
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Hase (háze) — zajíc
+**OWNER note:** 
 
 ---
 
@@ -1094,9 +1094,9 @@ Knabe (knābe) — zēns
 „Zobák“ je chybný význam i chybná výslovnostní nápověda. Knabe znamená „chlapec“ a lze jej přepsat přibližně jako [knābe].
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Knabe (knábe) — chlapec
+**OWNER note:** 
 
 ---
 
@@ -1122,9 +1122,9 @@ Rabe (rābe) — krauklis
 Chybí výslovnostní přepis koncového němého e. Rabe se vyslovuje přibližně [rābe], nikoli podle českého čtení bez vysvětlení.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Rabe (rábe) — havran
+**OWNER note:** 
 
 ---
 
@@ -1150,9 +1150,9 @@ die (dī) — artikuls “die”
 Německé die neznamená „zemřít“; to je české sloveso. Die je určitý člen, podle rodu a pádu odpovídající například „ta“ nebo „ty“.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Die (dí) — určitý člen „die“
+**OWNER note:** 
 
 ---
 
@@ -1178,9 +1178,9 @@ die (dī) — artikuls “die”
 V kontextu německé gramatiky je vhodnější termín „člen“ než doslovné „článek“. Současná formulace navíc vysvětluje nesprávné české slovo.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Die (dí) — určitý člen „die“
+**OWNER note:** Duplicate target — apply once (same as #040).
 
 ---
 
@@ -1206,9 +1206,9 @@ diese (dīze) — šī / šie
 Chybí výslovnostní přepis, a příklad proto nedemonstruje výslovnost ie. Diese se vyslovuje přibližně [dīze]. Překlad je bez kontextu neúplný; slovo může znamenat „tato“, „toto“, „tito“ i „tyto“.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Diese (díze) — tato / tito / tyto
+**OWNER note:** OWNER — bez „toto“ (Luna); diese ≠ dieses izolēti.
 
 ---
 
@@ -1234,9 +1234,9 @@ Fliege (flīge) — muša
 „fliege“ v závorce je pouze německý pravopis, nikoli výslovnostní přepis, a navíc je napsáno malým písmenem. Německé Fliege se vyslovuje přibližně [flīge].
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Fliege (flíge) — moucha
+**OWNER note:** 
 
 ---
 
@@ -1262,9 +1262,9 @@ Stiel (štīl) — kāts
 St na začátku německého slova se vyslovuje [ʃt], nikoli jako české [st]. Přepis „stīl“ je PHONETICALLY_WRONG; vhodné přiblížení je „štīl“.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Stiel (štíl) — stonek / násada
+**OWNER note:** 
 
 ---
 
@@ -1290,9 +1290,9 @@ Stiel (štīl) — kāts
 Stiel obvykle znamená „stonek“, „stopka“ nebo „násada“, nikoli obecně „kmen“; pro „kmen“ se v němčině běžně používá Stamm.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Stiel (štíl) — stonek / násada
+**OWNER note:** Duplicate target — apply once (same as #044).
 
 ---
 
@@ -1318,9 +1318,9 @@ Dieb (dīp) — zaglis
 Výslovnostní přepis obsahuje znaky dévanágarí „दीप“, což je cizí jazykový pozůstatek a pro českého začátečníka nesrozumitelný text.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Dieb (díp) — zloděj
+**OWNER note:** 
 
 ---
 
@@ -1346,9 +1346,9 @@ Dieb (dīp) — zaglis
 Přepis „दीप“ není použitelný český ani latinkový výslovnostní přepis. Německé Dieb se vyslovuje přibližně [diːp]; koncové b se vyslovuje jako [p].
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Dieb (díp) — zloděj
+**OWNER note:** Duplicate target — apply once (same as #046).
 
 ---
 
@@ -1374,9 +1374,9 @@ Garais i = ie
 „tzn“ je zde zjevně chybná náhrada za německé pravopisné „ie“. Nadpis také pedagogicky směšuje české označení dlouhého i s německou grafickou podobou.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Dlouhé i = ie
+**OWNER note:** 
 
 ---
 
@@ -1402,9 +1402,9 @@ Garais i vācu valodā bieži tiek rakstīts kā ie.
 Vysvětlení je gramaticky správné, ale pro začátečníky by bylo přesnější mluvit o zápisu dlouhého zvuku [iː], nikoli pouze o „dlouhém i“, protože německé ie označuje grafémové spojení, ne jeden samostatný znak.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** NELABOT
+**OWNER NEW:** 
+**OWNER note:** Pedagoģiski saprotams formulējums — stilistisks/terminoloģisks, ne reāla kļūda.
 
 ---
 
@@ -1430,9 +1430,9 @@ Saal (zāl) — zāle
 „Tráva“ je chybný význam slova Saal. Saal znamená „sál“; závorka má obsahovat výslovnostní přepis, přibližně [zāl], nikoli český překlad.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Saal (zál) — sál
+**OWNER note:** 
 
 ---
 

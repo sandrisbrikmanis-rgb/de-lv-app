@@ -1,0 +1,425 @@
+{
+  "meta": {
+    "scope": "CS Kurss Výslovnost — OWNER batch 001–050",
+    "source": "reports/cs-kurs-pronunciation-owner-review-all-findings.md",
+    "reviewed": "001–050",
+    "labotFindingRows": 48,
+    "nelabot": 1,
+    "falsePositive": 1,
+    "deduplicatedApplyTargets": 41,
+    "productionChanges": 0
+  },
+  "dedupeNote": "Multiple finding rows may share one production target; apply map lists one entry per unique findingId.",
+  "apply": [
+    {
+      "findingNum": "001",
+      "findingId": "kurssPronunciationLesson/section[0]/example[0]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Teplý (varm) — teplý",
+      "ownerNew": "Warm (varm) — teplý",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "002",
+      "findingId": "kurssPronunciationLesson/section[0]/example[1]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Střevo (dostat) — dobrý",
+      "ownerNew": "Gut (gút) — dobrý",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "004",
+      "findingId": "kurssPronunciationLesson/section[0]/example[2]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Tat (tat) - práce / akce",
+      "ownerNew": "Tat (tát) — čin / skutek",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "006",
+      "findingId": "kurssPronunciationLesson/section[0]/example[4]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Weg (weg) - silnice",
+      "ownerNew": "Weg (vék) — cesta",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "008",
+      "findingId": "kurssPronunciationLesson/section[0]/example[7]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Schlaf - spánek",
+      "ownerNew": "Schlaf (šláf) — spánek",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "009",
+      "findingId": "kurssPronunciationLesson/section[1]/example[3]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Lysý (bílý) - brzy",
+      "ownerNew": "Bald (balt) — brzy",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "010",
+      "findingId": "kurssPronunciationLesson/section[1]/example[4]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Scharf (шарф) - ostrý",
+      "ownerNew": "Scharf (šarf) — ostrý",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "011",
+      "findingId": "kurssPronunciationLesson/section[1]/example[5]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Feld (plsť) — pole",
+      "ownerNew": "Feld (felt) — pole",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "012",
+      "findingId": "kurssPronunciationLesson/section[10]/example[4]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Strauch (štrauh) - keř",
+      "ownerNew": "Strauch (štrauch; ch jako v německém Ach) — keř",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "013",
+      "findingId": "kurssPronunciationLesson/section[10]/example[5]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Sträucher (štroiher) - keře",
+      "ownerNew": "Sträucher (štroichr; ch jako německé Ich-Laut) — keře",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "014",
+      "findingId": "kurssPronunciationLesson/section[10]/example[7]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Mäuse (moise) - myši",
+      "ownerNew": "Mäuse (moize) — myši",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "015",
+      "findingId": "kurssPronunciationLesson/section[12]/example[0]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Mein (hlavní) - můj",
+      "ownerNew": "Mein (main) — můj",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "016",
+      "findingId": "kurssPronunciationLesson/section[12]/example[2]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Sein (zain) - ona / její / být",
+      "ownerNew": "Sein (zain) — jeho / být",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "017",
+      "findingId": "kurssPronunciationLesson/section[12]/h4",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Dvojhlásky: Ahoj",
+      "ownerNew": "Dvojhláska ei",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "018",
+      "findingId": "kurssPronunciationLesson/section[13]/h4",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Přednáška 2 poznámky výslovnosti",
+      "ownerNew": "Poznámky k výslovnosti z lekce 2",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "019",
+      "findingId": "kurssPronunciationLesson/section[13]/li[3]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Ve slovesu tun se písmeno „u“ vyslovuje dlouze",
+      "ownerNew": "Ve slově tun se samohláska „u“ vyslovuje dlouze.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "020",
+      "findingId": "kurssPronunciationLesson/section[14]/li[3]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Tj. často stojí dlouho i",
+      "ownerNew": "„ie“ často označuje dlouhé i.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "021",
+      "findingId": "kurssPronunciationLesson/section[14]/li[4]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Dvojhlásky jsou obvykle dlouhé",
+      "ownerNew": "Dvojhlásky se vyslovují jako spojení dvou samohláskových zvuků v jedné slabice.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "022",
+      "findingId": "kurssPronunciationLesson/section[2]/example[1]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Tragen (trägen) — nést",
+      "ownerNew": "Tragen (trágen) — nést",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "023",
+      "findingId": "kurssPronunciationLesson/section[2]/example[12]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Wieder - znovu",
+      "ownerNew": "Wieder (víder) — znovu",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "024",
+      "findingId": "kurssPronunciationLesson/section[2]/example[4]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Segel - plachta",
+      "ownerNew": "Segel (zégel) — plachta",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "025",
+      "findingId": "kurssPronunciationLesson/section[2]/example[5]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Braten (bratr) - pečeně",
+      "ownerNew": "Braten (bráten) — pečeně",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "026",
+      "findingId": "kurssPronunciationLesson/section[2]/example[7]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Spiegel (spiegel) - zrcadlo",
+      "ownerNew": "Spiegel (špígel) — zrcadlo",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "027",
+      "findingId": "kurssPronunciationLesson/section[2]/example[8]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Finger (prst) - prst",
+      "ownerNew": "Finger (finger) — prst",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "028",
+      "findingId": "kurssPronunciationLesson/section[2]/example[9]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Halter (ohlávka) - držák",
+      "ownerNew": "Halter (halter) — držák",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "029",
+      "findingId": "kurssPronunciationLesson/section[3]/example[0]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Rahmen (rämen) - rám",
+      "ownerNew": "Rahmen (rámen) — rám",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "030",
+      "findingId": "kurssPronunciationLesson/section[3]/example[3]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Zahl (kuře) - číslo",
+      "ownerNew": "Zahl (cál) — číslo",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "032",
+      "findingId": "kurssPronunciationLesson/section[3]/example[4]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Ihn (īn) - jeho",
+      "ownerNew": "Ihn (ín) — ho / jej",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "034",
+      "findingId": "kurssPronunciationLesson/section[3]/example[9]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Schuh - bota",
+      "ownerNew": "Schuh (šú) — bota",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "035",
+      "findingId": "kurssPronunciationLesson/section[3]/h4",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Písmeno h jako zeměpisná délka",
+      "ownerNew": "Písmeno h jako označení délky samohlásky",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "036",
+      "findingId": "kurssPronunciationLesson/section[4]/example[0]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Lampe (lampa) - lampa",
+      "ownerNew": "Lampe (lampe) — lampa",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "037",
+      "findingId": "kurssPronunciationLesson/section[4]/example[1]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Hase (opar) - zajíc",
+      "ownerNew": "Hase (háze) — zajíc",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "038",
+      "findingId": "kurssPronunciationLesson/section[4]/example[2]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Knabe (zobák) - chlapec",
+      "ownerNew": "Knabe (knábe) — chlapec",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "039",
+      "findingId": "kurssPronunciationLesson/section[4]/example[3]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Rabe - havran",
+      "ownerNew": "Rabe (rábe) — havran",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "040",
+      "findingId": "kurssPronunciationLesson/section[5]/example[0]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Zemřít (dī) - článek \"zemřít\"",
+      "ownerNew": "Die (dí) — určitý člen „die“",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "042",
+      "findingId": "kurssPronunciationLesson/section[5]/example[1]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Diese - toto / tyto",
+      "ownerNew": "Diese (díze) — tato / tito / tyto",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "043",
+      "findingId": "kurssPronunciationLesson/section[5]/example[3]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Fliege (fliege) - moucha",
+      "ownerNew": "Fliege (flíge) — moucha",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "044",
+      "findingId": "kurssPronunciationLesson/section[5]/example[5]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Stiel (stīl) - kmen",
+      "ownerNew": "Stiel (štíl) — stonek / násada",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "046",
+      "findingId": "kurssPronunciationLesson/section[5]/example[6]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Dieb (दीप) - zloděj",
+      "ownerNew": "Dieb (díp) — zloděj",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "048",
+      "findingId": "kurssPronunciationLesson/section[5]/h4",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Dlouhé i = tzn",
+      "ownerNew": "Dlouhé i = ie",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "050",
+      "findingId": "kurssPronunciationLesson/section[6]/example[0]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssPronunciationLesson",
+      "field": "lv",
+      "current": "Saal (tráva) - sál",
+      "ownerNew": "Saal (zál) — sál",
+      "verdict": "LABOT"
+    }
+  ]
+}
