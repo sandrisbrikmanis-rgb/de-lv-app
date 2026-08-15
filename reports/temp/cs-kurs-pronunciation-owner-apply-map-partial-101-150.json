@@ -147,7 +147,7 @@
       "file": "data/cs/courseLessons.js",
       "objectId": "kurssLesson4",
       "field": "lv",
-      "current": "```\nPokud za samohláskou následuje pouze jedna souhláska, vyslovuje se samohláska dlouze: die (dī) Feder (fēder), den (dēn).\n```",
+      "current": "Pokud za samohláskou následuje pouze jedna souhláska, vyslovuje se samohláska dlouze: die (dī) Feder (fēder), den (dēn).",
       "ownerNew": "Délku samohlásky nelze určit pouze podle počtu následujících souhlásek. Například die, Feder a den mají dlouhou samohlásku.",
       "verdict": "LABOT"
     },
