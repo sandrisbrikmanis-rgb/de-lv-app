@@ -1,0 +1,321 @@
+{
+  "baselineSha": "ae5286a1",
+  "applySha": "e637d075b2f08f173293c9c712d50c6a8fe4b440",
+  "groupsAppliedList": [
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32"
+  ],
+  "missingGroups": [],
+  "summary": {
+    "groupsApplied": 26,
+    "groupsExpected": 26,
+    "targets": 1281,
+    "exactTargetMatches": 1281,
+    "currentValueMismatch": 0,
+    "diverged": 0,
+    "missing": 0,
+    "unexpectedChangedCards": 0,
+    "deChanges": 0,
+    "b1Total": 3367,
+    "idUniqueness": "PASS",
+    "idOrder": "PASS",
+    "syntax": "PASS",
+    "importLoad": "PASS",
+    "structure": "PASS",
+    "studyStructure": "PASS",
+    "sectionAccentsStructure": "PASS",
+    "deReadOnly": "PASS",
+    "overall": "PASS",
+    "fullComplete": true
+  },
+  "groupResults": {
+    "10": {
+      "group": "10",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 50,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "11": {
+      "group": "11",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 48,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "12": {
+      "group": "12",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 49,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "13": {
+      "group": "13",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 50,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "14": {
+      "group": "14",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 49,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "15": {
+      "group": "15",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 50,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "16": {
+      "group": "16",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 49,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "17": {
+      "group": "17",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 50,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "18": {
+      "group": "18",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 49,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "19": {
+      "group": "19",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 50,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "20": {
+      "group": "20",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 46,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "21": {
+      "group": "21",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 48,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "22": {
+      "group": "22",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 48,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "23": {
+      "group": "23",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 49,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "24": {
+      "group": "24",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 48,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "25": {
+      "group": "25",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 50,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "26": {
+      "group": "26",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 50,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "27": {
+      "group": "27",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 50,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "28": {
+      "group": "28",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 48,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "29": {
+      "group": "29",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 48,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "30": {
+      "group": "30",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 48,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "31": {
+      "group": "31",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 45,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "32": {
+      "group": "32",
+      "requested": 31,
+      "currentMatches": 31,
+      "applied": 30,
+      "exact": 31,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "07": {
+      "group": "07",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 50,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "08": {
+      "group": "08",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 50,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    },
+    "09": {
+      "group": "09",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 50,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0
+    }
+  },
+  "fullVerification": {
+    "total": 1281,
+    "exact": 1281
+  }
+}

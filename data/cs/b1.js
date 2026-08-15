@@ -3,14 +3,14 @@ const B1_WORDS = [
     "de": "Kurbad",
     "de_article": "das",
     "de_plural": "die Kurbäder",
-    "lv": "Lékařské středisko",
+    "lv": "Lázně",
     "level": "B1"
   },
   {
     "de": "Erfahrung",
     "de_article": "die",
     "de_plural": "die Erfahrungen",
-    "lv": "Zažít",
+    "lv": "Zkušenost",
     "level": "B1"
   },
   {
@@ -53,7 +53,7 @@ const B1_WORDS = [
     "de": "Aktentasche",
     "de_article": "die",
     "de_plural": "die Aktentaschen",
-    "lv": "Portfolia",
+    "lv": "Aktovka",
     "level": "B1"
   },
   {
@@ -74,7 +74,7 @@ const B1_WORDS = [
     "de": "Alarm",
     "de_article": "der",
     "de_plural": "die Alarme",
-    "lv": "Úzkost",
+    "lv": "Poplach",
     "level": "B1"
   },
   {
@@ -105,7 +105,7 @@ const B1_WORDS = [
     "de": "Alternative",
     "de_article": "die",
     "de_plural": "die Alternativen",
-    "lv": "Alternativou",
+    "lv": "Alternativa",
     "level": "B1"
   },
   {
@@ -117,13 +117,13 @@ const B1_WORDS = [
   },
   {
     "de": "anbauen",
-    "lv": "Růst",
+    "lv": "Pěstovat",
     "level": "B1",
     "study": {
       "id": "b1-anbauen",
       "layout": "standardStudy",
-      "translation": "Růst",
-      "explanation": "Hlavní myšlenka: anbauen nejčastěji znamená pěstovat rostliny nebo přidat něco do budovy. Význam je určen objektem: Gemüse nebo Tomaten se pěstuje a Garáž nebo Zimmer v příloze.",
+      "translation": "Pěstovat",
+      "explanation": "Hlavní myšlenka: anbauen nejčastěji znamená pěstovat rostliny nebo přistavět něco k budově. Význam určuje objekt: Gemüse nebo Tomaten se pěstují, zatímco Garage nebo Zimmer se přistavují.",
       "examples": [
         {
           "de": "Wir bauen im Garten Tomaten an.",
@@ -135,13 +135,13 @@ const B1_WORDS = [
         },
         {
           "de": "Sie bauen ein neues Zimmer an.",
-          "lv": "Přidají nový pokoj."
+          "lv": "Přistavují nový pokoj."
         }
       ],
       "comparison": [
         {
           "word": "anbauen",
-          "meaning": "Růst / přidat",
+          "meaning": "Pěstovat / přistavět",
           "example": "Wir bauen Gemüse an. = Pěstujeme zeleninu."
         },
         {
@@ -158,7 +158,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pamatujte: rostliny nebo zelenina → anbauen • Novostavba část → anbauen."
+            "text": "Pamatujte: rostliny nebo zelenina → anbauen • Nová část budovy → anbauen."
           }
         ]
       },
@@ -212,8 +212,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Přidají",
-                "Přidají"
+                "Přistavují"
               ]
             }
           }
@@ -227,7 +226,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Růst"
+                "Pěstovat"
               ]
             }
           },
@@ -279,7 +278,7 @@ const B1_WORDS = [
     "de": "Anfrage",
     "de_article": "die",
     "de_plural": "die Anfragen",
-    "lv": "Žádost",
+    "lv": "Dotaz",
     "level": "B1"
   },
   {
@@ -291,18 +290,18 @@ const B1_WORDS = [
     "de": "Angabe",
     "de_article": "die",
     "de_plural": "die Angaben",
-    "lv": "Indikace",
+    "lv": "Údaj",
     "level": "B1"
   },
   {
     "de": "angeben",
-    "lv": "Naznačit",
+    "lv": "Uvést",
     "level": "B1",
     "study": {
       "id": "b1-angeben",
       "layout": "standardStudy",
-      "translation": "Naznačit",
-      "explanation": "Hlavní myšlenka: angeben znamená indikovat informace. Hovorově to může znamenat i vychloubání, takže význam je vždy určen situací.",
+      "translation": "Uvést",
+      "explanation": "Hlavní myšlenka: angeben znamená uvést informace. Hovorově to může znamenat také chlubit se, takže význam vždy určuje situace.",
       "examples": [
         {
           "de": "Bitte geben Sie Ihre Adresse an.",
@@ -310,7 +309,7 @@ const B1_WORDS = [
         },
         {
           "de": "Er hat sein Alter falsch angegeben.",
-          "lv": "Zkreslil svůj věk."
+          "lv": "Nesprávně uvedl svůj věk."
         },
         {
           "de": "Sie gibt mit ihrem neuen Auto an.",
@@ -320,7 +319,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "angeben",
-          "meaning": "Poukazovat / chlubit se",
+          "meaning": "Uvést / chlubit se",
           "example": "Bitte geben Sie den Namen an. = Zadejte jméno."
         },
         {
@@ -375,8 +374,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Zkreslil",
-                "Zkreslil"
+                "Nesprávně"
               ]
             }
           },
@@ -405,7 +403,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Poukazovat"
+                "Uvést"
               ]
             }
           },
@@ -457,7 +455,7 @@ const B1_WORDS = [
     "de": "Angehörige",
     "de_article": "der",
     "de_plural": "die Angehörigen",
-    "lv": "Patřící k",
+    "lv": "Příbuzný",
     "level": "B1"
   },
   {
@@ -478,7 +476,7 @@ const B1_WORDS = [
     "de": "Aktenmappe",
     "de_article": "die",
     "de_plural": "die Aktenmappen",
-    "lv": "Složku dokumentů",
+    "lv": "Složka na dokumenty",
     "level": "B1"
   },
   {
@@ -512,13 +510,13 @@ const B1_WORDS = [
   },
   {
     "de": "anbringen",
-    "lv": "Přiložit",
+    "lv": "Připevnit",
     "level": "B1",
     "study": {
       "id": "b1-anbringen",
       "layout": "standardStudy",
-      "translation": "Přiložit",
-      "explanation": "Hlavní myšlenka: Anbringen znamená připevnit něco na povrch nebo na vhodné místo. Někdy to také znamená říct nebo udělat poznámku ve správnou chvíli.",
+      "translation": "Připevnit",
+      "explanation": "Hlavní myšlenka: anbringen znamená připevnit něco k povrchu nebo na vhodné místo. Někdy také znamená vznést poznámku či návrh ve správnou chvíli.",
       "examples": [
         {
           "de": "Wir bringen das Schild an der Tür an.",
@@ -541,12 +539,12 @@ const B1_WORDS = [
         },
         {
           "word": "aufstellen",
-          "meaning": "Nainstalovat",
+          "meaning": "Postavit / umístit",
           "example": "Wir stellen ein Regal auf. = Instalujeme polici."
         },
         {
           "word": "befestigen",
-          "meaning": "Přiložit",
+          "meaning": "Připevnit",
           "example": "Wir befestigen das Schild an der Wand. = Ceduli připevníme na zeď."
         }
       ],
@@ -558,7 +556,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Anbringen není obvyklé „na místo“. Pokud se pouzdro jednoduše odloží, častěji se používá stellen nebo legen."
+        "text": "Anbringen neznamená obvykle jednoduše „umístit“. Pokud se věc jen odloží, častěji se používá stellen nebo legen."
       },
       "sectionAccents": {
         "explanation": {
@@ -636,7 +634,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Nainstalovat"
+                "Postavit"
               ]
             }
           },
@@ -648,7 +646,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Přiložit"
+                "Připevnit"
               ]
             }
           }
@@ -674,7 +672,7 @@ const B1_WORDS = [
   },
   {
     "de": "anfeuern",
-    "lv": "Hlavu vzhůru",
+    "lv": "Povzbuzovat",
     "level": "B1"
   },
   {
@@ -711,7 +709,7 @@ const B1_WORDS = [
       "id": "b1-abbauen",
       "layout": "standardStudy",
       "translation": "Snížit",
-      "explanation": "Hlavní myšlenka: abbauen znamená snížit nebo odebrat po částech. Používá se pro stres, pracoviště, stavby a také těžbu.",
+      "explanation": "Hlavní myšlenka: abbauen znamená snížit nebo rozebrat po částech. Používá se u stresu, pracovních míst, staveb a také u těžby.",
       "examples": [
         {
           "de": "Sport hilft, Stress abzubauen.",
@@ -913,12 +911,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "abbrechen",
-          "meaning": "Odlomit / odlomit",
-          "example": "Er bricht den Kurs ab. = Porušuje kurz."
+          "meaning": "Přerušit / odlomit",
+          "example": "Přerušuje kurz."
         },
         {
           "word": "unterbrechen",
-          "meaning": "Zastav se na chvíli",
+          "meaning": "Přerušit na chvíli",
           "example": "Darf ich Sie kurz unterbrechen? = Mohu vás krátce přerušit?"
         },
         {
@@ -935,7 +933,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Abbrechen není totéž co beden. beden znamená dokončit."
+        "text": "Abbrechen není totéž co beenden. Beenden znamená dokončit."
       },
       "sectionAccents": {
         "explanation": {
@@ -996,7 +994,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Odlomit"
+                "Přerušit"
               ]
             }
           },
@@ -1008,7 +1006,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Zastav"
+                "Přerušit na chvíli"
               ]
             }
           },
@@ -1057,7 +1055,7 @@ const B1_WORDS = [
       "id": "b1-abdecken",
       "layout": "standardStudy",
       "translation": "Zakrýt",
-      "explanation": "Hlavní myšlenka: abdecken znamená krýt nebo krýt. V závislosti na zařízení to může také znamenat uklidit stůl po jídle.",
+      "explanation": "Hlavní myšlenka: abdecken znamená přikrýt nebo zakrýt. Podle objektu může také znamenat sklidit ze stolu po jídle.",
       "examples": [
         {
           "de": "Bitte deck den Kuchen ab.",
@@ -1080,7 +1078,7 @@ const B1_WORDS = [
         },
         {
           "word": "decken",
-          "meaning": "Současnost / kryt",
+          "meaning": "Prostřít / zakrývat",
           "example": "Ich decke den Tisch. = Prostíral jsem stůl."
         },
         {
@@ -1097,7 +1095,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Tisch decken = prostřít stůl • Tisch abdecken = vyčistit stůl."
+        "text": "Tisch decken = prostřít stůl • Tisch abdecken = sklidit ze stolu."
       },
       "sectionAccents": {
         "explanation": {
@@ -1173,7 +1171,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Současnost"
+                "Prostřít"
               ]
             }
           },
@@ -1218,26 +1216,26 @@ const B1_WORDS = [
     "de": "Abflug",
     "de_article": "der",
     "de_plural": "die Abflüge",
-    "lv": "Odchod",
+    "lv": "Odlet",
     "level": "B1"
   },
   {
     "de": "Abfluss",
     "de_article": "der",
     "de_plural": "die Abflüsse",
-    "lv": "Vypustit",
+    "lv": "Odtok",
     "level": "B1"
   },
   {
     "de": "abfragen",
-    "lv": "Požádat",
+    "lv": "Dotazovat se",
     "level": "B1"
   },
   {
     "de": "Abgang",
     "de_article": "der",
     "de_plural": "die Abgänge",
-    "lv": "Odcházející",
+    "lv": "Odchod",
     "level": "B1"
   },
   {
@@ -1255,7 +1253,7 @@ const B1_WORDS = [
       "id": "b1-abgehen",
       "layout": "standardStudy",
       "translation": "Odejít",
-      "explanation": "Hlavní myšlenka: abgehen znamená odejít nebo odejít z místa. V určitých kontextech to může také znamenat utéct nebo minout.",
+      "explanation": "Hlavní myšlenka: abgehen znamená odejít nebo odjet z místa. V určitých kontextech může také znamenat probíhat či dopadnout.",
       "examples": [
         {
           "de": "Der Zug geht um acht Uhr ab.",
@@ -1273,7 +1271,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "abgehen",
-          "meaning": "Odejít / odejít",
+          "meaning": "Odejít / odjet",
           "example": "Der Zug geht ab. = Vlak odjíždí."
         },
         {
@@ -1283,19 +1281,19 @@ const B1_WORDS = [
         },
         {
           "word": "fehlen",
-          "meaning": "Chybějící",
+          "meaning": "Chybět",
           "example": "Mir fehlt nichts. = Nic mi nechybí."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "V pohybu dopravy abgehen často znamená odejít."
+            "text": "U dopravních prostředků abgehen často znamená odjet nebo odjíždět."
           }
         ]
       },
       "important": {
-        "text": "Hovorově, abgehen může být velmi závislý na kontextu • Přední bezpečnější naučit se základní význam odchodu."
+        "text": "V hovorové řeči záleží význam slovesa abgehen silně na kontextu. Pro začátek je bezpečné naučit se základní význam „odejít nebo odjet“."
       },
       "sectionAccents": {
         "explanation": {
@@ -1383,7 +1381,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Chybějící"
+                "Chybět"
               ]
             }
           }
@@ -1450,12 +1448,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pokud vidíte von nebo davona, abhängen obvykle znamená záviset na."
+            "text": "Pokud vidíte von nebo davon, abhängen obvykle znamená záviset na."
           }
         ]
       },
       "important": {
-        "text": "Abhängen von je stabilní konstrukce • V češtině se to nepřekládá doslovně jako „věsit“."
+        "text": "Abhängen von je ustálená konstrukce • V češtině se to nepřekládá doslovně jako „viset“."
       },
       "sectionAccents": {
         "explanation": {
@@ -1545,7 +1543,7 @@ const B1_WORDS = [
   },
   {
     "de": "abhängig",
-    "lv": "Závisí",
+    "lv": "Závislý",
     "level": "B1"
   },
   {
@@ -1566,7 +1564,7 @@ const B1_WORDS = [
     "de": "Abiturient",
     "de_article": "der",
     "de_plural": "die Abiturienten",
-    "lv": "Student střední školy",
+    "lv": "Maturant",
     "level": "B1"
   },
   {
@@ -1580,7 +1578,7 @@ const B1_WORDS = [
     "de": "Ablauf",
     "de_article": "der",
     "de_plural": "die Abläufe",
-    "lv": "Pokrok",
+    "lv": "Průběh",
     "level": "B1"
   },
   {
@@ -1591,7 +1589,7 @@ const B1_WORDS = [
       "id": "b1-ablegen",
       "layout": "standardStudy",
       "translation": "Položit",
-      "explanation": "Hlavní myšlenka: ablegen znamená odložit nebo odstranit něco ze sebe. V kontextu školy a zkoušek to znamená udělat zkoušku.",
+      "explanation": "Hlavní myšlenka: ablegen znamená odložit nebo odstranit něco ze sebe. V kontextu školy a zkoušek to znamená složit zkoušku.",
       "examples": [
         {
           "de": "Bitte legen Sie den Mantel ab.",
@@ -1614,12 +1612,12 @@ const B1_WORDS = [
         },
         {
           "word": "legen",
-          "meaning": "Položit se",
+          "meaning": "Položit",
           "example": "Ich lege das Buch auf den Tisch. = Položil jsem knihu na stůl."
         },
         {
           "word": "ausziehen",
-          "meaning": "Stáhnout se",
+          "meaning": "Svléknout se",
           "example": "Ich ziehe die Jacke aus. = Sundávám si bundu."
         }
       ],
@@ -1719,7 +1717,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Stáhnout"
+                "Svléknout se"
               ]
             }
           }
@@ -1789,7 +1787,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Nimm bitte die Brille ab.",
-          "lv": "Prosím sundejte si brýle."
+          "lv": "Prosím, sundej si brýle."
         },
         {
           "de": "Sie hat fünf Kilo abgenommen.",
@@ -1797,13 +1795,13 @@ const B1_WORDS = [
         },
         {
           "de": "Kannst du bitte abnehmen? Das Telefon klingelt.",
-          "lv": "Můžete zvednout telefon Telefon zvoní."
+          "lv": "Můžeš prosím zvednout telefon? Telefon zvoní."
         }
       ],
       "comparison": [
         {
           "word": "abnehmen",
-          "meaning": "Odstranit / ztenčit",
+          "meaning": "Sundat / zhubnout",
           "example": "Ich nehme die Brille ab. = Sundávám si brýle."
         },
         {
@@ -1813,14 +1811,14 @@ const B1_WORDS = [
         },
         {
           "word": "wegnehmen",
-          "meaning": "Odnést / odnést",
+          "meaning": "Vzít / odebrat",
           "example": "Sie nimmt mir das Handy weg. = Bere mi telefon."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Váha klesá → abnehmen • Odnést něco → abnehmen."
+            "text": "Váha klesá → abnehmen • Něco si sundat → abnehmen."
           }
         ]
       },
@@ -1872,8 +1870,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Můžete",
-                "telefon"
+                "Můžeš"
               ]
             }
           }
@@ -1887,7 +1884,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Odstranit"
+                "Sundat"
               ]
             }
           },
@@ -1911,7 +1908,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Odnést"
+                "Vzít"
               ]
             }
           }
@@ -1957,7 +1954,7 @@ const B1_WORDS = [
       "id": "b1-absatz",
       "layout": "standardStudy",
       "translation": "Odstavec",
-      "explanation": "Hlavní myšlenka: der Absatz se nejlépe učí jako odstavec na úrovni B1. Může to také znamenat podpatek boty nebo prodejnu zboží, ale tyto významy jsou určeny kontextem.",
+      "explanation": "Hlavní myšlenka: der Absatz se nejlépe učí jako odstavec na úrovni B1. Může znamenat také podpatek boty nebo odbyt zboží, ale tyto významy určuje kontext.",
       "examples": [
         {
           "de": "Lies bitte den zweiten Absatz.",
@@ -1973,13 +1970,13 @@ const B1_WORDS = [
         },
         {
           "de": "Der Absatz ist in diesem Jahr gestiegen.",
-          "lv": "Trh letos vzrostl."
+          "lv": "Odbyt letos vzrostl."
         }
       ],
       "comparison": [
         {
           "word": "der Absatz",
-          "meaning": "Odstavec / pata boty / vývod",
+          "meaning": "Odstavec / podpatek boty / odbyt",
           "example": "Der Absatz ist kurz. = Odstavec je krátký."
         },
         {
@@ -2057,8 +2054,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Trh",
-                "Trh"
+                "Odbyt"
               ]
             }
           }
@@ -2150,7 +2146,7 @@ const B1_WORDS = [
         },
         {
           "de": "Sie hat einen guten Abschluss gemacht.",
-          "lv": "Dostala dobrý diplom."
+          "lv": "Úspěšně dokončila studium."
         },
         {
           "de": "Nach dem Abschluss sucht er Arbeit.",
@@ -2177,7 +2173,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Projekt, smlouva nebo školení mohou mít Abschluss."
+            "text": "Projekt, smlouva nebo studium mohou být zakončeny."
           }
         ]
       },
@@ -2214,8 +2210,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dostala",
-                "diplom"
+                "Úspěšně"
               ]
             }
           },
@@ -2311,7 +2306,7 @@ const B1_WORDS = [
         },
         {
           "de": "Der Abschnitt der Straße ist gesperrt.",
-          "lv": "Je tento úsek silnice uzavřen."
+          "lv": "Tento úsek silnice je uzavřen."
         }
       ],
       "comparison": [
@@ -2339,7 +2334,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "V češtině „fragment“ ne vždy sedí • Der Abschnitt je častěji oddíl nebo oddíl."
+        "text": "V češtině „fragment“ ne vždy sedí • Der Abschnitt je častěji úsek nebo oddíl."
       },
       "sectionAccents": {
         "explanation": {
@@ -2381,8 +2376,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tento",
-                "tento"
+                "Tento"
               ]
             }
           }
@@ -2418,11 +2412,7 @@ const B1_WORDS = [
                 "die Phase"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Fáze"
-              ]
-            }
+            "meaning": "Fáze"
           }
         ],
         "tip": {
@@ -2451,7 +2441,7 @@ const B1_WORDS = [
   },
   {
     "de": "abseits",
-    "lv": "Z cesty",
+    "lv": "Stranou",
     "level": "B1"
   },
   {
@@ -2474,7 +2464,7 @@ const B1_WORDS = [
       "id": "b1-absetzen",
       "layout": "standardStudy",
       "translation": "Položit",
-      "explanation": "Hlavní myšlenka: Absetzen znamená někoho odložit nebo umístit na místo. V kontextu politiky a práce to může znamenat odvolání z funkce.",
+      "explanation": "Hlavní myšlenka: absetzen znamená něco odložit nebo někoho vysadit na místě. V politickém a pracovním kontextu může znamenat odvolat z funkce.",
       "examples": [
         {
           "de": "Setz bitte den Rucksack ab.",
@@ -2482,7 +2472,7 @@ const B1_WORDS = [
         },
         {
           "de": "Der Bus setzt die Kinder vor der Schule ab.",
-          "lv": "Autobus vysadí děti do školy."
+          "lv": "Autobus vysadí děti před školou."
         },
         {
           "de": "Der Minister wurde abgesetzt.",
@@ -2492,7 +2482,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Taška je uzavíratelná • Člověk může být někde sesazen • Úředník může být suspendován."
+            "text": "Tašku lze odložit • Člověka lze někde vysadit • Úředníka lze odvolat z funkce."
           }
         ]
       },
@@ -2588,7 +2578,7 @@ const B1_WORDS = [
   },
   {
     "de": "absichern",
-    "lv": "Poskytnout",
+    "lv": "Zabezpečit",
     "level": "B1"
   },
   {
@@ -2610,7 +2600,7 @@ const B1_WORDS = [
   },
   {
     "de": "absperren",
-    "lv": "Vymezující",
+    "lv": "Uzavřít",
     "level": "B1"
   },
   {
@@ -2620,7 +2610,7 @@ const B1_WORDS = [
   },
   {
     "de": "absprechen",
-    "lv": "Souhlasit",
+    "lv": "Dohodnout se",
     "level": "B1"
   },
   {
@@ -2635,27 +2625,27 @@ const B1_WORDS = [
   },
   {
     "de": "abwechseln",
-    "lv": "Změnit",
+    "lv": "Střídat",
     "level": "B1"
   },
   {
     "de": "Ackerbau",
     "de_article": "der",
-    "lv": "Zemědělství",
+    "lv": "Rostlinná výroba",
     "level": "B1"
   },
   {
     "de": "Advent",
     "de_article": "der",
     "de_plural": "die Advente",
-    "lv": "Příchod",
+    "lv": "Advent",
     "level": "B1"
   },
   {
     "de": "Agent",
     "de_article": "der",
     "de_plural": "die Agenten",
-    "lv": "Činidlo",
+    "lv": "Agent",
     "level": "B1"
   },
   {
@@ -2674,7 +2664,7 @@ const B1_WORDS = [
   },
   {
     "de": "abziehen",
-    "lv": "Odnést",
+    "lv": "Odečíst",
     "level": "B1"
   },
   {
@@ -2686,7 +2676,7 @@ const B1_WORDS = [
   },
   {
     "de": "adrett",
-    "lv": "Vyčištěno",
+    "lv": "Upravený",
     "level": "B1"
   },
   {
@@ -2720,7 +2710,7 @@ const B1_WORDS = [
   },
   {
     "de": "alkoholisch",
-    "lv": "Alkoholik",
+    "lv": "Alkoholický",
     "level": "B1"
   },
   {
@@ -2737,7 +2727,7 @@ const B1_WORDS = [
     "de": "Ambulanz",
     "de_article": "die",
     "de_plural": "die Ambulanzen",
-    "lv": "Pomoc v nouzi",
+    "lv": "Ambulance",
     "level": "B1"
   },
   {
@@ -2747,7 +2737,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich amüsieren",
-    "lv": "Bavte se",
+    "lv": "Bavit se",
     "level": "B1"
   },
   {
@@ -2762,7 +2752,7 @@ const B1_WORDS = [
   },
   {
     "de": "angesichts",
-    "lv": "S přihlédnutím",
+    "lv": "Vzhledem k",
     "level": "B1"
   },
   {
@@ -2774,36 +2764,36 @@ const B1_WORDS = [
   },
   {
     "de": "angeln",
-    "lv": "Na ryby",
+    "lv": "Rybařit",
     "level": "B1"
   },
   {
     "de": "angrenzen",
-    "lv": "Hraničící s",
+    "lv": "Hraničit s",
     "level": "B1"
   },
   {
     "de": "Anklang",
     "de_article": "der",
     "de_plural": "die Anklänge",
-    "lv": "Schopnost reagovat",
+    "lv": "Ohlas",
     "level": "B1"
   },
   {
     "de": "anknüpfen",
-    "lv": "Přitahovat",
+    "lv": "Navázat",
     "level": "B1"
   },
   {
     "de": "Anlauf",
     "de_article": "der",
     "de_plural": "die Anläufe",
-    "lv": "Vběhnout",
+    "lv": "Rozběh",
     "level": "B1"
   },
   {
     "de": "anlaufen",
-    "lv": "Nastartovat",
+    "lv": "Rozběhnout se",
     "level": "B1"
   },
   {
@@ -2816,7 +2806,7 @@ const B1_WORDS = [
       "id": "b1-anlage",
       "layout": "standardStudy",
       "translation": "Zařízení",
-      "explanation": "Hlavní myšlenka: die Anlage nejčastěji znamená zařízení nebo systém. Ve finančním kontextu to může znamenat investici, ale v lidském kontextu to může znamenat dary.",
+      "explanation": "Hlavní myšlenka: die Anlage nejčastěji znamená zařízení nebo systém. Ve finančním kontextu může znamenat investici, v souvislosti s člověkem pak vlohy.",
       "examples": [
         {
           "de": "Die Anlage funktioniert wieder.",
@@ -2851,7 +2841,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "V technickém textu je die Anlage obvykle rostlina nebo systém."
+            "text": "V technickém textu je die Anlage obvykle zařízení nebo systém."
           }
         ]
       },
@@ -2951,7 +2941,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "anlage"
+                  "V",
+                  "technickém"
                 ]
               }
             }
@@ -2990,7 +2981,7 @@ const B1_WORDS = [
       "id": "b1-anmachen",
       "layout": "standardStudy",
       "translation": "Zapnout",
-      "explanation": "Hlavní myšlenka: Anmachen velmi často znamená rozsvítit zařízení nebo světlo v každodenním životě. V závislosti na předmětu to může také znamenat fixaci nebo oblékání salátu.",
+      "explanation": "Hlavní myšlenka: anmachen velmi často znamená zapnout zařízení nebo rozsvítit světlo. Podle kontextu může také znamenat připevnit něco nebo ochutit salát zálivkou.",
       "examples": [
         {
           "de": "Mach bitte das Licht an.",
@@ -3008,7 +2999,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Světlo, TV nebo rádio → anmachen znamená rozsvítit."
+            "text": "Světlo, TV nebo rádio → anmachen znamená zapnout; u světla rozsvítit."
           }
         ]
       },
@@ -3128,14 +3119,14 @@ const B1_WORDS = [
     "de": "Anprobe",
     "de_article": "die",
     "de_plural": "die Anproben",
-    "lv": "Kování",
+    "lv": "Zkoušení",
     "level": "B1"
   },
   {
     "de": "Anrede",
     "de_article": "die",
     "de_plural": "die Anreden",
-    "lv": "Řeč",
+    "lv": "Oslovení",
     "level": "B1"
   },
   {
@@ -3157,21 +3148,21 @@ const B1_WORDS = [
   },
   {
     "de": "anrichten",
-    "lv": "Dělat",
+    "lv": "Způsobit",
     "level": "B1"
   },
   {
     "de": "Anruf",
     "de_article": "der",
     "de_plural": "die Anrufe",
-    "lv": "Volání",
+    "lv": "Telefonát",
     "level": "B1"
   },
   {
     "de": "Ansager",
     "de_article": "der",
     "de_plural": "die Ansager",
-    "lv": "Žadatel",
+    "lv": "Hlasatel",
     "level": "B1"
   },
   {
@@ -3229,7 +3220,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Anzeige",
-          "meaning": "Reklama / aplikace",
+          "meaning": "Inzerát / oznámení",
           "example": "Ich lese die Anzeige. = Četl jsem inzerát."
         }
       ],
@@ -3326,7 +3317,8 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Reklama"
+                "Inzerát",
+                "oznámení"
               ]
             }
           }
@@ -3336,7 +3328,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "anschlag"
+                  "Ve",
+                  "zprávách"
                 ]
               }
             }
@@ -3395,12 +3388,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Internet, elektřina a doprava mohou mít anšlus."
+            "text": "Internet, elektřina i doprava mohou mít Anschluss neboli připojení či navazující spojení."
           }
         ]
       },
       "important": {
-        "text": "V dopravě často Anšlus není technické spojení, ale příští let nebo spojení."
+        "text": "V dopravě Anschluss často není technické připojení, ale navazující spojení nebo přestup."
       },
       "sectionAccents": {
         "explanation": {
@@ -3493,7 +3486,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "anschluss"
+                  "Internet",
+                  "elektřina"
                 ]
               }
             }
@@ -3532,7 +3526,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Ärztin hat ein hohes Ansehen.",
-          "lv": "Lékař má dobrou pověst."
+          "lv": "Lékařka má dobrou pověst."
         },
         {
           "de": "Sein Ansehen ist gestiegen.",
@@ -3556,7 +3550,7 @@ const B1_WORDS = [
         },
         {
           "word": "ansehen",
-          "meaning": "Hodinky",
+          "meaning": "Dívat se",
           "example": "Ich sehe mir den Film an. = Dívám se na film."
         }
       ],
@@ -3653,7 +3647,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Hodinky"
+                "Dívat se"
               ]
             }
           }
@@ -3663,7 +3657,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "ansehen"
+                  "Das",
+                  "Ansehen"
                 ]
               }
             }
@@ -3693,7 +3688,7 @@ const B1_WORDS = [
     "de": "Ansichtskarte",
     "de_article": "die",
     "de_plural": "die Ansichtskarten",
-    "lv": "Zobrazit kartu",
+    "lv": "Pohlednice",
     "level": "B1"
   },
   {
@@ -3710,14 +3705,14 @@ const B1_WORDS = [
   },
   {
     "de": "anstiften",
-    "lv": "Povzbudit",
+    "lv": "Podněcovat",
     "level": "B1"
   },
   {
     "de": "Anstoß",
     "de_article": "der",
     "de_plural": "die Anstöße",
-    "lv": "Povzbuzení",
+    "lv": "Podnět",
     "level": "B1"
   },
   {
@@ -3755,7 +3750,7 @@ const B1_WORDS = [
     "de": "Antiquariat",
     "de_article": "das",
     "de_plural": "die Antiquariate",
-    "lv": "Starožitnictví",
+    "lv": "Antikvariát",
     "level": "B1"
   },
   {
@@ -3921,7 +3916,7 @@ const B1_WORDS = [
     "de": "Antrieb",
     "de_article": "der",
     "de_plural": "die Antriebe",
-    "lv": "Motoru",
+    "lv": "Pohon",
     "level": "B1"
   },
   {
@@ -3933,7 +3928,7 @@ const B1_WORDS = [
   },
   {
     "de": "anweisen",
-    "lv": "Naznačit",
+    "lv": "Nařídit",
     "level": "B1"
   },
   {
@@ -3947,21 +3942,21 @@ const B1_WORDS = [
     "de": "Anwender",
     "de_article": "der",
     "de_plural": "die Anwender",
-    "lv": "Uživatele",
+    "lv": "Uživatel",
     "level": "B1"
   },
   {
     "de": "Anzahlung",
     "de_article": "die",
     "de_plural": "die Anzahlungen",
-    "lv": "Příspěvek",
+    "lv": "Záloha",
     "level": "B1"
   },
   {
     "de": "Appell",
     "de_article": "der",
     "de_plural": "die Appelle",
-    "lv": "Pozvání",
+    "lv": "Výzva",
     "level": "B1"
   },
   {
@@ -3980,7 +3975,7 @@ const B1_WORDS = [
     "de": "Arithmetik",
     "de_article": "die",
     "de_plural": "die Arithmetiken",
-    "lv": "Aritmetický",
+    "lv": "Aritmetika",
     "level": "B1"
   },
   {
@@ -4019,7 +4014,7 @@ const B1_WORDS = [
     "de": "Asyl",
     "de_article": "das",
     "de_plural": "die Asyle",
-    "lv": "Útočiště",
+    "lv": "Azyl",
     "level": "B1"
   },
   {
@@ -4054,14 +4049,14 @@ const B1_WORDS = [
     "de": "Aufforderung",
     "de_article": "die",
     "de_plural": "die Aufforderungen",
-    "lv": "Pozvání",
+    "lv": "Výzva",
     "level": "B1"
   },
   {
     "de": "Auflauf",
     "de_article": "der",
     "de_plural": "die Aufläufe",
-    "lv": "Směs",
+    "lv": "Zapečené jídlo",
     "level": "B1"
   },
   {
@@ -4071,7 +4066,7 @@ const B1_WORDS = [
   },
   {
     "de": "aufrecht",
-    "lv": "Rovně",
+    "lv": "Vzpřímený",
     "level": "B1"
   },
   {
@@ -4090,13 +4085,13 @@ const B1_WORDS = [
     "de": "Aufsatz",
     "de_article": "der",
     "de_plural": "die Aufsätze",
-    "lv": "Složení",
+    "lv": "Slohová práce",
     "level": "B1"
   },
   {
     "de": "Aufschnitt",
     "de_article": "der",
-    "lv": "Chladné rány",
+    "lv": "Studené nářezy",
     "level": "B1"
   },
   {
@@ -4110,13 +4105,13 @@ const B1_WORDS = [
     "de": "Aufschwung",
     "de_article": "der",
     "de_plural": "die Aufschwünge",
-    "lv": "Výložník",
+    "lv": "Vzestup",
     "level": "B1"
   },
   {
     "de": "Aufsehen",
     "de_article": "das",
-    "lv": "Pozor",
+    "lv": "Pozornost",
     "level": "B1"
   },
   {
@@ -4143,7 +4138,7 @@ const B1_WORDS = [
       "id": "b1-auftrag",
       "layout": "standardStudy",
       "translation": "Úkol",
-      "explanation": "Hlavní myšlenka: der Auftrag znamená úkol nebo příkaz zadaný někým jinému. V práci se často jedná o oficiální úkol nebo zákaznickou objednávku.",
+      "explanation": "Hlavní myšlenka: der Auftrag znamená úkol nebo příkaz zadaný někým jiným. V práci se často jedná o oficiální úkol nebo zákaznickou objednávku.",
       "examples": [
         {
           "de": "Ich habe einen wichtigen Auftrag bekommen.",
@@ -4155,7 +4150,7 @@ const B1_WORDS = [
         },
         {
           "de": "Er arbeitet im Auftrag der Stadt.",
-          "lv": "Pracuje pro město."
+          "lv": "Pracuje z pověření města."
         }
       ],
       "comparison": [
@@ -4178,7 +4173,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Když vás někdo formálně požádá nebo nařídí, abyste něco udělali, je to často auftrag."
+            "text": "Když vás někdo formálně požádá nebo nařídí, abyste něco udělali, je to často Auftrag."
           }
         ]
       },
@@ -4278,7 +4273,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "auftrag"
+                  "Když",
+                  "vás"
                 ]
               }
             }
@@ -4320,7 +4316,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Aufwand",
-          "meaning": "Úsilí / příspěvek",
+          "meaning": "Úsilí / vynaložená práce",
           "example": "Der Aufwand ist hoch. = Snaha je velká."
         },
         {
@@ -4433,7 +4429,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "aufwand"
+                  "Když",
+                  "přijde"
                 ]
               }
             }
@@ -4456,7 +4453,7 @@ const B1_WORDS = [
   },
   {
     "de": "aufzwingen",
-    "lv": "Uložit",
+    "lv": "Vnutit",
     "level": "B1"
   },
   {
@@ -4480,7 +4477,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Namen sind in der Liste aufgeführt.",
-          "lv": "Jména jsou uvedena."
+          "lv": "Jména jsou uvedena v seznamu."
         },
         {
           "de": "Bitte führen Sie alle Kosten auf.",
@@ -4490,12 +4487,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "aufführen",
-          "meaning": "Ukázat / ukázat",
-          "example": "Das Theater führt ein Stück auf. = Divadlo hraje divadlo."
+          "meaning": "Uvést / předvést",
+          "example": "Das Theater führt ein Stück auf. = Divadlo uvádí hru."
         },
         {
           "word": "vorführen",
-          "meaning": "Prokázat",
+          "meaning": "Předvést / demonstrovat",
           "example": "Er führt das Gerät vor. = Předvádí zařízení."
         },
         {
@@ -4579,7 +4576,8 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Ukázat"
+                "Uvést",
+                "předvést"
               ]
             }
           },
@@ -4591,7 +4589,8 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Prokázat"
+                "Předvést",
+                "demonstrovat"
               ]
             }
           },
@@ -4629,7 +4628,7 @@ const B1_WORDS = [
   },
   {
     "de": "aufgeregt",
-    "lv": "Ustaraný",
+    "lv": "Rozrušený",
     "level": "B1"
   },
   {
@@ -4639,7 +4638,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-sich-aufhalten",
       "layout": "standardStudy",
-      "translation": "Zůstat",
+      "translation": "Zdržovat se",
       "explanation": "Hlavní myšlenka: sich aufhalten znamená zůstat nebo být na místě po určitou dobu. Bez sich aufhalten znamená zdržovat.",
       "examples": [
         {
@@ -4648,7 +4647,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wo hältst du dich gerade auf?",
-          "lv": "Kde teď bydlíš?"
+          "lv": "Kde se teď zdržuješ?"
         },
         {
           "de": "Der Stau hat uns lange aufgehalten.",
@@ -4659,23 +4658,23 @@ const B1_WORDS = [
         {
           "word": "sich aufhalten",
           "meaning": "Zůstat",
-          "example": "Ich halte mich im Hotel auf. = Ubytuji se v hotelu."
+          "example": "Ich halte mich im Hotel auf. = Zdržuji se v hotelu."
         },
         {
           "word": "bleiben",
-          "meaning": "Pobyt",
+          "meaning": "Zůstat",
           "example": "Ich bleibe zu Hause. = Zůstávám doma."
         },
         {
           "word": "aufhalten",
-          "meaning": "Zpoždění",
+          "meaning": "Zdržovat",
           "example": "Der Stau hält uns auf. = Zdržuje nás provoz."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Se sich + místo → pobyt • Bez sich → zpoždění."
+            "text": "Se sich + místo → zdržovat se • Bez sich → zdržovat."
           }
         ]
       },
@@ -4775,7 +4774,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Pobyt"
+                "Zůstat"
               ]
             }
           },
@@ -4787,7 +4786,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Zpoždění"
+                "Zdržovat"
               ]
             }
           }
@@ -4797,8 +4796,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "pobyt",
-                  "zpoždění"
+                  "Se",
+                  "sich"
                 ]
               }
             }
@@ -4817,12 +4816,12 @@ const B1_WORDS = [
     "de": "Nudelauflauf",
     "de_article": "der",
     "de_plural": "die Nudelaufläufe",
-    "lv": "Těstovinová směs",
+    "lv": "Zapečené těstoviny",
     "level": "B1"
   },
   {
     "de": "sich aufregen",
-    "lv": "Dělat si starosti",
+    "lv": "Rozčilovat se",
     "level": "B1"
   },
   {
@@ -4853,7 +4852,7 @@ const B1_WORDS = [
   },
   {
     "de": "äußerlich",
-    "lv": "Externí",
+    "lv": "Vnější",
     "level": "B1"
   },
   {
@@ -4863,7 +4862,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich äußern",
-    "lv": "Vyjádřit",
+    "lv": "Vyjádřit se",
     "level": "B1"
   },
   {
@@ -4885,7 +4884,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Aussicht auf Erfolg ist gut.",
-          "lv": "Šance na úspěch jsou dobré."
+          "lv": "Šance na úspěch je dobrá."
         },
         {
           "de": "Von hier hat man eine schöne Aussicht.",
@@ -4904,7 +4903,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Blick",
-          "meaning": "Pohled / pohled",
+          "meaning": "Pohled / výhled",
           "example": "Der Blick aufs Meer ist schön. = Výhled na moře je krásný."
         },
         {
@@ -4916,12 +4915,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Aussicht auf + budoucí výsledek = vyhlídky • Aussicht von hier = pohled."
+            "text": "Aussicht auf + budoucí výsledek = vyhlídky • Aussicht von hier = výhled."
           }
         ]
       },
       "important": {
-        "text": "Aussicht není jen „pohled“ do budoucnosti • S auf to často znamená šance."
+        "text": "Aussicht není jen „pohled“ do budoucnosti • S předložkou auf často znamená šanci."
       },
       "sectionAccents": {
         "examples": [
@@ -5036,8 +5035,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "izredzes",
-                  "skats"
+                  "Aussicht",
+                  "auf"
                 ]
               }
             }
@@ -5103,7 +5102,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "In Aussprache = výslovnost • Po projevu nebo konfliktu = výměna myšlenek."
+            "text": "V jazykovém kontextu Aussprache = výslovnost • Po projevu nebo konfliktu = výměna myšlenek."
           }
         ]
       },
@@ -5265,12 +5264,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Ausweis, Pass, Attest ausstellen = vydání/vydání • Kunst ausstellen = vystavovati."
+            "text": "Ausweis, Pass, Attest ausstellen = vydat/vystavit • Kunst ausstellen = vystavovat."
           }
         ]
       },
       "important": {
-        "text": "Ausstellen není generické „uhasit“ • V souvislosti s dokumenty to znamená vydávat úředně."
+        "text": "Ausstellen není obecné „něco někam položit“ • V souvislosti s dokumenty to znamená úředně vydat."
       },
       "sectionAccents": {
         "examples": [
@@ -5383,9 +5382,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "vydání",
-                  "vydání",
-                  "vystavovati"
+                  "Ausweis",
+                  "Pass"
                 ]
               }
             }
@@ -5401,7 +5399,7 @@ const B1_WORDS = [
   },
   {
     "de": "ausstrecken",
-    "lv": "Protáhnout se",
+    "lv": "Natáhnout",
     "level": "B1"
   },
   {
@@ -5428,7 +5426,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-ausüben",
       "layout": "standardStudy",
-      "translation": "Provést",
+      "translation": "Vykonávat • vyvíjet",
       "explanation": "Hlavní myšlenka: ausüben znamená vykonávat nebo vyvíjet určitou činnost, zaměstnání, vliv nebo tlak. Je formálnější než machen.",
       "examples": [
         {
@@ -5447,7 +5445,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "ausüben",
-          "meaning": "Realizovat / udělat / mít dopad",
+          "meaning": "Vykonávat / vyvíjet",
           "example": "Sie übt den Beruf aus. = Pracuje v profesi."
         },
         {
@@ -5560,7 +5558,8 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Realizovat"
+                "Vykonávat",
+                "vyvíjet"
               ]
             }
           },
@@ -5594,10 +5593,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "beruf",
-                  "druck",
-                  "einfluss",
-                  "einfluss"
+                  "Beruf",
+                  "Druck"
                 ]
               }
             }
@@ -5623,7 +5620,7 @@ const B1_WORDS = [
     "de": "Ausweg",
     "de_article": "der",
     "de_plural": "die Auswege",
-    "lv": "Výstup",
+    "lv": "Východisko",
     "level": "B1"
   },
   {
@@ -5643,7 +5640,7 @@ const B1_WORDS = [
   },
   {
     "de": "ausziehbar",
-    "lv": "Zatahovací",
+    "lv": "Výsuvný",
     "level": "B1"
   },
   {
@@ -5674,12 +5671,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Auszug",
-          "meaning": "Vytáhnout / vystěhovat",
+          "meaning": "Výpis / vystěhování",
           "example": "Ich lese einen Auszug aus dem Buch. = Čtu úryvek z knihy."
         },
         {
           "word": "der Umzug",
-          "meaning": "Pohybující se",
+          "meaning": "Stěhování",
           "example": "Der Umzug dauert zwei Tage. = Stěhování trvá dva dny."
         },
         {
@@ -5696,7 +5693,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Auszug není totéž jako Umzug: Auszug zdůrazňuje pohyb z místa, Umzug - pohyb."
+        "text": "Auszug není totéž jako Umzug: Auszug zdůrazňuje vystěhování z místa, Umzug – přestěhování."
       },
       "sectionAccents": {
         "examples": [
@@ -5778,7 +5775,8 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Vytáhnout"
+                "Výpis",
+                "vystěhování"
               ]
             }
           },
@@ -5790,7 +5788,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Pohybující"
+                "Stěhování"
               ]
             }
           },
@@ -5900,21 +5898,21 @@ const B1_WORDS = [
     "de": "Balken",
     "de_article": "der",
     "de_plural": "die Balken",
-    "lv": "Paprsek",
+    "lv": "Trám",
     "level": "B1"
   },
   {
     "de": "Faschingsball",
     "de_article": "der",
     "de_plural": "die Faschingsbälle",
-    "lv": "Karneval",
+    "lv": "Karnevalový ples",
     "level": "B1"
   },
   {
     "de": "Band",
     "de_article": "der",
     "de_plural": "die Bände",
-    "lv": "Objem",
+    "lv": "Svazek",
     "level": "B1"
   },
   {
@@ -6174,7 +6172,7 @@ const B1_WORDS = [
     "de": "Baumstumpf",
     "de_article": "der",
     "de_plural": "die Baumstümpfe",
-    "lv": "Kmen",
+    "lv": "Pařez",
     "level": "B1"
   },
   {
@@ -6186,12 +6184,12 @@ const B1_WORDS = [
   },
   {
     "de": "bearbeiten",
-    "lv": "Proces",
+    "lv": "Zpracovat",
     "level": "B1"
   },
   {
     "de": "beauftragen",
-    "lv": "Zeptat se",
+    "lv": "Pověřit",
     "level": "B1"
   },
   {
@@ -6223,15 +6221,15 @@ const B1_WORDS = [
       "id": "b1-becken",
       "layout": "standardStudy",
       "translation": "Bazén",
-      "explanation": "Hlavní myšlenka: das Becken znamená umyvadlo, velká nádrž/miska nebo umyvadlo. Hlavní se určuje podle oboru: plavání, kuchyně/technologie nebo anatomie.",
+      "explanation": "Hlavní myšlenka: das Becken znamená bazén, velkou nádrž/mísu nebo pánev. Význam určuje obor: plavání, kuchyně/technika nebo anatomie.",
       "examples": [
         {
           "de": "Das Becken im Schwimmbad ist tief.",
-          "lv": "Bazén v bazénu je hluboký."
+          "lv": "Bazén v koupališti je hluboký."
         },
         {
           "de": "Leg das Gemüse in das Becken.",
-          "lv": "Dáme zeleninu do misky."
+          "lv": "Dej zeleninu do mísy."
         },
         {
           "de": "Sie hat Schmerzen im Becken.",
@@ -6263,7 +6261,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Schwimmbad je umístění celého koupaliště • Becken je samotná dutina pánve/nádrže."
+        "text": "Schwimmbad označuje celé koupaliště, zatímco Becken je samotný bazén nebo dutina nádrže."
       },
       "sectionAccents": {
         "examples": [
@@ -6423,7 +6421,7 @@ const B1_WORDS = [
       "id": "b1-bedeutend",
       "layout": "standardStudy",
       "translation": "Významný",
-      "explanation": "Hlavní myšlenka: beudeuten znamená významný nebo pozoruhodný. Jako zesilovač znamená 'významně', např. beedeuten besser.",
+      "explanation": "Hlavní myšlenka: bedeutend znamená významný nebo pozoruhodný. Jako zesilovač znamená „výrazně“, např. bedeutend besser.",
       "examples": [
         {
           "de": "Das ist ein bedeutender Schritt.",
@@ -6458,12 +6456,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Před podstatným jménem beedeuten = významný/významný • Před lepší/horší = výrazně."
+            "text": "Před podstatným jménem bedeutend = významný/pozoruhodný • Před komparativem = výrazně."
           }
         ]
       },
       "important": {
-        "text": "Beedeuten je formálnější než wichtig a nemusí nutně znamenat „důležité“ v jednoduchém každodenním smyslu."
+        "text": "Bedeutend je formálnější než wichtig a nemusí nutně znamenat „důležitý“ v běžném každodenním smyslu."
       },
       "sectionAccents": {
         "examples": [
@@ -6599,15 +6597,15 @@ const B1_WORDS = [
       "id": "b1-sich-bedienen",
       "layout": "standardStudy",
       "translation": "Obsloužit se",
-      "explanation": "Hlavní myšlenka: sich bedienen znamená vzít/obsluhovat nebo používat prostředek sám. Bez sich bedienen znamená sloužit druhému člověku.",
+      "explanation": "Hlavní myšlenka: sich bedienen znamená sám se obsloužit nebo něco používat. Bez sich znamená bedienen obsluhovat někoho jiného.",
       "examples": [
         {
           "de": "Bitte bedienen Sie sich.",
-          "lv": "Prosím vezmi si to sám."
+          "lv": "Prosím, vezměte si sami."
         },
         {
           "de": "Er bedient sich moderner Technik.",
-          "lv": "Používá moderní techniky."
+          "lv": "Používá moderní techniku."
         },
         {
           "de": "Die Gäste bedienen sich am Buffet.",
@@ -6617,12 +6615,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "sich bedienen",
-          "meaning": "Vzít / použít sebe",
+          "meaning": "Sám se obsloužit / použít",
           "example": "Bedienen Sie sich! = Vezměte si to sami!"
         },
         {
           "word": "bedienen",
-          "meaning": "Sloužit",
+          "meaning": "Obsluhovat",
           "example": "Der Kellner bedient die Gäste. = Číšník obsluhuje hosty."
         },
         {
@@ -6634,7 +6632,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Servisujte se! = vezmi si to sám • Jemanden bedienen = někomu sloužit."
+            "text": "Obslužte se! = vezměte si sami • Jemanden bedienen = někoho obsluhovat."
           }
         ]
       },
@@ -6774,17 +6772,17 @@ const B1_WORDS = [
     "de": "Bedingung",
     "de_article": "die",
     "de_plural": "die Bedingungen",
-    "lv": "Stav",
+    "lv": "Podmínka",
     "level": "B1"
   },
   {
     "de": "bedrohen",
-    "lv": "Vyhrožovat",
+    "lv": "Ohrožovat",
     "level": "B1"
   },
   {
     "de": "bedrücken",
-    "lv": "Potlačit",
+    "lv": "Skličovat",
     "level": "B1"
   },
   {
@@ -6825,40 +6823,40 @@ const B1_WORDS = [
   },
   {
     "de": "befestigen",
-    "lv": "Přiložit",
+    "lv": "Připevnit",
     "level": "B1"
   },
   {
     "de": "Befinden",
     "de_article": "das",
-    "lv": "Pocit sebe sama",
+    "lv": "Stav",
     "level": "B1"
   },
   {
     "de": "befolgen",
-    "lv": "Pozorovat",
+    "lv": "Dodržovat",
     "level": "B1"
   },
   {
     "de": "befördern",
-    "lv": "Nést",
+    "lv": "Přepravovat",
     "level": "B1"
   },
   {
     "de": "befragen",
-    "lv": "Ptát se",
+    "lv": "Dotazovat se",
     "level": "B1"
   },
   {
     "de": "befreien",
-    "lv": "Uvolnění",
+    "lv": "Osvobodit",
     "level": "B1"
   },
   {
     "de": "Befreiung",
     "de_article": "die",
     "de_plural": "die Befreiungen",
-    "lv": "Uvolnění",
+    "lv": "Osvobození",
     "level": "B1"
   },
   {
@@ -6890,7 +6888,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich begeben",
-    "lv": "Jít",
+    "lv": "Vydat se",
     "level": "B1"
   },
   {
@@ -6902,22 +6900,22 @@ const B1_WORDS = [
     "de": "Begegnung",
     "de_article": "die",
     "de_plural": "die Begegnungen",
-    "lv": "Zasedání",
+    "lv": "Setkání",
     "level": "B1"
   },
   {
     "de": "begehen",
-    "lv": "Označit",
+    "lv": "Spáchat",
     "level": "B1"
   },
   {
     "de": "begeistern",
-    "lv": "Rozrušit",
+    "lv": "Nadchnout",
     "level": "B1"
   },
   {
     "de": "sich begeistern",
-    "lv": "Vzrušit se",
+    "lv": "Nadchnout se",
     "level": "B1"
   },
   {
@@ -6970,7 +6968,7 @@ const B1_WORDS = [
   },
   {
     "de": "begründen",
-    "lv": "Ospravedlnit",
+    "lv": "Odůvodnit",
     "level": "B1"
   },
   {
@@ -6982,7 +6980,7 @@ const B1_WORDS = [
     "de": "Behälter",
     "de_article": "der",
     "de_plural": "die Behälter",
-    "lv": "Nádrž",
+    "lv": "Nádoba",
     "level": "B1"
   },
   {
@@ -6993,7 +6991,7 @@ const B1_WORDS = [
       "id": "b1-behandeln",
       "layout": "standardStudy",
       "translation": "Léčit",
-      "explanation": "Hlavní myšlenka: behandeln znamená léčit pacienta, léčit osobu nebo diskutovat/zkoumat téma. Přesný překlad je určen objektem: pacient, osoba nebo téma.",
+      "explanation": "Hlavní myšlenka: behandeln znamená léčit pacienta, zacházet s člověkem nebo probírat téma. Přesný překlad určuje objekt: pacient, člověk nebo téma.",
       "examples": [
         {
           "de": "Der Arzt behandelt den Patienten.",
@@ -7001,7 +6999,7 @@ const B1_WORDS = [
         },
         {
           "de": "Sie behandelt alle freundlich.",
-          "lv": "Je přátelská ke všem."
+          "lv": "Chová se ke všem přátelsky."
         },
         {
           "de": "Im Kurs behandeln wir dieses Thema.",
@@ -7011,12 +7009,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "behandeln",
-          "meaning": "Léčit / léčit / diskutovat o tématu",
+          "meaning": "Léčit / zacházet s někým / probírat téma",
           "example": "Der Arzt behandelt den Patienten. = Lékař ošetřuje pacienta."
         },
         {
           "word": "heilen",
-          "meaning": "Vyléčit k výsledku",
+          "meaning": "Vyléčit; dosáhnout uzdravení",
           "example": "Die Medizin heilt die Krankheit. = Lék léčí nemoc."
         },
         {
@@ -7028,7 +7026,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Podívejte se na předmět: pacienta behandeln = léčit • člověka behandeln = chovat se k němu • téma behandeln = probírat."
+            "text": "Podívejte se na objekt: pacienta behandeln = léčit • s člověkem behandeln = zacházet • téma behandeln = probírat."
           }
         ]
       },
@@ -7197,17 +7195,17 @@ const B1_WORDS = [
   },
   {
     "de": "beherrschen",
-    "lv": "Spravovat",
+    "lv": "Ovládat",
     "level": "B1"
   },
   {
     "de": "behilflich",
-    "lv": "Užitečný",
+    "lv": "Nápomocný",
     "level": "B1"
   },
   {
     "de": "behindern",
-    "lv": "Rušit",
+    "lv": "Bránit",
     "level": "B1"
   },
   {
@@ -7221,7 +7219,7 @@ const B1_WORDS = [
     "de": "Behörde",
     "de_article": "die",
     "de_plural": "die Behörden",
-    "lv": "Instituce",
+    "lv": "Úřad",
     "level": "B1"
   },
   {
@@ -7251,14 +7249,14 @@ const B1_WORDS = [
     "de": "Beilage",
     "de_article": "die",
     "de_plural": "die Beilagen",
-    "lv": "Přísada",
+    "lv": "Příloha",
     "level": "B1"
   },
   {
     "de": "Beileid",
     "de_article": "das",
     "de_plural": "die Beileide",
-    "lv": "Sympatie",
+    "lv": "Soustrast",
     "level": "B1"
   },
   {
@@ -7280,19 +7278,19 @@ const B1_WORDS = [
   },
   {
     "de": "beißend",
-    "lv": "Korozívní",
+    "lv": "Kousavý",
     "level": "B1"
   },
   {
     "de": "Beitrag",
     "de_article": "der",
     "de_plural": "die Beiträge",
-    "lv": "Investice",
+    "lv": "Příspěvek",
     "level": "B1"
   },
   {
     "de": "beitragen",
-    "lv": "Podporovat",
+    "lv": "Přispívat",
     "level": "B1"
   },
   {
@@ -7316,12 +7314,12 @@ const B1_WORDS = [
     "de": "Belag",
     "de_article": "der",
     "de_plural": "die Beläge",
-    "lv": "Pokrýt",
+    "lv": "Pokrytí",
     "level": "B1"
   },
   {
     "de": "belasten",
-    "lv": "Trápit se",
+    "lv": "Zatěžovat",
     "level": "B1"
   },
   {
@@ -7339,7 +7337,7 @@ const B1_WORDS = [
       "id": "b1-belegen",
       "layout": "standardStudy",
       "translation": "Obsadit",
-      "explanation": "Hlavní myšlenka: belegen znamená obsadit místo, přihlásit se do kurzu nebo dokázat fakty. Význam je určen objektem: místem, průběhem nebo důkazem.",
+      "explanation": "Hlavní myšlenka: belegen znamená obsadit místo, zapsat se do kurzu nebo doložit něco fakty. Význam určuje objekt: místo, kurz nebo tvrzení.",
       "examples": [
         {
           "de": "Der Platz ist schon belegt.",
@@ -7351,13 +7349,13 @@ const B1_WORDS = [
         },
         {
           "de": "Die Zahlen belegen seine Aussage.",
-          "lv": "Čísla dokazují jeho názor."
+          "lv": "Čísla dokládají jeho tvrzení."
         }
       ],
       "comparison": [
         {
           "word": "belegen",
-          "meaning": "Půjčit / uplatnit / doložit",
+          "meaning": "Obsadit / zapsat se / doložit",
           "example": "Der Sitz ist belegt. = Sedadlo je obsazené."
         },
         {
@@ -7379,7 +7377,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Belegt často znamená „zaneprázdněn“ • „rezervovaný“ je obvykle v němčině rezervovaný."
+        "text": "Belegt často znamená „obsazený“ • „rezervovaný“ se německy obvykle řekne reserviert."
       },
       "sectionAccents": {
         "examples": [
@@ -7517,19 +7515,19 @@ const B1_WORDS = [
   },
   {
     "de": "belegt",
-    "lv": "Zaneprázdněný",
+    "lv": "Obsazený",
     "level": "B1"
   },
   {
     "de": "beleidigen",
-    "lv": "Urazit se",
+    "lv": "Urazit",
     "level": "B1"
   },
   {
     "de": "Beleidigung",
     "de_article": "die",
     "de_plural": "die Beleidigungen",
-    "lv": "Odpor",
+    "lv": "Urážka",
     "level": "B1"
   },
   {
@@ -7546,12 +7544,12 @@ const B1_WORDS = [
   },
   {
     "de": "beliebig",
-    "lv": "Kdokoliv",
+    "lv": "Libovolný",
     "level": "B1"
   },
   {
     "de": "belohnen",
-    "lv": "Odměna",
+    "lv": "Odměnit",
     "level": "B1"
   },
   {
@@ -7561,7 +7559,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-bemerken",
       "layout": "standardStudy",
-      "translation": "Všímat si",
+      "translation": "Všimnout si",
       "explanation": "Hlavní myšlenka: bemerken znamená všímat si něčeho očima, sluchem nebo myslí. Formálněji to může také znamenat stručně poznamenat nebo upozornit.",
       "examples": [
         {
@@ -7580,12 +7578,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "bemerken",
-          "meaning": "Upozornění / poznámka",
+          "meaning": "Všimnout si / poznamenat",
           "example": "Ich bemerke den Fehler. = Všiml jsem si chyby."
         },
         {
           "word": "merken",
-          "meaning": "Pochopit / následovat",
+          "meaning": "Všimnout si / uvědomit si",
           "example": "Ich merke, dass du müde bist. = Všiml jsem si, že jsi unavený."
         },
         {
@@ -7750,11 +7748,11 @@ const B1_WORDS = [
       "id": "b1-sich-bemühen",
       "layout": "standardStudy",
       "translation": "Snažit se",
-      "explanation": "Hlavní myšlenka: sich bemühen znamená vynaložit opravdové úsilí nebo úsilí. Často se používá s um + co? nebo se zu + infinitiv.",
+      "explanation": "Hlavní myšlenka: sich bemühen znamená vynakládat opravdové úsilí nebo se snažit. Často se používá s um + 4. pádem nebo se zu + infinitivem.",
       "examples": [
         {
           "de": "Ich bemühe mich, pünktlich zu sein.",
-          "lv": "Snažím se chodit včas."
+          "lv": "Snažím se přijít včas."
         },
         {
           "de": "Sie bemüht sich um eine Lösung.",
@@ -7762,7 +7760,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir bemühen uns sehr um die Kunden.",
-          "lv": "Snažíme se o zákazníky."
+          "lv": "Velmi se snažíme vyhovět zákazníkům."
         }
       ],
       "comparison": [
@@ -7923,7 +7921,7 @@ const B1_WORDS = [
   },
   {
     "de": "benachbart",
-    "lv": "Soused",
+    "lv": "Sousední",
     "level": "B1"
   },
   {
@@ -7949,7 +7947,7 @@ const B1_WORDS = [
   },
   {
     "de": "bepflanzen",
-    "lv": "Zasadit",
+    "lv": "Osázet",
     "level": "B1"
   },
   {
@@ -7972,7 +7970,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Eltern beraten sich mit der Lehrerin.",
-          "lv": "Rodiče konzultují s učitelem."
+          "lv": "Rodiče se radí s učitelkou."
         }
       ],
       "comparison": [
@@ -7983,7 +7981,7 @@ const B1_WORDS = [
         },
         {
           "word": "raten",
-          "meaning": "Doporučit",
+          "meaning": "Radit",
           "example": "Ich rate dir zu warten. = Radím vám počkat."
         },
         {
@@ -8134,7 +8132,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich beraten",
-    "lv": "Diskutovat",
+    "lv": "Poradit se",
     "level": "B1"
   },
   {
@@ -8177,8 +8175,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-bereich",
       "layout": "standardStudy",
-      "translation": "Pole",
-      "explanation": "Hlavní myšlenka: der Bereich znamená oblast nebo zónu. V práci, studiích a tématech je to obvykle obor • Ve fyzickém místě - ploše nebo vymezené části.",
+      "translation": "Oblast",
+      "explanation": "Hlavní myšlenka: der Bereich znamená oblast nebo zónu. V práci, studiu a u témat jde obvykle o obor; ve fyzickém prostoru o zónu, plochu nebo vymezenou část.",
       "examples": [
         {
           "de": "Sie arbeitet im sozialen Bereich.",
@@ -8206,14 +8204,14 @@ const B1_WORDS = [
         },
         {
           "word": "die Branche",
-          "meaning": "Průmysl",
+          "meaning": "Odvětví",
           "example": "Die Branche wächst. = Průmysl roste."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Téma nebo dílo → Bereich = oblast • Uzavřená plocha → Bereich = plocha."
+            "text": "Téma nebo práce → Bereich = oblast • Vymezený prostor → Bereich = zóna."
           }
         ]
       },
@@ -8365,7 +8363,7 @@ const B1_WORDS = [
     "de": "Bergführer",
     "de_article": "der",
     "de_plural": "die Bergführer",
-    "lv": "Společník v horách",
+    "lv": "Horský průvodce",
     "level": "B1"
   },
   {
@@ -8382,7 +8380,7 @@ const B1_WORDS = [
     "de": "Bergbahn",
     "de_article": "die",
     "de_plural": "die Bergbahnen",
-    "lv": "Výtah v horách",
+    "lv": "Horská lanovka",
     "level": "B1"
   },
   {
@@ -8404,7 +8402,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-berichten",
       "layout": "standardStudy",
-      "translation": "Nahlásit",
+      "translation": "Informovat",
       "explanation": "Hlavní myšlenka: berichten znamená hlásit nebo vyprávět o události, zážitku nebo výsledku. Je neutrálnější a často formálnější než erzählen.",
       "examples": [
         {
@@ -8417,7 +8415,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Kollegin berichtet dem Chef von den Ergebnissen.",
-          "lv": "Kolega hlásí výsledky šéfovi."
+          "lv": "Kolegyně informuje šéfa o výsledcích."
         }
       ],
       "comparison": [
@@ -8428,7 +8426,7 @@ const B1_WORDS = [
         },
         {
           "word": "erzählen",
-          "meaning": "Mluvit svobodněji",
+          "meaning": "Vyprávět volněji",
           "example": "Er erzählt eine Geschichte. = Vypráví příběh."
         },
         {
@@ -8445,7 +8443,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Berichten se obvykle používá s über + co? nebo von + kam?."
+        "text": "Berichten se obvykle používá s über + 4. pádem nebo von + 3. pádem."
       },
       "sectionAccents": {
         "examples": [
@@ -8605,12 +8603,12 @@ const B1_WORDS = [
   },
   {
     "de": "berufstätig",
-    "lv": "Pracovní",
+    "lv": "Zaměstnaný",
     "level": "B1"
   },
   {
     "de": "beruhigen",
-    "lv": "Uklidni se",
+    "lv": "Uklidnit",
     "level": "B1"
   },
   {
@@ -8661,7 +8659,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Beruhig dich! je příkaz „uklidnit“, nikoli „uklidnit někoho“."
+        "text": "Beruhig dich! je příkaz „uklidni se“, nikoli „uklidni někoho“."
       },
       "sectionAccents": {
         "examples": [
@@ -8828,7 +8826,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Pokud je myšlena konkrétní slavná osoba, je v běžném životě běžnější říkat Hvězda nebo slavná osoba."
+        "text": "Pokud je myšlena konkrétní slavná osoba, v běžném životě se častěji říká hvězda nebo slavná osoba."
       },
       "sectionAccents": {
         "examples": [
@@ -8951,7 +8949,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich berühren",
-    "lv": "Čelit",
+    "lv": "Dotýkat se",
     "level": "B1"
   },
   {
@@ -8968,7 +8966,7 @@ const B1_WORDS = [
   },
   {
     "de": "beschaffen",
-    "lv": "Poskytnout",
+    "lv": "Obstarat",
     "level": "B1"
   },
   {
@@ -8996,7 +8994,7 @@ const B1_WORDS = [
       "id": "b1-beschließen",
       "layout": "standardStudy",
       "translation": "Rozhodnout",
-      "explanation": "Hlavní myšlenka: beschließen znamená rozhodnout nebo formálně rozhodnout. S událostí, projevem nebo večerem to může znamenat i závěr.",
+      "explanation": "Hlavní myšlenka: beschließen znamená rozhodnout nebo formálně přijmout rozhodnutí. V souvislosti s událostí, projevem nebo večerem může znamenat také uzavřít či zakončit.",
       "examples": [
         {
           "de": "Wir haben beschlossen, umzuziehen.",
@@ -9014,7 +9012,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "beschließen",
-          "meaning": "Rozhodnout / rozhodnout",
+          "meaning": "Rozhodnout / formálně schválit",
           "example": "Der Rat beschließt neue Regeln. = Rada přijímá nová pravidla."
         },
         {
@@ -9024,7 +9022,7 @@ const B1_WORDS = [
         },
         {
           "word": "schließen",
-          "meaning": "Zavřít / zavřít",
+          "meaning": "Zavřít / uzavřít",
           "example": "Bitte schließen Sie die Tür. = Zavřete prosím dveře."
         }
       ],
@@ -9036,7 +9034,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Nezaměňujte beschließen se schließen: beschließen = rozhodnout nebo uzavřít, schließen = uzavřít."
+        "text": "Nezaměňujte beschließen se schließen: beschließen = rozhodnout nebo zakončit, schließen = zavřít nebo uzavřít."
       },
       "sectionAccents": {
         "examples": [
@@ -9188,7 +9186,7 @@ const B1_WORDS = [
       "id": "b1-beschwerde",
       "layout": "standardStudy",
       "translation": "Stížnost",
-      "explanation": "Hlavní myšlenka: die Beschwerde znamená stěžovat si na problém. V medicíně množné číslo Beschwerden znamená zdravotní potíže nebo neduhy.",
+      "explanation": "Hlavní myšlenka: die Beschwerde znamená stížnost na problém. V medicíně množné číslo Beschwerden znamená zdravotní potíže nebo neduhy.",
       "examples": [
         {
           "de": "Ich möchte eine Beschwerde einreichen.",
@@ -9223,12 +9221,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "V zákaznickém servisu Beschwerde = stížnost • K lékaři Beschwerdenovi = neduhy."
+            "text": "V zákaznickém servisu Beschwerde = stížnost • U lékaře Beschwerden = zdravotní potíže."
           }
         ]
       },
       "important": {
-        "text": "Beschwerten u lékaře není jediná stížnost na papíře, ale zdravotní neduhy nebo příznaky."
+        "text": "Beschwerden u lékaře nejsou jedinou stížností na papíře, ale označují zdravotní potíže nebo příznaky."
       },
       "sectionAccents": {
         "examples": [
@@ -9365,7 +9363,7 @@ const B1_WORDS = [
   },
   {
     "de": "beseitigen",
-    "lv": "Zabránit",
+    "lv": "Odstranit",
     "level": "B1"
   },
   {
@@ -9375,31 +9373,31 @@ const B1_WORDS = [
   },
   {
     "de": "besichtigen",
-    "lv": "Podívat se na",
+    "lv": "Prohlédnout si",
     "level": "B1"
   },
   {
     "de": "besiegen",
-    "lv": "Vyhrát",
+    "lv": "Porazit",
     "level": "B1"
   },
   {
     "de": "besorgen",
-    "lv": "Poskytnout",
+    "lv": "Obstarat",
     "level": "B1",
     "study": {
       "id": "b1-besorgen",
       "layout": "standardStudy",
-      "translation": "Poskytnout",
+      "translation": "Obstarat",
       "explanation": "Hlavní myšlenka: besorgen znamená obstarat, koupit nebo najít něco potřebného. Není to totéž, jako se o někoho starat.",
       "examples": [
         {
           "de": "Ich besorge die Tickets.",
-          "lv": "Dostanu lístky."
+          "lv": "Obstarám lístky."
         },
         {
           "de": "Kannst du Milch besorgen?",
-          "lv": "Můžeš si koupit mléko"
+          "lv": "Můžeš obstarat mléko?"
         },
         {
           "de": "Wir müssen einen Handwerker besorgen.",
@@ -9410,7 +9408,7 @@ const B1_WORDS = [
         {
           "word": "besorgen",
           "meaning": "Obstarat / získat",
-          "example": "Ich besorge Brot. = Dostal jsem chleba."
+          "example": "Ich besorge Brot. = Obstarám chleba."
         },
         {
           "word": "kaufen",
@@ -9431,7 +9429,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Bát se je sich Sorgen machen • Starat se o někoho je sich küszimmer um, ne besorgen."
+        "text": "Bát se je sich Sorgen machen • Starat se o někoho je sich kümmern um, ne besorgen."
       },
       "sectionAccents": {
         "examples": [
@@ -9571,7 +9569,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich bessern",
-    "lv": "Zlepšit",
+    "lv": "Zlepšit se",
     "level": "B1"
   },
   {
@@ -9585,7 +9583,7 @@ const B1_WORDS = [
     "de": "Bestandteil",
     "de_article": "der",
     "de_plural": "die Bestandteile",
-    "lv": "Přísada",
+    "lv": "Součást",
     "level": "B1"
   },
   {
@@ -9601,7 +9599,7 @@ const B1_WORDS = [
       "id": "b1-bestehen",
       "layout": "standardStudy",
       "translation": "Existovat",
-      "explanation": "Hlavní myšlenka: besten mění význam konstrukcí: Problém besten = existovat, Prüfung besten = projít, aus besten = sestávat z, auf etwas besten = trvat na.",
+      "explanation": "Hlavní myšlenka: bestehen mění význam podle konstrukce: Problém bestehen = existovat, Prüfung bestehen = složit, aus bestehen = sestávat z, auf etwas bestehen = trvat na.",
       "examples": [
         {
           "de": "Das Problem besteht noch.",
@@ -9623,7 +9621,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "bestehen",
-          "meaning": "Existovat / usadit se",
+          "meaning": "Existovat / složit zkoušku",
           "example": "Das Problem besteht noch. = Problém stále existuje."
         },
         {
@@ -9640,12 +9638,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Prüfung besten = projít • Aus besten = sestávat z • Auf etwas besten = trvat na tom."
+            "text": "Prüfung bestehen = složit zkoušku • aus bestehen = sestávat z • auf etwas bestehen = trvat na něčem."
           }
         ]
       },
       "important": {
-        "text": "Význam besten je velmi často definován předložkou: aus, auf nebo předmět zkoušky."
+        "text": "Význam bestehen velmi často určuje předložka: aus, auf nebo předmět zkoušky."
       },
       "sectionAccents": {
         "examples": [
@@ -9804,7 +9802,7 @@ const B1_WORDS = [
         {
           "word": "bestimmen",
           "meaning": "Určit / předpovědět",
-          "example": "Der Preis wird neu bestimmt. = Cena je resetována."
+          "example": "Der Preis wird neu bestimmt. = Cena je znovu stanovena."
         },
         {
           "word": "entscheiden",
@@ -9820,7 +9818,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pokud rozhodnutí určuje cenu, dávku, termín nebo účel, obvykle der bestimnen."
+            "text": "Pokud rozhodnutí určuje cenu, dávku, termín nebo účel, obvykle se používá bestimmen."
           }
         ]
       },
@@ -9978,7 +9976,7 @@ const B1_WORDS = [
     "de": "Besuchszeit",
     "de_article": "die",
     "de_plural": "die Besuchszeiten",
-    "lv": "Návštěvní čas",
+    "lv": "Návštěvní doba",
     "level": "B1"
   },
   {
@@ -10013,12 +10011,12 @@ const B1_WORDS = [
     "de": "Betrag",
     "de_article": "der",
     "de_plural": "die Beträge",
-    "lv": "Součet",
+    "lv": "Částka",
     "level": "B1"
   },
   {
     "de": "betragen",
-    "lv": "Dosáhnout",
+    "lv": "Činit",
     "level": "B1"
   },
   {
@@ -10041,7 +10039,7 @@ const B1_WORDS = [
       "id": "b1-betrieb",
       "layout": "standardStudy",
       "translation": "Společnost",
-      "explanation": "Hlavní myšlenka: der Betrieb nejčastěji znamená obchod nebo pracovní/provozní proces. Fráze v Betrieb znamená, že zařízení nebo systém je v provozu.",
+      "explanation": "Hlavní myšlenka: der Betrieb nejčastěji znamená podnik nebo pracovní/provozní proces.",
       "examples": [
         {
           "de": "Der Betrieb hat 50 Mitarbeiter.",
@@ -10076,7 +10074,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Společnost = Betrieb • Stroj v Betriebu = v provozu."
+            "text": "Společnost = Betrieb • Stroj in Betrieb = v provozu."
           }
         ]
       },
@@ -10229,19 +10227,19 @@ const B1_WORDS = [
   },
   {
     "de": "beugen",
-    "lv": "Dát",
+    "lv": "Ohýbat",
     "level": "B1"
   },
   {
     "de": "Beule",
     "de_article": "die",
     "de_plural": "die Beulen",
-    "lv": "Slovní hříčka",
+    "lv": "Bou­le",
     "level": "B1"
   },
   {
     "de": "beunruhigen",
-    "lv": "Dělat si starosti",
+    "lv": "Znepokojovat",
     "level": "B1"
   },
   {
@@ -10255,7 +10253,7 @@ const B1_WORDS = [
     "de": "Bevölkerung",
     "de_article": "die",
     "de_plural": "die Bevölkerungen",
-    "lv": "Obyvatelé",
+    "lv": "Obyvatelstvo",
     "level": "B1"
   },
   {
@@ -10265,18 +10263,18 @@ const B1_WORDS = [
   },
   {
     "de": "bewachen",
-    "lv": "Chránit",
+    "lv": "Hlídат",
     "level": "B1"
   },
   {
     "de": "bewegen",
-    "lv": "Pohybovat se",
+    "lv": "Pohnout",
     "level": "B1",
     "study": {
       "id": "b1-bewegen",
       "layout": "standardStudy",
-      "translation": "Pohybovat se",
-      "explanation": "Hlavní myšlenka: bewegen znamená něco přesunout nebo přesunout. S lidmi a emocemi to může znamenat dotýkat se • Sich bewegen znamená pohybovat se sám.",
+      "translation": "Pohnout / pohybovat se",
+      "explanation": "Hlavní myšlenka: bewegen znamená pohnout nebo přemístit něco. U lidí a emocí může znamenat dojmout • sich bewegen znamená pohybovat se.",
       "examples": [
         {
           "de": "Bitte bewege den Tisch nicht.",
@@ -10294,7 +10292,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "bewegen",
-          "meaning": "Pohybovat / dotýkat se",
+          "meaning": "Pohnout / dojmout",
           "example": "Das bewegt mich. = Dotýká se mě to."
         },
         {
@@ -10304,14 +10302,14 @@ const B1_WORDS = [
         },
         {
           "word": "verschieben",
-          "meaning": "Posun",
+          "meaning": "Posunout",
           "example": "Wir verschieben den Tisch. = Posouváme stůl."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Přesunout objekt → bewegen • Hýbej se → sich bewegen • Emoce → beweg."
+            "text": "Pohnout objektem → bewegen • Pohybovat se → sich bewegen • Emoce → bewegt."
           }
         ]
       },
@@ -10467,7 +10465,7 @@ const B1_WORDS = [
   },
   {
     "de": "bewirten",
-    "lv": "Tolerovat",
+    "lv": "Hostit",
     "level": "B1"
   },
   {
@@ -10491,7 +10489,7 @@ const B1_WORDS = [
   },
   {
     "de": "bewusst",
-    "lv": "Úmyslně",
+    "lv": "Vědomý",
     "level": "B1"
   },
   {
@@ -10508,13 +10506,13 @@ const B1_WORDS = [
   },
   {
     "de": "beziehen",
-    "lv": "Přijímat",
+    "lv": "Pobírat",
     "level": "B1",
     "study": {
       "id": "b1-beziehen",
       "layout": "standardStudy",
-      "translation": "Přijímat",
-      "explanation": "Hlavní myšlenka: beziehen znamená dostávat pravidelnou platbu nebo se nastěhovat do areálu. Konstrukce sich beziehen auf znamená odkazovat.",
+      "translation": "Pobírat / nastěhovat se",
+      "explanation": "Hlavní myšlenka: beziehen znamená pobírat pravidelnou platbu nebo se nastěhovat do bytu. Konstrukce sich beziehen auf znamená vztahovat se na.",
       "examples": [
         {
           "de": "Sie bezieht eine kleine Rente.",
@@ -10522,7 +10520,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir beziehen nächste Woche die neue Wohnung.",
-          "lv": "Příští týden se budeme stěhovat do nového bytu."
+          "lv": "Příští týden se nastěhujeme do nového bytu."
         },
         {
           "de": "Die Regel bezieht sich auf alle Schüler.",
@@ -10532,12 +10530,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "beziehen",
-          "meaning": "Přijmout / nastěhovat se",
+          "meaning": "Pobírat / nastěhovat se",
           "example": "Sie bezieht eine Rente. = Pobírá důchod."
         },
         {
           "word": "sich beziehen auf",
-          "meaning": "Odkazovat",
+          "meaning": "Vztahovat se na",
           "example": "Die Regel bezieht sich auf alle Schüler. = Pravidlo platí pro všechny studenty."
         },
         {
@@ -10554,7 +10552,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Sich beziehen auf je speciální konstrukce: viz."
+        "text": "sich beziehen auf je speciální konstrukce ve významu „vztahovat se na“."
       },
       "sectionAccents": {
         "examples": [
@@ -10690,7 +10688,7 @@ const B1_WORDS = [
   },
   {
     "de": "bezweifeln",
-    "lv": "Ptát se",
+    "lv": "Pochybovat o",
     "level": "B1"
   },
   {
@@ -10715,21 +10713,21 @@ const B1_WORDS = [
   },
   {
     "de": "biegen",
-    "lv": "Dát",
+    "lv": "Ohýbat",
     "level": "B1"
   },
   {
     "de": "Biskuit",
     "de_article": "der",
     "de_plural": "die Biskuits",
-    "lv": "Suchar",
+    "lv": "Piškot",
     "level": "B1"
   },
   {
     "de": "Biss",
     "de_article": "der",
     "de_plural": "die Bisse",
-    "lv": "Sousto",
+    "lv": "Kousnutí",
     "level": "B1"
   },
   {
@@ -10742,7 +10740,7 @@ const B1_WORDS = [
       "id": "b1-bildschirm",
       "layout": "standardStudy",
       "translation": "Obrazovka",
-      "explanation": "Hlavní myšlenka: der Bildschimmer je obrazovka – zobrazovací plocha monitoru počítače, telefonu, tabletu nebo televize. Množné číslo: die Bildschimmer.",
+      "explanation": "Hlavní myšlenka: der Bildschirm je obrazovka – zobrazovací plocha monitoru počítače, telefonu, tabletu nebo televize. Množné číslo: die Bildschirme.",
       "examples": [
         {
           "de": "Der Bildschirm ist kaputt.",
@@ -10770,7 +10768,7 @@ const B1_WORDS = [
         },
         {
           "word": "das Display",
-          "meaning": "Zobrazit",
+          "meaning": "Displej",
           "example": "Das Display ist klein. = Displej je malý."
         }
       ],
@@ -10782,7 +10780,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Der Bildschirm = zástěna. Množné číslo: die Bildschimmer."
+        "text": "Der Bildschirm = obrazovka. Množné číslo: die Bildschirme."
       },
       "sectionAccents": {
         "explanation": {
@@ -10838,7 +10836,7 @@ const B1_WORDS = [
     "de": "Bildung",
     "de_article": "die",
     "de_plural": "die Bildungen",
-    "lv": "Školství",
+    "lv": "Vzdělání",
     "level": "B1"
   },
   {
@@ -10898,8 +10896,8 @@ const B1_WORDS = [
         },
         {
           "word": "anbieten",
-          "meaning": "Nabídnout někoho konkrétního",
-          "example": "Ich biete dir meine Hilfe an. = Nabízím vám svou pomoc."
+          "meaning": "Nabídnout někomu konkrétnímu",
+          "example": "Nabízím ti svou pomoc."
         },
         {
           "word": "geben",
@@ -10910,12 +10908,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Příležitosti, kurzy, služby nebo pohled často etwas bieten = něco dává/nabízí."
+            "text": "Příležitosti, kurzy, služby nebo pohled často etwas bieten = něco nabízejí/poskytují."
           }
         ]
       },
       "important": {
-        "text": "Bieten často popisuje, co místo, program nebo služba poskytuje • Anbieten více klade důraz na nabízení aktiv někomu."
+        "text": "Bieten často popisuje, co místo, program nebo služba poskytuje • Anbieten více zdůrazňuje aktivní nabídku někomu."
       },
       "sectionAccents": {
         "examples": [
@@ -11077,17 +11075,17 @@ const B1_WORDS = [
   },
   {
     "de": "blamieren",
-    "lv": "K hanbě",
+    "lv": "Ztrapnit",
     "level": "B1"
   },
   {
     "de": "sich blamieren",
-    "lv": "Zmást",
+    "lv": "Ztrapnit se",
     "level": "B1"
   },
   {
     "de": "blank",
-    "lv": "Jasný",
+    "lv": "Lesklý",
     "level": "B1"
   },
   {
@@ -11100,7 +11098,7 @@ const B1_WORDS = [
       "id": "b1-blase",
       "layout": "standardStudy",
       "translation": "Měchýř",
-      "explanation": "Hlavní myšlenka: die Blase znamená puchýř, puchýř nebo bublina. Obvykle jde o puchýř na kůži, puchýř v těle, bublinu ve vodě nebo vzduchu.",
+      "explanation": "Hlavní myšlenka: die Blase znamená puchýř, močový měchýř nebo bublinu. Na kůži jde obvykle o puchýř, v těle o močový měchýř a ve vodě či vzduchu o bublinu.",
       "examples": [
         {
           "de": "Ich habe eine Blase am Fuß.",
@@ -11118,7 +11116,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Blase",
-          "meaning": "Puchýř / puchýř / bublina",
+          "meaning": "Puchýř / močový měchýř / bublina",
           "example": "Ich habe eine Blase am Fuß. = Na noze mám puchýř."
         },
         {
@@ -11283,7 +11281,7 @@ const B1_WORDS = [
     "de": "Blech",
     "de_article": "das",
     "de_plural": "die Bleche",
-    "lv": "Cín",
+    "lv": "Plech",
     "level": "B1"
   },
   {
@@ -11307,7 +11305,7 @@ const B1_WORDS = [
     "de": "Blinde",
     "de_article": "der",
     "de_plural": "die Blinden",
-    "lv": "Slepý",
+    "lv": "Slepec",
     "level": "B1"
   },
   {
@@ -11319,12 +11317,12 @@ const B1_WORDS = [
     "de": "Blitzschlag",
     "de_article": "der",
     "de_plural": "die Blitzschläge",
-    "lv": "Blesk",
+    "lv": "Úder blesku",
     "level": "B1"
   },
   {
     "de": "blitzen",
-    "lv": "Blikat",
+    "lv": "Blýskat se",
     "level": "B1"
   },
   {
@@ -11341,7 +11339,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich schreibe es in den Block.",
-          "lv": "Zapisuji si to do sešitu."
+          "lv": "Zapisuji si to do bloku."
         },
         {
           "de": "Der Unterricht ist in drei Blöcke geteilt.",
@@ -11355,24 +11353,24 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Block",
-          "meaning": "Blok / blok / blok",
+          "meaning": "Blok / poznámkový blok / klín nebo velký kus",
           "example": "Ich brauche einen Block. = Potřebuji podložku."
         },
         {
           "word": "das Heft",
-          "meaning": "Notebook",
+          "meaning": "Sešit",
           "example": "Das Heft ist voll. = Schránka je plná."
         },
         {
           "word": "der Klotz",
-          "meaning": "Blok",
+          "meaning": "Špalek nebo velký kus",
           "example": "Der Klotz ist schwer. = Blok je těžký."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pro zápis Block = block • Ve struktuře = blok • V materiálu = blok."
+            "text": "Pro zápis Block = poznámkový blok • Ve struktuře = blok • V materiálu = kus nebo klín."
           }
         ]
       },
@@ -11510,7 +11508,7 @@ const B1_WORDS = [
   },
   {
     "de": "blockieren",
-    "lv": "Zablokovat",
+    "lv": "Blokovat",
     "level": "B1"
   },
   {
@@ -11521,7 +11519,7 @@ const B1_WORDS = [
       "id": "b1-bloß",
       "layout": "standardStudy",
       "translation": "Pouze",
-      "explanation": "Hlavní myšlenka: bloß velmi často znamená jen nebo jednoduše v hovorovém jazyce. Jako přídavné jméno znamená plešatý, např. mit bloßen Händen.",
+      "explanation": "Hlavní myšlenka: bloß velmi často znamená jen nebo jednoduše v hovorovém jazyce. Jako přídavné jméno znamená holý, např. mit bloßen Händen.",
       "examples": [
         {
           "de": "Das war bloß ein Witz.",
@@ -11556,7 +11554,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "V rozhovoru bloß ≈ nur • S podstatným jménem bloß může znamenat plešatý."
+            "text": "V rozhovoru bloß ≈ nur • Ve spojení s podstatným jménem může bloß znamenat holý."
           }
         ]
       },
@@ -11715,7 +11713,7 @@ const B1_WORDS = [
     "de": "Blüte",
     "de_article": "die",
     "de_plural": "die Blüten",
-    "lv": "Květina",
+    "lv": "Květ",
     "level": "B1"
   },
   {
@@ -11739,8 +11737,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-bogen",
       "layout": "standardStudy",
-      "translation": "Kruh",
-      "explanation": "Hlavní myšlenka: der Bogen znamená luk. V závislosti na kontextu to může být také oblouk nebo stránka, jako je Fragebogen.",
+      "translation": "Luk",
+      "explanation": "Hlavní myšlenka: der Bogen znamená luk. Podle kontextu může označovat také oblouk nebo formulář, například ve slově Fragebogen.",
       "examples": [
         {
           "de": "Der Bogen ist aus Holz.",
@@ -11758,13 +11756,13 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Bogen",
-          "meaning": "Luk / oblouk / forma",
+          "meaning": "Luk / oblouk / formulář",
           "example": "Füllen Sie den Bogen aus. = Vyplňte formulář."
         },
         {
           "word": "das Formular",
           "meaning": "Formulář",
-          "example": "Das Formular ist lang. = Forma je dlouhá."
+          "example": "Formulář je dlouhý."
         },
         {
           "word": "die Kurve",
@@ -11919,7 +11917,7 @@ const B1_WORDS = [
     "de": "Bon",
     "de_article": "der",
     "de_plural": "die Bons",
-    "lv": "Pokladní doklad s cenou produktu",
+    "lv": "Účtenka",
     "level": "B1"
   },
   {
@@ -11946,7 +11944,7 @@ const B1_WORDS = [
       "id": "b1-botschaft",
       "layout": "standardStudy",
       "translation": "Velvyslanectví",
-      "explanation": "Hlavní myšlenka: die Botschaft znamená ambasáda nebo zpráva. Budova a instituce je velvyslanectví, ale obsah textu nebo projevu je zpráva.",
+      "explanation": "Hlavní myšlenka: die Botschaft znamená ambasádu nebo poselství. Budova a instituce jsou velvyslanectví, ale obsah textu nebo projevu je poselství.",
       "examples": [
         {
           "de": "Die Botschaft ist heute geschlossen.",
@@ -11981,7 +11979,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Státní instituce → ambasáda • Film nebo řeč myšlenka → zpráva."
+            "text": "Státní instituce → ambasáda • Myšlenka filmu nebo projevu → poselství."
           }
         ]
       },
@@ -12123,7 +12121,7 @@ const B1_WORDS = [
     "de": "Branche",
     "de_article": "die",
     "de_plural": "die Branchen",
-    "lv": "Průmysl",
+    "lv": "Obor",
     "level": "B1"
   },
   {
@@ -12135,8 +12133,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-brand",
       "layout": "standardStudy",
-      "translation": "Oheň",
-      "explanation": "Hlavní myšlenka: der Brand znamená oheň. V kožním/lékařském kontextu to může znamenat popáleninu, ale značka v němčině je die Marke, nikoli Brand.",
+      "translation": "Požár",
+      "explanation": "Hlavní myšlenka: der Brand znamená požár. V kožním/lékařském kontextu může znamenat popáleninu, ale značka je německy die Marke, nikoli Brand.",
       "examples": [
         {
           "de": "Der Brand wurde schnell gelöscht.",
@@ -12154,7 +12152,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Brand",
-          "meaning": "Oheň / hořet",
+          "meaning": "Požár / popálenina",
           "example": "Der Brand ist gefährlich. = Oheň je nebezpečný."
         },
         {
@@ -12171,7 +12169,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Ve zprávách Brand = požár • Anglické „brand“ = značka, německy die Marke."
+            "text": "Ve zprávách Brand = požár • Anglické „brand“ jako značka je německy Marke."
           }
         ]
       },
@@ -12310,7 +12308,7 @@ const B1_WORDS = [
     "de": "Brathuhn",
     "de_article": "das",
     "de_plural": "die Brathühner",
-    "lv": "Smažené kuře",
+    "lv": "Pečené kuře",
     "level": "B1"
   },
   {
@@ -12341,7 +12339,7 @@ const B1_WORDS = [
   },
   {
     "de": "brechen",
-    "lv": "Zlomit se",
+    "lv": "Zlomit",
     "level": "B1"
   },
   {
@@ -12402,14 +12400,14 @@ const B1_WORDS = [
     "de": "Briefpapier",
     "de_article": "das",
     "de_plural": "die Briefpapiere",
-    "lv": "Papírnictví",
+    "lv": "Dopisní papír",
     "level": "B1"
   },
   {
     "de": "Brieftasche",
     "de_article": "die",
     "de_plural": "die Brieftaschen",
-    "lv": "Kapesní kufřík",
+    "lv": "Peněženka",
     "level": "B1"
   },
   {
@@ -12423,7 +12421,7 @@ const B1_WORDS = [
     "de": "Brosche",
     "de_article": "die",
     "de_plural": "die Broschen",
-    "lv": "Kolík",
+    "lv": "Brož",
     "level": "B1"
   },
   {
@@ -12461,14 +12459,14 @@ const B1_WORDS = [
   },
   {
     "de": "brummen",
-    "lv": "Hučení",
+    "lv": "Hučet",
     "level": "B1"
   },
   {
     "de": "Brunnen",
     "de_article": "der",
     "de_plural": "die Brunnen",
-    "lv": "Dobře",
+    "lv": "Studna",
     "level": "B1"
   },
   {
@@ -12494,7 +12492,7 @@ const B1_WORDS = [
     "de": "Büchse",
     "de_article": "die",
     "de_plural": "die Büchsen",
-    "lv": "Krabice",
+    "lv": "Plechovka",
     "level": "B1"
   },
   {
@@ -12527,7 +12525,7 @@ const B1_WORDS = [
     "de": "Bühne",
     "de_article": "die",
     "de_plural": "die Bühnen",
-    "lv": "Fáze",
+    "lv": "Jeviště",
     "level": "B1"
   },
   {
@@ -12554,7 +12552,7 @@ const B1_WORDS = [
       "id": "b1-bund",
       "layout": "standardStudy",
       "translation": "Unie",
-      "explanation": "Hlavní myšlenka: der Bund znamená federace nebo unie. U předmětů to může znamenat balíček, jako ein Bund Schlüssel nebo ein Bund Kräuter.",
+      "explanation": "Hlavní myšlenka: der Bund znamená federaci nebo unii. U předmětů může znamenat svazek, například ein Bund Schlüssel nebo ein Bund Kräuter.",
       "examples": [
         {
           "de": "Der Bund unterstützt die Länder.",
@@ -12566,7 +12564,7 @@ const B1_WORDS = [
         },
         {
           "de": "Ein Bund Kräuter liegt auf dem Tisch.",
-          "lv": "Na stole je hromada bylinek."
+          "lv": "Na stole leží svazek bylinek."
         }
       ],
       "comparison": [
@@ -12582,7 +12580,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Verein",
-          "meaning": "Společnost",
+          "meaning": "Spolek nebo sdružení",
           "example": "Der Verein ist klein. = Sdružení je malé."
         }
       ],
@@ -12764,21 +12762,21 @@ const B1_WORDS = [
     "de": "Busen",
     "de_article": "der",
     "de_plural": "die Busen",
-    "lv": "Truhla",
+    "lv": "ňadra",
     "level": "B1"
   },
   {
     "de": "Cabriolet",
     "de_article": "das",
     "de_plural": "die Cabriolets",
-    "lv": "Konvertibilní",
+    "lv": "Kabriolet",
     "level": "B1"
   },
   {
     "de": "Camp",
     "de_article": "das",
     "de_plural": "die Camps",
-    "lv": "Kemp se stany nebo dřevěnými domy",
+    "lv": "Kemp se stany nebo dřevěnými chatkami",
     "level": "B1"
   },
   {
@@ -12792,7 +12790,7 @@ const B1_WORDS = [
     "de": "Casting",
     "de_article": "das",
     "de_plural": "die Castings",
-    "lv": "Odlévání",
+    "lv": "Casting",
     "level": "B1"
   },
   {
@@ -12823,7 +12821,7 @@ const B1_WORDS = [
   },
   {
     "de": "chemisch",
-    "lv": "Chemikálie",
+    "lv": "Chemický",
     "level": "B1"
   },
   {
@@ -12837,7 +12835,7 @@ const B1_WORDS = [
     "de": "Chipkarte",
     "de_article": "die",
     "de_plural": "die Chipkarten",
-    "lv": "Platební kartou",
+    "lv": "Čipová karta",
     "level": "B1"
   },
   {
@@ -12904,7 +12902,7 @@ const B1_WORDS = [
       "id": "b1-dadurch",
       "layout": "standardStudy",
       "translation": "Tedy",
-      "explanation": "Hlavní myšlenka: deruch znamená tak nebo tím. Spojuje výše uvedenou příčinu s následkem.",
+      "explanation": "Hlavní myšlenka: dadurch znamená tak, tím nebo díky tomu. Spojuje výše uvedenou příčinu s následkem.",
       "examples": [
         {
           "de": "Er hat viel gelernt. Dadurch hat er bestanden.",
@@ -12932,7 +12930,7 @@ const B1_WORDS = [
         },
         {
           "word": "damit",
-          "meaning": "Do / s tím",
+          "meaning": "Aby / s tím",
           "example": "Ich spare Geld, damit ich reisen kann. = Šetřím peníze, abych mohl cestovat."
         }
       ],
@@ -12944,7 +12942,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Deruch odkazuje na akci nebo situaci uvedenou výše, nikoli pouze na místo."
+        "text": "Dadurch odkazuje na výše uvedenou akci nebo situaci, nikoli pouze na místo."
       },
       "sectionAccents": {
         "examples": [
@@ -13055,12 +13053,12 @@ const B1_WORDS = [
   },
   {
     "de": "dagegen",
-    "lv": "V kontrastu",
+    "lv": "Proti tomu",
     "level": "B1",
     "study": {
       "id": "b1-dagegen",
       "layout": "standardStudy",
-      "translation": "V kontrastu",
+      "translation": "Proti tomu • naopak",
       "explanation": "Hlavní myšlenka: dagegen znamená naopak nebo proti. Může ukázat kontrast nebo opozici vůči něčemu.",
       "examples": [
         {
@@ -13084,7 +13082,7 @@ const B1_WORDS = [
         },
         {
           "word": "dafür",
-          "meaning": "O tom",
+          "meaning": "Pro to",
           "example": "Ich bin dafür. = Jsem pro to."
         },
         {
@@ -13256,12 +13254,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Mezi příčinou a následkem se daher obvykle překládá jako protože."
+            "text": "Mezi příčinou a následkem se daher obvykle překládá jako proto."
           }
         ]
       },
       "important": {
-        "text": "Daher jako „odtud“ je vzácnější • Vepředu je lepší se učit \"protože\"."
+        "text": "Daher jako „odtud“ je vzácnější • Nejdříve je lepší učit se význam „proto“."
       },
       "sectionAccents": {
         "examples": [
@@ -13376,7 +13374,7 @@ const B1_WORDS = [
       "id": "b1-dahin",
       "layout": "standardStudy",
       "translation": "Tam",
-      "explanation": "Hlavní myšlenka: dahin znamená tam, tam. V přeneseném smyslu es ist dahin znamená, že je něco ztraceno nebo ztraceno.",
+      "explanation": "Hlavní myšlenka: dahin znamená tam nebo tamtím směrem. V přeneseném smyslu es ist dahin znamená, že je něco ztraceno nebo zaniklo.",
       "examples": [
         {
           "de": "Ich gehe dahin.",
@@ -13394,7 +13392,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "dahin",
-          "meaning": "Tam / tam / na dvůr",
+          "meaning": "Tam / tamtím směrem / ztraceno",
           "example": "Ich fahre dahin. = Jdu tam."
         },
         {
@@ -13562,13 +13560,7 @@ const B1_WORDS = [
       "id": "b1-dank-study",
       "layout": "standardStudy",
       "translation": "Vděčnost",
-      "explanation": [
-        "Hlavní myšlenka: der Dank je podstatné jméno a znamená díky jako pojem. Hlavním významem je vděčnost – nezaměňovat s hovorovou odpovědí danke.",
-        "Nejčastější fráze jsou Vielen Dank! a Herzlichen Dank! — znamenají \"moc děkuji!\" a \"moc děkuji!\".",
-        "Danke je odpověď nebo krátké slovo poděkování v rozhovoru: „děkuji“.",
-        "Danken je sloveso: „děkovat“. s kým? forma: Ich danke dir.",
-        "Der Dank není totéž co danke: Dank je podstatné jméno, danke je hovorová odpověď."
-      ],
+      "explanation": "Danken je sloveso „děkovat“; vazba: Ich danke dir.",
       "examples": [
         {
           "de": "Vielen Dank!",
@@ -13584,7 +13576,7 @@ const B1_WORDS = [
         },
         {
           "de": "Nein, danke.",
-          "lv": "Ne děkuji"
+          "lv": "Ne, děkuji."
         },
         {
           "de": "Ich danke Ihnen für die Hilfe.",
@@ -13592,7 +13584,7 @@ const B1_WORDS = [
         },
         {
           "de": "Ich danke dir für das Geschenk.",
-          "lv": "Děkuji za dárek."
+          "lv": "Děkuji ti za dárek."
         },
         {
           "de": "Zum Schluss nochmals herzlichen Dank.",
@@ -13607,7 +13599,7 @@ const B1_WORDS = [
         },
         {
           "word": "danke",
-          "meaning": "Děkuji (odpovědět)",
+          "meaning": "Děkuji (odpověď)",
           "example": "Nein, danke. = Ne, děkuji."
         },
         {
@@ -13623,7 +13615,7 @@ const B1_WORDS = [
         {
           "word": "bedanken (sich)",
           "meaning": "Formálně poděkovat",
-          "example": "Ich bedanke mich bei Ihnen. = Děkuji ti."
+          "example": "Děkuji vám."
         }
       ],
       "tip": {
@@ -13973,12 +13965,12 @@ const B1_WORDS = [
         {
           "word": "daran",
           "meaning": "O tom / při tom",
-          "example": "Ich denke daran. = Přemýšlel jsem o tom."
+          "example": "Přemýšlím o tom."
         },
         {
           "word": "darauf",
           "meaning": "K tomu / na to",
-          "example": "Ich warte darauf. = Těším se na to."
+          "example": "Čekám na to."
         },
         {
           "word": "damit",
@@ -13994,7 +13986,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Není pro to slovo. Vztahuje se k výše uvedené věci, myšlence nebo činu."
+        "text": "Není to slovo označující místo. Vztahuje se k výše uvedené věci, myšlence nebo činnosti."
       },
       "sectionAccents": {
         "examples": [
@@ -14153,7 +14145,7 @@ const B1_WORDS = [
         },
         {
           "de": "Sie stellt eine Ärztin dar.",
-          "lv": "Hraje na doktory."
+          "lv": "Hraje lékařku."
         }
       ],
       "comparison": [
@@ -14164,7 +14156,7 @@ const B1_WORDS = [
         },
         {
           "word": "zeigen",
-          "meaning": "Show",
+          "meaning": "Ukázat",
           "example": "Ich zeige dir das Bild. = Ukážu vám obrázek."
         },
         {
@@ -14176,7 +14168,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Data, grafy, situace a role werden dargestellt • Sich vorstellen = představit se."
+            "text": "Data, grafy, situace a role se znázorňují • sich vorstellen = představit se."
           }
         ]
       },
@@ -14483,12 +14475,12 @@ const B1_WORDS = [
   {
     "de": "Dasein",
     "de_article": "das",
-    "lv": "Existence • Existence",
+    "lv": "Bytí",
     "level": "B1"
   },
   {
     "de": "dasselbe",
-    "lv": "Stejný",
+    "lv": "Totéž",
     "level": "B1"
   },
   {
@@ -14512,17 +14504,17 @@ const B1_WORDS = [
   },
   {
     "de": "decken",
-    "lv": "Zakrýt",
+    "lv": "Krýt",
     "level": "B1",
     "study": {
       "id": "b1-decken",
       "layout": "standardStudy",
-      "translation": "Zakrýt",
+      "translation": "Krýt • prostírat",
       "explanation": "Hlavní myšlenka: decken znamená krýt, ale předmět mění překlad: den Tisch decken = prostírat stůl, Kosten decken = krýt náklady, etwas mit Schnee decken = krýt.",
       "examples": [
         {
           "de": "Ich decke den Tisch.",
-          "lv": "Připravil jsem stůl"
+          "lv": "Prostírám stůl."
         },
         {
           "de": "Die Versicherung deckt die Kosten.",
@@ -14536,12 +14528,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "decken",
-          "meaning": "Kryt / kryt / kryt",
+          "meaning": "Krýt / prostírat / pokrývat",
           "example": "Ich decke den Tisch. = Prostíral jsem stůl."
         },
         {
           "word": "abdecken",
-          "meaning": "Kryt / kryt",
+          "meaning": "Zakrytí / zakrýt",
           "example": "Deck den Kuchen ab. = Zakryjte dort."
         },
         {
@@ -14558,7 +14550,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Tisch decken není doslova „prostírat stůl“, ale „prostírat stůl“ • Kosten decken = pokrýt náklady."
+        "text": "Tisch decken neznamená doslova „krýt stůl“, ale „prostírat stůl“ • Kosten decken = krýt náklady."
       },
       "sectionAccents": {
         "examples": [
@@ -14729,7 +14721,7 @@ const B1_WORDS = [
   },
   {
     "de": "demonstrieren",
-    "lv": "Prokázat",
+    "lv": "Demonstrovat",
     "level": "B1"
   },
   {
@@ -14741,17 +14733,17 @@ const B1_WORDS = [
   },
   {
     "de": "dennoch",
-    "lv": "Však",
+    "lv": "Přesto",
     "level": "B1"
   },
   {
     "de": "derselbe",
-    "lv": "Stejný",
+    "lv": "Tentýž",
     "level": "B1"
   },
   {
     "de": "desto",
-    "lv": "Protože",
+    "lv": "Tím",
     "level": "B1"
   },
   {
@@ -14765,7 +14757,7 @@ const B1_WORDS = [
     "de": "Detektiv",
     "de_article": "der",
     "de_plural": "die Detektive",
-    "lv": "Detektivní",
+    "lv": "Detektiv",
     "level": "B1"
   },
   {
@@ -14779,7 +14771,7 @@ const B1_WORDS = [
     "de": "Diät",
     "de_article": "die",
     "de_plural": "die Diäten",
-    "lv": "Strava",
+    "lv": "Dieta",
     "level": "B1"
   },
   {
@@ -14824,7 +14816,7 @@ const B1_WORDS = [
         },
         {
           "de": "Der Knopf dient zur Sicherheit.",
-          "lv": "Tlačítko je pro bezpečnost."
+          "lv": "Tlačítko slouží k zajištění bezpečnosti."
         },
         {
           "de": "Er dient in der Armee.",
@@ -14844,19 +14836,19 @@ const B1_WORDS = [
         },
         {
           "word": "nutzen",
-          "meaning": "Používat / používat",
+          "meaning": "Používat / využívat",
           "example": "Ich nutze das Programm. = Používám program."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Dienen als = sloužit jako • Dien zu = být někomu užitečný."
+            "text": "dienen als = sloužit jako • dienen zu = sloužit k něčemu."
           }
         ]
       },
       "important": {
-        "text": "Dienen není obvyklé „pomáhat někomu“ • Pomoci je obvykle helfen."
+        "text": "Dienen obvykle neznamená „pomáhat člověku“ • Pomáhat je obvykle helfen."
       },
       "sectionAccents": {
         "examples": [
@@ -14971,7 +14963,7 @@ const B1_WORDS = [
     "de": "Dienst",
     "de_article": "der",
     "de_plural": "die Dienste",
-    "lv": "Servis",
+    "lv": "Služba",
     "level": "B1"
   },
   {
@@ -14983,7 +14975,7 @@ const B1_WORDS = [
   },
   {
     "de": "dieselbe",
-    "lv": "Stejný",
+    "lv": "Tatáž",
     "level": "B1"
   },
   {
@@ -15030,7 +15022,7 @@ const B1_WORDS = [
     "de": "Dolmetscher",
     "de_article": "der",
     "de_plural": "die Dolmetscher",
-    "lv": "Překladatel",
+    "lv": "Tlumočník",
     "level": "B1"
   },
   {
@@ -15051,7 +15043,7 @@ const B1_WORDS = [
     "de": "Dose",
     "de_article": "die",
     "de_plural": "die Dosen",
-    "lv": "Krabice",
+    "lv": "Plechovka",
     "level": "B1"
   },
   {
@@ -15103,12 +15095,12 @@ const B1_WORDS = [
   },
   {
     "de": "dringend",
-    "lv": "Naléhavé",
+    "lv": "Naléhavý",
     "level": "B1"
   },
   {
     "de": "dritt",
-    "lv": "Za třetí",
+    "lv": "Třetí",
     "level": "B1"
   },
   {
@@ -15180,12 +15172,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Unter Druck stehen = být pod tlakem • Druck des Buches = knihtisk."
+            "text": "Unter Druck stehen = být pod tlakem • Druck des Buches = tisk knihy."
           }
         ]
       },
       "important": {
-        "text": "Der Druck není jen tiskařský tisk • Člověk může také podstoupit Druck stehen."
+        "text": "Der Druck není jen tiskařský tisk • Člověk může také stát pod tlakem."
       },
       "sectionAccents": {
         "examples": [
@@ -15343,14 +15335,14 @@ const B1_WORDS = [
     "de": "Dummheit",
     "de_article": "die",
     "de_plural": "die Dummheiten",
-    "lv": "Nesmysl",
+    "lv": "Hloupost",
     "level": "B1"
   },
   {
     "de": "Dummkopf",
     "de_article": "der",
     "de_plural": "die Dummköpfe",
-    "lv": "Blázen",
+    "lv": "Hlupák",
     "level": "B1"
   },
   {
@@ -15370,12 +15362,12 @@ const B1_WORDS = [
   {
     "de": "Durcheinander",
     "de_article": "das",
-    "lv": "Juku jukam • Nepořádek",
+    "lv": "Zmatek",
     "level": "B1"
   },
   {
     "de": "durchfahren",
-    "lv": "Projít",
+    "lv": "Projet",
     "level": "B1"
   },
   {
@@ -15428,7 +15420,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Nezaměňujte der Durchfall s durchfallen: jedním je zdravotní problém, druhým je nesplnění testu."
+        "text": "Nezaměňujte der Durchfall s durchfallen: jedno je zdravotní problém, druhé znamená neuspět u zkoušky."
       },
       "sectionAccents": {
         "examples": [
@@ -15537,7 +15529,7 @@ const B1_WORDS = [
   },
   {
     "de": "durchfallen",
-    "lv": "Selhat",
+    "lv": "Propadnout",
     "level": "B1"
   },
   {
@@ -15576,7 +15568,7 @@ const B1_WORDS = [
         },
         {
           "word": "veranstalten",
-          "meaning": "Držet",
+          "meaning": "Pořádat",
           "example": "Wir veranstalten ein Konzert. = Pořádáme koncert."
         }
       ],
@@ -15704,7 +15696,7 @@ const B1_WORDS = [
     "de": "Durchgang",
     "de_article": "der",
     "de_plural": "die Durchgänge",
-    "lv": "Uličkou",
+    "lv": "Průchod",
     "level": "B1"
   },
   {
@@ -15724,12 +15716,12 @@ const B1_WORDS = [
   },
   {
     "de": "durchlassen",
-    "lv": "Prosadit",
+    "lv": "Nechat projít",
     "level": "B1"
   },
   {
     "de": "durchlesen",
-    "lv": "Číst",
+    "lv": "Přečíst",
     "level": "B1"
   },
   {
@@ -15758,14 +15750,14 @@ const B1_WORDS = [
   },
   {
     "de": "duzen",
-    "lv": "Adresa s \"vy\"",
+    "lv": "Tyknout",
     "level": "B1"
   },
   {
     "de": "Ebene",
     "de_article": "die",
     "de_plural": "die Ebenen",
-    "lv": "Prostý",
+    "lv": "Rovina",
     "level": "B1"
   },
   {
@@ -15814,7 +15806,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich würde eher zu Hause bleiben.",
-          "lv": "Raději zůstanu doma."
+          "lv": "Spíše bych zůstal doma."
         },
         {
           "de": "Das ist eher schwierig.",
@@ -15822,7 +15814,7 @@ const B1_WORDS = [
         },
         {
           "de": "Kannst du eher kommen?",
-          "lv": "Můžete přijít dříve"
+          "lv": "Můžeš přijít dříve?"
         }
       ],
       "comparison": [
@@ -15838,7 +15830,7 @@ const B1_WORDS = [
         },
         {
           "word": "lieber",
-          "meaning": "Preferovat",
+          "meaning": "Raději",
           "example": "Ich trinke lieber Kaffee. = Raději piju kávu."
         }
       ],
@@ -15850,7 +15842,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Eher není vždy „před“ • V textech B1 velmi často vyjadřuje dispozice: spíše."
+        "text": "Eher neznamená vždy „dříve“ • V textech B1 velmi často vyjadřuje preferenci: spíše."
       },
       "sectionAccents": {
         "examples": [
@@ -16015,7 +16007,7 @@ const B1_WORDS = [
       "id": "b1-eigen",
       "layout": "standardStudy",
       "translation": "Vlastní",
-      "explanation": "Hlavní myšlenka: eigen znamená vlastní nebo vlastní, zdůrazňující sounáležitost nebo nezávislost. Může to znamenat zvláštní charakter nebo styl.",
+      "explanation": "Hlavní myšlenka: eigen znamená vlastní nebo svůj a zdůrazňuje vlastnictví či nezávislost. U charakteru nebo stylu může znamenat svérázný.",
       "examples": [
         {
           "de": "Jeder hat seinen eigenen Stil.",
@@ -16033,7 +16025,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "eigen",
-          "meaning": "Vlastní / vlastní / svérázný",
+          "meaning": "Svůj / vlastní / svérázný",
           "example": "Das ist mein eigenes Auto. = Je to moje vlastní auto."
         },
         {
@@ -16192,7 +16184,7 @@ const B1_WORDS = [
     "de": "Eigenschaft",
     "de_article": "die",
     "de_plural": "die Eigenschaften",
-    "lv": "Funkce",
+    "lv": "Vlastnost",
     "level": "B1"
   },
   {
@@ -16206,22 +16198,22 @@ const B1_WORDS = [
     "de": "Eigentümer",
     "de_article": "der",
     "de_plural": "die Eigentümer",
-    "lv": "Vlastníka",
+    "lv": "Vlastník",
     "level": "B1"
   },
   {
     "de": "sich eignen",
-    "lv": "Vsadit",
+    "lv": "Hodit se",
     "level": "B1"
   },
   {
     "de": "eilen",
-    "lv": "Pospěš si",
+    "lv": "Spěchat",
     "level": "B1"
   },
   {
     "de": "eilig",
-    "lv": "Naléhavé",
+    "lv": "Naléhavý",
     "level": "B1"
   },
   {
@@ -16253,8 +16245,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-einbrechen",
       "layout": "standardStudy",
-      "translation": "Vtrhnout do",
-      "explanation": "Hlavní myšlenka: einbrechen nejčastěji znamená vloupat se na nějaké místo. Může to také znamenat fyzickou invazi/zhroucení nebo, s Nacht, vstoupit.",
+      "translation": "Vloupát se",
+      "explanation": "Hlavní myšlenka: einbrechen nejčastěji znamená vloupat se někam. Může také znamenat propadnout se nebo se zhroutit; s Nacht znamená nastat.",
       "examples": [
         {
           "de": "Die Diebe sind in das Haus eingebrochen.",
@@ -16272,12 +16264,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Zločin + dům → einbrechen = vloupat se • Dach → napadnout • Nacht → vstoupit."
+            "text": "Zločin + dům → einbrechen = vloupat se • Dach → propadnout se • Nacht → nastat."
           }
         ]
       },
       "important": {
-        "text": "Einbrechen obvykle není „vloupat se do objektu“, ale „vloupat se do místa“. U částí budov to znamená invazi/kolaps."
+        "text": "Einbrechen obvykle znamená „vloupat se někam“, nikoli „vloupat se do objektu“. U částí budov znamená propadnout se nebo se zhroutit."
       },
       "sectionAccents": {
         "examples": [
@@ -16399,7 +16391,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-eindeutig",
       "layout": "standardStudy",
-      "translation": "Nezaměnitelný",
+      "translation": "Jednoznačný",
       "explanation": "Hlavní myšlenka: eindeutig znamená jasný a jednoznačný, když neexistují pochybnosti ani dva možné výklady. Není totéž co einfach = jednoduchý.",
       "examples": [
         {
@@ -16423,7 +16415,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Einfach není einfach: einfach = jednoznačné, einfach = jednoduché."
+        "text": "Eindeutig není totéž co einfach: eindeutig znamená jednoznačný, zatímco einfach znamená jednoduchý."
       },
       "sectionAccents": {
         "examples": [
@@ -16545,7 +16537,7 @@ const B1_WORDS = [
       "id": "b1-eindruck",
       "layout": "standardStudy",
       "translation": "Dojem",
-      "explanation": "Hlavní myšlenka: der Eindruck znamená dojem – jak se vám něco zdá nebo jak se cítíte. Velmi častou frází je einen Eindruck machen.",
+      "explanation": "Hlavní myšlenka: der Eindruck znamená dojem – jak na vás něco působí nebo jaký pocit to vyvolává. Velmi častou frází je einen Eindruck machen.",
       "examples": [
         {
           "de": "Der Film hat einen starken Eindruck gemacht.",
@@ -16721,8 +16713,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-einerlei",
       "layout": "standardStudy",
-      "translation": "Stejně",
-      "explanation": "Hlavní myšlenka: einerlei znamená „je mi to jedno“ nebo „nezáleží na tom“. Zní formálněji či staromódněji než běžné egal.",
+      "translation": "Je mi to jedno",
+      "explanation": "Hlavní myšlenka: einerleii znamená „je mi to jedno“ nebo „nezáleží na tom“. Zní formálněji či staromódněji než běžné egal.",
       "examples": [
         {
           "de": "Mir ist das einerlei.",
@@ -16740,12 +16732,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "einerlei",
-          "meaning": "Každopádně / na tom nezáleží",
+          "meaning": "Je mi to jedno / na tom nezáleží",
           "example": "Mir ist das einerlei. = Je mi to jedno."
         },
         {
           "word": "egal",
-          "meaning": "Stejně",
+          "meaning": "Je mi to jedno",
           "example": "Das ist mir egal. = Je mi to jedno."
         },
         {
@@ -16757,12 +16749,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Egal se používá častěji na denní bázi • Einerle uznává jako formálnější „nevadí“."
+            "text": "Egal se používá častěji v běžné řeči • Einerlei poznávej jako formálnější „je mi to jedno“."
           }
         ]
       },
       "important": {
-        "text": "Einerle není běžné hovorové slovo • Řečeno, je bezpečnější použít egal."
+        "text": "Einerlei není běžné hovorové slovo • V běžné řeči je bezpečnější použít egal."
       },
       "sectionAccents": {
         "examples": [
@@ -16929,14 +16921,14 @@ const B1_WORDS = [
         },
         {
           "word": "zwar ... aber",
-          "meaning": "Oba... ale",
+          "meaning": "Sice ... ale",
           "example": "Es ist zwar schön, aber teuer. = Je to krásné, ale drahé."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Einerseits téměř zve k pokračování s andererseits."
+            "text": "Einerseits často vybízí k pokračování výrazem andererseits."
           }
         ]
       },
@@ -17078,7 +17070,7 @@ const B1_WORDS = [
       "id": "b1-einfahrt",
       "layout": "standardStudy",
       "translation": "Příjezdová cesta",
-      "explanation": "Hlavní myšlenka: die Einfahrt znamená vstup nebo vstup. Může to být místo vstupu nebo samotný proces vstupu.",
+      "explanation": "Hlavní myšlenka: die Einfahrt znamená příjezdovou cestu nebo vjezd. Může označovat místo, kterým se vjíždí, i samotný vjezd.",
       "examples": [
         {
           "de": "Bitte parken Sie nicht vor der Einfahrt.",
@@ -17097,11 +17089,11 @@ const B1_WORDS = [
         {
           "word": "die Einfahrt",
           "meaning": "Příjezdová cesta / vjezd",
-          "example": "Die Einfahrt ist frei. = Vstup je zdarma."
+          "example": "Die Einfahrt ist frei. = Příjezdová cesta je volná."
         },
         {
           "word": "die Ausfahrt",
-          "meaning": "Výstup / výstup",
+          "meaning": "Výjezd / výjezdová cesta",
           "example": "Die Ausfahrt ist gesperrt. = Výjezd je uzavřen."
         },
         {
@@ -17118,7 +17110,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Nezaměňujte Einfahrt s Ausfahrt: jeden je vstup, druhý výstup."
+        "text": "Nezaměňujte Einfahrt s Ausfahrt: jedno je vjezd, druhé výjezd."
       },
       "sectionAccents": {
         "examples": [
@@ -17262,11 +17254,11 @@ const B1_WORDS = [
       "id": "b1-einfallen",
       "layout": "standardStudy",
       "translation": "Přijít na mysl",
-      "explanation": "Hlavní myšlenka: einfallen znamená přijít na mysl. Konstrukce je v dativu: mir fällt etwas ein. Fyzicky může eingefallen znamenat napadení/zhroucení.",
+      "explanation": "Fyzicky může eingefallen znamenat propadlý nebo zhroucený.",
       "examples": [
         {
           "de": "Mir fällt eine Idee ein.",
-          "lv": "Napadá mě nápad."
+          "lv": "Napadá mě myšlenka."
         },
         {
           "de": "Sein Name fällt mir nicht ein.",
@@ -17413,11 +17405,11 @@ const B1_WORDS = [
       "id": "b1-einfarbig",
       "layout": "standardStudy",
       "translation": "Monochromatický",
-      "explanation": "Hlavní myšlenka: einfarbig znamená obyčejný - jednobarevný, bez vzoru nebo míchání barev.",
+      "explanation": "Hlavní myšlenka: einfarbig znamená jednobarevný, tedy v jedné barvě, bez vzoru nebo míchání barev.",
       "examples": [
         {
           "de": "Ich suche ein einfarbiges Hemd.",
-          "lv": "Hledám obyčejnou košili."
+          "lv": "Hledám jednobarevnou košili."
         },
         {
           "de": "Die Wand ist einfarbig gestrichen.",
@@ -17425,7 +17417,7 @@ const B1_WORDS = [
         },
         {
           "de": "Das Kleid ist nicht bunt, sondern einfarbig.",
-          "lv": "Šaty nejsou pestré, ale hladké."
+          "lv": "Šaty nejsou pestré, ale jednobarevné."
         }
       ],
       "comparison": [
@@ -17441,8 +17433,8 @@ const B1_WORDS = [
         },
         {
           "word": "bunt",
-          "meaning": "Pestré / vícebarevné",
-          "example": "Der Pullover ist bunt. = Svetr je flekatý."
+          "meaning": "Pestrý / vícebarevný",
+          "example": "Svetr je pestrý."
         }
       ],
       "tip": {
@@ -17627,7 +17619,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Wirkung",
-          "meaning": "Expozice / efekt",
+          "meaning": "Účinek / efekt",
           "example": "Die Wirkung ist stark. = Efekt je silný."
         }
       ],
@@ -17755,11 +17747,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "kurp?"
-                ]
-              }
+              "text": "co?"
             }
           ]
         },
@@ -17779,11 +17767,11 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Füge das Bild in das Dokument ein.",
-          "lv": "Umístí obrázek do dokumentu."
+          "lv": "Vlož obrázek do dokumentu."
         },
         {
           "de": "Ich füge einen Satz in den Text ein.",
-          "lv": "Vložil jsem větu do textu."
+          "lv": "Vkládám větu do textu."
         },
         {
           "de": "Das neue Teil fügt sich gut in das System ein.",
@@ -17798,7 +17786,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Einfügen je často technická/dokumentační činnost • \"přidat\" je častěji přidat."
+        "text": "„Přidat“ se častěji překládá jako hinzufügen."
       },
       "sectionAccents": {
         "examples": [
@@ -17923,8 +17911,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-einführen",
       "layout": "standardStudy",
-      "translation": "Představit",
-      "explanation": "Hlavní myšlenka: einführen znamená zavést nový systém, pravidlo nebo metodu. V obchodě to znamená dovoz/dovoz zboží.",
+      "translation": "Zavést • dovážet",
+      "explanation": "V obchodě to znamená dovážet nebo importovat zboží.",
       "examples": [
         {
           "de": "Die Schule führt neue Regeln ein.",
@@ -17959,12 +17947,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pravidla, systém nebo metoda führt man ein • Zboží může být i einführen = dováženo."
+            "text": "Pravidla, systém nebo metodu zavádíme • Zboží můžeme dovážet."
           }
         ]
       },
       "important": {
-        "text": "Einführen není totéž co vorstellen: vorstellen je představit nebo představit, nikoli představit."
+        "text": "Einführen není totéž co vorstellen: vorstellen znamená představit nebo někoho s něčím seznámit, einführen znamená zavést."
       },
       "sectionAccents": {
         "examples": [
@@ -18129,8 +18117,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-einführung",
       "layout": "standardStudy",
-      "translation": "Zavedení",
-      "explanation": "Hlavní myšlenka: die Einführung znamená úvod nebo úvod. V textu nebo kurzu je to úvod • V novém systému, pravidlech nebo produktu - implementaci.",
+      "translation": "Úvod • zavedení",
+      "explanation": "die Einführung znamená úvod nebo zavedení.",
       "examples": [
         {
           "de": "Die Einführung in das Thema war klar.",
@@ -18187,9 +18175,7 @@ const B1_WORDS = [
               "purple": [
                 "Úvod"
               ],
-              "yellow": [
-                "tēmā"
-              ]
+              "yellow": []
             }
           },
           {
@@ -18323,7 +18309,7 @@ const B1_WORDS = [
         },
         {
           "de": "Nach dem Umzug haben wir uns gut eingewöhnt.",
-          "lv": "Po přestěhování jsme si zvykli dobře."
+          "lv": "Po přestěhování jsme si dobře zvykli."
         }
       ],
       "comparison": [
@@ -18339,14 +18325,14 @@ const B1_WORDS = [
         },
         {
           "word": "sich anpassen",
-          "meaning": "Přizpůsobit",
+          "meaning": "Přizpůsobit se",
           "example": "Er passt sich schnell an. = Rychle se adaptuje."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "V nové práci, škole nebo místě musí člověk sich eingewöhnen."
+            "text": "V nové práci, škole nebo na novém místě si člověk musí zvyknout."
           }
         ]
       },
@@ -18497,7 +18483,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-einhalten",
       "layout": "standardStudy",
-      "translation": "Pozorovat",
+      "translation": "Dodržet • dodržovat",
       "explanation": "Hlavní myšlenka: einhalten znamená dodržet pravidlo, termín, slib nebo odstup. Používá se, když je třeba něco držet nebo udělat přesně.",
       "examples": [
         {
@@ -18516,12 +18502,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "einhalten",
-          "meaning": "Přesně sledovat / provádět",
+          "meaning": "Dodržet / dodržovat",
           "example": "Wir halten die Frist ein. = Termín dodržujeme."
         },
         {
           "word": "beachten",
-          "meaning": "Brát v úvahu / pozorovat",
+          "meaning": "Brát v úvahu / dbát na",
           "example": "Bitte beachten Sie die Hinweise. = Postupujte prosím podle pokynů."
         },
         {
@@ -18533,7 +18519,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Regeln, Termin, Frist, Abstand einhalten = přesně dodržujte."
+            "text": "Pravidla, termín, lhůtu nebo odstup dodržovat = přesně dodržovat."
           }
         ]
       },
@@ -18706,8 +18692,8 @@ const B1_WORDS = [
         },
         {
           "word": "heimisch",
-          "meaning": "Místní / útulné v určitém prostředí",
-          "example": "Diese Art ist hier heimisch. = Tento druh je zde endemický."
+          "meaning": "Domácí / původní v určitém prostředí",
+          "example": "Tento druh je zde původní."
         },
         {
           "word": "ausländisch",
@@ -18875,7 +18861,7 @@ const B1_WORDS = [
       "id": "b1-einheit",
       "layout": "standardStudy",
       "translation": "Jednotka",
-      "explanation": "Hlavní myšlenka: die Einheit znamená jednotu. Může to být jednotka studia, technická jednotka nebo jednotka měření v závislosti na kontextu.",
+      "explanation": "die Einheit znamená jednotku.",
       "examples": [
         {
           "de": "Die nächste Einheit beginnt morgen.",
@@ -18903,7 +18889,7 @@ const B1_WORDS = [
         },
         {
           "word": "das Kapitel",
-          "meaning": "Oddělení",
+          "meaning": "Kapitola",
           "example": "Das Kapitel ist kurz. = Kapitola je krátká."
         }
       ],
@@ -19099,7 +19085,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Nezaměňujte Längeneinheit s Gewichtseinheit: jeden měří délku, druhý měří hmotnost/hmotnost."
+        "text": "Nezaměňujte Längeneinheit s Gewichtseinheit: jedna označuje délku, druhá hmotnost."
       },
       "sectionAccents": {
         "examples": [
@@ -19253,12 +19239,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pokud má být všude stejný styl nebo řád, používá se einheitlich."
+            "text": "Pokud má být všude jednotný styl nebo řád, používá se einheitlich."
           }
         ]
       },
       "important": {
-        "text": "Einheitlich není einzig: einheitlich = jeden/rovný, einzig = jediný."
+        "text": "Einheitlich není einzig: einheitlich = jednotný/stejný, einzig = jediný."
       },
       "sectionAccents": {
         "examples": [
@@ -19355,12 +19341,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "stejný styl",
-                  "řád"
-                ]
-              }
+              "text": "jednotnému stylu"
             }
           ]
         },
@@ -19380,8 +19361,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-einholen",
       "layout": "standardStudy",
-      "translation": "Sbírat",
-      "explanation": "Hlavní myšlenka: einholen znamená shromažďovat nebo přijímat informace, rady nebo povolení. V pohybu to může znamenat někoho dohnat.",
+      "translation": "Vyžádat si • dohnat",
+      "explanation": "Hlavní myšlenka: einholen znamená vyžádat si nebo získat informace, radu či povolení. V pohybu může znamenat někoho dohnat.",
       "examples": [
         {
           "de": "Wir holen Informationen ein.",
@@ -19399,12 +19380,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "einholen",
-          "meaning": "Sbírat / přijímat / dosahovat",
+          "meaning": "Vyžádat si / získat / dohnat",
           "example": "Ich hole Rat ein. = Prosím o radu."
         },
         {
           "word": "holen",
-          "meaning": "Donést / jít za",
+          "meaning": "Přinést / dojít pro",
           "example": "Ich hole das Kind ab. = Půjdu za dítětem."
         },
         {
@@ -19416,12 +19397,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Informace, rady nebo povolení holt man ein • Běžec může být einholen = dohnat."
+            "text": "Informace, radu nebo povolení si člověk vyžádá pomocí einholen • Běžce lze dohnat: einholen."
           }
         ]
       },
       "important": {
-        "text": "Einholen není obvyklé „získej všechno“ • Velmi často se používá s Informationen, Rat nebo Gengemung."
+        "text": "Einholen není běžné „získat cokoli“ • Velmi často se používá s Informationen, Rat nebo Genehmigung."
       },
       "sectionAccents": {
         "examples": [
@@ -19544,14 +19525,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "Informace",
-                  "rady",
-                  "povolení",
-                  "Běžec"
-                ]
-              }
+              "text": "informace"
             }
           ]
         },
@@ -19567,22 +19541,22 @@ const B1_WORDS = [
   },
   {
     "de": "einig",
-    "lv": "Souhlasit",
+    "lv": "Jednotný",
     "level": "B1"
   },
   {
     "de": "einigen",
-    "lv": "Kombajn",
+    "lv": "Sjednotit",
     "level": "B1"
   },
   {
     "de": "sich einigen",
-    "lv": "Souhlasit",
+    "lv": "Dohodnout se",
     "level": "B1"
   },
   {
     "de": "einigermaßen",
-    "lv": "Napůl cesty",
+    "lv": "Do jisté míry",
     "level": "B1"
   },
   {
@@ -19594,7 +19568,7 @@ const B1_WORDS = [
   },
   {
     "de": "einjährig",
-    "lv": "Výroční",
+    "lv": "Jednoletý",
     "level": "B1"
   },
   {
@@ -19611,14 +19585,14 @@ const B1_WORDS = [
   },
   {
     "de": "einlegen",
-    "lv": "Dát",
+    "lv": "Vložit",
     "level": "B1"
   },
   {
     "de": "Einleitung",
     "de_article": "die",
     "de_plural": "die Einleitungen",
-    "lv": "Zavedení",
+    "lv": "Úvod",
     "level": "B1"
   },
   {
@@ -19640,7 +19614,7 @@ const B1_WORDS = [
   },
   {
     "de": "einordnen",
-    "lv": "Zahrnout",
+    "lv": "Zařadit",
     "level": "B1"
   },
   {
@@ -19689,13 +19663,13 @@ const B1_WORDS = [
         },
         {
           "de": "Bei diesem Spiel ist der Einsatz zu hoch.",
-          "lv": "Sázky jsou v této hře příliš vysoké."
+          "lv": "Sázka je v této hře příliš vysoká."
         }
       ],
       "comparison": [
         {
           "word": "der Einsatz",
-          "meaning": "Využití / zapojení / rychlost",
+          "meaning": "Využití / zapojení / sázka",
           "example": "Der Einsatz der Technik hilft uns. = Používání technologií nám pomáhá."
         },
         {
@@ -19705,7 +19679,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Wette",
-          "meaning": "Sázky",
+          "meaning": "Sázka",
           "example": "Er verliert die Wette. = Prohrává sázku."
         }
       ],
@@ -19829,12 +19803,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "zapojen",
-                  "použit"
-                ]
-              }
+              "text": "zapojen"
             }
           ]
         },
@@ -19849,12 +19818,12 @@ const B1_WORDS = [
   },
   {
     "de": "einschlagen",
-    "lv": "Hit",
+    "lv": "Udeřit",
     "level": "B1"
   },
   {
     "de": "einschließen",
-    "lv": "Počítat",
+    "lv": "Zahrnout",
     "level": "B1"
   },
   {
@@ -19887,7 +19856,7 @@ const B1_WORDS = [
       "id": "b1-einsetzen",
       "layout": "standardStudy",
       "translation": "Používat",
-      "explanation": "Hlavní myšlenka: einsetzen znamená použít nebo zapojit něco za účelem. Objekt změní překlad: technika je použita, osoba je zapojena/přidělena, ale může začít déšť nebo bolest.",
+      "explanation": "Hlavní myšlenka: einsetzen znamená použít nebo zapojit něco za určitým účelem.",
       "examples": [
         {
           "de": "Wir setzen moderne Technik im Unterricht ein.",
@@ -19910,7 +19879,7 @@ const B1_WORDS = [
         },
         {
           "word": "benutzen",
-          "meaning": "Použití",
+          "meaning": "Používat",
           "example": "Ich benutze das Handy. = Používám telefon."
         },
         {
@@ -19922,7 +19891,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Podívejte se na objekt: Technik einsetzen, Spieler einsetzen, Regen settze ein."
+            "text": "Podívejte se na objekt: Technik einsetzen, Spieler einsetzen, Regen setzt ein."
           }
         ]
       },
@@ -20081,12 +20050,12 @@ const B1_WORDS = [
   },
   {
     "de": "einst",
-    "lv": "Někdy",
+    "lv": "Kdysi",
     "level": "B1"
   },
   {
     "de": "einstecken",
-    "lv": "Přilepit se",
+    "lv": "Strčit",
     "level": "B1"
   },
   {
@@ -20096,7 +20065,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-einstellen",
       "layout": "standardStudy",
-      "translation": "Upravit",
+      "translation": "Nastavit",
       "explanation": "Hlavní myšlenka: einstellen znamená nastavit nebo upravit. Se zaměstnanci to znamená najmout, ale s novinami, projektem nebo službou to znamená ukončit.",
       "examples": [
         {
@@ -20132,12 +20101,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Device einstellen, Mitarbeiter einstellen, Zeitung einstellen – zásadní je objekt."
+            "text": "Zařízení einstellen, Mitarbeiter einstellen, Zeitung einstellen – zásadní je objekt."
           }
         ]
       },
       "important": {
-        "text": "Einstellen není jednoduše „vypnout“ • Význam přerušení obvykle odkazuje na akci, problém nebo službu."
+        "text": "Einstellen není jednoduše „vypnout“ • Význam přerušení se obvykle týká činnosti, vydávání nebo služby."
       },
       "sectionAccents": {
         "examples": [
@@ -20264,11 +20233,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "mitarbeiter"
-                ]
-              }
+              "text": "Mitarbeiter"
             }
           ]
         },
@@ -20287,7 +20252,7 @@ const B1_WORDS = [
   },
   {
     "de": "einstürzen",
-    "lv": "Kolaps",
+    "lv": "Zhroutit se",
     "level": "B1"
   },
   {
@@ -20297,7 +20262,7 @@ const B1_WORDS = [
   },
   {
     "de": "eintragen",
-    "lv": "Záznam",
+    "lv": "Zapsat",
     "level": "B1"
   },
   {
@@ -20313,11 +20278,11 @@ const B1_WORDS = [
       "id": "b1-eintreten",
       "layout": "standardStudy",
       "translation": "Vstoupit",
-      "explanation": "Hlavní myšlenka: eintreten znamená vstoupit nebo vstoupit. Používá se pro vstup do místnosti, vstup do organizace a také pro okamžik, kdy dojde k události nebo následku.",
+      "explanation": "Hlavní myšlenka: eintreten znamená vstoupit, vstoupit do organizace nebo nastat.",
       "examples": [
         {
           "de": "Bitte treten Sie ein.",
-          "lv": "Prosím vstupte"
+          "lv": "Prosím, vstupte."
         },
         {
           "de": "Er tritt im Herbst in den Verein ein.",
@@ -20331,12 +20296,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "eintreten",
-          "meaning": "Vstoupit / vstoupit",
+          "meaning": "Vstoupit / nastat",
           "example": "Treten Sie ein! = Pojďte dál!"
         },
         {
           "word": "betreten",
-          "meaning": "Zadejte místo",
+          "meaning": "Vstoupit do prostoru",
           "example": "Bitte betreten Sie den Raum nicht. = Nevstupujte prosím do místnosti."
         },
         {
@@ -20348,12 +20313,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "V místnosti tritt man ein • V organizaci tritt man ein nebo bei • Následky treten ein."
+            "text": "Do místnosti tritt man ein • Do organizace tritt man ein nebo tritt man bei • Následky treten ein."
           }
         ]
       },
       "important": {
-        "text": "Eintreten s událostí neznamená fyzicky vstoupit: Die Wirkung tritt ein = účinek se odehrává."
+        "text": "Eintreten s událostí neznamená fyzicky vstoupit: Die Wirkung tritt ein = účinek nastává."
       },
       "sectionAccents": {
         "examples": [
@@ -20468,12 +20433,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "místnosti",
-                  "Následky"
-                ]
-              }
+              "text": "do místnosti"
             }
           ]
         },
@@ -20530,34 +20490,34 @@ const B1_WORDS = [
         },
         {
           "de": "Die Bank zieht die monatliche Gebühr ein.",
-          "lv": "Banka si účtuje měsíční poplatek."
+          "lv": "Banka inkasuje měsíční poplatek."
         },
         {
           "de": "Zieh den Bauch ein.",
-          "lv": "Vtáhnout do žaludku."
+          "lv": "Zatáhni břicho."
         }
       ],
       "comparison": [
         {
           "word": "einziehen",
-          "meaning": "Nastěhovat / nabít / vtáhnout",
+          "meaning": "Nastěhovat se / inkasovat / vtáhnout",
           "example": "Wir ziehen in die Wohnung ein. = Stěhujeme se do bytu."
         },
         {
           "word": "umziehen",
-          "meaning": "Pohybovat se",
+          "meaning": "Přestěhovat se",
           "example": "Wir ziehen nächste Woche um. = Příští týden se stěhujeme."
         },
         {
           "word": "ausziehen",
-          "meaning": "Vystěhovat se / odtáhnout",
+          "meaning": "Vystěhovat se / svléknout se",
           "example": "Sie zieht aus. = Stěhuje se."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Wohnung einziehen = nastěhovat se • Gebühr einziehen = účtovat • Bauch einziehen = vtáhnout."
+            "text": "In die Wohnung einziehen = nastěhovat se • Gebühr einziehen = inkasovat • Bauch einziehen = zatáhnout břicho."
           }
         ]
       },
@@ -20734,7 +20694,7 @@ const B1_WORDS = [
   },
   {
     "de": "eisern",
-    "lv": "Železo-",
+    "lv": "Železný",
     "level": "B1"
   },
   {
@@ -20780,7 +20740,7 @@ const B1_WORDS = [
     "de": "Element",
     "de_article": "das",
     "de_plural": "die Elemente",
-    "lv": "Živel",
+    "lv": "Prvek",
     "level": "B1"
   },
   {
@@ -20798,7 +20758,7 @@ const B1_WORDS = [
     "de": "Empfang",
     "de_article": "der",
     "de_plural": "die Empfänge",
-    "lv": "Přijímání",
+    "lv": "Příjem",
     "level": "B1"
   },
   {
@@ -20827,12 +20787,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "empfangen",
-          "meaning": "Přijímat / přijímat / vnímat",
+          "meaning": "Přijímat / přijímat hosty / přijímat signál",
           "example": "Wir empfangen ein Signal. = Přijímáme signál."
         },
         {
           "word": "bekommen",
-          "meaning": "Přijímat každý den",
+          "meaning": "Dostávat v běžném jazyce",
           "example": "Ich bekomme eine E-Mail. = Dostávám email."
         },
         {
@@ -20844,12 +20804,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Empfangen zprávy nebo signálu • Empfangen = přijímat lidi."
+            "text": "Empfangen zpráv nebo signálů • Empfangen lidí znamená přijímat hosty."
           }
         ]
       },
       "important": {
-        "text": "Empfangen zní více formálně nebo technicky než bekommen • S hosty to znamená přijímat, nejen přijímat."
+        "text": "Empfangen zní formálněji nebo techničtěji než bekommen • U hostů znamená přijímat je, ne pouze je dostat."
       },
       "sectionAccents": {
         "examples": [
@@ -21016,7 +20976,7 @@ const B1_WORDS = [
   },
   {
     "de": "endgültig",
-    "lv": "Finále",
+    "lv": "Konečný",
     "level": "B1"
   },
   {
@@ -21053,7 +21013,7 @@ const B1_WORDS = [
       "id": "b1-entfernen",
       "layout": "standardStudy",
       "translation": "Odstranit",
-      "explanation": "Hlavní myšlenka: entfernen znamená odstranit, smazat nebo odstranit něco z místa. Reflexně sich entfernen znamená vzdálit se od místa nebo osoby.",
+      "explanation": "Hlavní myšlenka: entfernen znamená odstranit, smazat nebo odklidit něco z místa.",
       "examples": [
         {
           "de": "Bitte entfernen Sie den Fleck sofort.",
@@ -21071,17 +21031,17 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "entfernen",
-          "meaning": "Odstranit / odstranit / odstranit",
+          "meaning": "Odstranit / odklidit / vymazat",
           "example": "Entfernen Sie die Datei. = Smažte soubor."
         },
         {
           "word": "wegnehmen",
-          "meaning": "Vzlétnout",
+          "meaning": "Vzít pryč",
           "example": "Nimm das Glas weg. = Odneste sklenici."
         },
         {
           "word": "sich entfernen",
-          "meaning": "Odstěhovat se",
+          "meaning": "Vzdálit se",
           "example": "Sie entfernt sich vom Bahnhof. = Odchází od stanice."
         }
       ],
@@ -21233,7 +21193,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich entfernen",
-    "lv": "Odstěhovat se",
+    "lv": "Vzdálit se",
     "level": "B1"
   },
   {
@@ -21256,7 +21216,7 @@ const B1_WORDS = [
       "id": "b1-enthalten",
       "layout": "standardStudy",
       "translation": "Obsahovat",
-      "explanation": "Hlavní myšlenka: enthalten znamená obsahovat nebo obsahovat něco jako součást celku. Používá se pro komponenty, ceny, texty, seznamy a sady.",
+      "explanation": "Hlavní myšlenka: enthalten znamená obsahovat nebo zahrnovat něco jako součást celku. Používá se u součástí, cen, textů, seznamů a sad.",
       "examples": [
         {
           "de": "Das Getränk enthält viel Zucker.",
@@ -21291,12 +21251,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Když je myšlenkou „je to uvnitř nebo zahrnuté“, němčina často říká der enthalten."
+            "text": "Když je myšlenkou „je to uvnitř nebo zahrnuté“, němčina často používá enthalten."
           }
         ]
       },
       "important": {
-        "text": "Enthalten not zastavit. halten = držet • Enthalten = obsahovat nebo obsahovat."
+        "text": "enthalten není halten. halten = držet • enthalten = obsahovat nebo zahrnovat."
       },
       "sectionAccents": {
         "examples": [
@@ -21463,7 +21423,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "entkommen",
-          "meaning": "Uniknout / uniknout",
+          "meaning": "Uniknout / uniknout se",
           "example": "Er ist der Gefahr entkommen. = Utekl před nebezpečím."
         },
         {
@@ -21473,7 +21433,7 @@ const B1_WORDS = [
         },
         {
           "word": "sich retten",
-          "meaning": "Zachraň se",
+          "meaning": "Zachránit se",
           "example": "Sie rettet sich aus dem Haus. = Uteče z domu."
         }
       ],
@@ -21640,8 +21600,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-entlassen",
       "layout": "standardStudy",
-      "translation": "Pustit",
-      "explanation": "Hlavní myšlenka: entlassen znamená propustit nebo propustit z instituce. českýý překlad se mění v závislosti na místě: společnost propouští, nemocnice propouští, věznice propouští.",
+      "translation": "Propustit",
+      "explanation": "Hlavní myšlenka: entlassen znamená propustit z práce nebo z instituce. Český překlad se mění podle kontextu: firma propouští, nemocnice propouští pacienta a věznice vězně propouští.",
       "examples": [
         {
           "de": "Die Firma entlässt viele Mitarbeiter.",
@@ -21659,7 +21619,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "entlassen",
-          "meaning": "Propustit / propustit / propustit",
+          "meaning": "Propustit / propustit z nemocnice / propustit na svobodu",
           "example": "Sie wurde entlassen. = Byla vyhozena."
         },
         {
@@ -21681,7 +21641,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Z nemocnice je entlassen v češtině obvykle „propuštění“, nikoli „propustit“."
+        "text": "U nemocnice se entlassen v češtině obvykle překládá jako „propustit“ nebo „propuštěn“, nikoli „pustit“."
       },
       "sectionAccents": {
         "examples": [
@@ -21834,7 +21794,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich entscheiden",
-    "lv": "Rozhodnout",
+    "lv": "Rozhodnout se",
     "level": "B1"
   },
   {
@@ -21861,8 +21821,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-entsprechen",
       "layout": "standardStudy",
-      "translation": "Odpovídá",
-      "explanation": "Hlavní myšlenka: mechnen znamená splnit požadavky, pravidla, plán nebo očekávání. V němčině to vyžaduje dativ: dem Plan, den Regeln, unseren Erwantungen.",
+      "translation": "Odpovídat",
+      "explanation": "Hlavní myšlenka: entsprechen znamená odpovídat požadavkům, pravidlům, plánu nebo očekáváním. V němčině vyžaduje dativ: dem Plan, den Regeln, unseren Erwartungen.",
       "examples": [
         {
           "de": "Das entspricht den Regeln.",
@@ -21874,7 +21834,7 @@ const B1_WORDS = [
         },
         {
           "de": "Das Ergebnis entspricht nicht der Wahrheit.",
-          "lv": "Výsledek není pravdivý."
+          "lv": "Výsledek neodpovídá skutečnosti."
         }
       ],
       "comparison": [
@@ -21885,7 +21845,7 @@ const B1_WORDS = [
         },
         {
           "word": "passen",
-          "meaning": "Fit / fit",
+          "meaning": "Hodit se / padnout",
           "example": "Der Schlüssel passt nicht. = Klíč nefunguje."
         },
         {
@@ -21897,12 +21857,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Matchen se vždy ptá \"shoduje se s čím?\" - v němčině je odpověď v dativu."
+            "text": "Entsprechen se vždy ptá „čemu odpovídá?“ – v němčině je následující výraz v dativu."
           }
         ]
       },
       "important": {
-        "text": "Nezaměňujte antvorten s antworten: antvorten = shoda, antworten = odpověď."
+        "text": "Nezaměňujte entsprechen s antworten: entsprechen = odpovídat, antworten = odpovědět."
       },
       "sectionAccents": {
         "examples": [
@@ -22043,8 +22003,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-entstehen",
       "layout": "standardStudy",
-      "translation": "Dojít",
-      "explanation": "Hlavní myšlenka: Vzniknout znamená vzniknout nebo stát se jako výsledek procesu. Slovo obvykle nezdůrazňuje konatele, ale samotný výskyt: vzniká problém, vznikají náklady, vzniká budova.",
+      "translation": "Vzniknout",
+      "explanation": "Hlavní myšlenka: entstehen znamená vzniknout nebo se vytvořit jako výsledek procesu. Sloveso obvykle nezdůrazňuje původce, ale samotný vznik: vznikne problém, vzniknou náklady nebo vzniká budova.",
       "examples": [
         {
           "de": "Hier entsteht ein neues Gebäude.",
@@ -22079,12 +22039,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pokud jde především o výsledek, který se během procesu vytvoří, použijte gegen."
+            "text": "Pokud jde především o výsledek, který během procesu vzniká, použijte entstehen."
           }
         ]
       },
       "important": {
-        "text": "Vzniknout neznamená, že někdo něco záměrně vytváří • Je to více der schaffen."
+        "text": "Entstehen neznamená, že někdo něco záměrně vytváří • Pro záměrné vytváření se více hodí schaffen."
       },
       "sectionAccents": {
         "examples": [
@@ -22230,7 +22190,7 @@ const B1_WORDS = [
   },
   {
     "de": "enttäuschen",
-    "lv": "Nechat dolů",
+    "lv": "Zklamat",
     "level": "B1"
   },
   {
@@ -22240,7 +22200,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich entwickeln",
-    "lv": "Rozvíjet",
+    "lv": "Rozvíjet se",
     "level": "B1"
   },
   {
@@ -22255,7 +22215,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich erbrechen",
-    "lv": "Vyzvracet",
+    "lv": "Zvracet",
     "level": "B1"
   },
   {
@@ -22283,14 +22243,14 @@ const B1_WORDS = [
     "de": "Erdöl",
     "de_article": "das",
     "de_plural": "die Erdöle",
-    "lv": "Olej",
+    "lv": "Ropa",
     "level": "B1"
   },
   {
     "de": "Erdteil",
     "de_article": "der",
     "de_plural": "die Erdteile",
-    "lv": "Část světa",
+    "lv": "Kontinent",
     "level": "B1"
   },
   {
@@ -22324,7 +22284,7 @@ const B1_WORDS = [
   },
   {
     "de": "erfordern",
-    "lv": "Požádat o",
+    "lv": "Vyžadovat",
     "level": "B1"
   },
   {
@@ -22344,17 +22304,17 @@ const B1_WORDS = [
   },
   {
     "de": "sich erfrischen",
-    "lv": "Občerstvit",
+    "lv": "Občerstvit se",
     "level": "B1"
   },
   {
     "de": "erfüllen",
-    "lv": "Provést",
+    "lv": "Splnit",
     "level": "B1"
   },
   {
     "de": "sich erfüllen",
-    "lv": "Splnit",
+    "lv": "Splnit se",
     "level": "B1"
   },
   {
@@ -22381,7 +22341,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-erhalten",
       "layout": "standardStudy",
-      "translation": "Přijímat",
+      "translation": "Obdržet",
       "explanation": "Hlavní myšlenka: erhalten nejčastěji znamená formálně obdržet dopis, zprávu, peníze nebo dokument. Druhým běžným významem je uchovat nebo udržovat něco v dobrém stavu.",
       "examples": [
         {
@@ -22400,17 +22360,17 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "erhalten",
-          "meaning": "Přijmout / uložit",
+          "meaning": "Obdržet / zachovat",
           "example": "Ich erhalte einen Brief. = Dostávám dopis."
         },
         {
           "word": "bekommen",
-          "meaning": "Přijímat každý den",
+          "meaning": "Dostávat v běžném jazyce",
           "example": "Ich bekomme Hilfe. = Dostávám pomoc."
         },
         {
           "word": "bewahren",
-          "meaning": "Uložit",
+          "meaning": "Uchovat",
           "example": "Wir bewahren die Tradition. = Udržujeme tradici při životě."
         }
       ],
@@ -22422,7 +22382,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Erhalten jako 'get' zní formálněji než bekommen • Bekommen je často dostačující v běžné řeči."
+        "text": "Erhalten ve významu „obdržet“ zní formálněji než bekommen • V běžné řeči často stačí bekommen."
       },
       "sectionAccents": {
         "examples": [
@@ -22558,17 +22518,17 @@ const B1_WORDS = [
   },
   {
     "de": "sich erhalten",
-    "lv": "Zachovat",
+    "lv": "Uchovat se",
     "level": "B1"
   },
   {
     "de": "erhitzen",
-    "lv": "Zahřát se",
+    "lv": "Zahřát",
     "level": "B1"
   },
   {
     "de": "sich erhitzen",
-    "lv": "Zahřát",
+    "lv": "Zahřát se",
     "level": "B1"
   },
   {
@@ -22578,14 +22538,14 @@ const B1_WORDS = [
   },
   {
     "de": "erkalten",
-    "lv": "Ochladit",
+    "lv": "Ochladnout",
     "level": "B1"
   },
   {
     "de": "Erklärung",
     "de_article": "die",
     "de_plural": "die Erklärungen",
-    "lv": "Oznámení",
+    "lv": "Vysvětlení",
     "level": "B1"
   },
   {
@@ -22595,7 +22555,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich erkundigen",
-    "lv": "Zeptat se",
+    "lv": "Informovat se",
     "level": "B1"
   },
   {
@@ -22605,7 +22565,7 @@ const B1_WORDS = [
   },
   {
     "de": "erledigen",
-    "lv": "Usadit",
+    "lv": "Vyřídit",
     "level": "B1"
   },
   {
@@ -22615,12 +22575,12 @@ const B1_WORDS = [
   },
   {
     "de": "erlernen",
-    "lv": "Učit se",
+    "lv": "Naučit se",
     "level": "B1"
   },
   {
     "de": "ermöglichen",
-    "lv": "Dát šanci",
+    "lv": "Umožnit",
     "level": "B1"
   },
   {
@@ -22630,7 +22590,7 @@ const B1_WORDS = [
   },
   {
     "de": "ermuntern",
-    "lv": "Hlavu vzhůru",
+    "lv": "Povzbudit",
     "level": "B1"
   },
   {
@@ -22645,7 +22605,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich ernähren",
-    "lv": "Uživit se",
+    "lv": "Živit se",
     "level": "B1"
   },
   {
@@ -22664,7 +22624,7 @@ const B1_WORDS = [
     "de": "Ernte",
     "de_article": "die",
     "de_plural": "die Ernten",
-    "lv": "Plodina",
+    "lv": "Sklizeň",
     "level": "B1"
   },
   {
@@ -22685,7 +22645,7 @@ const B1_WORDS = [
       "id": "b1-eröffnen",
       "layout": "standardStudy",
       "translation": "Otevřít",
-      "explanation": "Hlavní myšlenka: eröffnen znamená oficiálně otevřít, odhalit nebo zahájit něco veřejného nebo formálního: účet, obchod, výstavu, setkání.",
+      "explanation": "Hlavní myšlenka: eröffnen znamená oficiálně otevřít nebo zahájit něco veřejného či formálního: účet, obchod, výstavu nebo schůzi.",
       "examples": [
         {
           "de": "Die Bank eröffnet ein neues Konto.",
@@ -22703,12 +22663,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "eröffnen",
-          "meaning": "Oficiálně otevřeno / odhalit",
+          "meaning": "Oficiálně otevřít / zahájit",
           "example": "Sie eröffnet ein Konto. = Otevře si účet."
         },
         {
           "word": "öffnen",
-          "meaning": "Fyzicky otevřený",
+          "meaning": "Fyzicky otevřít",
           "example": "Ich öffne die Tür. = Otevírám dveře."
         },
         {
@@ -22875,19 +22835,19 @@ const B1_WORDS = [
   },
   {
     "de": "erraten",
-    "lv": "Hádat",
+    "lv": "Uhodnout",
     "level": "B1"
   },
   {
     "de": "errichten",
-    "lv": "Stavět",
+    "lv": "Postavit",
     "level": "B1"
   },
   {
     "de": "Ersatz",
     "de_article": "der",
     "de_plural": "die Ersätze",
-    "lv": "Nahradit",
+    "lv": "Náhrada",
     "level": "B1"
   },
   {
@@ -22904,8 +22864,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-erscheinen",
       "layout": "standardStudy",
-      "translation": "Se objeví",
-      "explanation": "Hlavní myšlenka: erscheinen znamená objevit se, dorazit nebo vyjít zveřejněno. Význam určuje předmět: člověk se objeví nebo přijde, vyjde kniha/článek.",
+      "translation": "Objevit se",
+      "explanation": "Hlavní myšlenka: erscheinen znamená objevit se, dostavit se nebo vyjít jako publikace. Význam určuje subjekt: člověk se objeví či dostaví, kniha nebo článek vyjde.",
       "examples": [
         {
           "de": "Er erschien plötzlich im Zimmer.",
@@ -22940,12 +22900,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Publikace erscheint = vychází • Man zum Termin erscheint = přijíždí."
+            "text": "Publikace erscheint = vychází • Člověk erscheint zum Termin = dostaví se na schůzku."
           }
         ]
       },
       "important": {
-        "text": "Erscheinen není jen fyzický vzhled • Pro knihy a články to znamená „vyjít ven“."
+        "text": "Erscheinen neznamená jen fyzicky se objevit • U knih a článků znamená „vyjít“ nebo „být vydán“."
       },
       "sectionAccents": {
         "examples": [
@@ -23086,7 +23046,7 @@ const B1_WORDS = [
   },
   {
     "de": "erschrecken",
-    "lv": "Zmást",
+    "lv": "Leknout se",
     "level": "B1"
   },
   {
@@ -23097,7 +23057,7 @@ const B1_WORDS = [
       "id": "b1-ersetzen",
       "layout": "standardStudy",
       "translation": "Nahradit",
-      "explanation": "Hlavní myšlenka: nahradit znamená nahradit jednu věc, osobu nebo řešení jinou. V rámci náhrady škody má Schaden ersensen na mysli náhradu škody.",
+      "explanation": "Hlavní myšlenka: ersetzen znamená nahradit jednu věc, osobu nebo řešení jinou. Ve spojení Schaden ersetzen znamená nahradit škodu nebo ji finančně uhradit.",
       "examples": [
         {
           "de": "Wir müssen das alte Gerät ersetzen.",
@@ -23109,7 +23069,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Versicherung ersetzt den Schaden.",
-          "lv": "Pojištění kompenzuje ztráty."
+          "lv": "Pojišťovna nahradí škodu."
         }
       ],
       "comparison": [
@@ -23132,12 +23092,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pokud něco nahrazuje něco jiného, ​​použijte ersensen."
+            "text": "Pokud něco nahrazuje něco jiného, použijte ersetzen."
           }
         ]
       },
       "important": {
-        "text": "Schaden ersensen znamená nahradit ztrátu, nikoli „nahradit škodu“."
+        "text": "Schaden ersetzen znamená nahradit nebo uhradit škodu, nikoli „nahradit ztrátu“."
       },
       "sectionAccents": {
         "examples": [
@@ -23324,12 +23284,12 @@ const B1_WORDS = [
     "de": "Erwartung",
     "de_article": "die",
     "de_plural": "die Erwartungen",
-    "lv": "Čekání",
+    "lv": "Očekávání",
     "level": "B1"
   },
   {
     "de": "erwecken",
-    "lv": "Probudit se",
+    "lv": "Probudit",
     "level": "B1"
   },
   {
@@ -23368,7 +23328,7 @@ const B1_WORDS = [
   },
   {
     "de": "erziehen",
-    "lv": "Vychovat",
+    "lv": "Vychovávat",
     "level": "B1"
   },
   {
@@ -23380,17 +23340,17 @@ const B1_WORDS = [
   },
   {
     "de": "etliche",
-    "lv": "Nějaký",
+    "lv": "Několik",
     "level": "B1"
   },
   {
     "de": "euretwegen",
-    "lv": "Kvůli tobě",
+    "lv": "Kvůli vám",
     "level": "B1"
   },
   {
     "de": "eventuell",
-    "lv": "Možné",
+    "lv": "Možná",
     "level": "B1"
   },
   {
@@ -23438,7 +23398,7 @@ const B1_WORDS = [
     "de": "Express",
     "de_article": "der",
     "de_plural": "die Expresse",
-    "lv": "Vysokorychlostní vlak",
+    "lv": "Expres",
     "level": "B1"
   },
   {
@@ -23462,7 +23422,7 @@ const B1_WORDS = [
     "de": "Facharzt",
     "de_article": "der",
     "de_plural": "die Fachärzte",
-    "lv": "Odborný lékař",
+    "lv": "Lékař specialista",
     "level": "B1"
   },
   {
@@ -23486,14 +23446,14 @@ const B1_WORDS = [
     "de": "Fähigkeit",
     "de_article": "die",
     "de_plural": "die Fähigkeiten",
-    "lv": "Schopnosti",
+    "lv": "Schopnost",
     "level": "B1"
   },
   {
     "de": "Fahrbahn",
     "de_article": "die",
     "de_plural": "die Fahrbahnen",
-    "lv": "Sjízdná část ulice",
+    "lv": "Vozovka",
     "level": "B1"
   },
   {
@@ -23538,7 +23498,7 @@ const B1_WORDS = [
   },
   {
     "de": "farbenfroh",
-    "lv": "Jasný",
+    "lv": "Barevný",
     "level": "B1"
   },
   {
@@ -23558,7 +23518,7 @@ const B1_WORDS = [
     "de": "Fass",
     "de_article": "das",
     "de_plural": "die Fässer",
-    "lv": "Hlaveň",
+    "lv": "Sud",
     "level": "B1"
   },
   {
@@ -23569,7 +23529,7 @@ const B1_WORDS = [
       "id": "b1-fassen",
       "layout": "standardStudy",
       "translation": "Uchopit",
-      "explanation": "Hlavní myšlenka: fassen znamená fyzické uchopení nebo uchopení myslí. S mezerami a čísly to znamená přizpůsobit se určitému počtu lidí nebo věcí.",
+      "explanation": "Hlavní myšlenka: fassen znamená fyzicky uchopit nebo pochopit. U místností a s číslovkami znamená pojmout určitý počet lidí nebo věcí.",
       "examples": [
         {
           "de": "Sie fasst mich am Arm.",
@@ -23587,7 +23547,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "fassen",
-          "meaning": "Uchopit / obsáhnout / zapadnout",
+          "meaning": "Uchopit / pochopit / pojmout",
           "example": "Ich kann es nicht fassen. = Nemohu to pochopit."
         },
         {
@@ -23609,7 +23569,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Fassen závisí na předmětu: uchopí ruku, obejme myšlenku, obejme lidi."
+        "text": "Význam slovesa fassen závisí na předmětu: člověka uchopí za ruku, myšlenku pochopí a sál pojme určitý počet lidí."
       },
       "sectionAccents": {
         "examples": [
@@ -23747,12 +23707,12 @@ const B1_WORDS = [
   },
   {
     "de": "fasten",
-    "lv": "Rychle",
+    "lv": "Postit se",
     "level": "B1"
   },
   {
     "de": "faszinieren",
-    "lv": "Nechat se unést",
+    "lv": "Fascinovat",
     "level": "B1"
   },
   {
@@ -23791,19 +23751,19 @@ const B1_WORDS = [
         },
         {
           "word": "verdorben",
-          "meaning": "Se porouchalo",
+          "meaning": "Zkažený",
           "example": "Das Essen ist verdorben. = Jídlo se zkazilo."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Člověk může být hnusný = líný • Jídlo může být špinavé = shnilé."
+            "text": "Člověk může být faul = líný • Jídlo může být faul = shnilé nebo zkažené."
           }
         ]
       },
       "important": {
-        "text": "Pokud jde o jídlo, faul neznamená „líný“ • Znamená to shnilé nebo poškozené."
+        "text": "Pokud jde o jídlo, faul neznamená „líný“ • Znamená to shnilé nebo zkažené."
       },
       "sectionAccents": {
         "examples": [
@@ -23934,7 +23894,7 @@ const B1_WORDS = [
   },
   {
     "de": "faulenzen",
-    "lv": "Lenošení",
+    "lv": "Lenošit",
     "level": "B1"
   },
   {
@@ -23972,12 +23932,12 @@ const B1_WORDS = [
     "de": "Feige",
     "de_article": "die",
     "de_plural": "die Feigen",
-    "lv": "Obr",
+    "lv": "Fík",
     "level": "B1"
   },
   {
     "de": "feige",
-    "lv": "Zbabělec",
+    "lv": "Zbabělý",
     "level": "B1"
   },
   {
@@ -23995,7 +23955,7 @@ const B1_WORDS = [
     "de": "Felsen",
     "de_article": "der",
     "de_plural": "die Felsen",
-    "lv": "Rock",
+    "lv": "Skála",
     "level": "B1"
   },
   {
@@ -24007,7 +23967,7 @@ const B1_WORDS = [
   },
   {
     "de": "fernbleiben",
-    "lv": "Nechoď",
+    "lv": "Neúčastnit se",
     "level": "B1"
   },
   {
@@ -24057,7 +24017,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "festhalten",
-          "meaning": "Držet pevně / opravit",
+          "meaning": "Držet pevně / zaznamenat",
           "example": "Halte das Seil fest. = Držte lano pevně."
         },
         {
@@ -24067,14 +24027,14 @@ const B1_WORDS = [
         },
         {
           "word": "feststellen",
-          "meaning": "Založit",
+          "meaning": "Konstatovat",
           "example": "Ich stelle einen Fehler fest. = Našel jsem chybu."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Rukama festhalten = pevně se držet • Písemně festhalten = opravit."
+            "text": "Rukama festhalten = pevně držet • Písemně festhalten = zaznamenat."
           }
         ]
       },
@@ -24220,7 +24180,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir legen den Termin fest.",
-          "lv": "Stanovili jsme termín."
+          "lv": "Stanovujeme termín."
         },
         {
           "de": "Der Preis wurde vertraglich festgelegt.",
@@ -24244,19 +24204,19 @@ const B1_WORDS = [
         },
         {
           "word": "feststellen",
-          "meaning": "Založit",
+          "meaning": "Konstatovat",
           "example": "Ich stelle einen Fehler fest. = Našel jsem chybu."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Termin, Preis, Regel festlegen = jít jasně vpřed."
+            "text": "Termin, Preis, Regel festlegen = předem jasně stanovit."
           }
         ]
       },
       "important": {
-        "text": "Festlegen = předem určit • Ustanovit = ustanovit již existující skutečnost."
+        "text": "Festlegen = předem určit • Feststellen = konstatovat již existující skutečnost."
       },
       "sectionAccents": {
         "examples": [
@@ -24406,7 +24366,7 @@ const B1_WORDS = [
       "id": "b1-feststellen",
       "layout": "standardStudy",
       "translation": "Konstatovat",
-      "explanation": "Hlavní myšlenka: zjistit znamená zjistit nebo zjistit skutečnost zkoumáním, pozorováním nebo analýzou. To není totéž jako stanovit si předem termín nebo cenu.",
+      "explanation": "Hlavní myšlenka: feststellen znamená konstatovat nebo zjistit skutečnost zkoumáním, pozorováním nebo analýzou.",
       "examples": [
         {
           "de": "Der Arzt stellt eine Krankheit fest.",
@@ -24602,12 +24562,12 @@ const B1_WORDS = [
   },
   {
     "de": "filtern",
-    "lv": "Filtr",
+    "lv": "Filtrovat",
     "level": "B1"
   },
   {
     "de": "finanzieren",
-    "lv": "Finance",
+    "lv": "Financovat",
     "level": "B1"
   },
   {
@@ -24619,14 +24579,14 @@ const B1_WORDS = [
   },
   {
     "de": "finster",
-    "lv": "Tmavé",
+    "lv": "Temný",
     "level": "B1"
   },
   {
     "de": "Firmenchef",
     "de_article": "der",
     "de_plural": "die Firmenchefs",
-    "lv": "Manažer společnosti",
+    "lv": "Šéf firmy",
     "level": "B1"
   },
   {
@@ -24640,7 +24600,7 @@ const B1_WORDS = [
     "de": "Fischgericht",
     "de_article": "das",
     "de_plural": "die Fischgerichte",
-    "lv": "Krmivo pro ryby",
+    "lv": "Rybí pokrm",
     "level": "B1"
   },
   {
@@ -24685,7 +24645,7 @@ const B1_WORDS = [
     "de": "Flieder",
     "de_article": "der",
     "de_plural": "die Flieder",
-    "lv": "Šeříky",
+    "lv": "Šeřík",
     "level": "B1"
   },
   {
@@ -24695,7 +24655,7 @@ const B1_WORDS = [
   },
   {
     "de": "fließen",
-    "lv": "Tok",
+    "lv": "Téct",
     "level": "B1"
   },
   {
@@ -24705,7 +24665,7 @@ const B1_WORDS = [
   },
   {
     "de": "flink",
-    "lv": "Rychle",
+    "lv": "Rychlý",
     "level": "B1"
   },
   {
@@ -24745,14 +24705,14 @@ const B1_WORDS = [
   },
   {
     "de": "fluchen",
-    "lv": "Přísahat",
+    "lv": "Nadávat",
     "level": "B1"
   },
   {
     "de": "Flucht",
     "de_article": "die",
     "de_plural": "die Fluchten",
-    "lv": "Uniknout",
+    "lv": "Útěk",
     "level": "B1"
   },
   {
@@ -24780,7 +24740,7 @@ const B1_WORDS = [
     "de": "Flugschein",
     "de_article": "der",
     "de_plural": "die Flugscheine",
-    "lv": "Letenku",
+    "lv": "Letenka",
     "level": "B1"
   },
   {
@@ -24792,14 +24752,14 @@ const B1_WORDS = [
     "de": "Flüssigkeit",
     "de_article": "die",
     "de_plural": "die Flüssigkeiten",
-    "lv": "Kapalný",
+    "lv": "Kapalina",
     "level": "B1"
   },
   {
     "de": "Flut",
     "de_article": "die",
     "de_plural": "die Fluten",
-    "lv": "Zaplavit",
+    "lv": "Povodeň",
     "level": "B1"
   },
   {
@@ -24819,7 +24779,7 @@ const B1_WORDS = [
       "id": "b1-folge",
       "layout": "standardStudy",
       "translation": "Následky",
-      "explanation": "Hlavní myšlenka: die Folge nejčastěji znamená důsledek nebo výsledek, který následuje po události. V kontextu médií Folge znamená epizodu seriálu, programu nebo podcastu.",
+      "explanation": "V kontextu médií Folge znamená díl seriálu, pořadu nebo podcastu.",
       "examples": [
         {
           "de": "Das war die Folge des Unfalls.",
@@ -24837,7 +24797,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Folge",
-          "meaning": "Následek / série",
+          "meaning": "Následek / díl",
           "example": "Das hat Folgen. = Má to následky."
         },
         {
@@ -24859,7 +24819,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Folge mění význam podle kontextu: v textu příčiny a následku je to následek, v seriálu je to série."
+        "text": "Folge mění význam podle kontextu: v textu příčiny a následku je to následek, v seriálu je to díl nebo epizoda."
       },
       "sectionAccents": {
         "examples": [
@@ -25003,7 +24963,7 @@ const B1_WORDS = [
   },
   {
     "de": "fordern",
-    "lv": "Požádat",
+    "lv": "Požadovat",
     "level": "B1"
   },
   {
@@ -25014,7 +24974,7 @@ const B1_WORDS = [
       "id": "b1-fördern",
       "layout": "standardStudy",
       "translation": "Podporovat",
-      "explanation": "Hlavní myšlenka: förden znamená podporovat rozvoj nebo podporu osoby, projektu nebo procesu. V průmyslu to znamená těžbu nerostů, jako je ropa nebo uhlí.",
+      "explanation": "Hlavní myšlenka: fördern znamená podporovat rozvoj nebo podporovat osobu, projekt či proces.",
       "examples": [
         {
           "de": "Sport fördert die Gesundheit.",
@@ -25032,12 +24992,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "fördern",
-          "meaning": "Podporovat / podporovat / extrahovat minerály",
+          "meaning": "Podporovat / podporovat / těžit nerostné suroviny",
           "example": "Das fördert die Entwicklung. = Podporuje rozvoj."
         },
         {
           "word": "fordern",
-          "meaning": "Požádat o",
+          "meaning": "Požadovat",
           "example": "Sie fordert mehr Geld. = Žádá více peněz."
         },
         {
@@ -25049,7 +25009,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Förden s ö se pohybuje vpřed • Fordern bez ö vyžaduje něco."
+            "text": "Fördern s ö podporuje nebo těží • Fordern bez ö něco požaduje."
           }
         ]
       },
@@ -25124,9 +25084,7 @@ const B1_WORDS = [
           }
         ],
         "explanation": {
-          "blue": [
-            "förden"
-          ],
+          "blue": "fördern",
           "purple": [
             "Hlavní",
             "Hlavní",
@@ -25183,12 +25141,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "virza uz priekšu",
-                  "prasa"
-                ]
-              }
+              "text": "podporuje nebo těží / požaduje"
             }
           ]
         },
@@ -25204,12 +25157,12 @@ const B1_WORDS = [
   },
   {
     "de": "formatieren",
-    "lv": "Formát",
+    "lv": "Formátovat",
     "level": "B1"
   },
   {
     "de": "forschen",
-    "lv": "Studovat",
+    "lv": "Bádat",
     "level": "B1"
   },
   {
@@ -25221,7 +25174,7 @@ const B1_WORDS = [
   },
   {
     "de": "fortbleiben",
-    "lv": "Nechoď",
+    "lv": "Zůstat pryč",
     "level": "B1"
   },
   {
@@ -25255,12 +25208,12 @@ const B1_WORDS = [
         },
         {
           "word": "weitermachen",
-          "meaning": "Pokračuj",
+          "meaning": "Pokračovat v něčem",
           "example": "Wir machen morgen weiter. = Budeme pokračovat zítra."
         },
         {
           "word": "wegfahren",
-          "meaning": "Odejít",
+          "meaning": "Odjet",
           "example": "Er fährt weg. = Odchází."
         }
       ],
@@ -25432,14 +25385,14 @@ const B1_WORDS = [
   },
   {
     "de": "frech",
-    "lv": "Nestydatý",
+    "lv": "Drzý",
     "level": "B1"
   },
   {
     "de": "Freie",
     "de_article": "das",
     "de_plural": null,
-    "lv": "Svobodná příroda",
+    "lv": "Volné prostranství",
     "level": "B1"
   },
   {
@@ -25451,7 +25404,7 @@ const B1_WORDS = [
   },
   {
     "de": "freilassen",
-    "lv": "Uvolnění",
+    "lv": "Propustit",
     "level": "B1"
   },
   {
@@ -25492,31 +25445,31 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Hund frisst sein Futter.",
-          "lv": "Pes jí své jídlo."
+          "lv": "Pes žere své krmivo."
         },
         {
           "de": "Die Katze frisst Fisch.",
-          "lv": "Kočka jí ryby."
+          "lv": "Kočka žere rybu."
         },
         {
           "de": "Sag nicht, dass Menschen fressen.",
-          "lv": "Neříkejte, že lidé „polykají“."
+          "lv": "Neříkej, že lidé „žerou“."
         }
       ],
       "comparison": [
         {
           "word": "fressen",
-          "meaning": "Jíst zvíře / zítra",
+          "meaning": "Žrát (o zvířatech) / hltat",
           "example": "Der Hund frisst. = Pes jí."
         },
         {
           "word": "essen",
-          "meaning": "Sníst člověka",
+          "meaning": "Jíst (o lidech)",
           "example": "Ich esse Brot. = Jím chleba."
         },
         {
           "word": "verschlingen",
-          "meaning": "Polykat",
+          "meaning": "Hltat / zhltnout",
           "example": "Er verschlingt das Essen. = Požírá jídlo."
         }
       ],
@@ -25528,7 +25481,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Běžní lidé používají essen místo fressen, pokud nechcete znít hrubě."
+        "text": "Lidé běžně používají essen místo fressen, pokud nechtějí znít hrubě."
       },
       "sectionAccents": {
         "examples": [
@@ -25677,7 +25630,7 @@ const B1_WORDS = [
   },
   {
     "de": "friedlich",
-    "lv": "Uklidnit",
+    "lv": "Mírumilovný",
     "level": "B1"
   },
   {
@@ -25697,7 +25650,7 @@ const B1_WORDS = [
     "de": "Front",
     "de_article": "die",
     "de_plural": "die Fronten",
-    "lv": "Přední",
+    "lv": "Fronta",
     "level": "B1"
   },
   {
@@ -25714,21 +25667,21 @@ const B1_WORDS = [
   },
   {
     "de": "frühzeitig",
-    "lv": "Včasné",
+    "lv": "Včasný",
     "level": "B1"
   },
   {
     "de": "Fuchsbau",
     "de_article": "der",
     "de_plural": "die Fuchsbaue",
-    "lv": "Liščí jeskyně",
+    "lv": "Liščí nora",
     "level": "B1"
   },
   {
     "de": "Führer",
     "de_article": "der",
     "de_plural": "die Führer",
-    "lv": "Manažer",
+    "lv": "Vedoucí",
     "level": "B1"
   },
   {
@@ -25747,7 +25700,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich füllen",
-    "lv": "Splnit",
+    "lv": "Naplnit se",
     "level": "B1"
   },
   {
@@ -25761,7 +25714,7 @@ const B1_WORDS = [
     "de": "Fundbüro",
     "de_article": "das",
     "de_plural": "die Fundbüros",
-    "lv": "Úřad ztraceného majetku",
+    "lv": "Úřad ztrát a nálezů",
     "level": "B1"
   },
   {
@@ -25793,7 +25746,7 @@ const B1_WORDS = [
     "de": "Fußnote",
     "de_article": "die",
     "de_plural": "die Fußnoten",
-    "lv": "Podtextová poznámka",
+    "lv": "Poznámka pod čarou",
     "level": "B1"
   },
   {
@@ -25809,7 +25762,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Futter für den Hund ist leer.",
-          "lv": "Pes je bez jídla."
+          "lv": "Psí krmivo došlo."
         },
         {
           "de": "Die Pferde bekommen frisches Futter.",
@@ -25824,7 +25777,7 @@ const B1_WORDS = [
         {
           "word": "das Futter",
           "meaning": "Krmivo pro zvířata / podšívka",
-          "example": "Das Futter ist teuer. = Jídlo je drahé."
+          "example": "Krmivo je drahé."
         },
         {
           "word": "das Essen",
@@ -25840,12 +25793,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Futter se dává zvířatům • Bunda Futter má podšívku."
+            "text": "Futter se dává zvířatům • Bunda má podšívku."
           }
         ]
       },
       "important": {
-        "text": "Futter se běžně nepoužívá pro lidské jídlo • Lidé mají Essen nebo Nahrung."
+        "text": "Futter se běžně nepoužívá pro lidské jídlo • Lidé používají Essen nebo Nahrung."
       },
       "sectionAccents": {
         "examples": [
@@ -26019,7 +25972,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-ganztaegig",
       "layout": "standardStudy",
-      "translation": "Celý den • Celý den",
+      "translation": "Celodenní",
       "explanation": [
         "Hlavní myšlenka: ganztägig znamená něco, co se děje nebo trvá celý den.",
         "Ganztägig popisuje dobu trvání událostí nebo činností (ein ganztägiger Ausflug = exkurze, která trvá celý den).",
@@ -26194,7 +26147,7 @@ const B1_WORDS = [
   {
     "de": "Gartenbau",
     "de_article": "der",
-    "lv": "Zahrádkářství",
+    "lv": "Zahradnictví",
     "level": "B1"
   },
   {
@@ -26250,7 +26203,7 @@ const B1_WORDS = [
     "de": "Gasthaus",
     "de_article": "das",
     "de_plural": "die Gasthäuser",
-    "lv": "Hotel",
+    "lv": "Hostinec",
     "level": "B1"
   },
   {
@@ -26305,7 +26258,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Bereich",
-          "meaning": "Oblast / zóna / sekce",
+          "meaning": "Oblast / území / zóna",
           "example": "Dieser Bereich ist wichtig. = Tato oblast je důležitá."
         },
         {
@@ -26469,7 +26422,7 @@ const B1_WORDS = [
   },
   {
     "de": "gebrauchen",
-    "lv": "Použití",
+    "lv": "Používat",
     "level": "B1"
   },
   {
@@ -26488,7 +26441,7 @@ const B1_WORDS = [
   },
   {
     "de": "gebunden",
-    "lv": "Připojeno",
+    "lv": "Svázaný",
     "level": "B1"
   },
   {
@@ -26502,7 +26455,7 @@ const B1_WORDS = [
     "de": "Gebüsch",
     "de_article": "das",
     "de_plural": "die Gebüsche",
-    "lv": "Keř",
+    "lv": "Křoví",
     "level": "B1"
   },
   {
@@ -26514,7 +26467,7 @@ const B1_WORDS = [
   },
   {
     "de": "gedankenlos",
-    "lv": "Lehkomyslný",
+    "lv": "Bezmyšlenkovitý",
     "level": "B1"
   },
   {
@@ -26538,12 +26491,12 @@ const B1_WORDS = [
   },
   {
     "de": "sich gedulden",
-    "lv": "Smířit se s",
+    "lv": "Být trpělivý",
     "level": "B1"
   },
   {
     "de": "geduldig",
-    "lv": "Pacient",
+    "lv": "Trpělivý",
     "level": "B1"
   },
   {
@@ -26553,14 +26506,14 @@ const B1_WORDS = [
   },
   {
     "de": "gefährden",
-    "lv": "Vyhrožovat",
+    "lv": "Ohrožovat",
     "level": "B1"
   },
   {
     "de": "Gefallen",
     "de_article": "der",
     "de_plural": "die Gefallen",
-    "lv": "Servis",
+    "lv": "Laskavost",
     "level": "B1"
   },
   {
@@ -26572,7 +26525,7 @@ const B1_WORDS = [
   },
   {
     "de": "gefleckt",
-    "lv": "Puntíkovaný",
+    "lv": "Skvrnitý",
     "level": "B1"
   },
   {
@@ -26592,7 +26545,7 @@ const B1_WORDS = [
     "de": "Gefrierfach",
     "de_article": "das",
     "de_plural": "die Gefrierfächer",
-    "lv": "Mrazák",
+    "lv": "Mrazicí přihrádka",
     "level": "B1"
   },
   {
@@ -26602,12 +26555,12 @@ const B1_WORDS = [
   },
   {
     "de": "gefüllt",
-    "lv": "Plněné",
+    "lv": "Naplněný",
     "level": "B1"
   },
   {
     "de": "gegenseitig",
-    "lv": "Vzájemné",
+    "lv": "Vzájemný",
     "level": "B1"
   },
   {
@@ -26632,7 +26585,7 @@ const B1_WORDS = [
     "de": "Gegner",
     "de_article": "der",
     "de_plural": "die Gegner",
-    "lv": "Soupeře",
+    "lv": "Soupeř",
     "level": "B1"
   },
   {
@@ -26673,19 +26626,19 @@ const B1_WORDS = [
         },
         {
           "word": "der Verdienst",
-          "meaning": "Vydělaný • Příjem",
+          "meaning": "Výdělek • Příjem",
           "example": "Sein Verdienst ist hoch. = Jeho příjem je vysoký."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Za peníze a mzdu — das Gehalt (die Gehälter). Za obsah dopisu nebo řeči — der Gehalte (die Gehalte)."
+            "text": "Za peníze a mzdu — das Gehalt (die Gehälter). Za obsah dopisu nebo řeči — der Gehalt (die Gehalte)."
           }
         ]
       },
       "important": {
-        "text": "Das Gehalt = plat (die Gehälter). der Gehalte = obsah (die Gehalte). Článek není maličkost – obrací oba významy."
+        "text": "Das Gehalt = plat (die Gehälter). Der Gehalt = obsah (die Gehalte). Článek není maličkost – obrací oba významy."
       },
       "sectionAccents": {
         "explanation": {
@@ -26789,7 +26742,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Der Gehalte = obsah (die Gehalte). das Gehalt = plat (die Gehälter). Nesprávně: die Gehälter pro obsah - správně: die Gehalte."
+        "text": "Der Gehalt = obsah (die Gehalte). Das Gehalt = plat (die Gehälter). Nesprávně: die Gehälter pro obsah - správně: die Gehalte."
       },
       "sectionAccents": {
         "explanation": {
@@ -26921,7 +26874,7 @@ const B1_WORDS = [
     "de": "Gelände",
     "de_article": "das",
     "de_plural": "die Gelände",
-    "lv": "Plocha",
+    "lv": "Terén",
     "level": "B1"
   },
   {
@@ -26961,7 +26914,7 @@ const B1_WORDS = [
     "de": "Gelenk",
     "de_article": "das",
     "de_plural": "die Gelenke",
-    "lv": "Spoj",
+    "lv": "Kloub",
     "level": "B1"
   },
   {
@@ -26977,7 +26930,7 @@ const B1_WORDS = [
       "id": "b1-gelten",
       "layout": "standardStudy",
       "translation": "Být platný",
-      "explanation": "Hlavní myšlenka: Gelten znamená být platný nebo platný v konkrétním čase, místě nebo situaci. Stavba gelten als znamená být považován za něco.",
+      "explanation": "Hlavní myšlenka: gelten znamená být platný nebo platit v konkrétním čase, místě či situaci. Stavba gelten als znamená být považován za něco.",
       "examples": [
         {
           "de": "Die Regel gilt ab Montag.",
@@ -26995,7 +26948,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "gelten",
-          "meaning": "Být platný / být platný",
+          "meaning": "Platí / být platný",
           "example": "Das Gesetz gilt überall. = Zákon platí všude."
         },
         {
@@ -27005,7 +26958,7 @@ const B1_WORDS = [
         },
         {
           "word": "passen",
-          "meaning": "Fit / fit",
+          "meaning": "Sedět / hodit se",
           "example": "Der Schlüssel passt nicht. = Klíč nefunguje."
         }
       ],
@@ -27017,7 +26970,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Gelten není o fyzické kondici jako klíč nebo oděv • Má obvykle význam platnosti nebo pověsti."
+        "text": "Gelten se netýká fyzického padnutí jako u klíče nebo oblečení • Obvykle znamená platnost nebo uznávaný status."
       },
       "sectionAccents": {
         "examples": [
@@ -27166,7 +27119,7 @@ const B1_WORDS = [
       "id": "b1-gemein",
       "layout": "standardStudy",
       "translation": "Nečestný",
-      "explanation": "Hlavní myšlenka: gemein v moderním každodenním jazyce nejčastěji znamená zlobivý, zlý nebo odporný. „Common“ je obvykle gemeinsam, ne gemein.",
+      "explanation": "Hlavní myšlenka: gemein v moderním každodenním jazyce nejčastěji znamená podlý, zlý nebo nepříjemný. „Společný“ je obvykle gemeinsam, ne gemein.",
       "examples": [
         {
           "de": "Das war wirklich gemein.",
@@ -27184,7 +27137,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "gemein",
-          "meaning": "Zlý / zlý / odporný",
+          "meaning": "Podlý / zlý / nepříjemný",
           "example": "Das ist gemein. = Je to nečestné."
         },
         {
@@ -27206,7 +27159,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Nezaměňujte gemein s gemeinsam: gemein = nečestné, gemeinsam = běžné."
+        "text": "Nezaměňujte gemein s gemeinsam: gemein = nečestné, gemeinsam = společné."
       },
       "sectionAccents": {
         "examples": [
@@ -27378,7 +27331,7 @@ const B1_WORDS = [
   },
   {
     "de": "genial",
-    "lv": "Génius",
+    "lv": "Geniální",
     "level": "B1"
   },
   {
@@ -27402,7 +27355,7 @@ const B1_WORDS = [
   },
   {
     "de": "genügen",
-    "lv": "Dost",
+    "lv": "Stačit",
     "level": "B1"
   },
   {
@@ -27414,7 +27367,7 @@ const B1_WORDS = [
     "de": "Genuss",
     "de_article": "der",
     "de_plural": "die Genüsse",
-    "lv": "Užívat si",
+    "lv": "Požitek",
     "level": "B1"
   },
   {
@@ -27433,7 +27386,7 @@ const B1_WORDS = [
       "id": "b1-gerät",
       "layout": "standardStudy",
       "translation": "Zařízení",
-      "explanation": "Hlavní myšlenka: das Gerät znamená zařízení nebo přístroj se specifickou funkcí. Používá se na technické věci doma, v práci, v medicíně nebo v kanceláři.",
+      "explanation": "Hlavní myšlenka: das Gerät znamená zařízení nebo přístroj se specifickou funkcí. Používá se pro technické věci doma, v práci, v medicíně nebo v kanceláři.",
       "examples": [
         {
           "de": "Das Gerät funktioniert nicht.",
@@ -27451,7 +27404,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "das Gerät",
-          "meaning": "Přístroj / přístroj",
+          "meaning": "Zařízení / přístroj",
           "example": "Das Gerät ist neu. = Zařízení je nové."
         },
         {
@@ -27604,7 +27557,7 @@ const B1_WORDS = [
   },
   {
     "de": "geräumig",
-    "lv": "Široký",
+    "lv": "Prostorný",
     "level": "B1"
   },
   {
@@ -27654,14 +27607,14 @@ const B1_WORDS = [
     "de": "Geruch",
     "de_article": "der",
     "de_plural": "die Gerüche",
-    "lv": "Vůně",
+    "lv": "Pach",
     "level": "B1"
   },
   {
     "de": "Gerücht",
     "de_article": "das",
     "de_plural": "die Gerüchte",
-    "lv": "Pověsti",
+    "lv": "Pověst",
     "level": "B1"
   },
   {
@@ -27671,14 +27624,14 @@ const B1_WORDS = [
   },
   {
     "de": "gesamt",
-    "lv": "Všechno",
+    "lv": "Celkový",
     "level": "B1"
   },
   {
     "de": "Gesamtsumme",
     "de_article": "die",
     "de_plural": "die Gesamtsummen",
-    "lv": "Celkovou částku",
+    "lv": "Celková částka",
     "level": "B1"
   },
   {
@@ -27700,7 +27653,7 @@ const B1_WORDS = [
   },
   {
     "de": "geschickt",
-    "lv": "Elegantní",
+    "lv": "Zručný",
     "level": "B1"
   },
   {
@@ -27713,7 +27666,7 @@ const B1_WORDS = [
       "id": "b1-geschlecht",
       "layout": "standardStudy",
       "translation": "Pohlaví",
-      "explanation": "Hlavní myšlenka: das Geschlecht znamená pohlaví u lidí nebo zvířat. V gramatice jazyka to znamená rod, jako je mužský, ženský nebo žádný rod.",
+      "explanation": "Hlavní myšlenka: das Geschlecht znamená pohlaví u lidí nebo zvířat. V gramatice jazyka to znamená rod, jako je mužský, ženský nebo střední rod.",
       "examples": [
         {
           "de": "Bitte geben Sie Ihr Geschlecht an.",
@@ -27731,7 +27684,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "das Geschlecht",
-          "meaning": "Pohlaví / pohlaví",
+          "meaning": "Pohlaví / rod",
           "example": "Das Geschlecht wird im Formular gefragt. = Formulář se ptá na pohlaví."
         },
         {
@@ -27753,7 +27706,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Das Geschlecht není „generací“ • Toto slovo je v němčině die Generation."
+        "text": "Das Geschlecht není „generace“ • Toto slovo je v němčině die Generation."
       },
       "sectionAccents": {
         "examples": [
@@ -27893,7 +27846,7 @@ const B1_WORDS = [
       "id": "b1-gesellschaft",
       "layout": "standardStudy",
       "translation": "Společnost",
-      "explanation": "Hlavní myšlenka: die Gesellschaft nejčastěji znamená společnost. V právních nebo obchodních názvech může znamenat společnost/společnost, ale ve společenském kontextu - společnost.",
+      "explanation": "Hlavní myšlenka: die Gesellschaft nejčastěji znamená společnost. V právních nebo obchodních názvech může znamenat společnost nebo firmu, ale ve společenském kontextu společnost.",
       "examples": [
         {
           "de": "Die Gesellschaft verändert sich.",
@@ -27911,7 +27864,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Gesellschaft",
-          "meaning": "Společnost / společnost",
+          "meaning": "Společnost / firma",
           "example": "Die Gesellschaft verändert sich. = Společnost se mění."
         },
         {
@@ -27928,7 +27881,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Nejprve se naučte Gesellschaft jako „společnost“ • Význam firmy a firmy ukazuje kontext."
+            "text": "Nejprve se naučte Gesellschaft jako „společnost“ • Význam firmy a společnosti ukazuje kontext."
           }
         ]
       },
@@ -28053,7 +28006,7 @@ const B1_WORDS = [
   },
   {
     "de": "gespannt",
-    "lv": "Čas",
+    "lv": "Napjatý",
     "level": "B1"
   },
   {
@@ -28072,12 +28025,12 @@ const B1_WORDS = [
     "de": "Gestalt",
     "de_article": "die",
     "de_plural": "die Gestalten",
-    "lv": "Obraz",
+    "lv": "Postava",
     "level": "B1"
   },
   {
     "de": "gestalten",
-    "lv": "Vytvořit",
+    "lv": "Utvářet",
     "level": "B1"
   },
   {
@@ -28106,7 +28059,7 @@ const B1_WORDS = [
   },
   {
     "de": "geübt",
-    "lv": "Cvičil",
+    "lv": "Zkušený",
     "level": "B1"
   },
   {
@@ -28159,7 +28112,7 @@ const B1_WORDS = [
       "id": "b1-gewinn",
       "layout": "standardStudy",
       "translation": "Zisk",
-      "explanation": "Hlavní myšlenka: der Gewinn znamená zisk – peníze zbylé po nákladech. Ve hrách, soutěžích a loteriích to znamená vyhrát.",
+      "explanation": "Hlavní myšlenka: der Gewinn znamená zisk – peníze zbylé po nákladech. Ve hrách, soutěžích a loteriích to znamená výhru.",
       "examples": [
         {
           "de": "Der Gewinn der Firma ist gestiegen.",
@@ -28177,7 +28130,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Gewinn",
-          "meaning": "Zisk / vyhrál",
+          "meaning": "Zisk / výhra",
           "example": "Der Gewinn ist hoch. = Zisk je velký."
         },
         {
@@ -28187,14 +28140,14 @@ const B1_WORDS = [
         },
         {
           "word": "der Preis",
-          "meaning": "Cena / cena",
+          "meaning": "Cena / cena nebo výhra",
           "example": "Der Preis ist hoch. = Cena je vysoká."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Ve firmě Gewinn = zisk • V loterii Gewinn = vyhrál."
+            "text": "Ve firmě Gewinn = zisk • V loterii Gewinn = výhra."
           }
         ]
       },
@@ -28340,7 +28293,7 @@ const B1_WORDS = [
       "id": "b1-gewiss",
       "layout": "standardStudy",
       "translation": "Jistý",
-      "explanation": "Hlavní myšlenka: gewiss znamená jistý, jistý nebo „určitě“. Zní to trochu formálněji než sicher a často se objevuje ve frázích jako ein gewisses Risiko.",
+      "explanation": "Hlavní myšlenka: gewiss znamená jistý, určitý nebo „určitě“. Zní to trochu formálněji než sicher a často se objevuje ve frázích jako ein gewisses Risiko.",
       "examples": [
         {
           "de": "Das ist gewiss richtig.",
@@ -28358,7 +28311,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "gewiss",
-          "meaning": "Jistý / jistý / určitě",
+          "meaning": "Jistý / určitý / určitě",
           "example": "Das ist gewiss. = Je to bezpečné."
         },
         {
@@ -28368,7 +28321,7 @@ const B1_WORDS = [
         },
         {
           "word": "bestimmt",
-          "meaning": "Rozhodně / rozhodnutý",
+          "meaning": "Rozhodně / určitý",
           "example": "Er kommt bestimmt. = Určitě přijde."
         }
       ],
@@ -28521,7 +28474,7 @@ const B1_WORDS = [
   },
   {
     "de": "gewöhnen",
-    "lv": "Krotký",
+    "lv": "Zvyknout si",
     "level": "B1"
   },
   {
@@ -28544,7 +28497,7 @@ const B1_WORDS = [
         },
         {
           "de": "Man muss sich daran gewöhnen.",
-          "lv": "Musíš si na to zvyknout."
+          "lv": "Člověk si na to musí zvyknout."
         }
       ],
       "comparison": [
@@ -28555,7 +28508,7 @@ const B1_WORDS = [
         },
         {
           "word": "gewöhnen",
-          "meaning": "Krotký",
+          "meaning": "Zvykat někoho",
           "example": "Ich gewöhne das Kind daran. = Zvykám dítě."
         },
         {
@@ -28572,7 +28525,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "U sich je význam 'zvyknout si' • Bez sich gewöhnen často znamená „zvyknout si na někoho“."
+        "text": "Se sich znamená „zvyknout si“ • Bez sich gewöhnen často znamená „zvykat někoho“ nebo „někoho navyknout“."
       },
       "sectionAccents": {
         "examples": [
@@ -28716,7 +28669,7 @@ const B1_WORDS = [
     "de": "Gift",
     "de_article": "das",
     "de_plural": "die Gifte",
-    "lv": "Otrávit",
+    "lv": "Jed",
     "level": "B1"
   },
   {
@@ -28781,7 +28734,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Das Geländer se běžněji používá pro margaram • Das Gitter není obecné slovo pro žádné zábradlí."
+        "text": "Das Geländer se běžněji používá pro zábradlí • Das Gitter není obecné slovo pro každé zábradlí."
       },
       "sectionAccents": {
         "examples": [
@@ -28918,12 +28871,12 @@ const B1_WORDS = [
     "de": "Glanz",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Oslnivost",
+    "lv": "Lesk",
     "level": "B1"
   },
   {
     "de": "glänzen",
-    "lv": "Zazářit",
+    "lv": "Zářit",
     "level": "B1"
   },
   {
@@ -28935,12 +28888,12 @@ const B1_WORDS = [
     "de": "Glatteis",
     "de_article": "das",
     "de_plural": "die Glatteise",
-    "lv": "Znovu",
+    "lv": "Náledí",
     "level": "B1"
   },
   {
     "de": "glätten",
-    "lv": "Vyhladit",
+    "lv": "Vyhlazovat",
     "level": "B1"
   },
   {
@@ -28959,7 +28912,7 @@ const B1_WORDS = [
     "de": "Gleichgewicht",
     "de_article": "das",
     "de_plural": "die Gleichgewichte",
-    "lv": "Váhy",
+    "lv": "Rovnováha",
     "level": "B1"
   },
   {
@@ -28969,7 +28922,7 @@ const B1_WORDS = [
   },
   {
     "de": "gleichmäßig",
-    "lv": "Dokonce",
+    "lv": "Rovnoměrný",
     "level": "B1"
   },
   {
@@ -28988,7 +28941,7 @@ const B1_WORDS = [
     "de": "Gleis",
     "de_article": "das",
     "de_plural": "die Gleise",
-    "lv": "Dráha",
+    "lv": "Kolej",
     "level": "B1"
   },
   {
@@ -29000,7 +28953,7 @@ const B1_WORDS = [
     "de": "Glocke",
     "de_article": "die",
     "de_plural": "die Glocken",
-    "lv": "Volání",
+    "lv": "Zvon",
     "level": "B1"
   },
   {
@@ -29017,7 +28970,7 @@ const B1_WORDS = [
   },
   {
     "de": "gönnen",
-    "lv": "Přidělit",
+    "lv": "Dopřát",
     "level": "B1"
   },
   {
@@ -29045,21 +28998,21 @@ const B1_WORDS = [
     "de": "Graffiti",
     "de_article": "das",
     "de_plural": "die Graffitis",
-    "lv": "Veřejné nástěnné kresby",
+    "lv": "Graffiti",
     "level": "B1"
   },
   {
     "de": "Gräte",
     "de_article": "die",
     "de_plural": "die Gräten",
-    "lv": "Asaka",
+    "lv": "Rybí kost",
     "level": "B1"
   },
   {
     "de": "Gratulation",
     "de_article": "die",
     "de_plural": "die Gratulationen",
-    "lv": "Gratuluji",
+    "lv": "Gratulace",
     "level": "B1"
   },
   {
@@ -29070,7 +29023,7 @@ const B1_WORDS = [
       "id": "b1-greifen",
       "layout": "standardStudy",
       "translation": "Uchopit",
-      "explanation": "Hlavní myšlenka: greifen znamená uchopit nebo natáhnout něco rukou. V přeneseném smyslu znamená zu Maaschen greifen přijímat opatření.",
+      "explanation": "Hlavní myšlenka: greifen znamená uchopit něco nebo sáhnout po něčem. V přeneseném smyslu znamená zu Maßnahmen greifen přijímat opatření.",
       "examples": [
         {
           "de": "Sie greift nach dem Glas.",
@@ -29093,7 +29046,7 @@ const B1_WORDS = [
         },
         {
           "word": "fassen",
-          "meaning": "Uchopit / uchopit",
+          "meaning": "Uchopit / obsáhnout",
           "example": "Fass meine Hand! = Chyť mě za ruku!"
         },
         {
@@ -29105,7 +29058,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Greifen často ukazuje pohyb směrem k něčemu: nach dem Glas greifen."
+            "text": "Greifen často vyjadřuje pohyb směrem k něčemu: nach dem Glas greifen."
           }
         ]
       },
@@ -29253,7 +29206,7 @@ const B1_WORDS = [
   },
   {
     "de": "grenzen",
-    "lv": "Hraničící s",
+    "lv": "Hraničit",
     "level": "B1"
   },
   {
@@ -29280,7 +29233,7 @@ const B1_WORDS = [
       "id": "b1-griff",
       "layout": "standardStudy",
       "translation": "Rukojeť",
-      "explanation": "Hlavní myšlenka: der Griff je nejčastěji klika – místo, za které se uchopí předmět. Při sportu nebo pohybu to může být i úchop.",
+      "explanation": "Hlavní myšlenka: der Griff je nejčastěji rukojeť – místo, za které se uchopí předmět. Při sportu nebo pohybu to může být i úchop.",
       "examples": [
         {
           "de": "Der Griff der Tür ist locker.",
@@ -29298,13 +29251,13 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Griff",
-          "meaning": "Rukojeť / rukojeť",
+          "meaning": "Rukojeť / úchop",
           "example": "Der Griff ist aus Metall. = Rukojeť je vyrobena z kovu."
         },
         {
           "word": "der Henkel",
-          "meaning": "Bodlák",
-          "example": "Die Tasse hat einen Henkel. = Pohár má bodlák."
+          "meaning": "Ucho",
+          "example": "Šálek má ucho."
         },
         {
           "word": "greifen",
@@ -29315,7 +29268,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Der Griff je místo, kde se chytnete • Greifen je akce sama o sobě."
+            "text": "Der Griff je místo, za které se chytíte • Greifen je samotná činnost."
           }
         ]
       },
@@ -29474,7 +29427,7 @@ const B1_WORDS = [
     "de": "Grille",
     "de_article": "die",
     "de_plural": "die Grillen",
-    "lv": "Kriket",
+    "lv": "Cvrček",
     "level": "B1"
   },
   {
@@ -29550,7 +29503,7 @@ const B1_WORDS = [
     "de": "Grütze",
     "de_article": "die",
     "de_plural": "die Grützen",
-    "lv": "Krupice",
+    "lv": "Kroupy",
     "level": "B1"
   },
   {
@@ -29579,8 +29532,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-gut",
       "layout": "standardStudy",
-      "translation": "Vlastnictví",
-      "explanation": "Hlavní myšlenka: das Gut znamená majetek, majetek nebo statek/panství. V množném čísle die Güter často znamená zboží nebo materiální hodnoty.",
+      "translation": "Majetek",
+      "explanation": "Hlavní myšlenka: das Gut znamená majetek, statek nebo panství. V množném čísle die Güter často znamená zboží nebo materiální hodnoty.",
       "examples": [
         {
           "de": "Das Gut liegt außerhalb der Stadt.",
@@ -29598,12 +29551,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "das Gut",
-          "meaning": "Majetek / panství / panství",
+          "meaning": "Majetek / statek / panství",
           "example": "Das Gut ist alt. = Panství je staré."
         },
         {
           "word": "die Güter",
-          "meaning": "Hodnoty zboží / materiálu",
+          "meaning": "Zboží / materiální statky",
           "example": "Der Zug bringt Güter. = Vlak přepravuje zboží."
         },
         {
@@ -29615,7 +29568,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "S článkem das Gut je podstatné jméno • Bez článku střevo obvykle znamená dobře."
+            "text": "S členem das Gut je to podstatné jméno • Bez členu gut obvykle znamená „dobrý“ nebo „dobře“."
           }
         ]
       },
@@ -29756,7 +29709,7 @@ const B1_WORDS = [
   },
   {
     "de": "gutmachen",
-    "lv": "Opravit",
+    "lv": "Napravit",
     "level": "B1"
   },
   {
@@ -29770,7 +29723,7 @@ const B1_WORDS = [
     "de": "Haarbüschel",
     "de_article": "das",
     "de_plural": "die Haarbüschel",
-    "lv": "Kadeř vlasů",
+    "lv": "Chomáč vlasů",
     "level": "B1"
   },
   {
@@ -29847,26 +29800,26 @@ const B1_WORDS = [
     "de": "Halbschuh",
     "de_article": "der",
     "de_plural": "die Halbschuhe",
-    "lv": "Pouliční bota",
+    "lv": "Polobotka",
     "level": "B1"
   },
   {
     "de": "halbtags",
-    "lv": "Částečný pracovní den",
+    "lv": "Na půl úvazku",
     "level": "B1"
   },
   {
     "de": "Halsband",
     "de_article": "das",
     "de_plural": "die Halsbänder",
-    "lv": "Límec",
+    "lv": "Obojek",
     "level": "B1"
   },
   {
     "de": "Halstuch",
     "de_article": "das",
     "de_plural": "die Halstücher",
-    "lv": "Kravata",
+    "lv": "Šátek",
     "level": "B1"
   },
   {
@@ -29885,12 +29838,12 @@ const B1_WORDS = [
     "de": "Halteverbot",
     "de_article": "das",
     "de_plural": "die Halteverbote",
-    "lv": "Žádné zastavení",
+    "lv": "Zákaz zastavení",
     "level": "B1"
   },
   {
     "de": "halt machen",
-    "lv": "Zastavit",
+    "lv": "Zastavit se",
     "level": "B1"
   },
   {
@@ -29929,7 +29882,7 @@ const B1_WORDS = [
       "id": "b1-handeln",
       "layout": "standardStudy",
       "translation": "Jednat",
-      "explanation": "Hlavní myšlenka: handeln znamená jednat nebo působit v konkrétní situaci. U von to znamená 'být o' a u mit nebo zboží to znamená obchodovat.",
+      "explanation": "Hlavní myšlenka: handeln znamená jednat nebo působit v konkrétní situaci. S von to znamená „být o“ a s mit nebo se zbožím to znamená obchodovat.",
       "examples": [
         {
           "de": "Wir müssen schnell handeln.",
@@ -29947,7 +29900,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "handeln",
-          "meaning": "Jednat / být předmětem / obchod",
+          "meaning": "Jednat / pojednávat o / obchodovat",
           "example": "Wir müssen handeln. = Musíme jednat."
         },
         {
@@ -29964,7 +29917,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Handeln fragt: co dělat, o čem je text nebo co se obchoduje?"
+            "text": "Handeln se ptá: co dělat, o čem je text nebo s čím se obchoduje?"
           }
         ]
       },
@@ -30118,12 +30071,12 @@ const B1_WORDS = [
     "study": {
       "id": "b1-handgriff",
       "layout": "standardStudy",
-      "translation": "Technika",
+      "translation": "Úkon",
       "explanation": "Hlavní myšlenka: der Handgriff znamená krátký praktický pohyb nebo techniku ​​při práci. Pokud je součástí předmětu, může to znamenat i rukojeť.",
       "examples": [
         {
           "de": "Mit einem Handgriff war die Tür offen.",
-          "lv": "Jediným trikem byly dveře otevřené."
+          "lv": "Jedním pohybem se dveře otevřely."
         },
         {
           "de": "Der Handgriff der Maschine ist kaputt.",
@@ -30142,19 +30095,19 @@ const B1_WORDS = [
         },
         {
           "word": "der Griff",
-          "meaning": "Rukojeť / rukojeť",
+          "meaning": "Rukojeť / úchop",
           "example": "Der Griff ist locker. = Rukojeť je uvolněná."
         },
         {
           "word": "die Handlung",
-          "meaning": "Jednání / jednání",
+          "meaning": "Děj / jednání",
           "example": "Die Handlung war falsch. = Akce byla špatná."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "V pracovním procesu je Handgriff často jeden malý krok po ruce."
+            "text": "V pracovním procesu je Handgriff často jeden malý úkon rukou."
           }
         ]
       },
@@ -30308,7 +30261,7 @@ const B1_WORDS = [
     "de": "Handwerk",
     "de_article": "das",
     "de_plural": "die Handwerke",
-    "lv": "Pozice",
+    "lv": "Řemeslo",
     "level": "B1"
   },
   {
@@ -30377,8 +30330,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-hauen",
       "layout": "standardStudy",
-      "translation": "Hit",
-      "explanation": "Hlavní myšlenka: hauen hovorově znamená udeřit, řezat nebo udeřit. Zní to příměji a hruběji než neutrální schlagen.",
+      "translation": "Udeřit",
+      "explanation": "Hlavní myšlenka: hauen hovorově znamená udeřit, sekat nebo dát ránu. Zní to příměji a hruběji než neutrální schlagen.",
       "examples": [
         {
           "de": "Er haut mit der Faust auf den Tisch.",
@@ -30386,7 +30339,7 @@ const B1_WORDS = [
         },
         {
           "de": "Der Arbeiter haut Holz.",
-          "lv": "Dělník na řezání dřeva."
+          "lv": "Dělník seká dřevo."
         },
         {
           "de": "Hau ab!",
@@ -30401,7 +30354,7 @@ const B1_WORDS = [
         },
         {
           "word": "schlagen",
-          "meaning": "Hit",
+          "meaning": "Udeřit",
           "example": "Er schlägt den Ball. = Zasáhne míč."
         },
         {
@@ -30413,7 +30366,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Hauen je hovorová rána • Hej brácho! má samostatnou frázi \"Ztrať se!\""
+            "text": "Hauen označuje hovorový úder • Hau ab! je samostatná fráze ve významu „Ztrať se!“"
           }
         ]
       },
@@ -30563,7 +30516,7 @@ const B1_WORDS = [
       "id": "b1-haufen",
       "layout": "standardStudy",
       "translation": "Hromada",
-      "explanation": "Hlavní myšlenka: der Haufen znamená hromadu nebo hromadu, obvykle nepříliš uklizenou. Pro lidi to může znamenat parta, ale tento význam je neformální.",
+      "explanation": "Hlavní myšlenka: der Haufen znamená hromadu nebo čupu, obvykle nepříliš uklizenou. Pro lidi to může znamenat partu, ale tento význam je neformální.",
       "examples": [
         {
           "de": "Vor dem Haus liegt ein Haufen Sand.",
@@ -30571,7 +30524,7 @@ const B1_WORDS = [
         },
         {
           "de": "Auf dem Tisch liegt ein Haufen Papier.",
-          "lv": "Na stole je stoh papírů."
+          "lv": "Na stole je hromada papíru."
         },
         {
           "de": "Ein Haufen Kinder spielt im Hof.",
@@ -30581,7 +30534,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Haufen",
-          "meaning": "Hromada / parta / stádo",
+          "meaning": "Hromada / parta / čupa",
           "example": "Ein Haufen Sand liegt dort. = Je tam hromada písku."
         },
         {
@@ -30598,7 +30551,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Haufen je často chaotická hromada • Stapel je úhledně naskládán."
+            "text": "Haufen je často neuspořádaná hromada • Stapel je úhledně naskládaný."
           }
         ]
       },
@@ -30741,7 +30694,7 @@ const B1_WORDS = [
     "de": "Haupt",
     "de_article": "das",
     "de_plural": "die Häupter",
-    "lv": "Hlavu",
+    "lv": "Hlava",
     "level": "B1"
   },
   {
@@ -30781,7 +30734,7 @@ const B1_WORDS = [
   },
   {
     "de": "häuslich",
-    "lv": "Domov",
+    "lv": "Domácí",
     "level": "B1"
   },
   {
@@ -30828,7 +30781,7 @@ const B1_WORDS = [
   },
   {
     "de": "heften",
-    "lv": "Přiložit",
+    "lv": "Připevnit",
     "level": "B1"
   },
   {
@@ -30840,7 +30793,7 @@ const B1_WORDS = [
     "de": "Heftklammer",
     "de_article": "die",
     "de_plural": "die Heftklammern",
-    "lv": "Kancelářská sponka",
+    "lv": "Sešívací sponka",
     "level": "B1"
   },
   {
@@ -30878,7 +30831,7 @@ const B1_WORDS = [
     "de": "Kinderheim",
     "de_article": "das",
     "de_plural": "die Kinderheime",
-    "lv": "Sirotčinec",
+    "lv": "Dětský domov",
     "level": "B1"
   },
   {
@@ -30904,14 +30857,14 @@ const B1_WORDS = [
     "de": "Heimweh",
     "de_article": "das",
     "de_plural": "die Heimwehe",
-    "lv": "Nostalgický",
+    "lv": "Stesk po domově",
     "level": "B1"
   },
   {
     "de": "Heiratsantrag",
     "de_article": "der",
     "de_plural": "die Heiratsanträge",
-    "lv": "Návrh",
+    "lv": "Žádost o ruku",
     "level": "B1"
   },
   {
@@ -30921,14 +30874,14 @@ const B1_WORDS = [
   },
   {
     "de": "heiter",
-    "lv": "Zábava",
+    "lv": "Veselý",
     "level": "B1"
   },
   {
     "de": "Heizkörper",
     "de_article": "der",
     "de_plural": "die Heizkörper",
-    "lv": "Chladič",
+    "lv": "Radiátor",
     "level": "B1"
   },
   {
@@ -30963,7 +30916,7 @@ const B1_WORDS = [
     "de": "Henne",
     "de_article": "die",
     "de_plural": "die Hennen",
-    "lv": "Kuře",
+    "lv": "Slepice",
     "level": "B1"
   },
   {
@@ -30973,7 +30926,7 @@ const B1_WORDS = [
   },
   {
     "de": "heran",
-    "lv": "Zde",
+    "lv": "Sem",
     "level": "B1"
   },
   {
@@ -30989,7 +30942,7 @@ const B1_WORDS = [
       "id": "b1-herausgeben",
       "layout": "standardStudy",
       "translation": "Problém",
-      "explanation": "Hlavní myšlenka: herausgeben znamená vydat knihu, noviny nebo informaci veřejnosti. V jiné situaci to může také znamenat dát nebo dát něco ven.",
+      "explanation": "Hlavní myšlenka: herausgeben znamená vydat knihu, noviny nebo zveřejnit informace. V jiné situaci to může znamenat také něco vydat, předat nebo vydat ven.",
       "examples": [
         {
           "de": "Der Verlag gibt ein neues Buch heraus.",
@@ -31007,7 +30960,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "herausgeben",
-          "meaning": "Vydat / vydat",
+          "meaning": "Vydat / předat",
           "example": "Der Verlag gibt ein Buch heraus. = Nakladatelství vydává knihu."
         },
         {
@@ -31024,7 +30977,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Verlag gibt heraus = vydává • Behörde gibt heraus = vydává."
+            "text": "Verlag gibt heraus = vydává • Behörde gibt heraus = vydává nebo zveřejňuje."
           }
         ]
       },
@@ -31176,7 +31129,7 @@ const B1_WORDS = [
   },
   {
     "de": "herbei",
-    "lv": "Zde",
+    "lv": "Sem",
     "level": "B1"
   },
   {
@@ -31214,7 +31167,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wo kommst du her?",
-          "lv": "Odkud jste"
+          "lv": "Odkud jsi?"
         },
         {
           "de": "Der Geruch kommt aus der Küche her.",
@@ -31241,7 +31194,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Her- zde ukazuje pohyb: komm ji!"
+            "text": "Her- zde ukazuje pohyb sem: Komm sem!"
           }
         ]
       },
@@ -31371,7 +31324,7 @@ const B1_WORDS = [
     "de": "Herkunft",
     "de_article": "die",
     "de_plural": "die Herkünfte",
-    "lv": "Vyčnívat",
+    "lv": "Původ",
     "level": "B1"
   },
   {
@@ -31453,7 +31406,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Kinder gehen in den Garten hinaus.",
-          "lv": "Děti chodí na zahradu."
+          "lv": "Děti vycházejí na zahradu."
         },
         {
           "de": "Das geht über meine Erfahrung hinaus.",
@@ -31463,24 +31416,24 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "hinausgehen",
-          "meaning": "Zhasnout / překročit",
+          "meaning": "Vyjít ven / překročit",
           "example": "Ich gehe hinaus. = Jdu ven."
         },
         {
           "word": "herauskommen",
-          "meaning": "Vyjděte sem",
+          "meaning": "Vyjít ven sem",
           "example": "Komm bitte heraus! = Prosím, pojďte ven!"
         },
         {
           "word": "ausgehen",
-          "meaning": "Jít ven se bavit / vyběhnout",
+          "meaning": "Jít ven se bavit / skončit",
           "example": "Wir gehen heute aus. = Dnes jdeme ven."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Hinaus- obvykle ukazuje pohyb pryč ven • Heraus- tady častěji."
+            "text": "Hinaus- obvykle označuje pohyb ven od mluvčího • Heraus- častěji pohyb ven k mluvčímu."
           }
         ]
       },
@@ -31618,14 +31571,14 @@ const B1_WORDS = [
   },
   {
     "de": "hindern",
-    "lv": "Zpoždění",
+    "lv": "Bránit",
     "level": "B1"
   },
   {
     "de": "Hindernis",
     "de_article": "das",
     "de_plural": "die Hindernisse",
-    "lv": "Překážkou",
+    "lv": "Překážka",
     "level": "B1"
   },
   {
@@ -31635,7 +31588,7 @@ const B1_WORDS = [
   },
   {
     "de": "hineinsehen",
-    "lv": "Podívejte se",
+    "lv": "Nahlédnout dovnitř",
     "level": "B1"
   },
   {
@@ -31652,7 +31605,7 @@ const B1_WORDS = [
   },
   {
     "de": "hinüber",
-    "lv": "Nad",
+    "lv": "Přes",
     "level": "B1"
   },
   {
@@ -31669,12 +31622,12 @@ const B1_WORDS = [
     "study": {
       "id": "b1-hinweis",
       "layout": "standardStudy",
-      "translation": "Návod",
+      "translation": "Upozornění",
       "explanation": "Hlavní myšlenka: der Hinweis je instrukce, poznámka nebo informace, která vám pomůže si něčeho všimnout, pochopit nebo najít.",
       "examples": [
         {
           "de": "Danke für den Hinweis.",
-          "lv": "Díky za návod."
+          "lv": "Díky za upozornění."
         },
         {
           "de": "Auf dem Schild steht ein wichtiger Hinweis.",
@@ -31682,7 +31635,7 @@ const B1_WORDS = [
         },
         {
           "de": "Der Hinweis hat mir sehr geholfen.",
-          "lv": "Tento návod mi hodně pomohl."
+          "lv": "Toto upozornění mi velmi pomohlo."
         }
       ],
       "comparison": [
@@ -31693,7 +31646,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Rat",
-          "meaning": "Radu",
+          "meaning": "Rada",
           "example": "Danke für deinen Rat. = Děkuji za radu."
         },
         {
@@ -31830,7 +31783,7 @@ const B1_WORDS = [
   },
   {
     "de": "hinzu",
-    "lv": "Současnost",
+    "lv": "Navíc",
     "level": "B1"
   },
   {
@@ -31868,7 +31821,7 @@ const B1_WORDS = [
     "de": "Hitze",
     "de_article": "die",
     "de_plural": "die Hitzen",
-    "lv": "Teplo",
+    "lv": "Horko",
     "level": "B1"
   },
   {
@@ -31880,7 +31833,7 @@ const B1_WORDS = [
   },
   {
     "de": "hobeln",
-    "lv": "Plánovat",
+    "lv": "Hoblovat",
     "level": "B1"
   },
   {
@@ -31894,7 +31847,7 @@ const B1_WORDS = [
     "de": "Hochschule",
     "de_article": "die",
     "de_plural": "die Hochschulen",
-    "lv": "Univerzita",
+    "lv": "Vysoká škola",
     "level": "B1"
   },
   {
@@ -31904,7 +31857,7 @@ const B1_WORDS = [
   },
   {
     "de": "höchstens",
-    "lv": "Nejvyšší • Ne více než",
+    "lv": "Nejvýše",
     "level": "B1"
   },
   {
@@ -31916,7 +31869,7 @@ const B1_WORDS = [
   },
   {
     "de": "hocken",
-    "lv": "Dřepovat",
+    "lv": "Dřepět",
     "level": "B1"
   },
   {
@@ -31930,7 +31883,7 @@ const B1_WORDS = [
     "de": "Hof",
     "de_article": "der",
     "de_plural": "die Höfe",
-    "lv": "Yard",
+    "lv": "Dvůr",
     "level": "B1"
   },
   {
@@ -31966,7 +31919,7 @@ const B1_WORDS = [
       "id": "b1-holen",
       "layout": "standardStudy",
       "translation": "Přinést",
-      "explanation": "Hlavní myšlenka: holen znamená jít nebo jít pro něco a přinést, přinést nebo vzít to s sebou. Často se také používá u osob: jemanden abholen.",
+      "explanation": "Hlavní myšlenka: holen znamená jít nebo jet pro něco a přinést, přivézt nebo vzít to s sebou. Často se používá i u osob: jemanden abholen.",
       "examples": [
         {
           "de": "Ich hole die Kinder von der Schule ab.",
@@ -31974,18 +31927,18 @@ const B1_WORDS = [
         },
         {
           "de": "Kannst du bitte Brot holen?",
-          "lv": "Můžete prosím přinést chleba"
+          "lv": "Můžeš prosím přinést chleba?"
         },
         {
           "de": "Wir holen den Arzt.",
-          "lv": "Voláme lékaře."
+          "lv": "Jdeme pro lékaře."
         }
       ],
       "comparison": [
         {
           "word": "holen",
           "meaning": "Jdi a přines",
-          "example": "Ich hole Brot. = Přinesl jsem chleba."
+          "example": "Ich hole Brot. = Jdu pro chleba."
         },
         {
           "word": "bringen",
@@ -32001,12 +31954,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Holen zdůrazňuje jít za něčím • Přinesený zdůrazňuje přinášení někomu."
+            "text": "Holen zdůrazňuje dojít si pro něco • Bringen zdůrazňuje dopravení něčeho někomu."
           }
         ]
       },
       "important": {
-        "text": "Abholen je u lidí velmi časté: Kinder abholen = brát děti."
+        "text": "Abholen je u lidí velmi časté: Kinder abholen = vyzvedávat děti."
       },
       "sectionAccents": {
         "examples": [
@@ -32161,14 +32114,14 @@ const B1_WORDS = [
     "de": "Holzscheit",
     "de_article": "das",
     "de_plural": "die Holzscheite",
-    "lv": "Konec",
+    "lv": "Poleno",
     "level": "B1"
   },
   {
     "de": "Holzspan",
     "de_article": "der",
     "de_plural": "die Holzspäne",
-    "lv": "Dřevěné měřítko",
+    "lv": "Dřevěná tříska",
     "level": "B1"
   },
   {
@@ -32192,7 +32145,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-homosexuelle",
       "layout": "minimalStudy",
-      "translation": "Homosexuál",
+      "translation": "Homosexuál • homosexuálka",
       "accent": "blue",
       "variants": [
         {
@@ -32218,7 +32171,7 @@ const B1_WORDS = [
     "de": "Hopfenstange",
     "de_article": "die",
     "de_plural": "die Hopfenstangen",
-    "lv": "Chmelovou měkkost",
+    "lv": "Chmelová tyč",
     "level": "B1"
   },
   {
@@ -32234,11 +32187,11 @@ const B1_WORDS = [
       "id": "b1-horchen",
       "layout": "standardStudy",
       "translation": "Poslouchat",
-      "explanation": "Hlavní myšlenka: horchen znamená pozorně naslouchat, často něco slyšet. Může to znamenat i odposlech.",
+      "explanation": "Hlavní myšlenka: horchen znamená pozorně naslouchat, často s cílem něco zaslechnout. Může znamenat i tajně poslouchat.",
       "examples": [
         {
           "de": "Sie horcht an der Tür.",
-          "lv": "Poslouchá ve dveřích."
+          "lv": "Poslouchá u dveří."
         },
         {
           "de": "Die Kinder horchen auf die Geräusche.",
@@ -32252,7 +32205,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "horchen",
-          "meaning": "Poslouchejte pozorně",
+          "meaning": "Pozorně naslouchat",
           "example": "Sie horcht an der Tür. = Poslouchá ve dveřích."
         },
         {
@@ -32427,14 +32380,14 @@ const B1_WORDS = [
     "de": "Hörsaal",
     "de_article": "der",
     "de_plural": "die Hörsäle",
-    "lv": "Publikum",
+    "lv": "Přednáškový sál",
     "level": "B1"
   },
   {
     "de": "Hörspiel",
     "de_article": "das",
     "de_plural": "die Hörspiele",
-    "lv": "Vysílat hru",
+    "lv": "Rozhlasová hra",
     "level": "B1"
   },
   {
@@ -32446,17 +32399,12 @@ const B1_WORDS = [
     "study": {
       "id": "b1-hort",
       "layout": "standardStudy",
-      "translation": "Rozšířená denní skupina • Dětské denní centrum",
-      "explanation": [
-        "Hlavní myšlenka: der Hort (také Schulhort/Kinderhort) je zařízení mimoškolní péče pro děti školního věku.",
-        "V Německu se der Hort stará o děti po škole, zatímco rodiče jsou v práci.",
-        "Nezaměňovat s der Kindergarten - jedná se o zařízení pro předškolní děti (do 6 let).",
-        "V češtině je nejbližší zápas rozšířená denní skupina nebo dětské denní centrum."
-      ],
+      "translation": "Školní družina • zařízení školní péče",
+      "explanation": "V češtině je nejbližším ekvivalentem školní družina nebo zařízení školní péče.",
       "examples": [
         {
           "de": "Mein Sohn geht nach der Schule in den Hort.",
-          "lv": "Můj syn chodí po škole na rozšířenou denní skupinu."
+          "lv": "Můj syn chodí po škole do školní družiny."
         },
         {
           "de": "Der Hort schließt um 17 Uhr.",
@@ -32614,14 +32562,14 @@ const B1_WORDS = [
     "de": "Hüfte",
     "de_article": "die",
     "de_plural": "die Hüften",
-    "lv": "Kyčle",
+    "lv": "Kyčel",
     "level": "B1"
   },
   {
     "de": "Hüftgelenk",
     "de_article": "das",
     "de_plural": "die Hüftgelenke",
-    "lv": "Kyčelního kloubu",
+    "lv": "Kyčelní kloub",
     "level": "B1"
   },
   {
@@ -32649,21 +32597,21 @@ const B1_WORDS = [
     "de": "Hülle",
     "de_article": "die",
     "de_plural": "die Hüllen",
-    "lv": "Skořápka",
+    "lv": "Obal",
     "level": "B1"
   },
   {
     "de": "Hülse",
     "de_article": "die",
     "de_plural": "die Hülsen",
-    "lv": "Skořápka",
+    "lv": "Lusk",
     "level": "B1"
   },
   {
     "de": "Hülsenfrucht",
     "de_article": "die",
     "de_plural": "die Hülsenfrüchte",
-    "lv": "Lusk",
+    "lv": "Luštěnina",
     "level": "B1"
   },
   {
@@ -32682,7 +32630,7 @@ const B1_WORDS = [
     "de": "Hungersnot",
     "de_article": "die",
     "de_plural": "die Hungersnöte",
-    "lv": "Hlad",
+    "lv": "Hladomor",
     "level": "B1"
   },
   {
@@ -32695,7 +32643,7 @@ const B1_WORDS = [
       "id": "b1-hupe",
       "layout": "standardStudy",
       "translation": "Klakson • lodní houkačka",
-      "explanation": "Hlavní myšlenka: die Hupe je klakson auta nebo lodní klakson. Varuje ostatní v provozu. Množné číslo: die Hupen.",
+      "explanation": "Hlavní myšlenka: die Hupe je klakson auta nebo lodní houkačka. Slouží k varování ostatních v provozu.",
       "examples": [
         {
           "de": "Er hupt laut.",
@@ -32707,7 +32655,7 @@ const B1_WORDS = [
         },
         {
           "de": "Das Schiff gibt ein Signal mit der Hupe.",
-          "lv": "Loď dává signál klaksonem."
+          "lv": "Loď dává signál lodní houkačkou."
         }
       ],
       "comparison": [
@@ -32730,7 +32678,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "V kontextu auta klakson. V kontextu lodi roh. Sloveso: hupen."
+            "text": "V kontextu auta klakson. V kontextu lodi lodní houkačka. Sloveso: hupen."
           }
         ]
       },
@@ -32817,8 +32765,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-hüten",
       "layout": "standardStudy",
-      "translation": "Chránit",
-      "explanation": "Hlavní myšlenka: hüten znamená hlídat, hlídat nebo pastýř. S dětmi to znamená hlídat, se zvířaty pást, ale sich hüten znamená hlídat.",
+      "translation": "Hlídat • opatrovat • pást",
+      "explanation": "Hlavní myšlenka: hüten znamená hlídat, opatrovat nebo pást. S dětmi znamená hlídat, se zvířaty pást, ale sich hüten znamená chránit se nebo mít se na pozoru.",
       "examples": [
         {
           "de": "Sie hütet die Kinder am Nachmittag.",
@@ -32836,7 +32784,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "hüten",
-          "meaning": "Hlídat / hlídat / pastýř",
+          "meaning": "Hlídat / opatrovat / pást",
           "example": "Sie hütet die Kinder. = Hlídá děti."
         },
         {
@@ -32853,12 +32801,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Hüten často kombinuje hlídání a hlídání • Sich hüten = hlídat."
+            "text": "Hüten často kombinuje hlídání a opatrování • Sich hüten = mít se na pozoru."
           }
         ]
       },
       "important": {
-        "text": "Sich hüten není jednoduše 'hlídat', ale 'hlídat/dávat si na něco pozor'."
+        "text": "Sich hüten neznamená jednoduše „hlídat“, ale „chránit se“ nebo „dávat si na něco pozor“."
       },
       "sectionAccents": {
         "examples": [
@@ -33016,7 +32964,7 @@ const B1_WORDS = [
   },
   {
     "de": "ideal",
-    "lv": "Perfektní",
+    "lv": "Ideální",
     "level": "B1"
   },
   {
@@ -33081,7 +33029,7 @@ const B1_WORDS = [
     "de": "Import",
     "de_article": "der",
     "de_plural": "die Importe",
-    "lv": "Importovat",
+    "lv": "Import",
     "level": "B1"
   },
   {
@@ -33093,7 +33041,7 @@ const B1_WORDS = [
     "de": "Inbegriff",
     "de_article": "der",
     "de_plural": "die Inbegriffe",
-    "lv": "Symbol",
+    "lv": "Ztělesnění",
     "level": "B1"
   },
   {
@@ -33173,7 +33121,7 @@ const B1_WORDS = [
     "de": "Inhaber",
     "de_article": "der",
     "de_plural": "die Inhaber",
-    "lv": "Vlastníka",
+    "lv": "Majitel",
     "level": "B1"
   },
   {
@@ -33183,7 +33131,7 @@ const B1_WORDS = [
   },
   {
     "de": "inhaltsreich",
-    "lv": "Podstatný",
+    "lv": "Bohatý na obsah",
     "level": "B1"
   },
   {
@@ -33195,7 +33143,7 @@ const B1_WORDS = [
   },
   {
     "de": "injizieren",
-    "lv": "Injekci",
+    "lv": "Aplikovat injekci",
     "level": "B1"
   },
   {
@@ -33223,8 +33171,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-innerhalb",
       "layout": "standardStudy",
-      "translation": "Uvnitř",
-      "explanation": "Hlavní myšlenka: innerhalb znamená v rámci nebo v určitém limitu. Může to být v mezích prostoru, času nebo příležitosti.",
+      "translation": "V rámci • během",
+      "explanation": "Hlavní myšlenka: innerhalb znamená v rámci nebo v určité lhůtě. Může se týkat prostoru, času nebo možností.",
       "examples": [
         {
           "de": "Innerhalb der Stadt darf man langsam fahren.",
@@ -33242,7 +33190,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "innerhalb",
-          "meaning": "Uvnitř / během / uvnitř",
+          "meaning": "Uvnitř / během / v rámci",
           "example": "Innerhalb einer Woche. = Během týdne."
         },
         {
@@ -33259,7 +33207,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Innerhalb vždy navrhuje limit: ve městě, do týdne nebo v rámci možnosti."
+            "text": "Innerhalb vždy označuje určitou hranici: města, týdne nebo našich možností."
           }
         ]
       },
@@ -33400,7 +33348,7 @@ const B1_WORDS = [
   },
   {
     "de": "innig",
-    "lv": "Upřímný",
+    "lv": "Srdečný",
     "level": "B1"
   },
   {
@@ -33438,7 +33386,7 @@ const B1_WORDS = [
   },
   {
     "de": "inständig",
-    "lv": "Vytrvalý",
+    "lv": "Naléhavý",
     "level": "B1"
   },
   {
@@ -33457,12 +33405,12 @@ const B1_WORDS = [
   },
   {
     "de": "intakt",
-    "lv": "Pracovní",
+    "lv": "Nepoškozený",
     "level": "B1"
   },
   {
     "de": "integrieren",
-    "lv": "Zahrnout",
+    "lv": "Integrovat",
     "level": "B1"
   },
   {
@@ -33535,7 +33483,7 @@ const B1_WORDS = [
   },
   {
     "de": "irreführen",
-    "lv": "Oklamat",
+    "lv": "Uvést v omyl",
     "level": "B1"
   },
   {
@@ -33546,7 +33494,7 @@ const B1_WORDS = [
       "id": "b1-irren",
       "layout": "standardStudy",
       "translation": "Mýlit se",
-      "explanation": "Hlavní myšlenka: erren znamená chybovat nebo sejít z cesty. V běžném životě se nejčastěji používá reflexivní forma sich iren • Bez sich může slovo také znamenat putovat.",
+      "explanation": "Hlavní myšlenka: irren znamená chybovat nebo sejít z cesty. V běžném životě se nejčastěji používá zvratná forma sich irren • Bez sich může slovo také znamenat bloudit.",
       "examples": [
         {
           "de": "Da irrst du dich.",
@@ -33581,12 +33529,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Základní výuková fráze: sich iren = mýlit se."
+            "text": "Základní výuková fráze: sich irren = mýlit se."
           }
         ]
       },
       "important": {
-        "text": "Zvratný tvar mění význam: sich iren = chybovat, iren = také bloudit."
+        "text": "Zvratný tvar mění význam: sich irren = chybovat, irren = také bloudit."
       },
       "sectionAccents": {
         "examples": [
@@ -33644,7 +33592,6 @@ const B1_WORDS = [
         ],
         "explanation": {
           "blue": [
-            "erren",
             "Hlavní"
           ],
           "purple": [
@@ -33718,7 +33665,7 @@ const B1_WORDS = [
     "de": "Irrtum",
     "de_article": "der",
     "de_plural": "die Irrtümer",
-    "lv": "Nedorozumění",
+    "lv": "Omyl",
     "level": "B1"
   },
   {
@@ -33750,7 +33697,7 @@ const B1_WORDS = [
   {
     "de": "Jagdbeute",
     "de_article": "die",
-    "lv": "Lov",
+    "lv": "Lovecká kořist",
     "level": "B1"
   },
   {
@@ -33799,7 +33746,7 @@ const B1_WORDS = [
         {
           "word": "verfolgen",
           "meaning": "Sledovat / pronásledovat",
-          "example": "Die Polizei verfolgt den Täter. = Policie po viníkovi stíhá."
+          "example": "Policie stíhá pachatele."
         },
         {
           "word": "sich beeilen",
@@ -33810,12 +33757,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Jagen je hnutí s cílem: lovit, pronásledovat nebo spěchat na další místo."
+            "text": "Jagen vyjadřuje pohyb s cílem: lovit, pronásledovat nebo spěchat na další místo."
           }
         ]
       },
       "important": {
-        "text": "Ne každý českýý „drive“ je jagen • Výběr je určen kontextem."
+        "text": "Ne každý český výraz pro „hnát“ je jagen • Výběr určuje kontext."
       },
       "sectionAccents": {
         "examples": [
@@ -33971,7 +33918,7 @@ const B1_WORDS = [
     "de": "Schaltjahr",
     "de_article": "das",
     "de_plural": "die Schaltjahre",
-    "lv": "Dlouhý rok",
+    "lv": "Přestupný rok",
     "level": "B1"
   },
   {
@@ -34009,8 +33956,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-jahrgang",
       "layout": "standardStudy",
-      "translation": "Rok vydání",
-      "explanation": "Hlavní myšlenka: der Jahrgang spojuje osobu, víno, časopis nebo skupinu s konkrétním rokem. Může to být rok narození, ročník, promoce nebo jednoroční skupina.",
+      "translation": "Ročník • Rok vydání",
+      "explanation": "Hlavní myšlenka: der Jahrgang spojuje osobu, víno, časopis nebo skupinu s konkrétním rokem. Může označovat rok narození, ročník, vydání nebo skupinu stejného ročníku.",
       "examples": [
         {
           "de": "Dieser Wein ist Jahrgang 2018.",
@@ -34018,7 +33965,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Zeitschrift ist Jahrgang 2020.",
-          "lv": "Časopis vychází z roku 2020."
+          "lv": "Časopis je ročník 2020."
         },
         {
           "de": "Er ist Jahrgang 1995.",
@@ -34045,7 +33992,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Jahrgang vždy něco váže ke konkrétnímu roku: osobu, víno nebo problém."
+            "text": "Jahrgang vždy něco váže ke konkrétnímu roku: osobu, víno nebo vydání."
           }
         ]
       },
@@ -34195,7 +34142,7 @@ const B1_WORDS = [
     "de": "Jahrmarkt",
     "de_article": "der",
     "de_plural": "die Jahrmärkte",
-    "lv": "Veletrh",
+    "lv": "Jarmark",
     "level": "B1"
   },
   {
@@ -34207,7 +34154,7 @@ const B1_WORDS = [
   },
   {
     "de": "jammern",
-    "lv": "Kvílet",
+    "lv": "Naříkat",
     "level": "B1"
   },
   {
@@ -34219,17 +34166,17 @@ const B1_WORDS = [
   },
   {
     "de": "jäten",
-    "lv": "Na trávu",
+    "lv": "Plít",
     "level": "B1"
   },
   {
     "de": "jauchzen",
-    "lv": "Fandit",
+    "lv": "Jásat",
     "level": "B1"
   },
   {
     "de": "jaulen",
-    "lv": "Vytí pro psa",
+    "lv": "Výt",
     "level": "B1"
   },
   {
@@ -34239,12 +34186,12 @@ const B1_WORDS = [
   },
   {
     "de": "jeher",
-    "lv": "Z dávných dob",
+    "lv": "Odjakživa",
     "level": "B1"
   },
   {
     "de": "jenseits",
-    "lv": "Tamhle",
+    "lv": "Za",
     "level": "B1"
   },
   {
@@ -34257,19 +34204,19 @@ const B1_WORDS = [
   {
     "de": "Jubel",
     "de_article": "der",
-    "lv": "Na zdraví",
+    "lv": "Jásot",
     "level": "B1"
   },
   {
     "de": "jubeln",
-    "lv": "Fandit",
+    "lv": "Jásat",
     "level": "B1"
   },
   {
     "de": "Jubiläum",
     "de_article": "das",
     "de_plural": "die Jubiläen",
-    "lv": "Výročí",
+    "lv": "Jubileum",
     "level": "B1"
   },
   {
@@ -34302,7 +34249,7 @@ const B1_WORDS = [
         "Hlavní myšlenka: der Jünger znamená žák nebo následovník – osoba, která následuje učitele, myšlenku nebo učení.",
         "Der Jünger může odkazovat na stoupence jakéhokoli učitele nebo myšlenkového směru, a to nejen v náboženském kontextu.",
         "V biblickém/náboženském kontextu die Jünger Jesu znamená Ježíšovi učedníci, což je jedna častá, ale ne jediná oblast použití.",
-        "V přeneseném smyslu může der Jünger znamenat i následovníka osoby nebo myšlenky (ein Jünger Nietzsche = následovník Nietzscheho důsledků).",
+        "V přeneseném smyslu může der Jünger znamenat i následovníka osoby nebo myšlenky (ein Jünger Nietzsches = Nietzscheho následovník).",
         "Množné číslo: die Jünger • Ženská podoba: die Jüngerin."
       ],
       "examples": [
@@ -34446,7 +34393,7 @@ const B1_WORDS = [
     "de": "Junggeselle",
     "de_article": "der",
     "de_plural": "die Junggesellen",
-    "lv": "Bakalář",
+    "lv": "Svobodný mládenec",
     "level": "B1"
   },
   {
@@ -34472,7 +34419,7 @@ const B1_WORDS = [
     "de": "Juwel",
     "de_article": "das",
     "de_plural": "die Juwelen",
-    "lv": "Drahý kámen",
+    "lv": "Drahokam",
     "level": "B1"
   },
   {
@@ -34493,21 +34440,21 @@ const B1_WORDS = [
     "de": "Kabine",
     "de_article": "die",
     "de_plural": "die Kabinen",
-    "lv": "Chata",
+    "lv": "Kabina",
     "level": "B1"
   },
   {
     "de": "Kabinett",
     "de_article": "das",
     "de_plural": "die Kabinette",
-    "lv": "Kabinetu ministrů",
+    "lv": "Kabinet",
     "level": "B1"
   },
   {
     "de": "Kachel",
     "de_article": "die",
     "de_plural": "die Kacheln",
-    "lv": "Trouba hrnec",
+    "lv": "Kachle",
     "level": "B1"
   },
   {
@@ -34533,7 +34480,7 @@ const B1_WORDS = [
         },
         {
           "de": "Sie gehört zum Kader der besten Athleten.",
-          "lv": "Patří k nejlepším sportovcům."
+          "lv": "Patří do kádru nejlepších sportovců."
         },
         {
           "de": "Der Kader des Unternehmens ist gut ausgebildet.",
@@ -34541,7 +34488,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Mannschaft hat einen breiten Kader.",
-          "lv": "Tým má široké složení."
+          "lv": "Tým má široký kádr."
         },
         {
           "de": "Er gehört zum militärischen Kader.",
@@ -34550,7 +34497,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Der Kader = squad/core (skupina lidí) - ve sportu, politice, organizacích.",
-        "Českýý „rámeček“ (filmy) ≠ der Kader – filmový rámeček v němčině je das Bild/die Einstellung."
+        "Český „rámeček“ (ve filmu) ≠ der Kader – filmový záběr je německy das Bild/die Einstellung."
       ],
       "important": [
         "Der Kader = kompozice/jádro, nikoli filmový snímek.",
@@ -34672,7 +34619,7 @@ const B1_WORDS = [
   },
   {
     "de": "kahl",
-    "lv": "Nahý",
+    "lv": "Holý",
     "level": "B1"
   },
   {
@@ -34686,7 +34633,7 @@ const B1_WORDS = [
     "de": "Kai",
     "de_article": "der",
     "de_plural": "die Kais",
-    "lv": "Vybudovaný nábřeží",
+    "lv": "Nábřeží",
     "level": "B1"
   },
   {
@@ -34705,14 +34652,14 @@ const B1_WORDS = [
     "de": "Kamerad",
     "de_article": "der",
     "de_plural": "die Kameraden",
-    "lv": "Členem",
+    "lv": "Kamarád",
     "level": "B1"
   },
   {
     "de": "Kameradschaft",
     "de_article": "die",
     "de_plural": "die Kameradschaften",
-    "lv": "Společnost",
+    "lv": "Kamarádství",
     "level": "B1"
   },
   {
@@ -34787,21 +34734,21 @@ const B1_WORDS = [
     "de": "Kanister",
     "de_article": "der",
     "de_plural": "die Kanister",
-    "lv": "Nádrž",
+    "lv": "Kanystr",
     "level": "B1"
   },
   {
     "de": "Kanten",
     "de_article": "der",
     "de_plural": "die Kanten",
-    "lv": "Chleba dona",
+    "lv": "Patka chleba",
     "level": "B1"
   },
   {
     "de": "Kantine",
     "de_article": "die",
     "de_plural": "die Kantinen",
-    "lv": "Bufet",
+    "lv": "Kantýna",
     "level": "B1"
   },
   {
@@ -34853,7 +34800,7 @@ const B1_WORDS = [
   },
   {
     "de": "karitativ",
-    "lv": "Charita",
+    "lv": "Charitativní",
     "level": "B1"
   },
   {
@@ -34942,7 +34889,7 @@ const B1_WORDS = [
   },
   {
     "de": "kegeln",
-    "lv": "Trefit kolíky",
+    "lv": "Hrát kuželky",
     "level": "B1"
   },
   {
@@ -34959,7 +34906,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-kehren",
       "layout": "standardStudy",
-      "translation": "Zamést",
+      "translation": "Zametat",
       "explanation": "Hlavní myšlenka: kehren znamená zametat nebo zametat koštětem. Méně často to může znamenat otočení pohledu nebo pohyb jiným směrem.",
       "examples": [
         {
@@ -34978,7 +34925,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "kehren",
-          "meaning": "Zamést / otočit",
+          "meaning": "Zametat / obrátit",
           "example": "Sie kehrt den Hof. = Zametá dvůr."
         },
         {
@@ -35139,7 +35086,7 @@ const B1_WORDS = [
   {
     "de": "Kehricht",
     "de_article": "der",
-    "lv": "Trosky",
+    "lv": "Smetí",
     "level": "B1"
   },
   {
@@ -35199,7 +35146,7 @@ const B1_WORDS = [
       "id": "b1-kern",
       "layout": "standardStudy",
       "translation": "Jádro",
-      "explanation": "Hlavní myšlenka: der Kern znamená jádro, semeno/semeno nebo esenci věci. Používá se jak pro ovoce, tak i obrazně pro nejdůležitější myšlenku.",
+      "explanation": "Hlavní myšlenka: der Kern znamená jádro, semeno nebo podstatu věci. Používá se jak pro ovoce, tak i obrazně pro nejdůležitější myšlenku.",
       "examples": [
         {
           "de": "Der Apfel hat viele Kerne.",
@@ -35218,7 +35165,7 @@ const B1_WORDS = [
         {
           "word": "der Kern",
           "meaning": "Jádro / esence / semeno",
-          "example": "Der Kern der Sache ist wichtig. = Podstatná je podstata případu."
+          "example": "Podstata věci je důležitá."
         },
         {
           "word": "der Samen",
@@ -35370,7 +35317,7 @@ const B1_WORDS = [
     "de": "Kessel",
     "de_article": "der",
     "de_plural": "die Kessel",
-    "lv": "Hrnec",
+    "lv": "Kotel",
     "level": "B1"
   },
   {
@@ -35389,7 +35336,7 @@ const B1_WORDS = [
   },
   {
     "de": "keuchen",
-    "lv": "Lapal po dechu",
+    "lv": "Lapat po dechu",
     "level": "B1"
   },
   {
@@ -35447,7 +35394,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Článek zde není maličkost • Der and die zcela změní význam slova."
+        "text": "Článek zde není maličkost • Der a die zcela změní význam slova."
       },
       "sectionAccents": {
         "examples": [
@@ -35554,11 +35501,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "artikuls"
-                ]
-              }
+              "text": "člen"
             }
           ]
         },
@@ -35581,7 +35524,7 @@ const B1_WORDS = [
     "de": "Kinderkrippe",
     "de_article": "die",
     "de_plural": "die Kinderkrippen",
-    "lv": "Dětský útulek",
+    "lv": "Dětské jesle",
     "level": "B1"
   },
   {
@@ -35603,7 +35546,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-kippen",
       "layout": "standardStudy",
-      "translation": "Převrácení",
+      "translation": "Převrátit • Převrhnout",
       "explanation": "Hlavní myšlenka: Kippen znamená převrátit, naklonit nebo naklonit tak, že něco ztratí rovnováhu. V přeneseném smyslu se situace nebo nálada může změnit – rychle se změnit k horšímu.",
       "examples": [
         {
@@ -35612,7 +35555,7 @@ const B1_WORDS = [
         },
         {
           "de": "Kipp den Stuhl nicht nach hinten.",
-          "lv": "Nenaklání židli dozadu."
+          "lv": "Nenakláněj židli dozadu."
         },
         {
           "de": "Die Stimmung kann schnell kippen.",
@@ -35622,7 +35565,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "kippen",
-          "meaning": "Převrátit / převrátit / změnit",
+          "meaning": "Převrhnout / naklonit se / změnit se",
           "example": "Das Glas kippt um. = Sklo se převrhne."
         },
         {
@@ -35644,7 +35587,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Kippen není jednoduše padlý • Často první je náklon nebo náhlá změna nálady."
+        "text": "Kippen není totéž co fallen • Často mu předchází náklon nebo náhlá změna nálady."
       },
       "sectionAccents": {
         "examples": [
@@ -35759,13 +35702,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "Kippen",
-                  "Kippen",
-                  "Kippen"
-                ]
-              }
+              "text": "sklenice, židle nebo situace"
             }
           ]
         },
@@ -35787,7 +35724,7 @@ const B1_WORDS = [
     "de": "Kladde",
     "de_article": "die",
     "de_plural": "die Kladden",
-    "lv": "Klad",
+    "lv": "Koncept",
     "level": "B1"
   },
   {
@@ -35811,7 +35748,7 @@ const B1_WORDS = [
   },
   {
     "de": "klanglos",
-    "lv": "Tichý",
+    "lv": "Bez zvuku",
     "level": "B1"
   },
   {
@@ -35826,16 +35763,16 @@ const B1_WORDS = [
     "study": {
       "id": "b1-klappen",
       "layout": "standardStudy",
-      "translation": "Uspět",
-      "explanation": "Hlavní myšlenka: klappen je hovorový výraz pro úspěch nebo úspěch. Často se používá pro plán, schůzku nebo praktické řešení • Doslova to může znamenat spadnout nebo zavřít.",
+      "translation": "Vyjít • Fungovat",
+      "explanation": "Hlavní myšlenka: klappen je hovorový výraz pro to, že něco vyjde nebo funguje. Často se používá pro plán, schůzku nebo praktické řešení • Doslova může znamenat zaklapnout nebo se zavřít.",
       "examples": [
         {
           "de": "Hat alles geklappt?",
-          "lv": "Vše fungovalo?"
+          "lv": "Všechno vyšlo?"
         },
         {
           "de": "Der Plan klappt gut.",
-          "lv": "Plán jde dobře."
+          "lv": "Plán vychází dobře."
         },
         {
           "de": "Die Tür klappt zu.",
@@ -35845,12 +35782,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "klappen",
-          "meaning": "Uspět / pracovat",
+          "meaning": "Vyjít / fungovat",
           "example": "Alles hat geklappt. = Všechno se povedlo."
         },
         {
           "word": "funktionieren",
-          "meaning": "Provozovat",
+          "meaning": "Fungovat",
           "example": "Der Drucker funktioniert. = Tiskárna funguje."
         },
         {
@@ -35862,7 +35799,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Funguje to! je každodenní fráze: \"Bude to fungovat!\""
+            "text": "„Das klappt!“ je běžná fráze: „Vyjde to!“"
           }
         ]
       },
@@ -35977,11 +35914,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "izdosies"
-                ]
-              }
+              "text": "vyjde"
             }
           ]
         },
@@ -36006,7 +35939,7 @@ const B1_WORDS = [
   },
   {
     "de": "klarstellen",
-    "lv": "Vysvětlit",
+    "lv": "Objasnit",
     "level": "B1"
   },
   {
@@ -36075,14 +36008,14 @@ const B1_WORDS = [
   },
   {
     "de": "kleinmütig",
-    "lv": "Znechucený",
+    "lv": "Malomyslný",
     "level": "B1"
   },
   {
     "de": "Klemme",
     "de_article": "die",
     "de_plural": "die Klemmen",
-    "lv": "Terminál",
+    "lv": "Svěrka",
     "level": "B1"
   },
   {
@@ -36108,12 +36041,12 @@ const B1_WORDS = [
   },
   {
     "de": "klingen",
-    "lv": "Zaznít",
+    "lv": "Znít",
     "level": "B1"
   },
   {
     "de": "klirren",
-    "lv": "Chrastit",
+    "lv": "Cinkat",
     "level": "B1"
   },
   {
@@ -36156,7 +36089,7 @@ const B1_WORDS = [
   },
   {
     "de": "knacken",
-    "lv": "Praskání",
+    "lv": "Praskat",
     "level": "B1"
   },
   {
@@ -36171,12 +36104,12 @@ const B1_WORDS = [
     "study": {
       "id": "b1-knapp",
       "layout": "standardStudy",
-      "translation": "Nuzný",
+      "translation": "Těsný",
       "explanation": "Hlavní myšlenka: knapp znamená, že něčeho je málo nebo sotva dost. Často se to týká času, peněz, prostoru nebo malé výhody.",
       "examples": [
         {
           "de": "Die Zeit ist knapp.",
-          "lv": "Čas je krátký."
+          "lv": "Času je málo."
         },
         {
           "de": "Das Geld wird knapp.",
@@ -36207,7 +36140,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Knapp znamená: dost, ale zdaleka ne dost."
+            "text": "Knapp znamená: sotva to stačí, téměř to nestačí."
           }
         ]
       },
@@ -36321,11 +36254,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "Knapp"
-                ]
-              }
+              "text": "téměř nestačí"
             }
           ]
         },
@@ -36358,17 +36287,17 @@ const B1_WORDS = [
     "de": "Kniegelenk",
     "de_article": "das",
     "de_plural": "die Kniegelenke",
-    "lv": "Kolenního kloubu",
+    "lv": "Kolenní kloub",
     "level": "B1"
   },
   {
     "de": "knistern",
-    "lv": "Šustit",
+    "lv": "Praskat",
     "level": "B1"
   },
   {
     "de": "knitterfrei",
-    "lv": "Nerozcuchaný",
+    "lv": "Nemačkavý",
     "level": "B1"
   },
   {
@@ -36401,7 +36330,7 @@ const B1_WORDS = [
   },
   {
     "de": "knüllen",
-    "lv": "Vrásčit",
+    "lv": "Zmačkat",
     "level": "B1"
   },
   {
@@ -36413,12 +36342,12 @@ const B1_WORDS = [
   },
   {
     "de": "knüpfen",
-    "lv": "Síto",
+    "lv": "Vázat",
     "level": "B1"
   },
   {
     "de": "knurren",
-    "lv": "Řev",
+    "lv": "Vrčet",
     "level": "B1"
   },
   {
@@ -36439,7 +36368,7 @@ const B1_WORDS = [
     "de": "Kollegbuch",
     "de_article": "das",
     "de_plural": "die Kollegbuche",
-    "lv": "Žákovskou známku",
+    "lv": "Sešit na přednášky",
     "level": "B1"
   },
   {
@@ -36453,7 +36382,7 @@ const B1_WORDS = [
     "de": "Kollektiv",
     "de_article": "das",
     "de_plural": "die Kollektive",
-    "lv": "Kolektivní",
+    "lv": "Kolektiv",
     "level": "B1"
   },
   {
@@ -36500,7 +36429,7 @@ const B1_WORDS = [
       "id": "b1-kommando",
       "layout": "standardStudy",
       "translation": "Příkaz",
-      "explanation": "Hlavní myšlenka: das Kommando je příkaz nebo příkaz, zejména ve vojenské, sportovní nebo organizované situaci. Může to znamenat i řídicí jednotku.",
+      "explanation": "Hlavní myšlenka: das Kommando je povel nebo příkaz, zejména ve vojenské, sportovní či organizované situaci.",
       "examples": [
         {
           "de": "Der Soldat wartet auf das Kommando.",
@@ -36512,18 +36441,18 @@ const B1_WORDS = [
         },
         {
           "de": "Das Kommando übernimmt die Leitung.",
-          "lv": "Přebírá řídící jednotka."
+          "lv": "Velení přebírá vedení."
         }
       ],
       "comparison": [
         {
           "word": "das Kommando",
-          "meaning": "Příkaz / příkaz",
-          "example": "Warte auf mein Kommando. = Počkejte na můj tým."
+          "meaning": "Povel / příkaz",
+          "example": "Počkejte na můj povel."
         },
         {
           "word": "der Befehl",
-          "meaning": "Příkaz",
+          "meaning": "Zákaznice",
           "example": "Der Befehl kam vom Chef. = Rozkaz přišel od šéfa."
         },
         {
@@ -36690,7 +36619,7 @@ const B1_WORDS = [
   },
   {
     "de": "konjugieren",
-    "lv": "Spojovat sloveso",
+    "lv": "Časovat sloveso",
     "level": "B1"
   },
   {
@@ -36702,7 +36631,7 @@ const B1_WORDS = [
     "de": "Konkurrent",
     "de_article": "der",
     "de_plural": "die Konkurrenten",
-    "lv": "Závodník",
+    "lv": "Konkurent",
     "level": "B1"
   },
   {
@@ -36739,8 +36668,8 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Das Können s velkým písmenem - podstatné jméno (dovednost, mistrovství).",
-        "Malá písmena können - sloveso (umět/vědět)."
+        "Das Können s velkým písmenem je podstatné jméno (dovednost, mistrovství).",
+        "Malé písmeno können označuje sloveso (umět/vědět)."
       ],
       "important": [
         "Das Können = dovednost/ovládání (podstatné jméno).",
@@ -36867,7 +36796,7 @@ const B1_WORDS = [
     "de": "Kontrolle",
     "de_article": "die",
     "de_plural": "die Kontrollen",
-    "lv": "Řízení",
+    "lv": "Kontrola",
     "level": "B1"
   },
   {
@@ -36908,17 +36837,17 @@ const B1_WORDS = [
     "de": "Körperkultur",
     "de_article": "die",
     "de_plural": "die Körperkulturen",
-    "lv": "Tělesné kultury",
+    "lv": "Tělesná kultura",
     "level": "B1"
   },
   {
     "de": "körperlich",
-    "lv": "Fyzikální",
+    "lv": "Tělesný",
     "level": "B1"
   },
   {
     "de": "korrekt",
-    "lv": "Opravit",
+    "lv": "Správný",
     "level": "B1"
   },
   {
@@ -36962,12 +36891,12 @@ const B1_WORDS = [
   {
     "de": "Schonkost",
     "de_article": "die",
-    "lv": "Dietní výživa",
+    "lv": "Šetřící dieta",
     "level": "B1"
   },
   {
     "de": "kostbar",
-    "lv": "Drahý",
+    "lv": "Vzácný",
     "level": "B1"
   },
   {
@@ -36984,7 +36913,7 @@ const B1_WORDS = [
   },
   {
     "de": "krächzen",
-    "lv": "Kůra",
+    "lv": "Krákat",
     "level": "B1"
   },
   {
@@ -37016,7 +36945,7 @@ const B1_WORDS = [
         },
         {
           "de": "Das Atomkraftwerk wurde stillgelegt.",
-          "lv": "Byla jaderná elektrárna odstavena."
+          "lv": "Jaderná elektrárna byla odstavena."
         },
         {
           "de": "Neue Kraftwerke nutzen erneuerbare Energie.",
@@ -37043,12 +36972,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Kraft = síla, Werk = práce/továrna. Směs znamená soubor zařízení generujících energii."
+            "text": "Kraft = síla, Werk = práce/továrna. Složené slovo označuje zařízení nebo provoz na výrobu energie."
           }
         ]
       },
       "important": {
-        "text": "Das Kraftwerk = elektrárna (aktivní slovo). Množné číslo: die Kraftwerke."
+        "text": "Das Kraftwerk = elektrárna (běžně používané slovo). Množné číslo: die Kraftwerke."
       },
       "sectionAccents": {
         "explanation": {
@@ -37117,35 +37046,35 @@ const B1_WORDS = [
   },
   {
     "de": "krähen",
-    "lv": "Zpívat o kohoutovi",
+    "lv": "Kokrhat",
     "level": "B1"
   },
   {
     "de": "Krampf",
     "de_article": "der",
     "de_plural": "die Krämpfe",
-    "lv": "Křeče",
+    "lv": "Křeč",
     "level": "B1"
   },
   {
     "de": "Muskelkrampf",
     "de_article": "der",
     "de_plural": "die Muskelkrampfe",
-    "lv": "Svalové křeče",
+    "lv": "Svalová křeč",
     "level": "B1"
   },
   {
     "de": "Magenkrampf",
     "de_article": "der",
     "de_plural": "die Magenkrampfe",
-    "lv": "Žaludeční křeče",
+    "lv": "Žaludeční křeč",
     "level": "B1"
   },
   {
     "de": "Krankenkasse",
     "de_article": "die",
     "de_plural": "die Krankenkassen",
-    "lv": "Zdravotní fond",
+    "lv": "Zdravotní pojišťovna",
     "level": "B1"
   },
   {
@@ -37157,7 +37086,7 @@ const B1_WORDS = [
     "de": "Kranz",
     "de_article": "der",
     "de_plural": "die Kränze",
-    "lv": "Koruna",
+    "lv": "Věnec",
     "level": "B1"
   },
   {
@@ -37169,7 +37098,7 @@ const B1_WORDS = [
     "de": "Kratzer",
     "de_article": "der",
     "de_plural": "die Kratzer",
-    "lv": "Oděru",
+    "lv": "Škrábanec",
     "level": "B1"
   },
   {
@@ -37195,14 +37124,14 @@ const B1_WORDS = [
     "de": "Krautwerk",
     "de_article": "das",
     "de_plural": "die Krautwerke",
-    "lv": "Koření",
+    "lv": "Byliny",
     "level": "B1"
   },
   {
     "de": "Krawatte",
     "de_article": "die",
     "de_plural": "die Krawatten",
-    "lv": "Uvázat",
+    "lv": "Kravata",
     "level": "B1"
   },
   {
@@ -37238,7 +37167,7 @@ const B1_WORDS = [
   },
   {
     "de": "kreisen",
-    "lv": "Kruh",
+    "lv": "Kroužit",
     "level": "B1"
   },
   {
@@ -37263,7 +37192,7 @@ const B1_WORDS = [
       "id": "b1-kreuzen",
       "layout": "standardStudy",
       "translation": "Přejít",
-      "explanation": "Hlavní myšlenka: kreuzen znamená přejít nebo přejít. Silnice, linky nebo trasy mohou sich kreuzen - křížit.",
+      "explanation": "Hlavní myšlenka: kreuzen znamená křížit nebo překřížit. Silnice, čáry nebo trasy se mohou křížit.",
       "examples": [
         {
           "de": "Wir kreuzen die Straße.",
@@ -37281,7 +37210,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "kreuzen",
-          "meaning": "Kříž / kříž",
+          "meaning": "Křížit / křížit se",
           "example": "Die Wege kreuzen sich. = Cesty se kříží."
         },
         {
@@ -37402,29 +37331,29 @@ const B1_WORDS = [
     "de": "Kreuzung",
     "de_article": "die",
     "de_plural": "die Kreuzungen",
-    "lv": "Průsečík",
+    "lv": "Křižovatka",
     "level": "B1"
   },
   {
     "de": "kriechen",
-    "lv": "Prší",
+    "lv": "Plazit se",
     "level": "B1"
   },
   {
     "de": "kriegerisch",
-    "lv": "Agresivní",
+    "lv": "Válečnický",
     "level": "B1"
   },
   {
     "de": "kriminell",
-    "lv": "Zločinec",
+    "lv": "Kriminální",
     "level": "B1"
   },
   {
     "de": "Krippe",
     "de_article": "die",
     "de_plural": "die Krippen",
-    "lv": "Dětský útulek",
+    "lv": "Jesle",
     "level": "B1"
   },
   {
@@ -37490,12 +37419,12 @@ const B1_WORDS = [
   },
   {
     "de": "krumm",
-    "lv": "Háček",
+    "lv": "Křivý",
     "level": "B1"
   },
   {
     "de": "krümmen",
-    "lv": "Ohýbat se",
+    "lv": "Ohýbat",
     "level": "B1"
   },
   {
@@ -37509,7 +37438,7 @@ const B1_WORDS = [
     "de": "Kruste",
     "de_article": "die",
     "de_plural": "die Krusten",
-    "lv": "Kůra",
+    "lv": "Kůrka",
     "level": "B1"
   },
   {
@@ -37528,7 +37457,7 @@ const B1_WORDS = [
   },
   {
     "de": "kühn",
-    "lv": "Statečný",
+    "lv": "Smělý",
     "level": "B1"
   },
   {
@@ -37565,7 +37494,7 @@ const B1_WORDS = [
       "id": "b1-kunde-2",
       "layout": "standardStudy",
       "translation": "Zákazník",
-      "explanation": "Hlavní myšlenka: der Kunde znamená zákazník nebo kupující. Ve starším nebo literárním jazyce může die Kunde znamenat zprávu nebo zprávu.",
+      "explanation": "Hlavní myšlenka: der Kunde znamená zákazník nebo kupující. Ve starším či literárním jazyce může die Kunde znamenat zprávu nebo poselství.",
       "examples": [
         {
           "de": "Der Kunde bezahlt an der Kasse.",
@@ -37577,7 +37506,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Kunde verbreitete sich schnell.",
-          "lv": "Slovo se rychle šířilo."
+          "lv": "Zpráva se rychle šířila."
         }
       ],
       "comparison": [
@@ -37588,7 +37517,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Kundin",
-          "meaning": "Zákazník",
+          "meaning": "Zákaznice",
           "example": "Die Kundin fragt nach dem Preis. = Zákazník se ptá na cenu."
         },
         {
@@ -37597,7 +37526,7 @@ const B1_WORDS = [
           "example": "Die Kunde kam spät. = Zpráva přišla pozdě."
         }
       ],
-      "tip": "",
+      "tip": "V obchodě nebo servisu téměř vždy: der Kunde = zákazník.",
       "important": "",
       "sectionAccents": {
         "explanation": {
@@ -37707,11 +37636,11 @@ const B1_WORDS = [
       "id": "b1-kunde",
       "layout": "standardStudy",
       "translation": "Zpráva",
-      "explanation": "Hlavní myšlenka: die Kunde je zpráva nebo zpráva. On the other hand, der Kunde means customer or buyer.",
+      "explanation": "Hlavní myšlenka: die Kunde je zpráva nebo poselství. Naproti tomu der Kunde znamená zákazník nebo kupující.",
       "examples": [
         {
           "de": "Die Kunde verbreitete sich schnell.",
-          "lv": "Slovo se rychle šířilo."
+          "lv": "Zpráva se rychle šířila."
         },
         {
           "de": "Die Kunde kam aus dem Norden.",
@@ -37725,7 +37654,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Kunde",
-          "meaning": "Zpráva • Zpráva",
+          "meaning": "Zpráva • poselství",
           "example": "Die Kunde kam spät. = Zpráva přišla pozdě."
         },
         {
@@ -37865,12 +37794,12 @@ const B1_WORDS = [
     "study": {
       "id": "b1-kündigen",
       "layout": "standardStudy",
-      "translation": "Ukončit práci",
-      "explanation": "",
+      "translation": "Dát výpověď",
+      "explanation": "Hlavní myšlenka: kündigen znamená oficiálně ukončit pracovní poměr, smlouvu nebo předplatné.",
       "examples": [
         {
           "de": "Ich habe meinen Job gekündigt.",
-          "lv": "Práci chválím."
+          "lv": "Dal jsem výpověď v práci."
         },
         {
           "de": "Der Chef kündigt dem Mitarbeiter.",
@@ -37878,14 +37807,14 @@ const B1_WORDS = [
         },
         {
           "de": "Wir kündigen den Vertrag zum Monatsende.",
-          "lv": "Na konci měsíce porušíme smlouvu."
+          "lv": "Na konci měsíce vypovíme smlouvu."
         }
       ],
       "comparison": [
         {
           "word": "kündigen",
-          "meaning": "Ukončit / ukončit",
-          "example": "Ich kündige den Vertrag. = Porušuji smlouvu."
+          "meaning": "Dát výpověď / vypovědět",
+          "example": "Vypovídám smlouvu."
         },
         {
           "word": "entlassen",
@@ -37894,11 +37823,11 @@ const B1_WORDS = [
         },
         {
           "word": "aufhören",
-          "meaning": "Zastavit",
-          "example": "Ich höre mit dem Kurs auf. = Zahodil jsem kurz."
+          "meaning": "Přestat",
+          "example": "Přestal jsem s kurzem."
         }
       ],
-      "tip": "Úloha, smlouva nebo předplatné oficiálně končí → kündigen.",
+      "tip": "Práce, smlouva nebo předplatné oficiálně končí → kündigen.",
       "important": "Pokud zaměstnavatel propustí člověka, němčina může být jemandem kündigen nebo entlassen • Stavba je důležitá.",
       "sectionAccents": {
         "explanation": {
@@ -38065,8 +37994,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-kuppeln",
       "layout": "standardStudy",
-      "translation": "Připojit se",
-      "explanation": "Hlavní myšlenka: kuppeln znamená mechanické spojení dvou částí nebo vozidel. V technickém jazyce je to často k připojení.",
+      "translation": "Spřáhnout",
+      "explanation": "Hlavní myšlenka: kuppeln znamená mechanicky spojit dvě části nebo vozidla. V technickém jazyce často znamená spřáhnout.",
       "examples": [
         {
           "de": "Die Maschine kuppelt die Wagen zusammen.",
@@ -38084,12 +38013,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "kuppeln",
-          "meaning": "Připojit / připojit",
+          "meaning": "Spřáhnout / spojit",
           "example": "Der Fahrer kuppelt den Anhänger an. = Řidič zavěsí přívěs."
         },
         {
           "word": "verbinden",
-          "meaning": "Připojit se",
+          "meaning": "Spojit",
           "example": "Das Kabel verbindet die Geräte. = Kabel propojuje zařízení."
         },
         {
@@ -38198,7 +38127,7 @@ const B1_WORDS = [
     "de": "Kur",
     "de_article": "die",
     "de_plural": "die Kuren",
-    "lv": "Zacházení",
+    "lv": "Lázeňská léčba",
     "level": "B1"
   },
   {
@@ -38223,11 +38152,11 @@ const B1_WORDS = [
       "id": "b1-kurs",
       "layout": "standardStudy",
       "translation": "Kurs",
-      "explanation": "Hlavní myšlenka: der A kurz je kurz jako soubor učebních lekcí nebo směr. Ve finančním vyjádření může znamenat i cenu cenných papírů.",
+      "explanation": "Hlavní myšlenka: der Kurs je kurz jako soubor učebních lekcí nebo směr.",
       "examples": [
         {
           "de": "Ich besuche einen Deutschkurs.",
-          "lv": "Navštěvovala jsem kurz němčiny."
+          "lv": "Navštěvuji kurz němčiny."
         },
         {
           "de": "Das Schiff hält Kurs nach Norden.",
@@ -38255,7 +38184,7 @@ const B1_WORDS = [
           "example": "Der Unterricht dauert eine Stunde. = Výuka trvá jednu hodinu."
         }
       ],
-      "tip": "Školení, směr lodi nebo cena výměny → der Course.",
+      "tip": "Kurz, směr lodi nebo kurz akcie → der Kurs.",
       "important": "V češtině může mít „kurz“ několik významů, ale v němčině kontext určuje, zda jde o lekce, směr nebo cenu.",
       "sectionAccents": {
         "explanation": {
@@ -38359,7 +38288,7 @@ const B1_WORDS = [
     "de": "Kursbuch",
     "de_article": "das",
     "de_plural": "die Kursbücher",
-    "lv": "Seznam vlaků",
+    "lv": "Jízdní řád",
     "level": "B1"
   },
   {
@@ -38378,7 +38307,7 @@ const B1_WORDS = [
       "id": "b1-kürze",
       "layout": "standardStudy",
       "translation": "Stručnost",
-      "explanation": "Hlavní myšlenka: die Kürze znamená stručnost. Fráze v Kürze znamená brzy a měla by být brána jako samostatná konstrukce.",
+      "explanation": "Fráze in Kürze znamená brzy",
       "examples": [
         {
           "de": "Die Kürze des Textes ist angenehm.",
@@ -38410,8 +38339,8 @@ const B1_WORDS = [
           "example": "Der Text ist kurz. = Text je krátký."
         }
       ],
-      "tip": "Die Kürze = stručnost • V Kürze = brzy.",
-      "important": "Die Kürze by se nemělo učit na frontě jako „brzy“ • Brzy je fráze v Kürze.",
+      "tip": "In Kürze = brzy",
+      "important": "Die Kürze by se neměla učit na přední straně",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -38517,7 +38446,7 @@ const B1_WORDS = [
   },
   {
     "de": "kurzfristig",
-    "lv": "Krátkodobý • Na krátkou chvíli",
+    "lv": "Krátkodobý • Na krátkou dobu",
     "level": "B1"
   },
   {
@@ -38551,7 +38480,7 @@ const B1_WORDS = [
   },
   {
     "de": "kuscheln",
-    "lv": "Poplácat se",
+    "lv": "Mazlit se",
     "level": "B1"
   },
   {
@@ -38582,7 +38511,7 @@ const B1_WORDS = [
   },
   {
     "de": "lächerlich",
-    "lv": "Legrační",
+    "lv": "Směšný",
     "level": "B1"
   },
   {
@@ -38620,8 +38549,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-laden",
       "layout": "standardStudy",
-      "translation": "Načíst",
-      "explanation": "Hlavní myšlenka: Laden znamená nabíjet nebo nabíjet. S lidmi to může také znamenat pozvat.",
+      "translation": "Nakládat • nabíjet",
+      "explanation": "Laden znamená nakládat nebo nabíjet.",
       "examples": [
         {
           "de": "Wir laden die Kisten ins Auto.",
@@ -38639,7 +38568,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "laden",
-          "meaning": "Zatížení / nabíjení",
+          "meaning": "Nakládat / nabíjet",
           "example": "Ich lade mein Handy. = Nabil jsem si telefon."
         },
         {
@@ -38649,118 +38578,13 @@ const B1_WORDS = [
         },
         {
           "word": "beladen",
-          "meaning": "Načíst",
+          "meaning": "Naložený",
           "example": "Der Lkw ist beladen. = Náklaďák je naložený."
         }
       ],
-      "tip": "Předměty v autě nebo baterie s elektřinou → nabité.",
-      "important": "Pozvat někoho je obvykle einladen, ne jen naložený.",
-      "sectionAccents": {
-        "explanation": {
-          "blue": "laden",
-          "purple": [
-            "Hlavní",
-            "Hlavní",
-            "Hlavní"
-          ],
-          "green": "Laden"
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": "laden",
-              "yellow": [
-                "Kisten",
-                "Auto"
-              ]
-            },
-            "lv": {
-              "purple": "iekraujam",
-              "yellow": [
-                "Nakládáme",
-                "Nakládáme"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": "laden",
-              "yellow": "Handy"
-            },
-            "lv": {
-              "purple": "Potřebuji",
-              "yellow": "telefons"
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "lädt",
-                "ein"
-              ],
-              "green": "uns"
-            },
-            "lv": {
-              "purple": "Nás",
-              "green": "Nás"
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": "laden"
-            },
-            "meaning": {
-              "purple": "Zatížení"
-            },
-            "example": {
-              "blue": "lade",
-              "purple": "Ich"
-            }
-          },
-          {
-            "word": {
-              "green": "einladen"
-            },
-            "meaning": {
-              "purple": "Pozvat"
-            },
-            "example": {
-              "red": "ein",
-              "purple": "Sie"
-            }
-          },
-          {
-            "word": {
-              "green": "beladen"
-            },
-            "meaning": {
-              "purple": "piekraut"
-            },
-            "example": {
-              "red": "beladen",
-              "purple": "piekrauts"
-            }
-          }
-        ],
-        "tip": {
-          "blue": "laden",
-          "purple": [
-            "Předměty",
-            "Předměty"
-          ],
-          "yellow": [
-            "Předměty",
-            "baterie"
-          ]
-        },
-        "important": {
-          "blue": "laden",
-          "red": "einladen",
-          "purple": "Pozvat"
-        }
-      }
+      "tip": "Předměty v autě se nakládají a baterie se nabíjí → laden.",
+      "important": "Pozvat někoho se obvykle řekne einladen, ne jen laden.",
+      "sectionAccents": "Nahradit všechny lotyšské akcentové popisky jejich českými ekvivalenty."
     }
   },
   {
@@ -38818,7 +38642,7 @@ const B1_WORDS = [
         {
           "word": "die Unterkunft",
           "meaning": "Ubytování",
-          "example": "Die Unterkunft ist sauber. = Ubytování je čisté."
+          "example": "Na okraji stojí strom."
         },
         {
           "word": "das Camp",
@@ -38827,101 +38651,8 @@ const B1_WORDS = [
         }
       ],
       "tip": "Zboží je skladováno v → das Lager.",
-      "important": "Technický význam ložiska je specifický • V každodenním životě je das Lager častěji skladištěm nebo kempem.",
-      "sectionAccents": {
-        "explanation": {
-          "blue": "das Lager",
-          "purple": [
-            "Hlavní",
-            "Hlavní",
-            "Hlavní"
-          ],
-          "yellow": "das"
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": "Lager",
-              "yellow": "Waren"
-            },
-            "lv": {
-              "purple": "Zboží",
-              "yellow": "Preces"
-            }
-          },
-          {
-            "de": {
-              "blue": "Ferienlager",
-              "green": "Kinder"
-            },
-            "lv": {
-              "purple": "nometni",
-              "green": "Děti"
-            }
-          },
-          {
-            "de": {
-              "blue": "Lager",
-              "yellow": "Maschine"
-            },
-            "lv": {
-              "purple": "gultnis",
-              "yellow": "Ložisko"
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": "das Lager"
-            },
-            "meaning": {
-              "purple": "noliktava"
-            },
-            "example": {
-              "blue": "Lager",
-              "purple": "Die"
-            }
-          },
-          {
-            "word": {
-              "green": "die Unterkunft"
-            },
-            "meaning": {
-              "purple": "Ubytování"
-            },
-            "example": {
-              "red": "Unterkunft",
-              "purple": "Die"
-            }
-          },
-          {
-            "word": {
-              "green": "das Camp"
-            },
-            "meaning": {
-              "purple": "nometne"
-            },
-            "example": {
-              "red": "Camp",
-              "purple": "Nometne"
-            }
-          }
-        ],
-        "tip": {
-          "blue": "das Lager",
-          "purple": "Zboží",
-          "yellow": "Preces"
-        },
-        "important": {
-          "blue": "das Lager",
-          "purple": [
-            "Technický",
-            "Technický"
-          ],
-          "red": "gultnis"
-        }
-      }
+      "important": "skladištěm nebo táborem",
+      "sectionAccents": "Nahradit všechny lotyšské akcentové popisky jejich českými ekvivalenty."
     }
   },
   {
@@ -38949,7 +38680,7 @@ const B1_WORDS = [
       "id": "b1-hörer",
       "layout": "standardStudy",
       "translation": "Posluchač",
-      "explanation": "Hlavní myšlenka: der Hörer je posluchač v rádiu, přednášce nebo rozhovoru. V technickém kontextu to může být také telefonní sluchátko.",
+      "explanation": "posluchač v rádiu, na přednášce nebo v rozhovoru",
       "examples": [
         {
           "de": "Die Hörer stellen viele Fragen.",
@@ -38957,11 +38688,11 @@ const B1_WORDS = [
         },
         {
           "de": "Der Moderator begrüßt die Hörer.",
-          "lv": "Pozdraví moderátorka publikum."
+          "lv": "Moderátor zdraví posluchače."
         },
         {
           "de": "Leg den Hörer bitte auf.",
-          "lv": "Zavěste prosím."
+          "lv": "Polož prosím sluchátko."
         }
       ],
       "comparison": [
@@ -38972,7 +38703,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Zuhörer",
-          "meaning": "Posluchač osobně",
+          "meaning": "Posluchač při osobním poslechu",
           "example": "Die Zuhörer sitzen im Saal. = Publikum sedí v sále."
         },
         {
@@ -38983,95 +38714,7 @@ const B1_WORDS = [
       ],
       "tip": "V rádiu nebo na přednášce poslouchající → der Hörer.",
       "important": "V kontextu telefonu může být der Hörer spíše sluchátkem než osobou.",
-      "sectionAccents": {
-        "explanation": {
-          "blue": "der Hörer",
-          "purple": [
-            "Hlavní",
-            "Hlavní"
-          ],
-          "yellow": "der"
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": "Hörer"
-            },
-            "lv": {
-              "purple": "Publikum"
-            }
-          },
-          {
-            "de": {
-              "blue": "Hörer",
-              "green": "Moderator"
-            },
-            "lv": {
-              "purple": "Pozdraví",
-              "green": "Pozdraví"
-            }
-          },
-          {
-            "de": {
-              "blue": "Hörer"
-            },
-            "lv": {
-              "purple": "klausuli"
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": "der Hörer"
-            },
-            "meaning": {
-              "purple": "Posluchač"
-            },
-            "example": {
-              "blue": "Hörer",
-              "purple": "Die"
-            }
-          },
-          {
-            "word": {
-              "green": "der Zuhörer"
-            },
-            "meaning": {
-              "purple": "Posluchač"
-            },
-            "example": {
-              "red": "Zuhörer",
-              "purple": "Die"
-            }
-          },
-          {
-            "word": {
-              "green": "der Kopfhörer"
-            },
-            "meaning": {
-              "purple": "Sluchátka"
-            },
-            "example": {
-              "red": "Kopfhörer",
-              "purple": "Ich"
-            }
-          }
-        ],
-        "tip": {
-          "blue": "der Hörer",
-          "purple": "rádiu",
-          "yellow": [
-            "rádiu",
-            "rádiu"
-          ]
-        },
-        "important": {
-          "blue": "der Hörer",
-          "yellow": "kontextu",
-          "purple": "klausule"
-        }
-      }
+      "sectionAccents": "Nahradit všechny lotyšské akcentové popisky jejich českými ekvivalenty."
     }
   },
   {
@@ -39084,7 +38727,7 @@ const B1_WORDS = [
       "id": "b1-inhalt",
       "layout": "standardStudy",
       "translation": "Obsah",
-      "explanation": "Hlavní myšlenka: der Inhalt je obsah – v textu, sáčku, nádobě nebo šanonu. Technicky to může znamenat i objem.",
+      "explanation": "v textu, tašce, nádobě nebo souboru",
       "examples": [
         {
           "de": "Der Inhalt des Briefes ist wichtig.",
@@ -39092,7 +38735,7 @@ const B1_WORDS = [
         },
         {
           "de": "Bitte prüfen Sie den Inhalt der Tasche.",
-          "lv": "Zkontrolujte prosím obsah sáčku."
+          "lv": "Zkontrolujte prosím obsah tašky."
         },
         {
           "de": "Die Flasche hat einen Inhalt von einem Liter.",
@@ -39226,7 +38869,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-kante",
       "layout": "standardStudy",
-      "translation": "Okraj",
+      "translation": "Hrana",
       "explanation": "Hlavní myšlenka: die Kante je hrana nebo fazeta předmětu. Není to běžná územní hranice, ale fyzická ostrá nebo jasná hrana.",
       "examples": [
         {
@@ -39239,7 +38882,7 @@ const B1_WORDS = [
         },
         {
           "de": "Er stellt das Glas an die Kante.",
-          "lv": "Položí sklenici na stranu."
+          "lv": "Položí sklenici na okraj."
         }
       ],
       "comparison": [
@@ -39250,110 +38893,18 @@ const B1_WORDS = [
         },
         {
           "word": "der Rand",
-          "meaning": "Okraj / okraj",
-          "example": "Am Rand steht ein Baum. = Na straně je strom."
+          "meaning": "Okraj / lem",
+          "example": "Na okraji stojí strom."
         },
         {
           "word": "die Grenze",
-          "meaning": "Pohraniční",
+          "meaning": "Hranice",
           "example": "Die Grenze ist geschlossen. = Hranice je uzavřena."
         }
       ],
       "tip": "Fyzická hrana nebo fazeta předmětu → die Kante.",
-      "important": "Die Grenze se používá pro územní hranice • Pro okraj objektu často umírá Kante.",
-      "sectionAccents": {
-        "explanation": {
-          "blue": "die Kante",
-          "purple": [
-            "Hlavní",
-            "Hlavní"
-          ],
-          "yellow": "priekšmeta"
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": "Kante",
-              "red": "scharfe"
-            },
-            "lv": {
-              "purple": "malas",
-              "red": "Pozor"
-            }
-          },
-          {
-            "de": {
-              "blue": "Kante",
-              "yellow": "Tisch"
-            },
-            "lv": {
-              "purple": "mala",
-              "yellow": "Galdam"
-            }
-          },
-          {
-            "de": {
-              "blue": "Kante",
-              "yellow": "Glas"
-            },
-            "lv": {
-              "purple": "malas",
-              "yellow": "Položí"
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": "die Kante"
-            },
-            "meaning": {
-              "purple": "mala"
-            },
-            "example": {
-              "blue": "Kante",
-              "purple": "Mala"
-            }
-          },
-          {
-            "word": {
-              "green": "der Rand"
-            },
-            "meaning": {
-              "purple": "mala"
-            },
-            "example": {
-              "red": "Rand",
-              "purple": "Rand"
-            }
-          },
-          {
-            "word": {
-              "green": "die Grenze"
-            },
-            "meaning": {
-              "purple": "robeža"
-            },
-            "example": {
-              "red": "Grenze",
-              "purple": "Robeža"
-            }
-          }
-        ],
-        "tip": {
-          "blue": "die Kante",
-          "purple": "mala",
-          "yellow": "Priekšmeta"
-        },
-        "important": {
-          "red": "die Grenze",
-          "blue": "die Kante",
-          "purple": [
-            "Die",
-            "Die"
-          ]
-        }
-      }
+      "important": "Pro okraj objektu se často používá Kante.",
+      "sectionAccents": "Nahradit všechny lotyšské akcentové popisky jejich českými ekvivalenty."
     }
   },
   {
@@ -39366,7 +38917,7 @@ const B1_WORDS = [
       "id": "b1-kastanie",
       "layout": "standardStudy",
       "translation": "Kaštan",
-      "explanation": "Hlavní myšlenka: die Kastanie může znamenat jak kaštan, tak samotný kaštan. Kontext ukazuje, jaký význam je zamýšlen.",
+      "explanation": "může znamenat kaštanový strom i jeho plod",
       "examples": [
         {
           "de": "Vor dem Haus steht eine Kastanie.",
@@ -39384,8 +38935,8 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Kastanie",
-          "meaning": "Kaštan / kaštan",
-          "example": "Die Kastanie blüht. = Kaštanové květy."
+          "meaning": "Kaštanový strom / kaštanový plod",
+          "example": "Kaštan kvete."
         },
         {
           "word": "der Kastanienbaum",
@@ -39394,106 +38945,13 @@ const B1_WORDS = [
         },
         {
           "word": "die Nuss",
-          "meaning": "Matice",
+          "meaning": "Ořech",
           "example": "Die Nuss ist hart. = Ořech je tvrdý."
         }
       ],
       "tip": "Strom nebo ovoce? Podívejte se na kontext kolem die Kastanie.",
       "important": "V češtině je často nutné rozlišovat kaštan jako strom a kaštan jako ovoce.",
-      "sectionAccents": {
-        "explanation": {
-          "blue": "die Kastanie",
-          "purple": [
-            "Hlavní",
-            "Hlavní"
-          ],
-          "yellow": "Konteksts"
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": "Kastanie",
-              "green": "Haus"
-            },
-            "lv": {
-              "purple": "kastanis",
-              "green": "domu"
-            }
-          },
-          {
-            "de": {
-              "blue": "Kastanien",
-              "green": "Kind"
-            },
-            "lv": {
-              "purple": "Dítě",
-              "green": "Dítě"
-            }
-          },
-          {
-            "de": {
-              "blue": "Kastanien",
-              "green": "Herbst"
-            },
-            "lv": {
-              "purple": "podzim",
-              "green": "podzim"
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": "die Kastanie"
-            },
-            "meaning": {
-              "purple": "kastanis"
-            },
-            "example": {
-              "blue": "Kastanie",
-              "purple": "Kastanis"
-            }
-          },
-          {
-            "word": {
-              "green": "der Kastanienbaum"
-            },
-            "meaning": {
-              "purple": "Kaštanovník"
-            },
-            "example": {
-              "red": "Kastanienbaum",
-              "purple": "Der"
-            }
-          },
-          {
-            "word": {
-              "green": "die Nuss"
-            },
-            "meaning": {
-              "purple": "rieksts"
-            },
-            "example": {
-              "red": "Nuss",
-              "purple": "Rieksts"
-            }
-          }
-        ],
-        "tip": {
-          "blue": "die Kastanie",
-          "purple": [
-            "Strom",
-            "Strom"
-          ],
-          "yellow": "kontekstu"
-        },
-        "important": {
-          "purple": [
-            "češtině",
-            "češtině"
-          ]
-        }
-      }
+      "sectionAccents": "Nahradit všechny lotyšské akcentové popisky jejich českými ekvivalenty."
     }
   },
   {
@@ -39506,12 +38964,7 @@ const B1_WORDS = [
       "id": "b1-kosten-study",
       "layout": "standardStudy",
       "translation": "Náklady",
-      "explanation": [
-        "Hlavní myšlenka: die Kosten (pouze množné číslo) se členem die je podstatné jméno - náklady, výdaje.",
-        "Kosten s malým písmenem je sloveso - zaplatit (kolik něco stojí).",
-        "Die Kosten se používá pouze v množném čísle – neexistuje žádný tvar jednotného čísla (nemůžete říci „eine Kosten“).",
-        "Fráze auf eigene Kosten znamená na vlastní náklady/na vlastní náklady."
-      ],
+      "explanation": "na vlastní náklady",
       "examples": [
         {
           "de": "Die Kosten sind sehr hoch.",
@@ -39527,18 +38980,14 @@ const B1_WORDS = [
         },
         {
           "de": "Ich reise auf eigene Kosten.",
-          "lv": "Cestuji na vlastní peníze."
+          "lv": "Cestuji na vlastní náklady."
         }
       ],
       "tip": [
         "Die Kosten s velkým písmenem a členem die — podstatné jméno, pouze množné číslo.",
         "Malá písmena kosten - sloveso (platit)."
       ],
-      "important": [
-        "Die Kosten = náklady (podstatné jméno, dsk. pouze).",
-        "Kosten = platit (sloveso).",
-        "Nesprávně: eine Kosten → Správně: die Kosten (vždy dsk.)."
-      ],
+      "important": "kosten = stát (sloveso).",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -39656,7 +39105,7 @@ const B1_WORDS = [
       "id": "b1-landen",
       "layout": "standardStudy",
       "translation": "Přistát • skončit",
-      "explanation": "Hlavní myšlenka: landen znamená přistát nebo přijít na místo. Pro loď nebo člun to může znamenat i dokování.",
+      "explanation": "přistát nebo skončit na určitém místě",
       "examples": [
         {
           "de": "Das Flugzeug landet pünktlich.",
@@ -39664,119 +39113,23 @@ const B1_WORDS = [
         },
         {
           "de": "Das Boot landet am Ufer.",
-          "lv": "Loď zakotví u břehu."
+          "lv": "Loď přistane u břehu."
         },
         {
           "de": "Die E-Mail landet im Spamordner.",
-          "lv": "E-mail jde do složky se spamem."
+          "lv": "E-mail skončí ve složce se spamem."
         }
       ],
-      "tip": "Letadlo nebo co přiletí na určité místo → landen.",
+      "tip": "Letadlo nebo něco, co skončí na určitém místě",
       "important": "Člověk ve městě obvykle kommt an • Letadlo přistane.",
-      "sectionAccents": {
-        "explanation": {
-          "blue": "landen",
-          "purple": [
-            "Hlavní",
-            "Hlavní",
-            "Hlavní"
-          ],
-          "yellow": [
-            "Hlavní",
-            "Hlavní"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": "landet",
-              "yellow": "Flugzeug"
-            },
-            "lv": {
-              "purple": "Letadlo",
-              "yellow": "Letadlo"
-            }
-          },
-          {
-            "de": {
-              "blue": "landet",
-              "yellow": "Boot"
-            },
-            "lv": {
-              "purple": "Loď",
-              "yellow": "Laiva"
-            }
-          },
-          {
-            "de": {
-              "blue": "landet",
-              "yellow": "E-Mail"
-            },
-            "lv": {
-              "purple": "mail",
-              "yellow": "E-pasts"
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": "landen"
-            },
-            "meaning": {
-              "purple": ""
-            },
-            "example": {
-              "blue": "landet",
-              "purple": ""
-            }
-          },
-          {
-            "word": {
-              "green": "ankommen"
-            },
-            "meaning": {
-              "purple": "ierasties"
-            },
-            "example": {
-              "red": "kommt an",
-              "purple": "ierodas"
-            }
-          },
-          {
-            "word": {
-              "green": "anlegen"
-            },
-            "meaning": {
-              "purple": "piestāt ar kuģi"
-            },
-            "example": {
-              "red": "legt",
-              "purple": "piestāj"
-            }
-          }
-        ],
-        "tip": {
-          "blue": "landen",
-          "purple": "Letadlo",
-          "yellow": "Letadlo"
-        },
-        "important": {
-          "blue": "landet",
-          "red": "kommt an",
-          "purple": [
-            "Člověk",
-            "Člověk"
-          ]
-        }
-      }
+      "sectionAccents": "Nahradit všechny lotyšské akcentové popisky jejich českými ekvivalenty."
     }
   },
   {
     "de": "Länderspiel",
     "de_article": "das",
     "de_plural": "die Länderspiele",
-    "lv": "Mezinárodní soutěž",
+    "lv": "Mezinárodní zápas",
     "level": "B1"
   },
   {
@@ -39788,14 +39141,14 @@ const B1_WORDS = [
   },
   {
     "de": "ländlich",
-    "lv": "Pole",
+    "lv": "Venkovský",
     "level": "B1"
   },
   {
     "de": "Landstraße",
     "de_article": "die",
     "de_plural": "die Landstraßen",
-    "lv": "Dálnice",
+    "lv": "Silnice",
     "level": "B1"
   },
   {
@@ -39814,7 +39167,7 @@ const B1_WORDS = [
   },
   {
     "de": "längs",
-    "lv": "Dlouho",
+    "lv": "Podél",
     "level": "B1"
   },
   {
@@ -39857,14 +39210,14 @@ const B1_WORDS = [
     "de": "Laterne",
     "de_article": "die",
     "de_plural": "die Laternen",
-    "lv": "Svítilna",
+    "lv": "Lucerna",
     "level": "B1"
   },
   {
     "de": "Laub",
     "de_article": "das",
     "de_plural": "die Laube",
-    "lv": "Listy",
+    "lv": "Listí",
     "level": "B1"
   },
   {
@@ -39912,7 +39265,7 @@ const B1_WORDS = [
       "id": "b1-laut-study",
       "layout": "standardStudy",
       "translation": "Zvuk",
-      "explanation": "Der Laut znamená zvuk; laut znamená hlasitý.",
+      "explanation": "Laut je přídavné jméno.",
       "examples": [
         {
           "de": "Der Laut ist schön.",
@@ -39936,19 +39289,14 @@ const B1_WORDS = [
         },
         {
           "de": "Ich höre einen Laut.",
-          "lv": "Slyším zvuk"
+          "lv": "Slyším zvuk."
         }
       ],
       "tip": [
         "Malý laut = hlasitý (přídavné jméno: ist laut). der Laut s velkým písmenem = zvuk (podstatné jméno: ein Laut, der Laut).",
         "Der Laut = zvuk"
       ],
-      "important": [
-        "Laut je malá písmena a nemá žádný člen - je to přídavné jméno.",
-        "Der Laut s velkým písmenem a členem der je podstatné jméno.",
-        "Množné číslo: die Laute (zvuky jazyka, pípání).",
-        "Špatně: Der Laut ist sehr. → Správně: Das ist sehr laut."
-      ],
+      "important": "Laut se píše s malým písmenem a nemá člen",
       "sectionAccents": {
         "explanation": {
           "green": [
@@ -40104,12 +39452,12 @@ const B1_WORDS = [
     "de": "Leertaste",
     "de_article": "die",
     "de_plural": "die Leertasten",
-    "lv": "Dlouhý mezerník",
+    "lv": "Mezerník",
     "level": "B1"
   },
   {
     "de": "legal",
-    "lv": "Právní",
+    "lv": "Legální",
     "level": "B1"
   },
   {
@@ -40128,7 +39476,7 @@ const B1_WORDS = [
     "de": "Lehre",
     "de_article": "die",
     "de_plural": "die Lehren",
-    "lv": "Lekce",
+    "lv": "Výuka",
     "level": "B1"
   },
   {
@@ -40170,7 +39518,7 @@ const B1_WORDS = [
     "de": "Leichtathlet",
     "de_article": "der",
     "de_plural": "die Leichtathleten",
-    "lv": "Atletický atlet",
+    "lv": "Lehkoatlet",
     "level": "B1"
   },
   {
@@ -40198,7 +39546,7 @@ const B1_WORDS = [
     "de": "Leine",
     "de_article": "die",
     "de_plural": "die Leinen",
-    "lv": "Doprovázet",
+    "lv": "Vodítko",
     "level": "B1"
   },
   {
@@ -40223,7 +39571,7 @@ const B1_WORDS = [
       "id": "b1-leisten",
       "layout": "standardStudy",
       "translation": "Provést",
-      "explanation": "Hlavní myšlenka: Leisten znamená udělat nebo poskytnout nějakou práci, službu nebo příspěvek. Se sich leisten znamená dovolit.",
+      "explanation": "Se sich leisten znamená dovolit si.",
       "examples": [
         {
           "de": "Sie leistet gute Arbeit.",
@@ -40257,104 +39605,7 @@ const B1_WORDS = [
       ],
       "tip": "Práce, pomoc nebo příspěvek → leisten.",
       "important": "Sich leisten je samostatná konstrukce s významem „dopřát si“.",
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "leisten",
-            "sich leisten"
-          ],
-          "purple": [
-            "Hlavní",
-            "Hlavní",
-            "Hlavní"
-          ],
-          "yellow": [
-            "Hlavní",
-            "Hlavní"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": "leistet",
-              "yellow": "Arbeit"
-            },
-            "lv": {
-              "purple": "veic",
-              "yellow": "darbu"
-            }
-          },
-          {
-            "de": {
-              "blue": "leisten",
-              "yellow": "Hilfe"
-            },
-            "lv": {
-              "purple": "sniedzam",
-              "yellow": "Poskytujeme"
-            }
-          },
-          {
-            "de": {
-              "blue": "leisten",
-              "red": "mir"
-            },
-            "lv": {
-              "purple": "nemůžu"
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": "leisten"
-            },
-            "meaning": {
-              "purple": "veikt"
-            },
-            "example": {
-              "blue": "leistet",
-              "purple": "veic"
-            }
-          },
-          {
-            "word": {
-              "green": "schaffen"
-            },
-            "meaning": {
-              "purple": "paveikt"
-            },
-            "example": {
-              "red": "schaffe",
-              "purple": "paveikšu"
-            }
-          },
-          {
-            "word": {
-              "green": "sich leisten"
-            },
-            "meaning": {
-              "purple": "Dovolit"
-            },
-            "example": {
-              "red": "leisten",
-              "purple": "Ich"
-            }
-          }
-        ],
-        "tip": {
-          "blue": "leisten",
-          "purple": [
-            "Práce",
-            "Práce",
-            "Práce"
-          ]
-        },
-        "important": {
-          "red": "sich leisten",
-          "purple": "Sich"
-        }
-      }
+      "sectionAccents": "vykoná, poskytujeme, dovolit si, zvládnu"
     }
   },
   {
@@ -40366,8 +39617,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-leistung",
       "layout": "standardStudy",
-      "translation": "Úspěch",
-      "explanation": "Hlavní myšlenka: die Leistung znamená výkon, úspěch nebo úspěch. Ve strojírenství to znamená výkon, například pro motor nebo zařízení.",
+      "translation": "Výkon",
+      "explanation": "die Leistung znamená výkon, úspěch nebo dosažený výsledek.",
       "examples": [
         {
           "de": "Das war eine starke Leistung.",
@@ -40375,7 +39626,7 @@ const B1_WORDS = [
         },
         {
           "de": "Seine Leistung in der Prüfung war gut.",
-          "lv": "Jeho výkon u zkoušky byl dobrý."
+          "lv": "Její výkon u zkoušky byl dobrý."
         },
         {
           "de": "Der Motor hat eine hohe Leistung.",
@@ -40385,7 +39636,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Leistung",
-          "meaning": "Výkon / výkon / kapacita",
+          "meaning": "Výkon / výsledek / výkon motoru",
           "example": "Die Leistung war gut. = Výkon byl dobrý."
         },
         {
@@ -40395,7 +39646,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Kraft",
-          "meaning": "Pevnost",
+          "meaning": "Síla",
           "example": "Die Kraft des Motors ist groß. = Výkon motoru je skvělý."
         }
       ],
@@ -40407,131 +39658,9 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Leistung není jen o konečném výsledku. často sám hodnotí výkon nebo sílu."
+        "text": "Leistung není jen konečný výsledek; často označuje samotný výkon nebo sílu."
       },
-      "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "Leistung"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Byl"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Leistung"
-              ],
-              "yellow": [
-                "Prüfung"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Jeho"
-              ],
-              "yellow": [
-                "Jeho"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Leistung"
-              ],
-              "yellow": [
-                "Motor"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Motor"
-              ],
-              "yellow": [
-                "Motor"
-              ]
-            }
-          }
-        ],
-        "explanation": {
-          "blue": [
-            "die Leistung"
-          ],
-          "purple": [
-            "Hlavní",
-            "Hlavní",
-            "Hlavní",
-            "Hlavní"
-          ],
-          "yellow": [
-            "motor",
-            "Hlavní"
-          ]
-        },
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "die Leistung"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Výkon"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "das Ergebnis"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Výsledek"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "die Kraft"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Pevnost"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "leftBlocks": [
-            {
-              "text": {
-                "purple": [
-                  "sniegums",
-                  "jauda"
-                ]
-              }
-            }
-          ]
-        },
-        "important": {
-          "purple": [
-            "Leistung",
-            "Leistung"
-          ]
-        }
-      }
+      "sectionAccents": "výkon, výkon motoru, motoru, u zkoušky"
     }
   },
   {
@@ -40548,7 +39677,7 @@ const B1_WORDS = [
   },
   {
     "de": "lesbar",
-    "lv": "Snadné čtení",
+    "lv": "Čitelné",
     "level": "B1"
   },
   {
@@ -40617,14 +39746,14 @@ const B1_WORDS = [
     "de": "Lieferschein",
     "de_article": "der",
     "de_plural": "die Lieferscheine",
-    "lv": "Nákladní list zboží",
+    "lv": "Dodací list",
     "level": "B1"
   },
   {
     "de": "Liefertermin",
     "de_article": "der",
     "de_plural": "die Liefertermine",
-    "lv": "Dodací lhůta",
+    "lv": "Termín dodání",
     "level": "B1"
   },
   {
@@ -40636,14 +39765,14 @@ const B1_WORDS = [
   },
   {
     "de": "liegen lassen",
-    "lv": "Odejít",
+    "lv": "Nechat ležet",
     "level": "B1"
   },
   {
     "de": "Liegeplatz",
     "de_article": "der",
     "de_plural": "die Liegeplatze",
-    "lv": "Místo na spaní ve vagónu",
+    "lv": "Místo k ležení",
     "level": "B1"
   },
   {
@@ -40657,7 +39786,7 @@ const B1_WORDS = [
     "de": "Limit",
     "de_article": "das",
     "de_plural": "die Limits",
-    "lv": "Omezit",
+    "lv": "Limit",
     "level": "B1"
   },
   {
@@ -40705,19 +39834,19 @@ const B1_WORDS = [
     "de": "Locke",
     "de_article": "die",
     "de_plural": "die Locken",
-    "lv": "Odpružené",
+    "lv": "Kudrna",
     "level": "B1"
   },
   {
     "de": "locken",
-    "lv": "Pokoušet",
+    "lv": "Lákat",
     "level": "B1"
   },
   {
     "de": "Lockenwickler",
     "de_article": "der",
     "de_plural": "die Lockenwickler",
-    "lv": "Vlasový váleček",
+    "lv": "Natáčka",
     "level": "B1"
   },
   {
@@ -40728,7 +39857,7 @@ const B1_WORDS = [
       "id": "b1-locker",
       "layout": "standardStudy",
       "translation": "Volný",
-      "explanation": "Hlavní myšlenka: skříňka znamená volné nebo volné, když něco není pevně zajištěno. Znamená to uvolněně o lidech, konverzaci nebo náladě.",
+      "explanation": "locker znamená volný nebo uvolněný",
       "examples": [
         {
           "de": "Die Schraube ist locker.",
@@ -40746,107 +39875,23 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "locker",
-          "meaning": "Volný, volný, neomezený",
+          "meaning": "Volný, uvolněný, nepřipoutaný",
           "example": "Die Schraube ist locker. = Šroub je uvolněný."
         },
         {
           "word": "lose",
-          "meaning": "Volné, nepřipojené",
+          "meaning": "Volný, neupevněný",
           "example": "Ein loser Knopf kann abfallen. = Uvolněný knoflík může spadnout."
         },
         {
           "word": "fest",
-          "meaning": "Těsný, těsný",
+          "meaning": "Pevný, utažený",
           "example": "Der Deckel sitzt fest. = Víko zůstává těsné."
         }
       ],
-      "tip": "Myslete na opak fest: pokud to není těsné, je to skříňka.",
-      "important": "Skříňka není leicht. leicht znamená světlo a skříňka znamená uvolněný nebo uvolněný.",
-      "sectionAccents": {
-        "explanation": {
-          "blue": "locker",
-          "purple": [
-            "Hlavní",
-            "Hlavní"
-          ],
-          "red": "nepiespiests"
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": "locker",
-              "yellow": "Schraube"
-            },
-            "lv": {
-              "purple": "Šroub"
-            }
-          },
-          {
-            "de": {
-              "blue": "lockere",
-              "yellow": "Jacke"
-            },
-            "lv": {
-              "purple": "Nosí"
-            }
-          },
-          {
-            "de": {
-              "blue": "locker",
-              "green": "Stimmung"
-            },
-            "lv": {
-              "purple": "nepiespiesta"
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": "locker"
-            },
-            "meaning": {
-              "purple": "Volný"
-            },
-            "example": {
-              "blue": "locker",
-              "yellow": "Schraube"
-            }
-          },
-          {
-            "word": {
-              "green": "lose"
-            },
-            "meaning": {
-              "purple": "Volné"
-            },
-            "example": {
-              "red": "loser",
-              "yellow": "Knopf"
-            }
-          },
-          {
-            "word": {
-              "green": "fest"
-            },
-            "meaning": {
-              "purple": "stingrs"
-            },
-            "example": {
-              "red": "fest",
-              "yellow": "Deckel"
-            }
-          }
-        ],
-        "tip": {
-          "red": "fest",
-          "blue": "locker"
-        },
-        "important": {
-          "blue": "locker",
-          "red": "leicht"
-        }
-      }
+      "tip": "pokud to není pevné, je to locker",
+      "important": "Locker není leicht. Leicht znamená lehký",
+      "sectionAccents": "uvolněný, volnou, nepřipoutaná, uvolněný"
     }
   },
   {
@@ -40870,7 +39915,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich lohnen",
-    "lv": "Vyplatit",
+    "lv": "Vyplatit se",
     "level": "B1"
   },
   {
@@ -40901,11 +39946,11 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Jeder Teilnehmer zieht ein Los.",
-          "lv": "Každý účastník si hodně losuje."
+          "lv": "Každý účastník si losuje los."
         },
         {
           "de": "Mit diesem Los hat sie gewonnen.",
-          "lv": "S touto loterií vyhrála."
+          "lv": "S tímto losem vyhrála."
         },
         {
           "de": "Er nahm sein Los an.",
@@ -40920,8 +39965,8 @@ const B1_WORDS = [
         },
         {
           "word": "der Gewinn",
-          "meaning": "Won",
-          "example": "Der Gewinn wird morgen ausgezahlt. = Výhry budou vyplaceny zítra."
+          "meaning": "Výhra",
+          "example": "Výhra bude vyplacena zítra."
         },
         {
           "word": "das Schicksal",
@@ -40931,88 +39976,7 @@ const B1_WORDS = [
       ],
       "tip": "V loterii a tombole: das Los = los.",
       "important": "Nezaměňujte das Los s los jako samostatné slovo ve frázích losgehen nebo losfahren.",
-      "sectionAccents": {
-        "explanation": {
-          "blue": "das Los",
-          "purple": "loze",
-          "red": "likteni"
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": "Los",
-              "green": "Teilnehmer"
-            },
-            "lv": {
-              "purple": "lozi"
-            }
-          },
-          {
-            "de": {
-              "blue": "Los",
-              "purple": "gewonnen"
-            },
-            "lv": {
-              "purple": "touto"
-            }
-          },
-          {
-            "de": {
-              "blue": "Los"
-            },
-            "lv": {
-              "red": "likteni"
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": "das Los"
-            },
-            "meaning": {
-              "purple": "loze"
-            },
-            "example": {
-              "blue": "Los",
-              "green": "Teilnehmer"
-            }
-          },
-          {
-            "word": {
-              "green": "der Gewinn"
-            },
-            "meaning": {
-              "purple": "laimests"
-            },
-            "example": {
-              "red": "Gewinn"
-            }
-          },
-          {
-            "word": {
-              "green": "das Schicksal"
-            },
-            "meaning": {
-              "purple": "liktenis"
-            },
-            "example": {
-              "red": "Schicksal"
-            }
-          }
-        ],
-        "tip": {
-          "blue": "das Los",
-          "purple": "loze"
-        },
-        "important": {
-          "blue": "das Los",
-          "red": [
-            "losgehen",
-            "losfahren"
-          ]
-        }
-      }
+      "sectionAccents": "los, vyhrála, osud, výhra"
     }
   },
   {
@@ -41038,7 +40002,7 @@ const B1_WORDS = [
         },
         {
           "de": "Bitte lösche die alte Datei.",
-          "lv": "Prosím smažte starý soubor."
+          "lv": "Prosím smaž starý soubor."
         },
         {
           "de": "Ein Glas Wasser löscht den Durst.",
@@ -41048,7 +40012,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "löschen",
-          "meaning": "Uhasit oheň nebo data",
+          "meaning": "Hasit oheň nebo mazat data",
           "example": "Bitte lösche die Datei. = Prosím smažte soubor."
         },
         {
@@ -41062,94 +40026,9 @@ const B1_WORDS = [
           "example": "Wir lösen das Problem. = Řešíme problém."
         }
       ],
-      "tip": "Oheň, pilník nebo žízeň: löschen.",
+      "tip": "Oheň, soubor nebo žízeň",
       "important": "Löschen není totéž co lösen. löschen = smazat • Lösen = vyřešit nebo rozvázat.",
-      "sectionAccents": {
-        "explanation": {
-          "blue": "löschen",
-          "purple": "löschen",
-          "yellow": "datus"
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": "löscht",
-              "yellow": "Brand"
-            },
-            "lv": {
-              "purple": "Hasiči"
-            }
-          },
-          {
-            "de": {
-              "blue": "lösche",
-              "yellow": "Datei"
-            },
-            "lv": {
-              "purple": "Prosím"
-            }
-          },
-          {
-            "de": {
-              "blue": "löscht",
-              "yellow": "Durst"
-            },
-            "lv": {
-              "purple": "Sklenice"
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": "löschen"
-            },
-            "meaning": {
-              "purple": "Uhasit"
-            },
-            "example": {
-              "blue": "lösche",
-              "yellow": "Datei"
-            }
-          },
-          {
-            "word": {
-              "green": "ausschalten"
-            },
-            "meaning": {
-              "purple": "Vypněte"
-            },
-            "example": {
-              "red": "Schalte",
-              "yellow": "Computer"
-            }
-          },
-          {
-            "word": {
-              "green": "lösen"
-            },
-            "meaning": {
-              "purple": "Vyřešit"
-            },
-            "example": {
-              "red": "lösen",
-              "yellow": "Problem"
-            }
-          }
-        ],
-        "tip": {
-          "blue": "löschen",
-          "yellow": [
-            "Oheň",
-            "Oheň",
-            "Oheň"
-          ]
-        },
-        "important": {
-          "blue": "löschen",
-          "red": "lösen"
-        }
-      }
+      "sectionAccents": "hasí, smaž, hasí, vypnout"
     }
   },
   {
@@ -41160,7 +40039,7 @@ const B1_WORDS = [
       "id": "b1-lösen",
       "layout": "standardStudy",
       "translation": "Vyřešit",
-      "explanation": "Hlavní myšlenka: lösen nejčastěji znamená vyřešit problém nebo úkol. S jiným předmětem to může znamenat uvolnění, uvolnění nebo rozpuštění.",
+      "explanation": "může znamenat uvolnit, rozvázat, osvobodit nebo rozpustit",
       "examples": [
         {
           "de": "Wir müssen dieses Problem lösen.",
@@ -41196,102 +40075,9 @@ const B1_WORDS = [
           "example": "Ich lösche die Datei. = Soubor smažu."
         }
       ],
-      "tip": "Pokud je před vámi problém, úkol nebo uzel, přemýšlejte o lösen.",
+      "tip": "myslete na lösen",
       "important": "Lösen a löschen se liší jedním písmenem, ale význam je jiný: vyřešit vs. vymazat.",
-      "sectionAccents": {
-        "explanation": {
-          "blue": "lösen",
-          "purple": "lösen",
-          "red": "objektu"
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": "lösen",
-              "yellow": "Problem"
-            },
-            "lv": {
-              "purple": "Musíme"
-            }
-          },
-          {
-            "de": {
-              "blue": "löst",
-              "yellow": "Knoten"
-            },
-            "lv": {
-              "purple": "atraisa"
-            }
-          },
-          {
-            "de": {
-              "blue": "löst sich",
-              "yellow": "Zucker"
-            },
-            "lv": {
-              "purple": "Cukr"
-            }
-          },
-          {
-            "de": {
-              "blue": "löse",
-              "yellow": "Fahrkarte"
-            },
-            "lv": {
-              "purple": "Kupuji"
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": "lösen"
-            },
-            "meaning": {
-              "purple": "Vyřešit"
-            },
-            "example": {
-              "blue": "lösen",
-              "yellow": "Problem"
-            }
-          },
-          {
-            "word": {
-              "green": "auflösen"
-            },
-            "meaning": {
-              "purple": "Rozpustit"
-            },
-            "example": {
-              "red": "löst sich auf"
-            }
-          },
-          {
-            "word": {
-              "green": "löschen"
-            },
-            "meaning": {
-              "purple": "Vymazat"
-            },
-            "example": {
-              "red": "lösche",
-              "yellow": "Datei"
-            }
-          }
-        ],
-        "tip": {
-          "blue": "lösen",
-          "yellow": [
-            "problém",
-            "Pokud",
-            "Pokud"
-          ]
-        },
-        "important": {
-          "blue": "lösen",
-          "red": "löschen"
-        }
-      }
+      "sectionAccents": "vyřešit, musíme vyřešit, rozváže, rozpustí se, kupuji"
     }
   },
   {
@@ -41309,7 +40095,7 @@ const B1_WORDS = [
       "id": "b1-lösung",
       "layout": "standardStudy",
       "translation": "Řešení",
-      "explanation": "Hlavní myšlenka: die Lösung je řešením problému, úkolu nebo situace. V chemii to může znamenat i řešení.",
+      "explanation": "V chemii to může znamenat i roztok.",
       "examples": [
         {
           "de": "Wir suchen eine Lösung für das Problem.",
@@ -41327,7 +40113,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Lösung",
-          "meaning": "Roztok • V chemii roztok",
+          "meaning": "Řešení • V chemii roztok",
           "example": "Wir suchen eine Lösung. = Hledáme řešení."
         },
         {
@@ -41343,92 +40129,14 @@ const B1_WORDS = [
       ],
       "tip": "Problém potřebuje Lösung, otázka potřebuje Antwort.",
       "important": "Die Lösung není vždy odpovědí • Často je to způsob, jak problém vyřešit.",
-      "sectionAccents": {
-        "explanation": {
-          "blue": "die Lösung",
-          "purple": "die",
-          "yellow": "die"
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": "Lösung",
-              "yellow": "Problem"
-            },
-            "lv": {
-              "purple": "Hledáme"
-            }
-          },
-          {
-            "de": {
-              "blue": "Lösung",
-              "yellow": "Zeit"
-            },
-            "lv": {
-              "purple": "řešení"
-            }
-          },
-          {
-            "de": {
-              "blue": "Lösung",
-              "green": "Labor"
-            },
-            "lv": {
-              "purple": "laboratoři"
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": "die Lösung"
-            },
-            "meaning": {
-              "purple": "Roztok"
-            },
-            "example": {
-              "blue": "Lösung"
-            }
-          },
-          {
-            "word": {
-              "green": "die Antwort"
-            },
-            "meaning": {
-              "purple": "atbilde"
-            },
-            "example": {
-              "red": "Antwort"
-            }
-          },
-          {
-            "word": {
-              "green": "das Ergebnis"
-            },
-            "meaning": {
-              "purple": "Výsledek"
-            },
-            "example": {
-              "red": "Ergebnis"
-            }
-          }
-        ],
-        "tip": {
-          "blue": "Lösung",
-          "red": "Antwort"
-        },
-        "important": {
-          "blue": "die Lösung",
-          "red": "atbilde"
-        }
-      }
+      "sectionAccents": "řešení, roztok, odpověď, výsledek"
     }
   },
   {
     "de": "Lotion",
     "de_article": "die",
     "de_plural": "die Lotionen",
-    "lv": "Pleťová voda",
+    "lv": "Tělové mléko",
     "level": "B1"
   },
   {
@@ -41449,7 +40157,7 @@ const B1_WORDS = [
     "de": "Lücke",
     "de_article": "die",
     "de_plural": "die Lücken",
-    "lv": "Zářez",
+    "lv": "Mezera",
     "level": "B1"
   },
   {
@@ -41477,7 +40185,7 @@ const B1_WORDS = [
     "de": "Luftzug",
     "de_article": "der",
     "de_plural": "die Luftzüge",
-    "lv": "Návrh",
+    "lv": "Průvan",
     "level": "B1"
   },
   {
@@ -41528,7 +40236,7 @@ const B1_WORDS = [
         {
           "word": "die Kraft",
           "meaning": "Fyzická síla nebo energie",
-          "example": "Er hat viel Kraft. = Má velkou moc."
+          "example": "Má velkou sílu."
         },
         {
           "word": "der Einfluss",
@@ -41536,100 +40244,20 @@ const B1_WORDS = [
           "example": "Sie hat Einfluss auf die Entscheidung. = Má na rozhodnutí vliv."
         }
       ],
-      "tip": "Die Macht, ne die Kraft, myslí v politice a vlivu.",
-      "important": "Die Macht může mít moc nad ostatními • Die Kraft je síla těla nebo energie.",
-      "sectionAccents": {
-        "explanation": {
-          "blue": "die Macht",
-          "purple": "varu",
-          "red": "die Kraft"
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": "Macht",
-              "green": "Regierung"
-            },
-            "lv": {
-              "purple": "vara"
-            }
-          },
-          {
-            "de": {
-              "blue": "Macht",
-              "green": "Partei"
-            },
-            "lv": {
-              "purple": "varas"
-            }
-          },
-          {
-            "de": {
-              "blue": "Macht",
-              "yellow": "Wissen"
-            },
-            "lv": {
-              "purple": "varu"
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": "die Macht"
-            },
-            "meaning": {
-              "purple": "vara"
-            },
-            "example": {
-              "blue": "Macht",
-              "green": "Partei"
-            }
-          },
-          {
-            "word": {
-              "green": "die Kraft"
-            },
-            "meaning": {
-              "purple": "Fyzická"
-            },
-            "example": {
-              "red": "Kraft"
-            }
-          },
-          {
-            "word": {
-              "green": "der Einfluss"
-            },
-            "meaning": {
-              "purple": "ietekme"
-            },
-            "example": {
-              "red": "Einfluss",
-              "yellow": "Entscheidung"
-            }
-          }
-        ],
-        "tip": {
-          "blue": "die Macht",
-          "red": "die Kraft"
-        },
-        "important": {
-          "blue": "die Macht",
-          "red": "die Kraft"
-        }
-      }
+      "tip": "V politice a u vlivu myslete na die Macht, ne die Kraft.",
+      "important": "Die Macht označuje moc nad ostatními",
+      "sectionAccents": "moc, moc, moci, síla, vliv"
     }
   },
   {
     "de": "mager",
-    "lv": "Hubená",
+    "lv": "Hubený",
     "level": "B1"
   },
   {
     "de": "Magie",
     "de_article": "die",
-    "lv": "Kouzlo",
+    "lv": "Magie",
     "level": "B1"
   },
   {
@@ -41639,14 +40267,14 @@ const B1_WORDS = [
   },
   {
     "de": "mahlen",
-    "lv": "Mletí",
+    "lv": "Mlít",
     "level": "B1"
   },
   {
     "de": "Maifeier",
     "de_article": "die",
     "de_plural": "die Maifeiern",
-    "lv": "První máj svátek",
+    "lv": "Oslava 1. máje",
     "level": "B1"
   },
   {
@@ -41660,7 +40288,7 @@ const B1_WORDS = [
     "de": "Mailbox",
     "de_article": "die",
     "de_plural": "die Mailboxen",
-    "lv": "Elektronické schránky na internetu",
+    "lv": "E-mailová schránka",
     "level": "B1"
   },
   {
@@ -41681,7 +40309,7 @@ const B1_WORDS = [
     "de": "Makler",
     "de_article": "der",
     "de_plural": "die Makler",
-    "lv": "Činidlo",
+    "lv": "Makléř",
     "level": "B1"
   },
   {
@@ -41707,7 +40335,7 @@ const B1_WORDS = [
   },
   {
     "de": "mancherlei",
-    "lv": "Jiný",
+    "lv": "Všelijaký",
     "level": "B1"
   },
   {
@@ -41726,7 +40354,7 @@ const B1_WORDS = [
   },
   {
     "de": "mangeln",
-    "lv": "Chybějící",
+    "lv": "Chybět",
     "level": "B1"
   },
   {
@@ -41785,7 +40413,7 @@ const B1_WORDS = [
     "de": "Masche",
     "de_article": "die",
     "de_plural": "die Maschen",
-    "lv": "Steh",
+    "lv": "Oko",
     "level": "B1"
   },
   {
@@ -41805,7 +40433,7 @@ const B1_WORDS = [
     "de": "Maskenfest",
     "de_article": "das",
     "de_plural": "die Maskenfeste",
-    "lv": "Maškarní ples",
+    "lv": "Maškarní slavnost",
     "level": "B1"
   },
   {
@@ -41836,7 +40464,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "das Maß",
-          "meaning": "Měřit, limit, rozsah",
+          "meaning": "Míra, limit, rozsah",
           "example": "Alles hat sein Maß. = Všechno má svou míru."
         },
         {
@@ -41851,91 +40479,15 @@ const B1_WORDS = [
         }
       ],
       "tip": "V jednotném čísle je Maß míra • V množném čísle má Maße často rozměry.",
-      "important": "Nezaměňujte das Maß s die Maßnahme. Maß je míra, Maßnahme je konkrétní akce nebo míra.",
-      "sectionAccents": {
-        "explanation": {
-          "blue": "das Maß",
-          "purple": "das",
-          "red": "die Maße"
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": "Maß"
-            },
-            "lv": {
-              "purple": "Vše"
-            }
-          },
-          {
-            "de": {
-              "blue": "Maß",
-              "yellow": "Kritik"
-            },
-            "lv": {
-              "purple": "kritika"
-            }
-          },
-          {
-            "de": {
-              "red": "Maße"
-            },
-            "lv": {
-              "purple": "Pošlete"
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": "das Maß"
-            },
-            "meaning": {
-              "purple": "Měřit"
-            },
-            "example": {
-              "blue": "Maß"
-            }
-          },
-          {
-            "word": {
-              "green": "die Maße"
-            },
-            "meaning": {
-              "purple": "Rozměry"
-            },
-            "example": {
-              "red": "Maße"
-            }
-          },
-          {
-            "word": {
-              "green": "die Maßnahme"
-            },
-            "meaning": {
-              "purple": "Opatření"
-            },
-            "example": {
-              "red": "Maßnahme"
-            }
-          }
-        ],
-        "tip": {
-          "blue": "Maß",
-          "red": "Maße"
-        },
-        "important": {
-          "blue": "das Maß",
-          "red": "die Maßnahme"
-        }
-      }
+      "important": "Maßnahme je konkrétní opatření nebo akce.",
+      "sectionAccents": "míru, rozměry, opatření"
     }
   },
   {
     "de": "Masse",
     "de_article": "die",
     "de_plural": "die Massen",
-    "lv": "Mše",
+    "lv": "Masa",
     "level": "B1"
   },
   {
@@ -41961,7 +40513,7 @@ const B1_WORDS = [
     "de": "Maßnahme",
     "de_article": "die",
     "de_plural": "die Maßnahmen",
-    "lv": "Událost",
+    "lv": "Opatření",
     "level": "B1"
   },
   {
@@ -41980,21 +40532,21 @@ const B1_WORDS = [
   },
   {
     "de": "matt",
-    "lv": "Ztlumit",
+    "lv": "Matný",
     "level": "B1"
   },
   {
     "de": "Maul",
     "de_article": "das",
     "de_plural": "die Mäuler",
-    "lv": "Čenich",
+    "lv": "Tlama",
     "level": "B1"
   },
   {
     "de": "Maulkorb",
     "de_article": "der",
     "de_plural": "die Maulkörbe",
-    "lv": "Čenich",
+    "lv": "Náhubek",
     "level": "B1"
   },
   {
@@ -42013,7 +40565,7 @@ const B1_WORDS = [
   },
   {
     "de": "mechanisch",
-    "lv": "Mechanické",
+    "lv": "Mechanický",
     "level": "B1"
   },
   {
@@ -42025,7 +40577,7 @@ const B1_WORDS = [
   },
   {
     "de": "mehrfach",
-    "lv": "Násobek",
+    "lv": "Několikanásobný",
     "level": "B1"
   },
   {
@@ -42037,12 +40589,12 @@ const B1_WORDS = [
   },
   {
     "de": "meinetwegen",
-    "lv": "Po mně",
+    "lv": "Kvůli mně",
     "level": "B1"
   },
   {
     "de": "meistern",
-    "lv": "Vyrovnat se",
+    "lv": "Zvládnout",
     "level": "B1"
   },
   {
@@ -42054,7 +40606,7 @@ const B1_WORDS = [
   },
   {
     "de": "melken",
-    "lv": "Na mléko",
+    "lv": "Dojit",
     "level": "B1"
   },
   {
@@ -42080,14 +40632,14 @@ const B1_WORDS = [
   },
   {
     "de": "menschlich",
-    "lv": "Humánní",
+    "lv": "Lidský",
     "level": "B1"
   },
   {
     "de": "Merkmal",
     "de_article": "das",
     "de_plural": "die Merkmale",
-    "lv": "Znamení",
+    "lv": "Znak",
     "level": "B1"
   },
   {
@@ -42109,7 +40661,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir besuchen die Buchmesse in Frankfurt.",
-          "lv": "Se účastníme knižního veletrhu ve Frankfurtu."
+          "lv": "Navštěvujeme knižní veletrh ve Frankfurtu."
         },
         {
           "de": "Viele Firmen stellen ihre Produkte auf der Messe vor.",
@@ -42133,95 +40685,13 @@ const B1_WORDS = [
         },
         {
           "word": "der Markt",
-          "meaning": "Trhu",
+          "meaning": "Trh",
           "example": "Der Markt ist heute voll. = Trh je dnes plný."
         }
       ],
       "tip": "Společnosti a produkty na velké akci: die Messe.",
       "important": "Kontext určuje význam: ve Frankfurtu je die Messe výstava, v kostele je to mše.",
-      "sectionAccents": {
-        "explanation": {
-          "blue": "die Messe",
-          "purple": "die",
-          "red": "misi"
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": "Buchmesse",
-              "green": "Frankfurt"
-            },
-            "lv": {
-              "purple": "účastníme"
-            }
-          },
-          {
-            "de": {
-              "blue": "Messe",
-              "green": "Firmen",
-              "yellow": "Produkte"
-            },
-            "lv": {
-              "purple": "Řada"
-            }
-          },
-          {
-            "de": {
-              "blue": "Messe",
-              "green": "Familie"
-            },
-            "lv": {
-              "red": "misi"
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": "die Messe"
-            },
-            "meaning": {
-              "purple": "Výstava"
-            },
-            "example": {
-              "blue": "Messe"
-            }
-          },
-          {
-            "word": {
-              "green": "die Ausstellung"
-            },
-            "meaning": {
-              "purple": "Výstava"
-            },
-            "example": {
-              "red": "Ausstellung"
-            }
-          },
-          {
-            "word": {
-              "green": "der Markt"
-            },
-            "meaning": {
-              "purple": "tirgus"
-            },
-            "example": {
-              "red": "Markt"
-            }
-          }
-        ],
-        "tip": {
-          "blue": "die Messe",
-          "green": "Společnosti"
-        },
-        "important": {
-          "blue": "die Messe",
-          "red": [
-            "Kontext",
-            "Kontext"
-          ]
-        }
-      }
+      "sectionAccents": "výstavu, na výstavě, mši, trh"
     }
   },
   {
@@ -42242,12 +40712,12 @@ const B1_WORDS = [
     "de": "Mietvertrag",
     "de_article": "der",
     "de_plural": "die Mietverträge",
-    "lv": "Nájemní nebo nájemní smlouva",
+    "lv": "Nájemní smlouva",
     "level": "B1"
   },
   {
     "de": "mild",
-    "lv": "Měkký",
+    "lv": "Mírný",
     "level": "B1"
   },
   {
@@ -42266,7 +40736,7 @@ const B1_WORDS = [
     "de": "Mine",
     "de_article": "die",
     "de_plural": "die Minen",
-    "lv": "Moje",
+    "lv": "Důl",
     "level": "B1"
   },
   {
@@ -42290,25 +40760,25 @@ const B1_WORDS = [
   },
   {
     "de": "misslingen",
-    "lv": "Selhat",
+    "lv": "Nepodařit se",
     "level": "B1"
   },
   {
     "de": "mitführen",
-    "lv": "Přinést s sebou",
+    "lv": "Mít s sebou",
     "level": "B1"
   },
   {
     "de": "Mitgefühl",
     "de_article": "das",
-    "lv": "Sympatie",
+    "lv": "Soucit",
     "level": "B1"
   },
   {
     "de": "Mitleid",
     "de_article": "das",
     "de_plural": "die Mitleide",
-    "lv": "Sympatie",
+    "lv": "Soucit",
     "level": "B1"
   },
   {
@@ -42321,7 +40791,7 @@ const B1_WORDS = [
   {
     "de": "Mittelalter",
     "de_article": "das",
-    "lv": "Středověku",
+    "lv": "Středověk",
     "level": "B1"
   },
   {
@@ -42336,7 +40806,7 @@ const B1_WORDS = [
   },
   {
     "de": "mittlere",
-    "lv": "Průměrný",
+    "lv": "Střední",
     "level": "B1"
   },
   {
@@ -42362,7 +40832,7 @@ const B1_WORDS = [
     "de": "Model",
     "de_article": "das",
     "de_plural": "die Models",
-    "lv": "Fotomodelka",
+    "lv": "Model",
     "level": "B1"
   },
   {
@@ -42402,7 +40872,7 @@ const B1_WORDS = [
     "de": "Monatsgehalt",
     "de_article": "das",
     "de_plural": "die Monatsgehälter",
-    "lv": "Plat úředníka nebo sluhy",
+    "lv": "Měsíční plat",
     "level": "B1"
   },
   {
@@ -42415,21 +40885,21 @@ const B1_WORDS = [
   {
     "de": "Mondschein",
     "de_article": "der",
-    "lv": "Měsíční dům",
+    "lv": "Měsíční svit",
     "level": "B1"
   },
   {
     "de": "Montage",
     "de_article": "die",
     "de_plural": "die Montagen",
-    "lv": "Shromáždění",
+    "lv": "Montáž",
     "level": "B1"
   },
   {
     "de": "Moor",
     "de_article": "das",
     "de_plural": "die Moore",
-    "lv": "Bažina",
+    "lv": "Rašeliniště",
     "level": "B1"
   },
   {
@@ -42476,7 +40946,7 @@ const B1_WORDS = [
   {
     "de": "Morgenrot",
     "de_article": "das",
-    "lv": "Svítání",
+    "lv": "Ranní červánky",
     "level": "B1"
   },
   {
@@ -42490,7 +40960,7 @@ const B1_WORDS = [
     "de": "Most",
     "de_article": "der",
     "de_plural": "die Moste",
-    "lv": "Ovocný džus",
+    "lv": "Mošt",
     "level": "B1"
   },
   {
@@ -42534,7 +41004,7 @@ const B1_WORDS = [
   },
   {
     "de": "mühsam",
-    "lv": "Obtížný",
+    "lv": "Namáhavý",
     "level": "B1"
   },
   {
@@ -42568,7 +41038,7 @@ const B1_WORDS = [
     "de": "Mumps",
     "de_article": "der",
     "de_plural": "die Mumpse",
-    "lv": "Prasátka",
+    "lv": "Příušnice",
     "level": "B1"
   },
   {
@@ -42580,7 +41050,7 @@ const B1_WORDS = [
   },
   {
     "de": "mündig",
-    "lv": "Dospělý",
+    "lv": "Plnoletý",
     "level": "B1"
   },
   {
@@ -42592,7 +41062,7 @@ const B1_WORDS = [
     "de": "Mündung",
     "de_article": "die",
     "de_plural": "die Mündungen",
-    "lv": "Ústa",
+    "lv": "Ústí",
     "level": "B1"
   },
   {
@@ -42609,14 +41079,14 @@ const B1_WORDS = [
     "de": "Muschel",
     "de_article": "die",
     "de_plural": "die Muscheln",
-    "lv": "Skořápka",
+    "lv": "Mušle",
     "level": "B1"
   },
   {
     "de": "Musikstück",
     "de_article": "das",
     "de_plural": "die Musikstücke",
-    "lv": "Kus hudby",
+    "lv": "Hudební skladba",
     "level": "B1"
   },
   {
@@ -42628,17 +41098,17 @@ const B1_WORDS = [
   },
   {
     "de": "mustern",
-    "lv": "Podívejte se pozorně",
+    "lv": "Prohlížet si",
     "level": "B1"
   },
   {
     "de": "mutlos",
-    "lv": "Znechucený",
+    "lv": "Malomyslný",
     "level": "B1"
   },
   {
     "de": "mütterlich",
-    "lv": "Matka-",
+    "lv": "Mateřský",
     "level": "B1"
   },
   {
@@ -42667,8 +41137,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-nachdem",
       "layout": "standardStudy",
-      "translation": "Po kdy",
-      "explanation": "Hlavní myšlenka: nachdem zavádí vedlejší větu a znamená po kdy. V němčině je sloveso v této vedlejší větě na konci.",
+      "translation": "Poté, co",
+      "explanation": "Hlavní myšlenka: nachdem uvádí vedlejší větu a znamená „poté, co“. V němčině je sloveso v této vedlejší větě na konci.",
       "examples": [
         {
           "de": "Nachdem ich gegessen hatte, ging ich schlafen.",
@@ -42686,13 +41156,13 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "nachdem",
-          "meaning": "Po kdy",
+          "meaning": "Poté, co",
           "example": "Nachdem ich gegessen hatte, ging ich schlafen. = Když jsem dojedla, šla jsem spát."
         },
         {
           "word": "danach",
           "meaning": "Poté",
-          "example": "Danach gingen wir nach Hause. = Po té jsme šli domů."
+          "example": "Danach gingen wir nach Hause. = Poté jsme šli domů."
         },
         {
           "word": "bevor",
@@ -42700,7 +41170,7 @@ const B1_WORDS = [
           "example": "Bevor ich gehe, rufe ich an. = Než odejdu, zavolám."
         }
       ],
-      "tip": "Nachdem vyžaduje celou klauzuli • Danach může stát sám.",
+      "tip": "Nachdem vyžaduje celou vedlejší větu • Danach může stát samostatně.",
       "important": "Po nachdem je sloveso obvykle na konci věty: nachdem ich gegessen hatte.",
       "sectionAccents": {
         "explanation": {
@@ -42799,8 +41269,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-nachfrage",
       "layout": "standardStudy",
-      "translation": "Žádost",
-      "explanation": "Hlavní myšlenka: die Nachfacht v ekonomii znamená poptávku po zboží nebo službách. V korespondenci to může znamenat i dotaz nebo doplňující dotaz.",
+      "translation": "Poptávka • Dotaz",
+      "explanation": "Hlavní myšlenka: die Nachfrage v ekonomii znamená poptávku po zboží nebo službách. V korespondenci to může znamenat i dotaz nebo doplňující dotaz.",
       "examples": [
         {
           "de": "Die Nachfrage nach Wohnungen ist groß.",
@@ -42818,7 +41288,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Nachfrage",
-          "meaning": "Žádost • Dotaz",
+          "meaning": "Poptávka • Dotaz",
           "example": "Die Nachfrage ist groß. = Poptávka je vysoká."
         },
         {
@@ -42832,8 +41302,8 @@ const B1_WORDS = [
           "example": "Das Angebot ist begrenzt. = Nabídka je omezená."
         }
       ],
-      "tip": "Na trhu je Nachfacht opakem Angebotu.",
-      "important": "Die Nachfacht není obyčejná otázka. Die Frage se používá pro jednoduchou otázku.",
+      "tip": "Na trhu je Nachfrage protikladem nabídky.",
+      "important": "Die Nachfrage není obyčejná otázka. Die Frage se používá pro jednoduchou otázku.",
       "sectionAccents": {
         "explanation": {
           "blue": "die Nachfrage",
@@ -42955,7 +41425,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Zatlačte a ustupte: nachgeben.",
-      "important": "Nachgeben není aufgeben. nachgeben je dát přednost v konkrétní situaci, zatímco aufgeben je přestat se snažit.",
+      "important": "Nachgeben není aufgeben. Nachgeben znamená v konkrétní situaci ustoupit, zatímco aufgeben znamená přestat se snažit.",
       "sectionAccents": {
         "explanation": {
           "blue": "nachgeben",
@@ -43040,7 +41510,7 @@ const B1_WORDS = [
   },
   {
     "de": "nachholen",
-    "lv": "Obnovit zameškané",
+    "lv": "Dohnat zameškané",
     "level": "B1"
   },
   {
@@ -43052,7 +41522,7 @@ const B1_WORDS = [
   },
   {
     "de": "nachlässig",
-    "lv": "Neopatrný",
+    "lv": "Nedbalý",
     "level": "B1"
   },
   {
@@ -43069,7 +41539,7 @@ const B1_WORDS = [
     "de": "Nachteil",
     "de_article": "der",
     "de_plural": "die Nachteile",
-    "lv": "Ztráta",
+    "lv": "Nevýhoda",
     "level": "B1"
   },
   {
@@ -43088,14 +41558,14 @@ const B1_WORDS = [
   },
   {
     "de": "nächtlich",
-    "lv": "Noc-",
+    "lv": "Noční",
     "level": "B1"
   },
   {
     "de": "Nachwuchs",
     "de_article": "der",
     "de_plural": "die Nachwuchse",
-    "lv": "Nová generace",
+    "lv": "Mladá generace",
     "level": "B1"
   },
   {
@@ -43177,7 +41647,7 @@ const B1_WORDS = [
     "de": "Nebensache",
     "de_article": "die",
     "de_plural": "die Nebensachen",
-    "lv": "Další věc",
+    "lv": "Vedlejší věc",
     "level": "B1"
   },
   {
@@ -43189,7 +41659,7 @@ const B1_WORDS = [
   },
   {
     "de": "neblig",
-    "lv": "Mlhovina",
+    "lv": "Mlhavý",
     "level": "B1"
   },
   {
@@ -43201,7 +41671,7 @@ const B1_WORDS = [
     "de": "Neid",
     "de_article": "der",
     "de_plural": "die Neide",
-    "lv": "Závidět",
+    "lv": "Závist",
     "level": "B1"
   },
   {
@@ -43211,8 +41681,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-neigen",
       "layout": "standardStudy",
-      "translation": "Snažit se",
-      "explanation": "Hlavní myšlenka: neigen znamená být k něčemu nakloněn nebo se naklonit určitým směrem. Fyzicky to může také znamenat úklon hlavy nebo předmětu.",
+      "translation": "Být nakloněn • Naklonit",
+      "explanation": "Hlavní myšlenka: neigen znamená být k něčemu nakloněn nebo se naklonit určitým směrem. Fyzicky může také znamenat naklonit hlavu nebo předmět.",
       "examples": [
         {
           "de": "Er neigt zu schnellen Entscheidungen.",
@@ -43220,7 +41690,7 @@ const B1_WORDS = [
         },
         {
           "de": "Sie neigt den Kopf leicht zur Seite.",
-          "lv": "Mírně nakloní hlavu na stranu."
+          "lv": "Mírně naklání hlavu na stranu."
         },
         {
           "de": "Das Wetter neigt im April zu Extremen.",
@@ -43240,12 +41710,12 @@ const B1_WORDS = [
         },
         {
           "word": "biegen",
-          "meaning": "Ohyb",
+          "meaning": "Ohýbat",
           "example": "Er biegt den Draht. = Ohýbá drát."
         }
       ],
       "tip": "Neigen zu + kam?: sklon k něčemu.",
-      "important": "Neigen not sich nähern. neigen ukazuje sklon nebo sklon, sich nähern ukazuje přístup.",
+      "important": "Neigen není sich nähern. Neigen označuje sklon nebo naklonění, sich nähern označuje přibližování.",
       "sectionAccents": {
         "explanation": {
           "blue": "neigen",
@@ -43340,7 +41810,7 @@ const B1_WORDS = [
       "id": "b1-neigung",
       "layout": "standardStudy",
       "translation": "Sklon",
-      "explanation": "Hlavní myšlenka: die Neigung znamená sklon nebo sklon k něčemu. V technickém kontextu to může také znamenat sklon.",
+      "explanation": "Hlavní myšlenka: die Neigung znamená sklon nebo tendenci k něčemu. V technickém kontextu může také znamenat sklon.",
       "examples": [
         {
           "de": "Sie hat eine Neigung zur Musik.",
@@ -43348,7 +41818,7 @@ const B1_WORDS = [
         },
         {
           "de": "Seine Neigung zu Risiken ist bekannt.",
-          "lv": "Jeho chuť riskovat je známá."
+          "lv": "Jeho sklon k riskování je známý."
         },
         {
           "de": "Die Neigung des Daches ist stark.",
@@ -43358,12 +41828,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Neigung",
-          "meaning": "Sklon, sklon • Sklon",
+          "meaning": "Sklon, tendence • Sklon",
           "example": "Sie hat eine Neigung zur Musik. = Má sklony k hudbě."
         },
         {
           "word": "das Interesse",
-          "meaning": "Zajímat",
+          "meaning": "Zájem",
           "example": "Sie hat Interesse an Kunst. = Zajímá se o umění."
         },
         {
@@ -43373,7 +41843,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Směr dovnitř nebo tendence: die Neigung.",
-      "important": "Die Neigung není jen Interesse. Neigung častěji vykazuje konstantní sklon nebo sklon.",
+      "important": "Die Neigung není jen Interesse. Neigung častěji označuje trvalou tendenci nebo sklon.",
       "sectionAccents": {
         "explanation": {
           "blue": "die Neigung",
@@ -43460,7 +41930,7 @@ const B1_WORDS = [
     "de": "Gewürznelke",
     "de_article": "die",
     "de_plural": "die Gewürznelken",
-    "lv": "Stroužek",
+    "lv": "Hřebíček",
     "level": "B1"
   },
   {
@@ -43496,7 +41966,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "nerven",
-          "meaning": "Otravovat, lézt si na nervy",
+          "meaning": "Otravovat, lézt na nervy",
           "example": "Der Lärm nervt mich. = Hluk mě obtěžuje."
         },
         {
@@ -43506,12 +41976,12 @@ const B1_WORDS = [
         },
         {
           "word": "ärgern",
-          "meaning": "Naštvat, naštvat",
+          "meaning": "Naštvat, rozčilovat",
           "example": "Das ärgert mich. = Zlobí mě to."
         }
       ],
       "tip": "Pokud vám něco leze na nervy, použijte nerven.",
-      "important": "Nerven je upovídaný. Ve formálnější situaci je stören často bezpečnější.",
+      "important": "Nerven je hovorové slovo. Ve formálnější situaci je stören často vhodnější.",
       "sectionAccents": {
         "explanation": {
           "blue": "nerven",
@@ -43652,7 +42122,7 @@ const B1_WORDS = [
         },
         {
           "word": "unten",
-          "meaning": "Níže, níže",
+          "meaning": "Dole, níže",
           "example": "Ich warte unten. = Čekám dole."
         },
         {
@@ -43661,8 +42131,8 @@ const B1_WORDS = [
           "example": "Komm bitte herunter! = Prosím, pojď dolů!"
         }
       ],
-      "tip": "Nieder často znamená pohyb nebo stav dolů.",
-      "important": "Pro jednoduché každodenní „dolů“ se častěji používá unten nebo herunter • Nieder je často ve sloučeninách.",
+      "tip": "Nieder často označuje pohyb nebo polohu směrem dolů.",
+      "important": "Pro jednoduché každodenní „dolů“ se častěji používá unten nebo herunter • Nieder se často objevuje ve složeninách.",
       "sectionAccents": {
         "explanation": {
           "blue": "nieder",
@@ -43751,7 +42221,7 @@ const B1_WORDS = [
     "de": "Niederlage",
     "de_article": "die",
     "de_plural": "die Niederlagen",
-    "lv": "Porazit",
+    "lv": "Porážka",
     "level": "B1"
   },
   {
@@ -43829,7 +42299,7 @@ const B1_WORDS = [
       "id": "b1-not",
       "layout": "standardStudy",
       "translation": "Nedostatek",
-      "explanation": "Hlavní myšlenka: zemřít znamená vážný nedostatek, bídu nebo naléhavou situaci. Ve frázích to může také znamenat „pokud je to nutné“.",
+      "explanation": "Hlavní myšlenka: die Not znamená vážný nedostatek, bídu nebo naléhavou situaci. Ve frázích to může také znamenat „pokud je to nutné“.",
       "examples": [
         {
           "de": "Viele Menschen leben in Not.",
@@ -43862,7 +42332,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Die Not je nesnáze, ne běžná potřeba.",
-      "important": "Nezaměňujte die Not s die Notwendigkeit. Ne je bída nebo nedostatek, Notwendigkeit je nutnost.",
+      "important": "Nezaměňujte die Not s die Notwendigkeit. Not je bída nebo nedostatek, Notwendigkeit je nutnost.",
       "sectionAccents": {
         "explanation": {
           "blue": "die Not",
@@ -43968,7 +42438,7 @@ const B1_WORDS = [
     "de": "Notfall",
     "de_article": "der",
     "de_plural": "die Notfälle",
-    "lv": "Případ krajní nouze",
+    "lv": "Naléhavý případ",
     "level": "B1"
   },
   {
@@ -43983,8 +42453,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-nüchtern",
       "layout": "standardStudy",
-      "translation": "Ne opilý",
-      "explanation": "Hlavní myšlenka: nüchtern znamená neopilý nebo v čisté mysli. U lékaře to často znamená nalačno.",
+      "translation": "Střízlivý",
+      "explanation": "Hlavní myšlenka: nüchtern znamená střízlivý nebo s jasnou myslí. U lékaře to často znamená nalačno.",
       "examples": [
         {
           "de": "Der Fahrer muss nüchtern sein.",
@@ -44002,7 +42472,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "nüchtern",
-          "meaning": "Neopilý • Nalačno • Obchodně",
+          "meaning": "Střízlivý • Nalačno • Věcně",
           "example": "Der Fahrer ist nüchtern. = Řidič není opilý."
         },
         {
@@ -44012,11 +42482,11 @@ const B1_WORDS = [
         },
         {
           "word": "sachlich",
-          "meaning": "Praktický",
-          "example": "Bleib sachlich. = Zůstaňte obchodní."
+          "meaning": "Věcný",
+          "example": "Bleib sachlich. = Zůstaňte věcní."
         }
       ],
-      "tip": "Alkohol, doktor nebo cool pohled: nüchtern.",
+      "tip": "Alkohol, lékař nebo střízlivý pohled: nüchtern.",
       "important": "Pro lékaře nüchtern často znamená nalačno, ne jen neopilý.",
       "sectionAccents": {
         "explanation": {
@@ -44118,8 +42588,8 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Prospěch",
       "explanation": [
-        "Hlavní myšlenka: der Nutzen s velkým písmenem a členem der je podstatné jméno - prospěch, prospěch.",
-        "Malá písmena nutzen je sloveso k použití.",
+        "Hlavní myšlenka: der Nutzen s velkým písmenem a členem der je podstatné jméno – prospěch nebo užitek.",
+        "Nutzen s malým písmenem je sloveso znamenající „používat“ nebo „využívat“.",
         "Ve frázi von Nutzen sein znamená být užitečný/prospívat.",
         "Zu jemandes Nutzen znamená v něčí prospěch."
       ],
@@ -44138,11 +42608,11 @@ const B1_WORDS = [
         },
         {
           "de": "Das bringt keinen Nutzen.",
-          "lv": "Nedělá to dobrotu."
+          "lv": "Nepřináší to žádný užitek."
         }
       ],
       "tip": [
-        "Der Nutzen s velkým písmenem - podstatné jméno (prospěch, prospěch).",
+        "Der Nutzen s velkým písmenem je podstatné jméno (prospěch, užitek).",
         "Malá písmena nutzen - sloveso (použít)."
       ],
       "important": [
@@ -44280,14 +42750,14 @@ const B1_WORDS = [
   },
   {
     "de": "oberhalb",
-    "lv": "Výše",
+    "lv": "Nad",
     "level": "B1"
   },
   {
     "de": "Oberhemd",
     "de_article": "das",
     "de_plural": "die Oberhemden",
-    "lv": "Triko",
+    "lv": "Košile",
     "level": "B1"
   },
   {
@@ -44307,7 +42777,7 @@ const B1_WORDS = [
       "id": "b1-objekt",
       "layout": "standardStudy",
       "translation": "Objekt",
-      "explanation": "Hlavní myšlenka: das Objekt je objekt, věc nebo budova, o které se mluví. V gramatice Objekt znamená doplněk.",
+      "explanation": "V gramatice Objekt znamená předmět.",
       "examples": [
         {
           "de": "Das Objekt wird verkauft.",
@@ -44319,28 +42789,28 @@ const B1_WORDS = [
         },
         {
           "de": "Im Satz ist das ein Objekt.",
-          "lv": "Ve větě je to komplementátor."
+          "lv": "Ve větě je to předmět."
         }
       ],
       "comparison": [
         {
           "word": "das Objekt",
-          "meaning": "Objekt • Komplementátor v gramatice",
+          "meaning": "Objekt • Předmět v gramatice",
           "example": "Das Objekt wird verkauft. = Objekt je na prodej."
         },
         {
           "word": "der Gegenstand",
-          "meaning": "Podrobit",
+          "meaning": "Předmět",
           "example": "Der Gegenstand liegt auf dem Tisch. = Objekt je na stole."
         },
         {
           "word": "das Subjekt",
-          "meaning": "Předmět věty",
+          "meaning": "Podmět věty",
           "example": "Das Subjekt steht oft vorn. = Podmět věty je často na začátku."
         }
       ],
-      "tip": "Objekt v gramatice není předmět, ale doplněk.",
-      "important": "V každodenním životě může být Objekt také budovou nebo pozorovatelným cílem • V gramatice je to komplementátor.",
+      "tip": "Objekt v gramatice není podmět, ale předmět.",
+      "important": "V gramatice je to předmět.",
       "sectionAccents": {
         "explanation": {
           "blue": "das Objekt",
@@ -44437,12 +42907,12 @@ const B1_WORDS = [
     "de": "Ochse",
     "de_article": "der",
     "de_plural": "die Ochsen",
-    "lv": "Býk",
+    "lv": "Vůl",
     "level": "B1"
   },
   {
     "de": "öde",
-    "lv": "Prázdný",
+    "lv": "Pustý",
     "level": "B1"
   },
   {
@@ -44452,12 +42922,12 @@ const B1_WORDS = [
   },
   {
     "de": "offenbar",
-    "lv": "Viditelný očima",
+    "lv": "Zjevný",
     "level": "B1"
   },
   {
     "de": "öffentlich",
-    "lv": "Veřejnost",
+    "lv": "Veřejný",
     "level": "B1"
   },
   {
@@ -44476,7 +42946,7 @@ const B1_WORDS = [
     "de": "Öffnung",
     "de_article": "die",
     "de_plural": "die Öffnungen",
-    "lv": "Otevírací",
+    "lv": "Otevření",
     "level": "B1"
   },
   {
@@ -44517,11 +42987,11 @@ const B1_WORDS = [
         },
         {
           "word": "die Machtlosigkeit",
-          "meaning": "Impotence",
+          "meaning": "Bezmoc",
           "example": "Er fühlt Machtlosigkeit. = Cítí se bezmocný."
         }
       ],
-      "tip": "V Ohnmachtu padlý = mdlý.",
+      "tip": "Upadnout do bezvědomí = omdlít.",
       "important": "Ohnmacht může být fyzické bezvědomí nebo pocit bezmoci.",
       "sectionAccents": {
         "explanation": {
@@ -44675,7 +43145,7 @@ const B1_WORDS = [
     "de": "Opernhaus",
     "de_article": "das",
     "de_plural": "die Opernhäuser",
-    "lv": "Opera",
+    "lv": "Operní dům",
     "level": "B1"
   },
   {
@@ -44693,11 +43163,11 @@ const B1_WORDS = [
       "id": "b1-opfern",
       "layout": "standardStudy",
       "translation": "Obětovat",
-      "explanation": "Hlavní myšlenka: opfern znamená obětovat něco důležitého pro nějaký účel. Za peníze nebo zboží v charitě je utrácení často přirozenější.",
+      "explanation": "U peněz nebo zboží v charitě je přirozenější sloveso spenden (darovat).",
       "examples": [
         {
           "de": "Er opfert viel Zeit für das Projekt.",
-          "lv": "Projektu obětuje spoustu času."
+          "lv": "Obětuje projektu spoustu času."
         },
         {
           "de": "Viele Menschen opfern ihre Freizeit für andere.",
@@ -44721,12 +43191,12 @@ const B1_WORDS = [
         },
         {
           "word": "sich einsetzen",
-          "meaning": "Přidat se, aktivně pomáhat",
+          "meaning": "Angažovat se, aktivně pomáhat",
           "example": "Er setzt sich für Kinder ein. = Zastává se dětí."
         }
       ],
       "tip": "Pokud je něco dáno s pocitem ztráty, opfern je často vhodný.",
-      "important": "Opfern klade důraz na oběť • Utrácet je neutrálnější slovo pro dary.",
+      "important": "Darovat je neutrálnější slovo pro dary.",
       "sectionAccents": {
         "explanation": {
           "blue": "opfern",
@@ -44815,14 +43285,14 @@ const B1_WORDS = [
     "de": "Orchester",
     "de_article": "das",
     "de_plural": "die Orchester",
-    "lv": "Orchestru",
+    "lv": "Orchestr",
     "level": "B1"
   },
   {
     "de": "Ordner",
     "de_article": "der",
     "de_plural": "die Ordner",
-    "lv": "Složku",
+    "lv": "Složka",
     "level": "B1"
   },
   {
@@ -44861,7 +43331,7 @@ const B1_WORDS = [
       "id": "b1-orientieren",
       "layout": "standardStudy",
       "translation": "Orientovat se",
-      "explanation": "Hlavní myšlenka: sich orientieren znamená orientovat se v místě nebo situaci. orientieren prostředek nechat se něčím vést.",
+      "explanation": "orientieren an znamená řídit se něčím.",
       "examples": [
         {
           "de": "Ich kann mich in der Stadt gut orientieren.",
@@ -44880,12 +43350,12 @@ const B1_WORDS = [
         {
           "word": "sich orientieren",
           "meaning": "Orientovat se",
-          "example": "Ich orientiere mich in der Stadt. = Procházel jsem městem."
+          "example": "Orientuji se ve městě."
         },
         {
           "word": "sich informieren",
           "meaning": "Získat informace",
-          "example": "Ich informiere mich über den Kurs. = Dostávám informace o kurzu."
+          "example": "Informuji se o kurzu."
         },
         {
           "word": "sich richten nach",
@@ -45013,7 +43483,7 @@ const B1_WORDS = [
     "de": "Overall",
     "de_article": "der",
     "de_plural": "die Overalls",
-    "lv": "Pracovní kombinézy",
+    "lv": "Pracovní kombinéza",
     "level": "B1"
   },
   {
@@ -45038,7 +43508,7 @@ const B1_WORDS = [
     "de": "Palast",
     "de_article": "der",
     "de_plural": "die Paläste",
-    "lv": "Hrad",
+    "lv": "Palác",
     "level": "B1"
   },
   {
@@ -45052,7 +43522,7 @@ const B1_WORDS = [
     "de": "Panne",
     "de_article": "die",
     "de_plural": "die Pannen",
-    "lv": "Hádanka",
+    "lv": "Porucha",
     "level": "B1"
   },
   {
@@ -45073,7 +43543,7 @@ const B1_WORDS = [
     "de": "Panzer",
     "de_article": "der",
     "de_plural": "die Panzer",
-    "lv": "Nádrž",
+    "lv": "Tank",
     "level": "B1"
   },
   {
@@ -45120,21 +43590,21 @@ const B1_WORDS = [
     "de": "Parkverbot",
     "de_article": "das",
     "de_plural": "die Parkverbote",
-    "lv": "Žádné parkování pro auta",
+    "lv": "Zákaz parkování",
     "level": "B1"
   },
   {
     "de": "Parterre",
     "de_article": "das",
     "de_plural": "die Parterres",
-    "lv": "První patro",
+    "lv": "Přízemí",
     "level": "B1"
   },
   {
     "de": "Partie",
     "de_article": "die",
     "de_plural": "die Partien",
-    "lv": "Hru",
+    "lv": "Hra",
     "level": "B1"
   },
   {
@@ -45148,14 +43618,14 @@ const B1_WORDS = [
     "de": "Passierschein",
     "de_article": "der",
     "de_plural": "die Passierscheine",
-    "lv": "Přihrávka",
+    "lv": "Propustka",
     "level": "B1"
   },
   {
     "de": "Paste",
     "de_article": "die",
     "de_plural": "die Pasten",
-    "lv": "Pošta",
+    "lv": "Pasta",
     "level": "B1"
   },
   {
@@ -45188,7 +43658,7 @@ const B1_WORDS = [
   },
   {
     "de": "peinlich",
-    "lv": "Nepříjemný",
+    "lv": "Trapný",
     "level": "B1"
   },
   {
@@ -45216,19 +43686,19 @@ const B1_WORDS = [
     "de": "Pendelbus",
     "de_article": "der",
     "de_plural": "die Pendelbuse",
-    "lv": "Příměstský autobus",
+    "lv": "Kyvadlový autobus",
     "level": "B1"
   },
   {
     "de": "Pendelzug",
     "de_article": "der",
     "de_plural": "die Pendelzuge",
-    "lv": "Příměstský vlak",
+    "lv": "Kyvadlový vlak",
     "level": "B1"
   },
   {
     "de": "per",
-    "lv": "Pa",
+    "lv": "Za",
     "level": "B1"
   },
   {
@@ -45241,7 +43711,7 @@ const B1_WORDS = [
       "id": "b1-periode",
       "layout": "standardStudy",
       "translation": "Období",
-      "explanation": "Hlavní myšlenka: die Perioda znamená časové období nebo cyklus. V medicíně i v běžném životě může znamenat menstruaci.",
+      "explanation": "Hlavní myšlenka: die Periode znamená časové období nebo cyklus.",
       "examples": [
         {
           "de": "Diese Periode dauerte drei Jahre.",
@@ -45269,7 +43739,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Regel",
-          "meaning": "Menstruace • Také vládnout",
+          "meaning": "Menstruace • Také pravidlo",
           "example": "Sie hat ihre Regel. = Má menstruaci."
         }
       ],
@@ -45359,7 +43829,7 @@ const B1_WORDS = [
     "de": "Personalabteilung",
     "de_article": "die",
     "de_plural": "die Personalabteilungen",
-    "lv": "Personální část",
+    "lv": "Personální oddělení",
     "level": "B1"
   },
   {
@@ -45387,21 +43857,21 @@ const B1_WORDS = [
     "de": "Pfahl",
     "de_article": "der",
     "de_plural": "die Pfähle",
-    "lv": "Pól",
+    "lv": "Kůl",
     "level": "B1"
   },
   {
     "de": "Pfand",
     "de_article": "das",
     "de_plural": "die Pfänder",
-    "lv": "Slib",
+    "lv": "Zástava",
     "level": "B1"
   },
   {
     "de": "Pfarrer",
     "de_article": "der",
     "de_plural": "die Pfarrer",
-    "lv": "Učitel",
+    "lv": "Farář",
     "level": "B1"
   },
   {
@@ -45415,14 +43885,14 @@ const B1_WORDS = [
     "de": "Pfefferminze",
     "de_article": "die",
     "de_plural": "die Pfefferminzen",
-    "lv": "Máta",
+    "lv": "Máta peprná",
     "level": "B1"
   },
   {
     "de": "Pfeife",
     "de_article": "die",
     "de_plural": "die Pfeifen",
-    "lv": "Pískat",
+    "lv": "Píšťalka",
     "level": "B1"
   },
   {
@@ -45441,7 +43911,7 @@ const B1_WORDS = [
     "de": "Pfiff",
     "de_article": "der",
     "de_plural": "die Pfiffe",
-    "lv": "Pískat",
+    "lv": "Písknutí",
     "level": "B1"
   },
   {
@@ -45460,7 +43930,7 @@ const B1_WORDS = [
     "de": "Pfirsichhaut",
     "de_article": "die",
     "de_plural": "die Pfirsichhäute",
-    "lv": "Broskvová kůra",
+    "lv": "Broskvová slupka",
     "level": "B1"
   },
   {
@@ -45481,8 +43951,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-pflegen",
       "layout": "standardStudy",
-      "translation": "Udržovat",
-      "explanation": "Hlavní myšlenka: pflegen znamená pečovat o člověka, kůži, rostlinu nebo věc. Konstrukce pflegen zu + nepravidelnost znamená „mají tendenci“.",
+      "translation": "Pečovat",
+      "explanation": "Konstrukce pflegen zu + infinitiv znamená „mívat ve zvyku“ nebo „mít ve zvyku“.",
       "examples": [
         {
           "de": "Sie pflegt ihre Mutter zu Hause.",
@@ -45500,7 +43970,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "pflegen",
-          "meaning": "Tendenci • Inklinuje dělat",
+          "meaning": "Pečovat • Mívat ve zvyku",
           "example": "Sie pflegt ihre Mutter. = Stará se o svou matku."
         },
         {
@@ -45510,12 +43980,12 @@ const B1_WORDS = [
         },
         {
           "word": "putzen",
-          "meaning": "Vyčistit",
+          "meaning": "Čistit",
           "example": "Ich putze die Küche. = Uklízím kuchyň."
         }
       ],
-      "tip": "Péče je pflegen • Péče šířeji je sich küszimmer um.",
-      "important": "Pflegen zu + nepravidelný je zvláštní, o něco formálnější konstrukce: 'tend to do'.",
+      "tip": "Péče je pflegen • Širší péče je sich kümmern um.",
+      "important": "Pflegen zu + infinitiv je zvláštní, poněkud formálnější konstrukce ve významu „mívat ve zvyku“.",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -45626,7 +44096,7 @@ const B1_WORDS = [
   },
   {
     "de": "pflügen",
-    "lv": "Umění",
+    "lv": "Orat",
     "level": "B1"
   },
   {
@@ -45668,7 +44138,7 @@ const B1_WORDS = [
     "de": "Pier",
     "de_article": "der",
     "de_plural": "die Piers",
-    "lv": "Krtek",
+    "lv": "Molo",
     "level": "B1"
   },
   {
@@ -45708,14 +44178,14 @@ const B1_WORDS = [
     "de": "Plakette",
     "de_article": "die",
     "de_plural": "die Plaketten",
-    "lv": "Brož s nápisem",
+    "lv": "Odznak s nápisem",
     "level": "B1"
   },
   {
     "de": "Plane",
     "de_article": "die",
     "de_plural": "die Planen",
-    "lv": "Velký látkový nebo plastový kryt",
+    "lv": "Plachta",
     "level": "B1"
   },
   {
@@ -45727,17 +44197,17 @@ const B1_WORDS = [
   },
   {
     "de": "plangemäß",
-    "lv": "Plánované",
+    "lv": "Podle plánu",
     "level": "B1"
   },
   {
     "de": "planmäßig",
-    "lv": "Plánované",
+    "lv": "Podle plánu",
     "level": "B1"
   },
   {
     "de": "plantschen",
-    "lv": "Cákat",
+    "lv": "Cachtat se",
     "level": "B1"
   },
   {
@@ -45749,12 +44219,12 @@ const B1_WORDS = [
   },
   {
     "de": "platt",
-    "lv": "Byt",
+    "lv": "Plochý",
     "level": "B1"
   },
   {
     "de": "platzen",
-    "lv": "K prasknutí",
+    "lv": "Prasknout",
     "level": "B1"
   },
   {
@@ -45776,7 +44246,7 @@ const B1_WORDS = [
   },
   {
     "de": "plump",
-    "lv": "Nenasytný",
+    "lv": "Neohrabaný",
     "level": "B1"
   },
   {
@@ -45788,7 +44258,7 @@ const B1_WORDS = [
   },
   {
     "de": "plündern",
-    "lv": "Kořist",
+    "lv": "Plenit",
     "level": "B1"
   },
   {
@@ -45798,12 +44268,12 @@ const B1_WORDS = [
     "study": {
       "id": "b1-pochen",
       "layout": "standardStudy",
-      "translation": "Zaklepat",
+      "translation": "Klepat",
       "explanation": "Hlavní myšlenka: pochen znamená silně klepat nebo bít. pochen auf znamená trvat na svém právu nebo nároku.",
       "examples": [
         {
           "de": "Jemand pocht laut an die Tür.",
-          "lv": "Někdo hlasitě zaklepe na dveře."
+          "lv": "Někdo hlasitě klepe na dveře."
         },
         {
           "de": "Mein Herz pocht schnell.",
@@ -45831,7 +44301,7 @@ const B1_WORDS = [
           "example": "Sie besteht auf einer Antwort. = Trvá na odpovědi."
         }
       ],
-      "tip": "Pochta na dveře nebo srdce • V právu pocht auf.",
+      "tip": "Klepe se na dveře nebo buší srdce • V právu pocht auf.",
       "important": "Auf etwas pochen znamená trvat na něčem spíše než fyzicky klepat.",
       "sectionAccents": {
         "explanation": {
@@ -45970,14 +44440,14 @@ const B1_WORDS = [
     "de": "Police",
     "de_article": "die",
     "de_plural": "die Policen",
-    "lv": "Politika",
+    "lv": "Pojistka",
     "level": "B1"
   },
   {
     "de": "Versicherungspolice",
     "de_article": "die",
     "de_plural": "die Versicherungspolicen",
-    "lv": "Pojistku",
+    "lv": "Pojistka",
     "level": "B1"
   },
   {
@@ -45991,7 +44461,7 @@ const B1_WORDS = [
     "de": "Polizeirevier",
     "de_article": "das",
     "de_plural": "die Polizeireviere",
-    "lv": "Policejní stanici",
+    "lv": "Policejní stanice",
     "level": "B1"
   },
   {
@@ -46005,12 +44475,12 @@ const B1_WORDS = [
     "de": "Polster",
     "de_article": "das",
     "de_plural": "die Polster",
-    "lv": "Čalounění na pohovku",
+    "lv": "Polštář na pohovku",
     "level": "B1"
   },
   {
     "de": "poltern",
-    "lv": "Brousit",
+    "lv": "Rachotit",
     "level": "B1"
   },
   {
@@ -46076,7 +44546,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Posten",
-          "meaning": "Příspěvek, příspěvek, pozice",
+          "meaning": "Post, stanoviště, pozice",
           "example": "Sie bekam einen neuen Posten. = Dostala novou pozici."
         },
         {
@@ -46090,7 +44560,7 @@ const B1_WORDS = [
           "example": "Die Post ist geschlossen. = Pošta je uzavřena."
         }
       ],
-      "tip": "Pozice nebo rozpočtová linie: der Posten • Mail: die Post.",
+      "tip": "Pozice nebo rozpočtová položka: der Posten • Pošta: die Post.",
       "important": "Der Posten není die Post. Článek také mění význam.",
       "sectionAccents": {
         "explanation": {
@@ -46177,7 +44647,7 @@ const B1_WORDS = [
     "de": "Postfach",
     "de_article": "das",
     "de_plural": "die Postfächer",
-    "lv": "Předplatitelská schránka na poště",
+    "lv": "Poštovní přihrádka",
     "level": "B1"
   },
   {
@@ -46194,14 +44664,14 @@ const B1_WORDS = [
     "de": "Praline",
     "de_article": "die",
     "de_plural": "die Pralinen",
-    "lv": "Čokoládové bonbóny s náplní",
+    "lv": "Čokoládový bonbon s náplní",
     "level": "B1"
   },
   {
     "de": "Prämie",
     "de_article": "die",
     "de_plural": "die Prämien",
-    "lv": "Pojistné",
+    "lv": "Prémie",
     "level": "B1"
   },
   {
@@ -46241,12 +44711,12 @@ const B1_WORDS = [
     "de": "Presse",
     "de_article": "die",
     "de_plural": "die Pressen",
-    "lv": "Tisku",
+    "lv": "Tisk",
     "level": "B1"
   },
   {
     "de": "prima",
-    "lv": "První třída",
+    "lv": "Prvotřídní",
     "level": "B1"
   },
   {
@@ -46277,7 +44747,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-probe",
       "layout": "standardStudy",
-      "translation": "Inspekce",
+      "translation": "Zkouška • vzorek",
       "explanation": "Hlavní myšlenka: die Probe znamená test, vzorek nebo pokus. Význam je určen situací.",
       "examples": [
         {
@@ -46310,7 +44780,7 @@ const B1_WORDS = [
           "example": "Das Muster ist kostenlos. = Vzorek je zdarma."
         }
       ],
-      "tip": "Laboratorní, testovací nebo koncertní – sonda může být všude.",
+      "tip": "V laboratoři, při testu i na koncertě může jít o die Probe.",
       "important": "U školní zkoušky se místo die Probe obvykle používá die Prüfung.",
       "sectionAccents": {
         "explanation": {
@@ -46437,7 +44907,7 @@ const B1_WORDS = [
   },
   {
     "de": "prominent",
-    "lv": "Pozoruhodný",
+    "lv": "Významný",
     "level": "B1"
   },
   {
@@ -46475,12 +44945,12 @@ const B1_WORDS = [
     "de": "Prüfzeit",
     "de_article": "die",
     "de_plural": "die Prüfzeiten",
-    "lv": "Zkušební doba",
+    "lv": "Doba zkoušky",
     "level": "B1"
   },
   {
     "de": "prügeln",
-    "lv": "Hit",
+    "lv": "Bít",
     "level": "B1"
   },
   {
@@ -46494,7 +44964,7 @@ const B1_WORDS = [
     "de": "Puder",
     "de_article": "der",
     "de_plural": "die Puder",
-    "lv": "Prášek",
+    "lv": "Pudr",
     "level": "B1"
   },
   {
@@ -46546,7 +45016,7 @@ const B1_WORDS = [
   },
   {
     "de": "quälen",
-    "lv": "Trápení",
+    "lv": "Trápit",
     "level": "B1"
   },
   {
@@ -46590,7 +45060,7 @@ const B1_WORDS = [
   },
   {
     "de": "quer",
-    "lv": "Přes",
+    "lv": "Napříč",
     "level": "B1"
   },
   {
@@ -46609,7 +45079,7 @@ const B1_WORDS = [
   },
   {
     "de": "quetschen",
-    "lv": "Sevření",
+    "lv": "Mačkat",
     "level": "B1"
   },
   {
@@ -46641,7 +45111,7 @@ const B1_WORDS = [
   },
   {
     "de": "rächen",
-    "lv": "Pomstít se",
+    "lv": "Pomstít",
     "level": "B1"
   },
   {
@@ -46659,7 +45129,7 @@ const B1_WORDS = [
     "de": "Radioapparat",
     "de_article": "der",
     "de_plural": "die Radioapparate",
-    "lv": "Rádiový set",
+    "lv": "Radiopřijímač",
     "level": "B1"
   },
   {
@@ -46673,19 +45143,19 @@ const B1_WORDS = [
     "de": "Radiosendung",
     "de_article": "die",
     "de_plural": "die Radiosendungen",
-    "lv": "Rozhlasové vysílání",
+    "lv": "Rozhlasový pořad",
     "level": "B1"
   },
   {
     "de": "Radspur",
     "de_article": "die",
     "de_plural": "die Radspuren",
-    "lv": "Kolejnice kola",
+    "lv": "Stopa kola",
     "level": "B1"
   },
   {
     "de": "ragen",
-    "lv": "Opřít se",
+    "lv": "Vyčnívat",
     "level": "B1"
   },
   {
@@ -46704,8 +45174,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-rang",
       "layout": "standardStudy",
-      "translation": "Pořadí",
-      "explanation": "Hlavní myšlenka: der Rang znamená hodnost, hodnost nebo místo v hierarchii. V divadle to může znamenat úroveň balkonu.",
+      "translation": "Hodnost",
+      "explanation": "Hlavní myšlenka: der Rang znamená hodnost, pořadí nebo místo v hierarchii.",
       "examples": [
         {
           "de": "Er hat einen hohen Rang in der Armee.",
@@ -46723,7 +45193,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Rang",
-          "meaning": "Hodnost, hodnost, místo v hierarchii",
+          "meaning": "Hodnost, pořadí, místo v hierarchii",
           "example": "Er hat einen hohen Rang. = Má vysokou hodnost."
         },
         {
@@ -46824,12 +45294,12 @@ const B1_WORDS = [
     "de": "Ranzen",
     "de_article": "der",
     "de_plural": "die Ranzen",
-    "lv": "Studentský batoh",
+    "lv": "Školní aktovka",
     "level": "B1"
   },
   {
     "de": "rasch",
-    "lv": "Rychle",
+    "lv": "Rychlý",
     "level": "B1"
   },
   {
@@ -46839,8 +45309,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-rasen",
       "layout": "standardStudy",
-      "translation": "Ionizovat",
-      "explanation": "Hlavní myšlenka: rasen znamená spěchat nebo spěchat velmi rychle, často příliš rychle. Pro bouřku to může znamenat běsnění.",
+      "translation": "Řítit se",
+      "explanation": "Hlavní myšlenka: rasen znamená řítit se nebo uhánět velmi rychle, často příliš rychle. O bouři může znamenat zuřit.",
       "examples": [
         {
           "de": "Das Auto rast durch die Stadt.",
@@ -46858,7 +45328,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "rasen",
-          "meaning": "Trápit se, trápit se • Běsnit",
+          "meaning": "Řítit se, uhánět • Zuřit",
           "example": "Das Auto rast. = Auto jede."
         },
         {
@@ -46872,7 +45342,7 @@ const B1_WORDS = [
           "example": "Der Sturm tobt. = Bouře zuří."
         }
       ],
-      "tip": "Pokud rychlost zní příliš rychle, často stačí rychlá.",
+      "tip": "Pokud je rychlost příliš vysoká, často se hodí sloveso rasen.",
       "important": "Rasen není neutrální k řízení • Slovo má nadměrnou rychlost nebo sílu.",
       "sectionAccents": {
         "explanation": {
@@ -47018,12 +45488,12 @@ const B1_WORDS = [
     "study": {
       "id": "b1-rate",
       "layout": "standardStudy",
-      "translation": "Příspěvek",
-      "explanation": "Hlavní myšlenka: sazba je běžnou součástí platby, například nákupu na splátky. der Rat s jedním -e znamená rada.",
+      "translation": "Splátka",
+      "explanation": "Hlavní myšlenka: Rate je pravidelná splátka, například při nákupu na splátky. Der Rat s jedním -e méně znamená rada.",
       "examples": [
         {
           "de": "Ich zahle das Auto in Raten.",
-          "lv": "Auto platím po částech."
+          "lv": "Auto splácím ve splátkách."
         },
         {
           "de": "Die monatliche Rate ist hoch.",
@@ -47037,12 +45507,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Rate",
-          "meaning": "Příspěvek, část platby",
+          "meaning": "Splátka, část platby",
           "example": "Die Rate ist hoch. = Příspěvek je vysoký."
         },
         {
           "word": "der Rat",
-          "meaning": "Radu",
+          "meaning": "Rada",
           "example": "Danke für deinen Rat. = Děkuji za radu."
         },
         {
@@ -47051,7 +45521,7 @@ const B1_WORDS = [
           "example": "Ratenzahlung ist möglich. = Platba na splátky je možná."
         }
       ],
-      "tip": "Sazba s -e na konci je často platební částí.",
+      "tip": "Rate s koncovým -e je často splátka.",
       "important": "Nezaměňujte die Rate s der Rat. Článek a konec mění význam.",
       "sectionAccents": {
         "explanation": {
@@ -47143,14 +45613,14 @@ const B1_WORDS = [
   },
   {
     "de": "ratlos",
-    "lv": "Roztržitý",
+    "lv": "Bezradný",
     "level": "B1"
   },
   {
     "de": "Ratschlag",
     "de_article": "der",
     "de_plural": "die Ratschläge",
-    "lv": "Radu",
+    "lv": "Rada",
     "level": "B1"
   },
   {
@@ -47176,19 +45646,19 @@ const B1_WORDS = [
   },
   {
     "de": "rauben",
-    "lv": "Unést",
+    "lv": "Oloupit",
     "level": "B1"
   },
   {
     "de": "Raucherabteil",
     "de_article": "das",
     "de_plural": "die Raucherabteile",
-    "lv": "Kuřácké oddělení",
+    "lv": "Kuřácké kupé",
     "level": "B1"
   },
   {
     "de": "räuchern",
-    "lv": "Kouřit",
+    "lv": "Udit",
     "level": "B1"
   },
   {
@@ -47198,12 +45668,12 @@ const B1_WORDS = [
     "study": {
       "id": "b1-räumen",
       "layout": "standardStudy",
-      "translation": "Uvolnění",
-      "explanation": "Hlavní myšlenka: räumen znamená uvolnit místo: vyklidit, vyklidit nebo vystěhovat se. aufräumen znamená zařídit.",
+      "translation": "Vyklidit",
+      "explanation": "Hlavní myšlenka: räumen znamená uvolnit místo: vyklidit, uklidit nebo se vystěhovat. aufräumen znamená uklidit.",
       "examples": [
         {
           "de": "Die Polizei räumt die Straße.",
-          "lv": "Policie vyklidila ulici."
+          "lv": "Policie vyklízí ulici."
         },
         {
           "de": "Wir müssen die Wohnung räumen.",
@@ -47211,7 +45681,7 @@ const B1_WORDS = [
         },
         {
           "de": "Bitte räum dein Zimmer auf.",
-          "lv": "Prosím ukliďte si pokoj."
+          "lv": "Prosím, ukliď si pokoj."
         }
       ],
       "comparison": [
@@ -47222,7 +45692,7 @@ const B1_WORDS = [
         },
         {
           "word": "aufräumen",
-          "meaning": "Uspořádat",
+          "meaning": "Uklidit",
           "example": "Ich räume das Zimmer auf. = Uklidím pokoj."
         },
         {
@@ -47342,7 +45812,7 @@ const B1_WORDS = [
         },
         {
           "de": "Der Rausch ließ langsam nach.",
-          "lv": "Závrať pomalu přecházela."
+          "lv": "Opojení pomalu odeznívalo."
         },
         {
           "de": "Sie erlebten einen Rausch der Gefühle.",
@@ -47352,7 +45822,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Rausch",
-          "meaning": "Intoxikace, intoxikace",
+          "meaning": "Opojení, opilost",
           "example": "Er war im Rausch. = Byl opilý."
         },
         {
@@ -47366,8 +45836,8 @@ const B1_WORDS = [
           "example": "Sucht ist gefährlich. = Závislost je nebezpečná."
         }
       ],
-      "tip": "Rausch je stav, kdy je člověk opilý nebo opilý.",
-      "important": "Rausch není jen potěšením • Má nádech intoxikace nebo ztráty kontroly.",
+      "tip": "Rausch je stav, kdy je člověk opilý nebo opojený.",
+      "important": "Rausch není jen potěšení • Má nádech opilosti nebo ztráty kontroly.",
       "sectionAccents": {
         "explanation": {
           "blue": "der Rausch",
@@ -47449,7 +45919,7 @@ const B1_WORDS = [
   },
   {
     "de": "rauschen",
-    "lv": "Šustění",
+    "lv": "Šumět",
     "level": "B1"
   },
   {
@@ -47497,7 +45967,7 @@ const B1_WORDS = [
     "de": "Reck",
     "de_article": "das",
     "de_plural": "die Recke",
-    "lv": "Bar ve sportu",
+    "lv": "Hrazda",
     "level": "B1"
   },
   {
@@ -47518,21 +45988,21 @@ const B1_WORDS = [
     "de": "Redensart",
     "de_article": "die",
     "de_plural": "die Redensarten",
-    "lv": "Výraz",
+    "lv": "Rčení",
     "level": "B1"
   },
   {
     "de": "Redner",
     "de_article": "der",
     "de_plural": "die Redner",
-    "lv": "Reproduktor",
+    "lv": "Řečník",
     "level": "B1"
   },
   {
     "de": "Referat",
     "de_article": "das",
     "de_plural": "die Referate",
-    "lv": "Zpráva",
+    "lv": "Referát",
     "level": "B1"
   },
   {
@@ -47542,8 +46012,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-regeln",
       "layout": "standardStudy",
-      "translation": "Vytřídit",
-      "explanation": "Hlavní myšlenka: regeln znamená urovnat záležitost nebo dát do pořádku proces. Technicky to může také znamenat regulovat.",
+      "translation": "Zařídit",
+      "explanation": "Hlavní myšlenka: regeln znamená vyřídit záležitost nebo upravovat či regulovat proces. Technicky může znamenat také regulovat.",
       "examples": [
         {
           "de": "Wir regeln das morgen.",
@@ -47571,12 +46041,12 @@ const B1_WORDS = [
         },
         {
           "word": "einstellen",
-          "meaning": "Upravit nebo naverbovat",
+          "meaning": "Nastavit nebo zaměstnat",
           "example": "Ich stelle die Heizung ein. = Upravil jsem topení."
         }
       ],
       "tip": "Pokud je třeba záležitost vyřešit, použije se regeln.",
-      "important": "Regeln není jen technická regulace • Velmi často to znamená urovnání případu.",
+      "important": "Regeln není jen technická regulace • Velmi často to znamená vyřízení záležitosti.",
       "sectionAccents": {
         "explanation": {
           "blue": "regeln",
@@ -47670,14 +46140,14 @@ const B1_WORDS = [
     "de": "Regenschauer",
     "de_article": "der",
     "de_plural": "die Regenschauer",
-    "lv": "Liják",
+    "lv": "Dešťová přeháňka",
     "level": "B1"
   },
   {
     "de": "Regie",
     "de_article": "die",
     "de_plural": "die Regien",
-    "lv": "Směr",
+    "lv": "Režie",
     "level": "B1"
   },
   {
@@ -47703,7 +46173,7 @@ const B1_WORDS = [
     "de": "Regisseur",
     "de_article": "der",
     "de_plural": "die Regisseure",
-    "lv": "Ředitel",
+    "lv": "Režisér",
     "level": "B1"
   },
   {
@@ -47744,14 +46214,14 @@ const B1_WORDS = [
   },
   {
     "de": "reifen",
-    "lv": "Dozrát",
+    "lv": "Dozrávat",
     "level": "B1"
   },
   {
     "de": "Reihenfolge",
     "de_article": "die",
     "de_plural": "die Reihenfolgen",
-    "lv": "Sekvence",
+    "lv": "Pořadí",
     "level": "B1"
   },
   {
@@ -47770,7 +46240,7 @@ const B1_WORDS = [
   },
   {
     "de": "reinigen",
-    "lv": "Vyčistit",
+    "lv": "Čistit",
     "level": "B1"
   },
   {
@@ -47814,8 +46284,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-reißen",
       "layout": "standardStudy",
-      "translation": "Prasknutí",
-      "explanation": "Hlavní myšlenka: reißen znamená trhat se nebo něco trhat. Reisen s jedním ß místo toho není totéž – to znamená cestovat.",
+      "translation": "Trhat",
+      "explanation": "Hlavní myšlenka: reißen znamená trhat se nebo něco trhat. Reisen s jedním s místo ß není totéž – znamená cestovat.",
       "examples": [
         {
           "de": "Das Seil reißt.",
@@ -47827,7 +46297,7 @@ const B1_WORDS = [
         },
         {
           "de": "Der Wind reißt die Tür auf.",
-          "lv": "Vítr otvírá dveře."
+          "lv": "Vítr vytrhává dveře."
         }
       ],
       "comparison": [
@@ -47847,8 +46317,8 @@ const B1_WORDS = [
           "example": "Der Ast bricht. = Větev se zlomí."
         }
       ],
-      "tip": "Reißen s ß ​​je trhat/trhat • Reisen s je cestovat.",
-      "important": "Bez předmětu je reißen často rozbitý • S předmětem - roztrhnout nebo odtáhnout.",
+      "tip": "Reißen s ß znamená trhat nebo přetrhnout • Reisen s jedním s znamená cestovat.",
+      "important": "Bez předmětu reißen často znamená přetrhnout se • S předmětem roztrhnout nebo utrhnout.",
       "sectionAccents": {
         "explanation": {
           "blue": "reißen",
@@ -47982,12 +46452,12 @@ const B1_WORDS = [
         },
         {
           "word": "locken",
-          "meaning": "Pokoušet",
+          "meaning": "Lákat",
           "example": "Das Angebot lockt viele Kunden. = Nabídka láká mnoho zákazníků."
         }
       ],
-      "tip": "Dráždí oči, dráždí člověka, výlet láká - všechno se dá reizen.",
-      "important": "Překlad reizen se mění podle objektu, proto si vždy vyhledejte, co je to \"reizen\".",
+      "tip": "Oči něco dráždí, člověka něco rozčiluje a cesta někoho láká – to vše může vyjadřovat reizen.",
+      "important": "Překlad reizen se mění podle předmětu, proto vždy sledujte, k čemu se reizen vztahuje.",
       "sectionAccents": {
         "explanation": {
           "blue": "reizen",
@@ -48078,7 +46548,7 @@ const B1_WORDS = [
   },
   {
     "de": "reizend",
-    "lv": "Pěkný",
+    "lv": "Kouzelný",
     "level": "B1"
   },
   {
@@ -48088,21 +46558,21 @@ const B1_WORDS = [
   },
   {
     "de": "reklamieren",
-    "lv": "Podat stížnost",
+    "lv": "Reklamovat",
     "level": "B1"
   },
   {
     "de": "Rekord",
     "de_article": "der",
     "de_plural": "die Rekorde",
-    "lv": "Záznam",
+    "lv": "Rekord",
     "level": "B1"
   },
   {
     "de": "Rekorder",
     "de_article": "der",
     "de_plural": "die Rekorder",
-    "lv": "Hráč",
+    "lv": "Rekordér",
     "level": "B1"
   },
   {
@@ -48177,7 +46647,7 @@ const B1_WORDS = [
     "de": "Reserve",
     "de_article": "die",
     "de_plural": "die Reserven",
-    "lv": "Rezervovat",
+    "lv": "Rezerva",
     "level": "B1"
   },
   {
@@ -48201,7 +46671,7 @@ const B1_WORDS = [
     "de": "Rettung",
     "de_article": "die",
     "de_plural": "die Rettungen",
-    "lv": "Zachránit",
+    "lv": "Záchrana",
     "level": "B1"
   },
   {
@@ -48221,7 +46691,7 @@ const B1_WORDS = [
   {
     "de": "Reue",
     "de_article": "die",
-    "lv": "Litovat",
+    "lv": "Lítost",
     "level": "B1"
   },
   {
@@ -48257,8 +46727,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-richten",
       "layout": "standardStudy",
-      "translation": "Řídit",
-      "explanation": "Hlavní myšlenka: richten znamená ukazovat nebo řešit něco určitým směrem. Právně to může znamenat i žalovat.",
+      "translation": "Směřovat",
+      "explanation": "Hlavní myšlenka: richten znamená směřovat nebo adresovat něco určitým směrem. Právně může znamenat také soudit.",
       "examples": [
         {
           "de": "Sie richtet den Blick nach vorn.",
@@ -48276,7 +46746,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "richten",
-          "meaning": "Přímý, adresný • Soudce",
+          "meaning": "Směřovat, adresovat • Soudit",
           "example": "Sie richtet den Blick nach vorn. = Dívá se dopředu."
         },
         {
@@ -48291,7 +46761,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Směr nebo adresát - richten.",
-      "important": "Richten není běžné posílat • Často to znamená upřít pohled, otázku nebo pozornost.",
+      "important": "Richten není běžné posílat • Často znamená zaměřit pohled, směřovat otázku nebo zaměřit pozornost.",
       "sectionAccents": {
         "explanation": {
           "blue": "richten",
@@ -48424,20 +46894,20 @@ const B1_WORDS = [
   },
   {
     "de": "ringen",
-    "lv": "Bojovat",
+    "lv": "Zápasit",
     "level": "B1"
   },
   {
     "de": "Ringen",
     "de_article": "das",
-    "lv": "Boj",
+    "lv": "Zápas",
     "level": "B1"
   },
   {
     "de": "Ringkampf",
     "de_article": "der",
     "de_plural": "die Ringkämpfe",
-    "lv": "Boj",
+    "lv": "Zápas",
     "level": "B1"
   },
   {
@@ -48449,7 +46919,7 @@ const B1_WORDS = [
     "de": "Rinne",
     "de_article": "die",
     "de_plural": "die Rinnen",
-    "lv": "Padák",
+    "lv": "Žlab",
     "level": "B1"
   },
   {
@@ -48480,7 +46950,7 @@ const B1_WORDS = [
     "de": "Riss",
     "de_article": "der",
     "de_plural": "die Risse",
-    "lv": "Mezera",
+    "lv": "Prasklina",
     "level": "B1"
   },
   {
@@ -48494,7 +46964,7 @@ const B1_WORDS = [
     "de": "Ritze",
     "de_article": "die",
     "de_plural": "die Ritzen",
-    "lv": "Mezera",
+    "lv": "Škvíra",
     "level": "B1"
   },
   {
@@ -48532,8 +47002,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-rollen",
       "layout": "standardStudy",
-      "translation": "Válet se",
-      "explanation": "Hlavní myšlenka: rollen znamená válet se nebo něco válet/valit. Význam je určen tím, zda existuje předmět.",
+      "translation": "Kutálet se",
+      "explanation": "Hlavní myšlenka: rollen znamená kutálet se nebo něco kutálet či srolovat. Význam určuje, zda má sloveso předmět.",
       "examples": [
         {
           "de": "Der Ball rollt über den Boden.",
@@ -48551,7 +47021,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "rollen",
-          "meaning": "Válet, válet, válet",
+          "meaning": "Kutálet se, kutálet, srolovat",
           "example": "Der Ball rollt. = Míč se kutálí."
         },
         {
@@ -48565,8 +47035,8 @@ const B1_WORDS = [
           "example": "Er schiebt den Wagen. = Tlačí vozík."
         }
       ],
-      "tip": "Kulatý pohyb vpřed - rolování.",
-      "important": "Pokud se věc pohybuje sama od sebe, rollen se často překládá jako válení • S předmětem - srolovat nebo srolovat.",
+      "tip": "Pohyb po kruhové dráze vpřed – rollen.",
+      "important": "Pokud se věc pohybuje sama, rollen se často překládá jako kutálet se • S předmětem znamená kutálet nebo srolovat.",
       "sectionAccents": {
         "explanation": {
           "blue": "rollen",
@@ -48663,7 +47133,7 @@ const B1_WORDS = [
     "de": "Rollstuhl",
     "de_article": "der",
     "de_plural": "die Rollstühle",
-    "lv": "Invalidní vozíky",
+    "lv": "Invalidní vozík",
     "level": "B1"
   },
   {
@@ -48685,8 +47155,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-rösten",
       "layout": "standardStudy",
-      "translation": "Na opékání",
-      "explanation": "Hlavní myšlenka: rösten znamená pražit nebo pražit jídlo, zejména kávu, chléb, semena nebo ořechy.",
+      "translation": "Pražit, opékat",
+      "explanation": "Hlavní myšlenka: rösten znamená pražit nebo opékat potraviny, zejména kávu, chléb, semena nebo ořechy.",
       "examples": [
         {
           "de": "Wir rösten Kaffee.",
@@ -48704,7 +47174,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "rösten",
-          "meaning": "Opékat, opékat",
+          "meaning": "Pražit, opékat",
           "example": "Wir rösten Kaffee. = Pražíme kávu."
         },
         {
@@ -48714,7 +47184,7 @@ const B1_WORDS = [
         },
         {
           "word": "backen",
-          "meaning": "Pečeme těsto nebo chleba v troubě",
+          "meaning": "Péct těsto nebo chléb v troubě",
           "example": "Sie backt Brot. = Peče chleba."
         }
       ],
@@ -48837,7 +47307,7 @@ const B1_WORDS = [
     "de": "Ruck",
     "de_article": "der",
     "de_plural": "die Rucke",
-    "lv": "Blbec",
+    "lv": "Trhnutí",
     "level": "B1"
   },
   {
@@ -48857,7 +47327,7 @@ const B1_WORDS = [
     "de": "Rücksicht",
     "de_article": "die",
     "de_plural": "die Rücksichten",
-    "lv": "Zúčtování",
+    "lv": "Ohled",
     "level": "B1"
   },
   {
@@ -48869,14 +47339,14 @@ const B1_WORDS = [
   },
   {
     "de": "rückwärts",
-    "lv": "Zadní",
+    "lv": "Dozadu",
     "level": "B1"
   },
   {
     "de": "Rückwärtsgang",
     "de_article": "der",
     "de_plural": "die Rückwärtsgänge",
-    "lv": "Zpátečky",
+    "lv": "Zpátečka",
     "level": "B1"
   },
   {
@@ -48919,12 +47389,12 @@ const B1_WORDS = [
     "study": {
       "id": "b1-ruf-2",
       "layout": "standardStudy",
-      "translation": "Pláč",
-      "explanation": "Hlavní myšlenka: der Ruf znamená výkřik nebo apel. Pro osobu, firmu nebo instituci to často znamená pověst.",
+      "translation": "Volání • Pověst",
+      "explanation": "Hlavní myšlenka: der Ruf znamená volání nebo výkřik. U osoby, firmy nebo instituce často znamená pověst.",
       "examples": [
         {
           "de": "Ich hörte einen lauten Ruf.",
-          "lv": "Slyšel jsem hlasitý pláč."
+          "lv": "Slyšel jsem hlasité volání."
         },
         {
           "de": "Der Ruf kam aus dem Wald.",
@@ -48938,7 +47408,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Ruf",
-          "meaning": "Plakat • Pověst",
+          "meaning": "Volání • Pověst",
           "example": "Ich hörte einen Ruf. = Slyšel jsem pláč."
         },
         {
@@ -48952,7 +47422,7 @@ const B1_WORDS = [
           "example": "Ruhm ist nicht alles. = Sláva není všechno."
         }
       ],
-      "tip": "Výkřik nebo pověst hlasu: der Ruf.",
+      "tip": "Volání nebo pověst: der Ruf.",
       "important": "Ruf není stejný jako Ruhm. Ruhm je sláva, ale Ruf je často pověst.",
       "sectionAccents": {
         "explanation": {
@@ -49042,7 +47512,7 @@ const B1_WORDS = [
       "id": "b1-ruhen",
       "layout": "standardStudy",
       "translation": "Odpočívat",
-      "explanation": "Hlavní myšlenka: ruhen znamená být v klidu, odpočívat nebo na čas přestat. V běžném životě se člověku často říká sich ausruhen.",
+      "explanation": "Hlavní myšlenka: ruhen znamená být v klidu, odpočívat nebo dočasně neprobíhat. V běžné řeči se pro odpočinek člověka častěji používá sich ausruhen.",
       "examples": [
         {
           "de": "Nach der Arbeit ruht er sich aus.",
@@ -49060,7 +47530,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "ruhen",
-          "meaning": "Buď v klidu, nepokračuj",
+          "meaning": "Být v klidu • Neprobíhat",
           "example": "Das Verfahren ruht. = Proces je pozastaven."
         },
         {
@@ -49075,7 +47545,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Mír nebo pauza: ruhen • Denní odpočinek: sich ausruhen.",
-      "important": "Ruhen zní formálněji než sich ausruhen, zejména procesů nebo věcí.",
+      "important": "Ruhen zní formálněji než sich ausruhen, zejména u procesů nebo věcí.",
       "sectionAccents": {
         "explanation": {
           "blue": "ruhen",
@@ -49183,7 +47653,7 @@ const B1_WORDS = [
     "de": "Ruine",
     "de_article": "die",
     "de_plural": "die Ruinen",
-    "lv": "Ruiny",
+    "lv": "Ruina",
     "level": "B1"
   },
   {
@@ -49197,26 +47667,26 @@ const B1_WORDS = [
     "de": "Runde",
     "de_article": "die",
     "de_plural": "die Runden",
-    "lv": "Kruh",
+    "lv": "Kolo",
     "level": "B1"
   },
   {
     "de": "Rundfahrt",
     "de_article": "die",
     "de_plural": "die Rundfahrten",
-    "lv": "Výletní výlet",
+    "lv": "Okružní jízda",
     "level": "B1"
   },
   {
     "de": "Rundreise",
     "de_article": "die",
     "de_plural": "die Rundreisen",
-    "lv": "Poznávací výlet",
+    "lv": "Okružní cesta",
     "level": "B1"
   },
   {
     "de": "rupfen",
-    "lv": "Vybrat si",
+    "lv": "Škubat",
     "level": "B1"
   },
   {
@@ -49230,7 +47700,7 @@ const B1_WORDS = [
     "de": "Rüssel",
     "de_article": "der",
     "de_plural": "die Rüssel",
-    "lv": "Čenich",
+    "lv": "Chobot",
     "level": "B1"
   },
   {
@@ -49240,8 +47710,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-rüsten",
       "layout": "standardStudy",
-      "translation": "Připravit",
-      "explanation": "Hlavní myšlenka: rüsten znamená připravit nebo vybavit. Ve vojenském kontextu to znamená zbrojit nebo zbrojit.",
+      "translation": "Připravovat se • Vybavovat",
+      "explanation": "Hlavní myšlenka: rüsten znamená připravovat se nebo vybavovat se. Ve vojenském kontextu to znamená zbrojit nebo vyzbrojovat.",
       "examples": [
         {
           "de": "Wir rüsten uns für den Winter.",
@@ -49270,10 +47740,10 @@ const B1_WORDS = [
         {
           "word": "aufrüsten",
           "meaning": "Posílit výzbroj",
-          "example": "Der Staat rüstet auf. = Země je ozbrojená."
+          "example": "Stát zbrojí."
         }
       ],
-      "tip": "Pokud příprava zahrnuje vybavení, der rüsten.",
+      "tip": "Pokud příprava zahrnuje vybavení, použijte rüsten.",
       "important": "Ve vojenském kontextu jsou rüsten a aufrüsten spojovány s ozbrojováním.",
       "sectionAccents": {
         "explanation": {
@@ -49362,7 +47832,7 @@ const B1_WORDS = [
     "de": "Rute",
     "de_article": "die",
     "de_plural": "die Ruten",
-    "lv": "Nástroj",
+    "lv": "Prut",
     "level": "B1"
   },
   {
@@ -49374,7 +47844,7 @@ const B1_WORDS = [
   },
   {
     "de": "rütteln",
-    "lv": "Třást se",
+    "lv": "Třást",
     "level": "B1"
   },
   {
@@ -49386,27 +47856,27 @@ const B1_WORDS = [
     "study": {
       "id": "b1-saat",
       "layout": "standardStudy",
-      "translation": "Semínko",
-      "explanation": "Hlavní myšlenka: die Saat znamená semeno, setí nebo oseté pole. Pro jedno jednotlivé semeno se častěji používá der Samen.",
+      "translation": "Osivo • Setba",
+      "explanation": "Hlavní myšlenka: die Saat znamená osivo, setbu nebo oseté pole. Pro jedno jednotlivé semeno se častěji používá der Samen.",
       "examples": [
         {
           "de": "Die Saat geht auf.",
-          "lv": "Svazek klíčí."
+          "lv": "Osivo klíčí."
         },
         {
           "de": "Der Bauer bringt die Saat aus.",
-          "lv": "Farmář zaseje semeno."
+          "lv": "Farmář zaseje osivo."
         },
         {
           "de": "Die Saat steht gut.",
-          "lv": "Objem dobře roste."
+          "lv": "Osivo dobře roste."
         }
       ],
       "comparison": [
         {
           "word": "die Saat",
-          "meaning": "Semeno, sv",
-          "example": "Die Saat geht auf. = Objem klíčí."
+          "meaning": "Osivo, setba",
+          "example": "Osivo klíčí."
         },
         {
           "word": "der Samen",
@@ -49415,11 +47885,11 @@ const B1_WORDS = [
         },
         {
           "word": "säen",
-          "meaning": "Prasnice",
+          "meaning": "Osévat",
           "example": "Wir säen Weizen. = Sejeme pšenici."
         }
       ],
-      "tip": "Pole a vůbec oseté: die Saat.",
+      "tip": "Oseté pole a osivo jako celek: die Saat.",
       "important": "V každodenním životě je bezpečnější slovo pro jedno semeno der Samen.",
       "sectionAccents": {
         "explanation": {
@@ -49503,7 +47973,7 @@ const B1_WORDS = [
   },
   {
     "de": "sachlich",
-    "lv": "Praktický",
+    "lv": "Věcný",
     "level": "B1"
   },
   {
@@ -49515,14 +47985,14 @@ const B1_WORDS = [
   },
   {
     "de": "säen",
-    "lv": "Prasnice",
+    "lv": "Síti",
     "level": "B1"
   },
   {
     "de": "Sage",
     "de_article": "die",
     "de_plural": "die Sagen",
-    "lv": "Řekl",
+    "lv": "Legenda",
     "level": "B1"
   },
   {
@@ -49535,7 +48005,7 @@ const B1_WORDS = [
     "de": "Saite",
     "de_article": "die",
     "de_plural": "die Saiten",
-    "lv": "Řetězec",
+    "lv": "Struna",
     "level": "B1"
   },
   {
@@ -49549,7 +48019,7 @@ const B1_WORDS = [
     "de": "Salon",
     "de_article": "der",
     "de_plural": "die Salons",
-    "lv": "Některé ne. salonek",
+    "lv": "Salon",
     "level": "B1"
   },
   {
@@ -49589,14 +48059,14 @@ const B1_WORDS = [
   },
   {
     "de": "sanft",
-    "lv": "Měkký",
+    "lv": "Jemný",
     "level": "B1"
   },
   {
     "de": "Sanitäter",
     "de_article": "der",
     "de_plural": "die Sanitäter",
-    "lv": "Sanitární pracovník",
+    "lv": "Zdravotník",
     "level": "B1"
   },
   {
@@ -49615,7 +48085,7 @@ const B1_WORDS = [
   },
   {
     "de": "satteln",
-    "lv": "Sedlat se",
+    "lv": "Sedlat",
     "level": "B1"
   },
   {
@@ -49660,14 +48130,14 @@ const B1_WORDS = [
     "de": "Säule",
     "de_article": "die",
     "de_plural": "die Säulen",
-    "lv": "Sloupec",
+    "lv": "Sloup",
     "level": "B1"
   },
   {
     "de": "Saum",
     "de_article": "der",
     "de_plural": "die Säume",
-    "lv": "Pohraniční",
+    "lv": "Lem",
     "level": "B1"
   },
   {
@@ -49700,7 +48170,7 @@ const B1_WORDS = [
     "de": "Schacht",
     "de_article": "der",
     "de_plural": "die Schächte",
-    "lv": "Hřídel",
+    "lv": "Šachta",
     "level": "B1"
   },
   {
@@ -49719,7 +48189,7 @@ const B1_WORDS = [
     "de": "Schaffner",
     "de_article": "der",
     "de_plural": "die Schaffner",
-    "lv": "Dirigent",
+    "lv": "Průvodčí",
     "level": "B1"
   },
   {
@@ -49731,12 +48201,12 @@ const B1_WORDS = [
     "study": {
       "id": "b1-schale",
       "layout": "standardStudy",
-      "translation": "Kůra",
-      "explanation": "Hlavní myšlenka: die Schale je kůra, skořápka nebo vnější obal ovoce. Může to také znamenat misku nebo nádobu.",
+      "translation": "Slupka • Skořápka • Miska",
+      "explanation": "Hlavní myšlenka: die Schale je slupka, skořápka nebo vnější obal ovoce. Může to také znamenat misku nebo nádobu.",
       "examples": [
         {
           "de": "Die Schale der Orange ist dick.",
-          "lv": "Pomerančová kůra je hustá."
+          "lv": "Pomerančová slupka je tlustá."
         },
         {
           "de": "Die Nuss hat eine harte Schale.",
@@ -49744,13 +48214,13 @@ const B1_WORDS = [
         },
         {
           "de": "Stell die Schale auf den Tisch.",
-          "lv": "Položte misku na stůl."
+          "lv": "Polož misku na stůl."
         }
       ],
       "comparison": [
         {
           "word": "die Schale",
-          "meaning": "Kůra, skořápka • Miska",
+          "meaning": "Slupka, skořápka • Miska",
           "example": "Die Schale der Orange ist dick. = Pomerančová kůra je hustá."
         },
         {
@@ -49764,8 +48234,8 @@ const B1_WORDS = [
           "example": "Die Schüssel ist leer. = Miska je prázdná."
         }
       ],
-      "tip": "Pro ovoce a ořechy Schale • Pro řádek stromu.",
-      "important": "Na kůru stromů se obvykle používá Die Rinde, nikoli die Schale.",
+      "tip": "Pro ovoce a ořechy Schale • Pro kůru stromu Rinde.",
+      "important": "Na kůru stromů se obvykle používá die Rinde, nikoli die Schale.",
       "sectionAccents": {
         "explanation": {
           "blue": "die Schale",
@@ -49863,7 +48333,7 @@ const B1_WORDS = [
   {
     "de": "Scham",
     "de_article": "die",
-    "lv": "Ostuda",
+    "lv": "Stud",
     "level": "B1"
   },
   {
@@ -49876,12 +48346,12 @@ const B1_WORDS = [
     "de": "Schar",
     "de_article": "die",
     "de_plural": "die Scharen",
-    "lv": "Parta",
+    "lv": "Zástup",
     "level": "B1"
   },
   {
     "de": "schärfen",
-    "lv": "Zbystřit",
+    "lv": "Naostřit",
     "level": "B1"
   },
   {
@@ -49898,7 +48368,7 @@ const B1_WORDS = [
   },
   {
     "de": "schaufeln",
-    "lv": "Lopatou",
+    "lv": "Házet lopatou",
     "level": "B1"
   },
   {
@@ -49924,7 +48394,7 @@ const B1_WORDS = [
     "de": "Scheck",
     "de_article": "der",
     "de_plural": "die Schecks",
-    "lv": "Kontrola",
+    "lv": "Šek",
     "level": "B1"
   },
   {
@@ -49962,7 +48432,7 @@ const B1_WORDS = [
   },
   {
     "de": "scheren",
-    "lv": "Řezat",
+    "lv": "Stříhat",
     "level": "B1"
   },
   {
@@ -49974,7 +48444,7 @@ const B1_WORDS = [
     "de": "Scheune",
     "de_article": "die",
     "de_plural": "die Scheunen",
-    "lv": "Kůlna",
+    "lv": "Stodola",
     "level": "B1"
   },
   {
@@ -49987,7 +48457,7 @@ const B1_WORDS = [
       "id": "b1-schicht",
       "layout": "standardStudy",
       "translation": "Vrstva",
-      "explanation": "Hlavní myšlenka: die Schicht znamená vrstva nebo vrstva. V pracovním kontextu to znamená změnu.",
+      "explanation": "Hlavní myšlenka: die Schicht znamená vrstvu nebo směnu. V pracovním kontextu to znamená pracovní směnu.",
       "examples": [
         {
           "de": "Auf dem Boden liegt eine Schicht Staub.",
@@ -50005,12 +48475,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Schicht",
-          "meaning": "Vrstva, kulatá • Směna prac",
+          "meaning": "Vrstva, vrstva • Pracovní směna",
           "example": "Eine Schicht Staub liegt dort. = Je tam vrstva prachu."
         },
         {
           "word": "die Lage",
-          "meaning": "Situaci nebo pozici",
+          "meaning": "Situace nebo poloha",
           "example": "Die Lage ist ernst. = Situace je vážná."
         },
         {
@@ -50019,8 +48489,8 @@ const B1_WORDS = [
           "example": "Schichtarbeit ist anstrengend. = Práce na směny je únavná."
         }
       ],
-      "tip": "Povrch má Schicht • Práce může mít Schicht jako směnu.",
-      "important": "V pracovním kontextu Schicht často znamená spíše posun než vrstvu.",
+      "tip": "Na povrchu je vrstva • V práci může Schicht znamenat směnu.",
+      "important": "V pracovním kontextu Schicht často znamená spíše směnu než vrstvu.",
       "sectionAccents": {
         "explanation": {
           "blue": "die Schicht",
@@ -50115,14 +48585,14 @@ const B1_WORDS = [
     "de": "Schiene",
     "de_article": "die",
     "de_plural": "die Schienen",
-    "lv": "Železniční",
+    "lv": "Kolej",
     "level": "B1"
   },
   {
     "de": "Schifffahrt",
     "de_article": "die",
     "de_plural": "die Schifffahrten",
-    "lv": "Expedice",
+    "lv": "Lodní doprava",
     "level": "B1"
   },
   {
@@ -50189,7 +48659,7 @@ const B1_WORDS = [
         },
         {
           "word": "das Pferd",
-          "meaning": "Koně",
+          "meaning": "Kůň",
           "example": "Das Pferd läuft schnell. = Kůň běží rychle."
         }
       ],
@@ -50278,12 +48748,12 @@ const B1_WORDS = [
   },
   {
     "de": "schimmern",
-    "lv": "Zazářit",
+    "lv": "Třpytit se",
     "level": "B1"
   },
   {
     "de": "schimpfen",
-    "lv": "Proklínat",
+    "lv": "Nadávat",
     "level": "B1"
   },
   {
@@ -50302,14 +48772,14 @@ const B1_WORDS = [
   },
   {
     "de": "schlachten",
-    "lv": "Porážka",
+    "lv": "Porážet",
     "level": "B1"
   },
   {
     "de": "Schläfe",
     "de_article": "die",
     "de_plural": "die Schläfen",
-    "lv": "Chrámy",
+    "lv": "Spánky",
     "level": "B1"
   },
   {
@@ -50348,7 +48818,7 @@ const B1_WORDS = [
       "id": "b1-schlag",
       "layout": "standardStudy",
       "translation": "Rána",
-      "explanation": "Hlavní myšlenka: der Schlag znamená úder nebo úder. V kontextu to může být také úder blesku, úder hodin nebo typ.",
+      "explanation": "Hlavní myšlenka: der Schlag znamená úder nebo ránu. V kontextu může označovat také úder blesku, úder hodin nebo typ.",
       "examples": [
         {
           "de": "Der Schlag traf ihn am Arm.",
@@ -50356,7 +48826,7 @@ const B1_WORDS = [
         },
         {
           "de": "Ein Schlag traf den Baum.",
-          "lv": "Do stromu udeřil blesk."
+          "lv": "Strom zasáhla rána."
         },
         {
           "de": "Die Uhr tut zwölf Schläge.",
@@ -50366,12 +48836,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Schlag",
-          "meaning": "Rána, rána • V kontextu kopanec",
+          "meaning": "Úder, rána • V kontextu úder blesku",
           "example": "Der Schlag traf ihn. = Rána ho zasáhla."
         },
         {
           "word": "der Stoß",
-          "meaning": "Tlak",
+          "meaning": "Strčení • Náraz",
           "example": "Der Stoß war stark. = Tlak byl silný."
         },
         {
@@ -50381,7 +48851,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Náhlá rána: platí Schlag.",
-      "important": "Schlag je vysoce kontextový • Blesk v češtině často znamená kop.",
+      "important": "Schlag je velmi závislý na kontextu • U blesku se v češtině často říká úder blesku.",
       "sectionAccents": {
         "explanation": {
           "blue": "der Schlag",
@@ -50510,7 +48980,7 @@ const B1_WORDS = [
   },
   {
     "de": "schleichen",
-    "lv": "Krást",
+    "lv": "Plížit se",
     "level": "B1"
   },
   {
@@ -50553,12 +49023,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "schleifen",
-          "meaning": "Brousit, brousit • Táhnout po zemi",
+          "meaning": "Brousit, ostřit • Táhnout po zemi",
           "example": "Er schleift das Messer. = Ostří nůž."
         },
         {
           "word": "schärfen",
-          "meaning": "Zbystřit",
+          "meaning": "Ostřit",
           "example": "Ich schärfe das Messer. = Ostřím nůž."
         },
         {
@@ -50662,24 +49132,24 @@ const B1_WORDS = [
   },
   {
     "de": "schlendern",
-    "lv": "Bloudit",
+    "lv": "Loudat se",
     "level": "B1"
   },
   {
     "de": "schleppen",
-    "lv": "Protáhnout se",
+    "lv": "Vláčet",
     "level": "B1"
   },
   {
     "de": "schleudern",
-    "lv": "Hod",
+    "lv": "Házet",
     "level": "B1"
   },
   {
     "de": "Schleuse",
     "de_article": "die",
     "de_plural": "die Schleusen",
-    "lv": "Zámky",
+    "lv": "Plavební komora",
     "level": "B1"
   },
   {
@@ -50691,7 +49161,7 @@ const B1_WORDS = [
     "de": "Schließfach",
     "de_article": "das",
     "de_plural": "die Schließfächer",
-    "lv": "Uzamykatelná přihrádka v úschovně zavazadel stanice",
+    "lv": "Zamykatelná skříňka",
     "level": "B1"
   },
   {
@@ -50703,14 +49173,14 @@ const B1_WORDS = [
   },
   {
     "de": "schlingen",
-    "lv": "Kroutit",
+    "lv": "Ovíjet",
     "level": "B1"
   },
   {
     "de": "Schlitz",
     "de_article": "der",
     "de_plural": "die Schlitze",
-    "lv": "Mezera",
+    "lv": "Štěrbina",
     "level": "B1"
   },
   {
@@ -50748,7 +49218,7 @@ const B1_WORDS = [
   },
   {
     "de": "schlummern",
-    "lv": "Zdřímnout si",
+    "lv": "Dřímat",
     "level": "B1"
   },
   {
@@ -50760,12 +49230,12 @@ const B1_WORDS = [
     "de": "Schmalz",
     "de_article": "das",
     "de_plural": "die Schmalze",
-    "lv": "Tavený tuk",
+    "lv": "Sádlo",
     "level": "B1"
   },
   {
     "de": "schmeißen",
-    "lv": "Hod",
+    "lv": "Házet",
     "level": "B1"
   },
   {
@@ -50794,7 +49264,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "schmelzen",
-          "meaning": "Roztavit nebo roztavit",
+          "meaning": "Tát nebo tavit",
           "example": "Der Schnee schmilzt. = Sníh taje."
         },
         {
@@ -50808,7 +49278,7 @@ const B1_WORDS = [
           "example": "Das Wasser kocht. = Voda se vaří."
         }
       ],
-      "tip": "Self → taje • S předmětem → roztavit.",
+      "tip": "Samo → taje • S předmětem → tavit.",
       "important": "Schmelzen není totéž co auftauen. auftauen znamená rozmrazit.",
       "sectionAccents": {
         "explanation": {
@@ -50905,7 +49375,7 @@ const B1_WORDS = [
   },
   {
     "de": "schmerzen",
-    "lv": "Ublížit",
+    "lv": "Bolet",
     "level": "B1"
   },
   {
@@ -50922,7 +49392,7 @@ const B1_WORDS = [
   },
   {
     "de": "schmieden",
-    "lv": "Kovárna",
+    "lv": "Kovat",
     "level": "B1"
   },
   {
@@ -50933,7 +49403,7 @@ const B1_WORDS = [
       "id": "b1-schmieren",
       "layout": "standardStudy",
       "translation": "Namazat",
-      "explanation": "Hlavní myšlenka: schmieren znamená rozmazat, rozmazat nebo rozmazat povrch. Hovorově to také může znamenat psát nedbale nebo čmárat.",
+      "explanation": "Hlavní myšlenka: schmieren znamená mazat, natírat nebo rozmazávat povrch. Hovorově to také může znamenat psát nedbale nebo něco počmárat.",
       "examples": [
         {
           "de": "Sie schmiert Butter aufs Brot.",
@@ -50945,18 +49415,18 @@ const B1_WORDS = [
         },
         {
           "de": "Das Kind schmiert an die Wand.",
-          "lv": "Dítě drápalo do zdi."
+          "lv": "Dítě čmárá na zeď."
         }
       ],
       "comparison": [
         {
           "word": "schmieren",
-          "meaning": "Mazat, mazat, mazat",
+          "meaning": "Mazat, natírat, čmárat",
           "example": "Sie schmiert Butter aufs Brot. = Maže máslo na chleba."
         },
         {
           "word": "streichen",
-          "meaning": "Kvést, malovat pohybem štětce",
+          "meaning": "Natírat, malovat tahem štětce",
           "example": "Er streicht die Wand. = Maluje zeď."
         },
         {
@@ -50965,8 +49435,8 @@ const B1_WORDS = [
           "example": "Ich öle die Kette. = Mažu řetěz."
         }
       ],
-      "tip": "Tuk, máslo, olej nebo tuk → schmieren.",
-      "important": "Schmieren často zní chaoticky než jednoduše streichen.",
+      "tip": "Tuk, máslo, olej nebo něco rozmazaného → schmieren.",
+      "important": "Schmieren často zní chaotičtěji než prosté streichen.",
       "sectionAccents": {
         "explanation": {
           "blue": "schmieren",
@@ -51078,7 +49548,7 @@ const B1_WORDS = [
       "id": "b1-schmücken",
       "layout": "standardStudy",
       "translation": "Ozdobit",
-      "explanation": "Hlavní myšlenka: schmücken znamená ozdobit nebo ozdobit místnost, předmět nebo osobu. sich schmücken znamená ozdobit se.",
+      "explanation": "Hlavní myšlenka: schmücken znamená zdobit nebo vyzdobit místnost, předmět či osobu. sich schmücken znamená zdobit se.",
       "examples": [
         {
           "de": "Wir schmücken den Weihnachtsbaum.",
@@ -51096,7 +49566,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "schmücken",
-          "meaning": "Ozdobit, ozdobit",
+          "meaning": "Zdobit, vyzdobit",
           "example": "Wir schmücken den Baum. = Zdobíme vánoční stromeček."
         },
         {
@@ -51111,7 +49581,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Pokud se něco stane krásnějším s ozdobami, použijte schmücken.",
-      "important": "Sich schmücken je ozdobit • Schmücken without sich obvykle znamená ozdobit něco jiného.",
+      "important": "Sich schmücken znamená zdobit se • Schmücken bez sich obvykle znamená zdobit něco jiného.",
       "sectionAccents": {
         "explanation": {
           "blue": "schmücken",
@@ -51217,7 +49687,7 @@ const B1_WORDS = [
     "de": "Schnaps",
     "de_article": "der",
     "de_plural": "die Schnäpse",
-    "lv": "Vodka",
+    "lv": "Pálenka",
     "level": "B1"
   },
   {
@@ -51242,7 +49712,7 @@ const B1_WORDS = [
   {
     "de": "Schneetreiben",
     "de_article": "das",
-    "lv": "Husté sněžení",
+    "lv": "Sněhová vánice",
     "level": "B1"
   },
   {
@@ -51256,21 +49726,21 @@ const B1_WORDS = [
     "de": "Schneider",
     "de_article": "der",
     "de_plural": "die Schneider",
-    "lv": "Přizpůsobit",
+    "lv": "Krejčí",
     "level": "B1"
   },
   {
     "de": "Schneiderin",
     "de_article": "die",
     "de_plural": "die Schneiderinnen",
-    "lv": "Šila",
+    "lv": "Švadlena",
     "level": "B1"
   },
   {
     "de": "Schnellzug",
     "de_article": "der",
     "de_plural": "die Schnellzüge",
-    "lv": "Srov. vysokorychlostní vlak",
+    "lv": "Rychlík",
     "level": "B1"
   },
   {
@@ -51282,7 +49752,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-schnitt",
       "layout": "standardStudy",
-      "translation": "Střih",
+      "translation": "Řez • střih",
       "explanation": "Hlavní myšlenka: der Schnitt je řez nebo výsledek řezání. V závislosti na oboru to může být střih, filmová montáž nebo průměr.",
       "examples": [
         {
@@ -51301,7 +49771,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Schnitt",
-          "meaning": "Řezat, řezat, sestavovat",
+          "meaning": "Řez, střih, montáž",
           "example": "Der Schnitt ist tief. = Řez je hluboký."
         },
         {
@@ -51315,7 +49785,7 @@ const B1_WORDS = [
           "example": "Die Wunde blutet. = Rána krvácí."
         }
       ],
-      "tip": "Pokud je něco řezáno nebo tvarováno řezem, myslete na Schnitta.",
+      "tip": "Pokud je něco řezáno nebo tvarováno řezem, myslete na Schnitt.",
       "important": "Rána není vždy Schnitt • Die Wunde se běžněji používá pro širší ránu.",
       "sectionAccents": {
         "explanation": {
@@ -51402,21 +49872,21 @@ const B1_WORDS = [
     "de": "Schnittlauch",
     "de_article": "der",
     "de_plural": "die Schnittlauche",
-    "lv": "Jarní cibulky",
+    "lv": "Pažitka",
     "level": "B1"
   },
   {
     "de": "Schnittmuster",
     "de_article": "das",
     "de_plural": "die Schnittmuster",
-    "lv": "Ostří",
+    "lv": "Střih",
     "level": "B1"
   },
   {
     "de": "Schnur",
     "de_article": "die",
     "de_plural": "die Schnüre",
-    "lv": "Řetězec",
+    "lv": "Šňůra",
     "level": "B1"
   },
   {
@@ -51433,17 +49903,17 @@ const B1_WORDS = [
     "de": "Schock",
     "de_article": "der",
     "de_plural": "die Schocke",
-    "lv": "Šokovat",
+    "lv": "Šok",
     "level": "B1"
   },
   {
     "de": "schonen",
-    "lv": "Náhradní",
+    "lv": "Šetřit",
     "level": "B1"
   },
   {
     "de": "schöpfen",
-    "lv": "Kreslit",
+    "lv": "Čerpat",
     "level": "B1"
   },
   {
@@ -51469,7 +49939,7 @@ const B1_WORDS = [
     "de": "Schramme",
     "de_article": "die",
     "de_plural": "die Schrammen",
-    "lv": "Oděru",
+    "lv": "Oděrka",
     "level": "B1"
   },
   {
@@ -51483,7 +49953,7 @@ const B1_WORDS = [
     "de": "Schrankwand",
     "de_article": "die",
     "de_plural": "die Schrankwände",
-    "lv": "Velký úsek podél celé stěny",
+    "lv": "Skříňová stěna",
     "level": "B1"
   },
   {
@@ -51502,7 +49972,7 @@ const B1_WORDS = [
     "de": "Schrecken",
     "de_article": "der",
     "de_plural": "die Schrecken",
-    "lv": "Vyděšený",
+    "lv": "Děs",
     "level": "B1"
   },
   {
@@ -51521,7 +49991,7 @@ const B1_WORDS = [
     "de": "Schrift",
     "de_article": "die",
     "de_plural": "die Schriften",
-    "lv": "Článku",
+    "lv": "Písmo",
     "level": "B1"
   },
   {
@@ -51535,7 +50005,7 @@ const B1_WORDS = [
     "de": "Schubfach",
     "de_article": "das",
     "de_plural": "die Schubfache",
-    "lv": "Výstavce",
+    "lv": "Zásuvka",
     "level": "B1"
   },
   {
@@ -51563,7 +50033,7 @@ const B1_WORDS = [
     "de": "Schuld",
     "de_article": "die",
     "de_plural": "die Schulden",
-    "lv": "Být vinen",
+    "lv": "Vina",
     "level": "B1"
   },
   {
@@ -51597,7 +50067,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Schuld",
-          "meaning": "Chyba, dluh",
+          "meaning": "Vina, dluh",
           "example": "Das ist nicht meine Schuld. = Není to moje chyba."
         },
         {
@@ -51701,18 +50171,18 @@ const B1_WORDS = [
     "de": "Schuss",
     "de_article": "der",
     "de_plural": "die Schüsse",
-    "lv": "Shot",
+    "lv": "Výstřel",
     "level": "B1"
   },
   {
     "de": "Schüttelfrost",
     "de_article": "der",
-    "lv": "Horečka",
+    "lv": "Zimnice",
     "level": "B1"
   },
   {
     "de": "schütteln",
-    "lv": "Třást se",
+    "lv": "Třást",
     "level": "B1"
   },
   {
@@ -51775,13 +50245,13 @@ const B1_WORDS = [
         },
         {
           "de": "Man muss sich vor der Sonne schützen.",
-          "lv": "Musí být chráněna před sluncem."
+          "lv": "Člověk se musí chránit před sluncem."
         }
       ],
       "comparison": [
         {
           "word": "schützen",
-          "meaning": "Chránit, chránit",
+          "meaning": "Chránit, ochraňovat",
           "example": "Die Jacke schützt vor Regen. = Bunda chrání před deštěm."
         },
         {
@@ -51906,7 +50376,7 @@ const B1_WORDS = [
     "de": "Schwalbe",
     "de_article": "die",
     "de_plural": "die Schwalben",
-    "lv": "Polykat",
+    "lv": "Vlaštovka",
     "level": "B1"
   },
   {
@@ -51956,12 +50426,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "schwanken",
-          "meaning": "Pochybovat, pochybovat",
+          "meaning": "Kolísat, váhat",
           "example": "Die Preise schwanken. = Ceny kolísají."
         },
         {
           "word": "wackeln",
-          "meaning": "Kolébat se",
+          "meaning": "Viklat se, třást se",
           "example": "Der Tisch wackelt. = Stůl se chvěje."
         },
         {
@@ -51971,7 +50441,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Nejistý pohyb nebo nestálé rozhodnutí: schwanken.",
-      "important": "Zweifeln je vnitřní pochybnost • Schwanken zdůrazňuje oscilaci mezi možnostmi.",
+      "important": "Zweifeln vyjadřuje vnitřní pochybnost • Schwanken zdůrazňuje kolísání mezi možnostmi.",
       "sectionAccents": {
         "explanation": {
           "blue": "schwanken",
@@ -52069,12 +50539,12 @@ const B1_WORDS = [
   },
   {
     "de": "schwatzen",
-    "lv": "Chatovat",
+    "lv": "Klábosit",
     "level": "B1"
   },
   {
     "de": "schwätzen",
-    "lv": "Chatovat",
+    "lv": "Klábosit",
     "level": "B1"
   },
   {
@@ -52090,7 +50560,7 @@ const B1_WORDS = [
   },
   {
     "de": "schweigsam",
-    "lv": "Klid",
+    "lv": "Mlčenlivý",
     "level": "B1"
   },
   {
@@ -52102,7 +50572,7 @@ const B1_WORDS = [
   },
   {
     "de": "schwellen",
-    "lv": "Pamp",
+    "lv": "Otékat",
     "level": "B1"
   },
   {
@@ -52114,12 +50584,12 @@ const B1_WORDS = [
   },
   {
     "de": "schwer fallen",
-    "lv": "Způsobit potíže",
+    "lv": "Být obtížné",
     "level": "B1"
   },
   {
     "de": "schwerhörig",
-    "lv": "Nedoslýchavé",
+    "lv": "Nedoslýchavý",
     "level": "B1"
   },
   {
@@ -52133,7 +50603,7 @@ const B1_WORDS = [
     "de": "Schwiele",
     "de_article": "die",
     "de_plural": "die Schwielen",
-    "lv": "Puchýř",
+    "lv": "Mozol",
     "level": "B1"
   },
   {
@@ -52157,7 +50627,7 @@ const B1_WORDS = [
   },
   {
     "de": "schwindeln",
-    "lv": "Závratě",
+    "lv": "Podvádět",
     "level": "B1"
   },
   {
@@ -52167,12 +50637,12 @@ const B1_WORDS = [
   },
   {
     "de": "schwören",
-    "lv": "Nadávat",
+    "lv": "Přísahat",
     "level": "B1"
   },
   {
     "de": "schwul",
-    "lv": "Srov. homosexuál",
+    "lv": "Homosexuální",
     "level": "B1"
   },
   {
@@ -52184,14 +50654,14 @@ const B1_WORDS = [
   },
   {
     "de": "schwül",
-    "lv": "Dusivý",
+    "lv": "Dusný",
     "level": "B1"
   },
   {
     "de": "Schwung",
     "de_article": "der",
     "de_plural": "die Schwünge",
-    "lv": "Ráznost",
+    "lv": "Elán",
     "level": "B1"
   },
   {
@@ -52212,19 +50682,19 @@ const B1_WORDS = [
     "de": "Seegang",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Vlny moře",
+    "lv": "Vlnobití",
     "level": "B1"
   },
   {
     "de": "Seefahrt",
     "de_article": "die",
     "de_plural": "die Seefahrten",
-    "lv": "Expedice",
+    "lv": "Námořní plavba",
     "level": "B1"
   },
   {
     "de": "seekrank",
-    "lv": "Nemocný mořskou nemocí",
+    "lv": "Trpící mořskou nemocí",
     "level": "B1"
   },
   {
@@ -52256,14 +50726,14 @@ const B1_WORDS = [
   },
   {
     "de": "segeln",
-    "lv": "Plout",
+    "lv": "Plachtit",
     "level": "B1"
   },
   {
     "de": "Sehne",
     "de_article": "die",
     "de_plural": "die Sehnen",
-    "lv": "Šlachu",
+    "lv": "Šlacha",
     "level": "B1"
   },
   {
@@ -52282,7 +50752,7 @@ const B1_WORDS = [
   },
   {
     "de": "seiden",
-    "lv": "Hedvábí-",
+    "lv": "Hedvábný",
     "level": "B1"
   },
   {
@@ -52296,7 +50766,7 @@ const B1_WORDS = [
     "de": "Seifenoper",
     "de_article": "die",
     "de_plural": "die Seifenopern",
-    "lv": "Televizní seriál",
+    "lv": "Telenovela",
     "level": "B1"
   },
   {
@@ -52356,7 +50826,7 @@ const B1_WORDS = [
     "de": "Selbstbinder",
     "de_article": "der",
     "de_plural": "die Selbstbinder",
-    "lv": "Uvázat",
+    "lv": "Kravata",
     "level": "B1"
   },
   {
@@ -52383,7 +50853,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich sende dir eine Nachricht.",
-          "lv": "Posílám vám zprávu."
+          "lv": "Posílám ti zprávu."
         },
         {
           "de": "Der Sender sendet ein Signal.",
@@ -52402,7 +50872,7 @@ const B1_WORDS = [
         },
         {
           "word": "schicken",
-          "meaning": "Posílat každý den",
+          "meaning": "Posílat v běžném životě",
           "example": "Ich schicke dir das Foto. = Posílám ti fotku."
         },
         {
@@ -52411,7 +50881,7 @@ const B1_WORDS = [
           "example": "Das Spiel wird übertragen. = Hra se vysílá."
         }
       ],
-      "tip": "Zpráva, signál nebo přenos: odesláno.",
+      "tip": "Zpráva, signál nebo přenos: senden.",
       "important": "Senden zní více formálně nebo technicky než schicken.",
       "sectionAccents": {
         "explanation": {
@@ -52528,7 +50998,7 @@ const B1_WORDS = [
       "id": "b1-senken",
       "layout": "standardStudy",
       "translation": "Snížit",
-      "explanation": "Hlavní myšlenka: senken znamená něco snížit nebo snížit. Na rozdíl od potopeného má obvykle předmět.",
+      "explanation": "Hlavní myšlenka: senken znamená něco snížit nebo spustit. Na rozdíl od slovesa sinken má obvykle předmět.",
       "examples": [
         {
           "de": "Die Firma senkt die Preise.",
@@ -52536,7 +51006,7 @@ const B1_WORDS = [
         },
         {
           "de": "Sie senkt den Kopf.",
-          "lv": "Skloní hlavu."
+          "lv": "Sklání hlavu."
         },
         {
           "de": "Bitte senken Sie die Stimme.",
@@ -52546,12 +51016,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "senken",
-          "meaning": "Snížit, snížit",
+          "meaning": "Snižovat, spouštět",
           "example": "Die Firma senkt die Preise. = Společnost snižuje ceny."
         },
         {
           "word": "sinken",
-          "meaning": "Spadnout, potopit se",
+          "meaning": "Klesat, potápět se",
           "example": "Die Preise sinken. = Ceny klesají."
         },
         {
@@ -52560,8 +51030,8 @@ const B1_WORDS = [
           "example": "Er hebt die Hand. = Zvedne ruku."
         }
       ],
-      "tip": "Někdo něco snižuje: senken • Něco padá samo od sebe: potopit se.",
-      "important": "Senken je s předmětem • Potopení se obvykle děje samo o sobě.",
+      "tip": "Někdo něco snižuje: senken • Něco samo klesá: sinken.",
+      "important": "Senken se používá s předmětem • Sinken se obvykle děje samo od sebe.",
       "sectionAccents": {
         "explanation": {
           "blue": "senken",
@@ -52648,7 +51118,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich senken",
-    "lv": "Padat",
+    "lv": "Klesat",
     "level": "B1"
   },
   {
@@ -52686,7 +51156,7 @@ const B1_WORDS = [
   },
   {
     "de": "seufzen",
-    "lv": "Povzdech",
+    "lv": "Vzdychat",
     "level": "B1"
   },
   {
@@ -52710,12 +51180,12 @@ const B1_WORDS = [
   },
   {
     "de": "sichern",
-    "lv": "Poskytnout",
+    "lv": "Zajistit",
     "level": "B1"
   },
   {
     "de": "sichtbar",
-    "lv": "Viditelné",
+    "lv": "Viditelný",
     "level": "B1"
   },
   {
@@ -52732,14 +51202,14 @@ const B1_WORDS = [
   },
   {
     "de": "sieden",
-    "lv": "Vařit",
+    "lv": "Vřít",
     "level": "B1"
   },
   {
     "de": "Siedlung",
     "de_article": "die",
     "de_plural": "die Siedlungen",
-    "lv": "Obec",
+    "lv": "Osada",
     "level": "B1"
   },
   {
@@ -52772,7 +51242,7 @@ const B1_WORDS = [
     "de": "Blinksignal",
     "de_article": "das",
     "de_plural": "die Blinksignale",
-    "lv": "Světelný signál",
+    "lv": "Blikající signál",
     "level": "B1"
   },
   {
@@ -52791,7 +51261,7 @@ const B1_WORDS = [
   },
   {
     "de": "silbern",
-    "lv": "Stříbro-",
+    "lv": "Stříbrný",
     "level": "B1"
   },
   {
@@ -52803,7 +51273,7 @@ const B1_WORDS = [
   },
   {
     "de": "sinken",
-    "lv": "Potopit se",
+    "lv": "Klesat",
     "level": "B1"
   },
   {
@@ -52816,7 +51286,7 @@ const B1_WORDS = [
       "id": "b1-sinn",
       "layout": "standardStudy",
       "translation": "Význam",
-      "explanation": "Hlavní myšlenka: der Sinn znamená smysl nebo význam. Ve frázích to může znamenat i pocit, například Sinn für Humor.",
+      "explanation": "Hlavní myšlenka: der Sinn znamená smysl nebo význam. Ve spojeních, například Sinn für Humor, označuje také smysl pro něco.",
       "examples": [
         {
           "de": "Das hat keinen Sinn.",
@@ -52834,7 +51304,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Sinn",
-          "meaning": "Smysl, smysl, pocit",
+          "meaning": "Smysl, význam, smysl pro něco",
           "example": "Das hat keinen Sinn. = To nedává smysl."
         },
         {
@@ -52849,7 +51319,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Význam v textu nebo životě: Sinn • Význam slova často také Bedeutung.",
-      "important": "Sinn für Humor je smysl pro humor, nikoli doslova „smysl pro humor“.",
+      "important": "Sinn für Humor znamená smysl pro humor, nikoli doslova „význam humoru“.",
       "sectionAccents": {
         "explanation": {
           "blue": "der Sinn",
@@ -52958,7 +51428,7 @@ const B1_WORDS = [
       "id": "b1-sitz",
       "layout": "standardStudy",
       "translation": "Sedadlo",
-      "explanation": "Hlavní myšlenka: der Sitz znamená sedadlo nebo sedadlo. Pro firmu nebo instituci to znamená sídlo.",
+      "explanation": "Hlavní myšlenka: der Sitz znamená sedadlo nebo místo k sezení. U firmy nebo instituce označuje sídlo.",
       "examples": [
         {
           "de": "Der Sitz ist frei.",
@@ -52990,7 +51460,7 @@ const B1_WORDS = [
           "example": "Der Standort ist gut. = Poloha je dobrá."
         }
       ],
-      "tip": "Kde sídlí nebo kde sídlí společnost: der Sitz.",
+      "tip": "Místo, kde se sedí, nebo sídlo společnosti: der Sitz.",
       "important": "Sídlo společnosti je sídlo, nikoli fyzická židle.",
       "sectionAccents": {
         "explanation": {
@@ -53089,7 +51559,7 @@ const B1_WORDS = [
     "de": "Skispringen",
     "de_article": "das",
     "de_plural": "die Skispringen",
-    "lv": "Skoky z odrazového můstku",
+    "lv": "Skoky na lyžích",
     "level": "B1"
   },
   {
@@ -53129,7 +51599,7 @@ const B1_WORDS = [
   },
   {
     "de": "soeben",
-    "lv": "Právě teď",
+    "lv": "Právě",
     "level": "B1"
   },
   {
@@ -53165,7 +51635,7 @@ const B1_WORDS = [
     "de": "Sommersprosse",
     "de_article": "die",
     "de_plural": "die Sommersprossen",
-    "lv": "Letní místo",
+    "lv": "Piha",
     "level": "B1"
   },
   {
@@ -53177,7 +51647,7 @@ const B1_WORDS = [
     "de": "Sonnenbrand",
     "de_article": "der",
     "de_plural": "die Sonnenbrände",
-    "lv": "Úžeh",
+    "lv": "Spálení od slunce",
     "level": "B1"
   },
   {
@@ -53191,14 +51661,14 @@ const B1_WORDS = [
     "de": "Sonnenstich",
     "de_article": "der",
     "de_plural": "die Sonnenstiche",
-    "lv": "Úpal",
+    "lv": "Úžeh",
     "level": "B1"
   },
   {
     "de": "Sorge",
     "de_article": "die",
     "de_plural": "die Sorgen",
-    "lv": "Péče",
+    "lv": "Starost",
     "level": "B1"
   },
   {
@@ -53237,7 +51707,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Sorge",
-          "meaning": "Starosti, starosti",
+          "meaning": "Obavy • starosti",
           "example": "Das ist meine Sorge. = To jsou moje obavy."
         }
       ],
@@ -53328,7 +51798,7 @@ const B1_WORDS = [
   },
   {
     "de": "sorgfältig",
-    "lv": "Opatrný",
+    "lv": "Pečlivý",
     "level": "B1"
   },
   {
@@ -53340,7 +51810,7 @@ const B1_WORDS = [
     "de": "Sorte",
     "de_article": "die",
     "de_plural": "die Sorten",
-    "lv": "Plemeno",
+    "lv": "Druh",
     "level": "B1"
   },
   {
@@ -53352,108 +51822,7 @@ const B1_WORDS = [
     "de": "sowie",
     "lv": "Stejně jako",
     "level": "B1",
-    "study": {
-      "id": "b1-sowie",
-      "layout": "standardStudy",
-      "translation": "Stejně jako",
-      "explanation": "Hlavní myšlenka: Sowie nejčastěji znamená stejně jako a spojuje dvě věci. V časové větě může znamenat co nejdříve.",
-      "examples": [
-        {
-          "de": "Wir brauchen Milch sowie Brot.",
-          "lv": "Mléko potřebujeme stejně jako chleba."
-        },
-        {
-          "de": "Der Preis gilt für Erwachsene sowie Kinder.",
-          "lv": "Cena platí pro dospělé i děti."
-        },
-        {
-          "de": "Sowie ich Zeit habe, rufe ich dich an.",
-          "lv": "Zavolám vám, jakmile budu mít čas."
-        }
-      ],
-      "tip": "V seznamu sowie = stejně jako • V časové doložce = jakmile.",
-      "important": "Sowie není automaticky jen „jakmile“ • V seznamech často znamená „stejně jako“.",
-      "sectionAccents": {
-        "explanation": {
-          "blue": "sowie",
-          "purple": "kā arī",
-          "red": "tiklīdz"
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": "sowie",
-              "yellow": "Brot"
-            },
-            "lv": {
-              "purple": "kā arī"
-            }
-          },
-          {
-            "de": {
-              "blue": "sowie",
-              "green": "Kinder"
-            },
-            "lv": {
-              "purple": "kā arī"
-            }
-          },
-          {
-            "de": {
-              "blue": "Sowie",
-              "yellow": "Zeit"
-            },
-            "lv": {
-              "red": "Tiklīdz"
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": "sowie"
-            },
-            "meaning": {
-              "purple": "kā arī"
-            },
-            "example": {
-              "blue": "sowie"
-            }
-          },
-          {
-            "word": {
-              "green": "und"
-            },
-            "meaning": {
-              "purple": "un"
-            },
-            "example": {
-              "red": "und"
-            }
-          },
-          {
-            "word": {
-              "green": "sobald"
-            },
-            "meaning": {
-              "purple": "tiklīdz"
-            },
-            "example": {
-              "red": "Sobald"
-            }
-          }
-        ],
-        "tip": {
-          "blue": "sowie",
-          "purple": "kā arī",
-          "red": "tiklīdz"
-        },
-        "important": {
-          "blue": "sowie",
-          "red": "tiklīdz"
-        }
-      }
-    }
+    "study": "Sowie nejčastěji znamená také nebo i a spojuje dvě věci."
   },
   {
     "de": "sowieso",
@@ -53462,7 +51831,7 @@ const B1_WORDS = [
   },
   {
     "de": "sowohl",
-    "lv": "Oba... oba",
+    "lv": "Jak... tak",
     "level": "B1"
   },
   {
@@ -53479,7 +51848,7 @@ const B1_WORDS = [
   },
   {
     "de": "spalten",
-    "lv": "Rozdělit se",
+    "lv": "Rozštípit",
     "level": "B1"
   },
   {
@@ -53491,7 +51860,7 @@ const B1_WORDS = [
   },
   {
     "de": "spannen",
-    "lv": "Protáhnout se",
+    "lv": "Napnout",
     "level": "B1"
   },
   {
@@ -53504,7 +51873,7 @@ const B1_WORDS = [
       "id": "b1-spannung",
       "layout": "standardStudy",
       "translation": "Napětí",
-      "explanation": "Hlavní myšlenka: die Spannung znamená napětí nebo napětí. V odborném jazyce, zejména v elektřině, to znamená napětí.",
+      "explanation": "die Spannung znamená napětí nebo napjatou atmosféru.",
       "examples": [
         {
           "de": "Die Spannung im Film war groß.",
@@ -53522,7 +51891,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Spannung",
-          "meaning": "Napětí • V elektřině, napětí",
+          "meaning": "Napětí • Elektrické napětí",
           "example": "Die Spannung ist groß. = Napětí je vysoké."
         },
         {
@@ -53532,19 +51901,19 @@ const B1_WORDS = [
         },
         {
           "word": "die Kraft",
-          "meaning": "Pevnost",
-          "example": "Er hat viel Kraft. = Má velkou moc."
+          "meaning": "Síla",
+          "example": "Má velkou sílu."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Napětí v příběhu nebo vztahu • V elektrickém napětí."
+            "text": "Napětí v příběhu nebo ve vztahu • V elektrotechnice elektrické napětí."
           }
         ]
       },
       "important": {
-        "text": "V elektřině se die Spannung překládá jako napětí, nikoli emocionální napětí."
+        "text": "V elektrotechnice die Spannung znamená elektrické napětí, ne napětí ve vztazích nebo příběhu."
       },
       "sectionAccents": {
         "explanation": {
@@ -53646,7 +52015,7 @@ const B1_WORDS = [
     "de": "Spaten",
     "de_article": "der",
     "de_plural": "die Spaten",
-    "lv": "Lopata",
+    "lv": "Rýč",
     "level": "B1"
   },
   {
@@ -53684,7 +52053,7 @@ const B1_WORDS = [
         },
         {
           "de": "Das Handy speichert die Fotos automatisch.",
-          "lv": "Telefon automaticky uloží fotografie."
+          "lv": "Telefon automaticky ukládá fotografie."
         },
         {
           "de": "Der Körper speichert Energie.",
@@ -53694,12 +52063,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "speichern",
-          "meaning": "Šetřit • Hromadit",
-          "example": "Ich speichere die Datei. = Uložil jsem soubor."
+          "meaning": "Ukládat • Hromadit",
+          "example": "Ukládám soubor."
         },
         {
           "word": "sparen",
-          "meaning": "Ušetřit, ušetřit peníze",
+          "meaning": "Šetřit, spořit peníze",
           "example": "Ich spare Geld. = Šetřím peníze."
         },
         {
@@ -53716,7 +52085,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Speichern není ušetřen. sparen znamená ušetřit nebo ušetřit peníze."
+        "text": "Speichern není totéž co sparen. Sparen znamená šetřit nebo spořit peníze."
       },
       "sectionAccents": {
         "explanation": {
@@ -53855,7 +52224,7 @@ const B1_WORDS = [
       "id": "b1-sperren",
       "layout": "standardStudy",
       "translation": "Zablokovat",
-      "explanation": "Hlavní myšlenka: sperren znamená blokovat nebo zavírat přístup. Používá se pro cesty, vjezdy, účty, mapy a zákazy.",
+      "explanation": "Používá se pro cesty, vjezdy, účty, karty a zákazy.",
       "examples": [
         {
           "de": "Die Polizei sperrt die Straße.",
@@ -53878,13 +52247,13 @@ const B1_WORDS = [
         },
         {
           "word": "abschließen",
-          "meaning": "Zámek s klíčem",
+          "meaning": "Zamknout klíčem",
           "example": "(Czech text required)"
         },
         {
           "word": "schließen",
-          "meaning": "(Czech text required)",
-          "example": "Ich schließe das Fenster. = Zavírám okno."
+          "meaning": "Zavřít",
+          "example": "Zavírám okno."
         }
       ],
       "tip": {
@@ -53895,7 +52264,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Sperren není snadné zavřít • Znamená to zablokování přístupu."
+        "text": "Sperren neznamená jednoduše zavřít • Znamená zablokovat přístup."
       },
       "sectionAccents": {
         "explanation": {
@@ -53993,12 +52362,12 @@ const B1_WORDS = [
     "de": "Spielplan",
     "de_article": "der",
     "de_plural": "die Spielpläne",
-    "lv": "Divadelního repertoáru",
+    "lv": "Divadelní repertoár",
     "level": "B1"
   },
   {
     "de": "spinnen",
-    "lv": "Roztočit",
+    "lv": "Příst",
     "level": "B1"
   },
   {
@@ -54015,7 +52384,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-spitze",
       "layout": "standardStudy",
-      "translation": "Špice",
+      "translation": "Špička",
       "explanation": "Hlavní myšlenka: die Spitze je špičatý konec nebo nejvyšší bod. V přeneseném slova smyslu to může být vedení nebo pozice na vrcholu.",
       "examples": [
         {
@@ -54034,7 +52403,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Spitze",
-          "meaning": "Vrchol, vrchol, hlava",
+          "meaning": "Špička • vrchol • vedení",
           "example": "Die Spitze ist scharf. = Špička je ostrá."
         },
         {
@@ -54044,7 +52413,7 @@ const B1_WORDS = [
         },
         {
           "word": "das Ende",
-          "meaning": "Konec, konec",
+          "meaning": "Konec • konec",
           "example": "Das Ende ist nah. = Konec se blíží."
         }
       ],
@@ -54056,7 +52425,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "An der Spitze znamená pod vedením, nejen fyzicky nahoře."
+        "text": "An der Spitze znamená v čele nebo ve vedení, nejen fyzicky nahoře."
       },
       "sectionAccents": {
         "explanation": {
@@ -54141,7 +52510,7 @@ const B1_WORDS = [
   },
   {
     "de": "spitzen",
-    "lv": "Zbystřit",
+    "lv": "Naostřit",
     "level": "B1"
   },
   {
@@ -54165,7 +52534,7 @@ const B1_WORDS = [
     "de": "Sportfunk",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Sportovní programy",
+    "lv": "Sportovní rozhlasové pořady",
     "level": "B1"
   },
   {
@@ -54179,21 +52548,21 @@ const B1_WORDS = [
     "de": "Sprecher",
     "de_article": "der",
     "de_plural": "die Sprecher",
-    "lv": "Reproduktor",
+    "lv": "Mluvčí",
     "level": "B1"
   },
   {
     "de": "Sprechstunde",
     "de_article": "die",
     "de_plural": "die Sprechstunden",
-    "lv": "Doba příjmu",
+    "lv": "Přijímací hodiny",
     "level": "B1"
   },
   {
     "de": "Sprechzimmer",
     "de_article": "das",
     "de_plural": "die Sprechzimmer",
-    "lv": "Přijatelný pokoj",
+    "lv": "Ordinace",
     "level": "B1"
   },
   {
@@ -54205,7 +52574,7 @@ const B1_WORDS = [
   },
   {
     "de": "sprießen",
-    "lv": "Vyklíčit",
+    "lv": "Rašit",
     "level": "B1"
   },
   {
@@ -54219,7 +52588,7 @@ const B1_WORDS = [
     "de": "Springer",
     "de_article": "der",
     "de_plural": "die Springer",
-    "lv": "Koně",
+    "lv": "Kůň",
     "level": "B1"
   },
   {
@@ -54237,7 +52606,7 @@ const B1_WORDS = [
       "id": "b1-spritzen",
       "layout": "standardStudy",
       "translation": "Cákat",
-      "explanation": "Hlavní myšlenka: spritzen znamená stříkat nebo stříkat tekutinu. V medicíně to může znamenat injekci.",
+      "explanation": "spritzen znamená cákat nebo stříkat tekutinu.",
       "examples": [
         {
           "de": "Das Wasser spritzt auf den Boden.",
@@ -54249,7 +52618,7 @@ const B1_WORDS = [
         },
         {
           "de": "Der Arzt spritzt das Medikament.",
-          "lv": "Lékař píchá lék."
+          "lv": "Lékař aplikuje lék injekcí."
         }
       ],
       "comparison": [
@@ -54260,7 +52629,7 @@ const B1_WORDS = [
         },
         {
           "word": "gießen",
-          "meaning": "Nalít, voda",
+          "meaning": "Lít • zalévat",
           "example": "Ich gieße die Blumen. = Zalévám květiny."
         },
         {
@@ -54387,7 +52756,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Sprung war sehr weit.",
-          "lv": "Skok byl hodně daleko."
+          "lv": "Skok byl velmi dlouhý."
         },
         {
           "de": "Im Glas ist ein Sprung.",
@@ -54401,13 +52770,13 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Sprung",
-          "meaning": "Skok • Mezera",
+          "meaning": "Skok • prasklina",
           "example": "Der Sprung war weit. = Skok byl daleko."
         },
         {
           "word": "der Riss",
-          "meaning": "Mezera",
-          "example": "In der Wand ist ein Riss. = Ve zdi je prasklina."
+          "meaning": "Prasklina",
+          "example": "Ve zdi je prasklina."
         },
         {
           "word": "springen",
@@ -54423,7 +52792,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Ein Sprung im Glas znamená prasknout, ne skok."
+        "text": "Ein Sprung im Glas znamená prasklinu, ne skok."
       },
       "sectionAccents": {
         "explanation": {
@@ -54516,14 +52885,14 @@ const B1_WORDS = [
     "de": "Sprungfeder",
     "de_article": "die",
     "de_plural": "die Sprungfedern",
-    "lv": "Jaro",
+    "lv": "Pružina",
     "level": "B1"
   },
   {
     "de": "Sprungschanze",
     "de_article": "die",
     "de_plural": "die Sprungschanzen",
-    "lv": "Odrazový můstek",
+    "lv": "Skokanský můstek",
     "level": "B1"
   },
   {
@@ -54535,21 +52904,21 @@ const B1_WORDS = [
     "de": "Spule",
     "de_article": "die",
     "de_plural": "die Spulen",
-    "lv": "Role",
+    "lv": "Cívka",
     "level": "B1"
   },
   {
     "de": "Spur",
     "de_article": "die",
     "de_plural": "die Spuren",
-    "lv": "Nohy",
+    "lv": "Stopa",
     "level": "B1"
   },
   {
     "de": "Stab",
     "de_article": "der",
     "de_plural": "die Stäbe",
-    "lv": "Karta",
+    "lv": "Tyč",
     "level": "B1"
   },
   {
@@ -54575,7 +52944,7 @@ const B1_WORDS = [
     "de": "Stadtbahn",
     "de_article": "die",
     "de_plural": "die Stadtbahnen",
-    "lv": "Elektrická železnice na území města",
+    "lv": "Městská dráha",
     "level": "B1"
   },
   {
@@ -54596,19 +52965,19 @@ const B1_WORDS = [
     "de": "Stall",
     "de_article": "der",
     "de_plural": "die Ställe",
-    "lv": "Stodola",
+    "lv": "Stáj",
     "level": "B1"
   },
   {
     "de": "Stamm",
     "de_article": "der",
     "de_plural": "die Stämme",
-    "lv": "Kufr",
+    "lv": "Kmen",
     "level": "B1"
   },
   {
     "de": "stammen",
-    "lv": "Vstát",
+    "lv": "Pocházet",
     "level": "B1"
   },
   {
@@ -54639,8 +53008,8 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Stand",
-          "meaning": "Stav • Stát",
-          "example": "Der Stand ist unklar. = Podmínka je nejasná."
+          "meaning": "Stav • stánek",
+          "example": "Stav není jasný."
         },
         {
           "word": "der Zustand",
@@ -54656,7 +53025,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Průběh projektu se ptá: Wie ist der Stand?"
+            "text": "Na průběh projektu se ptáme: Wie ist der Stand?"
           }
         ]
       },
@@ -54760,7 +53129,7 @@ const B1_WORDS = [
     "de": "Standlicht",
     "de_article": "das",
     "de_plural": "die Standlichter",
-    "lv": "Měřidlo požáru pro auta",
+    "lv": "Obrysové světlo",
     "level": "B1"
   },
   {
@@ -54774,7 +53143,7 @@ const B1_WORDS = [
     "de": "Stange",
     "de_article": "die",
     "de_plural": "die Stangen",
-    "lv": "Karta",
+    "lv": "Tyč",
     "level": "B1"
   },
   {
@@ -54808,14 +53177,14 @@ const B1_WORDS = [
   },
   {
     "de": "stecken",
-    "lv": "Připojit",
+    "lv": "Strčit",
     "level": "B1"
   },
   {
     "de": "Stecknadel",
     "de_article": "die",
     "de_plural": "die Stecknadeln",
-    "lv": "Kolík",
+    "lv": "Špendlík",
     "level": "B1"
   },
   {
@@ -54825,31 +53194,31 @@ const B1_WORDS = [
   },
   {
     "de": "steigern",
-    "lv": "Zvýšení",
+    "lv": "Zvyšovat",
     "level": "B1"
   },
   {
     "de": "steil",
-    "lv": "Patro",
+    "lv": "Strmý",
     "level": "B1"
   },
   {
     "de": "Steingut",
     "de_article": "das",
     "de_plural": "die Steingute",
-    "lv": "Keramika",
+    "lv": "Kamenina",
     "level": "B1"
   },
   {
     "de": "steinig",
-    "lv": "Skalnatý",
+    "lv": "Kamenitý",
     "level": "B1"
   },
   {
     "de": "Steinkohle",
     "de_article": "die",
     "de_plural": "die Steinkohlen",
-    "lv": "Uhlí",
+    "lv": "Černé uhlí",
     "level": "B1"
   },
   {
@@ -54868,8 +53237,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-stellung",
       "layout": "standardStudy",
-      "translation": "Stav",
-      "explanation": "Hlavní myšlenka: die Stellung znamená pozici nebo stav. Používá se pro držení těla, pracoviště a postoj.",
+      "translation": "Pozice",
+      "explanation": "die Stellung znamená pozici, postoj nebo pracovní místo.",
       "examples": [
         {
           "de": "Die Stellung des Körpers ist wichtig.",
@@ -54887,13 +53256,13 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Stellung",
-          "meaning": "Pozice, pozice, pozice",
+          "meaning": "Pozice • postoj • pracovní místo",
           "example": "Er sucht eine Stellung. = Hledá práci."
         },
         {
           "word": "der Stand",
           "meaning": "Aktuální stav",
-          "example": "Wie ist der Stand? = Jaká je podmínka?"
+          "example": "Jaký je stav?"
         },
         {
           "word": "die Stelle",
@@ -55074,7 +53443,7 @@ const B1_WORDS = [
     "de": "Stiel",
     "de_article": "der",
     "de_plural": "die Stiele",
-    "lv": "Zastavit",
+    "lv": "Stonek",
     "level": "B1"
   },
   {
@@ -55094,7 +53463,7 @@ const B1_WORDS = [
       "id": "b1-stift",
       "layout": "standardStudy",
       "translation": "Tužka",
-      "explanation": "Hlavní myšlenka: der Stift je každodenní psaní - tužkou nebo perem. Technicky to může být i čep nebo malá kovová část.",
+      "explanation": "Hlavní myšlenka: der Stift je běžná psací potřeba – tužka nebo pero.",
       "examples": [
         {
           "de": "Hast du einen Stift?",
@@ -55112,7 +53481,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Stift",
-          "meaning": "Tužka, pero • Špendlík",
+          "meaning": "Tužka, pero • Čep",
           "example": "Hast du einen Stift? = Máš tužku?"
         },
         {
@@ -55134,7 +53503,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "V technice der Stift může být špendlík místo tužky."
+        "text": "V technice může der Stift znamenat čep, nikoli tužku."
       },
       "sectionAccents": {
         "explanation": {
@@ -55230,7 +53599,7 @@ const B1_WORDS = [
   {
     "de": "Stille",
     "de_article": "die",
-    "lv": "Umlčet",
+    "lv": "Ticho",
     "level": "B1"
   },
   {
@@ -55241,7 +53610,7 @@ const B1_WORDS = [
       "id": "b1-stillen",
       "layout": "standardStudy",
       "translation": "Kojit",
-      "explanation": "Hlavní myšlenka: stillen nejčastěji znamená kojit. S potřebou, žízní nebo zvědavostí to znamená uklidnit nebo uspokojit.",
+      "explanation": "Hlavní myšlenka: stillen nejčastěji znamená kojit. Ve spojení s potřebou, žízní nebo zvědavostí znamená uspokojit či utišit.",
       "examples": [
         {
           "de": "Die Mutter stillt ihr Baby.",
@@ -55264,7 +53633,7 @@ const B1_WORDS = [
         },
         {
           "word": "beruhigen",
-          "meaning": "Uklidni se",
+          "meaning": "Uklidnit",
           "example": "Ich beruhige das Kind. = Uklidňuji dítě."
         },
         {
@@ -55387,7 +53756,7 @@ const B1_WORDS = [
     "de": "Stimmrecht",
     "de_article": "das",
     "de_plural": "die Stimmrechte",
-    "lv": "Hlasovací práva",
+    "lv": "Hlasovací právo",
     "level": "B1"
   },
   {
@@ -55420,7 +53789,7 @@ const B1_WORDS = [
   },
   {
     "de": "stöhnen",
-    "lv": "Sténání",
+    "lv": "Sténat",
     "level": "B1"
   },
   {
@@ -55490,7 +53859,7 @@ const B1_WORDS = [
         },
         {
           "word": "schieben",
-          "meaning": "Zatlačte delším pohybem",
+          "meaning": "Tlačit delším pohybem",
           "example": "Ich schiebe den Wagen. = Tlačím vozík."
         },
         {
@@ -55507,7 +53876,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Auf etwas stoßen znamená do něčeho narážet, ne jen tlačit."
+        "text": "Auf etwas stoßen znamená náhodou na něco narazit nebo něco objevit, ne jen tlačit."
       },
       "sectionAccents": {
         "explanation": {
@@ -55619,33 +53988,33 @@ const B1_WORDS = [
   },
   {
     "de": "strahlen",
-    "lv": "Zářící",
+    "lv": "Zářit",
     "level": "B1"
   },
   {
     "de": "Strähne",
     "de_article": "die",
     "de_plural": "die Strähnen",
-    "lv": "Kadeř vlasů",
+    "lv": "Pramen vlasů",
     "level": "B1"
   },
   {
     "de": "stramm",
-    "lv": "Přísný",
+    "lv": "Napnutý",
     "level": "B1"
   },
   {
     "de": "Strandkorb",
     "de_article": "der",
     "de_plural": "die Strandkörbe",
-    "lv": "Opalovací koš na pláži",
+    "lv": "Plážové křeslo",
     "level": "B1"
   },
   {
     "de": "Straßenverkehrsordnung",
     "de_article": "die",
     "de_plural": "die Straßenverkehrsordnungen",
-    "lv": "Pravidla provozu",
+    "lv": "Pravidla silničního provozu",
     "level": "B1"
   },
   {
@@ -55659,19 +54028,19 @@ const B1_WORDS = [
     "de": "Strecke",
     "de_article": "die",
     "de_plural": "die Strecken",
-    "lv": "Fáze",
+    "lv": "Úsek",
     "level": "B1"
   },
   {
     "de": "strecken",
-    "lv": "Protáhnout se",
+    "lv": "Natáhnout",
     "level": "B1"
   },
   {
     "de": "Streich",
     "de_article": "der",
     "de_plural": "die Streiche",
-    "lv": "Vtip",
+    "lv": "Žertík",
     "level": "B1"
   },
   {
@@ -55682,7 +54051,7 @@ const B1_WORDS = [
       "id": "b1-streichen",
       "layout": "standardStudy",
       "translation": "Vymazat",
-      "explanation": "Hlavní myšlenka: streichen znamená udeřit nebo odstranit ze seznamu. U zdi, plotu nebo barvy znamená malovat • Rukou - pohladit.",
+      "explanation": "Hlavní myšlenka: streichen znamená škrtnout nebo odstranit ze seznamu. U zdi, plotu nebo barvy znamená malovat • Rukou – pohladit.",
       "examples": [
         {
           "de": "Wir streichen diesen Punkt von der Liste.",
@@ -55705,7 +54074,7 @@ const B1_WORDS = [
         },
         {
           "word": "löschen",
-          "meaning": "Odstranit soubor, text nebo spustit",
+          "meaning": "Smazat soubor nebo text, případně uhasit oheň",
           "example": "Ich lösche die Datei. = Soubor smažu."
         },
         {
@@ -55722,7 +54091,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Eine Wand streichen znamená malovat zeď, ne šmouhy na zeď."
+        "text": "Eine Wand streichen znamená vymalovat zeď, ne škrtnout zeď."
       },
       "sectionAccents": {
         "explanation": {
@@ -55813,7 +54182,7 @@ const B1_WORDS = [
     "de": "Streife",
     "de_article": "die",
     "de_plural": "die Streifen",
-    "lv": "Hlídková policie",
+    "lv": "Hlídka",
     "level": "B1"
   },
   {
@@ -55832,7 +54201,7 @@ const B1_WORDS = [
   },
   {
     "de": "streiken",
-    "lv": "Udeřit",
+    "lv": "Stávkovat",
     "level": "B1"
   },
   {
@@ -55854,7 +54223,7 @@ const B1_WORDS = [
     "de": "Strich",
     "de_article": "der",
     "de_plural": "die Striche",
-    "lv": "Pomlčka",
+    "lv": "Čára",
     "level": "B1"
   },
   {
@@ -55901,7 +54270,7 @@ const B1_WORDS = [
       "id": "b1-strom",
       "layout": "standardStudy",
       "translation": "Proud",
-      "explanation": "Hlavní myšlenka: der Strom je nejčastěji elektřina nebo elektrický proud v každodenním životě. V jiném kontextu to může být velká řeka nebo potok.",
+      "explanation": "V jiném kontextu může znamenat velkou řeku nebo vodní tok.",
       "examples": [
         {
           "de": "Der Strom ist ausgefallen.",
@@ -56026,7 +54395,7 @@ const B1_WORDS = [
   },
   {
     "de": "strömen",
-    "lv": "Tok",
+    "lv": "Proudit",
     "level": "B1"
   },
   {
@@ -56040,14 +54409,14 @@ const B1_WORDS = [
     "de": "Strudel",
     "de_article": "der",
     "de_plural": "die Strudel",
-    "lv": "Otevírací",
+    "lv": "Vír",
     "level": "B1"
   },
   {
     "de": "Stuck",
     "de_article": "der",
     "de_plural": "die Stucke",
-    "lv": "Sádrová malta",
+    "lv": "Štuk",
     "level": "B1"
   },
   {
@@ -56071,7 +54440,7 @@ const B1_WORDS = [
   },
   {
     "de": "stumpf",
-    "lv": "Otupit",
+    "lv": "Tupý",
     "level": "B1"
   },
   {
@@ -56100,14 +54469,14 @@ const B1_WORDS = [
   },
   {
     "de": "stürmisch",
-    "lv": "Větrný",
+    "lv": "Bouřlivý",
     "level": "B1"
   },
   {
     "de": "Sturz",
     "de_article": "der",
     "de_plural": "die Stürze",
-    "lv": "Podzim",
+    "lv": "Pád",
     "level": "B1"
   },
   {
@@ -56118,7 +54487,7 @@ const B1_WORDS = [
       "id": "b1-stürzen",
       "layout": "standardStudy",
       "translation": "Spadnout",
-      "explanation": "Hlavní myšlenka: stürzen znamená rychle spadnout nebo se převrhnout. S předmětem to může znamenat svržení, také svržení vlády nebo úředníka.",
+      "explanation": "S předmětem může znamenat někoho nebo něco svrhnout, například vládu či úředníka.",
       "examples": [
         {
           "de": "Er stürzte auf der Treppe.",
@@ -56136,7 +54505,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "stürzen",
-          "meaning": "Rychle spadnout • Srazit se",
+          "meaning": "Rychle spadnout • Svrhnout",
           "example": "Er stürzt zu Boden. = Padá na zem."
         },
         {
@@ -56146,7 +54515,7 @@ const B1_WORDS = [
         },
         {
           "word": "umfallen",
-          "meaning": "Spadnout",
+          "meaning": "Převrhnout se",
           "example": "Der Stuhl fällt um. = Židle se převrhne."
         }
       ],
@@ -56284,7 +54653,7 @@ const B1_WORDS = [
     "de": "Süßwasser",
     "de_article": "das",
     "de_plural": "die Süßwasser",
-    "lv": "Čerstvou vodu",
+    "lv": "Sladká voda",
     "level": "B1"
   },
   {
@@ -56341,12 +54710,12 @@ const B1_WORDS = [
         },
         {
           "word": "die Bühne",
-          "meaning": "Fáze",
+          "meaning": "Jeviště",
           "example": "Sie steht auf der Bühne. = Stojí na jevišti."
         },
         {
           "word": "die Situation",
-          "meaning": "Situaci",
+          "meaning": "Situace",
           "example": "Die Situation ist schwierig. = Situace je složitá."
         }
       ],
@@ -56461,7 +54830,7 @@ const B1_WORDS = [
   },
   {
     "de": "tadeln",
-    "lv": "Vydělat",
+    "lv": "Kárat",
     "level": "B1"
   },
   {
@@ -56524,7 +54893,7 @@ const B1_WORDS = [
         },
         {
           "de": "Ich fülle den Tank mit Benzin.",
-          "lv": "Naplním nádrž plynem."
+          "lv": "Naplním nádrž benzínem."
         },
         {
           "de": "Der Panzer rollt über die Straße.",
@@ -56545,7 +54914,7 @@ const B1_WORDS = [
         {
           "word": "der Panzer",
           "meaning": "Vojenský tank",
-          "example": "Der Panzer ist schwer. = Nádrž je těžká."
+          "example": "Der Panzer ist schwer. = Tank je těžký."
         }
       ],
       "tip": {
@@ -56556,7 +54925,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Českýý tank je v němčině obvykle der Panzer, ne der Tank."
+        "text": "Český tank je v němčině obvykle der Panzer, ne der Tank."
       },
       "sectionAccents": {
         "explanation": {
@@ -56641,7 +55010,7 @@ const B1_WORDS = [
   },
   {
     "de": "tapezieren",
-    "lv": "Stát se",
+    "lv": "Tapetovat",
     "level": "B1"
   },
   {
@@ -56658,33 +55027,33 @@ const B1_WORDS = [
   },
   {
     "de": "tarnen",
-    "lv": "Zamaskovat se",
+    "lv": "Zamaskovat",
     "level": "B1"
   },
   {
     "de": "Taste",
     "de_article": "die",
     "de_plural": "die Tasten",
-    "lv": "Klíč",
+    "lv": "Klávesa",
     "level": "B1"
   },
   {
     "de": "tasten",
-    "lv": "Cítit",
+    "lv": "Hmatat",
     "level": "B1"
   },
   {
     "de": "Tat",
     "de_article": "die",
     "de_plural": "die Taten",
-    "lv": "Akce",
+    "lv": "Čin",
     "level": "B1"
   },
   {
     "de": "Täter",
     "de_article": "der",
     "de_plural": "die Täter",
-    "lv": "Zločinec",
+    "lv": "Pachatel",
     "level": "B1"
   },
   {
@@ -56696,7 +55065,7 @@ const B1_WORDS = [
     "de": "Tätigkeit",
     "de_article": "die",
     "de_plural": "die Tätigkeiten",
-    "lv": "Akce",
+    "lv": "Činnost",
     "level": "B1"
   },
   {
@@ -56735,7 +55104,7 @@ const B1_WORDS = [
       "id": "b1-tau",
       "layout": "standardStudy",
       "translation": "Rosa",
-      "explanation": "Hlavní myšlenka: der Tau znamená rosa – kapky vody na trávě nebo listech. Je nespočet (pouze jednotné číslo). Das Tau naproti tomu znamená lodní vlek nebo lano.",
+      "explanation": "Je nepočitatelné (používá se pouze v jednotném čísle).",
       "examples": [
         {
           "de": "Am Morgen liegt Tau auf der Wiese.",
@@ -56758,7 +55127,7 @@ const B1_WORDS = [
         },
         {
           "word": "das Tau",
-          "meaning": "Lodní vlek • Lano",
+          "meaning": "Lodní lano",
           "example": "Das Tau ist fest. = Vlek je těsný. Množné číslo: die Taue."
         },
         {
@@ -56775,7 +55144,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Der Tau = rosa (pouze jednotné číslo). das Tau = koudel (die Taue). Článek zcela mění význam."
+        "text": "Der Tau = rosa (pouze jednotné číslo). Das Tau = lodní lano (die Taue). Člen zcela mění význam."
       },
       "sectionAccents": {
         "explanation": {
@@ -56839,7 +55208,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-tau-2",
       "layout": "standardStudy",
-      "translation": "Lodní vlek",
+      "translation": "Lodní lano",
       "explanation": "Hlavní myšlenka: das Tau znamená lodní vlek nebo silné lano. Množné číslo je die Taue. Der Tau na druhé straně znamená rasu a používá se pouze v jednotném čísle.",
       "examples": [
         {
@@ -56848,7 +55217,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Taue sind fest gebunden.",
-          "lv": "Koudele jsou pevně svázány."
+          "lv": "Lana jsou pevně svázaná."
         },
         {
           "de": "Am Morgen liegt Tau auf der Wiese.",
@@ -56880,7 +55249,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Das Tau = koudel (die Taue). der Tau = rosa (pouze jednotné číslo). Nepřekrývá příklady mezi významy."
+        "text": "Das Tau = lodní lano (die Taue). Der Tau = rosa (pouze jednotné číslo). Příklady mezi významy se nepřekrývají."
       },
       "sectionAccents": {
         "explanation": {
@@ -56955,7 +55324,7 @@ const B1_WORDS = [
       "id": "b1-tauchen",
       "layout": "standardStudy",
       "translation": "Potápět se",
-      "explanation": "Hlavní myšlenka: tauchen znamená potápět se pod vodou. Předmětem znamená ponořit nebo ponořit něco do kapaliny.",
+      "explanation": "Hlavní myšlenka: tauchen znamená potápět se pod vodou. S předmětem může znamenat ponořit nebo namočit něco do kapaliny.",
       "examples": [
         {
           "de": "Wir tauchen im Meer.",
@@ -56967,7 +55336,7 @@ const B1_WORDS = [
         },
         {
           "de": "Sie taucht das Brot in die Suppe.",
-          "lv": "Ponoří chleba do polévky."
+          "lv": "Ona ponoří chleba do polévky."
         }
       ],
       "comparison": [
@@ -56983,14 +55352,14 @@ const B1_WORDS = [
         },
         {
           "word": "eintauchen",
-          "meaning": "Namočit, namočit",
+          "meaning": "Ponořit, namočit",
           "example": "Ich tauche den Pinsel ein. = Namočil jsem štětec."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pod vodou nebo v kapalině v: tauchen."
+            "text": "Pod vodou nebo do kapaliny: tauchen."
           }
         ]
       },
@@ -57105,7 +55474,7 @@ const B1_WORDS = [
       "id": "b1-taufen",
       "layout": "standardStudy",
       "translation": "Křtít",
-      "explanation": "Hlavní myšlenka: taufen znamená křtít v náboženském smyslu. Je také více používán při pojmenování lodi, projektu nebo jiné věci.",
+      "explanation": "Hlavní myšlenka: taufen znamená křtít v náboženském smyslu. Používá se také při pojmenování lodi, projektu nebo jiné věci.",
       "examples": [
         {
           "de": "Das Kind wird am Sonntag getauft.",
@@ -57133,14 +55502,14 @@ const B1_WORDS = [
         },
         {
           "word": "heiraten",
-          "meaning": "Oženit se",
+          "meaning": "Vzít se",
           "example": "Sie heiraten im Mai. = V květnu se berou."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "V kostele nebo formální jméno: taufen."
+            "text": "V kostele nebo při formálním pojmenování: taufen."
           }
         ]
       },
@@ -57234,7 +55603,7 @@ const B1_WORDS = [
   },
   {
     "de": "tauglich",
-    "lv": "Platný",
+    "lv": "Vhodný",
     "level": "B1"
   },
   {
@@ -57246,7 +55615,7 @@ const B1_WORDS = [
     "de": "Tausch",
     "de_article": "der",
     "de_plural": "die Tausche",
-    "lv": "[kolem] posun",
+    "lv": "Výměna",
     "level": "B1"
   },
   {
@@ -57257,7 +55626,7 @@ const B1_WORDS = [
   {
     "de": "Tauwetter",
     "de_article": "das",
-    "lv": "Rozmražené",
+    "lv": "Obleva",
     "level": "B1"
   },
   {
@@ -57289,7 +55658,7 @@ const B1_WORDS = [
       "id": "b1-teilnehmen",
       "layout": "standardStudy",
       "translation": "Zúčastnit se",
-      "explanation": "Hlavní myšlenka: Účastnit se znamená zúčastnit se akce, kurzu, konverzace nebo soutěže. Správná konstrukce je + kam? účastnit se.",
+      "explanation": "Hlavní myšlenka: teilnehmen znamená účastnit se akce, kurzu, rozhovoru nebo soutěže. Správná konstrukce je an + 3. pád.",
       "examples": [
         {
           "de": "Ich nehme an dem Kurs teil.",
@@ -57301,7 +55670,7 @@ const B1_WORDS = [
         },
         {
           "de": "Sie nimmt an der Besprechung teil.",
-          "lv": "Se schůzky účastní."
+          "lv": "Ona se účastní schůzky."
         }
       ],
       "comparison": [
@@ -57318,13 +55687,13 @@ const B1_WORDS = [
         {
           "word": "besuchen",
           "meaning": "Navštívit",
-          "example": "Ich besuche einen Kurs. = Kurz jsem navštěvoval."
+          "example": "Navštěvuji kurz."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Účastnit se něčeho: an + kam? účastnit se."
+            "text": "Účastnit se něčeho: an + 3. pád: teilnehmen."
           }
         ]
       },
@@ -57462,7 +55831,7 @@ const B1_WORDS = [
     "de": "Telefonkarte",
     "de_article": "die",
     "de_plural": "die Telefonkarten",
-    "lv": "Telekarta",
+    "lv": "Telefonní karta",
     "level": "B1"
   },
   {
@@ -57508,7 +55877,7 @@ const B1_WORDS = [
     "de": "Theke",
     "de_article": "die",
     "de_plural": "die Theken",
-    "lv": "Čelit",
+    "lv": "Pult",
     "level": "B1"
   },
   {
@@ -57529,7 +55898,7 @@ const B1_WORDS = [
     "de": "Tiefkühlfach",
     "de_article": "das",
     "de_plural": "die Tiefkühlfache",
-    "lv": "Mrazák",
+    "lv": "Mrazicí přihrádka",
     "level": "B1"
   },
   {
@@ -57543,7 +55912,7 @@ const B1_WORDS = [
     "de": "Tierhandlung",
     "de_article": "die",
     "de_plural": "die Tierhandlungen",
-    "lv": "Zverimexu",
+    "lv": "Zverimex",
     "level": "B1"
   },
   {
@@ -57555,7 +55924,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-titel",
       "layout": "standardStudy",
-      "translation": "Jméno",
+      "translation": "Název • titul",
       "explanation": "Hlavní myšlenka: der Titel znamená název knihy, písně, filmu nebo textu. Může to také znamenat titul, například akademický nebo sportovní titul.",
       "examples": [
         {
@@ -57568,7 +55937,7 @@ const B1_WORDS = [
         },
         {
           "de": "Er trägt den Titel Professor.",
-          "lv": "Má titul profesor."
+          "lv": "Má titul profesora."
         }
       ],
       "comparison": [
@@ -57579,12 +55948,12 @@ const B1_WORDS = [
         },
         {
           "word": "die Überschrift",
-          "meaning": "Titul",
+          "meaning": "Nadpis",
           "example": "Die Überschrift ist groß. = Titul je velký."
         },
         {
           "word": "der Name",
-          "meaning": "Jméno nebo titul",
+          "meaning": "Jméno nebo název",
           "example": "Wie ist der Name? = Jak se jmenuje?"
         }
       ],
@@ -57673,7 +56042,6 @@ const B1_WORDS = [
             {
               "text": {
                 "yellow": [
-                  "Grāmatai",
                   "dziesmai",
                   "filmai"
                 ]
@@ -57689,7 +56057,7 @@ const B1_WORDS = [
   },
   {
     "de": "toasten",
-    "lv": "Toastové housky",
+    "lv": "Opékat toast",
     "level": "B1"
   },
   {
@@ -57718,8 +56086,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-ton",
       "layout": "standardStudy",
-      "translation": "Zvuk",
-      "explanation": "Hlavní myšlenka: der Ton znamená zvuk nebo tón. Používá se pro zvuk, hlas, hudbu, nuance barev a způsob konverzace.",
+      "translation": "Zvuk • tón",
+      "explanation": "Hlavní myšlenka: der Ton znamená zvuk nebo tón. Používá se pro zvuk, hlas, hudbu, barevný odstín a způsob mluvy.",
       "examples": [
         {
           "de": "Der Ton ist zu leise.",
@@ -57727,7 +56095,7 @@ const B1_WORDS = [
         },
         {
           "de": "Sprich bitte in einem ruhigen Ton.",
-          "lv": "Prosím mluvte klidným tónem."
+          "lv": "Mluv prosím klidným tónem."
         },
         {
           "de": "Dieser Ton passt gut zur Wandfarbe.",
@@ -57759,7 +56127,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "In einem Ton mluvení znamená způsob mluvení, ne jen výšku tónu."
+        "text": "Mluvit určitým tónem znamená způsob mluvení, ne jen výšku tónu."
       },
       "sectionAccents": {
         "explanation": {
@@ -57883,7 +56251,7 @@ const B1_WORDS = [
     "de": "Träger",
     "de_article": "der",
     "de_plural": "die Träger",
-    "lv": "Dopravce",
+    "lv": "Nosič",
     "level": "B1"
   },
   {
@@ -57914,7 +56282,7 @@ const B1_WORDS = [
         },
         {
           "de": "Ich traue ihr diese Aufgabe zu.",
-          "lv": "Věřím, že úkol zvládá."
+          "lv": "Věřím, že tento úkol zvládne."
         },
         {
           "de": "Er traut sich nicht, allein zu sprechen.",
@@ -57924,7 +56292,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "trauen",
-          "meaning": "Důvěřovat, věřit svým schopnostem",
+          "meaning": "Důvěřovat, věřit někomu nebo jeho schopnostem",
           "example": "Ich traue dir. = Věřím ti."
         },
         {
@@ -58061,11 +56429,11 @@ const B1_WORDS = [
     "study": {
       "id": "b1-treffen-study",
       "layout": "standardStudy",
-      "translation": "Zasedání",
+      "translation": "Setkání • schůzka",
       "explanation": [
-        "Hlavní myšlenka: das Treffen s velkým písmenem a členem das je podstatné jméno - porada, porada.",
-        "Malá treffen je sloveso - setkat se/zasáhnout/učinit (rozhodnutí).",
-        "Das Treffen se často používá pro plánované shromáždění (ein Treffen organisieren = uspořádat schůzku).",
+        "Hlavní myšlenka: das Treffen s velkým písmenem a členem das je podstatné jméno – setkání nebo schůzka.",
+        "Sloveso treffen s malým písmenem znamená setkat se, zasáhnout nebo učinit rozhodnutí.",
+        "Das Treffen se často používá pro plánované setkání (ein Treffen organisieren = uspořádat schůzku).",
         "Množné číslo: die Treffen."
       ],
       "examples": [
@@ -58205,7 +56573,7 @@ const B1_WORDS = [
       "id": "b1-treiben",
       "layout": "standardStudy",
       "translation": "Věnovat se • hnát",
-      "explanation": "Hlavní myšlenka: treiben často znamená něco dělat, zvláště sport. Může to také znamenat řídit, řídit nebo dělat něco nedefinovaného.",
+      "explanation": "Hlavní myšlenka: treiben často znamená věnovat se něčemu, zvláště sportu. Může také znamenat hnát, pohánět nebo něco provádět.",
       "examples": [
         {
           "de": "Er treibt viel Sport.",
@@ -58217,7 +56585,7 @@ const B1_WORDS = [
         },
         {
           "de": "Was treibst du heute Abend?",
-          "lv": "Co děláš dnes večer"
+          "lv": "Co děláš dnes večer?"
         }
       ],
       "tip": {
@@ -58351,7 +56719,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "trennen",
-          "meaning": "Oddělit, oddělit",
+          "meaning": "Oddělit, rozdělit",
           "example": "Die Wand trennt die Zimmer. = Místnosti odděluje stěna."
         },
         {
@@ -58361,7 +56729,7 @@ const B1_WORDS = [
         },
         {
           "word": "sich trennen",
-          "meaning": "Rozbít",
+          "meaning": "Rozejít se",
           "example": "Sie trennen sich. = Rozvádějí se."
         }
       ],
@@ -58475,13 +56843,13 @@ const B1_WORDS = [
   },
   {
     "de": "treu",
-    "lv": "Věřící",
+    "lv": "Věrný",
     "level": "B1"
   },
   {
     "de": "Treue",
     "de_article": "die",
-    "lv": "Důvěra",
+    "lv": "Věrnost",
     "level": "B1"
   },
   {
@@ -58495,7 +56863,7 @@ const B1_WORDS = [
     "de": "Trieb",
     "de_article": "der",
     "de_plural": "die Triebe",
-    "lv": "Řídit",
+    "lv": "Pud",
     "level": "B1"
   },
   {
@@ -58509,7 +56877,7 @@ const B1_WORDS = [
     "de": "Trittbrett",
     "de_article": "das",
     "de_plural": "die Trittbretter",
-    "lv": "Štafle",
+    "lv": "Stupačka",
     "level": "B1"
   },
   {
@@ -58552,7 +56920,7 @@ const B1_WORDS = [
   },
   {
     "de": "trösten",
-    "lv": "Pohodlí",
+    "lv": "Utěšovat",
     "level": "B1"
   },
   {
@@ -58562,7 +56930,7 @@ const B1_WORDS = [
   },
   {
     "de": "trübe",
-    "lv": "Zataženo",
+    "lv": "Zakalený",
     "level": "B1"
   },
   {
@@ -58589,7 +56957,7 @@ const B1_WORDS = [
     "de": "Truppe",
     "de_article": "die",
     "de_plural": "die Truppen",
-    "lv": "Tlupa",
+    "lv": "Vojsko",
     "level": "B1"
   },
   {
@@ -58653,7 +57021,7 @@ const B1_WORDS = [
     "de": "Überfahrt",
     "de_article": "die",
     "de_plural": "die Überfahrten",
-    "lv": "Přechod",
+    "lv": "Přejezd",
     "level": "B1"
   },
   {
@@ -58685,11 +57053,11 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich übergebe dir den Schlüssel.",
-          "lv": "Dávám ti klíč."
+          "lv": "Předávám ti klíč."
         },
         {
           "de": "Die Ärztin übergibt dem Kollegen den Bericht.",
-          "lv": "Lékař podává zprávu kolegovi."
+          "lv": "Lékařka předává zprávu kolegovi."
         },
         {
           "de": "Ihm ist schlecht, er muss sich übergeben.",
@@ -58709,7 +57077,7 @@ const B1_WORDS = [
         },
         {
           "word": "sich übergeben",
-          "meaning": "Vyzvracet",
+          "meaning": "Zvracet",
           "example": "Er muss sich übergeben. = Potřebuje zvracet."
         }
       ],
@@ -58817,7 +57185,7 @@ const B1_WORDS = [
       "id": "b1-überholen",
       "layout": "standardStudy",
       "translation": "Předjíždět",
-      "explanation": "Hlavní myšlenka: überholen v provozu znamená předjíždět. Z technického hlediska to může znamenat generální opravu a opravu motoru nebo stroje.",
+      "explanation": "Z technického hlediska to může znamenat generální opravu motoru nebo stroje.",
       "examples": [
         {
           "de": "Der Lkw überholt das Auto.",
@@ -58840,7 +57208,7 @@ const B1_WORDS = [
         },
         {
           "word": "vorbeifahren",
-          "meaning": "Projít kolem",
+          "meaning": "Projet kolem",
           "example": "Ich fahre am Haus vorbei. = Prošel jsem kolem domu."
         },
         {
@@ -58852,12 +57220,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Porazit další auto na silnici: überholen."
+            "text": "Předjet další auto na silnici: überholen."
           }
         ]
       },
       "important": {
-        "text": "Einen Motor überholen znamená generální opravu, nikoli generální opravu motoru."
+        "text": "Einen Motor überholen znamená generálně opravit motor, nikoli ho předjíždět."
       },
       "sectionAccents": {
         "explanation": {
@@ -58948,7 +57316,7 @@ const B1_WORDS = [
   },
   {
     "de": "überlegen",
-    "lv": "K zamyšlení",
+    "lv": "Promyslet",
     "level": "B1"
   },
   {
@@ -58959,7 +57327,7 @@ const B1_WORDS = [
       "id": "b1-übernehmen",
       "layout": "standardStudy",
       "translation": "Převzít",
-      "explanation": "Hlavní myšlenka: Převzít znamená převzít práci, povinnost nebo odpovědnost. S Kostenem to znamená nést náklady.",
+      "explanation": "Ve spojení s Kosten to znamená nést náklady.",
       "examples": [
         {
           "de": "Ich übernehme diese Aufgabe.",
@@ -58977,7 +57345,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "übernehmen",
-          "meaning": "Převzít, převzít",
+          "meaning": "Převzít • převzít na sebe",
           "example": "Ich übernehme die Aufgabe. = Přebírám úkol."
         },
         {
@@ -58987,7 +57355,7 @@ const B1_WORDS = [
         },
         {
           "word": "bekommen",
-          "meaning": "Přijímat",
+          "meaning": "Dostávat",
           "example": "Ich bekomme eine Antwort. = Dostávám odpověď."
         }
       ],
@@ -58999,7 +57367,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Kosten oberkemen znamená nést náklady, nejen je přijímat."
+        "text": "Kosten übernehmen znamená nést náklady, nejen je dostávat."
       },
       "sectionAccents": {
         "explanation": {
@@ -59089,7 +57457,7 @@ const B1_WORDS = [
   },
   {
     "de": "überreden",
-    "lv": "Přesvědčit",
+    "lv": "Přemluvit",
     "level": "B1"
   },
   {
@@ -59100,7 +57468,7 @@ const B1_WORDS = [
       "id": "b1-übersehen",
       "layout": "standardStudy",
       "translation": "Nevšímat si",
-      "explanation": "Hlavní myšlenka: übersehen nejčastěji znamená přehlédnout chybu nebo detail. Z vyššího úhlu to může znamenat vidět větší obrázek.",
+      "explanation": "Z vyššího místa to může znamenat přehlédnout celý obraz.",
       "examples": [
         {
           "de": "Ich habe den Fehler übersehen.",
@@ -59112,13 +57480,13 @@ const B1_WORDS = [
         },
         {
           "de": "Bitte übersieh diese Kleinigkeit nicht.",
-          "lv": "Prosím, nenechte si ujít tuto lahůdku."
+          "lv": "Prosím, nepřehlédněte tuto maličkost."
         }
       ],
       "comparison": [
         {
           "word": "übersehen",
-          "meaning": "Přehlédnout • Přehlédnout",
+          "meaning": "Přehlédnout • přehlédnout z výšky",
           "example": "Ich habe den Fehler übersehen. = Chybu jsem si nevšiml."
         },
         {
@@ -59140,7 +57508,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Übersehen může mít opačný smysl: uniknout detailu nebo uniknout velkému obrazu."
+        "text": "Übersehen může mít opačný smysl: přehlédnout detail nebo přehlédnout celý obraz."
       },
       "sectionAccents": {
         "explanation": {
@@ -59236,7 +57604,7 @@ const B1_WORDS = [
   {
     "de": "Überstunden",
     "de_article": "die",
-    "lv": "Přesčas",
+    "lv": "Přesčasy",
     "level": "B1"
   },
   {
@@ -59263,12 +57631,12 @@ const B1_WORDS = [
     "de": "Überzug",
     "de_article": "der",
     "de_plural": "die Überzüge",
-    "lv": "Pokrýt",
+    "lv": "Potah",
     "level": "B1"
   },
   {
     "de": "üblich",
-    "lv": "Obyčejný",
+    "lv": "Obvyklý",
     "level": "B1"
   },
   {
@@ -59292,7 +57660,7 @@ const B1_WORDS = [
   },
   {
     "de": "umdrehen",
-    "lv": "Řezat",
+    "lv": "Otočit",
     "level": "B1"
   },
   {
@@ -59326,12 +57694,12 @@ const B1_WORDS = [
     "study": {
       "id": "b1-umgehen",
       "layout": "standardStudy",
-      "translation": "Obejít se",
-      "explanation": "Hlavní myšlenka: umgehen znamená jednat s osobou, věcí nebo situací. Může to znamenat i objetí překážky nebo obcházení pravidel.",
+      "translation": "Zacházet • obcházet",
+      "explanation": "Může to znamenat i obejít překážku nebo obcházet pravidla.",
       "examples": [
         {
           "de": "Er kann gut mit Kindern umgehen.",
-          "lv": "Je dobrý s dětmi."
+          "lv": "Umí dobře jednat s dětmi."
         },
         {
           "de": "Wir umgehen die Baustelle.",
@@ -59345,12 +57713,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "umgehen",
-          "meaning": "Obcházet • Obcházet",
+          "meaning": "Zacházet • obcházet",
           "example": "Er geht gut mit Kindern um. = S dětmi je dobrý."
         },
         {
           "word": "behandeln",
-          "meaning": "Léčit, léčit",
+          "meaning": "Léčit • zacházet s",
           "example": "Er behandelt sie freundlich. = Chová se k ní laskavě."
         },
         {
@@ -59466,7 +57834,7 @@ const B1_WORDS = [
   },
   {
     "de": "umkehren",
-    "lv": "Vrátit",
+    "lv": "Vrátit se",
     "level": "B1"
   },
   {
@@ -59488,7 +57856,7 @@ const B1_WORDS = [
     "de": "Umleitung",
     "de_article": "die",
     "de_plural": "die Umleitungen",
-    "lv": "Obchvatu",
+    "lv": "Objížďka",
     "level": "B1"
   },
   {
@@ -59501,7 +57869,7 @@ const B1_WORDS = [
       "id": "b1-umschlag",
       "layout": "standardStudy",
       "translation": "Obálka",
-      "explanation": "Hlavní myšlenka: der Umschlag znamená nejčastěji obálku na dopis. Předmětem může také znamenat kryt, kryt nebo komprese.",
+      "explanation": "Podle kontextu může znamenat také obal, potah nebo obklad.",
       "examples": [
         {
           "de": "Der Brief liegt im Umschlag.",
@@ -59519,7 +57887,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Umschlag",
-          "meaning": "Obálka • Obal • Komprimovat",
+          "meaning": "Obálka • obal • obklad",
           "example": "Der Brief ist im Umschlag. = Dopis je v obálce."
         },
         {
@@ -59529,7 +57897,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Bezug",
-          "meaning": "Pokrýt",
+          "meaning": "Potah",
           "example": "Der Bezug ist sauber. = Kryt je čistý."
         }
       ],
@@ -59649,19 +58017,19 @@ const B1_WORDS = [
     "de": "Umweg",
     "de_article": "der",
     "de_plural": "die Umwege",
-    "lv": "Objížďka",
+    "lv": "Zacházka",
     "level": "B1"
   },
   {
     "de": "Umwelt",
     "de_article": "die",
     "de_plural": "die Umwelten",
-    "lv": "Okolní prostředí",
+    "lv": "Životní prostředí",
     "level": "B1"
   },
   {
     "de": "umwerfen",
-    "lv": "Převrácení",
+    "lv": "Převrátit",
     "level": "B1"
   },
   {
@@ -59671,7 +58039,7 @@ const B1_WORDS = [
   },
   {
     "de": "unaufmerksam",
-    "lv": "Neopatrný",
+    "lv": "Nepozorný",
     "level": "B1"
   },
   {
@@ -59681,12 +58049,12 @@ const B1_WORDS = [
   },
   {
     "de": "unbequem",
-    "lv": "Nepříjemný",
+    "lv": "Nepohodlný",
     "level": "B1"
   },
   {
     "de": "unbestimmt",
-    "lv": "Neurčeno",
+    "lv": "Neurčitý",
     "level": "B1"
   },
   {
@@ -59706,12 +58074,12 @@ const B1_WORDS = [
   },
   {
     "de": "unentschieden",
-    "lv": "Svázaný",
+    "lv": "Nerozhodný",
     "level": "B1"
   },
   {
     "de": "unerwartet",
-    "lv": "Neočekávané",
+    "lv": "Neočekávaný",
     "level": "B1"
   },
   {
@@ -59733,12 +58101,12 @@ const B1_WORDS = [
   },
   {
     "de": "ungenau",
-    "lv": "Nepřesné",
+    "lv": "Nepřesný",
     "level": "B1"
   },
   {
     "de": "ungenügend",
-    "lv": "Nedostatečné",
+    "lv": "Nedostatečný",
     "level": "B1"
   },
   {
@@ -59782,12 +58150,12 @@ const B1_WORDS = [
   },
   {
     "de": "unmittelbar",
-    "lv": "Řídit",
+    "lv": "Bezprostřední",
     "level": "B1"
   },
   {
     "de": "unnötig",
-    "lv": "Zbytečné",
+    "lv": "Zbytečný",
     "level": "B1"
   },
   {
@@ -59816,12 +58184,12 @@ const B1_WORDS = [
   {
     "de": "Unsinn",
     "de_article": "der",
-    "lv": "Kecy",
+    "lv": "Nesmysl",
     "level": "B1"
   },
   {
     "de": "unterbrechen",
-    "lv": "Zastavit",
+    "lv": "Přerušit",
     "level": "B1"
   },
   {
@@ -59838,7 +58206,7 @@ const B1_WORDS = [
     "de": "Unterführung",
     "de_article": "die",
     "de_plural": "die Unterführungen",
-    "lv": "Tunel",
+    "lv": "Podchod",
     "level": "B1"
   },
   {
@@ -59884,12 +58252,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Bez sich: bavit nebo udržovat • Se sich: mluviti."
+            "text": "Bez sich: bavit nebo udržovat • Se sich: mluvit."
           }
         ]
       },
       "important": {
-        "text": "Unterhalten a sich unterhalten by měly být odděleny sich: význam se mění."
+        "text": "Unterhalten a sich unterhalten je třeba rozlišovat podle přítomnosti sich: význam se mění."
       },
       "sectionAccents": {
         "explanation": {
@@ -59986,7 +58354,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich unterscheiden",
-    "lv": "Odlišit se",
+    "lv": "Lišit se",
     "level": "B1"
   },
   {
@@ -60008,12 +58376,12 @@ const B1_WORDS = [
     "study": {
       "id": "b1-untersuchung",
       "layout": "standardStudy",
-      "translation": "Vyšetřování",
+      "translation": "Vyšetření • vyšetřování",
       "explanation": "Hlavní myšlenka: die Untersuchung znamená vyšetřování, zkoumání nebo studium. Kontext určuje, zda jde o lékaře, policistu nebo vědce.",
       "examples": [
         {
           "de": "Die ärztliche Untersuchung dauert zehn Minuten.",
-          "lv": "Vyšetření lékařem trvá deset minut."
+          "lv": "Lékařské vyšetření trvá deset minut."
         },
         {
           "de": "Die Polizei leitet eine Untersuchung ein.",
@@ -60044,7 +58412,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Doktor zkoumá, policie vyšetřuje, věda vyšetřuje: die Untersuchung."
+            "text": "Lékař vyšetřuje, policie vyšetřuje, věda zkoumá: die Untersuchung."
           }
         ]
       },
@@ -60126,7 +58494,6 @@ const B1_WORDS = [
             {
               "text": {
                 "green": [
-                  "Ārsts",
                   "policija"
                 ]
               }
@@ -60164,17 +58531,17 @@ const B1_WORDS = [
     "de": "Unwetter",
     "de_article": "das",
     "de_plural": "die Unwetter",
-    "lv": "Špatné počasí",
+    "lv": "Silná bouře",
     "level": "B1"
   },
   {
     "de": "unwohl",
-    "lv": "Nezdravý",
+    "lv": "Necítit se dobře",
     "level": "B1"
   },
   {
     "de": "uralt",
-    "lv": "Starověký",
+    "lv": "Prastarý",
     "level": "B1"
   },
   {
@@ -60195,12 +58562,12 @@ const B1_WORDS = [
     "de": "Veilchen",
     "de_article": "das",
     "de_plural": "die Veilchen",
-    "lv": "Fialový",
+    "lv": "Fialka",
     "level": "B1"
   },
   {
     "de": "verabreden",
-    "lv": "Zařídit",
+    "lv": "Domluvit",
     "level": "B1"
   },
   {
@@ -60211,7 +58578,7 @@ const B1_WORDS = [
       "id": "b1-verändern",
       "layout": "standardStudy",
       "translation": "Změnit",
-      "explanation": "Hlavní myšlenka: Změnit znamená změnit něco tak, aby se to stalo jiným. sich veränderen znamená změnit sám sebe.",
+      "explanation": "sich verändern znamená měnit se.",
       "examples": [
         {
           "de": "Die neue Regel verändert den Alltag.",
@@ -60239,19 +58606,19 @@ const B1_WORDS = [
         },
         {
           "word": "sich verändern",
-          "meaning": "Změnit",
+          "meaning": "Měnit se",
           "example": "Alles verändert sich. = Všechno se mění."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pokud se něco změní, často se používá veränderen."
+            "text": "Pokud se něco změní, často se používá verändern."
           }
         ]
       },
       "important": {
-        "text": "Sich veränderen je změnit sám sebe • Veränder bez sich znamená změnit něco jiného."
+        "text": "Sich verändern znamená měnit se • verändern bez sich znamená měnit něco jiného."
       },
       "sectionAccents": {
         "explanation": {
@@ -60336,7 +58703,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich verändern",
-    "lv": "Změnit",
+    "lv": "Změnit se",
     "level": "B1"
   },
   {
@@ -60353,7 +58720,7 @@ const B1_WORDS = [
   },
   {
     "de": "verärgern",
-    "lv": "Zlobit se",
+    "lv": "Rozzlobit",
     "level": "B1"
   },
   {
@@ -60384,17 +58751,17 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Verband",
-          "meaning": "Obvaz • Svazek",
+          "meaning": "Obvaz • svaz",
           "example": "Der Verband ist sauber. = Obvaz je čistý."
         },
         {
           "word": "der Verein",
-          "meaning": "Společnost",
+          "meaning": "Spolek",
           "example": "Der Verein hat viele Mitglieder. = Spolek má mnoho členů."
         },
         {
           "word": "die Verbindung",
-          "meaning": "Spojení, spojení",
+          "meaning": "Spojení • propojení",
           "example": "Die Verbindung ist stabil. = Spojení je stabilní."
         }
       ],
@@ -60406,7 +58773,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Der Verband not die Verbindung: Obvaz nebo sdružení není spojení."
+        "text": "Der Verband není die Verbindung: Obvaz nebo sdružení není spojení."
       },
       "sectionAccents": {
         "explanation": {
@@ -60504,7 +58871,7 @@ const B1_WORDS = [
       "id": "b1-verbindung",
       "layout": "standardStudy",
       "translation": "Spojení",
-      "explanation": "Hlavní myšlenka: die Verbindung znamená spojení nebo spojení mezi věcmi, lidmi, místy nebo systémy.",
+      "explanation": "die Verbindung znamená spojení nebo vztah mezi věcmi, lidmi, místy nebo systémy.",
       "examples": [
         {
           "de": "Die Internetverbindung ist schlecht.",
@@ -60527,12 +58894,12 @@ const B1_WORDS = [
         },
         {
           "word": "der Anschluss",
-          "meaning": "Spojení",
+          "meaning": "Připojení",
           "example": "Der Anschluss funktioniert. = Spojení funguje."
         },
         {
           "word": "der Verband",
-          "meaning": "Obvaz • Svazek",
+          "meaning": "Obvaz • svaz",
           "example": "Der Verband ist sauber. = Obvaz je čistý."
         }
       ],
@@ -60544,7 +58911,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Die Verbindung is not der Verband. Obvaz a obvaz jsou různá slova."
+        "text": "Die Verbindung není der Verband. Spojení a obvaz jsou různá slova."
       },
       "sectionAccents": {
         "explanation": {
@@ -60628,7 +58995,7 @@ const B1_WORDS = [
   },
   {
     "de": "verblühen",
-    "lv": "Kvést",
+    "lv": "Odkvést",
     "level": "B1"
   },
   {
@@ -60675,11 +59042,11 @@ const B1_WORDS = [
       "id": "b1-verbrennen",
       "layout": "standardStudy",
       "translation": "Spálit",
-      "explanation": "Hlavní myšlenka: verbrennen znamená spálit nebo spálit až do zkázy. S částí těla to znamená hořet.",
+      "explanation": "Hlavní myšlenka: verbrennen znamená něco spálit nebo samo shořet. S částí těla znamená popálit se.",
       "examples": [
         {
           "de": "Bitte verbrenne das Papier nicht.",
-          "lv": "Papír prosím nespalujte."
+          "lv": "Prosím, nespal papír."
         },
         {
           "de": "Das Holz verbrennt sehr schnell.",
@@ -60693,12 +59060,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "verbrennen",
-          "meaning": "Hořet, hořet, hořet",
+          "meaning": "Spálit • shořet • popálit se",
           "example": "Das Papier verbrennt. = Papír hoří."
         },
         {
           "word": "brennen",
-          "meaning": "Spálit",
+          "meaning": "Hořet",
           "example": "Das Feuer brennt. = Oheň hoří."
         },
         {
@@ -60715,7 +59082,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Sich die Hand verbrennen znamená spálit ruku, nespálit ruku až do konce."
+        "text": "Sich die Hand verbrennen znamená popálit si ruku, ne ji úplně spálit."
       },
       "sectionAccents": {
         "explanation": {
@@ -60822,7 +59189,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Regen verdirbt den Ausflug.",
-          "lv": "Déšť kazí jízdu."
+          "lv": "Déšť kazí výlet."
         },
         {
           "de": "Die Milch ist verdorben.",
@@ -60830,13 +59197,13 @@ const B1_WORDS = [
         },
         {
           "de": "Die schlechte Nachricht verdarb ihm die Stimmung.",
-          "lv": "Špatné zprávy mu zkazily náladu."
+          "lv": "Špatná zpráva mu zkazila náladu."
         }
       ],
       "comparison": [
         {
           "word": "verderben",
-          "meaning": "Kazit • Kazit",
+          "meaning": "Zkazit • zkazit se",
           "example": "Die Milch ist verdorben. = Mléko se zkazilo."
         },
         {
@@ -60846,14 +59213,14 @@ const B1_WORDS = [
         },
         {
           "word": "schlecht werden",
-          "meaning": "Zkazit na jídlo",
+          "meaning": "Zkazit se (o jídle)",
           "example": "Die Milch wird schlecht. = Mléko se kazí."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Jídlo, plán nebo nálada mohou ovlivnit."
+            "text": "Jídlo, plán nebo nálada se mohou zkazit nebo je může něco zkazit."
           }
         ]
       },
@@ -60934,11 +59301,7 @@ const B1_WORDS = [
           "leftBlocks": [
             {
               "text": {
-                "yellow": [
-                  "Ēdiens",
-                  "plāns",
-                  "noskaņojums"
-                ]
+                "yellow": []
               }
             }
           ]
@@ -60954,7 +59317,7 @@ const B1_WORDS = [
     "de": "Verdienst",
     "de_article": "der",
     "de_plural": "die Verdienste",
-    "lv": "Zisk",
+    "lv": "Výdělek",
     "level": "B1"
   },
   {
@@ -60966,12 +59329,12 @@ const B1_WORDS = [
     "de": "Verein",
     "de_article": "der",
     "de_plural": "die Vereine",
-    "lv": "Společnost",
+    "lv": "Spolek",
     "level": "B1"
   },
   {
     "de": "vereinbaren",
-    "lv": "Souhlasit",
+    "lv": "Dohodnout se",
     "level": "B1"
   },
   {
@@ -60982,7 +59345,7 @@ const B1_WORDS = [
       "id": "b1-verfolgen",
       "layout": "standardStudy",
       "translation": "Následovat",
-      "explanation": "Hlavní myšlenka: verförchen znamená následovat, pronásledovat nebo pronásledovat. Význam se stává silnějším, když je objektem osoba.",
+      "explanation": "Hlavní myšlenka: verfolgen znamená sledovat, pronásledovat nebo někoho stíhat. Význam je silnější, když je objektem osoba.",
       "examples": [
         {
           "de": "Die Polizei verfolgt den Täter.",
@@ -61022,7 +59385,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Pronásledovat člověka často znamená spíše honit než klidně následovat."
+        "text": "U člověka verfolgen často znamená spíše pronásledovat než ho klidně následovat."
       },
       "sectionAccents": {
         "explanation": {
@@ -61110,7 +59473,7 @@ const B1_WORDS = [
     "de": "Vergehen",
     "de_article": "das",
     "de_plural": "die Vergehen",
-    "lv": "Porušení",
+    "lv": "Přestupek",
     "level": "B1"
   },
   {
@@ -61164,7 +59527,7 @@ const B1_WORDS = [
       "id": "b1-verhältnis",
       "layout": "standardStudy",
       "translation": "Vztah",
-      "explanation": "Hlavní myšlenka: das Verhältnis znamená vztah, proporce nebo proporce. Verhältnisse často znamená podmínky v množném čísle.",
+      "explanation": "Hlavní myšlenka: das Verhältnis znamená vztah, poměr nebo vzájemný poměr. Verhältnisse v množném čísle často znamená okolnosti.",
       "examples": [
         {
           "de": "Ich habe ein gutes Verhältnis zu meinen Kollegen.",
@@ -61192,14 +59555,14 @@ const B1_WORDS = [
         },
         {
           "word": "der Anteil",
-          "meaning": "Součástí celku",
+          "meaning": "Podíl na celku",
           "example": "Der Anteil ist groß. = Porce je velká."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Mezi lidmi nebo čísly: Verhältnis • Množné číslo časté okolnosti."
+            "text": "Mezi lidmi nebo čísly: Verhältnis • v množném čísle často znamená okolnosti."
           }
         ]
       },
@@ -61293,7 +59656,7 @@ const B1_WORDS = [
   },
   {
     "de": "verheiraten",
-    "lv": "Oženit se",
+    "lv": "Oženit někoho",
     "level": "B1"
   },
   {
@@ -61308,7 +59671,7 @@ const B1_WORDS = [
   },
   {
     "de": "verkehren",
-    "lv": "Běžet",
+    "lv": "Jezdit",
     "level": "B1"
   },
   {
@@ -61342,7 +59705,7 @@ const B1_WORDS = [
     "de": "Versammlung",
     "de_article": "die",
     "de_plural": "die Versammlungen",
-    "lv": "Setkání",
+    "lv": "Shromáždění",
     "level": "B1"
   },
   {
@@ -61352,7 +59715,7 @@ const B1_WORDS = [
   },
   {
     "de": "verkleinern",
-    "lv": "Snížit",
+    "lv": "Zmenšit",
     "level": "B1"
   },
   {
@@ -61372,7 +59735,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich verlaufen",
-    "lv": "Konat",
+    "lv": "Ztratit se",
     "level": "B1"
   },
   {
@@ -61382,7 +59745,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-verlegen",
       "layout": "standardStudy",
-      "translation": "Pohybovat se",
+      "translation": "Přesunout • odložit • vydat",
       "explanation": "Hlavní myšlenka: verlegen znamená přenést nebo přesunout. V běžném životě to také znamená odložit něco, abyste to už nemohli najít.",
       "examples": [
         {
@@ -61391,7 +59754,7 @@ const B1_WORDS = [
         },
         {
           "de": "Ich habe meinen Schlüssel verlegt.",
-          "lv": "Někde jsem dal klíč a nemůžu ho najít."
+          "lv": "Někam jsem odložil klíč a nemůžu ho najít."
         },
         {
           "de": "Der Verlag verlegt das Buch im Herbst.",
@@ -61411,7 +59774,7 @@ const B1_WORDS = [
         },
         {
           "word": "verlieren",
-          "meaning": "Prohrát",
+          "meaning": "Ztratit",
           "example": "Ich verliere den Schlüssel. = Ztratil jsem klíč."
         }
       ],
@@ -61532,7 +59895,7 @@ const B1_WORDS = [
         },
         {
           "de": "Deine Worte haben sie verletzt.",
-          "lv": "Tvoje slova ho bolí."
+          "lv": "Tvoje slova ji zranila."
         },
         {
           "de": "Der Fahrer hat die Verkehrsregeln verletzt.",
@@ -61559,7 +59922,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Ubližovat tělu, urážet city, porušovat pravidla: verletzen."
+            "text": "Zranit tělo, zranit city, porušit pravidla: verletzen."
           }
         ]
       },
@@ -61665,7 +60028,7 @@ const B1_WORDS = [
   },
   {
     "de": "vermuten",
-    "lv": "Hádat",
+    "lv": "Domnívat se",
     "level": "B1"
   },
   {
@@ -61675,7 +60038,7 @@ const B1_WORDS = [
   },
   {
     "de": "vernünftig",
-    "lv": "Rozumné",
+    "lv": "Rozumný",
     "level": "B1"
   },
   {
@@ -61685,22 +60048,22 @@ const B1_WORDS = [
   },
   {
     "de": "verraten",
-    "lv": "Předat",
+    "lv": "Prozradit",
     "level": "B1"
   },
   {
     "de": "sich verrechnen",
-    "lv": "Přepočítat",
+    "lv": "Špatně se spočítat",
     "level": "B1"
   },
   {
     "de": "verreisen",
-    "lv": "Odcházející",
+    "lv": "Odjet",
     "level": "B1"
   },
   {
     "de": "versammeln",
-    "lv": "[se] shromáždit",
+    "lv": "Shromáždit",
     "level": "B1"
   },
   {
@@ -61710,27 +60073,27 @@ const B1_WORDS = [
   },
   {
     "de": "versäumen",
-    "lv": "Být pozdě",
+    "lv": "Zmeškat",
     "level": "B1"
   },
   {
     "de": "verschenken",
-    "lv": "Prezentovat",
+    "lv": "Darovat",
     "level": "B1"
   },
   {
     "de": "verschieben",
-    "lv": "Pohybovat se",
+    "lv": "Přesunout",
     "level": "B1"
   },
   {
     "de": "verschlafen",
-    "lv": "Lehnout si",
+    "lv": "Přespat",
     "level": "B1"
   },
   {
     "de": "sich verschlafen",
-    "lv": "Usnout",
+    "lv": "Zaspát",
     "level": "B1"
   },
   {
@@ -61741,7 +60104,7 @@ const B1_WORDS = [
       "id": "b1-versichern",
       "layout": "standardStudy",
       "translation": "Pojistit",
-      "explanation": "Hlavní myšlenka: versichern znamená pojistit se. V řeči to také znamená potvrdit nebo říci sebevědomě.",
+      "explanation": "Hlavní myšlenka: versichern znamená pojistit něco nebo někoho. V řeči to také znamená ujistit nebo důrazně prohlásit.",
       "examples": [
         {
           "de": "Ich versichere mein Auto.",
@@ -61759,12 +60122,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "versichern",
-          "meaning": "Pojistit • Osvědčit",
+          "meaning": "Pojistit • Ujistit",
           "example": "Ich versichere das Auto. = Pojišťuji auto."
         },
         {
           "word": "sichern",
-          "meaning": "Zajistit, zajistit",
+          "meaning": "Zajistit • zabezpečit",
           "example": "Ich sichere die Tür. = Nabízím dveře."
         },
         {
@@ -61776,7 +60139,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Smlouva o riziku: pojistit • Věta s dass: osvědčit."
+            "text": "Smlouva týkající se rizika: pojistit • věta s dass: ujistit."
           }
         ]
       },
@@ -61866,7 +60229,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich versichern",
-    "lv": "Pojistit",
+    "lv": "Pojistit se",
     "level": "B1"
   },
   {
@@ -61876,12 +60239,12 @@ const B1_WORDS = [
   },
   {
     "de": "sich versorgen",
-    "lv": "Poskytnout",
+    "lv": "Postarat se o sebe",
     "level": "B1"
   },
   {
     "de": "verspäten",
-    "lv": "Zpoždění",
+    "lv": "Zpozdit",
     "level": "B1"
   },
   {
@@ -61891,7 +60254,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich versprechen",
-    "lv": "Abych to vynahradil",
+    "lv": "Přeřeknout se",
     "level": "B1"
   },
   {
@@ -61905,7 +60268,7 @@ const B1_WORDS = [
     "de": "Verstand",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Mysl",
+    "lv": "Rozum",
     "level": "B1"
   },
   {
@@ -61927,7 +60290,7 @@ const B1_WORDS = [
   },
   {
     "de": "verstopfen",
-    "lv": "Zastrčit",
+    "lv": "Ucpat",
     "level": "B1"
   },
   {
@@ -61959,7 +60322,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich vertragen",
-    "lv": "Žít spolu",
+    "lv": "Vycházet spolu",
     "level": "B1"
   },
   {
@@ -61993,7 +60356,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "vertreten",
-          "meaning": "Zastupovat, zastupovat, bránit",
+          "meaning": "Zastupovat, nahradit, hájit",
           "example": "Sie vertritt die Firma. = Zastupuje společnost."
         },
         {
@@ -62003,7 +60366,7 @@ const B1_WORDS = [
         },
         {
           "word": "darstellen",
-          "meaning": "Zobrazovat nebo zobrazovat",
+          "meaning": "Zobrazovat nebo představovat",
           "example": "Die Grafik stellt Daten dar. = Data představuje graf."
         }
       ],
@@ -62119,7 +60482,7 @@ const B1_WORDS = [
   },
   {
     "de": "verwandt",
-    "lv": "Související",
+    "lv": "Příbuzný",
     "level": "B1"
   },
   {
@@ -62332,12 +60695,12 @@ const B1_WORDS = [
   },
   {
     "de": "verwechseln",
-    "lv": "Zmást",
+    "lv": "Zaměnit",
     "level": "B1"
   },
   {
     "de": "verwenden",
-    "lv": "Spotřebovat",
+    "lv": "Používat",
     "level": "B1"
   },
   {
@@ -62354,7 +60717,7 @@ const B1_WORDS = [
   },
   {
     "de": "verzichten",
-    "lv": "Odmítnout",
+    "lv": "Vzdát se",
     "level": "B1"
   },
   {
@@ -62368,7 +60731,7 @@ const B1_WORDS = [
     "de": "Vieh",
     "de_article": "das",
     "de_plural": null,
-    "lv": "Hospodářských zvířat",
+    "lv": "Hospodářská zvířata",
     "level": "B1"
   },
   {
@@ -62418,7 +60781,7 @@ const B1_WORDS = [
   },
   {
     "de": "volljährig",
-    "lv": "Dospělý",
+    "lv": "Plnoletý",
     "level": "B1"
   },
   {
@@ -62449,19 +60812,19 @@ const B1_WORDS = [
     "de": "Vorbild",
     "de_article": "das",
     "de_plural": "die Vorbilder",
-    "lv": "Ochutnat",
+    "lv": "Vzor",
     "level": "B1"
   },
   {
     "de": "vorführen",
-    "lv": "Prokázat",
+    "lv": "Předvést",
     "level": "B1"
   },
   {
     "de": "Vorgang",
     "de_article": "der",
     "de_plural": "die Vorgänge",
-    "lv": "Pokrok",
+    "lv": "Proces",
     "level": "B1"
   },
   {
@@ -62656,12 +61019,12 @@ const B1_WORDS = [
     "de": "Vorrat",
     "de_article": "der",
     "de_plural": "die Vorräte",
-    "lv": "Sklad",
+    "lv": "Zásoba",
     "level": "B1"
   },
   {
     "de": "vorsagen",
-    "lv": "Říct vepředu",
+    "lv": "Napovídat",
     "level": "B1"
   },
   {
@@ -62673,7 +61036,7 @@ const B1_WORDS = [
   },
   {
     "de": "vorsehen",
-    "lv": "Předpovídat",
+    "lv": "Naplánovat",
     "level": "B1"
   },
   {
@@ -62693,7 +61056,7 @@ const B1_WORDS = [
     "de": "Vorspeise",
     "de_article": "die",
     "de_plural": "die Vorspeisen",
-    "lv": "Snack",
+    "lv": "Předkrm",
     "level": "B1"
   },
   {
@@ -62712,8 +61075,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-vorstellung",
       "layout": "standardStudy",
-      "translation": "Show",
-      "explanation": "Hlavní myšlenka: die Vorstellung znamená představení nebo představení. V myšlení to znamená myšlenku něčeho.",
+      "translation": "Představení • Představa",
+      "explanation": "Hlavní myšlenka: die Vorstellung znamená představení nebo sezení. V mysli označuje představu o něčem.",
       "examples": [
         {
           "de": "Die Vorstellung beginnt um acht Uhr.",
@@ -62731,7 +61094,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Vorstellung",
-          "meaning": "Představení, představení • Představení",
+          "meaning": "Představení, sezení • Představa",
           "example": "Die Vorstellung beginnt. = Představení začíná."
         },
         {
@@ -62741,14 +61104,14 @@ const B1_WORDS = [
         },
         {
           "word": "die Aufführung",
-          "meaning": "Výkon, výkon",
+          "meaning": "Představení",
           "example": "Die Aufführung war gut. = Představení bylo dobré."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "V divadle nebo kině: show • V hlavě: obraz."
+            "text": "V divadle nebo kině: představení • V hlavě: představa."
           }
         ]
       },
@@ -62843,7 +61206,7 @@ const B1_WORDS = [
   },
   {
     "de": "vorüber",
-    "lv": "Miss",
+    "lv": "Pryč",
     "level": "B1"
   },
   {
@@ -62853,7 +61216,7 @@ const B1_WORDS = [
   },
   {
     "de": "vorweisen",
-    "lv": "Současnost",
+    "lv": "Předložit",
     "level": "B1"
   },
   {
@@ -62864,7 +61227,7 @@ const B1_WORDS = [
       "id": "b1-vorziehen",
       "layout": "standardStudy",
       "translation": "Dát přednost",
-      "explanation": "Hlavní myšlenka: vorziehen znamená preferovat. Pro termín to znamená odložit na dřívější dobu.",
+      "explanation": "Hlavní myšlenka: vorziehen znamená dát přednost. U termínu to znamená přesunout ho na dřívější dobu.",
       "examples": [
         {
           "de": "Ich ziehe Tee dem Kaffee vor.",
@@ -62872,17 +61235,17 @@ const B1_WORDS = [
         },
         {
           "de": "Wir ziehen den Termin auf Mittwoch vor.",
-          "lv": "Termín posouváme na středu dříve."
+          "lv": "Přesouváme termín na dřívější středu."
         },
         {
           "de": "Sie zieht es vor, zu Hause zu bleiben.",
-          "lv": "Raději zůstává doma."
+          "lv": "Dává přednost tomu zůstat doma."
         }
       ],
       "comparison": [
         {
           "word": "vorziehen",
-          "meaning": "Raději • Přestěhovat se dříve",
+          "meaning": "Dát přednost • Přesunout na dřívější dobu",
           "example": "Ich ziehe Tee vor. = Preferuji čaj."
         },
         {
@@ -62899,7 +61262,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Preference: etwas vorziehen • Dřívější termín: Termin vorziehen."
+            "text": "Dát přednost: etwas vorziehen • Dřívější termín: Termin vorziehen."
           }
         ]
       },
@@ -63029,7 +61392,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-wache",
       "layout": "standardStudy",
-      "translation": "Hlídat",
+      "translation": "Stráž • Hlídka • Policejní stanice",
       "explanation": "Hlavní myšlenka: die Wache znamená stráž, hlídka nebo policejní stanice. Je to podstatné jméno, ne akce.",
       "examples": [
         {
@@ -63053,13 +61416,13 @@ const B1_WORDS = [
         },
         {
           "word": "der Wächter",
-          "meaning": "Hlídat",
+          "meaning": "Strážný",
           "example": "Der Wächter kontrolliert die Tür. = Strážný kontroluje dveře."
         },
         {
           "word": "wachen",
           "meaning": "Být vzhůru, hlídat",
-          "example": "Der Hund wacht. = Psí hlídači."
+          "example": "Pes hlídá."
         }
       ],
       "tip": {
@@ -63165,7 +61528,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich wache die ganze Nacht.",
-          "lv": "Jsem vzhůru celou noc"
+          "lv": "Jsem vzhůru celou noc."
         },
         {
           "de": "Der Hund wacht vor dem Haus.",
@@ -63173,14 +61536,14 @@ const B1_WORDS = [
         },
         {
           "de": "Ich wache um sieben Uhr auf.",
-          "lv": "Vstávám v sedm hodin"
+          "lv": "Probouzím se v sedm hodin."
         }
       ],
       "comparison": [
         {
           "word": "wachen",
           "meaning": "Být vzhůru, hlídat",
-          "example": "Der Hund wacht. = Psí hlídači."
+          "example": "Pes hlídá."
         },
         {
           "word": "aufwachen",
@@ -63196,7 +61559,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Sledovat nebo sledovat: wachen • Probudit se: aufwachen."
+            "text": "Být vzhůru nebo hlídat: wachen • Probudit se: aufwachen."
           }
         ]
       },
@@ -63304,12 +61667,12 @@ const B1_WORDS = [
     "de": "Wächter",
     "de_article": "der",
     "de_plural": "die Wächter",
-    "lv": "Hlídat",
+    "lv": "Strážný",
     "level": "B1"
   },
   {
     "de": "wackeln",
-    "lv": "Kolébat se",
+    "lv": "Viklat se",
     "level": "B1"
   },
   {
@@ -63347,7 +61710,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Wagen",
-          "meaning": "Vůz • Vůz • Vozík",
+          "meaning": "Vůz • Vagón • Vozík",
           "example": "Der Wagen ist neu. = Auto je nové."
         },
         {
@@ -63369,12 +61732,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Der Wagen se členem der je podstatné jméno - vozidlo. sázet bez článku je sloveso - odvážit se."
+            "text": "Der Wagen se členem der je podstatné jméno – vozidlo. Wagen bez členu je sloveso – odvážit se."
           }
         ]
       },
       "important": {
-        "text": "Der Wagen = vůz nebo vůz (die Wagen). won = odvážit se je jiné slovo."
+        "text": "Der Wagen = vůz nebo vagón (die Wagen). Wagen = odvážit se – je to jiné slovo."
       },
       "sectionAccents": {
         "explanation": {
@@ -63530,7 +61893,7 @@ const B1_WORDS = [
   },
   {
     "de": "wärmen",
-    "lv": "Zahřát",
+    "lv": "Zahřívat",
     "level": "B1"
   },
   {
@@ -63556,7 +61919,7 @@ const B1_WORDS = [
     "de": "Wärter",
     "de_article": "der",
     "de_plural": "die Wärter",
-    "lv": "Hlídat",
+    "lv": "Dozorce",
     "level": "B1"
   },
   {
@@ -63784,7 +62147,7 @@ const B1_WORDS = [
     "de": "Wechselkurs",
     "de_article": "der",
     "de_plural": "die Wechselkurse",
-    "lv": "Kurz",
+    "lv": "Směnný kurz",
     "level": "B1"
   },
   {
@@ -63978,7 +62341,7 @@ const B1_WORDS = [
     "de": "Wegweiser",
     "de_article": "der",
     "de_plural": "die Wegweiser",
-    "lv": "Dopravní značka",
+    "lv": "Směrovka",
     "level": "B1"
   },
   {
@@ -63988,19 +62351,19 @@ const B1_WORDS = [
   },
   {
     "de": "weiblich",
-    "lv": "Žen",
+    "lv": "Ženský",
     "level": "B1"
   },
   {
     "de": "weichen",
-    "lv": "Stáhnout se",
+    "lv": "Ustoupit",
     "level": "B1"
   },
   {
     "de": "Weide",
     "de_article": "die",
     "de_plural": "die Weiden",
-    "lv": "Pastviny",
+    "lv": "Pastvina",
     "level": "B1"
   },
   {
@@ -64021,7 +62384,7 @@ const B1_WORDS = [
   {
     "de": "Weile",
     "de_article": "die",
-    "lv": "Okamžik",
+    "lv": "Chvíle",
     "level": "B1"
   },
   {
@@ -64098,7 +62461,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Welle in der Maschine ist beschädigt.",
-          "lv": "Je poškozen hřídel stroje."
+          "lv": "Hřídel stroje je poškozená."
         }
       ],
       "comparison": [
@@ -64114,19 +62477,19 @@ const B1_WORDS = [
         },
         {
           "word": "die Achse",
-          "meaning": "Osel",
+          "meaning": "Náprava",
           "example": "Die Achse ist kaputt. = Náprava je zlomená."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "V moři a obrazně obvykle vlna • Stroj může mít vřeteno."
+            "text": "V moři a obrazně obvykle vlna • Ve stroji může znamenat hřídel."
           }
         ]
       },
       "important": {
-        "text": "V technice může die Welle znamenat spíše šachtu než vodní vlnu."
+        "text": "V technice může die Welle znamenat hřídel, nikoli vodní vlnu."
       },
       "sectionAccents": {
         "explanation": {
@@ -64250,11 +62613,11 @@ const B1_WORDS = [
       "id": "b1-wenden",
       "layout": "standardStudy",
       "translation": "Otočit",
-      "explanation": "Hlavní myšlenka: wenden znamená otočit nebo otočit. sich an jemanden wenden znamená obrátit se na někoho.",
+      "explanation": "Hlavní myšlenka: wenden znamená otočit nebo obrátit. sich an jemanden wenden znamená obrátit se na někoho.",
       "examples": [
         {
           "de": "Bitte wenden Sie das Auto.",
-          "lv": "Prosím otočte auto."
+          "lv": "Prosím, otočte auto."
         },
         {
           "de": "Wenden Sie das Blatt.",
@@ -64262,24 +62625,24 @@ const B1_WORDS = [
         },
         {
           "de": "Sie wendet sich an den Arzt.",
-          "lv": "Jde k lékaři."
+          "lv": "Obrací se na lékaře."
         }
       ],
       "comparison": [
         {
           "word": "wenden",
-          "meaning": "Otočit, otočit",
+          "meaning": "Otočit, obrátit",
           "example": "Wenden Sie das Auto. = Otočte auto."
         },
         {
           "word": "drehen",
-          "meaning": "Otočit, otočit",
+          "meaning": "Točit, otáčet",
           "example": "Dreh den Schlüssel. = Otočte klíčem."
         },
         {
           "word": "sich wenden an",
           "meaning": "Obrátit se na",
-          "example": "Ich wende mich an dich. = Obracím se na vás."
+          "example": "Obracím se na tebe."
         }
       ],
       "tip": {
@@ -64392,8 +62755,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-werben",
       "layout": "standardStudy",
-      "translation": "Inzerovat",
-      "explanation": "Hlavní myšlenka: werben znamená dělat reklamu nebo přitahovat. werben um znamená pokusit se získat podporu, hlasy nebo pozornost.",
+      "translation": "Propagovat • získávat",
+      "explanation": "Hlavní myšlenka: werben znamená propagovat nebo získávat. werben um znamená usilovat o podporu, hlasy nebo pozornost.",
       "examples": [
         {
           "de": "Die Firma wirbt für ein neues Produkt.",
@@ -64416,7 +62779,7 @@ const B1_WORDS = [
         },
         {
           "word": "sich bewerben",
-          "meaning": "Požádat o práci nebo místo",
+          "meaning": "Ucházet se o práci nebo místo",
           "example": "Ich bewerbe mich. = Hlásím se."
         },
         {
@@ -64428,12 +62791,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Produkt nebo podpora propagovaná/zapojená: werben."
+            "text": "Produkt nebo podpora se propagují či získávají: werben."
           }
         ]
       },
       "important": {
-        "text": "Werben není sich bewerben. sich bewerben znamená uplatnit."
+        "text": "Werben není sich bewerben. Sich bewerben znamená ucházet se o práci nebo místo."
       },
       "sectionAccents": {
         "explanation": {
@@ -64527,7 +62890,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-werk",
       "layout": "standardStudy",
-      "translation": "Práce",
+      "translation": "Dílo • továrna",
       "explanation": "Hlavní myšlenka: das Werk je vytvořené dílo, jako je kniha, umělecké dílo nebo kompozice. Může to také znamenat továrnu.",
       "examples": [
         {
@@ -64551,7 +62914,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Arbeit",
-          "meaning": "Pracovat, pracovat",
+          "meaning": "Práce • pracování",
           "example": "Die Arbeit ist schwer. = Práce je to těžká."
         },
         {
@@ -64568,7 +62931,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Das Werk není normální pracovní den • Je to stvořená věc nebo továrna."
+        "text": "Das Werk není běžná práce • Je to vytvořené dílo nebo továrna."
       },
       "sectionAccents": {
         "explanation": {
@@ -64674,7 +63037,7 @@ const B1_WORDS = [
   },
   {
     "de": "wesentlich",
-    "lv": "Základní",
+    "lv": "Podstatný",
     "level": "B1"
   },
   {
@@ -64691,7 +63054,7 @@ const B1_WORDS = [
     "de": "Wette",
     "de_article": "die",
     "de_plural": "die Wetten",
-    "lv": "Sázky",
+    "lv": "Sázka",
     "level": "B1"
   },
   {
@@ -64733,7 +63096,7 @@ const B1_WORDS = [
   {
     "de": "Wiederhören",
     "de_article": "das",
-    "lv": "Uvidíme se brzy!",
+    "lv": "Na slyšenou!",
     "level": "B1"
   },
   {
@@ -64771,14 +63134,14 @@ const B1_WORDS = [
     "de": "Windmühle",
     "de_article": "die",
     "de_plural": "die Windmühlen",
-    "lv": "Větrné mlýny",
+    "lv": "Větrný mlýn",
     "level": "B1"
   },
   {
     "de": "Windel",
     "de_article": "die",
     "de_plural": "die Windeln",
-    "lv": "Plenky",
+    "lv": "Plenka",
     "level": "B1"
   },
   {
@@ -64804,12 +63167,12 @@ const B1_WORDS = [
     "study": {
       "id": "b1-zeugnis",
       "layout": "standardStudy",
-      "translation": "Svědectví",
-      "explanation": "Hlavní myšlenka: das Zeugnis znamená svědectví, certifikát nebo oficiální prohlášení. Ve škole je to obvykle známka úspěchu.",
+      "translation": "Vysvědčení • potvrzení",
+      "explanation": "Hlavní myšlenka: das Zeugnis znamená vysvědčení, osvědčení nebo úřední potvrzení. Ve škole jde obvykle o vysvědčení.",
       "examples": [
         {
           "de": "Das Kind bekommt heute sein Zeugnis.",
-          "lv": "Dítě dnes dostává svědectví."
+          "lv": "Dítě dnes dostává vysvědčení."
         },
         {
           "de": "Ich brauche ein ärztliches Zeugnis.",
@@ -64823,7 +63186,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "das Zeugnis",
-          "meaning": "Svědectví, osvědčení, osvědčení",
+          "meaning": "Vysvědčení • osvědčení • potvrzení",
           "example": "Das Zeugnis ist gut. = Svědectví je dobré."
         },
         {
@@ -64845,7 +63208,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Ärztliches Zeugnis je v češtině často potvrzení lékaře, nikoli potvrzení školy."
+        "text": "Ärztliches Zeugnis je v češtině často lékařské potvrzení, nikoli školní vysvědčení."
       },
       "sectionAccents": {
         "explanation": {
@@ -64944,7 +63307,7 @@ const B1_WORDS = [
     "de": "Zipfel",
     "de_article": "der",
     "de_plural": "die Zipfel",
-    "lv": "Rohu",
+    "lv": "Cíp",
     "level": "B1"
   },
   {
@@ -64956,7 +63319,7 @@ const B1_WORDS = [
     "de": "Zirkel",
     "de_article": "der",
     "de_plural": "die Zirkel",
-    "lv": "Oběžník",
+    "lv": "Kružítko",
     "level": "B1"
   },
   {
@@ -64968,7 +63331,7 @@ const B1_WORDS = [
     "de": "Zitat",
     "de_article": "das",
     "de_plural": "die Zitate",
-    "lv": "Citovat",
+    "lv": "Citát",
     "level": "B1"
   },
   {
@@ -64995,7 +63358,7 @@ const B1_WORDS = [
     "de": "Zoll",
     "de_article": "der",
     "de_plural": "die Zölle",
-    "lv": "Zvyky",
+    "lv": "Clo",
     "level": "B1"
   },
   {
@@ -65032,7 +63395,7 @@ const B1_WORDS = [
   },
   {
     "de": "zucken",
-    "lv": "Škubnutí",
+    "lv": "Škubat se",
     "level": "B1"
   },
   {
@@ -65044,7 +63407,7 @@ const B1_WORDS = [
   },
   {
     "de": "zufällig",
-    "lv": "Náhodné",
+    "lv": "Náhodný",
     "level": "B1"
   },
   {
@@ -65062,7 +63425,7 @@ const B1_WORDS = [
       "id": "b1-zugeben",
       "layout": "standardStudy",
       "translation": "Přiznat",
-      "explanation": "Hlavní myšlenka: Zubegen znamená přiznat chybu nebo pravdu. S jídlem nebo látkami, dazubegen znamená přidat do.",
+      "explanation": "Hlavní myšlenka: zugeben znamená přiznat chybu nebo pravdu. U jídla nebo přísad bedeutet dazugeben přidat něco.",
       "examples": [
         {
           "de": "Ich gebe zu, dass ich einen Fehler gemacht habe.",
@@ -65074,7 +63437,7 @@ const B1_WORDS = [
         },
         {
           "de": "Gib noch etwas Salz dazu.",
-          "lv": "Přidejte ještě trochu soli."
+          "lv": "Přidej ještě trochu soli."
         }
       ],
       "comparison": [
@@ -65090,7 +63453,7 @@ const B1_WORDS = [
         },
         {
           "word": "gestehen",
-          "meaning": "Přiznat se vážněji",
+          "meaning": "Přiznat se, obvykle k něčemu závažnému",
           "example": "Er gesteht den Fehler. = Přiznává chybu."
         }
       ],
@@ -65102,7 +63465,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Gib Salz dazu je třeba přidat, nikoli uznat."
+        "text": "Gib Salz dazu znamená přidat, nikoli přiznat."
       },
       "sectionAccents": {
         "explanation": {
@@ -65224,7 +63587,7 @@ const B1_WORDS = [
       "id": "b1-zünden",
       "layout": "standardStudy",
       "translation": "Zapálit",
-      "explanation": "Hlavní myšlenka: zünden znamená zapálit, uvést do pohybu nebo pracovat. Anzünden se často používá pro specifické podpalování.",
+      "explanation": "Hlavní myšlenka: zünden znamená zapálit, zafungovat nebo zabrat. Anzünden se často používá pro konkrétní zapalování.",
       "examples": [
         {
           "de": "Er zündet die Kerze an.",
@@ -65232,7 +63595,7 @@ const B1_WORDS = [
         },
         {
           "de": "Das Feuerzeug zündet nicht.",
-          "lv": "Zapalovač nesvítí."
+          "lv": "Zapalovač nezapaluje."
         },
         {
           "de": "Die Idee hat sofort gezündet.",
@@ -65242,7 +63605,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "zünden",
-          "meaning": "Zapálit, pracovat",
+          "meaning": "Zapálit • fungovat",
           "example": "Die Idee zündet. = Myšlenka funguje."
         },
         {
@@ -65252,7 +63615,7 @@ const B1_WORDS = [
         },
         {
           "word": "brennen",
-          "meaning": "Spálit",
+          "meaning": "Hořet",
           "example": "Die Kerze brennt. = Svíčka hoří."
         }
       ],
@@ -65264,7 +63627,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Anzünden je konkrétně něco zapálit • Zünden může být i obrazný."
+        "text": "Anzünden znamená konkrétně něco zapálit • Zünden se používá i v přeneseném významu."
       },
       "sectionAccents": {
         "explanation": {
@@ -65366,7 +63729,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-zusammenhang",
       "layout": "standardStudy",
-      "translation": "Vztah",
+      "translation": "Souvislost • kontext",
       "explanation": "Hlavní myšlenka: der Zusammenhang znamená spojení nebo kontext mezi věcmi. im Zusammenhang mit znamená ve spojení s.",
       "examples": [
         {
@@ -65390,7 +63753,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Verbindung",
-          "meaning": "Spojení, spojení",
+          "meaning": "Spojení • propojení",
           "example": "Die Verbindung ist stabil. = Spojení je stabilní."
         },
         {
@@ -65407,7 +63770,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Im Zusammenhang mit je ustálená fráze: ve spojení s."
+        "text": "Im Zusammenhang mit je ustálená fráze: v souvislosti s."
       },
       "sectionAccents": {
         "explanation": {
@@ -65493,7 +63856,7 @@ const B1_WORDS = [
     "de": "Zuschauerraum",
     "de_article": "der",
     "de_plural": "die Zuschauerräume",
-    "lv": "Audienční sál",
+    "lv": "Hlediště",
     "level": "B1"
   },
   {
@@ -65518,7 +63881,7 @@ const B1_WORDS = [
   {
     "de": "Zutritt",
     "de_article": "der",
-    "lv": "Vjezd",
+    "lv": "Vstup",
     "level": "B1"
   },
   {
@@ -65528,7 +63891,7 @@ const B1_WORDS = [
   },
   {
     "de": "zuvor",
-    "lv": "Předem",
+    "lv": "Předtím",
     "level": "B1"
   },
   {
@@ -65555,14 +63918,14 @@ const B1_WORDS = [
   },
   {
     "de": "zweifach",
-    "lv": "Dvojnásobek",
+    "lv": "Dvojnásobný",
     "level": "B1"
   },
   {
     "de": "Zweifel",
     "de_article": "der",
     "de_plural": "die Zweifel",
-    "lv": "Pochybnosti",
+    "lv": "Pochybnost",
     "level": "B1"
   },
   {
@@ -65586,7 +63949,7 @@ const B1_WORDS = [
     "de": "Abteilung",
     "de_article": "die",
     "de_plural": "die Abteilungen",
-    "lv": "Oddělení • Oddělení",
+    "lv": "Oddělení",
     "level": "B1"
   },
   {
@@ -65620,11 +63983,11 @@ const B1_WORDS = [
       "id": "b1-beruf",
       "layout": "standardStudy",
       "translation": "Profese",
-      "explanation": "Hlavní myšlenka: der Beruf znamená povolání člověka nebo stálé pracovní pole. Odpovídá na otázku, co člověk dělá profesionálně. die Arbeit je práce obecně nebo práce konkrétně. der Job je neformálnější slovo pro práci nebo pracoviště. Povolání není hlavním významem der Beruf na úrovni A2.",
+      "explanation": "Hlavní myšlenka: der Beruf znamená povolání člověka nebo stálou pracovní oblast. Odpovídá na otázku, co člověk dělá profesionálně. die Arbeit je práce obecně nebo konkrétní práce. der Job je neformální slovo pro práci nebo zaměstnání. Povolání je hlavním významem der Beruf.",
       "examples": [
         {
           "de": "Was bist du von Beruf?",
-          "lv": "Jaké je vaše povolání"
+          "lv": "Jaké je tvoje povolání?"
         },
         {
           "de": "Mein Beruf ist Lehrer.",
@@ -65670,7 +64033,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Beschäftigung",
-          "meaning": "Povolání",
+          "meaning": "Činnost • zaměstnání",
           "example": "Lesen ist eine schöne Beschäftigung. = Čtení je příjemná zábava."
         }
       ],
@@ -65685,7 +64048,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Der Beruf není jen tak ledajaké povolání. Obvykle se jedná o profesi nebo pracovní oblast člověka.",
+        "text": "Der Beruf není jen tak ledajaká činnost. Obvykle označuje profesi nebo pracovní oblast člověka.",
         "example": "(Czech text required)"
       },
       "sectionAccents": {
@@ -66018,7 +64381,7 @@ const B1_WORDS = [
     "de": "Möglichkeit",
     "de_article": "die",
     "de_plural": "die Möglichkeiten",
-    "lv": "Příležitost",
+    "lv": "Možnost",
     "level": "B1"
   },
   {
@@ -66071,12 +64434,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pro daně a státní platby - die Steuer (die Steuern). Pro volant lodi nebo auta - das Steuer (die Steuer)."
+            "text": "Pro daně a státní platby – die Steuer (die Steuern). Pro kormidlo lodi nebo volant auta – das Steuer (die Steuer)."
           }
         ]
       },
       "important": {
-        "text": "Die Steuer = daň (die Steuern). das Steuer = volant (die Steuer). Člen a množné číslo se liší."
+        "text": "Die Steuer = daň (die Steuern). Das Steuer = kormidlo nebo volant (die Steuer). Liší se člen i množné číslo."
       },
       "sectionAccents": {
         "explanation": {
@@ -66141,7 +64504,7 @@ const B1_WORDS = [
       "id": "b1-steuer-2",
       "layout": "standardStudy",
       "translation": "Volant",
-      "explanation": "Hlavní myšlenka: das Steuer znamená volant nebo volant – kormidelní zařízení lodi nebo auta. Množné číslo je die Steuer. Die Steuer naproti tomu znamená daň (die Steuern).",
+      "explanation": "Hlavní myšlenka: das Steuer znamená kormidlo nebo volant – řídicí zařízení lodi či auta. Množné číslo je die Steuer. Die Steuer naproti tomu znamená daň (die Steuern).",
       "examples": [
         {
           "de": "Er hält das Steuer fest.",
@@ -66181,7 +64544,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Das Steuer = volant (die Steuer). die Steuer = daň (die Steuern). Špatně: die Steuern pro řízení."
+        "text": "Das Steuer = kormidlo nebo volant (die Steuer). Die Steuer = daň (die Steuern). Špatně: die Steuern pro řízení."
       },
       "sectionAccents": {
         "explanation": {
@@ -66253,13 +64616,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-weil",
       "layout": "standardStudy",
-      "translation": "Protože • Protože",
-      "explanation": [
-        "Hlavní myšlenka: Nejčastější důvodová spojka. Po weil je sloveso na konci věty.",
-        "Weil hlavně znamená: vysvětlit důvod.",
-        "Často charakterizováno: nejběžnější variantou.",
-        "Weil vysvětluje důvod a je nejčastější variantou."
-      ],
+      "translation": "Protože • jelikož",
+      "explanation": "Weil především vyjadřuje důvod. Je to nejběžnější důvodová spojka.",
       "examples": [
         {
           "de": "Ich bleibe zu Hause, weil ich krank bin.",
@@ -66282,10 +64640,7 @@ const B1_WORDS = [
           "lv": "Zůstávám, protože jsem nemocný."
         }
       ],
-      "tip": [
-        "Nejčastější spojení rozumu. Po weil je sloveso na konci věty.",
-        "Používá weil, když kontext odpovídá tomuto významu."
-      ],
+      "tip": "Nejčastější spojka pro vyjádření důvodu. Po weil je sloveso na konci věty.",
       "important": [
         "Weil ich bin krank - špatně • Správně: weil ich krank bin.",
         "Nesprávně: weil ich bin krank → Správně: weil ich krank bin",
@@ -66385,9 +64740,9 @@ const B1_WORDS = [
     "study": {
       "id": "b1-da",
       "layout": "standardStudy",
-      "translation": "Protože • Za kolik",
+      "translation": "Protože",
       "explanation": [
-        "Hlavní myšlenka: Konjunkce rozumu, když je důvod již znám nebo zmíněn. Po da je sloveso na konci věty.",
+        "Hlavní myšlenka: Důvodová spojka, která uvádí již známý nebo zmíněný důvod. Po da stojí sloveso na konci věty.",
         "Da znamená hlavně: vysvětlit nějaký důvod.",
         "Často charakterizováno: již zmíněným důvodem.",
         "Da jako spojka znamená protože/kvůli tomu, kdy je důvod již znám nebo zmíněn dříve.",
@@ -66404,7 +64759,7 @@ const B1_WORDS = [
         },
         {
           "de": "Da du keine Zeit hast, machen wir es morgen.",
-          "lv": "Protože nemáte čas, uděláme to zítra."
+          "lv": "Protože nemáš čas, uděláme to zítra."
         },
         {
           "de": "Da das Wetter schlecht ist, fahren wir nicht.",
@@ -66545,7 +64900,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Obwohl zavádí pomocnou větu — sloveso na konci.",
-        "Nesprávně: Weil ich bin müde, ... → Správně: Weil ich bin bin, ...",
+        "Nesprávně: Obwohl ich bin müde, ... → Správně: Obwohl ich müde bin, ...",
         "Obwohl = ačkoli (pomocná věta).",
         "Zavádí opačný důvod v pomocné větě. Sloveso je na konci věty."
       ],
@@ -66659,7 +65014,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-trotzdem",
       "layout": "standardStudy",
-      "translation": "Nicméně • Stejně",
+      "translation": "Přesto • Nicméně",
       "explanation": [
         "Hlavní myšlenka: Ukazuje na výsledek bez ohledu na příčinu. Sloveso je na 2. místě.",
         "Trotzdem hlavně znamená: výsledek navzdory.",
@@ -66677,11 +65032,11 @@ const B1_WORDS = [
         },
         {
           "de": "Er ist krank. Trotzdem arbeitet er.",
-          "lv": "Je nemocný. nicméně pracuje."
+          "lv": "Je nemocný. Nicméně pracuje."
         },
         {
           "de": "Ich habe wenig Zeit. Trotzdem helfe ich dir.",
-          "lv": "Mám málo času. nicméně ti pomáhám."
+          "lv": "Mám málo času. Nicméně ti pomáhám."
         },
         {
           "de": "Es regnet. Trotzdem gehen wir.",
@@ -66814,8 +65169,8 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Místo",
       "explanation": [
-        "Hlavní myšlenka: Jedna akce se odehrává místo jiné. spíše než + zu + nepravidelnost.",
-        "Spíše než ... zu znamená hlavně: jedna akce nahrazuje druhou.",
+        "Hlavní myšlenka: Jedna činnost se odehrává místo jiné. anstatt + zu + infinitiv.",
+        "Anstatt ... zu znamená hlavně: jedna činnost nahrazuje druhou.",
         "Často charakterizováno: alternativní akcí.",
         "Příklady hledají typické každodenní použití."
       ],
@@ -66831,7 +65186,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Statt ... zu = místo toho.",
-        "Jedna akce se odehrává místo druhé. spíše než + zu + nepravidelnost."
+        "Jedna činnost se odehrává místo druhé. anstatt + zu + infinitiv."
       ],
       "sectionAccents": {
         "explanation": {
@@ -66874,9 +65229,9 @@ const B1_WORDS = [
     "study": {
       "id": "b1-ohne-zu",
       "layout": "standardStudy",
-      "translation": "Bez (něco dělat)",
+      "translation": "Bez toho, aby něco dělal",
       "explanation": [
-        "Hlavní myšlenka: Žádná akce. ohne + zu + nepravidelnost.",
+        "Hlavní myšlenka: Děj se neuskuteční. ohne + zu + infinitiv.",
         "Ohne ... zu hlavně znamená: akce se nekoná.",
         "Často charakterizováno: vynechanou akcí.",
         "Příklady hledají typické každodenní použití."
@@ -66884,7 +65239,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er ging, ohne sich zu verabschieden.",
-          "lv": "Odešel bez jednání."
+          "lv": "Odešel, aniž se rozloučil."
         }
       ],
       "tip": [
@@ -66933,7 +65288,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich beeilen",
-    "lv": "Pospěš si",
+    "lv": "Pospíšit si",
     "level": "B1"
   },
   {
@@ -66943,8 +65298,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-sich-befinden-study",
       "layout": "standardStudy",
-      "translation": "Být lokalizován",
-      "explanation": "Hlavní myšlenka: sich befinden nejčastěji znamená být na určitém místě. Je formálnější než obyčejný sein. Často se používá v popisech, směrech a úředním jazyce. Pocit není hlavním A2 významem této karty. Cit v němčině je obvykle sich fühlen.",
+      "translation": "Nacházet se",
+      "explanation": "Hlavní myšlenka: sich befinden nejčastěji znamená nacházet se na určitém místě. Je formálnější než běžné sein. Často se používá v popisech, pokynech a úředním jazyce. Cítit se není hlavním významem této karty. Německy se „cítit se“ obvykle řekne sich fühlen.",
       "examples": [
         {
           "de": "Das Hotel befindet sich im Zentrum.",
@@ -66964,7 +65319,7 @@ const B1_WORDS = [
         },
         {
           "de": "Ich fühle mich heute gut.",
-          "lv": "Dnes se cítím dobře"
+          "lv": "Dnes se cítím dobře."
         },
         {
           "de": "Das Buch liegt auf dem Tisch.",
@@ -66974,27 +65329,27 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "sich befinden",
-          "meaning": "Být lokalizován",
+          "meaning": "Nacházet se",
           "example": "Das Büro befindet sich im zweiten Stock. = Kancelář je ve druhém patře."
         },
         {
           "word": "sein",
-          "meaning": "Být / být",
+          "meaning": "Být / nacházet se",
           "example": "Das Büro ist oben. = Kancelář je nahoře."
         },
         {
           "word": "liegen",
-          "meaning": "Být / spát",
+          "meaning": "Ležet / nacházet se",
           "example": "Das Buch liegt auf dem Tisch. = Kniha je na stole."
         },
         {
           "word": "stehen",
-          "meaning": "Stát / být",
+          "meaning": "Stát / nacházet se",
           "example": "Das Auto steht vor dem Haus. = Auto je zaparkované u domu."
         },
         {
           "word": "sich fühlen",
-          "meaning": "Cítit",
+          "meaning": "Cítit se",
           "example": "Ich fühle mich gut. = Cítím se dobře."
         }
       ],
@@ -67237,8 +65592,7 @@ const B1_WORDS = [
                 "fühle mich"
               ],
               "purple": [
-                "atrodas",
-                "jūtos"
+                "atrodas"
               ]
             }
           }
@@ -67277,12 +65631,12 @@ const B1_WORDS = [
   },
   {
     "de": "sich bewerben",
-    "lv": "Uplatnit",
+    "lv": "Ucházet se",
     "level": "B1"
   },
   {
     "de": "sich entschließen",
-    "lv": "Rozhodnout",
+    "lv": "Rozhodnout se",
     "level": "B1"
   },
   {
@@ -67332,7 +65686,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich vergnügen",
-    "lv": "Bavte se",
+    "lv": "Bavit se",
     "level": "B1"
   },
   {
@@ -67354,7 +65708,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-erbe",
       "layout": "standardStudy",
-      "translation": "Dědicem",
+      "translation": "Dědic",
       "explanation": [
         "Hlavní myšlenka: Osoba, která zdědí majetek nebo peníze.",
         "Der Erbe znamená hlavně: člověk.",
@@ -67383,7 +65737,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wer ist der Erbe?",
-          "lv": "Kdo je dědicem"
+          "lv": "Kdo je dědicem?"
         },
         {
           "de": "Das Erbe wird geteilt.",
@@ -67540,7 +65894,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wer ist der Erbe?",
-          "lv": "Kdo je dědicem"
+          "lv": "Kdo je dědicem?"
         },
         {
           "de": "Das Erbe wird geteilt.",
@@ -67670,7 +66024,7 @@ const B1_WORDS = [
         "Der Schaden především znamená: škoda jako věc.",
         "Často popisuje: podstatné jméno (der).",
         "Schaden znamená především: způsobit škodu.",
-        "Často popisuje: sloveso.",
+        "Schaden jako sloveso znamená škodit nebo působit škodu.",
         "Der Schaden znamená ztrátu, poškození nebo poškození.",
         "Schaden znamená ublížit, ublížit.",
         "S čím se musí použít sloveso schaden?"
@@ -67678,11 +66032,11 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Am Auto ist ein Schaden.",
-          "lv": "Auto má poruchu."
+          "lv": "Na autě je škoda."
         },
         {
           "de": "Der Sturm verursachte großen Schaden.",
-          "lv": "Bouře způsobila těžké škody."
+          "lv": "Bouře způsobila velké škody."
         },
         {
           "de": "Am Auto ist ein Schaden.",
@@ -67690,7 +66044,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wer zahlt den Schaden?",
-          "lv": "Kdo zaplatí ztrátu?"
+          "lv": "Kdo zaplatí škodu?"
         },
         {
           "de": "Der Schaden ist groß.",
@@ -67698,7 +66052,7 @@ const B1_WORDS = [
         },
         {
           "de": "Das schadet der Gesundheit.",
-          "lv": "Je to zdraví škodlivé."
+          "lv": "To škodí zdraví."
         }
       ],
       "tip": [
@@ -67707,7 +66061,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Der Schaden = podstatné jméno (ztráta).",
-        "Schaden = sloveso (škodit) + co?.",
+        "schaden = sloveso (škodit) + komu/čemu?.",
         "Nesprávně: Der Schaden schadet → Správně: Etwas schadet der Gesundheit.",
         "Der Schaden = ztráta."
       ],
@@ -67823,7 +66177,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Škodit",
       "explanation": [
-        "Hlavní myšlenka: Sloveso - škodit. zeptat se koho? forma: jemandem schaden.",
+        "Hlavní myšlenka: Sloveso znamená škodit. Vazba vyžaduje dativ: jemandem schaden (škodit někomu).",
         "Schaden primárně znamená: škoda jako věc.",
         "Často popisuje: podstatné jméno (der).",
         "Schaden znamená především: způsobit škodu.",
@@ -67839,7 +66193,7 @@ const B1_WORDS = [
         },
         {
           "de": "Der Sturm verursachte großen Schaden.",
-          "lv": "Bouře způsobila těžké škody."
+          "lv": "Bouře způsobila velké škody."
         },
         {
           "de": "Am Auto ist ein Schaden.",
@@ -67855,7 +66209,7 @@ const B1_WORDS = [
         },
         {
           "de": "Das schadet der Gesundheit.",
-          "lv": "Je to zdraví škodlivé."
+          "lv": "To škodí zdraví."
         }
       ],
       "tip": [
@@ -67864,7 +66218,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Der Schaden = podstatné jméno (ztráta).",
-        "Schaden = sloveso (škodit) + co?.",
+        "schaden = sloveso (škodit) + komu/čemu?.",
         "Nesprávně: Der Schaden schadet → Správně: Etwas schadet der Gesundheit.",
         "Der Schaden = ztráta."
       ],
@@ -67969,16 +66323,16 @@ const B1_WORDS = [
         "Hlavní myšlenka: Podstatné jméno - důvěra, víra jako pocit.",
         "Das Vertrauen znamená především: cit / vztah.",
         "Často charakterizováno: podstatné jméno (das).",
-        "Vertrauen znamená hlavně: věřit v někoho.",
+        "Vertrauen znamená hlavně: důvěřovat někomu.",
         "Často popisuje: sloveso.",
         "Das Vertrauen znamená důvěra jako stav citu nebo vztahu.",
         "Vertrauen znamená někomu věřit.",
-        "S čím se musí použít sloveso vertrauen?"
+        "Jaký pád vyžaduje sloveso vertrauen?"
       ],
       "examples": [
         {
           "de": "Ich habe großes Vertrauen zu dir.",
-          "lv": "Hodně v tebe věřím."
+          "lv": "Mám k tobě velkou důvěru."
         },
         {
           "de": "Ich habe Vertrauen zu meinem Arzt.",
@@ -68002,13 +66356,13 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Pokud jde o důvěru jako pocit, použijte das Vertrauen. Pokud je akce důvěřovat, použijte vertrauen + kam?.",
+        "Pokud jde o důvěru jako pocit, použijte das Vertrauen. Pokud vyjadřujete důvěřování, použijte vertrauen + komu?",
         "Podstatné jméno - důvěra, víra jako pocit."
       ],
       "important": [
         "Das Vertrauen = podstatné jméno (důvěra).",
-        "Vertrauen = sloveso (důvěřovat) + čemu?.",
-        "Nesprávně: Ich habe Vertrauen in dich. → Správně: Ich habe Vertrauen zu dir.",
+        "Vertrauen = sloveso (důvěřovat) + komu?.",
+        "Ich habe Vertrauen in dich. i Ich habe Vertrauen zu dir. jsou správně; se slovesem vertrauen se používá dativ: Ich vertraue dir.",
         "Das Vertrauen = důvěra."
       ],
       "sectionAccents": {
@@ -68123,14 +66477,14 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Důvěřovat",
       "explanation": [
-        "Hlavní myšlenka: Sloveso – věřit někomu. zeptat se koho? forma: jemandem vertrauen.",
+        "Hlavní myšlenka: Sloveso – důvěřovat někomu. Vyžaduje 3. pád: jemandem vertrauen.",
         "Vertrauen znamená hlavně: cit / vztah.",
         "Často charakterizováno: podstatné jméno (das).",
-        "Vertrauen znamená hlavně: věřit v někoho.",
+        "Vertrauen znamená hlavně: důvěřovat někomu.",
         "Často popisuje: sloveso.",
         "Das Vertrauen znamená důvěra jako stav citu nebo vztahu.",
         "Vertrauen znamená někomu věřit.",
-        "S čím se musí použít sloveso vertrauen?"
+        "Jaký pád vyžaduje sloveso vertrauen?"
       ],
       "examples": [
         {
@@ -68159,12 +66513,12 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Pokud jde o důvěru jako pocit, použijte das Vertrauen. Pokud je akce důvěřovat, použijte vertrauen + kam?.",
+        "Pokud jde o důvěru jako pocit, použijte das Vertrauen. Pokud vyjadřujete důvěřování, použijte vertrauen + komu?",
         "Sloveso věřit někomu. zeptat se koho? forma: jemandem vertrauen."
       ],
       "important": [
         "Das Vertrauen = podstatné jméno (důvěra).",
-        "Vertrauen = sloveso (důvěřovat) + čemu?.",
+        "Vertrauen = sloveso (důvěřovat) + komu?.",
         "Nesprávně: Ich habe Vertrauen in dich. → Správně: Ich habe Vertrauen zu dir.",
         "Das Vertrauen = důvěra."
       ],
@@ -68284,7 +66638,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er macht es aus Trotz.",
-          "lv": "Dělá to ze zášti."
+          "lv": "Dělá to z trucu."
         },
         {
           "de": "Trotz des Regens gehen wir spazieren.",
@@ -68292,7 +66646,7 @@ const B1_WORDS = [
         },
         {
           "de": "Er macht es aus Trotz.",
-          "lv": "Dělá to ze zášti."
+          "lv": "Dělá to z trucu."
         },
         {
           "de": "Trotz des schlechten Wetters fahren wir.",
@@ -68300,7 +66654,7 @@ const B1_WORDS = [
         },
         {
           "de": "Sie hat viel Trotz.",
-          "lv": "Má hodně zášti."
+          "lv": "Má hodně vzdoru."
         },
         {
           "de": "Trotz der Krankheit kommt er.",
@@ -68308,13 +66662,13 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Když mluvíte o zášti jako o kvalitě, použijte der Trotz. Pro nedívání se na překážku se používá trotz + přivlastňovací forma.",
+        "Když jde o tvrdohlavost nebo vzdor, použijte der Trotz. Když jde o význam „navzdory“, použijte trotz + genitiv.",
         "Podstatné jméno — tvrdohlavost, tvrdohlavý postoj."
       ],
       "important": [
-        "Der Trotz = podstatné jméno (přesto).",
-        "Trotz = předložka (navzdory) + přivlastňovací forma.",
-        "Trotz dem Regen - špatně • Správně: trotz des Regens.",
+        "Der Trotz = podstatné jméno (vzdor, tvrdohlavost).",
+        "Trotz = předložka (navzdory) + genitiv.",
+        "Trotz dem Regen – špatně • Správně: trotz des Regens.",
         "Špatně: Trotz dem Regen gehen wir. → Správně: Trotz des Regens gehen wir."
       ],
       "sectionAccents": {
@@ -68420,7 +66774,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Navzdory",
       "explanation": [
-        "Hlavní myšlenka: Předložka - navzdory. Vyžaduje přivlastňovací formu: trotz + přivlastňovací formu.",
+        "Hlavní myšlenka: Předložka – navzdory. Vyžaduje 2. pád (genitiv): trotz + genitiv.",
         "Trotz znamená hlavně: tvrdohlavý postoj.",
         "Často popisuje: podstatné jméno (der).",
         "Trotz znamená hlavně: navzdory.",
@@ -68456,12 +66810,12 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Když mluvíte o zášti jako o kvalitě, použijte der Trotz. Pro nedívání se na překážku se používá trotz + přivlastňovací forma.",
+        "Když jde o tvrdohlavost nebo vzdor, použijte der Trotz. Když jde o význam „navzdory“, použijte trotz + genitiv.",
         "Předložka - navzdory. Vyžaduje přivlastňovací formu: trotz + přivlastňovací formu."
       ],
       "important": [
-        "Der Trotz = podstatné jméno (přesto).",
-        "Trotz = předložka (navzdory) + přivlastňovací forma.",
+        "Der Trotz = podstatné jméno (vzdor, tvrdohlavost).",
+        "Trotz = předložka (navzdory) + genitiv.",
         "Trotz dem Regen - špatně • Správně: trotz des Regens.",
         "Špatně: Trotz dem Regen gehen wir. → Správně: Trotz des Regens gehen wir."
       ],
