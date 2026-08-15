@@ -8,7 +8,7 @@ const C1_WORDS = [
   },
   {
     "de": "gewährleisten",
-    "lv": "Poskytnout",
+    "lv": "Zajistit",
     "level": "C1"
   },
   {
@@ -20,7 +20,7 @@ const C1_WORDS = [
   },
   {
     "de": "umstritten",
-    "lv": "Rozporuplné",
+    "lv": "Kontroverzní • Sporný",
     "level": "C1"
   },
   {
@@ -32,7 +32,7 @@ const C1_WORDS = [
   },
   {
     "de": "nachvollziehen",
-    "lv": "Rozumět • Následovat logiku",
+    "lv": "Rozumět • Sledovat logiku",
     "level": "C1"
   },
   {
@@ -63,26 +63,26 @@ const C1_WORDS = [
     "de": "Aktionsprogramm",
     "de_article": "das",
     "de_plural": "die Aktionsprogramme",
-    "lv": "Program akcí",
+    "lv": "Akční program",
     "level": "C1"
   },
   {
     "de": "Alarmbereitschaft",
     "de_article": "die",
     "de_plural": "die Alarmbereitschaften",
-    "lv": "Pohotovosti",
+    "lv": "Pohotovost",
     "level": "C1"
   },
   {
     "de": "Altweibersommer",
     "de_article": "der",
     "de_plural": "die Altweibersommer",
-    "lv": "Jaro",
+    "lv": "Babí léto",
     "level": "C1"
   },
   {
     "de": "anfechten",
-    "lv": "Spor • Otázka",
+    "lv": "Napadnout • Zpochybnit",
     "level": "C1"
   },
   {
@@ -164,21 +164,21 @@ const C1_WORDS = [
     "de": "Frachtbrief",
     "de_article": "der",
     "de_plural": "die Frachtbriefe",
-    "lv": "Nákladní nákladní list",
+    "lv": "Nákladní list",
     "level": "C1"
   },
   {
     "de": "Frachtgeld",
     "de_article": "das",
     "de_plural": "die Frachtgelder",
-    "lv": "Poplatky za přepravu",
+    "lv": "Přepravné",
     "level": "C1"
   },
   {
     "de": "Frauenrechtlerin",
     "de_article": "die",
     "de_plural": "die Frauenrechtlerinnen",
-    "lv": "Bojovník za rovnoprávnost žen",
+    "lv": "Bojovnice za práva žen",
     "level": "C1"
   },
   {
@@ -192,28 +192,28 @@ const C1_WORDS = [
     "de": "Kinderschänder",
     "de_article": "der",
     "de_plural": "die Kinderschänder",
-    "lv": "Pedofil",
+    "lv": "Pachatel sexuálního zneužívání dětí",
     "level": "C1"
   },
   {
     "de": "Kindesmisshandlung",
     "de_article": "die",
     "de_plural": "die Kindesmisshandlungen",
-    "lv": "Násilí na dětech",
+    "lv": "Týrání dětí",
     "level": "C1"
   },
   {
     "de": "Zivilgesetzbuch",
     "de_article": "das",
     "de_plural": "die Zivilgesetzbücher",
-    "lv": "Občanské právo",
+    "lv": "Občanský zákoník",
     "level": "C1"
   },
   {
     "de": "Aktie",
     "de_article": "die",
     "de_plural": "die Aktien",
-    "lv": "Akce",
+    "lv": "Akcie",
     "level": "C1"
   },
   {
@@ -227,7 +227,7 @@ const C1_WORDS = [
     "de": "Anwalt",
     "de_article": "der",
     "de_plural": "die Anwälte",
-    "lv": "Právník",
+    "lv": "Advokát",
     "level": "C1"
   },
   {
@@ -251,7 +251,7 @@ const C1_WORDS = [
     "de": "Bäckerhandwerk",
     "de_article": "das",
     "de_plural": "die Bäckerhandwerke",
-    "lv": "Práce pekaře",
+    "lv": "Pekařské řemeslo",
     "level": "C1"
   },
   {
@@ -273,14 +273,14 @@ const C1_WORDS = [
   },
   {
     "de": "sich beschäftigen",
-    "lv": "Obsadit",
+    "lv": "Zabývat se",
     "level": "C1"
   },
   {
     "de": "Beschäftigung",
     "de_article": "die",
     "de_plural": "die Beschäftigungen",
-    "lv": "Povolání",
+    "lv": "Zaměstnání • Činnost",
     "level": "C1"
   },
   {
@@ -292,7 +292,7 @@ const C1_WORDS = [
     "de": "Besichtigung",
     "de_article": "die",
     "de_plural": "die Besichtigungen",
-    "lv": "Inspekce",
+    "lv": "Prohlídka",
     "level": "C1"
   },
   {
@@ -304,7 +304,7 @@ const C1_WORDS = [
     "de": "Autobahnbrücke",
     "de_article": "die",
     "de_plural": "die Autobahnbrücken",
-    "lv": "Silniční nadjezd",
+    "lv": "Dálniční most",
     "level": "C1"
   },
   {
@@ -459,12 +459,12 @@ const C1_WORDS = [
     "de": "Gepäckträger",
     "de_article": "der",
     "de_plural": "die Gepäckträger",
-    "lv": "Kufr",
+    "lv": "Nosič zavazadel",
     "level": "C1"
   },
   {
     "de": "geschäftlich",
-    "lv": "Transakce",
+    "lv": "Obchodní",
     "level": "C1"
   },
   {
@@ -498,7 +498,7 @@ const C1_WORDS = [
     "de": "Gesichtspunkt",
     "de_article": "der",
     "de_plural": "die Gesichtspunkte",
-    "lv": "Názor",
+    "lv": "Hledisko • Aspekt",
     "level": "C1"
   },
   {
@@ -579,7 +579,7 @@ const C1_WORDS = [
     "de": "Tasteninstrument",
     "de_article": "das",
     "de_plural": "die Tasteninstrumente",
-    "lv": "Klávesnice",
+    "lv": "Klávesový nástroj",
     "level": "C1"
   },
   {
@@ -651,14 +651,14 @@ const C1_WORDS = [
     "de": "Krankheitsbild",
     "de_article": "das",
     "de_plural": "die Krankheitsbilder",
-    "lv": "Nemocná scéna",
+    "lv": "Klinický obraz",
     "level": "C1"
   },
   {
     "de": "Lastkraftwagen",
     "de_article": "der",
     "de_plural": "die Lastkraftwagen",
-    "lv": "Těžké auto",
+    "lv": "Nákladní automobil",
     "level": "C1"
   },
   {
@@ -725,7 +725,7 @@ const C1_WORDS = [
     "de": "Morgengymnastik",
     "de_article": "die",
     "de_plural": "die Morgengymnastiken",
-    "lv": "Svítání",
+    "lv": "Ranní cvičení",
     "level": "C1"
   },
   {
@@ -751,7 +751,7 @@ const C1_WORDS = [
     "de": "Notarzt",
     "de_article": "der",
     "de_plural": "die Notärzte",
-    "lv": "Pohotovostní lékař",
+    "lv": "Lékař záchranné služby",
     "level": "C1"
   },
   {
@@ -763,7 +763,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-offentlichkeit",
       "layout": "standardStudy",
-      "translation": "Společnost • Otevřenost",
+      "translation": "Veřejnost • Veřejný prostor",
       "explanation": "Hlavní myšlenka: die Öffentlichkeit znamená společnost jako veřejný prostor nebo lidi jako celek. Ve frázi an die Öffentlichkeit kommen znamená vyjít na veřejnost.",
       "examples": [
         {
@@ -772,7 +772,7 @@ const C1_WORDS = [
         },
         {
           "de": "Der Fall kam an die Öffentlichkeit.",
-          "lv": "Případ vyšel najevo."
+          "lv": "Případ se dostal na veřejnost."
         },
         {
           "de": "Die Öffentlichkeit hat ein Recht auf Information.",
@@ -797,8 +797,8 @@ const C1_WORDS = [
     "study": {
       "id": "c1-partei",
       "layout": "standardStudy",
-      "translation": "Večírek • Večírek",
-      "explanation": "Hlavní myšlenka: die Partei je obvykle politická strana. V právnickém nebo konfliktním jazyce to může znamenat i večírek.",
+      "translation": "Politická strana • Strana",
+      "explanation": "Hlavní myšlenka: die Partei je obvykle politická strana. V právním nebo konfliktním kontextu může znamenat také stranu.",
       "examples": [
         {
           "de": "Diese Partei gewann die Wahl.",
@@ -866,8 +866,8 @@ const C1_WORDS = [
     "study": {
       "id": "c1-prozess",
       "layout": "standardStudy",
-      "translation": "Proces • Žaloba",
-      "explanation": "Hlavní myšlenka: der Prozess je proces nebo postup. U soudu der Prozess znamená soud.",
+      "translation": "Proces • Soudní řízení",
+      "explanation": "Hlavní myšlenka: der Prozess znamená proces nebo postup. V právním kontextu znamená soudní řízení.",
       "examples": [
         {
           "de": "Der Prozess dauert mehrere Monate.",
@@ -875,7 +875,7 @@ const C1_WORDS = [
         },
         {
           "de": "Der Prozess vor Gericht beginnt morgen.",
-          "lv": "Soud začíná zítra."
+          "lv": "Soudní proces začíná zítra."
         },
         {
           "de": "Wir verbessern den ganzen Prozess.",
@@ -902,7 +902,7 @@ const C1_WORDS = [
     "de": "Rechtsanwalt",
     "de_article": "der",
     "de_plural": "die Rechtsanwälte",
-    "lv": "Právník",
+    "lv": "Advokát",
     "level": "C1"
   },
   {
@@ -916,7 +916,7 @@ const C1_WORDS = [
     "de": "Rennen mit Hindernissen",
     "de_article": "das",
     "de_plural": "die Rennen mit Hindernissen",
-    "lv": "Překážkovou dráhu",
+    "lv": "Překážkový závod",
     "level": "C1"
   },
   {
@@ -948,14 +948,14 @@ const C1_WORDS = [
     "de": "Scheibenwischer",
     "de_article": "der",
     "de_plural": "die Scheibenwischer",
-    "lv": "Čistič oken automobilů",
+    "lv": "Stěrač",
     "level": "C1"
   },
   {
     "de": "Schiedsrichter",
     "de_article": "der",
     "de_plural": "die Schiedsrichter",
-    "lv": "Soudce",
+    "lv": "Rozhodčí",
     "level": "C1"
   },
   {
@@ -967,7 +967,7 @@ const C1_WORDS = [
   },
   {
     "de": "schmerzhaft",
-    "lv": "Bolestivé",
+    "lv": "Bolestivý",
     "level": "C1"
   },
   {
@@ -988,13 +988,13 @@ const C1_WORDS = [
     "de": "Schutzumschlag",
     "de_article": "der",
     "de_plural": "die Schutzumschläge",
-    "lv": "Pokrýt",
+    "lv": "Ochranný přebal",
     "level": "C1"
   },
   {
     "de": "Schwiegereltern",
     "de_article": "die",
-    "lv": "Manželovi rodiče",
+    "lv": "Tchán a tchyně",
     "level": "C1"
   },
   {
@@ -1035,7 +1035,7 @@ const C1_WORDS = [
     "de": "Stadtrundfahrt",
     "de_article": "die",
     "de_plural": "die Stadtrundfahrten",
-    "lv": "Výlet městem",
+    "lv": "Okružní prohlídka města",
     "level": "C1"
   },
   {
@@ -1047,7 +1047,7 @@ const C1_WORDS = [
     "de": "Stellvertreter",
     "de_article": "der",
     "de_plural": "die Stellvertreter",
-    "lv": "Nahradit",
+    "lv": "Zástupce",
     "level": "C1"
   },
   {
@@ -1061,14 +1061,14 @@ const C1_WORDS = [
     "de": "Strampelhöschen",
     "de_article": "das",
     "de_plural": "die Strampelhöschen",
-    "lv": "Dětská prolézačka",
+    "lv": "Dupačky",
     "level": "C1"
   },
   {
     "de": "Stromverbrauch",
     "de_article": "der",
     "de_plural": "die Stromverbräuche",
-    "lv": "Aktuální spotřeba",
+    "lv": "Spotřeba elektřiny",
     "level": "C1"
   },
   {
@@ -1088,7 +1088,7 @@ const C1_WORDS = [
     "de": "Terminkalender",
     "de_article": "der",
     "de_plural": "die Terminkalender",
-    "lv": "Poznámkový kalendář",
+    "lv": "Kalendář termínů",
     "level": "C1"
   },
   {
@@ -1107,21 +1107,21 @@ const C1_WORDS = [
   },
   {
     "de": "transportieren",
-    "lv": "K přepravě",
+    "lv": "Přepravovat",
     "level": "C1"
   },
   {
     "de": "Überschwemmung",
     "de_article": "die",
     "de_plural": "die Überschwemmungen",
-    "lv": "Zaplavit",
+    "lv": "Povodeň • Záplava",
     "level": "C1"
   },
   {
     "de": "Unternehmen",
     "de_article": "das",
     "de_plural": "die Unternehmen",
-    "lv": "Společnost • Event",
+    "lv": "Podnik • Společnost",
     "level": "C1"
   },
   {
@@ -1155,7 +1155,7 @@ const C1_WORDS = [
   },
   {
     "de": "verantworten",
-    "lv": "Převzít zodpovědnost za",
+    "lv": "Nést odpovědnost za",
     "level": "C1"
   },
   {
@@ -1190,7 +1190,7 @@ const C1_WORDS = [
     "de": "Verlegenheit",
     "de_article": "die",
     "de_plural": "die Verlegenheiten",
-    "lv": "Zmatek",
+    "lv": "Rozpaky",
     "level": "C1"
   },
   {
@@ -1200,7 +1200,7 @@ const C1_WORDS = [
   },
   {
     "de": "verschlucken",
-    "lv": "Polykat",
+    "lv": "Spolknout",
     "level": "C1"
   },
   {
@@ -1217,7 +1217,7 @@ const C1_WORDS = [
   },
   {
     "de": "sich verständigen",
-    "lv": "Vycházet spolu",
+    "lv": "Dorozumět se",
     "level": "C1"
   },
   {
@@ -1258,7 +1258,7 @@ const C1_WORDS = [
   },
   {
     "de": "sich zufrieden geben",
-    "lv": "Uspokojit",
+    "lv": "Spokojit se",
     "level": "C1"
   },
   {
@@ -1273,13 +1273,13 @@ const C1_WORDS = [
     "study": {
       "id": "c1-zusammenfassen",
       "layout": "standardStudy",
-      "translation": "Shrnout • Shrnout",
+      "translation": "Shrnout",
       "explanation": [
         "Hlavní myšlenka: zusammenfassen je sloveso – shromáždit nebo uspořádat informace do jednoho stručného prohlášení.",
         "Zusammenfassen se používá, když se z několika faktů, textů nebo myšlenek skládá krátký přehled.",
         "Nezaměňovat s die Zusammenfassung - ten s velkým písmenem a členem die je podstatné jméno označující samotné shrnutí (výsledek, hotový text).",
         "Zusammenfassen = proces/akce (shrnout, shrnout) • Die Zusammenfassung = výsledek (souhrn jako podstatné jméno).",
-        "Stejně jako mnoho německých sloves se zusammenfassen může stát velkým jménem a členem: zusammenfassen → die Zusammenfassen (substantivizace)."
+        "Podstatné jméno od slovesa zusammenfassen je die Zusammenfassung."
       ],
       "examples": [
         {
@@ -1292,7 +1292,7 @@ const C1_WORDS = [
         },
         {
           "de": "Er hat den Bericht kurz zusammengefasst.",
-          "lv": "Stručně shrnul recenzi."
+          "lv": "Stručně shrnul zprávu."
         },
         {
           "de": "Zusammenfassend kann man sagen, dass...",
@@ -1314,7 +1314,7 @@ const C1_WORDS = [
       "important": [
         "Zusammenfassen = shrnout/shrnout (sloveso).",
         "Die Zusammenfassung = souhrn (podstatné jméno, substantivizované ze zusammenfassen).",
-        "Nesprávně: die zusammenfassen → Správně: die Zusammenfassen (podstatné jméno vždy s velkým písmenem)."
+        "Nesprávně: die zusammenfassen → Správně: die Zusammenfassung."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1448,7 +1448,7 @@ const C1_WORDS = [
     "de": "Aufmerksamkeit",
     "de_article": "die",
     "de_plural": "die Aufmerksamkeiten",
-    "lv": "Pozor",
+    "lv": "Pozornost",
     "level": "C1"
   },
   {
@@ -1488,7 +1488,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-wahl",
       "layout": "standardStudy",
-      "translation": "Volba • Volba",
+      "translation": "Volba • Volby",
       "explanation": "Die Wahl může znamenat volbu mezi možnostmi. V kontextu politiky Wahl znamená volby. Může to znamenat i samotné hlasování. Fráze eine Wahl treffen znamená učinit volbu. zur Wahl gehen znamená jít k volbám. Kontext politiky nebo osobního rozhodnutí ukazuje správný význam.",
       "examples": [
         {
@@ -1536,21 +1536,21 @@ const C1_WORDS = [
     "de": "Abgeordnete",
     "de_article": "der",
     "de_plural": "die Abgeordneten",
-    "lv": "Zástupce • Zástupce • Delegát",
+    "lv": "Poslanec • Zástupce • Delegát",
     "level": "C1"
   },
   {
     "de": "Abkommen",
     "de_article": "das",
     "de_plural": "die Abkommen",
-    "lv": "Dohoda • Dohoda",
+    "lv": "Dohoda • Úmluva",
     "level": "C1"
   },
   {
     "de": "Abschleppdienst",
     "de_article": "der",
     "de_plural": "die Abschleppdienste",
-    "lv": "Evakuační služba • Stěhovací služba",
+    "lv": "Odtahová služba",
     "level": "C1"
   },
   {
@@ -1600,7 +1600,7 @@ const C1_WORDS = [
   },
   {
     "de": "beachtenswert",
-    "lv": "Pozoruhodný • Značný",
+    "lv": "Pozoruhodný",
     "level": "C1"
   },
   {
@@ -1617,14 +1617,14 @@ const C1_WORDS = [
   },
   {
     "de": "bedingungslos",
-    "lv": "Bezpodmínečný • Bezpodmínečný • Bez výhrad • Bez podmínek",
+    "lv": "Bezpodmínečný • Bez výhrad • Bez podmínek",
     "level": "C1"
   },
   {
     "de": "Befangenheit",
     "de_article": "die",
     "de_plural": "die Befangenheiten",
-    "lv": "Rozpaky • Rozpaky",
+    "lv": "Podjatost • Rozpaky",
     "level": "C1"
   },
   {
@@ -1634,12 +1634,12 @@ const C1_WORDS = [
   },
   {
     "de": "beglückwünschen",
-    "lv": "Přát si štěstí • Blahopřát",
+    "lv": "Blahopřát",
     "level": "C1"
   },
   {
     "de": "beiderseitig",
-    "lv": "Oboustranný • Oboustranný",
+    "lv": "Oboustranný",
     "level": "C1"
   },
   {
@@ -1651,31 +1651,31 @@ const C1_WORDS = [
   },
   {
     "de": "beispielhaft",
-    "lv": "Vzorný • Vzorný",
+    "lv": "Vzorný • Příkladný",
     "level": "C1"
   },
   {
     "de": "beklagen",
-    "lv": "Litovat • Truchlit • Truchlit • Naříkat • Stěžovat si",
+    "lv": "Litovat • Oplakávat • Naříkat • Stěžovat si",
     "level": "C1"
   },
   {
     "de": "Zahnbelag",
     "de_article": "der",
     "de_plural": "die Zahnbeläge",
-    "lv": "Zubního plaku",
+    "lv": "Zubní plak",
     "level": "C1"
   },
   {
     "de": "Belegschaft",
     "de_article": "die",
     "de_plural": "die Belegschaften",
-    "lv": "Kolektivní • Zaměstnanci",
+    "lv": "Personál • Zaměstnanci",
     "level": "C1"
   },
   {
     "de": "benachteiligen",
-    "lv": "Škodit • Způsobit škodu • Škodit",
+    "lv": "Znevýhodňovat • Poškozovat",
     "level": "C1"
   },
   {
@@ -1687,7 +1687,7 @@ const C1_WORDS = [
   },
   {
     "de": "beratschlagen",
-    "lv": "Diskutovat",
+    "lv": "Radit se • Projednávat",
     "level": "C1"
   },
   {
@@ -1699,28 +1699,28 @@ const C1_WORDS = [
   },
   {
     "de": "bereitwillig",
-    "lv": "Připraven sloužit • Zavazující",
+    "lv": "Ochotný • Vstřícný",
     "level": "C1"
   },
   {
     "de": "Berufsberatung",
     "de_article": "die",
     "de_plural": "die Berufsberatungen",
-    "lv": "Konzultace odborné orientace",
+    "lv": "Profesní poradenství",
     "level": "C1"
   },
   {
     "de": "Berufsgeheimnis",
     "de_article": "das",
     "de_plural": "die Berufsgeheimnisse",
-    "lv": "Tajemství úřadu",
+    "lv": "Profesní tajemství",
     "level": "C1"
   },
   {
     "de": "Berufung",
     "de_article": "die",
     "de_plural": "die Berufungen",
-    "lv": "Volání • Sklon • Apel",
+    "lv": "Povolání • Odvolání • Jmenování",
     "level": "C1"
   },
   {
@@ -1734,7 +1734,7 @@ const C1_WORDS = [
     "de": "Beschaffenheit",
     "de_article": "die",
     "de_plural": "die Beschaffenheiten",
-    "lv": "Kvalita • Příroda • Podstata",
+    "lv": "Kvalita • Povaha • Podstata",
     "level": "C1"
   },
   {
@@ -1746,17 +1746,17 @@ const C1_WORDS = [
     "de": "Bescheinigung",
     "de_article": "die",
     "de_plural": "die Bescheinigungen",
-    "lv": "Odkaz • Osvědčení • Atestace • Atest",
+    "lv": "Potvrzení • Osvědčení • Certifikát",
     "level": "C1"
   },
   {
     "de": "beschlagnahmen",
-    "lv": "Zabavit • Zabavit • Vyvlastnit",
+    "lv": "Zabavit • Konfiskovat",
     "level": "C1"
   },
   {
     "de": "beschuldigen",
-    "lv": "Obviňovat • Urážet",
+    "lv": "Obviňovat • Nařknout",
     "level": "C1"
   },
   {
@@ -1768,7 +1768,7 @@ const C1_WORDS = [
   },
   {
     "de": "beträchtlich",
-    "lv": "Značný • Docela velký • Značný",
+    "lv": "Značný • Poměrně velký • Výrazný",
     "level": "C1"
   },
   {
@@ -1781,7 +1781,7 @@ const C1_WORDS = [
     "de": "Betriebssystem",
     "de_article": "das",
     "de_plural": "die Betriebssysteme",
-    "lv": "Počítačový instalační systém",
+    "lv": "Operační systém",
     "level": "C1"
   },
   {
@@ -1791,12 +1791,12 @@ const C1_WORDS = [
   },
   {
     "de": "bevorstehend",
-    "lv": "Nadcházející • Další",
+    "lv": "Nadcházející • Blížící se",
     "level": "C1"
   },
   {
     "de": "bewähren, sich",
-    "lv": "Ukázat se jako pravdivé • Ospravedlnit",
+    "lv": "Osvědčit se • Obstát",
     "level": "C1"
   },
   {
@@ -1808,14 +1808,14 @@ const C1_WORDS = [
   },
   {
     "de": "bewerben, sich",
-    "lv": "Uplatnit • Běžet • Usilovat • Aspirovat",
+    "lv": "Ucházet se • Přihlásit se • Usilovat o",
     "level": "C1"
   },
   {
     "de": "Bezugsperson",
     "de_article": "die",
     "de_plural": "die Bezugspersonen",
-    "lv": "Kontakt • Nejbližší osoba",
+    "lv": "Kontaktní osoba • Blízká osoba",
     "level": "C1"
   },
   {
@@ -1828,7 +1828,7 @@ const C1_WORDS = [
     "de": "Bilanz",
     "de_article": "die",
     "de_plural": "die Bilanzen",
-    "lv": "Váhy",
+    "lv": "Bilance",
     "level": "C1"
   },
   {
@@ -1863,7 +1863,7 @@ const C1_WORDS = [
     "de": "Bundesdeutsche",
     "de_article": "der",
     "de_plural": "die Bundesdeutschen",
-    "lv": "Občan FFR",
+    "lv": "Občan SRN",
     "level": "C1"
   },
   {
@@ -1896,12 +1896,12 @@ const C1_WORDS = [
   },
   {
     "de": "dauerhaft",
-    "lv": "Trvanlivý • Dlouhý • Trvanlivý",
+    "lv": "Trvalý • Dlouhodobý • Odolný",
     "level": "C1"
   },
   {
     "de": "dazwischenkommen",
-    "lv": "Stát se • Stát se mezi • Zasáhnout",
+    "lv": "Přihodit se • Vměšovat se • Zasáhnout",
     "level": "C1"
   },
   {
@@ -1929,7 +1929,7 @@ const C1_WORDS = [
     "de": "Eigentumsdelikt",
     "de_article": "das",
     "de_plural": "die Eigentumsdelikte",
-    "lv": "Porušení vlastnických práv",
+    "lv": "Majetkový delikt",
     "level": "C1"
   },
   {
@@ -1953,7 +1953,7 @@ const C1_WORDS = [
     "de": "Nachrichtendienst",
     "de_article": "der",
     "de_plural": "die Nachrichtendienste",
-    "lv": "Státní tajná služba",
+    "lv": "Zpravodajská služba",
     "level": "C1"
   },
   {
@@ -1967,12 +1967,12 @@ const C1_WORDS = [
     "de": "Dienstleistung",
     "de_article": "die",
     "de_plural": "die Dienstleistungen",
-    "lv": "Domácí služba",
+    "lv": "Služba",
     "level": "C1"
   },
   {
     "de": "dienstpflichtig",
-    "lv": "Podroben vojenské službě",
+    "lv": "Podléhající vojenské službě",
     "level": "C1"
   },
   {
@@ -2021,7 +2021,7 @@ const C1_WORDS = [
     "de": "Durchfuhrverbot",
     "de_article": "das",
     "de_plural": "die Durchfuhrverbote",
-    "lv": "Zákaz průjezdu",
+    "lv": "Zákaz tranzitu",
     "level": "C1"
   },
   {
@@ -2044,14 +2044,14 @@ const C1_WORDS = [
   },
   {
     "de": "eingeschrieben",
-    "lv": "Zaznamenané • Registrované",
+    "lv": "Zapsaný • Registrovaný",
     "level": "C1"
   },
   {
     "de": "Währungseinheit",
     "de_article": "die",
     "de_plural": "die Währungseinheiten",
-    "lv": "Jednotka peněz",
+    "lv": "Peněžní jednotka",
     "level": "C1"
   },
   {
@@ -2070,12 +2070,12 @@ const C1_WORDS = [
   },
   {
     "de": "einreden",
-    "lv": "Říct • Naléhat • Snažit se přesvědčit",
+    "lv": "Namluvit • Přesvědčovat",
     "level": "C1"
   },
   {
     "de": "sich einschmeicheln",
-    "lv": "Lichotit • Lichotit",
+    "lv": "Vetřít se do přízně • Podlézat",
     "level": "C1"
   },
   {
@@ -2089,7 +2089,7 @@ const C1_WORDS = [
     "de": "Einspruchsrecht",
     "de_article": "das",
     "de_plural": "die Einspruchsrechte",
-    "lv": "Právo protestu • Právo veta",
+    "lv": "Právo podat námitku",
     "level": "C1"
   },
   {
@@ -2138,7 +2138,7 @@ const C1_WORDS = [
     "de": "Elementarregel",
     "de_article": "die",
     "de_plural": "die Elementarregeln",
-    "lv": "Základní zákon",
+    "lv": "Základní pravidlo",
     "level": "C1"
   },
   {
@@ -2162,7 +2162,7 @@ const C1_WORDS = [
   },
   {
     "de": "sich entgegensetzen",
-    "lv": "Odolat",
+    "lv": "Postavit se proti • Vzepřít se",
     "level": "C1"
   },
   {
@@ -2172,12 +2172,12 @@ const C1_WORDS = [
   },
   {
     "de": "sich entschließen",
-    "lv": "Rozhodnout se • Rozhodnout",
+    "lv": "Rozhodnout se • Odhodlat se",
     "level": "C1"
   },
   {
     "de": "entschlossen",
-    "lv": "Odhodlaný • Odhodlaný • Neochvějný",
+    "lv": "Rozhodný • Odhodlaný • Neochvějný",
     "level": "C1"
   },
   {
@@ -2189,7 +2189,7 @@ const C1_WORDS = [
     "de": "Gesetzentwurf",
     "de_article": "der",
     "de_plural": "die Gesetzentwürfe",
-    "lv": "Účtovat",
+    "lv": "Návrh zákona",
     "level": "C1"
   },
   {
@@ -2203,7 +2203,7 @@ const C1_WORDS = [
     "de": "Erbkrankheit",
     "de_article": "die",
     "de_plural": "die Erbkrankheiten",
-    "lv": "Vrozené onemocnění",
+    "lv": "Dědičné onemocnění",
     "level": "C1"
   },
   {
@@ -2216,7 +2216,7 @@ const C1_WORDS = [
   {
     "de": "Erntearbeiten",
     "de_article": "die",
-    "lv": "Sklizňové operace",
+    "lv": "Sklizňové práce",
     "level": "C1"
   },
   {
@@ -2235,12 +2235,12 @@ const C1_WORDS = [
   },
   {
     "de": "festgesetzt",
-    "lv": "Určený • Podmíněný • Stanovený",
+    "lv": "Určený • Stanovený • Zadržený",
     "level": "C1"
   },
   {
     "de": "feuergefährlich",
-    "lv": "Ohnivzdorný",
+    "lv": "Hořlavý",
     "level": "C1"
   },
   {
@@ -2254,7 +2254,7 @@ const C1_WORDS = [
     "de": "Feuerwerkskörper",
     "de_article": "der",
     "de_plural": "die Feuerwerkskörper",
-    "lv": "Raketa pro ohňostroje",
+    "lv": "Pyrotechnický výrobek",
     "level": "C1"
   },
   {
@@ -2279,7 +2279,7 @@ const C1_WORDS = [
   },
   {
     "de": "fortgeschritten",
-    "lv": "Relativně pozdě ve vývoji",
+    "lv": "Pokročilý",
     "level": "C1"
   },
   {
@@ -2319,20 +2319,20 @@ const C1_WORDS = [
     "de": "Führunternehmen",
     "de_article": "das",
     "de_plural": "die Führunternehmen",
-    "lv": "Společnost pro nákladní dopravu",
+    "lv": "Dopravní podnik",
     "level": "C1"
   },
   {
     "de": "soziale Fürsorge",
     "de_article": "die",
-    "lv": "Sociální zabezpečení",
+    "lv": "Sociální péče",
     "level": "C1"
   },
   {
     "de": "Auffassungsgabe",
     "de_article": "die",
     "de_plural": "die Auffassungsgaben",
-    "lv": "Schopnost vnímat",
+    "lv": "Schopnost chápání",
     "level": "C1"
   },
   {
@@ -2387,7 +2387,7 @@ const C1_WORDS = [
     "de": "Beichtgeheimnis",
     "de_article": "das",
     "de_plural": "die Beichtgeheimnisse",
-    "lv": "Přiznané tajemství",
+    "lv": "Zpovědní tajemství",
     "level": "C1"
   },
   {
@@ -2416,14 +2416,14 @@ const C1_WORDS = [
   },
   {
     "de": "geistesschwach",
-    "lv": "Slabý duchem • Svévolný",
+    "lv": "Duševně slabý • Slabomyslný",
     "level": "C1"
   },
   {
     "de": "Geländefahrt",
     "de_article": "die",
     "de_plural": "die Geländefahrten",
-    "lv": "Výlet na běžkách",
+    "lv": "Jízda v terénu",
     "level": "C1"
   },
   {
@@ -2440,8 +2440,8 @@ const C1_WORDS = [
     "study": {
       "id": "c1-gelegentlich",
       "layout": "standardStudy",
-      "translation": "Někdy • Příležitost • Kvůli",
-      "explanation": "Hlavní myšlenka: gelegentlich je slovo se třemi funkcemi. Přídavné jméno: příležitostný (ein gelegentlicher Besuch). Příslovce: někdy, čas od času (Er kommt gelegentlich). Předložka + dativ: kvůli (gelegentlich des Festes).",
+      "translation": "Občas • Příležitostný • U příležitosti",
+      "explanation": "Hlavní myšlenka: gelegentlich má tři funkce. Jako přídavné jméno znamená příležitostný (ein gelegentlicher Besuch). Jako příslovce znamená občas, někdy (Er kommt gelegentlich). V předložkovém užití s genitivem znamená u příležitosti (gelegentlich des Festes).",
       "examples": [
         {
           "de": "Er kommt gelegentlich vorbei.",
@@ -2449,7 +2449,7 @@ const C1_WORDS = [
         },
         {
           "de": "Ein gelegentlicher Besuch reicht.",
-          "lv": "Stačí občasná návštěva."
+          "lv": "Stačí příležitostná návštěva."
         },
         {
           "de": "Gelegentlich des Festes gab es eine Rede.",
@@ -2464,12 +2464,12 @@ const C1_WORDS = [
         },
         {
           "word": "gelegentlich (Adj.)",
-          "meaning": "Náhodný • Náhodný",
+          "meaning": "Příležitostný • Občasný",
           "example": "ein gelegentlicher Besuch = Náhodná návštěva"
         },
         {
           "word": "gelegentlich (+ Gen.)",
-          "meaning": "Kvůli",
+          "meaning": "U příležitosti",
           "example": "gelegentlich des Festes = Kvůli prázdninám"
         },
         {
@@ -2486,7 +2486,7 @@ const C1_WORDS = [
         ]
       },
       "important": {
-        "text": "Příl.: ležérní. Adv.: někdy. Přípravka. + Gen.: kvůli. Kontext určuje význam."
+        "text": "Adj.: příležitostný. Adv.: občas, někdy. Předložkové užití + genitiv: u příležitosti. Kontext určuje význam."
       },
       "sectionAccents": {
         "explanation": {
@@ -2557,21 +2557,21 @@ const C1_WORDS = [
   {
     "de": "Gemeineigentum",
     "de_article": "das",
-    "lv": "Veřejný majetek",
+    "lv": "Společný majetek",
     "level": "C1"
   },
   {
     "de": "Gemütsmensch",
     "de_article": "der",
     "de_plural": "die Gemütsmenschen",
-    "lv": "Laskavý a laskavý člověk",
+    "lv": "Citově založený • Dobrosrdečný člověk",
     "level": "C1"
   },
   {
     "de": "Genmanipulation",
     "de_article": "die",
     "de_plural": "die Genmanipulationen",
-    "lv": "Modifikace genu",
+    "lv": "Genová manipulace",
     "level": "C1"
   },
   {
@@ -2590,21 +2590,21 @@ const C1_WORDS = [
   },
   {
     "de": "genmanipuliert",
-    "lv": "S upravenými geny",
+    "lv": "Geneticky modifikovaný",
     "level": "C1"
   },
   {
     "de": "Gepäckschein",
     "de_article": "der",
     "de_plural": "die Gepäckscheine",
-    "lv": "Příjem zavazadel",
+    "lv": "Zavazadlový lístek",
     "level": "C1"
   },
   {
     "de": "Gepflogenheit",
     "de_article": "die",
     "de_plural": "die Gepflogenheiten",
-    "lv": "Vlastní • Vlastní",
+    "lv": "Zvyklost • Zvyk",
     "level": "C1"
   },
   {
@@ -2623,7 +2623,7 @@ const C1_WORDS = [
     "de": "Gerichtshof",
     "de_article": "der",
     "de_plural": "die Gerichtshöfe",
-    "lv": "Soudní síň • Tribunál",
+    "lv": "Soudní dvůr • Tribunál",
     "level": "C1"
   },
   {
@@ -2642,14 +2642,14 @@ const C1_WORDS = [
     "de": "Gesamtergebnis",
     "de_article": "das",
     "de_plural": "die Gesamtergebnisse",
-    "lv": "Konečný výsledek • Konečný výsledek",
+    "lv": "Celkový výsledek",
     "level": "C1"
   },
   {
     "de": "Gesandtschaft",
     "de_article": "die",
     "de_plural": "die Gesandtschaften",
-    "lv": "Velvyslanectví",
+    "lv": "Vyslanectví",
     "level": "C1"
   },
   {
@@ -2663,12 +2663,12 @@ const C1_WORDS = [
     "de": "Geschäftsjahr",
     "de_article": "das",
     "de_plural": "die Geschäftsjahre",
-    "lv": "Farmářský rok",
+    "lv": "Hospodářský rok • Účetní rok",
     "level": "C1"
   },
   {
     "de": "geschlechtsreif",
-    "lv": "Dosáhl pohlavní dospělosti",
+    "lv": "Pohlavně dospělý",
     "level": "C1"
   },
   {
@@ -2680,17 +2680,17 @@ const C1_WORDS = [
   },
   {
     "de": "gesetzgebend",
-    "lv": "Zákonodárce",
+    "lv": "Zákonodárný",
     "level": "C1"
   },
   {
     "de": "gesetzlos",
-    "lv": "Ilegální",
+    "lv": "Bezprávný • Nezákonný",
     "level": "C1"
   },
   {
     "de": "gesetzmäßig",
-    "lv": "Zákonný • Zákonný",
+    "lv": "Zákonný • Zákonitý",
     "level": "C1"
   },
   {
@@ -2702,7 +2702,7 @@ const C1_WORDS = [
     "de": "Gesichtskreis",
     "de_article": "der",
     "de_plural": "die Gesichtskreise",
-    "lv": "Horizont • Horizont",
+    "lv": "Horizont • Obzor",
     "level": "C1"
   },
   {
@@ -2715,7 +2715,7 @@ const C1_WORDS = [
   {
     "de": "Gewissensbisse",
     "de_article": "die",
-    "lv": "Lítost",
+    "lv": "Výčitky svědomí",
     "level": "C1"
   },
   {
@@ -2730,7 +2730,7 @@ const C1_WORDS = [
   },
   {
     "de": "gleichberechtigt",
-    "lv": "Rovný • Se stejnými právy",
+    "lv": "Rovnoprávný • Se stejnými právy",
     "level": "C1"
   },
   {
@@ -2764,7 +2764,7 @@ const C1_WORDS = [
   {
     "de": "Haft",
     "de_article": "die",
-    "lv": "Zadržení • Zatčení",
+    "lv": "Vazba • Vězení",
     "level": "C1"
   },
   {
@@ -2776,7 +2776,7 @@ const C1_WORDS = [
   },
   {
     "de": "haften",
-    "lv": "Přilepit • Být přilepený",
+    "lv": "Přilnout • Být přilepený",
     "level": "C1"
   },
   {
@@ -2790,14 +2790,14 @@ const C1_WORDS = [
     "de": "Haltbarkeitsdauer",
     "de_article": "die",
     "de_plural": "die Haltbarkeitsdauern",
-    "lv": "Doba skladování",
+    "lv": "Doba trvanlivosti",
     "level": "C1"
   },
   {
     "de": "Handelspartner",
     "de_article": "der",
     "de_plural": "die Handelspartner",
-    "lv": "Obchodního partnera",
+    "lv": "Obchodní partner",
     "level": "C1"
   },
   {
@@ -2818,7 +2818,7 @@ const C1_WORDS = [
     "de": "Hausdurchsuchung",
     "de_article": "die",
     "de_plural": "die Hausdurchsuchungen",
-    "lv": "Policejní pátrání",
+    "lv": "Domovní prohlídka",
     "level": "C1"
   },
   {
@@ -2856,17 +2856,17 @@ const C1_WORDS = [
   },
   {
     "de": "herunterkommen",
-    "lv": "Sestoupit • Chátrat • Klesat • Klesat",
+    "lv": "Sestoupit • Chátrat • Upadat • Zchudnout",
     "level": "C1"
   },
   {
     "de": "herunterstürzen",
-    "lv": "Spadnout na zem • Spadnout na zem",
+    "lv": "Spadnout dolů • Zřítit se",
     "level": "C1"
   },
   {
     "de": "sich hinreißen lassen",
-    "lv": "Vzrušit se",
+    "lv": "Nechat se strhnout • Nechat se unést",
     "level": "C1"
   },
   {
@@ -2885,12 +2885,12 @@ const C1_WORDS = [
     "de": "Industrieanlage",
     "de_article": "die",
     "de_plural": "die Industrieanlagen",
-    "lv": "Průmyslový komplex",
+    "lv": "Průmyslové zařízení • Průmyslový provoz",
     "level": "C1"
   },
   {
     "de": "inhaftieren",
-    "lv": "Zatknout",
+    "lv": "Uvěznit • Vzít do vazby",
     "level": "C1"
   },
   {
@@ -2922,7 +2922,7 @@ const C1_WORDS = [
   {
     "de": "Justiz",
     "de_article": "die",
-    "lv": "Spravedlnost • Právní případy",
+    "lv": "Justice • Soudnictví",
     "level": "C1"
   },
   {
@@ -2943,7 +2943,7 @@ const C1_WORDS = [
     "de": "Kaution",
     "de_article": "die",
     "de_plural": "die Kautionen",
-    "lv": "Zástava • Ručení • Kauce • Záruka",
+    "lv": "Kauce • Jistota",
     "level": "C1"
   },
   {
@@ -3009,7 +3009,7 @@ const C1_WORDS = [
     "de": "Lebensgefährte",
     "de_article": "der",
     "de_plural": "die Lebensgefährten",
-    "lv": "Manžel v neregistrovaném manželství",
+    "lv": "Životní partner",
     "level": "C1"
   },
   {
@@ -3022,7 +3022,7 @@ const C1_WORDS = [
   {
     "de": "Leistungssport",
     "de_article": "der",
-    "lv": "Profesionální sport",
+    "lv": "Výkonnostní sport • Vrcholový sport",
     "level": "C1"
   },
   {
@@ -3034,14 +3034,14 @@ const C1_WORDS = [
     "de": "Liebesbeziehung",
     "de_article": "die",
     "de_plural": "die Liebesbeziehungen",
-    "lv": "Intimní vztahy",
+    "lv": "Milostný vztah",
     "level": "C1"
   },
   {
     "de": "Liebeserklärung",
     "de_article": "die",
     "de_plural": "die Liebeserklärungen",
-    "lv": "Objevení lásky",
+    "lv": "Vyznání lásky",
     "level": "C1"
   },
   {
@@ -3061,7 +3061,7 @@ const C1_WORDS = [
     "de": "Machtübernahme",
     "de_article": "die",
     "de_plural": "die Machtübernahmen",
-    "lv": "Uchopení moci",
+    "lv": "Převzetí moci",
     "level": "C1"
   },
   {
@@ -3075,14 +3075,14 @@ const C1_WORDS = [
     "de": "Marschflugkörper",
     "de_article": "der",
     "de_plural": "die Marschflugkörper",
-    "lv": "Řízená střela • Řízená střela",
+    "lv": "Střela s plochou dráhou letu",
     "level": "C1"
   },
   {
     "de": "Massenherstellung",
     "de_article": "die",
     "de_plural": "die Massenherstellungen",
-    "lv": "Sériová výroba",
+    "lv": "Hromadná výroba",
     "level": "C1"
   },
   {
@@ -3212,7 +3212,7 @@ const C1_WORDS = [
     "de": "Presseerklärung",
     "de_article": "die",
     "de_plural": "die Presseerklärungen",
-    "lv": "Tisková zpráva",
+    "lv": "Tiskové prohlášení",
     "level": "C1"
   },
   {
@@ -3225,14 +3225,14 @@ const C1_WORDS = [
     "de": "Produktionsweise",
     "de_article": "die",
     "de_plural": "die Produktionsweisen",
-    "lv": "Druh výroby",
+    "lv": "Způsob výroby",
     "level": "C1"
   },
   {
     "de": "Rangierbahnhof",
     "de_article": "der",
     "de_plural": "die Rangierbahnhöfe",
-    "lv": "Kolejiště",
+    "lv": "Seřaďovací nádraží",
     "level": "C1"
   },
   {
@@ -3250,7 +3250,7 @@ const C1_WORDS = [
   {
     "de": "Rechenschaft",
     "de_article": "die",
-    "lv": "Odpovědnost (za své činy) • Odpovědnost",
+    "lv": "Skládání účtů • Odpovědnost",
     "level": "C1"
   },
   {
@@ -3302,7 +3302,7 @@ const C1_WORDS = [
   },
   {
     "de": "republikanisch",
-    "lv": "Republikánské • Republiky",
+    "lv": "Republikánský • Republikový",
     "level": "C1"
   },
   {
@@ -3314,7 +3314,7 @@ const C1_WORDS = [
   },
   {
     "de": "sanktionieren",
-    "lv": "Podpora • Sankce",
+    "lv": "Sankcionovat",
     "level": "C1"
   },
   {
@@ -3340,7 +3340,7 @@ const C1_WORDS = [
   },
   {
     "de": "schmerzstillend",
-    "lv": "Lék proti bolesti",
+    "lv": "Tišící bolest",
     "level": "C1"
   },
   {
@@ -3367,7 +3367,7 @@ const C1_WORDS = [
     "de": "Selbstverwaltung",
     "de_article": "die",
     "de_plural": "die Selbstverwaltungen",
-    "lv": "Obec",
+    "lv": "Samospráva",
     "level": "C1"
   },
   {
@@ -3379,12 +3379,12 @@ const C1_WORDS = [
     "de": "Sensationsmeldung",
     "de_article": "die",
     "de_plural": "die Sensationsmeldungen",
-    "lv": "Senzační prohlášení",
+    "lv": "Senzační zpráva",
     "level": "C1"
   },
   {
     "de": "sesshaft",
-    "lv": "Bydlení na jednom místě • Táborník",
+    "lv": "Usazený",
     "level": "C1"
   },
   {
@@ -3398,7 +3398,7 @@ const C1_WORDS = [
     "de": "Sinnestäuschung",
     "de_article": "die",
     "de_plural": "die Sinnestäuschungen",
-    "lv": "Halucinace",
+    "lv": "Smyslový klam • Smyslová iluze",
     "level": "C1"
   },
   {
@@ -3412,7 +3412,7 @@ const C1_WORDS = [
     "de": "Krisensituation",
     "de_article": "die",
     "de_plural": "die Krisensituationen",
-    "lv": "Krizová situace • Krize",
+    "lv": "Krizová situace",
     "level": "C1"
   },
   {
@@ -3426,14 +3426,14 @@ const C1_WORDS = [
     "de": "Sonnenfinsternis",
     "de_article": "die",
     "de_plural": "die Sonnenfinsternisse",
-    "lv": "Zatmění slunce",
+    "lv": "Zatmění Slunce",
     "level": "C1"
   },
   {
     "de": "Spitzenleistung",
     "de_article": "die",
     "de_plural": "die Spitzenleistungen",
-    "lv": "Rekord • Nejvyšší výkon • Tech. maximální výkon",
+    "lv": "Špičkový výkon • Vynikající výkon",
     "level": "C1"
   },
   {
@@ -3447,7 +3447,7 @@ const C1_WORDS = [
     "de": "Staatsanwalt",
     "de_article": "der",
     "de_plural": "die Staatsanwälte",
-    "lv": "Žalobce",
+    "lv": "Státní zástupce",
     "level": "C1"
   },
   {
@@ -3460,42 +3460,42 @@ const C1_WORDS = [
   {
     "de": "Steuereinnahmen",
     "de_article": "die",
-    "lv": "Daňový příjem",
+    "lv": "Daňové příjmy",
     "level": "C1"
   },
   {
     "de": "stimmberechtigt",
-    "lv": "Oprávněn volit",
+    "lv": "Oprávněný hlasovat",
     "level": "C1"
   },
   {
     "de": "Studienbewerber",
     "de_article": "der",
     "de_plural": "die Studienbewerber",
-    "lv": "Uchazeč o vysokou školu",
+    "lv": "Uchazeč o studium",
     "level": "C1"
   },
   {
     "de": "synchronisieren",
-    "lv": "Dabovat film",
+    "lv": "Synchronizovat",
     "level": "C1"
   },
   {
     "de": "Tageseinnahmen",
     "de_article": "die",
-    "lv": "Denní výdělek",
+    "lv": "Denní příjmy • Denní tržby",
     "level": "C1"
   },
   {
     "de": "Transfusion",
     "de_article": "die",
     "de_plural": "die Transfusionen",
-    "lv": "Přímou transfuzi krve z jedné osoby na druhou",
+    "lv": "Transfuze",
     "level": "C1"
   },
   {
     "de": "überanstrengen",
-    "lv": "Přetěžovat • Sich ü. k přepracování",
+    "lv": "Přetěžovat • Přepínat",
     "level": "C1"
   },
   {
@@ -3509,19 +3509,19 @@ const C1_WORDS = [
     "de": "Überbleibsel",
     "de_article": "das",
     "de_plural": "die Überbleibsel",
-    "lv": "Přebytek • Zůstává",
+    "lv": "Pozůstatek • Zbytek",
     "level": "C1"
   },
   {
     "de": "übereinstimmen",
-    "lv": "Souhlasit • Souhlasit s někým",
+    "lv": "Shodovat se • Souhlasit",
     "level": "C1"
   },
   {
     "de": "Überschuss",
     "de_article": "der",
     "de_plural": "die Überschüsse",
-    "lv": "Zbytek • Přebytek • Likvidace",
+    "lv": "Přebytek • Nadbytek",
     "level": "C1"
   },
   {
@@ -3535,7 +3535,7 @@ const C1_WORDS = [
     "de": "Unannehmlichkeit",
     "de_article": "die",
     "de_plural": "die Unannehmlichkeiten",
-    "lv": "Potíže • Nepříjemná příležitost",
+    "lv": "Nepříjemnost • Potíže",
     "level": "C1"
   },
   {
@@ -3552,7 +3552,7 @@ const C1_WORDS = [
     "de": "Unterschätzung",
     "de_article": "die",
     "de_plural": "die Unterschätzungen",
-    "lv": "Podceňovat • Podceňovat",
+    "lv": "Podcenění • Podceňování",
     "level": "C1"
   },
   {
@@ -3562,7 +3562,7 @@ const C1_WORDS = [
   },
   {
     "de": "verabschieden",
-    "lv": "Uvolnění z práce • Odejít do důchodu",
+    "lv": "Rozloučit se • Propustit • Schválit",
     "level": "C1"
   },
   {
@@ -3572,12 +3572,12 @@ const C1_WORDS = [
   },
   {
     "de": "veranschlagen",
-    "lv": "Počítat • Počítat • Odhadovat",
+    "lv": "Odhadovat • Kalkulovat • Rozpočtovat",
     "level": "C1"
   },
   {
     "de": "verdrießlich",
-    "lv": "Nepříjemný • Mrzutý • Mrzutý",
+    "lv": "Mrzutý • Rozmrzelý • Nepříjemný",
     "level": "C1"
   },
   {
@@ -3596,12 +3596,12 @@ const C1_WORDS = [
   },
   {
     "de": "vergewaltigen",
-    "lv": "Znásilnění",
+    "lv": "Znásilnit",
     "level": "C1"
   },
   {
     "de": "sich vergewissern",
-    "lv": "Ujistěte se",
+    "lv": "Ujistit se",
     "level": "C1"
   },
   {
@@ -3625,7 +3625,7 @@ const C1_WORDS = [
     "de": "Verhandlungen",
     "de_article": "die",
     "de_plural": "die Verhandlungen",
-    "lv": "Rozhovory",
+    "lv": "Jednání • Vyjednávání",
     "level": "C1"
   },
   {
@@ -3650,7 +3650,7 @@ const C1_WORDS = [
     "de": "Verpflichtung",
     "de_article": "die",
     "de_plural": "die Verpflichtungen",
-    "lv": "Povinnost • Povinnost",
+    "lv": "Povinnost • Závazek",
     "level": "C1"
   },
   {
@@ -3667,27 +3667,27 @@ const C1_WORDS = [
   },
   {
     "de": "vernachlässigen",
-    "lv": "Zanedbávat • Být nedbalý",
+    "lv": "Zanedbávat • Opomíjet",
     "level": "C1"
   },
   {
     "de": "verpflichten",
-    "lv": "Zavázat se",
+    "lv": "Zavázat • Uložit povinnost",
     "level": "C1"
   },
   {
     "de": "sich verpflichten",
-    "lv": "Podniknout",
+    "lv": "Zavázat se",
     "level": "C1"
   },
   {
     "de": "sich verschließen",
-    "lv": "Vypnout • Vypnout",
+    "lv": "Uzavřít se • Bránit se něčemu",
     "level": "C1"
   },
   {
     "de": "verschlossen",
-    "lv": "Zamčený • Zavřený • Přel. uzavřený • Soběstačný",
+    "lv": "Zamčený • Uzavřený • Zamlklý",
     "level": "C1"
   },
   {
@@ -3697,12 +3697,12 @@ const C1_WORDS = [
   },
   {
     "de": "verschreiben",
-    "lv": "Med. podepsat",
+    "lv": "Předepsat",
     "level": "C1"
   },
   {
     "de": "verschweigen",
-    "lv": "Zadržet • Neprozradit",
+    "lv": "Zamlčet • Neprozradit",
     "level": "C1"
   },
   {
@@ -3721,7 +3721,7 @@ const C1_WORDS = [
     "de": "Versuchsgelände",
     "de_article": "das",
     "de_plural": "die Versuchsgelände",
-    "lv": "Testovací hřiště",
+    "lv": "Zkušební areál",
     "level": "C1"
   },
   {
@@ -3733,7 +3733,7 @@ const C1_WORDS = [
   },
   {
     "de": "verunglücken",
-    "lv": "Trpět při nehodě • Trpět při nehodě",
+    "lv": "Mít nehodu • Utrpět nehodu",
     "level": "C1"
   },
   {
@@ -3748,12 +3748,12 @@ const C1_WORDS = [
   },
   {
     "de": "vervollkommnen",
-    "lv": "Doplnit • Zlepšit",
+    "lv": "Zdokonalit • Zlepšit",
     "level": "C1"
   },
   {
     "de": "sich vervollkommnen",
-    "lv": "Doplnit si znalosti",
+    "lv": "Zdokonalit se",
     "level": "C1"
   },
   {
@@ -3772,14 +3772,14 @@ const C1_WORDS = [
     "de": "Volksbefragung",
     "de_article": "die",
     "de_plural": "die Volksbefragungen",
-    "lv": "Anketa všech lidí • Referendum",
+    "lv": "Veřejná konzultace • Referendum",
     "level": "C1"
   },
   {
     "de": "Vollversammlung",
     "de_article": "die",
     "de_plural": "die Vollversammlungen",
-    "lv": "Plénum • Valná hromada • Valná hromada",
+    "lv": "Plénum • Valná hromada • Generální shromáždění",
     "level": "C1"
   },
   {
@@ -3789,7 +3789,7 @@ const C1_WORDS = [
   },
   {
     "de": "waag[e]recht",
-    "lv": "Úroveň • Horizontální",
+    "lv": "Vodorovný • Horizontální",
     "level": "C1"
   },
   {
@@ -3837,7 +3837,7 @@ const C1_WORDS = [
         },
         {
           "word": "wählen",
-          "meaning": "Přát si • Volit",
+          "meaning": "Vybrat • Volit",
           "example": "Ich wähle heute. = Dnes jsem hlasoval."
         },
         {
@@ -3849,19 +3849,19 @@ const C1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Wahl = volba, behrechtig = způsobilý. Běžné v tisku a právních textech."
+            "text": "Wahl = volba, berechtigt = oprávněný. Běžné v tisku a právních textech."
           }
         ]
       },
       "important": {
-        "text": "Wahlberechtig = s právem volit. Naproti: nicht wahlberechtigkeit."
+        "text": "Wahlberechtigt = s právem volit. Opak: nicht wahlberechtigt."
       },
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "wahlberechtig",
+            "wahlberechtigt",
             "Wahl",
-            "behrechtig"
+            "berechtigt"
           ]
         },
         "examples": [
@@ -3920,7 +3920,7 @@ const C1_WORDS = [
   {
     "de": "Wasserheilanstalt",
     "de_article": "die",
-    "lv": "Zařízení na úpravu vody",
+    "lv": "Vodolečebný ústav • Vodoléčebné zařízení",
     "level": "C1"
   },
   {
@@ -3934,27 +3934,27 @@ const C1_WORDS = [
     "de": "Wasserversorgung",
     "de_article": "die",
     "de_plural": "die Wasserversorgungen",
-    "lv": "Vodovod",
+    "lv": "Zásobování vodou",
     "level": "C1"
   },
   {
     "de": "Wechselbeziehung",
     "de_article": "die",
     "de_plural": "die Wechselbeziehungen",
-    "lv": "Vzájemná komunikace",
+    "lv": "Vzájemný vztah • Vzájemná souvislost",
     "level": "C1"
   },
   {
     "de": "Wehrersatzdienst",
     "de_article": "der",
-    "lv": "Civilní službu místo vojenské služby",
+    "lv": "Civilní služba místo vojenské služby",
     "level": "C1"
   },
   {
     "de": "Weidenkätzchen",
     "de_article": "das",
     "de_plural": "die Weidenkätzchen",
-    "lv": "Mák",
+    "lv": "Kočičky • Jehnědy vrby",
     "level": "C1"
   },
   {
@@ -3967,12 +3967,12 @@ const C1_WORDS = [
   {
     "de": "Wetterleuchten",
     "de_article": "das",
-    "lv": "Rez",
+    "lv": "Vzdálené blýskání",
     "level": "C1"
   },
   {
     "de": "widerrechtlich",
-    "lv": "Ilegální",
+    "lv": "Protiprávní",
     "level": "C1"
   },
   {
@@ -3982,12 +3982,12 @@ const C1_WORDS = [
   },
   {
     "de": "zusammenfallen",
-    "lv": "Zhroucení • Stát se",
+    "lv": "Zhroutit se • Shodovat se",
     "level": "C1"
   },
   {
     "de": "zusammenstellen",
-    "lv": "Skládat",
+    "lv": "Sestavit",
     "level": "C1"
   },
   {
@@ -3999,7 +3999,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-zuschlag",
       "layout": "standardStudy",
-      "translation": "Prémie • Přirážka",
+      "translation": "Příplatek • Přirážka",
       "explanation": [
         "Hlavní myšlenka: der Zuschlag znamená prémii nebo přirážku – částku navíc přidanou k základní ceně.",
         "V rámci cestování/dopravy je der Zuschlag příplatek za rychlejší vlak, lepší místo atd.",
@@ -4029,7 +4029,7 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "Der Zuschlag = příplatek/příplatek (příplatek), nikoli příloha dokumentu.",
+        "Der Zuschlag = příplatek nebo přirážka, nikoli příloha dokumentu.",
         "Den Zuschlag erhalten (v aukcích) = vyhrát aukci/přijmout objednávku."
       ],
       "important": [
@@ -4152,9 +4152,9 @@ const C1_WORDS = [
     "study": {
       "id": "c1-beziehen-sich-beziehen-auf",
       "layout": "standardStudy",
-      "translation": "Aplikovat • Aplikovat na",
+      "translation": "Pobírat • Vztahovat se na",
       "explanation": [
-        "Hlavní myšlenka: Formální registr: atribut zdroje, pravidelný příjem o důchodu/platu nebo stěhování do bytu.",
+        "Hlavní myšlenka: beziehen může znamenat pobírat důchod nebo plat či nastěhovat se do bytu; sich beziehen auf znamená vztahovat se na něco.",
         "Příklady hledají typické každodenní použití.",
         "V případě pochybností zkontrolujte, zda se jedná o stav nebo akci.",
         "Kontext a postup určují správnou volbu."
@@ -4162,7 +4162,7 @@ const C1_WORDS = [
       "examples": [
         {
           "de": "beziehen / sich beziehen auf.",
-          "lv": "Aplikovat • Aplikovat na"
+          "lv": "Pobírat • Vztahovat se na"
         }
       ],
       "tip": [
@@ -4232,7 +4232,7 @@ const C1_WORDS = [
         },
         {
           "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
-          "lv": "Co myslíš touto událostí?"
+          "lv": "Co zamýšlíte tímto opatřením?"
         },
         {
           "de": "Wir beabsichtigen keine Änderung.",
@@ -4249,10 +4249,10 @@ const C1_WORDS = [
       ],
       "tip": [
         "Pokud jde o vztahy, zdroje nebo pravidelný příjem — beziehen. Pokud jde o záměrný plán — beabsichtigen.",
-        "Beabsichtigen = myslet"
+        "Beabsichtigen = zamýšlet • mít v úmyslu"
       ],
       "important": [
-        "Beabsichtigen + zu + nepravidelnost: Er beabsichtigt zu gehen.",
+        "Beabsichtigen + zu + infinitiv: Er beabsichtigt zu gehen.",
         "Beabsichtigen nelze nahradit beziehen - je to záměr, nikoli vztah.",
         "Beabsichtigen → záměr, plán.",
         "Vědomý záměr provést akci v budoucnu. Ne o vztahu, ale o plánu."
@@ -4289,7 +4289,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "myslíš"
+                "zamýšlíte"
               ]
             }
           },
@@ -4335,8 +4335,8 @@ const C1_WORDS = [
             ]
           },
           {
-            "purple": [
-              "Pokud"
+            "green": [
+              "Beabsichtigen"
             ]
           }
         ],
@@ -4361,29 +4361,29 @@ const C1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: Bezdůvodně přiřazovat vinu, motiv nebo záměr někomu jinému.",
         "Unterstellen znamená hlavně: připisovat bez základu.",
-        "Často charakterizováno: obviňováním / přitažlivostí.",
+        "Často charakterizováno: obviňováním / připisováním.",
         "Jemandem etwas unterstellen znamená nespravedlivě přičítat nebo obviňovat."
       ],
       "examples": [
         {
           "de": "Man unterstellt mir schlechte Absichten.",
-          "lv": "Jsem obviněn ze špatných úmyslů."
+          "lv": "Přičítají mi špatné úmysly."
         },
         {
           "de": "Unterstellen Sie mir nichts!",
-          "lv": "Nic mě neobviňujte!"
+          "lv": "Nic mi nepodsouvejte!"
         },
         {
           "de": "Man darf niemandem Verrat unterstellen.",
-          "lv": "Nikdo by neměl být nespravedlivě obviněn ze zrady."
+          "lv": "Nikomu by se neměla bezdůvodně přičítat zrada."
         },
         {
           "de": "Ihm wird Untreue unterstellt.",
-          "lv": "Je obviněn z nedůvěry."
+          "lv": "Je mu přičítána nevěra."
         },
         {
           "de": "unterstellen",
-          "lv": "Neoprávněná vina • Předpověď"
+          "lv": "Neoprávněné obvinění • Předpoklad"
         }
       ],
       "tip": [
@@ -4500,15 +4500,15 @@ const C1_WORDS = [
       "examples": [
         {
           "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "Základní znalosti akceptujeme jako předpoklad."
+          "lv": "Předpokládáme základní znalosti."
         },
         {
           "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "Základní znalosti přijímáme jako předpoklad."
+          "lv": "Předpokládáme základní znalosti."
         }
       ],
       "tip": [
-        "Voraussetzen = předpokládat předpoklad",
+        "Voraussetzen = předpokládat",
         "Použijte voraussetzen, když kontext odpovídá tomuto významu."
       ],
       "important": [
@@ -4519,8 +4519,7 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "green": [
-            "voraussetzen",
-            "voraus"
+            "voraussetzen"
           ],
           "purple": [
             "Hlavní"
@@ -4556,7 +4555,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-bewahren",
       "layout": "standardStudy",
-      "translation": "Chránit • Chránit",
+      "translation": "Chránit • Zachovat",
       "explanation": [
         "Hlavní myšlenka: Chránit před ztrátou, poškozením nebo zničením – hodnota, tradice, mír.",
         "Bewahren znamená především: chránit před ztrátou.",
@@ -4566,7 +4565,7 @@ const C1_WORDS = [
       "examples": [
         {
           "de": "Wir bewahren die Traditionen.",
-          "lv": "Dodržujeme tradice."
+          "lv": "Zachováváme tradice."
         },
         {
           "de": "Sie bewahren die Ruhe in der Krise.",
@@ -4574,11 +4573,11 @@ const C1_WORDS = [
         },
         {
           "de": "Wir bewahren die Traditionen.",
-          "lv": "Dodržujeme tradice."
+          "lv": "Zachováváme tradice."
         },
         {
           "de": "bewahren",
-          "lv": "Chránit/zachovat • Aufrechterhalten"
+          "lv": "Chránit/zachovat • Udržovat v platnosti"
         }
       ],
       "tip": [
@@ -4588,7 +4587,7 @@ const C1_WORDS = [
       "important": [
         "Bewahren: Wertvolles bewahren - chránit cenné.",
         "Špatně: Wir bewahren den Frieden auf. → Správně: Wir erhalten den Frieden auf.",
-        "Bewahren → chránit, chránit."
+        "Bewahren → chránit, zachovat."
       ],
       "sectionAccents": {
         "explanation": {
@@ -4609,7 +4608,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dodržujeme"
+                "Zachováváme"
               ]
             }
           },
@@ -4635,7 +4634,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dodržujeme"
+                "Zachováváme"
               ]
             }
           },
@@ -4683,21 +4682,21 @@ const C1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: Zajistit, že stav, řád nebo vztah bude nadále existovat.",
         "Aufrechterhalten především znamená: zajistit pokračování.",
-        "Často charakterizováno: udržováním kondice.",
+        "Často charakterizováno: udržováním stavu.",
         "Aufrechterhalten znamená udržovat stav, systém nebo vztah v platnosti – zajistit kontinuitu."
       ],
       "examples": [
         {
           "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "Stát udržuje pořádek v platnosti."
+          "lv": "Stát udržuje pořádek."
         },
         {
           "de": "Man muss den Betrieb aufrechterhalten.",
-          "lv": "Musí akci ponechat v platnosti."
+          "lv": "Je třeba udržovat provoz v chodu."
         },
         {
           "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "Stát udržuje pořádek v platnosti."
+          "lv": "Stát udržuje pořádek."
         }
       ],
       "tip": [
@@ -4712,9 +4711,7 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "green": [
-            "aufrechterhalten",
-            "erhält",
-            "auf"
+            "aufrechterhalten"
           ]
         },
         "examples": [
@@ -4757,49 +4754,49 @@ const C1_WORDS = [
     "de": "Hektar",
     "de_article": "der",
     "de_plural": "die Hektar",
-    "lv": "Hektar",
+    "lv": "hektar",
     "level": "C1"
   },
   {
     "de": "Karre",
     "de_article": "die",
     "de_plural": "die Karren",
-    "lv": "Kolečko",
+    "lv": "kára",
     "level": "C1"
   },
   {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
-    "lv": "Kolečko",
+    "lv": "kára • vozík",
     "level": "C1"
   },
   {
     "de": "Krüppel",
     "de_article": "der",
     "de_plural": "die Krüppel",
-    "lv": "Mrzák",
+    "lv": "mrzák",
     "level": "C1"
   },
   {
     "de": "Matsch",
     "de_article": "der",
     "de_plural": "die Matsche",
-    "lv": "Bláto • Břečka",
+    "lv": "bláto • břečka",
     "level": "C1"
   },
   {
     "de": "Panter",
     "de_article": "der",
     "de_plural": "die Panter",
-    "lv": "Panter",
+    "lv": "panter",
     "level": "C1"
   },
   {
     "de": "Panther",
     "de_article": "der",
     "de_plural": "die Panther",
-    "lv": "Panter",
+    "lv": "panter",
     "level": "C1"
   }
 ];
