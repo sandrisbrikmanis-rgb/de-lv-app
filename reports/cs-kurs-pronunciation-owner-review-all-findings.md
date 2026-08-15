@@ -2866,9 +2866,9 @@ qu → kv
 Německé „qu“ se vyslovuje přibližně jako české „kv“, nikoli „sq“. Jde o foneticky chybnou a pro začátečníka zavádějící pomůcku.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Qu → kv
+**OWNER note:** 
 
 ---
 
@@ -2894,9 +2894,9 @@ v bieži → f
 Shrnutí „V často → f“ je neúplná a nepřirozená věta. Není uvedeno, že německé písmeno v se v mnoha slovech vyslovuje jako [f].
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** NELABOT
+**OWNER NEW:** 
+**OWNER note:** Īss kopsavilkuma noteikums Qu→kv / ß→s kontekstā — nav pilna teikuma.
 
 ---
 
@@ -2922,9 +2922,9 @@ SS
 Celá sekce je věnována písmenu ß, ale shrnutí uvádí „SS“. To může začátečníka zmást; SS a ß jsou pravopisně související, nikoli totožné označení v tomto shrnutí.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** ß → s
+**OWNER note:** 
 
 ---
 
@@ -2950,9 +2950,9 @@ Vārdu pareiza izruna, apzīmēta latviešu burtiem, ir dota lekcijās.
 Spojení „slov označených českými písmeny“ není přirozené ani významově přesné. Pravděpodobně se myslí slova přepsaná nebo opatřená výslovnostní pomůckou v českých písmenech.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** V lekcích je správná výslovnost slov přepsána českými písmeny.
+**OWNER note:** 
 
 ---
 
@@ -2978,9 +2978,9 @@ Wir (vīr) — mēs. Vārdā wir ī izrunājams vienmēr gari.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Wir (vír) — my. Ve slově wir se i vyslovuje dlouze.
+**OWNER note:** 
 
 ---
 
@@ -3006,9 +3006,9 @@ Wir (vīr) — mēs. Vārdā wir ī izrunājams vienmēr gari.
 Německé „wir“ znamená „my“, nikoli „člověk“. Závorka proto obsahuje chybný význam a současně není jasné, zda má označovat překlad, nebo výslovnost.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Wir (vír) — my. Ve slově wir se i vyslovuje dlouze.
+**OWNER note:** Duplicate target — apply once (same as #105).
 
 ---
 
@@ -3034,9 +3034,9 @@ Vārdos ich, nicht, rechnen, zeichnen skaņu ch izrunā mīksti, apmēram tā, k
 Německé ch ve slovech „ich“, „nicht“, „rechnen“ a „zeichnen“ je palatální [ç]. České ch ve slovech „technika“ a „Fridrich“ je běžně [x], takže uvedené srovnání není přesné a může vést k nesprávné výslovnosti.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slovech ich, nicht, rechnen a zeichnen se ch vyslovuje měkce jako německý Ich-Laut [ç]; v češtině nemá přesný ekvivalent.
+**OWNER note:** 
 
 ---
 
@@ -3062,9 +3062,9 @@ Vārdos arbeiten, zeichnen divskani ei izrunā apmēram kā latviešu plato e sk
 Text obsahuje překlep „českýá“ místo „česká“. Navíc německé ei se nevyslovuje jako české „e“ následované „i“, ale přibližně jako dvojhláska [aɪ̯]; uvedené srovnání je proto zavádějící.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slovech arbeiten a zeichnen se dvojhláska ei vyslovuje přibližně jako české aj.
+**OWNER note:** 
 
 ---
 
@@ -3090,9 +3090,9 @@ Līdzskaņu kopojumu sp izrunā kā šp: spielen (špīlen).
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** FALSE_POSITIVE
+**OWNER NEW:** 
+**OWNER note:** ī špīlen ir garuma apzīmējums, ne LV atlikums; reāls fix #110 (neredzamie simboli).
 
 ---
 
@@ -3118,9 +3118,9 @@ Līdzskaņu kopojumu sp izrunā kā šp: spielen (špīlen).
 Před slovem „spielen“ jsou obsaženy neviditelné řídicí znaky. Ty mohou při zobrazení nebo kopírování způsobovat nežádoucí mezery či jiné artefakty; výslovnostní přepis „špīlen“ je jako orientační česká pomůcka přijatelný.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Shluk souhlásek sp se vyslovuje jako šp: spielen (špílen).
+**OWNER note:** OWNER — noņemt neredzamos simboli; špílen garuma zīme paliek.
 
 ---
 
@@ -3146,9 +3146,9 @@ Darbības vārdā tun u izrunājams gari visās personās.
 Ve spojení „Sloveso tun u“ je nadbytečné „u“, které působí jako zbytkový nebo chybný text a znejasňuje, co se má vyslovovat.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Sloveso tun se ve všech osobách vyslovuje s dlouhým u.
+**OWNER note:** 
 
 ---
 
@@ -3174,9 +3174,9 @@ ck ir divkāršs k: dick (dikk).
 „Ck je dvojité k“ směšuje písmena se zvukem: ck jsou dvě písmena, která v němčině označují jednu souhlásku [k]. Navíc se v tomto pravopisném pravidle běžně píše malé „ck“.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** ck jsou dvě písmena, která označují jednu hlásku [k]: dick (dikk).
+**OWNER note:** 
 
 ---
 
@@ -3202,9 +3202,9 @@ V p | davn | ch jm | nech a p | slovc
 Německé koncové -ig se ve standardní výslovnosti často vyslovuje [ɪç]. České „ch“ je však [x], nikoli [ç], takže formulace „jako lehké -ich“ a přepis „nīdrich“ mohou vést k nesprávné artikulaci.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** V přídavných jménech a příslovcích se koncovka -ig ve standardní výslovnosti často vyslovuje s německým měkkým ch [ç]: niedrig.
+**OWNER note:** 
 
 ---
 
@@ -3230,9 +3230,9 @@ Ja galotne -ig beidzas ar e: -ige, tad g izrunā kā noteiktu g skaņu: niedrige
 Formulace „určitá hláska g“ je vágní. Začátečník se nedozví, že v této poloze jde o běžné tvrdé [g], na rozdíl od výslovnosti -ig na konci slova.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Pokud po -ig následuje koncovka -e, vyslovuje se g jako [g]: niedrige (nídrige) Bänke.
+**OWNER note:** 
 
 ---
 
@@ -3258,9 +3258,9 @@ h vācu valodā var būt gan skaņa, gan garumzīme iepriekšējam patskanim.
 Formulace směšuje písmeno a hlásku: písmeno h může označovat hlásku [h], nebo může být němé a označovat délku předchozí samohlásky. H samo o sobě není „zvuk“ ani „značka délky“ bez upřesnění.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Písmeno h v němčině může označovat hlásku [h], nebo může být němé a označovat délku předchozí samohlásky.
+**OWNER note:** 
 
 ---
 
@@ -3286,9 +3286,9 @@ Ja h ir garumzīme, to neizrunā kā skaņu: nehmen (nēmen).
 Není správné říkat, že h je dlouhé. Dlouhá je předchozí samohláska; v příkladu nehmen je h němé a pouze označuje její délku. Jde také o terminologické směšování písmene a zvuku.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Je-li h němé a označuje délku předchozí samohlásky, nevyslovuje se jako samostatná hláska: nehmen (némen).
+**OWNER note:** 
 
 ---
 
@@ -3322,9 +3322,9 @@ Ja patskanim seko tikai viens līdzskanis, patskani izrunā gari: die (dī) Fede
 Pravidlo je podané příliš absolutně a může začátečníka zmást. Délku německé samohlásky nelze obecně určit pouze podle toho, že po ní následuje jedna souhláska; záleží také na typu slabiky, pravopisu a výjimkách. Příklad die navíc žádnou následující souhlásku nemá.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Délku samohlásky nelze určit pouze podle počtu následujících souhlásek. Například die, Feder a den mají dlouhou samohlásku.
+**OWNER note:** 
 
 ---
 
@@ -3350,9 +3350,9 @@ tz ir dubultots z skanis un izrunājams kā z: sitzen (zicen).
 Německé tz označuje hlásku [ts], nikoli zdvojený zvuk [z]. Přepis „zicen“ je pro českého žáka zavádějící, protože české z neodpovídá německému [ts]. Jde také o záměnu písmene, hlásky a zvuku.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Písmena tz označují hlásku [ts], tedy české „c“: sitzen (zicen).
+**OWNER note:** OWNER — zicen, ne Luna cicen (s = [z], tz = [ts] ≈ české c).
 
 ---
 
@@ -3378,9 +3378,9 @@ v vācu vārdos izrunā kā f: der Vater (fāter).
 Přepis „fäter“ nesprávně naznačuje krátkou hlásku podobnou českému ä/e. Ve slově Vater je a dlouhé: [faːtɐ].
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** V se v mnoha původně německých slovech vyslovuje jako f: der Vater (fátr). V přejatých slovech se může vyslovovat jako v.
+**OWNER note:** 
 
 ---
 
@@ -3410,9 +3410,9 @@ v vācu vārdos izrunā kā f: der Vater (fāter).
 Výrok „V se v německých slovech vyslovuje jako f“ je příliš obecný. V přejatých slovech může německé v označovat [v].
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** V se v mnoha původně německých slovech vyslovuje jako f: der Vater (fátr). V přejatých slovech se může vyslovovat jako v.
+**OWNER note:** Duplicate target — apply once (same as #119).
 
 ---
 
@@ -3438,9 +3438,9 @@ SS se naz | escet a vyslovuje se jako  | esk | groß (gr | s), weiß (veis).
 Text obsahuje překlep „českýé s“; správně je „české s“. Navíc se zde hovoří o SS, ale oba příklady obsahují písmeno ß, nikoli skupinu SS.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Písmeno ß (Eszett) se vyslovuje jako české s: groß (grós), weiß (vais).
+**OWNER note:** 
 
 ---
 
@@ -3466,9 +3466,9 @@ SS se naz | escet a vyslovuje se jako  | esk | groß (gr | s), weiß (veis).
 Písmeno ß se v češtině běžně nazývá eszett; „SS“ není jeho název ani přesný popis v uvedených příkladech. Příklady groß a weiß obsahují ß.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Písmeno ß (Eszett) se vyslovuje jako české s: groß (grós), weiß (vais).
+**OWNER note:** Duplicate target — apply once (same as #121).
 
 ---
 
@@ -3494,9 +3494,9 @@ Písmeno ß se v češtině běžně nazývá eszett; „SS“ není jeho název
 Výraz „podtext samohlásky“ je v češtině nesprávný a významově nejasný. Ä je přehláska písmene a, nikoli podtext. Popis „úzké e“ je pro německé ä navíc nepřesný; jde přibližně o krátké nebo dlouhé [ɛ].
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ä je přehláska písmene a. Vyslovuje se jako krátké nebo dlouhé otevřené e [ɛ] / [ɛː].
+**OWNER note:** 
 
 ---
 
@@ -3522,9 +3522,9 @@ Piemēri: das Mädchen (mētchen), die Bänke (dī benke), der Vater (dēr fāte
 V přepisu „mētchen“ je dlouhé ē, ale ve slově Mädchen je ä krátké. Makronová notace zde proto označuje nesprávnou délku.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** FALSE_POSITIVE
+**OWNER NEW:** 
+**OWNER note:** Mädchen (mētchen) pareizs — standarta ä garš /ɛː/; Luna metchen sabojātu izrunu.
 
 ---
 
@@ -3554,9 +3554,9 @@ V přepisu „mētchen“ je dlouhé ē, ale ve slově Mädchen je ä krátké. 
 „Podtext samohlásky“ je nesprávný termín; správně je „přehláska písmene u“. Druhá věta je navíc gramaticky neobratná a opakuje stejnou instrukci.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ü je přehláska písmene u. Při jeho vyslovování mějte rty zaokrouhlené a vyslovte i, aniž byste polohu rtů změnili.
+**OWNER note:** 
 
 ---
 
@@ -3582,9 +3582,9 @@ V přepisu „mētchen“ je dlouhé ē, ale ve slově Mädchen je ä krátké. 
 Věta nemá přirozenou českou formulaci: „snaží se vyslovit e“ střídá neosobní popis s nejasným podmětem. Začátečník také nedostává jasný návod, že jde o kombinaci polohy jazyka pro e a zaokrouhlených rtů.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ö se vyslovuje s jazykem v poloze podobné českému e a se zaokrouhlenými rty: der Löffel.
+**OWNER note:** 
 
 ---
 
@@ -3610,9 +3610,9 @@ sch izrunā kā latviešu š: die Schaufel (dī šaufel), die Schüssel (dī š�
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** FALSE_POSITIVE
+**OWNER NEW:** 
+**OWNER note:** Dī/šūsel garuma apzīmējumi — ne LV atlikums; reāls typo labo #128.
 
 ---
 
@@ -3638,9 +3638,9 @@ sch izrunā kā latviešu š: die Schaufel (dī šaufel), die Schüssel (dī š�
 Text obsahuje překlep „českýé š“; správně je „české š“.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Sch se vyslovuje jako české š: die Schaufel (dí šaufel), die Schüssel (dí šüssel).
+**OWNER note:** 
 
 ---
 
@@ -3666,9 +3666,9 @@ Divskani äu izrunā kā latviešu oi: das Fräulein (das froilein).
 Text obsahuje překlep „českýé oi“; správně je „české oi“.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Dvojhláska äu se vyslovuje přibližně jako české oi: das Fräulein (das froilein).
+**OWNER note:** 
 
 ---
 
@@ -3694,9 +3694,9 @@ Text obsahuje překlep „českýé oi“; správně je „české oi“.
 Celý uživatelsky viditelný text je v lotyštině. Jde o cizojazyčný zbytek, který českému uživateli znemožňuje porozumění.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ä se někdy vyslovuje jako otevřené e, například ve slově der Gärtner (dér gertner).
+**OWNER note:** 
 
 ---
 
@@ -3722,9 +3722,9 @@ Celý uživatelsky viditelný text je v lotyštině. Jde o cizojazyčný zbytek,
 Latviešu atlikums (LV_WORD)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ä se někdy vyslovuje jako otevřené e, například ve slově der Gärtner (dér gertner).
+**OWNER note:** Duplicate target — apply once (same as #130).
 
 ---
 
@@ -3750,9 +3750,9 @@ SS izrun | grüßen (grüsen).
 Celý uživatelsky viditelný text je v lotyštině. Navíc uvádí „SS“, zatímco příklad grüßen obsahuje ß.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** ß se vyslovuje jako s: grüßen (grüsen).
+**OWNER note:** 
 
 ---
 
@@ -3778,9 +3778,9 @@ SS izrun | grüßen (grüsen).
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** ß se vyslovuje jako s: grüßen (grüsen).
+**OWNER note:** Duplicate target — apply once (same as #132).
 
 ---
 
@@ -3806,9 +3806,9 @@ eu izrunā kā oi: deutlich (doitlich).
 Celý uživatelsky viditelný text je v lotyštině. Český uživatel nedostává české vysvětlení pravidla.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Eu se vyslovuje přibližně jako české oj: deutlich (dojtlich).
+**OWNER note:** OWNER — oj, ne Luna oi/doitlich.
 
 ---
 
@@ -3834,9 +3834,9 @@ eu izrunā kā oi: deutlich (doitlich).
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Eu se vyslovuje přibližně jako české oj: deutlich (dojtlich).
+**OWNER note:** Duplicate target — apply once (same as #134).
 
 ---
 
@@ -3862,9 +3862,9 @@ Pareizi jāizrunā patskaņu pārkaņojumi.
 Text je celý v lotyštině, nikoli v češtině.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Je důležité správně vyslovovat přehlásky.
+**OWNER note:** 
 
 ---
 
@@ -3890,9 +3890,9 @@ Pareizi jāizrunā patskaņu pārkaņojumi.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Je důležité správně vyslovovat přehlásky.
+**OWNER note:** Duplicate target — apply once (same as #136).
 
 ---
 
@@ -3918,9 +3918,9 @@ Latviešu atlikums (LV_DIACRITIC)
 Text je v lotyštině. Přirovnání německého ö k českému e je pouze přibližné, ale pedagogicky přijatelné (PEDAGOGICALLY_ACCEPTABLE), pokud se výslovně uvede, že rty zůstávají zaokrouhlené.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ö se vyslovuje se zaokrouhlenými rty a s jazykem v poloze podobné českému e: wir können, ihr könnt, sie können, der Löffel.
+**OWNER note:** 
 
 ---
 
@@ -3946,9 +3946,9 @@ Text je v lotyštině. Přirovnání německého ö k českému e je pouze přib
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ö se vyslovuje se zaokrouhlenými rty a s jazykem v poloze podobné českému e: wir können, ihr könnt, sie können, der Löffel.
+**OWNER note:** Duplicate target — apply once (same as #138).
 
 ---
 
@@ -3974,9 +3974,9 @@ Latviešu atlikums (LV_DIACRITIC)
 Text je v lotyštině. Přirovnání německého ü k českému i je pouze přibližné, ale pedagogicky přijatelné (PEDAGOGICALLY_ACCEPTABLE), pokud se zdůrazní zaokrouhlení rtů.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ü se vyslovuje se zaokrouhlenými rty a s jazykem v poloze podobné českému i: Müller (müller), Bücher (bücher).
+**OWNER note:** OWNER — saglabāt ü, ne Luna miller/býcher.
 
 ---
 
@@ -4002,9 +4002,9 @@ Text je v lotyštině. Přirovnání německého ü k českému i je pouze přib
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ü se vyslovuje se zaokrouhlenými rty a s jazykem v poloze podobné českému i: Müller (müller), Bücher (bücher).
+**OWNER note:** Duplicate target — apply once (same as #140).
 
 ---
 
@@ -4030,9 +4030,9 @@ Patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem.
 Text je v lotyštině, nikoli v češtině.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Pravopis následujících souhlásek může často napovědět délku samohlásky.
+**OWNER note:** 
 
 ---
 
@@ -4058,9 +4058,9 @@ Patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Pravopis následujících souhlásek může často napovědět délku samohlásky.
+**OWNER note:** Duplicate target — apply once (same as #142).
 
 ---
 
@@ -4086,9 +4086,9 @@ Ja patskanim seko viens līdzskanis, patskani izrunā gari: Vögel (fōgel), Sch
 Pravidlo, že po jedné souhlásce je samohláska dlouhá, je příliš absolutní. Jde jen o užitečné vodítko; délku ovlivňuje také slabiková struktura, přízvuk a konkrétní slovo.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Následuje-li po samohlásce jedna souhláska, bývá samohláska často dlouhá, nejde však o bezvýjimečné pravidlo: Vögel, Schüler, Bücher.
+**OWNER note:** 
 
 ---
 
@@ -4114,9 +4114,9 @@ Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir kön
 Text je v lotyštině, nikoli v češtině.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Následují-li po samohlásce dvě nebo více souhlásek, bývá samohláska často krátká, nejde však o bezvýjimečné pravidlo: wir können, der Löffel, der Müller.
+**OWNER note:** 
 
 ---
 
@@ -4142,9 +4142,9 @@ Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir kön
 Latviešu atlikums (LV_PHRASE)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Následují-li po samohlásce dvě nebo více souhlásek, bývá samohláska často krátká, nejde však o bezvýjimečné pravidlo: wir können, der Löffel, der Müller.
+**OWNER note:** Duplicate target — apply once (same as #145).
 
 ---
 
@@ -4170,9 +4170,9 @@ Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir kön
 Pravidlo je formulováno příliš absolutně. Dvě souhlásky často signalizují krátkou samohlásku, ale nejde o univerzální pravidlo německé výslovnosti.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Následují-li po samohlásce dvě nebo více souhlásek, bývá samohláska často krátká, nejde však o bezvýjimečné pravidlo: wir können, der Löffel, der Müller.
+**OWNER note:** Duplicate target — apply once (same as #145).
 
 ---
 
@@ -4202,9 +4202,9 @@ Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nom
 Text je převážně v lotyštině; výraz „Český valodas“ je navíc smíšený a gramaticky nesprávný.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Německé o může být krátké nebo dlouhé a jeho výslovnost se liší podle slova, například ve slovech Fonds, Nominativ a Fotograf.
+**OWNER note:** OWNER — lokalizēta pedagoģiskā doma, ne LV „uo“ dvojhláska.
 
 ---
 
@@ -4230,9 +4230,9 @@ Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nom
 Tvrzení, že české o je dvojhláska uo, je věcně nesprávné. České o je samostatná monoftongická samohláska.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Německé o může být krátké nebo dlouhé a jeho výslovnost se liší podle slova, například ve slovech Fonds, Nominativ a Fotograf.
+**OWNER note:** Duplicate target — apply once (same as #148).
 
 ---
 
@@ -4258,9 +4258,9 @@ Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nom
 Latviešu atlikums (LV_WORD)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Německé o může být krátké nebo dlouhé a jeho výslovnost se liší podle slova, například ve slovech Fonds, Nominativ a Fotograf.
+**OWNER note:** Duplicate target — apply once (same as #148).
 
 ---
 
