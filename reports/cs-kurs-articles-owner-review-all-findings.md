@@ -3997,11 +3997,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+V dativu množného čísla má podstatné jméno často koncovku -n.
 
 OWNER note:
+Sdílený target s #102.
 
 ---
 
@@ -4033,11 +4035,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+V dativu množného čísla má podstatné jméno často koncovku -n.
 
 OWNER note:
+SOURCE_DE_ISSUE: CS text opraven společně s #101; DE zdroj neměněn.
 
 ---
 
@@ -4071,9 +4075,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Pokud množné číslo již končí na -n
 
 OWNER note:
 
@@ -4107,11 +4112,12 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: NELABOT
 
 OWNER NEW:
 
 OWNER note:
+SOURCE_DE_ISSUE dokumentováno; CS text je korektní, DE neměněn.
 
 ---
 
@@ -4143,11 +4149,12 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: NELABOT
 
 OWNER NEW:
 
 OWNER note:
+SOURCE_DE_ISSUE: německý slovesný heading záměrný; DE neměněn.
 
 ---
 
@@ -4179,11 +4186,12 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: NELABOT
 
 OWNER NEW:
 
 OWNER note:
+SOURCE_DE_ISSUE dokumentováno; CS popis geben je korektní.
 
 ---
 
@@ -4215,11 +4223,12 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: NELABOT
 
 OWNER NEW:
 
 OWNER note:
+SOURCE_DE_ISSUE: německý heading sich nähern záměrný.
 
 ---
 
@@ -4251,11 +4260,12 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: NELABOT
 
 OWNER NEW:
 
 OWNER note:
+SOURCE_DE_ISSUE dokumentováno; CS text je korektní.
 
 ---
 
@@ -4286,9 +4296,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Množné číslo s přehláskou
 
 OWNER note:
 
@@ -4322,11 +4333,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Bez členu
 
 OWNER note:
+Sdílený target s #111.
 
 ---
 
@@ -4358,11 +4371,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Bez členu
 
 OWNER note:
+SOURCE_DE_ISSUE: CS heading opraven společně s #110.
 
 ---
 
@@ -4394,11 +4409,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Často používaná slova bez členu: Milch, Brot.
 
 OWNER note:
+Sdílený target s #113, #114.
 
 ---
 
@@ -4430,11 +4447,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Často používaná slova bez členu: Milch, Brot.
 
 OWNER note:
+Sdílený target s #112, #114.
 
 ---
 
@@ -4466,11 +4485,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Často používaná slova bez členu: Milch, Brot.
 
 OWNER note:
+SOURCE_DE_ISSUE: CS text opraven společně s #112/#113.
 
 ---
 
@@ -4502,11 +4523,12 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: NELABOT
 
 OWNER NEW:
 
 OWNER note:
+SOURCE_DE_ISSUE dokumentováno; výslovnostní CS text korektní.
 
 ---
 
@@ -4538,11 +4560,12 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: NELABOT
 
 OWNER NEW:
 
 OWNER note:
+SOURCE_DE_ISSUE dokumentováno; výslovnostní CS text korektní.
 
 ---
 
@@ -4574,11 +4597,12 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: NELABOT
 
 OWNER NEW:
 
 OWNER note:
+SOURCE_DE_ISSUE dokumentováno; výslovnostní CS text korektní.
 
 ---
 
@@ -4610,11 +4634,12 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: NELABOT
 
 OWNER NEW:
 
 OWNER note:
+SOURCE_DE_ISSUE dokumentováno; výslovnostní CS text korektní.
 
 ---
 
@@ -4646,11 +4671,12 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: NELABOT
 
 OWNER NEW:
 
 OWNER note:
+SOURCE_DE_ISSUE dokumentováno; výslovnostní CS text korektní.
 
 ---
 
@@ -4684,11 +4710,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Doplň správný člen v dativu/akuzativu podle významu věty.
 
 OWNER note:
+Stejný OWNER NEW pro #121–#125.
 
 ---
 
@@ -4721,9 +4749,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Doplň správný člen v dativu/akuzativu podle významu věty.
 
 OWNER note:
 
@@ -4758,9 +4787,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Doplň správný člen v dativu/akuzativu podle významu věty.
 
 OWNER note:
 
@@ -4795,9 +4825,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Doplň správný člen v dativu/akuzativu podle významu věty.
 
 OWNER note:
 
@@ -4832,9 +4863,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Doplň správný člen v dativu/akuzativu podle významu věty.
 
 OWNER note:
 
@@ -4869,9 +4901,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Doplň správný člen v dativu/akuzativu podle významu věty.
 
 OWNER note:
 
@@ -4907,11 +4940,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Doplň správný člen v dativu.
 
 OWNER note:
+Stejný OWNER NEW pro #127–#133.
 
 ---
 
@@ -4944,9 +4979,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Doplň správný člen v dativu.
 
 OWNER note:
 
@@ -4981,9 +5017,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Doplň správný člen v dativu.
 
 OWNER note:
 
@@ -5018,9 +5055,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Doplň správný člen v dativu.
 
 OWNER note:
 
@@ -5055,9 +5093,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Doplň správný člen v dativu.
 
 OWNER note:
 
@@ -5092,9 +5131,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Doplň správný člen v dativu.
 
 OWNER note:
 
@@ -5129,9 +5169,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Doplň správný člen v dativu.
 
 OWNER note:
 
@@ -5166,9 +5207,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Doplň správný člen v dativu.
 
 OWNER note:
 
@@ -5204,11 +5246,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Převeď do množného čísla.
 
 OWNER note:
+Stejný OWNER NEW pro #135.
 
 ---
 
@@ -5241,9 +5285,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Převeď do množného čísla.
 
 OWNER note:
 
@@ -5277,11 +5322,12 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: FALSE_POSITIVE
 
 OWNER NEW:
 
 OWNER note:
+„Přeložit“ je korektní český název sekce (LV Pārtulko).
 
 ---
 
@@ -5313,11 +5359,12 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: NELABOT
 
 OWNER NEW:
 
 OWNER note:
+SOURCE_DE_ISSUE: německý dialog v CS kurzu záměrný; DE neměněn.
 
 ---
 
@@ -5350,9 +5397,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Dieser (dízer) — tento
 
 OWNER note:
 
@@ -5387,9 +5435,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Jener (jéner) — ten
 
 OWNER note:
 
@@ -5425,11 +5474,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Ukazovací zájmena
 
 OWNER note:
+Sdílený target s #141.
 
 ---
 
@@ -5461,11 +5512,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Ukazovací zájmena
 
 OWNER note:
+DE_PARITY_ISSUE: CS heading opraven společně s #140; DE neměněn.
 
 ---
 
@@ -5497,11 +5550,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Ukazovací zájmena dieser a jener se skloňují podobně jako určitý člen.
 
 OWNER note:
+Sdílený target s #143.
 
 ---
 
@@ -5533,11 +5588,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Ukazovací zájmena dieser a jener se skloňují podobně jako určitý člen.
 
 OWNER note:
+DE_PARITY_ISSUE: CS text opraven společně s #142; DE neměněn.
 
 ---
 
@@ -5568,9 +5625,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Jednotné číslo
 
 OWNER note:
 
@@ -5604,11 +5662,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Člen se nepoužívá
 
 OWNER note:
+Sdílený target s #146.
 
 ---
 
@@ -5640,11 +5700,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Člen se nepoužívá
 
 OWNER note:
+DE_PARITY_ISSUE: CS heading opraven společně s #145; DE neměněn.
 
 ---
 
@@ -5676,11 +5738,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Pokud před podstatným jménem stojí zájmeno nebo číslovka, člen se nepoužívá.
 
 OWNER note:
+Sdílený target s #148.
 
 ---
 
@@ -5712,11 +5776,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Pokud před podstatným jménem stojí zájmeno nebo číslovka, člen se nepoužívá.
 
 OWNER note:
+DE_PARITY_ISSUE: CS text opraven společně s #147; DE neměněn.
 
 ---
 
@@ -5748,11 +5814,12 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: NELABOT
 
 OWNER NEW:
 
 OWNER note:
+Kurz konzistentně používá „Přednáška“ (shodně s ostatními lekcemi).
 
 ---
 
@@ -5784,11 +5851,12 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: NELABOT
 
 OWNER NEW:
 
 OWNER note:
+DE_PARITY_ISSUE dokumentováno; stejný důvod jako #149 — Přednáška konvence.
 
 ---
 
