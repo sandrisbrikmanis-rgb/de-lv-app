@@ -1,0 +1,83 @@
+{
+  "batch": "study-0001-0010",
+  "cardIds": [
+    "b2-sich-abfinden",
+    "b2-sich-abwenden",
+    "b2-sich-befassen",
+    "b2-sich-begnuegen",
+    "b2-sich-bemaechtigen",
+    "b2-sich-berufen",
+    "b2-sich-beschraenken",
+    "b2-sich-betaetigen",
+    "b2-sich-einlassen",
+    "b2-sich-einpraegen"
+  ],
+  "findings": [
+    {
+      "cardId": "b2-sich-bemaechtigen",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-berufen",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-betaetigen",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-einlassen",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-einpraegen",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 5
+}

@@ -1,0 +1,57 @@
+{
+  "batch": "study-0011-0020",
+  "cardIds": [
+    "b2-sich-einschleichen",
+    "b2-sich-einschraenken",
+    "b2-sich-empfehlen",
+    "b2-sich-empoeren",
+    "b2-sich-enthalten",
+    "b2-sich-entledigen",
+    "b2-sich-entruesten",
+    "b2-sich-entsinnen",
+    "b2-sich-erbarmen",
+    "b2-sich-ergeben"
+  ],
+  "findings": [
+    {
+      "cardId": "b2-sich-einschleichen",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-empoeren",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-entruesten",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 7
+}
