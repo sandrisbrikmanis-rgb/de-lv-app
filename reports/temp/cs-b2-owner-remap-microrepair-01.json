@@ -1,0 +1,508 @@
+{
+  "summary": {
+    "verdict": "CS–DE B2 CARD_NOT_FOUND CLOSURE = PASS / 25/25 RESOLVED / READY FOR TARGETED REGRESSION",
+    "input": {
+      "reconciliationTotal": 25,
+      "remapSafe": 1,
+      "ownerReviewCurrentMismatch": 2,
+      "confirmedAbsent": 22
+    },
+    "apply": {
+      "requested": 3,
+      "processed": 3,
+      "applied": 3,
+      "mismatch": 0,
+      "notFound": 0
+    },
+    "scopeExclusions": {
+      "total": 22,
+      "closureStatus": "OWNER_CONFIRMED_REMOVE_FROM_SCOPE"
+    },
+    "integrity": {
+      "DE READ-ONLY": "PASS",
+      "syntax": "PASS",
+      "ID/order": "PASS",
+      "card count": "2118/2118",
+      "mirror parity": "PASS",
+      "deChanges": 0,
+      "unexpectedChanges": 0
+    },
+    "postChecks": [
+      {
+        "cardId": "b2-Geständnis-962",
+        "field": "csText",
+        "expected": "Přiznání",
+        "pass": true,
+        "actual": "Přiznání"
+      },
+      {
+        "cardId": "b2-Hypothek-1154",
+        "field": "csText",
+        "expected": "Hypotéka • Zástavní právo",
+        "pass": true,
+        "actual": "Hypotéka • Zástavní právo"
+      },
+      {
+        "cardId": "b2-Gespött-959",
+        "field": "csText",
+        "expected": "Posměch • Terč posměchu",
+        "pass": true,
+        "actual": "Posměch • Terč posměchu"
+      }
+    ],
+    "pass": true
+  },
+  "applyResults": [
+    {
+      "originalCardId": "b2-Geständnis-955",
+      "cardId": "b2-Geständnis-962",
+      "field": "csText",
+      "current": "Zpověď",
+      "newVal": "Přiznání",
+      "ownerDecision": "REMAP_SAFE",
+      "status": "APPLIED",
+      "actualCurrent": "Zpověď"
+    },
+    {
+      "originalCardId": "b2-Hypothek-1152",
+      "cardId": "b2-Hypothek-1154",
+      "field": "csText",
+      "current": "Hypotéka",
+      "newVal": "Hypotéka • Zástavní právo",
+      "ownerDecision": "OWNER_REVIEW_CURRENT_MISMATCH_APPROVED",
+      "status": "APPLIED",
+      "actualCurrent": "Hypotéka"
+    },
+    {
+      "originalCardId": "b2-Gespött-952",
+      "cardId": "b2-Gespött-959",
+      "field": "csText",
+      "current": "Prořezávání zoubků",
+      "newVal": "Posměch • Terč posměchu",
+      "ownerDecision": "OWNER_REVIEW_CURRENT_MISMATCH_APPROVED",
+      "status": "APPLIED",
+      "actualCurrent": "Prořezávání zoubků"
+    }
+  ],
+  "scopeExclusions": [
+    {
+      "sourceFile": "cs-b2-repair-group19-cards-901-950_674d.md",
+      "group": "Group 19",
+      "originalCardId": "b2-Geldentwertung-902",
+      "de": "Geldentwertung",
+      "field": "csText",
+      "current": "Znehodnocení peněz",
+      "new": "Znehodnocení měny",
+      "matchStatus": "CONFIRMED_ABSENT",
+      "productionCardId": "",
+      "actualCurrent": "",
+      "currentMatches": false,
+      "candidateIds": [
+        "b2-Entwertung-648"
+      ],
+      "diagnosticCandidates": [
+        {
+          "index": 648,
+          "cardId": "b2-Entwertung-648",
+          "de": "Entwertung",
+          "reasons": [
+            "partial_id"
+          ]
+        }
+      ],
+      "ownerAction": "REMOVE_FROM_SCOPE_CONFIRMED_ABSENT",
+      "closureStatus": "OWNER_CONFIRMED_REMOVE_FROM_SCOPE"
+    },
+    {
+      "sourceFile": "cs-b2-repair-group19-cards-901-950_674d.md",
+      "group": "Group 19",
+      "originalCardId": "b2-Geldschein-903",
+      "de": "Geldschein",
+      "field": "csText",
+      "current": "Bankovka • Bankovka",
+      "new": "Bankovka • Papírové platidlo",
+      "matchStatus": "CONFIRMED_ABSENT",
+      "productionCardId": "",
+      "actualCurrent": "",
+      "currentMatches": false,
+      "candidateIds": [],
+      "diagnosticCandidates": [],
+      "ownerAction": "REMOVE_FROM_SCOPE_CONFIRMED_ABSENT",
+      "closureStatus": "OWNER_CONFIRMED_REMOVE_FROM_SCOPE"
+    },
+    {
+      "sourceFile": "cs-b2-repair-group19-cards-901-950_674d.md",
+      "group": "Group 19",
+      "originalCardId": "b2-Gelege-906",
+      "de": "Gelege",
+      "field": "csText",
+      "current": "Zdivo",
+      "new": "Snůška vajec",
+      "matchStatus": "CONFIRMED_ABSENT",
+      "productionCardId": "",
+      "actualCurrent": "",
+      "currentMatches": false,
+      "candidateIds": [
+        "b2-gelegen-908"
+      ],
+      "diagnosticCandidates": [
+        {
+          "index": 908,
+          "cardId": "b2-gelegen-908",
+          "de": "gelegen",
+          "reasons": [
+            "partial_id"
+          ]
+        }
+      ],
+      "ownerAction": "REMOVE_FROM_SCOPE_CONFIRMED_ABSENT",
+      "closureStatus": "OWNER_CONFIRMED_REMOVE_FROM_SCOPE"
+    },
+    {
+      "sourceFile": "cs-b2-repair-group20-cards-951-1000_f74a.md",
+      "group": "Group 20",
+      "originalCardId": "b2-Gespinst-951",
+      "de": "Gespinst",
+      "field": "csText",
+      "current": "Pletení • Síť",
+      "new": "Předivo • Pavučina",
+      "matchStatus": "CONFIRMED_ABSENT",
+      "productionCardId": "",
+      "actualCurrent": "",
+      "currentMatches": false,
+      "candidateIds": [],
+      "diagnosticCandidates": [],
+      "ownerAction": "REMOVE_FROM_SCOPE_CONFIRMED_ABSENT",
+      "closureStatus": "OWNER_CONFIRMED_REMOVE_FROM_SCOPE"
+    },
+    {
+      "sourceFile": "cs-b2-repair-group20-cards-951-1000_f74a.md",
+      "group": "Group 20",
+      "originalCardId": "b2-Gestade-954",
+      "de": "Gestade",
+      "field": "csText",
+      "current": "Pobřeží • Pobřeží",
+      "new": "Břeh • Pobřeží",
+      "matchStatus": "CONFIRMED_ABSENT",
+      "productionCardId": "",
+      "actualCurrent": "",
+      "currentMatches": false,
+      "candidateIds": [],
+      "diagnosticCandidates": [],
+      "ownerAction": "REMOVE_FROM_SCOPE_CONFIRMED_ABSENT",
+      "closureStatus": "OWNER_CONFIRMED_REMOVE_FROM_SCOPE"
+    },
+    {
+      "sourceFile": "cs-b2-repair-group20-cards-951-1000_f74a.md",
+      "group": "Group 20",
+      "originalCardId": "b2-Gestank-957",
+      "de": "Gestank",
+      "field": "csText",
+      "current": "Zápach • Zápach",
+      "new": "Smrad • Zápach",
+      "matchStatus": "CONFIRMED_ABSENT",
+      "productionCardId": "",
+      "actualCurrent": "",
+      "currentMatches": false,
+      "candidateIds": [],
+      "diagnosticCandidates": [],
+      "ownerAction": "REMOVE_FROM_SCOPE_CONFIRMED_ABSENT",
+      "closureStatus": "OWNER_CONFIRMED_REMOVE_FROM_SCOPE"
+    },
+    {
+      "sourceFile": "cs-b2-repair-group24-cards-1151-1200_7f79.md",
+      "group": "Group 24",
+      "originalCardId": "b2-Illusion-1154",
+      "de": "Illusion",
+      "field": "csText",
+      "current": "Iluze • Iluze",
+      "new": "Iluze • Klamná představa",
+      "matchStatus": "CONFIRMED_ABSENT",
+      "productionCardId": "",
+      "actualCurrent": "",
+      "currentMatches": false,
+      "candidateIds": [],
+      "diagnosticCandidates": [],
+      "ownerAction": "REMOVE_FROM_SCOPE_CONFIRMED_ABSENT",
+      "closureStatus": "OWNER_CONFIRMED_REMOVE_FROM_SCOPE"
+    },
+    {
+      "sourceFile": "cs-b2-repair-group24-cards-1151-1200_7f79.md",
+      "group": "Group 24",
+      "originalCardId": "b2-Imker-1156",
+      "de": "Imker",
+      "field": "csText",
+      "current": "Včelař • Včelař",
+      "new": "Včelař • Chovatel včel",
+      "matchStatus": "CONFIRMED_ABSENT",
+      "productionCardId": "",
+      "actualCurrent": "",
+      "currentMatches": false,
+      "candidateIds": [],
+      "diagnosticCandidates": [],
+      "ownerAction": "REMOVE_FROM_SCOPE_CONFIRMED_ABSENT",
+      "closureStatus": "OWNER_CONFIRMED_REMOVE_FROM_SCOPE"
+    },
+    {
+      "sourceFile": "cs-b2-repair-group24-cards-1151-1200_7f79.md",
+      "group": "Group 24",
+      "originalCardId": "b2-Import-1158",
+      "de": "Import",
+      "field": "csText",
+      "current": "Importovat • Importovat",
+      "new": "Import • Dovoz",
+      "matchStatus": "CONFIRMED_ABSENT",
+      "productionCardId": "",
+      "actualCurrent": "",
+      "currentMatches": false,
+      "candidateIds": [],
+      "diagnosticCandidates": [],
+      "ownerAction": "REMOVE_FROM_SCOPE_CONFIRMED_ABSENT",
+      "closureStatus": "OWNER_CONFIRMED_REMOVE_FROM_SCOPE"
+    },
+    {
+      "sourceFile": "cs-b2-repair-group24-cards-1151-1200_7f79.md",
+      "group": "Group 24",
+      "originalCardId": "b2-importieren-1159",
+      "de": "importieren",
+      "field": "csText",
+      "current": "Dovážet • Dovážet",
+      "new": "Importovat • Dovážet",
+      "matchStatus": "CONFIRMED_ABSENT",
+      "productionCardId": "",
+      "actualCurrent": "",
+      "currentMatches": false,
+      "candidateIds": [],
+      "diagnosticCandidates": [],
+      "ownerAction": "REMOVE_FROM_SCOPE_CONFIRMED_ABSENT",
+      "closureStatus": "OWNER_CONFIRMED_REMOVE_FROM_SCOPE"
+    },
+    {
+      "sourceFile": "cs-b2-repair-group24-cards-1151-1200_7f79.md",
+      "group": "Group 24",
+      "originalCardId": "b2-Industrieausrüstung-1162",
+      "de": "Industrieausrüstung",
+      "field": "csText",
+      "current": "Průmyslové zařízení • Průmyslové zařízení",
+      "new": "Průmyslové zařízení • Průmyslová výbava",
+      "matchStatus": "CONFIRMED_ABSENT",
+      "productionCardId": "",
+      "actualCurrent": "",
+      "currentMatches": false,
+      "candidateIds": [],
+      "diagnosticCandidates": [],
+      "ownerAction": "REMOVE_FROM_SCOPE_CONFIRMED_ABSENT",
+      "closureStatus": "OWNER_CONFIRMED_REMOVE_FROM_SCOPE"
+    },
+    {
+      "sourceFile": "cs-b2-repair-group24-cards-1151-1200_7f79.md",
+      "group": "Group 24",
+      "originalCardId": "b2-Industrieware-1163",
+      "de": "Industrieware",
+      "field": "csText",
+      "current": "Průmyslové zboží • Průmyslové zboží",
+      "new": "Průmyslové zboží • Průmyslový výrobek",
+      "matchStatus": "CONFIRMED_ABSENT",
+      "productionCardId": "",
+      "actualCurrent": "",
+      "currentMatches": false,
+      "candidateIds": [],
+      "diagnosticCandidates": [],
+      "ownerAction": "REMOVE_FROM_SCOPE_CONFIRMED_ABSENT",
+      "closureStatus": "OWNER_CONFIRMED_REMOVE_FROM_SCOPE"
+    },
+    {
+      "sourceFile": "cs-b2-repair-group24-cards-1151-1200_7f79.md",
+      "group": "Group 24",
+      "originalCardId": "b2-inhaltslos-1165",
+      "de": "inhaltslos",
+      "field": "csText",
+      "current": "Prázdný • Bezvýznamný",
+      "new": "Obsahově prázdný • Bezobsažný",
+      "matchStatus": "CONFIRMED_ABSENT",
+      "productionCardId": "",
+      "actualCurrent": "",
+      "currentMatches": false,
+      "candidateIds": [],
+      "diagnosticCandidates": [],
+      "ownerAction": "REMOVE_FROM_SCOPE_CONFIRMED_ABSENT",
+      "closureStatus": "OWNER_CONFIRMED_REMOVE_FROM_SCOPE"
+    },
+    {
+      "sourceFile": "cs-b2-repair-group24-cards-1151-1200_7f79.md",
+      "group": "Group 24",
+      "originalCardId": "b2-Inland-1166",
+      "de": "Inland",
+      "field": "csText",
+      "current": "Domácí • Vnitrozemí",
+      "new": "Tuzemsko • Vnitrozemí",
+      "matchStatus": "CONFIRMED_ABSENT",
+      "productionCardId": "",
+      "actualCurrent": "",
+      "currentMatches": false,
+      "candidateIds": [],
+      "diagnosticCandidates": [],
+      "ownerAction": "REMOVE_FROM_SCOPE_CONFIRMED_ABSENT",
+      "closureStatus": "OWNER_CONFIRMED_REMOVE_FROM_SCOPE"
+    },
+    {
+      "sourceFile": "cs-b2-repair-group24-cards-1151-1200_7f79.md",
+      "group": "Group 24",
+      "originalCardId": "b2-Innenminister-1167",
+      "de": "Innenminister",
+      "field": "csText",
+      "current": "Ministr vnitra • Ministr vnitra",
+      "new": "Ministr vnitra • Šéf resortu vnitra",
+      "matchStatus": "CONFIRMED_ABSENT",
+      "productionCardId": "",
+      "actualCurrent": "",
+      "currentMatches": false,
+      "candidateIds": [],
+      "diagnosticCandidates": [],
+      "ownerAction": "REMOVE_FROM_SCOPE_CONFIRMED_ABSENT",
+      "closureStatus": "OWNER_CONFIRMED_REMOVE_FROM_SCOPE"
+    },
+    {
+      "sourceFile": "cs-b2-repair-group24-cards-1151-1200_7f79.md",
+      "group": "Group 24",
+      "originalCardId": "b2-Insektenvertilgungsmittel-1169",
+      "de": "Insektenvertilgungsmittel",
+      "field": "csText",
+      "current": "Hubič hmyzu",
+      "new": "Prostředek na hubení hmyzu • Insekticid",
+      "matchStatus": "CONFIRMED_ABSENT",
+      "productionCardId": "",
+      "actualCurrent": "",
+      "currentMatches": false,
+      "candidateIds": [],
+      "diagnosticCandidates": [],
+      "ownerAction": "REMOVE_FROM_SCOPE_CONFIRMED_ABSENT",
+      "closureStatus": "OWNER_CONFIRMED_REMOVE_FROM_SCOPE"
+    },
+    {
+      "sourceFile": "cs-b2-repair-group24-cards-1151-1200_7f79.md",
+      "group": "Group 24",
+      "originalCardId": "b2-Intensivhaltung-1171",
+      "de": "Intensivhaltung",
+      "field": "csText",
+      "current": "Intenzivní chov hospodářských zvířat",
+      "new": "Intenzivní chov zvířat",
+      "matchStatus": "CONFIRMED_ABSENT",
+      "productionCardId": "",
+      "actualCurrent": "",
+      "currentMatches": false,
+      "candidateIds": [
+        "b2-Haltung-1059"
+      ],
+      "diagnosticCandidates": [
+        {
+          "index": 1059,
+          "cardId": "b2-Haltung-1059",
+          "de": "Haltung",
+          "reasons": [
+            "partial_id"
+          ]
+        }
+      ],
+      "ownerAction": "REMOVE_FROM_SCOPE_CONFIRMED_ABSENT",
+      "closureStatus": "OWNER_CONFIRMED_REMOVE_FROM_SCOPE"
+    },
+    {
+      "sourceFile": "cs-b2-repair-group24-cards-1151-1200_7f79.md",
+      "group": "Group 24",
+      "originalCardId": "b2-internieren-1173",
+      "de": "internieren",
+      "field": "csText",
+      "current": "Internovat • Internovat",
+      "new": "Internovat • Držet v internaci",
+      "matchStatus": "CONFIRMED_ABSENT",
+      "productionCardId": "",
+      "actualCurrent": "",
+      "currentMatches": false,
+      "candidateIds": [],
+      "diagnosticCandidates": [],
+      "ownerAction": "REMOVE_FROM_SCOPE_CONFIRMED_ABSENT",
+      "closureStatus": "OWNER_CONFIRMED_REMOVE_FROM_SCOPE"
+    },
+    {
+      "sourceFile": "cs-b2-repair-group24-cards-1151-1200_7f79.md",
+      "group": "Group 24",
+      "originalCardId": "b2-Intrige-1176",
+      "de": "Intrige",
+      "field": "csText",
+      "current": "Intriky • Intriky",
+      "new": "Intrika • Pleticha",
+      "matchStatus": "CONFIRMED_ABSENT",
+      "productionCardId": "",
+      "actualCurrent": "",
+      "currentMatches": false,
+      "candidateIds": [],
+      "diagnosticCandidates": [],
+      "ownerAction": "REMOVE_FROM_SCOPE_CONFIRMED_ABSENT",
+      "closureStatus": "OWNER_CONFIRMED_REMOVE_FROM_SCOPE"
+    },
+    {
+      "sourceFile": "cs-b2-repair-group24-cards-1151-1200_7f79.md",
+      "group": "Group 24",
+      "originalCardId": "b2-Irrtum-1178",
+      "de": "Irrtum",
+      "field": "csText",
+      "current": "Chyba • Chyba • Mylná představa",
+      "new": "Omyl • Chyba • Mylná představa",
+      "matchStatus": "CONFIRMED_ABSENT",
+      "productionCardId": "",
+      "actualCurrent": "",
+      "currentMatches": false,
+      "candidateIds": [],
+      "diagnosticCandidates": [],
+      "ownerAction": "REMOVE_FROM_SCOPE_CONFIRMED_ABSENT",
+      "closureStatus": "OWNER_CONFIRMED_REMOVE_FROM_SCOPE"
+    },
+    {
+      "sourceFile": "cs-b2-repair-group24-cards-1151-1200_7f79.md",
+      "group": "Group 24",
+      "originalCardId": "b2-Jauche-1180",
+      "de": "Jauche",
+      "field": "csText",
+      "current": "Močůvka • Močůvka",
+      "new": "Kejda • Močůvka",
+      "matchStatus": "CONFIRMED_ABSENT",
+      "productionCardId": "",
+      "actualCurrent": "",
+      "currentMatches": false,
+      "candidateIds": [],
+      "diagnosticCandidates": [],
+      "ownerAction": "REMOVE_FROM_SCOPE_CONFIRMED_ABSENT",
+      "closureStatus": "OWNER_CONFIRMED_REMOVE_FROM_SCOPE"
+    },
+    {
+      "sourceFile": "cs-b2-repair-group24-cards-1151-1200_7f79.md",
+      "group": "Group 24",
+      "originalCardId": "b2-Joch-1181",
+      "de": "Joch",
+      "field": "csText",
+      "current": "Jho • Jho",
+      "new": "Jho • Jařmo",
+      "matchStatus": "CONFIRMED_ABSENT",
+      "productionCardId": "",
+      "actualCurrent": "",
+      "currentMatches": false,
+      "candidateIds": [
+        "b2-unterjochen-1842"
+      ],
+      "diagnosticCandidates": [
+        {
+          "index": 1842,
+          "cardId": "b2-unterjochen-1842",
+          "de": "unterjochen",
+          "reasons": [
+            "partial_id"
+          ]
+        }
+      ],
+      "ownerAction": "REMOVE_FROM_SCOPE_CONFIRMED_ABSENT",
+      "closureStatus": "OWNER_CONFIRMED_REMOVE_FROM_SCOPE"
+    }
+  ],
+  "unexpected": []
+}

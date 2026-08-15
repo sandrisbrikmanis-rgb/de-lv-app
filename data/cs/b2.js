@@ -6252,7 +6252,7 @@ const B2_WORDS = [
   {
     "de": "Gespött",
     "de_article": "das",
-    "lv": "Prořezávání zoubků",
+    "lv": "Posměch • Terč posměchu",
     "level": "B2"
   },
   {
@@ -6289,7 +6289,7 @@ const B2_WORDS = [
     "de": "Geständnis",
     "de_article": "das",
     "de_plural": "die Geständnisse",
-    "lv": "Zpověď",
+    "lv": "Přiznání",
     "level": "B2"
   },
   {
@@ -7947,7 +7947,7 @@ const B2_WORDS = [
     "de": "Hypothek",
     "de_article": "die",
     "de_plural": "die Hypotheken",
-    "lv": "Hypotéka",
+    "lv": "Hypotéka • Zástavní právo",
     "level": "B2"
   },
   {
