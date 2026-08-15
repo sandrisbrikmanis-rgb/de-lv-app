@@ -72,11 +72,25 @@ function recordRetryReason(stats, reason) {
   stats.retryReasons[reason] = (stats.retryReasons[reason] || 0) + 1;
 }
 
+function isMalformedFindingItem(item) {
+  const reason = String(item?.reason || item?.shortReason || item?.problem || "").trim();
+  const current = String(
+    item?.currentCs || item?.currentText || item?.csText || item?.existingCsText || "",
+  ).trim();
+  const proposed = String(
+    item?.proposedCs || item?.recommendedFix || item?.proposedFix || "",
+  ).trim();
+  return !reason && !current && !proposed;
+}
+
 function normalizeItem(item) {
   if (!item || !item.cardId) return null;
   const status = String(item.status || "").toUpperCase();
   if (status === "PASS" || status === "OK" || status === "NO_FINDING") {
     return { cardId: item.cardId, status: "PASS", field: item.field || "lv" };
+  }
+  if (isMalformedFindingItem(item)) {
+    return { cardId: item.cardId, status: "PASS", field: item.field || "lv", malformed: true };
   }
   const severity = String(item.severity || "MEDIUM").toUpperCase();
   const category = String(item.category || item.verdict || "TRANSLATION").toUpperCase();

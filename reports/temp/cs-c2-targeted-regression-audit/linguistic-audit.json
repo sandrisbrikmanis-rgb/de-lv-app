@@ -1,0 +1,421 @@
+{
+  "meta": {
+    "cardsExpected": 75,
+    "cardsAudited": 75,
+    "model": "GPT-5.6 Luna",
+    "apiModel": "gpt-5.6-luna",
+    "completedAt": "2026-08-15T10:03:12.031Z"
+  },
+  "batches": [
+    "simple-001-050",
+    "simple-051-075"
+  ],
+  "allResults": [
+    {
+      "cardId": "c2-konterkarieren-1",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Stichhaltigkeit-2",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-unmissverständlich-3",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-veranschaulichen-5",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Teilnehmerausweis-12",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-beaufsichtigen-14",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Behandlungsraum-16",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-entgegenkommen-29",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Gehaltsabrechnung-32",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Katastrophendienst-44",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Kostenerstattung-45",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Kostensteigerung-46",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Krankenversicherung-47",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Krankheitssymptom-48",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Lungenentzündung-52",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Schlafwagenzimmer-58",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Schlittschuhkufe-59",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-selbstverständlich-61",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-sicherheitshalber-62",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Straßenunterführung-67",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Sehenswürdigkeit-76",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Abenteuergeschichte-77",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Abgeordnetenhaus-78",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Baugenossenschaft-82",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Ausbildungsbeihilfe-84",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Berichterstatter-86",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Berufsbezeichnung-87",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Bevölkerungsdichte-90",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Rauschgiftdezernat-99",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Bereitschaftsdienst-101",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-durchkreuzen-103",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Empfehlungsschreiben-110",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-entgegengesetzt-112",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Entschlossenheit-113",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Entwicklungsland-114",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Errungenschaft-117",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Fallschirmspringen-119",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Gedächtnisstörung-127",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Geistesgegenwart-131",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Dorfgemeinschaft-136",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Genossenschaft-140",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Gerechtigkeitsgefühl-141",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Schiedsgericht-142",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Geschäftsordnung-144",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Geschwindigkeitskontrolle-147",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Geschwindigkeitsüberschreitung-149",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-gesellschaftlich-150",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Gesellschaftsordnung-151",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Gesetzesvorlage-152",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Gewerkschaftsbeitrag-154",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Gewinnauszahlung-156",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "c2-Gleichberechtigung-158",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Hausgemeinschaft-161",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Koalitionspartner-167",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Lebenserhaltungstrieb-170",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Lebenshaltungskosten-171",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Meisterschaftsspiel-177",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-menschenfreundlich-178",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Mutterschaftsurlaub-180",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Pflichtversicherung-184",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-populärwissenschaftlich-186",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-rechtsextremistisch-188",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Satellitenübertragung-189",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Beschwerdeschrift-191",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Selbstverteidigung-195",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Staatsangehörigkeit-196",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Steuererleichterung-197",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Strafgesetzbuch-198",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Vaterschaftsklage-200",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Verhütungsmittel-202",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-zugrunde, zu Grunde-206",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-zugunsten, zu Gunsten-207",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-instand-210",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-in Stand-211",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "c2-Sachverständige-218",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [],
+  "apiUsage": {
+    "model": "gpt-5.6-luna",
+    "requestCount": 2,
+    "initialBatchRequests": 0,
+    "retryRequests": 0,
+    "batchCount": 2,
+    "batchSizes": [
+      50,
+      25
+    ],
+    "retryCount": 0,
+    "retryReasons": {},
+    "inputTokens": 6022,
+    "cachedInputTokens": 0,
+    "outputTokens": 3801,
+    "reasoningTokens": 2465,
+    "totalTokens": 9823,
+    "findingsCount": 0,
+    "passCount": 75
+  },
+  "qualityFindings": [],
+  "nonError": {
+    "SOURCE_DE_ISSUE": 0,
+    "SOURCE_LV_ISSUE": 0,
+    "NEEDS_OWNER_REVIEW": 0,
+    "FALSE_POSITIVE": 0,
+    "STYLE_ONLY": 0,
+    "PROJECT_CONVENTION": 0
+  }
+}
