@@ -8480,7 +8480,7 @@ const A1_WORDS = [
         },
         {
           "de": "Das Haus ist groß.",
-          "lv": "Dům je velký."
+          "lv": "Berlín je velké město."
         },
         {
           "de": "Er ist groß.",
