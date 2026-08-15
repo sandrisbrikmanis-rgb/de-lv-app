@@ -5706,9 +5706,9 @@ Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.
 Vysvětlení pomocí dvou následujících souhlásek je zde použitelné, ale jako obecné pravidlo je příliš zjednodušené a může vést k chybnému zobecnění.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově Äpfel se ä vyslovuje krátce; následují po něm dvě souhlásky, což zde odpovídá běžnému pravopisnému vodítku.
+**OWNER note:** Same target as #199–200 (batch 151–200); OWNER review accounted.
 
 ---
 
@@ -5734,9 +5734,9 @@ Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.
 Text je v lotyštině, nikoli v češtině.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově schälen se ä vyslovuje dlouze; následuje po něm jedna souhláska, což zde odpovídá běžnému pravopisnému vodítku.
+**OWNER note:** OWNER — pravopisné vodítko, ne absolūts „1 līdzskanis = garš“ likums.
 
 ---
 
@@ -5762,9 +5762,9 @@ Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově schälen se ä vyslovuje dlouze; následuje po něm jedna souhláska, což zde odpovídá běžnému pravopisnému vodítku.
+**OWNER note:** Duplicate target — apply once (same as #202).
 
 ---
 
@@ -5790,9 +5790,9 @@ Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.
 Počet následujících souhlásek není spolehlivé obecné pravidlo pro délku německé samohlásky. Ve slově schälen je ä skutečně dlouhé, ale formulace by měla být prezentována jen jako pomůcka pro tento příklad.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově schälen se ä vyslovuje dlouze; následuje po něm jedna souhláska, což zde odpovídá běžnému pravopisnému vodítku.
+**OWNER note:** Duplicate target — apply once (same as #202).
 
 ---
 
@@ -5818,9 +5818,9 @@ Vārdā gern e ir īss un plats.
 Text je v lotyštině, nikoli v češtině.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově gern je e krátké a otevřené.
+**OWNER note:** 
 
 ---
 
@@ -5846,9 +5846,9 @@ Vārdā gern e ir īss un plats.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově gern je e krátké a otevřené.
+**OWNER note:** Duplicate target — apply once (same as #205).
 
 ---
 
@@ -5874,9 +5874,9 @@ Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif.
 Text je v lotyštině, nikoli v češtině.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Pamatuj: německá dvojhláska ei se vyslovuje přibližně jako české aj: reif, unreif.
+**OWNER note:** 
 
 ---
 
@@ -5902,9 +5902,9 @@ Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif.
 Latviešu atlikums (LV_WORD)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Pamatuj: německá dvojhláska ei se vyslovuje přibližně jako české aj: reif, unreif.
+**OWNER note:** Duplicate target — apply once (same as #207).
 
 ---
 
@@ -5930,9 +5930,9 @@ Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif.
 Pro český text je přirozenější a názornější zápis „aj“ než „ai“ při popisu přibližné výslovnosti.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Pamatuj: německá dvojhláska ei se vyslovuje přibližně jako české aj: reif, unreif.
+**OWNER note:** Duplicate target — apply once (same as #207).
 
 ---
 
@@ -5958,9 +5958,9 @@ Vārdos wem, dem, den, der — e ir garš un šaurs.
 Text je v lotyštině, nikoli v češtině.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slovech wem, dem, den a der je e dlouhé a vyslovuje se přibližně jako české é.
+**OWNER note:** 
 
 ---
 
@@ -5986,9 +5986,9 @@ Vārdos wem, dem, den, der — e ir garš un šaurs.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slovech wem, dem, den a der je e dlouhé a vyslovuje se přibližně jako české é.
+**OWNER note:** Duplicate target — apply once (same as #210).
 
 ---
 
@@ -6014,9 +6014,9 @@ Vārdā gehorchen h ir dzirdams: ge-hor-chen.
 Text je v lotyštině, nikoli v češtině.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově gehorchen se h vyslovuje: ge-hor-chen.
+**OWNER note:** 
 
 ---
 
@@ -6042,9 +6042,9 @@ Vārdā gehorchen h ir dzirdams: ge-hor-chen.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově gehorchen se h vyslovuje: ge-hor-chen.
+**OWNER note:** Duplicate target — apply once (same as #212).
 
 ---
 
@@ -6070,9 +6070,9 @@ die Wälder: ä izrunā kā šaurais īsais e.
 Text je v lotyštině, nikoli v češtině.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově die Wälder se ä vyslovuje jako krátké otevřené e.
+**OWNER note:** 
 
 ---
 
@@ -6098,9 +6098,9 @@ die Wälder: ä izrunā kā šaurais īsais e.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově die Wälder se ä vyslovuje jako krátké otevřené e.
+**OWNER note:** Duplicate target — apply once (same as #214).
 
 ---
 
@@ -6126,9 +6126,9 @@ die Wälder: ä izrunā kā šaurais īsais e.
 Přirovnání k „úzkému“ e je pro ä ve Wälder zavádějící. Jde o krátké otevřenější e.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově die Wälder se ä vyslovuje jako krátké otevřené e.
+**OWNER note:** Duplicate target — apply once (same as #214).
 
 ---
 
@@ -6154,9 +6154,9 @@ die Bäuerinnen: äu izrunā kā oi.
 Text je v lotyštině, nikoli v češtině.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově die Bäuerinnen se äu vyslovuje přibližně jako české oj.
+**OWNER note:** 
 
 ---
 
@@ -6182,9 +6182,9 @@ die Bäuerinnen: äu izrunā kā oi.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově die Bäuerinnen se äu vyslovuje přibližně jako české oj.
+**OWNER note:** Duplicate target — apply once (same as #217).
 
 ---
 
@@ -6210,9 +6210,9 @@ ie ir gar | apz | jums | die Wiese.
 Text je v lotyštině, nikoli v češtině.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově die Wiese se skupina ie vyslovuje jako dlouhé í.
+**OWNER note:** 
 
 ---
 
@@ -6238,9 +6238,9 @@ ie ir gar | apz | jums | die Wiese.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově die Wiese se skupina ie vyslovuje jako dlouhé í.
+**OWNER note:** Duplicate target — apply once (same as #219).
 
 ---
 
@@ -6266,9 +6266,9 @@ Vārdā werfen pirmais e ir plats: werfen.
 Text je v lotyštině, nikoli v češtině.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově werfen je první e krátké a otevřené.
+**OWNER note:** 
 
 ---
 
@@ -6294,9 +6294,9 @@ Vārdā werfen pirmais e ir plats: werfen.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově werfen je první e krátké a otevřené.
+**OWNER note:** Duplicate target — apply once (same as #221).
 
 ---
 
@@ -6322,9 +6322,9 @@ Vārdā wieder e ir plats: wieder.
 Text je v lotyštině, nikoli v češtině.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově wieder se skupina ie vyslovuje jako dlouhé í; koncovka -er se vyslovuje přibližně jako [ɐ].
+**OWNER note:** OWNER — ie garš í + -er ≈ [ɐ], ne Luna „koncové e“.
 
 ---
 
@@ -6350,9 +6350,9 @@ Vārdā wieder e ir plats: wieder.
 Není jasné, které e má být „široké“. Pokud jde o první e ve skupině ie, tvrzení je foneticky nesprávné: ie se ve wieder vyslovuje jako dlouhé [í]. Koncové e je redukované [ə], nikoli široké e.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově wieder se skupina ie vyslovuje jako dlouhé í; koncovka -er se vyslovuje přibližně jako [ɐ].
+**OWNER note:** Duplicate target — apply once (same as #223).
 
 ---
 
@@ -6378,9 +6378,9 @@ Vārdā wieder e ir plats: wieder.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově wieder se skupina ie vyslovuje jako dlouhé í; koncovka -er se vyslovuje přibližně jako [ɐ].
+**OWNER note:** Duplicate target — apply once (same as #223).
 
 ---
 
@@ -6406,9 +6406,9 @@ Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Diele.
 Text je v lotyštině, nikoli v češtině.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slovech wieder a die Diele se skupina ie vyslovuje jako dlouhé í.
+**OWNER note:** 
 
 ---
 
@@ -6434,9 +6434,9 @@ Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Diele.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slovech wieder a die Diele se skupina ie vyslovuje jako dlouhé í.
+**OWNER note:** Duplicate target — apply once (same as #226).
 
 ---
 
@@ -6462,9 +6462,9 @@ Vārdā der Spaten sp izrunā kā šp: der Spaten.
 Text je v lotyštině, nikoli v češtině.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Na začátku slova Spaten se skupina sp vyslovuje jako šp.
+**OWNER note:** 
 
 ---
 
@@ -6490,9 +6490,9 @@ Vārdā der Spaten sp izrunā kā šp: der Spaten.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Na začátku slova Spaten se skupina sp vyslovuje jako šp.
+**OWNER note:** Duplicate target — apply once (same as #228).
 
 ---
 
@@ -6518,9 +6518,9 @@ Vārdā wohin h ir dzirdams: wo-hin.
 Text is in Latvian, not Czech, and is therefore not suitable for Czech learners.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově wohin se h vyslovuje: wo-hin.
+**OWNER note:** 
 
 ---
 
@@ -6546,9 +6546,9 @@ Vārdā wohin h ir dzirdams: wo-hin.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově wohin se h vyslovuje: wo-hin.
+**OWNER note:** Duplicate target — apply once (same as #230).
 
 ---
 
@@ -6574,9 +6574,9 @@ Vārdā wo o ir garš: wo.
 Text is in Latvian, not Czech, and is therefore not suitable for Czech learners.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově wo je o dlouhé.
+**OWNER note:** 
 
 ---
 
@@ -6602,9 +6602,9 @@ Vārdā wo o ir garš: wo.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově wo je o dlouhé.
+**OWNER note:** Duplicate target — apply once (same as #232).
 
 ---
 
@@ -6630,9 +6630,9 @@ Vārdā vor o izrunā gari.
 Text is in Latvian, not Czech, and is therefore not suitable for Czech learners.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově vor se o vyslovuje dlouze.
+**OWNER note:** 
 
 ---
 
@@ -6658,9 +6658,9 @@ Vārdā vor o izrunā gari.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově vor se o vyslovuje dlouze.
+**OWNER note:** Duplicate target — apply once (same as #234).
 
 ---
 
@@ -6686,9 +6686,9 @@ Vārdā hinter h ir dzirdams, un e ir plats.
 Text is in Latvian, not Czech, and is therefore not suitable for Czech learners.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově hinter se h vyslovuje, i je krátké a koncovka -er se vyslovuje přibližně jako [ɐ].
+**OWNER note:** OWNER — i īss + -er ≈ [ɐ], ne Luna „koncové e“.
 
 ---
 
@@ -6714,9 +6714,9 @@ Vārdā hinter h ir dzirdams, un e ir plats.
 German hinter contains i, not a broad e. The final e is a reduced schwa [ə], while the first vowel is short [ɪ]. The current statement about e being broad is phonetically wrong.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově hinter se h vyslovuje, i je krátké a koncovka -er se vyslovuje přibližně jako [ɐ].
+**OWNER note:** Duplicate target — apply once (same as #236).
 
 ---
 
@@ -6742,9 +6742,9 @@ Vārdā hinter h ir dzirdams, un e ir plats.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově hinter se h vyslovuje, i je krátké a koncovka -er se vyslovuje přibližně jako [ɐ].
+**OWNER note:** Duplicate target — apply once (same as #236).
 
 ---
 
@@ -6770,9 +6770,9 @@ Vārdā der Stuhl: st izrunā kā št; h ir garuma zīme un netiek izrunāts.
 Text is in Latvian, not Czech, and is therefore not suitable for Czech learners.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově der Stuhl se st vyslovuje jako št; h označuje délku předchozí samohlásky a nevyslovuje se.
+**OWNER note:** 
 
 ---
 
@@ -6798,9 +6798,9 @@ Vārdā der Stuhl: st izrunā kā št; h ir garuma zīme un netiek izrunāts.
 Latviešu atlikums (LV_PHRASE)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově der Stuhl se st vyslovuje jako št; h označuje délku předchozí samohlásky a nevyslovuje se.
+**OWNER note:** Duplicate target — apply once (same as #239).
 
 ---
 
@@ -6826,9 +6826,9 @@ Vārdā der Strauch: st izrunā kā št.
 Text is in Latvian, not Czech, and is therefore not suitable for Czech learners.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově der Strauch se st vyslovuje jako št.
+**OWNER note:** 
 
 ---
 
@@ -6854,9 +6854,9 @@ Vārdā der Strauch: st izrunā kā št.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově der Strauch se st vyslovuje jako št.
+**OWNER note:** Duplicate target — apply once (same as #241).
 
 ---
 
@@ -6882,9 +6882,9 @@ Vārdā wachsen: ch izrunā kā k.
 Text is in Latvian, not Czech, and is therefore not suitable for Czech learners.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově wachsen se skupina chs vyslovuje jako ks.
+**OWNER note:** OWNER — chs → ks, ne Luna ch → ks.
 
 ---
 
@@ -6910,9 +6910,9 @@ Vārdā wachsen: ch izrunā kā k.
 In German wachsen, the spelling ch represents [ks], not [k]. The current pronunciation rule is incorrect.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově wachsen se skupina chs vyslovuje jako ks.
+**OWNER note:** Duplicate target — apply once (same as #243).
 
 ---
 
@@ -6938,9 +6938,9 @@ Vārdā wachsen: ch izrunā kā k.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově wachsen se skupina chs vyslovuje jako ks.
+**OWNER note:** Duplicate target — apply once (same as #243).
 
 ---
 
@@ -6966,9 +6966,9 @@ Vārdos Stockwerk, Stein, Stadt, stecken: st izrunā kā št.
 Text is in Latvian, not Czech, and is therefore not suitable for Czech learners.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slovech Stockwerk, Stein, Stadt a stecken se počáteční st vyslovuje jako št.
+**OWNER note:** 
 
 ---
 
@@ -6994,9 +6994,9 @@ Vārdos Stockwerk, Stein, Stadt, stecken: st izrunā kā št.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slovech Stockwerk, Stein, Stadt a stecken se počáteční st vyslovuje jako št.
+**OWNER note:** Duplicate target — apply once (same as #246).
 
 ---
 
@@ -7022,9 +7022,9 @@ Vārdos der Ofen, der Boden: o ir garš.
 Text is in Latvian, not Czech, and is therefore not suitable for Czech learners.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slovech der Ofen a der Boden je o dlouhé.
+**OWNER note:** 
 
 ---
 
@@ -7050,9 +7050,9 @@ Vārdos der Ofen, der Boden: o ir garš.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slovech der Ofen a der Boden je o dlouhé.
+**OWNER note:** Duplicate target — apply once (same as #248).
 
 ---
 
@@ -7078,9 +7078,9 @@ sch izrunā kā š: der Schornstein, der Mensch.
 Text is in Latvian, not Czech, and is therefore not suitable for Czech learners.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Spojení písmen sch se vyslovuje jako české š: der Schornstein, der Mensch.
+**OWNER note:** 
 
 ---
 
@@ -7106,9 +7106,9 @@ sch izrunā kā š: der Schornstein, der Mensch.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Spojení písmen sch se vyslovuje jako české š: der Schornstein, der Mensch.
+**OWNER note:** Duplicate target — apply once (same as #250).
 
 ---
 
@@ -7134,9 +7134,9 @@ Vārdos das Haus, das Holz: h ir dzirdams un jāizrunā.
 Text is in Latvian, not Czech, and is therefore not suitable for Czech learners.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slovech das Haus a das Holz se h vyslovuje.
+**OWNER note:** 
 
 ---
 
@@ -7162,9 +7162,9 @@ Vārdos das Haus, das Holz: h ir dzirdams un jāizrunā.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slovech das Haus a das Holz se h vyslovuje.
+**OWNER note:** Duplicate target — apply once (same as #252).
 
 ---
 
@@ -7190,9 +7190,9 @@ Vārdos die Wohnung, wohnen: h ir garuma zīme, to neizrunā.
 Text is in Latvian, not Czech, and is therefore not suitable for Czech learners.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slovech die Wohnung a wohnen h označuje délku předchozí samohlásky a nevyslovuje se.
+**OWNER note:** 
 
 ---
 
@@ -7218,9 +7218,9 @@ Vārdos die Wohnung, wohnen: h ir garuma zīme, to neizrunā.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slovech die Wohnung a wohnen h označuje délku předchozí samohlásky a nevyslovuje se.
+**OWNER note:** Duplicate target — apply once (same as #254).
 
 ---
 
@@ -7246,9 +7246,9 @@ Vārdos die Küche, die Dächer: ch izrunā kā “h” tipa skaņu, kā vācu i
 Text is in Latvian, not Czech, and is therefore not suitable for Czech learners.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slovech die Küche a die Dächer se ch vyslovuje jako německý Ich-Laut [ç], který v češtině nemá přesný ekvivalent.
+**OWNER note:** OWNER — Ich-Laut [ç], ne Luna „hláska podobná h“.
 
 ---
 
@@ -7274,9 +7274,9 @@ Vārdos die Küche, die Dächer: ch izrunā kā “h” tipa skaņu, kā vācu i
 Latviešu atlikums (LV_WORD)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slovech die Küche a die Dächer se ch vyslovuje jako německý Ich-Laut [ç], který v češtině nemá přesný ekvivalent.
+**OWNER note:** Duplicate target — apply once (same as #256).
 
 ---
 
@@ -7302,9 +7302,9 @@ Vārdā das Vorhaus: v izrunā kā f.
 Text is in Latvian, not Czech, and is therefore not suitable for Czech learners.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově das Vorhaus se v vyslovuje jako f.
+**OWNER note:** 
 
 ---
 
@@ -7330,9 +7330,9 @@ Vārdā das Vorhaus: v izrunā kā f.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově das Vorhaus se v vyslovuje jako f.
+**OWNER note:** Duplicate target — apply once (same as #258).
 
 ---
 
@@ -7358,9 +7358,9 @@ Vārdā die Axt: x izrunā kā ks.
 Text is in Latvian, not Czech, and is therefore not suitable for Czech learners.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově die Axt se x vyslovuje jako ks.
+**OWNER note:** 
 
 ---
 
@@ -7386,9 +7386,9 @@ Vārdā die Axt: x izrunā kā ks.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově die Axt se x vyslovuje jako ks.
+**OWNER note:** Duplicate target — apply once (same as #260).
 
 ---
 
@@ -7414,9 +7414,9 @@ Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai.
 Text is in Latvian, not Czech, and is therefore not suitable for Czech learners.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slovech arbeiten, das Beil a steigen se ei vyslovuje přibližně jako české aj.
+**OWNER note:** 
 
 ---
 
@@ -7442,9 +7442,9 @@ Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slovech arbeiten, das Beil a steigen se ei vyslovuje přibližně jako české aj.
+**OWNER note:** Duplicate target — apply once (same as #262).
 
 ---
 
@@ -7470,9 +7470,9 @@ Vārdā die Scheune: eu izrunā kā oi.
 Text is in Latvian, not Czech, and is therefore not suitable for Czech learners.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově die Scheune se eu vyslovuje přibližně jako české oj.
+**OWNER note:** 
 
 ---
 
@@ -7498,9 +7498,9 @@ Vārdā die Scheune: eu izrunā kā oi.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově die Scheune se eu vyslovuje přibližně jako české oj.
+**OWNER note:** Duplicate target — apply once (same as #264).
 
 ---
 
@@ -7526,9 +7526,9 @@ Vārdā die Brücke: ck izrunā kā dubultu k.
 Text is in Latvian, not Czech, and is therefore not suitable for Czech learners.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově die Brücke se skupina ck vyslovuje jako jedno k.
+**OWNER note:** OWNER — ck kā viens k, ne dubults [k].
 
 ---
 
@@ -7554,9 +7554,9 @@ Vārdā die Brücke: ck izrunā kā dubultu k.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově die Brücke se skupina ck vyslovuje jako jedno k.
+**OWNER note:** Duplicate target — apply once (same as #266).
 
 ---
 
@@ -7582,9 +7582,9 @@ Vārdā die Brücke: ck izrunā kā dubultu k.
 German ck represents a single [k] sound, not a geminate or 'double k'. Describing it as double k can mislead beginners into lengthening the consonant.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově die Brücke se skupina ck vyslovuje jako jedno k.
+**OWNER note:** Duplicate target — apply once (same as #266).
 
 ---
 

@@ -1,0 +1,316 @@
+{
+  "meta": {
+    "scope": "CS Kurss Výslovnost — OWNER batch 201–268",
+    "source": "reports/cs-kurs-pronunciation-owner-review-all-findings.md",
+    "reviewed": "201–268",
+    "labotFindingRows": 68,
+    "nelabot": 0,
+    "falsePositive": 0,
+    "deduplicatedApplyTargets": 30,
+    "productionChanges": 0,
+    "note": "#201 same target as #199 (batch 151–200); not duplicated in this batch apply map."
+  },
+  "dedupeNote": "Multiple finding rows may share one production target; apply map lists one entry per unique findingId not in prior batches.",
+  "apply": [
+    {
+      "findingNum": "202",
+      "findingId": "kurssLesson15/section[3]/item[2]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson15",
+      "field": "lv",
+      "current": "Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.",
+      "ownerNew": "Ve slově schälen se ä vyslovuje dlouze; následuje po něm jedna souhláska, což zde odpovídá běžnému pravopisnému vodítku.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "205",
+      "findingId": "kurssLesson15/section[3]/item[3]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson15",
+      "field": "lv",
+      "current": "Vārdā gern e ir īss un plats.",
+      "ownerNew": "Ve slově gern je e krátké a otevřené.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "207",
+      "findingId": "kurssLesson15/section[3]/item[4]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson15",
+      "field": "lv",
+      "current": "Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif.",
+      "ownerNew": "Pamatuj: německá dvojhláska ei se vyslovuje přibližně jako české aj: reif, unreif.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "210",
+      "findingId": "kurssLesson16/section[3]/item[0]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson16",
+      "field": "lv",
+      "current": "Vārdos wem, dem, den, der — e ir garš un šaurs.",
+      "ownerNew": "Ve slovech wem, dem, den a der je e dlouhé a vyslovuje se přibližně jako české é.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "212",
+      "findingId": "kurssLesson16/section[3]/item[1]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson16",
+      "field": "lv",
+      "current": "Vārdā gehorchen h ir dzirdams: ge-hor-chen.",
+      "ownerNew": "Ve slově gehorchen se h vyslovuje: ge-hor-chen.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "214",
+      "findingId": "kurssLesson16/section[3]/item[2]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson16",
+      "field": "lv",
+      "current": "Die Wälder: ä izrunā kā šaurais īsais e.",
+      "ownerNew": "Ve slově die Wälder se ä vyslovuje jako krátké otevřené e.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "217",
+      "findingId": "kurssLesson16/section[3]/item[3]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson16",
+      "field": "lv",
+      "current": "Die Bäuerinnen: äu izrunā kā oi.",
+      "ownerNew": "Ve slově die Bäuerinnen se äu vyslovuje přibližně jako české oj.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "219",
+      "findingId": "kurssLesson16/section[3]/item[4]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson16",
+      "field": "lv",
+      "current": "-ie ir garā ī apzīmējums: die Wiese.",
+      "ownerNew": "Ve slově die Wiese se skupina ie vyslovuje jako dlouhé í.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "221",
+      "findingId": "kurssLesson17/section[3]/item[0]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson17",
+      "field": "lv",
+      "current": "Vārdā werfen pirmais e ir plats: werfen.",
+      "ownerNew": "Ve slově werfen je první e krátké a otevřené.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "223",
+      "findingId": "kurssLesson17/section[3]/item[1]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson17",
+      "field": "lv",
+      "current": "Vārdā wieder e ir plats: wieder.",
+      "ownerNew": "Ve slově wieder se skupina ie vyslovuje jako dlouhé í; koncovka -er se vyslovuje přibližně jako [ɐ].",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "226",
+      "findingId": "kurssLesson17/section[3]/item[2]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson17",
+      "field": "lv",
+      "current": "Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Diele.",
+      "ownerNew": "Ve slovech wieder a die Diele se skupina ie vyslovuje jako dlouhé í.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "228",
+      "findingId": "kurssLesson17/section[3]/item[3]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson17",
+      "field": "lv",
+      "current": "Vārdā der Spaten sp izrunā kā šp: der Spaten.",
+      "ownerNew": "Na začátku slova Spaten se skupina sp vyslovuje jako šp.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "230",
+      "findingId": "kurssLesson18/section[3]/item[0]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson18",
+      "field": "lv",
+      "current": "Vārdā wohin h ir dzirdams: wo-hin.",
+      "ownerNew": "Ve slově wohin se h vyslovuje: wo-hin.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "232",
+      "findingId": "kurssLesson18/section[3]/item[1]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson18",
+      "field": "lv",
+      "current": "Vārdā wo o ir garš: wo.",
+      "ownerNew": "Ve slově wo je o dlouhé.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "234",
+      "findingId": "kurssLesson19/section[3]/item[0]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson19",
+      "field": "lv",
+      "current": "Vārdā vor o izrunā gari.",
+      "ownerNew": "Ve slově vor se o vyslovuje dlouze.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "236",
+      "findingId": "kurssLesson19/section[3]/item[1]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson19",
+      "field": "lv",
+      "current": "Vārdā hinter h ir dzirdams, un e ir plats.",
+      "ownerNew": "Ve slově hinter se h vyslovuje, i je krátké a koncovka -er se vyslovuje přibližně jako [ɐ].",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "239",
+      "findingId": "kurssLesson19/section[3]/item[2]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson19",
+      "field": "lv",
+      "current": "Vārdā der Stuhl: st izrunā kā št • H ir garuma zīme un netiek izrunāts.",
+      "ownerNew": "Ve slově der Stuhl se st vyslovuje jako št; h označuje délku předchozí samohlásky a nevyslovuje se.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "241",
+      "findingId": "kurssLesson19/section[3]/item[3]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson19",
+      "field": "lv",
+      "current": "Vārdā der Strauch: st izrunā kā št.",
+      "ownerNew": "Ve slově der Strauch se st vyslovuje jako št.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "243",
+      "findingId": "kurssLesson19/section[3]/item[4]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson19",
+      "field": "lv",
+      "current": "Vārdā wachsen: ch izrunā kā k.",
+      "ownerNew": "Ve slově wachsen se skupina chs vyslovuje jako ks.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "246",
+      "findingId": "kurssLesson20/section[3]/item[0]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson20",
+      "field": "lv",
+      "current": "Vārdos Stockwerk, Stein, Stadt, stecken: st izrunā kā št.",
+      "ownerNew": "Ve slovech Stockwerk, Stein, Stadt a stecken se počáteční st vyslovuje jako št.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "248",
+      "findingId": "kurssLesson20/section[3]/item[1]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson20",
+      "field": "lv",
+      "current": "Vārdos der Ofen, der Boden: o ir garš.",
+      "ownerNew": "Ve slovech der Ofen a der Boden je o dlouhé.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "250",
+      "findingId": "kurssLesson20/section[3]/item[2]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson20",
+      "field": "lv",
+      "current": "Sch izrunā kā š: der Schornstein, der Mensch.",
+      "ownerNew": "Spojení písmen sch se vyslovuje jako české š: der Schornstein, der Mensch.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "252",
+      "findingId": "kurssLesson20/section[3]/item[3]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson20",
+      "field": "lv",
+      "current": "Vārdos das Haus, das Holz: h ir dzirdams un jāizrunā.",
+      "ownerNew": "Ve slovech das Haus a das Holz se h vyslovuje.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "254",
+      "findingId": "kurssLesson20/section[3]/item[4]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson20",
+      "field": "lv",
+      "current": "Vārdos die Wohnung, wohnen: h ir garuma zīme, to neizrunā.",
+      "ownerNew": "Ve slovech die Wohnung a wohnen h označuje délku předchozí samohlásky a nevyslovuje se.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "256",
+      "findingId": "kurssLesson20/section[3]/item[5]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson20",
+      "field": "lv",
+      "current": "Vārdos die Küche, die Dächer: ch izrunā kā “h” tipa skaņu, kā vācu ich-Laut.",
+      "ownerNew": "Ve slovech die Küche a die Dächer se ch vyslovuje jako německý Ich-Laut [ç], který v češtině nemá přesný ekvivalent.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "258",
+      "findingId": "kurssLesson20/section[3]/item[6]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson20",
+      "field": "lv",
+      "current": "Vārdā das Vorhaus: v izrunā kā f.",
+      "ownerNew": "Ve slově das Vorhaus se v vyslovuje jako f.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "260",
+      "findingId": "kurssLesson21/section[3]/item[0]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson21",
+      "field": "lv",
+      "current": "Vārdā die Axt: x izrunā kā ks.",
+      "ownerNew": "Ve slově die Axt se x vyslovuje jako ks.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "262",
+      "findingId": "kurssLesson21/section[3]/item[1]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson21",
+      "field": "lv",
+      "current": "Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai.",
+      "ownerNew": "Ve slovech arbeiten, das Beil a steigen se ei vyslovuje přibližně jako české aj.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "264",
+      "findingId": "kurssLesson21/section[3]/item[2]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson21",
+      "field": "lv",
+      "current": "Vārdā die Scheune: eu izrunā kā oi.",
+      "ownerNew": "Ve slově die Scheune se eu vyslovuje přibližně jako české oj.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "266",
+      "findingId": "kurssLesson21/section[3]/item[3]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson21",
+      "field": "lv",
+      "current": "Vārdā die Brücke: ck izrunā kā dubultu k.",
+      "ownerNew": "Ve slově die Brücke se skupina ck vyslovuje jako jedno k.",
+      "verdict": "LABOT"
+    }
+  ]
+}
