@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "auditType": "CS-DE B1 FINAL 2-CARD MICRO-REGRESSION + CLOSURE RECONFIRMATION",
+    "date": "2026-08-15T07:10:34.667Z",
+    "branch": "cursor/cs-b1-final-micro-regression-closure-6ea4",
+    "auditCommit": "def58dcf49770203be11b0b589e2eabd90c37757",
+    "readOnly": true,
+    "linguisticModel": "GPT-5.6 Luna"
+  },
+  "summary": {
+    "prerequisitePass": true,
+    "targetReconciliation": "2/2",
+    "targetedCards": 2,
+    "targetedCardsAudited": "2/2",
+    "rawCandidates": 1,
+    "falsePositives": 1,
+    "ownerLockConfirmed": 0,
+    "ownerLockReopenRequired": 0,
+    "sourceDeIssue": 0,
+    "validated": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "MEDIUM": 0,
+      "LOW": 0
+    },
+    "foreignRemnants": 0,
+    "placeholders": 0,
+    "staleSectionAccents": 0,
+    "foreignSectionAccents": 0,
+    "outOfScopeB1Changes": 0,
+    "productionChangesDuringAudit": 0,
+    "deChanges": 0,
+    "cardCount": 3367,
+    "idUniqueness": "PASS",
+    "idOrder": "PASS",
+    "syntax": "PASS",
+    "importLoad": "PASS",
+    "structure": "PASS",
+    "studyStructure": "PASS",
+    "sectionAccentsStructure": "PASS",
+    "verdict": "CS–DE B1 — OWNER ACCEPTED / CLOSED",
+    "overall": "PASS",
+    "residualCardsCount": 0
+  },
+  "blockerReconciliation": {
+    "HIGH": {
+      "previous": 1,
+      "unresolved": 0
+    },
+    "MEDIUM": {
+      "previous": 1,
+      "unresolved": 0
+    },
+    "OWNER_LOCK_REOPEN_REQUIRED": {
+      "previous": 1,
+      "unresolved": 0
+    },
+    "placeholders": {
+      "previous": 4,
+      "unresolved": 0
+    },
+    "staleSectionAccents": {
+      "previous": 1,
+      "unresolved": 0
+    }
+  },
+  "applyPrerequisite": {
+    "pass": true,
+    "summary": {
+      "targets": 2,
+      "currentMatches": 2,
+      "applied": 2,
+      "exactTargetMatches": 2,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0,
+      "deChanges": 0,
+      "outOfScopeB1Changes": 0,
+      "unexpectedProductionChanges": 0,
+      "b1Total": 3367,
+      "idUniqueness": "PASS",
+      "idOrder": "PASS",
+      "syntax": "PASS",
+      "importLoad": "PASS",
+      "structure": "PASS",
+      "studyStructure": "PASS",
+      "sectionAccentsStructure": "PASS",
+      "overall": "PASS"
+    },
+    "report": "/workspace/reports/cs-b1-final-2card-micro-repair-apply.md"
+  },
+  "targetReconciliation": {
+    "pass": true,
+    "exact": 2,
+    "total": 2,
+    "results": [
+      {
+        "cardId": "b1-inhalt",
+        "productionIndex": 1709,
+        "exactMatch": true
+      },
+      {
+        "cardId": "b1-sowie-2660",
+        "productionIndex": 2660,
+        "exactMatch": true
+      }
+    ]
+  },
+  "sowieStructure": {
+    "studyIsObject": true,
+    "layout": true,
+    "hasId": true,
+    "hasTranslation": true,
+    "hasExplanation": true,
+    "hasExamples": true,
+    "hasTip": true,
+    "hasImportant": true,
+    "hasSectionAccents": true,
+    "noStructurePlaceholder": true,
+    "studyId": "b1-sowie"
+  },
+  "sowieSectionAccentsResolution": {
+    "cardId": "b1-sowie-2660",
+    "previousReopen": "study.sectionAccents OWNER_LOCK_REOPEN_REQUIRED (first final closure audit)",
+    "microRepairOwnerDecision": "LABOT",
+    "currentHasSectionAccents": true,
+    "status": "RESOLVED / OWNER_LOCK_CONFIRMED",
+    "matches": []
+  },
+  "ownerLock": {
+    "matches": [],
+    "confirmed": 0,
+    "reopenRequired": 0
+  },
+  "validatedRealFindings": [],
+  "integrity": {
+    "b1Total": 3367,
+    "idUniqueness": "PASS",
+    "idOrder": "PASS",
+    "syntax": "PASS",
+    "importLoad": "PASS",
+    "structure": "PASS",
+    "studyStructure": "PASS",
+    "sectionAccentsStructure": "PASS",
+    "deIntegrity": "PASS",
+    "deChanges": 0
+  },
+  "lunaAudit": {
+    "apiUsage": {
+      "model": "gpt-5.6-luna",
+      "requestCount": 1,
+      "initialBatchRequests": 0,
+      "retryRequests": 0,
+      "batchCount": 1,
+      "batchSizes": [
+        2
+      ],
+      "retryCount": 0,
+      "retryReasons": {},
+      "inputTokens": 3125,
+      "cachedInputTokens": 0,
+      "outputTokens": 1682,
+      "reasoningTokens": 1552,
+      "totalTokens": 4807,
+      "findingsCount": 1,
+      "passCount": 2
+    }
+  }
+}
