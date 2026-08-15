@@ -230,7 +230,7 @@ window.LANGUAGE_UI_STRINGS = {
     "lessons": "Lekce",
     "lessonsDesc": "Lekce v pořadí od 1 do 21.",
     "verbBasics": "Základy sloves",
-    "verbBasicsDesc": "Osoby, tvary a běžná slovesa.",
+    "verbBasicsDesc": "Osoby, tvary a nejčastější slovesa.",
     "sentenceStructure": "Struktura vět",
     "sentenceStructureDesc": "Jednoduchý slovosled v německých větách.",
     "articlesSubtitle": "Der, die, das a základy použití.",
