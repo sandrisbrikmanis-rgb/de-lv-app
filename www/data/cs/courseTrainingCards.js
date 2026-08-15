@@ -2,11 +2,11 @@
 
 window.lesson1TrainingCardsCs = [
   {
-    "front": "Jdeš?",
+    "front": "Přicházíš?",
     "back": "Kommst du?"
   },
   {
-    "front": "Ano, jdu.",
+    "front": "Ano, přicházím.",
     "back": "Ja, ich komme."
   },
   {
@@ -14,7 +14,7 @@ window.lesson1TrainingCardsCs = [
     "back": "Wer singt?"
   },
   {
-    "front": "Martha zpívá.",
+    "front": "Marta zpívá.",
     "back": "Marta singt."
   },
   {
@@ -26,7 +26,7 @@ window.lesson1TrainingCardsCs = [
     "back": "Ja, sie gehen."
   },
   {
-    "front": "On stojí?",
+    "front": "Stojí?",
     "back": "Steht er?"
   },
   {
@@ -38,11 +38,11 @@ window.lesson1TrainingCardsCs = [
     "back": "Wir gehen."
   },
   {
-    "front": "Jdeš?",
+    "front": "Jdete?",
     "back": "Geht ihr?"
   },
   {
-    "front": "Albert a Martha přicházejí a odcházejí.",
+    "front": "Albert a Marta přicházejí a odcházejí.",
     "back": "Albert und Marta kommen und gehen."
   }
 ];
