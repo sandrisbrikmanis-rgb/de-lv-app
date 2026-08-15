@@ -10,7 +10,7 @@
 |---|---|
 | MAIN_BEFORE | `f4e8430a35ad7bb19dba28918941d63865b4f029` |
 | integration branch | `cursor/cs-b1-final-main-integration-6ea4` |
-| integration HEAD | `pending` |
+| integration HEAD | `72397903` |
 | authoritative closure commit | `f45f531e` |
 | authoritative closure PR | #503 |
 | merge method | cherry-pick (3 commits) |
