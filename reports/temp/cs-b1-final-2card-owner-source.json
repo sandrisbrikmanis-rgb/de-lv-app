@@ -1,0 +1,520 @@
+{
+  "meta": {
+    "generatedAt": "2026-08-15T07:05:14.563Z",
+    "mode": "READ-ONLY",
+    "purpose": "OWNER final micro-repair source extraction",
+    "sourceFiles": {
+      "csProduction": "data/cs/b1.js",
+      "lvReference": "data/b1.js"
+    },
+    "productionChanges": 0,
+    "deChanges": 0,
+    "otherLanguageChanges": 0
+  },
+  "cards": [
+    {
+      "cardId": "b1-inhalt",
+      "productionIndex": 1709,
+      "currentCsObject": {
+        "de": "Inhalt",
+        "de_article": "der",
+        "de_plural": "die Inhalte",
+        "lv": "Obsah",
+        "level": "B1",
+        "study": {
+          "id": "b1-inhalt",
+          "layout": "standardStudy",
+          "translation": "Obsah",
+          "explanation": "v textu, tašce, nádobě nebo souboru",
+          "examples": [
+            {
+              "de": "Der Inhalt des Briefes ist wichtig.",
+              "lv": "Důležitý je obsah dopisu."
+            },
+            {
+              "de": "Bitte prüfen Sie den Inhalt der Tasche.",
+              "lv": "Zkontrolujte prosím obsah tašky."
+            },
+            {
+              "de": "Die Flasche hat einen Inhalt von einem Liter.",
+              "lv": "Objem láhve je jeden litr."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Inhalt",
+              "meaning": "Obsah",
+              "example": "Der Inhalt ist klar. = Obsah je jasný."
+            },
+            {
+              "word": "das Thema",
+              "meaning": "Téma",
+              "example": "Das Thema ist interessant. = Téma je to zajímavé."
+            },
+            {
+              "word": "der Umfang",
+              "meaning": "Objem",
+              "example": "Der Umfang ist groß. = Objem je velký."
+            }
+          ],
+          "tip": "Co je uvnitř textu, sáčku nebo kontejneru → der Inhalt.",
+          "important": "der Inhalt nejčastěji znamená obsah",
+          "sectionAccents": {
+            "explanation": {
+              "blue": "der Inhalt",
+              "purple": [],
+              "yellow": []
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": "Inhalt",
+                  "yellow": "Briefes"
+                },
+                "lv": {
+                  "purple": "saturs",
+                  "yellow": "Důležitý"
+                }
+              },
+              {
+                "de": {
+                  "blue": "Inhalt",
+                  "yellow": "Tasche"
+                },
+                "lv": {
+                  "purple": "saturu",
+                  "yellow": "somas"
+                }
+              },
+              {
+                "de": {
+                  "blue": "Inhalt",
+                  "yellow": "Flasche"
+                },
+                "lv": {
+                  "purple": "tilpums",
+                  "yellow": "Pudeles"
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": "der Inhalt"
+                },
+                "meaning": {
+                  "purple": "saturs"
+                },
+                "example": {
+                  "blue": "Inhalt",
+                  "purple": "Saturs"
+                }
+              },
+              {
+                "word": {
+                  "green": "das Thema"
+                },
+                "meaning": {
+                  "purple": "Téma"
+                },
+                "example": {
+                  "red": "Thema",
+                  "purple": "Das"
+                }
+              },
+              {
+                "word": {
+                  "green": "der Umfang"
+                },
+                "meaning": {
+                  "purple": "apjoms"
+                },
+                "example": {
+                  "red": "Umfang",
+                  "purple": "Apjoms"
+                }
+              }
+            ],
+            "tip": {
+              "blue": "der Inhalt",
+              "purple": "uvnitř",
+              "yellow": [
+                "uvnitř",
+                "uvnitř",
+                "uvnitř"
+              ]
+            },
+            "important": {
+              "blue": "der Inhalt",
+              "purple": "saturs",
+              "red": "Tilpuma"
+            }
+          }
+        }
+      },
+      "lvReferenceObject": {
+        "de": "Inhalt",
+        "de_article": "der",
+        "de_plural": "die Inhalte",
+        "lv": "saturs",
+        "level": "B1",
+        "study": {
+          "id": "b1-inhalt",
+          "layout": "standardStudy",
+          "translation": "saturs",
+          "explanation": "Galvenā doma: der Inhalt ir saturs - tekstā, somā, traukā vai failā. Tehniski tas var nozīmēt arī tilpumu.",
+          "examples": [
+            {
+              "de": "Der Inhalt des Briefes ist wichtig.",
+              "lv": "vēstules saturs ir svarīgs."
+            },
+            {
+              "de": "Bitte prüfen Sie den Inhalt der Tasche.",
+              "lv": "lūdzu, pārbaudiet somas saturu."
+            },
+            {
+              "de": "Die Flasche hat einen Inhalt von einem Liter.",
+              "lv": "pudeles tilpums ir viens litrs."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Inhalt",
+              "meaning": "saturs",
+              "example": "Der Inhalt ist klar. = Saturs ir skaidrs."
+            },
+            {
+              "word": "das Thema",
+              "meaning": "tēma",
+              "example": "Das Thema ist interessant. = Tēma ir interesanta."
+            },
+            {
+              "word": "der Umfang",
+              "meaning": "apjoms",
+              "example": "Der Umfang ist groß. = Apjoms ir liels."
+            }
+          ],
+          "tip": "Kas ir iekšā tekstā, somā vai traukā → der Inhalt.",
+          "important": "Tilpuma nozīme ir tehniska; ikdienā der Inhalt visbiežāk ir saturs.",
+          "sectionAccents": {
+            "explanation": {
+              "blue": "der Inhalt",
+              "purple": [
+                "saturs",
+                "tilpumu"
+              ],
+              "yellow": [
+                "tekstā",
+                "traukā"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": "Inhalt",
+                  "yellow": "Briefes"
+                },
+                "lv": {
+                  "purple": "saturs",
+                  "yellow": "Vēstules"
+                }
+              },
+              {
+                "de": {
+                  "blue": "Inhalt",
+                  "yellow": "Tasche"
+                },
+                "lv": {
+                  "purple": "saturu",
+                  "yellow": "somas"
+                }
+              },
+              {
+                "de": {
+                  "blue": "Inhalt",
+                  "yellow": "Flasche"
+                },
+                "lv": {
+                  "purple": "tilpums",
+                  "yellow": "Pudeles"
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": "der Inhalt"
+                },
+                "meaning": {
+                  "purple": "saturs"
+                },
+                "example": {
+                  "blue": "Inhalt",
+                  "purple": "Saturs"
+                }
+              },
+              {
+                "word": {
+                  "green": "das Thema"
+                },
+                "meaning": {
+                  "purple": "tēma"
+                },
+                "example": {
+                  "red": "Thema",
+                  "purple": "Tēma"
+                }
+              },
+              {
+                "word": {
+                  "green": "der Umfang"
+                },
+                "meaning": {
+                  "purple": "apjoms"
+                },
+                "example": {
+                  "red": "Umfang",
+                  "purple": "Apjoms"
+                }
+              }
+            ],
+            "tip": {
+              "blue": "der Inhalt",
+              "purple": "iekšā",
+              "yellow": [
+                "tekstā",
+                "somā",
+                "traukā"
+              ]
+            },
+            "important": {
+              "blue": "der Inhalt",
+              "purple": "saturs",
+              "red": "Tilpuma"
+            }
+          }
+        }
+      },
+      "closureAuditFinding": {
+        "field": "study.sectionAccents.explanation",
+        "severity": "MEDIUM",
+        "reason": "Accent term \"der Inhalt\" not found in section text"
+      }
+    },
+    {
+      "cardId": "b1-sowie-2660",
+      "productionIndex": 2660,
+      "currentCsObject": {
+        "de": "sowie",
+        "lv": "Stejně jako",
+        "level": "B1",
+        "study": "Sowie nejčastěji znamená také nebo i a spojuje dvě věci.",
+        "structure": "Restore parity with LV structure"
+      },
+      "lvReferenceCardId": "b1-sowie",
+      "lvReferenceObject": {
+        "de": "sowie",
+        "lv": "kā arī",
+        "level": "B1",
+        "study": {
+          "id": "b1-sowie",
+          "layout": "standardStudy",
+          "translation": "kā arī",
+          "explanation": "Galvenā doma: sowie visbiežāk nozīmē kā arī un savieno divas lietas. Laika teikumā tas var nozīmēt tiklīdz.",
+          "examples": [
+            {
+              "de": "Wir brauchen Milch sowie Brot.",
+              "lv": "mums vajag pienu, kā arī maizi."
+            },
+            {
+              "de": "Der Preis gilt für Erwachsene sowie Kinder.",
+              "lv": "cena attiecas uz pieaugušajiem, kā arī bērniem."
+            },
+            {
+              "de": "Sowie ich Zeit habe, rufe ich dich an.",
+              "lv": "tiklīdz man būs laiks, es tev piezvanīšu."
+            }
+          ],
+          "tip": "Sarakstā sowie = kā arī; laika teikumā = tiklīdz.",
+          "important": "sowie nav automātiski tikai “tiklīdz”; sarakstos tas bieži nozīmē “kā arī”.",
+          "sectionAccents": {
+            "explanation": {
+              "blue": "sowie",
+              "purple": "kā arī",
+              "red": "tiklīdz"
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": "sowie",
+                  "yellow": "Brot"
+                },
+                "lv": {
+                  "purple": "kā arī"
+                }
+              },
+              {
+                "de": {
+                  "blue": "sowie",
+                  "green": "Kinder"
+                },
+                "lv": {
+                  "purple": "kā arī"
+                }
+              },
+              {
+                "de": {
+                  "blue": "Sowie",
+                  "yellow": "Zeit"
+                },
+                "lv": {
+                  "red": "Tiklīdz"
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": "sowie"
+                },
+                "meaning": {
+                  "purple": "kā arī"
+                },
+                "example": {
+                  "blue": "sowie"
+                }
+              },
+              {
+                "word": {
+                  "green": "und"
+                },
+                "meaning": {
+                  "purple": "un"
+                },
+                "example": {
+                  "red": "und"
+                }
+              },
+              {
+                "word": {
+                  "green": "sobald"
+                },
+                "meaning": {
+                  "purple": "tiklīdz"
+                },
+                "example": {
+                  "red": "Sobald"
+                }
+              }
+            ],
+            "tip": {
+              "blue": "sowie",
+              "purple": "kā arī",
+              "red": "tiklīdz"
+            },
+            "important": {
+              "blue": "sowie",
+              "red": "tiklīdz"
+            }
+          }
+        }
+      },
+      "lvStudySectionAccents": {
+        "explanation": {
+          "blue": "sowie",
+          "purple": "kā arī",
+          "red": "tiklīdz"
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": "sowie",
+              "yellow": "Brot"
+            },
+            "lv": {
+              "purple": "kā arī"
+            }
+          },
+          {
+            "de": {
+              "blue": "sowie",
+              "green": "Kinder"
+            },
+            "lv": {
+              "purple": "kā arī"
+            }
+          },
+          {
+            "de": {
+              "blue": "Sowie",
+              "yellow": "Zeit"
+            },
+            "lv": {
+              "red": "Tiklīdz"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": "sowie"
+            },
+            "meaning": {
+              "purple": "kā arī"
+            },
+            "example": {
+              "blue": "sowie"
+            }
+          },
+          {
+            "word": {
+              "green": "und"
+            },
+            "meaning": {
+              "purple": "un"
+            },
+            "example": {
+              "red": "und"
+            }
+          },
+          {
+            "word": {
+              "green": "sobald"
+            },
+            "meaning": {
+              "purple": "tiklīdz"
+            },
+            "example": {
+              "red": "Sobald"
+            }
+          }
+        ],
+        "tip": {
+          "blue": "sowie",
+          "purple": "kā arī",
+          "red": "tiklīdz"
+        },
+        "important": {
+          "blue": "sowie",
+          "red": "tiklīdz"
+        }
+      },
+      "mappingEvidence": "productionIndex 2660 is identical in data/cs/b1.js and data/b1.js | German headword de=\"sowie\" matches at index 2660 | LV study.id = \"b1-sowie\"; CS has no study.id (removed in Groups 07–32 repair) | CS cardId resolves as b1-sowie-2660 via entryId fallback when study.id is absent | Deterministic structure audit compares CS[2660] vs LV[2660] by fixed B1 card order",
+      "closureAuditFindings": [
+        {
+          "field": "structure",
+          "severity": "HIGH",
+          "reason": "Missing fields vs LV: study.id, study.layout, study.translation, study.explanation, study.examples, study.tip, study.important"
+        },
+        {
+          "field": "study.sectionAccents",
+          "severity": "HIGH",
+          "reason": "sectionAccents missing but LV etalon has them",
+          "ownerLockStatus": "OWNER_LOCK_REOPEN_REQUIRED"
+        }
+      ],
+      "csStudyType": "string",
+      "csStudyIsObject": false
+    }
+  ]
+}
