@@ -2,7 +2,7 @@
 
 Branch: `cursor/cs-b1-targeted-regression-residual-apply-6ea4`
 Start SHA: `87440e875948fcdef3ff3c0107608a1fa317d14d`
-End SHA: `(pending commit)`
+End SHA: `73c27579d0b430746338e43b6311a10697d54427`
 Generated: 2026-08-15T06:51:44.148Z
 
 ## PREREQUISITE (Groups 07–32)

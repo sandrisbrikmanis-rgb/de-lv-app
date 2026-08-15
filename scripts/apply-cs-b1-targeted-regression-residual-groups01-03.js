@@ -233,7 +233,7 @@ function generateReportMd(data) {
     "",
     `Branch: \`${BRANCH}\``,
     `Start SHA: \`${data.baselineSha}\``,
-    `End SHA: \`${data.applySha || "(pending commit)"}\``,
+    `End SHA: \`73c27579\``,
     `Generated: ${new Date().toISOString()}`,
     "",
     "## PREREQUISITE (Groups 07–32)",
