@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "cardsExpected": 2,
+    "cardsAudited": 2,
+    "model": "GPT-5.6 Luna",
+    "completedAt": "2026-08-15T07:10:34.599Z"
+  },
+  "findings": [
+    {
+      "cardId": "b1-inhalt",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "apiUsage": {
+    "model": "gpt-5.6-luna",
+    "requestCount": 1,
+    "initialBatchRequests": 0,
+    "retryRequests": 0,
+    "batchCount": 1,
+    "batchSizes": [
+      2
+    ],
+    "retryCount": 0,
+    "retryReasons": {},
+    "inputTokens": 3125,
+    "cachedInputTokens": 0,
+    "outputTokens": 1682,
+    "reasoningTokens": 1552,
+    "totalTokens": 4807,
+    "findingsCount": 1,
+    "passCount": 2
+  }
+}
