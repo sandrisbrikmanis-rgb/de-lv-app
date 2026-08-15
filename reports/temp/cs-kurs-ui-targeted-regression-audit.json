@@ -1,0 +1,1937 @@
+{
+  "meta": {
+    "auditType": "CS_KURSS_UI_TARGETED_REGRESSION",
+    "repairAppliedDetected": false,
+    "accountedFindings": 55,
+    "fieldLevelClosure": {
+      "RESOLVED_EXACT": 0,
+      "OWNER_NELABOT_RETAINED": 1,
+      "UNRESOLVED": 57,
+      "WRONG_REPLACEMENT": 0,
+      "TARGET_MISSING": 0,
+      "REGRESSION": 0
+    },
+    "findingClosure": [
+      {
+        "finding": "01",
+        "keys": [
+          "kurss.panelLabel",
+          "kurss.title",
+          "menu.course",
+          "progress.courseHeading"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "02",
+        "keys": [
+          "kurss.back"
+        ],
+        "status": "OWNER_NELABOT_RETAINED"
+      },
+      {
+        "finding": "03",
+        "keys": [
+          "kurss.tipTitle"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "04",
+        "keys": [
+          "kurss.articles"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "05",
+        "keys": [
+          "kurss.pronounsDesc"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "06",
+        "keys": [
+          "kurss.lessons"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "07",
+        "keys": [
+          "kurss.lessonsDesc"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "08",
+        "keys": [
+          "kurss.verbBasicsDesc"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "09",
+        "keys": [
+          "kurss.pronounsSubtitle"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "10",
+        "keys": [
+          "kurss.vowelsSubtitle"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "11",
+        "keys": [
+          "kurss.lessonsSubtitle"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "12",
+        "keys": [
+          "kurss.vowelsTitle"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "13",
+        "keys": [
+          "kurss.consonantsDesc"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "14",
+        "keys": [
+          "kurss.lessonProgress"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "15",
+        "keys": [
+          "kurss.exerciseProgress"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "16",
+        "keys": [
+          "kurss.cta.tapContinue"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "17",
+        "keys": [
+          "kurss.exerciseMeta.fillCase"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "18",
+        "keys": [
+          "kurss.exerciseMeta.chooseCasePlural"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "19",
+        "keys": [
+          "kurss.exerciseMeta.translate"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "20",
+        "keys": [
+          "kurss.exerciseMeta.formDu"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "21",
+        "keys": [
+          "kurss.exerciseMeta.formIhr"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "22",
+        "keys": [
+          "kurss.exerciseMeta.formSie"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "23",
+        "keys": [
+          "kurss.lessonItems.1.title"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "24",
+        "keys": [
+          "kurss.lessonItems.1.menuDesc"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "25",
+        "keys": [
+          "kurss.lessonItems.2.title"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "26",
+        "keys": [
+          "kurss.lessonItems.2.menuDesc"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "27",
+        "keys": [
+          "kurss.lessonItems.3.title"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "28",
+        "keys": [
+          "kurss.lessonItems.3.menuDesc"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "29",
+        "keys": [
+          "kurss.lessonItems.4.title"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "30",
+        "keys": [
+          "kurss.lessonItems.5.title"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "31",
+        "keys": [
+          "kurss.lessonItems.5.menuDesc"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "32",
+        "keys": [
+          "kurss.lessonItems.6.title"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "33",
+        "keys": [
+          "kurss.lessonItems.7.title"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "34",
+        "keys": [
+          "kurss.lessonItems.7.menuDesc"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "35",
+        "keys": [
+          "kurss.lessonItems.8.title"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "36",
+        "keys": [
+          "kurss.lessonItems.8.menuDesc"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "37",
+        "keys": [
+          "kurss.lessonItems.9.title"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "38",
+        "keys": [
+          "kurss.lessonItems.10.title"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "39",
+        "keys": [
+          "kurss.lessonItems.11.title"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "40",
+        "keys": [
+          "kurss.lessonItems.11.menuDesc"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "41",
+        "keys": [
+          "kurss.lessonItems.12.title"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "42",
+        "keys": [
+          "kurss.lessonItems.12.menuDesc"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "43",
+        "keys": [
+          "kurss.lessonItems.13.title"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "44",
+        "keys": [
+          "kurss.lessonItems.14.title"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "45",
+        "keys": [
+          "kurss.lessonItems.15.title"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "46",
+        "keys": [
+          "kurss.lessonItems.16.title"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "47",
+        "keys": [
+          "kurss.lessonItems.17.title"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "48",
+        "keys": [
+          "kurss.lessonItems.18.title"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "49",
+        "keys": [
+          "kurss.lessonItems.18.menuDesc"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "50",
+        "keys": [
+          "kurss.lessonItems.19.title"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "51",
+        "keys": [
+          "kurss.lessonItems.20.title"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "52",
+        "keys": [
+          "kurss.lessonItems.21.title"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "R1",
+        "keys": [
+          "COURSE_TRANSLATE_SECTION_TITLES + Přeložit"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "R2",
+        "keys": [
+          "COURSE_EXERCISE_SECTION_TITLES + Cvičení"
+        ],
+        "status": "UNRESOLVED"
+      },
+      {
+        "finding": "R3",
+        "keys": [
+          "COURSE_EXERCISE_SECTION_TITLES + Übung / Cvičení"
+        ],
+        "status": "UNRESOLVED"
+      }
+    ],
+    "findingCounts": {
+      "RESOLVED_EXACT": 0,
+      "OWNER_NELABOT_RETAINED": 1,
+      "UNRESOLVED": 54,
+      "WRONG_REPLACEMENT": 0,
+      "TARGET_MISSING": 0,
+      "REGRESSION": 0
+    },
+    "gates": {
+      "originalFindingsAccounted": true,
+      "allLabotResolved": false,
+      "nelabotRetained": true,
+      "translateFunctional": false,
+      "exerciseFunctional": false,
+      "universalRegistry": false,
+      "primaryWwwCsUi": true,
+      "primaryWwwUiJs": true,
+      "deChanges": 0,
+      "lvChanges": 0,
+      "unexpectedChanges": true,
+      "structuralParity": true
+    },
+    "closureVerdict": "FAIL",
+    "leftoverUebung": [
+      "kurss.exerciseMeta.fillCase",
+      "kurss.exerciseMeta.translate"
+    ],
+    "uebungStillInProduction": true,
+    "sectionTitleUsage": {
+      "translate": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "exercise": [
+        13,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "combined": [
+        8,
+        9
+      ],
+      "all": [
+        {
+          "lesson": 8,
+          "title": "Dialogy / věty",
+          "hasCards": false
+        },
+        {
+          "lesson": 8,
+          "title": "Slova",
+          "hasCards": false
+        },
+        {
+          "lesson": 8,
+          "title": "Výslovnost",
+          "hasCards": false
+        },
+        {
+          "lesson": 8,
+          "title": "Gramatika",
+          "hasCards": false
+        },
+        {
+          "lesson": 8,
+          "title": "Übung / Cvičení",
+          "hasCards": true
+        },
+        {
+          "lesson": 8,
+          "title": "Přeložit",
+          "hasCards": true
+        },
+        {
+          "lesson": 9,
+          "title": "Dialogy / věty",
+          "hasCards": false
+        },
+        {
+          "lesson": 9,
+          "title": "Slova",
+          "hasCards": false
+        },
+        {
+          "lesson": 9,
+          "title": "Gramatika",
+          "hasCards": false
+        },
+        {
+          "lesson": 9,
+          "title": "Übung / Cvičení",
+          "hasCards": true
+        },
+        {
+          "lesson": 9,
+          "title": "Přeložit",
+          "hasCards": true
+        },
+        {
+          "lesson": 10,
+          "title": "Dialogy / věty",
+          "hasCards": false
+        },
+        {
+          "lesson": 10,
+          "title": "Slova",
+          "hasCards": false
+        },
+        {
+          "lesson": 10,
+          "title": "Výslovnost",
+          "hasCards": false
+        },
+        {
+          "lesson": 10,
+          "title": "Gramatika",
+          "hasCards": false
+        },
+        {
+          "lesson": 10,
+          "title": "Přeložit",
+          "hasCards": true
+        },
+        {
+          "lesson": 11,
+          "title": "Dialogy / věty",
+          "hasCards": false
+        },
+        {
+          "lesson": 11,
+          "title": "Slova",
+          "hasCards": false
+        },
+        {
+          "lesson": 11,
+          "title": "Výslovnost",
+          "hasCards": false
+        },
+        {
+          "lesson": 11,
+          "title": "Gramatika",
+          "hasCards": false
+        },
+        {
+          "lesson": 11,
+          "title": "Přeložit",
+          "hasCards": true
+        },
+        {
+          "lesson": 12,
+          "title": "Dialogy / věty",
+          "hasCards": false
+        },
+        {
+          "lesson": 12,
+          "title": "Slova",
+          "hasCards": false
+        },
+        {
+          "lesson": 12,
+          "title": "Výslovnost",
+          "hasCards": false
+        },
+        {
+          "lesson": 12,
+          "title": "Gramatika",
+          "hasCards": false
+        },
+        {
+          "lesson": 12,
+          "title": "Přeložit",
+          "hasCards": true
+        },
+        {
+          "lesson": 13,
+          "title": "Text / čtení",
+          "hasCards": false
+        },
+        {
+          "lesson": 13,
+          "title": "Jména",
+          "hasCards": false
+        },
+        {
+          "lesson": 13,
+          "title": "Gramatika",
+          "hasCards": false
+        },
+        {
+          "lesson": 13,
+          "title": "Výslovnost",
+          "hasCards": false
+        },
+        {
+          "lesson": 13,
+          "title": "Cvičení",
+          "hasCards": true
+        },
+        {
+          "lesson": 13,
+          "title": "Přeložit",
+          "hasCards": true
+        },
+        {
+          "lesson": 14,
+          "title": "Text / čtení",
+          "hasCards": false
+        },
+        {
+          "lesson": 14,
+          "title": "Jména",
+          "hasCards": false
+        },
+        {
+          "lesson": 14,
+          "title": "Gramatika",
+          "hasCards": false
+        },
+        {
+          "lesson": 14,
+          "title": "Výslovnost",
+          "hasCards": false
+        },
+        {
+          "lesson": 14,
+          "title": "Přeložit",
+          "hasCards": true
+        },
+        {
+          "lesson": 15,
+          "title": "Text / čtení",
+          "hasCards": false
+        },
+        {
+          "lesson": 15,
+          "title": "Jména",
+          "hasCards": false
+        },
+        {
+          "lesson": 15,
+          "title": "Gramatika",
+          "hasCards": false
+        },
+        {
+          "lesson": 15,
+          "title": "Výslovnost",
+          "hasCards": false
+        },
+        {
+          "lesson": 15,
+          "title": "Přeložit",
+          "hasCards": true
+        },
+        {
+          "lesson": 16,
+          "title": "Text / čtení",
+          "hasCards": false
+        },
+        {
+          "lesson": 16,
+          "title": "Jména",
+          "hasCards": false
+        },
+        {
+          "lesson": 16,
+          "title": "Gramatika",
+          "hasCards": false
+        },
+        {
+          "lesson": 16,
+          "title": "Výslovnost",
+          "hasCards": false
+        },
+        {
+          "lesson": 16,
+          "title": "Cvičení",
+          "hasCards": true
+        },
+        {
+          "lesson": 16,
+          "title": "Přeložit",
+          "hasCards": true
+        },
+        {
+          "lesson": 17,
+          "title": "Text / čtení",
+          "hasCards": false
+        },
+        {
+          "lesson": 17,
+          "title": "Jména",
+          "hasCards": false
+        },
+        {
+          "lesson": 17,
+          "title": "Gramatika",
+          "hasCards": false
+        },
+        {
+          "lesson": 17,
+          "title": "Výslovnost",
+          "hasCards": false
+        },
+        {
+          "lesson": 17,
+          "title": "Cvičení",
+          "hasCards": true
+        },
+        {
+          "lesson": 17,
+          "title": "Přeložit",
+          "hasCards": true
+        },
+        {
+          "lesson": 18,
+          "title": "Text / čtení",
+          "hasCards": false
+        },
+        {
+          "lesson": 18,
+          "title": "Jména",
+          "hasCards": false
+        },
+        {
+          "lesson": 18,
+          "title": "Gramatika",
+          "hasCards": false
+        },
+        {
+          "lesson": 18,
+          "title": "Výslovnost",
+          "hasCards": false
+        },
+        {
+          "lesson": 18,
+          "title": "Cvičení",
+          "hasCards": true
+        },
+        {
+          "lesson": 18,
+          "title": "Přeložit",
+          "hasCards": true
+        },
+        {
+          "lesson": 19,
+          "title": "Text / čtení",
+          "hasCards": false
+        },
+        {
+          "lesson": 19,
+          "title": "Jména",
+          "hasCards": false
+        },
+        {
+          "lesson": 19,
+          "title": "Gramatika",
+          "hasCards": false
+        },
+        {
+          "lesson": 19,
+          "title": "Výslovnost",
+          "hasCards": false
+        },
+        {
+          "lesson": 19,
+          "title": "Cvičení",
+          "hasCards": true
+        },
+        {
+          "lesson": 19,
+          "title": "Přeložit",
+          "hasCards": true
+        },
+        {
+          "lesson": 20,
+          "title": "Text / čtení",
+          "hasCards": false
+        },
+        {
+          "lesson": 20,
+          "title": "Jména",
+          "hasCards": false
+        },
+        {
+          "lesson": 20,
+          "title": "Gramatika",
+          "hasCards": false
+        },
+        {
+          "lesson": 20,
+          "title": "Výslovnost",
+          "hasCards": false
+        },
+        {
+          "lesson": 20,
+          "title": "Cvičení",
+          "hasCards": true
+        },
+        {
+          "lesson": 20,
+          "title": "Přeložit",
+          "hasCards": true
+        },
+        {
+          "lesson": 21,
+          "title": "Text / čtení",
+          "hasCards": false
+        },
+        {
+          "lesson": 21,
+          "title": "Jména",
+          "hasCards": false
+        },
+        {
+          "lesson": 21,
+          "title": "Gramatika",
+          "hasCards": false
+        },
+        {
+          "lesson": 21,
+          "title": "Výslovnost",
+          "hasCards": false
+        },
+        {
+          "lesson": 21,
+          "title": "Cvičení",
+          "hasCards": true
+        },
+        {
+          "lesson": 21,
+          "title": "Přeložit",
+          "hasCards": true
+        }
+      ]
+    },
+    "functionalChecks": [
+      {
+        "lesson": 8,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 19
+        }
+      },
+      {
+        "lesson": 8,
+        "type": "exercise_combined",
+        "title": "Übung / Cvičení",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 38
+        }
+      },
+      {
+        "lesson": 9,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 19
+        }
+      },
+      {
+        "lesson": 9,
+        "type": "exercise_combined",
+        "title": "Übung / Cvičení",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 9
+        }
+      },
+      {
+        "lesson": 10,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 21
+        }
+      },
+      {
+        "lesson": 11,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 21
+        }
+      },
+      {
+        "lesson": 12,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 33
+        }
+      },
+      {
+        "lesson": 13,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 33
+        }
+      },
+      {
+        "lesson": 13,
+        "type": "exercise",
+        "title": "Cvičení",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 12
+        }
+      },
+      {
+        "lesson": 14,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 14
+        }
+      },
+      {
+        "lesson": 15,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 16
+        }
+      },
+      {
+        "lesson": 16,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 14
+        }
+      },
+      {
+        "lesson": 16,
+        "type": "exercise",
+        "title": "Cvičení",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 16
+        }
+      },
+      {
+        "lesson": 17,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 25
+        }
+      },
+      {
+        "lesson": 17,
+        "type": "exercise",
+        "title": "Cvičení",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 5
+        }
+      },
+      {
+        "lesson": 18,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 18
+        }
+      },
+      {
+        "lesson": 18,
+        "type": "exercise",
+        "title": "Cvičení",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 8
+        }
+      },
+      {
+        "lesson": 19,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 9
+        }
+      },
+      {
+        "lesson": 19,
+        "type": "exercise",
+        "title": "Cvičení",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 2
+        }
+      },
+      {
+        "lesson": 20,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 24
+        }
+      },
+      {
+        "lesson": 20,
+        "type": "exercise",
+        "title": "Cvičení",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 17
+        }
+      },
+      {
+        "lesson": 21,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 14
+        }
+      },
+      {
+        "lesson": 21,
+        "type": "exercise",
+        "title": "Cvičení",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 15
+        }
+      }
+    ],
+    "translateLookupFail": [
+      {
+        "lesson": 8,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 19
+        }
+      },
+      {
+        "lesson": 9,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 19
+        }
+      },
+      {
+        "lesson": 10,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 21
+        }
+      },
+      {
+        "lesson": 11,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 21
+        }
+      },
+      {
+        "lesson": 12,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 33
+        }
+      },
+      {
+        "lesson": 13,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 33
+        }
+      },
+      {
+        "lesson": 14,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 14
+        }
+      },
+      {
+        "lesson": 15,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 16
+        }
+      },
+      {
+        "lesson": 16,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 14
+        }
+      },
+      {
+        "lesson": 17,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 25
+        }
+      },
+      {
+        "lesson": 18,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 18
+        }
+      },
+      {
+        "lesson": 19,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 9
+        }
+      },
+      {
+        "lesson": 20,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 24
+        }
+      },
+      {
+        "lesson": 21,
+        "type": "translate",
+        "title": "Přeložit",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 14
+        }
+      }
+    ],
+    "exerciseLookupFail": [
+      {
+        "lesson": 8,
+        "type": "exercise_combined",
+        "title": "Übung / Cvičení",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 38
+        }
+      },
+      {
+        "lesson": 9,
+        "type": "exercise_combined",
+        "title": "Übung / Cvičení",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 9
+        }
+      },
+      {
+        "lesson": 13,
+        "type": "exercise",
+        "title": "Cvičení",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 12
+        }
+      },
+      {
+        "lesson": 16,
+        "type": "exercise",
+        "title": "Cvičení",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 16
+        }
+      },
+      {
+        "lesson": 17,
+        "type": "exercise",
+        "title": "Cvičení",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 5
+        }
+      },
+      {
+        "lesson": 18,
+        "type": "exercise",
+        "title": "Cvičení",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 8
+        }
+      },
+      {
+        "lesson": 19,
+        "type": "exercise",
+        "title": "Cvičení",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 2
+        }
+      },
+      {
+        "lesson": 20,
+        "type": "exercise",
+        "title": "Cvičení",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 17
+        }
+      },
+      {
+        "lesson": 21,
+        "type": "exercise",
+        "title": "Cvičení",
+        "registryHit": false,
+        "lookup": {
+          "found": true,
+          "cards": 0,
+          "reason": "title_not_in_registry",
+          "sectionCards": 15
+        }
+      }
+    ]
+  },
+  "uiResults": [
+    {
+      "id": "L1",
+      "key": "kurss.panelLabel",
+      "auditCurrent": "Kurs",
+      "ownerNew": "Kurz",
+      "production": "Kurs",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L1b",
+      "key": "kurss.title",
+      "auditCurrent": "Kurs",
+      "ownerNew": "Kurz",
+      "production": "Kurs",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L1c",
+      "key": "menu.course",
+      "auditCurrent": "Kurs",
+      "ownerNew": "Kurz",
+      "production": "Kurs",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L1d",
+      "key": "progress.courseHeading",
+      "auditCurrent": "Kurs",
+      "ownerNew": "Kurz",
+      "production": "Kurs",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L2",
+      "key": "kurss.back",
+      "auditCurrent": "‹ Kurz",
+      "ownerNew": "‹ Kurz",
+      "production": "‹ Kurz",
+      "status": "OWNER_NELABOT_RETAINED",
+      "verdict": "NELABOT"
+    },
+    {
+      "id": "L3",
+      "key": "kurss.tipTitle",
+      "auditCurrent": "Poradenství",
+      "ownerNew": "Tip",
+      "production": "Poradenství",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L4",
+      "key": "kurss.articles",
+      "auditCurrent": "Články",
+      "ownerNew": "Členy",
+      "production": "Články",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L5",
+      "key": "kurss.pronounsDesc",
+      "auditCurrent": "Formy nominativ, akkusativ a dativ.",
+      "ownerNew": "Tvary v nominativu, akuzativu a dativu.",
+      "production": "Formy nominativ, akkusativ a dativ.",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L6",
+      "key": "kurss.lessons",
+      "auditCurrent": "Přednášky",
+      "ownerNew": "Lekce",
+      "production": "Přednášky",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L7",
+      "key": "kurss.lessonsDesc",
+      "auditCurrent": "Výuka přednášek v sekvenčním pořadí od 1 do 21.",
+      "ownerNew": "Lekce v pořadí od 1 do 21.",
+      "production": "Výuka přednášek v sekvenčním pořadí od 1 do 21.",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L8",
+      "key": "kurss.verbBasicsDesc",
+      "auditCurrent": "Osoby, tvary a obecná slovesa.",
+      "ownerNew": "Osoby, tvary a běžná slovesa.",
+      "production": "Osoby, tvary a obecná slovesa.",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L9",
+      "key": "kurss.pronounsSubtitle",
+      "auditCurrent": "Nominativ, Akkusativ a Dativ - tvary zájmen.",
+      "ownerNew": "Tvary zájmen v nominativu, akuzativu a dativu.",
+      "production": "Nominativ, Akkusativ a Dativ - tvary zájmen.",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L10",
+      "key": "kurss.vowelsSubtitle",
+      "auditCurrent": "Samohlásky - dlouhé a krátké",
+      "ownerNew": "Dlouhé a krátké samohlásky",
+      "production": "Samohlásky - dlouhé a krátké",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L11",
+      "key": "kurss.lessonsSubtitle",
+      "auditCurrent": "Výuka přednášek v sekvenčním pořadí od 1 do 21.",
+      "ownerNew": "Lekce v pořadí od 1 do 21.",
+      "production": "Výuka přednášek v sekvenčním pořadí od 1 do 21.",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L12",
+      "key": "kurss.vowelsTitle",
+      "auditCurrent": "Samohlásky - dlouhé a krátké",
+      "ownerNew": "Dlouhé a krátké samohlásky",
+      "production": "Samohlásky - dlouhé a krátké",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L13",
+      "key": "kurss.consonantsDesc",
+      "auditCurrent": "Nejdůležitější zvuky souhlásek pro začátečníky.",
+      "ownerNew": "Nejdůležitější souhláskové zvuky pro začátečníky.",
+      "production": "Nejdůležitější zvuky souhlásek pro začátečníky.",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L14",
+      "key": "kurss.lessonProgress",
+      "auditCurrent": "Přednáška {lesson} · Přeložil: {current} / {total}",
+      "ownerNew": "Lekce {lesson} · Přeloženo: {current} / {total}",
+      "production": "Přednáška {lesson} · Přeložil: {current} / {total}",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L15",
+      "key": "kurss.exerciseProgress",
+      "auditCurrent": "Přednáška {lesson} · Cvičení",
+      "ownerNew": "Lekce {lesson} · Cvičení",
+      "production": "Přednáška {lesson} · Cvičení",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L16",
+      "key": "kurss.cta.tapContinue",
+      "auditCurrent": "Klepněte na pokračovat",
+      "ownerNew": "Klepněte na tlačítko Pokračovat",
+      "production": "Klepněte na pokračovat",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L17",
+      "key": "kurss.exerciseMeta.fillCase",
+      "auditCurrent": "Übung I - Použijte správnou konjugaci",
+      "ownerNew": "Cvičení I – použijte správný pád",
+      "production": "Übung I - Použijte správnou konjugaci",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L18",
+      "key": "kurss.exerciseMeta.chooseCasePlural",
+      "auditCurrent": "Dejte správnou konjugaci a udělejte z ní množné číslo!",
+      "ownerNew": "Doplňte správný pád a vytvořte množné číslo!",
+      "production": "Dejte správnou konjugaci a udělejte z ní množné číslo!",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L19",
+      "key": "kurss.exerciseMeta.translate",
+      "auditCurrent": "Übung II - přeložit",
+      "ownerNew": "Cvičení II – překlad",
+      "production": "Übung II - přeložit",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L20",
+      "key": "kurss.exerciseMeta.formDu",
+      "auditCurrent": "Formulář 1/3: Vy (jednotné číslo)",
+      "ownerNew": "Forma 1/3: Ty (jednotné číslo)",
+      "production": "Formulář 1/3: Vy (jednotné číslo)",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L21",
+      "key": "kurss.exerciseMeta.formIhr",
+      "auditCurrent": "Formulář 2/3: Vy (množné číslo)",
+      "ownerNew": "Forma 2/3: vy (množné číslo)",
+      "production": "Formulář 2/3: Vy (množné číslo)",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L22",
+      "key": "kurss.exerciseMeta.formSie",
+      "auditCurrent": "Forma 3/3: Sie (slušná forma)",
+      "ownerNew": "Forma 3/3: Sie (zdvořilá forma)",
+      "production": "Forma 3/3: Sie (slušná forma)",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L23",
+      "key": "kurss.lessonItems.1.title",
+      "auditCurrent": "Přednáška 1",
+      "ownerNew": "Lekce 1",
+      "production": "Přednáška 1",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L24",
+      "key": "kurss.lessonItems.1.menuDesc",
+      "auditCurrent": "Slovesa v přítomném čase, slova, gramatika a procvičování.",
+      "ownerNew": "Slovesa v přítomném čase, slovíčka, gramatika a procvičování.",
+      "production": "Slovesa v přítomném čase, slova, gramatika a procvičování.",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L25",
+      "key": "kurss.lessonItems.2.title",
+      "auditCurrent": "Přednáška 2",
+      "ownerNew": "Lekce 2",
+      "production": "Přednáška 2",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L26",
+      "key": "kurss.lessonItems.2.menuDesc",
+      "auditCurrent": "Dialogy, slova, výslovnost, gramatika a překlad.",
+      "ownerNew": "Dialogy, slovíčka, výslovnost, gramatika a překlad.",
+      "production": "Dialogy, slova, výslovnost, gramatika a překlad.",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L27",
+      "key": "kurss.lessonItems.3.title",
+      "auditCurrent": "Přednáška 3",
+      "ownerNew": "Lekce 3",
+      "production": "Přednáška 3",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L28",
+      "key": "kurss.lessonItems.3.menuDesc",
+      "auditCurrent": "Dialogy, slova, výslovnost, gramatika a překlad.",
+      "ownerNew": "Dialogy, slovíčka, výslovnost, gramatika a překlad.",
+      "production": "Dialogy, slova, výslovnost, gramatika a překlad.",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L29",
+      "key": "kurss.lessonItems.4.title",
+      "auditCurrent": "Přednáška 4",
+      "ownerNew": "Lekce 4",
+      "production": "Přednáška 4",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L30",
+      "key": "kurss.lessonItems.5.title",
+      "auditCurrent": "Přednáška 5",
+      "ownerNew": "Lekce 5",
+      "production": "Přednáška 5",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L31",
+      "key": "kurss.lessonItems.5.menuDesc",
+      "auditCurrent": "Wen?, akuzativ, sitzen, fragen a -in koncovka.",
+      "ownerNew": "Wen?, akuzativ, sitzen, fragen a koncovka -in.",
+      "production": "Wen?, akuzativ, sitzen, fragen a -in koncovka.",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L32",
+      "key": "kurss.lessonItems.6.title",
+      "auditCurrent": "Přednáška 6",
+      "ownerNew": "Lekce 6",
+      "production": "Přednáška 6",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L33",
+      "key": "kurss.lessonItems.7.title",
+      "auditCurrent": "Přednáška 7",
+      "ownerNew": "Lekce 7",
+      "production": "Přednáška 7",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L34",
+      "key": "kurss.lessonItems.7.menuDesc",
+      "auditCurrent": "Imperativ, forma adresy a množné číslo.",
+      "ownerNew": "Imperativ, způsob oslovení a množné číslo.",
+      "production": "Imperativ, forma adresy a množné číslo.",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L35",
+      "key": "kurss.lessonItems.8.title",
+      "auditCurrent": "Přednáška 8",
+      "ownerNew": "Lekce 8",
+      "production": "Přednáška 8",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L36",
+      "key": "kurss.lessonItems.8.menuDesc",
+      "auditCurrent": "Zvratná slovesa, e → i/ie záměna a akuzativ.",
+      "ownerNew": "Zvratná slovesa, střídání e → i/ie a akuzativ.",
+      "production": "Zvratná slovesa, e → i/ie záměna a akuzativ.",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L37",
+      "key": "kurss.lessonItems.9.title",
+      "auditCurrent": "Přednáška 9",
+      "ownerNew": "Lekce 9",
+      "production": "Přednáška 9",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L38",
+      "key": "kurss.lessonItems.10.title",
+      "auditCurrent": "Přednáška 10",
+      "ownerNew": "Lekce 10",
+      "production": "Přednáška 10",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L39",
+      "key": "kurss.lessonItems.11.title",
+      "auditCurrent": "Přednáška 11",
+      "ownerNew": "Lekce 11",
+      "production": "Přednáška 11",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L40",
+      "key": "kurss.lessonItems.11.menuDesc",
+      "auditCurrent": "Haben, kein/keine/keinen, přivlastňovací a složená podstatná jména.",
+      "ownerNew": "Haben, kein/keine/keinen, přivlastňovací zájmena a složená podstatná jména.",
+      "production": "Haben, kein/keine/keinen, přivlastňovací a složená podstatná jména.",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L41",
+      "key": "kurss.lessonItems.12.title",
+      "auditCurrent": "Přednáška 12",
+      "ownerNew": "Lekce 12",
+      "production": "Přednáška 12",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L42",
+      "key": "kurss.lessonItems.12.menuDesc",
+      "auditCurrent": "Srovnatelné stupně, als/wie, věk a barvy.",
+      "ownerNew": "Stupňování, als/wie, věk a barvy.",
+      "production": "Srovnatelné stupně, als/wie, věk a barvy.",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L43",
+      "key": "kurss.lessonItems.13.title",
+      "auditCurrent": "Přednáška 13",
+      "ownerNew": "Lekce 13",
+      "production": "Přednáška 13",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L44",
+      "key": "kurss.lessonItems.14.title",
+      "auditCurrent": "Přednáška 14",
+      "ownerNew": "Lekce 14",
+      "production": "Přednáška 14",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L45",
+      "key": "kurss.lessonItems.15.title",
+      "auditCurrent": "Přednáška 15",
+      "ownerNew": "Lekce 15",
+      "production": "Přednáška 15",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L46",
+      "key": "kurss.lessonItems.16.title",
+      "auditCurrent": "Přednáška 16",
+      "ownerNew": "Lekce 16",
+      "production": "Přednáška 16",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L47",
+      "key": "kurss.lessonItems.17.title",
+      "auditCurrent": "Přednáška 17",
+      "ownerNew": "Lekce 17",
+      "production": "Přednáška 17",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L48",
+      "key": "kurss.lessonItems.18.title",
+      "auditCurrent": "Přednáška 18",
+      "ownerNew": "Lekce 18",
+      "production": "Přednáška 18",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L49",
+      "key": "kurss.lessonItems.18.menuDesc",
+      "auditCurrent": "Wohin / wo, Akkusativ nebo Dativ s / in / auf.",
+      "ownerNew": "Wohin / wo, Akkusativ nebo Dativ s an / in / auf.",
+      "production": "Wohin / wo, Akkusativ nebo Dativ s / in / auf.",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L50",
+      "key": "kurss.lessonItems.19.title",
+      "auditCurrent": "Přednáška 19",
+      "ownerNew": "Lekce 19",
+      "production": "Přednáška 19",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L51",
+      "key": "kurss.lessonItems.20.title",
+      "auditCurrent": "Přednáška 20",
+      "ownerNew": "Lekce 20",
+      "production": "Přednáška 20",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    },
+    {
+      "id": "L52",
+      "key": "kurss.lessonItems.21.title",
+      "auditCurrent": "Přednáška 21",
+      "ownerNew": "Lekce 21",
+      "production": "Přednáška 21",
+      "status": "UNRESOLVED",
+      "verdict": "LABOT"
+    }
+  ],
+  "rendererResults": [
+    {
+      "id": "R1",
+      "registry": "COURSE_TRANSLATE_SECTION_TITLES",
+      "add": "Přeložit",
+      "inRegistry": false,
+      "status": "UNRESOLVED",
+      "precondition": null
+    },
+    {
+      "id": "R2",
+      "registry": "COURSE_EXERCISE_SECTION_TITLES",
+      "add": "Cvičení",
+      "inRegistry": false,
+      "status": "UNRESOLVED",
+      "precondition": null
+    },
+    {
+      "id": "R3",
+      "registry": "COURSE_EXERCISE_SECTION_TITLES",
+      "add": "Übung / Cvičení",
+      "inRegistry": false,
+      "status": "UNRESOLVED",
+      "precondition": "Add only if production section titles still use this string after UI COPY apply. Current data/cs/courseLessons.js uses Übung / Cvičení in lessons 8–9 structured sections and legacy lesson 7 HTML; also kurss.sections.exerciseCombined in ui.js. Until content removes Übung prefix, registry must include this variant for functional parity."
+    }
+  ]
+}
