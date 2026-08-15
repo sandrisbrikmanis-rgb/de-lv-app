@@ -1,0 +1,96 @@
+{
+  "batch": "study-0031-0040",
+  "cardIds": [
+    "b2-sich-heraushalten",
+    "b2-sich-herausstellen",
+    "b2-sich-hervortun",
+    "b2-sich-hingeben",
+    "b2-nachdruck",
+    "b2-sich-paaren",
+    "b2-sich-revanchieren",
+    "b2-sich-scheren",
+    "b2-sich-vereinigen",
+    "b2-sich-versehen"
+  ],
+  "findings": [
+    {
+      "cardId": "b2-sich-heraushalten",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-herausstellen",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-hervortun",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-hingeben",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-nachdruck",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-versehen",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 4
+}

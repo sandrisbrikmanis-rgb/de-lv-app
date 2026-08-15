@@ -1,0 +1,32 @@
+{
+  "batch": "simple-0851-0875",
+  "cardIds": [
+    "b2-Weltmacht-2050",
+    "b2-Werkbank-2054",
+    "b2-Werkhalle-2055",
+    "b2-Werktätige-2057",
+    "b2-Werkteil-2058",
+    "b2-widerlich-2068",
+    "b2-Wiederaufbau-2072",
+    "b2-wiedergeben-2073",
+    "b2-Willkür-2075",
+    "b2-Windbeutel-2076",
+    "b2-winden-2077",
+    "b2-zielbewusst-2078",
+    "b2-Zivildienst-2079",
+    "b2-zollfrei-2080",
+    "b2-zollpflichtig-2081",
+    "b2-Zucht-2082",
+    "b2-zuerkennen-2084",
+    "b2-Zusage-2091",
+    "b2-zusammenfügen-2092",
+    "b2-zusammenlegen-2093",
+    "b2-zuschneiden-2094",
+    "b2-zuströmen-2095",
+    "b2-zutrauen-2097",
+    "b2-zweckmäßig-2104",
+    "b2-Zwirn-2107"
+  ],
+  "findings": [],
+  "passCount": 25
+}

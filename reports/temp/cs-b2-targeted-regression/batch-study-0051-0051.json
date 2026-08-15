@@ -1,0 +1,22 @@
+{
+  "batch": "study-0051-0051",
+  "cardIds": [
+    "b2-verlaufen"
+  ],
+  "findings": [
+    {
+      "cardId": "b2-verlaufen",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 0
+}

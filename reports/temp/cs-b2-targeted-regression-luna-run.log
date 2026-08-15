@@ -1,0 +1,90 @@
+◇ injected env (1) from .env // tip: ⌘ override existing { override: true }
+◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+
+=== Target scope: 947 fields on 926 cards ===
+=== Raw mappings: 947, exclusions: 22/22 ===
+
+=== Per-target exact value checks ===
+APPLIED_VALUE_DRIFT: 49
+
+=== Full B2 deterministic integrity (2118/2118) ===
+{
+  "dataset": "b2",
+  "total": 2118,
+  "findings": 29,
+  "severity": {
+    "CRITICAL": 2,
+    "HIGH": 26,
+    "MEDIUM": 1,
+    "LOW": 0
+  },
+  "structural": true,
+  "germanIntegrity": true,
+  "outFile": "/workspace/reports/temp/cs-b2-audit/deterministic-audit.json"
+}
+
+=== GPT-5.6 Luna targeted audit (926 cards) ===
+  simple cards: 875 (18 batches)
+  study cards: 51 (6 batches)
+  luna simple-0001-0050: 50 cards, findings=1, pass=49, tokens=6510
+  luna simple-0051-0100: 50 cards, findings=0, pass=50, tokens=6748
+  luna simple-0101-0150: 50 cards, findings=0, pass=50, tokens=5995
+  luna simple-0151-0200: 50 cards, findings=50, pass=0, tokens=6978
+  luna simple-0201-0250: 50 cards, findings=2, pass=48, tokens=8439
+  luna simple-0251-0300: 50 cards, findings=50, pass=0, tokens=5824
+  luna simple-0301-0350: 50 cards, findings=0, pass=50, tokens=7260
+  luna simple-0351-0400: 50 cards, findings=1, pass=49, tokens=6000
+  luna simple-0401-0450: 50 cards, findings=0, pass=50, tokens=6113
+  luna simple-0451-0500: 50 cards, findings=3, pass=47, tokens=6197
+  luna simple-0501-0550: 50 cards, findings=0, pass=50, tokens=5525
+  luna simple-0551-0600: 50 cards, findings=4, pass=46, tokens=6897
+  luna simple-0601-0650: 50 cards, findings=50, pass=0, tokens=7064
+  luna simple-0651-0700: 50 cards, findings=2, pass=48, tokens=6738
+  luna simple-0701-0750: 50 cards, findings=3, pass=47, tokens=7034
+  luna simple-0751-0800: 50 cards, findings=1, pass=49, tokens=7398
+  luna simple-0801-0850: 50 cards, findings=1, pass=49, tokens=6730
+  luna simple-0851-0875: 25 cards, findings=0, pass=25, tokens=3208
+  luna study-0001-0010: 10 cards, findings=5, pass=5, tokens=7366
+  luna study-0011-0020: 10 cards, findings=3, pass=7, tokens=8149
+  luna study-0021-0030: 10 cards, findings=10, pass=0, tokens=7740
+  luna study-0031-0040: 10 cards, findings=6, pass=4, tokens=9033
+  luna study-0041-0050: 10 cards, findings=7, pass=3, tokens=13199
+  luna study-0051-0051: 1 cards, findings=1, pass=0, tokens=1404
+
+{
+  "verdict": "CS–DE B2 TARGETED REGRESSION = FINDINGS REMAIN / OWNER RESIDUAL REPAIR REQUIRED",
+  "rawChangedMappings": 947,
+  "uniqueFieldTargets": 947,
+  "uniqueCards": 926,
+  "mainFieldCount": 898,
+  "studyFieldCount": 49,
+  "scopeExclusions": 22,
+  "cardsAudited": 926,
+  "appliedValueDrift": 49,
+  "rawFindings": 265,
+  "validatedRealCount": 16,
+  "falsePositiveCount": 0,
+  "sourceDeIssueCount": 0,
+  "validated": {
+    "CRITICAL": 0,
+    "HIGH": 15,
+    "MEDIUM": 1,
+    "LOW": 0
+  },
+  "foreignRaw": 15,
+  "foreignValidated": 15,
+  "outsideUnexpected": 0,
+  "syntax": "PASS",
+  "idOrder": "PASS",
+  "cardCount": "2118/2118",
+  "studyParity": "PASS",
+  "mirrorParity": "PASS",
+  "deIntegrity": "PASS",
+  "deChanges": 0,
+  "productionChangesDuringAudit": 0,
+  "lunaRequests": 24,
+  "lunaTokens": 163549,
+  "overall": "FINDINGS"
+}
+
+Report: /workspace/reports/cs-b2-targeted-regression-audit.md
