@@ -6,14 +6,28 @@
 const fs = require("fs");
 const path = require("path");
 
-const DATA_ROOT = path.join(__dirname, "..", "www", "data");
+const DATA_ROOTS = [
+  path.join(__dirname, "..", "data"),
+  path.join(__dirname, "..", "www", "data"),
+];
 
 function listCourseLessonFiles() {
-  const files = [path.join(DATA_ROOT, "courseLessons.js")];
-  for (const entry of fs.readdirSync(DATA_ROOT, { withFileTypes: true })) {
-    if (entry.isDirectory()) {
-      const candidate = path.join(DATA_ROOT, entry.name, "courseLessons.js");
-      if (fs.existsSync(candidate)) files.push(candidate);
+  const files = [];
+  const seen = new Set();
+  for (const dataRoot of DATA_ROOTS) {
+    const base = path.join(dataRoot, "courseLessons.js");
+    if (fs.existsSync(base) && !seen.has(base)) {
+      files.push(base);
+      seen.add(base);
+    }
+    if (!fs.existsSync(dataRoot)) continue;
+    for (const entry of fs.readdirSync(dataRoot, { withFileTypes: true })) {
+      if (!entry.isDirectory()) continue;
+      const candidate = path.join(dataRoot, entry.name, "courseLessons.js");
+      if (fs.existsSync(candidate) && !seen.has(candidate)) {
+        files.push(candidate);
+        seen.add(candidate);
+      }
     }
   }
   return files.sort();
