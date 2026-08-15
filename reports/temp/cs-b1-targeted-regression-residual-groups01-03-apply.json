@@ -1,0 +1,793 @@
+{
+  "baselineSha": "87440e875948fcdef3ff3c0107608a1fa317d14d",
+  "applySha": null,
+  "prerequisite": {
+    "pass": true,
+    "exact": 1281,
+    "total": 1281
+  },
+  "summary": {
+    "groupsApplied": 3,
+    "targets": 116,
+    "appliedCards": 41,
+    "alreadyTargetCards": 75,
+    "exactTargetMatches": 116,
+    "currentValueMismatch": 0,
+    "diverged": 0,
+    "missing": 0,
+    "unexpectedChangedCards": 0,
+    "deChanges": 0,
+    "b1Total": 3367,
+    "syntax": "PASS",
+    "importLoad": "PASS",
+    "idUniqueness": "PASS",
+    "idOrder": "PASS",
+    "structure": "PASS",
+    "studyStructure": "PASS",
+    "sectionAccentsStructure": "PASS",
+    "deReadOnly": "PASS",
+    "overall": "PASS"
+  },
+  "groupResults": {
+    "01": {
+      "group": "01",
+      "specFile": "scripts/cs-b1-targeted-regression-residual-group01-spec.json",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 37,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0,
+      "divergedCards": [],
+      "missingCards": [],
+      "deChanges": 0,
+      "unexpectedChanges": 0
+    },
+    "02": {
+      "group": "02",
+      "specFile": "scripts/cs-b1-targeted-regression-residual-group02-spec.json",
+      "requested": 50,
+      "currentMatches": 50,
+      "applied": 3,
+      "exact": 50,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0,
+      "divergedCards": [],
+      "missingCards": [],
+      "deChanges": 0,
+      "unexpectedChanges": 0
+    },
+    "03": {
+      "group": "03",
+      "specFile": "scripts/cs-b1-targeted-regression-residual-group03-spec.json",
+      "requested": 16,
+      "currentMatches": 16,
+      "applied": 1,
+      "exact": 16,
+      "currentValueMismatch": 0,
+      "diverged": 0,
+      "missing": 0,
+      "divergedCards": [],
+      "missingCards": [],
+      "deChanges": 0,
+      "unexpectedChanges": 0
+    }
+  },
+  "specs": [
+    {
+      "group": "01",
+      "specPath": "scripts/cs-b1-targeted-regression-residual-group01-spec.json",
+      "cardCount": 50
+    },
+    {
+      "group": "02",
+      "specPath": "scripts/cs-b1-targeted-regression-residual-group02-spec.json",
+      "cardCount": 50
+    },
+    {
+      "group": "03",
+      "specPath": "scripts/cs-b1-targeted-regression-residual-group03-spec.json",
+      "cardCount": 16
+    }
+  ],
+  "results": [
+    {
+      "group": "01",
+      "productionIndex": 263,
+      "cardId": "b1-bedeutend",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 339,
+      "cardId": "b1-sich-bemühen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 353,
+      "cardId": "b1-bereich",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 363,
+      "cardId": "b1-berichten",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 382,
+      "cardId": "b1-beschwerde",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 396,
+      "cardId": "b1-bestehen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 443,
+      "cardId": "b1-bildschirm",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 455,
+      "cardId": "b1-blase",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 552,
+      "cardId": "b1-dadurch",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 559,
+      "cardId": "b1-dank-study",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 628,
+      "cardId": "b1-durchführen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 667,
+      "cardId": "b1-einerlei",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 670,
+      "cardId": "b1-einfallen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 673,
+      "cardId": "b1-einfügen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 674,
+      "cardId": "b1-einführen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 675,
+      "cardId": "b1-einführung",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 679,
+      "cardId": "b1-einheit",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 708,
+      "cardId": "b1-einsetzen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 740,
+      "cardId": "b1-empfangen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 750,
+      "cardId": "b1-entfernen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 761,
+      "cardId": "b1-entsprechen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 762,
+      "cardId": "b1-entstehen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 821,
+      "cardId": "b1-ersetzen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 893,
+      "cardId": "b1-feststellen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 929,
+      "cardId": "b1-folge",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 932,
+      "cardId": "b1-fördern",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 951,
+      "cardId": "b1-fressen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 994,
+      "cardId": "b1-gebiet",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 1247,
+      "cardId": "b1-herausgeben",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 1276,
+      "cardId": "b1-hinweis",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 1314,
+      "cardId": "b1-hort",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 1329,
+      "cardId": "b1-hupe",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 1570,
+      "cardId": "b1-kommando",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 1634,
+      "cardId": "b1-kreuzen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 1660,
+      "cardId": "b1-kunde-2",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 1665,
+      "cardId": "b1-kündigen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 1675,
+      "cardId": "b1-kuppeln",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 1679,
+      "cardId": "b1-kurs",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 1682,
+      "cardId": "b1-kürze",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 1700,
+      "cardId": "b1-laden",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 1704,
+      "cardId": "b1-lager",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 1708,
+      "cardId": "b1-hörer",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 1709,
+      "cardId": "b1-inhalt",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 1710,
+      "cardId": "b1-kante",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 1711,
+      "cardId": "b1-kastanie",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 1712,
+      "cardId": "b1-kosten-study",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 1715,
+      "cardId": "b1-landen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "01",
+      "productionIndex": 1736,
+      "cardId": "b1-laut-study",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 2130,
+      "cardId": "b1-pochen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "01",
+      "productionIndex": 2216,
+      "cardId": "b1-rasen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2478,
+      "cardId": "b1-schmelzen",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2538,
+      "cardId": "b1-schützen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2546,
+      "cardId": "b1-schwanken",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2599,
+      "cardId": "b1-senden",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2603,
+      "cardId": "b1-senken",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2630,
+      "cardId": "b1-sinn",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2634,
+      "cardId": "b1-sitz",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2655,
+      "cardId": "b1-sich-sorgen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2660,
+      "cardId": "b1-sowie-2660",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2668,
+      "cardId": "b1-spannung",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2676,
+      "cardId": "b1-speichern",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2684,
+      "cardId": "b1-sperren",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2689,
+      "cardId": "b1-spitze",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2704,
+      "cardId": "b1-spritzen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2706,
+      "cardId": "b1-sprung",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2723,
+      "cardId": "b1-stand",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2743,
+      "cardId": "b1-stellung",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2758,
+      "cardId": "b1-stift",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2762,
+      "cardId": "b1-stillen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2776,
+      "cardId": "b1-stoßen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2790,
+      "cardId": "b1-streichen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2804,
+      "cardId": "b1-strom",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2819,
+      "cardId": "b1-stürzen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2830,
+      "cardId": "b1-szene",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2856,
+      "cardId": "b1-tau",
+      "status": "APPLIED"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2860,
+      "cardId": "b1-tauchen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2863,
+      "cardId": "b1-taufen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2872,
+      "cardId": "b1-teilnehmen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2891,
+      "cardId": "b1-titel",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2896,
+      "cardId": "b1-ton",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2906,
+      "cardId": "b1-trauen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2912,
+      "cardId": "b1-treiben",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2914,
+      "cardId": "b1-trennen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2949,
+      "cardId": "b1-übergeben",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2951,
+      "cardId": "b1-überholen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2954,
+      "cardId": "b1-übernehmen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2957,
+      "cardId": "b1-übersehen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2974,
+      "cardId": "b1-umgehen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 2982,
+      "cardId": "b1-umschlag",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 3022,
+      "cardId": "b1-unterhalten",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 3028,
+      "cardId": "b1-untersuchung",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 3040,
+      "cardId": "b1-verändern",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 3045,
+      "cardId": "b1-verband",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 3047,
+      "cardId": "b1-verbindung",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 3055,
+      "cardId": "b1-verbrennen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 3058,
+      "cardId": "b1-verderben",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 3063,
+      "cardId": "b1-verfolgen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 3072,
+      "cardId": "b1-verhältnis",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 3088,
+      "cardId": "b1-verlegen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "02",
+      "productionIndex": 3089,
+      "cardId": "b1-verletzen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "03",
+      "productionIndex": 3107,
+      "cardId": "b1-versichern",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "03",
+      "productionIndex": 3127,
+      "cardId": "b1-vertreten",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "03",
+      "productionIndex": 3171,
+      "cardId": "b1-vorstellung",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "03",
+      "productionIndex": 3176,
+      "cardId": "b1-vorziehen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "03",
+      "productionIndex": 3178,
+      "cardId": "b1-wache",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "03",
+      "productionIndex": 3179,
+      "cardId": "b1-wachen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "03",
+      "productionIndex": 3185,
+      "cardId": "b1-wagen",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "03",
+      "productionIndex": 3235,
+      "cardId": "b1-welle",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "03",
+      "productionIndex": 3241,
+      "cardId": "b1-wenden",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "03",
+      "productionIndex": 3244,
+      "cardId": "b1-werben",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "03",
+      "productionIndex": 3245,
+      "cardId": "b1-werk",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "03",
+      "productionIndex": 3270,
+      "cardId": "b1-zeugnis",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "03",
+      "productionIndex": 3292,
+      "cardId": "b1-zugeben",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "03",
+      "productionIndex": 3296,
+      "cardId": "b1-zünden",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "03",
+      "productionIndex": 3299,
+      "cardId": "b1-zusammenhang",
+      "status": "ALREADY_TARGET"
+    },
+    {
+      "group": "03",
+      "productionIndex": 3344,
+      "cardId": "b1-sich-befinden-study",
+      "status": "APPLIED"
+    }
+  ]
+}

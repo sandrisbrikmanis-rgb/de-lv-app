@@ -6521,9 +6521,7 @@ const B1_WORDS = [
           }
         ],
         "explanation": {
-          "blue": [
-            "beudeuten"
-          ],
+          "blue": [],
           "purple": [
             "Hlavní",
             "Hlavní",
@@ -6582,9 +6580,7 @@ const B1_WORDS = [
           ]
         },
         "important": {
-          "purple": [
-            "Beedeuten"
-          ]
+          "purple": []
         }
       }
     }
@@ -7853,8 +7849,7 @@ const B1_WORDS = [
             "sich bemühen"
           ],
           "red": [
-            "Hlavní",
-            "zu + infinitiv"
+            "Hlavní"
           ],
           "purple": [
             "Hlavní",
@@ -8573,8 +8568,7 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "Berichten",
-            "von + kam?"
+            "Berichten"
           ]
         }
       }
@@ -9343,10 +9337,7 @@ const B1_WORDS = [
           ]
         },
         "important": {
-          "purple": [
-            "Beschwerten",
-            "Beschwerten"
-          ]
+          "purple": []
         }
       }
     }
@@ -9705,9 +9696,7 @@ const B1_WORDS = [
           }
         ],
         "explanation": {
-          "blue": [
-            "besten"
-          ],
+          "blue": [],
           "purple": [
             "Hlavní",
             "Hlavní",
@@ -9768,9 +9757,7 @@ const B1_WORDS = [
           ]
         },
         "important": {
-          "purple": [
-            "besten"
-          ]
+          "purple": []
         }
       }
     }
@@ -10784,9 +10771,7 @@ const B1_WORDS = [
       },
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "der Bildschimmer"
-          ],
+          "blue": [],
           "purple": [
             "Hlavní"
           ]
@@ -13044,9 +13029,7 @@ const B1_WORDS = [
           ]
         },
         "important": {
-          "purple": [
-            "Deruch"
-          ]
+          "purple": []
         }
       }
     }
@@ -13644,13 +13627,7 @@ const B1_WORDS = [
             ]
           },
           "lv": {
-            "purple": [
-              "Hlavní",
-              "Hlavní",
-              "Hlavní",
-              "Hlavní",
-              "Hlavní"
-            ]
+            "purple": []
           }
         },
         "examples": [
@@ -15685,9 +15662,7 @@ const B1_WORDS = [
           ]
         },
         "important": {
-          "purple": [
-            "Gerünfung"
-          ]
+          "purple": []
         }
       }
     }
@@ -16815,7 +16790,6 @@ const B1_WORDS = [
         ],
         "explanation": {
           "blue": [
-            "einerle",
             "egal"
           ],
           "purple": [
@@ -16823,7 +16797,6 @@ const B1_WORDS = [
             "Hlavní"
           ],
           "red": [
-            "formálně",
             "Hlavní"
           ]
         },
@@ -16878,9 +16851,7 @@ const B1_WORDS = [
           ]
         },
         "important": {
-          "purple": [
-            "Einerle"
-          ]
+          "purple": []
         }
       }
     }
@@ -17315,9 +17286,7 @@ const B1_WORDS = [
               "yellow": [
                 "Name"
               ],
-              "green": [
-                "mir"
-              ]
+              "green": []
             },
             "lv": {
               "purple": [
@@ -17351,18 +17320,10 @@ const B1_WORDS = [
           }
         ],
         "explanation": {
-          "blue": [
-            "einfallen"
-          ],
-          "red": [
-            "dativu"
-          ],
-          "green": [
-            "mir"
-          ],
-          "purple": [
-            "Hlavní"
-          ]
+          "blue": [],
+          "red": [],
+          "green": [],
+          "purple": []
         },
         "comparison": [
           {
@@ -17390,9 +17351,7 @@ const B1_WORDS = [
           ]
         },
         "important": {
-          "purple": [
-            "mir"
-          ]
+          "purple": []
         }
       }
     }
@@ -17896,10 +17855,7 @@ const B1_WORDS = [
           ]
         },
         "important": {
-          "purple": [
-            "Einfügen",
-            "Einfügen"
-          ]
+          "purple": []
         }
       }
     }
@@ -18033,26 +17989,14 @@ const B1_WORDS = [
           }
         ],
         "explanation": {
-          "blue": [
-            "einführen"
-          ],
-          "purple": [
-            "Hlavní",
-            "Hlavní"
-          ],
-          "yellow": [
-            "Hlavní",
-            "Hlavní",
-            "metodu",
-            "Hlavní"
-          ]
+          "blue": [],
+          "purple": [],
+          "yellow": []
         },
         "comparison": [
           {
             "word": {
-              "green": [
-                "einführen"
-              ]
+              "green": []
             },
             "meaning": {
               "purple": [
@@ -18219,15 +18163,8 @@ const B1_WORDS = [
           "blue": [
             "Einführung"
           ],
-          "purple": [
-            "Hlavní",
-            "Hlavní"
-          ],
-          "yellow": [
-            "Hlavní",
-            "kurzu",
-            "Hlavní"
-          ]
+          "purple": [],
+          "yellow": []
         },
         "comparison": [
           {
@@ -18966,14 +18903,8 @@ const B1_WORDS = [
           "blue": [
             "Einheit"
           ],
-          "purple": [
-            "Hlavní",
-            "Hlavní"
-          ],
-          "yellow": [
-            "Hlavní",
-            "Hlavní"
-          ]
+          "purple": [],
+          "yellow": []
         },
         "comparison": [
           {
@@ -19976,7 +19907,6 @@ const B1_WORDS = [
             "Hlavní"
           ],
           "yellow": [
-            "technika",
             "Hlavní",
             "Hlavní"
           ],
@@ -20942,7 +20872,6 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "formálně",
             "Empfangen",
             "Empfangen"
           ]
@@ -21120,8 +21049,7 @@ const B1_WORDS = [
         ],
         "explanation": {
           "blue": [
-            "entfernen",
-            "sich entfernen"
+            "entfernen"
           ],
           "purple": [
             "Hlavní",
@@ -21160,9 +21088,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": [
-                "sich entfernen"
-              ]
+              "green": []
             },
             "meaning": {
               "purple": [
@@ -21928,8 +21854,7 @@ const B1_WORDS = [
           "red": [
             "dativ",
             "dem Plan",
-            "den Regeln",
-            "unseren Erwantungen"
+            "den Regeln"
           ],
           "yellow": [
             "Hlavní",
@@ -22139,9 +22064,7 @@ const B1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "Vzniknout"
-              ]
+              "purple": []
             }
           },
           {
@@ -22181,9 +22104,7 @@ const B1_WORDS = [
           ]
         },
         "important": {
-          "purple": [
-            "Vzniknout"
-          ]
+          "purple": []
         }
       }
     }
@@ -23169,9 +23090,7 @@ const B1_WORDS = [
           }
         ],
         "explanation": {
-          "blue": [
-            "ersensen"
-          ],
+          "blue": [],
           "purple": [
             "Hlavní",
             "Hlavní"
@@ -24482,8 +24401,7 @@ const B1_WORDS = [
             "Hlavní",
             "Hlavní",
             "analýzou",
-            "Hlavní",
-            "cenu"
+            "Hlavní"
           ]
         },
         "comparison": [
@@ -24540,10 +24458,7 @@ const B1_WORDS = [
           ]
         },
         "important": {
-          "purple": [
-            "Verzetten",
-            "Verzetten"
-          ]
+          "purple": []
         }
       }
     }
@@ -24880,27 +24795,18 @@ const B1_WORDS = [
         ],
         "explanation": {
           "blue": [
-            "die Folge",
             "Folge"
           ],
-          "purple": [
-            "Hlavní",
-            "Hlavní",
-            "Hlavní"
-          ],
+          "purple": [],
           "yellow": [
-            "Hlavní",
             "seriálu",
-            "Hlavní",
             "podcastu"
           ]
         },
         "comparison": [
           {
             "word": {
-              "green": [
-                "die Folge"
-              ]
+              "green": []
             },
             "meaning": {
               "purple": [
@@ -25094,8 +25000,6 @@ const B1_WORDS = [
             "Hlavní"
           ],
           "yellow": [
-            "projektu",
-            "procesu",
             "Hlavní",
             "Hlavní"
           ]
@@ -25616,9 +25520,7 @@ const B1_WORDS = [
           ]
         },
         "important": {
-          "purple": [
-            "Běžní"
-          ]
+          "purple": []
         }
       }
     }
@@ -31060,8 +30962,7 @@ const B1_WORDS = [
           ],
           "yellow": [
             "Hlavní",
-            "Hlavní",
-            "informaci"
+            "Hlavní"
           ]
         },
         "comparison": [
@@ -31773,10 +31674,7 @@ const B1_WORDS = [
           ]
         },
         "important": {
-          "purple": [
-            "Der",
-            "Der"
-          ]
+          "purple": []
         }
       }
     }
@@ -32433,16 +32331,9 @@ const B1_WORDS = [
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "der Hort"
-          ],
-          "purple": [
-            "Hlavní",
-            "Hlavní"
-          ],
-          "red": [
-            "der Kindergarten"
-          ]
+          "blue": [],
+          "purple": [],
+          "red": []
         },
         "examples": [
           {
@@ -32508,9 +32399,7 @@ const B1_WORDS = [
         ],
         "tip": [
           {
-            "blue": [
-              "der Hort"
-            ]
+            "blue": []
           },
           {
             "red": [
@@ -32520,9 +32409,7 @@ const B1_WORDS = [
         ],
         "important": [
           {
-            "blue": [
-              "der Hort"
-            ],
+            "blue": [],
             "red": [
               "Kindergarten"
             ]
@@ -32688,8 +32575,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "die Hupe",
-            "hupen"
+            "die Hupe"
           ],
           "purple": [
             "Hlavní",
@@ -37229,8 +37115,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "kreuzen",
-            "sich kreuzen"
+            "kreuzen"
           ],
           "purple": [
             "Hlavní",
@@ -37835,8 +37720,7 @@ const B1_WORDS = [
           "purple": "",
           "yellow": [
             "",
-            "",
-            "abonementu"
+            ""
           ]
         },
         "examples": [
@@ -37918,11 +37802,7 @@ const B1_WORDS = [
         "tip": {
           "blue": "kündigen",
           "purple": "Úloha",
-          "yellow": [
-            "Úloha",
-            "Úloha",
-            "Úloha"
-          ]
+          "yellow": []
         },
         "important": {
           "blue": "kündigen",
@@ -38192,8 +38072,7 @@ const B1_WORDS = [
           "purple": "kurss",
           "yellow": [
             "Hlavní",
-            "Hlavní",
-            "cenu"
+            "Hlavní"
           ]
         },
         "examples": [
@@ -38267,18 +38146,13 @@ const B1_WORDS = [
         "tip": {
           "blue": "der Kurs",
           "purple": "Školení",
-          "yellow": [
-            "Školení",
-            "Školení",
-            "cena"
-          ]
+          "yellow": []
         },
         "important": {
           "purple": "konteksts",
           "yellow": [
             "češtině",
-            "češtině",
-            "cenu"
+            "češtině"
           ]
         }
       }
@@ -38343,14 +38217,8 @@ const B1_WORDS = [
       "important": "Die Kürze by se neměla učit na přední straně",
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "die Kürze",
-            "Hlavní"
-          ],
-          "purple": [
-            "Hlavní",
-            "Hlavní"
-          ],
+          "blue": [],
+          "purple": [],
           "red": "die"
         },
         "examples": [
@@ -38422,14 +38290,8 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "die Kürze",
-            "Die"
-          ],
-          "purple": [
-            "Die",
-            "Die"
-          ]
+          "blue": [],
+          "purple": []
         },
         "important": {
           "blue": "die Kürze",
@@ -38764,14 +38626,8 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "der Inhalt",
-          "purple": [
-            "Hlavní",
-            "Hlavní"
-          ],
-          "yellow": [
-            "Hlavní",
-            "Hlavní"
-          ]
+          "purple": [],
+          "yellow": []
         },
         "examples": [
           {
@@ -38990,16 +38846,9 @@ const B1_WORDS = [
       "important": "kosten = stát (sloveso).",
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "die Kosten"
-          ],
-          "purple": [
-            "Hlavní",
-            "Hlavní"
-          ],
-          "green": [
-            "kosten"
-          ]
+          "blue": [],
+          "purple": [],
+          "green": []
         },
         "examples": [
           {
@@ -39053,31 +38902,21 @@ const B1_WORDS = [
         ],
         "tip": [
           {
-            "blue": [
-              "die Kosten"
-            ]
+            "blue": []
           },
           {
-            "green": [
-              "kosten"
-            ]
+            "green": []
           }
         ],
         "important": [
           {
-            "blue": [
-              "die Kosten"
-            ]
+            "blue": []
           },
           {
-            "green": [
-              "kosten"
-            ]
+            "green": []
           },
           {
-            "blue": [
-              "die Kosten"
-            ]
+            "blue": []
           }
         ]
       }
@@ -39300,23 +39139,17 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "green": [
-            "der Laut",
             "laut"
           ],
-          "purple": [
-            "Hlavní",
-            "Hlavní"
-          ],
+          "purple": [],
           "yellow": [
-            "Laut",
-            "Laute"
+            "Laut"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "der Laut",
                 "laut"
               ]
             },
@@ -39365,7 +39198,6 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "der Laut",
                 "laut"
               ]
             },
@@ -44384,10 +44216,7 @@ const B1_WORDS = [
             "pocht",
             "pocht auf"
           ],
-          "yellow": [
-            "Pochta",
-            "Pochta"
-          ]
+          "yellow": []
         },
         "important": {
           "blue": "pochen",
@@ -49354,10 +49183,7 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "Self",
-            "Self"
-          ]
+          "purple": []
         },
         "important": {
           "blue": "schmelzen",
@@ -51822,7 +51648,8 @@ const B1_WORDS = [
     "de": "sowie",
     "lv": "Stejně jako",
     "level": "B1",
-    "study": "Sowie nejčastěji znamená také nebo i a spojuje dvě věci."
+    "study": "Sowie nejčastěji znamená také nebo i a spojuje dvě věci.",
+    "structure": "Restore parity with LV structure"
   },
   {
     "de": "sowieso",
@@ -55148,15 +54975,9 @@ const B1_WORDS = [
       },
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "der Tau"
-          ],
-          "purple": [
-            "Hlavní"
-          ],
-          "green": [
-            "das Tau"
-          ]
+          "blue": [],
+          "purple": [],
+          "green": []
         },
         "examples": [
           {
@@ -65371,9 +65192,7 @@ const B1_WORDS = [
         "examples": [
           {
             "de": {
-              "blue": [
-                "befindet sich"
-              ]
+              "blue": []
             },
             "lv": {
               "purple": [
@@ -65383,9 +65202,7 @@ const B1_WORDS = [
           },
           {
             "de": {
-              "blue": [
-                "befindet sich"
-              ]
+              "blue": []
             },
             "lv": {
               "purple": [
@@ -65395,9 +65212,7 @@ const B1_WORDS = [
           },
           {
             "de": {
-              "blue": [
-                "befindet sich"
-              ]
+              "blue": []
             },
             "lv": {
               "purple": [
@@ -65407,9 +65222,7 @@ const B1_WORDS = [
           },
           {
             "de": {
-              "blue": [
-                "befindet sich"
-              ]
+              "blue": []
             },
             "lv": {
               "purple": [
@@ -65419,9 +65232,7 @@ const B1_WORDS = [
           },
           {
             "de": {
-              "red": [
-                "fühle mich"
-              ]
+              "red": []
             },
             "lv": {
               "purple": [
@@ -65455,9 +65266,7 @@ const B1_WORDS = [
               ]
             },
             "example": {
-              "blue": [
-                "befindet sich"
-              ],
+              "blue": [],
               "purple": [
                 "Das"
               ]
@@ -65538,9 +65347,7 @@ const B1_WORDS = [
               ]
             },
             "example": {
-              "red": [
-                "fühle mich"
-              ],
+              "red": [],
               "purple": [
                 "Ich"
               ]
@@ -65585,15 +65392,9 @@ const B1_WORDS = [
               ]
             },
             "example": {
-              "blue": [
-                "befindet sich"
-              ],
-              "red": [
-                "fühle mich"
-              ],
-              "purple": [
-                "atrodas"
-              ]
+              "blue": [],
+              "red": [],
+              "purple": []
             }
           }
         ]
