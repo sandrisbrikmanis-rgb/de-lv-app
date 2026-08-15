@@ -1458,9 +1458,9 @@ Saal (zāl) — zāle
 Příklad neukazuje, jak se německé z vyslovuje. Přepis „zāl“ je ACCURATE_APPROXIMATION pro [zaːl] v běžném českém výslovnostním systému a zároveň odděluje výslovnost od významu.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Saal (zál) — sál
+**OWNER note:** Duplicate target — apply once (same as #050).
 
 ---
 
@@ -1486,9 +1486,9 @@ Saat (zāt) — sēja
 Saat obsahuje dlouhé německé [aː], nikoli dvojhlásku. Přepis „zeť“ je navíc významově i výslovnostně chybný; české slovo „zeť“ se zde nemá používat.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Saat (zát) — setí
+**OWNER note:** 
 
 ---
 
@@ -1514,9 +1514,9 @@ Staat (štāt) — valsts
 Staat znamená „stát“ ve smyslu země/státní útvar, nikoli obecně „země“. Výslovnost obsahuje dlouhé [aː], takže nejde o dvojhlásku.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Staat (štát) — stát
+**OWNER note:** 
 
 ---
 
@@ -1542,9 +1542,9 @@ Boot (bōt) — laiva
 Boot má dlouhé [uː], nikoli dvojhlásku. Karta je proto zařazena pod nesprávné téma „Dvojhlásky“.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** NELABOT
+**OWNER NEW:** 
+**OWNER note:** Sekcijas klasifikācija (Boot/Moor/Moos = garie monoftongi, ne divskaņi) — nav konkrēta lv lauka teksta LABOT.
 
 ---
 
@@ -1570,9 +1570,9 @@ Moor (mōr) — purvs
 Moor obsahuje dlouhou samohlásku [oː], nikoli dvojhlásku. Karta je zařazena pod nesprávné téma.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** NELABOT
+**OWNER NEW:** 
+**OWNER note:** Same as #054 — sekcijas tēma, ne kartītes teksts.
 
 ---
 
@@ -1598,9 +1598,9 @@ Moos (mōs) — sūnas
 Moos obsahuje dlouhé [oː], nikoli dvojhlásku. Karta je zařazena pod nesprávné téma.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** NELABOT
+**OWNER NEW:** 
+**OWNER note:** Same as #054 — sekcijas tēma, ne kartītes teksts.
 
 ---
 
@@ -1626,9 +1626,9 @@ Dubultie patskaņi parasti tiek izrunāti gari.
 Německé dvojhlásky se nevyslovují jako dlouhé jednoduché samohlásky. Jde o spojení dvou samohláskových prvků, například [aɪ̯], [aʊ̯] nebo [ɔʏ̯]. Současné tvrzení může vést k nesprávné výslovnosti.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Německé dvojhlásky se vyslovují jako spojení dvou samohláskových zvuků v jedné slabice.
+**OWNER note:** 
 
 ---
 
@@ -1654,9 +1654,9 @@ Vater (fāter) — tēvs
 Vater je správný německý příklad, ale závorka obsahuje pouze český překlad „otec“, nikoli výslovnostní přepis. Karta proto neukazuje, jak se německé a vyslovuje.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Vater (fátr) — otec
+**OWNER note:** 
 
 ---
 
@@ -1682,9 +1682,9 @@ Schrank (šrank) — skapis
 Přepis „shrank“ používá anglické „sh“, které není přirozený český výslovnostní přepis. Německé sch se v této kartě vyslovuje [š].
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Schrank (šrank) — skříň
+**OWNER note:** 
 
 ---
 
@@ -1710,9 +1710,9 @@ Schränke (šrenke) — skapji
 Přepis „schrenke“ používá anglické „sch“ místo českého „š“ a zároveň dostatečně neodlišuje německé ä od běžného e. Německé Schränke obsahuje [š] a dlouhé otevřené [ɛː] v první slabice.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Schränke (šrénke) — skříně
+**OWNER note:** 
 
 ---
 
@@ -1738,9 +1738,9 @@ Tal (tāl) — ieleja
 Tal znamená „údolí“, zatímco „daleko“ je chybný český význam. Závorka navíc není výslovnostní přepis; správně je třeba uvést dlouhé německé a.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Tal (tál) — údolí
+**OWNER note:** 
 
 ---
 
@@ -1766,9 +1766,9 @@ Tal znamená „údolí“, zatímco „daleko“ je chybný český význam. Z�
 „Transpozice“ není vhodný český termín pro německou přehlásku a věta nevysvětluje, jak se ä vyslovuje. Začátečník se dozví pouze neurčité přirovnání k písmenu a, nikoli rozdíl ve zvuku.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ä je přehláska písmene a. Vyslovuje se podobně jako české e.
+**OWNER note:** 
 
 ---
 
@@ -1794,9 +1794,9 @@ Röschen (rēschen) — rozīte
 Přepis „rēschen“ neukazuje německé ö a používá cizí anglické „sch“. Německé sch se vyslovuje [š]; příklad má zároveň demonstrovat zaokrouhlenou přední samohlásku ö.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Röschen (röšen) — růžička
+**OWNER note:** 
 
 ---
 
@@ -1822,9 +1822,9 @@ Röschen (rēschen) — rozīte
 Röschen je zdrobnělina od Rose, tedy „růžička“ nebo „malá růže“. Překlad „rozeta“ není pro začátečníka vhodný a mění význam příkladu.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Röschen (röšen) — růžička
+**OWNER note:** Duplicate target — apply once (same as #063).
 
 ---
 
@@ -1850,9 +1850,9 @@ Röschen je zdrobnělina od Rose, tedy „růžička“ nebo „malá růže“.
 Zápis „öfen“ pouze opakuje německé písmeno ö; neposkytuje českému začátečníkovi srozumitelnou výslovnost ani neoznačuje, že v Öfen je dlouhé ö (/øː/). Jako výslovnostní aproximace je proto nedostatečný (PEDAGOGICALLY_ACCEPTABLE pouze v případě, že byla výslovnost ö vysvětlena bezprostředně předtím).
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** NELABOT
+**OWNER NEW:** 
+**OWNER note:** Piemērs paliek; ö artikulāciju labo #068.
 
 ---
 
@@ -1878,9 +1878,9 @@ Rock (rok) — svārki
 Zápis „rök“/„rok“ v aktuální podobě „rok“ neukazuje německé krátké ö (/œ/) v Rock? Pozor: německé slovo Rock samo obsahuje o, nikoli ö, takže je vhodným kontrastním příkladem, ale kontrast musí být pro začátečníka výslovně označen.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** NELABOT
+**OWNER NEW:** 
+**OWNER note:** Piemērs paliek; ö skaidrojums #068.
 
 ---
 
@@ -1906,9 +1906,9 @@ Röcke (röke) — svārki
 Zápis „röke“ ponechává německé ö bez vysvětlení jeho hodnoty (/œ/). Jako česká výslovnostní pomůcka je proto neúplný; samotné zachování písmene ö začátečníkovi neříká, jak hlásku vyslovit. Aproximace je nanejvýš PEDAGOGICALLY_ACCEPTABLE po předchozím výkladu ö.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** NELABOT
+**OWNER NEW:** 
+**OWNER note:** Piemērs paliek; ö skaidrojums #068.
 
 ---
 
@@ -1934,9 +1934,9 @@ Zápis „röke“ ponechává německé ö bez vysvětlení jeho hodnoty (/œ/)
 „Ladění“ není v češtině přirozený ani odborně vhodný termín pro německou přehlásku. Věta také nevysvětluje skutečný zvuk ö ani jeho rozdíl oproti o.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ö je přehláska písmene o. Vyslovuje se podobně jako české e, ale se zaokrouhlenými rty.
+**OWNER note:** 
 
 ---
 
@@ -1962,9 +1962,9 @@ kürzer (kurcer) — īsāks
 V „Kürzer (kurcer)“ je ü nahrazeno českým u. To je MISLEADING_APPROXIMATION: německé krátké ü (/ʏ/) není české /u/, ale přední zaokrouhlená samohláska, přibližně mezi i a u. Zápis „c“ pro /ts/ je naopak použitelný.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Kürzer (kürcer) — kratší
+**OWNER note:** 
 
 ---
 
@@ -1990,9 +1990,9 @@ Künste (künste) — mākslas
 „Künste (künste)“ opakuje německé ü a neuvádí jeho výslovnostní hodnotu. Písmeno ü není českému začátečníkovi samo o sobě návodem k výslovnosti; je třeba uvést, že jde o krátké přední zaokrouhlené ü (/ʏ/).
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** NELABOT
+**OWNER NEW:** 
+**OWNER note:** Künste paliek piemērs; ü skaidrojums #072.
 
 ---
 
@@ -2018,9 +2018,9 @@ Mütter (mutter) — mātes
 „Mütter (mumlat)“ není výslovnostní přepis, ale české sloveso „mumlat“, které navíc významově nesouvisí s německou výslovností ani s překladem „matky“. Jde o zjevnou chybu v kartě; aktuální zápis je pro začátečníka MISLEADING_APPROXIMATION.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Mütter (müter) — matky
+**OWNER note:** 
 
 ---
 
@@ -2050,9 +2050,9 @@ Mütter (mutter) — mātes
 „Transpozice u“ není v češtině přirozené ani foneticky přesné označení. Ü není pouhá transpozice písmene nebo hlásky u; jde o německou přehlásku a o přední zaokrouhlenou samohlásku. Formulace může vést k chybnému závěru, že se u pouze mechanicky „přepíše“ na ü.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ü je německá přehláska u. Vyslovuje se s jazykem v poloze podobné českému i a se zaokrouhlenými rty.
+**OWNER note:** 
 
 ---
 
@@ -2078,9 +2078,9 @@ die Räder (rēder) — riteņi
 Přepis „räder“ pouze opakuje německý pravopis a neukazuje výslovnost. Dlouhé německé ä je pro začátečníka vhodné označit například jako „é“ nebo makronem; současný přepis může naznačovat krátké ä.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Die Räder (réder) — kola
+**OWNER note:** 
 
 ---
 
@@ -2106,9 +2106,9 @@ Bäder (bēder) — vannas
 Stejně jako u Räder je „bäder“ německý pravopis, nikoli srozumitelný přepis výslovnosti. Německé ä v Bäder je dlouhé a mělo by být v přepisu zřetelně označeno.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Bäder (béder) — koupele
+**OWNER note:** 
 
 ---
 
@@ -2134,9 +2134,9 @@ Vārda beigās līdzskaņi bieži netiek izrunāti tāpat kā rakstīti.
 Tvrzení je příliš obecné a může vést k chybám. V němčině se na konci slova typicky mění znělé obstruenty b, d, g na neznělé p, t, k; nelze obecně říci, že se souhlásky vyslovují jinak, než se píší.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Na konci slova se v němčině znělé souhlásky b, d a g obvykle vyslovují nezněle jako p, t a k.
+**OWNER note:** 
 
 ---
 
@@ -2162,9 +2162,9 @@ mich (mih) — mani
 „Mich“ je akuzativní tvar zájmena „já“ a znamená „mě“ nebo „mne“, nikoli „já“.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Mich (mih) — mě / mne
+**OWNER note:** 
 
 ---
 
@@ -2190,9 +2190,9 @@ dich (dih) — tevi
 „Dich“ je akuzativní tvar zájmena „ty“ a znamená „tebe“ nebo „tě“, nikoli „ty“.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Dich (dih) — tebe / tě
+**OWNER note:** 
 
 ---
 
@@ -2218,9 +2218,9 @@ noch (noh) — vēl
 Přepis „noh“ představuje tvrdé německé [x] jako české „h“, což je MISLEADING_APPROXIMATION. Německé [x] je neznělé a artikulačně se přibližuje českému „ch“, nikoli českému „h“.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Noch (noch) — ještě
+**OWNER note:** 
 
 ---
 
@@ -2246,9 +2246,9 @@ Nacht (naht) — nakts
 Přepis „naht“ představuje tvrdé německé [x] jako české „h“, což je MISLEADING_APPROXIMATION. Pro začátečníka je vhodnější upozornit na podobnost s českým „ch“.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Nacht (nacht) — noc
+**OWNER note:** 
 
 ---
 
@@ -2278,9 +2278,9 @@ ch" m | e b | t vyslovov | no m | kk
 Tvrzení, že tvrdé německé „ch“ zní blíže českému „k“, je MISLEADING_APPROXIMATION. Ve slově Nacht/noch jde o neznělou velární frikativu [x], která je pro českého mluvčího výrazně blíže českému „ch“ než „k“. Měkké „ch“ je [ç] a také není totožné s českým „h“.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Německé „ch“ má dvě hlavní výslovnosti: měkké [ç] a tvrdé [x]. Tvrdé [x] se podobá českému „ch“, zatímco měkké [ç] se vyslovuje více vpředu v ústech.
+**OWNER note:** OWNER — īsāks, dabiskāks nekā Luna „silně změkčené, přední ch“.
 
 ---
 
@@ -2306,9 +2306,9 @@ Schüler (šūler) — skolēns
 Text v závorce „schüler“ je německý pravopis, nikoli výslovnostní přepis. Začátečník z něj nepozná, že „sch“ se vyslovuje jako „š“ a „ü“ jako přední zaokrouhlená samohláska.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Schüler (šüler) — žák
+**OWNER note:** OWNER — žák, ne student (Luna fokussēja transkripciju).
 
 ---
 
@@ -2334,9 +2334,9 @@ Schraube (šraube) — skrūve
 „Schraube (šroub)“ není výslovnostní přepis německého slova, ale české slovo se stejným významem. Německé Schraube se vyslovuje přibližně [šraube], nikoli jako české „šroub“; liší se zejména posloupnost samohlásek a koncové -e.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Schraube (šraube) — šroub
+**OWNER note:** 
 
 ---
 
@@ -2362,9 +2362,9 @@ sch“ se v n | in | vyslovuje jako  | esk
 Tvar „českýé“ je pravopisná a gramatická chyba. Správně je „české“.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** „sch“ se v němčině vyslovuje jako české „š“.
+**OWNER note:** 
 
 ---
 
@@ -2390,9 +2390,9 @@ spielen (špīlen) — spēlēt
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** FALSE_POSITIVE
+**OWNER NEW:** 
+**OWNER note:** ī ir garuma zīme (špīlen), ne LV atlikums — deterministiskā detektora FP.
 
 ---
 
@@ -2418,9 +2418,9 @@ Sprung (šprung) — lēciens
 Položka neobsahuje německý příklad; „Pružina“ je český výraz. V lekci německé výslovnosti tak chybí slovo s počátečním „Spr-“.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Sprung (šprung) — skok
+**OWNER note:** 
 
 ---
 
@@ -2446,9 +2446,9 @@ Sprung (šprung) — lēciens
 „Pružina“ je české slovo a znamená spring, nikoli německý příklad pro počáteční „Sp“. Význam „skok“ odpovídá německému slovu Sprung, které v položce chybí.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Sprung (šprung) — skok
+**OWNER note:** Duplicate target — apply once (same as #085).
 
 ---
 
@@ -2474,9 +2474,9 @@ stehen (štēen) — stāvēt
 Německé stehen začíná výslovností [št-], ale přepis „steen“ vede českého začátečníka k výslovnosti [st-]. Tím příklad nedemonstruje pravidlo probírané v této části.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Stehen (štéen) — stát
+**OWNER note:** 
 
 ---
 
@@ -2502,9 +2502,9 @@ Stall (štal) — kūts
 Položka používá české slovo „Stáj“ místo německého příkladu. Jde o cizí zbytek v německé části kurzu.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Stall (štal) — stáj
+**OWNER note:** 
 
 ---
 
@@ -2530,9 +2530,9 @@ Stall (štal) — kūts
 „Stáj“ je české slovo, zatímco německý příklad pro výslovnost počátečního „St“ má být Stall. Navíc český význam „stodola“ neodpovídá slovu „stáj“ přesně.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Stall (štal) — stáj
+**OWNER note:** Duplicate target — apply once (same as #088).
 
 ---
 
@@ -2558,9 +2558,9 @@ Stand (štant) — stāvoklis / vieta
 Německé Stand se vyslovuje přibližně [štant]. Přepis „stant“ zachovává českou výslovnost [st-], a proto nesprávně demonstruje pravidlo pro počáteční „St“.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Stand (štant) — pozice / místo
+**OWNER note:** 
 
 ---
 
@@ -2586,9 +2586,9 @@ Quartier (kvartīr) — kvartāls / apmešanās vieta
 Výslovnost „quartier“ je ponechána v německém pravopisu, takže začátečník nedostane českou výslovnostní nápovědu. Přibližná česká transkripce „kvartýr“ je PEDAGOGICALLY_ACCEPTABLE; německé koncové r je navíc vokalizované.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Quartier (kvartýr) — čtvrť / ubytování
+**OWNER note:** 
 
 ---
 
@@ -2614,9 +2614,9 @@ quer (kvēr) — šķērsām
 Výslovnost je zapsána cyrilicí „квер“, což je pro český kurz cizí zápis a navíc neoznačuje německé dlouhé e. Jde o FOREIGN_LEFTOVER; česká přibližná transkripce „kvér“ je PEDAGOGICALLY_ACCEPTABLE.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Quer (kvér) — napříč
+**OWNER note:** 
 
 ---
 
@@ -2642,9 +2642,9 @@ sagen (zāgen) — teikt
 Transkripce „zagen“ neukazuje dlouhé německé a [aː], přestože kurz používá délkovou značku v jiných příkladech. „zāgen“ je PEDAGOGICALLY_ACCEPTABLE česká aproximace.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Sagen (zágen) — říci
+**OWNER note:** 
 
 ---
 
@@ -2670,9 +2670,9 @@ Zahl (cāl) — skaitlis
 „kuře“ není výslovnost slova Zahl, ale české slovo s významem „chicken“. Německé Zahl se vyslovuje přibližně [tsaːl], tedy „cāl“. Současný zápis je PHONETICALLY_WRONG a současně vytváří významový zmatek.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Zahl (cál) — číslo
+**OWNER note:** 
 
 ---
 
@@ -2698,9 +2698,9 @@ Vārda sākumā “s” bieži skan kā “z”. Burts “z” vācu valodā ska
 Tvar „českýé“ je gramaticky i pravopisně chybný; správně je „české“. Věcně je přirovnání německého z k českému c ACCURATE_APPROXIMATION.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** „S“ na začátku slova často zní jako „z“. Písmeno „z“ v němčině zní jako české „c“.
+**OWNER note:** 
 
 ---
 
@@ -2726,9 +2726,9 @@ Vater (fāter) — tēvs
 V závorce je uveden překlad „otec“, nikoli výslovnost. Výslovnostní údaj pro Vater chybí, takže příklad nesplňuje svou funkci. Přibližné „fāter“ je PEDAGOGICALLY_ACCEPTABLE.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Vater (fátr) — otec
+**OWNER note:** 
 
 ---
 
@@ -2754,9 +2754,9 @@ Vācu valodā “v” bieži izrunā kā “f”. Svešvārdos tas bieži skan k
 Tvar „českýé“ je gramaticky i pravopisně chybný; správně je „české“. Obsahové rozlišení mezi běžnými německými slovy s v = [f] a mnoha cizími slovy s [v] je jinak PEDAGOGICALLY_ACCEPTABLE.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** V němčině se „v“ často vyslovuje jako „f“. V cizích slovech často zní jako české „v“.
+**OWNER note:** 
 
 ---
 
@@ -2782,9 +2782,9 @@ Felix (fēliks) — Fēlikss
 „Felix“ v závorce opakuje německý pravopis, nikoli výslovnost. Německé Felix má přibližně výslovnost [ˈfeːlɪks], takže současný zápis je pro začátečníka neúplný.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Felix (féliks) — Felix
+**OWNER note:** OWNER — féliks, ne Luna fēliks.
 
 ---
 
@@ -2810,9 +2810,9 @@ Mystik (mūstik) — mistika
 Německé y ve slově Mystik označuje krátkou přední zaokrouhlenou samohlásku [ʏ], nikoli dlouhé [uː]. Zápis „mūstik“ je proto PHONETICALLY_WRONG a může vést k nesprávné délce i kvalitě samohlásky.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Mystik (müstik) — mystika
+**OWNER note:** Saglabāt ü kā pedagoģisku norādi (#072).
 
 ---
 
@@ -2838,9 +2838,9 @@ Mythe (mūte) — mīts
 Německé slovo „Mythe“ znamená „mýtus“, nikoli „ústa“. Text proto obsahuje rozporný význam a není jasné, co má závorka označovat.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Mythe (müte) — mýtus
+**OWNER note:** Saglabāt ü vizuāli; konsekventi ar bloku.
 
 ---
 
