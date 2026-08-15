@@ -4286,9 +4286,9 @@ Pareizi izrunā: der Großvater (dēr grōsfāter).
 Text je v lotyštině, nikoli v češtině. Uvedená aproximace dlouhého o a výslovnosti ß je pedagogicky přijatelná, ale není přesnou fonetickou transkripcí.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Správná výslovnost: der Großvater (dér grósfátr).
+**OWNER note:** 
 
 ---
 
@@ -4314,9 +4314,9 @@ Pareizi izrunā: der Großvater (dēr grōsfāter).
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Správná výslovnost: der Großvater (dér grósfátr).
+**OWNER note:** Duplicate target — apply once (same as #151).
 
 ---
 
@@ -4342,9 +4342,9 @@ Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).
 Text je v lotyštině, nikoli v češtině. Přirovnání ei k českému ai je pedagogicky přijatelné (PEDAGOGICALLY_ACCEPTABLE).
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Dvojhláska ei se vyslovuje přibližně jako české aj: seid (zajt), fleißig (flajsich; ch jako německý Ich-Laut [ç]).
+**OWNER note:** OWNER — flajsich + Ich-Laut [ç], ne Luna flaišich.
 
 ---
 
@@ -4370,9 +4370,9 @@ Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).
 Zápis „flaišich“ je foneticky zavádějící: ß se vyslovuje jako /s/, nikoli jako /š/, a koncové -ig ve slově fleißig má ve standardní výslovnosti [ɪç], nikoli české /x/. Jde o PHONETICALLY_WRONG aproximaci.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Dvojhláska ei se vyslovuje přibližně jako české aj: seid (zajt), fleißig (flajsich; ch jako německý Ich-Laut [ç]).
+**OWNER note:** Duplicate target — apply once (same as #153).
 
 ---
 
@@ -4398,9 +4398,9 @@ Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Dvojhláska ei se vyslovuje přibližně jako české aj: seid (zajt), fleißig (flajsich; ch jako německý Ich-Laut [ç]).
+**OWNER note:** Duplicate target — apply once (same as #153).
 
 ---
 
@@ -4430,9 +4430,9 @@ Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celma ē ir garš u
 Text je v lotyštině, nikoli v češtině.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově Lehrer je kmenové e dlouhé. Koncovka -er se vyslovuje přibližně jako [ɐ].
+**OWNER note:** OWNER — īsāks nekā Luna sarežģīts variants; -er ≈ [ɐ].
 
 ---
 
@@ -4458,9 +4458,9 @@ Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celma ē ir garš u
 Latviešu atlikums (LV_WORD)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově Lehrer je kmenové e dlouhé. Koncovka -er se vyslovuje přibližně jako [ɐ].
+**OWNER note:** Duplicate target — apply once (same as #156).
 
 ---
 
@@ -4486,9 +4486,9 @@ Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celma ē ir garš u
 Formulace zaměňuje pravopisné písmeno e za skutečný zvuk. Ve slově Lehrer není koncové -er jednoduše „krátké a široké e“; v běžné standardní výslovnosti je koncovka realizována jako [ɐ].
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově Lehrer je kmenové e dlouhé. Koncovka -er se vyslovuje přibližně jako [ɐ].
+**OWNER note:** Duplicate target — apply once (same as #156).
 
 ---
 
@@ -4514,9 +4514,9 @@ eu izrunā kā oi: der Freund (dēr froint), neun (noin).
 Text je v lotyštině, nikoli v češtině. Přirovnání eu k českému oi je pouze přibližné, ale pedagogicky přijatelné (PEDAGOGICALLY_ACCEPTABLE).
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Dvojhláska eu se vyslovuje přibližně jako české oj: der Freund (frojnt), neun (nojn).
+**OWNER note:** 
 
 ---
 
@@ -4542,9 +4542,9 @@ eu izrunā kā oi: der Freund (dēr froint), neun (noin).
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Dvojhláska eu se vyslovuje přibližně jako české oj: der Freund (frojnt), neun (nojn).
+**OWNER note:** Duplicate target — apply once (same as #159).
 
 ---
 
@@ -4570,9 +4570,9 @@ z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer).
 Text je v lotyštině, nikoli v češtině. Německé z se skutečně vyslovuje [ts], což odpovídá českému c; jde o ACCURATE_APPROXIMATION.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Z se vyslovuje jako české c: Franz (franc), das Zimmer (cimer).
+**OWNER note:** 
 
 ---
 
@@ -4598,9 +4598,9 @@ z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer).
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Z se vyslovuje jako české c: Franz (franc), das Zimmer (cimer).
+**OWNER note:** Duplicate target — apply once (same as #161).
 
 ---
 
@@ -4626,9 +4626,9 @@ x izrunā kā ks: Max (maks), Felix (feliks).
 Text je v lotyštině, nikoli v češtině. Přirovnání x ke skupině ks je přesné (ACCURATE_APPROXIMATION).
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** X se vyslovuje jako ks: Max (maks), Felix (feliks).
+**OWNER note:** 
 
 ---
 
@@ -4654,9 +4654,9 @@ x izrunā kā ks: Max (maks), Felix (feliks).
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** X se vyslovuje jako ks: Max (maks), Felix (feliks).
+**OWNER note:** Duplicate target — apply once (same as #163).
 
 ---
 
@@ -4686,9 +4686,9 @@ Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (�
 Text je v lotyštině, nikoli v češtině. Výslovnost počátečního Schw- jako šv- je přijatelná.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slovech Schwester a am jüngsten se skupina st vyslovuje jako české st: Schwester (švester), jüngsten [ˈjʏŋstən].
+**OWNER note:** OWNER — jüngsten [ˈjʏŋstən] IPA, ne čehu nk aproksimācija.
 
 ---
 
@@ -4714,9 +4714,9 @@ Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (�
 Zápis „jünksten“ je chybný: ve slově jüngsten je ng nosovka [ŋ], nikoli sekvence [nk]. Jde o PHONETICALLY_WRONG aproximaci.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slovech Schwester a am jüngsten se skupina st vyslovuje jako české st: Schwester (švester), jüngsten [ˈjʏŋstən].
+**OWNER note:** Duplicate target — apply once (same as #165).
 
 ---
 
@@ -4742,9 +4742,9 @@ Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (�
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slovech Schwester a am jüngsten se skupina st vyslovuje jako české st: Schwester (švester), jüngsten [ˈjʏŋstən].
+**OWNER note:** Duplicate target — apply once (same as #165).
 
 ---
 
@@ -4774,9 +4774,9 @@ h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — garu
 Text je v lotyštině, nikoli v češtině. Rozlišení mezi vyslovovaným h ve Federhalter a h označujícím délku v Sohn je věcně správné.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově der Federhalter se h vyslovuje jako hláska, zatímco ve slově der Sohn pouze označuje délku předcházející samohlásky.
+**OWNER note:** 
 
 ---
 
@@ -4802,9 +4802,9 @@ h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — garu
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově der Federhalter se h vyslovuje jako hláska, zatímco ve slově der Sohn pouze označuje délku předcházející samohlásky.
+**OWNER note:** Duplicate target — apply once (same as #168).
 
 ---
 
@@ -4830,9 +4830,9 @@ h vārdā halten ir dzirdama skaņa.
 Text je v lotyštině, nikoli v češtině. Tvrzení o vyslovovaném h ve halten je správné.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově halten je h vyslovované.
+**OWNER note:** 
 
 ---
 
@@ -4858,9 +4858,9 @@ h vārdā halten ir dzirdama skaņa.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově halten je h vyslovované.
+**OWNER note:** Duplicate target — apply once (same as #170).
 
 ---
 
@@ -4886,9 +4886,9 @@ h vārdā fahren rāda patskaņa garumu.
 Text je v lotyštině, nikoli v češtině. Tvrzení o h ve fahren jako značce délky je správné.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově fahren h označuje délku předcházející samohlásky.
+**OWNER note:** 
 
 ---
 
@@ -4914,9 +4914,9 @@ h vārdā fahren rāda patskaņa garumu.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově fahren h označuje délku předcházející samohlásky.
+**OWNER note:** Duplicate target — apply once (same as #172).
 
 ---
 
@@ -4942,9 +4942,9 @@ a vārdā halten izrunā īsi: halten.
 Text je v lotyštině, nikoli v češtině. Krátké a ve slově halten je správně.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** A ve slově halten se vyslovuje krátce.
+**OWNER note:** 
 
 ---
 
@@ -4970,9 +4970,9 @@ a vārdā halten izrunā īsi: halten.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** A ve slově halten se vyslovuje krátce.
+**OWNER note:** Duplicate target — apply once (same as #174).
 
 ---
 
@@ -4998,9 +4998,9 @@ a vārdā tragen izrunā gari: tragen.
 Text je v lotyštině, nikoli v češtině. Dlouhé a ve slově tragen je správně.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** A ve slově tragen se vyslovuje dlouze.
+**OWNER note:** 
 
 ---
 
@@ -5026,9 +5026,9 @@ a vārdā tragen izrunā gari: tragen.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** A ve slově tragen se vyslovuje dlouze.
+**OWNER note:** Duplicate target — apply once (same as #176).
 
 ---
 
@@ -5054,9 +5054,9 @@ Dvojhláska äu se vyslovuje přibližně jako české oj: du läufst, er läuft
 Text je v lotyštině, nikoli v češtině. Přirovnání äu k českému oj je pouze přibližné, ale pedagogicky přijatelné (PEDAGOGICALLY_ACCEPTABLE).
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Dvojhláska äu se vyslovuje přibližně jako české oj: du läufst, er läuft.
+**OWNER note:** 
 
 ---
 
@@ -5082,9 +5082,9 @@ Text je v lotyštině, nikoli v češtině. Přirovnání äu k českému oj je 
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Dvojhláska äu se vyslovuje přibližně jako české oj: du läufst, er läuft.
+**OWNER note:** Duplicate target — apply once (same as #178).
 
 ---
 
@@ -5110,9 +5110,9 @@ pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt.
 Text je v lotyštině, nikoli v češtině. Výslovnost obou složek skupiny pf ve slově Kopf je správně popsána.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově Kopf se skupina pf vyslovuje tak, aby byly slyšet obě souhlásky.
+**OWNER note:** 
 
 ---
 
@@ -5138,9 +5138,9 @@ pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově Kopf se skupina pf vyslovuje tak, aby byly slyšet obě souhlásky.
+**OWNER note:** Duplicate target — apply once (same as #180).
 
 ---
 
@@ -5166,9 +5166,9 @@ SS izrun | esk | s.
 Text je v lotyštině, nikoli v češtině.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Znak ß se vyslovuje jako české s.
+**OWNER note:** 
 
 ---
 
@@ -5194,9 +5194,9 @@ SS izrun | esk | s.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Znak ß se vyslovuje jako české s.
+**OWNER note:** Duplicate target — apply once (same as #182).
 
 ---
 
@@ -5226,9 +5226,9 @@ SS raksta v | rda vid | vai beig | s p | c gara patska
 Tvrzení směšuje použití ß a ss. Příklady die Füße a die Straße obsahují ß, zatímco ich muss a er muss obsahují ss; aktuální formulace proto není přesná.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Znak ß se píše uprostřed nebo na konci slova po dlouhé samohlásce či dvojhlásce: die Füße, die Straße. Po krátké samohlásce se píše ss: ich muss, er muss.
+**OWNER note:** OWNER — skaidrs ß vs ss pretstats (garš vs īss patskanis).
 
 ---
 
@@ -5258,9 +5258,9 @@ SS raksta v | rda vid | vai beig | s p | c gara patska
 Text je v lotyštině, nikoli v češtině.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Znak ß se píše uprostřed nebo na konci slova po dlouhé samohlásce či dvojhlásce: die Füße, die Straße. Po krátké samohlásce se píše ss: ich muss, er muss.
+**OWNER note:** Duplicate target — apply once (same as #184).
 
 ---
 
@@ -5286,9 +5286,9 @@ SS raksta v | rda vid | vai beig | s p | c gara patska
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Znak ß se píše uprostřed nebo na konci slova po dlouhé samohlásce či dvojhlásce: die Füße, die Straße. Po krátké samohlásce se píše ss: ich muss, er muss.
+**OWNER note:** Duplicate target — apply once (same as #184).
 
 ---
 
@@ -5314,9 +5314,9 @@ Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du m
 Formulace uvádí možnost ß, ale žádný z uvedených německých příkladů znak ß neobsahuje. Všechny příklady mají ss.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve tvarech slovesa müssen se píše ss: müssen, ich muss, du musst, ihr müsst.
+**OWNER note:** OWNER — müssen formās vienmēr ss.
 
 ---
 
@@ -5342,9 +5342,9 @@ Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du m
 Text je v lotyštině, nikoli v češtině.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve tvarech slovesa müssen se píše ss: müssen, ich muss, du musst, ihr müsst.
+**OWNER note:** Duplicate target — apply once (same as #187).
 
 ---
 
@@ -5370,9 +5370,9 @@ Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du m
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve tvarech slovesa müssen se píše ss: müssen, ich muss, du musst, ihr müsst.
+**OWNER note:** Duplicate target — apply once (same as #187).
 
 ---
 
@@ -5398,9 +5398,9 @@ Ve slově mögen se ö vyslovuje jako dlouhá zaokrouhlená přední samohláska
 Text je v lotyštině, nikoli v češtině.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově mögen se ö vyslovuje dlouze, se zaokrouhlenými rty a s jazykem v poloze podobné českému e.
+**OWNER note:** 
 
 ---
 
@@ -5426,9 +5426,9 @@ Text je v lotyštině, nikoli v češtině.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově mögen se ö vyslovuje dlouze, se zaokrouhlenými rty a s jazykem v poloze podobné českému e.
+**OWNER note:** Duplicate target — apply once (same as #190).
 
 ---
 
@@ -5454,9 +5454,9 @@ Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.
 Text je v lotyštině, nikoli v češtině.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve tvarech du magst a ihr mögt se g vyslovuje nezněle, přibližně jako k.
+**OWNER note:** OWNER — du magst + ihr mögt, ne tikai „po g seko t“.
 
 ---
 
@@ -5482,9 +5482,9 @@ Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve tvarech du magst a ihr mögt se g vyslovuje nezněle, přibližně jako k.
+**OWNER note:** Duplicate target — apply once (same as #192).
 
 ---
 
@@ -5510,9 +5510,9 @@ Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk
 Text je převážně v lotyštině; navíc obsahuje české slovo v nesprávně vloženém vícejazyčném kontextu.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Podobný princip existuje i v češtině: znělá souhláska se před neznělou může vyslovit nezněle.
+**OWNER note:** OWNER — čehu princips, ne LV „smags“ salīdzinājums.
 
 ---
 
@@ -5538,9 +5538,9 @@ Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Podobný princip existuje i v češtině: znělá souhláska se před neznělou může vyslovit nezněle.
+**OWNER note:** Duplicate target — apply once (same as #194).
 
 ---
 
@@ -5566,9 +5566,9 @@ Latviešu atlikums (LV_DIACRITIC)
 Text je v lotyštině, nikoli v češtině.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ä ve slovech Äpfel a schälen se vyslovuje jako otevřenější e; v Äpfel je krátké a v schälen dlouhé.
+**OWNER note:** OWNER — Äpfel īss / schälen garš ä; ne „šaurais e“.
 
 ---
 
@@ -5594,9 +5594,9 @@ Text je v lotyštině, nikoli v češtině.
 Latviešu atlikums (LV_DIACRITIC)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ä ve slovech Äpfel a schälen se vyslovuje jako otevřenější e; v Äpfel je krátké a v schälen dlouhé.
+**OWNER note:** Duplicate target — apply once (same as #196).
 
 ---
 
@@ -5622,9 +5622,9 @@ Latviešu atlikums (LV_DIACRITIC)
 Označení ä jako „úzké e“ je pro německé ä zavádějící. V Äpfel jde o krátké [ɛ] a ve schälen o dlouhé [ɛː], tedy o otevřenější e.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ä ve slovech Äpfel a schälen se vyslovuje jako otevřenější e; v Äpfel je krátké a v schälen dlouhé.
+**OWNER note:** Duplicate target — apply once (same as #196).
 
 ---
 
@@ -5650,9 +5650,9 @@ Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.
 Text je v lotyštině, nikoli v češtině.
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově Äpfel se ä vyslovuje krátce; následují po něm dvě souhlásky, což zde odpovídá běžnému pravopisnému vodítku.
+**OWNER note:** OWNER — pravopisné vodítko, ne absolūts „divi līdzskaņi“ likums.
 
 ---
 
@@ -5678,9 +5678,9 @@ Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.
 Latviešu atlikums (LV_PHRASE)
 
 ### OWNER
-**Status:**
-**OWNER NEW:**
-**OWNER note:**
+**Status:** LABOT
+**OWNER NEW:** Ve slově Äpfel se ä vyslovuje krátce; následují po něm dvě souhlásky, což zde odpovídá běžnému pravopisnému vodítku.
+**OWNER note:** Duplicate target — apply once (same as #199).
 
 ---
 
