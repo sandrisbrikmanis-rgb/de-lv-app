@@ -3814,7 +3814,7 @@ const C1_WORDS = [
       "id": "c1-wahlberechtigt",
       "layout": "standardStudy",
       "translation": "Ten, kdo má volební právo",
-      "explanation": "Hlavní myšlenka: wahlberechtig je přídavné jméno, které znamená, že osoba má právo účastnit se voleb – volit nebo kandidovat ve volbách. Složení: Wahl (volby) + behrechtig (oprávněný).",
+      "explanation": "Hlavní myšlenka: wahlberechtigt je přídavné jméno, které znamená, že osoba má právo volit. Složení: Wahl (volby) + berechtigt (oprávněný).",
       "examples": [
         {
           "de": "Alle wahlberechtigten Bürger können wählen.",
@@ -4223,7 +4223,7 @@ const C1_WORDS = [
         "Často charakterizováno: plánem / záměrem.",
         "Beabsichtigen v podstatě znamená: naplánovat akci.",
         "Často charakterizováno: úředním registrem.",
-        "Beabsichtigen znamená záměrně zamýšlet nebo plánovat akci – ne vztah, ale záměr."
+        "Beabsichtigen znamená zamýšlet nebo plánovat určitou činnost – jde o záměr, nikoli o vztah."
       ],
       "examples": [
         {
@@ -4512,7 +4512,7 @@ const C1_WORDS = [
         "Použijte voraussetzen, když kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Voraussetzen je střední rod — předložka.",
+        "Voraussetzen je sloveso znamenající „předpokládat“; vyjadřuje předpoklad.",
         "Voraussetzen → vzít za základ.",
         "Předpokládat, že něco je již známo nebo existuje jako základ."
       ],
