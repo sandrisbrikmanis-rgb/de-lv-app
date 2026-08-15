@@ -6,27 +6,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wenn nichts dazwischenkommt.",
-    "lv": "Pokud nic nepřekáží. • Pokud vše půjde podle plánu.",
+    "lv": "Jestli do toho nic nepřijde. • Pokud vše půjde podle plánu.",
     "level": "Sätze"
   },
   {
     "de": "Das kann ich mir denken!",
-    "lv": "Já to vím!",
+    "lv": "To si umím představit!",
     "level": "Sätze"
   },
   {
     "de": "Ist er denn krank?",
-    "lv": "Je pak nemocný?",
+    "lv": "Je snad nemocný?",
     "level": "Sätze"
   },
   {
     "de": "Was denn?",
-    "lv": "Co potom?",
+    "lv": "Co je?",
     "level": "Sätze"
   },
   {
     "de": "Desto mehr.",
-    "lv": "Čím více.",
+    "lv": "O to více.",
     "level": "Sätze"
   },
   {
@@ -36,12 +36,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alles deutet auf Regen.",
-    "lv": "Vše ukazuje na případ.",
+    "lv": "Vše nasvědčuje dešti.",
     "level": "Sätze"
   },
   {
     "de": "Damit ist mir wenig gedient.",
-    "lv": "Nedává mi to smysl.",
+    "lv": "To mi moc nepomůže.",
     "level": "Sätze"
   },
   {
@@ -56,12 +56,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es donnert.",
-    "lv": "Hrom burácí.",
+    "lv": "Hřmí.",
     "level": "Sätze"
   },
   {
     "de": "Doppelt so groß.",
-    "lv": "Dvakrát větší.",
+    "lv": "Dvakrát tak velký.",
     "level": "Sätze"
   },
   {
@@ -71,27 +71,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Zeit drängt.",
-    "lv": "Čas běží.",
+    "lv": "Čas tlačí.",
     "level": "Sätze"
   },
   {
     "de": "Ihn drücken Sorgen.",
-    "lv": "Je přemožen starostí.",
+    "lv": "Trápí ho starosti.",
     "level": "Sätze"
   },
   {
     "de": "Hast du das Buch durchgearbeitet?",
-    "lv": "Prošli jste knihu pečlivě?",
+    "lv": "Prostudoval jsi tu knihu?",
     "level": "Sätze"
   },
   {
     "de": "Kein Durchgang!",
-    "lv": "Neprocházejte! • Výjezd uzavřen!",
+    "lv": "Průchod zakázán!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich Sie bitten?",
-    "lv": "Můžu se tě zeptat?",
+    "lv": "Mohu vás poprosit?",
     "level": "Sätze"
   },
   {
@@ -111,7 +111,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was wollen Sie eigentlich?",
-    "lv": "Co vlastně chceš?",
+    "lv": "Co vlastně chcete?",
     "level": "Sätze"
   },
   {
@@ -131,22 +131,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Du bildest dir nur ein, krank zu sein.",
-    "lv": "Představte si, že jste nemocní.",
+    "lv": "Jen si namlouváš, že jsi nemocný.",
     "level": "Sätze"
   },
   {
     "de": "Was fällt dir ein?",
-    "lv": "Co tě napadne?",
+    "lv": "Jak se opovažuješ?",
     "level": "Sätze"
   },
   {
     "de": "Es war einmal.",
-    "lv": "Jednou tam bylo.",
+    "lv": "Bylo nebylo.",
     "level": "Sätze"
   },
   {
     "de": "Steigen Sie bitte ein!",
-    "lv": "Vstupte prosím!",
+    "lv": "Prosím, nastupte!",
     "level": "Sätze"
   },
   {
@@ -196,7 +196,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie heißen Sie?",
-    "lv": "Jak se jmenuješ",
+    "lv": "Jak se jmenujete?",
     "level": "Sätze"
   },
   {
@@ -211,7 +211,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Heraus mit der Sprache!",
-    "lv": "Mluvit! • Příběhy!",
+    "lv": "Tak ven s tím!",
     "level": "Sätze"
   },
   {
@@ -236,7 +236,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "heute Nacht",
-    "lv": "Včera v noci",
+    "lv": "Dnes v noci",
     "level": "Sätze"
   },
   {
@@ -251,7 +251,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kannst du das bitte wiederholen?",
-    "lv": "Můžete to prosím zopakovat?",
+    "lv": "Můžeš to prosím zopakovat?",
     "level": "Sätze"
   },
   {
@@ -311,22 +311,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Rufen Sie mich an.",
-    "lv": "Zavolej mi.",
+    "lv": "Zavolejte mi.",
     "level": "Sätze"
   },
   {
     "de": "Bitte stellen Sie das Radio ab.",
-    "lv": "Prosím vypněte rádio.",
+    "lv": "Prosím, vypněte rádio.",
     "level": "Sätze"
   },
   {
     "de": "Achte bitte auf den Verkehr.",
-    "lv": "Věnujte prosím pozornost provozu.",
+    "lv": "Dávej prosím pozor na provoz.",
     "level": "Sätze"
   },
   {
     "de": "Darauf musst du achten.",
-    "lv": "Na to byste měli dávat pozor.",
+    "lv": "Na to si musíš dát pozor.",
     "level": "Sätze"
   },
   {
@@ -341,12 +341,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er wohnt allein.",
-    "lv": "Žije sám.",
+    "lv": "Bydlí sám.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe die Ausbildung absolviert.",
-    "lv": "Skončil jsem trénink. • Ukončila jsem vzdělání.",
+    "lv": "Absolvoval jsem odborné vzdělání. • Absolvovala jsem odborné vzdělání.",
     "level": "Sätze"
   },
   {
@@ -396,12 +396,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ähnliche Probleme hatten wir schon früher.",
-    "lv": "Předtím jsme měli podobné problémy.",
+    "lv": "Podobné problémy jsme měli už dříve.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ahnung!",
-    "lv": "Žádný nápad!",
+    "lv": "Nemám ponětí!",
     "level": "Sätze"
   },
   {
@@ -411,7 +411,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Dieses Kleid ist akademisch gekleidet.",
-    "lv": "Tyto šaty jsou stylově konzervativní.",
+    "lv": "Tyto šaty jsou v akademickém stylu.",
     "level": "Sätze"
   },
   {
@@ -421,12 +421,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kannst du das Gerät anklicken?",
-    "lv": "Můžete kliknout na zařízení?",
+    "lv": "Můžeš kliknout na zařízení?",
     "level": "Sätze"
   },
   {
     "de": "Bitte öffne die Datei und klicke darauf.",
-    "lv": "Otevřete soubor a klikněte na něj.",
+    "lv": "Otevři soubor a klikni na něj.",
     "level": "Sätze"
   },
   {
@@ -436,22 +436,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir laufen zum Bahnhof.",
-    "lv": "Jdeme na nádraží.",
+    "lv": "Běžíme na nádraží.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schalte den Fernseher an.",
-    "lv": "Zapněte prosím televizi.",
+    "lv": "Zapni prosím televizi.",
     "level": "Sätze"
   },
   {
     "de": "Mein Computer ist abgestürzt.",
-    "lv": "Můj počítač se zhroutil.",
+    "lv": "Můj počítač spadl.",
     "level": "Sätze"
   },
   {
     "de": "Am Wochenende gehe ich angeln.",
-    "lv": "O víkendu pojedu na ryby.",
+    "lv": "O víkendu jdu na ryby.",
     "level": "Sätze"
   },
   {
@@ -461,17 +461,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kannst du mich später anrufen?",
-    "lv": "Můžeš mi zavolat později",
+    "lv": "Můžeš mi zavolat později?",
     "level": "Sätze"
   },
   {
     "de": "Bitte nimm meinen Vorschlag an.",
-    "lv": "Přijměte prosím můj návrh.",
+    "lv": "Přijmi prosím můj návrh.",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme dein Angebot an.",
-    "lv": "Vaši nabídku přijímám.",
+    "lv": "Přijímám tvou nabídku.",
     "level": "Sätze"
   },
   {
@@ -491,17 +491,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Anklang finden.",
-    "lv": "Najděte ozvěnu. • Najděte schopnost reagovat",
+    "lv": "Najít ohlas. • Setkat se s kladným přijetím.",
     "level": "Sätze"
   },
   {
     "de": "Es kommt darauf an.",
-    "lv": "Na tom záleží.",
+    "lv": "Záleží na tom.",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Anlass.",
-    "lv": "Kvůli této době. • V tomto ohledu",
+    "lv": "Při této příležitosti.",
     "level": "Sätze"
   },
   {
@@ -511,7 +511,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was hast du da angerichtet?",
-    "lv": "Co jsi tam dělal",
+    "lv": "Co jsi tam provedl?",
     "level": "Sätze"
   },
   {
@@ -531,12 +531,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Stell dich nicht so an!",
-    "lv": "Nepředstírejte!",
+    "lv": "Nedělej takové cavyky!",
     "level": "Sätze"
   },
   {
     "de": "An die Arbeit gehen.",
-    "lv": "Pusťte se do práce.",
+    "lv": "Pustit se do práce.",
     "level": "Sätze"
   },
   {
@@ -546,7 +546,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Guten Appetit!",
-    "lv": "Chuť k jídlu!",
+    "lv": "Dobrou chuť!",
     "level": "Sätze"
   },
   {
@@ -566,7 +566,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte mach die Tür auf!",
-    "lv": "Prosím, otevřete dveře!",
+    "lv": "Prosím, otevři dveře!",
     "level": "Sätze"
   },
   {
@@ -576,12 +576,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir müssen heute aufräumen.",
-    "lv": "Dnes musíme uklidit pokoj.",
+    "lv": "Dnes musíme uklidit.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre jetzt auf.",
-    "lv": "Teď se zastavím.",
+    "lv": "Teď přestanu.",
     "level": "Sätze"
   },
   {
@@ -596,7 +596,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sie hat mich aufgeregt.",
-    "lv": "Rozčilovala mě.",
+    "lv": "Rozčílila mě.",
     "level": "Sätze"
   },
   {
@@ -611,7 +611,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Für den Schaden aufkommen.",
-    "lv": "Pokryjte škody.",
+    "lv": "Uhradit škodu.",
     "level": "Sätze"
   },
   {
@@ -621,32 +621,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Aufrecht sitzen.",
-    "lv": "Posaďte se rovně.",
+    "lv": "Sedět vzpřímeně.",
     "level": "Sätze"
   },
   {
     "de": "Er ist auf.",
-    "lv": "Vstal.",
+    "lv": "Už je vzhůru.",
     "level": "Sätze"
   },
   {
     "de": "Alle Kräfte aufwenden.",
-    "lv": "Věnujte všechny své síly.",
+    "lv": "Vynaložit veškeré síly.",
     "level": "Sätze"
   },
   {
     "de": "Viel Mühe aufwenden.",
-    "lv": "Velmi se snažte.",
+    "lv": "Vynaložit velké úsilí.",
     "level": "Sätze"
   },
   {
     "de": "Geh mir aus den Augen!",
-    "lv": "Už se na mě nedívej!",
+    "lv": "Zmiz mi z očí!",
     "level": "Sätze"
   },
   {
     "de": "Unter vier Augen.",
-    "lv": "Ve dvou. • Tiše",
+    "lv": "Mezi čtyřma očima.",
     "level": "Sätze"
   },
   {
@@ -666,7 +666,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf Äußerlichkeiten Wert legen.",
-    "lv": "Dejte důraz na vzhled.",
+    "lv": "Dbát na vnější vzhled.",
     "level": "Sätze"
   },
   {
@@ -696,12 +696,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sein Beileid aussprechen.",
-    "lv": "Vyjádřete soustrast.",
+    "lv": "Vyjádřit soustrast.",
     "level": "Sätze"
   },
   {
     "de": "Wann wurden die Meisterschaftskämpfe ausgetragen?",
-    "lv": "Kdy bylo mistrovství?",
+    "lv": "Kdy se konaly mistrovské zápasy?",
     "level": "Sätze"
   },
   {
@@ -716,7 +716,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auswärts essen.",
-    "lv": "Jezte venku.",
+    "lv": "Jíst mimo domov.",
     "level": "Sätze"
   },
   {
@@ -741,7 +741,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf die lange Bank schieben.",
-    "lv": "Odkládat. • Přetáhněte na délku • Odložte na neurčito",
+    "lv": "Odkládat. • Protahovat. • Odkládat na neurčito.",
     "level": "Sätze"
   },
   {
@@ -751,17 +751,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Erz bauen.",
-    "lv": "Získejte rudu.",
+    "lv": "Těžit rudu.",
     "level": "Sätze"
   },
   {
     "de": "Mist bauen.",
-    "lv": "Střílet. • Udělejte ze sebe blázna",
+    "lv": "Vyvádět hlouposti. • Dělat chyby.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin beauftragt.",
-    "lv": "Byla mi přidělena práce.",
+    "lv": "Jsem pověřen(a).",
     "level": "Sätze"
   },
   {
@@ -781,22 +781,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Unter der Bedingung, dass...",
-    "lv": "Pokud...",
+    "lv": "Za podmínky, že...",
     "level": "Sätze"
   },
   {
     "de": "Sie sieht bedrückt aus.",
-    "lv": "Vypadá depresivně.",
+    "lv": "Vypadá sklesle.",
     "level": "Sätze"
   },
   {
     "de": "Hinweise befolgen.",
-    "lv": "Postupujte podle pokynů.",
+    "lv": "Řídit se pokyny.",
     "level": "Sätze"
   },
   {
     "de": "Befehle befolgen.",
-    "lv": "Postupujte podle rozkazů.",
+    "lv": "Řídit se rozkazy.",
     "level": "Sätze"
   },
   {
@@ -821,7 +821,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bei Beginn.",
-    "lv": "Spuštění",
+    "lv": "Na začátku.",
     "level": "Sätze"
   },
   {
@@ -831,17 +831,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit seiner Begleitung.",
-    "lv": "S doprovodem.",
+    "lv": "S jeho doprovodem.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schwer von Begriff.",
-    "lv": "Je pomalý na vnímání. • Má pomalé myšlení",
+    "lv": "Pomalu chápe. • Má pomalé myšlení.",
     "level": "Sätze"
   },
   {
     "de": "Im Gedächtnis behalten.",
-    "lv": "Pamatujte si. • Uchovávejte v paměti",
+    "lv": "Pamatovat si. • Uchovat v paměti.",
     "level": "Sätze"
   },
   {
@@ -851,7 +851,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bei Sinnen sein.",
-    "lv": "Abych byl při smyslech.",
+    "lv": "Být při smyslech.",
     "level": "Sätze"
   },
   {
@@ -861,7 +861,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bei weitem nicht so.",
-    "lv": "Vůbec ne.",
+    "lv": "Zdaleka ne tak.",
     "level": "Sätze"
   },
   {
@@ -876,12 +876,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Beifall finden.",
-    "lv": "Získejte souhlas.",
+    "lv": "Setkat se s ohlasem. • Získat uznání.",
     "level": "Sätze"
   },
   {
     "de": "Beileid aussprechen.",
-    "lv": "Vyjádřete soustrast.",
+    "lv": "Vyjádřit soustrast.",
     "level": "Sätze"
   },
   {
@@ -896,27 +896,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Beistand leisten.",
-    "lv": "Na pomoc. • Poskytněte pomoc",
+    "lv": "Poskytnout pomoc.",
     "level": "Sätze"
   },
   {
     "de": "Beitrag leisten.",
-    "lv": "Investujte svůj podíl.",
+    "lv": "Přispět svým dílem.",
     "level": "Sätze"
   },
   {
     "de": "Jemandes Bekanntschaft machen.",
-    "lv": "Seznamte se s někým.",
+    "lv": "Seznámit se s někým.",
     "level": "Sätze"
   },
   {
     "de": "Bekanntschaft anknüpfen.",
-    "lv": "Seznamte se navzájem. • Navažte kontakt",
+    "lv": "Seznámit se. • Navázat známost.",
     "level": "Sätze"
   },
   {
     "de": "Belegte Brötchen.",
-    "lv": "Sendviče s polevou.",
+    "lv": "Obložené housky.",
     "level": "Sätze"
   },
   {
@@ -941,17 +941,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bereit sein.",
-    "lv": "Buďte připraveni. • Buďte v klidu",
+    "lv": "Být připraven.",
     "level": "Sätze"
   },
   {
     "de": "Unfallopfer bergen.",
-    "lv": "Záchrana obětí v případě nehody.",
+    "lv": "Zachraňovat oběti nehody.",
     "level": "Sätze"
   },
   {
     "de": "Bericht erstatten.",
-    "lv": "Zpráva. • Poskytněte zprávu • Poskytněte přehled",
+    "lv": "Podat zprávu.",
     "level": "Sätze"
   },
   {
@@ -986,12 +986,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Beim besten Willen.",
-    "lv": "Cokoli chcete.",
+    "lv": "Při nejlepší vůli.",
     "level": "Sätze"
   },
   {
     "de": "Am besten.",
-    "lv": "Nejlepší.",
+    "lv": "Nejlépe.",
     "level": "Sätze"
   },
   {
@@ -1006,27 +1006,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Grüße bestellen.",
-    "lv": "Pozdravit.",
+    "lv": "Vyřídit pozdravy.",
     "level": "Sätze"
   },
   {
     "de": "Ganz bestimmt.",
-    "lv": "Rozhodně. • Zcela bezpečné",
+    "lv": "Rozhodně.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch kommen.",
-    "lv": "Přijďte navštívit.",
+    "lv": "Přijít na návštěvu.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch sein.",
-    "lv": "Na návštěvu. • Navštívit",
+    "lv": "Být na návštěvě.",
     "level": "Sätze"
   },
   {
     "de": "Oft Konzerte besuchen.",
-    "lv": "Často chodí na koncerty.",
+    "lv": "Často chodit na koncerty.",
     "level": "Sätze"
   },
   {
@@ -1036,12 +1036,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In Betracht ziehen.",
-    "lv": "Vzít v úvahu. • Zvažte",
+    "lv": "Vzít v úvahu. • Zvážit.",
     "level": "Sätze"
   },
   {
     "de": "Außer Betracht lassen.",
-    "lv": "Ignorovat. • Neuvažujte",
+    "lv": "Nevzít v úvahu. • Pominout.",
     "level": "Sätze"
   },
   {
@@ -1056,7 +1056,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alles bezahlen.",
-    "lv": "Zaplať všechno.",
+    "lv": "Zaplatit všechno.",
     "level": "Sätze"
   },
   {
@@ -1071,7 +1071,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie bitte?",
-    "lv": "Jak prosím",
+    "lv": "Prosím?",
     "level": "Sätze"
   },
   {
@@ -1086,17 +1086,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Trompete blasen.",
-    "lv": "Trubte na trubku.",
+    "lv": "Troubit na trubku.",
     "level": "Sätze"
   },
   {
     "de": "In einem Buch blättern.",
-    "lv": "Roztřiďte knihu.",
+    "lv": "Listovat v knize.",
     "level": "Sätze"
   },
   {
     "de": "Mit bloßen Füßen.",
-    "lv": "Bosé nohy.",
+    "lv": "Bosýma nohama.",
     "level": "Sätze"
   },
   {
@@ -1106,7 +1106,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Danke für die Blumen!",
-    "lv": "Díky za květiny!",
+    "lv": "Díky za kompliment!",
     "level": "Sätze"
   },
   {
@@ -1116,7 +1116,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte checken.",
-    "lv": "Kontrola. • Zkontrolujte",
+    "lv": "Prosím, zkontrolujte.",
     "level": "Sätze"
   },
   {
@@ -1126,12 +1126,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alles spricht dafür.",
-    "lv": "Všechno mluví dobře.",
+    "lv": "Všechno tomu nasvědčuje.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann nichts dafür.",
-    "lv": "Nemůžu tam nic dělat.",
+    "lv": "Nemůžu za to.",
     "level": "Sätze"
   },
   {
@@ -1151,7 +1151,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit der Dame ziehen.",
-    "lv": "Udělejte dámský tah.",
+    "lv": "Táhnout dámou.",
     "level": "Sätze"
   },
   {
@@ -1171,7 +1171,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Darauf kannst du dich verlassen.",
-    "lv": "Na to se můžete spolehnout.",
+    "lv": "Na to se můžeš spolehnout.",
     "level": "Sätze"
   },
   {
@@ -1181,12 +1181,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "So dass...",
-    "lv": "Aby...",
+    "lv": "Takže...",
     "level": "Sätze"
   },
   {
     "de": "Für wen halten Sie mich?",
-    "lv": "Co si myslíš, že jsem?",
+    "lv": "Za koho mě považujete?",
     "level": "Sätze"
   },
   {
@@ -1196,7 +1196,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Lass den Kopf nicht hängen!",
-    "lv": "Neskláněj hlavu!",
+    "lv": "Nevěš hlavu!",
     "level": "Sätze"
   },
   {
@@ -1211,22 +1211,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "von Haus aus",
-    "lv": "Od dětství • Od samého počátku",
+    "lv": "Od přírody. • Odjakživa.",
     "level": "Sätze"
   },
   {
     "de": "Meinen herzlichsten Glückwunsch!",
-    "lv": "Gratuluji!",
+    "lv": "Srdečně blahopřeji!",
     "level": "Sätze"
   },
   {
     "de": "Seien Sie so gut!",
-    "lv": "Buď tak laskav! • Buďte tak dobří!",
+    "lv": "Buďte tak laskav!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie die Güte!",
-    "lv": "Buď tak laskav!",
+    "lv": "Buďte tak laskav!",
     "level": "Sätze"
   },
   {
@@ -1256,7 +1256,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "gestern Abend",
-    "lv": "Včera v noci",
+    "lv": "Včera večer",
     "level": "Sätze"
   },
   {
@@ -1271,12 +1271,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mach keine Geschichten!",
-    "lv": "Nedělejte nesmysly! • Nedělejte si legraci!",
+    "lv": "Nedělej hlouposti!",
     "level": "Sätze"
   },
   {
     "de": "Geschweige denn...",
-    "lv": "O tom nemluvě. • Kde jinde",
+    "lv": "O tom nemluvě. • Natož...",
     "level": "Sätze"
   },
   {
@@ -1286,12 +1286,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie geht es Ihnen?",
-    "lv": "Jak se máš • Jak se máš?",
+    "lv": "Jak se máte?",
     "level": "Sätze"
   },
   {
     "de": "Frag ihn gelegentlich, ob...",
-    "lv": "Zeptejte se ho, jestli vyjde, jestli...",
+    "lv": "Občas se ho zeptej, jestli...",
     "level": "Sätze"
   },
   {
@@ -1316,7 +1316,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Fahre fort!",
-    "lv": "Jen tak dál!",
+    "lv": "Pokračuj!",
     "level": "Sätze"
   },
   {
@@ -1331,7 +1331,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gedenkst du meiner?",
-    "lv": "Pamatuješ si mě • Myslel jsi na mě?",
+    "lv": "Pamatuješ si mě? • Myslíš na mě?",
     "level": "Sätze"
   },
   {
@@ -1341,12 +1341,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Welcher Jahrgang sind Sie?",
-    "lv": "V jakém roce jsi se narodil?",
+    "lv": "Který jste ročník?",
     "level": "Sätze"
   },
   {
     "de": "Es jammert mich zu sehen...",
-    "lv": "Smutné sledovat...",
+    "lv": "Je mi líto vidět...",
     "level": "Sätze"
   },
   {
@@ -1356,7 +1356,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "bis jetzt",
-    "lv": "Až do teď",
+    "lv": "Doteď",
     "level": "Sätze"
   },
   {
@@ -1386,7 +1386,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Lass das!",
-    "lv": "Přestaň! • Pusťte to!",
+    "lv": "Přestaň! • Nech toho!",
     "level": "Sätze"
   },
   {
@@ -1401,12 +1401,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Lasst uns gehen!",
-    "lv": "Jdeme na to!",
+    "lv": "Pojďme!",
     "level": "Sätze"
   },
   {
     "de": "Na, wie läufts?",
-    "lv": "Jak se máte",
+    "lv": "Tak jak to jde?",
     "level": "Sätze"
   },
   {
@@ -1416,12 +1416,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Leben Sie wohl!",
-    "lv": "Žijte zdravě! • Sbohem!",
+    "lv": "Sbohem!",
     "level": "Sätze"
   },
   {
     "de": "Was ist los?",
-    "lv": "Co se stalo?",
+    "lv": "Co se děje?",
     "level": "Sätze"
   },
   {
@@ -1431,7 +1431,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das war ein anstrengender Tag.",
-    "lv": "Byl to rušný den.",
+    "lv": "Byl to náročný den.",
     "level": "Sätze"
   },
   {
@@ -1471,7 +1471,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Hund ist los.",
-    "lv": "Pes byl propuštěn.",
+    "lv": "Pes je na volno.",
     "level": "Sätze"
   },
   {
@@ -1481,22 +1481,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Halt die Luft an!",
-    "lv": "Zadržte dech!",
+    "lv": "Zadrž dech!",
     "level": "Sätze"
   },
   {
     "de": "Was machst du?",
-    "lv": "Co to děláš",
+    "lv": "Co to děláš?",
     "level": "Sätze"
   },
   {
     "de": "Sag mal!",
-    "lv": "Řekni ano!",
+    "lv": "Hele!",
     "level": "Sätze"
   },
   {
     "de": "Was meinen Sie damit?",
-    "lv": "Co tím myslíš? • Co si myslíte?",
+    "lv": "Co tím myslíte?",
     "level": "Sätze"
   },
   {
@@ -1551,17 +1551,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Letzte Neuheit!",
-    "lv": "Nejnovější zprávy!",
+    "lv": "Nejnovější novinka!",
     "level": "Sätze"
   },
   {
     "de": "Nicht wahr?",
-    "lv": "Právo?",
+    "lv": "Že ano?",
     "level": "Sätze"
   },
   {
     "de": "Nicht doch!",
-    "lv": "Ne, samozřejmě! • Ne!",
+    "lv": "Ale ne! • To ne!",
     "level": "Sätze"
   },
   {
@@ -1646,7 +1646,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie sehr auch...",
-    "lv": "Kolik...",
+    "lv": "Jakkoli...",
     "level": "Sätze"
   },
   {
@@ -1666,7 +1666,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nicht nur..., sondern auch...",
-    "lv": "Nejen... ale i...",
+    "lv": "Nejen..., ale i...",
     "level": "Sätze"
   },
   {
@@ -1676,17 +1676,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Spaß beiseite!",
-    "lv": "Žádný vtip! • Vtipy na hraně!",
+    "lv": "Ale vážně! • Žerty stranou!",
     "level": "Sätze"
   },
   {
     "de": "Wie spät ist es?",
-    "lv": "Kolik je hodin",
+    "lv": "Kolik je hodin?",
     "level": "Sätze"
   },
   {
     "de": "Durchfahrt gesperrt!",
-    "lv": "Projíždění je zakázáno!",
+    "lv": "Průjezd uzavřen!",
     "level": "Sätze"
   },
   {
@@ -1701,7 +1701,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie steht’s?",
-    "lv": "Jak se máte",
+    "lv": "Jak se máte?",
     "level": "Sätze"
   },
   {
@@ -1711,7 +1711,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Guten Tag!",
-    "lv": "Ahoj!",
+    "lv": "Dobrý den!",
     "level": "Sätze"
   },
   {
@@ -1721,7 +1721,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Treten Sie näher!",
-    "lv": "Pojď blíž!",
+    "lv": "Pojďte blíž!",
     "level": "Sätze"
   },
   {
@@ -1736,7 +1736,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nicht übel!",
-    "lv": "Velmi dobře! • Nejsou žádné námitky",
+    "lv": "Ujde! • Není to špatné!",
     "level": "Sätze"
   },
   {
@@ -1746,17 +1746,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er ist davon überzeugt.",
-    "lv": "Je si tím jistý.",
+    "lv": "Je o tom přesvědčen.",
     "level": "Sätze"
   },
   {
     "de": "So ist es üblich.",
-    "lv": "Je to přijato.",
+    "lv": "Tak se to běžně dělá.",
     "level": "Sätze"
   },
   {
     "de": "Deine Uhr geht nach.",
-    "lv": "Vaše hodinky jsou pozadu.",
+    "lv": "Tvoje hodinky jdou pozdě.",
     "level": "Sätze"
   },
   {
@@ -1776,17 +1776,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Rechts um!",
-    "lv": "Odbočte doprava!",
+    "lv": "Vpravo v bok!",
     "level": "Sätze"
   },
   {
     "de": "Und ob!",
-    "lv": "A co ještě!",
+    "lv": "A jak!",
     "level": "Sätze"
   },
   {
     "de": "und zwar",
-    "lv": "A to",
+    "lv": "A sice",
     "level": "Sätze"
   },
   {
@@ -1801,7 +1801,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Keine Ursache!",
-    "lv": "Nic za nic!",
+    "lv": "Není zač!",
     "level": "Sätze"
   },
   {
@@ -1816,7 +1816,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Falsch verbunden!",
-    "lv": "Špatné připojení!",
+    "lv": "Špatné spojení!",
     "level": "Sätze"
   },
   {
@@ -1826,7 +1826,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Verstehen Sie mich?",
-    "lv": "Rozumíš mi?",
+    "lv": "Rozumíte mi?",
     "level": "Sätze"
   },
   {
@@ -1836,7 +1836,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Seine Ansicht vertreten.",
-    "lv": "Obhajujte svůj názor.",
+    "lv": "Zastávat jeho názor.",
     "level": "Sätze"
   },
   {
@@ -1856,7 +1856,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vom Hörensagen.",
-    "lv": "Po vyslechnutí.",
+    "lv": "Z doslechu.",
     "level": "Sätze"
   },
   {
@@ -1866,7 +1866,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Von Beruf.",
-    "lv": "Podle povolání.",
+    "lv": "Povoláním.",
     "level": "Sätze"
   },
   {
@@ -1876,7 +1876,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er steht vor dem Fenster.",
-    "lv": "Stojí u okna.",
+    "lv": "Stojí před oknem.",
     "level": "Sätze"
   },
   {
@@ -1886,22 +1886,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vor vierzehn Tagen.",
-    "lv": "Před dvěma týdny.",
+    "lv": "Před čtrnácti dny.",
     "level": "Sätze"
   },
   {
     "de": "Vor Freude.",
-    "lv": "Pro zábavu.",
+    "lv": "Radostí.",
     "level": "Sätze"
   },
   {
     "de": "Vor allem.",
-    "lv": "Především. • Především",
+    "lv": "Především.",
     "level": "Sätze"
   },
   {
     "de": "Im Voraus.",
-    "lv": "Dříve.",
+    "lv": "Předem.",
     "level": "Sätze"
   },
   {
@@ -1911,12 +1911,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Unter dem Vorbehalt.",
-    "lv": "Podmíněně.",
+    "lv": "S výhradou.",
     "level": "Sätze"
   },
   {
     "de": "Vorhanden sein.",
-    "lv": "Být. • Buďte přítomni • Buďte k dispozici",
+    "lv": "Být k dispozici. • Být přítomen.",
     "level": "Sätze"
   },
   {
@@ -1926,7 +1926,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vorkehrungen treffen.",
-    "lv": "Přijměte opatření na ochranu.",
+    "lv": "Učinit opatření.",
     "level": "Sätze"
   },
   {
@@ -1941,7 +1941,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Heute Vormittag.",
-    "lv": "Dnes ráno. • Dnes ráno",
+    "lv": "Dnes dopoledne.",
     "level": "Sätze"
   },
   {
@@ -1961,7 +1961,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Im Vorteil sein.",
-    "lv": "Buďte v lepší pozici.",
+    "lv": "Být ve výhodě.",
     "level": "Sätze"
   },
   {
@@ -1971,12 +1971,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wach werden.",
-    "lv": "Probuď se.",
+    "lv": "Probudit se.",
     "level": "Sätze"
   },
   {
     "de": "Auf Wache sein.",
-    "lv": "Stůj na stráži.",
+    "lv": "Být na stráži.",
     "level": "Sätze"
   },
   {
@@ -1991,7 +1991,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gegen eine Wand reden.",
-    "lv": "Marné řeči.",
+    "lv": "Mluvit do zdi.",
     "level": "Sätze"
   },
   {
@@ -2011,12 +2011,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf eine Nachricht warten.",
-    "lv": "Počkejte na zprávu.",
+    "lv": "Čekat na zprávu.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie?",
-    "lv": "Co chceš?",
+    "lv": "Co chcete?",
     "level": "Sätze"
   },
   {
@@ -2031,12 +2031,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf diesem Wege.",
-    "lv": "Takhle. • Za takové prostředky",
+    "lv": "Takhle. • Tímto způsobem.",
     "level": "Sätze"
   },
   {
     "de": "Auf friedlichem Wege.",
-    "lv": "Na cestě míru.",
+    "lv": "Mírovou cestou.",
     "level": "Sätze"
   },
   {
@@ -2046,12 +2046,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Von Rechts wegen.",
-    "lv": "Spravedlností.",
+    "lv": "Právem.",
     "level": "Sätze"
   },
   {
     "de": "Weh tun.",
-    "lv": "Ublížit.",
+    "lv": "Bolet.",
     "level": "Sätze"
   },
   {
@@ -2066,12 +2066,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Art und Weise.",
-    "lv": "Typ.",
+    "lv": "Způsob.",
     "level": "Sätze"
   },
   {
     "de": "Ohne weiteres.",
-    "lv": "Ihned. • Okamžitě",
+    "lv": "Bez dalšího.",
     "level": "Sätze"
   },
   {
@@ -2101,7 +2101,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In wenigen Tagen.",
-    "lv": "V některých dnech.",
+    "lv": "Za několik dní.",
     "level": "Sätze"
   },
   {
@@ -2116,7 +2116,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wer da?",
-    "lv": "Co je tam?",
+    "lv": "Kdo je tam?",
     "level": "Sätze"
   },
   {
@@ -2126,7 +2126,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ausgewählte Werke.",
-    "lv": "Výběr děl.",
+    "lv": "Vybraná díla.",
     "level": "Sätze"
   },
   {
@@ -2151,17 +2151,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In Wettbewerb treten.",
-    "lv": "Zapojte se do soutěže.",
+    "lv": "Zapojit se do soutěže.",
     "level": "Sätze"
   },
   {
     "de": "Um die Wette laufen.",
-    "lv": "Běžte závod.",
+    "lv": "Závodit.",
     "level": "Sätze"
   },
   {
     "de": "Was gilt die Wette?",
-    "lv": "O čem vyjednáváme?",
+    "lv": "O co se sázíme?",
     "level": "Sätze"
   },
   {
@@ -2181,7 +2181,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Widerspruch erheben.",
-    "lv": "Na protest. • Vznést námitky",
+    "lv": "Vznést námitku.",
     "level": "Sätze"
   },
   {
@@ -2191,17 +2191,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie lange?",
-    "lv": "Jak dlouho",
+    "lv": "Jak dlouho?",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiederhören!",
-    "lv": "Sbohem!",
+    "lv": "Na slyšenou!",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiedersehen!",
-    "lv": "Sbohem!",
+    "lv": "Na shledanou!",
     "level": "Sätze"
   },
   {
@@ -2211,17 +2211,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Herzlich willkommen!",
-    "lv": "Srdečné pozdravy!",
+    "lv": "Srdečně vítejte!",
     "level": "Sätze"
   },
   {
     "de": "Du musst ziehen.",
-    "lv": "Máš tah.",
+    "lv": "Musíš táhnout.",
     "level": "Sätze"
   },
   {
     "de": "Es zieht.",
-    "lv": "SEM",
+    "lv": "Táhne.",
     "level": "Sätze"
   },
   {
@@ -2231,27 +2231,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zipfel einer Wurst.",
-    "lv": "Tip na klobásu.",
+    "lv": "Konec klobásy.",
     "level": "Sätze"
   },
   {
     "de": "Zu ihm gehen.",
-    "lv": "Jdi k němu.",
+    "lv": "Jít k němu.",
     "level": "Sätze"
   },
   {
     "de": "Zur Schule gehen.",
-    "lv": "Jdi do školy.",
+    "lv": "Jít do školy.",
     "level": "Sätze"
   },
   {
     "de": "Zu Hause bleiben.",
-    "lv": "Zůstaňte doma.",
+    "lv": "Zůstat doma.",
     "level": "Sätze"
   },
   {
     "de": "Von Tag zu Tag.",
-    "lv": "Na denní bázi.",
+    "lv": "Den ode dne.",
     "level": "Sätze"
   },
   {
@@ -2266,12 +2266,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zu Fuß.",
-    "lv": "Pro nohy.",
+    "lv": "Pěšky.",
     "level": "Sätze"
   },
   {
     "de": "Zu Pferde.",
-    "lv": "Ano.",
+    "lv": "Na koni.",
     "level": "Sätze"
   },
   {
@@ -2306,7 +2306,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In einem Zug trinken.",
-    "lv": "Vypijte jedním douškem.",
+    "lv": "Vypít jedním douškem.",
     "level": "Sätze"
   },
   {
@@ -2316,7 +2316,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zugrunde legen.",
-    "lv": "Položte na základ. • Vezměte jako základ.",
+    "lv": "Položit za základ. • Brát jako základ.",
     "level": "Sätze"
   },
   {
@@ -2356,7 +2356,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Freier Zutritt.",
-    "lv": "Vstup zdarma.",
+    "lv": "Volný vstup.",
     "level": "Sätze"
   },
   {
@@ -2371,7 +2371,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zuwider werden.",
-    "lv": "Staňte se nechutnými. • Onemocnět",
+    "lv": "Stát se protivným. • Zprotivit se.",
     "level": "Sätze"
   },
   {
@@ -2386,7 +2386,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ohne Zweifel.",
-    "lv": "Bez váhání.",
+    "lv": "Bez pochyby.",
     "level": "Sätze"
   },
   {
@@ -2411,12 +2411,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es freut mich, Sie kennenzulernen.",
-    "lv": "Rád tě poznávám.",
+    "lv": "Rád vás poznávám.",
     "level": "Sätze"
   },
   {
     "de": "Wären Sie bitte so nett?",
-    "lv": "Byl bys prosím tak laskav?",
+    "lv": "Byl byste prosím tak laskav?",
     "level": "Sätze"
   },
   {
@@ -2441,7 +2441,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geht bitte in die Sporthalle!",
-    "lv": "Prosím, jděte do posilovny!",
+    "lv": "Prosím, jděte do sportovní haly!",
     "level": "Sätze"
   },
   {
@@ -2451,17 +2451,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Schlafen Sie noch?",
-    "lv": "Ty ještě spíš?",
+    "lv": "Spíte ještě?",
     "level": "Sätze"
   },
   {
     "de": "Er ist fest eingeschlafen.",
-    "lv": "Tvrdě spí.",
+    "lv": "Pevně usnul.",
     "level": "Sätze"
   },
   {
     "de": "Wecke ihn bitte auf, es ist schon spät!",
-    "lv": "Prosím, vzbuďte ho, už je pozdě!",
+    "lv": "Prosím, vzbuď ho, už je pozdě!",
     "level": "Sätze"
   },
   {
@@ -2481,7 +2481,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Lest bitte mit!",
-    "lv": "Čtěte, prosím!",
+    "lv": "Čtěte s námi, prosím!",
     "level": "Sätze"
   },
   {
@@ -2496,7 +2496,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geh bitte zurück an deinen Platz!",
-    "lv": "Vraťte se na své místo!",
+    "lv": "Vrať se prosím na své místo!",
     "level": "Sätze"
   },
   {
@@ -2506,7 +2506,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann wachst du gewöhnlich auf?",
-    "lv": "Kdy obvykle vstáváš?",
+    "lv": "Kdy se obvykle probouzíš?",
     "level": "Sätze"
   },
   {
@@ -2516,7 +2516,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Steh auf, Hanna, es klingelt!",
-    "lv": "Vstávej, Hannah, zvonek zvoní!",
+    "lv": "Vstávej, Hanno, zvoní!",
     "level": "Sätze"
   },
   {
@@ -2526,12 +2526,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vergiss nicht, das Zimmer zu lüften!",
-    "lv": "Nezapomeňte místnost větrat!",
+    "lv": "Nezapomeň vyvětrat pokoj!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist das Handtuch?",
-    "lv": "Kde je ručník",
+    "lv": "Kde je ručník?",
     "level": "Sätze"
   },
   {
@@ -2541,7 +2541,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit was putzt du dir die Zähne?",
-    "lv": "Čím si čistíte zuby?",
+    "lv": "Čím si čistíš zuby?",
     "level": "Sätze"
   },
   {
@@ -2556,7 +2556,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kleide dich wärmer an, draußen ist es kühl.",
-    "lv": "Teple se oblečte, venku je zima.",
+    "lv": "Obleč se tepleji, venku je chladno.",
     "level": "Sätze"
   },
   {
@@ -2576,7 +2576,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was für ein Chaos hier!",
-    "lv": "Jaký je tady nepořádek!",
+    "lv": "To je ale nepořádek!",
     "level": "Sätze"
   },
   {
@@ -2596,12 +2596,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Am liebsten trinke ich schwarzen Kaffee.",
-    "lv": "Nejlépe piju černou kávu.",
+    "lv": "Nejraději piju černou kávu.",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen, hast du gut geschlafen?",
-    "lv": "Dobré ráno, vyspali jste se dobře?",
+    "lv": "Dobré ráno, vyspal ses dobře?",
     "level": "Sätze"
   },
   {
@@ -2616,7 +2616,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gib mir bitte ein Brötchen mit Käse.",
-    "lv": "Dejte mi sýrovou buchtu, prosím.",
+    "lv": "Dej mi prosím housku se sýrem.",
     "level": "Sätze"
   },
   {
@@ -2626,22 +2626,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vergiss dein Frühstück nicht!",
-    "lv": "Nezapomeňte na snídani!",
+    "lv": "Nezapomeň na snídani!",
     "level": "Sätze"
   },
   {
     "de": "Klara, deck bitte den Tisch!",
-    "lv": "Claro, prosím prostřeš stůl!",
+    "lv": "Klaro, prosím, prostři stůl!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss die Servietten nicht!",
-    "lv": "Nezapomeňte na ubrousky!",
+    "lv": "Nezapomeň na ubrousky!",
     "level": "Sätze"
   },
   {
     "de": "Wann esst ihr zu Mittag?",
-    "lv": "Kdy obědváš",
+    "lv": "Kdy obědváte?",
     "level": "Sätze"
   },
   {
@@ -2656,12 +2656,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie schmeckt dir die Suppe?",
-    "lv": "Jak vám chutná polévka?",
+    "lv": "Jak ti chutná polévka?",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt ist sie etwas zu salzig.",
-    "lv": "Upřímně řečeno, je to trochu příliš slané.",
+    "lv": "Upřímně řečeno, je trochu příliš slaná.",
     "level": "Sätze"
   },
   {
@@ -2691,12 +2691,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bist du heute Abend frei?",
-    "lv": "Máš dnes večer volno",
+    "lv": "Máš dnes večer volno?",
     "level": "Sätze"
   },
   {
     "de": "Komm doch heute zum Mittagessen vorbei!",
-    "lv": "Přijďte dnes na oběd!",
+    "lv": "Přijď dnes na oběd!",
     "level": "Sätze"
   },
   {
@@ -2706,22 +2706,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte, bedien dich!",
-    "lv": "Jezte, prosím, kolik chcete!",
+    "lv": "Posluž si, prosím!",
     "level": "Sätze"
   },
   {
     "de": "Stört dich das Rauchen?",
-    "lv": "Vadí vám kouření?",
+    "lv": "Vadí ti kouření?",
     "level": "Sätze"
   },
   {
     "de": "Danke für die nette Aufnahme!",
-    "lv": "Děkujeme za vřelé přivítání!",
+    "lv": "Děkuji za vřelé přivítání!",
     "level": "Sätze"
   },
   {
     "de": "Wann gehst du ins Bett?",
-    "lv": "Kdy jdeš spát",
+    "lv": "Kdy jdeš spát?",
     "level": "Sätze"
   },
   {
@@ -2736,12 +2736,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es ist schönes Wetter.",
-    "lv": "Je to pěkný čas.",
+    "lv": "Je hezké počasí.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mit mir spazieren gehen?",
-    "lv": "Chceš jít se mnou?",
+    "lv": "Chceš se se mnou projít?",
     "level": "Sätze"
   },
   {
@@ -2751,7 +2751,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nimm den Regenschirm mit!",
-    "lv": "Vezměte si s sebou deštník!",
+    "lv": "Vezmi si s sebou deštník!",
     "level": "Sätze"
   },
   {
@@ -2766,7 +2766,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Glaubst du, dass es den ganzen Tag regnen wird?",
-    "lv": "Myslíte, že bude celý den pršet?",
+    "lv": "Myslíš, že bude celý den pršet?",
     "level": "Sätze"
   },
   {
@@ -2781,7 +2781,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es ist sehr warm.",
-    "lv": "Je velmi horko.",
+    "lv": "Je velmi teplo.",
     "level": "Sätze"
   },
   {
@@ -2796,12 +2796,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das Gewitter zieht vorüber.",
-    "lv": "Bouře přešla.",
+    "lv": "Bouřka přechází.",
     "level": "Sätze"
   },
   {
     "de": "Die Wolken verziehen sich.",
-    "lv": "Mraky se rozptýlí.",
+    "lv": "Mraky se rozptylují.",
     "level": "Sätze"
   },
   {
@@ -2811,7 +2811,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Winter ist da, es hat geschneit.",
-    "lv": "Zima je tady, v noci sněžilo.",
+    "lv": "Zima je tady, sněžilo.",
     "level": "Sätze"
   },
   {
@@ -2841,17 +2841,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zieh die Jacke an, du kannst dich erkälten.",
-    "lv": "Oblečte si bundu, mohli byste nastydnout.",
+    "lv": "Obleč si bundu, mohl bys nastydnout.",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb sieben.",
-    "lv": "Je půl osmé.",
+    "lv": "Je půl sedmé.",
     "level": "Sätze"
   },
   {
     "de": "Meine Uhr geht fünf Minuten vor.",
-    "lv": "Moje hodinky jsou rychlé pět minut.",
+    "lv": "Moje hodinky jdou o pět minut napřed.",
     "level": "Sätze"
   },
   {
@@ -2881,12 +2881,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie geht es dir?",
-    "lv": "Jak se máte",
+    "lv": "Jak se máš?",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
-    "lv": "Promiňte, chci s vámi něco probrat.",
+    "lv": "Promiň, chci s tebou něco probrat.",
     "level": "Sätze"
   },
   {
@@ -2901,7 +2901,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich komme, um dich zum Spaziergang abzuholen.",
-    "lv": "Přišel jsem tě vzít na procházku.",
+    "lv": "Jdu tě vyzvednout na procházku.",
     "level": "Sätze"
   },
   {
@@ -2911,7 +2911,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich bin zum ersten Mal in dieser Gegend.",
-    "lv": "Jsem tu poprvé.",
+    "lv": "Jsem v této oblasti poprvé.",
     "level": "Sätze"
   },
   {
@@ -2931,7 +2931,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Entschuldige, wo ist die nächste U-Bahn-Station?",
-    "lv": "Promiňte, kde je nejbližší stanice metra?",
+    "lv": "Promiň, kde je nejbližší stanice metra?",
     "level": "Sätze"
   },
   {
@@ -2941,12 +2941,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geh hier die zweite Straße links und dann immer geradeaus.",
-    "lv": "Zde odbočte druhou ulicí doleva a jděte rovně.",
+    "lv": "Tady odboč druhou ulicí doleva a pak jdi pořád rovně.",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich am schnellsten zum Bahnhof?",
-    "lv": "Jak se rychleji dostat na nádraží?",
+    "lv": "Jak se nejrychleji dostanu na nádraží?",
     "level": "Sätze"
   },
   {
@@ -2956,12 +2956,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wohin willst du fahren?",
-    "lv": "Kam chceš jít?",
+    "lv": "Kam chceš jet?",
     "level": "Sätze"
   },
   {
     "de": "Reist du geschäftlich oder privat?",
-    "lv": "Cestujete za prací nebo za zábavou?",
+    "lv": "Cestuješ služebně, nebo soukromě?",
     "level": "Sätze"
   },
   {
@@ -2976,17 +2976,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In einer halben Stunde.",
-    "lv": "Po půl hodině.",
+    "lv": "Za půl hodiny.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich noch eine Kabine bekommen?",
-    "lv": "Mohu ještě dostat chatu?",
+    "lv": "Mohu ještě dostat kajutu?",
     "level": "Sätze"
   },
   {
     "de": "Vergiss deinen Pass nicht!",
-    "lv": "Nezapomeňte si pas!",
+    "lv": "Nezapomeň si pas!",
     "level": "Sätze"
   },
   {
@@ -2996,17 +2996,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Zug fährt um halb sieben ab.",
-    "lv": "Vlak odjíždí v půl osmé.",
+    "lv": "Vlak odjíždí v půl sedmé.",
     "level": "Sätze"
   },
   {
     "de": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!",
-    "lv": "Zavolej si taxi, prosím, jinak zmeškám vlak!",
+    "lv": "Zavolej mi prosím taxi, jinak zmeškám vlak!",
     "level": "Sätze"
   },
   {
     "de": "Fahr bitte zum Bahnhof!",
-    "lv": "Prosím, vezměte mě na stanici!",
+    "lv": "Jeď prosím na nádraží!",
     "level": "Sätze"
   },
   {
@@ -3036,12 +3036,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Muss ich in Koblenz umsteigen?",
-    "lv": "Musím v Koblenz změnit místo?",
+    "lv": "Musím v Koblenzi přestoupit?",
     "level": "Sätze"
   },
   {
     "de": "Ja, dort musst du umsteigen.",
-    "lv": "Ano, musíte si tam přesednout.",
+    "lv": "Ano, tam musíš přestoupit.",
     "level": "Sätze"
   },
   {
@@ -3061,7 +3061,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Stell mein Handgepäck ins Gepäcknetz.",
-    "lv": "Dejte mi příruční zavazadlo do mřížky.",
+    "lv": "Dej moje příruční zavazadlo do sítě na zavazadla.",
     "level": "Sätze"
   },
   {
@@ -3071,7 +3071,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es zieht, schließ bitte das Fenster!",
-    "lv": "Protáhněte se, prosím, zavřete okno!",
+    "lv": "Táhne, prosím, zavři okno!",
     "level": "Sätze"
   },
   {
@@ -3086,7 +3086,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wo muss ich umsteigen?",
-    "lv": "Kam mám přestoupit?",
+    "lv": "Kde musím přestoupit?",
     "level": "Sätze"
   },
   {
@@ -3096,7 +3096,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Dieser Wagen ist für Nichtraucher.",
-    "lv": "Tento kočár je nekuřácký.",
+    "lv": "Tento vůz je pro nekuřáky.",
     "level": "Sätze"
   },
   {
@@ -3106,7 +3106,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hast du etwas zu verzollen?",
-    "lv": "Máte něco na vymazání?",
+    "lv": "Máš něco k proclení?",
     "level": "Sätze"
   },
   {
@@ -3116,7 +3116,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kannst du mir ein gutes Hotel empfehlen?",
-    "lv": "Můžete mi doporučit dobrý hotel?",
+    "lv": "Můžeš mi doporučit dobrý hotel?",
     "level": "Sätze"
   },
   {
@@ -3141,7 +3141,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Rechnung, bitte!",
-    "lv": "Bille, prosím!",
+    "lv": "Účet, prosím!",
     "level": "Sätze"
   },
   {
@@ -3181,7 +3181,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kellner, die Speisekarte, bitte!",
-    "lv": "Číšníci, menu, prosím!",
+    "lv": "Číšníku, jídelní lístek, prosím!",
     "level": "Sätze"
   },
   {
@@ -3196,12 +3196,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kellner, zahlen bitte!",
-    "lv": "Číšníci, prosím zaplaťte!",
+    "lv": "Číšníku, zaplatíme, prosím!",
     "level": "Sätze"
   },
   {
     "de": "Ich gehe ins Café einen Kaffee trinken.",
-    "lv": "Půjdu do kavárny vypít kávu.",
+    "lv": "Jdu do kavárny na kávu.",
     "level": "Sätze"
   },
   {
@@ -3221,7 +3221,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Lass deinen Kaffee nicht kalt werden!",
-    "lv": "Nenechte kávu vychladnout!",
+    "lv": "Nenech svou kávu vychladnout!",
     "level": "Sätze"
   },
   {
@@ -3256,7 +3256,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Erinnere mich morgen daran zu schreiben!",
-    "lv": "Připomeňte mi, abych se zítra podepsal!",
+    "lv": "Připomeň mi, abych zítra napsal!",
     "level": "Sätze"
   },
   {
@@ -3281,7 +3281,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte schneiden Sie mir die Haare.",
-    "lv": "Prosím ostříhej mi vlasy.",
+    "lv": "Prosím, ostříhejte mi vlasy.",
     "level": "Sätze"
   },
   {
@@ -3296,12 +3296,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es fängt um halb acht an.",
-    "lv": "Začíná se v půl deváté.",
+    "lv": "Začíná v půl osmé.",
     "level": "Sätze"
   },
   {
     "de": "Alle Plätze sind ausverkauft.",
-    "lv": "Všechny vstupenky jsou vyprodány.",
+    "lv": "Všechna místa jsou vyprodaná.",
     "level": "Sätze"
   },
   {
@@ -3311,12 +3311,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir lassen die Jacken in der Garderobe.",
-    "lv": "Nechme bundy v šatníku.",
+    "lv": "Bundy necháme v šatně.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schnell, der Vorhang geht gleich auf!",
-    "lv": "Rychleji, prosím, opona se právě otevírá!",
+    "lv": "Rychle, prosím, opona se brzy zvedne!",
     "level": "Sätze"
   },
   {
@@ -3326,12 +3326,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Darf ich dich zum Tanz bitten?",
-    "lv": "Mohu vás požádat o tanec?",
+    "lv": "Mohu tě požádat o tanec?",
     "level": "Sätze"
   },
   {
     "de": "Wann ist eure Hochzeit?",
-    "lv": "Kdy máš svatbu?",
+    "lv": "Kdy máte svatbu?",
     "level": "Sätze"
   },
   {
@@ -3371,7 +3371,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich stehe mit meinem Freund in Kontakt.",
-    "lv": "Jsem v korespondenci se svým přítelem.",
+    "lv": "Jsem v kontaktu se svým přítelem.",
     "level": "Sätze"
   },
   {
@@ -3381,7 +3381,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ist alles eingeladen?",
-    "lv": "Je vše nabité?",
+    "lv": "Je všechno naložené?",
     "level": "Sätze"
   },
   {
@@ -3391,7 +3391,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nun können wir alles wieder aufräumen.",
-    "lv": "Nyní můžeme dát vše zpět dohromady.",
+    "lv": "Nyní můžeme všechno znovu uklidit.",
     "level": "Sätze"
   },
   {
@@ -3406,17 +3406,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kannst du schwimmen?",
-    "lv": "Umíte plavat",
+    "lv": "Umíš plavat?",
     "level": "Sätze"
   },
   {
     "de": "Schwimm nicht zu weit hinaus!",
-    "lv": "Neplavte příliš daleko!",
+    "lv": "Neplav příliš daleko!",
     "level": "Sätze"
   },
   {
     "de": "Badest du jeden Tag?",
-    "lv": "Plaveš každý den?",
+    "lv": "Koupeš se každý den?",
     "level": "Sätze"
   },
   {
@@ -3441,7 +3441,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er ist immer nett und freundlich.",
-    "lv": "Je vždy milý a hodný.",
+    "lv": "Je vždy milý a přátelský.",
     "level": "Sätze"
   },
   {
@@ -3481,12 +3481,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hast du Fieber?",
-    "lv": "Máte horečku?",
+    "lv": "Máš horečku?",
     "level": "Sätze"
   },
   {
     "de": "Gestern hatte ich erhöhte Temperatur.",
-    "lv": "Včera jsem měl vysokou teplotu.",
+    "lv": "Včera jsem měl zvýšenou teplotu.",
     "level": "Sätze"
   },
   {
@@ -3511,17 +3511,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich will meine Wohnung neu möblieren.",
-    "lv": "Chci zařídit byt.",
+    "lv": "Chci znovu zařídit byt.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das auf Raten kaufen?",
-    "lv": "Mohu nakupovat na splátky?",
+    "lv": "Mohu to koupit na splátky?",
     "level": "Sätze"
   },
   {
     "de": "Bleib im Bett, bis es dir besser geht!",
-    "lv": "Zůstaňte v posteli, dokud se nebudete cítit lépe!",
+    "lv": "Zůstaň v posteli, dokud se nebudeš cítit lépe!",
     "level": "Sätze"
   },
   {
@@ -3531,12 +3531,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sei mit dem Essen noch vorsichtig.",
-    "lv": "Buďte opatrní s jídlem.",
+    "lv": "Buď ještě opatrný s jídlem.",
     "level": "Sätze"
   },
   {
     "de": "Sprichst du Deutsch?",
-    "lv": "Mluvíš německy",
+    "lv": "Mluvíš německy?",
     "level": "Sätze"
   },
   {
@@ -3546,12 +3546,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Du sprichst ziemlich fließend.",
-    "lv": "Mluvíte docela plynule.",
+    "lv": "Mluvíš docela plynule.",
     "level": "Sätze"
   },
   {
     "de": "Wo hast du Deutsch gelernt?",
-    "lv": "Kde jste se naučil německy?",
+    "lv": "Kde ses naučil německy?",
     "level": "Sätze"
   },
   {
@@ -3561,7 +3561,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
-    "lv": "Vždy hledám příležitost domluvit se německy.",
+    "lv": "Vždy hledám příležitost mluvit německy.",
     "level": "Sätze"
   },
   {
@@ -3586,7 +3586,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Haben Sie ganz frische Eier?",
-    "lv": "Máte čerstvá vejce?",
+    "lv": "Máte opravdu čerstvá vejce?",
     "level": "Sätze"
   },
   {
@@ -3601,7 +3601,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie mir ein halbes Kilo abwiegen?",
-    "lv": "Dokážeš vážit půl kila?",
+    "lv": "Můžete mi odvážit půl kila?",
     "level": "Sätze"
   },
   {
@@ -3631,12 +3631,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geben Sie mir zwei Kilo Hackfleisch.",
-    "lv": "Dejte dva kilogramy mletého masa.",
+    "lv": "Dejte mi dva kilogramy mletého masa.",
     "level": "Sätze"
   },
   {
     "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
-    "lv": "Jeden bochník chleba, prosím, ale ne příliš tvrdý.",
+    "lv": "Jeden bochník chleba, prosím, ale ne příliš křupavý.",
     "level": "Sätze"
   },
   {
@@ -3671,7 +3671,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Haben Sie Reis?",
-    "lv": "Máš rýži?",
+    "lv": "Máte rýži?",
     "level": "Sätze"
   },
   {
@@ -3691,7 +3691,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie die Möbel in meine Wohnung liefern?",
-    "lv": "Můžete dodat nábytek do bytu?",
+    "lv": "Můžete mi doručit nábytek do mého bytu?",
     "level": "Sätze"
   },
   {
@@ -3711,17 +3711,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Dieser Stoff gefällt mir.",
-    "lv": "Miluji tuto látku.",
+    "lv": "Tato látka se mi líbí.",
     "level": "Sätze"
   },
   {
     "de": "Schneiden Sie mir bitte drei Meter ab.",
-    "lv": "Prosím, uřízněte tři metry.",
+    "lv": "Prosím, odstřihněte mi tři metry.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch andere Muster?",
-    "lv": "Máte jiné vzorky?",
+    "lv": "Máte také jiné vzory?",
     "level": "Sätze"
   },
   {
@@ -3731,17 +3731,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geben Sie mir eine hellere.",
-    "lv": "Dejte jasnější.",
+    "lv": "Dejte mi světlejší.",
     "level": "Sätze"
   },
   {
     "de": "Was kosten diese Socken?",
-    "lv": "Kolik jsou tyto ponožky?",
+    "lv": "Kolik stojí tyto ponožky?",
     "level": "Sätze"
   },
   {
     "de": "Welche Handschuhe wünschen Sie?",
-    "lv": "Jaké chceš rukavice?",
+    "lv": "Jaké rukavice si přejete?",
     "level": "Sätze"
   },
   {
@@ -3751,12 +3751,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "So, nun passen sie gut.",
-    "lv": "Takže teď to funguje dobře.",
+    "lv": "Tak, teď dobře sedí.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mir einen guten Schneider empfehlen?",
-    "lv": "Můžete mi doporučit dobrého krejčího?",
+    "lv": "Můžeš mi doporučit dobrého krejčího?",
     "level": "Sätze"
   },
   {
@@ -3766,7 +3766,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann wird er fertig sein?",
-    "lv": "Kdy to bude hotové?",
+    "lv": "Kdy bude hotový?",
     "level": "Sätze"
   },
   {
@@ -3781,7 +3781,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte reinigen und bügeln Sie ihn!",
-    "lv": "Prosím vyčistěte a vyžehlete!",
+    "lv": "Prosím, vyčistěte ho a vyžehlete ho!",
     "level": "Sätze"
   },
   {
@@ -3796,12 +3796,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie die Schuhe heute reparieren?",
-    "lv": "Můžete si dnes opravit boty?",
+    "lv": "Můžete mi dnes opravit boty?",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich die Schuhe abholen?",
-    "lv": "Kdy mohu přinést boty?",
+    "lv": "Kdy si mohu vyzvednout boty?",
     "level": "Sätze"
   },
   {
@@ -3811,12 +3811,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sie geht fünf Minuten vor.",
-    "lv": "Je pět minut dřív.",
+    "lv": "Jdou pět minut napřed.",
     "level": "Sätze"
   },
   {
     "de": "Bist du kurzsichtig oder weitsichtig?",
-    "lv": "Jste krátkozraký nebo dalekozraký?",
+    "lv": "Jsi krátkozraký nebo dalekozraký?",
     "level": "Sätze"
   },
   {
@@ -3846,7 +3846,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
-    "lv": "Prosím zabalte a pošlete domů.",
+    "lv": "Prosím, zabalte to a pošlete mi to domů.",
     "level": "Sätze"
   },
   {
@@ -3866,7 +3866,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann kann ich das Probebild sehen?",
-    "lv": "Kdy mohu vidět vzorek?",
+    "lv": "Kdy mohu vidět zkušební fotografii?",
     "level": "Sätze"
   },
   {
@@ -3901,7 +3901,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zeigen Sie mir bitte Trauringe.",
-    "lv": "Ukažte mi snubní prsteny, prosím.",
+    "lv": "Ukažte mi prosím snubní prsteny.",
     "level": "Sätze"
   },
   {
@@ -3911,7 +3911,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich kann ihn enger machen.",
-    "lv": "Můžu to zúžit.",
+    "lv": "Můžu ho zúžit.",
     "level": "Sätze"
   },
   {
@@ -3926,7 +3926,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie gefallen dir diese Ohrringe?",
-    "lv": "Jak se vám líbí tyto náušnice?",
+    "lv": "Jak se ti líbí tyto náušnice?",
     "level": "Sätze"
   },
   {
@@ -3951,7 +3951,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es ist besonders schön gearbeitet.",
-    "lv": "Je mimořádně jemně zpracovaná.",
+    "lv": "Je mimořádně jemně zpracovaný.",
     "level": "Sätze"
   },
   {
@@ -3961,17 +3961,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bekomme ich die Schachtel gratis?",
-    "lv": "Dostal jsem krabici zdarma?",
+    "lv": "Dostanu krabičku zdarma?",
     "level": "Sätze"
   },
   {
     "de": "Alle Schmuckstücke sind gestempelt.",
-    "lv": "Všechny šperky jsou vyraženy.",
+    "lv": "Všechny šperky jsou označené puncem.",
     "level": "Sätze"
   },
   {
     "de": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?",
-    "lv": "Pokud se mé ženě nelíbí, mohu ji vyměnit?",
+    "lv": "Pokud se mé ženě nebude líbit, mohu to vyměnit?",
     "level": "Sätze"
   },
   {

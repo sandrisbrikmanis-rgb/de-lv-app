@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "cardsExpected": 1,
+    "cardsAudited": 1,
+    "model": "GPT-5.6 Luna",
+    "apiModel": "gpt-5.6-luna",
+    "completedAt": "2026-08-15T12:12:18.296Z"
+  },
+  "findings": [],
+  "qualityFindings": [],
+  "nonError": {
+    "SOURCE_DE_ISSUE": 0,
+    "SOURCE_LV_ISSUE": 0,
+    "NEEDS_OWNER_REVIEW": 0,
+    "FALSE_POSITIVE": 0,
+    "STYLE_ONLY": 0,
+    "PROJECT_CONVENTION": 0
+  },
+  "apiUsage": {
+    "model": "gpt-5.6-luna",
+    "requestCount": 1,
+    "initialBatchRequests": 0,
+    "retryRequests": 0,
+    "batchCount": 1,
+    "batchSizes": [
+      1
+    ],
+    "retryCount": 0,
+    "retryReasons": {},
+    "inputTokens": 239,
+    "cachedInputTokens": 0,
+    "outputTokens": 172,
+    "reasoningTokens": 147,
+    "totalTokens": 411,
+    "findingsCount": 0,
+    "passCount": 1
+  }
+}
