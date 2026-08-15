@@ -1,0 +1,32 @@
+◇ injected env (1) from .env // tip: ⌘ suppress logs { quiet: true }
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+
+=== Micro-repair apply prerequisite ===
+PASS
+
+=== Target reconciliation 2/2 ===
+PASS: 2/2 exact targetObject match
+
+=== Deterministic 3367/3367 ===
+{
+  "dataset": "b1",
+  "total": 3367,
+  "findings": 1022,
+  "severity": {
+    "CRITICAL": 403,
+    "HIGH": 367,
+    "MEDIUM": 252,
+    "LOW": 0
+  },
+  "structural": true,
+  "germanIntegrity": false,
+  "outFile": "/workspace/reports/temp/cs-b1-audit/deterministic-audit.json"
+}
+
+=== Luna 2/2 ===
+  luna final-2card-closure: 2 cards, findings=1, pass=2, tokens=4807
+
+Wrote /workspace/reports/cs-b1-final-micro-regression-closure.md
+VERDICT: CS–DE B1 — OWNER ACCEPTED / CLOSED
+VALIDATED REAL: 0
+OWNER_LOCK: confirmed=0 reopen=0

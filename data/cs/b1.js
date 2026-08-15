@@ -38589,7 +38589,7 @@ const B1_WORDS = [
       "id": "b1-inhalt",
       "layout": "standardStudy",
       "translation": "Obsah",
-      "explanation": "v textu, tašce, nádobě nebo souboru",
+      "explanation": "Hlavní myšlenka: der Inhalt znamená obsah – v textu, tašce, nádobě nebo souboru. Technicky může znamenat také objem.",
       "examples": [
         {
           "de": "Der Inhalt des Briefes ist wichtig.",
@@ -38613,7 +38613,7 @@ const B1_WORDS = [
         {
           "word": "das Thema",
           "meaning": "Téma",
-          "example": "Das Thema ist interessant. = Téma je to zajímavé."
+          "example": "Das Thema ist interessant. = Téma je zajímavé."
         },
         {
           "word": "der Umfang",
@@ -38621,13 +38621,19 @@ const B1_WORDS = [
           "example": "Der Umfang ist groß. = Objem je velký."
         }
       ],
-      "tip": "Co je uvnitř textu, sáčku nebo kontejneru → der Inhalt.",
-      "important": "der Inhalt nejčastěji znamená obsah",
+      "tip": "Co je uvnitř textu, tašky nebo nádoby → der Inhalt.",
+      "important": "Význam „objem“ je technický; v běžném použití der Inhalt nejčastěji znamená obsah.",
       "sectionAccents": {
         "explanation": {
           "blue": "der Inhalt",
-          "purple": [],
-          "yellow": []
+          "purple": [
+            "obsah",
+            "objem"
+          ],
+          "yellow": [
+            "textu",
+            "nádobě"
+          ]
         },
         "examples": [
           {
@@ -38636,7 +38642,7 @@ const B1_WORDS = [
               "yellow": "Briefes"
             },
             "lv": {
-              "purple": "saturs",
+              "purple": "obsah",
               "yellow": "Důležitý"
             }
           },
@@ -38646,8 +38652,8 @@ const B1_WORDS = [
               "yellow": "Tasche"
             },
             "lv": {
-              "purple": "saturu",
-              "yellow": "somas"
+              "purple": "obsah",
+              "yellow": "tašky"
             }
           },
           {
@@ -38656,8 +38662,8 @@ const B1_WORDS = [
               "yellow": "Flasche"
             },
             "lv": {
-              "purple": "tilpums",
-              "yellow": "Pudeles"
+              "purple": "Objem",
+              "yellow": "láhve"
             }
           }
         ],
@@ -38667,11 +38673,11 @@ const B1_WORDS = [
               "green": "der Inhalt"
             },
             "meaning": {
-              "purple": "saturs"
+              "purple": "Obsah"
             },
             "example": {
               "blue": "Inhalt",
-              "purple": "Saturs"
+              "purple": "Obsah"
             }
           },
           {
@@ -38683,7 +38689,7 @@ const B1_WORDS = [
             },
             "example": {
               "red": "Thema",
-              "purple": "Das"
+              "purple": "Téma"
             }
           },
           {
@@ -38691,11 +38697,11 @@ const B1_WORDS = [
               "green": "der Umfang"
             },
             "meaning": {
-              "purple": "apjoms"
+              "purple": "Objem"
             },
             "example": {
               "red": "Umfang",
-              "purple": "Apjoms"
+              "purple": "Objem"
             }
           }
         ],
@@ -38703,15 +38709,15 @@ const B1_WORDS = [
           "blue": "der Inhalt",
           "purple": "uvnitř",
           "yellow": [
-            "uvnitř",
-            "uvnitř",
-            "uvnitř"
+            "textu",
+            "tašky",
+            "nádoby"
           ]
         },
         "important": {
           "blue": "der Inhalt",
-          "purple": "saturs",
-          "red": "Tilpuma"
+          "purple": "obsah",
+          "red": "objem"
         }
       }
     }
@@ -51646,10 +51652,113 @@ const B1_WORDS = [
   },
   {
     "de": "sowie",
-    "lv": "Stejně jako",
+    "lv": "stejně jako",
     "level": "B1",
-    "study": "Sowie nejčastěji znamená také nebo i a spojuje dvě věci.",
-    "structure": "Restore parity with LV structure"
+    "study": {
+      "id": "b1-sowie",
+      "layout": "standardStudy",
+      "translation": "stejně jako",
+      "explanation": "Hlavní myšlenka: sowie nejčastěji znamená „stejně jako“ nebo „a také“ a spojuje dvě věci. V časové větě může znamenat „jakmile“.",
+      "examples": [
+        {
+          "de": "Wir brauchen Milch sowie Brot.",
+          "lv": "Potřebujeme mléko stejně jako chléb."
+        },
+        {
+          "de": "Der Preis gilt für Erwachsene sowie Kinder.",
+          "lv": "Cena platí pro dospělé stejně jako pro děti."
+        },
+        {
+          "de": "Sowie ich Zeit habe, rufe ich dich an.",
+          "lv": "Jakmile budu mít čas, zavolám ti."
+        }
+      ],
+      "tip": "Ve výčtu sowie = stejně jako / a také; v časové větě = jakmile.",
+      "important": "sowie neznamená automaticky jen „jakmile“; ve výčtech často znamená „stejně jako“ nebo „a také“.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": "sowie",
+          "purple": [
+            "stejně jako",
+            "a také"
+          ],
+          "red": "jakmile"
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": "sowie",
+              "yellow": "Brot"
+            },
+            "lv": {
+              "purple": "stejně jako"
+            }
+          },
+          {
+            "de": {
+              "blue": "sowie",
+              "green": "Kinder"
+            },
+            "lv": {
+              "purple": "stejně jako"
+            }
+          },
+          {
+            "de": {
+              "blue": "Sowie",
+              "yellow": "Zeit"
+            },
+            "lv": {
+              "red": "Jakmile"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": "sowie"
+            },
+            "meaning": {
+              "purple": "stejně jako"
+            },
+            "example": {
+              "blue": "sowie"
+            }
+          },
+          {
+            "word": {
+              "green": "und"
+            },
+            "meaning": {
+              "purple": "a"
+            },
+            "example": {
+              "red": "und"
+            }
+          },
+          {
+            "word": {
+              "green": "sobald"
+            },
+            "meaning": {
+              "purple": "jakmile"
+            },
+            "example": {
+              "red": "Sobald"
+            }
+          }
+        ],
+        "tip": {
+          "blue": "sowie",
+          "purple": "stejně jako",
+          "red": "jakmile"
+        },
+        "important": {
+          "blue": "sowie",
+          "red": "jakmile"
+        }
+      }
+    }
   },
   {
     "de": "sowieso",
