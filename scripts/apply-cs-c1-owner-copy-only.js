@@ -683,4 +683,19 @@ function main() {
   console.log(JSON.stringify(stats, null, 2));
 }
 
-main();
+if (require.main === module) {
+  main();
+} else {
+  module.exports = {
+    parseMasterMappings,
+    parseFieldPath,
+    getAt,
+    parseJsonish,
+    normalizeField,
+    valuesEqual,
+    loadOwnerLabotMappings(filePath) {
+      const content = fs.readFileSync(filePath, "utf8");
+      return parseMasterMappings(content).filter((r) => r.status === "LABOT");
+    },
+  };
+}
