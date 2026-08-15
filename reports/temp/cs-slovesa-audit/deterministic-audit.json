@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "dataset": "slovesa",
+    "label": "Slovesa",
+    "lvCount": 189,
+    "csCount": 189,
+    "batchSize": 50,
+    "batchCount": 4,
+    "auditedObjects": 189,
+    "coverage": "100%"
+  },
+  "structural": {
+    "issues": [],
+    "pass": true
+  },
+  "germanIntegrity": {
+    "issues": [],
+    "pass": true
+  },
+  "findings": [],
+  "batches": []
+}

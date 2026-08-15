@@ -1,0 +1,927 @@
+{
+  "meta": {
+    "verbsExpected": 149,
+    "verbsAudited": 149,
+    "model": "GPT-5.6 Luna",
+    "apiModel": "gpt-5.6-luna",
+    "completedAt": "2026-08-15T12:35:33.181Z"
+  },
+  "batches": [
+    "simple-001-050",
+    "simple-051-100",
+    "simple-101-149"
+  ],
+  "allResults": [
+    {
+      "cardId": "verb-0",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-0",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-5",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-6",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-10",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-16",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-20",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-22",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-27",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-31",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-31",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-41",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-1",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-2",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-3",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-7",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-8",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-9",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-11",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-12",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-13",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-14",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-15",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-18",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-19",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-21",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-23",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-24",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-25",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-26",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-28",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-29",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-30",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-32",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-33",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-34",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-35",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-36",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-37",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-38",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-39",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-40",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-42",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-43",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-44",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-45",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-46",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-47",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-49",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-53",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-54",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-55",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-57",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-58",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-60",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-60",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-62",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-65",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-66",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-73",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-76",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-77",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-80",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-80",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-81",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-82",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-83",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-85",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-85",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-88",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-89",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-93",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-93",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-93",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-93",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-93",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-94",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-95",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-98",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-101",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-103",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-107",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-111",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-114",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-117",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-121",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-61",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-67",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-68",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-71",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-72",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-75",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-79",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-86",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-87",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-90",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-97",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-100",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-102",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-104",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-105",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-106",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-108",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-110",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-112",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-113",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-115",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-116",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-118",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-125",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-137",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-142",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-143",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-149",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-149",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-149",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-149",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-149",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-165",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-170",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-185",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-185",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-185",
+      "status": "PASS",
+      "field": "lv",
+      "malformed": true
+    },
+    {
+      "cardId": "verb-122",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-123",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-126",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-127",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-128",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-131",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-133",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-134",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-135",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-136",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-138",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-139",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-141",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-144",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-153",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-155",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-156",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-157",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-158",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-159",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-160",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-161",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-162",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-164",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-166",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-167",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-168",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-169",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-171",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-172",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-173",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-174",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-175",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-176",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-177",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-178",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-179",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-180",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-183",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-186",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "verb-187",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [],
+  "apiUsage": {
+    "model": "gpt-5.6-luna",
+    "requestCount": 3,
+    "initialBatchRequests": 0,
+    "retryRequests": 0,
+    "batchCount": 3,
+    "batchSizes": [
+      50,
+      50,
+      49
+    ],
+    "retryCount": 0,
+    "retryReasons": {},
+    "inputTokens": 26118,
+    "cachedInputTokens": 0,
+    "outputTokens": 14366,
+    "reasoningTokens": 10537,
+    "totalTokens": 40484,
+    "findingsCount": 0,
+    "passCount": 164
+  },
+  "qualityFindings": [],
+  "nonError": {
+    "SOURCE_DE_ISSUE": 0,
+    "SOURCE_LV_ISSUE": 0,
+    "NEEDS_OWNER_REVIEW": 0,
+    "FALSE_POSITIVE": 0,
+    "STYLE_ONLY": 0,
+    "PROJECT_CONVENTION": 0
+  }
+}
