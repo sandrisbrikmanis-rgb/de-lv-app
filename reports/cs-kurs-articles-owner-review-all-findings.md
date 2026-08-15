@@ -2108,9 +2108,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Ukazovací zájmeno to se v češtině mění podle čísla a rodu, ale v němčině se v tomto použití používá jeden tvar: das.
 
 OWNER note:
 
@@ -2144,9 +2145,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Der Wagen („vozík“) a der Schlitten („sáňky“) jsou v češtině v množném čísle, ale v němčině se tato slova používají v jednotném i množném čísle.
 
 OWNER note:
 
@@ -2180,9 +2182,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Příklady: der Hammer — die Hämmer; der Garten — die Gärten; das Fenster — die Fenster; das Messer — die Messer.
 
 OWNER note:
 
@@ -2216,9 +2219,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Podstatná jména ženského rodu zakončená na -el nebo -er často přijímají v množném čísle koncovku -n.
 
 OWNER note:
 
@@ -2252,9 +2256,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+V oznamovací větě stojí určité sloveso na druhém místě: er legt den Schlüssel hin • Dann legt er den Schlüssel hin.
 
 OWNER note:
 
@@ -2288,9 +2293,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Slovíčka
 
 OWNER note:
 
@@ -2324,9 +2330,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Wem — komu? / čemu?
 
 OWNER note:
 
@@ -2362,9 +2369,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Schenken — darovat
 
 OWNER note:
 
@@ -2400,9 +2408,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Dem Sohne — synovi
 
 OWNER note:
 
@@ -2438,9 +2447,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Den Söhnen — synům
 
 OWNER note:
 
@@ -2474,9 +2484,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Sich nähern — přibližovat se
 
 OWNER note:
 
@@ -2510,9 +2521,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Ich nähere mich — přibližuji se
 
 OWNER note:
 
@@ -2546,9 +2558,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Du näherst dich — přibližuješ se
 
 OWNER note:
 
@@ -2582,9 +2595,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Geben — dávat
 
 OWNER note:
 
@@ -2618,9 +2632,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Ich gebe — dávám
 
 OWNER note:
 
@@ -2654,9 +2669,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Du gibst — dáváš
 
 OWNER note:
 
@@ -2692,9 +2708,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Er gibt — dává
 
 OWNER note:
 
@@ -2728,9 +2745,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Die Magd — služka
 
 OWNER note:
 
@@ -2764,9 +2782,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Brot — chléb
 
 OWNER note:
 
@@ -2800,9 +2819,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Milch — mléko
 
 OWNER note:
 
@@ -2838,9 +2858,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Gehorchen — poslouchat
 
 OWNER note:
 
@@ -2874,9 +2895,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Der Knecht — čeledín
 
 OWNER note:
 
@@ -2912,9 +2934,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Gehören — patřit
 
 OWNER note:
 
@@ -2950,9 +2973,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Das Feld — pole
 
 OWNER note:
 
@@ -2988,9 +3012,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Die Felder — pole
 
 OWNER note:
 
@@ -3026,9 +3051,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Die Wiese — louka
 
 OWNER note:
 
@@ -3064,9 +3090,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Die Wiesen — louky
 
 OWNER note:
 
@@ -3100,9 +3127,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Der Wald — les
 
 OWNER note:
 
@@ -3136,9 +3164,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Die Wälder — lesy
 
 OWNER note:
 
@@ -3172,9 +3201,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Der Bauer — zemědělec
 
 OWNER note:
 
@@ -3208,9 +3238,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Die Bäuerin — zemědělkyně
 
 OWNER note:
 
@@ -3244,9 +3275,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Folgen — následovat
 
 OWNER note:
 
@@ -3280,9 +3312,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Der Jäger — myslivec
 
 OWNER note:
 
@@ -3318,9 +3351,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Treu — věrný
 
 OWNER note:
 
@@ -3354,9 +3388,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Dativ
 
 OWNER note:
 
@@ -3389,9 +3424,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Jednotné číslo
 
 OWNER note:
 
@@ -3427,9 +3463,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Mužský rod
 
 OWNER note:
 
@@ -3465,9 +3502,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Ženský rod
 
 OWNER note:
 
@@ -3503,9 +3541,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Střední rod
 
 OWNER note:
 
@@ -3538,9 +3577,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Množné číslo
 
 OWNER note:
 
@@ -3575,11 +3615,13 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Mužský rod
 
 OWNER note:
+Deterministic FL; stejný OWNER NEW jako #087 (jiná tabulka).
 
 ---
 
@@ -3612,11 +3654,13 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Ženský rod
 
 OWNER note:
+Deterministic FL; stejný OWNER NEW jako #088.
 
 ---
 
@@ -3649,11 +3693,13 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Střední rod
 
 OWNER note:
+Deterministic FL; stejný OWNER NEW jako #089.
 
 ---
 
@@ -3687,9 +3733,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Koncovka -e v dativu
 
 OWNER note:
 
@@ -3723,9 +3770,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Podstatná jména mužského a středního rodu v dativu jednotného čísla mohou mít koncovku -e. V dnešní době se od této koncovky často upouští.
 
 OWNER note:
 
@@ -3761,9 +3809,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Ženský rod v dativu
 
 OWNER note:
 
@@ -3797,9 +3846,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Podstatná jména ženského rodu v dativu jednotného čísla nepřibírají koncovku -e.
 
 OWNER note:
 
@@ -3832,9 +3882,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Neurčitý člen v dativu
 
 OWNER note:
 
@@ -3870,11 +3921,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Dativ množného čísla
 
 OWNER note:
+Sdílený target s #100.
 
 ---
 
@@ -3906,11 +3959,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Dativ množného čísla
 
 OWNER note:
+SOURCE_DE_ISSUE: CS heading opraven společně s #099; DE zdroj neměněn.
 
 ---
 
