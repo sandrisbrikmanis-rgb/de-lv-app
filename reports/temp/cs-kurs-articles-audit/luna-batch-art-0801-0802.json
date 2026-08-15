@@ -1,0 +1,32 @@
+{
+  "batchKey": "art-0801-0802",
+  "findings": [
+    {
+      "cardId": "ART-XSEC-504",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "Woher steigt sie?",
+      "proposedCs": "Odkud vystupuje?",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ART-XSEC-505",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "Atbildi pēc lasīšanas teksta.",
+      "proposedCs": "Odpověz podle textu ke čtení.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "completedAt": "2026-08-15T19:04:28.200Z"
+}

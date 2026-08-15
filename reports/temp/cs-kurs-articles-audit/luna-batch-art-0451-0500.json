@@ -1,0 +1,84 @@
+{
+  "batchKey": "art-0451-0500",
+  "findings": [
+    {
+      "cardId": "ART-XSEC-151",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "Munden — labi garšot",
+      "proposedCs": "munden — dobře chutnat",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ART-XSEC-152",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "Svarīgi",
+      "proposedCs": "Důležité",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ART-XSEC-172",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SOURCE_DE_ISSUE",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "Isst den Apfel!",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ART-XSEC-175",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "Entzweischneiden — pārgriezt uz pusēm",
+      "proposedCs": "entzweischneiden — překrojit napůl",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ART-XSEC-177",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "PEDAGOGICAL_ISSUE",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "U složeného slovesa entzweischneiden je důraz kladen na předponu entzweí-, takže v přítomném čase je předpona oddělena a umístěna na konec věty.",
+      "proposedCs": "Sloveso entzweischneiden je odlučitelné, takže se v přítomném čase jeho část entzwei odděluje a stojí na konci věty.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ART-XSEC-178",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "Ich schneide den Apfel entzwei. — Es pārgriežu ābolu uz pusēm.",
+      "proposedCs": "Ich schneide den Apfel entzwei. — Jablko překrojím napůl.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "completedAt": "2026-08-15T19:02:12.104Z"
+}
