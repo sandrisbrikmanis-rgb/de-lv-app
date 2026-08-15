@@ -3879,8 +3879,9 @@
       }
     }
 
-/* Kurss Artikuli lesson */
-#kurssArticlesLesson {
+/* Kurss Artikuli + Vietniekvārdi lessons (shared card UI) */
+#kurssArticlesLesson,
+#kurssPronounsLesson {
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -3899,11 +3900,13 @@
   margin-top: 4px;
 }
 
-#kurssArticlesLesson h3 {
+#kurssArticlesLesson h3,
+#kurssPronounsLesson h3 {
   margin-bottom: 14px;
 }
 
-#kurssArticlesLesson .artikuli-info {
+#kurssArticlesLesson .artikuli-info,
+#kurssPronounsLesson .artikuli-info {
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
@@ -3920,7 +3923,8 @@
   box-sizing: border-box;
 }
 
-#kurssArticlesLesson .artikuli-info-icon {
+#kurssArticlesLesson .artikuli-info-icon,
+#kurssPronounsLesson .artikuli-info-icon {
   display: inline-grid;
   place-items: center;
   width: 34px;
@@ -3933,7 +3937,8 @@
   flex: 0 0 auto;
 }
 
-#kurssArticlesLesson .artikuli-block {
+#kurssArticlesLesson .artikuli-block,
+#kurssPronounsLesson .artikuli-block {
   margin: 0 0 18px;
   padding: 14px;
   border: 1px solid rgba(44, 68, 88, 0.82);
@@ -3943,7 +3948,8 @@
   box-sizing: border-box;
 }
 
-#kurssArticlesLesson .artikuli-header {
+#kurssArticlesLesson .artikuli-header,
+#kurssPronounsLesson .artikuli-header {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -3958,7 +3964,8 @@
   line-height: 1.25;
 }
 
-#kurssArticlesLesson .artikuli-header span {
+#kurssArticlesLesson .artikuli-header span,
+#kurssPronounsLesson .artikuli-header span {
   display: inline-grid;
   place-items: center;
   min-width: 22px;
@@ -3966,14 +3973,16 @@
   font-weight: 900;
 }
 
-#kurssArticlesLesson .artikuli-explain {
+#kurssArticlesLesson .artikuli-explain,
+#kurssPronounsLesson .artikuli-explain {
   margin: 0 0 13px;
   color: #c9d5df;
   line-height: 1.42;
   max-width: 72ch;
 }
 
-#kurssArticlesLesson .artikuli-subtitle {
+#kurssArticlesLesson .artikuli-subtitle,
+#kurssPronounsLesson .artikuli-subtitle {
   margin: 14px 0 8px;
   color: #eaf4ef;
   font-size: 0.94rem;
@@ -3981,7 +3990,8 @@
   letter-spacing: 0;
 }
 
-#kurssArticlesLesson .artikuli-grid {
+#kurssArticlesLesson .artikuli-grid,
+#kurssPronounsLesson .artikuli-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 10px;
@@ -3990,7 +4000,8 @@
   box-sizing: border-box;
 }
 
-#kurssArticlesLesson .kurss-example {
+#kurssArticlesLesson .kurss-example,
+#kurssPronounsLesson .kurss-example {
   min-width: 0;
   padding: 12px 14px;
   border: 1px solid rgba(54, 76, 96, 0.82);
@@ -4005,7 +4016,8 @@
   box-sizing: border-box;
 }
 
-#kurssArticlesLesson .artikuli-note {
+#kurssArticlesLesson .artikuli-note,
+#kurssPronounsLesson .artikuli-note {
   display: block;
   margin-top: 5px;
   color: #9adf78;
@@ -4013,41 +4025,72 @@
   font-weight: 800;
 }
 
+#kurssPronounsLesson .artikuli-block .kurss-summary-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+#kurssPronounsLesson .artikuli-block .kurss-summary-list li {
+  min-width: 0;
+  padding: 12px 14px;
+  border: 1px solid rgba(54, 76, 96, 0.82);
+  border-radius: 10px;
+  background: linear-gradient(145deg, rgba(14, 33, 48, 0.96), rgba(14, 43, 53, 0.82));
+  color: #eaf1f6;
+  font-weight: 700;
+  line-height: 1.34;
+  box-sizing: border-box;
+}
+
 @media (max-width: 768px) {
-  #kurssArticlesLesson .artikuli-info {
+  #kurssArticlesLesson .artikuli-info,
+  #kurssPronounsLesson .artikuli-info {
     grid-template-columns: auto 1fr;
     gap: 10px;
     padding: 13px 12px;
     font-size: 0.94rem;
   }
 
-  #kurssArticlesLesson .artikuli-info-icon {
+  #kurssArticlesLesson .artikuli-info-icon,
+  #kurssPronounsLesson .artikuli-info-icon {
     width: 30px;
     height: 30px;
   }
 
-  #kurssArticlesLesson .artikuli-block {
+  #kurssArticlesLesson .artikuli-block,
+  #kurssPronounsLesson .artikuli-block {
     padding: 11px;
     margin-bottom: 14px;
   }
 
-  #kurssArticlesLesson .artikuli-header {
+  #kurssArticlesLesson .artikuli-header,
+  #kurssPronounsLesson .artikuli-header {
     padding: 9px 10px;
     font-size: 0.98rem;
   }
 
-  #kurssArticlesLesson .artikuli-grid {
+  #kurssArticlesLesson .artikuli-grid,
+  #kurssPronounsLesson .artikuli-grid {
     grid-template-columns: 1fr;
     gap: 8px;
   }
 
-  #kurssArticlesLesson .kurss-example {
+  #kurssArticlesLesson .kurss-example,
+  #kurssPronounsLesson .kurss-example {
     padding: 11px 12px;
     font-size: 0.95rem;
     white-space: normal;
     overflow-wrap: normal;
     word-break: normal;
     hyphens: none;
+  }
+
+  #kurssPronounsLesson .artikuli-block .kurss-summary-list li {
+    padding: 11px 12px;
+    font-size: 0.95rem;
   }
 }
 
