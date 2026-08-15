@@ -540,8 +540,8 @@ const COURSE_SECTION_I18N_KEYS = {
   "Übung / Exercise": "kurss.sections.exerciseCombined"
 };
 
-const COURSE_TRANSLATE_SECTION_TITLES = new Set(["Pārtulko", "Išversk", "Prevedi", "Translate"]);
-const COURSE_EXERCISE_SECTION_TITLES = new Set(["Vingrinājums", "Pratimas", "Übung / Vingrinājums", "Übung / Pratimas", "Vježbajte", "Übung / Vježba", "Exercise", "Übung / Exercise"]);
+const COURSE_TRANSLATE_SECTION_TITLES = new Set(["Pārtulko", "Išversk", "Prevedi", "Translate", "Přeložit"]);
+const COURSE_EXERCISE_SECTION_TITLES = new Set(["Vingrinājums", "Pratimas", "Übung / Vingrinājums", "Übung / Pratimas", "Vježbajte", "Übung / Vježba", "Exercise", "Übung / Exercise", "Cvičení", "Übung / Cvičení"]);
 
 function isCourseTranslateSection(title) {
   return COURSE_TRANSLATE_SECTION_TITLES.has(String(title || "").trim());

@@ -15,7 +15,7 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "menu": {
     "mainNav": "Hlavní menu",
-    "course": "Kurs",
+    "course": "Kurz",
     "sentences": "Věty",
     "verbs": "Slovesa",
     "chooseGroup": "Vyberte skupinu"
@@ -213,38 +213,38 @@ window.LANGUAGE_UI_STRINGS = {
     "appLanguage": "Jazyk aplikace"
   },
   "kurss": {
-    "panelLabel": "Kurs",
-    "title": "Kurs",
+    "panelLabel": "Kurz",
+    "title": "Kurz",
     "subtitle": "Základy německého jazyka krok za krokem",
     "back": "‹ Kurz",
     "closeCourse": "Zavřete kurz",
     "backToMain": "Vraťte se na hlavní obrazovku",
-    "tipTitle": "Poradenství",
+    "tipTitle": "Tip",
     "tipBody": "Poslouchejte, opakujte a porovnávejte. Vaše ucho je nejlepší učitel!",
     "pronunciation": "Výslovnost",
     "pronunciationDesc": "Základy německých zvuků a výslovnosti.",
-    "articles": "Články",
+    "articles": "Členy",
     "articlesDesc": "Der, die, das a základy použití.",
     "pronouns": "Zájmena",
-    "pronounsDesc": "Formy nominativ, akkusativ a dativ.",
-    "lessons": "Přednášky",
-    "lessonsDesc": "Výuka přednášek v sekvenčním pořadí od 1 do 21.",
+    "pronounsDesc": "Tvary v nominativu, akuzativu a dativu.",
+    "lessons": "Lekce",
+    "lessonsDesc": "Lekce v pořadí od 1 do 21.",
     "verbBasics": "Základy sloves",
-    "verbBasicsDesc": "Osoby, tvary a obecná slovesa.",
+    "verbBasicsDesc": "Osoby, tvary a běžná slovesa.",
     "sentenceStructure": "Struktura vět",
     "sentenceStructureDesc": "Jednoduchý slovosled v německých větách.",
     "articlesSubtitle": "Der, die, das a základy použití.",
-    "pronounsSubtitle": "Nominativ, Akkusativ a Dativ - tvary zájmen.",
+    "pronounsSubtitle": "Tvary zájmen v nominativu, akuzativu a dativu.",
     "pronunciationSubtitle": "Základy německých zvuků a výslovnosti",
-    "vowelsSubtitle": "Samohlásky - dlouhé a krátké",
+    "vowelsSubtitle": "Dlouhé a krátké samohlásky",
     "consonantsSubtitle": "Souhlásky a kombinace písmen",
-    "lessonsSubtitle": "Výuka přednášek v sekvenčním pořadí od 1 do 21.",
-    "vowelsTitle": "Samohlásky - dlouhé a krátké",
+    "lessonsSubtitle": "Lekce v pořadí od 1 do 21.",
+    "vowelsTitle": "Dlouhé a krátké samohlásky",
     "vowelsDesc": "Dlouhé a krátké samohlásky s příklady.",
     "consonantsTitle": "Souhlásky a kombinace písmen",
-    "consonantsDesc": "Nejdůležitější zvuky souhlásek pro začátečníky.",
-    "lessonProgress": "Přednáška {lesson} · Přeložil: {current} / {total}",
-    "exerciseProgress": "Přednáška {lesson} · Cvičení",
+    "consonantsDesc": "Nejdůležitější souhláskové zvuky pro začátečníky.",
+    "lessonProgress": "Lekce {lesson} · Přeloženo: {current} / {total}",
+    "exerciseProgress": "Lekce {lesson} · Cvičení",
     "sections": {
       "grammar": "Gramatika",
       "exercise": "Cvičení",
@@ -261,103 +261,103 @@ window.LANGUAGE_UI_STRINGS = {
     "cta": {
       "tapNextCard": "Klepněte na další kartu",
       "tapToRevealAnswer": "Klepnutím zobrazíte odpověď",
-      "tapContinue": "Klepněte na pokračovat",
+      "tapContinue": "Klepněte na tlačítko Pokračovat",
       "transformSentence": "Opravte větu.",
       "transformThirdSingular": "Změňte větu na 3. osobu jednotného čísla.",
       "transformFirstPlural": "Změňte větu na 1. osobu množného čísla."
     },
     "exerciseMeta": {
-      "fillCase": "Übung I - Použijte správnou konjugaci",
-      "chooseCasePlural": "Dejte správnou konjugaci a udělejte z ní množné číslo!",
+      "fillCase": "Cvičení I – použijte správný pád",
+      "chooseCasePlural": "Doplňte správný pád a vytvořte množné číslo!",
       "answerPlural": "Nyní odpovězte v množném čísle.",
-      "translate": "Übung II - přeložit",
-      "formDu": "Formulář 1/3: Vy (jednotné číslo)",
-      "formIhr": "Formulář 2/3: Vy (množné číslo)",
-      "formSie": "Forma 3/3: Sie (slušná forma)"
+      "translate": "Cvičení II – překlad",
+      "formDu": "Forma 1/3: Ty (jednotné číslo)",
+      "formIhr": "Forma 2/3: vy (množné číslo)",
+      "formSie": "Forma 3/3: Sie (zdvořilá forma)"
     },
     "lessonItems": {
       "1": {
-        "title": "Přednáška 1",
-        "menuDesc": "Slovesa v přítomném čase, slova, gramatika a procvičování."
+        "title": "Lekce 1",
+        "menuDesc": "Slovesa v přítomném čase, slovíčka, gramatika a procvičování."
       },
       "2": {
-        "title": "Přednáška 2",
-        "menuDesc": "Dialogy, slova, výslovnost, gramatika a překlad."
+        "title": "Lekce 2",
+        "menuDesc": "Dialogy, slovíčka, výslovnost, gramatika a překlad."
       },
       "3": {
-        "title": "Přednáška 3",
-        "menuDesc": "Dialogy, slova, výslovnost, gramatika a překlad."
+        "title": "Lekce 3",
+        "menuDesc": "Dialogy, slovíčka, výslovnost, gramatika a překlad."
       },
       "4": {
-        "title": "Přednáška 4",
+        "title": "Lekce 4",
         "menuDesc": "Akuzativ, nehmen, hinlegen, hinausgehen a přídavná jména."
       },
       "5": {
-        "title": "Přednáška 5",
-        "menuDesc": "Wen?, akuzativ, sitzen, fragen a -in koncovka."
+        "title": "Lekce 5",
+        "menuDesc": "Wen?, akuzativ, sitzen, fragen a koncovka -in."
       },
       "6": {
-        "title": "Přednáška 6",
+        "title": "Lekce 6",
         "menuDesc": "Čísla, množné číslo, přehlásky a množné číslo podstatných jmen."
       },
       "7": {
-        "title": "Přednáška 7",
-        "menuDesc": "Imperativ, forma adresy a množné číslo."
+        "title": "Lekce 7",
+        "menuDesc": "Imperativ, způsob oslovení a množné číslo."
       },
       "8": {
-        "title": "Přednáška 8",
-        "menuDesc": "Zvratná slovesa, e → i/ie záměna a akuzativ."
+        "title": "Lekce 8",
+        "menuDesc": "Zvratná slovesa, střídání e → i/ie a akuzativ."
       },
       "9": {
-        "title": "Přednáška 9",
+        "title": "Lekce 9",
         "menuDesc": "Více předmětů, dieser/jener, jednotné a množné číslo."
       },
       "10": {
-        "title": "Přednáška 10",
+        "title": "Lekce 10",
         "menuDesc": "Sein, können, zdraví, věk a profese."
       },
       "11": {
-        "title": "Přednáška 11",
-        "menuDesc": "Haben, kein/keine/keinen, přivlastňovací a složená podstatná jména."
+        "title": "Lekce 11",
+        "menuDesc": "Haben, kein/keine/keinen, přivlastňovací zájmena a složená podstatná jména."
       },
       "12": {
-        "title": "Přednáška 12",
-        "menuDesc": "Srovnatelné stupně, als/wie, věk a barvy."
+        "title": "Lekce 12",
+        "menuDesc": "Stupňování, als/wie, věk a barvy."
       },
       "13": {
-        "title": "Přednáška 13",
+        "title": "Lekce 13",
         "menuDesc": "Der Körper, části těla, turnen a jeder."
       },
       "14": {
-        "title": "Přednáška 14",
+        "title": "Lekce 14",
         "menuDesc": "Müssen, wollen, mögen a modální slovesa."
       },
       "15": {
-        "title": "Přednáška 15",
+        "title": "Lekce 15",
         "menuDesc": "Sollen, dürfen, essen a ovoce."
       },
       "16": {
-        "title": "Přednáška 16",
+        "title": "Lekce 16",
         "menuDesc": "Dativ, geben, sich nähern."
       },
       "17": {
-        "title": "Přednáška 17",
+        "title": "Lekce 17",
         "menuDesc": "Mit + Dativ, womit / mit wem a přehláska."
       },
       "18": {
-        "title": "Přednáška 18",
-        "menuDesc": "Wohin / wo, Akkusativ nebo Dativ s / in / auf."
+        "title": "Lekce 18",
+        "menuDesc": "Wohin / wo, Akkusativ nebo Dativ s an / in / auf."
       },
       "19": {
-        "title": "Přednáška 19",
+        "title": "Lekce 19",
         "menuDesc": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen."
       },
       "20": {
-        "title": "Přednáška 20",
+        "title": "Lekce 20",
         "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ a složená podstatná jména."
       },
       "21": {
-        "title": "Přednáška 21",
+        "title": "Lekce 21",
         "menuDesc": "Woher / wohin / wo, von / aus / mit + Dativ."
       }
     }
@@ -379,7 +379,7 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "progress": {
     "verbsHeading": "Slovesa",
-    "courseHeading": "Kurs"
+    "courseHeading": "Kurz"
   },
   "study": {
     "hints": {
