@@ -1,4 +1,4 @@
-# CS–DE Kurss Členy — OWNER review (all findings)
+| Status PENDING | **0** |# CS–DE Kurss Členy — OWNER review (all findings)
 
 READ-ONLY OWNER source prep. **No production repairs in this phase.**
 
@@ -28,7 +28,7 @@ Review index only — no separate batch files.
 | FALSE_POSITIVE (audit trail) | **1** |
 | qualityFindings (excludes non-error categories) | **373** |
 | Normalized OWNER objects | **315** |
-| Status PENDING | **315** |
+| Status PENDING | **0** |
 | CURRENT_MISMATCH_REVIEW_REQUIRED | **0** |
 | Shared production target groups (2+ OWNER) | **23** |
 | Exact duplicate findings (post-audit dedupe) | **0** |
@@ -53,7 +53,7 @@ CRITICAL: 9, HIGH: 318, MEDIUM: 42, LOW: 4
 
 ### Validation gate
 
-✅ **PASS** — all audit findings accounted; OWNER NEW empty; production/DE/LV MASTER = 0 changes.
+✅ **PASS** — all 315 OWNER objects decided; production/DE/LV MASTER = 0 changes.
 
 ---
 
@@ -7795,9 +7795,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Odpověz v jednotném čísle a poté v množném čísle.
 
 OWNER note:
 
@@ -7832,9 +7833,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Nyní odpověz v množném čísle.
 
 OWNER note:
 
@@ -7868,11 +7870,12 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: NELABOT
 
 OWNER NEW:
 
 OWNER note:
+Kurz konzistentně používá „Přednáška“ (shodně s #020, #149–150, #153–154).
 
 ---
 
@@ -7904,9 +7907,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Wohin / wo, akuzativ nebo dativ s předložkami an / in / auf
 
 OWNER note:
 
@@ -7940,9 +7944,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Osmnáctá přednáška: wohin / wo, akuzativ nebo dativ s předložkami an / in / auf.
 
 OWNER note:
 
@@ -7976,9 +7981,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Pokud akce naznačuje změnu směru nebo místa, použije se akuzativ. Otázka: Wohin? — kam?
 
 OWNER note:
 
@@ -8012,9 +8018,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Ich gehe an den Tisch. — Jdu ke stolu.
 
 OWNER note:
 
@@ -8048,9 +8055,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Ich stelle den Korb auf die Bank. — Pokládám koš na lavici.
 
 OWNER note:
 
@@ -8086,9 +8094,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Ich lege die Äpfel in das Körbchen. — Dávám jablka do košíku.
 
 OWNER note:
 
@@ -8124,9 +8133,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Ich gieße das Wasser in den Krug. — Nalévám vodu do džbánu.
 
 OWNER note:
 
@@ -8160,9 +8170,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Pokud akce označuje umístění nebo stav, použije se dativ. Otázka: wo? — kde?
 
 OWNER note:
 
@@ -8198,9 +8209,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Ich stehe an dem Tische. — Stojím u stolu.
 
 OWNER note:
 
@@ -8235,9 +8247,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Der Korb steht auf der Bank. — Koš stojí na lavici.
 
 OWNER note:
 
@@ -8273,9 +8286,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Die Äpfel sind in dem Körbchen. — Jablka jsou v košíku.
 
 OWNER note:
 
@@ -8311,9 +8325,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Das Wasser ist in dem Kruge. — Voda je ve džbánu.
 
 OWNER note:
 
@@ -8349,9 +8364,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Slovesa s wo?
 
 OWNER note:
 
@@ -8387,9 +8403,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Sein — být
 
 OWNER note:
 
@@ -8423,9 +8440,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Sich befinden — nacházet se
 
 OWNER note:
 
@@ -8461,9 +8479,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Arbeiten — pracovat
 
 OWNER note:
 
@@ -8499,9 +8518,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Liegen — ležet / nacházet se ve vodorovné poloze
 
 OWNER note:
 
@@ -8537,9 +8557,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Sitzen — sedět
 
 OWNER note:
 
@@ -8575,9 +8596,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Hängen — viset
 
 OWNER note:
 
@@ -8611,9 +8633,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Finden — najít
 
 OWNER note:
 
@@ -8649,9 +8672,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Suchen — hledat
 
 OWNER note:
 
@@ -8687,9 +8711,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Spielen — hrát
 
 OWNER note:
 
@@ -8725,9 +8750,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Látková podstatná jména
 
 OWNER note:
 
@@ -8761,9 +8787,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Ich trinke Milch. — Piju mléko.
 
 OWNER note:
 
@@ -8799,9 +8826,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+In dem Eimer ist Wasser. — V kbelíku je voda.
 
 OWNER note:
 
@@ -8837,9 +8865,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Konkrétní látka
 
 OWNER note:
 
@@ -8873,9 +8902,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Pokud je látka zmíněna v určitém množství nebo na určitém místě, použije se určitý člen.
 
 OWNER note:
 
@@ -8910,9 +8940,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Ich gieße das Wasser in den Krug. — Nalévám vodu do džbánu.
 
 OWNER note:
 
@@ -8946,9 +8977,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+In + místo
 
 OWNER note:
 
@@ -8982,9 +9014,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Pokud předložka in vyjadřuje místo, nikoli směr dovnitř, překládá se obvykle předložkou „v“ s lokálem.
 
 OWNER note:
 
@@ -9020,9 +9053,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+In dem Eimer — v kbelíku
 
 OWNER note:
 
@@ -9058,9 +9092,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+In dem Zimmer — v pokoji
 
 OWNER note:
 
@@ -9095,9 +9130,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Současné tvary
 
 OWNER note:
 
@@ -9133,9 +9169,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: dativ, nebo akuzativ?
 
 OWNER note:
 
@@ -9170,9 +9207,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: dativ, nebo akuzativ?
 
 OWNER note:
 
@@ -9207,9 +9245,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: dativ, nebo akuzativ?
 
 OWNER note:
 
@@ -9244,9 +9283,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: dativ, nebo akuzativ?
 
 OWNER note:
 
@@ -9281,9 +9321,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: dativ, nebo akuzativ?
 
 OWNER note:
 
@@ -9318,9 +9359,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: dativ, nebo akuzativ?
 
 OWNER note:
 
@@ -9355,9 +9397,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: dativ, nebo akuzativ?
 
 OWNER note:
 
@@ -9392,9 +9435,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: dativ, nebo akuzativ?
 
 OWNER note:
 
@@ -9428,9 +9472,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Devatenáctá přednáška: vor, hinter, unter, über, neben, zwischen s akuzativem nebo dativem.
 
 OWNER note:
 
@@ -9464,11 +9509,12 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: NELABOT
 
 OWNER NEW:
 
 OWNER note:
+SOURCE_DE_ISSUE: německý heading Wohin? → Akkusativ záměrný; DE neměněn.
 
 ---
 
@@ -9500,9 +9546,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Pokud jde o směr nebo pohyb někam, ptáme se wohin? a používá se akuzativ.
 
 OWNER note:
 
@@ -9536,11 +9583,12 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: NELABOT
 
 OWNER NEW:
 
 OWNER note:
+SOURCE_DE_ISSUE: německý heading Wo? → Dativ záměrný; DE neměněn.
 
 ---
 
@@ -9572,11 +9620,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Pokud jde o umístění, ptáme se wo? a používá se dativ.
 
 OWNER note:
+Sdílený target s #250.
 
 ---
 
@@ -9608,11 +9658,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Pokud jde o umístění, ptáme se wo? a používá se dativ.
 
 OWNER note:
+SOURCE_DE_ISSUE: CS text opraven společně s #249; DE neměněn.
 
 ---
 
@@ -9644,11 +9696,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Shrnutí: wohin?
 
 OWNER note:
+Sdílený target s #252.
 
 ---
 
@@ -9680,11 +9734,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Shrnutí: wohin?
 
 OWNER note:
+SOURCE_DE_ISSUE: CS heading opraven společně s #251; DE neměněn.
 
 ---
 
@@ -9716,11 +9772,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Wohin? → Akkusativ
 
 OWNER note:
+Sdílený target s #254.
 
 ---
 
@@ -9752,11 +9810,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Wohin? → Akkusativ
 
 OWNER note:
+SOURCE_DE_ISSUE: CS text opraven společně s #253; DE neměněn.
 
 ---
 
@@ -9788,11 +9848,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Shrnutí: wo?
 
 OWNER note:
+Sdílený target s #256.
 
 ---
 
@@ -9824,11 +9886,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Shrnutí: wo?
 
 OWNER note:
+SOURCE_DE_ISSUE: CS heading opraven společně s #255; DE neměněn.
 
 ---
 
@@ -9860,9 +9924,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Wo? → dativ
 
 OWNER note:
 
@@ -9896,9 +9961,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Gehen znamená „jít/chodit“. Treten může podle kontextu znamenat „vstoupit“, „šlápnout“, „vkročit“ nebo „nastoupit“.
 
 OWNER note:
 
@@ -9934,9 +10000,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: wohin? → Akkusativ, wo? → Dativ.
 
 OWNER note:
 
@@ -9971,9 +10038,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: wohin? → Akkusativ, wo? → Dativ.
 
 OWNER note:
 
@@ -10007,9 +10075,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Dvacátá přednáška: dům, podlaží, dativ/akuzativ a složená podstatná jména.
 
 OWNER note:
 
@@ -10045,9 +10114,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Der Boden — půda / podlaha / země
 
 OWNER note:
 
@@ -10083,9 +10153,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Anzünden — zapálit
 
 OWNER note:
 
@@ -10119,9 +10190,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Dativ s wann?
 
 OWNER note:
 
@@ -10155,9 +10227,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Předložková časová určení probíraná v 19. a 20. lekci se pojí s dativem. Dativ odpovídá nejen na wo? — kde?, ale v těchto výrazech také na wann? — kdy?
 
 OWNER note:
 
@@ -10193,9 +10266,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+An dem Tage / am Tage — ve dne
 
 OWNER note:
 
@@ -10231,9 +10305,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+In der Nacht — v noci
 
 OWNER note:
 
@@ -10269,9 +10344,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+In dem Sommer / im Sommer — v létě
 
 OWNER note:
 
@@ -10307,9 +10383,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+In dem Januar / im Januar — v lednu
 
 OWNER note:
 
@@ -10345,9 +10422,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vor drei Tagen — před třemi dny
 
 OWNER note:
 
@@ -10383,9 +10461,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Předložka + člen
 
 OWNER note:
 
@@ -10419,9 +10498,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Mnoho předložek se spojuje se členem.
 
 OWNER note:
 
@@ -10455,11 +10535,12 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: NELABOT
 
 OWNER NEW:
 
 OWNER note:
+SOURCE_DE_ISSUE: německý příklad kontrakce übers Land záměrný; DE neměněn.
 
 ---
 
@@ -10493,9 +10574,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Složená podstatná jména
 
 OWNER note:
 
@@ -10529,9 +10611,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Složená podstatná jména obvykle přebírají člen posledního slova.
 
 OWNER note:
 
@@ -10565,9 +10648,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Ve slovech der Ofen a der Boden se o vyslovuje dlouze.
 
 OWNER note:
 
@@ -10603,11 +10687,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: wo/wann → dativ, wohin → akuzativ.
 
 OWNER note:
+Sdílený target s #278.
 
 ---
 
@@ -10639,11 +10725,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: wo/wann → dativ, wohin → akuzativ.
 
 OWNER note:
+PEDAGOGICAL_ISSUE: CS task opraven společně s #277.
 
 ---
 
@@ -10676,9 +10764,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: wo/wann → dativ, wohin → akuzativ.
 
 OWNER note:
 
@@ -10713,9 +10802,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: wo/wann → dativ, wohin → akuzativ.
 
 OWNER note:
 
@@ -10750,9 +10840,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: wo/wann → dativ, wohin → akuzativ.
 
 OWNER note:
 
@@ -10787,9 +10878,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: wo/wann → dativ, wohin → akuzativ.
 
 OWNER note:
 
@@ -10824,9 +10916,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: wo/wann → dativ, wohin → akuzativ.
 
 OWNER note:
 
@@ -10861,9 +10954,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: wo/wann → dativ, wohin → akuzativ.
 
 OWNER note:
 
@@ -10898,9 +10992,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: wo/wann → dativ, wohin → akuzativ.
 
 OWNER note:
 
@@ -10935,9 +11030,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: wo/wann → dativ, wohin → akuzativ.
 
 OWNER note:
 
@@ -10972,9 +11068,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: wo/wann → dativ, wohin → akuzativ.
 
 OWNER note:
 
@@ -11009,9 +11106,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: wo/wann → dativ, wohin → akuzativ.
 
 OWNER note:
 
@@ -11046,9 +11144,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: wo/wann → dativ, wohin → akuzativ.
 
 OWNER note:
 
@@ -11083,9 +11182,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: wo/wann → dativ, wohin → akuzativ.
 
 OWNER note:
 
@@ -11120,9 +11220,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: wo/wann → dativ, wohin → akuzativ.
 
 OWNER note:
 
@@ -11157,9 +11258,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Vyber správný pád: wo/wann → dativ, wohin → akuzativ.
 
 OWNER note:
 
@@ -11193,9 +11295,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Woher / wohin / wo; von / aus / mit + dativ, wohin + akuzativ
 
 OWNER note:
 
@@ -11229,9 +11332,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Dvacátá první přednáška: woher / wohin / wo; von / aus / mit + dativ, wohin + akuzativ.
 
 OWNER note:
 
@@ -11265,9 +11369,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Finden — najít
 
 OWNER note:
 
@@ -11301,9 +11406,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Mit — s
 
 OWNER note:
 
@@ -11337,9 +11443,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Von — od / z
 
 OWNER note:
 
@@ -11373,9 +11480,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Aus — z / ze
 
 OWNER note:
 
@@ -11411,9 +11519,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Mit dem Mann — s mužem
 
 OWNER note:
 
@@ -11447,9 +11556,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Von dem Felde / vom Felde — z pole
 
 OWNER note:
 
@@ -11483,9 +11593,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Aus der Küche — z kuchyně
 
 OWNER note:
 
@@ -11521,9 +11632,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Současná forma: vom Feld, vom Berg.
 
 OWNER note:
 
@@ -11557,9 +11669,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Woher? — odkud?
 
 OWNER note:
 
@@ -11593,9 +11706,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Pokud se osoba nebo předmět nachází v místnosti, na nějakém místě nebo v nádobě a vychází z tohoto prostoru, použijte aus.
 
 OWNER note:
 
@@ -11631,9 +11745,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Odpověz podle textu.
 
 OWNER note:
 
@@ -11668,9 +11783,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Odpověz podle textu.
 
 OWNER note:
 
@@ -11705,9 +11821,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Odpověz podle textu.
 
 OWNER note:
 
@@ -11742,9 +11859,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Odpověz podle textu.
 
 OWNER note:
 
@@ -11779,9 +11897,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Odpověz podle textu.
 
 OWNER note:
 
@@ -11816,9 +11935,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Odpověz podle textu.
 
 OWNER note:
 
@@ -11853,9 +11973,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Odpověz podle textu.
 
 OWNER note:
 
@@ -11890,9 +12011,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Odpověz podle textu.
 
 OWNER note:
 
@@ -11927,9 +12049,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Odpověz podle textu.
 
 OWNER note:
 
@@ -11963,9 +12086,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Odkud vystupuje?
 
 OWNER note:
 
@@ -12000,9 +12124,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Odpověz podle textu.
 
 OWNER note:
 
