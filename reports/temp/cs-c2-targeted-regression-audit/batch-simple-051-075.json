@@ -1,0 +1,32 @@
+{
+  "batch": "simple-051-075",
+  "cardIds": [
+    "c2-Gewinnauszahlung-156",
+    "c2-Gleichberechtigung-158",
+    "c2-Hausgemeinschaft-161",
+    "c2-Koalitionspartner-167",
+    "c2-Lebenserhaltungstrieb-170",
+    "c2-Lebenshaltungskosten-171",
+    "c2-Meisterschaftsspiel-177",
+    "c2-menschenfreundlich-178",
+    "c2-Mutterschaftsurlaub-180",
+    "c2-Pflichtversicherung-184",
+    "c2-populärwissenschaftlich-186",
+    "c2-rechtsextremistisch-188",
+    "c2-Satellitenübertragung-189",
+    "c2-Beschwerdeschrift-191",
+    "c2-Selbstverteidigung-195",
+    "c2-Staatsangehörigkeit-196",
+    "c2-Steuererleichterung-197",
+    "c2-Strafgesetzbuch-198",
+    "c2-Vaterschaftsklage-200",
+    "c2-Verhütungsmittel-202",
+    "c2-zugrunde, zu Grunde-206",
+    "c2-zugunsten, zu Gunsten-207",
+    "c2-instand-210",
+    "c2-in Stand-211",
+    "c2-Sachverständige-218"
+  ],
+  "findings": [],
+  "passCount": 25
+}

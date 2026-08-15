@@ -1,0 +1,22 @@
+{
+  "findings": [],
+  "fullIntegrity": {
+    "dataset": "c2",
+    "label": "C2",
+    "date": "2026-08-10T18:28:01.749Z",
+    "lvFile": "data/c2.js",
+    "csFile": "data/cs/c2.js",
+    "wwwFile": "www/data/cs/c2.js",
+    "lvCount": 219,
+    "csCount": 219,
+    "batchSize": 50,
+    "batchCount": 5,
+    "lvStudyCount": 1,
+    "csStudyCount": 1,
+    "auditedObjects": 219,
+    "coverage": "100%",
+    "hashCs": "c6f6a26ac5120223218d9634cb3659a7",
+    "hashWww": "c6f6a26ac5120223218d9634cb3659a7",
+    "jsSyntax": "PASS"
+  }
+}

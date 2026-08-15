@@ -1,0 +1,767 @@
+{
+  "meta": {
+    "date": "2026-08-15T10:03:12.056Z",
+    "branch": "cursor/cs-c2-targeted-regression-audit-6ea4",
+    "auditCommit": "294d310b2a848642adc9cde0df5762ddac1bab81",
+    "model": "GPT-5.6 Luna",
+    "apiModel": "gpt-5.6-luna"
+  },
+  "summary": {
+    "prerequisitePass": true,
+    "ownerNewExact": 75,
+    "ownerDrift": 0,
+    "currentMismatch": 0,
+    "cardNotFound": 0,
+    "fieldNotFound": 0,
+    "ownerConflict": 0,
+    "changedMappings": 75,
+    "uniqueChangedCards": 75,
+    "mainTranslationFields": 75,
+    "studyFields": 0,
+    "studyCardsChecked": 0,
+    "rawFindings": 0,
+    "malformedFiltered": 0,
+    "falsePositive": 0,
+    "sourceDeIssue": 0,
+    "validated": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "MEDIUM": 0,
+      "LOW": 0
+    },
+    "productionChanges": 0,
+    "deChanges": 0,
+    "syntax": "PASS",
+    "idOrder": "PASS",
+    "cardCount": 219,
+    "mirrorParity": "PASS",
+    "lunaRequests": 2,
+    "lunaTokens": 9823
+  },
+  "ownerCheck": {
+    "pass": true,
+    "exact": 75,
+    "drift": 0,
+    "cardNotFound": 0,
+    "fieldNotFound": 0,
+    "conflict": 0,
+    "currentMismatch": 0,
+    "results": [
+      {
+        "cardId": "c2-konterkarieren-1",
+        "field": "csText",
+        "current": "Rušit",
+        "new": "Mařit",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         1 `c2-konterkarieren-1`                     `csText`   Rušit                Mařit             ",
+        "actual": "Mařit"
+      },
+      {
+        "cardId": "c2-Stichhaltigkeit-2",
+        "field": "csText",
+        "current": "Rozumnost",
+        "new": "Opodstatněnost • Přesvědčivost",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         2 `c2-Stichhaltigkeit-2`                    `csText`   Rozumnost            Opodstatněnost •  \n                                                                                     Přesvědčivost     ",
+        "actual": "Opodstatněnost • Přesvědčivost"
+      },
+      {
+        "cardId": "c2-unmissverständlich-3",
+        "field": "csText",
+        "current": "Nezaměnitelný",
+        "new": "Jednoznačný • Naprosto jasný",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         3 `c2-unmissverständlich-3`                 `csText`   Nezaměnitelný        Jednoznačný •     \n                                                                                     Naprosto jasný    ",
+        "actual": "Jednoznačný • Naprosto jasný"
+      },
+      {
+        "cardId": "c2-veranschaulichen-5",
+        "field": "csText",
+        "current": "Prokazatelně ukázat",
+        "new": "Znázornit • Názorně vysvětlit",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         4 `c2-veranschaulichen-5`                   `csText`   Prokazatelně ukázat  Znázornit •       \n                                                                                     Názorně vysvětlit ",
+        "actual": "Znázornit • Názorně vysvětlit"
+      },
+      {
+        "cardId": "c2-Teilnehmerausweis-12",
+        "field": "csText",
+        "current": "Členská karta",
+        "new": "Průkaz účastníka",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         5 `c2-Teilnehmerausweis-12`                 `csText`   Členská karta        Průkaz účastníka  ",
+        "actual": "Průkaz účastníka"
+      },
+      {
+        "cardId": "c2-beaufsichtigen-14",
+        "field": "csText",
+        "current": "Monitor",
+        "new": "Dohlížet • Dozorovat",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         6 `c2-beaufsichtigen-14`                    `csText`   Monitor              Dohlížet •        \n                                                                                     Dozorovat         ",
+        "actual": "Dohlížet • Dozorovat"
+      },
+      {
+        "cardId": "c2-Behandlungsraum-16",
+        "field": "csText",
+        "current": "Ordinaci lékaře",
+        "new": "Ošetřovna • Místnost pro ošetření",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         7 `c2-Behandlungsraum-16`                   `csText`   Ordinaci lékaře      Ošetřovna •       \n                                                                                     Místnost pro      \n                                                                                     ošetření          ",
+        "actual": "Ošetřovna • Místnost pro ošetření"
+      },
+      {
+        "cardId": "c2-entgegenkommen-29",
+        "field": "csText",
+        "current": "Narazit",
+        "new": "Vyjít vstříc",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         8 `c2-entgegenkommen-29`                    `csText`   Narazit              Vyjít vstříc      ",
+        "actual": "Vyjít vstříc"
+      },
+      {
+        "cardId": "c2-Gehaltsabrechnung-32",
+        "field": "csText",
+        "current": "Výpočet mzdy",
+        "new": "Výplatní páska • Vyúčtování mzdy",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         9 `c2-Gehaltsabrechnung-32`                 `csText`   Výpočet mzdy         Výplatní páska •  \n                                                                                     Vyúčtování mzdy   ",
+        "actual": "Výplatní páska • Vyúčtování mzdy"
+      },
+      {
+        "cardId": "c2-Katastrophendienst-44",
+        "field": "csText",
+        "current": "Katastrofická služba",
+        "new": "Služba při katastrofách",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        10 `c2-Katastrophendienst-44`                `csText`   Katastrofická služba Služba při        \n                                                                                     katastrofách      ",
+        "actual": "Služba při katastrofách"
+      },
+      {
+        "cardId": "c2-Kostenerstattung-45",
+        "field": "csText",
+        "current": "Náhradu nákladů",
+        "new": "Náhrada nákladů",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        11 `c2-Kostenerstattung-45`                  `csText`   Náhradu nákladů      Náhrada nákladů   ",
+        "actual": "Náhrada nákladů"
+      },
+      {
+        "cardId": "c2-Kostensteigerung-46",
+        "field": "csText",
+        "current": "Zvyšující se náklady",
+        "new": "Zvýšení nákladů",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        12 `c2-Kostensteigerung-46`                  `csText`   Zvyšující se náklady Zvýšení nákladů   ",
+        "actual": "Zvýšení nákladů"
+      },
+      {
+        "cardId": "c2-Krankenversicherung-47",
+        "field": "csText",
+        "current": "Pojištění pro případ nemoci",
+        "new": "Zdravotní pojištění",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        13 `c2-Krankenversicherung-47`               `csText`   Pojištění pro případ Zdravotní         \n                                                                nemoci               pojištění         ",
+        "actual": "Zdravotní pojištění"
+      },
+      {
+        "cardId": "c2-Krankheitssymptom-48",
+        "field": "csText",
+        "current": "Příznakem onemocnění",
+        "new": "Příznak onemocnění",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        14 `c2-Krankheitssymptom-48`                 `csText`   Příznakem onemocnění Příznak           \n                                                                                     onemocnění        ",
+        "actual": "Příznak onemocnění"
+      },
+      {
+        "cardId": "c2-Lungenentzündung-52",
+        "field": "csText",
+        "current": "Rakovina plic",
+        "new": "Zápal plic • Pneumonie",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        15 `c2-Lungenentzündung-52`                  `csText`   Rakovina plic        Zápal plic •      \n                                                                                     Pneumonie         ",
+        "actual": "Zápal plic • Pneumonie"
+      },
+      {
+        "cardId": "c2-Schlafwagenzimmer-58",
+        "field": "csText",
+        "current": "Ložnice",
+        "new": "Kupé ve spacím voze",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        16 `c2-Schlafwagenzimmer-58`                 `csText`   Ložnice              Kupé ve spacím    \n                                                                                     voze              ",
+        "actual": "Kupé ve spacím voze"
+      },
+      {
+        "cardId": "c2-Schlittschuhkufe-59",
+        "field": "csText",
+        "current": "Sklon saní",
+        "new": "Nůž brusle",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        17 `c2-Schlittschuhkufe-59`                  `csText`   Sklon saní           Nůž brusle        ",
+        "actual": "Nůž brusle"
+      },
+      {
+        "cardId": "c2-selbstverständlich-61",
+        "field": "csText",
+        "current": "Samovysvětlující",
+        "new": "Samozřejmý",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        18 `c2-selbstverständlich-61`                `csText`   Samovysvětlující     Samozřejmý        ",
+        "actual": "Samozřejmý"
+      },
+      {
+        "cardId": "c2-sicherheitshalber-62",
+        "field": "csText",
+        "current": "Pro bezpečnost",
+        "new": "Pro jistotu",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        19 `c2-sicherheitshalber-62`                 `csText`   Pro bezpečnost       Pro jistotu       ",
+        "actual": "Pro jistotu"
+      },
+      {
+        "cardId": "c2-Straßenunterführung-67",
+        "field": "csText",
+        "current": "Pěší tunel",
+        "new": "Silniční podjezd",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        20 `c2-Straßenunterführung-67`               `csText`   Pěší tunel           Silniční podjezd  ",
+        "actual": "Silniční podjezd"
+      },
+      {
+        "cardId": "c2-Sehenswürdigkeit-76",
+        "field": "csText",
+        "current": "Prominentní místo",
+        "new": "Pamětihodnost",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        21 `c2-Sehenswürdigkeit-76`                  `csText`   Prominentní místo    Pamětihodnost     ",
+        "actual": "Pamětihodnost"
+      },
+      {
+        "cardId": "c2-Abenteuergeschichte-77",
+        "field": "csText",
+        "current": "Příběh aféry",
+        "new": "Dobrodružný příběh",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        22 `c2-Abenteuergeschichte-77`               `csText`   Příběh aféry         Dobrodružný       \n                                                                                     příběh            ",
+        "actual": "Dobrodružný příběh"
+      },
+      {
+        "cardId": "c2-Abgeordnetenhaus-78",
+        "field": "csText",
+        "current": "Parlament",
+        "new": "Poslanecká sněmovna",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        23 `c2-Abgeordnetenhaus-78`                  `csText`   Parlament            Poslanecká        \n                                                                                     sněmovna          ",
+        "actual": "Poslanecká sněmovna"
+      },
+      {
+        "cardId": "c2-Baugenossenschaft-82",
+        "field": "csText",
+        "current": "Bytové družstvo družstvo",
+        "new": "Stavební družstvo",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        24 `c2-Baugenossenschaft-82`                 `csText`   Bytové družstvo      Stavební družstvo \n                                                                družstvo                               ",
+        "actual": "Stavební družstvo"
+      },
+      {
+        "cardId": "c2-Ausbildungsbeihilfe-84",
+        "field": "csText",
+        "current": "Příspěvek na školné",
+        "new": "Příspěvek na vzdělávání • Příspěvek na odbornou přípravu",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        25 `c2-Ausbildungsbeihilfe-84`               `csText`   Příspěvek na školné  Příspěvek na      \n                                                                                     vzdělávání •      \n                                                                                     Příspěvek na      \n                                                                                     odbornou přípravu ",
+        "actual": "Příspěvek na vzdělávání • Příspěvek na odbornou přípravu"
+      },
+      {
+        "cardId": "c2-Berichterstatter-86",
+        "field": "csText",
+        "current": "Reportér • Reportér • Dopisovatel • Reportér",
+        "new": "Zpravodaj • Referent • Korespondent • Reportér",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        26 `c2-Berichterstatter-86`                  `csText`   Reportér • Reportér  Zpravodaj •       \n                                                                • Dopisovatel •      Referent •        \n                                                                Reportér             Korespondent •    \n                                                                                     Reportér          ",
+        "actual": "Zpravodaj • Referent • Korespondent • Reportér"
+      },
+      {
+        "cardId": "c2-Berufsbezeichnung-87",
+        "field": "csText",
+        "current": "Pracovní název",
+        "new": "Označení povolání",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        27 `c2-Berufsbezeichnung-87`                 `csText`   Pracovní název       Označení povolání ",
+        "actual": "Označení povolání"
+      },
+      {
+        "cardId": "c2-Bevölkerungsdichte-90",
+        "field": "csText",
+        "current": "Hustota obyvatel",
+        "new": "Hustota obyvatelstva",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        28 `c2-Bevölkerungsdichte-90`                `csText`   Hustota obyvatel     Hustota           \n                                                                                     obyvatelstva      ",
+        "actual": "Hustota obyvatelstva"
+      },
+      {
+        "cardId": "c2-Rauschgiftdezernat-99",
+        "field": "csText",
+        "current": "Divize narkotik",
+        "new": "Oddělení pro boj s narkotiky",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        29 `c2-Rauschgiftdezernat-99`                `csText`   Divize narkotik      Oddělení pro boj  \n                                                                                     s narkotiky       ",
+        "actual": "Oddělení pro boj s narkotiky"
+      },
+      {
+        "cardId": "c2-Bereitschaftsdienst-101",
+        "field": "csText",
+        "current": "Provozní služba",
+        "new": "Pohotovostní služba",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        30 `c2-Bereitschaftsdienst-101`              `csText`   Provozní služba      Pohotovostní      \n                                                                                     služba            ",
+        "actual": "Pohotovostní služba"
+      },
+      {
+        "cardId": "c2-durchkreuzen-103",
+        "field": "csText",
+        "current": "Vyškrtnout • Překřížit • Překřížit • Narušit",
+        "new": "Vyškrtnout • Překřížit • Překazit • Narušit",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        31 `c2-durchkreuzen-103`                     `csText`   Vyškrtnout •         Vyškrtnout •      \n                                                                Překřížit •          Překřížit •       \n                                                                Překřížit • Narušit  Překazit •        \n                                                                                     Narušit           ",
+        "actual": "Vyškrtnout • Překřížit • Překazit • Narušit"
+      },
+      {
+        "cardId": "c2-Empfehlungsschreiben-110",
+        "field": "csText",
+        "current": "Písemné doporučení",
+        "new": "Doporučující dopis",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        32 `c2-Empfehlungsschreiben-110`             `csText`   Písemné doporučení   Doporučující      \n                                                                                     dopis             ",
+        "actual": "Doporučující dopis"
+      },
+      {
+        "cardId": "c2-entgegengesetzt-112",
+        "field": "csText",
+        "current": "Opak",
+        "new": "Opačný",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        33 `c2-entgegengesetzt-112`                  `csText`   Opak                 Opačný            ",
+        "actual": "Opačný"
+      },
+      {
+        "cardId": "c2-Entschlossenheit-113",
+        "field": "csText",
+        "current": "Jistota • Rozhodnost • Nezpochybnitelnost",
+        "new": "Rozhodnost • Odhodlanost",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        34 `c2-Entschlossenheit-113`                 `csText`   Jistota • Rozhodnost Rozhodnost •      \n                                                                • Nezpochybnitelnost Odhodlanost       ",
+        "actual": "Rozhodnost • Odhodlanost"
+      },
+      {
+        "cardId": "c2-Entwicklungsland-114",
+        "field": "csText",
+        "current": "Země rozvoje",
+        "new": "Rozvojová země",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        35 `c2-Entwicklungsland-114`                 `csText`   Země rozvoje         Rozvojová země    ",
+        "actual": "Rozvojová země"
+      },
+      {
+        "cardId": "c2-Errungenschaft-117",
+        "field": "csText",
+        "current": "Úspěch • Prospěch • Zisk",
+        "new": "Úspěch • Výdobytek",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        36 `c2-Errungenschaft-117`                   `csText`   Úspěch • Prospěch •  Úspěch •          \n                                                                Zisk                 Výdobytek         ",
+        "actual": "Úspěch • Výdobytek"
+      },
+      {
+        "cardId": "c2-Fallschirmspringen-119",
+        "field": "csText",
+        "current": "Skydiving",
+        "new": "Parašutismus • Seskok padákem",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        37 `c2-Fallschirmspringen-119`               `csText`   Skydiving            Parašutismus •    \n                                                                                     Seskok padákem    ",
+        "actual": "Parašutismus • Seskok padákem"
+      },
+      {
+        "cardId": "c2-Gedächtnisstörung-127",
+        "field": "csText",
+        "current": "Zhoršení paměti",
+        "new": "Porucha paměti",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        38 `c2-Gedächtnisstörung-127`                `csText`   Zhoršení paměti      Porucha paměti    ",
+        "actual": "Porucha paměti"
+      },
+      {
+        "cardId": "c2-Geistesgegenwart-131",
+        "field": "csText",
+        "current": "Vynalézavost",
+        "new": "Duchapřítomnost",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        39 `c2-Geistesgegenwart-131`                 `csText`   Vynalézavost         Duchapřítomnost   ",
+        "actual": "Duchapřítomnost"
+      },
+      {
+        "cardId": "c2-Dorfgemeinschaft-136",
+        "field": "csText",
+        "current": "Vesničané",
+        "new": "Vesnické společenství • Vesnická komunita",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        40 `c2-Dorfgemeinschaft-136`                 `csText`   Vesničané            Vesnické          \n                                                                                     společenství •    \n                                                                                     Vesnická komunita ",
+        "actual": "Vesnické společenství • Vesnická komunita"
+      },
+      {
+        "cardId": "c2-Genossenschaft-140",
+        "field": "csText",
+        "current": "Družstevní • Artel",
+        "new": "Družstvo • Artel",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        41 `c2-Genossenschaft-140`                   `csText`   Družstevní • Artel   Družstvo • Artel  ",
+        "actual": "Družstvo • Artel"
+      },
+      {
+        "cardId": "c2-Gerechtigkeitsgefühl-141",
+        "field": "csText",
+        "current": "Spravedlnost • Smysl pro spravedlnost",
+        "new": "Smysl pro spravedlnost",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        42 `c2-Gerechtigkeitsgefühl-141`             `csText`   Spravedlnost • Smysl Smysl pro         \n                                                                pro spravedlnost     spravedlnost      ",
+        "actual": "Smysl pro spravedlnost"
+      },
+      {
+        "cardId": "c2-Schiedsgericht-142",
+        "field": "csText",
+        "current": "Arbitráž",
+        "new": "Rozhodčí soud • Arbitrážní soud",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        43 `c2-Schiedsgericht-142`                   `csText`   Arbitráž             Rozhodčí soud •   \n                                                                                     Arbitrážní soud   ",
+        "actual": "Rozhodčí soud • Arbitrážní soud"
+      },
+      {
+        "cardId": "c2-Geschäftsordnung-144",
+        "field": "csText",
+        "current": "Nařízení • Nařízení",
+        "new": "Jednací řád",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        44 `c2-Geschäftsordnung-144`                 `csText`   Nařízení • Nařízení  Jednací řád       ",
+        "actual": "Jednací řád"
+      },
+      {
+        "cardId": "c2-Geschwindigkeitskontrolle-147",
+        "field": "csText",
+        "current": "Ovládání rychlosti",
+        "new": "Kontrola rychlosti • Měření rychlosti",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        45 `c2-Geschwindigkeitskontrolle-147`        `csText`   Ovládání rychlosti   Kontrola          \n                                                                                     rychlosti •       \n                                                                                     Měření rychlosti  ",
+        "actual": "Kontrola rychlosti • Měření rychlosti"
+      },
+      {
+        "cardId": "c2-Geschwindigkeitsüberschreitung-149",
+        "field": "csText",
+        "current": "Nedodržení předepsané rychlosti • Porušení",
+        "new": "Překročení rychlosti",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        46 `c2-Geschwindigkeitsüberschreitung-149`   `csText`   Nedodržení           Překročení        \n                                                                předepsané rychlosti rychlosti         \n                                                                • Porušení                             ",
+        "actual": "Překročení rychlosti"
+      },
+      {
+        "cardId": "c2-gesellschaftlich-150",
+        "field": "csText",
+        "current": " • Veřejné společnosti",
+        "new": "Společenský • Sociální",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        47 `c2-gesellschaftlich-150`                 `csText`    • Veřejné           Společenský •     \n                                                                společnosti          Sociální          ",
+        "actual": "Společenský • Sociální"
+      },
+      {
+        "cardId": "c2-Gesellschaftsordnung-151",
+        "field": "csText",
+        "current": "Veřejné zařízení",
+        "new": "Společenské uspořádání • Společenský řád",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        48 `c2-Gesellschaftsordnung-151`             `csText`   Veřejné zařízení     Společenské       \n                                                                                     uspořádání •      \n                                                                                     Společenský řád   ",
+        "actual": "Společenské uspořádání • Společenský řád"
+      },
+      {
+        "cardId": "c2-Gesetzesvorlage-152",
+        "field": "csText",
+        "current": "Účtovat",
+        "new": "Návrh zákona",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        49 `c2-Gesetzesvorlage-152`                  `csText`   Účtovat              Návrh zákona      ",
+        "actual": "Návrh zákona"
+      },
+      {
+        "cardId": "c2-Gewerkschaftsbeitrag-154",
+        "field": "csText",
+        "current": "Členské poplatky odborů",
+        "new": "Odborový příspěvek • Členský příspěvek odborům",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "        50 `c2-Gewerkschaftsbeitrag-154`             `csText`   Členské poplatky     Odborový          \n                                                                odborů               příspěvek •       \n                                                                                     Členský příspěvek \n                                                                                     odborům           ",
+        "actual": "Odborový příspěvek • Členský příspěvek odborům"
+      },
+      {
+        "cardId": "c2-Gewinnauszahlung-156",
+        "field": "csText",
+        "current": "Výplata výher v loterii",
+        "new": "Výplata zisku",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         51 `c2-Gewinnauszahlung-156`          `csText`   Výplata výher v Výplata zisku      \n                                                          loterii                            ",
+        "actual": "Výplata zisku"
+      },
+      {
+        "cardId": "c2-Gleichberechtigung-158",
+        "field": "csText",
+        "current": "Rovnost",
+        "new": "Rovnoprávnost",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         52 `c2-Gleichberechtigung-158`        `csText`   Rovnost         Rovnoprávnost      ",
+        "actual": "Rovnoprávnost"
+      },
+      {
+        "cardId": "c2-Hausgemeinschaft-161",
+        "field": "csText",
+        "current": "Rodinní příslušníci • Obyvatelé domu",
+        "new": "Společenství obyvatel domu",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         53 `c2-Hausgemeinschaft-161`          `csText`   Rodinní         Společenství       \n                                                          příslušníci •   obyvatel domu      \n                                                          Obyvatelé domu                     ",
+        "actual": "Společenství obyvatel domu"
+      },
+      {
+        "cardId": "c2-Koalitionspartner-167",
+        "field": "csText",
+        "current": "Koaličním partnerem",
+        "new": "Koaliční partner",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         54 `c2-Koalitionspartner-167`         `csText`   Koaličním       Koaliční partner   \n                                                          partnerem                          ",
+        "actual": "Koaliční partner"
+      },
+      {
+        "cardId": "c2-Lebenserhaltungstrieb-170",
+        "field": "csText",
+        "current": "Pohon života",
+        "new": "Pud zachování života",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         55 `c2-Lebenserhaltungstrieb-170`     `csText`   Pohon života    Pud zachování      \n                                                                          života             ",
+        "actual": "Pud zachování života"
+      },
+      {
+        "cardId": "c2-Lebenshaltungskosten-171",
+        "field": "csText",
+        "current": "Prostředky k obživě • Náklady",
+        "new": "Životní náklady",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         56 `c2-Lebenshaltungskosten-171`      `csText`   Prostředky k    Životní náklady    \n                                                          obživě •                           \n                                                          Náklady                            ",
+        "actual": "Životní náklady"
+      },
+      {
+        "cardId": "c2-Meisterschaftsspiel-177",
+        "field": "csText",
+        "current": "Mistrovský závod",
+        "new": "Mistrovský zápas",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         57 `c2-Meisterschaftsspiel-177`       `csText`   Mistrovský      Mistrovský zápas   \n                                                          závod                              ",
+        "actual": "Mistrovský zápas"
+      },
+      {
+        "cardId": "c2-menschenfreundlich-178",
+        "field": "csText",
+        "current": "Humánní • Humánní",
+        "new": "Humánní • Lidský",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         58 `c2-menschenfreundlich-178`        `csText`   Humánní •       Humánní • Lidský   \n                                                          Humánní                            ",
+        "actual": "Humánní • Lidský"
+      },
+      {
+        "cardId": "c2-Mutterschaftsurlaub-180",
+        "field": "csText",
+        "current": "Mateřské dovolené",
+        "new": "Mateřská dovolená",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         59 `c2-Mutterschaftsurlaub-180`       `csText`   Mateřské        Mateřská dovolená  \n                                                          dovolené                           ",
+        "actual": "Mateřská dovolená"
+      },
+      {
+        "cardId": "c2-Pflichtversicherung-184",
+        "field": "csText",
+        "current": "Povinné ručení",
+        "new": "Povinné pojištění",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         60 `c2-Pflichtversicherung-184`       `csText`   Povinné ručení  Povinné pojištění  ",
+        "actual": "Povinné pojištění"
+      },
+      {
+        "cardId": "c2-populärwissenschaftlich-186",
+        "field": "csText",
+        "current": "Populární věda",
+        "new": "Populárněvědecký",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         61 `c2-populärwissenschaftlich-186`   `csText`   Populární věda  Populárněvědecký   ",
+        "actual": "Populárněvědecký"
+      },
+      {
+        "cardId": "c2-rechtsextremistisch-188",
+        "field": "csText",
+        "current": "Pravicový extremista",
+        "new": "Pravicově extremistický",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         62 `c2-rechtsextremistisch-188`       `csText`   Pravicový       Pravicově          \n                                                          extremista      extremistický      ",
+        "actual": "Pravicově extremistický"
+      },
+      {
+        "cardId": "c2-Satellitenübertragung-189",
+        "field": "csText",
+        "current": "Satelitní televizní přenos",
+        "new": "Satelitní přenos",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         63 `c2-Satellitenübertragung-189`     `csText`   Satelitní       Satelitní přenos   \n                                                          televizní                          \n                                                          přenos                             ",
+        "actual": "Satelitní přenos"
+      },
+      {
+        "cardId": "c2-Beschwerdeschrift-191",
+        "field": "csText",
+        "current": "Stížnost",
+        "new": "Písemná stížnost",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         64 `c2-Beschwerdeschrift-191`         `csText`   Stížnost        Písemná stížnost   ",
+        "actual": "Písemná stížnost"
+      },
+      {
+        "cardId": "c2-Selbstverteidigung-195",
+        "field": "csText",
+        "current": "Soubor sebeobranných technik",
+        "new": "Sebeobrana",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         65 `c2-Selbstverteidigung-195`        `csText`   Soubor          Sebeobrana         \n                                                          sebeobranných                      \n                                                          technik                            ",
+        "actual": "Sebeobrana"
+      },
+      {
+        "cardId": "c2-Staatsangehörigkeit-196",
+        "field": "csText",
+        "current": "Státnosti",
+        "new": "Státní příslušnost • Občanství",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         66 `c2-Staatsangehörigkeit-196`       `csText`   Státnosti       Státní příslušnost \n                                                                          • Občanství        ",
+        "actual": "Státní příslušnost • Občanství"
+      },
+      {
+        "cardId": "c2-Steuererleichterung-197",
+        "field": "csText",
+        "current": "Daňové výhody",
+        "new": "Daňová úleva",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         67 `c2-Steuererleichterung-197`       `csText`   Daňové výhody   Daňová úleva       ",
+        "actual": "Daňová úleva"
+      },
+      {
+        "cardId": "c2-Strafgesetzbuch-198",
+        "field": "csText",
+        "current": "Jur trestní zákoník",
+        "new": "Trestní zákoník",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         68 `c2-Strafgesetzbuch-198`           `csText`   Jur trestní     Trestní zákoník    \n                                                          zákoník                            ",
+        "actual": "Trestní zákoník"
+      },
+      {
+        "cardId": "c2-Vaterschaftsklage-200",
+        "field": "csText",
+        "current": "Žalobu o určení otcovství",
+        "new": "Žaloba o určení otcovství",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         69 `c2-Vaterschaftsklage-200`         `csText`   Žalobu o určení Žaloba o určení    \n                                                          otcovství       otcovství          ",
+        "actual": "Žaloba o určení otcovství"
+      },
+      {
+        "cardId": "c2-Verhütungsmittel-202",
+        "field": "csText",
+        "current": "Antikoncepce",
+        "new": "Antikoncepční prostředek",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         70 `c2-Verhütungsmittel-202`          `csText`   Antikoncepce    Antikoncepční      \n                                                                          prostředek         ",
+        "actual": "Antikoncepční prostředek"
+      },
+      {
+        "cardId": "c2-zugrunde, zu Grunde-206",
+        "field": "csText",
+        "current": "V podstatě",
+        "new": "V základu • V podstatě",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         71 `c2-zugrunde, zu Grunde-206`       `csText`   V podstatě      V základu • V      \n                                                                          podstatě           ",
+        "actual": "V základu • V podstatě"
+      },
+      {
+        "cardId": "c2-zugunsten, zu Gunsten-207",
+        "field": "csText",
+        "current": "Pro dobro • Pro dobro",
+        "new": "Ve prospěch",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         72 `c2-zugunsten, zu Gunsten-207`     `csText`   Pro dobro • Pro Ve prospěch        \n                                                          dobro                              ",
+        "actual": "Ve prospěch"
+      },
+      {
+        "cardId": "c2-instand-210",
+        "field": "csText",
+        "current": "V pořadí",
+        "new": "V pořádku • Provozuschopný",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         73 `c2-instand-210`                   `csText`   V pořadí        V pořádku •        \n                                                                          Provozuschopný     ",
+        "actual": "V pořádku • Provozuschopný"
+      },
+      {
+        "cardId": "c2-in Stand-211",
+        "field": "csText",
+        "current": "V pořadí",
+        "new": "V pořádku • V provozuschopném stavu",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         74 `c2-in Stand-211`                  `csText`   V pořadí        V pořádku • V      \n                                                                          provozuschopném    \n                                                                          stavu              ",
+        "actual": "V pořádku • V provozuschopném stavu"
+      },
+      {
+        "cardId": "c2-Sachverständige-218",
+        "field": "csText",
+        "current": "Zdatný • Odborník",
+        "new": "Odborník • Znalec",
+        "status": "OWNER_NEW_EXACT",
+        "rawContent": "         75 `c2-Sachverständige-218`           `csText`   Zdatný •        Odborník • Znalec  \n                                                          Odborník                           ",
+        "actual": "Odborník • Znalec"
+      }
+    ]
+  },
+  "scope": {
+    "changedMappings": 75,
+    "uniqueChangedCards": 75,
+    "mainTranslationFields": 75,
+    "studyFields": 0,
+    "cardIdSet": {}
+  },
+  "rawFindings": [],
+  "validatedReal": [],
+  "falsePositives": [],
+  "sourceDeIssues": [],
+  "integrity": {
+    "cardCount": 219,
+    "syntax": "PASS",
+    "idOrder": "PASS",
+    "mirrorParity": "PASS",
+    "deChanges": 0,
+    "deIntegrity": "PASS"
+  },
+  "lunaUsage": {
+    "model": "gpt-5.6-luna",
+    "requestCount": 2,
+    "initialBatchRequests": 0,
+    "retryRequests": 0,
+    "batchCount": 2,
+    "batchSizes": [
+      50,
+      25
+    ],
+    "retryCount": 0,
+    "retryReasons": {},
+    "inputTokens": 6022,
+    "cachedInputTokens": 0,
+    "outputTokens": 3801,
+    "reasoningTokens": 2465,
+    "totalTokens": 9823,
+    "findingsCount": 0,
+    "passCount": 75
+  },
+  "realFindings": []
+}
