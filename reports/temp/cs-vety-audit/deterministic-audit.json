@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "dataset": "vety",
+    "label": "Věty",
+    "date": "2026-08-10T18:28:20.593Z",
+    "lvFile": "data/sentences.js",
+    "csFile": "data/cs/sentences.js",
+    "lvCount": 796,
+    "csCount": 796,
+    "batchSize": 50,
+    "batchCount": 16,
+    "auditedObjects": 796,
+    "coverage": "100%"
+  },
+  "structural": {
+    "issues": [],
+    "pass": true
+  },
+  "germanIntegrity": {
+    "issues": [],
+    "pass": true
+  },
+  "technical": {
+    "issues": [],
+    "pass": true
+  },
+  "foreignRemnants": {
+    "issues": [],
+    "pass": true
+  },
+  "findings": [],
+  "batches": []
+}
