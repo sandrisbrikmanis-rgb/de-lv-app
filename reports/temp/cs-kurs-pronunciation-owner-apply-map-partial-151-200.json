@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "scope": "CS Kurss Výslovnost — OWNER batch 151–200",
+    "source": "reports/cs-kurs-pronunciation-owner-review-all-findings.md",
+    "reviewed": "151–200",
+    "labotFindingRows": 50,
+    "nelabot": 0,
+    "falsePositive": 0,
+    "deduplicatedApplyTargets": 22,
+    "productionChanges": 0
+  },
+  "dedupeNote": "Multiple finding rows may share one production target; apply map lists one entry per unique findingId.",
+  "apply": [
+    {
+      "findingNum": "151",
+      "findingId": "kurssLesson10/section[2]/item[7]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson10",
+      "field": "lv",
+      "current": "Pareizi izrunā: der Großvater (dēr grōsfāter).",
+      "ownerNew": "Správná výslovnost: der Großvater (dér grósfátr).",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "153",
+      "findingId": "kurssLesson10/section[2]/item[8]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson10",
+      "field": "lv",
+      "current": "Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).",
+      "ownerNew": "Dvojhláska ei se vyslovuje přibližně jako české aj: seid (zajt), fleißig (flajsich; ch jako německý Ich-Laut [ç]).",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "156",
+      "findingId": "kurssLesson10/section[2]/item[9]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson10",
+      "field": "lv",
+      "current": "Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celma ē ir garš un šaurs, galotnes e ir īss un plats.",
+      "ownerNew": "Ve slově Lehrer je kmenové e dlouhé. Koncovka -er se vyslovuje přibližně jako [ɐ].",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "159",
+      "findingId": "kurssLesson11/section[2]/item[0]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson11",
+      "field": "lv",
+      "current": "Eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
+      "ownerNew": "Dvojhláska eu se vyslovuje přibližně jako české oj: der Freund (frojnt), neun (nojn).",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "161",
+      "findingId": "kurssLesson11/section[2]/item[2]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson11",
+      "field": "lv",
+      "current": "Z izrunā kā český c: Franz (franc), das Zimmer (cimer).",
+      "ownerNew": "Z se vyslovuje jako české c: Franz (franc), das Zimmer (cimer).",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "163",
+      "findingId": "kurssLesson12/section[2]/item[0]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson12",
+      "field": "lv",
+      "current": "X izrunā kā ks: Max (maks), Felix (feliks).",
+      "ownerNew": "X se vyslovuje jako ks: Max (maks), Felix (feliks).",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "165",
+      "findingId": "kurssLesson12/section[2]/item[1]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson12",
+      "field": "lv",
+      "current": "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
+      "ownerNew": "Ve slovech Schwester a am jüngsten se skupina st vyslovuje jako české st: Schwester (švester), jüngsten [ˈjʏŋstən].",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "168",
+      "findingId": "kurssLesson12/section[2]/item[2]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson12",
+      "field": "lv",
+      "current": "H vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — garumzīme.",
+      "ownerNew": "Ve slově der Federhalter se h vyslovuje jako hláska, zatímco ve slově der Sohn pouze označuje délku předcházející samohlásky.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "170",
+      "findingId": "kurssLesson13/section[3]/item[0]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson13",
+      "field": "lv",
+      "current": "H vārdā halten ir dzirdama skaņa.",
+      "ownerNew": "Ve slově halten je h vyslovované.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "172",
+      "findingId": "kurssLesson13/section[3]/item[1]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson13",
+      "field": "lv",
+      "current": "H vārdā fahren rāda patskaņa garumu.",
+      "ownerNew": "Ve slově fahren h označuje délku předcházející samohlásky.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "174",
+      "findingId": "kurssLesson13/section[3]/item[2]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson13",
+      "field": "lv",
+      "current": "A vārdā halten izrunā īsi: halten.",
+      "ownerNew": "A ve slově halten se vyslovuje krátce.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "176",
+      "findingId": "kurssLesson13/section[3]/item[3]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson13",
+      "field": "lv",
+      "current": "A vārdā tragen izrunā gari: tragen.",
+      "ownerNew": "A ve slově tragen se vyslovuje dlouze.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "178",
+      "findingId": "kurssLesson13/section[3]/item[4]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson13",
+      "field": "lv",
+      "current": "Äu izrunā kā oi: du läufst, er läuft.",
+      "ownerNew": "Dvojhláska äu se vyslovuje přibližně jako české oj: du läufst, er läuft.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "180",
+      "findingId": "kurssLesson13/section[3]/item[5]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson13",
+      "field": "lv",
+      "current": "Pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt.",
+      "ownerNew": "Ve slově Kopf se skupina pf vyslovuje tak, aby byly slyšet obě souhlásky.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "182",
+      "findingId": "kurssLesson14/section[3]/item[0]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson14",
+      "field": "lv",
+      "current": "SS izrunā kā český s.",
+      "ownerNew": "Znak ß se vyslovuje jako české s.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "184",
+      "findingId": "kurssLesson14/section[3]/item[1]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson14",
+      "field": "lv",
+      "current": "SS raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
+      "ownerNew": "Znak ß se píše uprostřed nebo na konci slova po dlouhé samohlásce či dvojhlásce: die Füße, die Straße. Po krátké samohlásce se píše ss: ich muss, er muss.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "187",
+      "findingId": "kurssLesson14/section[3]/item[2]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson14",
+      "field": "lv",
+      "current": "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
+      "ownerNew": "Ve tvarech slovesa müssen se píše ss: müssen, ich muss, du musst, ihr müsst.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "190",
+      "findingId": "kurssLesson14/section[3]/item[3]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson14",
+      "field": "lv",
+      "current": "Ö vārdā mögen izrunā kā skaidru ö skaņu.",
+      "ownerNew": "Ve slově mögen se ö vyslovuje dlouze, se zaokrouhlenými rty a s jazykem v poloze podobné českému e.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "192",
+      "findingId": "kurssLesson14/section[3]/item[4]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson14",
+      "field": "lv",
+      "current": "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
+      "ownerNew": "Ve tvarech du magst a ihr mögt se g vyslovuje nezněle, přibližně jako k.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "194",
+      "findingId": "kurssLesson14/section[3]/item[5]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson14",
+      "field": "lv",
+      "current": "Līdzīgi arī český valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai.",
+      "ownerNew": "Podobný princip existuje i v češtině: znělá souhláska se před neznělou může vyslovit nezněle.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "196",
+      "findingId": "kurssLesson15/section[3]/item[0]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson15",
+      "field": "lv",
+      "current": "Ä vārdos Äpfel un schälen izrunā kā šauro e.",
+      "ownerNew": "Ä ve slovech Äpfel a schälen se vyslovuje jako otevřenější e; v Äpfel je krátké a v schälen dlouhé.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "199",
+      "findingId": "kurssLesson15/section[3]/item[1]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson15",
+      "field": "lv",
+      "current": "Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.",
+      "ownerNew": "Ve slově Äpfel se ä vyslovuje krátce; následují po něm dvě souhlásky, což zde odpovídá běžnému pravopisnému vodítku.",
+      "verdict": "LABOT"
+    }
+  ]
+}

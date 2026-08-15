@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "scope": "CS Kurss Výslovnost — OWNER batch 101–150",
+    "source": "reports/cs-kurs-pronunciation-owner-review-all-findings.md",
+    "reviewed": "101–150",
+    "labotFindingRows": 46,
+    "nelabot": 1,
+    "falsePositive": 3,
+    "deduplicatedApplyTargets": 32,
+    "productionChanges": 0
+  },
+  "dedupeNote": "Multiple finding rows may share one production target; apply map lists one entry per unique findingId.",
+  "apply": [
+    {
+      "findingNum": "101",
+      "findingId": "kurssConsonantsLesson/section[9]/li[2]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssConsonantsLesson",
+      "field": "section[9].li[2]",
+      "current": "Qu → sq",
+      "ownerNew": "Qu → kv",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "103",
+      "findingId": "kurssConsonantsLesson/section[9]/li[6]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssConsonantsLesson",
+      "field": "section[9].li[6]",
+      "current": "SS → s",
+      "ownerNew": "ß → s",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "104",
+      "findingId": "kurssLesson1/legacyVyslovnost/example[0]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson1",
+      "field": "legacyHtml.Výslovnost.example[0]",
+      "current": "Na přednáškách je uvedena správná výslovnost slov označených českými písmeny.",
+      "ownerNew": "V lekcích je správná výslovnost slov přepsána českými písmeny.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "105",
+      "findingId": "kurssLesson1/legacyVyslovnost/example[1]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson1",
+      "field": "legacyHtml.Výslovnost.example[1]",
+      "current": "Wir (člověk) - my. Ve slově wir ī se vždy vyslovuje dlouze.",
+      "ownerNew": "Wir (vír) — my. Ve slově wir se i vyslovuje dlouze.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "107",
+      "findingId": "kurssLesson2/legacyVyslovnost/example[0]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson2",
+      "field": "legacyHtml.Výslovnost.example[0]",
+      "current": "Ve slovech ich, nicht, rechnen, zeichnen se hláska ch vyslovuje měkce, jako v českých slovech: technika, Fridrich.",
+      "ownerNew": "Ve slovech ich, nicht, rechnen a zeichnen se ch vyslovuje měkce jako německý Ich-Laut [ç]; v češtině nemá přesný ekvivalent.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "108",
+      "findingId": "kurssLesson2/legacyVyslovnost/example[1]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson2",
+      "field": "legacyHtml.Výslovnost.example[1]",
+      "current": "Ve slovech arbeiten, zeichnen se dvojhláska ei vyslovuje zhruba jako českýá hláska ploché e následovaná i.",
+      "ownerNew": "Ve slovech arbeiten a zeichnen se dvojhláska ei vyslovuje přibližně jako české aj.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "110",
+      "findingId": "kurssLesson2/legacyVyslovnost/example[2]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson2",
+      "field": "legacyHtml.Výslovnost.example[2]",
+      "current": "Shluk souhlásek sp se vyslovuje jako šp: ​​spielen (špīlen).",
+      "ownerNew": "Shluk souhlásek sp se vyslovuje jako šp: spielen (špílen).",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "111",
+      "findingId": "kurssLesson2/legacyVyslovnost/example[3]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson2",
+      "field": "legacyHtml.Výslovnost.example[3]",
+      "current": "Sloveso tun u se ve všech osobách vyslovuje dlouze.",
+      "ownerNew": "Sloveso tun se ve všech osobách vyslovuje s dlouhým u.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "112",
+      "findingId": "kurssLesson3/legacyVyslovnost/example[1]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson3",
+      "field": "legacyHtml.Výslovnost.example[1]",
+      "current": "Ck je dvojité k: dick (dikk).",
+      "ownerNew": "ck jsou dvě písmena, která označují jednu hlásku [k]: dick (dikk).",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "113",
+      "findingId": "kurssLesson3/legacyVyslovnost/example[2]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson3",
+      "field": "legacyHtml.Výslovnost.example[2]",
+      "current": "V přídavných jménech a příslovcích zní koncovka -ig jako lehké -ich: niedrig (nīdrich).",
+      "ownerNew": "V přídavných jménech a příslovcích se koncovka -ig ve standardní výslovnosti často vyslovuje s německým měkkým ch [ç]: niedrig.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "114",
+      "findingId": "kurssLesson3/legacyVyslovnost/example[3]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson3",
+      "field": "legacyHtml.Výslovnost.example[3]",
+      "current": "Pokud koncovka -ig končí na e: -ige, pak se g vyslovuje jako určitá hláska g: niedrige (nídrige) Bänke.",
+      "ownerNew": "Pokud po -ig následuje koncovka -e, vyslovuje se g jako [g]: niedrige (nídrige) Bänke.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "115",
+      "findingId": "kurssLesson4/legacyVyslovnost/example[1]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson4",
+      "field": "lv",
+      "current": "H v němčině může být jak zvuk, tak značka délky pro předchozí samohlásku.",
+      "ownerNew": "Písmeno h v němčině může označovat hlásku [h], nebo může být němé a označovat délku předchozí samohlásky.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "116",
+      "findingId": "kurssLesson4/legacyVyslovnost/example[2]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson4",
+      "field": "lv",
+      "current": "Je-li h dlouhé, nevyslovuje se jako zvuk: nehmen (nēmen).",
+      "ownerNew": "Je-li h němé a označuje délku předchozí samohlásky, nevyslovuje se jako samostatná hláska: nehmen (némen).",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "117",
+      "findingId": "kurssLesson4/legacyVyslovnost/example[3]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson4",
+      "field": "lv",
+      "current": "Pokud za samohláskou následuje pouze jedna souhláska, vyslovuje se samohláska dlouze: die (dī) Feder (fēder), den (dēn).",
+      "ownerNew": "Délku samohlásky nelze určit pouze podle počtu následujících souhlásek. Například die, Feder a den mají dlouhou samohlásku.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "118",
+      "findingId": "kurssLesson5/legacyVyslovnost/example[0]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson5",
+      "field": "lv",
+      "current": "Tz je zdvojený zvuk z a vyslovuje se jako z: sitzen (zicen).",
+      "ownerNew": "Písmena tz označují hlásku [ts], tedy české „c“: sitzen (zicen).",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "119",
+      "findingId": "kurssLesson5/legacyVyslovnost/example[1]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson5",
+      "field": "lv",
+      "current": "V se v německých slovech vyslovuje jako f: der Vater (fäter).",
+      "ownerNew": "V se v mnoha původně německých slovech vyslovuje jako f: der Vater (fátr). V přejatých slovech se může vyslovovat jako v.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "121",
+      "findingId": "kurssLesson5/legacyVyslovnost/example[2]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson5",
+      "field": "lv",
+      "current": "SS se nazývá escet a vyslovuje se jako českýé s: groß (grōs), weiß (veis).",
+      "ownerNew": "Písmeno ß (Eszett) se vyslovuje jako české s: groß (grós), weiß (vais).",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "123",
+      "findingId": "kurssLesson6/legacyVyslovnost/example[0]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson6",
+      "field": "lv",
+      "current": "Ä je podtext samohlásky a a vyslovuje se jako krátké nebo dlouhé úzké e.",
+      "ownerNew": "Ä je přehláska písmene a. Vyslovuje se jako krátké nebo dlouhé otevřené e [ɛ] / [ɛː].",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "125",
+      "findingId": "kurssLesson6/legacyVyslovnost/example[2]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson6",
+      "field": "lv",
+      "current": "Ü je podtext samohlásky u. Při jeho vyslovování by měly být rty velmi zaoblené a pokuste se vyslovit i s kulatými rty.",
+      "ownerNew": "Ü je přehláska písmene u. Při jeho vyslovování mějte rty zaokrouhlené a vyslovte i, aniž byste polohu rtů změnili.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "126",
+      "findingId": "kurssLesson6/legacyVyslovnost/example[4]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson6",
+      "field": "lv",
+      "current": "Ö vyslovuje se zaoblenými rty, snaží se vyslovit e: der Löffel.",
+      "ownerNew": "Ö se vyslovuje s jazykem v poloze podobné českému e a se zaokrouhlenými rty: der Löffel.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "128",
+      "findingId": "kurssLesson7/legacyVyslovnost/example[1]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson7",
+      "field": "lv",
+      "current": "Sch se vyslovuje jako českýé š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).",
+      "ownerNew": "Sch se vyslovuje jako české š: die Schaufel (dí šaufel), die Schüssel (dí šüssel).",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "129",
+      "findingId": "kurssLesson7/legacyVyslovnost/example[2]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson7",
+      "field": "lv",
+      "current": "Dvojhláska äu se vyslovuje jako českýé oi: das Fräulein (das froilein).",
+      "ownerNew": "Dvojhláska äu se vyslovuje přibližně jako české oi: das Fräulein (das froilein).",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "130",
+      "findingId": "kurssLesson8/section[2]/item[1]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson8",
+      "field": "lv",
+      "current": "Ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
+      "ownerNew": "Ä se někdy vyslovuje jako otevřené e, například ve slově der Gärtner (dér gertner).",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "132",
+      "findingId": "kurssLesson8/section[2]/item[4]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson8",
+      "field": "lv",
+      "current": "SS izrunā kā s: grüßen (grüsen).",
+      "ownerNew": "ß se vyslovuje jako s: grüßen (grüsen).",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "134",
+      "findingId": "kurssLesson8/section[2]/item[5]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson8",
+      "field": "lv",
+      "current": "Eu izrunā kā oi: deutlich (doitlich).",
+      "ownerNew": "Eu se vyslovuje přibližně jako české oj: deutlich (dojtlich).",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "136",
+      "findingId": "kurssLesson10/section[2]/item[0]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson10",
+      "field": "lv",
+      "current": "Pareizi jāizrunā patskaņu pārkaņojumi.",
+      "ownerNew": "Je důležité správně vyslovovat přehlásky.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "138",
+      "findingId": "kurssLesson10/section[2]/item[1]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson10",
+      "field": "lv",
+      "current": "Ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der Löffel.",
+      "ownerNew": "Ö se vyslovuje se zaokrouhlenými rty a s jazykem v poloze podobné českému e: wir können, ihr könnt, sie können, der Löffel.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "140",
+      "findingId": "kurssLesson10/section[2]/item[2]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson10",
+      "field": "lv",
+      "current": "Ü izrunā ar apaļotām lūpām kā i: Müller (müller), Bücher (bücher).",
+      "ownerNew": "Ü se vyslovuje se zaokrouhlenými rty a s jazykem v poloze podobné českému i: Müller (müller), Bücher (bücher).",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "142",
+      "findingId": "kurssLesson10/section[2]/item[3]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson10",
+      "field": "lv",
+      "current": "Patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem.",
+      "ownerNew": "Pravopis následujících souhlásek může často napovědět délku samohlásky.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "144",
+      "findingId": "kurssLesson10/section[2]/item[4]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson10",
+      "field": "lv",
+      "current": "Ja patskanim seko viens līdzskanis, patskani izrunā gari: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
+      "ownerNew": "Následuje-li po samohlásce jedna souhláska, bývá samohláska často dlouhá, nejde však o bezvýjimečné pravidlo: Vögel, Schüler, Bücher.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "145",
+      "findingId": "kurssLesson10/section[2]/item[5]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson10",
+      "field": "lv",
+      "current": "Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir können, der Löffel, der Müller.",
+      "ownerNew": "Následují-li po samohlásce dvě nebo více souhlásek, bývá samohláska často krátká, nejde však o bezvýjimečné pravidlo: wir können, der Löffel, der Müller.",
+      "verdict": "LABOT"
+    },
+    {
+      "findingNum": "148",
+      "findingId": "kurssLesson10/section[2]/item[6]",
+      "file": "data/cs/courseLessons.js",
+      "objectId": "kurssLesson10",
+      "field": "lv",
+      "current": "Český valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nominatīvs, fotogrāfs.",
+      "ownerNew": "Německé o může být krátké nebo dlouhé a jeho výslovnost se liší podle slova, například ve slovech Fonds, Nominativ a Fotograf.",
+      "verdict": "LABOT"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "batchKey": "ui-081-098",
+  "findings": [
+    {
+      "cardId": "kurss.lessonItems.14.title",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "Lekce 14",
+      "reason": "„Přednáška“ means a lecture and is less natural for a lesson-list item. Use „Lekce“; NEEDS_OWNER_REVIEW.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurss.lessonItems.15.title",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "Lekce 15",
+      "reason": "„Přednáška“ means a lecture and is less natural for a lesson-list item. Use „Lekce“; NEEDS_OWNER_REVIEW.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurss.lessonItems.16.title",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "Lekce 16",
+      "reason": "„Přednáška“ means a lecture and is less natural for a lesson-list item. Use „Lekce“; NEEDS_OWNER_REVIEW.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurss.lessonItems.17.title",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "Lekce 17",
+      "reason": "„Přednáška“ means a lecture and is less natural for a lesson-list item. Use „Lekce“; NEEDS_OWNER_REVIEW.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurss.lessonItems.18.title",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "Lekce 18",
+      "reason": "„Přednáška“ means a lecture and is less natural for a lesson-list item. Use „Lekce“; NEEDS_OWNER_REVIEW.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurss.lessonItems.18.menuDesc",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "Wohin / wo, Akkusativ nebo Dativ s an / in / auf.",
+      "reason": "The German preposition is „an“, but the Czech text contains „s“, which means German „mit“. This changes the lesson topic.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurss.lessonItems.19.title",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "Lekce 19",
+      "reason": "„Přednáška“ means a lecture and is less natural for a lesson-list item. Use „Lekce“; NEEDS_OWNER_REVIEW.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurss.lessonItems.20.title",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "Lekce 20",
+      "reason": "„Přednáška“ means a lecture and is less natural for a lesson-list item. Use „Lekce“; NEEDS_OWNER_REVIEW.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurss.lessonItems.21.title",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "Lekce 21",
+      "reason": "„Přednáška“ means a lecture and is less natural for a lesson-list item. Use „Lekce“; NEEDS_OWNER_REVIEW.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "stats": {
+    "model": "gpt-5.6-luna",
+    "requestCount": 3,
+    "initialBatchRequests": 0,
+    "retryRequests": 0,
+    "batchCount": 3,
+    "batchSizes": [
+      40,
+      40,
+      18
+    ],
+    "retryCount": 0,
+    "retryReasons": {},
+    "inputTokens": 7618,
+    "cachedInputTokens": 0,
+    "outputTokens": 9536,
+    "reasoningTokens": 3980,
+    "totalTokens": 17154,
+    "findingsCount": 51,
+    "passCount": 47
+  }
+}
