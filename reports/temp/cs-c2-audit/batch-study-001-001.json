@@ -1,0 +1,12 @@
+{
+  "dataset": "c2",
+  "batch": "study-001-001",
+  "auditType": "vocab_study",
+  "cardCount": 1,
+  "cardIds": [
+    "c2-gewichtseinheit"
+  ],
+  "findings": [],
+  "passCount": 1,
+  "completedAt": "2026-08-10T20:40:08.650Z"
+}
