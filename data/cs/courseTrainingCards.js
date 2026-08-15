@@ -53,7 +53,7 @@ window.lesson2TrainingCardsCs = [
     "back": "Wer fragt?"
   },
   {
-    "front": "Ptá se Pavel.",
+    "front": "Paul se ptá.",
     "back": "Paul fragt."
   },
   {
@@ -61,7 +61,7 @@ window.lesson2TrainingCardsCs = [
     "back": "Sie fragen."
   },
   {
-    "front": "Odpovídá Pavel?",
+    "front": "Odpovídá Paul?",
     "back": "Antwortet Paul?"
   },
   {
@@ -69,7 +69,7 @@ window.lesson2TrainingCardsCs = [
     "back": "Nein, er antwortet nicht, er fragt."
   },
   {
-    "front": "Zpívají Paul a Mary?",
+    "front": "Zpívají Paul a Marie?",
     "back": "Singen Paul und Marie?"
   },
   {
@@ -77,7 +77,7 @@ window.lesson2TrainingCardsCs = [
     "back": "Nein, sie singen nicht, sie rechnen."
   },
   {
-    "front": "Co to děláš",
+    "front": "Co děláš?",
     "back": "Was tust du?"
   },
   {
@@ -85,15 +85,15 @@ window.lesson2TrainingCardsCs = [
     "back": "Ich stehe und singe."
   },
   {
-    "front": "Kreslíš?",
+    "front": "Kreslíte?",
     "back": "Zeichnet ihr?"
   },
   {
-    "front": "Ano, kreslíme, ale Maria hraje.",
+    "front": "Ano, kreslíme, ale Marie si hraje.",
     "back": "Ja, wir zeichnen, aber Marie spielt."
   },
   {
-    "front": "Co to děláš",
+    "front": "Co děláte?",
     "back": "Was tut ihr?"
   },
   {
@@ -101,7 +101,7 @@ window.lesson2TrainingCardsCs = [
     "back": "Wir kommen und antworten."
   },
   {
-    "front": "Co se děje?",
+    "front": "Kdo jde?",
     "back": "Wer geht?"
   },
   {
@@ -120,19 +120,19 @@ window.lesson3TrainingCardsCs = [
     "back": "Nein, ich rechne nicht, ich zeichne."
   },
   {
-    "front": "Kdo tam stojí?",
+    "front": "Co tam stojí?",
     "back": "Was steht dort?"
   },
   {
-    "front": "Je tam stůl.",
+    "front": "Tam stojí stůl.",
     "back": "Dort steht ein Tisch."
   },
   {
-    "front": "Kdo je tady?",
+    "front": "Co zde leží?",
     "back": "Was liegt hier?"
   },
   {
-    "front": "Tady je kniha.",
+    "front": "Zde leží kniha.",
     "back": "Hier liegt ein Buch."
   },
   {
@@ -144,11 +144,11 @@ window.lesson3TrainingCardsCs = [
     "back": "Nein, das Buch ist dick."
   },
   {
-    "front": "Jaký je plán?",
+    "front": "Co je tenké?",
     "back": "Was ist dünn?"
   },
   {
-    "front": "Poštovní schránka je tenká.",
+    "front": "Sešit je tenký.",
     "back": "Das Heft ist dünn."
   },
   {
@@ -168,27 +168,27 @@ window.lesson3TrainingCardsCs = [
     "back": "Der Tisch ist hoch."
   },
   {
-    "front": "Je tam/je tam notebook?",
+    "front": "Leží tam sešit?",
     "back": "Liegt dort ein Heft?"
   },
   {
-    "front": "Ano, je tam notebook.",
+    "front": "Ano, leží tam sešit.",
     "back": "Ja, dort liegt ein Heft."
   },
   {
-    "front": "Přijede Paul?",
+    "front": "Přichází Paul?",
     "back": "Kommt Paul?"
   },
   {
-    "front": "Ne, Pavel nepřichází, on stojí.",
+    "front": "Ne, Paul nepřichází, stojí.",
     "back": "Nein, Paul kommt nicht, er steht."
   },
   {
-    "front": "Co to tu visí?",
+    "front": "Co zde visí?",
     "back": "Was hängt hier?"
   },
   {
-    "front": "Tady visí obrázek.",
+    "front": "Zde visí obraz.",
     "back": "Hier hängt ein Bild."
   },
   {
@@ -196,42 +196,42 @@ window.lesson3TrainingCardsCs = [
     "back": "Was hängt dort?"
   },
   {
-    "front": "Visí tam tabule.",
+    "front": "Tam visí tabule.",
     "back": "Dort hängt eine Tafel."
   }
 ];
 
 window.lesson4TrainingCardsCs = [
   {
-    "front": "Dívka si vezme pírko.",
+    "front": "Dívka bere násadku na pero.",
     "back": "Das Mädchen nimmt einen Federhalter."
   },
   {
-    "front": "Brk není bílý, je černý.",
+    "front": "Násadka na pero není bílá, je černá.",
     "back": "Der Federhalter ist nicht weiß, er ist schwarz."
   },
   {
-    "front": "Pavel bere pírko.",
+    "front": "Pavel bere pero.",
     "back": "Paul nimmt eine Feder."
   },
   {
-    "front": "Co je to peříčko?",
+    "front": "Jaké je pero?",
     "back": "Wie ist die Feder?"
   },
   {
-    "front": "Je to pírko špičaté?",
+    "front": "Je pero špičaté?",
     "back": "Ist die Feder spitz?"
   },
   {
-    "front": "Vezme nůž?",
+    "front": "Bere nůž?",
     "back": "Nimmt er ein Messer?"
   },
   {
-    "front": "Ne, bere si peříčko.",
+    "front": "Ne, bere pero.",
     "back": "Nein, er nimmt eine Feder."
   },
   {
-    "front": "Položí pírko.",
+    "front": "Pokládá pero.",
     "back": "Er legt die Feder hin."
   },
   {
@@ -239,11 +239,11 @@ window.lesson4TrainingCardsCs = [
     "back": "Ist das Messer stumpf?"
   },
   {
-    "front": "Ne, je to ostré.",
+    "front": "Ne, je ostrý.",
     "back": "Nein, es ist scharf."
   },
   {
-    "front": "Co ta holka dělá?",
+    "front": "Co dělá dívka?",
     "back": "Was tut das Mädchen?"
   },
   {
@@ -251,7 +251,7 @@ window.lesson4TrainingCardsCs = [
     "back": "Es geht hinaus und arbeitet."
   },
   {
-    "front": "Co předvádí Olga?",
+    "front": "Co ukazuje Olga?",
     "back": "Was zeigt Olga?"
   },
   {
@@ -259,7 +259,7 @@ window.lesson4TrainingCardsCs = [
     "back": "Olga zeigt ein Buch."
   },
   {
-    "front": "Jaká je kniha",
+    "front": "Jaká je kniha?",
     "back": "Wie ist das Buch?"
   },
   {
@@ -270,15 +270,15 @@ window.lesson4TrainingCardsCs = [
 
 window.lesson5TrainingCardsCs = [
   {
-    "front": "Co miluje otec?",
+    "front": "Koho miluje otec?",
     "back": "Wen liebt der Vater?"
   },
   {
-    "front": "Co paní učitelka chválí?",
+    "front": "Koho chválí učitelka?",
     "back": "Wen lobt die Lehrerin?"
   },
   {
-    "front": "Co si vezmeš",
+    "front": "Co bereš?",
     "back": "Was nimmst du?"
   },
   {
@@ -286,7 +286,7 @@ window.lesson5TrainingCardsCs = [
     "back": "Wen fragst du?"
   },
   {
-    "front": "Co vydělává učitel?",
+    "front": "Koho učitel kárá?",
     "back": "Wen tadelt der Lehrer?"
   },
   {
@@ -294,27 +294,27 @@ window.lesson5TrainingCardsCs = [
     "back": "Der Lehrer fragt den Schüler."
   },
   {
-    "front": "Jak student odpoví?",
+    "front": "Jak žák odpovídá?",
     "back": "Wie antwortet der Schüler?"
   },
   {
-    "front": "Student špatně odpovídá.",
+    "front": "Žák odpovídá špatně.",
     "back": "Der Schüler antwortet schlecht."
   },
   {
-    "front": "Odpovídá student špatně?",
+    "front": "Odpovídá žákyně špatně?",
     "back": "Antwortet die Schülerin schlecht?"
   },
   {
-    "front": "Ne, studentka neodpovídá špatně, ona odpovídá dobře.",
+    "front": "Ne, žákyně neodpovídá špatně, odpovídá dobře.",
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
-    "front": "Dívka si vezme brk, pírko a nůž.",
+    "front": "Dívka bere násadku na pero, pero a nůž.",
     "back": "Das Mädchen nimmt den Federhalter, die Feder und das Messer."
   },
   {
-    "front": "Položí nůž a brk.",
+    "front": "Pokládá nůž a násadku na pero.",
     "back": "Sie legt das Messer und den Federhalter hin."
   },
   {
@@ -326,7 +326,7 @@ window.lesson5TrainingCardsCs = [
     "back": "Wie ist das Kind?"
   },
   {
-    "front": "Dítě je upovídané.",
+    "front": "Dítě je hodné.",
     "back": "Das Kind ist artig."
   },
   {
@@ -345,23 +345,23 @@ window.lesson6TrainingCardsCs = [
     "back": "Was zeichnet er?"
   },
   {
-    "front": "Nakreslí kbelík.",
+    "front": "Kreslí kbelík.",
     "back": "Er zeichnet einen Eimer."
   },
   {
-    "front": "Kdo kreslí vozík?",
+    "front": "Kdo kreslí vůz?",
     "back": "Wer zeichnet einen Wagen?"
   },
   {
-    "front": "Dívka kreslí saně.",
+    "front": "Dívka kreslí sáně.",
     "back": "Das Mädchen zeichnet einen Schlitten."
   },
   {
-    "front": "Kolik je tam jehel?",
+    "front": "Kolik je zde jehel?",
     "back": "Wieviel Nadeln sind hier?"
   },
   {
-    "front": "Je zde šest jehel.",
+    "front": "Zde je šest jehel.",
     "back": "Hier sind sechs Nadeln."
   },
   {
@@ -373,7 +373,7 @@ window.lesson6TrainingCardsCs = [
     "back": "Ich nehme drei Nadeln."
   },
   {
-    "front": "Položil jsem dvě jehly.",
+    "front": "Pokládám dvě jehly.",
     "back": "Ich lege zwei Nadeln hin."
   },
   {
@@ -381,19 +381,19 @@ window.lesson6TrainingCardsCs = [
     "back": "Wer zählt die Messer und die Teller?"
   },
   {
-    "front": "Je to kryt.",
+    "front": "To je víko.",
     "back": "Das ist ein Deckel."
   },
   {
-    "front": "Toto jsou kryty.",
+    "front": "To jsou víka.",
     "back": "Das sind Deckel."
   },
   {
-    "front": "Je to peříčko.",
+    "front": "To je pero.",
     "back": "Das ist eine Feder."
   },
   {
-    "front": "Jsou to peří.",
+    "front": "To jsou pera.",
     "back": "Das sind Federn."
   },
   {
@@ -401,7 +401,7 @@ window.lesson6TrainingCardsCs = [
     "back": "Was tut der Lehrer?"
   },
   {
-    "front": "Učitel vezme nůž a ostří tužku.",
+    "front": "Učitel bere nůž a ořezává tužku.",
     "back": "Der Lehrer nimmt ein Messer und spitzt den Bleistift an."
   },
   {
@@ -409,15 +409,15 @@ window.lesson6TrainingCardsCs = [
     "back": "Was ist das?"
   },
   {
-    "front": "Je opeřený.",
+    "front": "To je násadka na pero.",
     "back": "Das ist ein Federhalter."
   },
   {
-    "front": "Co je opeřený?",
+    "front": "Jaká je násadka na pero?",
     "back": "Wie ist der Federhalter?"
   },
   {
-    "front": "Brk je černý.",
+    "front": "Násadka na pero je černá.",
     "back": "Der Federhalter ist schwarz."
   }
 ];
