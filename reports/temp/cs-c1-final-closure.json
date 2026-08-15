@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "date": "2026-08-15T09:50:08.095Z",
+    "branch": "cursor/cs-c1-final-closure-6ea4",
+    "closureCommit": "79a9ef45a7b9429af2e2bb103d30ea6726ba2f49",
+    "targetedRegressionCommit": "ab324d1a63b3cf9dffb5b4e0d2d379b7d55eeb8a",
+    "mode": "READ-ONLY"
+  },
+  "owner": {
+    "pass": true,
+    "exact": 265,
+    "drift": 0,
+    "cardNotFound": 0,
+    "fieldNotFound": 0,
+    "conflict": 0
+  },
+  "targeted": {
+    "pass": true,
+    "expected": {
+      "changedMappings": 265,
+      "uniqueChangedCards": 222,
+      "mainTranslationFields": 208,
+      "studyFields": 57,
+      "studyCardsChecked": 14,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "validatedReal": 0,
+      "falsePositive": 2,
+      "sourceDeIssue": 0,
+      "targetedRegressionPass": true
+    },
+    "actual": {
+      "changedMappings": 265,
+      "uniqueChangedCards": 222,
+      "mainTranslationFields": 208,
+      "studyFields": 57,
+      "studyCardsChecked": 14,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "validatedReal": 0,
+      "falsePositive": 2,
+      "sourceDeIssue": 0,
+      "targetedRegressionPass": true
+    },
+    "source": "/workspace/reports/cs-c1-targeted-regression.md",
+    "auditCommit": "ab324d1a63b3cf9dffb5b4e0d2d379b7d55eeb8a"
+  },
+  "falsePositives": {
+    "pass": true,
+    "results": [
+      {
+        "cardId": "c1-zusammenstellen-557",
+        "de": "zusammenstellen",
+        "field": "csText",
+        "classification": "PROJECT_CONVENTION",
+        "note": "Capitalized Czech infinitive matches C1 project convention; Luna lowercase rule rejected.",
+        "documented": true,
+        "validationStatus": "FALSE_POSITIVE",
+        "current": "Sestavit",
+        "pass": true
+      },
+      {
+        "cardId": "c1-Volksbefragung-537",
+        "de": "Volksbefragung",
+        "field": "csText",
+        "classification": "LV_MIRROR_SYNONYM",
+        "note": "OWNER-approved bullet list mirrors LV source (visas tautas aptauja • referendums); Referendum segment retained.",
+        "documented": true,
+        "validationStatus": "FALSE_POSITIVE",
+        "current": "Veřejná konzultace • Referendum",
+        "pass": true
+      }
+    ]
+  },
+  "integrity": {
+    "cardCount": 572,
+    "syntax": "PASS",
+    "idOrder": "PASS",
+    "mirrorParity": "PASS",
+    "deChanges": 0,
+    "deIntegrity": "PASS",
+    "unexpectedProductionChanges": 0,
+    "sinceTargetedRegression": 0,
+    "targetedRegressionCsHash": "e9e69b5ed7463ee4ef009593f6e5d86826c6151a2af336b789930a19bb653a0a",
+    "csHash": "e9e69b5ed7463ee4ef009593f6e5d86826c6151a2af336b789930a19bb653a0a",
+    "deHash": "2e6d3ca0351fc050106ef5bd64d4792d3970f8058c7c7ec651b23d6e56ce0d54"
+  },
+  "checks": [
+    {
+      "name": "owner_repair",
+      "pass": true
+    },
+    {
+      "name": "targeted_regression_reconfirm",
+      "pass": true
+    },
+    {
+      "name": "false_positives",
+      "pass": true
+    },
+    {
+      "name": "integrity",
+      "pass": true
+    },
+    {
+      "name": "closure_immutability",
+      "pass": true
+    }
+  ],
+  "allPass": true
+}
