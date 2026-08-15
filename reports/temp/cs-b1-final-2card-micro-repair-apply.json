@@ -1,0 +1,49 @@
+{
+  "baselineSha": "f4e8430a35ad7bb19dba28918941d63865b4f029",
+  "applySha": null,
+  "summary": {
+    "targets": 2,
+    "currentMatches": 2,
+    "applied": 2,
+    "exactTargetMatches": 2,
+    "currentValueMismatch": 0,
+    "diverged": 0,
+    "missing": 0,
+    "deChanges": 0,
+    "outOfScopeB1Changes": 0,
+    "unexpectedProductionChanges": 0,
+    "b1Total": 3367,
+    "idUniqueness": "PASS",
+    "idOrder": "PASS",
+    "syntax": "PASS",
+    "importLoad": "PASS",
+    "structure": "PASS",
+    "studyStructure": "PASS",
+    "sectionAccentsStructure": "PASS",
+    "overall": "PASS"
+  },
+  "results": [
+    {
+      "cardId": "b1-inhalt",
+      "productionIndex": 1709,
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "b1-sowie-2660",
+      "productionIndex": 2660,
+      "status": "APPLIED"
+    }
+  ],
+  "cardExact": {
+    "b1-inhalt": true,
+    "b1-sowie-2660": true
+  },
+  "sowieStructure": {
+    "studyIsObject": true,
+    "layout": true,
+    "hasId": true,
+    "hasSectionAccents": true,
+    "studyId": "b1-sowie"
+  },
+  "specPath": "scripts/cs-b1-final-2card-micro-repair-spec.json"
+}
