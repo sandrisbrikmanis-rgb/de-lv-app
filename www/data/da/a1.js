@@ -53,6 +53,10 @@ const A1_WORDS = [
         {
           "de": "Wir sprechen über die Arbeit.",
           "lv": "Vi taler om arbejde."
+        },
+        {
+          "de": "Sie spricht mit ihrer Lehrerin.",
+          "lv": "Viņa runā ar savu skolotāju."
         }
       ],
       "comparison": [
@@ -143,11 +147,11 @@ const A1_WORDS = [
           "lv": "Værelset ist klein."
         },
         {
-          "de": "Das Zimmer ist klein.",
+          "de": "Das Kind ist noch klein.",
           "lv": "Værelset ist klein."
         },
         {
-          "de": "Das Kind ist noch klein.",
+          "de": "Ich habe eine kleine Tasche.",
           "lv": "Barnet er stadig lille."
         },
         {
@@ -690,7 +694,7 @@ const A1_WORDS = [
         {
           "word": "sondern",
           "meaning": "Ikke • Men",
-          "example": "Ich wollte Tee, sondern Kaffee. – Jeg ville have te, ikke kaffe."
+          "example": "Ich wollte keinen Tee, sondern Kaffee. – Jeg ville have te, ikke kaffe."
         },
         {
           "word": "jedoch",
@@ -1144,11 +1148,11 @@ const A1_WORDS = [
           "lv": "Jeg kommer også."
         },
         {
-          "de": "Ich komme auch.",
+          "de": "Sie arbeitet auch hier.",
           "lv": "Jeg kommer også"
         },
         {
-          "de": "Sie arbeitet auch hier.",
+          "de": "Ich wünsche Ihnen auch einen schönen Tag.",
           "lv": "Hun arbejder også her."
         }
       ],
@@ -2432,17 +2436,17 @@ const A1_WORDS = [
         {
           "word": "bis",
           "meaning": "Indtil (tidspunktet er nået)",
-          "example": "Ich bleibe bis 18 Uhr. – Jeg bliver til 18:00."
+          "example": "Ich bleibe bis morgen. – Jeg bliver til 18:00."
         },
         {
-          "word": "bis ... zu",
+          "word": "bis zu",
           "meaning": "Indtil (indtil et bestemt tidspunkt)",
-          "example": "Ich arbeite von 9 bis 17 Uhr. – Jeg arbejder fra 9 til 17."
+          "example": "bis zum Bahnhof – Jeg arbejder fra 9 til 17."
         },
         {
-          "word": "bis dass",
+          "word": "bis jetzt",
           "meaning": "Indtil",
-          "example": "Ich warte, bis dass du kommst. – Jeg venter på, at du kommer."
+          "example": "Bis jetzt habe ich nichts verstanden. – Jeg venter på, at du kommer."
         },
         {
           "word": "bis jetzt",
@@ -2579,15 +2583,15 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Bitte schön!",
-          "lv": "Behage!"
-        },
-        {
-          "de": "Bitte schön!",
-          "lv": "Behage!"
-        },
-        {
           "de": "Eine Tasse Kaffee, bitte.",
+          "lv": "Behage!"
+        },
+        {
+          "de": "Komm bitte herein.",
+          "lv": "Behage!"
+        },
+        {
+          "de": "Bitte schön!",
           "lv": "En kop kaffe, tak."
         },
         {
@@ -2705,7 +2709,19 @@ const A1_WORDS = [
             ]
           }
         ]
-      }
+      },
+      "comparison": [
+        {
+          "word": "bitte",
+          "meaning": "lūdzu",
+          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+        },
+        {
+          "word": "die Bitte",
+          "meaning": "lūgums",
+          "example": "Ich habe eine Bitte. – Man ir lūgums."
+        }
+      ]
     }
   },
   {
@@ -2734,11 +2750,11 @@ const A1_WORDS = [
           "lv": "Jeg har en anmodning."
         },
         {
-          "de": "Bitte schön!",
+          "de": "Er erfüllt meine Bitte.",
           "lv": "Behage!"
         },
         {
-          "de": "Eine Tasse Kaffee, bitte.",
+          "de": "Sie hat zwei Bitten.",
           "lv": "En kop kaffe, tak."
         },
         {
@@ -2843,7 +2859,19 @@ const A1_WORDS = [
         "important": [
           {}
         ]
-      }
+      },
+      "comparison": [
+        {
+          "word": "die Bitte",
+          "meaning": "lūgums",
+          "example": "Ich habe eine Bitte. – Man ir lūgums."
+        },
+        {
+          "word": "bitte",
+          "meaning": "lūdzu",
+          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+        }
+      ]
     }
   },
   {
@@ -3166,15 +3194,15 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Bring mir bitte Wasser.",
+          "de": "Ich bringe dir ein Buch.",
           "lv": "Bring mig venligst vand"
         },
         {
-          "de": "Ich bringe dich nach Hause.",
+          "de": "Ich bringe das Paket zur Post.",
           "lv": "Jeg tager dig hjem"
         },
         {
-          "de": "Er bringt das Buch zur Schule.",
+          "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Han tager bogen med i skole."
         },
         {
@@ -3186,22 +3214,27 @@ const A1_WORDS = [
         {
           "word": "bringen",
           "meaning": "Medbring/tag/lever",
-          "example": "Bring mir Wasser."
+          "example": "Ich bringe dir ein Buch. – Bring mir Wasser."
+        },
+        {
+          "word": "bringen",
+          "meaning": "At tage / at tage",
+          "example": "Ich bringe das Paket zur Post. – Ich nehme das Buch."
+        },
+        {
+          "word": "bringen",
+          "meaning": "Gå efter/hent",
+          "example": "Ich bringe die Kinder zur Schule. – Ich hole Wasser."
+        },
+        {
+          "word": "bringen",
+          "meaning": "Tag væk og medbring",
+          "example": "Ich bringe dir ein Buch. – Bringst du Brot mit?"
         },
         {
           "word": "nehmen",
-          "meaning": "At tage / at tage",
-          "example": "Ich nehme das Buch."
-        },
-        {
-          "word": "holen",
-          "meaning": "Gå efter/hent",
-          "example": "Ich hole Wasser."
-        },
-        {
-          "word": "mitbringen",
-          "meaning": "Tag væk og medbring",
-          "example": "Bringst du Brot mit?"
+          "meaning": "paņemt",
+          "example": "Ich nehme das Buch. – Es paņemu grāmatu."
         }
       ],
       "tip": {
@@ -4262,7 +4295,7 @@ const A1_WORDS = [
           "lv": "Denne mand er flink."
         },
         {
-          "de": "Ich mag diesen Hund.",
+          "de": "Ich sehe diesen Hund.",
           "lv": "Jeg kan godt lide denne hund"
         },
         {
@@ -4458,6 +4491,10 @@ const A1_WORDS = [
         {
           "de": "Er sucht einen Stift.",
           "lv": "Han leder efter en kuglepen."
+        },
+        {
+          "de": "Ein Kind spielt.",
+          "lv": "Bērns spēlējas."
         }
       ],
       "tip": {
@@ -4566,6 +4603,28 @@ const A1_WORDS = [
       "important": [
         "ein er ikke en bestemt artikel.",
         "Hvis sagen allerede er konkret kendt, er der ofte behov for der, die eller das."
+      ],
+      "comparison": [
+        {
+          "word": "ein Mann",
+          "meaning": "vīriešu dzimte",
+          "example": "Ein Mann wartet draußen."
+        },
+        {
+          "word": "eine Frau",
+          "meaning": "sieviešu dzimte",
+          "example": "eine Frau"
+        },
+        {
+          "word": "ein Buch",
+          "meaning": "vidus dzimte",
+          "example": "Ich habe ein Buch."
+        },
+        {
+          "word": "einen Mann",
+          "meaning": "akuzatīvs",
+          "example": "einen Mann"
+        }
       ]
     }
   },
@@ -4621,22 +4680,22 @@ const A1_WORDS = [
         {
           "word": "das Eis",
           "meaning": "Is / is",
-          "example": "Ich esse ein Eis. = Jeg spiser is."
+          "example": "Ich esse ein Eis. = Es ēdu saldējumu."
         },
         {
           "word": "der Schnee",
           "meaning": "Det vil sne",
-          "example": "Der Schnee ist weiß. = Sneen er hvid."
+          "example": "Der Schnee ist weiß. = Sniegs ir balts."
         },
         {
           "word": "kalt",
           "meaning": "Kold",
-          "example": "Das Wasser ist kalt. = Vandet er koldt."
+          "example": "Das Wasser ist kalt. = Ūdens ir auksts."
         },
         {
           "word": "das Dessert",
           "meaning": "Dessert",
-          "example": "Eis ist ein Dessert. = Is er en dessert."
+          "example": "Eis ist ein Dessert. = Saldējums ir deserts."
         }
       ],
       "tip": {
@@ -4866,7 +4925,7 @@ const A1_WORDS = [
       "explanation": "\"erst\" bruges til at angive sekvens (først) eller for at understrege, at noget sker senere end forventet eller i mindre omfang (kun).",
       "examples": [
         {
-          "de": "Erst trinken, dann fahren.",
+          "de": "Erst lernen, dann spielen.",
           "lv": "Drik først, kør så."
         },
         {
@@ -4886,22 +4945,22 @@ const A1_WORDS = [
         {
           "word": "erst",
           "meaning": "Først • Kun",
-          "example": "Erst arbeiten, dann Pause. = Arbejd først, så pause."
+          "example": "Erst lernen, dann spielen. – Erst arbeiten, dann Pause. = Arbejd først, så pause."
         },
         {
           "word": "zuerst",
           "meaning": "Først • I begyndelsen",
-          "example": "Zuerst frühstücken wir. = Først spiser vi morgenmad."
+          "example": "Zuerst frühstücken wir. = Vispirms mēs brokastojam."
         },
         {
           "word": "nur",
           "meaning": "Kun",
-          "example": "Ich habe nur 5 Euro. = Jeg har kun 5 euro."
+          "example": "Ich habe nur 5 Euro. = Man ir tikai 5 eiro."
         },
         {
           "word": "dann",
           "meaning": "Så",
-          "example": "Dann gehen wir nach Hause. = Så går vi hjem."
+          "example": "Dann gehen wir nach Hause. = Tad mēs ejam mājās."
         }
       ],
       "tip": {
@@ -5051,19 +5110,19 @@ const A1_WORDS = [
       "explanation": "Tysk \"jeg\" er ikke vant til at tale om sig selv. Det bruges til at betegne: det, det eller en upersonlig form (vejr, tid, forskellige upersonlige sætninger).",
       "examples": [
         {
-          "de": "Ich lerne Deutsch.",
+          "de": "Es regnet.",
           "lv": "Jeg lærer tysk."
         },
         {
-          "de": "Er ist müde.",
+          "de": "Es ist kalt.",
           "lv": "Han er træt."
         },
         {
-          "de": "Sie arbeitet hier.",
+          "de": "Das Kind schläft.",
           "lv": "Hun arbejder her."
         },
         {
-          "de": "Das ist mein Buch.",
+          "de": "Es ist müde.",
           "lv": "Det er min bog."
         },
         {
@@ -5177,6 +5236,18 @@ const A1_WORDS = [
       "important": [
         "Det tyske jeg er ikke det danske jeg.",
         "Dansk \"I\" på tysk is ich; Tysk es betyder ofte det/det eller er ikke oversat."
+      ],
+      "comparison": [
+        {
+          "word": "es",
+          "meaning": "tas • bezpersoniska forma",
+          "example": "Es regnet. – Līst."
+        },
+        {
+          "word": "ich",
+          "meaning": "es (persona)",
+          "example": "Ich lerne Deutsch. – Es mācos vācu valodu."
+        }
       ]
     }
   },
@@ -5228,22 +5299,22 @@ const A1_WORDS = [
         {
           "word": "etwas",
           "meaning": "Noget/lidt",
-          "example": "Ich brauche etwas. = Jeg har brug for noget."
+          "example": "Ich brauche etwas. = Man kaut kas vajadzīgs."
         },
         {
           "word": "was",
           "meaning": "Noget (i daglig tale)",
-          "example": "Willst du was trinken? = Vil du have noget at drikke?"
+          "example": "Willst du was trinken? = Vai gribi kaut ko dzert?"
         },
         {
           "word": "ein bisschen",
           "meaning": "Lidt",
-          "example": "Ich bin ein bisschen müde. = Jeg er lidt træt."
+          "example": "Ich bin ein bisschen müde. = Es esmu mazliet noguris."
         },
         {
           "word": "nichts",
           "meaning": "Intet",
-          "example": "Ich brauche nichts. = Jeg har ikke brug for noget."
+          "example": "Ich brauche nichts. = Man neko nevajag."
         }
       ],
       "tip": {
@@ -5463,17 +5534,17 @@ const A1_WORDS = [
         {
           "word": "ihr",
           "meaning": "Du",
-          "example": "Ihr seid freundlich. = Du er venlig."
+          "example": "Ihr seid freundlich. = Jūs esat draudzīgi."
         },
         {
           "word": "euch",
           "meaning": "Dig/til dig",
-          "example": "Ich helfe euch. = Jeg hjælper dig."
+          "example": "Ich helfe euch. = Es jums palīdzu."
         },
         {
           "word": "euer",
           "meaning": "Dine",
-          "example": "Das ist euer Haus. = Det er dit hus."
+          "example": "Das ist euer Haus. = Tā ir jūsu māja."
         }
       ],
       "info": [
@@ -5553,7 +5624,7 @@ const A1_WORDS = [
         {
           "word": "laufen",
           "meaning": "Løb / gå",
-          "example": "Er läuft hurtigt."
+          "example": "Er läuft schnell."
         },
         {
           "word": "bringen",
@@ -5870,7 +5941,8 @@ const A1_WORDS = [
     "de": "Wochenende",
     "de_article": "das",
     "lv": "Weekenden",
-    "level": "A1"
+    "level": "A1",
+    "de_plural": "die Wochenenden"
   },
   {
     "de": "Fernseher",
@@ -5919,15 +5991,15 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ich finde meinen Schlüssel nicht.",
+          "de": "Ich finde meinen Schlüssel.",
           "lv": "Jeg kan ikke finde min nøgle"
         },
         {
-          "de": "Hast du dein Handy gefunden?",
+          "de": "Ich finde das gut.",
           "lv": "Fandt du din telefon"
         },
         {
-          "de": "Ich finde das gut.",
+          "de": "Wie findest du den Film?",
           "lv": "Det forekommer mig godt."
         },
         {
@@ -5939,7 +6011,7 @@ const A1_WORDS = [
         {
           "word": "finden",
           "meaning": "Find/overvej",
-          "example": "Ich finde das gut. = Det forekommer mig fint."
+          "example": "Ich finde das gut. = Man tas šķiet labi."
         },
         {
           "word": "suchen",
@@ -6390,7 +6462,8 @@ const A1_WORDS = [
     "de": "Frühstück",
     "de_article": "das",
     "lv": "Morgenmad",
-    "level": "A1"
+    "level": "A1",
+    "de_plural": "die Frühstücke"
   },
   {
     "de": "frühstücken",
@@ -7170,7 +7243,7 @@ const A1_WORDS = [
           "lv": "Huset er stort."
         },
         {
-          "de": "Das Haus ist groß.",
+          "de": "Berlin ist eine große Stadt.",
           "lv": "Huset er stort."
         },
         {
@@ -7523,22 +7596,22 @@ const A1_WORDS = [
         {
           "word": "haben",
           "meaning": "Jeg har",
-          "example": "Ich habe Zeit. = Jeg har tid."
+          "example": "Ich habe Zeit. = Man ir laiks."
         },
         {
           "word": "sein",
           "meaning": "At være",
-          "example": "Ich bin hier. = Jeg er her."
+          "example": "Ich bin hier. = Es esmu šeit."
         },
         {
           "word": "bekommen",
           "meaning": "At modtage",
-          "example": "Ich bekomme ein Geschenk. = Jeg får en gave."
+          "example": "Ich bekomme ein Geschenk. = Es saņemu dāvanu."
         },
         {
           "word": "machen",
           "meaning": "At gøre/lave",
-          "example": "Ich mache das. = Jeg gør det."
+          "example": "Ich mache das. = Es to daru."
         }
       ],
       "tip": {
@@ -7753,22 +7826,22 @@ const A1_WORDS = [
         {
           "word": "halten",
           "meaning": "Hold / stop",
-          "example": "Der Bus hält. = Bussen stopper."
+          "example": "Der Bus hält. = Autobuss pietur."
         },
         {
           "word": "nehmen",
           "meaning": "At tage",
-          "example": "Ich nehme die Tasche. = Jeg tager posen."
+          "example": "Ich nehme die Tasche. = Es ņemu somu."
         },
         {
-          "word": "stoppen",
+          "word": "anhalten",
           "meaning": "At stoppe",
-          "example": "Stoppen Sie das Auto. = Stop bilen."
+          "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
         },
         {
           "word": "denken",
           "meaning": "At tænke",
-          "example": "Ich denke, das ist richtig. = Det tror jeg er rigtigt."
+          "example": "Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi."
         }
       ],
       "tip": {
@@ -8041,22 +8114,27 @@ const A1_WORDS = [
         {
           "word": "heißen",
           "meaning": "At blive kaldt/betyde",
-          "example": "Ich heiße Anna. = Mit navn er Anna."
+          "example": "Ich heiße Anna. = Mani sauc Anna."
         },
         {
           "word": "nennen",
           "meaning": "At ringe/navne",
-          "example": "Er nennt mich Tom. = Han kalder mig Tom."
+          "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
         },
         {
           "word": "bedeuten",
           "meaning": "Betyde",
-          "example": "Was bedeutet das? = Hvad betyder det?"
+          "example": "Was bedeutet das? = Ko tas nozīmē?"
         },
         {
           "word": "rufen",
           "meaning": "Ring/ring",
-          "example": "Ich rufe dich. = Jeg ringer til dig / jeg ringer til dig."
+          "example": "Ich rufe dich. = Es tevi pasaucu."
+        },
+        {
+          "word": "anrufen",
+          "meaning": "zvanīt",
+          "example": "Ich rufe dich an. = Es tev piezvanu."
         }
       ],
       "tip": {
@@ -8290,7 +8368,7 @@ const A1_WORDS = [
           "lv": "Bjerget er højt."
         },
         {
-          "de": "Der Berg ist hoch.",
+          "de": "Das Regal ist zwei Meter hoch.",
           "lv": "Bjerget er højt."
         },
         {
@@ -10138,22 +10216,22 @@ const A1_WORDS = [
         {
           "word": "können",
           "meaning": "Kunne/kende",
-          "example": "Ich kann schwimmen. = Jeg kan svømme."
+          "example": "Ich kann schwimmen. = Es protu peldēt."
         },
         {
           "word": "dürfen",
           "meaning": "At få lov",
-          "example": "Darf ich gehen? = Må jeg gå"
+          "example": "Darf ich gehen? = Vai drīkstu iet?"
         },
         {
           "word": "müssen",
           "meaning": "Behøver/være ja-",
-          "example": "Ich muss lernen. = Jeg skal studere."
+          "example": "Ich muss lernen. = Man jāmācās."
         },
         {
           "word": "wissen",
           "meaning": "At vide",
-          "example": "Ich weiß das. = Det ved jeg."
+          "example": "Ich weiß das. = Es to zinu."
         }
       ],
       "tip": {
@@ -10371,22 +10449,22 @@ const A1_WORDS = [
         {
           "word": "kosten",
           "meaning": "Betal (pris) • Hvor meget",
-          "example": "Das kostet 5 Euro. = Det koster 5 euro."
+          "example": "Das kostet 5 Euro. = Tas maksā 5 eiro."
         },
         {
           "word": "bezahlen",
           "meaning": "Betal • Betal (penge)",
-          "example": "Ich bezahle die Rechnung. = Jeg betaler regningen."
+          "example": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
         },
         {
           "word": "zahlen",
           "meaning": "At betale • At betale",
-          "example": "Kann ich bar zahlen? = Kan jeg betale kontant?"
+          "example": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
         },
         {
           "word": "Was kostet...?",
           "meaning": "Hvor meget koster det...?",
-          "example": "Was kostet das Buch? = Hvor meget koster bogen?"
+          "example": "Was kostet das Buch? = Cik maksā grāmata?"
         }
       ],
       "tip": [
@@ -11562,7 +11640,7 @@ const A1_WORDS = [
         {
           "word": "laufen",
           "meaning": "Kør/betjen",
-          "example": "Er läuft hurtigt."
+          "example": "Er läuft schnell."
         },
         {
           "word": "gehen",
@@ -20136,7 +20214,7 @@ const A1_WORDS = [
         {
           "word": "über",
           "meaning": "Over / for",
-          "example": "Die Lampe hænger over dem Tisch."
+          "example": "Die Lampe hängt über dem Tisch."
         },
         {
           "word": "zwischen",
@@ -23334,17 +23412,17 @@ const A1_WORDS = [
         {
           "word": "fernsehen",
           "meaning": "Se tv",
-          "example": "Ich sehe fern. = Jeg ser fjernsyn."
+          "example": "Ich sehe fern. = Es skatos televīziju."
         },
         {
           "word": "das Fernsehen",
           "meaning": "Fjernsyn (medier)",
-          "example": "Im Fernsehen läuft ein film. = Der vises en film på tv."
+          "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
         },
         {
           "word": "sehen",
           "meaning": "At se",
-          "example": "Ich sehe einen Film. = Jeg ser en film."
+          "example": "Ich sehe einen Film. = Es redzu filmu."
         }
       ],
       "tip": {

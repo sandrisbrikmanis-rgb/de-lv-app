@@ -7727,17 +7727,17 @@ const B2_WORDS = [
         {
           "word": "das Hochwasser",
           "meaning": "Poplava • Visok vodostaj",
-          "example": "Es gibt Hochwasser. = Došlo je do poplave."
+          "example": "Es gibt Hochwasser. = Ir plūdi."
         },
         {
           "word": "die Überschwemmung",
           "meaning": "Poplava (specifična)",
-          "example": "Die Überschwemmung zerstörte Häuser. = Poplave su uništile kuće."
+          "example": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas."
         },
         {
           "word": "der Pegel",
           "meaning": "Nivo vode",
-          "example": "Der Pegel steigt. = Nivo vode raste."
+          "example": "Der Pegel steigt. = Ūdens līmenis ceļas."
         }
       ],
       "tip": {
@@ -9230,17 +9230,17 @@ const B2_WORDS = [
         {
           "word": "Nachdruck legen auf",
           "meaning": "Naglasiti, insistirati",
-          "example": "Er legt Nachdruck auf die Frist. = Ističe rok."
+          "example": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu."
         },
         {
           "word": "der Nachdruck (Buch)",
           "meaning": "Ponovljeno izdanje",
-          "example": "Der Nachdruck erschien im Frühjahr. = Reizdanje je izašlo na proljeće."
+          "example": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī."
         },
         {
           "word": "der Druck",
           "meaning": "Pritisak / print",
-          "example": "Unter Druck stehen = Biti pod pritiskom."
+          "example": "Unter Druck stehen = būt spiedienā."
         }
       ],
       "tip": [
@@ -14324,17 +14324,17 @@ const B2_WORDS = [
         {
           "word": "zuweisen",
           "meaning": "Dodijeliti • Rasporediti",
-          "example": "Er weist die Aufgabe zu. = On dodjeljuje zadatak."
+          "example": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu."
         },
         {
           "word": "geben",
           "meaning": "Dati",
-          "example": "Er gibt mir die Arbeit. = On mi daje posao."
+          "example": "Er gibt mir die Arbeit. = Viņš man dod darbu."
         },
         {
           "word": "verteilen",
           "meaning": "Podijeliti",
-          "example": "Er verteilt die Aufgaben. = On dijeli zadatke."
+          "example": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus."
         }
       ],
       "tip": {
@@ -14435,22 +14435,22 @@ const B2_WORDS = [
         {
           "word": "zuwider (+ Dat.)",
           "meaning": "Protiv • Suprotno",
-          "example": "mir zuwider = Protiv moje volje"
+          "example": "mir zuwider = pret manu gribu"
         },
         {
           "word": "jemandem zuwider sein",
           "meaning": "Nekome se to ne sviđa",
-          "example": "Es ist mir zuwider. = Ne sviđa mi se."
+          "example": "Es ist mir zuwider. = Man tas nepatīk."
         },
         {
           "word": "wider",
           "meaning": "Protiv (predlog)",
-          "example": "wider den Willen = Protiv volje"
+          "example": "wider den Willen = pret gribu"
         },
         {
           "word": "widersprechen",
           "meaning": "Protiviti se • Ne slagati se",
-          "example": "Ich widerspreche. = Prigovaram."
+          "example": "Ich widerspreche. = Es iebilstu."
         }
       ],
       "tip": {
@@ -14963,17 +14963,17 @@ const B2_WORDS = [
         {
           "word": "anbieten",
           "meaning": "Aktivno nuditi",
-          "example": "Ich biete Hilfe an. = Nudim pomoć."
+          "example": "Ich biete Hilfe an. = Es piedāvāju palīdzību."
         },
         {
           "word": "bieten",
           "meaning": "Ponuditi • Dati",
-          "example": "Er bietet viel Geld. = Nudi mnogo novca."
+          "example": "Er bietet viel Geld. = Viņš piedāvā daudz naudas."
         },
         {
           "word": "vorschlagen",
           "meaning": "Predložiti",
-          "example": "Ich schlage vor. = Predlažem."
+          "example": "Ich schlage vor. = Es ierosinu."
         }
       ],
       "tip": {

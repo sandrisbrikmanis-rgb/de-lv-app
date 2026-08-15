@@ -14553,7 +14553,7 @@ const B2_WORDS = [
         {
           "word": "jemandem zuwider sein",
           "meaning": "kādam nepatikt",
-          "example": "Es ist mir zuwider. = Ni mi všeč."
+          "example": "Es ist mir zuwider. = Man tas nepatīk."
         },
         {
           "word": "wider",

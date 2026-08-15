@@ -55,7 +55,7 @@ const A1_WORDS = [
           "lv": "Munkáról beszélünk."
         },
         {
-          "de": "Ich spreche Deutsch.",
+          "de": "Sie spricht mit ihrer Lehrerin.",
           "lv": "Beszélek németül"
         }
       ],
@@ -165,11 +165,11 @@ const A1_WORDS = [
           "lv": "A szoba kicsi."
         },
         {
-          "de": "Das Zimmer ist klein.",
+          "de": "Das Kind ist noch klein.",
           "lv": "Kicsi a szoba."
         },
         {
-          "de": "Das Kind ist noch klein.",
+          "de": "Ich habe eine kleine Tasche.",
           "lv": "A gyerek még kicsi."
         },
         {
@@ -754,7 +754,7 @@ const A1_WORDS = [
         {
           "word": "sondern",
           "meaning": "Nem • Hanem",
-          "example": "Ich wollte Tee, sondern Kaffee. – Teát akartam, nem kávét."
+          "example": "Ich wollte keinen Tee, sondern Kaffee. – Teát akartam, nem kávét."
         },
         {
           "word": "jedoch",
@@ -1229,11 +1229,11 @@ const A1_WORDS = [
           "lv": "Én is jövök."
         },
         {
-          "de": "Ich komme auch.",
+          "de": "Sie arbeitet auch hier.",
           "lv": "Én is jövök"
         },
         {
-          "de": "Sie arbeitet auch hier.",
+          "de": "Ich wünsche Ihnen auch einen schönen Tag.",
           "lv": "Ő is itt dolgozik."
         }
       ],
@@ -2646,17 +2646,17 @@ const A1_WORDS = [
         {
           "word": "bis",
           "meaning": "Amíg (elérjük az időpontot)",
-          "example": "Ich bleibe bis 18 Uhr. – ig maradok."
+          "example": "Ich bleibe bis morgen. – ig maradok."
         },
         {
-          "word": "bis ... zu",
+          "word": "bis zu",
           "meaning": "Amíg (egy bizonyos ideig)",
-          "example": "Ich arbeite von 9 bis 17 Uhr. – 17 óráig dolgozom."
+          "example": "bis zum Bahnhof – 17 óráig dolgozom."
         },
         {
-          "word": "bis dass",
+          "word": "bis jetzt",
           "meaning": "-ig",
-          "example": "Ich warte, bis dass du kommst. – Várom, hogy jöjjön."
+          "example": "Bis jetzt habe ich nichts verstanden. – Várom, hogy jöjjön."
         },
         {
           "word": "bis jetzt",
@@ -2805,15 +2805,15 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Bitte schön!",
-          "lv": "Kérem!"
-        },
-        {
-          "de": "Bitte schön!",
-          "lv": "Kérem!"
-        },
-        {
           "de": "Eine Tasse Kaffee, bitte.",
+          "lv": "Kérem!"
+        },
+        {
+          "de": "Komm bitte herein.",
+          "lv": "Kérem!"
+        },
+        {
+          "de": "Bitte schön!",
           "lv": "Egy csésze kávét, kérem."
         },
         {
@@ -2934,7 +2934,19 @@ const A1_WORDS = [
             ]
           }
         ]
-      }
+      },
+      "comparison": [
+        {
+          "word": "bitte",
+          "meaning": "lūdzu",
+          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+        },
+        {
+          "word": "die Bitte",
+          "meaning": "lūgums",
+          "example": "Ich habe eine Bitte. – Man ir lūgums."
+        }
+      ]
     }
   },
   {
@@ -2963,11 +2975,11 @@ const A1_WORDS = [
           "lv": "Egy kérésem van."
         },
         {
-          "de": "Bitte schön!",
+          "de": "Er erfüllt meine Bitte.",
           "lv": "Kérem!"
         },
         {
-          "de": "Eine Tasse Kaffee, bitte.",
+          "de": "Sie hat zwei Bitten.",
           "lv": "Egy csésze kávét, kérem."
         },
         {
@@ -3080,7 +3092,19 @@ const A1_WORDS = [
         "important": [
           {}
         ]
-      }
+      },
+      "comparison": [
+        {
+          "word": "die Bitte",
+          "meaning": "lūgums",
+          "example": "Ich habe eine Bitte. – Man ir lūgums."
+        },
+        {
+          "word": "bitte",
+          "meaning": "lūdzu",
+          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+        }
+      ]
     }
   },
   {
@@ -3424,15 +3448,15 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Bring mir bitte Wasser.",
+          "de": "Ich bringe dir ein Buch.",
           "lv": "Hozz nekem vizet kérlek"
         },
         {
-          "de": "Ich bringe dich nach Hause.",
+          "de": "Ich bringe das Paket zur Post.",
           "lv": "Hazaviszlek"
         },
         {
-          "de": "Er bringt das Buch zur Schule.",
+          "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Beviszi a könyvet az iskolába."
         },
         {
@@ -3444,22 +3468,27 @@ const A1_WORDS = [
         {
           "word": "bringen",
           "meaning": "Hozni / elvinni / szállítani",
-          "example": "Bring mir Wasser."
+          "example": "Ich bringe dir ein Buch. – Bring mir Wasser."
+        },
+        {
+          "word": "bringen",
+          "meaning": "Venni / venni",
+          "example": "Ich bringe das Paket zur Post. – Ich nehme das Buch."
+        },
+        {
+          "word": "bringen",
+          "meaning": "Megy utána / fetch",
+          "example": "Ich bringe die Kinder zur Schule. – Ich hole Wasser."
+        },
+        {
+          "word": "bringen",
+          "meaning": "Elvinni és hozni",
+          "example": "Ich bringe dir ein Buch. – Bringst du Brot mit?"
         },
         {
           "word": "nehmen",
-          "meaning": "Venni / venni",
-          "example": "Ich nehme das Buch."
-        },
-        {
-          "word": "holen",
-          "meaning": "Megy utána / fetch",
-          "example": "Ich hole Wasser."
-        },
-        {
-          "word": "mitbringen",
-          "meaning": "Elvinni és hozni",
-          "example": "Bringst du Brot mit?"
+          "meaning": "paņemt",
+          "example": "Ich nehme das Buch. – Es paņemu grāmatu."
         }
       ],
       "tip": {
@@ -4629,7 +4658,7 @@ const A1_WORDS = [
           "lv": "Kedves ez az ember."
         },
         {
-          "de": "Ich mag diesen Hund.",
+          "de": "Ich sehe diesen Hund.",
           "lv": "Szeretem ezt a kutyát"
         },
         {
@@ -4842,6 +4871,10 @@ const A1_WORDS = [
         {
           "de": "Er sucht einen Stift.",
           "lv": "Tollat ​​keres."
+        },
+        {
+          "de": "Ein Kind spielt.",
+          "lv": "Bērns spēlējas."
         }
       ],
       "tip": {
@@ -4950,6 +4983,28 @@ const A1_WORDS = [
       "important": [
         "ein nav noteiktais artikuls.",
         "Ja lieta jau ir konkrēti zināma, bieži vajag der, die vai das."
+      ],
+      "comparison": [
+        {
+          "word": "ein Mann",
+          "meaning": "vīriešu dzimte",
+          "example": "Ein Mann wartet draußen."
+        },
+        {
+          "word": "eine Frau",
+          "meaning": "sieviešu dzimte",
+          "example": "eine Frau"
+        },
+        {
+          "word": "ein Buch",
+          "meaning": "vidus dzimte",
+          "example": "Ich habe ein Buch."
+        },
+        {
+          "word": "einen Mann",
+          "meaning": "akuzatīvs",
+          "example": "einen Mann"
+        }
       ]
     }
   },
@@ -5005,22 +5060,22 @@ const A1_WORDS = [
         {
           "word": "das Eis",
           "meaning": "Jég / fagylalt",
-          "example": "Ich esse ein Eis. = Fagyit eszem."
+          "example": "Ich esse ein Eis. = Es ēdu saldējumu."
         },
         {
           "word": "der Schnee",
           "meaning": "Havazni fog",
-          "example": "Der Schnee ist weiß. = A hó fehér."
+          "example": "Der Schnee ist weiß. = Sniegs ir balts."
         },
         {
           "word": "kalt",
           "meaning": "Hideg",
-          "example": "Das Wasser ist kalt. = A víz hideg."
+          "example": "Das Wasser ist kalt. = Ūdens ir auksts."
         },
         {
           "word": "das Dessert",
           "meaning": "Desszert",
-          "example": "Eis ist ein Dessert. = A fagylalt desszert."
+          "example": "Eis ist ein Dessert. = Saldējums ir deserts."
         }
       ],
       "tip": {
@@ -5288,7 +5343,7 @@ const A1_WORDS = [
       "explanation": "Az \"erst\" a sorrend jelzésére szolgál (első), vagy annak hangsúlyozására, hogy valami a vártnál később vagy kisebb mértékben (csak) történik.",
       "examples": [
         {
-          "de": "Erst trinken, dann fahren.",
+          "de": "Erst lernen, dann spielen.",
           "lv": "Előbb igyál, aztán vezess."
         },
         {
@@ -5308,22 +5363,22 @@ const A1_WORDS = [
         {
           "word": "erst",
           "meaning": "Először • Csak",
-          "example": "Erst arbeiten, dann Pause. = Először dolgozzon, majd szüneteljen."
+          "example": "Erst lernen, dann spielen. – Erst arbeiten, dann Pause. = Először dolgozzon, majd szüneteljen."
         },
         {
           "word": "zuerst",
           "meaning": "Először • Az elején",
-          "example": "Zuerst frühstücken wir. = Először is reggelizünk."
+          "example": "Zuerst frühstücken wir. = Vispirms mēs brokastojam."
         },
         {
           "word": "nur",
           "meaning": "Csak",
-          "example": "Ich habe nur 5 Euro. = Csak 5 euróm van."
+          "example": "Ich habe nur 5 Euro. = Man ir tikai 5 eiro."
         },
         {
           "word": "dann",
           "meaning": "Majd",
-          "example": "Dann gehen wir nach Hause. = Aztán hazamegyünk."
+          "example": "Dann gehen wir nach Hause. = Tad mēs ejam mājās."
         }
       ],
       "tip": {
@@ -5493,19 +5548,19 @@ const A1_WORDS = [
       "explanation": "A német „én”-t nem szokták önmagáról beszélni. Jelölésére használják: azt, azt vagy egy személytelen alakot (időjárás, idő, különféle személytelen mondatok).",
       "examples": [
         {
-          "de": "Ich lerne Deutsch.",
+          "de": "Es regnet.",
           "lv": "Németül tanulok."
         },
         {
-          "de": "Er ist müde.",
+          "de": "Es ist kalt.",
           "lv": "Fáradt."
         },
         {
-          "de": "Sie arbeitet hier.",
+          "de": "Das Kind schläft.",
           "lv": "Itt dolgozik."
         },
         {
-          "de": "Das ist mein Buch.",
+          "de": "Es ist müde.",
           "lv": "Ez az én könyvem."
         },
         {
@@ -5634,6 +5689,18 @@ const A1_WORDS = [
       "important": [
         "Vācu es nav latviešu “es”.",
         "Latviešu “es” vāciski ir ich; vācu es bieži nozīmē tas/tā vai netiek tulkots."
+      ],
+      "comparison": [
+        {
+          "word": "es",
+          "meaning": "tas • bezpersoniska forma",
+          "example": "Es regnet. – Līst."
+        },
+        {
+          "word": "ich",
+          "meaning": "es (persona)",
+          "example": "Ich lerne Deutsch. – Es mācos vācu valodu."
+        }
       ]
     }
   },
@@ -5685,22 +5752,22 @@ const A1_WORDS = [
         {
           "word": "etwas",
           "meaning": "Valamit / egy kicsit",
-          "example": "Ich brauche etwas. = Szükségem van valamire."
+          "example": "Ich brauche etwas. = Man kaut kas vajadzīgs."
         },
         {
           "word": "was",
           "meaning": "Valami (köznyelvi)",
-          "example": "Willst du was trinken? = Kérsz ​​valamit inni?"
+          "example": "Willst du was trinken? = Vai gribi kaut ko dzert?"
         },
         {
           "word": "ein bisschen",
           "meaning": "Egy kicsit",
-          "example": "Ich bin ein bisschen müde. = Kicsit fáradt vagyok."
+          "example": "Ich bin ein bisschen müde. = Es esmu mazliet noguris."
         },
         {
           "word": "nichts",
           "meaning": "Semmi",
-          "example": "Ich brauche nichts. = Nincs szükségem semmire."
+          "example": "Ich brauche nichts. = Man neko nevajag."
         }
       ],
       "tip": {
@@ -5947,17 +6014,17 @@ const A1_WORDS = [
         {
           "word": "ihr",
           "meaning": "Te",
-          "example": "Ihr seid freundlich. = Barátságos vagy."
+          "example": "Ihr seid freundlich. = Jūs esat draudzīgi."
         },
         {
           "word": "euch",
           "meaning": "Neked / neked",
-          "example": "Ich helfe euch. = Segítek neked."
+          "example": "Ich helfe euch. = Es jums palīdzu."
         },
         {
           "word": "euer",
           "meaning": "A tiéd",
-          "example": "Das ist euer Haus. = Ez a te házad."
+          "example": "Das ist euer Haus. = Tā ir jūsu māja."
         }
       ],
       "info": [
@@ -6385,7 +6452,8 @@ const A1_WORDS = [
     "de": "Wochenende",
     "de_article": "das",
     "lv": "A hétvégét",
-    "level": "A1"
+    "level": "A1",
+    "de_plural": "die Wochenenden"
   },
   {
     "de": "Fernseher",
@@ -6434,15 +6502,15 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ich finde meinen Schlüssel nicht.",
+          "de": "Ich finde meinen Schlüssel.",
           "lv": "Nem találom a kulcsomat"
         },
         {
-          "de": "Hast du dein Handy gefunden?",
+          "de": "Ich finde das gut.",
           "lv": "Megtalálta a telefonját"
         },
         {
-          "de": "Ich finde das gut.",
+          "de": "Wie findest du den Film?",
           "lv": "Nekem jónak tűnik."
         },
         {
@@ -6454,7 +6522,7 @@ const A1_WORDS = [
         {
           "word": "finden",
           "meaning": "Megtalálni / fontolóra venni",
-          "example": "Ich finde das gut. = Nekem jónak tűnik."
+          "example": "Ich finde das gut. = Man tas šķiet labi."
         },
         {
           "word": "suchen",
@@ -6955,7 +7023,8 @@ const A1_WORDS = [
     "de": "Frühstück",
     "de_article": "das",
     "lv": "Reggeli",
-    "level": "A1"
+    "level": "A1",
+    "de_plural": "die Frühstücke"
   },
   {
     "de": "frühstücken",
@@ -7792,7 +7861,7 @@ const A1_WORDS = [
           "lv": "A ház nagy."
         },
         {
-          "de": "Das Haus ist groß.",
+          "de": "Berlin ist eine große Stadt.",
           "lv": "A ház nagy."
         },
         {
@@ -8157,22 +8226,22 @@ const A1_WORDS = [
         {
           "word": "haben",
           "meaning": "Nekem van",
-          "example": "Ich habe Zeit. = Van időm."
+          "example": "Ich habe Zeit. = Man ir laiks."
         },
         {
           "word": "sein",
           "meaning": "Lenni",
-          "example": "Ich bin hier. = Itt vagyok."
+          "example": "Ich bin hier. = Es esmu šeit."
         },
         {
           "word": "bekommen",
           "meaning": "Fogadni",
-          "example": "Ich bekomme ein Geschenk. = Ajándékot kapok."
+          "example": "Ich bekomme ein Geschenk. = Es saņemu dāvanu."
         },
         {
           "word": "machen",
           "meaning": "Csinálni / elkészíteni",
-          "example": "Ich mache das. = Én csinálom."
+          "example": "Ich mache das. = Es to daru."
         }
       ],
       "tip": {
@@ -8406,22 +8475,22 @@ const A1_WORDS = [
         {
           "word": "halten",
           "meaning": "Tartsa / megálljon",
-          "example": "Der Bus hält. = A busz megáll."
+          "example": "Der Bus hält. = Autobuss pietur."
         },
         {
           "word": "nehmen",
           "meaning": "Venni",
-          "example": "Ich nehme die Tasche. = Veszem a táskát."
+          "example": "Ich nehme die Tasche. = Es ņemu somu."
         },
         {
-          "word": "stoppen",
+          "word": "anhalten",
           "meaning": "Megállni",
-          "example": "Stoppen Sie das Auto. = Állítsd meg az autót."
+          "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
         },
         {
           "word": "denken",
           "meaning": "Gondolkodni",
-          "example": "Ich denke, das ist richtig. = Szerintem ez helyes."
+          "example": "Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi."
         }
       ],
       "tip": {
@@ -8713,22 +8782,27 @@ const A1_WORDS = [
         {
           "word": "heißen",
           "meaning": "Nevezni / jelenteni",
-          "example": "Ich heiße Anna. = A nevem Anna."
+          "example": "Ich heiße Anna. = Mani sauc Anna."
         },
         {
           "word": "nennen",
           "meaning": "Hívni / nevet",
-          "example": "Er nennt mich Tom. = Tomnak hív."
+          "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
         },
         {
           "word": "bedeuten",
           "meaning": "Átlagos",
-          "example": "Was bedeutet das? = Ez mit jelent?"
+          "example": "Was bedeutet das? = Ko tas nozīmē?"
         },
         {
           "word": "rufen",
           "meaning": "Hívás / hívás",
-          "example": "Ich rufe dich. = Hívlak / hívlak."
+          "example": "Ich rufe dich. = Es tevi pasaucu."
+        },
+        {
+          "word": "anrufen",
+          "meaning": "zvanīt",
+          "example": "Ich rufe dich an. = Es tev piezvanu."
         }
       ],
       "tip": {
@@ -8978,7 +9052,7 @@ const A1_WORDS = [
           "lv": "A hegy magas."
         },
         {
-          "de": "Der Berg ist hoch.",
+          "de": "Das Regal ist zwei Meter hoch.",
           "lv": "Magas a hegy."
         },
         {
@@ -11007,22 +11081,22 @@ const A1_WORDS = [
         {
           "word": "können",
           "meaning": "Tudni/tudni",
-          "example": "Ich kann schwimmen. = Tudok úszni."
+          "example": "Ich kann schwimmen. = Es protu peldēt."
         },
         {
           "word": "dürfen",
           "meaning": "Hogy megengedjék",
-          "example": "Darf ich gehen? = Mehetek"
+          "example": "Darf ich gehen? = Vai drīkstu iet?"
         },
         {
           "word": "müssen",
           "meaning": "Kell/legyen igen-",
-          "example": "Ich muss lernen. = Tanulnom kell."
+          "example": "Ich muss lernen. = Man jāmācās."
         },
         {
           "word": "wissen",
           "meaning": "Tudni",
-          "example": "Ich weiß das. = Ezt tudom."
+          "example": "Ich weiß das. = Es to zinu."
         }
       ],
       "tip": {
@@ -11264,22 +11338,22 @@ const A1_WORDS = [
         {
           "word": "kosten",
           "meaning": "Fizet (ár) • Mennyi",
-          "example": "Das kostet 5 Euro. = 5 euróba kerül."
+          "example": "Das kostet 5 Euro. = Tas maksā 5 eiro."
         },
         {
           "word": "bezahlen",
           "meaning": "Fizetés • Fizetés (pénz)",
-          "example": "Ich bezahle die Rechnung. = Fizetem a számlát."
+          "example": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
         },
         {
           "word": "zahlen",
           "meaning": "Fizetni • Fizetni",
-          "example": "Kann ich bar zahlen? = Fizethetek készpénzben?"
+          "example": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
         },
         {
           "word": "Was kostet...?",
           "meaning": "Mennyibe kerül...?",
-          "example": "Was kostet das Buch? = Mennyibe kerül a könyv?"
+          "example": "Was kostet das Buch? = Cik maksā grāmata?"
         }
       ],
       "tip": [
@@ -25343,17 +25417,17 @@ const A1_WORDS = [
         {
           "word": "fernsehen",
           "meaning": "Tévét nézni",
-          "example": "Ich sehe fern. = Tévét nézek."
+          "example": "Ich sehe fern. = Es skatos televīziju."
         },
         {
           "word": "das Fernsehen",
           "meaning": "Televízió (média)",
-          "example": "Im Fernsehen läuft ein Film. = Egy filmet vetítenek a tévében."
+          "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
         },
         {
           "word": "sehen",
           "meaning": "Látni",
-          "example": "Ich sehe einen Film. = Látok egy filmet."
+          "example": "Ich sehe einen Film. = Es redzu filmu."
         }
       ],
       "tip": {

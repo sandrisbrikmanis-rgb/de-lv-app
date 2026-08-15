@@ -2432,22 +2432,22 @@ const C1_WORDS = [
         {
           "word": "gelegentlich (Adv.)",
           "meaning": "Иногда • Время от времени",
-          "example": "Er kommt gelegentlich. = Тој доаѓа понекогаш."
+          "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
         },
         {
           "word": "gelegentlich (Adj.)",
           "meaning": "Случайный • Случайный",
-          "example": "ein gelegentlicher Besuch = Случайный визит"
+          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
         },
         {
           "word": "gelegentlich (+ Gen.)",
           "meaning": "Поради",
-          "example": "gelegentlich des Festes = Из-за праздников"
+          "example": "gelegentlich des Festes = svētku sakarā"
         },
         {
           "word": "manchmal",
           "meaning": "Понякога",
-          "example": "Manchmal regnet es. = Иногда идет дождь."
+          "example": "Manchmal regnet es. = Reizēm līst."
         }
       ],
       "tip": {
@@ -3788,17 +3788,17 @@ const C1_WORDS = [
         {
           "word": "wahlberechtigt",
           "meaning": "Со вистинскиот глас",
-          "example": "Er ist wahlberechtigt. = Он имеет право голоса."
+          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
         },
         {
           "word": "wählen",
           "meaning": "Желать • Голосовать",
-          "example": "Ich wähle heute. = Я проголосовал сегодня."
+          "example": "Ich wähle heute. = Es šodien balsoju."
         },
         {
           "word": "der Wähler",
           "meaning": "Избирател",
-          "example": "Der Wähler geht zur Wahl. = Избиратель идет на выборы."
+          "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
         }
       ],
       "tip": {

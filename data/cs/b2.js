@@ -7820,17 +7820,17 @@ const B2_WORDS = [
         {
           "word": "das Hochwasser",
           "meaning": "Povodeň • Vysoká hladina vody",
-          "example": "Es gibt Hochwasser. = Je povodeň."
+          "example": "Es gibt Hochwasser. = Ir plūdi."
         },
         {
           "word": "die Überschwemmung",
           "meaning": "Povodeň (konkrétní)",
-          "example": "Die Überschwemmung zerstörte Häuser. = Povodně zničily domy."
+          "example": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas."
         },
         {
           "word": "der Pegel",
           "meaning": "Vodní hladina",
-          "example": "Der Pegel steigt. = Hladina vody stoupá."
+          "example": "Der Pegel steigt. = Ūdens līmenis ceļas."
         }
       ],
       "tip": {
@@ -9323,17 +9323,17 @@ const B2_WORDS = [
         {
           "word": "Nachdruck legen auf",
           "meaning": "Zdůraznit, trvat na tom",
-          "example": "Er legt Nachdruck auf die Frist. = Zdůrazňuje termín."
+          "example": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu."
         },
         {
           "word": "der Nachdruck (Buch)",
           "meaning": "Znovu vydat",
-          "example": "Der Nachdruck erschien im Frühjahr. = Reedice vyšla na jaře."
+          "example": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī."
         },
         {
           "word": "der Druck",
           "meaning": "Tlak / tisk",
-          "example": "Unter Druck stehen = Být pod tlakem."
+          "example": "Unter Druck stehen = būt spiedienā."
         }
       ],
       "tip": [
@@ -14437,17 +14437,17 @@ const B2_WORDS = [
         {
           "word": "zuweisen",
           "meaning": "Přiřadit • Přidělit",
-          "example": "Er weist die Aufgabe zu. = Zadá úkol."
+          "example": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu."
         },
         {
           "word": "geben",
           "meaning": "Dát",
-          "example": "Er gibt mir die Arbeit. = Dává mi práci."
+          "example": "Er gibt mir die Arbeit. = Viņš man dod darbu."
         },
         {
           "word": "verteilen",
           "meaning": "Rozdělit",
-          "example": "Er verteilt die Aufgaben. = Rozdělí úkoly."
+          "example": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus."
         }
       ],
       "tip": {
@@ -14548,22 +14548,22 @@ const B2_WORDS = [
         {
           "word": "zuwider (+ Dat.)",
           "meaning": "Proti • Opak",
-          "example": "mir zuwider = Proti mé vůli"
+          "example": "mir zuwider = pret manu gribu"
         },
         {
           "word": "jemandem zuwider sein",
           "meaning": "Někomu se to nebude líbit",
-          "example": "Es ist mir zuwider. = Nelíbí se mi to."
+          "example": "Es ist mir zuwider. = Man tas nepatīk."
         },
         {
           "word": "wider",
           "meaning": "Proti (předložka)",
-          "example": "wider den Willen = Proti vůli"
+          "example": "wider den Willen = pret gribu"
         },
         {
           "word": "widersprechen",
           "meaning": "Odporovat • Nesouhlasit",
-          "example": "Ich widerspreche. = Namítám."
+          "example": "Ich widerspreche. = Es iebilstu."
         }
       ],
       "tip": {
@@ -15084,17 +15084,17 @@ const B2_WORDS = [
         {
           "word": "anbieten",
           "meaning": "Nabídka (aktivní)",
-          "example": "Ich biete Hilfe an. = Nabízím pomoc."
+          "example": "Ich biete Hilfe an. = Es piedāvāju palīdzību."
         },
         {
           "word": "bieten",
           "meaning": "Nabídnout • Dát",
-          "example": "Er bietet viel Geld. = Nabízí spoustu peněz."
+          "example": "Er bietet viel Geld. = Viņš piedāvā daudz naudas."
         },
         {
           "word": "vorschlagen",
           "meaning": "Navrhnout",
-          "example": "Ich schlage vor. = Navrhuji."
+          "example": "Ich schlage vor. = Es ierosinu."
         }
       ],
       "tip": {

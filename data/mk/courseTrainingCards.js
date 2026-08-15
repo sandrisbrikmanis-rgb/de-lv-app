@@ -424,51 +424,115 @@ window.lesson6TrainingCardsMk = [
 
 window.lesson7ExerciseCardsMk = [
   {
-    "back": ""
+    "back": "",
+    "infinitive": "fragen",
+    "du": "frag! / frage!",
+    "ihr": "fragt!",
+    "sie": "fragen Sie!"
   },
   {
-    "back": ""
+    "back": "",
+    "infinitive": "antworten",
+    "du": "antworte!",
+    "ihr": "antwortet!",
+    "sie": "antworten Sie!"
   },
   {
-    "back": ""
+    "back": "",
+    "infinitive": "loben",
+    "du": "lob! / lobe!",
+    "ihr": "lobt!",
+    "sie": "loben Sie!"
   },
   {
-    "back": ""
+    "back": "",
+    "infinitive": "lieben",
+    "du": "lieb! / liebe!",
+    "ihr": "liebt!",
+    "sie": "lieben Sie!"
   },
   {
-    "back": ""
+    "back": "",
+    "infinitive": "zählen",
+    "du": "zähl! / zähle!",
+    "ihr": "zählt!",
+    "sie": "zählen Sie!"
   },
   {
-    "back": ""
+    "back": "",
+    "infinitive": "zeigen",
+    "du": "zeig! / zeige!",
+    "ihr": "zeigt!",
+    "sie": "zeigen Sie!"
   },
   {
-    "back": ""
+    "back": "",
+    "infinitive": "zeichnen",
+    "du": "zeichne!",
+    "ihr": "zeichnet!",
+    "sie": "zeichnen Sie!"
   },
   {
-    "back": ""
+    "back": "",
+    "infinitive": "rechnen",
+    "du": "rechne!",
+    "ihr": "rechnet!",
+    "sie": "rechnen Sie!"
   },
   {
-    "back": ""
+    "back": "",
+    "infinitive": "arbeiten",
+    "du": "arbeite!",
+    "ihr": "arbeitet!",
+    "sie": "arbeiten Sie!"
   },
   {
-    "back": ""
+    "back": "",
+    "infinitive": "kommen",
+    "du": "komm! / komme!",
+    "ihr": "kommt!",
+    "sie": "kommen Sie!"
   },
   {
-    "back": ""
+    "back": "",
+    "infinitive": "gehen",
+    "du": "geh! / gehe!",
+    "ihr": "geht!",
+    "sie": "gehen Sie!"
   },
   {
-    "back": ""
+    "back": "",
+    "infinitive": "stehen",
+    "du": "steh! / stehe!",
+    "ihr": "steht!",
+    "sie": "stehen Sie!"
   },
   {
-    "back": ""
+    "back": "",
+    "infinitive": "öffnen",
+    "du": "öffne!",
+    "ihr": "öffnet!",
+    "sie": "öffnen Sie!"
   },
   {
-    "back": ""
+    "back": "",
+    "infinitive": "singen",
+    "du": "sing! / singe!",
+    "ihr": "singt!",
+    "sie": "singen Sie!"
   },
   {
-    "back": ""
+    "back": "",
+    "infinitive": "tun",
+    "du": "tu!",
+    "ihr": "tut!",
+    "sie": "tun Sie!"
   },
   {
-    "back": ""
+    "back": "",
+    "infinitive": "nehmen",
+    "du": "nimm!",
+    "ihr": "nehmt!",
+    "sie": "nehmen Sie!"
   }
 ];

@@ -142,17 +142,17 @@ const B1_WORDS = [
         {
           "word": "anbauen",
           "meaning": "Nő / add",
-          "example": "Wir bauen Gemüse an. = Zöldséget termesztünk."
+          "example": "Wir bauen Gemüse an. = Mēs audzējam dārzeņus."
         },
         {
           "word": "bauen",
           "meaning": "Építeni",
-          "example": "Sie bauen ein Haus. = Házat építenek."
+          "example": "Sie bauen ein Haus. = Viņi būvē māju."
         },
         {
           "word": "pflanzen",
           "meaning": "Ültetni",
-          "example": "Ich pflanze einen Baum. = Fát ültetek."
+          "example": "Ich pflanze einen Baum. = Es stādu koku."
         }
       ],
       "tip": {
@@ -321,17 +321,17 @@ const B1_WORDS = [
         {
           "word": "angeben",
           "meaning": "Rámutat / dicsekszik",
-          "example": "Bitte geben Sie den Namen an. = Adjon meg egy nevet."
+          "example": "Bitte geben Sie den Namen an. = Lūdzu, norādiet vārdu."
         },
         {
           "word": "nennen",
           "meaning": "Megnevezni",
-          "example": "Nennen Sie bitte Ihren Namen. = Kérjük, adja meg a nevét."
+          "example": "Nennen Sie bitte Ihren Namen. = Lūdzu, nosauciet savu vārdu."
         },
         {
           "word": "prahlen",
           "meaning": "Dicsekedni",
-          "example": "Er prahlt mit seinem Erfolg. = Eldicsekedett a sikerével."
+          "example": "Er prahlt mit seinem Erfolg. = Viņš lielās ar saviem panākumiem."
         }
       ],
       "tip": {
@@ -537,17 +537,17 @@ const B1_WORDS = [
         {
           "word": "anbringen",
           "meaning": "Csatolni",
-          "example": "Ich bringe ein Bild an. = Csatolok egy képet."
+          "example": "Ich bringe ein Bild an. = Es piestiprinu attēlu."
         },
         {
           "word": "aufstellen",
           "meaning": "Telepíteni",
-          "example": "Wir stellen ein Regal auf. = Polcot szerelünk fel."
+          "example": "Wir stellen ein Regal auf. = Mēs uzstādām plauktu."
         },
         {
           "word": "befestigen",
           "meaning": "Csatolni",
-          "example": "Wir befestigen das Schild an der Wand. = A falra rögzítjük a táblát."
+          "example": "Wir befestigen das Schild an der Wand. = Mēs piestiprinām zīmi pie sienas."
         }
       ],
       "tip": {
@@ -734,17 +734,17 @@ const B1_WORDS = [
         {
           "word": "abbauen",
           "meaning": "Csökkenteni/lebontani",
-          "example": "Die Firma baut Stellen ab. = A cég csökkenti a munkahelyek számát."
+          "example": "Die Firma baut Stellen ab. = Uzņēmums samazina darba vietu skaitu."
         },
         {
           "word": "aufbauen",
           "meaning": "Építeni / létrehozni",
-          "example": "Wir bauen das Zelt auf. = Sátrat húztunk."
+          "example": "Wir bauen das Zelt auf. = Mēs uzceļam telti."
         },
         {
           "word": "reduzieren",
           "meaning": "Csökkenteni",
-          "example": "Wir reduzieren die Kosten. = Csökkentjük a költségeket."
+          "example": "Wir reduzieren die Kosten. = Mēs samazinām izmaksas."
         }
       ],
       "tip": {
@@ -914,17 +914,17 @@ const B1_WORDS = [
         {
           "word": "abbrechen",
           "meaning": "Letörni / letörni",
-          "example": "Er bricht den Kurs ab. = Megtöri az irányt."
+          "example": "Er bricht den Kurs ab. = Viņš pārtrauc kursu."
         },
         {
           "word": "unterbrechen",
           "meaning": "Állj meg egy pillanatra",
-          "example": "Darf ich Sie kurz unterbrechen? = Megszakíthatom röviden?"
+          "example": "Darf ich Sie kurz unterbrechen? = Vai drīkstu jūs īsi pārtraukt?"
         },
         {
           "word": "beenden",
           "meaning": "Befejezni",
-          "example": "Wir beenden die Arbeit. = Befejezzük a munkát."
+          "example": "Wir beenden die Arbeit. = Mēs pabeidzam darbu."
         }
       ],
       "tip": {
@@ -1076,17 +1076,17 @@ const B1_WORDS = [
         {
           "word": "abdecken",
           "meaning": "Takarja le / takarítsa le az asztalt",
-          "example": "Sie deckt den Tisch ab. = Letakarítja az asztalt."
+          "example": "Sie deckt den Tisch ab. = Viņa novāc galdu."
         },
         {
           "word": "decken",
           "meaning": "Jelen / borító",
-          "example": "Ich decke den Tisch. = Megterítettem."
+          "example": "Ich decke den Tisch. = Es klāju galdu."
         },
         {
           "word": "zudecken",
           "meaning": "Fedezni",
-          "example": "Ich decke das Kind zu. = Letakartam a babát."
+          "example": "Ich decke das Kind zu. = Es apsedzu bērnu."
         }
       ],
       "tip": {
@@ -1274,17 +1274,17 @@ const B1_WORDS = [
         {
           "word": "abgehen",
           "meaning": "Hagyja / hagyja",
-          "example": "Der Zug geht ab. = A vonat indul."
+          "example": "Der Zug geht ab. = Vilciens atiet."
         },
         {
           "word": "weggehen",
           "meaning": "Menj innen",
-          "example": "Sie geht weg. = Elmegy."
+          "example": "Sie geht weg. = Viņa aiziet prom."
         },
         {
           "word": "fehlen",
           "meaning": "Hiányzó",
-          "example": "Mir fehlt nichts. = Nem szenvedek hiányt semmiben."
+          "example": "Mir fehlt nichts. = Man nekā netrūkst."
         }
       ],
       "tip": {
@@ -1610,17 +1610,17 @@ const B1_WORDS = [
         {
           "word": "ablegen",
           "meaning": "Letenni / vizsgát tenni",
-          "example": "Sie legt die Prüfung ab. = Vizsgát vesz."
+          "example": "Sie legt die Prüfung ab. = Viņa kārto eksāmenu."
         },
         {
           "word": "legen",
           "meaning": "Lefektetni",
-          "example": "Ich lege das Buch auf den Tisch. = Letettem a könyvet az asztalra."
+          "example": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
         },
         {
           "word": "ausziehen",
           "meaning": "Lehúzni",
-          "example": "Ich ziehe die Jacke aus. = Leveszem a kabátom."
+          "example": "Ich ziehe die Jacke aus. = Es novelku jaku."
         }
       ],
       "tip": {
@@ -1804,17 +1804,17 @@ const B1_WORDS = [
         {
           "word": "abnehmen",
           "meaning": "Távolítsa el / vékony",
-          "example": "Ich nehme die Brille ab. = Leveszem a szemüvegem."
+          "example": "Ich nehme die Brille ab. = Es noņemu brilles."
         },
         {
           "word": "zunehmen",
           "meaning": "Hízik",
-          "example": "Er hat zugenommen. = Hízott."
+          "example": "Er hat zugenommen. = Viņš ir pieņēmies svarā."
         },
         {
           "word": "wegnehmen",
           "meaning": "Elvenni / elvinni",
-          "example": "Sie nimmt mir das Handy weg. = Elveszi a telefonomat."
+          "example": "Sie nimmt mir das Handy weg. = Viņa man atņem telefonu."
         }
       ],
       "tip": {
@@ -1980,17 +1980,17 @@ const B1_WORDS = [
         {
           "word": "der Absatz",
           "meaning": "Bekezdés / cipősarok / kimenet",
-          "example": "Der Absatz ist kurz. = A bekezdés rövid."
+          "example": "Der Absatz ist kurz. = Rindkopa ir īsa."
         },
         {
           "word": "die Ferse",
           "meaning": "Emberi sarok",
-          "example": "Meine Ferse tut weh. = Fáj a sarkam."
+          "example": "Meine Ferse tut weh. = Man sāp papēdis."
         },
         {
           "word": "der Abschnitt",
           "meaning": "Egy szöveg vagy idő időszaka",
-          "example": "Dieser Abschnitt ist wichtig. = Ez a szakasz fontos."
+          "example": "Dieser Abschnitt ist wichtig. = Šis posms ir svarīgs."
         }
       ],
       "tip": {
@@ -2161,17 +2161,17 @@ const B1_WORDS = [
         {
           "word": "der Abschluss",
           "meaning": "Következtetés / következtetés az oktatás",
-          "example": "Der Abschluss ist wichtig. = A következtetés fontos."
+          "example": "Der Abschluss ist wichtig. = Noslēgums ir svarīgs."
         },
         {
           "word": "das Ende",
           "meaning": "A végét",
-          "example": "Das Ende des Films war traurig. = A film vége szomorú volt."
+          "example": "Das Ende des Films war traurig. = Filmas beigas bija skumjas."
         },
         {
           "word": "die Prüfung",
           "meaning": "Vizsgálat",
-          "example": "Die Prüfung beginnt morgen. = Holnap kezdődik a vizsga."
+          "example": "Die Prüfung beginnt morgen. = Eksāmens sākas rīt."
         }
       ],
       "tip": {
@@ -2318,17 +2318,17 @@ const B1_WORDS = [
         {
           "word": "der Abschnitt",
           "meaning": "Színpad / rész",
-          "example": "Dieser Abschnitt ist wichtig. = Ez a szakasz fontos."
+          "example": "Dieser Abschnitt ist wichtig. = Šis posms ir svarīgs."
         },
         {
           "word": "der Absatz",
           "meaning": "Bekezdés",
-          "example": "Der Absatz ist kurz. = A bekezdés rövid."
+          "example": "Der Absatz ist kurz. = Rindkopa ir īsa."
         },
         {
           "word": "die Phase",
           "meaning": "Fázis",
-          "example": "Die erste Phase ist vorbei. = Az első fázis véget ért."
+          "example": "Die erste Phase ist vorbei. = Pirmā fāze ir beigusies."
         }
       ],
       "tip": {
@@ -2835,17 +2835,17 @@ const B1_WORDS = [
         {
           "word": "die Anlage",
           "meaning": "Létesítmény / beruházás",
-          "example": "Die Anlage ist modern. = A berendezés modern."
+          "example": "Die Anlage ist modern. = Iekārta ir moderna."
         },
         {
           "word": "das Gerät",
           "meaning": "Eszköz",
-          "example": "Das Gerät ist kaputt. = A készülék elromlott."
+          "example": "Das Gerät ist kaputt. = Ierīce ir sabojājusies."
         },
         {
           "word": "die Investition",
           "meaning": "Beruházás",
-          "example": "Die Investition lohnt sich. = A befektetés megtérül."
+          "example": "Die Investition lohnt sich. = Ieguldījums atmaksājas."
         }
       ],
       "tip": {
@@ -3220,17 +3220,17 @@ const B1_WORDS = [
         {
           "word": "der Anschlag",
           "meaning": "Merénylet / bejelentés",
-          "example": "Die Polizei untersucht den Anschlag. = A rendőrség nyomoz a merénylet körül."
+          "example": "Die Polizei untersucht den Anschlag. = Policija izmeklē atentātu."
         },
         {
           "word": "der Angriff",
           "meaning": "Támadás",
-          "example": "Der Angriff kam plötzlich. = A támadás hirtelen kezdődött."
+          "example": "Der Angriff kam plötzlich. = Uzbrukums sākās pēkšņi."
         },
         {
           "word": "die Anzeige",
           "meaning": "Hirdetés / jelentkezés",
-          "example": "Ich lese die Anzeige. = Elolvastam a hirdetést."
+          "example": "Ich lese die Anzeige. = Es lasu sludinājumu."
         }
       ],
       "tip": {
@@ -3379,17 +3379,17 @@ const B1_WORDS = [
         {
           "word": "der Anschluss",
           "meaning": "Kapcsolat / kapcsolat",
-          "example": "Der Anschluss ist schlecht. = Rossz a kapcsolat."
+          "example": "Der Anschluss ist schlecht. = Savienojums ir slikts."
         },
         {
           "word": "die Verbindung",
           "meaning": "Kapcsolat",
-          "example": "Die Verbindung ist stabil. = A kapcsolat stabil."
+          "example": "Die Verbindung ist stabil. = Savienojums ir stabils."
         },
         {
           "word": "der Zugang",
           "meaning": "Hozzáférés",
-          "example": "Ich habe Zugang zum Internet. = Van internet hozzáférésem."
+          "example": "Ich habe Zugang zum Internet. = Man ir piekļuve internetam."
         }
       ],
       "tip": {
@@ -3547,17 +3547,17 @@ const B1_WORDS = [
         {
           "word": "das Ansehen",
           "meaning": "Hírnév",
-          "example": "Er hat großes Ansehen. = Nagyon tisztelik."
+          "example": "Er hat großes Ansehen. = Viņu ļoti ciena."
         },
         {
           "word": "der Ruf",
           "meaning": "Hírnév / hírnév",
-          "example": "Die Firma hat einen guten Ruf. = A cég jó hírnévvel rendelkezik."
+          "example": "Die Firma hat einen guten Ruf. = Uzņēmumam ir laba reputācija."
         },
         {
           "word": "ansehen",
           "meaning": "Óra",
-          "example": "Ich sehe mir den Film an. = Filmet nézek."
+          "example": "Ich sehe mir den Film an. = Es skatos filmu."
         }
       ],
       "tip": {
@@ -3787,17 +3787,17 @@ const B1_WORDS = [
         {
           "word": "der Antrag",
           "meaning": "Pályázat / javaslat",
-          "example": "Der Antrag wurde angenommen. = Az előterjesztést elfogadták."
+          "example": "Der Antrag wurde angenommen. = Iesniegums tika pieņemts."
         },
         {
           "word": "die Bewerbung",
           "meaning": "Álláspályázat",
-          "example": "Meine Bewerbung war erfolgreich. = Az álláspályázatom sikeres volt."
+          "example": "Meine Bewerbung war erfolgreich. = Mans darba pieteikums bija veiksmīgs."
         },
         {
           "word": "das Formular",
           "meaning": "Forma",
-          "example": "Füllen Sie das Formular aus. = Töltse ki az űrlapot."
+          "example": "Füllen Sie das Formular aus. = Aizpildiet veidlapu."
         }
       ],
       "tip": {
@@ -4162,17 +4162,17 @@ const B1_WORDS = [
         {
           "word": "der Auftrag",
           "meaning": "Feladat / parancs",
-          "example": "Ich erledige den Auftrag. = Teljesítem a feladatot."
+          "example": "Ich erledige den Auftrag. = Es izpildu uzdevumu."
         },
         {
           "word": "die Aufgabe",
           "meaning": "Feladat",
-          "example": "Die Aufgabe ist schwer. = A feladat nehéz."
+          "example": "Die Aufgabe ist schwer. = Uzdevums ir grūts."
         },
         {
           "word": "die Bestellung",
           "meaning": "Rendelés",
-          "example": "Die Bestellung kommt morgen. = A rendelés holnap érkezik."
+          "example": "Die Bestellung kommt morgen. = Pasūtījums atnāks rīt."
         }
       ],
       "tip": {
@@ -4321,17 +4321,17 @@ const B1_WORDS = [
         {
           "word": "der Aufwand",
           "meaning": "Erőfeszítés / hozzájárulás",
-          "example": "Der Aufwand ist hoch. = Nagy az erőfeszítés."
+          "example": "Der Aufwand ist hoch. = Pūles ir lielas."
         },
         {
           "word": "die Mühe",
           "meaning": "Erőfeszítések",
-          "example": "Danke für deine Mühe. = Köszönjük erőfeszítéseiket."
+          "example": "Danke für deine Mühe. = Paldies par tavām pūlēm."
         },
         {
           "word": "die Kosten",
           "meaning": "Költségeket",
-          "example": "Die Kosten sind hoch. = A költségek magasak."
+          "example": "Die Kosten sind hoch. = Izmaksas ir augstas."
         }
       ],
       "tip": {
@@ -4491,17 +4491,17 @@ const B1_WORDS = [
         {
           "word": "aufführen",
           "meaning": "Megmutatni / jelezni",
-          "example": "Das Theater führt ein Stück auf. = A színház színdarabot ad elő."
+          "example": "Das Theater führt ein Stück auf. = Teātris uzved lugu."
         },
         {
           "word": "vorführen",
           "meaning": "Demonstrálni",
-          "example": "Er führt das Gerät vor. = Bemutatja a készüléket."
+          "example": "Er führt das Gerät vor. = Viņš demonstrē ierīci."
         },
         {
           "word": "nennen",
           "meaning": "Megnevezni",
-          "example": "Nennen Sie bitte Ihren Namen. = Kérjük, adja meg a nevét."
+          "example": "Nennen Sie bitte Ihren Namen. = Lūdzu, nosauciet savu vārdu."
         }
       ],
       "tip": {
@@ -4659,17 +4659,17 @@ const B1_WORDS = [
         {
           "word": "sich aufhalten",
           "meaning": "Maradni",
-          "example": "Ich halte mich im Hotel auf. = Egy szállodában szállok meg."
+          "example": "Ich halte mich im Hotel auf. = Es uzturos viesnīcā."
         },
         {
           "word": "bleiben",
           "meaning": "Marad",
-          "example": "Ich bleibe zu Hause. = Otthon maradok."
+          "example": "Ich bleibe zu Hause. = Es palieku mājās."
         },
         {
           "word": "aufhalten",
           "meaning": "Késleltetés",
-          "example": "Der Stau hält uns auf. = A forgalom visszatart minket."
+          "example": "Der Stau hält uns auf. = Sastrēgums mūs aizkavē."
         }
       ],
       "tip": {
@@ -4900,17 +4900,17 @@ const B1_WORDS = [
         {
           "word": "die Aussicht",
           "meaning": "Kilátás / kilátás",
-          "example": "Die Aussicht auf Erfolg ist gut. = A siker esélyei jók."
+          "example": "Die Aussicht auf Erfolg ist gut. = Izredzes uz panākumiem ir labas."
         },
         {
           "word": "der Blick",
           "meaning": "Nézet / pillantás",
-          "example": "Der Blick aufs Meer ist schön. = Gyönyörű a kilátás a tengerre."
+          "example": "Der Blick aufs Meer ist schön. = Skats uz jūru ir skaists."
         },
         {
           "word": "die Chance",
           "meaning": "Lehetőséget",
-          "example": "Die Chance ist groß. = A lehetőség nagyszerű."
+          "example": "Die Chance ist groß. = Iespēja ir liela."
         }
       ],
       "tip": {
@@ -5087,17 +5087,17 @@ const B1_WORDS = [
         {
           "word": "die Aussprache",
           "meaning": "Kiejtés / eszmecsere",
-          "example": "Die Aussprache ist schwer. = A kiejtés nehéz."
+          "example": "Die Aussprache ist schwer. = Izruna ir grūta."
         },
         {
           "word": "das Gespräch",
           "meaning": "Beszélgetés",
-          "example": "Wir führen ein Gespräch. = Beszélgetünk."
+          "example": "Wir führen ein Gespräch. = Mēs sarunājamies."
         },
         {
           "word": "die Diskussion",
           "meaning": "Vita",
-          "example": "Die Diskussion war lang. = A vita hosszú volt."
+          "example": "Die Diskussion war lang. = Diskusija bija gara."
         }
       ],
       "tip": {
@@ -5448,17 +5448,17 @@ const B1_WORDS = [
         {
           "word": "ausüben",
           "meaning": "Megvalósítani / hatást gyakorolni",
-          "example": "Sie übt den Beruf aus. = Szakmában dolgozik."
+          "example": "Sie übt den Beruf aus. = Viņa strādā profesijā."
         },
         {
           "word": "machen",
           "meaning": "Tenni",
-          "example": "Ich mache meine Arbeit. = Végzem a munkámat."
+          "example": "Ich mache meine Arbeit. = Es daru savu darbu."
         },
         {
           "word": "beeinflussen",
           "meaning": "Befolyásolni",
-          "example": "Das beeinflusst die Entscheidung. = Ez befolyásolja a döntést."
+          "example": "Das beeinflusst die Entscheidung. = Tas ietekmē lēmumu."
         }
       ],
       "tip": {
@@ -5675,17 +5675,17 @@ const B1_WORDS = [
         {
           "word": "der Auszug",
           "meaning": "Kivonat / kiköltözni",
-          "example": "Ich lese einen Auszug aus dem Buch. = Olvasok egy részt egy könyvből."
+          "example": "Ich lese einen Auszug aus dem Buch. = Es lasu fragmentu no grāmatas."
         },
         {
           "word": "der Umzug",
           "meaning": "Mozgó",
-          "example": "Der Umzug dauert zwei Tage. = A költözés két napig tart."
+          "example": "Der Umzug dauert zwei Tage. = Pārvākšanās ilgst divas dienas."
         },
         {
           "word": "die Zusammenfassung",
           "meaning": "Összefoglaló",
-          "example": "Die Zusammenfassung ist kurz. = Az összefoglaló rövid."
+          "example": "Die Zusammenfassung ist kurz. = Kopsavilkums ir īss."
         }
       ],
       "tip": {
@@ -5993,17 +5993,17 @@ const B1_WORDS = [
         {
           "word": "der Bau",
           "meaning": "Építés / építés / építési terület",
-          "example": "Der Bau beginnt morgen. = Holnap kezdődik az építkezés."
+          "example": "Der Bau beginnt morgen. = Būvniecība sākas rīt."
         },
         {
           "word": "das Gebäude",
           "meaning": "Épület",
-          "example": "Das Gebäude ist neu. = Az épület új."
+          "example": "Das Gebäude ist neu. = Ēka ir jauna."
         },
         {
           "word": "die Baustelle",
           "meaning": "Építkezésen",
-          "example": "Die Baustelle ist laut. = Az építkezés zajos."
+          "example": "Die Baustelle ist laut. = Būvlaukums ir skaļš."
         }
       ],
       "tip": {
@@ -6242,17 +6242,17 @@ const B1_WORDS = [
         {
           "word": "das Becken",
           "meaning": "Medence / tartály / medence",
-          "example": "Das Becken ist voll Wasser. = A medence tele van vízzel."
+          "example": "Das Becken ist voll Wasser. = Baseins ir pilns ar ūdeni."
         },
         {
           "word": "das Schwimmbad",
           "meaning": "Uszoda, mint hely",
-          "example": "Das Schwimmbad ist geöffnet. = Az uszoda nyitva."
+          "example": "Das Schwimmbad ist geöffnet. = Peldbaseins ir atvērts."
         },
         {
           "word": "die Schüssel",
           "meaning": "Egy tálat",
-          "example": "Die Schüssel steht auf dem Tisch. = A tál az asztalon van."
+          "example": "Die Schüssel steht auf dem Tisch. = Bļoda stāv uz galda."
         }
       ],
       "tip": {
@@ -6442,17 +6442,17 @@ const B1_WORDS = [
         {
           "word": "bedeutend",
           "meaning": "Jelentős / jelentősen",
-          "example": "Das ist ein bedeutender Schritt. = Ez egy fontos lépés."
+          "example": "Das ist ein bedeutender Schritt. = Tas ir nozīmīgs solis."
         },
         {
           "word": "wichtig",
           "meaning": "Fontos",
-          "example": "Das ist wichtig. = Ez fontos."
+          "example": "Das ist wichtig. = Tas ir svarīgi."
         },
         {
           "word": "deutlich",
           "meaning": "Egyértelműen / jelentősen",
-          "example": "Es ist deutlich besser. = Ez lényegesen jobb."
+          "example": "Es ist deutlich besser. = Tas ir ievērojami labāk."
         }
       ],
       "tip": {
@@ -6618,17 +6618,17 @@ const B1_WORDS = [
         {
           "word": "sich bedienen",
           "meaning": "Vedd / használd magad",
-          "example": "Bedienen Sie sich! = Vidd magad!"
+          "example": "Bedienen Sie sich! = Ņemiet paši!"
         },
         {
           "word": "bedienen",
           "meaning": "Szolgálni",
-          "example": "Der Kellner bedient die Gäste. = Pincér szolgálja ki a vendégeket."
+          "example": "Der Kellner bedient die Gäste. = Viesmīlis apkalpo viesus."
         },
         {
           "word": "benutzen",
           "meaning": "Használat",
-          "example": "Ich benutze den Computer. = Használom a számítógépet."
+          "example": "Ich benutze den Computer. = Es lietoju datoru."
         }
       ],
       "tip": {
@@ -7012,17 +7012,17 @@ const B1_WORDS = [
         {
           "word": "behandeln",
           "meaning": "Kezelni / kezelni / megbeszélni a témát",
-          "example": "Der Arzt behandelt den Patienten. = Az orvos kezeli a beteget."
+          "example": "Der Arzt behandelt den Patienten. = Ārsts ārstē pacientu."
         },
         {
           "word": "heilen",
           "meaning": "Gyógymód az eredményhez",
-          "example": "Die Medizin heilt die Krankheit. = A gyógyszer gyógyítja a betegséget."
+          "example": "Die Medizin heilt die Krankheit. = Zāles izārstē slimību."
         },
         {
           "word": "besprechen",
           "meaning": "Megbeszélni",
-          "example": "Wir besprechen den Plan. = Megbeszéljük a tervet."
+          "example": "Wir besprechen den Plan. = Mēs apspriežam plānu."
         }
       ],
       "tip": {
@@ -7358,17 +7358,17 @@ const B1_WORDS = [
         {
           "word": "belegen",
           "meaning": "Kölcsönkérni / alkalmazni / bizonyítani",
-          "example": "Der Sitz ist belegt. = Az ülés foglalt."
+          "example": "Der Sitz ist belegt. = Sēdvieta ir aizņemta."
         },
         {
           "word": "reservieren",
           "meaning": "Lefoglalni",
-          "example": "Ich reserviere einen Tisch. = Asztalt foglaltam."
+          "example": "Ich reserviere einen Tisch. = Es rezervēju galdiņu."
         },
         {
           "word": "beweisen",
           "meaning": "Bebizonyítani",
-          "example": "Das beweist nichts. = Nem bizonyít semmit."
+          "example": "Das beweist nichts. = Tas neko nepierāda."
         }
       ],
       "tip": {
@@ -7581,17 +7581,17 @@ const B1_WORDS = [
         {
           "word": "bemerken",
           "meaning": "Észrevétel / jegyzet",
-          "example": "Ich bemerke den Fehler. = Hibát veszek észre."
+          "example": "Ich bemerke den Fehler. = Es pamanu kļūdu."
         },
         {
           "word": "merken",
           "meaning": "Megérteni / követni",
-          "example": "Ich merke, dass du müde bist. = Azt veszem észre, hogy fáradt vagy."
+          "example": "Ich merke, dass du müde bist. = Es ievēroju, ka tu esi noguris."
         },
         {
           "word": "sich merken",
           "meaning": "Memorizálni",
-          "example": "Ich merke mir das Wort. = Megjegyeztem ezt a szót."
+          "example": "Ich merke mir das Wort. = Es iegaumēju šo vārdu."
         }
       ],
       "tip": {
@@ -7769,17 +7769,17 @@ const B1_WORDS = [
         {
           "word": "sich bemühen",
           "meaning": "Próbálkozzon / tegyen erőfeszítést",
-          "example": "Ich bemühe mich um eine Lösung. = Próbálok megoldást találni."
+          "example": "Ich bemühe mich um eine Lösung. = Es cenšos atrast risinājumu."
         },
         {
           "word": "versuchen",
           "meaning": "Hogy megpróbáljam",
-          "example": "Ich versuche es. = Igyekszem."
+          "example": "Ich versuche es. = Es mēģinu."
         },
         {
           "word": "sich anstrengen",
           "meaning": "Tegyen erőfeszítést",
-          "example": "Streng dich an! = Tegyen erőfeszítéseket!"
+          "example": "Streng dich an! = Papūlies!"
         }
       ],
       "tip": {
@@ -7979,17 +7979,17 @@ const B1_WORDS = [
         {
           "word": "beraten",
           "meaning": "Konzultálni / megbeszélni",
-          "example": "Sie berät den Kunden. = Tanácsot ad az ügyfélnek."
+          "example": "Sie berät den Kunden. = Viņa konsultē klientu."
         },
         {
           "word": "raten",
           "meaning": "Ajánlani",
-          "example": "Ich rate dir zu warten. = Azt tanácsolom, várjon."
+          "example": "Ich rate dir zu warten. = Es tev iesaku pagaidīt."
         },
         {
           "word": "besprechen",
           "meaning": "Megbeszélni a témát",
-          "example": "Wir besprechen das Thema. = Megbeszéljük a témát."
+          "example": "Wir besprechen das Thema. = Mēs apspriežam tēmu."
         }
       ],
       "tip": {
@@ -8197,17 +8197,17 @@ const B1_WORDS = [
         {
           "word": "der Bereich",
           "meaning": "Terület / zóna",
-          "example": "Dieser Bereich ist wichtig. = Ez a terület fontos."
+          "example": "Dieser Bereich ist wichtig. = Šī joma ir svarīga."
         },
         {
           "word": "das Gebiet",
           "meaning": "Terület / tágabb terület",
-          "example": "Das Gebiet ist groß. = A terület nagy."
+          "example": "Das Gebiet ist groß. = Teritorija ir liela."
         },
         {
           "word": "die Branche",
           "meaning": "Ipar",
-          "example": "Die Branche wächst. = Az ipar növekszik."
+          "example": "Die Branche wächst. = Nozare aug."
         }
       ],
       "tip": {
@@ -8424,17 +8424,17 @@ const B1_WORDS = [
         {
           "word": "berichten über/von",
           "meaning": "Beszámolni róla",
-          "example": "Sie berichtet über das Projekt. = Beszámol a projektről."
+          "example": "Sie berichtet über das Projekt. = Viņa ziņo par projektu."
         },
         {
           "word": "erzählen",
           "meaning": "Szabadabban beszélni",
-          "example": "Er erzählt eine Geschichte. = Elmesél egy történetet."
+          "example": "Er erzählt eine Geschichte. = Viņš stāsta stāstu."
         },
         {
           "word": "melden",
           "meaning": "Hivatalosan bejelenteni",
-          "example": "Die Polizei meldet den Unfall. = A rendőrség jelenti a balesetet."
+          "example": "Die Polizei meldet den Unfall. = Policija paziņo par negadījumu."
         }
       ],
       "tip": {
@@ -8640,17 +8640,17 @@ const B1_WORDS = [
         {
           "word": "sich beruhigen",
           "meaning": "Nyugodj meg",
-          "example": "Ich beruhige mich. = Megnyugszom."
+          "example": "Ich beruhige mich. = Es nomierinos."
         },
         {
           "word": "beruhigen",
           "meaning": "Megnyugtatni valakit",
-          "example": "Ich beruhige das Kind. = Megnyugtatom a gyereket."
+          "example": "Ich beruhige das Kind. = Es nomierinu bērnu."
         },
         {
           "word": "sich entspannen",
           "meaning": "Pihenni",
-          "example": "Ich entspanne mich. = Lazítok."
+          "example": "Ich entspanne mich. = Es atslābinos."
         }
       ],
       "tip": {
@@ -8807,17 +8807,17 @@ const B1_WORDS = [
         {
           "word": "die Berühmtheit",
           "meaning": "Hírnév / híresség",
-          "example": "Er sucht Berühmtheit. = Hírnévre törekszik."
+          "example": "Er sucht Berühmtheit. = Viņš tiecas pēc slavas."
         },
         {
           "word": "der Ruhm",
           "meaning": "Hírnév",
-          "example": "Sein Ruhm wächst. = Hírneve egyre nő."
+          "example": "Sein Ruhm wächst. = Viņa slava aug."
         },
         {
           "word": "der Star",
           "meaning": "Sztár / híresség",
-          "example": "Sie ist ein Star. = Ő egy sztár."
+          "example": "Sie ist ein Star. = Viņa ir zvaigzne."
         }
       ],
       "tip": {
@@ -9015,17 +9015,17 @@ const B1_WORDS = [
         {
           "word": "beschließen",
           "meaning": "Dönteni / döntést hozni",
-          "example": "Der Rat beschließt neue Regeln. = A Tanács új szabályokat fogad el."
+          "example": "Der Rat beschließt neue Regeln. = Padome pieņem jaunus noteikumus."
         },
         {
           "word": "entscheiden",
           "meaning": "Dönteni",
-          "example": "Ich entscheide mich morgen. = Holnap döntök."
+          "example": "Ich entscheide mich morgen. = Es izlemšu rīt."
         },
         {
           "word": "schließen",
           "meaning": "Bezárni / bezárni",
-          "example": "Bitte schließen Sie die Tür. = Kérem, csukja be az ajtót."
+          "example": "Bitte schließen Sie die Tür. = Lūdzu, aizveriet durvis."
         }
       ],
       "tip": {
@@ -9207,17 +9207,17 @@ const B1_WORDS = [
         {
           "word": "die Beschwerde",
           "meaning": "Panasz",
-          "example": "Die Beschwerde ist berechtigt. = A panasz jogos."
+          "example": "Die Beschwerde ist berechtigt. = Sūdzība ir pamatota."
         },
         {
           "word": "die Klage",
           "meaning": "Jogi lépéseket",
-          "example": "Die Klage läuft noch. = A per még folyamatban van."
+          "example": "Die Klage läuft noch. = Prasība vēl turpinās."
         },
         {
           "word": "die Schmerzen",
           "meaning": "Fájdalom",
-          "example": "Ich habe Schmerzen. = Fájdalmaim vannak."
+          "example": "Ich habe Schmerzen. = Man sāp."
         }
       ],
       "tip": {
@@ -9410,17 +9410,17 @@ const B1_WORDS = [
         {
           "word": "besorgen",
           "meaning": "Beszerezni/kapni",
-          "example": "Ich besorge Brot. = Megkaptam a kenyeret."
+          "example": "Ich besorge Brot. = Es sagādāju maizi."
         },
         {
           "word": "kaufen",
           "meaning": "Vásárolni",
-          "example": "Ich kaufe Brot. = Veszek kenyeret."
+          "example": "Ich kaufe Brot. = Es pērku maizi."
         },
         {
           "word": "sich kümmern um",
           "meaning": "Vigyázni",
-          "example": "Ich kümmere mich um das Kind. = Én vigyázok a gyerekre."
+          "example": "Ich kümmere mich um das Kind. = Es rūpējos par bērnu."
         }
       ],
       "tip": {
@@ -9624,17 +9624,17 @@ const B1_WORDS = [
         {
           "word": "bestehen",
           "meaning": "Létezni / letelepedni",
-          "example": "Das Problem besteht noch. = A probléma továbbra is fennáll."
+          "example": "Das Problem besteht noch. = Problēma vēl pastāv."
         },
         {
           "word": "bestehen aus",
           "meaning": "Áll",
-          "example": "Das Team besteht aus fünf Personen. = A csapat öt főből áll."
+          "example": "Das Team besteht aus fünf Personen. = Komanda sastāv no piecām personām."
         },
         {
           "word": "bestehen auf",
           "meaning": "Ragaszkodni",
-          "example": "Er besteht auf seiner Meinung. = Ragaszkodik a véleményéhez."
+          "example": "Er besteht auf seiner Meinung. = Viņš uzstāj uz savu viedokli."
         }
       ],
       "tip": {
@@ -9804,17 +9804,17 @@ const B1_WORDS = [
         {
           "word": "bestimmen",
           "meaning": "Meghatározni / megjósolni",
-          "example": "Der Preis wird neu bestimmt. = Az ár visszaáll."
+          "example": "Der Preis wird neu bestimmt. = Cena tiek noteikta no jauna."
         },
         {
           "word": "entscheiden",
           "meaning": "Dönteni",
-          "example": "Wir entscheiden morgen. = Holnap döntünk."
+          "example": "Wir entscheiden morgen. = Mēs izlemsim rīt."
         },
         {
           "word": "festlegen",
           "meaning": "Hivatalosan meghatározni",
-          "example": "Wir legen den Termin fest. = Hivatalosan is kitűztük a határidőt."
+          "example": "Wir legen den Termin fest. = Mēs oficiāli nosakām termiņu."
         }
       ],
       "tip": {
@@ -10060,17 +10060,17 @@ const B1_WORDS = [
         {
           "word": "der Betrieb",
           "meaning": "Cég/tevékenység",
-          "example": "Der Betrieb läuft gut. = A cég jól megy."
+          "example": "Der Betrieb läuft gut. = Uzņēmums darbojas labi."
         },
         {
           "word": "die Firma",
           "meaning": "Cég",
-          "example": "Die Firma sucht neue Mitarbeiter. = A cég új munkatársakat keres."
+          "example": "Die Firma sucht neue Mitarbeiter. = Firma meklē jaunus darbiniekus."
         },
         {
           "word": "die Fabrik",
           "meaning": "Gyár",
-          "example": "Die Fabrik produziert Möbel. = A gyár bútorokat gyárt."
+          "example": "Die Fabrik produziert Möbel. = Rūpnīca ražo mēbeles."
         }
       ],
       "tip": {
@@ -10295,17 +10295,17 @@ const B1_WORDS = [
         {
           "word": "bewegen",
           "meaning": "Mozgatni / érinteni",
-          "example": "Das bewegt mich. = Megérint."
+          "example": "Das bewegt mich. = Tas mani aizkustina."
         },
         {
           "word": "sich bewegen",
           "meaning": "Mozogni",
-          "example": "Ich bewege mich viel. = Sokat mozgok."
+          "example": "Ich bewege mich viel. = Es daudz kustos."
         },
         {
           "word": "verschieben",
           "meaning": "Váltás",
-          "example": "Wir verschieben den Tisch. = Áthelyezzük az asztalt."
+          "example": "Wir verschieben den Tisch. = Mēs pārbīdām galdu."
         }
       ],
       "tip": {
@@ -10533,17 +10533,17 @@ const B1_WORDS = [
         {
           "word": "beziehen",
           "meaning": "Fogadni / beköltözni",
-          "example": "Sie bezieht eine Rente. = Nyugdíjban részesül."
+          "example": "Sie bezieht eine Rente. = Viņa saņem pensiju."
         },
         {
           "word": "sich beziehen auf",
           "meaning": "Hivatkozni",
-          "example": "Die Regel bezieht sich auf alle Schüler. = A szabály minden tanulóra vonatkozik."
+          "example": "Die Regel bezieht sich auf alle Schüler. = Noteikums attiecas uz visiem skolēniem."
         },
         {
           "word": "einziehen",
           "meaning": "Beköltözni",
-          "example": "Wir ziehen morgen ein. = Holnap beköltözünk."
+          "example": "Wir ziehen morgen ein. = Mēs rīt ievācamies."
         }
       ],
       "tip": {
@@ -10761,17 +10761,17 @@ const B1_WORDS = [
         {
           "word": "der Bildschirm",
           "meaning": "Képernyő",
-          "example": "Der Bildschirm leuchtet. = A képernyő világít."
+          "example": "Der Bildschirm leuchtet. = Ekrāns spīd."
         },
         {
           "word": "der Monitor",
           "meaning": "Monitor (számítógép)",
-          "example": "Der Monitor ist neu. = A monitor új."
+          "example": "Der Monitor ist neu. = Monitors ir jauns."
         },
         {
           "word": "das Display",
           "meaning": "Kijelző",
-          "example": "Das Display ist klein. = A kijelző kicsi."
+          "example": "Das Display ist klein. = Displejs ir mazs."
         }
       ],
       "tip": {
@@ -10894,17 +10894,17 @@ const B1_WORDS = [
         {
           "word": "bieten",
           "meaning": "Felajánl / biztosít",
-          "example": "Das Programm bietet viele Möglichkeiten. = A program számos lehetőséget kínál."
+          "example": "Das Programm bietet viele Möglichkeiten. = Programma sniedz daudz iespēju."
         },
         {
           "word": "anbieten",
           "meaning": "Ajánl valakit konkrétan",
-          "example": "Ich biete dir meine Hilfe an. = Felajánlom a segítségemet."
+          "example": "Ich biete dir meine Hilfe an. = Es tev piedāvāju savu palīdzību."
         },
         {
           "word": "geben",
           "meaning": "Adni",
-          "example": "Ich gebe dir Geld. = Adok pénzt."
+          "example": "Ich gebe dir Geld. = Es tev dodu naudu."
         }
       ],
       "tip": {
@@ -11119,17 +11119,17 @@ const B1_WORDS = [
         {
           "word": "die Blase",
           "meaning": "Buborékfólia / hólyag / buborék",
-          "example": "Ich habe eine Blase am Fuß. = Hólyag van a lábamon."
+          "example": "Ich habe eine Blase am Fuß. = Man uz pēdas ir tulzna."
         },
         {
           "word": "die Wunde",
           "meaning": "Egy sebet",
-          "example": "Die Wunde heilt. = A seb gyógyul."
+          "example": "Die Wunde heilt. = Brūce dzīst."
         },
         {
           "word": "der Ballon",
           "meaning": "Ballon",
-          "example": "Der Ballon ist rot. = A léggömb piros."
+          "example": "Der Ballon ist rot. = Balons ir sarkans."
         }
       ],
       "tip": {
@@ -11356,17 +11356,17 @@ const B1_WORDS = [
         {
           "word": "der Block",
           "meaning": "Blokk / blokk / blokk",
-          "example": "Ich brauche einen Block. = Szükségem van egy betétre."
+          "example": "Ich brauche einen Block. = Man vajag blociņu."
         },
         {
           "word": "das Heft",
           "meaning": "Jegyzetfüzet",
-          "example": "Das Heft ist voll. = A postaláda megtelt."
+          "example": "Das Heft ist voll. = Burtnīca ir pilna."
         },
         {
           "word": "der Klotz",
           "meaning": "Tömb",
-          "example": "Der Klotz ist schwer. = A blokk nehéz."
+          "example": "Der Klotz ist schwer. = Klucis ir smags."
         }
       ],
       "tip": {
@@ -11540,17 +11540,17 @@ const B1_WORDS = [
         {
           "word": "bloß",
           "meaning": "Csak / egyszerűen / csupasz",
-          "example": "Das ist bloß ein Beispiel. = Ez csak egy példa."
+          "example": "Das ist bloß ein Beispiel. = Tas ir tikai piemērs."
         },
         {
           "word": "nur",
           "meaning": "Csak",
-          "example": "Ich habe nur eine Frage. = Csak egy kérdésem van."
+          "example": "Ich habe nur eine Frage. = Man ir tikai viens jautājums."
         },
         {
           "word": "nackt",
           "meaning": "Meztelen",
-          "example": "Er ist nackt. = Ő meztelen."
+          "example": "Er ist nackt. = Viņš ir kails."
         }
       ],
       "tip": {
@@ -11759,17 +11759,17 @@ const B1_WORDS = [
         {
           "word": "der Bogen",
           "meaning": "Íj / ív / forma",
-          "example": "Füllen Sie den Bogen aus. = Töltse ki az űrlapot."
+          "example": "Füllen Sie den Bogen aus. = Aizpildiet veidlapu."
         },
         {
           "word": "das Formular",
           "meaning": "Forma",
-          "example": "Das Formular ist lang. = A forma hosszú."
+          "example": "Das Formular ist lang. = Veidlapa ir gara."
         },
         {
           "word": "die Kurve",
           "meaning": "Kanyar",
-          "example": "Die Kurve ist scharf. = A kanyar éles."
+          "example": "Die Kurve ist scharf. = Līkums ir ass."
         }
       ],
       "tip": {
@@ -11965,17 +11965,17 @@ const B1_WORDS = [
         {
           "word": "die Botschaft",
           "meaning": "Nagykövetség / üzenet",
-          "example": "Die Botschaft ist offen. = A nagykövetség nyitva van."
+          "example": "Die Botschaft ist offen. = Vēstniecība ir atvērta."
         },
         {
           "word": "die Nachricht",
           "meaning": "Üzenet",
-          "example": "Ich habe eine Nachricht bekommen. = Kaptam egy üzenetet."
+          "example": "Ich habe eine Nachricht bekommen. = Es saņēmu ziņu."
         },
         {
           "word": "die Mitteilung",
           "meaning": "Bejelentés",
-          "example": "Die Mitteilung ist kurz. = Az értesítés rövid."
+          "example": "Die Mitteilung ist kurz. = Paziņojums ir īss."
         }
       ],
       "tip": {
@@ -12155,17 +12155,17 @@ const B1_WORDS = [
         {
           "word": "der Brand",
           "meaning": "Tűz / égés",
-          "example": "Der Brand ist gefährlich. = A tűz veszélyes."
+          "example": "Der Brand ist gefährlich. = Ugunsgrēks ir bīstams."
         },
         {
           "word": "das Feuer",
           "meaning": "Tűz",
-          "example": "Das Feuer brennt. = A tűz ég."
+          "example": "Das Feuer brennt. = Uguns deg."
         },
         {
           "word": "die Marke",
           "meaning": "Márka",
-          "example": "Diese Marke ist bekannt. = Ez a márka ismert."
+          "example": "Diese Marke ist bekannt. = Šis zīmols ir pazīstams."
         }
       ],
       "tip": {
@@ -12573,17 +12573,17 @@ const B1_WORDS = [
         {
           "word": "der Bund",
           "meaning": "Szakszervezet / szövetség / köteg",
-          "example": "Der Bund entscheidet. = A Szövetség dönt."
+          "example": "Der Bund entscheidet. = Federācija lemj."
         },
         {
           "word": "das Bündel",
           "meaning": "Csomag",
-          "example": "Das Bündel ist schwer. = A köteg nehéz."
+          "example": "Das Bündel ist schwer. = Saišķis ir smags."
         },
         {
           "word": "der Verein",
           "meaning": "Társadalom",
-          "example": "Der Verein ist klein. = Az egyesület kicsi."
+          "example": "Der Verein ist klein. = Biedrība ir maza."
         }
       ],
       "tip": {
@@ -12923,17 +12923,17 @@ const B1_WORDS = [
         {
           "word": "dadurch",
           "meaning": "Így / ezáltal",
-          "example": "Dadurch wird es leichter. = Ez megkönnyíti."
+          "example": "Dadurch wird es leichter. = Tādējādi tas kļūst vieglāk."
         },
         {
           "word": "deshalb",
           "meaning": "Ezért",
-          "example": "Deshalb bleibe ich zu Hause. = Ezért maradok otthon."
+          "example": "Deshalb bleibe ich zu Hause. = Tāpēc es palieku mājās."
         },
         {
           "word": "damit",
           "meaning": "Hogy / vele",
-          "example": "Ich spare Geld, damit ich reisen kann. = Pénzt takarítok meg, hogy utazhassak."
+          "example": "Ich spare Geld, damit ich reisen kann. = Es krāju naudu, lai varētu ceļot."
         }
       ],
       "tip": {
@@ -13080,17 +13080,17 @@ const B1_WORDS = [
         {
           "word": "dagegen",
           "meaning": "Azzal szemben / másrészt",
-          "example": "Ich bin dagegen. = Ellene vagyok."
+          "example": "Ich bin dagegen. = Es esmu pret to."
         },
         {
           "word": "dafür",
           "meaning": "Arról",
-          "example": "Ich bin dafür. = Én mindenért vagyok."
+          "example": "Ich bin dafür. = Es esmu par to."
         },
         {
           "word": "hingegen",
           "meaning": "Ezzel szemben",
-          "example": "Er bleibt, sie hingegen geht. = Ő marad, de ő megy."
+          "example": "Er bleibt, sie hingegen geht. = Viņš paliek, viņa turpretim iet."
         }
       ],
       "tip": {
@@ -13240,17 +13240,17 @@ const B1_WORDS = [
         {
           "word": "daher",
           "meaning": "Ezért / onnan",
-          "example": "Es bin müde, daher gehe ich. = Fáradt vagyok, úgyhogy megyek."
+          "example": "Es bin müde, daher gehe ich. = Esmu noguris, tāpēc eju."
         },
         {
           "word": "deshalb",
           "meaning": "Ezért",
-          "example": "Deshalb warten wir. = Szóval várunk."
+          "example": "Deshalb warten wir. = Tāpēc mēs gaidām."
         },
         {
           "word": "von dort",
           "meaning": "Onnan",
-          "example": "Er kommt von dort. = Onnan jön."
+          "example": "Er kommt von dort. = Viņš nāk no turienes."
         }
       ],
       "tip": {
@@ -13395,17 +13395,17 @@ const B1_WORDS = [
         {
           "word": "dahin",
           "meaning": "Oda / oda / az udvarra",
-          "example": "Ich fahre dahin. = Oda megyek."
+          "example": "Ich fahre dahin. = Es braucu turp."
         },
         {
           "word": "dort",
           "meaning": "Ott, azon a helyen",
-          "example": "Ich bin dort. = Ott vagyok."
+          "example": "Ich bin dort. = Es esmu tur."
         },
         {
           "word": "daher",
           "meaning": "Ezért / onnan",
-          "example": "Daher kommt das Problem. = Innen ered a probléma."
+          "example": "Daher kommt das Problem. = No turienes nāk problēma."
         }
       ],
       "tip": {
@@ -13603,27 +13603,27 @@ const B1_WORDS = [
         {
           "word": "der Dank",
           "meaning": "Hála (főnév)",
-          "example": "Herzlichen Dank! = Őszinte köszönet!"
+          "example": "Herzlichen Dank! = Sirsnīgs paldies!"
         },
         {
           "word": "danke",
           "meaning": "Köszönöm (válasz)",
-          "example": "Nein, danke. = Nem köszönöm."
+          "example": "Nein, danke. = Nē, paldies."
         },
         {
           "word": "danken",
           "meaning": "Megköszönni",
-          "example": "Ich danke dir. = Köszönöm."
+          "example": "Ich danke dir. = Es tev pateicos."
         },
         {
           "word": "Vielen Dank",
           "meaning": "Köszönöm szépen (kifejezés)",
-          "example": "Vielen Dank für die Hilfe! = Nagyon szépen köszönöm a segítséget!"
+          "example": "Vielen Dank für die Hilfe! = Liels paldies par palīdzību!"
         },
         {
           "word": "bedanken (sich)",
           "meaning": "Hogy formálisan megköszönjem",
-          "example": "Ich bedanke mich bei Ihnen. = Köszönöm."
+          "example": "Ich bedanke mich bei Ihnen. = Es pateicos jums."
         }
       ],
       "tip": {
@@ -13973,17 +13973,17 @@ const B1_WORDS = [
         {
           "word": "daran",
           "meaning": "Róla / rajta",
-          "example": "Ich denke daran. = Elgondolkodtam rajta."
+          "example": "Ich denke daran. = Es domāju par to."
         },
         {
           "word": "darauf",
           "meaning": "Hozzá / rajta",
-          "example": "Ich warte darauf. = Nagyon várom."
+          "example": "Ich warte darauf. = Es to gaidu."
         },
         {
           "word": "damit",
           "meaning": "Azzal",
-          "example": "Ich beginne damit. = Azzal kezdtem."
+          "example": "Ich beginne damit. = Es sāku ar to."
         }
       ],
       "tip": {
@@ -14160,17 +14160,17 @@ const B1_WORDS = [
         {
           "word": "darstellen",
           "meaning": "Ábrázolni / bemutatni / ábrázolni",
-          "example": "Die Tabelle stellt Daten dar. = A táblázat az adatokat ábrázolja."
+          "example": "Die Tabelle stellt Daten dar. = Tabula attēlo datus."
         },
         {
           "word": "zeigen",
           "meaning": "Megmutat",
-          "example": "Ich zeige dir das Bild. = Mutatok egy képet."
+          "example": "Ich zeige dir das Bild. = Es tev rādu attēlu."
         },
         {
           "word": "sich vorstellen",
           "meaning": "Képzeld el / mutatkozz be",
-          "example": "Ich stelle mich kurz vor. = Röviden bemutatkozom."
+          "example": "Ich stelle mich kurz vor. = Es īsi iepazīstinos."
         }
       ],
       "tip": {
@@ -14350,17 +14350,17 @@ const B1_WORDS = [
         {
           "word": "darunter",
           "meaning": "Beleértve / alatta",
-          "example": "Darunter sind viele Kinder. = Sok gyerek van köztük."
+          "example": "Darunter sind viele Kinder. = To vidū ir daudz bērnu."
         },
         {
           "word": "unter",
           "meaning": "Alatt",
-          "example": "Der Ball liegt unter dem Tisch. = A labda az asztal alatt van."
+          "example": "Der Ball liegt unter dem Tisch. = Bumba ir zem galda."
         },
         {
           "word": "davon",
           "meaning": "Abból",
-          "example": "Drei davon sind neu. = Közülük három új."
+          "example": "Drei davon sind neu. = Trīs no tiem ir jauni."
         }
       ],
       "tip": {
@@ -14537,17 +14537,17 @@ const B1_WORDS = [
         {
           "word": "decken",
           "meaning": "Borító / borító / borító",
-          "example": "Ich decke den Tisch. = Megterítettem."
+          "example": "Ich decke den Tisch. = Es klāju galdu."
         },
         {
           "word": "abdecken",
           "meaning": "Borító / borító",
-          "example": "Deck den Kuchen ab. = Fedjük le a tortát."
+          "example": "Deck den Kuchen ab. = Pārklāj kūku."
         },
         {
           "word": "zudecken",
           "meaning": "Fedezni",
-          "example": "Ich decke das Kind zu. = Letakartam a babát."
+          "example": "Ich decke das Kind zu. = Es apsedzu bērnu."
         }
       ],
       "tip": {
@@ -14835,17 +14835,17 @@ const B1_WORDS = [
         {
           "word": "dienen",
           "meaning": "Szolgálni / hasznosnak lenni",
-          "example": "Das dient als Beispiel. = Ez példaként szolgál."
+          "example": "Das dient als Beispiel. = Tas kalpo kā piemērs."
         },
         {
           "word": "helfen",
           "meaning": "Hogy segítsenek",
-          "example": "Ich helfe dir. = Segítek neked."
+          "example": "Ich helfe dir. = Es tev palīdzu."
         },
         {
           "word": "nutzen",
           "meaning": "Használni / használni",
-          "example": "Ich nutze das Programm. = Használom a programot."
+          "example": "Ich nutze das Programm. = Es izmantoju programmu."
         }
       ],
       "tip": {
@@ -15164,17 +15164,17 @@ const B1_WORDS = [
         {
           "word": "der Druck",
           "meaning": "Nyomás / nyomtatás",
-          "example": "Der Druck ist hoch. = A nyomás nagy."
+          "example": "Der Druck ist hoch. = Spiediens ir augsts."
         },
         {
           "word": "die Belastung",
           "meaning": "Terhelés",
-          "example": "Die Belastung ist groß. = A teher nehéz."
+          "example": "Die Belastung ist groß. = Slodze ir liela."
         },
         {
           "word": "das Drucken",
           "meaning": "A nyomtatás mint művelet",
-          "example": "Das Drucken ist teuer. = A nyomtatás drága."
+          "example": "Das Drucken ist teuer. = Drukāšana ir dārga."
         }
       ],
       "tip": {
@@ -15407,17 +15407,17 @@ const B1_WORDS = [
         {
           "word": "der Durchfall",
           "meaning": "Hasmenés",
-          "example": "Ich habe Durchfall. = Hasmenésem van."
+          "example": "Ich habe Durchfall. = Man ir caureja."
         },
         {
           "word": "durchfallen",
           "meaning": "Megbukni",
-          "example": "Sie fällt durch. = Elbukik."
+          "example": "Sie fällt durch. = Viņa izgāžas."
         },
         {
           "word": "die Magenprobleme",
           "meaning": "Gyomorproblémák",
-          "example": "Ich habe Magenprobleme. = Gyomorproblémáim vannak."
+          "example": "Ich habe Magenprobleme. = Man ir kuņģa problēmas."
         }
       ],
       "tip": {
@@ -15567,17 +15567,17 @@ const B1_WORDS = [
         {
           "word": "durchführen",
           "meaning": "Végrehajtani / megvalósítani",
-          "example": "Wir führen den Plan durch. = A tervet végrehajtjuk."
+          "example": "Wir führen den Plan durch. = Mēs īstenojam plānu."
         },
         {
           "word": "machen",
           "meaning": "Tenni",
-          "example": "Ich mache die Arbeit. = Én végzem a munkát."
+          "example": "Ich mache die Arbeit. = Es daru darbu."
         },
         {
           "word": "veranstalten",
           "meaning": "Tartani",
-          "example": "Wir veranstalten ein Konzert. = Koncertet tartunk."
+          "example": "Wir veranstalten ein Konzert. = Mēs rīkojam koncertu."
         }
       ],
       "tip": {
@@ -15829,17 +15829,17 @@ const B1_WORDS = [
         {
           "word": "eher",
           "meaning": "Inkább / korábban",
-          "example": "Ich nehme eher Tee. = Inkább teát innék."
+          "example": "Ich nehme eher Tee. = Es drīzāk ņemšu tēju."
         },
         {
           "word": "früher",
           "meaning": "Korábban vagy a múltban",
-          "example": "Früher war es anders. = Régen más volt."
+          "example": "Früher war es anders. = Agrāk bija citādi."
         },
         {
           "word": "lieber",
           "meaning": "Inkább",
-          "example": "Ich trinke lieber Kaffee. = Inkább kávét iszom."
+          "example": "Ich trinke lieber Kaffee. = Es labprātāk dzeru kafiju."
         }
       ],
       "tip": {
@@ -16034,17 +16034,17 @@ const B1_WORDS = [
         {
           "word": "eigen",
           "meaning": "Saját / saját / sajátos",
-          "example": "Das ist mein eigenes Auto. = Ez a saját autóm."
+          "example": "Das ist mein eigenes Auto. = Tā ir mana paša mašīna."
         },
         {
           "word": "selbst",
           "meaning": "Magát",
-          "example": "Ich mache das selbst. = Magam csinálom."
+          "example": "Ich mache das selbst. = Es to daru pats."
         },
         {
           "word": "allein",
           "meaning": "Kizárólag",
-          "example": "Ich bin allein. = Egyedül vagyok."
+          "example": "Ich bin allein. = Es esmu viens pats."
         }
       ],
       "tip": {
@@ -16564,17 +16564,17 @@ const B1_WORDS = [
         {
           "word": "der Eindruck",
           "meaning": "Benyomás",
-          "example": "Der Eindruck war positiv. = A benyomás pozitív volt."
+          "example": "Der Eindruck war positiv. = Iespaids bija pozitīvs."
         },
         {
           "word": "einen Eindruck machen",
           "meaning": "Benyomást kelteni",
-          "example": "Sie macht einen guten Eindruck. = Jó benyomást tesz."
+          "example": "Sie macht einen guten Eindruck. = Viņa atstāj labu iespaidu."
         },
         {
           "word": "die Meinung",
           "meaning": "Vélemény",
-          "example": "Das ist meine Meinung. = Ez az én véleményem."
+          "example": "Das ist meine Meinung. = Tas ir mans viedoklis."
         }
       ],
       "tip": {
@@ -16741,17 +16741,17 @@ const B1_WORDS = [
         {
           "word": "einerlei",
           "meaning": "Amúgy / mindegy",
-          "example": "Mir ist das einerlei. = Nem érdekel."
+          "example": "Mir ist das einerlei. = Man tas ir vienalga."
         },
         {
           "word": "egal",
           "meaning": "Különben is",
-          "example": "Das ist mir egal. = Nem érdekel."
+          "example": "Das ist mir egal. = Man tas ir vienalga."
         },
         {
           "word": "gleichgültig",
           "meaning": "Közömbös",
-          "example": "Er ist mir nicht gleichgültig. = Nem közömbös számomra."
+          "example": "Er ist mir nicht gleichgültig. = Viņš man nav vienaldzīgs."
         }
       ],
       "tip": {
@@ -16920,17 +16920,17 @@ const B1_WORDS = [
         {
           "word": "einerseits",
           "meaning": "Egyrészt",
-          "example": "Einerseits ist das gut. = Ez egyrészt jó."
+          "example": "Einerseits ist das gut. = No vienas puses, tas ir labi."
         },
         {
           "word": "andererseits",
           "meaning": "Másrészt",
-          "example": "Andererseits ist es teuer. = Másrészt drága."
+          "example": "Andererseits ist es teuer. = No otras puses, tas ir dārgi."
         },
         {
           "word": "zwar ... aber",
           "meaning": "Mindkettő... de",
-          "example": "Es ist zwar schön, aber teuer. = Gyönyörű, de drága."
+          "example": "Es ist zwar schön, aber teuer. = Tas gan ir skaists, bet dārgs."
         }
       ],
       "tip": {
@@ -17097,17 +17097,17 @@ const B1_WORDS = [
         {
           "word": "die Einfahrt",
           "meaning": "Műút / bejárat",
-          "example": "Die Einfahrt ist frei. = A belépés ingyenes."
+          "example": "Die Einfahrt ist frei. = Iebrauktuve ir brīva."
         },
         {
           "word": "die Ausfahrt",
           "meaning": "Kilépés / kilépés",
-          "example": "Die Ausfahrt ist gesperrt. = A kijárat zárva van."
+          "example": "Die Ausfahrt ist gesperrt. = Izbrauktuve ir slēgta."
         },
         {
           "word": "die Auffahrt",
           "meaning": "Rámpa",
-          "example": "Die Auffahrt zur Autobahn ist voll. = Az autópálya felhajtója megtelt."
+          "example": "Die Auffahrt zur Autobahn ist voll. = Uzbrauktuve uz autobāni ir pilna."
         }
       ],
       "tip": {
@@ -17432,17 +17432,17 @@ const B1_WORDS = [
         {
           "word": "einfarbig",
           "meaning": "Monokróm",
-          "example": "Das Hemd ist einfarbig. = Az ing sima."
+          "example": "Das Hemd ist einfarbig. = Krekls ir vienkrāsains."
         },
         {
           "word": "farbig",
           "meaning": "Színes",
-          "example": "Das Bild ist farbig. = A kép színes."
+          "example": "Das Bild ist farbig. = Attēls ir krāsains."
         },
         {
           "word": "bunt",
           "meaning": "Tarka / sokszínű",
-          "example": "Der Pullover ist bunt. = A pulóver foltos."
+          "example": "Der Pullover ist bunt. = Džemperis ir raibs."
         }
       ],
       "tip": {
@@ -17618,17 +17618,17 @@ const B1_WORDS = [
         {
           "word": "der Einfluss",
           "meaning": "Befolyás",
-          "example": "Sein Einfluss ist groß. = Hatása nagy."
+          "example": "Sein Einfluss ist groß. = Viņa ietekme ir liela."
         },
         {
           "word": "Einfluss auf etwas haben",
           "meaning": "Befolyásol valamit",
-          "example": "Das hat Einfluss auf den Preis. = Ez befolyásolja az árat."
+          "example": "Das hat Einfluss auf den Preis. = Tas ietekmē cenu."
         },
         {
           "word": "die Wirkung",
           "meaning": "Expozíció / hatás",
-          "example": "Die Wirkung ist stark. = A hatás erős."
+          "example": "Die Wirkung ist stark. = Iedarbība ir spēcīga."
         }
       ],
       "tip": {
@@ -17943,17 +17943,17 @@ const B1_WORDS = [
         {
           "word": "einführen",
           "meaning": "Megvalósítani / importálni",
-          "example": "Wir führen neue Regeln ein. = Új szabályokat vezetünk be."
+          "example": "Wir führen neue Regeln ein. = Mēs ieviešam jaunus noteikumus."
         },
         {
           "word": "importieren",
           "meaning": "Importálni",
-          "example": "Wir importieren Kaffee. = Kávét importálunk."
+          "example": "Wir importieren Kaffee. = Mēs importējam kafiju."
         },
         {
           "word": "vorstellen",
           "meaning": "Bemutatni / bemutatni",
-          "example": "Ich stelle das Projekt vor. = Bemutatom a projektet."
+          "example": "Ich stelle das Projekt vor. = Es prezentēju projektu."
         }
       ],
       "tip": {
@@ -18149,17 +18149,17 @@ const B1_WORDS = [
         {
           "word": "die Einführung",
           "meaning": "Bevezetés / megvalósítás",
-          "example": "Die Einführung war hilfreich. = A bemutatkozás hasznos volt."
+          "example": "Die Einführung war hilfreich. = Ievads bija noderīgs."
         },
         {
           "word": "die Einleitung",
           "meaning": "Bevezetés a szövegbe",
-          "example": "Die Einleitung ist kurz. = A bevezető rövid."
+          "example": "Die Einleitung ist kurz. = Ievads ir īss."
         },
         {
           "word": "die Umsetzung",
           "meaning": "Végrehajtás",
-          "example": "Die Umsetzung dauert lange. = A megvalósítás hosszú időt vesz igénybe."
+          "example": "Die Umsetzung dauert lange. = Īstenošana ilgst ilgi."
         }
       ],
       "tip": {
@@ -18330,17 +18330,17 @@ const B1_WORDS = [
         {
           "word": "sich eingewöhnen",
           "meaning": "Megszokja az új környezetet",
-          "example": "Ich gewöhne mich langsam ein. = Lassan kezdem megszokni."
+          "example": "Ich gewöhne mich langsam ein. = Es lēnām pierodu."
         },
         {
           "word": "sich gewöhnen an",
           "meaning": "Megszokni valamit",
-          "example": "Ich gewöhne mich an das Klima. = Kezdem megszokni a klímát."
+          "example": "Ich gewöhne mich an das Klima. = Es pierodu pie klimata."
         },
         {
           "word": "sich anpassen",
           "meaning": "Alkalmazkodni",
-          "example": "Er passt sich schnell an. = Gyorsan alkalmazkodik."
+          "example": "Er passt sich schnell an. = Viņš ātri pielāgojas."
         }
       ],
       "tip": {
@@ -18517,17 +18517,17 @@ const B1_WORDS = [
         {
           "word": "einhalten",
           "meaning": "Pontosan kövesse / hajtsa végre",
-          "example": "Wir halten die Frist ein. = A határidőt betartjuk."
+          "example": "Wir halten die Frist ein. = Mēs ievērojam termiņu."
         },
         {
           "word": "beachten",
           "meaning": "Figyelembe venni / megfigyelni",
-          "example": "Bitte beachten Sie die Hinweise. = Kérjük, kövesse az utasításokat."
+          "example": "Bitte beachten Sie die Hinweise. = Lūdzu, ņemiet vērā norādes."
         },
         {
           "word": "halten",
           "meaning": "Tartani / betartani",
-          "example": "Er hält sein Versprechen. = Ígéretét betartja."
+          "example": "Er hält sein Versprechen. = Viņš tur solījumu."
         }
       ],
       "tip": {
@@ -18702,17 +18702,17 @@ const B1_WORDS = [
         {
           "word": "einheimisch",
           "meaning": "Helyi",
-          "example": "Das ist eine einheimische Pflanze. = Ez egy őshonos növény."
+          "example": "Das ist eine einheimische Pflanze. = Tas ir vietējs augs."
         },
         {
           "word": "heimisch",
           "meaning": "Helyi / hangulatos egy bizonyos környezetben",
-          "example": "Diese Art ist hier heimisch. = Ez a faj itt endemikus."
+          "example": "Diese Art ist hier heimisch. = Šī suga šeit ir vietēja."
         },
         {
           "word": "ausländisch",
           "meaning": "Külföldi",
-          "example": "Das ist ein ausländisches Produkt. = Ez egy külföldi termék."
+          "example": "Das ist ein ausländisches Produkt. = Tas ir ārzemju produkts."
         }
       ],
       "tip": {
@@ -18893,17 +18893,17 @@ const B1_WORDS = [
         {
           "word": "die Einheit",
           "meaning": "Egység",
-          "example": "Diese Einheit ist wichtig. = Ez az egység fontos."
+          "example": "Diese Einheit ist wichtig. = Šī vienība ir svarīga."
         },
         {
           "word": "die Maßeinheit",
           "meaning": "Mértékegység",
-          "example": "Kilogramm ist eine Maßeinheit. = A kilogramm mértékegység."
+          "example": "Kilogramm ist eine Maßeinheit. = Kilograms ir mērvienība."
         },
         {
           "word": "das Kapitel",
           "meaning": "Osztály",
-          "example": "Das Kapitel ist kurz. = A fejezet rövid."
+          "example": "Das Kapitel ist kurz. = Nodaļa ir īsa."
         }
       ],
       "tip": {
@@ -19076,17 +19076,17 @@ const B1_WORDS = [
         {
           "word": "die Längeneinheit",
           "meaning": "Hossz egysége",
-          "example": "Meter ist eine Längeneinheit. = A méter a hosszúság mértékegysége."
+          "example": "Meter ist eine Längeneinheit. = Metrs ir garuma mērvienība."
         },
         {
           "word": "die Gewichtseinheit",
           "meaning": "Súlyegység",
-          "example": "Kilogramm ist eine Gewichtseinheit. = A kilogramm egy súlyegység."
+          "example": "Kilogramm ist eine Gewichtseinheit. = Kilograms ir svara mērvienība."
         },
         {
           "word": "die Maßeinheit",
           "meaning": "Mértékegység",
-          "example": "Sekunde ist eine Maßeinheit. = A másodperc a mértékegység."
+          "example": "Sekunde ist eine Maßeinheit. = Sekunde ir mērvienība."
         }
       ],
       "tip": {
@@ -19398,17 +19398,17 @@ const B1_WORDS = [
         {
           "word": "einholen",
           "meaning": "Gyűjteni / megkapni / elérni",
-          "example": "Ich hole Rat ein. = Tanácsot kérek."
+          "example": "Ich hole Rat ein. = Es lūdzu padomu."
         },
         {
           "word": "holen",
           "meaning": "Elhoz / megy utána",
-          "example": "Ich hole das Kind ab. = Megyek a gyerek után."
+          "example": "Ich hole das Kind ab. = Es aiziešu pakaļ bērnam."
         },
         {
           "word": "überholen",
           "meaning": "Előzni",
-          "example": "Das Auto überholt uns. = Egy autó előz minket."
+          "example": "Das Auto überholt uns. = Auto mūs apdzen."
         }
       ],
       "tip": {
@@ -19694,17 +19694,17 @@ const B1_WORDS = [
         {
           "word": "der Einsatz",
           "meaning": "Használat / elköteleződés / arány",
-          "example": "Der Einsatz der Technik hilft uns. = A technológia használata segít bennünket."
+          "example": "Der Einsatz der Technik hilft uns. = Tehnikas izmantošana mums palīdz."
         },
         {
           "word": "die Verwendung",
           "meaning": "Használat",
-          "example": "Die Verwendung des Geräts ist einfach. = A készülék használata egyszerű."
+          "example": "Die Verwendung des Geräts ist einfach. = Ierīces lietošana ir vienkārša."
         },
         {
           "word": "die Wette",
           "meaning": "Fogadások",
-          "example": "Er verliert die Wette. = Elveszíti a fogadást."
+          "example": "Er verliert die Wette. = Viņš zaudē derības."
         }
       ],
       "tip": {
@@ -19904,17 +19904,17 @@ const B1_WORDS = [
         {
           "word": "einsetzen",
           "meaning": "Használata / bevonása / elindítása",
-          "example": "Wir setzen die Software ein. = Szoftvert használunk."
+          "example": "Wir setzen die Software ein. = Mēs izmantojam programmatūru."
         },
         {
           "word": "benutzen",
           "meaning": "Használat",
-          "example": "Ich benutze das Handy. = Használom a telefont."
+          "example": "Ich benutze das Handy. = Es lietoju telefonu."
         },
         {
           "word": "beginnen",
           "meaning": "Kezdeni",
-          "example": "Der Kurs beginnt morgen. = Holnap indul a tanfolyam."
+          "example": "Der Kurs beginnt morgen. = Kurss sākas rīt."
         }
       ],
       "tip": {
@@ -20114,17 +20114,17 @@ const B1_WORDS = [
         {
           "word": "einstellen",
           "meaning": "Beállítani / bérelni / megszüntetni",
-          "example": "Ich stelle den Wecker ein. = Beállítottam az ébresztőt."
+          "example": "Ich stelle den Wecker ein. = Es iestatu modinātāju."
         },
         {
           "word": "anstellen",
           "meaning": "Felvenni",
-          "example": "Die Firma stellt ihn an. = A cég felveszi."
+          "example": "Die Firma stellt ihn an. = Firma viņu pieņem darbā."
         },
         {
           "word": "ausschalten",
           "meaning": "Kapcsolja ki",
-          "example": "Ich schalte das Licht aus. = Lekapcsoltam a villanyt."
+          "example": "Ich schalte das Licht aus. = Es izslēdzu gaismu."
         }
       ],
       "tip": {
@@ -20330,17 +20330,17 @@ const B1_WORDS = [
         {
           "word": "eintreten",
           "meaning": "Enter / enter",
-          "example": "Treten Sie ein! = Jöjjön be!"
+          "example": "Treten Sie ein! = Ienāciet!"
         },
         {
           "word": "betreten",
           "meaning": "Lépjen be a helyre",
-          "example": "Bitte betreten Sie den Raum nicht. = Kérjük, ne lépjen be a szobába."
+          "example": "Bitte betreten Sie den Raum nicht. = Lūdzu, neieejiet telpā."
         },
         {
           "word": "beitreten",
           "meaning": "Csatlakozzon a szervezethez",
-          "example": "Ich trete dem Verein bei. = Beléptem az egyesületbe."
+          "example": "Ich trete dem Verein bei. = Es iestājos biedrībā."
         }
       ],
       "tip": {
@@ -20539,17 +20539,17 @@ const B1_WORDS = [
         {
           "word": "einziehen",
           "meaning": "Beköltözni / feltölteni / behúzni",
-          "example": "Wir ziehen in die Wohnung ein. = Lakásba költözünk."
+          "example": "Wir ziehen in die Wohnung ein. = Mēs ievācamies dzīvoklī."
         },
         {
           "word": "umziehen",
           "meaning": "Mozogni",
-          "example": "Wir ziehen nächste Woche um. = Jövő héten költözünk."
+          "example": "Wir ziehen nächste Woche um. = Mēs nākamnedēļ pārvācamies."
         },
         {
           "word": "ausziehen",
           "meaning": "Kimozdulni / lehúzni",
-          "example": "Sie zieht aus. = Kiköltözik."
+          "example": "Sie zieht aus. = Viņa izvācas."
         }
       ],
       "tip": {
@@ -20826,7 +20826,7 @@ const B1_WORDS = [
         {
           "word": "empfangen",
           "meaning": "Fogadni / fogadni / észlelni",
-          "example": "Wir empfangen ein Signal. = Megkapjuk a jelet."
+          "example": "Wir empfangen ein Signal. = Mēs uztveram signālu."
         },
         {
           "word": "bekommen",
@@ -20836,7 +20836,7 @@ const B1_WORDS = [
         {
           "word": "begrüßen",
           "meaning": "Üdvözölni",
-          "example": "Ich begrüße die Gäste. = Üdvözlöm a vendégeket."
+          "example": "Ich begrüße die Gäste. = Es sveicinu viesus."
         }
       ],
       "tip": {
@@ -21070,17 +21070,17 @@ const B1_WORDS = [
         {
           "word": "entfernen",
           "meaning": "Eltávolítás / eltávolítás / törlés",
-          "example": "Entfernen Sie die Datei. = Törölje a fájlt."
+          "example": "Entfernen Sie die Datei. = Izdzēsiet failu."
         },
         {
           "word": "wegnehmen",
           "meaning": "Felszállni",
-          "example": "Nimm das Glas weg. = Vegye el az üveget."
+          "example": "Nimm das Glas weg. = Paņem glāzi nost."
         },
         {
           "word": "sich entfernen",
           "meaning": "Elköltözni",
-          "example": "Sie entfernt sich vom Bahnhof. = Eltávolodik az állomástól."
+          "example": "Sie entfernt sich vom Bahnhof. = Viņa attālinās no stacijas."
         }
       ],
       "tip": {
@@ -21273,17 +21273,17 @@ const B1_WORDS = [
         {
           "word": "enthalten",
           "meaning": "Tartalmaz / tartalmazza",
-          "example": "Das Paket enthält Bücher. = Könyvek vannak a csomagban."
+          "example": "Das Paket enthält Bücher. = Pakā ir grāmatas."
         },
         {
           "word": "beinhalten",
           "meaning": "Tartalmazza",
-          "example": "Der Text beinhaltet Beispiele. = A szöveg példákat tartalmaz."
+          "example": "Der Text beinhaltet Beispiele. = Teksts ietver piemērus."
         },
         {
           "word": "halten",
           "meaning": "Tart",
-          "example": "Ich halte die Tasche. = Táskát tartok."
+          "example": "Ich halte die Tasche. = Es turu somu."
         }
       ],
       "tip": {
@@ -21462,17 +21462,17 @@ const B1_WORDS = [
         {
           "word": "entkommen",
           "meaning": "Menekülés / menekülés",
-          "example": "Er ist der Gefahr entkommen. = Megszökött a veszély elől."
+          "example": "Er ist der Gefahr entkommen. = Viņš izbēga no briesmām."
         },
         {
           "word": "fliehen",
           "meaning": "Menekülni",
-          "example": "Viele Menschen fliehen aus der Stadt. = Sokan menekülnek a városból."
+          "example": "Viele Menschen fliehen aus der Stadt. = Daudzi cilvēki bēg no pilsētas."
         },
         {
           "word": "sich retten",
           "meaning": "Mentsd meg magad",
-          "example": "Sie rettet sich aus dem Haus. = Megszökik a házból."
+          "example": "Sie rettet sich aus dem Haus. = Viņa izglābjas no mājas."
         }
       ],
       "tip": {
@@ -21658,17 +21658,17 @@ const B1_WORDS = [
         {
           "word": "entlassen",
           "meaning": "Elbocsát / felment / elenged",
-          "example": "Sie wurde entlassen. = Kirúgták."
+          "example": "Sie wurde entlassen. = Viņa tika atlaista."
         },
         {
           "word": "kündigen",
           "meaning": "Állást vagy szerződést felmondani",
-          "example": "Er kündigt den Vertrag. = Dicséri a szerződést."
+          "example": "Er kündigt den Vertrag. = Viņš uzteic līgumu."
         },
         {
           "word": "freilassen",
           "meaning": "Szabaddá tenni",
-          "example": "Die Polizei lässt ihn frei. = A rendőrök elengedték."
+          "example": "Die Polizei lässt ihn frei. = Policija viņu palaiž brīvībā."
         }
       ],
       "tip": {
@@ -21879,17 +21879,17 @@ const B1_WORDS = [
         {
           "word": "entsprechen",
           "meaning": "Megfelel",
-          "example": "Das entspricht dem Plan. = Ez megy a tervvel."
+          "example": "Das entspricht dem Plan. = Tas atbilst plānam."
         },
         {
           "word": "passen",
           "meaning": "Illeszkedik / illik",
-          "example": "Der Schlüssel passt nicht. = A kulcs nem működik."
+          "example": "Der Schlüssel passt nicht. = Atslēga neder."
         },
         {
           "word": "antworten",
           "meaning": "Válaszolni",
-          "example": "Sie antwortet auf die Frage. = Ő válaszol a kérdésre."
+          "example": "Sie antwortet auf die Frage. = Viņa atbild uz jautājumu."
         }
       ],
       "tip": {
@@ -22061,17 +22061,17 @@ const B1_WORDS = [
         {
           "word": "entstehen",
           "meaning": "Keletkezik / válik",
-          "example": "Ein Problem entsteht. = Probléma lép fel."
+          "example": "Ein Problem entsteht. = Rodas problēma."
         },
         {
           "word": "schaffen",
           "meaning": "Tudatosan alkotni",
-          "example": "Sie schafft neue Arbeitsplätze. = Új munkahelyeket teremt."
+          "example": "Sie schafft neue Arbeitsplätze. = Viņa rada jaunas darba vietas."
         },
         {
           "word": "passieren",
           "meaning": "Történik",
-          "example": "Was ist passiert? = Mi történt?"
+          "example": "Was ist passiert? = Kas notika?"
         }
       ],
       "tip": {
@@ -22399,17 +22399,17 @@ const B1_WORDS = [
         {
           "word": "erhalten",
           "meaning": "Fogadás / mentés",
-          "example": "Ich erhalte einen Brief. = Levelet kapok."
+          "example": "Ich erhalte einen Brief. = Es saņemu vēstuli."
         },
         {
           "word": "bekommen",
           "meaning": "Mindennap kapni",
-          "example": "Ich bekomme Hilfe. = Segítséget kapok."
+          "example": "Ich bekomme Hilfe. = Es saņemu palīdzību."
         },
         {
           "word": "bewahren",
           "meaning": "Megtakarítás",
-          "example": "Wir bewahren die Tradition. = Életben tartjuk a hagyományt."
+          "example": "Wir bewahren die Tradition. = Mēs saglabājam tradīciju."
         }
       ],
       "tip": {
@@ -22702,17 +22702,17 @@ const B1_WORDS = [
         {
           "word": "eröffnen",
           "meaning": "Hivatalosan megnyílik / felfedni",
-          "example": "Sie eröffnet ein Konto. = Számlát nyit."
+          "example": "Sie eröffnet ein Konto. = Viņa atver kontu."
         },
         {
           "word": "öffnen",
           "meaning": "Fizikailag nyitott",
-          "example": "Ich öffne die Tür. = Kinyitom az ajtót."
+          "example": "Ich öffne die Tür. = Es atveru durvis."
         },
         {
           "word": "beginnen",
           "meaning": "Kezdeni",
-          "example": "Wir beginnen die Sitzung. = Elkezdjük a foglalkozást."
+          "example": "Wir beginnen die Sitzung. = Mēs sākam sēdi."
         }
       ],
       "tip": {
@@ -22922,17 +22922,17 @@ const B1_WORDS = [
         {
           "word": "erscheinen",
           "meaning": "Megjelenni / kijönni / megérkezni",
-          "example": "Der Artikel erscheint morgen. = A cikk holnap jelenik meg."
+          "example": "Der Artikel erscheint morgen. = Raksts iznāks rīt."
         },
         {
           "word": "auftauchen",
           "meaning": "Megjelenni",
-          "example": "Er taucht plötzlich auf. = Hirtelen megjelenik."
+          "example": "Er taucht plötzlich auf. = Viņš pēkšņi uzrodas."
         },
         {
           "word": "ankommen",
           "meaning": "Megérkezik a helyszínre",
-          "example": "Der Zug kommt an. = Megérkezik a vonat."
+          "example": "Der Zug kommt an. = Vilciens pienāk."
         }
       ],
       "tip": {
@@ -23114,17 +23114,17 @@ const B1_WORDS = [
         {
           "word": "ersetzen",
           "meaning": "Cserélje ki / kompenzálja",
-          "example": "Das ersetzt die alte Lösung. = Felváltja a régi megoldást."
+          "example": "Das ersetzt die alte Lösung. = Tas aizstāj veco risinājumu."
         },
         {
           "word": "austauschen",
           "meaning": "Cserélje ki",
-          "example": "Wir tauschen das Teil aus. = Cseréljük az alkatrészt."
+          "example": "Wir tauschen das Teil aus. = Mēs nomainām detaļu."
         },
         {
           "word": "entschädigen",
           "meaning": "Kompenzálni",
-          "example": "Die Firma entschädigt den Kunden. = A cég kártalanítja az ügyfelet."
+          "example": "Die Firma entschädigt den Kunden. = Firma kompensē klientam."
         }
       ],
       "tip": {
@@ -23586,17 +23586,17 @@ const B1_WORDS = [
         {
           "word": "fassen",
           "meaning": "Megragad / átfog / illeszkedik",
-          "example": "Ich kann es nicht fassen. = Nem tudom felfogni."
+          "example": "Ich kann es nicht fassen. = Es to nespēju aptvert."
         },
         {
           "word": "greifen",
           "meaning": "Kézzel megfogni",
-          "example": "Er greift nach der Tasche. = A táskájáért nyúl."
+          "example": "Er greift nach der Tasche. = Viņš sniedzas pēc somas."
         },
         {
           "word": "verstehen",
           "meaning": "Megérteni",
-          "example": "Ich verstehe dich. = Megértelek."
+          "example": "Ich verstehe dich. = Es tevi saprotu."
         }
       ],
       "tip": {
@@ -23780,17 +23780,17 @@ const B1_WORDS = [
         {
           "word": "faul",
           "meaning": "Lusta / rohadt",
-          "example": "Er ist faul. = Ő lusta."
+          "example": "Er ist faul. = Viņš ir slinks."
         },
         {
           "word": "träge",
           "meaning": "Lomha / lusta",
-          "example": "Er wirkt heute träge. = Ma lustának tűnik."
+          "example": "Er wirkt heute träge. = Viņš šodien šķiet kūtrs."
         },
         {
           "word": "verdorben",
           "meaning": "Összetört",
-          "example": "Das Essen ist verdorben. = Az étel megromlott."
+          "example": "Das Essen ist verdorben. = Ēdiens ir sabojājies."
         }
       ],
       "tip": {
@@ -24056,17 +24056,17 @@ const B1_WORDS = [
         {
           "word": "festhalten",
           "meaning": "Tartsa szorosan / rögzítse",
-          "example": "Halte das Seil fest. = Tartsa szorosan a kötelet."
+          "example": "Halte das Seil fest. = Turi virvi cieši."
         },
         {
           "word": "halten",
           "meaning": "Tart",
-          "example": "Ich halte die Tasche. = Táskát tartok."
+          "example": "Ich halte die Tasche. = Es turu somu."
         },
         {
           "word": "feststellen",
           "meaning": "Megállapítani",
-          "example": "Ich stelle einen Fehler fest. = Hibát találtam."
+          "example": "Ich stelle einen Fehler fest. = Es konstatēju kļūdu."
         }
       ],
       "tip": {
@@ -24233,17 +24233,17 @@ const B1_WORDS = [
         {
           "word": "festlegen",
           "meaning": "Előre meghatározni",
-          "example": "Wir legen den Plan fest. = Készítettünk egy tervet."
+          "example": "Wir legen den Plan fest. = Mēs nosakām plānu."
         },
         {
           "word": "bestimmen",
           "meaning": "Meghatározni",
-          "example": "Der Arzt bestimmt die Dosis. = Az orvos határozza meg az adagot."
+          "example": "Der Arzt bestimmt die Dosis. = Ārsts nosaka devu."
         },
         {
           "word": "feststellen",
           "meaning": "Megállapítani",
-          "example": "Ich stelle einen Fehler fest. = Hibát találtam."
+          "example": "Ich stelle einen Fehler fest. = Es konstatēju kļūdu."
         }
       ],
       "tip": {
@@ -24423,17 +24423,17 @@ const B1_WORDS = [
         {
           "word": "feststellen",
           "meaning": "Megállapítani / kideríteni a tényt",
-          "example": "Ich stelle einen Fehler fest. = Hibát találtam."
+          "example": "Ich stelle einen Fehler fest. = Es konstatēju kļūdu."
         },
         {
           "word": "festlegen",
           "meaning": "Előre meghatározni",
-          "example": "Wir legen den Termin fest. = Határidőt tűztünk ki."
+          "example": "Wir legen den Termin fest. = Mēs nosakām termiņu."
         },
         {
           "word": "bemerken",
           "meaning": "Észrevenni",
-          "example": "Ich bemerke den Fehler. = Hibát veszek észre."
+          "example": "Ich bemerke den Fehler. = Es pamanu kļūdu."
         }
       ],
       "tip": {
@@ -24836,17 +24836,17 @@ const B1_WORDS = [
         {
           "word": "die Folge",
           "meaning": "Következmény / sorozat",
-          "example": "Das hat Folgen. = Ennek következményei vannak."
+          "example": "Das hat Folgen. = Tam ir sekas."
         },
         {
           "word": "die Konsequenz",
           "meaning": "Következmény / logikai eredmény",
-          "example": "Das ist die Konsequenz. = Ezek a következmények."
+          "example": "Das ist die Konsequenz. = Tās ir sekas."
         },
         {
           "word": "die Episode",
           "meaning": "Epizód",
-          "example": "Die Episode ist kurz. = Az epizód rövid."
+          "example": "Die Episode ist kurz. = Epizode ir īsa."
         }
       ],
       "tip": {
@@ -25031,17 +25031,17 @@ const B1_WORDS = [
         {
           "word": "fördern",
           "meaning": "Elősegíti / támogatja / kivonja az ásványi anyagokat",
-          "example": "Das fördert die Entwicklung. = Elősegíti a fejlődést."
+          "example": "Das fördert die Entwicklung. = Tas veicina attīstību."
         },
         {
           "word": "fordern",
           "meaning": "Kérni",
-          "example": "Sie fordert mehr Geld. = Több pénzt kér."
+          "example": "Sie fordert mehr Geld. = Viņa prasa vairāk naudas."
         },
         {
           "word": "unterstützen",
           "meaning": "Támogatni",
-          "example": "Wir unterstützen das Projekt. = Támogatjuk a projektet."
+          "example": "Wir unterstützen das Projekt. = Mēs atbalstām projektu."
         }
       ],
       "tip": {
@@ -25249,17 +25249,17 @@ const B1_WORDS = [
         {
           "word": "fortfahren",
           "meaning": "Tovább / elhajtani",
-          "example": "Fahren Sie fort. = Folytatás."
+          "example": "Fahren Sie fort. = Turpiniet."
         },
         {
           "word": "weitermachen",
           "meaning": "Csináld tovább",
-          "example": "Wir machen morgen weiter. = Holnap folytatjuk."
+          "example": "Wir machen morgen weiter. = Mēs rīt turpināsim."
         },
         {
           "word": "wegfahren",
           "meaning": "Hogy távozzon",
-          "example": "Er fährt weg. = Elmegy."
+          "example": "Er fährt weg. = Viņš aizbrauc."
         }
       ],
       "tip": {
@@ -25505,17 +25505,17 @@ const B1_WORDS = [
         {
           "word": "fressen",
           "meaning": "Egye meg az állatot / holnap",
-          "example": "Der Hund frisst. = A kutya eszik."
+          "example": "Der Hund frisst. = Suns ēd."
         },
         {
           "word": "essen",
           "meaning": "Megenni egy embert",
-          "example": "Ich esse Brot. = Eszem kenyeret."
+          "example": "Ich esse Brot. = Es ēdu maizi."
         },
         {
           "word": "verschlingen",
           "meaning": "Nyelés",
-          "example": "Er verschlingt das Essen. = Felfalja az ételt."
+          "example": "Er verschlingt das Essen. = Viņš aprij ēdienu."
         }
       ],
       "tip": {
@@ -25822,17 +25822,17 @@ const B1_WORDS = [
         {
           "word": "das Futter",
           "meaning": "Állati takarmány / bélés",
-          "example": "Das Futter ist teuer. = Az élelmiszer drága."
+          "example": "Das Futter ist teuer. = Barība ir dārga."
         },
         {
           "word": "das Essen",
           "meaning": "Étel az embereknek",
-          "example": "Das Essen ist fertig. = Az étel kész."
+          "example": "Das Essen ist fertig. = Ēdiens ir gatavs."
         },
         {
           "word": "die Nahrung",
           "meaning": "Táplálás",
-          "example": "Pflanzen brauchen Nahrung. = A növényeknek tápanyagra van szükségük."
+          "example": "Pflanzen brauchen Nahrung. = Augiem vajag uzturu."
         }
       ],
       "tip": {
@@ -26299,17 +26299,17 @@ const B1_WORDS = [
         {
           "word": "das Gebiet",
           "meaning": "Terület/terület",
-          "example": "Das ist mein Gebiet. = Ez az én területem."
+          "example": "Das ist mein Gebiet. = Tā ir mana joma."
         },
         {
           "word": "der Bereich",
           "meaning": "Terület / zóna / szakasz",
-          "example": "Dieser Bereich ist wichtig. = Ez a terület fontos."
+          "example": "Dieser Bereich ist wichtig. = Šī joma ir svarīga."
         },
         {
           "word": "die Gegend",
           "meaning": "Szomszédságában",
-          "example": "Die Gegend ist schön. = A környék gyönyörű."
+          "example": "Die Gegend ist schön. = Apkārtne ir skaista."
         }
       ],
       "tip": {
@@ -26662,17 +26662,17 @@ const B1_WORDS = [
         {
           "word": "das Gehalt",
           "meaning": "Fizetés • Díjazás",
-          "example": "Das Gehalt ist gut. = A fizetés jó. Többes szám: die Gehälter."
+          "example": "Das Gehalt ist gut. = Alga ir laba. Plural: die Gehälter."
         },
         {
           "word": "der Gehalt",
           "meaning": "Tartalom • Anyag",
-          "example": "Der Gehalt ist klar. = A tartalom egyértelmű. Többes szám: die Gehalte."
+          "example": "Der Gehalt ist klar. = Saturs ir skaidrs. Plural: die Gehalte."
         },
         {
           "word": "der Verdienst",
           "meaning": "Szerzett • Jövedelem",
-          "example": "Sein Verdienst ist hoch. = A jövedelme magas."
+          "example": "Sein Verdienst ist hoch. = Viņa ienākums ir augsts."
         }
       ],
       "tip": {
@@ -26766,17 +26766,17 @@ const B1_WORDS = [
         {
           "word": "der Gehalt",
           "meaning": "Tartalom • Anyag",
-          "example": "Der Gehalt ist klar. = A tartalom egyértelmű. Többes szám: die Gehalte."
+          "example": "Der Gehalt ist klar. = Saturs ir skaidrs. Plural: die Gehalte."
         },
         {
           "word": "das Gehalt",
           "meaning": "Fizetés • Díjazás",
-          "example": "Das Gehalt ist gut. = A fizetés jó. Többes szám: die Gehälter."
+          "example": "Das Gehalt ist gut. = Alga ir laba. Plural: die Gehälter."
         },
         {
           "word": "der Inhalt",
           "meaning": "Tartalom (általános)",
-          "example": "Der Inhalt ist interessant. = A tartalom érdekes."
+          "example": "Der Inhalt ist interessant. = Saturs ir interesants."
         }
       ],
       "tip": {
@@ -26994,17 +26994,17 @@ const B1_WORDS = [
         {
           "word": "gelten",
           "meaning": "Érvényesnek / érvényesnek lenni",
-          "example": "Das Gesetz gilt überall. = A törvény mindenhol érvényes."
+          "example": "Das Gesetz gilt überall. = Likums ir spēkā visur."
         },
         {
           "word": "gelten als",
           "meaning": "Úgy kell tekinteni",
-          "example": "Sie gilt als Expertin. = Szakértőnek számít."
+          "example": "Sie gilt als Expertin. = Viņa tiek uzskatīta par eksperti."
         },
         {
           "word": "passen",
           "meaning": "Illeszkedik / illik",
-          "example": "Der Schlüssel passt nicht. = A kulcs nem működik."
+          "example": "Der Schlüssel passt nicht. = Atslēga neder."
         }
       ],
       "tip": {
@@ -27183,17 +27183,17 @@ const B1_WORDS = [
         {
           "word": "gemein",
           "meaning": "Gonosz / aljas / csúnya",
-          "example": "Das ist gemein. = Ez tisztességtelen."
+          "example": "Das ist gemein. = Tas ir nekrietni."
         },
         {
           "word": "gemeinsam",
           "meaning": "Közös",
-          "example": "Wir haben ein gemeinsames Ziel. = Közös célunk van."
+          "example": "Wir haben ein gemeinsames Ziel. = Mums ir kopīgs mērķis."
         },
         {
           "word": "gewöhnlich",
           "meaning": "Rendes",
-          "example": "Das ist gewöhnlich. = Ez normális."
+          "example": "Das ist gewöhnlich. = Tas ir parasts."
         }
       ],
       "tip": {
@@ -27450,17 +27450,17 @@ const B1_WORDS = [
         {
           "word": "das Gerät",
           "meaning": "Készülék / készülék",
-          "example": "Das Gerät ist neu. = A készülék új."
+          "example": "Das Gerät ist neu. = Ierīce ir jauna."
         },
         {
           "word": "das Werkzeug",
           "meaning": "Eszköz",
-          "example": "Das Werkzeug liegt im Keller. = A hangszer az alagsorban van."
+          "example": "Das Werkzeug liegt im Keller. = Instruments atrodas pagrabā."
         },
         {
           "word": "die Maschine",
           "meaning": "Gép/berendezés",
-          "example": "Die Maschine läuft den ganzen Tag. = A gép egész nap működik."
+          "example": "Die Maschine läuft den ganzen Tag. = Iekārta darbojas visu dienu."
         }
       ],
       "tip": {
@@ -27730,17 +27730,17 @@ const B1_WORDS = [
         {
           "word": "das Geschlecht",
           "meaning": "Nem / nem",
-          "example": "Das Geschlecht wird im Formular gefragt. = Az űrlap a nemet kéri."
+          "example": "Das Geschlecht wird im Formular gefragt. = Veidlapā jautā dzimumu."
         },
         {
           "word": "das Genus",
           "meaning": "Nyelvtani nem",
-          "example": "Das Genus ist feminin. = A nem nő."
+          "example": "Das Genus ist feminin. = Dzimte ir sieviešu."
         },
         {
           "word": "die Generation",
           "meaning": "Generáció",
-          "example": "Diese Generation ist jung. = Ez a generáció fiatal."
+          "example": "Diese Generation ist jung. = Šī paaudze ir jauna."
         }
       ],
       "tip": {
@@ -27910,17 +27910,17 @@ const B1_WORDS = [
         {
           "word": "die Gesellschaft",
           "meaning": "Társadalom / társaság",
-          "example": "Die Gesellschaft verändert sich. = A társadalom változik."
+          "example": "Die Gesellschaft verändert sich. = Sabiedrība mainās."
         },
         {
           "word": "die Firma",
           "meaning": "Cég",
-          "example": "Die Firma wächst schnell. = A cég gyorsan növekszik."
+          "example": "Die Firma wächst schnell. = Firma strauji aug."
         },
         {
           "word": "die Gemeinschaft",
           "meaning": "Közösség",
-          "example": "Die Gemeinschaft hilft einander. = A közösség segíti egymást."
+          "example": "Die Gemeinschaft hilft einander. = Kopiena palīdz cita citai."
         }
       ],
       "tip": {
@@ -28176,17 +28176,17 @@ const B1_WORDS = [
         {
           "word": "der Gewinn",
           "meaning": "Nyereség / nyert",
-          "example": "Der Gewinn ist hoch. = A haszon nagyszerű."
+          "example": "Der Gewinn ist hoch. = Peļņa ir liela."
         },
         {
           "word": "der Umsatz",
           "meaning": "Forgalom",
-          "example": "Der Umsatz steigt. = A forgalom nő."
+          "example": "Der Umsatz steigt. = Apgrozījums aug."
         },
         {
           "word": "der Preis",
           "meaning": "Ár/díj",
-          "example": "Der Preis ist hoch. = Az ár magas."
+          "example": "Der Preis ist hoch. = Cena ir augsta."
         }
       ],
       "tip": {
@@ -28357,17 +28357,17 @@ const B1_WORDS = [
         {
           "word": "gewiss",
           "meaning": "Biztos / biztos / határozottan",
-          "example": "Das ist gewiss. = Ez biztonságos."
+          "example": "Das ist gewiss. = Tas ir droši."
         },
         {
           "word": "sicher",
           "meaning": "Biztos / határozottan",
-          "example": "Das ist sicher. = Ez biztonságos."
+          "example": "Das ist sicher. = Tas ir droši."
         },
         {
           "word": "bestimmt",
           "meaning": "Határozottan / határozottan",
-          "example": "Er kommt bestimmt. = Biztosan eljön."
+          "example": "Er kommt bestimmt. = Viņš noteikti atnāks."
         }
       ],
       "tip": {
@@ -28549,17 +28549,17 @@ const B1_WORDS = [
         {
           "word": "sich gewöhnen an",
           "meaning": "Megszokni",
-          "example": "Ich gewöhne mich daran. = Kezdem megszokni."
+          "example": "Ich gewöhne mich daran. = Es pie tā pierodu."
         },
         {
           "word": "gewöhnen",
           "meaning": "Szelíd",
-          "example": "Ich gewöhne das Kind daran. = Szoktatni szoktam a gyereket."
+          "example": "Ich gewöhne das Kind daran. = Es pieradinu bērnu pie tā."
         },
         {
           "word": "sich eingewöhnen",
           "meaning": "Beilleszkedni egy új környezetbe",
-          "example": "Ich gewöhne mich langsam ein. = Lassan beilleszkedtem."
+          "example": "Ich gewöhne mich langsam ein. = Es lēnām iedzīvojos."
         }
       ],
       "tip": {
@@ -28758,17 +28758,17 @@ const B1_WORDS = [
         {
           "word": "das Gitter",
           "meaning": "Rács / rudak",
-          "example": "Das Gitter schützt das Fenster. = Rács védi az ablakot."
+          "example": "Das Gitter schützt das Fenster. = Režģis aizsargā logu."
         },
         {
           "word": "das Geländer",
           "meaning": "Korlát",
-          "example": "Halt dich am Geländer fest. = Kapaszkodj a korlátba."
+          "example": "Halt dich am Geländer fest. = Turies pie margām."
         },
         {
           "word": "der Zaun",
           "meaning": "Kerítés",
-          "example": "Der Zaun ist aus Holz. = A kerítés fából készült."
+          "example": "Der Zaun ist aus Holz. = Žogs ir no koka."
         }
       ],
       "tip": {
@@ -29087,17 +29087,17 @@ const B1_WORDS = [
         {
           "word": "greifen",
           "meaning": "Megragadni / kinyújtani / elérni",
-          "example": "Sie greift nach dem Glas. = Az üvegért nyúl."
+          "example": "Sie greift nach dem Glas. = Viņa sniedzas pēc glāzes."
         },
         {
           "word": "fassen",
           "meaning": "Felfogni / megragadni",
-          "example": "Fass meine Hand! = Fogd meg a kezem!"
+          "example": "Fass meine Hand! = Satver manu roku!"
         },
         {
           "word": "nehmen",
           "meaning": "Venni",
-          "example": "Nimm bitte das Glas. = Vegyél egy pohárral, kérlek."
+          "example": "Nimm bitte das Glas. = Paņem, lūdzu, glāzi."
         }
       ],
       "tip": {
@@ -29297,17 +29297,17 @@ const B1_WORDS = [
         {
           "word": "der Griff",
           "meaning": "Fogantyú / markolat",
-          "example": "Der Griff ist aus Metall. = A fogantyú fémből készült."
+          "example": "Der Griff ist aus Metall. = Rokturis ir no metāla."
         },
         {
           "word": "der Henkel",
           "meaning": "Bogáncs",
-          "example": "Die Tasse hat einen Henkel. = A csészében bogáncs van."
+          "example": "Die Tasse hat einen Henkel. = Krūzei ir osa."
         },
         {
           "word": "greifen",
           "meaning": "Megragadni",
-          "example": "Sie greift nach dem Glas. = Az üvegért nyúl."
+          "example": "Sie greift nach dem Glas. = Viņa sniedzas pēc glāzes."
         }
       ],
       "tip": {
@@ -29597,17 +29597,17 @@ const B1_WORDS = [
         {
           "word": "das Gut",
           "meaning": "Ingatlan / birtok / kastély",
-          "example": "Das Gut ist alt. = A kastély régi."
+          "example": "Das Gut ist alt. = Muiža ir veca."
         },
         {
           "word": "die Güter",
           "meaning": "Áruk / anyagi értékek",
-          "example": "Der Zug bringt Güter. = A vonat árut szállít."
+          "example": "Der Zug bringt Güter. = Vilciens ved preces."
         },
         {
           "word": "gut",
           "meaning": "Jó",
-          "example": "Das Essen ist gut. = Az étel jó."
+          "example": "Das Essen ist gut. = Ēdiens ir labs."
         }
       ],
       "tip": {
@@ -29942,17 +29942,17 @@ const B1_WORDS = [
         {
           "word": "handeln",
           "meaning": "Cselekedj / legyen az alany / kereskedj",
-          "example": "Wir müssen handeln. = Cselekednünk kell."
+          "example": "Wir müssen handeln. = Mums jārīkojas."
         },
         {
           "word": "arbeiten",
           "meaning": "Dolgozni",
-          "example": "Ich arbeite im Büro. = Egy irodában dolgozom."
+          "example": "Ich arbeite im Büro. = Es strādāju birojā."
         },
         {
           "word": "verkaufen",
           "meaning": "Eladni",
-          "example": "Sie verkauft Brot. = Kenyeret árul."
+          "example": "Sie verkauft Brot. = Viņa pārdod maizi."
         }
       ],
       "tip": {
@@ -30132,17 +30132,17 @@ const B1_WORDS = [
         {
           "word": "der Handgriff",
           "meaning": "Technika / mozgás / fogantyú",
-          "example": "Ein Handgriff reicht. = Egy technika elég."
+          "example": "Ein Handgriff reicht. = Pietiek ar vienu paņēmienu."
         },
         {
           "word": "der Griff",
           "meaning": "Fogantyú / markolat",
-          "example": "Der Griff ist locker. = A fogantyú laza."
+          "example": "Der Griff ist locker. = Rokturis ir vaļīgs."
         },
         {
           "word": "die Handlung",
           "meaning": "Cselekvés / magatartás",
-          "example": "Die Handlung war falsch. = Az akció rossz volt."
+          "example": "Die Handlung war falsch. = Rīcība bija nepareiza."
         }
       ],
       "tip": {
@@ -30391,17 +30391,17 @@ const B1_WORDS = [
         {
           "word": "hauen",
           "meaning": "Ütni / vágni",
-          "example": "Er haut auf den Tisch. = Leüti az asztalt."
+          "example": "Er haut auf den Tisch. = Viņš sit pa galdu."
         },
         {
           "word": "schlagen",
           "meaning": "Találat",
-          "example": "Er schlägt den Ball. = Eltalálja a labdát."
+          "example": "Er schlägt den Ball. = Viņš sit bumbu."
         },
         {
           "word": "hacken",
           "meaning": "Aprítani",
-          "example": "Sie hackt Gemüse. = Zöldségeket vág fel."
+          "example": "Sie hackt Gemüse. = Viņa kapā dārzeņus."
         }
       ],
       "tip": {
@@ -30576,17 +30576,17 @@ const B1_WORDS = [
         {
           "word": "der Haufen",
           "meaning": "Halom / csokor / csorda",
-          "example": "Ein Haufen Sand liegt dort. = Van egy halom homok."
+          "example": "Ein Haufen Sand liegt dort. = Tur ir smilšu kaudze."
         },
         {
           "word": "der Stapel",
           "meaning": "Egy takaros halom",
-          "example": "Ein Stapel Bücher liegt auf dem Tisch. = Az asztalon egy halom könyv van."
+          "example": "Ein Stapel Bücher liegt auf dem Tisch. = Uz galda ir grāmatu kaudze."
         },
         {
           "word": "die Menge",
           "meaning": "Mennyiség / tömeg",
-          "example": "Eine Menge Leute wartet. = Sokan várnak."
+          "example": "Eine Menge Leute wartet. = Gaidā daudz cilvēku."
         }
       ],
       "tip": {
@@ -31002,17 +31002,17 @@ const B1_WORDS = [
         {
           "word": "herausgeben",
           "meaning": "Kérdés / kérdés",
-          "example": "Der Verlag gibt ein Buch heraus. = A kiadó könyvet ad ki."
+          "example": "Der Verlag gibt ein Buch heraus. = Izdevniecība izdod grāmatu."
         },
         {
           "word": "ausgeben",
           "meaning": "Költeni / szétosztani",
-          "example": "Er gibt viel Geld aus. = Sok pénzt költ."
+          "example": "Er gibt viel Geld aus. = Viņš tērē daudz naudas."
         },
         {
           "word": "zurückgeben",
           "meaning": "Visszaadni",
-          "example": "Ich gebe das Buch zurück. = Visszaadom a könyvet."
+          "example": "Ich gebe das Buch zurück. = Es atdodu grāmatu atpakaļ."
         }
       ],
       "tip": {
@@ -31219,17 +31219,17 @@ const B1_WORDS = [
         {
           "word": "herkommen",
           "meaning": "Jöjjön ide / származzon",
-          "example": "Komm her! = Gyere ide!"
+          "example": "Komm her! = Nāc šurp!"
         },
         {
           "word": "kommen",
           "meaning": "Hogy jöjjön",
-          "example": "Ich komme um acht. = Nyolcra jövök."
+          "example": "Ich komme um acht. = Es nākšu astoņos."
         },
         {
           "word": "hingehen",
           "meaning": "Menj oda",
-          "example": "Ich gehe zum Arzt hin. = Elmentem az orvoshoz."
+          "example": "Ich gehe zum Arzt hin. = Es aizeju pie ārsta."
         }
       ],
       "tip": {
@@ -31458,17 +31458,17 @@ const B1_WORDS = [
         {
           "word": "hinausgehen",
           "meaning": "Kimenni / túllépni",
-          "example": "Ich gehe hinaus. = Kimegyek."
+          "example": "Ich gehe hinaus. = Es izeju ārā."
         },
         {
           "word": "herauskommen",
           "meaning": "Gyere ki ide",
-          "example": "Komm bitte heraus! = Kérlek gyere ki!"
+          "example": "Komm bitte heraus! = Iznāc, lūdzu, ārā!"
         },
         {
           "word": "ausgehen",
           "meaning": "Kimenni szórakozni / elfogyni",
-          "example": "Wir gehen heute aus. = Ma kimegyünk."
+          "example": "Wir gehen heute aus. = Mēs šodien ejam ārā."
         }
       ],
       "tip": {
@@ -31683,17 +31683,17 @@ const B1_WORDS = [
         {
           "word": "der Hinweis",
           "meaning": "Utasítás / megjegyzés",
-          "example": "Danke für den Hinweis. = Köszönöm az instrukciót."
+          "example": "Danke für den Hinweis. = Paldies par norādījumu."
         },
         {
           "word": "der Rat",
           "meaning": "Tanács",
-          "example": "Danke für deinen Rat. = Köszönöm a tanácsodat."
+          "example": "Danke für deinen Rat. = Paldies par tavu padomu."
         },
         {
           "word": "die Warnung",
           "meaning": "Figyelmeztetés",
-          "example": "Die Warnung war wichtig. = A figyelmeztetés fontos volt."
+          "example": "Die Warnung war wichtig. = Brīdinājums bija svarīgs."
         }
       ],
       "tip": {
@@ -31979,17 +31979,17 @@ const B1_WORDS = [
         {
           "word": "holen",
           "meaning": "Menj és hozd",
-          "example": "Ich hole Brot. = Kenyeret hoztam."
+          "example": "Ich hole Brot. = Es atnesu maizi."
         },
         {
           "word": "bringen",
           "meaning": "Szállítani valakinek",
-          "example": "Bring mir bitte Wasser. = Hozz vizet, kérlek."
+          "example": "Bring mir bitte Wasser. = Atnes man, lūdzu, ūdeni."
         },
         {
           "word": "nehmen",
           "meaning": "Venni",
-          "example": "Nimm die Tasche. = Vidd a táskát."
+          "example": "Nimm die Tasche. = Paņem somu."
         }
       ],
       "tip": {
@@ -32247,17 +32247,17 @@ const B1_WORDS = [
         {
           "word": "horchen",
           "meaning": "Figyelj figyelmesen",
-          "example": "Sie horcht an der Tür. = Az ajtóban hallgat."
+          "example": "Sie horcht an der Tür. = Viņa klausās pie durvīm."
         },
         {
           "word": "hören",
           "meaning": "Hallani/hallgatni",
-          "example": "Ich höre Musik. = Zenét hallgatok."
+          "example": "Ich höre Musik. = Es klausos mūziku."
         },
         {
           "word": "zuhören",
           "meaning": "Hallgass meg valakit",
-          "example": "Hör mir bitte zu. = Kérlek, hallgass meg."
+          "example": "Hör mir bitte zu. = Lūdzu, klausies manī."
         }
       ],
       "tip": {
@@ -32708,17 +32708,17 @@ const B1_WORDS = [
         {
           "word": "die Hupe",
           "meaning": "Kürt • Kürt",
-          "example": "Die Hupe ist laut. = Hangos a kürt."
+          "example": "Die Hupe ist laut. = Signāltaure ir skaļa."
         },
         {
           "word": "hupen",
           "meaning": "Hogy jelezzen a kürttel",
-          "example": "Er hupt. = Jelzi."
+          "example": "Er hupt. = Viņš signalizē."
         },
         {
           "word": "das Signal",
           "meaning": "Jel",
-          "example": "Das Signal ist klar. = A jel egyértelmű."
+          "example": "Das Signal ist klar. = Signāls ir skaidrs."
         }
       ],
       "tip": {
@@ -32831,17 +32831,17 @@ const B1_WORDS = [
         {
           "word": "hüten",
           "meaning": "Őriz / vigyáz / pásztor",
-          "example": "Sie hütet die Kinder. = Ő vigyáz a gyerekekre."
+          "example": "Sie hütet die Kinder. = Viņa pieskata bērnus."
         },
         {
           "word": "bewachen",
           "meaning": "Őrködni",
-          "example": "Der Hund bewacht das Haus. = A kutya őrzi a házat."
+          "example": "Der Hund bewacht das Haus. = Suns apsargā māju."
         },
         {
           "word": "aufpassen",
           "meaning": "Vigyázz / vigyázz",
-          "example": "Pass auf die Kinder auf. = Vigyázz a gyerekekre."
+          "example": "Pass auf die Kinder auf. = Pieskati bērnus."
         }
       ],
       "tip": {
@@ -33237,17 +33237,17 @@ const B1_WORDS = [
         {
           "word": "innerhalb",
           "meaning": "Belül / közben / belül",
-          "example": "Innerhalb einer Woche. = A hét folyamán."
+          "example": "Innerhalb einer Woche. = Nedēļas laikā."
         },
         {
           "word": "außerhalb",
           "meaning": "Kívül",
-          "example": "Wir wohnen außerhalb der Stadt. = A városon kívül élünk."
+          "example": "Wir wohnen außerhalb der Stadt. = Mēs dzīvojam ārpus pilsētas."
         },
         {
           "word": "in",
           "meaning": "In / after",
-          "example": "Ich bin in der Stadt. = A városban vagyok."
+          "example": "Ich bin in der Stadt. = Es esmu pilsētā."
         }
       ],
       "tip": {
@@ -33563,17 +33563,17 @@ const B1_WORDS = [
         {
           "word": "sich irren",
           "meaning": "Tévedni",
-          "example": "Ich irre mich. = Tévedek."
+          "example": "Ich irre mich. = Es kļūdos."
         },
         {
           "word": "sich täuschen",
           "meaning": "Tévedni / becsapni",
-          "example": "Ich habe mich getäuscht. = Tévedtem."
+          "example": "Ich habe mich getäuscht. = Es kļūdījos."
         },
         {
           "word": "sich verlaufen",
           "meaning": "Gyalog eltévedni",
-          "example": "Wir haben uns verlaufen. = Eltévedtünk."
+          "example": "Wir haben uns verlaufen. = Mēs apmaldījāmies."
         }
       ],
       "tip": {
@@ -33792,17 +33792,17 @@ const B1_WORDS = [
         {
           "word": "jagen",
           "meaning": "Vadászni / üldözni / rohanni",
-          "example": "Der Hund jagt die Katze. = A kutya üldözi a macskát."
+          "example": "Der Hund jagt die Katze. = Suns dzen kaķi."
         },
         {
           "word": "verfolgen",
           "meaning": "Követni / üldözni",
-          "example": "Die Polizei verfolgt den Täter. = A rendőrség üldözi a tettest."
+          "example": "Die Polizei verfolgt den Täter. = Policija vajā vainīgo."
         },
         {
           "word": "sich beeilen",
           "meaning": "Siess",
-          "example": "Ich muss mich beeilen. = Sietnem kell."
+          "example": "Ich muss mich beeilen. = Man jāsteidzas."
         }
       ],
       "tip": {
@@ -34027,17 +34027,17 @@ const B1_WORDS = [
         {
           "word": "der Jahrgang",
           "meaning": "Adott év ballagása / csoportja",
-          "example": "Er ist Jahrgang 1995. = 1995-ben született."
+          "example": "Er ist Jahrgang 1995. = Viņš ir dzimis 1995. gadā."
         },
         {
           "word": "das Jahr",
           "meaning": "Év",
-          "example": "Das Jahr hat zwölf Monate. = Tizenkét hónap van egy évben."
+          "example": "Das Jahr hat zwölf Monate. = Gadā ir divpadsmit mēneši."
         },
         {
           "word": "die Generation",
           "meaning": "Generáció",
-          "example": "Diese Generation reist viel. = Ez a generáció sokat utazik."
+          "example": "Diese Generation reist viel. = Šī paaudze daudz ceļo."
         }
       ],
       "tip": {
@@ -34973,17 +34973,17 @@ const B1_WORDS = [
         {
           "word": "kehren",
           "meaning": "Söprés / forgatás",
-          "example": "Sie kehrt den Hof. = Felseperi az udvart."
+          "example": "Sie kehrt den Hof. = Viņa slauka pagalmu."
         },
         {
           "word": "fegen",
           "meaning": "Söpörni",
-          "example": "Ich fege den Boden. = Felseperem a padlót."
+          "example": "Ich fege den Boden. = Es slauku grīdu."
         },
         {
           "word": "zurückkehren",
           "meaning": "Hogy visszatérjen",
-          "example": "Er kehrt nach Hause zurück. = Hazatér."
+          "example": "Er kehrt nach Hause zurück. = Viņš atgriežas mājās."
         }
       ],
       "tip": {
@@ -35212,17 +35212,17 @@ const B1_WORDS = [
         {
           "word": "der Kern",
           "meaning": "Mag / esszencia / mag",
-          "example": "Der Kern der Sache ist wichtig. = Az ügy lényege fontos."
+          "example": "Der Kern der Sache ist wichtig. = Lietas būtība ir svarīga."
         },
         {
           "word": "der Samen",
           "meaning": "Mag",
-          "example": "Die Samen liegen auf der Erde. = A magok a földön fekszenek."
+          "example": "Die Samen liegen auf der Erde. = Sēklas guļ uz zemes."
         },
         {
           "word": "der Mittelpunkt",
           "meaning": "Központ",
-          "example": "Der Tisch steht im Mittelpunkt. = Az asztal középen áll."
+          "example": "Der Tisch steht im Mittelpunkt. = Galds stāv centrā."
         }
       ],
       "tip": {
@@ -35420,17 +35420,17 @@ const B1_WORDS = [
         {
           "word": "der Kiefer",
           "meaning": "Állkapocs",
-          "example": "Der Kiefer tut weh. = Az állkapocs fáj."
+          "example": "Der Kiefer tut weh. = Žoklis sāp."
         },
         {
           "word": "die Kiefer",
           "meaning": "Fenyőfa",
-          "example": "Die Kiefer ist hoch. = A fenyő magas."
+          "example": "Die Kiefer ist hoch. = Priede ir augsta."
         },
         {
           "word": "der Kiefernwald",
           "meaning": "Fenyőerdő",
-          "example": "Der Kiefernwald ist trocken. = Száraz a fenyves."
+          "example": "Der Kiefernwald ist trocken. = Priežu mežs ir sauss."
         }
       ],
       "tip": {
@@ -35617,17 +35617,17 @@ const B1_WORDS = [
         {
           "word": "kippen",
           "meaning": "Felborul / felborul / megváltozik",
-          "example": "Das Glas kippt um. = Az üveg felborul."
+          "example": "Das Glas kippt um. = Glāze apgāžas."
         },
         {
           "word": "fallen",
           "meaning": "Leesni",
-          "example": "Das Glas fällt auf den Boden. = Az üveg a padlóra esik."
+          "example": "Das Glas fällt auf den Boden. = Glāze krīt uz grīdas."
         },
         {
           "word": "umdrehen",
           "meaning": "Vágni",
-          "example": "Dreh die Karte um. = Fordítsa meg a kártyát."
+          "example": "Dreh die Karte um. = Apgriez kartīti."
         }
       ],
       "tip": {
@@ -35840,17 +35840,17 @@ const B1_WORDS = [
         {
           "word": "klappen",
           "meaning": "Hogy sikerüljön / dolgozni",
-          "example": "Alles hat geklappt. = Minden sikerült."
+          "example": "Alles hat geklappt. = Viss izdevās."
         },
         {
           "word": "funktionieren",
           "meaning": "Működtetni",
-          "example": "Der Drucker funktioniert. = A nyomtató működik."
+          "example": "Der Drucker funktioniert. = Printeris darbojas."
         },
         {
           "word": "gelingen",
           "meaning": "Sikerül",
-          "example": "Der Kuchen ist gelungen. = A torta sikerült."
+          "example": "Der Kuchen ist gelungen. = Kūka izdevās."
         }
       ],
       "tip": {
@@ -36185,17 +36185,17 @@ const B1_WORDS = [
         {
           "word": "knapp",
           "meaning": "Kevés / alig / kis margóval",
-          "example": "Die Zeit ist knapp. = Az idő rövid."
+          "example": "Die Zeit ist knapp. = Laika ir maz."
         },
         {
           "word": "eng",
           "meaning": "Keskeny / szűk",
-          "example": "Der Raum ist eng. = A szoba szűk."
+          "example": "Der Raum ist eng. = Telpa ir šaura."
         },
         {
           "word": "kurz",
           "meaning": "Rövid",
-          "example": "Die Antwort ist kurz. = A válasz rövid."
+          "example": "Die Antwort ist kurz. = Atbilde ir īsa."
         }
       ],
       "tip": {
@@ -36513,17 +36513,17 @@ const B1_WORDS = [
         {
           "word": "das Kommando",
           "meaning": "Parancs / parancs",
-          "example": "Warte auf mein Kommando. = Várd meg a csapatomat."
+          "example": "Warte auf mein Kommando. = Gaidi manu komandu."
         },
         {
           "word": "der Befehl",
           "meaning": "Parancs",
-          "example": "Der Befehl kam vom Chef. = A parancs a főnöktől érkezett."
+          "example": "Der Befehl kam vom Chef. = Pavēle nāca no priekšnieka."
         },
         {
           "word": "die Mannschaft",
           "meaning": "Csapat a sportban",
-          "example": "Die Mannschaft spielt gut. = Jól játszik a csapat."
+          "example": "Die Mannschaft spielt gut. = Komanda spēlē labi."
         }
       ],
       "tip": "Egy parancs, amelyet mindenki egyszerre cselekszik → das Kommando.",
@@ -37021,17 +37021,17 @@ const B1_WORDS = [
         {
           "word": "das Kraftwerk",
           "meaning": "Erőmű",
-          "example": "Das Kraftwerk ist groß. = Az erőmű nagy."
+          "example": "Das Kraftwerk ist groß. = Spēkstacija ir liela."
         },
         {
           "word": "das Atomkraftwerk",
           "meaning": "Atomerőmű",
-          "example": "Das Atomkraftwerk ist umstritten. = Az atomerőmű ellentmondásos."
+          "example": "Das Atomkraftwerk ist umstritten. = Atomspēkstacija ir pretrunīga."
         },
         {
           "word": "die Fabrik",
           "meaning": "Gyár",
-          "example": "Die Fabrik produziert Autos. = A gyár autókat gyárt."
+          "example": "Die Fabrik produziert Autos. = Fabrika ražo automašīnas."
         }
       ],
       "tip": {
@@ -37276,17 +37276,17 @@ const B1_WORDS = [
         {
           "word": "kreuzen",
           "meaning": "Kereszt / kereszt",
-          "example": "Die Wege kreuzen sich. = Az utak keresztezik egymást."
+          "example": "Die Wege kreuzen sich. = Ceļi krustojas."
         },
         {
           "word": "überqueren",
           "meaning": "Átkelni",
-          "example": "Wir überqueren die Straße. = Átmegyünk az utcán."
+          "example": "Wir überqueren die Straße. = Mēs šķērsojam ielu."
         },
         {
           "word": "ankreuzen",
           "meaning": "Jelölje meg kereszttel",
-          "example": "Kreuzen Sie die Antwort an. = Jelölje meg a választ."
+          "example": "Kreuzen Sie die Antwort an. = Atzīmējiet atbildi."
         }
       ],
       "tip": "Ha a vonalak vagy utak keresztet alkotnak, gyakran használják a kreuzent.",
@@ -37578,17 +37578,17 @@ const B1_WORDS = [
         {
           "word": "der Kunde",
           "meaning": "Vevő",
-          "example": "Der Kunde wartet. = Az ügyfél vár."
+          "example": "Der Kunde wartet. = Klients gaida."
         },
         {
           "word": "die Kundin",
           "meaning": "Vevő",
-          "example": "Die Kundin fragt nach dem Preis. = A vásárló az árról érdeklődik."
+          "example": "Die Kundin fragt nach dem Preis. = Kliente jautā par cenu."
         },
         {
           "word": "die Kunde",
           "meaning": "Üzenet",
-          "example": "Die Kunde kam spät. = Az üzenet későn érkezett."
+          "example": "Die Kunde kam spät. = Vēsts pienāca vēlu."
         }
       ],
       "tip": "Boltban vagy szervizben szinte mindig: der Kunde = vásárló.",
@@ -37720,17 +37720,17 @@ const B1_WORDS = [
         {
           "word": "die Kunde",
           "meaning": "Üzenet • Üzenet",
-          "example": "Die Kunde kam spät. = Az üzenet későn érkezett."
+          "example": "Die Kunde kam spät. = Vēsts pienāca vēlu."
         },
         {
           "word": "der Kunde",
           "meaning": "Vevő",
-          "example": "Der Kunde wartet. = Az ügyfél vár."
+          "example": "Der Kunde wartet. = Klients gaida."
         },
         {
           "word": "die Nachricht",
           "meaning": "Üzenet",
-          "example": "Ich habe eine Nachricht bekommen. = Kaptam egy üzenetet."
+          "example": "Ich habe eine Nachricht bekommen. = Es saņēmu ziņu."
         }
       ],
       "tip": "A cikk megváltoztatja a jelentését: die Kunde = üzenet, der Kunde = vásárló.",
@@ -37879,17 +37879,17 @@ const B1_WORDS = [
         {
           "word": "kündigen",
           "meaning": "Befejezni / megszüntetni",
-          "example": "Ich kündige den Vertrag. = Felbontom a szerződést."
+          "example": "Ich kündige den Vertrag. = Es laužu līgumu."
         },
         {
           "word": "entlassen",
           "meaning": "Elbocsátani a munkából",
-          "example": "Die Firma entlässt Mitarbeiter. = A cég elbocsátja alkalmazottait."
+          "example": "Die Firma entlässt Mitarbeiter. = Firma atlaiž darbiniekus."
         },
         {
           "word": "aufhören",
           "meaning": "Megállni",
-          "example": "Ich höre mit dem Kurs auf. = Abbahagytam a tanfolyamot."
+          "example": "Ich höre mit dem Kurs auf. = Es pārtraucu kursu."
         }
       ],
       "tip": "A munka, szerződés vagy előfizetés hivatalosan lejár → kündigen.",
@@ -38079,17 +38079,17 @@ const B1_WORDS = [
         {
           "word": "kuppeln",
           "meaning": "Csatlakozni / csatlakozni",
-          "example": "Der Fahrer kuppelt den Anhänger an. = A sofőr felakasztja az utánfutót."
+          "example": "Der Fahrer kuppelt den Anhänger an. = Vadītājs piekabina piekabi."
         },
         {
           "word": "verbinden",
           "meaning": "Csatlakozni",
-          "example": "Das Kabel verbindet die Geräte. = A kábel köti össze a készülékeket."
+          "example": "Das Kabel verbindet die Geräte. = Kabelis savieno ierīces."
         },
         {
           "word": "anschließen",
           "meaning": "Csatlakozni",
-          "example": "Ich schließe den Drucker an. = Csatlakoztattam a nyomtatót."
+          "example": "Ich schließe den Drucker an. = Es pieslēdzu printeri."
         }
       ],
       "tip": "Műszaki vagy gépészeti csatlakozás → kuppeln.",
@@ -38236,17 +38236,17 @@ const B1_WORDS = [
         {
           "word": "der Kurs",
           "meaning": "Pálya / irány",
-          "example": "Der Kurs beginnt morgen. = Holnap indul a tanfolyam."
+          "example": "Der Kurs beginnt morgen. = Kurss sākas rīt."
         },
         {
           "word": "die Richtung",
           "meaning": "Irány",
-          "example": "Die Richtung stimmt. = Az irány helyes."
+          "example": "Die Richtung stimmt. = Virziens ir pareizs."
         },
         {
           "word": "der Unterricht",
           "meaning": "Lecke",
-          "example": "Der Unterricht dauert eine Stunde. = Az óra egy óráig tart."
+          "example": "Der Unterricht dauert eine Stunde. = Stunda ilgst vienu stundu."
         }
       ],
       "tip": "Képzés, hajózás vagy csereár → der Course.",
@@ -38391,17 +38391,17 @@ const B1_WORDS = [
         {
           "word": "die Kürze",
           "meaning": "Tömörség",
-          "example": "Die Kürze ist ein Vorteil. = A rövidség előny."
+          "example": "Die Kürze ist ein Vorteil. = Īsums ir priekšrocība."
         },
         {
           "word": "in Kürze",
           "meaning": "Hamar",
-          "example": "Der Zug kommt in Kürze. = Hamarosan megérkezik a vonat."
+          "example": "Der Zug kommt in Kürze. = Vilciens drīzumā pienāks."
         },
         {
           "word": "kurz",
           "meaning": "Rövid",
-          "example": "Der Text ist kurz. = A szöveg rövid."
+          "example": "Der Text ist kurz. = Teksts ir īss."
         }
       ],
       "tip": "Die Kürze = rövidség • In Kürze = hamarosan.",
@@ -38634,17 +38634,17 @@ const B1_WORDS = [
         {
           "word": "laden",
           "meaning": "Terhelés / töltés",
-          "example": "Ich lade mein Handy. = Feltöltöttem a telefonomat."
+          "example": "Ich lade mein Handy. = Es uzlādēju telefonu."
         },
         {
           "word": "einladen",
           "meaning": "Meghívni",
-          "example": "Sie lädt uns ein. = Meghív minket."
+          "example": "Sie lädt uns ein. = Viņa mūs ielūdz."
         },
         {
           "word": "beladen",
           "meaning": "Betölteni",
-          "example": "Der Lkw ist beladen. = A teherautó meg van rakva."
+          "example": "Der Lkw ist beladen. = Kravas auto ir piekrauts."
         }
       ],
       "tip": "Az autóban vagy az akkumulátorban lévő tárgyak elektromos árammal → terhelve.",
@@ -38807,17 +38807,17 @@ const B1_WORDS = [
         {
           "word": "das Lager",
           "meaning": "Raktár / tábor",
-          "example": "Die Waren sind im Lager. = Az áru raktáron van."
+          "example": "Die Waren sind im Lager. = Preces ir noliktavā."
         },
         {
           "word": "die Unterkunft",
           "meaning": "Szállás",
-          "example": "Die Unterkunft ist sauber. = A szállás tiszta."
+          "example": "Die Unterkunft ist sauber. = Naktsmītne ir tīra."
         },
         {
           "word": "das Camp",
           "meaning": "Tábor",
-          "example": "Das Camp liegt am See. = A tábor a tó mellett van."
+          "example": "Das Camp liegt am See. = Nometne ir pie ezera."
         }
       ],
       "tip": "Az árukat a → das Lagerben tároljuk.",
@@ -38962,17 +38962,17 @@ const B1_WORDS = [
         {
           "word": "der Hörer",
           "meaning": "Hallgató / kézibeszélő",
-          "example": "Die Hörer rufen an. = A hallgatók hívnak."
+          "example": "Die Hörer rufen an. = Klausītāji zvana."
         },
         {
           "word": "der Zuhörer",
           "meaning": "A hallgató személyesen",
-          "example": "Die Zuhörer sitzen im Saal. = A közönség a teremben ül."
+          "example": "Die Zuhörer sitzen im Saal. = Klausītāji sēž zālē."
         },
         {
           "word": "der Kopfhörer",
           "meaning": "Fejhallgató",
-          "example": "Ich brauche Kopfhörer. = Fejhallgatóra van szükségem."
+          "example": "Ich brauche Kopfhörer. = Man vajag austiņas."
         }
       ],
       "tip": "A rádióban vagy egy előadáson a hallgató → der Hörer.",
@@ -39097,17 +39097,17 @@ const B1_WORDS = [
         {
           "word": "der Inhalt",
           "meaning": "Tartalom",
-          "example": "Der Inhalt ist klar. = A tartalom egyértelmű."
+          "example": "Der Inhalt ist klar. = Saturs ir skaidrs."
         },
         {
           "word": "das Thema",
           "meaning": "Téma",
-          "example": "Das Thema ist interessant. = A téma érdekes."
+          "example": "Das Thema ist interessant. = Tēma ir interesanta."
         },
         {
           "word": "der Umfang",
           "meaning": "Kötet",
-          "example": "Der Umfang ist groß. = A kötet nagy."
+          "example": "Der Umfang ist groß. = Apjoms ir liels."
         }
       ],
       "tip": "Mi van a szövegben, táskában vagy tartályban → der Inhalt.",
@@ -39240,17 +39240,17 @@ const B1_WORDS = [
         {
           "word": "die Kante",
           "meaning": "Él / facet",
-          "example": "Die Kante ist scharf. = A széle éles."
+          "example": "Die Kante ist scharf. = Mala ir asa."
         },
         {
           "word": "der Rand",
           "meaning": "Él/szegély",
-          "example": "Am Rand steht ein Baum. = Az oldalán van egy fa."
+          "example": "Am Rand steht ein Baum. = Malā stāv koks."
         },
         {
           "word": "die Grenze",
           "meaning": "Határ",
-          "example": "Die Grenze ist geschlossen. = A határ le van zárva."
+          "example": "Die Grenze ist geschlossen. = Robeža ir slēgta."
         }
       ],
       "tip": "Egy tárgy fizikai éle vagy oldala → die Kante.",
@@ -39379,17 +39379,17 @@ const B1_WORDS = [
         {
           "word": "die Kastanie",
           "meaning": "Gesztenye / gesztenye",
-          "example": "Die Kastanie blüht. = Gesztenye virágok."
+          "example": "Die Kastanie blüht. = Kastanis zied."
         },
         {
           "word": "der Kastanienbaum",
           "meaning": "Gesztenyefa",
-          "example": "Der Kastanienbaum ist alt. = A gesztenyefa öreg."
+          "example": "Der Kastanienbaum ist alt. = Kastaņu koks ir vecs."
         },
         {
           "word": "die Nuss",
           "meaning": "Dió",
-          "example": "Die Nuss ist hart. = A dió kemény."
+          "example": "Die Nuss ist hart. = Rieksts ir ciets."
         }
       ],
       "tip": "Fa vagy gyümölcs? Lásd a die Kastanie körüli kontextust.",
@@ -40245,17 +40245,17 @@ const B1_WORDS = [
         {
           "word": "leisten",
           "meaning": "Végrehajtani / biztosítani",
-          "example": "Sie leistet gute Arbeit. = Jó munkát végez."
+          "example": "Sie leistet gute Arbeit. = Viņa veic labu darbu."
         },
         {
           "word": "schaffen",
           "meaning": "Megvalósítani / megbirkózni vele",
-          "example": "Ich schaffe das. = Megteszem."
+          "example": "Ich schaffe das. = Es to paveikšu."
         },
         {
           "word": "sich leisten",
           "meaning": "Megengedni magának",
-          "example": "Ich kann mir das leisten. = Megengedhetem magamnak."
+          "example": "Ich kann mir das leisten. = Es to varu atļauties."
         }
       ],
       "tip": "Munka, segítség vagy hozzájárulás → leisten.",
@@ -40389,17 +40389,17 @@ const B1_WORDS = [
         {
           "word": "die Leistung",
           "meaning": "Teljesítmény / teljesítmény / kapacitás",
-          "example": "Die Leistung war gut. = A teljesítmény jó volt."
+          "example": "Die Leistung war gut. = Sniegums bija labs."
         },
         {
           "word": "das Ergebnis",
           "meaning": "Eredmény",
-          "example": "Das Ergebnis ist positiv. = Az eredmény pozitív."
+          "example": "Das Ergebnis ist positiv. = Rezultāts ir pozitīvs."
         },
         {
           "word": "die Kraft",
           "meaning": "Erő",
-          "example": "Die Kraft des Motors ist groß. = A motor teljesítménye nagyszerű."
+          "example": "Die Kraft des Motors ist groß. = Motora spēks ir liels."
         }
       ],
       "tip": {
@@ -40750,17 +40750,17 @@ const B1_WORDS = [
         {
           "word": "locker",
           "meaning": "Laza, szabad, kötetlen",
-          "example": "Die Schraube ist locker. = A csavar meglazult."
+          "example": "Die Schraube ist locker. = Skrūve ir vaļīga."
         },
         {
           "word": "lose",
           "meaning": "Laza, csatolatlan",
-          "example": "Ein loser Knopf kann abfallen. = A meglazult gomb leeshet."
+          "example": "Ein loser Knopf kann abfallen. = Vaļīga poga var nokrist."
         },
         {
           "word": "fest",
           "meaning": "Feszes, feszes",
-          "example": "Der Deckel sitzt fest. = A fedél szorosan marad."
+          "example": "Der Deckel sitzt fest. = Vāks turas stingri."
         }
       ],
       "tip": "Gondolj a fest ellenkezőjére: ha nem szűk, akkor szekrény.",
@@ -40919,17 +40919,17 @@ const B1_WORDS = [
         {
           "word": "das Los",
           "meaning": "Tétel • Átvitt értelemben sors",
-          "example": "Jeder Teilnehmer zieht ein Los. = Minden résztvevő sokat húz."
+          "example": "Jeder Teilnehmer zieht ein Los. = Katrs dalībnieks izvelk lozi."
         },
         {
           "word": "der Gewinn",
           "meaning": "Won",
-          "example": "Der Gewinn wird morgen ausgezahlt. = A nyereményt holnap fizetik ki."
+          "example": "Der Gewinn wird morgen ausgezahlt. = Laimests tiks izmaksāts rīt."
         },
         {
           "word": "das Schicksal",
           "meaning": "Sors",
-          "example": "Das Schicksal war hart. = A sors kemény volt."
+          "example": "Das Schicksal war hart. = Liktenis bija skarbs."
         }
       ],
       "tip": "A sorsoláson és a sorsoláson: das Los = lot.",
@@ -41052,17 +41052,17 @@ const B1_WORDS = [
         {
           "word": "löschen",
           "meaning": "Eloltani a tüzet vagy az adatokat",
-          "example": "Bitte lösche die Datei. = Kérjük, törölje a fájlt."
+          "example": "Bitte lösche die Datei. = Lūdzu, izdzēs failu."
         },
         {
           "word": "ausschalten",
           "meaning": "Kapcsolja ki a készüléket",
-          "example": "Schalte bitte den Computer aus. = Kérjük, kapcsolja ki számítógépét."
+          "example": "Schalte bitte den Computer aus. = Lūdzu, izslēdz datoru."
         },
         {
           "word": "lösen",
           "meaning": "Megoldani vagy feloldani",
-          "example": "Wir lösen das Problem. = Megoldjuk a problémát."
+          "example": "Wir lösen das Problem. = Mēs atrisinām problēmu."
         }
       ],
       "tip": "Tűz, reszelő vagy szomjúság: löschen.",
@@ -41186,17 +41186,17 @@ const B1_WORDS = [
         {
           "word": "lösen",
           "meaning": "Megold • Oldja • Felold",
-          "example": "Wir lösen das Problem. = Megoldjuk a problémát."
+          "example": "Wir lösen das Problem. = Mēs atrisinām problēmu."
         },
         {
           "word": "auflösen",
           "meaning": "Feloldani vagy megszüntetni",
-          "example": "Die Gruppe löst sich auf. = A csoport feloszlik."
+          "example": "Die Gruppe löst sich auf. = Grupa izirst."
         },
         {
           "word": "löschen",
           "meaning": "Töröl",
-          "example": "Ich lösche die Datei. = Törlöm a fájlt."
+          "example": "Ich lösche die Datei. = Es izdzēšu failu."
         }
       ],
       "tip": "Ha probléma, feladat vagy csomó áll előtted, gondolj a lösenre.",
@@ -41331,17 +41331,17 @@ const B1_WORDS = [
         {
           "word": "die Lösung",
           "meaning": "Megoldás • A kémiában megoldás",
-          "example": "Wir suchen eine Lösung. = Megoldást keresünk."
+          "example": "Wir suchen eine Lösung. = Mēs meklējam risinājumu."
         },
         {
           "word": "die Antwort",
           "meaning": "Választ a kérdésre",
-          "example": "Die Antwort ist richtig. = A válasz helyes."
+          "example": "Die Antwort ist richtig. = Atbilde ir pareiza."
         },
         {
           "word": "das Ergebnis",
           "meaning": "Eredmény",
-          "example": "Das Ergebnis ist gut. = Az eredmény jó."
+          "example": "Das Ergebnis ist gut. = Rezultāts ir labs."
         }
       ],
       "tip": "Problémához Lösung, kérdéshez Antwort kell.",
@@ -41526,17 +41526,17 @@ const B1_WORDS = [
         {
           "word": "die Macht",
           "meaning": "Hatalom, befolyásoló képesség",
-          "example": "Die Partei kam an die Macht. = A párt hatalomra került."
+          "example": "Die Partei kam an die Macht. = Partija nāca pie varas."
         },
         {
           "word": "die Kraft",
           "meaning": "Fizikai erő vagy energia",
-          "example": "Er hat viel Kraft. = Nagy hatalma van."
+          "example": "Er hat viel Kraft. = Viņam ir daudz spēka."
         },
         {
           "word": "der Einfluss",
           "meaning": "Befolyás",
-          "example": "Sie hat Einfluss auf die Entscheidung. = Befolyása van a döntésre."
+          "example": "Sie hat Einfluss auf die Entscheidung. = Viņai ir ietekme uz lēmumu."
         }
       ],
       "tip": "A Die Macht, nem a die Kraft, politikában és befolyásban gondolkodik.",
@@ -41840,17 +41840,17 @@ const B1_WORDS = [
         {
           "word": "das Maß",
           "meaning": "Mérték, határ, mérték",
-          "example": "Alles hat sein Maß. = Mindennek megvan a maga mértéke."
+          "example": "Alles hat sein Maß. = Visam ir savs mērs."
         },
         {
           "word": "die Maße",
           "meaning": "Méretek",
-          "example": "Die Maße stimmen nicht. = A méretek nem egyeznek."
+          "example": "Die Maße stimmen nicht. = Izmēri nesakrīt."
         },
         {
           "word": "die Maßnahme",
           "meaning": "Intézkedés, intézkedés",
-          "example": "Diese Maßnahme hilft. = Ez az esemény segít."
+          "example": "Diese Maßnahme hilft. = Šis pasākums palīdz."
         }
       ],
       "tip": "Az egyes számban a Maß mérték • Többes számban a Maße-nak gyakran vannak méretei.",
@@ -42127,17 +42127,17 @@ const B1_WORDS = [
         {
           "word": "die Messe",
           "meaning": "Kiállítás, vásár • Szentmise a templomban",
-          "example": "Wir besuchen die Messe. = Meglátogatjuk a kiállítást."
+          "example": "Wir besuchen die Messe. = Mēs apmeklējam izstādi."
         },
         {
           "word": "die Ausstellung",
           "meaning": "Kiállítás",
-          "example": "Die Ausstellung zeigt moderne Kunst. = A kiállítás a modern művészetet mutatja be."
+          "example": "Die Ausstellung zeigt moderne Kunst. = Izstāde rāda moderno mākslu."
         },
         {
           "word": "der Markt",
           "meaning": "A piac",
-          "example": "Der Markt ist heute voll. = Ma megtelt a piac."
+          "example": "Der Markt ist heute voll. = Tirgus šodien ir pilns."
         }
       ],
       "tip": "Vállalatok és termékek egy nagy eseményen: die Messe.",
@@ -42690,17 +42690,17 @@ const B1_WORDS = [
         {
           "word": "nachdem",
           "meaning": "Mikor",
-          "example": "Nachdem ich gegessen hatte, ging ich schlafen. = Miután ettem, elmentem aludni."
+          "example": "Nachdem ich gegessen hatte, ging ich schlafen. = Pēc tam kad biju paēdis, es gāju gulēt."
         },
         {
           "word": "danach",
           "meaning": "Azután",
-          "example": "Danach gingen wir nach Hause. = Utána hazamentünk."
+          "example": "Danach gingen wir nach Hause. = Pēc tam mēs devāmies mājās."
         },
         {
           "word": "bevor",
           "meaning": "Előtt",
-          "example": "Bevor ich gehe, rufe ich an. = Mielőtt elmegyek, felhívom."
+          "example": "Bevor ich gehe, rufe ich an. = Pirms eju, es piezvanu."
         }
       ],
       "tip": "A nachdem egy teljes záradékot igényel • Danach egyedül is megállja a helyét.",
@@ -42822,17 +42822,17 @@ const B1_WORDS = [
         {
           "word": "die Nachfrage",
           "meaning": "Kérés • Megkeresés",
-          "example": "Die Nachfrage ist groß. = A kereslet nagy."
+          "example": "Die Nachfrage ist groß. = Pieprasījums ir liels."
         },
         {
           "word": "die Frage",
           "meaning": "Kérdés",
-          "example": "Ich habe eine Frage. = Lenne egy kérdésem."
+          "example": "Ich habe eine Frage. = Man ir jautājums."
         },
         {
           "word": "das Angebot",
           "meaning": "Ajánlat",
-          "example": "Das Angebot ist begrenzt. = Az ajánlat korlátozott."
+          "example": "Das Angebot ist begrenzt. = Piedāvājums ir ierobežots."
         }
       ],
       "tip": "A piacon a Nachfacht az Angebot ellentéte.",
@@ -42944,17 +42944,17 @@ const B1_WORDS = [
         {
           "word": "nachgeben",
           "meaning": "Engedni vagy engedni a nyomásnak",
-          "example": "Er gab nach. = Megenyhült."
+          "example": "Er gab nach. = Viņš piekāpās."
         },
         {
           "word": "aufgeben",
           "meaning": "Add fel, ne próbálkozz",
-          "example": "Gib nicht auf! = Ne add fel!"
+          "example": "Gib nicht auf! = Nepadodies!"
         },
         {
           "word": "zugeben",
           "meaning": "Bevallani",
-          "example": "Sie gibt den Fehler zu. = Beismeri a hibát."
+          "example": "Sie gibt den Fehler zu. = Viņa atzīst kļūdu."
         }
       ],
       "tip": "Nyomja és lépjen hátra: nachgeben.",
@@ -43234,17 +43234,17 @@ const B1_WORDS = [
         {
           "word": "neigen",
           "meaning": "Hajlamosnak lenni • Hajolni",
-          "example": "Er neigt zu Fehlern. = Hajlamos a hibákra."
+          "example": "Er neigt zu Fehlern. = Viņam ir nosliece uz kļūdām."
         },
         {
           "word": "sich nähern",
           "meaning": "Megközelíteni",
-          "example": "Der Zug nähert sich dem Bahnhof. = A vonat közeledik az állomáshoz."
+          "example": "Der Zug nähert sich dem Bahnhof. = Vilciens tuvojas stacijai."
         },
         {
           "word": "biegen",
           "meaning": "Kanyar",
-          "example": "Er biegt den Draht. = Meghajlítja a drótot."
+          "example": "Er biegt den Draht. = Viņš loka stiepli."
         }
       ],
       "tip": "Neigen zu + kam?: valami iránti hajlam.",
@@ -43362,17 +43362,17 @@ const B1_WORDS = [
         {
           "word": "die Neigung",
           "meaning": "Dőlés, hajlás • Dőlés",
-          "example": "Sie hat eine Neigung zur Musik. = Zene iránti vonzalma van."
+          "example": "Sie hat eine Neigung zur Musik. = Viņai ir tieksme uz mūziku."
         },
         {
           "word": "das Interesse",
           "meaning": "Kamat",
-          "example": "Sie hat Interesse an Kunst. = Érdekli a művészet."
+          "example": "Sie hat Interesse an Kunst. = Viņai ir interese par mākslu."
         },
         {
           "word": "der Hang",
           "meaning": "Lejtő • Dőlés is",
-          "example": "Der Hang ist steil. = A lejtő meredek."
+          "example": "Der Hang ist steil. = Nogāze ir stāva."
         }
       ],
       "tip": "Befelé irányuló irány vagy tendencia: die Neigung.",
@@ -43500,17 +43500,17 @@ const B1_WORDS = [
         {
           "word": "nerven",
           "meaning": "Idegesíts, menj az idegeidre",
-          "example": "Der Lärm nervt mich. = A zaj idegesít."
+          "example": "Der Lärm nervt mich. = Troksnis mani kaitina."
         },
         {
           "word": "stören",
           "meaning": "Zavarni",
-          "example": "Bitte nicht stören. = Kérem, ne zavarjanak."
+          "example": "Bitte nicht stören. = Lūdzu, netraucēt."
         },
         {
           "word": "ärgern",
           "meaning": "Haragítani, bosszantani",
-          "example": "Das ärgert mich. = Ez feldühít."
+          "example": "Das ärgert mich. = Tas mani sadusmo."
         }
       ],
       "tip": "Ha valami az idegeidre megy, használd az idegrendszert.",
@@ -43651,17 +43651,17 @@ const B1_WORDS = [
         {
           "word": "nieder",
           "meaning": "Le, a földre, le",
-          "example": "Der Baum liegt nieder. = A fa a földön fekszik."
+          "example": "Der Baum liegt nieder. = Koks guļ zemē."
         },
         {
           "word": "unten",
           "meaning": "Lent, lent",
-          "example": "Ich warte unten. = Lent várok."
+          "example": "Ich warte unten. = Es gaidu lejā."
         },
         {
           "word": "herunter",
           "meaning": "Felülről lefelé",
-          "example": "Komm bitte herunter! = Kérlek gyere le!"
+          "example": "Komm bitte herunter! = Lūdzu, nāc lejā!"
         }
       ],
       "tip": "A nieder gyakran lefelé irányuló mozgást vagy állapotot jelent.",
@@ -43851,17 +43851,17 @@ const B1_WORDS = [
         {
           "word": "die Not",
           "meaning": "Hiány, nyomor, szorult helyzet",
-          "example": "Sie leben in Not. = Hiányban élnek."
+          "example": "Sie leben in Not. = Viņi dzīvo trūkumā."
         },
         {
           "word": "die Notwendigkeit",
           "meaning": "Szükség",
-          "example": "Es gibt keine Notwendigkeit. = Nincs szükség rá."
+          "example": "Es gibt keine Notwendigkeit. = Nav nepieciešamības."
         },
         {
           "word": "der Notfall",
           "meaning": "Vészhelyzet",
-          "example": "Das ist ein Notfall. = Ez vészhelyzet."
+          "example": "Das ist ein Notfall. = Tas ir ārkārtas gadījums."
         }
       ],
       "tip": "Die Not kínos helyzet, nem hétköznapi szükséglet.",
@@ -44006,17 +44006,17 @@ const B1_WORDS = [
         {
           "word": "nüchtern",
           "meaning": "Nem részeg • Éhgyomorra • Üzletszerű",
-          "example": "Der Fahrer ist nüchtern. = A sofőr nem részeg."
+          "example": "Der Fahrer ist nüchtern. = Vadītājs ir neiereibis."
         },
         {
           "word": "betrunken",
           "meaning": "Részeg",
-          "example": "Er ist betrunken. = Ő részeg."
+          "example": "Er ist betrunken. = Viņš ir piedzēries."
         },
         {
           "word": "sachlich",
           "meaning": "Gyakorlati",
-          "example": "Bleib sachlich. = Maradj üzletszerű."
+          "example": "Bleib sachlich. = Paliec lietišķs."
         }
       ],
       "tip": "Alkohol, orvos vagy hűvös nézet: nüchtern.",
@@ -44329,17 +44329,17 @@ const B1_WORDS = [
         {
           "word": "das Objekt",
           "meaning": "Objektum • Komplementer a nyelvtanban",
-          "example": "Das Objekt wird verkauft. = Az objektum eladó."
+          "example": "Das Objekt wird verkauft. = Objekts tiek pārdots."
         },
         {
           "word": "der Gegenstand",
           "meaning": "Téma",
-          "example": "Der Gegenstand liegt auf dem Tisch. = A tárgy az asztalon van."
+          "example": "Der Gegenstand liegt auf dem Tisch. = Priekšmets atrodas uz galda."
         },
         {
           "word": "das Subjekt",
           "meaning": "A mondat alanya",
-          "example": "Das Subjekt steht oft vorn. = A mondat alanya gyakran az elején van."
+          "example": "Das Subjekt steht oft vorn. = Teikuma priekšmets bieži ir sākumā."
         }
       ],
       "tip": "Az objektum a nyelvtanban nem alany, hanem kiegészítés.",
@@ -44511,17 +44511,17 @@ const B1_WORDS = [
         {
           "word": "die Ohnmacht",
           "meaning": "Eszméletlenség • Átvitt tehetetlenség",
-          "example": "Sie fiel in Ohnmacht. = Elájult."
+          "example": "Sie fiel in Ohnmacht. = Viņa noģība."
         },
         {
           "word": "die Bewusstlosigkeit",
           "meaning": "Eszméletlenség",
-          "example": "Die Bewusstlosigkeit dauerte nur kurz. = Az eszméletvesztés csak rövid ideig tartott."
+          "example": "Die Bewusstlosigkeit dauerte nur kurz. = Bezsamaņa ilga tikai īsu brīdi."
         },
         {
           "word": "die Machtlosigkeit",
           "meaning": "Impotencia",
-          "example": "Er fühlt Machtlosigkeit. = Tehetetlennek érzi magát."
+          "example": "Er fühlt Machtlosigkeit. = Viņš jūt bezspēcību."
         }
       ],
       "tip": "Ohnmachtban elesett = ájult.",
@@ -44715,17 +44715,17 @@ const B1_WORDS = [
         {
           "word": "opfern",
           "meaning": "Feláldozni valami fontosat",
-          "example": "Er opfert Zeit. = Időt áldoz."
+          "example": "Er opfert Zeit. = Viņš upurē laiku."
         },
         {
           "word": "spenden",
           "meaning": "Pénzt vagy árut adományozni",
-          "example": "Sie spendet Geld. = Pénzt adományoz."
+          "example": "Sie spendet Geld. = Viņa ziedo naudu."
         },
         {
           "word": "sich einsetzen",
           "meaning": "Csatlakozni, aktívan segíteni",
-          "example": "Er setzt sich für Kinder ein. = Kiáll a gyerekekért."
+          "example": "Er setzt sich für Kinder ein. = Viņš iestājas par bērniem."
         }
       ],
       "tip": "Ha valamit a hiányérzettel adnak, az opfern gyakran megfelelő.",
@@ -44883,17 +44883,17 @@ const B1_WORDS = [
         {
           "word": "sich orientieren",
           "meaning": "Tájékozódjon",
-          "example": "Ich orientiere mich in der Stadt. = Navigáltam a városban."
+          "example": "Ich orientiere mich in der Stadt. = Es orientējos pilsētā."
         },
         {
           "word": "sich informieren",
           "meaning": "Információt szerezni",
-          "example": "Ich informiere mich über den Kurs. = Információt kapok a tanfolyamról."
+          "example": "Ich informiere mich über den Kurs. = Es iegūstu informāciju par kursu."
         },
         {
           "word": "sich richten nach",
           "meaning": "Hogy vezessenek",
-          "example": "Wir richten uns nach dem Plan. = Egy terv vezérel bennünket."
+          "example": "Wir richten uns nach dem Plan. = Mēs vadāmies pēc plāna."
         }
       ],
       "tip": "Hely vagy helyzet: sich orientieren • Mintaért vagy árakért: orientieren an.",
@@ -45263,17 +45263,17 @@ const B1_WORDS = [
         {
           "word": "die Periode",
           "meaning": "Időszak • Menstruáció",
-          "example": "Diese Periode dauerte drei Jahre. = Ez az időszak három évig tartott."
+          "example": "Diese Periode dauerte drei Jahre. = Šis periods ilga trīs gadus."
         },
         {
           "word": "der Zeitraum",
           "meaning": "Időtartam",
-          "example": "Der Zeitraum ist kurz. = Az időtartam rövid."
+          "example": "Der Zeitraum ist kurz. = Laika posms ir īss."
         },
         {
           "word": "die Regel",
           "meaning": "Menstruáció • Is szabály",
-          "example": "Sie hat ihre Regel. = Menstruál."
+          "example": "Sie hat ihre Regel. = Viņai ir mēnešreizes."
         }
       ],
       "tip": "Idő, ciklus vagy menstruáció: die Menstruáció.",
@@ -45504,17 +45504,17 @@ const B1_WORDS = [
         {
           "word": "pflegen",
           "meaning": "Hajlamos • Tenni",
-          "example": "Sie pflegt ihre Mutter. = Ő gondoskodik az anyjáról."
+          "example": "Sie pflegt ihre Mutter. = Viņa kopj savu māti."
         },
         {
           "word": "sich kümmern um",
           "meaning": "Vigyázni",
-          "example": "Er kümmert sich um das Kind. = Ő gondoskodik a gyerekről."
+          "example": "Er kümmert sich um das Kind. = Viņš rūpējas par bērnu."
         },
         {
           "word": "putzen",
           "meaning": "Tisztítani",
-          "example": "Ich putze die Küche. = Kitakarítom a konyhát."
+          "example": "Ich putze die Küche. = Es tīru virtuvi."
         }
       ],
       "tip": "Az ápolás pflegen • A tágabban való törődés sich küszimmer um.",
@@ -45821,17 +45821,17 @@ const B1_WORDS = [
         {
           "word": "pochen",
           "meaning": "Kopog, üt • Ragaszkodik",
-          "example": "Jemand pocht an die Tür. = Valaki kopogtat az ajtón."
+          "example": "Jemand pocht an die Tür. = Kāds klauvē pie durvīm."
         },
         {
           "word": "klopfen",
           "meaning": "Kopogtatni",
-          "example": "Er klopft an die Tür. = Kopogtat az ajtón."
+          "example": "Er klopft an die Tür. = Viņš klauvē pie durvīm."
         },
         {
           "word": "bestehen auf",
           "meaning": "Ragaszkodni",
-          "example": "Sie besteht auf einer Antwort. = Ragaszkodik a válaszhoz."
+          "example": "Sie besteht auf einer Antwort. = Viņa uzstāj uz atbildi."
         }
       ],
       "tip": "Ajtó- vagy szívtartó • Törvényben pocht auf.",
@@ -46080,17 +46080,17 @@ const B1_WORDS = [
         {
           "word": "der Posten",
           "meaning": "Poszt, poszt, pozíció",
-          "example": "Sie bekam einen neuen Posten. = Új pozíciót kapott."
+          "example": "Sie bekam einen neuen Posten. = Viņa ieguva jaunu amatu."
         },
         {
           "word": "die Stelle",
           "meaning": "Munkahely, pozíció",
-          "example": "Ich suche eine Stelle. = Munkát keresek."
+          "example": "Ich suche eine Stelle. = Es meklēju darbu."
         },
         {
           "word": "die Post",
           "meaning": "Felad",
-          "example": "Die Post ist geschlossen. = A posta zárva tart."
+          "example": "Die Post ist geschlossen. = Pasts ir slēgts."
         }
       ],
       "tip": "Pozíció vagy költségvetési tétel: der Posten • Mail: die Post.",
@@ -46300,17 +46300,17 @@ const B1_WORDS = [
         {
           "word": "die Probe",
           "meaning": "Teszt, minta vagy kísérlet",
-          "example": "Die Probe beginnt um sechs. = A próba hatkor kezdődik."
+          "example": "Die Probe beginnt um sechs. = Mēģinājums sākas sešos."
         },
         {
           "word": "die Prüfung",
           "meaning": "Vizsga vagy teszt",
-          "example": "Die Prüfung ist schwer. = A vizsga nehéz."
+          "example": "Die Prüfung ist schwer. = Eksāmens ir grūts."
         },
         {
           "word": "das Muster",
           "meaning": "Minta, modell",
-          "example": "Das Muster ist kostenlos. = A minta ingyenes."
+          "example": "Das Muster ist kostenlos. = Paraugs ir bez maksas."
         }
       ],
       "tip": "Laboratórium, teszt vagy koncert – die Probe bárhol lehet.",
@@ -46727,17 +46727,17 @@ const B1_WORDS = [
         {
           "word": "der Rang",
           "meaning": "Rang, rang, hely a hierarchiában",
-          "example": "Er hat einen hohen Rang. = Magas rangja van."
+          "example": "Er hat einen hohen Rang. = Viņam ir augsts rangs."
         },
         {
           "word": "die Reihe",
           "meaning": "Sor",
-          "example": "Wir sitzen in der dritten Reihe. = A harmadik sorban ülünk."
+          "example": "Wir sitzen in der dritten Reihe. = Mēs sēžam trešajā rindā."
         },
         {
           "word": "der Balkon",
           "meaning": "Erkély",
-          "example": "Der Balkon ist voll. = Az erkély tele van."
+          "example": "Der Balkon ist voll. = Balkons ir pilns."
         }
       ],
       "tip": "Hierarchia, fontosság vagy színházi erkély: der Rang.",
@@ -46862,17 +46862,17 @@ const B1_WORDS = [
         {
           "word": "rasen",
           "meaning": "Aggódni, aggódni • Dühöngni",
-          "example": "Das Auto rast. = Az autó fut."
+          "example": "Das Auto rast. = Auto joņo."
         },
         {
           "word": "fahren",
           "meaning": "Hajtás",
-          "example": "Ich fahre langsam. = Lassan vezetek."
+          "example": "Ich fahre langsam. = Es braucu lēni."
         },
         {
           "word": "toben",
           "meaning": "Tombolni, dühöngeni",
-          "example": "Der Sturm tobt. = A vihar tombol."
+          "example": "Der Sturm tobt. = Vētra plosās."
         }
       ],
       "tip": "Ha a sebesség túl gyorsnak hangzik, gyakran elég a gyors is.",
@@ -47041,17 +47041,17 @@ const B1_WORDS = [
         {
           "word": "die Rate",
           "meaning": "Hozzájárulás, befizetés egy része",
-          "example": "Die Rate ist hoch. = A hozzájárulás magas."
+          "example": "Die Rate ist hoch. = Iemaksa ir liela."
         },
         {
           "word": "der Rat",
           "meaning": "Tanács",
-          "example": "Danke für deinen Rat. = Köszönöm a tanácsodat."
+          "example": "Danke für deinen Rat. = Paldies par tavu padomu."
         },
         {
           "word": "die Ratenzahlung",
           "meaning": "Részletfizetés",
-          "example": "Ratenzahlung ist möglich. = Részletfizetés lehetséges."
+          "example": "Ratenzahlung ist möglich. = Nomaksa pa daļām ir iespējama."
         }
       ],
       "tip": "A végén -e jelű árfolyam gyakran a fizetési rész.",
@@ -47221,17 +47221,17 @@ const B1_WORDS = [
         {
           "word": "räumen",
           "meaning": "Elengedni, aratni, kiköltözni",
-          "example": "Die Polizei räumt die Straße. = A rendőrség eltakarítja az utcát."
+          "example": "Die Polizei räumt die Straße. = Policija atbrīvo ielu."
         },
         {
           "word": "aufräumen",
           "meaning": "Intézkedjen",
-          "example": "Ich räume das Zimmer auf. = Rendet rakok a szobában."
+          "example": "Ich räume das Zimmer auf. = Es sakārtoju istabu."
         },
         {
           "word": "verlassen",
           "meaning": "Hagyja el a szobát",
-          "example": "Wir verlassen das Haus. = Elhagyjuk a házat."
+          "example": "Wir verlassen das Haus. = Mēs atstājam māju."
         }
       ],
       "tip": "Ha a helynek szabadnak kell maradnia, gondoljon a räumenre.",
@@ -47356,17 +47356,17 @@ const B1_WORDS = [
         {
           "word": "der Rausch",
           "meaning": "Mámor, mámor",
-          "example": "Er war im Rausch. = Ittas volt."
+          "example": "Er war im Rausch. = Viņš bija reibumā."
         },
         {
           "word": "die Freude",
           "meaning": "Öröm",
-          "example": "Die Freude war groß. = Nagy volt az öröm."
+          "example": "Die Freude war groß. = Prieks bija liels."
         },
         {
           "word": "die Sucht",
           "meaning": "Függőség",
-          "example": "Sucht ist gefährlich. = A függőség veszélyes."
+          "example": "Sucht ist gefährlich. = Atkarība ir bīstama."
         }
       ],
       "tip": "A Rausch olyan állapot, amelyben az ember részeg vagy ittas állapotban van.",
@@ -47565,17 +47565,17 @@ const B1_WORDS = [
         {
           "word": "regeln",
           "meaning": "Rendez, szabályoz",
-          "example": "Wir regeln das morgen. = Holnap megoldjuk."
+          "example": "Wir regeln das morgen. = Mēs to nokārtosim rīt."
         },
         {
           "word": "organisieren",
           "meaning": "Szervez",
-          "example": "Sie organisiert die Reise. = Ő szervezi az utazást."
+          "example": "Sie organisiert die Reise. = Viņa organizē ceļojumu."
         },
         {
           "word": "einstellen",
           "meaning": "Igazítani vagy toborozni",
-          "example": "Ich stelle die Heizung ein. = Beállítottam a fűtést."
+          "example": "Ich stelle die Heizung ein. = Es noregulēju apkuri."
         }
       ],
       "tip": "Ha az ügyet rendezni kell, akkor a regelnt alkalmazzák.",
@@ -47837,17 +47837,17 @@ const B1_WORDS = [
         {
           "word": "reißen",
           "meaning": "Felrobbanni vagy elszakadni",
-          "example": "Das Seil reißt. = Elszakad a kötél."
+          "example": "Das Seil reißt. = Virve plīst."
         },
         {
           "word": "reisen",
           "meaning": "Utazni",
-          "example": "Wir reisen nach Berlin. = Berlinbe utazunk."
+          "example": "Wir reisen nach Berlin. = Mēs ceļojam uz Berlīni."
         },
         {
           "word": "brechen",
           "meaning": "Megtörni",
-          "example": "Der Ast bricht. = Az ág eltörik."
+          "example": "Der Ast bricht. = Zars lūzt."
         }
       ],
       "tip": "Reißen ß-val az, hogy tép/tép • Reisen s-vel utazni.",
@@ -47976,17 +47976,17 @@ const B1_WORDS = [
         {
           "word": "reizen",
           "meaning": "Irritálni, bosszantani vagy kísérteni",
-          "example": "Der Rauch reizt die Augen. = A füst irritálja a szemet."
+          "example": "Der Rauch reizt die Augen. = Dūmi kairina acis."
         },
         {
           "word": "nerven",
           "meaning": "Köznyelvben bosszantani",
-          "example": "Der Lärm nervt mich. = A zaj idegesít."
+          "example": "Der Lärm nervt mich. = Troksnis mani kaitina."
         },
         {
           "word": "locken",
           "meaning": "Csábít",
-          "example": "Das Angebot lockt viele Kunden. = Az ajánlat sok vásárlót vonz."
+          "example": "Das Angebot lockt viele Kunden. = Piedāvājums vilina daudz klientu."
         }
       ],
       "tip": "Irritálja a szemet, irritálja az embert, egy utazás csábít - mindent lehet reizen.",
@@ -48280,7 +48280,7 @@ const B1_WORDS = [
         {
           "word": "richten",
           "meaning": "Közvetlen, megszólítás • Bíró",
-          "example": "Sie richtet den Blick nach vorn. = Előre néz."
+          "example": "Sie richtet den Blick nach vorn. = Viņa vērš skatienu uz priekšu."
         },
         {
           "word": "schicken",
@@ -48290,7 +48290,7 @@ const B1_WORDS = [
         {
           "word": "urteilen",
           "meaning": "Megítélni, értékelni",
-          "example": "Urteile nicht zu schnell. = Ne ítélj túl gyorsan."
+          "example": "Urteile nicht zu schnell. = Nespried pārāk ātri."
         }
       ],
       "tip": "Irány vagy címzett - richten.",
@@ -48555,17 +48555,17 @@ const B1_WORDS = [
         {
           "word": "rollen",
           "meaning": "Gurulj, tekerj, tekerj",
-          "example": "Der Ball rollt. = A labda gurul."
+          "example": "Der Ball rollt. = Bumba ripo."
         },
         {
           "word": "drehen",
           "meaning": "Fordulni, fordulni",
-          "example": "Das Rad dreht sich. = A kerék forog."
+          "example": "Das Rad dreht sich. = Ritenis griežas."
         },
         {
           "word": "schieben",
           "meaning": "Tolni",
-          "example": "Er schiebt den Wagen. = Tolja a szekeret."
+          "example": "Er schiebt den Wagen. = Viņš stumj ratus."
         }
       ],
       "tip": "Kerek előre mozgás - rollen.",
@@ -48708,17 +48708,17 @@ const B1_WORDS = [
         {
           "word": "rösten",
           "meaning": "Sütni, pirítani",
-          "example": "Wir rösten Kaffee. = Pörkölünk kávét."
+          "example": "Wir rösten Kaffee. = Mēs grauzdējam kafiju."
         },
         {
           "word": "braten",
           "meaning": "Serpenyőben megsütjük",
-          "example": "Ich brate Fleisch. = Húst sütök."
+          "example": "Ich brate Fleisch. = Es cepu gaļu."
         },
         {
           "word": "backen",
           "meaning": "Süssünk tésztát vagy kenyeret a sütőben",
-          "example": "Sie backt Brot. = Kenyeret süt."
+          "example": "Sie backt Brot. = Viņa cep maizi."
         }
       ],
       "tip": "Kávé, kenyér, magvak vagy diófélék - rösten.",
@@ -48942,17 +48942,17 @@ const B1_WORDS = [
         {
           "word": "der Ruf",
           "meaning": "Sír • Hírnév",
-          "example": "Ich hörte einen Ruf. = Kiáltást hallottam."
+          "example": "Ich hörte einen Ruf. = Es dzirdēju saucienu."
         },
         {
           "word": "der Anruf",
           "meaning": "Egy telefonhívást",
-          "example": "Ich bekam einen Anruf. = Kaptam egy hívást."
+          "example": "Ich bekam einen Anruf. = Es saņēmu zvanu."
         },
         {
           "word": "der Ruhm",
           "meaning": "Hírnév",
-          "example": "Ruhm ist nicht alles. = A hírnév nem minden."
+          "example": "Ruhm ist nicht alles. = Slava nav viss."
         }
       ],
       "tip": "Egy hang kiáltása vagy hírneve: der Ruf.",
@@ -49064,17 +49064,17 @@ const B1_WORDS = [
         {
           "word": "ruhen",
           "meaning": "Maradj csendben, ne folytasd",
-          "example": "Das Verfahren ruht. = A folyamat felfüggesztve."
+          "example": "Das Verfahren ruht. = Process ir apturēts."
         },
         {
           "word": "sich ausruhen",
           "meaning": "Pihenni",
-          "example": "Ich ruhe mich kurz aus. = Megyek egy kicsit pihenni."
+          "example": "Ich ruhe mich kurz aus. = Es īsu brīdi atpūšos."
         },
         {
           "word": "schlafen",
           "meaning": "Aludni",
-          "example": "Das Kind schläft. = A gyerek alszik."
+          "example": "Das Kind schläft. = Bērns guļ."
         }
       ],
       "tip": "Béke vagy szünet: ruhen • Napi pihenő: sich ausruhen.",
@@ -49263,17 +49263,17 @@ const B1_WORDS = [
         {
           "word": "rüsten",
           "meaning": "Előkészíteni, felszerelni • Felfegyverezni",
-          "example": "Wir rüsten uns für den Winter. = Télre készülünk."
+          "example": "Wir rüsten uns für den Winter. = Mēs gatavojamies ziemai."
         },
         {
           "word": "vorbereiten",
           "meaning": "Felkészülni",
-          "example": "Ich bereite das Essen vor. = Elkészítettem az ételt."
+          "example": "Ich bereite das Essen vor. = Es sagatavoju ēdienu."
         },
         {
           "word": "aufrüsten",
           "meaning": "A fegyverzet megerősítése",
-          "example": "Der Staat rüstet auf. = Az ország fel van fegyverezve."
+          "example": "Der Staat rüstet auf. = Valsts bruņojas."
         }
       ],
       "tip": "Ha az előkészítés felszerelést igényel, der rüsten.",
@@ -49409,17 +49409,17 @@ const B1_WORDS = [
         {
           "word": "die Saat",
           "meaning": "Mag, köt",
-          "example": "Die Saat geht auf. = Csírázik a kötet."
+          "example": "Die Saat geht auf. = Sējums dīgst."
         },
         {
           "word": "der Samen",
           "meaning": "Egyedi vetőmag",
-          "example": "Der Samen ist klein. = A mag kicsi."
+          "example": "Der Samen ist klein. = Sēkla ir maza."
         },
         {
           "word": "säen",
           "meaning": "Koca",
-          "example": "Wir säen Weizen. = Búzát vetünk."
+          "example": "Wir säen Weizen. = Mēs sējam kviešus."
         }
       ],
       "tip": "Szántóföld és vetés általában: die Saat.",
@@ -49754,17 +49754,17 @@ const B1_WORDS = [
         {
           "word": "die Schale",
           "meaning": "Kéreg, héj • Tál",
-          "example": "Die Schale der Orange ist dick. = A narancshéj vastag."
+          "example": "Die Schale der Orange ist dick. = Apelsīna miza ir bieza."
         },
         {
           "word": "die Rinde",
           "meaning": "Fakéreg vagy kenyérhéj",
-          "example": "Die Rinde ist dunkel. = A fa kérge sötét."
+          "example": "Die Rinde ist dunkel. = Koka miza ir tumša."
         },
         {
           "word": "die Schüssel",
           "meaning": "Egy tálat",
-          "example": "Die Schüssel ist leer. = A tál üres."
+          "example": "Die Schüssel ist leer. = Bļoda ir tukša."
         }
       ],
       "tip": "Gyümölcshöz és dióhoz Schale • A fasorhoz.",
@@ -50009,17 +50009,17 @@ const B1_WORDS = [
         {
           "word": "die Schicht",
           "meaning": "Réteg, kör • Műszak",
-          "example": "Eine Schicht Staub liegt dort. = Van egy porréteg."
+          "example": "Eine Schicht Staub liegt dort. = Tur ir putekļu slānis."
         },
         {
           "word": "die Lage",
           "meaning": "Helyzetet vagy pozíciót",
-          "example": "Die Lage ist ernst. = A helyzet súlyos."
+          "example": "Die Lage ist ernst. = Situācija ir nopietna."
         },
         {
           "word": "die Schichtarbeit",
           "meaning": "Műszakos munka",
-          "example": "Schichtarbeit ist anstrengend. = A műszakos munka fárasztó."
+          "example": "Schichtarbeit ist anstrengend. = Maiņu darbs ir nogurdinošs."
         }
       ],
       "tip": "A felületen Schicht van • A munkában Schicht lehet műszak.",
@@ -50183,17 +50183,17 @@ const B1_WORDS = [
         {
           "word": "der Schimmel",
           "meaning": "Penészgomba • Szürke ló",
-          "example": "An der Wand ist Schimmel. = Penész van a falon."
+          "example": "An der Wand ist Schimmel. = Uz sienas ir pelējums."
         },
         {
           "word": "der Pilz",
           "meaning": "Gomba",
-          "example": "Der Pilz wächst im Wald. = A gomba az erdőben nő."
+          "example": "Der Pilz wächst im Wald. = Sēne aug mežā."
         },
         {
           "word": "das Pferd",
           "meaning": "Egy lovat",
-          "example": "Das Pferd läuft schnell. = A ló gyorsan fut."
+          "example": "Das Pferd läuft schnell. = Zirgs skrien ātri."
         }
       ],
       "tip": "Fal vagy étel: Schimmel = penész.",
@@ -50370,17 +50370,17 @@ const B1_WORDS = [
         {
           "word": "der Schlag",
           "meaning": "Ütés, ütés • Összefüggésben rúgás",
-          "example": "Der Schlag traf ihn. = Az ütés érte."
+          "example": "Der Schlag traf ihn. = Sitiens viņam trāpīja."
         },
         {
           "word": "der Stoß",
           "meaning": "Egy lökés",
-          "example": "Der Stoß war stark. = A lökés erős volt."
+          "example": "Der Stoß war stark. = Grūdiens bija stiprs."
         },
         {
           "word": "der Blitz",
           "meaning": "Villám",
-          "example": "Der Blitz war hell. = A villám fényes volt."
+          "example": "Der Blitz war hell. = Zibens bija spožs."
         }
       ],
       "tip": "Hirtelen ütés: Schlag jelentkezik.",
@@ -50557,17 +50557,17 @@ const B1_WORDS = [
         {
           "word": "schleifen",
           "meaning": "Köszörülés, élezés • Húzza a talajt",
-          "example": "Er schleift das Messer. = Megélezi a kést."
+          "example": "Er schleift das Messer. = Viņš asina nazi."
         },
         {
           "word": "schärfen",
           "meaning": "Élesíteni",
-          "example": "Ich schärfe das Messer. = Megélesítem a kést."
+          "example": "Ich schärfe das Messer. = Es asinu nazi."
         },
         {
           "word": "ziehen",
           "meaning": "Húzni",
-          "example": "Er zieht den Wagen. = Egy szekeret húz."
+          "example": "Er zieht den Wagen. = Viņš velk ratus."
         }
       ],
       "tip": "A felületet, kést vagy fémet megmunkálják → schleifen.",
@@ -50798,17 +50798,17 @@ const B1_WORDS = [
         {
           "word": "schmelzen",
           "meaning": "Megolvad vagy megolvad",
-          "example": "Der Schnee schmilzt. = A hó olvad."
+          "example": "Der Schnee schmilzt. = Sniegs kūst."
         },
         {
           "word": "auftauen",
           "meaning": "Olvadás",
-          "example": "Ich taue das Fleisch auf. = A húst kiolvasztottam."
+          "example": "Ich taue das Fleisch auf. = Es atkausēju gaļu."
         },
         {
           "word": "kochen",
           "meaning": "Felforralni",
-          "example": "Das Wasser kocht. = A víz forr."
+          "example": "Das Wasser kocht. = Ūdens vārās."
         }
       ],
       "tip": "Self → megolvad • Tárggyal → olvad.",
@@ -50955,17 +50955,17 @@ const B1_WORDS = [
         {
           "word": "schmieren",
           "meaning": "Maszatolni, maszatolni, maszatolni",
-          "example": "Sie schmiert Butter aufs Brot. = Vajat ken a kenyérre."
+          "example": "Sie schmiert Butter aufs Brot. = Viņa smērē sviestu uz maizes."
         },
         {
           "word": "streichen",
           "meaning": "Virágozni, ecsetmozdulattal festeni",
-          "example": "Er streicht die Wand. = Kifesti a falat."
+          "example": "Er streicht die Wand. = Viņš krāso sienu."
         },
         {
           "word": "ölen",
           "meaning": "Kenje meg",
-          "example": "Ich öle die Kette. = Megkenem a láncot."
+          "example": "Ich öle die Kette. = Es eļļoju ķēdi."
         }
       ],
       "tip": "Zsír, vaj, olaj vagy zsír → schmieren.",
@@ -51100,17 +51100,17 @@ const B1_WORDS = [
         {
           "word": "schmücken",
           "meaning": "Díszíteni, díszíteni",
-          "example": "Wir schmücken den Baum. = Feldíszítjük a karácsonyfát."
+          "example": "Wir schmücken den Baum. = Mēs rotājam eglīti."
         },
         {
           "word": "dekorieren",
           "meaning": "Díszíteni egy szobát vagy tárgyat",
-          "example": "Sie dekoriert den Raum. = Ő díszíti a szobát."
+          "example": "Sie dekoriert den Raum. = Viņa dekorē telpu."
         },
         {
           "word": "sich anziehen",
           "meaning": "Öltözz fel",
-          "example": "Er zieht sich warm an. = Melegen öltözik."
+          "example": "Er zieht sich warm an. = Viņš silti apģērbjas."
         }
       ],
       "tip": "Ha valami szebbé válik a díszekkel, használjon schmücken-t.",
@@ -51305,17 +51305,17 @@ const B1_WORDS = [
         {
           "word": "der Schnitt",
           "meaning": "Vágás, vágás, összeszerelés",
-          "example": "Der Schnitt ist tief. = A vágás mély."
+          "example": "Der Schnitt ist tief. = Griezums ir dziļš."
         },
         {
           "word": "der Durchschnitt",
           "meaning": "Az átlag",
-          "example": "Der Durchschnitt ist hoch. = Az átlagos pontszám magas."
+          "example": "Der Durchschnitt ist hoch. = Vidējais rādītājs ir augsts."
         },
         {
           "word": "die Wunde",
           "meaning": "Egy sebet",
-          "example": "Die Wunde blutet. = A seb vérzik."
+          "example": "Die Wunde blutet. = Brūce asiņo."
         }
       ],
       "tip": "Ha valamit vágnak vagy vágással formáznak, gondoljon Schnittre.",
@@ -51596,17 +51596,17 @@ const B1_WORDS = [
         {
           "word": "schuldig",
           "meaning": "Bűnös • Tartozik",
-          "example": "Er ist schuldig. = Ő bűnös."
+          "example": "Er ist schuldig. = Viņš ir vainīgs."
         },
         {
           "word": "die Schuld",
           "meaning": "Hiba, adósság",
-          "example": "Das ist nicht meine Schuld. = Nem az én hibám."
+          "example": "Das ist nicht meine Schuld. = Tā nav mana vaina."
         },
         {
           "word": "unschuldig",
           "meaning": "Ártatlan",
-          "example": "Sie ist unschuldig. = Ő ártatlan."
+          "example": "Sie ist unschuldig. = Viņa ir nevainīga."
         }
       ],
       "tip": "Bűnös vagy eladósodott: schuldig.",
@@ -51785,17 +51785,17 @@ const B1_WORDS = [
         {
           "word": "schützen",
           "meaning": "Védeni, védeni",
-          "example": "Die Jacke schützt vor Regen. = A kabát véd az esőtől."
+          "example": "Die Jacke schützt vor Regen. = Jaka aizsargā no lietus."
         },
         {
           "word": "retten",
           "meaning": "Megmenteni a veszélytől",
-          "example": "Sie retten den Hund. = Megmentik a kutyát."
+          "example": "Sie retten den Hund. = Viņi izglābj suni."
         },
         {
           "word": "bewachen",
           "meaning": "Őrködni",
-          "example": "Er bewacht das Haus. = Ő őrzi a házat."
+          "example": "Er bewacht das Haus. = Viņš apsargā māju."
         }
       ],
       "tip": "Megvéd valamitől: schützen vor + kam?.",
@@ -51960,17 +51960,17 @@ const B1_WORDS = [
         {
           "word": "schwanken",
           "meaning": "Ingadozás, kétség",
-          "example": "Die Preise schwanken. = Az árak ingadoznak."
+          "example": "Die Preise schwanken. = Cenas svārstās."
         },
         {
           "word": "wackeln",
           "meaning": "Billegni",
-          "example": "Der Tisch wackelt. = Az asztal inog."
+          "example": "Der Tisch wackelt. = Galds ļodzās."
         },
         {
           "word": "zweifeln",
           "meaning": "Kételkedni",
-          "example": "Ich zweifle daran. = Kétlem."
+          "example": "Ich zweifle daran. = Es par to šaubos."
         }
       ],
       "tip": "Bizonytalan mozgás vagy bizonytalan döntés: schwanken.",
@@ -52401,17 +52401,17 @@ const B1_WORDS = [
         {
           "word": "senden",
           "meaning": "Küldeni vagy sugározni",
-          "example": "Ich sende eine Nachricht. = Üzenetet küldök."
+          "example": "Ich sende eine Nachricht. = Es sūtu ziņu."
         },
         {
           "word": "schicken",
           "meaning": "Mindennap küldeni",
-          "example": "Ich schicke dir das Foto. = Küldök egy fényképet."
+          "example": "Ich schicke dir das Foto. = Es tev nosūtu foto."
         },
         {
           "word": "übertragen",
           "meaning": "Továbbítani",
-          "example": "Das Spiel wird übertragen. = A játékot közvetítik."
+          "example": "Das Spiel wird übertragen. = Spēle tiek pārraidīta."
         }
       ],
       "tip": "Üzenet, jel vagy átvitel: senden.",
@@ -52550,17 +52550,17 @@ const B1_WORDS = [
         {
           "word": "senken",
           "meaning": "Leengedni, leengedni",
-          "example": "Die Firma senkt die Preise. = A cég csökkenti az árakat."
+          "example": "Die Firma senkt die Preise. = Uzņēmums pazemina cenas."
         },
         {
           "word": "sinken",
           "meaning": "Zuhanni, elsüllyedni",
-          "example": "Die Preise sinken. = Az árak esnek."
+          "example": "Die Preise sinken. = Cenas krītas."
         },
         {
           "word": "heben",
           "meaning": "Emelje fel",
-          "example": "Er hebt die Hand. = Felemeli a kezét."
+          "example": "Er hebt die Hand. = Viņš paceļ roku."
         }
       ],
       "tip": "Valaki leereszt valamit: senken • Valami magától leesik: elsüllyedt.",
@@ -52838,17 +52838,17 @@ const B1_WORDS = [
         {
           "word": "der Sinn",
           "meaning": "Értelem, értelem, érzés",
-          "example": "Das hat keinen Sinn. = Nincs értelme."
+          "example": "Das hat keinen Sinn. = Tam nav jēgas."
         },
         {
           "word": "die Bedeutung",
           "meaning": "Jelentése",
-          "example": "Die Bedeutung ist klar. = A jelentés világos."
+          "example": "Die Bedeutung ist klar. = Nozīme ir skaidra."
         },
         {
           "word": "das Gefühl",
           "meaning": "Érzés",
-          "example": "Ich habe ein gutes Gefühl. = Jó érzésem van."
+          "example": "Ich habe ein gutes Gefühl. = Man ir laba sajūta."
         }
       ],
       "tip": "Jelentés szövegben vagy életben: Sinn • A szó jelentése gyakran Bedeutung is.",
@@ -52980,17 +52980,17 @@ const B1_WORDS = [
         {
           "word": "der Sitz",
           "meaning": "Ülés, ülés • Ülés",
-          "example": "Der Sitz ist frei. = Az ülés szabad."
+          "example": "Der Sitz ist frei. = Sēdeklis ir brīvs."
         },
         {
           "word": "der Platz",
           "meaning": "Hely",
-          "example": "Der Platz ist frei. = A hely ingyenes."
+          "example": "Der Platz ist frei. = Vieta ir brīva."
         },
         {
           "word": "der Standort",
           "meaning": "Elhelyezkedés",
-          "example": "Der Standort ist gut. = A helyszín jó."
+          "example": "Der Standort ist gut. = Atrašanās vieta ir laba."
         }
       ],
       "tip": "Székhelye vagy a cég székhelye: der Sitz.",
@@ -53231,17 +53231,17 @@ const B1_WORDS = [
         {
           "word": "sich sorgen",
           "meaning": "Aggódni",
-          "example": "Ich sorge mich um dich. = Aggódom érted."
+          "example": "Ich sorge mich um dich. = Es raizējos par tevi."
         },
         {
           "word": "sich kümmern um",
           "meaning": "Gyakorlatilag gondoskodni",
-          "example": "Ich kümmere mich um das Kind. = Én vigyázok a gyerekre."
+          "example": "Ich kümmere mich um das Kind. = Es rūpējos par bērnu."
         },
         {
           "word": "die Sorge",
           "meaning": "Aggodalmak, aggodalmak",
-          "example": "Das ist meine Sorge. = Ezek az én gondjaim."
+          "example": "Das ist meine Sorge. = Tās ir manas rūpes."
         }
       ],
       "tip": "Belül érzés: sich sorgen • Gyakorlati segítség: sich kümmern um.",
@@ -53526,17 +53526,17 @@ const B1_WORDS = [
         {
           "word": "die Spannung",
           "meaning": "Feszültség • Elektromosságban, feszültség",
-          "example": "Die Spannung ist groß. = A feszültség nagy."
+          "example": "Die Spannung ist groß. = Spriedze ir liela."
         },
         {
           "word": "der Stress",
           "meaning": "Stressz, túlterhelés",
-          "example": "Ich habe viel Stress. = Rengeteg stressz van bennem."
+          "example": "Ich habe viel Stress. = Man ir daudz stresa."
         },
         {
           "word": "die Kraft",
           "meaning": "Erő",
-          "example": "Er hat viel Kraft. = Nagy hatalma van."
+          "example": "Er hat viel Kraft. = Viņam ir daudz spēka."
         }
       ],
       "tip": {
@@ -53698,17 +53698,17 @@ const B1_WORDS = [
         {
           "word": "speichern",
           "meaning": "Mentés • Felhalmoz",
-          "example": "Ich speichere die Datei. = Elmentettem a fájlt."
+          "example": "Ich speichere die Datei. = Es saglabāju failu."
         },
         {
           "word": "sparen",
           "meaning": "Spórolni, pénzt takarítani",
-          "example": "Ich spare Geld. = Pénzt takarítok meg."
+          "example": "Ich spare Geld. = Es krāju naudu."
         },
         {
           "word": "aufbewahren",
           "meaning": "Tartson meg egy tárgyat vagy dokumentumot",
-          "example": "Ich bewahre die Quittung auf. = Megőrzöm a nyugtát."
+          "example": "Ich bewahre die Quittung auf. = Es glabāju čeku."
         }
       ],
       "tip": {
@@ -53877,17 +53877,17 @@ const B1_WORDS = [
         {
           "word": "sperren",
           "meaning": "Blokk, zárja be a hozzáférést",
-          "example": "Die Straße ist gesperrt. = Az utca le van zárva."
+          "example": "Die Straße ist gesperrt. = Iela ir slēgta."
         },
         {
           "word": "abschließen",
           "meaning": "Zár kulccsal",
-          "example": "Ich schließe die Tür ab. = Bezártam az ajtót."
+          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
         },
         {
           "word": "schließen",
           "meaning": "Bezárni",
-          "example": "Ich schließe das Fenster. = Becsukom az ablakot."
+          "example": "Ich schließe das Fenster. = Es aizveru logu."
         }
       ],
       "tip": {
@@ -54038,17 +54038,17 @@ const B1_WORDS = [
         {
           "word": "die Spitze",
           "meaning": "Csúcs, csúcs, fej",
-          "example": "Die Spitze ist scharf. = A hegy éles."
+          "example": "Die Spitze ist scharf. = Smaile ir asa."
         },
         {
           "word": "der Gipfel",
           "meaning": "Hegycsúcs",
-          "example": "Der Gipfel ist hoch. = A teteje magas."
+          "example": "Der Gipfel ist hoch. = Virsotne ir augsta."
         },
         {
           "word": "das Ende",
           "meaning": "Vége, vége",
-          "example": "Das Ende ist nah. = Közel a vég."
+          "example": "Das Ende ist nah. = Beigas ir tuvu."
         }
       ],
       "tip": {
@@ -54259,17 +54259,17 @@ const B1_WORDS = [
         {
           "word": "spritzen",
           "meaning": "Fröcskölés, permetezés, injekció",
-          "example": "Wasser spritzt. = Víz fröccsenése."
+          "example": "Wasser spritzt. = Ūdens šļakstās."
         },
         {
           "word": "gießen",
           "meaning": "Felönteni, vizet",
-          "example": "Ich gieße die Blumen. = Meglocsolom a virágokat."
+          "example": "Ich gieße die Blumen. = Es laistu puķes."
         },
         {
           "word": "sprühen",
           "meaning": "Permetezni",
-          "example": "Ich sprühe Parfüm. = Parfümöt permetezek."
+          "example": "Ich sprühe Parfüm. = Es izsmidzinu smaržas."
         }
       ],
       "tip": {
@@ -54405,17 +54405,17 @@ const B1_WORDS = [
         {
           "word": "der Sprung",
           "meaning": "Ugrás • Rés",
-          "example": "Der Sprung war weit. = Az ugrás messze volt."
+          "example": "Der Sprung war weit. = Lēciens bija tāls."
         },
         {
           "word": "der Riss",
           "meaning": "Rés",
-          "example": "In der Wand ist ein Riss. = Repedés van a falon."
+          "example": "In der Wand ist ein Riss. = Sienā ir plaisa."
         },
         {
           "word": "springen",
           "meaning": "Ugrani",
-          "example": "Er springt hoch. = Magasra ugrik."
+          "example": "Er springt hoch. = Viņš lec augstu."
         }
       ],
       "tip": {
@@ -54643,17 +54643,17 @@ const B1_WORDS = [
         {
           "word": "der Stand",
           "meaning": "Állapot • Állvány",
-          "example": "Der Stand ist unklar. = Az állapot tisztázatlan."
+          "example": "Der Stand ist unklar. = Stāvoklis nav skaidrs."
         },
         {
           "word": "der Zustand",
           "meaning": "Állapot, minőség",
-          "example": "Der Zustand ist gut. = Állapota jó."
+          "example": "Der Zustand ist gut. = Stāvoklis ir labs."
         },
         {
           "word": "der Standort",
           "meaning": "Elhelyezkedés",
-          "example": "Der Standort ist zentral. = A helyszín központi."
+          "example": "Der Standort ist zentral. = Atrašanās vieta ir centrāla."
         }
       ],
       "tip": {
@@ -54891,17 +54891,17 @@ const B1_WORDS = [
         {
           "word": "die Stellung",
           "meaning": "Pozíció, pozíció, pozíció",
-          "example": "Er sucht eine Stellung. = Munkát keres."
+          "example": "Er sucht eine Stellung. = Viņš meklē darbu."
         },
         {
           "word": "der Stand",
           "meaning": "Jelenlegi állapot",
-          "example": "Wie ist der Stand? = Mi a feltétele?"
+          "example": "Wie ist der Stand? = Kāds ir stāvoklis?"
         },
         {
           "word": "die Stelle",
           "meaning": "Hely • Munkahely",
-          "example": "Die Stelle ist frei. = Az állás betöltetlen."
+          "example": "Die Stelle ist frei. = Darbavieta ir brīva."
         }
       ],
       "tip": {
@@ -55116,17 +55116,17 @@ const B1_WORDS = [
         {
           "word": "der Stift",
           "meaning": "Ceruza, toll • Tű",
-          "example": "Hast du einen Stift? = Van-e ceruzád"
+          "example": "Hast du einen Stift? = Vai tev ir zīmulis?"
         },
         {
           "word": "der Bleistift",
           "meaning": "Ceruza",
-          "example": "Der Bleistift ist spitz. = A ceruza éles."
+          "example": "Der Bleistift ist spitz. = Zīmulis ir ass."
         },
         {
           "word": "der Kugelschreiber",
           "meaning": "Golyóstoll",
-          "example": "Der Kugelschreiber schreibt blau. = A toll kékkel ír."
+          "example": "Der Kugelschreiber schreibt blau. = Pildspalva raksta zilā krāsā."
         }
       ],
       "tip": {
@@ -55263,17 +55263,17 @@ const B1_WORDS = [
         {
           "word": "stillen",
           "meaning": "Ápolni • Megnyugtatni",
-          "example": "Die Mutter stillt das Baby. = Egy anya gyermeket szoptat."
+          "example": "Die Mutter stillt das Baby. = Māte zīda bērnu."
         },
         {
           "word": "beruhigen",
           "meaning": "Nyugodj meg",
-          "example": "Ich beruhige das Kind. = Megnyugtatom a gyereket."
+          "example": "Ich beruhige das Kind. = Es nomierinu bērnu."
         },
         {
           "word": "füttern",
           "meaning": "Etetni",
-          "example": "Ich füttere das Baby. = Etetem a babát."
+          "example": "Ich füttere das Baby. = Es baroju bērnu."
         }
       ],
       "tip": {
@@ -55489,17 +55489,17 @@ const B1_WORDS = [
         {
           "word": "stoßen",
           "meaning": "Lökdös, nekiütközik • Beleütközik",
-          "example": "Er stößt gegen die Tür. = Beveri az ajtót."
+          "example": "Er stößt gegen die Tür. = Viņš atsitas pret durvīm."
         },
         {
           "word": "schieben",
           "meaning": "Hosszabb mozdulattal nyomja meg",
-          "example": "Ich schiebe den Wagen. = Tolom a szekeret."
+          "example": "Ich schiebe den Wagen. = Es stumju ratus."
         },
         {
           "word": "treffen",
           "meaning": "Találkozni vagy megütni",
-          "example": "Ich treffe ihn morgen. = Holnap találkozom vele."
+          "example": "Ich treffe ihn morgen. = Es viņu satikšu rīt."
         }
       ],
       "tip": {
@@ -55704,17 +55704,17 @@ const B1_WORDS = [
         {
           "word": "streichen",
           "meaning": "Kihúzni • Festeni • Simogatni",
-          "example": "Der Termin wird gestrichen. = A futamidő törölve van."
+          "example": "Der Termin wird gestrichen. = Termiņš tiek atcelts."
         },
         {
           "word": "löschen",
           "meaning": "Fájl, szöveg törlése vagy tűz",
-          "example": "Ich lösche die Datei. = Törlöm a fájlt."
+          "example": "Ich lösche die Datei. = Es dzēšu failu."
         },
         {
           "word": "malen",
           "meaning": "Rajzolni vagy festeni egy képet",
-          "example": "Das Kind malt ein Bild. = Egy gyerek rajzol egy képet."
+          "example": "Das Kind malt ein Bild. = Bērns zīmē attēlu."
         }
       ],
       "tip": {
@@ -55923,17 +55923,17 @@ const B1_WORDS = [
         {
           "word": "der Strom",
           "meaning": "Áram, áram • Nagy folyó",
-          "example": "Der Strom ist weg. = Nincs áram."
+          "example": "Der Strom ist weg. = Elektrības nav."
         },
         {
           "word": "der Fluss",
           "meaning": "A folyót",
-          "example": "Der Fluss ist breit. = A folyó széles."
+          "example": "Der Fluss ist breit. = Upe ir plata."
         },
         {
           "word": "die Energie",
           "meaning": "Energia",
-          "example": "Wir sparen Energie. = Energiát takarítunk meg."
+          "example": "Wir sparen Energie. = Mēs taupām enerģiju."
         }
       ],
       "tip": {
@@ -56140,17 +56140,17 @@ const B1_WORDS = [
         {
           "word": "stürzen",
           "meaning": "Gyorsan esik • Leüt",
-          "example": "Er stürzt zu Boden. = Lezuhan a földre."
+          "example": "Er stürzt zu Boden. = Viņš nokrīt zemē."
         },
         {
           "word": "fallen",
           "meaning": "Semleges esés",
-          "example": "Das Glas fällt auf den Boden. = Az üveg a padlóra esik."
+          "example": "Das Glas fällt auf den Boden. = Glāze nokrīt uz grīdas."
         },
         {
           "word": "umfallen",
           "meaning": "Felborul",
-          "example": "Der Stuhl fällt um. = A szék felborul."
+          "example": "Der Stuhl fällt um. = Krēsls apgāžas."
         }
       ],
       "tip": {
@@ -56340,17 +56340,17 @@ const B1_WORDS = [
         {
           "word": "die Szene",
           "meaning": "Jelenet • Környezet",
-          "example": "Die Szene ist kurz. = A jelenet rövid."
+          "example": "Die Szene ist kurz. = Aina ir īsa."
         },
         {
           "word": "die Bühne",
           "meaning": "Színpadon",
-          "example": "Sie steht auf der Bühne. = A színpadon áll."
+          "example": "Sie steht auf der Bühne. = Viņa stāv uz skatuves."
         },
         {
           "word": "die Situation",
           "meaning": "A helyzetet",
-          "example": "Die Situation ist schwierig. = A helyzet bonyolult."
+          "example": "Die Situation ist schwierig. = Situācija ir sarežģīta."
         }
       ],
       "tip": {
@@ -56538,17 +56538,17 @@ const B1_WORDS = [
         {
           "word": "der Tank",
           "meaning": "Tartály",
-          "example": "Der Tank ist leer. = A tartály üres."
+          "example": "Der Tank ist leer. = Tvertne ir tukša."
         },
         {
           "word": "der Behälter",
           "meaning": "Hajó, tartály",
-          "example": "Der Behälter ist voll. = A tartály megtelt."
+          "example": "Der Behälter ist voll. = Trauks ir pilns."
         },
         {
           "word": "der Panzer",
           "meaning": "Katonai tank",
-          "example": "Der Panzer ist schwer. = A tank nehéz."
+          "example": "Der Panzer ist schwer. = Tanks ir smags."
         }
       ],
       "tip": {
@@ -56757,17 +56757,17 @@ const B1_WORDS = [
         {
           "word": "der Tau",
           "meaning": "Harmat",
-          "example": "Der Tau glitzert. = Harmat csillog. Csak egyes számban."
+          "example": "Der Tau glitzert. = Rasa mirdz. Tikai vienskaitlis."
         },
         {
           "word": "das Tau",
           "meaning": "Hajóvonó • Kötél",
-          "example": "Das Tau ist fest. = A kóc szoros. Többes szám: die Taue."
+          "example": "Das Tau ist fest. = Tauva ir stingra. Plural: die Taue."
         },
         {
           "word": "der Nebel",
           "meaning": "Köd",
-          "example": "Der Nebel ist dicht. = A köd sűrű."
+          "example": "Der Nebel ist dicht. = Migla ir blīva."
         }
       ],
       "tip": {
@@ -56862,17 +56862,17 @@ const B1_WORDS = [
         {
           "word": "das Tau",
           "meaning": "Hajóvonó • Kötél",
-          "example": "Das Tau ist fest. = A kóc szoros. Többes szám: die Taue."
+          "example": "Das Tau ist fest. = Tauva ir stingra. Plural: die Taue."
         },
         {
           "word": "der Tau",
           "meaning": "Harmat",
-          "example": "Der Tau glitzert. = Harmat csillog. Csak egyes számban."
+          "example": "Der Tau glitzert. = Rasa mirdz. Tikai vienskaitlis."
         },
         {
           "word": "das Seil",
           "meaning": "Egy kötelet",
-          "example": "Das Seil ist lang. = A kötél hosszú."
+          "example": "Das Seil ist lang. = Virve ir gara."
         }
       ],
       "tip": {
@@ -56977,17 +56977,17 @@ const B1_WORDS = [
         {
           "word": "tauchen",
           "meaning": "Merülés • Merülés",
-          "example": "Wir tauchen im See. = Merülünk a tóba."
+          "example": "Wir tauchen im See. = Mēs nirstam ezerā."
         },
         {
           "word": "schwimmen",
           "meaning": "Lebegni a vízen",
-          "example": "Ich schwimme im See. = Úszom a tóban."
+          "example": "Ich schwimme im See. = Es peldu ezerā."
         },
         {
           "word": "eintauchen",
           "meaning": "Mártogatni, áztatni",
-          "example": "Ich tauche den Pinsel ein. = Bemártottam az ecsetet."
+          "example": "Ich tauche den Pinsel ein. = Es iemērcu otu."
         }
       ],
       "tip": {
@@ -57127,17 +57127,17 @@ const B1_WORDS = [
         {
           "word": "taufen",
           "meaning": "Keresztel • Ad nevet",
-          "example": "Das Kind wird getauft. = A gyermek megkeresztelkedett."
+          "example": "Das Kind wird getauft. = Bērns tiek kristīts."
         },
         {
           "word": "nennen",
           "meaning": "Hívni, megnevezni",
-          "example": "Wir nennen ihn Max. = Maxnek hívjuk."
+          "example": "Wir nennen ihn Max. = Mēs viņu saucam par Maksu."
         },
         {
           "word": "heiraten",
           "meaning": "Férjhez menni",
-          "example": "Sie heiraten im Mai. = Májusban összeházasodnak."
+          "example": "Sie heiraten im Mai. = Viņi precas maijā."
         }
       ],
       "tip": {
@@ -57311,17 +57311,17 @@ const B1_WORDS = [
         {
           "word": "teilnehmen",
           "meaning": "Részt venni",
-          "example": "Ich nehme am Kurs teil. = Részt veszek a tanfolyamon."
+          "example": "Ich nehme am Kurs teil. = Es piedalos kursā."
         },
         {
           "word": "mitmachen",
           "meaning": "Informálisan részt venni",
-          "example": "Machst du mit? = Részt vesz?"
+          "example": "Machst du mit? = Vai tu piedalīsies?"
         },
         {
           "word": "besuchen",
           "meaning": "Meglátogatni",
-          "example": "Ich besuche einen Kurs. = Részt vettem a tanfolyamon."
+          "example": "Ich besuche einen Kurs. = Es apmeklēju kursu."
         }
       ],
       "tip": {
@@ -57578,17 +57578,17 @@ const B1_WORDS = [
         {
           "word": "der Titel",
           "meaning": "Név • Cím",
-          "example": "Der Titel ist bekannt. = A név ismert."
+          "example": "Der Titel ist bekannt. = Nosaukums ir zināms."
         },
         {
           "word": "die Überschrift",
           "meaning": "Cím",
-          "example": "Die Überschrift ist groß. = A cím nagy."
+          "example": "Die Überschrift ist groß. = Virsraksts ir liels."
         },
         {
           "word": "der Name",
           "meaning": "Név vagy cím",
-          "example": "Wie ist der Name? = Mi a neve?"
+          "example": "Wie ist der Name? = Kāds ir vārds?"
         }
       ],
       "tip": {
@@ -57741,17 +57741,17 @@ const B1_WORDS = [
         {
           "word": "der Ton",
           "meaning": "Hang, hangszín",
-          "example": "Der Ton ist laut. = Hangos a hang."
+          "example": "Der Ton ist laut. = Skaņa ir skaļa."
         },
         {
           "word": "die Stimme",
           "meaning": "Hang",
-          "example": "Ihre Stimme ist ruhig. = A hangja nyugodt."
+          "example": "Ihre Stimme ist ruhig. = Viņas balss ir mierīga."
         },
         {
           "word": "die Farbe",
           "meaning": "Szín",
-          "example": "Die Farbe ist hell. = A szín világos."
+          "example": "Die Farbe ist hell. = Krāsa ir gaiša."
         }
       ],
       "tip": {
@@ -57928,17 +57928,17 @@ const B1_WORDS = [
         {
           "word": "trauen",
           "meaning": "Bízni, hinni a képességeiben",
-          "example": "Ich traue dir. = Bízom benned."
+          "example": "Ich traue dir. = Es tev uzticos."
         },
         {
           "word": "vertrauen",
           "meaning": "Mélyebben bízni",
-          "example": "Ich vertraue dir. = Bízom benned."
+          "example": "Ich vertraue dir. = Es tev uzticos."
         },
         {
           "word": "sich trauen",
           "meaning": "Merni",
-          "example": "Traust du dich? = Mersz-e"
+          "example": "Traust du dich? = Vai tu uzdrīksties?"
         }
       ],
       "tip": {
@@ -58355,17 +58355,17 @@ const B1_WORDS = [
         {
           "word": "trennen",
           "meaning": "Elválasztani, elválasztani",
-          "example": "Die Wand trennt die Zimmer. = A szobákat fal választja el."
+          "example": "Die Wand trennt die Zimmer. = Siena atdala istabas."
         },
         {
           "word": "unterscheiden",
           "meaning": "Jellemzők alapján megkülönböztetni",
-          "example": "Ich kann die Farben unterscheiden. = Meg tudom különböztetni a színeket."
+          "example": "Ich kann die Farben unterscheiden. = Es varu atšķirt krāsas."
         },
         {
           "word": "sich trennen",
           "meaning": "Szakítani",
-          "example": "Sie trennen sich. = Elválnak."
+          "example": "Sie trennen sich. = Viņi šķiras."
         }
       ],
       "tip": {
@@ -58703,17 +58703,17 @@ const B1_WORDS = [
         {
           "word": "übergeben",
           "meaning": "Átadni",
-          "example": "Ich übergebe den Schlüssel. = Átadom a kulcsot."
+          "example": "Ich übergebe den Schlüssel. = Es nododu atslēgu."
         },
         {
           "word": "geben",
           "meaning": "Adni",
-          "example": "Ich gebe dir das Buch. = Adok egy könyvet."
+          "example": "Ich gebe dir das Buch. = Es dodu tev grāmatu."
         },
         {
           "word": "sich übergeben",
           "meaning": "Hányni",
-          "example": "Er muss sich übergeben. = Hánynia kell."
+          "example": "Er muss sich übergeben. = Viņam jāvemj."
         }
       ],
       "tip": {
@@ -58839,17 +58839,17 @@ const B1_WORDS = [
         {
           "word": "überholen",
           "meaning": "Előzés • Nagyjavítás",
-          "example": "Er überholt das Auto. = Megelőzi az autót."
+          "example": "Er überholt das Auto. = Viņš apdzen auto."
         },
         {
           "word": "vorbeifahren",
           "meaning": "Elhalad",
-          "example": "Ich fahre am Haus vorbei. = Elhaladtam a ház mellett."
+          "example": "Ich fahre am Haus vorbei. = Es pabraucu garām mājai."
         },
         {
           "word": "reparieren",
           "meaning": "Javítani",
-          "example": "Ich repariere den Motor. = Megjavítottam a motort."
+          "example": "Ich repariere den Motor. = Es remontēju motoru."
         }
       ],
       "tip": {
@@ -58981,17 +58981,17 @@ const B1_WORDS = [
         {
           "word": "übernehmen",
           "meaning": "Átvenni, vállalni",
-          "example": "Ich übernehme die Aufgabe. = Átveszem a feladatot."
+          "example": "Ich übernehme die Aufgabe. = Es pārņemu uzdevumu."
         },
         {
           "word": "nehmen",
           "meaning": "Venni",
-          "example": "Ich nehme das Buch. = Veszem a könyvet."
+          "example": "Ich nehme das Buch. = Es ņemu grāmatu."
         },
         {
           "word": "bekommen",
           "meaning": "Fogadni",
-          "example": "Ich bekomme eine Antwort. = Választ kapok."
+          "example": "Ich bekomme eine Antwort. = Es saņemu atbildi."
         }
       ],
       "tip": {
@@ -59122,17 +59122,17 @@ const B1_WORDS = [
         {
           "word": "übersehen",
           "meaning": "Elnéz • Elnéz",
-          "example": "Ich habe den Fehler übersehen. = Nem vettem észre a hibát."
+          "example": "Ich habe den Fehler übersehen. = Es nepamanīju kļūdu."
         },
         {
           "word": "sehen",
           "meaning": "Látni",
-          "example": "Ich sehe das Haus. = Egy házat látok."
+          "example": "Ich sehe das Haus. = Es redzu māju."
         },
         {
           "word": "bemerken",
           "meaning": "Észrevenni",
-          "example": "Ich bemerke den Fehler. = Hibát veszek észre."
+          "example": "Ich bemerke den Fehler. = Es pamanu kļūdu."
         }
       ],
       "tip": {
@@ -59349,17 +59349,17 @@ const B1_WORDS = [
         {
           "word": "umgehen",
           "meaning": "Megkerülni • Megkerülni",
-          "example": "Er geht gut mit Kindern um. = Jó a gyerekekkel."
+          "example": "Er geht gut mit Kindern um. = Viņš labi apietas ar bērniem."
         },
         {
           "word": "behandeln",
           "meaning": "Kezelni, kezelni",
-          "example": "Er behandelt sie freundlich. = Kedvesen bánik vele."
+          "example": "Er behandelt sie freundlich. = Viņš pret viņu izturas laipni."
         },
         {
           "word": "vermeiden",
           "meaning": "Elkerül",
-          "example": "Ich vermeide Fehler. = Kerülöm a hibákat."
+          "example": "Ich vermeide Fehler. = Es izvairos no kļūdām."
         }
       ],
       "tip": {
@@ -59523,17 +59523,17 @@ const B1_WORDS = [
         {
           "word": "der Umschlag",
           "meaning": "Boríték • Borító • Borogatás",
-          "example": "Der Brief ist im Umschlag. = A levél borítékban van."
+          "example": "Der Brief ist im Umschlag. = Vēstule ir aploksnē."
         },
         {
           "word": "der Brief",
           "meaning": "Levél",
-          "example": "Der Brief ist lang. = A levél hosszú."
+          "example": "Der Brief ist lang. = Vēstule ir gara."
         },
         {
           "word": "der Bezug",
           "meaning": "Borító",
-          "example": "Der Bezug ist sauber. = A borító tiszta."
+          "example": "Der Bezug ist sauber. = Pārvalks ir tīrs."
         }
       ],
       "tip": {
@@ -59871,17 +59871,17 @@ const B1_WORDS = [
         {
           "word": "unterhalten",
           "meaning": "Szórakoztat • Karbantartani",
-          "example": "Der Film unterhält uns. = A film szórakoztat minket."
+          "example": "Der Film unterhält uns. = Filma mūs izklaidē."
         },
         {
           "word": "sich unterhalten",
           "meaning": "Beszélni",
-          "example": "Wir unterhalten uns. = Beszélgetünk."
+          "example": "Wir unterhalten uns. = Mēs sarunājamies."
         },
         {
           "word": "sprechen",
           "meaning": "Beszélni",
-          "example": "Wir sprechen Deutsch. = Németül beszélünk."
+          "example": "Wir sprechen Deutsch. = Mēs runājam vāciski."
         }
       ],
       "tip": {
@@ -60031,17 +60031,17 @@ const B1_WORDS = [
         {
           "word": "die Untersuchung",
           "meaning": "Nyomozás, vizsgálat, tanulmányozás",
-          "example": "Die Untersuchung beginnt. = Megkezdődik a nyomozás."
+          "example": "Die Untersuchung beginnt. = Izmeklēšana sākas."
         },
         {
           "word": "die Prüfung",
           "meaning": "Vizsga vagy hivatalos vizsga",
-          "example": "Die Prüfung ist schwer. = A vizsga nehéz."
+          "example": "Die Prüfung ist schwer. = Eksāmens ir grūts."
         },
         {
           "word": "die Forschung",
           "meaning": "Kutatás mint folyamat",
-          "example": "Die Forschung ist wichtig. = A kutatás fontos."
+          "example": "Die Forschung ist wichtig. = Pētniecība ir svarīga."
         }
       ],
       "tip": {
@@ -60233,17 +60233,17 @@ const B1_WORDS = [
         {
           "word": "verändern",
           "meaning": "Jelentősen megváltozik",
-          "example": "Das verändert die Situation. = Ez megváltoztatja a helyzetet."
+          "example": "Das verändert die Situation. = Tas maina situāciju."
         },
         {
           "word": "ändern",
           "meaning": "Megváltoztatni vagy kijavítani egy adott dolgot",
-          "example": "Ich ändere den Termin. = Módosítom a határidőt."
+          "example": "Ich ändere den Termin. = Es mainu termiņu."
         },
         {
           "word": "sich verändern",
           "meaning": "Változtatni",
-          "example": "Alles verändert sich. = Minden megváltozik."
+          "example": "Alles verändert sich. = Viss mainās."
         }
       ],
       "tip": {
@@ -60388,17 +60388,17 @@ const B1_WORDS = [
         {
           "word": "der Verband",
           "meaning": "Kötszer • Egyesülés",
-          "example": "Der Verband ist sauber. = A kötés tiszta."
+          "example": "Der Verband ist sauber. = Pārsējs ir tīrs."
         },
         {
           "word": "der Verein",
           "meaning": "Társadalom",
-          "example": "Der Verein hat viele Mitglieder. = Az egyesületnek sok tagja van."
+          "example": "Der Verein hat viele Mitglieder. = Biedrībai ir daudz biedru."
         },
         {
           "word": "die Verbindung",
           "meaning": "Kapcsolat, kapcsolat",
-          "example": "Die Verbindung ist stabil. = A kapcsolat stabil."
+          "example": "Die Verbindung ist stabil. = Savienojums ir stabils."
         }
       ],
       "tip": {
@@ -60526,17 +60526,17 @@ const B1_WORDS = [
         {
           "word": "die Verbindung",
           "meaning": "Kapcsolat, kapcsolat",
-          "example": "Die Verbindung ist stabil. = A kapcsolat stabil."
+          "example": "Die Verbindung ist stabil. = Savienojums ir stabils."
         },
         {
           "word": "der Anschluss",
           "meaning": "Kapcsolat",
-          "example": "Der Anschluss funktioniert. = A kapcsolat működik."
+          "example": "Der Anschluss funktioniert. = Pieslēgums darbojas."
         },
         {
           "word": "der Verband",
           "meaning": "Kötszer • Egyesülés",
-          "example": "Der Verband ist sauber. = A kötés tiszta."
+          "example": "Der Verband ist sauber. = Pārsējs ir tīrs."
         }
       ],
       "tip": {
@@ -60697,17 +60697,17 @@ const B1_WORDS = [
         {
           "word": "verbrennen",
           "meaning": "Égni, égni, égni",
-          "example": "Das Papier verbrennt. = A papír ég."
+          "example": "Das Papier verbrennt. = Papīrs sadeg."
         },
         {
           "word": "brennen",
           "meaning": "Égni",
-          "example": "Das Feuer brennt. = A tűz ég."
+          "example": "Das Feuer brennt. = Uguns deg."
         },
         {
           "word": "anzünden",
           "meaning": "Felgyújtani",
-          "example": "Ich zünde die Kerze an. = Gyertyát gyújtok."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         }
       ],
       "tip": {
@@ -60840,17 +60840,17 @@ const B1_WORDS = [
         {
           "word": "verderben",
           "meaning": "Elrontani • Elrontani",
-          "example": "Die Milch ist verdorben. = A tej megromlott."
+          "example": "Die Milch ist verdorben. = Piens ir sabojājies."
         },
         {
           "word": "kaputtmachen",
           "meaning": "Eltörni vagy megrongálni egy tárgyat",
-          "example": "Er macht das Handy kaputt. = Összetöri a telefont."
+          "example": "Er macht das Handy kaputt. = Viņš sabojā telefonu."
         },
         {
           "word": "schlecht werden",
           "meaning": "Elrontani az ételhez",
-          "example": "Die Milch wird schlecht. = A tej megromlik."
+          "example": "Die Milch wird schlecht. = Piens sabojājas."
         }
       ],
       "tip": {
@@ -61004,17 +61004,17 @@ const B1_WORDS = [
         {
           "word": "verfolgen",
           "meaning": "Követni, üldözni",
-          "example": "Ich verfolge die Nachrichten. = Követem a híreket."
+          "example": "Ich verfolge die Nachrichten. = Es sekoju līdzi ziņām."
         },
         {
           "word": "folgen",
           "meaning": "Követni valakit",
-          "example": "Ich folge dir. = Követlek."
+          "example": "Ich folge dir. = Es sekoju tev."
         },
         {
           "word": "beobachten",
           "meaning": "Megfigyelni",
-          "example": "Ich beobachte die Straße. = Néztem az utcát."
+          "example": "Ich beobachte die Straße. = Es vēroju ielu."
         }
       ],
       "tip": {
@@ -61186,17 +61186,17 @@ const B1_WORDS = [
         {
           "word": "das Verhältnis",
           "meaning": "Viszony, arány, körülmények",
-          "example": "Das Verhältnis ist gut. = A kapcsolat jó."
+          "example": "Das Verhältnis ist gut. = Attiecības ir labas."
         },
         {
           "word": "die Beziehung",
           "meaning": "Személyes kapcsolatokat",
-          "example": "Ihre Beziehung ist stabil. = Kapcsolatuk stabil."
+          "example": "Ihre Beziehung ist stabil. = Viņu attiecības ir stabilas."
         },
         {
           "word": "der Anteil",
           "meaning": "Része az egésznek",
-          "example": "Der Anteil ist groß. = Az adag nagy."
+          "example": "Der Anteil ist groß. = Daļa ir liela."
         }
       ],
       "tip": {
@@ -61405,17 +61405,17 @@ const B1_WORDS = [
         {
           "word": "verlegen",
           "meaning": "Átadás • Tedd el, és többé nem találsz • Problémát",
-          "example": "Ich habe den Schlüssel verlegt. = Nem találom a kulcsot."
+          "example": "Ich habe den Schlüssel verlegt. = Es nevaru atrast atslēgu."
         },
         {
           "word": "verschieben",
           "meaning": "Halasszuk el egy másik időpontra",
-          "example": "Wir verschieben den Termin. = Eltoljuk a határidőt."
+          "example": "Wir verschieben den Termin. = Mēs pārceļam termiņu."
         },
         {
           "word": "verlieren",
           "meaning": "Veszíteni",
-          "example": "Ich verliere den Schlüssel. = Elvesztettem a kulcsomat."
+          "example": "Ich verliere den Schlüssel. = Es pazaudēju atslēgu."
         }
       ],
       "tip": {
@@ -61546,17 +61546,17 @@ const B1_WORDS = [
         {
           "word": "verletzen",
           "meaning": "Megsérteni, megbántani, megsérteni",
-          "example": "Er verletzt sich. = Megsérül."
+          "example": "Er verletzt sich. = Viņš savainojas."
         },
         {
           "word": "beleidigen",
           "meaning": "Szavakkal sértegetni",
-          "example": "Er beleidigt mich. = Sérteget engem."
+          "example": "Er beleidigt mich. = Viņš mani apvaino."
         },
         {
           "word": "brechen",
           "meaning": "Szabályszegés • Szabályszegés",
-          "example": "Er bricht die Regel. = Megszegi a szabályt."
+          "example": "Er bricht die Regel. = Viņš pārkāpj noteikumu."
         }
       ],
       "tip": {
@@ -61763,17 +61763,17 @@ const B1_WORDS = [
         {
           "word": "versichern",
           "meaning": "Biztosítani • Igazolni",
-          "example": "Ich versichere das Auto. = Biztosítom az autót."
+          "example": "Ich versichere das Auto. = Es apdrošinu auto."
         },
         {
           "word": "sichern",
           "meaning": "Biztosítani, biztonságossá tenni",
-          "example": "Ich sichere die Tür. = Biztosítom az ajtót."
+          "example": "Ich sichere die Tür. = Es nodrošinu durvis."
         },
         {
           "word": "bestätigen",
           "meaning": "Erősítse meg",
-          "example": "Ich bestätige den Termin. = Megerősítem a határidőt."
+          "example": "Ich bestätige den Termin. = Es apstiprinu termiņu."
         }
       ],
       "tip": {
@@ -61997,17 +61997,17 @@ const B1_WORDS = [
         {
           "word": "vertreten",
           "meaning": "Képvisel, helyettesít, véd",
-          "example": "Sie vertritt die Firma. = Ő képviseli a céget."
+          "example": "Sie vertritt die Firma. = Viņa pārstāv uzņēmumu."
         },
         {
           "word": "ersetzen",
           "meaning": "Helyettesíteni egy dolgot vagy személyt",
-          "example": "Das ersetzt den alten Plan. = Ez felváltja a régi tervet."
+          "example": "Das ersetzt den alten Plan. = Tas aizstāj veco plānu."
         },
         {
           "word": "darstellen",
           "meaning": "Ábrázolni vagy megjeleníteni",
-          "example": "Die Grafik stellt Daten dar. = Egy grafikon ábrázolja az adatokat."
+          "example": "Die Grafik stellt Daten dar. = Grafiks attēlo datus."
         }
       ],
       "tip": {
@@ -62154,17 +62154,17 @@ const B1_WORDS = [
         {
           "word": "der Verwandte",
           "meaning": "Rokon (férfi)",
-          "example": "Er ist mein Verwandter. = Ő a rokonom."
+          "example": "Er ist mein Verwandter. = Viņš ir mans radinieks."
         },
         {
           "word": "die Verwandte",
           "meaning": "Relatív",
-          "example": "Sie ist meine Verwandte. = Ő a rokonom."
+          "example": "Sie ist meine Verwandte. = Viņa ir mana radiniece."
         },
         {
           "word": "die Verwandten",
           "meaning": "Rokonok (többes szám)",
-          "example": "Meine Verwandten kommen. = Jönnek a rokonaim."
+          "example": "Meine Verwandten kommen. = Mani radinieki nāk."
         }
       ],
       "tip": {
@@ -62257,17 +62257,17 @@ const B1_WORDS = [
         {
           "word": "die Verwandte",
           "meaning": "Relatív",
-          "example": "Sie ist meine Verwandte. = Ő a rokonom."
+          "example": "Sie ist meine Verwandte. = Viņa ir mana radiniece."
         },
         {
           "word": "der Verwandte",
           "meaning": "Rokon (férfi)",
-          "example": "Er ist mein Verwandter. = Ő a rokonom."
+          "example": "Er ist mein Verwandter. = Viņš ir mans radinieks."
         },
         {
           "word": "die Verwandten",
           "meaning": "Rokonok (többes szám)",
-          "example": "Meine Verwandten kommen. = Jönnek a rokonaim."
+          "example": "Meine Verwandten kommen. = Mani radinieki nāk."
         }
       ],
       "tip": {
@@ -62504,17 +62504,17 @@ const B1_WORDS = [
         {
           "word": "vorkommen",
           "meaning": "Történni, megjelenni, látszani",
-          "example": "Das kommt oft vor. = Ez gyakran megtörténik."
+          "example": "Das kommt oft vor. = Tas bieži gadās."
         },
         {
           "word": "passieren",
           "meaning": "Történik",
-          "example": "Was ist passiert? = Mi történt?"
+          "example": "Was ist passiert? = Kas notika?"
         },
         {
           "word": "scheinen",
           "meaning": "Úgy tűnik",
-          "example": "Das scheint richtig. = Ez helyesnek tűnik."
+          "example": "Das scheint richtig. = Tas šķiet pareizi."
         }
       ],
       "tip": {
@@ -62735,17 +62735,17 @@ const B1_WORDS = [
         {
           "word": "die Vorstellung",
           "meaning": "Műsor, műsor • Előadás",
-          "example": "Die Vorstellung beginnt. = Kezdődik az előadás."
+          "example": "Die Vorstellung beginnt. = Izrāde sākas."
         },
         {
           "word": "die Idee",
           "meaning": "Ötlet",
-          "example": "Ich habe eine Idee. = Van egy ötletem."
+          "example": "Ich habe eine Idee. = Man ir ideja."
         },
         {
           "word": "die Aufführung",
           "meaning": "Előadás, előadás",
-          "example": "Die Aufführung war gut. = Az előadás jó volt."
+          "example": "Die Aufführung war gut. = Izrāde bija laba."
         }
       ],
       "tip": {
@@ -62886,17 +62886,17 @@ const B1_WORDS = [
         {
           "word": "vorziehen",
           "meaning": "Inkább • Költözz korábban",
-          "example": "Ich ziehe Tee vor. = Jobban szeretem a teát."
+          "example": "Ich ziehe Tee vor. = Es dodu priekšroku tējai."
         },
         {
           "word": "bevorzugen",
           "meaning": "Előnyben részesíteni",
-          "example": "Ich bevorzuge Tee. = Jobban szeretem a teát."
+          "example": "Ich bevorzuge Tee. = Es dodu priekšroku tējai."
         },
         {
           "word": "verschieben",
           "meaning": "Áthelyezni egy másik időpontra",
-          "example": "Wir verschieben den Termin. = Eltoljuk a határidőt."
+          "example": "Wir verschieben den Termin. = Mēs pārceļam termiņu."
         }
       ],
       "tip": {
@@ -63052,17 +63052,17 @@ const B1_WORDS = [
         {
           "word": "die Wache",
           "meaning": "Őr, őr, állomás",
-          "example": "Die Wache ist am Eingang. = Az őr a bejáratnál áll."
+          "example": "Die Wache ist am Eingang. = Sardze ir pie ieejas."
         },
         {
           "word": "der Wächter",
           "meaning": "Őr",
-          "example": "Der Wächter kontrolliert die Tür. = Az őr ellenőrzi az ajtót."
+          "example": "Der Wächter kontrolliert die Tür. = Sargs pārbauda durvis."
         },
         {
           "word": "wachen",
           "meaning": "Ébren lenni, vigyázni",
-          "example": "Der Hund wacht. = A kutya őrzi."
+          "example": "Der Hund wacht. = Suns sargā."
         }
       ],
       "tip": {
@@ -63183,17 +63183,17 @@ const B1_WORDS = [
         {
           "word": "wachen",
           "meaning": "Ébren lenni, vigyázni",
-          "example": "Der Hund wacht. = A kutya őrzi."
+          "example": "Der Hund wacht. = Suns sargā."
         },
         {
           "word": "aufwachen",
           "meaning": "Felébred",
-          "example": "Ich wache früh auf. = Korán ébredek."
+          "example": "Ich wache früh auf. = Es agri pamostos."
         },
         {
           "word": "bewachen",
           "meaning": "Őrködni",
-          "example": "Sie bewachen das Haus. = Ők őrzik a házat."
+          "example": "Sie bewachen das Haus. = Viņi apsargā māju."
         }
       ],
       "tip": {
@@ -63351,22 +63351,22 @@ const B1_WORDS = [
         {
           "word": "der Wagen",
           "meaning": "Autó • Kocsi • Kocsi",
-          "example": "Der Wagen ist neu. = Az autó új."
+          "example": "Der Wagen ist neu. = Automašīna ir jauna."
         },
         {
           "word": "der Waggon",
           "meaning": "Kocsi (vonat)",
-          "example": "Der Waggon ist voll. = A vagon megtelt."
+          "example": "Der Waggon ist voll. = Vagons ir pilns."
         },
         {
           "word": "das Auto",
           "meaning": "Autó",
-          "example": "Das Auto steht da. = Ott áll az autó."
+          "example": "Das Auto steht da. = Automašīna stāv tur."
         },
         {
           "word": "wagen (Verb)",
           "meaning": "Merni",
-          "example": "Ich wage es nicht. = Nem merem."
+          "example": "Ich wage es nicht. = Es neuzdrošinos."
         }
       ],
       "tip": {
@@ -63680,17 +63680,17 @@ const B1_WORDS = [
         {
           "word": "der Wechsel",
           "meaning": "Változás, változás",
-          "example": "Der Wechsel ist wichtig. = A változás fontos."
+          "example": "Der Wechsel ist wichtig. = Maiņa ir svarīga."
         },
         {
           "word": "die Änderung",
           "meaning": "Egy változás",
-          "example": "Die Änderung ist klein. = A változás kicsi."
+          "example": "Die Änderung ist klein. = Izmaiņa ir maza."
         },
         {
           "word": "wechseln",
           "meaning": "Változtatni",
-          "example": "Ich wechsle das Geld. = Pénzt váltok."
+          "example": "Ich wechsle das Geld. = Es mainu naudu."
         }
       ],
       "tip": {
@@ -63817,17 +63817,17 @@ const B1_WORDS = [
         {
           "word": "weder ... noch",
           "meaning": "Sem... sem",
-          "example": "Weder Kaffee noch Tee. = Se kávé, se tea."
+          "example": "Weder Kaffee noch Tee. = Nedz kafija, nedz tēja."
         },
         {
           "word": "entweder ... oder",
           "meaning": "Vagy ... vagy",
-          "example": "Entweder Tee oder Kaffee. = Akár tea, akár kávé."
+          "example": "Entweder Tee oder Kaffee. = Vai nu tēja, vai kafija."
         },
         {
           "word": "sowohl ... als auch",
           "meaning": "Mindkettő... mindkettő",
-          "example": "Sowohl Tee als auch Kaffee. = Tea és kávé egyaránt."
+          "example": "Sowohl Tee als auch Kaffee. = Gan tēja, gan kafija."
         }
       ],
       "tip": {
@@ -64108,17 +64108,17 @@ const B1_WORDS = [
         {
           "word": "die Welle",
           "meaning": "Hullám • Tengely",
-          "example": "Die Welle ist hoch. = Magas a hullám."
+          "example": "Die Welle ist hoch. = Vilnis ir augsts."
         },
         {
           "word": "die Woge",
           "meaning": "Egy nagy, erős hullám",
-          "example": "Die Wogen sind stark. = A hullámok erősek."
+          "example": "Die Wogen sind stark. = Viļņi ir spēcīgi."
         },
         {
           "word": "die Achse",
           "meaning": "Szamár",
-          "example": "Die Achse ist kaputt. = A tengely törött."
+          "example": "Die Achse ist kaputt. = Ass ir salūzusi."
         }
       ],
       "tip": {
@@ -64272,17 +64272,17 @@ const B1_WORDS = [
         {
           "word": "wenden",
           "meaning": "Fordulni, fordulni",
-          "example": "Wenden Sie das Auto. = Fordítsa meg az autót."
+          "example": "Wenden Sie das Auto. = Apgrieziet auto."
         },
         {
           "word": "drehen",
           "meaning": "Fordulni, fordulni",
-          "example": "Dreh den Schlüssel. = Fordítsa el a kulcsot."
+          "example": "Dreh den Schlüssel. = Pagriez atslēgu."
         },
         {
           "word": "sich wenden an",
           "meaning": "Felé fordulni",
-          "example": "Ich wende mich an dich. = Hozzád fordulok."
+          "example": "Ich wende mich an dich. = Es vēršos pie tevis."
         }
       ],
       "tip": {
@@ -64415,17 +64415,17 @@ const B1_WORDS = [
         {
           "word": "werben",
           "meaning": "Hirdet, vonz",
-          "example": "Die Firma wirbt. = A cég hirdet."
+          "example": "Die Firma wirbt. = Uzņēmums reklamē."
         },
         {
           "word": "sich bewerben",
           "meaning": "Állásra vagy helyre jelentkezni",
-          "example": "Ich bewerbe mich. = Jelentkezem."
+          "example": "Ich bewerbe mich. = Es piesakos."
         },
         {
           "word": "reklamieren",
           "meaning": "Igényt benyújtani",
-          "example": "Ich reklamiere den Fehler. = Hiba miatt reklamáltam."
+          "example": "Ich reklamiere den Fehler. = Es iesniedzu pretenziju par kļūdu."
         }
       ],
       "tip": {
@@ -64550,17 +64550,17 @@ const B1_WORDS = [
         {
           "word": "das Werk",
           "meaning": "Létrehozott munka • Gyár",
-          "example": "Das Werk ist bekannt. = Ismerős a mű."
+          "example": "Das Werk ist bekannt. = Darbs ir pazīstams."
         },
         {
           "word": "die Arbeit",
           "meaning": "Munka, munka",
-          "example": "Die Arbeit ist schwer. = A munka nehéz."
+          "example": "Die Arbeit ist schwer. = Darbs ir grūts."
         },
         {
           "word": "die Fabrik",
           "meaning": "Gyár",
-          "example": "Die Fabrik ist groß. = A gyár nagy."
+          "example": "Die Fabrik ist groß. = Rūpnīca ir liela."
         }
       ],
       "tip": {
@@ -64827,17 +64827,17 @@ const B1_WORDS = [
         {
           "word": "das Zeugnis",
           "meaning": "Tanúvallomás, bizonyítvány, bizonyítvány",
-          "example": "Das Zeugnis ist gut. = A tanúságtétel jó."
+          "example": "Das Zeugnis ist gut. = Liecība ir laba."
         },
         {
           "word": "die Bescheinigung",
           "meaning": "Elismerés, megerősítés",
-          "example": "Ich brauche eine Bescheinigung. = Bizonyítványra van szükségem."
+          "example": "Ich brauche eine Bescheinigung. = Man vajag izziņu."
         },
         {
           "word": "der Zeuge",
           "meaning": "Egy tanú",
-          "example": "Der Zeuge spricht. = A tanú beszél."
+          "example": "Der Zeuge spricht. = Liecinieks runā."
         }
       ],
       "tip": {
@@ -65084,17 +65084,17 @@ const B1_WORDS = [
         {
           "word": "zugeben",
           "meaning": "Bevallani",
-          "example": "Ich gebe es zu. = Elismerem."
+          "example": "Ich gebe es zu. = Es to atzīstu."
         },
         {
           "word": "dazugeben",
           "meaning": "Add hozzá",
-          "example": "Gib Salz dazu. = Adjunk hozzá sót."
+          "example": "Gib Salz dazu. = Pievieno sāli."
         },
         {
           "word": "gestehen",
           "meaning": "Valljon komolyabban",
-          "example": "Er gesteht den Fehler. = Beismeri a hibát."
+          "example": "Er gesteht den Fehler. = Viņš atzīst kļūdu."
         }
       ],
       "tip": {
@@ -65246,17 +65246,17 @@ const B1_WORDS = [
         {
           "word": "zünden",
           "meaning": "Meggyújtani, dolgozni",
-          "example": "Die Idee zündet. = Az ötlet működik."
+          "example": "Die Idee zündet. = Ideja nostrādā."
         },
         {
           "word": "anzünden",
           "meaning": "Felgyújtani valamit",
-          "example": "Ich zünde die Kerze an. = Gyertyát gyújtok."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "brennen",
           "meaning": "Égni",
-          "example": "Die Kerze brennt. = A gyertya ég."
+          "example": "Die Kerze brennt. = Svece deg."
         }
       ],
       "tip": {
@@ -65389,17 +65389,17 @@ const B1_WORDS = [
         {
           "word": "der Zusammenhang",
           "meaning": "Kapcsolat, kontextus",
-          "example": "Der Zusammenhang ist klar. = Az összefüggés egyértelmű."
+          "example": "Der Zusammenhang ist klar. = Sakarība ir skaidra."
         },
         {
           "word": "die Verbindung",
           "meaning": "Kapcsolat, kapcsolat",
-          "example": "Die Verbindung ist stabil. = A kapcsolat stabil."
+          "example": "Die Verbindung ist stabil. = Savienojums ir stabils."
         },
         {
           "word": "der Kontext",
           "meaning": "Kontextus",
-          "example": "Der Kontext hilft. = A kontextus segít."
+          "example": "Der Kontext hilft. = Konteksts palīdz."
         }
       ],
       "tip": {
@@ -65654,27 +65654,27 @@ const B1_WORDS = [
         {
           "word": "der Beruf",
           "meaning": "Szakma / pozíció",
-          "example": "Was bist du von Beruf? = Mi a szakmád"
+          "example": "Was bist du von Beruf? = Kāda ir tava profesija?"
         },
         {
           "word": "die Arbeit",
           "meaning": "Munka",
-          "example": "Ich habe viel Arbeit. = Sok munkám van."
+          "example": "Ich habe viel Arbeit. = Man ir daudz darba."
         },
         {
           "word": "der Job",
           "meaning": "Munka / munka",
-          "example": "Er sucht einen Job. = Munkát keres."
+          "example": "Er sucht einen Job. = Viņš meklē darbu."
         },
         {
           "word": "die Ausbildung",
           "meaning": "Képzés / szakmai oktatás",
-          "example": "Sie macht eine Ausbildung. = Szakmát tanul."
+          "example": "Sie macht eine Ausbildung. = Viņa mācās profesiju."
         },
         {
           "word": "die Beschäftigung",
           "meaning": "Foglalkozás",
-          "example": "Lesen ist eine schöne Beschäftigung. = Az olvasás kellemes időtöltés."
+          "example": "Lesen ist eine schöne Beschäftigung. = Lasīšana ir patīkama nodarbošanās."
         }
       ],
       "tip": {
@@ -66058,17 +66058,17 @@ const B1_WORDS = [
         {
           "word": "die Steuer",
           "meaning": "Adó",
-          "example": "Die Steuer ist hoch. = Az adó magas. Többes szám: die Steuern."
+          "example": "Die Steuer ist hoch. = Nodoklis ir augsts. Plural: die Steuern."
         },
         {
           "word": "das Steuer",
           "meaning": "Kormány • Kormánykerék",
-          "example": "Das Steuer ist fest. = A kormánykerék szilárd. Többes szám: die Steuer."
+          "example": "Das Steuer ist fest. = Stūre ir stingra. Plural: die Steuer."
         },
         {
           "word": "die Abgabe",
           "meaning": "Díj • Fizetés",
-          "example": "Die Abgabe ist fällig. = Díjat kell fizetni."
+          "example": "Die Abgabe ist fällig. = Nodeva ir jāmaksā."
         }
       ],
       "tip": {
@@ -66163,17 +66163,17 @@ const B1_WORDS = [
         {
           "word": "das Steuer",
           "meaning": "Kormány • Kormánykerék",
-          "example": "Das Steuer ist fest. = A kormánykerék szilárd. Többes szám: die Steuer."
+          "example": "Das Steuer ist fest. = Stūre ir stingra. Plural: die Steuer."
         },
         {
           "word": "die Steuer",
           "meaning": "Adó",
-          "example": "Die Steuer ist hoch. = Az adó magas. Többes szám: die Steuern."
+          "example": "Die Steuer ist hoch. = Nodoklis ir augsts. Plural: die Steuern."
         },
         {
           "word": "das Lenkrad",
           "meaning": "Kormánykerék (autó)",
-          "example": "Das Lenkrad ist warm. = A kormánykerék meleg."
+          "example": "Das Lenkrad ist warm. = Stūre ir silta."
         }
       ],
       "tip": {
@@ -66978,27 +66978,27 @@ const B1_WORDS = [
         {
           "word": "sich befinden",
           "meaning": "Elhelyezkedni",
-          "example": "Das Büro befindet sich im zweiten Stock. = Az iroda a második emeleten található."
+          "example": "Das Büro befindet sich im zweiten Stock. = Birojs atrodas otrajā stāvā."
         },
         {
           "word": "sein",
           "meaning": "Lenni / lenni",
-          "example": "Das Büro ist oben. = Az iroda az emeleten van."
+          "example": "Das Büro ist oben. = Birojs ir augšā."
         },
         {
           "word": "liegen",
           "meaning": "Lenni / aludni",
-          "example": "Das Buch liegt auf dem Tisch. = A könyv az asztalon van."
+          "example": "Das Buch liegt auf dem Tisch. = Grāmata atrodas uz galda."
         },
         {
           "word": "stehen",
           "meaning": "Állni / lenni",
-          "example": "Das Auto steht vor dem Haus. = Az autó a háznál parkol."
+          "example": "Das Auto steht vor dem Haus. = Auto stāv pie mājas."
         },
         {
           "word": "sich fühlen",
           "meaning": "Érezni",
-          "example": "Ich fühle mich gut. = Jól érzem magam."
+          "example": "Ich fühle mich gut. = Es jūtos labi."
         }
       ],
       "tip": {

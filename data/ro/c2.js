@@ -1483,4 +1483,5 @@ const C2_WORDS = [
     "level": "C2"
   }
 ];
+
 window.C2_WORDS = C2_WORDS;

@@ -203,27 +203,27 @@ const A2_WORDS = [
         {
           "word": "abfahren",
           "meaning": "Ostaviti / ostaviti / krenuti",
-          "example": "Der Zug fährt ab. = Voz polazi."
+          "example": "Der Zug fährt ab. = Vilciens atiet."
         },
         {
           "word": "wegfahren",
           "meaning": "Vozi daleko",
-          "example": "Ich fahre morgen weg. = Odlazim sutra."
+          "example": "Ich fahre morgen weg. = Es rīt aizbraucu prom."
         },
         {
           "word": "losfahren",
           "meaning": "Početi voziti",
-          "example": "Wir fahren jetzt los. = Mi sada krećemo."
+          "example": "Wir fahren jetzt los. = Mēs tagad sākam braukt."
         },
         {
           "word": "abgehen",
           "meaning": "Ostaviti / otići",
-          "example": "Der Bus geht gleich ab. = Autobus sada polazi."
+          "example": "Der Bus geht gleich ab. = Autobuss tūlīt atiet."
         },
         {
           "word": "fahren",
           "meaning": "Voziti",
-          "example": "Ich fahre mit dem Zug. = Putujem vozom."
+          "example": "Ich fahre mit dem Zug. = Es braucu ar vilcienu."
         }
       ],
       "tip": {
@@ -635,32 +635,32 @@ const A2_WORDS = [
         {
           "word": "abgeben",
           "meaning": "Dati ili dati drugome ili na određeno mjesto",
-          "example": "Ich gebe den Antrag ab. = Podneo sam prijavu."
+          "example": "Ich gebe den Antrag ab. = Es iesniedzu pieteikumu."
         },
         {
           "word": "geben",
           "meaning": "Dati",
-          "example": "Ich gebe dir den Schlüssel. = Dajem ti kljuc."
+          "example": "Ich gebe dir den Schlüssel. = Es tev dodu atslēgu."
         },
         {
           "word": "zurückgeben",
           "meaning": "Vratiti",
-          "example": "Ich gebe das Buch zurück. = Vraćam knjigu."
+          "example": "Ich gebe das Buch zurück. = Es atdodu grāmatu atpakaļ."
         },
         {
           "word": "einreichen",
           "meaning": "Službeno podnijeti",
-          "example": "Ich reiche die Unterlagen ein. = Ja sam predao dokumente."
+          "example": "Ich reiche die Unterlagen ein. = Es iesniedzu dokumentus."
         },
         {
           "word": "verkaufen",
           "meaning": "Prodati",
-          "example": "Ich verkaufe mein Fahrrad. = Prodajem svoj bicikl."
+          "example": "Ich verkaufe mein Fahrrad. = Es pārdodu savu velosipēdu."
         },
         {
           "word": "ausstrahlen",
           "meaning": "Zračiti",
-          "example": "Die Lampe strahlt Wärme aus. = Lampa emituje toplotu."
+          "example": "Die Lampe strahlt Wärme aus. = Lampa izstaro siltumu."
         }
       ],
       "tip": {
@@ -1345,27 +1345,27 @@ const A2_WORDS = [
         {
           "word": "absagen",
           "meaning": "Otkazati / odbiti učešće",
-          "example": "Ich sage den Termin ab. = Otkazujem termin."
+          "example": "Ich sage den Termin ab. = Es atceļu tikšanos."
         },
         {
           "word": "ablehnen",
           "meaning": "Odbiti / odbiti",
-          "example": "Ich lehne das Angebot ab. = Odbijam ponudu."
+          "example": "Ich lehne das Angebot ab. = Es noraidu piedāvājumu."
         },
         {
           "word": "kündigen",
           "meaning": "Raskinuti / otkazati ugovor",
-          "example": "Ich kündige den Vertrag. = Pohvalio sam ugovor."
+          "example": "Ich kündige den Vertrag. = Es uzteicu līgumu."
         },
         {
           "word": "stornieren",
           "meaning": "Otkazati / otkazati rezervaciju",
-          "example": "Ich storniere die Buchung. = Otkazujem rezervaciju."
+          "example": "Ich storniere die Buchung. = Es atceļu rezervāciju."
         },
         {
           "word": "nein sagen",
           "meaning": "Reci ne",
-          "example": "Er sagt nein. = On kaže ne."
+          "example": "Er sagt nein. = Viņš saka nē."
         }
       ],
       "tip": {
@@ -1755,22 +1755,22 @@ const A2_WORDS = [
         {
           "word": "abschließen",
           "meaning": "Zaključati / zaključiti / završiti",
-          "example": "Ich schließe die Tür ab. = Ja zaključavam vrata."
+          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
         },
         {
           "word": "schließen",
           "meaning": "Zatvoriti",
-          "example": "Ich schließe die Tür. = Zatvorim vrata."
+          "example": "Ich schließe die Tür. = Es aizveru durvis."
         },
         {
           "word": "beenden",
           "meaning": "Završiti",
-          "example": "Ich beende die Arbeit. = Završio sam posao."
+          "example": "Ich beende die Arbeit. = Es pabeidzu darbu."
         },
         {
           "word": "unterschreiben",
           "meaning": "Potpisati",
-          "example": "Ich unterschreibe den Vertrag. = Potpisujem ugovor."
+          "example": "Ich unterschreibe den Vertrag. = Es parakstu līgumu."
         }
       ],
       "tip": {
@@ -2148,27 +2148,27 @@ const A2_WORDS = [
         {
           "word": "abstellen",
           "meaning": "Postaviti / isključiti / ugasiti / otkloniti, ovisno o objektu",
-          "example": "Ich stelle das Fahrrad ab. = Parkirao sam bicikl."
+          "example": "Ich stelle das Fahrrad ab. = Es novietoju velosipēdu."
         },
         {
           "word": "ausschalten",
           "meaning": "Isključiti uređaj, svjetlo, TV ili računar",
-          "example": "Ich schalte den Computer aus. = Isključujem računar."
+          "example": "Ich schalte den Computer aus. = Es izslēdzu datoru."
         },
         {
           "word": "anhalten",
           "meaning": "Zaustaviti kretanje / zaustaviti",
-          "example": "Der Bus hält an. = Autobus staje."
+          "example": "Der Bus hält an. = Autobuss apstājas."
         },
         {
           "word": "stoppen",
           "meaning": "Stop / stop",
-          "example": "Der Fahrer stoppt das Auto. = Vozač zaustavlja auto."
+          "example": "Der Fahrer stoppt das Auto. = Vadītājs aptur auto."
         },
         {
           "word": "stellen",
           "meaning": "Staviti / postaviti",
-          "example": "Ich stelle die Tasche neben die Tür. = Stavio sam torbu pored vrata."
+          "example": "Ich stelle die Tasche neben die Tür. = Es nolieku somu pie durvīm."
         }
       ],
       "tip": {
@@ -2779,22 +2779,22 @@ const A2_WORDS = [
         {
           "word": "angewandt",
           "meaning": "Primijenjen / primijenjen",
-          "example": "Diese Methode wird angewandt. = Ova metoda se primjenjuje."
+          "example": "Diese Methode wird angewandt. = Šī metode tiek pielietota."
         },
         {
           "word": "praktisch",
           "meaning": "Praktičan",
-          "example": "Das ist eine praktische Lösung. = To je praktično rješenje."
+          "example": "Das ist eine praktische Lösung. = Tas ir praktisks risinājums."
         },
         {
           "word": "verwenden",
           "meaning": "Koristiti",
-          "example": "Ich verwende diese Methode. = Koristim ovu metodu."
+          "example": "Ich verwende diese Methode. = Es izmantoju šo metodi."
         },
         {
           "word": "anwenden",
           "meaning": "Primijeniti",
-          "example": "Ich wende die Regel an. = Primjenjujem pravilo."
+          "example": "Ich wende die Regel an. = Es pielietoju noteikumu."
         }
       ],
       "tip": {
@@ -3105,22 +3105,22 @@ const A2_WORDS = [
         {
           "word": "angreifen",
           "meaning": "Napasti / oštro kritikovati",
-          "example": "Der Hund greift an. = Pas napada."
+          "example": "Der Hund greift an. = Suns uzbrūk."
         },
         {
           "word": "attackieren",
           "meaning": "Da napadne",
-          "example": "Die Gruppe attackiert ihn. = Grupa ga napada."
+          "example": "Die Gruppe attackiert ihn. = Grupa viņam uzbrūk."
         },
         {
           "word": "beleidigen",
           "meaning": "Uvrediti / uvrediti",
-          "example": "Er beleidigt mich. = On me vrijeđa."
+          "example": "Er beleidigt mich. = Viņš mani apvaino."
         },
         {
           "word": "kritisieren",
           "meaning": "Kritikovati",
-          "example": "Sie kritisiert den Vorschlag. = Ona kritikuje prijedlog."
+          "example": "Sie kritisiert den Vorschlag. = Viņa kritizē priekšlikumu."
         }
       ],
       "tip": {
@@ -3273,22 +3273,22 @@ const A2_WORDS = [
         {
           "word": "der Anhänger",
           "meaning": "Prikolica / pristalica / privjesak",
-          "example": "Der Anhänger ist schwer. = Prikolica je teška."
+          "example": "Der Anhänger ist schwer. = Piekabe ir smaga."
         },
         {
           "word": "der Fan",
           "meaning": "Fan",
-          "example": "Er ist ein Fan der Mannschaft. = On je navijač tima."
+          "example": "Er ist ein Fan der Mannschaft. = Viņš ir komandas fans."
         },
         {
           "word": "der Unterstützer",
           "meaning": "Pristalica",
-          "example": "Sie hat viele Unterstützer. = Ima mnogo pristalica."
+          "example": "Sie hat viele Unterstützer. = Viņai ir daudz atbalstītāju."
         },
         {
           "word": "der Wohnwagen",
           "meaning": "Karavan",
-          "example": "Der Wohnwagen steht am See. = Prikolica je parkirana uz jezero."
+          "example": "Der Wohnwagen steht am See. = Dzīvojamā piekabe stāv pie ezera."
         }
       ],
       "tip": {
@@ -3435,22 +3435,22 @@ const A2_WORDS = [
         {
           "word": "anheizen",
           "meaning": "Zapaliti / zapaliti",
-          "example": "Ich heize den Ofen an. = Zapalim rernu."
+          "example": "Ich heize den Ofen an. = Es iekuru krāsni."
         },
         {
           "word": "heizen",
           "meaning": "Zagrijati / zagrijati",
-          "example": "Wir heizen die Wohnung. = Grijemo stan."
+          "example": "Wir heizen die Wohnung. = Mēs apkurinām dzīvokli."
         },
         {
           "word": "anzünden",
           "meaning": "Zapaliti",
-          "example": "Ich zünde die Kerze an. = Zapalim svijeću."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "verschärfen",
           "meaning": "Zaoštriti",
-          "example": "Das verschärft den Streit. = Ovo eskalira argument."
+          "example": "Das verschärft den Streit. = Tas saasina strīdu."
         }
       ],
       "tip": {
@@ -3654,22 +3654,22 @@ const A2_WORDS = [
         {
           "word": "anlegen",
           "meaning": "Nametnuti / investirati / stvoriti",
-          "example": "Ich lege Geld an. = Ulažem novac."
+          "example": "Ich lege Geld an. = Es ieguldu naudu."
         },
         {
           "word": "legen",
           "meaning": "Da legne",
-          "example": "Ich lege das Buch auf den Tisch. = Stavio sam knjigu na sto."
+          "example": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
         },
         {
           "word": "investieren",
           "meaning": "Investirati",
-          "example": "Ich investiere Geld. = Ulažem novac."
+          "example": "Ich investiere Geld. = Es ieguldu naudu."
         },
         {
           "word": "erstellen",
           "meaning": "Stvoriti",
-          "example": "Ich erstelle ein Konto. = Napravio sam nalog."
+          "example": "Ich erstelle ein Konto. = Es izveidoju kontu."
         }
       ],
       "tip": {
@@ -4040,27 +4040,27 @@ const A2_WORDS = [
         {
           "word": "anmelden",
           "meaning": "Prijaviti / registrirati / zapisati",
-          "example": "Ich melde mich an. = Prijavljujem se."
+          "example": "Ich melde mich an. = Es piesakos."
         },
         {
           "word": "sich anmelden",
           "meaning": "Primijeniti / povezati",
-          "example": "Melden Sie sich bitte an. = Molimo prijavite se."
+          "example": "Melden Sie sich bitte an. = Lūdzu, piesakieties."
         },
         {
           "word": "registrieren",
           "meaning": "Registar",
-          "example": "Ich registriere mein Konto. = Registrovao sam svoj nalog."
+          "example": "Ich registriere mein Konto. = Es reģistrēju savu kontu."
         },
         {
           "word": "buchen",
           "meaning": "Rezervirati",
-          "example": "Ich buche einen Termin. = Rezervisao sam vreme."
+          "example": "Ich buche einen Termin. = Es rezervēju laiku."
         },
         {
           "word": "melden",
           "meaning": "Prijaviti / obavijestiti",
-          "example": "Ich melde das Problem. = Prijavio sam problem."
+          "example": "Ich melde das Problem. = Es ziņoju par problēmu."
         }
       ],
       "tip": {
@@ -4464,22 +4464,22 @@ const A2_WORDS = [
         {
           "word": "anstecken",
           "meaning": "Prikačiti / zapaliti / zaraziti",
-          "example": "Ich stecke die Kerze an. = Zapalim svijeću."
+          "example": "Ich stecke die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "stecken",
           "meaning": "Bockati / biti",
-          "example": "Der Schlüssel steckt im Schloss. = Ključ je u bravi."
+          "example": "Der Schlüssel steckt im Schloss. = Atslēga ir slēdzenē."
         },
         {
           "word": "anzünden",
           "meaning": "Zapaliti",
-          "example": "Ich zünde die Kerze an. = Zapalim svijeću."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "sich anstecken",
           "meaning": "Inficirati se",
-          "example": "Ich habe mich angesteckt. = Zarazila sam se."
+          "example": "Ich habe mich angesteckt. = Es inficējos."
         }
       ],
       "tip": {
@@ -4842,22 +4842,22 @@ const A2_WORDS = [
         {
           "word": "anstellen",
           "meaning": "Zaposliti / uključiti / napraviti",
-          "example": "Die Firma stellt ihn an. = Firma ga zapošljava."
+          "example": "Die Firma stellt ihn an. = Firma viņu pieņem darbā."
         },
         {
           "word": "einstellen",
           "meaning": "Regrutirati / postaviti",
-          "example": "Wir stellen neue Leute ein. = Zapošljavamo nove ljude."
+          "example": "Wir stellen neue Leute ein. = Mēs pieņemam darbā jaunus cilvēkus."
         },
         {
           "word": "anschalten",
           "meaning": "Uključiti",
-          "example": "Ich schalte das Licht an. = Upalio sam svjetlo."
+          "example": "Ich schalte das Licht an. = Es ieslēdzu gaismu."
         },
         {
           "word": "sich anstellen",
           "meaning": "Stati u red",
-          "example": "Ich stelle mich an. = Stajao sam u redu."
+          "example": "Ich stelle mich an. = Es nostājos rindā."
         }
       ],
       "tip": {
@@ -5689,27 +5689,27 @@ const A2_WORDS = [
         {
           "word": "der Artikel",
           "meaning": "Članak / roba / artikl / član",
-          "example": "Der Artikel ist kurz. = Članak je kratak."
+          "example": "Der Artikel ist kurz. = Raksts ir īss."
         },
         {
           "word": "der Zeitungsartikel",
           "meaning": "Novinski članak",
-          "example": "Der Zeitungsartikel ist neu. = Novinski članak je nov."
+          "example": "Der Zeitungsartikel ist neu. = Avīzes raksts ir jauns."
         },
         {
           "word": "die Ware",
           "meaning": "Stavka",
-          "example": "Die Ware ist teuer. = Proizvod je skup."
+          "example": "Die Ware ist teuer. = Prece ir dārga."
         },
         {
           "word": "der bestimmte Artikel",
           "meaning": "Određeni član",
-          "example": "Der bestimmte Artikel ist „der“. = Određeni član je „der“."
+          "example": "Der bestimmte Artikel ist „der“. = Noteiktais artikuls ir „der“."
         },
         {
           "word": "der Paragraph",
           "meaning": "Paragraf / član",
-          "example": "Der Paragraph ist wichtig. = Član je važan."
+          "example": "Der Paragraph ist wichtig. = Pants ir svarīgs."
         }
       ],
       "tip": {
@@ -6319,22 +6319,22 @@ const A2_WORDS = [
         {
           "word": "aufheben",
           "meaning": "Podići / otkazati / sačuvati",
-          "example": "Ich hebe den Schlüssel auf. = Podižem ključ."
+          "example": "Ich hebe den Schlüssel auf. = Es paceļu atslēgu."
         },
         {
           "word": "heben",
           "meaning": "Podizati",
-          "example": "Ich hebe die Hand. = Podižem ruku."
+          "example": "Ich hebe die Hand. = Es paceļu roku."
         },
         {
           "word": "absagen",
           "meaning": "Otkazati događaj",
-          "example": "Wir sagen den Termin ab. = Otkazujemo sastanak."
+          "example": "Wir sagen den Termin ab. = Mēs atceļam tikšanos."
         },
         {
           "word": "behalten",
           "meaning": "Zadržati",
-          "example": "Ich behalte die Quittung. = Čuvam račun."
+          "example": "Ich behalte die Quittung. = Es paturu čeku."
         }
       ],
       "tip": {
@@ -6740,22 +6740,22 @@ const A2_WORDS = [
         {
           "word": "die Auflage",
           "meaning": "Tiraž / izdanje / uslov",
-          "example": "Die Auflage ist hoch. = Tiraž je velik."
+          "example": "Die Auflage ist hoch. = Tirāža ir liela."
         },
         {
           "word": "die Ausgabe",
           "meaning": "Izdanje / broj",
-          "example": "Die neue Ausgabe ist da. = Novi broj je ovdje."
+          "example": "Die neue Ausgabe ist da. = Jaunais numurs ir klāt."
         },
         {
           "word": "die Bedingung",
           "meaning": "Stanje",
-          "example": "Das ist eine Bedingung. = Ovo je uslov."
+          "example": "Das ist eine Bedingung. = Tas ir nosacījums."
         },
         {
           "word": "die Voraussetzung",
           "meaning": "Preduslov",
-          "example": "Das ist eine Voraussetzung. = Ovo je preduslov."
+          "example": "Das ist eine Voraussetzung. = Tas ir priekšnoteikums."
         }
       ],
       "tip": {
@@ -6923,27 +6923,27 @@ const A2_WORDS = [
         {
           "word": "die Aufnahme",
           "meaning": "Snimanje / snimanje / fotografija",
-          "example": "Die Aufnahme ist gut. = Zapis je dobar."
+          "example": "Die Aufnahme ist gut. = Ieraksts ir labs."
         },
         {
           "word": "das Foto",
           "meaning": "Fotografija / fotografija",
-          "example": "Das Foto ist schön. = Fotografija je predivna."
+          "example": "Das Foto ist schön. = Foto ir skaists."
         },
         {
           "word": "das Bild",
           "meaning": "Slika",
-          "example": "Das Bild hängt an der Wand. = Slika visi na zidu."
+          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
         },
         {
           "word": "die Aufzeichnung",
           "meaning": "Rekord",
-          "example": "Die Aufzeichnung ist lang. = Post je dug."
+          "example": "Die Aufzeichnung ist lang. = Ieraksts ir garš."
         },
         {
           "word": "die Aufnahmeprüfung",
           "meaning": "Prijemni ispit",
-          "example": "Die Aufnahmeprüfung ist morgen. = Prijemni ispit je sutra."
+          "example": "Die Aufnahmeprüfung ist morgen. = Iestājpārbaudījums ir rīt."
         }
       ],
       "tip": {
@@ -7092,22 +7092,22 @@ const A2_WORDS = [
         {
           "word": "aufnehmen",
           "meaning": "Snimi / snimi / prihvati",
-          "example": "Ich nehme ein Lied auf. = Snimam pesmu."
+          "example": "Ich nehme ein Lied auf. = Es ierakstu dziesmu."
         },
         {
           "word": "nehmen",
           "meaning": "Uzeti",
-          "example": "Ich nehme das Buch. = Uzimam knjigu."
+          "example": "Ich nehme das Buch. = Es ņemu grāmatu."
         },
         {
           "word": "annehmen",
           "meaning": "Prihvatiti",
-          "example": "Ich nehme das Angebot an. = Prihvatam ponudu."
+          "example": "Ich nehme das Angebot an. = Es pieņemu piedāvājumu."
         },
         {
           "word": "beginnen",
           "meaning": "Početi",
-          "example": "Wir beginnen die Arbeit. = Počinjemo s radom."
+          "example": "Wir beginnen die Arbeit. = Mēs sākam darbu."
         }
       ],
       "tip": {
@@ -7495,22 +7495,22 @@ const A2_WORDS = [
         {
           "word": "aufrichtig",
           "meaning": "Iskren / iskren / otvoren",
-          "example": "Eine aufrichtige Entschuldigung. = Iskreno izvinjenje."
+          "example": "Eine aufrichtige Entschuldigung. = Patiesa atvainošanās."
         },
         {
           "word": "ehrlich",
           "meaning": "Pošten / ne laže",
-          "example": "Er ist ehrlich. = On je pošten."
+          "example": "Er ist ehrlich. = Viņš ir godīgs."
         },
         {
           "word": "herzlich",
           "meaning": "Iskreno",
-          "example": "Herzliche Grüße. = Srdacan pozdrav."
+          "example": "Herzliche Grüße. = Sirsnīgi sveicieni."
         },
         {
           "word": "offen",
           "meaning": "Otkriveno",
-          "example": "Sie spricht offen. = Ona govori otvoreno."
+          "example": "Sie spricht offen. = Viņa runā atklāti."
         }
       ],
       "tip": {
@@ -7812,22 +7812,22 @@ const A2_WORDS = [
         {
           "word": "aufrufen",
           "meaning": "Pozvati / otvoriti / pozvati",
-          "example": "Ich rufe die Seite auf. = Otvaram stranicu."
+          "example": "Ich rufe die Seite auf. = Es atveru lapu."
         },
         {
           "word": "rufen",
           "meaning": "Nazvati",
-          "example": "Ich rufe dich. = Zovem te."
+          "example": "Ich rufe dich. = Es tevi saucu."
         },
         {
           "word": "öffnen",
           "meaning": "Otvoriti",
-          "example": "Ich öffne die Datei. = Otvaram fajl."
+          "example": "Ich öffne die Datei. = Es atveru failu."
         },
         {
           "word": "auffordern",
           "meaning": "Pozvati",
-          "example": "Er fordert uns auf. = On nas poziva."
+          "example": "Er fordert uns auf. = Viņš mūs aicina."
         }
       ],
       "tip": {
@@ -8011,22 +8011,22 @@ const A2_WORDS = [
         {
           "word": "auftragen",
           "meaning": "Pitati / prijaviti / pokloniti",
-          "example": "Der Lehrer trägt eine Aufgabe auf. = Nastavnik daje zadatak."
+          "example": "Der Lehrer trägt eine Aufgabe auf. = Skolotājs uzdod uzdevumu."
         },
         {
           "word": "geben",
           "meaning": "Dati",
-          "example": "Ich gebe dir das Buch. = Dajem ti knjigu."
+          "example": "Ich gebe dir das Buch. = Es tev dodu grāmatu."
         },
         {
           "word": "anstreichen",
           "meaning": "Farbati površinu",
-          "example": "Wir streichen die Wand an. = Oslikavamo zid."
+          "example": "Wir streichen die Wand an. = Mēs krāsojam sienu."
         },
         {
           "word": "servieren",
           "meaning": "Poslužiti hranu",
-          "example": "Der Kellner serviert das Essen. = Konobar servira hranu."
+          "example": "Der Kellner serviert das Essen. = Viesmīlis pasniedz ēdienu."
         }
       ],
       "tip": {
@@ -8406,22 +8406,22 @@ const A2_WORDS = [
         {
           "word": "auftreten",
           "meaning": "Pojaviti / izvesti",
-          "example": "Ein Fehler tritt auf. = Pojavljuje se greška."
+          "example": "Ein Fehler tritt auf. = Parādās kļūda."
         },
         {
           "word": "erscheinen",
           "meaning": "Pojaviti / stići",
-          "example": "Er erscheint um acht. = On dolazi u osam."
+          "example": "Er erscheint um acht. = Viņš ierodas astoņos."
         },
         {
           "word": "spielen",
           "meaning": "Igrati / izvoditi ulogu",
-          "example": "Sie spielt im Theater. = Ona glumi u pozorištu."
+          "example": "Sie spielt im Theater. = Viņa spēlē teātrī."
         },
         {
           "word": "sich verhalten",
           "meaning": "Ponašati se",
-          "example": "Er verhält sich ruhig. = On je miran."
+          "example": "Er verhält sich ruhig. = Viņš izturas mierīgi."
         }
       ],
       "tip": {
@@ -8772,22 +8772,22 @@ const A2_WORDS = [
         {
           "word": "aufwenden",
           "meaning": "Posvetiti / uložiti / potrošiti",
-          "example": "Ich wende viel Zeit auf. = Provodim dosta vremena."
+          "example": "Ich wende viel Zeit auf. = Es veltu daudz laika."
         },
         {
           "word": "ausgeben",
           "meaning": "Potrošiti novac",
-          "example": "Ich gebe viel Geld aus. = Potrošio sam mnogo novca."
+          "example": "Ich gebe viel Geld aus. = Es iztērēju daudz naudas."
         },
         {
           "word": "verbringen",
           "meaning": "Provoditi vrijeme",
-          "example": "Ich verbringe den Abend zu Hause. = Provodim večer kod kuće."
+          "example": "Ich verbringe den Abend zu Hause. = Es pavadu vakaru mājās."
         },
         {
           "word": "investieren",
           "meaning": "Investirati",
-          "example": "Wir investieren Zeit und Geld. = Ulažemo vrijeme i novac."
+          "example": "Wir investieren Zeit und Geld. = Mēs ieguldām laiku un naudu."
         }
       ],
       "tip": {
@@ -9108,22 +9108,22 @@ const A2_WORDS = [
         {
           "word": "aufzeichnen",
           "meaning": "Snimiti/zapisati",
-          "example": "Ich zeichne das Video auf. = Snimam video."
+          "example": "Ich zeichne das Video auf. = Es ierakstu video."
         },
         {
           "word": "zeichnen",
           "meaning": "Crtati",
-          "example": "Das Kind zeichnet ein Haus. = Dijete crta kuću."
+          "example": "Das Kind zeichnet ein Haus. = Bērns zīmē māju."
         },
         {
           "word": "notieren",
           "meaning": "Zapisati",
-          "example": "Ich notiere die Adresse. = Zapisujem adresu."
+          "example": "Ich notiere die Adresse. = Es pierakstu adresi."
         },
         {
           "word": "aufnehmen",
           "meaning": "Rekord / zapis",
-          "example": "Ich nehme ein Lied auf. = Snimam pesmu."
+          "example": "Ich nehme ein Lied auf. = Es ierakstu dziesmu."
         }
       ],
       "tip": {
@@ -9310,22 +9310,22 @@ const A2_WORDS = [
         {
           "word": "aussteigen",
           "meaning": "Sići / prestati",
-          "example": "Ich steige aus dem Bus aus. = Izlazim iz autobusa."
+          "example": "Ich steige aus dem Bus aus. = Es izkāpju no autobusa."
         },
         {
           "word": "einsteigen",
           "meaning": "Ući / uključiti se",
-          "example": "Ich steige in den Zug ein. = Ulazim u voz."
+          "example": "Ich steige in den Zug ein. = Es iekāpju vilcienā."
         },
         {
           "word": "umsteigen",
           "meaning": "Presjesti",
-          "example": "Wir steigen in Berlin um. = Prebacujemo se u Berlin."
+          "example": "Wir steigen in Berlin um. = Mēs pārsēžamies Berlīnē."
         },
         {
           "word": "verlassen",
           "meaning": "Otići",
-          "example": "Er verlässt die Firma. = On napušta firmu."
+          "example": "Er verlässt die Firma. = Viņš atstāj firmu."
         }
       ],
       "tip": {
@@ -9705,27 +9705,27 @@ const A2_WORDS = [
         {
           "word": "auswählen",
           "meaning": "Izaberite / izaberite",
-          "example": "Ich wähle ein Bild aus. = Ja biram sliku."
+          "example": "Ich wähle ein Bild aus. = Es izvēlos attēlu."
         },
         {
           "word": "wählen",
           "meaning": "Biraj / glasaj",
-          "example": "Ich wähle eine Partei. = Glasao sam za stranku."
+          "example": "Ich wähle eine Partei. = Es balsoju par partiju."
         },
         {
           "word": "aussuchen",
           "meaning": "Odabrati / izabrati",
-          "example": "Such dir ein Buch aus. = Odaberite knjigu za sebe."
+          "example": "Such dir ein Buch aus. = Izvēlies sev grāmatu."
         },
         {
           "word": "entscheiden",
           "meaning": "Odlučiti",
-          "example": "Ich entscheide morgen. = Odlucujem sutra."
+          "example": "Ich entscheide morgen. = Es izlemšu rīt."
         },
         {
           "word": "markieren",
           "meaning": "Označiti",
-          "example": "Markieren Sie die richtige Antwort. = Označite tačan odgovor."
+          "example": "Markieren Sie die richtige Antwort. = Atzīmējiet pareizo atbildi."
         }
       ],
       "tip": {
@@ -10136,22 +10136,22 @@ const A2_WORDS = [
         {
           "word": "ausziehen",
           "meaning": "Povući / iseliti",
-          "example": "Ich ziehe die Schuhe aus. = Izujem cipele."
+          "example": "Ich ziehe die Schuhe aus. = Es novelku kurpes."
         },
         {
           "word": "anziehen",
           "meaning": "Staviti na",
-          "example": "Ich ziehe die Jacke an. = Obukao sam jaknu."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
           "word": "umziehen",
           "meaning": "Preseliti / presvući",
-          "example": "Wir ziehen nach Riga um. = Selimo se u Rigu."
+          "example": "Wir ziehen nach Riga um. = Mēs pārceļamies uz Rīgu."
         },
         {
           "word": "sich ausziehen",
           "meaning": "Skini se",
-          "example": "Das Kind zieht sich aus. = Dijete se skida."
+          "example": "Das Kind zieht sich aus. = Bērns izģērbjas."
         }
       ],
       "tip": {
@@ -10621,27 +10621,27 @@ const A2_WORDS = [
         {
           "word": "die Bahn",
           "meaning": "Željeznica / vožnja vozom",
-          "example": "Ich fahre mit der Bahn. = Putujem vozom."
+          "example": "Ich fahre mit der Bahn. = Es braucu ar vilcienu."
         },
         {
           "word": "der Zug",
           "meaning": "Određeni voz",
-          "example": "Der Zug fährt um acht Uhr ab. = Voz polazi u osam."
+          "example": "Der Zug fährt um acht Uhr ab. = Vilciens atiet astoņos."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "Tramvaj",
-          "example": "Die Straßenbahn hält hier. = Tramvaj staje ovdje."
+          "example": "Die Straßenbahn hält hier. = Tramvajs pietur šeit."
         },
         {
           "word": "der Bahnhof",
           "meaning": "Željeznička stanica",
-          "example": "Wir treffen uns am Bahnhof. = Nalazimo se na stanici."
+          "example": "Wir treffen uns am Bahnhof. = Mēs tiekamies stacijā."
         },
         {
           "word": "das Gleis",
           "meaning": "Staza / platforma",
-          "example": "Der Zug fährt von Gleis 3. = Voz polazi sa perona 3."
+          "example": "Der Zug fährt von Gleis 3. = Vilciens atiet no 3. perona."
         }
       ],
       "tip": {
@@ -11324,32 +11324,32 @@ const A2_WORDS = [
         {
           "word": "die Bank (Finanz)",
           "meaning": "Banka",
-          "example": "Ich gehe zur Bank. = Idem u banku. Množina: die Banken."
+          "example": "Ich gehe zur Bank. = Es eju uz banku. Plural: die Banken."
         },
         {
           "word": "die Bank (Sitzbank)",
           "meaning": "Klupa / klupa",
-          "example": "Wir sitzen auf einer Bank. = Sjedimo na klupi. Množina: die Bänke."
+          "example": "Wir sitzen auf einer Bank. = Mēs sēžam uz soliņa. Plural: die Bänke."
         },
         {
           "word": "die Bankfiliale",
           "meaning": "Filijala banke",
-          "example": "Die Bankfiliale ist geöffnet. = Poslovnica banke je otvorena."
+          "example": "Die Bankfiliale ist geöffnet. = Bankas filiāle ir atvērta."
         },
         {
           "word": "die Parkbank",
           "meaning": "Klupa u parku",
-          "example": "Wir sitzen auf der Parkbank. = Sjedimo na klupi u parku."
+          "example": "Wir sitzen auf der Parkbank. = Mēs sēžam uz parka soliņa."
         },
         {
           "word": "die Sandbank",
           "meaning": "Sandbank",
-          "example": "Das Schiff steckt auf einer Sandbank. = Brod se nasukao."
+          "example": "Das Schiff steckt auf einer Sandbank. = Kuģis ir uzsēdies uz sēkļa."
         },
         {
           "word": "der Stuhl",
           "meaning": "Stolica",
-          "example": "Ich sitze auf einem Stuhl. = Sjedim na stolici."
+          "example": "Ich sitze auf einem Stuhl. = Es sēžu uz krēsla."
         }
       ],
       "tip": {
@@ -12081,27 +12081,27 @@ const A2_WORDS = [
         {
           "word": "der Bauer",
           "meaning": "Farmer / pijun",
-          "example": "Der Bauer arbeitet auf dem Feld. = Poljoprivrednik radi u polju."
+          "example": "Der Bauer arbeitet auf dem Feld. = Zemnieks strādā uz lauka."
         },
         {
           "word": "der Landwirt",
           "meaning": "Farmer / farmer",
-          "example": "Der Landwirt führt einen Hof. = Farmer upravlja farmom."
+          "example": "Der Landwirt führt einen Hof. = Lauksaimnieks vada saimniecību."
         },
         {
           "word": "der Bauernhof",
           "meaning": "Farma",
-          "example": "Wir besuchen einen Bauernhof. = Posjećujemo farmu."
+          "example": "Wir besuchen einen Bauernhof. = Mēs apmeklējam lauku saimniecību."
         },
         {
           "word": "die Figur",
           "meaning": "Figure",
-          "example": "Die Dame ist eine starke Figur. = Dama je moćna figura."
+          "example": "Die Dame ist eine starke Figur. = Dāma ir spēcīga figūra."
         },
         {
           "word": "der Spielstein",
           "meaning": "Kockica igre",
-          "example": "Der Spielstein liegt auf dem Brett. = Kockice su na stolu."
+          "example": "Der Spielstein liegt auf dem Brett. = Spēles kauliņš atrodas uz galda."
         }
       ],
       "tip": {
@@ -12695,27 +12695,27 @@ const A2_WORDS = [
         {
           "word": "bedienen",
           "meaning": "Servisirati / koristiti uređaj",
-          "example": "Der Kellner bedient uns. = Konobar nas poslužuje."
+          "example": "Der Kellner bedient uns. = Viesmīlis mūs apkalpo."
         },
         {
           "word": "benutzen",
           "meaning": "Koristiti",
-          "example": "Ich benutze mein Handy. = Koristim telefon."
+          "example": "Ich benutze mein Handy. = Es lietoju telefonu."
         },
         {
           "word": "helfen",
           "meaning": "Pomoći",
-          "example": "Kannst du mir helfen? = Možeš li mi pomoći?"
+          "example": "Kannst du mir helfen? = Vai vari man palīdzēt?"
         },
         {
           "word": "servieren",
           "meaning": "Poslužiti hranu",
-          "example": "Sie serviert das Essen. = Ona poslužuje hranu."
+          "example": "Sie serviert das Essen. = Viņa pasniedz ēdienu."
         },
         {
           "word": "steuern",
           "meaning": "Voditi",
-          "example": "Er steuert das Auto. = On vozi auto."
+          "example": "Er steuert das Auto. = Viņš vada auto."
         }
       ],
       "tip": {
@@ -13063,27 +13063,27 @@ const A2_WORDS = [
         {
           "word": "die Bedienung",
           "meaning": "Usluživanje / poslužitelj",
-          "example": "Die Bedienung ist freundlich. = Konobar je ljubazan."
+          "example": "Die Bedienung ist freundlich. = Apkalpotājs ir laipns."
         },
         {
           "word": "der Kellner",
           "meaning": "Konobar",
-          "example": "Der Kellner bringt die Rechnung. = Konobar donosi račun."
+          "example": "Der Kellner bringt die Rechnung. = Viesmīlis atnes rēķinu."
         },
         {
           "word": "die Kellnerin",
           "meaning": "Konobarica",
-          "example": "Die Kellnerin fragt nach Getränken. = Konobarica pita za piće."
+          "example": "Die Kellnerin fragt nach Getränken. = Viesmīle jautā par dzērieniem."
         },
         {
           "word": "der Service",
           "meaning": "Servis / servisiranje",
-          "example": "Der Service ist gut. = Usluga je dobra."
+          "example": "Der Service ist gut. = Apkalpošana ir laba."
         },
         {
           "word": "das Personal",
           "meaning": "Osoblje",
-          "example": "Das Personal hilft uns. = Osoblje nam pomaže."
+          "example": "Das Personal hilft uns. = Personāls mums palīdz."
         }
       ],
       "tip": {
@@ -13442,27 +13442,27 @@ const A2_WORDS = [
         {
           "word": "behalten",
           "meaning": "Zadržati / sjetiti se",
-          "example": "Du kannst es behalten. = Možeš to zadržati."
+          "example": "Du kannst es behalten. = Tu vari to paturēt."
         },
         {
           "word": "halten",
           "meaning": "Držati",
-          "example": "Ich halte die Tasche. = Držim torbu."
+          "example": "Ich halte die Tasche. = Es turu somu."
         },
         {
           "word": "sich merken",
           "meaning": "Zapamtiti / zapamtiti",
-          "example": "Ich merke mir die Nummer. = Zapamtio sam broj."
+          "example": "Ich merke mir die Nummer. = Es iegaumēju numuru."
         },
         {
           "word": "erinnern",
           "meaning": "Zapamtiti / podsjetiti",
-          "example": "Ich erinnere mich daran. = Sećam se toga."
+          "example": "Ich erinnere mich daran. = Es to atceros."
         },
         {
           "word": "aufbewahren",
           "meaning": "Čuvati",
-          "example": "Ich bewahre die Quittung auf. = Čuvam račun."
+          "example": "Ich bewahre die Quittung auf. = Es glabāju čeku."
         }
       ],
       "tip": {
@@ -13862,27 +13862,27 @@ const A2_WORDS = [
         {
           "word": "beinahe",
           "meaning": "Skoro / jedva",
-          "example": "Ich hätte beinahe gelacht. = Umalo da se počnem smijati."
+          "example": "Ich hätte beinahe gelacht. = Es gandrīz sāku smieties."
         },
         {
           "word": "fast",
           "meaning": "Skoro",
-          "example": "Ich bin fast fertig. = Skoro sam spreman."
+          "example": "Ich bin fast fertig. = Es esmu gandrīz gatavs."
         },
         {
           "word": "knapp",
           "meaning": "Jedva / sa malom marginom",
-          "example": "Das war knapp. = Jedva da je bilo."
+          "example": "Das war knapp. = Tas bija knapi."
         },
         {
           "word": "kaum",
           "meaning": "Jedva / jedva",
-          "example": "Ich kann kaum laufen. = Jedva hodam."
+          "example": "Ich kann kaum laufen. = Es tik tikko varu paiet."
         },
         {
           "word": "gerade noch",
           "meaning": "Jedva",
-          "example": "Wir haben es gerade noch geschafft. = Jedva smo stigli na vrijeme."
+          "example": "Wir haben es gerade noch geschafft. = Mēs vēl tik tikko paspējām."
         }
       ],
       "tip": {
@@ -14267,27 +14267,27 @@ const A2_WORDS = [
         {
           "word": "bekannt",
           "meaning": "Poznato / poznato",
-          "example": "Das ist bekannt. = Poznato je."
+          "example": "Das ist bekannt. = Tas ir zināms."
         },
         {
           "word": "berühmt",
           "meaning": "Poznati",
-          "example": "Er ist berühmt. = On je poznat."
+          "example": "Er ist berühmt. = Viņš ir slavens."
         },
         {
           "word": "vertraut",
           "meaning": "Poznat / uobičajen",
-          "example": "Die Umgebung ist mir vertraut. = Taj kraj mi je poznat."
+          "example": "Die Umgebung ist mir vertraut. = Apkārtne man ir pazīstama."
         },
         {
           "word": "befreundet",
           "meaning": "U prijateljskim / prijateljskim odnosima",
-          "example": "Wir sind befreundet. = Mi smo prijatelji."
+          "example": "Wir sind befreundet. = Mēs esam draugos."
         },
         {
           "word": "unbekannt",
           "meaning": "Nepoznato",
-          "example": "Der Täter ist unbekannt. = Krivac je nepoznat."
+          "example": "Der Täter ist unbekannt. = Vainīgais ir nezināms."
         }
       ],
       "tip": {
@@ -14777,27 +14777,27 @@ const A2_WORDS = [
         {
           "word": "bestellen",
           "meaning": "Naručiti / rezervisati",
-          "example": "Ich bestelle Essen. = Naručujem hranu."
+          "example": "Ich bestelle Essen. = Es pasūtu ēdienu."
         },
         {
           "word": "reservieren",
           "meaning": "Rezervirati",
-          "example": "Ich reserviere einen Tisch. = Rezervisao sam sto."
+          "example": "Ich reserviere einen Tisch. = Es rezervēju galdiņu."
         },
         {
           "word": "kaufen",
           "meaning": "Kupiti",
-          "example": "Ich kaufe Brot. = Kupujem hleb."
+          "example": "Ich kaufe Brot. = Es pērku maizi."
         },
         {
           "word": "grüßen",
           "meaning": "Pozdraviti / prenijeti pozdrave",
-          "example": "Grüß deine Mutter! = Pozdravi mamu!"
+          "example": "Grüß deine Mutter! = Pasveicini mammu!"
         },
         {
           "word": "bearbeiten",
           "meaning": "Proces",
-          "example": "Ich bearbeite den Text. = Obrađujem tekst."
+          "example": "Ich bearbeite den Text. = Es apstrādāju tekstu."
         }
       ],
       "tip": {
@@ -15144,27 +15144,27 @@ const A2_WORDS = [
         {
           "word": "bestimmt",
           "meaning": "Definitivno / određeno / određeno",
-          "example": "Das ist bestimmt richtig. = To je sigurno tačno."
+          "example": "Das ist bestimmt richtig. = Tas noteikti ir pareizi."
         },
         {
           "word": "sicher",
           "meaning": "Sigurno / definitivno",
-          "example": "Das ist sicher richtig. = To je sigurno tačno."
+          "example": "Das ist sicher richtig. = Tas noteikti ir pareizi."
         },
         {
           "word": "konkret",
           "meaning": "Konkretan",
-          "example": "Ich brauche ein konkretes Beispiel. = Treba mi konkretan primjer."
+          "example": "Ich brauche ein konkretes Beispiel. = Man vajag konkrētu piemēru."
         },
         {
           "word": "fest",
           "meaning": "Strog / određen",
-          "example": "Wir haben einen festen Termin. = Imamo rok."
+          "example": "Wir haben einen festen Termin. = Mums ir noteikts termiņš."
         },
         {
           "word": "wahrscheinlich",
           "meaning": "Vjerovatno / moguće",
-          "example": "Er kommt wahrscheinlich morgen. = Verovatno će doći sutra."
+          "example": "Er kommt wahrscheinlich morgen. = Viņš droši vien atnāks rīt."
         }
       ],
       "tip": {
@@ -15551,22 +15551,22 @@ const A2_WORDS = [
         {
           "word": "die Birne",
           "meaning": "Kruška / sijalica",
-          "example": "Ich esse eine Birne. = Jedem krušku."
+          "example": "Ich esse eine Birne. = Es ēdu bumbieri."
         },
         {
           "word": "die Glühbirne",
           "meaning": "Sijalica",
-          "example": "Die Glühbirne ist kaputt. = Sijalica je pokvarena."
+          "example": "Die Glühbirne ist kaputt. = Spuldze ir saplīsusi."
         },
         {
           "word": "die Lampe",
           "meaning": "Lampa",
-          "example": "Die Lampe ist hell. = Lampa je svetla."
+          "example": "Die Lampe ist hell. = Lampa ir spoža."
         },
         {
           "word": "das Obst",
           "meaning": "Voće",
-          "example": "Birnen sind Obst. = Kruške su voće."
+          "example": "Birnen sind Obst. = Bumbieri ir augļi."
         }
       ],
       "tip": {
@@ -16017,27 +16017,27 @@ const A2_WORDS = [
         {
           "word": "bitter",
           "meaning": "Gorak / opor / ljut",
-          "example": "Der Kaffee ist bitter. = Kafa je gorka."
+          "example": "Der Kaffee ist bitter. = Kafija ir rūgta."
         },
         {
           "word": "sauer",
           "meaning": "Kiselo",
-          "example": "Die Zitrone ist sauer. = Limun je kiselkast."
+          "example": "Die Zitrone ist sauer. = Citrons ir skābs."
         },
         {
           "word": "scharf",
           "meaning": "Ljut / pikantan",
-          "example": "Die Suppe ist scharf. = Supa je ljuta."
+          "example": "Die Suppe ist scharf. = Zupa ir asa."
         },
         {
           "word": "streng",
           "meaning": "Strog / oštar",
-          "example": "Der Lehrer ist streng. = Učitelj je strog."
+          "example": "Der Lehrer ist streng. = Skolotājs ir stingrs."
         },
         {
           "word": "unangenehm",
           "meaning": "Neprijatno",
-          "example": "Der Geruch ist unangenehm. = Miris je neprijatan."
+          "example": "Der Geruch ist unangenehm. = Smarža ir nepatīkama."
         }
       ],
       "tip": {
@@ -16491,27 +16491,27 @@ const A2_WORDS = [
         {
           "word": "der Boden",
           "meaning": "Pod / zemlja / zemlja / dno",
-          "example": "Die Tasche liegt auf dem Boden. = Torba je na podu."
+          "example": "Die Tasche liegt auf dem Boden. = Soma atrodas uz grīdas."
         },
         {
           "word": "der Fußboden",
           "meaning": "Sprat u sobi",
-          "example": "Der Fußboden ist sauber. = Pod je čist."
+          "example": "Der Fußboden ist sauber. = Grīda ir tīra."
         },
         {
           "word": "die Erde",
           "meaning": "Zemlja / tlo",
-          "example": "Die Erde ist trocken. = Zemlja je suha."
+          "example": "Die Erde ist trocken. = Zeme ir sausa."
         },
         {
           "word": "der Grund",
           "meaning": "Osnova / osnova / razlog",
-          "example": "Das Haus steht auf festem Grund. = Kuća stoji na čvrstom temelju."
+          "example": "Das Haus steht auf festem Grund. = Māja stāv uz stingra pamata."
         },
         {
           "word": "der Flaschenboden",
           "meaning": "Dno boce",
-          "example": "Der Flaschenboden ist dick. = Dno boce je debelo."
+          "example": "Der Flaschenboden ist dick. = Pudeles dibens ir biezs."
         }
       ],
       "tip": {
@@ -16948,22 +16948,22 @@ const A2_WORDS = [
         {
           "word": "borgen",
           "meaning": "Posuditi / posuditi",
-          "example": "Ich borge mir Geld. = Pozajmljujem novac."
+          "example": "Ich borge mir Geld. = Es aizņemos naudu."
         },
         {
           "word": "leihen",
           "meaning": "Posuditi / posuditi",
-          "example": "Kannst du mir das Buch leihen? = Možeš li mi posuditi knjigu?"
+          "example": "Kannst du mir das Buch leihen? = Vai vari man aizdot grāmatu?"
         },
         {
           "word": "geben",
           "meaning": "Dati",
-          "example": "Ich gebe dir Geld. = Dajem ti novac."
+          "example": "Ich gebe dir Geld. = Es tev dodu naudu."
         },
         {
           "word": "zurückgeben",
           "meaning": "Vratiti",
-          "example": "Ich gebe das Buch zurück. = Vraćam knjigu."
+          "example": "Ich gebe das Buch zurück. = Es atdodu grāmatu."
         }
       ],
       "tip": {
@@ -17318,27 +17318,27 @@ const A2_WORDS = [
         {
           "word": "böse",
           "meaning": "Zloban / ljut",
-          "example": "Bist du böse auf mich? = Jesi li ljut na mene"
+          "example": "Bist du böse auf mich? = Vai tu esi dusmīgs uz mani?"
         },
         {
           "word": "schlecht",
           "meaning": "Loš",
-          "example": "Das Wetter ist schlecht. = Vrijeme je loše."
+          "example": "Das Wetter ist schlecht. = Laiks ir slikts."
         },
         {
           "word": "zornig",
           "meaning": "Bijesan",
-          "example": "Er ist zornig. = On je bijesan."
+          "example": "Er ist zornig. = Viņš ir nikns."
         },
         {
           "word": "ärgerlich",
           "meaning": "Dosadan / ljut",
-          "example": "Das ist ärgerlich. = To je dosadno."
+          "example": "Das ist ärgerlich. = Tas ir kaitinoši."
         },
         {
           "word": "sauer",
           "meaning": "Ljuto / kiselo",
-          "example": "Ich bin sauer. = Ljut sam."
+          "example": "Ich bin sauer. = Es esmu dusmīgs."
         }
       ],
       "tip": {
@@ -17716,32 +17716,32 @@ const A2_WORDS = [
         {
           "word": "brav",
           "meaning": "Poslušan / uredan / dobro odgojen",
-          "example": "Das Kind ist brav. = Dijete je poslušno."
+          "example": "Das Kind ist brav. = Bērns ir paklausīgs."
         },
         {
           "word": "gut",
           "meaning": "Dobro",
-          "example": "Er ist ein guter Mensch. = On je dobra osoba."
+          "example": "Er ist ein guter Mensch. = Viņš ir labs cilvēks."
         },
         {
           "word": "nett",
           "meaning": "Lijepo",
-          "example": "Sie ist nett. = Ona je fina."
+          "example": "Sie ist nett. = Viņa ir jauka."
         },
         {
           "word": "freundlich",
           "meaning": "Prijateljski / ljubazni",
-          "example": "Der Verkäufer ist freundlich. = Prodavac je ljubazan."
+          "example": "Der Verkäufer ist freundlich. = Pārdevējs ir laipns."
         },
         {
           "word": "artig",
           "meaning": "Ljubazan / dobro vaspitan",
-          "example": "Das Kind ist artig. = Dijete je pristojno."
+          "example": "Das Kind ist artig. = Bērns ir pieklājīgs."
         },
         {
           "word": "gehorsam",
           "meaning": "Poslušan autoritetu",
-          "example": "Der Hund ist gehorsam. = Pas je poslušan."
+          "example": "Der Hund ist gehorsam. = Suns ir paklausīgs."
         }
       ],
       "tip": [
@@ -18141,27 +18141,27 @@ const A2_WORDS = [
         {
           "word": "brennen",
           "meaning": "Gorjeti / gorjeti / goriti",
-          "example": "Das Feuer brennt. = Vatra gori."
+          "example": "Das Feuer brennt. = Uguns deg."
         },
         {
           "word": "anzünden",
           "meaning": "Zapaliti",
-          "example": "Ich zünde die Kerze an. = Zapalim svijeću."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "verbrennen",
           "meaning": "Spaliti / spaliti",
-          "example": "Ich habe mich verbrannt. = Opekla sam se."
+          "example": "Ich habe mich verbrannt. = Es apdedzinājos."
         },
         {
           "word": "löschen",
           "meaning": "Obrisati / izbrisati",
-          "example": "Die Feuerwehr löscht das Feuer. = Vatrogasci gase vatru."
+          "example": "Die Feuerwehr löscht das Feuer. = Ugunsdzēsēji dzēš uguni."
         },
         {
           "word": "aufnehmen",
           "meaning": "Rekord / zapis",
-          "example": "Ich nehme ein Video auf. = Snimam video."
+          "example": "Ich nehme ein Video auf. = Es ierakstu video."
         }
       ],
       "tip": [
@@ -18620,27 +18620,27 @@ const A2_WORDS = [
         {
           "word": "dabei",
           "meaning": "Prisutan / sa / osim",
-          "example": "Ich habe den Schlüssel dabei. = Imam ključ sa sobom."
+          "example": "Ich habe den Schlüssel dabei. = Man ir līdzi atslēga."
         },
         {
           "word": "mit dabei",
           "meaning": "Također prisutan / uključen",
-          "example": "Bist du morgen mit dabei? = Hoćeš li i ti sutra učestvovati?"
+          "example": "Bist du morgen mit dabei? = Vai tu rīt arī piedalīsies?"
         },
         {
           "word": "dort",
           "meaning": "Tamo",
-          "example": "Ich war dort. = Bio sam tamo."
+          "example": "Ich war dort. = Es biju tur."
         },
         {
           "word": "außerdem",
           "meaning": "Pored toga",
-          "example": "Außerdem ist es teuer. = Osim toga, skupo je."
+          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
         },
         {
           "word": "trotzdem",
           "meaning": "Međutim",
-          "example": "Trotzdem komme ich. = Međutim, doći ću."
+          "example": "Trotzdem komme ich. = Tomēr es nākšu."
         }
       ],
       "tip": {
@@ -19029,27 +19029,27 @@ const A2_WORDS = [
         {
           "word": "dafür",
           "meaning": "Za to / to / međutim",
-          "example": "Danke dafür. = Hvala na tome."
+          "example": "Danke dafür. = Paldies par to."
         },
         {
           "word": "darum",
           "meaning": "Dakle / dakle",
-          "example": "Darum bleibe ich zu Hause. = Zato ostajem kod kuće."
+          "example": "Darum bleibe ich zu Hause. = Tāpēc es palieku mājās."
         },
         {
           "word": "deshalb",
           "meaning": "Dakle",
-          "example": "Deshalb komme ich später. = Pa ću doći kasnije."
+          "example": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk."
         },
         {
           "word": "dagegen",
           "meaning": "Protiv toga",
-          "example": "Ich bin dagegen. = Ja sam protiv toga."
+          "example": "Ich bin dagegen. = Es esmu pret to."
         },
         {
           "word": "für das",
           "meaning": "Za to / za to",
-          "example": "Das ist für das Kind. = To je za dijete."
+          "example": "Das ist für das Kind. = Tas ir bērnam."
         }
       ],
       "tip": {
@@ -19454,22 +19454,22 @@ const A2_WORDS = [
         {
           "word": "damit",
           "meaning": "S tim / to",
-          "example": "Ich lerne, damit ich bestehe. = Učim da položim."
+          "example": "Ich lerne, damit ich bestehe. = Es mācos, lai nokārtotu."
         },
         {
           "word": "mit dem",
           "meaning": "Sa tom konkretnom stvari",
-          "example": "Ich schreibe mit dem Stift. = Pišem tom olovkom."
+          "example": "Ich schreibe mit dem Stift. = Es rakstu ar to pildspalvu."
         },
         {
           "word": "um ... zu",
           "meaning": "To + glagol",
-          "example": "Ich lerne, um zu bestehen. = Učim da položim."
+          "example": "Ich lerne, um zu bestehen. = Es mācos, lai nokārtotu."
         },
         {
           "word": "deshalb",
           "meaning": "Dakle",
-          "example": "Deshalb bleibe ich hier. = Zato ostajem ovde."
+          "example": "Deshalb bleibe ich hier. = Tāpēc es palieku šeit."
         }
       ],
       "tip": {
@@ -19863,27 +19863,27 @@ const A2_WORDS = [
         {
           "word": "der Dank",
           "meaning": "Zahvalnost (imenica)",
-          "example": "Herzlichen Dank! = Iskreno hvala!"
+          "example": "Herzlichen Dank! = Sirsnīgs paldies!"
         },
         {
           "word": "danke",
           "meaning": "Hvala (odgovor)",
-          "example": "Nein, danke. = Ne hvala."
+          "example": "Nein, danke. = Nē, paldies."
         },
         {
           "word": "danken",
           "meaning": "Zahvaliti",
-          "example": "Ich danke dir. = Hvala ti."
+          "example": "Ich danke dir. = Es tev pateicos."
         },
         {
           "word": "Vielen Dank",
           "meaning": "Hvala puno (fraza)",
-          "example": "Vielen Dank für die Hilfe! = Hvala vam puno na pomoći!"
+          "example": "Vielen Dank für die Hilfe! = Liels paldies par palīdzību!"
         },
         {
           "word": "bedanken (sich)",
           "meaning": "Da se formalno zahvalim",
-          "example": "Ich bedanke mich bei Ihnen. = Hvala ti."
+          "example": "Ich bedanke mich bei Ihnen. = Es pateicos jums."
         }
       ],
       "tip": {
@@ -20245,22 +20245,22 @@ const A2_WORDS = [
         {
           "word": "darauf",
           "meaning": "Na to / na to / nakon toga",
-          "example": "Ich warte darauf. = Radujem se tome."
+          "example": "Ich warte darauf. = Es gaidu uz to."
         },
         {
           "word": "auf das",
           "meaning": "Na tu konkretnu stvar",
-          "example": "Ich lege es auf das Buch. = Stavio sam to u knjigu."
+          "example": "Ich lege es auf das Buch. = Es lieku to uz grāmatas."
         },
         {
           "word": "danach",
           "meaning": "Nakon toga",
-          "example": "Danach gehe ich nach Hause. = Nakon toga idem kući."
+          "example": "Danach gehe ich nach Hause. = Pēc tam es eju mājās."
         },
         {
           "word": "darüber",
           "meaning": "O tome / preko toga",
-          "example": "Wir sprechen darüber. = Razgovaramo o tome."
+          "example": "Wir sprechen darüber. = Mēs runājam par to."
         }
       ],
       "tip": {
@@ -20618,22 +20618,22 @@ const A2_WORDS = [
         {
           "word": "darüber",
           "meaning": "O tome / preko toga / preko toga",
-          "example": "Wir sprechen darüber. = Razgovaramo o tome."
+          "example": "Wir sprechen darüber. = Mēs runājam par to."
         },
         {
           "word": "über das",
           "meaning": "Za tu određenu stvar / iznad nje",
-          "example": "Wir sprechen über das Problem. = Govorimo o problemu."
+          "example": "Wir sprechen über das Problem. = Mēs runājam par problēmu."
         },
         {
           "word": "darauf",
           "meaning": "Na to / na to / nakon toga",
-          "example": "Ich warte darauf. = Radujem se tome."
+          "example": "Ich warte darauf. = Es gaidu uz to."
         },
         {
           "word": "davon",
           "meaning": "Za to / od njega",
-          "example": "Ich habe davon gehört. = Čuo sam za to."
+          "example": "Ich habe davon gehört. = Es par to dzirdēju."
         }
       ],
       "tip": {
@@ -21007,27 +21007,27 @@ const A2_WORDS = [
         {
           "word": "darum",
           "meaning": "Dakle / dakle / oko njega",
-          "example": "Darum bleibe ich hier. = Zato ostajem ovde."
+          "example": "Darum bleibe ich hier. = Tāpēc es palieku šeit."
         },
         {
           "word": "deshalb",
           "meaning": "Dakle",
-          "example": "Deshalb komme ich später. = Pa ću doći kasnije."
+          "example": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk."
         },
         {
           "word": "deswegen",
           "meaning": "Dakle / iz ovog razloga",
-          "example": "Deswegen bin ich müde. = Zato sam umoran."
+          "example": "Deswegen bin ich müde. = Tāpēc esmu noguris."
         },
         {
           "word": "um das",
           "meaning": "Oko te konkretne stvari",
-          "example": "Wir sitzen um das Feuer. = Sjedimo oko vatre."
+          "example": "Wir sitzen um das Feuer. = Mēs sēžam ap uguni."
         },
         {
           "word": "dafür",
           "meaning": "Za to / to / međutim",
-          "example": "Danke dafür. = Hvala na tome."
+          "example": "Danke dafür. = Paldies par to."
         }
       ],
       "tip": {
@@ -21646,22 +21646,22 @@ const A2_WORDS = [
         {
           "word": "davor",
           "meaning": "Ispred / prije toga / od toga",
-          "example": "Ich habe Angst davor. = Bojim se toga."
+          "example": "Ich habe Angst davor. = Man ir bail no tā."
         },
         {
           "word": "vor dem",
           "meaning": "Prije / ispred određenog",
-          "example": "Vor dem Haus steht ein Auto. = Ispred kuće je auto."
+          "example": "Vor dem Haus steht ein Auto. = Mājas priekšā stāv auto."
         },
         {
           "word": "danach",
           "meaning": "Nakon toga",
-          "example": "Danach gehen wir. = Nakon toga idemo."
+          "example": "Danach gehen wir. = Pēc tam mēs ejam."
         },
         {
           "word": "darauf",
           "meaning": "Na to / nakon toga",
-          "example": "Ich warte darauf. = Radujem se tome."
+          "example": "Ich warte darauf. = Es gaidu uz to."
         }
       ],
       "tip": [
@@ -21952,22 +21952,22 @@ const A2_WORDS = [
         {
           "word": "dazu",
           "meaning": "Tome / pri tome / uz to / osim toga",
-          "example": "Was sagst du dazu? = Šta ti kažeš na to?"
+          "example": "Was sagst du dazu? = Ko tu par to saki?"
         },
         {
           "word": "dafür",
           "meaning": "Za to / to / međutim",
-          "example": "Danke dafür. = Hvala na tome."
+          "example": "Danke dafür. = Paldies par to."
         },
         {
           "word": "dabei",
           "meaning": "Prisutan / sa / osim",
-          "example": "Ich war dabei. = Bio sam tamo."
+          "example": "Ich war dabei. = Es biju klāt."
         },
         {
           "word": "außerdem",
           "meaning": "Pored toga",
-          "example": "Außerdem ist es teuer. = Osim toga, skupo je."
+          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
         }
       ],
       "tip": [
@@ -22250,27 +22250,27 @@ const A2_WORDS = [
         {
           "word": "die Decke",
           "meaning": "Ćebe / plafon",
-          "example": "Die Decke ist warm. = Ćebe je toplo."
+          "example": "Die Decke ist warm. = Sega ir silta."
         },
         {
           "word": "die Bettdecke",
           "meaning": "Ćebe na krevetu",
-          "example": "Die Bettdecke ist weich. = Ćebe je mekano."
+          "example": "Die Bettdecke ist weich. = Sega ir mīksta."
         },
         {
           "word": "die Zimmerdecke",
           "meaning": "Plafon",
-          "example": "Die Zimmerdecke ist hoch. = Plafon je visok."
+          "example": "Die Zimmerdecke ist hoch. = Griesti ir augsti."
         },
         {
           "word": "das Dach",
           "meaning": "Krov",
-          "example": "Das Dach ist rot. = Krov je crven."
+          "example": "Das Dach ist rot. = Jumts ir sarkans."
         },
         {
           "word": "die Wand",
           "meaning": "Zid",
-          "example": "Das Bild hängt an der Wand. = Slika visi na zidu."
+          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
         }
       ],
       "tip": [
@@ -22606,22 +22606,22 @@ const A2_WORDS = [
         {
           "word": "denn",
           "meaning": "Jer / onda pitanja",
-          "example": "Was machst du denn? = Šta onda radiš?"
+          "example": "Was machst du denn? = Ko tad tu dari?"
         },
         {
           "word": "weil",
           "meaning": "Jer / jer",
-          "example": "Ich bleibe, weil es regnet. = Ostajem jer pada kiša."
+          "example": "Ich bleibe, weil es regnet. = Es palieku, jo līst."
         },
         {
           "word": "dann",
           "meaning": "Onda",
-          "example": "Dann gehen wir. = Onda idemo."
+          "example": "Dann gehen wir. = Tad mēs ejam."
         },
         {
           "word": "deshalb",
           "meaning": "Dakle",
-          "example": "Deshalb bleibe ich. = Zato ostajem."
+          "example": "Deshalb bleibe ich. = Tāpēc es palieku."
         }
       ],
       "tip": [
@@ -22955,27 +22955,27 @@ const A2_WORDS = [
         {
           "word": "dick",
           "meaning": "Masno / gusto",
-          "example": "Das Buch ist dick. = Knjiga je debela."
+          "example": "Das Buch ist dick. = Grāmata ir bieza."
         },
         {
           "word": "fett",
           "meaning": "Masti / masti",
-          "example": "Das Essen ist fett. = Hrana je masna."
+          "example": "Das Essen ist fett. = Ēdiens ir trekns."
         },
         {
           "word": "dünn",
           "meaning": "Tanak / tanak",
-          "example": "Das Papier ist dünn. = Papir je tanak."
+          "example": "Das Papier ist dünn. = Papīrs ir plāns."
         },
         {
           "word": "breit",
           "meaning": "Širok",
-          "example": "Die Straße ist breit. = Ulica je široka."
+          "example": "Die Straße ist breit. = Iela ir plata."
         },
         {
           "word": "stark",
           "meaning": "Jaka",
-          "example": "Er ist stark. = On je jak."
+          "example": "Er ist stark. = Viņš ir stiprs."
         }
       ],
       "tip": [
@@ -23336,27 +23336,27 @@ const A2_WORDS = [
         {
           "word": "doch",
           "meaning": "Ali / ipak / oboje / jel",
-          "example": "Komm doch! = Hajde!"
+          "example": "Komm doch! = Nāc taču!"
         },
         {
           "word": "aber",
           "meaning": "Ali",
-          "example": "Ich will, aber ich kann nicht. = Želim, ali ne mogu."
+          "example": "Ich will, aber ich kann nicht. = Es gribu, bet nevaru."
         },
         {
           "word": "trotzdem",
           "meaning": "Međutim / uprkos tome",
-          "example": "Es regnet, trotzdem gehe ich. = Pada kiša, ipak idem."
+          "example": "Es regnet, trotzdem gehe ich. = Līst, tomēr es eju."
         },
         {
           "word": "ja",
           "meaning": "Već / pa, kada govornik nešto smatra poznatim",
-          "example": "Du weißt ja. = Vi već znate."
+          "example": "Du weißt ja. = Tu jau zini."
         },
         {
           "word": "nein",
           "meaning": "Br",
-          "example": "Kommst du? Nein. = Hoćeš li doći? Ne."
+          "example": "Kommst du? Nein. = Vai tu nāksi? Nē."
         }
       ],
       "tip": {
@@ -23815,27 +23815,27 @@ const A2_WORDS = [
         {
           "word": "der Doktor",
           "meaning": "Doktor / kolokvijalno doktor",
-          "example": "Ich gehe zum Doktor. = Idem kod doktora."
+          "example": "Ich gehe zum Doktor. = Es eju pie ārsta."
         },
         {
           "word": "der Arzt",
           "meaning": "Doktore",
-          "example": "Der Arzt hilft mir. = Doktor mi pomaže."
+          "example": "Der Arzt hilft mir. = Ārsts man palīdz."
         },
         {
           "word": "die Ärztin",
           "meaning": "Doktor",
-          "example": "Die Ärztin arbeitet hier. = Doktor radi ovdje."
+          "example": "Die Ärztin arbeitet hier. = Ārste strādā šeit."
         },
         {
           "word": "der Titel",
           "meaning": "Naslov",
-          "example": "Doktor ist ein Titel. = Doktor je titula."
+          "example": "Doktor ist ein Titel. = Doktors ir tituls."
         },
         {
           "word": "die Praxis",
           "meaning": "Medicinska praksa",
-          "example": "Die Praxis ist offen. = Ordinacija je otvorena."
+          "example": "Die Praxis ist offen. = Ārsta prakse ir atvērta."
         }
       ],
       "tip": [
@@ -24730,27 +24730,27 @@ const A2_WORDS = [
         {
           "word": "dünn",
           "meaning": "Tanak / tanak / tanak / tekući",
-          "example": "Das Papier ist dünn. = Papir je tanak."
+          "example": "Das Papier ist dünn. = Papīrs ir plāns."
         },
         {
           "word": "dick",
           "meaning": "Gusta / masna",
-          "example": "Das Buch ist dick. = Knjiga je debela."
+          "example": "Das Buch ist dick. = Grāmata ir bieza."
         },
         {
           "word": "schmal",
           "meaning": "Usko",
-          "example": "Die Straße ist schmal. = Ulica je uska."
+          "example": "Die Straße ist schmal. = Iela ir šaura."
         },
         {
           "word": "mager",
           "meaning": "Mršav / vitak",
-          "example": "Das Fleisch ist mager. = Meso je nemasno."
+          "example": "Das Fleisch ist mager. = Gaļa ir liesa."
         },
         {
           "word": "flüssig",
           "meaning": "Tečan",
-          "example": "Honig ist flüssig. = Med je tečan."
+          "example": "Honig ist flüssig. = Medus ir šķidrs."
         }
       ],
       "tip": [
@@ -25341,22 +25341,22 @@ const A2_WORDS = [
         {
           "word": "eben",
           "meaning": "Upravo / tek što / tako je / ravan",
-          "example": "Das ist eben so. = To je jednostavno tako."
+          "example": "Das ist eben so. = Tā tas vienkārši ir."
         },
         {
           "word": "gerade",
           "meaning": "Upravo sada / ravno",
-          "example": "Ich bin gerade zu Hause. = Trenutno sam kod kuće."
+          "example": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās."
         },
         {
           "word": "gerade eben",
           "meaning": "Upravo sada",
-          "example": "Ich habe ihn gerade eben gesehen. = Upravo sam ga vidio."
+          "example": "Ich habe ihn gerade eben gesehen. = Es viņu tikko redzēju."
         },
         {
           "word": "flach",
           "meaning": "Stan",
-          "example": "Das Land ist flach. = Zemlja je ravna."
+          "example": "Das Land ist flach. = Zeme ir plakana."
         }
       ],
       "tip": {
@@ -25808,22 +25808,22 @@ const A2_WORDS = [
         {
           "word": "ehrlich",
           "meaning": "Iskren / otvoren",
-          "example": "Er ist ehrlich. = On je pošten."
+          "example": "Er ist ehrlich. = Viņš ir godīgs."
         },
         {
           "word": "aufrichtig",
           "meaning": "Iskren / iskren / otvoren",
-          "example": "Das war aufrichtig. = Bila je istina."
+          "example": "Das war aufrichtig. = Tas bija patiesi."
         },
         {
           "word": "nett",
           "meaning": "Lijepo",
-          "example": "Sie ist nett. = Ona je fina."
+          "example": "Sie ist nett. = Viņa ir jauka."
         },
         {
           "word": "gut",
           "meaning": "Dobro",
-          "example": "Er ist ein guter Mensch. = On je dobra osoba."
+          "example": "Er ist ein guter Mensch. = Viņš ir labs cilvēks."
         }
       ],
       "tip": [
@@ -26126,22 +26126,22 @@ const A2_WORDS = [
         {
           "word": "eigentlich",
           "meaning": "Zapravo / zapravo / pravi",
-          "example": "Eigentlich habe ich keine Zeit. = Zapravo, nemam vremena."
+          "example": "Eigentlich habe ich keine Zeit. = Patiesībā man nav laika."
         },
         {
           "word": "echt",
           "meaning": "Pravi",
-          "example": "Das ist echt. = Stvarno je."
+          "example": "Das ist echt. = Tas ir īsts."
         },
         {
           "word": "wahr",
           "meaning": "Istina",
-          "example": "Das ist wahr. = Istina je."
+          "example": "Das ist wahr. = Tas ir patiess."
         },
         {
           "word": "wirklich",
           "meaning": "Zaista/zaista",
-          "example": "Das ist wirklich gut. = Zaista je dobro."
+          "example": "Das ist wirklich gut. = Tas tiešām ir labi."
         }
       ],
       "tip": [
@@ -26484,22 +26484,22 @@ const A2_WORDS = [
         {
           "word": "einladen",
           "meaning": "Pozvati / utovariti",
-          "example": "Ich lade dich ein. = Pozivam te."
+          "example": "Ich lade dich ein. = Es tevi uzaicinu."
         },
         {
           "word": "laden",
           "meaning": "Opterećenje / punjenje",
-          "example": "Ich lade das Handy. = Punim telefon."
+          "example": "Ich lade das Handy. = Es lādēju telefonu."
         },
         {
           "word": "besuchen",
           "meaning": "Posjetiti / posjetiti",
-          "example": "Ich besuche dich. = Posjećujem te."
+          "example": "Ich besuche dich. = Es tevi apciemoju."
         },
         {
           "word": "mitbringen",
           "meaning": "Ponesite sa sobom",
-          "example": "Bring bitte Brot mit. = Ponesi hleb sa sobom."
+          "example": "Bring bitte Brot mit. = Paņem līdzi maizi."
         }
       ],
       "tip": {
@@ -26884,22 +26884,22 @@ const A2_WORDS = [
         {
           "word": "einschalten",
           "meaning": "Uključiti / angažirati",
-          "example": "Ich schalte das Licht ein. = Upalio sam svjetlo."
+          "example": "Ich schalte das Licht ein. = Es ieslēdzu gaismu."
         },
         {
           "word": "ausschalten",
           "meaning": "Isključiti",
-          "example": "Schalte den Computer aus. = Isključi računar."
+          "example": "Schalte den Computer aus. = Izslēdz datoru."
         },
         {
           "word": "anmachen",
           "meaning": "Uključiti (razgovorno)",
-          "example": "Mach das Licht an. = Upali svjetlo."
+          "example": "Mach das Licht an. = Ieslēdz gaismu."
         },
         {
           "word": "einbeziehen",
           "meaning": "Uključiti",
-          "example": "Wir beziehen ihn ein. = Mi ga uključujemo."
+          "example": "Wir beziehen ihn ein. = Mēs viņu iesaistām."
         }
       ],
       "tip": {
@@ -27257,22 +27257,22 @@ const A2_WORDS = [
         {
           "word": "einschlafen",
           "meaning": "Zaspati / utrnuti",
-          "example": "Ich schlafe ein. = Zaspao sam."
+          "example": "Ich schlafe ein. = Es aizmiegu."
         },
         {
           "word": "schlafen",
           "meaning": "Spavati",
-          "example": "Ich schlafe acht Stunden. = Spavam osam sati."
+          "example": "Ich schlafe acht Stunden. = Es guļu astoņas stundas."
         },
         {
           "word": "aufwachen",
           "meaning": "Probudi se",
-          "example": "Ich wache früh auf. = Budim se rano."
+          "example": "Ich wache früh auf. = Es pamostos agri."
         },
         {
           "word": "taub werden",
           "meaning": "Utrnuti",
-          "example": "Mein Bein wird taub. = Noga mi je utrnula."
+          "example": "Mein Bein wird taub. = Mana kāja kļūst nejutīga."
         }
       ],
       "tip": [
@@ -27599,22 +27599,22 @@ const A2_WORDS = [
         {
           "word": "einsteigen",
           "meaning": "Ući / uključiti se",
-          "example": "Ich steige in den Zug ein. = Ulazim u voz."
+          "example": "Ich steige in den Zug ein. = Es iekāpju vilcienā."
         },
         {
           "word": "aussteigen",
           "meaning": "Sići / prestati",
-          "example": "Ich steige hier aus. = Odlazim odavde."
+          "example": "Ich steige hier aus. = Es šeit izkāpju."
         },
         {
           "word": "umsteigen",
           "meaning": "Presjesti",
-          "example": "Wir steigen um. = Presjedamo."
+          "example": "Wir steigen um. = Mēs pārsēžamies."
         },
         {
           "word": "mitmachen",
           "meaning": "Učestvovati",
-          "example": "Ich mache mit. = Učestvujem."
+          "example": "Ich mache mit. = Es piedalos."
         }
       ],
       "tip": {
@@ -27964,22 +27964,22 @@ const A2_WORDS = [
         {
           "word": "der Eintritt",
           "meaning": "Ulaz / ulaznica / ulaz",
-          "example": "Der Eintritt ist frei. = Ulaz je besplatan."
+          "example": "Der Eintritt ist frei. = Ieeja ir bez maksas."
         },
         {
           "word": "der Eingang",
           "meaning": "Fizički ulaz",
-          "example": "Der Eingang ist links. = Ulaz je lijevo."
+          "example": "Der Eingang ist links. = Ieeja ir pa kreisi."
         },
         {
           "word": "die Eintrittskarte",
           "meaning": "Ulaznica",
-          "example": "Ich habe eine Eintrittskarte. = Imam ulaznicu."
+          "example": "Ich habe eine Eintrittskarte. = Man ir ieejas biļete."
         },
         {
           "word": "beitreten",
           "meaning": "Učlaniti se u organizaciju",
-          "example": "Ich trete dem Verein bei. = Učlanjujem se u udruženje."
+          "example": "Ich trete dem Verein bei. = Es iestājos biedrībā."
         }
       ],
       "tip": [
@@ -28861,22 +28861,22 @@ const A2_WORDS = [
         {
           "word": "erinnern",
           "meaning": "Podsjetiti",
-          "example": "Erinnere mich bitte daran. = Molim vas podsjetite me na to."
+          "example": "Erinnere mich bitte daran. = Lūdzu, atgādini man to."
         },
         {
           "word": "sich erinnern",
           "meaning": "Zapamtiti",
-          "example": "Ich erinnere mich daran. = Sećam se toga."
+          "example": "Ich erinnere mich daran. = Es to atceros."
         },
         {
           "word": "vergessen",
           "meaning": "Zaboravi",
-          "example": "Ich vergesse den Termin. = Zaboravio sam sastanak."
+          "example": "Ich vergesse den Termin. = Es aizmirstu tikšanos."
         },
         {
           "word": "denken an",
           "meaning": "Misliti na / sjetiti se da uradiš",
-          "example": "Denk an den Schlüssel. = Sjeti se ključa."
+          "example": "Denk an den Schlüssel. = Atceries par atslēgu."
         }
       ],
       "tip": [
@@ -29345,22 +29345,22 @@ const A2_WORDS = [
         {
           "word": "etwa",
           "meaning": "O • U pitanjima također ili tada / stvarno",
-          "example": "Das dauert etwa 20 Minuten. = Potrebno je oko 20 minuta."
+          "example": "Das dauert etwa 20 Minuten. = Tas ilgst apmēram 20 minūtes."
         },
         {
           "word": "ungefähr",
           "meaning": "Otprilike / približno, neutralno",
-          "example": "Das dauert ungefähr 20 Minuten. = Traje oko 20 minuta."
+          "example": "Das dauert ungefähr 20 Minuten. = Tas ilgst aptuveni 20 minūtes."
         },
         {
           "word": "etwa?",
           "meaning": "Ili tada / zaista u pitanju",
-          "example": "Hast du das etwa vergessen? = Jesi li to tada zaboravio?"
+          "example": "Hast du das etwa vergessen? = Vai tad tu to aizmirsi?"
         },
         {
           "word": "vielleicht",
           "meaning": "Mozda",
-          "example": "Vielleicht kommt er. = Možda će on doći."
+          "example": "Vielleicht kommt er. = Varbūt viņš atnāks."
         }
       ],
       "tip": [
@@ -29754,27 +29754,27 @@ const A2_WORDS = [
         {
           "word": "das Fach",
           "meaning": "Odjel / predmet / industrija",
-          "example": "Das Fach ist leer. = Odeljak je prazan."
+          "example": "Das Fach ist leer. = Nodalījums ir tukšs."
         },
         {
           "word": "das Schulfach",
           "meaning": "Nastavni predmet",
-          "example": "Biologie ist ein Schulfach. = Biologija je predmet."
+          "example": "Biologie ist ein Schulfach. = Bioloģija ir mācību priekšmets."
         },
         {
           "word": "das Schrankfach",
           "meaning": "Pretinac ormara",
-          "example": "Das Schrankfach ist klein. = Odeljak za ormar je mali."
+          "example": "Das Schrankfach ist klein. = Skapja nodalījums ir mazs."
         },
         {
           "word": "das Fachgebiet",
           "meaning": "Specijalnost / industrija",
-          "example": "Das ist mein Fachgebiet. = To je moja specijalnost."
+          "example": "Das ist mein Fachgebiet. = Tā ir mana specialitāte."
         },
         {
           "word": "der Beruf",
           "meaning": "Profesija",
-          "example": "Mein Beruf ist Lehrer. = Moja profesija je nastavnik."
+          "example": "Mein Beruf ist Lehrer. = Mana profesija ir skolotājs."
         }
       ],
       "tip": {
@@ -30317,27 +30317,27 @@ const A2_WORDS = [
         {
           "word": "der Fall",
           "meaning": "Slučaj / pad / padež / stvar",
-          "example": "In diesem Fall komme ich. = U ovom slučaju ću doći."
+          "example": "In diesem Fall komme ich. = Šajā gadījumā es nākšu."
         },
         {
           "word": "der Unfall",
           "meaning": "Nezgoda",
-          "example": "Der Unfall war schlimm. = Nesreća je bila ozbiljna."
+          "example": "Der Unfall war schlimm. = Negadījums bija smags."
         },
         {
           "word": "die Situation",
           "meaning": "Situaciju",
-          "example": "Die Situation ist schwierig. = Situacija je teška."
+          "example": "Die Situation ist schwierig. = Situācija ir grūta."
         },
         {
           "word": "der Kasus",
           "meaning": "Gramatički padež",
-          "example": "Der Kasus ist wichtig. = Padež je važan."
+          "example": "Der Kasus ist wichtig. = Locījums ir svarīgs."
         },
         {
           "word": "der Gerichtsfall",
           "meaning": "Sudski spor",
-          "example": "Der Gerichtsfall dauert lange. = Sudski spor traje dugo."
+          "example": "Der Gerichtsfall dauert lange. = Tiesas lieta ilgst ilgi."
         }
       ],
       "tip": {
@@ -30848,22 +30848,22 @@ const A2_WORDS = [
         {
           "word": "fehlen",
           "meaning": "Nedostaje / nije prisutan",
-          "example": "Mir fehlt Geld. = Nedostaje mi novca."
+          "example": "Mir fehlt Geld. = Man trūkst naudas."
         },
         {
           "word": "brauchen",
           "meaning": "Da treba",
-          "example": "Ich brauche Geld. = Treba mi novac."
+          "example": "Ich brauche Geld. = Man vajag naudu."
         },
         {
           "word": "vermissen",
           "meaning": "Čeznuti za nekom osobom / nedostajati nekome",
-          "example": "Ich vermisse dich. = Nedostaješ mi."
+          "example": "Ich vermisse dich. = Man tevis pietrūkst."
         },
         {
           "word": "abwesend sein",
           "meaning": "Ne biti prisutan",
-          "example": "Er ist abwesend. = On nije prisutan."
+          "example": "Er ist abwesend. = Viņš nav klāt."
         }
       ],
       "tip": [
@@ -31603,27 +31603,27 @@ const A2_WORDS = [
         {
           "word": "das Feuer",
           "meaning": "Vatra / vatra",
-          "example": "Das Feuer brennt. = Vatra gori."
+          "example": "Das Feuer brennt. = Uguns deg."
         },
         {
           "word": "der Brand",
           "meaning": "Vatre",
-          "example": "Der Brand ist groß. = Vatra je velika."
+          "example": "Der Brand ist groß. = Ugunsgrēks ir liels."
         },
         {
           "word": "die Flamme",
           "meaning": "Plamen",
-          "example": "Die Flamme ist klein. = Plamen je mali."
+          "example": "Die Flamme ist klein. = Liesma ir maza."
         },
         {
           "word": "die Feuerwehr",
           "meaning": "Vatrogasci",
-          "example": "Die Feuerwehr kommt. = Vatrogasci su na putu."
+          "example": "Die Feuerwehr kommt. = Ugunsdzēsēji brauc."
         },
         {
           "word": "Feuer geben",
           "meaning": "Otvorena vatra",
-          "example": "Die Soldaten geben Feuer. = Vojnici otvaraju vatru."
+          "example": "Die Soldaten geben Feuer. = Kareivji atklāj uguni."
         }
       ],
       "tip": {
@@ -32208,22 +32208,22 @@ const A2_WORDS = [
         {
           "word": "folgen",
           "meaning": "Pratiti / pratiti",
-          "example": "Ich folge dir. = Pratim te."
+          "example": "Ich folge dir. = Es tev sekoju."
         },
         {
           "word": "verfolgen",
           "meaning": "Slijediti / slijediti",
-          "example": "Die Polizei verfolgt den Täter. = Policija progoni krivca."
+          "example": "Die Polizei verfolgt den Täter. = Policija vajā vainīgo."
         },
         {
           "word": "gehorchen",
           "meaning": "Slušati / poslušati",
-          "example": "Das Kind gehorcht. = Dijete sluša."
+          "example": "Das Kind gehorcht. = Bērns klausa."
         },
         {
           "word": "befolgen",
           "meaning": "Slijedite upute",
-          "example": "Befolgen Sie die Regeln. = Poštujte pravila."
+          "example": "Befolgen Sie die Regeln. = Ievērojiet noteikumus."
         }
       ],
       "tip": [
@@ -32751,27 +32751,27 @@ const A2_WORDS = [
         {
           "word": "führen",
           "meaning": "Voditi / voditi / biti vođen",
-          "example": "Der Weg führt zum Bahnhof. = Put vodi do stanice."
+          "example": "Der Weg führt zum Bahnhof. = Ceļš ved uz staciju."
         },
         {
           "word": "leiten",
           "meaning": "Upravljati organizacijom/procesom",
-          "example": "Sie leitet die Firma. = Ona vodi kompaniju."
+          "example": "Sie leitet die Firma. = Viņa vada firmu."
         },
         {
           "word": "fahren",
           "meaning": "Voziti / voziti sa transportom",
-          "example": "Ich fahre nach Hause. = Vozim se kuci."
+          "example": "Ich fahre nach Hause. = Es braucu mājās."
         },
         {
           "word": "bringen",
           "meaning": "Dovesti / odvesti do cilja",
-          "example": "Ich bringe dich nach Hause. = Odvest ću te kući."
+          "example": "Ich bringe dich nach Hause. = Es aizvedīšu tevi mājās."
         },
         {
           "word": "führen zu",
           "meaning": "Dovesti do",
-          "example": "Das führt zu Problemen. = To dovodi do problema."
+          "example": "Das führt zu Problemen. = Tas noved pie problēmām."
         }
       ],
       "tip": {
@@ -33940,22 +33940,22 @@ const A2_WORDS = [
         {
           "word": "gehören",
           "meaning": "Pripadati / uklapati se",
-          "example": "Das gehört mir. = Pripada meni."
+          "example": "Das gehört mir. = Tas pieder man."
         },
         {
           "word": "besitzen",
           "meaning": "Posjedovati / biti u posjedu",
-          "example": "Er besitzt ein Auto. = On poseduje auto."
+          "example": "Er besitzt ein Auto. = Viņam pieder auto."
         },
         {
           "word": "passen",
           "meaning": "Fit / fit",
-          "example": "Das passt gut. = Dobro se uklapa."
+          "example": "Das passt gut. = Tas labi der."
         },
         {
           "word": "brauchen",
           "meaning": "Da treba",
-          "example": "Du brauchst Zeit. = Treba ti vremena."
+          "example": "Du brauchst Zeit. = Tev vajag laiku."
         }
       ],
       "tip": {
@@ -34299,22 +34299,22 @@ const A2_WORDS = [
         {
           "word": "genau",
           "meaning": "Precizan / tačno / precizno",
-          "example": "Das ist genau richtig. = To je potpuno tačno."
+          "example": "Das ist genau richtig. = Tas ir tieši pareizi."
         },
         {
           "word": "exakt",
           "meaning": "Precizan / egzaktan",
-          "example": "Das ist exakt ein Meter. = To je tačno jedan metar."
+          "example": "Das ist exakt ein Meter. = Tas ir precīzi viens metrs."
         },
         {
           "word": "gerade",
           "meaning": "Ravno / upravo sada",
-          "example": "Ich bin gerade zu Hause. = Trenutno sam kod kuće."
+          "example": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās."
         },
         {
           "word": "eben",
           "meaning": "Upravo / upravo sada",
-          "example": "Er war eben hier. = On je upravo bio ovde."
+          "example": "Er war eben hier. = Viņš tikko bija šeit."
         }
       ],
       "tip": {
@@ -34489,22 +34489,22 @@ const A2_WORDS = [
         {
           "word": "gerade",
           "meaning": "Ravno / trenutno / upravo sada",
-          "example": "Ich komme gerade. = Dolazim odmah."
+          "example": "Ich komme gerade. = Es tieši tagad nāku."
         },
         {
           "word": "geradeaus",
           "meaning": "Pravo naprijed",
-          "example": "Gehen Sie geradeaus. = Samo napred."
+          "example": "Gehen Sie geradeaus. = Ejiet taisni uz priekšu."
         },
         {
           "word": "genau",
           "meaning": "Precizno / direktno",
-          "example": "Genau hier. = Ovdje."
+          "example": "Genau hier. = Tieši šeit."
         },
         {
           "word": "eben",
           "meaning": "Upravo sada",
-          "example": "Ich war eben dort. = Upravo sam bio tamo."
+          "example": "Ich war eben dort. = Es tikko tur biju."
         }
       ],
       "tip": [
@@ -34837,27 +34837,27 @@ const A2_WORDS = [
         {
           "word": "das Geschäft",
           "meaning": "Prodavnica / kompanija / transakcija",
-          "example": "Ich gehe ins Geschäft. = Idem u radnju."
+          "example": "Ich gehe ins Geschäft. = Es eju uz veikalu."
         },
         {
           "word": "der Laden",
           "meaning": "Shop",
-          "example": "Der Laden ist klein. = Prodavnica je mala."
+          "example": "Der Laden ist klein. = Veikals ir mazs."
         },
         {
           "word": "die Firma",
           "meaning": "Firma / kompanija",
-          "example": "Die Firma ist groß. = Kompanija je velika."
+          "example": "Die Firma ist groß. = Firma ir liela."
         },
         {
           "word": "das Unternehmen",
           "meaning": "Kompanija",
-          "example": "Das Unternehmen wächst. = Kompanija raste."
+          "example": "Das Unternehmen wächst. = Uzņēmums aug."
         },
         {
           "word": "der Vertrag",
           "meaning": "Ugovor",
-          "example": "Wir schließen einen Vertrag. = Sklapamo ugovor."
+          "example": "Wir schließen einen Vertrag. = Mēs slēdzam līgumu."
         }
       ],
       "tip": {
@@ -35307,22 +35307,22 @@ const A2_WORDS = [
         {
           "word": "gewinnen",
           "meaning": "Pobijediti / pobijediti / dobiti",
-          "example": "Wir gewinnen das Spiel. = Pobeđujemo."
+          "example": "Wir gewinnen das Spiel. = Mēs uzvaram spēlē."
         },
         {
           "word": "siegen",
           "meaning": "Pobijediti",
-          "example": "Die Mannschaft siegt. = Tim pobjeđuje."
+          "example": "Die Mannschaft siegt. = Komanda uzvar."
         },
         {
           "word": "bekommen",
           "meaning": "Primiti / dobiti",
-          "example": "Ich bekomme eine Nachricht. = Dobio sam poruku."
+          "example": "Ich bekomme eine Nachricht. = Es saņemu ziņu."
         },
         {
           "word": "verdienen",
           "meaning": "Zaraditi",
-          "example": "Er verdient Geld. = On zarađuje novac."
+          "example": "Er verdient Geld. = Viņš pelna naudu."
         }
       ],
       "tip": [
@@ -35702,22 +35702,22 @@ const A2_WORDS = [
         {
           "word": "gießen",
           "meaning": "Za vodu / lit",
-          "example": "Ich gieße die Blumen. = Zalivam cveće."
+          "example": "Ich gieße die Blumen. = Es laistu puķes."
         },
         {
           "word": "einschenken",
           "meaning": "Sipajte piće",
-          "example": "Ich schenke Tee ein. = Sipam čaj."
+          "example": "Ich schenke Tee ein. = Es ieleju tēju."
         },
         {
           "word": "regnen",
           "meaning": "Padati kiša",
-          "example": "Es regnet. = Pada kiša."
+          "example": "Es regnet. = Līst."
         },
         {
           "word": "schütten",
           "meaning": "Sipati / sipati brzo",
-          "example": "Er schüttet Wasser aus. = On sipa vodu."
+          "example": "Er schüttet Wasser aus. = Viņš izlej ūdeni."
         }
       ],
       "tip": [
@@ -36148,27 +36148,27 @@ const A2_WORDS = [
         {
           "word": "der Grund",
           "meaning": "Razlog / temelj / dno / dno",
-          "example": "Aus diesem Grund komme ich nicht. = Iz tog razloga neću doći."
+          "example": "Aus diesem Grund komme ich nicht. = Šī iemesla dēļ es nenākšu."
         },
         {
           "word": "die Ursache",
           "meaning": "Uzrok",
-          "example": "Die Ursache ist unbekannt. = Uzrok je nepoznat."
+          "example": "Die Ursache ist unbekannt. = Cēlonis nav zināms."
         },
         {
           "word": "der Anlass",
           "meaning": "Razlog/osnova događaja",
-          "example": "Der Anlass war ein Fest. = Razlog je bio odmor."
+          "example": "Der Anlass war ein Fest. = Iemesls bija svētki."
         },
         {
           "word": "der Boden",
           "meaning": "Prizemlje/kat",
-          "example": "Der Boden ist nass. = Pod je mokar."
+          "example": "Der Boden ist nass. = Grīda ir slapja."
         },
         {
           "word": "der Seegrund",
           "meaning": "Dnu jezera",
-          "example": "Der Seegrund ist dunkel. = Dno jezera je tamno."
+          "example": "Der Seegrund ist dunkel. = Ezera dibens ir tumšs."
         }
       ],
       "tip": {
@@ -36762,22 +36762,22 @@ const A2_WORDS = [
         {
           "word": "hängen",
           "meaning": "Visiti / vješati",
-          "example": "Das Bild hängt an der Wand. = Slika visi na zidu."
+          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
         },
         {
           "word": "stellen",
           "meaning": "Uspravno",
-          "example": "Ich stelle die Flasche auf den Tisch. = Stavio sam bocu na sto."
+          "example": "Ich stelle die Flasche auf den Tisch. = Es nolieku pudeli uz galda."
         },
         {
           "word": "legen",
           "meaning": "Da legne",
-          "example": "Ich lege das Buch auf den Tisch. = Stavio sam knjigu na sto."
+          "example": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
         },
         {
           "word": "an die Wand hängen",
           "meaning": "Okačiti na zid",
-          "example": "Wir hängen das Bild an die Wand. = Kačimo sliku na zid."
+          "example": "Wir hängen das Bild an die Wand. = Mēs piekaram attēlu pie sienas."
         }
       ],
       "tip": [
@@ -37965,22 +37965,22 @@ const A2_WORDS = [
         {
           "word": "indem",
           "meaning": "Time što / radeći nešto",
-          "example": "Ich lerne, indem ich übe. = Učim vježbajući."
+          "example": "Ich lerne, indem ich übe. = Es mācos, trenējoties."
         },
         {
           "word": "während",
           "meaning": "Dok / tokom kada",
-          "example": "Während ich koche, höre ich Musik. = Dok kuham, slušam muziku."
+          "example": "Während ich koche, höre ich Musik. = Kamēr es gatavoju, klausos mūziku."
         },
         {
           "word": "damit",
           "meaning": "Da",
-          "example": "Ich lerne, damit ich die Prüfung bestehe. = Učim da položim ispit."
+          "example": "Ich lerne, damit ich die Prüfung bestehe. = Es mācos, lai nokārtotu eksāmenu."
         },
         {
           "word": "weil",
           "meaning": "Jer",
-          "example": "Ich lerne, weil ich Deutsch brauche. = Učim jer mi je potreban njemački jezik."
+          "example": "Ich lerne, weil ich Deutsch brauche. = Es mācos, jo man vajag vācu valodu."
         }
       ],
       "tip": [
@@ -39143,22 +39143,22 @@ const A2_WORDS = [
         {
           "word": "kaum",
           "meaning": "Jedva/jedva",
-          "example": "Ich habe kaum Zeit. = Jedva imam vremena."
+          "example": "Ich habe kaum Zeit. = Man gandrīz nav laika."
         },
         {
           "word": "fast",
           "meaning": "Skoro",
-          "example": "Ich bin fast fertig. = Skoro sam spreman."
+          "example": "Ich bin fast fertig. = Es gandrīz esmu gatavs."
         },
         {
           "word": "gerade",
           "meaning": "Samo / trenutno",
-          "example": "Ich bin gerade angekommen. = Upravo sam stigao."
+          "example": "Ich bin gerade angekommen. = Es tikko ierados."
         },
         {
           "word": "sobald",
           "meaning": "Čim",
-          "example": "Sobald ich Zeit habe, rufe ich dich an. = Čim budem imao vremena, nazvat ću te."
+          "example": "Sobald ich Zeit habe, rufe ich dich an. = Tiklīdz man būs laiks, es tev piezvanīšu."
         }
       ],
       "tip": [
@@ -40625,27 +40625,27 @@ const A2_WORDS = [
         {
           "word": "kleiden",
           "meaning": "Odjenuti",
-          "example": "Sie kleidet das Kind. = Ona oblači dijete."
+          "example": "Sie kleidet das Kind. = Viņa apģērbj bērnu."
         },
         {
           "word": "sich kleiden",
           "meaning": "Obuci se",
-          "example": "Er kleidet sich elegant. = On se oblači elegantno."
+          "example": "Er kleidet sich elegant. = Viņš ģērbjas eleganti."
         },
         {
           "word": "kleidet jemanden",
           "meaning": "Nekome odgovara",
-          "example": "Die Farbe kleidet dich. = Boja vam odgovara."
+          "example": "Die Farbe kleidet dich. = Krāsa tev piestāv."
         },
         {
           "word": "anziehen",
           "meaning": "Obući / obući se",
-          "example": "Ich ziehe die Jacke an. = Obukao sam jaknu."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
           "word": "tragen",
           "meaning": "Nositi",
-          "example": "Sie trägt ein Kleid. = Ona nosi haljinu."
+          "example": "Sie trägt ein Kleid. = Viņa valkā kleitu."
         }
       ],
       "tip": {
@@ -41841,27 +41841,27 @@ const A2_WORDS = [
         {
           "word": "kurz",
           "meaning": "Kratko / na kratko",
-          "example": "Der Text ist kurz. = Tekst je kratak."
+          "example": "Der Text ist kurz. = Teksts ir īss."
         },
         {
           "word": "kurz vor",
           "meaning": "Malo prije",
-          "example": "kurz vor acht = Malo prije osam"
+          "example": "kurz vor acht = īsi pirms astoņiem"
         },
         {
           "word": "kurz nach",
           "meaning": "Ubrzo nakon toga",
-          "example": "kurz nach dem Essen = Ubrzo nakon jela"
+          "example": "kurz nach dem Essen = īsi pēc ēšanas"
         },
         {
           "word": "bald",
           "meaning": "Uskoro",
-          "example": "Ich komme bald. = Doći ću uskoro."
+          "example": "Ich komme bald. = Es drīz nākšu."
         },
         {
           "word": "lang",
           "meaning": "Dugo / dugo",
-          "example": "Der Weg ist lang. = Put je dug."
+          "example": "Der Weg ist lang. = Ceļš ir garš."
         }
       ],
       "tip": [
@@ -42171,22 +42171,22 @@ const A2_WORDS = [
         {
           "word": "die Lage",
           "meaning": "Situacija / stanje",
-          "example": "Die Lage ist schwierig. = Situacija je komplikovana."
+          "example": "Die Lage ist schwierig. = Situācija ir sarežģīta."
         },
         {
           "word": "die Situation",
           "meaning": "Situaciju",
-          "example": "Die Situation ist ernst. = Situacija je ozbiljna."
+          "example": "Die Situation ist ernst. = Situācija ir nopietna."
         },
         {
           "word": "der Standort",
           "meaning": "Lokacija",
-          "example": "Der Standort ist gut. = Lokacija je dobra."
+          "example": "Der Standort ist gut. = Atrašanās vieta ir laba."
         },
         {
           "word": "die Schicht",
           "meaning": "Sloj / sloj",
-          "example": "eine Schicht Farbe = Jedan sloj farbe"
+          "example": "eine Schicht Farbe = viena krāsas kārta"
         }
       ],
       "tip": [
@@ -42603,27 +42603,27 @@ const A2_WORDS = [
         {
           "word": "leiden",
           "meaning": "Patiti",
-          "example": "Er leidet an Kopfschmerzen. = On pati od glavobolja."
+          "example": "Er leidet an Kopfschmerzen. = Viņš cieš no galvassāpēm."
         },
         {
           "word": "an etwas leiden",
           "meaning": "Patiti od / patiti od",
-          "example": "Sie leidet an Asthma. = Ona pati od astme."
+          "example": "Sie leidet an Asthma. = Viņa slimo ar astmu."
         },
         {
           "word": "unter etwas leiden",
           "meaning": "Pate od okolnosti",
-          "example": "Wir leiden unter der Hitze. = Patimo od vrućine."
+          "example": "Wir leiden unter der Hitze. = Mēs ciešam no karstuma."
         },
         {
           "word": "nicht leiden können",
           "meaning": "Ne mogu tolerisati",
-          "example": "Ich kann das nicht leiden. = Ne mogu to podnijeti."
+          "example": "Ich kann das nicht leiden. = Es to nevaru paciest."
         },
         {
           "word": "krank sein",
           "meaning": "Biti bolestan",
-          "example": "Er ist krank. = On je bolestan."
+          "example": "Er ist krank. = Viņš ir slims."
         }
       ],
       "tip": [
@@ -42914,22 +42914,22 @@ const A2_WORDS = [
         {
           "word": "leihen",
           "meaning": "Posuditi / posuditi",
-          "example": "Leihst du mir den Stift? = Hoćeš li mi posuditi hemijsku olovku?"
+          "example": "Leihst du mir den Stift? = Vai aizdosi man pildspalvu?"
         },
         {
           "word": "borgen",
           "meaning": "Posuditi / posuditi",
-          "example": "Ich borge mir Geld. = Pozajmljujem novac."
+          "example": "Ich borge mir Geld. = Es aizņemos naudu."
         },
         {
           "word": "mieten",
           "meaning": "Najam / zakup uz naknadu",
-          "example": "Wir mieten ein Auto. = Iznajmljujemo auto."
+          "example": "Wir mieten ein Auto. = Mēs īrējam mašīnu."
         },
         {
           "word": "kaufen",
           "meaning": "Kupiti",
-          "example": "Ich kaufe das Buch. = Kupujem knjigu."
+          "example": "Ich kaufe das Buch. = Es pērku grāmatu."
         }
       ],
       "tip": {
@@ -43301,12 +43301,12 @@ const A2_WORDS = [
         {
           "word": "der Leiter",
           "meaning": "Voditelj",
-          "example": "Der Leiter der Firma. = Rukovodilac preduzeća. Množina: die Leiter."
+          "example": "Der Leiter der Firma. = Uzņēmuma vadītājs. Plural: die Leiter."
         },
         {
           "word": "die Leiter",
           "meaning": "Penjanje stepenicama",
-          "example": "Ich steige auf die Leiter. = Penjem se na ljestve. Množina: die Leitern."
+          "example": "Ich steige auf die Leiter. = Es kāpju uz kāpnēm. Plural: die Leitern."
         },
         {
           "word": "der Abteilungsleiter",
@@ -43456,27 +43456,27 @@ const A2_WORDS = [
         {
           "word": "die Leitung",
           "meaning": "Rukovodstvo / linija / vod / cijev",
-          "example": "Die Leitung ist kaputt. = Linija je prekinuta."
+          "example": "Die Leitung ist kaputt. = Līnija ir bojāta."
         },
         {
           "word": "die Führung",
           "meaning": "Upravljanje",
-          "example": "Unter ihrer Führung läuft alles gut. = Sve ide dobro pod njenim vodstvom."
+          "example": "Unter ihrer Führung läuft alles gut. = Viņas vadībā viss norit labi."
         },
         {
           "word": "das Kabel",
           "meaning": "Kabl / žica",
-          "example": "Das Kabel ist zu kurz. = Kabl je prekratak."
+          "example": "Das Kabel ist zu kurz. = Kabelis ir par īsu."
         },
         {
           "word": "die Telefonleitung",
           "meaning": "Telefonska linija",
-          "example": "Die Telefonleitung ist frei. = Telefonska linija je besplatna."
+          "example": "Die Telefonleitung ist frei. = Telefona līnija ir brīva."
         },
         {
           "word": "die Wasserleitung",
           "meaning": "Vodovodna cijev",
-          "example": "Die Wasserleitung tropft. = Vodovodna cijev kaplje."
+          "example": "Die Wasserleitung tropft. = Ūdens caurule pil."
         }
       ],
       "tip": {
@@ -44729,27 +44729,27 @@ const A2_WORDS = [
         {
           "word": "merken",
           "meaning": "Primetiti",
-          "example": "Ich merke den Fehler. = Primjećujem grešku."
+          "example": "Ich merke den Fehler. = Es pamanu kļūdu."
         },
         {
           "word": "sich merken",
           "meaning": "Zapamtiti",
-          "example": "Merk dir das! = Zapamtite to!"
+          "example": "Merk dir das! = Iegaumē to!"
         },
         {
           "word": "bemerken",
           "meaning": "Primetiti / posmatrati",
-          "example": "Ich bemerke den Fehler. = Primjećujem grešku."
+          "example": "Ich bemerke den Fehler. = Es pamanu kļūdu."
         },
         {
           "word": "erinnern",
           "meaning": "Zapamtiti / podsjetiti",
-          "example": "Ich erinnere mich. = Sjećam se."
+          "example": "Ich erinnere mich. = Es atceros."
         },
         {
           "word": "behalten",
           "meaning": "Zadržati / sjetiti se",
-          "example": "Ich behalte die Nummer. = Imam broj na umu."
+          "example": "Ich behalte die Nummer. = Es paturu numuru prātā."
         }
       ],
       "tip": [
@@ -45139,27 +45139,27 @@ const A2_WORDS = [
         {
           "word": "das Mittel",
           "meaning": "Lijek",
-          "example": "ein Mittel gegen Husten = Sredstvo protiv kašlja"
+          "example": "ein Mittel gegen Husten = līdzeklis pret klepu"
         },
         {
           "word": "das Medikament",
           "meaning": "Lijek / lijek",
-          "example": "Das Medikament hilft. = Lijek pomaže."
+          "example": "Das Medikament hilft. = Medikaments palīdz."
         },
         {
           "word": "die Methode",
           "meaning": "Metoda",
-          "example": "Diese Methode ist einfach. = Ova metoda je jednostavna."
+          "example": "Diese Methode ist einfach. = Šī metode ir vienkārša."
         },
         {
           "word": "das Geld",
           "meaning": "Novac",
-          "example": "Wir haben kein Geld. = Nemamo novca."
+          "example": "Wir haben kein Geld. = Mums nav naudas."
         },
         {
           "word": "die Mittel",
           "meaning": "Sredstva / sredstva",
-          "example": "finanzielle Mittel = Finansijskim sredstvima"
+          "example": "finanzielle Mittel = finanšu līdzekļi"
         }
       ],
       "tip": [
@@ -46156,27 +46156,27 @@ const A2_WORDS = [
         {
           "word": "die Note",
           "meaning": "Oznaka / nota / prizvuk",
-          "example": "Ich bekomme eine Note. = Dobio sam ocjenu."
+          "example": "Ich bekomme eine Note. = Es saņemu atzīmi."
         },
         {
           "word": "die Schulnote",
           "meaning": "Školska ocjena",
-          "example": "Die Schulnote ist gut. = Školska ocjena je dobra."
+          "example": "Die Schulnote ist gut. = Skolas atzīme ir laba."
         },
         {
           "word": "die Musiknote",
           "meaning": "Muzička nota",
-          "example": "Die Musiknote ist hoch. = Muzička nota je visoka."
+          "example": "Die Musiknote ist hoch. = Mūzikas nots ir augsta."
         },
         {
           "word": "die Banknote",
           "meaning": "Novčanica",
-          "example": "Die Banknote ist neu. = Novčanica je nova."
+          "example": "Die Banknote ist neu. = Banknote ir jauna."
         },
         {
           "word": "der Ton",
           "meaning": "Ton / zvuk",
-          "example": "Der Ton ist leise. = Ton je tih."
+          "example": "Der Ton ist leise. = Tonis ir kluss."
         }
       ],
       "tip": {
@@ -46688,22 +46688,22 @@ const A2_WORDS = [
         {
           "word": "nutzen",
           "meaning": "Koristiti / imati koristi od",
-          "example": "Ich nutze die Zeit. = Ja koristim vrijeme."
+          "example": "Ich nutze die Zeit. = Es izmantoju laiku."
         },
         {
           "word": "benutzen",
           "meaning": "Koristiti",
-          "example": "Ich benutze den Computer. = Koristim kompjuter."
+          "example": "Ich benutze den Computer. = Es lietoju datoru."
         },
         {
           "word": "verwenden",
           "meaning": "Koristiti / primijeniti",
-          "example": "Wir verwenden dieses Wort. = Koristimo ovu riječ."
+          "example": "Wir verwenden dieses Wort. = Mēs izmantojam šo vārdu."
         },
         {
           "word": "die Chance nutzen",
           "meaning": "Iskoristi priliku",
-          "example": "Nutze die Chance! = Iskoristite priliku!"
+          "example": "Nutze die Chance! = Izmanto iespēju!"
         }
       ],
       "tip": [
@@ -47028,22 +47028,22 @@ const A2_WORDS = [
         {
           "word": "offen",
           "meaning": "Otvoreni / otvoreni",
-          "example": "Die Tür ist offen. = Vrata su otvorena."
+          "example": "Die Tür ist offen. = Durvis ir vaļā."
         },
         {
           "word": "geöffnet",
           "meaning": "Zvanično otvoren",
-          "example": "Das Museum ist geöffnet. = Muzej je otvoren."
+          "example": "Das Museum ist geöffnet. = Muzejs ir atvērts."
         },
         {
           "word": "ehrlich",
           "meaning": "Pošten",
-          "example": "Er ist ehrlich. = On je pošten."
+          "example": "Er ist ehrlich. = Viņš ir godīgs."
         },
         {
           "word": "frei",
           "meaning": "Besplatno",
-          "example": "Der Platz ist frei. = Mjesto je besplatno."
+          "example": "Der Platz ist frei. = Vieta ir brīva."
         }
       ],
       "tip": [
@@ -47692,17 +47692,17 @@ const A2_WORDS = [
         {
           "word": "der Patient",
           "meaning": "Pacijent (m.)",
-          "example": "Der Patient ist krank. = Pacijent je bolestan."
+          "example": "Der Patient ist krank. = Pacients ir slims."
         },
         {
           "word": "die Patientin",
           "meaning": "Pacijent",
-          "example": "Die Patientin ruht sich aus. = Pacijent se odmara."
+          "example": "Die Patientin ruht sich aus. = Paciente atpūšas."
         },
         {
           "word": "der Kranke",
           "meaning": "Bolesna osoba",
-          "example": "Der Kranke liegt im Bett. = Bolesnik leži u krevetu."
+          "example": "Der Kranke liegt im Bett. = Slimnieks guļ gultā."
         }
       ],
       "tip": {
@@ -47812,17 +47812,17 @@ const A2_WORDS = [
         {
           "word": "das Personal",
           "meaning": "Osoblje (ukupno)",
-          "example": "Das Personal hilft. = Osoblje je od pomoći."
+          "example": "Das Personal hilft. = Personāls palīdz."
         },
         {
           "word": "der Mitarbeiter",
           "meaning": "Zaposlenik",
-          "example": "Der Mitarbeiter arbeitet hier. = Ovdje radi jedan zaposlenik."
+          "example": "Der Mitarbeiter arbeitet hier. = Darbinieks šeit strādā."
         },
         {
           "word": "persönlich",
           "meaning": "Ličan",
-          "example": "Das ist persönlich. = To je lično."
+          "example": "Das ist persönlich. = Tas ir personīgi."
         }
       ],
       "tip": {
@@ -49779,27 +49779,27 @@ const A2_WORDS = [
         {
           "word": "riechen",
           "meaning": "Mirisati",
-          "example": "Die Blumen riechen gut. = Cvijeće lijepo miriše."
+          "example": "Die Blumen riechen gut. = Ziedi labi smaržo."
         },
         {
           "word": "an etwas riechen",
           "meaning": "Mirisati nešto",
-          "example": "Der Hund riecht an der Tasche. = Pseća luka u Finskoj."
+          "example": "Der Hund riecht an der Tasche. = Suns osta somu."
         },
         {
           "word": "nach etwas riechen",
           "meaning": "Mirisati na nešto",
-          "example": "Es riecht nach Kaffee. = Miriše na kafu."
+          "example": "Es riecht nach Kaffee. = Smaržo pēc kafijas."
         },
         {
           "word": "duften",
           "meaning": "Prijatnog mirisa",
-          "example": "Die Blumen duften. = Cvijeće miriše."
+          "example": "Die Blumen duften. = Ziedi smaržo."
         },
         {
           "word": "stinken",
           "meaning": "Mirisati",
-          "example": "Der Müll stinkt. = Smeće smrdi."
+          "example": "Der Müll stinkt. = Atkritumi smird."
         }
       ],
       "tip": [
@@ -50164,27 +50164,27 @@ const A2_WORDS = [
         {
           "word": "die Rolle",
           "meaning": "Uloga / roll",
-          "example": "Sie spielt eine Rolle. = Ona igra ulogu."
+          "example": "Sie spielt eine Rolle. = Viņa spēlē lomu."
         },
         {
           "word": "die Hauptrolle",
           "meaning": "Glavnu ulogu",
-          "example": "Er hat die Hauptrolle. = On ima glavnu ulogu."
+          "example": "Er hat die Hauptrolle. = Viņam ir galvenā loma."
         },
         {
           "word": "die Papierrolle",
           "meaning": "Rolna papira",
-          "example": "Ich kaufe eine Papierrolle. = Kupujem rolnu papira."
+          "example": "Ich kaufe eine Papierrolle. = Es pērku papīra rulli."
         },
         {
           "word": "die Bedeutung",
           "meaning": "Značenje",
-          "example": "Das hat keine Bedeutung. = Nije bitno."
+          "example": "Das hat keine Bedeutung. = Tam nav nozīmes."
         },
         {
           "word": "der Teil",
           "meaning": "Dio",
-          "example": "Das ist ein Teil der Arbeit. = To je dio posla."
+          "example": "Das ist ein Teil der Arbeit. = Tā ir daļa no darba."
         }
       ],
       "tip": {
@@ -50706,22 +50706,22 @@ const A2_WORDS = [
         {
           "word": "sammeln",
           "meaning": "Sakupljati / akumulirati",
-          "example": "Briefmarken sammeln = Skupljati markice"
+          "example": "Briefmarken sammeln = krāt pastmarkas"
         },
         {
           "word": "sich sammeln",
           "meaning": "Okupiti se / sabrati se",
-          "example": "Die Schüler sammeln sich. = Studenti se okupljaju."
+          "example": "Die Schüler sammeln sich. = Skolēni sapulcējas."
         },
         {
           "word": "holen",
           "meaning": "Idi za / dohvati",
-          "example": "Ich hole Wasser. = Donio sam vodu."
+          "example": "Ich hole Wasser. = Es atnesu ūdeni."
         },
         {
           "word": "aufheben",
           "meaning": "Podići / spasiti",
-          "example": "Ich hebe den Zettel auf. = Podižem ceduljicu."
+          "example": "Ich hebe den Zettel auf. = Es paceļu zīmīti."
         }
       ],
       "tip": [
@@ -51052,27 +51052,27 @@ const A2_WORDS = [
         {
           "word": "der Satz",
           "meaning": "Rečenica / komplet / stopa / skok",
-          "example": "Der Satz ist kurz. = Rečenica je kratka."
+          "example": "Der Satz ist kurz. = Teikums ir īss."
         },
         {
           "word": "der deutsche Satz",
           "meaning": "Njemačka rečenica",
-          "example": "Der deutsche Satz ist richtig. = Njemačka rečenica je ispravna."
+          "example": "Der deutsche Satz ist richtig. = Vācu teikums ir pareizs."
         },
         {
           "word": "der Satz Reifen",
           "meaning": "Set guma",
-          "example": "Ein Satz Reifen ist teuer. = Komplet guma je skup."
+          "example": "Ein Satz Reifen ist teuer. = Riepu komplekts ir dārgs."
         },
         {
           "word": "der Zinssatz",
           "meaning": "Kamatna stopa",
-          "example": "Der Zinssatz steigt. = Kamatna stopa raste."
+          "example": "Der Zinssatz steigt. = Procentu likme pieaug."
         },
         {
           "word": "der Kaffeesatz",
           "meaning": "Talog/talog kafe",
-          "example": "Der Kaffeesatz bleibt im Glas. = Talog od kafe ostaje u čaši."
+          "example": "Der Kaffeesatz bleibt im Glas. = Kafijas biezumi paliek glāzē."
         }
       ],
       "tip": {
@@ -52053,22 +52053,22 @@ const A2_WORDS = [
         {
           "word": "scheinen",
           "meaning": "Sjaj / izgleda",
-          "example": "Die Sonne scheint. = Sunce sija."
+          "example": "Die Sonne scheint. = Saule spīd."
         },
         {
           "word": "aussehen",
           "meaning": "Pogledati",
-          "example": "Du siehst müde aus. = Izgledaš umoran."
+          "example": "Du siehst müde aus. = Tu izskaties noguris."
         },
         {
           "word": "wirken",
           "meaning": "Ostaviti utisak",
-          "example": "Er wirkt ruhig. = Izgleda miran."
+          "example": "Er wirkt ruhig. = Viņš šķiet mierīgs."
         },
         {
           "word": "leuchten",
           "meaning": "Sjaj / sjaj",
-          "example": "Die Lampe leuchtet. = Lampa sija."
+          "example": "Die Lampe leuchtet. = Lampa spīd."
         }
       ],
       "tip": {
@@ -52476,22 +52476,22 @@ const A2_WORDS = [
         {
           "word": "die Schlange",
           "meaning": "Zmija / linija",
-          "example": "Die Schlange ist lang. = Red je dug."
+          "example": "Die Schlange ist lang. = Rinda ir gara."
         },
         {
           "word": "die Warteschlange",
           "meaning": "Red čekanja",
-          "example": "Die Warteschlange ist lang. = Red čekanja je dug."
+          "example": "Die Warteschlange ist lang. = Gaidīšanas rinda ir gara."
         },
         {
           "word": "die Reihe",
           "meaning": "Red / niz",
-          "example": "Die Stühle stehen in einer Reihe. = Stolice su poređane."
+          "example": "Die Stühle stehen in einer Reihe. = Krēsli stāv rindā."
         },
         {
           "word": "das Reptil",
           "meaning": "Reptila",
-          "example": "Eine Schlange ist ein Reptil. = Zmija je reptil."
+          "example": "Eine Schlange ist ein Reptil. = Čūska ir rāpulis."
         }
       ],
       "tip": {
@@ -52875,22 +52875,22 @@ const A2_WORDS = [
         {
           "word": "schließen",
           "meaning": "Zatvoriti / zaključati / zaključiti",
-          "example": "Ich schließe die Tür. = Zatvorim vrata."
+          "example": "Ich schließe die Tür. = Es aizveru durvis."
         },
         {
           "word": "abschließen",
           "meaning": "Zaključati / završiti",
-          "example": "Ich schließe die Tür ab. = Ja zaključavam vrata."
+          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
         },
         {
           "word": "zumachen",
           "meaning": "Zatvoriti (kolokvijalno)",
-          "example": "Mach das Fenster zu. = Zatvori prozor."
+          "example": "Mach das Fenster zu. = Aiztaisi logu."
         },
         {
           "word": "folgern",
           "meaning": "Zaključiti",
-          "example": "Daraus folgere ich etwas. = Iz toga nešto zaključujem."
+          "example": "Daraus folgere ich etwas. = No tā es kaut ko secinu."
         }
       ],
       "tip": {
@@ -53284,27 +53284,27 @@ const A2_WORDS = [
         {
           "word": "das Schloss",
           "meaning": "Dvorac / brava",
-          "example": "Das Schloss ist alt. = Dvorac je star."
+          "example": "Das Schloss ist alt. = Pils ir veca."
         },
         {
           "word": "die Burg",
           "meaning": "Tvrđava / dvorac",
-          "example": "Die Burg steht auf dem Berg. = Dvorac stoji na brdu."
+          "example": "Die Burg steht auf dem Berg. = Pils stāv kalnā."
         },
         {
           "word": "das Türschloss",
           "meaning": "Brava vrata",
-          "example": "Das Türschloss ist kaputt. = Brava na vratima je pokvarena."
+          "example": "Das Türschloss ist kaputt. = Durvju slēdzene ir salūzusi."
         },
         {
           "word": "das Fahrradschloss",
           "meaning": "Brava za bicikl",
-          "example": "Ich kaufe ein Fahrradschloss. = Kupujem bravu za bicikl."
+          "example": "Ich kaufe ein Fahrradschloss. = Es pērku velosipēda slēdzeni."
         },
         {
           "word": "der Schlüssel",
           "meaning": "Ključ",
-          "example": "Der Schlüssel ist weg. = Ključ je nestao."
+          "example": "Der Schlüssel ist weg. = Atslēga ir pazudusi."
         }
       ],
       "tip": {
@@ -53856,27 +53856,27 @@ const A2_WORDS = [
         {
           "word": "die Schuld",
           "meaning": "Krivica/odgovornost",
-          "example": "Das ist meine Schuld. = Ja sam kriv."
+          "example": "Das ist meine Schuld. = Tā ir mana vaina."
         },
         {
           "word": "die Schulden",
           "meaning": "Dug",
-          "example": "Er hat Schulden. = Ima dugove."
+          "example": "Er hat Schulden. = Viņam ir parādi."
         },
         {
           "word": "die Verantwortung",
           "meaning": "Odgovornost",
-          "example": "Ich trage Verantwortung. = Ja snosim odgovornost."
+          "example": "Ich trage Verantwortung. = Es nesu atbildību."
         },
         {
           "word": "der Fehler",
           "meaning": "Greška",
-          "example": "Das war ein Fehler. = To je bila greška."
+          "example": "Das war ein Fehler. = Tā bija kļūda."
         },
         {
           "word": "schuld sein",
           "meaning": "Biti kriv",
-          "example": "Ich bin schuld. = Ja sam kriv."
+          "example": "Ich bin schuld. = Es esmu vainīgs."
         }
       ],
       "tip": {
@@ -54626,27 +54626,27 @@ const A2_WORDS = [
         {
           "word": "sich befinden",
           "meaning": "Biti lociran",
-          "example": "Das Büro befindet sich im zweiten Stock. = Ured je na drugom spratu."
+          "example": "Das Büro befindet sich im zweiten Stock. = Birojs atrodas otrajā stāvā."
         },
         {
           "word": "sein",
           "meaning": "Biti / biti",
-          "example": "Das Büro ist oben. = Ured je na spratu."
+          "example": "Das Büro ist oben. = Birojs ir augšā."
         },
         {
           "word": "liegen",
           "meaning": "Biti / spavati",
-          "example": "Das Buch liegt auf dem Tisch. = Knjiga je na stolu."
+          "example": "Das Buch liegt auf dem Tisch. = Grāmata atrodas uz galda."
         },
         {
           "word": "stehen",
           "meaning": "Stajati / biti",
-          "example": "Das Auto steht vor dem Haus. = Auto je parkiran kod kuće."
+          "example": "Das Auto steht vor dem Haus. = Auto stāv pie mājas."
         },
         {
           "word": "sich fühlen",
           "meaning": "Osetiti",
-          "example": "Ich fühle mich gut. = Osećam se dobro."
+          "example": "Ich fühle mich gut. = Es jūtos labi."
         }
       ],
       "tip": {
@@ -55030,22 +55030,22 @@ const A2_WORDS = [
         {
           "word": "sich unterhalten",
           "meaning": "Razgovarati / zabaviti se",
-          "example": "Wir unterhalten uns. = Razgovaramo."
+          "example": "Wir unterhalten uns. = Mēs sarunājamies."
         },
         {
           "word": "sprechen",
           "meaning": "Govoriti",
-          "example": "Ich spreche Deutsch. = Govorim njemački."
+          "example": "Ich spreche Deutsch. = Es runāju vāciski."
         },
         {
           "word": "reden",
           "meaning": "Razgovarati / razgovarati",
-          "example": "Wir reden viel. = Mi mnogo razgovaramo."
+          "example": "Wir reden viel. = Mēs daudz runājam."
         },
         {
           "word": "sich amüsieren",
           "meaning": "Zabavite se",
-          "example": "Wir amüsieren uns. = Zabavljamo se."
+          "example": "Wir amüsieren uns. = Mēs izklaidējamies."
         }
       ],
       "tip": {
@@ -55721,27 +55721,27 @@ const A2_WORDS = [
         {
           "word": "sobald",
           "meaning": "Čim / čim se",
-          "example": "Sobald er kommt, gehen wir. = Čim on dođe, mi ćemo ići."
+          "example": "Sobald er kommt, gehen wir. = Tiklīdz viņš atnāks, mēs iesim."
         },
         {
           "word": "wenn",
           "meaning": "Kada / ako",
-          "example": "Wenn ich Zeit habe, komme ich. = Ako budem imao vremena, doći ću."
+          "example": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu."
         },
         {
           "word": "als",
           "meaning": "Kad (jednom u prošlosti)",
-          "example": "Als ich Kind war, spielte ich viel. = Kada sam bio dete, mnogo sam se igrao."
+          "example": "Als ich Kind war, spielte ich viel. = Kad biju bērns, daudz spēlējos."
         },
         {
           "word": "bis",
           "meaning": "Do",
-          "example": "Ich warte, bis du kommst. = Čekam dok ne dođeš."
+          "example": "Ich warte, bis du kommst. = Es gaidu, līdz tu atnāksi."
         },
         {
           "word": "nachdem",
           "meaning": "Nakon kada",
-          "example": "Nachdem ich gegessen habe, gehe ich. = Nakon što pojedem, idem."
+          "example": "Nachdem ich gegessen habe, gehe ich. = Pēc tam kad paēdu, es eju."
         }
       ],
       "tip": {
@@ -56218,27 +56218,27 @@ const A2_WORDS = [
         {
           "word": "sonst",
           "meaning": "Inače / u suprotnom slučaju / obično",
-          "example": "Komm jetzt, sonst ist es zu spät. = Dođi sada, ili će biti prekasno."
+          "example": "Komm jetzt, sonst ist es zu spät. = Nāc tagad, citādi būs par vēlu."
         },
         {
           "word": "ansonsten",
           "meaning": "Inače / u ostalom pogledu",
-          "example": "Ansonsten ist alles gut. = Inače je sve u redu."
+          "example": "Ansonsten ist alles gut. = Citādi viss ir labi."
         },
         {
           "word": "andernfalls",
           "meaning": "U suprotnom",
-          "example": "Andernfalls rufe ich an. = U suprotnom, zvaću."
+          "example": "Andernfalls rufe ich an. = Pretējā gadījumā es zvanīšu."
         },
         {
           "word": "normalerweise",
           "meaning": "Obično",
-          "example": "Normalerweise bin ich zu Hause. = Obično sam kod kuće."
+          "example": "Normalerweise bin ich zu Hause. = Parasti es esmu mājās."
         },
         {
           "word": "außerdem",
           "meaning": "Pored toga / pored toga",
-          "example": "Außerdem ist es teuer. = Osim toga, skupo je."
+          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
         }
       ],
       "tip": {
@@ -57128,27 +57128,27 @@ const A2_WORDS = [
         {
           "word": "steigen",
           "meaning": "Uspon / uspon / uspon",
-          "example": "Die Preise steigen. = Cijene rastu."
+          "example": "Die Preise steigen. = Cenas ceļas."
         },
         {
           "word": "einsteigen",
           "meaning": "Ući u transport",
-          "example": "Ich steige in den Bus ein. = Ulazim u autobus."
+          "example": "Ich steige in den Bus ein. = Es iekāpju autobusā."
         },
         {
           "word": "aussteigen",
           "meaning": "Siđi sa transporta",
-          "example": "Ich steige aus. = Izlazim."
+          "example": "Ich steige aus. = Es izkāpju."
         },
         {
           "word": "aufstehen",
           "meaning": "Ustani",
-          "example": "Ich stehe um sieben auf. = Ustajem u sedam."
+          "example": "Ich stehe um sieben auf. = Es pieceļos septiņos."
         },
         {
           "word": "klettern",
           "meaning": "Penjati se / penjati se s naporom",
-          "example": "Das Kind klettert auf den Baum. = Dijete se penje na drvo."
+          "example": "Das Kind klettert auf den Baum. = Bērns rāpjas kokā."
         }
       ],
       "tip": {
@@ -57520,27 +57520,27 @@ const A2_WORDS = [
         {
           "word": "die Stelle",
           "meaning": "Mjesto / radno mjesto / fragment",
-          "example": "Ich suche eine Stelle. = Tražim radno mjesto."
+          "example": "Ich suche eine Stelle. = Es meklēju darba vietu."
         },
         {
           "word": "der Ort",
           "meaning": "Mjesto / naselje",
-          "example": "Der Ort ist schön. = Mjesto je prekrasno."
+          "example": "Der Ort ist schön. = Vieta ir skaista."
         },
         {
           "word": "der Arbeitsplatz",
           "meaning": "Radno mjesto",
-          "example": "Mein Arbeitsplatz ist ruhig. = Moje radno mjesto je tiho."
+          "example": "Mein Arbeitsplatz ist ruhig. = Mana darba vieta ir klusa."
         },
         {
           "word": "die Textstelle",
           "meaning": "Tekstualni prostor / fragment",
-          "example": "Diese Textstelle ist wichtig. = Ovaj odlomak teksta je važan."
+          "example": "Diese Textstelle ist wichtig. = Šis teksta fragments ir svarīgs."
         },
         {
           "word": "die Wunde",
           "meaning": "Ranu",
-          "example": "Die Wunde tut weh. = Rana boli."
+          "example": "Die Wunde tut weh. = Brūce sāp."
         }
       ],
       "tip": {
@@ -58006,27 +58006,27 @@ const A2_WORDS = [
         {
           "word": "stimmen",
           "meaning": "Poklapati se / biti tačno / glasati",
-          "example": "Das stimmt. = Tako je / to je tačno."
+          "example": "Das stimmt. = Tā ir / tas ir pareizi."
         },
         {
           "word": "zustimmen",
           "meaning": "Složiti se",
-          "example": "Ich stimme dir zu. = Slazem se sa tobom."
+          "example": "Ich stimme dir zu. = Es tev piekrītu."
         },
         {
           "word": "abstimmen",
           "meaning": "Glasati / uskladiti",
-          "example": "Wir stimmen darüber ab. = Mi glasamo za to."
+          "example": "Wir stimmen darüber ab. = Mēs par to balsojam."
         },
         {
           "word": "wählen",
           "meaning": "Izabrati / izabrati",
-          "example": "Wir wählen den Präsidenten. = Hoćemo predsednika."
+          "example": "Wir wählen den Präsidenten. = Mēs vēlējam prezidentu."
         },
         {
           "word": "passen",
           "meaning": "Fit / fit",
-          "example": "Die Farbe passt. = Boja odgovara."
+          "example": "Die Farbe passt. = Krāsa piestāv."
         }
       ],
       "tip": {
@@ -58407,27 +58407,27 @@ const A2_WORDS = [
         {
           "word": "der Stoff",
           "meaning": "Tkanina / supstanca / materijal",
-          "example": "Der Stoff ist weich. = Tkanina je mekana."
+          "example": "Der Stoff ist weich. = Audums ir mīksts."
         },
         {
           "word": "das Material",
           "meaning": "Materijal",
-          "example": "Das Material ist stabil. = Materijal je izdržljiv."
+          "example": "Das Material ist stabil. = Materiāls ir izturīgs."
         },
         {
           "word": "die Substanz",
           "meaning": "Supstance",
-          "example": "Die Substanz ist gefährlich. = Supstanca je opasna."
+          "example": "Die Substanz ist gefährlich. = Viela ir bīstama."
         },
         {
           "word": "der Unterrichtsstoff",
           "meaning": "Studijski materijal",
-          "example": "Der Unterrichtsstoff ist schwer. = Gradivo je teško."
+          "example": "Der Unterrichtsstoff ist schwer. = Mācību viela ir grūta."
         },
         {
           "word": "das Thema",
           "meaning": "Predmet",
-          "example": "Das Thema ist interessant. = Tema je zanimljiva."
+          "example": "Das Thema ist interessant. = Temats ir interesants."
         }
       ],
       "tip": {
@@ -58938,27 +58938,27 @@ const A2_WORDS = [
         {
           "word": "die Tafel",
           "meaning": "Tabla / ploča / tablica",
-          "example": "Der Lehrer schreibt an die Tafel. = Učitelj piše na tabli."
+          "example": "Der Lehrer schreibt an die Tafel. = Skolotājs raksta uz tāfeles."
         },
         {
           "word": "die Tabelle",
           "meaning": "Tabela sa podacima",
-          "example": "Die Tabelle steht im Buch. = Tabela je u knjizi."
+          "example": "Die Tabelle steht im Buch. = Tabula ir grāmatā."
         },
         {
           "word": "die Speisekarte",
           "meaning": "Meni",
-          "example": "Die Speisekarte liegt auf dem Tisch. = Jelovnik je na stolu."
+          "example": "Die Speisekarte liegt auf dem Tisch. = Ēdienkarte ir uz galda."
         },
         {
           "word": "das Schild",
           "meaning": "Znak / pločica",
-          "example": "Das Schild ist rot. = Znak je crven."
+          "example": "Das Schild ist rot. = Zīme ir sarkana."
         },
         {
           "word": "die Tafel Schokolade",
           "meaning": "Čokoladna pločica",
-          "example": "Eine Tafel Schokolade = Čokoladna pločica."
+          "example": "Eine Tafel Schokolade = šokolādes tāfelīte."
         }
       ],
       "tip": {
@@ -59410,27 +59410,27 @@ const A2_WORDS = [
         {
           "word": "das Teil",
           "meaning": "Dio / detalj / komad",
-          "example": "Ein Teil fehlt. = Jedan dio nedostaje."
+          "example": "Ein Teil fehlt. = Trūkst viena daļa."
         },
         {
           "word": "der Teil",
           "meaning": "Dio (gramatički odgovara)",
-          "example": "Der erste Teil ist leicht. = Prvi dio je lak."
+          "example": "Der erste Teil ist leicht. = Pirmā daļa ir viegla."
         },
         {
           "word": "das Ersatzteil",
           "meaning": "Rezervni dio",
-          "example": "Das Ersatzteil ist teuer. = Rezervni dio je skup."
+          "example": "Das Ersatzteil ist teuer. = Rezerves detaļa ir dārga."
         },
         {
           "word": "das Stück",
           "meaning": "Komad",
-          "example": "Ich nehme ein Stück Kuchen. = Uzimam komad torte."
+          "example": "Ich nehme ein Stück Kuchen. = Es ņemu kūkas gabalu."
         },
         {
           "word": "die Sache",
           "meaning": "Stvar / predmet",
-          "example": "Das ist eine gute Sache. = To je dobra stvar."
+          "example": "Das ist eine gute Sache. = Tā ir laba lieta."
         }
       ],
       "tip": {
@@ -59923,27 +59923,27 @@ const A2_WORDS = [
         {
           "word": "der Termin",
           "meaning": "Dogovoreno vrijeme / termin / rok",
-          "example": "Ich habe einen Termin. = Imam zakazano / termin."
+          "example": "Ich habe einen Termin. = Man ir pieraksts / norunāts laiks."
         },
         {
           "word": "das Treffen",
           "meaning": "Sastanak",
-          "example": "Das Treffen war nett. = Sastanak je bio lijep."
+          "example": "Das Treffen war nett. = Tikšanās bija jauka."
         },
         {
           "word": "die Frist",
           "meaning": "Rok do kojeg se nešto mora uraditi",
-          "example": "Die Frist endet morgen. = Rok je sutra."
+          "example": "Die Frist endet morgen. = Termiņš beidzas rīt."
         },
         {
           "word": "die Verabredung",
           "meaning": "Termin / dogovoreni sastanak",
-          "example": "Ich habe eine Verabredung. = Imam zakazano."
+          "example": "Ich habe eine Verabredung. = Man ir sarunāta tikšanās."
         },
         {
           "word": "der Zeitpunkt",
           "meaning": "Vremenska tačka",
-          "example": "Der Zeitpunkt ist wichtig. = Vremenska tačka je važna."
+          "example": "Der Zeitpunkt ist wichtig. = Laika punkts ir svarīgs."
         }
       ],
       "tip": {
@@ -60320,27 +60320,27 @@ const A2_WORDS = [
         {
           "word": "tief",
           "meaning": "Duboko / nisko s glasom, zvukom, temperaturom",
-          "example": "Der See ist tief. = Jezero je duboko."
+          "example": "Der See ist tief. = Ezers ir dziļš."
         },
         {
           "word": "niedrig",
           "meaning": "Niske visine ili figure",
-          "example": "Das Regal ist niedrig. = Polica je niska."
+          "example": "Das Regal ist niedrig. = Plaukts ir zems."
         },
         {
           "word": "hoch",
           "meaning": "Visoko",
-          "example": "Der Berg ist hoch. = Planina je visoka."
+          "example": "Der Berg ist hoch. = Kalns ir augsts."
         },
         {
           "word": "flach",
           "meaning": "Plitko / ravno",
-          "example": "Das Wasser ist flach. = Voda je plitka."
+          "example": "Das Wasser ist flach. = Ūdens ir sekls."
         },
         {
           "word": "leise",
           "meaning": "Tiho",
-          "example": "Die Stimme ist leise. = Glas je tih."
+          "example": "Die Stimme ist leise. = Balss ir klusa."
         }
       ],
       "tip": {
@@ -60956,22 +60956,22 @@ const A2_WORDS = [
         {
           "word": "tragen",
           "meaning": "Nositi / nositi / nositi",
-          "example": "Ich trage eine Tasche. = Nosim torbu."
+          "example": "Ich trage eine Tasche. = Es nesu somu."
         },
         {
           "word": "anziehen",
           "meaning": "Staviti na",
-          "example": "Ich ziehe die Jacke an. = Obukao sam jaknu."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
           "word": "bringen",
           "meaning": "Doneti / dostaviti",
-          "example": "Ich bringe dir das Buch. = Donela sam ti knjigu."
+          "example": "Ich bringe dir das Buch. = Es tev atnesu grāmatu."
         },
         {
           "word": "halten",
           "meaning": "Držati",
-          "example": "Ich halte das Kind. = Držim dijete."
+          "example": "Ich halte das Kind. = Es turu bērnu."
         }
       ],
       "tip": {
@@ -61191,27 +61191,27 @@ const A2_WORDS = [
         {
           "word": "treffen",
           "meaning": "Upoznaj / pogodi / prihvati",
-          "example": "Eine Entscheidung treffen = Donijeti odluku."
+          "example": "Eine Entscheidung treffen = pieņemt lēmumu."
         },
         {
           "word": "sich treffen",
           "meaning": "Da upoznam",
-          "example": "Wir treffen uns. = Sastajemo se."
+          "example": "Wir treffen uns. = Mēs tiekamies."
         },
         {
           "word": "kennenlernen",
           "meaning": "Upoznati se",
-          "example": "Ich lerne ihn kennen. = Upoznaću ga."
+          "example": "Ich lerne ihn kennen. = Es ar viņu iepazīstos."
         },
         {
           "word": "erreichen",
           "meaning": "Doći/pozvati",
-          "example": "Ich erreiche dich nicht. = Ne mogu te nazvati."
+          "example": "Ich erreiche dich nicht. = Es nevaru tevi sazvanīt."
         },
         {
           "word": "passen",
           "meaning": "Fit / fit",
-          "example": "Das passt. = Odgovara."
+          "example": "Das passt. = Tas der."
         }
       ],
       "tip": {
@@ -61717,27 +61717,27 @@ const A2_WORDS = [
         {
           "word": "übrig",
           "meaning": "Ostalo / ostalo",
-          "example": "Es ist Geld übrig. = Ostao je novac."
+          "example": "Es ist Geld übrig. = Ir atlikusi nauda."
         },
         {
           "word": "übrig bleiben",
           "meaning": "Ostani preko",
-          "example": "Viel Essen bleibt übrig. = Ostalo je mnogo hrane."
+          "example": "Viel Essen bleibt übrig. = Daudz ēdiena paliek pāri."
         },
         {
           "word": "der Rest",
           "meaning": "Balans",
-          "example": "Der Rest ist für morgen. = Ostatak dospijeva sutra."
+          "example": "Der Rest ist für morgen. = Atlikums ir rītdienai."
         },
         {
           "word": "die übrigen",
           "meaning": "Ostali",
-          "example": "Die übrigen Gäste kommen später. = Ostali gosti će stići kasnije."
+          "example": "Die übrigen Gäste kommen später. = Pārējie viesi ieradīsies vēlāk."
         },
         {
           "word": "unnötig",
           "meaning": "Nepotrebno",
-          "example": "Das ist unnötig. = To je nepotrebno."
+          "example": "Das ist unnötig. = Tas ir nevajadzīgi."
         }
       ],
       "tip": {
@@ -62081,27 +62081,27 @@ const A2_WORDS = [
         {
           "word": "die Übung",
           "meaning": "Vježba / praksa",
-          "example": "Diese Übung ist leicht. = Ova vježba je laka."
+          "example": "Diese Übung ist leicht. = Šis vingrinājums ir viegls."
         },
         {
           "word": "üben",
           "meaning": "Vježbati",
-          "example": "Ich übe jeden Tag. = Vježbam svaki dan."
+          "example": "Ich übe jeden Tag. = Es vingrinos katru dienu."
         },
         {
           "word": "das Training",
           "meaning": "Obuku",
-          "example": "Das Training beginnt um sechs. = Trening počinje u šest."
+          "example": "Das Training beginnt um sechs. = Treniņš sākas sešos."
         },
         {
           "word": "die Aufgabe",
           "meaning": "Zadatak",
-          "example": "Die Aufgabe ist schwer. = Zadatak je težak."
+          "example": "Die Aufgabe ist schwer. = Uzdevums ir grūts."
         },
         {
           "word": "die Praxis",
           "meaning": "Praksa",
-          "example": "In der Praxis ist es anders. = U praksi je to drugačije."
+          "example": "In der Praxis ist es anders. = Praksē tas ir citādi."
         }
       ],
       "tip": {
@@ -62439,22 +62439,22 @@ const A2_WORDS = [
         {
           "word": "umsonst",
           "meaning": "Besplatno / uzalud",
-          "example": "Ich warte umsonst. = Uzalud cekam."
+          "example": "Ich warte umsonst. = Es gaidu veltīgi."
         },
         {
           "word": "kostenlos",
           "meaning": "Besplatno",
-          "example": "Der Kurs ist kostenlos. = Kurs je besplatan."
+          "example": "Der Kurs ist kostenlos. = Kurss ir bez maksas."
         },
         {
           "word": "gratis",
           "meaning": "Besplatno",
-          "example": "Das ist gratis. = Besplatno je."
+          "example": "Das ist gratis. = Tas ir par brīvu."
         },
         {
           "word": "vergeblich",
           "meaning": "Uzalud",
-          "example": "Ich suche vergeblich. = Uzalud tražim."
+          "example": "Ich suche vergeblich. = Es meklēju veltīgi."
         }
       ],
       "tip": {
@@ -63069,27 +63069,27 @@ const A2_WORDS = [
         {
           "word": "verbinden",
           "meaning": "Povezati / vezati",
-          "example": "Die Brücke verbindet zwei Orte. = Most spaja dva mjesta."
+          "example": "Die Brücke verbindet zwei Orte. = Tilts savieno divas vietas."
         },
         {
           "word": "sich verbinden mit",
           "meaning": "Odnose se na",
-          "example": "Das verbindet sich mit Erinnerungen. = Povezuje se sa sjećanjima."
+          "example": "Das verbindet sich mit Erinnerungen. = Tas saistās ar atmiņām."
         },
         {
           "word": "binden",
           "meaning": "Sito",
-          "example": "Ich binde die Schuhe. = I zidne cipele."
+          "example": "Ich binde die Schuhe. = Es sienu kurpes."
         },
         {
           "word": "anschließen",
           "meaning": "Povezati",
-          "example": "Ich schließe den Drucker an. = Priključujem printer."
+          "example": "Ich schließe den Drucker an. = Es pieslēdzu printeri."
         },
         {
           "word": "die Wunde verbinden",
           "meaning": "Previti ranu",
-          "example": "Der Arzt verbindet die Wunde. = Doktor previja ranu."
+          "example": "Der Arzt verbindet die Wunde. = Ārsts pārsien brūci."
         }
       ],
       "tip": {
@@ -63503,27 +63503,27 @@ const A2_WORDS = [
         {
           "word": "der Verkehr",
           "meaning": "Saobraćaj / kretanje / komunikacije",
-          "example": "Der Verkehr ist stark. = Saobraćaj je gust."
+          "example": "Der Verkehr ist stark. = Satiksme ir intensīva."
         },
         {
           "word": "der Straßenverkehr",
           "meaning": "Drumski saobraćaj",
-          "example": "Der Straßenverkehr ist gefährlich. = Drumski saobraćaj je opasan."
+          "example": "Der Straßenverkehr ist gefährlich. = Ceļu satiksme ir bīstama."
         },
         {
           "word": "der öffentliche Verkehr",
           "meaning": "Javni prevoz",
-          "example": "Öffentlicher Verkehr ist praktisch. = Javni prijevoz je praktičan."
+          "example": "Öffentlicher Verkehr ist praktisch. = Sabiedriskā satiksme ir praktiska."
         },
         {
           "word": "der Kontakt",
           "meaning": "Kontakt / komunikacija",
-          "example": "Wir haben Kontakt mit Kunden. = Imamo kontakte sa kupcima."
+          "example": "Wir haben Kontakt mit Kunden. = Mums ir kontakti ar klientiem."
         },
         {
           "word": "die Bewegung",
           "meaning": "Pokret",
-          "example": "Bewegung ist gesund. = Kretanje je zdravo."
+          "example": "Bewegung ist gesund. = Kustība ir veselīga."
         }
       ],
       "tip": {
@@ -64050,27 +64050,27 @@ const A2_WORDS = [
         {
           "word": "das Viertel",
           "meaning": "Kvartal / kvartal / kvartal",
-          "example": "Ein Viertel ist genug. = Četvrtina je dovoljna."
+          "example": "Ein Viertel ist genug. = Ceturtdaļa ir pietiekami."
         },
         {
           "word": "die Hälfte",
           "meaning": "Strana",
-          "example": "Die Hälfte ist weg. = Zabava je nestala."
+          "example": "Die Hälfte ist weg. = Puse ir prom."
         },
         {
           "word": "das Drittel",
           "meaning": "Treći",
-          "example": "Ein Drittel bleibt. = Treći ostaje."
+          "example": "Ein Drittel bleibt. = Trešdaļa paliek."
         },
         {
           "word": "der Stadtteil",
           "meaning": "Dio grada/okruga",
-          "example": "Dieser Stadtteil ist schön. = Ovaj kvart je lijep."
+          "example": "Dieser Stadtteil ist schön. = Šis rajons ir skaists."
         },
         {
           "word": "das Quartier",
           "meaning": "Blok/kvart",
-          "example": "Das Quartier ist ruhig. = Blok je tih."
+          "example": "Das Quartier ist ruhig. = Kvartāls ir kluss."
         }
       ],
       "tip": {
@@ -64593,27 +64593,27 @@ const A2_WORDS = [
         {
           "word": "vorstellen",
           "meaning": "Predstaviti / predstaviti",
-          "example": "Ich stelle dir meinen Freund vor. = Upoznajem te sa prijateljem."
+          "example": "Ich stelle dir meinen Freund vor. = Es tevi iepazīstinu ar draugu."
         },
         {
           "word": "sich vorstellen",
           "meaning": "Stanite ispred / zamislite",
-          "example": "Ich stelle mich vor. = Ja stojim ispred."
+          "example": "Ich stelle mich vor. = Es stādos priekšā."
         },
         {
           "word": "denken",
           "meaning": "Misliti",
-          "example": "Ich denke an dich. = Mislim na tebe."
+          "example": "Ich denke an dich. = Es domāju par tevi."
         },
         {
           "word": "meinen",
           "meaning": "Misliti / smatrati",
-          "example": "Was meinst du? = Šta misliš?"
+          "example": "Was meinst du? = Ko tu domā?"
         },
         {
           "word": "präsentieren",
           "meaning": "Predstaviti",
-          "example": "Ich präsentiere den Plan. = Predstavljam plan."
+          "example": "Ich präsentiere den Plan. = Es prezentēju plānu."
         }
       ],
       "tip": {
@@ -65033,22 +65033,22 @@ const A2_WORDS = [
         {
           "word": "der Wagen",
           "meaning": "Auto • Vagon • Kolica",
-          "example": "Der Wagen ist neu. = Auto je nov."
+          "example": "Der Wagen ist neu. = Automašīna ir jauna."
         },
         {
           "word": "der Waggon",
           "meaning": "Vagon (voz)",
-          "example": "Der Waggon ist voll. = Vagon je pun."
+          "example": "Der Waggon ist voll. = Vagons ir pilns."
         },
         {
           "word": "das Auto",
           "meaning": "Auto",
-          "example": "Das Auto steht da. = Auto stoji tamo."
+          "example": "Das Auto steht da. = Automašīna stāv tur."
         },
         {
           "word": "wagen (Verb)",
           "meaning": "Usuditi se",
-          "example": "Ich wage es nicht. = Ne usuđujem se."
+          "example": "Ich wage es nicht. = Es neuzdrošinos."
         }
       ],
       "tip": {
@@ -65189,22 +65189,22 @@ const A2_WORDS = [
         {
           "word": "wählen",
           "meaning": "Izaberite / glasajte / sastavite",
-          "example": "Ich wähle eine Nummer. = Okrenem broj."
+          "example": "Ich wähle eine Nummer. = Es sastādu numuru."
         },
         {
           "word": "auswählen",
           "meaning": "Za odabir / odabir",
-          "example": "Ich wähle ein Bild aus. = Ja biram sliku."
+          "example": "Ich wähle ein Bild aus. = Es izvēlos attēlu."
         },
         {
           "word": "entscheiden",
           "meaning": "Odlučiti",
-          "example": "Ich entscheide mich. = Ja odlučujem."
+          "example": "Ich entscheide mich. = Es izlemju."
         },
         {
           "word": "abstimmen",
           "meaning": "Glasati",
-          "example": "Wir stimmen ab. = Mi glasamo."
+          "example": "Wir stimmen ab. = Mēs balsojam."
         }
       ],
       "tip": {
@@ -65569,22 +65569,22 @@ const A2_WORDS = [
         {
           "word": "während",
           "meaning": "Tokom / dok",
-          "example": "Während ich arbeite, ist es ruhig. = Tiho je dok radim."
+          "example": "Während ich arbeite, ist es ruhig. = Kamēr es strādāju, ir kluss."
         },
         {
           "word": "bei",
           "meaning": "U/u određenim uslovima",
-          "example": "Bei Regen bleiben wir zu Hause. = Za vrijeme kiše ostajemo kod kuće."
+          "example": "Bei Regen bleiben wir zu Hause. = Lietus laikā paliekam mājās."
         },
         {
           "word": "wenn",
           "meaning": "Kada / ako",
-          "example": "Wenn ich Zeit habe, komme ich. = Ako budem imao vremena, doći ću."
+          "example": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu."
         },
         {
           "word": "solange",
           "meaning": "Sve dok",
-          "example": "Solange du hier bist, bleibe ich. = Dokle god si ti ovde, ja ostajem."
+          "example": "Solange du hier bist, bleibe ich. = Kamēr tu esi šeit, es palieku."
         }
       ],
       "tip": {
@@ -65993,27 +65993,27 @@ const A2_WORDS = [
         {
           "word": "wahrscheinlich",
           "meaning": "Vjerovatno / najvjerovatnije",
-          "example": "Er kommt wahrscheinlich. = Verovatno će doći."
+          "example": "Er kommt wahrscheinlich. = Viņš droši vien atnāks."
         },
         {
           "word": "vielleicht",
           "meaning": "Mozda",
-          "example": "Vielleicht kommt er. = Možda će on doći."
+          "example": "Vielleicht kommt er. = Varbūt viņš atnāks."
         },
         {
           "word": "sicher",
           "meaning": "Sigurno / definitivno",
-          "example": "Das ist sicher richtig. = To je sigurno tačno."
+          "example": "Das ist sicher richtig. = Tas noteikti ir pareizi."
         },
         {
           "word": "bestimmt",
           "meaning": "Definitivno",
-          "example": "Er kommt bestimmt. = On će sigurno doći."
+          "example": "Er kommt bestimmt. = Viņš noteikti atnāks."
         },
         {
           "word": "möglich",
           "meaning": "Moguće",
-          "example": "Das ist möglich. = Moguće je."
+          "example": "Das ist möglich. = Tas ir iespējams."
         }
       ],
       "tip": {
@@ -66401,27 +66401,27 @@ const A2_WORDS = [
         {
           "word": "wechseln",
           "meaning": "Za promjenu/razmjenu",
-          "example": "Ich wechsle Geld. = Ja menjam novac."
+          "example": "Ich wechsle Geld. = Es samainu naudu."
         },
         {
           "word": "umtauschen",
           "meaning": "Zamijeniti predmet",
-          "example": "Ich tausche die Jacke um. = Ja mijenjam jaknu."
+          "example": "Ich tausche die Jacke um. = Es apmainu jaku."
         },
         {
           "word": "tauschen",
           "meaning": "Promjena/razmjena",
-          "example": "Wir tauschen Plätze. = Mijenjamo mjesta."
+          "example": "Wir tauschen Plätze. = Mēs samaināmies vietām."
         },
         {
           "word": "umsteigen",
           "meaning": "Transfer do transporta",
-          "example": "Ich steige um. = Presjedam."
+          "example": "Ich steige um. = Es pārsēžos."
         },
         {
           "word": "ändern",
           "meaning": "Promijeniti / promijeniti",
-          "example": "Ich ändere den Plan. = Menjam plan."
+          "example": "Ich ändere den Plan. = Es mainu plānu."
         }
       ],
       "tip": {
@@ -67052,27 +67052,27 @@ const A2_WORDS = [
         {
           "word": "wert",
           "meaning": "Vredi",
-          "example": "Das ist viel wert. = Vrijedi mnogo."
+          "example": "Das ist viel wert. = Tas ir daudz vērts."
         },
         {
           "word": "der Wert",
           "meaning": "Vrijednost",
-          "example": "Der Wert ist hoch. = Vrijednost je visoka."
+          "example": "Der Wert ist hoch. = Vērtība ir augsta."
         },
         {
           "word": "teuer",
           "meaning": "Skupo",
-          "example": "Das Auto ist teuer. = Auto je skup."
+          "example": "Das Auto ist teuer. = Auto ir dārgs."
         },
         {
           "word": "sehenswert",
           "meaning": "Vredi videti",
-          "example": "Die Stadt ist sehenswert. = Grad vredi videti."
+          "example": "Die Stadt ist sehenswert. = Pilsētu ir vērts redzēt."
         },
         {
           "word": "wichtig",
           "meaning": "Važan",
-          "example": "Das ist wichtig. = To je važno."
+          "example": "Das ist wichtig. = Tas ir svarīgi."
         }
       ],
       "tip": {
@@ -67440,27 +67440,27 @@ const A2_WORDS = [
         {
           "word": "wiegen",
           "meaning": "Vagati / vagati",
-          "example": "Das Paket wiegt zwei Kilo. = Paket teži dva kilograma."
+          "example": "Das Paket wiegt zwei Kilo. = Paka sver divus kilogramus."
         },
         {
           "word": "die Waage",
           "meaning": "Vage",
-          "example": "Die Waage steht im Bad. = Vaga je u kupatilu."
+          "example": "Die Waage steht im Bad. = Svari stāv vannasistabā."
         },
         {
           "word": "das Gewicht",
           "meaning": "Težina",
-          "example": "Das Gewicht ist normal. = Težina je normalna."
+          "example": "Das Gewicht ist normal. = Svars ir normāls."
         },
         {
           "word": "messen",
           "meaning": "Meriti",
-          "example": "Ich messe die Länge. = Mjerim dužinu."
+          "example": "Ich messe die Länge. = Es mēru garumu."
         },
         {
           "word": "der Wagen",
           "meaning": "Auto / karavan",
-          "example": "Der Wagen ist neu. = Auto je nov."
+          "example": "Der Wagen ist neu. = Automašīna ir jauna."
         }
       ],
       "tip": {
@@ -67861,27 +67861,27 @@ const A2_WORDS = [
         {
           "word": "ziehen",
           "meaning": "Povucite / pomaknite / pomaknite",
-          "example": "Wir ziehen um. = Krećemo se."
+          "example": "Wir ziehen um. = Mēs pārvācamies."
         },
         {
           "word": "umziehen",
           "meaning": "Preseliti / presvući",
-          "example": "Ich ziehe um. = Ja se selim."
+          "example": "Ich ziehe um. = Es pārvācos."
         },
         {
           "word": "anziehen",
           "meaning": "Obući odjeću / zategnuti",
-          "example": "Ich ziehe die Jacke an. = Obukao sam jaknu."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
           "word": "ausziehen",
           "meaning": "Povući / iseliti",
-          "example": "Ich ziehe die Schuhe aus. = Izujem cipele."
+          "example": "Ich ziehe die Schuhe aus. = Es novelku kurpes."
         },
         {
           "word": "ziehen lassen",
           "meaning": "Pustiti / uvući",
-          "example": "Den Tee ziehen lassen. = Pustiti čaj da odstoji."
+          "example": "Den Tee ziehen lassen. = Ļaut tējai ievilkties."
         }
       ],
       "tip": {
@@ -68377,27 +68377,27 @@ const A2_WORDS = [
         {
           "word": "zunehmen",
           "meaning": "Dobiti na težini / porasti",
-          "example": "Die Preise nehmen zu. = Cijene rastu."
+          "example": "Die Preise nehmen zu. = Cenas pieaug."
         },
         {
           "word": "abnehmen",
           "meaning": "Razrijediti / smanjiti",
-          "example": "Ich nehme ab. = Smršao sam."
+          "example": "Ich nehme ab. = Es notievēju."
         },
         {
           "word": "wachsen",
           "meaning": "Rasti",
-          "example": "Die Stadt wächst. = Grad raste."
+          "example": "Die Stadt wächst. = Pilsēta aug."
         },
         {
           "word": "steigen",
           "meaning": "Uspon / uspon",
-          "example": "Die Preise steigen. = Cijene rastu."
+          "example": "Die Preise steigen. = Cenas kāpj."
         },
         {
           "word": "sich erhöhen",
           "meaning": "Povećanje",
-          "example": "Die Kosten erhöhen sich. = Troškovi se povećavaju."
+          "example": "Die Kosten erhöhen sich. = Izmaksas palielinās."
         }
       ],
       "tip": {
@@ -68792,27 +68792,27 @@ const A2_WORDS = [
         {
           "word": "zurzeit",
           "meaning": "Trenutno / trenutno / trenutno",
-          "example": "Zurzeit bin ich beschäftigt. = Trenutno sam zauzet."
+          "example": "Zurzeit bin ich beschäftigt. = Pašlaik esmu aizņemts."
         },
         {
           "word": "jetzt",
           "meaning": "Sada",
-          "example": "Ich gehe jetzt. = Idem sada."
+          "example": "Ich gehe jetzt. = Es tagad eju."
         },
         {
           "word": "im Moment",
           "meaning": "Trenutno / trenutno",
-          "example": "Im Moment habe ich keine Zeit. = Trenutno nemam vremena."
+          "example": "Im Moment habe ich keine Zeit. = Šobrīd man nav laika."
         },
         {
           "word": "derzeit",
           "meaning": "Trenutno / trenutno",
-          "example": "Derzeit ist das nicht möglich. = To trenutno nije moguće."
+          "example": "Derzeit ist das nicht möglich. = Pašlaik tas nav iespējams."
         },
         {
           "word": "momentan",
           "meaning": "Trenutno / trenutno",
-          "example": "Momentan bin ich krank. = Sada sam bolestan."
+          "example": "Momentan bin ich krank. = Šobrīd esmu slims."
         }
       ],
       "tip": {

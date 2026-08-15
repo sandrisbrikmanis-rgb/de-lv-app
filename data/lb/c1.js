@@ -2465,12 +2465,12 @@ const C1_WORDS = [
         {
           "word": "gelegentlich (Adj.)",
           "meaning": "Gadījuma • Nejaušs",
-          "example": "ein gelegentlicher Besuch = Gadījuma apmeklējums"
+          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
         },
         {
           "word": "gelegentlich (+ Gen.)",
           "meaning": "Sakarā ar",
-          "example": "gelegentlich des Festes = Wegens vakantie"
+          "example": "gelegentlich des Festes = svētku sakarā"
         },
         {
           "word": "manchmal",
@@ -3838,7 +3838,7 @@ const C1_WORDS = [
         {
           "word": "wählen",
           "meaning": "Vēlēt • Balsot",
-          "example": "Ich wähle heute. = Ik heb vandaag gestemd."
+          "example": "Ich wähle heute. = Es šodien balsoju."
         },
         {
           "word": "der Wähler",

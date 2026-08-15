@@ -1,4 +1,5 @@
 // Lithuanian course training cards for LT-DE Kurss lessons 1-7.
+
 window.lesson1TrainingCardsLt = [
   {
     "front": "Ar tu ateini?",

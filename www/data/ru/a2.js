@@ -24,17 +24,17 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Аб",
+          "word": "ab",
           "meaning": "Начиная с точки/времени",
           "example": "ab Montag – С понедельника"
         },
         {
-          "word": "Фон",
+          "word": "von",
           "meaning": "От кого-то/чего-то • Происхождение",
           "example": "von mir – no manis"
         },
         {
-          "word": "Ухо",
+          "word": "aus",
           "meaning": "Снаружи изнутри",
           "example": "aus dem Haus – Из дома/из дома"
         }
@@ -161,29 +161,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Абфарен",
+          "word": "abfahren",
           "meaning": "Уйти / уйти / отправиться в путь",
-          "example": "Der Zug fährt ab. = Поезд уходит."
+          "example": "Der Zug fährt ab. = Vilciens atiet."
         },
         {
-          "word": "Вегфарен",
+          "word": "wegfahren",
           "meaning": "Уезжать",
-          "example": "Ich fahre morgen weg. = Я уезжаю завтра."
+          "example": "Ich fahre morgen weg. = Es rīt aizbraucu prom."
         },
         {
-          "word": "Лосфарен",
+          "word": "losfahren",
           "meaning": "Начать водить машину",
-          "example": "Wir fahren jetzt los. = Мы начинаем движение прямо сейчас."
+          "example": "Wir fahren jetzt los. = Mēs tagad sākam braukt."
         },
         {
-          "word": "Абгехен",
+          "word": "abgehen",
           "meaning": "Уйти / уйти",
-          "example": "Der Bus geht gleich ab. = Автобус сейчас уходит."
+          "example": "Der Bus geht gleich ab. = Autobuss tūlīt atiet."
         },
         {
-          "word": "По Фарену",
+          "word": "fahren",
           "meaning": "Водить машину",
-          "example": "Ich fahre mit dem Zug. = Я путешествую на поезде."
+          "example": "Ich fahre mit dem Zug. = Es braucu ar vilcienu."
         }
       ],
       "tip": {
@@ -482,34 +482,34 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Абгебен",
+          "word": "abgeben",
           "meaning": "Дать или отдать другому или в определенное место",
-          "example": "Ich gebe den Antrag ab. = Я подал заявку."
+          "example": "Ich gebe den Antrag ab. = Es iesniedzu pieteikumu."
         },
         {
-          "word": "Давать",
+          "word": "geben",
           "meaning": "Дать",
-          "example": "Ich gebe dir den Schlüssel. = Я даю тебе ключ."
+          "example": "Ich gebe dir den Schlüssel. = Es tev dodu atslēgu."
         },
         {
-          "word": "Цурюкгебен",
+          "word": "zurückgeben",
           "meaning": "Отдать назад",
-          "example": "Ich gebe das Buch zurück. = Я возвращаю книгу."
+          "example": "Ich gebe das Buch zurück. = Es atdodu grāmatu atpakaļ."
         },
         {
-          "word": "Эйнрайхен",
+          "word": "einreichen",
           "meaning": "Официально представить",
-          "example": "Ich reiche die Unterlagen ein. = Я подал документы."
+          "example": "Ich reiche die Unterlagen ein. = Es iesniedzu dokumentus."
         },
         {
-          "word": "Веркауфен",
+          "word": "verkaufen",
           "meaning": "Продать",
-          "example": "Ich verkaufe mein Fahrrad. = Продаю свой велосипед."
+          "example": "Ich verkaufe mein Fahrrad. = Es pārdodu savu velosipēdu."
         },
         {
-          "word": "Австралия",
+          "word": "ausstrahlen",
           "meaning": "Излучающий",
-          "example": "Die Lampe strahlt Wärme aus. = Лампа излучает тепло."
+          "example": "Die Lampe strahlt Wärme aus. = Lampa izstaro siltumu."
         }
       ],
       "tip": {
@@ -1021,29 +1021,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Абсаген",
+          "word": "absagen",
           "meaning": "Отменить/отказаться от членства",
-          "example": "Ich sage den Termin ab. = Я отменяю встречу."
+          "example": "Ich sage den Termin ab. = Es atceļu tikšanos."
         },
         {
-          "word": "Абленен",
+          "word": "ablehnen",
           "meaning": "Отвергать / отказываться",
-          "example": "Ich lehne das Angebot ab. = Я отклоняю предложение."
+          "example": "Ich lehne das Angebot ab. = Es noraidu piedāvājumu."
         },
         {
-          "word": "Уведомление",
+          "word": "kündigen",
           "meaning": "Расторгнуть/расторгнуть договор",
-          "example": "Ich kündige den Vertrag. = Я похвалил контракт."
+          "example": "Ich kündige den Vertrag. = Es uzteicu līgumu."
         },
         {
-          "word": "Отмена",
+          "word": "stornieren",
           "meaning": "Отменить / отменить бронирование",
-          "example": "Ich storniere die Buchung. = Я отменяю бронь."
+          "example": "Ich storniere die Buchung. = Es atceļu rezervāciju."
         },
         {
-          "word": "Nein sagen",
+          "word": "nein sagen",
           "meaning": "Скажи нет",
-          "example": "Er sagt nein. = Он говорит нет."
+          "example": "Er sagt nein. = Viņš saka nē."
         }
       ],
       "tip": {
@@ -1330,24 +1330,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Закрывать",
+          "word": "abschließen",
           "meaning": "Закрыть / закрыть / завершить",
-          "example": "Ich schließe die Tür ab. = Я запер дверь."
+          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
         },
         {
-          "word": "Закрывать",
+          "word": "schließen",
           "meaning": "Закрыть",
-          "example": "Ich schließe die Tür. = Я закрываю дверь."
+          "example": "Ich schließe die Tür. = Es aizveru durvis."
         },
         {
-          "word": "Беден",
+          "word": "beenden",
           "meaning": "Заканчивать",
-          "example": "Ich beende die Arbeit. = Я закончил работу."
+          "example": "Ich beende die Arbeit. = Es pabeidzu darbu."
         },
         {
-          "word": "Унтершрайбен",
+          "word": "unterschreiben",
           "meaning": "Подписать",
-          "example": "Ich unterschreibe den Vertrag. = Я подписываю контракт."
+          "example": "Ich unterschreibe den Vertrag. = Es parakstu līgumu."
         }
       ],
       "tip": {
@@ -1627,29 +1627,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Абстеллен",
+          "word": "abstellen",
           "meaning": "Разместить/отключить/выключить/запретить в зависимости от объекта",
-          "example": "Ich stelle das Fahrrad ab. = Я припарковал велосипед."
+          "example": "Ich stelle das Fahrrad ab. = Es novietoju velosipēdu."
         },
         {
-          "word": "Аусшальтен",
+          "word": "ausschalten",
           "meaning": "Выключите устройство, свет, телевизор или компьютер",
-          "example": "Ich schalte den Computer aus. = Я выключил компьютер."
+          "example": "Ich schalte den Computer aus. = Es izslēdzu datoru."
         },
         {
-          "word": "Задыхаться",
+          "word": "anhalten",
           "meaning": "Перестать двигаться / остановиться",
-          "example": "Der Bus hält an. = Автобус останавливается."
+          "example": "Der Bus hält an. = Autobuss apstājas."
         },
         {
-          "word": "Остановить",
+          "word": "stoppen",
           "meaning": "Стоп / стоп",
-          "example": "Der Fahrer stoppt das Auto. = Водитель останавливает машину."
+          "example": "Der Fahrer stoppt das Auto. = Vadītājs aptur auto."
         },
         {
-          "word": "Стеллен",
+          "word": "stellen",
           "meaning": "Положить / разместить",
-          "example": "Ich stelle die Tasche neben die Tür. = Я поставил сумку у двери."
+          "example": "Ich stelle die Tasche neben die Tür. = Es nolieku somu pie durvīm."
         }
       ],
       "tip": {
@@ -2118,24 +2118,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ангевандт",
+          "word": "angewandt",
           "meaning": "Применён/применён",
-          "example": "Diese Methode wird angewandt. = Этот метод применяется."
+          "example": "Diese Methode wird angewandt. = Šī metode tiek pielietota."
         },
         {
-          "word": "Практически",
+          "word": "praktisch",
           "meaning": "Практичный",
-          "example": "Das ist eine praktische Lösung. = Это практичное решение."
+          "example": "Das ist eine praktische Lösung. = Tas ir praktisks risinājums."
         },
         {
-          "word": "Вервенден",
+          "word": "verwenden",
           "meaning": "Использовать",
-          "example": "Ich verwende diese Methode. = Я использую этот метод."
+          "example": "Ich verwende diese Methode. = Es izmantoju šo metodi."
         },
         {
-          "word": "Анвенден",
+          "word": "anwenden",
           "meaning": "Применять",
-          "example": "Ich wende die Regel an. = Я применяю правило."
+          "example": "Ich wende die Regel an. = Es pielietoju noteikumu."
         }
       ],
       "tip": {
@@ -2364,24 +2364,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Атаковать",
+          "word": "angreifen",
           "meaning": "Нападать/резко критиковать",
-          "example": "Der Hund greift an. = Собака нападает."
+          "example": "Der Hund greift an. = Suns uzbrūk."
         },
         {
-          "word": "Атаковать",
+          "word": "attackieren",
           "meaning": "Атаковать",
-          "example": "Die Gruppe attackiert ihn. = Группа нападает на него."
+          "example": "Die Gruppe attackiert ihn. = Grupa viņam uzbrūk."
         },
         {
-          "word": "Белейдиген",
+          "word": "beleidigen",
           "meaning": "Оскорбить / оскорбить",
-          "example": "Er beleidigt mich. = Он оскорбляет меня."
+          "example": "Er beleidigt mich. = Viņš mani apvaino."
         },
         {
-          "word": "Критиковать",
+          "word": "kritisieren",
           "meaning": "Критиковать",
-          "example": "Sie kritisiert den Vorschlag. = Она критикует это предложение."
+          "example": "Sie kritisiert den Vorschlag. = Viņa kritizē priekšlikumu."
         }
       ],
       "tip": {
@@ -2519,24 +2519,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Анхэнгер подходит",
+          "word": "der Anhänger",
           "meaning": "Прицеп/подставка/подвеска",
-          "example": "Der Anhänger ist schwer. = Трейлер тяжелый."
+          "example": "Der Anhänger ist schwer. = Piekabe ir smaga."
         },
         {
-          "word": "Подходит для вентилятора",
+          "word": "der Fan",
           "meaning": "Фанат",
-          "example": "Er ist ein Fan der Mannschaft. = Он фанат команды."
+          "example": "Er ist ein Fan der Mannschaft. = Viņš ir komandas fans."
         },
         {
-          "word": "Дер Унтерштютцер",
+          "word": "der Unterstützer",
           "meaning": "Сторонник",
-          "example": "Sie hat viele Unterstützer. = У нее много сторонников."
+          "example": "Sie hat viele Unterstützer. = Viņai ir daudz atbalstītāju."
         },
         {
-          "word": "Подходит для фургона",
+          "word": "der Wohnwagen",
           "meaning": "Караван",
-          "example": "Der Wohnwagen steht am See. = Трейлер припаркован у озера."
+          "example": "Der Wohnwagen steht am See. = Dzīvojamā piekabe stāv pie ezera."
         }
       ],
       "tip": {
@@ -2671,24 +2671,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Анхейзен",
+          "word": "anheizen",
           "meaning": "Зажечь / зажечь",
-          "example": "Ich heize den Ofen an. = Я зажигаю духовку."
+          "example": "Ich heize den Ofen an. = Es iekuru krāsni."
         },
         {
-          "word": "Дымка",
+          "word": "heizen",
           "meaning": "Нагревать / нагревать",
-          "example": "Wir heizen die Wohnung. = Отапливаем квартиру."
+          "example": "Wir heizen die Wohnung. = Mēs apkurinām dzīvokli."
         },
         {
-          "word": "Зажечь",
+          "word": "anzünden",
           "meaning": "Поджечь",
-          "example": "Ich zünde die Kerze an. = Я зажигаю свечу."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
-          "word": "Вершарфен",
+          "word": "verschärfen",
           "meaning": "Обострять",
-          "example": "Das verschärft den Streit. = Это обостряет спор."
+          "example": "Das verschärft den Streit. = Tas saasina strīdu."
         }
       ],
       "tip": {
@@ -2880,24 +2880,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ангел",
+          "word": "anlegen",
           "meaning": "Навязывать/инвестировать/создавать",
-          "example": "Ich lege Geld an. = Я вкладываю деньги."
+          "example": "Ich lege Geld an. = Es ieguldu naudu."
         },
         {
-          "word": "Легенда",
+          "word": "legen",
           "meaning": "Сложить",
-          "example": "Ich lege das Buch auf den Tisch. = Я положил книгу на стол."
+          "example": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
         },
         {
-          "word": "Инвестиции",
+          "word": "investieren",
           "meaning": "Инвестировать",
-          "example": "Ich investiere Geld. = Я вкладываю деньги."
+          "example": "Ich investiere Geld. = Es ieguldu naudu."
         },
         {
-          "word": "Эрстеллен",
+          "word": "erstellen",
           "meaning": "Создать",
-          "example": "Ich erstelle ein Konto. = Я создал учетную запись."
+          "example": "Ich erstelle ein Konto. = Es izveidoju kontu."
         }
       ],
       "tip": {
@@ -3170,29 +3170,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Анмельден",
+          "word": "anmelden",
           "meaning": "Подать заявку/зарегистрироваться/записать",
-          "example": "Ich melde mich an. = Я подаю заявку."
+          "example": "Ich melde mich an. = Es piesakos."
         },
         {
-          "word": "Sich anmelden",
+          "word": "sich anmelden",
           "meaning": "Применить / подключить",
-          "example": "Melden Sie sich bitte an. = Пожалуйста, войдите."
+          "example": "Melden Sie sich bitte an. = Lūdzu, piesakieties."
         },
         {
-          "word": "Зарегистрироваться",
+          "word": "registrieren",
           "meaning": "Зарегистрироваться",
-          "example": "Ich registriere mein Konto. = Я зарегистрировал свой аккаунт."
+          "example": "Ich registriere mein Konto. = Es reģistrēju savu kontu."
         },
         {
-          "word": "Бухен",
+          "word": "buchen",
           "meaning": "Забронировать",
-          "example": "Ich buche einen Termin. = Я забронировал время."
+          "example": "Ich buche einen Termin. = Es rezervēju laiku."
         },
         {
-          "word": "Отчет",
+          "word": "melden",
           "meaning": "Сообщить / уведомить",
-          "example": "Ich melde das Problem. = Я сообщил о проблеме."
+          "example": "Ich melde das Problem. = Es ziņoju par problēmu."
         }
       ],
       "tip": {
@@ -3500,24 +3500,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Instecken",
+          "word": "anstecken",
           "meaning": "Приколоть / зажечь / заразить",
-          "example": "Ich stecke die Kerze an. = Я зажигаю свечу."
+          "example": "Ich stecke die Kerze an. = Es aizdedzinu sveci."
         },
         {
-          "word": "Палка",
+          "word": "stecken",
           "meaning": "Тыкать / быть",
-          "example": "Der Schlüssel steckt im Schloss. = Ключ в замке."
+          "example": "Der Schlüssel steckt im Schloss. = Atslēga ir slēdzenē."
         },
         {
-          "word": "Зажечь",
+          "word": "anzünden",
           "meaning": "Поджечь",
-          "example": "Ich zünde die Kerze an. = Я зажигаю свечу."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
-          "word": "Заразиться",
+          "word": "sich anstecken",
           "meaning": "Заразиться",
-          "example": "Ich habe mich angesteckt. = Я заразился."
+          "example": "Ich habe mich angesteckt. = Es inficējos."
         }
       ],
       "tip": {
@@ -3788,24 +3788,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Нанимать",
+          "word": "anstellen",
           "meaning": "Нанять/включить/сделать",
-          "example": "Die Firma stellt ihn an. = Компания нанимает его."
+          "example": "Die Firma stellt ihn an. = Firma viņu pieņem darbā."
         },
         {
-          "word": "Эйнстеллен",
+          "word": "einstellen",
           "meaning": "Нанять/назначить",
-          "example": "Wir stellen neue Leute ein. = Мы набираем новых людей."
+          "example": "Wir stellen neue Leute ein. = Mēs pieņemam darbā jaunus cilvēkus."
         },
         {
-          "word": "Аншлантен",
+          "word": "anschalten",
           "meaning": "Включать",
-          "example": "Ich schalte das Licht an. = Я включил свет."
+          "example": "Ich schalte das Licht an. = Es ieslēdzu gaismu."
         },
         {
-          "word": "Sich anstellen",
+          "word": "sich anstellen",
           "meaning": "Стоять в очереди",
-          "example": "Ich stelle mich an. = Я стоял в очереди."
+          "example": "Ich stelle mich an. = Es nostājos rindā."
         }
       ],
       "tip": {
@@ -4475,29 +4475,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Артикель",
+          "word": "der Artikel",
           "meaning": "Статья / продукт / статья / статья",
-          "example": "Der Artikel ist kurz. = Статья короткая."
+          "example": "Der Artikel ist kurz. = Raksts ir īss."
         },
         {
-          "word": "Дер Zeitungsartikel",
+          "word": "der Zeitungsartikel",
           "meaning": "Газетная статья",
-          "example": "Der Zeitungsartikel ist neu. = Газетная статья новая."
+          "example": "Der Zeitungsartikel ist neu. = Avīzes raksts ir jauns."
         },
         {
-          "word": "Умереть изделия",
+          "word": "die Ware",
           "meaning": "Элемент",
-          "example": "Die Ware ist teuer. = Товар дорогой."
+          "example": "Die Ware ist teuer. = Prece ir dārga."
         },
         {
-          "word": "Лучшая статья",
+          "word": "der bestimmte Artikel",
           "meaning": "Определенный артикль",
-          "example": "Der bestimmte Artikel ist „der“. = Определенный артикль – «der»."
+          "example": "Der bestimmte Artikel ist „der“. = Noteiktais artikuls ir „der“."
         },
         {
-          "word": "Дер Абзац",
+          "word": "der Paragraph",
           "meaning": "Абзац/статья",
-          "example": "Der Paragraph ist wichtig. = Стих важен."
+          "example": "Der Paragraph ist wichtig. = Pants ir svarīgs."
         }
       ],
       "tip": {
@@ -4981,24 +4981,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ауфгебен",
+          "word": "aufheben",
           "meaning": "Поднять/отменить/сохранить",
-          "example": "Ich hebe den Schlüssel auf. = Я беру ключ."
+          "example": "Ich hebe den Schlüssel auf. = Es paceļu atslēgu."
         },
         {
-          "word": "Хебен",
+          "word": "heben",
           "meaning": "Поднять",
-          "example": "Ich hebe die Hand. = Я поднимаю руку."
+          "example": "Ich hebe die Hand. = Es paceļu roku."
         },
         {
-          "word": "Абсаген",
+          "word": "absagen",
           "meaning": "Отменить мероприятие",
-          "example": "Wir sagen den Termin ab. = Мы отменяем встречу."
+          "example": "Wir sagen den Termin ab. = Mēs atceļam tikšanos."
         },
         {
-          "word": "Отстраненный",
+          "word": "behalten",
           "meaning": "Держать",
-          "example": "Ich behalte die Quittung. = Я сохраняю чек."
+          "example": "Ich behalte die Quittung. = Es paturu čeku."
         }
       ],
       "tip": {
@@ -5302,24 +5302,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Офляж",
+          "word": "die Auflage",
           "meaning": "Тираж/издание/состояние",
-          "example": "Die Auflage ist hoch. = Тираж большой."
+          "example": "Die Auflage ist hoch. = Tirāža ir liela."
         },
         {
-          "word": "Ди Аусгабе",
+          "word": "die Ausgabe",
           "meaning": "Издание/номер",
-          "example": "Die neue Ausgabe ist da. = Новый номер здесь."
+          "example": "Die neue Ausgabe ist da. = Jaunais numurs ir klāt."
         },
         {
-          "word": "Умереть Бедингунг",
+          "word": "die Bedingung",
           "meaning": "Состояние",
-          "example": "Das ist eine Bedingung. = Это условие."
+          "example": "Das ist eine Bedingung. = Tas ir nosacījums."
         },
         {
-          "word": "Умереть Ворауссетунг",
+          "word": "die Voraussetzung",
           "meaning": "Предпосылка",
-          "example": "Das ist eine Voraussetzung. = Это обязательное условие."
+          "example": "Das ist eine Voraussetzung. = Tas ir priekšnoteikums."
         }
       ],
       "tip": {
@@ -5474,29 +5474,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Ауфнаме",
+          "word": "die Aufnahme",
           "meaning": "Съемка/запись/фото",
-          "example": "Die Aufnahme ist gut. = Рекорд хороший."
+          "example": "Die Aufnahme ist gut. = Ieraksts ir labs."
         },
         {
-          "word": "Фото",
+          "word": "das Foto",
           "meaning": "Фотография / фото",
-          "example": "Das Foto ist schön. = Фотография красивая."
+          "example": "Das Foto ist schön. = Foto ir skaists."
         },
         {
-          "word": "Дас Билд",
+          "word": "das Bild",
           "meaning": "Изображение",
-          "example": "Das Bild hängt an der Wand. = Картина висит на стене."
+          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
         },
         {
-          "word": "Умереть Aufzeichnung",
+          "word": "die Aufzeichnung",
           "meaning": "Записывать",
-          "example": "Die Aufzeichnung ist lang. = Пост длинный."
+          "example": "Die Aufzeichnung ist lang. = Ieraksts ir garš."
         },
         {
-          "word": "Ауфнамепруфунг",
+          "word": "die Aufnahmeprüfung",
           "meaning": "Вступительный экзамен",
-          "example": "Die Aufnahmeprüfung ist morgen. = Вступительный экзамен завтра."
+          "example": "Die Aufnahmeprüfung ist morgen. = Iestājpārbaudījums ir rīt."
         }
       ],
       "tip": {
@@ -5630,24 +5630,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ауфнемен",
+          "word": "aufnehmen",
           "meaning": "Записать/записать/принять",
-          "example": "Ich nehme ein Lied auf. = Я записываю песню."
+          "example": "Ich nehme ein Lied auf. = Es ierakstu dziesmu."
         },
         {
-          "word": "Брать",
+          "word": "nehmen",
           "meaning": "Взять",
-          "example": "Ich nehme das Buch. = Я беру книгу."
+          "example": "Ich nehme das Buch. = Es ņemu grāmatu."
         },
         {
-          "word": "Принимать",
+          "word": "annehmen",
           "meaning": "Принимать",
-          "example": "Ich nehme das Angebot an. = Я принимаю предложение."
+          "example": "Ich nehme das Angebot an. = Es pieņemu piedāvājumu."
         },
         {
-          "word": "Начинать",
+          "word": "beginnen",
           "meaning": "Начать",
-          "example": "Wir beginnen die Arbeit. = Приступаем к работе."
+          "example": "Wir beginnen die Arbeit. = Mēs sākam darbu."
         }
       ],
       "tip": {
@@ -5944,24 +5944,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ауфрихтиг",
+          "word": "aufrichtig",
           "meaning": "Искренний/искренний/открытый",
-          "example": "Eine aufrichtige Entschuldigung. = Искреннее извинение."
+          "example": "Eine aufrichtige Entschuldigung. = Patiesa atvainošanās."
         },
         {
-          "word": "Эрлих",
+          "word": "ehrlich",
           "meaning": "Честный / не лги",
-          "example": "Er ist ehrlich. = Он честен."
+          "example": "Er ist ehrlich. = Viņš ir godīgs."
         },
         {
-          "word": "Герцлих",
+          "word": "herzlich",
           "meaning": "Искренний",
-          "example": "Herzliche Grüße. = Теплый привет."
+          "example": "Herzliche Grüße. = Sirsnīgi sveicieni."
         },
         {
-          "word": "Открыть",
+          "word": "offen",
           "meaning": "Обнаруженный",
-          "example": "Sie spricht offen. = Она говорит открыто."
+          "example": "Sie spricht offen. = Viņa runā atklāti."
         }
       ],
       "tip": {
@@ -6189,24 +6189,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Позвонить",
+          "word": "aufrufen",
           "meaning": "Позвонить/открыть/пригласить",
-          "example": "Ich rufe die Seite auf. = Я открываю страницу."
+          "example": "Ich rufe die Seite auf. = Es atveru lapu."
         },
         {
-          "word": "Руфен",
+          "word": "rufen",
           "meaning": "Позвонить",
-          "example": "Ich rufe dich. = Я звоню тебе."
+          "example": "Ich rufe dich. = Es tevi saucu."
         },
         {
-          "word": "Открыть",
+          "word": "öffnen",
           "meaning": "Открыть",
-          "example": "Ich öffne die Datei. = Я открываю файл."
+          "example": "Ich öffne die Datei. = Es atveru failu."
         },
         {
-          "word": "Предоставлять",
+          "word": "auffordern",
           "meaning": "Приглашать",
-          "example": "Er fordert uns auf. = Он приглашает нас."
+          "example": "Er fordert uns auf. = Viņš mūs aicina."
         }
       ],
       "tip": {
@@ -6377,24 +6377,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Аутраген",
+          "word": "auftragen",
           "meaning": "Спросить/подать заявку/представить",
-          "example": "Der Lehrer trägt eine Aufgabe auf. = Учитель дает задание."
+          "example": "Der Lehrer trägt eine Aufgabe auf. = Skolotājs uzdod uzdevumu."
         },
         {
-          "word": "Давать",
+          "word": "geben",
           "meaning": "Дать",
-          "example": "Ich gebe dir das Buch. = Я дарю тебе книгу."
+          "example": "Ich gebe dir das Buch. = Es tev dodu grāmatu."
         },
         {
-          "word": "Краска",
+          "word": "anstreichen",
           "meaning": "Покрасить поверхность",
-          "example": "Wir streichen die Wand an. = Красим стену."
+          "example": "Wir streichen die Wand an. = Mēs krāsojam sienu."
         },
         {
-          "word": "Сервер",
+          "word": "servieren",
           "meaning": "Подавать еду",
-          "example": "Der Kellner serviert das Essen. = Официант подает еду."
+          "example": "Der Kellner serviert das Essen. = Viesmīlis pasniedz ēdienu."
         }
       ],
       "tip": {
@@ -6664,24 +6664,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Появляться",
+          "word": "auftreten",
           "meaning": "Появиться/выступить",
-          "example": "Ein Fehler tritt auf. = Появляется ошибка."
+          "example": "Ein Fehler tritt auf. = Parādās kļūda."
         },
         {
-          "word": "Появляться",
+          "word": "erscheinen",
           "meaning": "Появиться/приехать",
-          "example": "Er erscheint um acht. = Он приходит в восемь."
+          "example": "Er erscheint um acht. = Viņš ierodas astoņos."
         },
         {
-          "word": "Шпилен",
+          "word": "spielen",
           "meaning": "Играть/исполнять роль",
-          "example": "Sie spielt im Theater. = Она играет в театре."
+          "example": "Sie spielt im Theater. = Viņa spēlē teātrī."
         },
         {
-          "word": "Sich verhalten",
+          "word": "sich verhalten",
           "meaning": "Вести себя",
-          "example": "Er verhält sich ruhig. = Он спокоен."
+          "example": "Er verhält sich ruhig. = Viņš izturas mierīgi."
         }
       ],
       "tip": {
@@ -6945,24 +6945,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Аувенден",
+          "word": "aufwenden",
           "meaning": "Посвящать/инвестировать/потреблять",
-          "example": "Ich wende viel Zeit auf. = Я провожу много времени."
+          "example": "Ich wende viel Zeit auf. = Es veltu daudz laika."
         },
         {
-          "word": "Аусгебен",
+          "word": "ausgeben",
           "meaning": "Тратить деньги",
-          "example": "Ich gebe viel Geld aus. = Я потратил много денег."
+          "example": "Ich gebe viel Geld aus. = Es iztērēju daudz naudas."
         },
         {
-          "word": "Тратить",
+          "word": "verbringen",
           "meaning": "Проводить время",
-          "example": "Ich verbringe den Abend zu Hause. = Вечер провожу дома."
+          "example": "Ich verbringe den Abend zu Hause. = Es pavadu vakaru mājās."
         },
         {
-          "word": "Инвестиции",
+          "word": "investieren",
           "meaning": "Инвестировать",
-          "example": "Wir investieren Zeit und Geld. = Мы вкладываем время и деньги."
+          "example": "Wir investieren Zeit und Geld. = Mēs ieguldām laiku un naudu."
         }
       ],
       "tip": {
@@ -7197,24 +7197,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Aufzeichnen",
+          "word": "aufzeichnen",
           "meaning": "Записать/записать",
-          "example": "Ich zeichne das Video auf. = Я записываю видео."
+          "example": "Ich zeichne das Video auf. = Es ierakstu video."
         },
         {
-          "word": "Цейхнен",
+          "word": "zeichnen",
           "meaning": "Рисовать",
-          "example": "Das Kind zeichnet ein Haus. = Ребенок рисует дом."
+          "example": "Das Kind zeichnet ein Haus. = Bērns zīmē māju."
         },
         {
-          "word": "Нотьерен",
+          "word": "notieren",
           "meaning": "Записать",
-          "example": "Ich notiere die Adresse. = Я записываю адрес."
+          "example": "Ich notiere die Adresse. = Es pierakstu adresi."
         },
         {
-          "word": "Ауфнемен",
+          "word": "aufnehmen",
           "meaning": "Запись / запись",
-          "example": "Ich nehme ein Lied auf. = Я записываю песню."
+          "example": "Ich nehme ein Lied auf. = Es ierakstu dziesmu."
         }
       ],
       "tip": {
@@ -7390,24 +7390,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Аусштайген",
+          "word": "aussteigen",
           "meaning": "Выйти / уйти",
-          "example": "Ich steige aus dem Bus aus. = Я выхожу из автобуса."
+          "example": "Ich steige aus dem Bus aus. = Es izkāpju no autobusa."
         },
         {
-          "word": "Эйнштайген",
+          "word": "einsteigen",
           "meaning": "Вмешаться / принять участие",
-          "example": "Ich steige in den Zug ein. = Я сажусь в поезд."
+          "example": "Ich steige in den Zug ein. = Es iekāpju vilcienā."
         },
         {
-          "word": "Умштайген",
+          "word": "umsteigen",
           "meaning": "Пересесть",
-          "example": "Wir steigen in Berlin um. = Мы переезжаем в Берлин."
+          "example": "Wir steigen in Berlin um. = Mēs pārsēžamies Berlīnē."
         },
         {
-          "word": "Верлассен",
+          "word": "verlassen",
           "meaning": "Уйти",
-          "example": "Er verlässt die Firma. = Он уходит из компании."
+          "example": "Er verlässt die Firma. = Viņš atstāj firmu."
         }
       ],
       "tip": {
@@ -7698,29 +7698,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Выбирать",
+          "word": "auswählen",
           "meaning": "Выбрать / выбрать",
-          "example": "Ich wähle ein Bild aus. = Я выбираю картинку."
+          "example": "Ich wähle ein Bild aus. = Es izvēlos attēlu."
         },
         {
-          "word": "Велен",
+          "word": "wählen",
           "meaning": "Выбирать/голосовать",
-          "example": "Ich wähle eine Partei. = Я голосовал за партию."
+          "example": "Ich wähle eine Partei. = Es balsoju par partiju."
         },
         {
-          "word": "Ауссухен",
+          "word": "aussuchen",
           "meaning": "Исследовать/выбрать",
-          "example": "Such dir ein Buch aus. = Выберите книгу для себя."
+          "example": "Such dir ein Buch aus. = Izvēlies sev grāmatu."
         },
         {
-          "word": "Эншайден",
+          "word": "entscheiden",
           "meaning": "Решать",
-          "example": "Ich entscheide morgen. = Я решу завтра."
+          "example": "Ich entscheide morgen. = Es izlemšu rīt."
         },
         {
-          "word": "Маркиерен",
+          "word": "markieren",
           "meaning": "Отмечать",
-          "example": "Markieren Sie die richtige Antwort. = Отметьте правильный ответ."
+          "example": "Markieren Sie die richtige Antwort. = Atzīmējiet pareizo atbildi."
         }
       ],
       "tip": {
@@ -8025,24 +8025,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Аусцихен",
+          "word": "ausziehen",
           "meaning": "Снять/выехать",
-          "example": "Ich ziehe die Schuhe aus. = Я снимаю обувь."
+          "example": "Ich ziehe die Schuhe aus. = Es novelku kurpes."
         },
         {
-          "word": "Анзиен",
+          "word": "anziehen",
           "meaning": "Надевать",
-          "example": "Ich ziehe die Jacke an. = Я надел куртку."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
-          "word": "Умзихен",
+          "word": "umziehen",
           "meaning": "Переехать/переодеться",
-          "example": "Wir ziehen nach Riga um. = Переезжаем в Ригу."
+          "example": "Wir ziehen nach Riga um. = Mēs pārceļamies uz Rīgu."
         },
         {
-          "word": "Sich ausziehen",
+          "word": "sich ausziehen",
           "meaning": "Раздеваться",
-          "example": "Das Kind zieht sich aus. = Ребенок раздевается."
+          "example": "Das Kind zieht sich aus. = Bērns izģērbjas."
         }
       ],
       "tip": {
@@ -8427,29 +8427,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть на железной дороге",
+          "word": "die Bahn",
           "meaning": "Железная дорога / путешествие на поезде",
-          "example": "Ich fahre mit der Bahn. = Я путешествую на поезде."
+          "example": "Ich fahre mit der Bahn. = Es braucu ar vilcienu."
         },
         {
-          "word": "Цуг подходит",
+          "word": "der Zug",
           "meaning": "Конкретный поезд",
-          "example": "Der Zug fährt um acht Uhr ab. = Поезд отправляется в восемь."
+          "example": "Der Zug fährt um acht Uhr ab. = Vilciens atiet astoņos."
         },
         {
-          "word": "Штрассенбан",
+          "word": "die Straßenbahn",
           "meaning": "Трамвай",
-          "example": "Die Straßenbahn hält hier. = Трамвай останавливается здесь."
+          "example": "Die Straßenbahn hält hier. = Tramvajs pietur šeit."
         },
         {
-          "word": "Подходит для Банхоф",
+          "word": "der Bahnhof",
           "meaning": "Железнодорожная станция",
-          "example": "Wir treffen uns am Bahnhof. = Встречаемся на вокзале."
+          "example": "Wir treffen uns am Bahnhof. = Mēs tiekamies stacijā."
         },
         {
-          "word": "Дас Гляйс",
+          "word": "das Gleis",
           "meaning": "Трасса/платформа",
-          "example": "Der Zug fährt von Gleis 3. = Поезд отправляется с платформы 3."
+          "example": "Der Zug fährt von Gleis 3. = Vilciens atiet no 3. perona."
         }
       ],
       "tip": {
@@ -8987,34 +8987,34 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Банк (Финанц)",
+          "word": "die Bank (Finanz)",
           "meaning": "Банк",
-          "example": "Ich gehe zur Bank. = Я иду в банк. Множественное число: die Banken."
+          "example": "Ich gehe zur Bank. = Es eju uz banku. Plural: die Banken."
         },
         {
-          "word": "Умереть банк (Sitzbank)",
+          "word": "die Bank (Sitzbank)",
           "meaning": "Скамейка / скамейка",
-          "example": "Wir sitzen auf einer Bank. = Мы сидим на скамейке. Множественное число: die Bänke."
+          "example": "Wir sitzen auf einer Bank. = Mēs sēžam uz soliņa. Plural: die Bänke."
         },
         {
-          "word": "Умереть Банкфилиале",
+          "word": "die Bankfiliale",
           "meaning": "Отделение банка",
-          "example": "Die Bankfiliale ist geöffnet. = Филиал банка открыт."
+          "example": "Die Bankfiliale ist geöffnet. = Bankas filiāle ir atvērta."
         },
         {
-          "word": "Умереть Паркбанк",
+          "word": "die Parkbank",
           "meaning": "Скамейка в парке",
-          "example": "Wir sitzen auf der Parkbank. = Мы сидим на скамейке в парке."
+          "example": "Wir sitzen auf der Parkbank. = Mēs sēžam uz parka soliņa."
         },
         {
-          "word": "Умереть Сэндбэнк",
+          "word": "die Sandbank",
           "meaning": "Песчаная отмеля",
-          "example": "Das Schiff steckt auf einer Sandbank. = Корабль сел на мель."
+          "example": "Das Schiff steckt auf einer Sandbank. = Kuģis ir uzsēdies uz sēkļa."
         },
         {
-          "word": "Подходит для Штуля",
+          "word": "der Stuhl",
           "meaning": "Стул",
-          "example": "Ich sitze auf einem Stuhl. = Я сижу на стуле."
+          "example": "Ich sitze auf einem Stuhl. = Es sēžu uz krēsla."
         }
       ],
       "tip": {
@@ -9621,29 +9621,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит Бауэру",
+          "word": "der Bauer",
           "meaning": "Фермер / пешка",
-          "example": "Der Bauer arbeitet auf dem Feld. = Фермер работает в поле."
+          "example": "Der Bauer arbeitet auf dem Feld. = Zemnieks strādā uz lauka."
         },
         {
-          "word": "Подходит для Ландвирта",
+          "word": "der Landwirt",
           "meaning": "Фермер / фермер",
-          "example": "Der Landwirt führt einen Hof. = Фермер управляет фермой."
+          "example": "Der Landwirt führt einen Hof. = Lauksaimnieks vada saimniecību."
         },
         {
-          "word": "Дер Бауэрнхоф",
+          "word": "der Bauernhof",
           "meaning": "Ферма",
-          "example": "Wir besuchen einen Bauernhof. = Мы посещаем ферму."
+          "example": "Wir besuchen einen Bauernhof. = Mēs apmeklējam lauku saimniecību."
         },
         {
-          "word": "Инжир",
+          "word": "die Figur",
           "meaning": "Фигура",
-          "example": "Die Dame ist eine starke Figur. = Женщина – мощная фигура."
+          "example": "Die Dame ist eine starke Figur. = Dāma ir spēcīga figūra."
         },
         {
-          "word": "Подходит Шпильштейну",
+          "word": "der Spielstein",
           "meaning": "Кости игры",
-          "example": "Der Spielstein liegt auf dem Brett. = Кости лежат на столе."
+          "example": "Der Spielstein liegt auf dem Brett. = Spēles kauliņš atrodas uz galda."
         }
       ],
       "tip": {
@@ -10104,29 +10104,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Служить",
+          "word": "bedienen",
           "meaning": "Обслуживать/использовать устройство",
-          "example": "Der Kellner bedient uns. = Нас обслуживает официант."
+          "example": "Der Kellner bedient uns. = Viesmīlis mūs apkalpo."
         },
         {
-          "word": "Использовать",
+          "word": "benutzen",
           "meaning": "Использовать",
-          "example": "Ich benutze mein Handy. = Я пользуюсь телефоном."
+          "example": "Ich benutze mein Handy. = Es lietoju telefonu."
         },
         {
-          "word": "Хелфен",
+          "word": "helfen",
           "meaning": "Помочь",
-          "example": "Kannst du mir helfen? = Вы можете помочь мне"
+          "example": "Kannst du mir helfen? = Vai vari man palīdzēt?"
         },
         {
-          "word": "Сервер",
+          "word": "servieren",
           "meaning": "Подавать еду",
-          "example": "Sie serviert das Essen. = Она подает еду."
+          "example": "Sie serviert das Essen. = Viņa pasniedz ēdienu."
         },
         {
-          "word": "Управлять",
+          "word": "steuern",
           "meaning": "Вести",
-          "example": "Er steuert das Auto. = Он водит машину."
+          "example": "Er steuert das Auto. = Viņš vada auto."
         }
       ],
       "tip": {
@@ -10368,29 +10368,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Bedienung",
+          "word": "die Bedienung",
           "meaning": "Сервис / сопровождающий",
-          "example": "Die Bedienung ist freundlich. = Официант добрый."
+          "example": "Die Bedienung ist freundlich. = Apkalpotājs ir laipns."
         },
         {
-          "word": "Говорит Келлнер",
+          "word": "der Kellner",
           "meaning": "Официант",
-          "example": "Der Kellner bringt die Rechnung. = Официант приносит счет."
+          "example": "Der Kellner bringt die Rechnung. = Viesmīlis atnes rēķinu."
         },
         {
-          "word": "Умереть Келлнерин",
+          "word": "die Kellnerin",
           "meaning": "Официантка",
-          "example": "Die Kellnerin fragt nach Getränken. = Официантка спрашивает о напитках."
+          "example": "Die Kellnerin fragt nach Getränken. = Viesmīle jautā par dzērieniem."
         },
         {
-          "word": "Дер Сервис",
+          "word": "der Service",
           "meaning": "Сервис / обслуживание",
-          "example": "Der Service ist gut. = Сервис хороший."
+          "example": "Der Service ist gut. = Apkalpošana ir laba."
         },
         {
-          "word": "Персональный",
+          "word": "das Personal",
           "meaning": "Персонал",
-          "example": "Das Personal hilft uns. = Персонал нам помогает."
+          "example": "Das Personal hilft uns. = Personāls mums palīdz."
         }
       ],
       "tip": {
@@ -10659,29 +10659,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Отстраненный",
+          "word": "behalten",
           "meaning": "Держать / помнить",
-          "example": "Du kannst es behalten. = Вы можете сохранить это."
+          "example": "Du kannst es behalten. = Tu vari to paturēt."
         },
         {
-          "word": "Останавливать",
+          "word": "halten",
           "meaning": "Держать",
-          "example": "Ich halte die Tasche. = Я держу сумку."
+          "example": "Ich halte die Tasche. = Es turu somu."
         },
         {
-          "word": "Сич меркен",
+          "word": "sich merken",
           "meaning": "Запомнить / запомнить",
-          "example": "Ich merke mir die Nummer. = Я запомнил номер."
+          "example": "Ich merke mir die Nummer. = Es iegaumēju numuru."
         },
         {
-          "word": "Помнить",
+          "word": "erinnern",
           "meaning": "Помнить / напомнить",
-          "example": "Ich erinnere mich daran. = Я это помню."
+          "example": "Ich erinnere mich daran. = Es to atceros."
         },
         {
-          "word": "Сохранять",
+          "word": "aufbewahren",
           "meaning": "Держать",
-          "example": "Ich bewahre die Quittung auf. = Я сохраняю чек."
+          "example": "Ich bewahre die Quittung auf. = Es glabāju čeku."
         }
       ],
       "tip": {
@@ -10968,29 +10968,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Бейнаш",
+          "word": "beinahe",
           "meaning": "Почти / едва",
-          "example": "Ich hätte beinahe gelacht. = Я почти начал смеяться."
+          "example": "Ich hätte beinahe gelacht. = Es gandrīz sāku smieties."
         },
         {
-          "word": "Быстрый",
+          "word": "fast",
           "meaning": "Почти",
-          "example": "Ich bin fast fertig. = Я почти готов."
+          "example": "Ich bin fast fertig. = Es esmu gandrīz gatavs."
         },
         {
-          "word": "Кнопка",
+          "word": "knapp",
           "meaning": "Едва/с небольшим отрывом",
-          "example": "Das war knapp. = Едва ли."
+          "example": "Das war knapp. = Tas bija knapi."
         },
         {
-          "word": "Некоторым",
+          "word": "kaum",
           "meaning": "Вряд ли / едва",
-          "example": "Ich kann kaum laufen. = Я едва могу ходить."
+          "example": "Ich kann kaum laufen. = Es tik tikko varu paiet."
         },
         {
-          "word": "Джерад Ноч",
+          "word": "gerade noch",
           "meaning": "Едва-едва",
-          "example": "Wir haben es gerade noch geschafft. = Мы все равно едва успели."
+          "example": "Wir haben es gerade noch geschafft. = Mēs vēl tik tikko paspējām."
         }
       ],
       "tip": {
@@ -11278,29 +11278,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Бекант",
+          "word": "bekannt",
           "meaning": "Известный / известный",
-          "example": "Das ist bekannt. = Известно."
+          "example": "Das ist bekannt. = Tas ir zināms."
         },
         {
-          "word": "Известный",
+          "word": "berühmt",
           "meaning": "Известный",
-          "example": "Er ist berühmt. = Он знаменит."
+          "example": "Er ist berühmt. = Viņš ir slavens."
         },
         {
-          "word": "Доверенный",
+          "word": "vertraut",
           "meaning": "Знакомый / привычный",
-          "example": "Die Umgebung ist mir vertraut. = Район мне знаком."
+          "example": "Die Umgebung ist mir vertraut. = Apkārtne man ir pazīstama."
         },
         {
-          "word": "Подружиться",
+          "word": "befreundet",
           "meaning": "В друзьях/дружеских отношениях",
-          "example": "Wir sind befreundet. = Мы друзья."
+          "example": "Wir sind befreundet. = Mēs esam draugos."
         },
         {
-          "word": "Необдуманный",
+          "word": "unbekannt",
           "meaning": "Неизвестный",
-          "example": "Der Täter ist unbekannt. = Виновник неизвестен."
+          "example": "Der Täter ist unbekannt. = Vainīgais ir nezināms."
         }
       ],
       "tip": {
@@ -11671,29 +11671,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Бестеллен",
+          "word": "bestellen",
           "meaning": "Заказать/резервировать",
-          "example": "Ich bestelle Essen. = Я заказываю еду."
+          "example": "Ich bestelle Essen. = Es pasūtu ēdienu."
         },
         {
-          "word": "Резервист",
+          "word": "reservieren",
           "meaning": "Забронировать",
-          "example": "Ich reserviere einen Tisch. = Я зарезервировал столик."
+          "example": "Ich reserviere einen Tisch. = Es rezervēju galdiņu."
         },
         {
-          "word": "Кауфен",
+          "word": "kaufen",
           "meaning": "Купить",
-          "example": "Ich kaufe Brot. = Я покупаю хлеб."
+          "example": "Ich kaufe Brot. = Es pērku maizi."
         },
         {
-          "word": "Целовать",
+          "word": "grüßen",
           "meaning": "Приветствовать/передавать приветствия",
-          "example": "Grüß deine Mutter! = Передавай привет маме!"
+          "example": "Grüß deine Mutter! = Pasveicini mammu!"
         },
         {
-          "word": "Редактировать",
+          "word": "bearbeiten",
           "meaning": "Процесс",
-          "example": "Ich bearbeite den Text. = Я обрабатываю текст."
+          "example": "Ich bearbeite den Text. = Es apstrādāju tekstu."
         }
       ],
       "tip": {
@@ -11939,29 +11939,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Определенно",
+          "word": "bestimmt",
           "meaning": "Определенно / определенный / конкретный",
-          "example": "Das ist bestimmt richtig. = Это, конечно, правильно."
+          "example": "Das ist bestimmt richtig. = Tas noteikti ir pareizi."
         },
         {
-          "word": "Конечно",
+          "word": "sicher",
           "meaning": "Конечно / определенно",
-          "example": "Das ist sicher richtig. = Это, конечно, правильно."
+          "example": "Das ist sicher richtig. = Tas noteikti ir pareizi."
         },
         {
-          "word": "Конкретно",
+          "word": "konkret",
           "meaning": "Специфический",
-          "example": "Ich brauche ein konkretes Beispiel. = Мне нужен конкретный пример."
+          "example": "Ich brauche ein konkretes Beispiel. = Man vajag konkrētu piemēru."
         },
         {
-          "word": "Фестиваль",
+          "word": "fest",
           "meaning": "Твердый/решительный",
-          "example": "Wir haben einen festen Termin. = У нас есть срок."
+          "example": "Wir haben einen festen Termin. = Mums ir noteikts termiņš."
         },
         {
-          "word": "Вероятно",
+          "word": "wahrscheinlich",
           "meaning": "Вероятно / возможно",
-          "example": "Er kommt wahrscheinlich morgen. = Вероятно, он придет завтра."
+          "example": "Er kommt wahrscheinlich morgen. = Viņš droši vien atnāks rīt."
         }
       ],
       "tip": {
@@ -12258,24 +12258,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Бирне",
+          "word": "die Birne",
           "meaning": "Груша / луковица",
-          "example": "Ich esse eine Birne. = Я ем грушу."
+          "example": "Ich esse eine Birne. = Es ēdu bumbieri."
         },
         {
-          "word": "Умереть Глюбирне",
+          "word": "die Glühbirne",
           "meaning": "Лампочка",
-          "example": "Die Glühbirne ist kaputt. = Лампа сломана."
+          "example": "Die Glühbirne ist kaputt. = Spuldze ir saplīsusi."
         },
         {
-          "word": "Лампа",
+          "word": "die Lampe",
           "meaning": "Лампа",
-          "example": "Die Lampe ist hell. = Лампа яркая."
+          "example": "Die Lampe ist hell. = Lampa ir spoža."
         },
         {
-          "word": "Дас Обст",
+          "word": "das Obst",
           "meaning": "Фрукты",
-          "example": "Birnen sind Obst. = Груши – это фрукты."
+          "example": "Birnen sind Obst. = Bumbieri ir augļi."
         }
       ],
       "tip": {
@@ -12627,29 +12627,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Горький",
+          "word": "bitter",
           "meaning": "Горький/жестокий/острый",
-          "example": "Der Kaffee ist bitter. = Кофе горький."
+          "example": "Der Kaffee ist bitter. = Kafija ir rūgta."
         },
         {
-          "word": "Квашеное вино",
+          "word": "sauer",
           "meaning": "Кислый",
-          "example": "Die Zitrone ist sauer. = Лимон кислый."
+          "example": "Die Zitrone ist sauer. = Citrons ir skābs."
         },
         {
-          "word": "Острый",
+          "word": "scharf",
           "meaning": "Острый/пряный",
-          "example": "Die Suppe ist scharf. = Суп острый."
+          "example": "Die Suppe ist scharf. = Zupa ir asa."
         },
         {
-          "word": "Сильный",
+          "word": "streng",
           "meaning": "Твердый / острый",
-          "example": "Der Lehrer ist streng. = Учитель строгий."
+          "example": "Der Lehrer ist streng. = Skolotājs ir stingrs."
         },
         {
-          "word": "Унангенем",
+          "word": "unangenehm",
           "meaning": "Неприятный",
-          "example": "Der Geruch ist unangenehm. = Запах неприятный."
+          "example": "Der Geruch ist unangenehm. = Smarža ir nepatīkama."
         }
       ],
       "tip": {
@@ -13001,29 +13001,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит Бодену",
+          "word": "der Boden",
           "meaning": "Пол/земля/почва/дно",
-          "example": "Die Tasche liegt auf dem Boden. = Сумка лежит на полу."
+          "example": "Die Tasche liegt auf dem Boden. = Soma atrodas uz grīdas."
         },
         {
-          "word": "Дер Фусбоден",
+          "word": "der Fußboden",
           "meaning": "Пол в комнате",
-          "example": "Der Fußboden ist sauber. = Пол чистый."
+          "example": "Der Fußboden ist sauber. = Grīda ir tīra."
         },
         {
-          "word": "Умереть Эрде",
+          "word": "die Erde",
           "meaning": "Земля/почва",
-          "example": "Die Erde ist trocken. = Земля сухая."
+          "example": "Die Erde ist trocken. = Zeme ir sausa."
         },
         {
-          "word": "Дер Грунд",
+          "word": "der Grund",
           "meaning": "Основа/основание/причина",
-          "example": "Das Haus steht auf festem Grund. = Дом стоит на прочном фундаменте."
+          "example": "Das Haus steht auf festem Grund. = Māja stāv uz stingra pamata."
         },
         {
-          "word": "Подходит для Флашенбодена",
+          "word": "der Flaschenboden",
           "meaning": "Нижняя часть бутылки",
-          "example": "Der Flaschenboden ist dick. = Дно бутылки толстое."
+          "example": "Der Flaschenboden ist dick. = Pudeles dibens ir biezs."
         }
       ],
       "tip": {
@@ -13328,24 +13328,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Борген",
+          "word": "borgen",
           "meaning": "Брать / одалживать",
-          "example": "Ich borge mir Geld. = Я занимаю деньги."
+          "example": "Ich borge mir Geld. = Es aizņemos naudu."
         },
         {
-          "word": "Недавно",
+          "word": "leihen",
           "meaning": "Одалживать / брать взаймы",
-          "example": "Kannst du mir das Buch leihen? = Можешь одолжить мне книгу"
+          "example": "Kannst du mir das Buch leihen? = Vai vari man aizdot grāmatu?"
         },
         {
-          "word": "Давать",
+          "word": "geben",
           "meaning": "Дать",
-          "example": "Ich gebe dir Geld. = Я даю тебе деньги."
+          "example": "Ich gebe dir Geld. = Es tev dodu naudu."
         },
         {
-          "word": "Цурюкгебен",
+          "word": "zurückgeben",
           "meaning": "Отдать назад",
-          "example": "Ich gebe das Buch zurück. = Я возвращаю книгу."
+          "example": "Ich gebe das Buch zurück. = Es atdodu grāmatu."
         }
       ],
       "tip": {
@@ -13604,29 +13604,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Бозе",
+          "word": "böse",
           "meaning": "Злой / злой",
-          "example": "Bist du böse auf mich? = Вы сердитесь на меня"
+          "example": "Bist du böse auf mich? = Vai tu esi dusmīgs uz mani?"
         },
         {
-          "word": "Шлехт",
+          "word": "schlecht",
           "meaning": "Плохой",
-          "example": "Das Wetter ist schlecht. = Погода плохая."
+          "example": "Das Wetter ist schlecht. = Laiks ir slikts."
         },
         {
-          "word": "Зорниг",
+          "word": "zornig",
           "meaning": "Яростный",
-          "example": "Er ist zornig. = Он в ярости."
+          "example": "Er ist zornig. = Viņš ir nikns."
         },
         {
-          "word": "Эргерлих",
+          "word": "ärgerlich",
           "meaning": "Раздражает / злит",
-          "example": "Das ist ärgerlich. = Это раздражает."
+          "example": "Das ist ärgerlich. = Tas ir kaitinoši."
         },
         {
-          "word": "Квашеное вино",
+          "word": "sauer",
           "meaning": "Злой / кислый",
-          "example": "Ich bin sauer. = Я зол."
+          "example": "Ich bin sauer. = Es esmu dusmīgs."
         }
       ],
       "tip": {
@@ -13909,34 +13909,34 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Храбрый",
+          "word": "brav",
           "meaning": "Послушный/опрятный/воспитанный",
-          "example": "Das Kind ist brav. = Ребенок послушный."
+          "example": "Das Kind ist brav. = Bērns ir paklausīgs."
         },
         {
-          "word": "Хороший",
+          "word": "gut",
           "meaning": "Хороший",
-          "example": "Er ist ein guter Mensch. = Он хороший человек."
+          "example": "Er ist ein guter Mensch. = Viņš ir labs cilvēks."
         },
         {
-          "word": "Сеть",
+          "word": "nett",
           "meaning": "Хороший",
-          "example": "Sie ist nett. = Она милая."
+          "example": "Sie ist nett. = Viņa ir jauka."
         },
         {
-          "word": "Фрейндлих",
+          "word": "freundlich",
           "meaning": "Дружелюбный / добрый",
-          "example": "Der Verkäufer ist freundlich. = Продавец добрый."
+          "example": "Der Verkäufer ist freundlich. = Pārdevējs ir laipns."
         },
         {
-          "word": "Хороший",
+          "word": "artig",
           "meaning": "Вежливый/воспитанный",
-          "example": "Das Kind ist artig. = Ребенок вежливый."
+          "example": "Das Kind ist artig. = Bērns ir pieklājīgs."
         },
         {
-          "word": "Для гехора",
+          "word": "gehorsam",
           "meaning": "Подчиняющийся власти",
-          "example": "Der Hund ist gehorsam. = Собака послушная."
+          "example": "Der Hund ist gehorsam. = Suns ir paklausīgs."
         }
       ],
       "tip": [
@@ -14182,29 +14182,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Бреннен",
+          "word": "brennen",
           "meaning": "Жечь / обжигать / жгуче болеть",
-          "example": "Das Feuer brennt. = Огонь горит."
+          "example": "Das Feuer brennt. = Uguns deg."
         },
         {
-          "word": "Зажечь",
+          "word": "anzünden",
           "meaning": "Поджечь",
-          "example": "Ich zünde die Kerze an. = Я зажигаю свечу."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
-          "word": "Вербреннен",
+          "word": "verbrennen",
           "meaning": "Сжечь / сжечь",
-          "example": "Ich habe mich verbrannt. = Я сжег себя."
+          "example": "Ich habe mich verbrannt. = Es apdedzinājos."
         },
         {
-          "word": "Удалить",
+          "word": "löschen",
           "meaning": "Стереть/удалить",
-          "example": "Die Feuerwehr löscht das Feuer. = Пожарные тушат огонь."
+          "example": "Die Feuerwehr löscht das Feuer. = Ugunsdzēsēji dzēš uguni."
         },
         {
-          "word": "Ауфнемен",
+          "word": "aufnehmen",
           "meaning": "Запись / запись",
-          "example": "Ich nehme ein Video auf. = Я записываю видео."
+          "example": "Ich nehme ein Video auf. = Es ierakstu video."
         }
       ],
       "tip": [
@@ -14577,29 +14577,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Кроме того",
+          "word": "dabei",
           "meaning": "Присутствует/с/помимо",
-          "example": "Ich habe den Schlüssel dabei. = Ключ у меня с собой."
+          "example": "Ich habe den Schlüssel dabei. = Man ir līdzi atslēga."
         },
         {
-          "word": "С дабей",
+          "word": "mit dabei",
           "meaning": "Также присутствует / участвует",
-          "example": "Bist du morgen mit dabei? = Вы тоже будете участвовать завтра?"
+          "example": "Bist du morgen mit dabei? = Vai tu rīt arī piedalīsies?"
         },
         {
-          "word": "Дорт",
+          "word": "dort",
           "meaning": "Там",
-          "example": "Ich war dort. = Я был там."
+          "example": "Ich war dort. = Es biju tur."
         },
         {
-          "word": "Также",
+          "word": "außerdem",
           "meaning": "Кроме того",
-          "example": "Außerdem ist es teuer. = Кроме того, это дорого."
+          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
         },
         {
-          "word": "Тем не менее",
+          "word": "trotzdem",
           "meaning": "Однако",
-          "example": "Trotzdem komme ich. = Однако я приду."
+          "example": "Trotzdem komme ich. = Tomēr es nākšu."
         }
       ],
       "tip": {
@@ -14889,29 +14889,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Для этого",
+          "word": "dafür",
           "meaning": "Для того/того/однако",
-          "example": "Danke dafür. = Спасибо за это."
+          "example": "Danke dafür. = Paldies par to."
         },
         {
-          "word": "Давай сделаем",
+          "word": "darum",
           "meaning": "Поэтому / поэтому",
-          "example": "Darum bleibe ich zu Hause. = Вот почему я остаюсь дома."
+          "example": "Darum bleibe ich zu Hause. = Tāpēc es palieku mājās."
         },
         {
-          "word": "Поэтому",
+          "word": "deshalb",
           "meaning": "Поэтому",
-          "example": "Deshalb komme ich später. = Так что я приду позже."
+          "example": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk."
         },
         {
-          "word": "Дагеген",
+          "word": "dagegen",
           "meaning": "Против этого",
-          "example": "Ich bin dagegen. = Я против этого."
+          "example": "Ich bin dagegen. = Es esmu pret to."
         },
         {
-          "word": "Для даса",
+          "word": "für das",
           "meaning": "Для этого / для этого",
-          "example": "Das ist für das Kind. = Это для ребенка."
+          "example": "Das ist für das Kind. = Tas ir bērnam."
         }
       ],
       "tip": {
@@ -15221,24 +15221,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Черт возьми",
+          "word": "damit",
           "meaning": "С этим / с",
-          "example": "Ich lerne, damit ich bestehe. = Я учусь, чтобы сдать."
+          "example": "Ich lerne, damit ich bestehe. = Es mācos, lai nokārtotu."
         },
         {
-          "word": "С ними",
+          "word": "mit dem",
           "meaning": "С этой конкретной вещью",
-          "example": "Ich schreibe mit dem Stift. = Я пишу этой ручкой."
+          "example": "Ich schreibe mit dem Stift. = Es rakstu ar to pildspalvu."
         },
         {
-          "word": "Хм... тьфу",
+          "word": "um ... zu",
           "meaning": "To + глагол",
-          "example": "Ich lerne, um zu bestehen. = Я учусь, чтобы сдать."
+          "example": "Ich lerne, um zu bestehen. = Es mācos, lai nokārtotu."
         },
         {
-          "word": "Поэтому",
+          "word": "deshalb",
           "meaning": "Поэтому",
-          "example": "Deshalb bleibe ich hier. = Вот почему я остаюсь здесь."
+          "example": "Deshalb bleibe ich hier. = Tāpēc es palieku šeit."
         }
       ],
       "tip": {
@@ -15535,29 +15535,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ок, спасибо",
+          "word": "der Dank",
           "meaning": "Благодарность (существительное)",
-          "example": "Herzlichen Dank! = Искреннее спасибо!"
+          "example": "Herzlichen Dank! = Sirsnīgs paldies!"
         },
         {
-          "word": "Спасибо",
+          "word": "danke",
           "meaning": "Спасибо (ответ)",
-          "example": "Nein, danke. = Нет, спасибо."
+          "example": "Nein, danke. = Nē, paldies."
         },
         {
-          "word": "Спасибо",
+          "word": "danken",
           "meaning": "Поблагодарить",
-          "example": "Ich danke dir. = Я благодарю вас."
+          "example": "Ich danke dir. = Es tev pateicos."
         },
         {
-          "word": "Большое спасибо",
+          "word": "Vielen Dank",
           "meaning": "Большое спасибо (фраза)",
-          "example": "Vielen Dank für die Hilfe! = Большое спасибо за вашу помощь!"
+          "example": "Vielen Dank für die Hilfe! = Liels paldies par palīdzību!"
         },
         {
-          "word": "Спасибо",
+          "word": "bedanken (sich)",
           "meaning": "Официально поблагодарить",
-          "example": "Ich bedanke mich bei Ihnen. = Я благодарю вас."
+          "example": "Ich bedanke mich bei Ihnen. = Es pateicos jums."
         }
       ],
       "tip": {
@@ -15812,24 +15812,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "На этом",
+          "word": "darauf",
           "meaning": "На том/на том/после этого",
-          "example": "Ich warte darauf. = Я с нетерпением жду этого."
+          "example": "Ich warte darauf. = Es gaidu uz to."
         },
         {
-          "word": "На днях",
+          "word": "auf das",
           "meaning": "К этому конкретному случаю",
-          "example": "Ich lege es auf das Buch. = Я положил это в книгу."
+          "example": "Ich lege es auf das Buch. = Es lieku to uz grāmatas."
         },
         {
-          "word": "Сегодня",
+          "word": "danach",
           "meaning": "После этого",
-          "example": "Danach gehe ich nach Hause. = После этого я иду домой."
+          "example": "Danach gehe ich nach Hause. = Pēc tam es eju mājās."
         },
         {
-          "word": "Об этом",
+          "word": "darüber",
           "meaning": "Об этом / над этим",
-          "example": "Wir sprechen darüber. = Мы говорим об этом."
+          "example": "Wir sprechen darüber. = Mēs runājam par to."
         }
       ],
       "tip": {
@@ -16097,24 +16097,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Об этом",
+          "word": "darüber",
           "meaning": "Об этом / над этим / над этим",
-          "example": "Wir sprechen darüber. = Мы говорим об этом."
+          "example": "Wir sprechen darüber. = Mēs runājam par to."
         },
         {
-          "word": "Очень дас",
+          "word": "über das",
           "meaning": "Для этой конкретной вещи/над ней",
-          "example": "Wir sprechen über das Problem. = Мы говорим о проблеме."
+          "example": "Wir sprechen über das Problem. = Mēs runājam par problēmu."
         },
         {
-          "word": "На этом",
+          "word": "darauf",
           "meaning": "На том/на том/после этого",
-          "example": "Ich warte darauf. = Я с нетерпением жду этого."
+          "example": "Ich warte darauf. = Es gaidu uz to."
         },
         {
-          "word": "Этого",
+          "word": "davon",
           "meaning": "Для этого/от этого",
-          "example": "Ich habe davon gehört. = Я слышал об этом."
+          "example": "Ich habe davon gehört. = Es par to dzirdēju."
         }
       ],
       "tip": {
@@ -16392,29 +16392,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Давай сделаем",
+          "word": "darum",
           "meaning": "Поэтому/поэтому/вокруг этого",
-          "example": "Darum bleibe ich hier. = Вот почему я остаюсь здесь."
+          "example": "Darum bleibe ich hier. = Tāpēc es palieku šeit."
         },
         {
-          "word": "Поэтому",
+          "word": "deshalb",
           "meaning": "Поэтому",
-          "example": "Deshalb komme ich später. = Так что я приду позже."
+          "example": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk."
         },
         {
-          "word": "Десвеген",
+          "word": "deswegen",
           "meaning": "Поэтому / по этой причине",
-          "example": "Deswegen bin ich müde. = Вот почему я устал."
+          "example": "Deswegen bin ich müde. = Tāpēc esmu noguris."
         },
         {
-          "word": "Хм дас",
+          "word": "um das",
           "meaning": "Вокруг этой конкретной вещи",
-          "example": "Wir sitzen um das Feuer. = Мы сидим вокруг костра."
+          "example": "Wir sitzen um das Feuer. = Mēs sēžam ap uguni."
         },
         {
-          "word": "Для этого",
+          "word": "dafür",
           "meaning": "Для того/того/однако",
-          "example": "Danke dafür. = Спасибо за это."
+          "example": "Danke dafür. = Paldies par to."
         }
       ],
       "tip": {
@@ -16862,24 +16862,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Благоволить",
+          "word": "davor",
           "meaning": "Перед/до этого/от этого",
-          "example": "Ich habe Angst davor. = Я боюсь этого."
+          "example": "Ich habe Angst davor. = Man ir bail no tā."
         },
         {
-          "word": "Для них",
+          "word": "vor dem",
           "meaning": "Перед/перед конкретным",
-          "example": "Vor dem Haus steht ein Auto. = Перед домом стоит машина."
+          "example": "Vor dem Haus steht ein Auto. = Mājas priekšā stāv auto."
         },
         {
-          "word": "Сегодня",
+          "word": "danach",
           "meaning": "После этого",
-          "example": "Danach gehen wir. = После этого идем."
+          "example": "Danach gehen wir. = Pēc tam mēs ejam."
         },
         {
-          "word": "На этом",
+          "word": "darauf",
           "meaning": "Об этом/после этого",
-          "example": "Ich warte darauf. = Я с нетерпением жду этого."
+          "example": "Ich warte darauf. = Es gaidu uz to."
         }
       ],
       "tip": [
@@ -17058,24 +17058,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дазу",
+          "word": "dazu",
           "meaning": "К тому/к тому/настоящему/более того",
-          "example": "Was sagst du dazu? = Что ты скажешь на это?"
+          "example": "Was sagst du dazu? = Ko tu par to saki?"
         },
         {
-          "word": "Для этого",
+          "word": "dafür",
           "meaning": "Для того/того/однако",
-          "example": "Danke dafür. = Спасибо за это."
+          "example": "Danke dafür. = Paldies par to."
         },
         {
-          "word": "Кроме того",
+          "word": "dabei",
           "meaning": "Присутствует/с/помимо",
-          "example": "Ich war dabei. = Я был там."
+          "example": "Ich war dabei. = Es biju klāt."
         },
         {
-          "word": "Также",
+          "word": "außerdem",
           "meaning": "Кроме того",
-          "example": "Außerdem ist es teuer. = Кроме того, это дорого."
+          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
         }
       ],
       "tip": [
@@ -17258,29 +17258,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Колода",
+          "word": "die Decke",
           "meaning": "Одеяло / потолок",
-          "example": "Die Decke ist warm. = Одеяло теплое."
+          "example": "Die Decke ist warm. = Sega ir silta."
         },
         {
-          "word": "Умереть Бетдеке",
+          "word": "die Bettdecke",
           "meaning": "Одеяло на кровати",
-          "example": "Die Bettdecke ist weich. = Одеяло мягкое."
+          "example": "Die Bettdecke ist weich. = Sega ir mīksta."
         },
         {
-          "word": "Умереть Циммердеке",
+          "word": "die Zimmerdecke",
           "meaning": "Потолок",
-          "example": "Die Zimmerdecke ist hoch. = Потолок высокий."
+          "example": "Die Zimmerdecke ist hoch. = Griesti ir augsti."
         },
         {
-          "word": "Дас Дах",
+          "word": "das Dach",
           "meaning": "Крыша",
-          "example": "Das Dach ist rot. = Крыша красная."
+          "example": "Das Dach ist rot. = Jumts ir sarkans."
         },
         {
-          "word": "Умереть палочка",
+          "word": "die Wand",
           "meaning": "Стена",
-          "example": "Das Bild hängt an der Wand. = Картина висит на стене."
+          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
         }
       ],
       "tip": [
@@ -17503,24 +17503,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Денн",
+          "word": "denn",
           "meaning": "Потому что / тогда вопросы",
-          "example": "Was machst du denn? = Что ты делаешь тогда"
+          "example": "Was machst du denn? = Ko tad tu dari?"
         },
         {
-          "word": "Хорошо",
+          "word": "weil",
           "meaning": "Потому что / потому что",
-          "example": "Ich bleibe, weil es regnet. = Я остаюсь, потому что идет дождь."
+          "example": "Ich bleibe, weil es regnet. = Es palieku, jo līst."
         },
         {
-          "word": "Затем",
+          "word": "dann",
           "meaning": "Затем",
-          "example": "Dann gehen wir. = Тогда мы идем."
+          "example": "Dann gehen wir. = Tad mēs ejam."
         },
         {
-          "word": "Поэтому",
+          "word": "deshalb",
           "meaning": "Поэтому",
-          "example": "Deshalb bleibe ich. = Вот почему я остаюсь."
+          "example": "Deshalb bleibe ich. = Tāpēc es palieku."
         }
       ],
       "tip": [
@@ -17744,29 +17744,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Хуй",
+          "word": "dick",
           "meaning": "Толстый / толстый",
-          "example": "Das Buch ist dick. = Книга толстая."
+          "example": "Das Buch ist dick. = Grāmata ir bieza."
         },
         {
-          "word": "Фетт",
+          "word": "fett",
           "meaning": "Жир / жир",
-          "example": "Das Essen ist fett. = Еда жирная."
+          "example": "Das Essen ist fett. = Ēdiens ir trekns."
         },
         {
-          "word": "Вчера",
+          "word": "dünn",
           "meaning": "Тонкий / тонкий",
-          "example": "Das Papier ist dünn. = Бумага тонкая."
+          "example": "Das Papier ist dünn. = Papīrs ir plāns."
         },
         {
-          "word": "Широкий",
+          "word": "breit",
           "meaning": "Широкий",
-          "example": "Die Straße ist breit. = Улица широкая."
+          "example": "Die Straße ist breit. = Iela ir plata."
         },
         {
-          "word": "Сильный",
+          "word": "stark",
           "meaning": "Сильный",
-          "example": "Er ist stark. = Он сильный."
+          "example": "Er ist stark. = Viņš ir stiprs."
         }
       ],
       "tip": [
@@ -17969,29 +17969,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Но",
+          "word": "doch",
           "meaning": "Но / тем не менее / оба / джел",
-          "example": "Komm doch! = Ну давай же!"
+          "example": "Komm doch! = Nāc taču!"
         },
         {
-          "word": "Но",
+          "word": "aber",
           "meaning": "Но",
-          "example": "Ich will, aber ich kann nicht. = Я хочу, но не могу."
+          "example": "Ich will, aber ich kann nicht. = Es gribu, bet nevaru."
         },
         {
-          "word": "Тем не менее",
+          "word": "trotzdem",
           "meaning": "Однако/несмотря на это",
-          "example": "Es regnet, trotzdem gehe ich. = Идет дождь, но я иду."
+          "example": "Es regnet, trotzdem gehe ich. = Līst, tomēr es eju."
         },
         {
-          "word": "Если",
+          "word": "ja",
           "meaning": "Уже / но когда говорящий принимает что-то как должное",
-          "example": "Du weißt ja. = Вы уже знаете."
+          "example": "Du weißt ja. = Tu jau zini."
         },
         {
-          "word": "Ничего",
+          "word": "nein",
           "meaning": "Нет",
-          "example": "Kommst du? Nein. = Ты придешь Нет?"
+          "example": "Kommst du? Nein. = Vai tu nāksi? Nē."
         }
       ],
       "tip": {
@@ -18298,29 +18298,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ок, доктор",
+          "word": "der Doktor",
           "meaning": "Врач / в просторечии доктор",
-          "example": "Ich gehe zum Doktor. = Я иду к врачу."
+          "example": "Ich gehe zum Doktor. = Es eju pie ārsta."
         },
         {
-          "word": "Говорит Арцт",
+          "word": "der Arzt",
           "meaning": "Врач",
-          "example": "Der Arzt hilft mir. = Доктор мне помогает."
+          "example": "Der Arzt hilft mir. = Ārsts man palīdz."
         },
         {
-          "word": "Умереть Эрцтин",
+          "word": "die Ärztin",
           "meaning": "Врач",
-          "example": "Die Ärztin arbeitet hier. = Здесь работает врач."
+          "example": "Die Ärztin arbeitet hier. = Ārste strādā šeit."
         },
         {
-          "word": "Дер Титель",
+          "word": "der Titel",
           "meaning": "Заголовок",
-          "example": "Doktor ist ein Titel. = Доктор – это звание."
+          "example": "Doktor ist ein Titel. = Doktors ir tituls."
         },
         {
-          "word": "Умереть Праксис",
+          "word": "die Praxis",
           "meaning": "Медицинская практика",
-          "example": "Die Praxis ist offen. = Практика врача открыта."
+          "example": "Die Praxis ist offen. = Ārsta prakse ir atvērta."
         }
       ],
       "tip": [
@@ -18995,29 +18995,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Вчера",
+          "word": "dünn",
           "meaning": "Тонкий / тонкий / тонкий / жидкий",
-          "example": "Das Papier ist dünn. = Бумага тонкая."
+          "example": "Das Papier ist dünn. = Papīrs ir plāns."
         },
         {
-          "word": "Хуй",
+          "word": "dick",
           "meaning": "Толстый / толстый",
-          "example": "Das Buch ist dick. = Книга толстая."
+          "example": "Das Buch ist dick. = Grāmata ir bieza."
         },
         {
-          "word": "Шмаль",
+          "word": "schmal",
           "meaning": "Узкий",
-          "example": "Die Straße ist schmal. = Улица узкая."
+          "example": "Die Straße ist schmal. = Iela ir šaura."
         },
         {
-          "word": "Магер",
+          "word": "mager",
           "meaning": "Худой/худощавый",
-          "example": "Das Fleisch ist mager. = Мясо постное."
+          "example": "Das Fleisch ist mager. = Gaļa ir liesa."
         },
         {
-          "word": "Флюссиг",
+          "word": "flüssig",
           "meaning": "Жидкость",
-          "example": "Honig ist flüssig. = Мед жидкий."
+          "example": "Honig ist flüssig. = Medus ir šķidrs."
         }
       ],
       "tip": [
@@ -19424,24 +19424,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Эбен",
+          "word": "eben",
           "meaning": "Точно / просто / так и есть / ровно",
-          "example": "Das ist eben so. = Так оно и есть."
+          "example": "Das ist eben so. = Tā tas vienkārši ir."
         },
         {
-          "word": "Прямо сейчас",
+          "word": "gerade",
           "meaning": "Прямо сейчас / прямо",
-          "example": "Ich bin gerade zu Hause. = Я сейчас дома."
+          "example": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās."
         },
         {
-          "word": "Джераде Эбен",
+          "word": "gerade eben",
           "meaning": "Прямо сейчас",
-          "example": "Ich habe ihn gerade eben gesehen. = Я только что видел его."
+          "example": "Ich habe ihn gerade eben gesehen. = Es viņu tikko redzēju."
         },
         {
-          "word": "Вспышка",
+          "word": "flach",
           "meaning": "Плоский",
-          "example": "Das Land ist flach. = Земля плоская."
+          "example": "Das Land ist flach. = Zeme ir plakana."
         }
       ],
       "tip": {
@@ -19773,24 +19773,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Эрлих",
+          "word": "ehrlich",
           "meaning": "Честный/открытый",
-          "example": "Er ist ehrlich. = Он честен."
+          "example": "Er ist ehrlich. = Viņš ir godīgs."
         },
         {
-          "word": "Ауфрихтиг",
+          "word": "aufrichtig",
           "meaning": "Искренний/искренний/открытый",
-          "example": "Das war aufrichtig. = Это была правда."
+          "example": "Das war aufrichtig. = Tas bija patiesi."
         },
         {
-          "word": "Сеть",
+          "word": "nett",
           "meaning": "Хороший",
-          "example": "Sie ist nett. = Она милая."
+          "example": "Sie ist nett. = Viņa ir jauka."
         },
         {
-          "word": "Хороший",
+          "word": "gut",
           "meaning": "Хороший",
-          "example": "Er ist ein guter Mensch. = Он хороший человек."
+          "example": "Er ist ein guter Mensch. = Viņš ir labs cilvēks."
         }
       ],
       "tip": [
@@ -19972,24 +19972,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Eigentlich",
+          "word": "eigentlich",
           "meaning": "На самом деле / ​​на самом деле / ​​настоящий",
-          "example": "Eigentlich habe ich keine Zeit. = На самом деле у меня нет времени."
+          "example": "Eigentlich habe ich keine Zeit. = Patiesībā man nav laika."
         },
         {
-          "word": "Ехт",
+          "word": "echt",
           "meaning": "Настоящий",
-          "example": "Das ist echt. = Это реально."
+          "example": "Das ist echt. = Tas ir īsts."
         },
         {
-          "word": "Ух ты",
+          "word": "wahr",
           "meaning": "Истинный",
-          "example": "Das ist wahr. = Это правда."
+          "example": "Das ist wahr. = Tas ir patiess."
         },
         {
-          "word": "Действительно",
+          "word": "wirklich",
           "meaning": "Действительно / действительно",
-          "example": "Das ist wirklich gut. = Это действительно хорошо."
+          "example": "Das ist wirklich gut. = Tas tiešām ir labi."
         }
       ],
       "tip": [
@@ -20237,24 +20237,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Эйнладен",
+          "word": "einladen",
           "meaning": "Пригласить/загрузить",
-          "example": "Ich lade dich ein. = Я приглашаю вас."
+          "example": "Ich lade dich ein. = Es tevi uzaicinu."
         },
         {
-          "word": "Загрузка",
+          "word": "laden",
           "meaning": "Нагрузка/заряд",
-          "example": "Ich lade das Handy. = Я заряжаю свой телефон."
+          "example": "Ich lade das Handy. = Es lādēju telefonu."
         },
         {
-          "word": "Посещать",
+          "word": "besuchen",
           "meaning": "Посетить / посетить",
-          "example": "Ich besuche dich. = Я к тебе в гости."
+          "example": "Ich besuche dich. = Es tevi apciemoju."
         },
         {
-          "word": "Митбринген",
+          "word": "mitbringen",
           "meaning": "Возьми с собой",
-          "example": "Bring bitte Brot mit. = Возьмите с собой хлеб."
+          "example": "Bring bitte Brot mit. = Paņem līdzi maizi."
         }
       ],
       "tip": {
@@ -20541,24 +20541,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Айншлантен",
+          "word": "einschalten",
           "meaning": "Включить/задействовать",
-          "example": "Ich schalte das Licht ein. = Я включил свет."
+          "example": "Ich schalte das Licht ein. = Es ieslēdzu gaismu."
         },
         {
-          "word": "Аусшальтен",
+          "word": "ausschalten",
           "meaning": "Выключать",
-          "example": "Schalte den Computer aus. = Выключите компьютер."
+          "example": "Schalte den Computer aus. = Izslēdz datoru."
         },
         {
-          "word": "Анмачен",
+          "word": "anmachen",
           "meaning": "Включить (разговорный)",
-          "example": "Mach das Licht an. = Включите свет."
+          "example": "Mach das Licht an. = Ieslēdz gaismu."
         },
         {
-          "word": "Эйнбезиехен",
+          "word": "einbeziehen",
           "meaning": "Вовлекать",
-          "example": "Wir beziehen ihn ein. = Мы привлекаем его."
+          "example": "Wir beziehen ihn ein. = Mēs viņu iesaistām."
         }
       ],
       "tip": {
@@ -20822,24 +20822,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Спать",
+          "word": "einschlafen",
           "meaning": "Заснуть / онеметь",
-          "example": "Ich schlafe ein. = Я заснул."
+          "example": "Ich schlafe ein. = Es aizmiegu."
         },
         {
-          "word": "Спать",
+          "word": "schlafen",
           "meaning": "Спать",
-          "example": "Ich schlafe acht Stunden. = Я сплю восемь часов."
+          "example": "Ich schlafe acht Stunden. = Es guļu astoņas stundas."
         },
         {
-          "word": "Ауфвахен",
+          "word": "aufwachen",
           "meaning": "Проснуться",
-          "example": "Ich wache früh auf. = Я просыпаюсь рано."
+          "example": "Ich wache früh auf. = Es pamostos agri."
         },
         {
-          "word": "Тауб Верден",
+          "word": "taub werden",
           "meaning": "Онеметь",
-          "example": "Mein Bein wird taub. = Моя нога немеет."
+          "example": "Mein Bein wird taub. = Mana kāja kļūst nejutīga."
         }
       ],
       "tip": [
@@ -21040,24 +21040,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Эйнштайген",
+          "word": "einsteigen",
           "meaning": "Вмешаться / принять участие",
-          "example": "Ich steige in den Zug ein. = Я сажусь в поезд."
+          "example": "Ich steige in den Zug ein. = Es iekāpju vilcienā."
         },
         {
-          "word": "Аусштайген",
+          "word": "aussteigen",
           "meaning": "Выйти / уйти",
-          "example": "Ich steige hier aus. = Я выхожу здесь."
+          "example": "Ich steige hier aus. = Es šeit izkāpju."
         },
         {
-          "word": "Умштайген",
+          "word": "umsteigen",
           "meaning": "Пересесть",
-          "example": "Wir steigen um. = Меняемся местами."
+          "example": "Wir steigen um. = Mēs pārsēžamies."
         },
         {
-          "word": "Митмахен",
+          "word": "mitmachen",
           "meaning": "Участвовать",
-          "example": "Ich mache mit. = Я участвую."
+          "example": "Ich mache mit. = Es piedalos."
         }
       ],
       "tip": {
@@ -21321,24 +21321,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Эйнтритт",
+          "word": "der Eintritt",
           "meaning": "Вход / входная плата / вход",
-          "example": "Der Eintritt ist frei. = Вход бесплатный."
+          "example": "Der Eintritt ist frei. = Ieeja ir bez maksas."
         },
         {
-          "word": "Дер Эйнганг",
+          "word": "der Eingang",
           "meaning": "Физический вход",
-          "example": "Der Eingang ist links. = Вход слева."
+          "example": "Der Eingang ist links. = Ieeja ir pa kreisi."
         },
         {
-          "word": "Умереть Eintrittskarte",
+          "word": "die Eintrittskarte",
           "meaning": "Входной билет",
-          "example": "Ich habe eine Eintrittskarte. = У меня есть входной билет."
+          "example": "Ich habe eine Eintrittskarte. = Man ir ieejas biļete."
         },
         {
-          "word": "Бейтретен",
+          "word": "beitreten",
           "meaning": "Присоединиться к организации",
-          "example": "Ich trete dem Verein bei. = Я вступил в ассоциацию."
+          "example": "Ich trete dem Verein bei. = Es iestājos biedrībā."
         }
       ],
       "tip": [
@@ -22010,24 +22010,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Помнить",
+          "word": "erinnern",
           "meaning": "Напомнить",
-          "example": "Erinnere mich bitte daran. = Пожалуйста, напомните мне об этом."
+          "example": "Erinnere mich bitte daran. = Lūdzu, atgādini man to."
         },
         {
-          "word": "Sich erinnern",
+          "word": "sich erinnern",
           "meaning": "Помнить",
-          "example": "Ich erinnere mich daran. = Я это помню."
+          "example": "Ich erinnere mich daran. = Es to atceros."
         },
         {
-          "word": "Забывать",
+          "word": "vergessen",
           "meaning": "Забывать",
-          "example": "Ich vergesse den Termin. = Я забыл о встрече."
+          "example": "Ich vergesse den Termin. = Es aizmirstu tikšanos."
         },
         {
-          "word": "Подумать о",
+          "word": "denken an",
           "meaning": "Подумать/не забыть сделать",
-          "example": "Denk an den Schlüssel. = Помните ключ."
+          "example": "Denk an den Schlüssel. = Atceries par atslēgu."
         }
       ],
       "tip": [
@@ -22382,24 +22382,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Приблизительно",
+          "word": "etwa",
           "meaning": "О • Также в вопросах или тогда/действительно",
-          "example": "Das dauert etwa 20 Minuten. = Это занимает около 20 минут."
+          "example": "Das dauert etwa 20 Minuten. = Tas ilgst apmēram 20 minūtes."
         },
         {
-          "word": "Приблизительно",
+          "word": "ungefähr",
           "meaning": "Примерно/примерно, нейтрально",
-          "example": "Das dauert ungefähr 20 Minuten. = Это длится около 20 минут."
+          "example": "Das dauert ungefähr 20 Minuten. = Tas ilgst aptuveni 20 minūtes."
         },
         {
-          "word": "Нравиться?",
+          "word": "etwa?",
           "meaning": "Или тогда / действительно под вопросом",
-          "example": "Hast du das etwa vergessen? = Ты забыл об этом тогда?"
+          "example": "Hast du das etwa vergessen? = Vai tad tu to aizmirsi?"
         },
         {
-          "word": "Может быть",
+          "word": "vielleicht",
           "meaning": "Может быть",
-          "example": "Vielleicht kommt er. = Может быть, он придет."
+          "example": "Vielleicht kommt er. = Varbūt viņš atnāks."
         }
       ],
       "tip": [
@@ -22637,29 +22637,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Фах",
+          "word": "das Fach",
           "meaning": "Отдел/предмет/сектор",
-          "example": "Das Fach ist leer. = Отсек пуст."
+          "example": "Das Fach ist leer. = Nodalījums ir tukšs."
         },
         {
-          "word": "Дас Шульфах",
+          "word": "das Schulfach",
           "meaning": "Предмет исследования",
-          "example": "Biologie ist ein Schulfach. = Биология – это предмет."
+          "example": "Biologie ist ein Schulfach. = Bioloģija ir mācību priekšmets."
         },
         {
-          "word": "Дас Шранкфах",
+          "word": "das Schrankfach",
           "meaning": "Шкаф-купе",
-          "example": "Das Schrankfach ist klein. = Шкаф-купе небольшой."
+          "example": "Das Schrankfach ist klein. = Skapja nodalījums ir mazs."
         },
         {
-          "word": "Das Fachgebiet",
+          "word": "das Fachgebiet",
           "meaning": "Специальность/отрасль",
-          "example": "Das ist mein Fachgebiet. = Это моя специальность."
+          "example": "Das ist mein Fachgebiet. = Tā ir mana specialitāte."
         },
         {
-          "word": "Дер Беруф",
+          "word": "der Beruf",
           "meaning": "Профессия",
-          "example": "Mein Beruf ist Lehrer. = Моя профессия – учитель."
+          "example": "Mein Beruf ist Lehrer. = Mana profesija ir skolotājs."
         }
       ],
       "tip": {
@@ -23038,29 +23038,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит для осени",
+          "word": "der Fall",
           "meaning": "Футляр/падение/складной/вещь",
-          "example": "In diesem Fall komme ich. = В таком случае я приду."
+          "example": "In diesem Fall komme ich. = Šajā gadījumā es nākšu."
         },
         {
-          "word": "Подходит для Unfall",
+          "word": "der Unfall",
           "meaning": "Несчастный случай",
-          "example": "Der Unfall war schlimm. = Авария была серьезной."
+          "example": "Der Unfall war schlimm. = Negadījums bija smags."
         },
         {
-          "word": "Умереть Ситуация",
+          "word": "die Situation",
           "meaning": "Ситуация",
-          "example": "Die Situation ist schwierig. = Ситуация сложная."
+          "example": "Die Situation ist schwierig. = Situācija ir grūta."
         },
         {
-          "word": "Дер Касус",
+          "word": "der Kasus",
           "meaning": "Грамматическое склонение",
-          "example": "Der Kasus ist wichtig. = Складка важна."
+          "example": "Der Kasus ist wichtig. = Locījums ir svarīgs."
         },
         {
-          "word": "Дер Герихтсфаль",
+          "word": "der Gerichtsfall",
           "meaning": "Судебное дело",
-          "example": "Der Gerichtsfall dauert lange. = Судебное разбирательство занимает много времени."
+          "example": "Der Gerichtsfall dauert lange. = Tiesas lieta ilgst ilgi."
         }
       ],
       "tip": {
@@ -23420,24 +23420,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Фелен",
+          "word": "fehlen",
           "meaning": "Отсутствует/нет",
-          "example": "Mir fehlt Geld. = Мне не хватает денег."
+          "example": "Mir fehlt Geld. = Man trūkst naudas."
         },
         {
-          "word": "Браухен",
+          "word": "brauchen",
           "meaning": "Нуждаться",
-          "example": "Ich brauche Geld. = Мне нужны деньги."
+          "example": "Ich brauche Geld. = Man vajag naudu."
         },
         {
-          "word": "Вермиссен",
+          "word": "vermissen",
           "meaning": "Тоска/скучаю по человеку",
-          "example": "Ich vermisse dich. = Я скучаю по тебе"
+          "example": "Ich vermisse dich. = Man tevis pietrūkst."
         },
         {
-          "word": "Отсутствовать",
+          "word": "abwesend sein",
           "meaning": "Не присутствовать",
-          "example": "Er ist abwesend. = Его нет."
+          "example": "Er ist abwesend. = Viņš nav klāt."
         }
       ],
       "tip": [
@@ -24010,29 +24010,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Фойер",
+          "word": "das Feuer",
           "meaning": "Огонь / огонь",
-          "example": "Das Feuer brennt. = Огонь горит."
+          "example": "Das Feuer brennt. = Uguns deg."
         },
         {
-          "word": "Подходит для бренда",
+          "word": "der Brand",
           "meaning": "Огонь",
-          "example": "Der Brand ist groß. = Пожар большой."
+          "example": "Der Brand ist groß. = Ugunsgrēks ir liels."
         },
         {
-          "word": "Умереть Фламме",
+          "word": "die Flamme",
           "meaning": "Пламя",
-          "example": "Die Flamme ist klein. = Пламя маленькое."
+          "example": "Die Flamme ist klein. = Liesma ir maza."
         },
         {
-          "word": "Умереть Фейервер",
+          "word": "die Feuerwehr",
           "meaning": "Пожарные",
-          "example": "Die Feuerwehr kommt. = Пожарные уже в пути."
+          "example": "Die Feuerwehr kommt. = Ugunsdzēsēji brauc."
         },
         {
-          "word": "Feuer Geben",
+          "word": "Feuer geben",
           "meaning": "Открытый огонь",
-          "example": "Die Soldaten geben Feuer. = Солдаты открывают огонь."
+          "example": "Die Soldaten geben Feuer. = Kareivji atklāj uguni."
         }
       ],
       "tip": {
@@ -24482,24 +24482,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Следовать",
+          "word": "folgen",
           "meaning": "Следовать / следовать",
-          "example": "Ich folge dir. = Я следую за тобой."
+          "example": "Ich folge dir. = Es tev sekoju."
         },
         {
-          "word": "Следовать",
+          "word": "verfolgen",
           "meaning": "Преследовать / следовать",
-          "example": "Die Polizei verfolgt den Täter. = Полиция преследует виновного."
+          "example": "Die Polizei verfolgt den Täter. = Policija vajā vainīgo."
         },
         {
-          "word": "Гехорхен",
+          "word": "gehorchen",
           "meaning": "Слушать/подчиняться",
-          "example": "Das Kind gehorcht. = Ребенок слушает."
+          "example": "Das Kind gehorcht. = Bērns klausa."
         },
         {
-          "word": "Бефольген",
+          "word": "befolgen",
           "meaning": "Следуй инструкциям",
-          "example": "Befolgen Sie die Regeln. = Следуйте правилам."
+          "example": "Befolgen Sie die Regeln. = Ievērojiet noteikumus."
         }
       ],
       "tip": [
@@ -24903,29 +24903,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Фюрен",
+          "word": "führen",
           "meaning": "Вести / вести / быть ведомым",
-          "example": "Der Weg führt zum Bahnhof. = Дорога ведет к вокзалу."
+          "example": "Der Weg führt zum Bahnhof. = Ceļš ved uz staciju."
         },
         {
-          "word": "Лейтенант",
+          "word": "leiten",
           "meaning": "Управлять организацией/процессом",
-          "example": "Sie leitet die Firma. = Она управляет компанией."
+          "example": "Sie leitet die Firma. = Viņa vada firmu."
         },
         {
-          "word": "По Фарену",
+          "word": "fahren",
           "meaning": "Ездить / ездить на транспорте",
-          "example": "Ich fahre nach Hause. = Я еду домой."
+          "example": "Ich fahre nach Hause. = Es braucu mājās."
         },
         {
-          "word": "Приносить",
+          "word": "bringen",
           "meaning": "Довести/довести до цели",
-          "example": "Ich bringe dich nach Hause. = Я отвезу тебя домой."
+          "example": "Ich bringe dich nach Hause. = Es aizvedīšu tevi mājās."
         },
         {
-          "word": "Фюрен цу",
+          "word": "führen zu",
           "meaning": "Привести к",
-          "example": "Das führt zu Problemen. = Это приводит к проблемам."
+          "example": "Das führt zu Problemen. = Tas noved pie problēmām."
         }
       ],
       "tip": {
@@ -25827,24 +25827,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Гехорен",
+          "word": "gehören",
           "meaning": "Принадлежать / вписываться",
-          "example": "Das gehört mir. = Оно принадлежит мне."
+          "example": "Das gehört mir. = Tas pieder man."
         },
         {
-          "word": "Безитцен",
+          "word": "besitzen",
           "meaning": "Владеть/владеть чем-л.",
-          "example": "Er besitzt ein Auto. = У него есть машина."
+          "example": "Er besitzt ein Auto. = Viņam pieder auto."
         },
         {
-          "word": "Пройти",
+          "word": "passen",
           "meaning": "Подходит / подходит",
-          "example": "Das passt gut. = Замечательно подходит."
+          "example": "Das passt gut. = Tas labi der."
         },
         {
-          "word": "Браухен",
+          "word": "brauchen",
           "meaning": "Нуждаться",
-          "example": "Du brauchst Zeit. = Вам нужно время."
+          "example": "Du brauchst Zeit. = Tev vajag laiku."
         }
       ],
       "tip": {
@@ -26104,24 +26104,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Точно",
+          "word": "genau",
           "meaning": "Точно / прямо / точно",
-          "example": "Das ist genau richtig. = Это совершенно верно."
+          "example": "Das ist genau richtig. = Tas ir tieši pareizi."
         },
         {
-          "word": "Точно",
+          "word": "exakt",
           "meaning": "Точный / точный",
-          "example": "Das ist exakt ein Meter. = Это ровно один метр."
+          "example": "Das ist exakt ein Meter. = Tas ir precīzi viens metrs."
         },
         {
-          "word": "Прямо сейчас",
+          "word": "gerade",
           "meaning": "Прямо / прямо сейчас",
-          "example": "Ich bin gerade zu Hause. = Я сейчас дома."
+          "example": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās."
         },
         {
-          "word": "Эбен",
+          "word": "eben",
           "meaning": "Только что / прямо сейчас",
-          "example": "Er war eben hier. = Он только что был здесь."
+          "example": "Er war eben hier. = Viņš tikko bija šeit."
         }
       ],
       "tip": {
@@ -26285,24 +26285,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Прямо сейчас",
+          "word": "gerade",
           "meaning": "Прямо / в настоящее время / только что",
-          "example": "Ich komme gerade. = Я приду прямо сейчас."
+          "example": "Ich komme gerade. = Es tieši tagad nāku."
         },
         {
-          "word": "Прямо",
+          "word": "geradeaus",
           "meaning": "Прямо",
-          "example": "Gehen Sie geradeaus. = Идите прямо."
+          "example": "Gehen Sie geradeaus. = Ejiet taisni uz priekšu."
         },
         {
-          "word": "Точно",
+          "word": "genau",
           "meaning": "Точно/прямо",
-          "example": "Genau hier. = Прямо здесь."
+          "example": "Genau hier. = Tieši šeit."
         },
         {
-          "word": "Эбен",
+          "word": "eben",
           "meaning": "Прямо сейчас",
-          "example": "Ich war eben dort. = Я только что был там."
+          "example": "Ich war eben dort. = Es tikko tur biju."
         }
       ],
       "tip": [
@@ -26513,29 +26513,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Гешафт",
+          "word": "das Geschäft",
           "meaning": "Магазин/компания/транзакция",
-          "example": "Ich gehe ins Geschäft. = Я иду в магазин."
+          "example": "Ich gehe ins Geschäft. = Es eju uz veikalu."
         },
         {
-          "word": "Дер Ладен",
+          "word": "der Laden",
           "meaning": "Магазин",
-          "example": "Der Laden ist klein. = Магазин небольшой."
+          "example": "Der Laden ist klein. = Veikals ir mazs."
         },
         {
-          "word": "Фирма",
+          "word": "die Firma",
           "meaning": "Фирма/компания",
-          "example": "Die Firma ist groß. = Компания большая."
+          "example": "Die Firma ist groß. = Firma ir liela."
         },
         {
-          "word": "Дас Унтернемен",
+          "word": "das Unternehmen",
           "meaning": "Компания",
-          "example": "Das Unternehmen wächst. = Компания растет."
+          "example": "Das Unternehmen wächst. = Uzņēmums aug."
         },
         {
-          "word": "Дер Вертраг",
+          "word": "der Vertrag",
           "meaning": "Договор",
-          "example": "Wir schließen einen Vertrag. = Заключаем договор."
+          "example": "Wir schließen einen Vertrag. = Mēs slēdzam līgumu."
         }
       ],
       "tip": {
@@ -26868,24 +26868,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Гевиннен",
+          "word": "gewinnen",
           "meaning": "Выиграть / выиграть / получить",
-          "example": "Wir gewinnen das Spiel. = Мы выигрываем игру."
+          "example": "Wir gewinnen das Spiel. = Mēs uzvaram spēlē."
         },
         {
-          "word": "Защищать",
+          "word": "siegen",
           "meaning": "Выиграть",
-          "example": "Die Mannschaft siegt. = Команда побеждает."
+          "example": "Die Mannschaft siegt. = Komanda uzvar."
         },
         {
-          "word": "Бытькоммен",
+          "word": "bekommen",
           "meaning": "Получить / получить",
-          "example": "Ich bekomme eine Nachricht. = Я получаю сообщение."
+          "example": "Ich bekomme eine Nachricht. = Es saņemu ziņu."
         },
         {
-          "word": "Зарабатывать",
+          "word": "verdienen",
           "meaning": "Зарабатывать",
-          "example": "Er verdient Geld. = Он зарабатывает деньги."
+          "example": "Er verdient Geld. = Viņš pelna naudu."
         }
       ],
       "tip": [
@@ -27124,24 +27124,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Налить",
+          "word": "gießen",
           "meaning": "Поливать / зажигать",
-          "example": "Ich gieße die Blumen. = Я поливаю цветы."
+          "example": "Ich gieße die Blumen. = Es laistu puķes."
         },
         {
-          "word": "Айншенкен",
+          "word": "einschenken",
           "meaning": "Налить напиток",
-          "example": "Ich schenke Tee ein. = Я наливаю чай."
+          "example": "Ich schenke Tee ein. = Es ieleju tēju."
         },
         {
-          "word": "Дождь",
+          "word": "regnen",
           "meaning": "Идет дождь",
-          "example": "Es regnet. = Идет дождь."
+          "example": "Es regnet. = Līst."
         },
         {
-          "word": "Шюттен",
+          "word": "schütten",
           "meaning": "Налить / быстро налить",
-          "example": "Er schüttet Wasser aus. = Он наливает воду."
+          "example": "Er schüttet Wasser aus. = Viņš izlej ūdeni."
         }
       ],
       "tip": [
@@ -27446,29 +27446,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Грунд",
+          "word": "der Grund",
           "meaning": "Причина/основание/дно/дно",
-          "example": "Aus diesem Grund komme ich nicht. = По этой причине я не приду."
+          "example": "Aus diesem Grund komme ich nicht. = Šī iemesla dēļ es nenākšu."
         },
         {
-          "word": "Умереть Урсаче",
+          "word": "die Ursache",
           "meaning": "Причина",
-          "example": "Die Ursache ist unbekannt. = Причина неизвестна."
+          "example": "Die Ursache ist unbekannt. = Cēlonis nav zināms."
         },
         {
-          "word": "Подходит Анлас",
+          "word": "der Anlass",
           "meaning": "Причина/основа события",
-          "example": "Der Anlass war ein Fest. = Причиной стал праздник."
+          "example": "Der Anlass war ein Fest. = Iemesls bija svētki."
         },
         {
-          "word": "Подходит Бодену",
+          "word": "der Boden",
           "meaning": "Земля/пол",
-          "example": "Der Boden ist nass. = Пол мокрый."
+          "example": "Der Boden ist nass. = Grīda ir slapja."
         },
         {
-          "word": "Дер Зеегрунд",
+          "word": "der Seegrund",
           "meaning": "Дно озера",
-          "example": "Der Seegrund ist dunkel. = Дно озера темное."
+          "example": "Der Seegrund ist dunkel. = Ezera dibens ir tumšs."
         }
       ],
       "tip": {
@@ -27920,24 +27920,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Вешать",
+          "word": "hängen",
           "meaning": "Повесить/заказать",
-          "example": "Das Bild hängt an der Wand. = Картина висит на стене."
+          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
         },
         {
-          "word": "Стеллен",
+          "word": "stellen",
           "meaning": "Поставить вертикально",
-          "example": "Ich stelle die Flasche auf den Tisch. = Я поставил бутылку на стол."
+          "example": "Ich stelle die Flasche auf den Tisch. = Es nolieku pudeli uz galda."
         },
         {
-          "word": "Легенда",
+          "word": "legen",
           "meaning": "Сложить",
-          "example": "Ich lege das Buch auf den Tisch. = Я положил книгу на стол."
+          "example": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
         },
         {
-          "word": "Кубик Wand Hängen",
+          "word": "an die Wand hängen",
           "meaning": "Повесить на стену",
-          "example": "Wir hängen das Bild an die Wand. = Вешаем картину на стену."
+          "example": "Wir hängen das Bild an die Wand. = Mēs piekaram attēlu pie sienas."
         }
       ],
       "tip": [
@@ -28909,24 +28909,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Возмещение",
+          "word": "indem",
           "meaning": "С этим / делаю что-то",
-          "example": "Ich lerne, indem ich übe. = Я учусь, практикуясь."
+          "example": "Ich lerne, indem ich übe. = Es mācos, trenējoties."
         },
         {
-          "word": "Пока",
+          "word": "während",
           "meaning": "Пока/во время когда",
-          "example": "Während ich koche, höre ich Musik. = Я слушаю музыку, пока готовлю."
+          "example": "Während ich koche, höre ich Musik. = Kamēr es gatavoju, klausos mūziku."
         },
         {
-          "word": "Черт возьми",
+          "word": "damit",
           "meaning": "К",
-          "example": "Ich lerne, damit ich die Prüfung bestehe. = Я учусь, чтобы сдать экзамен."
+          "example": "Ich lerne, damit ich die Prüfung bestehe. = Es mācos, lai nokārtotu eksāmenu."
         },
         {
-          "word": "Хорошо",
+          "word": "weil",
           "meaning": "Потому что",
-          "example": "Ich lerne, weil ich Deutsch brauche. = Я учусь, потому что мне нужен немецкий."
+          "example": "Ich lerne, weil ich Deutsch brauche. = Es mācos, jo man vajag vācu valodu."
         }
       ],
       "tip": [
@@ -29937,24 +29937,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Некоторым",
+          "word": "kaum",
           "meaning": "Почти совсем / едва ли",
-          "example": "Ich habe kaum Zeit. = У меня почти нет времени."
+          "example": "Ich habe kaum Zeit. = Man gandrīz nav laika."
         },
         {
-          "word": "Быстрый",
+          "word": "fast",
           "meaning": "Почти",
-          "example": "Ich bin fast fertig. = Я почти готов."
+          "example": "Ich bin fast fertig. = Es gandrīz esmu gatavs."
         },
         {
-          "word": "Прямо сейчас",
+          "word": "gerade",
           "meaning": "Только что/сейчас",
-          "example": "Ich bin gerade angekommen. = Я только что приехал."
+          "example": "Ich bin gerade angekommen. = Es tikko ierados."
         },
         {
-          "word": "Как только",
+          "word": "sobald",
           "meaning": "Как только",
-          "example": "Sobald ich Zeit habe, rufe ich dich an. = Я позвоню тебе, как только у меня будет время."
+          "example": "Sobald ich Zeit habe, rufe ich dich an. = Tiklīdz man būs laiks, es tev piezvanīšu."
         }
       ],
       "tip": [
@@ -30185,12 +30185,12 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Кеннен",
+          "word": "kennen",
           "meaning": "Знать (человека, место, вещь)",
           "example": "Ich kenne ihn. – Я знаю его."
         },
         {
-          "word": "Мудрец",
+          "word": "wissen",
           "meaning": "Знать (факт, информация)",
           "example": "Ich weiß seinen Namen. – Я знаю его имя."
         }
@@ -30299,12 +30299,12 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Мудрец",
+          "word": "wissen",
           "meaning": "Знать (факт, информация)",
           "example": "Ich weiß, wo er wohnt. – Я знаю, где он живет."
         },
         {
-          "word": "Кеннен",
+          "word": "kennen",
           "meaning": "Знать (человека, место, вещь)",
           "example": "Ich kenne die Stadt. – Я знаю город."
         }
@@ -31175,29 +31175,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ложь",
+          "word": "kleiden",
           "meaning": "Одевать",
-          "example": "Sie kleidet das Kind. = Она одевает ребенка."
+          "example": "Sie kleidet das Kind. = Viņa apģērbj bērnu."
         },
         {
-          "word": "Sich kleiden",
+          "word": "sich kleiden",
           "meaning": "Одеться",
-          "example": "Er kleidet sich elegant. = Он одевается элегантно."
+          "example": "Er kleidet sich elegant. = Viņš ģērbjas eleganti."
         },
         {
-          "word": "Клейдет жеманден",
+          "word": "kleidet jemanden",
           "meaning": "Кому-то подходит",
-          "example": "Die Farbe kleidet dich. = Цвет вам подходит."
+          "example": "Die Farbe kleidet dich. = Krāsa tev piestāv."
         },
         {
-          "word": "Анзиен",
+          "word": "anziehen",
           "meaning": "Надеть/одеть",
-          "example": "Ich ziehe die Jacke an. = Я надел куртку."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
-          "word": "Тащить",
+          "word": "tragen",
           "meaning": "Носить",
-          "example": "Sie trägt ein Kleid. = На ней платье."
+          "example": "Sie trägt ein Kleid. = Viņa valkā kleitu."
         }
       ],
       "tip": {
@@ -32201,29 +32201,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Курц",
+          "word": "kurz",
           "meaning": "Коротко / ненадолго",
-          "example": "Der Text ist kurz. = Текст короткий."
+          "example": "Der Text ist kurz. = Teksts ir īss."
         },
         {
-          "word": "Курц вор",
+          "word": "kurz vor",
           "meaning": "Незадолго до этого",
-          "example": "kurz vor acht = Незадолго до восьми"
+          "example": "kurz vor acht = īsi pirms astoņiem"
         },
         {
-          "word": "Курц нах",
+          "word": "kurz nach",
           "meaning": "Вскоре после",
-          "example": "kurz nach dem Essen = Вскоре после еды"
+          "example": "kurz nach dem Essen = īsi pēc ēšanas"
         },
         {
-          "word": "Лысый",
+          "word": "bald",
           "meaning": "Скоро",
-          "example": "Ich komme bald. = Я скоро приду."
+          "example": "Ich komme bald. = Es drīz nākšu."
         },
         {
-          "word": "Язык",
+          "word": "lang",
           "meaning": "Длинный / длинный",
-          "example": "Der Weg ist lang. = Дорога длинная."
+          "example": "Der Weg ist lang. = Ceļš ir garš."
         }
       ],
       "tip": [
@@ -32407,24 +32407,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Лаге",
+          "word": "die Lage",
           "meaning": "Ситуация/состояние",
-          "example": "Die Lage ist schwierig. = Ситуация сложная."
+          "example": "Die Lage ist schwierig. = Situācija ir sarežģīta."
         },
         {
-          "word": "Умереть Ситуация",
+          "word": "die Situation",
           "meaning": "Ситуация",
-          "example": "Die Situation ist ernst. = Ситуация серьезная."
+          "example": "Die Situation ist ernst. = Situācija ir nopietna."
         },
         {
-          "word": "Дер Стандор",
+          "word": "der Standort",
           "meaning": "Расположение",
-          "example": "Der Standort ist gut. = Расположение хорошее."
+          "example": "Der Standort ist gut. = Atrašanās vieta ir laba."
         },
         {
-          "word": "Умереть Шихт",
+          "word": "die Schicht",
           "meaning": "Слой / слой",
-          "example": "eine Schicht Farbe = Один слой краски"
+          "example": "eine Schicht Farbe = viena krāsas kārta"
         }
       ],
       "tip": [
@@ -32717,29 +32717,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Лейден",
+          "word": "leiden",
           "meaning": "Страдать",
-          "example": "Er leidet an Kopfschmerzen. = Он страдает от головной боли."
+          "example": "Er leidet an Kopfschmerzen. = Viņš cieš no galvassāpēm."
         },
         {
-          "word": "Ан Этвас Лейден",
+          "word": "an etwas leiden",
           "meaning": "Страдать / страдать от",
-          "example": "Sie leidet an Asthma. = Она страдает астмой."
+          "example": "Sie leidet an Asthma. = Viņa slimo ar astmu."
         },
         {
-          "word": "Унтер Этвас Лейден",
+          "word": "unter etwas leiden",
           "meaning": "Страдать от обстоятельств",
-          "example": "Wir leiden unter der Hitze. = Мы страдаем от жары."
+          "example": "Wir leiden unter der Hitze. = Mēs ciešam no karstuma."
         },
         {
-          "word": "Нихт Лейден Кеннен",
+          "word": "nicht leiden können",
           "meaning": "Не в состоянии терпеть",
-          "example": "Ich kann das nicht leiden. = Я не могу этого вынести."
+          "example": "Ich kann das nicht leiden. = Es to nevaru paciest."
         },
         {
-          "word": "Чудаковатый сейн",
+          "word": "krank sein",
           "meaning": "Быть больным",
-          "example": "Er ist krank. = Он болен."
+          "example": "Er ist krank. = Viņš ir slims."
         }
       ],
       "tip": [
@@ -32917,24 +32917,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Недавно",
+          "word": "leihen",
           "meaning": "Одалживать / брать взаймы",
-          "example": "Leihst du mir den Stift? = Ты одолжишь мне ручку?"
+          "example": "Leihst du mir den Stift? = Vai aizdosi man pildspalvu?"
         },
         {
-          "word": "Борген",
+          "word": "borgen",
           "meaning": "Брать / одалживать",
-          "example": "Ich borge mir Geld. = Я занимаю деньги."
+          "example": "Ich borge mir Geld. = Es aizņemos naudu."
         },
         {
-          "word": "Арендовать",
+          "word": "mieten",
           "meaning": "Аренда/сдача в аренду за определенную плату",
-          "example": "Wir mieten ein Auto. = Мы арендуем автомобиль."
+          "example": "Wir mieten ein Auto. = Mēs īrējam mašīnu."
         },
         {
-          "word": "Кауфен",
+          "word": "kaufen",
           "meaning": "Купить",
-          "example": "Ich kaufe das Buch. = Я покупаю книгу."
+          "example": "Ich kaufe das Buch. = Es pērku grāmatu."
         }
       ],
       "tip": {
@@ -33212,22 +33212,22 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит Лейтеру",
+          "word": "der Leiter",
           "meaning": "Менеджер",
-          "example": "Der Leiter der Firma. = Менеджер компании. Множественное число: die Leiter."
+          "example": "Der Leiter der Firma. = Uzņēmuma vadītājs. Plural: die Leiter."
         },
         {
-          "word": "Ди Лейтер",
+          "word": "die Leiter",
           "meaning": "Подъем по лестнице",
-          "example": "Ich steige auf die Leiter. = Я поднимаюсь по лестнице. Множественное число: die Leitern."
+          "example": "Ich steige auf die Leiter. = Es kāpju uz kāpnēm. Plural: die Leitern."
         },
         {
-          "word": "Дер Abteilungsleiter",
+          "word": "der Abteilungsleiter",
           "meaning": "Руководитель отдела",
           "example": "Unser Abteilungsleiter kommt morgen."
         },
         {
-          "word": "Лестница",
+          "word": "die Treppe",
           "meaning": "Лестница (постоянная)",
           "example": "Wir gehen die Treppe hinauf."
         }
@@ -33339,29 +33339,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Лейтунг",
+          "word": "die Leitung",
           "meaning": "Свинец/линия/провод/труба",
-          "example": "Die Leitung ist kaputt. = Линия разорвана."
+          "example": "Die Leitung ist kaputt. = Līnija ir bojāta."
         },
         {
-          "word": "Умереть во главе",
+          "word": "die Führung",
           "meaning": "Управление",
-          "example": "Unter ihrer Führung läuft alles gut. = Под ее руководством все идет хорошо."
+          "example": "Unter ihrer Führung läuft alles gut. = Viņas vadībā viss norit labi."
         },
         {
-          "word": "Кабель",
+          "word": "das Kabel",
           "meaning": "Кабель / провод",
-          "example": "Das Kabel ist zu kurz. = Кабель слишком короткий."
+          "example": "Das Kabel ist zu kurz. = Kabelis ir par īsu."
         },
         {
-          "word": "Телефонное сопровождение",
+          "word": "die Telefonleitung",
           "meaning": "Телефонная линия",
-          "example": "Die Telefonleitung ist frei. = Телефонная линия бесплатная."
+          "example": "Die Telefonleitung ist frei. = Telefona līnija ir brīva."
         },
         {
-          "word": "Умереть Вассерляйтунг",
+          "word": "die Wasserleitung",
           "meaning": "Водопровод",
-          "example": "Die Wasserleitung tropft. = Водопроводная труба капает."
+          "example": "Die Wasserleitung tropft. = Ūdens caurule pil."
         }
       ],
       "tip": {
@@ -33696,32 +33696,32 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Легенда",
+          "word": "legen",
           "meaning": "Сложить (действие)",
           "example": "Ich lege das Buch hin. – Я отложил книгу."
         },
         {
-          "word": "Ложь",
+          "word": "liegen",
           "meaning": "Лечь (положение)",
           "example": "Das Buch liegt hier. – Книга здесь."
         },
         {
-          "word": "Стеллен",
+          "word": "stellen",
           "meaning": "Поставить вертикально (действие)",
           "example": "Ich stelle die Flasche hin. – Я поставил бутылку вертикально."
         },
         {
-          "word": "Стоять",
+          "word": "stehen",
           "meaning": "Стоять (состояние)",
           "example": "Die Flasche steht hier. – Бутылка здесь."
         },
         {
-          "word": "Установить",
+          "word": "setzen",
           "meaning": "Место (действие)",
           "example": "Ich setze das Kind hin. – Я сижу ребенка."
         },
         {
-          "word": "Сидячий",
+          "word": "sitzen",
           "meaning": "Сидеть (поза)",
           "example": "Das Kind sitzt hier. – Здесь сидит ребенок."
         }
@@ -33801,32 +33801,32 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Легенда",
+          "word": "legen",
           "meaning": "Сложить (действие)",
           "example": "Ich lege das Buch hin. – Я отложил книгу."
         },
         {
-          "word": "Ложь",
+          "word": "liegen",
           "meaning": "Лечь (положение)",
           "example": "Das Buch liegt hier. – Книга здесь."
         },
         {
-          "word": "Стеллен",
+          "word": "stellen",
           "meaning": "Поставить вертикально (действие)",
           "example": "Ich stelle die Flasche hin. – Я поставил бутылку вертикально."
         },
         {
-          "word": "Стоять",
+          "word": "stehen",
           "meaning": "Стоять (состояние)",
           "example": "Die Flasche steht hier. – Бутылка здесь."
         },
         {
-          "word": "Установить",
+          "word": "setzen",
           "meaning": "Место (действие)",
           "example": "Ich setze das Kind hin. – Я сижу ребенка."
         },
         {
-          "word": "Сидячий",
+          "word": "sitzen",
           "meaning": "Сидеть (поза)",
           "example": "Das Kind sitzt hier. – Здесь сидит ребенок."
         }
@@ -34421,29 +34421,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Отметка",
+          "word": "merken",
           "meaning": "Заметить",
-          "example": "Ich merke den Fehler. = Я замечаю ошибку."
+          "example": "Ich merke den Fehler. = Es pamanu kļūdu."
         },
         {
-          "word": "Сич меркен",
+          "word": "sich merken",
           "meaning": "Запоминать",
-          "example": "Merk dir das! = Запомни это!"
+          "example": "Merk dir das! = Iegaumē to!"
         },
         {
-          "word": "Бемеркен",
+          "word": "bemerken",
           "meaning": "Заметить/наблюдать",
-          "example": "Ich bemerke den Fehler. = Я замечаю ошибку."
+          "example": "Ich bemerke den Fehler. = Es pamanu kļūdu."
         },
         {
-          "word": "Помнить",
+          "word": "erinnern",
           "meaning": "Помнить / напомнить",
-          "example": "Ich erinnere mich. = Я помню."
+          "example": "Ich erinnere mich. = Es atceros."
         },
         {
-          "word": "Отстраненный",
+          "word": "behalten",
           "meaning": "Держать / помнить",
-          "example": "Ich behalte die Nummer. = Я помню номер."
+          "example": "Ich behalte die Nummer. = Es paturu numuru prātā."
         }
       ],
       "tip": [
@@ -34723,29 +34723,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Миттель",
+          "word": "das Mittel",
           "meaning": "Средство",
-          "example": "ein Mittel gegen Husten = Средство от кашля"
+          "example": "ein Mittel gegen Husten = līdzeklis pret klepu"
         },
         {
-          "word": "Дас Медикамент",
+          "word": "das Medikament",
           "meaning": "Медицина / медицина",
-          "example": "Das Medikament hilft. = Лекарства помогают."
+          "example": "Das Medikament hilft. = Medikaments palīdz."
         },
         {
-          "word": "Умереть метод",
+          "word": "die Methode",
           "meaning": "Метод",
-          "example": "Diese Methode ist einfach. = Этот метод прост."
+          "example": "Diese Methode ist einfach. = Šī metode ir vienkārša."
         },
         {
-          "word": "Дас Гельд",
+          "word": "das Geld",
           "meaning": "Деньги",
-          "example": "Wir haben kein Geld. = У нас нет денег."
+          "example": "Wir haben kein Geld. = Mums nav naudas."
         },
         {
-          "word": "Умереть Миттель",
+          "word": "die Mittel",
           "meaning": "Средства/ресурсы",
-          "example": "finanzielle Mittel = Финансовые средства"
+          "example": "finanzielle Mittel = finanšu līdzekļi"
         }
       ],
       "tip": [
@@ -35061,17 +35061,17 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Хорошо",
+          "word": "na gut",
           "meaning": "Ну • Ну, пусть будет так",
           "example": "Na gut, dann machen wir das. – Что ж, тогда давайте сделаем это."
         },
         {
-          "word": "Хороший",
+          "word": "gut",
           "meaning": "Хороший",
           "example": "Das ist gut. – Это хорошо."
         },
         {
-          "word": "Хорошо",
+          "word": "okay",
           "meaning": "Хорошо • Ок (неформально)",
           "example": "Okay, ich verstehe. – Хорошо, я понимаю."
         }
@@ -35558,29 +35558,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Примечание",
+          "word": "die Note",
           "meaning": "Знак/нота/обертон",
-          "example": "Ich bekomme eine Note. = Я получаю оценку."
+          "example": "Ich bekomme eine Note. = Es saņemu atzīmi."
         },
         {
-          "word": "Умереть Шульноте",
+          "word": "die Schulnote",
           "meaning": "Школьный класс",
-          "example": "Die Schulnote ist gut. = Школьная оценка хорошая."
+          "example": "Die Schulnote ist gut. = Skolas atzīme ir laba."
         },
         {
-          "word": "Умереть Музыкальная нота",
+          "word": "die Musiknote",
           "meaning": "Музыкальная нота",
-          "example": "Die Musiknote ist hoch. = Музыкальная нота высокая."
+          "example": "Die Musiknote ist hoch. = Mūzikas nots ir augsta."
         },
         {
-          "word": "Умереть банкнота",
+          "word": "die Banknote",
           "meaning": "Банкнота",
-          "example": "Die Banknote ist neu. = Банкнота новая."
+          "example": "Die Banknote ist neu. = Banknote ir jauna."
         },
         {
-          "word": "Подходит Тон",
+          "word": "der Ton",
           "meaning": "Тон / звук",
-          "example": "Der Ton ist leise. = Тон тихий."
+          "example": "Der Ton ist leise. = Tonis ir kluss."
         }
       ],
       "tip": {
@@ -35953,24 +35953,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Использовать",
+          "word": "nutzen",
           "meaning": "Использовать/извлекать выгоду из",
-          "example": "Ich nutze die Zeit. = Я использую время."
+          "example": "Ich nutze die Zeit. = Es izmantoju laiku."
         },
         {
-          "word": "Использовать",
+          "word": "benutzen",
           "meaning": "Использовать",
-          "example": "Ich benutze den Computer. = Я пользуюсь компьютером."
+          "example": "Ich benutze den Computer. = Es lietoju datoru."
         },
         {
-          "word": "Вервенден",
+          "word": "verwenden",
           "meaning": "Использовать/применять",
-          "example": "Wir verwenden dieses Wort. = Мы используем это слово."
+          "example": "Wir verwenden dieses Wort. = Mēs izmantojam šo vārdu."
         },
         {
-          "word": "Умереть шанс нутцен",
+          "word": "die Chance nutzen",
           "meaning": "Воспользоваться возможностью",
-          "example": "Nutze die Chance! = Воспользуйтесь возможностью!"
+          "example": "Nutze die Chance! = Izmanto iespēju!"
         }
       ],
       "tip": [
@@ -36192,24 +36192,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Открыть",
+          "word": "offen",
           "meaning": "Открыть / открыть",
-          "example": "Die Tür ist offen. = Дверь открыта."
+          "example": "Die Tür ist offen. = Durvis ir vaļā."
         },
         {
-          "word": "Геффнет",
+          "word": "geöffnet",
           "meaning": "Официально открыт",
-          "example": "Das Museum ist geöffnet. = Музей открыт."
+          "example": "Das Museum ist geöffnet. = Muzejs ir atvērts."
         },
         {
-          "word": "Эрлих",
+          "word": "ehrlich",
           "meaning": "Честный",
-          "example": "Er ist ehrlich. = Он честен."
+          "example": "Er ist ehrlich. = Viņš ir godīgs."
         },
         {
-          "word": "Пятница",
+          "word": "frei",
           "meaning": "Бесплатно",
-          "example": "Der Platz ist frei. = Место бесплатное."
+          "example": "Der Platz ist frei. = Vieta ir brīva."
         }
       ],
       "tip": [
@@ -36694,19 +36694,19 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит для пациента",
+          "word": "der Patient",
           "meaning": "Пациент (мужчина)",
-          "example": "Der Patient ist krank. = Пациент болен."
+          "example": "Der Patient ist krank. = Pacients ir slims."
         },
         {
-          "word": "Умереть пациент",
+          "word": "die Patientin",
           "meaning": "Пациент",
-          "example": "Die Patientin ruht sich aus. = Больной отдыхает."
+          "example": "Die Patientin ruht sich aus. = Paciente atpūšas."
         },
         {
-          "word": "Подходит Кранке",
+          "word": "der Kranke",
           "meaning": "Больной человек",
-          "example": "Der Kranke liegt im Bett. = Больной лежит в постели."
+          "example": "Der Kranke liegt im Bett. = Slimnieks guļ gultā."
         }
       ],
       "tip": {
@@ -36802,19 +36802,19 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Персональный",
+          "word": "das Personal",
           "meaning": "Персонал (всего)",
-          "example": "Das Personal hilft. = Персонал услужливый."
+          "example": "Das Personal hilft. = Personāls palīdz."
         },
         {
-          "word": "Дер Митарбайтер",
+          "word": "der Mitarbeiter",
           "meaning": "Сотрудник",
-          "example": "Der Mitarbeiter arbeitet hier. = Здесь работает сотрудник."
+          "example": "Der Mitarbeiter arbeitet hier. = Darbinieks šeit strādā."
         },
         {
-          "word": "Лично",
+          "word": "persönlich",
           "meaning": "Личный",
-          "example": "Das ist persönlich. = Это личное."
+          "example": "Das ist persönlich. = Tas ir personīgi."
         }
       ],
       "tip": {
@@ -38440,29 +38440,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Запах",
+          "word": "riechen",
           "meaning": "Чувствовать запах",
-          "example": "Die Blumen riechen gut. = Цветы приятно пахнут."
+          "example": "Die Blumen riechen gut. = Ziedi labi smaržo."
         },
         {
-          "word": "Ан етвас рихен",
+          "word": "an etwas riechen",
           "meaning": "Запах чего-то",
-          "example": "Der Hund riecht an der Tasche. = Собачья гавань в Финляндии."
+          "example": "Der Hund riecht an der Tasche. = Suns osta somu."
         },
         {
-          "word": "Nach etwas riechen",
+          "word": "nach etwas riechen",
           "meaning": "Чем-то пахнет",
-          "example": "Es riecht nach Kaffee. = Пахнет кофе."
+          "example": "Es riecht nach Kaffee. = Smaržo pēc kafijas."
         },
         {
-          "word": "Запах",
+          "word": "duften",
           "meaning": "Приятный запах",
-          "example": "Die Blumen duften. = Цветы пахнут."
+          "example": "Die Blumen duften. = Ziedi smaržo."
         },
         {
-          "word": "Воняет",
+          "word": "stinken",
           "meaning": "Чувствовать запах",
-          "example": "Der Müll stinkt. = Мусор воняет."
+          "example": "Der Müll stinkt. = Atkritumi smird."
         }
       ],
       "tip": [
@@ -38693,29 +38693,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Ролль",
+          "word": "die Rolle",
           "meaning": "Роль / роль",
-          "example": "Sie spielt eine Rolle. = Она играет роль."
+          "example": "Sie spielt eine Rolle. = Viņa spēlē lomu."
         },
         {
-          "word": "Умереть Хауптролле",
+          "word": "die Hauptrolle",
           "meaning": "Главная роль",
-          "example": "Er hat die Hauptrolle. = У него главная роль."
+          "example": "Er hat die Hauptrolle. = Viņam ir galvenā loma."
         },
         {
-          "word": "Умереть папьерролле",
+          "word": "die Papierrolle",
           "meaning": "Рулон бумаги",
-          "example": "Ich kaufe eine Papierrolle. = Я покупаю рулон бумаги."
+          "example": "Ich kaufe eine Papierrolle. = Es pērku papīra rulli."
         },
         {
-          "word": "Умереть Бедейтунг",
+          "word": "die Bedeutung",
           "meaning": "Значение",
-          "example": "Das hat keine Bedeutung. = Это не имеет значения."
+          "example": "Das hat keine Bedeutung. = Tam nav nozīmes."
         },
         {
-          "word": "Подходит тел.",
+          "word": "der Teil",
           "meaning": "Часть",
-          "example": "Das ist ein Teil der Arbeit. = Это часть работы."
+          "example": "Das ist ein Teil der Arbeit. = Tā ir daļa no darba."
         }
       ],
       "tip": {
@@ -39108,24 +39108,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Собирать",
+          "word": "sammeln",
           "meaning": "Собирать/накапливать",
-          "example": "Briefmarken sammeln = Собирать марки"
+          "example": "Briefmarken sammeln = krāt pastmarkas"
         },
         {
-          "word": "Sich sammeln",
+          "word": "sich sammeln",
           "meaning": "Собрать/убрать",
-          "example": "Die Schüler sammeln sich. = Студенты собираются."
+          "example": "Die Schüler sammeln sich. = Skolēni sapulcējas."
         },
         {
-          "word": "Ад",
+          "word": "holen",
           "meaning": "Пойти за / принести",
-          "example": "Ich hole Wasser. = Я принес воды."
+          "example": "Ich hole Wasser. = Es atnesu ūdeni."
         },
         {
-          "word": "Ауфгебен",
+          "word": "aufheben",
           "meaning": "Поднять/сохранить",
-          "example": "Ich hebe den Zettel auf. = Я держу записку."
+          "example": "Ich hebe den Zettel auf. = Es paceļu zīmīti."
         }
       ],
       "tip": [
@@ -39335,29 +39335,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Затц",
+          "word": "der Satz",
           "meaning": "Предложение/сет/ставка/прыжок",
-          "example": "Der Satz ist kurz. = Предложение короткое."
+          "example": "Der Satz ist kurz. = Teikums ir īss."
         },
         {
-          "word": "Дер немецкий зац",
+          "word": "der deutsche Satz",
           "meaning": "Немецкое предложение",
-          "example": "Der deutsche Satz ist richtig. = Немецкое предложение правильное."
+          "example": "Der deutsche Satz ist richtig. = Vācu teikums ir pareizs."
         },
         {
-          "word": "Дер Сац Райфен",
+          "word": "der Satz Reifen",
           "meaning": "Комплект шин",
-          "example": "Ein Satz Reifen ist teuer. = Комплект резины стоит дорого."
+          "example": "Ein Satz Reifen ist teuer. = Riepu komplekts ir dārgs."
         },
         {
-          "word": "Дер Цинзац",
+          "word": "der Zinssatz",
           "meaning": "Процентная ставка",
-          "example": "Der Zinssatz steigt. = Процентная ставка растет."
+          "example": "Der Zinssatz steigt. = Procentu likme pieaug."
         },
         {
-          "word": "Дер Kaffeesatz",
+          "word": "der Kaffeesatz",
           "meaning": "Кофейная гуща/гуща",
-          "example": "Der Kaffeesatz bleibt im Glas. = Кофейная гуща остается в стакане."
+          "example": "Der Kaffeesatz bleibt im Glas. = Kafijas biezumi paliek glāzē."
         }
       ],
       "tip": {
@@ -40075,24 +40075,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Шейнен",
+          "word": "scheinen",
           "meaning": "Сиять / казаться",
-          "example": "Die Sonne scheint. = Солнце светит."
+          "example": "Die Sonne scheint. = Saule spīd."
         },
         {
-          "word": "Оссен",
+          "word": "aussehen",
           "meaning": "Смотреть",
-          "example": "Du siehst müde aus. = Ты выглядишь усталым."
+          "example": "Du siehst müde aus. = Tu izskaties noguris."
         },
         {
-          "word": "Работа",
+          "word": "wirken",
           "meaning": "Произвести впечатление",
-          "example": "Er wirkt ruhig. = Он кажется спокойным."
+          "example": "Er wirkt ruhig. = Viņš šķiet mierīgs."
         },
         {
-          "word": "Светить",
+          "word": "leuchten",
           "meaning": "Сиять / сиять",
-          "example": "Die Lampe leuchtet. = Лампа светит."
+          "example": "Die Lampe leuchtet. = Lampa spīd."
         }
       ],
       "tip": {
@@ -40415,24 +40415,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Шланге",
+          "word": "die Schlange",
           "meaning": "Змея / линия",
-          "example": "Die Schlange ist lang. = Очередь длинная."
+          "example": "Die Schlange ist lang. = Rinda ir gara."
         },
         {
-          "word": "Умереть Вартешланге",
+          "word": "die Warteschlange",
           "meaning": "Очередь ожидания",
-          "example": "Die Warteschlange ist lang. = Очередь ожидания длинная."
+          "example": "Die Warteschlange ist lang. = Gaidīšanas rinda ir gara."
         },
         {
-          "word": "Умереть Райхе",
+          "word": "die Reihe",
           "meaning": "Строка/последовательность",
-          "example": "Die Stühle stehen in einer Reihe. = Стулья выстроены в ряд."
+          "example": "Die Stühle stehen in einer Reihe. = Krēsli stāv rindā."
         },
         {
-          "word": "Дас Рептилия",
+          "word": "das Reptil",
           "meaning": "Рептилия",
-          "example": "Eine Schlange ist ein Reptil. = Змея – это рептилия."
+          "example": "Eine Schlange ist ein Reptil. = Čūska ir rāpulis."
         }
       ],
       "tip": {
@@ -40702,24 +40702,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Закрывать",
+          "word": "schließen",
           "meaning": "Закрыть/закрыть/заключить",
-          "example": "Ich schließe die Tür. = Я закрываю дверь."
+          "example": "Ich schließe die Tür. = Es aizveru durvis."
         },
         {
-          "word": "Закрывать",
+          "word": "abschließen",
           "meaning": "Заблокировать / завершить",
-          "example": "Ich schließe die Tür ab. = Я запер дверь."
+          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
         },
         {
-          "word": "Зумачен",
+          "word": "zumachen",
           "meaning": "Близко (разговорный)",
-          "example": "Mach das Fenster zu. = Закройте окно."
+          "example": "Mach das Fenster zu. = Aiztaisi logu."
         },
         {
-          "word": "Фольгерн",
+          "word": "folgern",
           "meaning": "Заключить",
-          "example": "Daraus folgere ich etwas. = Из этого я делаю кое-какой вывод."
+          "example": "Daraus folgere ich etwas. = No tā es kaut ko secinu."
         }
       ],
       "tip": {
@@ -41018,29 +41018,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Шлосс",
+          "word": "das Schloss",
           "meaning": "Замок / замок",
-          "example": "Das Schloss ist alt. = Замок старый."
+          "example": "Das Schloss ist alt. = Pils ir veca."
         },
         {
-          "word": "Умереть Бург",
+          "word": "die Burg",
           "meaning": "Крепость / замок",
-          "example": "Die Burg steht auf dem Berg. = Замок стоит на холме."
+          "example": "Die Burg steht auf dem Berg. = Pils stāv kalnā."
         },
         {
-          "word": "Дас Тюршлосс",
+          "word": "das Türschloss",
           "meaning": "Дверной замок",
-          "example": "Das Türschloss ist kaputt. = Дверной замок сломан."
+          "example": "Das Türschloss ist kaputt. = Durvju slēdzene ir salūzusi."
         },
         {
-          "word": "Дас Фаррадшлосс",
+          "word": "das Fahrradschloss",
           "meaning": "Велосипедный замок",
-          "example": "Ich kaufe ein Fahrradschloss. = Я покупаю велосипедный замок."
+          "example": "Ich kaufe ein Fahrradschloss. = Es pērku velosipēda slēdzeni."
         },
         {
-          "word": "Дер Шлюссель",
+          "word": "der Schlüssel",
           "meaning": "Ключ",
-          "example": "Der Schlüssel ist weg. = Ключ потерян."
+          "example": "Der Schlüssel ist weg. = Atslēga ir pazudusi."
         }
       ],
       "tip": {
@@ -41454,29 +41454,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Шульд",
+          "word": "die Schuld",
           "meaning": "Вина/ответственность",
-          "example": "Das ist meine Schuld. = Это моя вина."
+          "example": "Das ist meine Schuld. = Tā ir mana vaina."
         },
         {
-          "word": "Умереть Шульден",
+          "word": "die Schulden",
           "meaning": "Долг",
-          "example": "Er hat Schulden. = У него есть долги."
+          "example": "Er hat Schulden. = Viņam ir parādi."
         },
         {
-          "word": "Умереть Verantwortung",
+          "word": "die Verantwortung",
           "meaning": "Ответственность",
-          "example": "Ich trage Verantwortung. = Я несу ответственность."
+          "example": "Ich trage Verantwortung. = Es nesu atbildību."
         },
         {
-          "word": "Дер Фелер",
+          "word": "der Fehler",
           "meaning": "Ошибка",
-          "example": "Das war ein Fehler. = Это была ошибка."
+          "example": "Das war ein Fehler. = Tā bija kļūda."
         },
         {
-          "word": "Шульд Сейн",
+          "word": "schuld sein",
           "meaning": "Быть виноватым",
-          "example": "Ich bin schuld. = Я виноват."
+          "example": "Ich bin schuld. = Es esmu vainīgs."
         }
       ],
       "tip": {
@@ -42074,29 +42074,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Что еще впереди",
+          "word": "sich befinden",
           "meaning": "Быть расположенным",
-          "example": "Das Büro befindet sich im zweiten Stock. = Офис находится на втором этаже."
+          "example": "Das Büro befindet sich im zweiten Stock. = Birojs atrodas otrajā stāvā."
         },
         {
-          "word": "Сейн",
+          "word": "sein",
           "meaning": "Быть / быть",
-          "example": "Das Büro ist oben. = Офис находится наверху."
+          "example": "Das Büro ist oben. = Birojs ir augšā."
         },
         {
-          "word": "Ложь",
+          "word": "liegen",
           "meaning": "Быть / спать",
-          "example": "Das Buch liegt auf dem Tisch. = Книга лежит на столе."
+          "example": "Das Buch liegt auf dem Tisch. = Grāmata atrodas uz galda."
         },
         {
-          "word": "Стоять",
+          "word": "stehen",
           "meaning": "Стоять / быть",
-          "example": "Das Auto steht vor dem Haus. = Машина припаркована у дома."
+          "example": "Das Auto steht vor dem Haus. = Auto stāv pie mājas."
         },
         {
-          "word": "Sich fühlen",
+          "word": "sich fühlen",
           "meaning": "Чувствовать",
-          "example": "Ich fühle mich gut. = Я чувствую себя хорошо."
+          "example": "Ich fühle mich gut. = Es jūtos labi."
         }
       ],
       "tip": {
@@ -42390,24 +42390,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Sich unterhalten",
+          "word": "sich unterhalten",
           "meaning": "Поговорить/развлечься",
-          "example": "Wir unterhalten uns. = Мы говорим."
+          "example": "Wir unterhalten uns. = Mēs sarunājamies."
         },
         {
-          "word": "Спречен",
+          "word": "sprechen",
           "meaning": "Говорить",
-          "example": "Ich spreche Deutsch. = Я говорю по-немецки."
+          "example": "Ich spreche Deutsch. = Es runāju vāciski."
         },
         {
-          "word": "Разговаривать",
+          "word": "reden",
           "meaning": "Говорить / говорить",
-          "example": "Wir reden viel. = Мы много разговариваем."
+          "example": "Wir reden viel. = Mēs daudz runājam."
         },
         {
-          "word": "Sich amüsieren",
+          "word": "sich amüsieren",
           "meaning": "Веселиться",
-          "example": "Wir amüsieren uns. = Нам весело."
+          "example": "Wir amüsieren uns. = Mēs izklaidējamies."
         }
       ],
       "tip": {
@@ -42744,32 +42744,32 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Сидячий",
+          "word": "sitzen",
           "meaning": "Сидеть (поза)",
           "example": "Das Kind sitzt hier. – Здесь сидит ребенок."
         },
         {
-          "word": "Установить",
+          "word": "setzen",
           "meaning": "Место (действие)",
           "example": "Ich setze das Kind hin. – Я сижу ребенка."
         },
         {
-          "word": "Ложь",
+          "word": "liegen",
           "meaning": "Лечь (положение)",
           "example": "Das Buch liegt hier. – Книга здесь."
         },
         {
-          "word": "Легенда",
+          "word": "legen",
           "meaning": "Сложить (действие)",
           "example": "Ich lege das Buch hin. – Я отложил книгу."
         },
         {
-          "word": "Стоять",
+          "word": "stehen",
           "meaning": "Стоять (состояние)",
           "example": "Die Flasche steht hier. – Бутылка здесь."
         },
         {
-          "word": "Стеллен",
+          "word": "stellen",
           "meaning": "Поставить вертикально (действие)",
           "example": "Ich stelle die Flasche hin. – Я поставил бутылку вертикально."
         }
@@ -42866,32 +42866,32 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Установить",
+          "word": "setzen",
           "meaning": "Место (действие)",
           "example": "Ich setze das Kind hin. – Я сижу ребенка."
         },
         {
-          "word": "Сидячий",
+          "word": "sitzen",
           "meaning": "Сидеть (поза)",
           "example": "Das Kind sitzt hier. – Здесь сидит ребенок."
         },
         {
-          "word": "Легенда",
+          "word": "legen",
           "meaning": "Сложить (действие)",
           "example": "Ich lege das Buch hin. – Я отложил книгу."
         },
         {
-          "word": "Ложь",
+          "word": "liegen",
           "meaning": "Лечь (положение)",
           "example": "Das Buch liegt hier. – Книга здесь."
         },
         {
-          "word": "Стеллен",
+          "word": "stellen",
           "meaning": "Поставить вертикально (действие)",
           "example": "Ich stelle die Flasche hin. – Я поставил бутылку вертикально."
         },
         {
-          "word": "Стоять",
+          "word": "stehen",
           "meaning": "Стоять (состояние)",
           "example": "Die Flasche steht hier. – Бутылка здесь."
         }
@@ -42992,29 +42992,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Как только",
+          "word": "sobald",
           "meaning": "Как только",
-          "example": "Sobald er kommt, gehen wir. = Как только он придет, мы пойдем."
+          "example": "Sobald er kommt, gehen wir. = Tiklīdz viņš atnāks, mēs iesim."
         },
         {
-          "word": "Когда",
+          "word": "wenn",
           "meaning": "Когда / если",
-          "example": "Wenn ich Zeit habe, komme ich. = Если у меня будет время, я приеду."
+          "example": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu."
         },
         {
-          "word": "Пиво",
+          "word": "als",
           "meaning": "Когда (однажды в прошлом)",
-          "example": "Als ich Kind war, spielte ich viel. = Когда я был ребенком, я много играл."
+          "example": "Als ich Kind war, spielte ich viel. = Kad biju bērns, daudz spēlējos."
         },
         {
-          "word": "Выйти на бис",
+          "word": "bis",
           "meaning": "До",
-          "example": "Ich warte, bis du kommst. = Я жду, когда ты придешь."
+          "example": "Ich warte, bis du kommst. = Es gaidu, līdz tu atnāksi."
         },
         {
-          "word": "Нахдем",
+          "word": "nachdem",
           "meaning": "После того, когда",
-          "example": "Nachdem ich gegessen habe, gehe ich. = После того, как я поем, я иду."
+          "example": "Nachdem ich gegessen habe, gehe ich. = Pēc tam kad paēdu, es eju."
         }
       ],
       "tip": {
@@ -43355,29 +43355,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Сынок",
+          "word": "sonst",
           "meaning": "Иначе / иначе / обычно",
-          "example": "Komm jetzt, sonst ist es zu spät. = Приходите сейчас, иначе будет слишком поздно."
+          "example": "Komm jetzt, sonst ist es zu spät. = Nāc tagad, citādi būs par vēlu."
         },
         {
-          "word": "Ансонстен",
+          "word": "ansonsten",
           "meaning": "Иначе / иначе",
-          "example": "Ansonsten ist alles gut. = В остальном все в порядке."
+          "example": "Ansonsten ist alles gut. = Citādi viss ir labi."
         },
         {
-          "word": "Андернфолс",
+          "word": "andernfalls",
           "meaning": "В противном случае",
-          "example": "Andernfalls rufe ich an. = Иначе я позвоню."
+          "example": "Andernfalls rufe ich an. = Pretējā gadījumā es zvanīšu."
         },
         {
-          "word": "Обычно",
+          "word": "normalerweise",
           "meaning": "Обычно",
-          "example": "Normalerweise bin ich zu Hause. = Я обычно дома."
+          "example": "Normalerweise bin ich zu Hause. = Parasti es esmu mājās."
         },
         {
-          "word": "Также",
+          "word": "außerdem",
           "meaning": "Кроме того / кроме того",
-          "example": "Außerdem ist es teuer. = Кроме того, это дорого."
+          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
         }
       ],
       "tip": {
@@ -43874,32 +43874,32 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Стоять",
+          "word": "stehen",
           "meaning": "Стоять (состояние)",
           "example": "Die Flasche steht hier. – Бутылка здесь."
         },
         {
-          "word": "Стеллен",
+          "word": "stellen",
           "meaning": "Поставить вертикально (действие)",
           "example": "Ich stelle die Flasche hin. – Я поставил бутылку вертикально."
         },
         {
-          "word": "Ложь",
+          "word": "liegen",
           "meaning": "Лечь (положение)",
           "example": "Das Buch liegt hier. – Книга здесь."
         },
         {
-          "word": "Легенда",
+          "word": "legen",
           "meaning": "Сложить (действие)",
           "example": "Ich lege das Buch hin. – Я отложил книгу."
         },
         {
-          "word": "Сидячий",
+          "word": "sitzen",
           "meaning": "Сидеть (поза)",
           "example": "Das Kind sitzt hier. – Здесь сидит ребенок."
         },
         {
-          "word": "Установить",
+          "word": "setzen",
           "meaning": "Место (действие)",
           "example": "Ich setze das Kind hin. – Я сижу ребенка."
         }
@@ -43986,32 +43986,32 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Стеллен",
+          "word": "stellen",
           "meaning": "Поставить вертикально (действие)",
           "example": "Ich stelle die Flasche hin. – Я поставил бутылку вертикально."
         },
         {
-          "word": "Стоять",
+          "word": "stehen",
           "meaning": "Стоять (состояние)",
           "example": "Die Flasche steht hier. – Бутылка здесь."
         },
         {
-          "word": "Легенда",
+          "word": "legen",
           "meaning": "Сложить (действие)",
           "example": "Ich lege das Buch hin. – Я отложил книгу."
         },
         {
-          "word": "Ложь",
+          "word": "liegen",
           "meaning": "Лечь (положение)",
           "example": "Das Buch liegt hier. – Книга здесь."
         },
         {
-          "word": "Установить",
+          "word": "setzen",
           "meaning": "Место (действие)",
           "example": "Ich setze das Kind hin. – Я сижу ребенка."
         },
         {
-          "word": "Сидячий",
+          "word": "sitzen",
           "meaning": "Сидеть (поза)",
           "example": "Das Kind sitzt hier. – Здесь сидит ребенок."
         }
@@ -44123,29 +44123,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Вставать",
+          "word": "steigen",
           "meaning": "Подниматься / подниматься / подниматься",
-          "example": "Die Preise steigen. = Цены растут."
+          "example": "Die Preise steigen. = Cenas ceļas."
         },
         {
-          "word": "Эйнштайген",
+          "word": "einsteigen",
           "meaning": "Садиться в транспорт",
-          "example": "Ich steige in den Bus ein. = Я сажусь в автобус."
+          "example": "Ich steige in den Bus ein. = Es iekāpju autobusā."
         },
         {
-          "word": "Аусштайген",
+          "word": "aussteigen",
           "meaning": "Выйти из транспорта",
-          "example": "Ich steige aus. = Я выхожу."
+          "example": "Ich steige aus. = Es izkāpju."
         },
         {
-          "word": "Ауфстеен",
+          "word": "aufstehen",
           "meaning": "Вставать",
-          "example": "Ich stehe um sieben auf. = Я встаю в семь."
+          "example": "Ich stehe um sieben auf. = Es pieceļos septiņos."
         },
         {
-          "word": "Клеттерн",
+          "word": "klettern",
           "meaning": "Взбираться/лезть с усилием",
-          "example": "Das Kind klettert auf den Baum. = Ребенок лезет на дерево."
+          "example": "Das Kind klettert auf den Baum. = Bērns rāpjas kokā."
         }
       ],
       "tip": {
@@ -44411,29 +44411,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Стелле",
+          "word": "die Stelle",
           "meaning": "Место/рабочее место/фрагмент",
-          "example": "Ich suche eine Stelle. = Я ищу работу."
+          "example": "Ich suche eine Stelle. = Es meklēju darba vietu."
         },
         {
-          "word": "Подходит Орту",
+          "word": "der Ort",
           "meaning": "Место/поселение",
-          "example": "Der Ort ist schön. = Место красивое."
+          "example": "Der Ort ist schön. = Vieta ir skaista."
         },
         {
-          "word": "Дер Арбайтстатт",
+          "word": "der Arbeitsplatz",
           "meaning": "Рабочее место",
-          "example": "Mein Arbeitsplatz ist ruhig. = На моем рабочем месте тихо."
+          "example": "Mein Arbeitsplatz ist ruhig. = Mana darba vieta ir klusa."
         },
         {
-          "word": "Умереть Textstelle",
+          "word": "die Textstelle",
           "meaning": "Текстовое пространство/фрагмент",
-          "example": "Diese Textstelle ist wichtig. = Этот отрывок важен."
+          "example": "Diese Textstelle ist wichtig. = Šis teksta fragments ir svarīgs."
         },
         {
-          "word": "Умереть Вунде",
+          "word": "die Wunde",
           "meaning": "Рана",
-          "example": "Die Wunde tut weh. = Рана болит."
+          "example": "Die Wunde tut weh. = Brūce sāp."
         }
       ],
       "tip": {
@@ -44761,29 +44761,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Голос",
+          "word": "stimmen",
           "meaning": "Согласен / быть прав / голосовать",
-          "example": "Das stimmt. = Это / это правильно."
+          "example": "Das stimmt. = Tā ir / tas ir pareizi."
         },
         {
-          "word": "Зустиммен",
+          "word": "zustimmen",
           "meaning": "Согласиться",
-          "example": "Ich stimme dir zu. = Я согласен с вами."
+          "example": "Ich stimme dir zu. = Es tev piekrītu."
         },
         {
-          "word": "Воздержание",
+          "word": "abstimmen",
           "meaning": "Голосовать/согласиться",
-          "example": "Wir stimmen darüber ab. = Мы голосуем за это."
+          "example": "Wir stimmen darüber ab. = Mēs par to balsojam."
         },
         {
-          "word": "Велен",
+          "word": "wählen",
           "meaning": "Выбирать / выбирать",
-          "example": "Wir wählen den Präsidenten. = Мы хотим президента."
+          "example": "Wir wählen den Präsidenten. = Mēs vēlējam prezidentu."
         },
         {
-          "word": "Пройти",
+          "word": "passen",
           "meaning": "Подходит / подходит",
-          "example": "Die Farbe passt. = Цвет подходит."
+          "example": "Die Farbe passt. = Krāsa piestāv."
         }
       ],
       "tip": {
@@ -45051,29 +45051,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит для Стоффа",
+          "word": "der Stoff",
           "meaning": "Ткань/вещество/материал",
-          "example": "Der Stoff ist weich. = Ткань мягкая."
+          "example": "Der Stoff ist weich. = Audums ir mīksts."
         },
         {
-          "word": "Материал",
+          "word": "das Material",
           "meaning": "Материал",
-          "example": "Das Material ist stabil. = Материал прочный."
+          "example": "Das Material ist stabil. = Materiāls ir izturīgs."
         },
         {
-          "word": "Die Substanz",
+          "word": "die Substanz",
           "meaning": "Вещество",
-          "example": "Die Substanz ist gefährlich. = Вещество опасно."
+          "example": "Die Substanz ist gefährlich. = Viela ir bīstama."
         },
         {
-          "word": "Дер Унтеррихтсштофф",
+          "word": "der Unterrichtsstoff",
           "meaning": "Учебный материал",
-          "example": "Der Unterrichtsstoff ist schwer. = Тема сложная."
+          "example": "Der Unterrichtsstoff ist schwer. = Mācību viela ir grūta."
         },
         {
-          "word": "Дас Тема",
+          "word": "das Thema",
           "meaning": "Предмет",
-          "example": "Das Thema ist interessant. = Тема интересная."
+          "example": "Das Thema ist interessant. = Temats ir interesants."
         }
       ],
       "tip": {
@@ -45476,29 +45476,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Тафель",
+          "word": "die Tafel",
           "meaning": "Классная доска / тарелка / классная доска",
-          "example": "Der Lehrer schreibt an die Tafel. = Учитель пишет на доске."
+          "example": "Der Lehrer schreibt an die Tafel. = Skolotājs raksta uz tāfeles."
         },
         {
-          "word": "Умереть Таблица",
+          "word": "die Tabelle",
           "meaning": "Таблица с данными",
-          "example": "Die Tabelle steht im Buch. = Таблица есть в книге."
+          "example": "Die Tabelle steht im Buch. = Tabula ir grāmatā."
         },
         {
-          "word": "Меню",
+          "word": "die Speisekarte",
           "meaning": "Меню",
-          "example": "Die Speisekarte liegt auf dem Tisch. = Меню лежит на столе."
+          "example": "Die Speisekarte liegt auf dem Tisch. = Ēdienkarte ir uz galda."
         },
         {
-          "word": "Дас Шильд",
+          "word": "das Schild",
           "meaning": "Знак / табличка",
-          "example": "Das Schild ist rot. = Знак красный."
+          "example": "Das Schild ist rot. = Zīme ir sarkana."
         },
         {
-          "word": "Умереть Тафель Шоколад",
+          "word": "die Tafel Schokolade",
           "meaning": "Плитка шоколада",
-          "example": "Eine Tafel Schokolade = Плитка шоколада."
+          "example": "Eine Tafel Schokolade = šokolādes tāfelīte."
         }
       ],
       "tip": {
@@ -45842,29 +45842,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Тейль",
+          "word": "das Teil",
           "meaning": "Деталь/деталь/кусок",
-          "example": "Ein Teil fehlt. = Одна часть отсутствует."
+          "example": "Ein Teil fehlt. = Trūkst viena daļa."
         },
         {
-          "word": "Подходит тел.",
+          "word": "der Teil",
           "meaning": "Часть (грамматически подходит)",
-          "example": "Der erste Teil ist leicht. = Первая часть легкая."
+          "example": "Der erste Teil ist leicht. = Pirmā daļa ir viegla."
         },
         {
-          "word": "Дас Эрзацтайль",
+          "word": "das Ersatzteil",
           "meaning": "Запчасть",
-          "example": "Das Ersatzteil ist teuer. = Запчасть дорогая."
+          "example": "Das Ersatzteil ist teuer. = Rezerves detaļa ir dārga."
         },
         {
-          "word": "Дас Штюк",
+          "word": "das Stück",
           "meaning": "Кусок",
-          "example": "Ich nehme ein Stück Kuchen. = Я беру кусок торта."
+          "example": "Ich nehme ein Stück Kuchen. = Es ņemu kūkas gabalu."
         },
         {
-          "word": "Умереть Саше",
+          "word": "die Sache",
           "meaning": "Вещь/предмет",
-          "example": "Das ist eine gute Sache. = Это хорошо."
+          "example": "Das ist eine gute Sache. = Tā ir laba lieta."
         }
       ],
       "tip": {
@@ -46196,29 +46196,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Термин применяется",
+          "word": "der Termin",
           "meaning": "Согласованное время/назначение/срок",
-          "example": "Ich habe einen Termin. = У меня назначена встреча/встреча."
+          "example": "Ich habe einen Termin. = Man ir pieraksts / norunāts laiks."
         },
         {
-          "word": "Дас Треффен",
+          "word": "das Treffen",
           "meaning": "Встреча",
-          "example": "Das Treffen war nett. = Встреча была приятной."
+          "example": "Das Treffen war nett. = Tikšanās bija jauka."
         },
         {
-          "word": "Умереть Фрист",
+          "word": "die Frist",
           "meaning": "Срок, к которому что-то должно быть сделано",
-          "example": "Die Frist endet morgen. = Срок – завтра."
+          "example": "Die Frist endet morgen. = Termiņš beidzas rīt."
         },
         {
-          "word": "Умереть Verabredung",
+          "word": "die Verabredung",
           "meaning": "Встреча/договоренная встреча",
-          "example": "Ich habe eine Verabredung. = У меня назначена встреча."
+          "example": "Ich habe eine Verabredung. = Man ir sarunāta tikšanās."
         },
         {
-          "word": "Время пришло",
+          "word": "der Zeitpunkt",
           "meaning": "Момент времени",
-          "example": "Der Zeitpunkt ist wichtig. = Время важно."
+          "example": "Der Zeitpunkt ist wichtig. = Laika punkts ir svarīgs."
         }
       ],
       "tip": {
@@ -46495,29 +46495,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Галстук",
+          "word": "tief",
           "meaning": "Глубокий/низкий с голосом, звуком, температурой",
-          "example": "Der See ist tief. = Озеро глубокое."
+          "example": "Der See ist tief. = Ezers ir dziļš."
         },
         {
-          "word": "Низкий",
+          "word": "niedrig",
           "meaning": "Низкий рост или фигура",
-          "example": "Das Regal ist niedrig. = Полка низкая."
+          "example": "Das Regal ist niedrig. = Plaukts ir zems."
         },
         {
-          "word": "Хох",
+          "word": "hoch",
           "meaning": "Высокий",
-          "example": "Der Berg ist hoch. = Гора высокая."
+          "example": "Der Berg ist hoch. = Kalns ir augsts."
         },
         {
-          "word": "Вспышка",
+          "word": "flach",
           "meaning": "Неглубокий / плоский",
-          "example": "Das Wasser ist flach. = Вода мелкая."
+          "example": "Das Wasser ist flach. = Ūdens ir sekls."
         },
         {
-          "word": "Лейзе",
+          "word": "leise",
           "meaning": "Тихий",
-          "example": "Die Stimme ist leise. = Голос тихий."
+          "example": "Die Stimme ist leise. = Balss ir klusa."
         }
       ],
       "tip": {
@@ -46980,24 +46980,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Тащить",
+          "word": "tragen",
           "meaning": "Носить / нести / носить",
-          "example": "Ich trage eine Tasche. = Я несу сумку."
+          "example": "Ich trage eine Tasche. = Es nesu somu."
         },
         {
-          "word": "Анзиен",
+          "word": "anziehen",
           "meaning": "Надевать",
-          "example": "Ich ziehe die Jacke an. = Я надел куртку."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
-          "word": "Приносить",
+          "word": "bringen",
           "meaning": "Принести / доставить",
-          "example": "Ich bringe dir das Buch. = Я принес тебе книгу."
+          "example": "Ich bringe dir das Buch. = Es tev atnesu grāmatu."
         },
         {
-          "word": "Останавливать",
+          "word": "halten",
           "meaning": "Держать",
-          "example": "Ich halte das Kind. = Я держу ребенка."
+          "example": "Ich halte das Kind. = Es turu bērnu."
         }
       ],
       "tip": {
@@ -47202,29 +47202,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Встреча",
+          "word": "treffen",
           "meaning": "Встретиться/ударить/принять",
-          "example": "Eine Entscheidung treffen = Принять решение."
+          "example": "Eine Entscheidung treffen = pieņemt lēmumu."
         },
         {
-          "word": "Sich treffen",
+          "word": "sich treffen",
           "meaning": "Встретиться",
-          "example": "Wir treffen uns. = Мы встречаемся."
+          "example": "Wir treffen uns. = Mēs tiekamies."
         },
         {
-          "word": "Кенненлернен",
+          "word": "kennenlernen",
           "meaning": "Знакомиться",
-          "example": "Ich lerne ihn kennen. = Я знакомлюсь с ним."
+          "example": "Ich lerne ihn kennen. = Es ar viņu iepazīstos."
         },
         {
-          "word": "Эррайхен",
+          "word": "erreichen",
           "meaning": "Дозвониться/позвонить",
-          "example": "Ich erreiche dich nicht. = Я не могу тебе позвонить."
+          "example": "Ich erreiche dich nicht. = Es nevaru tevi sazvanīt."
         },
         {
-          "word": "Пройти",
+          "word": "passen",
           "meaning": "Подходит / подходит",
-          "example": "Das passt. = Это подходит."
+          "example": "Das passt. = Tas der."
         }
       ],
       "tip": {
@@ -47623,29 +47623,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Юбриг",
+          "word": "übrig",
           "meaning": "Осталось / остальное",
-          "example": "Es ist Geld übrig. = Деньги остались."
+          "example": "Es ist Geld übrig. = Ir atlikusi nauda."
         },
         {
-          "word": "Юбриг Блейбен",
+          "word": "übrig bleiben",
           "meaning": "Оставайся ночевать",
-          "example": "Viel Essen bleibt übrig. = Много еды осталось."
+          "example": "Viel Essen bleibt übrig. = Daudz ēdiena paliek pāri."
         },
         {
-          "word": "Подходит отдых",
+          "word": "der Rest",
           "meaning": "Баланс",
-          "example": "Der Rest ist für morgen. = Остаток должен быть оплачен завтра."
+          "example": "Der Rest ist für morgen. = Atlikums ir rītdienai."
         },
         {
-          "word": "Умереть сверх меры",
+          "word": "die übrigen",
           "meaning": "Остальные",
-          "example": "Die übrigen Gäste kommen später. = Остальные гости прибудут позже."
+          "example": "Die übrigen Gäste kommen später. = Pārējie viesi ieradīsies vēlāk."
         },
         {
-          "word": "Unnötig",
+          "word": "unnötig",
           "meaning": "Ненужный",
-          "example": "Das ist unnötig. = В этом нет необходимости."
+          "example": "Das ist unnötig. = Tas ir nevajadzīgi."
         }
       ],
       "tip": {
@@ -47888,29 +47888,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Убунг",
+          "word": "die Übung",
           "meaning": "Упражнения/практика",
-          "example": "Diese Übung ist leicht. = Это упражнение легкое."
+          "example": "Diese Übung ist leicht. = Šis vingrinājums ir viegls."
         },
         {
-          "word": "Юбен",
+          "word": "üben",
           "meaning": "Тренировать",
-          "example": "Ich übe jeden Tag. = Я тренируюсь каждый день."
+          "example": "Ich übe jeden Tag. = Es vingrinos katru dienu."
         },
         {
-          "word": "Обучение",
+          "word": "das Training",
           "meaning": "Обучение",
-          "example": "Das Training beginnt um sechs. = Тренировки начинаются в шесть."
+          "example": "Das Training beginnt um sechs. = Treniņš sākas sešos."
         },
         {
-          "word": "Умереть Ауфгабе",
+          "word": "die Aufgabe",
           "meaning": "Задача",
-          "example": "Die Aufgabe ist schwer. = Задача трудная."
+          "example": "Die Aufgabe ist schwer. = Uzdevums ir grūts."
         },
         {
-          "word": "Умереть Праксис",
+          "word": "die Praxis",
           "meaning": "Упражняться",
-          "example": "In der Praxis ist es anders. = На практике все по-другому."
+          "example": "In der Praxis ist es anders. = Praksē tas ir citādi."
         }
       ],
       "tip": {
@@ -48152,24 +48152,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умсонст",
+          "word": "umsonst",
           "meaning": "Зря/напрасно",
-          "example": "Ich warte umsonst. = Я жду напрасно."
+          "example": "Ich warte umsonst. = Es gaidu veltīgi."
         },
         {
-          "word": "Костенлос",
+          "word": "kostenlos",
           "meaning": "Бесплатно",
-          "example": "Der Kurs ist kostenlos. = Курс бесплатный."
+          "example": "Der Kurs ist kostenlos. = Kurss ir bez maksas."
         },
         {
-          "word": "Бесплатно",
+          "word": "gratis",
           "meaning": "Бесплатно",
-          "example": "Das ist gratis. = Это бесплатно."
+          "example": "Das ist gratis. = Tas ir par brīvu."
         },
         {
-          "word": "Смущающий",
+          "word": "vergeblich",
           "meaning": "Напрасно",
-          "example": "Ich suche vergeblich. = Я искал тщетно."
+          "example": "Ich suche vergeblich. = Es meklēju veltīgi."
         }
       ],
       "tip": {
@@ -48521,12 +48521,12 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Урлауб",
+          "word": "der Urlaub",
           "meaning": "Уйти с работы (только все)",
           "example": "Mein Vater ist im Urlaub. – Мой отец в отпуске."
         },
         {
-          "word": "Умереть Фериен",
+          "word": "die Ferien",
           "meaning": "Школьные/учебные каникулы (только дск.)",
           "example": "Die Kinder haben Ferien. – У детей каникулы."
         }
@@ -48648,29 +48648,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Соединять",
+          "word": "verbinden",
           "meaning": "Подключить/связать",
-          "example": "Die Brücke verbindet zwei Orte. = Мост соединяет два места."
+          "example": "Die Brücke verbindet zwei Orte. = Tilts savieno divas vietas."
         },
         {
-          "word": "Sich verbinden mit",
+          "word": "sich verbinden mit",
           "meaning": "Относиться к",
-          "example": "Das verbindet sich mit Erinnerungen. = Это связано с воспоминаниями."
+          "example": "Das verbindet sich mit Erinnerungen. = Tas saistās ar atmiņām."
         },
         {
-          "word": "Связывать",
+          "word": "binden",
           "meaning": "Сито",
-          "example": "Ich binde die Schuhe. = Я приклеиваю обувь."
+          "example": "Ich binde die Schuhe. = Es sienu kurpes."
         },
         {
-          "word": "Аншлиссен",
+          "word": "anschließen",
           "meaning": "Соединять",
-          "example": "Ich schließe den Drucker an. = Я подключил принтер."
+          "example": "Ich schließe den Drucker an. = Es pieslēdzu printeri."
         },
         {
-          "word": "Умереть вунде вербинден",
+          "word": "die Wunde verbinden",
           "meaning": "Перевязать рану",
-          "example": "Der Arzt verbindet die Wunde. = Врач перевязывает рану."
+          "example": "Der Arzt verbindet die Wunde. = Ārsts pārsien brūci."
         }
       ],
       "tip": {
@@ -48969,29 +48969,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Веркер",
+          "word": "der Verkehr",
           "meaning": "Движение/движение/коммуникации",
-          "example": "Der Verkehr ist stark. = Движение интенсивное."
+          "example": "Der Verkehr ist stark. = Satiksme ir intensīva."
         },
         {
-          "word": "Дер Штрассенверкер",
+          "word": "der Straßenverkehr",
           "meaning": "Дорожное движение",
-          "example": "Der Straßenverkehr ist gefährlich. = Дорожное движение опасно."
+          "example": "Der Straßenverkehr ist gefährlich. = Ceļu satiksme ir bīstama."
         },
         {
-          "word": "Der öffentliche Verkehr",
+          "word": "der öffentliche Verkehr",
           "meaning": "Общественный транспорт",
-          "example": "Öffentlicher Verkehr ist praktisch. = Общественный транспорт практичен."
+          "example": "Öffentlicher Verkehr ist praktisch. = Sabiedriskā satiksme ir praktiska."
         },
         {
-          "word": "Подходит для контакта",
+          "word": "der Kontakt",
           "meaning": "Контакт/общение",
-          "example": "Wir haben Kontakt mit Kunden. = Имеем контакты с клиентами."
+          "example": "Wir haben Kontakt mit Kunden. = Mums ir kontakti ar klientiem."
         },
         {
-          "word": "Умереть Бевегунг",
+          "word": "die Bewegung",
           "meaning": "Движение",
-          "example": "Bewegung ist gesund. = Движение здоровое."
+          "example": "Bewegung ist gesund. = Kustība ir veselīga."
         }
       ],
       "tip": {
@@ -49371,29 +49371,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Виртель",
+          "word": "das Viertel",
           "meaning": "Квартал / квартал / квартал",
-          "example": "Ein Viertel ist genug. = Четверти вполне достаточно."
+          "example": "Ein Viertel ist genug. = Ceturtdaļa ir pietiekami."
         },
         {
-          "word": "Умереть Хэлфте",
+          "word": "die Hälfte",
           "meaning": "Сторона",
-          "example": "Die Hälfte ist weg. = Вечеринка ушла."
+          "example": "Die Hälfte ist weg. = Puse ir prom."
         },
         {
-          "word": "Дас Дриттель",
+          "word": "das Drittel",
           "meaning": "Третий",
-          "example": "Ein Drittel bleibt. = Остается третий."
+          "example": "Ein Drittel bleibt. = Trešdaļa paliek."
         },
         {
-          "word": "Дер Штадттейль",
+          "word": "der Stadtteil",
           "meaning": "Часть города/района",
-          "example": "Dieser Stadtteil ist schön. = Этот район прекрасен."
+          "example": "Dieser Stadtteil ist schön. = Šis rajons ir skaists."
         },
         {
-          "word": "Дас Картье",
+          "word": "das Quartier",
           "meaning": "Квартал / район",
-          "example": "Das Quartier ist ruhig. = В блоке тихо."
+          "example": "Das Quartier ist ruhig. = Kvartāls ir kluss."
         }
       ],
       "tip": {
@@ -49787,29 +49787,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Представлять",
+          "word": "vorstellen",
           "meaning": "Представить / представить",
-          "example": "Ich stelle dir meinen Freund vor. = Я знакомлю тебя с другом."
+          "example": "Ich stelle dir meinen Freund vor. = Es tevi iepazīstinu ar draugu."
         },
         {
-          "word": "Представиться",
+          "word": "sich vorstellen",
           "meaning": "Стоять впереди/представить",
-          "example": "Ich stelle mich vor. = Я стою впереди."
+          "example": "Ich stelle mich vor. = Es stādos priekšā."
         },
         {
-          "word": "Думать",
+          "word": "denken",
           "meaning": "Думать",
-          "example": "Ich denke an dich. = Я думаю о тебе."
+          "example": "Ich denke an dich. = Es domāju par tevi."
         },
         {
-          "word": "Мейнен",
+          "word": "meinen",
           "meaning": "Думать / рассматривать",
-          "example": "Was meinst du? = Что вы думаете?"
+          "example": "Was meinst du? = Ko tu domā?"
         },
         {
-          "word": "Подарок",
+          "word": "präsentieren",
           "meaning": "Представить",
-          "example": "Ich präsentiere den Plan. = Представляю план."
+          "example": "Ich präsentiere den Plan. = Es prezentēju plānu."
         }
       ],
       "tip": {
@@ -50109,24 +50109,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит для Вагена",
+          "word": "der Wagen",
           "meaning": "Машина • Повозка • Телега",
-          "example": "Der Wagen ist neu. = Машина новая."
+          "example": "Der Wagen ist neu. = Automašīna ir jauna."
         },
         {
-          "word": "Подходит для универсала",
+          "word": "der Waggon",
           "meaning": "Вагон (поезд)",
-          "example": "Der Waggon ist voll. = Вагон полный."
+          "example": "Der Waggon ist voll. = Vagons ir pilns."
         },
         {
-          "word": "Дас Кар",
+          "word": "das Auto",
           "meaning": "Машина",
-          "example": "Das Auto steht da. = Машина стоит там."
+          "example": "Das Auto steht da. = Automašīna stāv tur."
         },
         {
-          "word": "Повозка (глагол)",
+          "word": "wagen (Verb)",
           "meaning": "Осмелиться",
-          "example": "Ich wage es nicht. = Я не смею."
+          "example": "Ich wage es nicht. = Es neuzdrošinos."
         }
       ],
       "tip": {
@@ -50265,24 +50265,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Велен",
+          "word": "wählen",
           "meaning": "Выбирать/голосовать/сочинять",
-          "example": "Ich wähle eine Nummer. = Я набираю номер."
+          "example": "Ich wähle eine Nummer. = Es sastādu numuru."
         },
         {
-          "word": "Выбирать",
+          "word": "auswählen",
           "meaning": "Выбрать / выбрать",
-          "example": "Ich wähle ein Bild aus. = Я выбираю картинку."
+          "example": "Ich wähle ein Bild aus. = Es izvēlos attēlu."
         },
         {
-          "word": "Эншайден",
+          "word": "entscheiden",
           "meaning": "Решать",
-          "example": "Ich entscheide mich. = Я решаю."
+          "example": "Ich entscheide mich. = Es izlemju."
         },
         {
-          "word": "Воздержание",
+          "word": "abstimmen",
           "meaning": "Голосовать",
-          "example": "Wir stimmen ab. = Мы голосуем."
+          "example": "Wir stimmen ab. = Mēs balsojam."
         }
       ],
       "tip": {
@@ -50548,24 +50548,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Пока",
+          "word": "während",
           "meaning": "Во время / пока",
-          "example": "Während ich arbeite, ist es ruhig. = Пока я работаю, тихо."
+          "example": "Während ich arbeite, ist es ruhig. = Kamēr es strādāju, ir kluss."
         },
         {
-          "word": "Пока",
+          "word": "bei",
           "meaning": "При/во время определенных условий",
-          "example": "Bei Regen bleiben wir zu Hause. = Мы остаемся дома, когда идет дождь."
+          "example": "Bei Regen bleiben wir zu Hause. = Lietus laikā paliekam mājās."
         },
         {
-          "word": "Когда",
+          "word": "wenn",
           "meaning": "Когда / если",
-          "example": "Wenn ich Zeit habe, komme ich. = Если у меня будет время, я приеду."
+          "example": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu."
         },
         {
-          "word": "Соланж",
+          "word": "solange",
           "meaning": "Пока",
-          "example": "Solange du hier bist, bleibe ich. = Пока ты здесь, я остаюсь."
+          "example": "Solange du hier bist, bleibe ich. = Kamēr tu esi šeit, es palieku."
         }
       ],
       "tip": {
@@ -50845,29 +50845,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Вероятно",
+          "word": "wahrscheinlich",
           "meaning": "Вероятно / скорее всего",
-          "example": "Er kommt wahrscheinlich. = Он, вероятно, придет."
+          "example": "Er kommt wahrscheinlich. = Viņš droši vien atnāks."
         },
         {
-          "word": "Может быть",
+          "word": "vielleicht",
           "meaning": "Может быть",
-          "example": "Vielleicht kommt er. = Может быть, он придет."
+          "example": "Vielleicht kommt er. = Varbūt viņš atnāks."
         },
         {
-          "word": "Конечно",
+          "word": "sicher",
           "meaning": "Конечно / определенно",
-          "example": "Das ist sicher richtig. = Это, конечно, правильно."
+          "example": "Das ist sicher richtig. = Tas noteikti ir pareizi."
         },
         {
-          "word": "Определенно",
+          "word": "bestimmt",
           "meaning": "Определенно",
-          "example": "Er kommt bestimmt. = Он обязательно придет."
+          "example": "Er kommt bestimmt. = Viņš noteikti atnāks."
         },
         {
-          "word": "Мёглич",
+          "word": "möglich",
           "meaning": "Возможный",
-          "example": "Das ist möglich. = Это возможно."
+          "example": "Das ist möglich. = Tas ir iespējams."
         }
       ],
       "tip": {
@@ -51152,29 +51152,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Вексельн",
+          "word": "wechseln",
           "meaning": "Поменять/обменять",
-          "example": "Ich wechsle Geld. = Я меняю деньги."
+          "example": "Ich wechsle Geld. = Es samainu naudu."
         },
         {
-          "word": "Обмен",
+          "word": "umtauschen",
           "meaning": "Обменять предмет",
-          "example": "Ich tausche die Jacke um. = Я меняю куртку."
+          "example": "Ich tausche die Jacke um. = Es apmainu jaku."
         },
         {
-          "word": "Таушен",
+          "word": "tauschen",
           "meaning": "Менять/обменять",
-          "example": "Wir tauschen Plätze. = Меняемся местами."
+          "example": "Wir tauschen Plätze. = Mēs samaināmies vietām."
         },
         {
-          "word": "Умштайген",
+          "word": "umsteigen",
           "meaning": "Трансфер на транспорт",
-          "example": "Ich steige um. = Я пересаживаюсь."
+          "example": "Ich steige um. = Es pārsēžos."
         },
         {
-          "word": "Изменять",
+          "word": "ändern",
           "meaning": "Изменить / изменить",
-          "example": "Ich ändere den Plan. = Я меняю план."
+          "example": "Ich ändere den Plan. = Es mainu plānu."
         }
       ],
       "tip": {
@@ -51650,29 +51650,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ценность",
+          "word": "wert",
           "meaning": "Ценность",
-          "example": "Das ist viel wert. = Это многого стоит."
+          "example": "Das ist viel wert. = Tas ir daudz vērts."
         },
         {
-          "word": "Дер Верт",
+          "word": "der Wert",
           "meaning": "Ценить",
-          "example": "Der Wert ist hoch. = Ценность высока."
+          "example": "Der Wert ist hoch. = Vērtība ir augsta."
         },
         {
-          "word": "Ты",
+          "word": "teuer",
           "meaning": "Дорогой",
-          "example": "Das Auto ist teuer. = Машина дорогая."
+          "example": "Das Auto ist teuer. = Auto ir dārgs."
         },
         {
-          "word": "Sehenswert",
+          "word": "sehenswert",
           "meaning": "Стоит посмотреть",
-          "example": "Die Stadt ist sehenswert. = Город стоит увидеть."
+          "example": "Die Stadt ist sehenswert. = Pilsētu ir vērts redzēt."
         },
         {
-          "word": "Важный",
+          "word": "wichtig",
           "meaning": "Важный",
-          "example": "Das ist wichtig. = Это важно."
+          "example": "Das ist wichtig. = Tas ir svarīgi."
         }
       ],
       "tip": {
@@ -51943,29 +51943,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Вигген",
+          "word": "wiegen",
           "meaning": "Взвешивать / взвешивать",
-          "example": "Das Paket wiegt zwei Kilo. = Упаковка весит два килограмма."
+          "example": "Das Paket wiegt zwei Kilo. = Paka sver divus kilogramus."
         },
         {
-          "word": "Умереть вааге",
+          "word": "die Waage",
           "meaning": "Весы",
-          "example": "Die Waage steht im Bad. = Весы находятся в ванной."
+          "example": "Die Waage steht im Bad. = Svari stāv vannasistabā."
         },
         {
-          "word": "Дас Гевичт",
+          "word": "das Gewicht",
           "meaning": "Масса",
-          "example": "Das Gewicht ist normal. = Вес нормальный."
+          "example": "Das Gewicht ist normal. = Svars ir normāls."
         },
         {
-          "word": "Мессен",
+          "word": "messen",
           "meaning": "Измерить",
-          "example": "Ich messe die Länge. = Я измеряю длину."
+          "example": "Ich messe die Länge. = Es mēru garumu."
         },
         {
-          "word": "Подходит для Вагена",
+          "word": "der Wagen",
           "meaning": "Автомобиль / фургон",
-          "example": "Der Wagen ist neu. = Машина новая."
+          "example": "Der Wagen ist neu. = Automašīna ir jauna."
         }
       ],
       "tip": {
@@ -52266,29 +52266,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Рисовать",
+          "word": "ziehen",
           "meaning": "Перетащить / переместить / переместить",
-          "example": "Wir ziehen um. = Мы переезжаем."
+          "example": "Wir ziehen um. = Mēs pārvācamies."
         },
         {
-          "word": "Умзихен",
+          "word": "umziehen",
           "meaning": "Переехать/переодеться",
-          "example": "Ich ziehe um. = Я переезжаю."
+          "example": "Ich ziehe um. = Es pārvācos."
         },
         {
-          "word": "Анзиен",
+          "word": "anziehen",
           "meaning": "Надеть одежду/затянуть",
-          "example": "Ich ziehe die Jacke an. = Я надел куртку."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
-          "word": "Аусцихен",
+          "word": "ausziehen",
           "meaning": "Снять/выехать",
-          "example": "Ich ziehe die Schuhe aus. = Я снимаю обувь."
+          "example": "Ich ziehe die Schuhe aus. = Es novelku kurpes."
         },
         {
-          "word": "Циэн лассен",
+          "word": "ziehen lassen",
           "meaning": "Отпустить/втянуть",
-          "example": "Den Tee ziehen lassen. = Дайте чаю настояться."
+          "example": "Den Tee ziehen lassen. = Ļaut tējai ievilkties."
         }
       ],
       "tip": {
@@ -52666,29 +52666,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Брать",
+          "word": "zunehmen",
           "meaning": "Набирать вес/расти",
-          "example": "Die Preise nehmen zu. = Цены растут."
+          "example": "Die Preise nehmen zu. = Cenas pieaug."
         },
         {
-          "word": "Абнемен",
+          "word": "abnehmen",
           "meaning": "Худеть/уменьшаться",
-          "example": "Ich nehme ab. = Я похудела."
+          "example": "Ich nehme ab. = Es notievēju."
         },
         {
-          "word": "Ваксен",
+          "word": "wachsen",
           "meaning": "Расти",
-          "example": "Die Stadt wächst. = Город растет."
+          "example": "Die Stadt wächst. = Pilsēta aug."
         },
         {
-          "word": "Вставать",
+          "word": "steigen",
           "meaning": "Подняться / подняться",
-          "example": "Die Preise steigen. = Цены растут."
+          "example": "Die Preise steigen. = Cenas kāpj."
         },
         {
-          "word": "Поднять себя",
+          "word": "sich erhöhen",
           "meaning": "Увеличивать",
-          "example": "Die Kosten erhöhen sich. = Затраты растут."
+          "example": "Die Kosten erhöhen sich. = Izmaksas palielinās."
         }
       ],
       "tip": {
@@ -52978,29 +52978,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Цурцайт",
+          "word": "zurzeit",
           "meaning": "В настоящее время / в данный момент / в настоящее время",
-          "example": "Zurzeit bin ich beschäftigt. = В настоящее время я занят."
+          "example": "Zurzeit bin ich beschäftigt. = Pašlaik esmu aizņemts."
         },
         {
-          "word": "Реактивный самолет",
+          "word": "jetzt",
           "meaning": "Сейчас",
-          "example": "Ich gehe jetzt. = Я собираюсь сейчас."
+          "example": "Ich gehe jetzt. = Es tagad eju."
         },
         {
-          "word": "Я момент",
+          "word": "im Moment",
           "meaning": "В данный момент / в настоящее время",
-          "example": "Im Moment habe ich keine Zeit. = У меня сейчас нет времени."
+          "example": "Im Moment habe ich keine Zeit. = Šobrīd man nav laika."
         },
         {
-          "word": "В настоящее время",
+          "word": "derzeit",
           "meaning": "В настоящее время / в настоящее время",
-          "example": "Derzeit ist das nicht möglich. = В настоящее время это невозможно."
+          "example": "Derzeit ist das nicht möglich. = Pašlaik tas nav iespējams."
         },
         {
-          "word": "В данный момент",
+          "word": "momentan",
           "meaning": "В данный момент / в настоящее время",
-          "example": "Momentan bin ich krank. = Я сейчас болен."
+          "example": "Momentan bin ich krank. = Šobrīd esmu slims."
         }
       ],
       "tip": {
@@ -53308,12 +53308,12 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Сехен",
+          "word": "sehen",
           "meaning": "Видеть (без намерения)",
           "example": "Ich sehe einen Vogel. – Es redzu putnu."
         },
         {
-          "word": "Смотреть",
+          "word": "schauen",
           "meaning": "Смотреть (активно, намеренно)",
           "example": "Ich schaue den Vogel an. – Es skatos uz putnu."
         }
@@ -53381,12 +53381,12 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Смотреть",
+          "word": "schauen",
           "meaning": "Смотреть (активно)",
           "example": "Ich schaue aus dem Fenster. – Es skatos pa logu."
         },
         {
-          "word": "Сехен",
+          "word": "sehen",
           "meaning": "Видеть (без намерения)",
           "example": "Ich sehe dich. – Es tevi redzu."
         }
@@ -53605,14 +53605,14 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Саген",
+          "word": "sagen",
           "meaning": "Рассказать (конкретный текст)",
           "example": "Was hast du gesagt? – Ko tu pateici?"
         },
         {
-          "word": "Спречен",
+          "word": "sprechen",
           "meaning": "Говорить (язык, говорить)",
-          "example": "Ich spreche Deutsch. – Я говорю по-немецки."
+          "example": "Ich spreche Deutsch. – немецки."
         }
       ],
       "tip": [
@@ -53678,12 +53678,12 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Спречен",
+          "word": "sprechen",
           "meaning": "Говорить (процесс, язык)",
           "example": "Wir sprechen über die Arbeit. – Мы говорим о работе."
         },
         {
-          "word": "Саген",
+          "word": "sagen",
           "meaning": "Рассказать (конкретный текст)",
           "example": "Sag mir die Wahrheit. – Скажи мне правду."
         }

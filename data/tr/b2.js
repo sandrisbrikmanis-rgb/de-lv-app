@@ -7767,17 +7767,17 @@ const B2_WORDS = [
         {
           "word": "das Hochwasser",
           "meaning": "Sel • Yüksek su seviyesi",
-          "example": "Daję Hochwassera. = Bir sel var."
+          "example": "Es gibt Hochwasser. = Ir plūdi."
         },
         {
           "word": "die Überschwemmung",
           "meaning": "Sel (belirli)",
-          "example": "Die Überschwemmung zerstörte Häuser. = Powodzie zniszczyły domy."
+          "example": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas."
         },
         {
           "word": "der Pegel",
           "meaning": "Poziom wody",
-          "example": "Der Pegel'in acelesi var. = Su seviyesi yükseliyor."
+          "example": "Der Pegel steigt. = Ūdens līmenis ceļas."
         }
       ],
       "tip": {
@@ -9241,17 +9241,17 @@ const B2_WORDS = [
         {
           "word": "Nachdruck legen auf",
           "meaning": "Podkreślać, nalegać",
-          "example": "Bu, Frist'ten sonra bir Nachdruck'tı. = Terimi vurgular."
+          "example": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu."
         },
         {
           "word": "der Nachdruck (Buch)",
           "meaning": "Yeniden yayınlama",
-          "example": "Der Nachdruck erschien im Frühjahr. = Yeniden basımı baharda yayınlandı."
+          "example": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī."
         },
         {
           "word": "der Druck",
           "meaning": "Basınç/baskı",
-          "example": "Unter Druck stehen = Baskı altında olmak."
+          "example": "Unter Druck stehen = būt spiedienā."
         }
       ],
       "tip": [
@@ -14271,17 +14271,17 @@ const B2_WORDS = [
         {
           "word": "zuweisen",
           "meaning": "Ata • Ata",
-          "example": "Er weist die Aufgabe zu. = On przydziela zadanie."
+          "example": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu."
         },
         {
           "word": "geben",
           "meaning": "Vermek",
-          "example": "Er bet mir die Arbeit. = Bana bir iş veriyor."
+          "example": "Er gibt mir die Arbeit. = Viņš man dod darbu."
         },
         {
           "word": "verteilen",
           "meaning": "Bölmek",
-          "example": "Er verteilt die Aufgaben. = On dzieli zadania."
+          "example": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus."
         }
       ],
       "tip": {
@@ -14366,22 +14366,22 @@ const B2_WORDS = [
         {
           "word": "zuwider (+ Dat.)",
           "meaning": "Przeciw • Przeciwnie",
-          "example": "Mir zuwider = Wbrew mojej woli"
+          "example": "mir zuwider = pret manu gribu"
         },
         {
           "word": "jemandem zuwider sein",
           "meaning": "Birisi bundan hoşlanmayacak",
-          "example": "Ben Mir Zuwider'ım. = Bundan hoşlanmadım."
+          "example": "Es ist mir zuwider. = Man tas nepatīk."
         },
         {
           "word": "wider",
           "meaning": "Przeciw (przyimek)",
-          "example": "Szersze den Willen = Wbrew woli"
+          "example": "wider den Willen = pret gribu"
         },
         {
           "word": "widersprechen",
           "meaning": "Nesne • Katılmıyorum",
-          "example": "Daha geniş bilgileri. = İtiraz ediyorum."
+          "example": "Ich widerspreche. = Es iebilstu."
         }
       ],
       "tip": {
@@ -14804,17 +14804,17 @@ const B2_WORDS = [
         {
           "word": "anbieten",
           "meaning": "Oferta (aktywna)",
-          "example": "Pancar Hilfe an. = Yardım teklif ediyorum."
+          "example": "Ich biete Hilfe an. = Es piedāvāju palīdzību."
         },
         {
           "word": "bieten",
           "meaning": "Teklif • Vermek",
-          "example": "Er bietet viel Geld. = Çok para teklif ediyor."
+          "example": "Er bietet viel Geld. = Viņš piedāvā daudz naudas."
         },
         {
           "word": "vorschlagen",
           "meaning": "Teklif et",
-          "example": "Onların şakası. = Teklif ediyorum."
+          "example": "Ich schlage vor. = Es ierosinu."
         }
       ],
       "tip": {

@@ -7825,17 +7825,17 @@ const B2_WORDS = [
         {
           "word": "das Hochwasser",
           "meaning": "potvynis • aukštas vandens lygis",
-          "example": "Es gibt Hochwasser. = Yra potvynis."
+          "example": "Es gibt Hochwasser. = Ir plūdi."
         },
         {
           "word": "die Überschwemmung",
           "meaning": "potvynis (konkrečiai)",
-          "example": "Die Überschwemmung zerstörte Häuser. = Potvynis sugriovė namus."
+          "example": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas."
         },
         {
           "word": "der Pegel",
           "meaning": "vandens lygis",
-          "example": "Der Pegel steigt. = Vandens lygis kyla."
+          "example": "Der Pegel steigt. = Ūdens līmenis ceļas."
         }
       ],
       "tip": {
@@ -9327,17 +9327,17 @@ const B2_WORDS = [
         {
           "word": "Nachdruck legen auf",
           "meaning": "pabrėžti, reikalauti",
-          "example": "Er legt Nachdruck auf die Frist. = Jis pabrėžia terminą."
+          "example": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu."
         },
         {
           "word": "der Nachdruck (Buch)",
           "meaning": "pakartotinis leidimas",
-          "example": "Der Nachdruck erschien im Frühjahr. = Pakartotinis leidimas išėjo pavasarį."
+          "example": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī."
         },
         {
           "word": "der Druck",
           "meaning": "spaudimas / spauda",
-          "example": "Unter Druck stehen = būti spaudžiamam (spaudime)."
+          "example": "Unter Druck stehen = būt spiedienā."
         }
       ],
       "tip": [
@@ -14436,17 +14436,17 @@ const B2_WORDS = [
         {
           "word": "zuweisen",
           "meaning": "suteikti • paskirti",
-          "example": "Er weist die Aufgabe zu. = Jis paskiria užduotį."
+          "example": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu."
         },
         {
           "word": "geben",
           "meaning": "duoti",
-          "example": "Er gibt mir die Arbeit. = Jis duoda man darbą."
+          "example": "Er gibt mir die Arbeit. = Viņš man dod darbu."
         },
         {
           "word": "verteilen",
           "meaning": "padalinti",
-          "example": "Er verteilt die Aufgaben. = Jis paskirsto užduotis."
+          "example": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus."
         }
       ],
       "tip": {
@@ -14547,22 +14547,22 @@ const B2_WORDS = [
         {
           "word": "zuwider (+ Dat.)",
           "meaning": "prieš • priešingai",
-          "example": "mir zuwider = prieš mano valią"
+          "example": "mir zuwider = pret manu gribu"
         },
         {
           "word": "jemandem zuwider sein",
           "meaning": "kam nors nepatikti",
-          "example": "Es ist mir zuwider. = Man tai nepatinka."
+          "example": "Es ist mir zuwider. = Man tas nepatīk."
         },
         {
           "word": "wider",
           "meaning": "prieš (prielinksnis)",
-          "example": "wider den Willen = prieš valią"
+          "example": "wider den Willen = pret gribu"
         },
         {
           "word": "widersprechen",
           "meaning": "prieštarauti • nesutikti",
-          "example": "Ich widerspreche. = Aš prieštarauju."
+          "example": "Ich widerspreche. = Es iebilstu."
         }
       ],
       "tip": {
@@ -15096,17 +15096,17 @@ const B2_WORDS = [
         {
           "word": "anbieten",
           "meaning": "pasiūlyti (aktyviai)",
-          "example": "Ich biete Hilfe an. = Aš pasiūlau pagalbą."
+          "example": "Ich biete Hilfe an. = Es piedāvāju palīdzību."
         },
         {
           "word": "bieten",
           "meaning": "pasiūlyti • duoti",
-          "example": "Er bietet viel Geld. = Jis siūlo daug pinigų."
+          "example": "Er bietet viel Geld. = Viņš piedāvā daudz naudas."
         },
         {
           "word": "vorschlagen",
           "meaning": "paskatinti",
-          "example": "Ich schlage vor. = Aš pasiūlau."
+          "example": "Ich schlage vor. = Es ierosinu."
         }
       ],
       "tip": {
@@ -15484,4 +15484,5 @@ const B2_WORDS = [
     }
   }
 ];
+
 window.B2_WORDS = B2_WORDS;

@@ -7805,17 +7805,17 @@ const B2_WORDS = [
         {
           "word": "das Hochwasser",
           "meaning": "Flood • High water level",
-          "example": "Es gibt Hochwasser. = There is a flood."
+          "example": "Es gibt Hochwasser. = Ir plūdi."
         },
         {
           "word": "die Überschwemmung",
           "meaning": "Flooding • Inundation",
-          "example": "Die Überschwemmung zerstörte Häuser. = Floods destroyed houses."
+          "example": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas."
         },
         {
           "word": "der Pegel",
           "meaning": "Water level",
-          "example": "Der Pegel steigt. = The water level is rising."
+          "example": "Der Pegel steigt. = Ūdens līmenis ceļas."
         }
       ],
       "tip": {
@@ -9299,17 +9299,17 @@ const B2_WORDS = [
         {
           "word": "Nachdruck legen auf",
           "meaning": "Emphasise, insist",
-          "example": "Er legt Nachdruck auf die Frist. = He emphasizes the deadline."
+          "example": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu."
         },
         {
           "word": "der Nachdruck (Buch)",
           "meaning": "Reissue",
-          "example": "Der Nachdruck erschien im Frühjahr. = The reissue came out in the spring."
+          "example": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī."
         },
         {
           "word": "der Druck",
           "meaning": "Pressure / print",
-          "example": "Unter Druck stehen = To be under pressure."
+          "example": "Unter Druck stehen = būt spiedienā."
         }
       ],
       "tip": [
@@ -14384,17 +14384,17 @@ const B2_WORDS = [
         {
           "word": "zuweisen",
           "meaning": "Assign • Assign",
-          "example": "Er weist die Aufgabe zu. = He assigns the task."
+          "example": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu."
         },
         {
           "word": "geben",
           "meaning": "To give",
-          "example": "Er gibt mir die Arbeit. = He gives me a job."
+          "example": "Er gibt mir die Arbeit. = Viņš man dod darbu."
         },
         {
           "word": "verteilen",
           "meaning": "To divide",
-          "example": "Er verteilt die Aufgaben. = He divides the tasks."
+          "example": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus."
         }
       ],
       "tip": {
@@ -14489,22 +14489,22 @@ const B2_WORDS = [
         {
           "word": "zuwider (+ Dat.)",
           "meaning": "Against • Contrary",
-          "example": "mir zuwider = Against my will"
+          "example": "mir zuwider = pret manu gribu"
         },
         {
           "word": "jemandem zuwider sein",
           "meaning": "To be distasteful to someone",
-          "example": "Es ist mir zuwider. = I don't like it."
+          "example": "Es ist mir zuwider. = Man tas nepatīk."
         },
         {
           "word": "wider",
           "meaning": "Against (preposition)",
-          "example": "wider den Willen = Against the will"
+          "example": "wider den Willen = pret gribu"
         },
         {
           "word": "widersprechen",
           "meaning": "Oppose • Disagree",
-          "example": "Ich widerspreche. = I object."
+          "example": "Ich widerspreche. = Es iebilstu."
         }
       ],
       "tip": {
@@ -14999,17 +14999,17 @@ const B2_WORDS = [
         {
           "word": "anbieten",
           "meaning": "Offer (active)",
-          "example": "Ich biete Hilfe an. = I offer help."
+          "example": "Ich biete Hilfe an. = Es piedāvāju palīdzību."
         },
         {
           "word": "bieten",
           "meaning": "Offer • Give",
-          "example": "Er bietet viel Geld. = He offers a lot of money."
+          "example": "Er bietet viel Geld. = Viņš piedāvā daudz naudas."
         },
         {
           "word": "vorschlagen",
           "meaning": "Propose",
-          "example": "Ich schlage vor. = I propose."
+          "example": "Ich schlage vor. = Es ierosinu."
         }
       ],
       "tip": {

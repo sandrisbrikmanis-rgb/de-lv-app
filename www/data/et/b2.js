@@ -7502,7 +7502,7 @@ const B2_WORDS = [
   {
     "de": "Heck",
     "de_article": "das",
-    "de_plural": "die Hecks",
+    "de_plural": "die Hecke",
     "lv": "laeva ahter",
     "level": "B2"
   },
@@ -8178,17 +8178,17 @@ const B2_WORDS = [
         {
           "word": "das Hochwasser",
           "meaning": "üleujutus • kõrge veetase",
-          "example": "Es gibt Hochwasser. = On üleujutus."
+          "example": "Es gibt Hochwasser. = Ir plūdi."
         },
         {
           "word": "die Überschwemmung",
           "meaning": "üleujutus (konkreetne)",
-          "example": "Die Überschwemmung zerstörte Häuser. = Üleujutus hävitas majad."
+          "example": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas."
         },
         {
           "word": "der Pegel",
           "meaning": "veetase",
-          "example": "Der Pegel steigt. = Veetase tõuseb."
+          "example": "Der Pegel steigt. = Ūdens līmenis ceļas."
         }
       ],
       "tip": {
@@ -9681,17 +9681,17 @@ const B2_WORDS = [
         {
           "word": "Nachdruck legen auf",
           "meaning": "rõhutama, nõudma",
-          "example": "Er legt Nachdruck auf die Frist. = Ta rõhutab tähtaega."
+          "example": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu."
         },
         {
           "word": "der Nachdruck (Buch)",
           "meaning": "kordustrükk",
-          "example": "Der Nachdruck erschien im Frühjahr. = Kordustrükk ilmus kevadel."
+          "example": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī."
         },
         {
           "word": "der Druck",
           "meaning": "surve / trükk",
-          "example": "Unter Druck stehen = Olla surve all."
+          "example": "Unter Druck stehen = būt spiedienā."
         }
       ],
       "tip": [
@@ -10146,7 +10146,7 @@ const B2_WORDS = [
   {
     "de": "Oberst",
     "de_article": "der",
-    "de_plural": "die Obersten",
+    "de_plural": "die Oberste",
     "lv": "kolonel",
     "level": "B2"
   },
@@ -15033,17 +15033,17 @@ const B2_WORDS = [
         {
           "word": "zuweisen",
           "meaning": "määrama • eraldama",
-          "example": "Er weist die Aufgabe zu. = Ta määrab ülesande."
+          "example": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu."
         },
         {
           "word": "geben",
           "meaning": "andma",
-          "example": "Er gibt mir die Arbeit. = Ta annab mulle töö."
+          "example": "Er gibt mir die Arbeit. = Viņš man dod darbu."
         },
         {
           "word": "verteilen",
           "meaning": "jaotama",
-          "example": "Er verteilt die Aufgaben. = Ta jaotab ülesanded."
+          "example": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus."
         }
       ],
       "tip": {
@@ -15144,22 +15144,22 @@ const B2_WORDS = [
         {
           "word": "zuwider (+ Dat.)",
           "meaning": "vastu • vastupidi",
-          "example": "mir zuwider = mir zuwider = minu tahte vastu"
+          "example": "mir zuwider = pret manu gribu"
         },
         {
           "word": "jemandem zuwider sein",
           "meaning": "kellelegi mitte meeldima",
-          "example": "Es ist mir zuwider. = Es ist mir zuwider. = Mulle see ei meeldi."
+          "example": "Es ist mir zuwider. = Man tas nepatīk."
         },
         {
           "word": "wider",
           "meaning": "vastu (kaassõna)",
-          "example": "wider den Willen = wider den Willen = tahte vastu"
+          "example": "wider den Willen = pret gribu"
         },
         {
           "word": "widersprechen",
           "meaning": "vaidlema • mitte nõustuma",
-          "example": "Ich widerspreche. = Ich widerspreche. = Ma vaidlen vastu."
+          "example": "Ich widerspreche. = Es iebilstu."
         }
       ],
       "tip": {
@@ -15300,7 +15300,7 @@ const B2_WORDS = [
           "lv": "ma muudan tähtaega."
         },
         {
-          "de": "Ich ändere meine Telefonnummer, aber ich wechsle den Anbieter nicht.",
+          "de": "ändern",
           "lv": "ma muudan oma telefoninumbrit, aga ma ei vaheta operaatorit."
         }
       ],
@@ -15586,7 +15586,7 @@ const B2_WORDS = [
           "lv": "rakendus tagab turvalisuse."
         },
         {
-          "de": "Das Hotel bietet einen schönen Blick auf das Meer.",
+          "de": "bieten",
           "lv": "hotell pakub ilusat vaadet merele."
         }
       ],
@@ -15727,17 +15727,17 @@ const B2_WORDS = [
         {
           "word": "anbieten",
           "meaning": "pakkuma (aktiivselt)",
-          "example": "Ich biete Hilfe an. = Ma pakun abi."
+          "example": "Ich biete Hilfe an. = Es piedāvāju palīdzību."
         },
         {
           "word": "bieten",
           "meaning": "pakkuma • andma",
-          "example": "Er bietet viel Geld. = Ta pakub palju raha."
+          "example": "Er bietet viel Geld. = Viņš piedāvā daudz naudas."
         },
         {
           "word": "vorschlagen",
           "meaning": "ette panema",
-          "example": "Ich schlage vor. = Ma panen ette."
+          "example": "Ich schlage vor. = Es ierosinu."
         }
       ],
       "tip": {
@@ -15838,7 +15838,7 @@ const B2_WORDS = [
           "lv": "me nõuame suuremat turvalisust."
         },
         {
-          "de": "Die Gewerkschaft fordert höhere Löhne, aber der Staat fördert nur kleine Betriebe.",
+          "de": "fordern",
           "lv": "ametiühing nõuab kõrgemat palka, aga riik toetab ainult väikeettevõtteid."
         }
       ],

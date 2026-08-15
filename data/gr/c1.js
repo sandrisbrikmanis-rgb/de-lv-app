@@ -2560,22 +2560,22 @@ const C1_WORDS = [
         {
           "word": "gelegentlich (Adv.)",
           "meaning": "από καιρό σε καιρό",
-          "example": "Er kommt gelegentlich. = Έρχεται από καιρό σε καιρό."
+          "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
         },
         {
           "word": "gelegentlich (Adj.)",
           "meaning": "περιστασιακό",
-          "example": "ein gelegentlicher Besuch = μια περιστασιακή επίσκεψη"
+          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
         },
         {
           "word": "gelegentlich (+ Gen.)",
           "meaning": "σε σχέση με",
-          "example": "gelegentlich des Festes = σε σχέση με τη γιορτή"
+          "example": "gelegentlich des Festes = svētku sakarā"
         },
         {
           "word": "manchmal",
           "meaning": "μερικές φορές",
-          "example": "Manchmal regnet es. = Μερικές φορές βρέχει."
+          "example": "Manchmal regnet es. = Reizēm līst."
         }
       ],
       "tip": {

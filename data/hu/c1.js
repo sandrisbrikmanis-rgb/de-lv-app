@@ -2460,22 +2460,22 @@ const C1_WORDS = [
         {
           "word": "gelegentlich (Adv.)",
           "meaning": "Néha • Hébe-hóba",
-          "example": "Er kommt gelegentlich. = Néha jön."
+          "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
         },
         {
           "word": "gelegentlich (Adj.)",
           "meaning": "Alkalmi • Véletlen",
-          "example": "ein gelegentlicher Besuch = Alkalmi látogatás"
+          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
         },
         {
           "word": "gelegentlich (+ Gen.)",
           "meaning": "Miatt",
-          "example": "gelegentlich des Festes = Ünnepek miatt"
+          "example": "gelegentlich des Festes = svētku sakarā"
         },
         {
           "word": "manchmal",
           "meaning": "Néha",
-          "example": "Manchmal regnet es. = Néha esik az eső."
+          "example": "Manchmal regnet es. = Reizēm līst."
         }
       ],
       "tip": {
@@ -3833,17 +3833,17 @@ const C1_WORDS = [
         {
           "word": "wahlberechtigt",
           "meaning": "Szavazati joggal",
-          "example": "Er ist wahlberechtigt. = Szavazati joga van."
+          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
         },
         {
           "word": "wählen",
           "meaning": "Kívánni • Szavazni",
-          "example": "Ich wähle heute. = Ma szavaztam."
+          "example": "Ich wähle heute. = Es šodien balsoju."
         },
         {
           "word": "der Wähler",
           "meaning": "Szavazó",
-          "example": "Der Wähler geht zur Wahl. = A választó elmegy szavazni."
+          "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
         }
       ],
       "tip": {

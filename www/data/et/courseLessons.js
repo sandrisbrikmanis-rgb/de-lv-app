@@ -1,17 +1,17 @@
 const COURSE_LESSON_HTML = {
   "kurssArticlesLesson": "\n  <h3>Artiklid</h3>\n\n  <div class=\"artikuli-info artikuli-intro-info\">\n    <span class=\"artikuli-info-icon\">i</span>\n    <div>Saksa artikkel ei ühti alati eesti keele soo mõistega. Seepärast on nimisõnu kõige parem õppida koos artikliga.</div>\n  </div>\n\n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>•</span>Artiklite näited</h4>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">der Tisch — laud</div>\n      <div class=\"kurss-example\">die Tür — uks</div>\n      <div class=\"kurss-example\">das Messer — nuga</div>\n      <div class=\"kurss-example\">das Mädchen — tüdruk</div>\n    </div>\n  </section>\n\n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>♂</span>Sageli DER</h4>\n    <p class=\"artikuli-explain\">DER on sageli meessoost isikud, päevad, kuud, aastaajad ja mõned sõnad kindlate lõppudega.</p>\n\n    <h5 class=\"artikuli-subtitle\">Reeglid</h5>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">-er → sageli DER, näiteks: der Computer, der Lehrer <span class=\"artikuli-note\">aga mitte alati</span></div>\n      <div class=\"kurss-example\">-ling → sageli DER, näiteks: der Schmetterling</div>\n      <div class=\"kurss-example\">-ismus → sageli DER, näiteks: der Tourismus, der Kapitalismus</div>\n      <div class=\"kurss-example\">meessoost isikud → der Mann, der Vater</div>\n      <div class=\"kurss-example\">elukutsed → der Lehrer, der Arzt</div>\n      <div class=\"kurss-example\">autobrändid → der BMW, der Mercedes</div>\n      <div class=\"kurss-example\">päevad → der Montag, der Dienstag</div>\n      <div class=\"kurss-example\">kuud → der August, der Dezember</div>\n      <div class=\"kurss-example\">aastaajad → der Sommer, der Winter</div>\n    </div>\n\n    <h5 class=\"artikuli-subtitle\">Näited</h5>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">der Mann — mees</div>\n      <div class=\"kurss-example\">der Vater — isa</div>\n      <div class=\"kurss-example\">der Montag — esmaspäev</div>\n      <div class=\"kurss-example\">der August — august</div>\n      <div class=\"kurss-example\">der Sommer — suvi</div>\n      <div class=\"kurss-example\">der Lehrer — õpetaja</div>\n      <div class=\"kurss-example\">der Computer — arvuti</div>\n      <div class=\"kurss-example\">der Schmetterling — liblikas</div>\n    </div>\n  </section>\n\n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>♀</span>Sageli DIE</h4>\n    <p class=\"artikuli-explain\">DIE on sageli naissoost isikud, mitmus ja sõnad lõppudega -ung, -heit, -keit, -schaft, -ion, -tät, -ei.</p>\n\n    <h5 class=\"artikuli-subtitle\">Reeglid</h5>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">-ung → die Wohnung, die Rechnung</div>\n      <div class=\"kurss-example\">-heit → die Freiheit, die Gesundheit</div>\n      <div class=\"kurss-example\">-keit → die Möglichkeit</div>\n      <div class=\"kurss-example\">-schaft → die Mannschaft</div>\n      <div class=\"kurss-example\">-ion → die Nation</div>\n      <div class=\"kurss-example\">-tät → die Universität</div>\n      <div class=\"kurss-example\">-ei → die Polizei, die Bäckerei</div>\n      <div class=\"kurss-example\">naissoost isikud → die Frau, die Mutter</div>\n      <div class=\"kurss-example\">mootorrattabrändid → die Harley-Davidson, die Yamaha</div>\n      <div class=\"kurss-example\">mitmus → die Autos, die Häuser</div>\n      <div class=\"kurss-example\">mitmus peaaegu alati → die Autos, die Häuser, die Kinder</div>\n    </div>\n\n    <h5 class=\"artikuli-subtitle\">Näited</h5>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">die Frau — naine</div>\n      <div class=\"kurss-example\">die Mutter — ema</div>\n      <div class=\"kurss-example\">die Wohnung — korter</div>\n      <div class=\"kurss-example\">die Rechnung — arve</div>\n      <div class=\"kurss-example\">die Freiheit — vabadus</div>\n      <div class=\"kurss-example\">die Möglichkeit — võimalus</div>\n      <div class=\"kurss-example\">die Mannschaft — meeskond</div>\n      <div class=\"kurss-example\">die Nation — rahvus</div>\n      <div class=\"kurss-example\">die Universität — ülikool</div>\n      <div class=\"kurss-example\">die Polizei — politsei</div>\n    </div>\n  </section>\n\n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>◇</span>Sageli DAS</h4>\n    <p class=\"artikuli-explain\">DAS on sageli deminutiivid lõppudega -chen / -lein, paljud sõnad lõppudega -ment / -um ja tegusõnad nimisõnadena.</p>\n\n    <h5 class=\"artikuli-subtitle\">Reeglid</h5>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">-chen → das Mädchen, das Häuschen</div>\n      <div class=\"kurss-example\">-lein → das Fräulein</div>\n      <div class=\"kurss-example\">-ment → das Instrument</div>\n      <div class=\"kurss-example\">-um → das Zentrum, das Museum</div>\n      <div class=\"kurss-example\">metallid → das Gold, das Silber, das Eisen</div>\n      <div class=\"kurss-example\">keemilised elemendid → das Eisen, das Sauerstoff</div>\n      <div class=\"kurss-example\">hotellid → das Hotel</div>\n      <div class=\"kurss-example\">värvid nimisõnadena → das Rot, das Blau</div>\n      <div class=\"kurss-example\">tegusõna nimisõnana → das Essen, das Lernen</div>\n      <div class=\"kurss-example\">tegusõnad nimisõnadena → das Essen, das Lernen, das Lesen</div>\n    </div>\n\n    <h5 class=\"artikuli-subtitle\">Näited</h5>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">das Kind — laps</div>\n      <div class=\"kurss-example\">das Mädchen — tüdruk</div>\n      <div class=\"kurss-example\">das Häuschen — majake</div>\n      <div class=\"kurss-example\">das Instrument — instrument</div>\n      <div class=\"kurss-example\">das Zentrum — keskus</div>\n      <div class=\"kurss-example\">das Museum — muuseum</div>\n      <div class=\"kurss-example\">das Essen — söömine / toit</div>\n      <div class=\"kurss-example\">das Lernen — õppimine</div>\n    </div>\n  </section>\n\n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>!</span>Olulised erandid / tuleb õppida koos artikliga</h4>\n    <p class=\"artikuli-explain\">Mõne sõna puhul ei saa artiklit kindlalt määrata lõpu või eesti keele soo järgi. Neid on kõige parem õppida koos artikliga.</p>\n    <div class=\"artikuli-grid\">\n      <div class=\"kurss-example\">die Tür — uks</div>\n      <div class=\"kurss-example\">das Messer — nuga</div>\n      <div class=\"kurss-example\">die Sonne — päike</div>\n      <div class=\"kurss-example\">der Mond — kuu</div>\n      <div class=\"kurss-example\">das Mädchen — tüdruk</div>\n      <div class=\"kurss-example\">das Auto — auto</div>\n      <div class=\"kurss-example\">der Käse — juust</div>\n      <div class=\"kurss-example\">die Gabel — kahvel</div>\n    </div>\n  </section>\n\n  <div class=\"artikuli-info artikuli-bottom-info\">\n    <span class=\"artikuli-info-icon\">i</span>\n    <div>Lõpud ja sõnarühmad aitavad artiklit ära arvata, kuid need ei ole 100% kindel reegel. Kui sa ei ole kindel, õpi sõna koos artikliga.</div>\n  </div>\n",
-  "kurssPronounsLesson": "\n  <h3>Asesõnad</h3>\n            <div class=\"artikuli-info artikuli-intro-info\">\n    <span class=\"artikuli-info-icon\">i</span>\n    <div>Nominatiiv, akusatiiv ja datiiv — asesõnade vormid.</div>\n  </div>\n\n            \n  \n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>N</span>Nominatiiv — kes/mis?</h4>\n    <div class=\"artikuli-grid\"><div class=\"kurss-example\">ich — mina</div><div class=\"kurss-example\">du — sina</div><div class=\"kurss-example\">er — tema (mees)</div><div class=\"kurss-example\">sie — tema (naine)</div><div class=\"kurss-example\">es — see</div><div class=\"kurss-example\">wir — meie</div><div class=\"kurss-example\">ihr — teie</div><div class=\"kurss-example\">sie — nemad</div><div class=\"kurss-example\">Sie — Teie (viisakusvorm)</div></div>\n  </section>\n\n            \n  \n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>A</span>Akusatiiv — keda/mida?</h4>\n    <div class=\"artikuli-grid\"><div class=\"kurss-example\">mich — mind</div><div class=\"kurss-example\">dich — sind</div><div class=\"kurss-example\">ihn — teda (m.)</div><div class=\"kurss-example\">sie — teda (n.)</div><div class=\"kurss-example\">es — seda</div><div class=\"kurss-example\">uns — meid</div><div class=\"kurss-example\">euch — teid</div><div class=\"kurss-example\">sie — neid</div><div class=\"kurss-example\">Sie — Teid (viisakusvorm)</div></div>\n  </section>\n\n            \n  \n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>D</span>Datiiv — kellele?</h4>\n    <div class=\"artikuli-grid\"><div class=\"kurss-example\">mir — mulle</div><div class=\"kurss-example\">dir — sulle</div><div class=\"kurss-example\">ihm — temale (m.)</div><div class=\"kurss-example\">ihr — temale (n.)</div><div class=\"kurss-example\">uns — meile</div><div class=\"kurss-example\">euch — teile</div><div class=\"kurss-example\">ihnen — neile</div><div class=\"kurss-example\">Ihnen — Teile (viisakusvorm)</div></div>\n  </section>\n\n            \n  \n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>?</span>Kuidas valida vormi?</h4>\n    <ul class=\"kurss-summary-list\"><li><span class=\"case-blue\">Nominatiiv</span> — lause alus (kes teeb?)</li><li><span class=\"case-red\">Akusatiiv</span> — otsene sihitis (keda/mida?)</li><li><span class=\"case-green\">Datiiv</span> — kaudne sihitis (kellele?)</li></ul>\n  </section>\n\n            \n  \n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>•</span>Näited</h4>\n    <div class=\"artikuli-grid\"><div class=\"kurss-example\">Ich sehe <span class=\"case-red\">dich</span>. — Ma näen sind.</div><div class=\"kurss-example\">Ich sehe <span class=\"case-red\">ihn</span>. — Ma näen teda.</div><div class=\"kurss-example\">Wir mögen <span class=\"case-red\">euch</span>. — Meile meeldite teie.</div><div class=\"kurss-example\">Ich helfe <span class=\"case-green\">dir</span>. — Ma aitan sind.</div><div class=\"kurss-example\">Ich gebe <span class=\"case-green\">ihm</span> ein Buch. — Ma annan talle raamatu.</div><div class=\"kurss-example\">Wir danken <span class=\"case-green\">euch</span>. — Me täname teid.</div></div>\n  </section>\n\n  <div class=\"artikuli-info artikuli-bottom-info\">\n    <span class=\"artikuli-info-icon\">i</span>\n    <div>Nominatiiv on alati lause alus, aga akusatiiv ja datiiv on sihitised. Vaata tegusõna ja küsi: <span class=\"case-red\">keda/mida?</span> või <span class=\"case-green\">kellele?</span></div>\n  </div>",
+  "kurssPronounsLesson": "\n  <h3>Asesõnad</h3>\n            <div class=\"artikuli-info artikuli-intro-info\">\n    <span class=\"artikuli-info-icon\">i</span>\n    <div>Nominatiiv, akusatiiv ja datiiv — asesõnade vormid.</div>\n  </div>\n\n            \n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>N</span>Nominatiiv — kes/mis?</h4>\n    <div class=\"artikuli-grid\"><div class=\"kurss-example\">ich — mina</div><div class=\"kurss-example\">du — sina</div><div class=\"kurss-example\">er — tema (mees)</div><div class=\"kurss-example\">sie — tema (naine)</div><div class=\"kurss-example\">es — see</div><div class=\"kurss-example\">wir — meie</div><div class=\"kurss-example\">ihr — teie</div><div class=\"kurss-example\">sie — nemad</div><div class=\"kurss-example\">Sie — Teie (viisakusvorm)</div></div>\n  </section>\n\n            \n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>A</span>Akusatiiv — keda/mida?</h4>\n    <div class=\"artikuli-grid\"><div class=\"kurss-example\">mich — mind</div><div class=\"kurss-example\">dich — sind</div><div class=\"kurss-example\">ihn — teda (m.)</div><div class=\"kurss-example\">sie — teda (n.)</div><div class=\"kurss-example\">es — seda</div><div class=\"kurss-example\">uns — meid</div><div class=\"kurss-example\">euch — teid</div><div class=\"kurss-example\">sie — neid</div><div class=\"kurss-example\">Sie — Teid (viisakusvorm)</div></div>\n  </section>\n\n            \n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>D</span>Datiiv — kellele?</h4>\n    <div class=\"artikuli-grid\"><div class=\"kurss-example\">mir — mulle</div><div class=\"kurss-example\">dir — sulle</div><div class=\"kurss-example\">ihm — temale (m.)</div><div class=\"kurss-example\">ihr — temale (n.)</div><div class=\"kurss-example\">uns — meile</div><div class=\"kurss-example\">euch — teile</div><div class=\"kurss-example\">ihnen — neile</div><div class=\"kurss-example\">Ihnen — Teile (viisakusvorm)</div></div>\n  </section>\n\n            \n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>?</span>Kuidas valida vormi?</h4>\n    <ul class=\"kurss-summary-list\"><li><span class=\"case-blue\">Nominatiiv</span> — lause alus (kes teeb?)</li><li><span class=\"case-red\">Akusatiiv</span> — otsene sihitis (keda/mida?)</li><li><span class=\"case-green\">Datiiv</span> — kaudne sihitis (kellele?)</li></ul>\n  </section>\n\n            \n  <section class=\"artikuli-block\">\n    <h4 class=\"artikuli-header\"><span>•</span>Näited</h4>\n    <div class=\"artikuli-grid\"><div class=\"kurss-example\">Ich sehe <span class=\"case-red\">dich</span>. — Ma näen sind.</div><div class=\"kurss-example\">Ich sehe <span class=\"case-red\">ihn</span>. — Ma näen teda.</div><div class=\"kurss-example\">Wir mögen <span class=\"case-red\">euch</span>. — Meile meeldite teie.</div><div class=\"kurss-example\">Ich helfe <span class=\"case-green\">dir</span>. — Ma aitan sind.</div><div class=\"kurss-example\">Ich gebe <span class=\"case-green\">ihm</span> ein Buch. — Ma annan talle raamatu.</div><div class=\"kurss-example\">Wir danken <span class=\"case-green\">euch</span>. — Me täname teid.</div></div>\n  </section>\n\n  <div class=\"artikuli-info artikuli-bottom-info\">\n    <span class=\"artikuli-info-icon\">i</span>\n    <div>Nominatiiv on alati lause alus, aga akusatiiv ja datiiv on sihitised. Vaata tegusõna ja küsi: <span class=\"case-red\">keda/mida?</span> või <span class=\"case-green\">kellele?</span></div>\n  </div>\n",
   "kurssPronunciationLesson": "\n            <h3>Täishäälikud — pikk ja lühike</h3>\n            <p class=\"kurss-lesson-intro\">Saksa keeles võivad täishäälikud olla pikad või lühikesed. See mõjutab sõna hääldust.</p>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Pikk täishäälik</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">warm (varm) — soe</div><div class=\"kurss-example\">gut (guut) — hea</div><div class=\"kurss-example\">Tat (taat) — tegu / tegevus</div><div class=\"kurss-example\">Flur (fluur) — koridor</div><div class=\"kurss-example\">Weg (veek) — tee</div><div class=\"kurss-example\">Hut (huut) — kübar</div><div class=\"kurss-example\">Hof (hoof) — õu</div><div class=\"kurss-example\">Schlaf (šlaaf) — uni</div></div>\n              <p>Kui täishäälikule järgneb üks kaashäälik, hääldatakse täishäälikut sageli pikalt.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Lühike täishäälik</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Pilz (pilts) — seen</div><div class=\"kurss-example\">Wort (vort) — sõna</div><div class=\"kurss-example\">Mund (munt) — suu</div><div class=\"kurss-example\">bald (balt) — varsti</div><div class=\"kurss-example\">scharf (šarf) — terav</div><div class=\"kurss-example\">Feld (felt) — põld</div><div class=\"kurss-example\">voll (fol) — täis</div></div>\n              <p>Kui täishäälikule järgneb kaks või rohkem kaashäälikut, hääldatakse täishäälikut sageli lühidalt.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Lõpud en / el / er</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">singen (zingen) — laulma</div><div class=\"kurss-example\">tragen (traagen) — kandma</div><div class=\"kurss-example\">Garten (garten) — aed</div><div class=\"kurss-example\">Vogel (fogel) — lind</div><div class=\"kurss-example\">Segel (zeegel) — puri</div><div class=\"kurss-example\">Braten (braaten) — praad</div><div class=\"kurss-example\">Bogen (boogen) — kaar</div><div class=\"kurss-example\">Spiegel (špiigel) — peegel</div><div class=\"kurss-example\">Finger (finger) — sõrm</div><div class=\"kurss-example\">Halter (halter) — hoidik</div><div class=\"kurss-example\">Arbeiter (arbaiter) — töömees</div><div class=\"kurss-example\">Häuser (hoizer) — majad</div><div class=\"kurss-example\">wieder (viider) — jälle</div><div class=\"kurss-example\">breiter (braiter) — laiem</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Täht h pikendusmärgina</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Rahmen (raamen) — raam</div><div class=\"kurss-example\">Ohr (oor) — kõrv</div><div class=\"kurss-example\">Kohle (koole) — süsi</div><div class=\"kurss-example\">Zahl (tsaal) — arv</div><div class=\"kurss-example\">ihn (iin) — teda</div><div class=\"kurss-example\">ihm (iim) — talle</div><div class=\"kurss-example\">Huhn (huun) — kana</div><div class=\"kurss-example\">nahm (naam) — võttis</div><div class=\"kurss-example\">nehmen (neemen) — võtma</div><div class=\"kurss-example\">Schuh (šuu) — king</div></div>\n              <p>Mõnes sõnas pikendab h eelnevat täishäälikut. Sellistel juhtudel h-d tavaliselt ei hääldata.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Lõpud e-ga</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Lampe (lampe) — lamp</div><div class=\"kurss-example\">Hase (haaze) — jänes</div><div class=\"kurss-example\">Knabe (knaabe) — poiss</div><div class=\"kurss-example\">Rabe (raabe) — kaaren</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Pikk i = ie</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">die (dii) — artikkel “die”</div><div class=\"kurss-example\">diese (diize) — see / need</div><div class=\"kurss-example\">wieder (viider) — jälle</div><div class=\"kurss-example\">Fliege (fliige) — kärbes</div><div class=\"kurss-example\">Ziege (tsiige) — kits</div><div class=\"kurss-example\">Stiel (štiil) — vars</div><div class=\"kurss-example\">Dieb (diip) — varas</div><div class=\"kurss-example\">hier (hiir) — siin</div></div>\n              <p>Pikk i kirjutatakse saksa keeles sageli kui ie.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Kahekordsed täishäälikud</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Saal (zaal) — saal</div><div class=\"kurss-example\">Saat (zaat) — külv</div><div class=\"kurss-example\">Staat (štaat) — riik</div><div class=\"kurss-example\">Beere (beere) — mari</div><div class=\"kurss-example\">See (zee) — järv / meri</div><div class=\"kurss-example\">Beet (beet) — peenar</div><div class=\"kurss-example\">Boot (boot) — paat</div><div class=\"kurss-example\">Moor (moor) — soo</div><div class=\"kurss-example\">Moos (moos) — sammal</div></div>\n              <p>Kahekordseid täishäälikuid hääldatakse tavaliselt pikalt.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>ä</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Wand (vant) — sein</div><div class=\"kurss-example\">Wände (vende) — seinad</div><div class=\"kurss-example\">Vater (faater) — isa</div><div class=\"kurss-example\">Väter (feeter) — isad</div><div class=\"kurss-example\">Schrank (šrank) — kapp</div><div class=\"kurss-example\">Schränke (šrenke) — kapid</div><div class=\"kurss-example\">Bank (bank) — pink / pank</div><div class=\"kurss-example\">Bänke (benke) — pingid</div><div class=\"kurss-example\">Tal (taal) — org</div><div class=\"kurss-example\">Täler (teeler) — orud</div></div>\n              <p>ä on a-tähe muundvorm (Umlaut).</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>ö</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Rose (rooze) — roos</div><div class=\"kurss-example\">Röschen (reešen) — roosike</div><div class=\"kurss-example\">Ofen (oofen) — ahi</div><div class=\"kurss-example\">Öfen (eefen) — ahjud</div><div class=\"kurss-example\">Rock (rok) — seelik</div><div class=\"kurss-example\">Röcke (röke) — seelikud</div></div>\n              <p>ö on o-tähe muundvorm (Umlaut).</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>ü</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">kurz (kurts) — lühike</div><div class=\"kurss-example\">kürzer (kürtser) — lühem</div><div class=\"kurss-example\">Kunst (kunst) — kunst</div><div class=\"kurss-example\">Künste (künste) — kunstid</div><div class=\"kurss-example\">Mutter (muter) — ema</div><div class=\"kurss-example\">Mütter (mütter) — emad</div></div>\n              <p>ü on u-tähe muundvorm (Umlaut).</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Diftong: äu</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Baum (baum) — puu</div><div class=\"kurss-example\">Bäume (boime) — puud</div><div class=\"kurss-example\">Haus (haus) — maja</div><div class=\"kurss-example\">Häuser (hoizer) — majad</div><div class=\"kurss-example\">Strauch (štrauh) — põõsas</div><div class=\"kurss-example\">Sträucher (štroiher) — põõsad</div><div class=\"kurss-example\">Maus (maus) — hiir</div><div class=\"kurss-example\">Mäuse (moize) — hiired</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Diftong: eu</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">heute (hoite) — täna</div><div class=\"kurss-example\">Leute (loite) — inimesed</div><div class=\"kurss-example\">neu (noi) — uus</div><div class=\"kurss-example\">neun (noin) — üheksa</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Diftong: ei</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">mein (main) — minu</div><div class=\"kurss-example\">dein (dain) — sinu</div><div class=\"kurss-example\">sein (zain) — tema oma / olema</div><div class=\"kurss-example\">frei (frai) — vaba</div><div class=\"kurss-example\">arbeiten (arbaiten) — töötama</div></div>\n            </section>\n            <section class=\"kurss-lesson-section\">\n              <h4>2. õppetunni hääldusmärkused</h4>\n              <ul class=\"kurss-summary-list\"><li>sõnades ich, nicht, rechnen, zeichnen hääldatakse “ch” pehmelt</li><li>sõnades arbeiten ja zeichnen hääldatakse “ei” kui “ai”</li><li>“sp” sõna alguses hääldatakse kui “šp”</li><li>tegusõnas tun hääldatakse täht “u” pikalt</li></ul>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Kokkuvõte</h4>\n              <ul class=\"kurss-summary-list\"><li>üks kaashäälik pärast täishäälikut → sageli pikk täishäälik</li><li>kaks või rohkem kaashäälikut → sageli lühike täishäälik</li><li>h võib täishäälikut pikendada</li><li>ie tähendab sageli pikka i-d</li><li>kahekordsed täishäälikud on tavaliselt pikad</li></ul>\n            </section>\n",
   "kurssConsonantsLesson": "\n            <h3>Kaashäälikud ja tähekombinatsioonid</h3>\n            <p class=\"kurss-lesson-intro\">Saksa keeles hääldatakse mõningaid kaashäälikuid ja tähekombinatsioone teisiti, kui neid kirjutatakse. Selles õppetunnis on algajale kõige olulisemad näited.</p>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Kaashäälikud</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">das Rad (raat) — ratas</div><div class=\"kurss-example\">die Räder (reeder) — rattad</div><div class=\"kurss-example\">Bad (baat) — vann</div><div class=\"kurss-example\">Bäder (beeder) — vannid</div></div>\n              <p>Sõna lõpus ei hääldata kaashäälikuid sageli samamoodi, nagu neid kirjutatakse.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>ch</h4>\n              <p>“ch” võib hääldada pehmelt või kõvalt. Mõnes sõnas kõlab see nagu “h”, teistes lähemale “k”-le.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">rechnen (rehnen) — arvutama</div><div class=\"kurss-example\">zeichnen (tsaihnen) — joonistama</div><div class=\"kurss-example\">nicht (niht) — mitte</div><div class=\"kurss-example\">schlecht (šleht) — halb</div><div class=\"kurss-example\">mich (mih) — mind</div><div class=\"kurss-example\">dich (dih) — sind</div><div class=\"kurss-example\">Strauch (štrauh) — põõsas</div><div class=\"kurss-example\">noch (noh) — veel</div><div class=\"kurss-example\">Nacht (naht) — öö</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>sch</h4>\n              <p>“sch” hääldatakse saksa keeles nagu eesti “š”.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Schule (šuule) — kool</div><div class=\"kurss-example\">Schüler (šüler) — õpilane</div><div class=\"kurss-example\">Schiff (šif) — laev</div><div class=\"kurss-example\">Schraube (šraube) — kruvi</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>sp ja st sõna alguses</h4>\n              <p>Sõna või silbi alguses hääldatakse “sp” sageli kui “šp”, aga “st” kui “št”.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">spielen (špiilen) — mängima</div><div class=\"kurss-example\">Sprung (šprung) — hüpe</div><div class=\"kurss-example\">stehen (šteen) — seisma</div><div class=\"kurss-example\">Stall (štal) — laut</div><div class=\"kurss-example\">Stand (štant) — seisund / koht</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>qu</h4>\n              <p>“qu” hääldatakse saksa keeles tavaliselt kui “kv”.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Qual (kvaal) — piin</div><div class=\"kurss-example\">Quartier (kvartiir) — kvartal / peatuskoht</div><div class=\"kurss-example\">quer (kveer) — risti</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>s ja z</h4>\n              <p>Sõna alguses kõlab “s” sageli kui “z”. Täht “z” kõlab saksa keeles nagu eesti “ts”.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">sagen (zaagen) — ütlema</div><div class=\"kurss-example\">singen (zingen) — laulma</div><div class=\"kurss-example\">Rose (rooze) — roos</div><div class=\"kurss-example\">Zahl (tsaal) — arv</div><div class=\"kurss-example\">Zeit (tsait) — aeg</div><div class=\"kurss-example\">Zink (tsink) — tsink</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>v</h4>\n              <p>Saksa keeles hääldatakse “v” sageli kui “f”. Võõrsõnades kõlab see sageli nagu eesti “v”.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Vater (faater) — isa</div><div class=\"kurss-example\">von (fon) — millest</div><div class=\"kurss-example\">viel (fiil) — palju</div><div class=\"kurss-example\">vier (fiir) — neli</div><div class=\"kurss-example\">Villa (villa) — villa</div><div class=\"kurss-example\">Klavier (klaviir) — klaver</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>x ja y</h4>\n              <p>“x” hääldatakse kui “ks”. “y” hääldatakse mõnes sõnas kui “ü”.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Felix (feeliks) — Felix</div><div class=\"kurss-example\">Axt (akst) — kirves</div><div class=\"kurss-example\">Mystik (müstik) — müstika</div><div class=\"kurss-example\">Nyx (nüks) — Nyx</div><div class=\"kurss-example\">Mythe (müte) — müüt</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>ß</h4>\n              <p>“ß” hääldatakse saksa keeles kui “s”.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Fuß (fuus) — jalatald</div><div class=\"kurss-example\">Füße (füse) — jalatallad</div><div class=\"kurss-example\">Grüße (grüse) — tervitused</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Kokkuvõte</h4>\n              <ul class=\"kurss-summary-list\"><li>sch → š</li><li>sp / st alguses → šp / št</li><li>qu → kv</li><li>z → ts</li><li>v sageli → f</li><li>x → ks</li><li>ß → s</li></ul>\n            </section>\n",
   "kurssVerbBasicsLesson": "\n            <h3>Tegusõnade alused</h3>\n            <p class=\"kurss-lesson-intro\">1. õppetunni tegusõnad ja pöörded.</p>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Tegusõnad</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">kommen — tulema</div><div class=\"kurss-example\">gehen — minema</div><div class=\"kurss-example\">stehen — seisma</div><div class=\"kurss-example\">singen — laulma</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>kommen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">ich komme — mina tulen</div><div class=\"kurss-example\">du kommst — sina tuled</div><div class=\"kurss-example\">er kommt — tema tuleb (mees)</div><div class=\"kurss-example\">sie kommt — tema tuleb (naine)</div><div class=\"kurss-example\">wir kommen — meie tuleme</div><div class=\"kurss-example\">ihr kommt — teie tulete</div><div class=\"kurss-example\">sie kommen — nemad tulevad</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>gehen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">ich gehe — mina lähen</div><div class=\"kurss-example\">du gehst — sina lähed</div><div class=\"kurss-example\">er geht — tema läheb (mees)</div><div class=\"kurss-example\">sie geht — tema läheb (naine)</div><div class=\"kurss-example\">wir gehen — meie läheme</div><div class=\"kurss-example\">ihr geht — teie lähete</div><div class=\"kurss-example\">sie gehen — nemad lähevad</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>stehen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">ich stehe — mina seisan</div><div class=\"kurss-example\">du stehst — sina seisad</div><div class=\"kurss-example\">er steht — tema seisab (mees)</div><div class=\"kurss-example\">sie steht — tema seisab (naine)</div><div class=\"kurss-example\">wir stehen — meie seisame</div><div class=\"kurss-example\">ihr steht — teie seisate</div><div class=\"kurss-example\">sie stehen — nemad seisavad</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>singen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">ich singe — mina laulan</div><div class=\"kurss-example\">du singst — sina laulad</div><div class=\"kurss-example\">er singt — tema laulab (mees)</div><div class=\"kurss-example\">sie singt — tema laulab (naine)</div><div class=\"kurss-example\">wir singen — meie laulame</div><div class=\"kurss-example\">ihr singt — teie laulate</div><div class=\"kurss-example\">sie singen — nemad laulavad</div></div>\n            </section>\n            <section class=\"kurss-lesson-section\">\n              <h4>2. õppetunni tegusõnad</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">spielen — mängima</div><div class=\"kurss-example\">arbeiten — töötama</div><div class=\"kurss-example\">fragen — küsima</div><div class=\"kurss-example\">antworten — vastama</div><div class=\"kurss-example\">rechnen — arvutama</div><div class=\"kurss-example\">zeichnen — joonistama</div><div class=\"kurss-example\">tun — tegema</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>spielen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">ich spiele — mina mängin</div><div class=\"kurss-example\">du spielst — sina mängid</div><div class=\"kurss-example\">er spielt — tema mängib (mees)</div><div class=\"kurss-example\">sie spielt — tema mängib (naine)</div><div class=\"kurss-example\">wir spielen — meie mängime</div><div class=\"kurss-example\">ihr spielt — teie mängite</div><div class=\"kurss-example\">sie spielen — nemad mängivad</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>arbeiten</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">ich arbeite — mina töötan</div><div class=\"kurss-example\">du arbeitest — sina töötad</div><div class=\"kurss-example\">er arbeitet — tema töötab (mees)</div><div class=\"kurss-example\">sie arbeitet — tema töötab (naine)</div><div class=\"kurss-example\">wir arbeiten — meie töötame</div><div class=\"kurss-example\">ihr arbeitet — teie töötate</div><div class=\"kurss-example\">sie arbeiten — nemad töötavad</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>fragen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">ich frage — mina küsin</div><div class=\"kurss-example\">du fragst — sina küsid</div><div class=\"kurss-example\">er fragt — tema küsib (mees)</div><div class=\"kurss-example\">sie fragt — tema küsib (naine)</div><div class=\"kurss-example\">wir fragen — meie küsime</div><div class=\"kurss-example\">ihr fragt — teie küsite</div><div class=\"kurss-example\">sie fragen — nemad küsivad</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>antworten</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">ich antworte — mina vastan</div><div class=\"kurss-example\">du antwortest — sina vastad</div><div class=\"kurss-example\">er antwortet — tema vastab (mees)</div><div class=\"kurss-example\">sie antwortet — tema vastab (naine)</div><div class=\"kurss-example\">wir antworten — meie vastame</div><div class=\"kurss-example\">ihr antwortet — teie vastate</div><div class=\"kurss-example\">sie antworten — nemad vastavad</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>rechnen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">ich rechne — mina arvutan</div><div class=\"kurss-example\">du rechnest — sina arvutad</div><div class=\"kurss-example\">er rechnet — tema arvutab (mees)</div><div class=\"kurss-example\">sie rechnet — tema arvutab (naine)</div><div class=\"kurss-example\">wir rechnen — meie arvutame</div><div class=\"kurss-example\">ihr rechnet — teie arvutate</div><div class=\"kurss-example\">sie rechnen — nemad arvutavad</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>zeichnen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">ich zeichne — mina joonistan</div><div class=\"kurss-example\">du zeichnest — sina joonistad</div><div class=\"kurss-example\">er zeichnet — tema joonistab (mees)</div><div class=\"kurss-example\">sie zeichnet — tema joonistab (naine)</div><div class=\"kurss-example\">wir zeichnen — meie joonistame</div><div class=\"kurss-example\">ihr zeichnet — teie joonistate</div><div class=\"kurss-example\">sie zeichnen — nemad joonistavad</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>tun</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">ich tue — mina teen</div><div class=\"kurss-example\">du tust — sina teed</div><div class=\"kurss-example\">er tut — tema teeb (mees)</div><div class=\"kurss-example\">sie tut — tema teeb (naine)</div><div class=\"kurss-example\">wir tun — meie teeme</div><div class=\"kurss-example\">ihr tut — teie teete</div><div class=\"kurss-example\">sie tun — nemad teevad</div></div>\n            </section>\n",
   "kurssSentenceStructureLesson": "\n            <h3>Lause ehitus</h3>\n            <p class=\"kurss-lesson-intro\">Küsilauses seisab tegusõna saksa keeles tavaliselt esimesel kohal.</p>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Näited</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Du kommst. — Sina tuled.</div><div class=\"kurss-example\">Kommst du? — Kas sina tuled?</div><div class=\"kurss-example\">Er singt. — Tema laulab.</div><div class=\"kurss-example\">Singt er? — Kas tema laulab?</div><div class=\"kurss-example\">Stehst du? — Kas sina seisad?</div><div class=\"kurss-example\">Ja, ich stehe. — Jah, mina seisan.</div><div class=\"kurss-example\">Geht ihr? — Kas teie lähete?</div><div class=\"kurss-example\">Ja, wir gehen. — Jah, meie läheme.</div></div>\n            </section>\n            <section class=\"kurss-lesson-section\">\n              <h4>Küsimused sõnaga „was”</h4>\n              <p>Kui küsimus algab küsisõnaga, seisab tegusõna saksa keeles tavaliselt kohe küsisõna järel.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Was tust du? — Mida sina teed?</div><div class=\"kurss-example\">Was tut er? — Mida tema teeb (mees)?</div><div class=\"kurss-example\">Was tut sie? — Mida tema teeb (naine)?</div><div class=\"kurss-example\">Was tun sie? — Mida nemad teevad?</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Eitus sõnaga „nicht”</h4>\n              <p>Kui eitus „nicht” käib tegusõna kohta, seisab see saksa keeles tavaliselt tegusõna järel.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich spiele nicht. — Mina ei mängi.</div><div class=\"kurss-example\">Paul fragt nicht. — Paul ei küsi.</div><div class=\"kurss-example\">Er kommt nicht. — Tema ei tule.</div><div class=\"kurss-example\">Sie singen nicht. — Nemad ei laula.</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Laused 2. õppetunnist</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Spielst du? — Kas sina mängid?</div><div class=\"kurss-example\">Nein, ich spiele nicht, ich arbeite. — Ei, mina ei mängi, mina töötan.</div><div class=\"kurss-example\">Paul fragt nicht, er arbeitet. — Paul ei küsi, tema töötab.</div><div class=\"kurss-example\">Arbeitest du? — Kas sina töötad?</div><div class=\"kurss-example\">Nein, ich arbeite nicht, ich singe. — Ei, mina ei tööta, mina laulan.</div><div class=\"kurss-example\">Was tut Paul? — Mida teeb Paul?</div><div class=\"kurss-example\">Er spielt. — Tema mängib.</div><div class=\"kurss-example\">Was tut Marie? — Mida teeb Marie?</div><div class=\"kurss-example\">Sie singt. — Tema laulab.</div><div class=\"kurss-example\">Paul spielt, aber Marie singt. — Paul mängib, aga Marie laulab.</div><div class=\"kurss-example\">Singt ihr? — Kas teie laulate?</div><div class=\"kurss-example\">Nein, wir singen nicht, wir arbeiten. — Ei, meie ei laula, meie töötame.</div><div class=\"kurss-example\">Was tun Paul und Marie? — Mida teevad Paul ja Marie?</div><div class=\"kurss-example\">Sie fragen. — Nemad küsivad.</div><div class=\"kurss-example\">Sie antworten nicht. — Nemad ei vasta.</div><div class=\"kurss-example\">Wer arbeitet? — Kes töötab?</div><div class=\"kurss-example\">Wir arbeiten. — Meie töötame.</div><div class=\"kurss-example\">Wir rechnen und zeichnen. — Meie arvutame ja joonistame.</div><div class=\"kurss-example\">Sie kommen, sie fragen, sie antworten, sie arbeiten, sie spielen, sie singen, sie gehen. — Nemad tulevad, küsivad, vastavad, töötavad, mängivad, laulavad ja lähevad.</div></div>\n            </section>\n",
-  "kurssLesson1": "            <h3>1. õppetund</h3>\n            <p class=\"kurss-lesson-intro\">Esimene õppetund: tegusõnad olevikus, sõnad, hääldus, grammatika ja tõlkimine.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Tegusõnad olevikus</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-info\">Tegusõnad ja nende pöörded olevikus.</div>\n                <div class=\"lesson1-verb-cards\">\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>kommen — tulema</h4>\n                    <div class=\"lesson1-conjugation\"><span>ich</span><strong>komme</strong><span>mina tulen</span><span>du</span><strong>kommst</strong><span>sina tuled</span><span>er / sie</span><strong>kommt</strong><span>tema tuleb</span><span>wir</span><strong>kommen</strong><span>meie tuleme</span><span>ihr</span><strong>kommt</strong><span>teie tulete</span><span>sie / Sie</span><strong>kommen</strong><span>nemad / Teie tulevad</span></div>\n                  </article>\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>gehen — minema</h4>\n                    <div class=\"lesson1-conjugation\"><span>ich</span><strong>gehe</strong><span>mina lähen</span><span>du</span><strong>gehst</strong><span>sina lähed</span><span>er / sie</span><strong>geht</strong><span>tema läheb</span><span>wir</span><strong>gehen</strong><span>meie läheme</span><span>ihr</span><strong>geht</strong><span>teie lähete</span><span>sie / Sie</span><strong>gehen</strong><span>nemad / Teie lähevad</span></div>\n                  </article>\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>stehen — seisma</h4>\n                    <div class=\"lesson1-conjugation\"><span>ich</span><strong>stehe</strong><span>mina seisan</span><span>du</span><strong>stehst</strong><span>sina seisad</span><span>er / sie</span><strong>steht</strong><span>tema seisab</span><span>wir</span><strong>stehen</strong><span>meie seisame</span><span>ihr</span><strong>steht</strong><span>teie seisate</span><span>sie / Sie</span><strong>stehen</strong><span>nemad / Teie seisavad</span></div>\n                  </article>\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>singen — laulma</h4>\n                    <div class=\"lesson1-conjugation\"><span>ich</span><strong>singe</strong><span>mina laulan</span><span>du</span><strong>singst</strong><span>sina laulad</span><span>er / sie</span><strong>singt</strong><span>tema laulab</span><span>wir</span><strong>singen</strong><span>meie laulame</span><span>ihr</span><strong>singt</strong><span>teie laulate</span><span>sie / Sie</span><strong>singen</strong><span>nemad / Teie laulavad</span></div>\n                  </article>\n                </div>\n                <section class=\"lesson1-block\">\n                  <h4>Näited</h4>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Stehst du?<br>Ja, ich stehe.</div><div class=\"kurss-example\">Steht Albert?<br>Ja, er steht.</div><div class=\"kurss-example\">Steht Marta?<br>Ja, sie steht.</div><div class=\"kurss-example\">Wer kommt und singt?<br>Albert und Marta kommen und singen.</div><div class=\"kurss-example\">Geht ihr?<br>Ja, wir gehen.</div><div class=\"kurss-example\">Wer steht und singt?<br>Albert und Marta stehen und singen.</div></div>\n                </section>\n              </div>\n            </details>\n            <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-info lesson1-vardini-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><span>Sõnade ligikaudne hääldus on antud sulgudes eesti tähtedega.<br>Seda tuleb järgida ka järgnevates õppetundides.</span></div>\n                <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">wir (viir) — meie</div><div class=\"kurss-example\">Sõnas “wir” hääldatakse täht i pikalt.</div><div class=\"kurss-example\">kommen (komen) — tulema</div><div class=\"kurss-example\">gehen (gee-en) — minema</div><div class=\"kurss-example\">stehen (štee-en) — seisma</div><div class=\"kurss-example\">singen (zingen) — laulma</div><div class=\"kurss-example\">du (duu) kommst — sina tuled</div><div class=\"kurss-example\">er (eer) kommt — tema tuleb</div><div class=\"kurss-example\">sie (zii) kommt — tema tuleb (naine)</div><div class=\"kurss-example\">wer (veer) — kes?</div><div class=\"kurss-example\">ja (jaa) — jah</div></div>\n              </div>\n            </details>\n                        <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Sõnade õige hääldus, tähistatud eesti tähtedega, on antud õppetundides.</div><div class=\"kurss-example\">Wir (viir) — meie. Sõnas wir hääldatakse ii alati pikalt.</div></div>\n              </div>\n            </details>\n<details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content lesson1-grammar-content\">\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>∞</span>Infinitiiv</h4><div class=\"lesson1-grammar-note\">Tegusõna algvorm. Tavaliselt lõpeb infinitiiv lõpuga -en.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">kommen</div><div class=\"kurss-example\">gehen</div><div class=\"kurss-example\">stehen</div><div class=\"kurss-example\">singen</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>♟</span>Oleviku lõpud</h4><div class=\"lesson1-ending-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><div class=\"lesson1-ending-info-body\"><p><strong>Eemalda tegusõna algvormist <span class=\"lesson1-ending-accent\">-en</span> ja lisa lõpp.</strong></p><p>Näide: kommen → komm + lõpp</p><div class=\"lesson1-ending-process\" aria-label=\"Oleviku lõppude moodustamise protsess\"><div class=\"lesson1-ending-step\"><strong>kommen</strong><span>algvorm</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>eemalda <span class=\"lesson1-ending-accent\">-en</span></strong><span>jääb tüvi</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>komm</strong><span>tüvi</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>lisa lõpp</strong><span>e / st / t</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-results\"><div>komm + <span class=\"lesson1-ending-accent\">e</span> = <strong>komme</strong></div><div>komm + <span class=\"lesson1-ending-accent\">st</span> = <strong>kommst</strong></div><div>komm + <span class=\"lesson1-ending-accent\">t</span> = <strong>kommt</strong></div></div></div></div></div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich → -e</div><div class=\"kurss-example\">du → -st</div><div class=\"kurss-example\">er / sie → -t</div><div class=\"kurss-example\">wir → -en</div><div class=\"kurss-example\">ihr → -t</div><div class=\"kurss-example\">sie → -en</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>●</span>Näited</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich komme</div><div class=\"kurss-example\">du kommst</div><div class=\"kurss-example\">er kommt</div><div class=\"kurss-example\">wir kommen</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>?</span>Küsilaused</h4><div class=\"lesson1-grammar-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><span>Saksa küsilauses liigub tegusõna tavaliselt esimesele kohale.</span></div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Eesti keeles:<br>Sina tuled.<br>Kas sina tuled?</div><div class=\"kurss-example\">Saksa keeles:<br>Du kommst.<br>Kommst du?</div><div class=\"kurss-example\">du kommst — sina tuled<br>kommst du? — kas sina tuled?</div><div class=\"kurss-example\">er singt — tema laulab<br>singt er? — kas tema laulab?</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>♣</span>Isikute erinevus</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">er kommt — tema tuleb (mees)</div><div class=\"kurss-example\">sie kommt — tema tuleb (naine)</div><div class=\"kurss-example\">sie kommen — nemad tulevad</div></div></section>\n              </div>\n            </details>\n                        <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Tõlgi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-training-wrap\">\n                  <button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson1-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"1. õppetunni harjutuskaart\">\n                    <span class=\"lesson1-training-progress\">1. õppetund · Tõlgi: 1 / 11</span>\n                    <span class=\"lesson1-training-text\">Kas sina tuled?</span>\n                  </button>\n                  <p class=\"lesson1-training-hint\">Klõpsa kaardil, et näha saksakeelset tõlget. Pärast vastust näitab järgmine klõps uut kaarti.</p>\n                </div>\n              </div>\n            </details>\n",
-  "kurssLesson2": "            <h3>2. õppetund</h3>\n            <p class=\"kurss-lesson-intro\">Teine õppetund: dialoogid, sõnad, hääldus, grammatika ja tõlkimine.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoogid / laused</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\">\n                  <div class=\"kurss-example\">Spielst du?<br>Nein, ich spiele nicht, ich arbeite.</div>\n                  <div class=\"kurss-example\">Paul fragt nicht, er arbeitet.</div>\n                  <div class=\"kurss-example\">Arbeitest du?<br>Nein, ich arbeite nicht, ich singe.</div>\n                  <div class=\"kurss-example\">Was tut Paul?<br>Er spielt.</div>\n                  <div class=\"kurss-example\">Was tut Marie?<br>Sie singt.</div>\n                  <div class=\"kurss-example\">Paul spielt, aber Marie singt.</div>\n                  <div class=\"kurss-example\">Singt ihr?<br>Nein, wir singen nicht, wir arbeiten.</div>\n                  <div class=\"kurss-example\">Was tun Paul und Marie?<br>Sie fragen.<br>Sie antworten nicht.</div>\n                  <div class=\"kurss-example\">Wer arbeitet?<br>Wir arbeiten.<br>Wir rechnen und zeichnen.</div>\n                  <div class=\"kurss-example\">Sie kommen, sie fragen, sie antworten, sie arbeiten, sie spielen, sie singen, sie gehen.</div>\n                </div>\n              </div>\n            </details>\n            <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\">\n                  <div class=\"kurss-example\">spielen — mängima</div>\n                  <div class=\"kurss-example\">nein — ei</div>\n                  <div class=\"kurss-example\">nicht — mitte</div>\n                  <div class=\"kurss-example\">arbeiten — töötama</div>\n                  <div class=\"kurss-example\">fragen — küsima</div>\n                  <div class=\"kurss-example\">was tut er? — mida tema teeb?</div>\n                  <div class=\"kurss-example\">was tun sie? — mida nemad teevad?</div>\n                  <div class=\"kurss-example\">aber — aga</div>\n                  <div class=\"kurss-example\">antworten — vastama</div>\n                  <div class=\"kurss-example\">rechnen — arvutama</div>\n                  <div class=\"kurss-example\">zeichnen — joonistama</div>\n                  <div class=\"kurss-example\">Marie — Marie</div>\n                </div>\n              </div>\n            </details>\n                        <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Sõnades ich, nicht, rechnen, zeichnen hääldatakse häälikut ch pehmelt, sarnaselt pehme h-häälikuga.</div><div class=\"kurss-example\">Sõnades arbeiten, zeichnen hääldatakse diftongi ei umbes nagu “ai”.</div><div class=\"kurss-example\">Kaashäälikuühendit sp hääldatakse kui šp: spielen (špiilen).</div><div class=\"kurss-example\">Tegusõnas tun hääldatakse u kõigis pöörete vormides pikalt.</div></div>\n              </div>\n            </details>\n<details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content lesson1-grammar-content\">\n                <section class=\"lesson1-block\">\n                  <h4 class=\"lesson1-grammar-header\"><span>1</span>Lõpud e-ga</h4>\n                  <div class=\"lesson1-grammar-note\">Kui tegusõna tüvi lõpeb tähtedega t, d, chn, siis lõppude -st ja -t ees seisab pöördel e.</div>\n                  <h5 class=\"lesson2-subtitle\">arbeiten</h5>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich arbeite</div><div class=\"kurss-example\">du arbeitest</div><div class=\"kurss-example\">er arbeitet</div><div class=\"kurss-example\">sie arbeitet</div><div class=\"kurss-example\">wir arbeiten</div><div class=\"kurss-example\">ihr arbeitet</div><div class=\"kurss-example\">sie arbeiten</div></div>\n                  <h5 class=\"lesson2-subtitle\">rechnen</h5>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich rechne</div><div class=\"kurss-example\">du rechnest</div><div class=\"kurss-example\">er rechnet</div><div class=\"kurss-example\">sie rechnet</div><div class=\"kurss-example\">wir rechnen</div><div class=\"kurss-example\">ihr rechnet</div><div class=\"kurss-example\">sie rechnen</div></div>\n                  <h5 class=\"lesson2-subtitle\">tun</h5>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich tue</div><div class=\"kurss-example\">du tust</div><div class=\"kurss-example\">er tut</div><div class=\"kurss-example\">sie tut</div><div class=\"kurss-example\">wir tun</div><div class=\"kurss-example\">ihr tut</div><div class=\"kurss-example\">sie tun</div></div>\n                </section>\n                <section class=\"lesson1-block\">\n                  <h4 class=\"lesson1-grammar-header\"><span>2</span>Küsisõna</h4>\n                  <div class=\"lesson1-grammar-note\">Küsilausetes, mis algavad küsisõnaga, näiteks: mida? kes? milline? miks? mispärast? jne, seisab tegusõna kohe küsisõna järel.</div>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Was tust du? — Mida sina teed?</div><div class=\"kurss-example\">Was tut er? — Mida tema teeb (mees)?</div><div class=\"kurss-example\">Was tut sie? — Mida tema teeb (naine)?</div><div class=\"kurss-example\">Was tun sie? — Mida nemad teevad?</div></div>\n                </section>\n                <section class=\"lesson1-block\">\n                  <h4 class=\"lesson1-grammar-header\"><span>3</span>Eitus sõnaga nicht</h4>\n                  <div class=\"lesson1-grammar-note\">Kui eitus nicht käib tegusõna kohta, siis seisab eitav sõna tegusõna järel.</div>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Er kommt nicht. — Tema ei tule.</div><div class=\"kurss-example\">Sie singen nicht. — Nemad ei laula.</div></div>\n                </section>\n              </div>\n            </details>\n                                    <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Tõlgi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-training-wrap\">\n                  <button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson2-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"2. õppetunni tõlkekaart\">\n                    <span class=\"lesson1-training-progress\">2. õppetund · Tõlgi: 1 / 15</span>\n                    <span class=\"lesson1-training-text\">Kes küsib?</span>\n                  </button>\n                  <p class=\"lesson1-training-hint\">Klõpsa kaardil, et näha saksakeelset tõlget. Pärast vastust näitab järgmine klõps uut kaarti.</p>\n                </div>\n              </div>\n            </details>\n",
-  "kurssLesson3": "            <h3>3. õppetund</h3>\n            <p class=\"kurss-lesson-intro\">Kolmas õppetund: dialoogid, sõnad, hääldus, grammatika ja tõlkimine.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoogid / laused</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Wer rechnet und zeichnet?<br>Wir rechnen und zeichnen.</div><div class=\"kurss-example\">Wer kommt?<br>Paul und Anna kommen.</div><div class=\"kurss-example\">Was steht hier?<br>Hier steht ein Tisch.</div><div class=\"kurss-example\">Was steht dort?<br>Dort steht eine Bank.</div><div class=\"kurss-example\">Was liegt hier?<br>Hier liegt ein Buch.</div><div class=\"kurss-example\">Was liegt dort?<br>Dort liegt ein Heft.</div><div class=\"kurss-example\">Was hängt hier?<br>Hier hängt ein Bild.</div><div class=\"kurss-example\">Was hängt dort?<br>Dort hängt eine Tafel.</div><div class=\"kurss-example\">Wie ist das Buch?<br>Das Buch ist dick.</div><div class=\"kurss-example\">Wie ist das Heft?<br>Das Heft ist dünn.</div><div class=\"kurss-example\">Wie ist die Bank?<br>Die Bank ist niedrig.</div><div class=\"kurss-example\">Wie ist der Tisch?<br>Der Tisch ist hoch.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">wer — kes</div><div class=\"kurss-example\">was — mis</div><div class=\"kurss-example\">hier — siin</div><div class=\"kurss-example\">dort — seal</div><div class=\"kurss-example\">der Tisch — laud</div><div class=\"kurss-example\">ein Tisch — laud</div><div class=\"kurss-example\">die Bank — pink</div><div class=\"kurss-example\">eine Bank — pink</div><div class=\"kurss-example\">liegen — lamama</div><div class=\"kurss-example\">liegt hier ein Buch? — kas siin on raamat?</div><div class=\"kurss-example\">das Buch — raamat</div><div class=\"kurss-example\">ein Buch — raamat</div><div class=\"kurss-example\">hängen — rippuma</div><div class=\"kurss-example\">das Bild — pilt</div><div class=\"kurss-example\">ein Bild — pilt</div><div class=\"kurss-example\">die Tafel — tahvel</div><div class=\"kurss-example\">eine Tafel — tahvel</div><div class=\"kurss-example\">wie — milline</div><div class=\"kurss-example\">ist — on</div><div class=\"kurss-example\">dick — paks</div><div class=\"kurss-example\">das Heft — vihik</div><div class=\"kurss-example\">ein Heft — vihik</div><div class=\"kurss-example\">dünn — õhuke</div><div class=\"kurss-example\">niedrig — madal</div><div class=\"kurss-example\">hoch — kõrge</div></div></div></details>\n                        <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Pikka ii häälikut tähistatakse saksa keeles kui ie: liegen (liigen), hier (hiir), wie (vii).</div><div class=\"kurss-example\">ck on kahekordne k: dick (dikk).</div><div class=\"kurss-example\">Omadus- ja määrsõnades kõlab lõpp -ig kui kerge -ich: niedrig (niidrih).</div><div class=\"kurss-example\">Kui lõpp -ig lõpeb e-ga: -ige, siis hääldatakse g selge g-häälikuna: niedrige (niidrige) Bänke.</div></div></div></details>\n<details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Lause alus</h4><div class=\"lesson1-grammar-note\">Lause alus vastab saksa keeles küsimusele wer? / was? ja seisab nominatiivis.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Wer? küsib isikute kohta.</div><div class=\"kurss-example\">Was? küsib esemete kohta.</div><div class=\"kurss-example\">Wer singt? — Sie singt.</div><div class=\"kurss-example\">Was liegt hier? — Hier liegt ein Buch.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>Artiklid</h4><div class=\"lesson1-grammar-note\">Saksa keeles on nimisõnal 3 sugu: meessugu, naissugu ja kesksugu. Nimisõna ees seisab tavaliselt sõnake, mida nimetatakse artikliks. Seda sõnakest ei tõlgita.</div><h5 class=\"lesson2-subtitle\">Määrav artikkel</h5><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">meessugu — der</div><div class=\"kurss-example\">naissugu — die</div><div class=\"kurss-example\">kesksugu — das</div><div class=\"kurss-example\">Mitmuses on määrav artikkel kõigil kolmel sool die.</div><div class=\"kurss-example\">der Tisch — die Tische</div><div class=\"kurss-example\">die Bank — die Bänke</div><div class=\"kurss-example\">das Heft — die Hefte</div></div><h5 class=\"lesson2-subtitle\">Umbmäärane artikkel</h5><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">meessugu — ein</div><div class=\"kurss-example\">naissugu — eine</div><div class=\"kurss-example\">kesksugu — ein</div><div class=\"kurss-example\">Umbmäärasel artiklil mitmust ei ole.</div><div class=\"kurss-example\">ein Tisch — Tische</div><div class=\"kurss-example\">ein Heft — Hefte</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Pärisnimed</h4><div class=\"lesson1-grammar-note\">Pärisnimede ees artiklit ei kasutata.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hans spielt, aber Marie singt.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>Tegusõna koht</h4><div class=\"lesson1-grammar-note\">Jutustavas lauses seisab tegusõna teisel kohal.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hier hängt eine Karte.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>5</span>stehen / liegen / hängen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Saksa keeles öeldakse esemete kohta, mis seisavad vertikaalselt, et ese seisab:<br>der Tisch steht<br>die Bank steht</div><div class=\"kurss-example\">Esemete kohta, mis on horisontaalasendis, öeldakse, et need lebavad:<br>das Buch liegt<br>das Heft liegt</div><div class=\"kurss-example\">Esemed võivad ka rippuda:<br>die Karte hängt<br>die Tafel hängt</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Tõlgi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson3-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"3. õppetunni tõlkekaart\"><span class=\"lesson1-training-progress\">3. õppetund · Tõlgi: 1 / 22</span><span class=\"lesson1-training-text\">Kas sina arvutad?</span></button><p class=\"lesson1-training-hint\">Klõpsa kaardil, et näha saksakeelset tõlget. Pärast vastust näitab järgmine klõps uut kaarti.</p></div></div></details>\n",
-  "kurssLesson4": "            <h3>4. õppetund</h3>\n            <p class=\"kurss-lesson-intro\">Akusatiiv, nehmen, hinlegen, hinausgehen ja omadussõnad.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoogid / laused</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Paul kommt und nimmt einen Federhalter.</div><div class=\"kurss-example\">Er zeigt den Federhalter.</div><div class=\"kurss-example\">Er fragt: „Wie ist der Federhalter?“</div><div class=\"kurss-example\">Olga antwortet: „Der Federhalter ist schwarz.“</div><div class=\"kurss-example\">Ist der Federhalter weiß? Nein, der Federhalter ist nicht weiß, er ist schwarz.</div><div class=\"kurss-example\">Marie kommt und nimmt eine Feder.</div><div class=\"kurss-example\">Sie fragt: „Wie ist die Feder?“</div><div class=\"kurss-example\">Olga antwortet: „Die Feder ist spitz.“</div><div class=\"kurss-example\">Ist die Feder stumpf? Nein, die Feder ist nicht stumpf, sie ist spitz.</div><div class=\"kurss-example\">Was legt das Mädchen hin? Es legt die Feder hin.</div><div class=\"kurss-example\">Was nimmst du? Ich nehme ein Messer.</div><div class=\"kurss-example\">Wie ist das Messer? Das Messer ist scharf.</div><div class=\"kurss-example\">Ist das Messer stumpf? Nein, es ist nicht stumpf, es ist scharf.</div><div class=\"kurss-example\">Was legst du hin? Ich lege das Messer, die Feder und den Federhalter hin.</div><div class=\"kurss-example\">Dann gehe ich hinaus und arbeite.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">nehmen (neemen) — võtma</div><div class=\"kurss-example\">er nimmt (nimt) — tema võtab</div><div class=\"kurss-example\">der Federhalter (deer feederhalter) — sulepea</div><div class=\"kurss-example\">einen Federhalter — sulepead</div><div class=\"kurss-example\">zeigen — näitama</div><div class=\"kurss-example\">schwarz (švarts) — must</div><div class=\"kurss-example\">weiß (vais) — valge</div><div class=\"kurss-example\">die Feder (dii feeder) — sulg</div><div class=\"kurss-example\">eine Feder — sulge</div><div class=\"kurss-example\">spitz (špits) — terav</div><div class=\"kurss-example\">hinlegen — maha panema</div><div class=\"kurss-example\">legt hin — paneb maha</div><div class=\"kurss-example\">das Mädchen (meetchen) — tüdruk</div><div class=\"kurss-example\">das Messer — nuga</div><div class=\"kurss-example\">ein Messer — nuga</div><div class=\"kurss-example\">scharf — terav</div><div class=\"kurss-example\">stumpf (štumpf) — nüri</div><div class=\"kurss-example\">dann — siis</div><div class=\"kurss-example\">hinaus — välja</div><div class=\"kurss-example\">hinausgehen — välja minema</div></div></div></details>\n                        <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Lõpud -en, -er, -el on rõhutamata, seetõttu on e neis lõppudes nõrgalt kuuldav: kommen, nehmen, der Federhalter.</div><div class=\"kurss-example\">h võib saksa keeles olla nii häälik kui ka eelneva täishääliku pikendusmärk.</div><div class=\"kurss-example\">Kui h on pikendusmärk, ei hääldata seda häälikuna: nehmen (neemen).</div><div class=\"kurss-example\">Kui täishäälikule järgneb ainult üks kaashäälik, hääldatakse täishäälikut pikalt: die (dii) Feder (feeder), den (deen).</div></div></div></details>\n<details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Akusatiiv</h4><div class=\"lesson1-grammar-note\">Naissoos ja kesksoos on akusatiiv sama, mis nominatiiv. Muutub ainult meessugu.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Nominativ: der Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Akkusativ: den Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Nominativ: ein Federhalter, eine Feder, ein Messer.</div><div class=\"kurss-example\">Akkusativ: einen Federhalter, eine Feder, ein Messer.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>nehmen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich nehme</div><div class=\"kurss-example\">du nimmst</div><div class=\"kurss-example\">er/sie nimmt</div><div class=\"kurss-example\">wir nehmen</div><div class=\"kurss-example\">ihr nehmt</div><div class=\"kurss-example\">sie nehmen</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Asesõnad</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">er — meessugu</div><div class=\"kurss-example\">sie — naissugu</div><div class=\"kurss-example\">es — kesksugu</div><div class=\"kurss-example\">mitmuses — sie</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>Lahutatavad tegusõnad</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">hinlegen → ich lege das Messer hin</div><div class=\"kurss-example\">hinausgehen → Marie geht hinaus</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>5</span>Omadussõnad</h4><div class=\"lesson1-grammar-note\">Kui omadussõna on lauses öeldistäide, ei muutu see ei soo ega arvu järgi.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">der Federhalter ist klein</div><div class=\"kurss-example\">die Feder ist klein</div><div class=\"kurss-example\">das Messer ist klein</div><div class=\"kurss-example\">die Messer sind klein</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>6</span>Eitus sõnaga nicht</h4><div class=\"lesson1-grammar-note\">Kui nicht eitab omadussõna, seisab see eitatava sõna ees.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">der Federhalter ist nicht weiß</div><div class=\"kurss-example\">das Messer ist nicht scharf</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>7</span>-chen / -lein</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Nimisõnad lõpuga -chen ja -lein on kesksoost: das Mädchen.</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Tõlgi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson4-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"4. õppetunni tõlkekaart\"><span class=\"lesson1-training-progress\">4. õppetund · Tõlgi: 1 / 16</span><span class=\"lesson1-training-text\">Tüdruk võtab sulepea.</span></button><p class=\"lesson1-training-hint\">Klõpsa kaardil, et näha saksakeelset tõlget. Pärast vastust näitab järgmine klõps uut kaarti.</p></div></div></details>\n",
-  "kurssLesson5": "\n    <h3>5. õppetund</h3>\n    <p class=\"kurss-lesson-intro\">Wen?, akusatiiv, sitzen, fragen ja -in lõpp.</p>\n\n    <details class=\"lesson1-accordion\" open>\n      <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoogid / laused</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\">\n        <div class=\"kurss-example\">Wer sitzt und fragt? Der Lehrer sitzt und fragt.</div>\n        <div class=\"kurss-example\">Wer steht und antwortet? Der Schüler steht und antwortet.</div>\n        <div class=\"kurss-example\">Wie antwortet der Schüler? Der Schüler antwortet gut.</div>\n        <div class=\"kurss-example\">Wen lobt der Lehrer? Der Lehrer lobt den Schüler.</div>\n        <div class=\"kurss-example\">Wie ist der Schüler? Der Schüler ist klein.</div>\n        <div class=\"kurss-example\">Ist der Schüler klein oder groß? Er ist klein.</div>\n        <div class=\"kurss-example\">Wen fragt die Lehrerin? Die Lehrerin fragt die Schülerin.</div>\n        <div class=\"kurss-example\">Wie antwortet die Schülerin? Die Schülerin antwortet schlecht.</div>\n        <div class=\"kurss-example\">Was tut die Lehrerin? Sie tadelt die Schülerin.</div>\n        <div class=\"kurss-example\">Die Schülerin ist nicht klein, sie ist groß.</div>\n        <div class=\"kurss-example\">Ein Kind spielt. Das Kind ist artig.</div>\n        <div class=\"kurss-example\">Die Mutter liebt das Kind. Der Vater lobt das Kind.</div>\n      </div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\">\n        <div class=\"kurss-example\">sitzen (zitsen) — istuma</div>\n        <div class=\"kurss-example\">fragen (fraagen) — küsima</div>\n        <div class=\"kurss-example\">der Lehrer (deer leerer) — õpetaja</div>\n        <div class=\"kurss-example\">gut (guut) — hästi</div>\n        <div class=\"kurss-example\">wen (veen) — keda</div>\n        <div class=\"kurss-example\">loben — kiitma</div>\n        <div class=\"kurss-example\">der Schüler (šüler) — õpilane</div>\n        <div class=\"kurss-example\">klein — väike</div>\n        <div class=\"kurss-example\">groß (groos) — suur</div>\n        <div class=\"kurss-example\">die Lehrerin — õpetajanna</div>\n        <div class=\"kurss-example\">die Schülerin — õpilane (naine)</div>\n        <div class=\"kurss-example\">schlecht (šleht) — halvasti</div>\n        <div class=\"kurss-example\">tadeln — laitma</div>\n        <div class=\"kurss-example\">oder (ooder) — või</div>\n        <div class=\"kurss-example\">das Kind (kint) — laps</div>\n        <div class=\"kurss-example\">artig (aartih) — sõnakuulelik</div>\n        <div class=\"kurss-example\">die Mutter — ema</div>\n        <div class=\"kurss-example\">lieben (liiben) — armastama</div>\n        <div class=\"kurss-example\">der Vater (faater) — isa</div>\n      </div></div>\n    </details>\n\n        <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\">\n        <div class=\"kurss-example\">tz hääldatakse kui ts: sitzen (zitsen).</div>\n        <div class=\"kurss-example\">v hääldatakse saksa sõnades kui f: der Vater (faater).</div>\n        <div class=\"kurss-example\">ß nimetatakse eszetiks ja hääldatakse kui s: groß (groos), weiß (vais).</div>\n      </div></div>\n    </details>\n\n<details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content lesson1-grammar-content\">\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Nominatiiv ja akusatiiv</h4><div class=\"lesson1-grammar-note\">Eesti keeles vastab nominatiiv küsimusele kes/mis?, aga akusatiiv küsimusele keda/mida?.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Saksa keeles on nominatiivi küsimus wer? isikute kohta ja was? esemete kohta.</div><div class=\"kurss-example\">Akusatiivi küsimus on wen? isikute kohta ja was? esemete kohta.</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Artikli muutumine akusatiivis</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Nominativ: der Vater, die Mutter, das Kind.</div><div class=\"kurss-example\">Akkusativ: den Vater, die Mutter, das Kind.</div><div class=\"kurss-example\">Nominativ: der Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Akkusativ: den Federhalter, die Feder, das Messer.</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">sitzen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich sitze</div><div class=\"kurss-example\">du sitzt</div><div class=\"kurss-example\">er/sie/es sitzt</div><div class=\"kurss-example\">wir sitzen</div><div class=\"kurss-example\">ihr sitzt</div><div class=\"kurss-example\">sie sitzen</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">fragen + akusatiiv</h4><div class=\"lesson1-grammar-note\">Tegusõna fragen nõuab saksa keeles akusatiivi.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Wen fragt der Lehrer?</div><div class=\"kurss-example\">Der Lehrer fragt den Schüler.</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">-in lõpp</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Paljud naissoost sõnad tuletatakse lõpuga -in.</div><div class=\"kurss-example\">die Lehrerin</div><div class=\"kurss-example\">die Schülerin</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Tegusõna koht</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Jutustavas lauses seisab tegusõna teisel kohal.</div><div class=\"kurss-example\">Dann geht das Mädchen hinaus und arbeitet.</div><div class=\"kurss-example\">Das Mädchen geht dann hinaus und arbeitet.</div></div></section>\n      </div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Tõlgi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson5-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"5. õppetunni tõlkekaart\"><span class=\"lesson1-training-progress\">5. õppetund · Tõlgi: 1 / 16</span><span class=\"lesson1-training-text\">Keda armastab isa?</span></button><p class=\"lesson1-training-hint\">Klõpsa kaardil, et näha saksakeelset tõlget. Pärast vastust näitab järgmine klõps uut kaarti.</p></div></div>\n    </details>\n  ",
-  "kurssLesson6": "\n    <h3>6. õppetund</h3>\n    <p class=\"kurss-lesson-intro\">Arvsõnad, mitmus, täishäälikumuutused ja nimisõnade mitmuse vormid.</p>\n\n    <details class=\"lesson1-accordion\" open>\n      <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoogid / laused</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hier liegt ein Bleistift.</div><div class=\"kurss-example\">Dort liegen einige Messer.</div><div class=\"kurss-example\">Edgar nimmt ein Messer, zwei Messer, drei Messer.</div><div class=\"kurss-example\">Er legt die Messer wieder hin.</div><div class=\"kurss-example\">Alle Messer sind scharf.</div><div class=\"kurss-example\">Dann nimmt er wieder ein Messer.</div><div class=\"kurss-example\">Er macht das Messer auf.</div><div class=\"kurss-example\">Er nimmt den Bleistift.</div><div class=\"kurss-example\">Er spitzt den Bleistift an.</div><div class=\"kurss-example\">Er legt das Messer hin.</div><div class=\"kurss-example\">Er setzt sich und zeichnet.</div><div class=\"kurss-example\">Was zeichnet er? Er zeichnet einen Schlüssel.</div><div class=\"kurss-example\">Gertrud zeichnet ein Fenster und eine Tafel.</div><div class=\"kurss-example\">Anna zeichnet einen Garten.</div><div class=\"kurss-example\">Hier liegen vier Löffel.</div><div class=\"kurss-example\">Dort liegen fünf Nadeln.</div><div class=\"kurss-example\">Gertrud kommt und zählt die Löffel: das ist ein Löffel; das sind zwei, drei, vier Löffel.</div><div class=\"kurss-example\">Anna zählt die Nadeln: das ist eine Nadel; das sind zwei, drei, vier, fünf Nadeln.</div><div class=\"kurss-example\">Wieviel Nadeln sind hier?</div><div class=\"kurss-example\">Hier ist eine Nadel.</div><div class=\"kurss-example\">Dort sind zwei, drei, vier Nadeln.</div><div class=\"kurss-example\">Fünf Schlüssel sind hier.</div><div class=\"kurss-example\">Sechs Löffel sind dort.</div><div class=\"kurss-example\">Was ist das?</div><div class=\"kurss-example\">Das ist ein Hammer. Das sind fünf Hämmer.</div><div class=\"kurss-example\">Das ist ein Deckel. Das sind sechs Deckel.</div><div class=\"kurss-example\">Das ist ein Eimer. Das sind sieben Eimer.</div><div class=\"kurss-example\">Das ist ein Teller. Das sind acht Teller.</div><div class=\"kurss-example\">Das ist ein Wagen. Das sind neun Wagen.</div><div class=\"kurss-example\">Das ist ein Schlitten. Das sind zehn Schlitten.</div><div class=\"kurss-example\">Wie sind die Dinge?</div><div class=\"kurss-example\">Der Hammer ist klein. Die Hämmer sind klein.</div><div class=\"kurss-example\">Der Deckel ist groß. Die Deckel sind groß.</div><div class=\"kurss-example\">Der Eimer ist voll. Die Eimer sind voll.</div><div class=\"kurss-example\">Der Teller ist leer. Die Teller sind leer.</div><div class=\"kurss-example\">Der Wagen ist schwer. Die Wagen sind schwer.</div><div class=\"kurss-example\">Der Schlitten ist leicht. Die Schlitten sind leicht.</div></div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">liegt — asub, on, lamab</div><div class=\"kurss-example\">der Bleistift (blaištift) — pliiats</div><div class=\"kurss-example\">einige (ainige) — mõned</div><div class=\"kurss-example\">hinlegen — maha panema</div><div class=\"kurss-example\">legt hin — paneb maha</div><div class=\"kurss-example\">wieder (viider) — jälle</div><div class=\"kurss-example\">aufmachen — avama</div><div class=\"kurss-example\">er macht auf — tema avab</div><div class=\"kurss-example\">anspitzen (anšpitsen) — teritama</div><div class=\"kurss-example\">er spitzt an — tema teritab</div><div class=\"kurss-example\">sich setzen — maha istuma</div><div class=\"kurss-example\">setzt sich — istub maha</div><div class=\"kurss-example\">der Schlüssel (šlüsel) — võti</div><div class=\"kurss-example\">das Fenster (fenster) — aken</div><div class=\"kurss-example\">die Tafel (dii taafel) — tahvel</div><div class=\"kurss-example\">der Garten — aed</div><div class=\"kurss-example\">der Löffel — lusikas</div><div class=\"kurss-example\">zählen (tseelen) — lugema</div><div class=\"kurss-example\">die Nadel — nõel</div><div class=\"kurss-example\">was ist das — mis see on?</div><div class=\"kurss-example\">der Hammer — haamer</div><div class=\"kurss-example\">die Hämmer — haamrid</div><div class=\"kurss-example\">der Deckel (deer dekel) — kaas</div><div class=\"kurss-example\">der Teller — taldrik</div><div class=\"kurss-example\">der Wagen — vanker</div><div class=\"kurss-example\">der Schlitten — kelk</div><div class=\"kurss-example\">das Ding — asi</div><div class=\"kurss-example\">die Dinge — asjad</div><div class=\"kurss-example\">wie sind die Dinge? — millised on asjad?</div><div class=\"kurss-example\">voll (fool) — täis</div><div class=\"kurss-example\">leer (leer) — tühi</div><div class=\"kurss-example\">schwer (šveer) — raske</div><div class=\"kurss-example\">leicht — kerge</div><div class=\"kurss-example\">der Eimer — ämber</div><div class=\"kurss-example\">wieviel (viifiil) — kui palju</div><div class=\"kurss-example\">wieviel Nadeln — kui palju nõelu</div><div class=\"kurss-example\">hier (hiir) — siin</div><div class=\"kurss-example\">dort — seal</div></div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ä on täishääliku a muundvorm ja seda hääldatakse kui lühikest või pikka kitsast e-häälikut.</div><div class=\"kurss-example\">Näited: das Mädchen (meetchen), die Bänke (dii benke), der Vater (deer faater), die Väter (dii feeter).</div><div class=\"kurss-example\">ü on täishääliku u muundvorm. Selle hääldamisel tuleb huuled väga ümaraks teha ja proovida ümarate huultega hääldada i-d.</div><div class=\"kurss-example\">Näited: fünf, der Schlüssel (šlüsel).</div><div class=\"kurss-example\">ö hääldatakse ümarate huultega, proovides hääldada e-d: der Löffel.</div><div class=\"kurss-example\">Kahekordistatud täishäälik tähistab pikka täishäälikut: leer (leer).</div><div class=\"kurss-example\">Diftongi eu hääldatakse kui oi: neun (noin).</div></div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content lesson1-grammar-content\">\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Grammatika ja selgitused</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Liittegusõna rõhutatud eesliide eraldub olevikus tegusõnast ja seisab lause lõpus.</div><div class=\"kurss-example\">Näited: hinlegen — er legt hin; aufmachen — er macht auf; anspitzen — er spitzt an.</div><div class=\"kurss-example\">Arvsõna üks on kõigis kolmes soos, kui seda kasutatakse koos nimisõnaga: meessoos ein, naissoos eine, kesksoos ein.</div><div class=\"kurss-example\">Näited: ein Schüler — üks õpilane; eine Schülerin — üks õpilane (naine); ein Kind — üks laps.</div><div class=\"kurss-example\">Arvud: eins, zwei, drei, vier (fiir), fünf, sechs (zeks), sieben (ziiben), acht, neun (noin), zehn (tseen).</div><div class=\"kurss-example\">Sidesõnal (sein) on saksa keeles ainsuse ja mitmuse vorm: der Schüler ist klein; die Schüler sind klein.</div><div class=\"kurss-example\">Näitav asesõna “see” muutub eesti keeles arvu ja soo järgi, aga saksa keeles kasutatakse üht vormi: das.</div><div class=\"kurss-example\">Näited: see on haamer — das ist ein Hammer; see on nõel — das ist eine Nadel; need on haamrid — das sind Hämmer; need on nõelad — das sind Nadeln.</div><div class=\"kurss-example\">Der Wagen (vanker) ja der Schlitten (kelk) on saksa keeles nii ainsuses kui mitmuses kasutatavad tavalised nimisõnad.</div><div class=\"kurss-example\">Meessoost ja kesksoost nimisõnad lõpuga -er, -el, -en ei saa mitmuses sageli lõppu.</div><div class=\"kurss-example\">Näited: der Hammer — die Hämmer; der Garten — die Gärten; das Fenster — die Fenster; das Messer — die Messer.</div><div class=\"kurss-example\">Naissoost nimisõnad lõpuga -el, -er saavad mitmuses lõpu -n.</div><div class=\"kurss-example\">Näited: die Nadel — die Nadeln; die Feder — die Federn.</div><div class=\"kurss-example\">Erandid: die Mutter (ema) — die Mütter (emad); die Tochter (tütar) — die Töchter (tütred).</div><div class=\"kurss-example\">Umbmäärasel artiklil mitmust ei ole: das ist ein Wagen — das sind Wagen; das ist eine Nadel — das sind Nadeln.</div><div class=\"kurss-example\">Jutustavas lauses seisab öeldis-tegusõna teisel kohal: er legt den Schlüssel hin; dann legt er den Schlüssel hin.</div></div></section>\n      </div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Tõlgi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson6-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"6. õppetunni tõlkekaart\"><span class=\"lesson1-training-progress\">6. õppetund · Tõlgi: 1 / 21</span><span class=\"lesson1-training-text\">Paul võtab pliiatsi ja joonistab.</span></button><p class=\"lesson1-training-hint\">Klõpsa kaardil, et näha saksakeelset tõlget. Pärast vastust näitab järgmine klõps uut kaarti.</p></div></div>\n    </details>\n  ",
-  "kurssLesson7": "            <h3>7. õppetund</h3>\n            <p class=\"kurss-lesson-intro\">Seitsmes õppetund: käskiv kõneviis, viisakusvorm ja mitmus.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoogid / laused</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hans, singe ein Lied! Was tust du? Ich singe ein Lied.</div><div class=\"kurss-example\">Hans und Olga, singt ein Lied! Was tut ihr? Wir singen ein Lied.</div><div class=\"kurss-example\">Fräulein Müller, singen Sie, bitte, ein Lied! Was tun Sie? Ich singe ein Lied.</div><div class=\"kurss-example\">Hans, zähle die Teller! Was tut Hans? Er zählt die Teller.</div><div class=\"kurss-example\">Hans und Olga, zählt die Teller! Was tun Hans und Olga? Sie zählen die Teller.</div><div class=\"kurss-example\">Fräulein Müller, zählen Sie, bitte, die Teller!</div><div class=\"kurss-example\">Hans, öffne das Fenster! Was tut Hans? Er öffnet das Fenster.</div><div class=\"kurss-example\">Hans und Olga, öffnet die Fenster! Was tun Hans und Olga? Sie öffnen die Fenster.</div><div class=\"kurss-example\">Fräulein Müller, öffnen Sie, bitte, alle Fenster!</div><div class=\"kurss-example\">Fräulein Müller öffnet alle Fenster.</div><div class=\"kurss-example\">Das ist der Spiegel. Das sind die Spiegel.</div><div class=\"kurss-example\">Das ist der Lappen. Das sind die Lappen.</div><div class=\"kurss-example\">Das ist der Spaten. Das sind die Spaten.</div><div class=\"kurss-example\">Das ist der Besen. Das sind die Besen.</div><div class=\"kurss-example\">Das ist die Schaufel. Das sind die Schaufeln.</div><div class=\"kurss-example\">Das ist die Schüssel. Das sind die Schüsseln.</div><div class=\"kurss-example\">Das ist das Zimmer. Das sind die Zimmer.</div><div class=\"kurss-example\">Das ist das Ufer. Das sind die Ufer.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">singen — laulma</div><div class=\"kurss-example\">singe — laula</div><div class=\"kurss-example\">singt — laulge</div><div class=\"kurss-example\">singen Sie — laulge</div><div class=\"kurss-example\">das Lied (das liit) — laul</div><div class=\"kurss-example\">Sie — Teie</div><div class=\"kurss-example\">zählen — lugema</div><div class=\"kurss-example\">das Fräulein (froilain) — preili</div><div class=\"kurss-example\">der Müller — mölder</div><div class=\"kurss-example\">öffnen — avama</div><div class=\"kurss-example\">das Fenster (fenster) — aken</div><div class=\"kurss-example\">alle — kõik</div><div class=\"kurss-example\">der Spiegel (špiigel) — peegel</div><div class=\"kurss-example\">der Lappen — lapp</div><div class=\"kurss-example\">der Spaten — labidas</div><div class=\"kurss-example\">der Besen — luud</div><div class=\"kurss-example\">die Schaufel — kühvel</div><div class=\"kurss-example\">die Schüssel — kauss</div><div class=\"kurss-example\">das Zimmer — tuba</div><div class=\"kurss-example\">das Ufer (uufer) — kallas</div></div></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">sp sõna või silbi alguses hääldatakse kui šp: der Spiegel (deer špiigel).</div><div class=\"kurss-example\">sch hääldatakse kui eesti š: die Schaufel (dii šaufel), die Schüssel (dii šüsel).</div><div class=\"kurss-example\">Diftongi äu hääldatakse kui oi: das Fräulein (das froilain).</div></div></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Käskiv kõneviis</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Käskiv kõneviis ainsuse 2. isikus vastab tegusõna ainsuse 2. isiku vormile ilma isikulõputa -st, millele lisatakse lõpp -e.</div><div class=\"kurss-example\">Näited: antworte!, arbeite!, öffne!, zeichne!</div><div class=\"kurss-example\">Väga sageli lõppu -e ei kasutata, kui käskiv vorm muutub sellega üherõhuliseks: geh!, steh!, komm!, tu!, sing!, frag!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>Mitmuse käskiv kõneviis</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Käskiv vorm mitmuse 2. isikus sarnaneb oleviku mitmuse 2. isiku vormiga, kuid seda kasutatakse ilma asesõnata.</div><div class=\"kurss-example\">Näited: antwortet!, arbeitet!, öffnet!, zeichnet!, geht!, steht!, tut!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Viisakusvorm sõnaga Sie</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Viisakusvorm sõnaga „Teie” sarnaneb mitmuse 3. isikuga. Asesõna Sie kirjutatakse suure algustähega ja seisab tegusõna järel.</div><div class=\"kurss-example\">Näited: antworten Sie!, arbeiten Sie!, öffnen Sie!, zeichnen Sie!, gehen Sie!, stehen Sie!, tun Sie!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>öffnen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Tegusõnal öffnen lisatakse kergema häälduse pärast ainsuse 2. ja 3. isikus ning mitmuse 2. isikus tüve ja lõpu vahele e: du öffnest, er öffnet, ihr öffnet.</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Übung / Harjutus</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson7-exercise-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"7. õppetunni harjutuskaart\"><span class=\"lesson1-training-progress\">7. õppetund · Übung: 1 / 16</span><span class=\"lesson1-training-text\">fragen — küsima</span></button><p class=\"lesson1-training-hint\">Puuduta kaarti, et näha käskiva kõneviisi vorme.</p></div></div></details>\n"
+  "kurssLesson1": "            <h3>1. õppetund</h3>\n            <p class=\"kurss-lesson-intro\">Esimene õppetund: tegusõnad olevikus, sõnad, hääldus, grammatika ja tõlkimine.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Tegusõnad olevikus</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-info\">Tegusõnad ja nende pöörded olevikus.</div>\n                <div class=\"lesson1-verb-cards\">\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>kommen — tulema</h4>\n                    <div class=\"lesson1-conjugation\"><span>ich</span><strong>komme</strong><span>mina tulen</span><span>du</span><strong>kommst</strong><span>sina tuled</span><span>er / sie</span><strong>kommt</strong><span>tema tuleb</span><span>wir</span><strong>kommen</strong><span>meie tuleme</span><span>ihr</span><strong>kommt</strong><span>teie tulete</span><span>sie / Sie</span><strong>kommen</strong><span>nemad / Teie tulevad</span></div>\n                  </article>\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>gehen — minema</h4>\n                    <div class=\"lesson1-conjugation\"><span>ich</span><strong>gehe</strong><span>mina lähen</span><span>du</span><strong>gehst</strong><span>sina lähed</span><span>er / sie</span><strong>geht</strong><span>tema läheb</span><span>wir</span><strong>gehen</strong><span>meie läheme</span><span>ihr</span><strong>geht</strong><span>teie lähete</span><span>sie / Sie</span><strong>gehen</strong><span>nemad / Teie lähevad</span></div>\n                  </article>\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>stehen — seisma</h4>\n                    <div class=\"lesson1-conjugation\"><span>ich</span><strong>stehe</strong><span>mina seisan</span><span>du</span><strong>stehst</strong><span>sina seisad</span><span>er / sie</span><strong>steht</strong><span>tema seisab</span><span>wir</span><strong>stehen</strong><span>meie seisame</span><span>ihr</span><strong>steht</strong><span>teie seisate</span><span>sie / Sie</span><strong>stehen</strong><span>nemad / Teie seisavad</span></div>\n                  </article>\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>singen — laulma</h4>\n                    <div class=\"lesson1-conjugation\"><span>ich</span><strong>singe</strong><span>mina laulan</span><span>du</span><strong>singst</strong><span>sina laulad</span><span>er / sie</span><strong>singt</strong><span>tema laulab</span><span>wir</span><strong>singen</strong><span>meie laulame</span><span>ihr</span><strong>singt</strong><span>teie laulate</span><span>sie / Sie</span><strong>singen</strong><span>nemad / Teie laulavad</span></div>\n                  </article>\n                </div>\n                <section class=\"lesson1-block\">\n                  <h4>Näited</h4>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Stehst du?<br>Ja, ich stehe.</div><div class=\"kurss-example\">Steht Albert?<br>Ja, er steht.</div><div class=\"kurss-example\">Steht Marta?<br>Ja, sie steht.</div><div class=\"kurss-example\">Wer kommt und singt?<br>Albert und Marta kommen und singen.</div><div class=\"kurss-example\">Geht ihr?<br>Ja, wir gehen.</div><div class=\"kurss-example\">Wer steht und singt?<br>Albert und Marta stehen und singen.</div></div>\n                </section>\n              </div>\n            </details>\n            <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-info lesson1-vardini-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><span>Sõnade ligikaudne hääldus on antud sulgudes eesti tähtedega.<br>Seda tuleb järgida ka järgnevates õppetundides.</span></div>\n                <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">wir (vīr) — meie</div><div class=\"kurss-example\">Vārdā “wir” burts i tiek izrunāts gari.</div><div class=\"kurss-example\">kommen (komen) — tulema</div><div class=\"kurss-example\">gehen (gē-en) — minema</div><div class=\"kurss-example\">stehen (štē-en) — seisma</div><div class=\"kurss-example\">singen (zingen) — laulma</div><div class=\"kurss-example\">du (dū) kommst — sina tuled</div><div class=\"kurss-example\">er (ēr) kommt — tema tuleb</div><div class=\"kurss-example\">sie (zī) kommt — tema tuleb (naine)</div><div class=\"kurss-example\">wer (vēr) — kes?</div><div class=\"kurss-example\">ja (jā) — jah</div></div>\n              </div>\n            </details>\n                        <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Vārdu pareiza izruna, apzīmēta latviešu burtiem, ir dota lekcijās.</div><div class=\"kurss-example\">Wir (vīr) — meie. Sõnas wir hääldatakse ii alati pikalt.</div></div>\n              </div>\n            </details>\n<details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content lesson1-grammar-content\">\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>∞</span>Infinitiiv</h4><div class=\"lesson1-grammar-note\">Tegusõna algvorm. Tavaliselt lõpeb infinitiiv lõpuga -en.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">kommen</div><div class=\"kurss-example\">gehen</div><div class=\"kurss-example\">stehen</div><div class=\"kurss-example\">singen</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>♟</span>Oleviku lõpud</h4><div class=\"lesson1-ending-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><div class=\"lesson1-ending-info-body\"><p><strong>Eemalda tegusõna algvormist <span class=\"lesson1-ending-accent\">-en</span> ja lisa lõpp.</strong></p><p>Näide: kommen → komm + lõpp</p><div class=\"lesson1-ending-process\" aria-label=\"Oleviku lõppude moodustamise protsess\"><div class=\"lesson1-ending-step\"><strong>kommen</strong><span>algvorm</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>eemalda <span class=\"lesson1-ending-accent\">-en</span></strong><span>jääb tüvi</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>komm</strong><span>tüvi</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>lisa lõpp</strong><span>e / st / t</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-results\"><div>komm + <span class=\"lesson1-ending-accent\">e</span> = <strong>komme</strong></div><div>komm + <span class=\"lesson1-ending-accent\">st</span> = <strong>kommst</strong></div><div>komm + <span class=\"lesson1-ending-accent\">t</span> = <strong>kommt</strong></div></div></div></div></div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich → -e</div><div class=\"kurss-example\">du → -st</div><div class=\"kurss-example\">er / sie → -t</div><div class=\"kurss-example\">wir → -en</div><div class=\"kurss-example\">ihr → -t</div><div class=\"kurss-example\">sie → -en</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>●</span>Näited</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich komme</div><div class=\"kurss-example\">du kommst</div><div class=\"kurss-example\">er kommt</div><div class=\"kurss-example\">wir kommen</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>?</span>Küsilaused</h4><div class=\"lesson1-grammar-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><span>Saksa küsilauses liigub tegusõna tavaliselt esimesele kohale.</span></div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Latviešu valodā:<br>Tu nāc.<br>Vai tu nāc?</div><div class=\"kurss-example\">Vācu valodā:<br>Du kommst.<br>Kommst du?</div><div class=\"kurss-example\">du kommst — sina tuled<br>kommst du? — kas sina tuled?</div><div class=\"kurss-example\">er singt — tema laulab<br>singt er? — kas tema laulab?</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>♣</span>Isikute erinevus</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">er kommt — tema tuleb (mees)</div><div class=\"kurss-example\">sie kommt — tema tuleb (naine)</div><div class=\"kurss-example\">sie kommen — nemad tulevad</div></div></section>\n              </div>\n            </details>\n                        <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Tõlgi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-training-wrap\">\n                  <button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson1-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"1. õppetunni harjutuskaart\">\n                    <span class=\"lesson1-training-progress\">1. õppetund · Tõlgi: 1 / 11</span>\n                    <span class=\"lesson1-training-text\">Kas sina tuled?</span>\n                  </button>\n                  <p class=\"lesson1-training-hint\">Klõpsa kaardil, et näha saksakeelset tõlget. Pärast vastust näitab järgmine klõps uut kaarti.</p>\n                </div>\n              </div>\n            </details>\n",
+  "kurssLesson2": "            <h3>2. õppetund</h3>\n            <p class=\"kurss-lesson-intro\">Teine õppetund: dialoogid, sõnad, hääldus, grammatika ja tõlkimine.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoogid / laused</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\">\n                  <div class=\"kurss-example\">Spielst du?<br>Nein, ich spiele nicht, ich arbeite.</div>\n                  <div class=\"kurss-example\">Paul fragt nicht, er arbeitet.</div>\n                  <div class=\"kurss-example\">Arbeitest du?<br>Nein, ich arbeite nicht, ich singe.</div>\n                  <div class=\"kurss-example\">Was tut Paul?<br>Er spielt.</div>\n                  <div class=\"kurss-example\">Was tut Marie?<br>Sie singt.</div>\n                  <div class=\"kurss-example\">Paul spielt, aber Marie singt.</div>\n                  <div class=\"kurss-example\">Singt ihr?<br>Nein, wir singen nicht, wir arbeiten.</div>\n                  <div class=\"kurss-example\">Was tun Paul und Marie?<br>Sie fragen.<br>Sie antworten nicht.</div>\n                  <div class=\"kurss-example\">Wer arbeitet?<br>Wir arbeiten.<br>Wir rechnen und zeichnen.</div>\n                  <div class=\"kurss-example\">Sie kommen, sie fragen, sie antworten, sie arbeiten, sie spielen, sie singen, sie gehen.</div>\n                </div>\n              </div>\n            </details>\n            <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\">\n                  <div class=\"kurss-example\">spielen — mängima</div>\n                  <div class=\"kurss-example\">nein — ei</div>\n                  <div class=\"kurss-example\">nicht — mitte</div>\n                  <div class=\"kurss-example\">arbeiten — töötama</div>\n                  <div class=\"kurss-example\">fragen — küsima</div>\n                  <div class=\"kurss-example\">was tut er? — mida tema teeb?</div>\n                  <div class=\"kurss-example\">was tun sie? — mida nemad teevad?</div>\n                  <div class=\"kurss-example\">aber — aga</div>\n                  <div class=\"kurss-example\">antworten — vastama</div>\n                  <div class=\"kurss-example\">rechnen — arvutama</div>\n                  <div class=\"kurss-example\">zeichnen — joonistama</div>\n                  <div class=\"kurss-example\">Marie — Marie</div>\n                </div>\n              </div>\n            </details>\n                        <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Vārdos ich, nicht, rechnen, zeichnen skaņu ch izrunā mīksti, apmēram tā, kā latviski vārdos: technika, Frīdrihs.</div><div class=\"kurss-example\">Vārdos arbeiten, zeichnen divskani ei izrunā apmēram kā latviešu plato e skaņu, kam seko i.</div><div class=\"kurss-example\">Līdzskaņu kopojumu sp izrunā kā šp: spielen (špīlen).</div><div class=\"kurss-example\">Darbības vārdā tun u izrunājams gari visās personās.</div></div>\n              </div>\n            </details>\n<details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content lesson1-grammar-content\">\n                <section class=\"lesson1-block\">\n                  <h4 class=\"lesson1-grammar-header\"><span>1</span>Lõpud e-ga</h4>\n                  <div class=\"lesson1-grammar-note\">Kui tegusõna tüvi lõpeb tähtedega t, d, chn, siis lõppude -st ja -t ees seisab pöördel e.</div>\n                  <h5 class=\"lesson2-subtitle\">arbeiten</h5>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich arbeite</div><div class=\"kurss-example\">du arbeitest</div><div class=\"kurss-example\">er arbeitet</div><div class=\"kurss-example\">sie arbeitet</div><div class=\"kurss-example\">wir arbeiten</div><div class=\"kurss-example\">ihr arbeitet</div><div class=\"kurss-example\">sie arbeiten</div></div>\n                  <h5 class=\"lesson2-subtitle\">rechnen</h5>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich rechne</div><div class=\"kurss-example\">du rechnest</div><div class=\"kurss-example\">er rechnet</div><div class=\"kurss-example\">sie rechnet</div><div class=\"kurss-example\">wir rechnen</div><div class=\"kurss-example\">ihr rechnet</div><div class=\"kurss-example\">sie rechnen</div></div>\n                  <h5 class=\"lesson2-subtitle\">tun</h5>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich tue</div><div class=\"kurss-example\">du tust</div><div class=\"kurss-example\">er tut</div><div class=\"kurss-example\">sie tut</div><div class=\"kurss-example\">wir tun</div><div class=\"kurss-example\">ihr tut</div><div class=\"kurss-example\">sie tun</div></div>\n                </section>\n                <section class=\"lesson1-block\">\n                  <h4 class=\"lesson1-grammar-header\"><span>2</span>Küsisõna</h4>\n                  <div class=\"lesson1-grammar-note\">Küsilausetes, mis algavad küsisõnaga, näiteks: mida? kes? milline? miks? mispärast? jne, seisab tegusõna kohe küsisõna järel.</div>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Was tust du? — Mida sina teed?</div><div class=\"kurss-example\">Was tut er? — Mida tema teeb (mees)?</div><div class=\"kurss-example\">Was tut sie? — Mida tema teeb (naine)?</div><div class=\"kurss-example\">Was tun sie? — Mida nemad teevad?</div></div>\n                </section>\n                <section class=\"lesson1-block\">\n                  <h4 class=\"lesson1-grammar-header\"><span>3</span>Eitus sõnaga nicht</h4>\n                  <div class=\"lesson1-grammar-note\">Kui eitus nicht käib tegusõna kohta, siis seisab eitav sõna tegusõna järel.</div>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Er kommt nicht. — Tema ei tule.</div><div class=\"kurss-example\">Sie singen nicht. — Nemad ei laula.</div></div>\n                </section>\n              </div>\n            </details>\n                                    <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Tõlgi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-training-wrap\">\n                  <button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson2-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"2. õppetunni tõlkekaart\">\n                    <span class=\"lesson1-training-progress\">2. õppetund · Tõlgi: 1 / 15</span>\n                    <span class=\"lesson1-training-text\">Kes küsib?</span>\n                  </button>\n                  <p class=\"lesson1-training-hint\">Klõpsa kaardil, et näha saksakeelset tõlget. Pärast vastust näitab järgmine klõps uut kaarti.</p>\n                </div>\n              </div>\n            </details>\n",
+  "kurssLesson3": "            <h3>3. õppetund</h3>\n            <p class=\"kurss-lesson-intro\">Kolmas õppetund: dialoogid, sõnad, hääldus, grammatika ja tõlkimine.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoogid / laused</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Wer rechnet und zeichnet?<br>Wir rechnen und zeichnen.</div><div class=\"kurss-example\">Wer kommt?<br>Paul und Anna kommen.</div><div class=\"kurss-example\">Was steht hier?<br>Hier steht ein Tisch.</div><div class=\"kurss-example\">Was steht dort?<br>Dort steht eine Bank.</div><div class=\"kurss-example\">Was liegt hier?<br>Hier liegt ein Buch.</div><div class=\"kurss-example\">Was liegt dort?<br>Dort liegt ein Heft.</div><div class=\"kurss-example\">Was hängt hier?<br>Hier hängt ein Bild.</div><div class=\"kurss-example\">Was hängt dort?<br>Dort hängt eine Tafel.</div><div class=\"kurss-example\">Wie ist das Buch?<br>Das Buch ist dick.</div><div class=\"kurss-example\">Wie ist das Heft?<br>Das Heft ist dünn.</div><div class=\"kurss-example\">Wie ist die Bank?<br>Die Bank ist niedrig.</div><div class=\"kurss-example\">Wie ist der Tisch?<br>Der Tisch ist hoch.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">wer — kes</div><div class=\"kurss-example\">was — mis</div><div class=\"kurss-example\">hier — siin</div><div class=\"kurss-example\">dort — seal</div><div class=\"kurss-example\">der Tisch — laud</div><div class=\"kurss-example\">ein Tisch — laud</div><div class=\"kurss-example\">die Bank — pink</div><div class=\"kurss-example\">eine Bank — pink</div><div class=\"kurss-example\">liegen — lamama</div><div class=\"kurss-example\">liegt hier ein Buch? — kas siin on raamat?</div><div class=\"kurss-example\">das Buch — raamat</div><div class=\"kurss-example\">ein Buch — raamat</div><div class=\"kurss-example\">hängen — rippuma</div><div class=\"kurss-example\">das Bild — pilt</div><div class=\"kurss-example\">ein Bild — pilt</div><div class=\"kurss-example\">die Tafel — tahvel</div><div class=\"kurss-example\">eine Tafel — tahvel</div><div class=\"kurss-example\">wie — milline</div><div class=\"kurss-example\">ist — on</div><div class=\"kurss-example\">dick — paks</div><div class=\"kurss-example\">das Heft — vihik</div><div class=\"kurss-example\">ein Heft — vihik</div><div class=\"kurss-example\">dünn — õhuke</div><div class=\"kurss-example\">niedrig — madal</div><div class=\"kurss-example\">hoch — kõrge</div></div></div></details>\n                        <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Garo ī skaņu vācu valodā apzīmē ar ie: liegen (līgen), hier (hīr), wie (vī).</div><div class=\"kurss-example\">ck ir divkāršs k: dick (dikk).</div><div class=\"kurss-example\">Īpašības un apstākļu vārdos galotne -ja määrsõnades kõlab lõpp -ig kui kerge -ich: niedrig (niidrih).</div><div class=\"kurss-example\">Ja galotne -ig lõpeb e-ga: -ige, siis hääldatakse g selge g-häälikuna: niedrige (niidrige) Bänke.</div></div></div></details>\n<details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Lause alus</h4><div class=\"lesson1-grammar-note\">Lause alus vastab saksa keeles küsimusele wer? / was? ja seisab nominatiivis.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ar wer? jautā pēc personām.</div><div class=\"kurss-example\">Ar was? jautā pēc priekšmetiem.</div><div class=\"kurss-example\">Wer singt? — Sie singt.</div><div class=\"kurss-example\">Was liegt hier? — Hier liegt ein Buch.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>Artiklid</h4><div class=\"lesson1-grammar-note\">Saksa keeles on nimisõnal 3 sugu: meessugu, naissugu ja kesksugu. Nimisõna ees seisab tavaliselt sõnake, mida nimetatakse artikliks. Seda sõnakest ei tõlgita.</div><h5 class=\"lesson2-subtitle\">Noteiktais artikuls</h5><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">vīriešu kārta — der</div><div class=\"kurss-example\">sieviešu kārta — die</div><div class=\"kurss-example\">vidējā kārta — das</div><div class=\"kurss-example\">Daudzskaitlī noteiktais artikuls visām trim kārtām ir die.</div><div class=\"kurss-example\">der Tisch — die Tische</div><div class=\"kurss-example\">die Bank — die Bänke</div><div class=\"kurss-example\">das Heft — die Hefte</div></div><h5 class=\"lesson2-subtitle\">Nenoteiktais artikuls</h5><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">vīriešu kārta — ein</div><div class=\"kurss-example\">sieviešu kārta — eine</div><div class=\"kurss-example\">vidējā kārta — ein</div><div class=\"kurss-example\">Nenoteiktajam artikulam daudzskaitļa nav.</div><div class=\"kurss-example\">ein Tisch — Tische</div><div class=\"kurss-example\">ein Heft — Hefte</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Pärisnimed</h4><div class=\"lesson1-grammar-note\">Pärisnimede ees artiklit ei kasutata.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hans spielt, aber Marie singt.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>Tegusõna koht</h4><div class=\"lesson1-grammar-note\">Jutustavas lauses seisab tegusõna teisel kohal.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hier hängt eine Karte.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>5</span>stehen / liegen / hängen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Vāciski par priekšmetiem, kas stāv vertikāli, saka, ka priekšmets stāv:<br>der Tisch steht<br>die Bank steht</div><div class=\"kurss-example\">Par priekšmetiem, kas atrodas horizontālā stāvoklī, saka, ka tie guļ:<br>das Buch liegt<br>das Heft liegt</div><div class=\"kurss-example\">Priekšmeti var arī karāties:<br>die Karte hängt<br>die Tafel hängt</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Tõlgi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson3-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"3. õppetunni tõlkekaart\"><span class=\"lesson1-training-progress\">3. õppetund · Tõlgi: 1 / 22</span><span class=\"lesson1-training-text\">Kas sina arvutad?</span></button><p class=\"lesson1-training-hint\">Klõpsa kaardil, et näha saksakeelset tõlget. Pärast vastust näitab järgmine klõps uut kaarti.</p></div></div></details>\n",
+  "kurssLesson4": "            <h3>4. õppetund</h3>\n            <p class=\"kurss-lesson-intro\">Akusatiiv, nehmen, hinlegen, hinausgehen ja omadussõnad.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoogid / laused</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Paul kommt und nimmt einen Federhalter.</div><div class=\"kurss-example\">Er zeigt den Federhalter.</div><div class=\"kurss-example\">Er fragt: „Wie ist der Federhalter?“</div><div class=\"kurss-example\">Olga antwortet: „Der Federhalter ist schwarz.“</div><div class=\"kurss-example\">Ist der Federhalter weiß? Nein, der Federhalter ist nicht weiß, er ist schwarz.</div><div class=\"kurss-example\">Marie kommt und nimmt eine Feder.</div><div class=\"kurss-example\">Sie fragt: „Wie ist die Feder?“</div><div class=\"kurss-example\">Olga antwortet: „Die Feder ist spitz.“</div><div class=\"kurss-example\">Ist die Feder stumpf? Nein, die Feder ist nicht stumpf, sie ist spitz.</div><div class=\"kurss-example\">Was legt das Mädchen hin? Es legt die Feder hin.</div><div class=\"kurss-example\">Was nimmst du? Ich nehme ein Messer.</div><div class=\"kurss-example\">Wie ist das Messer? Das Messer ist scharf.</div><div class=\"kurss-example\">Ist das Messer stumpf? Nein, es ist nicht stumpf, es ist scharf.</div><div class=\"kurss-example\">Was legst du hin? Ich lege das Messer, die Feder und den Federhalter hin.</div><div class=\"kurss-example\">Dann gehe ich hinaus und arbeite.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">nehmen (nēmen) — võtma</div><div class=\"kurss-example\">er nimmt (nimt) — tema võtab</div><div class=\"kurss-example\">der Federhalter (dēr fēderhalter) — sulepea</div><div class=\"kurss-example\">einen Federhalter — sulepead</div><div class=\"kurss-example\">zeigen — näitama</div><div class=\"kurss-example\">schwarz (švarc) — must</div><div class=\"kurss-example\">weiß (veis) — valge</div><div class=\"kurss-example\">die Feder (dī fēder) — sulg</div><div class=\"kurss-example\">eine Feder — sulge</div><div class=\"kurss-example\">spitz (špic) — terav</div><div class=\"kurss-example\">hinlegen — maha panema</div><div class=\"kurss-example\">legt hin — paneb maha</div><div class=\"kurss-example\">das Mädchen (mētchen) — tüdruk</div><div class=\"kurss-example\">das Messer — nuga</div><div class=\"kurss-example\">ein Messer — nuga</div><div class=\"kurss-example\">scharf — terav</div><div class=\"kurss-example\">stumpf (štumpf) — nüri</div><div class=\"kurss-example\">dann — siis</div><div class=\"kurss-example\">hinaus — välja</div><div class=\"kurss-example\">hinausgehen — välja minema</div></div></div></details>\n                        <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Galotnes -en, -er, -el on rõhutamata, seetõttu on e neis lõppudes nõrgalt kuuldav: kommen, nehmen, der Federhalter.</div><div class=\"kurss-example\">h vācu valodā var būt gan skaņa, gan garumzīme iepriekšējam patskanim.</div><div class=\"kurss-example\">Ja h ir garumzīme, to neizrunā kā skaņu: nehmen (nēmen).</div><div class=\"kurss-example\">Ja patskanim seko tikai viens līdzskanis, patskani izrunā gari: die (dī) Feder (fēder), den (dēn).</div></div></div></details>\n<details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Akusatiiv</h4><div class=\"lesson1-grammar-note\">Naissoos ja kesksoos on akusatiiv sama, mis nominatiiv. Muutub ainult meessugu.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Nominativ: der Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Akkusativ: den Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Nominativ: ein Federhalter, eine Feder, ein Messer.</div><div class=\"kurss-example\">Akkusativ: einen Federhalter, eine Feder, ein Messer.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>nehmen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich nehme</div><div class=\"kurss-example\">du nimmst</div><div class=\"kurss-example\">er/sie nimmt</div><div class=\"kurss-example\">wir nehmen</div><div class=\"kurss-example\">ihr nehmt</div><div class=\"kurss-example\">sie nehmen</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Asesõnad</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">er — meessugu</div><div class=\"kurss-example\">sie — naissugu</div><div class=\"kurss-example\">es — kesksugu</div><div class=\"kurss-example\">daudzskaitlī — sie</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>Lahutatavad tegusõnad</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">hinlegen → ich lege das Messer hin</div><div class=\"kurss-example\">hinausgehen → Marie geht hinaus</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>5</span>Omadussõnad</h4><div class=\"lesson1-grammar-note\">Kui omadussõna on lauses öeldistäide, ei muutu see ei soo ega arvu järgi.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">der Federhalter ist klein</div><div class=\"kurss-example\">die Feder ist klein</div><div class=\"kurss-example\">das Messer ist klein</div><div class=\"kurss-example\">die Messer sind klein</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>6</span>Eitus sõnaga nicht</h4><div class=\"lesson1-grammar-note\">Kui nicht eitab omadussõna, seisab see eitatava sõna ees.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">der Federhalter ist nicht weiß</div><div class=\"kurss-example\">das Messer ist nicht scharf</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>7</span>-chen / -lein</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Lietvārdi ar galotni -chen ja -lein on kesksoost: das Mädchen.</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Tõlgi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson4-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"4. õppetunni tõlkekaart\"><span class=\"lesson1-training-progress\">4. õppetund · Tõlgi: 1 / 16</span><span class=\"lesson1-training-text\">Tüdruk võtab sulepea.</span></button><p class=\"lesson1-training-hint\">Klõpsa kaardil, et näha saksakeelset tõlget. Pärast vastust näitab järgmine klõps uut kaarti.</p></div></div></details>\n",
+  "kurssLesson5": "\n    <h3>5. õppetund</h3>\n    <p class=\"kurss-lesson-intro\">Wen?, akusatiiv, sitzen, fragen ja -in lõpp.</p>\n\n    <details class=\"lesson1-accordion\" open>\n      <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoogid / laused</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\">\n        <div class=\"kurss-example\">Wer sitzt und fragt? Der Lehrer sitzt und fragt.</div>\n        <div class=\"kurss-example\">Wer steht und antwortet? Der Schüler steht und antwortet.</div>\n        <div class=\"kurss-example\">Wie antwortet der Schüler? Der Schüler antwortet gut.</div>\n        <div class=\"kurss-example\">Wen lobt der Lehrer? Der Lehrer lobt den Schüler.</div>\n        <div class=\"kurss-example\">Wie ist der Schüler? Der Schüler ist klein.</div>\n        <div class=\"kurss-example\">Ist der Schüler klein oder groß? Er ist klein.</div>\n        <div class=\"kurss-example\">Wen fragt die Lehrerin? Die Lehrerin fragt die Schülerin.</div>\n        <div class=\"kurss-example\">Wie antwortet die Schülerin? Die Schülerin antwortet schlecht.</div>\n        <div class=\"kurss-example\">Was tut die Lehrerin? Sie tadelt die Schülerin.</div>\n        <div class=\"kurss-example\">Die Schülerin ist nicht klein, sie ist groß.</div>\n        <div class=\"kurss-example\">Ein Kind spielt. Das Kind ist artig.</div>\n        <div class=\"kurss-example\">Die Mutter liebt das Kind. Der Vater lobt das Kind.</div>\n      </div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\">\n        <div class=\"kurss-example\">sitzen (zicen) — istuma</div>\n        <div class=\"kurss-example\">fragen (frāgen) — küsima</div>\n        <div class=\"kurss-example\">der Lehrer (dēr lērer) — õpetaja</div>\n        <div class=\"kurss-example\">gut (gūt) — hästi</div>\n        <div class=\"kurss-example\">wen (vēn) — keda</div>\n        <div class=\"kurss-example\">loben — kiitma</div>\n        <div class=\"kurss-example\">der Schüler (šūler) — õpilane</div>\n        <div class=\"kurss-example\">klein — väike</div>\n        <div class=\"kurss-example\">groß (grōs) — suur</div>\n        <div class=\"kurss-example\">die Lehrerin — õpetajanna</div>\n        <div class=\"kurss-example\">die Schülerin — õpilane (naine)</div>\n        <div class=\"kurss-example\">schlecht (šleht) — halvasti</div>\n        <div class=\"kurss-example\">tadeln — laitma</div>\n        <div class=\"kurss-example\">oder (ōder) — või</div>\n        <div class=\"kurss-example\">das Kind (kint) — laps</div>\n        <div class=\"kurss-example\">artig (ārtich) — sõnakuulelik</div>\n        <div class=\"kurss-example\">die Mutter — ema</div>\n        <div class=\"kurss-example\">lieben (līben) — armastama</div>\n        <div class=\"kurss-example\">der Vater (fāter) — isa</div>\n      </div></div>\n    </details>\n\n        <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\">\n        <div class=\"kurss-example\">tz ir dubultots z skanis un izrunājams kā z: sitzen (zicen).</div>\n        <div class=\"kurss-example\">v vācu vārdos izrunā kā f: der Vater (fāter).</div>\n        <div class=\"kurss-example\">ß sauc par escet un izrunā kā latviešu s: groß (grōs), weiß (veis).</div>\n      </div></div>\n    </details>\n\n<details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content lesson1-grammar-content\">\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Nominatiiv ja akusatiiv</h4><div class=\"lesson1-grammar-note\">Eesti keeles vastab nominatiiv küsimusele kes/mis?, aga akusatiiv küsimusele keda/mida?.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Vācu valodā nominatīvā jautājums ir wer? personām un was? priekšmetiem.</div><div class=\"kurss-example\">Akuzatīvā jautājums ir wen? personām un was? priekšmetiem.</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Artikli muutumine akusatiivis</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Nominativ: der Vater, die Mutter, das Kind.</div><div class=\"kurss-example\">Akkusativ: den Vater, die Mutter, das Kind.</div><div class=\"kurss-example\">Nominativ: der Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Akkusativ: den Federhalter, die Feder, das Messer.</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">sitzen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich sitze</div><div class=\"kurss-example\">du sitzt</div><div class=\"kurss-example\">er/sie/es sitzt</div><div class=\"kurss-example\">wir sitzen</div><div class=\"kurss-example\">ihr sitzt</div><div class=\"kurss-example\">sie sitzen</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">fragen + akusatiiv</h4><div class=\"lesson1-grammar-note\">Tegusõna fragen nõuab saksa keeles akusatiivi.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Wen fragt der Lehrer?</div><div class=\"kurss-example\">Der Lehrer fragt den Schüler.</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">-in lõpp</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Daudz sieviešu kārtas vārdu atvasina ar galotni -in.</div><div class=\"kurss-example\">die Lehrerin</div><div class=\"kurss-example\">die Schülerin</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Tegusõna koht</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Stāstāmā teikumā darbības vārds stāv otrā vietā.</div><div class=\"kurss-example\">Dann geht das Mädchen hinaus und arbeitet.</div><div class=\"kurss-example\">Das Mädchen geht dann hinaus und arbeitet.</div></div></section>\n      </div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Tõlgi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson5-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"5. õppetunni tõlkekaart\"><span class=\"lesson1-training-progress\">5. õppetund · Tõlgi: 1 / 16</span><span class=\"lesson1-training-text\">Keda armastab isa?</span></button><p class=\"lesson1-training-hint\">Klõpsa kaardil, et näha saksakeelset tõlget. Pärast vastust näitab järgmine klõps uut kaarti.</p></div></div>\n    </details>\n  ",
+  "kurssLesson6": "\n    <h3>6. õppetund</h3>\n    <p class=\"kurss-lesson-intro\">Arvsõnad, mitmus, täishäälikumuutused ja nimisõnade mitmuse vormid.</p>\n\n    <details class=\"lesson1-accordion\" open>\n      <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoogid / laused</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hier liegt ein Bleistift.</div><div class=\"kurss-example\">Dort liegen einige Messer.</div><div class=\"kurss-example\">Edgar nimmt ein Messer, zwei Messer, drei Messer.</div><div class=\"kurss-example\">Er legt die Messer wieder hin.</div><div class=\"kurss-example\">Alle Messer sind scharf.</div><div class=\"kurss-example\">Dann nimmt er wieder ein Messer.</div><div class=\"kurss-example\">Er macht das Messer auf.</div><div class=\"kurss-example\">Er nimmt den Bleistift.</div><div class=\"kurss-example\">Er spitzt den Bleistift an.</div><div class=\"kurss-example\">Er legt das Messer hin.</div><div class=\"kurss-example\">Er setzt sich und zeichnet.</div><div class=\"kurss-example\">Was zeichnet er? Er zeichnet einen Schlüssel.</div><div class=\"kurss-example\">Gertrud zeichnet ein Fenster und eine Tafel.</div><div class=\"kurss-example\">Anna zeichnet einen Garten.</div><div class=\"kurss-example\">Hier liegen vier Löffel.</div><div class=\"kurss-example\">Dort liegen fünf Nadeln.</div><div class=\"kurss-example\">Gertrud kommt und zählt die Löffel: das ist ein Löffel; das sind zwei, drei, vier Löffel.</div><div class=\"kurss-example\">Anna zählt die Nadeln: das ist eine Nadel; das sind zwei, drei, vier, fünf Nadeln.</div><div class=\"kurss-example\">Wieviel Nadeln sind hier?</div><div class=\"kurss-example\">Hier ist eine Nadel.</div><div class=\"kurss-example\">Dort sind zwei, drei, vier Nadeln.</div><div class=\"kurss-example\">Fünf Schlüssel sind hier.</div><div class=\"kurss-example\">Sechs Löffel sind dort.</div><div class=\"kurss-example\">Was ist das?</div><div class=\"kurss-example\">Das ist ein Hammer. Das sind fünf Hämmer.</div><div class=\"kurss-example\">Das ist ein Deckel. Das sind sechs Deckel.</div><div class=\"kurss-example\">Das ist ein Eimer. Das sind sieben Eimer.</div><div class=\"kurss-example\">Das ist ein Teller. Das sind acht Teller.</div><div class=\"kurss-example\">Das ist ein Wagen. Das sind neun Wagen.</div><div class=\"kurss-example\">Das ist ein Schlitten. Das sind zehn Schlitten.</div><div class=\"kurss-example\">Wie sind die Dinge?</div><div class=\"kurss-example\">Der Hammer ist klein. Die Hämmer sind klein.</div><div class=\"kurss-example\">Der Deckel ist groß. Die Deckel sind groß.</div><div class=\"kurss-example\">Der Eimer ist voll. Die Eimer sind voll.</div><div class=\"kurss-example\">Der Teller ist leer. Die Teller sind leer.</div><div class=\"kurss-example\">Der Wagen ist schwer. Die Wagen sind schwer.</div><div class=\"kurss-example\">Der Schlitten ist leicht. Die Schlitten sind leicht.</div></div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">liegt — asub, on, lamab</div><div class=\"kurss-example\">der Bleistift (bleištift) — pliiats</div><div class=\"kurss-example\">einige (einige) — mõned</div><div class=\"kurss-example\">hinlegen — maha panema</div><div class=\"kurss-example\">legt hin — paneb maha</div><div class=\"kurss-example\">wieder (vīder) — jälle</div><div class=\"kurss-example\">aufmachen — avama</div><div class=\"kurss-example\">er macht auf — tema avab</div><div class=\"kurss-example\">anspitzen (anšpicen) — teritama</div><div class=\"kurss-example\">er spitzt an — tema teritab</div><div class=\"kurss-example\">sich setzen — maha istuma</div><div class=\"kurss-example\">setzt sich — istub maha</div><div class=\"kurss-example\">der Schlüssel (šlūsel) — võti</div><div class=\"kurss-example\">das Fenster (fenster) — aken</div><div class=\"kurss-example\">die Tafel (dī tāfel) — tahvel</div><div class=\"kurss-example\">der Garten — aed</div><div class=\"kurss-example\">der Löffel — lusikas</div><div class=\"kurss-example\">zählen (cēlen) — lugema</div><div class=\"kurss-example\">die Nadel — nõel</div><div class=\"kurss-example\">was ist das — mis see on?</div><div class=\"kurss-example\">der Hammer — haamer</div><div class=\"kurss-example\">die Hämmer — haamrid</div><div class=\"kurss-example\">der Deckel (dēr dekel) — kaas</div><div class=\"kurss-example\">der Teller — taldrik</div><div class=\"kurss-example\">der Wagen — vanker</div><div class=\"kurss-example\">der Schlitten — kelk</div><div class=\"kurss-example\">das Ding — asi</div><div class=\"kurss-example\">die Dinge — asjad</div><div class=\"kurss-example\">wie sind die Dinge? — millised on asjad?</div><div class=\"kurss-example\">voll (fōl) — täis</div><div class=\"kurss-example\">leer (lēr) — tühi</div><div class=\"kurss-example\">schwer (švēr) — raske</div><div class=\"kurss-example\">leicht — kerge</div><div class=\"kurss-example\">der Eimer — ämber</div><div class=\"kurss-example\">wieviel (vīfīl) — kui palju</div><div class=\"kurss-example\">wieviel Nadeln — kui palju nõelu</div><div class=\"kurss-example\">hier (hīr) — siin</div><div class=\"kurss-example\">dort — seal</div></div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ä ir patskaņa a pārskanojums, un to izrunā kā īso vai garo šauro e.</div><div class=\"kurss-example\">Piemēri: das Mädchen (mētchen), die Bänke (dī benke), der Vater (dēr fāter), die Väter (dī fēter).</div><div class=\"kurss-example\">ü ir patskaņa u pārskanojums. To izrunājot, lūpas ļoti jāapaļo un jāmēģina ar apaļi veidotām lūpām izrunāt i.</div><div class=\"kurss-example\">Piemēri: fünf, der Schlüssel (šlūsel).</div><div class=\"kurss-example\">ö izrunā ar apaļi veidotām lūpām, mēģinot izrunāt e: der Löffel.</div><div class=\"kurss-example\">Divkāršots patskanis apzīmē garu patskani: leer (lēr).</div><div class=\"kurss-example\">Divskani eu izrunā kā oi: neun (noin).</div></div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content lesson1-grammar-content\">\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Grammatika ja selgitused</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Salikta darbības vārda uzsvērtais priedēklis tagadnē atdalās no darbības vārda un stāv teikuma beigās.</div><div class=\"kurss-example\">Piemēri: hinlegen — er legt hin; aufmachen — er macht auf; anspitzen — er spitzt an.</div><div class=\"kurss-example\">Skaitļa vārds viens ir visās trīs kārtās, ja to lieto ar lietvārdu: vīriešu kārtā ein, sieviešu kārtā eine, vidējā kārtā ein.</div><div class=\"kurss-example\">Piemēri: ein Schüler — üks õpilane; eine Schülerin — üks õpilane (naine); ein Kind — üks laps.</div><div class=\"kurss-example\">Skaitļi: eins, zwei, drei, vier (fīr), fünf, sechs (zeks), sieben (zīben), acht, neun (noin), zehn (cēn).</div><div class=\"kurss-example\">Saitaiņa vācu valodā ir vienskaitļa un daudzskaitļa forma: der Schüler ist klein; die Schüler sind klein.</div><div class=\"kurss-example\">Norādāmais vietniekvārds tas latviešu valodā mainās skaitlī un kārtā, bet vācu valodā lieto vienu formu: das.</div><div class=\"kurss-example\">Piemēri: tas ir veseris — das ist ein Hammer; see on nõel — das ist eine Nadel; need on haamrid — das sind Hämmer; need on nõelad — das sind Nadeln.</div><div class=\"kurss-example\">Der Wagen — Der Wagen (vanker) ja der Schlitten (kelk) on saksa keeles nii ainsuses kui mitmuses kasutatavad tavalised nimisõnad.</div><div class=\"kurss-example\">Vīriešu un vidējās kārtas lietvārdi ar galotni -er, -el, -en ei saa mitmuses sageli lõppu.</div><div class=\"kurss-example\">Piemēri: der Hammer — die Hämmer; der Garten — die Gärten; das Fenster — die Fenster; das Messer — die Messer.</div><div class=\"kurss-example\">Sieviešu kārtas lietvārdi ar galotni -el, -er saavad mitmuses lõpu -n.</div><div class=\"kurss-example\">Piemēri: die Nadel — die Nadeln; die Feder — die Federn.</div><div class=\"kurss-example\">Izņēmumi: die Mutter (māte) — die Mütter (emad); die Tochter (tütar) — die Töchter (tütred).</div><div class=\"kurss-example\">Nenoteiktajam artikulam daudzskaitļa nav: das ist ein Wagen — das sind Wagen; das ist eine Nadel — das sind Nadeln.</div><div class=\"kurss-example\">Stāstāmā teikumā izteicējs-tegusõna teisel kohal: er legt den Schlüssel hin; dann legt er den Schlüssel hin.</div></div></section>\n      </div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Tõlgi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson6-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"6. õppetunni tõlkekaart\"><span class=\"lesson1-training-progress\">6. õppetund · Tõlgi: 1 / 21</span><span class=\"lesson1-training-text\">Paul võtab pliiatsi ja joonistab.</span></button><p class=\"lesson1-training-hint\">Klõpsa kaardil, et näha saksakeelset tõlget. Pärast vastust näitab järgmine klõps uut kaarti.</p></div></div>\n    </details>\n  ",
+  "kurssLesson7": "            <h3>7. õppetund</h3>\n            <p class=\"kurss-lesson-intro\">Seitsmes õppetund: käskiv kõneviis, viisakusvorm ja mitmus.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoogid / laused</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hans, singe ein Lied! Was tust du? Ich singe ein Lied.</div><div class=\"kurss-example\">Hans und Olga, singt ein Lied! Was tut ihr? Wir singen ein Lied.</div><div class=\"kurss-example\">Fräulein Müller, singen Sie, bitte, ein Lied! Was tun Sie? Ich singe ein Lied.</div><div class=\"kurss-example\">Hans, zähle die Teller! Was tut Hans? Er zählt die Teller.</div><div class=\"kurss-example\">Hans und Olga, zählt die Teller! Was tun Hans und Olga? Sie zählen die Teller.</div><div class=\"kurss-example\">Fräulein Müller, zählen Sie, bitte, die Teller!</div><div class=\"kurss-example\">Hans, öffne das Fenster! Was tut Hans? Er öffnet das Fenster.</div><div class=\"kurss-example\">Hans und Olga, öffnet die Fenster! Was tun Hans und Olga? Sie öffnen die Fenster.</div><div class=\"kurss-example\">Fräulein Müller, öffnen Sie, bitte, alle Fenster!</div><div class=\"kurss-example\">Fräulein Müller öffnet alle Fenster.</div><div class=\"kurss-example\">Das ist der Spiegel. Das sind die Spiegel.</div><div class=\"kurss-example\">Das ist der Lappen. Das sind die Lappen.</div><div class=\"kurss-example\">Das ist der Spaten. Das sind die Spaten.</div><div class=\"kurss-example\">Das ist der Besen. Das sind die Besen.</div><div class=\"kurss-example\">Das ist die Schaufel. Das sind die Schaufeln.</div><div class=\"kurss-example\">Das ist die Schüssel. Das sind die Schüsseln.</div><div class=\"kurss-example\">Das ist das Zimmer. Das sind die Zimmer.</div><div class=\"kurss-example\">Das ist das Ufer. Das sind die Ufer.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">singen — laulma</div><div class=\"kurss-example\">singe — laula</div><div class=\"kurss-example\">singt — laulge</div><div class=\"kurss-example\">singen Sie — laulge</div><div class=\"kurss-example\">das Lied (das līt) — laul</div><div class=\"kurss-example\">Sie — Teie</div><div class=\"kurss-example\">zählen — lugema</div><div class=\"kurss-example\">das Fräulein (froilein) — preili</div><div class=\"kurss-example\">der Müller — mölder</div><div class=\"kurss-example\">öffnen — avama</div><div class=\"kurss-example\">das Fenster (fenster) — aken</div><div class=\"kurss-example\">alle — kõik</div><div class=\"kurss-example\">der Spiegel (špīgel) — peegel</div><div class=\"kurss-example\">der Lappen — lapp</div><div class=\"kurss-example\">der Spaten — labidas</div><div class=\"kurss-example\">der Besen — luud</div><div class=\"kurss-example\">die Schaufel — kühvel</div><div class=\"kurss-example\">die Schüssel — kauss</div><div class=\"kurss-example\">das Zimmer — tuba</div><div class=\"kurss-example\">das Ufer (ūfer) — kallas</div></div></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">sp vārda vai zilbes sākumā izrunā kā šp: der Spiegel (dēr špīgel).</div><div class=\"kurss-example\">sch izrunā kā latviešu š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).</div><div class=\"kurss-example\">Divskani äu izrunā kā latviešu oi: das Fräulein (das froilein).</div></div></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Käskiv kõneviis</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Pavēles izteiksme vienskaitļa 2. personā atbilst darbības vārda 2. personai vienskaitlī bez personu galotnes -st, millele lisatakse lõpp -e.</div><div class=\"kurss-example\">Piemēri: antworte!, arbeite!, öffne!, zeichne!</div><div class=\"kurss-example\">Ļoti bieži galotne -e ei kasutata, kui käskiv vorm muutub sellega üherõhuliseks: geh!, steh!, komm!, tu!, sing!, frag!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>Mitmuse käskiv kõneviis</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Pavēles forma 2. personā daudzskaitlī līdzinās tagadnes daudzskaitļa 2. personai, bet tiek lietota bez vietniekvārda.</div><div class=\"kurss-example\">Piemēri: antwortet!, arbeitet!, öffnet!, zeichnet!, geht!, steht!, tut!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Viisakusvorm sõnaga Sie</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Uzrunas forma ar “Jūs” līdzinās daudzskaitļa 3. personai. Vietniekvārds Sie rakstāms ar lielo burtu un stāv pēc darbības vārda.</div><div class=\"kurss-example\">Piemēri: antworten Sie!, arbeiten Sie!, öffnen Sie!, zeichnen Sie!, gehen Sie!, stehen Sie!, tun Sie!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>öffnen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Darbības vārdam öffnen vieglākas izrunas dēļ 2. un 3. personā vienskaitlī un 2. personā daudzskaitlī starp celmu un galotni iesprauž e: du öffnest, er öffnet, ihr öffnet.</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Übung / Harjutus</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson7-exercise-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"7. õppetunni harjutuskaart\"><span class=\"lesson1-training-progress\">7. õppetund · Übung: 1 / 16</span><span class=\"lesson1-training-text\">fragen — küsima</span></button><p class=\"lesson1-training-hint\">Puuduta kaarti, et näha käskiva kõneviisi vorme.</p></div></div></details>\n"
 };
 
 const COURSE_LESSON_DATA = {
@@ -19,43 +19,43 @@ const COURSE_LESSON_DATA = {
     "id": "lesson1",
     "title": "1. õppetund",
     "subtitle": "Tegusõnad olevikus, sõnad, grammatika ja tõlkimine",
-    "legacyHtml": "            <h3>1. õppetund</h3>\n            <p class=\"kurss-lesson-intro\">Esimene õppetund: tegusõnad olevikus, sõnad, hääldus, grammatika ja tõlkimine.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Tegusõnad olevikus</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-info\">Tegusõnad ja nende pöörded olevikus.</div>\n                <div class=\"lesson1-verb-cards\">\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>kommen — tulema</h4>\n                    <div class=\"lesson1-conjugation\"><span>ich</span><strong>komme</strong><span>mina tulen</span><span>du</span><strong>kommst</strong><span>sina tuled</span><span>er / sie</span><strong>kommt</strong><span>tema tuleb</span><span>wir</span><strong>kommen</strong><span>meie tuleme</span><span>ihr</span><strong>kommt</strong><span>teie tulete</span><span>sie / Sie</span><strong>kommen</strong><span>nemad / Teie tulevad</span></div>\n                  </article>\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>gehen — minema</h4>\n                    <div class=\"lesson1-conjugation\"><span>ich</span><strong>gehe</strong><span>mina lähen</span><span>du</span><strong>gehst</strong><span>sina lähed</span><span>er / sie</span><strong>geht</strong><span>tema läheb</span><span>wir</span><strong>gehen</strong><span>meie läheme</span><span>ihr</span><strong>geht</strong><span>teie lähete</span><span>sie / Sie</span><strong>gehen</strong><span>nemad / Teie lähevad</span></div>\n                  </article>\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>stehen — seisma</h4>\n                    <div class=\"lesson1-conjugation\"><span>ich</span><strong>stehe</strong><span>mina seisan</span><span>du</span><strong>stehst</strong><span>sina seisad</span><span>er / sie</span><strong>steht</strong><span>tema seisab</span><span>wir</span><strong>stehen</strong><span>meie seisame</span><span>ihr</span><strong>steht</strong><span>teie seisate</span><span>sie / Sie</span><strong>stehen</strong><span>nemad / Teie seisavad</span></div>\n                  </article>\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>singen — laulma</h4>\n                    <div class=\"lesson1-conjugation\"><span>ich</span><strong>singe</strong><span>mina laulan</span><span>du</span><strong>singst</strong><span>sina laulad</span><span>er / sie</span><strong>singt</strong><span>tema laulab</span><span>wir</span><strong>singen</strong><span>meie laulame</span><span>ihr</span><strong>singt</strong><span>teie laulate</span><span>sie / Sie</span><strong>singen</strong><span>nemad / Teie laulavad</span></div>\n                  </article>\n                </div>\n                <section class=\"lesson1-block\">\n                  <h4>Näited</h4>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Stehst du?<br>Ja, ich stehe.</div><div class=\"kurss-example\">Steht Albert?<br>Ja, er steht.</div><div class=\"kurss-example\">Steht Marta?<br>Ja, sie steht.</div><div class=\"kurss-example\">Wer kommt und singt?<br>Albert und Marta kommen und singen.</div><div class=\"kurss-example\">Geht ihr?<br>Ja, wir gehen.</div><div class=\"kurss-example\">Wer steht und singt?<br>Albert und Marta stehen und singen.</div></div>\n                </section>\n              </div>\n            </details>\n            <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-info lesson1-vardini-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><span>Sõnade ligikaudne hääldus on antud sulgudes eesti tähtedega.<br>Seda tuleb järgida ka järgnevates õppetundides.</span></div>\n                <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">wir (viir) — meie</div><div class=\"kurss-example\">Sõnas “wir” hääldatakse täht i pikalt.</div><div class=\"kurss-example\">kommen (komen) — tulema</div><div class=\"kurss-example\">gehen (gee-en) — minema</div><div class=\"kurss-example\">stehen (štee-en) — seisma</div><div class=\"kurss-example\">singen (zingen) — laulma</div><div class=\"kurss-example\">du (duu) kommst — sina tuled</div><div class=\"kurss-example\">er (eer) kommt — tema tuleb</div><div class=\"kurss-example\">sie (zii) kommt — tema tuleb (naine)</div><div class=\"kurss-example\">wer (veer) — kes?</div><div class=\"kurss-example\">ja (jaa) — jah</div></div>\n              </div>\n            </details>\n                        <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Sõnade õige hääldus, tähistatud eesti tähtedega, on antud õppetundides.</div><div class=\"kurss-example\">Wir (viir) — meie. Sõnas wir hääldatakse ii alati pikalt.</div></div>\n              </div>\n            </details>\n<details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content lesson1-grammar-content\">\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>∞</span>Infinitiiv</h4><div class=\"lesson1-grammar-note\">Tegusõna algvorm. Tavaliselt lõpeb infinitiiv lõpuga -en.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">kommen</div><div class=\"kurss-example\">gehen</div><div class=\"kurss-example\">stehen</div><div class=\"kurss-example\">singen</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>♟</span>Oleviku lõpud</h4><div class=\"lesson1-ending-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><div class=\"lesson1-ending-info-body\"><p><strong>Eemalda tegusõna algvormist <span class=\"lesson1-ending-accent\">-en</span> ja lisa lõpp.</strong></p><p>Näide: kommen → komm + lõpp</p><div class=\"lesson1-ending-process\" aria-label=\"Oleviku lõppude moodustamise protsess\"><div class=\"lesson1-ending-step\"><strong>kommen</strong><span>algvorm</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>eemalda <span class=\"lesson1-ending-accent\">-en</span></strong><span>jääb tüvi</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>komm</strong><span>tüvi</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>lisa lõpp</strong><span>e / st / t</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-results\"><div>komm + <span class=\"lesson1-ending-accent\">e</span> = <strong>komme</strong></div><div>komm + <span class=\"lesson1-ending-accent\">st</span> = <strong>kommst</strong></div><div>komm + <span class=\"lesson1-ending-accent\">t</span> = <strong>kommt</strong></div></div></div></div></div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich → -e</div><div class=\"kurss-example\">du → -st</div><div class=\"kurss-example\">er / sie → -t</div><div class=\"kurss-example\">wir → -en</div><div class=\"kurss-example\">ihr → -t</div><div class=\"kurss-example\">sie → -en</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>●</span>Näited</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich komme</div><div class=\"kurss-example\">du kommst</div><div class=\"kurss-example\">er kommt</div><div class=\"kurss-example\">wir kommen</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>?</span>Küsilaused</h4><div class=\"lesson1-grammar-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><span>Saksa küsilauses liigub tegusõna tavaliselt esimesele kohale.</span></div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Eesti keeles:<br>Sina tuled.<br>Kas sina tuled?</div><div class=\"kurss-example\">Saksa keeles:<br>Du kommst.<br>Kommst du?</div><div class=\"kurss-example\">du kommst — sina tuled<br>kommst du? — kas sina tuled?</div><div class=\"kurss-example\">er singt — tema laulab<br>singt er? — kas tema laulab?</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>♣</span>Isikute erinevus</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">er kommt — tema tuleb (mees)</div><div class=\"kurss-example\">sie kommt — tema tuleb (naine)</div><div class=\"kurss-example\">sie kommen — nemad tulevad</div></div></section>\n              </div>\n            </details>\n                        <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Tõlgi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-training-wrap\">\n                  <button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson1-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"1. õppetunni harjutuskaart\">\n                    <span class=\"lesson1-training-progress\">1. õppetund · Tõlgi: 1 / 11</span>\n                    <span class=\"lesson1-training-text\">Kas sina tuled?</span>\n                  </button>\n                  <p class=\"lesson1-training-hint\">Klõpsa kaardil, et näha saksakeelset tõlget. Pärast vastust näitab järgmine klõps uut kaarti.</p>\n                </div>\n              </div>\n            </details>\n"
+    "legacyHtml": COURSE_LESSON_HTML.kurssLesson1
   },
   "kurssLesson2": {
     "id": "lesson2",
     "title": "2. õppetund",
     "subtitle": "Dialoogid, sõnad, hääldus, grammatika ja tõlkimine",
-    "legacyHtml": "            <h3>2. õppetund</h3>\n            <p class=\"kurss-lesson-intro\">Teine õppetund: dialoogid, sõnad, hääldus, grammatika ja tõlkimine.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoogid / laused</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\">\n                  <div class=\"kurss-example\">Spielst du?<br>Nein, ich spiele nicht, ich arbeite.</div>\n                  <div class=\"kurss-example\">Paul fragt nicht, er arbeitet.</div>\n                  <div class=\"kurss-example\">Arbeitest du?<br>Nein, ich arbeite nicht, ich singe.</div>\n                  <div class=\"kurss-example\">Was tut Paul?<br>Er spielt.</div>\n                  <div class=\"kurss-example\">Was tut Marie?<br>Sie singt.</div>\n                  <div class=\"kurss-example\">Paul spielt, aber Marie singt.</div>\n                  <div class=\"kurss-example\">Singt ihr?<br>Nein, wir singen nicht, wir arbeiten.</div>\n                  <div class=\"kurss-example\">Was tun Paul und Marie?<br>Sie fragen.<br>Sie antworten nicht.</div>\n                  <div class=\"kurss-example\">Wer arbeitet?<br>Wir arbeiten.<br>Wir rechnen und zeichnen.</div>\n                  <div class=\"kurss-example\">Sie kommen, sie fragen, sie antworten, sie arbeiten, sie spielen, sie singen, sie gehen.</div>\n                </div>\n              </div>\n            </details>\n            <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\">\n                  <div class=\"kurss-example\">spielen — mängima</div>\n                  <div class=\"kurss-example\">nein — ei</div>\n                  <div class=\"kurss-example\">nicht — mitte</div>\n                  <div class=\"kurss-example\">arbeiten — töötama</div>\n                  <div class=\"kurss-example\">fragen — küsima</div>\n                  <div class=\"kurss-example\">was tut er? — mida tema teeb?</div>\n                  <div class=\"kurss-example\">was tun sie? — mida nemad teevad?</div>\n                  <div class=\"kurss-example\">aber — aga</div>\n                  <div class=\"kurss-example\">antworten — vastama</div>\n                  <div class=\"kurss-example\">rechnen — arvutama</div>\n                  <div class=\"kurss-example\">zeichnen — joonistama</div>\n                  <div class=\"kurss-example\">Marie — Marie</div>\n                </div>\n              </div>\n            </details>\n                        <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Sõnades ich, nicht, rechnen, zeichnen hääldatakse häälikut ch pehmelt, sarnaselt pehme h-häälikuga.</div><div class=\"kurss-example\">Sõnades arbeiten, zeichnen hääldatakse diftongi ei umbes nagu “ai”.</div><div class=\"kurss-example\">Kaashäälikuühendit sp hääldatakse kui šp: spielen (špiilen).</div><div class=\"kurss-example\">Tegusõnas tun hääldatakse u kõigis pöörete vormides pikalt.</div></div>\n              </div>\n            </details>\n<details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content lesson1-grammar-content\">\n                <section class=\"lesson1-block\">\n                  <h4 class=\"lesson1-grammar-header\"><span>1</span>Lõpud e-ga</h4>\n                  <div class=\"lesson1-grammar-note\">Kui tegusõna tüvi lõpeb tähtedega t, d, chn, siis lõppude -st ja -t ees seisab pöördel e.</div>\n                  <h5 class=\"lesson2-subtitle\">arbeiten</h5>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich arbeite</div><div class=\"kurss-example\">du arbeitest</div><div class=\"kurss-example\">er arbeitet</div><div class=\"kurss-example\">sie arbeitet</div><div class=\"kurss-example\">wir arbeiten</div><div class=\"kurss-example\">ihr arbeitet</div><div class=\"kurss-example\">sie arbeiten</div></div>\n                  <h5 class=\"lesson2-subtitle\">rechnen</h5>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich rechne</div><div class=\"kurss-example\">du rechnest</div><div class=\"kurss-example\">er rechnet</div><div class=\"kurss-example\">sie rechnet</div><div class=\"kurss-example\">wir rechnen</div><div class=\"kurss-example\">ihr rechnet</div><div class=\"kurss-example\">sie rechnen</div></div>\n                  <h5 class=\"lesson2-subtitle\">tun</h5>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich tue</div><div class=\"kurss-example\">du tust</div><div class=\"kurss-example\">er tut</div><div class=\"kurss-example\">sie tut</div><div class=\"kurss-example\">wir tun</div><div class=\"kurss-example\">ihr tut</div><div class=\"kurss-example\">sie tun</div></div>\n                </section>\n                <section class=\"lesson1-block\">\n                  <h4 class=\"lesson1-grammar-header\"><span>2</span>Küsisõna</h4>\n                  <div class=\"lesson1-grammar-note\">Küsilausetes, mis algavad küsisõnaga, näiteks: mida? kes? milline? miks? mispärast? jne, seisab tegusõna kohe küsisõna järel.</div>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Was tust du? — Mida sina teed?</div><div class=\"kurss-example\">Was tut er? — Mida tema teeb (mees)?</div><div class=\"kurss-example\">Was tut sie? — Mida tema teeb (naine)?</div><div class=\"kurss-example\">Was tun sie? — Mida nemad teevad?</div></div>\n                </section>\n                <section class=\"lesson1-block\">\n                  <h4 class=\"lesson1-grammar-header\"><span>3</span>Eitus sõnaga nicht</h4>\n                  <div class=\"lesson1-grammar-note\">Kui eitus nicht käib tegusõna kohta, siis seisab eitav sõna tegusõna järel.</div>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Er kommt nicht. — Tema ei tule.</div><div class=\"kurss-example\">Sie singen nicht. — Nemad ei laula.</div></div>\n                </section>\n              </div>\n            </details>\n                                    <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Tõlgi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-training-wrap\">\n                  <button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson2-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"2. õppetunni tõlkekaart\">\n                    <span class=\"lesson1-training-progress\">2. õppetund · Tõlgi: 1 / 15</span>\n                    <span class=\"lesson1-training-text\">Kes küsib?</span>\n                  </button>\n                  <p class=\"lesson1-training-hint\">Klõpsa kaardil, et näha saksakeelset tõlget. Pärast vastust näitab järgmine klõps uut kaarti.</p>\n                </div>\n              </div>\n            </details>\n"
+    "legacyHtml": COURSE_LESSON_HTML.kurssLesson2
   },
   "kurssLesson3": {
     "id": "lesson3",
     "title": "3. õppetund",
     "subtitle": "Artiklid, kohasõnad ja tõlkimine",
-    "legacyHtml": "            <h3>3. õppetund</h3>\n            <p class=\"kurss-lesson-intro\">Kolmas õppetund: dialoogid, sõnad, hääldus, grammatika ja tõlkimine.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoogid / laused</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Wer rechnet und zeichnet?<br>Wir rechnen und zeichnen.</div><div class=\"kurss-example\">Wer kommt?<br>Paul und Anna kommen.</div><div class=\"kurss-example\">Was steht hier?<br>Hier steht ein Tisch.</div><div class=\"kurss-example\">Was steht dort?<br>Dort steht eine Bank.</div><div class=\"kurss-example\">Was liegt hier?<br>Hier liegt ein Buch.</div><div class=\"kurss-example\">Was liegt dort?<br>Dort liegt ein Heft.</div><div class=\"kurss-example\">Was hängt hier?<br>Hier hängt ein Bild.</div><div class=\"kurss-example\">Was hängt dort?<br>Dort hängt eine Tafel.</div><div class=\"kurss-example\">Wie ist das Buch?<br>Das Buch ist dick.</div><div class=\"kurss-example\">Wie ist das Heft?<br>Das Heft ist dünn.</div><div class=\"kurss-example\">Wie ist die Bank?<br>Die Bank ist niedrig.</div><div class=\"kurss-example\">Wie ist der Tisch?<br>Der Tisch ist hoch.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">wer — kes</div><div class=\"kurss-example\">was — mis</div><div class=\"kurss-example\">hier — siin</div><div class=\"kurss-example\">dort — seal</div><div class=\"kurss-example\">der Tisch — laud</div><div class=\"kurss-example\">ein Tisch — laud</div><div class=\"kurss-example\">die Bank — pink</div><div class=\"kurss-example\">eine Bank — pink</div><div class=\"kurss-example\">liegen — lamama</div><div class=\"kurss-example\">liegt hier ein Buch? — kas siin on raamat?</div><div class=\"kurss-example\">das Buch — raamat</div><div class=\"kurss-example\">ein Buch — raamat</div><div class=\"kurss-example\">hängen — rippuma</div><div class=\"kurss-example\">das Bild — pilt</div><div class=\"kurss-example\">ein Bild — pilt</div><div class=\"kurss-example\">die Tafel — tahvel</div><div class=\"kurss-example\">eine Tafel — tahvel</div><div class=\"kurss-example\">wie — milline</div><div class=\"kurss-example\">ist — on</div><div class=\"kurss-example\">dick — paks</div><div class=\"kurss-example\">das Heft — vihik</div><div class=\"kurss-example\">ein Heft — vihik</div><div class=\"kurss-example\">dünn — õhuke</div><div class=\"kurss-example\">niedrig — madal</div><div class=\"kurss-example\">hoch — kõrge</div></div></div></details>\n                        <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Pikka ii häälikut tähistatakse saksa keeles kui ie: liegen (liigen), hier (hiir), wie (vii).</div><div class=\"kurss-example\">ck on kahekordne k: dick (dikk).</div><div class=\"kurss-example\">Omadus- ja määrsõnades kõlab lõpp -ig kui kerge -ich: niedrig (niidrih).</div><div class=\"kurss-example\">Kui lõpp -ig lõpeb e-ga: -ige, siis hääldatakse g selge g-häälikuna: niedrige (niidrige) Bänke.</div></div></div></details>\n<details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Lause alus</h4><div class=\"lesson1-grammar-note\">Lause alus vastab saksa keeles küsimusele wer? / was? ja seisab nominatiivis.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Wer? küsib isikute kohta.</div><div class=\"kurss-example\">Was? küsib esemete kohta.</div><div class=\"kurss-example\">Wer singt? — Sie singt.</div><div class=\"kurss-example\">Was liegt hier? — Hier liegt ein Buch.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>Artiklid</h4><div class=\"lesson1-grammar-note\">Saksa keeles on nimisõnal 3 sugu: meessugu, naissugu ja kesksugu. Nimisõna ees seisab tavaliselt sõnake, mida nimetatakse artikliks. Seda sõnakest ei tõlgita.</div><h5 class=\"lesson2-subtitle\">Määrav artikkel</h5><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">meessugu — der</div><div class=\"kurss-example\">naissugu — die</div><div class=\"kurss-example\">kesksugu — das</div><div class=\"kurss-example\">Mitmuses on määrav artikkel kõigil kolmel sool die.</div><div class=\"kurss-example\">der Tisch — die Tische</div><div class=\"kurss-example\">die Bank — die Bänke</div><div class=\"kurss-example\">das Heft — die Hefte</div></div><h5 class=\"lesson2-subtitle\">Umbmäärane artikkel</h5><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">meessugu — ein</div><div class=\"kurss-example\">naissugu — eine</div><div class=\"kurss-example\">kesksugu — ein</div><div class=\"kurss-example\">Umbmäärasel artiklil mitmust ei ole.</div><div class=\"kurss-example\">ein Tisch — Tische</div><div class=\"kurss-example\">ein Heft — Hefte</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Pärisnimed</h4><div class=\"lesson1-grammar-note\">Pärisnimede ees artiklit ei kasutata.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hans spielt, aber Marie singt.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>Tegusõna koht</h4><div class=\"lesson1-grammar-note\">Jutustavas lauses seisab tegusõna teisel kohal.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hier hängt eine Karte.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>5</span>stehen / liegen / hängen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Saksa keeles öeldakse esemete kohta, mis seisavad vertikaalselt, et ese seisab:<br>der Tisch steht<br>die Bank steht</div><div class=\"kurss-example\">Esemete kohta, mis on horisontaalasendis, öeldakse, et need lebavad:<br>das Buch liegt<br>das Heft liegt</div><div class=\"kurss-example\">Esemed võivad ka rippuda:<br>die Karte hängt<br>die Tafel hängt</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Tõlgi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson3-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"3. õppetunni tõlkekaart\"><span class=\"lesson1-training-progress\">3. õppetund · Tõlgi: 1 / 22</span><span class=\"lesson1-training-text\">Kas sina arvutad?</span></button><p class=\"lesson1-training-hint\">Klõpsa kaardil, et näha saksakeelset tõlget. Pärast vastust näitab järgmine klõps uut kaarti.</p></div></div></details>\n"
+    "legacyHtml": COURSE_LESSON_HTML.kurssLesson3
   },
   "kurssLesson4": {
     "id": "lesson4",
     "title": "4. õppetund",
     "subtitle": "Klassiruumi esemed, omadused ja tõlkimine",
-    "legacyHtml": "            <h3>4. õppetund</h3>\n            <p class=\"kurss-lesson-intro\">Akusatiiv, nehmen, hinlegen, hinausgehen ja omadussõnad.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoogid / laused</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Paul kommt und nimmt einen Federhalter.</div><div class=\"kurss-example\">Er zeigt den Federhalter.</div><div class=\"kurss-example\">Er fragt: „Wie ist der Federhalter?“</div><div class=\"kurss-example\">Olga antwortet: „Der Federhalter ist schwarz.“</div><div class=\"kurss-example\">Ist der Federhalter weiß? Nein, der Federhalter ist nicht weiß, er ist schwarz.</div><div class=\"kurss-example\">Marie kommt und nimmt eine Feder.</div><div class=\"kurss-example\">Sie fragt: „Wie ist die Feder?“</div><div class=\"kurss-example\">Olga antwortet: „Die Feder ist spitz.“</div><div class=\"kurss-example\">Ist die Feder stumpf? Nein, die Feder ist nicht stumpf, sie ist spitz.</div><div class=\"kurss-example\">Was legt das Mädchen hin? Es legt die Feder hin.</div><div class=\"kurss-example\">Was nimmst du? Ich nehme ein Messer.</div><div class=\"kurss-example\">Wie ist das Messer? Das Messer ist scharf.</div><div class=\"kurss-example\">Ist das Messer stumpf? Nein, es ist nicht stumpf, es ist scharf.</div><div class=\"kurss-example\">Was legst du hin? Ich lege das Messer, die Feder und den Federhalter hin.</div><div class=\"kurss-example\">Dann gehe ich hinaus und arbeite.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">nehmen (neemen) — võtma</div><div class=\"kurss-example\">er nimmt (nimt) — tema võtab</div><div class=\"kurss-example\">der Federhalter (deer feederhalter) — sulepea</div><div class=\"kurss-example\">einen Federhalter — sulepead</div><div class=\"kurss-example\">zeigen — näitama</div><div class=\"kurss-example\">schwarz (švarts) — must</div><div class=\"kurss-example\">weiß (vais) — valge</div><div class=\"kurss-example\">die Feder (dii feeder) — sulg</div><div class=\"kurss-example\">eine Feder — sulge</div><div class=\"kurss-example\">spitz (špits) — terav</div><div class=\"kurss-example\">hinlegen — maha panema</div><div class=\"kurss-example\">legt hin — paneb maha</div><div class=\"kurss-example\">das Mädchen (meetchen) — tüdruk</div><div class=\"kurss-example\">das Messer — nuga</div><div class=\"kurss-example\">ein Messer — nuga</div><div class=\"kurss-example\">scharf — terav</div><div class=\"kurss-example\">stumpf (štumpf) — nüri</div><div class=\"kurss-example\">dann — siis</div><div class=\"kurss-example\">hinaus — välja</div><div class=\"kurss-example\">hinausgehen — välja minema</div></div></div></details>\n                        <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Lõpud -en, -er, -el on rõhutamata, seetõttu on e neis lõppudes nõrgalt kuuldav: kommen, nehmen, der Federhalter.</div><div class=\"kurss-example\">h võib saksa keeles olla nii häälik kui ka eelneva täishääliku pikendusmärk.</div><div class=\"kurss-example\">Kui h on pikendusmärk, ei hääldata seda häälikuna: nehmen (neemen).</div><div class=\"kurss-example\">Kui täishäälikule järgneb ainult üks kaashäälik, hääldatakse täishäälikut pikalt: die (dii) Feder (feeder), den (deen).</div></div></div></details>\n<details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Akusatiiv</h4><div class=\"lesson1-grammar-note\">Naissoos ja kesksoos on akusatiiv sama, mis nominatiiv. Muutub ainult meessugu.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Nominativ: der Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Akkusativ: den Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Nominativ: ein Federhalter, eine Feder, ein Messer.</div><div class=\"kurss-example\">Akkusativ: einen Federhalter, eine Feder, ein Messer.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>nehmen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich nehme</div><div class=\"kurss-example\">du nimmst</div><div class=\"kurss-example\">er/sie nimmt</div><div class=\"kurss-example\">wir nehmen</div><div class=\"kurss-example\">ihr nehmt</div><div class=\"kurss-example\">sie nehmen</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Asesõnad</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">er — meessugu</div><div class=\"kurss-example\">sie — naissugu</div><div class=\"kurss-example\">es — kesksugu</div><div class=\"kurss-example\">mitmuses — sie</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>Lahutatavad tegusõnad</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">hinlegen → ich lege das Messer hin</div><div class=\"kurss-example\">hinausgehen → Marie geht hinaus</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>5</span>Omadussõnad</h4><div class=\"lesson1-grammar-note\">Kui omadussõna on lauses öeldistäide, ei muutu see ei soo ega arvu järgi.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">der Federhalter ist klein</div><div class=\"kurss-example\">die Feder ist klein</div><div class=\"kurss-example\">das Messer ist klein</div><div class=\"kurss-example\">die Messer sind klein</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>6</span>Eitus sõnaga nicht</h4><div class=\"lesson1-grammar-note\">Kui nicht eitab omadussõna, seisab see eitatava sõna ees.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">der Federhalter ist nicht weiß</div><div class=\"kurss-example\">das Messer ist nicht scharf</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>7</span>-chen / -lein</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Nimisõnad lõpuga -chen ja -lein on kesksoost: das Mädchen.</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Tõlgi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson4-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"4. õppetunni tõlkekaart\"><span class=\"lesson1-training-progress\">4. õppetund · Tõlgi: 1 / 16</span><span class=\"lesson1-training-text\">Tüdruk võtab sulepea.</span></button><p class=\"lesson1-training-hint\">Klõpsa kaardil, et näha saksakeelset tõlget. Pärast vastust näitab järgmine klõps uut kaarti.</p></div></div></details>\n"
+    "legacyHtml": COURSE_LESSON_HTML.kurssLesson4
   },
   "kurssLesson5": {
     "id": "lesson5",
     "title": "5. õppetund",
     "subtitle": "Wen?, akusatiiv, sitzen, fragen ja -in lõpp.",
-    "legacyHtml": "\n    <h3>5. õppetund</h3>\n    <p class=\"kurss-lesson-intro\">Wen?, akusatiiv, sitzen, fragen ja -in lõpp.</p>\n\n    <details class=\"lesson1-accordion\" open>\n      <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoogid / laused</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\">\n        <div class=\"kurss-example\">Wer sitzt und fragt? Der Lehrer sitzt und fragt.</div>\n        <div class=\"kurss-example\">Wer steht und antwortet? Der Schüler steht und antwortet.</div>\n        <div class=\"kurss-example\">Wie antwortet der Schüler? Der Schüler antwortet gut.</div>\n        <div class=\"kurss-example\">Wen lobt der Lehrer? Der Lehrer lobt den Schüler.</div>\n        <div class=\"kurss-example\">Wie ist der Schüler? Der Schüler ist klein.</div>\n        <div class=\"kurss-example\">Ist der Schüler klein oder groß? Er ist klein.</div>\n        <div class=\"kurss-example\">Wen fragt die Lehrerin? Die Lehrerin fragt die Schülerin.</div>\n        <div class=\"kurss-example\">Wie antwortet die Schülerin? Die Schülerin antwortet schlecht.</div>\n        <div class=\"kurss-example\">Was tut die Lehrerin? Sie tadelt die Schülerin.</div>\n        <div class=\"kurss-example\">Die Schülerin ist nicht klein, sie ist groß.</div>\n        <div class=\"kurss-example\">Ein Kind spielt. Das Kind ist artig.</div>\n        <div class=\"kurss-example\">Die Mutter liebt das Kind. Der Vater lobt das Kind.</div>\n      </div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\">\n        <div class=\"kurss-example\">sitzen (zitsen) — istuma</div>\n        <div class=\"kurss-example\">fragen (fraagen) — küsima</div>\n        <div class=\"kurss-example\">der Lehrer (deer leerer) — õpetaja</div>\n        <div class=\"kurss-example\">gut (guut) — hästi</div>\n        <div class=\"kurss-example\">wen (veen) — keda</div>\n        <div class=\"kurss-example\">loben — kiitma</div>\n        <div class=\"kurss-example\">der Schüler (šüler) — õpilane</div>\n        <div class=\"kurss-example\">klein — väike</div>\n        <div class=\"kurss-example\">groß (groos) — suur</div>\n        <div class=\"kurss-example\">die Lehrerin — õpetajanna</div>\n        <div class=\"kurss-example\">die Schülerin — õpilane (naine)</div>\n        <div class=\"kurss-example\">schlecht (šleht) — halvasti</div>\n        <div class=\"kurss-example\">tadeln — laitma</div>\n        <div class=\"kurss-example\">oder (ooder) — või</div>\n        <div class=\"kurss-example\">das Kind (kint) — laps</div>\n        <div class=\"kurss-example\">artig (aartih) — sõnakuulelik</div>\n        <div class=\"kurss-example\">die Mutter — ema</div>\n        <div class=\"kurss-example\">lieben (liiben) — armastama</div>\n        <div class=\"kurss-example\">der Vater (faater) — isa</div>\n      </div></div>\n    </details>\n\n        <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\">\n        <div class=\"kurss-example\">tz hääldatakse kui ts: sitzen (zitsen).</div>\n        <div class=\"kurss-example\">v hääldatakse saksa sõnades kui f: der Vater (faater).</div>\n        <div class=\"kurss-example\">ß nimetatakse eszetiks ja hääldatakse kui s: groß (groos), weiß (vais).</div>\n      </div></div>\n    </details>\n\n<details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content lesson1-grammar-content\">\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Nominatiiv ja akusatiiv</h4><div class=\"lesson1-grammar-note\">Eesti keeles vastab nominatiiv küsimusele kes/mis?, aga akusatiiv küsimusele keda/mida?.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Saksa keeles on nominatiivi küsimus wer? isikute kohta ja was? esemete kohta.</div><div class=\"kurss-example\">Akusatiivi küsimus on wen? isikute kohta ja was? esemete kohta.</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Artikli muutumine akusatiivis</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Nominativ: der Vater, die Mutter, das Kind.</div><div class=\"kurss-example\">Akkusativ: den Vater, die Mutter, das Kind.</div><div class=\"kurss-example\">Nominativ: der Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Akkusativ: den Federhalter, die Feder, das Messer.</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">sitzen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich sitze</div><div class=\"kurss-example\">du sitzt</div><div class=\"kurss-example\">er/sie/es sitzt</div><div class=\"kurss-example\">wir sitzen</div><div class=\"kurss-example\">ihr sitzt</div><div class=\"kurss-example\">sie sitzen</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">fragen + akusatiiv</h4><div class=\"lesson1-grammar-note\">Tegusõna fragen nõuab saksa keeles akusatiivi.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Wen fragt der Lehrer?</div><div class=\"kurss-example\">Der Lehrer fragt den Schüler.</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">-in lõpp</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Paljud naissoost sõnad tuletatakse lõpuga -in.</div><div class=\"kurss-example\">die Lehrerin</div><div class=\"kurss-example\">die Schülerin</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Tegusõna koht</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Jutustavas lauses seisab tegusõna teisel kohal.</div><div class=\"kurss-example\">Dann geht das Mädchen hinaus und arbeitet.</div><div class=\"kurss-example\">Das Mädchen geht dann hinaus und arbeitet.</div></div></section>\n      </div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Tõlgi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson5-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"5. õppetunni tõlkekaart\"><span class=\"lesson1-training-progress\">5. õppetund · Tõlgi: 1 / 16</span><span class=\"lesson1-training-text\">Keda armastab isa?</span></button><p class=\"lesson1-training-hint\">Klõpsa kaardil, et näha saksakeelset tõlget. Pärast vastust näitab järgmine klõps uut kaarti.</p></div></div>\n    </details>\n  "
+    "legacyHtml": COURSE_LESSON_HTML.kurssLesson5
   },
   "kurssLesson6": {
     "id": "lesson6",
     "title": "6. õppetund",
     "subtitle": "Tegusõnad, kohamäärsõnad ja tõlkimine",
-    "legacyHtml": "\n    <h3>6. õppetund</h3>\n    <p class=\"kurss-lesson-intro\">Arvsõnad, mitmus, täishäälikumuutused ja nimisõnade mitmuse vormid.</p>\n\n    <details class=\"lesson1-accordion\" open>\n      <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoogid / laused</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hier liegt ein Bleistift.</div><div class=\"kurss-example\">Dort liegen einige Messer.</div><div class=\"kurss-example\">Edgar nimmt ein Messer, zwei Messer, drei Messer.</div><div class=\"kurss-example\">Er legt die Messer wieder hin.</div><div class=\"kurss-example\">Alle Messer sind scharf.</div><div class=\"kurss-example\">Dann nimmt er wieder ein Messer.</div><div class=\"kurss-example\">Er macht das Messer auf.</div><div class=\"kurss-example\">Er nimmt den Bleistift.</div><div class=\"kurss-example\">Er spitzt den Bleistift an.</div><div class=\"kurss-example\">Er legt das Messer hin.</div><div class=\"kurss-example\">Er setzt sich und zeichnet.</div><div class=\"kurss-example\">Was zeichnet er? Er zeichnet einen Schlüssel.</div><div class=\"kurss-example\">Gertrud zeichnet ein Fenster und eine Tafel.</div><div class=\"kurss-example\">Anna zeichnet einen Garten.</div><div class=\"kurss-example\">Hier liegen vier Löffel.</div><div class=\"kurss-example\">Dort liegen fünf Nadeln.</div><div class=\"kurss-example\">Gertrud kommt und zählt die Löffel: das ist ein Löffel; das sind zwei, drei, vier Löffel.</div><div class=\"kurss-example\">Anna zählt die Nadeln: das ist eine Nadel; das sind zwei, drei, vier, fünf Nadeln.</div><div class=\"kurss-example\">Wieviel Nadeln sind hier?</div><div class=\"kurss-example\">Hier ist eine Nadel.</div><div class=\"kurss-example\">Dort sind zwei, drei, vier Nadeln.</div><div class=\"kurss-example\">Fünf Schlüssel sind hier.</div><div class=\"kurss-example\">Sechs Löffel sind dort.</div><div class=\"kurss-example\">Was ist das?</div><div class=\"kurss-example\">Das ist ein Hammer. Das sind fünf Hämmer.</div><div class=\"kurss-example\">Das ist ein Deckel. Das sind sechs Deckel.</div><div class=\"kurss-example\">Das ist ein Eimer. Das sind sieben Eimer.</div><div class=\"kurss-example\">Das ist ein Teller. Das sind acht Teller.</div><div class=\"kurss-example\">Das ist ein Wagen. Das sind neun Wagen.</div><div class=\"kurss-example\">Das ist ein Schlitten. Das sind zehn Schlitten.</div><div class=\"kurss-example\">Wie sind die Dinge?</div><div class=\"kurss-example\">Der Hammer ist klein. Die Hämmer sind klein.</div><div class=\"kurss-example\">Der Deckel ist groß. Die Deckel sind groß.</div><div class=\"kurss-example\">Der Eimer ist voll. Die Eimer sind voll.</div><div class=\"kurss-example\">Der Teller ist leer. Die Teller sind leer.</div><div class=\"kurss-example\">Der Wagen ist schwer. Die Wagen sind schwer.</div><div class=\"kurss-example\">Der Schlitten ist leicht. Die Schlitten sind leicht.</div></div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">liegt — asub, on, lamab</div><div class=\"kurss-example\">der Bleistift (blaištift) — pliiats</div><div class=\"kurss-example\">einige (ainige) — mõned</div><div class=\"kurss-example\">hinlegen — maha panema</div><div class=\"kurss-example\">legt hin — paneb maha</div><div class=\"kurss-example\">wieder (viider) — jälle</div><div class=\"kurss-example\">aufmachen — avama</div><div class=\"kurss-example\">er macht auf — tema avab</div><div class=\"kurss-example\">anspitzen (anšpitsen) — teritama</div><div class=\"kurss-example\">er spitzt an — tema teritab</div><div class=\"kurss-example\">sich setzen — maha istuma</div><div class=\"kurss-example\">setzt sich — istub maha</div><div class=\"kurss-example\">der Schlüssel (šlüsel) — võti</div><div class=\"kurss-example\">das Fenster (fenster) — aken</div><div class=\"kurss-example\">die Tafel (dii taafel) — tahvel</div><div class=\"kurss-example\">der Garten — aed</div><div class=\"kurss-example\">der Löffel — lusikas</div><div class=\"kurss-example\">zählen (tseelen) — lugema</div><div class=\"kurss-example\">die Nadel — nõel</div><div class=\"kurss-example\">was ist das — mis see on?</div><div class=\"kurss-example\">der Hammer — haamer</div><div class=\"kurss-example\">die Hämmer — haamrid</div><div class=\"kurss-example\">der Deckel (deer dekel) — kaas</div><div class=\"kurss-example\">der Teller — taldrik</div><div class=\"kurss-example\">der Wagen — vanker</div><div class=\"kurss-example\">der Schlitten — kelk</div><div class=\"kurss-example\">das Ding — asi</div><div class=\"kurss-example\">die Dinge — asjad</div><div class=\"kurss-example\">wie sind die Dinge? — millised on asjad?</div><div class=\"kurss-example\">voll (fool) — täis</div><div class=\"kurss-example\">leer (leer) — tühi</div><div class=\"kurss-example\">schwer (šveer) — raske</div><div class=\"kurss-example\">leicht — kerge</div><div class=\"kurss-example\">der Eimer — ämber</div><div class=\"kurss-example\">wieviel (viifiil) — kui palju</div><div class=\"kurss-example\">wieviel Nadeln — kui palju nõelu</div><div class=\"kurss-example\">hier (hiir) — siin</div><div class=\"kurss-example\">dort — seal</div></div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ä on täishääliku a muundvorm ja seda hääldatakse kui lühikest või pikka kitsast e-häälikut.</div><div class=\"kurss-example\">Näited: das Mädchen (meetchen), die Bänke (dii benke), der Vater (deer faater), die Väter (dii feeter).</div><div class=\"kurss-example\">ü on täishääliku u muundvorm. Selle hääldamisel tuleb huuled väga ümaraks teha ja proovida ümarate huultega hääldada i-d.</div><div class=\"kurss-example\">Näited: fünf, der Schlüssel (šlüsel).</div><div class=\"kurss-example\">ö hääldatakse ümarate huultega, proovides hääldada e-d: der Löffel.</div><div class=\"kurss-example\">Kahekordistatud täishäälik tähistab pikka täishäälikut: leer (leer).</div><div class=\"kurss-example\">Diftongi eu hääldatakse kui oi: neun (noin).</div></div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content lesson1-grammar-content\">\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Grammatika ja selgitused</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Liittegusõna rõhutatud eesliide eraldub olevikus tegusõnast ja seisab lause lõpus.</div><div class=\"kurss-example\">Näited: hinlegen — er legt hin; aufmachen — er macht auf; anspitzen — er spitzt an.</div><div class=\"kurss-example\">Arvsõna üks on kõigis kolmes soos, kui seda kasutatakse koos nimisõnaga: meessoos ein, naissoos eine, kesksoos ein.</div><div class=\"kurss-example\">Näited: ein Schüler — üks õpilane; eine Schülerin — üks õpilane (naine); ein Kind — üks laps.</div><div class=\"kurss-example\">Arvud: eins, zwei, drei, vier (fiir), fünf, sechs (zeks), sieben (ziiben), acht, neun (noin), zehn (tseen).</div><div class=\"kurss-example\">Sidesõnal (sein) on saksa keeles ainsuse ja mitmuse vorm: der Schüler ist klein; die Schüler sind klein.</div><div class=\"kurss-example\">Näitav asesõna “see” muutub eesti keeles arvu ja soo järgi, aga saksa keeles kasutatakse üht vormi: das.</div><div class=\"kurss-example\">Näited: see on haamer — das ist ein Hammer; see on nõel — das ist eine Nadel; need on haamrid — das sind Hämmer; need on nõelad — das sind Nadeln.</div><div class=\"kurss-example\">Der Wagen (vanker) ja der Schlitten (kelk) on saksa keeles nii ainsuses kui mitmuses kasutatavad tavalised nimisõnad.</div><div class=\"kurss-example\">Meessoost ja kesksoost nimisõnad lõpuga -er, -el, -en ei saa mitmuses sageli lõppu.</div><div class=\"kurss-example\">Näited: der Hammer — die Hämmer; der Garten — die Gärten; das Fenster — die Fenster; das Messer — die Messer.</div><div class=\"kurss-example\">Naissoost nimisõnad lõpuga -el, -er saavad mitmuses lõpu -n.</div><div class=\"kurss-example\">Näited: die Nadel — die Nadeln; die Feder — die Federn.</div><div class=\"kurss-example\">Erandid: die Mutter (ema) — die Mütter (emad); die Tochter (tütar) — die Töchter (tütred).</div><div class=\"kurss-example\">Umbmäärasel artiklil mitmust ei ole: das ist ein Wagen — das sind Wagen; das ist eine Nadel — das sind Nadeln.</div><div class=\"kurss-example\">Jutustavas lauses seisab öeldis-tegusõna teisel kohal: er legt den Schlüssel hin; dann legt er den Schlüssel hin.</div></div></section>\n      </div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Tõlgi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson6-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"6. õppetunni tõlkekaart\"><span class=\"lesson1-training-progress\">6. õppetund · Tõlgi: 1 / 21</span><span class=\"lesson1-training-text\">Paul võtab pliiatsi ja joonistab.</span></button><p class=\"lesson1-training-hint\">Klõpsa kaardil, et näha saksakeelset tõlget. Pärast vastust näitab järgmine klõps uut kaarti.</p></div></div>\n    </details>\n  "
+    "legacyHtml": COURSE_LESSON_HTML.kurssLesson6
   },
   "kurssLesson7": {
     "id": "lesson7",
     "title": "7. õppetund",
     "subtitle": "Käskiv kõneviis, viisakusvorm ja mitmus.",
-    "legacyHtml": "            <h3>7. õppetund</h3>\n            <p class=\"kurss-lesson-intro\">Seitsmes õppetund: käskiv kõneviis, viisakusvorm ja mitmus.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoogid / laused</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hans, singe ein Lied! Was tust du? Ich singe ein Lied.</div><div class=\"kurss-example\">Hans und Olga, singt ein Lied! Was tut ihr? Wir singen ein Lied.</div><div class=\"kurss-example\">Fräulein Müller, singen Sie, bitte, ein Lied! Was tun Sie? Ich singe ein Lied.</div><div class=\"kurss-example\">Hans, zähle die Teller! Was tut Hans? Er zählt die Teller.</div><div class=\"kurss-example\">Hans und Olga, zählt die Teller! Was tun Hans und Olga? Sie zählen die Teller.</div><div class=\"kurss-example\">Fräulein Müller, zählen Sie, bitte, die Teller!</div><div class=\"kurss-example\">Hans, öffne das Fenster! Was tut Hans? Er öffnet das Fenster.</div><div class=\"kurss-example\">Hans und Olga, öffnet die Fenster! Was tun Hans und Olga? Sie öffnen die Fenster.</div><div class=\"kurss-example\">Fräulein Müller, öffnen Sie, bitte, alle Fenster!</div><div class=\"kurss-example\">Fräulein Müller öffnet alle Fenster.</div><div class=\"kurss-example\">Das ist der Spiegel. Das sind die Spiegel.</div><div class=\"kurss-example\">Das ist der Lappen. Das sind die Lappen.</div><div class=\"kurss-example\">Das ist der Spaten. Das sind die Spaten.</div><div class=\"kurss-example\">Das ist der Besen. Das sind die Besen.</div><div class=\"kurss-example\">Das ist die Schaufel. Das sind die Schaufeln.</div><div class=\"kurss-example\">Das ist die Schüssel. Das sind die Schüsseln.</div><div class=\"kurss-example\">Das ist das Zimmer. Das sind die Zimmer.</div><div class=\"kurss-example\">Das ist das Ufer. Das sind die Ufer.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">singen — laulma</div><div class=\"kurss-example\">singe — laula</div><div class=\"kurss-example\">singt — laulge</div><div class=\"kurss-example\">singen Sie — laulge</div><div class=\"kurss-example\">das Lied (das liit) — laul</div><div class=\"kurss-example\">Sie — Teie</div><div class=\"kurss-example\">zählen — lugema</div><div class=\"kurss-example\">das Fräulein (froilain) — preili</div><div class=\"kurss-example\">der Müller — mölder</div><div class=\"kurss-example\">öffnen — avama</div><div class=\"kurss-example\">das Fenster (fenster) — aken</div><div class=\"kurss-example\">alle — kõik</div><div class=\"kurss-example\">der Spiegel (špiigel) — peegel</div><div class=\"kurss-example\">der Lappen — lapp</div><div class=\"kurss-example\">der Spaten — labidas</div><div class=\"kurss-example\">der Besen — luud</div><div class=\"kurss-example\">die Schaufel — kühvel</div><div class=\"kurss-example\">die Schüssel — kauss</div><div class=\"kurss-example\">das Zimmer — tuba</div><div class=\"kurss-example\">das Ufer (uufer) — kallas</div></div></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">sp sõna või silbi alguses hääldatakse kui šp: der Spiegel (deer špiigel).</div><div class=\"kurss-example\">sch hääldatakse kui eesti š: die Schaufel (dii šaufel), die Schüssel (dii šüsel).</div><div class=\"kurss-example\">Diftongi äu hääldatakse kui oi: das Fräulein (das froilain).</div></div></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Käskiv kõneviis</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Käskiv kõneviis ainsuse 2. isikus vastab tegusõna ainsuse 2. isiku vormile ilma isikulõputa -st, millele lisatakse lõpp -e.</div><div class=\"kurss-example\">Näited: antworte!, arbeite!, öffne!, zeichne!</div><div class=\"kurss-example\">Väga sageli lõppu -e ei kasutata, kui käskiv vorm muutub sellega üherõhuliseks: geh!, steh!, komm!, tu!, sing!, frag!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>Mitmuse käskiv kõneviis</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Käskiv vorm mitmuse 2. isikus sarnaneb oleviku mitmuse 2. isiku vormiga, kuid seda kasutatakse ilma asesõnata.</div><div class=\"kurss-example\">Näited: antwortet!, arbeitet!, öffnet!, zeichnet!, geht!, steht!, tut!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Viisakusvorm sõnaga Sie</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Viisakusvorm sõnaga „Teie” sarnaneb mitmuse 3. isikuga. Asesõna Sie kirjutatakse suure algustähega ja seisab tegusõna järel.</div><div class=\"kurss-example\">Näited: antworten Sie!, arbeiten Sie!, öffnen Sie!, zeichnen Sie!, gehen Sie!, stehen Sie!, tun Sie!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>öffnen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Tegusõnal öffnen lisatakse kergema häälduse pärast ainsuse 2. ja 3. isikus ning mitmuse 2. isikus tüve ja lõpu vahele e: du öffnest, er öffnet, ihr öffnet.</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Übung / Harjutus</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson7-exercise-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"7. õppetunni harjutuskaart\"><span class=\"lesson1-training-progress\">7. õppetund · Übung: 1 / 16</span><span class=\"lesson1-training-text\">fragen — küsima</span></button><p class=\"lesson1-training-hint\">Puuduta kaarti, et näha käskiva kõneviisi vorme.</p></div></div></details>\n"
+    "legacyHtml": COURSE_LESSON_HTML.kurssLesson7
   },
   "kurssLesson8": {
     "id": "lesson8",
@@ -100,61 +100,61 @@ const COURSE_LESSON_DATA = {
           "der Herr — härra",
           "das Kind — laps",
           "die Kinder — lapsed",
-          "setzt euch (zetst oih) — istuge!",
+          "setzt euch (zect oich) — istuge!",
           "sie setzen sich — nemad istuvad maha",
-          "fragen (koos akusatiiviga) — küsima",
+          "fragen (ar akuzatīvu) — küsima",
           "sprechen — rääkima",
           "er spricht — tema räägib",
           "aber — aga",
-          "sehr (zeer) — väga",
+          "sehr (zēr) — väga",
           "leise — vaikselt",
           "laut — valjult",
-          "jetzt (jetst) — praegu",
+          "jetzt (ject) — praegu",
           "lesen — lugema",
           "lies! — loe!",
           "gut — hästi",
           "schlecht — halvasti",
-          "deutlich (doitlih) — selgelt, arusaadavalt",
+          "deutlich (doitlich) — selgelt, arusaadavalt",
           "schreiben — kirjutama",
-          "endlich (entlih) — lõpuks",
-          "erzählen (ertseelen) — jutustama",
+          "endlich (entlich) — lõpuks",
+          "erzählen (ercēlen) — jutustama",
           "zuhören — kuulama",
           "sie hören zu — nemad kuulavad",
           "was ist das — mis see on?",
           "der Arbeiter — töömees",
           "der Müller — mölder",
           "der Tischler — puusepp",
-          "der Bäcker (deer beeker) — pagar",
-          "der Schneider (deer šnaider) — rätsepp",
-          "der Gärtner (deer gertner) — aednik",
+          "der Bäcker (dēr beker) — pagar",
+          "der Schneider (dēr šneider) — rätsepp",
+          "der Gärtner (dēr gertner) — aednik",
           "der Schuster — kingsepp"
         ]
       },
       {
         "title": "Hääldus",
         "items": [
-          "ä, nagu juba mainitud, hääldatakse kas kitsa lühikese või pika e-häälikuna. Näited: der Bäcker (beeker), das Mädchen (meetchen).",
-          "ä hääldatakse mõnikord ka laia e-häälikuna, näiteks sõnas der Gärtner (deer gertner).",
-          "Sõnades Schüler, Bücher on ü pikk, aga sõnas Müller on ü lühike.",
-          "ie hääldatakse kui pikk ii: liest (liist).",
-          "ß hääldatakse kui s: grüßen (grüsen).",
-          "eu hääldatakse kui oi: deutlich (doitlih)."
+          "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
+          "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
+          "Vārdos Schüler, Bücher — Sõnades Schüler, Bücher on ü pikk, aga sõnas Müller on ü lühike.",
+          "ie izrunā kā garo ī: liest (līst).",
+          "ß izrunā kā s: grüßen (grüsen).",
+          "eu izrunā kā oi: deutlich (doitlich)."
         ]
       },
       {
         "title": "Gramatika",
         "items": [
-          "Paljudel tegusõnadel, mille tüves on täishäälik e, on ainsuse 2. ja 3. isikus olevikus e asemel i või ie.",
+          "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
           "sprechen — ich spreche, du sprichst, er spricht.",
           "geben — ich gebe, du gibst, er gibt.",
           "essen — ich esse, du isst, er isst.",
           "nehmen — ich nehme, du nimmst, er nimmt.",
           "lesen — ich lese, du liest, er liest.",
           "sehen — ich sehe, du siehst, er sieht.",
-          "Nendel tegusõnadel on ka ainsuse käskivas kõneviisis tüves e asemel i või ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
-          "Eesti keeles ei ole refleksiivsetel tegusõnadel eraldi käänet. Saksa keeles ei ole neil ka erilist pöördumist. Neid pööratakse samamoodi nagu teisi tegusõnu, lisades refleksiivse asesõna sich.",
+          "Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+          "Latviešu valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. Vācu valodā sevišķas konjugācijas nav. Tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.",
           "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
-          "Käskiv kõneviis: setz(e) dich!, setzt euch!, setzen Sie sich!"
+          "Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie sich!"
         ]
       },
       {
@@ -473,35 +473,35 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Sõnad",
         "items": [
-          "mehrere (meerere) — mitu, mitmed",
-          "hier (hiir) — siin",
+          "mehrere (mērere) — mitu, mitmed",
+          "hier (hīr) — siin",
           "dort — seal",
           "auch — ka",
-          "langsam (langzaam) — aeglaselt",
+          "langsam (lankzām) — aeglaselt",
           "schnell (šnel) — kiiresti",
-          "mehr (meer) — rohkem",
+          "mehr (mēr) — rohkem",
           "zumachen — sulgema",
           "ich mache zu — mina sulgen",
-          "sitzen (zitsen) — istuma",
-          "ruhig (ruu-ih) — rahulikult",
-          "dieser (diizer) — see",
-          "jener (jeener) — too",
-          "der Brief (deer briif) — kiri",
+          "sitzen (zicen) — istuma",
+          "ruhig (rū-ih) — rahulikult",
+          "dieser (dīzer) — see",
+          "jener (jēner) — too",
+          "der Brief (dēr brīf) — kiri",
           "die Briefe — kirjad",
-          "kurz (kurts) — lühike",
+          "kurz (kurc) — lühike",
           "rein — puhas",
-          "schmutzig (šmutsih) — must (määrdunud)"
+          "schmutzig (šmucich) — must (määrdunud)"
         ]
       },
       {
         "title": "Gramatika",
         "items": [
           {
-            "heading": "Näitavad asesõnad",
+            "heading": "Norādāmie vietniekvārdi",
             "text": "Näitavaid asesõnu dieser ja jener käänatakse nagu määravat artiklit."
           },
           {
-            "heading": "Ainsus",
+            "heading": "Vienskaitlis",
             "table": [
               [
                 "Nominativ",
@@ -518,7 +518,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Mitmus",
+            "heading": "Daudzskaitlis",
             "table": [
               [
                 "Nominativ",
@@ -535,7 +535,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Artiklit ei kasutata",
+            "heading": "Artikulu nelieto",
             "text": "Kui nimisõna ees on asesõna või arvsõna, artiklit ei kasutata."
           },
           {
@@ -933,7 +933,7 @@ const COURSE_LESSON_DATA = {
           "ich bin gesund — mina olen terve",
           "du bist — sina oled",
           "wir sind — meie oleme",
-          "ihr seid (iir zait) — teie olete",
+          "ihr seid (īr zeit) — teie olete",
           "ich kann — mina saan/võin",
           "du kannst — sina saad/võid",
           "er kann — tema saab/võib",
@@ -943,15 +943,15 @@ const COURSE_LESSON_DATA = {
           "sei gesund — ole terve!",
           "seid gesund — olge terved!",
           "seien Sie gesund — olge Teie terve!",
-          "der Knabe (deer knaabe) — poiss",
+          "der Knabe (dēr knābe) — poiss",
           "der Mann — mees",
           "die Frau — naine",
-          "der Großvater (deer groosfaater) — vanaisa",
+          "der Großvater (dēr grōsfāter) — vanaisa",
           "krank — haige",
-          "fleißig (flaiših) — usin",
+          "fleißig (fleišich) — usin",
           "lernen — õppima",
           "alt — vana",
-          "das Jahr (jaar) — aasta",
+          "das Jahr (jār) — aasta",
           "die Jahre — aastad",
           "wie — kuidas, milline, kui"
         ]
@@ -959,16 +959,16 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Hääldus",
         "items": [
-          "Täishäälikute muundvorme tuleb õigesti hääldada.",
-          "ö hääldatakse ümarate huultega kui e: wir können, ihr könnt, sie können, der Löffel.",
-          "ü hääldatakse ümarate huultega kui i: Müller (müller), Bücher (bücher).",
-          "Täishääliku pikkus või lühidus sõltub järgnevatest kaashäälikutest.",
-          "Kui täishäälikule järgneb üks kaashäälik, hääldatakse täishäälikut pikalt: Vögel (foogel), Schüler (šuuler), Bücher (buuher).",
-          "Kui täishäälikule järgneb kaks või rohkem kaashäälikut, hääldatakse täishäälikut lühidalt: wir können, der Löffel, der Müller.",
-          "Saksa keele o hääldatakse puhta täishäälikuna, mitte diftongina.",
-          "Õigesti hääldatuna: der Großvater (deer groosfaater).",
-          "Diftongi ei hääldatakse kui ai: seid (zait), fleißig (flaiših).",
-          "Saksa e võib olla kitsas või lai: der Lehrer (deer leerer). Tüve ee on pikk ja kitsas, lõpu e on lühike ja lai."
+          "Pareizi jāizrunā patskaņu pārkaņojumi.",
+          "ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der Löffel.",
+          "ü izrunā ar apaļotām lūpām kā i: Müller (müller), Bücher (bücher).",
+          "Patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem.",
+          "Ja patskanim seko viens līdzskanis, patskani izrunā gari: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
+          "Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir können, der Löffel, der Müller.",
+          "Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nominatīvs, fotogrāfs.",
+          "Pareizi izrunā: der Großvater (dēr grōsfāter).",
+          "Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).",
+          "Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celma ē ir garš un šaurs, galotnes e ir īss un plats."
         ]
       },
       {
@@ -1100,7 +1100,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "lv": "Kes sina oled?",
-            "de": "Was bist du?"
+            "de": "Wer bist du?"
           },
           {
             "lv": "Mina olen mees.",
@@ -1197,38 +1197,38 @@ const COURSE_LESSON_DATA = {
           "wir haben — meil on",
           "ihr habt — teil on",
           "sie haben — neil on",
-          "der Bruder (deer bruuder) — vend",
+          "der Bruder (dēr brūder) — vend",
           "die Brüder — vennad",
-          "das Zimmer (das tsimer) — tuba",
+          "das Zimmer (das cimer) — tuba",
           "ist nicht — ei ole",
-          "groß (groos) — suur",
+          "groß (grōs) — suur",
           "hell — hele",
           "breit — lai",
-          "der Schreibtisch (deer šraibtiš) — kirjutuslaud",
+          "der Schreibtisch (dēr šreibtīš) — kirjutuslaud",
           "da — seal",
           "kein, keine, kein — mitte ükski",
-          "zusammen (tsuzaamen) — koos",
+          "zusammen (cuzāmen) — koos",
           "oft — sageli",
-          "der Freund (deer froint) — sõber",
+          "der Freund (dēr froint) — sõber",
           "die Freunde — sõbrad",
           "der Schrank — kapp",
-          "der Stuhl (deer štuul) — tool",
+          "der Stuhl (dēr štūl) — tool",
           "die Stühle — toolid",
           "die Tischlampe — laualamp",
           "das Bücherbrett — raamaturiiul",
-          "die Landkarte (dii lantkarte) — maakaart",
+          "die Landkarte (dī lantkarte) — maakaart",
           "glücklich — õnnelik",
           "denn — sest",
-          "die Schwester (dii švester) — õde",
+          "die Schwester (dī švester) — õde",
           "die Schwestern — õed"
         ]
       },
       {
         "title": "Hääldus",
         "items": [
-          "eu hääldatakse kui oi: der Freund (deer froint), neun (noin).",
-          "h on enamasti eelneva täishääliku pikendusmärk: der Stuhl (deer štuul), zehn (tseen).",
-          "z hääldatakse kui eesti ts: Franz (frants), das Zimmer (tsimer)."
+          "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
+          "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
+          "z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer)."
         ]
       },
       {
@@ -1243,47 +1243,47 @@ const COURSE_LESSON_DATA = {
             "table": [
               [
                 "ich habe",
-                "minul on"
+                "man ir"
               ],
               [
                 "du hast",
-                "sinul on"
+                "tev ir"
               ],
               [
                 "er/sie/es hat",
-                "temal on"
+                "viņam/viņai/tam ir"
               ],
               [
                 "wir haben",
-                "meil on"
+                "mums ir"
               ],
               [
                 "ihr habt",
-                "teil on"
+                "jums ir"
               ],
               [
                 "sie haben",
-                "neil on"
+                "viņiem ir"
               ]
             ]
           },
           {
-            "heading": "Eesti omastav vorm ja saksa nominatiiv/akusatiiv",
+            "heading": "Latviešu datīvs un vācu nominatīvs/akuzatīvs",
             "text": "Eesti keeles kasutatakse omamise väljendamiseks adessiivi (minul, sinul, temal), aga saksa keeles on omav isik nominatiivis ja omatav ese akusatiivis."
           },
           {
-            "heading": "Näited",
+            "heading": "Piemēri",
             "examples": [
-              "Ich habe einen Tisch — minul on laud",
-              "Der Vater hat ein Buch — isal on raamat",
-              "Sie haben eine Feder — neil on sulg"
+              "Ich habe einen Tisch — man ir galds",
+              "Der Vater hat ein Buch — tēvam ir grāmata",
+              "Sie haben eine Feder — viņiem ir spalva"
             ]
           },
           {
-            "heading": "Võrdlus teiste keeltega",
+            "heading": "Salīdzinājums ar citām valodām",
             "examples": [
-              "vene keeles: я имею тетрадь; отец имеет книгу. — eesti keeles: mul on vihik; isal on raamat.",
-              "inglise keeles: I have a book; the father has a pencil. — eesti keeles: mul on raamat; isal on pliiats."
+              "krievu: я имею тетрадь; отец имеет книгу.",
+              "angļu: I have a book; the father has a pencil."
             ]
           },
           {
@@ -1291,10 +1291,10 @@ const COURSE_LESSON_DATA = {
             "text": "Tegusõna haben tuleb hästi selgeks õppida ja õigesti kasutada. Ka käskiva kõneviisi vorme tuleb teada."
           },
           {
-            "heading": "Imperativ — näited",
+            "heading": "Imperativ — piemēri",
             "examples": [
-              "habe Geduld! — kannatust! / olgu sul kannatust!",
-              "habt Geduld! — olgu teil kannatust!",
+              "habe Geduld! — pacietību! / lai tev ir pacietība!",
+              "habt Geduld! — lai jums ir pacietība!",
               "Fräulein Müller, haben Sie Geduld!"
             ]
           },
@@ -1303,7 +1303,7 @@ const COURSE_LESSON_DATA = {
             "text": "Saksa keeles ei väljendata topelteitust eitava sõnaga kein. Eitav sõna kein seisab ainult nimisõna ees."
           },
           {
-            "heading": "Kein — ainsus",
+            "heading": "Kein — vienskaitlis",
             "table": [
               [
                 "Nominativ",
@@ -1320,7 +1320,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kein — mitmus",
+            "heading": "Kein — daudzskaitlis",
             "table": [
               [
                 "Nominativ",
@@ -1333,22 +1333,22 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Sõnajärg sõnaga denn",
+            "heading": "Vārdu kārtība ar denn",
             "text": "Kui jutustavas lauses on sidesõna denn, jääb tegusõna 2. kohale. Sidesõna denn ei loeta lauseliikmeks."
           },
           {
-            "heading": "Denn — näited",
+            "heading": "Denn — piemēri",
             "examples": [
               "Ich bin glücklich, denn ich habe Brüder.",
               "Wir sind glücklich, denn wir haben Schwestern."
             ]
           },
           {
-            "heading": "Liitnimisõnad",
+            "heading": "Saliktie lietvārdi",
             "text": "Liitnimisõna ees seisab viimase nimisõna artikkel. Rõhk on esimesel sõnal."
           },
           {
-            "heading": "Liitnimisõnad — näited",
+            "heading": "Saliktie lietvārdi — piemēri",
             "examples": [
               "der Tisch + die Lampe = die Tischlampe",
               "die Bücher + das Brett = das Bücherbrett",
@@ -1499,7 +1499,7 @@ const COURSE_LESSON_DATA = {
           "jung — noor",
           "jünger als ich — noorem kui mina",
           "so alt wie — sama vana kui",
-          "der Vetter (deer feter) — nõbu",
+          "der Vetter (dēr feter) — nõbu",
           "am ältesten (am eltesten) — kõige vanem",
           "ebenso — samuti",
           "wie — nagu, kuidas",
@@ -1509,7 +1509,7 @@ const COURSE_LESSON_DATA = {
           "blau — sinine",
           "braun — pruun",
           "gelb — kollane",
-          "das Gummi (das gumii) — kustutuskumm",
+          "das Gummi (das gumī) — kustutuskumm",
           "grau — hall",
           "der Baum — puu",
           "grün — roheline",
@@ -1526,9 +1526,9 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Hääldus",
         "items": [
-          "x hääldatakse kui ks: Max (maks), Felix (feeliks).",
-          "Sõnades Schwester, am jüngsten hääldatakse st tavalise st-häälikuna: Schwester (švester), jüngsten (jünksten).",
-          "h sõnas der Federhalter on hääldatav häälik, aga sõnas der Sohn on see pikendusmärk."
+          "x izrunā kā ks: Max (maks), Felix (feliks).",
+          "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
+          "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — h sõnas der Federhalter on hääldatav häälik, aga sõnas der Sohn on see pikendusmärk."
         ]
       },
       {
@@ -1544,7 +1544,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Umlaut võrdlevas astmes",
+            "heading": "Umlaut pārākajā pakāpē",
             "text": "Enamikul üherõhulistel omadussõnadel, mille tüves on täishäälik a, o, u, on võrdlevas astmes Umlaut.",
             "examples": [
               "lang — länger",
@@ -1553,7 +1553,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Võrdlemine sõnadega wie ja als",
+            "heading": "Salīdzināšana ar wie un als",
             "text": "wie kasutatakse võrdsuse väljendamiseks. als kasutatakse ebavõrdsuse väljendamiseks.",
             "examples": [
               "Elsa ist so alt wie mein Vetter.",
@@ -1569,7 +1569,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Ebareeglipärased võrdlusastmed",
+            "heading": "Neregulārās salīdzināmās pakāpes",
             "table": [
               [
                 "Positiv",
@@ -1577,32 +1577,32 @@ const COURSE_LESSON_DATA = {
                 "Superlativ"
               ],
               [
-                "nah (lähedal)",
+                "nah (tuvs)",
                 "näher",
                 "am nächsten"
               ],
               [
-                "hoch (kõrge)",
+                "hoch (augsts)",
                 "höher",
                 "am höchsten"
               ],
               [
-                "gut (hea)",
+                "gut (labs)",
                 "besser",
                 "am besten"
               ],
               [
-                "viel (palju)",
+                "viel (daudz)",
                 "mehr",
                 "am meisten"
               ],
               [
-                "bald (peagi)",
+                "bald (drīz)",
                 "eher",
                 "am ehesten"
               ],
               [
-                "gern (meelsasti)",
+                "gern (labprāt)",
                 "lieber",
                 "am liebsten"
               ]
@@ -1834,7 +1834,7 @@ const COURSE_LESSON_DATA = {
         "title": "Gramatika",
         "items": [
           {
-            "heading": "Umlaut olevikus",
+            "heading": "Umlaut tagadnē",
             "text": "Mõnedel tegusõnadel, mille tüves on täishäälik a või au, on oleviku ainsuse 2. ja 3. isikus Umlaut.",
             "examples": [
               "halten — ich halte, du hältst, er hält",
@@ -1846,7 +1846,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Refleksiivne tegusõna",
+            "heading": "Atgriezeniskais darbības vārds",
             "text": "sich umkehren — ümber pöörduma",
             "examples": [
               "ich kehre mich um",
@@ -1858,7 +1858,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Käskiv kõneviis sõnaga sich umkehren",
+            "heading": "Pavēles forma ar sich umkehren",
             "examples": [
               "kehr(e) dich um!",
               "kehrt euch um!",
@@ -1866,7 +1866,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Tegusõna atmen",
+            "heading": "Darbības vārds atmen",
             "text": "atmen — hingama",
             "examples": [
               "ich atme",
@@ -1878,7 +1878,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Käskiv kõneviis sõnaga atmen",
+            "heading": "Pavēles forma ar atmen",
             "examples": [
               "Paul, atme tief!",
               "Paul und Franz, atmet tief!",
@@ -1886,7 +1886,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Liittegusõnad",
+            "heading": "Saliktie darbības vārdi",
             "text": "Kui eesliide on rõhutatud, eraldub see olevikus ja läheb lause lõppu.",
             "examples": [
               "ausstrecken: ich strecke einen Arm aus.",
@@ -1894,7 +1894,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Lahutamatud eesliited",
+            "heading": "Neatdalāmie priedēkļi",
             "text": "Kui eesliide ei ole rõhutatud, ei eraldu see.",
             "examples": [
               "beschneiden: ich beschneide die Nägel.",
@@ -1902,23 +1902,23 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Asesõna jeder",
+            "heading": "Vietniekvārds jeder",
             "text": "Asesõna jeder käänatakse nagu artikleid der / die / das.",
             "table": [
               [
                 "",
-                "Meessugu",
-                "Naissugu",
-                "Kesksugu"
+                "Vīriešu",
+                "Sieviešu",
+                "Vidējā"
               ],
               [
-                "Nominatiiv",
+                "Nominatīvs",
                 "jeder Finger",
                 "jede Hand",
                 "jedes Bein"
               ],
               [
-                "Akusatiiv",
+                "Akuzatīvs",
                 "jeden Finger",
                 "jede Hand",
                 "jedes Bein"
@@ -1926,7 +1926,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Mitmus ilma lõputa",
+            "heading": "Daudzskaitlis bez galotnes",
             "examples": [
               "der Bruder — die Brüder",
               "der Finger — die Finger",
@@ -1936,7 +1936,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Mitmus lõpuga -e",
+            "heading": "Daudzskaitlis ar galotni -e",
             "examples": [
               "der Stuhl — die Stühle",
               "der Kopf — die Köpfe",
@@ -1948,7 +1948,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Mitmus lõpuga -en või -n",
+            "heading": "Daudzskaitlis ar galotni -en vai -n",
             "examples": [
               "die Feder — die Federn",
               "die Karte — die Karten",
@@ -1958,7 +1958,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Mitmus lõpuga -er",
+            "heading": "Daudzskaitlis ar galotni -er",
             "examples": [
               "das Buch — die Bücher",
               "das Haus — die Häuser",
@@ -1967,7 +1967,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Naissoost nimisõnad lõpuga -in",
+            "heading": "Sieviešu kārtas lietvārdi ar -in",
             "text": "Naissoost nimisõnad, mis on moodustatud lõpuga -in, saavad mitmuses lõpu -nen.",
             "examples": [
               "der Lehrer — die Lehrerin — die Lehrerinnen",
@@ -1981,12 +1981,12 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Hääldus",
         "items": [
-          "h sõnas halten on kuuldav häälik.",
-          "h sõnas fahren näitab täishääliku pikkust.",
-          "a sõnas halten hääldatakse lühidalt: halten.",
-          "a sõnas tragen hääldatakse pikalt: tragen.",
-          "äu hääldatakse kui oi: du läufst, er läuft.",
-          "pf sõnas Kopf hääldatakse nii, et mõlemad kaashäälikud on kuuldavad."
+          "h vārdā halten ir dzirdama skaņa.",
+          "h vārdā fahren rāda patskaņa garumu.",
+          "a vārdā halten izrunā īsi: halten.",
+          "a vārdā tragen izrunā gari: tragen.",
+          "äu izrunā kā oi: du läufst, er läuft.",
+          "pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt."
         ]
       },
       {
@@ -2270,11 +2270,11 @@ const COURSE_LESSON_DATA = {
         "title": "Gramatika",
         "items": [
           {
-            "heading": "Modaaltegusõnad",
+            "heading": "Modālie darbības vārdi",
             "text": "Tegusõnad müssen, wollen ja mögen on modaaltegusõnad."
           },
           {
-            "heading": "Ainsuse 1. ja 3. isik",
+            "heading": "1. un 3. persona vienskaitlī",
             "text": "Oleviku ainsuses on 1. ja 3. isik ühesugused.",
             "examples": [
               "ich muss",
@@ -2319,7 +2319,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Tüve täishääliku muutus",
+            "heading": "Celma patskaņu maiņa",
             "examples": [
               "müssen: ich muss — wir müssen",
               "wollen: ich will — wir wollen",
@@ -2330,26 +2330,26 @@ const COURSE_LESSON_DATA = {
             "heading": "Müssen",
             "text": "Müssen tähendab pidama / olema vajalik.",
             "examples": [
-              "Ich muss lernen. — Mina pean õppima."
+              "Ich muss lernen. — Man jāmācās."
             ]
           },
           {
             "heading": "Wollen",
             "text": "Wollen tähendab teadlikult midagi tahta teha.",
             "examples": [
-              "Ich will vorwärts kommen. — Mina tahan edasi jõuda."
+              "Ich will vorwärts kommen. — Es gribu tikt uz priekšu."
             ]
           },
           {
             "heading": "Mögen",
             "text": "Mögen väljendab soovi või meeldimist.",
             "examples": [
-              "Ich mag die Suppe nicht essen. — Mina ei taha suppi süüa.",
-              "Die Suppe mundet mir nicht. — Supp ei maitse mulle."
+              "Ich mag die Suppe nicht essen. — Es negribu zupu ēst.",
+              "Die Suppe mundet mir nicht. — Zupa man negaršo."
             ]
           },
           {
-            "heading": "Tähtis",
+            "heading": "Svarīgi",
             "text": "Eesti keeles ütleme sageli „ma pean õppima”, „sa pead kirjutama”, „ta peab tulema”. Saksa keeles kasutatakse sellistes lausetes sageli müssen.",
             "examples": [
               "Ich muss lernen.",
@@ -2362,12 +2362,12 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Hääldus",
         "items": [
-          "ß hääldatakse kui eesti s.",
-          "ß kirjutatakse sõna keskel või lõpus pärast pikka täishäälikut või diftongi: die Füße, die Straße, ich muss, er muss.",
-          "Kui teistes vormides on ss, siis enne lõppu võib olla ß: müssen, ich muss, du musst, ihr müsst.",
-          "ö sõnas mögen hääldatakse selge ö-häälikuna.",
-          "Kui g järel on t, kõlab g lähemale k-häälikule: du magst, ihr mögt.",
-          "Selline hääldusmuutus (g kõlab nagu k) on tavaline enne kurte kaashäälikuid."
+          "ß izrunā kā latviešu s.",
+          "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
+          "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
+          "ö vārdā mögen izrunā kā skaidru ö skaņu.",
+          "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
+          "Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai."
         ]
       },
       {
@@ -2523,16 +2523,16 @@ const COURSE_LESSON_DATA = {
             "text": "Sollen tähendab pidama kohustuse tähenduses."
           },
           {
-            "heading": "Võrdlus",
+            "heading": "Salīdzinājums",
             "examples": [
-              "müssen — pidama vajaduse või veendumuse tõttu",
-              "sollen — pidama kohustuse tähenduses",
-              "Ich muss lernen. — Mina pean õppima, sest see on vajalik.",
-              "Ich soll lernen. — Mina pean õppima, sest see on minu kohustus."
+              "müssen — vajadzēt aiz nepieciešamības vai pārliecības",
+              "sollen — vajadzēt pienākuma nozīmē",
+              "Ich muss lernen. — Man jāmācās, jo tas ir nepieciešams.",
+              "Ich soll lernen. — Man jāmācās, jo tas ir mans pienākums."
             ]
           },
           {
-            "heading": "Sollen vormid",
+            "heading": "Sollen formas",
             "text": "Tegusõnal sollen on oleviku ainsuse 1. ja 3. isik ühesugused.",
             "examples": [
               "ich soll",
@@ -2568,14 +2568,14 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Tänapäevane kirjaviis",
+            "heading": "Mūsdienu rakstība",
             "text": "Kui kasutatakse tänapäevast kirjaviisi, võib kirjutada: du isst, er/sie/es isst, ihr esst."
           },
           {
             "heading": "entzweischneiden",
             "text": "Liittegusõnas entzweischneiden on rõhk eesliitel entzweí-, seepärast eraldub eesliide olevikus ja seisab lause lõpus.",
             "examples": [
-              "Ich schneide den Apfel entzwei. — Mina lõikan õuna pooleks."
+              "Ich schneide den Apfel entzwei. — Es pārgriežu ābolu uz pusēm."
             ]
           }
         ]
@@ -2583,11 +2583,11 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Hääldus",
         "items": [
-          "ä sõnades Äpfel ja schälen hääldatakse kitsa e-häälikuna.",
-          "Sõnas Äpfel hääldatakse ä lühidalt, sest täishäälikule järgneb kaks kaashäälikut.",
-          "Sõnas schälen hääldatakse ä pikalt, sest täishäälikule järgneb üks kaashäälik.",
-          "Sõnas gern on e lühike ja lai.",
-          "Pea meeles: diftong ei hääldatakse saksa keeles kui ai: reif, unreif."
+          "ä vārdos Äpfel un schälen izrunā kā šauro e.",
+          "Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.",
+          "Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.",
+          "Vārdā gern e ir īss un plats.",
+          "Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif."
         ]
       },
       {
@@ -2728,17 +2728,17 @@ const COURSE_LESSON_DATA = {
         "title": "Gramatika",
         "items": [
           {
-            "heading": "Daativ",
+            "heading": "Dativs",
             "text": "Daativ vastab küsimusele: wem? — kellele?"
           },
           {
-            "heading": "Ainsus",
+            "heading": "Vienskaitlis",
             "table": [
               [
                 "",
-                "Meessugu",
-                "Naissugu",
-                "Kesksugu"
+                "Vīriešu",
+                "Sieviešu",
+                "Vidējā"
               ],
               [
                 "Nominativ",
@@ -2761,13 +2761,13 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Mitmus",
+            "heading": "Daudzskaitlis",
             "table": [
               [
                 "",
-                "Meessugu",
-                "Naissugu",
-                "Kesksugu"
+                "Vīriešu",
+                "Sieviešu",
+                "Vidējā"
               ],
               [
                 "Nominativ",
@@ -2790,7 +2790,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daativi -e",
+            "heading": "Datīva -e",
             "text": "Meessoost ja kesksoost nimisõnad võivad ainsuse daativis saada lõpu -e. Tänapäeval jäetakse see lõpp sageli ära.",
             "examples": [
               "dem Sohne / dem Sohn",
@@ -2800,7 +2800,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Naissugu daativis",
+            "heading": "Sieviešu kārta datīvā",
             "text": "Naissoost nimisõnad ei saa ainsuse daativis lõppu.",
             "examples": [
               "die Tochter — der Tochter",
@@ -2809,7 +2809,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Umbmäärane artikkel daativis",
+            "heading": "Nenoteiktais artikuls datīvā",
             "examples": [
               "ein Messer — einem Messer",
               "das Messer — dem Messer",
@@ -2820,7 +2820,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Mitmuse daativ",
+            "heading": "Daudzskaitļa datīvs",
             "text": "Mitmuse daativis saavad artikkel ja nimisõna sageli lõpu -n.",
             "examples": [
               "die Bücher — den Büchern",
@@ -2830,7 +2830,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kui mitmus juba lõpeb -n-iga",
+            "heading": "Ja daudzskaitlis jau beidzas ar -n",
             "text": "Kui mitmus juba lõpeb -n-iga, ei lisata veel üht -n-i.",
             "examples": [
               "die Wiesen — den Wiesen",
@@ -2857,14 +2857,14 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Mitmus Umlautiga",
+            "heading": "Daudzskaitlis ar Umlaut",
             "examples": [
               "die Mutter — die Mütter",
               "die Tochter — die Töchter"
             ]
           },
           {
-            "heading": "Ilma artiklita",
+            "heading": "Bez artikula",
             "text": "Sõnad, mida sageli kasutatakse ilma artiklita: die Milch, das Brot."
           }
         ]
@@ -2872,10 +2872,10 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Hääldus",
         "items": [
-          "Sõnades wem, dem, den, der on e pikk ja kitsas.",
-          "Sõnas gehorchen on h kuuldav: ge-hor-chen.",
-          "die Wälder: ä hääldatakse kitsa lühikese e-häälikuna.",
-          "die Bäuerinnen: äu hääldatakse kui oi.",
+          "Vārdos wem, dem, den, der — Sõnades wem, dem, den, der on e pikk ja kitsas.",
+          "Vārdā gehorchen h ir dzirdams: ge-hor-chen.",
+          "die Wälder: ä izrunā kā šaurais īsais e.",
+          "die Bäuerinnen: äu izrunā kā oi.",
           "-ie tähistab pikka ii-häälikut: die Wiese."
         ]
       },
@@ -3102,8 +3102,8 @@ const COURSE_LESSON_DATA = {
             "heading": "mit wem? / womit?",
             "text": "Saksa keeles väljendatakse küsimust „kellega/millega?” kahtemoodi: mit wem? — isikute kohta, womit? — asjade/esemete kohta.",
             "examples": [
-              "Mit wem spricht der Bruder? — Kellega räägib vend?",
-              "Womit gräbt der Knabe die Grube? — Millega kaevab poiss auku?"
+              "Mit wem spricht der Bruder? — Ar ko runā brālis?",
+              "Womit gräbt der Knabe die Grube? — Ar ko zēns rok bedri?"
             ]
           },
           {
@@ -3147,7 +3147,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Lahutatavad eesliited",
+            "heading": "Atdalāmie priedēkļi",
             "text": "Liittegusõnadel auffangen ja abwischen on rõhk eesliitel. Seepärast eraldub eesliide olevikus ja seisab lause lõpus.",
             "examples": [
               "Das Mädchen fängt den Ball auf.",
@@ -3158,9 +3158,9 @@ const COURSE_LESSON_DATA = {
             "heading": "fegen / wischen",
             "text": "Fegen ja wischen tähendavad mõlemad pühkimist, kuid kasutus erineb.",
             "examples": [
-              "fegen — luuaga pühkima",
+              "fegen — slaucīt ar slotu",
               "Wir fegen mit dem Besen.",
-              "wischen / abwischen — lapiga pühkima, tolmu ära pühkima",
+              "wischen / abwischen — slaucīt ar lupatu, drānu, noslaucīt putekļus",
               "Wir wischen den Staub ab.",
               "Wir wischen die Tafel ab."
             ]
@@ -3170,10 +3170,10 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Hääldus",
         "items": [
-          "Sõnas werfen on esimene e lai: werfen.",
-          "Sõnas wieder on e lai: wieder.",
-          "Sõnades wieder ja die Diele tähistab ie pikka ii-häälikut: wieder, die Diele.",
-          "Sõnas der Spaten hääldatakse sp kui šp: der Spaten."
+          "Vārdā werfen pirmais e ir plats: werfen.",
+          "Vārdā wieder e ir plats: wieder.",
+          "Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Diele.",
+          "Vārdā der Spaten sp izrunā kā šp: der Spaten."
         ]
       },
       {
@@ -3395,81 +3395,81 @@ const COURSE_LESSON_DATA = {
             "heading": "Akkusativ: wohin?",
             "text": "Kui tegevus näitab suunda või koha muutust, kasutatakse Akkusativit. Küsimus: wohin? — kuhu?",
             "examples": [
-              "Ich gehe an den Tisch. — Mina lähen laua juurde.",
-              "Ich stelle den Korb auf die Bank. — Mina panen korvi pingi peale.",
-              "Ich lege die Äpfel in das Körbchen. — Mina panen õunad korvikesse.",
-              "Ich gieße das Wasser in den Krug. — Mina valan vee kannu."
+              "Ich gehe an den Tisch. — Es eju pie galda.",
+              "Ich stelle den Korb auf die Bank. — Es nolieku grozu uz sola.",
+              "Ich lege die Äpfel in das Körbchen. — Es lieku ābolus groziņā.",
+              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
             ]
           },
           {
             "heading": "Dativ: wo?",
             "text": "Kui tegevus näitab asukohta või seisundit, kasutatakse Dativit. Küsimus: wo? — kus?",
             "examples": [
-              "Ich stehe an dem Tische. — Mina seisan laua juures.",
-              "Der Korb steht auf der Bank. — Korv on pingi peal.",
-              "Die Äpfel sind in dem Körbchen. — Õunad on korvikeses.",
-              "Das Wasser ist in dem Kruge. — Vesi on kannus."
+              "Ich stehe an dem Tische. — Es stāvu pie galda.",
+              "Der Korb steht auf der Bank. — Grozs stāv uz sola.",
+              "Die Äpfel sind in dem Körbchen. — Āboli ir groziņā.",
+              "Das Wasser ist in dem Kruge. — Ūdens ir krūzē."
             ]
           },
           {
-            "heading": "Tegusõnad küsimusega wohin?",
+            "heading": "Darbības vārdi ar wohin?",
             "text": "Need tegusõnad näitavad sageli suunda ja vastavad seetõttu küsimusele wohin?.",
             "examples": [
-              "gehen — minema",
-              "kommen — tulema",
-              "fahren — sõitma",
-              "laufen — jooksma",
-              "fliegen — lendama",
-              "springen — hüppama",
-              "kriechen — roomama",
-              "schleichen — hiilima",
-              "hängen — riputama",
-              "sich setzen — istuma",
-              "sich stellen — seisma asuma",
-              "werfen — viskama",
-              "reiten — ratsutama"
+              "gehen — iet",
+              "kommen — nākt",
+              "fahren — braukt",
+              "laufen — skriet",
+              "fliegen — lidot",
+              "springen — lēkt",
+              "kriechen — rāpot",
+              "schleichen — līst",
+              "hängen — kārt",
+              "sich setzen — apsēsties",
+              "sich stellen — nostāties",
+              "werfen — mest",
+              "reiten — jāt"
             ]
           },
           {
-            "heading": "Tegusõnad küsimusega wo?",
+            "heading": "Darbības vārdi ar wo?",
             "text": "Need tegusõnad näitavad sageli asukohta või seisundit ja vastavad seetõttu küsimusele wo?.",
             "examples": [
-              "sein — olema",
-              "sich befinden — asuma",
-              "arbeiten — töötama",
-              "liegen — lamama / asuma",
-              "sitzen — istuma",
-              "hängen — rippuma",
-              "finden — leidma",
-              "suchen — otsima",
-              "spielen — mängima"
+              "sein — būt",
+              "sich befinden — atrasties",
+              "arbeiten — strādāt",
+              "liegen — gulēt / atrasties guļus",
+              "sitzen — sēdēt",
+              "hängen — karāties",
+              "finden — atrast",
+              "suchen — meklēt",
+              "spielen — spēlēt"
             ]
           },
           {
-            "heading": "Ainenimed",
+            "heading": "Vielu vārdi",
             "text": "Ainenimed seisavad tavaliselt ilma artiklita.",
             "examples": [
-              "Ich trinke Milch. — Mina joon piima.",
-              "In dem Eimer ist Wasser. — Ämbris on vesi."
+              "Ich trinke Milch. — Es dzeru pienu.",
+              "In dem Eimer ist Wasser. — Spainī ir ūdens."
             ]
           },
           {
-            "heading": "Konkreetne aine",
+            "heading": "Konkrēta viela",
             "text": "Kui ainet mainitakse kindla koguse või kindla koha kontekstis, kasutatakse artiklit.",
             "examples": [
-              "Ich gieße das Wasser in den Krug. — Mina valan vee kannu."
+              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
             ]
           },
           {
-            "heading": "in + koht",
+            "heading": "in + vieta",
             "text": "Kui kaassõna in ei tõlgi „sees”, vaid väljendab asukohta, saab seda tõlkida kohakäändega.",
             "examples": [
-              "in dem Eimer — ämbris",
-              "in dem Zimmer — toas"
+              "in dem Eimer — spainī",
+              "in dem Zimmer — istabā"
             ]
           },
           {
-            "heading": "Tänapäevased vormid",
+            "heading": "Mūsdienu formas",
             "text": "Vanu vorme, näiteks dem Tische, dem Kruge, im Walde, kasutatakse tänapäeval sageli lühemalt: dem Tisch, dem Krug, im Wald."
           }
         ]
@@ -3477,8 +3477,8 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Hääldus",
         "items": [
-          "Sõnas wohin on h kuuldav: wo-hin.",
-          "Sõnas wo on o pikk: wo."
+          "Vārdā wohin h ir dzirdams: wo-hin.",
+          "Vārdā wo o ir garš: wo."
         ]
       },
       {
@@ -3716,18 +3716,18 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kaassõnad",
+            "heading": "Prievārdi",
             "examples": [
-              "vor — ees",
-              "hinter — taga",
-              "unter — all",
-              "über — üleval / üle",
-              "neben — kõrval",
-              "zwischen — vahel"
+              "vor — priekšā",
+              "hinter — aiz",
+              "unter — zem",
+              "über — virs / pāri",
+              "neben — blakus",
+              "zwischen — starp"
             ]
           },
           {
-            "heading": "Kokkuvõte: wohin?",
+            "heading": "Kopsavilkums: wohin?",
             "text": "Wohin? → Akkusativ",
             "examples": [
               "in das Zimmer",
@@ -3742,7 +3742,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Kokkuvõte: wo?",
+            "heading": "Kopsavilkums: wo?",
             "text": "Wo? → Dativ",
             "examples": [
               "in dem Zimmer",
@@ -3771,11 +3771,11 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Hääldus",
         "items": [
-          "Sõnas vor hääldatakse o pikalt.",
-          "Sõnas hinter on h kuuldav ja e on lai.",
-          "Sõnas der Stuhl: st hääldatakse kui št; h on pikendusmärk ja seda ei hääldata.",
-          "Sõnas der Strauch: st hääldatakse kui št.",
-          "Sõnas wachsen: ch hääldatakse kui k."
+          "Vārdā vor o izrunā gari.",
+          "Vārdā hinter h ir dzirdams, un e ir plats.",
+          "Vārdā der Stuhl: st izrunā kā št; h ir garuma zīme un netiek izrunāts.",
+          "Vārdā der Strauch: st izrunā kā št.",
+          "Vārdā wachsen: ch izrunā kā k."
         ]
       },
       {
@@ -3909,18 +3909,18 @@ const COURSE_LESSON_DATA = {
         "title": "Gramatika",
         "items": [
           {
-            "heading": "Dativ küsimusega wann?",
+            "heading": "Dativs ar wann?",
             "text": "Väljendid, mis 19. ja 20. õppetunnis vastavad küsimusele wann? — millal?, seisavad Dativiga. Dativ vastab mitte ainult küsimusele wo? — kus?, vaid ka küsimusele wann? — millal?.",
             "examples": [
-              "an dem Tage / am Tage — päeval",
-              "in der Nacht — öösel",
-              "in dem Sommer / im Sommer — suvel",
-              "in dem Januar / im Januar — jaanuaris",
-              "vor drei Tagen — kolm päeva tagasi"
+              "an dem Tage / am Tage — dienā",
+              "in der Nacht — naktī",
+              "in dem Sommer / im Sommer — vasarā",
+              "in dem Januar / im Januar — janvārī",
+              "vor drei Tagen — pirms trīs dienām"
             ]
           },
           {
-            "heading": "Kaassõna + artikkel",
+            "heading": "Prievārds + artikuls",
             "text": "Paljud kaassõnad ühinevad artikliga.",
             "examples": [
               "an das Fenster → ans Fenster",
@@ -3932,7 +3932,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "-e- tüve ja lõpu vahel",
+            "heading": "-e- starp celmu un galotni",
             "text": "Kui tegusõna tüvi lõpeb tähtedega t, d, m, n, siis lisatakse ainsuse 2. ja 3. isikus ning mitmuse 2. isikus tüve ja lõpu vahele sageli -e- parema häälduse jaoks.",
             "examples": [
               "anzünden: du zündest an, er zündet an, ihr zündet an",
@@ -3942,7 +3942,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Liitnimisõnad",
+            "heading": "Saliktie lietvārdi",
             "text": "Liitnimisõnad saavad tavaliselt viimase sõna artikli.",
             "examples": [
               "der Stock + das Werk = das Stockwerk",
@@ -3951,7 +3951,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Liitnimisõnade moodustamine",
+            "heading": "Salikto lietvārdu veidošana",
             "examples": [
               "jung + die Frau = die Jungfrau",
               "groß + die Mutter = die Großmutter",
@@ -3973,13 +3973,13 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Hääldus",
         "items": [
-          "Sõnades Stockwerk, Stein, Stadt, stecken hääldatakse st kui št.",
-          "Sõnades der Ofen, der Boden on o pikk.",
-          "sch hääldatakse kui š: der Schornstein, der Mensch.",
-          "Sõnades das Haus, das Holz on h kuuldav ja tuleb hääldada.",
-          "Sõnades die Wohnung, wohnen on h pikendusmärk, seda ei hääldata.",
-          "Sõnades die Küche, die Dächer hääldatakse ch h-tüüpi häälikuna, nagu saksa ich-Laut.",
-          "Sõnas das Vorhaus hääldatakse v kui f."
+          "Vārdos Stockwerk, Stein, Stadt, stecken: st izrunā kā št.",
+          "Vārdos der Ofen, der Boden: o ir garš.",
+          "sch izrunā kā š: der Schornstein, der Mensch.",
+          "Vārdos das Haus, das Holz: h ir dzirdams un jāizrunā.",
+          "Vārdos die Wohnung, wohnen: h ir garuma zīme, to neizrunā.",
+          "Vārdos die Küche, die Dächer: ch izrunā kā “h” tipa skaņu, kā vācu ich-tüüpi häälikuna, nagu saksa ich-Laut.",
+          "Vārdā das Vorhaus: v izrunā kā f."
         ]
       },
       {
@@ -4253,12 +4253,12 @@ const COURSE_LESSON_DATA = {
             "heading": "mit / von / aus + Dativ",
             "text": "Kaassõnad mit, von ja aus nõuavad alati Dativit.",
             "examples": [
-              "mit — koos / -ga",
-              "von — millest",
-              "aus — seest",
-              "mit dem Mann — mehega",
-              "von dem Felde / vom Felde — põllult",
-              "aus der Küche — köögist"
+              "mit — ar",
+              "von — no",
+              "aus — no / iz",
+              "mit dem Mann — ar vīru",
+              "von dem Felde / vom Felde — no lauka",
+              "aus der Küche — no virtuves"
             ]
           },
           {
@@ -4267,11 +4267,11 @@ const COURSE_LESSON_DATA = {
             "examples": [
               "von dem Felde = vom Felde",
               "von dem Berge = vom Berge",
-              "Tänapäevane vorm: vom Feld, vom Berg."
+              "Mūsdienu forma: vom Feld, vom Berg."
             ]
           },
           {
-            "heading": "Woher? — kust?",
+            "heading": "Woher? — no kurienes?",
             "text": "Kui isik või ese asub mingis ruumis, kohas või anumas ja tuleb sealt välja, kasutatakse aus.",
             "examples": [
               "Die Magd ist in der Küche.",
@@ -4295,7 +4295,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Materjal",
+            "heading": "Materiāls",
             "text": "Kui räägitakse materjalist, millest ese on valmistatud, kasutatakse aus.",
             "examples": [
               "Die Türen sind aus Holz.",
@@ -4309,10 +4309,10 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Hääldus",
         "items": [
-          "Sõnas die Axt hääldatakse x kui ks.",
-          "Sõnades arbeiten, das Beil, steigen hääldatakse ei kui ai.",
-          "Sõnas die Scheune hääldatakse eu kui oi.",
-          "Sõnas die Brücke hääldatakse ck kui topelt-k."
+          "Vārdā die Axt: x izrunā kā ks.",
+          "Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai.",
+          "Vārdā die Scheune: eu izrunā kā oi.",
+          "Vārdā die Brücke: ck izrunā kā dubultu k."
         ]
       },
       {
@@ -4461,8 +4461,5 @@ const COURSE_LESSON_DATA = {
   }
 };
 
-
-
 window.COURSE_LESSON_HTML = COURSE_LESSON_HTML;
-
 window.COURSE_LESSON_DATA = COURSE_LESSON_DATA;

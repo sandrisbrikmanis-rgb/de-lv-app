@@ -1364,7 +1364,7 @@ const A2_WORDS = [
         {
           "word": "ablehnen",
           "meaning": "Noraidīt / atteikt",
-          "example": "Ich lehne das Angebot ab. = Ik wijs het aanbod af."
+          "example": "Ich lehne das Angebot ab. = Es noraidu piedāvājumu."
         },
         {
           "word": "kündigen",
@@ -3688,7 +3688,7 @@ const A2_WORDS = [
         {
           "word": "erstellen",
           "meaning": "Izveidot",
-          "example": "Ich erstelle ein Konto. = Ik heb een account aangemaakt."
+          "example": "Ich erstelle ein Konto. = Es izveidoju kontu."
         }
       ],
       "tip": {
@@ -8793,7 +8793,7 @@ const A2_WORDS = [
         {
           "word": "aufwenden",
           "meaning": "Veltīt / ieguldīt / patērēt",
-          "example": "Ich wende viel Zeit auf. = Ik besteed veel tijd."
+          "example": "Ich wende viel Zeit auf. = Es veltu daudz laika."
         },
         {
           "word": "ausgeben",
@@ -9134,7 +9134,7 @@ const A2_WORDS = [
         {
           "word": "zeichnen",
           "meaning": "Zīmēt",
-          "example": "Das Kind zeichnet ein Haus. = Een kind tekent een huis."
+          "example": "Das Kind zeichnet ein Haus. = Bērns zīmē māju."
         },
         {
           "word": "notieren",
@@ -10647,7 +10647,7 @@ const A2_WORDS = [
         {
           "word": "der Zug",
           "meaning": "Konkrēts vilciens",
-          "example": "Der Zug fährt um acht Uhr ab. = De trein vertrekt om acht uur."
+          "example": "Der Zug fährt um acht Uhr ab. = Vilciens atiet astoņos."
         },
         {
           "word": "die Straßenbahn",
@@ -19500,7 +19500,7 @@ const A2_WORDS = [
         {
           "word": "mit dem",
           "meaning": "Ar to konkrēto lietu",
-          "example": "Ich schreibe mit dem Stift. = Met die pen schrijf ik."
+          "example": "Ich schreibe mit dem Stift. = Es rakstu ar to pildspalvu."
         },
         {
           "word": "um ... zu",
@@ -25420,7 +25420,7 @@ const A2_WORDS = [
         {
           "word": "gerade eben",
           "meaning": "Tikko / nupat",
-          "example": "Ich habe ihn gerade eben gesehen. = Ik zag hem net."
+          "example": "Ich habe ihn gerade eben gesehen. = Es viņu tikko redzēju."
         },
         {
           "word": "flach",
@@ -26206,7 +26206,7 @@ const A2_WORDS = [
         {
           "word": "wahr",
           "meaning": "Patiess",
-          "example": "Das ist wahr. = Het is waar."
+          "example": "Das ist wahr. = Tas ir patiess."
         },
         {
           "word": "wirklich",
@@ -34056,7 +34056,7 @@ const A2_WORDS = [
         {
           "word": "besitzen",
           "meaning": "Piederēt / īpašumā būt",
-          "example": "Er besitzt ein Auto. = Hij is eigenaar van een auto."
+          "example": "Er besitzt ein Auto. = Viņam pieder auto."
         },
         {
           "word": "passen",
@@ -41993,12 +41993,12 @@ const A2_WORDS = [
         {
           "word": "kurz vor",
           "meaning": "Īsi pirms",
-          "example": "kurz vor acht = Īsi pirms astoņiem"
+          "example": "kurz vor acht = īsi pirms astoņiem"
         },
         {
           "word": "kurz nach",
           "meaning": "Īsi pēc",
-          "example": "kurz nach dem Essen = Īsi pēc ēšanas"
+          "example": "kurz nach dem Essen = īsi pēc ēšanas"
         },
         {
           "word": "bald",
@@ -42339,7 +42339,7 @@ const A2_WORDS = [
         {
           "word": "die Schicht",
           "meaning": "Slānis / kārta",
-          "example": "eine Schicht Farbe = Viena krāsas kārta"
+          "example": "eine Schicht Farbe = viena krāsas kārta"
         }
       ],
       "tip": [
@@ -43091,7 +43091,7 @@ const A2_WORDS = [
         {
           "word": "kaufen",
           "meaning": "Pirkt",
-          "example": "Ich kaufe das Buch. = Ik koop een boek."
+          "example": "Ich kaufe das Buch. = Es pērku grāmatu."
         }
       ],
       "tip": {
@@ -45306,7 +45306,7 @@ const A2_WORDS = [
         {
           "word": "das Mittel",
           "meaning": "Līdzeklis",
-          "example": "ein Mittel gegen Husten = Līdzeklis pret klepu"
+          "example": "ein Mittel gegen Husten = līdzeklis pret klepu"
         },
         {
           "word": "das Medikament",
@@ -45326,7 +45326,7 @@ const A2_WORDS = [
         {
           "word": "die Mittel",
           "meaning": "Līdzekļi / resursi",
-          "example": "finanzielle Mittel = Finanšu līdzekļi"
+          "example": "finanzielle Mittel = finanšu līdzekļi"
         }
       ],
       "tip": [
@@ -49978,7 +49978,7 @@ const A2_WORDS = [
         {
           "word": "duften",
           "meaning": "Patīkami smaržot",
-          "example": "Die Blumen duften. = Bloemen ruiken."
+          "example": "Die Blumen duften. = Ziedi smaržo."
         },
         {
           "word": "stinken",
@@ -50895,7 +50895,7 @@ const A2_WORDS = [
         {
           "word": "sammeln",
           "meaning": "Vākt / krāt",
-          "example": "Briefmarken sammeln = Krāt pastmarkas"
+          "example": "Briefmarken sammeln = krāt pastmarkas"
         },
         {
           "word": "sich sammeln",
@@ -55919,7 +55919,7 @@ const A2_WORDS = [
         {
           "word": "sobald",
           "meaning": "Tiklīdz / līdzko",
-          "example": "Sobald er kommt, gehen wir. = Zodra hij komt, gaan we."
+          "example": "Sobald er kommt, gehen wir. = Tiklīdz viņš atnāks, mēs iesim."
         },
         {
           "word": "wenn",
@@ -59165,7 +59165,7 @@ const A2_WORDS = [
         {
           "word": "die Tafel Schokolade",
           "meaning": "Šokolādes tāfelīte",
-          "example": "Eine Tafel Schokolade = Šokolādes tāfelīte."
+          "example": "Eine Tafel Schokolade = šokolādes tāfelīte."
         }
       ],
       "tip": {
@@ -61185,7 +61185,7 @@ const A2_WORDS = [
         {
           "word": "halten",
           "meaning": "Turēt",
-          "example": "Ich halte das Kind. = Ik houd een baby vast."
+          "example": "Ich halte das Kind. = Es turu bērnu."
         }
       ],
       "tip": {
@@ -61405,7 +61405,7 @@ const A2_WORDS = [
         {
           "word": "treffen",
           "meaning": "Satikt / trāpīt / pieņemt",
-          "example": "Eine Entscheidung treffen = Pieņemt lēmumu."
+          "example": "Eine Entscheidung treffen = pieņemt lēmumu."
         },
         {
           "word": "sich treffen",
@@ -64292,7 +64292,7 @@ const A2_WORDS = [
         {
           "word": "das Quartier",
           "meaning": "Kvartāls / apkaime",
-          "example": "Das Quartier ist ruhig. = Het blok is stil."
+          "example": "Das Quartier ist ruhig. = Kvartāls ir kluss."
         }
       ],
       "tip": {
@@ -69035,7 +69035,7 @@ const A2_WORDS = [
         {
           "word": "derzeit",
           "meaning": "Pašlaik / patlaban",
-          "example": "Derzeit ist das nicht möglich. = Dit is momenteel niet mogelijk."
+          "example": "Derzeit ist das nicht möglich. = Pašlaik tas nav iespējams."
         },
         {
           "word": "momentan",

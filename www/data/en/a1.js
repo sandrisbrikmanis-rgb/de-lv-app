@@ -668,7 +668,7 @@ const A1_WORDS = [
         {
           "word": "sondern",
           "meaning": "Not • But",
-          "example": "Ich wollte Tee, sondern Kaffee. – I wanted tea, not coffee."
+          "example": "Ich wollte keinen Tee, sondern Kaffee. – I wanted tea, not coffee."
         },
         {
           "word": "jedoch",
@@ -2815,17 +2815,17 @@ const A1_WORDS = [
         {
           "word": "bis",
           "meaning": "Until (the time point is reached)",
-          "example": "Ich bleibe bis 18 Uhr. – I will stay until 6:00 p.m."
+          "example": "Ich bleibe bis morgen. – I will stay until 6:00 p.m."
         },
         {
-          "word": "bis ... zu",
+          "word": "bis zu",
           "meaning": "Until (until a certain time)",
-          "example": "Ich arbeite von 9 bis 17 Uhr. – I work from 9 to 17."
+          "example": "bis zum Bahnhof – I work from 9 to 17."
         },
         {
-          "word": "bis dass",
+          "word": "bis jetzt",
           "meaning": "Until",
-          "example": "Ich warte, bis dass du kommst. – I'm waiting for you to come."
+          "example": "Bis jetzt habe ich nichts verstanden. – I'm waiting for you to come."
         },
         {
           "word": "bis jetzt",
@@ -3150,12 +3150,12 @@ const A1_WORDS = [
         {
           "word": "die Bitte",
           "meaning": "please",
-          "example": "Komm bitte herein. – Please come in."
+          "example": "Ich habe eine Bitte. – Please come in."
         },
         {
           "word": "bitte",
           "meaning": "request",
-          "example": "Ich habe eine Bitte. – I have a request."
+          "example": "Komm bitte herein. – I have a request."
         }
       ]
     }
@@ -3512,6 +3512,11 @@ const A1_WORDS = [
           "word": "bringen",
           "meaning": "Take away and bring",
           "example": "Ich bringe dir ein Buch. – Es tev atnesu grāmatu."
+        },
+        {
+          "word": "nehmen",
+          "meaning": "paņemt",
+          "example": "Ich nehme das Buch. – Es paņemu grāmatu."
         }
       ],
       "tip": {
@@ -4961,22 +4966,22 @@ const A1_WORDS = [
         {
           "word": "das Eis",
           "meaning": "Ice / ice cream",
-          "example": "Ich esse ein Eis. = I eat ice cream."
+          "example": "Ich esse ein Eis. = Es ēdu saldējumu."
         },
         {
           "word": "der Schnee",
           "meaning": "It will snow",
-          "example": "Der Schnee ist weiß. = The snow is white."
+          "example": "Der Schnee ist weiß. = Sniegs ir balts."
         },
         {
           "word": "kalt",
           "meaning": "Cold",
-          "example": "Das Wasser ist kalt. = The water is cold."
+          "example": "Das Wasser ist kalt. = Ūdens ir auksts."
         },
         {
           "word": "das Dessert",
           "meaning": "Dessert",
-          "example": "Eis ist ein Dessert. = Ice cream is a dessert."
+          "example": "Eis ist ein Dessert. = Saldējums ir deserts."
         }
       ],
       "tip": {
@@ -5236,17 +5241,17 @@ const A1_WORDS = [
         {
           "word": "zuerst",
           "meaning": "First • In the beginning",
-          "example": "Zuerst frühstücken wir. – First we have breakfast."
+          "example": "Zuerst frühstücken wir. = Vispirms mēs brokastojam."
         },
         {
           "word": "nur",
           "meaning": "Only",
-          "example": "Ich habe nur 5 Euro. – I only have 5 euros."
+          "example": "Ich habe nur 5 Euro. = Man ir tikai 5 eiro."
         },
         {
           "word": "dann",
           "meaning": "Then",
-          "example": "Dann gehen wir nach Hause. – Then we go home."
+          "example": "Dann gehen wir nach Hause. = Tad mēs ejam mājās."
         }
       ],
       "tip": {
@@ -5577,22 +5582,22 @@ const A1_WORDS = [
         {
           "word": "etwas",
           "meaning": "Something / a little",
-          "example": "Ich brauche etwas. = I need something."
+          "example": "Ich brauche etwas. = Man kaut kas vajadzīgs."
         },
         {
           "word": "was",
           "meaning": "Something (colloquial)",
-          "example": "Willst du was trinken? = Do you want something to drink?"
+          "example": "Willst du was trinken? = Vai gribi kaut ko dzert?"
         },
         {
           "word": "ein bisschen",
           "meaning": "A bit",
-          "example": "Ich bin ein bisschen müde. = I'm a bit tired."
+          "example": "Ich bin ein bisschen müde. = Es esmu mazliet noguris."
         },
         {
           "word": "nichts",
           "meaning": "Nothing",
-          "example": "Ich brauche nichts. = I don't need anything."
+          "example": "Ich brauche nichts. = Man neko nevajag."
         }
       ],
       "tip": {
@@ -5812,17 +5817,17 @@ const A1_WORDS = [
         {
           "word": "ihr",
           "meaning": "You",
-          "example": "Ihr seid freundlich. = You are friendly."
+          "example": "Ihr seid freundlich. = Jūs esat draudzīgi."
         },
         {
           "word": "euch",
           "meaning": "You / to you",
-          "example": "Ich helfe euch. = I help you."
+          "example": "Ich helfe euch. = Es jums palīdzu."
         },
         {
           "word": "euer",
           "meaning": "Yours",
-          "example": "Das ist euer Haus. = It's your house."
+          "example": "Das ist euer Haus. = Tā ir jūsu māja."
         }
       ],
       "info": [
@@ -6285,7 +6290,7 @@ const A1_WORDS = [
         {
           "word": "finden",
           "meaning": "Find / consider",
-          "example": "Ich finde das gut. – It seems fine to me."
+          "example": "Ich finde das gut. = Man tas šķiet labi."
         },
         {
           "word": "suchen",
@@ -8134,22 +8139,22 @@ const A1_WORDS = [
         {
           "word": "haben",
           "meaning": "I have",
-          "example": "Ich habe Zeit. = I have time."
+          "example": "Ich habe Zeit. = Man ir laiks."
         },
         {
           "word": "sein",
           "meaning": "To be",
-          "example": "Ich bin hier. = I am here."
+          "example": "Ich bin hier. = Es esmu šeit."
         },
         {
           "word": "bekommen",
           "meaning": "To receive",
-          "example": "Ich bekomme ein Geschenk. = I get a gift."
+          "example": "Ich bekomme ein Geschenk. = Es saņemu dāvanu."
         },
         {
           "word": "machen",
           "meaning": "To do / make",
-          "example": "Ich mache das. = I do it."
+          "example": "Ich mache das. = Es to daru."
         }
       ],
       "tip": {
@@ -8364,22 +8369,22 @@ const A1_WORDS = [
         {
           "word": "halten",
           "meaning": "Hold / stop",
-          "example": "Der Bus hält. = The bus stops."
+          "example": "Der Bus hält. = Autobuss pietur."
         },
         {
           "word": "nehmen",
           "meaning": "To take",
-          "example": "Ich nehme die Tasche. = I take the bag."
+          "example": "Ich nehme die Tasche. = Es ņemu somu."
         },
         {
-          "word": "stoppen",
+          "word": "anhalten",
           "meaning": "To stop",
-          "example": "Stoppen Sie das Auto. = Stop the car."
+          "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
         },
         {
           "word": "denken",
           "meaning": "To think",
-          "example": "Ich denke, das ist richtig. = I think that is correct."
+          "example": "Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi."
         }
       ],
       "tip": {
@@ -8695,22 +8700,27 @@ const A1_WORDS = [
         {
           "word": "heißen",
           "meaning": "To be called / mean",
-          "example": "Ich heiße Anna. = My name is Anna."
+          "example": "Ich heiße Anna. = Mani sauc Anna."
         },
         {
           "word": "nennen",
           "meaning": "To call / name",
-          "example": "Er nennt mich Tom. = He calls me Tom."
+          "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
         },
         {
           "word": "bedeuten",
           "meaning": "Mean",
-          "example": "Was bedeutet das? = What does that mean?"
+          "example": "Was bedeutet das? = Ko tas nozīmē?"
         },
         {
           "word": "rufen",
           "meaning": "Call / call",
-          "example": "Ich rufe dich. = I'm calling you / I'm calling you."
+          "example": "Ich rufe dich. = Es tevi pasaucu."
+        },
+        {
+          "word": "anrufen",
+          "meaning": "zvanīt",
+          "example": "Ich rufe dich an. = Es tev piezvanu."
         }
       ],
       "tip": {
@@ -10982,22 +10992,22 @@ const A1_WORDS = [
         {
           "word": "können",
           "meaning": "Be able to / know",
-          "example": "Ich kann schwimmen. = I can swim."
+          "example": "Ich kann schwimmen. = Es protu peldēt."
         },
         {
           "word": "dürfen",
           "meaning": "To be allowed",
-          "example": "Darf ich gehen? = May i go"
+          "example": "Darf ich gehen? = Vai drīkstu iet?"
         },
         {
           "word": "müssen",
           "meaning": "Need / be yes-",
-          "example": "Ich muss lernen. = I have to study."
+          "example": "Ich muss lernen. = Man jāmācās."
         },
         {
           "word": "wissen",
           "meaning": "To know",
-          "example": "Ich weiß das. = I know that."
+          "example": "Ich weiß das. = Es to zinu."
         }
       ],
       "tip": {
@@ -11215,22 +11225,22 @@ const A1_WORDS = [
         {
           "word": "kosten",
           "meaning": "Pay (price) • How much",
-          "example": "Das kostet 5 Euro. = It costs 5 euros."
+          "example": "Das kostet 5 Euro. = Tas maksā 5 eiro."
         },
         {
           "word": "bezahlen",
           "meaning": "Pay • Pay (money)",
-          "example": "Ich bezahle die Rechnung. = I pay the bill."
+          "example": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
         },
         {
           "word": "zahlen",
           "meaning": "To pay • To pay",
-          "example": "Kann ich bar zahlen? = Can I pay in cash?"
+          "example": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
         },
         {
           "word": "Was kostet...?",
           "meaning": "How much does it cost...?",
-          "example": "Was kostet das Buch? = How much does the book cost?"
+          "example": "Was kostet das Buch? = Cik maksā grāmata?"
         }
       ],
       "tip": [
@@ -24194,17 +24204,17 @@ const A1_WORDS = [
         {
           "word": "fernsehen",
           "meaning": "Watch TV",
-          "example": "Ich sehe fern. = I am watching television."
+          "example": "Ich sehe fern. = Es skatos televīziju."
         },
         {
           "word": "das Fernsehen",
           "meaning": "Television (media)",
-          "example": "Im Fernsehen läuft ein Film. = A movie is showing on TV."
+          "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
         },
         {
           "word": "sehen",
           "meaning": "To see",
-          "example": "Ich sehe einen Film. = I see a movie."
+          "example": "Ich sehe einen Film. = Es redzu filmu."
         }
       ],
       "tip": {
@@ -25790,7 +25800,7 @@ const A1_WORDS = [
         ]
       }
     }
-  },
+  }
 ];
 
 window.A1_WORDS = A1_WORDS;

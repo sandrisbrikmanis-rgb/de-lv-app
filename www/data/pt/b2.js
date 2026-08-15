@@ -7820,7 +7820,7 @@ const B2_WORDS = [
         {
           "word": "das Hochwasser",
           "meaning": "Plūdi • Augsts ūdens līmenis",
-          "example": "Es gibt Hochwasser. = Er está matando isso."
+          "example": "Es gibt Hochwasser. = Ir plūdi."
         },
         {
           "word": "die Überschwemmung",
@@ -9333,7 +9333,7 @@ const B2_WORDS = [
         {
           "word": "der Druck",
           "meaning": "Spiediens/druka",
-          "example": "Unter Druck stehen = Mas espiedienā."
+          "example": "Unter Druck stehen = būt spiedienā."
         }
       ],
       "tip": [
@@ -14548,22 +14548,22 @@ const B2_WORDS = [
         {
           "word": "zuwider (+ Dat.)",
           "meaning": "Pret • Pretēji",
-          "example": "mir zuwider = Pret manu gribu"
+          "example": "mir zuwider = pret manu gribu"
         },
         {
           "word": "jemandem zuwider sein",
           "meaning": "Kādam nepatikt",
-          "example": "Es ist mir zuwider. = Man tas nepatik."
+          "example": "Es ist mir zuwider. = Man tas nepatīk."
         },
         {
           "word": "wider",
           "meaning": "Pret (Prievārds)",
-          "example": "wider den Willen = Pret gribu"
+          "example": "wider den Willen = pret gribu"
         },
         {
           "word": "widersprechen",
           "meaning": "Iebilst • Nepiekrist",
-          "example": "Ich widerspreche. = É iebilstu."
+          "example": "Ich widerspreche. = Es iebilstu."
         }
       ],
       "tip": {
@@ -15084,7 +15084,7 @@ const B2_WORDS = [
         {
           "word": "anbieten",
           "meaning": "Piedavāt (aktīvi)",
-          "example": "Ich biete Hilfe an. = É piedāvāju palīdzību."
+          "example": "Ich biete Hilfe an. = Es piedāvāju palīdzību."
         },
         {
           "word": "bieten",
@@ -15094,7 +15094,7 @@ const B2_WORDS = [
         {
           "word": "vorschlagen",
           "meaning": "Ierosinato",
-          "example": "Ich schlage vor. = É erosinu."
+          "example": "Ich schlage vor. = Es ierosinu."
         }
       ],
       "tip": {

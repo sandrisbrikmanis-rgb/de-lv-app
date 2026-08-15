@@ -7804,17 +7804,17 @@ const B2_WORDS = [
         {
           "word": "das Hochwasser",
           "meaning": "inundación • nivel alto de agua",
-          "example": "Le doy Hochwasser. = Hay una inundación."
+          "example": "Es gibt Hochwasser. = Ir plūdi."
         },
         {
           "word": "die Überschwemmung",
           "meaning": "inundación (específica)",
-          "example": "Die Überschwemmung zerstörte Häuser. = Las inundaciones destruyeron casas."
+          "example": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas."
         },
         {
           "word": "der Pegel",
           "meaning": "nivel del agua",
-          "example": "Der Pegel tiene prisa. = El nivel del agua está subiendo."
+          "example": "Der Pegel steigt. = Ūdens līmenis ceļas."
         }
       ],
       "tip": {
@@ -9297,17 +9297,17 @@ const B2_WORDS = [
         {
           "word": "Nachdruck legen auf",
           "meaning": "enfatizar, insistir",
-          "example": "Er legt Nachdruck auf die Frist. = Hace hincapié en la fecha límite."
+          "example": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu."
         },
         {
           "word": "der Nachdruck (Buch)",
           "meaning": "reedición",
-          "example": "Der Nachdruck erschien im Frühjahr. = La reimpresión salió en la primavera."
+          "example": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī."
         },
         {
           "word": "der Druck",
           "meaning": "spiediens / druka",
-          "example": "Unter Druck stehen = estar bajo presión."
+          "example": "Unter Druck stehen = būt spiedienā."
         }
       ],
       "tip": [
@@ -14384,17 +14384,17 @@ const B2_WORDS = [
         {
           "word": "zuweisen",
           "meaning": "asignar • asignar",
-          "example": "Er weist die Aufgabe zu. = Él asigna la tarea."
+          "example": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu."
         },
         {
           "word": "geben",
           "meaning": "dar",
-          "example": "Er gibt mir die Arbeit. = Me da trabajo."
+          "example": "Er gibt mir die Arbeit. = Viņš man dod darbu."
         },
         {
           "word": "verteilen",
           "meaning": "dividir",
-          "example": "Er verteilt die Aufgaben. = Divide las tareas."
+          "example": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus."
         }
       ],
       "tip": {
@@ -14495,7 +14495,7 @@ const B2_WORDS = [
         {
           "word": "jemandem zuwider sein",
           "meaning": "a alguien no le gustará",
-          "example": "I ist mir zuwider. = No me gusta."
+          "example": "Es ist mir zuwider. = Man tas nepatīk."
         },
         {
           "word": "wider",
@@ -14998,12 +14998,12 @@ const B2_WORDS = [
         {
           "word": "anbieten",
           "meaning": "oferta (activa)",
-          "example": "Ich remolacha Hilfe an. = Ofrezco ayuda."
+          "example": "Ich biete Hilfe an. = Es piedāvāju palīdzību."
         },
         {
           "word": "bieten",
           "meaning": "ofrecer • dar",
-          "example": "Er bietet viel Geld. = Ofrece mucho dinero."
+          "example": "Er bietet viel Geld. = Viņš piedāvā daudz naudas."
         },
         {
           "word": "vorschlagen",

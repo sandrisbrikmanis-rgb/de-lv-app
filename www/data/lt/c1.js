@@ -2459,22 +2459,22 @@ const C1_WORDS = [
         {
           "word": "gelegentlich (Adv.)",
           "meaning": "kartais • retkarčiais",
-          "example": "Er kommt gelegentlich. = Jis kartais ateina."
+          "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
         },
         {
           "word": "gelegentlich (Adj.)",
           "meaning": "atsitiktinis • netikėtas",
-          "example": "ein gelegentlicher Besuch = atsitiktinis apsilankymas"
+          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
         },
         {
           "word": "gelegentlich (+ Gen.)",
           "meaning": "ryšium su",
-          "example": "gelegentlich des Festes = švenčių proga"
+          "example": "gelegentlich des Festes = svētku sakarā"
         },
         {
           "word": "manchmal",
           "meaning": "kartais",
-          "example": "Manchmal regnet es. = Kartais lyja."
+          "example": "Manchmal regnet es. = Reizēm līst."
         }
       ],
       "tip": {
@@ -3830,17 +3830,17 @@ const C1_WORDS = [
         {
           "word": "wahlberechtigt",
           "meaning": "su balsavimo teise",
-          "example": "Er ist wahlberechtigt. = Jis turi balsavimo teisę."
+          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
         },
         {
           "word": "wählen",
           "meaning": "rinkti • balsuoti",
-          "example": "Ich wähle heute. = Aš šiandien balsuoju."
+          "example": "Ich wähle heute. = Es šodien balsoju."
         },
         {
           "word": "der Wähler",
           "meaning": "rinkėjas",
-          "example": "Der Wähler geht zur Wahl. = Rinkėjas eina balsuoti."
+          "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
         }
       ],
       "tip": {
@@ -4871,4 +4871,5 @@ const C1_WORDS = [
     "level": "C1"
   }
 ];
+
 window.C1_WORDS = C1_WORDS;

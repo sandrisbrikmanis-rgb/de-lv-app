@@ -7739,17 +7739,17 @@ const B2_WORDS = [
         {
           "word": "das Hochwasser",
           "meaning": "Наводнение • Высокий уровень воды",
-          "example": "Es gibt Hochwasser. = Идет наводнение."
+          "example": "Es gibt Hochwasser. = Ir plūdi."
         },
         {
           "word": "die Überschwemmung",
           "meaning": "Наводнение (конкретное)",
-          "example": "Die Überschwemmung zerstörte Häuser. = Поплава го уништи домот."
+          "example": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas."
         },
         {
           "word": "der Pegel",
           "meaning": "Уровень воды",
-          "example": "Der Pegel steigt. = Уровень воды повышается."
+          "example": "Der Pegel steigt. = Ūdens līmenis ceļas."
         }
       ],
       "tip": {
@@ -9202,17 +9202,17 @@ const B2_WORDS = [
         {
           "word": "Nachdruck legen auf",
           "meaning": "Подчеркивать, настаивать",
-          "example": "Er legt Nachdruck auf die Frist. = Он подчеркивает сроки."
+          "example": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu."
         },
         {
           "word": "der Nachdruck (Buch)",
           "meaning": "Переиздание",
-          "example": "Der Nachdruck erschien im Frühjahr. = Переиздание вышло весной."
+          "example": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī."
         },
         {
           "word": "der Druck",
           "meaning": "Притисок/заптивка",
-          "example": "Unter Druck stehen = Находиться под давлением."
+          "example": "Unter Druck stehen = būt spiedienā."
         }
       ],
       "tip": [
@@ -14229,17 +14229,17 @@ const B2_WORDS = [
         {
           "word": "zuweisen",
           "meaning": "Назначить • Назначить",
-          "example": "Er weist die Aufgabe zu. = Он дает задание."
+          "example": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu."
         },
         {
           "word": "geben",
           "meaning": "Дайте",
-          "example": "Er gibt mir die Arbeit. = Он дает мне работу."
+          "example": "Er gibt mir die Arbeit. = Viņš man dod darbu."
         },
         {
           "word": "verteilen",
           "meaning": "Разделување",
-          "example": "Er verteilt die Aufgaben. = Он распределяет задачи."
+          "example": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus."
         }
       ],
       "tip": {
@@ -14324,22 +14324,22 @@ const B2_WORDS = [
         {
           "word": "zuwider (+ Dat.)",
           "meaning": "Против • Вопреки",
-          "example": "mir zuwider = Против моја волја"
+          "example": "mir zuwider = pret manu gribu"
         },
         {
           "word": "jemandem zuwider sein",
           "meaning": "Кому-то это не понравится",
-          "example": "Es ist mir zuwider. = Мне это не нравится."
+          "example": "Es ist mir zuwider. = Man tas nepatīk."
         },
         {
           "word": "wider",
           "meaning": "Против (предлог)",
-          "example": "wider den Willen = Против воли"
+          "example": "wider den Willen = pret gribu"
         },
         {
           "word": "widersprechen",
           "meaning": "Против • Не согласен",
-          "example": "Ich widerspreche. = Я возражаю."
+          "example": "Ich widerspreche. = Es iebilstu."
         }
       ],
       "tip": {
@@ -14769,17 +14769,17 @@ const B2_WORDS = [
         {
           "word": "anbieten",
           "meaning": "Предложение (активное)",
-          "example": "Ich biete Hilfe an. = Я предлагаю помощь."
+          "example": "Ich biete Hilfe an. = Es piedāvāju palīdzību."
         },
         {
           "word": "bieten",
           "meaning": "Предложить • Дать",
-          "example": "Er bietet viel Geld. = Он предлагает много денег."
+          "example": "Er bietet viel Geld. = Viņš piedāvā daudz naudas."
         },
         {
           "word": "vorschlagen",
           "meaning": "Предложете",
-          "example": "Ich schlage vor. = Я предлагаю."
+          "example": "Ich schlage vor. = Es ierosinu."
         }
       ],
       "tip": {

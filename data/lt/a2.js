@@ -201,27 +201,27 @@ const A2_WORDS = [
         {
           "word": "abfahren",
           "meaning": "išvažiuoti / išvykti / leistis į kelią",
-          "example": "Der Zug fährt ab. = Traukinys išvažiuoja."
+          "example": "Der Zug fährt ab. = Vilciens atiet."
         },
         {
           "word": "wegfahren",
           "meaning": "nuvažiuoti",
-          "example": "Ich fahre morgen weg. = Aš rytoj išvažiuoju."
+          "example": "Ich fahre morgen weg. = Es rīt aizbraucu prom."
         },
         {
           "word": "losfahren",
           "meaning": "pradėti važiuoti",
-          "example": "Wir fahren jetzt los. = Mes dabar pradedame važiuoti."
+          "example": "Wir fahren jetzt los. = Mēs tagad sākam braukt."
         },
         {
           "word": "abgehen",
           "meaning": "išvykti / išeiti",
-          "example": "Der Bus geht gleich ab. = Autobusas tuoj išvyksta."
+          "example": "Der Bus geht gleich ab. = Autobuss tūlīt atiet."
         },
         {
           "word": "fahren",
           "meaning": "važiuoti",
-          "example": "Ich fahre mit dem Zug. = Aš važiuoju traukiniu."
+          "example": "Ich fahre mit dem Zug. = Es braucu ar vilcienu."
         }
       ],
       "tip": {
@@ -593,32 +593,32 @@ const A2_WORDS = [
         {
           "word": "abgeben",
           "meaning": "perduoti arba atiduoti kitam ar konkrečioje vietoje",
-          "example": "Ich gebe den Antrag ab. = Aš pateikiu prašymą."
+          "example": "Ich gebe den Antrag ab. = Es iesniedzu pieteikumu."
         },
         {
           "word": "geben",
           "meaning": "duoti",
-          "example": "Ich gebe dir den Schlüssel. = Aš tau duodu raktą."
+          "example": "Ich gebe dir den Schlüssel. = Es tev dodu atslēgu."
         },
         {
           "word": "zurückgeben",
           "meaning": "atiduoti atgal",
-          "example": "Ich gebe das Buch zurück. = Aš atiduodu knygą atgal."
+          "example": "Ich gebe das Buch zurück. = Es atdodu grāmatu atpakaļ."
         },
         {
           "word": "einreichen",
           "meaning": "oficialiai pateikti",
-          "example": "Ich reiche die Unterlagen ein. = Aš pateikiu dokumentus."
+          "example": "Ich reiche die Unterlagen ein. = Es iesniedzu dokumentus."
         },
         {
           "word": "verkaufen",
           "meaning": "parduoti",
-          "example": "Ich verkaufe mein Fahrrad. = Aš parduodu savo dviratį."
+          "example": "Ich verkaufe mein Fahrrad. = Es pārdodu savu velosipēdu."
         },
         {
           "word": "ausstrahlen",
           "meaning": "spinduliuoti",
-          "example": "Die Lampe strahlt Wärme aus. = Lempa spinduliuoja šilumą."
+          "example": "Die Lampe strahlt Wärme aus. = Lampa izstaro siltumu."
         }
       ],
       "tip": {
@@ -1293,27 +1293,27 @@ const A2_WORDS = [
         {
           "word": "absagen",
           "meaning": "atšaukti / atsisakyti dalyvavimo",
-          "example": "Ich sage den Termin ab. = Aš atšaukiu susitikimą."
+          "example": "Ich sage den Termin ab. = Es atceļu tikšanos."
         },
         {
           "word": "ablehnen",
           "meaning": "atmesti / atsisakyti",
-          "example": "Ich lehne das Angebot ab. = Aš atmetu pasiūlymą."
+          "example": "Ich lehne das Angebot ab. = Es noraidu piedāvājumu."
         },
         {
           "word": "kündigen",
           "meaning": "nutraukti / sulaužyti sutartį",
-          "example": "Ich kündige den Vertrag. = Aš nutraukiu sutartį."
+          "example": "Ich kündige den Vertrag. = Es uzteicu līgumu."
         },
         {
           "word": "stornieren",
           "meaning": "anuliuoti / atšaukti rezervaciją",
-          "example": "Ich storniere die Buchung. = Aš atšaukiu rezervaciją."
+          "example": "Ich storniere die Buchung. = Es atceļu rezervāciju."
         },
         {
           "word": "nein sagen",
           "meaning": "pasakyti ne",
-          "example": "Er sagt nein. = Jis sako ne."
+          "example": "Er sagt nein. = Viņš saka nē."
         }
       ],
       "tip": {
@@ -1672,22 +1672,22 @@ const A2_WORDS = [
         {
           "word": "abschließen",
           "meaning": "užrakinti / sudaryti / baigti",
-          "example": "Ich schließe die Tür ab. = Aš užrakinu duris."
+          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
         },
         {
           "word": "schließen",
           "meaning": "uždaryti",
-          "example": "Ich schließe die Tür. = Aš uždarau duris."
+          "example": "Ich schließe die Tür. = Es aizveru durvis."
         },
         {
           "word": "beenden",
           "meaning": "baigti",
-          "example": "Ich beende die Arbeit. = Aš baigiu darbą."
+          "example": "Ich beende die Arbeit. = Es pabeidzu darbu."
         },
         {
           "word": "unterschreiben",
           "meaning": "pasirašyti",
-          "example": "Ich unterschreibe den Vertrag. = Aš pasirašau sutartį."
+          "example": "Ich unterschreibe den Vertrag. = Es parakstu līgumu."
         }
       ],
       "tip": {
@@ -2040,27 +2040,27 @@ const A2_WORDS = [
         {
           "word": "abstellen",
           "meaning": "pastatyti / atjungti / išjungti / pašalinti – priklausomai nuo objekto",
-          "example": "Ich stelle das Fahrrad ab. = Aš pastatau dviratį."
+          "example": "Ich stelle das Fahrrad ab. = Es novietoju velosipēdu."
         },
         {
           "word": "ausschalten",
           "meaning": "išjungti prietaisą, šviesą, televizorių ar kompiuterį",
-          "example": "Ich schalte den Computer aus. = Aš išjungiu kompiuterį."
+          "example": "Ich schalte den Computer aus. = Es izslēdzu datoru."
         },
         {
           "word": "anhalten",
           "meaning": "sustabdyti judėjimą / sustoti",
-          "example": "Der Bus hält an. = Autobusas sustoja."
+          "example": "Der Bus hält an. = Autobuss apstājas."
         },
         {
           "word": "stoppen",
           "meaning": "sustabdyti / apstabdyti",
-          "example": "Der Fahrer stoppt das Auto. = Vairuotojas sustabdo automobilį."
+          "example": "Der Fahrer stoppt das Auto. = Vadītājs aptur auto."
         },
         {
           "word": "stellen",
           "meaning": "padėti / pastatyti",
-          "example": "Ich stelle die Tasche neben die Tür. = Aš padedu krepšį prie durų."
+          "example": "Ich stelle die Tasche neben die Tür. = Es nolieku somu pie durvīm."
         }
       ],
       "tip": {
@@ -2619,22 +2619,22 @@ const A2_WORDS = [
         {
           "word": "angewandt",
           "meaning": "pritaikytas / taikomasis",
-          "example": "Diese Methode wird angewandt. = Šis metodas yra taikomas."
+          "example": "Diese Methode wird angewandt. = Šī metode tiek pielietota."
         },
         {
           "word": "praktisch",
           "meaning": "praktiškas",
-          "example": "Das ist eine praktische Lösung. = Tai praktiškas sprendimas."
+          "example": "Das ist eine praktische Lösung. = Tas ir praktisks risinājums."
         },
         {
           "word": "verwenden",
           "meaning": "naudoti",
-          "example": "Ich verwende diese Methode. = Aš naudoju šį metodą."
+          "example": "Ich verwende diese Methode. = Es izmantoju šo metodi."
         },
         {
           "word": "anwenden",
           "meaning": "taikyti",
-          "example": "Ich wende die Regel an. = Aš taikau taisyklę."
+          "example": "Ich wende die Regel an. = Es pielietoju noteikumu."
         }
       ],
       "tip": {
@@ -2923,22 +2923,22 @@ const A2_WORDS = [
         {
           "word": "angreifen",
           "meaning": "užpulti / griežtai kritikuoti",
-          "example": "Der Hund greift an. = Šuo užpuola."
+          "example": "Der Hund greift an. = Suns uzbrūk."
         },
         {
           "word": "attackieren",
           "meaning": "užpulti",
-          "example": "Die Gruppe attackiert ihn. = Grupė jį užpuola."
+          "example": "Die Gruppe attackiert ihn. = Grupa viņam uzbrūk."
         },
         {
           "word": "beleidigen",
           "meaning": "įžeisti / užgauti",
-          "example": "Er beleidigt mich. = Jis mane įžeidžia."
+          "example": "Er beleidigt mich. = Viņš mani apvaino."
         },
         {
           "word": "kritisieren",
           "meaning": "kritikuoti",
-          "example": "Sie kritisiert den Vorschlag. = Ji kritikuoja pasiūlymą."
+          "example": "Sie kritisiert den Vorschlag. = Viņa kritizē priekšlikumu."
         }
       ],
       "tip": {
@@ -3081,22 +3081,22 @@ const A2_WORDS = [
         {
           "word": "der Anhänger",
           "meaning": "priekaba / šalininkas / medalionas",
-          "example": "Der Anhänger ist schwer. = Priekaba yra sunki."
+          "example": "Der Anhänger ist schwer. = Piekabe ir smaga."
         },
         {
           "word": "der Fan",
           "meaning": "fanas",
-          "example": "Er ist ein Fan der Mannschaft. = Jis yra komandos fanas."
+          "example": "Er ist ein Fan der Mannschaft. = Viņš ir komandas fans."
         },
         {
           "word": "der Unterstützer",
           "meaning": "palaikytojas",
-          "example": "Sie hat viele Unterstützer. = Ji turi daug palaikytojų."
+          "example": "Sie hat viele Unterstützer. = Viņai ir daudz atbalstītāju."
         },
         {
           "word": "der Wohnwagen",
           "meaning": "gyvenamoji priekaba",
-          "example": "Der Wohnwagen steht am See. = Gyvenamoji priekaba stovi prie ežero."
+          "example": "Der Wohnwagen steht am See. = Dzīvojamā piekabe stāv pie ezera."
         }
       ],
       "tip": {
@@ -3231,22 +3231,22 @@ const A2_WORDS = [
         {
           "word": "anheizen",
           "meaning": "užkurti / kurstyti",
-          "example": "Ich heize den Ofen an. = Aš užkuriu krosnį."
+          "example": "Ich heize den Ofen an. = Es iekuru krāsni."
         },
         {
           "word": "heizen",
           "meaning": "šildyti / apšildyti",
-          "example": "Wir heizen die Wohnung. = Mes šildome butą."
+          "example": "Wir heizen die Wohnung. = Mēs apkurinām dzīvokli."
         },
         {
           "word": "anzünden",
           "meaning": "uždegti",
-          "example": "Ich zünde die Kerze an. = Aš uždegu žvakę."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "verschärfen",
           "meaning": "paaštrinti",
-          "example": "Das verschärft den Streit. = Tai paaštrina ginčą."
+          "example": "Das verschärft den Streit. = Tas saasina strīdu."
         }
       ],
       "tip": {
@@ -3439,22 +3439,22 @@ const A2_WORDS = [
         {
           "word": "anlegen",
           "meaning": "uždėti / investuoti / sukurti",
-          "example": "Ich lege Geld an. = Aš investuoju pinigus."
+          "example": "Ich lege Geld an. = Es ieguldu naudu."
         },
         {
           "word": "legen",
           "meaning": "padėti gulsčiai",
-          "example": "Ich lege das Buch auf den Tisch. = Aš padedu knygą ant stalo."
+          "example": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
         },
         {
           "word": "investieren",
           "meaning": "investuoti",
-          "example": "Ich investiere Geld. = Aš investuoju pinigus."
+          "example": "Ich investiere Geld. = Es ieguldu naudu."
         },
         {
           "word": "erstellen",
           "meaning": "sukurti",
-          "example": "Ich erstelle ein Konto. = Aš sukuriu sąskaitą."
+          "example": "Ich erstelle ein Konto. = Es izveidoju kontu."
         }
       ],
       "tip": {
@@ -3790,27 +3790,27 @@ const A2_WORDS = [
         {
           "word": "anmelden",
           "meaning": "užregistruoti / registruoti / užrašyti",
-          "example": "Ich melde mich an. = Aš registruojuosi."
+          "example": "Ich melde mich an. = Es piesakos."
         },
         {
           "word": "sich anmelden",
           "meaning": "registruotis / prisijungti",
-          "example": "Melden Sie sich bitte an. = Prašome registruotis."
+          "example": "Melden Sie sich bitte an. = Lūdzu, piesakieties."
         },
         {
           "word": "registrieren",
           "meaning": "registruoti",
-          "example": "Ich registriere mein Konto. = Aš registruoju savo sąskaitą."
+          "example": "Ich registriere mein Konto. = Es reģistrēju savu kontu."
         },
         {
           "word": "buchen",
           "meaning": "rezervuoti",
-          "example": "Ich buche einen Termin. = Aš rezervuoju laiką."
+          "example": "Ich buche einen Termin. = Es rezervēju laiku."
         },
         {
           "word": "melden",
           "meaning": "pranešti / informuoti",
-          "example": "Ich melde das Problem. = Aš pranešu apie problemą."
+          "example": "Ich melde das Problem. = Es ziņoju par problēmu."
         }
       ],
       "tip": {
@@ -4200,22 +4200,22 @@ const A2_WORDS = [
         {
           "word": "anstecken",
           "meaning": "prisegti / uždegti / užkrėsti",
-          "example": "Ich stecke die Kerze an. = Aš uždegu žvakę."
+          "example": "Ich stecke die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "stecken",
           "meaning": "kišti / būti įkištam",
-          "example": "Der Schlüssel steckt im Schloss. = Raktas yra spynoje."
+          "example": "Der Schlüssel steckt im Schloss. = Atslēga ir slēdzenē."
         },
         {
           "word": "anzünden",
           "meaning": "uždegti",
-          "example": "Ich zünde die Kerze an. = Aš uždegu žvakę."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "sich anstecken",
           "meaning": "užsikrėsti",
-          "example": "Ich habe mich angesteckt. = Aš užsikrėčiau."
+          "example": "Ich habe mich angesteckt. = Es inficējos."
         }
       ],
       "tip": {
@@ -4548,22 +4548,22 @@ const A2_WORDS = [
         {
           "word": "anstellen",
           "meaning": "priimti į darbą / įjungti / pridirbti",
-          "example": "Die Firma stellt ihn an. = Firma jį priima į darbą."
+          "example": "Die Firma stellt ihn an. = Firma viņu pieņem darbā."
         },
         {
           "word": "einstellen",
           "meaning": "priimti į darbą / nustatyti",
-          "example": "Wir stellen neue Leute ein. = Mes priimame į darbą naujus žmones."
+          "example": "Wir stellen neue Leute ein. = Mēs pieņemam darbā jaunus cilvēkus."
         },
         {
           "word": "anschalten",
           "meaning": "įjungti",
-          "example": "Ich schalte das Licht an. = Aš įjungiu šviesą."
+          "example": "Ich schalte das Licht an. = Es ieslēdzu gaismu."
         },
         {
           "word": "sich anstellen",
           "meaning": "atsistoti į eilę",
-          "example": "Ich stelle mich an. = Aš atsistoju į eilę."
+          "example": "Ich stelle mich an. = Es nostājos rindā."
         }
       ],
       "tip": {
@@ -5347,27 +5347,27 @@ const A2_WORDS = [
         {
           "word": "der Artikel",
           "meaning": "straipsnis / prekė / artikelis / punktas",
-          "example": "Der Artikel ist kurz. = Straipsnis yra trumpas."
+          "example": "Der Artikel ist kurz. = Raksts ir īss."
         },
         {
           "word": "der Zeitungsartikel",
           "meaning": "laikraščio straipsnis",
-          "example": "Der Zeitungsartikel ist neu. = Laikraščio straipsnis yra naujas."
+          "example": "Der Zeitungsartikel ist neu. = Avīzes raksts ir jauns."
         },
         {
           "word": "die Ware",
           "meaning": "prekė",
-          "example": "Die Ware ist teuer. = Prekė yra brangi."
+          "example": "Die Ware ist teuer. = Prece ir dārga."
         },
         {
           "word": "der bestimmte Artikel",
           "meaning": "žymimasis artikelis",
-          "example": "Der bestimmte Artikel ist „der“. = Žymimasis artikelis yra „der“."
+          "example": "Der bestimmte Artikel ist „der“. = Noteiktais artikuls ir „der“."
         },
         {
           "word": "der Paragraph",
           "meaning": "paragrafas / punktas",
-          "example": "Der Paragraph ist wichtig. = Punktas yra svarbus."
+          "example": "Der Paragraph ist wichtig. = Pants ir svarīgs."
         }
       ],
       "tip": {
@@ -5938,22 +5938,22 @@ const A2_WORDS = [
         {
           "word": "aufheben",
           "meaning": "pakelti / atšaukti / išsaugoti",
-          "example": "Ich hebe den Schlüssel auf. = Aš pakeliu raktą."
+          "example": "Ich hebe den Schlüssel auf. = Es paceļu atslēgu."
         },
         {
           "word": "heben",
           "meaning": "kelti",
-          "example": "Ich hebe die Hand. = Aš pakeliu ranką."
+          "example": "Ich hebe die Hand. = Es paceļu roku."
         },
         {
           "word": "absagen",
           "meaning": "atšaukti renginį",
-          "example": "Wir sagen den Termin ab. = Mes atšaukiame susitikimą."
+          "example": "Wir sagen den Termin ab. = Mēs atceļam tikšanos."
         },
         {
           "word": "behalten",
           "meaning": "pasilikti",
-          "example": "Ich behalte die Quittung. = Aš pasilieku čekį."
+          "example": "Ich behalte die Quittung. = Es paturu čeku."
         }
       ],
       "tip": {
@@ -6330,22 +6330,22 @@ const A2_WORDS = [
         {
           "word": "die Auflage",
           "meaning": "tiražas / leidimas / sąlyga",
-          "example": "Die Auflage ist hoch. = Tiražas yra didelis."
+          "example": "Die Auflage ist hoch. = Tirāža ir liela."
         },
         {
           "word": "die Ausgabe",
           "meaning": "leidimas / numeris",
-          "example": "Die neue Ausgabe ist da. = Naujas numeris jau čia."
+          "example": "Die neue Ausgabe ist da. = Jaunais numurs ir klāt."
         },
         {
           "word": "die Bedingung",
           "meaning": "sąlyga",
-          "example": "Das ist eine Bedingung. = Tai yra sąlyga."
+          "example": "Das ist eine Bedingung. = Tas ir nosacījums."
         },
         {
           "word": "die Voraussetzung",
           "meaning": "prielaida",
-          "example": "Das ist eine Voraussetzung. = Tai yra prielaida."
+          "example": "Das ist eine Voraussetzung. = Tas ir priekšnoteikums."
         }
       ],
       "tip": {
@@ -6504,27 +6504,27 @@ const A2_WORDS = [
         {
           "word": "die Aufnahme",
           "meaning": "priėmimas / įrašas / nuotrauka",
-          "example": "Die Aufnahme ist gut. = Įrašas yra geras."
+          "example": "Die Aufnahme ist gut. = Ieraksts ir labs."
         },
         {
           "word": "das Foto",
           "meaning": "fotografija / nuotrauka",
-          "example": "Das Foto ist schön. = Nuotrauka yra graži."
+          "example": "Das Foto ist schön. = Foto ir skaists."
         },
         {
           "word": "das Bild",
           "meaning": "paveikslas",
-          "example": "Das Bild hängt an der Wand. = Paveikslas kabo ant sienos."
+          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
         },
         {
           "word": "die Aufzeichnung",
           "meaning": "įrašas",
-          "example": "Die Aufzeichnung ist lang. = Įrašas yra ilgas."
+          "example": "Die Aufzeichnung ist lang. = Ieraksts ir garš."
         },
         {
           "word": "die Aufnahmeprüfung",
           "meaning": "įstojimo egzaminas",
-          "example": "Die Aufnahmeprüfung ist morgen. = Įstojimo egzaminas yra rytoj."
+          "example": "Die Aufnahmeprüfung ist morgen. = Iestājpārbaudījums ir rīt."
         }
       ],
       "tip": {
@@ -6661,22 +6661,22 @@ const A2_WORDS = [
         {
           "word": "aufnehmen",
           "meaning": "priimti / įrašyti / priimti",
-          "example": "Ich nehme ein Lied auf. = Aš įrašau dainą."
+          "example": "Ich nehme ein Lied auf. = Es ierakstu dziesmu."
         },
         {
           "word": "nehmen",
           "meaning": "imti",
-          "example": "Ich nehme das Buch. = Aš imu knygą."
+          "example": "Ich nehme das Buch. = Es ņemu grāmatu."
         },
         {
           "word": "annehmen",
           "meaning": "priimti",
-          "example": "Ich nehme das Angebot an. = Aš priimu pasiūlymą."
+          "example": "Ich nehme das Angebot an. = Es pieņemu piedāvājumu."
         },
         {
           "word": "beginnen",
           "meaning": "pradėti",
-          "example": "Wir beginnen die Arbeit. = Mes pradedame darbą."
+          "example": "Wir beginnen die Arbeit. = Mēs sākam darbu."
         }
       ],
       "tip": {
@@ -7040,22 +7040,22 @@ const A2_WORDS = [
         {
           "word": "aufrichtig",
           "meaning": "tikras / nuoširdus / atviras",
-          "example": "Eine aufrichtige Entschuldigung. = Tikras atsiprašymas."
+          "example": "Eine aufrichtige Entschuldigung. = Patiesa atvainošanās."
         },
         {
           "word": "ehrlich",
           "meaning": "sąžiningas / nemeluoja",
-          "example": "Er ist ehrlich. = Jis yra sąžiningas."
+          "example": "Er ist ehrlich. = Viņš ir godīgs."
         },
         {
           "word": "herzlich",
           "meaning": "nuoširdus",
-          "example": "Herzliche Grüße. = Nuoširdūs sveikinimai."
+          "example": "Herzliche Grüße. = Sirsnīgi sveicieni."
         },
         {
           "word": "offen",
           "meaning": "atviras",
-          "example": "Sie spricht offen. = Ji kalba atvirai."
+          "example": "Sie spricht offen. = Viņa runā atklāti."
         }
       ],
       "tip": {
@@ -7345,22 +7345,22 @@ const A2_WORDS = [
         {
           "word": "aufrufen",
           "meaning": "pašaukti / atverti / pakviesti",
-          "example": "Ich rufe die Seite auf. = Aš atveriu puslapį."
+          "example": "Ich rufe die Seite auf. = Es atveru lapu."
         },
         {
           "word": "rufen",
           "meaning": "šaukti",
-          "example": "Ich rufe dich. = Aš tave šaukiu."
+          "example": "Ich rufe dich. = Es tevi saucu."
         },
         {
           "word": "öffnen",
           "meaning": "atidaryti",
-          "example": "Ich öffne die Datei. = Aš atveriu failą."
+          "example": "Ich öffne die Datei. = Es atveru failu."
         },
         {
           "word": "auffordern",
           "meaning": "kviesti",
-          "example": "Er fordert uns auf. = Jis mus kviečia."
+          "example": "Er fordert uns auf. = Viņš mūs aicina."
         }
       ],
       "tip": {
@@ -7531,22 +7531,22 @@ const A2_WORDS = [
         {
           "word": "auftragen",
           "meaning": "užduoti / užtepti / patiekti",
-          "example": "Der Lehrer trägt eine Aufgabe auf. = Mokytojas užduoda užduotį."
+          "example": "Der Lehrer trägt eine Aufgabe auf. = Skolotājs uzdod uzdevumu."
         },
         {
           "word": "geben",
           "meaning": "duoti",
-          "example": "Ich gebe dir das Buch. = Aš tau duodu knygą."
+          "example": "Ich gebe dir das Buch. = Es tev dodu grāmatu."
         },
         {
           "word": "anstreichen",
           "meaning": "dažyti paviršių",
-          "example": "Wir streichen die Wand an. = Mes dažome sieną."
+          "example": "Wir streichen die Wand an. = Mēs krāsojam sienu."
         },
         {
           "word": "servieren",
           "meaning": "patiekti maistą",
-          "example": "Der Kellner serviert das Essen. = Padavėjas patiekia maistą."
+          "example": "Der Kellner serviert das Essen. = Viesmīlis pasniedz ēdienu."
         }
       ],
       "tip": {
@@ -7891,22 +7891,22 @@ const A2_WORDS = [
         {
           "word": "auftreten",
           "meaning": "atsirasti / pasirodyti",
-          "example": "Ein Fehler tritt auf. = Atsiranda klaida."
+          "example": "Ein Fehler tritt auf. = Parādās kļūda."
         },
         {
           "word": "erscheinen",
           "meaning": "pasirodyti / atvykti",
-          "example": "Er erscheint um acht. = Jis atvyksta aštuntą valandą."
+          "example": "Er erscheint um acht. = Viņš ierodas astoņos."
         },
         {
           "word": "spielen",
           "meaning": "vaidinti / atlikti vaidmenį",
-          "example": "Sie spielt im Theater. = Ji vaidina teatre."
+          "example": "Sie spielt im Theater. = Viņa spēlē teātrī."
         },
         {
           "word": "sich verhalten",
           "meaning": "elgtis",
-          "example": "Er verhält sich ruhig. = Jis elgiasi ramiai."
+          "example": "Er verhält sich ruhig. = Viņš izturas mierīgi."
         }
       ],
       "tip": {
@@ -8238,22 +8238,22 @@ const A2_WORDS = [
         {
           "word": "aufwenden",
           "meaning": "skirti / investuoti / sunaudoti",
-          "example": "Ich wende viel Zeit auf. = Aš skiriu daug laiko."
+          "example": "Ich wende viel Zeit auf. = Es veltu daudz laika."
         },
         {
           "word": "ausgeben",
           "meaning": "išleisti pinigus",
-          "example": "Ich gebe viel Geld aus. = Aš išleidžiu daug pinigų."
+          "example": "Ich gebe viel Geld aus. = Es iztērēju daudz naudas."
         },
         {
           "word": "verbringen",
           "meaning": "leisti laiką",
-          "example": "Ich verbringe den Abend zu Hause. = Aš leidžiu vakarą namuose."
+          "example": "Ich verbringe den Abend zu Hause. = Es pavadu vakaru mājās."
         },
         {
           "word": "investieren",
           "meaning": "investuoti",
-          "example": "Wir investieren Zeit und Geld. = Mes investuojame laiką ir pinigus."
+          "example": "Wir investieren Zeit und Geld. = Mēs ieguldām laiku un naudu."
         }
       ],
       "tip": {
@@ -8547,22 +8547,22 @@ const A2_WORDS = [
         {
           "word": "aufzeichnen",
           "meaning": "įrašyti / užrašyti",
-          "example": "Ich zeichne das Video auf. = Aš įrašau video."
+          "example": "Ich zeichne das Video auf. = Es ierakstu video."
         },
         {
           "word": "zeichnen",
           "meaning": "piešti",
-          "example": "Das Kind zeichnet ein Haus. = Vaikas piešia namą."
+          "example": "Das Kind zeichnet ein Haus. = Bērns zīmē māju."
         },
         {
           "word": "notieren",
           "meaning": "užrašyti",
-          "example": "Ich notiere die Adresse. = Aš užrašau adresą."
+          "example": "Ich notiere die Adresse. = Es pierakstu adresi."
         },
         {
           "word": "aufnehmen",
           "meaning": "įrašyti / priimti",
-          "example": "Ich nehme ein Lied auf. = Aš įrašau dainą."
+          "example": "Ich nehme ein Lied auf. = Es ierakstu dziesmu."
         }
       ],
       "tip": {
@@ -8737,22 +8737,22 @@ const A2_WORDS = [
         {
           "word": "aussteigen",
           "meaning": "išlipti / išstoti",
-          "example": "Ich steige aus dem Bus aus. = Aš išlipu iš autobuso."
+          "example": "Ich steige aus dem Bus aus. = Es izkāpju no autobusa."
         },
         {
           "word": "einsteigen",
           "meaning": "įlipti / įsitraukti",
-          "example": "Ich steige in den Zug ein. = Aš įlipu į traukinį."
+          "example": "Ich steige in den Zug ein. = Es iekāpju vilcienā."
         },
         {
           "word": "umsteigen",
           "meaning": "persėsti",
-          "example": "Wir steigen in Berlin um. = Mes persėdame Berlyne."
+          "example": "Wir steigen in Berlin um. = Mēs pārsēžamies Berlīnē."
         },
         {
           "word": "verlassen",
           "meaning": "palikti",
-          "example": "Er verlässt die Firma. = Jis palieka firmą."
+          "example": "Er verlässt die Firma. = Viņš atstāj firmu."
         }
       ],
       "tip": {
@@ -9110,27 +9110,27 @@ const A2_WORDS = [
         {
           "word": "auswählen",
           "meaning": "pasirinkti / atrinkti",
-          "example": "Ich wähle ein Bild aus. = Aš pasirenku paveikslėlį."
+          "example": "Ich wähle ein Bild aus. = Es izvēlos attēlu."
         },
         {
           "word": "wählen",
           "meaning": "pasirinkti / balsuoti",
-          "example": "Ich wähle eine Partei. = Aš balsuoju už partiją."
+          "example": "Ich wähle eine Partei. = Es balsoju par partiju."
         },
         {
           "word": "aussuchen",
           "meaning": "išsirinkti / pasirinkti",
-          "example": "Such dir ein Buch aus. = Išsirink sau knygą."
+          "example": "Such dir ein Buch aus. = Izvēlies sev grāmatu."
         },
         {
           "word": "entscheiden",
           "meaning": "nuspręsti",
-          "example": "Ich entscheide morgen. = Aš nuspręsiu rytoj."
+          "example": "Ich entscheide morgen. = Es izlemšu rīt."
         },
         {
           "word": "markieren",
           "meaning": "pažymėti",
-          "example": "Markieren Sie die richtige Antwort. = Pažymėkite teisingą atsakymą."
+          "example": "Markieren Sie die richtige Antwort. = Atzīmējiet pareizo atbildi."
         }
       ],
       "tip": {
@@ -9513,22 +9513,22 @@ const A2_WORDS = [
         {
           "word": "ausziehen",
           "meaning": "nusivilkti / išsikraustyti",
-          "example": "Ich ziehe die Schuhe aus. = Aš nusiaunu batus."
+          "example": "Ich ziehe die Schuhe aus. = Es novelku kurpes."
         },
         {
           "word": "anziehen",
           "meaning": "užsivilkti",
-          "example": "Ich ziehe die Jacke an. = Aš užsivelku striukę."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
           "word": "umziehen",
           "meaning": "persikraustyti / persirengti",
-          "example": "Wir ziehen nach Riga um. = Mes persikeliame į Rygą."
+          "example": "Wir ziehen nach Riga um. = Mēs pārceļamies uz Rīgu."
         },
         {
           "word": "sich ausziehen",
           "meaning": "nusirengti",
-          "example": "Das Kind zieht sich aus. = Vaikas nusirengia."
+          "example": "Das Kind zieht sich aus. = Bērns izģērbjas."
         }
       ],
       "tip": {
@@ -9967,27 +9967,27 @@ const A2_WORDS = [
         {
           "word": "die Bahn",
           "meaning": "geležinkelis / kelionė traukiniu",
-          "example": "Ich fahre mit der Bahn. = Aš važiuoju traukiniu."
+          "example": "Ich fahre mit der Bahn. = Es braucu ar vilcienu."
         },
         {
           "word": "der Zug",
           "meaning": "konkretus traukinys",
-          "example": "Der Zug fährt um acht Uhr ab. = Traukinys išvyksta aštuntą valandą."
+          "example": "Der Zug fährt um acht Uhr ab. = Vilciens atiet astoņos."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "tramvajus",
-          "example": "Die Straßenbahn hält hier. = Tramvajus sustoja čia."
+          "example": "Die Straßenbahn hält hier. = Tramvajs pietur šeit."
         },
         {
           "word": "der Bahnhof",
           "meaning": "geležinkelio stotis",
-          "example": "Wir treffen uns am Bahnhof. = Mes susitinkame stotyje."
+          "example": "Wir treffen uns am Bahnhof. = Mēs tiekamies stacijā."
         },
         {
           "word": "das Gleis",
           "meaning": "bėgių kelias / platforma",
-          "example": "Der Zug fährt von Gleis 3. = Traukinys išvyksta iš 3 platformos."
+          "example": "Der Zug fährt von Gleis 3. = Vilciens atiet no 3. perona."
         }
       ],
       "tip": {
@@ -10618,32 +10618,32 @@ const A2_WORDS = [
         {
           "word": "die Bank (Finanz)",
           "meaning": "bankas",
-          "example": "Ich gehe zur Bank. = Aš einu į banką. Plural: die Banken."
+          "example": "Ich gehe zur Bank. = Es eju uz banku. Plural: die Banken."
         },
         {
           "word": "die Bank (Sitzbank)",
           "meaning": "suolas / suoliukas",
-          "example": "Wir sitzen auf einer Bank. = Mes sėdime ant suoliuko. Plural: die Bänke."
+          "example": "Wir sitzen auf einer Bank. = Mēs sēžam uz soliņa. Plural: die Bänke."
         },
         {
           "word": "die Bankfiliale",
           "meaning": "banko filialas",
-          "example": "Die Bankfiliale ist geöffnet. = Banko filialas yra atviras."
+          "example": "Die Bankfiliale ist geöffnet. = Bankas filiāle ir atvērta."
         },
         {
           "word": "die Parkbank",
           "meaning": "parko suoliukas",
-          "example": "Wir sitzen auf der Parkbank. = Mes sėdime ant parko suoliuko."
+          "example": "Wir sitzen auf der Parkbank. = Mēs sēžam uz parka soliņa."
         },
         {
           "word": "die Sandbank",
           "meaning": "smėlio sekluma",
-          "example": "Das Schiff steckt auf einer Sandbank. = Laivas užplaukė ant seklumos."
+          "example": "Das Schiff steckt auf einer Sandbank. = Kuģis ir uzsēdies uz sēkļa."
         },
         {
           "word": "der Stuhl",
           "meaning": "kėdė",
-          "example": "Ich sitze auf einem Stuhl. = Aš sėdžiu ant kėdės."
+          "example": "Ich sitze auf einem Stuhl. = Es sēžu uz krēsla."
         }
       ],
       "tip": {
@@ -11343,27 +11343,27 @@ const A2_WORDS = [
         {
           "word": "der Bauer",
           "meaning": "ūkininkas / pėstininkas",
-          "example": "Der Bauer arbeitet auf dem Feld. = Ūkininkas dirba lauke."
+          "example": "Der Bauer arbeitet auf dem Feld. = Zemnieks strādā uz lauka."
         },
         {
           "word": "der Landwirt",
           "meaning": "ūkininkas / žemdirbys",
-          "example": "Der Landwirt führt einen Hof. = Žemdirbys tvarko ūkį."
+          "example": "Der Landwirt führt einen Hof. = Lauksaimnieks vada saimniecību."
         },
         {
           "word": "der Bauernhof",
           "meaning": "ūkis",
-          "example": "Wir besuchen einen Bauernhof. = Mes aplankome ūkį."
+          "example": "Wir besuchen einen Bauernhof. = Mēs apmeklējam lauku saimniecību."
         },
         {
           "word": "die Figur",
           "meaning": "figūra",
-          "example": "Die Dame ist eine starke Figur. = Dama yra stipri figūra."
+          "example": "Die Dame ist eine starke Figur. = Dāma ir spēcīga figūra."
         },
         {
           "word": "der Spielstein",
           "meaning": "žaidimo kauliukas",
-          "example": "Der Spielstein liegt auf dem Brett. = Žaidimo kauliukas yra ant lentos."
+          "example": "Der Spielstein liegt auf dem Brett. = Spēles kauliņš atrodas uz galda."
         }
       ],
       "tip": {
@@ -11938,27 +11938,27 @@ const A2_WORDS = [
         {
           "word": "bedienen",
           "meaning": "aptarnauti / naudotis prietaisu",
-          "example": "Der Kellner bedient uns. = Padavėjas mus aptarnauja."
+          "example": "Der Kellner bedient uns. = Viesmīlis mūs apkalpo."
         },
         {
           "word": "benutzen",
           "meaning": "naudoti",
-          "example": "Ich benutze mein Handy. = Aš naudojuosi telefonu."
+          "example": "Ich benutze mein Handy. = Es lietoju telefonu."
         },
         {
           "word": "helfen",
           "meaning": "padėti",
-          "example": "Kannst du mir helfen? = Ar gali man padėti?"
+          "example": "Kannst du mir helfen? = Vai vari man palīdzēt?"
         },
         {
           "word": "servieren",
           "meaning": "patiekti maistą",
-          "example": "Sie serviert das Essen. = Ji patiekia maistą."
+          "example": "Sie serviert das Essen. = Viņa pasniedz ēdienu."
         },
         {
           "word": "steuern",
           "meaning": "vairuoti",
-          "example": "Er steuert das Auto. = Jis vairuoja automobilį."
+          "example": "Er steuert das Auto. = Viņš vada auto."
         }
       ],
       "tip": {
@@ -12279,27 +12279,27 @@ const A2_WORDS = [
         {
           "word": "die Bedienung",
           "meaning": "aptarnavimas / aptarnavimo darbuotojas",
-          "example": "Die Bedienung ist freundlich. = Aptarnavimo darbuotojas yra malonus."
+          "example": "Die Bedienung ist freundlich. = Apkalpotājs ir laipns."
         },
         {
           "word": "der Kellner",
           "meaning": "padavėjas",
-          "example": "Der Kellner bringt die Rechnung. = Padavėjas atneš sąskaitą."
+          "example": "Der Kellner bringt die Rechnung. = Viesmīlis atnes rēķinu."
         },
         {
           "word": "die Kellnerin",
           "meaning": "padavėja",
-          "example": "Die Kellnerin fragt nach Getränken. = Padavėja klausia apie gėrimus."
+          "example": "Die Kellnerin fragt nach Getränken. = Viesmīle jautā par dzērieniem."
         },
         {
           "word": "der Service",
           "meaning": "servisas / aptarnavimas",
-          "example": "Der Service ist gut. = Aptarnavimas yra geras."
+          "example": "Der Service ist gut. = Apkalpošana ir laba."
         },
         {
           "word": "das Personal",
           "meaning": "personalas",
-          "example": "Das Personal hilft uns. = Personalas mums padeda."
+          "example": "Das Personal hilft uns. = Personāls mums palīdz."
         }
       ],
       "tip": {
@@ -12652,27 +12652,27 @@ const A2_WORDS = [
         {
           "word": "behalten",
           "meaning": "pasilikti / atsiminti",
-          "example": "Du kannst es behalten. = Tu gali tai pasilikti."
+          "example": "Du kannst es behalten. = Tu vari to paturēt."
         },
         {
           "word": "halten",
           "meaning": "laikyti",
-          "example": "Ich halte die Tasche. = Aš laikau krepšį."
+          "example": "Ich halte die Tasche. = Es turu somu."
         },
         {
           "word": "sich merken",
           "meaning": "įsiminti / atsiminti",
-          "example": "Ich merke mir die Nummer. = Aš įsimenu numerį."
+          "example": "Ich merke mir die Nummer. = Es iegaumēju numuru."
         },
         {
           "word": "erinnern",
           "meaning": "atsiminti / priminti",
-          "example": "Ich erinnere mich daran. = Aš tai atsimenu."
+          "example": "Ich erinnere mich daran. = Es to atceros."
         },
         {
           "word": "aufbewahren",
           "meaning": "saugoti",
-          "example": "Ich bewahre die Quittung auf. = Aš saugau čekį."
+          "example": "Ich bewahre die Quittung auf. = Es glabāju čeku."
         }
       ],
       "tip": {
@@ -13028,27 +13028,27 @@ const A2_WORDS = [
         {
           "word": "beinahe",
           "meaning": "beveik / vos vos",
-          "example": "Ich hätte beinahe gelacht. = Aš vos nepradėjau juoktis."
+          "example": "Ich hätte beinahe gelacht. = Es gandrīz sāku smieties."
         },
         {
           "word": "fast",
           "meaning": "beveik",
-          "example": "Ich bin fast fertig. = Aš esu beveik baigęs."
+          "example": "Ich bin fast fertig. = Es esmu gandrīz gatavs."
         },
         {
           "word": "knapp",
           "meaning": "vos vos / su nedidele persvara",
-          "example": "Das war knapp. = Tai buvo vos vos."
+          "example": "Das war knapp. = Tas bija knapi."
         },
         {
           "word": "kaum",
           "meaning": "vargu ar / vos",
-          "example": "Ich kann kaum laufen. = Aš vos vos galiu paeiti."
+          "example": "Ich kann kaum laufen. = Es tik tikko varu paiet."
         },
         {
           "word": "gerade noch",
           "meaning": "vis dar vos vos",
-          "example": "Wir haben es gerade noch geschafft. = Mes vos vos spėjome."
+          "example": "Wir haben es gerade noch geschafft. = Mēs vēl tik tikko paspējām."
         }
       ],
       "tip": {
@@ -13388,27 +13388,27 @@ const A2_WORDS = [
         {
           "word": "bekannt",
           "meaning": "pažįstamas / žinomas",
-          "example": "Das ist bekannt. = Tai yra žinoma."
+          "example": "Das ist bekannt. = Tas ir zināms."
         },
         {
           "word": "berühmt",
           "meaning": "garsus",
-          "example": "Er ist berühmt. = Jis yra garsus."
+          "example": "Er ist berühmt. = Viņš ir slavens."
         },
         {
           "word": "vertraut",
           "meaning": "pažįstamas / įprastas",
-          "example": "Die Umgebung ist mir vertraut. = Aplinka man yra pažįstama."
+          "example": "Die Umgebung ist mir vertraut. = Apkārtne man ir pazīstama."
         },
         {
           "word": "befreundet",
           "meaning": "draugystėje / draugiškuose santykiuose",
-          "example": "Wir sind befreundet. = Mes esame draugai."
+          "example": "Wir sind befreundet. = Mēs esam draugos."
         },
         {
           "word": "unbekannt",
           "meaning": "nežinomas",
-          "example": "Der Täter ist unbekannt. = Kaltininkas yra nežinomas."
+          "example": "Der Täter ist unbekannt. = Vainīgais ir nezināms."
         }
       ],
       "tip": {
@@ -13868,27 +13868,27 @@ const A2_WORDS = [
         {
           "word": "bestellen",
           "meaning": "užsisakyti / rezervuoti",
-          "example": "Ich bestelle Essen. = Aš užsisakau maistą."
+          "example": "Ich bestelle Essen. = Es pasūtu ēdienu."
         },
         {
           "word": "reservieren",
           "meaning": "rezervuoti",
-          "example": "Ich reserviere einen Tisch. = Aš rezervuoju staliuką."
+          "example": "Ich reserviere einen Tisch. = Es rezervēju galdiņu."
         },
         {
           "word": "kaufen",
           "meaning": "pirkti",
-          "example": "Ich kaufe Brot. = Aš perku duoną."
+          "example": "Ich kaufe Brot. = Es pērku maizi."
         },
         {
           "word": "grüßen",
           "meaning": "sveikinti / perduoti sveikinimus",
-          "example": "Grüß deine Mutter! = Pasveikink mamą!"
+          "example": "Grüß deine Mutter! = Pasveicini mammu!"
         },
         {
           "word": "bearbeiten",
           "meaning": "apdoroti",
-          "example": "Ich bearbeite den Text. = Aš apdoroju tekstą."
+          "example": "Ich bearbeite den Text. = Es apstrādāju tekstu."
         }
       ],
       "tip": {
@@ -14218,27 +14218,27 @@ const A2_WORDS = [
         {
           "word": "bestimmt",
           "meaning": "tikrai / nustatytas / konkretus",
-          "example": "Das ist bestimmt richtig. = Tai tikrai yra teisinga."
+          "example": "Das ist bestimmt richtig. = Tas noteikti ir pareizi."
         },
         {
           "word": "sicher",
           "meaning": "tikras / tikrai",
-          "example": "Das ist sicher richtig. = Tai tikrai yra teisinga."
+          "example": "Das ist sicher richtig. = Tas noteikti ir pareizi."
         },
         {
           "word": "konkret",
           "meaning": "konkretus",
-          "example": "Ich brauche ein konkretes Beispiel. = Man reikia konkretaus pavyzdžio."
+          "example": "Ich brauche ein konkretes Beispiel. = Man vajag konkrētu piemēru."
         },
         {
           "word": "fest",
           "meaning": "griežtas / nustatytas",
-          "example": "Wir haben einen festen Termin. = Mes turime nustatytą terminą."
+          "example": "Wir haben einen festen Termin. = Mums ir noteikts termiņš."
         },
         {
           "word": "wahrscheinlich",
           "meaning": "tikriausiai / galbūt",
-          "example": "Er kommt wahrscheinlich morgen. = Jis tikriausiai atvyks rytoj."
+          "example": "Er kommt wahrscheinlich morgen. = Viņš droši vien atnāks rīt."
         }
       ],
       "tip": {
@@ -14615,22 +14615,22 @@ const A2_WORDS = [
         {
           "word": "die Birne",
           "meaning": "kriaušė / lemputė",
-          "example": "Ich esse eine Birne. = Aš valgau kriaušę."
+          "example": "Ich esse eine Birne. = Es ēdu bumbieri."
         },
         {
           "word": "die Glühbirne",
           "meaning": "lemputė",
-          "example": "Die Glühbirne ist kaputt. = Lemputė yra sudužusi."
+          "example": "Die Glühbirne ist kaputt. = Spuldze ir saplīsusi."
         },
         {
           "word": "die Lampe",
           "meaning": "lempa",
-          "example": "Die Lampe ist hell. = Lempa yra šviesi."
+          "example": "Die Lampe ist hell. = Lampa ir spoža."
         },
         {
           "word": "das Obst",
           "meaning": "vaisiai",
-          "example": "Birnen sind Obst. = Kriaušės yra vaisiai."
+          "example": "Birnen sind Obst. = Bumbieri ir augļi."
         }
       ],
       "tip": {
@@ -15091,27 +15091,27 @@ const A2_WORDS = [
         {
           "word": "bitter",
           "meaning": "kartus / rūstus / aštrus",
-          "example": "Der Kaffee ist bitter. = Kava yra karti."
+          "example": "Der Kaffee ist bitter. = Kafija ir rūgta."
         },
         {
           "word": "sauer",
           "meaning": "rūgštus",
-          "example": "Die Zitrone ist sauer. = Citrina yra rūgšti."
+          "example": "Die Zitrone ist sauer. = Citrons ir skābs."
         },
         {
           "word": "scharf",
           "meaning": "aštrus / pikantiškas",
-          "example": "Die Suppe ist scharf. = Sriuba yra aštri."
+          "example": "Die Suppe ist scharf. = Zupa ir asa."
         },
         {
           "word": "streng",
           "meaning": "griežtas / aštrus",
-          "example": "Der Lehrer ist streng. = Mokytojas yra griežtas."
+          "example": "Der Lehrer ist streng. = Skolotājs ir stingrs."
         },
         {
           "word": "unangenehm",
           "meaning": "nemalonus",
-          "example": "Der Geruch ist unangenehm. = Kvapas yra nemalonus."
+          "example": "Der Geruch ist unangenehm. = Smarža ir nepatīkama."
         }
       ],
       "tip": {
@@ -15548,27 +15548,27 @@ const A2_WORDS = [
         {
           "word": "der Boden",
           "meaning": "grindys / žemė / dirvožemis / dugnas",
-          "example": "Die Tasche liegt auf dem Boden. = Krepšys yra ant grindų."
+          "example": "Die Tasche liegt auf dem Boden. = Soma atrodas uz grīdas."
         },
         {
           "word": "der Fußboden",
           "meaning": "grindys patalpoje",
-          "example": "Der Fußboden ist sauber. = Grindys yra švarios."
+          "example": "Der Fußboden ist sauber. = Grīda ir tīra."
         },
         {
           "word": "die Erde",
           "meaning": "žemė / dirvožemis",
-          "example": "Die Erde ist trocken. = Žemė yra sausa."
+          "example": "Die Erde ist trocken. = Zeme ir sausa."
         },
         {
           "word": "der Grund",
           "meaning": "pagrindas / dugnas / priežastis",
-          "example": "Das Haus steht auf festem Grund. = Namas stovi ant tvirto pagrindo."
+          "example": "Das Haus steht auf festem Grund. = Māja stāv uz stingra pamata."
         },
         {
           "word": "der Flaschenboden",
           "meaning": "butelio dugnas",
-          "example": "Der Flaschenboden ist dick. = Butelio dugnas yra storas."
+          "example": "Der Flaschenboden ist dick. = Pudeles dibens ir biezs."
         }
       ],
       "tip": {
@@ -15972,22 +15972,22 @@ const A2_WORDS = [
         {
           "word": "borgen",
           "meaning": "skolintis / skolinti",
-          "example": "Ich borge mir Geld. = Aš skolinuosi pinigų."
+          "example": "Ich borge mir Geld. = Es aizņemos naudu."
         },
         {
           "word": "leihen",
           "meaning": "skolinti / skolintis",
-          "example": "Kannst du mir das Buch leihen? = Ar gali man paskolinti knygą?"
+          "example": "Kannst du mir das Buch leihen? = Vai vari man aizdot grāmatu?"
         },
         {
           "word": "geben",
           "meaning": "duoti",
-          "example": "Ich gebe dir Geld. = Aš tau duodu pinigų."
+          "example": "Ich gebe dir Geld. = Es tev dodu naudu."
         },
         {
           "word": "zurückgeben",
           "meaning": "atiduoti atgal",
-          "example": "Ich gebe das Buch zurück. = Aš grąžinu knygą."
+          "example": "Ich gebe das Buch zurück. = Es atdodu grāmatu."
         }
       ],
       "tip": {
@@ -16317,27 +16317,27 @@ const A2_WORDS = [
         {
           "word": "böse",
           "meaning": "piktas / supykęs",
-          "example": "Bist du böse auf mich? = Ar tu pyksti ant manęs?"
+          "example": "Bist du böse auf mich? = Vai tu esi dusmīgs uz mani?"
         },
         {
           "word": "schlecht",
           "meaning": "blogas",
-          "example": "Das Wetter ist schlecht. = Oras yra blogas."
+          "example": "Das Wetter ist schlecht. = Laiks ir slikts."
         },
         {
           "word": "zornig",
           "meaning": "piktas",
-          "example": "Er ist zornig. = Jis yra piktas."
+          "example": "Er ist zornig. = Viņš ir nikns."
         },
         {
           "word": "ärgerlich",
           "meaning": "erzinantis / piktas",
-          "example": "Das ist ärgerlich. = Tai yra erzinantis."
+          "example": "Das ist ärgerlich. = Tas ir kaitinoši."
         },
         {
           "word": "sauer",
           "meaning": "piktas / rūgštus",
-          "example": "Ich bin sauer. = Aš esu piktas."
+          "example": "Ich bin sauer. = Es esmu dusmīgs."
         }
       ],
       "tip": {
@@ -16705,32 +16705,32 @@ const A2_WORDS = [
         {
           "word": "brav",
           "meaning": "klusnus / tvarkingas / gerai išauklėtas",
-          "example": "Das Kind ist brav. = Vaikas yra klusnus."
+          "example": "Das Kind ist brav. = Bērns ir paklausīgs."
         },
         {
           "word": "gut",
           "meaning": "geras",
-          "example": "Er ist ein guter Mensch. = Jis yra geras žmogus."
+          "example": "Er ist ein guter Mensch. = Viņš ir labs cilvēks."
         },
         {
           "word": "nett",
           "meaning": "malonus",
-          "example": "Sie ist nett. = Ji yra maloni."
+          "example": "Sie ist nett. = Viņa ir jauka."
         },
         {
           "word": "freundlich",
           "meaning": "draugiškas / malonus",
-          "example": "Der Verkäufer ist freundlich. = Pardavėjas yra malonus."
+          "example": "Der Verkäufer ist freundlich. = Pārdevējs ir laipns."
         },
         {
           "word": "artig",
           "meaning": "mandagus / gerai išauklėtas",
-          "example": "Das Kind ist artig. = Vaikas yra mandagus."
+          "example": "Das Kind ist artig. = Bērns ir pieklājīgs."
         },
         {
           "word": "gehorsam",
           "meaning": "klusnus valdžiai",
-          "example": "Der Hund ist gehorsam. = Šuo yra klusnus."
+          "example": "Der Hund ist gehorsam. = Suns ir paklausīgs."
         }
       ],
       "tip": [
@@ -17111,27 +17111,27 @@ const A2_WORDS = [
         {
           "word": "brennen",
           "meaning": "degti / deginti / skausmingai degti",
-          "example": "Das Feuer brennt. = Ugnis dega."
+          "example": "Das Feuer brennt. = Uguns deg."
         },
         {
           "word": "anzünden",
           "meaning": "uždegti",
-          "example": "Ich zünde die Kerze an. = Aš uždegu žvakę."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "verbrennen",
           "meaning": "sudeginti / nudegti",
-          "example": "Ich habe mich verbrannt. = Aš nusideginau."
+          "example": "Ich habe mich verbrannt. = Es apdedzinājos."
         },
         {
           "word": "löschen",
           "meaning": "užgesinti / gesinti",
-          "example": "Die Feuerwehr löscht das Feuer. = Ugniagesiai gesina ugnį."
+          "example": "Die Feuerwehr löscht das Feuer. = Ugunsdzēsēji dzēš uguni."
         },
         {
           "word": "aufnehmen",
           "meaning": "įrašyti / priimti",
-          "example": "Ich nehme ein Video auf. = Aš įrašau video."
+          "example": "Ich nehme ein Video auf. = Es ierakstu video."
         }
       ],
       "tip": [
@@ -17578,27 +17578,27 @@ const A2_WORDS = [
         {
           "word": "dabei",
           "meaning": "čia pat / su savimi / be to",
-          "example": "Ich habe den Schlüssel dabei. = Aš turiu raktą su savimi."
+          "example": "Ich habe den Schlüssel dabei. = Man ir līdzi atslēga."
         },
         {
           "word": "mit dabei",
           "meaning": "taip pat dalyvaujantis / įsitraukęs",
-          "example": "Bist du morgen mit dabei? = Ar tu rytoj taip pat dalyvausi?"
+          "example": "Bist du morgen mit dabei? = Vai tu rīt arī piedalīsies?"
         },
         {
           "word": "dort",
           "meaning": "ten",
-          "example": "Ich war dort. = Aš buvau ten."
+          "example": "Ich war dort. = Es biju tur."
         },
         {
           "word": "außerdem",
           "meaning": "be to",
-          "example": "Außerdem ist es teuer. = Be to, tai yra brangu."
+          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
         },
         {
           "word": "trotzdem",
           "meaning": "tačiau",
-          "example": "Trotzdem komme ich. = Vis tiek aš atvyksiu."
+          "example": "Trotzdem komme ich. = Tomēr es nākšu."
         }
       ],
       "tip": {
@@ -17954,27 +17954,27 @@ const A2_WORDS = [
         {
           "word": "dafür",
           "meaning": "už tai / tam / užtat",
-          "example": "Danke dafür. = Ačiū už tai."
+          "example": "Danke dafür. = Paldies par to."
         },
         {
           "word": "darum",
           "meaning": "todėl / dėl to",
-          "example": "Darum bleibe ich zu Hause. = Todėl aš pasilieku namuose."
+          "example": "Darum bleibe ich zu Hause. = Tāpēc es palieku mājās."
         },
         {
           "word": "deshalb",
           "meaning": "todėl",
-          "example": "Deshalb komme ich später. = Todėl aš ateisiu vėliau."
+          "example": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk."
         },
         {
           "word": "dagegen",
           "meaning": "prieš tai",
-          "example": "Ich bin dagegen. = Aš esu prieš tai."
+          "example": "Ich bin dagegen. = Es esmu pret to."
         },
         {
           "word": "für das",
           "meaning": "už tai / dėl to",
-          "example": "Das ist für das Kind. = Tai skirta vaikui."
+          "example": "Das ist für das Kind. = Tas ir bērnam."
         }
       ],
       "tip": {
@@ -18337,22 +18337,22 @@ const A2_WORDS = [
         {
           "word": "damit",
           "meaning": "su tuo / kad",
-          "example": "Ich lerne, damit ich bestehe. = Aš mokausi, kad išlaikyčiau."
+          "example": "Ich lerne, damit ich bestehe. = Es mācos, lai nokārtotu."
         },
         {
           "word": "mit dem",
           "meaning": "su tuo konkrečiu daiktu",
-          "example": "Ich schreibe mit dem Stift. = Rašau tuo rašikliu."
+          "example": "Ich schreibe mit dem Stift. = Es rakstu ar to pildspalvu."
         },
         {
           "word": "um ... zu",
           "meaning": "kad + veiksmažodis",
-          "example": "Ich lerne, um zu bestehen. = Aš mokausi, kad išlaikyčiau."
+          "example": "Ich lerne, um zu bestehen. = Es mācos, lai nokārtotu."
         },
         {
           "word": "deshalb",
           "meaning": "todėl",
-          "example": "Deshalb bleibe ich hier. = Todėl aš pasilieku čia."
+          "example": "Deshalb bleibe ich hier. = Tāpēc es palieku šeit."
         }
       ],
       "tip": {
@@ -18704,27 +18704,27 @@ const A2_WORDS = [
         {
           "word": "der Dank",
           "meaning": "padėka (daiktavardis)",
-          "example": "Herzlichen Dank! = Nuoširdus dėkui!"
+          "example": "Herzlichen Dank! = Sirsnīgs paldies!"
         },
         {
           "word": "danke",
           "meaning": "dėkui (atsakymas)",
-          "example": "Nein, danke. = Ne, dėkui."
+          "example": "Nein, danke. = Nē, paldies."
         },
         {
           "word": "danken",
           "meaning": "dėkoti",
-          "example": "Ich danke dir. = Aš tau dėkoju."
+          "example": "Ich danke dir. = Es tev pateicos."
         },
         {
           "word": "Vielen Dank",
           "meaning": "didelis dėkui (frazė)",
-          "example": "Vielen Dank für die Hilfe! = Didelis dėkui už pagalbą!"
+          "example": "Vielen Dank für die Hilfe! = Liels paldies par palīdzību!"
         },
         {
           "word": "bedanken (sich)",
           "meaning": "dėkoti formaliai",
-          "example": "Ich bedanke mich bei Ihnen. = Aš dėkoju jums."
+          "example": "Ich bedanke mich bei Ihnen. = Es pateicos jums."
         }
       ],
       "tip": {
@@ -19051,22 +19051,22 @@ const A2_WORDS = [
         {
           "word": "darauf",
           "meaning": "ant to / ant jo / po to",
-          "example": "Ich warte darauf. = Aš to laukiu."
+          "example": "Ich warte darauf. = Es gaidu uz to."
         },
         {
           "word": "auf das",
           "meaning": "ant to konkretaus daikto",
-          "example": "Ich lege es auf das Buch. = Aš dedu tai ant knygos."
+          "example": "Ich lege es auf das Buch. = Es lieku to uz grāmatas."
         },
         {
           "word": "danach",
           "meaning": "po to",
-          "example": "Danach gehe ich nach Hause. = Po to aš eisiu namo."
+          "example": "Danach gehe ich nach Hause. = Pēc tam es eju mājās."
         },
         {
           "word": "darüber",
           "meaning": "apie tai / virš to",
-          "example": "Wir sprechen darüber. = Mes kalbame apie tai."
+          "example": "Wir sprechen darüber. = Mēs runājam par to."
         }
       ],
       "tip": {
@@ -19393,22 +19393,22 @@ const A2_WORDS = [
         {
           "word": "darüber",
           "meaning": "apie tai / virš to / per tai",
-          "example": "Wir sprechen darüber. = Mes kalbame apie tai."
+          "example": "Wir sprechen darüber. = Mēs runājam par to."
         },
         {
           "word": "über das",
           "meaning": "apie tą konkretų dalyką / virš to",
-          "example": "Wir sprechen über das Problem. = Mes kalbame apie problemą."
+          "example": "Wir sprechen über das Problem. = Mēs runājam par problēmu."
         },
         {
           "word": "darauf",
           "meaning": "ant to / ant jo / po to",
-          "example": "Ich warte darauf. = Aš to laukiu."
+          "example": "Ich warte darauf. = Es gaidu uz to."
         },
         {
           "word": "davon",
           "meaning": "apie tai / nuo to",
-          "example": "Ich habe davon gehört. = Aš apie tai girdėjau."
+          "example": "Ich habe davon gehört. = Es par to dzirdēju."
         }
       ],
       "tip": {
@@ -19755,27 +19755,27 @@ const A2_WORDS = [
         {
           "word": "darum",
           "meaning": "todėl / dėl to / aplink tai",
-          "example": "Darum bleibe ich hier. = Todėl aš pasilieku čia."
+          "example": "Darum bleibe ich hier. = Tāpēc es palieku šeit."
         },
         {
           "word": "deshalb",
           "meaning": "todėl",
-          "example": "Deshalb komme ich später. = Todėl aš ateisiu vėliau."
+          "example": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk."
         },
         {
           "word": "deswegen",
           "meaning": "todėl / dėl šios priežasties",
-          "example": "Deswegen bin ich müde. = Todėl esu pavargęs."
+          "example": "Deswegen bin ich müde. = Tāpēc esmu noguris."
         },
         {
           "word": "um das",
           "meaning": "aplink tą konkretų dalyką",
-          "example": "Wir sitzen um das Feuer. = Mes sėdime aplink ugnį."
+          "example": "Wir sitzen um das Feuer. = Mēs sēžam ap uguni."
         },
         {
           "word": "dafür",
           "meaning": "už tai / tam / užtat",
-          "example": "Danke dafür. = Ačiū už tai."
+          "example": "Danke dafür. = Paldies par to."
         }
       ],
       "tip": {
@@ -20368,22 +20368,22 @@ const A2_WORDS = [
         {
           "word": "davor",
           "meaning": "priešais / prieš tai / nuo to",
-          "example": "Ich habe Angst davor. = Aš to bijau."
+          "example": "Ich habe Angst davor. = Man ir bail no tā."
         },
         {
           "word": "vor dem",
           "meaning": "prieš / priešais konkrečiam",
-          "example": "Vor dem Haus steht ein Auto. = Priešais namą stovi automobilis."
+          "example": "Vor dem Haus steht ein Auto. = Mājas priekšā stāv auto."
         },
         {
           "word": "danach",
           "meaning": "po to",
-          "example": "Danach gehen wir. = Po to mes eisime."
+          "example": "Danach gehen wir. = Pēc tam mēs ejam."
         },
         {
           "word": "darauf",
           "meaning": "ant to / po to",
-          "example": "Ich warte darauf. = Aš to laukiu."
+          "example": "Ich warte darauf. = Es gaidu uz to."
         }
       ],
       "tip": [
@@ -20669,22 +20669,22 @@ const A2_WORDS = [
         {
           "word": "dazu",
           "meaning": "tam / prie to / papildomai / be to",
-          "example": "Was sagst du dazu? = Ką tu apie tai sakai?"
+          "example": "Was sagst du dazu? = Ko tu par to saki?"
         },
         {
           "word": "dafür",
           "meaning": "už tai / tam / užtat",
-          "example": "Danke dafür. = Ačiū už tai."
+          "example": "Danke dafür. = Paldies par to."
         },
         {
           "word": "dabei",
           "meaning": "čia pat / su savimi / be to",
-          "example": "Ich war dabei. = Aš dalyvavau."
+          "example": "Ich war dabei. = Es biju klāt."
         },
         {
           "word": "außerdem",
           "meaning": "be to",
-          "example": "Außerdem ist es teuer. = Be to, tai yra brangu."
+          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
         }
       ],
       "tip": [
@@ -20949,27 +20949,27 @@ const A2_WORDS = [
         {
           "word": "die Decke",
           "meaning": "antklodė / lubos",
-          "example": "Die Decke ist warm. = Antklodė yra šilta."
+          "example": "Die Decke ist warm. = Sega ir silta."
         },
         {
           "word": "die Bettdecke",
           "meaning": "antklodė lovoje",
-          "example": "Die Bettdecke ist weich. = Antklodė yra minkšta."
+          "example": "Die Bettdecke ist weich. = Sega ir mīksta."
         },
         {
           "word": "die Zimmerdecke",
           "meaning": "lubos",
-          "example": "Die Zimmerdecke ist hoch. = Lubos yra aukštos."
+          "example": "Die Zimmerdecke ist hoch. = Griesti ir augsti."
         },
         {
           "word": "das Dach",
           "meaning": "stogas",
-          "example": "Das Dach ist rot. = Stogas yra raudonas."
+          "example": "Das Dach ist rot. = Jumts ir sarkans."
         },
         {
           "word": "die Wand",
           "meaning": "siena",
-          "example": "Das Bild hängt an der Wand. = Paveikslas kabo ant sienos."
+          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
         }
       ],
       "tip": [
@@ -21294,22 +21294,22 @@ const A2_WORDS = [
         {
           "word": "denn",
           "meaning": "nes / tada klausimuose",
-          "example": "Was machst du denn? = Ką tu tada darai?"
+          "example": "Was machst du denn? = Ko tad tu dari?"
         },
         {
           "word": "weil",
           "meaning": "nes / todėl kad",
-          "example": "Ich bleibe, weil es regnet. = Aš pasilieku, nes lyja."
+          "example": "Ich bleibe, weil es regnet. = Es palieku, jo līst."
         },
         {
           "word": "dann",
           "meaning": "tada",
-          "example": "Dann gehen wir. = Tada mes eisime."
+          "example": "Dann gehen wir. = Tad mēs ejam."
         },
         {
           "word": "deshalb",
           "meaning": "todėl",
-          "example": "Deshalb bleibe ich. = Todėl aš pasilieku."
+          "example": "Deshalb bleibe ich. = Tāpēc es palieku."
         }
       ],
       "tip": [
@@ -21643,27 +21643,27 @@ const A2_WORDS = [
         {
           "word": "dick",
           "meaning": "storas / apkūnus",
-          "example": "Das Buch ist dick. = Knyga yra stora."
+          "example": "Das Buch ist dick. = Grāmata ir bieza."
         },
         {
           "word": "fett",
           "meaning": "riebus / storas",
-          "example": "Das Essen ist fett. = Maistas yra riebus."
+          "example": "Das Essen ist fett. = Ēdiens ir trekns."
         },
         {
           "word": "dünn",
           "meaning": "lieknas / plonas",
-          "example": "Das Papier ist dünn. = Popierius yra plonas."
+          "example": "Das Papier ist dünn. = Papīrs ir plāns."
         },
         {
           "word": "breit",
           "meaning": "platus",
-          "example": "Die Straße ist breit. = Gatvė yra plati."
+          "example": "Die Straße ist breit. = Iela ir plata."
         },
         {
           "word": "stark",
           "meaning": "stiprus",
-          "example": "Er ist stark. = Jis yra stiprus."
+          "example": "Er ist stark. = Viņš ir stiprs."
         }
       ],
       "tip": [
@@ -22012,27 +22012,27 @@ const A2_WORDS = [
         {
           "word": "doch",
           "meaning": "juk / tačiau / gi / na",
-          "example": "Komm doch! = Ateik juk!"
+          "example": "Komm doch! = Nāc taču!"
         },
         {
           "word": "aber",
           "meaning": "bet",
-          "example": "Ich will, aber ich kann nicht. = Aš noriu, bet negaliu."
+          "example": "Ich will, aber ich kann nicht. = Es gribu, bet nevaru."
         },
         {
           "word": "trotzdem",
           "meaning": "tačiau / nepaisant to",
-          "example": "Es regnet, trotzdem gehe ich. = Lyja, tačiau aš eisiu."
+          "example": "Es regnet, trotzdem gehe ich. = Līst, tomēr es eju."
         },
         {
           "word": "ja",
           "meaning": "jau / juk, kai kalbėtojas kažką laiko žinomu dalyku",
-          "example": "Du weißt ja. = Tu jau žinai."
+          "example": "Du weißt ja. = Tu jau zini."
         },
         {
           "word": "nein",
           "meaning": "ne",
-          "example": "Kommst du? Nein. = Ar tu ateisi? Ne."
+          "example": "Kommst du? Nein. = Vai tu nāksi? Nē."
         }
       ],
       "tip": {
@@ -22433,27 +22433,27 @@ const A2_WORDS = [
         {
           "word": "der Doktor",
           "meaning": "doktoras / šnekamojoje kalboje – gydytojas",
-          "example": "Ich gehe zum Doktor. = Aš einu pas gydytoją."
+          "example": "Ich gehe zum Doktor. = Es eju pie ārsta."
         },
         {
           "word": "der Arzt",
           "meaning": "gydytojas",
-          "example": "Der Arzt hilft mir. = Gydytojas man padeda."
+          "example": "Der Arzt hilft mir. = Ārsts man palīdz."
         },
         {
           "word": "die Ärztin",
           "meaning": "gydytoja",
-          "example": "Die Ärztin arbeitet hier. = Gydytoja dirba čia."
+          "example": "Die Ärztin arbeitet hier. = Ārste strādā šeit."
         },
         {
           "word": "der Titel",
           "meaning": "titulas",
-          "example": "Doktor ist ein Titel. = Doktoras yra titulas."
+          "example": "Doktor ist ein Titel. = Doktors ir tituls."
         },
         {
           "word": "die Praxis",
           "meaning": "gydytojo kabinetas",
-          "example": "Die Praxis ist offen. = Gydytojo kabinetas yra atviras."
+          "example": "Die Praxis ist offen. = Ārsta prakse ir atvērta."
         }
       ],
       "tip": [
@@ -23329,27 +23329,27 @@ const A2_WORDS = [
         {
           "word": "dünn",
           "meaning": "plonas / lieknas / retas / skystas",
-          "example": "Das Papier ist dünn. = Popierius yra plonas."
+          "example": "Das Papier ist dünn. = Papīrs ir plāns."
         },
         {
           "word": "dick",
           "meaning": "storas / apkūnus",
-          "example": "Das Buch ist dick. = Knyga yra stora."
+          "example": "Das Buch ist dick. = Grāmata ir bieza."
         },
         {
           "word": "schmal",
           "meaning": "siauras",
-          "example": "Die Straße ist schmal. = Gatvė yra siaura."
+          "example": "Die Straße ist schmal. = Iela ir šaura."
         },
         {
           "word": "mager",
           "meaning": "liesas / lieknas",
-          "example": "Das Fleisch ist mager. = Mėsa yra liesa."
+          "example": "Das Fleisch ist mager. = Gaļa ir liesa."
         },
         {
           "word": "flüssig",
           "meaning": "skystas",
-          "example": "Honig ist flüssig. = Medus yra skystas."
+          "example": "Honig ist flüssig. = Medus ir šķidrs."
         }
       ],
       "tip": [
@@ -23922,22 +23922,22 @@ const A2_WORDS = [
         {
           "word": "eben",
           "meaning": "tiksliai / ką tik / taip tai yra / lygus",
-          "example": "Das ist eben so. = Taip paprasčiausiai yra."
+          "example": "Das ist eben so. = Tā tas vienkārši ir."
         },
         {
           "word": "gerade",
           "meaning": "kaip tik dabar / tiesus",
-          "example": "Ich bin gerade zu Hause. = Aš kaip tik dabar esu namuose."
+          "example": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās."
         },
         {
           "word": "gerade eben",
           "meaning": "ką tik / vos",
-          "example": "Ich habe ihn gerade eben gesehen. = Aš jį ką tik mačiau."
+          "example": "Ich habe ihn gerade eben gesehen. = Es viņu tikko redzēju."
         },
         {
           "word": "flach",
           "meaning": "plokščias",
-          "example": "Das Land ist flach. = Žemė yra plokščia."
+          "example": "Das Land ist flach. = Zeme ir plakana."
         }
       ],
       "tip": {
@@ -24370,22 +24370,22 @@ const A2_WORDS = [
         {
           "word": "ehrlich",
           "meaning": "sąžiningas / atviras",
-          "example": "Er ist ehrlich. = Jis yra sąžiningas."
+          "example": "Er ist ehrlich. = Viņš ir godīgs."
         },
         {
           "word": "aufrichtig",
           "meaning": "tikras / nuoširdus / atviras",
-          "example": "Das war aufrichtig. = Tai buvo nuoširdu."
+          "example": "Das war aufrichtig. = Tas bija patiesi."
         },
         {
           "word": "nett",
           "meaning": "malonus",
-          "example": "Sie ist nett. = Ji yra maloni."
+          "example": "Sie ist nett. = Viņa ir jauka."
         },
         {
           "word": "gut",
           "meaning": "geras",
-          "example": "Er ist ein guter Mensch. = Jis yra geras žmogus."
+          "example": "Er ist ein guter Mensch. = Viņš ir labs cilvēks."
         }
       ],
       "tip": [
@@ -24676,22 +24676,22 @@ const A2_WORDS = [
         {
           "word": "eigentlich",
           "meaning": "iš tikrųjų / tiesą sakant / tikrasis",
-          "example": "Eigentlich habe ich keine Zeit. = Iš tikrųjų man nėra laiko."
+          "example": "Eigentlich habe ich keine Zeit. = Patiesībā man nav laika."
         },
         {
           "word": "echt",
           "meaning": "tikras",
-          "example": "Das ist echt. = Tai yra tikra."
+          "example": "Das ist echt. = Tas ir īsts."
         },
         {
           "word": "wahr",
           "meaning": "teisingas",
-          "example": "Das ist wahr. = Tai yra teisinga."
+          "example": "Das ist wahr. = Tas ir patiess."
         },
         {
           "word": "wirklich",
           "meaning": "tikrai / iš tiesų",
-          "example": "Das ist wirklich gut. = Tai tikrai gerai."
+          "example": "Das ist wirklich gut. = Tas tiešām ir labi."
         }
       ],
       "tip": [
@@ -25033,22 +25033,22 @@ const A2_WORDS = [
         {
           "word": "einladen",
           "meaning": "pakviesti / pakrauti",
-          "example": "Ich lade dich ein. = Aš tave kviečiu."
+          "example": "Ich lade dich ein. = Es tevi uzaicinu."
         },
         {
           "word": "laden",
           "meaning": "krauti / įkrauti",
-          "example": "Ich lade das Handy. = Aš įkraunu telefoną."
+          "example": "Ich lade das Handy. = Es lādēju telefonu."
         },
         {
           "word": "besuchen",
           "meaning": "aplankyti / apsilankyti",
-          "example": "Ich besuche dich. = Aš tave aplankau."
+          "example": "Ich besuche dich. = Es tevi apciemoju."
         },
         {
           "word": "mitbringen",
           "meaning": "pasiimti su savimi",
-          "example": "Bring bitte Brot mit. = Pasiimk duonos."
+          "example": "Bring bitte Brot mit. = Paņem līdzi maizi."
         }
       ],
       "tip": {
@@ -25402,22 +25402,22 @@ const A2_WORDS = [
         {
           "word": "einschalten",
           "meaning": "įjungti / įtraukti",
-          "example": "Ich schalte das Licht ein. = Aš įjungiu šviesą."
+          "example": "Ich schalte das Licht ein. = Es ieslēdzu gaismu."
         },
         {
           "word": "ausschalten",
           "meaning": "išjungti",
-          "example": "Schalte den Computer aus. = Išjunk kompiuterį."
+          "example": "Schalte den Computer aus. = Izslēdz datoru."
         },
         {
           "word": "anmachen",
           "meaning": "įjungti (šnekamojoje kalboje)",
-          "example": "Mach das Licht an. = Įjunk šviesą."
+          "example": "Mach das Licht an. = Ieslēdz gaismu."
         },
         {
           "word": "einbeziehen",
           "meaning": "įtraukti",
-          "example": "Wir beziehen ihn ein. = Mes jį įtraukiame."
+          "example": "Wir beziehen ihn ein. = Mēs viņu iesaistām."
         }
       ],
       "tip": {
@@ -25746,22 +25746,22 @@ const A2_WORDS = [
         {
           "word": "einschlafen",
           "meaning": "užmigti / nutirpti",
-          "example": "Ich schlafe ein. = Aš užmiegu."
+          "example": "Ich schlafe ein. = Es aizmiegu."
         },
         {
           "word": "schlafen",
           "meaning": "miegoti",
-          "example": "Ich schlafe acht Stunden. = Aš miegu aštuonias valandas."
+          "example": "Ich schlafe acht Stunden. = Es guļu astoņas stundas."
         },
         {
           "word": "aufwachen",
           "meaning": "pabusti",
-          "example": "Ich wache früh auf. = Aš pabundu anksti."
+          "example": "Ich wache früh auf. = Es pamostos agri."
         },
         {
           "word": "taub werden",
           "meaning": "tapti nejautriam",
-          "example": "Mein Bein wird taub. = Mano koja tampa nejautri."
+          "example": "Mein Bein wird taub. = Mana kāja kļūst nejutīga."
         }
       ],
       "tip": [
@@ -26049,22 +26049,22 @@ const A2_WORDS = [
         {
           "word": "einsteigen",
           "meaning": "įlipti / įsitraukti",
-          "example": "Ich steige in den Zug ein. = Aš įlipu į traukinį."
+          "example": "Ich steige in den Zug ein. = Es iekāpju vilcienā."
         },
         {
           "word": "aussteigen",
           "meaning": "išlipti / išstoti",
-          "example": "Ich steige hier aus. = Aš čia išlipu."
+          "example": "Ich steige hier aus. = Es šeit izkāpju."
         },
         {
           "word": "umsteigen",
           "meaning": "persėsti",
-          "example": "Wir steigen um. = Mes persėdame."
+          "example": "Wir steigen um. = Mēs pārsēžamies."
         },
         {
           "word": "mitmachen",
           "meaning": "dalyvauti",
-          "example": "Ich mache mit. = Aš dalyvauju."
+          "example": "Ich mache mit. = Es piedalos."
         }
       ],
       "tip": {
@@ -26390,22 +26390,22 @@ const A2_WORDS = [
         {
           "word": "der Eintritt",
           "meaning": "įėjimas / įėjimo mokestis / įstojimas",
-          "example": "Der Eintritt ist frei. = Įėjimas yra nemokamas."
+          "example": "Der Eintritt ist frei. = Ieeja ir bez maksas."
         },
         {
           "word": "der Eingang",
           "meaning": "fizinis įėjimas",
-          "example": "Der Eingang ist links. = Įėjimas yra kairėje."
+          "example": "Der Eingang ist links. = Ieeja ir pa kreisi."
         },
         {
           "word": "die Eintrittskarte",
           "meaning": "įėjimo bilietas",
-          "example": "Ich habe eine Eintrittskarte. = Aš turiu įėjimo bilietą."
+          "example": "Ich habe eine Eintrittskarte. = Man ir ieejas biļete."
         },
         {
           "word": "beitreten",
           "meaning": "įstoti į organizaciją",
-          "example": "Ich trete dem Verein bei. = Aš įstoju į draugiją."
+          "example": "Ich trete dem Verein bei. = Es iestājos biedrībā."
         }
       ],
       "tip": [
@@ -27274,22 +27274,22 @@ const A2_WORDS = [
         {
           "word": "erinnern",
           "meaning": "priminti",
-          "example": "Erinnere mich bitte daran. = Prašau, primink man tai."
+          "example": "Erinnere mich bitte daran. = Lūdzu, atgādini man to."
         },
         {
           "word": "sich erinnern",
           "meaning": "prisiminti",
-          "example": "Ich erinnere mich daran. = Aš tai atsimenu."
+          "example": "Ich erinnere mich daran. = Es to atceros."
         },
         {
           "word": "vergessen",
           "meaning": "pamiršti",
-          "example": "Ich vergesse den Termin. = Aš pamirštu susitikimą."
+          "example": "Ich vergesse den Termin. = Es aizmirstu tikšanos."
         },
         {
           "word": "denken an",
           "meaning": "galvoti apie / prisiminti padaryti",
-          "example": "Denk an den Schlüssel. = Prisimink apie raktą."
+          "example": "Denk an den Schlüssel. = Atceries par atslēgu."
         }
       ],
       "tip": [
@@ -27733,22 +27733,22 @@ const A2_WORDS = [
         {
           "word": "etwa",
           "meaning": "maždaug • klausimuose taip pat nejaugi / tikrai",
-          "example": "Das dauert etwa 20 Minuten. = Tai trunka maždaug 20 minučių."
+          "example": "Das dauert etwa 20 Minuten. = Tas ilgst apmēram 20 minūtes."
         },
         {
           "word": "ungefähr",
           "meaning": "maždaug / apytiksliai, neutraliai",
-          "example": "Das dauert ungefähr 20 Minuten. = Tai trunka apytiksliai 20 minučių."
+          "example": "Das dauert ungefähr 20 Minuten. = Tas ilgst aptuveni 20 minūtes."
         },
         {
           "word": "etwa?",
           "meaning": "nejaugi / tikrai klausime",
-          "example": "Hast du das etwa vergessen? = Nejaugi tu tai pamirši?"
+          "example": "Hast du das etwa vergessen? = Vai tad tu to aizmirsi?"
         },
         {
           "word": "vielleicht",
           "meaning": "galbūt",
-          "example": "Vielleicht kommt er. = Galbūt jis ateis."
+          "example": "Vielleicht kommt er. = Varbūt viņš atnāks."
         }
       ],
       "tip": [
@@ -28117,27 +28117,27 @@ const A2_WORDS = [
         {
           "word": "das Fach",
           "meaning": "skyrelis / dalykas / sritis",
-          "example": "Das Fach ist leer. = Skyrelis yra tuščias."
+          "example": "Das Fach ist leer. = Nodalījums ir tukšs."
         },
         {
           "word": "das Schulfach",
           "meaning": "mokomasis dalykas",
-          "example": "Biologie ist ein Schulfach. = Biologija yra mokomasis dalykas."
+          "example": "Biologie ist ein Schulfach. = Bioloģija ir mācību priekšmets."
         },
         {
           "word": "das Schrankfach",
           "meaning": "spintos skyrelis",
-          "example": "Das Schrankfach ist klein. = Spintos skyrelis yra mažas."
+          "example": "Das Schrankfach ist klein. = Skapja nodalījums ir mazs."
         },
         {
           "word": "das Fachgebiet",
           "meaning": "specialybė / sritis",
-          "example": "Das ist mein Fachgebiet. = Tai mano specialybė."
+          "example": "Das ist mein Fachgebiet. = Tā ir mana specialitāte."
         },
         {
           "word": "der Beruf",
           "meaning": "profesija",
-          "example": "Mein Beruf ist Lehrer. = Mano profesija yra mokytojas."
+          "example": "Mein Beruf ist Lehrer. = Mana profesija ir skolotājs."
         }
       ],
       "tip": {
@@ -28636,27 +28636,27 @@ const A2_WORDS = [
         {
           "word": "der Fall",
           "meaning": "atvejis / kritimas / linksnis / byla",
-          "example": "In diesem Fall komme ich. = Šiuo atveju aš ateisiu."
+          "example": "In diesem Fall komme ich. = Šajā gadījumā es nākšu."
         },
         {
           "word": "der Unfall",
           "meaning": "nelaimingas atsitikimas",
-          "example": "Der Unfall war schlimm. = Nelaimingas atsitikimas buvo sunkus."
+          "example": "Der Unfall war schlimm. = Negadījums bija smags."
         },
         {
           "word": "die Situation",
           "meaning": "situacija",
-          "example": "Die Situation ist schwierig. = Situacija yra sudėtinga."
+          "example": "Die Situation ist schwierig. = Situācija ir grūta."
         },
         {
           "word": "der Kasus",
           "meaning": "gramatinis linksnis",
-          "example": "Der Kasus ist wichtig. = Linksnis yra svarbus."
+          "example": "Der Kasus ist wichtig. = Locījums ir svarīgs."
         },
         {
           "word": "der Gerichtsfall",
           "meaning": "teismo byla",
-          "example": "Der Gerichtsfall dauert lange. = Teismo byla trunka ilgai."
+          "example": "Der Gerichtsfall dauert lange. = Tiesas lieta ilgst ilgi."
         }
       ],
       "tip": {
@@ -29128,22 +29128,22 @@ const A2_WORDS = [
         {
           "word": "fehlen",
           "meaning": "trūkti / nebūti",
-          "example": "Mir fehlt Geld. = Man trūksta pinigų."
+          "example": "Mir fehlt Geld. = Man trūkst naudas."
         },
         {
           "word": "brauchen",
           "meaning": "reikėti",
-          "example": "Ich brauche Geld. = Man reikia pinigų."
+          "example": "Ich brauche Geld. = Man vajag naudu."
         },
         {
           "word": "vermissen",
           "meaning": "ilgėtis / pasiilgti žmogaus",
-          "example": "Ich vermisse dich. = Man trūksta tavęs."
+          "example": "Ich vermisse dich. = Man tevis pietrūkst."
         },
         {
           "word": "abwesend sein",
           "meaning": "nebūti",
-          "example": "Er ist abwesend. = Jo nėra."
+          "example": "Er ist abwesend. = Viņš nav klāt."
         }
       ],
       "tip": [
@@ -29837,27 +29837,27 @@ const A2_WORDS = [
         {
           "word": "das Feuer",
           "meaning": "ugnis / gaisras",
-          "example": "Das Feuer brennt. = Ugnis dega."
+          "example": "Das Feuer brennt. = Uguns deg."
         },
         {
           "word": "der Brand",
           "meaning": "gaisras",
-          "example": "Der Brand ist groß. = Gaisras yra didelis."
+          "example": "Der Brand ist groß. = Ugunsgrēks ir liels."
         },
         {
           "word": "die Flamme",
           "meaning": "liepsna",
-          "example": "Die Flamme ist klein. = Liepsna yra maža."
+          "example": "Die Flamme ist klein. = Liesma ir maza."
         },
         {
           "word": "die Feuerwehr",
           "meaning": "ugniagesiai",
-          "example": "Die Feuerwehr kommt. = Ugniagesiai atvažiuoja."
+          "example": "Die Feuerwehr kommt. = Ugunsdzēsēji brauc."
         },
         {
           "word": "Feuer geben",
           "meaning": "atidengti ugnį",
-          "example": "Die Soldaten geben Feuer. = Kareiviai atidengia ugnį."
+          "example": "Die Soldaten geben Feuer. = Kareivji atklāj uguni."
         }
       ],
       "tip": {
@@ -30409,22 +30409,22 @@ const A2_WORDS = [
         {
           "word": "folgen",
           "meaning": "sekti / išplaukti",
-          "example": "Ich folge dir. = Aš tau seku."
+          "example": "Ich folge dir. = Es tev sekoju."
         },
         {
           "word": "verfolgen",
           "meaning": "persekioti / sekti paskui",
-          "example": "Die Polizei verfolgt den Täter. = Policija persekioja nusikaltėlį."
+          "example": "Die Polizei verfolgt den Täter. = Policija vajā vainīgo."
         },
         {
           "word": "gehorchen",
           "meaning": "klausyti / paklusti",
-          "example": "Das Kind gehorcht. = Vaikas klauso."
+          "example": "Das Kind gehorcht. = Bērns klausa."
         },
         {
           "word": "befolgen",
           "meaning": "laikytis nurodymo",
-          "example": "Befolgen Sie die Regeln. = Laikykitės taisyklių."
+          "example": "Befolgen Sie die Regeln. = Ievērojiet noteikumus."
         }
       ],
       "tip": [
@@ -30936,27 +30936,27 @@ const A2_WORDS = [
         {
           "word": "führen",
           "meaning": "vesti / vadovauti / pirmauti",
-          "example": "Der Weg führt zum Bahnhof. = Kelias veda į stotį."
+          "example": "Der Weg führt zum Bahnhof. = Ceļš ved uz staciju."
         },
         {
           "word": "leiten",
           "meaning": "vadovauti organizacijai/procesui",
-          "example": "Sie leitet die Firma. = Ji vadovauja firmai."
+          "example": "Sie leitet die Firma. = Viņa vada firmu."
         },
         {
           "word": "fahren",
           "meaning": "važiuoti / vežti transportu",
-          "example": "Ich fahre nach Hause. = Aš važiuoju namo."
+          "example": "Ich fahre nach Hause. = Es braucu mājās."
         },
         {
           "word": "bringen",
           "meaning": "atvežti / nuvežti iki tikslo",
-          "example": "Ich bringe dich nach Hause. = Aš nuvešiu tave namo."
+          "example": "Ich bringe dich nach Hause. = Es aizvedīšu tevi mājās."
         },
         {
           "word": "führen zu",
           "meaning": "privesti prie",
-          "example": "Das führt zu Problemen. = Tai priveda prie problemų."
+          "example": "Das führt zu Problemen. = Tas noved pie problēmām."
         }
       ],
       "tip": {
@@ -32064,22 +32064,22 @@ const A2_WORDS = [
         {
           "word": "gehören",
           "meaning": "priklausyti / tikti",
-          "example": "Das gehört mir. = Tai priklauso man."
+          "example": "Das gehört mir. = Tas pieder man."
         },
         {
           "word": "besitzen",
           "meaning": "priklausyti / būti nuosavybe",
-          "example": "Er besitzt ein Auto. = Jam priklauso automobilis."
+          "example": "Er besitzt ein Auto. = Viņam pieder auto."
         },
         {
           "word": "passen",
           "meaning": "tikti / derėti",
-          "example": "Das passt gut. = Tai gerai tinka."
+          "example": "Das passt gut. = Tas labi der."
         },
         {
           "word": "brauchen",
           "meaning": "reikėti",
-          "example": "Du brauchst Zeit. = Tau reikia laiko."
+          "example": "Du brauchst Zeit. = Tev vajag laiku."
         }
       ],
       "tip": {
@@ -32409,22 +32409,22 @@ const A2_WORDS = [
         {
           "word": "genau",
           "meaning": "tikslus / lygiai / tiksliai",
-          "example": "Das ist genau richtig. = Tai yra visiškai teisinga."
+          "example": "Das ist genau richtig. = Tas ir tieši pareizi."
         },
         {
           "word": "exakt",
           "meaning": "tikslus / egzaktus",
-          "example": "Das ist exakt ein Meter. = Tai yra lygiai vienas metras."
+          "example": "Das ist exakt ein Meter. = Tas ir precīzi viens metrs."
         },
         {
           "word": "gerade",
           "meaning": "tiesus / kaip tik dabar",
-          "example": "Ich bin gerade zu Hause. = Aš kaip tik dabar esu namuose."
+          "example": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās."
         },
         {
           "word": "eben",
           "meaning": "ką tik / tiksliai",
-          "example": "Er war eben hier. = Jis ką tik buvo čia."
+          "example": "Er war eben hier. = Viņš tikko bija šeit."
         }
       ],
       "tip": {
@@ -32581,22 +32581,22 @@ const A2_WORDS = [
         {
           "word": "gerade",
           "meaning": "tiesus / šiuo metu / ką tik",
-          "example": "Ich komme gerade. = Aš kaip tik dabar ateinu."
+          "example": "Ich komme gerade. = Es tieši tagad nāku."
         },
         {
           "word": "geradeaus",
           "meaning": "tiesiai į priekį",
-          "example": "Gehen Sie geradeaus. = Eikite tiesiai į priekį."
+          "example": "Gehen Sie geradeaus. = Ejiet taisni uz priekšu."
         },
         {
           "word": "genau",
           "meaning": "tiksliai / lygiai",
-          "example": "Genau hier. = Lygiai čia."
+          "example": "Genau hier. = Tieši šeit."
         },
         {
           "word": "eben",
           "meaning": "ką tik / vos",
-          "example": "Ich war eben dort. = Aš ką tik ten buvau."
+          "example": "Ich war eben dort. = Es tikko tur biju."
         }
       ],
       "tip": [
@@ -32924,27 +32924,27 @@ const A2_WORDS = [
         {
           "word": "das Geschäft",
           "meaning": "parduotuvė / įmonė / sandoris",
-          "example": "Ich gehe ins Geschäft. = Aš eiu į parduotuvę."
+          "example": "Ich gehe ins Geschäft. = Es eju uz veikalu."
         },
         {
           "word": "der Laden",
           "meaning": "parduotuvė",
-          "example": "Der Laden ist klein. = Parduotuvė yra maža."
+          "example": "Der Laden ist klein. = Veikals ir mazs."
         },
         {
           "word": "die Firma",
           "meaning": "firma / įmonė",
-          "example": "Die Firma ist groß. = Firma yra didelė."
+          "example": "Die Firma ist groß. = Firma ir liela."
         },
         {
           "word": "das Unternehmen",
           "meaning": "įmonė",
-          "example": "Das Unternehmen wächst. = Įmonė auga."
+          "example": "Das Unternehmen wächst. = Uzņēmums aug."
         },
         {
           "word": "der Vertrag",
           "meaning": "sutartis",
-          "example": "Wir schließen einen Vertrag. = Mes sudarome sutartį."
+          "example": "Wir schließen einen Vertrag. = Mēs slēdzam līgumu."
         }
       ],
       "tip": {
@@ -33374,22 +33374,22 @@ const A2_WORDS = [
         {
           "word": "gewinnen",
           "meaning": "nugalėti / laimėti / įgyti",
-          "example": "Wir gewinnen das Spiel. = Mes laimime žaidimą."
+          "example": "Wir gewinnen das Spiel. = Mēs uzvaram spēlē."
         },
         {
           "word": "siegen",
           "meaning": "nugalėti",
-          "example": "Die Mannschaft siegt. = Komanda laimi."
+          "example": "Die Mannschaft siegt. = Komanda uzvar."
         },
         {
           "word": "bekommen",
           "meaning": "gauti / įgyti",
-          "example": "Ich bekomme eine Nachricht. = Aš gaunu žinutę."
+          "example": "Ich bekomme eine Nachricht. = Es saņemu ziņu."
         },
         {
           "word": "verdienen",
           "meaning": "užsidirbti",
-          "example": "Er verdient Geld. = Jis užsidirba pinigų."
+          "example": "Er verdient Geld. = Viņš pelna naudu."
         }
       ],
       "tip": [
@@ -33733,22 +33733,22 @@ const A2_WORDS = [
         {
           "word": "gießen",
           "meaning": "laistyti / lieti",
-          "example": "Ich gieße die Blumen. = Aš laistau gėles."
+          "example": "Ich gieße die Blumen. = Es laistu puķes."
         },
         {
           "word": "einschenken",
           "meaning": "įpilti gėrimą",
-          "example": "Ich schenke Tee ein. = Aš įpilu arbatos."
+          "example": "Ich schenke Tee ein. = Es ieleju tēju."
         },
         {
           "word": "regnen",
           "meaning": "lyti",
-          "example": "Es regnet. = Lyja."
+          "example": "Es regnet. = Līst."
         },
         {
           "word": "schütten",
           "meaning": "berti / lieti staigiai",
-          "example": "Er schüttet Wasser aus. = Jis išlieja vandenį."
+          "example": "Er schüttet Wasser aus. = Viņš izlej ūdeni."
         }
       ],
       "tip": [
@@ -34168,27 +34168,27 @@ const A2_WORDS = [
         {
           "word": "der Grund",
           "meaning": "priežastis / pamatas / gruntas / dugnas",
-          "example": "Aus diesem Grund komme ich nicht. = Dėl šios priežasties aš neatvyksiu."
+          "example": "Aus diesem Grund komme ich nicht. = Šī iemesla dēļ es nenākšu."
         },
         {
           "word": "die Ursache",
           "meaning": "priežastis",
-          "example": "Die Ursache ist unbekannt. = Priežastis nežinoma."
+          "example": "Die Ursache ist unbekannt. = Cēlonis nav zināms."
         },
         {
           "word": "der Anlass",
           "meaning": "priežastis / įvykio pagrindas",
-          "example": "Der Anlass war ein Fest. = Priežastis buvo šventė."
+          "example": "Der Anlass war ein Fest. = Iemesls bija svētki."
         },
         {
           "word": "der Boden",
           "meaning": "žemė / grindys",
-          "example": "Der Boden ist nass. = Grindys šlapios."
+          "example": "Der Boden ist nass. = Grīda ir slapja."
         },
         {
           "word": "der Seegrund",
           "meaning": "ežero dugnas",
-          "example": "Der Seegrund ist dunkel. = Ežero dugnas tamsus."
+          "example": "Der Seegrund ist dunkel. = Ezera dibens ir tumšs."
         }
       ],
       "tip": {
@@ -34745,22 +34745,22 @@ const A2_WORDS = [
         {
           "word": "hängen",
           "meaning": "kaboti / kabinti",
-          "example": "Das Bild hängt an der Wand. = Paveikslas kabo ant sienos."
+          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
         },
         {
           "word": "stellen",
           "meaning": "pastatyti",
-          "example": "Ich stelle die Flasche auf den Tisch. = Aš pastatau butelį ant stalo."
+          "example": "Ich stelle die Flasche auf den Tisch. = Es nolieku pudeli uz galda."
         },
         {
           "word": "legen",
           "meaning": "padėti gulsčiai",
-          "example": "Ich lege das Buch auf den Tisch. = Aš padedu knygą ant stalo."
+          "example": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
         },
         {
           "word": "an die Wand hängen",
           "meaning": "pakabinti ant sienos",
-          "example": "Wir hängen das Bild an die Wand. = Mes pakabiname paveikslą ant sienos."
+          "example": "Wir hängen das Bild an die Wand. = Mēs piekaram attēlu pie sienas."
         }
       ],
       "tip": [
@@ -35894,22 +35894,22 @@ const A2_WORDS = [
         {
           "word": "indem",
           "meaning": "tuo, kad / darant ką nors",
-          "example": "Ich lerne, indem ich übe. = Aš mokausi, treniruodamasis."
+          "example": "Ich lerne, indem ich übe. = Es mācos, trenējoties."
         },
         {
           "word": "während",
           "meaning": "kol / tuo metu, kai",
-          "example": "Während ich koche, höre ich Musik. = Kol aš gaminu, klausau muzikos."
+          "example": "Während ich koche, höre ich Musik. = Kamēr es gatavoju, klausos mūziku."
         },
         {
           "word": "damit",
           "meaning": "kad",
-          "example": "Ich lerne, damit ich die Prüfung bestehe. = Aš mokausi, kad išlaikyčiau egzaminą."
+          "example": "Ich lerne, damit ich die Prüfung bestehe. = Es mācos, lai nokārtotu eksāmenu."
         },
         {
           "word": "weil",
           "meaning": "nes",
-          "example": "Ich lerne, weil ich Deutsch brauche. = Aš mokausi, nes man reikia vokiečių kalbos."
+          "example": "Ich lerne, weil ich Deutsch brauche. = Es mācos, jo man vajag vācu valodu."
         }
       ],
       "tip": [
@@ -37054,22 +37054,22 @@ const A2_WORDS = [
         {
           "word": "kaum",
           "meaning": "beveik nė kiek / ką tik",
-          "example": "Ich habe kaum Zeit. = Man beveik nėra laiko."
+          "example": "Ich habe kaum Zeit. = Man gandrīz nav laika."
         },
         {
           "word": "fast",
           "meaning": "beveik",
-          "example": "Ich bin fast fertig. = Aš beveik pasiruošęs."
+          "example": "Ich bin fast fertig. = Es gandrīz esmu gatavs."
         },
         {
           "word": "gerade",
           "meaning": "ką tik / dabar",
-          "example": "Ich bin gerade angekommen. = Aš ką tik atvykau."
+          "example": "Ich bin gerade angekommen. = Es tikko ierados."
         },
         {
           "word": "sobald",
           "meaning": "kai tik",
-          "example": "Sobald ich Zeit habe, rufe ich dich an. = Kai tik turėsiu laiko, tau paskambinsiu."
+          "example": "Sobald ich Zeit habe, rufe ich dich an. = Tiklīdz man būs laiks, es tev piezvanīšu."
         }
       ],
       "tip": [
@@ -38528,27 +38528,27 @@ const A2_WORDS = [
         {
           "word": "kleiden",
           "meaning": "aprengti",
-          "example": "Sie kleidet das Kind. = Ji aprengia vaiką."
+          "example": "Sie kleidet das Kind. = Viņa apģērbj bērnu."
         },
         {
           "word": "sich kleiden",
           "meaning": "rengtis",
-          "example": "Er kleidet sich elegant. = Jis rengiasi elegantiškai."
+          "example": "Er kleidet sich elegant. = Viņš ģērbjas eleganti."
         },
         {
           "word": "kleidet jemanden",
           "meaning": "tinka kam nors",
-          "example": "Die Farbe kleidet dich. = Spalva tau tinka."
+          "example": "Die Farbe kleidet dich. = Krāsa tev piestāv."
         },
         {
           "word": "anziehen",
           "meaning": "užsivilkti / aprengti",
-          "example": "Ich ziehe die Jacke an. = Aš užsivelku striukę."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
           "word": "tragen",
           "meaning": "vilkėti",
-          "example": "Sie trägt ein Kleid. = Ji vilki suknelę."
+          "example": "Sie trägt ein Kleid. = Viņa valkā kleitu."
         }
       ],
       "tip": {
@@ -39693,27 +39693,27 @@ const A2_WORDS = [
         {
           "word": "kurz",
           "meaning": "trumpas / trumpam",
-          "example": "Der Text ist kurz. = Tekstas yra trumpas."
+          "example": "Der Text ist kurz. = Teksts ir īss."
         },
         {
           "word": "kurz vor",
           "meaning": "prieš pat",
-          "example": "kurz vor acht = prieš pat aštuntą"
+          "example": "kurz vor acht = īsi pirms astoņiem"
         },
         {
           "word": "kurz nach",
           "meaning": "tuoj po",
-          "example": "kurz nach dem Essen = tuoj po valgio"
+          "example": "kurz nach dem Essen = īsi pēc ēšanas"
         },
         {
           "word": "bald",
           "meaning": "greitai",
-          "example": "Ich komme bald. = Aš greitai ateisiu."
+          "example": "Ich komme bald. = Es drīz nākšu."
         },
         {
           "word": "lang",
           "meaning": "ilgas / ilgai trunkantis",
-          "example": "Der Weg ist lang. = Kelias yra ilgas."
+          "example": "Der Weg ist lang. = Ceļš ir garš."
         }
       ],
       "tip": [
@@ -40023,22 +40023,22 @@ const A2_WORDS = [
         {
           "word": "die Lage",
           "meaning": "situacija / padėtis",
-          "example": "Die Lage ist schwierig. = Situacija yra sudėtinga."
+          "example": "Die Lage ist schwierig. = Situācija ir sarežģīta."
         },
         {
           "word": "die Situation",
           "meaning": "situacija",
-          "example": "Die Situation ist ernst. = Situacija yra rimta."
+          "example": "Die Situation ist ernst. = Situācija ir nopietna."
         },
         {
           "word": "der Standort",
           "meaning": "buvimo vieta",
-          "example": "Der Standort ist gut. = Vieta yra gera."
+          "example": "Der Standort ist gut. = Atrašanās vieta ir laba."
         },
         {
           "word": "die Schicht",
           "meaning": "sluoksnis / klodas",
-          "example": "eine Schicht Farbe = vienas dažų sluoksnis"
+          "example": "eine Schicht Farbe = viena krāsas kārta"
         }
       ],
       "tip": [
@@ -40438,27 +40438,27 @@ const A2_WORDS = [
         {
           "word": "leiden",
           "meaning": "kentėti",
-          "example": "Er leidet an Kopfschmerzen. = Jis kenčia nuo galvos skausmo."
+          "example": "Er leidet an Kopfschmerzen. = Viņš cieš no galvassāpēm."
         },
         {
           "word": "an etwas leiden",
           "meaning": "sirgti / kentėti nuo",
-          "example": "Sie leidet an Asthma. = Ji serga astma."
+          "example": "Sie leidet an Asthma. = Viņa slimo ar astmu."
         },
         {
           "word": "unter etwas leiden",
           "meaning": "kentėti nuo aplinkybių",
-          "example": "Wir leiden unter der Hitze. = Mes kenčiame nuo karščio."
+          "example": "Wir leiden unter der Hitze. = Mēs ciešam no karstuma."
         },
         {
           "word": "nicht leiden können",
           "meaning": "negalėti pakęsti",
-          "example": "Ich kann das nicht leiden. = Aš to negaliu pakęsti."
+          "example": "Ich kann das nicht leiden. = Es to nevaru paciest."
         },
         {
           "word": "krank sein",
           "meaning": "būti sergančiam",
-          "example": "Er ist krank. = Jis serga."
+          "example": "Er ist krank. = Viņš ir slims."
         }
       ],
       "tip": [
@@ -40736,22 +40736,22 @@ const A2_WORDS = [
         {
           "word": "leihen",
           "meaning": "skolinti / skolintis",
-          "example": "Leihst du mir den Stift? = Ar paskolinsi man rašiklį?"
+          "example": "Leihst du mir den Stift? = Vai aizdosi man pildspalvu?"
         },
         {
           "word": "borgen",
           "meaning": "skolintis / skolinti",
-          "example": "Ich borge mir Geld. = Aš skolinuosi pinigų."
+          "example": "Ich borge mir Geld. = Es aizņemos naudu."
         },
         {
           "word": "mieten",
           "meaning": "nuomotis / išsinuomoti už mokestį",
-          "example": "Wir mieten ein Auto. = Mes nuomojamės automobilį."
+          "example": "Wir mieten ein Auto. = Mēs īrējam mašīnu."
         },
         {
           "word": "kaufen",
           "meaning": "pirkti",
-          "example": "Ich kaufe das Buch. = Aš perku knygą."
+          "example": "Ich kaufe das Buch. = Es pērku grāmatu."
         }
       ],
       "tip": {
@@ -41091,12 +41091,12 @@ const A2_WORDS = [
         {
           "word": "der Leiter",
           "meaning": "vadovas",
-          "example": "Der Leiter der Firma. = Įmonės vadovas. Daugiskaita: die Leiter."
+          "example": "Der Leiter der Firma. = Uzņēmuma vadītājs. Plural: die Leiter."
         },
         {
           "word": "die Leiter",
           "meaning": "atremiamosios kopėčios",
-          "example": "Ich steige auf die Leiter. = Aš lipu kopėčiomis. Daugiskaita: die Leitern."
+          "example": "Ich steige auf die Leiter. = Es kāpju uz kāpnēm. Plural: die Leitern."
         },
         {
           "word": "der Abteilungsleiter",
@@ -41245,27 +41245,27 @@ const A2_WORDS = [
         {
           "word": "die Leitung",
           "meaning": "vadovybė / linija / laidas / vamzdis",
-          "example": "Die Leitung ist kaputt. = Linija sugedusi."
+          "example": "Die Leitung ist kaputt. = Līnija ir bojāta."
         },
         {
           "word": "die Führung",
           "meaning": "vadovybė",
-          "example": "Unter ihrer Führung läuft alles gut. = Jos vadovybėje viskas vyksta gerai."
+          "example": "Unter ihrer Führung läuft alles gut. = Viņas vadībā viss norit labi."
         },
         {
           "word": "das Kabel",
           "meaning": "kabelis / laidas",
-          "example": "Das Kabel ist zu kurz. = Kabelis yra per trumpas."
+          "example": "Das Kabel ist zu kurz. = Kabelis ir par īsu."
         },
         {
           "word": "die Telefonleitung",
           "meaning": "telefono linija",
-          "example": "Die Telefonleitung ist frei. = Telefono linija yra laisva."
+          "example": "Die Telefonleitung ist frei. = Telefona līnija ir brīva."
         },
         {
           "word": "die Wasserleitung",
           "meaning": "vandens vamzdis",
-          "example": "Die Wasserleitung tropft. = Vandens vamzdis varva."
+          "example": "Die Wasserleitung tropft. = Ūdens caurule pil."
         }
       ],
       "tip": {
@@ -42501,27 +42501,27 @@ const A2_WORDS = [
         {
           "word": "merken",
           "meaning": "pastebėti",
-          "example": "Ich merke den Fehler. = Aš pastebiu klaidą."
+          "example": "Ich merke den Fehler. = Es pamanu kļūdu."
         },
         {
           "word": "sich merken",
           "meaning": "įsiminti",
-          "example": "Merk dir das! = Įsimink tai!"
+          "example": "Merk dir das! = Iegaumē to!"
         },
         {
           "word": "bemerken",
           "meaning": "pastebėti / atkreipti dėmesį",
-          "example": "Ich bemerke den Fehler. = Aš pastebiu klaidą."
+          "example": "Ich bemerke den Fehler. = Es pamanu kļūdu."
         },
         {
           "word": "erinnern",
           "meaning": "atsiminti / priminti",
-          "example": "Ich erinnere mich. = Aš prisimenu."
+          "example": "Ich erinnere mich. = Es atceros."
         },
         {
           "word": "behalten",
           "meaning": "pasilikti / atsiminti",
-          "example": "Ich behalte die Nummer. = Aš išlaikau numerį galvoje."
+          "example": "Ich behalte die Nummer. = Es paturu numuru prātā."
         }
       ],
       "tip": [
@@ -42896,27 +42896,27 @@ const A2_WORDS = [
         {
           "word": "das Mittel",
           "meaning": "priemonė",
-          "example": "ein Mittel gegen Husten = priemonė nuo kosulio"
+          "example": "ein Mittel gegen Husten = līdzeklis pret klepu"
         },
         {
           "word": "das Medikament",
           "meaning": "medikamentas / vaistai",
-          "example": "Das Medikament hilft. = Vaistas padeda."
+          "example": "Das Medikament hilft. = Medikaments palīdz."
         },
         {
           "word": "die Methode",
           "meaning": "metodas",
-          "example": "Diese Methode ist einfach. = Šis metodas paprastas."
+          "example": "Diese Methode ist einfach. = Šī metode ir vienkārša."
         },
         {
           "word": "das Geld",
           "meaning": "pinigai",
-          "example": "Wir haben kein Geld. = Mes neturime pinigų."
+          "example": "Wir haben kein Geld. = Mums nav naudas."
         },
         {
           "word": "die Mittel",
           "meaning": "lėšos / resursai",
-          "example": "finanzielle Mittel = finansiniai ištekliai"
+          "example": "finanzielle Mittel = finanšu līdzekļi"
         }
       ],
       "tip": [
@@ -43900,27 +43900,27 @@ const A2_WORDS = [
         {
           "word": "die Note",
           "meaning": "pažymys / nata / atspalvis",
-          "example": "Ich bekomme eine Note. = Aš gaunu pažymį."
+          "example": "Ich bekomme eine Note. = Es saņemu atzīmi."
         },
         {
           "word": "die Schulnote",
           "meaning": "mokyklos pažymys",
-          "example": "Die Schulnote ist gut. = Mokyklos pažymys yra geras."
+          "example": "Die Schulnote ist gut. = Skolas atzīme ir laba."
         },
         {
           "word": "die Musiknote",
           "meaning": "muzikos nata",
-          "example": "Die Musiknote ist hoch. = Muzikos nata yra aukšta."
+          "example": "Die Musiknote ist hoch. = Mūzikas nots ir augsta."
         },
         {
           "word": "die Banknote",
           "meaning": "banknotas",
-          "example": "Die Banknote ist neu. = Banknotas yra naujas."
+          "example": "Die Banknote ist neu. = Banknote ir jauna."
         },
         {
           "word": "der Ton",
           "meaning": "tonas / garsas",
-          "example": "Der Ton ist leise. = Tonas yra tylus."
+          "example": "Der Ton ist leise. = Tonis ir kluss."
         }
       ],
       "tip": {
@@ -44395,22 +44395,22 @@ const A2_WORDS = [
         {
           "word": "nutzen",
           "meaning": "išnaudoti / gauti naudos",
-          "example": "Ich nutze die Zeit. = Aš išnaudoju laiką."
+          "example": "Ich nutze die Zeit. = Es izmantoju laiku."
         },
         {
           "word": "benutzen",
           "meaning": "naudoti",
-          "example": "Ich benutze den Computer. = Aš naudoju kompiuterį."
+          "example": "Ich benutze den Computer. = Es lietoju datoru."
         },
         {
           "word": "verwenden",
           "meaning": "naudoti / pritaikyti",
-          "example": "Wir verwenden dieses Wort. = Mes vartojame šį žodį."
+          "example": "Wir verwenden dieses Wort. = Mēs izmantojam šo vārdu."
         },
         {
           "word": "die Chance nutzen",
           "meaning": "išnaudoti galimybę",
-          "example": "Nutze die Chance! = Išnaudok galimybę!"
+          "example": "Nutze die Chance! = Izmanto iespēju!"
         }
       ],
       "tip": [
@@ -44717,22 +44717,22 @@ const A2_WORDS = [
         {
           "word": "offen",
           "meaning": "atviras / atidarytas",
-          "example": "Die Tür ist offen. = Durys yra atidarytos."
+          "example": "Die Tür ist offen. = Durvis ir vaļā."
         },
         {
           "word": "geöffnet",
           "meaning": "atidarytas oficialiai",
-          "example": "Das Museum ist geöffnet. = Muziejus yra atidarytas."
+          "example": "Das Museum ist geöffnet. = Muzejs ir atvērts."
         },
         {
           "word": "ehrlich",
           "meaning": "sąžiningas",
-          "example": "Er ist ehrlich. = Jis yra sąžiningas."
+          "example": "Er ist ehrlich. = Viņš ir godīgs."
         },
         {
           "word": "frei",
           "meaning": "laisvas",
-          "example": "Der Platz ist frei. = Vieta yra laisva."
+          "example": "Der Platz ist frei. = Vieta ir brīva."
         }
       ],
       "tip": [
@@ -45360,17 +45360,17 @@ const A2_WORDS = [
         {
           "word": "der Patient",
           "meaning": "pacientas (vyr.)",
-          "example": "Der Patient ist krank. = Pacientas serga."
+          "example": "Der Patient ist krank. = Pacients ir slims."
         },
         {
           "word": "die Patientin",
           "meaning": "pacientė",
-          "example": "Die Patientin ruht sich aus. = Pacientė ilsisi."
+          "example": "Die Patientin ruht sich aus. = Paciente atpūšas."
         },
         {
           "word": "der Kranke",
           "meaning": "ligonis",
-          "example": "Der Kranke liegt im Bett. = Ligonis guli lovoje."
+          "example": "Der Kranke liegt im Bett. = Slimnieks guļ gultā."
         }
       ],
       "tip": {
@@ -45477,17 +45477,17 @@ const A2_WORDS = [
         {
           "word": "das Personal",
           "meaning": "personalas (bendrai)",
-          "example": "Das Personal hilft. = Personalas padeda."
+          "example": "Das Personal hilft. = Personāls palīdz."
         },
         {
           "word": "der Mitarbeiter",
           "meaning": "darbuotojas",
-          "example": "Der Mitarbeiter arbeitet hier. = Darbuotojas čia dirba."
+          "example": "Der Mitarbeiter arbeitet hier. = Darbinieks šeit strādā."
         },
         {
           "word": "persönlich",
           "meaning": "asmeninis",
-          "example": "Das ist persönlich. = Tai yra asmeniška."
+          "example": "Das ist persönlich. = Tas ir personīgi."
         }
       ],
       "tip": {
@@ -47395,27 +47395,27 @@ const A2_WORDS = [
         {
           "word": "riechen",
           "meaning": "kvepėti",
-          "example": "Die Blumen riechen gut. = Gėlės gerai kvepia."
+          "example": "Die Blumen riechen gut. = Ziedi labi smaržo."
         },
         {
           "word": "an etwas riechen",
           "meaning": "uosti ką nors",
-          "example": "Der Hund riecht an der Tasche. = Šuo uosto krepšį."
+          "example": "Der Hund riecht an der Tasche. = Suns osta somu."
         },
         {
           "word": "nach etwas riechen",
           "meaning": "kvepėti kuo nors",
-          "example": "Es riecht nach Kaffee. = Kvepia kava."
+          "example": "Es riecht nach Kaffee. = Smaržo pēc kafijas."
         },
         {
           "word": "duften",
           "meaning": "maloniai kvepėti",
-          "example": "Die Blumen duften. = Gėlės kvepia."
+          "example": "Die Blumen duften. = Ziedi smaržo."
         },
         {
           "word": "stinken",
           "meaning": "dvokti",
-          "example": "Der Müll stinkt. = Šiukšlės dvokia."
+          "example": "Der Müll stinkt. = Atkritumi smird."
         }
       ],
       "tip": [
@@ -47763,27 +47763,27 @@ const A2_WORDS = [
         {
           "word": "die Rolle",
           "meaning": "vaidmuo / rulonas",
-          "example": "Sie spielt eine Rolle. = Ji atlieka vaidmenį."
+          "example": "Sie spielt eine Rolle. = Viņa spēlē lomu."
         },
         {
           "word": "die Hauptrolle",
           "meaning": "pagrindinis vaidmuo",
-          "example": "Er hat die Hauptrolle. = Jis atlieka pagrindinį vaidmenį."
+          "example": "Er hat die Hauptrolle. = Viņam ir galvenā loma."
         },
         {
           "word": "die Papierrolle",
           "meaning": "popieriaus rulonas",
-          "example": "Ich kaufe eine Papierrolle. = Aš perku popieriaus ruloną."
+          "example": "Ich kaufe eine Papierrolle. = Es pērku papīra rulli."
         },
         {
           "word": "die Bedeutung",
           "meaning": "reikšmė",
-          "example": "Das hat keine Bedeutung. = Tai neturi reikšmės."
+          "example": "Das hat keine Bedeutung. = Tam nav nozīmes."
         },
         {
           "word": "der Teil",
           "meaning": "dalis",
-          "example": "Das ist ein Teil der Arbeit. = Tai yra dalis darbo."
+          "example": "Das ist ein Teil der Arbeit. = Tā ir daļa no darba."
         }
       ],
       "tip": {
@@ -48265,22 +48265,22 @@ const A2_WORDS = [
         {
           "word": "sammeln",
           "meaning": "rinkti / kaupti",
-          "example": "Briefmarken sammeln = kaupti pašto ženklus"
+          "example": "Briefmarken sammeln = krāt pastmarkas"
         },
         {
           "word": "sich sammeln",
           "meaning": "susirinkti / susikaupti",
-          "example": "Die Schüler sammeln sich. = Mokiniai susirenka."
+          "example": "Die Schüler sammeln sich. = Skolēni sapulcējas."
         },
         {
           "word": "holen",
           "meaning": "nueiti parnešti / atnešti",
-          "example": "Ich hole Wasser. = Aš atnešu vandenį."
+          "example": "Ich hole Wasser. = Es atnesu ūdeni."
         },
         {
           "word": "aufheben",
           "meaning": "pakelti / išsaugoti",
-          "example": "Ich hebe den Zettel auf. = Aš pakeliu lapelį."
+          "example": "Ich hebe den Zettel auf. = Es paceļu zīmīti."
         }
       ],
       "tip": [
@@ -48591,27 +48591,27 @@ const A2_WORDS = [
         {
           "word": "der Satz",
           "meaning": "sakinys / komplektas / norma / šuolis",
-          "example": "Der Satz ist kurz. = Sakinys yra trumpas."
+          "example": "Der Satz ist kurz. = Teikums ir īss."
         },
         {
           "word": "der deutsche Satz",
           "meaning": "vokiškas sakinys",
-          "example": "Der deutsche Satz ist richtig. = Vokiškas sakinys yra teisingas."
+          "example": "Der deutsche Satz ist richtig. = Vācu teikums ir pareizs."
         },
         {
           "word": "der Satz Reifen",
           "meaning": "padangų komplektas",
-          "example": "Ein Satz Reifen ist teuer. = Padangų komplektas yra brangus."
+          "example": "Ein Satz Reifen ist teuer. = Riepu komplekts ir dārgs."
         },
         {
           "word": "der Zinssatz",
           "meaning": "palūkanų norma",
-          "example": "Der Zinssatz steigt. = Palūkanų norma auga."
+          "example": "Der Zinssatz steigt. = Procentu likme pieaug."
         },
         {
           "word": "der Kaffeesatz",
           "meaning": "kavos tirščiai / nuosėdos",
-          "example": "Der Kaffeesatz bleibt im Glas. = Kavos tirščiai lieka stiklinėje."
+          "example": "Der Kaffeesatz bleibt im Glas. = Kafijas biezumi paliek glāzē."
         }
       ],
       "tip": {
@@ -49514,22 +49514,22 @@ const A2_WORDS = [
         {
           "word": "scheinen",
           "meaning": "šviesti / atrodyti",
-          "example": "Die Sonne scheint. = Saulė šviečia."
+          "example": "Die Sonne scheint. = Saule spīd."
         },
         {
           "word": "aussehen",
           "meaning": "atrodyti",
-          "example": "Du siehst müde aus. = Tu atrodai pavargęs."
+          "example": "Du siehst müde aus. = Tu izskaties noguris."
         },
         {
           "word": "wirken",
           "meaning": "sudaryti įspūdį",
-          "example": "Er wirkt ruhig. = Jis atrodo ramus."
+          "example": "Er wirkt ruhig. = Viņš šķiet mierīgs."
         },
         {
           "word": "leuchten",
           "meaning": "šviesti / spindėti",
-          "example": "Die Lampe leuchtet. = Lempa šviečia."
+          "example": "Die Lampe leuchtet. = Lampa spīd."
         }
       ],
       "tip": {
@@ -49923,22 +49923,22 @@ const A2_WORDS = [
         {
           "word": "die Schlange",
           "meaning": "gyvatė / eilė",
-          "example": "Die Schlange ist lang. = Eilė yra ilga."
+          "example": "Die Schlange ist lang. = Rinda ir gara."
         },
         {
           "word": "die Warteschlange",
           "meaning": "laukimo eilė",
-          "example": "Die Warteschlange ist lang. = Laukimo eilė yra ilga."
+          "example": "Die Warteschlange ist lang. = Gaidīšanas rinda ir gara."
         },
         {
           "word": "die Reihe",
           "meaning": "eilė / tvarka",
-          "example": "Die Stühle stehen in einer Reihe. = Kėdės stovi eilėje."
+          "example": "Die Stühle stehen in einer Reihe. = Krēsli stāv rindā."
         },
         {
           "word": "das Reptil",
           "meaning": "roplys",
-          "example": "Eine Schlange ist ein Reptil. = Gyvatė yra roplys."
+          "example": "Eine Schlange ist ein Reptil. = Čūska ir rāpulis."
         }
       ],
       "tip": {
@@ -50299,22 +50299,22 @@ const A2_WORDS = [
         {
           "word": "schließen",
           "meaning": "uždaryti / sudaryti / daryti išvadą",
-          "example": "Ich schließe die Tür. = Aš uždarau duris."
+          "example": "Ich schließe die Tür. = Es aizveru durvis."
         },
         {
           "word": "abschließen",
           "meaning": "užrakinti / baigti",
-          "example": "Ich schließe die Tür ab. = Aš užrakinu duris."
+          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
         },
         {
           "word": "zumachen",
           "meaning": "uždaryti (šnekamojoje kalboje)",
-          "example": "Mach das Fenster zu. = Uždaryk langą."
+          "example": "Mach das Fenster zu. = Aiztaisi logu."
         },
         {
           "word": "folgern",
           "meaning": "daryti išvadą",
-          "example": "Daraus folgere ich etwas. = Iš to aš kažką sprendžiu."
+          "example": "Daraus folgere ich etwas. = No tā es kaut ko secinu."
         }
       ],
       "tip": {
@@ -50677,27 +50677,27 @@ const A2_WORDS = [
         {
           "word": "das Schloss",
           "meaning": "pilis / spyna",
-          "example": "Das Schloss ist alt. = Pilis yra sena."
+          "example": "Das Schloss ist alt. = Pils ir veca."
         },
         {
           "word": "die Burg",
           "meaning": "tvirtovė / pilis",
-          "example": "Die Burg steht auf dem Berg. = Pilis stovi kalne."
+          "example": "Die Burg steht auf dem Berg. = Pils stāv kalnā."
         },
         {
           "word": "das Türschloss",
           "meaning": "durų spyna",
-          "example": "Das Türschloss ist kaputt. = Durų spyna sugedusi."
+          "example": "Das Türschloss ist kaputt. = Durvju slēdzene ir salūzusi."
         },
         {
           "word": "das Fahrradschloss",
           "meaning": "dviračio spyna",
-          "example": "Ich kaufe ein Fahrradschloss. = Aš perku dviračio spyną."
+          "example": "Ich kaufe ein Fahrradschloss. = Es pērku velosipēda slēdzeni."
         },
         {
           "word": "der Schlüssel",
           "meaning": "raktas",
-          "example": "Der Schlüssel ist weg. = Raktas dingęs."
+          "example": "Der Schlüssel ist weg. = Atslēga ir pazudusi."
         }
       ],
       "tip": {
@@ -51215,27 +51215,27 @@ const A2_WORDS = [
         {
           "word": "die Schuld",
           "meaning": "kaltė / atsakomybė",
-          "example": "Das ist meine Schuld. = Tai mano kaltė."
+          "example": "Das ist meine Schuld. = Tā ir mana vaina."
         },
         {
           "word": "die Schulden",
           "meaning": "skolos",
-          "example": "Er hat Schulden. = Jis turi skolų."
+          "example": "Er hat Schulden. = Viņam ir parādi."
         },
         {
           "word": "die Verantwortung",
           "meaning": "atsakomybė",
-          "example": "Ich trage Verantwortung. = Aš nešu atsakomybę."
+          "example": "Ich trage Verantwortung. = Es nesu atbildību."
         },
         {
           "word": "der Fehler",
           "meaning": "klaida",
-          "example": "Das war ein Fehler. = Tai buvo klaida."
+          "example": "Das war ein Fehler. = Tā bija kļūda."
         },
         {
           "word": "schuld sein",
           "meaning": "būti kaltam",
-          "example": "Ich bin schuld. = Aš esu kaltas."
+          "example": "Ich bin schuld. = Es esmu vainīgs."
         }
       ],
       "tip": {
@@ -51942,27 +51942,27 @@ const A2_WORDS = [
         {
           "word": "sich befinden",
           "meaning": "rastis",
-          "example": "Das Büro befindet sich im zweiten Stock. = Biuras randasi antrame aukšte."
+          "example": "Das Büro befindet sich im zweiten Stock. = Birojs atrodas otrajā stāvā."
         },
         {
           "word": "sein",
           "meaning": "būti / rastis",
-          "example": "Das Büro ist oben. = Biuras yra viršuje."
+          "example": "Das Büro ist oben. = Birojs ir augšā."
         },
         {
           "word": "liegen",
           "meaning": "būti / gulėti",
-          "example": "Das Buch liegt auf dem Tisch. = Knyga guli ant stalo."
+          "example": "Das Buch liegt auf dem Tisch. = Grāmata atrodas uz galda."
         },
         {
           "word": "stehen",
           "meaning": "stovėti / rastis",
-          "example": "Das Auto steht vor dem Haus. = Automobilis stovi prie namo."
+          "example": "Das Auto steht vor dem Haus. = Auto stāv pie mājas."
         },
         {
           "word": "sich fühlen",
           "meaning": "jaustis",
-          "example": "Ich fühle mich gut. = Aš jaučiuosi gerai."
+          "example": "Ich fühle mich gut. = Es jūtos labi."
         }
       ],
       "tip": {
@@ -52322,22 +52322,22 @@ const A2_WORDS = [
         {
           "word": "sich unterhalten",
           "meaning": "kalbėtis / linksmintis",
-          "example": "Wir unterhalten uns. = Mes kalbamės."
+          "example": "Wir unterhalten uns. = Mēs sarunājamies."
         },
         {
           "word": "sprechen",
           "meaning": "kalbėti",
-          "example": "Ich spreche Deutsch. = Aš kalbu vokiškai."
+          "example": "Ich spreche Deutsch. = Es runāju vāciski."
         },
         {
           "word": "reden",
           "meaning": "kalbėti / kalbėtis",
-          "example": "Wir reden viel. = Mes daug kalbame."
+          "example": "Wir reden viel. = Mēs daudz runājam."
         },
         {
           "word": "sich amüsieren",
           "meaning": "linksmintis",
-          "example": "Wir amüsieren uns. = Mes linksminamės."
+          "example": "Wir amüsieren uns. = Mēs izklaidējamies."
         }
       ],
       "tip": {
@@ -53041,27 +53041,27 @@ const A2_WORDS = [
         {
           "word": "sobald",
           "meaning": "kai tik / vos tik",
-          "example": "Sobald er kommt, gehen wir. = Kai tik jis atvyks, mes eisime."
+          "example": "Sobald er kommt, gehen wir. = Tiklīdz viņš atnāks, mēs iesim."
         },
         {
           "word": "wenn",
           "meaning": "kai / ja",
-          "example": "Wenn ich Zeit habe, komme ich. = Jei turėsiu laiko, ateisiu."
+          "example": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu."
         },
         {
           "word": "als",
           "meaning": "kai (praeityje vieną kartą)",
-          "example": "Als ich Kind war, spielte ich viel. = Kai buvau vaikas, daug žaidžiau."
+          "example": "Als ich Kind war, spielte ich viel. = Kad biju bērns, daudz spēlējos."
         },
         {
           "word": "bis",
           "meaning": "iki",
-          "example": "Ich warte, bis du kommst. = Aš laukiu, kol tu atvyksi."
+          "example": "Ich warte, bis du kommst. = Es gaidu, līdz tu atnāksi."
         },
         {
           "word": "nachdem",
           "meaning": "po to, kai",
-          "example": "Nachdem ich gegessen habe, gehe ich. = Po to, kai pavalgau, aš einu."
+          "example": "Nachdem ich gegessen habe, gehe ich. = Pēc tam kad paēdu, es eju."
         }
       ],
       "tip": {
@@ -53502,27 +53502,27 @@ const A2_WORDS = [
         {
           "word": "sonst",
           "meaning": "kitaip / priešingu atveju / paprastai",
-          "example": "Komm jetzt, sonst ist es zu spät. = Ateik dabar, kitaip bus per vėlu."
+          "example": "Komm jetzt, sonst ist es zu spät. = Nāc tagad, citādi būs par vēlu."
         },
         {
           "word": "ansonsten",
           "meaning": "kitaip / kitais atžvilgiais",
-          "example": "Ansonsten ist alles gut. = Kitaip viskas gerai."
+          "example": "Ansonsten ist alles gut. = Citādi viss ir labi."
         },
         {
           "word": "andernfalls",
           "meaning": "priešingu atveju",
-          "example": "Andernfalls rufe ich an. = Priešingu atveju paskambinsiu."
+          "example": "Andernfalls rufe ich an. = Pretējā gadījumā es zvanīšu."
         },
         {
           "word": "normalerweise",
           "meaning": "paprastai",
-          "example": "Normalerweise bin ich zu Hause. = Paprastai aš esu namuose."
+          "example": "Normalerweise bin ich zu Hause. = Parasti es esmu mājās."
         },
         {
           "word": "außerdem",
           "meaning": "be to / taip pat",
-          "example": "Außerdem ist es teuer. = Be to, tai yra brangu."
+          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
         }
       ],
       "tip": {
@@ -54411,27 +54411,27 @@ const A2_WORDS = [
         {
           "word": "steigen",
           "meaning": "kilti / keltis / didėti",
-          "example": "Die Preise steigen. = Kainos kyla."
+          "example": "Die Preise steigen. = Cenas ceļas."
         },
         {
           "word": "einsteigen",
           "meaning": "įlipti į transportą",
-          "example": "Ich steige in den Bus ein. = Aš įlipu į autobusą."
+          "example": "Ich steige in den Bus ein. = Es iekāpju autobusā."
         },
         {
           "word": "aussteigen",
           "meaning": "išlipti iš transporto",
-          "example": "Ich steige aus. = Aš išlipu."
+          "example": "Ich steige aus. = Es izkāpju."
         },
         {
           "word": "aufstehen",
           "meaning": "atsistoti",
-          "example": "Ich stehe um sieben auf. = Aš keliuosi septintą valandą."
+          "example": "Ich stehe um sieben auf. = Es pieceļos septiņos."
         },
         {
           "word": "klettern",
           "meaning": "ropštis / kopti su pastangomis",
-          "example": "Das Kind klettert auf den Baum. = Vaikas ropščiasi į medį."
+          "example": "Das Kind klettert auf den Baum. = Bērns rāpjas kokā."
         }
       ],
       "tip": {
@@ -54772,27 +54772,27 @@ const A2_WORDS = [
         {
           "word": "die Stelle",
           "meaning": "vieta / darbo vieta / fragmentas",
-          "example": "Ich suche eine Stelle. = Aš ieškau darbo vietos."
+          "example": "Ich suche eine Stelle. = Es meklēju darba vietu."
         },
         {
           "word": "der Ort",
           "meaning": "vieta / gyvenvietė",
-          "example": "Der Ort ist schön. = Vieta yra graži."
+          "example": "Der Ort ist schön. = Vieta ir skaista."
         },
         {
           "word": "der Arbeitsplatz",
           "meaning": "darbo vieta",
-          "example": "Mein Arbeitsplatz ist ruhig. = Mano darbo vieta yra tyli."
+          "example": "Mein Arbeitsplatz ist ruhig. = Mana darba vieta ir klusa."
         },
         {
           "word": "die Textstelle",
           "meaning": "teksto vieta / fragmentas",
-          "example": "Diese Textstelle ist wichtig. = Šis teksto fragmentas yra svarbus."
+          "example": "Diese Textstelle ist wichtig. = Šis teksta fragments ir svarīgs."
         },
         {
           "word": "die Wunde",
           "meaning": "žaizda",
-          "example": "Die Wunde tut weh. = Žaizda skauda."
+          "example": "Die Wunde tut weh. = Brūce sāp."
         }
       ],
       "tip": {
@@ -55240,27 +55240,27 @@ const A2_WORDS = [
         {
           "word": "stimmen",
           "meaning": "derėti / būti teisingam / balsuoti",
-          "example": "Das stimmt. = Tai tiesa / tai teisinga."
+          "example": "Das stimmt. = Tā ir / tas ir pareizi."
         },
         {
           "word": "zustimmen",
           "meaning": "sutikti",
-          "example": "Ich stimme dir zu. = Aš su tavimi sutinku."
+          "example": "Ich stimme dir zu. = Es tev piekrītu."
         },
         {
           "word": "abstimmen",
           "meaning": "balsuoti / derinti",
-          "example": "Wir stimmen darüber ab. = Mes už tai balsuojame."
+          "example": "Wir stimmen darüber ab. = Mēs par to balsojam."
         },
         {
           "word": "wählen",
           "meaning": "rinkti / pasirinkti",
-          "example": "Wir wählen den Präsidenten. = Mes renkame prezidentą."
+          "example": "Wir wählen den Präsidenten. = Mēs vēlējam prezidentu."
         },
         {
           "word": "passen",
           "meaning": "tikti / derėti",
-          "example": "Die Farbe passt. = Spalva tinka."
+          "example": "Die Farbe passt. = Krāsa piestāv."
         }
       ],
       "tip": {
@@ -55621,27 +55621,27 @@ const A2_WORDS = [
         {
           "word": "der Stoff",
           "meaning": "audinys / medžiaga / materija",
-          "example": "Der Stoff ist weich. = Audinys yra minkštas."
+          "example": "Der Stoff ist weich. = Audums ir mīksts."
         },
         {
           "word": "das Material",
           "meaning": "medžiaga",
-          "example": "Das Material ist stabil. = Medžiaga yra atspari."
+          "example": "Das Material ist stabil. = Materiāls ir izturīgs."
         },
         {
           "word": "die Substanz",
           "meaning": "medžiaga / substance",
-          "example": "Die Substanz ist gefährlich. = Medžiaga yra pavojinga."
+          "example": "Die Substanz ist gefährlich. = Viela ir bīstama."
         },
         {
           "word": "der Unterrichtsstoff",
           "meaning": "mokomoji medžiaga",
-          "example": "Der Unterrichtsstoff ist schwer. = Mokomoji medžiaga yra sunki."
+          "example": "Der Unterrichtsstoff ist schwer. = Mācību viela ir grūta."
         },
         {
           "word": "das Thema",
           "meaning": "tema",
-          "example": "Das Thema ist interessant. = Tema yra įdomi."
+          "example": "Das Thema ist interessant. = Temats ir interesants."
         }
       ],
       "tip": {
@@ -56124,27 +56124,27 @@ const A2_WORDS = [
         {
           "word": "die Tafel",
           "meaning": "lenta / plokštė / plytelė",
-          "example": "Der Lehrer schreibt an die Tafel. = Mokytojas rašo ant lentos."
+          "example": "Der Lehrer schreibt an die Tafel. = Skolotājs raksta uz tāfeles."
         },
         {
           "word": "die Tabelle",
           "meaning": "lentelė su duomenimis",
-          "example": "Die Tabelle steht im Buch. = Lentelė yra knygoje."
+          "example": "Die Tabelle steht im Buch. = Tabula ir grāmatā."
         },
         {
           "word": "die Speisekarte",
           "meaning": "meniu",
-          "example": "Die Speisekarte liegt auf dem Tisch. = Meniu yra ant stalo."
+          "example": "Die Speisekarte liegt auf dem Tisch. = Ēdienkarte ir uz galda."
         },
         {
           "word": "das Schild",
           "meaning": "ženklas / plokštelė",
-          "example": "Das Schild ist rot. = Ženklas yra raudonas."
+          "example": "Das Schild ist rot. = Zīme ir sarkana."
         },
         {
           "word": "die Tafel Schokolade",
           "meaning": "šokolado plytelė",
-          "example": "Eine Tafel Schokolade = šokolado plytelė."
+          "example": "Eine Tafel Schokolade = šokolādes tāfelīte."
         }
       ],
       "tip": {
@@ -56579,27 +56579,27 @@ const A2_WORDS = [
         {
           "word": "das Teil",
           "meaning": "dalis / detalė / gabalas",
-          "example": "Ein Teil fehlt. = Trūksta vienos dalies."
+          "example": "Ein Teil fehlt. = Trūkst viena daļa."
         },
         {
           "word": "der Teil",
           "meaning": "dalis (gramatiškai der)",
-          "example": "Der erste Teil ist leicht. = Pirmoji dalis yra lengva."
+          "example": "Der erste Teil ist leicht. = Pirmā daļa ir viegla."
         },
         {
           "word": "das Ersatzteil",
           "meaning": "atsarginė detalė",
-          "example": "Das Ersatzteil ist teuer. = Atsarginė detalė yra brangi."
+          "example": "Das Ersatzteil ist teuer. = Rezerves detaļa ir dārga."
         },
         {
           "word": "das Stück",
           "meaning": "gabalas",
-          "example": "Ich nehme ein Stück Kuchen. = Aš imu pyrago gabalą."
+          "example": "Ich nehme ein Stück Kuchen. = Es ņemu kūkas gabalu."
         },
         {
           "word": "die Sache",
           "meaning": "dalykas / daiktas",
-          "example": "Das ist eine gute Sache. = Tai geras dalykas."
+          "example": "Das ist eine gute Sache. = Tā ir laba lieta."
         }
       ],
       "tip": {
@@ -57050,27 +57050,27 @@ const A2_WORDS = [
         {
           "word": "der Termin",
           "meaning": "sutartas laikas / registracija / terminas",
-          "example": "Ich habe einen Termin. = Aš turiu susitikimą / sutartą laiką."
+          "example": "Ich habe einen Termin. = Man ir pieraksts / norunāts laiks."
         },
         {
           "word": "das Treffen",
           "meaning": "susitikimas",
-          "example": "Das Treffen war nett. = Susitikimas buvo malonus."
+          "example": "Das Treffen war nett. = Tikšanās bija jauka."
         },
         {
           "word": "die Frist",
           "meaning": "terminas, iki kurio kažką reikia padaryti",
-          "example": "Die Frist endet morgen. = Terminas baigiasi rytoj."
+          "example": "Die Frist endet morgen. = Termiņš beidzas rīt."
         },
         {
           "word": "die Verabredung",
           "meaning": "susitarimas / sutartas susitikimas",
-          "example": "Ich habe eine Verabredung. = Aš turiu sutartą susitikimą."
+          "example": "Ich habe eine Verabredung. = Man ir sarunāta tikšanās."
         },
         {
           "word": "der Zeitpunkt",
           "meaning": "laiko momentas",
-          "example": "Der Zeitpunkt ist wichtig. = Laiko momentas yra svarbus."
+          "example": "Der Zeitpunkt ist wichtig. = Laika punkts ir svarīgs."
         }
       ],
       "tip": {
@@ -57438,27 +57438,27 @@ const A2_WORDS = [
         {
           "word": "tief",
           "meaning": "gilus / žemas su balsu, garsu, temperatūra",
-          "example": "Der See ist tief. = Ežeras yra gilus."
+          "example": "Der See ist tief. = Ezers ir dziļš."
         },
         {
           "word": "niedrig",
           "meaning": "žemas pagal aukštį arba skaičių",
-          "example": "Das Regal ist niedrig. = Lentyna yra žema."
+          "example": "Das Regal ist niedrig. = Plaukts ir zems."
         },
         {
           "word": "hoch",
           "meaning": "aukštas",
-          "example": "Der Berg ist hoch. = Kalnas yra aukštas."
+          "example": "Der Berg ist hoch. = Kalns ir augsts."
         },
         {
           "word": "flach",
           "meaning": "neįgilus / plokščias",
-          "example": "Das Wasser ist flach. = Vanduo yra neįgilus."
+          "example": "Das Wasser ist flach. = Ūdens ir sekls."
         },
         {
           "word": "leise",
           "meaning": "tylus",
-          "example": "Die Stimme ist leise. = Balsas yra tylus."
+          "example": "Die Stimme ist leise. = Balss ir klusa."
         }
       ],
       "tip": {
@@ -58047,22 +58047,22 @@ const A2_WORDS = [
         {
           "word": "tragen",
           "meaning": "nešti / nešioti / vilkėti",
-          "example": "Ich trage eine Tasche. = Aš nešu krepšį."
+          "example": "Ich trage eine Tasche. = Es nesu somu."
         },
         {
           "word": "anziehen",
           "meaning": "užsivilkti",
-          "example": "Ich ziehe die Jacke an. = Aš užsivelku striukę."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
           "word": "bringen",
           "meaning": "atnešti / pristatyti",
-          "example": "Ich bringe dir das Buch. = Aš tau atnešu knygą."
+          "example": "Ich bringe dir das Buch. = Es tev atnesu grāmatu."
         },
         {
           "word": "halten",
           "meaning": "laikyti",
-          "example": "Ich halte das Kind. = Aš laikau vaiką."
+          "example": "Ich halte das Kind. = Es turu bērnu."
         }
       ],
       "tip": {
@@ -58267,27 +58267,27 @@ const A2_WORDS = [
         {
           "word": "treffen",
           "meaning": "susitikti / pataikyti / priimti",
-          "example": "Eine Entscheidung treffen = priimti sprendimą."
+          "example": "Eine Entscheidung treffen = pieņemt lēmumu."
         },
         {
           "word": "sich treffen",
           "meaning": "susitikti",
-          "example": "Wir treffen uns. = Mes susitinkame."
+          "example": "Wir treffen uns. = Mēs tiekamies."
         },
         {
           "word": "kennenlernen",
           "meaning": "susipažinti",
-          "example": "Ich lerne ihn kennen. = Aš su juo susipažįstu."
+          "example": "Ich lerne ihn kennen. = Es ar viņu iepazīstos."
         },
         {
           "word": "erreichen",
           "meaning": "pasiekti / susisiekti telefonu",
-          "example": "Ich erreiche dich nicht. = Aš negaliu su tavimi susisiekti."
+          "example": "Ich erreiche dich nicht. = Es nevaru tevi sazvanīt."
         },
         {
           "word": "passen",
           "meaning": "tikti / derėti",
-          "example": "Das passt. = Tai tinka."
+          "example": "Das passt. = Tas der."
         }
       ],
       "tip": {
@@ -58775,27 +58775,27 @@ const A2_WORDS = [
         {
           "word": "übrig",
           "meaning": "likęs / kitas",
-          "example": "Es ist Geld übrig. = Yra likusių pinigų."
+          "example": "Es ist Geld übrig. = Ir atlikusi nauda."
         },
         {
           "word": "übrig bleiben",
           "meaning": "likti",
-          "example": "Viel Essen bleibt übrig. = Daug maisto lieka."
+          "example": "Viel Essen bleibt übrig. = Daudz ēdiena paliek pāri."
         },
         {
           "word": "der Rest",
           "meaning": "likutis",
-          "example": "Der Rest ist für morgen. = Likutis yra rytdienai."
+          "example": "Der Rest ist für morgen. = Atlikums ir rītdienai."
         },
         {
           "word": "die übrigen",
           "meaning": "kiti",
-          "example": "Die übrigen Gäste kommen später. = Kiti svečiai atvyks vėliau."
+          "example": "Die übrigen Gäste kommen später. = Pārējie viesi ieradīsies vēlāk."
         },
         {
           "word": "unnötig",
           "meaning": "nereikalingas",
-          "example": "Das ist unnötig. = Tai nereikalinga."
+          "example": "Das ist unnötig. = Tas ir nevajadzīgi."
         }
       ],
       "tip": {
@@ -59118,27 +59118,27 @@ const A2_WORDS = [
         {
           "word": "die Übung",
           "meaning": "pratimas / praktika",
-          "example": "Diese Übung ist leicht. = Šis pratimas yra lengvas."
+          "example": "Diese Übung ist leicht. = Šis vingrinājums ir viegls."
         },
         {
           "word": "üben",
           "meaning": "mankštintis",
-          "example": "Ich übe jeden Tag. = Aš praktikuojuosi kiekvieną dieną."
+          "example": "Ich übe jeden Tag. = Es vingrinos katru dienu."
         },
         {
           "word": "das Training",
           "meaning": "treniruotė",
-          "example": "Das Training beginnt um sechs. = Treniruotė prasideda šeštą valandą."
+          "example": "Das Training beginnt um sechs. = Treniņš sākas sešos."
         },
         {
           "word": "die Aufgabe",
           "meaning": "užduotis",
-          "example": "Die Aufgabe ist schwer. = Užduotis yra sunki."
+          "example": "Die Aufgabe ist schwer. = Uzdevums ir grūts."
         },
         {
           "word": "die Praxis",
           "meaning": "praktika",
-          "example": "In der Praxis ist es anders. = Praktikoje tai kitaip."
+          "example": "In der Praxis ist es anders. = Praksē tas ir citādi."
         }
       ],
       "tip": {
@@ -59463,22 +59463,22 @@ const A2_WORDS = [
         {
           "word": "umsonst",
           "meaning": "nemokamai / veltui",
-          "example": "Ich warte umsonst. = Aš laukiu veltui."
+          "example": "Ich warte umsonst. = Es gaidu veltīgi."
         },
         {
           "word": "kostenlos",
           "meaning": "nemokamai",
-          "example": "Der Kurs ist kostenlos. = Kursas yra nemokamas."
+          "example": "Der Kurs ist kostenlos. = Kurss ir bez maksas."
         },
         {
           "word": "gratis",
           "meaning": "už dyką",
-          "example": "Das ist gratis. = Tai yra už dyką."
+          "example": "Das ist gratis. = Tas ir par brīvu."
         },
         {
           "word": "vergeblich",
           "meaning": "veltui",
-          "example": "Ich suche vergeblich. = Aš ieškau veltui."
+          "example": "Ich suche vergeblich. = Es meklēju veltīgi."
         }
       ],
       "tip": {
@@ -60061,27 +60061,27 @@ const A2_WORDS = [
         {
           "word": "verbinden",
           "meaning": "sujungti / perrišti",
-          "example": "Die Brücke verbindet zwei Orte. = Tiltas sujungia dvi vietas."
+          "example": "Die Brücke verbindet zwei Orte. = Tilts savieno divas vietas."
         },
         {
           "word": "sich verbinden mit",
           "meaning": "sietis su",
-          "example": "Das verbindet sich mit Erinnerungen. = Tai siejasi su prisiminimais."
+          "example": "Das verbindet sich mit Erinnerungen. = Tas saistās ar atmiņām."
         },
         {
           "word": "binden",
           "meaning": "rišti",
-          "example": "Ich binde die Schuhe. = Aš rišu batus."
+          "example": "Ich binde die Schuhe. = Es sienu kurpes."
         },
         {
           "word": "anschließen",
           "meaning": "prijungti",
-          "example": "Ich schließe den Drucker an. = Aš prijungiu spausdintuvą."
+          "example": "Ich schließe den Drucker an. = Es pieslēdzu printeri."
         },
         {
           "word": "die Wunde verbinden",
           "meaning": "perrišti žaizdą",
-          "example": "Der Arzt verbindet die Wunde. = Gydytojas perriša žaizdą."
+          "example": "Der Arzt verbindet die Wunde. = Ārsts pārsien brūci."
         }
       ],
       "tip": {
@@ -60457,27 +60457,27 @@ const A2_WORDS = [
         {
           "word": "der Verkehr",
           "meaning": "eismas / judesys / ryšiai",
-          "example": "Der Verkehr ist stark. = Eismas yra intensyvus."
+          "example": "Der Verkehr ist stark. = Satiksme ir intensīva."
         },
         {
           "word": "der Straßenverkehr",
           "meaning": "kelių eismas",
-          "example": "Der Straßenverkehr ist gefährlich. = Kelių eismas yra pavojingas."
+          "example": "Der Straßenverkehr ist gefährlich. = Ceļu satiksme ir bīstama."
         },
         {
           "word": "der öffentliche Verkehr",
           "meaning": "viešasis transportas",
-          "example": "Öffentlicher Verkehr ist praktisch. = Viešasis transportas yra praktiškas."
+          "example": "Öffentlicher Verkehr ist praktisch. = Sabiedriskā satiksme ir praktiska."
         },
         {
           "word": "der Kontakt",
           "meaning": "kontaktas / ryšiai",
-          "example": "Wir haben Kontakt mit Kunden. = Mes turime kontaktus su klientais."
+          "example": "Wir haben Kontakt mit Kunden. = Mums ir kontakti ar klientiem."
         },
         {
           "word": "die Bewegung",
           "meaning": "judesys",
-          "example": "Bewegung ist gesund. = Judesys yra sveikas."
+          "example": "Bewegung ist gesund. = Kustība ir veselīga."
         }
       ],
       "tip": {
@@ -60967,27 +60967,27 @@ const A2_WORDS = [
         {
           "word": "das Viertel",
           "meaning": "ketvirtis / ketvirtadalis / kvartalas",
-          "example": "Ein Viertel ist genug. = Ketvirtadalis yra pakankamai."
+          "example": "Ein Viertel ist genug. = Ceturtdaļa ir pietiekami."
         },
         {
           "word": "die Hälfte",
           "meaning": "pusė",
-          "example": "Die Hälfte ist weg. = Pusė yra dingusi."
+          "example": "Die Hälfte ist weg. = Puse ir prom."
         },
         {
           "word": "das Drittel",
           "meaning": "trečdalis",
-          "example": "Ein Drittel bleibt. = Trečdalis pasilieka."
+          "example": "Ein Drittel bleibt. = Trešdaļa paliek."
         },
         {
           "word": "der Stadtteil",
           "meaning": "miesto dalis / rajonas",
-          "example": "Dieser Stadtteil ist schön. = Šis rajonas yra gražus."
+          "example": "Dieser Stadtteil ist schön. = Šis rajons ir skaists."
         },
         {
           "word": "das Quartier",
           "meaning": "kvartalas / apylinkė",
-          "example": "Das Quartier ist ruhig. = Kvartalas yra tylus."
+          "example": "Das Quartier ist ruhig. = Kvartāls ir kluss."
         }
       ],
       "tip": {
@@ -61487,27 +61487,27 @@ const A2_WORDS = [
         {
           "word": "vorstellen",
           "meaning": "pristatyti / prezentuoti",
-          "example": "Ich stelle dir meinen Freund vor. = Aš tave supažindinu su draugu."
+          "example": "Ich stelle dir meinen Freund vor. = Es tevi iepazīstinu ar draugu."
         },
         {
           "word": "sich vorstellen",
           "meaning": "prisistatyti / įsivaizduoti",
-          "example": "Ich stelle mich vor. = Aš prisistatau."
+          "example": "Ich stelle mich vor. = Es stādos priekšā."
         },
         {
           "word": "denken",
           "meaning": "manyti",
-          "example": "Ich denke an dich. = Aš mąstau apie tave."
+          "example": "Ich denke an dich. = Es domāju par tevi."
         },
         {
           "word": "meinen",
           "meaning": "manyti / laikyti",
-          "example": "Was meinst du? = Ką tu manai?"
+          "example": "Was meinst du? = Ko tu domā?"
         },
         {
           "word": "präsentieren",
           "meaning": "prezentuoti",
-          "example": "Ich präsentiere den Plan. = Aš prezentuoju planą."
+          "example": "Ich präsentiere den Plan. = Es prezentēju plānu."
         }
       ],
       "tip": {
@@ -61910,22 +61910,22 @@ const A2_WORDS = [
         {
           "word": "der Wagen",
           "meaning": "automobilis • vagonas • vežimas",
-          "example": "Der Wagen ist neu. = Automobilis yra naujas."
+          "example": "Der Wagen ist neu. = Automašīna ir jauna."
         },
         {
           "word": "der Waggon",
           "meaning": "vagonas (traukinys)",
-          "example": "Der Waggon ist voll. = Vagonas yra pilnas."
+          "example": "Der Waggon ist voll. = Vagons ir pilns."
         },
         {
           "word": "das Auto",
           "meaning": "automobilis",
-          "example": "Das Auto steht da. = Automobilis stovi ten."
+          "example": "Das Auto steht da. = Automašīna stāv tur."
         },
         {
           "word": "wagen (Verb)",
           "meaning": "drįsti",
-          "example": "Ich wage es nicht. = Aš nedrįstu."
+          "example": "Ich wage es nicht. = Es neuzdrošinos."
         }
       ],
       "tip": {
@@ -62066,22 +62066,22 @@ const A2_WORDS = [
         {
           "word": "wählen",
           "meaning": "rinktis / balsuoti / surinkti",
-          "example": "Ich wähle eine Nummer. = Aš surenku numerį."
+          "example": "Ich wähle eine Nummer. = Es sastādu numuru."
         },
         {
           "word": "auswählen",
           "meaning": "atsirinkti / pasirinkti",
-          "example": "Ich wähle ein Bild aus. = Aš pasirenku paveikslėlį."
+          "example": "Ich wähle ein Bild aus. = Es izvēlos attēlu."
         },
         {
           "word": "entscheiden",
           "meaning": "nuspręsti",
-          "example": "Ich entscheide mich. = Aš nusprendžiu."
+          "example": "Ich entscheide mich. = Es izlemju."
         },
         {
           "word": "abstimmen",
           "meaning": "balsuoti",
-          "example": "Wir stimmen ab. = Mes balsuojame."
+          "example": "Wir stimmen ab. = Mēs balsojam."
         }
       ],
       "tip": {
@@ -62414,22 +62414,22 @@ const A2_WORDS = [
         {
           "word": "während",
           "meaning": "metu / kol",
-          "example": "Während ich arbeite, ist es ruhig. = Kol aš dirbu, yra tylu."
+          "example": "Während ich arbeite, ist es ruhig. = Kamēr es strādāju, ir kluss."
         },
         {
           "word": "bei",
           "meaning": "prie / tam tikromis sąlygomis",
-          "example": "Bei Regen bleiben wir zu Hause. = Lietaus metu pasiliekame namuose."
+          "example": "Bei Regen bleiben wir zu Hause. = Lietus laikā paliekam mājās."
         },
         {
           "word": "wenn",
           "meaning": "kai / ja",
-          "example": "Wenn ich Zeit habe, komme ich. = Jei turėsiu laiko, ateisiu."
+          "example": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu."
         },
         {
           "word": "solange",
           "meaning": "tol, kol",
-          "example": "Solange du hier bist, bleibe ich. = Kol tu esi čia, aš pasilieku."
+          "example": "Solange du hier bist, bleibe ich. = Kamēr tu esi šeit, es palieku."
         }
       ],
       "tip": {
@@ -62800,27 +62800,27 @@ const A2_WORDS = [
         {
           "word": "wahrscheinlich",
           "meaning": "tikriausiai / labai tikėtina",
-          "example": "Er kommt wahrscheinlich. = Jis tikriausiai atvyks."
+          "example": "Er kommt wahrscheinlich. = Viņš droši vien atnāks."
         },
         {
           "word": "vielleicht",
           "meaning": "galbūt",
-          "example": "Vielleicht kommt er. = Galbūt jis ateis."
+          "example": "Vielleicht kommt er. = Varbūt viņš atnāks."
         },
         {
           "word": "sicher",
           "meaning": "tikrai / neabejotinai",
-          "example": "Das ist sicher richtig. = Tai tikrai yra teisinga."
+          "example": "Das ist sicher richtig. = Tas noteikti ir pareizi."
         },
         {
           "word": "bestimmt",
           "meaning": "tikrai",
-          "example": "Er kommt bestimmt. = Jis tikrai atvyks."
+          "example": "Er kommt bestimmt. = Viņš noteikti atnāks."
         },
         {
           "word": "möglich",
           "meaning": "galimas",
-          "example": "Das ist möglich. = Tai yra įmanoma."
+          "example": "Das ist möglich. = Tas ir iespējams."
         }
       ],
       "tip": {
@@ -63188,27 +63188,27 @@ const A2_WORDS = [
         {
           "word": "wechseln",
           "meaning": "keisti / pasikeisti",
-          "example": "Ich wechsle Geld. = Aš pasikeičiu pinigus."
+          "example": "Ich wechsle Geld. = Es samainu naudu."
         },
         {
           "word": "umtauschen",
           "meaning": "pakeisti prekę",
-          "example": "Ich tausche die Jacke um. = Aš pakeičiu striukę."
+          "example": "Ich tausche die Jacke um. = Es apmainu jaku."
         },
         {
           "word": "tauschen",
           "meaning": "keistis / apsikeisti",
-          "example": "Wir tauschen Plätze. = Mes apsikeičiame vietomis."
+          "example": "Wir tauschen Plätze. = Mēs samaināmies vietām."
         },
         {
           "word": "umsteigen",
           "meaning": "persėsti (transporte)",
-          "example": "Ich steige um. = Aš persėdu."
+          "example": "Ich steige um. = Es pārsēžos."
         },
         {
           "word": "ändern",
           "meaning": "keisti / pakeisti",
-          "example": "Ich ändere den Plan. = Aš keičiu planą."
+          "example": "Ich ändere den Plan. = Es mainu plānu."
         }
       ],
       "tip": {
@@ -63797,27 +63797,27 @@ const A2_WORDS = [
         {
           "word": "wert",
           "meaning": "vertas",
-          "example": "Das ist viel wert. = Tai yra daug verta."
+          "example": "Das ist viel wert. = Tas ir daudz vērts."
         },
         {
           "word": "der Wert",
           "meaning": "vertė",
-          "example": "Der Wert ist hoch. = Vertė yra didelė."
+          "example": "Der Wert ist hoch. = Vērtība ir augsta."
         },
         {
           "word": "teuer",
           "meaning": "brangus",
-          "example": "Das Auto ist teuer. = Automobilis yra brangus."
+          "example": "Das Auto ist teuer. = Auto ir dārgs."
         },
         {
           "word": "sehenswert",
           "meaning": "vertas pamatyti",
-          "example": "Die Stadt ist sehenswert. = Miestą verta pamatyti."
+          "example": "Die Stadt ist sehenswert. = Pilsētu ir vērts redzēt."
         },
         {
           "word": "wichtig",
           "meaning": "svarbus",
-          "example": "Das ist wichtig. = Tai yra svarbu."
+          "example": "Das ist wichtig. = Tas ir svarīgi."
         }
       ],
       "tip": {
@@ -64169,27 +64169,27 @@ const A2_WORDS = [
         {
           "word": "wiegen",
           "meaning": "sverti / pasverti",
-          "example": "Das Paket wiegt zwei Kilo. = Pakuotė sveria du kilogramus."
+          "example": "Das Paket wiegt zwei Kilo. = Paka sver divus kilogramus."
         },
         {
           "word": "die Waage",
           "meaning": "svarstyklės",
-          "example": "Die Waage steht im Bad. = Svarstyklės stovi vonioje."
+          "example": "Die Waage steht im Bad. = Svari stāv vannasistabā."
         },
         {
           "word": "das Gewicht",
           "meaning": "svoris",
-          "example": "Das Gewicht ist normal. = Svoris yra normalus."
+          "example": "Das Gewicht ist normal. = Svars ir normāls."
         },
         {
           "word": "messen",
           "meaning": "matuoti",
-          "example": "Ich messe die Länge. = Aš matuoju ilgį."
+          "example": "Ich messe die Länge. = Es mēru garumu."
         },
         {
           "word": "der Wagen",
           "meaning": "automobilis / vagonas",
-          "example": "Der Wagen ist neu. = Automobilis yra naujas."
+          "example": "Der Wagen ist neu. = Automašīna ir jauna."
         }
       ],
       "tip": {
@@ -64577,27 +64577,27 @@ const A2_WORDS = [
         {
           "word": "ziehen",
           "meaning": "traukti / persikelti / slinkti",
-          "example": "Wir ziehen um. = Mes persikeliame."
+          "example": "Wir ziehen um. = Mēs pārvācamies."
         },
         {
           "word": "umziehen",
           "meaning": "persikraustyti / persirengti",
-          "example": "Ich ziehe um. = Aš persikeliu."
+          "example": "Ich ziehe um. = Es pārvācos."
         },
         {
           "word": "anziehen",
           "meaning": "užsivilkti drabužį / pritraukti",
-          "example": "Ich ziehe die Jacke an. = Aš užsivelku striukę."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
           "word": "ausziehen",
           "meaning": "nusivilkti / išsikraustyti",
-          "example": "Ich ziehe die Schuhe aus. = Aš nusiaunu batus."
+          "example": "Ich ziehe die Schuhe aus. = Es novelku kurpes."
         },
         {
           "word": "ziehen lassen",
           "meaning": "leisti eiti / leisti įsigerti",
-          "example": "Den Tee ziehen lassen. = Leisti arbatai įsigerti."
+          "example": "Den Tee ziehen lassen. = Ļaut tējai ievilkties."
         }
       ],
       "tip": {
@@ -65062,27 +65062,27 @@ const A2_WORDS = [
         {
           "word": "zunehmen",
           "meaning": "priaugti svorio / didėti",
-          "example": "Die Preise nehmen zu. = Kainos kyla."
+          "example": "Die Preise nehmen zu. = Cenas pieaug."
         },
         {
           "word": "abnehmen",
           "meaning": "sulieknėti / mažėti",
-          "example": "Ich nehme ab. = Aš sulieknėju."
+          "example": "Ich nehme ab. = Es notievēju."
         },
         {
           "word": "wachsen",
           "meaning": "augti",
-          "example": "Die Stadt wächst. = Miestas auga."
+          "example": "Die Stadt wächst. = Pilsēta aug."
         },
         {
           "word": "steigen",
           "meaning": "kilti / didėti",
-          "example": "Die Preise steigen. = Kainos kyla."
+          "example": "Die Preise steigen. = Cenas kāpj."
         },
         {
           "word": "sich erhöhen",
           "meaning": "didėti",
-          "example": "Die Kosten erhöhen sich. = Išlaidos didėja."
+          "example": "Die Kosten erhöhen sich. = Izmaksas palielinās."
         }
       ],
       "tip": {
@@ -65443,27 +65443,27 @@ const A2_WORDS = [
         {
           "word": "zurzeit",
           "meaning": "šiuo metu / dabar / šiuo laiku",
-          "example": "Zurzeit bin ich beschäftigt. = Šiuo metu esu užsiėmęs."
+          "example": "Zurzeit bin ich beschäftigt. = Pašlaik esmu aizņemts."
         },
         {
           "word": "jetzt",
           "meaning": "dabar",
-          "example": "Ich gehe jetzt. = Aš dabar einu."
+          "example": "Ich gehe jetzt. = Es tagad eju."
         },
         {
           "word": "im Moment",
           "meaning": "dabar / šiuo metu",
-          "example": "Im Moment habe ich keine Zeit. = Dabar man nėra laiko."
+          "example": "Im Moment habe ich keine Zeit. = Šobrīd man nav laika."
         },
         {
           "word": "derzeit",
           "meaning": "šiuo metu / šiuo laiku",
-          "example": "Derzeit ist das nicht möglich. = Šiuo metu tai neįmanoma."
+          "example": "Derzeit ist das nicht möglich. = Pašlaik tas nav iespējams."
         },
         {
           "word": "momentan",
           "meaning": "dabar / šiuo laiku",
-          "example": "Momentan bin ich krank. = Dabar esu susirgęs."
+          "example": "Momentan bin ich krank. = Šobrīd esmu slims."
         }
       ],
       "tip": {
@@ -67937,4 +67937,5 @@ const A2_WORDS = [
     }
   }
 ];
+
 window.A2_WORDS = A2_WORDS;

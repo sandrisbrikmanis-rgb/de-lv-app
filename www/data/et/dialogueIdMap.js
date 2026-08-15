@@ -1,332 +1,1316 @@
 const DIALOGUE_ID_MAP = {
-  "diag_001": { "de": "Gute Besserung!", "lv": "Paranemist!" },
-  "diag_002": { "de": "Frohes neues Jahr!", "lv": "Head uut aastat!" },
-  "diag_003": { "de": "Herzlichen Glückwunsch zum Geburtstag!", "lv": "Palju õnne sünnipäevaks!" },
-  "diag_004": { "de": "Gute Reise!", "lv": "Head reisi!" },
-  "diag_005": { "de": "Es freut mich, Sie kennenzulernen.", "lv": "Mul on hea meel teiega tutvuda." },
-  "diag_006": { "de": "Wären Sie bitte so nett?", "lv": "Kas te oleksite nii lahke?" },
-  "diag_007": { "de": "Ich bin Ihnen sehr dankbar.", "lv": "Ma olen teile väga tänulik." },
-  "diag_008": { "de": "Keine Ursache!", "lv": "Pole tänu väärt!" },
-  "diag_009": { "de": "Setzt euch bitte hin!", "lv": "Istuge palun!" },
-  "diag_010": { "de": "Ben, komm bitte an die Tafel!", "lv": "Ben, tule palun tahvli juurde!" },
-  "diag_011": { "de": "Schlagt bitte die Lehrbücher auf!", "lv": "Avage palun õpikud!" },
-  "diag_012": { "de": "Geht bitte in die Sporthalle!", "lv": "Minge palun spordisaali!" },
-  "diag_013": { "de": "Schläfst du noch?", "lv": "Kas sa veel magad?" },
-  "diag_014": { "de": "Schlafen Sie noch?", "lv": "Kas te veel magate?" },
-  "diag_015": { "de": "Er ist fest eingeschlafen.", "lv": "Ta on sügavalt magama jäänud." },
-  "diag_016": { "de": "Wecke ihn bitte auf, es ist schon spät!", "lv": "Palun ärata ta üles, on juba hilja!" },
-  "diag_017": { "de": "Guten Morgen!", "lv": "Tere hommikust!" },
-  "diag_018": { "de": "Guten Tag!", "lv": "Tere päevast!" },
-  "diag_019": { "de": "Gute Nacht!", "lv": "Head ööd!" },
-  "diag_020": { "de": "Entschuldigen Sie bitte!", "lv": "Vabandage palun!" },
-  "diag_021": { "de": "Es tut mir sehr leid!", "lv": "Mul on väga kahju!" },
-  "diag_022": { "de": "Vielen Dank!", "lv": "Suur tänu!" },
-  "diag_023": { "de": "Finn, fang bitte an!", "lv": "Finn, alusta palun!" },
-  "diag_024": { "de": "Lest bitte mit!", "lv": "Lugege palun kaasa!" },
-  "diag_025": { "de": "Emma, schau bitte nicht aus dem Fenster!", "lv": "Emma, palun ära vaata aknast välja!" },
-  "diag_026": { "de": "Jonas, bring bitte die Hefte!", "lv": "Jonas, too palun vihikud!" },
-  "diag_027": { "de": "Geh bitte zurück an deinen Platz!", "lv": "Mine palun tagasi oma kohale!" },
-  "diag_028": { "de": "Wie viel Uhr ist es?", "lv": "Mis kell on?" },
-  "diag_029": { "de": "Es ist halb acht.", "lv": "Kell on pool kaheksa." },
-  "diag_030": { "de": "Wann wachst du gewöhnlich auf?", "lv": "Millal sa tavaliselt ärkad?" },
-  "diag_031": { "de": "Ich stehe gleich auf.", "lv": "Ma tõusen kohe üles." },
-  "diag_032": { "de": "Steh auf, Hanna, es klingelt!", "lv": "Tõuse üles, Hanna, kell heliseb!" },
-  "diag_033": { "de": "Lass mich noch fünf Minuten schlafen!", "lv": "Lase mul veel viis minutit magada!" },
-  "diag_034": { "de": "Vergiss nicht, das Zimmer zu lüften!", "lv": "Ära unusta tuba tuulutada!" },
-  "diag_035": { "de": "Wo ist das Handtuch?", "lv": "Kus on käterätik?" },
-  "diag_036": { "de": "Ich möchte mir die Zähne putzen.", "lv": "Tahan hambaid pesta." },
-  "diag_037": { "de": "Mit was putzt du dir die Zähne?", "lv": "Millega sa hambaid pesed?" },
-  "diag_038": { "de": "Ich möchte mich anziehen.", "lv": "Tahan riidesse panna." },
-  "diag_039": { "de": "Zieh dich bitte schnell an!", "lv": "Pane end kiiresti riidesse, palun!" },
-  "diag_040": { "de": "Kleide dich wärmer an, draußen ist es kühl.", "lv": "Pane end soojemalt riidesse, väljas on jahe." },
-  "diag_041": { "de": "Guten Morgen, wie geht es dir?", "lv": "Tere hommikust, kuidas sul läheb?" },
-  "diag_042": { "de": "Mir geht es gut, danke.", "lv": "Mul läheb hästi, aitäh." },
-  "diag_043": { "de": "Was gibt es Neues?", "lv": "Mis uut?" },
-  "diag_044": { "de": "Auf Wiedersehen!", "lv": "Nägemiseni!" },
-  "diag_045": { "de": "Was für ein Chaos hier!", "lv": "Milline segadus siin!" },
-  "diag_046": { "de": "Darf ich beim Aufräumen helfen?", "lv": "Kas ma tohin koristamisel aidata?" },
-  "diag_047": { "de": "Was trinkst du morgens, Kaffee oder Tee?", "lv": "Mida sa hommikuti jood, kohvi või teed?" },
-  "diag_048": { "de": "Gewöhnlich trinke ich morgens eine Tasse Kaffee.", "lv": "Tavaliselt joon hommikuti tassi kohvi." },
-  "diag_049": { "de": "Am liebsten trinke ich schwarzen Kaffee.", "lv": "Kõige rohkem meeldib mulle must kohv." },
-  "diag_050": { "de": "Guten Morgen, hast du gut geschlafen?", "lv": "Tere hommikust, kas magasid hästi?" },
-  "diag_051": { "de": "Ich bin noch sehr müde.", "lv": "Olen ikka veel väga väsinud." },
-  "diag_052": { "de": "Willst du Kaffee oder Milch?", "lv": "Kas tahad kohvi või piima?" },
-  "diag_053": { "de": "Gib mir bitte ein Brötchen mit Käse.", "lv": "Anna mulle palun sepikut juustuga." },
-  "diag_054": { "de": "Ich muss jetzt los!", "lv": "Ma pean nüüd minema!" },
-  "diag_055": { "de": "Vergiss dein Frühstück nicht!", "lv": "Ära unusta oma hommikusööki!" },
-  "diag_056": { "de": "Klara, deck bitte den Tisch!", "lv": "Klara, palun kata laud!" },
-  "diag_057": { "de": "Vergiss die Servietten nicht!", "lv": "Ära unusta salvrätte!" },
-  "diag_058": { "de": "Wann esst ihr zu Mittag?", "lv": "Millal te lõunat sööte?" },
-  "diag_059": { "de": "Es ist Zeit zu essen.", "lv": "On aeg süüa." },
-  "diag_060": { "de": "Was gibt es heute zu Mittag?", "lv": "Mis on täna lõunaks?" },
-  "diag_061": { "de": "Wie schmeckt dir die Suppe?", "lv": "Kuidas supp sulle maitseb?" },
-  "diag_062": { "de": "Ehrlich gesagt ist sie etwas zu salzig.", "lv": "Ausalt öeldes on see pisut liiga soolane." },
-  "diag_063": { "de": "Darf ich dir ein Stück Brot geben?", "lv": "Kas ma tohin sulle anda tüki leiba?" },
-  "diag_064": { "de": "Danke, ich habe schon.", "lv": "Aitäh, mul on juba." },
-  "diag_065": { "de": "Das Fleisch schmeckt ausgezeichnet.", "lv": "Liha maitseb suurepäraselt." },
-  "diag_066": { "de": "Danke, ich bin schon satt.", "lv": "Aitäh, ma olen juba täis." },
-  "diag_067": { "de": "Heute haben wir Besuch.", "lv": "Täna on meil külalisi." },
-  "diag_068": { "de": "Bist du heute Abend frei?", "lv": "Kas sul on täna õhtul vaba aega?" },
-  "diag_069": { "de": "Komm doch heute zum Mittagessen vorbei!", "lv": "Tule ometi täna lõunale külla!" },
-  "diag_070": { "de": "Setzen wir uns an den Tisch.", "lv": "Istume laua taha." },
-  "diag_071": { "de": "Bitte, bedien dich!", "lv": "Palun, võta ise!" },
-  "diag_072": { "de": "Stört dich das Rauchen?", "lv": "Kas suitsetamine häirib sind?" },
-  "diag_073": { "de": "Danke für die nette Aufnahme!", "lv": "Aitäh sooja vastuvõtu eest!" },
-  "diag_074": { "de": "Wann gehst du ins Bett?", "lv": "Millal sa magama lähed?" },
-  "diag_075": { "de": "Wenn ich von der Arbeit komme, bin ich immer müde.", "lv": "Kui ma tööl käin, olen alati väsinud." },
-  "diag_076": { "de": "Es ist Zeit, ins Bett zu gehen.", "lv": "On aeg magama minna." },
-  "diag_077": { "de": "Es ist schönes Wetter.", "lv": "Ilm on ilus." },
-  "diag_078": { "de": "Willst du mit mir spazieren gehen?", "lv": "Kas tahad minuga jalutama minna?" },
-  "diag_079": { "de": "Sieh mal, es wird gleich regnen.", "lv": "Vaata, kohe hakkab sadama." },
-  "diag_080": { "de": "Nimm den Regenschirm mit!", "lv": "Võta vihmavari kaasa!" },
-  "diag_081": { "de": "Es regnet.", "lv": "Sajab vihma." },
-  "diag_082": { "de": "Ich bin schon ganz nass.", "lv": "Olen juba täiesti märg." },
-  "diag_083": { "de": "Glaubst du, dass es den ganzen Tag regnen wird?", "lv": "Kas sa arvad, et sajab terve päeva?" },
-  "diag_084": { "de": "Es hört auf zu regnen.", "lv": "Vihm hakkab lakkama." },
-  "diag_085": { "de": "Die Sonne scheint wieder.", "lv": "Päike paistab jälle." },
-  "diag_086": { "de": "Es ist sehr warm.", "lv": "On väga palav." },
-  "diag_087": { "de": "Es sieht nach Regen aus.", "lv": "Näib, et hakkab sadama." },
-  "diag_088": { "de": "Wir bekommen gleich ein Gewitter.", "lv": "Kohe tuleb äikesetorm." },
-  "diag_089": { "de": "Das Gewitter zieht vorüber.", "lv": "Äikesetorm läheb üle." },
-  "diag_090": { "de": "Die Wolken verziehen sich.", "lv": "Pilved hajuvad." },
-  "diag_091": { "de": "Siehst du den Regenbogen?", "lv": "Näed sa vikerkaart?" },
-  "diag_092": { "de": "Der Winter ist da, es hat geschneit.", "lv": "Talv on käes, öösel sadas lund." },
-  "diag_093": { "de": "Es schneit.", "lv": "Sajab lund." },
-  "diag_094": { "de": "Wie schön ist es im Wald im Winter!", "lv": "Kui ilus on talvel metsas!" },
-  "diag_095": { "de": "Mir ist kalt, ich friere.", "lv": "Mul on külm, ma külmetan." },
-  "diag_096": { "de": "Draußen ist Glatteis, pass auf!", "lv": "Väljas on libe, ole ettevaatlik!" },
-  "diag_097": { "de": "Wollen wir auf die Eisbahn gehen?", "lv": "Kas läheme uisutama?" },
-  "diag_098": { "de": "Zieh die Jacke an, du kannst dich erkälten.", "lv": "Pane jope selga, sa võid külmetuda." },
-  "diag_099": { "de": "Wie spät ist es?", "lv": "Mis kell on?" },
-  "diag_100": { "de": "Es ist halb sieben.", "lv": "Kell on pool seitse." },
-  "diag_101": { "de": "Meine Uhr geht fünf Minuten vor.", "lv": "Minu kell käib viis minutit ees." },
-  "diag_102": { "de": "Weck mich morgen früh um sieben Uhr!", "lv": "Ärata mind homme hommikul kell seitse!" },
-  "diag_103": { "de": "Was ist heute für ein Datum?", "lv": "Mis kuupäev täna on?" },
-  "diag_104": { "de": "Heute ist der elfte Juli.", "lv": "Täna on üheteistkümnes juuli." },
-  "diag_105": { "de": "Was machst du gewöhnlich am Abend?", "lv": "Mida sa tavaliselt õhtuti teed?" },
-  "diag_106": { "de": "Es ist schon lange her, dass wir uns gesehen haben.", "lv": "On juba ammu, kui me viimati kohtusime." },
-  "diag_107": { "de": "Wie geht es dir?", "lv": "Kuidas sul läheb?" },
-  "diag_108": { "de": "Entschuldige, ich möchte etwas mit dir besprechen.", "lv": "Vabanda, tahan sinuga midagi arutada." },
-  "diag_109": { "de": "Gehen wir spazieren!", "lv": "Läheme jalutama!" },
-  "diag_110": { "de": "Hast du Lust, mit mir in den Park zu gehen?", "lv": "Kas tahad minuga parki minna?" },
-  "diag_111": { "de": "Ich komme, um dich zum Spaziergang abzuholen.", "lv": "Ma tulin sind jalutuskäigule kaasa võtma." },
-  "diag_112": { "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!", "lv": "Mine palun pisut aeglasemalt, ma ei jõua sulle järele!" },
-  "diag_113": { "de": "Ich bin zum ersten Mal in dieser Gegend.", "lv": "Ma olen siin esimest korda." },
-  "diag_114": { "de": "Ruhen wir uns ein wenig aus.", "lv": "Puhkame veidi." },
-  "diag_115": { "de": "Jetzt können wir zurückgehen.", "lv": "Nüüd saame tagasi minna." },
-  "diag_116": { "de": "Ehrlich gesagt bin ich ziemlich müde.", "lv": "Ausalt öeldes olen üsna väsinud." },
-  "diag_117": { "de": "Entschuldige, wo ist die nächste U-Bahn-Station?", "lv": "Vabanda, kus on lähim metroojaam?" },
-  "diag_118": { "de": "Welcher ist der kürzeste Weg?", "lv": "Milline on lühim tee?" },
-  "diag_119": { "de": "Geh hier die zweite Straße links und dann immer geradeaus.", "lv": "Mine siit teisele tänavale vasakule ja siis otse edasi." },
-  "diag_120": { "de": "Wie komme ich am schnellsten zum Bahnhof?", "lv": "Kuidas jõuan kiiremini jaama?" },
-  "diag_121": { "de": "Ich habe vor, morgen zu verreisen.", "lv": "Kavatsen homme ära sõita." },
-  "diag_122": { "de": "Wohin willst du fahren?", "lv": "Kuhu sa tahad sõita?" },
-  "diag_123": { "de": "Reist du geschäftlich oder privat?", "lv": "Kas sa reisid töö- või erasõidul?" },
-  "diag_124": { "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.", "lv": "Finn sõidab kaasa Berliinini, siis läheb ta mere äärde." },
-  "diag_125": { "de": "Wann fährt das Schiff ab?", "lv": "Millal laev väljub?" },
-  "diag_126": { "de": "In einer halben Stunde.", "lv": "Poole tunni pärast." },
-  "diag_127": { "de": "Kann ich noch eine Kabine bekommen?", "lv": "Kas ma saan veel kajuti?" },
-  "diag_128": { "de": "Vergiss deinen Pass nicht!", "lv": "Ära unusta oma passi!" },
-  "diag_129": { "de": "Es ist Zeit, den Koffer zu packen.", "lv": "On aeg kohver pakkida." },
-  "diag_130": { "de": "Der Zug fährt um halb sieben ab.", "lv": "Rong väljub pool seitse." },
-  "diag_131": { "de": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!", "lv": "Too mulle palun takso, muidu jään rongist maha!" },
-  "diag_132": { "de": "Fahr bitte zum Bahnhof!", "lv": "Sõida palun jaama!" },
-  "diag_133": { "de": "Ich muss mich beeilen.", "lv": "Ma pean kiirustama." },
-  "diag_134": { "de": "Ist der Schalter schon offen?", "lv": "Kas kassa on juba avatud?" },
-  "diag_135": { "de": "Eine Fahrkarte nach Köln, bitte.", "lv": "Üks pilet Kölni, palun." },
-  "diag_136": { "de": "Wann fährt der Zug ab?", "lv": "Millal rong väljub?" },
-  "diag_137": { "de": "Der Zug fährt gleich ab.", "lv": "Rong väljub kohe." },
-  "diag_138": { "de": "Muss ich in Koblenz umsteigen?", "lv": "Kas ma pean Koblenzis ümber istuma?" },
-  "diag_139": { "de": "Ja, dort musst du umsteigen.", "lv": "Jah, seal pead ümber istuma." },
-  "diag_140": { "de": "Ist dieser Platz frei?", "lv": "Kas see koht on vaba?" },
-  "diag_141": { "de": "Nein, hier sitzt niemand.", "lv": "Ei, siin ei istu keegi." },
-  "diag_142": { "de": "Wo ist der Bahnsteigkartenautomat?", "lv": "Kus on peroonipiletiautomaat?" },
-  "diag_143": { "de": "Stell mein Handgepäck ins Gepäcknetz.", "lv": "Pane mu käsipagas pagasivõrku." },
-  "diag_144": { "de": "Kann ich das Fenster aufmachen?", "lv": "Kas ma tohin akna avada?" },
-  "diag_145": { "de": "Es zieht, schließ bitte das Fenster!", "lv": "Tõmbab, palun sulge aken!" },
-  "diag_146": { "de": "Welche ist die nächste Station?", "lv": "Milline on järgmine peatus?" },
-  "diag_147": { "de": "Wie lange hält der Zug?", "lv": "Kui kaua rong seisab?" },
-  "diag_148": { "de": "Wo muss ich umsteigen?", "lv": "Kus ma pean ümber istuma?" },
-  "diag_149": { "de": "Der Zug hat Verspätung.", "lv": "Rong hilineb." },
-  "diag_150": { "de": "Dieser Wagen ist für Nichtraucher.", "lv": "See vagun on mittesuitsetajatele." },
-  "diag_151": { "de": "Wir fahren jetzt über die Grenze.", "lv": "Sõidame nüüd üle piiri." },
-  "diag_152": { "de": "Hast du etwas zu verzollen?", "lv": "Kas sul on midagi tollida?" },
-  "diag_153": { "de": "Wir sind in Berlin angekommen.", "lv": "Oleme Berliini jõudnud." },
-  "diag_154": { "de": "Kannst du mir ein gutes Hotel empfehlen?", "lv": "Kas sa saad soovitada head hotelli?" },
-  "diag_155": { "de": "Haben Sie freie Zimmer?", "lv": "Kas teil on vabu tube?" },
-  "diag_156": { "de": "Ein Zimmer mit zwei Betten, bitte.", "lv": "Üks tuba kahe voodiga, palun." },
-  "diag_157": { "de": "Was kostet das Zimmer pro Nacht?", "lv": "Mis maksab tuba öö kohta?" },
-  "diag_158": { "de": "Morgen reise ich ab. Weck mich um sieben Uhr!", "lv": "Homme sõidan ära. Ärata mind kell seitse!" },
-  "diag_159": { "de": "Die Rechnung, bitte!", "lv": "Arve, palun!" },
-  "diag_160": { "de": "Wo ist die Stadtbibliothek?", "lv": "Kus on linnaraamatukogu?" },
-  "diag_161": { "de": "Wann hat das Museum geöffnet?", "lv": "Millal muuseum on avatud?" },
-  "diag_162": { "de": "Wollen wir ins Museum gehen?", "lv": "Kas läheme muuseumisse?" },
-  "diag_163": { "de": "Fahren wir mit dem Bus oder der U-Bahn?", "lv": "Sõidame bussi või metrooga?" },
-  "diag_164": { "de": "Wo ist die nächste Bushaltestelle?", "lv": "Kus on lähim bussipeatus?" },
-  "diag_165": { "de": "Ich habe großen Hunger.", "lv": "Mul on suur nälg." },
-  "diag_166": { "de": "Gehen wir zusammen essen?", "lv": "Läheme koos sööma?" },
-  "diag_167": { "de": "Kellner, die Speisekarte, bitte!", "lv": "Ettekandja, menüüd, palun!" },
-  "diag_168": { "de": "Ist der Fisch frisch?", "lv": "Kas kala on värske?" },
-  "diag_169": { "de": "Das schmeckt ausgezeichnet!", "lv": "See maitseb suurepäraselt!" },
-  "diag_170": { "de": "Kellner, zahlen bitte!", "lv": "Ettekandja, arve palun!" },
-  "diag_171": { "de": "Was kostet das?", "lv": "Mis see maksab?" },
-  "diag_172": { "de": "Ich gehe ins Café einen Kaffee trinken.", "lv": "Lähen kohvikusse kohvi jooma." },
-  "diag_173": { "de": "Willst du mitkommen?", "lv": "Kas sa tahad kaasa tulla?" },
-  "diag_174": { "de": "Eine Tasse Kaffee mit Milch, bitte!", "lv": "Tass kohvi piimaga, palun!" },
-  "diag_175": { "de": "Bitte schneller, ich habe es eilig!", "lv": "Kiiremini, palun, mul on kiire!" },
-  "diag_176": { "de": "Lass deinen Kaffee nicht kalt werden!", "lv": "Ära lase oma kohvil külmaks minna!" },
-  "diag_177": { "de": "Haben Sie etwas Erfrischendes?", "lv": "Kas teil on midagi karastavat?" },
-  "diag_178": { "de": "Eine Portion Eis, bitte!", "lv": "Portsjon jäätist, palun!" },
-  "diag_179": { "de": "Heute Morgen habe ich einen Brief bekommen.", "lv": "Täna hommikul sain kirja." },
-  "diag_180": { "de": "Ich muss ihm gleich schreiben.", "lv": "Ma pean talle kohe kirjutama." },
-  "diag_181": { "de": "Wo ist der nächste Briefkasten?", "lv": "Kus on lähim postkast?" },
-  "diag_182": { "de": "Wo ist die Post?", "lv": "Kus on postkontor?" },
-  "diag_183": { "de": "Erinnere mich morgen daran zu schreiben!", "lv": "Tuleta mulle homme meelde kirjutada!" },
-  "diag_184": { "de": "Werfen Sie bitte diesen Brief in den Briefkasten.", "lv": "Palun visake see kiri postkasti." },
-  "diag_185": { "de": "Hallo, hier spricht Emma.", "lv": "Tere, siin räägib Emma." },
-  "diag_186": { "de": "Kann ich dich später anrufen?", "lv": "Kas ma tohin sulle hiljem helistada?" },
-  "diag_187": { "de": "Muss ich lange warten?", "lv": "Kas ma pean kaua ootama?" },
-  "diag_188": { "de": "Bitte schneiden Sie mir die Haare.", "lv": "Palun lõigake mul juuksed." },
-  "diag_189": { "de": "Hinten bitte nicht zu kurz.", "lv": "Taga palun mitte liiga lühikeseks." },
-  "diag_190": { "de": "Wann beginnt die Vorstellung?", "lv": "Millal etendus algab?" },
-  "diag_191": { "de": "Es fängt um halb acht an.", "lv": "See algab pool kaheksa." },
-  "diag_192": { "de": "Alle Plätze sind ausverkauft.", "lv": "Kõik kohad on välja müüdud." },
-  "diag_193": { "de": "Drei Karten, bitte!", "lv": "Kolm piletit, palun!" },
-  "diag_194": { "de": "Wir lassen die Jacken in der Garderobe.", "lv": "Jätame joped garderoobi." },
-  "diag_195": { "de": "Bitte schnell, der Vorhang geht gleich auf!", "lv": "Kiiremini, palun, eesriie läheb kohe lahti!" },
-  "diag_196": { "de": "Der Vorhang fällt.", "lv": "Eesriie langeb." },
-  "diag_197": { "de": "Darf ich dich zum Tanz bitten?", "lv": "Kas ma tohin sind tantsule kutsuda?" },
-  "diag_198": { "de": "Wann ist eure Hochzeit?", "lv": "Millal on teie pulmad?" },
-  "diag_199": { "de": "Ich suche eine Wohnung.", "lv": "Otsin korterit." },
-  "diag_200": { "de": "Ist in diesem Haus eine Wohnung frei?", "lv": "Kas selles majas on vaba korter?" },
-  "diag_201": { "de": "Wie viel kostet die Miete?", "lv": "Kui palju maksab üür?" },
-  "diag_202": { "de": "Die Wohnung hat drei Zimmer und eine Küche.", "lv": "Korteris on kolm tuba ja köök." },
-  "diag_203": { "de": "Heute ziehen wir um.", "lv": "Täna kolime." },
-  "diag_204": { "de": "Mia, pack die Sachen bitte in Kisten!", "lv": "Mia, pane palun asjad kastidesse!" },
-  "diag_205": { "de": "Hast du alles eingepackt?", "lv": "Kas oled kõik pakkinud?" },
-  "diag_206": { "de": "Ich stehe mit meinem Freund in Kontakt.", "lv": "Ma olen oma sõbraga kirjavahetuses." },
-  "diag_207": { "de": "Gehen wir ins Theater?", "lv": "Kas läheme teatrisse?" },
-  "diag_208": { "de": "Ist alles eingeladen?", "lv": "Kas kõik on peale laaditud?" },
-  "diag_209": { "de": "Welch schöne Aussicht!", "lv": "Milline ilus vaade!" },
-  "diag_210": { "de": "Nun können wir alles wieder aufräumen.", "lv": "Nüüd saame kõik jälle korrastada." },
-  "diag_211": { "de": "Wie viele Zimmer habt ihr?", "lv": "Mitu tuba teil on?" },
-  "diag_212": { "de": "Im Sommer fahre ich ans Meer.", "lv": "Suvel sõidan mere äärde." },
-  "diag_213": { "de": "Kannst du schwimmen?", "lv": "Kas sa oskad ujuda?" },
-  "diag_214": { "de": "Schwimm nicht zu weit hinaus!", "lv": "Ära uju liiga kaugele!" },
-  "diag_215": { "de": "Badest du jeden Tag?", "lv": "Kas sa käid iga päev ujumas?" },
-  "diag_216": { "de": "Bei schönem Wetter gehe ich angeln.", "lv": "Ilusa ilmaga käin kalastamas." },
-  "diag_217": { "de": "Wie sieht er aus?", "lv": "Kuidas ta välja näeb?" },
-  "diag_218": { "de": "Er hat sich aber recht verändert.", "lv": "Ta on siiski üsna muutunud." },
-  "diag_219": { "de": "Wie ist er als Mensch?", "lv": "Milline ta on inimesena?" },
-  "diag_220": { "de": "Er ist immer nett und freundlich.", "lv": "Ta on alati kena ja sõbralik." },
-  "diag_221": { "de": "Ich fühle mich nicht wohl.", "lv": "Ma ei tunne end hästi." },
-  "diag_222": { "de": "Was fehlt dir?", "lv": "Mis sul viga on?" },
-  "diag_223": { "de": "Ich habe starke Kopfschmerzen.", "lv": "Mul on tugev peavalu." },
-  "diag_224": { "de": "Ich habe mich erkältet.", "lv": "Olen külmetunud." },
-  "diag_225": { "de": "Ich habe Schnupfen.", "lv": "Mul on nohu." },
-  "diag_226": { "de": "Mir ist schwindlig.", "lv": "Mul on peapööritus." },
-  "diag_227": { "de": "Ich muss zum Arzt gehen.", "lv": "Ma pean arsti juurde minema." },
-  "diag_228": { "de": "Leg dich ins Bett!", "lv": "Heida voodisse!" },
-  "diag_229": { "de": "Hast du Fieber?", "lv": "Kas sul on palavik?" },
-  "diag_230": { "de": "Gestern hatte ich erhöhte Temperatur.", "lv": "Eile oli mul kõrgenenud temperatuur." },
-  "diag_231": { "de": "Ich habe Zahnschmerzen.", "lv": "Mul valutab hammas." },
-  "diag_232": { "de": "Ich muss zum Zahnarzt gehen.", "lv": "Ma pean hambaarsti juurde minema." },
-  "diag_233": { "de": "Weißt du, dass Finn krank ist?", "lv": "Kas tead, et Finn on haige?" },
-  "diag_234": { "de": "Laut Arzt wird er bald wieder gesund.", "lv": "Arsti sõnul saab ta peagi jälle terveks." },
-  "diag_235": { "de": "Ich will meine Wohnung neu möblieren.", "lv": "Tahan oma korterit uuesti sisustada." },
-  "diag_236": { "de": "Kann ich das auf Raten kaufen?", "lv": "Kas ma saan seda järelmaksuga osta?" },
-  "diag_237": { "de": "Bleib im Bett, bis es dir besser geht!", "lv": "Jää voodisse, kuni tunned end paremini!" },
-  "diag_238": { "de": "Noah hat in zwei Wochen schwimmen gelernt.", "lv": "Noah õppis kahe nädalaga ujuma." },
-  "diag_239": { "de": "Sei mit dem Essen noch vorsichtig.", "lv": "Ole toiduga ikka veel ettevaatlik." },
-  "diag_240": { "de": "Sprichst du Deutsch?", "lv": "Kas sa räägid saksa keelt?" },
-  "diag_241": { "de": "Ja, ein bisschen.", "lv": "Jah, natuke." },
-  "diag_242": { "de": "Du sprichst ziemlich fließend.", "lv": "Sa räägid üsna ladusalt." },
-  "diag_243": { "de": "Wo hast du Deutsch gelernt?", "lv": "Kus sa saksa keelt õppisid?" },
-  "diag_244": { "de": "Ich nehme seit einem Jahr Deutschstunden.", "lv": "Ma käin juba aasta aega saksa keele tundides." },
-  "diag_245": { "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.", "lv": "Otsin alati võimalust saksa keelt rääkida." },
-  "diag_246": { "de": "Ist das Buch noch vorrätig?", "lv": "Kas see raamat on veel saadaval?" },
-  "diag_247": { "de": "Das Buch ist leider ausverkauft.", "lv": "Raamat on kahjuks otsas." },
-  "diag_248": { "de": "Wann erscheint die neue Auflage?", "lv": "Millal ilmub uus trükk?" },
-  "diag_249": { "de": "Womit kann ich Ihnen helfen?", "lv": "Millega saan teid aidata?" },
-  "diag_250": { "de": "Haben Sie ganz frische Eier?", "lv": "Kas teil on täiesti värskeid mune?" },
-  "diag_251": { "de": "Was kosten die?", "lv": "Mis need maksavad?" },
-  "diag_252": { "de": "Das ist zu teuer.", "lv": "See on liiga kallis." },
-  "diag_253": { "de": "Können Sie mir ein halbes Kilo abwiegen?", "lv": "Kas te saate mulle pool kilo kaaluda?" },
-  "diag_254": { "de": "Wie viel muss ich zahlen?", "lv": "Kui palju ma pean maksma?" },
-  "diag_255": { "de": "Wie viel kostet das Kilo?", "lv": "Kui palju maksab kilogramm?" },
-  "diag_256": { "de": "Wiegen Sie mir bitte zwei Kilo ab.", "lv": "Kaaluge mulle palun kaks kilogrammi." },
-  "diag_257": { "de": "Haben Sie auch Karotten?", "lv": "Kas teil on ka porgandeid?" },
-  "diag_258": { "de": "Haben Sie gutes Rindfleisch?", "lv": "Kas teil on head veiseliha?" },
-  "diag_259": { "de": "Geben Sie mir zwei Kilo Hackfleisch.", "lv": "Andke mulle kaks kilogrammi hakkliha." },
-  "diag_260": { "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.", "lv": "Üks leivapätsi, palun, aga mitte liiga kõva." },
-  "diag_261": { "de": "Das Brot ist frisch gebacken.", "lv": "Leib on värskelt küpsetatud." },
-  "diag_262": { "de": "Was für Obst haben Sie heute?", "lv": "Mis puuvilju teil täna on?" },
-  "diag_263": { "de": "Was kosten die Äpfel?", "lv": "Mis õunad maksavad?" },
-  "diag_264": { "de": "Dann nehme ich zwei Kilo Äpfel.", "lv": "Siis võtan kaks kilogrammi õunu." },
-  "diag_265": { "de": "Die Birnen sind sehr teuer.", "lv": "Pirnid on väga kallid." },
-  "diag_266": { "de": "Können Sie mir alles nach Hause liefern?", "lv": "Kas saate kõik mulle koju toimetada?" },
-  "diag_267": { "de": "Haben Sie Reis?", "lv": "Kas teil on riisi?" },
-  "diag_268": { "de": "Geben Sie mir bitte ein Kilo Reis.", "lv": "Andke mulle palun kilogramm riisi." },
-  "diag_269": { "de": "Danke, diesmal nicht.", "lv": "Aitäh, seekord mitte." },
-  "diag_270": { "de": "Wie viel kostet dieser Teppich?", "lv": "Kui palju see vaip maksab?" },
-  "diag_271": { "de": "Können Sie die Möbel in meine Wohnung liefern?", "lv": "Kas saate toimetada mööbli mu korterisse?" },
-  "diag_272": { "de": "Bitte an der Kasse zahlen.", "lv": "Palun maksa kassas." },
-  "diag_273": { "de": "Bitte, machen Sie die Rechnung.", "lv": "Palun kirjutage arve." },
-  "diag_274": { "de": "Was kostet das Meter?", "lv": "Mis maksab meeter?" },
-  "diag_275": { "de": "Dieser Stoff gefällt mir.", "lv": "See kangas meeldib mulle." },
-  "diag_276": { "de": "Schneiden Sie mir bitte drei Meter ab.", "lv": "Lõigake mulle palun kolm meetrit." },
-  "diag_277": { "de": "Haben Sie auch andere Muster?", "lv": "Kas teil on ka teisi mustreid?" },
-  "diag_278": { "de": "Diese Farbe gefällt mir nicht.", "lv": "See värv ei meeldi mulle." },
-  "diag_279": { "de": "Geben Sie mir eine hellere.", "lv": "Andke mulle heledam." },
-  "diag_280": { "de": "Was kosten diese Socken?", "lv": "Mis need sokid maksavad?" },
-  "diag_281": { "de": "Welche Handschuhe wünschen Sie?", "lv": "Milliseid kindaid te soovite?" },
-  "diag_282": { "de": "Die sind mir etwas zu eng.", "lv": "Need on mulle pisut liiga kitsad." },
-  "diag_283": { "de": "So, nun passen sie gut.", "lv": "Nii, nüüd sobivad hästi." },
-  "diag_284": { "de": "Kannst du mir einen guten Schneider empfehlen?", "lv": "Kas sa saad soovitada head rätsepat?" },
-  "diag_285": { "de": "Ich will einen Anzug bestellen.", "lv": "Tahan tellida ülikonna." },
-  "diag_286": { "de": "Wann wird er fertig sein?", "lv": "Millal see valmis saab?" },
-  "diag_287": { "de": "Der Anzug sitzt gut.", "lv": "Ülikond istub hästi." },
-  "diag_288": { "de": "Die Hose ist zu lang.", "lv": "Püksid on liiga pikad." },
-  "diag_289": { "de": "Bitte reinigen und bügeln Sie ihn!", "lv": "Palun puhastage ja triikige see!" },
-  "diag_290": { "de": "Wann wird das Kleid fertig sein?", "lv": "Millal kleit valmis saab?" },
-  "diag_291": { "de": "Die Schuhe sind zu eng.", "lv": "Kingad on liiga kitsad." },
-  "diag_292": { "de": "Können Sie die Schuhe heute reparieren?", "lv": "Kas saate kingad täna parandada?" },
-  "diag_293": { "de": "Wann kann ich die Schuhe abholen?", "lv": "Millal saan kingad kätte?" },
-  "diag_294": { "de": "Meine Armbanduhr funktioniert nicht.", "lv": "Minu käekell ei tööta." },
-  "diag_295": { "de": "Sie geht fünf Minuten vor.", "lv": "See käib viis minutit ees." },
-  "diag_296": { "de": "Bist du kurzsichtig oder weitsichtig?", "lv": "Kas sa oled lühinägelik või kaugelenägelik?" },
-  "diag_297": { "de": "Ich möchte eine Brille kaufen.", "lv": "Tahan osta prille." },
-  "diag_298": { "de": "Können Sie meine Brille reparieren?", "lv": "Kas saate mu prillid parandada?" },
-  "diag_299": { "de": "Das dauert nur eine Viertelstunde.", "lv": "See võtab ainult veerand tundi." },
-  "diag_300": { "de": "Der Preis ist mir zu hoch.", "lv": "Hind on mulle liiga kõrge." },
-  "diag_301": { "de": "Ich brauche zwei Fotos für meinen Pass.", "lv": "Vajan kaks fotot oma passi jaoks." },
-  "diag_302": { "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.", "lv": "Palun pakkige see ja saatke mulle koju." },
-  "diag_303": { "de": "Wir haben feste Preise.", "lv": "Meil on fikseeritud hinnad." },
-  "diag_304": { "de": "Bitte, fotografieren Sie mich.", "lv": "Palun pildistage mind." },
-  "diag_305": { "de": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!", "lv": "Istuge, vaadake otse kaamerasse ja ärge liikuge!" },
-  "diag_306": { "de": "Wann kann ich das Probebild sehen?", "lv": "Millal saan näidispilti näha?" },
-  "diag_307": { "de": "Wann sind die Fotos fertig?", "lv": "Millal fotod valmis saavad?" },
-  "diag_308": { "de": "Die Aufnahme ist gelungen.", "lv": "Foto õnnestus." },
-  "diag_309": { "de": "Die Fotos sind gut geworden.", "lv": "Fotod tulid hästi välja." },
-  "diag_310": { "de": "Können Sie das Foto auch vergrößern?", "lv": "Kas saate fotot ka suurendada?" },
-  "diag_311": { "de": "Sind diese Steine echt?", "lv": "Kas need kivid on ehtsad?" },
-  "diag_312": { "de": "Ist das echtes Gold?", "lv": "Kas see on ehtne kuld?" },
-  "diag_313": { "de": "Zeigen Sie mir bitte Trauringe.", "lv": "Näidake mulle palun abielusõrmuseid." },
-  "diag_314": { "de": "Der Ring ist mir etwas zu weit.", "lv": "Sõrmus on mulle pisut liiga suur." },
-  "diag_315": { "de": "Ich kann ihn enger machen.", "lv": "Ma saan seda ahendada." },
-  "diag_316": { "de": "Dieser Ring passt mir.", "lv": "See sõrmus sobib mulle." },
-  "diag_317": { "de": "Zeigen Sie mir schöne Geschenkideen.", "lv": "Näidake mulle ilusaid kingitusideid." },
-  "diag_318": { "de": "Wie gefallen dir diese Ohrringe?", "lv": "Kuidas need kõrvarõngad sulle meeldivad?" },
-  "diag_319": { "de": "Diese Brosche ist wirklich schön.", "lv": "See pross on tõesti ilus." },
-  "diag_320": { "de": "Der Stein ist ein Saphir.", "lv": "See kivi on safiir." },
-  "diag_321": { "de": "Das ist kein echter Stein, das ist Glas.", "lv": "See ei ole ehtne kivi, see on klaas." },
-  "diag_322": { "de": "Dieses Armband kann ich Ihnen besonders empfehlen.", "lv": "Seda käevõru võin eriti soovitada." },
-  "diag_323": { "de": "Es ist besonders schön gearbeitet.", "lv": "See on eriti peenelt valmistatud." },
-  "diag_324": { "de": "Der Preis ist nicht hoch.", "lv": "Hind ei ole kõrge." },
-  "diag_325": { "de": "Bekomme ich die Schachtel gratis?", "lv": "Kas saan karbi tasuta?" },
-  "diag_326": { "de": "Alle Schmuckstücke sind gestempelt.", "lv": "Kõik ehted on templiga." },
-  "diag_327": { "de": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?", "lv": "Kui see mu naisele ei meeldi, kas saan seda vahetada?" },
-  "diag_328": { "de": "Natürlich, jederzeit.", "lv": "Muidugi, igal ajal." }
+  "diag_001": {
+    "de": "Gute Besserung!",
+    "lv": "Paranemist!"
+  },
+  "diag_002": {
+    "de": "Frohes neues Jahr!",
+    "lv": "Head uut aastat!"
+  },
+  "diag_003": {
+    "de": "Herzlichen Glückwunsch zum Geburtstag!",
+    "lv": "Palju õnne sünnipäevaks!"
+  },
+  "diag_004": {
+    "de": "Gute Reise!",
+    "lv": "Head reisi!"
+  },
+  "diag_005": {
+    "de": "Es freut mich, Sie kennenzulernen.",
+    "lv": "Mul on hea meel teiega tutvuda."
+  },
+  "diag_006": {
+    "de": "Wären Sie bitte so nett?",
+    "lv": "Kas te oleksite nii lahke?"
+  },
+  "diag_007": {
+    "de": "Ich bin Ihnen sehr dankbar.",
+    "lv": "Ma olen teile väga tänulik."
+  },
+  "diag_008": {
+    "de": "Keine Ursache!",
+    "lv": "Pole tänu väärt!"
+  },
+  "diag_009": {
+    "de": "Setzt euch bitte hin!",
+    "lv": "Istuge palun!"
+  },
+  "diag_010": {
+    "de": "Ben, komm bitte an die Tafel!",
+    "lv": "Ben, tule palun tahvli juurde!"
+  },
+  "diag_011": {
+    "de": "Schlagt bitte die Lehrbücher auf!",
+    "lv": "Avage palun õpikud!"
+  },
+  "diag_012": {
+    "de": "Geht bitte in die Sporthalle!",
+    "lv": "Minge palun spordisaali!"
+  },
+  "diag_013": {
+    "de": "Schläfst du noch?",
+    "lv": "Kas sa veel magad?"
+  },
+  "diag_014": {
+    "de": "Schlafen Sie noch?",
+    "lv": "Kas te veel magate?"
+  },
+  "diag_015": {
+    "de": "Er ist fest eingeschlafen.",
+    "lv": "Ta on sügavalt magama jäänud."
+  },
+  "diag_016": {
+    "de": "Wecke ihn bitte auf, es ist schon spät!",
+    "lv": "Palun ärata ta üles, on juba hilja!"
+  },
+  "diag_017": {
+    "de": "Guten Morgen!",
+    "lv": "Tere hommikust!"
+  },
+  "diag_018": {
+    "de": "Guten Tag!",
+    "lv": "Tere päevast!"
+  },
+  "diag_019": {
+    "de": "Gute Nacht!",
+    "lv": "Head ööd!"
+  },
+  "diag_020": {
+    "de": "Entschuldigen Sie bitte!",
+    "lv": "Vabandage palun!"
+  },
+  "diag_021": {
+    "de": "Es tut mir sehr leid!",
+    "lv": "Mul on väga kahju!"
+  },
+  "diag_022": {
+    "de": "Vielen Dank!",
+    "lv": "Suur tänu!"
+  },
+  "diag_023": {
+    "de": "Finn, fang bitte an!",
+    "lv": "Finn, alusta palun!"
+  },
+  "diag_024": {
+    "de": "Lest bitte mit!",
+    "lv": "Lugege palun kaasa!"
+  },
+  "diag_025": {
+    "de": "Emma, schau bitte nicht aus dem Fenster!",
+    "lv": "Emma, palun ära vaata aknast välja!"
+  },
+  "diag_026": {
+    "de": "Jonas, bring bitte die Hefte!",
+    "lv": "Jonas, too palun vihikud!"
+  },
+  "diag_027": {
+    "de": "Geh bitte zurück an deinen Platz!",
+    "lv": "Mine palun tagasi oma kohale!"
+  },
+  "diag_028": {
+    "de": "Wie viel Uhr ist es?",
+    "lv": "Mis kell on?"
+  },
+  "diag_029": {
+    "de": "Es ist halb acht.",
+    "lv": "Kell on pool kaheksa."
+  },
+  "diag_030": {
+    "de": "Wann wachst du gewöhnlich auf?",
+    "lv": "Millal sa tavaliselt ärkad?"
+  },
+  "diag_031": {
+    "de": "Ich stehe gleich auf.",
+    "lv": "Ma tõusen kohe üles."
+  },
+  "diag_032": {
+    "de": "Steh auf, Hanna, es klingelt!",
+    "lv": "Tõuse üles, Hanna, kell heliseb!"
+  },
+  "diag_033": {
+    "de": "Lass mich noch fünf Minuten schlafen!",
+    "lv": "Lase mul veel viis minutit magada!"
+  },
+  "diag_034": {
+    "de": "Vergiss nicht, das Zimmer zu lüften!",
+    "lv": "Ära unusta tuba tuulutada!"
+  },
+  "diag_035": {
+    "de": "Wo ist das Handtuch?",
+    "lv": "Kus on käterätik?"
+  },
+  "diag_036": {
+    "de": "Ich möchte mir die Zähne putzen.",
+    "lv": "Tahan hambaid pesta."
+  },
+  "diag_037": {
+    "de": "Mit was putzt du dir die Zähne?",
+    "lv": "Millega sa hambaid pesed?"
+  },
+  "diag_038": {
+    "de": "Ich möchte mich anziehen.",
+    "lv": "Tahan riidesse panna."
+  },
+  "diag_039": {
+    "de": "Zieh dich bitte schnell an!",
+    "lv": "Pane end kiiresti riidesse, palun!"
+  },
+  "diag_040": {
+    "de": "Kleide dich wärmer an, draußen ist es kühl.",
+    "lv": "Pane end soojemalt riidesse, väljas on jahe."
+  },
+  "diag_041": {
+    "de": "Guten Morgen, wie geht es dir?",
+    "lv": "Tere hommikust, kuidas sul läheb?"
+  },
+  "diag_042": {
+    "de": "Mir geht es gut, danke.",
+    "lv": "Mul läheb hästi, aitäh."
+  },
+  "diag_043": {
+    "de": "Was gibt es Neues?",
+    "lv": "Mis uut?"
+  },
+  "diag_044": {
+    "de": "Auf Wiedersehen!",
+    "lv": "Nägemiseni!"
+  },
+  "diag_045": {
+    "de": "Was für ein Chaos hier!",
+    "lv": "Milline segadus siin!"
+  },
+  "diag_046": {
+    "de": "Darf ich beim Aufräumen helfen?",
+    "lv": "Kas ma tohin koristamisel aidata?"
+  },
+  "diag_047": {
+    "de": "Was trinkst du morgens, Kaffee oder Tee?",
+    "lv": "Mida sa hommikuti jood, kohvi või teed?"
+  },
+  "diag_048": {
+    "de": "Gewöhnlich trinke ich morgens eine Tasse Kaffee.",
+    "lv": "Tavaliselt joon hommikuti tassi kohvi."
+  },
+  "diag_049": {
+    "de": "Am liebsten trinke ich schwarzen Kaffee.",
+    "lv": "Kõige rohkem meeldib mulle must kohv."
+  },
+  "diag_050": {
+    "de": "Guten Morgen, hast du gut geschlafen?",
+    "lv": "Tere hommikust, kas magasid hästi?"
+  },
+  "diag_051": {
+    "de": "Ich bin noch sehr müde.",
+    "lv": "Olen ikka veel väga väsinud."
+  },
+  "diag_052": {
+    "de": "Willst du Kaffee oder Milch?",
+    "lv": "Kas tahad kohvi või piima?"
+  },
+  "diag_053": {
+    "de": "Gib mir bitte ein Brötchen mit Käse.",
+    "lv": "Anna mulle palun sepikut juustuga."
+  },
+  "diag_054": {
+    "de": "Ich muss jetzt los!",
+    "lv": "Ma pean nüüd minema!"
+  },
+  "diag_055": {
+    "de": "Vergiss dein Frühstück nicht!",
+    "lv": "Ära unusta oma hommikusööki!"
+  },
+  "diag_056": {
+    "de": "Klara, deck bitte den Tisch!",
+    "lv": "Klara, palun kata laud!"
+  },
+  "diag_057": {
+    "de": "Vergiss die Servietten nicht!",
+    "lv": "Ära unusta salvrätte!"
+  },
+  "diag_058": {
+    "de": "Wann esst ihr zu Mittag?",
+    "lv": "Millal te lõunat sööte?"
+  },
+  "diag_059": {
+    "de": "Es ist Zeit zu essen.",
+    "lv": "On aeg süüa."
+  },
+  "diag_060": {
+    "de": "Was gibt es heute zu Mittag?",
+    "lv": "Mis on täna lõunaks?"
+  },
+  "diag_061": {
+    "de": "Wie schmeckt dir die Suppe?",
+    "lv": "Kuidas supp sulle maitseb?"
+  },
+  "diag_062": {
+    "de": "Ehrlich gesagt ist sie etwas zu salzig.",
+    "lv": "Ausalt öeldes on see pisut liiga soolane."
+  },
+  "diag_063": {
+    "de": "Darf ich dir ein Stück Brot geben?",
+    "lv": "Kas ma tohin sulle anda tüki leiba?"
+  },
+  "diag_064": {
+    "de": "Danke, ich habe schon.",
+    "lv": "Aitäh, mul on juba."
+  },
+  "diag_065": {
+    "de": "Das Fleisch schmeckt ausgezeichnet.",
+    "lv": "Liha maitseb suurepäraselt."
+  },
+  "diag_066": {
+    "de": "Danke, ich bin schon satt.",
+    "lv": "Aitäh, ma olen juba täis."
+  },
+  "diag_067": {
+    "de": "Heute haben wir Besuch.",
+    "lv": "Täna on meil külalisi."
+  },
+  "diag_068": {
+    "de": "Bist du heute Abend frei?",
+    "lv": "Kas sul on täna õhtul vaba aega?"
+  },
+  "diag_069": {
+    "de": "Komm doch heute zum Mittagessen vorbei!",
+    "lv": "Tule ometi täna lõunale külla!"
+  },
+  "diag_070": {
+    "de": "Setzen wir uns an den Tisch.",
+    "lv": "Istume laua taha."
+  },
+  "diag_071": {
+    "de": "Bitte, bedien dich!",
+    "lv": "Palun, võta ise!"
+  },
+  "diag_072": {
+    "de": "Stört dich das Rauchen?",
+    "lv": "Kas suitsetamine häirib sind?"
+  },
+  "diag_073": {
+    "de": "Danke für die nette Aufnahme!",
+    "lv": "Aitäh sooja vastuvõtu eest!"
+  },
+  "diag_074": {
+    "de": "Wann gehst du ins Bett?",
+    "lv": "Millal sa magama lähed?"
+  },
+  "diag_075": {
+    "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
+    "lv": "Kui ma tööl käin, olen alati väsinud."
+  },
+  "diag_076": {
+    "de": "Es ist Zeit, ins Bett zu gehen.",
+    "lv": "On aeg magama minna."
+  },
+  "diag_077": {
+    "de": "Es ist schönes Wetter.",
+    "lv": "Ilm on ilus."
+  },
+  "diag_078": {
+    "de": "Willst du mit mir spazieren gehen?",
+    "lv": "Kas tahad minuga jalutama minna?"
+  },
+  "diag_079": {
+    "de": "Sieh mal, es wird gleich regnen.",
+    "lv": "Vaata, kohe hakkab sadama."
+  },
+  "diag_080": {
+    "de": "Nimm den Regenschirm mit!",
+    "lv": "Võta vihmavari kaasa!"
+  },
+  "diag_081": {
+    "de": "Es regnet.",
+    "lv": "Sajab vihma."
+  },
+  "diag_082": {
+    "de": "Ich bin schon ganz nass.",
+    "lv": "Olen juba täiesti märg."
+  },
+  "diag_083": {
+    "de": "Glaubst du, dass es den ganzen Tag regnen wird?",
+    "lv": "Kas sa arvad, et sajab terve päeva?"
+  },
+  "diag_084": {
+    "de": "Es hört auf zu regnen.",
+    "lv": "Vihm hakkab lakkama."
+  },
+  "diag_085": {
+    "de": "Die Sonne scheint wieder.",
+    "lv": "Päike paistab jälle."
+  },
+  "diag_086": {
+    "de": "Es ist sehr warm.",
+    "lv": "On väga palav."
+  },
+  "diag_087": {
+    "de": "Es sieht nach Regen aus.",
+    "lv": "Näib, et hakkab sadama."
+  },
+  "diag_088": {
+    "de": "Wir bekommen gleich ein Gewitter.",
+    "lv": "Kohe tuleb äikesetorm."
+  },
+  "diag_089": {
+    "de": "Das Gewitter zieht vorüber.",
+    "lv": "Äikesetorm läheb üle."
+  },
+  "diag_090": {
+    "de": "Die Wolken verziehen sich.",
+    "lv": "Pilved hajuvad."
+  },
+  "diag_091": {
+    "de": "Siehst du den Regenbogen?",
+    "lv": "Näed sa vikerkaart?"
+  },
+  "diag_092": {
+    "de": "Der Winter ist da, es hat geschneit.",
+    "lv": "Talv on käes, öösel sadas lund."
+  },
+  "diag_093": {
+    "de": "Es schneit.",
+    "lv": "Sajab lund."
+  },
+  "diag_094": {
+    "de": "Wie schön ist es im Wald im Winter!",
+    "lv": "Kui ilus on talvel metsas!"
+  },
+  "diag_095": {
+    "de": "Mir ist kalt, ich friere.",
+    "lv": "Mul on külm, ma külmetan."
+  },
+  "diag_096": {
+    "de": "Draußen ist Glatteis, pass auf!",
+    "lv": "Väljas on libe, ole ettevaatlik!"
+  },
+  "diag_097": {
+    "de": "Wollen wir auf die Eisbahn gehen?",
+    "lv": "Kas läheme uisutama?"
+  },
+  "diag_098": {
+    "de": "Zieh die Jacke an, du kannst dich erkälten.",
+    "lv": "Pane jope selga, sa võid külmetuda."
+  },
+  "diag_099": {
+    "de": "Wie spät ist es?",
+    "lv": "Mis kell on?"
+  },
+  "diag_100": {
+    "de": "Es ist halb sieben.",
+    "lv": "Kell on pool seitse."
+  },
+  "diag_101": {
+    "de": "Meine Uhr geht fünf Minuten vor.",
+    "lv": "Minu kell käib viis minutit ees."
+  },
+  "diag_102": {
+    "de": "Weck mich morgen früh um sieben Uhr!",
+    "lv": "Ärata mind homme hommikul kell seitse!"
+  },
+  "diag_103": {
+    "de": "Was ist heute für ein Datum?",
+    "lv": "Mis kuupäev täna on?"
+  },
+  "diag_104": {
+    "de": "Heute ist der elfte Juli.",
+    "lv": "Täna on üheteistkümnes juuli."
+  },
+  "diag_105": {
+    "de": "Was machst du gewöhnlich am Abend?",
+    "lv": "Mida sa tavaliselt õhtuti teed?"
+  },
+  "diag_106": {
+    "de": "Es ist schon lange her, dass wir uns gesehen haben.",
+    "lv": "On juba ammu, kui me viimati kohtusime."
+  },
+  "diag_107": {
+    "de": "Wie geht es dir?",
+    "lv": "Kuidas sul läheb?"
+  },
+  "diag_108": {
+    "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
+    "lv": "Vabanda, tahan sinuga midagi arutada."
+  },
+  "diag_109": {
+    "de": "Gehen wir spazieren!",
+    "lv": "Läheme jalutama!"
+  },
+  "diag_110": {
+    "de": "Hast du Lust, mit mir in den Park zu gehen?",
+    "lv": "Kas tahad minuga parki minna?"
+  },
+  "diag_111": {
+    "de": "Ich komme, um dich zum Spaziergang abzuholen.",
+    "lv": "Ma tulin sind jalutuskäigule kaasa võtma."
+  },
+  "diag_112": {
+    "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
+    "lv": "Mine palun pisut aeglasemalt, ma ei jõua sulle järele!"
+  },
+  "diag_113": {
+    "de": "Ich bin zum ersten Mal in dieser Gegend.",
+    "lv": "Ma olen siin esimest korda."
+  },
+  "diag_114": {
+    "de": "Ruhen wir uns ein wenig aus.",
+    "lv": "Puhkame veidi."
+  },
+  "diag_115": {
+    "de": "Jetzt können wir zurückgehen.",
+    "lv": "Nüüd saame tagasi minna."
+  },
+  "diag_116": {
+    "de": "Ehrlich gesagt bin ich ziemlich müde.",
+    "lv": "Ausalt öeldes olen üsna väsinud."
+  },
+  "diag_117": {
+    "de": "Entschuldige, wo ist die nächste U-Bahn-Station?",
+    "lv": "Vabanda, kus on lähim metroojaam?"
+  },
+  "diag_118": {
+    "de": "Welcher ist der kürzeste Weg?",
+    "lv": "Milline on lühim tee?"
+  },
+  "diag_119": {
+    "de": "Geh hier die zweite Straße links und dann immer geradeaus.",
+    "lv": "Mine siit teisele tänavale vasakule ja siis otse edasi."
+  },
+  "diag_120": {
+    "de": "Wie komme ich am schnellsten zum Bahnhof?",
+    "lv": "Kuidas jõuan kiiremini jaama?"
+  },
+  "diag_121": {
+    "de": "Ich habe vor, morgen zu verreisen.",
+    "lv": "Kavatsen homme ära sõita."
+  },
+  "diag_122": {
+    "de": "Wohin willst du fahren?",
+    "lv": "Kuhu sa tahad sõita?"
+  },
+  "diag_123": {
+    "de": "Reist du geschäftlich oder privat?",
+    "lv": "Kas sa reisid töö- või erasõidul?"
+  },
+  "diag_124": {
+    "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
+    "lv": "Finn sõidab kaasa Berliinini, siis läheb ta mere äärde."
+  },
+  "diag_125": {
+    "de": "Wann fährt das Schiff ab?",
+    "lv": "Millal laev väljub?"
+  },
+  "diag_126": {
+    "de": "In einer halben Stunde.",
+    "lv": "Poole tunni pärast."
+  },
+  "diag_127": {
+    "de": "Kann ich noch eine Kabine bekommen?",
+    "lv": "Kas ma saan veel kajuti?"
+  },
+  "diag_128": {
+    "de": "Vergiss deinen Pass nicht!",
+    "lv": "Ära unusta oma passi!"
+  },
+  "diag_129": {
+    "de": "Es ist Zeit, den Koffer zu packen.",
+    "lv": "On aeg kohver pakkida."
+  },
+  "diag_130": {
+    "de": "Der Zug fährt um halb sieben ab.",
+    "lv": "Rong väljub pool seitse."
+  },
+  "diag_131": {
+    "de": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!",
+    "lv": "Too mulle palun takso, muidu jään rongist maha!"
+  },
+  "diag_132": {
+    "de": "Fahr bitte zum Bahnhof!",
+    "lv": "Sõida palun jaama!"
+  },
+  "diag_133": {
+    "de": "Ich muss mich beeilen.",
+    "lv": "Ma pean kiirustama."
+  },
+  "diag_134": {
+    "de": "Ist der Schalter schon offen?",
+    "lv": "Kas kassa on juba avatud?"
+  },
+  "diag_135": {
+    "de": "Eine Fahrkarte nach Köln, bitte.",
+    "lv": "Üks pilet Kölni, palun."
+  },
+  "diag_136": {
+    "de": "Wann fährt der Zug ab?",
+    "lv": "Millal rong väljub?"
+  },
+  "diag_137": {
+    "de": "Der Zug fährt gleich ab.",
+    "lv": "Rong väljub kohe."
+  },
+  "diag_138": {
+    "de": "Muss ich in Koblenz umsteigen?",
+    "lv": "Kas ma pean Koblenzis ümber istuma?"
+  },
+  "diag_139": {
+    "de": "Ja, dort musst du umsteigen.",
+    "lv": "Jah, seal pead ümber istuma."
+  },
+  "diag_140": {
+    "de": "Ist dieser Platz frei?",
+    "lv": "Kas see koht on vaba?"
+  },
+  "diag_141": {
+    "de": "Nein, hier sitzt niemand.",
+    "lv": "Ei, siin ei istu keegi."
+  },
+  "diag_142": {
+    "de": "Wo ist der Bahnsteigkartenautomat?",
+    "lv": "Kus on peroonipiletiautomaat?"
+  },
+  "diag_143": {
+    "de": "Stell mein Handgepäck ins Gepäcknetz.",
+    "lv": "Pane mu käsipagas pagasivõrku."
+  },
+  "diag_144": {
+    "de": "Kann ich das Fenster aufmachen?",
+    "lv": "Kas ma tohin akna avada?"
+  },
+  "diag_145": {
+    "de": "Es zieht, schließ bitte das Fenster!",
+    "lv": "Tõmbab, palun sulge aken!"
+  },
+  "diag_146": {
+    "de": "Welche ist die nächste Station?",
+    "lv": "Milline on järgmine peatus?"
+  },
+  "diag_147": {
+    "de": "Wie lange hält der Zug?",
+    "lv": "Kui kaua rong seisab?"
+  },
+  "diag_148": {
+    "de": "Wo muss ich umsteigen?",
+    "lv": "Kus ma pean ümber istuma?"
+  },
+  "diag_149": {
+    "de": "Der Zug hat Verspätung.",
+    "lv": "Rong hilineb."
+  },
+  "diag_150": {
+    "de": "Dieser Wagen ist für Nichtraucher.",
+    "lv": "See vagun on mittesuitsetajatele."
+  },
+  "diag_151": {
+    "de": "Wir fahren jetzt über die Grenze.",
+    "lv": "Sõidame nüüd üle piiri."
+  },
+  "diag_152": {
+    "de": "Hast du etwas zu verzollen?",
+    "lv": "Kas sul on midagi tollida?"
+  },
+  "diag_153": {
+    "de": "Wir sind in Berlin angekommen.",
+    "lv": "Oleme Berliini jõudnud."
+  },
+  "diag_154": {
+    "de": "Kannst du mir ein gutes Hotel empfehlen?",
+    "lv": "Kas sa saad soovitada head hotelli?"
+  },
+  "diag_155": {
+    "de": "Haben Sie freie Zimmer?",
+    "lv": "Kas teil on vabu tube?"
+  },
+  "diag_156": {
+    "de": "Ein Zimmer mit zwei Betten, bitte.",
+    "lv": "Üks tuba kahe voodiga, palun."
+  },
+  "diag_157": {
+    "de": "Was kostet das Zimmer pro Nacht?",
+    "lv": "Mis maksab tuba öö kohta?"
+  },
+  "diag_158": {
+    "de": "Morgen reise ich ab. Weck mich um sieben Uhr!",
+    "lv": "Homme sõidan ära. Ärata mind kell seitse!"
+  },
+  "diag_159": {
+    "de": "Die Rechnung, bitte!",
+    "lv": "Arve, palun!"
+  },
+  "diag_160": {
+    "de": "Wo ist die Stadtbibliothek?",
+    "lv": "Kus on linnaraamatukogu?"
+  },
+  "diag_161": {
+    "de": "Wann hat das Museum geöffnet?",
+    "lv": "Millal muuseum on avatud?"
+  },
+  "diag_162": {
+    "de": "Wollen wir ins Museum gehen?",
+    "lv": "Kas läheme muuseumisse?"
+  },
+  "diag_163": {
+    "de": "Fahren wir mit dem Bus oder der U-Bahn?",
+    "lv": "Sõidame bussi või metrooga?"
+  },
+  "diag_164": {
+    "de": "Wo ist die nächste Bushaltestelle?",
+    "lv": "Kus on lähim bussipeatus?"
+  },
+  "diag_165": {
+    "de": "Ich habe großen Hunger.",
+    "lv": "Mul on suur nälg."
+  },
+  "diag_166": {
+    "de": "Gehen wir zusammen essen?",
+    "lv": "Läheme koos sööma?"
+  },
+  "diag_167": {
+    "de": "Kellner, die Speisekarte, bitte!",
+    "lv": "Ettekandja, menüüd, palun!"
+  },
+  "diag_168": {
+    "de": "Ist der Fisch frisch?",
+    "lv": "Kas kala on värske?"
+  },
+  "diag_169": {
+    "de": "Das schmeckt ausgezeichnet!",
+    "lv": "See maitseb suurepäraselt!"
+  },
+  "diag_170": {
+    "de": "Kellner, zahlen bitte!",
+    "lv": "Ettekandja, arve palun!"
+  },
+  "diag_171": {
+    "de": "Was kostet das?",
+    "lv": "Mis see maksab?"
+  },
+  "diag_172": {
+    "de": "Ich gehe ins Café einen Kaffee trinken.",
+    "lv": "Lähen kohvikusse kohvi jooma."
+  },
+  "diag_173": {
+    "de": "Willst du mitkommen?",
+    "lv": "Kas sa tahad kaasa tulla?"
+  },
+  "diag_174": {
+    "de": "Eine Tasse Kaffee mit Milch, bitte!",
+    "lv": "Tass kohvi piimaga, palun!"
+  },
+  "diag_175": {
+    "de": "Bitte schneller, ich habe es eilig!",
+    "lv": "Kiiremini, palun, mul on kiire!"
+  },
+  "diag_176": {
+    "de": "Lass deinen Kaffee nicht kalt werden!",
+    "lv": "Ära lase oma kohvil külmaks minna!"
+  },
+  "diag_177": {
+    "de": "Haben Sie etwas Erfrischendes?",
+    "lv": "Kas teil on midagi karastavat?"
+  },
+  "diag_178": {
+    "de": "Eine Portion Eis, bitte!",
+    "lv": "Portsjon jäätist, palun!"
+  },
+  "diag_179": {
+    "de": "Heute Morgen habe ich einen Brief bekommen.",
+    "lv": "Täna hommikul sain kirja."
+  },
+  "diag_180": {
+    "de": "Ich muss ihm gleich schreiben.",
+    "lv": "Ma pean talle kohe kirjutama."
+  },
+  "diag_181": {
+    "de": "Wo ist der nächste Briefkasten?",
+    "lv": "Kus on lähim postkast?"
+  },
+  "diag_182": {
+    "de": "Wo ist die Post?",
+    "lv": "Kus on postkontor?"
+  },
+  "diag_183": {
+    "de": "Erinnere mich morgen daran zu schreiben!",
+    "lv": "Tuleta mulle homme meelde kirjutada!"
+  },
+  "diag_184": {
+    "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
+    "lv": "Palun visake see kiri postkasti."
+  },
+  "diag_185": {
+    "de": "Hallo, hier spricht Emma.",
+    "lv": "Tere, siin räägib Emma."
+  },
+  "diag_186": {
+    "de": "Kann ich dich später anrufen?",
+    "lv": "Kas ma tohin sulle hiljem helistada?"
+  },
+  "diag_187": {
+    "de": "Muss ich lange warten?",
+    "lv": "Kas ma pean kaua ootama?"
+  },
+  "diag_188": {
+    "de": "Bitte schneiden Sie mir die Haare.",
+    "lv": "Palun lõigake mul juuksed."
+  },
+  "diag_189": {
+    "de": "Hinten bitte nicht zu kurz.",
+    "lv": "Taga palun mitte liiga lühikeseks."
+  },
+  "diag_190": {
+    "de": "Wann beginnt die Vorstellung?",
+    "lv": "Millal etendus algab?"
+  },
+  "diag_191": {
+    "de": "Es fängt um halb acht an.",
+    "lv": "See algab pool kaheksa."
+  },
+  "diag_192": {
+    "de": "Alle Plätze sind ausverkauft.",
+    "lv": "Kõik kohad on välja müüdud."
+  },
+  "diag_193": {
+    "de": "Drei Karten, bitte!",
+    "lv": "Kolm piletit, palun!"
+  },
+  "diag_194": {
+    "de": "Wir lassen die Jacken in der Garderobe.",
+    "lv": "Jätame joped garderoobi."
+  },
+  "diag_195": {
+    "de": "Bitte schnell, der Vorhang geht gleich auf!",
+    "lv": "Kiiremini, palun, eesriie läheb kohe lahti!"
+  },
+  "diag_196": {
+    "de": "Der Vorhang fällt.",
+    "lv": "Eesriie langeb."
+  },
+  "diag_197": {
+    "de": "Darf ich dich zum Tanz bitten?",
+    "lv": "Kas ma tohin sind tantsule kutsuda?"
+  },
+  "diag_198": {
+    "de": "Wann ist eure Hochzeit?",
+    "lv": "Millal on teie pulmad?"
+  },
+  "diag_199": {
+    "de": "Ich suche eine Wohnung.",
+    "lv": "Otsin korterit."
+  },
+  "diag_200": {
+    "de": "Ist in diesem Haus eine Wohnung frei?",
+    "lv": "Kas selles majas on vaba korter?"
+  },
+  "diag_201": {
+    "de": "Wie viel kostet die Miete?",
+    "lv": "Kui palju maksab üür?"
+  },
+  "diag_202": {
+    "de": "Die Wohnung hat drei Zimmer und eine Küche.",
+    "lv": "Korteris on kolm tuba ja köök."
+  },
+  "diag_203": {
+    "de": "Heute ziehen wir um.",
+    "lv": "Täna kolime."
+  },
+  "diag_204": {
+    "de": "Mia, pack die Sachen bitte in Kisten!",
+    "lv": "Mia, pane palun asjad kastidesse!"
+  },
+  "diag_205": {
+    "de": "Hast du alles eingepackt?",
+    "lv": "Kas oled kõik pakkinud?"
+  },
+  "diag_206": {
+    "de": "Ich stehe mit meinem Freund in Kontakt.",
+    "lv": "Ma olen oma sõbraga kirjavahetuses."
+  },
+  "diag_207": {
+    "de": "Gehen wir ins Theater?",
+    "lv": "Kas läheme teatrisse?"
+  },
+  "diag_208": {
+    "de": "Ist alles eingeladen?",
+    "lv": "Kas kõik on peale laaditud?"
+  },
+  "diag_209": {
+    "de": "Welch schöne Aussicht!",
+    "lv": "Milline ilus vaade!"
+  },
+  "diag_210": {
+    "de": "Nun können wir alles wieder aufräumen.",
+    "lv": "Nüüd saame kõik jälle korrastada."
+  },
+  "diag_211": {
+    "de": "Wie viele Zimmer habt ihr?",
+    "lv": "Mitu tuba teil on?"
+  },
+  "diag_212": {
+    "de": "Im Sommer fahre ich ans Meer.",
+    "lv": "Suvel sõidan mere äärde."
+  },
+  "diag_213": {
+    "de": "Kannst du schwimmen?",
+    "lv": "Kas sa oskad ujuda?"
+  },
+  "diag_214": {
+    "de": "Schwimm nicht zu weit hinaus!",
+    "lv": "Ära uju liiga kaugele!"
+  },
+  "diag_215": {
+    "de": "Badest du jeden Tag?",
+    "lv": "Kas sa käid iga päev ujumas?"
+  },
+  "diag_216": {
+    "de": "Bei schönem Wetter gehe ich angeln.",
+    "lv": "Ilusa ilmaga käin kalastamas."
+  },
+  "diag_217": {
+    "de": "Wie sieht er aus?",
+    "lv": "Kuidas ta välja näeb?"
+  },
+  "diag_218": {
+    "de": "Er hat sich aber recht verändert.",
+    "lv": "Ta on siiski üsna muutunud."
+  },
+  "diag_219": {
+    "de": "Wie ist er als Mensch?",
+    "lv": "Milline ta on inimesena?"
+  },
+  "diag_220": {
+    "de": "Er ist immer nett und freundlich.",
+    "lv": "Ta on alati kena ja sõbralik."
+  },
+  "diag_221": {
+    "de": "Ich fühle mich nicht wohl.",
+    "lv": "Ma ei tunne end hästi."
+  },
+  "diag_222": {
+    "de": "Was fehlt dir?",
+    "lv": "Mis sul viga on?"
+  },
+  "diag_223": {
+    "de": "Ich habe starke Kopfschmerzen.",
+    "lv": "Mul on tugev peavalu."
+  },
+  "diag_224": {
+    "de": "Ich habe mich erkältet.",
+    "lv": "Olen külmetunud."
+  },
+  "diag_225": {
+    "de": "Ich habe Schnupfen.",
+    "lv": "Mul on nohu."
+  },
+  "diag_226": {
+    "de": "Mir ist schwindlig.",
+    "lv": "Mul on peapööritus."
+  },
+  "diag_227": {
+    "de": "Ich muss zum Arzt gehen.",
+    "lv": "Ma pean arsti juurde minema."
+  },
+  "diag_228": {
+    "de": "Leg dich ins Bett!",
+    "lv": "Heida voodisse!"
+  },
+  "diag_229": {
+    "de": "Hast du Fieber?",
+    "lv": "Kas sul on palavik?"
+  },
+  "diag_230": {
+    "de": "Gestern hatte ich erhöhte Temperatur.",
+    "lv": "Eile oli mul kõrgenenud temperatuur."
+  },
+  "diag_231": {
+    "de": "Ich habe Zahnschmerzen.",
+    "lv": "Mul valutab hammas."
+  },
+  "diag_232": {
+    "de": "Ich muss zum Zahnarzt gehen.",
+    "lv": "Ma pean hambaarsti juurde minema."
+  },
+  "diag_233": {
+    "de": "Weißt du, dass Finn krank ist?",
+    "lv": "Kas tead, et Finn on haige?"
+  },
+  "diag_234": {
+    "de": "Laut Arzt wird er bald wieder gesund.",
+    "lv": "Arsti sõnul saab ta peagi jälle terveks."
+  },
+  "diag_235": {
+    "de": "Ich will meine Wohnung neu möblieren.",
+    "lv": "Tahan oma korterit uuesti sisustada."
+  },
+  "diag_236": {
+    "de": "Kann ich das auf Raten kaufen?",
+    "lv": "Kas ma saan seda järelmaksuga osta?"
+  },
+  "diag_237": {
+    "de": "Bleib im Bett, bis es dir besser geht!",
+    "lv": "Jää voodisse, kuni tunned end paremini!"
+  },
+  "diag_238": {
+    "de": "Noah hat in zwei Wochen schwimmen gelernt.",
+    "lv": "Noah õppis kahe nädalaga ujuma."
+  },
+  "diag_239": {
+    "de": "Sei mit dem Essen noch vorsichtig.",
+    "lv": "Ole toiduga ikka veel ettevaatlik."
+  },
+  "diag_240": {
+    "de": "Sprichst du Deutsch?",
+    "lv": "Kas sa räägid saksa keelt?"
+  },
+  "diag_241": {
+    "de": "Ja, ein bisschen.",
+    "lv": "Jah, natuke."
+  },
+  "diag_242": {
+    "de": "Du sprichst ziemlich fließend.",
+    "lv": "Sa räägid üsna ladusalt."
+  },
+  "diag_243": {
+    "de": "Wo hast du Deutsch gelernt?",
+    "lv": "Kus sa saksa keelt õppisid?"
+  },
+  "diag_244": {
+    "de": "Ich nehme seit einem Jahr Deutschstunden.",
+    "lv": "Ma käin juba aasta aega saksa keele tundides."
+  },
+  "diag_245": {
+    "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
+    "lv": "Otsin alati võimalust saksa keelt rääkida."
+  },
+  "diag_246": {
+    "de": "Ist das Buch noch vorrätig?",
+    "lv": "Kas see raamat on veel saadaval?"
+  },
+  "diag_247": {
+    "de": "Das Buch ist leider ausverkauft.",
+    "lv": "Raamat on kahjuks otsas."
+  },
+  "diag_248": {
+    "de": "Wann erscheint die neue Auflage?",
+    "lv": "Millal ilmub uus trükk?"
+  },
+  "diag_249": {
+    "de": "Womit kann ich Ihnen helfen?",
+    "lv": "Millega saan teid aidata?"
+  },
+  "diag_250": {
+    "de": "Haben Sie ganz frische Eier?",
+    "lv": "Kas teil on täiesti värskeid mune?"
+  },
+  "diag_251": {
+    "de": "Was kosten die?",
+    "lv": "Mis need maksavad?"
+  },
+  "diag_252": {
+    "de": "Das ist zu teuer.",
+    "lv": "See on liiga kallis."
+  },
+  "diag_253": {
+    "de": "Können Sie mir ein halbes Kilo abwiegen?",
+    "lv": "Kas te saate mulle pool kilo kaaluda?"
+  },
+  "diag_254": {
+    "de": "Wie viel muss ich zahlen?",
+    "lv": "Kui palju ma pean maksma?"
+  },
+  "diag_255": {
+    "de": "Wie viel kostet das Kilo?",
+    "lv": "Kui palju maksab kilogramm?"
+  },
+  "diag_256": {
+    "de": "Wiegen Sie mir bitte zwei Kilo ab.",
+    "lv": "Kaaluge mulle palun kaks kilogrammi."
+  },
+  "diag_257": {
+    "de": "Haben Sie auch Karotten?",
+    "lv": "Kas teil on ka porgandeid?"
+  },
+  "diag_258": {
+    "de": "Haben Sie gutes Rindfleisch?",
+    "lv": "Kas teil on head veiseliha?"
+  },
+  "diag_259": {
+    "de": "Geben Sie mir zwei Kilo Hackfleisch.",
+    "lv": "Andke mulle kaks kilogrammi hakkliha."
+  },
+  "diag_260": {
+    "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
+    "lv": "Üks leivapätsi, palun, aga mitte liiga kõva."
+  },
+  "diag_261": {
+    "de": "Das Brot ist frisch gebacken.",
+    "lv": "Leib on värskelt küpsetatud."
+  },
+  "diag_262": {
+    "de": "Was für Obst haben Sie heute?",
+    "lv": "Mis puuvilju teil täna on?"
+  },
+  "diag_263": {
+    "de": "Was kosten die Äpfel?",
+    "lv": "Mis õunad maksavad?"
+  },
+  "diag_264": {
+    "de": "Dann nehme ich zwei Kilo Äpfel.",
+    "lv": "Siis võtan kaks kilogrammi õunu."
+  },
+  "diag_265": {
+    "de": "Die Birnen sind sehr teuer.",
+    "lv": "Pirnid on väga kallid."
+  },
+  "diag_266": {
+    "de": "Können Sie mir alles nach Hause liefern?",
+    "lv": "Kas saate kõik mulle koju toimetada?"
+  },
+  "diag_267": {
+    "de": "Haben Sie Reis?",
+    "lv": "Kas teil on riisi?"
+  },
+  "diag_268": {
+    "de": "Geben Sie mir bitte ein Kilo Reis.",
+    "lv": "Andke mulle palun kilogramm riisi."
+  },
+  "diag_269": {
+    "de": "Danke, diesmal nicht.",
+    "lv": "Aitäh, seekord mitte."
+  },
+  "diag_270": {
+    "de": "Wie viel kostet dieser Teppich?",
+    "lv": "Kui palju see vaip maksab?"
+  },
+  "diag_271": {
+    "de": "Können Sie die Möbel in meine Wohnung liefern?",
+    "lv": "Kas saate toimetada mööbli mu korterisse?"
+  },
+  "diag_272": {
+    "de": "Bitte an der Kasse zahlen.",
+    "lv": "Palun maksa kassas."
+  },
+  "diag_273": {
+    "de": "Bitte, machen Sie die Rechnung.",
+    "lv": "Palun kirjutage arve."
+  },
+  "diag_274": {
+    "de": "Was kostet das Meter?",
+    "lv": "Mis maksab meeter?"
+  },
+  "diag_275": {
+    "de": "Dieser Stoff gefällt mir.",
+    "lv": "See kangas meeldib mulle."
+  },
+  "diag_276": {
+    "de": "Schneiden Sie mir bitte drei Meter ab.",
+    "lv": "Lõigake mulle palun kolm meetrit."
+  },
+  "diag_277": {
+    "de": "Haben Sie auch andere Muster?",
+    "lv": "Kas teil on ka teisi mustreid?"
+  },
+  "diag_278": {
+    "de": "Diese Farbe gefällt mir nicht.",
+    "lv": "See värv ei meeldi mulle."
+  },
+  "diag_279": {
+    "de": "Geben Sie mir eine hellere.",
+    "lv": "Andke mulle heledam."
+  },
+  "diag_280": {
+    "de": "Was kosten diese Socken?",
+    "lv": "Mis need sokid maksavad?"
+  },
+  "diag_281": {
+    "de": "Welche Handschuhe wünschen Sie?",
+    "lv": "Milliseid kindaid te soovite?"
+  },
+  "diag_282": {
+    "de": "Die sind mir etwas zu eng.",
+    "lv": "Need on mulle pisut liiga kitsad."
+  },
+  "diag_283": {
+    "de": "So, nun passen sie gut.",
+    "lv": "Nii, nüüd sobivad hästi."
+  },
+  "diag_284": {
+    "de": "Kannst du mir einen guten Schneider empfehlen?",
+    "lv": "Kas sa saad soovitada head rätsepat?"
+  },
+  "diag_285": {
+    "de": "Ich will einen Anzug bestellen.",
+    "lv": "Tahan tellida ülikonna."
+  },
+  "diag_286": {
+    "de": "Wann wird er fertig sein?",
+    "lv": "Millal see valmis saab?"
+  },
+  "diag_287": {
+    "de": "Der Anzug sitzt gut.",
+    "lv": "Ülikond istub hästi."
+  },
+  "diag_288": {
+    "de": "Die Hose ist zu lang.",
+    "lv": "Püksid on liiga pikad."
+  },
+  "diag_289": {
+    "de": "Bitte reinigen und bügeln Sie ihn!",
+    "lv": "Palun puhastage ja triikige see!"
+  },
+  "diag_290": {
+    "de": "Wann wird das Kleid fertig sein?",
+    "lv": "Millal kleit valmis saab?"
+  },
+  "diag_291": {
+    "de": "Die Schuhe sind zu eng.",
+    "lv": "Kingad on liiga kitsad."
+  },
+  "diag_292": {
+    "de": "Können Sie die Schuhe heute reparieren?",
+    "lv": "Kas saate kingad täna parandada?"
+  },
+  "diag_293": {
+    "de": "Wann kann ich die Schuhe abholen?",
+    "lv": "Millal saan kingad kätte?"
+  },
+  "diag_294": {
+    "de": "Meine Armbanduhr funktioniert nicht.",
+    "lv": "Minu käekell ei tööta."
+  },
+  "diag_295": {
+    "de": "Sie geht fünf Minuten vor.",
+    "lv": "See käib viis minutit ees."
+  },
+  "diag_296": {
+    "de": "Bist du kurzsichtig oder weitsichtig?",
+    "lv": "Kas sa oled lühinägelik või kaugelenägelik?"
+  },
+  "diag_297": {
+    "de": "Ich möchte eine Brille kaufen.",
+    "lv": "Tahan osta prille."
+  },
+  "diag_298": {
+    "de": "Können Sie meine Brille reparieren?",
+    "lv": "Kas saate mu prillid parandada?"
+  },
+  "diag_299": {
+    "de": "Das dauert nur eine Viertelstunde.",
+    "lv": "See võtab ainult veerand tundi."
+  },
+  "diag_300": {
+    "de": "Der Preis ist mir zu hoch.",
+    "lv": "Hind on mulle liiga kõrge."
+  },
+  "diag_301": {
+    "de": "Ich brauche zwei Fotos für meinen Pass.",
+    "lv": "Vajan kaks fotot oma passi jaoks."
+  },
+  "diag_302": {
+    "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
+    "lv": "Palun pakkige see ja saatke mulle koju."
+  },
+  "diag_303": {
+    "de": "Wir haben feste Preise.",
+    "lv": "Meil on fikseeritud hinnad."
+  },
+  "diag_304": {
+    "de": "Bitte, fotografieren Sie mich.",
+    "lv": "Palun pildistage mind."
+  },
+  "diag_305": {
+    "de": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!",
+    "lv": "Istuge, vaadake otse kaamerasse ja ärge liikuge!"
+  },
+  "diag_306": {
+    "de": "Wann kann ich das Probebild sehen?",
+    "lv": "Millal saan näidispilti näha?"
+  },
+  "diag_307": {
+    "de": "Wann sind die Fotos fertig?",
+    "lv": "Millal fotod valmis saavad?"
+  },
+  "diag_308": {
+    "de": "Die Aufnahme ist gelungen.",
+    "lv": "Foto õnnestus."
+  },
+  "diag_309": {
+    "de": "Die Fotos sind gut geworden.",
+    "lv": "Fotod tulid hästi välja."
+  },
+  "diag_310": {
+    "de": "Können Sie das Foto auch vergrößern?",
+    "lv": "Kas saate fotot ka suurendada?"
+  },
+  "diag_311": {
+    "de": "Sind diese Steine echt?",
+    "lv": "Kas need kivid on ehtsad?"
+  },
+  "diag_312": {
+    "de": "Ist das echtes Gold?",
+    "lv": "Kas see on ehtne kuld?"
+  },
+  "diag_313": {
+    "de": "Zeigen Sie mir bitte Trauringe.",
+    "lv": "Näidake mulle palun abielusõrmuseid."
+  },
+  "diag_314": {
+    "de": "Der Ring ist mir etwas zu weit.",
+    "lv": "Sõrmus on mulle pisut liiga suur."
+  },
+  "diag_315": {
+    "de": "Ich kann ihn enger machen.",
+    "lv": "Ma saan seda ahendada."
+  },
+  "diag_316": {
+    "de": "Dieser Ring passt mir.",
+    "lv": "See sõrmus sobib mulle."
+  },
+  "diag_317": {
+    "de": "Zeigen Sie mir schöne Geschenkideen.",
+    "lv": "Näidake mulle ilusaid kingitusideid."
+  },
+  "diag_318": {
+    "de": "Wie gefallen dir diese Ohrringe?",
+    "lv": "Kuidas need kõrvarõngad sulle meeldivad?"
+  },
+  "diag_319": {
+    "de": "Diese Brosche ist wirklich schön.",
+    "lv": "See pross on tõesti ilus."
+  },
+  "diag_320": {
+    "de": "Der Stein ist ein Saphir.",
+    "lv": "See kivi on safiir."
+  },
+  "diag_321": {
+    "de": "Das ist kein echter Stein, das ist Glas.",
+    "lv": "See ei ole ehtne kivi, see on klaas."
+  },
+  "diag_322": {
+    "de": "Dieses Armband kann ich Ihnen besonders empfehlen.",
+    "lv": "Seda käevõru võin eriti soovitada."
+  },
+  "diag_323": {
+    "de": "Es ist besonders schön gearbeitet.",
+    "lv": "See on eriti peenelt valmistatud."
+  },
+  "diag_324": {
+    "de": "Der Preis ist nicht hoch.",
+    "lv": "Hind ei ole kõrge."
+  },
+  "diag_325": {
+    "de": "Bekomme ich die Schachtel gratis?",
+    "lv": "Kas saan karbi tasuta?"
+  },
+  "diag_326": {
+    "de": "Alle Schmuckstücke sind gestempelt.",
+    "lv": "Kõik ehted on templiga."
+  },
+  "diag_327": {
+    "de": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?",
+    "lv": "Kui see mu naisele ei meeldi, kas saan seda vahetada?"
+  },
+  "diag_328": {
+    "de": "Natürlich, jederzeit.",
+    "lv": "Muidugi, igal ajal."
+  }
 };
 
 window.DIALOGUE_ID_MAP = DIALOGUE_ID_MAP;

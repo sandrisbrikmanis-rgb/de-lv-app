@@ -142,17 +142,17 @@ const B1_WORDS = [
         {
           "word": "anbauen",
           "meaning": "Grow / add",
-          "example": "Wir bauen Gemüse an. = We grow vegetables."
+          "example": "Wir bauen Gemüse an. = Mēs audzējam dārzeņus."
         },
         {
           "word": "bauen",
           "meaning": "To build",
-          "example": "Sie bauen ein Haus. = They are building a house."
+          "example": "Sie bauen ein Haus. = Viņi būvē māju."
         },
         {
           "word": "pflanzen",
           "meaning": "To plant",
-          "example": "Ich pflanze einen Baum. = I plant a tree."
+          "example": "Ich pflanze einen Baum. = Es stādu koku."
         }
       ],
       "tip": {
@@ -320,17 +320,17 @@ const B1_WORDS = [
         {
           "word": "angeben",
           "meaning": "Point out / boast",
-          "example": "Bitte geben Sie den Namen an. = Please enter a name."
+          "example": "Bitte geben Sie den Namen an. = Lūdzu, norādiet vārdu."
         },
         {
           "word": "nennen",
           "meaning": "To name",
-          "example": "Nennen Sie bitte Ihren Namen. = Please state your name."
+          "example": "Nennen Sie bitte Ihren Namen. = Lūdzu, nosauciet savu vārdu."
         },
         {
           "word": "prahlen",
           "meaning": "To brag",
-          "example": "Er prahlt mit seinem Erfolg. = He bragged about his success."
+          "example": "Er prahlt mit seinem Erfolg. = Viņš lielās ar saviem panākumiem."
         }
       ],
       "tip": {
@@ -536,17 +536,17 @@ const B1_WORDS = [
         {
           "word": "anbringen",
           "meaning": "To attach",
-          "example": "Ich bringe ein Bild an. = I am attaching a picture."
+          "example": "Ich bringe ein Bild an. = Es piestiprinu attēlu."
         },
         {
           "word": "aufstellen",
           "meaning": "To install",
-          "example": "Wir stellen ein Regal auf. = We install a shelf."
+          "example": "Wir stellen ein Regal auf. = Mēs uzstādām plauktu."
         },
         {
           "word": "befestigen",
           "meaning": "To attach",
-          "example": "Wir befestigen das Schild an der Wand. = We attach the sign to the wall."
+          "example": "Wir befestigen das Schild an der Wand. = Mēs piestiprinām zīmi pie sienas."
         }
       ],
       "tip": {
@@ -733,17 +733,17 @@ const B1_WORDS = [
         {
           "word": "abbauen",
           "meaning": "Reduce / demolish",
-          "example": "Die Firma baut Stellen ab. = The company is reducing the number of jobs."
+          "example": "Die Firma baut Stellen ab. = Uzņēmums samazina darba vietu skaitu."
         },
         {
           "word": "aufbauen",
           "meaning": "Build / create",
-          "example": "Wir bauen das Zelt auf. = We put up a tent."
+          "example": "Wir bauen das Zelt auf. = Mēs uzceļam telti."
         },
         {
           "word": "reduzieren",
           "meaning": "Reduce",
-          "example": "Wir reduzieren die Kosten. = We cut costs."
+          "example": "Wir reduzieren die Kosten. = Mēs samazinām izmaksas."
         }
       ],
       "tip": {
@@ -912,17 +912,17 @@ const B1_WORDS = [
         {
           "word": "abbrechen",
           "meaning": "Break off / break off",
-          "example": "Er bricht den Kurs ab. = He breaks the course."
+          "example": "Er bricht den Kurs ab. = Viņš pārtrauc kursu."
         },
         {
           "word": "unterbrechen",
           "meaning": "Stop for a moment",
-          "example": "Darf ich Sie kurz unterbrechen? = May I interrupt you briefly?"
+          "example": "Darf ich Sie kurz unterbrechen? = Vai drīkstu jūs īsi pārtraukt?"
         },
         {
           "word": "beenden",
           "meaning": "Finish",
-          "example": "Wir beenden die Arbeit. = We finish the job."
+          "example": "Wir beenden die Arbeit. = Mēs pabeidzam darbu."
         }
       ],
       "tip": {
@@ -1072,17 +1072,17 @@ const B1_WORDS = [
         {
           "word": "abdecken",
           "meaning": "Cover / clear the table",
-          "example": "Sie deckt den Tisch ab. = She clears the table."
+          "example": "Sie deckt den Tisch ab. = Viņa novāc galdu."
         },
         {
           "word": "decken",
           "meaning": "Set the table / cover",
-          "example": "Ich decke den Tisch. = I set the table."
+          "example": "Ich decke den Tisch. = Es klāju galdu."
         },
         {
           "word": "zudecken",
           "meaning": "To cover",
-          "example": "Ich decke das Kind zu. = I covered the baby."
+          "example": "Ich decke das Kind zu. = Es apsedzu bērnu."
         }
       ],
       "tip": {
@@ -1269,17 +1269,17 @@ const B1_WORDS = [
         {
           "word": "abgehen",
           "meaning": "Leave / leave",
-          "example": "Der Zug geht ab. = The train leaves."
+          "example": "Der Zug geht ab. = Vilciens atiet."
         },
         {
           "word": "weggehen",
           "meaning": "Go away",
-          "example": "Sie geht weg. = She walks away."
+          "example": "Sie geht weg. = Viņa aiziet prom."
         },
         {
           "word": "fehlen",
           "meaning": "Missing",
-          "example": "Mir fehlt nichts. = I don't lack anything."
+          "example": "Mir fehlt nichts. = Man nekā netrūkst."
         }
       ],
       "tip": {
@@ -1604,17 +1604,17 @@ const B1_WORDS = [
         {
           "word": "ablegen",
           "meaning": "Put down or take an exam / lay down",
-          "example": "Sie legt die Prüfung ab. = She is taking an exam."
+          "example": "Sie legt die Prüfung ab. = Viņa kārto eksāmenu."
         },
         {
           "word": "legen",
           "meaning": "To lay down",
-          "example": "Ich lege das Buch auf den Tisch. = I put the book on the table."
+          "example": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
         },
         {
           "word": "ausziehen",
           "meaning": "To take off",
-          "example": "Ich ziehe die Jacke aus. = I take off my jacket."
+          "example": "Ich ziehe die Jacke aus. = Es novelku jaku."
         }
       ],
       "tip": {
@@ -1797,17 +1797,17 @@ const B1_WORDS = [
         {
           "word": "abnehmen",
           "meaning": "Remove / thin",
-          "example": "Ich nehme die Brille ab. = I take off my glasses."
+          "example": "Ich nehme die Brille ab. = Es noņemu brilles."
         },
         {
           "word": "zunehmen",
           "meaning": "Gain weight",
-          "example": "Er hat zugenommen. = He has gained weight."
+          "example": "Er hat zugenommen. = Viņš ir pieņēmies svarā."
         },
         {
           "word": "wegnehmen",
           "meaning": "Take away / take away",
-          "example": "Sie nimmt mir das Handy weg. = She takes my phone away."
+          "example": "Sie nimmt mir das Handy weg. = Viņa man atņem telefonu."
         }
       ],
       "tip": {
@@ -1973,17 +1973,17 @@ const B1_WORDS = [
         {
           "word": "der Absatz",
           "meaning": "Paragraph / shoe heel / sales volume",
-          "example": "Der Absatz ist kurz. = The paragraph is short."
+          "example": "Der Absatz ist kurz. = Rindkopa ir īsa."
         },
         {
           "word": "die Ferse",
           "meaning": "Human heel",
-          "example": "Meine Ferse tut weh. = My heel hurts."
+          "example": "Meine Ferse tut weh. = Man sāp papēdis."
         },
         {
           "word": "der Abschnitt",
           "meaning": "A period of text or time",
-          "example": "Dieser Abschnitt ist wichtig. = This stage is important."
+          "example": "Dieser Abschnitt ist wichtig. = Šis posms ir svarīgs."
         }
       ],
       "tip": {
@@ -2152,17 +2152,17 @@ const B1_WORDS = [
         {
           "word": "der Abschluss",
           "meaning": "Conclusion / conclusion of education",
-          "example": "Der Abschluss ist wichtig. = The conclusion is important."
+          "example": "Der Abschluss ist wichtig. = Noslēgums ir svarīgs."
         },
         {
           "word": "das Ende",
           "meaning": "The end",
-          "example": "Das Ende des Films war traurig. = The ending of the movie was sad."
+          "example": "Das Ende des Films war traurig. = Filmas beigas bija skumjas."
         },
         {
           "word": "die Prüfung",
           "meaning": "Exam",
-          "example": "Die Prüfung beginnt morgen. = The exam starts tomorrow."
+          "example": "Die Prüfung beginnt morgen. = Eksāmens sākas rīt."
         }
       ],
       "tip": {
@@ -2308,17 +2308,17 @@ const B1_WORDS = [
         {
           "word": "der Abschnitt",
           "meaning": "Stage / part",
-          "example": "Dieser Abschnitt ist wichtig. = This stage is important."
+          "example": "Dieser Abschnitt ist wichtig. = Šis posms ir svarīgs."
         },
         {
           "word": "der Absatz",
           "meaning": "Paragraph",
-          "example": "Der Absatz ist kurz. = The paragraph is short."
+          "example": "Der Absatz ist kurz. = Rindkopa ir īsa."
         },
         {
           "word": "die Phase",
           "meaning": "Phase",
-          "example": "Die erste Phase ist vorbei. = The first phase is over."
+          "example": "Die erste Phase ist vorbei. = Pirmā fāze ir beigusies."
         }
       ],
       "tip": {
@@ -2821,17 +2821,17 @@ const B1_WORDS = [
         {
           "word": "die Anlage",
           "meaning": "Facility / investment",
-          "example": "Die Anlage ist modern. = The equipment is modern."
+          "example": "Die Anlage ist modern. = Iekārta ir moderna."
         },
         {
           "word": "das Gerät",
           "meaning": "Device",
-          "example": "Das Gerät ist kaputt. = The device is broken."
+          "example": "Das Gerät ist kaputt. = Ierīce ir sabojājusies."
         },
         {
           "word": "die Investition",
           "meaning": "Investment",
-          "example": "Die Investition lohnt sich. = The investment pays off."
+          "example": "Die Investition lohnt sich. = Ieguldījums atmaksājas."
         }
       ],
       "tip": {
@@ -3202,17 +3202,17 @@ const B1_WORDS = [
         {
           "word": "der Anschlag",
           "meaning": "Assassination / announcement",
-          "example": "Die Polizei untersucht den Anschlag. = The police are investigating the assassination."
+          "example": "Die Polizei untersucht den Anschlag. = Policija izmeklē atentātu."
         },
         {
           "word": "der Angriff",
           "meaning": "Attack",
-          "example": "Der Angriff kam plötzlich. = The attack began suddenly."
+          "example": "Der Angriff kam plötzlich. = Uzbrukums sākās pēkšņi."
         },
         {
           "word": "die Anzeige",
           "meaning": "Advertisement / application",
-          "example": "Ich lese die Anzeige. = I read the ad."
+          "example": "Ich lese die Anzeige. = Es lasu sludinājumu."
         }
       ],
       "tip": {
@@ -3360,17 +3360,17 @@ const B1_WORDS = [
         {
           "word": "der Anschluss",
           "meaning": "Connection / connection",
-          "example": "Der Anschluss ist schlecht. = The connection is bad."
+          "example": "Der Anschluss ist schlecht. = Savienojums ir slikts."
         },
         {
           "word": "die Verbindung",
           "meaning": "Connection",
-          "example": "Die Verbindung ist stabil. = The connection is stable."
+          "example": "Die Verbindung ist stabil. = Savienojums ir stabils."
         },
         {
           "word": "der Zugang",
           "meaning": "Access",
-          "example": "Ich habe Zugang zum Internet. = I have internet access."
+          "example": "Ich habe Zugang zum Internet. = Man ir piekļuve internetam."
         }
       ],
       "tip": {
@@ -3528,17 +3528,17 @@ const B1_WORDS = [
         {
           "word": "das Ansehen",
           "meaning": "Reputation",
-          "example": "Er hat großes Ansehen. = He is highly respected."
+          "example": "Er hat großes Ansehen. = Viņu ļoti ciena."
         },
         {
           "word": "der Ruf",
           "meaning": "Fame / reputation",
-          "example": "Die Firma hat einen guten Ruf. = The company has a good reputation."
+          "example": "Die Firma hat einen guten Ruf. = Uzņēmumam ir laba reputācija."
         },
         {
           "word": "ansehen",
           "meaning": "Watch",
-          "example": "Ich sehe mir den Film an. = I'm watching a movie."
+          "example": "Ich sehe mir den Film an. = Es skatos filmu."
         }
       ],
       "tip": {
@@ -3765,17 +3765,17 @@ const B1_WORDS = [
         {
           "word": "der Antrag",
           "meaning": "Application / proposal",
-          "example": "Der Antrag wurde angenommen. = The submission was accepted."
+          "example": "Der Antrag wurde angenommen. = Iesniegums tika pieņemts."
         },
         {
           "word": "die Bewerbung",
           "meaning": "Job application",
-          "example": "Meine Bewerbung war erfolgreich. = My job application was successful."
+          "example": "Meine Bewerbung war erfolgreich. = Mans darba pieteikums bija veiksmīgs."
         },
         {
           "word": "das Formular",
           "meaning": "Form",
-          "example": "Füllen Sie das Formular aus. = Fill out the form."
+          "example": "Füllen Sie das Formular aus. = Aizpildiet veidlapu."
         }
       ],
       "tip": {
@@ -4138,17 +4138,17 @@ const B1_WORDS = [
         {
           "word": "der Auftrag",
           "meaning": "Task / order",
-          "example": "Ich erledige den Auftrag. = I complete the task."
+          "example": "Ich erledige den Auftrag. = Es izpildu uzdevumu."
         },
         {
           "word": "die Aufgabe",
           "meaning": "Task",
-          "example": "Die Aufgabe ist schwer. = The task is difficult."
+          "example": "Die Aufgabe ist schwer. = Uzdevums ir grūts."
         },
         {
           "word": "die Bestellung",
           "meaning": "Order",
-          "example": "Die Bestellung kommt morgen. = The order will arrive tomorrow."
+          "example": "Die Bestellung kommt morgen. = Pasūtījums atnāks rīt."
         }
       ],
       "tip": {
@@ -4295,17 +4295,17 @@ const B1_WORDS = [
         {
           "word": "der Aufwand",
           "meaning": "Effort / contribution",
-          "example": "Der Aufwand ist hoch. = The effort is great."
+          "example": "Der Aufwand ist hoch. = Pūles ir lielas."
         },
         {
           "word": "die Mühe",
           "meaning": "Effort",
-          "example": "Danke für deine Mühe. = Thanks for your efforts."
+          "example": "Danke für deine Mühe. = Paldies par tavām pūlēm."
         },
         {
           "word": "die Kosten",
           "meaning": "Costs",
-          "example": "Die Kosten sind hoch. = The costs are high."
+          "example": "Die Kosten sind hoch. = Izmaksas ir augstas."
         }
       ],
       "tip": {
@@ -4466,17 +4466,17 @@ const B1_WORDS = [
         {
           "word": "aufführen",
           "meaning": "To show / indicate",
-          "example": "Das Theater führt ein Stück auf. = The theatre performs a play."
+          "example": "Das Theater führt ein Stück auf. = Teātris uzved lugu."
         },
         {
           "word": "vorführen",
           "meaning": "Demonstrate",
-          "example": "Er führt das Gerät vor. = He demonstrates the device."
+          "example": "Er führt das Gerät vor. = Viņš demonstrē ierīci."
         },
         {
           "word": "nennen",
           "meaning": "To name",
-          "example": "Nennen Sie bitte Ihren Namen. = Please state your name."
+          "example": "Nennen Sie bitte Ihren Namen. = Lūdzu, nosauciet savu vārdu."
         }
       ],
       "tip": {
@@ -4633,17 +4633,17 @@ const B1_WORDS = [
         {
           "word": "sich aufhalten",
           "meaning": "To stay",
-          "example": "Ich halte mich im Hotel auf. = I am staying in a hotel."
+          "example": "Ich halte mich im Hotel auf. = Es uzturos viesnīcā."
         },
         {
           "word": "bleiben",
           "meaning": "Stay",
-          "example": "Ich bleibe zu Hause. = I stay at home."
+          "example": "Ich bleibe zu Hause. = Es palieku mājās."
         },
         {
           "word": "aufhalten",
           "meaning": "Delay",
-          "example": "Der Stau hält uns auf. = Traffic is holding us back."
+          "example": "Der Stau hält uns auf. = Sastrēgums mūs aizkavē."
         }
       ],
       "tip": {
@@ -4858,17 +4858,17 @@ const B1_WORDS = [
         {
           "word": "die Aussicht",
           "meaning": "Prospect / view",
-          "example": "Die Aussicht auf Erfolg ist gut. = Chances of success are good."
+          "example": "Die Aussicht auf Erfolg ist gut. = Izredzes uz panākumiem ir labas."
         },
         {
           "word": "der Blick",
           "meaning": "View / glance",
-          "example": "Der Blick aufs Meer ist schön. = The sea view is beautiful."
+          "example": "Der Blick aufs Meer ist schön. = Skats uz jūru ir skaists."
         },
         {
           "word": "die Chance",
           "meaning": "Opportunity",
-          "example": "Die Chance ist groß. = The opportunity is great."
+          "example": "Die Chance ist groß. = Iespēja ir liela."
         }
       ],
       "tip": {
@@ -5029,17 +5029,17 @@ const B1_WORDS = [
         {
           "word": "die Aussprache",
           "meaning": "Pronunciation / exchange of ideas",
-          "example": "Die Aussprache ist schwer. = Pronunciation is difficult."
+          "example": "Die Aussprache ist schwer. = Izruna ir grūta."
         },
         {
           "word": "das Gespräch",
           "meaning": "Conversation",
-          "example": "Wir führen ein Gespräch. = We talk."
+          "example": "Wir führen ein Gespräch. = Mēs sarunājamies."
         },
         {
           "word": "die Diskussion",
           "meaning": "Discussion",
-          "example": "Die Diskussion war lang. = The discussion was long."
+          "example": "Die Diskussion war lang. = Diskusija bija gara."
         }
       ],
       "tip": {
@@ -5351,17 +5351,17 @@ const B1_WORDS = [
         {
           "word": "ausüben",
           "meaning": "Exercise / perform / exert influence",
-          "example": "Sie übt den Beruf aus. = She works in a profession."
+          "example": "Sie übt den Beruf aus. = Viņa strādā profesijā."
         },
         {
           "word": "machen",
           "meaning": "To do",
-          "example": "Ich mache meine Arbeit. = I'm doing my job."
+          "example": "Ich mache meine Arbeit. = Es daru savu darbu."
         },
         {
           "word": "beeinflussen",
           "meaning": "To influence",
-          "example": "Das beeinflusst die Entscheidung. = This affects the decision."
+          "example": "Das beeinflusst die Entscheidung. = Tas ietekmē lēmumu."
         }
       ],
       "tip": {
@@ -5560,17 +5560,17 @@ const B1_WORDS = [
         {
           "word": "der Auszug",
           "meaning": "Extract / move out",
-          "example": "Ich lese einen Auszug aus dem Buch. = I am reading a passage from a book."
+          "example": "Ich lese einen Auszug aus dem Buch. = Es lasu fragmentu no grāmatas."
         },
         {
           "word": "der Umzug",
           "meaning": "Moving",
-          "example": "Der Umzug dauert zwei Tage. = The move takes two days."
+          "example": "Der Umzug dauert zwei Tage. = Pārvākšanās ilgst divas dienas."
         },
         {
           "word": "die Zusammenfassung",
           "meaning": "Summary",
-          "example": "Die Zusammenfassung ist kurz. = The summary is brief."
+          "example": "Die Zusammenfassung ist kurz. = Kopsavilkums ir īss."
         }
       ],
       "tip": {
@@ -5859,17 +5859,17 @@ const B1_WORDS = [
         {
           "word": "der Bau",
           "meaning": "Construction / building / construction site",
-          "example": "Der Bau beginnt morgen. = Construction starts tomorrow."
+          "example": "Der Bau beginnt morgen. = Būvniecība sākas rīt."
         },
         {
           "word": "das Gebäude",
           "meaning": "Building",
-          "example": "Das Gebäude ist neu. = The building is new."
+          "example": "Das Gebäude ist neu. = Ēka ir jauna."
         },
         {
           "word": "die Baustelle",
           "meaning": "Construction site",
-          "example": "Die Baustelle ist laut. = The construction site is noisy."
+          "example": "Die Baustelle ist laut. = Būvlaukums ir skaļš."
         }
       ],
       "tip": {
@@ -6093,17 +6093,17 @@ const B1_WORDS = [
         {
           "word": "das Becken",
           "meaning": "Pool / tank / pelvis",
-          "example": "Das Becken ist voll Wasser. = The pool is full of water."
+          "example": "Das Becken ist voll Wasser. = Baseins ir pilns ar ūdeni."
         },
         {
           "word": "das Schwimmbad",
           "meaning": "Swimming pool as a place",
-          "example": "Das Schwimmbad ist geöffnet. = The swimming pool is open."
+          "example": "Das Schwimmbad ist geöffnet. = Peldbaseins ir atvērts."
         },
         {
           "word": "die Schüssel",
           "meaning": "A bowl",
-          "example": "Die Schüssel steht auf dem Tisch. = The bowl is on the table."
+          "example": "Die Schüssel steht auf dem Tisch. = Bļoda stāv uz galda."
         }
       ],
       "tip": {
@@ -6279,17 +6279,17 @@ const B1_WORDS = [
         {
           "word": "bedeutend",
           "meaning": "Significant / considerably",
-          "example": "Das ist ein bedeutender Schritt. = This is an important step."
+          "example": "Das ist ein bedeutender Schritt. = Tas ir nozīmīgs solis."
         },
         {
           "word": "wichtig",
           "meaning": "Important",
-          "example": "Das ist wichtig. = This is important."
+          "example": "Das ist wichtig. = Tas ir svarīgi."
         },
         {
           "word": "deutlich",
           "meaning": "Clearly / significantly",
-          "example": "Es ist deutlich besser. = This is significantly better."
+          "example": "Es ist deutlich besser. = Tas ir ievērojami labāk."
         }
       ],
       "tip": {
@@ -6441,17 +6441,17 @@ const B1_WORDS = [
         {
           "word": "sich bedienen",
           "meaning": "Take / use yourself",
-          "example": "Bedienen Sie sich! = Take it yourself!"
+          "example": "Bedienen Sie sich! = Ņemiet paši!"
         },
         {
           "word": "bedienen",
           "meaning": "To serve",
-          "example": "Der Kellner bedient die Gäste. = A waiter serves guests."
+          "example": "Der Kellner bedient die Gäste. = Viesmīlis apkalpo viesus."
         },
         {
           "word": "benutzen",
           "meaning": "Use",
-          "example": "Ich benutze den Computer. = I use the computer."
+          "example": "Ich benutze den Computer. = Es lietoju datoru."
         }
       ],
       "tip": {
@@ -6819,17 +6819,17 @@ const B1_WORDS = [
         {
           "word": "behandeln",
           "meaning": "Treat / treat someone / discuss the topic",
-          "example": "Der Arzt behandelt den Patienten. = A doctor treats a patient."
+          "example": "Der Arzt behandelt den Patienten. = Ārsts ārstē pacientu."
         },
         {
           "word": "heilen",
           "meaning": "Cure; bring about recovery",
-          "example": "Die Medizin heilt die Krankheit. = The medicine cures the disease."
+          "example": "Die Medizin heilt die Krankheit. = Zāles izārstē slimību."
         },
         {
           "word": "besprechen",
           "meaning": "To discuss",
-          "example": "Wir besprechen den Plan. = We discuss the plan."
+          "example": "Wir besprechen den Plan. = Mēs apspriežam plānu."
         }
       ],
       "tip": {
@@ -7137,17 +7137,17 @@ const B1_WORDS = [
         {
           "word": "belegen",
           "meaning": "Occupy / take a course / prove",
-          "example": "Der Sitz ist belegt. = The seat is occupied."
+          "example": "Der Sitz ist belegt. = Sēdvieta ir aizņemta."
         },
         {
           "word": "reservieren",
           "meaning": "To book",
-          "example": "Ich reserviere einen Tisch. = I reserved a table."
+          "example": "Ich reserviere einen Tisch. = Es rezervēju galdiņu."
         },
         {
           "word": "beweisen",
           "meaning": "To prove",
-          "example": "Das beweist nichts. = It doesn't prove anything."
+          "example": "Das beweist nichts. = Tas neko nepierāda."
         }
       ],
       "tip": {
@@ -7340,17 +7340,17 @@ const B1_WORDS = [
         {
           "word": "bemerken",
           "meaning": "Notice / note",
-          "example": "Ich bemerke den Fehler. = I notice an error."
+          "example": "Ich bemerke den Fehler. = Es pamanu kļūdu."
         },
         {
           "word": "merken",
           "meaning": "Understand / follow",
-          "example": "Ich merke, dass du müde bist. = I notice you are tired."
+          "example": "Ich merke, dass du müde bist. = Es ievēroju, ka tu esi noguris."
         },
         {
           "word": "sich merken",
           "meaning": "To memorise",
-          "example": "Ich merke mir das Wort. = I memorised this word."
+          "example": "Ich merke mir das Wort. = Es iegaumēju šo vārdu."
         }
       ],
       "tip": {
@@ -7510,17 +7510,17 @@ const B1_WORDS = [
         {
           "word": "sich bemühen",
           "meaning": "Try / make an effort",
-          "example": "Ich bemühe mich um eine Lösung. = I am trying to find a solution."
+          "example": "Ich bemühe mich um eine Lösung. = Es cenšos atrast risinājumu."
         },
         {
           "word": "versuchen",
           "meaning": "To try",
-          "example": "Ich versuche es. = I'm trying."
+          "example": "Ich versuche es. = Es mēģinu."
         },
         {
           "word": "sich anstrengen",
           "meaning": "Make an effort",
-          "example": "Streng dich an! = Make an effort!"
+          "example": "Streng dich an! = Papūlies!"
         }
       ],
       "tip": {
@@ -7701,17 +7701,17 @@ const B1_WORDS = [
         {
           "word": "beraten",
           "meaning": "Consult / discuss",
-          "example": "Sie berät den Kunden. = She advises the client."
+          "example": "Sie berät den Kunden. = Viņa konsultē klientu."
         },
         {
           "word": "raten",
           "meaning": "Recommend",
-          "example": "Ich rate dir zu warten. = I advise you to wait."
+          "example": "Ich rate dir zu warten. = Es tev iesaku pagaidīt."
         },
         {
           "word": "besprechen",
           "meaning": "Discuss the topic",
-          "example": "Wir besprechen das Thema. = We discuss the topic."
+          "example": "Wir besprechen das Thema. = Mēs apspriežam tēmu."
         }
       ],
       "tip": {
@@ -7903,17 +7903,17 @@ const B1_WORDS = [
         {
           "word": "der Bereich",
           "meaning": "Area / zone",
-          "example": "Dieser Bereich ist wichtig. = This area is important."
+          "example": "Dieser Bereich ist wichtig. = Šī joma ir svarīga."
         },
         {
           "word": "das Gebiet",
           "meaning": "Territory / wider area",
-          "example": "Das Gebiet ist groß. = The territory is large."
+          "example": "Das Gebiet ist groß. = Teritorija ir liela."
         },
         {
           "word": "die Branche",
           "meaning": "Industry",
-          "example": "Die Branche wächst. = The industry is growing."
+          "example": "Die Branche wächst. = Nozare aug."
         }
       ],
       "tip": {
@@ -8118,17 +8118,17 @@ const B1_WORDS = [
         {
           "word": "berichten über/von",
           "meaning": "To report on",
-          "example": "Sie berichtet über das Projekt. = She reports on the project."
+          "example": "Sie berichtet über das Projekt. = Viņa ziņo par projektu."
         },
         {
           "word": "erzählen",
           "meaning": "Speak more freely",
-          "example": "Er erzählt eine Geschichte. = He tells a story."
+          "example": "Er erzählt eine Geschichte. = Viņš stāsta stāstu."
         },
         {
           "word": "melden",
           "meaning": "Officially announce",
-          "example": "Die Polizei meldet den Unfall. = The police report the accident."
+          "example": "Die Polizei meldet den Unfall. = Policija paziņo par negadījumu."
         }
       ],
       "tip": {
@@ -8318,17 +8318,17 @@ const B1_WORDS = [
         {
           "word": "sich beruhigen",
           "meaning": "Calm down",
-          "example": "Ich beruhige mich. = I calm down."
+          "example": "Ich beruhige mich. = Es nomierinos."
         },
         {
           "word": "beruhigen",
           "meaning": "To calm someone down",
-          "example": "Ich beruhige das Kind. = I soothe the child."
+          "example": "Ich beruhige das Kind. = Es nomierinu bērnu."
         },
         {
           "word": "sich entspannen",
           "meaning": "To relax",
-          "example": "Ich entspanne mich. = I relax."
+          "example": "Ich entspanne mich. = Es atslābinos."
         }
       ],
       "tip": {
@@ -8477,17 +8477,17 @@ const B1_WORDS = [
         {
           "word": "die Berühmtheit",
           "meaning": "Fame / celebrity",
-          "example": "Er sucht Berühmtheit. = He strives for fame."
+          "example": "Er sucht Berühmtheit. = Viņš tiecas pēc slavas."
         },
         {
           "word": "der Ruhm",
           "meaning": "Fame",
-          "example": "Sein Ruhm wächst. = His fame is growing."
+          "example": "Sein Ruhm wächst. = Viņa slava aug."
         },
         {
           "word": "der Star",
           "meaning": "Star / celebrity",
-          "example": "Sie ist ein Star. = She is a star."
+          "example": "Sie ist ein Star. = Viņa ir zvaigzne."
         }
       ],
       "tip": {
@@ -8676,17 +8676,17 @@ const B1_WORDS = [
         {
           "word": "beschließen",
           "meaning": "Decide / make a decision",
-          "example": "Der Rat beschließt neue Regeln. = The Council adopts new rules."
+          "example": "Der Rat beschließt neue Regeln. = Padome pieņem jaunus noteikumus."
         },
         {
           "word": "entscheiden",
           "meaning": "To decide",
-          "example": "Ich entscheide mich morgen. = I will decide tomorrow."
+          "example": "Ich entscheide mich morgen. = Es izlemšu rīt."
         },
         {
           "word": "schließen",
           "meaning": "To close / to close",
-          "example": "Bitte schließen Sie die Tür. = Please close the door."
+          "example": "Bitte schließen Sie die Tür. = Lūdzu, aizveriet durvis."
         }
       ],
       "tip": {
@@ -8852,17 +8852,17 @@ const B1_WORDS = [
         {
           "word": "die Beschwerde",
           "meaning": "Complaint",
-          "example": "Die Beschwerde ist berechtigt. = The complaint is justified."
+          "example": "Die Beschwerde ist berechtigt. = Sūdzība ir pamatota."
         },
         {
           "word": "die Klage",
           "meaning": "Legal action",
-          "example": "Die Klage läuft noch. = The lawsuit is still ongoing."
+          "example": "Die Klage läuft noch. = Prasība vēl turpinās."
         },
         {
           "word": "die Schmerzen",
           "meaning": "Pain",
-          "example": "Ich habe Schmerzen. = I'm in pain."
+          "example": "Ich habe Schmerzen. = Man sāp."
         }
       ],
       "tip": {
@@ -9043,17 +9043,17 @@ const B1_WORDS = [
         {
           "word": "besorgen",
           "meaning": "Procure / get",
-          "example": "Ich besorge Brot. = I got the bread."
+          "example": "Ich besorge Brot. = Es sagādāju maizi."
         },
         {
           "word": "kaufen",
           "meaning": "To buy",
-          "example": "Ich kaufe Brot. = I buy bread."
+          "example": "Ich kaufe Brot. = Es pērku maizi."
         },
         {
           "word": "sich kümmern um",
           "meaning": "Take care of",
-          "example": "Ich kümmere mich um das Kind. = I take care of the child."
+          "example": "Ich kümmere mich um das Kind. = Es rūpējos par bērnu."
         }
       ],
       "tip": {
@@ -9242,17 +9242,17 @@ const B1_WORDS = [
         {
           "word": "bestehen",
           "meaning": "Exist / pass",
-          "example": "Das Problem besteht noch. = The problem still exists."
+          "example": "Das Problem besteht noch. = Problēma vēl pastāv."
         },
         {
           "word": "bestehen aus",
           "meaning": "Consist of",
-          "example": "Das Team besteht aus fünf Personen. = The team consists of five people."
+          "example": "Das Team besteht aus fünf Personen. = Komanda sastāv no piecām personām."
         },
         {
           "word": "bestehen auf",
           "meaning": "Insist on",
-          "example": "Er besteht auf seiner Meinung. = He insists on his opinion."
+          "example": "Er besteht auf seiner Meinung. = Viņš uzstāj uz savu viedokli."
         }
       ],
       "tip": {
@@ -9416,17 +9416,17 @@ const B1_WORDS = [
         {
           "word": "bestimmen",
           "meaning": "Determine / designate",
-          "example": "Der Preis wird neu bestimmt. = The price is reset."
+          "example": "Der Preis wird neu bestimmt. = Cena tiek noteikta no jauna."
         },
         {
           "word": "entscheiden",
           "meaning": "To decide",
-          "example": "Wir entscheiden morgen. = We will decide tomorrow."
+          "example": "Wir entscheiden morgen. = Mēs izlemsim rīt."
         },
         {
           "word": "festlegen",
           "meaning": "To officially determine",
-          "example": "Wir legen den Termin fest. = We officially set the deadline."
+          "example": "Wir legen den Termin fest. = Mēs oficiāli nosakām termiņu."
         }
       ],
       "tip": {
@@ -9651,17 +9651,17 @@ const B1_WORDS = [
         {
           "word": "der Betrieb",
           "meaning": "Company / activity",
-          "example": "Der Betrieb läuft gut. = The company is doing well."
+          "example": "Der Betrieb läuft gut. = Uzņēmums darbojas labi."
         },
         {
           "word": "die Firma",
           "meaning": "Firm",
-          "example": "Die Firma sucht neue Mitarbeiter. = The company is looking for new employees."
+          "example": "Die Firma sucht neue Mitarbeiter. = Firma meklē jaunus darbiniekus."
         },
         {
           "word": "die Fabrik",
           "meaning": "Factory",
-          "example": "Die Fabrik produziert Möbel. = The factory produces furniture."
+          "example": "Die Fabrik produziert Möbel. = Rūpnīca ražo mēbeles."
         }
       ],
       "tip": {
@@ -9871,17 +9871,17 @@ const B1_WORDS = [
         {
           "word": "bewegen",
           "meaning": "Move / touch",
-          "example": "Das bewegt mich. = It touches me."
+          "example": "Das bewegt mich. = Tas mani aizkustina."
         },
         {
           "word": "sich bewegen",
           "meaning": "To move",
-          "example": "Ich bewege mich viel. = I move a lot."
+          "example": "Ich bewege mich viel. = Es daudz kustos."
         },
         {
           "word": "verschieben",
           "meaning": "Shift",
-          "example": "Wir verschieben den Tisch. = We move the table."
+          "example": "Wir verschieben den Tisch. = Mēs pārbīdām galdu."
         }
       ],
       "tip": {
@@ -10098,17 +10098,17 @@ const B1_WORDS = [
         {
           "word": "beziehen",
           "meaning": "Receive / move in",
-          "example": "Sie bezieht eine Rente. = She receives a pension."
+          "example": "Sie bezieht eine Rente. = Viņa saņem pensiju."
         },
         {
           "word": "sich beziehen auf",
           "meaning": "Refer to",
-          "example": "Die Regel bezieht sich auf alle Schüler. = The rule applies to all students."
+          "example": "Die Regel bezieht sich auf alle Schüler. = Noteikums attiecas uz visiem skolēniem."
         },
         {
           "word": "einziehen",
           "meaning": "Move in",
-          "example": "Wir ziehen morgen ein. = We are moving in tomorrow."
+          "example": "Wir ziehen morgen ein. = Mēs rīt ievācamies."
         }
       ],
       "tip": {
@@ -10315,17 +10315,17 @@ const B1_WORDS = [
         {
           "word": "der Bildschirm",
           "meaning": "Screen",
-          "example": "Der Bildschirm leuchtet. = The screen glows."
+          "example": "Der Bildschirm leuchtet. = Ekrāns spīd."
         },
         {
           "word": "der Monitor",
           "meaning": "Monitor (computer)",
-          "example": "Der Monitor ist neu. = The monitor is new."
+          "example": "Der Monitor ist neu. = Monitors ir jauns."
         },
         {
           "word": "das Display",
           "meaning": "Display",
-          "example": "Das Display ist klein. = The display is small."
+          "example": "Das Display ist klein. = Displejs ir mazs."
         }
       ],
       "tip": {
@@ -10445,17 +10445,17 @@ const B1_WORDS = [
         {
           "word": "bieten",
           "meaning": "Offer / provide",
-          "example": "Das Programm bietet viele Möglichkeiten. = The programme provides many opportunities."
+          "example": "Das Programm bietet viele Möglichkeiten. = Programma sniedz daudz iespēju."
         },
         {
           "word": "anbieten",
           "meaning": "Offer something to someone specific",
-          "example": "Ich biete dir meine Hilfe an. = I offer you my help."
+          "example": "Ich biete dir meine Hilfe an. = Es tev piedāvāju savu palīdzību."
         },
         {
           "word": "geben",
           "meaning": "To give",
-          "example": "Ich gebe dir Geld. = I give you money."
+          "example": "Ich gebe dir Geld. = Es tev dodu naudu."
         }
       ],
       "tip": {
@@ -10642,17 +10642,17 @@ const B1_WORDS = [
         {
           "word": "die Blase",
           "meaning": "Blister / blister / bubble",
-          "example": "Ich habe eine Blase am Fuß. = I have a blister on my foot."
+          "example": "Ich habe eine Blase am Fuß. = Man uz pēdas ir tulzna."
         },
         {
           "word": "die Wunde",
           "meaning": "A wound",
-          "example": "Die Wunde heilt. = The wound is healing."
+          "example": "Die Wunde heilt. = Brūce dzīst."
         },
         {
           "word": "der Ballon",
           "meaning": "Balloon",
-          "example": "Der Ballon ist rot. = The balloon is red."
+          "example": "Der Ballon ist rot. = Balons ir sarkans."
         }
       ],
       "tip": {
@@ -10859,17 +10859,17 @@ const B1_WORDS = [
         {
           "word": "der Block",
           "meaning": "Block / block / block",
-          "example": "Ich brauche einen Block. = I need a pad."
+          "example": "Ich brauche einen Block. = Man vajag blociņu."
         },
         {
           "word": "das Heft",
           "meaning": "Notebook",
-          "example": "Das Heft ist voll. = The mailbox is full."
+          "example": "Das Heft ist voll. = Burtnīca ir pilna."
         },
         {
           "word": "der Klotz",
           "meaning": "Block",
-          "example": "Der Klotz ist schwer. = The block is heavy."
+          "example": "Der Klotz ist schwer. = Klucis ir smags."
         }
       ],
       "tip": {
@@ -11026,17 +11026,17 @@ const B1_WORDS = [
         {
           "word": "bloß",
           "meaning": "Just / simply / bare",
-          "example": "Das ist bloß ein Beispiel. = This is just an example."
+          "example": "Das ist bloß ein Beispiel. = Tas ir tikai piemērs."
         },
         {
           "word": "nur",
           "meaning": "Only",
-          "example": "Ich habe nur eine Frage. = I have just one question."
+          "example": "Ich habe nur eine Frage. = Man ir tikai viens jautājums."
         },
         {
           "word": "nackt",
           "meaning": "Naked",
-          "example": "Er ist nackt. = He is naked."
+          "example": "Er ist nackt. = Viņš ir kails."
         }
       ],
       "tip": {
@@ -11230,17 +11230,17 @@ const B1_WORDS = [
         {
           "word": "der Bogen",
           "meaning": "Bow / arch / form",
-          "example": "Füllen Sie den Bogen aus. = Fill out the form."
+          "example": "Füllen Sie den Bogen aus. = Aizpildiet veidlapu."
         },
         {
           "word": "das Formular",
           "meaning": "Form",
-          "example": "Das Formular ist lang. = The form is long."
+          "example": "Das Formular ist lang. = Veidlapa ir gara."
         },
         {
           "word": "die Kurve",
           "meaning": "Bend",
-          "example": "Die Kurve ist scharf. = The bend is sharp."
+          "example": "Die Kurve ist scharf. = Līkums ir ass."
         }
       ],
       "tip": {
@@ -11433,17 +11433,17 @@ const B1_WORDS = [
         {
           "word": "die Botschaft",
           "meaning": "Embassy / message",
-          "example": "Die Botschaft ist offen. = The embassy is open."
+          "example": "Die Botschaft ist offen. = Vēstniecība ir atvērta."
         },
         {
           "word": "die Nachricht",
           "meaning": "Message",
-          "example": "Ich habe eine Nachricht bekommen. = I got a message."
+          "example": "Ich habe eine Nachricht bekommen. = Es saņēmu ziņu."
         },
         {
           "word": "die Mitteilung",
           "meaning": "Notification",
-          "example": "Die Mitteilung ist kurz. = The notice is short."
+          "example": "Die Mitteilung ist kurz. = Paziņojums ir īss."
         }
       ],
       "tip": {
@@ -11622,17 +11622,17 @@ const B1_WORDS = [
         {
           "word": "der Brand",
           "meaning": "Fire / burn",
-          "example": "Der Brand ist gefährlich. = Fire is dangerous."
+          "example": "Der Brand ist gefährlich. = Ugunsgrēks ir bīstams."
         },
         {
           "word": "das Feuer",
           "meaning": "Fire",
-          "example": "Das Feuer brennt. = The fire is burning."
+          "example": "Das Feuer brennt. = Uguns deg."
         },
         {
           "word": "die Marke",
           "meaning": "Brand",
-          "example": "Diese Marke ist bekannt. = This brand is known."
+          "example": "Diese Marke ist bekannt. = Šis zīmols ir pazīstams."
         }
       ],
       "tip": {
@@ -12024,17 +12024,17 @@ const B1_WORDS = [
         {
           "word": "der Bund",
           "meaning": "Union / federation / bundle",
-          "example": "Der Bund entscheidet. = The Federation decides."
+          "example": "Der Bund entscheidet. = Federācija lemj."
         },
         {
           "word": "das Bündel",
           "meaning": "Bundle",
-          "example": "Das Bündel ist schwer. = The bundle is heavy."
+          "example": "Das Bündel ist schwer. = Saišķis ir smags."
         },
         {
           "word": "der Verein",
           "meaning": "Society",
-          "example": "Der Verein ist klein. = The association is small."
+          "example": "Der Verein ist klein. = Biedrība ir maza."
         }
       ],
       "tip": {
@@ -12357,17 +12357,17 @@ const B1_WORDS = [
         {
           "word": "dadurch",
           "meaning": "Thus / thereby",
-          "example": "Dadurch wird es leichter. = This makes it easier."
+          "example": "Dadurch wird es leichter. = Tādējādi tas kļūst vieglāk."
         },
         {
           "word": "deshalb",
           "meaning": "Therefore",
-          "example": "Deshalb bleibe ich zu Hause. = That's why I stay at home."
+          "example": "Deshalb bleibe ich zu Hause. = Tāpēc es palieku mājās."
         },
         {
           "word": "damit",
           "meaning": "To / with it",
-          "example": "Ich spare Geld, damit ich reisen kann. = I am saving money so I can travel."
+          "example": "Ich spare Geld, damit ich reisen kann. = Es krāju naudu, lai varētu ceļot."
         }
       ],
       "tip": {
@@ -12513,17 +12513,17 @@ const B1_WORDS = [
         {
           "word": "dagegen",
           "meaning": "Against that / on the other hand",
-          "example": "Ich bin dagegen. = I am against it."
+          "example": "Ich bin dagegen. = Es esmu pret to."
         },
         {
           "word": "dafür",
           "meaning": "About it",
-          "example": "Ich bin dafür. = I'm all for it."
+          "example": "Ich bin dafür. = Es esmu par to."
         },
         {
           "word": "hingegen",
           "meaning": "In contrast",
-          "example": "Er bleibt, sie hingegen geht. = He stays, but she goes."
+          "example": "Er bleibt, sie hingegen geht. = Viņš paliek, viņa turpretim iet."
         }
       ],
       "tip": {
@@ -12673,17 +12673,17 @@ const B1_WORDS = [
         {
           "word": "daher",
           "meaning": "Therefore / from there",
-          "example": "Es bin müde, daher gehe ich. = I'm tired, so I'm going."
+          "example": "Es bin müde, daher gehe ich. = Esmu noguris, tāpēc eju."
         },
         {
           "word": "deshalb",
           "meaning": "Therefore",
-          "example": "Deshalb warten wir. = So we wait."
+          "example": "Deshalb warten wir. = Tāpēc mēs gaidām."
         },
         {
           "word": "von dort",
           "meaning": "From there",
-          "example": "Er kommt von dort. = He comes from there."
+          "example": "Er kommt von dort. = Viņš nāk no turienes."
         }
       ],
       "tip": {
@@ -12826,17 +12826,17 @@ const B1_WORDS = [
         {
           "word": "dahin",
           "meaning": "There / to there / gone",
-          "example": "Ich fahre dahin. = I'm going there."
+          "example": "Ich fahre dahin. = Es braucu turp."
         },
         {
           "word": "dort",
           "meaning": "There, in that place",
-          "example": "Ich bin dort. = I'm there."
+          "example": "Ich bin dort. = Es esmu tur."
         },
         {
           "word": "daher",
           "meaning": "Therefore / from there",
-          "example": "Daher kommt das Problem. = That's where the problem comes from."
+          "example": "Daher kommt das Problem. = No turienes nāk problēma."
         }
       ],
       "tip": {
@@ -13023,27 +13023,27 @@ const B1_WORDS = [
         {
           "word": "der Dank",
           "meaning": "Gratitude (noun)",
-          "example": "Herzlichen Dank! = Sincere thanks!"
+          "example": "Herzlichen Dank! = Sirsnīgs paldies!"
         },
         {
           "word": "danke",
           "meaning": "Thank you (reply)",
-          "example": "Nein, danke. = No thanks."
+          "example": "Nein, danke. = Nē, paldies."
         },
         {
           "word": "danken",
           "meaning": "To thank",
-          "example": "Ich danke dir. = I thank you."
+          "example": "Ich danke dir. = Es tev pateicos."
         },
         {
           "word": "Vielen Dank",
           "meaning": "Thank you very much (phrase)",
-          "example": "Vielen Dank für die Hilfe! = Thank you very much for your help!"
+          "example": "Vielen Dank für die Hilfe! = Liels paldies par palīdzību!"
         },
         {
           "word": "bedanken (sich)",
           "meaning": "To thank formally",
-          "example": "Ich bedanke mich bei Ihnen. = I thank you."
+          "example": "Ich bedanke mich bei Ihnen. = Es pateicos jums."
         }
       ],
       "tip": {
@@ -13388,17 +13388,17 @@ const B1_WORDS = [
         {
           "word": "daran",
           "meaning": "About it / at it",
-          "example": "Ich denke daran. = I thought about it."
+          "example": "Ich denke daran. = Es domāju par to."
         },
         {
           "word": "darauf",
           "meaning": "To it / on it",
-          "example": "Ich warte darauf. = I look forward to it."
+          "example": "Ich warte darauf. = Es to gaidu."
         },
         {
           "word": "damit",
           "meaning": "With it",
-          "example": "Ich beginne damit. = I started with that."
+          "example": "Ich beginne damit. = Es sāku ar to."
         }
       ],
       "tip": {
@@ -13554,17 +13554,17 @@ const B1_WORDS = [
         {
           "word": "darstellen",
           "meaning": "Depict / show / portray",
-          "example": "Die Tabelle stellt Daten dar. = The table represents the data."
+          "example": "Die Tabelle stellt Daten dar. = Tabula attēlo datus."
         },
         {
           "word": "zeigen",
           "meaning": "Show",
-          "example": "Ich zeige dir das Bild. = I show you a picture."
+          "example": "Ich zeige dir das Bild. = Es tev rādu attēlu."
         },
         {
           "word": "sich vorstellen",
           "meaning": "Imagine / introduce yourself",
-          "example": "Ich stelle mich kurz vor. = I will introduce myself briefly."
+          "example": "Ich stelle mich kurz vor. = Es īsi iepazīstinos."
         }
       ],
       "tip": {
@@ -13723,17 +13723,17 @@ const B1_WORDS = [
         {
           "word": "darunter",
           "meaning": "Including / under it",
-          "example": "Darunter sind viele Kinder. = There are many children among them."
+          "example": "Darunter sind viele Kinder. = To vidū ir daudz bērnu."
         },
         {
           "word": "unter",
           "meaning": "Under",
-          "example": "Der Ball liegt unter dem Tisch. = The ball is under the table."
+          "example": "Der Ball liegt unter dem Tisch. = Bumba ir zem galda."
         },
         {
           "word": "davon",
           "meaning": "From it",
-          "example": "Drei davon sind neu. = Three of them are new."
+          "example": "Drei davon sind neu. = Trīs no tiem ir jauni."
         }
       ],
       "tip": {
@@ -13909,17 +13909,17 @@ const B1_WORDS = [
         {
           "word": "decken",
           "meaning": "Cover / cover / cover",
-          "example": "Ich decke den Tisch. = I set the table."
+          "example": "Ich decke den Tisch. = Es klāju galdu."
         },
         {
           "word": "abdecken",
           "meaning": "Cover / cover",
-          "example": "Deck den Kuchen ab. = Cover the cake."
+          "example": "Deck den Kuchen ab. = Pārklāj kūku."
         },
         {
           "word": "zudecken",
           "meaning": "To cover",
-          "example": "Ich decke das Kind zu. = I covered the baby."
+          "example": "Ich decke das Kind zu. = Es apsedzu bērnu."
         }
       ],
       "tip": {
@@ -14184,17 +14184,17 @@ const B1_WORDS = [
         {
           "word": "dienen",
           "meaning": "To serve / to be useful",
-          "example": "Das dient als Beispiel. = This serves as an example."
+          "example": "Das dient als Beispiel. = Tas kalpo kā piemērs."
         },
         {
           "word": "helfen",
           "meaning": "To help",
-          "example": "Ich helfe dir. = I help you."
+          "example": "Ich helfe dir. = Es tev palīdzu."
         },
         {
           "word": "nutzen",
           "meaning": "To use / use",
-          "example": "Ich nutze das Programm. = I use the programme."
+          "example": "Ich nutze das Programm. = Es izmantoju programmu."
         }
       ],
       "tip": {
@@ -14513,17 +14513,17 @@ const B1_WORDS = [
         {
           "word": "der Druck",
           "meaning": "Pressure / printing",
-          "example": "Der Druck ist hoch. = The pressure is high."
+          "example": "Der Druck ist hoch. = Spiediens ir augsts."
         },
         {
           "word": "die Belastung",
           "meaning": "Load",
-          "example": "Die Belastung ist groß. = The load is heavy."
+          "example": "Die Belastung ist groß. = Slodze ir liela."
         },
         {
           "word": "das Drucken",
           "meaning": "Printing as an action",
-          "example": "Das Drucken ist teuer. = Printing is expensive."
+          "example": "Das Drucken ist teuer. = Drukāšana ir dārga."
         }
       ],
       "tip": {
@@ -14740,17 +14740,17 @@ const B1_WORDS = [
         {
           "word": "der Durchfall",
           "meaning": "Diarrhea",
-          "example": "Ich habe Durchfall. = I have diarrhea."
+          "example": "Ich habe Durchfall. = Man ir caureja."
         },
         {
           "word": "durchfallen",
           "meaning": "To fail",
-          "example": "Sie fällt durch. = She fails."
+          "example": "Sie fällt durch. = Viņa izgāžas."
         },
         {
           "word": "die Magenprobleme",
           "meaning": "Stomach problems",
-          "example": "Ich habe Magenprobleme. = I have stomach problems."
+          "example": "Ich habe Magenprobleme. = Man ir kuņģa problēmas."
         }
       ],
       "tip": {
@@ -14899,17 +14899,17 @@ const B1_WORDS = [
         {
           "word": "durchführen",
           "meaning": "Perform / implement",
-          "example": "Wir führen den Plan durch. = We are implementing the plan."
+          "example": "Wir führen den Plan durch. = Mēs īstenojam plānu."
         },
         {
           "word": "machen",
           "meaning": "To do",
-          "example": "Ich mache die Arbeit. = I do the work."
+          "example": "Ich mache die Arbeit. = Es daru darbu."
         },
         {
           "word": "veranstalten",
           "meaning": "To hold",
-          "example": "Wir veranstalten ein Konzert. = We are holding a concert."
+          "example": "Wir veranstalten ein Konzert. = Mēs rīkojam koncertu."
         }
       ],
       "tip": {
@@ -15154,17 +15154,17 @@ const B1_WORDS = [
         {
           "word": "eher",
           "meaning": "Rather / earlier",
-          "example": "Ich nehme eher Tee. = I'd rather have tea."
+          "example": "Ich nehme eher Tee. = Es drīzāk ņemšu tēju."
         },
         {
           "word": "früher",
           "meaning": "Earlier in time or in the past",
-          "example": "Früher war es anders. = It used to be different."
+          "example": "Früher war es anders. = Agrāk bija citādi."
         },
         {
           "word": "lieber",
           "meaning": "Prefer",
-          "example": "Ich trinke lieber Kaffee. = I prefer to drink coffee."
+          "example": "Ich trinke lieber Kaffee. = Es labprātāk dzeru kafiju."
         }
       ],
       "tip": {
@@ -15347,17 +15347,17 @@ const B1_WORDS = [
         {
           "word": "eigen",
           "meaning": "Own / own / peculiar",
-          "example": "Das ist mein eigenes Auto. = It's my own car."
+          "example": "Das ist mein eigenes Auto. = Tā ir mana paša mašīna."
         },
         {
           "word": "selbst",
           "meaning": "Himself",
-          "example": "Ich mache das selbst. = I do it myself."
+          "example": "Ich mache das selbst. = Es to daru pats."
         },
         {
           "word": "allein",
           "meaning": "Alone",
-          "example": "Ich bin allein. = I am alone."
+          "example": "Ich bin allein. = Es esmu viens pats."
         }
       ],
       "tip": {
@@ -15815,17 +15815,17 @@ const B1_WORDS = [
         {
           "word": "der Eindruck",
           "meaning": "Impression",
-          "example": "Der Eindruck war positiv. = The impression was positive."
+          "example": "Der Eindruck war positiv. = Iespaids bija pozitīvs."
         },
         {
           "word": "einen Eindruck machen",
           "meaning": "Make an impression",
-          "example": "Sie macht einen guten Eindruck. = She makes a good impression."
+          "example": "Sie macht einen guten Eindruck. = Viņa atstāj labu iespaidu."
         },
         {
           "word": "die Meinung",
           "meaning": "Opinion",
-          "example": "Das ist meine Meinung. = This is my opinion."
+          "example": "Das ist meine Meinung. = Tas ir mans viedoklis."
         }
       ],
       "tip": {
@@ -15978,17 +15978,17 @@ const B1_WORDS = [
         {
           "word": "einerlei",
           "meaning": "Anyway / doesn't matter",
-          "example": "Mir ist das einerlei. = I don't care."
+          "example": "Mir ist das einerlei. = Man tas ir vienalga."
         },
         {
           "word": "egal",
           "meaning": "Anyway",
-          "example": "Das ist mir egal. = I don't care."
+          "example": "Das ist mir egal. = Man tas ir vienalga."
         },
         {
           "word": "gleichgültig",
           "meaning": "Indifferent",
-          "example": "Er ist mir nicht gleichgültig. = He is not indifferent to me."
+          "example": "Er ist mir nicht gleichgültig. = Viņš man nav vienaldzīgs."
         }
       ],
       "tip": {
@@ -16137,17 +16137,17 @@ const B1_WORDS = [
         {
           "word": "einerseits",
           "meaning": "On the one hand",
-          "example": "Einerseits ist das gut. = On the one hand, this is good."
+          "example": "Einerseits ist das gut. = No vienas puses, tas ir labi."
         },
         {
           "word": "andererseits",
           "meaning": "On the other hand",
-          "example": "Andererseits ist es teuer. = On the other hand, it is expensive."
+          "example": "Andererseits ist es teuer. = No otras puses, tas ir dārgi."
         },
         {
           "word": "zwar ... aber",
           "meaning": "Both ... but",
-          "example": "Es ist zwar schön, aber teuer. = It is beautiful, but expensive."
+          "example": "Es ist zwar schön, aber teuer. = Tas gan ir skaists, bet dārgs."
         }
       ],
       "tip": {
@@ -16301,17 +16301,17 @@ const B1_WORDS = [
         {
           "word": "die Einfahrt",
           "meaning": "Driveway / entrance",
-          "example": "Die Einfahrt ist frei. = The entrance is free."
+          "example": "Die Einfahrt ist frei. = Iebrauktuve ir brīva."
         },
         {
           "word": "die Ausfahrt",
           "meaning": "Exit / exit",
-          "example": "Die Ausfahrt ist gesperrt. = The exit is closed."
+          "example": "Die Ausfahrt ist gesperrt. = Izbrauktuve ir slēgta."
         },
         {
           "word": "die Auffahrt",
           "meaning": "Ramp",
-          "example": "Die Auffahrt zur Autobahn ist voll. = The ramp to the autobahn is full."
+          "example": "Die Auffahrt zur Autobahn ist voll. = Uzbrauktuve uz autobāni ir pilna."
         }
       ],
       "tip": {
@@ -16590,17 +16590,17 @@ const B1_WORDS = [
         {
           "word": "einfarbig",
           "meaning": "Monochrome",
-          "example": "Das Hemd ist einfarbig. = The shirt is plain."
+          "example": "Das Hemd ist einfarbig. = Krekls ir vienkrāsains."
         },
         {
           "word": "farbig",
           "meaning": "colourful",
-          "example": "Das Bild ist farbig. = The image is in colour."
+          "example": "Das Bild ist farbig. = Attēls ir krāsains."
         },
         {
           "word": "bunt",
           "meaning": "Variegated / multicolored",
-          "example": "Der Pullover ist bunt. = The sweater is spotted."
+          "example": "Der Pullover ist bunt. = Džemperis ir raibs."
         }
       ],
       "tip": {
@@ -16757,17 +16757,17 @@ const B1_WORDS = [
         {
           "word": "der Einfluss",
           "meaning": "Influence",
-          "example": "Sein Einfluss ist groß. = His influence is great."
+          "example": "Sein Einfluss ist groß. = Viņa ietekme ir liela."
         },
         {
           "word": "Einfluss auf etwas haben",
           "meaning": "Affect something",
-          "example": "Das hat Einfluss auf den Preis. = This affects the price."
+          "example": "Das hat Einfluss auf den Preis. = Tas ietekmē cenu."
         },
         {
           "word": "die Wirkung",
           "meaning": "Effect / impact",
-          "example": "Die Wirkung ist stark. = The effect is strong."
+          "example": "Die Wirkung ist stark. = Iedarbība ir spēcīga."
         }
       ],
       "tip": {
@@ -17041,17 +17041,17 @@ const B1_WORDS = [
         {
           "word": "einführen",
           "meaning": "Implement / import",
-          "example": "Wir führen neue Regeln ein. = We are introducing new rules."
+          "example": "Wir führen neue Regeln ein. = Mēs ieviešam jaunus noteikumus."
         },
         {
           "word": "importieren",
           "meaning": "To import",
-          "example": "Wir importieren Kaffee. = We import coffee."
+          "example": "Wir importieren Kaffee. = Mēs importējam kafiju."
         },
         {
           "word": "vorstellen",
           "meaning": "Introduce / present",
-          "example": "Ich stelle das Projekt vor. = I present the project."
+          "example": "Ich stelle das Projekt vor. = Es prezentēju projektu."
         }
       ],
       "tip": {
@@ -17215,17 +17215,17 @@ const B1_WORDS = [
         {
           "word": "die Einführung",
           "meaning": "Introduction / implementation",
-          "example": "Die Einführung war hilfreich. = The introduction was helpful."
+          "example": "Die Einführung war hilfreich. = Ievads bija noderīgs."
         },
         {
           "word": "die Einleitung",
           "meaning": "Introduction to the text",
-          "example": "Die Einleitung ist kurz. = The introduction is short."
+          "example": "Die Einleitung ist kurz. = Ievads ir īss."
         },
         {
           "word": "die Umsetzung",
           "meaning": "Implementation",
-          "example": "Die Umsetzung dauert lange. = Implementation takes a long time."
+          "example": "Die Umsetzung dauert lange. = Īstenošana ilgst ilgi."
         }
       ],
       "tip": {
@@ -17375,17 +17375,17 @@ const B1_WORDS = [
         {
           "word": "sich eingewöhnen",
           "meaning": "Get used to a new environment",
-          "example": "Ich gewöhne mich langsam ein. = I'm slowly getting used to it."
+          "example": "Ich gewöhne mich langsam ein. = Es lēnām pierodu."
         },
         {
           "word": "sich gewöhnen an",
           "meaning": "Get used to something",
-          "example": "Ich gewöhne mich an das Klima. = I'm getting used to the climate."
+          "example": "Ich gewöhne mich an das Klima. = Es pierodu pie klimata."
         },
         {
           "word": "sich anpassen",
           "meaning": "Adapt",
-          "example": "Er passt sich schnell an. = He adapts quickly."
+          "example": "Er passt sich schnell an. = Viņš ātri pielāgojas."
         }
       ],
       "tip": {
@@ -17535,17 +17535,17 @@ const B1_WORDS = [
         {
           "word": "einhalten",
           "meaning": "Follow / comply with precisely",
-          "example": "Wir halten die Frist ein. = We meet the deadline."
+          "example": "Wir halten die Frist ein. = Mēs ievērojam termiņu."
         },
         {
           "word": "beachten",
           "meaning": "Take into account / observe",
-          "example": "Bitte beachten Sie die Hinweise. = Please follow the directions."
+          "example": "Bitte beachten Sie die Hinweise. = Lūdzu, ņemiet vērā norādes."
         },
         {
           "word": "halten",
           "meaning": "Hold / adhere to",
-          "example": "Er hält sein Versprechen. = He keeps his promise."
+          "example": "Er hält sein Versprechen. = Viņš tur solījumu."
         }
       ],
       "tip": {
@@ -17697,17 +17697,17 @@ const B1_WORDS = [
         {
           "word": "einheimisch",
           "meaning": "Local",
-          "example": "Das ist eine einheimische Pflanze. = It is a native plant."
+          "example": "Das ist eine einheimische Pflanze. = Tas ir vietējs augs."
         },
         {
           "word": "heimisch",
           "meaning": "Local / cozy in a certain environment",
-          "example": "Diese Art ist hier heimisch. = This species is endemic here."
+          "example": "Diese Art ist hier heimisch. = Šī suga šeit ir vietēja."
         },
         {
           "word": "ausländisch",
           "meaning": "Foreign",
-          "example": "Das ist ein ausländisches Produkt. = It is a foreign product."
+          "example": "Das ist ein ausländisches Produkt. = Tas ir ārzemju produkts."
         }
       ],
       "tip": {
@@ -17863,17 +17863,17 @@ const B1_WORDS = [
         {
           "word": "die Einheit",
           "meaning": "Unit",
-          "example": "Diese Einheit ist wichtig. = This unit is important."
+          "example": "Diese Einheit ist wichtig. = Šī vienība ir svarīga."
         },
         {
           "word": "die Maßeinheit",
           "meaning": "Unit of measure",
-          "example": "Kilogramm ist eine Maßeinheit. = A kilogram is a unit of measurement."
+          "example": "Kilogramm ist eine Maßeinheit. = Kilograms ir mērvienība."
         },
         {
           "word": "das Kapitel",
           "meaning": "Chapter",
-          "example": "Das Kapitel ist kurz. = The chapter is short."
+          "example": "Das Kapitel ist kurz. = Nodaļa ir īsa."
         }
       ],
       "tip": {
@@ -18028,17 +18028,17 @@ const B1_WORDS = [
         {
           "word": "die Längeneinheit",
           "meaning": "Unit of length",
-          "example": "Meter ist eine Längeneinheit. = A metre is a unit of length."
+          "example": "Meter ist eine Längeneinheit. = Metrs ir garuma mērvienība."
         },
         {
           "word": "die Gewichtseinheit",
           "meaning": "Unit of weight",
-          "example": "Kilogramm ist eine Gewichtseinheit. = A kilogram is a unit of weight."
+          "example": "Kilogramm ist eine Gewichtseinheit. = Kilograms ir svara mērvienība."
         },
         {
           "word": "die Maßeinheit",
           "meaning": "Unit of measure",
-          "example": "Sekunde ist eine Maßeinheit. = A second is a unit of measurement."
+          "example": "Sekunde ist eine Maßeinheit. = Sekunde ir mērvienība."
         }
       ],
       "tip": {
@@ -18311,17 +18311,17 @@ const B1_WORDS = [
         {
           "word": "einholen",
           "meaning": "Collect / obtain / catch up with",
-          "example": "Ich hole Rat ein. = I ask for advice."
+          "example": "Ich hole Rat ein. = Es lūdzu padomu."
         },
         {
           "word": "holen",
           "meaning": "Fetch / go after",
-          "example": "Ich hole das Kind ab. = I will go after the child."
+          "example": "Ich hole das Kind ab. = Es aiziešu pakaļ bērnam."
         },
         {
           "word": "überholen",
           "meaning": "To overtake",
-          "example": "Das Auto überholt uns. = A car overtakes us."
+          "example": "Das Auto überholt uns. = Auto mūs apdzen."
         }
       ],
       "tip": {
@@ -18579,17 +18579,17 @@ const B1_WORDS = [
         {
           "word": "der Einsatz",
           "meaning": "Use / deployment / stake",
-          "example": "Der Einsatz der Technik hilft uns. = The use of technology helps us."
+          "example": "Der Einsatz der Technik hilft uns. = Tehnikas izmantošana mums palīdz."
         },
         {
           "word": "die Verwendung",
           "meaning": "Use",
-          "example": "Die Verwendung des Geräts ist einfach. = Using the device is simple."
+          "example": "Die Verwendung des Geräts ist einfach. = Ierīces lietošana ir vienkārša."
         },
         {
           "word": "die Wette",
           "meaning": "Bets",
-          "example": "Er verliert die Wette. = He loses the bet."
+          "example": "Er verliert die Wette. = Viņš zaudē derības."
         }
       ],
       "tip": {
@@ -18773,17 +18773,17 @@ const B1_WORDS = [
         {
           "word": "einsetzen",
           "meaning": "Use / involve / start",
-          "example": "Wir setzen die Software ein. = We use software."
+          "example": "Wir setzen die Software ein. = Mēs izmantojam programmatūru."
         },
         {
           "word": "benutzen",
           "meaning": "Use",
-          "example": "Ich benutze das Handy. = I use the phone."
+          "example": "Ich benutze das Handy. = Es lietoju telefonu."
         },
         {
           "word": "beginnen",
           "meaning": "To begin",
-          "example": "Der Kurs beginnt morgen. = The course starts tomorrow."
+          "example": "Der Kurs beginnt morgen. = Kurss sākas rīt."
         }
       ],
       "tip": {
@@ -18955,17 +18955,17 @@ const B1_WORDS = [
         {
           "word": "einstellen",
           "meaning": "Set / hire / terminate",
-          "example": "Ich stelle den Wecker ein. = I set the alarm."
+          "example": "Ich stelle den Wecker ein. = Es iestatu modinātāju."
         },
         {
           "word": "anstellen",
           "meaning": "To hire",
-          "example": "Die Firma stellt ihn an. = The company hires him."
+          "example": "Die Firma stellt ihn an. = Firma viņu pieņem darbā."
         },
         {
           "word": "ausschalten",
           "meaning": "Turn off",
-          "example": "Ich schalte das Licht aus. = I turned off the light."
+          "example": "Ich schalte das Licht aus. = Es izslēdzu gaismu."
         }
       ],
       "tip": {
@@ -19147,17 +19147,17 @@ const B1_WORDS = [
         {
           "word": "eintreten",
           "meaning": "Enter / join",
-          "example": "Treten Sie ein! = Come in!"
+          "example": "Treten Sie ein! = Ienāciet!"
         },
         {
           "word": "betreten",
           "meaning": "Enter the place",
-          "example": "Bitte betreten Sie den Raum nicht. = Please do not enter the room."
+          "example": "Bitte betreten Sie den Raum nicht. = Lūdzu, neieejiet telpā."
         },
         {
           "word": "beitreten",
           "meaning": "Join the organisation",
-          "example": "Ich trete dem Verein bei. = I joined the association."
+          "example": "Ich trete dem Verein bei. = Es iestājos biedrībā."
         }
       ],
       "tip": {
@@ -19336,17 +19336,17 @@ const B1_WORDS = [
         {
           "word": "einziehen",
           "meaning": "Move in / charge / pull in",
-          "example": "Wir ziehen in die Wohnung ein. = We are moving into an apartment."
+          "example": "Wir ziehen in die Wohnung ein. = Mēs ievācamies dzīvoklī."
         },
         {
           "word": "umziehen",
           "meaning": "To move",
-          "example": "Wir ziehen nächste Woche um. = We are moving next week."
+          "example": "Wir ziehen nächste Woche um. = Mēs nākamnedēļ pārvācamies."
         },
         {
           "word": "ausziehen",
           "meaning": "Move out / pull off",
-          "example": "Sie zieht aus. = She is moving out."
+          "example": "Sie zieht aus. = Viņa izvācas."
         }
       ],
       "tip": {
@@ -19602,7 +19602,7 @@ const B1_WORDS = [
         {
           "word": "empfangen",
           "meaning": "Receive / receive / perceive",
-          "example": "Wir empfangen ein Signal. = We receive the signal."
+          "example": "Wir empfangen ein Signal. = Mēs uztveram signālu."
         },
         {
           "word": "bekommen",
@@ -19612,7 +19612,7 @@ const B1_WORDS = [
         {
           "word": "begrüßen",
           "meaning": "To greet",
-          "example": "Ich begrüße die Gäste. = I welcome guests."
+          "example": "Ich begrüße die Gäste. = Es sveicinu viesus."
         }
       ],
       "tip": {
@@ -19821,17 +19821,17 @@ const B1_WORDS = [
         {
           "word": "entfernen",
           "meaning": "Remove / remove / delete",
-          "example": "Entfernen Sie die Datei. = Delete the file."
+          "example": "Entfernen Sie die Datei. = Izdzēsiet failu."
         },
         {
           "word": "wegnehmen",
           "meaning": "Take away",
-          "example": "Nimm das Glas weg. = Take the glass away."
+          "example": "Nimm das Glas weg. = Paņem glāzi nost."
         },
         {
           "word": "sich entfernen",
           "meaning": "Move away",
-          "example": "Sie entfernt sich vom Bahnhof. = She moves away from the station."
+          "example": "Sie entfernt sich vom Bahnhof. = Viņa attālinās no stacijas."
         }
       ],
       "tip": {
@@ -20004,17 +20004,17 @@ const B1_WORDS = [
         {
           "word": "enthalten",
           "meaning": "Contain / include",
-          "example": "Das Paket enthält Bücher. = There are books in the package."
+          "example": "Das Paket enthält Bücher. = Pakā ir grāmatas."
         },
         {
           "word": "beinhalten",
           "meaning": "Include",
-          "example": "Der Text beinhaltet Beispiele. = The text includes examples."
+          "example": "Der Text beinhaltet Beispiele. = Teksts ietver piemērus."
         },
         {
           "word": "halten",
           "meaning": "Hold",
-          "example": "Ich halte die Tasche. = I'm holding a bag."
+          "example": "Ich halte die Tasche. = Es turu somu."
         }
       ],
       "tip": {
@@ -20169,17 +20169,17 @@ const B1_WORDS = [
         {
           "word": "entkommen",
           "meaning": "Escape / escape",
-          "example": "Er ist der Gefahr entkommen. = He escaped from danger."
+          "example": "Er ist der Gefahr entkommen. = Viņš izbēga no briesmām."
         },
         {
           "word": "fliehen",
           "meaning": "Run away",
-          "example": "Viele Menschen fliehen aus der Stadt. = Many people are fleeing the city."
+          "example": "Viele Menschen fliehen aus der Stadt. = Daudzi cilvēki bēg no pilsētas."
         },
         {
           "word": "sich retten",
           "meaning": "Save yourself",
-          "example": "Sie rettet sich aus dem Haus. = She escapes from the house."
+          "example": "Sie rettet sich aus dem Haus. = Viņa izglābjas no mājas."
         }
       ],
       "tip": {
@@ -20336,17 +20336,17 @@ const B1_WORDS = [
         {
           "word": "entlassen",
           "meaning": "Dismiss / discharge / release",
-          "example": "Sie wurde entlassen. = She was fired."
+          "example": "Sie wurde entlassen. = Viņa tika atlaista."
         },
         {
           "word": "kündigen",
           "meaning": "Terminate a job or contract",
-          "example": "Er kündigt den Vertrag. = He praises the contract."
+          "example": "Er kündigt den Vertrag. = Viņš uzteic līgumu."
         },
         {
           "word": "freilassen",
           "meaning": "Set free",
-          "example": "Die Polizei lässt ihn frei. = The police let him go."
+          "example": "Die Polizei lässt ihn frei. = Policija viņu palaiž brīvībā."
         }
       ],
       "tip": {
@@ -20529,17 +20529,17 @@ const B1_WORDS = [
         {
           "word": "entsprechen",
           "meaning": "Corresponds to",
-          "example": "Das entspricht dem Plan. = It goes with the plan."
+          "example": "Das entspricht dem Plan. = Tas atbilst plānam."
         },
         {
           "word": "passen",
           "meaning": "Fit / fit",
-          "example": "Der Schlüssel passt nicht. = The key does not work."
+          "example": "Der Schlüssel passt nicht. = Atslēga neder."
         },
         {
           "word": "antworten",
           "meaning": "To answer",
-          "example": "Sie antwortet auf die Frage. = She answers the question."
+          "example": "Sie antwortet auf die Frage. = Viņa atbild uz jautājumu."
         }
       ],
       "tip": {
@@ -20695,17 +20695,17 @@ const B1_WORDS = [
         {
           "word": "entstehen",
           "meaning": "Arise / become",
-          "example": "Ein Problem entsteht. = A problem occurs."
+          "example": "Ein Problem entsteht. = Rodas problēma."
         },
         {
           "word": "schaffen",
           "meaning": "To create consciously",
-          "example": "Sie schafft neue Arbeitsplätze. = She creates new jobs."
+          "example": "Sie schafft neue Arbeitsplätze. = Viņa rada jaunas darba vietas."
         },
         {
           "word": "passieren",
           "meaning": "Happen",
-          "example": "Was ist passiert? = What happened?"
+          "example": "Was ist passiert? = Kas notika?"
         }
       ],
       "tip": {
@@ -21005,17 +21005,17 @@ const B1_WORDS = [
         {
           "word": "erhalten",
           "meaning": "Receive / save",
-          "example": "Ich erhalte einen Brief. = I receive a letter."
+          "example": "Ich erhalte einen Brief. = Es saņemu vēstuli."
         },
         {
           "word": "bekommen",
           "meaning": "Receive everyday",
-          "example": "Ich bekomme Hilfe. = I am getting help."
+          "example": "Ich bekomme Hilfe. = Es saņemu palīdzību."
         },
         {
           "word": "bewahren",
           "meaning": "Save",
-          "example": "Wir bewahren die Tradition. = We keep the tradition alive."
+          "example": "Wir bewahren die Tradition. = Mēs saglabājam tradīciju."
         }
       ],
       "tip": {
@@ -21289,17 +21289,17 @@ const B1_WORDS = [
         {
           "word": "eröffnen",
           "meaning": "Officially open / reveal",
-          "example": "Sie eröffnet ein Konto. = She opens an account."
+          "example": "Sie eröffnet ein Konto. = Viņa atver kontu."
         },
         {
           "word": "öffnen",
           "meaning": "Physically open",
-          "example": "Ich öffne die Tür. = I open the door."
+          "example": "Ich öffne die Tür. = Es atveru durvis."
         },
         {
           "word": "beginnen",
           "meaning": "To start",
-          "example": "Wir beginnen die Sitzung. = We start the session."
+          "example": "Wir beginnen die Sitzung. = Mēs sākam sēdi."
         }
       ],
       "tip": {
@@ -21482,17 +21482,17 @@ const B1_WORDS = [
         {
           "word": "erscheinen",
           "meaning": "Appear / come out / arrive",
-          "example": "Der Artikel erscheint morgen. = The article will be published tomorrow."
+          "example": "Der Artikel erscheint morgen. = Raksts iznāks rīt."
         },
         {
           "word": "auftauchen",
           "meaning": "To appear",
-          "example": "Er taucht plötzlich auf. = He suddenly appears."
+          "example": "Er taucht plötzlich auf. = Viņš pēkšņi uzrodas."
         },
         {
           "word": "ankommen",
           "meaning": "Arrive at the location",
-          "example": "Der Zug kommt an. = The train arrives."
+          "example": "Der Zug kommt an. = Vilciens pienāk."
         }
       ],
       "tip": {
@@ -21654,17 +21654,17 @@ const B1_WORDS = [
         {
           "word": "ersetzen",
           "meaning": "Replace / compensate",
-          "example": "Das ersetzt die alte Lösung. = It replaces the old solution."
+          "example": "Das ersetzt die alte Lösung. = Tas aizstāj veco risinājumu."
         },
         {
           "word": "austauschen",
           "meaning": "Replace",
-          "example": "Wir tauschen das Teil aus. = We replace the part."
+          "example": "Wir tauschen das Teil aus. = Mēs nomainām detaļu."
         },
         {
           "word": "entschädigen",
           "meaning": "Compensate",
-          "example": "Die Firma entschädigt den Kunden. = The firm compensates the client."
+          "example": "Die Firma entschädigt den Kunden. = Firma kompensē klientam."
         }
       ],
       "tip": {
@@ -22098,17 +22098,17 @@ const B1_WORDS = [
         {
           "word": "fassen",
           "meaning": "Grasp / encompass / fit",
-          "example": "Ich kann es nicht fassen. = I can't fathom it."
+          "example": "Ich kann es nicht fassen. = Es to nespēju aptvert."
         },
         {
           "word": "greifen",
           "meaning": "To grasp with the hand",
-          "example": "Er greift nach der Tasche. = He reaches for his bag."
+          "example": "Er greift nach der Tasche. = Viņš sniedzas pēc somas."
         },
         {
           "word": "verstehen",
           "meaning": "To understand",
-          "example": "Ich verstehe dich. = I understand you."
+          "example": "Ich verstehe dich. = Es tevi saprotu."
         }
       ],
       "tip": {
@@ -22271,17 +22271,17 @@ const B1_WORDS = [
         {
           "word": "faul",
           "meaning": "Lazy / rotten",
-          "example": "Er ist faul. = He is lazy."
+          "example": "Er ist faul. = Viņš ir slinks."
         },
         {
           "word": "träge",
           "meaning": "Sluggish / lazy",
-          "example": "Er wirkt heute träge. = He seems lazy today."
+          "example": "Er wirkt heute träge. = Viņš šodien šķiet kūtrs."
         },
         {
           "word": "verdorben",
           "meaning": "Broke down",
-          "example": "Das Essen ist verdorben. = The food has spoiled."
+          "example": "Das Essen ist verdorben. = Ēdiens ir sabojājies."
         }
       ],
       "tip": {
@@ -22528,17 +22528,17 @@ const B1_WORDS = [
         {
           "word": "festhalten",
           "meaning": "Hold tight / record",
-          "example": "Halte das Seil fest. = Hold the rope tight."
+          "example": "Halte das Seil fest. = Turi virvi cieši."
         },
         {
           "word": "halten",
           "meaning": "Hold",
-          "example": "Ich halte die Tasche. = I'm holding a bag."
+          "example": "Ich halte die Tasche. = Es turu somu."
         },
         {
           "word": "feststellen",
           "meaning": "To establish",
-          "example": "Ich stelle einen Fehler fest. = I found an error."
+          "example": "Ich stelle einen Fehler fest. = Es konstatēju kļūdu."
         }
       ],
       "tip": {
@@ -22688,17 +22688,17 @@ const B1_WORDS = [
         {
           "word": "festlegen",
           "meaning": "Determine in advance",
-          "example": "Wir legen den Plan fest. = We set a plan."
+          "example": "Wir legen den Plan fest. = Mēs nosakām plānu."
         },
         {
           "word": "bestimmen",
           "meaning": "Determine",
-          "example": "Der Arzt bestimmt die Dosis. = The doctor determines the dose."
+          "example": "Der Arzt bestimmt die Dosis. = Ārsts nosaka devu."
         },
         {
           "word": "feststellen",
           "meaning": "To establish",
-          "example": "Ich stelle einen Fehler fest. = I found an error."
+          "example": "Ich stelle einen Fehler fest. = Es konstatēju kļūdu."
         }
       ],
       "tip": {
@@ -22860,17 +22860,17 @@ const B1_WORDS = [
         {
           "word": "feststellen",
           "meaning": "Establish / find out the fact",
-          "example": "Ich stelle einen Fehler fest. = I found an error."
+          "example": "Ich stelle einen Fehler fest. = Es konstatēju kļūdu."
         },
         {
           "word": "festlegen",
           "meaning": "Determine in advance",
-          "example": "Wir legen den Termin fest. = We set a deadline."
+          "example": "Wir legen den Termin fest. = Mēs nosakām termiņu."
         },
         {
           "word": "bemerken",
           "meaning": "To notice",
-          "example": "Ich bemerke den Fehler. = I notice an error."
+          "example": "Ich bemerke den Fehler. = Es pamanu kļūdu."
         }
       ],
       "tip": {
@@ -23250,17 +23250,17 @@ const B1_WORDS = [
         {
           "word": "die Folge",
           "meaning": "Consequence / episode",
-          "example": "Das hat Folgen. = It has consequences."
+          "example": "Das hat Folgen. = Tam ir sekas."
         },
         {
           "word": "die Konsequenz",
           "meaning": "Consequence / logical outcome",
-          "example": "Das ist die Konsequenz. = These are the consequences."
+          "example": "Das ist die Konsequenz. = Tās ir sekas."
         },
         {
           "word": "die Episode",
           "meaning": "Episode",
-          "example": "Die Episode ist kurz. = The episode is short."
+          "example": "Die Episode ist kurz. = Epizode ir īsa."
         }
       ],
       "tip": {
@@ -23423,17 +23423,17 @@ const B1_WORDS = [
         {
           "word": "fördern",
           "meaning": "Promote / support / extract minerals",
-          "example": "Das fördert die Entwicklung. = It promotes development."
+          "example": "Das fördert die Entwicklung. = Tas veicina attīstību."
         },
         {
           "word": "fordern",
           "meaning": "Ask for",
-          "example": "Sie fordert mehr Geld. = She asks for more money."
+          "example": "Sie fordert mehr Geld. = Viņa prasa vairāk naudas."
         },
         {
           "word": "unterstützen",
           "meaning": "To support",
-          "example": "Wir unterstützen das Projekt. = We support the project."
+          "example": "Wir unterstützen das Projekt. = Mēs atbalstām projektu."
         }
       ],
       "tip": {
@@ -23613,17 +23613,17 @@ const B1_WORDS = [
         {
           "word": "fortfahren",
           "meaning": "Continue / drive away",
-          "example": "Fahren Sie fort. = Continue."
+          "example": "Fahren Sie fort. = Turpiniet."
         },
         {
           "word": "weitermachen",
           "meaning": "Keep doing",
-          "example": "Wir machen morgen weiter. = We will continue tomorrow."
+          "example": "Wir machen morgen weiter. = Mēs rīt turpināsim."
         },
         {
           "word": "wegfahren",
           "meaning": "To leave",
-          "example": "Er fährt weg. = He leaves."
+          "example": "Er fährt weg. = Viņš aizbrauc."
         }
       ],
       "tip": {
@@ -23855,17 +23855,17 @@ const B1_WORDS = [
         {
           "word": "fressen",
           "meaning": "Eat the animal / tomorrow",
-          "example": "Der Hund frisst. = The dog eats."
+          "example": "Der Hund frisst. = Suns ēd."
         },
         {
           "word": "essen",
           "meaning": "To eat a person",
-          "example": "Ich esse Brot. = I eat bread."
+          "example": "Ich esse Brot. = Es ēdu maizi."
         },
         {
           "word": "verschlingen",
           "meaning": "Swallow",
-          "example": "Er verschlingt das Essen. = He devours food."
+          "example": "Er verschlingt das Essen. = Viņš aprij ēdienu."
         }
       ],
       "tip": {
@@ -24149,17 +24149,17 @@ const B1_WORDS = [
         {
           "word": "das Futter",
           "meaning": "Animal feed / lining",
-          "example": "Das Futter ist teuer. = Food is expensive."
+          "example": "Das Futter ist teuer. = Barība ir dārga."
         },
         {
           "word": "das Essen",
           "meaning": "Food for people",
-          "example": "Das Essen ist fertig. = The food is ready."
+          "example": "Das Essen ist fertig. = Ēdiens ir gatavs."
         },
         {
           "word": "die Nahrung",
           "meaning": "Nutrition",
-          "example": "Pflanzen brauchen Nahrung. = Plants need nutrition."
+          "example": "Pflanzen brauchen Nahrung. = Augiem vajag uzturu."
         }
       ],
       "tip": {
@@ -24598,17 +24598,17 @@ const B1_WORDS = [
         {
           "word": "das Gebiet",
           "meaning": "Area / territory",
-          "example": "Das ist mein Gebiet. = That's my field."
+          "example": "Das ist mein Gebiet. = Tā ir mana joma."
         },
         {
           "word": "der Bereich",
           "meaning": "Area / zone / section",
-          "example": "Dieser Bereich ist wichtig. = This area is important."
+          "example": "Dieser Bereich ist wichtig. = Šī joma ir svarīga."
         },
         {
           "word": "die Gegend",
           "meaning": "Neighborhood",
-          "example": "Die Gegend ist schön. = The surroundings are beautiful."
+          "example": "Die Gegend ist schön. = Apkārtne ir skaista."
         }
       ],
       "tip": {
@@ -24949,17 +24949,17 @@ const B1_WORDS = [
         {
           "word": "das Gehalt",
           "meaning": "Salary • Remuneration",
-          "example": "Das Gehalt ist gut. = The salary is good. Plural: die Gehälter."
+          "example": "Das Gehalt ist gut. = Alga ir laba. Plural: die Gehälter."
         },
         {
           "word": "der Gehalt",
           "meaning": "Content • Substance",
-          "example": "Der Gehalt ist klar. = The content is clear. Plural: die Gehalte."
+          "example": "Der Gehalt ist klar. = Saturs ir skaidrs. Plural: die Gehalte."
         },
         {
           "word": "der Verdienst",
           "meaning": "Earned • Income",
-          "example": "Sein Verdienst ist hoch. = His income is high."
+          "example": "Sein Verdienst ist hoch. = Viņa ienākums ir augsts."
         }
       ],
       "tip": {
@@ -25048,17 +25048,17 @@ const B1_WORDS = [
         {
           "word": "der Gehalt",
           "meaning": "Content • Substance",
-          "example": "Der Gehalt ist klar. = The content is clear. Plural: die Gehalte."
+          "example": "Der Gehalt ist klar. = Saturs ir skaidrs. Plural: die Gehalte."
         },
         {
           "word": "das Gehalt",
           "meaning": "Salary • Remuneration",
-          "example": "Das Gehalt ist gut. = The salary is good. Plural: die Gehälter."
+          "example": "Das Gehalt ist gut. = Alga ir laba. Plural: die Gehälter."
         },
         {
           "word": "der Inhalt",
           "meaning": "Content (general)",
-          "example": "Der Inhalt ist interessant. = The content is interesting."
+          "example": "Der Inhalt ist interessant. = Saturs ir interesants."
         }
       ],
       "tip": {
@@ -25270,17 +25270,17 @@ const B1_WORDS = [
         {
           "word": "gelten",
           "meaning": "To be valid / to be valid",
-          "example": "Das Gesetz gilt überall. = The law applies everywhere."
+          "example": "Das Gesetz gilt überall. = Likums ir spēkā visur."
         },
         {
           "word": "gelten als",
           "meaning": "To be regarded as",
-          "example": "Sie gilt als Expertin. = She is considered an expert."
+          "example": "Sie gilt als Expertin. = Viņa tiek uzskatīta par eksperti."
         },
         {
           "word": "passen",
           "meaning": "Fit / fit",
-          "example": "Der Schlüssel passt nicht. = The key does not work."
+          "example": "Der Schlüssel passt nicht. = Atslēga neder."
         }
       ],
       "tip": {
@@ -25438,17 +25438,17 @@ const B1_WORDS = [
         {
           "word": "gemein",
           "meaning": "Wicked / mean / nasty",
-          "example": "Das ist gemein. = It is dishonest."
+          "example": "Das ist gemein. = Tas ir nekrietni."
         },
         {
           "word": "gemeinsam",
           "meaning": "Common",
-          "example": "Wir haben ein gemeinsames Ziel. = We have a common goal."
+          "example": "Wir haben ein gemeinsames Ziel. = Mums ir kopīgs mērķis."
         },
         {
           "word": "gewöhnlich",
           "meaning": "Ordinary",
-          "example": "Das ist gewöhnlich. = This is normal."
+          "example": "Das ist gewöhnlich. = Tas ir parasts."
         }
       ],
       "tip": {
@@ -25691,17 +25691,17 @@ const B1_WORDS = [
         {
           "word": "das Gerät",
           "meaning": "Device / apparatus",
-          "example": "Das Gerät ist neu. = The device is new."
+          "example": "Das Gerät ist neu. = Ierīce ir jauna."
         },
         {
           "word": "das Werkzeug",
           "meaning": "Instrument",
-          "example": "Das Werkzeug liegt im Keller. = The instrument is in the basement."
+          "example": "Das Werkzeug liegt im Keller. = Instruments atrodas pagrabā."
         },
         {
           "word": "die Maschine",
           "meaning": "Machine / equipment",
-          "example": "Die Maschine läuft den ganzen Tag. = The machine works all day."
+          "example": "Die Maschine läuft den ganzen Tag. = Iekārta darbojas visu dienu."
         }
       ],
       "tip": {
@@ -25956,17 +25956,17 @@ const B1_WORDS = [
         {
           "word": "das Geschlecht",
           "meaning": "Gender / gender",
-          "example": "Das Geschlecht wird im Formular gefragt. = The form asks for gender."
+          "example": "Das Geschlecht wird im Formular gefragt. = Veidlapā jautā dzimumu."
         },
         {
           "word": "das Genus",
           "meaning": "Grammatical gender",
-          "example": "Das Genus ist feminin. = Gender is female."
+          "example": "Das Genus ist feminin. = Dzimte ir sieviešu."
         },
         {
           "word": "die Generation",
           "meaning": "Generation",
-          "example": "Diese Generation ist jung. = This generation is young."
+          "example": "Diese Generation ist jung. = Šī paaudze ir jauna."
         }
       ],
       "tip": {
@@ -26121,17 +26121,17 @@ const B1_WORDS = [
         {
           "word": "die Gesellschaft",
           "meaning": "Society / company",
-          "example": "Die Gesellschaft verändert sich. = Society is changing."
+          "example": "Die Gesellschaft verändert sich. = Sabiedrība mainās."
         },
         {
           "word": "die Firma",
           "meaning": "Firm",
-          "example": "Die Firma wächst schnell. = The company is growing rapidly."
+          "example": "Die Firma wächst schnell. = Firma strauji aug."
         },
         {
           "word": "die Gemeinschaft",
           "meaning": "Community",
-          "example": "Die Gemeinschaft hilft einander. = The community helps each other."
+          "example": "Die Gemeinschaft hilft einander. = Kopiena palīdz cita citai."
         }
       ],
       "tip": {
@@ -26375,17 +26375,17 @@ const B1_WORDS = [
         {
           "word": "der Gewinn",
           "meaning": "Profit / prize",
-          "example": "Der Gewinn ist hoch. = The profit is great."
+          "example": "Der Gewinn ist hoch. = Peļņa ir liela."
         },
         {
           "word": "der Umsatz",
           "meaning": "Turnover",
-          "example": "Der Umsatz steigt. = Turnover is growing."
+          "example": "Der Umsatz steigt. = Apgrozījums aug."
         },
         {
           "word": "der Preis",
           "meaning": "Price / prize",
-          "example": "Der Preis ist hoch. = The price is high."
+          "example": "Der Preis ist hoch. = Cena ir augsta."
         }
       ],
       "tip": {
@@ -26535,17 +26535,17 @@ const B1_WORDS = [
         {
           "word": "gewiss",
           "meaning": "Sure / certain / definitely",
-          "example": "Das ist gewiss. = It is safe."
+          "example": "Das ist gewiss. = Tas ir droši."
         },
         {
           "word": "sicher",
           "meaning": "Sure / definitely",
-          "example": "Das ist sicher. = It is safe."
+          "example": "Das ist sicher. = Tas ir droši."
         },
         {
           "word": "bestimmt",
           "meaning": "Definitely / determined",
-          "example": "Er kommt bestimmt. = He will surely come."
+          "example": "Er kommt bestimmt. = Viņš noteikti atnāks."
         }
       ],
       "tip": {
@@ -26714,17 +26714,17 @@ const B1_WORDS = [
         {
           "word": "sich gewöhnen an",
           "meaning": "Get used to",
-          "example": "Ich gewöhne mich daran. = I'm getting used to it."
+          "example": "Ich gewöhne mich daran. = Es pie tā pierodu."
         },
         {
           "word": "gewöhnen",
           "meaning": "Tame",
-          "example": "Ich gewöhne das Kind daran. = I am getting the child used to it."
+          "example": "Ich gewöhne das Kind daran. = Es pieradinu bērnu pie tā."
         },
         {
           "word": "sich eingewöhnen",
           "meaning": "Settle into a new environment",
-          "example": "Ich gewöhne mich langsam ein. = I slowly settled in."
+          "example": "Ich gewöhne mich langsam ein. = Es lēnām iedzīvojos."
         }
       ],
       "tip": {
@@ -26901,17 +26901,17 @@ const B1_WORDS = [
         {
           "word": "das Gitter",
           "meaning": "Grid / bars",
-          "example": "Das Gitter schützt das Fenster. = A grid protects the window."
+          "example": "Das Gitter schützt das Fenster. = Režģis aizsargā logu."
         },
         {
           "word": "das Geländer",
           "meaning": "Railing",
-          "example": "Halt dich am Geländer fest. = Hold on to the railing."
+          "example": "Halt dich am Geländer fest. = Turies pie margām."
         },
         {
           "word": "der Zaun",
           "meaning": "Fence",
-          "example": "Der Zaun ist aus Holz. = The fence is made of wood."
+          "example": "Der Zaun ist aus Holz. = Žogs ir no koka."
         }
       ],
       "tip": {
@@ -27209,17 +27209,17 @@ const B1_WORDS = [
         {
           "word": "greifen",
           "meaning": "Grasp / reach out / reach for",
-          "example": "Sie greift nach dem Glas. = She reaches for the glass."
+          "example": "Sie greift nach dem Glas. = Viņa sniedzas pēc glāzes."
         },
         {
           "word": "fassen",
           "meaning": "Grasp / encompass",
-          "example": "Fass meine Hand! = Grab my hand!"
+          "example": "Fass meine Hand! = Satver manu roku!"
         },
         {
           "word": "nehmen",
           "meaning": "To take",
-          "example": "Nimm bitte das Glas. = Take a glass, please."
+          "example": "Nimm bitte das Glas. = Paņem, lūdzu, glāzi."
         }
       ],
       "tip": {
@@ -27394,17 +27394,17 @@ const B1_WORDS = [
         {
           "word": "der Griff",
           "meaning": "Handle / grip",
-          "example": "Der Griff ist aus Metall. = The handle is made of metal."
+          "example": "Der Griff ist aus Metall. = Rokturis ir no metāla."
         },
         {
           "word": "der Henkel",
           "meaning": "Handle",
-          "example": "Die Tasse hat einen Henkel. = The cup has a thistle."
+          "example": "Die Tasse hat einen Henkel. = Krūzei ir osa."
         },
         {
           "word": "greifen",
           "meaning": "To grasp",
-          "example": "Sie greift nach dem Glas. = She reaches for the glass."
+          "example": "Sie greift nach dem Glas. = Viņa sniedzas pēc glāzes."
         }
       ],
       "tip": {
@@ -27680,17 +27680,17 @@ const B1_WORDS = [
         {
           "word": "das Gut",
           "meaning": "Property / estate / manor",
-          "example": "Das Gut ist alt. = The manor is old."
+          "example": "Das Gut ist alt. = Muiža ir veca."
         },
         {
           "word": "die Güter",
           "meaning": "Goods / material values",
-          "example": "Der Zug bringt Güter. = The train carries goods."
+          "example": "Der Zug bringt Güter. = Vilciens ved preces."
         },
         {
           "word": "gut",
           "meaning": "Good",
-          "example": "Das Essen ist gut. = The food is good."
+          "example": "Das Essen ist gut. = Ēdiens ir labs."
         }
       ],
       "tip": {
@@ -28012,17 +28012,17 @@ const B1_WORDS = [
         {
           "word": "handeln",
           "meaning": "Act / be the subject / trade",
-          "example": "Wir müssen handeln. = We must act."
+          "example": "Wir müssen handeln. = Mums jārīkojas."
         },
         {
           "word": "arbeiten",
           "meaning": "To work",
-          "example": "Ich arbeite im Büro. = I work in an office."
+          "example": "Ich arbeite im Büro. = Es strādāju birojā."
         },
         {
           "word": "verkaufen",
           "meaning": "To sell",
-          "example": "Sie verkauft Brot. = She sells bread."
+          "example": "Sie verkauft Brot. = Viņa pārdod maizi."
         }
       ],
       "tip": {
@@ -28179,17 +28179,17 @@ const B1_WORDS = [
         {
           "word": "der Handgriff",
           "meaning": "Technique / movement / handle",
-          "example": "Ein Handgriff reicht. = One technique is enough."
+          "example": "Ein Handgriff reicht. = Pietiek ar vienu paņēmienu."
         },
         {
           "word": "der Griff",
           "meaning": "Handle / grip",
-          "example": "Der Griff ist locker. = The handle is loose."
+          "example": "Der Griff ist locker. = Rokturis ir vaļīgs."
         },
         {
           "word": "die Handlung",
           "meaning": "Action / conduct",
-          "example": "Die Handlung war falsch. = The action was wrong."
+          "example": "Die Handlung war falsch. = Rīcība bija nepareiza."
         }
       ],
       "tip": {
@@ -28421,17 +28421,17 @@ const B1_WORDS = [
         {
           "word": "hauen",
           "meaning": "Hit / cut",
-          "example": "Er haut auf den Tisch. = He hits the table."
+          "example": "Er haut auf den Tisch. = Viņš sit pa galdu."
         },
         {
           "word": "schlagen",
           "meaning": "Hit",
-          "example": "Er schlägt den Ball. = He hits the ball."
+          "example": "Er schlägt den Ball. = Viņš sit bumbu."
         },
         {
           "word": "hacken",
           "meaning": "To chop",
-          "example": "Sie hackt Gemüse. = She is chopping vegetables."
+          "example": "Sie hackt Gemüse. = Viņa kapā dārzeņus."
         }
       ],
       "tip": {
@@ -28584,17 +28584,17 @@ const B1_WORDS = [
         {
           "word": "der Haufen",
           "meaning": "Pile / bunch / herd",
-          "example": "Ein Haufen Sand liegt dort. = There is a pile of sand."
+          "example": "Ein Haufen Sand liegt dort. = Tur ir smilšu kaudze."
         },
         {
           "word": "der Stapel",
           "meaning": "A neat pile",
-          "example": "Ein Stapel Bücher liegt auf dem Tisch. = There is a stack of books on the table."
+          "example": "Ein Stapel Bücher liegt auf dem Tisch. = Uz galda ir grāmatu kaudze."
         },
         {
           "word": "die Menge",
           "meaning": "Quantity / crowd",
-          "example": "Eine Menge Leute wartet. = Many people are waiting."
+          "example": "Eine Menge Leute wartet. = Gaidā daudz cilvēku."
         }
       ],
       "tip": {
@@ -28993,17 +28993,17 @@ const B1_WORDS = [
         {
           "word": "herausgeben",
           "meaning": "Publish / hand out",
-          "example": "Der Verlag gibt ein Buch heraus. = The publishing house publishes a book."
+          "example": "Der Verlag gibt ein Buch heraus. = Izdevniecība izdod grāmatu."
         },
         {
           "word": "ausgeben",
           "meaning": "Spend / distribute",
-          "example": "Er gibt viel Geld aus. = He spends a lot of money."
+          "example": "Er gibt viel Geld aus. = Viņš tērē daudz naudas."
         },
         {
           "word": "zurückgeben",
           "meaning": "Give back",
-          "example": "Ich gebe das Buch zurück. = I return the book."
+          "example": "Ich gebe das Buch zurück. = Es atdodu grāmatu atpakaļ."
         }
       ],
       "tip": {
@@ -29188,17 +29188,17 @@ const B1_WORDS = [
         {
           "word": "herkommen",
           "meaning": "Come here / be from",
-          "example": "Komm her! = Come here!"
+          "example": "Komm her! = Nāc šurp!"
         },
         {
           "word": "kommen",
           "meaning": "To come",
-          "example": "Ich komme um acht. = I will come at eight."
+          "example": "Ich komme um acht. = Es nākšu astoņos."
         },
         {
           "word": "hingehen",
           "meaning": "Go there",
-          "example": "Ich gehe zum Arzt hin. = I went to the doctor."
+          "example": "Ich gehe zum Arzt hin. = Es aizeju pie ārsta."
         }
       ],
       "tip": {
@@ -29419,17 +29419,17 @@ const B1_WORDS = [
         {
           "word": "hinausgehen",
           "meaning": "Go out / exceed",
-          "example": "Ich gehe hinaus. = I go out."
+          "example": "Ich gehe hinaus. = Es izeju ārā."
         },
         {
           "word": "herauskommen",
           "meaning": "Come out here",
-          "example": "Komm bitte heraus! = Please come out!"
+          "example": "Komm bitte heraus! = Iznāc, lūdzu, ārā!"
         },
         {
           "word": "ausgehen",
           "meaning": "Go out to have fun / run out",
-          "example": "Wir gehen heute aus. = We are going out today."
+          "example": "Wir gehen heute aus. = Mēs šodien ejam ārā."
         }
       ],
       "tip": {
@@ -29628,17 +29628,17 @@ const B1_WORDS = [
         {
           "word": "der Hinweis",
           "meaning": "Instruction / note",
-          "example": "Danke für den Hinweis. = Thanks for the instruction."
+          "example": "Danke für den Hinweis. = Paldies par norādījumu."
         },
         {
           "word": "der Rat",
           "meaning": "Advice",
-          "example": "Danke für deinen Rat. = Thanks for your advice."
+          "example": "Danke für deinen Rat. = Paldies par tavu padomu."
         },
         {
           "word": "die Warnung",
           "meaning": "Warning",
-          "example": "Die Warnung war wichtig. = The warning was important."
+          "example": "Die Warnung war wichtig. = Brīdinājums bija svarīgs."
         }
       ],
       "tip": {
@@ -29913,17 +29913,17 @@ const B1_WORDS = [
         {
           "word": "holen",
           "meaning": "Go get and bring",
-          "example": "Ich hole Brot. = I brought bread."
+          "example": "Ich hole Brot. = Es atnesu maizi."
         },
         {
           "word": "bringen",
           "meaning": "Deliver to someone",
-          "example": "Bring mir bitte Wasser. = Bring me water, please."
+          "example": "Bring mir bitte Wasser. = Atnes man, lūdzu, ūdeni."
         },
         {
           "word": "nehmen",
           "meaning": "To take",
-          "example": "Nimm die Tasche. = Take the bag."
+          "example": "Nimm die Tasche. = Paņem somu."
         }
       ],
       "tip": {
@@ -30161,17 +30161,17 @@ const B1_WORDS = [
         {
           "word": "horchen",
           "meaning": "Listen carefully",
-          "example": "Sie horcht an der Tür. = She listens at the door."
+          "example": "Sie horcht an der Tür. = Viņa klausās pie durvīm."
         },
         {
           "word": "hören",
           "meaning": "Hear / listen",
-          "example": "Ich höre Musik. = I listen to music."
+          "example": "Ich höre Musik. = Es klausos mūziku."
         },
         {
           "word": "zuhören",
           "meaning": "Listen to someone",
-          "example": "Hör mir bitte zu. = Please listen to me."
+          "example": "Hör mir bitte zu. = Lūdzu, klausies manī."
         }
       ],
       "tip": {
@@ -30588,17 +30588,17 @@ const B1_WORDS = [
         {
           "word": "die Hupe",
           "meaning": "Horn • Horn",
-          "example": "Die Hupe ist laut. = The horn is loud."
+          "example": "Die Hupe ist laut. = Signāltaure ir skaļa."
         },
         {
           "word": "hupen",
           "meaning": "To signal with the horn",
-          "example": "Er hupt. = He signals."
+          "example": "Er hupt. = Viņš signalizē."
         },
         {
           "word": "das Signal",
           "meaning": "Signal",
-          "example": "Das Signal ist klar. = The signal is clear."
+          "example": "Das Signal ist klar. = Signāls ir skaidrs."
         }
       ],
       "tip": {
@@ -30706,17 +30706,17 @@ const B1_WORDS = [
         {
           "word": "hüten",
           "meaning": "Guard / look after / shepherd",
-          "example": "Sie hütet die Kinder. = She looks after the children."
+          "example": "Sie hütet die Kinder. = Viņa pieskata bērnus."
         },
         {
           "word": "bewachen",
           "meaning": "To guard",
-          "example": "Der Hund bewacht das Haus. = The dog guards the house."
+          "example": "Der Hund bewacht das Haus. = Suns apsargā māju."
         },
         {
           "word": "aufpassen",
           "meaning": "Watch out / look after",
-          "example": "Pass auf die Kinder auf. = Look after the children."
+          "example": "Pass auf die Kinder auf. = Pieskati bērnus."
         }
       ],
       "tip": {
@@ -31087,17 +31087,17 @@ const B1_WORDS = [
         {
           "word": "innerhalb",
           "meaning": "Inside / during / within",
-          "example": "Innerhalb einer Woche. = During the week."
+          "example": "Innerhalb einer Woche. = Nedēļas laikā."
         },
         {
           "word": "außerhalb",
           "meaning": "Outside",
-          "example": "Wir wohnen außerhalb der Stadt. = We live outside the city."
+          "example": "Wir wohnen außerhalb der Stadt. = Mēs dzīvojam ārpus pilsētas."
         },
         {
           "word": "in",
           "meaning": "In / after",
-          "example": "Ich bin in der Stadt. = I'm in town."
+          "example": "Ich bin in der Stadt. = Es esmu pilsētā."
         }
       ],
       "tip": {
@@ -31394,17 +31394,17 @@ const B1_WORDS = [
         {
           "word": "sich irren",
           "meaning": "To be wrong",
-          "example": "Ich irre mich. = I'm wrong."
+          "example": "Ich irre mich. = Es kļūdos."
         },
         {
           "word": "sich täuschen",
           "meaning": "To be mistaken / to be deceived",
-          "example": "Ich habe mich getäuscht. = I was wrong."
+          "example": "Ich habe mich getäuscht. = Es kļūdījos."
         },
         {
           "word": "sich verlaufen",
           "meaning": "Get lost on foot",
-          "example": "Wir haben uns verlaufen. = We got lost."
+          "example": "Wir haben uns verlaufen. = Mēs apmaldījāmies."
         }
       ],
       "tip": {
@@ -31607,17 +31607,17 @@ const B1_WORDS = [
         {
           "word": "jagen",
           "meaning": "Hunt / chase / rush",
-          "example": "Der Hund jagt die Katze. = The dog chases the cat."
+          "example": "Der Hund jagt die Katze. = Suns dzen kaķi."
         },
         {
           "word": "verfolgen",
           "meaning": "Follow / pursue",
-          "example": "Die Polizei verfolgt den Täter. = The police are chasing the culprit."
+          "example": "Die Polizei verfolgt den Täter. = Policija vajā vainīgo."
         },
         {
           "word": "sich beeilen",
           "meaning": "Hurry up",
-          "example": "Ich muss mich beeilen. = I have to hurry."
+          "example": "Ich muss mich beeilen. = Man jāsteidzas."
         }
       ],
       "tip": {
@@ -31820,17 +31820,17 @@ const B1_WORDS = [
         {
           "word": "der Jahrgang",
           "meaning": "Graduation / group of a specific year",
-          "example": "Er ist Jahrgang 1995. = He was born in 1995."
+          "example": "Er ist Jahrgang 1995. = Viņš ir dzimis 1995. gadā."
         },
         {
           "word": "das Jahr",
           "meaning": "Year",
-          "example": "Das Jahr hat zwölf Monate. = There are twelve months in a year."
+          "example": "Das Jahr hat zwölf Monate. = Gadā ir divpadsmit mēneši."
         },
         {
           "word": "die Generation",
           "meaning": "Generation",
-          "example": "Diese Generation reist viel. = This generation travels a lot."
+          "example": "Diese Generation reist viel. = Šī paaudze daudz ceļo."
         }
       ],
       "tip": {
@@ -32719,17 +32719,17 @@ const B1_WORDS = [
         {
           "word": "kehren",
           "meaning": "Sweep / turn",
-          "example": "Sie kehrt den Hof. = She sweeps the yard."
+          "example": "Sie kehrt den Hof. = Viņa slauka pagalmu."
         },
         {
           "word": "fegen",
           "meaning": "To sweep",
-          "example": "Ich fege den Boden. = I sweep the floor."
+          "example": "Ich fege den Boden. = Es slauku grīdu."
         },
         {
           "word": "zurückkehren",
           "meaning": "To return",
-          "example": "Er kehrt nach Hause zurück. = He returns home."
+          "example": "Er kehrt nach Hause zurück. = Viņš atgriežas mājās."
         }
       ],
       "tip": {
@@ -32934,17 +32934,17 @@ const B1_WORDS = [
         {
           "word": "der Kern",
           "meaning": "Core / essence / seed",
-          "example": "Der Kern der Sache ist wichtig. = The substance of the case is important."
+          "example": "Der Kern der Sache ist wichtig. = Lietas būtība ir svarīga."
         },
         {
           "word": "der Samen",
           "meaning": "Seed",
-          "example": "Die Samen liegen auf der Erde. = The seeds lie on the ground."
+          "example": "Die Samen liegen auf der Erde. = Sēklas guļ uz zemes."
         },
         {
           "word": "der Mittelpunkt",
           "meaning": "centre",
-          "example": "Der Tisch steht im Mittelpunkt. = The table stands in the centre."
+          "example": "Der Tisch steht im Mittelpunkt. = Galds stāv centrā."
         }
       ],
       "tip": {
@@ -33128,17 +33128,17 @@ const B1_WORDS = [
         {
           "word": "der Kiefer",
           "meaning": "Jaw",
-          "example": "Der Kiefer tut weh. = Jaw hurts."
+          "example": "Der Kiefer tut weh. = Žoklis sāp."
         },
         {
           "word": "die Kiefer",
           "meaning": "Pine tree",
-          "example": "Die Kiefer ist hoch. = The pine tree is tall."
+          "example": "Die Kiefer ist hoch. = Priede ir augsta."
         },
         {
           "word": "der Kiefernwald",
           "meaning": "Pine forest",
-          "example": "Der Kiefernwald ist trocken. = The pine forest is dry."
+          "example": "Der Kiefernwald ist trocken. = Priežu mežs ir sauss."
         }
       ],
       "tip": {
@@ -33314,17 +33314,17 @@ const B1_WORDS = [
         {
           "word": "kippen",
           "meaning": "Tip over / tip over / change",
-          "example": "Das Glas kippt um. = The glass overturns."
+          "example": "Das Glas kippt um. = Glāze apgāžas."
         },
         {
           "word": "fallen",
           "meaning": "To fall",
-          "example": "Das Glas fällt auf den Boden. = The glass falls on the floor."
+          "example": "Das Glas fällt auf den Boden. = Glāze krīt uz grīdas."
         },
         {
           "word": "umdrehen",
           "meaning": "To turn over",
-          "example": "Dreh die Karte um. = Flip the card over."
+          "example": "Dreh die Karte um. = Apgriez kartīti."
         }
       ],
       "tip": {
@@ -33516,17 +33516,17 @@ const B1_WORDS = [
         {
           "word": "klappen",
           "meaning": "To succeed / to work",
-          "example": "Alles hat geklappt. = Everything worked out."
+          "example": "Alles hat geklappt. = Viss izdevās."
         },
         {
           "word": "funktionieren",
           "meaning": "To operate",
-          "example": "Der Drucker funktioniert. = The printer is working."
+          "example": "Der Drucker funktioniert. = Printeris darbojas."
         },
         {
           "word": "gelingen",
           "meaning": "Succeed",
-          "example": "Der Kuchen ist gelungen. = The cake was successful."
+          "example": "Der Kuchen ist gelungen. = Kūka izdevās."
         }
       ],
       "tip": {
@@ -33843,17 +33843,17 @@ const B1_WORDS = [
         {
           "word": "knapp",
           "meaning": "Little / barely / with a small margin",
-          "example": "Die Zeit ist knapp. = Time is short."
+          "example": "Die Zeit ist knapp. = Laika ir maz."
         },
         {
           "word": "eng",
           "meaning": "Narrow / tight",
-          "example": "Der Raum ist eng. = The room is narrow."
+          "example": "Der Raum ist eng. = Telpa ir šaura."
         },
         {
           "word": "kurz",
           "meaning": "Short",
-          "example": "Die Antwort ist kurz. = The answer is short."
+          "example": "Die Antwort ist kurz. = Atbilde ir īsa."
         }
       ],
       "tip": {
@@ -34151,17 +34151,17 @@ const B1_WORDS = [
         {
           "word": "das Kommando",
           "meaning": "Order / command",
-          "example": "Warte auf mein Kommando. = Wait for my team."
+          "example": "Warte auf mein Kommando. = Gaidi manu komandu."
         },
         {
           "word": "der Befehl",
           "meaning": "Command",
-          "example": "Der Befehl kam vom Chef. = The order came from the boss."
+          "example": "Der Befehl kam vom Chef. = Pavēle nāca no priekšnieka."
         },
         {
           "word": "die Mannschaft",
           "meaning": "Team in sports",
-          "example": "Die Mannschaft spielt gut. = The team is playing well."
+          "example": "Die Mannschaft spielt gut. = Komanda spēlē labi."
         }
       ],
       "tip": "An order that everyone acts on at the same time → das Kommando.",
@@ -34650,17 +34650,17 @@ const B1_WORDS = [
         {
           "word": "das Kraftwerk",
           "meaning": "Power plant",
-          "example": "Das Kraftwerk ist groß. = The power plant is big."
+          "example": "Das Kraftwerk ist groß. = Spēkstacija ir liela."
         },
         {
           "word": "das Atomkraftwerk",
           "meaning": "Nuclear power plant",
-          "example": "Das Atomkraftwerk ist umstritten. = The nuclear power plant is controversial."
+          "example": "Das Atomkraftwerk ist umstritten. = Atomspēkstacija ir pretrunīga."
         },
         {
           "word": "die Fabrik",
           "meaning": "Factory",
-          "example": "Die Fabrik produziert Autos. = The factory produces cars."
+          "example": "Die Fabrik produziert Autos. = Fabrika ražo automašīnas."
         }
       ],
       "tip": {
@@ -34901,17 +34901,17 @@ const B1_WORDS = [
         {
           "word": "kreuzen",
           "meaning": "To cross / intersect",
-          "example": "Die Wege kreuzen sich. = The paths cross."
+          "example": "Die Wege kreuzen sich. = Ceļi krustojas."
         },
         {
           "word": "überqueren",
           "meaning": "To cross",
-          "example": "Wir überqueren die Straße. = We cross the street."
+          "example": "Wir überqueren die Straße. = Mēs šķērsojam ielu."
         },
         {
           "word": "ankreuzen",
           "meaning": "Mark with a cross",
-          "example": "Kreuzen Sie die Antwort an. = Mark the answer."
+          "example": "Kreuzen Sie die Antwort an. = Atzīmējiet atbildi."
         }
       ],
       "tip": "If the lines or paths form a cross, kreuzen is often used.",
@@ -35194,17 +35194,17 @@ const B1_WORDS = [
         {
           "word": "der Kunde",
           "meaning": "Customer",
-          "example": "Der Kunde wartet. = The customer is waiting."
+          "example": "Der Kunde wartet. = Klients gaida."
         },
         {
           "word": "die Kundin",
           "meaning": "Customer",
-          "example": "Die Kundin fragt nach dem Preis. = The customer asks about the price."
+          "example": "Die Kundin fragt nach dem Preis. = Kliente jautā par cenu."
         },
         {
           "word": "die Kunde",
           "meaning": "Message",
-          "example": "Die Kunde kam spät. = The message came late."
+          "example": "Die Kunde kam spät. = Vēsts pienāca vēlu."
         }
       ],
       "tip": "In a shop or service almost always: der Kunde = customer.",
@@ -35328,17 +35328,17 @@ const B1_WORDS = [
         {
           "word": "die Kunde",
           "meaning": "Message • Message",
-          "example": "Die Kunde kam spät. = The message came late."
+          "example": "Die Kunde kam spät. = Vēsts pienāca vēlu."
         },
         {
           "word": "der Kunde",
           "meaning": "Customer",
-          "example": "Der Kunde wartet. = The customer is waiting."
+          "example": "Der Kunde wartet. = Klients gaida."
         },
         {
           "word": "die Nachricht",
           "meaning": "Message",
-          "example": "Ich habe eine Nachricht bekommen. = I got a message."
+          "example": "Ich habe eine Nachricht bekommen. = Es saņēmu ziņu."
         }
       ],
       "tip": "The article changes the meaning: die Kunde = message, der Kunde = customer.",
@@ -35480,17 +35480,17 @@ const B1_WORDS = [
         {
           "word": "kündigen",
           "meaning": "Terminate / terminate",
-          "example": "Ich kündige den Vertrag. = I'm breaking the contract."
+          "example": "Ich kündige den Vertrag. = Es laužu līgumu."
         },
         {
           "word": "entlassen",
           "meaning": "Dismiss from work",
-          "example": "Die Firma entlässt Mitarbeiter. = The company lays off employees."
+          "example": "Die Firma entlässt Mitarbeiter. = Firma atlaiž darbiniekus."
         },
         {
           "word": "aufhören",
           "meaning": "To stop",
-          "example": "Ich höre mit dem Kurs auf. = I dropped the course."
+          "example": "Ich höre mit dem Kurs auf. = Es pārtraucu kursu."
         }
       ],
       "tip": "The job, contract or subscription ends officially → kündigen.",
@@ -35668,17 +35668,17 @@ const B1_WORDS = [
         {
           "word": "kuppeln",
           "meaning": "Connect / connect",
-          "example": "Der Fahrer kuppelt den Anhänger an. = The driver hooks the trailer."
+          "example": "Der Fahrer kuppelt den Anhänger an. = Vadītājs piekabina piekabi."
         },
         {
           "word": "verbinden",
           "meaning": "To connect",
-          "example": "Das Kabel verbindet die Geräte. = The cable connects the devices."
+          "example": "Das Kabel verbindet die Geräte. = Kabelis savieno ierīces."
         },
         {
           "word": "anschließen",
           "meaning": "Connect",
-          "example": "Ich schließe den Drucker an. = I connected the printer."
+          "example": "Ich schließe den Drucker an. = Es pieslēdzu printeri."
         }
       ],
       "tip": "Technical or mechanical connection → kuppeln.",
@@ -35822,19 +35822,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Kurs",
+          "word": "der Kurs",
           "meaning": "Course / direction",
-          "example": "Der Kurs beginnt morgen. = The course starts tomorrow."
+          "example": "Der Kurs beginnt morgen. = Kurss sākas rīt."
         },
         {
           "word": "die Richtung",
           "meaning": "Direction",
-          "example": "Die Richtung stimmt. = The direction is correct."
+          "example": "Die Richtung stimmt. = Virziens ir pareizs."
         },
         {
           "word": "der Unterricht",
           "meaning": "Lesson",
-          "example": "Der Unterricht dauert eine Stunde. = The class lasts one hour."
+          "example": "Der Unterricht dauert eine Stunde. = Stunda ilgst vienu stundu."
         }
       ],
       "tip": "Lessons, a ship’s course, or an exchange rate → der Kurs.",
@@ -35969,17 +35969,17 @@ const B1_WORDS = [
         {
           "word": "die Kürze",
           "meaning": "Brevity",
-          "example": "Die Kürze ist ein Vorteil. = Brevity is an advantage."
+          "example": "Die Kürze ist ein Vorteil. = Īsums ir priekšrocība."
         },
         {
           "word": "in Kürze",
           "meaning": "Soon",
-          "example": "Der Zug kommt in Kürze. = The train will arrive soon."
+          "example": "Der Zug kommt in Kürze. = Vilciens drīzumā pienāks."
         },
         {
           "word": "kurz",
           "meaning": "Short",
-          "example": "Der Text ist kurz. = The text is short."
+          "example": "Der Text ist kurz. = Teksts ir īss."
         }
       ],
       "tip": "die Kürze = brevity; in Kürze = soon.",
@@ -36207,17 +36207,17 @@ const B1_WORDS = [
         {
           "word": "laden",
           "meaning": "Load / charge",
-          "example": "Ich lade mein Handy. = I charged my phone."
+          "example": "Ich lade mein Handy. = Es uzlādēju telefonu."
         },
         {
           "word": "einladen",
           "meaning": "To invite",
-          "example": "Sie lädt uns ein. = She invites us."
+          "example": "Sie lädt uns ein. = Viņa mūs ielūdz."
         },
         {
           "word": "beladen",
           "meaning": "To load",
-          "example": "Der Lkw ist beladen. = The truck is loaded."
+          "example": "Der Lkw ist beladen. = Kravas auto ir piekrauts."
         }
       ],
       "tip": "Items in a car or a battery being charged → laden.",
@@ -36369,17 +36369,17 @@ const B1_WORDS = [
         {
           "word": "das Lager",
           "meaning": "Warehouse / camp",
-          "example": "Die Waren sind im Lager. = The goods are in stock."
+          "example": "Die Waren sind im Lager. = Preces ir noliktavā."
         },
         {
           "word": "die Unterkunft",
           "meaning": "Accommodation",
-          "example": "Die Unterkunft ist sauber. = The accommodation is clean."
+          "example": "Die Unterkunft ist sauber. = Naktsmītne ir tīra."
         },
         {
           "word": "das Camp",
           "meaning": "Camp",
-          "example": "Das Camp liegt am See. = The camp is by the lake."
+          "example": "Das Camp liegt am See. = Nometne ir pie ezera."
         }
       ],
       "tip": "The goods are stored in → das Lager.",
@@ -36520,17 +36520,17 @@ const B1_WORDS = [
         {
           "word": "der Hörer",
           "meaning": "Listener / handset",
-          "example": "Die Hörer rufen an. = Listeners are calling."
+          "example": "Die Hörer rufen an. = Klausītāji zvana."
         },
         {
           "word": "der Zuhörer",
           "meaning": "Listener in person",
-          "example": "Die Zuhörer sitzen im Saal. = The audience is sitting in the hall."
+          "example": "Die Zuhörer sitzen im Saal. = Klausītāji sēž zālē."
         },
         {
           "word": "der Kopfhörer",
           "meaning": "Headphones",
-          "example": "Ich brauche Kopfhörer. = I need headphones."
+          "example": "Ich brauche Kopfhörer. = Man vajag austiņas."
         }
       ],
       "tip": "On the radio or in a lecture, the person listening → der Hörer.",
@@ -36655,17 +36655,17 @@ const B1_WORDS = [
         {
           "word": "der Inhalt",
           "meaning": "Content",
-          "example": "Der Inhalt ist klar. = The content is clear."
+          "example": "Der Inhalt ist klar. = Saturs ir skaidrs."
         },
         {
           "word": "das Thema",
           "meaning": "Topic",
-          "example": "Das Thema ist interessant. = The topic is interesting."
+          "example": "Das Thema ist interessant. = Tēma ir interesanta."
         },
         {
           "word": "der Umfang",
           "meaning": "Volume",
-          "example": "Der Umfang ist groß. = The volume is large."
+          "example": "Der Umfang ist groß. = Apjoms ir liels."
         }
       ],
       "tip": "What is inside the text, bag or container → der Inhalt.",
@@ -36791,17 +36791,17 @@ const B1_WORDS = [
         {
           "word": "die Kante",
           "meaning": "Edge / facet",
-          "example": "Die Kante ist scharf. = The edge is sharp."
+          "example": "Die Kante ist scharf. = Mala ir asa."
         },
         {
           "word": "der Rand",
           "meaning": "Edge / border",
-          "example": "Am Rand steht ein Baum. = There is a tree on the side."
+          "example": "Am Rand steht ein Baum. = Malā stāv koks."
         },
         {
           "word": "die Grenze",
           "meaning": "Border",
-          "example": "Die Grenze ist geschlossen. = The border is closed."
+          "example": "Die Grenze ist geschlossen. = Robeža ir slēgta."
         }
       ],
       "tip": "A physical edge or facet of an object → die Kante.",
@@ -36927,17 +36927,17 @@ const B1_WORDS = [
         {
           "word": "die Kastanie",
           "meaning": "Chestnut / chestnut",
-          "example": "Die Kastanie blüht. = Chestnut blossoms."
+          "example": "Die Kastanie blüht. = Kastanis zied."
         },
         {
           "word": "der Kastanienbaum",
           "meaning": "Chestnut tree",
-          "example": "Der Kastanienbaum ist alt. = The chestnut tree is old."
+          "example": "Der Kastanienbaum ist alt. = Kastaņu koks ir vecs."
         },
         {
           "word": "die Nuss",
           "meaning": "Nut",
-          "example": "Die Nuss ist hart. = The nut is hard."
+          "example": "Die Nuss ist hart. = Rieksts ir ciets."
         }
       ],
       "tip": "Tree or fruit? The context determines whether die Kastanie refers to the chestnut tree or the chestnut itself.",
@@ -37752,17 +37752,17 @@ const B1_WORDS = [
         {
           "word": "leisten",
           "meaning": "Perform / provide",
-          "example": "Sie leistet gute Arbeit. = She does a good job."
+          "example": "Sie leistet gute Arbeit. = Viņa veic labu darbu."
         },
         {
           "word": "schaffen",
           "meaning": "To accomplish / cope with",
-          "example": "Ich schaffe das. = I will do it."
+          "example": "Ich schaffe das. = Es to paveikšu."
         },
         {
           "word": "sich leisten",
           "meaning": "To afford",
-          "example": "Ich kann mir das leisten. = I can afford it."
+          "example": "Ich kann mir das leisten. = Es to varu atļauties."
         }
       ],
       "tip": "Work, help or contribution → leisten.",
@@ -37888,17 +37888,17 @@ const B1_WORDS = [
         {
           "word": "die Leistung",
           "meaning": "Performance / achievement / capacity",
-          "example": "Die Leistung war gut. = Performance was good."
+          "example": "Die Leistung war gut. = Sniegums bija labs."
         },
         {
           "word": "das Ergebnis",
           "meaning": "Result",
-          "example": "Das Ergebnis ist positiv. = The result is positive."
+          "example": "Das Ergebnis ist positiv. = Rezultāts ir pozitīvs."
         },
         {
           "word": "die Kraft",
           "meaning": "Strength",
-          "example": "Die Kraft des Motors ist groß. = The engine power is great."
+          "example": "Die Kraft des Motors ist groß. = Motora spēks ir liels."
         }
       ],
       "tip": {
@@ -38231,17 +38231,17 @@ const B1_WORDS = [
         {
           "word": "locker",
           "meaning": "Loose, free, unconstrained",
-          "example": "Die Schraube ist locker. = The screw is loose."
+          "example": "Die Schraube ist locker. = Skrūve ir vaļīga."
         },
         {
           "word": "lose",
           "meaning": "Loose, unattached",
-          "example": "Ein loser Knopf kann abfallen. = A loose button may fall off."
+          "example": "Ein loser Knopf kann abfallen. = Vaļīga poga var nokrist."
         },
         {
           "word": "fest",
           "meaning": "Tight",
-          "example": "Der Deckel sitzt fest. = The lid stays tight."
+          "example": "Der Deckel sitzt fest. = Vāks turas stingri."
         }
       ],
       "tip": "Think of the opposite of fest: if it's not tight, it's loose.",
@@ -38403,17 +38403,17 @@ const B1_WORDS = [
         {
           "word": "das Los",
           "meaning": "Lot • Figuratively fate",
-          "example": "Jeder Teilnehmer zieht ein Los. = Each participant draws a lot."
+          "example": "Jeder Teilnehmer zieht ein Los. = Katrs dalībnieks izvelk lozi."
         },
         {
           "word": "der Gewinn",
           "meaning": "Winnings / prize",
-          "example": "Der Gewinn wird morgen ausgezahlt. = The winnings will be paid out tomorrow."
+          "example": "Der Gewinn wird morgen ausgezahlt. = Laimests tiks izmaksāts rīt."
         },
         {
           "word": "das Schicksal",
           "meaning": "Fate",
-          "example": "Das Schicksal war hart. = Fate was harsh."
+          "example": "Das Schicksal war hart. = Liktenis bija skarbs."
         }
       ],
       "tip": "In lottery and raffle: das Los = lot.",
@@ -38541,17 +38541,17 @@ const B1_WORDS = [
         {
           "word": "löschen",
           "meaning": "Extinguish fire or data",
-          "example": "Bitte lösche die Datei. = Please delete the file."
+          "example": "Bitte lösche die Datei. = Lūdzu, izdzēs failu."
         },
         {
           "word": "ausschalten",
           "meaning": "Turn off the device",
-          "example": "Schalte bitte den Computer aus. = Please turn off your computer."
+          "example": "Schalte bitte den Computer aus. = Lūdzu, izslēdz datoru."
         },
         {
           "word": "lösen",
           "meaning": "Resolve or untie",
-          "example": "Wir lösen das Problem. = We solve the problem."
+          "example": "Wir lösen das Problem. = Mēs atrisinām problēmu."
         }
       ],
       "tip": "Fire, file or thirst: löschen.",
@@ -38681,17 +38681,17 @@ const B1_WORDS = [
         {
           "word": "lösen",
           "meaning": "Resolve • Untie • Dissolve",
-          "example": "Wir lösen das Problem. = We solve the problem."
+          "example": "Wir lösen das Problem. = Mēs atrisinām problēmu."
         },
         {
           "word": "auflösen",
           "meaning": "Dissolve or terminate",
-          "example": "Die Gruppe löst sich auf. = The group breaks up."
+          "example": "Die Gruppe löst sich auf. = Grupa izirst."
         },
         {
           "word": "löschen",
           "meaning": "Delete",
-          "example": "Ich lösche die Datei. = I will delete the file."
+          "example": "Ich lösche die Datei. = Es izdzēšu failu."
         }
       ],
       "tip": "If there is a problem, a task or a knot in front of you, think about lösen.",
@@ -38834,17 +38834,17 @@ const B1_WORDS = [
         {
           "word": "die Lösung",
           "meaning": "Solution • In chemistry, a solution",
-          "example": "Wir suchen eine Lösung. = We are looking for a solution."
+          "example": "Wir suchen eine Lösung. = Mēs meklējam risinājumu."
         },
         {
           "word": "die Antwort",
           "meaning": "Answer to the question",
-          "example": "Die Antwort ist richtig. = The answer is correct."
+          "example": "Die Antwort ist richtig. = Atbilde ir pareiza."
         },
         {
           "word": "das Ergebnis",
           "meaning": "Result",
-          "example": "Das Ergebnis ist gut. = The result is good."
+          "example": "Das Ergebnis ist gut. = Rezultāts ir labs."
         }
       ],
       "tip": "A problem needs a Lösung, a question needs an Antwort.",
@@ -39035,17 +39035,17 @@ const B1_WORDS = [
         {
           "word": "die Macht",
           "meaning": "Power, ability to influence",
-          "example": "Die Partei kam an die Macht. = The party came to power."
+          "example": "Die Partei kam an die Macht. = Partija nāca pie varas."
         },
         {
           "word": "die Kraft",
           "meaning": "Physical force or energy",
-          "example": "Er hat viel Kraft. = He has a lot of power."
+          "example": "Er hat viel Kraft. = Viņam ir daudz spēka."
         },
         {
           "word": "der Einfluss",
           "meaning": "Influence",
-          "example": "Sie hat Einfluss auf die Entscheidung. = She has influence over the decision."
+          "example": "Sie hat Einfluss auf die Entscheidung. = Viņai ir ietekme uz lēmumu."
         }
       ],
       "tip": "In politics and when talking about influence, think of die Macht, not die Kraft.",
@@ -39355,17 +39355,17 @@ const B1_WORDS = [
         {
           "word": "das Maß",
           "meaning": "Measure, limit, extent",
-          "example": "Alles hat sein Maß. = Everything has its measure."
+          "example": "Alles hat sein Maß. = Visam ir savs mērs."
         },
         {
           "word": "die Maße",
           "meaning": "Dimensions",
-          "example": "Die Maße stimmen nicht. = The sizes do not match."
+          "example": "Die Maße stimmen nicht. = Izmēri nesakrīt."
         },
         {
           "word": "die Maßnahme",
           "meaning": "Measure, action",
-          "example": "Diese Maßnahme hilft. = This event helps."
+          "example": "Diese Maßnahme hilft. = Šis pasākums palīdz."
         }
       ],
       "tip": "In the singular, Maß means a measure; in the plural, Maße often means dimensions.",
@@ -39648,17 +39648,17 @@ const B1_WORDS = [
         {
           "word": "die Messe",
           "meaning": "Exhibition, fair • Mass in the church",
-          "example": "Wir besuchen die Messe. = We are visiting the exhibition."
+          "example": "Wir besuchen die Messe. = Mēs apmeklējam izstādi."
         },
         {
           "word": "die Ausstellung",
           "meaning": "Exhibition",
-          "example": "Die Ausstellung zeigt moderne Kunst. = The exhibition shows modern art."
+          "example": "Die Ausstellung zeigt moderne Kunst. = Izstāde rāda moderno mākslu."
         },
         {
           "word": "der Markt",
           "meaning": "The market",
-          "example": "Der Markt ist heute voll. = The market is full today."
+          "example": "Der Markt ist heute voll. = Tirgus šodien ir pilns."
         }
       ],
       "tip": "Companies and products at a big event: die Messe.",
@@ -40215,17 +40215,17 @@ const B1_WORDS = [
         {
           "word": "nachdem",
           "meaning": "After when",
-          "example": "Nachdem ich gegessen hatte, ging ich schlafen. = After I had eaten, I went to sleep."
+          "example": "Nachdem ich gegessen hatte, ging ich schlafen. = Pēc tam kad biju paēdis, es gāju gulēt."
         },
         {
           "word": "danach",
           "meaning": "After that",
-          "example": "Danach gingen wir nach Hause. = After that we went home."
+          "example": "Danach gingen wir nach Hause. = Pēc tam mēs devāmies mājās."
         },
         {
           "word": "bevor",
           "meaning": "Before",
-          "example": "Bevor ich gehe, rufe ich an. = Before I go, I call."
+          "example": "Bevor ich gehe, rufe ich an. = Pirms eju, es piezvanu."
         }
       ],
       "tip": "nachdem requires a whole clause; danach can stand alone.",
@@ -40352,17 +40352,17 @@ const B1_WORDS = [
         {
           "word": "die Nachfrage",
           "meaning": "Request • Inquiry",
-          "example": "Die Nachfrage ist groß. = The demand is high."
+          "example": "Die Nachfrage ist groß. = Pieprasījums ir liels."
         },
         {
           "word": "die Frage",
           "meaning": "Question",
-          "example": "Ich habe eine Frage. = I have a question."
+          "example": "Ich habe eine Frage. = Man ir jautājums."
         },
         {
           "word": "das Angebot",
           "meaning": "Offer",
-          "example": "Das Angebot ist begrenzt. = The offer is limited."
+          "example": "Das Angebot ist begrenzt. = Piedāvājums ir ierobežots."
         }
       ],
       "tip": "In the market, Nachfrage is the opposite of Angebot.",
@@ -40480,17 +40480,17 @@ const B1_WORDS = [
         {
           "word": "nachgeben",
           "meaning": "To give in or give in to pressure",
-          "example": "Er gab nach. = He relented."
+          "example": "Er gab nach. = Viņš piekāpās."
         },
         {
           "word": "aufgeben",
           "meaning": "Give up, stop trying",
-          "example": "Gib nicht auf! = Don't give up!"
+          "example": "Gib nicht auf! = Nepadodies!"
         },
         {
           "word": "zugeben",
           "meaning": "To admit",
-          "example": "Sie gibt den Fehler zu. = She admits the mistake."
+          "example": "Sie gibt den Fehler zu. = Viņa atzīst kļūdu."
         }
       ],
       "tip": "Push and step back: nachgeben.",
@@ -40777,17 +40777,17 @@ const B1_WORDS = [
         {
           "word": "neigen",
           "meaning": "To be inclined • To incline",
-          "example": "Er neigt zu Fehlern. = He is prone to mistakes."
+          "example": "Er neigt zu Fehlern. = Viņam ir nosliece uz kļūdām."
         },
         {
           "word": "sich nähern",
           "meaning": "To approach",
-          "example": "Der Zug nähert sich dem Bahnhof. = The train is approaching the station."
+          "example": "Der Zug nähert sich dem Bahnhof. = Vilciens tuvojas stacijai."
         },
         {
           "word": "biegen",
           "meaning": "Bend",
-          "example": "Er biegt den Draht. = He bends the wire."
+          "example": "Er biegt den Draht. = Viņš loka stiepli."
         }
       ],
       "tip": "neigen zu + what case?: an inclination towards something.",
@@ -40912,17 +40912,17 @@ const B1_WORDS = [
         {
           "word": "die Neigung",
           "meaning": "Tendency, inclination • Slope",
-          "example": "Sie hat eine Neigung zur Musik. = She has a penchant for music."
+          "example": "Sie hat eine Neigung zur Musik. = Viņai ir tieksme uz mūziku."
         },
         {
           "word": "das Interesse",
           "meaning": "Interest",
-          "example": "Sie hat Interesse an Kunst. = She is interested in art."
+          "example": "Sie hat Interesse an Kunst. = Viņai ir interese par mākslu."
         },
         {
           "word": "der Hang",
           "meaning": "Slope • Also inclination",
-          "example": "Der Hang ist steil. = The slope is steep."
+          "example": "Der Hang ist steil. = Nogāze ir stāva."
         }
       ],
       "tip": "An inward direction or tendency: die Neigung.",
@@ -41053,17 +41053,17 @@ const B1_WORDS = [
         {
           "word": "nerven",
           "meaning": "Annoy, get on your nerves",
-          "example": "Der Lärm nervt mich. = Noise annoys me."
+          "example": "Der Lärm nervt mich. = Troksnis mani kaitina."
         },
         {
           "word": "stören",
           "meaning": "Disturb",
-          "example": "Bitte nicht stören. = Please do not disturb."
+          "example": "Bitte nicht stören. = Lūdzu, netraucēt."
         },
         {
           "word": "ärgern",
           "meaning": "To anger, to annoy",
-          "example": "Das ärgert mich. = It makes me angry."
+          "example": "Das ärgert mich. = Tas mani sadusmo."
         }
       ],
       "tip": "If something gets on your nerves, use nerven.",
@@ -41211,17 +41211,17 @@ const B1_WORDS = [
         {
           "word": "nieder",
           "meaning": "Down, on the ground, off",
-          "example": "Der Baum liegt nieder. = The tree lies on the ground."
+          "example": "Der Baum liegt nieder. = Koks guļ zemē."
         },
         {
           "word": "unten",
           "meaning": "Below, below",
-          "example": "Ich warte unten. = I'm waiting downstairs."
+          "example": "Ich warte unten. = Es gaidu lejā."
         },
         {
           "word": "herunter",
           "meaning": "Down from above",
-          "example": "Komm bitte herunter! = Please come down!"
+          "example": "Komm bitte herunter! = Lūdzu, nāc lejā!"
         }
       ],
       "tip": "nieder often means downward movement or state.",
@@ -41418,17 +41418,17 @@ const B1_WORDS = [
         {
           "word": "die Not",
           "meaning": "Lack, misery, predicament",
-          "example": "Sie leben in Not. = They live in want."
+          "example": "Sie leben in Not. = Viņi dzīvo trūkumā."
         },
         {
           "word": "die Notwendigkeit",
           "meaning": "Necessity",
-          "example": "Es gibt keine Notwendigkeit. = There is no need."
+          "example": "Es gibt keine Notwendigkeit. = Nav nepieciešamības."
         },
         {
           "word": "der Notfall",
           "meaning": "An emergency",
-          "example": "Das ist ein Notfall. = This is an emergency."
+          "example": "Das ist ein Notfall. = Tas ir ārkārtas gadījums."
         }
       ],
       "tip": "die Not is a predicament, not an ordinary need.",
@@ -41579,17 +41579,17 @@ const B1_WORDS = [
         {
           "word": "nüchtern",
           "meaning": "Not drunk • On an empty stomach • Businesslike",
-          "example": "Der Fahrer ist nüchtern. = The driver is not drunk."
+          "example": "Der Fahrer ist nüchtern. = Vadītājs ir neiereibis."
         },
         {
           "word": "betrunken",
           "meaning": "Drunk",
-          "example": "Er ist betrunken. = He is drunk."
+          "example": "Er ist betrunken. = Viņš ir piedzēries."
         },
         {
           "word": "sachlich",
           "meaning": "Practical",
-          "example": "Bleib sachlich. = Stay businesslike."
+          "example": "Bleib sachlich. = Paliec lietišķs."
         }
       ],
       "tip": "Alcohol, a medical examination, or a clear-headed view: nüchtern.",
@@ -41899,17 +41899,17 @@ const B1_WORDS = [
         {
           "word": "das Objekt",
           "meaning": "Object • Object in grammar",
-          "example": "Das Objekt wird verkauft. = The object is for sale."
+          "example": "Das Objekt wird verkauft. = Objekts tiek pārdots."
         },
         {
           "word": "der Gegenstand",
           "meaning": "Object or item",
-          "example": "Der Gegenstand liegt auf dem Tisch. = The object is on the table."
+          "example": "Der Gegenstand liegt auf dem Tisch. = Priekšmets atrodas uz galda."
         },
         {
           "word": "das Subjekt",
           "meaning": "The subject of the sentence",
-          "example": "Das Subjekt steht oft vorn. = The subject of a sentence is often at the beginning."
+          "example": "Das Subjekt steht oft vorn. = Teikuma priekšmets bieži ir sākumā."
         }
       ],
       "tip": "Object in grammar is not a subject, but a complement.",
@@ -42085,17 +42085,17 @@ const B1_WORDS = [
         {
           "word": "die Ohnmacht",
           "meaning": "Unconsciousness • Transferred powerlessness",
-          "example": "Sie fiel in Ohnmacht. = She passed out."
+          "example": "Sie fiel in Ohnmacht. = Viņa noģība."
         },
         {
           "word": "die Bewusstlosigkeit",
           "meaning": "Unconsciousness",
-          "example": "Die Bewusstlosigkeit dauerte nur kurz. = The unconsciousness lasted only a short time."
+          "example": "Die Bewusstlosigkeit dauerte nur kurz. = Bezsamaņa ilga tikai īsu brīdi."
         },
         {
           "word": "die Machtlosigkeit",
           "meaning": "Impotence",
-          "example": "Er fühlt Machtlosigkeit. = He feels powerless."
+          "example": "Er fühlt Machtlosigkeit. = Viņš jūt bezspēcību."
         }
       ],
       "tip": "in Ohnmacht fallen = faint.",
@@ -42294,17 +42294,17 @@ const B1_WORDS = [
         {
           "word": "opfern",
           "meaning": "Sacrifice something important",
-          "example": "Er opfert Zeit. = He sacrifices time."
+          "example": "Er opfert Zeit. = Viņš upurē laiku."
         },
         {
           "word": "spenden",
           "meaning": "Donate money or goods",
-          "example": "Sie spendet Geld. = She donates money."
+          "example": "Sie spendet Geld. = Viņa ziedo naudu."
         },
         {
           "word": "sich einsetzen",
           "meaning": "To get involved, to actively help",
-          "example": "Er setzt sich für Kinder ein. = He stands up for the children."
+          "example": "Er setzt sich für Kinder ein. = Viņš iestājas par bērniem."
         }
       ],
       "tip": "If something is given with a sense of loss, opfern is often appropriate.",
@@ -42469,17 +42469,17 @@ const B1_WORDS = [
         {
           "word": "sich orientieren",
           "meaning": "Orient yourself",
-          "example": "Ich orientiere mich in der Stadt. = I navigated the city."
+          "example": "Ich orientiere mich in der Stadt. = Es orientējos pilsētā."
         },
         {
           "word": "sich informieren",
           "meaning": "Get information",
-          "example": "Ich informiere mich über den Kurs. = I get information about the course."
+          "example": "Ich informiere mich über den Kurs. = Es iegūstu informāciju par kursu."
         },
         {
           "word": "sich richten nach",
           "meaning": "To be guided by",
-          "example": "Wir richten uns nach dem Plan. = We are guided by a plan."
+          "example": "Wir richten uns nach dem Plan. = Mēs vadāmies pēc plāna."
         }
       ],
       "tip": "Place or situation: sich orientieren; for sample or prices: orientieren an.",
@@ -42850,17 +42850,17 @@ const B1_WORDS = [
         {
           "word": "die Periode",
           "meaning": "Period • Menstruation",
-          "example": "Diese Periode dauerte drei Jahre. = This period lasted for three years."
+          "example": "Diese Periode dauerte drei Jahre. = Šis periods ilga trīs gadus."
         },
         {
           "word": "der Zeitraum",
           "meaning": "Period of time",
-          "example": "Der Zeitraum ist kurz. = The time period is short."
+          "example": "Der Zeitraum ist kurz. = Laika posms ir īss."
         },
         {
           "word": "die Regel",
           "meaning": "Menstruation • Also rule",
-          "example": "Sie hat ihre Regel. = She is on her period."
+          "example": "Sie hat ihre Regel. = Viņai ir mēnešreizes."
         }
       ],
       "tip": "Time, cycle or menses: die Periode.",
@@ -43096,17 +43096,17 @@ const B1_WORDS = [
         {
           "word": "pflegen",
           "meaning": "Tend • Tends to do",
-          "example": "Sie pflegt ihre Mutter. = She takes care of her mother."
+          "example": "Sie pflegt ihre Mutter. = Viņa kopj savu māti."
         },
         {
           "word": "sich kümmern um",
           "meaning": "Take care of",
-          "example": "Er kümmert sich um das Kind. = He takes care of the child."
+          "example": "Er kümmert sich um das Kind. = Viņš rūpējas par bērnu."
         },
         {
           "word": "putzen",
           "meaning": "To clean",
-          "example": "Ich putze die Küche. = I clean the kitchen."
+          "example": "Ich putze die Küche. = Es tīru virtuvi."
         }
       ],
       "tip": "Grooming or care is pflegen; caring more broadly is sich kümmern um.",
@@ -43414,17 +43414,17 @@ const B1_WORDS = [
         {
           "word": "pochen",
           "meaning": "Knock, beat • Insist on",
-          "example": "Jemand pocht an die Tür. = Someone is knocking at the door."
+          "example": "Jemand pocht an die Tür. = Kāds klauvē pie durvīm."
         },
         {
           "word": "klopfen",
           "meaning": "To knock",
-          "example": "Er klopft an die Tür. = He knocks on the door."
+          "example": "Er klopft an die Tür. = Viņš klauvē pie durvīm."
         },
         {
           "word": "bestehen auf",
           "meaning": "Insist on",
-          "example": "Sie besteht auf einer Antwort. = She insists on an answer."
+          "example": "Sie besteht auf einer Antwort. = Viņa uzstāj uz atbildi."
         }
       ],
       "tip": "Door or heart pocht; in law pocht auf.",
@@ -43674,17 +43674,17 @@ const B1_WORDS = [
         {
           "word": "der Posten",
           "meaning": "Post, post, position",
-          "example": "Sie bekam einen neuen Posten. = She got a new position."
+          "example": "Sie bekam einen neuen Posten. = Viņa ieguva jaunu amatu."
         },
         {
           "word": "die Stelle",
           "meaning": "Workplace, position",
-          "example": "Ich suche eine Stelle. = I am looking for a job."
+          "example": "Ich suche eine Stelle. = Es meklēju darbu."
         },
         {
           "word": "die Post",
           "meaning": "Mail",
-          "example": "Die Post ist geschlossen. = The post office is closed."
+          "example": "Die Post ist geschlossen. = Pasts ir slēgts."
         }
       ],
       "tip": "Position or budget line: der Posten; mail: die Post.",
@@ -43898,17 +43898,17 @@ const B1_WORDS = [
         {
           "word": "die Probe",
           "meaning": "Test, sample or attempt",
-          "example": "Die Probe beginnt um sechs. = Rehearsal starts at six."
+          "example": "Die Probe beginnt um sechs. = Mēģinājums sākas sešos."
         },
         {
           "word": "die Prüfung",
           "meaning": "Exam or test",
-          "example": "Die Prüfung ist schwer. = The exam is difficult."
+          "example": "Die Prüfung ist schwer. = Eksāmens ir grūts."
         },
         {
           "word": "das Muster",
           "meaning": "Sample, model",
-          "example": "Das Muster ist kostenlos. = The sample is free."
+          "example": "Das Muster ist kostenlos. = Paraugs ir bez maksas."
         }
       ],
       "tip": "In a laboratory, a test, or a concert, die Probe can be used in different senses.",
@@ -44329,17 +44329,17 @@ const B1_WORDS = [
         {
           "word": "der Rang",
           "meaning": "Rank, level, place in the hierarchy",
-          "example": "Er hat einen hohen Rang. = He has a high rank."
+          "example": "Er hat einen hohen Rang. = Viņam ir augsts rangs."
         },
         {
           "word": "die Reihe",
           "meaning": "Row",
-          "example": "Wir sitzen in der dritten Reihe. = We are sitting in the third row."
+          "example": "Wir sitzen in der dritten Reihe. = Mēs sēžam trešajā rindā."
         },
         {
           "word": "der Balkon",
           "meaning": "Balcony",
-          "example": "Der Balkon ist voll. = The balcony is full."
+          "example": "Der Balkon ist voll. = Balkons ir pilns."
         }
       ],
       "tip": "Hierarchy, importance or theatre balcony: der Rang.",
@@ -44469,17 +44469,17 @@ const B1_WORDS = [
         {
           "word": "rasen",
           "meaning": "To worry, to worry • To rage",
-          "example": "Das Auto rast. = The car is running."
+          "example": "Das Auto rast. = Auto joņo."
         },
         {
           "word": "fahren",
           "meaning": "Drive",
-          "example": "Ich fahre langsam. = I drive slowly."
+          "example": "Ich fahre langsam. = Es braucu lēni."
         },
         {
           "word": "toben",
           "meaning": "To rage, to rage",
-          "example": "Der Sturm tobt. = The storm is raging."
+          "example": "Der Sturm tobt. = Vētra plosās."
         }
       ],
       "tip": "If speed sounds too fast is often enough.",
@@ -44653,17 +44653,17 @@ const B1_WORDS = [
         {
           "word": "die Rate",
           "meaning": "Contribution, part of payment",
-          "example": "Die Rate ist hoch. = The contribution is high."
+          "example": "Die Rate ist hoch. = Iemaksa ir liela."
         },
         {
           "word": "der Rat",
           "meaning": "Advice",
-          "example": "Danke für deinen Rat. = Thanks for your advice."
+          "example": "Danke für deinen Rat. = Paldies par tavu padomu."
         },
         {
           "word": "die Ratenzahlung",
           "meaning": "Payment in installments",
-          "example": "Ratenzahlung ist möglich. = Payment in installments is possible."
+          "example": "Ratenzahlung ist möglich. = Nomaksa pa daļām ir iespējama."
         }
       ],
       "tip": "Rate ending in -e often means an installment.",
@@ -44838,17 +44838,17 @@ const B1_WORDS = [
         {
           "word": "räumen",
           "meaning": "To clear, empty, or move out",
-          "example": "Die Polizei räumt die Straße. = The police clear the street."
+          "example": "Die Polizei räumt die Straße. = Policija atbrīvo ielu."
         },
         {
           "word": "aufräumen",
           "meaning": "Arrange",
-          "example": "Ich räume das Zimmer auf. = I tidy the room."
+          "example": "Ich räume das Zimmer auf. = Es sakārtoju istabu."
         },
         {
           "word": "verlassen",
           "meaning": "To leave a place",
-          "example": "Wir verlassen das Haus. = We leave the house."
+          "example": "Wir verlassen das Haus. = Mēs atstājam māju."
         }
       ],
       "tip": "If the space must remain free, think räumen.",
@@ -44978,17 +44978,17 @@ const B1_WORDS = [
         {
           "word": "der Rausch",
           "meaning": "Intoxication, intoxication",
-          "example": "Er war im Rausch. = He was intoxicated."
+          "example": "Er war im Rausch. = Viņš bija reibumā."
         },
         {
           "word": "die Freude",
           "meaning": "Pleasure",
-          "example": "Die Freude war groß. = The joy was great."
+          "example": "Die Freude war groß. = Prieks bija liels."
         },
         {
           "word": "die Sucht",
           "meaning": "Addiction",
-          "example": "Sucht ist gefährlich. = Addiction is dangerous."
+          "example": "Sucht ist gefährlich. = Atkarība ir bīstama."
         }
       ],
       "tip": "Rausch is a state in which a person is intoxicated or carried away by strong emotions.",
@@ -45192,17 +45192,17 @@ const B1_WORDS = [
         {
           "word": "regeln",
           "meaning": "Arrange, regulate",
-          "example": "Wir regeln das morgen. = We will settle it tomorrow."
+          "example": "Wir regeln das morgen. = Mēs to nokārtosim rīt."
         },
         {
           "word": "organisieren",
           "meaning": "Organise",
-          "example": "Sie organisiert die Reise. = She organizes the trip."
+          "example": "Sie organisiert die Reise. = Viņa organizē ceļojumu."
         },
         {
           "word": "einstellen",
           "meaning": "Adjust or recruit",
-          "example": "Ich stelle die Heizung ein. = I adjusted the heating."
+          "example": "Ich stelle die Heizung ein. = Es noregulēju apkuri."
         }
       ],
       "tip": "If the matter needs to be settled, regeln is used.",
@@ -45467,17 +45467,17 @@ const B1_WORDS = [
         {
           "word": "reißen",
           "meaning": "To burst or tear",
-          "example": "Das Seil reißt. = The rope breaks."
+          "example": "Das Seil reißt. = Virve plīst."
         },
         {
           "word": "reisen",
           "meaning": "To travel",
-          "example": "Wir reisen nach Berlin. = We are travelling to Berlin."
+          "example": "Wir reisen nach Berlin. = Mēs ceļojam uz Berlīni."
         },
         {
           "word": "brechen",
           "meaning": "To break",
-          "example": "Der Ast bricht. = The branch breaks."
+          "example": "Der Ast bricht. = Zars lūzt."
         }
       ],
       "tip": "reißen with ß is to tear/tear; reisen with s is to travel.",
@@ -45612,17 +45612,17 @@ const B1_WORDS = [
         {
           "word": "reizen",
           "meaning": "To irritate, annoy, or tempt",
-          "example": "Der Rauch reizt die Augen. = Smoke irritates the eyes."
+          "example": "Der Rauch reizt die Augen. = Dūmi kairina acis."
         },
         {
           "word": "nerven",
           "meaning": "To annoy colloquially",
-          "example": "Der Lärm nervt mich. = Noise annoys me."
+          "example": "Der Lärm nervt mich. = Troksnis mani kaitina."
         },
         {
           "word": "locken",
           "meaning": "Tempt",
-          "example": "Das Angebot lockt viele Kunden. = The offer attracts many customers."
+          "example": "Das Angebot lockt viele Kunden. = Piedāvājums vilina daudz klientu."
         }
       ],
       "tip": "It irritates the eyes, irritates a person, a trip tempts - everything can be reizen.",
@@ -45918,7 +45918,7 @@ const B1_WORDS = [
         {
           "word": "richten",
           "meaning": "Direct, address • Judge",
-          "example": "Sie richtet den Blick nach vorn. = She looks ahead."
+          "example": "Sie richtet den Blick nach vorn. = Viņa vērš skatienu uz priekšu."
         },
         {
           "word": "schicken",
@@ -45928,7 +45928,7 @@ const B1_WORDS = [
         {
           "word": "urteilen",
           "meaning": "To judge, to evaluate",
-          "example": "Urteile nicht zu schnell. = Don't judge too quickly."
+          "example": "Urteile nicht zu schnell. = Nespried pārāk ātri."
         }
       ],
       "tip": "Direction or addressee - richten.",
@@ -46198,17 +46198,17 @@ const B1_WORDS = [
         {
           "word": "rollen",
           "meaning": "Roll, roll, roll",
-          "example": "Der Ball rollt. = The ball is rolling."
+          "example": "Der Ball rollt. = Bumba ripo."
         },
         {
           "word": "drehen",
           "meaning": "To turn, to turn",
-          "example": "Das Rad dreht sich. = The wheel turns."
+          "example": "Das Rad dreht sich. = Ritenis griežas."
         },
         {
           "word": "schieben",
           "meaning": "To push",
-          "example": "Er schiebt den Wagen. = He pushes the cart."
+          "example": "Er schiebt den Wagen. = Viņš stumj ratus."
         }
       ],
       "tip": "Round forward movement - rollen.",
@@ -46358,17 +46358,17 @@ const B1_WORDS = [
         {
           "word": "rösten",
           "meaning": "To roast, to toast",
-          "example": "Wir rösten Kaffee. = We roast coffee."
+          "example": "Wir rösten Kaffee. = Mēs grauzdējam kafiju."
         },
         {
           "word": "braten",
           "meaning": "To fry in a pan",
-          "example": "Ich brate Fleisch. = I'm roasting meat."
+          "example": "Ich brate Fleisch. = Es cepu gaļu."
         },
         {
           "word": "backen",
           "meaning": "Bake dough or bread in the oven",
-          "example": "Sie backt Brot. = She bakes bread."
+          "example": "Sie backt Brot. = Viņa cep maizi."
         }
       ],
       "tip": "Coffee, bread, seeds or nuts - rösten.",
@@ -46598,17 +46598,17 @@ const B1_WORDS = [
         {
           "word": "der Ruf",
           "meaning": "Cry • Reputation",
-          "example": "Ich hörte einen Ruf. = I heard a cry."
+          "example": "Ich hörte einen Ruf. = Es dzirdēju saucienu."
         },
         {
           "word": "der Anruf",
           "meaning": "A phone call",
-          "example": "Ich bekam einen Anruf. = I got a call."
+          "example": "Ich bekam einen Anruf. = Es saņēmu zvanu."
         },
         {
           "word": "der Ruhm",
           "meaning": "Fame",
-          "example": "Ruhm ist nicht alles. = Fame is not everything."
+          "example": "Ruhm ist nicht alles. = Slava nav viss."
         }
       ],
       "tip": "The cry or reputation of a voice: der Ruf.",
@@ -46725,17 +46725,17 @@ const B1_WORDS = [
         {
           "word": "ruhen",
           "meaning": "Be still, do not continue",
-          "example": "Das Verfahren ruht. = The process is suspended."
+          "example": "Das Verfahren ruht. = Process ir apturēts."
         },
         {
           "word": "sich ausruhen",
           "meaning": "To rest",
-          "example": "Ich ruhe mich kurz aus. = I'm going to rest for a while."
+          "example": "Ich ruhe mich kurz aus. = Es īsu brīdi atpūšos."
         },
         {
           "word": "schlafen",
           "meaning": "To sleep",
-          "example": "Das Kind schläft. = The child is sleeping."
+          "example": "Das Kind schläft. = Bērns guļ."
         }
       ],
       "tip": "Peace or pause: ruhen; daily rest: sich ausruhen.",
@@ -46928,17 +46928,17 @@ const B1_WORDS = [
         {
           "word": "rüsten",
           "meaning": "To prepare, to equip oneself • To arm",
-          "example": "Wir rüsten uns für den Winter. = We are preparing for winter."
+          "example": "Wir rüsten uns für den Winter. = Mēs gatavojamies ziemai."
         },
         {
           "word": "vorbereiten",
           "meaning": "To prepare",
-          "example": "Ich bereite das Essen vor. = I prepared the food."
+          "example": "Ich bereite das Essen vor. = Es sagatavoju ēdienu."
         },
         {
           "word": "aufrüsten",
           "meaning": "Strengthen armaments",
-          "example": "Der Staat rüstet auf. = The country is armed."
+          "example": "Der Staat rüstet auf. = Valsts bruņojas."
         }
       ],
       "tip": "If preparation involves equipment, use rüsten.",
@@ -47076,17 +47076,17 @@ const B1_WORDS = [
         {
           "word": "die Saat",
           "meaning": "Seed, crop, or sowing",
-          "example": "Die Saat geht auf. = The volume is sprouting."
+          "example": "Die Saat geht auf. = Sējums dīgst."
         },
         {
           "word": "der Samen",
           "meaning": "Individual seed",
-          "example": "Der Samen ist klein. = The seed is small."
+          "example": "Der Samen ist klein. = Sēkla ir maza."
         },
         {
           "word": "säen",
           "meaning": "Sow",
-          "example": "Wir säen Weizen. = We sow wheat."
+          "example": "Wir säen Weizen. = Mēs sējam kviešus."
         }
       ],
       "tip": "Field and sown in general: die Saat.",
@@ -47428,17 +47428,17 @@ const B1_WORDS = [
         {
           "word": "die Schale",
           "meaning": "Rind, shell • Bowl",
-          "example": "Die Schale der Orange ist dick. = Orange peel is thick."
+          "example": "Die Schale der Orange ist dick. = Apelsīna miza ir bieza."
         },
         {
           "word": "die Rinde",
           "meaning": "Tree bark or bread crust",
-          "example": "Die Rinde ist dunkel. = The bark of the tree is dark."
+          "example": "Die Rinde ist dunkel. = Koka miza ir tumša."
         },
         {
           "word": "die Schüssel",
           "meaning": "A bowl",
-          "example": "Die Schüssel ist leer. = The bowl is empty."
+          "example": "Die Schüssel ist leer. = Bļoda ir tukša."
         }
       ],
       "tip": "For fruit peel or a nut shell, Schale is common; for tree bark, use Rinde.",
@@ -47685,19 +47685,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Schicht",
+          "word": "die Schicht",
           "meaning": "Layer, stratum • Work shift",
-          "example": "Eine Schicht Staub liegt dort. = There is a layer of dust."
+          "example": "Eine Schicht Staub liegt dort. = Tur ir putekļu slānis."
         },
         {
           "word": "die Lage",
           "meaning": "Situation or position",
-          "example": "Die Lage ist ernst. = The situation is serious."
+          "example": "Die Lage ist ernst. = Situācija ir nopietna."
         },
         {
           "word": "die Schichtarbeit",
           "meaning": "Shift work",
-          "example": "Schichtarbeit ist anstrengend. = Shift work is tiring."
+          "example": "Schichtarbeit ist anstrengend. = Maiņu darbs ir nogurdinošs."
         }
       ],
       "tip": "A surface can have a Schicht, or layer; at work, Schicht can mean a shift.",
@@ -47865,17 +47865,17 @@ const B1_WORDS = [
         {
           "word": "der Schimmel",
           "meaning": "Mold • grey horse",
-          "example": "An der Wand ist Schimmel. = There is mold on the wall."
+          "example": "An der Wand ist Schimmel. = Uz sienas ir pelējums."
         },
         {
           "word": "der Pilz",
           "meaning": "Mushroom",
-          "example": "Der Pilz wächst im Wald. = The mushroom grows in the forest."
+          "example": "Der Pilz wächst im Wald. = Sēne aug mežā."
         },
         {
           "word": "das Pferd",
           "meaning": "A horse",
-          "example": "Das Pferd läuft schnell. = The horse runs fast."
+          "example": "Das Pferd läuft schnell. = Zirgs skrien ātri."
         }
       ],
       "tip": "Wall or food: Schimmel = mold.",
@@ -48057,17 +48057,17 @@ const B1_WORDS = [
         {
           "word": "der Schlag",
           "meaning": "A blow, a blow • In context a kick",
-          "example": "Der Schlag traf ihn. = The blow hit him."
+          "example": "Der Schlag traf ihn. = Sitiens viņam trāpīja."
         },
         {
           "word": "der Stoß",
           "meaning": "A push",
-          "example": "Der Stoß war stark. = The push was strong."
+          "example": "Der Stoß war stark. = Grūdiens bija stiprs."
         },
         {
           "word": "der Blitz",
           "meaning": "Lightning",
-          "example": "Der Blitz war hell. = The lightning was bright."
+          "example": "Der Blitz war hell. = Zibens bija spožs."
         }
       ],
       "tip": "A sudden blow: Schlag applies.",
@@ -48247,17 +48247,17 @@ const B1_WORDS = [
         {
           "word": "schleifen",
           "meaning": "Grind, sharpen • Drag on the ground",
-          "example": "Er schleift das Messer. = He sharpens the knife."
+          "example": "Er schleift das Messer. = Viņš asina nazi."
         },
         {
           "word": "schärfen",
           "meaning": "To sharpen",
-          "example": "Ich schärfe das Messer. = I sharpen the knife."
+          "example": "Ich schärfe das Messer. = Es asinu nazi."
         },
         {
           "word": "ziehen",
           "meaning": "To pull",
-          "example": "Er zieht den Wagen. = He pulls a cart."
+          "example": "Er zieht den Wagen. = Viņš velk ratus."
         }
       ],
       "tip": "The surface, knife or metal is processed → schleifen.",
@@ -48493,17 +48493,17 @@ const B1_WORDS = [
         {
           "word": "schmelzen",
           "meaning": "To melt or to melt something",
-          "example": "Der Schnee schmilzt. = The snow is melting."
+          "example": "Der Schnee schmilzt. = Sniegs kūst."
         },
         {
           "word": "auftauen",
           "meaning": "Thaw",
-          "example": "Ich taue das Fleisch auf. = I thawed the meat."
+          "example": "Ich taue das Fleisch auf. = Es atkausēju gaļu."
         },
         {
           "word": "kochen",
           "meaning": "To boil",
-          "example": "Das Wasser kocht. = The water is boiling."
+          "example": "Das Wasser kocht. = Ūdens vārās."
         }
       ],
       "tip": "Self → melts; with object → melt.",
@@ -48651,17 +48651,17 @@ const B1_WORDS = [
         {
           "word": "schmieren",
           "meaning": "To spread, to smear, to scribble messily",
-          "example": "Sie schmiert Butter aufs Brot. = She spreads butter on bread."
+          "example": "Sie schmiert Butter aufs Brot. = Viņa smērē sviestu uz maizes."
         },
         {
           "word": "streichen",
           "meaning": "To spread or paint with a brush",
-          "example": "Er streicht die Wand. = He is painting the wall."
+          "example": "Er streicht die Wand. = Viņš krāso sienu."
         },
         {
           "word": "ölen",
           "meaning": "Lubricate",
-          "example": "Ich öle die Kette. = I lubricate the chain."
+          "example": "Ich öle die Kette. = Es eļļoju ķēdi."
         }
       ],
       "tip": "Fat, butter, oil or grease → schmieren.",
@@ -48800,17 +48800,17 @@ const B1_WORDS = [
         {
           "word": "schmücken",
           "meaning": "To decorate, to embellish",
-          "example": "Wir schmücken den Baum. = We decorate the Christmas tree."
+          "example": "Wir schmücken den Baum. = Mēs rotājam eglīti."
         },
         {
           "word": "dekorieren",
           "meaning": "Decorate a room or object",
-          "example": "Sie dekoriert den Raum. = She decorates the room."
+          "example": "Sie dekoriert den Raum. = Viņa dekorē telpu."
         },
         {
           "word": "sich anziehen",
           "meaning": "Get dressed",
-          "example": "Er zieht sich warm an. = He dresses warmly."
+          "example": "Er zieht sich warm an. = Viņš silti apģērbjas."
         }
       ],
       "tip": "If something becomes more beautiful with ornaments, use schmücken.",
@@ -49010,17 +49010,17 @@ const B1_WORDS = [
         {
           "word": "der Schnitt",
           "meaning": "Cut, cut, assembly",
-          "example": "Der Schnitt ist tief. = The cut is deep."
+          "example": "Der Schnitt ist tief. = Griezums ir dziļš."
         },
         {
           "word": "der Durchschnitt",
           "meaning": "The average",
-          "example": "Der Durchschnitt ist hoch. = The average score is high."
+          "example": "Der Durchschnitt ist hoch. = Vidējais rādītājs ir augsts."
         },
         {
           "word": "die Wunde",
           "meaning": "A wound",
-          "example": "Die Wunde blutet. = The wound is bleeding."
+          "example": "Die Wunde blutet. = Brūce asiņo."
         }
       ],
       "tip": "If something is cut or shaped with a cut, think Schnitt.",
@@ -49304,17 +49304,17 @@ const B1_WORDS = [
         {
           "word": "schuldig",
           "meaning": "Guilty • Owe",
-          "example": "Er ist schuldig. = He is guilty."
+          "example": "Er ist schuldig. = Viņš ir vainīgs."
         },
         {
-          "word": "Schuld",
+          "word": "die Schuld",
           "meaning": "Fault, debt",
-          "example": "Das ist nicht meine Schuld. = It's not my fault."
+          "example": "Das ist nicht meine Schuld. = Tā nav mana vaina."
         },
         {
           "word": "unschuldig",
           "meaning": "Innocent",
-          "example": "Sie ist unschuldig. = She is innocent."
+          "example": "Sie ist unschuldig. = Viņa ir nevainīga."
         }
       ],
       "tip": "Guilty or indebted: schuldig.",
@@ -49497,17 +49497,17 @@ const B1_WORDS = [
         {
           "word": "schützen",
           "meaning": "Protect, safeguard",
-          "example": "Die Jacke schützt vor Regen. = The jacket protects from rain."
+          "example": "Die Jacke schützt vor Regen. = Jaka aizsargā no lietus."
         },
         {
           "word": "retten",
           "meaning": "Save from danger",
-          "example": "Sie retten den Hund. = They save the dog."
+          "example": "Sie retten den Hund. = Viņi izglābj suni."
         },
         {
           "word": "bewachen",
           "meaning": "To guard",
-          "example": "Er bewacht das Haus. = He guards the house."
+          "example": "Er bewacht das Haus. = Viņš apsargā māju."
         }
       ],
       "tip": "Protects from something: schützen vor + kam?.",
@@ -49676,17 +49676,17 @@ const B1_WORDS = [
         {
           "word": "schwanken",
           "meaning": "Waver, doubt",
-          "example": "Die Preise schwanken. = Prices fluctuate."
+          "example": "Die Preise schwanken. = Cenas svārstās."
         },
         {
           "word": "wackeln",
           "meaning": "To wobble",
-          "example": "Der Tisch wackelt. = The table wobbles."
+          "example": "Der Tisch wackelt. = Galds ļodzās."
         },
         {
           "word": "zweifeln",
           "meaning": "To doubt",
-          "example": "Ich zweifle daran. = I doubt it."
+          "example": "Ich zweifle daran. = Es par to šaubos."
         }
       ],
       "tip": "Unsteady movement or unsteady decision: schwanken.",
@@ -50122,17 +50122,17 @@ const B1_WORDS = [
         {
           "word": "senden",
           "meaning": "Send or broadcast",
-          "example": "Ich sende eine Nachricht. = I am sending a message."
+          "example": "Ich sende eine Nachricht. = Es sūtu ziņu."
         },
         {
           "word": "schicken",
           "meaning": "Send in everyday situations",
-          "example": "Ich schicke dir das Foto. = I send you a photo."
+          "example": "Ich schicke dir das Foto. = Es tev nosūtu foto."
         },
         {
           "word": "übertragen",
           "meaning": "Transmit",
-          "example": "Das Spiel wird übertragen. = The game is broadcast."
+          "example": "Das Spiel wird übertragen. = Spēle tiek pārraidīta."
         }
       ],
       "tip": "A message, signal, or transmission: senden.",
@@ -50271,17 +50271,17 @@ const B1_WORDS = [
         {
           "word": "senken",
           "meaning": "To lower",
-          "example": "Die Firma senkt die Preise. = The company lowers prices."
+          "example": "Die Firma senkt die Preise. = Uzņēmums pazemina cenas."
         },
         {
           "word": "sinken",
           "meaning": "To fall, to sink",
-          "example": "Die Preise sinken. = Prices are falling."
+          "example": "Die Preise sinken. = Cenas krītas."
         },
         {
           "word": "heben",
           "meaning": "Lift up",
-          "example": "Er hebt die Hand. = He raises his hand."
+          "example": "Er hebt die Hand. = Viņš paceļ roku."
         }
       ],
       "tip": "Someone lowers something: senken; something falls by itself: sinken.",
@@ -50561,17 +50561,17 @@ const B1_WORDS = [
         {
           "word": "der Sinn",
           "meaning": "Sense, meaning, feeling",
-          "example": "Das hat keinen Sinn. = It doesn't make sense."
+          "example": "Das hat keinen Sinn. = Tam nav jēgas."
         },
         {
           "word": "die Bedeutung",
           "meaning": "Meaning",
-          "example": "Die Bedeutung ist klar. = The meaning is clear."
+          "example": "Die Bedeutung ist klar. = Nozīme ir skaidra."
         },
         {
           "word": "das Gefühl",
           "meaning": "Feeling",
-          "example": "Ich habe ein gutes Gefühl. = I have a good feeling."
+          "example": "Ich habe ein gutes Gefühl. = Man ir laba sajūta."
         }
       ],
       "tip": "Meaning in text or life: Sinn; the meaning of the word often also Bedeutung.",
@@ -50707,17 +50707,17 @@ const B1_WORDS = [
         {
           "word": "der Sitz",
           "meaning": "Seat, seating place • Headquarters",
-          "example": "Der Sitz ist frei. = The seat is free."
+          "example": "Der Sitz ist frei. = Sēdeklis ir brīvs."
         },
         {
           "word": "der Platz",
           "meaning": "Place",
-          "example": "Der Platz ist frei. = The place is free."
+          "example": "Der Platz ist frei. = Vieta ir brīva."
         },
         {
           "word": "der Standort",
           "meaning": "Location",
-          "example": "Der Standort ist gut. = The location is good."
+          "example": "Der Standort ist gut. = Atrašanās vieta ir laba."
         }
       ],
       "tip": "Where it sits or where the company is located: der Sitz.",
@@ -50961,17 +50961,17 @@ const B1_WORDS = [
         {
           "word": "sich sorgen",
           "meaning": "To worry",
-          "example": "Ich sorge mich um dich. = I'm worried about you."
+          "example": "Ich sorge mich um dich. = Es raizējos par tevi."
         },
         {
           "word": "sich kümmern um",
           "meaning": "Practically take care of",
-          "example": "Ich kümmere mich um das Kind. = I take care of the child."
+          "example": "Ich kümmere mich um das Kind. = Es rūpējos par bērnu."
         },
         {
           "word": "die Sorge",
           "meaning": "Worries, worries",
-          "example": "Das ist meine Sorge. = Those are my concerns."
+          "example": "Das ist meine Sorge. = Tās ir manas rūpes."
         }
       ],
       "tip": "Feeling inside: sich sorgen; practical help: sich kümmern um.",
@@ -51262,17 +51262,17 @@ const B1_WORDS = [
         {
           "word": "die Spannung",
           "meaning": "Tension • In electricity, voltage",
-          "example": "Die Spannung ist groß. = The tension is high."
+          "example": "Die Spannung ist groß. = Spriedze ir liela."
         },
         {
           "word": "der Stress",
           "meaning": "Stress, overload",
-          "example": "Ich habe viel Stress. = I have a lot of stress."
+          "example": "Ich habe viel Stress. = Man ir daudz stresa."
         },
         {
           "word": "die Kraft",
           "meaning": "Strength",
-          "example": "Er hat viel Kraft. = He has a lot of power."
+          "example": "Er hat viel Kraft. = Viņam ir daudz spēka."
         }
       ],
       "tip": {
@@ -51445,17 +51445,17 @@ const B1_WORDS = [
         {
           "word": "speichern",
           "meaning": "Save • Accumulate",
-          "example": "Ich speichere die Datei. = I saved the file."
+          "example": "Ich speichere die Datei. = Es saglabāju failu."
         },
         {
           "word": "sparen",
           "meaning": "To save, save money",
-          "example": "Ich spare Geld. = I save money."
+          "example": "Ich spare Geld. = Es krāju naudu."
         },
         {
           "word": "aufbewahren",
           "meaning": "Keep an item or document",
-          "example": "Ich bewahre die Quittung auf. = I keep the receipt."
+          "example": "Ich bewahre die Quittung auf. = Es glabāju čeku."
         }
       ],
       "tip": {
@@ -51635,17 +51635,17 @@ const B1_WORDS = [
         {
           "word": "sperren",
           "meaning": "Block, close access",
-          "example": "Die Straße ist gesperrt. = The street is closed."
+          "example": "Die Straße ist gesperrt. = Iela ir slēgta."
         },
         {
           "word": "abschließen",
           "meaning": "Lock with a key",
-          "example": "Ich schließe die Tür ab. = I locked the door."
+          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
         },
         {
           "word": "schließen",
           "meaning": "To close",
-          "example": "Ich schließe das Fenster. = I close the window."
+          "example": "Ich schließe das Fenster. = Es aizveru logu."
         }
       ],
       "tip": {
@@ -51807,17 +51807,17 @@ const B1_WORDS = [
         {
           "word": "die Spitze",
           "meaning": "Tip, peak, leadership",
-          "example": "Die Spitze ist scharf. = The tip is sharp."
+          "example": "Die Spitze ist scharf. = Smaile ir asa."
         },
         {
           "word": "der Gipfel",
           "meaning": "Mountain top",
-          "example": "Der Gipfel ist hoch. = The top is high."
+          "example": "Der Gipfel ist hoch. = Virsotne ir augsta."
         },
         {
           "word": "das Ende",
           "meaning": "The end, the end",
-          "example": "Das Ende ist nah. = The end is near."
+          "example": "Das Ende ist nah. = Beigas ir tuvu."
         }
       ],
       "tip": {
@@ -52043,17 +52043,17 @@ const B1_WORDS = [
         {
           "word": "spritzen",
           "meaning": "Splash, spray, inject",
-          "example": "Wasser spritzt. = Water splashes."
+          "example": "Wasser spritzt. = Ūdens šļakstās."
         },
         {
           "word": "gießen",
           "meaning": "Pour, water",
-          "example": "Ich gieße die Blumen. = I water the flowers."
+          "example": "Ich gieße die Blumen. = Es laistu puķes."
         },
         {
           "word": "sprühen",
           "meaning": "To spray",
-          "example": "Ich sprühe Parfüm. = I spray perfume."
+          "example": "Ich sprühe Parfüm. = Es izsmidzinu smaržas."
         }
       ],
       "tip": {
@@ -52199,17 +52199,17 @@ const B1_WORDS = [
         {
           "word": "der Sprung",
           "meaning": "Leap • Gap",
-          "example": "Der Sprung war weit. = The jump was far."
+          "example": "Der Sprung war weit. = Lēciens bija tāls."
         },
         {
           "word": "der Riss",
           "meaning": "Gap",
-          "example": "In der Wand ist ein Riss. = There is a crack in the wall."
+          "example": "In der Wand ist ein Riss. = Sienā ir plaisa."
         },
         {
           "word": "springen",
           "meaning": "To jump",
-          "example": "Er springt hoch. = He jumps high."
+          "example": "Er springt hoch. = Viņš lec augstu."
         }
       ],
       "tip": {
@@ -52448,17 +52448,17 @@ const B1_WORDS = [
         {
           "word": "der Stand",
           "meaning": "Condition • Stand",
-          "example": "Der Stand ist unklar. = The condition is unclear."
+          "example": "Der Stand ist unklar. = Stāvoklis nav skaidrs."
         },
         {
           "word": "der Zustand",
           "meaning": "Condition, quality",
-          "example": "Der Zustand ist gut. = The condition is good."
+          "example": "Der Zustand ist gut. = Stāvoklis ir labs."
         },
         {
           "word": "der Standort",
           "meaning": "Location",
-          "example": "Der Standort ist zentral. = The location is central."
+          "example": "Der Standort ist zentral. = Atrašanās vieta ir centrāla."
         }
       ],
       "tip": {
@@ -52707,17 +52707,17 @@ const B1_WORDS = [
         {
           "word": "die Stellung",
           "meaning": "Position, position, position",
-          "example": "Er sucht eine Stellung. = He is looking for a job."
+          "example": "Er sucht eine Stellung. = Viņš meklē darbu."
         },
         {
           "word": "der Stand",
           "meaning": "Current state",
-          "example": "Wie ist der Stand? = What is the condition?"
+          "example": "Wie ist der Stand? = Kāds ir stāvoklis?"
         },
         {
           "word": "die Stelle",
           "meaning": "Place • Workplace",
-          "example": "Die Stelle ist frei. = The job is vacant."
+          "example": "Die Stelle ist frei. = Darbavieta ir brīva."
         }
       ],
       "tip": {
@@ -52941,17 +52941,17 @@ const B1_WORDS = [
         {
           "word": "der Stift",
           "meaning": "Pencil, pen • Pin",
-          "example": "Hast du einen Stift? = Do you have a pencil"
+          "example": "Hast du einen Stift? = Vai tev ir zīmulis?"
         },
         {
           "word": "der Bleistift",
           "meaning": "Pencil",
-          "example": "Der Bleistift ist spitz. = The pencil is sharp."
+          "example": "Der Bleistift ist spitz. = Zīmulis ir ass."
         },
         {
           "word": "der Kugelschreiber",
           "meaning": "Ballpoint pen",
-          "example": "Der Kugelschreiber schreibt blau. = The pen writes in blue."
+          "example": "Der Kugelschreiber schreibt blau. = Pildspalva raksta zilā krāsā."
         }
       ],
       "tip": {
@@ -53099,17 +53099,17 @@ const B1_WORDS = [
         {
           "word": "stillen",
           "meaning": "To nurse • Soothe",
-          "example": "Die Mutter stillt das Baby. = A mother is nursing a child."
+          "example": "Die Mutter stillt das Baby. = Māte zīda bērnu."
         },
         {
           "word": "beruhigen",
           "meaning": "Calm down",
-          "example": "Ich beruhige das Kind. = I soothe the child."
+          "example": "Ich beruhige das Kind. = Es nomierinu bērnu."
         },
         {
           "word": "füttern",
           "meaning": "To feed",
-          "example": "Ich füttere das Baby. = I am feeding the baby."
+          "example": "Ich füttere das Baby. = Es baroju bērnu."
         }
       ],
       "tip": {
@@ -53325,17 +53325,17 @@ const B1_WORDS = [
         {
           "word": "stoßen",
           "meaning": "Push, bump • Bump into",
-          "example": "Er stößt gegen die Tür. = He hits the door."
+          "example": "Er stößt gegen die Tür. = Viņš atsitas pret durvīm."
         },
         {
           "word": "schieben",
           "meaning": "Push in a longer motion",
-          "example": "Ich schiebe den Wagen. = I push the cart."
+          "example": "Ich schiebe den Wagen. = Es stumju ratus."
         },
         {
           "word": "treffen",
           "meaning": "To meet or hit",
-          "example": "Ich treffe ihn morgen. = I will meet him tomorrow."
+          "example": "Ich treffe ihn morgen. = Es viņu satikšu rīt."
         }
       ],
       "tip": {
@@ -53551,17 +53551,17 @@ const B1_WORDS = [
         {
           "word": "streichen",
           "meaning": "To strike out • To paint • To stroke",
-          "example": "Der Termin wird gestrichen. = The term is cancelled."
+          "example": "Der Termin wird gestrichen. = Termiņš tiek atcelts."
         },
         {
           "word": "löschen",
           "meaning": "Delete a file or text; put out a fire",
-          "example": "Ich lösche die Datei. = I will delete the file."
+          "example": "Ich lösche die Datei. = Es dzēšu failu."
         },
         {
           "word": "malen",
           "meaning": "Draw or paint a picture",
-          "example": "Das Kind malt ein Bild. = A child draws a picture."
+          "example": "Das Kind malt ein Bild. = Bērns zīmē attēlu."
         }
       ],
       "tip": {
@@ -53776,17 +53776,17 @@ const B1_WORDS = [
         {
           "word": "der Strom",
           "meaning": "Electricity, current • Big river",
-          "example": "Der Strom ist weg. = There is no electricity."
+          "example": "Der Strom ist weg. = Elektrības nav."
         },
         {
           "word": "der Fluss",
           "meaning": "The river",
-          "example": "Der Fluss ist breit. = The river is wide."
+          "example": "Der Fluss ist breit. = Upe ir plata."
         },
         {
           "word": "die Energie",
           "meaning": "Energy",
-          "example": "Wir sparen Energie. = We save energy."
+          "example": "Wir sparen Energie. = Mēs taupām enerģiju."
         }
       ],
       "tip": {
@@ -54005,17 +54005,17 @@ const B1_WORDS = [
         {
           "word": "stürzen",
           "meaning": "Fall rapidly • Knock down",
-          "example": "Er stürzt zu Boden. = He falls to the ground."
+          "example": "Er stürzt zu Boden. = Viņš nokrīt zemē."
         },
         {
           "word": "fallen",
           "meaning": "Fall neutral",
-          "example": "Das Glas fällt auf den Boden. = The glass falls to the floor."
+          "example": "Das Glas fällt auf den Boden. = Glāze nokrīt uz grīdas."
         },
         {
           "word": "umfallen",
           "meaning": "Fall over",
-          "example": "Der Stuhl fällt um. = The chair overturns."
+          "example": "Der Stuhl fällt um. = Krēsls apgāžas."
         }
       ],
       "tip": {
@@ -54210,19 +54210,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Szene",
+          "word": "die Szene",
           "meaning": "Scene • Environment",
-          "example": "Die Szene ist kurz. = The scene is short."
+          "example": "Die Szene ist kurz. = Aina ir īsa."
         },
         {
           "word": "die Bühne",
           "meaning": "Stage",
-          "example": "Sie steht auf der Bühne. = She is standing on the stage."
+          "example": "Sie steht auf der Bühne. = Viņa stāv uz skatuves."
         },
         {
           "word": "die Situation",
           "meaning": "The situation",
-          "example": "Die Situation ist schwierig. = The situation is complicated."
+          "example": "Die Situation ist schwierig. = Situācija ir sarežģīta."
         }
       ],
       "tip": {
@@ -54418,17 +54418,17 @@ const B1_WORDS = [
         {
           "word": "der Tank",
           "meaning": "Tank",
-          "example": "Der Tank ist leer. = The tank is empty."
+          "example": "Der Tank ist leer. = Tvertne ir tukša."
         },
         {
           "word": "der Behälter",
           "meaning": "Vessel, tank",
-          "example": "Der Behälter ist voll. = The container is full."
+          "example": "Der Behälter ist voll. = Trauks ir pilns."
         },
         {
           "word": "der Panzer",
           "meaning": "Military tank",
-          "example": "Der Panzer ist schwer. = The tank is heavy."
+          "example": "Der Panzer ist schwer. = Tanks ir smags."
         }
       ],
       "tip": {
@@ -54645,19 +54645,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Tau",
+          "word": "der Tau",
           "meaning": "Dew",
-          "example": "Der Tau glitzert. = Dew glistens. Only singular."
+          "example": "Der Tau glitzert. = Rasa mirdz. Tikai vienskaitlis."
         },
         {
           "word": "das Tau",
           "meaning": "Ship's tow • Rope",
-          "example": "Das Tau ist fest. = The tow is tight. Plural: die Taue."
+          "example": "Das Tau ist fest. = Tauva ir stingra. Plural: die Taue."
         },
         {
           "word": "der Nebel",
           "meaning": "Fog",
-          "example": "Der Nebel ist dicht. = The fog is dense."
+          "example": "Der Nebel ist dicht. = Migla ir blīva."
         }
       ],
       "tip": {
@@ -54744,17 +54744,17 @@ const B1_WORDS = [
         {
           "word": "das Tau",
           "meaning": "Ship's tow • Rope",
-          "example": "Das Tau ist fest. = The tow is tight. Plural: die Taue."
+          "example": "Das Tau ist fest. = Tauva ir stingra. Plural: die Taue."
         },
         {
           "word": "der Tau",
           "meaning": "Dew",
-          "example": "Der Tau glitzert. = Dew glistens. Only singular."
+          "example": "Der Tau glitzert. = Rasa mirdz. Tikai vienskaitlis."
         },
         {
           "word": "das Seil",
           "meaning": "A rope",
-          "example": "Das Seil ist lang. = The rope is long."
+          "example": "Das Seil ist lang. = Virve ir gara."
         }
       ],
       "tip": {
@@ -54853,17 +54853,17 @@ const B1_WORDS = [
         {
           "word": "tauchen",
           "meaning": "Dive • Dip",
-          "example": "Wir tauchen im See. = We dive into the lake."
+          "example": "Wir tauchen im See. = Mēs nirstam ezerā."
         },
         {
           "word": "schwimmen",
           "meaning": "Float on water",
-          "example": "Ich schwimme im See. = I swim in the lake."
+          "example": "Ich schwimme im See. = Es peldu ezerā."
         },
         {
           "word": "eintauchen",
           "meaning": "Dip, soak",
-          "example": "Ich tauche den Pinsel ein. = I dipped the brush."
+          "example": "Ich tauche den Pinsel ein. = Es iemērcu otu."
         }
       ],
       "tip": {
@@ -55014,17 +55014,17 @@ const B1_WORDS = [
         {
           "word": "taufen",
           "meaning": "Baptise • Give name",
-          "example": "Das Kind wird getauft. = The child is baptised."
+          "example": "Das Kind wird getauft. = Bērns tiek kristīts."
         },
         {
           "word": "nennen",
           "meaning": "To call, to name",
-          "example": "Wir nennen ihn Max. = We call him Max."
+          "example": "Wir nennen ihn Max. = Mēs viņu saucam par Maksu."
         },
         {
           "word": "heiraten",
           "meaning": "Get married",
-          "example": "Sie heiraten im Mai. = They are getting married in May."
+          "example": "Sie heiraten im Mai. = Viņi precas maijā."
         }
       ],
       "tip": {
@@ -55208,17 +55208,17 @@ const B1_WORDS = [
         {
           "word": "teilnehmen",
           "meaning": "To participate",
-          "example": "Ich nehme am Kurs teil. = I am participating in the course."
+          "example": "Ich nehme am Kurs teil. = Es piedalos kursā."
         },
         {
           "word": "mitmachen",
           "meaning": "Participate informally",
-          "example": "Machst du mit? = Will you participate?"
+          "example": "Machst du mit? = Vai tu piedalīsies?"
         },
         {
           "word": "besuchen",
           "meaning": "To visit",
-          "example": "Ich besuche einen Kurs. = I attended the course."
+          "example": "Ich besuche einen Kurs. = Es apmeklēju kursu."
         }
       ],
       "tip": {
@@ -55481,17 +55481,17 @@ const B1_WORDS = [
         {
           "word": "der Titel",
           "meaning": "Name • Title",
-          "example": "Der Titel ist bekannt. = The name is known."
+          "example": "Der Titel ist bekannt. = Nosaukums ir zināms."
         },
         {
           "word": "die Überschrift",
           "meaning": "Title",
-          "example": "Die Überschrift ist groß. = The title is big."
+          "example": "Die Überschrift ist groß. = Virsraksts ir liels."
         },
         {
           "word": "der Name",
           "meaning": "Name or title",
-          "example": "Wie ist der Name? = What is the name?"
+          "example": "Wie ist der Name? = Kāds ir vārds?"
         }
       ],
       "tip": {
@@ -55648,17 +55648,17 @@ const B1_WORDS = [
         {
           "word": "der Ton",
           "meaning": "Sound, tone",
-          "example": "Der Ton ist laut. = The sound is loud."
+          "example": "Der Ton ist laut. = Skaņa ir skaļa."
         },
         {
           "word": "die Stimme",
           "meaning": "Voice",
-          "example": "Ihre Stimme ist ruhig. = Her voice is calm."
+          "example": "Ihre Stimme ist ruhig. = Viņas balss ir mierīga."
         },
         {
           "word": "die Farbe",
           "meaning": "colour",
-          "example": "Die Farbe ist hell. = The colour is light."
+          "example": "Die Farbe ist hell. = Krāsa ir gaiša."
         }
       ],
       "tip": {
@@ -55844,17 +55844,17 @@ const B1_WORDS = [
         {
           "word": "trauen",
           "meaning": "To trust, to believe in one's abilities",
-          "example": "Ich traue dir. = I trust you."
+          "example": "Ich traue dir. = Es tev uzticos."
         },
         {
           "word": "vertrauen",
           "meaning": "To trust more deeply",
-          "example": "Ich vertraue dir. = I trust you."
+          "example": "Ich vertraue dir. = Es tev uzticos."
         },
         {
           "word": "sich trauen",
           "meaning": "To dare",
-          "example": "Traust du dich? = Do you dare"
+          "example": "Traust du dich? = Vai tu uzdrīksties?"
         }
       ],
       "tip": {
@@ -56269,17 +56269,17 @@ const B1_WORDS = [
         {
           "word": "trennen",
           "meaning": "To separate",
-          "example": "Die Wand trennt die Zimmer. = A wall separates the rooms."
+          "example": "Die Wand trennt die Zimmer. = Siena atdala istabas."
         },
         {
           "word": "unterscheiden",
           "meaning": "Distinguish by features",
-          "example": "Ich kann die Farben unterscheiden. = I can distinguish colours."
+          "example": "Ich kann die Farben unterscheiden. = Es varu atšķirt krāsas."
         },
         {
           "word": "sich trennen",
           "meaning": "Break up",
-          "example": "Sie trennen sich. = They are getting divorced."
+          "example": "Sie trennen sich. = Viņi šķiras."
         }
       ],
       "tip": {
@@ -56628,17 +56628,17 @@ const B1_WORDS = [
         {
           "word": "übergeben",
           "meaning": "To hand over",
-          "example": "Ich übergebe den Schlüssel. = I hand over the key."
+          "example": "Ich übergebe den Schlüssel. = Es nododu atslēgu."
         },
         {
           "word": "geben",
           "meaning": "To give",
-          "example": "Ich gebe dir das Buch. = I give you a book."
+          "example": "Ich gebe dir das Buch. = Es dodu tev grāmatu."
         },
         {
           "word": "sich übergeben",
           "meaning": "Throw up",
-          "example": "Er muss sich übergeben. = He needs to throw up."
+          "example": "Er muss sich übergeben. = Viņam jāvemj."
         }
       ],
       "tip": {
@@ -56775,17 +56775,17 @@ const B1_WORDS = [
         {
           "word": "überholen",
           "meaning": "Overtake • Overhaul",
-          "example": "Er überholt das Auto. = He overtakes the car."
+          "example": "Er überholt das Auto. = Viņš apdzen auto."
         },
         {
           "word": "vorbeifahren",
           "meaning": "Pass by",
-          "example": "Ich fahre am Haus vorbei. = I passed the house."
+          "example": "Ich fahre am Haus vorbei. = Es pabraucu garām mājai."
         },
         {
           "word": "reparieren",
           "meaning": "To repair",
-          "example": "Ich repariere den Motor. = I repaired the engine."
+          "example": "Ich repariere den Motor. = Es remontēju motoru."
         }
       ],
       "tip": {
@@ -56928,17 +56928,17 @@ const B1_WORDS = [
         {
           "word": "übernehmen",
           "meaning": "Take over, undertake",
-          "example": "Ich übernehme die Aufgabe. = I take over the task."
+          "example": "Ich übernehme die Aufgabe. = Es pārņemu uzdevumu."
         },
         {
           "word": "nehmen",
           "meaning": "To take",
-          "example": "Ich nehme das Buch. = I take the book."
+          "example": "Ich nehme das Buch. = Es ņemu grāmatu."
         },
         {
           "word": "bekommen",
           "meaning": "To receive",
-          "example": "Ich bekomme eine Antwort. = I get a reply."
+          "example": "Ich bekomme eine Antwort. = Es saņemu atbildi."
         }
       ],
       "tip": {
@@ -57080,17 +57080,17 @@ const B1_WORDS = [
         {
           "word": "übersehen",
           "meaning": "Overlook • Overlook",
-          "example": "Ich habe den Fehler übersehen. = I didn't notice the error."
+          "example": "Ich habe den Fehler übersehen. = Es nepamanīju kļūdu."
         },
         {
           "word": "sehen",
           "meaning": "To see",
-          "example": "Ich sehe das Haus. = I see a house."
+          "example": "Ich sehe das Haus. = Es redzu māju."
         },
         {
           "word": "bemerken",
           "meaning": "To notice",
-          "example": "Ich bemerke den Fehler. = I notice an error."
+          "example": "Ich bemerke den Fehler. = Es pamanu kļūdu."
         }
       ],
       "tip": {
@@ -57317,17 +57317,17 @@ const B1_WORDS = [
         {
           "word": "umgehen",
           "meaning": "Get around • Go around",
-          "example": "Er geht gut mit Kindern um. = He is good with children."
+          "example": "Er geht gut mit Kindern um. = Viņš labi apietas ar bērniem."
         },
         {
           "word": "behandeln",
           "meaning": "To treat, to process",
-          "example": "Er behandelt sie freundlich. = He treats her kindly."
+          "example": "Er behandelt sie freundlich. = Viņš pret viņu izturas laipni."
         },
         {
           "word": "vermeiden",
           "meaning": "Avoid",
-          "example": "Ich vermeide Fehler. = I avoid mistakes."
+          "example": "Ich vermeide Fehler. = Es izvairos no kļūdām."
         }
       ],
       "tip": {
@@ -57493,17 +57493,17 @@ const B1_WORDS = [
         {
           "word": "der Umschlag",
           "meaning": "Envelope • Cover • Compress",
-          "example": "Der Brief ist im Umschlag. = The letter is in an envelope."
+          "example": "Der Brief ist im Umschlag. = Vēstule ir aploksnē."
         },
         {
           "word": "der Brief",
           "meaning": "Letter",
-          "example": "Der Brief ist lang. = The letter is long."
+          "example": "Der Brief ist lang. = Vēstule ir gara."
         },
         {
           "word": "der Bezug",
           "meaning": "Cover",
-          "example": "Der Bezug ist sauber. = The cover is clean."
+          "example": "Der Bezug ist sauber. = Pārvalks ir tīrs."
         }
       ],
       "tip": {
@@ -57850,17 +57850,17 @@ const B1_WORDS = [
         {
           "word": "unterhalten",
           "meaning": "Entertain • Support",
-          "example": "Der Film unterhält uns. = The movie entertains us."
+          "example": "Der Film unterhält uns. = Filma mūs izklaidē."
         },
         {
           "word": "sich unterhalten",
           "meaning": "To talk",
-          "example": "Wir unterhalten uns. = We talk."
+          "example": "Wir unterhalten uns. = Mēs sarunājamies."
         },
         {
           "word": "sprechen",
           "meaning": "To speak",
-          "example": "Wir sprechen Deutsch. = We speak German."
+          "example": "Wir sprechen Deutsch. = Mēs runājam vāciski."
         }
       ],
       "tip": {
@@ -58019,19 +58019,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Untersuchung",
+          "word": "die Untersuchung",
           "meaning": "Investigation, examination, study",
-          "example": "Die Untersuchung beginnt. = The investigation begins."
+          "example": "Die Untersuchung beginnt. = Izmeklēšana sākas."
         },
         {
           "word": "die Prüfung",
           "meaning": "Exam or formal examination",
-          "example": "Die Prüfung ist schwer. = The exam is difficult."
+          "example": "Die Prüfung ist schwer. = Eksāmens ir grūts."
         },
         {
           "word": "die Forschung",
           "meaning": "Research as a process",
-          "example": "Die Forschung ist wichtig. = Research is important."
+          "example": "Die Forschung ist wichtig. = Pētniecība ir svarīga."
         }
       ],
       "tip": {
@@ -58227,17 +58227,17 @@ const B1_WORDS = [
         {
           "word": "verändern",
           "meaning": "Change more significantly",
-          "example": "Das verändert die Situation. = This changes the situation."
+          "example": "Das verändert die Situation. = Tas maina situāciju."
         },
         {
           "word": "ändern",
           "meaning": "To change or correct a particular thing",
-          "example": "Ich ändere den Termin. = I change the deadline."
+          "example": "Ich ändere den Termin. = Es mainu termiņu."
         },
         {
           "word": "sich verändern",
           "meaning": "To change",
-          "example": "Alles verändert sich. = Everything changes."
+          "example": "Alles verändert sich. = Viss mainās."
         }
       ],
       "tip": {
@@ -58394,17 +58394,17 @@ const B1_WORDS = [
         {
           "word": "der Verband",
           "meaning": "Bandage • Union",
-          "example": "Der Verband ist sauber. = The bandage is clean."
+          "example": "Der Verband ist sauber. = Pārsējs ir tīrs."
         },
         {
           "word": "der Verein",
           "meaning": "Society",
-          "example": "Der Verein hat viele Mitglieder. = The association has many members."
+          "example": "Der Verein hat viele Mitglieder. = Biedrībai ir daudz biedru."
         },
         {
           "word": "die Verbindung",
           "meaning": "Connection, connection",
-          "example": "Die Verbindung ist stabil. = The connection is stable."
+          "example": "Die Verbindung ist stabil. = Savienojums ir stabils."
         }
       ],
       "tip": {
@@ -58542,17 +58542,17 @@ const B1_WORDS = [
         {
           "word": "die Verbindung",
           "meaning": "Connection, connection",
-          "example": "Die Verbindung ist stabil. = The connection is stable."
+          "example": "Die Verbindung ist stabil. = Savienojums ir stabils."
         },
         {
           "word": "der Anschluss",
           "meaning": "Connection",
-          "example": "Der Anschluss funktioniert. = The connection is working."
+          "example": "Der Anschluss funktioniert. = Pieslēgums darbojas."
         },
         {
           "word": "der Verband",
           "meaning": "Bandage • Union",
-          "example": "Der Verband ist sauber. = The bandage is clean."
+          "example": "Der Verband ist sauber. = Pārsējs ir tīrs."
         }
       ],
       "tip": {
@@ -58724,17 +58724,17 @@ const B1_WORDS = [
         {
           "word": "verbrennen",
           "meaning": "To burn up, burn yourself",
-          "example": "Das Papier verbrennt. = The paper burns."
+          "example": "Das Papier verbrennt. = Papīrs sadeg."
         },
         {
           "word": "brennen",
           "meaning": "To burn",
-          "example": "Das Feuer brennt. = The fire is burning."
+          "example": "Das Feuer brennt. = Uguns deg."
         },
         {
           "word": "anzünden",
           "meaning": "Set fire to",
-          "example": "Ich zünde die Kerze an. = I light a candle."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         }
       ],
       "tip": {
@@ -58878,17 +58878,17 @@ const B1_WORDS = [
         {
           "word": "verderben",
           "meaning": "Spoil • Spoil",
-          "example": "Die Milch ist verdorben. = The milk has spoiled."
+          "example": "Die Milch ist verdorben. = Piens ir sabojājies."
         },
         {
           "word": "kaputtmachen",
           "meaning": "Break or damage an item",
-          "example": "Er macht das Handy kaputt. = He breaks the phone."
+          "example": "Er macht das Handy kaputt. = Viņš sabojā telefonu."
         },
         {
           "word": "schlecht werden",
           "meaning": "Spoil for food",
-          "example": "Die Milch wird schlecht. = Milk spoils."
+          "example": "Die Milch wird schlecht. = Piens sabojājas."
         }
       ],
       "tip": {
@@ -59046,17 +59046,17 @@ const B1_WORDS = [
         {
           "word": "verfolgen",
           "meaning": "To follow, to pursue",
-          "example": "Ich verfolge die Nachrichten. = I follow the news."
+          "example": "Ich verfolge die Nachrichten. = Es sekoju līdzi ziņām."
         },
         {
           "word": "folgen",
           "meaning": "To follow someone",
-          "example": "Ich folge dir. = I follow you."
+          "example": "Ich folge dir. = Es sekoju tev."
         },
         {
           "word": "beobachten",
           "meaning": "To observe",
-          "example": "Ich beobachte die Straße. = I watched the street."
+          "example": "Ich beobachte die Straße. = Es vēroju ielu."
         }
       ],
       "tip": {
@@ -59236,17 +59236,17 @@ const B1_WORDS = [
         {
           "word": "das Verhältnis",
           "meaning": "Relation, proportion, circumstances",
-          "example": "Das Verhältnis ist gut. = The relationship is good."
+          "example": "Das Verhältnis ist gut. = Attiecības ir labas."
         },
         {
           "word": "die Beziehung",
           "meaning": "Personal relationships",
-          "example": "Ihre Beziehung ist stabil. = Their relationship is stable."
+          "example": "Ihre Beziehung ist stabil. = Viņu attiecības ir stabilas."
         },
         {
           "word": "der Anteil",
           "meaning": "Part of the whole",
-          "example": "Der Anteil ist groß. = The portion is large."
+          "example": "Der Anteil ist groß. = Daļa ir liela."
         }
       ],
       "tip": {
@@ -59463,17 +59463,17 @@ const B1_WORDS = [
         {
           "word": "verlegen",
           "meaning": "Transfer • Put away and no longer find • Issue",
-          "example": "Ich habe den Schlüssel verlegt. = I can't find the key."
+          "example": "Ich habe den Schlüssel verlegt. = Es nevaru atrast atslēgu."
         },
         {
           "word": "verschieben",
           "meaning": "Postpone to another time",
-          "example": "Wir verschieben den Termin. = We are moving the deadline."
+          "example": "Wir verschieben den Termin. = Mēs pārceļam termiņu."
         },
         {
           "word": "verlieren",
           "meaning": "To lose",
-          "example": "Ich verliere den Schlüssel. = I lost my key."
+          "example": "Ich verliere den Schlüssel. = Es pazaudēju atslēgu."
         }
       ],
       "tip": {
@@ -59607,17 +59607,17 @@ const B1_WORDS = [
         {
           "word": "verletzen",
           "meaning": "To injure, offend, violate",
-          "example": "Er verletzt sich. = He gets injured."
+          "example": "Er verletzt sich. = Viņš savainojas."
         },
         {
           "word": "beleidigen",
           "meaning": "Insult with words",
-          "example": "Er beleidigt mich. = He insults me."
+          "example": "Er beleidigt mich. = Viņš mani apvaino."
         },
         {
           "word": "brechen",
           "meaning": "Break • Break a rule",
-          "example": "Er bricht die Regel. = He breaks the rule."
+          "example": "Er bricht die Regel. = Viņš pārkāpj noteikumu."
         }
       ],
       "tip": {
@@ -59832,17 +59832,17 @@ const B1_WORDS = [
         {
           "word": "versichern",
           "meaning": "To insure • To assure",
-          "example": "Ich versichere das Auto. = I insure the car."
+          "example": "Ich versichere das Auto. = Es apdrošinu auto."
         },
         {
           "word": "sichern",
           "meaning": "To secure, to make safe",
-          "example": "Ich sichere die Tür. = I provide the door."
+          "example": "Ich sichere die Tür. = Es nodrošinu durvis."
         },
         {
           "word": "bestätigen",
           "meaning": "Confirm",
-          "example": "Ich bestätige den Termin. = I confirm the deadline."
+          "example": "Ich bestätige den Termin. = Es apstiprinu termiņu."
         }
       ],
       "tip": {
@@ -60077,17 +60077,17 @@ const B1_WORDS = [
         {
           "word": "vertreten",
           "meaning": "Represent, substitute, defend",
-          "example": "Sie vertritt die Firma. = She represents the company."
+          "example": "Sie vertritt die Firma. = Viņa pārstāv uzņēmumu."
         },
         {
           "word": "ersetzen",
           "meaning": "Replace a thing or person",
-          "example": "Das ersetzt den alten Plan. = This replaces the old plan."
+          "example": "Das ersetzt den alten Plan. = Tas aizstāj veco plānu."
         },
         {
           "word": "darstellen",
           "meaning": "Depict or display",
-          "example": "Die Grafik stellt Daten dar. = A graph represents the data."
+          "example": "Die Grafik stellt Daten dar. = Grafiks attēlo datus."
         }
       ],
       "tip": {
@@ -60243,17 +60243,17 @@ const B1_WORDS = [
         {
           "word": "der Verwandte",
           "meaning": "Relative (male)",
-          "example": "Er ist mein Verwandter. = He is my relative."
+          "example": "Er ist mein Verwandter. = Viņš ir mans radinieks."
         },
         {
           "word": "die Verwandte",
           "meaning": "Relative",
-          "example": "Sie ist meine Verwandte. = She is my relative."
+          "example": "Sie ist meine Verwandte. = Viņa ir mana radiniece."
         },
         {
           "word": "die Verwandten",
           "meaning": "Relatives (plural)",
-          "example": "Meine Verwandten kommen. = My relatives are coming."
+          "example": "Meine Verwandten kommen. = Mani radinieki nāk."
         }
       ],
       "tip": {
@@ -60342,17 +60342,17 @@ const B1_WORDS = [
         {
           "word": "die Verwandte",
           "meaning": "Relative",
-          "example": "Sie ist meine Verwandte. = She is my relative."
+          "example": "Sie ist meine Verwandte. = Viņa ir mana radiniece."
         },
         {
           "word": "der Verwandte",
           "meaning": "Relative (male)",
-          "example": "Er ist mein Verwandter. = He is my relative."
+          "example": "Er ist mein Verwandter. = Viņš ir mans radinieks."
         },
         {
           "word": "die Verwandten",
           "meaning": "Relatives (plural)",
-          "example": "Meine Verwandten kommen. = My relatives are coming."
+          "example": "Meine Verwandten kommen. = Mani radinieki nāk."
         }
       ],
       "tip": {
@@ -60583,17 +60583,17 @@ const B1_WORDS = [
         {
           "word": "vorkommen",
           "meaning": "Happen, appear, seem",
-          "example": "Das kommt oft vor. = This happens often."
+          "example": "Das kommt oft vor. = Tas bieži gadās."
         },
         {
           "word": "passieren",
           "meaning": "Happen",
-          "example": "Was ist passiert? = What happened?"
+          "example": "Was ist passiert? = Kas notika?"
         },
         {
           "word": "scheinen",
           "meaning": "It seems",
-          "example": "Das scheint richtig. = That seems right."
+          "example": "Das scheint richtig. = Tas šķiet pareizi."
         }
       ],
       "tip": {
@@ -60818,17 +60818,17 @@ const B1_WORDS = [
         {
           "word": "die Vorstellung",
           "meaning": "A show, a show • A performance",
-          "example": "Die Vorstellung beginnt. = The show begins."
+          "example": "Die Vorstellung beginnt. = Izrāde sākas."
         },
         {
           "word": "die Idee",
           "meaning": "Idea",
-          "example": "Ich habe eine Idee. = I have an idea."
+          "example": "Ich habe eine Idee. = Man ir ideja."
         },
         {
           "word": "die Aufführung",
           "meaning": "Performance, performance",
-          "example": "Die Aufführung war gut. = The show was good."
+          "example": "Die Aufführung war gut. = Izrāde bija laba."
         }
       ],
       "tip": {
@@ -60980,17 +60980,17 @@ const B1_WORDS = [
         {
           "word": "vorziehen",
           "meaning": "Prefer • Move earlier",
-          "example": "Ich ziehe Tee vor. = I prefer tea."
+          "example": "Ich ziehe Tee vor. = Es dodu priekšroku tējai."
         },
         {
           "word": "bevorzugen",
           "meaning": "Give preference",
-          "example": "Ich bevorzuge Tee. = I prefer tea."
+          "example": "Ich bevorzuge Tee. = Es dodu priekšroku tējai."
         },
         {
           "word": "verschieben",
           "meaning": "Transfer to another time",
-          "example": "Wir verschieben den Termin. = We are moving the deadline."
+          "example": "Wir verschieben den Termin. = Mēs pārceļam termiņu."
         }
       ],
       "tip": {
@@ -61150,17 +61150,17 @@ const B1_WORDS = [
         {
           "word": "die Wache",
           "meaning": "Guard, sentry, station",
-          "example": "Die Wache ist am Eingang. = The guard is at the entrance."
+          "example": "Die Wache ist am Eingang. = Sardze ir pie ieejas."
         },
         {
           "word": "der Wächter",
           "meaning": "Guard",
-          "example": "Der Wächter kontrolliert die Tür. = The guard checks the door."
+          "example": "Der Wächter kontrolliert die Tür. = Sargs pārbauda durvis."
         },
         {
           "word": "wachen",
           "meaning": "To be awake, to guard",
-          "example": "Der Hund wacht. = The dog guards."
+          "example": "Der Hund wacht. = Suns sargā."
         }
       ],
       "tip": {
@@ -61285,17 +61285,17 @@ const B1_WORDS = [
         {
           "word": "wachen",
           "meaning": "To be awake, to guard",
-          "example": "Der Hund wacht. = The dog guards."
+          "example": "Der Hund wacht. = Suns sargā."
         },
         {
           "word": "aufwachen",
           "meaning": "Wake up",
-          "example": "Ich wache früh auf. = I wake up early."
+          "example": "Ich wache früh auf. = Es agri pamostos."
         },
         {
           "word": "bewachen",
           "meaning": "To guard",
-          "example": "Sie bewachen das Haus. = They guard the house."
+          "example": "Sie bewachen das Haus. = Viņi apsargā māju."
         }
       ],
       "tip": {
@@ -61457,22 +61457,22 @@ const B1_WORDS = [
         {
           "word": "der Wagen",
           "meaning": "Car • Wagon • Cart",
-          "example": "Der Wagen ist neu. = The car is new."
+          "example": "Der Wagen ist neu. = Automašīna ir jauna."
         },
         {
           "word": "der Waggon",
           "meaning": "Wagon (train)",
-          "example": "Der Waggon ist voll. = The wagon is full."
+          "example": "Der Waggon ist voll. = Vagons ir pilns."
         },
         {
           "word": "das Auto",
           "meaning": "Car",
-          "example": "Das Auto steht da. = The car is standing there."
+          "example": "Das Auto steht da. = Automašīna stāv tur."
         },
         {
           "word": "wagen (Verb)",
           "meaning": "To dare",
-          "example": "Ich wage es nicht. = I dare not."
+          "example": "Ich wage es nicht. = Es neuzdrošinos."
         }
       ],
       "tip": {
@@ -61792,17 +61792,17 @@ const B1_WORDS = [
         {
           "word": "der Wechsel",
           "meaning": "Change, change",
-          "example": "Der Wechsel ist wichtig. = Change is important."
+          "example": "Der Wechsel ist wichtig. = Maiņa ir svarīga."
         },
         {
           "word": "die Änderung",
           "meaning": "A change",
-          "example": "Die Änderung ist klein. = The change is small."
+          "example": "Die Änderung ist klein. = Izmaiņa ir maza."
         },
         {
           "word": "wechseln",
           "meaning": "To change",
-          "example": "Ich wechsle das Geld. = I change money."
+          "example": "Ich wechsle das Geld. = Es mainu naudu."
         }
       ],
       "tip": {
@@ -61938,17 +61938,17 @@ const B1_WORDS = [
         {
           "word": "weder ... noch",
           "meaning": "Neither ... nor",
-          "example": "Weder Kaffee noch Tee. = Neither coffee nor tea."
+          "example": "Weder Kaffee noch Tee. = Nedz kafija, nedz tēja."
         },
         {
           "word": "entweder ... oder",
           "meaning": "Either ... or",
-          "example": "Entweder Tee oder Kaffee. = Either tea or coffee."
+          "example": "Entweder Tee oder Kaffee. = Vai nu tēja, vai kafija."
         },
         {
           "word": "sowohl ... als auch",
           "meaning": "Both ... both",
-          "example": "Sowohl Tee als auch Kaffee. = Both tea and coffee."
+          "example": "Sowohl Tee als auch Kaffee. = Gan tēja, gan kafija."
         }
       ],
       "tip": {
@@ -62227,17 +62227,17 @@ const B1_WORDS = [
         {
           "word": "die Welle",
           "meaning": "Wave • Shaft",
-          "example": "Die Welle ist hoch. = The wave is high."
+          "example": "Die Welle ist hoch. = Vilnis ir augsts."
         },
         {
           "word": "die Woge",
           "meaning": "A big, strong wave",
-          "example": "Die Wogen sind stark. = The waves are strong."
+          "example": "Die Wogen sind stark. = Viļņi ir spēcīgi."
         },
         {
           "word": "die Achse",
           "meaning": "Ass",
-          "example": "Die Achse ist kaputt. = The axle is broken."
+          "example": "Die Achse ist kaputt. = Ass ir salūzusi."
         }
       ],
       "tip": {
@@ -62402,17 +62402,17 @@ const B1_WORDS = [
         {
           "word": "wenden",
           "meaning": "To turn, to turn",
-          "example": "Wenden Sie das Auto. = Turn the car around."
+          "example": "Wenden Sie das Auto. = Apgrieziet auto."
         },
         {
           "word": "drehen",
           "meaning": "To turn, to turn",
-          "example": "Dreh den Schlüssel. = Turn the key."
+          "example": "Dreh den Schlüssel. = Pagriez atslēgu."
         },
         {
           "word": "sich wenden an",
           "meaning": "Turn to",
-          "example": "Ich wende mich an dich. = I turn to you."
+          "example": "Ich wende mich an dich. = Es vēršos pie tevis."
         }
       ],
       "tip": {
@@ -62549,17 +62549,17 @@ const B1_WORDS = [
         {
           "word": "werben",
           "meaning": "Advertise, attract",
-          "example": "Die Firma wirbt. = The company advertises."
+          "example": "Die Firma wirbt. = Uzņēmums reklamē."
         },
         {
           "word": "sich bewerben",
           "meaning": "Apply for a job or place",
-          "example": "Ich bewerbe mich. = I apply."
+          "example": "Ich bewerbe mich. = Es piesakos."
         },
         {
           "word": "reklamieren",
           "meaning": "Submit a claim",
-          "example": "Ich reklamiere den Fehler. = I filed a claim for an error."
+          "example": "Ich reklamiere den Fehler. = Es iesniedzu pretenziju par kļūdu."
         }
       ],
       "tip": {
@@ -62695,17 +62695,17 @@ const B1_WORDS = [
         {
           "word": "das Werk",
           "meaning": "Created work • Factory",
-          "example": "Das Werk ist bekannt. = The work is familiar."
+          "example": "Das Werk ist bekannt. = Darbs ir pazīstams."
         },
         {
           "word": "die Arbeit",
           "meaning": "Work, working",
-          "example": "Die Arbeit ist schwer. = The work is hard."
+          "example": "Die Arbeit ist schwer. = Darbs ir grūts."
         },
         {
           "word": "die Fabrik",
           "meaning": "Factory",
-          "example": "Die Fabrik ist groß. = The factory is big."
+          "example": "Die Fabrik ist groß. = Rūpnīca ir liela."
         }
       ],
       "tip": {
@@ -62983,17 +62983,17 @@ const B1_WORDS = [
         {
           "word": "das Zeugnis",
           "meaning": "Testimony, certificate, certificate",
-          "example": "Das Zeugnis ist gut. = The testimony is good."
+          "example": "Das Zeugnis ist gut. = Liecība ir laba."
         },
         {
           "word": "die Bescheinigung",
           "meaning": "Acknowledgment, confirmation",
-          "example": "Ich brauche eine Bescheinigung. = I need a certificate."
+          "example": "Ich brauche eine Bescheinigung. = Man vajag izziņu."
         },
         {
           "word": "der Zeuge",
           "meaning": "A witness",
-          "example": "Der Zeuge spricht. = The witness speaks."
+          "example": "Der Zeuge spricht. = Liecinieks runā."
         }
       ],
       "tip": {
@@ -63251,17 +63251,17 @@ const B1_WORDS = [
         {
           "word": "zugeben",
           "meaning": "To admit",
-          "example": "Ich gebe es zu. = I admit it."
+          "example": "Ich gebe es zu. = Es to atzīstu."
         },
         {
           "word": "dazugeben",
           "meaning": "Add to",
-          "example": "Gib Salz dazu. = Add salt."
+          "example": "Gib Salz dazu. = Pievieno sāli."
         },
         {
           "word": "gestehen",
           "meaning": "Confess more seriously",
-          "example": "Er gesteht den Fehler. = He admits the mistake."
+          "example": "Er gesteht den Fehler. = Viņš atzīst kļūdu."
         }
       ],
       "tip": {
@@ -63427,17 +63427,17 @@ const B1_WORDS = [
         {
           "word": "zünden",
           "meaning": "To ignite, to work",
-          "example": "Die Idee zündet. = The idea works."
+          "example": "Die Idee zündet. = Ideja nostrādā."
         },
         {
           "word": "anzünden",
           "meaning": "Set fire to something",
-          "example": "Ich zünde die Kerze an. = I light a candle."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "brennen",
           "meaning": "To burn",
-          "example": "Die Kerze brennt. = The candle is burning."
+          "example": "Die Kerze brennt. = Svece deg."
         }
       ],
       "tip": {
@@ -63575,17 +63575,17 @@ const B1_WORDS = [
         {
           "word": "der Zusammenhang",
           "meaning": "Connection, context",
-          "example": "Der Zusammenhang ist klar. = The connection is clear."
+          "example": "Der Zusammenhang ist klar. = Sakarība ir skaidra."
         },
         {
           "word": "die Verbindung",
           "meaning": "Connection, connection",
-          "example": "Die Verbindung ist stabil. = The connection is stable."
+          "example": "Die Verbindung ist stabil. = Savienojums ir stabils."
         },
         {
           "word": "der Kontext",
           "meaning": "Context",
-          "example": "Der Kontext hilft. = Context helps."
+          "example": "Der Kontext hilft. = Konteksts palīdz."
         }
       ],
       "tip": {
@@ -63850,27 +63850,27 @@ const B1_WORDS = [
         {
           "word": "der Beruf",
           "meaning": "Profession / position",
-          "example": "Was bist du von Beruf? = What is your profession"
+          "example": "Was bist du von Beruf? = Kāda ir tava profesija?"
         },
         {
           "word": "die Arbeit",
           "meaning": "Work",
-          "example": "Ich habe viel Arbeit. = I have a lot of work."
+          "example": "Ich habe viel Arbeit. = Man ir daudz darba."
         },
         {
           "word": "der Job",
           "meaning": "Work / job",
-          "example": "Er sucht einen Job. = He is looking for a job."
+          "example": "Er sucht einen Job. = Viņš meklē darbu."
         },
         {
           "word": "die Ausbildung",
           "meaning": "Training / professional education",
-          "example": "Sie macht eine Ausbildung. = She is learning a profession."
+          "example": "Sie macht eine Ausbildung. = Viņa mācās profesiju."
         },
         {
           "word": "die Beschäftigung",
           "meaning": "Occupation",
-          "example": "Lesen ist eine schöne Beschäftigung. = Reading is an enjoyable pastime."
+          "example": "Lesen ist eine schöne Beschäftigung. = Lasīšana ir patīkama nodarbošanās."
         }
       ],
       "tip": {
@@ -64254,17 +64254,17 @@ const B1_WORDS = [
         {
           "word": "die Steuer",
           "meaning": "Tax",
-          "example": "Die Steuer ist hoch. = The tax is high. Plural: die Steuern."
+          "example": "Die Steuer ist hoch. = Nodoklis ir augsts. Plural: die Steuern."
         },
         {
           "word": "das Steuer",
           "meaning": "Steering • Steering wheel",
-          "example": "Das Steuer ist fest. = The steering wheel is firm. Plural: die Steuer."
+          "example": "Das Steuer ist fest. = Stūre ir stingra. Plural: die Steuer."
         },
         {
           "word": "die Abgabe",
           "meaning": "Fee • Payment",
-          "example": "Die Abgabe ist fällig. = A fee must be paid."
+          "example": "Die Abgabe ist fällig. = Nodeva ir jāmaksā."
         }
       ],
       "tip": {
@@ -64351,17 +64351,17 @@ const B1_WORDS = [
         {
           "word": "das Steuer",
           "meaning": "Steering • Steering wheel",
-          "example": "Das Steuer ist fest. = The steering wheel is firm. Plural: die Steuer."
+          "example": "Das Steuer ist fest. = Stūre ir stingra. Plural: die Steuer."
         },
         {
           "word": "die Steuer",
           "meaning": "Tax",
-          "example": "Die Steuer ist hoch. = The tax is high. Plural: die Steuern."
+          "example": "Die Steuer ist hoch. = Nodoklis ir augsts. Plural: die Steuern."
         },
         {
           "word": "das Lenkrad",
           "meaning": "Steering wheel (car)",
-          "example": "Das Lenkrad ist warm. = The steering wheel is warm."
+          "example": "Das Lenkrad ist warm. = Stūre ir silta."
         }
       ],
       "tip": {
@@ -65147,27 +65147,27 @@ const B1_WORDS = [
         {
           "word": "sich befinden",
           "meaning": "To be located",
-          "example": "Das Büro befindet sich im zweiten Stock. = The office is on the second floor."
+          "example": "Das Büro befindet sich im zweiten Stock. = Birojs atrodas otrajā stāvā."
         },
         {
           "word": "sein",
           "meaning": "To be / to be",
-          "example": "Das Büro ist oben. = The office is upstairs."
+          "example": "Das Büro ist oben. = Birojs ir augšā."
         },
         {
           "word": "liegen",
           "meaning": "To be / sleep",
-          "example": "Das Buch liegt auf dem Tisch. = The book is on the table."
+          "example": "Das Buch liegt auf dem Tisch. = Grāmata atrodas uz galda."
         },
         {
           "word": "stehen",
           "meaning": "To stand / to be",
-          "example": "Das Auto steht vor dem Haus. = The car is parked at the house."
+          "example": "Das Auto steht vor dem Haus. = Auto stāv pie mājas."
         },
         {
           "word": "sich fühlen",
           "meaning": "To feel",
-          "example": "Ich fühle mich gut. = I feel good."
+          "example": "Ich fühle mich gut. = Es jūtos labi."
         }
       ],
       "tip": {

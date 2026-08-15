@@ -7805,17 +7805,17 @@ const B2_WORDS = [
         {
           "word": "das Hochwasser",
           "meaning": "Inondation • Niveau d'eau élevé",
-          "example": "Es gibt Hochwasser. = Il y a une inondation."
+          "example": "Es gibt Hochwasser. = Ir plūdi."
         },
         {
           "word": "die Überschwemmung",
           "meaning": "Inondation (spécifique)",
-          "example": "Die Überschwemmung zerstörte Häuser. = Les inondations ont détruit les maisons."
+          "example": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas."
         },
         {
           "word": "der Pegel",
           "meaning": "Niveau d'eau",
-          "example": "Der Pegel steigt. = Le niveau de l'eau monte."
+          "example": "Der Pegel steigt. = Ūdens līmenis ceļas."
         }
       ],
       "tip": {
@@ -9299,17 +9299,17 @@ const B2_WORDS = [
         {
           "word": "Nachdruck legen auf",
           "meaning": "Insister, insister",
-          "example": "Er legt Nachdruck auf die Frist. = Il insiste sur le délai."
+          "example": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu."
         },
         {
           "word": "der Nachdruck (Buch)",
           "meaning": "Rééditer",
-          "example": "Der Nachdruck erschien im Frühjahr. = La réédition est sortie au printemps."
+          "example": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī."
         },
         {
           "word": "der Druck",
           "meaning": "Pression / impression",
-          "example": "Unter Druck stehen = Être sous pression."
+          "example": "Unter Druck stehen = būt spiedienā."
         }
       ],
       "tip": [
@@ -14386,17 +14386,17 @@ const B2_WORDS = [
         {
           "word": "zuweisen",
           "meaning": "Attribuer • Attribuer",
-          "example": "Er weist die Aufgabe zu. = Il assigne la tâche."
+          "example": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu."
         },
         {
           "word": "geben",
           "meaning": "Donner",
-          "example": "Er gibt mir die Arbeit. = Il me donne un travail."
+          "example": "Er gibt mir die Arbeit. = Viņš man dod darbu."
         },
         {
           "word": "verteilen",
           "meaning": "Diviser",
-          "example": "Er verteilt die Aufgaben. = Il répartit les tâches."
+          "example": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus."
         }
       ],
       "tip": {
@@ -14491,22 +14491,22 @@ const B2_WORDS = [
         {
           "word": "zuwider (+ Dat.)",
           "meaning": "Contre • Contraire",
-          "example": "mir zuwider = Contre ma volonté"
+          "example": "mir zuwider = pret manu gribu"
         },
         {
           "word": "jemandem zuwider sein",
           "meaning": "Quelqu'un n'aimera pas ça",
-          "example": "Es ist mir zuwider. = Je n'aime pas ça."
+          "example": "Es ist mir zuwider. = Man tas nepatīk."
         },
         {
           "word": "wider",
           "meaning": "Contre (préposition)",
-          "example": "wider den Willen = Contre la volonté"
+          "example": "wider den Willen = pret gribu"
         },
         {
           "word": "widersprechen",
           "meaning": "S'opposer • Pas d'accord",
-          "example": "Ich widerspreche. = Je m'y oppose."
+          "example": "Ich widerspreche. = Es iebilstu."
         }
       ],
       "tip": {
@@ -15001,17 +15001,17 @@ const B2_WORDS = [
         {
           "word": "anbieten",
           "meaning": "Offre (active)",
-          "example": "Ich biete Hilfe an. = Je propose de l'aide."
+          "example": "Ich biete Hilfe an. = Es piedāvāju palīdzību."
         },
         {
           "word": "bieten",
           "meaning": "Offrir • Donner",
-          "example": "Er bietet viel Geld. = Il offre beaucoup d'argent."
+          "example": "Er bietet viel Geld. = Viņš piedāvā daudz naudas."
         },
         {
           "word": "vorschlagen",
           "meaning": "Proposer",
-          "example": "Ich schlage vor. = Je propose."
+          "example": "Ich schlage vor. = Es ierosinu."
         }
       ],
       "tip": {

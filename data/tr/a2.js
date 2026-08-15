@@ -171,27 +171,27 @@ const A2_WORDS = [
         {
           "word": "abfahren",
           "meaning": "Bırak / bırak / bırak",
-          "example": "Der Zug fährt ab. = Tren kalkıyor."
+          "example": "Der Zug fährt ab. = Vilciens atiet."
         },
         {
           "word": "wegfahren",
           "meaning": "Ayrılmak",
-          "example": "Ich fahre morgen weg. = Yarın ayrılıyorum."
+          "example": "Ich fahre morgen weg. = Es rīt aizbraucu prom."
         },
         {
           "word": "losfahren",
           "meaning": "Sürüşe başlayın",
-          "example": "Wir fahren jetzt los. = Şimdi sürmeye başlıyoruz."
+          "example": "Wir fahren jetzt los. = Mēs tagad sākam braukt."
         },
         {
           "word": "abgehen",
           "meaning": "Ayrıl",
-          "example": "Der Bus geht gleich ab. = Otobüs şimdi kalkıyor."
+          "example": "Der Bus geht gleich ab. = Autobuss tūlīt atiet."
         },
         {
           "word": "fahren",
           "meaning": "Liderlik etmek",
-          "example": "Ich fahre mit dem Zug. = Trenle seyahat ediyorum."
+          "example": "Ich fahre mit dem Zug. = Es braucu ar vilcienu."
         }
       ],
       "tip": {
@@ -497,32 +497,32 @@ const A2_WORDS = [
         {
           "word": "abgeben",
           "meaning": "Başka birine veya belirli bir yere vermek veya vermek",
-          "example": "Ich gebe den Antrag ab. = Başvuruda bulundum."
+          "example": "Ich gebe den Antrag ab. = Es iesniedzu pieteikumu."
         },
         {
           "word": "geben",
           "meaning": "Vermek",
-          "example": "Ich gebe dir den Schlüssel. = Sana anahtarı veriyorum."
+          "example": "Ich gebe dir den Schlüssel. = Es tev dodu atslēgu."
         },
         {
           "word": "zurückgeben",
           "meaning": "Geri vermek",
-          "example": "Ich gebe das Buch zurück. = Kitabı iade ediyorum."
+          "example": "Ich gebe das Buch zurück. = Es atdodu grāmatu atpakaļ."
         },
         {
           "word": "einreichen",
           "meaning": "Resmi olarak gönder",
-          "example": "Ich reiche die Unterlagen ein. = Belgeleri gönderdim."
+          "example": "Ich reiche die Unterlagen ein. = Es iesniedzu dokumentus."
         },
         {
           "word": "verkaufen",
           "meaning": "Satmak",
-          "example": "Ich verkaufe mein Fahrrad. = Bisikletimi satıyorum."
+          "example": "Ich verkaufe mein Fahrrad. = Es pārdodu savu velosipēdu."
         },
         {
           "word": "ausstrahlen",
           "meaning": "Radyant",
-          "example": "Die Lampe strahlt Wärme aus. = Lamba ısı yayar."
+          "example": "Die Lampe strahlt Wärme aus. = Lampa izstaro siltumu."
         }
       ],
       "tip": {
@@ -1039,27 +1039,27 @@ const A2_WORDS = [
         {
           "word": "absagen",
           "meaning": "Üyeliği iptal et/reddet",
-          "example": "Onların bilge den Terim ab. = Toplantıyı iptal edeceğim."
+          "example": "Ich sage den Termin ab. = Es atceļu tikšanos."
         },
         {
           "word": "ablehnen",
           "meaning": "Reddet/reddet",
-          "example": "Ich lehne das Angebot ab. = Teklifi reddediyorum."
+          "example": "Ich lehne das Angebot ab. = Es noraidu piedāvājumu."
         },
         {
           "word": "kündigen",
           "meaning": "Sözleşmeyi fesih/fesih",
-          "example": "Ich kündige den Vertrag. = Sözleşmeyi övdüm."
+          "example": "Ich kündige den Vertrag. = Es uzteicu līgumu."
         },
         {
           "word": "stornieren",
           "meaning": "Rezervasyonunuzu iptal edin/iptal edin",
-          "example": "Ich storniere die Buchung. = Rezervasyonumu iptal ediyorum."
+          "example": "Ich storniere die Buchung. = Es atceļu rezervāciju."
         },
         {
           "word": "nein sagen",
           "meaning": "Hayır de",
-          "example": "Er sagt nein. = Hayır diyor."
+          "example": "Er sagt nein. = Viņš saka nē."
         }
       ],
       "tip": {
@@ -1354,22 +1354,22 @@ const A2_WORDS = [
         {
           "word": "abschließen",
           "meaning": "Kapat / kapat / bitir",
-          "example": "Ich schließe die Tür ab. = Zamknąłem drzwi."
+          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
         },
         {
           "word": "schließen",
           "meaning": "Kapalı",
-          "example": "Ich schließe die Tür. = Zamykam drzwi."
+          "example": "Ich schließe die Tür. = Es aizveru durvis."
         },
         {
           "word": "beenden",
           "meaning": "Son",
-          "example": "Ich bede die Arbeit. = İşi bitirdim."
+          "example": "Ich beende die Arbeit. = Es pabeidzu darbu."
         },
         {
           "word": "unterschreiben",
           "meaning": "İmza",
-          "example": "Ich unterschreibe den Vertrag. = Sözleşmeyi imzalıyorum."
+          "example": "Ich unterschreibe den Vertrag. = Es parakstu līgumu."
         }
       ],
       "tip": {
@@ -1655,27 +1655,27 @@ const A2_WORDS = [
         {
           "word": "abstellen",
           "meaning": "Nesneye bağlı olarak yerleştir/devre dışı bırak/devre dışı bırak/önle",
-          "example": "Ich stelle das Fahrrad ab. = Bisikletimi park ediyorum."
+          "example": "Ich stelle das Fahrrad ab. = Es novietoju velosipēdu."
         },
         {
           "word": "ausschalten",
           "meaning": "Cihazı, ışığı, TV'yi veya bilgisayarı kapatın",
-          "example": "Ich schalte den Computer aus. = Bilgisayarı kapattım."
+          "example": "Ich schalte den Computer aus. = Es izslēdzu datoru."
         },
         {
           "word": "anhalten",
           "meaning": "Hareket etmeyi bırak/dur",
-          "example": "Der Bus hält an. = Otobüs durur."
+          "example": "Der Bus hält an. = Autobuss apstājas."
         },
         {
           "word": "stoppen",
           "meaning": "Durdur/durdur",
-          "example": "Der Fahrer zatrzymaj auto. = Sürücü arabayı durdurur."
+          "example": "Der Fahrer stoppt das Auto. = Vadītājs aptur auto."
         },
         {
           "word": "stellen",
           "meaning": "Koy/yerleştir",
-          "example": "Ich stelle die Tasche neben die Tür. = Çantamı kapının yanına koydum."
+          "example": "Ich stelle die Tasche neben die Tür. = Es nolieku somu pie durvīm."
         }
       ],
       "tip": {
@@ -2149,22 +2149,22 @@ const A2_WORDS = [
         {
           "word": "angewandt",
           "meaning": "Zastosowany / zastosowany",
-          "example": "Diese Methode wird angewandt. = Bu yöntem kullanıldı."
+          "example": "Diese Methode wird angewandt. = Šī metode tiek pielietota."
         },
         {
           "word": "praktisch",
           "meaning": "Pratik",
-          "example": "Bu pratik bir çözümdür. = Bu pratik bir çözümdür."
+          "example": "Das ist eine praktische Lösung. = Tas ir praktisks risinājums."
         },
         {
           "word": "verwenden",
           "meaning": "Kullanmak",
-          "example": "Ich verwende diese Methode. = Bu yöntemi kullanıyorum."
+          "example": "Ich verwende diese Methode. = Es izmantoju šo metodi."
         },
         {
           "word": "anwenden",
           "meaning": "Kullanmak",
-          "example": "Ich wende die Regel an. = Kurala uyuyorum."
+          "example": "Ich wende die Regel an. = Es pielietoju noteikumu."
         }
       ],
       "tip": {
@@ -2414,22 +2414,22 @@ const A2_WORDS = [
         {
           "word": "angreifen",
           "meaning": "Sert saldırın/eleştirin",
-          "example": "Der Hund Greift an. = Köpek saldırıyor."
+          "example": "Der Hund greift an. = Suns uzbrūk."
         },
         {
           "word": "attackieren",
           "meaning": "Saldırı",
-          "example": "Die Gruppe Attackiert ihn. = Grup ona saldırıyor."
+          "example": "Die Gruppe attackiert ihn. = Grupa viņam uzbrūk."
         },
         {
           "word": "beleidigen",
           "meaning": "Hakaret etmek / gücendirmek",
-          "example": "Er beleidigt mich. = Bana hakaret ediyor."
+          "example": "Er beleidigt mich. = Viņš mani apvaino."
         },
         {
           "word": "kritisieren",
           "meaning": "Eleştir",
-          "example": "Sie kritisiert den Vorschlag. = Bu öneriyi eleştiriyor."
+          "example": "Sie kritisiert den Vorschlag. = Viņa kritizē priekšlikumu."
         }
       ],
       "tip": {
@@ -2558,22 +2558,22 @@ const A2_WORDS = [
         {
           "word": "der Anhänger",
           "meaning": "Römork/braket/askı",
-          "example": "Der Anhänger ist schwer. = Römork ağırdır."
+          "example": "Der Anhänger ist schwer. = Piekabe ir smaga."
         },
         {
           "word": "der Fan",
           "meaning": "Bir hayran",
-          "example": "Er ist ein Fan der Mannschaft. = Kendisi takımın taraftarıdır."
+          "example": "Er ist ein Fan der Mannschaft. = Viņš ir komandas fans."
         },
         {
           "word": "der Unterstützer",
           "meaning": "Takipçi",
-          "example": "Sie hat viele Unterstützer. = Pek çok destekçisi var."
+          "example": "Sie hat viele Unterstützer. = Viņai ir daudz atbalstītāju."
         },
         {
           "word": "der Wohnwagen",
           "meaning": "Karavan",
-          "example": "Der Wohnwagen steht am See. = Römork göl kenarında yer almaktadır."
+          "example": "Der Wohnwagen steht am See. = Dzīvojamā piekabe stāv pie ezera."
         }
       ],
       "tip": {
@@ -2697,22 +2697,22 @@ const A2_WORDS = [
         {
           "word": "anheizen",
           "meaning": "Kindle / tutuşturmak",
-          "example": "Ich heize den Ofen an. = Fırını açıyorum."
+          "example": "Ich heize den Ofen an. = Es iekuru krāsni."
         },
         {
           "word": "heizen",
           "meaning": "Isı / ısı",
-          "example": "Wir heizen die Wohnung. = Daireyi ısıtıyoruz."
+          "example": "Wir heizen die Wohnung. = Mēs apkurinām dzīvokli."
         },
         {
           "word": "anzünden",
           "meaning": "Yakmak",
-          "example": "Ich zünde die Kerze an. = Bir mum yakıyorum."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "verschärfen",
           "meaning": "Kötüleşmek",
-          "example": "Das verschärft den Streit. = Bu da tartışmayı büyütüyor."
+          "example": "Das verschärft den Streit. = Tas saasina strīdu."
         }
       ],
       "tip": {
@@ -2894,22 +2894,22 @@ const A2_WORDS = [
         {
           "word": "anlegen",
           "meaning": "Empoze edin/yatırım yapın/yaratın",
-          "example": "Ich lege Geld an. = Para yatırıyorum."
+          "example": "Ich lege Geld an. = Es ieguldu naudu."
         },
         {
           "word": "legen",
           "meaning": "Yatmak",
-          "example": "Ich lege das Buch auf den Tisch. = Kitabı masaya koydum."
+          "example": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
         },
         {
           "word": "investieren",
           "meaning": "Yatırım",
-          "example": "Geld yatırımları. = Para yatırıyorum."
+          "example": "Ich investiere Geld. = Es ieguldu naudu."
         },
         {
           "word": "erstellen",
           "meaning": "Oluştur",
-          "example": "Ich erstelle ein Konto. = Bir hesap oluşturdum."
+          "example": "Ich erstelle ein Konto. = Es izveidoju kontu."
         }
       ],
       "tip": {
@@ -3182,27 +3182,27 @@ const A2_WORDS = [
         {
           "word": "anmelden",
           "meaning": "Başvur / kayıt ol / kayıt ol",
-          "example": "Ich melde mich an. = Başvuruyorum."
+          "example": "Ich melde mich an. = Es piesakos."
         },
         {
           "word": "sich anmelden",
           "meaning": "Uygula/bağlan",
-          "example": "Melden Sie sich bitte an. = Lütfen giriş yapın."
+          "example": "Melden Sie sich bitte an. = Lūdzu, piesakieties."
         },
         {
           "word": "registrieren",
           "meaning": "Rejestr",
-          "example": "Ich registriere mein Konto. = Hesabımı kaydettim."
+          "example": "Ich registriere mein Konto. = Es reģistrēju savu kontu."
         },
         {
           "word": "buchen",
           "meaning": "Kitap",
-          "example": "Ich buche einen Dönem. = Randevu alıyorum."
+          "example": "Ich buche einen Termin. = Es rezervēju laiku."
         },
         {
           "word": "melden",
           "meaning": "Rapor et/bildir",
-          "example": "Mam problem. = Sorunu bildirdim."
+          "example": "Ich melde das Problem. = Es ziņoju par problēmu."
         }
       ],
       "tip": {
@@ -3523,22 +3523,22 @@ const A2_WORDS = [
         {
           "word": "anstecken",
           "meaning": "Sabitlemek/ateşe vermek/bulaştırmak",
-          "example": "Ich stecke die Kerze an. = Bir mum yakıyorum."
+          "example": "Ich stecke die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "stecken",
           "meaning": "Dürt / ol",
-          "example": "Der Schlüssel utknął w Schloss. = Anahtar kilidin içinde."
+          "example": "Der Schlüssel steckt im Schloss. = Atslēga ir slēdzenē."
         },
         {
           "word": "anzünden",
           "meaning": "Yakmak",
-          "example": "Ich zünde die Kerze an. = Bir mum yakıyorum."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "sich anstecken",
           "meaning": "Enfekte olmak",
-          "example": "Ich habe mich angestekt. = Bana bulaştı."
+          "example": "Ich habe mich angesteckt. = Es inficējos."
         }
       ],
       "tip": {
@@ -3814,22 +3814,22 @@ const A2_WORDS = [
         {
           "word": "anstellen",
           "meaning": "Kirala / aç / yap",
-          "example": "Die Firma stellt ihn an. = Firma go zatrudnia."
+          "example": "Die Firma stellt ihn an. = Firma viņu pieņem darbā."
         },
         {
           "word": "einstellen",
           "meaning": "İşe alma/kurma",
-          "example": "Wir stellen neue Leute ein. = Yeni insanları işe alıyoruz."
+          "example": "Wir stellen neue Leute ein. = Mēs pieņemam darbā jaunus cilvēkus."
         },
         {
           "word": "anschalten",
           "meaning": "Bir şeyi açın",
-          "example": "Ich schalte das Licht an. = Işığı açtım."
+          "example": "Ich schalte das Licht an. = Es ieslēdzu gaismu."
         },
         {
           "word": "sich anstellen",
           "meaning": "Sıra",
-          "example": "Ich stelle mich an. = Sırada duruyordum."
+          "example": "Ich stelle mich an. = Es nostājos rindā."
         }
       ],
       "tip": {
@@ -4504,27 +4504,27 @@ const A2_WORDS = [
         {
           "word": "der Artikel",
           "meaning": "Makale / ürün / makale / makale",
-          "example": "Der Artikel ist kurz. = Makale kısa."
+          "example": "Der Artikel ist kurz. = Raksts ir īss."
         },
         {
           "word": "der Zeitungsartikel",
           "meaning": "Gazete makalesi",
-          "example": "Der Zeitungsartikel ist neu. = Gazete yazısı yenidir."
+          "example": "Der Zeitungsartikel ist neu. = Avīzes raksts ir jauns."
         },
         {
           "word": "die Ware",
           "meaning": "Öğe",
-          "example": "Die Ware artık farklı. = Ürün pahalıdır."
+          "example": "Die Ware ist teuer. = Prece ir dārga."
         },
         {
           "word": "der bestimmte Artikel",
           "meaning": "Özel makale",
-          "example": "Der bestimmte Artikel ist \"der\". = Kesin artikel \"uygun\"dur."
+          "example": "Der bestimmte Artikel ist „der“. = Noteiktais artikuls ir „der“."
         },
         {
           "word": "der Paragraph",
           "meaning": "Paragraf/makale",
-          "example": "Der Paragraph ist wichtig. = Bu ayet önemlidir."
+          "example": "Der Paragraph ist wichtig. = Pants ir svarīgs."
         }
       ],
       "tip": {
@@ -5004,22 +5004,22 @@ const A2_WORDS = [
         {
           "word": "aufheben",
           "meaning": "Yükselt/iptal et/kaydet",
-          "example": "Ich hebe den Schlüssel auf. = Anahtarı alıyorum."
+          "example": "Ich hebe den Schlüssel auf. = Es paceļu atslēgu."
         },
         {
           "word": "heben",
           "meaning": "Artırmak",
-          "example": "Ich hebe die Hand. = Elimi kaldırıyorum."
+          "example": "Ich hebe die Hand. = Es paceļu roku."
         },
         {
           "word": "absagen",
           "meaning": "Etkinliği iptal et",
-          "example": "Wir sagen den Termin ab. = Toplantıyı iptal ediyoruz."
+          "example": "Wir sagen den Termin ab. = Mēs atceļam tikšanos."
         },
         {
           "word": "behalten",
           "meaning": "Tutmak",
-          "example": "Onların ölmesi gereken şey sigarayı bırakmaktır. = Çeki saklıyorum."
+          "example": "Ich behalte die Quittung. = Es paturu čeku."
         }
       ],
       "tip": {
@@ -5320,22 +5320,22 @@ const A2_WORDS = [
         {
           "word": "die Auflage",
           "meaning": "Efor / Sayı / Durum",
-          "example": "Die Auflage ist hoch. = Sirkülasyon büyüktür."
+          "example": "Die Auflage ist hoch. = Tirāža ir liela."
         },
         {
           "word": "die Ausgabe",
           "meaning": "Baskı/numara",
-          "example": "Die neue Ausgabe ist da. = Yeni sayımız burada."
+          "example": "Die neue Ausgabe ist da. = Jaunais numurs ir klāt."
         },
         {
           "word": "die Bedingung",
           "meaning": "Durum",
-          "example": "Das is eine Bedingung. = Şart budur."
+          "example": "Das ist eine Bedingung. = Tas ir nosacījums."
         },
         {
           "word": "die Voraussetzung",
           "meaning": "Önkoşul",
-          "example": "Das ist eine Voraussetung. = Bu bir önkoşuldur."
+          "example": "Das ist eine Voraussetzung. = Tas ir priekšnoteikums."
         }
       ],
       "tip": {
@@ -5483,27 +5483,27 @@ const A2_WORDS = [
         {
           "word": "die Aufnahme",
           "meaning": "Fotografowanie / nagrywanie / fotografowanie",
-          "example": "Kayıt iyi. = Albüm güzel."
+          "example": "Die Aufnahme ist gut. = Ieraksts ir labs."
         },
         {
           "word": "das Foto",
           "meaning": "Fotoğraf / fotoğraf",
-          "example": "Das Foto ist schön. = Fotoğraf çok güzel."
+          "example": "Das Foto ist schön. = Foto ir skaists."
         },
         {
           "word": "das Bild",
           "meaning": "Resim",
-          "example": "Das Bild hängt an der Wand. = Tablo duvarda asılıdır."
+          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
         },
         {
           "word": "die Aufzeichnung",
           "meaning": "Kayıt",
-          "example": "Die Aufzeichnung ist lang. = Giriş uzun."
+          "example": "Die Aufzeichnung ist lang. = Ieraksts ir garš."
         },
         {
           "word": "die Aufnahmeprüfung",
           "meaning": "Giriş sınavı",
-          "example": "Die Aufnahmeprüfung ist morgen. = Giriş sınavı yarın."
+          "example": "Die Aufnahmeprüfung ist morgen. = Iestājpārbaudījums ir rīt."
         }
       ],
       "tip": {
@@ -5626,22 +5626,22 @@ const A2_WORDS = [
         {
           "word": "aufnehmen",
           "meaning": "Nagrywaj / nagrywaj / akceptuj",
-          "example": "Ich nehme ein Lied auf. = Bir şarkı kaydediyorum."
+          "example": "Ich nehme ein Lied auf. = Es ierakstu dziesmu."
         },
         {
           "word": "nehmen",
           "meaning": "Almak",
-          "example": "Ich nehme das Buch. = Kitabı alıyorum."
+          "example": "Ich nehme das Buch. = Es ņemu grāmatu."
         },
         {
           "word": "annehmen",
           "meaning": "Evlat edinmek",
-          "example": "Ich nehme das Angebot an. = Teklifi kabul ediyorum."
+          "example": "Ich nehme das Angebot an. = Es pieņemu piedāvājumu."
         },
         {
           "word": "beginnen",
           "meaning": "Başlayın",
-          "example": "Başlangıçta ölürsün. = Haydi çalışmaya başlayalım."
+          "example": "Wir beginnen die Arbeit. = Mēs sākam darbu."
         }
       ],
       "tip": {
@@ -5931,22 +5931,22 @@ const A2_WORDS = [
         {
           "word": "aufrichtig",
           "meaning": "Szczery / szczery / otwarty",
-          "example": "Eine aufrichtige Entschuldigung. = Samimi bir özür."
+          "example": "Eine aufrichtige Entschuldigung. = Patiesa atvainošanās."
         },
         {
           "word": "ehrlich",
           "meaning": "Dürüst olmak gerekirse / yalan söyleme",
-          "example": "Er jest ehrlich. = O dürüsttür."
+          "example": "Er ist ehrlich. = Viņš ir godīgs."
         },
         {
           "word": "herzlich",
           "meaning": "Samimî",
-          "example": "Herzliche Grüße. = Sevgilerimle."
+          "example": "Herzliche Grüße. = Sirsnīgi sveicieni."
         },
         {
           "word": "offen",
           "meaning": "Keşfedildi",
-          "example": "Açıkça konuşuyor. = Açıkça konuşuyor."
+          "example": "Sie spricht offen. = Viņa runā atklāti."
         }
       ],
       "tip": {
@@ -6174,22 +6174,22 @@ const A2_WORDS = [
         {
           "word": "aufrufen",
           "meaning": "Ara / aç / davet et",
-          "example": "Ich rufe die Seite auf. = Sayfayı açıyorum."
+          "example": "Ich rufe die Seite auf. = Es atveru lapu."
         },
         {
           "word": "rufen",
           "meaning": "Ara",
-          "example": "Ich rufe dich. = Seni arıyorum."
+          "example": "Ich rufe dich. = Es tevi saucu."
         },
         {
           "word": "öffnen",
           "meaning": "Açık",
-          "example": "Ich öffne die Datei. = Dosya açılıyor."
+          "example": "Ich öffne die Datei. = Es atveru failu."
         },
         {
           "word": "auffordern",
           "meaning": "Davet Et",
-          "example": "Er förder uns auf. = Bizi arıyor."
+          "example": "Er fordert uns auf. = Viņš mūs aicina."
         }
       ],
       "tip": {
@@ -6349,22 +6349,22 @@ const A2_WORDS = [
         {
           "word": "auftragen",
           "meaning": "Sor / uygula / bağış yap",
-          "example": "Der Lehrer trägt eine Aufgabe auf. = Nauczyciel daje zadanie."
+          "example": "Der Lehrer trägt eine Aufgabe auf. = Skolotājs uzdod uzdevumu."
         },
         {
           "word": "geben",
           "meaning": "Vermek",
-          "example": "Ich gebe dir das Buch. = Sana bir kitap veriyorum."
+          "example": "Ich gebe dir das Buch. = Es tev dodu grāmatu."
         },
         {
           "word": "anstreichen",
           "meaning": "Yüzeyi boyayın",
-          "example": "Wir streichen die Wand an. = Duvarı boyuyoruz."
+          "example": "Wir streichen die Wand an. = Mēs krāsojam sienu."
         },
         {
           "word": "servieren",
           "meaning": "Yemek servisi yapın",
-          "example": "Der Kellner serviert das Essen. = Kelner podaje jedzenie."
+          "example": "Der Kellner serviert das Essen. = Viesmīlis pasniedz ēdienu."
         }
       ],
       "tip": {
@@ -6644,22 +6644,22 @@ const A2_WORDS = [
         {
           "word": "auftreten",
           "meaning": "Ortaya çıkmak/oluşmak",
-          "example": "Ein Fehler tritt auf. = Bir hata oluştu."
+          "example": "Ein Fehler tritt auf. = Parādās kļūda."
         },
         {
           "word": "erscheinen",
           "meaning": "Görünmek / varmak",
-          "example": "Er erscheint um acht. = Sekizde geliyor."
+          "example": "Er erscheint um acht. = Viņš ierodas astoņos."
         },
         {
           "word": "spielen",
           "meaning": "Bir rolü oynamak/gerçekleştirmek",
-          "example": "Tiyatroda izleyin. = Tiyatroda oynuyor."
+          "example": "Sie spielt im Theater. = Viņa spēlē teātrī."
         },
         {
           "word": "sich verhalten",
           "meaning": "Kendine iyi bak",
-          "example": "Er verhält sich ruhig. = Jest spokojny."
+          "example": "Er verhält sich ruhig. = Viņš izturas mierīgi."
         }
       ],
       "tip": {
@@ -6926,22 +6926,22 @@ const A2_WORDS = [
         {
           "word": "aufwenden",
           "meaning": "Adanmış/yatırım/tüketilmiş",
-          "example": "Ich wende viel Zeit auf. = Çok zaman harcıyorum."
+          "example": "Ich wende viel Zeit auf. = Es veltu daudz laika."
         },
         {
           "word": "ausgeben",
           "meaning": "Para harcamak",
-          "example": "Ich gebe viel Geld aus. = Çok para harcadım."
+          "example": "Ich gebe viel Geld aus. = Es iztērēju daudz naudas."
         },
         {
           "word": "verbringen",
           "meaning": "Zaman harcayın",
-          "example": "Ich verbringe den Abend zu Hause. = Akşamı evde geçiriyorum."
+          "example": "Ich verbringe den Abend zu Hause. = Es pavadu vakaru mājās."
         },
         {
           "word": "investieren",
           "meaning": "Yatırım",
-          "example": "Zamana ve paraya yatırım yapıyoruz. = Zamana ve paraya yatırım yapıyoruz."
+          "example": "Wir investieren Zeit und Geld. = Mēs ieguldām laiku un naudu."
         }
       ],
       "tip": {
@@ -7175,22 +7175,22 @@ const A2_WORDS = [
         {
           "word": "aufzeichnen",
           "meaning": "Kaydet/kaydet",
-          "example": "Ich zeichne das Video auf. = Bir video kaydediyorum."
+          "example": "Ich zeichne das Video auf. = Es ierakstu video."
         },
         {
           "word": "zeichnen",
           "meaning": "Çizmek",
-          "example": "Das Kind zeichnet ein Haus. = Dziecko rysuje dom."
+          "example": "Das Kind zeichnet ein Haus. = Bērns zīmē māju."
         },
         {
           "word": "notieren",
           "meaning": "Kaydetmek",
-          "example": "Ich notiere die Adresse. = Adresi yazıyorum."
+          "example": "Ich notiere die Adresse. = Es pierakstu adresi."
         },
         {
           "word": "aufnehmen",
           "meaning": "Kayıt / Kayıt",
-          "example": "Ich nehme ein Lied auf. = Bir şarkı kaydediyorum."
+          "example": "Ich nehme ein Lied auf. = Es ierakstu dziesmu."
         }
       ],
       "tip": {
@@ -7354,22 +7354,22 @@ const A2_WORDS = [
         {
           "word": "aussteigen",
           "meaning": "Ayrıl/çıkış",
-          "example": "Ich steige aus dem Bus aus. = Otobüsten iniyorum."
+          "example": "Ich steige aus dem Bus aus. = Es izkāpju no autobusa."
         },
         {
           "word": "einsteigen",
           "meaning": "İçeri girin / dahil olun",
-          "example": "Ich steige in den Zug ein. = Trene biniyorum."
+          "example": "Ich steige in den Zug ein. = Es iekāpju vilcienā."
         },
         {
           "word": "umsteigen",
           "meaning": "Yeri değiştir",
-          "example": "Wir steigen Berlin'de, merhum = Berlin'e taşınıyoruz."
+          "example": "Wir steigen in Berlin um. = Mēs pārsēžamies Berlīnē."
         },
         {
           "word": "verlassen",
           "meaning": "Ayrılmak",
-          "example": "Er verlässt die Firma. = Odchodzi z firmy."
+          "example": "Er verlässt die Firma. = Viņš atstāj firmu."
         }
       ],
       "tip": {
@@ -7658,27 +7658,27 @@ const A2_WORDS = [
         {
           "word": "auswählen",
           "meaning": "Seç / seç",
-          "example": "Ich wähle ein Bild aus. = Bir fotoğraf seçiyorum."
+          "example": "Ich wähle ein Bild aus. = Es izvēlos attēlu."
         },
         {
           "word": "wählen",
           "meaning": "Seç/oy ver",
-          "example": "Ich wähle eine Partei. = Partiye oy verdim."
+          "example": "Ich wähle eine Partei. = Es balsoju par partiju."
         },
         {
           "word": "aussuchen",
           "meaning": "Araştır/seç",
-          "example": "Taki dir ein Buch aus. = Kendinize bir kitap seçin."
+          "example": "Such dir ein Buch aus. = Izvēlies sev grāmatu."
         },
         {
           "word": "entscheiden",
           "meaning": "Karar vermek",
-          "example": "Ich entscheide morgen. = Yarın bir karar vereceğim."
+          "example": "Ich entscheide morgen. = Es izlemšu rīt."
         },
         {
           "word": "markieren",
           "meaning": "İşaret",
-          "example": "Doğru cevabı seçin. =Doğru yanıtı seçin."
+          "example": "Markieren Sie die richtige Antwort. = Atzīmējiet pareizo atbildi."
         }
       ],
       "tip": {
@@ -7981,22 +7981,22 @@ const A2_WORDS = [
         {
           "word": "ausziehen",
           "meaning": "Kalkış / dışarı çıkma",
-          "example": "Ich ziehe die Schuhe aus. = Ayakkabılarımı çıkarıyorum."
+          "example": "Ich ziehe die Schuhe aus. = Es novelku kurpes."
         },
         {
           "word": "anziehen",
           "meaning": "Açma",
-          "example": "Ich ziehe die Jacke an. = Ceketimi giydim."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
           "word": "umziehen",
           "meaning": "Giysileri hareket ettirin/değiştirin",
-          "example": "Wir ziehen nach Riga um. = Riga'ya taşınıyoruz."
+          "example": "Wir ziehen nach Riga um. = Mēs pārceļamies uz Rīgu."
         },
         {
           "word": "sich ausziehen",
           "meaning": "Soyun",
-          "example": "Das Kind zieht sich aus. = Çocuk soyunuyor."
+          "example": "Das Kind zieht sich aus. = Bērns izģērbjas."
         }
       ],
       "tip": {
@@ -8373,27 +8373,27 @@ const A2_WORDS = [
         {
           "word": "die Bahn",
           "meaning": "Demiryolu/tren yolculuğu",
-          "example": "Ich fahre mit der Bahn. = Trenle seyahat ediyorum."
+          "example": "Ich fahre mit der Bahn. = Es braucu ar vilcienu."
         },
         {
           "word": "der Zug",
           "meaning": "Belirli bir tren",
-          "example": "Der Zug fährt um osiem Uhr ab. = Tren sekizde kalkıyor."
+          "example": "Der Zug fährt um acht Uhr ab. = Vilciens atiet astoņos."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "Tramvay",
-          "example": "Tramvay burada duruyor. = Tramvay burada durur."
+          "example": "Die Straßenbahn hält hier. = Tramvajs pietur šeit."
         },
         {
           "word": "der Bahnhof",
           "meaning": "Tren istasyonu",
-          "example": "Wir treffen uns am Bahnhof. = Seninle istasyonda buluşacağım."
+          "example": "Wir treffen uns am Bahnhof. = Mēs tiekamies stacijā."
         },
         {
           "word": "das Gleis",
           "meaning": "Tor/platforma",
-          "example": "Der Zug fährt von Gleis 3. = Tren 3. perondan kalkıyor."
+          "example": "Der Zug fährt von Gleis 3. = Vilciens atiet no 3. perona."
         }
       ],
       "tip": {
@@ -8929,32 +8929,32 @@ const A2_WORDS = [
         {
           "word": "die Bank (Finanz)",
           "meaning": "Banka",
-          "example": "Ich gehe zur Bank. = Bankaya gidiyorum. Çoğul: die Banken."
+          "example": "Ich gehe zur Bank. = Es eju uz banku. Plural: die Banken."
         },
         {
           "word": "die Bank (Sitzbank)",
           "meaning": "Bank/bank",
-          "example": "Wir sitzen auf einer Bank. = Bankta oturuyoruz. Çoğul: die Bänke."
+          "example": "Wir sitzen auf einer Bank. = Mēs sēžam uz soliņa. Plural: die Bänke."
         },
         {
           "word": "die Bankfiliale",
           "meaning": "Banka şubesi",
-          "example": "Die Bankfiliale ist geeffnet. = Banka şubesi açık."
+          "example": "Die Bankfiliale ist geöffnet. = Bankas filiāle ir atvērta."
         },
         {
           "word": "die Parkbank",
           "meaning": "Ławka parkowa",
-          "example": "Wir sitzen auf der Parkbank. = Bir park bankında oturuyoruz."
+          "example": "Wir sitzen auf der Parkbank. = Mēs sēžam uz parka soliņa."
         },
         {
           "word": "die Sandbank",
           "meaning": "Sığ",
-          "example": "Das Schiff steckt auf einer Sandbank. = Gemi karaya oturdu."
+          "example": "Das Schiff steckt auf einer Sandbank. = Kuģis ir uzsēdies uz sēkļa."
         },
         {
           "word": "der Stuhl",
           "meaning": "Sandalye",
-          "example": "Bir Stuhl'a ihtiyacım var. = Bir sandalyede oturuyorum."
+          "example": "Ich sitze auf einem Stuhl. = Es sēžu uz krēsla."
         }
       ],
       "tip": {
@@ -9559,27 +9559,27 @@ const A2_WORDS = [
         {
           "word": "der Bauer",
           "meaning": "Çiftçi / Piyon",
-          "example": "Der Bauer auf dem Feld. = Rolnik pracuje na polu."
+          "example": "Der Bauer arbeitet auf dem Feld. = Zemnieks strādā uz lauka."
         },
         {
           "word": "der Landwirt",
           "meaning": "Çiftçi / çiftçi",
-          "example": "Der Landwirt prowadzi Hof. = Çiftçi çiftliği yönetir."
+          "example": "Der Landwirt führt einen Hof. = Lauksaimnieks vada saimniecību."
         },
         {
           "word": "der Bauernhof",
           "meaning": "Gospodarstwo",
-          "example": "Wir besuchen einen Bauernhof. = Bir çiftliği ziyaret ediyoruz."
+          "example": "Wir besuchen einen Bauernhof. = Mēs apmeklējam lauku saimniecību."
         },
         {
           "word": "die Figur",
           "meaning": "Karakter",
-          "example": "Die Dame ist eine starke Figur. = Bu bayan güçlü bir karakter."
+          "example": "Die Dame ist eine starke Figur. = Dāma ir spēcīga figūra."
         },
         {
           "word": "der Spielstein",
           "meaning": "Oyun zarları",
-          "example": "Der Spielstein Brett'e güveniyor. = Zarlar masanın üzerinde."
+          "example": "Der Spielstein liegt auf dem Brett. = Spēles kauliņš atrodas uz galda."
         }
       ],
       "tip": {
@@ -10050,27 +10050,27 @@ const A2_WORDS = [
         {
           "word": "bedienen",
           "meaning": "Cihazın servisi/kullanımı",
-          "example": "Der Kellner, bizi sakinleştirin. = Garson bize hizmet ediyor."
+          "example": "Der Kellner bedient uns. = Viesmīlis mūs apkalpo."
         },
         {
           "word": "benutzen",
           "meaning": "Kullanmak",
-          "example": "Ich benutze mein Handy. = Telefonu kullanıyorum."
+          "example": "Ich benutze mein Handy. = Es lietoju telefonu."
         },
         {
           "word": "helfen",
           "meaning": "Yardım",
-          "example": "Kannst du mir helfen? = Bana yardım eder misiniz?"
+          "example": "Kannst du mir helfen? = Vai vari man palīdzēt?"
         },
         {
           "word": "servieren",
           "meaning": "Yemek servisi yapın",
-          "example": "Sie serviert das Essen. = Ona podaje jedzenie."
+          "example": "Sie serviert das Essen. = Viņa pasniedz ēdienu."
         },
         {
           "word": "steuern",
           "meaning": "Liderlik etmek",
-          "example": "Er steuert das Car. = Araba kullanıyor."
+          "example": "Er steuert das Auto. = Viņš vada auto."
         }
       ],
       "tip": {
@@ -10322,27 +10322,27 @@ const A2_WORDS = [
         {
           "word": "die Bedienung",
           "meaning": "Hizmet/bakıcı",
-          "example": "Die Bedienung ist freundlich. = Garson güzel."
+          "example": "Die Bedienung ist freundlich. = Apkalpotājs ir laipns."
         },
         {
           "word": "der Kellner",
           "meaning": "Kelner",
-          "example": "Der Kellner Bringt die Rechnung. = Garson hesabı getiriyor."
+          "example": "Der Kellner bringt die Rechnung. = Viesmīlis atnes rēķinu."
         },
         {
           "word": "die Kellnerin",
           "meaning": "Kelnerka",
-          "example": "Die Kellnerin fragt nach Getränken. = Garson içecekleri soruyor."
+          "example": "Die Kellnerin fragt nach Getränken. = Viesmīle jautā par dzērieniem."
         },
         {
           "word": "der Service",
           "meaning": "Serwis/serwis",
-          "example": "Servis iyi. = Servis iyi."
+          "example": "Der Service ist gut. = Apkalpošana ir laba."
         },
         {
           "word": "das Personal",
           "meaning": "Personel",
-          "example": "Das Personal bizi ayağa kaldırıyor. = Personel bize yardımcı oluyor."
+          "example": "Das Personal hilft uns. = Personāls mums palīdz."
         }
       ],
       "tip": {
@@ -10629,27 +10629,27 @@ const A2_WORDS = [
         {
           "word": "behalten",
           "meaning": "Sakla/hatırla",
-          "example": "Du kannst es mehalten. = Sende kalabilir."
+          "example": "Du kannst es behalten. = Tu vari to paturēt."
         },
         {
           "word": "halten",
           "meaning": "Tutmak",
-          "example": "Ich halte die Tasche. = Çantayı tutuyorum."
+          "example": "Ich halte die Tasche. = Es turu somu."
         },
         {
           "word": "sich merken",
           "meaning": "Ezberle / ezberle",
-          "example": "Ich merke mir die Nummer. = Bu numarayı hatırladım."
+          "example": "Ich merke mir die Nummer. = Es iegaumēju numuru."
         },
         {
           "word": "erinnern",
           "meaning": "Hatırla/hatırlat",
-          "example": "Ich erinnere mich daran. = Bunu hatırlıyorum."
+          "example": "Ich erinnere mich daran. = Es to atceros."
         },
         {
           "word": "aufbewahren",
           "meaning": "Kale",
-          "example": "Ich bewahre die auf Fırlatıyorum. = Çeki saklıyorum."
+          "example": "Ich bewahre die Quittung auf. = Es glabāju čeku."
         }
       ],
       "tip": {
@@ -10935,27 +10935,27 @@ const A2_WORDS = [
         {
           "word": "beinahe",
           "meaning": "Prawie / ledwo",
-          "example": "Neredeyse gülecektim. = Neredeyse gülmeye başladım."
+          "example": "Ich hätte beinahe gelacht. = Es gandrīz sāku smieties."
         },
         {
           "word": "fast",
           "meaning": "Neredeyse",
-          "example": "Ich bin fast fertig. = Neredeyse hazırım."
+          "example": "Ich bin fast fertig. = Es esmu gandrīz gatavs."
         },
         {
           "word": "knapp",
           "meaning": "Ledwo / z niewielkim marginesem",
-          "example": "Das wojna knapp. = Zar zor oradaydı."
+          "example": "Das war knapp. = Tas bija knapi."
         },
         {
           "word": "kaum",
           "meaning": "Ledwo / ledwo",
-          "example": "Ich kann kaum laufen. = Zar zor yürüyebiliyorum."
+          "example": "Ich kann kaum laufen. = Es tik tikko varu paiet."
         },
         {
           "word": "gerade noch",
           "meaning": "Neredeyse",
-          "example": "Wir haben es gerade noch gefacht. = Hala zar zor başardık."
+          "example": "Wir haben es gerade noch geschafft. = Mēs vēl tik tikko paspējām."
         }
       ],
       "tip": {
@@ -11239,27 +11239,27 @@ const A2_WORDS = [
         {
           "word": "bekannt",
           "meaning": "Znany/znany",
-          "example": "Das jest bekannt. = Açıkça."
+          "example": "Das ist bekannt. = Tas ir zināms."
         },
         {
           "word": "berühmt",
           "meaning": "Ünlü",
-          "example": "O ünlü. = Ünlü hakkında."
+          "example": "Er ist berühmt. = Viņš ir slavens."
         },
         {
           "word": "vertraut",
           "meaning": "Znajomy/zwyczajowy",
-          "example": "Die Umgebung ist mir verratut. = Okolica jest mi znana."
+          "example": "Die Umgebung ist mir vertraut. = Apkārtne man ir pazīstama."
         },
         {
           "word": "befreundet",
           "meaning": "Arkadaşlarda/arkadaşça ilişkilerde",
-          "example": "Wir sind befreundet. = Biz arkadaşız."
+          "example": "Wir sind befreundet. = Mēs esam draugos."
         },
         {
           "word": "unbekannt",
           "meaning": "Bilinmiyor",
-          "example": "Der Täter jest unbekannt. = Sprawca jest nieznany."
+          "example": "Der Täter ist unbekannt. = Vainīgais ir nezināms."
         }
       ],
       "tip": {
@@ -11633,27 +11633,27 @@ const A2_WORDS = [
         {
           "word": "bestellen",
           "meaning": "Sipariş/Rezervasyon",
-          "example": "Ich bestelle Essen. = Yemek sipariş ediyorum."
+          "example": "Ich bestelle Essen. = Es pasūtu ēdienu."
         },
         {
           "word": "reservieren",
           "meaning": "Kitap",
-          "example": "Ich reserviere einen Tisch. = Bir masa ayırttım."
+          "example": "Ich reserviere einen Tisch. = Es rezervēju galdiņu."
         },
         {
           "word": "kaufen",
           "meaning": "Satın almak",
-          "example": "Ich kaufe Brot. = Ekmek alıyorum."
+          "example": "Ich kaufe Brot. = Es pērku maizi."
         },
         {
           "word": "grüßen",
           "meaning": "Selamlamak/selamları iletmek",
-          "example": "Grüß deine Mutter! = Anneme merhaba de!"
+          "example": "Grüß deine Mutter! = Pasveicini mammu!"
         },
         {
           "word": "bearbeiten",
           "meaning": "Proces",
-          "example": "Ich bearbeite den Tekst. = Metin işliyorum."
+          "example": "Ich bearbeite den Text. = Es apstrādāju tekstu."
         }
       ],
       "tip": {
@@ -11911,27 +11911,27 @@ const A2_WORDS = [
         {
           "word": "bestimmt",
           "meaning": "Kesinlikle / belirlenmiş / spesifik",
-          "example": "Das ist bestimt richtig. = Bu kesinlikle doğru."
+          "example": "Das ist bestimmt richtig. = Tas noteikti ir pareizi."
         },
         {
           "word": "sicher",
           "meaning": "Elbette / kesinlikle",
-          "example": "Das ist sicher richtig. = Bu kesinlikle doğru."
+          "example": "Das ist sicher richtig. = Tas noteikti ir pareizi."
         },
         {
           "word": "konkret",
           "meaning": "Özel",
-          "example": "Spesifik bir örneğe ihtiyacım var. = Belirli bir örneğe ihtiyacım var."
+          "example": "Ich brauche ein konkretes Beispiel. = Man vajag konkrētu piemēru."
         },
         {
           "word": "fest",
           "meaning": "Mocny/zdecydowany",
-          "example": "Wir haben einen festen Termin. = Bir son teslim tarihimiz var."
+          "example": "Wir haben einen festen Termin. = Mums ir noteikts termiņš."
         },
         {
           "word": "wahrscheinlich",
           "meaning": "Muhtemelen / muhtemelen",
-          "example": "Er kommt wahrscheinlich morgen. = Prawdopodobnie przyjdzie jutro."
+          "example": "Er kommt wahrscheinlich morgen. = Viņš droši vien atnāks rīt."
         }
       ],
       "tip": {
@@ -12234,22 +12234,22 @@ const A2_WORDS = [
         {
           "word": "die Birne",
           "meaning": "Armut/soğan",
-          "example": "Ich esse eine Birne. = Armut yiyorum."
+          "example": "Ich esse eine Birne. = Es ēdu bumbieri."
         },
         {
           "word": "die Glühbirne",
           "meaning": "Ampul",
-          "example": "Die Glühbirne ist kaputt. = Ampul hasarlı."
+          "example": "Die Glühbirne ist kaputt. = Spuldze ir saplīsusi."
         },
         {
           "word": "die Lampe",
           "meaning": "Flash",
-          "example": "Die Lampe cehennemdir. = Lamba parlak."
+          "example": "Die Lampe ist hell. = Lampa ir spoža."
         },
         {
           "word": "das Obst",
           "meaning": "Meyve",
-          "example": "Birnen sind Obst. = Armut meyvedir."
+          "example": "Birnen sind Obst. = Bumbieri ir augļi."
         }
       ],
       "tip": {
@@ -12619,27 +12619,27 @@ const A2_WORDS = [
         {
           "word": "bitter",
           "meaning": "Acı / keskin / keskin",
-          "example": "Der Kaffee jest gorzkie. = Kahve acıdır."
+          "example": "Der Kaffee ist bitter. = Kafija ir rūgta."
         },
         {
           "word": "sauer",
           "meaning": "Ekşi",
-          "example": "Limon ekşidir. = Limon ekşidir."
+          "example": "Die Zitrone ist sauer. = Citrons ir skābs."
         },
         {
           "word": "scharf",
           "meaning": "Sıcak/baharatlı",
-          "example": "Die Soup to scharf. = Zupa jest ostra."
+          "example": "Die Suppe ist scharf. = Zupa ir asa."
         },
         {
           "word": "streng",
           "meaning": "Güçlü/keskin",
-          "example": "Der Lehrer jest mocny. = Öğretmen katıdır."
+          "example": "Der Lehrer ist streng. = Skolotājs ir stingrs."
         },
         {
           "word": "unangenehm",
           "meaning": "Tatsız",
-          "example": "Der Geruch ist unangenehm. = Koku hoş değil."
+          "example": "Der Geruch ist unangenehm. = Smarža ir nepatīkama."
         }
       ],
       "tip": {
@@ -12989,27 +12989,27 @@ const A2_WORDS = [
         {
           "word": "der Boden",
           "meaning": "Zemin / zemin / toprak / taban",
-          "example": "Die Tasche Liegt auf dem Boden. = Çanta yerde yatıyor."
+          "example": "Die Tasche liegt auf dem Boden. = Soma atrodas uz grīdas."
         },
         {
           "word": "der Fußboden",
           "meaning": "Odadaki zemin",
-          "example": "Der Fußboden ist sauber. = Zemin temiz."
+          "example": "Der Fußboden ist sauber. = Grīda ir tīra."
         },
         {
           "word": "die Erde",
           "meaning": "Toprak/toprak",
-          "example": "Die Erde jest trocken. = Zemin kuru."
+          "example": "Die Erde ist trocken. = Zeme ir sausa."
         },
         {
           "word": "der Grund",
           "meaning": "Temel/temel/sebep",
-          "example": "Das Haus steht auf festem Grund. = Ev sağlam bir temel üzerinde duruyor."
+          "example": "Das Haus steht auf festem Grund. = Māja stāv uz stingra pamata."
         },
         {
           "word": "der Flaschenboden",
           "meaning": "Şişenin alt kısmı",
-          "example": "Der Flaschenboden to kutas. = Şişenin tabanı kalındır."
+          "example": "Der Flaschenboden ist dick. = Pudeles dibens ir biezs."
         }
       ],
       "tip": {
@@ -13324,22 +13324,22 @@ const A2_WORDS = [
         {
           "word": "borgen",
           "meaning": "Borç alma/ödünç verme",
-          "example": "Ich borge mir Geld. = Borç alıyorum."
+          "example": "Ich borge mir Geld. = Es aizņemos naudu."
         },
         {
           "word": "leihen",
           "meaning": "Borç alma/ödünç verme",
-          "example": "Buch leihen'in ne olduğunu biliyor musun? = Bana bir kitap ödünç verebilir misin?"
+          "example": "Kannst du mir das Buch leihen? = Vai vari man aizdot grāmatu?"
         },
         {
           "word": "geben",
           "meaning": "Vermek",
-          "example": "Ich gebe dir Geld. = Sana para veriyorum."
+          "example": "Ich gebe dir Geld. = Es tev dodu naudu."
         },
         {
           "word": "zurückgeben",
           "meaning": "Geri vermek",
-          "example": "Ich gebe das Buch zurück. = Kitabı iade ediyorum."
+          "example": "Ich gebe das Buch zurück. = Es atdodu grāmatu."
         }
       ],
       "tip": {
@@ -13603,27 +13603,27 @@ const A2_WORDS = [
         {
           "word": "böse",
           "meaning": "Ortalama/kızgın",
-          "example": "Bist du böse auf mich? = Bana kızgın mısın?"
+          "example": "Bist du böse auf mich? = Vai tu esi dusmīgs uz mani?"
         },
         {
           "word": "schlecht",
           "meaning": "Kötü",
-          "example": "Das Wetter ist schlecht. = Hava kötü."
+          "example": "Das Wetter ist schlecht. = Laiks ir slikts."
         },
         {
           "word": "zornig",
           "meaning": "Çok öfkeli",
-          "example": "Jest zornig. = Çok öfkeli."
+          "example": "Er ist zornig. = Viņš ir nikns."
         },
         {
           "word": "ärgerlich",
           "meaning": "Sinir bozucu/kızgın",
-          "example": "Bu çok önemli. = Bu can sıkıcı."
+          "example": "Das ist ärgerlich. = Tas ir kaitinoši."
         },
         {
           "word": "sauer",
           "meaning": "Kızgın/acı",
-          "example": "Ich bin Sauer. = kızgınım."
+          "example": "Ich bin sauer. = Es esmu dusmīgs."
         }
       ],
       "tip": {
@@ -13915,32 +13915,32 @@ const A2_WORDS = [
         {
           "word": "brav",
           "meaning": "İtaatkar / temiz / iyi huylu",
-          "example": "Das Kind'i alkışlamak lazım. = Çocuk itaat eder."
+          "example": "Das Kind ist brav. = Bērns ir paklausīgs."
         },
         {
           "word": "gut",
           "meaning": "İyi",
-          "example": "Bu bir Mensch'tir. = O iyi bir adamdır."
+          "example": "Er ist ein guter Mensch. = Viņš ir labs cilvēks."
         },
         {
           "word": "nett",
           "meaning": "Tatlı",
-          "example": "Sie is nett. = O çok hoş."
+          "example": "Sie ist nett. = Viņa ir jauka."
         },
         {
           "word": "freundlich",
           "meaning": "Dostça/hoş",
-          "example": "Der Verkäufer ist freundlich. = Satıcı güzel."
+          "example": "Der Verkäufer ist freundlich. = Pārdevējs ir laipns."
         },
         {
           "word": "artig",
           "meaning": "Uprzejmy/dobrze wychowany",
-          "example": "Das Kind ist artig. = Çocuğa iyi davranılıyor."
+          "example": "Das Kind ist artig. = Bērns ir pieklājīgs."
         },
         {
           "word": "gehorsam",
           "meaning": "Otoriteye itaatkar",
-          "example": "Der Hund jest gehorsam. = Köpek itaatkardır."
+          "example": "Der Hund ist gehorsam. = Suns ir paklausīgs."
         }
       ],
       "tip": [
@@ -14213,27 +14213,27 @@ const A2_WORDS = [
         {
           "word": "brennen",
           "meaning": "Yakmak/kavurmak/yakıcı acı vermek",
-          "example": "Das Feuer Brennt. = Ateş yanıyor."
+          "example": "Das Feuer brennt. = Uguns deg."
         },
         {
           "word": "anzünden",
           "meaning": "Yakmak",
-          "example": "Ich zünde die Kerze an. = Bir mum yakıyorum."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "verbrennen",
           "meaning": "Duman/yanık",
-          "example": "Ich habe mich vernacht. = Yandım."
+          "example": "Ich habe mich verbrannt. = Es apdedzinājos."
         },
         {
           "word": "löschen",
           "meaning": "Sil/sil",
-          "example": "Die Feuerwehr löscht das Feuer. = İtfaiye ekipleri yangını söndürüyor."
+          "example": "Die Feuerwehr löscht das Feuer. = Ugunsdzēsēji dzēš uguni."
         },
         {
           "word": "aufnehmen",
           "meaning": "Kayıt / Kayıt",
-          "example": "Ich nehme ein Video auf. = Bir video kaydediyorum."
+          "example": "Ich nehme ein Video auf. = Es ierakstu video."
         }
       ],
       "tip": [
@@ -14628,27 +14628,27 @@ const A2_WORDS = [
         {
           "word": "dabei",
           "meaning": "Mevcut / ile / hariç",
-          "example": "Ich habe den Schlüssel dabei. = Anahtar yanımda."
+          "example": "Ich habe den Schlüssel dabei. = Man ir līdzi atslēga."
         },
         {
           "word": "mit dabei",
           "meaning": "Ayrıca mevcut/ilgili",
-          "example": "Bist du morgen mit dabei? = Yarın siz de katılacak mısınız?"
+          "example": "Bist du morgen mit dabei? = Vai tu rīt arī piedalīsies?"
         },
         {
           "word": "dort",
           "meaning": "Orada",
-          "example": "Onların savaşı. = Oradaydım."
+          "example": "Ich war dort. = Es biju tur."
         },
         {
           "word": "außerdem",
           "meaning": "Ponadto",
-          "example": "Üstelik ben yapıyorum. = Üstelik pahalı."
+          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
         },
         {
           "word": "trotzdem",
           "meaning": "Fakat",
-          "example": "Trotdem komme ich. = Ancak geleceğim."
+          "example": "Trotzdem komme ich. = Tomēr es nākšu."
         }
       ],
       "tip": {
@@ -14945,27 +14945,27 @@ const A2_WORDS = [
         {
           "word": "dafür",
           "meaning": "Bunun için/bunun için/ancak",
-          "example": "Bunun için teşekkür ederim. = Bunun için teşekkür ederim."
+          "example": "Danke dafür. = Paldies par to."
         },
         {
           "word": "darum",
           "meaning": "Bu nedenle/bu nedenle",
-          "example": "Darum bleibe ich zu Hause. = Bu yüzden evde kalıyorum."
+          "example": "Darum bleibe ich zu Hause. = Tāpēc es palieku mājās."
         },
         {
           "word": "deshalb",
           "meaning": "Ile bağlantılı olarak",
-          "example": "Bu nedenle komme ich später. = O halde sonra geleceğim."
+          "example": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk."
         },
         {
           "word": "dagegen",
           "meaning": "Buna karşı",
-          "example": "Ich bin dagegen. = Jestem temu przeciwny."
+          "example": "Ich bin dagegen. = Es esmu pret to."
         },
         {
           "word": "für das",
           "meaning": "Bunun için / bunun için",
-          "example": "Das ist für das Kind. = Bu çocuk için."
+          "example": "Das ist für das Kind. = Tas ir bērnam."
         }
       ],
       "tip": {
@@ -15258,22 +15258,22 @@ const A2_WORDS = [
         {
           "word": "damit",
           "meaning": "Z tym / do",
-          "example": "Ich lerne, damit ich bestehe. = Geçmek için çalışıyorum."
+          "example": "Ich lerne, damit ich bestehe. = Es mācos, lai nokārtotu."
         },
         {
           "word": "mit dem",
           "meaning": "Bu özel şeyle",
-          "example": "Ich schreibe mit dem Stift. = Bu kalemle yazıyorum."
+          "example": "Ich schreibe mit dem Stift. = Es rakstu ar to pildspalvu."
         },
         {
           "word": "um ... zu",
           "meaning": "Do + czasownik",
-          "example": "Ich lerne, um zu besten. = Geçmek için çalışıyorum."
+          "example": "Ich lerne, um zu bestehen. = Es mācos, lai nokārtotu."
         },
         {
           "word": "deshalb",
           "meaning": "Ile bağlantılı olarak",
-          "example": "Bu yüzden burada kaldım. = Bu yüzden burada kalıyorum."
+          "example": "Deshalb bleibe ich hier. = Tāpēc es palieku šeit."
         }
       ],
       "tip": {
@@ -15555,27 +15555,27 @@ const A2_WORDS = [
         {
           "word": "der Dank",
           "meaning": "Minnettarlık (isim)",
-          "example": "Herzlichen Dank! = Samimi teşekkürler!"
+          "example": "Herzlichen Dank! = Sirsnīgs paldies!"
         },
         {
           "word": "danke",
           "meaning": "Teşekkür ederim (cevap)",
-          "example": "Hayır, teşekkür ederim. = Hayır, teşekkür ederim."
+          "example": "Nein, danke. = Nē, paldies."
         },
         {
           "word": "danken",
           "meaning": "Teşekkür etmek",
-          "example": "Ich Danke Yön. = Teşekkür ederim."
+          "example": "Ich danke dir. = Es tev pateicos."
         },
         {
           "word": "Vielen Dank",
           "meaning": "Çok teşekkür ederim (ifade)",
-          "example": "Yardımınız için çok teşekkürler! = Yardımınız için çok teşekkür ederim!"
+          "example": "Vielen Dank für die Hilfe! = Liels paldies par palīdzību!"
         },
         {
           "word": "bedanken (sich)",
           "meaning": "Resmi olarak teşekkür ederim",
-          "example": "Ich bedanke mich bei Ihnen. = Teşekkür ederim."
+          "example": "Ich bedanke mich bei Ihnen. = Es pateicos jums."
         }
       ],
       "tip": {
@@ -15822,22 +15822,22 @@ const A2_WORDS = [
         {
           "word": "darauf",
           "meaning": "Na tym / na tym / potem",
-          "example": "Czekam na to. = Czekam na to."
+          "example": "Ich warte darauf. = Es gaidu uz to."
         },
         {
           "word": "auf das",
           "meaning": "Do tego konkretnego przypadku",
-          "example": "Ich lege es auf das Buch. = Kitaba koydum."
+          "example": "Ich lege es auf das Buch. = Es lieku to uz grāmatas."
         },
         {
           "word": "danach",
           "meaning": "Daha sonrasında",
-          "example": "Danach gehe ich nach Hause. = Sonra eve gidiyorum."
+          "example": "Danach gehe ich nach Hause. = Pēc tam es eju mājās."
         },
         {
           "word": "darüber",
           "meaning": "O tym/nad tym",
-          "example": "Wir sprechen mazak. = Bunun hakkında konuşuyoruz."
+          "example": "Wir sprechen darüber. = Mēs runājam par to."
         }
       ],
       "tip": {
@@ -16105,22 +16105,22 @@ const A2_WORDS = [
         {
           "word": "darüber",
           "meaning": "Bunun hakkında / bunun üzerine / bunun üzerine",
-          "example": "Wir sprechen mazak. = Bunun hakkında konuşuyoruz."
+          "example": "Wir sprechen darüber. = Mēs runājam par to."
         },
         {
           "word": "über das",
           "meaning": "Bu özel şey için/üzerine",
-          "example": "Wir sprechen über das Problem. = Bir sorundan bahsediyoruz."
+          "example": "Wir sprechen über das Problem. = Mēs runājam par problēmu."
         },
         {
           "word": "darauf",
           "meaning": "Na tym / na tym / potem",
-          "example": "Czekam na to. = Czekam na to."
+          "example": "Ich warte darauf. = Es gaidu uz to."
         },
         {
           "word": "davon",
           "meaning": "Za to/z tego",
-          "example": "Ich habe davon gehört. = Bunu duydum."
+          "example": "Ich habe davon gehört. = Es par to dzirdēju."
         }
       ],
       "tip": {
@@ -16394,27 +16394,27 @@ const A2_WORDS = [
         {
           "word": "darum",
           "meaning": "Bu yüzden / bu yüzden /onun etrafında",
-          "example": "Darum bleibe ich hier. = Bu yüzden burada kalıyorum."
+          "example": "Darum bleibe ich hier. = Tāpēc es palieku šeit."
         },
         {
           "word": "deshalb",
           "meaning": "Ile bağlantılı olarak",
-          "example": "Bu nedenle komme ich später. = O halde sonra geleceğim."
+          "example": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk."
         },
         {
           "word": "deswegen",
           "meaning": "Dlatego/z tego powodu",
-          "example": "Deswegen bin ich müde. = Bu yüzden yorgunum."
+          "example": "Deswegen bin ich müde. = Tāpēc esmu noguris."
         },
         {
           "word": "um das",
           "meaning": "Bu özel şeyin etrafında",
-          "example": "Wir sitzen um das Feuer. = Ateşin etrafında oturuyoruz."
+          "example": "Wir sitzen um das Feuer. = Mēs sēžam ap uguni."
         },
         {
           "word": "dafür",
           "meaning": "Bunun için/bunun için/ancak",
-          "example": "Bunun için teşekkür ederim. = Bunun için teşekkür ederim."
+          "example": "Danke dafür. = Paldies par to."
         }
       ],
       "tip": {
@@ -16882,22 +16882,22 @@ const A2_WORDS = [
         {
           "word": "davor",
           "meaning": "Bundan önce / bundan önce / bundan önce",
-          "example": "Ich habe Angst Davor. = Bundan korkuyorum."
+          "example": "Ich habe Angst davor. = Man ir bail no tā."
         },
         {
           "word": "vor dem",
           "meaning": "Belirli öncesi/öncesi",
-          "example": "Arabada bir ev var. = Evin önünde bir araba var."
+          "example": "Vor dem Haus steht ein Auto. = Mājas priekšā stāv auto."
         },
         {
           "word": "danach",
           "meaning": "Daha sonrasında",
-          "example": "Danach gehen wir. = Sonra gidiyoruz."
+          "example": "Danach gehen wir. = Pēc tam mēs ejam."
         },
         {
           "word": "darauf",
           "meaning": "Na tym/potem",
-          "example": "Czekam na to. = Czekam na to."
+          "example": "Ich warte darauf. = Es gaidu uz to."
         }
       ],
       "tip": [
@@ -17109,22 +17109,22 @@ const A2_WORDS = [
         {
           "word": "dazu",
           "meaning": "Buna / buna / mevcut / üstelik",
-          "example": "Ne yaptın? = Buna ne dersin?"
+          "example": "Was sagst du dazu? = Ko tu par to saki?"
         },
         {
           "word": "dafür",
           "meaning": "Bunun için/bunun için/ancak",
-          "example": "Bunun için teşekkür ederim. = Bunun için teşekkür ederim."
+          "example": "Danke dafür. = Paldies par to."
         },
         {
           "word": "dabei",
           "meaning": "Mevcut / ile / hariç",
-          "example": "Oradaydım. = Oradaydım."
+          "example": "Ich war dabei. = Es biju klāt."
         },
         {
           "word": "außerdem",
           "meaning": "Ponadto",
-          "example": "Üstelik ben yapıyorum. = Üstelik pahalı."
+          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
         }
       ],
       "tip": [
@@ -17316,27 +17316,27 @@ const A2_WORDS = [
         {
           "word": "die Decke",
           "meaning": "Battaniye/tavan",
-          "example": "Battaniye sıcak. = Battaniye sıcak."
+          "example": "Die Decke ist warm. = Sega ir silta."
         },
         {
           "word": "die Bettdecke",
           "meaning": "Yatakta battaniye",
-          "example": "Die Bettdecke ist weich. = Battaniye yumuşaktır."
+          "example": "Die Bettdecke ist weich. = Sega ir mīksta."
         },
         {
           "word": "die Zimmerdecke",
           "meaning": "Sufit",
-          "example": "Die Zimmerdecke ist hoch. = Tavan yüksektir."
+          "example": "Die Zimmerdecke ist hoch. = Griesti ir augsti."
         },
         {
           "word": "das Dach",
           "meaning": "Çatı",
-          "example": "Das Dach ist zgnilizna. = Çatı kırmızı."
+          "example": "Das Dach ist rot. = Jumts ir sarkans."
         },
         {
           "word": "die Wand",
           "meaning": "Duvar",
-          "example": "Das Bild hängt an der Wand. = Tablo duvarda asılıdır."
+          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
         }
       ],
       "tip": [
@@ -17580,22 +17580,22 @@ const A2_WORDS = [
         {
           "word": "denn",
           "meaning": "Çünkü / sonra sorular",
-          "example": "Machst du denn mi? = Peki ne yapıyorsun?"
+          "example": "Was machst du denn? = Ko tad tu dari?"
         },
         {
           "word": "weil",
           "meaning": "Çünkü / çünkü",
-          "example": "Ich bleibe, weil es regnet. = Yağmur yağdığı için kalıyorum."
+          "example": "Ich bleibe, weil es regnet. = Es palieku, jo līst."
         },
         {
           "word": "dann",
           "meaning": "Sonra",
-          "example": "Dann gehen wir. = İşte başlıyoruz."
+          "example": "Dann gehen wir. = Tad mēs ejam."
         },
         {
           "word": "deshalb",
           "meaning": "Ile bağlantılı olarak",
-          "example": "Dlatego bleibe ich. = Bu yüzden kalıyorum."
+          "example": "Deshalb bleibe ich. = Tāpēc es palieku."
         }
       ],
       "tip": [
@@ -17852,27 +17852,27 @@ const A2_WORDS = [
         {
           "word": "dick",
           "meaning": "Gruby/gruby",
-          "example": "Das Buch to kutas. = Kitap kalın."
+          "example": "Das Buch ist dick. = Grāmata ir bieza."
         },
         {
           "word": "fett",
           "meaning": "Yağ/yağ",
-          "example": "Das Essen jest fett. = Yemekler yağlı."
+          "example": "Das Essen ist fett. = Ēdiens ir trekns."
         },
         {
           "word": "dünn",
           "meaning": "İnce/ince",
-          "example": "Das Papier ist dünn. = Kağıt ince."
+          "example": "Das Papier ist dünn. = Papīrs ir plāns."
         },
         {
           "word": "breit",
           "meaning": "Geniş",
-          "example": "Die Straße ist breit. = Cadde geniş."
+          "example": "Die Straße ist breit. = Iela ir plata."
         },
         {
           "word": "stark",
           "meaning": "Güçlü",
-          "example": "Jest surowo. = O güçlü."
+          "example": "Er ist stark. = Viņš ir stiprs."
         }
       ],
       "tip": [
@@ -18112,27 +18112,27 @@ const A2_WORDS = [
         {
           "word": "doch",
           "meaning": "Ama / rağmen / her ikisine de / jel",
-          "example": "Acele etmek! = Haydi!"
+          "example": "Komm doch! = Nāc taču!"
         },
         {
           "word": "aber",
           "meaning": "Ancak",
-          "example": "Bunu yapacağım ama yapamam. = İstiyorum ama yapamıyorum."
+          "example": "Ich will, aber ich kann nicht. = Es gribu, bet nevaru."
         },
         {
           "word": "trotzdem",
           "meaning": "Ancak/buna rağmen",
-          "example": "I regnet, trotzdem gehe ich. = Yağmur yağıyor ama gidiyorum."
+          "example": "Es regnet, trotzdem gehe ich. = Līst, tomēr es eju."
         },
         {
           "word": "ja",
           "meaning": "Zaten/ama konuşmacı bir şeyi olduğu gibi kabul ettiğinde",
-          "example": "Du weißt ja. = Zaten biliyorsun."
+          "example": "Du weißt ja. = Tu jau zini."
         },
         {
           "word": "nein",
           "meaning": "HAYIR",
-          "example": "Nerelisin HAYIR. =Gelecek mi? HAYIR."
+          "example": "Kommst du? Nein. = Vai tu nāksi? Nē."
         }
       ],
       "tip": {
@@ -18427,27 +18427,27 @@ const A2_WORDS = [
         {
           "word": "der Doktor",
           "meaning": "Doktor / halk arasında doktor",
-          "example": "Ich gehe zum Doktor. = Doktora gidiyorum."
+          "example": "Ich gehe zum Doktor. = Es eju pie ārsta."
         },
         {
           "word": "der Arzt",
           "meaning": "Doktor",
-          "example": "Der Arzt Hift umiera. = Doktor bana yardım ediyor."
+          "example": "Der Arzt hilft mir. = Ārsts man palīdz."
         },
         {
           "word": "die Ärztin",
           "meaning": "Doktor",
-          "example": "Die Ęrztin arbeitet hier. = Doktor burada çalışıyor."
+          "example": "Die Ärztin arbeitet hier. = Ārste strādā šeit."
         },
         {
           "word": "der Titel",
           "meaning": "Başlık",
-          "example": "Doktor is ein Titel. = Doktor bir unvandır."
+          "example": "Doktor ist ein Titel. = Doktors ir tituls."
         },
         {
           "word": "die Praxis",
           "meaning": "Tıbbi uygulama",
-          "example": "Die Praxis saldırgandır. = Doktor muayenehanesi açık."
+          "example": "Die Praxis ist offen. = Ārsta prakse ir atvērta."
         }
       ],
       "tip": [
@@ -19170,27 +19170,27 @@ const A2_WORDS = [
         {
           "word": "dünn",
           "meaning": "İnce / ince / ince / sıvı",
-          "example": "Das Papier ist dünn. = Kağıt ince."
+          "example": "Das Papier ist dünn. = Papīrs ir plāns."
         },
         {
           "word": "dick",
           "meaning": "Gruby/gruby",
-          "example": "Das Buch to kutas. = Kitap kalın."
+          "example": "Das Buch ist dick. = Grāmata ir bieza."
         },
         {
           "word": "schmal",
           "meaning": "Dar",
-          "example": "Die Straße ist schmal. = Sokak dar."
+          "example": "Die Straße ist schmal. = Iela ir šaura."
         },
         {
           "word": "mager",
           "meaning": "İnce/ince",
-          "example": "Das Fleisch ist mager. = Et yağsız."
+          "example": "Das Fleisch ist mager. = Gaļa ir liesa."
         },
         {
           "word": "flüssig",
           "meaning": "Sıvı",
-          "example": "Bal sıvıdır. = Bal sıvıdır."
+          "example": "Honig ist flüssig. = Medus ir šķidrs."
         }
       ],
       "tip": [
@@ -19616,22 +19616,22 @@ const A2_WORDS = [
         {
           "word": "eben",
           "meaning": "Aynen / tam olarak / öyle / düz",
-          "example": "Tak po prostu jest. = İşte böyle."
+          "example": "Das ist eben so. = Tā tas vienkārši ir."
         },
         {
           "word": "gerade",
           "meaning": "Şimdi / düz",
-          "example": "Jestem w domu. = Artık evdeyim."
+          "example": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās."
         },
         {
           "word": "gerade eben",
           "meaning": "Kesinlikle",
-          "example": "Ich habe ihn gerade eben gesehen. = Onu yeni gördüm."
+          "example": "Ich habe ihn gerade eben gesehen. = Es viņu tikko redzēju."
         },
         {
           "word": "flach",
           "meaning": "Düz",
-          "example": "Das Land flach'tır. = Dünya düzdür."
+          "example": "Das Land ist flach. = Zeme ir plakana."
         }
       ],
       "tip": {
@@ -19959,22 +19959,22 @@ const A2_WORDS = [
         {
           "word": "ehrlich",
           "meaning": "Dürüst/açık",
-          "example": "Er jest ehrlich. = O dürüsttür."
+          "example": "Er ist ehrlich. = Viņš ir godīgs."
         },
         {
           "word": "aufrichtig",
           "meaning": "Szczery / szczery / otwarty",
-          "example": "Bu savaş iyi bir şey. = Doğruydu."
+          "example": "Das war aufrichtig. = Tas bija patiesi."
         },
         {
           "word": "nett",
           "meaning": "Tatlı",
-          "example": "Sie is nett. = O çok hoş."
+          "example": "Sie ist nett. = Viņa ir jauka."
         },
         {
           "word": "gut",
           "meaning": "İyi",
-          "example": "Bu bir Mensch'tir. = O iyi bir adamdır."
+          "example": "Er ist ein guter Mensch. = Viņš ir labs cilvēks."
         }
       ],
       "tip": [
@@ -20188,22 +20188,22 @@ const A2_WORDS = [
         {
           "word": "eigentlich",
           "meaning": "Aslında / aslında / gerçek",
-          "example": "Eigentlich habe ich keine Zeit. = Aslında zamanım yok."
+          "example": "Eigentlich habe ich keine Zeit. = Patiesībā man nav laika."
         },
         {
           "word": "echt",
           "meaning": "Prawdziwy",
-          "example": "To jest prawdziwe. = To jest prawdziwe."
+          "example": "Das ist echt. = Tas ir īsts."
         },
         {
           "word": "wahr",
           "meaning": "DOĞRU",
-          "example": "To prawda. = Bu doğru."
+          "example": "Das ist wahr. = Tas ir patiess."
         },
         {
           "word": "wirklich",
           "meaning": "Gerçekten / aslında",
-          "example": "Gerçekten çok iyi. = Bu gerçekten çok iyi."
+          "example": "Das ist wirklich gut. = Tas tiešām ir labi."
         }
       ],
       "tip": [
@@ -20465,22 +20465,22 @@ const A2_WORDS = [
         {
           "word": "einladen",
           "meaning": "Davet et/yükle",
-          "example": "Ich lade dich ein. = Seni davet ediyorum."
+          "example": "Ich lade dich ein. = Es tevi uzaicinu."
         },
         {
           "word": "laden",
           "meaning": "Yükleme/şarj",
-          "example": "Ich lade das Handy. = Telefonumu şarj ediyorum."
+          "example": "Ich lade das Handy. = Es lādēju telefonu."
         },
         {
           "word": "besuchen",
           "meaning": "Ziyaret/ziyaret",
-          "example": "Çok üzgünüm. = Seni ziyaret ediyorum."
+          "example": "Ich besuche dich. = Es tevi apciemoju."
         },
         {
           "word": "mitbringen",
           "meaning": "Yanına al",
-          "example": "Bitte Brot efsanesini getirin. = Yanınıza ekmek alın."
+          "example": "Bring bitte Brot mit. = Paņem līdzi maizi."
         }
       ],
       "tip": {
@@ -20765,22 +20765,22 @@ const A2_WORDS = [
         {
           "word": "einschalten",
           "meaning": "Dahil etme/katılımda bulunma",
-          "example": "Ich schalte das Licht ein. = Işığı açtım."
+          "example": "Ich schalte das Licht ein. = Es ieslēdzu gaismu."
         },
         {
           "word": "ausschalten",
           "meaning": "Bir şeyi kapat",
-          "example": "Schalte den Computer aus. = Bilgisayarınızı kapatın."
+          "example": "Schalte den Computer aus. = Izslēdz datoru."
         },
         {
           "word": "anmachen",
           "meaning": "Açma (konuşma dili)",
-          "example": "Mach das Licht an. = Işığı açın."
+          "example": "Mach das Licht an. = Ieslēdz gaismu."
         },
         {
           "word": "einbeziehen",
           "meaning": "Angaje etmek",
-          "example": "Wir beziehen ihn ein. = Onu meşgul ediyoruz."
+          "example": "Wir beziehen ihn ein. = Mēs viņu iesaistām."
         }
       ],
       "tip": {
@@ -21051,22 +21051,22 @@ const A2_WORDS = [
         {
           "word": "einschlafen",
           "meaning": "Uykuya dalma / uyuşma",
-          "example": "Onların schlafe'leri ein. = Uyuyakaldım."
+          "example": "Ich schlafe ein. = Es aizmiegu."
         },
         {
           "word": "schlafen",
           "meaning": "Uyumak",
-          "example": "Ich schlafe acht Stunden. = Sekiz saat uyuyorum."
+          "example": "Ich schlafe acht Stunden. = Es guļu astoņas stundas."
         },
         {
           "word": "aufwachen",
           "meaning": "Uyanmak",
-          "example": "Ich wache früh auf. = Erken uyanıyorum."
+          "example": "Ich wache früh auf. = Es pamostos agri."
         },
         {
           "word": "taub werden",
           "meaning": "Uyuşmak",
-          "example": "Mein Bein garip taub. = Bacağım uyuşuyor."
+          "example": "Mein Bein wird taub. = Mana kāja kļūst nejutīga."
         }
       ],
       "tip": [
@@ -21296,22 +21296,22 @@ const A2_WORDS = [
         {
           "word": "einsteigen",
           "meaning": "İçeri girin / dahil olun",
-          "example": "Ich steige in den Zug ein. = Trene biniyorum."
+          "example": "Ich steige in den Zug ein. = Es iekāpju vilcienā."
         },
         {
           "word": "aussteigen",
           "meaning": "Ayrıl/çıkış",
-          "example": "Ich steige hier aus. = Wysiadam tutaj."
+          "example": "Ich steige hier aus. = Es šeit izkāpju."
         },
         {
           "word": "umsteigen",
           "meaning": "Yeri değiştir",
-          "example": "Wir steigen um. = Yer değiştiriyoruz."
+          "example": "Wir steigen um. = Mēs pārsēžamies."
         },
         {
           "word": "mitmachen",
           "meaning": "Katıl",
-          "example": "Onların pala efsanesi. = Katılıyorum."
+          "example": "Ich mache mit. = Es piedalos."
         }
       ],
       "tip": {
@@ -21575,22 +21575,22 @@ const A2_WORDS = [
         {
           "word": "der Eintritt",
           "meaning": "Giriş /giriş ücreti/ giriş ücreti",
-          "example": "Der Eintritt özgürdür. = Giriş ücretsizdir."
+          "example": "Der Eintritt ist frei. = Ieeja ir bez maksas."
         },
         {
           "word": "der Eingang",
           "meaning": "Fiziksel giriş",
-          "example": "Der Eingang zostaje po lewej stronie. = Giriş soldadır."
+          "example": "Der Eingang ist links. = Ieeja ir pa kreisi."
         },
         {
           "word": "die Eintrittskarte",
           "meaning": "Giriş bileti",
-          "example": "Ich habe eine Eintrittskarte. = Giriş biletim var."
+          "example": "Ich habe eine Eintrittskarte. = Man ir ieejas biļete."
         },
         {
           "word": "beitreten",
           "meaning": "Organizasyona katılın",
-          "example": "Ich trete dem Verein bei. = Derneğe katıldım."
+          "example": "Ich trete dem Verein bei. = Es iestājos biedrībā."
         }
       ],
       "tip": [
@@ -22302,22 +22302,22 @@ const A2_WORDS = [
         {
           "word": "erinnern",
           "meaning": "Hatırlatmak için",
-          "example": "Erinnere mich bitte daran. = Lütfen bana bunu hatırlat."
+          "example": "Erinnere mich bitte daran. = Lūdzu, atgādini man to."
         },
         {
           "word": "sich erinnern",
           "meaning": "Hatırlamak",
-          "example": "Ich erinnere mich daran. = Bunu hatırlıyorum."
+          "example": "Ich erinnere mich daran. = Es to atceros."
         },
         {
           "word": "vergessen",
           "meaning": "Unutmak",
-          "example": "Ich vergesse den Termin. = Toplantıyı unuttum."
+          "example": "Ich vergesse den Termin. = Es aizmirstu tikšanos."
         },
         {
           "word": "denken an",
           "meaning": "Düşün/yapmayı hatırla",
-          "example": "Denk an den Schlüssel. = Anahtarı hatırla."
+          "example": "Denk an den Schlüssel. = Atceries par atslēgu."
         }
       ],
       "tip": [
@@ -22690,22 +22690,22 @@ const A2_WORDS = [
         {
           "word": "etwa",
           "meaning": "A • Sorularda da ya da sonra / gerçekten",
-          "example": "Yaklaşık 20 dakika sürer. = Bu yaklaşık 20 dakika sürer."
+          "example": "Das dauert etwa 20 Minuten. = Tas ilgst apmēram 20 minūtes."
         },
         {
           "word": "ungefähr",
           "meaning": "Yaklaşık / yaklaşık olarak, nötr",
-          "example": "Yaklaşık 20 dakika sürer. = Bu yaklaşık 20 dakika sürer."
+          "example": "Das dauert ungefähr 20 Minuten. = Tas ilgst aptuveni 20 minūtes."
         },
         {
           "word": "etwa?",
           "meaning": "Veya sonra / gerçekten sorgulandı",
-          "example": "Hast du das etwa vergessen? = Unuttun mu?"
+          "example": "Hast du das etwa vergessen? = Vai tad tu to aizmirsi?"
         },
         {
           "word": "vielleicht",
           "meaning": "Belki",
-          "example": "Vielleicht kommt er. = Belki gelir."
+          "example": "Vielleicht kommt er. = Varbūt viņš atnāks."
         }
       ],
       "tip": [
@@ -22955,27 +22955,27 @@ const A2_WORDS = [
         {
           "word": "das Fach",
           "meaning": "Bölüm/konu/sektör",
-          "example": "Das Fach ist leer. = Bölme boş."
+          "example": "Das Fach ist leer. = Nodalījums ir tukšs."
         },
         {
           "word": "das Schulfach",
           "meaning": "Çalışma konusu",
-          "example": "Biologia jest w Schulfach. = Biyoloji bir konudur."
+          "example": "Biologie ist ein Schulfach. = Bioloģija ir mācību priekšmets."
         },
         {
           "word": "das Schrankfach",
           "meaning": "Dolap bölmesi",
-          "example": "Das Schrankfach çok küçük. = Dolap bölmesi küçüktür."
+          "example": "Das Schrankfach ist klein. = Skapja nodalījums ir mazs."
         },
         {
           "word": "das Fachgebiet",
           "meaning": "Uzmanlık/endüstri",
-          "example": "Das ist mein Fachgebiet. = Bu benim uzmanlık alanım."
+          "example": "Das ist mein Fachgebiet. = Tā ir mana specialitāte."
         },
         {
           "word": "der Beruf",
           "meaning": "Meslek",
-          "example": "Mein Beruf to Lehrer. = Mesleğim öğretmenlik."
+          "example": "Mein Beruf ist Lehrer. = Mana profesija ir skolotājs."
         }
       ],
       "tip": {
@@ -23374,27 +23374,27 @@ const A2_WORDS = [
         {
           "word": "der Fall",
           "meaning": "Kasa / düşme / katlama / şey",
-          "example": "In diesem Fall komme ich. = O zaman geleceğim."
+          "example": "In diesem Fall komme ich. = Šajā gadījumā es nākšu."
         },
         {
           "word": "der Unfall",
           "meaning": "Kaza",
-          "example": "Schlimm savaşı Der Unfall. = Kaza ciddiydi."
+          "example": "Der Unfall war schlimm. = Negadījums bija smags."
         },
         {
           "word": "die Situation",
           "meaning": "Durum",
-          "example": "Die Situation ist schwierig. = Durum zor."
+          "example": "Die Situation ist schwierig. = Situācija ir grūta."
         },
         {
           "word": "der Kasus",
           "meaning": "Fleksja gramatyczna",
-          "example": "Der Kasus ist wichtig. = Bükülme önemlidir."
+          "example": "Der Kasus ist wichtig. = Locījums ir svarīgs."
         },
         {
           "word": "der Gerichtsfall",
           "meaning": "Dava",
-          "example": "Der Gerichtsfall duart lange. = Mahkeme süreci uzun sürüyor."
+          "example": "Der Gerichtsfall dauert lange. = Tiesas lieta ilgst ilgi."
         }
       ],
       "tip": {
@@ -23767,22 +23767,22 @@ const A2_WORDS = [
         {
           "word": "fehlen",
           "meaning": "Devamsızlık/yokluk",
-          "example": "Mir fehlt Geld. = Param yok."
+          "example": "Mir fehlt Geld. = Man trūkst naudas."
         },
         {
           "word": "brauchen",
           "meaning": "Gerektirmek",
-          "example": "Ich brauche Geld. = Paraya ihtiyacım var."
+          "example": "Ich brauche Geld. = Man vajag naudu."
         },
         {
           "word": "vermissen",
           "meaning": "Bir kişiye duyulan özlem/özlem",
-          "example": "Onların vermisse dich'i. = Seni özledim."
+          "example": "Ich vermisse dich. = Man tevis pietrūkst."
         },
         {
           "word": "abwesend sein",
           "meaning": "Mevcut olmamak",
-          "example": "Jest nieobecny. = O burada değil."
+          "example": "Er ist abwesend. = Viņš nav klāt."
         }
       ],
       "tip": [
@@ -24361,27 +24361,27 @@ const A2_WORDS = [
         {
           "word": "das Feuer",
           "meaning": "Yangın / yangın",
-          "example": "Das Feuer Brennt. = Ateş yanıyor."
+          "example": "Das Feuer brennt. = Uguns deg."
         },
         {
           "word": "der Brand",
           "meaning": "Ateş",
-          "example": "Der Brand iğrenç. = Yangın büyük."
+          "example": "Der Brand ist groß. = Ugunsgrēks ir liels."
         },
         {
           "word": "die Flamme",
           "meaning": "Alev",
-          "example": "Die Flamme ist klein. = Alev küçüktür."
+          "example": "Die Flamme ist klein. = Liesma ir maza."
         },
         {
           "word": "die Feuerwehr",
           "meaning": "İtfaiyeciler",
-          "example": "Die Feuerwehr kommt. = İtfaiyeciler öncülük ediyor."
+          "example": "Die Feuerwehr kommt. = Ugunsdzēsēji brauc."
         },
         {
           "word": "Feuer geben",
           "meaning": "Ateş açın",
-          "example": "Soldaten geben Feuer'i öldürün. = Askerler ateş açıyor."
+          "example": "Die Soldaten geben Feuer. = Kareivji atklāj uguni."
         }
       ],
       "tip": {
@@ -24844,22 +24844,22 @@ const A2_WORDS = [
         {
           "word": "folgen",
           "meaning": "Takip et / takip et",
-          "example": "Onların folge dir. = Seni takip ediyorum."
+          "example": "Ich folge dir. = Es tev sekoju."
         },
         {
           "word": "verfolgen",
           "meaning": "Takip et / takip et",
-          "example": "Die Polizei verfügt den Täter. = Polis failin peşinde."
+          "example": "Die Polizei verfolgt den Täter. = Policija vajā vainīgo."
         },
         {
           "word": "gehorchen",
           "meaning": "Dinle/itaat et",
-          "example": "Das Kind gehorcht. = Çocuk dinler."
+          "example": "Das Kind gehorcht. = Bērns klausa."
         },
         {
           "word": "befolgen",
           "meaning": "Talimatları takip edin",
-          "example": "Kurallara uyun. = Kurallara uyun."
+          "example": "Befolgen Sie die Regeln. = Ievērojiet noteikumus."
         }
       ],
       "tip": [
@@ -25278,27 +25278,27 @@ const A2_WORDS = [
         {
           "word": "führen",
           "meaning": "Liderlik etmek / liderlik etmek / liderlik etmek",
-          "example": "Der Weg führt zum Bahnhof. = Droga prowadzi do stacji."
+          "example": "Der Weg führt zum Bahnhof. = Ceļš ved uz staciju."
         },
         {
           "word": "leiten",
           "meaning": "Organizasyonu/süreci yönetin",
-          "example": "Sie leitet die Firma. = Şirketi o yönetiyor."
+          "example": "Sie leitet die Firma. = Viņa vada firmu."
         },
         {
           "word": "fahren",
           "meaning": "Taşımayla birlikte sürüş/sürüş",
-          "example": "Ich fahre nach Hause. = Eve gidiyorum."
+          "example": "Ich fahre nach Hause. = Es braucu mājās."
         },
         {
           "word": "bringen",
           "meaning": "Hedefe getirin/götürün",
-          "example": "Ich Bringe dich nach Hause. = Seni evine götüreceğim."
+          "example": "Ich bringe dich nach Hause. = Es aizvedīšu tevi mājās."
         },
         {
           "word": "führen zu",
           "meaning": "Şuna yol aç",
-          "example": "Bu sorunlara yol açar. = Bu sorunlara yol açar."
+          "example": "Das führt zu Problemen. = Tas noved pie problēmām."
         }
       ],
       "tip": {
@@ -26227,22 +26227,22 @@ const A2_WORDS = [
         {
           "word": "gehören",
           "meaning": "Ait / Uygun",
-          "example": "Das gehört mir. = Bana ait."
+          "example": "Das gehört mir. = Tas pieder man."
         },
         {
           "word": "besitzen",
           "meaning": "Posiadać/być w posiadaniu",
-          "example": "Jest właścicielem samochodu. = On ma samochód."
+          "example": "Er besitzt ein Auto. = Viņam pieder auto."
         },
         {
           "word": "passen",
           "meaning": "Uyuyor / uyuyor",
-          "example": "Das passt jelit. = Pasuje dobrze."
+          "example": "Das passt gut. = Tas labi der."
         },
         {
           "word": "brauchen",
           "meaning": "Gerektirmek",
-          "example": "Du brauchst Zeit. = Zamana ihtiyacın var."
+          "example": "Du brauchst Zeit. = Tev vajag laiku."
         }
       ],
       "tip": {
@@ -26507,22 +26507,22 @@ const A2_WORDS = [
         {
           "word": "genau",
           "meaning": "Tam olarak / doğrudan / kesin olarak",
-          "example": "Das ist genau richtig. = Kesinlikle."
+          "example": "Das ist genau richtig. = Tas ir tieši pareizi."
         },
         {
           "word": "exakt",
           "meaning": "Doğru/doğru",
-          "example": "Das ist exakt ein Meter. = Bu tam olarak bir metre."
+          "example": "Das ist exakt ein Meter. = Tas ir precīzi viens metrs."
         },
         {
           "word": "gerade",
           "meaning": "Prosto / teraz",
-          "example": "Jestem w domu. = Artık evdeyim."
+          "example": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās."
         },
         {
           "word": "eben",
           "meaning": "Şu anda / şu anda",
-          "example": "Er savaş ben hier. = Az önce buradaydı."
+          "example": "Er war eben hier. = Viņš tikko bija šeit."
         }
       ],
       "tip": {
@@ -26668,22 +26668,22 @@ const A2_WORDS = [
         {
           "word": "gerade",
           "meaning": "Straight / now / right now",
-          "example": "Ich komme gerade. = Zaraz idę."
+          "example": "Ich komme gerade. = Es tieši tagad nāku."
         },
         {
           "word": "geradeaus",
           "meaning": "Dümdüz",
-          "example": "Gehen Sie Geradeaus. = Düz git."
+          "example": "Gehen Sie geradeaus. = Ejiet taisni uz priekšu."
         },
         {
           "word": "genau",
           "meaning": "Tam olarak / doğrudan",
-          "example": "Genau burada. = Tam burada."
+          "example": "Genau hier. = Tieši šeit."
         },
         {
           "word": "eben",
           "meaning": "Kesinlikle",
-          "example": "Ich wojna eben dort. = Az önce oradaydım."
+          "example": "Ich war eben dort. = Es tikko tur biju."
         }
       ],
       "tip": [
@@ -26912,27 +26912,27 @@ const A2_WORDS = [
         {
           "word": "das Geschäft",
           "meaning": "Mağaza / Şirket / İşlem",
-          "example": "Ich gehe ins Geschäft. = Mağazaya gidiyorum."
+          "example": "Ich gehe ins Geschäft. = Es eju uz veikalu."
         },
         {
           "word": "der Laden",
           "meaning": "Mağaza",
-          "example": "Der Ladin Klein'dır. = Dükkan küçük."
+          "example": "Der Laden ist klein. = Veikals ir mazs."
         },
         {
           "word": "die Firma",
           "meaning": "Firma/firma",
-          "example": "Die Firma is groß. = Şirket büyük."
+          "example": "Die Firma ist groß. = Firma ir liela."
         },
         {
           "word": "das Unternehmen",
           "meaning": "Kurum",
-          "example": "Das Unternehmen wächst. = Şirket büyüyor."
+          "example": "Das Unternehmen wächst. = Uzņēmums aug."
         },
         {
           "word": "der Vertrag",
           "meaning": "Umowa",
-          "example": "Wir schließen einen Vertrag. = Bir sözleşmeye giriyoruz."
+          "example": "Wir schließen einen Vertrag. = Mēs slēdzam līgumu."
         }
       ],
       "tip": {
@@ -27280,22 +27280,22 @@ const A2_WORDS = [
         {
           "word": "gewinnen",
           "meaning": "Kazan / kazan / kazan",
-          "example": "Wir gewinnen das Spiel. = Oyunu kazandık."
+          "example": "Wir gewinnen das Spiel. = Mēs uzvaram spēlē."
         },
         {
           "word": "siegen",
           "meaning": "Kazanç",
-          "example": "Die Mannschaft'ın kapağı. = Takım kazanır."
+          "example": "Die Mannschaft siegt. = Komanda uzvar."
         },
         {
           "word": "bekommen",
           "meaning": "Almak/almak",
-          "example": "Mesajı aldım. = Bir mesaj alıyorum."
+          "example": "Ich bekomme eine Nachricht. = Es saņemu ziņu."
         },
         {
           "word": "verdienen",
           "meaning": "Kazanmak için",
-          "example": "Verden Geld. = Para kazanıyor."
+          "example": "Er verdient Geld. = Viņš pelna naudu."
         }
       ],
       "tip": [
@@ -27558,22 +27558,22 @@ const A2_WORDS = [
         {
           "word": "gießen",
           "meaning": "Do wody / lit",
-          "example": "Ich gieße die Blumen. = Podlewam kwiaty."
+          "example": "Ich gieße die Blumen. = Es laistu puķes."
         },
         {
           "word": "einschenken",
           "meaning": "İçeceği dök",
-          "example": "Ich schenke Tee ein. = Çayı koyuyorum."
+          "example": "Ich schenke Tee ein. = Es ieleju tēju."
         },
         {
           "word": "regnen",
           "meaning": "Yağmur yağıyor",
-          "example": "Pada deszcz. = Pada deszcz."
+          "example": "Es regnet. = Līst."
         },
         {
           "word": "schütten",
           "meaning": "Hızlı bir şekilde dökün / dökün",
-          "example": "Er schüttet Wasser aus. = Su doldurur."
+          "example": "Er schüttet Wasser aus. = Viņš izlej ūdeni."
         }
       ],
       "tip": [
@@ -27892,27 +27892,27 @@ const A2_WORDS = [
         {
           "word": "der Grund",
           "meaning": "Sebep / temel / çukur / çukur",
-          "example": "Aus diesem Grund komme ich nicht. = Bu sebepten dolayı gelmeyeceğim."
+          "example": "Aus diesem Grund komme ich nicht. = Šī iemesla dēļ es nenākšu."
         },
         {
           "word": "die Ursache",
           "meaning": "Przyczyna",
-          "example": "Die Ursache nie jest znane. = Przyczyna nieznana."
+          "example": "Die Ursache ist unbekannt. = Cēlonis nav zināms."
         },
         {
           "word": "der Anlass",
           "meaning": "Przyczyna/podstawa zdarzenia",
-          "example": "Der Anlass war ein Fest. = Sebebi bayramlardı."
+          "example": "Der Anlass war ein Fest. = Iemesls bija svētki."
         },
         {
           "word": "der Boden",
           "meaning": "Zemin kat/birinci kat",
-          "example": "Der Boden jest nass. = Yerler ıslak."
+          "example": "Der Boden ist nass. = Grīda ir slapja."
         },
         {
           "word": "der Seegrund",
           "meaning": "Göl tabanı",
-          "example": "Der Seegrund jest miejscem. = Gölün dibi karanlık."
+          "example": "Der Seegrund ist dunkel. = Ezera dibens ir tumšs."
         }
       ],
       "tip": {
@@ -28378,22 +28378,22 @@ const A2_WORDS = [
         {
           "word": "hängen",
           "meaning": "Asın/sipariş verin",
-          "example": "Das Bild hängt an der Wand. = Tablo duvarda asılıdır."
+          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
         },
         {
           "word": "stellen",
           "meaning": "Dikey olarak yerleştir",
-          "example": "Ich stelle die Flasche auf den Tisch. = Şişeyi masanın üzerine koydum."
+          "example": "Ich stelle die Flasche auf den Tisch. = Es nolieku pudeli uz galda."
         },
         {
           "word": "legen",
           "meaning": "Yatmak",
-          "example": "Ich lege das Buch auf den Tisch. = Kitabı masaya koydum."
+          "example": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
         },
         {
           "word": "an die Wand hängen",
           "meaning": "Duvara as",
-          "example": "Wir hangen das Bild and die Wand. = Resmi duvara asıyoruz."
+          "example": "Wir hängen das Bild an die Wand. = Mēs piekaram attēlu pie sienas."
         }
       ],
       "tip": [
@@ -29369,22 +29369,22 @@ const A2_WORDS = [
         {
           "word": "indem",
           "meaning": "Bu konuda bir şeyler yap",
-          "example": "Ich lerne, indem ich übe. = Pratik yaparak öğreniyorum."
+          "example": "Ich lerne, indem ich übe. = Es mācos, trenējoties."
         },
         {
           "word": "während",
           "meaning": "Ne zaman / sırasında",
-          "example": "Yemek yaparken müzik dinlerim. = Yemek pişirirken müzik dinlerim."
+          "example": "Während ich koche, höre ich Musik. = Kamēr es gatavoju, klausos mūziku."
         },
         {
           "word": "damit",
           "meaning": "Aşağı",
-          "example": "Ich lerne, damit ich die Prüfung bestehe. = Sınavı geçmek için çalışıyorum."
+          "example": "Ich lerne, damit ich die Prüfung bestehe. = Es mācos, lai nokārtotu eksāmenu."
         },
         {
           "word": "weil",
           "meaning": "Çünkü",
-          "example": "Ich lerne, weil ich Deutsch brauche. = Almancaya ihtiyacım olduğu için öğreniyorum."
+          "example": "Ich lerne, weil ich Deutsch brauche. = Es mācos, jo man vajag vācu valodu."
         }
       ],
       "tip": [
@@ -30403,22 +30403,22 @@ const A2_WORDS = [
         {
           "word": "kaum",
           "meaning": "Prawie wcale/ledwo",
-          "example": "Ich habe kaum Zeit. = Çok az zamanım var."
+          "example": "Ich habe kaum Zeit. = Man gandrīz nav laika."
         },
         {
           "word": "fast",
           "meaning": "Neredeyse",
-          "example": "Ich bin fast fertig. = Neredeyse hazırım."
+          "example": "Ich bin fast fertig. = Es gandrīz esmu gatavs."
         },
         {
           "word": "gerade",
           "meaning": "Şu anda/şu anda",
-          "example": "Yeni geldim. = Yeni geldim."
+          "example": "Ich bin gerade angekommen. = Es tikko ierados."
         },
         {
           "word": "sobald",
           "meaning": "En kısa sürede",
-          "example": "Somant ich Zeit habe, rufe ich dich an. = Zamanım olur olmaz seni arayacağım."
+          "example": "Sobald ich Zeit habe, rufe ich dich an. = Tiklīdz man būs laiks, es tev piezvanīšu."
         }
       ],
       "tip": [
@@ -31636,27 +31636,27 @@ const A2_WORDS = [
         {
           "word": "kleiden",
           "meaning": "Elbise",
-          "example": "Sie kleidet das Kind. = Bebeği giydiriyor."
+          "example": "Sie kleidet das Kind. = Viņa apģērbj bērnu."
         },
         {
           "word": "sich kleiden",
           "meaning": "Giyin",
-          "example": "Er kleidet sich elegancki. = Zarif giyiniyor."
+          "example": "Er kleidet sich elegant. = Viņš ģērbjas eleganti."
         },
         {
           "word": "kleidet jemanden",
           "meaning": "Birine yakışıyor",
-          "example": "Die Farbe kleidet dich. = Renk sana yakışıyor."
+          "example": "Die Farbe kleidet dich. = Krāsa tev piestāv."
         },
         {
           "word": "anziehen",
           "meaning": "Giyin/giyin",
-          "example": "Ich ziehe die Jacke an. = Ceketimi giydim."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
           "word": "tragen",
           "meaning": "Giymek",
-          "example": "Bir elbise giyiyor. = Bir elbise giyiyor."
+          "example": "Sie trägt ein Kleid. = Viņa valkā kleitu."
         }
       ],
       "tip": {
@@ -32642,27 +32642,27 @@ const A2_WORDS = [
         {
           "word": "kurz",
           "meaning": "Kısa süreliğine/kısa bir süre için",
-          "example": "Der Text tozdur. = Metin kısa."
+          "example": "Der Text ist kurz. = Teksts ir īss."
         },
         {
           "word": "kurz vor",
           "meaning": "Kısa bir süre önce",
-          "example": "Kurz vor acht = Sekizden önce"
+          "example": "kurz vor acht = īsi pirms astoņiem"
         },
         {
           "word": "kurz nach",
           "meaning": "Wkrótce potem",
-          "example": "Kurz nach dem Essen = Yemekten hemen sonra"
+          "example": "kurz nach dem Essen = īsi pēc ēšanas"
         },
         {
           "word": "bald",
           "meaning": "Çok yakında",
-          "example": "Onların komme kel. = Hemen geliyorum."
+          "example": "Ich komme bald. = Es drīz nākšu."
         },
         {
           "word": "lang",
           "meaning": "Uzun/Uzun",
-          "example": "Der Weg bir dildir. = Yol uzun."
+          "example": "Der Weg ist lang. = Ceļš ir garš."
         }
       ],
       "tip": [
@@ -32861,22 +32861,22 @@ const A2_WORDS = [
         {
           "word": "die Lage",
           "meaning": "Durum/koşul",
-          "example": "Die Lage ist schwierig. = Sytuacja jest skomplikowana."
+          "example": "Die Lage ist schwierig. = Situācija ir sarežģīta."
         },
         {
           "word": "die Situation",
           "meaning": "Durum",
-          "example": "Die Situation ist ernst. = Durum ciddi."
+          "example": "Die Situation ist ernst. = Situācija ir nopietna."
         },
         {
           "word": "der Standort",
           "meaning": "Lokalizacja",
-          "example": "Der Standort jest dobry. = Lokalizacja jest dobra."
+          "example": "Der Standort ist gut. = Atrašanās vieta ir laba."
         },
         {
           "word": "die Schicht",
           "meaning": "Warstwa / warstwa",
-          "example": "Eine Schicht Farbe = Bir kat boya"
+          "example": "eine Schicht Farbe = viena krāsas kārta"
         }
       ],
       "tip": [
@@ -33200,27 +33200,27 @@ const A2_WORDS = [
         {
           "word": "leiden",
           "meaning": "Acı çekmek",
-          "example": "Er leidet an Kopfschmerzen. = Başı ağrıyor."
+          "example": "Er leidet an Kopfschmerzen. = Viņš cieš no galvassāpēm."
         },
         {
           "word": "an etwas leiden",
           "meaning": "Acı çekmek / acı çekmek",
-          "example": "Możesz leczyć astmę. = Ona ma astmę."
+          "example": "Sie leidet an Asthma. = Viņa slimo ar astmu."
         },
         {
           "word": "unter etwas leiden",
           "meaning": "Koşullardan muzdarip",
-          "example": "Wir leiden under der Hitze. = Sıcaktan sıkıntı çekiyoruz."
+          "example": "Wir leiden unter der Hitze. = Mēs ciešam no karstuma."
         },
         {
           "word": "nicht leiden können",
           "meaning": "Tahammül edemiyorum",
-          "example": "Ich kann das nicht leiden. = Dayanamıyorum."
+          "example": "Ich kann das nicht leiden. = Es to nevaru paciest."
         },
         {
           "word": "krank sein",
           "meaning": "Hasta olmak",
-          "example": "To jest kran. = O hasta."
+          "example": "Er ist krank. = Viņš ir slims."
         }
       ],
       "tip": [
@@ -33453,22 +33453,22 @@ const A2_WORDS = [
         {
           "word": "leihen",
           "meaning": "Borç alma/ödünç verme",
-          "example": "Leicht du mir den Stift? = Bana bir kalem ödünç verebilir misin?"
+          "example": "Leihst du mir den Stift? = Vai aizdosi man pildspalvu?"
         },
         {
           "word": "borgen",
           "meaning": "Borç alma/ödünç verme",
-          "example": "Ich borge mir Geld. = Borç alıyorum."
+          "example": "Ich borge mir Geld. = Es aizņemos naudu."
         },
         {
           "word": "mieten",
           "meaning": "Ücretli kiralama/leasing",
-          "example": "Bir Arabayı Kullanın. = Araba kiralıyoruz."
+          "example": "Wir mieten ein Auto. = Mēs īrējam mašīnu."
         },
         {
           "word": "kaufen",
           "meaning": "Satın almak",
-          "example": "Ich kaufe das Buch. = Bir kitap satın alıyorum."
+          "example": "Ich kaufe das Buch. = Es pērku grāmatu."
         }
       ],
       "tip": {
@@ -33745,12 +33745,12 @@ const A2_WORDS = [
         {
           "word": "der Leiter",
           "meaning": "Müdür",
-          "example": "Der Leiter der Firma. = Şirketin başkanı. Çoğul: Die Leiter."
+          "example": "Der Leiter der Firma. = Uzņēmuma vadītājs. Plural: die Leiter."
         },
         {
           "word": "die Leiter",
           "meaning": "Wchodzenie po schodach",
-          "example": "Ich steige auf die Leiter. = Merdivenlerden yukarı çıkıyorum. Çoğul: die Leitern."
+          "example": "Ich steige auf die Leiter. = Es kāpju uz kāpnēm. Plural: die Leitern."
         },
         {
           "word": "der Abteilungsleiter",
@@ -33872,27 +33872,27 @@ const A2_WORDS = [
         {
           "word": "die Leitung",
           "meaning": "Kurşun/hat/tel/boru",
-          "example": "Die Leitung ist kaputt. = Linia jest przerwana."
+          "example": "Die Leitung ist kaputt. = Līnija ir bojāta."
         },
         {
           "word": "die Führung",
           "meaning": "Yönetim n u l l",
-          "example": "Unter ihrer Führung läuft alles gut. = Onun liderliğinde her şey yolunda gidiyor."
+          "example": "Unter ihrer Führung läuft alles gut. = Viņas vadībā viss norit labi."
         },
         {
           "word": "das Kabel",
           "meaning": "Kablo/kablo",
-          "example": "Das Kabel tozlu. = Kablo çok kısa."
+          "example": "Das Kabel ist zu kurz. = Kabelis ir par īsu."
         },
         {
           "word": "die Telefonleitung",
           "meaning": "Linia telefoniczna",
-          "example": "Die Telefonleitung ist frei. = Telefon hattı ücretsizdir."
+          "example": "Die Telefonleitung ist frei. = Telefona līnija ir brīva."
         },
         {
           "word": "die Wasserleitung",
           "meaning": "Rura wodna",
-          "example": "Die Wasserleitung tropft. = Bir su borusundan damlayın."
+          "example": "Die Wasserleitung tropft. = Ūdens caurule pil."
         }
       ],
       "tip": {
@@ -34265,7 +34265,7 @@ const A2_WORDS = [
         {
           "word": "liegen",
           "meaning": "Uzan (pozisyon)",
-          "example": "Das Buch buradaydı. – Kitap burada."
+          "example": "Das Buch liegt hier. – Kitap burada."
         },
         {
           "word": "stellen",
@@ -34372,7 +34372,7 @@ const A2_WORDS = [
         {
           "word": "liegen",
           "meaning": "Uzan (pozisyon)",
-          "example": "Das Buch buradaydı. – Kitap burada."
+          "example": "Das Buch liegt hier. – Kitap burada."
         },
         {
           "word": "stellen",
@@ -34974,27 +34974,27 @@ const A2_WORDS = [
         {
           "word": "merken",
           "meaning": "fark etmek",
-          "example": "Ich merke den Fehler. = Bir hata fark ettim."
+          "example": "Ich merke den Fehler. = Es pamanu kļūdu."
         },
         {
           "word": "sich merken",
           "meaning": "Hatırlamak",
-          "example": "Merk dir das! = Bunu hatırla!"
+          "example": "Merk dir das! = Iegaumē to!"
         },
         {
           "word": "bemerken",
           "meaning": "Gözlemle",
-          "example": "Ich bemerke den Fehler. = Bir hata fark ettim."
+          "example": "Ich bemerke den Fehler. = Es pamanu kļūdu."
         },
         {
           "word": "erinnern",
           "meaning": "Hatırla/hatırlat",
-          "example": "Ich erinnere mich. = Hatırlıyorum."
+          "example": "Ich erinnere mich. = Es atceros."
         },
         {
           "word": "behalten",
           "meaning": "Sakla/hatırla",
-          "example": "Numaraya ihtiyacım var. = Bu numarayı hatırlayacağım."
+          "example": "Ich behalte die Nummer. = Es paturu numuru prātā."
         }
       ],
       "tip": [
@@ -35296,27 +35296,27 @@ const A2_WORDS = [
         {
           "word": "das Mittel",
           "meaning": "Çare",
-          "example": "Ein Mittel gegen Husten = Öksürük ilacı"
+          "example": "ein Mittel gegen Husten = līdzeklis pret klepu"
         },
         {
           "word": "das Medikament",
           "meaning": "Medycyna / medycyna",
-          "example": "Das Medikament asansörü. = İlaçlar yardımcı olur."
+          "example": "Das Medikament hilft. = Medikaments palīdz."
         },
         {
           "word": "die Methode",
           "meaning": "Metoda",
-          "example": "Diese Methode ist einfach. = Ta metoda jest prosta."
+          "example": "Diese Methode ist einfach. = Šī metode ir vienkārša."
         },
         {
           "word": "das Geld",
           "meaning": "Para",
-          "example": "Wir haben kein Geld. = Hiç paramız yok."
+          "example": "Wir haben kein Geld. = Mums nav naudas."
         },
         {
           "word": "die Mittel",
           "meaning": "Środki/zasoby",
-          "example": "Finanseige Mittel = Środki finansowe"
+          "example": "finanzielle Mittel = finanšu līdzekļi"
         }
       ],
       "tip": [
@@ -36183,27 +36183,27 @@ const A2_WORDS = [
         {
           "word": "die Note",
           "meaning": "İşaret / not / ses",
-          "example": "Ich bekomme eine Uwaga. = Dostałem ocenę."
+          "example": "Ich bekomme eine Note. = Es saņemu atzīmi."
         },
         {
           "word": "die Schulnote",
           "meaning": "Klasa szkolna",
-          "example": "Die Schulnote to intuicja. = Okuldaki notu iyidir."
+          "example": "Die Schulnote ist gut. = Skolas atzīme ir laba."
         },
         {
           "word": "die Musiknote",
           "meaning": "Müzik notası",
-          "example": "Die Musiknote ist hoch. = Nuta muzyczna jest wysoka."
+          "example": "Die Musiknote ist hoch. = Mūzikas nots ir augsta."
         },
         {
           "word": "die Banknote",
           "meaning": "Banknot",
-          "example": "Die Banknote ist neu. = Banknot jest nowy."
+          "example": "Die Banknote ist neu. = Banknote ir jauna."
         },
         {
           "word": "der Ton",
           "meaning": "Ton/ses",
-          "example": "Der Ton çok güzel. = Ses sessiz."
+          "example": "Der Ton ist leise. = Tonis ir kluss."
         }
       ],
       "tip": {
@@ -36627,22 +36627,22 @@ const A2_WORDS = [
         {
           "word": "nutzen",
           "meaning": "Kullanım",
-          "example": "Onların nutze die Zeit'i. = Zamandan yararlanıyorum."
+          "example": "Ich nutze die Zeit. = Es izmantoju laiku."
         },
         {
           "word": "benutzen",
           "meaning": "Kullanmak",
-          "example": "Bilgisayarım var. = Bilgisayar kullanıyorum."
+          "example": "Ich benutze den Computer. = Es lietoju datoru."
         },
         {
           "word": "verwenden",
           "meaning": "Kullan / uygula",
-          "example": "Wir verwenden Wort'u öldürür. = Bu kelimeyi kullanıyoruz."
+          "example": "Wir verwenden dieses Wort. = Mēs izmantojam šo vārdu."
         },
         {
           "word": "die Chance nutzen",
           "meaning": "Fırsattan yararlanın",
-          "example": "Şansını dene! = Şansını dene!"
+          "example": "Nutze die Chance! = Izmanto iespēju!"
         }
       ],
       "tip": [
@@ -36879,22 +36879,22 @@ const A2_WORDS = [
         {
           "word": "offen",
           "meaning": "Aç / aç",
-          "example": "Kapı açık. = Kapı açık."
+          "example": "Die Tür ist offen. = Durvis ir vaļā."
         },
         {
           "word": "geöffnet",
           "meaning": "Oficjalnie otwarty",
-          "example": "Muzeum jest otwarte. = Muzeum jest otwarte."
+          "example": "Das Museum ist geöffnet. = Muzejs ir atvērts."
         },
         {
           "word": "ehrlich",
           "meaning": "Dürüst",
-          "example": "Er jest ehrlich. = O dürüsttür."
+          "example": "Er ist ehrlich. = Viņš ir godīgs."
         },
         {
           "word": "frei",
           "meaning": "Özgür",
-          "example": "Der Platz jest wolny. = Miejsce jest wolne."
+          "example": "Der Platz ist frei. = Vieta ir brīva."
         }
       ],
       "tip": [
@@ -37390,17 +37390,17 @@ const A2_WORDS = [
         {
           "word": "der Patient",
           "meaning": "Hasta (erkek)",
-          "example": "Der Patient jest szalony. = Pacjent jest chory."
+          "example": "Der Patient ist krank. = Pacients ir slims."
         },
         {
           "word": "die Patientin",
           "meaning": "Pacjent",
-          "example": "Die Patientin ruht sich aus. = Hasta dinleniyor."
+          "example": "Die Patientin ruht sich aus. = Paciente atpūšas."
         },
         {
           "word": "der Kranke",
           "meaning": "Hasta adam",
-          "example": "Der Kranke, Bett'te yer almaktadır. = Hasta yatağında yatıyor."
+          "example": "Der Kranke liegt im Bett. = Slimnieks guļ gultā."
         }
       ],
       "tip": {
@@ -37497,17 +37497,17 @@ const A2_WORDS = [
         {
           "word": "das Personal",
           "meaning": "Personel (toplam)",
-          "example": "Kişisel kaldırma. = Personel yardımcı oluyor."
+          "example": "Das Personal hilft. = Personāls palīdz."
         },
         {
           "word": "der Mitarbeiter",
           "meaning": "Çalışan",
-          "example": "Der Mitarbeiter arbeitt hier. = Bu çalışan burada çalışıyor."
+          "example": "Der Mitarbeiter arbeitet hier. = Darbinieks šeit strādā."
         },
         {
           "word": "persönlich",
           "meaning": "Kişisel",
-          "example": "To jest osobiste. = Bu kişisel."
+          "example": "Das ist persönlich. = Tas ir personīgi."
         }
       ],
       "tip": {
@@ -39185,27 +39185,27 @@ const A2_WORDS = [
         {
           "word": "riechen",
           "meaning": "Koku",
-          "example": "Blumen riechen bağırsağı ölür. = Çiçekler güzel kokuyor."
+          "example": "Die Blumen riechen gut. = Ziedi labi smaržo."
         },
         {
           "word": "an etwas riechen",
           "meaning": "Bir şey hisset",
-          "example": "Der Hund riecht an der Tasche. = Fin köpek limanı."
+          "example": "Der Hund riecht an der Tasche. = Suns osta somu."
         },
         {
           "word": "nach etwas riechen",
           "meaning": "Bir şey gibi kokuyor",
-          "example": "Czuję kawę. = Pachnie jak kawa."
+          "example": "Es riecht nach Kaffee. = Smaržo pēc kafijas."
         },
         {
           "word": "duften",
           "meaning": "Hoş koku",
-          "example": "Die Blumen duften. = Çiçek kokusu."
+          "example": "Die Blumen duften. = Ziedi smaržo."
         },
         {
           "word": "stinken",
           "meaning": "Koku",
-          "example": "Der Müll kokuyor. = Çöp kokuyor."
+          "example": "Der Müll stinkt. = Atkritumi smird."
         }
       ],
       "tip": [
@@ -39462,27 +39462,27 @@ const A2_WORDS = [
         {
           "word": "die Rolle",
           "meaning": "Rola / rolka",
-          "example": "Sie spielt eine Rolle. = Bir rol oynuyor."
+          "example": "Sie spielt eine Rolle. = Viņa spēlē lomu."
         },
         {
           "word": "die Hauptrolle",
           "meaning": "Ana rol",
-          "example": "Hauptrolle öldü. = Baş rolü oynuyor."
+          "example": "Er hat die Hauptrolle. = Viņam ir galvenā loma."
         },
         {
           "word": "die Papierrolle",
           "meaning": "Rolka papieru",
-          "example": "Ich kaufe eine Papierrolle. = Bir rulo kağıt alıyorum."
+          "example": "Ich kaufe eine Papierrolle. = Es pērku papīra rulli."
         },
         {
           "word": "die Bedeutung",
           "meaning": "Anlam",
-          "example": "Das hat keine Bedeutung. = To nie ma znaczenia."
+          "example": "Das hat keine Bedeutung. = Tam nav nozīmes."
         },
         {
           "word": "der Teil",
           "meaning": "MERHABA",
-          "example": "Das ist ein Teil der Arbeit. = Bu da işin bir parçası."
+          "example": "Das ist ein Teil der Arbeit. = Tā ir daļa no darba."
         }
       ],
       "tip": {
@@ -39893,22 +39893,22 @@ const A2_WORDS = [
         {
           "word": "sammeln",
           "meaning": "Topla/topla",
-          "example": "Briefmarken sammeln = Pulları topla"
+          "example": "Briefmarken sammeln = krāt pastmarkas"
         },
         {
           "word": "sich sammeln",
           "meaning": "Zebrać/posprzątać",
-          "example": "Die Schüler sammeln sich. = Öğrenciler toplanır."
+          "example": "Die Schüler sammeln sich. = Skolēni sapulcējas."
         },
         {
           "word": "holen",
           "meaning": "Git/ getir",
-          "example": "Ich dziura Wasser. = Su getirdim."
+          "example": "Ich hole Wasser. = Es atnesu ūdeni."
         },
         {
           "word": "aufheben",
           "meaning": "Al/kaydet",
-          "example": "Ich hebe den Zettel auf. = Notu alıyorum."
+          "example": "Ich hebe den Zettel auf. = Es paceļu zīmīti."
         }
       ],
       "tip": [
@@ -40134,27 +40134,27 @@ const A2_WORDS = [
         {
           "word": "der Satz",
           "meaning": "Cümle / set / bahis / atlama",
-          "example": "Der Satz tozdur. = Cümle kısadır."
+          "example": "Der Satz ist kurz. = Teikums ir īss."
         },
         {
           "word": "der deutsche Satz",
           "meaning": "Niemieckie zdanie",
-          "example": "Der deutsche Satz ist richtig. = Niemieckie zdanie jest poprawne."
+          "example": "Der deutsche Satz ist richtig. = Vācu teikums ir pareizs."
         },
         {
           "word": "der Satz Reifen",
           "meaning": "Komplet opon",
-          "example": "Ein Satz Reifen jest tuer. = Bir lastik seti pahalıdır."
+          "example": "Ein Satz Reifen ist teuer. = Riepu komplekts ir dārgs."
         },
         {
           "word": "der Zinssatz",
           "meaning": "Stopa procentowa",
-          "example": "Der Zinssatz'ın acelesi var. = Faiz oranı artıyor."
+          "example": "Der Zinssatz steigt. = Procentu likme pieaug."
         },
         {
           "word": "der Kaffeesatz",
           "meaning": "Kahve telvesi",
-          "example": "Der Kaffeesatz bleibt im Glas. = Kahve telvesi bardakta kaldı."
+          "example": "Der Kaffeesatz bleibt im Glas. = Kafijas biezumi paliek glāzē."
         }
       ],
       "tip": {
@@ -40893,22 +40893,22 @@ const A2_WORDS = [
         {
           "word": "scheinen",
           "meaning": "Parlamak/görünmek",
-          "example": "Öl sonne scheint. = Güneş parlıyor."
+          "example": "Die Sonne scheint. = Saule spīd."
         },
         {
           "word": "aussehen",
           "meaning": "Bakmak",
-          "example": "Du sehst müde aus. = Yorgun görünüyorsun."
+          "example": "Du siehst müde aus. = Tu izskaties noguris."
         },
         {
           "word": "wirken",
           "meaning": "Bir izlenim bırakın",
-          "example": "Er wirkt ruhig. = Sakin görünüyor."
+          "example": "Er wirkt ruhig. = Viņš šķiet mierīgs."
         },
         {
           "word": "leuchten",
           "meaning": "Błyszczeć / błyszczeć",
-          "example": "Die Lampe leuchtet. = Lamba yanıyor."
+          "example": "Die Lampe leuchtet. = Lampa spīd."
         }
       ],
       "tip": {
@@ -41234,22 +41234,22 @@ const A2_WORDS = [
         {
           "word": "die Schlange",
           "meaning": "Hortum / hat",
-          "example": "Die Schlange is lang. = Kuyruk uzun."
+          "example": "Die Schlange ist lang. = Rinda ir gara."
         },
         {
           "word": "die Warteschlange",
           "meaning": "Bekleme sırası",
-          "example": "Die Warteschlange ist lang. = Bekleme kuyruğu uzun."
+          "example": "Die Warteschlange ist lang. = Gaidīšanas rinda ir gara."
         },
         {
           "word": "die Reihe",
           "meaning": "Rząd/sekwencja",
-          "example": "Sandalyeler einer Reihe'de. = Sandalyeler sıra halinde düzenlenmiştir."
+          "example": "Die Stühle stehen in einer Reihe. = Krēsli stāv rindā."
         },
         {
           "word": "das Reptil",
           "meaning": "Sürüngen",
-          "example": "Eine Schlange bir Sürüngendir. = Yılan bir sürüngendir."
+          "example": "Eine Schlange ist ein Reptil. = Čūska ir rāpulis."
         }
       ],
       "tip": {
@@ -41526,22 +41526,22 @@ const A2_WORDS = [
         {
           "word": "schließen",
           "meaning": "Kapat/kapat/bitir",
-          "example": "Ich schließe die Tür. = Zamykam drzwi."
+          "example": "Ich schließe die Tür. = Es aizveru durvis."
         },
         {
           "word": "abschließen",
           "meaning": "Zamek/kompletny",
-          "example": "Ich schließe die Tür ab. = Zamknąłem drzwi."
+          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
         },
         {
           "word": "zumachen",
           "meaning": "Blisko (potoczny)",
-          "example": "Mach das Fenster zu. = Zamknij okno."
+          "example": "Mach das Fenster zu. = Aiztaisi logu."
         },
         {
           "word": "folgern",
           "meaning": "Özetle",
-          "example": "Daraus folgere ich etwas. = Bundan bir sonuç çıkarıyorum."
+          "example": "Daraus folgere ich etwas. = No tā es kaut ko secinu."
         }
       ],
       "tip": {
@@ -41840,27 +41840,27 @@ const A2_WORDS = [
         {
           "word": "das Schloss",
           "meaning": "Kale/kale",
-          "example": "Das Schloss ist alt. = Zamek jest stary."
+          "example": "Das Schloss ist alt. = Pils ir veca."
         },
         {
           "word": "die Burg",
           "meaning": "Kale/kale",
-          "example": "Die Burg steht auf dem Berg. = Kale bir tepenin üzerinde duruyor."
+          "example": "Die Burg steht auf dem Berg. = Pils stāv kalnā."
         },
         {
           "word": "das Türschloss",
           "meaning": "Zamek drzwi",
-          "example": "Das Türschloss ist kaputt. = Zamek drzwi jest uszkodzony."
+          "example": "Das Türschloss ist kaputt. = Durvju slēdzene ir salūzusi."
         },
         {
           "word": "das Fahrradschloss",
           "meaning": "Bisiklet kilidi",
-          "example": "Ich kaufe ein Fahrradschloss. = Bisiklet kilidi alıyorum."
+          "example": "Ich kaufe ein Fahrradschloss. = Es pērku velosipēda slēdzeni."
         },
         {
           "word": "der Schlüssel",
           "meaning": "Anahtar",
-          "example": "Der Schlüssel ist weg. = Anahtar kaybolmuştur."
+          "example": "Der Schlüssel ist weg. = Atslēga ir pazudusi."
         }
       ],
       "tip": {
@@ -42282,27 +42282,27 @@ const A2_WORDS = [
         {
           "word": "die Schuld",
           "meaning": "Suçluluk/Sorumluluk",
-          "example": "Das ist meine Schuld. = To moja wina."
+          "example": "Das ist meine Schuld. = Tā ir mana vaina."
         },
         {
           "word": "die Schulden",
           "meaning": "Borç",
-          "example": "Er hat Schulden. = Borçlu."
+          "example": "Er hat Schulden. = Viņam ir parādi."
         },
         {
           "word": "die Verantwortung",
           "meaning": "Sorumluluk",
-          "example": "Onların trajedisi Verantwortung. = Sorumluyum."
+          "example": "Ich trage Verantwortung. = Es nesu atbildību."
         },
         {
           "word": "der Fehler",
           "meaning": "Hata",
-          "example": "Das war ein Fehler. = Bu bir hataydı."
+          "example": "Das war ein Fehler. = Tā bija kļūda."
         },
         {
           "word": "schuld sein",
           "meaning": "Sahip olmak",
-          "example": "Ich bin schuld. = Jestem winien."
+          "example": "Ich bin schuld. = Es esmu vainīgs."
         }
       ],
       "tip": {
@@ -42904,27 +42904,27 @@ const A2_WORDS = [
         {
           "word": "sich befinden",
           "meaning": "Bulunmak",
-          "example": "Das Büro befindet sich im zweiten Stock. = Ofis ikinci kattadır."
+          "example": "Das Büro befindet sich im zweiten Stock. = Birojs atrodas otrajā stāvā."
         },
         {
           "word": "sein",
           "meaning": "Olmak / olmak",
-          "example": "Das Büro jest oben. = Ofis üst katta."
+          "example": "Das Büro ist oben. = Birojs ir augšā."
         },
         {
           "word": "liegen",
           "meaning": "Olmak / uyumak",
-          "example": "Das Buch Liegt auf dem Tisch. = Kitap masanın üstünde."
+          "example": "Das Buch liegt auf dem Tisch. = Grāmata atrodas uz galda."
         },
         {
           "word": "stehen",
           "meaning": "Ayakta durmak/olmak",
-          "example": "Das Auto, Haus'a ev sahipliği yapıyor. = Araba evin önüne park edilmiş."
+          "example": "Das Auto steht vor dem Haus. = Auto stāv pie mājas."
         },
         {
           "word": "sich fühlen",
           "meaning": "Czuć",
-          "example": "Ich fühle mich gut. = İyi hissediyorum."
+          "example": "Ich fühle mich gut. = Es jūtos labi."
         }
       ],
       "tip": {
@@ -43221,22 +43221,22 @@ const A2_WORDS = [
         {
           "word": "sich unterhalten",
           "meaning": "Konuşmak/oynamak",
-          "example": "Wir unterhalten uns. = Konuşuruz."
+          "example": "Wir unterhalten uns. = Mēs sarunājamies."
         },
         {
           "word": "sprechen",
           "meaning": "Konuş",
-          "example": "Almanca konuşuyorum. = Almanca konuşuyorum."
+          "example": "Ich spreche Deutsch. = Es runāju vāciski."
         },
         {
           "word": "reden",
           "meaning": "Konuş/konuş",
-          "example": "Wir reden viel. = Çok konuşuyoruz."
+          "example": "Wir reden viel. = Mēs daudz runājam."
         },
         {
           "word": "sich amüsieren",
           "meaning": "Baw się dobrze",
-          "example": "Wir amüsieren uns. = Biz eğleniyoruz."
+          "example": "Wir amüsieren uns. = Mēs izklaidējamies."
         }
       ],
       "tip": {
@@ -43586,7 +43586,7 @@ const A2_WORDS = [
         {
           "word": "liegen",
           "meaning": "Uzan (pozisyon)",
-          "example": "Das Buch buradaydı. – Kitap burada."
+          "example": "Das Buch liegt hier. – Kitap burada."
         },
         {
           "word": "legen",
@@ -43714,7 +43714,7 @@ const A2_WORDS = [
         {
           "word": "liegen",
           "meaning": "Uzan (pozisyon)",
-          "example": "Das Buch buradaydı. – Kitap burada."
+          "example": "Das Buch liegt hier. – Kitap burada."
         },
         {
           "word": "stellen",
@@ -43820,27 +43820,27 @@ const A2_WORDS = [
         {
           "word": "sobald",
           "meaning": "En kısa sürede",
-          "example": "Somantel er kommt, gehen wir. = O gelir gelmez biz de gideceğiz."
+          "example": "Sobald er kommt, gehen wir. = Tiklīdz viņš atnāks, mēs iesim."
         },
         {
           "word": "wenn",
           "meaning": "Ne zaman/eğer",
-          "example": "Wenn ich Zeit habe, komme ich. = Zamanım olursa geleceğim."
+          "example": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu."
         },
         {
           "word": "als",
           "meaning": "Ne zaman (geçmişte bir kez)",
-          "example": "Als ich Kind war, spielte ich viel. = Çocukken çok oynardım."
+          "example": "Als ich Kind war, spielte ich viel. = Kad biju bērns, daudz spēlējos."
         },
         {
           "word": "bis",
           "meaning": "Değin",
-          "example": "Ich warte, bis du kommst. = Gelmeni bekliyorum."
+          "example": "Ich warte, bis du kommst. = Es gaidu, līdz tu atnāksi."
         },
         {
           "word": "nachdem",
           "meaning": "Ne zaman sonra",
-          "example": "Po ich gegessen habe, gehe ich. = Yemek yediğimde giderim."
+          "example": "Nachdem ich gegessen habe, gehe ich. = Pēc tam kad paēdu, es eju."
         }
       ],
       "tip": {
@@ -44181,27 +44181,27 @@ const A2_WORDS = [
         {
           "word": "sonst",
           "meaning": "Aksi takdirde / aksi halde / genellikle",
-          "example": "Komm jetzt, sonst ist es zu spät. = Hemen gelin, yoksa çok geç olacak."
+          "example": "Komm jetzt, sonst ist es zu spät. = Nāc tagad, citādi būs par vēlu."
         },
         {
           "word": "ansonsten",
           "meaning": "Aksi halde / farklı şekilde",
-          "example": "Ansonsten to instynkt. = Aksi takdirde her şey yolunda."
+          "example": "Ansonsten ist alles gut. = Citādi viss ir labi."
         },
         {
           "word": "andernfalls",
           "meaning": "Aksi takdirde",
-          "example": "Andernfalls rufe ich an. = Aksi halde arayacağım."
+          "example": "Andernfalls rufe ich an. = Pretējā gadījumā es zvanīšu."
         },
         {
           "word": "normalerweise",
           "meaning": "Genellikle",
-          "example": "Zwykle bin ich zu Hause. = Genelde evdeyim."
+          "example": "Normalerweise bin ich zu Hause. = Parasti es esmu mājās."
         },
         {
           "word": "außerdem",
           "meaning": "Ek olarak/ek olarak",
-          "example": "Üstelik ben yapıyorum. = Üstelik pahalı."
+          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
         }
       ],
       "tip": {
@@ -44706,7 +44706,7 @@ const A2_WORDS = [
         {
           "word": "liegen",
           "meaning": "Uzan (pozisyon)",
-          "example": "Das Buch buradaydı. – Kitap burada."
+          "example": "Das Buch liegt hier. – Kitap burada."
         },
         {
           "word": "legen",
@@ -44826,7 +44826,7 @@ const A2_WORDS = [
         {
           "word": "liegen",
           "meaning": "Uzan (pozisyon)",
-          "example": "Das Buch buradaydı. – Kitap burada."
+          "example": "Das Buch liegt hier. – Kitap burada."
         },
         {
           "word": "setzen",
@@ -44950,27 +44950,27 @@ const A2_WORDS = [
         {
           "word": "steigen",
           "meaning": "Tırmanmak / yükselmek / yükselmek",
-          "example": "Die Preise steigen. = Fiyatlar yükseliyor."
+          "example": "Die Preise steigen. = Cenas ceļas."
         },
         {
           "word": "einsteigen",
           "meaning": "Taşımayı al",
-          "example": "Ich steige in den Bus ein. = Wsiadam do autobusu."
+          "example": "Ich steige in den Bus ein. = Es iekāpju autobusā."
         },
         {
           "word": "aussteigen",
           "meaning": "Nakil aracından inin",
-          "example": "Ich teige aus. = Ben kalkıyorum."
+          "example": "Ich steige aus. = Es izkāpju."
         },
         {
           "word": "aufstehen",
           "meaning": "Uyanmak",
-          "example": "Ich stehe um sieben auf. = Yedide kalkıyorum."
+          "example": "Ich stehe um sieben auf. = Es pieceļos septiņos."
         },
         {
           "word": "klettern",
           "meaning": "Çaba göstererek tırmanmak/tırmanmak",
-          "example": "Das Kind klettert auf den Baum. = Çocuk ağaca tırmanıyor."
+          "example": "Das Kind klettert auf den Baum. = Bērns rāpjas kokā."
         }
       ],
       "tip": {
@@ -45244,27 +45244,27 @@ const A2_WORDS = [
         {
           "word": "die Stelle",
           "meaning": "Yer/işyeri/parça",
-          "example": "Ich suche eine Stelle. = Bir iş arıyorum."
+          "example": "Ich suche eine Stelle. = Es meklēju darba vietu."
         },
         {
           "word": "der Ort",
           "meaning": "Yerleşim yeri",
-          "example": "Der Ort ist schön. = Burası çok güzel."
+          "example": "Der Ort ist schön. = Vieta ir skaista."
         },
         {
           "word": "der Arbeitsplatz",
           "meaning": "İşyeri",
-          "example": "Mein Arbeitstatt ist ruhig. = İş yerim sessiz."
+          "example": "Mein Arbeitsplatz ist ruhig. = Mana darba vieta ir klusa."
         },
         {
           "word": "die Textstelle",
           "meaning": "Metnin yeri/parçası",
-          "example": "Diese Textstelle ist wichtig. = Bu metin önemli."
+          "example": "Diese Textstelle ist wichtig. = Šis teksta fragments ir svarīgs."
         },
         {
           "word": "die Wunde",
           "meaning": "Yara",
-          "example": "Die Wunde tut weh. = Yara acıyor."
+          "example": "Die Wunde tut weh. = Brūce sāp."
         }
       ],
       "tip": {
@@ -45606,27 +45606,27 @@ const A2_WORDS = [
         {
           "word": "stimmen",
           "meaning": "Katılıyorum / haklı ol / oy ver",
-          "example": "Doğru. = Hepsi bu/bu doğru."
+          "example": "Das stimmt. = Tā ir / tas ir pareizi."
         },
         {
           "word": "zustimmen",
           "meaning": "Kabul etmek",
-          "example": "Ich stimme reż. zu. = Size katılıyorum."
+          "example": "Ich stimme dir zu. = Es tev piekrītu."
         },
         {
           "word": "abstimmen",
           "meaning": "Oy ver/Kabul ediyorum",
-          "example": "Wir stimmen dauber ab. = Biz buna oy veriyoruz."
+          "example": "Wir stimmen darüber ab. = Mēs par to balsojam."
         },
         {
           "word": "wählen",
           "meaning": "Seçmek/seçmek",
-          "example": "Wir wählen den Presidenten. = Bir başkan istiyoruz."
+          "example": "Wir wählen den Präsidenten. = Mēs vēlējam prezidentu."
         },
         {
           "word": "passen",
           "meaning": "Uyuyor / uyuyor",
-          "example": "Die Farbe'nin geçmişi. = Renk doğru."
+          "example": "Die Farbe passt. = Krāsa piestāv."
         }
       ],
       "tip": {
@@ -45907,27 +45907,27 @@ const A2_WORDS = [
         {
           "word": "der Stoff",
           "meaning": "Kumaş/madde/malzeme",
-          "example": "Kumaş yumuşaktır. = Kumaş yumuşaktır."
+          "example": "Der Stoff ist weich. = Audums ir mīksts."
         },
         {
           "word": "das Material",
           "meaning": "Tworzywo",
-          "example": "Malzeme stabildir. = Malzemeye dayanıklıdır."
+          "example": "Das Material ist stabil. = Materiāls ir izturīgs."
         },
         {
           "word": "die Substanz",
           "meaning": "Madde",
-          "example": "Die Substanz ist gefährlich. = Madde tehlikelidir."
+          "example": "Die Substanz ist gefährlich. = Viela ir bīstama."
         },
         {
           "word": "der Unterrichtsstoff",
           "meaning": "Öğrenme materyali",
-          "example": "Der Unterrichtsstoff ist schwer. = Konu zordur."
+          "example": "Der Unterrichtsstoff ist schwer. = Mācību viela ir grūta."
         },
         {
           "word": "das Thema",
           "meaning": "Başlık",
-          "example": "Konu ilginç. = Konu ilginç."
+          "example": "Das Thema ist interessant. = Temats ir interesants."
         }
       ],
       "tip": {
@@ -46343,27 +46343,27 @@ const A2_WORDS = [
         {
           "word": "die Tafel",
           "meaning": "Yazı tahtası/tabak/yazı tahtası",
-          "example": "Der Lehrer schreibt an die Tafel. = Öğretmen tahtaya yazar."
+          "example": "Der Lehrer schreibt an die Tafel. = Skolotājs raksta uz tāfeles."
         },
         {
           "word": "die Tabelle",
           "meaning": "Veri içeren tablo",
-          "example": "Die Tabelle steht im Buch. = Tablo kitabın içindedir."
+          "example": "Die Tabelle steht im Buch. = Tabula ir grāmatā."
         },
         {
           "word": "die Speisekarte",
           "meaning": "Menu",
-          "example": "Die Speisekarte Liegt auf dem Tisch. = Menü masanın üzerindedir."
+          "example": "Die Speisekarte liegt auf dem Tisch. = Ēdienkarte ir uz galda."
         },
         {
           "word": "das Schild",
           "meaning": "İşaret / Pano",
-          "example": "Das Schild çürümüş. = Tabásı kırmızı."
+          "example": "Das Schild ist rot. = Zīme ir sarkana."
         },
         {
           "word": "die Tafel Schokolade",
           "meaning": "Çikolata",
-          "example": "Eine Tafel Schokolade = Çikolata."
+          "example": "Eine Tafel Schokolade = šokolādes tāfelīte."
         }
       ],
       "tip": {
@@ -46731,27 +46731,27 @@ const A2_WORDS = [
         {
           "word": "das Teil",
           "meaning": "Parça/detay/sanat",
-          "example": "Ein Teil fehlt. = Bir kısmı eksik."
+          "example": "Ein Teil fehlt. = Trūkst viena daļa."
         },
         {
           "word": "der Teil",
           "meaning": "Parça (gramer olarak uyuyor)",
-          "example": "Der erste Teil ist leicht. = İlk kısım kolay."
+          "example": "Der erste Teil ist leicht. = Pirmā daļa ir viegla."
         },
         {
           "word": "das Ersatzteil",
           "meaning": "Yedek parça",
-          "example": "Das Ersatzteil ist tuer. = Yedek parça pahalıdır."
+          "example": "Das Ersatzteil ist teuer. = Rezerves detaļa ir dārga."
         },
         {
           "word": "das Stück",
           "meaning": "Parça",
-          "example": "Ich nehme ein Stück Kuchen. = Bir parça kek alıyorum."
+          "example": "Ich nehme ein Stück Kuchen. = Es ņemu kūkas gabalu."
         },
         {
           "word": "die Sache",
           "meaning": "Şey/konu",
-          "example": "Das ist eine gute Sache. = Bu iyi."
+          "example": "Das ist eine gute Sache. = Tā ir laba lieta."
         }
       ],
       "tip": {
@@ -47094,27 +47094,27 @@ const A2_WORDS = [
         {
           "word": "der Termin",
           "meaning": "Kararlaştırılan zaman/toplantı/son tarih",
-          "example": "Ich habe einen Termin. = Bir toplantım/randevum var."
+          "example": "Ich habe einen Termin. = Man ir pieraksts / norunāts laiks."
         },
         {
           "word": "das Treffen",
           "meaning": "Toplantı@ item",
-          "example": "Das Treffen savaş ağı. = Toplantının Toplantısı."
+          "example": "Das Treffen war nett. = Tikšanās bija jauka."
         },
         {
           "word": "die Frist",
           "meaning": "Bir şeyin yapılması gereken son tarih",
-          "example": "Die Frist endet morgen. = Son tarih yarın."
+          "example": "Die Frist endet morgen. = Termiņš beidzas rīt."
         },
         {
           "word": "die Verabredung",
           "meaning": "Randevu / randevu",
-          "example": "Ich habe eine Verabredung. = Bir toplantım var."
+          "example": "Ich habe eine Verabredung. = Man ir sarunāta tikšanās."
         },
         {
           "word": "der Zeitpunkt",
           "meaning": "Zamandaki nokta",
-          "example": "Bu an önemlidir. = Zamandaki bir önemlidir."
+          "example": "Der Zeitpunkt ist wichtig. = Laika punkts ir svarīgs."
         }
       ],
       "tip": {
@@ -47395,27 +47395,27 @@ const A2_WORDS = [
         {
           "word": "tief",
           "meaning": "Ses, ses, sıcaklık ile derin/alçak",
-          "example": "Der See'nin konuyla alakası var. = Göl derindir."
+          "example": "Der See ist tief. = Ezers ir dziļš."
         },
         {
           "word": "niedrig",
           "meaning": "Kısa boy veya şekil",
-          "example": "Das Regal ist niedrig. = Raf alçaktır."
+          "example": "Das Regal ist niedrig. = Plaukts ir zems."
         },
         {
           "word": "hoch",
           "meaning": "Yüksek",
-          "example": "Der Berg jest hoch. = Üst kısım yüksek."
+          "example": "Der Berg ist hoch. = Kalns ir augsts."
         },
         {
           "word": "flach",
           "meaning": "Sığ/düz",
-          "example": "Das Wasser jest flach. = Su sığdır."
+          "example": "Das Wasser ist flach. = Ūdens ir sekls."
         },
         {
           "word": "leise",
           "meaning": "Sessiz",
-          "example": "Die Stimme ist Leise. = Ses sessiz."
+          "example": "Die Stimme ist leise. = Balss ir klusa."
         }
       ],
       "tip": {
@@ -47882,22 +47882,22 @@ const A2_WORDS = [
         {
           "word": "tragen",
           "meaning": "Aşınma / aşınma / aşınma",
-          "example": "Ich trage eine Tasche. = Bir çanta taşıyorum."
+          "example": "Ich trage eine Tasche. = Es nesu somu."
         },
         {
           "word": "anziehen",
           "meaning": "Açma",
-          "example": "Ich ziehe die Jacke an. = Ceketimi giydim."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
           "word": "bringen",
           "meaning": "Getir/teslim et",
-          "example": "Ich Bringe dir das Buch. = Sana bir kitap getirdim."
+          "example": "Ich bringe dir das Buch. = Es tev atnesu grāmatu."
         },
         {
           "word": "halten",
           "meaning": "Tutmak",
-          "example": "Ich halte das Kind. = Bebeği tutuyorum."
+          "example": "Ich halte das Kind. = Es turu bērnu."
         }
       ],
       "tip": {
@@ -48088,27 +48088,27 @@ const A2_WORDS = [
         {
           "word": "treffen",
           "meaning": "Buluş / vur / kabul et",
-          "example": "Eine Entscheidung treffen = Bir karar ver."
+          "example": "Eine Entscheidung treffen = pieņemt lēmumu."
         },
         {
           "word": "sich treffen",
           "meaning": "Tanışmak",
-          "example": "Wir treffen uns. = Buluşuyoruz."
+          "example": "Wir treffen uns. = Mēs tiekamies."
         },
         {
           "word": "kennenlernen",
           "meaning": "tanışın",
-          "example": "Ich lerne ihn Kennen. = Onu tanıyorum."
+          "example": "Ich lerne ihn kennen. = Es ar viņu iepazīstos."
         },
         {
           "word": "erreichen",
           "meaning": "Ulaşın/arayın",
-          "example": "Ich erreiche dich nicht. = Seni arayamıyorum."
+          "example": "Ich erreiche dich nicht. = Es nevaru tevi sazvanīt."
         },
         {
           "word": "passen",
           "meaning": "Uyuyor / uyuyor",
-          "example": "Gitti. = Uyuyor."
+          "example": "Das passt. = Tas der."
         }
       ],
       "tip": {
@@ -48511,27 +48511,27 @@ const A2_WORDS = [
         {
           "word": "übrig",
           "meaning": "Kalan/dinlenme",
-          "example": "Es ist Geld übrig. = Para kaldı."
+          "example": "Es ist Geld übrig. = Ir atlikusi nauda."
         },
         {
           "word": "übrig bleiben",
           "meaning": "Konaklama",
-          "example": "Viel Essen bleibt übrig. = Çok fazla yiyecek kaldı."
+          "example": "Viel Essen bleibt übrig. = Daudz ēdiena paliek pāri."
         },
         {
           "word": "der Rest",
           "meaning": "Salınım",
-          "example": "Der Rest ist für Morgen. = Bakiye yarın ödenecek."
+          "example": "Der Rest ist für morgen. = Atlikums ir rītdienai."
         },
         {
           "word": "die übrigen",
           "meaning": "Diğerleri",
-          "example": "Die überigen Gäste kommen später. = Kalan konuklar daha sonra gelecek."
+          "example": "Die übrigen Gäste kommen später. = Pārējie viesi ieradīsies vēlāk."
         },
         {
           "word": "unnötig",
           "meaning": "Gereksiz",
-          "example": "Das ist unnötig. = Bu gereksizdir."
+          "example": "Das ist unnötig. = Tas ir nevajadzīgi."
         }
       ],
       "tip": {
@@ -48779,27 +48779,27 @@ const A2_WORDS = [
         {
           "word": "die Übung",
           "meaning": "Egzersizler/egzersizler",
-          "example": "Diese Übung ist leicht. = Bu egzersiz kolaydır."
+          "example": "Diese Übung ist leicht. = Šis vingrinājums ir viegls."
         },
         {
           "word": "üben",
           "meaning": "Pratik",
-          "example": "Ich übe jeden Tag. = Her gün egzersiz yapıyorum."
+          "example": "Ich übe jeden Tag. = Es vingrinos katru dienu."
         },
         {
           "word": "das Training",
           "meaning": "Eğitim",
-          "example": "Das Training Beginnt um sechs. = Eğitim saat altıda başlıyor."
+          "example": "Das Training beginnt um sechs. = Treniņš sākas sešos."
         },
         {
           "word": "die Aufgabe",
           "meaning": "Zadanie",
-          "example": "Die Aufgabe ist schwer. = Görev zor."
+          "example": "Die Aufgabe ist schwer. = Uzdevums ir grūts."
         },
         {
           "word": "die Praxis",
           "meaning": "Pratik",
-          "example": "In der Praxis ist es anders. = Pratikte ise durum farklıdır."
+          "example": "In der Praxis ist es anders. = Praksē tas ir citādi."
         }
       ],
       "tip": {
@@ -49069,22 +49069,22 @@ const A2_WORDS = [
         {
           "word": "umsonst",
           "meaning": "Hiçbir şey için / boşuna",
-          "example": "Ich warte umsonst. = Boşuna bekliyorum."
+          "example": "Ich warte umsonst. = Es gaidu veltīgi."
         },
         {
           "word": "kostenlos",
           "meaning": "Özgür",
-          "example": "Der Kurs ist kostenlos. = Kurs ücretsizdir."
+          "example": "Der Kurs ist kostenlos. = Kurss ir bez maksas."
         },
         {
           "word": "gratis",
           "meaning": "Özgür",
-          "example": "Ücretsiz. = Ücretsiz."
+          "example": "Das ist gratis. = Tas ir par brīvu."
         },
         {
           "word": "vergeblich",
           "meaning": "Özgür",
-          "example": "Ich suche vergeblich. = Boşuna aradım."
+          "example": "Ich suche vergeblich. = Es meklēju veltīgi."
         }
       ],
       "tip": {
@@ -49563,27 +49563,27 @@ const A2_WORDS = [
         {
           "word": "verbinden",
           "meaning": "Bağla/bağla",
-          "example": "Köprü iki yeri birbirine bağlar. = Köprü iki yeri birbirine bağlar."
+          "example": "Die Brücke verbindet zwei Orte. = Tilts savieno divas vietas."
         },
         {
           "word": "sich verbinden mit",
           "meaning": "Bakınız",
-          "example": "Das verbindet sich mit Erinnerungen. = Bu anılarla ilgili."
+          "example": "Das verbindet sich mit Erinnerungen. = Tas saistās ar atmiņām."
         },
         {
           "word": "binden",
           "meaning": "Elek",
-          "example": "Ich binde die Schuhe. = Ayakkabı giyiyorum."
+          "example": "Ich binde die Schuhe. = Es sienu kurpes."
         },
         {
           "word": "anschließen",
           "meaning": "Birleştirmek",
-          "example": "Ich schließe den Drucker an. = Yazıcıyı bağladım."
+          "example": "Ich schließe den Drucker an. = Es pieslēdzu printeri."
         },
         {
           "word": "die Wunde verbinden",
           "meaning": "Yarayı bandajla",
-          "example": "Der Arzt verbindet die Wunde. = Doktor yarayı bandajlıyor."
+          "example": "Der Arzt verbindet die Wunde. = Ārsts pārsien brūci."
         }
       ],
       "tip": {
@@ -49888,27 +49888,27 @@ const A2_WORDS = [
         {
           "word": "der Verkehr",
           "meaning": "Hareket/hareket/iletişim",
-          "example": "Der Verkehr jest surowy. = Çok fazla trafik var."
+          "example": "Der Verkehr ist stark. = Satiksme ir intensīva."
         },
         {
           "word": "der Straßenverkehr",
           "meaning": "Trafik",
-          "example": "Der Straßenverkehr ist gefährlich. = Trafik tehlikelidir."
+          "example": "Der Straßenverkehr ist gefährlich. = Ceļu satiksme ir bīstama."
         },
         {
           "word": "der öffentliche Verkehr",
           "meaning": "Toplu taşıma",
-          "example": "Öffentlicher Verkehr ist praktisk. = Toplu taşıma pratiktir."
+          "example": "Öffentlicher Verkehr ist praktisch. = Sabiedriskā satiksme ir praktiska."
         },
         {
           "word": "der Kontakt",
           "meaning": "İletişim/iletişim",
-          "example": "Wir haben Kontakt mit Kunden. = Müşterilerle temaslarımız var."
+          "example": "Wir haben Kontakt mit Kunden. = Mums ir kontakti ar klientiem."
         },
         {
           "word": "die Bewegung",
           "meaning": "Hareket",
-          "example": "Bewegung ist gesund. = Hareket sağlıklıdır."
+          "example": "Bewegung ist gesund. = Kustība ir veselīga."
         }
       ],
       "tip": {
@@ -50293,27 +50293,27 @@ const A2_WORDS = [
         {
           "word": "das Viertel",
           "meaning": "Çeyrek/çeyrek/çeyrek",
-          "example": "Ein Viertel ist genug. = Çeyrek yeterli."
+          "example": "Ein Viertel ist genug. = Ceturtdaļa ir pietiekami."
         },
         {
           "word": "die Hälfte",
           "meaning": "Taraf",
-          "example": "Die Hälfte ist weg. = Yarısı gitti."
+          "example": "Die Hälfte ist weg. = Puse ir prom."
         },
         {
           "word": "das Drittel",
           "meaning": "Üçüncü",
-          "example": "Ein Drittel bleibt. = Üçüncüsü kaldı."
+          "example": "Ein Drittel bleibt. = Trešdaļa paliek."
         },
         {
           "word": "der Stadtteil",
           "meaning": "Şehrin/bölgenin bir kısmı",
-          "example": "Dieser Stadtteil ist schön. = Bu bölge çok güzel."
+          "example": "Dieser Stadtteil ist schön. = Šis rajons ir skaists."
         },
         {
           "word": "das Quartier",
           "meaning": "Blok/mahalle",
-          "example": "Das Quartier jest ruhig. = Blokta sessizlik var."
+          "example": "Das Quartier ist ruhig. = Kvartāls ir kluss."
         }
       ],
       "tip": {
@@ -50718,27 +50718,27 @@ const A2_WORDS = [
         {
           "word": "vorstellen",
           "meaning": "Tanıtmak/tanıtmak",
-          "example": "Ich stelle dir meinen Freund vor. = Seni bir arkadaşımla tanıştıracağım."
+          "example": "Ich stelle dir meinen Freund vor. = Es tevi iepazīstinu ar draugu."
         },
         {
           "word": "sich vorstellen",
           "meaning": "Önde durun/hayal edin",
-          "example": "Ich stelle mich vor. = Ben ön tarafta duruyorum."
+          "example": "Ich stelle mich vor. = Es stādos priekšā."
         },
         {
           "word": "denken",
           "meaning": "Düşünmek",
-          "example": "Seni düşünüyorum. = Seni düşünüyorum."
+          "example": "Ich denke an dich. = Es domāju par tevi."
         },
         {
           "word": "meinen",
           "meaning": "Düşünmek/düşünmek",
-          "example": "Ne demek istiyorsun? = Ne düşünürsün?"
+          "example": "Was meinst du? = Ko tu domā?"
         },
         {
           "word": "präsentieren",
           "meaning": "Sunmak",
-          "example": "Ich präsentiere den Plan. = Planı sunuyorum."
+          "example": "Ich präsentiere den Plan. = Es prezentēju plānu."
         }
       ],
       "tip": {
@@ -51049,22 +51049,22 @@ const A2_WORDS = [
         {
           "word": "der Wagen",
           "meaning": "Araba • Vagon • Bebek Arabası",
-          "example": "Der Wagen ist neu. = Araba yeni."
+          "example": "Der Wagen ist neu. = Automašīna ir jauna."
         },
         {
           "word": "der Waggon",
           "meaning": "Vagon (tren)",
-          "example": "Der Waggon ist voll. = Sepet dolu."
+          "example": "Der Waggon ist voll. = Vagons ir pilns."
         },
         {
           "word": "das Auto",
           "meaning": "Araba",
-          "example": "Das Auto steht da. = Araba oraya park edilmiş."
+          "example": "Das Auto steht da. = Automašīna stāv tur."
         },
         {
           "word": "wagen (Verb)",
           "meaning": "Cesaret",
-          "example": "Ich płaca jest nimit. = Cesaret edemiyorum."
+          "example": "Ich wage es nicht. = Es neuzdrošinos."
         }
       ],
       "tip": {
@@ -51205,22 +51205,22 @@ const A2_WORDS = [
         {
           "word": "wählen",
           "meaning": "Seç / oy ver / oluştur",
-          "example": "Ich wähle eine Nummer. = Numarayı çeviriyorum."
+          "example": "Ich wähle eine Nummer. = Es sastādu numuru."
         },
         {
           "word": "auswählen",
           "meaning": "Seçmek/seçmek",
-          "example": "Ich wähle ein Bild aus. = Bir fotoğraf seçiyorum."
+          "example": "Ich wähle ein Bild aus. = Es izvēlos attēlu."
         },
         {
           "word": "entscheiden",
           "meaning": "Karar vermek",
-          "example": "Ich entscheide mich. = Ben karar veriyorum."
+          "example": "Ich entscheide mich. = Es izlemju."
         },
         {
           "word": "abstimmen",
           "meaning": "Oy",
-          "example": "Wir stymulacja ab. = Oy veriyoruz."
+          "example": "Wir stimmen ab. = Mēs balsojam."
         }
       ],
       "tip": {
@@ -51488,22 +51488,22 @@ const A2_WORDS = [
         {
           "word": "während",
           "meaning": "Sırasında/sırasında",
-          "example": "Während ich arbeite, ist es ruhig. = Çalışırken ortam sessiz."
+          "example": "Während ich arbeite, ist es ruhig. = Kamēr es strādāju, ir kluss."
         },
         {
           "word": "bei",
           "meaning": "Belirli koşullar altında/altında",
-          "example": "Bei Regen bleiben wir zu Hause. = Yağmur yağdığında evde kalırız."
+          "example": "Bei Regen bleiben wir zu Hause. = Lietus laikā paliekam mājās."
         },
         {
           "word": "wenn",
           "meaning": "Ne zaman/eğer",
-          "example": "Wenn ich Zeit habe, komme ich. = Zamanım olursa geleceğim."
+          "example": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu."
         },
         {
           "word": "solange",
           "meaning": "Değin",
-          "example": "Solange du hier bist, bleibe ich. = Sen burada olduğun sürece ben de kalacağım."
+          "example": "Solange du hier bist, bleibe ich. = Kamēr tu esi šeit, es palieku."
         }
       ],
       "tip": {
@@ -51793,27 +51793,27 @@ const A2_WORDS = [
         {
           "word": "wahrscheinlich",
           "meaning": "Muhtemelen / büyük olasılıkla",
-          "example": "Er kommt wahrscheinlich. = Muhtemelen gelecektir."
+          "example": "Er kommt wahrscheinlich. = Viņš droši vien atnāks."
         },
         {
           "word": "vielleicht",
           "meaning": "Belki",
-          "example": "Vielleicht kommt er. = Belki gelir."
+          "example": "Vielleicht kommt er. = Varbūt viņš atnāks."
         },
         {
           "word": "sicher",
           "meaning": "Elbette / kesinlikle",
-          "example": "Das ist sicher richtig. = Bu kesinlikle doğru."
+          "example": "Das ist sicher richtig. = Tas noteikti ir pareizi."
         },
         {
           "word": "bestimmt",
           "meaning": "Kesinlikle",
-          "example": "Er kommt bestimt. = Na pewno przyjdzie."
+          "example": "Er kommt bestimmt. = Viņš noteikti atnāks."
         },
         {
           "word": "möglich",
           "meaning": "Olası",
-          "example": "Das ist möglich. = Bu mümkün."
+          "example": "Das ist möglich. = Tas ir iespējams."
         }
       ],
       "tip": {
@@ -52107,27 +52107,27 @@ const A2_WORDS = [
         {
           "word": "wechseln",
           "meaning": "Değiştir/Değiştir",
-          "example": "Ich wechsle Geld. = Para bozduruyorum."
+          "example": "Ich wechsle Geld. = Es samainu naudu."
         },
         {
           "word": "umtauschen",
           "meaning": "Öğeyi değiştir",
-          "example": "Ich tausche die Jacke um. = Ceketimi değiştiriyorum."
+          "example": "Ich tausche die Jacke um. = Es apmainu jaku."
         },
         {
           "word": "tauschen",
           "meaning": "Değiştir/Değiştir",
-          "example": "Wir tauschen Plätze. = Yer değiştiriyoruz."
+          "example": "Wir tauschen Plätze. = Mēs samaināmies vietām."
         },
         {
           "word": "umsteigen",
           "meaning": "Taşımaya aktarma",
-          "example": "Acelem var, ha. = Yer değiştiriyorum."
+          "example": "Ich steige um. = Es pārsēžos."
         },
         {
           "word": "ändern",
           "meaning": "Değiştir/değiştir",
-          "example": "Ich ändere den Plan. = Planı değiştiriyorum."
+          "example": "Ich ändere den Plan. = Es mainu plānu."
         }
       ],
       "tip": {
@@ -52603,27 +52603,27 @@ const A2_WORDS = [
         {
           "word": "wert",
           "meaning": "Değer",
-          "example": "Das ist viel wert. = Çok değerli."
+          "example": "Das ist viel wert. = Tas ir daudz vērts."
         },
         {
           "word": "der Wert",
           "meaning": "Değer",
-          "example": "Der Wert ist hoch. = Değeri yüksek."
+          "example": "Der Wert ist hoch. = Vērtība ir augsta."
         },
         {
           "word": "teuer",
           "meaning": "Canım",
-          "example": "Araba pahalı. = Araba pahalı."
+          "example": "Das Auto ist teuer. = Auto ir dārgs."
         },
         {
           "word": "sehenswert",
           "meaning": "Görülmeye değer",
-          "example": "Die Stadt ist sehenswert. = Şehir görülmeye değer."
+          "example": "Die Stadt ist sehenswert. = Pilsētu ir vērts redzēt."
         },
         {
           "word": "wichtig",
           "meaning": "Önemli",
-          "example": "Bu önemli. = Bu önemli."
+          "example": "Das ist wichtig. = Tas ir svarīgi."
         }
       ],
       "tip": {
@@ -52891,27 +52891,27 @@ const A2_WORDS = [
         {
           "word": "wiegen",
           "meaning": "Tartmak / tartmak",
-          "example": "Das Paket wiegt zwei Kilo. = Paket iki kilogram ağırlığında."
+          "example": "Das Paket wiegt zwei Kilo. = Paka sver divus kilogramus."
         },
         {
           "word": "die Waage",
           "meaning": "Waga",
-          "example": "Die Waage steht im Bad. = Banyoda terazi var."
+          "example": "Die Waage steht im Bad. = Svari stāv vannasistabā."
         },
         {
           "word": "das Gewicht",
           "meaning": "Waga",
-          "example": "Waga jest normalna. = Ağırlık normaldir."
+          "example": "Das Gewicht ist normal. = Svars ir normāls."
         },
         {
           "word": "messen",
           "meaning": "Zmierzyć",
-          "example": "Ich messe die Länge. = Uzunluğunu ölçüyorum."
+          "example": "Ich messe die Länge. = Es mēru garumu."
         },
         {
           "word": "der Wagen",
           "meaning": "Araba / vagon",
-          "example": "Der Wagen ist neu. = Araba yeni."
+          "example": "Der Wagen ist neu. = Automašīna ir jauna."
         }
       ],
       "tip": {
@@ -53223,27 +53223,27 @@ const A2_WORDS = [
         {
           "word": "ziehen",
           "meaning": "Sürükle/kaydır/kaydır",
-          "example": "Wir ziehen um. = Taşınıyoruz."
+          "example": "Wir ziehen um. = Mēs pārvācamies."
         },
         {
           "word": "umziehen",
           "meaning": "Giysileri hareket ettirin/değiştirin",
-          "example": "Ich ziehe um. = Taşınıyorum."
+          "example": "Ich ziehe um. = Es pārvācos."
         },
         {
           "word": "anziehen",
           "meaning": "Giysileri giyin/sıkılaştırın",
-          "example": "Ich ziehe die Jacke an. = Ceketimi giydim."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
           "word": "ausziehen",
           "meaning": "Kalkış / dışarı çıkma",
-          "example": "Ich ziehe die Schuhe aus. = Ayakkabılarımı çıkarıyorum."
+          "example": "Ich ziehe die Schuhe aus. = Es novelku kurpes."
         },
         {
           "word": "ziehen lassen",
           "meaning": "Bırak gitsin / içeri çek",
-          "example": "Den Tee ziehen lassen. = Biraz çay yap."
+          "example": "Den Tee ziehen lassen. = Ļaut tējai ievilkties."
         }
       ],
       "tip": {
@@ -53630,27 +53630,27 @@ const A2_WORDS = [
         {
           "word": "zunehmen",
           "meaning": "Kilo alın / boyunuzu uzatın",
-          "example": "Die Preise nehmen zu. = Fiyatlar yükseliyor."
+          "example": "Die Preise nehmen zu. = Cenas pieaug."
         },
         {
           "word": "abnehmen",
           "meaning": "Seyreltin/azaltın",
-          "example": "Ich nehme ab. = Kilo verdim."
+          "example": "Ich nehme ab. = Es notievēju."
         },
         {
           "word": "wachsen",
           "meaning": "Büyümek",
-          "example": "Die Stadt wächst. = Şehir büyüyor."
+          "example": "Die Stadt wächst. = Pilsēta aug."
         },
         {
           "word": "steigen",
           "meaning": "Tırmanmak/yükselmek",
-          "example": "Die Preise steigen. = Fiyatlar yükseliyor."
+          "example": "Die Preise steigen. = Cenas kāpj."
         },
         {
           "word": "sich erhöhen",
           "meaning": "Arttırmak",
-          "example": "Koszt wzrasta. = Maliyet artışı."
+          "example": "Die Kosten erhöhen sich. = Izmaksas palielinās."
         }
       ],
       "tip": {
@@ -53946,27 +53946,27 @@ const A2_WORDS = [
         {
           "word": "zurzeit",
           "meaning": "Şu anda / şu anda / şu anda",
-          "example": "Şu anda meşgulüm. = Şu anda zamanım."
+          "example": "Zurzeit bin ich beschäftigt. = Pašlaik esmu aizņemts."
         },
         {
           "word": "jetzt",
           "meaning": "Şimdi",
-          "example": "Ich gehe jetzt. = Şimdi gidiyorum."
+          "example": "Ich gehe jetzt. = Es tagad eju."
         },
         {
           "word": "im Moment",
           "meaning": "Şu anda/şu anda",
-          "example": "Im Moment habe ich keine Zeit. = Şimdi zamanım yok."
+          "example": "Im Moment habe ich keine Zeit. = Šobrīd man nav laika."
         },
         {
           "word": "derzeit",
           "meaning": "Mevcut/mevcut",
-          "example": "Şu anda bu mümkün değil. = Şu anda bu mümkün değil."
+          "example": "Derzeit ist das nicht möglich. = Pašlaik tas nav iespējams."
         },
         {
           "word": "momentan",
           "meaning": "Şu anda/şu anda",
-          "example": "W tej chwili jestem chory. = Şu anda hastayım."
+          "example": "Momentan bin ich krank. = Šobrīd esmu slims."
         }
       ],
       "tip": {

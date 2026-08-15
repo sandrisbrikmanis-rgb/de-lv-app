@@ -55,7 +55,7 @@ const A1_WORDS = [
           "lv": "Hovoríme o práci."
         },
         {
-          "de": "Ich spreche Deutsch.",
+          "de": "Sie spricht mit ihrer Lehrerin.",
           "lv": "Hovorím po nemecky"
         }
       ],
@@ -146,11 +146,11 @@ const A1_WORDS = [
           "lv": "Izba je malá."
         },
         {
-          "de": "Das Zimmer ist klein.",
+          "de": "Das Kind ist noch klein.",
           "lv": "Izba je malá."
         },
         {
-          "de": "Das Kind ist noch klein.",
+          "de": "Ich habe eine kleine Tasche.",
           "lv": "Bábätko je ešte malé."
         },
         {
@@ -623,7 +623,7 @@ const A1_WORDS = [
         {
           "word": "sondern",
           "meaning": "Nie • Ale",
-          "example": "Ich wollte Tee, sondern Kaffee. – Chcel som čaj, nie kávu."
+          "example": "Ich wollte keinen Tee, sondern Kaffee. – Chcel som čaj, nie kávu."
         },
         {
           "word": "jedoch",
@@ -1035,11 +1035,11 @@ const A1_WORDS = [
           "lv": "Prídem aj ja."
         },
         {
-          "de": "Ich komme auch.",
+          "de": "Sie arbeitet auch hier.",
           "lv": "Prídem aj ja"
         },
         {
-          "de": "Sie arbeitet auch hier.",
+          "de": "Ich wünsche Ihnen auch einen schönen Tag.",
           "lv": "Aj ona tu pracuje."
         }
       ],
@@ -2217,17 +2217,17 @@ const A1_WORDS = [
         {
           "word": "bis",
           "meaning": "Do (dosiahnutý časový bod)",
-          "example": "Ich bleibe bis 18 Uhr. – Zdržím sa do 18:00."
+          "example": "Ich bleibe bis morgen. – Zdržím sa do 18:00."
         },
         {
-          "word": "bis ... zu",
+          "word": "bis zu",
           "meaning": "Kým (do určitého času)",
-          "example": "Ich arbeite von 9 bis 17 Uhr. – Pracujem od 9 do 5."
+          "example": "bis zum Bahnhof – Pracujem od 9 do 5."
         },
         {
-          "word": "bis dass",
+          "word": "bis jetzt",
           "meaning": "Až kým",
-          "example": "Ich warte, bis dass du kommst. – Čakám, kedy prídeš."
+          "example": "Bis jetzt habe ich nichts verstanden. – Čakám, kedy prídeš."
         },
         {
           "word": "bis jetzt",
@@ -2366,15 +2366,15 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Bitte schön!",
-          "lv": "Prosím!"
-        },
-        {
-          "de": "Bitte schön!",
-          "lv": "Prosím!"
-        },
-        {
           "de": "Eine Tasse Kaffee, bitte.",
+          "lv": "Prosím!"
+        },
+        {
+          "de": "Komm bitte herein.",
+          "lv": "Prosím!"
+        },
+        {
+          "de": "Bitte schön!",
           "lv": "Chcel by som jednu šálku kávy, prosím."
         },
         {
@@ -2466,7 +2466,19 @@ const A1_WORDS = [
             ]
           }
         ]
-      }
+      },
+      "comparison": [
+        {
+          "word": "bitte",
+          "meaning": "lūdzu",
+          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+        },
+        {
+          "word": "die Bitte",
+          "meaning": "lūgums",
+          "example": "Ich habe eine Bitte. – Man ir lūgums."
+        }
+      ]
     }
   },
   {
@@ -2495,11 +2507,11 @@ const A1_WORDS = [
           "lv": "Mam jednu prosbu."
         },
         {
-          "de": "Bitte schön!",
+          "de": "Er erfüllt meine Bitte.",
           "lv": "Prosím!"
         },
         {
-          "de": "Eine Tasse Kaffee, bitte.",
+          "de": "Sie hat zwei Bitten.",
           "lv": "Chcel by som jednu šálku kávy, prosím."
         },
         {
@@ -2592,7 +2604,19 @@ const A1_WORDS = [
         "important": [
           {}
         ]
-      }
+      },
+      "comparison": [
+        {
+          "word": "die Bitte",
+          "meaning": "lūgums",
+          "example": "Ich habe eine Bitte. – Man ir lūgums."
+        },
+        {
+          "word": "bitte",
+          "meaning": "lūdzu",
+          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+        }
+      ]
     }
   },
   {
@@ -2682,7 +2706,7 @@ const A1_WORDS = [
         {
           "word": "warten",
           "meaning": "Počkaj",
-          "example": "Ich warto tu."
+          "example": "Ich warte hier."
         }
       ],
       "tip": {
@@ -2893,15 +2917,15 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Bring mir bitte Wasser.",
+          "de": "Ich bringe dir ein Buch.",
           "lv": "Prineste mi vodu, prosím"
         },
         {
-          "de": "Ich bringe dich nach Hause.",
+          "de": "Ich bringe das Paket zur Post.",
           "lv": "Vezmem ťa domov"
         },
         {
-          "de": "Er bringt das Buch zur Schule.",
+          "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Berie knihu do školy."
         },
         {
@@ -2913,22 +2937,27 @@ const A1_WORDS = [
         {
           "word": "bringen",
           "meaning": "Priniesť/vziať/doručiť",
-          "example": "Przyprowadź mira Wassera."
+          "example": "Ich bringe dir ein Buch. – Przyprowadź mira Wassera."
+        },
+        {
+          "word": "bringen",
+          "meaning": "Vezmi / zober",
+          "example": "Ich bringe das Paket zur Post. – Ich nehme das Buch."
+        },
+        {
+          "word": "bringen",
+          "meaning": "Choďte/prineste",
+          "example": "Ich bringe die Kinder zur Schule. – Ich dziura Wasser."
+        },
+        {
+          "word": "bringen",
+          "meaning": "Vezmite a prineste",
+          "example": "Ich bringe dir ein Buch. – Bringst du Brot mit?"
         },
         {
           "word": "nehmen",
-          "meaning": "Vezmi / zober",
-          "example": "Ich nehme das Buch."
-        },
-        {
-          "word": "holen",
-          "meaning": "Choďte/prineste",
-          "example": "Ich dziura Wasser."
-        },
-        {
-          "word": "mitbringen",
-          "meaning": "Vezmite a prineste",
-          "example": "Bringst du Brot mit?"
+          "meaning": "paņemt",
+          "example": "Ich nehme das Buch. – Es paņemu grāmatu."
         }
       ],
       "tip": {
@@ -3199,17 +3228,17 @@ const A1_WORDS = [
         {
           "word": "da",
           "meaning": "Tam • Tu • Tu (všeobecne)",
-          "example": "To jest mój samochód."
+          "example": "Da ist mein Auto."
         },
         {
           "word": "hier",
           "meaning": "Tu (na konkrétnom mieste)",
-          "example": "Oto mój samochód."
+          "example": "Hier ist mein Auto."
         },
         {
           "word": "dort",
           "meaning": "Tam (ďalej)",
-          "example": "Jest mój samochód."
+          "example": "Dort ist mein Auto."
         },
         {
           "word": "dann",
@@ -3880,7 +3909,7 @@ const A1_WORDS = [
           "lv": "Tento muž je pekný."
         },
         {
-          "de": "Ich mag diesen Hund.",
+          "de": "Ich sehe diesen Hund.",
           "lv": "Tento pes sa mi páči"
         },
         {
@@ -4069,6 +4098,10 @@ const A1_WORDS = [
         {
           "de": "Er sucht einen Stift.",
           "lv": "Hľadá pero."
+        },
+        {
+          "de": "Ein Kind spielt.",
+          "lv": "Bērns spēlējas."
         }
       ],
       "tip": {
@@ -4161,6 +4194,28 @@ const A1_WORDS = [
       "important": [
         "Ein nie je určitý článok.",
         "Ak je vec už konkrétne známa, často je potrebné der, die alebo das."
+      ],
+      "comparison": [
+        {
+          "word": "ein Mann",
+          "meaning": "vīriešu dzimte",
+          "example": "Ein Mann wartet draußen."
+        },
+        {
+          "word": "eine Frau",
+          "meaning": "sieviešu dzimte",
+          "example": "eine Frau"
+        },
+        {
+          "word": "ein Buch",
+          "meaning": "vidus dzimte",
+          "example": "Ich habe ein Buch."
+        },
+        {
+          "word": "einen Mann",
+          "meaning": "akuzatīvs",
+          "example": "einen Mann"
+        }
       ]
     }
   },
@@ -4216,22 +4271,22 @@ const A1_WORDS = [
         {
           "word": "das Eis",
           "meaning": "Zmrzlina / zmrzlina",
-          "example": "Ich esse ein Eis. = Jem zmrzlinu."
+          "example": "Ich esse ein Eis. = Es ēdu saldējumu."
         },
         {
           "word": "der Schnee",
           "meaning": "Bude sneh",
-          "example": "Der Schnee ist weiß. = Sneh je biely."
+          "example": "Der Schnee ist weiß. = Sniegs ir balts."
         },
         {
           "word": "kalt",
           "meaning": "Studená",
-          "example": "Das Wasser jest kalt. = Voda je studená."
+          "example": "Das Wasser ist kalt. = Ūdens ir auksts."
         },
         {
           "word": "das Dessert",
           "meaning": "Dezert",
-          "example": "Jest to deser. = Zmrzlina je dezert."
+          "example": "Eis ist ein Dessert. = Saldējums ir deserts."
         }
       ],
       "tip": {
@@ -4431,7 +4486,7 @@ const A1_WORDS = [
       "explanation": "„prvý“ sa používa na označenie poradia (prvý) alebo na zdôraznenie toho, že sa niečo stane neskôr, ako sa očakávalo, alebo v menšom rozsahu (iba).",
       "examples": [
         {
-          "de": "Erst trinken, dann fahren.",
+          "de": "Erst lernen, dann spielen.",
           "lv": "Najprv pite, potom jedzte."
         },
         {
@@ -4451,22 +4506,22 @@ const A1_WORDS = [
         {
           "word": "erst",
           "meaning": "Prvý • Len",
-          "example": "Najpierw wykonaj pauzę. = Najprv pracujte, potom pauza."
+          "example": "Erst lernen, dann spielen. – Najpierw wykonaj pauzę. = Najprv pracujte, potom pauza."
         },
         {
           "word": "zuerst",
           "meaning": "Prvý • Na začiatku",
-          "example": "Zuerst frühstücken wir. = Najprv raňajkujeme."
+          "example": "Zuerst frühstücken wir. = Vispirms mēs brokastojam."
         },
         {
           "word": "nur",
           "meaning": "Len",
-          "example": "Mam tylko 5 euro. = Mám len 5 eur."
+          "example": "Ich habe nur 5 Euro. = Man ir tikai 5 eiro."
         },
         {
           "word": "dann",
           "meaning": "Potom",
-          "example": "Dann gehen wir nach Hause. = Potom ideme domov."
+          "example": "Dann gehen wir nach Hause. = Tad mēs ejam mājās."
         }
       ],
       "tip": {
@@ -4612,19 +4667,19 @@ const A1_WORDS = [
       "explanation": "Nemecké „ja“ sa nezvykne rozprávať o sebe. Používa sa na označenie: toho, toho alebo neosobnej formy (počasie, čas, rôzne neosobné vety).",
       "examples": [
         {
-          "de": "Ich lerne Deutsch.",
+          "de": "Es regnet.",
           "lv": "Učím sa nemčinu."
         },
         {
-          "de": "Er ist müde.",
+          "de": "Es ist kalt.",
           "lv": "Je unavený."
         },
         {
-          "de": "Sie arbeitet hier.",
+          "de": "Das Kind schläft.",
           "lv": "Pracuje tu."
         },
         {
-          "de": "Das ist mein Buch.",
+          "de": "Es ist müde.",
           "lv": "Toto je moja kniha."
         },
         {
@@ -4742,6 +4797,18 @@ const A1_WORDS = [
       "important": [
         "Nemecké „ja“ nie je lotyšské „ja“.",
         "Lotyšské „ja“ je v nemčine ich • Nemecké es často znamená toto/tie alebo sa neprekladá."
+      ],
+      "comparison": [
+        {
+          "word": "es",
+          "meaning": "tas • bezpersoniska forma",
+          "example": "Es regnet. – Līst."
+        },
+        {
+          "word": "ich",
+          "meaning": "es (persona)",
+          "example": "Ich lerne Deutsch. – Es mācos vācu valodu."
+        }
       ]
     }
   },
@@ -4793,22 +4860,22 @@ const A1_WORDS = [
         {
           "word": "etwas",
           "meaning": "Niečo/trochu",
-          "example": "Potrzebuję czegoś. = Potrebujem niečo."
+          "example": "Ich brauche etwas. = Man kaut kas vajadzīgs."
         },
         {
           "word": "was",
           "meaning": "Niečo (hovorové)",
-          "example": "Willst du został oszukany? = Dali by ste si niečo na pitie?"
+          "example": "Willst du was trinken? = Vai gribi kaut ko dzert?"
         },
         {
           "word": "ein bisschen",
           "meaning": "Trochu",
-          "example": "Ich bin ein bisschen müde. = Som trochu unavený."
+          "example": "Ich bin ein bisschen müde. = Es esmu mazliet noguris."
         },
         {
           "word": "nichts",
           "meaning": "Niť",
-          "example": "Nie potrzebuję niczego. = Ja nič nepotrebujem."
+          "example": "Ich brauche nichts. = Man neko nevajag."
         }
       ],
       "tip": {
@@ -4978,17 +5045,17 @@ const A1_WORDS = [
         {
           "word": "ihr",
           "meaning": "Vy",
-          "example": "Ihr seid freundlich. = Ste priateľský."
+          "example": "Ihr seid freundlich. = Jūs esat draudzīgi."
         },
         {
           "word": "euch",
           "meaning": "Vám/vám",
-          "example": "Ich helfe euch. = Pomôžem ti."
+          "example": "Ich helfe euch. = Es jums palīdzu."
         },
         {
           "word": "euer",
           "meaning": "Váš",
-          "example": "Das ist euer Haus. = Toto je váš domov."
+          "example": "Das ist euer Haus. = Tā ir jūsu māja."
         }
       ],
       "info": [
@@ -5073,7 +5140,7 @@ const A1_WORDS = [
         {
           "word": "bringen",
           "meaning": "Priniesť/doručiť",
-          "example": "Ich Bringe das Buch."
+          "example": "Ich bringe das Buch."
         },
         {
           "word": "mitnehmen",
@@ -5354,7 +5421,8 @@ const A1_WORDS = [
     "de": "Wochenende",
     "de_article": "das",
     "lv": "Víkend",
-    "level": "A1"
+    "level": "A1",
+    "de_plural": "die Wochenenden"
   },
   {
     "de": "Fernseher",
@@ -5403,15 +5471,15 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ich finde meinen Schlüssel nicht.",
+          "de": "Ich finde meinen Schlüssel.",
           "lv": "Nemôžem nájsť svoj kľúč"
         },
         {
-          "de": "Hast du dein Handy gefunden?",
+          "de": "Ich finde das gut.",
           "lv": "Našli ste svoj telefón?"
         },
         {
-          "de": "Ich finde das gut.",
+          "de": "Wie findest du den Film?",
           "lv": "Toto sa mi zdá dobré."
         },
         {
@@ -5423,7 +5491,7 @@ const A1_WORDS = [
         {
           "word": "finden",
           "meaning": "Nájsť/zvážiť",
-          "example": "Ich finde das gut. = Toto sa mi zdá dobré."
+          "example": "Ich finde das gut. = Man tas šķiet labi."
         },
         {
           "word": "suchen",
@@ -5810,7 +5878,8 @@ const A1_WORDS = [
     "de": "Frühstück",
     "de_article": "das",
     "lv": "Raňajky",
-    "level": "A1"
+    "level": "A1",
+    "de_plural": "die Frühstücke"
   },
   {
     "de": "frühstücken",
@@ -6067,12 +6136,12 @@ const A1_WORDS = [
         {
           "word": "bekommen",
           "meaning": "Prijať/dostať",
-          "example": "Otrzymam prezent."
+          "example": "Ich bekomme ein Geschenk."
         },
         {
           "word": "bringen",
           "meaning": "Priniesť/doručiť",
-          "example": "Ich Bringe dir das Buch."
+          "example": "Ich bringe dir das Buch."
         }
       ],
       "tip": {
@@ -6508,7 +6577,7 @@ const A1_WORDS = [
           "lv": "Dom je veľký."
         },
         {
-          "de": "Das Haus ist groß.",
+          "de": "Berlin ist eine große Stadt.",
           "lv": "Dom je veľký."
         },
         {
@@ -6819,22 +6888,22 @@ const A1_WORDS = [
         {
           "word": "haben",
           "meaning": "Mám",
-          "example": "Mam czas. = Mám čas."
+          "example": "Ich habe Zeit. = Man ir laiks."
         },
         {
           "word": "sein",
           "meaning": "Byť",
-          "example": "Jestem tutaj. = Som tu."
+          "example": "Ich bin hier. = Es esmu šeit."
         },
         {
           "word": "bekommen",
           "meaning": "Prijímať",
-          "example": "Otrzymam prezent. = Dostávam darček."
+          "example": "Ich bekomme ein Geschenk. = Es saņemu dāvanu."
         },
         {
           "word": "machen",
           "meaning": "Urobiť/urobiť",
-          "example": "Ich mache das. = Ja to robím."
+          "example": "Ich mache das. = Es to daru."
         }
       ],
       "tip": {
@@ -7008,22 +7077,22 @@ const A1_WORDS = [
         {
           "word": "halten",
           "meaning": "Podržať/zastaviť",
-          "example": "Der Bus zatrzymał się. = Autobus zastavuje."
+          "example": "Der Bus hält. = Autobuss pietur."
         },
         {
           "word": "nehmen",
           "meaning": "Zobrať",
-          "example": "Ich nehme die Tasche. = Beriem tašku."
+          "example": "Ich nehme die Tasche. = Es ņemu somu."
         },
         {
-          "word": "stoppen",
+          "word": "anhalten",
           "meaning": "Stop",
-          "example": "Zatrzymaj Sie das Auto. = Zastavte auto."
+          "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
         },
         {
           "word": "denken",
           "meaning": "Premýšľajte",
-          "example": "Myślę, że to prawda. = Myslím, že je to pravda."
+          "example": "Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi."
         }
       ],
       "tip": {
@@ -7248,22 +7317,27 @@ const A1_WORDS = [
         {
           "word": "heißen",
           "meaning": "Na zavolanie/označenie",
-          "example": "Ich heiße Anna. = Volám sa Anna."
+          "example": "Ich heiße Anna. = Mani sauc Anna."
         },
         {
           "word": "nennen",
           "meaning": "Volať/meno",
-          "example": "Er nennt mich Tom. = Volá ma Tom."
+          "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
         },
         {
           "word": "bedeuten",
           "meaning": "Majte na pamäti",
-          "example": "Czy Bedutet das? = Čo to znamená"
+          "example": "Was bedeutet das? = Ko tas nozīmē?"
         },
         {
           "word": "rufen",
           "meaning": "Volať / volať",
-          "example": "Ich rufe dich. = Volám ťa / volám ťa."
+          "example": "Ich rufe dich. = Es tevi pasaucu."
+        },
+        {
+          "word": "anrufen",
+          "meaning": "zvanīt",
+          "example": "Ich rufe dich an. = Es tev piezvanu."
         }
       ],
       "tip": {
@@ -7460,7 +7534,7 @@ const A1_WORDS = [
           "lv": "Hora je vysoká."
         },
         {
-          "de": "Der Berg ist hoch.",
+          "de": "Das Regal ist zwei Meter hoch.",
           "lv": "Hora je vysoká."
         },
         {
@@ -9123,22 +9197,22 @@ const A1_WORDS = [
         {
           "word": "können",
           "meaning": "Môcť/vedieť",
-          "example": "Potrafię pływać. = Viem plávať."
+          "example": "Ich kann schwimmen. = Es protu peldēt."
         },
         {
           "word": "dürfen",
           "meaning": "Byť dovolené",
-          "example": "Darf ich gehen? = Môžem ísť?"
+          "example": "Darf ich gehen? = Vai drīkstu iet?"
         },
         {
           "word": "müssen",
           "meaning": "Potrebujem/byť tak-",
-          "example": "Muszę się uczyć. = Musím sa učiť."
+          "example": "Ich muss lernen. = Man jāmācās."
         },
         {
           "word": "wissen",
           "meaning": "Vedieť",
-          "example": "Wiem to. = To viem."
+          "example": "Ich weiß das. = Es to zinu."
         }
       ],
       "tip": {
@@ -9315,22 +9389,22 @@ const A1_WORDS = [
         {
           "word": "kosten",
           "meaning": "Platiť (cena) • Koľko",
-          "example": "Kosztuje 5 euro. = Stojí 5 eur."
+          "example": "Das kostet 5 Euro. = Tas maksā 5 eiro."
         },
         {
           "word": "bezahlen",
           "meaning": "Platiť • Platiť (peniaze)",
-          "example": "Ich bezahle die Rechnung. = Platím účet."
+          "example": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
         },
         {
           "word": "zahlen",
           "meaning": "Platiť • Platiť",
-          "example": "Kann ich bar zahlen? = Môžem platiť v hotovosti?"
+          "example": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
         },
         {
           "word": "Was kostet...?",
           "meaning": "Koľko je...?",
-          "example": "Czy kostet das Buch? = Koľko stojí kniha?"
+          "example": "Was kostet das Buch? = Cik maksā grāmata?"
         }
       ],
       "tip": [
@@ -9857,7 +9931,7 @@ const A1_WORDS = [
         {
           "word": "das Land",
           "meaning": "Krajina / pozemok / dedina",
-          "example": "Deutschland jest krajem."
+          "example": "Deutschland ist ein Land."
         },
         {
           "word": "die Stadt",
@@ -9872,7 +9946,7 @@ const A1_WORDS = [
         {
           "word": "die Erde",
           "meaning": "Zem/planéta",
-          "example": "Ziemia jest okrągła."
+          "example": "Die Erde ist rund."
         }
       ],
       "tip": {
@@ -10183,7 +10257,7 @@ const A1_WORDS = [
         {
           "word": "lassen",
           "meaning": "Opustiť/Povoliť",
-          "example": "Ich lass das hier."
+          "example": "Ich lasse das hier."
         },
         {
           "word": "bleiben",
@@ -10379,7 +10453,7 @@ const A1_WORDS = [
         {
           "word": "funktionieren",
           "meaning": "Práca",
-          "example": "To działa dobrze."
+          "example": "Das funktioniert gut."
         }
       ],
       "tip": {
@@ -10821,7 +10895,7 @@ const A1_WORDS = [
         {
           "word": "liegen",
           "meaning": "Byť/spať",
-          "example": "Das Buch Liegt auf dem Tisch."
+          "example": "Das Buch liegt auf dem Tisch."
         },
         {
           "word": "stellen",
@@ -11191,7 +11265,7 @@ const A1_WORDS = [
         {
           "word": "liegen",
           "meaning": "Byť/spať",
-          "example": "Das Buch leży tutaj."
+          "example": "Das Buch liegt hier."
         },
         {
           "word": "legen",
@@ -11206,7 +11280,7 @@ const A1_WORDS = [
         {
           "word": "sein",
           "meaning": "Byť",
-          "example": "Jestem tutaj."
+          "example": "Ich bin hier."
         }
       ],
       "tip": {
@@ -11982,17 +12056,17 @@ const A1_WORDS = [
         {
           "word": "mit",
           "meaning": "S/spolu s",
-          "example": "Ich komme mit reż."
+          "example": "Ich komme mit dir."
         },
         {
           "word": "ohne",
           "meaning": "Bez",
-          "example": "Przychodzę, ohne dich."
+          "example": "Ich komme ohne dich."
         },
         {
           "word": "bei",
           "meaning": "U niekoho",
-          "example": "Jestem Anna."
+          "example": "Ich bin bei Anna."
         },
         {
           "word": "zu",
@@ -12197,7 +12271,7 @@ const A1_WORDS = [
         {
           "word": "mögen",
           "meaning": "Ako",
-          "example": "Lubię Musika."
+          "example": "Ich mag Musik."
         },
         {
           "word": "möchte",
@@ -12207,12 +12281,12 @@ const A1_WORDS = [
         {
           "word": "wollen",
           "meaning": "Chcem",
-          "example": "Pójdę do domu."
+          "example": "Ich will nach Hause."
         },
         {
           "word": "lieben",
           "meaning": "Láska",
-          "example": "Kocham cię."
+          "example": "Ich liebe dich."
         }
       ],
       "tip": {
@@ -12666,17 +12740,17 @@ const A1_WORDS = [
         {
           "word": "müssen",
           "meaning": "Musím/musím urobiť",
-          "example": "Muszę iść."
+          "example": "Ich muss gehen."
         },
         {
           "word": "können",
           "meaning": "Môcť/vedieť",
-          "example": "Mogę przyjść."
+          "example": "Ich kann kommen."
         },
         {
           "word": "wollen",
           "meaning": "Chcem",
-          "example": "Pójdę do domu."
+          "example": "Ich will nach Hause."
         },
         {
           "word": "dürfen",
@@ -13216,12 +13290,12 @@ const A1_WORDS = [
         {
           "word": "bringen",
           "meaning": "Priniesť/vziať/doručiť",
-          "example": "Ich Bringe dir das Buch."
+          "example": "Ich bringe dir das Buch."
         },
         {
           "word": "holen",
           "meaning": "Choďte/prineste",
-          "example": "Ich dziura Wasser."
+          "example": "Ich hole Wasser."
         },
         {
           "word": "mitnehmen",
@@ -13859,17 +13933,17 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "Alebo si vyberte jednu z možností",
-          "example": "Kawa czy koszulka?"
+          "example": "Kaffee oder Tee?"
         },
         {
           "word": "wenn",
           "meaning": "Ak/kedy",
-          "example": "Kiedy masz czas..."
+          "example": "Wenn du Zeit hast..."
         },
         {
           "word": "dass",
           "meaning": "Toto",
-          "example": "Ich weiß dass er kommt."
+          "example": "Ich weiß, dass er kommt."
         }
       ],
       "tip": {
@@ -14042,7 +14116,7 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "Alebo si vyberte",
-          "example": "Kawa czy koszulka?"
+          "example": "Kaffee oder Tee?"
         },
         {
           "word": "ob",
@@ -14052,7 +14126,7 @@ const A1_WORDS = [
         {
           "word": "und",
           "meaning": "A",
-          "example": "Kawa i kuchnia."
+          "example": "Kaffee und Kuchen."
         },
         {
           "word": "aber",
@@ -14291,7 +14365,7 @@ const A1_WORDS = [
         {
           "word": "passen",
           "meaning": "Sedí/sedí",
-          "example": "Die Jacke obok Mir."
+          "example": "Die Jacke passt mir."
         },
         {
           "word": "stehen",
@@ -14301,12 +14375,12 @@ const A1_WORDS = [
         {
           "word": "geeignet sein",
           "meaning": "Buďte primeraný",
-          "example": "To jest odpowiednie."
+          "example": "Das ist geeignet."
         },
         {
           "word": "funktionieren",
           "meaning": "Práca",
-          "example": "To działa."
+          "example": "Das funktioniert."
         }
       ],
       "tip": {
@@ -14541,12 +14615,12 @@ const A1_WORDS = [
         {
           "word": "probieren",
           "meaning": "Vyskúšajte/ochutnajte",
-          "example": "Spróbuj zupy!"
+          "example": "Probier mal die Suppe!"
         },
         {
           "word": "versuchen",
           "meaning": "Skúste to",
-          "example": "Ich versuche I."
+          "example": "Ich versuche es."
         },
         {
           "word": "prüfen",
@@ -15526,7 +15600,7 @@ const A1_WORDS = [
         {
           "word": "sehen",
           "meaning": "Pozri",
-          "example": "Widzę cię."
+          "example": "Ich sehe dich."
         },
         {
           "word": "schauen",
@@ -15541,7 +15615,7 @@ const A1_WORDS = [
         {
           "word": "hören",
           "meaning": "Počuť",
-          "example": "Słucham muzyki."
+          "example": "Ich höre Musik."
         }
       ],
       "tip": {
@@ -15723,12 +15797,12 @@ const A1_WORDS = [
         {
           "word": "sein",
           "meaning": "Byť",
-          "example": "Jestem tutaj."
+          "example": "Ich bin hier."
         },
         {
           "word": "haben",
           "meaning": "Mám",
-          "example": "Mam czas."
+          "example": "Ich habe Zeit."
         },
         {
           "word": "werden",
@@ -16060,12 +16134,12 @@ const A1_WORDS = [
         {
           "word": "dich",
           "meaning": "Ty/ja v du",
-          "example": "Myjesz się."
+          "example": "Du wäschst dich."
         },
         {
           "word": "ihn",
           "meaning": "Jeho",
-          "example": "Ich widzę."
+          "example": "Ich sehe ihn."
         }
       ],
       "tip": {
@@ -16643,7 +16717,7 @@ const A1_WORDS = [
         {
           "word": "liegen",
           "meaning": "Spať/ľahnúť si",
-          "example": "Die Katze Liegt Dort."
+          "example": "Die Katze liegt dort."
         },
         {
           "word": "setzen",
@@ -16858,22 +16932,22 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "Mali/mali by sa riadiť odporúčaniami",
-          "example": "Czy soll ich machen?"
+          "example": "Was soll ich machen?"
         },
         {
           "word": "müssen",
           "meaning": "Nutne to potrebujem",
-          "example": "Muszę iść."
+          "example": "Ich muss gehen."
         },
         {
           "word": "können",
           "meaning": "Sila",
-          "example": "Mogę przyjść."
+          "example": "Ich kann kommen."
         },
         {
           "word": "wollen",
           "meaning": "Chcem",
-          "example": "Zostanę."
+          "example": "Ich will bleiben."
         }
       ],
       "tip": {
@@ -17119,7 +17193,7 @@ const A1_WORDS = [
         {
           "word": "liegen",
           "meaning": "Spať/ľahnúť si",
-          "example": "Das Buch Liegt Dort."
+          "example": "Das Buch liegt dort."
         },
         {
           "word": "stellen",
@@ -17520,7 +17594,7 @@ const A1_WORDS = [
         {
           "word": "auf",
           "meaning": "Navonok",
-          "example": "Das Buch Liegt auf dem Tisch."
+          "example": "Das Buch liegt auf dem Tisch."
         },
         {
           "word": "unter",
@@ -17530,7 +17604,7 @@ const A1_WORDS = [
         {
           "word": "von",
           "meaning": "Z/okolo nejakého zdroja",
-          "example": "Ich höre von reż."
+          "example": "Ich höre von dir."
         }
       ],
       "tip": {
@@ -17736,7 +17810,7 @@ const A1_WORDS = [
         {
           "word": "für",
           "meaning": "Pre/v prospech",
-          "example": "To jest dla ciebie."
+          "example": "Das ist für dich."
         }
       ],
       "tip": {
@@ -17916,7 +17990,7 @@ const A1_WORDS = [
         {
           "word": "über",
           "meaning": "Pre/pre",
-          "example": "Die Lampe häng über dem Tisch."
+          "example": "Die Lampe hängt über dem Tisch."
         },
         {
           "word": "zwischen",
@@ -18136,22 +18210,22 @@ const A1_WORDS = [
         {
           "word": "verstehen",
           "meaning": "Pochopte",
-          "example": "Rozumiem cię."
+          "example": "Ich verstehe dich."
         },
         {
           "word": "können",
           "meaning": "Môcť/vedieť",
-          "example": "Potrafię pływać."
+          "example": "Ich kann schwimmen."
         },
         {
           "word": "wissen",
           "meaning": "Viem jeden fakt",
-          "example": "Wiem to."
+          "example": "Ich weiß das."
         },
         {
           "word": "kennen",
           "meaning": "Vedieť",
-          "example": "Ich Kenne ihn."
+          "example": "Ich kenne ihn."
         }
       ],
       "tip": {
@@ -18643,12 +18717,12 @@ const A1_WORDS = [
         {
           "word": "vor",
           "meaning": "Pred/predtým",
-          "example": "Przed Essen..."
+          "example": "Vor dem Essen..."
         },
         {
           "word": "nach",
           "meaning": "Po / Do",
-          "example": "Nach de Essen..."
+          "example": "Nach dem Essen..."
         },
         {
           "word": "neben",
@@ -18658,7 +18732,7 @@ const A1_WORDS = [
         {
           "word": "hinter",
           "meaning": "Pre",
-          "example": "Wskazówki do domu."
+          "example": "Hinter dem Haus."
         }
       ],
       "tip": {
@@ -19069,17 +19143,17 @@ const A1_WORDS = [
         {
           "word": "wenn",
           "meaning": "Ak/kedy",
-          "example": "Kiedy masz czas..."
+          "example": "Wenn du Zeit hast..."
         },
         {
           "word": "ob",
           "meaning": "Alebo v nepriamej otázke",
-          "example": "Nie wiem, ale..."
+          "example": "Ich weiß nicht, ob..."
         },
         {
           "word": "wann",
           "meaning": "Keď na to príde",
-          "example": "Kiedy przyjdziesz?"
+          "example": "Wann kommst du?"
         },
         {
           "word": "weil",
@@ -19605,7 +19679,7 @@ const A1_WORDS = [
         {
           "word": "Zeit",
           "meaning": "Čas (chvíľa)",
-          "example": "Nie mam czasu."
+          "example": "Ich habe keine Zeit."
         },
         {
           "word": "Regen",
@@ -19992,7 +20066,7 @@ const A1_WORDS = [
         {
           "word": "bei",
           "meaning": "U niekoho/v práci",
-          "example": "Jestem Anna."
+          "example": "Ich bin bei Anna."
         }
       ],
       "tip": {
@@ -20188,7 +20262,7 @@ const A1_WORDS = [
         {
           "word": "die Straßenbahn",
           "meaning": "Električka",
-          "example": "Die Straßenbahn jest tutaj."
+          "example": "Die Straßenbahn ist hier."
         }
       ],
       "tip": {
@@ -20692,17 +20766,17 @@ const A1_WORDS = [
         {
           "word": "fernsehen",
           "meaning": "Sledujte televíziu",
-          "example": "Widzę paproć. = Pozerám televíziu."
+          "example": "Ich sehe fern. = Es skatos televīziju."
         },
         {
           "word": "das Fernsehen",
           "meaning": "Televízia (médiá)",
-          "example": "Im Fernsehen läuft ein Film. = V televízii sa premieta film."
+          "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
         },
         {
           "word": "sehen",
           "meaning": "Pozri",
-          "example": "Ich sehe einen Film. = Vidím film."
+          "example": "Ich sehe einen Film. = Es redzu filmu."
         }
       ],
       "tip": {

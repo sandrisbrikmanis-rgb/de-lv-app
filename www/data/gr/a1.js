@@ -55,7 +55,7 @@ const A1_WORDS = [
           "lv": "Μιλάμε για δουλειά."
         },
         {
-          "de": "Ich spreche Deutsch.",
+          "de": "Sie spricht mit ihrer Lehrerin.",
           "lv": "Μιλάω γερμανικά"
         }
       ],
@@ -165,11 +165,11 @@ const A1_WORDS = [
           "lv": "Το δωμάτιο είναι μικρό."
         },
         {
-          "de": "Das Zimmer ist klein.",
+          "de": "Das Kind ist noch klein.",
           "lv": "Το δωμάτιο είναι μικρό."
         },
         {
-          "de": "Das Kind ist noch klein.",
+          "de": "Ich habe eine kleine Tasche.",
           "lv": "Το παιδί είναι ακόμα μικρό."
         },
         {
@@ -754,7 +754,7 @@ const A1_WORDS = [
         {
           "word": "sondern",
           "meaning": "Όχι • Αλλά",
-          "example": "Ich wollte Tee, sondern Kaffee. – Ήθελα τσάι, όχι καφέ."
+          "example": "Ich wollte keinen Tee, sondern Kaffee. – Ήθελα τσάι, όχι καφέ."
         },
         {
           "word": "jedoch",
@@ -1229,11 +1229,11 @@ const A1_WORDS = [
           "lv": "Θα έρθω κι εγώ."
         },
         {
-          "de": "Ich komme auch.",
+          "de": "Sie arbeitet auch hier.",
           "lv": "Έρχομαι κι εγώ."
         },
         {
-          "de": "Sie arbeitet auch hier.",
+          "de": "Ich wünsche Ihnen auch einen schönen Tag.",
           "lv": "Δουλεύει και εδώ."
         }
       ],
@@ -2646,17 +2646,17 @@ const A1_WORDS = [
         {
           "word": "bis",
           "meaning": "Μέχρι (φτάσετε στο χρονικό σημείο)",
-          "example": "Ich bleibe bis 18 Uhr. – Θα μείνω μέχρι τις 18:00."
+          "example": "Ich bleibe bis morgen. – Θα μείνω μέχρι τις 18:00."
         },
         {
-          "word": "bis ... zu",
+          "word": "bis zu",
           "meaning": "Μέχρι (μέχρι ορισμένο χρόνο)",
-          "example": "Ich arbeite von 9 bis 17 Uhr. – Δουλεύω από τις 9 το πρωί έως τις 5 το απόγευμα."
+          "example": "bis zum Bahnhof – Δουλεύω από τις 9 το πρωί έως τις 5 το απόγευμα."
         },
         {
-          "word": "bis dass",
+          "word": "bis jetzt",
           "meaning": "Μέχρι, μέχρι",
-          "example": "Ich warte, bis dass du kommst. – Σε περιμένω να έρθεις."
+          "example": "Bis jetzt habe ich nichts verstanden. – Σε περιμένω να έρθεις."
         },
         {
           "word": "bis jetzt",
@@ -2805,15 +2805,15 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Bitte schön!",
-          "lv": "Παρακαλώ!"
-        },
-        {
-          "de": "Bitte schön!",
-          "lv": "Παρακαλώ!"
-        },
-        {
           "de": "Eine Tasse Kaffee, bitte.",
+          "lv": "Παρακαλώ!"
+        },
+        {
+          "de": "Komm bitte herein.",
+          "lv": "Παρακαλώ!"
+        },
+        {
+          "de": "Bitte schön!",
           "lv": "Ένα φλιτζάνι καφέ, παρακαλώ."
         },
         {
@@ -2934,7 +2934,19 @@ const A1_WORDS = [
             ]
           }
         ]
-      }
+      },
+      "comparison": [
+        {
+          "word": "bitte",
+          "meaning": "lūdzu",
+          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+        },
+        {
+          "word": "die Bitte",
+          "meaning": "lūgums",
+          "example": "Ich habe eine Bitte. – Man ir lūgums."
+        }
+      ]
     }
   },
   {
@@ -2963,11 +2975,11 @@ const A1_WORDS = [
           "lv": "Έχω ένα αίτημα."
         },
         {
-          "de": "Bitte schön!",
+          "de": "Er erfüllt meine Bitte.",
           "lv": "Παρακαλώ!"
         },
         {
-          "de": "Eine Tasse Kaffee, bitte.",
+          "de": "Sie hat zwei Bitten.",
           "lv": "Ένα φλιτζάνι καφέ, παρακαλώ."
         },
         {
@@ -3080,7 +3092,19 @@ const A1_WORDS = [
         "important": [
           {}
         ]
-      }
+      },
+      "comparison": [
+        {
+          "word": "die Bitte",
+          "meaning": "lūgums",
+          "example": "Ich habe eine Bitte. – Man ir lūgums."
+        },
+        {
+          "word": "bitte",
+          "meaning": "lūdzu",
+          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+        }
+      ]
     }
   },
   {
@@ -3424,15 +3448,15 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Bring mir bitte Wasser.",
+          "de": "Ich bringe dir ein Buch.",
           "lv": "Φέρε μου νερό σε παρακαλώ"
         },
         {
-          "de": "Ich bringe dich nach Hause.",
+          "de": "Ich bringe das Paket zur Post.",
           "lv": "Θα σε πάω σπίτι"
         },
         {
-          "de": "Er bringt das Buch zur Schule.",
+          "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Παίρνει το βιβλίο στο σχολείο."
         },
         {
@@ -3444,22 +3468,27 @@ const A1_WORDS = [
         {
           "word": "bringen",
           "meaning": "Φέρνω / παίρνω / παραδίδω",
-          "example": "Bring mir Wasser."
+          "example": "Ich bringe dir ein Buch. – Bring mir Wasser."
+        },
+        {
+          "word": "bringen",
+          "meaning": "Παίρνω / παραλαμβάνω",
+          "example": "Ich bringe das Paket zur Post. – Ich nehme das Buch."
+        },
+        {
+          "word": "bringen",
+          "meaning": "Να παραλάβω / φέρω",
+          "example": "Ich bringe die Kinder zur Schule. – Ich hole Wasser."
+        },
+        {
+          "word": "bringen",
+          "meaning": "Πάρτε και παραδώστε",
+          "example": "Ich bringe dir ein Buch. – Bringst du Brot mit?"
         },
         {
           "word": "nehmen",
-          "meaning": "Παίρνω / παραλαμβάνω",
-          "example": "Ich nehme das Buch."
-        },
-        {
-          "word": "holen",
-          "meaning": "Να παραλάβω / φέρω",
-          "example": "Ich hole Wasser."
-        },
-        {
-          "word": "mitbringen",
-          "meaning": "Πάρτε και παραδώστε",
-          "example": "Bringst du Brot mit?"
+          "meaning": "paņemt",
+          "example": "Ich nehme das Buch. – Es paņemu grāmatu."
         }
       ],
       "tip": {
@@ -4629,7 +4658,7 @@ const A1_WORDS = [
           "lv": "Αυτός ο τύπος είναι ωραίος."
         },
         {
-          "de": "Ich mag diesen Hund.",
+          "de": "Ich sehe diesen Hund.",
           "lv": "Μου αρέσει αυτό το σκυλί"
         },
         {
@@ -4842,6 +4871,10 @@ const A1_WORDS = [
         {
           "de": "Er sucht einen Stift.",
           "lv": "Ψάχνει για κάποιο είδος στυλό."
+        },
+        {
+          "de": "Ein Kind spielt.",
+          "lv": "Bērns spēlējas."
         }
       ],
       "tip": {
@@ -4950,6 +4983,28 @@ const A1_WORDS = [
       "important": [
         "Το ein δεν είναι οριστικό άρθρο.",
         "Εάν το θέμα είναι ήδη γνωστό συγκεκριμένα, συχνά χρειάζονται der, die ή das."
+      ],
+      "comparison": [
+        {
+          "word": "ein Mann",
+          "meaning": "vīriešu dzimte",
+          "example": "Ein Mann wartet draußen."
+        },
+        {
+          "word": "eine Frau",
+          "meaning": "sieviešu dzimte",
+          "example": "eine Frau"
+        },
+        {
+          "word": "ein Buch",
+          "meaning": "vidus dzimte",
+          "example": "Ich habe ein Buch."
+        },
+        {
+          "word": "einen Mann",
+          "meaning": "akuzatīvs",
+          "example": "einen Mann"
+        }
       ]
     }
   },
@@ -5288,7 +5343,7 @@ const A1_WORDS = [
       "explanation": "Το \"erst\" χρησιμοποιείται για να δείξει τάξη (πρώτα) ή για να τονίσει ότι κάτι θα συμβεί αργότερα από το αναμενόμενο ή σε μικρότερη κλίμακα (ακόμα).",
       "examples": [
         {
-          "de": "Erst trinken, dann fahren.",
+          "de": "Erst lernen, dann spielen.",
           "lv": "Πιείτε πρώτα και μετά οδηγήστε."
         },
         {
@@ -5308,7 +5363,7 @@ const A1_WORDS = [
         {
           "word": "erst",
           "meaning": "Πρώτο • Μόνο",
-          "example": "Erst arbeiten, dann Pause. = Vispirms strādāt, tad pauze."
+          "example": "Erst lernen, dann spielen. – Erst arbeiten, dann Pause. = Vispirms strādāt, tad pauze."
         },
         {
           "word": "zuerst",
@@ -5493,19 +5548,19 @@ const A1_WORDS = [
       "explanation": "Στα γερμανικά, δεν χρησιμοποιείς \"es\" για να μιλήσεις για τον εαυτό σου. Χρησιμοποιείται για να δηλώσει: αυτό, αυτός ή απρόσωπη μορφή (καιρός, χρόνος, διάφορες απρόσωπες προτάσεις).",
       "examples": [
         {
-          "de": "Ich lerne Deutsch.",
+          "de": "Es regnet.",
           "lv": "Μαθαίνω γερμανικά"
         },
         {
-          "de": "Er ist müde.",
+          "de": "Es ist kalt.",
           "lv": "Είναι κουρασμένος."
         },
         {
-          "de": "Sie arbeitet hier.",
+          "de": "Das Kind schläft.",
           "lv": "Εργάζεται εδώ."
         },
         {
-          "de": "Das ist mein Buch.",
+          "de": "Es ist müde.",
           "lv": "Αυτό είναι το βιβλίο μου."
         },
         {
@@ -5634,6 +5689,18 @@ const A1_WORDS = [
       "important": [
         "Το γερμανικό es δεν είναι το «εγώ» της εσθονικής γλώσσας.",
         "Το εσθονικό \"I\" είναι ich στα γερμανικά. Το γερμανικό es συχνά σημαίνει αυτό/αυτή ή παραμένει αμετάφραστο."
+      ],
+      "comparison": [
+        {
+          "word": "es",
+          "meaning": "tas • bezpersoniska forma",
+          "example": "Es regnet. – Līst."
+        },
+        {
+          "word": "ich",
+          "meaning": "es (persona)",
+          "example": "Ich lerne Deutsch. – Es mācos vācu valodu."
+        }
       ]
     }
   },
@@ -6378,7 +6445,8 @@ const A1_WORDS = [
     "de": "Wochenende",
     "de_article": "das",
     "lv": "Το Σαββατοκύριακο",
-    "level": "A1"
+    "level": "A1",
+    "de_plural": "die Wochenenden"
   },
   {
     "de": "Fernseher",
@@ -6427,15 +6495,15 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ich finde meinen Schlüssel nicht.",
+          "de": "Ich finde meinen Schlüssel.",
           "lv": "Δεν μπορώ να βρω το κλειδί μου."
         },
         {
-          "de": "Hast du dein Handy gefunden?",
+          "de": "Ich finde das gut.",
           "lv": "Βρήκες το τηλέφωνό σου"
         },
         {
-          "de": "Ich finde das gut.",
+          "de": "Wie findest du den Film?",
           "lv": "Νομίζω ότι είναι καλό."
         },
         {
@@ -6948,7 +7016,8 @@ const A1_WORDS = [
     "de": "Frühstück",
     "de_article": "das",
     "lv": "Πρωινό",
-    "level": "A1"
+    "level": "A1",
+    "de_plural": "die Frühstücke"
   },
   {
     "de": "frühstücken",
@@ -7785,7 +7854,7 @@ const A1_WORDS = [
           "lv": "Το σπίτι είναι μεγάλο."
         },
         {
-          "de": "Das Haus ist groß.",
+          "de": "Berlin ist eine große Stadt.",
           "lv": "Το σπίτι είναι μεγάλο."
         },
         {
@@ -8399,7 +8468,7 @@ const A1_WORDS = [
         {
           "word": "halten",
           "meaning": "Κρατήστε / σταματήστε",
-          "example": "Der Bus hält. = Autobuss apstājas."
+          "example": "Der Bus hält. = Autobuss pietur."
         },
         {
           "word": "nehmen",
@@ -8407,9 +8476,9 @@ const A1_WORDS = [
           "example": "Ich nehme die Tasche. = Es ņemu somu."
         },
         {
-          "word": "stoppen",
+          "word": "anhalten",
           "meaning": "Να σταματήσει",
-          "example": "Stoppen Sie das Auto. = Apturiet auto."
+          "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
         },
         {
           "word": "denken",
@@ -8721,7 +8790,12 @@ const A1_WORDS = [
         {
           "word": "rufen",
           "meaning": "Να καλέσει / να καλέσει",
-          "example": "Ich rufe dich. = Es tevi saucu / zvanu tev."
+          "example": "Ich rufe dich. = Es tevi pasaucu."
+        },
+        {
+          "word": "anrufen",
+          "meaning": "zvanīt",
+          "example": "Ich rufe dich an. = Es tev piezvanu."
         }
       ],
       "tip": {
@@ -8971,7 +9045,7 @@ const A1_WORDS = [
           "lv": "Το βουνό είναι ψηλό."
         },
         {
-          "de": "Der Berg ist hoch.",
+          "de": "Das Regal ist zwei Meter hoch.",
           "lv": "Το βουνό είναι ψηλό."
         },
         {

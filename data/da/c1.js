@@ -2454,22 +2454,22 @@ const C1_WORDS = [
         {
           "word": "gelegentlich (Adv.)",
           "meaning": "Nogle gange • Nu og da",
-          "example": "Er kommt gelegentlich. = Han kommer nogle gange."
+          "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
         },
         {
           "word": "gelegentlich (Adj.)",
           "meaning": "Casual • Tilfældig",
-          "example": "ein gelegentlicher Besuch = Uformelt besøg"
+          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
         },
         {
           "word": "gelegentlich (+ Gen.)",
           "meaning": "Pga",
-          "example": "gelegentlich des Festes = På grund af ferie"
+          "example": "gelegentlich des Festes = svētku sakarā"
         },
         {
           "word": "manchmal",
           "meaning": "Undertiden",
-          "example": "Manchmal regnet es. = Nogle gange regner det."
+          "example": "Manchmal regnet es. = Reizēm līst."
         }
       ],
       "tip": {
@@ -3824,17 +3824,17 @@ const C1_WORDS = [
         {
           "word": "wahlberechtigt",
           "meaning": "Med stemmeret",
-          "example": "Er ist wahlberechtigt. = Han har stemmeret."
+          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
         },
         {
           "word": "wählen",
           "meaning": "At ønske • At stemme",
-          "example": "Ich wähle heute. = Jeg stemte i dag."
+          "example": "Ich wähle heute. = Es šodien balsoju."
         },
         {
           "word": "der Wähler",
           "meaning": "Vælger",
-          "example": "Der Wähler geht zur Wahl. = En vælger går til stemmeurnerne."
+          "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
         }
       ],
       "tip": {

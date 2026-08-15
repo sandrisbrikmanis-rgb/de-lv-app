@@ -7740,19 +7740,19 @@ const B2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Das Hochwasser",
+          "word": "das Hochwasser",
           "meaning": "Inundaţie • Nivel ridicat al apei",
-          "example": "Es gibt Hochwasser. = Există o inundație."
+          "example": "Es gibt Hochwasser. = Ir plūdi."
         },
         {
-          "word": "Die Überschwemung",
+          "word": "die Überschwemmung",
           "meaning": "Inundație (specifică)",
-          "example": "Die Überschwemmung zerstörte Häuser. = Inundațiile au distrus case."
+          "example": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas."
         },
         {
-          "word": "Se potriveste cu Pegel",
+          "word": "der Pegel",
           "meaning": "Nivelul apei",
-          "example": "Der Pegel steigt. = Nivelul apei crește."
+          "example": "Der Pegel steigt. = Ūdens līmenis ceļas."
         }
       ],
       "tip": {
@@ -9194,17 +9194,17 @@ const B2_WORDS = [
         {
           "word": "Nachdruck legen auf",
           "meaning": "Subliniază, insistă",
-          "example": "Er legt Nachdruck auf die Frist. = El subliniază termenul limită."
+          "example": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu."
         },
         {
-          "word": "Der Nachdruck (Buch)",
+          "word": "der Nachdruck (Buch)",
           "meaning": "Reeditare",
-          "example": "Der Nachdruck erschien im Frühjahr. = Reeditarea a apărut în primăvară."
+          "example": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī."
         },
         {
-          "word": "Der Druck",
+          "word": "der Druck",
           "meaning": "Presiune / imprimare",
-          "example": "Unter Druck stehen = A fi sub presiune."
+          "example": "Unter Druck stehen = būt spiedienā."
         }
       ],
       "tip": [
@@ -14191,19 +14191,19 @@ const B2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Pescuit",
+          "word": "zuweisen",
           "meaning": "Atribuie • Atribuie",
-          "example": "Er weist die Aufgabe zu. = El atribuie sarcina."
+          "example": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu."
         },
         {
-          "word": "Da",
+          "word": "geben",
           "meaning": "A da",
-          "example": "Er gibt mir die Arbeit. = Îmi dă un loc de muncă."
+          "example": "Er gibt mir die Arbeit. = Viņš man dod darbu."
         },
         {
-          "word": "Distribui",
+          "word": "verteilen",
           "meaning": "A împărți",
-          "example": "Er verteilt die Aufgaben. = Împarte sarcinile."
+          "example": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus."
         }
       ],
       "tip": {
@@ -14283,24 +14283,24 @@ const B2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Zuwider (+ Dat.)",
+          "word": "zuwider (+ Dat.)",
           "meaning": "Împotriva • Contrar",
-          "example": "mir zuwider = Împotriva voinței mele"
+          "example": "mir zuwider = pret manu gribu"
         },
         {
-          "word": "Jemandem zuwider sein",
+          "word": "jemandem zuwider sein",
           "meaning": "Cuiva nu o sa-i placa",
-          "example": "Es ist mir zuwider. = Nu-mi place."
+          "example": "Es ist mir zuwider. = Man tas nepatīk."
         },
         {
-          "word": "Mai larg",
+          "word": "wider",
           "meaning": "Împotriva (prepoziție)",
-          "example": "wider den Willen = Împotriva voinţei"
+          "example": "wider den Willen = pret gribu"
         },
         {
-          "word": "Widersprechen",
+          "word": "widersprechen",
           "meaning": "Se opune • Nu sunt de acord",
-          "example": "Ich widerspreche. = Obiectez."
+          "example": "Ich widerspreche. = Es iebilstu."
         }
       ],
       "tip": {
@@ -14704,19 +14704,19 @@ const B2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Anbieten",
+          "word": "anbieten",
           "meaning": "Oferta (activ)",
-          "example": "Ich biete Hilfe an. = Ofer ajutor."
+          "example": "Ich biete Hilfe an. = Es piedāvāju palīdzību."
         },
         {
-          "word": "Sfeclă",
+          "word": "bieten",
           "meaning": "Oferi • Da",
-          "example": "Er bietet viel Geld. = Oferă mulți bani."
+          "example": "Er bietet viel Geld. = Viņš piedāvā daudz naudas."
         },
         {
-          "word": "Vorschlagen",
+          "word": "vorschlagen",
           "meaning": "Propune",
-          "example": "Ich schlage vor. = Eu propun."
+          "example": "Ich schlage vor. = Es ierosinu."
         }
       ],
       "tip": {
@@ -15010,4 +15010,5 @@ const B2_WORDS = [
     }
   }
 ];
+
 window.B2_WORDS = B2_WORDS;

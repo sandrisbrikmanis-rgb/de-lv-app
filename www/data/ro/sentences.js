@@ -3980,4 +3980,5 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   }
 ];
+
 window.SENTENCE_ENTRIES = SENTENCE_ENTRIES;

@@ -7820,7 +7820,7 @@ const B2_WORDS = [
         {
           "word": "das Hochwasser",
           "meaning": "Plūdi • Augsts ūdens līmenis",
-          "example": "Es gibt Hochwasser. = Er is een overstroming."
+          "example": "Es gibt Hochwasser. = Ir plūdi."
         },
         {
           "word": "die Überschwemmung",
@@ -9333,7 +9333,7 @@ const B2_WORDS = [
         {
           "word": "der Druck",
           "meaning": "Spiediens / druka",
-          "example": "Unter Druck stehen = Būt spiedienā."
+          "example": "Unter Druck stehen = būt spiedienā."
         }
       ],
       "tip": [
@@ -14548,7 +14548,7 @@ const B2_WORDS = [
         {
           "word": "zuwider (+ Dat.)",
           "meaning": "Pret • Pretēji",
-          "example": "mir zuwider = Pret manu gribu"
+          "example": "mir zuwider = pret manu gribu"
         },
         {
           "word": "jemandem zuwider sein",
@@ -14558,7 +14558,7 @@ const B2_WORDS = [
         {
           "word": "wider",
           "meaning": "Pret (prievārds)",
-          "example": "wider den Willen = Pret gribu"
+          "example": "wider den Willen = pret gribu"
         },
         {
           "word": "widersprechen",
