@@ -48,7 +48,8 @@ Actual article: die
 Actual plural: die Tagungen
 Current EN: Sitting
 OWNER FINAL EN: Conference / meeting
-Tageordnung production card exists: YES
+Tageordnung B1 production card exists: NO
+Tagesordnung B1 production card exists: YES
 Matching Tagung production cards: 1
 TAGUNG IDENTITY GATE: PASS
 Production ID changed: NO
@@ -115,7 +116,8 @@ Audit ID: b1-Tageordnung-2835
 Actual lemma: Tagung
 Current EN (before repair): Sitting
 OWNER FINAL EN: Conference / meeting
-Tageordnung production card exists: YES
+Tageordnung B1 production card exists: NO
+Tagesordnung B1 production card exists: YES
 Matching Tagung cards: 1
 TAGUNG IDENTITY GATE: PASS
 \`\`\`
