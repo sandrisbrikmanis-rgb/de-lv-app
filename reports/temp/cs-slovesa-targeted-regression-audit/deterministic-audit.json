@@ -1,0 +1,13 @@
+{
+  "findings": [],
+  "fullIntegrity": {
+    "dataset": "slovesa",
+    "label": "Slovesa",
+    "lvCount": 189,
+    "csCount": 189,
+    "batchSize": 50,
+    "batchCount": 4,
+    "auditedObjects": 189,
+    "coverage": "100%"
+  }
+}
