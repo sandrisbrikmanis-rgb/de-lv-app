@@ -5888,11 +5888,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Desátá přednáška: sein, können, rozkazovací způsob, zdraví, věk a povolání.
 
 OWNER note:
+Sdílený target s #152; Přednáška konvence zachována.
 
 ---
 
@@ -5924,11 +5926,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Desátá přednáška: sein, können, rozkazovací způsob, zdraví, věk a povolání.
 
 OWNER note:
+DE_PARITY_ISSUE: CS intro opraven společně s #151; DE neměněn.
 
 ---
 
@@ -5960,11 +5964,12 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: NELABOT
 
 OWNER NEW:
 
 OWNER note:
+Kurz konzistentně používá „Přednáška“.
 
 ---
 
@@ -5996,11 +6001,12 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: NELABOT
 
 OWNER NEW:
 
 OWNER note:
+DE_PARITY_ISSUE dokumentováno; stejný důvod jako #153.
 
 ---
 
@@ -6032,11 +6038,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Haben, kein/keine/keinen, přivlastňovací zájmena a složená podstatná jména
 
 OWNER note:
+Sdílený target s #156.
 
 ---
 
@@ -6068,11 +6076,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Haben, kein/keine/keinen, přivlastňovací zájmena a složená podstatná jména
 
 OWNER note:
+DE_PARITY_ISSUE: CS subtitle opraven společně s #155.
 
 ---
 
@@ -6104,11 +6114,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Jedenáctá přednáška: haben, zápor s kein/keine/keinen, vyjadřování vlastnictví, složená podstatná jména a slovosled s denn.
 
 OWNER note:
+Sdílený target s #158.
 
 ---
 
@@ -6140,11 +6152,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Jedenáctá přednáška: haben, zápor s kein/keine/keinen, vyjadřování vlastnictví, složená podstatná jména a slovosled s denn.
 
 OWNER note:
+DE_PARITY_ISSUE: CS intro opraven společně s #157.
 
 ---
 
@@ -6178,9 +6192,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Český dativ a německý nominativ/akuzativ
 
 OWNER note:
 
@@ -6214,9 +6229,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+V češtině je osoba, které něco patří, v dativu a vlastněný předmět v nominativu. V němčině je osoba v nominativu a vlastněný předmět v akuzativu.
 
 OWNER note:
 
@@ -6249,9 +6265,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Příklady
 
 OWNER note:
 
@@ -6285,9 +6302,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Ich habe einen Tisch — Mám stůl
 
 OWNER note:
 
@@ -6323,9 +6341,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Der Vater hat ein Buch — Otec má knihu
 
 OWNER note:
 
@@ -6361,9 +6380,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Sie haben eine Feder — Oni mají pero
 
 OWNER note:
 
@@ -6397,9 +6417,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Dvojitá negace českého jazyka se v němčině nevyjadřuje záporným slovem kein. Záporné slovo kein stojí před podstatným jménem.
 
 OWNER note:
 
@@ -6435,9 +6456,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Slovosled se spojkou denn
 
 OWNER note:
 
@@ -6471,9 +6493,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Obsahuje-li oznamovací věta spojku denn, zůstává sloveso na 2. pozici. Spojka denn se nepočítá jako větný člen.
 
 OWNER note:
 
@@ -6509,9 +6532,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Složená podstatná jména
 
 OWNER note:
 
@@ -6545,9 +6569,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Před složenými podstatnými jmény stojí člen určený podle posledního podstatného jména. Přízvuk bývá na první části složeniny.
 
 OWNER note:
 
@@ -6583,9 +6608,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Kleiner als ich — Menší než já
 
 OWNER note:
 
@@ -6619,9 +6645,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Druhý stupeň (komparativ) přídavných jmen se tvoří od základního stupně (pozitiv) s koncovkou -er.
 
 OWNER note:
 
@@ -6657,9 +6684,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Die Beine — Nohy
 
 OWNER note:
 
@@ -6693,9 +6721,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Beschneiden — ořezávat
 
 OWNER note:
 
@@ -6731,9 +6760,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Odlučitelná slovesa
 
 OWNER note:
 
@@ -6769,9 +6799,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Zájmeno jeder
 
 OWNER note:
 
@@ -6805,9 +6836,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Zájmeno jeder se skloňuje jako určitý člen der / die / das.
 
 OWNER note:
 
@@ -6843,9 +6875,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Mužský rod
 
 OWNER note:
 
@@ -6881,9 +6914,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Ženský rod
 
 OWNER note:
 
@@ -6919,9 +6953,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Střední rod
 
 OWNER note:
 
@@ -6957,9 +6992,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Nominativ
 
 OWNER note:
 
@@ -6994,9 +7030,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Akuzativ
 
 OWNER note:
 
@@ -7030,9 +7067,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+munden — dobře chutnat
 
 OWNER note:
 
@@ -7068,9 +7106,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Důležité
 
 OWNER note:
 
@@ -7104,11 +7143,12 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: NELABOT
 
 OWNER NEW:
 
 OWNER note:
+SOURCE_DE_ISSUE: německý imperativ záměrný; DE neměněn.
 
 ---
 
@@ -7142,9 +7182,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+entzweischneiden — překrojit napůl
 
 OWNER note:
 
@@ -7178,9 +7219,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Sloveso entzweischneiden je odlučitelné, takže se v přítomném čase jeho část entzwei odděluje a stojí na konci věty.
 
 OWNER note:
 
@@ -7216,9 +7258,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Ich schneide den Apfel entzwei. — Jablko překrojím napůl.
 
 OWNER note:
 
@@ -7254,9 +7297,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Oddělitelné předpony
 
 OWNER note:
 
@@ -7290,9 +7334,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Slovesa auffangen a abwischen mají přízvuk na předponě. Proto se předpona v přítomném čase odděluje a kládá na konec věty.
 
 OWNER note:
 
@@ -7326,9 +7371,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Fegen a wischen označují různé způsoby úklidu: fegen znamená zametat, zatímco wischen znamená vytírat nebo utírat.
 
 OWNER note:
 
@@ -7364,9 +7410,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Fegen — zametat koštětem
 
 OWNER note:
 
@@ -7402,9 +7449,10 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Wischen / abwischen — vytírat nebo utírat hadrem či utěrkou, utírat prach
 
 OWNER note:
 
@@ -7440,11 +7488,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Odpověz v jednotném čísle a poté v množném čísle.
 
 OWNER note:
+Stejný OWNER NEW pro #195, #197, #199.
 
 ---
 
@@ -7478,11 +7528,13 @@ Audit reason:
 
 Confidence: medium
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Nyní odpověz v množném čísle.
 
 OWNER note:
+Stejný OWNER NEW pro #196, #198, #200.
 
 ---
 
@@ -7515,9 +7567,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Odpověz v jednotném čísle a poté v množném čísle.
 
 OWNER note:
 
@@ -7552,9 +7605,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Nyní odpověz v množném čísle.
 
 OWNER note:
 
@@ -7589,9 +7643,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Odpověz v jednotném čísle a poté v množném čísle.
 
 OWNER note:
 
@@ -7626,9 +7681,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Nyní odpověz v množném čísle.
 
 OWNER note:
 
@@ -7663,9 +7719,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Odpověz v jednotném čísle a poté v množném čísle.
 
 OWNER note:
 
@@ -7700,9 +7757,10 @@ Audit reason:
 
 Confidence: high
 
-Status: PENDING
+Status: LABOT
 
 OWNER NEW:
+Nyní odpověz v množném čísle.
 
 OWNER note:
 
