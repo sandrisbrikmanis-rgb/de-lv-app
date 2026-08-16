@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-08-16T11:37:43.131Z",
+  "branch": "cursor/da-a2-owner-repair-fffe",
+  "head": "b74a5d29d820b1295bfc5582f7dc4856d3148bf7",
+  "mainBase": "6ebf38b471a9bc10962cf246c73d4218033c5370",
+  "repairVerification": {
+    "main": {
+      "exactSet": 603,
+      "exactFjern": 792,
+      "mismatch": 0,
+      "missing": 0,
+      "mismatches": [],
+      "total": 1395
+    },
+    "low29": {
+      "exactSet": 24,
+      "exactFjern": 5,
+      "mismatch": 0,
+      "missing": 0,
+      "mismatches": [],
+      "total": 29
+    }
+  },
+  "structural": {
+    "cardCountPass": true,
+    "studyCountPass": true,
+    "mirrorPass": true,
+    "deIntegrityPass": true,
+    "studyParityPass": true,
+    "studyIdsUnique": true
+  },
+  "meta": {
+    "date": "2026-08-16",
+    "daFile": "data/da/a2.js",
+    "note": "Dāņu tulkojumi glabājas laukā lv (projekta konvencija).",
+    "deReference": "data/a2.js (DE parity only, READ-ONLY)",
+    "wwwFile": "www/data/da/a2.js",
+    "productionCards": 1640,
+    "expectedCards": 1640,
+    "studyCount": 231,
+    "deStudyCount": 231,
+    "expectedStudies": 231,
+    "regularCards": 1409,
+    "mirrorIdentical": true,
+    "syntaxOk": true,
+    "deChanges": 0,
+    "productionChanges": 0
+  },
+  "fullDiscovery": {
+    "total": 30,
+    "bySeverity": {
+      "CRITICAL": 0,
+      "HIGH": 1,
+      "MEDIUM": 29,
+      "LOW": 0
+    },
+    "categories": {
+      "tip_sectionAccent_stale": 29,
+      "lv_word_heuristic": 1
+    },
+    "falsePositiveIds": [
+      "DA-A2-0030"
+    ],
+    "actionableCount": 29
+  },
+  "targetedRegression": {
+    "changedCards": 187,
+    "findings": 0,
+    "bySev": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "MEDIUM": 0,
+      "LOW": 0
+    },
+    "verdict": "DA–DE A2: FINAL CLOSED (targeted regression PASS)",
+    "report": "/workspace/reports/da-a2-targeted-regression-audit.md"
+  },
+  "low29Regression": {
+    "reviewed": 29,
+    "lowRemaining": 0,
+    "deChanges": 0,
+    "unexpected": 0,
+    "mirror": true,
+    "pass": true,
+    "report": "/workspace/reports/da-a2-low29-regression-audit.md"
+  },
+  "verdict": "DA–DE A2: POST-REGRESSION CLOSED (OWNER repair scope verified; full discovery residuals documented)",
+  "pass": true,
+  "reports": {
+    "markdown": "/workspace/reports/da-a2-post-regression-audit.md",
+    "targeted": "/workspace/reports/da-a2-targeted-regression-audit.md",
+    "low29": "/workspace/reports/da-a2-low29-regression-audit.md"
+  }
+}
