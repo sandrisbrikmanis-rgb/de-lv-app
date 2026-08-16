@@ -67,6 +67,8 @@ Atrasts **1575** labojumu ierakstu. DE integritāte: **PASS**; Study paritāte: 
 
 ## 4. OWNER review faili
 
+**GitHub atvēršanas indekss (visas saites):** [`da-b1-owner-review-GITHUB.md`](./da-b1-owner-review-GITHUB.md) · PR [#546](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/546)
+
 - [`da-b1-owner-review-README.md`](./da-b1-owner-review-README.md)
 - [`da-b1-owner-review-comparison-01.md`](./da-b1-owner-review-comparison-01.md)
 - [`da-b1-owner-review-comparison-02.md`](./da-b1-owner-review-comparison-02.md)

@@ -1,5 +1,7 @@
 # DA–DE B1 — OWNER review (Copy-Only workflow)
 
+**GitHub atvēršana (visas saites):** [da-b1-owner-review-GITHUB.md](./da-b1-owner-review-GITHUB.md) · **PR:** [#546](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/546)
+
 Tas pats princips kā **DA–DE A1** un **CS–DE Kurss — Lekcijas**:
 
 1. Zemāk tabulā **noklikšķini** uz Review vai Decisions faila (zilais links).
