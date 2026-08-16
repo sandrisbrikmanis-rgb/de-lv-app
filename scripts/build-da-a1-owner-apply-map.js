@@ -41,7 +41,7 @@ function parseGroupFile(filePath) {
       continue;
     }
     if (current && line.trim() && !line.startsWith("---") && !line.startsWith("## ") && !line.startsWith("|") && !line.startsWith("- **")) {
-      if (/^\s{10,}/.test(line) || (!line.includes("`") && !line.startsWith("#"))) {
+      if (/^\s{10,}/.test(line) && !/^[-=]{10,}/.test(line.trim())) {
         current.ownerNew = normalizeDecision(`${current.ownerNew} ${line.trim()}`);
       }
     }

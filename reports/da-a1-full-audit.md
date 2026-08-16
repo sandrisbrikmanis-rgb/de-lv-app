@@ -1,14 +1,41 @@
 # DA–DE A1 pilns lingvistiskais un kvalitātes audits
 
-**Datums:** 2026-08-16
-**Auditors:** GPT-5.6 Luna (READ-ONLY)
+**Datums:** 2026-08-16 (sākotnējais audits) · **Closure:** 2026-08-16
+**Auditors:** GPT-5.6 Luna (READ-ONLY) · **Closure apply:** Cloud Agent (OWNER COPY-ONLY + final closure)
 **Production fails:** `data/da/a1.js` (primārais) + `www/data/da/a1.js` (mirror)
 **Piezīme:** Lietotāja norādītais ceļš `languages/da/data/a1.js` nav; production DA A1 ir `data/da/a1.js`. Dāņu tulkojumi glabājas laukā `lv` (projekta konvencija).
 **DE etalons (tikai lasīšana):** `data/a1.js`
 
 ---
 
-## 1. Kopsavilkums
+## CLOSURE — 2026-08-16
+
+| Metrika | Vērtība |
+|---------|---------|
+| Kartītes | **702/702** |
+| Study objekti | **134/134** |
+| Missing Study | **0** |
+| LV remnants | **0** |
+| EN remnants | **0** |
+| Foreign remnants | **0** |
+| Zero-width | **0** |
+| stale/invalid `sectionAccents` | **0** |
+| Syntax | **PASS** |
+| ID/order | **PASS** |
+| Mirror | **PASS** |
+| Parity (`audit-language-parity --lang=da`) | **PASS** |
+| DE changes | **0** |
+| Unexpected changes | **0** |
+
+### Gala rezultāts (closure)
+
+## **DA–DE A1: OWNER ACCEPTED / CLOSED — 100% GATAVS**
+
+OWNER apply (131 lauki + 10 Study) + final closure (`scripts/apply-da-a1-final-closure-repair.js`): `nett` → Hun er meget sød.; `fahren.study.translation` → Køre; `bitte` sectionAccents Behage → Venligst/Værsgo; 10 jauno Study DA salāgošana (comparison/tip/examples + sectionAccents); apply-map parser korupcijas labojums (`finden`, `noch`).
+
+---
+
+## 1. Kopsavilkums (sākotnējais READ-ONLY audits)
 
 | Metrika | Vērtība |
 |---------|---------|

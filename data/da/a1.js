@@ -2401,18 +2401,18 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "der Besuch",
-          "meaning": "apmeklējums • apciemojums • vizīte",
-          "example": "Danke für deinen Besuch. – Paldies par tavu apciemojumu."
+          "meaning": "besøg • socialt besøg • hjemmebesøg",
+          "example": "Danke für deinen Besuch. – Tak for dit besøg."
         },
         {
           "word": "der Besucher",
-          "meaning": "apmeklētājs",
-          "example": "Der Besucher wartet draußen. – Apmeklētājs gaida ārā."
+          "meaning": "besøgende",
+          "example": "Der Besucher wartet draußen. – Besøgende venter udenfor."
         },
         {
           "word": "besuchen",
-          "meaning": "apmeklēt • apciemot",
-          "example": "Ich besuche meine Großeltern. – Es apciemoju savus vecvecākus."
+          "meaning": "at besøge",
+          "example": "Ich besuche meine Großeltern. – Jeg besøger mine bedsteforældre."
         }
       ],
       "tip": {
@@ -2429,9 +2429,7 @@ const A1_WORDS = [
             "die Besuche"
           ],
           "purple": [
-            "apmeklējums",
-            "apciemojums",
-            "vizīte"
+            "besøg"
           ]
         },
         "examples": [
@@ -2446,10 +2444,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "apmeklējums"
+                "Besøget"
               ],
               "green": [
-                "Muzeja"
+                "museet"
               ]
             }
           },
@@ -2461,7 +2459,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "apciemojumu"
+                "besøg"
               ]
             }
           },
@@ -2476,10 +2474,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vizītē"
+                "hjemmebesøg"
               ],
               "green": [
-                "Ārsts"
+                "Lægen"
               ]
             }
           }
@@ -2493,9 +2491,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "apmeklējums",
-                "apciemojums",
-                "vizīte"
+                "besøg",
+                "socialt",
+                "hjemmebesøg"
               ]
             }
           },
@@ -2507,7 +2505,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "apmeklētājs"
+                "besøgende"
               ]
             }
           },
@@ -2519,8 +2517,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "apmeklēt",
-                "apciemot"
+                "besøge"
               ]
             }
           }
@@ -2530,10 +2527,7 @@ const A1_WORDS = [
             "blue": [
               "Besuch"
             ],
-            "purple": [
-              "notikums",
-              "vizīte"
-            ],
+            "purple": [],
             "green": [
               "Besucher"
             ]
@@ -2545,9 +2539,7 @@ const A1_WORDS = [
               "der Besuch"
             ],
             "purple": [
-              "apmeklējums",
-              "apciemojums",
-              "vizīte"
+              "besøg"
             ]
           },
           {
@@ -2582,33 +2574,33 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ich besuche das Museum.",
+          "de": "Ich besuche meine Großeltern.",
           "lv": "Jeg besøger mine bedsteforældre."
         },
         {
-          "de": "Wir besuchen einen Deutschkurs.",
+          "de": "Wir besuchen das Museum.",
           "lv": "Vi besøger museet."
         },
         {
-          "de": "Ich besuche meine Großeltern.",
+          "de": "Er besucht einen Freund.",
           "lv": "Han besøger en ven."
         }
       ],
       "comparison": [
         {
           "word": "besuchen",
-          "meaning": "apmeklēt vietu vai pasākumu • apciemot personu",
-          "example": "Ich besuche meine Großeltern. – Es apciemoju savus vecvecākus."
+          "meaning": "at besøge en person eller et sted",
+          "example": "Ich besuche meine Großeltern. – Jeg besøger mine bedsteforældre."
         },
         {
           "word": "treffen",
-          "meaning": "satikt",
-          "example": "Ich treffe meinen Freund. – Es satieku savu draugu."
+          "meaning": "at møde",
+          "example": "Ich treffe meinen Freund. – Jeg møder min ven."
         },
         {
           "word": "zu jemandem gehen",
-          "meaning": "iet pie kāda",
-          "example": "Ich gehe zu meinem Freund. – Es eju pie sava drauga."
+          "meaning": "at gå til nogen",
+          "example": "Ich gehe zu meinem Freund. – Jeg går til min ven."
         }
       ],
       "tip": {
@@ -2624,52 +2616,14 @@ const A1_WORDS = [
             "besuchen"
           ],
           "purple": [
-            "apmeklēt",
-            "apciemot"
+            "besøge"
           ],
           "green": [
-            "vietu",
-            "pasākumu",
-            "personu"
+            "person",
+            "sted"
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "besuche"
-              ],
-              "green": [
-                "Museum"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "apmeklēju"
-              ],
-              "green": [
-                "muzeju"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "besuchen"
-              ],
-              "green": [
-                "Deutschkurs"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "apmeklējam"
-              ],
-              "green": [
-                "vācu valodas kursu"
-              ]
-            }
-          },
           {
             "de": {
               "blue": [
@@ -2681,10 +2635,46 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "apciemoju"
+                "besøger"
               ],
               "green": [
-                "vecvecākus"
+                "bedsteforældre"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "besøger"
+              ],
+              "green": [
+                "museet"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besucht"
+              ],
+              "green": [
+                "Freund"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "besøger"
+              ],
+              "green": [
+                "ven"
               ]
             }
           }
@@ -2698,8 +2688,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "apmeklēt",
-                "apciemot"
+                "besøge"
               ]
             },
             "example": {
@@ -2707,7 +2696,7 @@ const A1_WORDS = [
                 "besuche"
               ],
               "purple": [
-                "apciemoju"
+                "besøger"
               ]
             }
           },
@@ -2719,7 +2708,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "satikt"
+                "møde"
               ]
             },
             "example": {
@@ -2736,12 +2725,12 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "iet pie kāda"
+                "gå"
               ]
             },
             "example": {
               "yellow": [
-                "gehe zu"
+                "gehe"
               ]
             }
           }
@@ -2752,8 +2741,7 @@ const A1_WORDS = [
               "besuchen"
             ],
             "purple": [
-              "apmeklēt",
-              "apciemot"
+              "besøge"
             ]
           }
         },
@@ -2763,18 +2751,12 @@ const A1_WORDS = [
               "besuchen"
             ],
             "purple": [
-              "bez prievārda"
+              "akkusativ"
             ]
           },
           {
-            "green": [
-              "vietu",
-              "personu"
-            ],
-            "purple": [
-              "apmeklēt",
-              "apciemot"
-            ]
+            "green": [],
+            "purple": []
           }
         ]
       }
@@ -2999,7 +2981,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Behage"
+                "tak"
               ]
             }
           },
@@ -3011,7 +2993,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Behage"
+                "Venligst"
               ]
             }
           },
@@ -3023,7 +3005,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kop"
+                "Værsgo"
               ]
             }
           }
@@ -3094,23 +3076,11 @@ const A1_WORDS = [
         },
         {
           "de": "Er erfüllt meine Bitte.",
-          "lv": "Behage!"
+          "lv": "Han opfylder min anmodning."
         },
         {
           "de": "Sie hat zwei Bitten.",
-          "lv": "En kop kaffe, tak."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Må jeg spørge venligst"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Jeg har en anmodning."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Anmodningen er vigtig."
+          "lv": "Hun har to anmodninger."
         }
       ],
       "tip": {
@@ -3572,15 +3542,11 @@ const A1_WORDS = [
         "examples": [
           {
             "de": {
-              "blue": [
-                "Bring"
-              ],
+              "blue": [],
               "yellow": []
             },
             "lv": {
-              "purple": [
-                "Bring"
-              ]
+              "purple": []
             }
           },
           {
@@ -3602,9 +3568,7 @@ const A1_WORDS = [
               "yellow": []
             },
             "lv": {
-              "purple": [
-                "tager"
-              ]
+              "purple": []
             }
           },
           {
@@ -3634,16 +3598,10 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "Bring",
-                "Bring",
-                "Bring"
-              ]
+              "purple": []
             },
             "example": {
-              "blue": [
-                "Bring"
-              ]
+              "blue": []
             }
           },
           {
@@ -3657,9 +3615,7 @@ const A1_WORDS = [
               ]
             },
             "example": {
-              "red": [
-                "nehme"
-              ]
+              "red": []
             }
           },
           {
@@ -3673,9 +3629,7 @@ const A1_WORDS = [
               ]
             },
             "example": {
-              "yellow": [
-                "hole"
-              ]
+              "yellow": []
             }
           },
           {
@@ -4815,7 +4769,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "man"
+                "mand"
               ]
             }
           },
@@ -5416,32 +5370,32 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Es regnet.",
-          "lv": "Jeg lærer tysk."
+          "lv": "Det regner."
         },
         {
           "de": "Es ist kalt.",
-          "lv": "Han er træt."
+          "lv": "Det er koldt."
         },
         {
           "de": "Das Kind schläft.",
-          "lv": "Hun arbejder her."
+          "lv": "Barnet sover."
         },
         {
           "de": "Es ist müde.",
-          "lv": "Det er min bog."
+          "lv": "Det er træt."
         },
         {
           "de": "Es regnet.",
-          "lv": "Det regner"
+          "lv": "Det regner."
         },
         {
           "de": "Es schneit.",
-          "lv": "Det sner"
+          "lv": "Det sner."
         }
       ],
       "info": [
-        "Latvian \"es\" = German \"ich\"",
-        "German \"I\" = it; so; impersonal form"
+        "Dansk \"jeg\" = tysk \"ich\"",
+        "Tysk es = det • upersonlig form"
       ],
       "tip": {
         "text": "Husk: dansk \"det\" → ich, ikke tysk es."
@@ -5449,18 +5403,20 @@ const A1_WORDS = [
       "sectionAccents": {
         "examples": [
           {
-            "blue": []
-          },
-          {
             "blue": [
-              "Er"
+              "Es"
             ]
           },
           {
-            "red": []
+            "blue": [
+              "Es"
+            ]
           },
+          {},
           {
-            "yellow": []
+            "blue": [
+              "Es"
+            ]
           },
           {
             "blue": [
@@ -5501,14 +5457,10 @@ const A1_WORDS = [
         ],
         "info": [
           {
-            "blue": [
-              "ich"
-            ]
+            "blue": []
           },
           {
-            "green": [
-              "es"
-            ]
+            "green": []
           }
         ],
         "tip": {
@@ -5539,12 +5491,12 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "es",
-          "meaning": "tas • bezpersoniska forma",
+          "meaning": "det • upersonlig form",
           "example": "Es regnet. -- Det regner."
         },
         {
           "word": "ich",
-          "meaning": "es (persona)",
+          "meaning": "jeg (personlig form)",
           "example": "Ich lerne Deutsch. -- Jeg lærer tysk."
         }
       ]
@@ -5880,7 +5832,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-fahren",
       "layout": "standardStudy",
-      "translation": "Kør • Bly • Take away",
+      "translation": "Køre",
       "explanation": [
         "Hovedidé: fahren betyder at køre et køretøj og i nogle sætninger også at tage eller tage nogen.",
         "Fahren bruges, når du rejser med bil, bus, tog, cykel eller andet køretøj.",
@@ -5940,8 +5892,8 @@ const A1_WORDS = [
         "text": "Husk: køretøj → fahren; til fods → gå."
       },
       "important": {
-        "text": "Fahren ≠ tikai “braukt”",
-        "example": "På tysk betyder det samme verbum ofte: at køre • at køre • at tage væk afhængigt af sammenhængen."
+        "text": "Fahren ≠ kun at køre",
+        "example": "På tysk betyder det samme verbum ofte: at køre • at køre med • at tage med afhængigt af sammenhængen."
       },
       "accents": {
         "blue": [
@@ -5949,19 +5901,14 @@ const A1_WORDS = [
           "fahre"
         ],
         "purple": [
-          "braukt",
-          "braucu",
-          "vest",
-          "vedu",
-          "aizvest"
+          "køre",
+          "tage",
+          "føre"
         ],
         "green": [
-          "transportu",
-          "vehicle",
-          "auto",
-          "autobusu",
-          "vilcienu",
-          "bicycle"
+          "køretøj",
+          "bil",
+          "transport"
         ],
         "yellow": [
           "gehen",
@@ -6064,9 +6011,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "transport"
-              ]
+              "purple": []
             },
             "example": {
               "blue": [
@@ -6116,10 +6061,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "Bring",
-                "Bring"
-              ]
+              "purple": []
             },
             "example": {
               "red": [
@@ -6167,7 +6109,7 @@ const A1_WORDS = [
                 "fahren"
               ],
               "purple": [
-                "braukt"
+                "køre"
               ]
             },
             "example": {
@@ -6175,9 +6117,7 @@ const A1_WORDS = [
                 "fahren"
               ],
               "purple": [
-                "braukt",
-                "fahren",
-                "fahren"
+                "køre"
               ]
             }
           }
@@ -6310,7 +6250,7 @@ const A1_WORDS = [
         {
           "word": "finden",
           "meaning": "Find/overvej",
-          "example": "Ich finde das gut. = Jeg synes, det er godt. ----------------------------------------------------------------------------------------------------------- - **Pārskatīti:** 50/50 - **LABOT:** 50 - **FALSE_POSITIVE:** 0 - **NELABOT:** 0 - **NEEDS_SOURCE_REVIEW:** 0 - **DE changes:** 0 formulējumi ir precizēti, lai dāņu skaidrojums būtu semantiski pareizs un dabisks. - Finding **28** salīdzinājums izlabots tā, lai DE piemērs atbilstu DA - Finding **30** galvenā nozīme sašaurināta uz **Hel • Helt**; - Finding **33** izmantots neitrālais dāņu **lærer**, nevis - Findings **35/41** izmantots dabisks un tiešs **Kom venligst ind.** Šis fails ir gatavs deterministiskam **COPY-ONLY** apply."
+          "example": "Ich finde das gut. = Jeg synes, det er godt."
         },
         {
           "word": "suchen",
@@ -6367,9 +6307,7 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "blue": [
-                "finde"
-              ]
+              "blue": []
             },
             "lv": {
               "purple": [
@@ -6977,29 +6915,28 @@ const A1_WORDS = [
         },
         {
           "de": "Der Fußball liegt im Garten.",
-          "lv": "Fodbolden er rund."
+          "lv": "Fodbolden ligger i haven."
         },
         {
           "de": "Wir kaufen zwei Fußbälle.",
-          "lv": "Vi ser fodbold i fjernsynet."
+          "lv": "Vi køber to fodbolde."
         }
       ],
       "comparison": [
         {
           "word": "Fußball",
-          "meaning": "futbols kā sporta veids",
-          "example": "Ich spiele Fußball. – Es spēlēju futbolu."
+          "meaning": "sporten fodbold",
+          "example": "Ich spiele Fußball. – Jeg spiller fodbold."
         },
         {
           "word": "der Fußball",
-          "meaning": "futbola bumba",
-          "example": "Der Fußball ist neu. – Futbola bumba ir jauna."
+          "meaning": "en fodbold",
+          "example": "Der Fußball liegt im Garten. – Fodbolden ligger i haven."
         }
       ],
-      "tip": [
-        "Bez artikula spielen Fußball parasti nozīmē spēlēt futbolu.",
-        "Skaitāmā nozīmē ein Fußball un die Fußbälle ir futbola bumba un futbola bumbas."
-      ],
+      "tip": {
+        "text": "Husk: Fußball betyder normalt sporten fodbold; Ball er det almindelige ord for en bold."
+      },
       "important": [
         "der Fußball kan afhængigt af sammenhængen betegne sporten eller en fodbold."
       ]
@@ -7021,37 +6958,36 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich arbeite den ganzen Tag.",
-          "lv": "Jeg spiser hele æblet."
+          "lv": "Jeg arbejder hele dagen."
         },
         {
           "de": "Das ganze Haus ist sauber.",
-          "lv": "Det er ret godt."
+          "lv": "Hele huset er rent."
         },
         {
           "de": "Das ist ganz sicher.",
-          "lv": "Han er helt alene."
+          "lv": "Det er helt sikkert."
         },
         {
           "de": "Das Essen ist ganz gut.",
-          "lv": "ēdiens ir diezgan labs."
+          "lv": "Det er ret godt."
         }
       ],
       "comparison": [
         {
           "word": "ganz",
-          "meaning": "vesels • viss kopumā • pilnīgi",
-          "example": "der ganze Tag – visa diena"
+          "meaning": "hel • helt",
+          "example": "der ganze Tag – hele dagen"
         },
         {
           "word": "alles",
-          "meaning": "viss",
-          "example": "Alles ist gut. – Viss ir kārtībā."
+          "meaning": "alt",
+          "example": "Alles ist gut. – Alt er godt."
         }
       ],
-      "tip": [
-        "Lietvārda priekšā ganz bieži nozīmē viss vai vesels.",
-        "Īpašības vārda priekšā ganz bieži nozīmē pilnīgi vai diezgan."
-      ],
+      "tip": {
+        "text": "Husk: betydningen af ganz afhænger af sammenhængen: hel, helt eller ret."
+      },
       "important": [
         "Se på ordet efter ganz for at vælge den naturlige danske oversættelse."
       ]
@@ -7171,9 +7107,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "give"
-              ]
+              "purple": []
             }
           },
           {
@@ -7274,10 +7208,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "Bring",
-                "Bring"
-              ]
+              "purple": []
             },
             "example": {
               "green": [
@@ -7332,33 +7263,32 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Das gefällt mir.",
-          "lv": "Jeg kan godt lide bogen."
+          "lv": "Det kan jeg godt lide."
         },
         {
           "de": "Gefällt dir das Kleid?",
-          "lv": "Vi kan godt lide filmen."
+          "lv": "Kan du lide kjolen?"
         },
         {
           "de": "Der Film gefällt uns.",
-          "lv": "Hvad synes du om det?"
+          "lv": "Vi kan godt lide filmen."
         }
       ],
       "comparison": [
         {
           "word": "gefallen",
-          "meaning": "patikt • persona datīvā",
-          "example": "Das gefällt mir. – Man tas patīk."
+          "meaning": "at kunne lide",
+          "example": "Das gefällt mir. – Det kan jeg godt lide."
         },
         {
           "word": "mögen",
-          "meaning": "patikt • labprāt izvēlēties",
-          "example": "Ich mag das. – Man tas patīk."
+          "meaning": "at kunne lide",
+          "example": "Ich mag das. – Det kan jeg godt lide."
         }
       ],
-      "tip": [
-        "Atceries konstrukciju: Das gefällt mir.",
-        "Neveido burtisku latviešu vārdu secību."
-      ],
+      "tip": {
+        "text": "Husk konstruktionen: Das gefällt mir = Det kan jeg godt lide."
+      },
       "important": [
         "Personen står i dativ: mir, dir, ihm, ihr, uns osv."
       ]
@@ -7418,33 +7348,32 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Er erzählt eine Geschichte.",
-          "lv": "Historien er interessant."
+          "lv": "Han fortæller en historie."
         },
         {
           "de": "Ich lerne Geschichte.",
-          "lv": "Jeg læser en historie."
+          "lv": "Jeg lærer historie."
         },
         {
           "de": "Das ist die Geschichte Deutschlands.",
-          "lv": "Vi lærer historie i skolen."
+          "lv": "Det er Tysklands historie."
         }
       ],
       "comparison": [
         {
           "word": "eine Geschichte",
-          "meaning": "stāsts",
-          "example": "eine interessante Geschichte – interesants stāsts"
+          "meaning": "en historie • fortælling",
+          "example": "eine interessante Geschichte – en interessant historie"
         },
         {
           "word": "Geschichte",
-          "meaning": "vēsture",
-          "example": "Geschichte lernen – mācīties vēsturi"
+          "meaning": "historie",
+          "example": "Geschichte lernen – lære historie"
         }
       ],
-      "tip": [
-        "Ar eine un daudzskaitlī parasti runa ir par stāstu.",
-        "Kā mācību priekšmets Geschichte nozīmē vēsturi."
-      ],
+      "tip": {
+        "text": "Husk: eine Geschichte = en historie eller fortælling; Geschichte som fag = historie."
+      },
       "important": [
         "die Geschichte er hunkøn."
       ]
@@ -7477,24 +7406,23 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "Geschwister",
-          "meaning": "brāļi un māsas",
-          "example": "Meine Geschwister – mani brāļi un māsas"
+          "meaning": "søskende",
+          "example": "Meine Geschwister – mine søskende"
         },
         {
           "word": "Bruder",
-          "meaning": "brālis",
-          "example": "mein Bruder – mans brālis"
+          "meaning": "bror",
+          "example": "mein Bruder – min bror"
         },
         {
           "word": "Schwester",
-          "meaning": "māsa",
-          "example": "meine Schwester – mana māsa"
+          "meaning": "søster",
+          "example": "meine Schwester – min søster"
         }
       ],
-      "tip": [
-        "Geschwister parasti lieto daudzskaitlī.",
-        "Vienai personai izvēlies Bruder vai Schwester."
-      ],
+      "tip": {
+        "text": "Husk: Geschwister = søskende, altså brødre og søstre samlet."
+      },
       "important": [
         "Geschwister bruges normalt som flertalsord."
       ]
@@ -7878,24 +7806,23 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "Großeltern",
-          "meaning": "vecvecāki",
-          "example": "meine Großeltern – mani vecvecāki"
+          "meaning": "bedsteforældre",
+          "example": "meine Großeltern – mine bedsteforældre"
         },
         {
           "word": "Großmutter",
-          "meaning": "vecmāmiņa",
-          "example": "meine Großmutter – mana vecmāmiņa"
+          "meaning": "bedstemor",
+          "example": "meine Großmutter – min bedstemor"
         },
         {
           "word": "Großvater",
-          "meaning": "vectētiņš",
-          "example": "mein Großvater – mans vectētiņš"
+          "meaning": "bedstefar",
+          "example": "mein Großvater – min bedstefar"
         }
       ],
-      "tip": [
-        "Großeltern ir daudzskaitlis.",
-        "Vienai personai lieto Großmutter vai Großvater."
-      ],
+      "tip": {
+        "text": "Husk: Großeltern = bedsteforældre."
+      },
       "important": [
         "Kun flertal: die Großeltern."
       ]
@@ -8412,7 +8339,6 @@ const A1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "purple": [
-            "hold",
             "Hovedidé",
             "Hovedidé",
             "Hovedidé"
@@ -8515,9 +8441,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "stop"
-              ]
+              "purple": []
             },
             "example": {
               "red": []
@@ -8545,16 +8469,13 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "blue": [
-              "halten",
-              "hält"
+              "halten"
             ],
             "purple": [
               "Husk",
               "Husk"
             ],
-            "green": [
-              "transport"
-            ]
+            "green": []
           }
         },
         "important": [
@@ -8596,29 +8517,28 @@ const A1_WORDS = [
         },
         {
           "de": "Sie hält das Glas in der Hand.",
-          "lv": "Giv mig din hånd."
+          "lv": "Hun holder glasset i hånden."
         },
         {
           "de": "Mein Arm tut weh.",
-          "lv": "Han holder bogen i hånden."
+          "lv": "Min arm gør ondt."
         }
       ],
       "comparison": [
         {
           "word": "die Hand",
-          "meaning": "plauksta",
-          "example": "in der Hand – plaukstā"
+          "meaning": "hånd",
+          "example": "in der Hand – i hånden"
         },
         {
           "word": "der Arm",
-          "meaning": "roka",
-          "example": "Mein Arm tut weh. – Man sāp roka."
+          "meaning": "arm",
+          "example": "Mein Arm tut weh. – Min arm gør ondt."
         }
       ],
-      "tip": [
-        "Hand = plauksta.",
-        "Arm = roka no pleca līdz plaukstai."
-      ],
+      "tip": {
+        "text": "Husk: die Hand = hånd; flertal die Hände."
+      },
       "important": [
         "in der Hand = i hånden."
       ]
@@ -9195,32 +9115,32 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Sie trägt ein hübsches Kleid.",
-          "lv": "Pigen er pæn."
+          "lv": "Hun har en pæn kjole."
         },
         {
           "de": "Das Zimmer ist hübsch.",
-          "lv": "En pæn kjole."
+          "lv": "Værelset er pænt."
         },
         {
           "de": "Das ist ein hübsches Bild.",
-          "lv": "Dit værelse er pænt."
+          "lv": "Det er et pænt billede."
         }
       ],
       "comparison": [
         {
           "word": "hübsch",
-          "meaning": "glīts • pievilcīgs pēc izskata",
-          "example": "Das ist ein hübsches Kleid. – Tā ir glīta kleita."
+          "meaning": "pæn • tiltalende",
+          "example": "Das ist ein hübsches Kleid. – Det er en pæn kjole."
         },
         {
           "word": "schön",
-          "meaning": "skaists • patīkams",
-          "example": "Der Garten ist schön. – Dārzs ir skaists."
+          "meaning": "smuk • dejlig",
+          "example": "Der Garten ist schön. – Haven er smuk."
         },
         {
           "word": "nett",
-          "meaning": "jauks • laipns",
-          "example": "Sie ist sehr nett. – Viņa ir ļoti jauka."
+          "meaning": "sød • venlig",
+          "example": "Sie ist sehr nett. – Hun er meget sød."
         }
       ],
       "tip": {
@@ -9235,16 +9155,11 @@ const A1_WORDS = [
             "hübsch"
           ],
           "purple": [
-            "glīts",
-            "pievilcīgs",
-            "simpātisks"
+            "pæn",
+            "smuk",
+            "tiltalende"
           ],
-          "green": [
-            "izskatu"
-          ],
-          "yellow": [
-            "nett"
-          ]
+          "yellow": []
         },
         "examples": [
           {
@@ -9258,10 +9173,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "glīta"
+                "pæn"
               ],
               "green": [
-                "kleita"
+                "kjole"
               ]
             }
           },
@@ -9273,7 +9188,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "glīta"
+                "pænt"
               ]
             }
           },
@@ -9285,7 +9200,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "glīta"
+                "pænt"
               ]
             }
           }
@@ -9299,8 +9214,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "glīts",
-                "pievilcīgs"
+                "pæn",
+                "tiltalende"
               ]
             },
             "example": {
@@ -9308,7 +9223,7 @@ const A1_WORDS = [
                 "hübsches"
               ],
               "purple": [
-                "glīta"
+                "pæn"
               ]
             }
           },
@@ -9320,8 +9235,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "skaists",
-                "patīkams"
+                "smuk",
+                "dejlig"
               ]
             }
           },
@@ -9333,8 +9248,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "jauks",
-                "laipns"
+                "sød",
+                "venlig"
               ]
             }
           }
@@ -9345,33 +9260,21 @@ const A1_WORDS = [
               "hübsch"
             ],
             "purple": [
-              "glīts izskats"
+              "pæn"
             ],
-            "yellow": [
-              "nett"
-            ],
-            "green": [
-              "jauks cilvēks"
-            ]
+            "yellow": []
           }
         },
         "important": [
           {
-            "blue": [
-              "hübsch"
-            ],
+            "blue": [],
             "purple": [
-              "glīts"
+              "pæn"
             ]
           },
           {
-            "yellow": [
-              "nett"
-            ],
-            "purple": [
-              "jauks",
-              "laipns"
-            ]
+            "yellow": [],
+            "purple": []
           }
         ]
       }
@@ -9470,9 +9373,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "give"
-              ]
+              "purple": []
             }
           },
           {
@@ -10439,9 +10340,7 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "blue": [
-                "junge"
-              ]
+              "blue": []
             },
             "lv": {
               "purple": [
@@ -10782,10 +10681,7 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "blue": [
-                "kennen",
-                "kennen"
-              ]
+              "blue": []
             },
             "lv": {}
           },
@@ -11985,8 +11881,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Jorden",
-                "planet"
+                "Jorden"
               ]
             },
             "example": {
@@ -12596,8 +12491,7 @@ const A1_WORDS = [
               "Husk"
             ],
             "red": [
-              "fahren",
-              "transport"
+              "fahren"
             ]
           }
         },
@@ -15786,11 +15680,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "Bring",
-                "Bring",
-                "Bring"
-              ]
+              "purple": []
             },
             "example": {
               "red": [
@@ -16119,7 +16009,7 @@ const A1_WORDS = [
       "translation": "Endnu",
       "explanation": [
         "Hovedidé: Noget der stadig foregår eller endnu ikke er færdigt.",
-        "Noch betyder her hovedsageligt, at noget stadig foregår. --------------------------------------------------------------------------------------------------------------------- - **Pārskatīti:** 50/50 - **LABOT:** 50 - **FALSE_POSITIVE:** 0 - **NELABOT:** 0 - **NEEDS_SOURCE_REVIEW:** 0 - **DE changes:** 0 - **90--96:** ne tikai izņemti zero-width artefakti; salaboti arī mehāniski vai semantiski neveikli dāņu formulējumi. - **102--109:** mehāniskie skaidrojumi precizēti, kur vienkārša Unicode tīrīšana neatrisinātu satura kvalitāti. Fails gatavs deterministiskam **COPY-ONLY** apply.",
+        "Noch betyder her hovedsageligt, at noget stadig foregår.",
         "Beskriver ofte: fortsættelse eller ufærdig tilstand.",
         "Noch betyder stadig: noget, der stadig foregår eller endnu ikke afsluttet."
       ],
@@ -18639,8 +18529,7 @@ const A1_WORDS = [
               "du bist"
             ],
             "purple": [
-              "jeg er",
-              "tu esi"
+              "jeg er"
             ]
           }
         },
@@ -20575,9 +20464,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "lamp"
-              ]
+              "purple": []
             }
           },
           {
@@ -20943,8 +20830,7 @@ const A1_WORDS = [
         "important": [
           {
             "purple": [
-              "pulksten",
-              "lai"
+              "klokken"
             ]
           }
         ]
@@ -21090,12 +20976,8 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "red": [
-                "lamp"
-              ],
-              "yellow": [
-                "lamp"
-              ]
+              "red": [],
+              "yellow": []
             }
           }
         ],
@@ -25698,8 +25580,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "vienreiz",
-              "reiz"
+              "vienreiz"
             ]
           }
         ],
