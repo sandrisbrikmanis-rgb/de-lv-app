@@ -11,11 +11,11 @@ Auditors: deterministiskā pārbaude + GPT-5.6 Luna
 | Lekcijas | **21** |
 | Extra HTML topics | **6** |
 | UI kurss atslēgas | **96** |
-| CRITICAL | **31** |
-| HIGH | **332** |
-| MEDIUM | **97** |
-| LOW | **6** |
-| Kopā findings | **466** |
+| CRITICAL | **64** |
+| HIGH | **411** |
+| MEDIUM | **121** |
+| LOW | **9** |
+| Kopā findings | **605** |
 | Luna batches | **26** (1287 fields) |
 | Luna loaded | **26/26** |
 | Production changes | **0** |
@@ -1434,4 +1434,4 @@ Auditors: deterministiskā pārbaude + GPT-5.6 Luna
 - **PROPOSED_DA:** (OWNER: Danish replacement per DE/LV meaning)
 - **Avots:** deterministic
 
-_… and 316 more in JSON._
+_… and 455 more in JSON._

@@ -2,7 +2,7 @@
 
 **Auditors:** GPT-5.6 Luna (READ-ONLY)
 Avots: `reports/da-kurss-full-audit.md` / `reports/temp/da-kurss-full-audit.json`
-Findings: **466** ieraksti
+Findings: **605** ieraksti
 Fails: `reports/da-kurss-owner-review.md`
 
 > **PROPOSED_DA** ir GPT-5.6 Luna ieteikums — **nav** OWNER apstiprināts.
@@ -7137,11 +7137,11 @@ Fails: `reports/da-kurss-owner-review.md`
 **Field type:** `cardLv`
 **DE (read-only):** Sie heißen Elsa, Martha und Alma.
 **CURRENT_DA:** Deres navne er Elsa, Martha og Alma.
-**PROPOSED_DA:** (use Marta when DE has Marta)
+**PROPOSED_DA:** Deres navne er Elsa, Marta og Alma.
 **Severity:** MEDIUM
 **Category:** NAMES
-**Problem:** Pattern: \bMartha\b
-**Reason:** Pattern: \bMartha\b
+**Problem:** DE/LV canonical name is Marta; DA uses Martha.
+**Reason:** DE/LV canonical name is Marta; DA uses Martha.
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
@@ -7152,17 +7152,17 @@ Fails: `reports/da-kurss-owner-review.md`
 ## Finding 341 (Kurss)
 
 **Finding:** 341
-**Audit ID:** DA-KURSS-L0199
-**Lesson/ID:** `lesson13`
-**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[2].title`
-**Field type:** `sectionTitle`
-**DE (read-only):** —
-**CURRENT_DA:** Gramatika
-**PROPOSED_DA:** Grammatik
+**Audit ID:** DA-KURSS-L0197
+**Lesson/ID:** `lesson12`
+**Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[23].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Wie ist die Tinte?
+**CURRENT_DA:** Hvad er blæk?
+**PROPOSED_DA:** Hvilken farve har blækket?
 **Severity:** HIGH
-**Category:** RENDERER
-**Problem:** Latvian/mixed section title breaks renderer i18n mapping
-**Reason:** Latvian/mixed section title breaks renderer i18n mapping
+**Category:** SEMANTICS
+**Problem:** DE Wie ist die Tinte asks about quality/color; Hvad er blæk? means what is ink.
+**Reason:** DE Wie ist die Tinte asks about quality/color; Hvad er blæk? means what is ink.
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
@@ -7173,17 +7173,17 @@ Fails: `reports/da-kurss-owner-review.md`
 ## Finding 342 (Kurss)
 
 **Finding:** 342
-**Audit ID:** DA-KURSS-L0212
-**Lesson/ID:** `lesson13`
-**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[3].title`
-**Field type:** `sectionTitle`
-**DE (read-only):** —
-**CURRENT_DA:** Izruna
-**PROPOSED_DA:** Udtale
-**Severity:** CRITICAL
-**Category:** RENDERER
-**Problem:** Latvian/mixed section title breaks renderer i18n mapping
-**Reason:** Latvian/mixed section title breaks renderer i18n mapping
+**Audit ID:** DA-KURSS-L0198
+**Lesson/ID:** `lesson12`
+**Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[25].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Wie ist die Kreide?
+**CURRENT_DA:** Hvad er kridt?
+**PROPOSED_DA:** Hvilken farve har kridtet?
+**Severity:** HIGH
+**Category:** SEMANTICS
+**Problem:** DE Wie ist die Kreide asks about quality/color; Hvad er kridt? means what is chalk.
+**Reason:** DE Wie ist die Kreide asks about quality/color; Hvad er kridt? means what is chalk.
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
@@ -7194,17 +7194,17 @@ Fails: `reports/da-kurss-owner-review.md`
 ## Finding 343 (Kurss)
 
 **Finding:** 343
-**Audit ID:** DA-KURSS-L0221
-**Lesson/ID:** `lesson14`
-**Path:** `COURSE_LESSON_DATA.kurssLesson14.sections[2].title`
-**Field type:** `sectionTitle`
-**DE (read-only):** —
-**CURRENT_DA:** Gramatika
-**PROPOSED_DA:** Grammatik
-**Severity:** HIGH
-**Category:** RENDERER
-**Problem:** Latvian/mixed section title breaks renderer i18n mapping
-**Reason:** Latvian/mixed section title breaks renderer i18n mapping
+**Audit ID:** DA-KURSS-L0199
+**Lesson/ID:** `lesson12`
+**Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[26].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Sie ist weiß.
+**CURRENT_DA:** Tas ir balts.
+**PROPOSED_DA:** Det er hvidt.
+**Severity:** CRITICAL
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian sentence remnant (Tas ir balts); not Danish.
+**Reason:** Latvian sentence remnant (Tas ir balts); not Danish.
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
@@ -7215,17 +7215,17 @@ Fails: `reports/da-kurss-owner-review.md`
 ## Finding 344 (Kurss)
 
 **Finding:** 344
-**Audit ID:** DA-KURSS-L0227
-**Lesson/ID:** `lesson14`
-**Path:** `COURSE_LESSON_DATA.kurssLesson14.sections[3].title`
-**Field type:** `sectionTitle`
-**DE (read-only):** —
-**CURRENT_DA:** Izruna
-**PROPOSED_DA:** Udtale
-**Severity:** CRITICAL
-**Category:** RENDERER
-**Problem:** Latvian/mixed section title breaks renderer i18n mapping
-**Reason:** Latvian/mixed section title breaks renderer i18n mapping
+**Audit ID:** DA-KURSS-L0200
+**Lesson/ID:** `lesson12`
+**Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[27].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Wie sind die Blumen?
+**CURRENT_DA:** Hvad er blomster?
+**PROPOSED_DA:** Hvilken farve har blomsterne?
+**Severity:** HIGH
+**Category:** SEMANTICS
+**Problem:** DE Wie sind die Blumen? asks about appearance/color; Hvad er blomster? is wrong question type.
+**Reason:** DE Wie sind die Blumen? asks about appearance/color; Hvad er blomster? is wrong question type.
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
@@ -7236,17 +7236,17 @@ Fails: `reports/da-kurss-owner-review.md`
 ## Finding 345 (Kurss)
 
 **Finding:** 345
-**Audit ID:** DA-KURSS-L0236
-**Lesson/ID:** `lesson15`
-**Path:** `COURSE_LESSON_DATA.kurssLesson15.sections[2].title`
+**Audit ID:** DA-KURSS-L0202
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[1].title`
 **Field type:** `sectionTitle`
 **DE (read-only):** —
-**CURRENT_DA:** Gramatika
-**PROPOSED_DA:** Grammatik
-**Severity:** HIGH
-**Category:** RENDERER
-**Problem:** Latvian/mixed section title breaks renderer i18n mapping
-**Reason:** Latvian/mixed section title breaks renderer i18n mapping
+**CURRENT_DA:** Navne
+**PROPOSED_DA:** Ord
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**Problem:** Navne means names; LV MASTER Vārdiņi is vocabulary section — Ord/Vokaler expected.
+**Reason:** Navne means names; LV MASTER Vārdiņi is vocabulary section — Ord/Vokaler expected.
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
@@ -7257,17 +7257,17 @@ Fails: `reports/da-kurss-owner-review.md`
 ## Finding 346 (Kurss)
 
 **Finding:** 346
-**Audit ID:** DA-KURSS-L0241
-**Lesson/ID:** `lesson15`
-**Path:** `COURSE_LESSON_DATA.kurssLesson15.sections[3].title`
-**Field type:** `sectionTitle`
-**DE (read-only):** —
-**CURRENT_DA:** Izruna
-**PROPOSED_DA:** Udtale
-**Severity:** CRITICAL
-**Category:** RENDERER
-**Problem:** Latvian/mixed section title breaks renderer i18n mapping
-**Reason:** Latvian/mixed section title breaks renderer i18n mapping
+**Audit ID:** DA-KURSS-L0203
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[1].items[0]`
+**Field type:** `sectionItem`
+**DE (read-only):** der Körper
+**CURRENT_DA:** der Körper — the body
+**PROPOSED_DA:** der Körper — kroppen
+**Severity:** MEDIUM
+**Category:** FOREIGN_REMNANT
+**Problem:** English gloss in DA vocabulary line; should be Danish.
+**Reason:** English gloss in DA vocabulary line; should be Danish.
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
@@ -7278,17 +7278,17 @@ Fails: `reports/da-kurss-owner-review.md`
 ## Finding 347 (Kurss)
 
 **Finding:** 347
-**Audit ID:** DA-KURSS-L0250
-**Lesson/ID:** `lesson16`
-**Path:** `COURSE_LESSON_DATA.kurssLesson16.sections[2].title`
-**Field type:** `sectionTitle`
-**DE (read-only):** —
-**CURRENT_DA:** Gramatika
-**PROPOSED_DA:** Grammatik
-**Severity:** HIGH
-**Category:** RENDERER
-**Problem:** Latvian/mixed section title breaks renderer i18n mapping
-**Reason:** Latvian/mixed section title breaks renderer i18n mapping
+**Audit ID:** DA-KURSS-L0204
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[1].items[1]`
+**Field type:** `sectionItem`
+**DE (read-only):** der Mensch
+**CURRENT_DA:** der Mensch — the human being
+**PROPOSED_DA:** der Mensch — mennesket
+**Severity:** MEDIUM
+**Category:** FOREIGN_REMNANT
+**Problem:** English gloss in DA vocabulary line; should be Danish.
+**Reason:** English gloss in DA vocabulary line; should be Danish.
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
@@ -7299,17 +7299,17 @@ Fails: `reports/da-kurss-owner-review.md`
 ## Finding 348 (Kurss)
 
 **Finding:** 348
-**Audit ID:** DA-KURSS-L0255
-**Lesson/ID:** `lesson16`
-**Path:** `COURSE_LESSON_DATA.kurssLesson16.sections[3].title`
-**Field type:** `sectionTitle`
-**DE (read-only):** —
-**CURRENT_DA:** Izruna
-**PROPOSED_DA:** Udtale
-**Severity:** CRITICAL
-**Category:** RENDERER
-**Problem:** Latvian/mixed section title breaks renderer i18n mapping
-**Reason:** Latvian/mixed section title breaks renderer i18n mapping
+**Audit ID:** DA-KURSS-L0205
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[1].items[10]`
+**Field type:** `sectionItem`
+**DE (read-only):** der Fuß
+**CURRENT_DA:** der Fuß — the foot of the foot
+**PROPOSED_DA:** der Fuß — foden
+**Severity:** MEDIUM
+**Category:** FOREIGN_REMNANT
+**Problem:** Garbled English gloss (the foot of the foot); should be Danish foden.
+**Reason:** Garbled English gloss (the foot of the foot); should be Danish foden.
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
@@ -7320,17 +7320,17 @@ Fails: `reports/da-kurss-owner-review.md`
 ## Finding 349 (Kurss)
 
 **Finding:** 349
-**Audit ID:** DA-KURSS-L0262
-**Lesson/ID:** `lesson17`
-**Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[1].items[14]`
+**Audit ID:** DA-KURSS-L0206
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[1].items[17]`
 **Field type:** `sectionItem`
-**DE (read-only):** wischen
-**CURRENT_DA:** wischen — to wipe / clean
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**DE (read-only):** dick
+**CURRENT_DA:** dick — resns / biezs
+**PROPOSED_DA:** dick — tyk
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
-**Problem:** English gloss "to ..." in vocabulary item
-**Reason:** English gloss "to ..." in vocabulary item
+**Problem:** Latvian gloss (resns / biezs) in DA vocabulary line.
+**Reason:** Latvian gloss (resns / biezs) in DA vocabulary line.
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
@@ -7341,17 +7341,17 @@ Fails: `reports/da-kurss-owner-review.md`
 ## Finding 350 (Kurss)
 
 **Finding:** 350
-**Audit ID:** DA-KURSS-L0263
-**Lesson/ID:** `lesson17`
-**Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[1].items[15]`
+**Audit ID:** DA-KURSS-L0207
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[1].items[19]`
 **Field type:** `sectionItem`
-**DE (read-only):** abwischen
-**CURRENT_DA:** abwischen — to wipe off
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
-**Severity:** HIGH
+**DE (read-only):** die Brust
+**CURRENT_DA:** die Brust — the breast
+**PROPOSED_DA:** die Brust — brystet
+**Severity:** MEDIUM
 **Category:** FOREIGN_REMNANT
-**Problem:** English gloss "to ..." in vocabulary item
-**Reason:** English gloss "to ..." in vocabulary item
+**Problem:** English gloss in DA vocabulary line; should be Danish.
+**Reason:** English gloss in DA vocabulary line; should be Danish.
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
@@ -7362,13 +7362,1441 @@ Fails: `reports/da-kurss-owner-review.md`
 ## Finding 351 (Kurss)
 
 **Finding:** 351
-**Audit ID:** DA-KURSS-L0264
-**Lesson/ID:** `lesson17`
-**Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[1].items[16]`
+**Audit ID:** DA-KURSS-L0208
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[1].items[27]`
 **Field type:** `sectionItem`
-**DE (read-only):** helfen
-**CURRENT_DA:** helfen — to help
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**DE (read-only):** die Zehe
+**CURRENT_DA:** die Zehe — the toe
+**PROPOSED_DA:** die Zehe — tåen
+**Severity:** MEDIUM
+**Category:** FOREIGN_REMNANT
+**Problem:** English gloss in DA vocabulary line; should be Danish.
+**Reason:** English gloss in DA vocabulary line; should be Danish.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 352 (Kurss)
+
+**Finding:** 352
+**Audit ID:** DA-KURSS-L0209
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[1].items[42]`
+**Field type:** `sectionItem`
+**DE (read-only):** drehen
+**CURRENT_DA:** drehen — griezt / pagriezt
+**PROPOSED_DA:** drehen — dreje
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian gloss (griezt / pagriezt) in DA vocabulary line.
+**Reason:** Latvian gloss (griezt / pagriezt) in DA vocabulary line.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 353 (Kurss)
+
+**Finding:** 353
+**Audit ID:** DA-KURSS-L0210
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[2].title`
+**Field type:** `sectionTitle`
+**DE (read-only):** —
+**CURRENT_DA:** Gramatika
+**PROPOSED_DA:** Grammatik
+**Severity:** HIGH
+**Category:** RENDERER
+**Problem:** Latvian Gramatika breaks renderer section-title mapping.
+**Reason:** Latvian Gramatika breaks renderer section-title mapping.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 354 (Kurss)
+
+**Finding:** 354
+**Audit ID:** DA-KURSS-L0213
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[2].items[1].text`
+**Field type:** `grammarText`
+**DE (read-only):** —
+**CURRENT_DA:** Sich umkehren — apgriezties
+**PROPOSED_DA:** sich umkehren — vende sig
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian gloss (apgriezties) in DA grammar text.
+**Reason:** Latvian gloss (apgriezties) in DA grammar text.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 355 (Kurss)
+
+**Finding:** 355
+**Audit ID:** DA-KURSS-L0216
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[2].items[3].text`
+**Field type:** `grammarText`
+**DE (read-only):** —
+**CURRENT_DA:** Atmen — elpot
+**PROPOSED_DA:** atmen — trække vejret
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian gloss (elpot) in DA grammar text.
+**Reason:** Latvian gloss (elpot) in DA grammar text.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 356 (Kurss)
+
+**Finding:** 356
+**Audit ID:** DA-KURSS-L0220
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[2].items[6].text`
+**Field type:** `grammarText`
+**DE (read-only):** —
+**CURRENT_DA:** Hvis præfikset er ubetonet, er det ubetonet.
+**PROPOSED_DA:** Hvis præfikset ikke er betonet, adskilles det ikke.
+**Severity:** HIGH
+**Category:** SEMANTICS
+**Problem:** Circular/wrong meaning; LV says unstressed prefix does not separate in present tense.
+**Reason:** Circular/wrong meaning; LV says unstressed prefix does not separate in present tense.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 357 (Kurss)
+
+**Finding:** 357
+**Audit ID:** DA-KURSS-L0222
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[2].items[8].heading`
+**Field type:** `grammarHeading`
+**DE (read-only):** —
+**CURRENT_DA:** Daudzskaitlis bez galotnes
+**PROPOSED_DA:** Flertal uden endelse
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian heading in DA grammar block.
+**Reason:** Latvian heading in DA grammar block.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 358 (Kurss)
+
+**Finding:** 358
+**Audit ID:** DA-KURSS-L0223
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[2].items[9].heading`
+**Field type:** `grammarHeading`
+**DE (read-only):** —
+**CURRENT_DA:** Daudzskaitlis ar galotni -e
+**PROPOSED_DA:** Flertal med endelse -e
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian heading in DA grammar block.
+**Reason:** Latvian heading in DA grammar block.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 359 (Kurss)
+
+**Finding:** 359
+**Audit ID:** DA-KURSS-L0224
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[2].items[10].heading`
+**Field type:** `grammarHeading`
+**DE (read-only):** —
+**CURRENT_DA:** Daudzskaitlis ar galotni -en vai -n
+**PROPOSED_DA:** Flertal med endelse -en eller -n
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian heading in DA grammar block.
+**Reason:** Latvian heading in DA grammar block.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 360 (Kurss)
+
+**Finding:** 360
+**Audit ID:** DA-KURSS-L0225
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[2].items[11].heading`
+**Field type:** `grammarHeading`
+**DE (read-only):** —
+**CURRENT_DA:** Daudzskaitlis ar galotni -er
+**PROPOSED_DA:** Flertal med endelse -er
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian heading in DA grammar block.
+**Reason:** Latvian heading in DA grammar block.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 361 (Kurss)
+
+**Finding:** 361
+**Audit ID:** DA-KURSS-L0227
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[3].title`
+**Field type:** `sectionTitle`
+**DE (read-only):** —
+**CURRENT_DA:** Izruna
+**PROPOSED_DA:** Udtale
+**Severity:** CRITICAL
+**Category:** RENDERER
+**Problem:** Latvian Izruna breaks renderer section-title mapping.
+**Reason:** Latvian Izruna breaks renderer section-title mapping.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 362 (Kurss)
+
+**Finding:** 362
+**Audit ID:** DA-KURSS-L0234
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[0].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Wie viele Arme hat der Mensch?
+**CURRENT_DA:** Hvor mange hænder har en person?
+**PROPOSED_DA:** Hvor mange arme har et menneske?
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Arme means arms; DA hænder means hands.
+**Reason:** DE Arme means arms; DA hænder means hands.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 363 (Kurss)
+
+**Finding:** 363
+**Audit ID:** DA-KURSS-L0235
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[1].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Wie viele Beine hast du?
+**CURRENT_DA:** Hvor mange ben har du
+**PROPOSED_DA:** Hvor mange ben har du?
+**Severity:** LOW
+**Category:** GRAMMAR
+**Problem:** Missing question mark at end of sentence.
+**Reason:** Missing question mark at end of sentence.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 364 (Kurss)
+
+**Finding:** 364
+**Audit ID:** DA-KURSS-L0236
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[4].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Wie ist der Arm?
+**CURRENT_DA:** Hvad er en hånd?
+**PROPOSED_DA:** Hvordan er armen?
+**Severity:** HIGH
+**Category:** SEMANTICS
+**Problem:** DE Wie ist der Arm? asks about the arm; DA asks about a hand.
+**Reason:** DE Wie ist der Arm? asks about the arm; DA asks about a hand.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 365 (Kurss)
+
+**Finding:** 365
+**Audit ID:** DA-KURSS-L0237
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[5].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Wie ist das Bein?
+**CURRENT_DA:** Hvad er benet?
+**PROPOSED_DA:** Hvordan er benet?
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**Problem:** DE Wie ist das Bein? expects Hvordan, not Hvad er.
+**Reason:** DE Wie ist das Bein? expects Hvordan, not Hvad er.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 366 (Kurss)
+
+**Finding:** 366
+**Audit ID:** DA-KURSS-L0238
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[6].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Der Arm ist klein, aber das Bein ist groß.
+**CURRENT_DA:** Hånden ist klein, men benet er stort.
+**PROPOSED_DA:** Armen er lille, men benet er stort.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** German ist in DA sentence; DE compares Arm and Bein, not Hand.
+**Reason:** German ist in DA sentence; DE compares Arm and Bein, not Hand.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 367 (Kurss)
+
+**Finding:** 367
+**Audit ID:** DA-KURSS-L0239
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[7].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Wo ist die Brust?
+**CURRENT_DA:** Hvor er brystet
+**PROPOSED_DA:** Hvor er brystet?
+**Severity:** LOW
+**Category:** GRAMMAR
+**Problem:** Missing question mark.
+**Reason:** Missing question mark.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 368 (Kurss)
+
+**Finding:** 368
+**Audit ID:** DA-KURSS-L0240
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[8].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Wo ist der Rücken?
+**CURRENT_DA:** Hvor er det?
+**PROPOSED_DA:** Hvor er ryggen?
+**Severity:** HIGH
+**Category:** SEMANTICS
+**Problem:** DE Wo ist der Rücken? asks where the back is; DA Hvor er det? is vague/wrong.
+**Reason:** DE Wo ist der Rücken? asks where the back is; DA Hvor er det? is vague/wrong.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 369 (Kurss)
+
+**Finding:** 369
+**Audit ID:** DA-KURSS-L0241
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[9].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Die Brust ist vorn, der Rücken ist hinten.
+**CURRENT_DA:** Bryst er foran, bagside er bag.
+**PROPOSED_DA:** Brystet er foran, ryggen er bagved.
+**Severity:** HIGH
+**Category:** SEMANTICS
+**Problem:** DE uses Brust/Rücken; DA bagside is not natural Danish for back.
+**Reason:** DE uses Brust/Rücken; DA bagside is not natural Danish for back.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 370 (Kurss)
+
+**Finding:** 370
+**Audit ID:** DA-KURSS-L0242
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[10].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Wie viele Finger hat die Hand?
+**CURRENT_DA:** Cik pirkstu ir plaukstai?
+**PROPOSED_DA:** Hvor mange fingre har hånden?
+**Severity:** CRITICAL
+**Category:** FOREIGN_REMNANT
+**Problem:** Full Latvian sentence in DA translation card.
+**Reason:** Full Latvian sentence in DA translation card.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 371 (Kurss)
+
+**Finding:** 371
+**Audit ID:** DA-KURSS-L0243
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[11].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Die Hand hat fünf Finger.
+**CURRENT_DA:** Plaukstai ir pieci pirksti.
+**PROPOSED_DA:** Hånden har fem fingre.
+**Severity:** CRITICAL
+**Category:** FOREIGN_REMNANT
+**Problem:** Full Latvian sentence in DA translation card.
+**Reason:** Full Latvian sentence in DA translation card.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 372 (Kurss)
+
+**Finding:** 372
+**Audit ID:** DA-KURSS-L0244
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[14].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Was hat der Finger?
+**CURRENT_DA:** Kas ir pirkstam?
+**PROPOSED_DA:** Hvad har fingeren?
+**Severity:** CRITICAL
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian Kas ir pirkstam? in DA field.
+**Reason:** Latvian Kas ir pirkstam? in DA field.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 373 (Kurss)
+
+**Finding:** 373
+**Audit ID:** DA-KURSS-L0245
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[15].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Der Finger hat einen Nagel.
+**CURRENT_DA:** Pirkstam ir nags.
+**PROPOSED_DA:** Fingeren har en negl.
+**Severity:** CRITICAL
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian sentence in DA field.
+**Reason:** Latvian sentence in DA field.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 374 (Kurss)
+
+**Finding:** 374
+**Audit ID:** DA-KURSS-L0246
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[16].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Was tust du?
+**CURRENT_DA:** Hvor er du?
+**PROPOSED_DA:** Hvad laver du?
+**Severity:** HIGH
+**Category:** SEMANTICS
+**Problem:** DE Was tust du? asks what you are doing; DA Hvor er du? asks where you are.
+**Reason:** DE Was tust du? asks what you are doing; DA Hvor er du? asks where you are.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 375 (Kurss)
+
+**Finding:** 375
+**Audit ID:** DA-KURSS-L0247
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[18].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Was tut Paul?
+**CURRENT_DA:** Hvor Paul dara?
+**PROPOSED_DA:** Hvad laver Paul?
+**Severity:** CRITICAL
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian Ko Pauls dara? remnant in DA field.
+**Reason:** Latvian Ko Pauls dara? remnant in DA field.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 376 (Kurss)
+
+**Finding:** 376
+**Audit ID:** DA-KURSS-L0248
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[23].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Sie senken beide Arme.
+**CURRENT_DA:** De taber begge hænder.
+**PROPOSED_DA:** De sænker begge arme.
+**Severity:** HIGH
+**Category:** SEMANTICS
+**Problem:** DE senken means lower arms; DA taber means drop/lose.
+**Reason:** DE senken means lower arms; DA taber means drop/lose.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 377 (Kurss)
+
+**Finding:** 377
+**Audit ID:** DA-KURSS-L0249
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[25].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Wer atmet tief?
+**CURRENT_DA:** Wen trækker vejret dybt?
+**PROPOSED_DA:** Hvem trækker vejret dybt?
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** German Wen left in DA question; should be Hvem.
+**Reason:** German Wen left in DA question; should be Hvem.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 378 (Kurss)
+
+**Finding:** 378
+**Audit ID:** DA-KURSS-L0250
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[28].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Nein, Robert und Johann turnen nicht.
+**CURRENT_DA:** Nein, Robert og Jan træner ikke.
+**PROPOSED_DA:** Nej, Robert og Jan træner ikke.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** German Nein in DA sentence; DE uses Johann but DA should use Jan consistently.
+**Reason:** German Nein in DA sentence; DE uses Johann but DA should use Jan consistently.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 379 (Kurss)
+
+**Finding:** 379
+**Audit ID:** DA-KURSS-L0251
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[29].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Robert, turne!
+**CURRENT_DA:** Robert, vingro!
+**PROPOSED_DA:** Robert, motionér!
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian vingro in DA imperative.
+**Reason:** Latvian vingro in DA imperative.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 380 (Kurss)
+
+**Finding:** 380
+**Audit ID:** DA-KURSS-L0252
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[30].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Robert und Johann, turnt!
+**CURRENT_DA:** Robert og Jani, motion!
+**PROPOSED_DA:** Robert og Jan, motionér!
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian Jani and incomplete motion; DE turnt imperative expected.
+**Reason:** Latvian Jani and incomplete motion; DE turnt imperative expected.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 381 (Kurss)
+
+**Finding:** 381
+**Audit ID:** DA-KURSS-L0253
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[31].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Fräulein Müller, turnen Sie!
+**CURRENT_DA:** Müller jaunkundze, vingrojiet!
+**PROPOSED_DA:** Frøken Müller, motionér!
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian jaunkundze, vingrojiet in DA field.
+**Reason:** Latvian jaunkundze, vingrojiet in DA field.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 382 (Kurss)
+
+**Finding:** 382
+**Audit ID:** DA-KURSS-L0255
+**Lesson/ID:** `lesson14`
+**Path:** `COURSE_LESSON_DATA.kurssLesson14.sections[2].title`
+**Field type:** `sectionTitle`
+**DE (read-only):** —
+**CURRENT_DA:** Gramatika
+**PROPOSED_DA:** Grammatik
+**Severity:** HIGH
+**Category:** RENDERER
+**Problem:** Latvian Gramatika breaks renderer section-title mapping.
+**Reason:** Latvian Gramatika breaks renderer section-title mapping.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 383 (Kurss)
+
+**Finding:** 383
+**Audit ID:** DA-KURSS-L0259
+**Lesson/ID:** `lesson14`
+**Path:** `COURSE_LESSON_DATA.kurssLesson14.sections[2].items[6].text`
+**Field type:** `grammarText`
+**DE (read-only):** —
+**CURRENT_DA:** Müssen betyder at have behov for/være brug for.
+**PROPOSED_DA:** Müssen betyder at have behov eller at være nødvendigt.
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**Problem:** Awkward Danish være brug for; unnatural modal explanation.
+**Reason:** Awkward Danish være brug for; unnatural modal explanation.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 384 (Kurss)
+
+**Finding:** 384
+**Audit ID:** DA-KURSS-L0261
+**Lesson/ID:** `lesson14`
+**Path:** `COURSE_LESSON_DATA.kurssLesson14.sections[3].title`
+**Field type:** `sectionTitle`
+**DE (read-only):** —
+**CURRENT_DA:** Izruna
+**PROPOSED_DA:** Udtale
+**Severity:** CRITICAL
+**Category:** RENDERER
+**Problem:** Latvian Izruna breaks renderer section-title mapping.
+**Reason:** Latvian Izruna breaks renderer section-title mapping.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 385 (Kurss)
+
+**Finding:** 385
+**Audit ID:** DA-KURSS-L0268
+**Lesson/ID:** `lesson14`
+**Path:** `COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[0].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Wer will fleißig lernen?
+**CURRENT_DA:** Wen ønsker at studere hårdt?
+**PROPOSED_DA:** Hvem vil studere hårdt?
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** German Wen in DA question.
+**Reason:** German Wen in DA question.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 386 (Kurss)
+
+**Finding:** 386
+**Audit ID:** DA-KURSS-L0269
+**Lesson/ID:** `lesson14`
+**Path:** `COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[2].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Wer muss heute kommen?
+**CURRENT_DA:** Wen skal komme i dag?
+**PROPOSED_DA:** Hvem skal komme i dag?
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** German Wen in DA question.
+**Reason:** German Wen in DA question.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 387 (Kurss)
+
+**Finding:** 387
+**Audit ID:** DA-KURSS-L0270
+**Lesson/ID:** `lesson14`
+**Path:** `COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[5].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Wer muss fleißig lernen?
+**CURRENT_DA:** Wen har brug for at studere hårdt?
+**PROPOSED_DA:** Hvem skal studere hårdt?
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** German Wen in DA question.
+**Reason:** German Wen in DA question.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 388 (Kurss)
+
+**Finding:** 388
+**Audit ID:** DA-KURSS-L0271
+**Lesson/ID:** `lesson14`
+**Path:** `COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[8].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Wer will die Suppe essen?
+**CURRENT_DA:** Wen vil spise suppe?
+**PROPOSED_DA:** Hvem vil spise suppe?
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** German Wen in DA question.
+**Reason:** German Wen in DA question.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 389 (Kurss)
+
+**Finding:** 389
+**Audit ID:** DA-KURSS-L0272
+**Lesson/ID:** `lesson14`
+**Path:** `COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[10].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Wer muss das Buch lesen?
+**CURRENT_DA:** Wen skal læse bogen?
+**PROPOSED_DA:** Hvem skal læse bogen?
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** German Wen in DA question.
+**Reason:** German Wen in DA question.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 390 (Kurss)
+
+**Finding:** 390
+**Audit ID:** DA-KURSS-L0273
+**Lesson/ID:** `lesson14`
+**Path:** `COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[11].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Der Bruder muss das Buch lesen.
+**CURRENT_DA:** Bror skal læse en bog.
+**PROPOSED_DA:** Broren skal læse bogen.
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**Problem:** Missing article; DE der Bruder muss das Buch lesen.
+**Reason:** Missing article; DE der Bruder muss das Buch lesen.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 391 (Kurss)
+
+**Finding:** 391
+**Audit ID:** DA-KURSS-L0275
+**Lesson/ID:** `lesson15`
+**Path:** `COURSE_LESSON_DATA.kurssLesson15.sections[1].items[24]`
+**Field type:** `sectionItem`
+**DE (read-only):** die Kirsche
+**CURRENT_DA:** die Kirsche — the cherry
+**PROPOSED_DA:** die Kirsche — kirsebær
+**Severity:** MEDIUM
+**Category:** FOREIGN_REMNANT
+**Problem:** English gloss in DA vocabulary line; should be Danish.
+**Reason:** English gloss in DA vocabulary line; should be Danish.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 392 (Kurss)
+
+**Finding:** 392
+**Audit ID:** DA-KURSS-L0276
+**Lesson/ID:** `lesson15`
+**Path:** `COURSE_LESSON_DATA.kurssLesson15.sections[2].title`
+**Field type:** `sectionTitle`
+**DE (read-only):** —
+**CURRENT_DA:** Gramatika
+**PROPOSED_DA:** Grammatik
+**Severity:** HIGH
+**Category:** RENDERER
+**Problem:** Latvian Gramatika breaks renderer section-title mapping.
+**Reason:** Latvian Gramatika breaks renderer section-title mapping.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 393 (Kurss)
+
+**Finding:** 393
+**Audit ID:** DA-KURSS-L0280
+**Lesson/ID:** `lesson15`
+**Path:** `COURSE_LESSON_DATA.kurssLesson15.sections[2].items[2].heading`
+**Field type:** `grammarHeading`
+**DE (read-only):** —
+**CURRENT_DA:** Sollen formas
+**PROPOSED_DA:** Sollen-former
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian Sollen formas in DA heading.
+**Reason:** Latvian Sollen formas in DA heading.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 394 (Kurss)
+
+**Finding:** 394
+**Audit ID:** DA-KURSS-L0282
+**Lesson/ID:** `lesson15`
+**Path:** `COURSE_LESSON_DATA.kurssLesson15.sections[3].title`
+**Field type:** `sectionTitle`
+**DE (read-only):** —
+**CURRENT_DA:** Izruna
+**PROPOSED_DA:** Udtale
+**Severity:** CRITICAL
+**Category:** RENDERER
+**Problem:** Latvian Izruna breaks renderer section-title mapping.
+**Reason:** Latvian Izruna breaks renderer section-title mapping.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 395 (Kurss)
+
+**Finding:** 395
+**Audit ID:** DA-KURSS-L0288
+**Lesson/ID:** `lesson15`
+**Path:** `COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[0].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Wer ist gesund, wer darf arbeiten?
+**CURRENT_DA:** Wen er rask, hvem må arbejde?
+**PROPOSED_DA:** Hvem er rask, hvem må arbejde?
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** German Wen in DA question.
+**Reason:** German Wen in DA question.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 396 (Kurss)
+
+**Finding:** 396
+**Audit ID:** DA-KURSS-L0289
+**Lesson/ID:** `lesson15`
+**Path:** `COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[1].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Franz ist gesund, er darf arbeiten.
+**CURRENT_DA:** Francis er rask, han kan arbejde.
+**PROPOSED_DA:** Franz er rask, han må arbejde.
+**Severity:** MEDIUM
+**Category:** NAMES
+**Problem:** DE canonical name Franz; DA uses Francis.
+**Reason:** DE canonical name Franz; DA uses Francis.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 397 (Kurss)
+
+**Finding:** 397
+**Audit ID:** DA-KURSS-L0290
+**Lesson/ID:** `lesson15`
+**Path:** `COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[3].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Nein, der Großvater darf nicht arbeiten, denn er ist krank.
+**CURRENT_DA:** Nein, bedstefar kan ikke arbejde, fordi han er syg.
+**PROPOSED_DA:** Nej, bedstefar må ikke arbejde, fordi han er syg.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** German Nein in DA sentence.
+**Reason:** German Nein in DA sentence.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 398 (Kurss)
+
+**Finding:** 398
+**Audit ID:** DA-KURSS-L0291
+**Lesson/ID:** `lesson15`
+**Path:** `COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[5].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Nein, die Pflaumen sollst du nicht essen, sie sind unreif.
+**CURRENT_DA:** Nein, du behøver ikke spise blommerne, de er ikke kommet.
+**PROPOSED_DA:** Nej, du skal ikke spise blommerne, de er ikke modne.
+**Severity:** HIGH
+**Category:** SEMANTICS
+**Problem:** DE sollst + unreif (not ripe); DA misuses behøver ikke and wrong ripeness phrase.
+**Reason:** DE sollst + unreif (not ripe); DA misuses behøver ikke and wrong ripeness phrase.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 399 (Kurss)
+
+**Finding:** 399
+**Audit ID:** DA-KURSS-L0292
+**Lesson/ID:** `lesson15`
+**Path:** `COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[10].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Wer muss lernen?
+**CURRENT_DA:** Wen skal studere?
+**PROPOSED_DA:** Hvem skal studere?
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** German Wen in DA question.
+**Reason:** German Wen in DA question.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 400 (Kurss)
+
+**Finding:** 400
+**Audit ID:** DA-KURSS-L0294
+**Lesson/ID:** `lesson16`
+**Path:** `COURSE_LESSON_DATA.kurssLesson16.sections[1].items[12]`
+**Field type:** `sectionItem`
+**DE (read-only):** Brot
+**CURRENT_DA:** Brot — maise
+**PROPOSED_DA:** Brot — brød
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian maise gloss in DA vocabulary line.
+**Reason:** Latvian maise gloss in DA vocabulary line.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 401 (Kurss)
+
+**Finding:** 401
+**Audit ID:** DA-KURSS-L0295
+**Lesson/ID:** `lesson16`
+**Path:** `COURSE_LESSON_DATA.kurssLesson16.sections[1].items[14]`
+**Field type:** `sectionItem`
+**DE (read-only):** gehorchen
+**CURRENT_DA:** gehorchen — obey
+**PROPOSED_DA:** gehorchen — adlyde
+**Severity:** MEDIUM
+**Category:** FOREIGN_REMNANT
+**Problem:** English gloss in DA vocabulary line; should be Danish.
+**Reason:** English gloss in DA vocabulary line; should be Danish.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 402 (Kurss)
+
+**Finding:** 402
+**Audit ID:** DA-KURSS-L0296
+**Lesson/ID:** `lesson16`
+**Path:** `COURSE_LESSON_DATA.kurssLesson16.sections[1].items[19]`
+**Field type:** `sectionItem`
+**DE (read-only):** die Wiese
+**CURRENT_DA:** die Wiese — the meadow
+**PROPOSED_DA:** die Wiese — engen
+**Severity:** MEDIUM
+**Category:** FOREIGN_REMNANT
+**Problem:** English gloss in DA vocabulary line; should be Danish.
+**Reason:** English gloss in DA vocabulary line; should be Danish.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 403 (Kurss)
+
+**Finding:** 403
+**Audit ID:** DA-KURSS-L0297
+**Lesson/ID:** `lesson16`
+**Path:** `COURSE_LESSON_DATA.kurssLesson16.sections[1].items[21]`
+**Field type:** `sectionItem`
+**DE (read-only):** der Wald
+**CURRENT_DA:** der Wald — the forest
+**PROPOSED_DA:** der Wald — skoven
+**Severity:** MEDIUM
+**Category:** FOREIGN_REMNANT
+**Problem:** English gloss in DA vocabulary line; should be Danish.
+**Reason:** English gloss in DA vocabulary line; should be Danish.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 404 (Kurss)
+
+**Finding:** 404
+**Audit ID:** DA-KURSS-L0298
+**Lesson/ID:** `lesson16`
+**Path:** `COURSE_LESSON_DATA.kurssLesson16.sections[2].title`
+**Field type:** `sectionTitle`
+**DE (read-only):** —
+**CURRENT_DA:** Gramatika
+**PROPOSED_DA:** Grammatik
+**Severity:** HIGH
+**Category:** RENDERER
+**Problem:** Latvian Gramatika breaks renderer section-title mapping.
+**Reason:** Latvian Gramatika breaks renderer section-title mapping.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 405 (Kurss)
+
+**Finding:** 405
+**Audit ID:** DA-KURSS-L0299
+**Lesson/ID:** `lesson16`
+**Path:** `COURSE_LESSON_DATA.kurssLesson16.sections[2].items[0].heading`
+**Field type:** `grammarHeading`
+**DE (read-only):** —
+**CURRENT_DA:** Dativs
+**PROPOSED_DA:** Dativ
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian Dativs in DA grammar heading.
+**Reason:** Latvian Dativs in DA grammar heading.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 406 (Kurss)
+
+**Finding:** 406
+**Audit ID:** DA-KURSS-L0300
+**Lesson/ID:** `lesson16`
+**Path:** `COURSE_LESSON_DATA.kurssLesson16.sections[2].items[1].heading`
+**Field type:** `grammarHeading`
+**DE (read-only):** —
+**CURRENT_DA:** Vienskaitlis
+**PROPOSED_DA:** Ental
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian Vienskaitlis in DA grammar heading.
+**Reason:** Latvian Vienskaitlis in DA grammar heading.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 407 (Kurss)
+
+**Finding:** 407
+**Audit ID:** DA-KURSS-L0301
+**Lesson/ID:** `lesson16`
+**Path:** `COURSE_LESSON_DATA.kurssLesson16.sections[2].items[2].heading`
+**Field type:** `grammarHeading`
+**DE (read-only):** —
+**CURRENT_DA:** Daudzskaitlis
+**PROPOSED_DA:** Flertal
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian Daudzskaitlis in DA grammar heading.
+**Reason:** Latvian Daudzskaitlis in DA grammar heading.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 408 (Kurss)
+
+**Finding:** 408
+**Audit ID:** DA-KURSS-L0306
+**Lesson/ID:** `lesson16`
+**Path:** `COURSE_LESSON_DATA.kurssLesson16.sections[2].items[7].heading`
+**Field type:** `grammarHeading`
+**DE (read-only):** —
+**CURRENT_DA:** Ja daudzskaitlis jau beidzas ar -n
+**PROPOSED_DA:** Hvis flertallet allerede ender med -n
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian heading in DA grammar block.
+**Reason:** Latvian heading in DA grammar block.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 409 (Kurss)
+
+**Finding:** 409
+**Audit ID:** DA-KURSS-L0307
+**Lesson/ID:** `lesson16`
+**Path:** `COURSE_LESSON_DATA.kurssLesson16.sections[2].items[10].heading`
+**Field type:** `grammarHeading`
+**DE (read-only):** —
+**CURRENT_DA:** Daudzskaitlis ar Umlaut
+**PROPOSED_DA:** Flertal med Umlaut
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian Daudzskaitlis ar Umlaut in DA heading.
+**Reason:** Latvian Daudzskaitlis ar Umlaut in DA heading.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 410 (Kurss)
+
+**Finding:** 410
+**Audit ID:** DA-KURSS-L0308
+**Lesson/ID:** `lesson16`
+**Path:** `COURSE_LESSON_DATA.kurssLesson16.sections[2].items[11].heading`
+**Field type:** `grammarHeading`
+**DE (read-only):** —
+**CURRENT_DA:** Bez artikula
+**PROPOSED_DA:** Uden artikel
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian Bez artikula in DA heading.
+**Reason:** Latvian Bez artikula in DA heading.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 411 (Kurss)
+
+**Finding:** 411
+**Audit ID:** DA-KURSS-L0309
+**Lesson/ID:** `lesson16`
+**Path:** `COURSE_LESSON_DATA.kurssLesson16.sections[3].title`
+**Field type:** `sectionTitle`
+**DE (read-only):** —
+**CURRENT_DA:** Izruna
+**PROPOSED_DA:** Udtale
+**Severity:** CRITICAL
+**Category:** RENDERER
+**Problem:** Latvian Izruna breaks renderer section-title mapping.
+**Reason:** Latvian Izruna breaks renderer section-title mapping.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 412 (Kurss)
+
+**Finding:** 412
+**Audit ID:** DA-KURSS-L0313
+**Lesson/ID:** `lesson16`
+**Path:** `COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[14].task`
+**Field type:** `cardTask`
+**DE (read-only):** Der Vater ruft die Männer, die Frauen, die Kinder, die Söhne, die Fräulein, die Tanten.
+**CURRENT_DA:** Convert to plural.
+**PROPOSED_DA:** Omskriv til flertal.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English task prompt Convert to plural in DA field.
+**Reason:** English task prompt Convert to plural in DA field.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 413 (Kurss)
+
+**Finding:** 413
+**Audit ID:** DA-KURSS-L0314
+**Lesson/ID:** `lesson16`
+**Path:** `COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[15].task`
+**Field type:** `cardTask`
+**DE (read-only):** Der Vater nähert sich den Knechten, den Töchtern, den Mägden, den Lehrern, den Tischlern, den Lehrerinnen, den Mädchen, den Jägern.
+**CURRENT_DA:** Convert to plural.
+**PROPOSED_DA:** Omskriv til flertal.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English task prompt Convert to plural in DA field.
+**Reason:** English task prompt Convert to plural in DA field.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 414 (Kurss)
+
+**Finding:** 414
+**Audit ID:** DA-KURSS-L0315
+**Lesson/ID:** `lesson16`
+**Path:** `COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[0].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Wen ruft der Vater?
+**CURRENT_DA:** Hvad er faderens navn?
+**PROPOSED_DA:** Hvem kalder faderen på?
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Wen ruft der Vater? asks whom father calls; DA asks father's name.
+**Reason:** DE Wen ruft der Vater? asks whom father calls; DA asks father's name.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 415 (Kurss)
+
+**Finding:** 415
+**Audit ID:** DA-KURSS-L0316
+**Lesson/ID:** `lesson16`
+**Path:** `COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[2].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Wem gehört dieser Wald?
+**CURRENT_DA:** Wen ejer denne skov?
+**PROPOSED_DA:** Hvem ejer denne skov?
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** German Wen in DA question; Wem gehört needs Hvem ejer.
+**Reason:** German Wen in DA question; Wem gehört needs Hvem ejer.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 416 (Kurss)
+
+**Finding:** 416
+**Audit ID:** DA-KURSS-L0317
+**Lesson/ID:** `lesson16`
+**Path:** `COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[4].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Wem gehorcht der Hund?
+**CURRENT_DA:** Kam paklausa suns?
+**PROPOSED_DA:** Hvem adlyder hunden?
+**Severity:** CRITICAL
+**Category:** FOREIGN_REMNANT
+**Problem:** Full Latvian Kam paklausa suns? in DA field.
+**Reason:** Full Latvian Kam paklausa suns? in DA field.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 417 (Kurss)
+
+**Finding:** 417
+**Audit ID:** DA-KURSS-L0319
+**Lesson/ID:** `lesson17`
+**Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[1].items[7]`
+**Field type:** `sectionItem`
+**DE (read-only):** auffangen
+**CURRENT_DA:** auffangen — to catch / catch
+**PROPOSED_DA:** auffangen — to fange / catch
+**Severity:** MEDIUM
+**Category:** FOREIGN_REMNANT
+**Problem:** English gloss in DA vocabulary line; should be Danish.
+**Reason:** English gloss in DA vocabulary line; should be Danish.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 418 (Kurss)
+
+**Finding:** 418
+**Audit ID:** DA-KURSS-L0320
+**Lesson/ID:** `lesson17`
+**Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[1].items[12]`
+**Field type:** `sectionItem`
+**DE (read-only):** die Diele
+**CURRENT_DA:** die Diele — the floor
+**PROPOSED_DA:** die Diele — gulvet
+**Severity:** MEDIUM
+**Category:** FOREIGN_REMNANT
+**Problem:** English gloss in DA vocabulary line; should be Danish.
+**Reason:** English gloss in DA vocabulary line; should be Danish.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 419 (Kurss)
+
+**Finding:** 419
+**Audit ID:** DA-KURSS-L0321
+**Lesson/ID:** `lesson17`
+**Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[1].items[14]`
+**Field type:** `sectionItem`
+**DE (read-only):** wischen
+**CURRENT_DA:** wischen — to wipe / clean
+**PROPOSED_DA:** wischen — at tørre / aftørre
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English gloss "to ..." in vocabulary item
@@ -7380,10 +8808,52 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 352 (Kurss)
+## Finding 420 (Kurss)
 
-**Finding:** 352
-**Audit ID:** DA-KURSS-L0265
+**Finding:** 420
+**Audit ID:** DA-KURSS-L0322
+**Lesson/ID:** `lesson17`
+**Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[1].items[15]`
+**Field type:** `sectionItem`
+**DE (read-only):** abwischen
+**CURRENT_DA:** abwischen — to wipe off
+**PROPOSED_DA:** abwischen — at aftørre
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English gloss "to ..." in vocabulary item
+**Reason:** English gloss "to ..." in vocabulary item
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 421 (Kurss)
+
+**Finding:** 421
+**Audit ID:** DA-KURSS-L0323
+**Lesson/ID:** `lesson17`
+**Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[1].items[16]`
+**Field type:** `sectionItem`
+**DE (read-only):** helfen
+**CURRENT_DA:** helfen — to help
+**PROPOSED_DA:** helfen — at hjælpe
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English gloss "to ..." in vocabulary item
+**Reason:** English gloss "to ..." in vocabulary item
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 422 (Kurss)
+
+**Finding:** 422
+**Audit ID:** DA-KURSS-L0324
 **Lesson/ID:** `lesson17`
 **Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[1].items[22]`
 **Field type:** `sectionItem`
@@ -7401,16 +8871,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 353 (Kurss)
+## Finding 423 (Kurss)
 
-**Finding:** 353
-**Audit ID:** DA-KURSS-L0267
+**Finding:** 423
+**Audit ID:** DA-KURSS-L0325
 **Lesson/ID:** `lesson17`
 **Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[1].items[23]`
 **Field type:** `sectionItem`
 **DE (read-only):** der Staub
 **CURRENT_DA:** der Staub — dust
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** der Staub — støv
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English gloss instead of Danish
@@ -7422,16 +8892,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 354 (Kurss)
+## Finding 424 (Kurss)
 
-**Finding:** 354
-**Audit ID:** DA-KURSS-L0268
+**Finding:** 424
+**Audit ID:** DA-KURSS-L0326
 **Lesson/ID:** `lesson17`
 **Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[1].items[24]`
 **Field type:** `sectionItem`
 **DE (read-only):** der Bruder
 **CURRENT_DA:** der Bruder — brother
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** der Bruder — broder
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English gloss instead of Danish
@@ -7443,16 +8913,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 355 (Kurss)
+## Finding 425 (Kurss)
 
-**Finding:** 355
-**Audit ID:** DA-KURSS-L0269
+**Finding:** 425
+**Audit ID:** DA-KURSS-L0327
 **Lesson/ID:** `lesson17`
 **Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[1].items[25]`
 **Field type:** `sectionItem`
 **DE (read-only):** die Schwester
 **CURRENT_DA:** die Schwester — the sister
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** die Schwester — søster
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English article gloss in vocabulary item
@@ -7464,31 +8934,10 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 356 (Kurss)
+## Finding 426 (Kurss)
 
-**Finding:** 356
-**Audit ID:** DA-KURSS-L0270
-**Lesson/ID:** `lesson17`
-**Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[2].title`
-**Field type:** `sectionTitle`
-**DE (read-only):** —
-**CURRENT_DA:** Gramatika
-**PROPOSED_DA:** Grammatik
-**Severity:** HIGH
-**Category:** RENDERER
-**Problem:** Section title Latvian/mismatch with ui.js kurss.sections mapping
-**Reason:** Section title Latvian/mismatch with ui.js kurss.sections mapping
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 357 (Kurss)
-
-**Finding:** 357
-**Audit ID:** DA-KURSS-L0271
+**Finding:** 426
+**Audit ID:** DA-KURSS-L0330
 **Lesson/ID:** `lesson17`
 **Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].text`
 **Field type:** `grammarText`
@@ -7506,10 +8955,31 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 358 (Kurss)
+## Finding 427 (Kurss)
 
-**Finding:** 358
-**Audit ID:** DA-KURSS-L0285
+**Finding:** 427
+**Audit ID:** DA-KURSS-L0334
+**Lesson/ID:** `lesson17`
+**Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[2].title`
+**Field type:** `sectionTitle`
+**DE (read-only):** —
+**CURRENT_DA:** Gramatika
+**PROPOSED_DA:** Grammatik
+**Severity:** HIGH
+**Category:** RENDERER
+**Problem:** Section title Latvian/mismatch with ui.js kurss.sections mapping
+**Reason:** Section title Latvian/mismatch with ui.js kurss.sections mapping
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 428 (Kurss)
+
+**Finding:** 428
+**Audit ID:** DA-KURSS-L0339
 **Lesson/ID:** `lesson17`
 **Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[3].title`
 **Field type:** `sectionTitle`
@@ -7527,16 +8997,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 359 (Kurss)
+## Finding 429 (Kurss)
 
-**Finding:** 359
-**Audit ID:** DA-KURSS-L0291
+**Finding:** 429
+**Audit ID:** DA-KURSS-L0340
 **Lesson/ID:** `lesson17`
 **Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[0].task`
 **Field type:** `cardTask`
 **DE (read-only):** Der Knecht sieht den Jäger, den Müller, den Tischler.
 **CURRENT_DA:** Answer in the singular, then in the plural.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** Svar i ental, derefter i flertal.
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English exercise instruction
@@ -7548,16 +9018,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 360 (Kurss)
+## Finding 430 (Kurss)
 
-**Finding:** 360
-**Audit ID:** DA-KURSS-L0292
+**Finding:** 430
+**Audit ID:** DA-KURSS-L0341
 **Lesson/ID:** `lesson17`
 **Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[1].task`
 **Field type:** `cardTask`
 **DE (read-only):** Der Knecht sieht den Besen, die Schaufel, den Garten.
 **CURRENT_DA:** Answer in the singular, then in the plural.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** Svar i ental, derefter i flertal.
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English exercise instruction
@@ -7569,16 +9039,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 361 (Kurss)
+## Finding 431 (Kurss)
 
-**Finding:** 361
-**Audit ID:** DA-KURSS-L0293
+**Finding:** 431
+**Audit ID:** DA-KURSS-L0342
 **Lesson/ID:** `lesson17`
 **Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[2].task`
 **Field type:** `cardTask`
 **DE (read-only):** Der Knecht spricht mit dem Vetter, mit der Base, mit dem Mädchen.
 **CURRENT_DA:** Answer in the singular, then in the plural.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** Svar i ental, derefter i flertal.
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English exercise instruction
@@ -7590,16 +9060,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 362 (Kurss)
+## Finding 432 (Kurss)
 
-**Finding:** 362
-**Audit ID:** DA-KURSS-L0294
+**Finding:** 432
+**Audit ID:** DA-KURSS-L0343
 **Lesson/ID:** `lesson17`
 **Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[3].task`
 **Field type:** `cardTask`
 **DE (read-only):** Der Knecht arbeitet mit dem Spaten, mit diesem Beil, mit jener Säge.
 **CURRENT_DA:** Answer in the singular, then in the plural.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** Svar i ental, derefter i flertal.
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English exercise instruction
@@ -7611,16 +9081,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 363 (Kurss)
+## Finding 433 (Kurss)
 
-**Finding:** 363
-**Audit ID:** DA-KURSS-L0295
+**Finding:** 433
+**Audit ID:** DA-KURSS-L0344
 **Lesson/ID:** `lesson17`
 **Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[4].task`
 **Field type:** `cardTask`
 **DE (read-only):** Der Knecht hilft diesem Tischler, jener Frau, dem Fräulein.
 **CURRENT_DA:** Answer in the singular, then in the plural.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** Svar i ental, derefter i flertal.
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English exercise instruction
@@ -7632,31 +9102,10 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 364 (Kurss)
+## Finding 434 (Kurss)
 
-**Finding:** 364
-**Audit ID:** DA-KURSS-L0296
-**Lesson/ID:** `lesson17`
-**Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[5].title`
-**Field type:** `sectionTitle`
-**DE (read-only):** —
-**CURRENT_DA:** Oversætte
-**PROPOSED_DA:** Oversæt
-**Severity:** HIGH
-**Category:** RENDERER
-**Problem:** Section title Latvian/mismatch with ui.js kurss.sections mapping
-**Reason:** Section title Latvian/mismatch with ui.js kurss.sections mapping
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 365 (Kurss)
-
-**Finding:** 365
-**Audit ID:** DA-KURSS-L0297
+**Finding:** 434
+**Audit ID:** DA-KURSS-L0345
 **Lesson/ID:** `lesson17`
 **Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[1].lv`
 **Field type:** `cardLv`
@@ -7674,10 +9123,10 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 366 (Kurss)
+## Finding 435 (Kurss)
 
-**Finding:** 366
-**Audit ID:** DA-KURSS-L0298
+**Finding:** 435
+**Audit ID:** DA-KURSS-L0346
 **Lesson/ID:** `lesson17`
 **Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[2].lv`
 **Field type:** `cardLv`
@@ -7695,10 +9144,10 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 367 (Kurss)
+## Finding 436 (Kurss)
 
-**Finding:** 367
-**Audit ID:** DA-KURSS-L0299
+**Finding:** 436
+**Audit ID:** DA-KURSS-L0347
 **Lesson/ID:** `lesson17`
 **Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[5].lv`
 **Field type:** `cardLv`
@@ -7716,10 +9165,10 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 368 (Kurss)
+## Finding 437 (Kurss)
 
-**Finding:** 368
-**Audit ID:** DA-KURSS-L0301
+**Finding:** 437
+**Audit ID:** DA-KURSS-L0348
 **Lesson/ID:** `lesson17`
 **Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[8].lv`
 **Field type:** `cardLv`
@@ -7737,10 +9186,10 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 369 (Kurss)
+## Finding 438 (Kurss)
 
-**Finding:** 369
-**Audit ID:** DA-KURSS-L0303
+**Finding:** 438
+**Audit ID:** DA-KURSS-L0349
 **Lesson/ID:** `lesson17`
 **Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[9].lv`
 **Field type:** `cardLv`
@@ -7758,10 +9207,31 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 370 (Kurss)
+## Finding 439 (Kurss)
 
-**Finding:** 370
-**Audit ID:** DA-KURSS-L0305
+**Finding:** 439
+**Audit ID:** DA-KURSS-L0350
+**Lesson/ID:** `lesson17`
+**Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[5].title`
+**Field type:** `sectionTitle`
+**DE (read-only):** —
+**CURRENT_DA:** Oversætte
+**PROPOSED_DA:** Oversæt
+**Severity:** HIGH
+**Category:** RENDERER
+**Problem:** Section title Latvian/mismatch with ui.js kurss.sections mapping
+**Reason:** Section title Latvian/mismatch with ui.js kurss.sections mapping
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 440 (Kurss)
+
+**Finding:** 440
+**Audit ID:** DA-KURSS-L0351
 **Lesson/ID:** `lesson17`
 **Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[17].lv`
 **Field type:** `cardLv`
@@ -7779,10 +9249,10 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 371 (Kurss)
+## Finding 441 (Kurss)
 
-**Finding:** 371
-**Audit ID:** DA-KURSS-L0307
+**Finding:** 441
+**Audit ID:** DA-KURSS-L0352
 **Lesson/ID:** `lesson17`
 **Path:** `COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[24].lv`
 **Field type:** `cardLv`
@@ -7800,100 +9270,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 372 (Kurss)
+## Finding 442 (Kurss)
 
-**Finding:** 372
-**Audit ID:** DA-KURSS-L0309
-**Lesson/ID:** `lesson18`
-**Path:** `COURSE_LESSON_DATA.kurssLesson18.subtitle`
-**Field type:** `subtitle`
-**DE (read-only):** —
-**CURRENT_DA:** Wohin / wo, Akkusativ vai Dativ ar an / in / auf
-**PROPOSED_DA:** Wohin / wo, Akkusativ eller Dativ ar an / in / auf
-**Severity:** MEDIUM
-**Category:** FOREIGN_REMNANT
-**Problem:** Latvian vai instead of Danish eller
-**Reason:** Latvian vai instead of Danish eller
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 373 (Kurss)
-
-**Finding:** 373
-**Audit ID:** DA-KURSS-L0310
-**Lesson/ID:** `lesson18`
-**Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[1].items[5]`
-**Field type:** `sectionItem`
-**DE (read-only):** er/sie/es trägt
-**CURRENT_DA:** er/sie/es trägt — he/she/it carries
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Problem:** English pronoun gloss
-**Reason:** English pronoun gloss
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 374 (Kurss)
-
-**Finding:** 374
-**Audit ID:** DA-KURSS-L0311
-**Lesson/ID:** `lesson18`
-**Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[1].items[8]`
-**Field type:** `sectionItem`
-**DE (read-only):** das Körbchen
-**CURRENT_DA:** das Körbchen — a basket
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Problem:** English article gloss in vocabulary item
-**Reason:** English article gloss in vocabulary item
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 375 (Kurss)
-
-**Finding:** 375
-**Audit ID:** DA-KURSS-L0312
-**Lesson/ID:** `lesson18`
-**Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[1].items[9]`
-**Field type:** `sectionItem`
-**DE (read-only):** stellen
-**CURRENT_DA:** stellen — to place / put upright
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Problem:** English gloss "to ..." in vocabulary item
-**Reason:** English gloss "to ..." in vocabulary item
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 376 (Kurss)
-
-**Finding:** 376
-**Audit ID:** DA-KURSS-L0313
+**Finding:** 442
+**Audit ID:** DA-KURSS-L0353
 **Lesson/ID:** `lesson18`
 **Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[1].items[10]`
 **Field type:** `sectionItem`
 **DE (read-only):** legen
 **CURRENT_DA:** legen — to lay down
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** legen — at lægge ned
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English gloss "to ..." in vocabulary item
@@ -7905,16 +9291,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 377 (Kurss)
+## Finding 443 (Kurss)
 
-**Finding:** 377
-**Audit ID:** DA-KURSS-L0314
+**Finding:** 443
+**Audit ID:** DA-KURSS-L0354
 **Lesson/ID:** `lesson18`
 **Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[1].items[11]`
 **Field type:** `sectionItem`
 **DE (read-only):** das Wasser
 **CURRENT_DA:** das Wasser — water
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** das Wasser — vand
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English gloss instead of Danish
@@ -7926,16 +9312,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 378 (Kurss)
+## Finding 444 (Kurss)
 
-**Finding:** 378
-**Audit ID:** DA-KURSS-L0315
+**Finding:** 444
+**Audit ID:** DA-KURSS-L0355
 **Lesson/ID:** `lesson18`
 **Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[1].items[18]`
 **Field type:** `sectionItem`
 **DE (read-only):** in
 **CURRENT_DA:** in — inside / inside
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** in — inden i / ind i
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English gloss pair
@@ -7947,16 +9333,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 379 (Kurss)
+## Finding 445 (Kurss)
 
-**Finding:** 379
-**Audit ID:** DA-KURSS-L0316
+**Finding:** 445
+**Audit ID:** DA-KURSS-L0356
 **Lesson/ID:** `lesson18`
 **Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[1].items[21]`
 **Field type:** `sectionItem`
 **DE (read-only):** die Diele
 **CURRENT_DA:** die Diele — the floor
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** die Diele — gulv
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English article gloss in vocabulary item
@@ -7968,20 +9354,20 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 380 (Kurss)
+## Finding 446 (Kurss)
 
-**Finding:** 380
-**Audit ID:** DA-KURSS-L0317
+**Finding:** 446
+**Audit ID:** DA-KURSS-L0357
 **Lesson/ID:** `lesson18`
-**Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[2].title`
-**Field type:** `sectionTitle`
-**DE (read-only):** —
-**CURRENT_DA:** Gramatika
-**PROPOSED_DA:** Grammatik
+**Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[1].items[5]`
+**Field type:** `sectionItem`
+**DE (read-only):** er/sie/es trägt
+**CURRENT_DA:** er/sie/es trägt — he/she/it carries
+**PROPOSED_DA:** er/sie/es trägt — han/hun/det bærer
 **Severity:** HIGH
-**Category:** RENDERER
-**Problem:** Section title Latvian/mismatch with ui.js kurss.sections mapping
-**Reason:** Section title Latvian/mismatch with ui.js kurss.sections mapping
+**Category:** FOREIGN_REMNANT
+**Problem:** English pronoun gloss
+**Reason:** English pronoun gloss
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
@@ -7989,10 +9375,52 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 381 (Kurss)
+## Finding 447 (Kurss)
 
-**Finding:** 381
-**Audit ID:** DA-KURSS-L0318
+**Finding:** 447
+**Audit ID:** DA-KURSS-L0358
+**Lesson/ID:** `lesson18`
+**Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[1].items[8]`
+**Field type:** `sectionItem`
+**DE (read-only):** das Körbchen
+**CURRENT_DA:** das Körbchen — a basket
+**PROPOSED_DA:** das Körbchen — kurv
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English article gloss in vocabulary item
+**Reason:** English article gloss in vocabulary item
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 448 (Kurss)
+
+**Finding:** 448
+**Audit ID:** DA-KURSS-L0359
+**Lesson/ID:** `lesson18`
+**Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[1].items[9]`
+**Field type:** `sectionItem`
+**DE (read-only):** stellen
+**CURRENT_DA:** stellen — to place / put upright
+**PROPOSED_DA:** stellen — at placere / sætte op
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English gloss "to ..." in vocabulary item
+**Reason:** English gloss "to ..." in vocabulary item
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 449 (Kurss)
+
+**Finding:** 449
+**Audit ID:** DA-KURSS-L0360
 **Lesson/ID:** `lesson18`
 **Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[2].items[1].text`
 **Field type:** `grammarText`
@@ -8010,16 +9438,58 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 382 (Kurss)
+## Finding 450 (Kurss)
 
-**Finding:** 382
-**Audit ID:** DA-KURSS-L0346
+**Finding:** 450
+**Audit ID:** DA-KURSS-L0373
+**Lesson/ID:** `lesson18`
+**Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[2].title`
+**Field type:** `sectionTitle`
+**DE (read-only):** —
+**CURRENT_DA:** Gramatika
+**PROPOSED_DA:** Grammatik
+**Severity:** HIGH
+**Category:** RENDERER
+**Problem:** Section title Latvian/mismatch with ui.js kurss.sections mapping
+**Reason:** Section title Latvian/mismatch with ui.js kurss.sections mapping
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 451 (Kurss)
+
+**Finding:** 451
+**Audit ID:** DA-KURSS-L0374
+**Lesson/ID:** `lesson18`
+**Path:** `COURSE_LESSON_DATA.kurssLesson18.subtitle`
+**Field type:** `subtitle`
+**DE (read-only):** —
+**CURRENT_DA:** Wohin / wo, Akkusativ vai Dativ ar an / in / auf
+**PROPOSED_DA:** wohin / wo, Akkusativ eller Dativ med an / in / auf
+**Severity:** MEDIUM
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian vai instead of Danish eller
+**Reason:** Latvian vai instead of Danish eller
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 452 (Kurss)
+
+**Finding:** 452
+**Audit ID:** DA-KURSS-L0386
 **Lesson/ID:** `lesson18`
 **Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].heading`
 **Field type:** `grammarHeading`
 **DE (read-only):** —
 **CURRENT_DA:** in + vieta
-**PROPOSED_DA:** (Danish replacement)
+**PROPOSED_DA:** in + sted
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** Latvian remnant: \bin \+ vieta\b
@@ -8031,10 +9501,10 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 383 (Kurss)
+## Finding 453 (Kurss)
 
-**Finding:** 383
-**Audit ID:** DA-KURSS-L0353
+**Finding:** 453
+**Audit ID:** DA-KURSS-L0390
 **Lesson/ID:** `lesson18`
 **Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[3].title`
 **Field type:** `sectionTitle`
@@ -8052,16 +9522,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 384 (Kurss)
+## Finding 454 (Kurss)
 
-**Finding:** 384
-**Audit ID:** DA-KURSS-L0356
+**Finding:** 454
+**Audit ID:** DA-KURSS-L0391
 **Lesson/ID:** `lesson18`
 **Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[0].task`
 **Field type:** `cardTask`
 **DE (read-only):** Das Mädchen geht in den Wald, in den Garten, auf die Wiese, auf den Hof.
 **CURRENT_DA:** Choose the correct conjugation: Dativ or Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** Vælg den rigtige bøjning: Dativ eller Akkusativ.
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English exercise instruction
@@ -8073,16 +9543,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 385 (Kurss)
+## Finding 455 (Kurss)
 
-**Finding:** 385
-**Audit ID:** DA-KURSS-L0357
+**Finding:** 455
+**Audit ID:** DA-KURSS-L0392
 **Lesson/ID:** `lesson18`
 **Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[1].task`
 **Field type:** `cardTask`
 **DE (read-only):** Es spielt in dem Walde, in dem Garten, auf der Wiese, auf dem Hofe.
 **CURRENT_DA:** Choose the correct conjugation: Dativ or Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** Vælg den rigtige bøjning: Dativ eller Akkusativ.
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English exercise instruction
@@ -8094,16 +9564,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 386 (Kurss)
+## Finding 456 (Kurss)
 
-**Finding:** 386
-**Audit ID:** DA-KURSS-L0358
+**Finding:** 456
+**Audit ID:** DA-KURSS-L0393
 **Lesson/ID:** `lesson18`
 **Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[2].task`
 **Field type:** `cardTask`
 **DE (read-only):** Die Magd kommt in die Küche, in das Zimmer, in den Saal, in den Keller.
 **CURRENT_DA:** Choose the correct conjugation: Dativ or Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** Vælg den rigtige bøjning: Dativ eller Akkusativ.
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English exercise instruction
@@ -8115,16 +9585,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 387 (Kurss)
+## Finding 457 (Kurss)
 
-**Finding:** 387
-**Audit ID:** DA-KURSS-L0359
+**Finding:** 457
+**Audit ID:** DA-KURSS-L0394
 **Lesson/ID:** `lesson18`
 **Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[3].task`
 **Field type:** `cardTask`
 **DE (read-only):** Sie arbeitet in der Küche, in dem Zimmer, in dem Saal, in dem Keller.
 **CURRENT_DA:** Choose the correct conjugation: Dativ or Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** Vælg den rigtige bøjning: Dativ eller Akkusativ.
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English exercise instruction
@@ -8136,16 +9606,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 388 (Kurss)
+## Finding 458 (Kurss)
 
-**Finding:** 388
-**Audit ID:** DA-KURSS-L0360
+**Finding:** 458
+**Audit ID:** DA-KURSS-L0395
 **Lesson/ID:** `lesson18`
 **Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[4].task`
 **Field type:** `cardTask`
 **DE (read-only):** Ich lege den Teller auf die Bank, auf den Stuhl, auf den Tisch, auf das Fensterbrett.
 **CURRENT_DA:** Choose the correct conjugation: Dativ or Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** Vælg den rigtige bøjning: Dativ eller Akkusativ.
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English exercise instruction
@@ -8157,16 +9627,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 389 (Kurss)
+## Finding 459 (Kurss)
 
-**Finding:** 389
-**Audit ID:** DA-KURSS-L0361
+**Finding:** 459
+**Audit ID:** DA-KURSS-L0396
 **Lesson/ID:** `lesson18`
 **Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[5].task`
 **Field type:** `cardTask`
 **DE (read-only):** Er steht auf der Bank, auf dem Stuhl, auf dem Tisch, auf dem Fensterbrett.
 **CURRENT_DA:** Choose the correct conjugation: Dativ or Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** Vælg den rigtige bøjning: Dativ eller Akkusativ.
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English exercise instruction
@@ -8178,16 +9648,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 390 (Kurss)
+## Finding 460 (Kurss)
 
-**Finding:** 390
-**Audit ID:** DA-KURSS-L0362
+**Finding:** 460
+**Audit ID:** DA-KURSS-L0397
 **Lesson/ID:** `lesson18`
 **Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[6].task`
 **Field type:** `cardTask`
 **DE (read-only):** Der Mann stellt sich an dieses Fenster, an jenen Tisch, an die Wand, an den Baum.
 **CURRENT_DA:** Choose the correct conjugation: Dativ or Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** Vælg den rigtige bøjning: Dativ eller Akkusativ.
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English exercise instruction
@@ -8199,16 +9669,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 391 (Kurss)
+## Finding 461 (Kurss)
 
-**Finding:** 391
-**Audit ID:** DA-KURSS-L0363
+**Finding:** 461
+**Audit ID:** DA-KURSS-L0398
 **Lesson/ID:** `lesson18`
 **Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[7].task`
 **Field type:** `cardTask`
 **DE (read-only):** Er steht an diesem Fenster, an jenem Tisch, an der Wand, an dem Baum.
 **CURRENT_DA:** Choose the correct conjugation: Dativ or Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** Vælg den rigtige bøjning: Dativ eller Akkusativ.
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English exercise instruction
@@ -8220,31 +9690,10 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 392 (Kurss)
+## Finding 462 (Kurss)
 
-**Finding:** 392
-**Audit ID:** DA-KURSS-L0364
-**Lesson/ID:** `lesson18`
-**Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[5].title`
-**Field type:** `sectionTitle`
-**DE (read-only):** —
-**CURRENT_DA:** Oversætte
-**PROPOSED_DA:** Oversæt
-**Severity:** HIGH
-**Category:** RENDERER
-**Problem:** Section title Latvian/mismatch with ui.js kurss.sections mapping
-**Reason:** Section title Latvian/mismatch with ui.js kurss.sections mapping
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 393 (Kurss)
-
-**Finding:** 393
-**Audit ID:** DA-KURSS-L0365
+**Finding:** 462
+**Audit ID:** DA-KURSS-L0399
 **Lesson/ID:** `lesson18`
 **Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[0].lv`
 **Field type:** `cardLv`
@@ -8262,10 +9711,10 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 394 (Kurss)
+## Finding 463 (Kurss)
 
-**Finding:** 394
-**Audit ID:** DA-KURSS-L0366
+**Finding:** 463
+**Audit ID:** DA-KURSS-L0400
 **Lesson/ID:** `lesson18`
 **Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[2].lv`
 **Field type:** `cardLv`
@@ -8283,16 +9732,37 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 395 (Kurss)
+## Finding 464 (Kurss)
 
-**Finding:** 395
-**Audit ID:** DA-KURSS-L0368
+**Finding:** 464
+**Audit ID:** DA-KURSS-L0401
+**Lesson/ID:** `lesson18`
+**Path:** `COURSE_LESSON_DATA.kurssLesson18.sections[5].title`
+**Field type:** `sectionTitle`
+**DE (read-only):** —
+**CURRENT_DA:** Oversætte
+**PROPOSED_DA:** Oversæt
+**Severity:** HIGH
+**Category:** RENDERER
+**Problem:** Section title Latvian/mismatch with ui.js kurss.sections mapping
+**Reason:** Section title Latvian/mismatch with ui.js kurss.sections mapping
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 465 (Kurss)
+
+**Finding:** 465
+**Audit ID:** DA-KURSS-L0402
 **Lesson/ID:** `lesson19`
 **Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[1].items[0]`
 **Field type:** `sectionItem`
 **DE (read-only):** vor
 **CURRENT_DA:** vor — in front / before
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** vor — foran / før
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English gloss pair
@@ -8304,58 +9774,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 396 (Kurss)
+## Finding 466 (Kurss)
 
-**Finding:** 396
-**Audit ID:** DA-KURSS-L0369
-**Lesson/ID:** `lesson19`
-**Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[1].items[3]`
-**Field type:** `sectionItem`
-**DE (read-only):** über
-**CURRENT_DA:** über — over / over
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Problem:** English gloss pair
-**Reason:** English gloss pair
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 397 (Kurss)
-
-**Finding:** 397
-**Audit ID:** DA-KURSS-L0370
-**Lesson/ID:** `lesson19`
-**Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[1].items[7]`
-**Field type:** `sectionItem`
-**DE (read-only):** stellen
-**CURRENT_DA:** stellen — to place / set / put down
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Problem:** English gloss "to ..." in vocabulary item
-**Reason:** English gloss "to ..." in vocabulary item
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 398 (Kurss)
-
-**Finding:** 398
-**Audit ID:** DA-KURSS-L0371
+**Finding:** 466
+**Audit ID:** DA-KURSS-L0403
 **Lesson/ID:** `lesson19`
 **Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[1].items[16]`
 **Field type:** `sectionItem`
 **DE (read-only):** der Stuhl
 **CURRENT_DA:** der Stuhl — a chair
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** der Stuhl — stol
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English article gloss in vocabulary item
@@ -8367,16 +9795,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 399 (Kurss)
+## Finding 467 (Kurss)
 
-**Finding:** 399
-**Audit ID:** DA-KURSS-L0372
+**Finding:** 467
+**Audit ID:** DA-KURSS-L0404
 **Lesson/ID:** `lesson19`
 **Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[1].items[17]`
 **Field type:** `sectionItem`
 **DE (read-only):** der Zaun
 **CURRENT_DA:** der Zaun — a fence
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** der Zaun — hegn
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English article gloss in vocabulary item
@@ -8388,16 +9816,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 400 (Kurss)
+## Finding 468 (Kurss)
 
-**Finding:** 400
-**Audit ID:** DA-KURSS-L0373
+**Finding:** 468
+**Audit ID:** DA-KURSS-L0405
 **Lesson/ID:** `lesson19`
 **Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[1].items[19]`
 **Field type:** `sectionItem`
 **DE (read-only):** pflanzen
 **CURRENT_DA:** pflanzen — to plant
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** pflanzen — at plante
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English gloss "to ..." in vocabulary item
@@ -8409,16 +9837,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 401 (Kurss)
+## Finding 469 (Kurss)
 
-**Finding:** 401
-**Audit ID:** DA-KURSS-L0374
+**Finding:** 469
+**Audit ID:** DA-KURSS-L0406
 **Lesson/ID:** `lesson19`
 **Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[1].items[20]`
 **Field type:** `sectionItem`
 **DE (read-only):** der Strauch
 **CURRENT_DA:** der Strauch — a bush
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** der Strauch — busk
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English article gloss in vocabulary item
@@ -8430,16 +9858,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 402 (Kurss)
+## Finding 470 (Kurss)
 
-**Finding:** 402
-**Audit ID:** DA-KURSS-L0375
+**Finding:** 470
+**Audit ID:** DA-KURSS-L0407
 **Lesson/ID:** `lesson19`
 **Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[1].items[23]`
 **Field type:** `sectionItem`
 **DE (read-only):** die Scheune
 **CURRENT_DA:** die Scheune — the barn
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** die Scheune — lade
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English article gloss in vocabulary item
@@ -8451,16 +9879,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 403 (Kurss)
+## Finding 471 (Kurss)
 
-**Finding:** 403
-**Audit ID:** DA-KURSS-L0376
+**Finding:** 471
+**Audit ID:** DA-KURSS-L0408
 **Lesson/ID:** `lesson19`
 **Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[1].items[24]`
 **Field type:** `sectionItem`
 **DE (read-only):** der Teich
 **CURRENT_DA:** der Teich — a pond
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** der Teich — dam
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English article gloss in vocabulary item
@@ -8472,16 +9900,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 404 (Kurss)
+## Finding 472 (Kurss)
 
-**Finding:** 404
-**Audit ID:** DA-KURSS-L0377
+**Finding:** 472
+**Audit ID:** DA-KURSS-L0409
 **Lesson/ID:** `lesson19`
 **Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[1].items[25]`
 **Field type:** `sectionItem`
 **DE (read-only):** der Garten
 **CURRENT_DA:** der Garten — the garden
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** der Garten — have
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English article gloss in vocabulary item
@@ -8493,16 +9921,37 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 405 (Kurss)
+## Finding 473 (Kurss)
 
-**Finding:** 405
-**Audit ID:** DA-KURSS-L0378
+**Finding:** 473
+**Audit ID:** DA-KURSS-L0410
+**Lesson/ID:** `lesson19`
+**Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[1].items[3]`
+**Field type:** `sectionItem`
+**DE (read-only):** über
+**CURRENT_DA:** über — over / over
+**PROPOSED_DA:** über — over / hen over
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English gloss pair
+**Reason:** English gloss pair
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 474 (Kurss)
+
+**Finding:** 474
+**Audit ID:** DA-KURSS-L0411
 **Lesson/ID:** `lesson19`
 **Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[1].items[31]`
 **Field type:** `sectionItem`
 **DE (read-only):** die Stadt
 **CURRENT_DA:** die Stadt — the city
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** die Stadt — by
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English article gloss in vocabulary item
@@ -8514,16 +9963,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 406 (Kurss)
+## Finding 475 (Kurss)
 
-**Finding:** 406
-**Audit ID:** DA-KURSS-L0379
+**Finding:** 475
+**Audit ID:** DA-KURSS-L0412
 **Lesson/ID:** `lesson19`
 **Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[1].items[35]`
 **Field type:** `sectionItem`
 **DE (read-only):** zeigen
 **CURRENT_DA:** zeigen — to show
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** zeigen — at vise
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English gloss "to ..." in vocabulary item
@@ -8535,10 +9984,73 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 407 (Kurss)
+## Finding 476 (Kurss)
 
-**Finding:** 407
-**Audit ID:** DA-KURSS-L0380
+**Finding:** 476
+**Audit ID:** DA-KURSS-L0413
+**Lesson/ID:** `lesson19`
+**Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[1].items[7]`
+**Field type:** `sectionItem`
+**DE (read-only):** stellen
+**CURRENT_DA:** stellen — to place / set / put down
+**PROPOSED_DA:** stellen — at placere / sætte / lægge
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English gloss "to ..." in vocabulary item
+**Reason:** English gloss "to ..." in vocabulary item
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 477 (Kurss)
+
+**Finding:** 477
+**Audit ID:** DA-KURSS-L0417
+**Lesson/ID:** `lesson19`
+**Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[2].items[4].heading`
+**Field type:** `grammarHeading`
+**DE (read-only):** —
+**CURRENT_DA:** Kopsavilkums: wohin?
+**PROPOSED_DA:** Opsummering: wohin?
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian remnant: \bKopsavilkums\b
+**Reason:** Latvian remnant: \bKopsavilkums\b
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 478 (Kurss)
+
+**Finding:** 478
+**Audit ID:** DA-KURSS-L0418
+**Lesson/ID:** `lesson19`
+**Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[2].items[5].heading`
+**Field type:** `grammarHeading`
+**DE (read-only):** —
+**CURRENT_DA:** Kopsavilkums: wo?
+**PROPOSED_DA:** Opsummering: wo?
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** Latvian remnant: \bKopsavilkums\b
+**Reason:** Latvian remnant: \bKopsavilkums\b
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 479 (Kurss)
+
+**Finding:** 479
+**Audit ID:** DA-KURSS-L0419
 **Lesson/ID:** `lesson19`
 **Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[2].title`
 **Field type:** `sectionTitle`
@@ -8556,52 +10068,10 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 408 (Kurss)
+## Finding 480 (Kurss)
 
-**Finding:** 408
-**Audit ID:** DA-KURSS-L0387
-**Lesson/ID:** `lesson19`
-**Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[2].items[4].heading`
-**Field type:** `grammarHeading`
-**DE (read-only):** —
-**CURRENT_DA:** Kopsavilkums: wohin?
-**PROPOSED_DA:** (Danish replacement)
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Problem:** Latvian remnant: \bKopsavilkums\b
-**Reason:** Latvian remnant: \bKopsavilkums\b
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 409 (Kurss)
-
-**Finding:** 409
-**Audit ID:** DA-KURSS-L0388
-**Lesson/ID:** `lesson19`
-**Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[2].items[5].heading`
-**Field type:** `grammarHeading`
-**DE (read-only):** —
-**CURRENT_DA:** Kopsavilkums: wo?
-**PROPOSED_DA:** (Danish replacement)
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Problem:** Latvian remnant: \bKopsavilkums\b
-**Reason:** Latvian remnant: \bKopsavilkums\b
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 410 (Kurss)
-
-**Finding:** 410
-**Audit ID:** DA-KURSS-L0389
+**Finding:** 480
+**Audit ID:** DA-KURSS-L0425
 **Lesson/ID:** `lesson19`
 **Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[3].title`
 **Field type:** `sectionTitle`
@@ -8619,16 +10089,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 411 (Kurss)
+## Finding 481 (Kurss)
 
-**Finding:** 411
-**Audit ID:** DA-KURSS-L0396
+**Finding:** 481
+**Audit ID:** DA-KURSS-L0426
 **Lesson/ID:** `lesson19`
 **Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[4].cards[0].task`
 **Field type:** `cardTask`
 **DE (read-only):** Anna geht in den Garten, an den Teich, vor die Mühle, hinter die Scheune, auf das Feld, über die Brücke, unter den Baum, zwischen den Strauch und die Laube.
 **CURRENT_DA:** Choose the correct conjugation: wohin? → Akkusativ, wo? → Dative
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** Vælg den rigtige bøjning: wohin? → Akkusativ, wo? → Dativ.
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English exercise instruction
@@ -8640,16 +10110,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 412 (Kurss)
+## Finding 482 (Kurss)
 
-**Finding:** 412
-**Audit ID:** DA-KURSS-L0397
+**Finding:** 482
+**Audit ID:** DA-KURSS-L0427
 **Lesson/ID:** `lesson19`
 **Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[4].cards[1].task`
 **Field type:** `cardTask`
 **DE (read-only):** Anna befindet sich oft in dem Garten, an dem Teich, vor der Mühle, hinter der Scheune, auf dem Feld, über dem Wasser, unter dem Baum, zwischen dem Strauch und der Laube.
 **CURRENT_DA:** Choose the correct conjugation: wohin? → Akkusativ, wo? → Dative
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** Vælg den rigtige bøjning: wohin? → Akkusativ, wo? → Dativ.
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English exercise instruction
@@ -8661,10 +10131,10 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 413 (Kurss)
+## Finding 483 (Kurss)
 
-**Finding:** 413
-**Audit ID:** DA-KURSS-L0398
+**Finding:** 483
+**Audit ID:** DA-KURSS-L0428
 **Lesson/ID:** `lesson19`
 **Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[5].title`
 **Field type:** `sectionTitle`
@@ -8682,10 +10152,10 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 414 (Kurss)
+## Finding 484 (Kurss)
 
-**Finding:** 414
-**Audit ID:** DA-KURSS-L0399
+**Finding:** 484
+**Audit ID:** DA-KURSS-L0430
 **Lesson/ID:** `lesson19`
 **Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[3].lv`
 **Field type:** `cardLv`
@@ -8703,10 +10173,10 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 415 (Kurss)
+## Finding 485 (Kurss)
 
-**Finding:** 415
-**Audit ID:** DA-KURSS-L0400
+**Finding:** 485
+**Audit ID:** DA-KURSS-L0431
 **Lesson/ID:** `lesson19`
 **Path:** `COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[5].lv`
 **Field type:** `cardLv`
@@ -8724,16 +10194,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 416 (Kurss)
+## Finding 486 (Kurss)
 
-**Finding:** 416
-**Audit ID:** DA-KURSS-L0403
+**Finding:** 486
+**Audit ID:** DA-KURSS-L0432
 **Lesson/ID:** `lesson20`
 **Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[1].items[0]`
 **Field type:** `sectionItem`
 **DE (read-only):** das Haus
 **CURRENT_DA:** das Haus — the house
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** das Haus — huset
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English article gloss in vocabulary item
@@ -8745,58 +10215,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 417 (Kurss)
+## Finding 487 (Kurss)
 
-**Finding:** 417
-**Audit ID:** DA-KURSS-L0404
-**Lesson/ID:** `lesson20`
-**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[1].items[2]`
-**Field type:** `sectionItem`
-**DE (read-only):** die Mauer
-**CURRENT_DA:** die Mauer — the wall
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Problem:** English article gloss in vocabulary item
-**Reason:** English article gloss in vocabulary item
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 418 (Kurss)
-
-**Finding:** 418
-**Audit ID:** DA-KURSS-L0405
-**Lesson/ID:** `lesson20`
-**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[1].items[7]`
-**Field type:** `sectionItem`
-**DE (read-only):** die Wohnung
-**CURRENT_DA:** die Wohnung — an apartment
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Problem:** English article gloss in vocabulary item
-**Reason:** English article gloss in vocabulary item
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 419 (Kurss)
-
-**Finding:** 419
-**Audit ID:** DA-KURSS-L0406
+**Finding:** 487
+**Audit ID:** DA-KURSS-L0433
 **Lesson/ID:** `lesson20`
 **Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[1].items[15]`
 **Field type:** `sectionItem`
 **DE (read-only):** die Stadt
 **CURRENT_DA:** die Stadt — the city
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** die Stadt — by
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English article gloss in vocabulary item
@@ -8808,16 +10236,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 420 (Kurss)
+## Finding 488 (Kurss)
 
-**Finding:** 420
-**Audit ID:** DA-KURSS-L0407
+**Finding:** 488
+**Audit ID:** DA-KURSS-L0434
 **Lesson/ID:** `lesson20`
 **Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[1].items[16]`
 **Field type:** `sectionItem`
 **DE (read-only):** leben
 **CURRENT_DA:** leben — to live
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** leben — at leve
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English gloss "to ..." in vocabulary item
@@ -8829,10 +10257,10 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 421 (Kurss)
+## Finding 489 (Kurss)
 
-**Finding:** 421
-**Audit ID:** DA-KURSS-L0408
+**Finding:** 489
+**Audit ID:** DA-KURSS-L0435
 **Lesson/ID:** `lesson20`
 **Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[1].items[18]`
 **Field type:** `sectionItem`
@@ -8850,16 +10278,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 422 (Kurss)
+## Finding 490 (Kurss)
 
-**Finding:** 422
-**Audit ID:** DA-KURSS-L0409
+**Finding:** 490
+**Audit ID:** DA-KURSS-L0436
 **Lesson/ID:** `lesson20`
 **Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[1].items[19]`
 **Field type:** `sectionItem`
 **DE (read-only):** stecken
 **CURRENT_DA:** stecken — stick / insert
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** stecken — stikke / indsætte
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English gloss pair
@@ -8871,58 +10299,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 423 (Kurss)
+## Finding 491 (Kurss)
 
-**Finding:** 423
-**Audit ID:** DA-KURSS-L0410
+**Finding:** 491
+**Audit ID:** DA-KURSS-L0437
 **Lesson/ID:** `lesson20`
-**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[1].items[21]`
+**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[1].items[2]`
 **Field type:** `sectionItem`
-**DE (read-only):** anzünden
-**CURRENT_DA:** anzünden — to ignite
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Problem:** English gloss "to ..." in vocabulary item
-**Reason:** English gloss "to ..." in vocabulary item
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 424 (Kurss)
-
-**Finding:** 424
-**Audit ID:** DA-KURSS-L0411
-**Lesson/ID:** `lesson20`
-**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[1].items[25]`
-**Field type:** `sectionItem`
-**DE (read-only):** hell
-**CURRENT_DA:** hell — bright / bright
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Problem:** English gloss pair
-**Reason:** English gloss pair
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 425 (Kurss)
-
-**Finding:** 425
-**Audit ID:** DA-KURSS-L0412
-**Lesson/ID:** `lesson20`
-**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[1].items[28]`
-**Field type:** `sectionItem`
-**DE (read-only):** der Mensch
-**CURRENT_DA:** der Mensch — the human being
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**DE (read-only):** die Mauer
+**CURRENT_DA:** die Mauer — the wall
+**PROPOSED_DA:** die Mauer — mur
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English article gloss in vocabulary item
@@ -8934,10 +10320,94 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 426 (Kurss)
+## Finding 492 (Kurss)
 
-**Finding:** 426
-**Audit ID:** DA-KURSS-L0413
+**Finding:** 492
+**Audit ID:** DA-KURSS-L0438
+**Lesson/ID:** `lesson20`
+**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[1].items[21]`
+**Field type:** `sectionItem`
+**DE (read-only):** anzünden
+**CURRENT_DA:** anzünden — to ignite
+**PROPOSED_DA:** anzünden — at tænde
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English gloss "to ..." in vocabulary item
+**Reason:** English gloss "to ..." in vocabulary item
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 493 (Kurss)
+
+**Finding:** 493
+**Audit ID:** DA-KURSS-L0439
+**Lesson/ID:** `lesson20`
+**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[1].items[25]`
+**Field type:** `sectionItem`
+**DE (read-only):** hell
+**CURRENT_DA:** hell — bright / bright
+**PROPOSED_DA:** hell — lys / klar
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English gloss pair
+**Reason:** English gloss pair
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 494 (Kurss)
+
+**Finding:** 494
+**Audit ID:** DA-KURSS-L0440
+**Lesson/ID:** `lesson20`
+**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[1].items[28]`
+**Field type:** `sectionItem`
+**DE (read-only):** der Mensch
+**CURRENT_DA:** der Mensch — the human being
+**PROPOSED_DA:** der Mensch — menneske
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English article gloss in vocabulary item
+**Reason:** English article gloss in vocabulary item
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 495 (Kurss)
+
+**Finding:** 495
+**Audit ID:** DA-KURSS-L0441
+**Lesson/ID:** `lesson20`
+**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[1].items[7]`
+**Field type:** `sectionItem`
+**DE (read-only):** die Wohnung
+**CURRENT_DA:** die Wohnung — an apartment
+**PROPOSED_DA:** die Wohnung — lejlighed
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English article gloss in vocabulary item
+**Reason:** English article gloss in vocabulary item
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 496 (Kurss)
+
+**Finding:** 496
+**Audit ID:** DA-KURSS-L0449
 **Lesson/ID:** `lesson20`
 **Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[2].title`
 **Field type:** `sectionTitle`
@@ -8955,10 +10425,10 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 427 (Kurss)
+## Finding 497 (Kurss)
 
-**Finding:** 427
-**Audit ID:** DA-KURSS-L0426
+**Finding:** 497
+**Audit ID:** DA-KURSS-L0459
 **Lesson/ID:** `lesson20`
 **Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[3].title`
 **Field type:** `sectionTitle`
@@ -8976,16 +10446,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 428 (Kurss)
+## Finding 498 (Kurss)
 
-**Finding:** 428
-**Audit ID:** DA-KURSS-L0439
+**Finding:** 498
+**Audit ID:** DA-KURSS-L0460
 **Lesson/ID:** `lesson20`
 **Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[0].task`
 **Field type:** `cardTask`
 **DE (read-only):** Der Wolf lebt in dem Wald.
 **CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** Vælg den rigtige bøjning: wo/wann → Dativ, wohin → Akkusativ.
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English exercise instruction
@@ -8997,16 +10467,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 429 (Kurss)
+## Finding 499 (Kurss)
 
-**Finding:** 429
-**Audit ID:** DA-KURSS-L0440
+**Finding:** 499
+**Audit ID:** DA-KURSS-L0461
 **Lesson/ID:** `lesson20`
 **Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[1].task`
 **Field type:** `cardTask`
 **DE (read-only):** Dieser Mann lebt in dem Haus.
 **CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** Vælg den rigtige bøjning: wo/wann → Dativ, wohin → Akkusativ.
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English exercise instruction
@@ -9018,184 +10488,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 430 (Kurss)
+## Finding 500 (Kurss)
 
-**Finding:** 430
-**Audit ID:** DA-KURSS-L0441
-**Lesson/ID:** `lesson20`
-**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[2].task`
-**Field type:** `cardTask`
-**DE (read-only):** Der Schornsteinfeger steht auf dem Dach.
-**CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Problem:** English exercise instruction
-**Reason:** English exercise instruction
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 431 (Kurss)
-
-**Finding:** 431
-**Audit ID:** DA-KURSS-L0442
-**Lesson/ID:** `lesson20`
-**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[3].task`
-**Field type:** `cardTask`
-**DE (read-only):** Der Knecht arbeitet auf dem Feld.
-**CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Problem:** English exercise instruction
-**Reason:** English exercise instruction
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 432 (Kurss)
-
-**Finding:** 432
-**Audit ID:** DA-KURSS-L0443
-**Lesson/ID:** `lesson20`
-**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[4].task`
-**Field type:** `cardTask`
-**DE (read-only):** Die Magd arbeitet auf der Wiese.
-**CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Problem:** English exercise instruction
-**Reason:** English exercise instruction
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 433 (Kurss)
-
-**Finding:** 433
-**Audit ID:** DA-KURSS-L0444
-**Lesson/ID:** `lesson20`
-**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[5].task`
-**Field type:** `cardTask`
-**DE (read-only):** Der Holzhauer sägt das Holz in der Scheune.
-**CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Problem:** English exercise instruction
-**Reason:** English exercise instruction
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 434 (Kurss)
-
-**Finding:** 434
-**Audit ID:** DA-KURSS-L0445
-**Lesson/ID:** `lesson20`
-**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[6].task`
-**Field type:** `cardTask`
-**DE (read-only):** Der Schüler stellt das Glas auf die Kommode.
-**CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Problem:** English exercise instruction
-**Reason:** English exercise instruction
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 435 (Kurss)
-
-**Finding:** 435
-**Audit ID:** DA-KURSS-L0446
-**Lesson/ID:** `lesson20`
-**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[7].task`
-**Field type:** `cardTask`
-**DE (read-only):** Der Jäger geht in den Wald.
-**CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Problem:** English exercise instruction
-**Reason:** English exercise instruction
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 436 (Kurss)
-
-**Finding:** 436
-**Audit ID:** DA-KURSS-L0447
-**Lesson/ID:** `lesson20`
-**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[8].task`
-**Field type:** `cardTask`
-**DE (read-only):** Die Katze kriecht unter die Bank.
-**CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Problem:** English exercise instruction
-**Reason:** English exercise instruction
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 437 (Kurss)
-
-**Finding:** 437
-**Audit ID:** DA-KURSS-L0448
-**Lesson/ID:** `lesson20`
-**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[9].task`
-**Field type:** `cardTask`
-**DE (read-only):** Der Ball rollt unter den Schrank.
-**CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Problem:** English exercise instruction
-**Reason:** English exercise instruction
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 438 (Kurss)
-
-**Finding:** 438
-**Audit ID:** DA-KURSS-L0449
+**Finding:** 500
+**Audit ID:** DA-KURSS-L0462
 **Lesson/ID:** `lesson20`
 **Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[10].task`
 **Field type:** `cardTask`
 **DE (read-only):** Dieser Mann geht über die Brücke.
 **CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** Vælg den rigtige bøjning: wo/wann → Dativ, wohin → Akkusativ.
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English exercise instruction
@@ -9207,16 +10509,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 439 (Kurss)
+## Finding 501 (Kurss)
 
-**Finding:** 439
-**Audit ID:** DA-KURSS-L0450
+**Finding:** 501
+**Audit ID:** DA-KURSS-L0463
 **Lesson/ID:** `lesson20`
 **Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[11].task`
 **Field type:** `cardTask`
 **DE (read-only):** Jener Mann steht unter der Brücke.
 **CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** Vælg den rigtige bøjning: wo/wann → Dativ, wohin → Akkusativ.
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English exercise instruction
@@ -9228,16 +10530,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 440 (Kurss)
+## Finding 502 (Kurss)
 
-**Finding:** 440
-**Audit ID:** DA-KURSS-L0451
+**Finding:** 502
+**Audit ID:** DA-KURSS-L0464
 **Lesson/ID:** `lesson20`
 **Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[12].task`
 **Field type:** `cardTask`
 **DE (read-only):** Ein Spiegel hängt an der Wand.
 **CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** Vælg den rigtige bøjning: wo/wann → Dativ, wohin → Akkusativ.
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English exercise instruction
@@ -9249,16 +10551,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 441 (Kurss)
+## Finding 503 (Kurss)
 
-**Finding:** 441
-**Audit ID:** DA-KURSS-L0452
+**Finding:** 503
+**Audit ID:** DA-KURSS-L0465
 **Lesson/ID:** `lesson20`
 **Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[13].task`
 **Field type:** `cardTask`
 **DE (read-only):** Der Bruder stellt die Vase vor den Spiegel.
 **CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** Vælg den rigtige bøjning: wo/wann → Dativ, wohin → Akkusativ.
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English exercise instruction
@@ -9270,16 +10572,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 442 (Kurss)
+## Finding 504 (Kurss)
 
-**Finding:** 442
-**Audit ID:** DA-KURSS-L0453
+**Finding:** 504
+**Audit ID:** DA-KURSS-L0466
 **Lesson/ID:** `lesson20`
 **Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[14].task`
 **Field type:** `cardTask`
 **DE (read-only):** Das Kind geht gern auf die Straße.
 **CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** Vælg den rigtige bøjning: wo/wann → Dativ, wohin → Akkusativ.
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English exercise instruction
@@ -9291,16 +10593,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 443 (Kurss)
+## Finding 505 (Kurss)
 
-**Finding:** 443
-**Audit ID:** DA-KURSS-L0454
+**Finding:** 505
+**Audit ID:** DA-KURSS-L0467
 **Lesson/ID:** `lesson20`
 **Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[15].task`
 **Field type:** `cardTask`
 **DE (read-only):** Das Kind spielt gern auf der Straße.
 **CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** Vælg den rigtige bøjning: wo/wann → Dativ, wohin → Akkusativ.
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English exercise instruction
@@ -9312,16 +10614,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 444 (Kurss)
+## Finding 506 (Kurss)
 
-**Finding:** 444
-**Audit ID:** DA-KURSS-L0455
+**Finding:** 506
+**Audit ID:** DA-KURSS-L0468
 **Lesson/ID:** `lesson20`
 **Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[16].task`
 **Field type:** `cardTask`
 **DE (read-only):** Das Kind spielt gern in dem Garten.
 **CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** Vælg den rigtige bøjning: wo/wann → Dativ, wohin → Akkusativ.
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English exercise instruction
@@ -9333,20 +10635,20 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 445 (Kurss)
+## Finding 507 (Kurss)
 
-**Finding:** 445
-**Audit ID:** DA-KURSS-L0456
+**Finding:** 507
+**Audit ID:** DA-KURSS-L0469
 **Lesson/ID:** `lesson20`
-**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[5].title`
-**Field type:** `sectionTitle`
-**DE (read-only):** —
-**CURRENT_DA:** Oversætte
-**PROPOSED_DA:** Oversæt
+**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[2].task`
+**Field type:** `cardTask`
+**DE (read-only):** Der Schornsteinfeger steht auf dem Dach.
+**CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
+**PROPOSED_DA:** Vælg den rigtige bøjning: wo/wann → Dativ, wohin → Akkusativ.
 **Severity:** HIGH
-**Category:** RENDERER
-**Problem:** Section title Latvian/mismatch with ui.js kurss.sections mapping
-**Reason:** Section title Latvian/mismatch with ui.js kurss.sections mapping
+**Category:** FOREIGN_REMNANT
+**Problem:** English exercise instruction
+**Reason:** English exercise instruction
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
@@ -9354,10 +10656,157 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 446 (Kurss)
+## Finding 508 (Kurss)
 
-**Finding:** 446
-**Audit ID:** DA-KURSS-L0457
+**Finding:** 508
+**Audit ID:** DA-KURSS-L0470
+**Lesson/ID:** `lesson20`
+**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[3].task`
+**Field type:** `cardTask`
+**DE (read-only):** Der Knecht arbeitet auf dem Feld.
+**CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
+**PROPOSED_DA:** Vælg den rigtige bøjning: wo/wann → Dativ, wohin → Akkusativ.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English exercise instruction
+**Reason:** English exercise instruction
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 509 (Kurss)
+
+**Finding:** 509
+**Audit ID:** DA-KURSS-L0471
+**Lesson/ID:** `lesson20`
+**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[4].task`
+**Field type:** `cardTask`
+**DE (read-only):** Die Magd arbeitet auf der Wiese.
+**CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
+**PROPOSED_DA:** Vælg den rigtige bøjning: wo/wann → Dativ, wohin → Akkusativ.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English exercise instruction
+**Reason:** English exercise instruction
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 510 (Kurss)
+
+**Finding:** 510
+**Audit ID:** DA-KURSS-L0472
+**Lesson/ID:** `lesson20`
+**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[5].task`
+**Field type:** `cardTask`
+**DE (read-only):** Der Holzhauer sägt das Holz in der Scheune.
+**CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
+**PROPOSED_DA:** Vælg den rigtige bøjning: wo/wann → Dativ, wohin → Akkusativ.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English exercise instruction
+**Reason:** English exercise instruction
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 511 (Kurss)
+
+**Finding:** 511
+**Audit ID:** DA-KURSS-L0473
+**Lesson/ID:** `lesson20`
+**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[6].task`
+**Field type:** `cardTask`
+**DE (read-only):** Der Schüler stellt das Glas auf die Kommode.
+**CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
+**PROPOSED_DA:** Vælg den rigtige bøjning: wo/wann → Dativ, wohin → Akkusativ.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English exercise instruction
+**Reason:** English exercise instruction
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 512 (Kurss)
+
+**Finding:** 512
+**Audit ID:** DA-KURSS-L0474
+**Lesson/ID:** `lesson20`
+**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[7].task`
+**Field type:** `cardTask`
+**DE (read-only):** Der Jäger geht in den Wald.
+**CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
+**PROPOSED_DA:** Vælg den rigtige bøjning: wo/wann → Dativ, wohin → Akkusativ.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English exercise instruction
+**Reason:** English exercise instruction
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 513 (Kurss)
+
+**Finding:** 513
+**Audit ID:** DA-KURSS-L0475
+**Lesson/ID:** `lesson20`
+**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[8].task`
+**Field type:** `cardTask`
+**DE (read-only):** Die Katze kriecht unter die Bank.
+**CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
+**PROPOSED_DA:** Vælg den rigtige bøjning: wo/wann → Dativ, wohin → Akkusativ.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English exercise instruction
+**Reason:** English exercise instruction
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 514 (Kurss)
+
+**Finding:** 514
+**Audit ID:** DA-KURSS-L0476
+**Lesson/ID:** `lesson20`
+**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[9].task`
+**Field type:** `cardTask`
+**DE (read-only):** Der Ball rollt unter den Schrank.
+**CURRENT_DA:** Choose the correct conjugation: wo/wann → Dativ, wohin → Akkusativ.
+**PROPOSED_DA:** Vælg den rigtige bøjning: wo/wann → Dativ, wohin → Akkusativ.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English exercise instruction
+**Reason:** English exercise instruction
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 515 (Kurss)
+
+**Finding:** 515
+**Audit ID:** DA-KURSS-L0477
 **Lesson/ID:** `lesson20`
 **Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[2].lv`
 **Field type:** `cardLv`
@@ -9375,10 +10824,10 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 447 (Kurss)
+## Finding 516 (Kurss)
 
-**Finding:** 447
-**Audit ID:** DA-KURSS-L0458
+**Finding:** 516
+**Audit ID:** DA-KURSS-L0478
 **Lesson/ID:** `lesson20`
 **Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[8].lv`
 **Field type:** `cardLv`
@@ -9396,10 +10845,31 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 448 (Kurss)
+## Finding 517 (Kurss)
 
-**Finding:** 448
-**Audit ID:** DA-KURSS-L0459
+**Finding:** 517
+**Audit ID:** DA-KURSS-L0479
+**Lesson/ID:** `lesson20`
+**Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[5].title`
+**Field type:** `sectionTitle`
+**DE (read-only):** —
+**CURRENT_DA:** Oversætte
+**PROPOSED_DA:** Oversæt
+**Severity:** HIGH
+**Category:** RENDERER
+**Problem:** Section title Latvian/mismatch with ui.js kurss.sections mapping
+**Reason:** Section title Latvian/mismatch with ui.js kurss.sections mapping
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 518 (Kurss)
+
+**Finding:** 518
+**Audit ID:** DA-KURSS-L0480
 **Lesson/ID:** `lesson20`
 **Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[13].lv`
 **Field type:** `cardLv`
@@ -9417,10 +10887,10 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 449 (Kurss)
+## Finding 519 (Kurss)
 
-**Finding:** 449
-**Audit ID:** DA-KURSS-L0460
+**Finding:** 519
+**Audit ID:** DA-KURSS-L0481
 **Lesson/ID:** `lesson20`
 **Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[14].lv`
 **Field type:** `cardLv`
@@ -9438,10 +10908,10 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 450 (Kurss)
+## Finding 520 (Kurss)
 
-**Finding:** 450
-**Audit ID:** DA-KURSS-L0461
+**Finding:** 520
+**Audit ID:** DA-KURSS-L0482
 **Lesson/ID:** `lesson20`
 **Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[17].lv`
 **Field type:** `cardLv`
@@ -9459,10 +10929,10 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 451 (Kurss)
+## Finding 521 (Kurss)
 
-**Finding:** 451
-**Audit ID:** DA-KURSS-L0463
+**Finding:** 521
+**Audit ID:** DA-KURSS-L0483
 **Lesson/ID:** `lesson20`
 **Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[18].lv`
 **Field type:** `cardLv`
@@ -9480,10 +10950,10 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 452 (Kurss)
+## Finding 522 (Kurss)
 
-**Finding:** 452
-**Audit ID:** DA-KURSS-L0465
+**Finding:** 522
+**Audit ID:** DA-KURSS-L0484
 **Lesson/ID:** `lesson20`
 **Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[21].lv`
 **Field type:** `cardLv`
@@ -9501,10 +10971,10 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 453 (Kurss)
+## Finding 523 (Kurss)
 
-**Finding:** 453
-**Audit ID:** DA-KURSS-L0466
+**Finding:** 523
+**Audit ID:** DA-KURSS-L0485
 **Lesson/ID:** `lesson20`
 **Path:** `COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[22].lv`
 **Field type:** `cardLv`
@@ -9522,16 +10992,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 454 (Kurss)
+## Finding 524 (Kurss)
 
-**Finding:** 454
-**Audit ID:** DA-KURSS-L0468
+**Finding:** 524
+**Audit ID:** DA-KURSS-L0486
 **Lesson/ID:** `lesson21`
 **Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[1].items[0]`
 **Field type:** `sectionItem`
 **DE (read-only):** der Holzhauer
 **CURRENT_DA:** der Holzhauer — woodcutter
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** der Holzhauer — skovhugger
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English gloss
@@ -9543,16 +11013,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 455 (Kurss)
+## Finding 525 (Kurss)
 
-**Finding:** 455
-**Audit ID:** DA-KURSS-L0469
+**Finding:** 525
+**Audit ID:** DA-KURSS-L0487
 **Lesson/ID:** `lesson21`
 **Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[1].items[1]`
 **Field type:** `sectionItem`
 **DE (read-only):** sägen
 **CURRENT_DA:** sägen — to saw
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** sägen — at save
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English gloss "to ..." in vocabulary item
@@ -9564,16 +11034,79 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 456 (Kurss)
+## Finding 526 (Kurss)
 
-**Finding:** 456
-**Audit ID:** DA-KURSS-L0470
+**Finding:** 526
+**Audit ID:** DA-KURSS-L0488
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[1].items[14]`
+**Field type:** `sectionItem`
+**DE (read-only):** zurück
+**CURRENT_DA:** zurück — back
+**PROPOSED_DA:** zurück — tilbage
+**Severity:** MEDIUM
+**Category:** FOREIGN_REMNANT
+**Problem:** English gloss
+**Reason:** English gloss
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 527 (Kurss)
+
+**Finding:** 527
+**Audit ID:** DA-KURSS-L0489
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[1].items[16]`
+**Field type:** `sectionItem`
+**DE (read-only):** sehen
+**CURRENT_DA:** sehen — to see
+**PROPOSED_DA:** sehen — at se
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English gloss "to ..." in vocabulary item
+**Reason:** English gloss "to ..." in vocabulary item
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 528 (Kurss)
+
+**Finding:** 528
+**Audit ID:** DA-KURSS-L0490
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[1].items[19]`
+**Field type:** `sectionItem`
+**DE (read-only):** fleißig
+**CURRENT_DA:** fleißig — diligently
+**PROPOSED_DA:** fleißig — flittigt
+**Severity:** MEDIUM
+**Category:** FOREIGN_REMNANT
+**Problem:** English adverb gloss
+**Reason:** English adverb gloss
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 529 (Kurss)
+
+**Finding:** 529
+**Audit ID:** DA-KURSS-L0491
 **Lesson/ID:** `lesson21`
 **Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[1].items[2]`
 **Field type:** `sectionItem`
 **DE (read-only):** spalten
 **CURRENT_DA:** spalten — to split
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** spalten — at splitte
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English gloss "to ..." in vocabulary item
@@ -9585,10 +11118,52 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 457 (Kurss)
+## Finding 530 (Kurss)
 
-**Finding:** 457
-**Audit ID:** DA-KURSS-L0471
+**Finding:** 530
+**Audit ID:** DA-KURSS-L0492
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[1].items[20]`
+**Field type:** `sectionItem`
+**DE (read-only):** die Scheune
+**CURRENT_DA:** die Scheune — the barn
+**PROPOSED_DA:** die Scheune — lade
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English article gloss in vocabulary item
+**Reason:** English article gloss in vocabulary item
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 531 (Kurss)
+
+**Finding:** 531
+**Audit ID:** DA-KURSS-L0493
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[1].items[29]`
+**Field type:** `sectionItem`
+**DE (read-only):** die Säge
+**CURRENT_DA:** die Säge — saw
+**PROPOSED_DA:** die Säge — sav
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English gloss instead of Danish
+**Reason:** English gloss instead of Danish
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 532 (Kurss)
+
+**Finding:** 532
+**Audit ID:** DA-KURSS-L0494
 **Lesson/ID:** `lesson21`
 **Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[1].items[5]`
 **Field type:** `sectionItem`
@@ -9606,16 +11181,16 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 458 (Kurss)
+## Finding 533 (Kurss)
 
-**Finding:** 458
-**Audit ID:** DA-KURSS-L0472
+**Finding:** 533
+**Audit ID:** DA-KURSS-L0495
 **Lesson/ID:** `lesson21`
 **Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[1].items[7]`
 **Field type:** `sectionItem`
 **DE (read-only):** helfen
 **CURRENT_DA:** helfen — to help
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
+**PROPOSED_DA:** helfen — at hjælpe
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **Problem:** English gloss "to ..." in vocabulary item
@@ -9627,136 +11202,10 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 459 (Kurss)
+## Finding 534 (Kurss)
 
-**Finding:** 459
-**Audit ID:** DA-KURSS-L0473
-**Lesson/ID:** `lesson21`
-**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[1].items[14]`
-**Field type:** `sectionItem`
-**DE (read-only):** zurück
-**CURRENT_DA:** zurück — back
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
-**Severity:** MEDIUM
-**Category:** FOREIGN_REMNANT
-**Problem:** English gloss
-**Reason:** English gloss
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 460 (Kurss)
-
-**Finding:** 460
-**Audit ID:** DA-KURSS-L0474
-**Lesson/ID:** `lesson21`
-**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[1].items[16]`
-**Field type:** `sectionItem`
-**DE (read-only):** sehen
-**CURRENT_DA:** sehen — to see
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Problem:** English gloss "to ..." in vocabulary item
-**Reason:** English gloss "to ..." in vocabulary item
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 461 (Kurss)
-
-**Finding:** 461
-**Audit ID:** DA-KURSS-L0475
-**Lesson/ID:** `lesson21`
-**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[1].items[19]`
-**Field type:** `sectionItem`
-**DE (read-only):** fleißig
-**CURRENT_DA:** fleißig — diligently
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
-**Severity:** MEDIUM
-**Category:** FOREIGN_REMNANT
-**Problem:** English adverb gloss
-**Reason:** English adverb gloss
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 462 (Kurss)
-
-**Finding:** 462
-**Audit ID:** DA-KURSS-L0476
-**Lesson/ID:** `lesson21`
-**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[1].items[20]`
-**Field type:** `sectionItem`
-**DE (read-only):** die Scheune
-**CURRENT_DA:** die Scheune — the barn
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Problem:** English article gloss in vocabulary item
-**Reason:** English article gloss in vocabulary item
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 463 (Kurss)
-
-**Finding:** 463
-**Audit ID:** DA-KURSS-L0477
-**Lesson/ID:** `lesson21`
-**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[1].items[29]`
-**Field type:** `sectionItem`
-**DE (read-only):** die Säge
-**CURRENT_DA:** die Säge — saw
-**PROPOSED_DA:** (Danish gloss, e.g. verb — at ... / noun — ...)
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Problem:** English gloss instead of Danish
-**Reason:** English gloss instead of Danish
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 464 (Kurss)
-
-**Finding:** 464
-**Audit ID:** DA-KURSS-L0478
-**Lesson/ID:** `lesson21`
-**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[2].title`
-**Field type:** `sectionTitle`
-**DE (read-only):** —
-**CURRENT_DA:** Gramatika
-**PROPOSED_DA:** Grammatik
-**Severity:** HIGH
-**Category:** RENDERER
-**Problem:** Section title Latvian/mismatch with ui.js kurss.sections mapping
-**Reason:** Section title Latvian/mismatch with ui.js kurss.sections mapping
-**Statuss:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-
-**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
-
----
-
-## Finding 465 (Kurss)
-
-**Finding:** 465
-**Audit ID:** DA-KURSS-L0481
+**Finding:** 534
+**Audit ID:** DA-KURSS-L0497
 **Lesson/ID:** `lesson21`
 **Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[4]`
 **Field type:** `grammarExamples`
@@ -9774,10 +11223,31 @@ Fails: `reports/da-kurss-owner-review.md`
 
 ---
 
-## Finding 466 (Kurss)
+## Finding 535 (Kurss)
 
-**Finding:** 466
-**Audit ID:** DA-KURSS-L0485
+**Finding:** 535
+**Audit ID:** DA-KURSS-L0500
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[2].title`
+**Field type:** `sectionTitle`
+**DE (read-only):** —
+**CURRENT_DA:** Gramatika
+**PROPOSED_DA:** Grammatik
+**Severity:** HIGH
+**Category:** RENDERER
+**Problem:** Section title Latvian/mismatch with ui.js kurss.sections mapping
+**Reason:** Section title Latvian/mismatch with ui.js kurss.sections mapping
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 536 (Kurss)
+
+**Finding:** 536
+**Audit ID:** DA-KURSS-L0502
 **Lesson/ID:** `lesson21`
 **Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[3].title`
 **Field type:** `sectionTitle`
@@ -9788,6 +11258,1462 @@ Fails: `reports/da-kurss-owner-review.md`
 **Category:** RENDERER
 **Problem:** Section title Latvian/mismatch with ui.js kurss.sections mapping
 **Reason:** Section title Latvian/mismatch with ui.js kurss.sections mapping
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 537 (Kurss)
+
+**Finding:** 537
+**Audit ID:** DA-KURSS-L0507
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[0].task`
+**Field type:** `cardTask`
+**DE (read-only):** Der Vater kommt von dem Felde.
+**CURRENT_DA:** Answer after reading the text.
+**PROPOSED_DA:** Svar efter at have læst teksten.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English exercise instruction; LV master expects Danish.
+**Reason:** English exercise instruction; LV master expects Danish.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 538 (Kurss)
+
+**Finding:** 538
+**Audit ID:** DA-KURSS-L0508
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[1].task`
+**Field type:** `cardTask`
+**DE (read-only):** Er geht in die Scheune.
+**CURRENT_DA:** Answer after reading the text.
+**PROPOSED_DA:** Svar efter at have læst teksten.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English exercise instruction; LV master expects Danish.
+**Reason:** English exercise instruction; LV master expects Danish.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 539 (Kurss)
+
+**Finding:** 539
+**Audit ID:** DA-KURSS-L0509
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[2].task`
+**Field type:** `cardTask`
+**DE (read-only):** Er spricht in der Scheune mit den Holzhauern.
+**CURRENT_DA:** Answer after reading the text.
+**PROPOSED_DA:** Svar efter at have læst teksten.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English exercise instruction; LV master expects Danish.
+**Reason:** English exercise instruction; LV master expects Danish.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 540 (Kurss)
+
+**Finding:** 540
+**Audit ID:** DA-KURSS-L0510
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[3].task`
+**Field type:** `cardTask`
+**DE (read-only):** Der Mann steigt von dem Berge.
+**CURRENT_DA:** Answer after reading the text.
+**PROPOSED_DA:** Svar efter at have læst teksten.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English exercise instruction; LV master expects Danish.
+**Reason:** English exercise instruction; LV master expects Danish.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 541 (Kurss)
+
+**Finding:** 541
+**Audit ID:** DA-KURSS-L0511
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[4].task`
+**Field type:** `cardTask`
+**DE (read-only):** Er kommt auf den Hof.
+**CURRENT_DA:** Answer after reading the text.
+**PROPOSED_DA:** Svar efter at have læst teksten.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English exercise instruction; LV master expects Danish.
+**Reason:** English exercise instruction; LV master expects Danish.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 542 (Kurss)
+
+**Finding:** 542
+**Audit ID:** DA-KURSS-L0512
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[5].task`
+**Field type:** `cardTask`
+**DE (read-only):** Er findet den Vater auf dem Hof.
+**CURRENT_DA:** Answer after reading the text.
+**PROPOSED_DA:** Svar efter at have læst teksten.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English exercise instruction; LV master expects Danish.
+**Reason:** English exercise instruction; LV master expects Danish.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 543 (Kurss)
+
+**Finding:** 543
+**Audit ID:** DA-KURSS-L0513
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[6].task`
+**Field type:** `cardTask`
+**DE (read-only):** Die Mutter tritt aus dem Hause.
+**CURRENT_DA:** Answer after reading the text.
+**PROPOSED_DA:** Svar efter at have læst teksten.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English exercise instruction; LV master expects Danish.
+**Reason:** English exercise instruction; LV master expects Danish.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 544 (Kurss)
+
+**Finding:** 544
+**Audit ID:** DA-KURSS-L0514
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[7].task`
+**Field type:** `cardTask`
+**DE (read-only):** Sie geht auf den Hof.
+**CURRENT_DA:** Answer after reading the text.
+**PROPOSED_DA:** Svar efter at have læst teksten.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English exercise instruction; LV master expects Danish.
+**Reason:** English exercise instruction; LV master expects Danish.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 545 (Kurss)
+
+**Finding:** 545
+**Audit ID:** DA-KURSS-L0515
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[8].task`
+**Field type:** `cardTask`
+**DE (read-only):** Sie sieht den Mann auf dem Hof.
+**CURRENT_DA:** Answer after reading the text.
+**PROPOSED_DA:** Svar efter at have læst teksten.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English exercise instruction; LV master expects Danish.
+**Reason:** English exercise instruction; LV master expects Danish.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 546 (Kurss)
+
+**Finding:** 546
+**Audit ID:** DA-KURSS-L0516
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[9].task`
+**Field type:** `cardTask`
+**DE (read-only):** Die Magd kommt aus der Küche.
+**CURRENT_DA:** Answer after reading the text.
+**PROPOSED_DA:** Svar efter at have læst teksten.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English exercise instruction; LV master expects Danish.
+**Reason:** English exercise instruction; LV master expects Danish.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 547 (Kurss)
+
+**Finding:** 547
+**Audit ID:** DA-KURSS-L0517
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[10].task`
+**Field type:** `cardTask`
+**DE (read-only):** Sie eilt in den Keller.
+**CURRENT_DA:** Answer after reading the text.
+**PROPOSED_DA:** Svar efter at have læst teksten.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English exercise instruction; LV master expects Danish.
+**Reason:** English exercise instruction; LV master expects Danish.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 548 (Kurss)
+
+**Finding:** 548
+**Audit ID:** DA-KURSS-L0518
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[11].task`
+**Field type:** `cardTask`
+**DE (read-only):** Ein Eimer mit Milch steht im Keller.
+**CURRENT_DA:** Answer after reading the text.
+**PROPOSED_DA:** Svar efter at have læst teksten.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English exercise instruction; LV master expects Danish.
+**Reason:** English exercise instruction; LV master expects Danish.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 549 (Kurss)
+
+**Finding:** 549
+**Audit ID:** DA-KURSS-L0519
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[12].task`
+**Field type:** `cardTask`
+**DE (read-only):** Sie steigt aus dem Keller.
+**CURRENT_DA:** Answer after reading the text.
+**PROPOSED_DA:** Svar efter at have læst teksten.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English exercise instruction; LV master expects Danish.
+**Reason:** English exercise instruction; LV master expects Danish.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 550 (Kurss)
+
+**Finding:** 550
+**Audit ID:** DA-KURSS-L0520
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[13].task`
+**Field type:** `cardTask`
+**DE (read-only):** Sie geht in die Küche zurück.
+**CURRENT_DA:** Answer after reading the text.
+**PROPOSED_DA:** Svar efter at have læst teksten.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English exercise instruction; LV master expects Danish.
+**Reason:** English exercise instruction; LV master expects Danish.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 551 (Kurss)
+
+**Finding:** 551
+**Audit ID:** DA-KURSS-L0521
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[14].task`
+**Field type:** `cardTask`
+**DE (read-only):** Sie arbeitet fleißig in der Küche.
+**CURRENT_DA:** Answer after reading the text.
+**PROPOSED_DA:** Svar efter at have læst teksten.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** English exercise instruction; LV master expects Danish.
+**Reason:** English exercise instruction; LV master expects Danish.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 552 (Kurss)
+
+**Finding:** 552
+**Audit ID:** DA-KURSS-L0522
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[2].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Ich ziehe die Uhr aus der Tasche.
+**CURRENT_DA:** Jeg har et ur med fra lommen.
+**PROPOSED_DA:** Jeg tager uret ud af lommen.
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Ich ziehe die Uhr aus der Tasche; DA says 'I have a watch with from the pocket'.
+**Reason:** DE Ich ziehe die Uhr aus der Tasche; DA says 'I have a watch with from the pocket'.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 553 (Kurss)
+
+**Finding:** 553
+**Audit ID:** DA-KURSS-L0523
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[4].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Ich trage den Eimer aus dem Keller.
+**CURRENT_DA:** Es nesu spaini ingen pagraba.
+**PROPOSED_DA:** Jeg bærer spanden ud af kælderen.
+**Severity:** HIGH
+**Category:** GRAMMAR
+**Problem:** Preposition error: 'ingen pagraba' (LV typo) should be 'fra kælderen'.
+**Reason:** Preposition error: 'ingen pagraba' (LV typo) should be 'fra kælderen'.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 554 (Kurss)
+
+**Finding:** 554
+**Audit ID:** DA-KURSS-L0524
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[8].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Die Noten liegen auf dem Klavier.
+**CURRENT_DA:** Nodebladet er på klaveret.
+**PROPOSED_DA:** Nodearkene ligger på klaveret.
+**Severity:** HIGH
+**Category:** SEMANTICS
+**Problem:** DE Die Noten liegen auf dem Klavier (sheet music); DA uses nodeblad (note sheet) wrongly singular.
+**Reason:** DE Die Noten liegen auf dem Klavier (sheet music); DA uses nodeblad (note sheet) wrongly singular.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 555 (Kurss)
+
+**Finding:** 555
+**Audit ID:** DA-KURSS-L0525
+**Lesson/ID:** `lesson21`
+**Path:** `COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[9].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Ich nehme die Noten vom Klavier.
+**CURRENT_DA:** Jeg fjerner tonerne fra klaveret.
+**PROPOSED_DA:** Jeg tager noderne fra klaveret.
+**Severity:** HIGH
+**Category:** SEMANTICS
+**Problem:** DE Ich nehme die Noten vom Klavier; DA 'tonerne' means tones, not sheet music.
+**Reason:** DE Ich nehme die Noten vom Klavier; DA 'tonerne' means tones, not sheet music.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 556 (Kurss)
+
+**Finding:** 556
+**Audit ID:** DA-KURSS-L0531
+**Lesson/ID:** `kurssPronounsLesson`
+**Path:** `COURSE_LESSON_HTML.kurssPronounsLesson`
+**Field type:** `legacyHtml`
+**DE (read-only):** —
+**CURRENT_DA:** 
+  <h3>Pronominer</h3> <div class="artikuli-info artikuli-intro-info">
+    <span class="artikuli-info-icon">i</span>
+    <div>Nominativ, Akkusativ og Dativ - former for pronominer.</div>
+  </div> 
+  <section class="artikuli-block">
+    <h4 class="artikuli-header"><span>N</span>Nominativ - hvad?</h4>
+    <div class="artikuli-grid"><div class="kurss-example">Ich - jeg</div><div class="kurss-example"…
+**PROPOSED_DA:** Er — han
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** German er glossed as 'Øh' instead of 'Er'.
+**Reason:** German er glossed as 'Øh' instead of 'Er'.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 557 (Kurss)
+
+**Finding:** 557
+**Audit ID:** DA-KURSS-L0549
+**Lesson/ID:** `kurssSentenceStructureLesson`
+**Path:** `COURSE_LESSON_HTML.kurssSentenceStructureLesson`
+**Field type:** `legacyHtml`
+**DE (read-only):** —
+**CURRENT_DA:** <h3>Sætningsstruktur</h3> <p class="kurss-lesson-intro">I en spørgsmålssætning kommer verbet normalt først på tysk.</p> <section class="kurss-lesson-section"> <h4>Eksempler</h4> <div class="kurss-examples"><div class="kurss-example">Du kommst. — Du kommer.</div><div class="kurss-example">Kommst du? — Kommer du?</div><div class="kurss-example">Er singt. — Han synger.</div><div class="kurss-example"…
+**PROPOSED_DA:** Was tust du? — Hvad laver du?
+**Severity:** HIGH
+**Category:** TRANSLATION
+**Problem:** Danish side repeats German instead of translating.
+**Reason:** Danish side repeats German instead of translating.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 558 (Kurss)
+
+**Finding:** 558
+**Audit ID:** DA-KURSS-L0553
+**Lesson/ID:** `lesson1`
+**Path:** `lesson1TrainingCardsDa[0].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Kommst du?
+**CURRENT_DA:** Kommer du
+**PROPOSED_DA:** Kommer du?
+**Severity:** LOW
+**Category:** GRAMMAR
+**Problem:** Question missing final punctuation.
+**Reason:** Question missing final punctuation.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 559 (Kurss)
+
+**Finding:** 559
+**Audit ID:** DA-KURSS-L0554
+**Lesson/ID:** `lesson1`
+**Path:** `lesson1TrainingCardsDa[2].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Wer singt?
+**CURRENT_DA:** Wen synger?
+**PROPOSED_DA:** Hvem synger?
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** German Wen in DA question; DE is Wer singt?
+**Reason:** German Wen in DA question; DE is Wer singt?
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 560 (Kurss)
+
+**Finding:** 560
+**Audit ID:** DA-KURSS-L0556
+**Lesson/ID:** `lesson1`
+**Path:** `lesson1TrainingCardsDa[9].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Geht ihr?
+**CURRENT_DA:** Skal du hen
+**PROPOSED_DA:** Går I?
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Geht ihr? (Are you going?); DA 'Skal du hen' means 'Are you going there?' to one person.
+**Reason:** DE Geht ihr? (Are you going?); DA 'Skal du hen' means 'Are you going there?' to one person.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 561 (Kurss)
+
+**Finding:** 561
+**Audit ID:** DA-KURSS-L0558
+**Lesson/ID:** `lesson2`
+**Path:** `lesson2TrainingCardsDa[0].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Wer fragt?
+**CURRENT_DA:** Wen spørger?
+**PROPOSED_DA:** Hvem spørger?
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** German Wen in DA; DE is Wer fragt?
+**Reason:** German Wen in DA; DE is Wer fragt?
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 562 (Kurss)
+
+**Finding:** 562
+**Audit ID:** DA-KURSS-L0559
+**Lesson/ID:** `lesson2`
+**Path:** `lesson2TrainingCardsDa[3].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Antwortet Paul?
+**CURRENT_DA:** Er Paul på billedet?
+**PROPOSED_DA:** Svarer Paul?
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Antwortet Paul?; DA asks if Paul is in the picture.
+**Reason:** DE Antwortet Paul?; DA asks if Paul is in the picture.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 563 (Kurss)
+
+**Finding:** 563
+**Audit ID:** DA-KURSS-L0560
+**Lesson/ID:** `lesson2`
+**Path:** `lesson2TrainingCardsDa[4].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Nein, er antwortet nicht, er fragt.
+**CURRENT_DA:** Nein, han svarer ikke, spørger han.
+**PROPOSED_DA:** Nej, han svarer ikke, han spørger.
+**Severity:** HIGH
+**Category:** GRAMMAR
+**Problem:** German Nein and wrong clause order.
+**Reason:** German Nein and wrong clause order.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 564 (Kurss)
+
+**Finding:** 564
+**Audit ID:** DA-KURSS-L0561
+**Lesson/ID:** `lesson2`
+**Path:** `lesson2TrainingCardsDa[6].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Nein, sie singen nicht, sie rechnen.
+**CURRENT_DA:** Nein, de synger ikke, de zählt.
+**PROPOSED_DA:** Nej, de synger ikke, de regner.
+**Severity:** HIGH
+**Category:** GRAMMAR
+**Problem:** German Nein and German zählt instead of Danish regner.
+**Reason:** German Nein and German zählt instead of Danish regner.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 565 (Kurss)
+
+**Finding:** 565
+**Audit ID:** DA-KURSS-L0562
+**Lesson/ID:** `lesson2`
+**Path:** `lesson2TrainingCardsDa[7].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Was tust du?
+**CURRENT_DA:** Hvor er du?
+**PROPOSED_DA:** Hvad laver du?
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Was tust du?; DA Hvor er du? is wrong.
+**Reason:** DE Was tust du?; DA Hvor er du? is wrong.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 566 (Kurss)
+
+**Finding:** 566
+**Audit ID:** DA-KURSS-L0563
+**Lesson/ID:** `lesson2`
+**Path:** `lesson2TrainingCardsDa[9].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Zeichnet ihr?
+**CURRENT_DA:** Tegner du
+**PROPOSED_DA:** Tegner I?
+**Severity:** HIGH
+**Category:** SEMANTICS
+**Problem:** DE Zeichnet ihr?; DA uses singular du.
+**Reason:** DE Zeichnet ihr?; DA uses singular du.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 567 (Kurss)
+
+**Finding:** 567
+**Audit ID:** DA-KURSS-L0564
+**Lesson/ID:** `lesson2`
+**Path:** `lesson2TrainingCardsDa[11].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Was tut ihr?
+**CURRENT_DA:** Hvad laver du
+**PROPOSED_DA:** Hvad laver I?
+**Severity:** HIGH
+**Category:** SEMANTICS
+**Problem:** DE Was tut ihr?; DA uses singular du.
+**Reason:** DE Was tut ihr?; DA uses singular du.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 568 (Kurss)
+
+**Finding:** 568
+**Audit ID:** DA-KURSS-L0565
+**Lesson/ID:** `lesson2`
+**Path:** `lesson2TrainingCardsDa[13].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Wer geht?
+**CURRENT_DA:** Hvad sker der?
+**PROPOSED_DA:** Hvem går?
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Wer geht?; DA Hvad sker der? is unrelated.
+**Reason:** DE Wer geht?; DA Hvad sker der? is unrelated.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 569 (Kurss)
+
+**Finding:** 569
+**Audit ID:** DA-KURSS-L0566
+**Lesson/ID:** `lesson3`
+**Path:** `lesson3TrainingCardsDa[1].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Nein, ich rechne nicht, ich zeichne.
+**CURRENT_DA:** Nein, jeg zählt ikke, jeg tegner.
+**PROPOSED_DA:** Nej, jeg regner ikke, jeg tegner.
+**Severity:** HIGH
+**Category:** GRAMMAR
+**Problem:** German Nein and zählt instead of Danish regner.
+**Reason:** German Nein and zählt instead of Danish regner.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 570 (Kurss)
+
+**Finding:** 570
+**Audit ID:** DA-KURSS-L0567
+**Lesson/ID:** `lesson3`
+**Path:** `lesson3TrainingCardsDa[2].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Was steht dort?
+**CURRENT_DA:** Wen står der?
+**PROPOSED_DA:** Hvad står der?
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Was steht dort?; DA uses German Wen.
+**Reason:** DE Was steht dort?; DA uses German Wen.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 571 (Kurss)
+
+**Finding:** 571
+**Audit ID:** DA-KURSS-L0568
+**Lesson/ID:** `lesson3`
+**Path:** `lesson3TrainingCardsDa[4].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Was liegt hier?
+**CURRENT_DA:** Wen er her?
+**PROPOSED_DA:** Hvad ligger her?
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Was liegt hier?; DA uses German Wen.
+**Reason:** DE Was liegt hier?; DA uses German Wen.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 572 (Kurss)
+
+**Finding:** 572
+**Audit ID:** DA-KURSS-L0569
+**Lesson/ID:** `lesson3`
+**Path:** `lesson3TrainingCardsDa[7].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Nein, das Buch ist dick.
+**CURRENT_DA:** Nein, bogen er tyk.
+**PROPOSED_DA:** Nej, bogen er tyk.
+**Severity:** MEDIUM
+**Category:** FOREIGN_REMNANT
+**Problem:** German Nein in DA training card.
+**Reason:** German Nein in DA training card.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 573 (Kurss)
+
+**Finding:** 573
+**Audit ID:** DA-KURSS-L0570
+**Lesson/ID:** `lesson3`
+**Path:** `lesson3TrainingCardsDa[8].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Was ist dünn?
+**CURRENT_DA:** Hvad er planen?
+**PROPOSED_DA:** Hvad er tyndt?
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Was ist dünn?; DA Hvad er planen? is unrelated.
+**Reason:** DE Was ist dünn?; DA Hvad er planen? is unrelated.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 574 (Kurss)
+
+**Finding:** 574
+**Audit ID:** DA-KURSS-L0571
+**Lesson/ID:** `lesson3`
+**Path:** `lesson3TrainingCardsDa[9].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Das Heft ist dünn.
+**CURRENT_DA:** Postkassen er tynd.
+**PROPOSED_DA:** Heftet er tyndt.
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Das Heft ist dünn; DA uses postkasse (mailbox).
+**Reason:** DE Das Heft ist dünn; DA uses postkasse (mailbox).
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 575 (Kurss)
+
+**Finding:** 575
+**Audit ID:** DA-KURSS-L0572
+**Lesson/ID:** `lesson3`
+**Path:** `lesson3TrainingCardsDa[14].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Liegt dort ein Heft?
+**CURRENT_DA:** Ist der/er der en notesbog?
+**PROPOSED_DA:** Ligger der en notesbog?
+**Severity:** HIGH
+**Category:** SEMANTICS
+**Problem:** German Ist and der/er confusion in DA question.
+**Reason:** German Ist and der/er confusion in DA question.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 576 (Kurss)
+
+**Finding:** 576
+**Audit ID:** DA-KURSS-L0573
+**Lesson/ID:** `lesson3`
+**Path:** `lesson3TrainingCardsDa[17].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Nein, Paul kommt nicht, er steht.
+**CURRENT_DA:** Nein, Paulus kommer ikke, han står.
+**PROPOSED_DA:** Nej, Paul kommer ikke, han står.
+**Severity:** MEDIUM
+**Category:** NAMES
+**Problem:** DE Paul; DA uses Latin Paulus.
+**Reason:** DE Paul; DA uses Latin Paulus.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 577 (Kurss)
+
+**Finding:** 577
+**Audit ID:** DA-KURSS-L0574
+**Lesson/ID:** `lesson3`
+**Path:** `lesson3TrainingCardsDa[19].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Hier hängt ein Bild.
+**CURRENT_DA:** Der hænger ein Bild her.
+**PROPOSED_DA:** Her hænger et billede.
+**Severity:** HIGH
+**Category:** GRAMMAR
+**Problem:** German ein in DA; word order unnatural.
+**Reason:** German ein in DA; word order unnatural.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 578 (Kurss)
+
+**Finding:** 578
+**Audit ID:** DA-KURSS-L0575
+**Lesson/ID:** `lesson4`
+**Path:** `lesson4TrainingCardsDa[0].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Das Mädchen nimmt einen Federhalter.
+**CURRENT_DA:** Pigen tager et fjerskaft.
+**PROPOSED_DA:** Pigen tager en fyldepenholder.
+**Severity:** HIGH
+**Category:** TERMINOLOGY
+**Problem:** DE Federhalter (pen holder); DA fjerskaft is non-standard.
+**Reason:** DE Federhalter (pen holder); DA fjerskaft is non-standard.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 579 (Kurss)
+
+**Finding:** 579
+**Audit ID:** DA-KURSS-L0576
+**Lesson/ID:** `lesson4`
+**Path:** `lesson4TrainingCardsDa[1].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Der Federhalter ist nicht weiß, er ist schwarz.
+**CURRENT_DA:** Fjeldpennen er ikke hvid, den er sort.
+**PROPOSED_DA:** Fyldepenholderen er ikke hvid, den er sort.
+**Severity:** HIGH
+**Category:** TERMINOLOGY
+**Problem:** DE Federhalter; DA Fjeldpennen is non-standard calque.
+**Reason:** DE Federhalter; DA Fjeldpennen is non-standard calque.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 580 (Kurss)
+
+**Finding:** 580
+**Audit ID:** DA-KURSS-L0577
+**Lesson/ID:** `lesson4`
+**Path:** `lesson4TrainingCardsDa[3].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Wie ist die Feder?
+**CURRENT_DA:** Hvad er en fjer?
+**PROPOSED_DA:** Hvordan er fjeren?
+**Severity:** HIGH
+**Category:** SEMANTICS
+**Problem:** DE Wie ist die Feder?; DA asks what a feather is.
+**Reason:** DE Wie ist die Feder?; DA asks what a feather is.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 581 (Kurss)
+
+**Finding:** 581
+**Audit ID:** DA-KURSS-L0578
+**Lesson/ID:** `lesson4`
+**Path:** `lesson4TrainingCardsDa[4].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Ist die Feder spitz?
+**CURRENT_DA:** Hvor meget er det?
+**PROPOSED_DA:** Er fjeren spids?
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Ist die Feder spitz?; DA Hvor meget er det? is unrelated.
+**Reason:** DE Ist die Feder spitz?; DA Hvor meget er det? is unrelated.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 582 (Kurss)
+
+**Finding:** 582
+**Audit ID:** DA-KURSS-L0579
+**Lesson/ID:** `lesson4`
+**Path:** `lesson4TrainingCardsDa[6].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Nein, er nimmt eine Feder.
+**CURRENT_DA:** Nein, han tager en fjer.
+**PROPOSED_DA:** Nej, han tager en fjer.
+**Severity:** MEDIUM
+**Category:** FOREIGN_REMNANT
+**Problem:** German Nein in DA training card.
+**Reason:** German Nein in DA training card.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 583 (Kurss)
+
+**Finding:** 583
+**Audit ID:** DA-KURSS-L0580
+**Lesson/ID:** `lesson4`
+**Path:** `lesson4TrainingCardsDa[8].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Ist das Messer stumpf?
+**CURRENT_DA:** Er nazisteren ubevæbnet?
+**PROPOSED_DA:** Er kniven sløv?
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Ist das Messer stumpf?; DA 'nazisteren' is nonsensical/wrong word.
+**Reason:** DE Ist das Messer stumpf?; DA 'nazisteren' is nonsensical/wrong word.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 584 (Kurss)
+
+**Finding:** 584
+**Audit ID:** DA-KURSS-L0581
+**Lesson/ID:** `lesson4`
+**Path:** `lesson4TrainingCardsDa[9].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Nein, es ist scharf.
+**CURRENT_DA:** Nein, den er skarp.
+**PROPOSED_DA:** Nej, den er skarp.
+**Severity:** HIGH
+**Category:** GRAMMAR
+**Problem:** German Nein; pronoun den for neuter es.
+**Reason:** German Nein; pronoun den for neuter es.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 585 (Kurss)
+
+**Finding:** 585
+**Audit ID:** DA-KURSS-L0582
+**Lesson/ID:** `lesson4`
+**Path:** `lesson4TrainingCardsDa[10].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Was tut das Mädchen?
+**CURRENT_DA:** Hvor er det?
+**PROPOSED_DA:** Hvad laver pigen?
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Was tut das Mädchen?; DA Hvor er det? is unrelated.
+**Reason:** DE Was tut das Mädchen?; DA Hvor er det? is unrelated.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 586 (Kurss)
+
+**Finding:** 586
+**Audit ID:** DA-KURSS-L0583
+**Lesson/ID:** `lesson4`
+**Path:** `lesson4TrainingCardsDa[14].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Wie ist das Buch?
+**CURRENT_DA:** Hvad er bogen
+**PROPOSED_DA:** Hvordan er bogen?
+**Severity:** HIGH
+**Category:** SEMANTICS
+**Problem:** DE Wie ist das Buch?; DA missing question mark and wrong wording.
+**Reason:** DE Wie ist das Buch?; DA missing question mark and wrong wording.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 587 (Kurss)
+
+**Finding:** 587
+**Audit ID:** DA-KURSS-L0584
+**Lesson/ID:** `lesson4`
+**Path:** `lesson4TrainingCardsDa[15].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Das Buch ist klein.
+**CURRENT_DA:** Bogen ist klein.
+**PROPOSED_DA:** Bogen er lille.
+**Severity:** HIGH
+**Category:** GRAMMAR
+**Problem:** German ist in DA sentence.
+**Reason:** German ist in DA sentence.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 588 (Kurss)
+
+**Finding:** 588
+**Audit ID:** DA-KURSS-L0585
+**Lesson/ID:** `lesson5`
+**Path:** `lesson5TrainingCardsDa[0].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Wen liebt der Vater?
+**CURRENT_DA:** Hvad elsker far?
+**PROPOSED_DA:** Hvem elsker faren?
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Wen liebt der Vater?; DA uses hvad (what) not hvem (whom).
+**Reason:** DE Wen liebt der Vater?; DA uses hvad (what) not hvem (whom).
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 589 (Kurss)
+
+**Finding:** 589
+**Audit ID:** DA-KURSS-L0586
+**Lesson/ID:** `lesson5`
+**Path:** `lesson5TrainingCardsDa[1].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Wen lobt die Lehrerin?
+**CURRENT_DA:** Hvad roser læreren?
+**PROPOSED_DA:** Hvem roser læreren?
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Wen lobt die Lehrerin?; DA uses hvad not hvem.
+**Reason:** DE Wen lobt die Lehrerin?; DA uses hvad not hvem.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 590 (Kurss)
+
+**Finding:** 590
+**Audit ID:** DA-KURSS-L0587
+**Lesson/ID:** `lesson5`
+**Path:** `lesson5TrainingCardsDa[3].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Wen fragst du?
+**CURRENT_DA:** Wen spørger du?
+**PROPOSED_DA:** Hvem spørger du?
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** German Wen in DA; Danish uses Hvem for who/whom questions.
+**Reason:** German Wen in DA; Danish uses Hvem for who/whom questions.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 591 (Kurss)
+
+**Finding:** 591
+**Audit ID:** DA-KURSS-L0588
+**Lesson/ID:** `lesson5`
+**Path:** `lesson5TrainingCardsDa[4].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Wen tadelt der Lehrer?
+**CURRENT_DA:** Hvad tjener en lærer?
+**PROPOSED_DA:** Hvem skælder læreren ud?
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Wen tadelt der Lehrer? (whom does teacher scold); DA tjener means earn/serve.
+**Reason:** DE Wen tadelt der Lehrer? (whom does teacher scold); DA tjener means earn/serve.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 592 (Kurss)
+
+**Finding:** 592
+**Audit ID:** DA-KURSS-L0589
+**Lesson/ID:** `lesson5`
+**Path:** `lesson5TrainingCardsDa[7].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Der Schüler antwortet schlecht.
+**CURRENT_DA:** Eleven tog et dårligt billede.
+**PROPOSED_DA:** Eleven svarer dårligt.
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Der Schüler antwortet schlecht; DA talks about a bad picture.
+**Reason:** DE Der Schüler antwortet schlecht; DA talks about a bad picture.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 593 (Kurss)
+
+**Finding:** 593
+**Audit ID:** DA-KURSS-L0590
+**Lesson/ID:** `lesson5`
+**Path:** `lesson5TrainingCardsDa[8].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Antwortet die Schülerin schlecht?
+**CURRENT_DA:** Er elevens billede dårligt?
+**PROPOSED_DA:** Svarer elevinden dårligt?
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Antwortet die Schülerin schlecht?; DA asks about a picture.
+**Reason:** DE Antwortet die Schülerin schlecht?; DA asks about a picture.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 594 (Kurss)
+
+**Finding:** 594
+**Audit ID:** DA-KURSS-L0591
+**Lesson/ID:** `lesson5`
+**Path:** `lesson5TrainingCardsDa[9].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut.
+**CURRENT_DA:** Nein, eleven svarer ikke dårligt, hun svarer godt.
+**PROPOSED_DA:** Nej, eleven svarer ikke dårligt, hun svarer godt.
+**Severity:** MEDIUM
+**Category:** FOREIGN_REMNANT
+**Problem:** German Nein in DA training card.
+**Reason:** German Nein in DA training card.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 595 (Kurss)
+
+**Finding:** 595
+**Audit ID:** DA-KURSS-L0592
+**Lesson/ID:** `lesson5`
+**Path:** `lesson5TrainingCardsDa[14].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Das Kind ist artig.
+**CURRENT_DA:** Barnet er snakkesaligt.
+**PROPOSED_DA:** Barnet er artigt.
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Das Kind ist artig (well-behaved); DA snakkesaligt means talkative.
+**Reason:** DE Das Kind ist artig (well-behaved); DA snakkesaligt means talkative.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 596 (Kurss)
+
+**Finding:** 596
+**Audit ID:** DA-KURSS-L0593
+**Lesson/ID:** `lesson6`
+**Path:** `lesson6TrainingCardsDa[2].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Er zeichnet einen Eimer.
+**CURRENT_DA:** Han trækker en spand.
+**PROPOSED_DA:** Han tegner en spand.
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Er zeichnet einen Eimer; DA trækker means pull/draw wrong verb.
+**Reason:** DE Er zeichnet einen Eimer; DA trækker means pull/draw wrong verb.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 597 (Kurss)
+
+**Finding:** 597
+**Audit ID:** DA-KURSS-L0594
+**Lesson/ID:** `lesson6`
+**Path:** `lesson6TrainingCardsDa[3].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Wer zeichnet einen Wagen?
+**CURRENT_DA:** Wen trækker vognen?
+**PROPOSED_DA:** Hvem tegner en vogn?
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Wer zeichnet einen Wagen?; DA uses Wen and trækker.
+**Reason:** DE Wer zeichnet einen Wagen?; DA uses Wen and trækker.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 598 (Kurss)
+
+**Finding:** 598
+**Audit ID:** DA-KURSS-L0595
+**Lesson/ID:** `lesson6`
+**Path:** `lesson6TrainingCardsDa[4].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Das Mädchen zeichnet einen Schlitten.
+**CURRENT_DA:** Pigen trækker en slæde.
+**PROPOSED_DA:** Pigen tegner en slæde.
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Das Mädchen zeichnet einen Schlitten; DA uses trækker.
+**Reason:** DE Das Mädchen zeichnet einen Schlitten; DA uses trækker.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 599 (Kurss)
+
+**Finding:** 599
+**Audit ID:** DA-KURSS-L0596
+**Lesson/ID:** `lesson6`
+**Path:** `lesson6TrainingCardsDa[10].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Wer zählt die Messer und die Teller?
+**CURRENT_DA:** Wen zählt knive og plader?
+**PROPOSED_DA:** Hvem tæller knive og tallerkener?
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**Problem:** German Wen and zählt in DA sentence.
+**Reason:** German Wen and zählt in DA sentence.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 600 (Kurss)
+
+**Finding:** 600
+**Audit ID:** DA-KURSS-L0597
+**Lesson/ID:** `lesson6`
+**Path:** `lesson6TrainingCardsDa[11].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Das ist ein Deckel.
+**CURRENT_DA:** Det er et cover.
+**PROPOSED_DA:** Det er et låg.
+**Severity:** MEDIUM
+**Category:** FOREIGN_REMNANT
+**Problem:** English 'cover' in DA; DE Deckel.
+**Reason:** English 'cover' in DA; DE Deckel.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 601 (Kurss)
+
+**Finding:** 601
+**Audit ID:** DA-KURSS-L0598
+**Lesson/ID:** `lesson6`
+**Path:** `lesson6TrainingCardsDa[12].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Das sind Deckel.
+**CURRENT_DA:** Disse er covers.
+**PROPOSED_DA:** Det er låg.
+**Severity:** MEDIUM
+**Category:** FOREIGN_REMNANT
+**Problem:** English 'covers' in DA.
+**Reason:** English 'covers' in DA.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 602 (Kurss)
+
+**Finding:** 602
+**Audit ID:** DA-KURSS-L0599
+**Lesson/ID:** `lesson6`
+**Path:** `lesson6TrainingCardsDa[18].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Das ist ein Federhalter.
+**CURRENT_DA:** Den er fjerklædt.
+**PROPOSED_DA:** Det er en fyldepenholder.
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Das ist ein Federhalter; DA fjerklædt means feather-clad.
+**Reason:** DE Das ist ein Federhalter; DA fjerklædt means feather-clad.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 603 (Kurss)
+
+**Finding:** 603
+**Audit ID:** DA-KURSS-L0600
+**Lesson/ID:** `lesson6`
+**Path:** `lesson6TrainingCardsDa[19].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Wie ist der Federhalter?
+**CURRENT_DA:** Hvad er fjerbeklædt?
+**PROPOSED_DA:** Hvordan er fyldepenholderen?
+**Severity:** CRITICAL
+**Category:** SEMANTICS
+**Problem:** DE Wie ist der Federhalter?; DA asks what is feather-clad.
+**Reason:** DE Wie ist der Federhalter?; DA asks what is feather-clad.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 604 (Kurss)
+
+**Finding:** 604
+**Audit ID:** DA-KURSS-L0601
+**Lesson/ID:** `lesson6`
+**Path:** `lesson6TrainingCardsDa[20].front`
+**Field type:** `trainingFront`
+**DE (read-only):** Der Federhalter ist schwarz.
+**CURRENT_DA:** Fjeldpennen er sort.
+**PROPOSED_DA:** Fyldepenholderen er sort.
+**Severity:** MEDIUM
+**Category:** TERMINOLOGY
+**Problem:** Fjeldpen/Fjeldpennen is non-standard; use fyldepenholder.
+**Reason:** Fjeldpen/Fjeldpennen is non-standard; use fyldepenholder.
+**Statuss:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+
+**Avots:** GPT-5.6 Luna audit (`reports/da-kurss-full-audit.md`) · luna
+
+---
+
+## Finding 605 (Kurss)
+
+**Finding:** 605
+**Audit ID:** DA-KURSS-L0602
+**Lesson/ID:** `ui`
+**Path:** `LANGUAGE_UI_STRINGS.kurss.verbBasics`
+**Field type:** `uiString`
+**DE (read-only):** —
+**CURRENT_DA:** Verbers grundlag
+**PROPOSED_DA:** Verbets grundlag
+**Severity:** MEDIUM
+**Category:** TERMINOLOGY
+**Problem:** German genitive 'Verbers' in DA UI; standard Danish is Verbets/Verbernes grundlag.
+**Reason:** German genitive 'Verbers' in DA UI; standard Danish is Verbets/Verbernes grundlag.
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 

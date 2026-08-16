@@ -1,6 +1,6 @@
 # DA–DE Kurss — OWNER review (GitHub index)
 
-**Auditors:** GPT-5.6 Luna (READ-ONLY) · **Findings:** 466
+**Auditors:** GPT-5.6 Luna (READ-ONLY) · **Findings:** 605
 
 ## Faili
 
@@ -18,4 +18,4 @@
 2. Apply COPY-ONLY uz `data/da/` + `www/data/da/` mirror
 3. **DE nemainīt**
 
-Production changes = 0 · DE changes = 0 · Findings = 466
+Production changes = 0 · DE changes = 0 · Findings = 605
