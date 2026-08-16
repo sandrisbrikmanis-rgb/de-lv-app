@@ -118,6 +118,7 @@ function buildReport(payload) {
     `| Previous OWNER apply targets | 155 |`,
     `| Finding #218 field-level apply | ${payload.applied218} |`,
     `| Luna micro-repair apply | ${payload.appliedMicro} |`,
+    `| Luna micro-repair #2 apply | ${payload.appliedMicro2} |`,
     `| Total regression targets | ${payload.totalTargets} |`,
     `| CRITICAL | ${payload.severity.CRITICAL} |`,
     `| HIGH | ${payload.severity.HIGH} |`,
@@ -188,7 +189,9 @@ async function main() {
   const applyLog = JSON.parse(fs.readFileSync(APPLY_LOG, "utf8"));
   const apply218 = JSON.parse(fs.readFileSync(APPLY_218_LOG, "utf8"));
   const microLogPath = path.join(ROOT, "reports/temp/cs-kurss-luna-micro-repair-apply-log.json");
+  const micro2LogPath = path.join(ROOT, "reports/temp/cs-kurss-luna-micro-repair-2-apply-log.json");
   const microLog = fs.existsSync(microLogPath) ? JSON.parse(fs.readFileSync(microLogPath, "utf8")) : { applied: [] };
+  const micro2Log = fs.existsSync(micro2LogPath) ? JSON.parse(fs.readFileSync(micro2LogPath, "utf8")) : { applied: [] };
   const csWin = loadWindowGlobals("data/cs/courseLessons.js");
   const productionData = csWin.COURSE_LESSON_DATA || {};
   const { units } = extractUnits();
@@ -263,6 +266,7 @@ async function main() {
     closureReason: allClear ? "" : "Regression findings vai deterministiskās pārbaudes neizturētas.",
     applied218: apply218.applied?.length || 0,
     appliedMicro: microLog.applied?.length || 0,
+    appliedMicro2: micro2Log.applied?.length || 0,
     mismatch218: apply218.currentValueMismatch?.length || 0,
     totalTargets: targets.length,
     severity,

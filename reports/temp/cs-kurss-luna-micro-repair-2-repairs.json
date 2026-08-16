@@ -1,0 +1,28 @@
+{
+  "repairs": [
+    {
+      "id": "LUNA2-01",
+      "normalizedPath": "kurssLesson15.sections[3].items[0]",
+      "current": "ä ve slovech Äpfel a schälen se vyslovuje jako zavřené e.",
+      "ownerNew": "ä ve slovech Äpfel a schälen se vyslovuje jako otevřené e."
+    },
+    {
+      "id": "LUNA2-02",
+      "normalizedPath": "kurssLesson21.sections[3].items[1]",
+      "current": "Ve slovech arbeiten, das Beil, steigen se ei vyslovuje jako ai.",
+      "ownerNew": "Ve slovech arbeiten, das Beil, steigen se ei vyslovuje jako aj."
+    },
+    {
+      "id": "LUNA2-03",
+      "normalizedPath": "kurssLesson21.sections[3].items[2]",
+      "current": "Ve slově die Scheune se eu vyslovuje jako oi.",
+      "ownerNew": "Ve slově die Scheune se eu vyslovuje jako oj."
+    },
+    {
+      "id": "LUNA2-04",
+      "normalizedPath": "kurssLesson21.sections[3].items[3]",
+      "current": "Ve slově die Brücke se ck vyslovuje jako dvojité k.",
+      "ownerNew": "Ve slově die Brücke se ck vyslovuje jako k."
+    }
+  ]
+}

@@ -1,16 +1,17 @@
 {
-  "generatedAt": "2026-08-16T09:15:08.786Z",
+  "generatedAt": "2026-08-16T09:18:12.025Z",
   "model": "gpt-5.6-luna",
   "closureStatus": "NOT CLOSED",
   "closureReason": "Regression findings vai deterministiskās pārbaudes neizturētas.",
   "applied218": 8,
   "appliedMicro": 7,
+  "appliedMicro2": 4,
   "mismatch218": 0,
   "totalTargets": 163,
   "severity": {
     "CRITICAL": 0,
-    "HIGH": 3,
-    "MEDIUM": 1,
+    "HIGH": 0,
+    "MEDIUM": 2,
     "LOW": 0
   },
   "lvRemnants": 0,
@@ -21,39 +22,21 @@
   "lunaStatus": "COMPLETED",
   "validFindings": [
     {
-      "lessonSection": "kurssLesson15.sections[3].items[0]",
-      "cardId": "kurssLesson15.sections[3].items[0]",
+      "lessonSection": "kurssLesson19.sections[3].items[4]",
+      "cardId": "kurssLesson19.sections[3].items[4]",
       "severity": "MEDIUM",
-      "currentCs": "ä ve slovech Äpfel a schälen se vyslovuje jako zavřené e.",
-      "proposedCs": "ä ve slovech Äpfel a schälen se vyslovuje jako otevřené e.",
-      "reason": "Německé ä v Äpfel i schälen odpovídá otevřenému e, nikoli zavřenému e.",
+      "currentCs": "Ve slově wachsen se ch vyslovuje jako k.",
+      "proposedCs": "Ve slově wachsen se spojení ch vyslovuje jako ks.",
+      "reason": "V německém wachsen se spojení chs vyslovuje jako [ks], nikoli samotné ch jako k.",
       "status": "PENDING_OWNER_REVIEW"
     },
     {
-      "lessonSection": "kurssLesson21.sections[3].items[1]",
-      "cardId": "kurssLesson21.sections[3].items[1]",
-      "severity": "HIGH",
-      "currentCs": "Ve slovech arbeiten, das Beil, steigen se ei vyslovuje jako ai.",
-      "proposedCs": "Ve slovech arbeiten, das Beil, steigen se ei vyslovuje jako aj.",
-      "reason": "Český přepis německého ei je aj, nikoli ai.",
-      "status": "PENDING_OWNER_REVIEW"
-    },
-    {
-      "lessonSection": "kurssLesson21.sections[3].items[2]",
-      "cardId": "kurssLesson21.sections[3].items[2]",
-      "severity": "HIGH",
-      "currentCs": "Ve slově die Scheune se eu vyslovuje jako oi.",
-      "proposedCs": "Ve slově die Scheune se eu vyslovuje jako oj.",
-      "reason": "Český přepis německého eu je oj, nikoli oi.",
-      "status": "PENDING_OWNER_REVIEW"
-    },
-    {
-      "lessonSection": "kurssLesson21.sections[3].items[3]",
-      "cardId": "kurssLesson21.sections[3].items[3]",
-      "severity": "HIGH",
-      "currentCs": "Ve slově die Brücke se ck vyslovuje jako dvojité k.",
-      "proposedCs": "Ve slově die Brücke se ck vyslovuje jako k.",
-      "reason": "Německé ck označuje jedinou hlásku [k], nikoli zdvojené nebo dlouhé k.",
+      "lessonSection": "kurssLesson20.sections[3].items[1]",
+      "cardId": "kurssLesson20.sections[3].items[1]",
+      "severity": "MEDIUM",
+      "currentCs": "Ve slovech der Ofen, der Boden je o dlouhé.",
+      "proposedCs": "Ve slovech der Ofen, der Boden se o vyslovuje dlouze.",
+      "reason": "Spojení „je o dlouhé“ je v této větě nepřirozené; přirozenější je vyjádřit délku příslovcem „dlouze“.",
       "status": "PENDING_OWNER_REVIEW"
     }
   ],
@@ -76,12 +59,12 @@
     ],
     "retryCount": 0,
     "retryReasons": {},
-    "inputTokens": 17936,
-    "cachedInputTokens": 8858,
-    "outputTokens": 9716,
-    "reasoningTokens": 5725,
-    "totalTokens": 27652,
-    "findingsCount": 4,
-    "passCount": 159
+    "inputTokens": 17932,
+    "cachedInputTokens": 12940,
+    "outputTokens": 8741,
+    "reasoningTokens": 4933,
+    "totalTokens": 26673,
+    "findingsCount": 2,
+    "passCount": 161
   }
 }

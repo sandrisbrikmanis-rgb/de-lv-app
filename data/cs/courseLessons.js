@@ -2583,7 +2583,7 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Výslovnost",
         "items": [
-          "ä ve slovech Äpfel a schälen se vyslovuje jako zavřené e.",
+          "ä ve slovech Äpfel a schälen se vyslovuje jako otevřené e.",
           "Ve slově Äpfel se ä vyslovuje krátce, protože po samohlásce následují dvě souhlásky.",
           "Ve slově schälen se ä vyslovuje dlouze, protože po samohlásce následuje jedna souhláska.",
           "Ve slově gern je e krátké a otevřené.",
@@ -4310,9 +4310,9 @@ const COURSE_LESSON_DATA = {
         "title": "Výslovnost",
         "items": [
           "Ve slově die Axt se x vyslovuje jako ks.",
-          "Ve slovech arbeiten, das Beil, steigen se ei vyslovuje jako ai.",
-          "Ve slově die Scheune se eu vyslovuje jako oi.",
-          "Ve slově die Brücke se ck vyslovuje jako dvojité k."
+          "Ve slovech arbeiten, das Beil, steigen se ei vyslovuje jako aj.",
+          "Ve slově die Scheune se eu vyslovuje jako oj.",
+          "Ve slově die Brücke se ck vyslovuje jako k."
         ]
       },
       {

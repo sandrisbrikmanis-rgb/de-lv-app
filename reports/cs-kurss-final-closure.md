@@ -1,6 +1,6 @@
 # CS–DE Kurss — Final closure
 
-Generated: 2026-08-16T09:15:08.786Z
+Generated: 2026-08-16T09:18:12.025Z
 Model: gpt-5.6-luna
 
 ## Closure status
@@ -16,10 +16,11 @@ Regression findings vai deterministiskās pārbaudes neizturētas.
 | Previous OWNER apply targets | 155 |
 | Finding #218 field-level apply | 8 |
 | Luna micro-repair apply | 7 |
+| Luna micro-repair #2 apply | 4 |
 | Total regression targets | 163 |
 | CRITICAL | 0 |
-| HIGH | 3 |
-| MEDIUM | 1 |
+| HIGH | 0 |
+| MEDIUM | 2 |
 | LOW | 0 |
 | LV remnants | 0 |
 | Placeholders | 0 |
@@ -36,30 +37,16 @@ Regression findings vai deterministiskās pārbaudes neizturētas.
 
 ## Findings (PENDING_OWNER_REVIEW)
 
-### kurssLesson15.sections[3].items[0] / kurssLesson15.sections[3].items[0]
+### kurssLesson19.sections[3].items[4] / kurssLesson19.sections[3].items[4]
 - Severity: MEDIUM
-- CURRENT_CS: ä ve slovech Äpfel a schälen se vyslovuje jako zavřené e.
-- PROPOSED_CS: ä ve slovech Äpfel a schälen se vyslovuje jako otevřené e.
-- Pamatojums: Německé ä v Äpfel i schälen odpovídá otevřenému e, nikoli zavřenému e.
+- CURRENT_CS: Ve slově wachsen se ch vyslovuje jako k.
+- PROPOSED_CS: Ve slově wachsen se spojení ch vyslovuje jako ks.
+- Pamatojums: V německém wachsen se spojení chs vyslovuje jako [ks], nikoli samotné ch jako k.
 - Status: PENDING_OWNER_REVIEW
 
-### kurssLesson21.sections[3].items[1] / kurssLesson21.sections[3].items[1]
-- Severity: HIGH
-- CURRENT_CS: Ve slovech arbeiten, das Beil, steigen se ei vyslovuje jako ai.
-- PROPOSED_CS: Ve slovech arbeiten, das Beil, steigen se ei vyslovuje jako aj.
-- Pamatojums: Český přepis německého ei je aj, nikoli ai.
-- Status: PENDING_OWNER_REVIEW
-
-### kurssLesson21.sections[3].items[2] / kurssLesson21.sections[3].items[2]
-- Severity: HIGH
-- CURRENT_CS: Ve slově die Scheune se eu vyslovuje jako oi.
-- PROPOSED_CS: Ve slově die Scheune se eu vyslovuje jako oj.
-- Pamatojums: Český přepis německého eu je oj, nikoli oi.
-- Status: PENDING_OWNER_REVIEW
-
-### kurssLesson21.sections[3].items[3] / kurssLesson21.sections[3].items[3]
-- Severity: HIGH
-- CURRENT_CS: Ve slově die Brücke se ck vyslovuje jako dvojité k.
-- PROPOSED_CS: Ve slově die Brücke se ck vyslovuje jako k.
-- Pamatojums: Německé ck označuje jedinou hlásku [k], nikoli zdvojené nebo dlouhé k.
+### kurssLesson20.sections[3].items[1] / kurssLesson20.sections[3].items[1]
+- Severity: MEDIUM
+- CURRENT_CS: Ve slovech der Ofen, der Boden je o dlouhé.
+- PROPOSED_CS: Ve slovech der Ofen, der Boden se o vyslovuje dlouze.
+- Pamatojums: Spojení „je o dlouhé“ je v této větě nepřirozené; přirozenější je vyjádřit délku příslovcem „dlouze“.
 - Status: PENDING_OWNER_REVIEW

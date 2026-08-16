@@ -7,8 +7,14 @@ const { execSync } = require("child_process");
 const { ROOT } = require("./lib/audit-common");
 const { getAt, setAt } = require("./lib/cs-kurss-owner-path");
 
-const REPAIRS_JSON = path.join(ROOT, "reports/temp/cs-kurss-luna-micro-repair-repairs.json");
-const APPLY_LOG = path.join(ROOT, "reports/temp/cs-kurss-luna-micro-repair-apply-log.json");
+const roundArg = process.argv.find((a) => a.startsWith("--round="));
+const round = roundArg ? roundArg.split("=")[1] : "1";
+const REPAIRS_JSON = round === "2"
+  ? path.join(ROOT, "reports/temp/cs-kurss-luna-micro-repair-2-repairs.json")
+  : path.join(ROOT, "reports/temp/cs-kurss-luna-micro-repair-repairs.json");
+const APPLY_LOG = round === "2"
+  ? path.join(ROOT, "reports/temp/cs-kurss-luna-micro-repair-2-apply-log.json")
+  : path.join(ROOT, "reports/temp/cs-kurss-luna-micro-repair-apply-log.json");
 const PRIMARY = path.join(ROOT, "data/cs/courseLessons.js");
 const WWW = path.join(ROOT, "www/data/cs/courseLessons.js");
 const EXTRA_HTML_KEYS = ["kurssVerbBasicsLesson", "kurssSentenceStructureLesson"];
