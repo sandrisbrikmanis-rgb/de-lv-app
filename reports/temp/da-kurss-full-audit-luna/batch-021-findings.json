@@ -1,0 +1,111 @@
+{
+  "batch": "batch-021",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-16T16:36:22.780Z",
+  "findings": [
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.title",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.title",
+      "fieldType": "title",
+      "deCurrent": "",
+      "daCurrent": "Lekcija 21",
+      "proposedDa": "Lektion 21",
+      "severity": "HIGH",
+      "category": "CONSISTENCY",
+      "reason": "Latvian Lekcija in metadata; ui.js uses Lektion N",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.title",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.title",
+      "fieldType": "title",
+      "deCurrent": "",
+      "daCurrent": "Lekcija 21",
+      "proposedDa": "(Danish)",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Pattern: \\blekcij",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].title",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].title",
+      "fieldType": "sectionTitle",
+      "deCurrent": "",
+      "daCurrent": "Gramatika",
+      "proposedDa": "Grammatik",
+      "severity": "HIGH",
+      "category": "RENDERER",
+      "reason": "Latvian/mixed section title breaks renderer i18n mapping",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[3]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[3]",
+      "fieldType": "grammarExamples",
+      "deCurrent": "mit dem Mann",
+      "daCurrent": "mit dem Mann — ar vīru",
+      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian diacritics in DA field",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].examples[2]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].examples[2]",
+      "fieldType": "grammarExamples",
+      "deCurrent": "",
+      "daCurrent": "Mūsdienu forma: vom Feld, vom Berg.",
+      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian diacritics in DA field",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[4].heading",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[4].heading",
+      "fieldType": "grammarHeading",
+      "deCurrent": "",
+      "daCurrent": "Materiāls",
+      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian diacritics in DA field",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[3].title",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[3].title",
+      "fieldType": "sectionTitle",
+      "deCurrent": "",
+      "daCurrent": "Izruna",
+      "proposedDa": "Udtale",
+      "severity": "CRITICAL",
+      "category": "RENDERER",
+      "reason": "Latvian/mixed section title breaks renderer i18n mapping",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[3].items[0]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "Vārdā die Axt: x izrunā kā ks.",
+      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian diacritics in DA field",
+      "status": "FINDING"
+    }
+  ]
+}

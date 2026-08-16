@@ -1,0 +1,33 @@
+{
+  "batch": "batch-023",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-16T16:36:22.784Z",
+  "findings": [
+    {
+      "fieldId": "lesson1|lesson1TrainingCardsDa[10].front",
+      "lessonId": "lesson1",
+      "path": "lesson1TrainingCardsDa[10].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Albert und Marta kommen und gehen.",
+      "daCurrent": "Albert og Martha kommer og går.",
+      "proposedDa": "(use Marta when DE has Marta)",
+      "severity": "MEDIUM",
+      "category": "NAMES",
+      "reason": "Pattern: \\bMartha\\b",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson1|lesson1TrainingCardsDa[10].front",
+      "lessonId": "lesson1",
+      "path": "lesson1TrainingCardsDa[10].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Albert und Marta kommen und gehen.",
+      "daCurrent": "Albert og Martha kommer og går.",
+      "proposedDa": "Albert og Marta kommer og går.",
+      "severity": "MEDIUM",
+      "category": "NAMES",
+      "reason": "DE canonical Marta; DA uses Martha",
+      "status": "FINDING"
+    }
+  ]
+}

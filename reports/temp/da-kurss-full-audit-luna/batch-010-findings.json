@@ -1,0 +1,98 @@
+{
+  "batch": "batch-010",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-16T16:36:22.764Z",
+  "findings": [
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.title",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.title",
+      "fieldType": "title",
+      "deCurrent": "",
+      "daCurrent": "Lekcija 14",
+      "proposedDa": "Lektion 14",
+      "severity": "HIGH",
+      "category": "CONSISTENCY",
+      "reason": "Latvian Lekcija in metadata; ui.js uses Lektion N",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.title",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.title",
+      "fieldType": "title",
+      "deCurrent": "",
+      "daCurrent": "Lekcija 14",
+      "proposedDa": "(Danish)",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Pattern: \\blekcij",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].title",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].title",
+      "fieldType": "sectionTitle",
+      "deCurrent": "",
+      "daCurrent": "Gramatika",
+      "proposedDa": "Grammatik",
+      "severity": "HIGH",
+      "category": "RENDERER",
+      "reason": "Latvian/mixed section title breaks renderer i18n mapping",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[0].heading",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[0].heading",
+      "fieldType": "grammarHeading",
+      "deCurrent": "",
+      "daCurrent": "Modālie darbības vārdi",
+      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian diacritics in DA field",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[0].heading",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[0].heading",
+      "fieldType": "grammarHeading",
+      "deCurrent": "",
+      "daCurrent": "Modālie darbības vārdi",
+      "proposedDa": "(Danish)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Pattern: \\bpiemēram\\b|\\bPiemēri\\b|\\bDarbības vārd",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[1].heading",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[1].heading",
+      "fieldType": "grammarHeading",
+      "deCurrent": "",
+      "daCurrent": "1. un 3. persona vienskaitlī",
+      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian diacritics in DA field",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[5].heading",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[5].heading",
+      "fieldType": "grammarHeading",
+      "deCurrent": "",
+      "daCurrent": "Celma patskaņu maiņa",
+      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian diacritics in DA field",
+      "status": "FINDING"
+    }
+  ]
+}

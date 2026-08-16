@@ -1,0 +1,111 @@
+{
+  "batch": "batch-022",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-16T16:36:22.783Z",
+  "findings": [
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[3].items[1]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[3].items[1]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai.",
+      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian diacritics in DA field",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[3].items[1]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[3].items[1]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai.",
+      "proposedDa": "(Danish pronunciation note)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Pattern: \\bVārdā\\b|\\bVārdos\\b|\\bVārdu\\b",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[3].items[2]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[3].items[2]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "Vārdā die Scheune: eu izrunā kā oi.",
+      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian diacritics in DA field",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[3].items[3]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[3].items[3]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "Vārdā die Brücke: ck izrunā kā dubultu k.",
+      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian diacritics in DA field",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "kurssPronunciationLesson|COURSE_LESSON_HTML.kurssPronunciationLesson",
+      "lessonId": "kurssPronunciationLesson",
+      "path": "COURSE_LESSON_HTML.kurssPronunciationLesson",
+      "fieldType": "legacyHtml",
+      "deCurrent": "",
+      "daCurrent": "<h3>Vokaler - lange og korte</h3> <p class=\"kurss-lesson-intro\">På tysk kan vokaler være lange eller korte. Dette påvirker udtalen af ​​ordet.</p> <section class=\"kurss-lesson-section\"> <h4>Lang vokal</h4> <div class=\"kurss-examples\"><div class=\"kurss-example\">Varm (varm) - varm</div><div class=\"kur",
+      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian diacritics in DA field",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "kurssConsonantsLesson|COURSE_LESSON_HTML.kurssConsonantsLesson",
+      "lessonId": "kurssConsonantsLesson",
+      "path": "COURSE_LESSON_HTML.kurssConsonantsLesson",
+      "fieldType": "legacyHtml",
+      "deCurrent": "",
+      "daCurrent": "<h3>Konsonanter og bogstavkombinationer</h3> <p class=\"kurss-lesson-intro\">På tysk udtales nogle konsonanter og bogstavkombinationer anderledes, end de er skrevet. Dette foredrag indeholder de vigtigste eksempler for begynderen.</p> <section class=\"kurss-lesson-section\"> <h4>Konsonanter</h4> <div cl",
+      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian diacritics in DA field",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson1|lesson1TrainingCardsDa[3].front",
+      "lessonId": "lesson1",
+      "path": "lesson1TrainingCardsDa[3].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Marta singt.",
+      "daCurrent": "Martha synger.",
+      "proposedDa": "(use Marta when DE has Marta)",
+      "severity": "MEDIUM",
+      "category": "NAMES",
+      "reason": "Pattern: \\bMartha\\b",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson1|lesson1TrainingCardsDa[3].front",
+      "lessonId": "lesson1",
+      "path": "lesson1TrainingCardsDa[3].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Marta singt.",
+      "daCurrent": "Martha synger.",
+      "proposedDa": "Marta synger.",
+      "severity": "MEDIUM",
+      "category": "NAMES",
+      "reason": "DE canonical Marta; DA uses Martha",
+      "status": "FINDING"
+    }
+  ]
+}
