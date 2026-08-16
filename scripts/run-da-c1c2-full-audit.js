@@ -45,11 +45,15 @@ function main() {
   run("audit-da-c1c2-collect.js", levelArg);
   run("audit-da-c1c2-report-gen.js");
   run("build-da-c1c2-owner-review.js");
+  run("build-da-c1c2-owner-review-groups.js");
+  run("build-da-c1c2-github-index.js");
   console.log("\n=== DONE ===\n");
   console.log("Reports:");
   console.log("  reports/da-c1-full-audit.md");
   console.log("  reports/da-c2-full-audit.md");
   console.log("  reports/da-c1c2-all-findings-by-card.md");
+  console.log("  reports/da-c1c2-owner-review-README.md");
+  console.log("  reports/da-c1c2-owner-review-GITHUB.md");
   const summary = summarize();
   console.log("\nFinding counts:");
   console.log(JSON.stringify(summary, null, 2));
