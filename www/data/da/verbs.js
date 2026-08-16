@@ -2096,7 +2096,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er rinnt",
-      "lv": "Han løber"
+      "lv": "Det flyder"
     },
     "imperfektIndikativ": {
       "de": "er rann",
@@ -2114,23 +2114,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "rufen",
-      "lv": "Saut"
+      "lv": "At råbe"
     },
     "praesens": {
       "de": "er ruft",
-      "lv": "Ringer han"
+      "lv": "Han råber"
     },
     "imperfektIndikativ": {
       "de": "er rief",
-      "lv": "Ringede han"
+      "lv": "Han råbte"
     },
     "imperfektKonjunktiv": {
       "de": "er riefe",
-      "lv": "Han ville ringe"
+      "lv": "Han ville råbe"
     },
     "partizipVergangenheit": {
       "de": "gerufen",
-      "lv": "Saukts"
+      "lv": "Råbt"
     }
   },
   {
@@ -2140,7 +2140,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er salzt",
-      "lv": "Han saltede"
+      "lv": "Han salter"
     },
     "imperfektIndikativ": {
       "de": "er salzte",
@@ -2158,7 +2158,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "saufen",
-      "lv": "Tørre / drikke"
+      "lv": "At drikke"
     },
     "praesens": {
       "de": "er säuft",
@@ -2166,15 +2166,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er soff",
-      "lv": "Han drak / drak"
+      "lv": "Han drak"
     },
     "imperfektKonjunktiv": {
       "de": "er söffe",
-      "lv": "Han ville drikke / drikke"
+      "lv": "Han ville drikke"
     },
     "partizipVergangenheit": {
       "de": "gesoffen",
-      "lv": "Dzerts"
+      "lv": "Drukket"
     }
   },
   {
@@ -2218,123 +2218,123 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschaffen",
-      "lv": "Oprettet"
+      "lv": "Skabt"
     }
   },
   {
     "infinitiv": {
       "de": "schallen",
-      "lv": "At lyde"
+      "lv": "At gjalde"
     },
     "praesens": {
       "de": "es schallt",
-      "lv": "Tas skan"
+      "lv": "Det lyder"
     },
     "imperfektIndikativ": {
       "de": "schallte vai scholl",
-      "lv": "Lød"
+      "lv": "Det lød"
     },
     "imperfektKonjunktiv": {
       "de": "schallte vai scholl",
-      "lv": "Lød"
+      "lv": "Det ville lyde"
     },
     "partizipVergangenheit": {
       "de": "geschallt",
-      "lv": "Lød"
+      "lv": "Lydt"
     }
   },
   {
     "infinitiv": {
       "de": "scheiden",
-      "lv": "Skilsmisse/opbrud"
+      "lv": "At skilles"
     },
     "praesens": {
       "de": "er scheidet",
-      "lv": "Han er ved at skilles / skilles"
+      "lv": "Han skilles"
     },
     "imperfektIndikativ": {
       "de": "er schied",
-      "lv": "Han blev skilt / skilt"
+      "lv": "Han blev skilt"
     },
     "imperfektKonjunktiv": {
       "de": "er schiede",
-      "lv": "Han ville skilles / skilles"
+      "lv": "Han ville skilles"
     },
     "partizipVergangenheit": {
       "de": "geschieden (er hat / er ist)",
-      "lv": "Separeret/skilt"
+      "lv": "Skilt"
     }
   },
   {
     "infinitiv": {
       "de": "scheinen",
-      "lv": "Skinne / fremstå"
+      "lv": "At synes"
     },
     "praesens": {
       "de": "er scheint",
-      "lv": "Han skinner / synes"
+      "lv": "Han synes"
     },
     "imperfektIndikativ": {
       "de": "er schien",
-      "lv": "Han lyste / syntes"
+      "lv": "Han syntes"
     },
     "imperfektKonjunktiv": {
       "de": "er schiene",
-      "lv": "Han ville skinne / synes"
+      "lv": "Han ville synes"
     },
     "partizipVergangenheit": {
       "de": "geschienen",
-      "lv": "Lyste / syntes"
+      "lv": "Syntes"
     }
   },
   {
     "infinitiv": {
       "de": "schelten",
-      "lv": "Bart"
+      "lv": "At skælde ud"
     },
     "praesens": {
       "de": "er schilt",
-      "lv": "Skælder han ud"
+      "lv": "Han skælder ud"
     },
     "imperfektIndikativ": {
       "de": "er schalt",
-      "lv": "Han spærrede"
+      "lv": "Han skældte ud"
     },
     "imperfektKonjunktiv": {
       "de": "er schölte / er schälte",
-      "lv": "Han barberer sig"
+      "lv": "Han ville skælde ud"
     },
     "partizipVergangenheit": {
       "de": "gescholten",
-      "lv": "Skæg"
+      "lv": "Skældt ud"
     }
   },
   {
     "infinitiv": {
       "de": "scheren",
-      "lv": "Cirpt"
+      "lv": "At klippe"
     },
     "praesens": {
       "de": "er schert",
-      "lv": "Han skærer"
+      "lv": "Han klipper"
     },
     "imperfektIndikativ": {
       "de": "schor vai scherte",
-      "lv": "Cirpa"
+      "lv": "Han klippede"
     },
     "imperfektKonjunktiv": {
       "de": "schor vai scherte",
-      "lv": "Cirpa"
+      "lv": "Han ville klippe"
     },
     "partizipVergangenheit": {
       "de": "geschoren vai geschert",
-      "lv": "Apcirpts"
+      "lv": "Klippet"
     }
   },
   {
     "infinitiv": {
       "de": "schieben",
-      "lv": "Stump"
+      "lv": "At skubbe"
     },
     "praesens": {
       "de": "er schiebt",
@@ -2350,7 +2350,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschoben",
-      "lv": "Stumper"
+      "lv": "Skubbet"
     }
   },
   {
@@ -2372,7 +2372,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschossen",
-      "lv": "Skud"
+      "lv": "Skudt"
     }
   },
   {
@@ -2386,11 +2386,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "schindete",
-      "lv": "Plaget"
+      "lv": "Han plagede"
     },
     "imperfektKonjunktiv": {
       "de": "schindete",
-      "lv": "Plaget"
+      "lv": "Han ville pine"
     },
     "partizipVergangenheit": {
       "de": "geschunden",
@@ -2416,7 +2416,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschlafen",
-      "lv": "Sov"
+      "lv": "Sovet"
     }
   },
   {

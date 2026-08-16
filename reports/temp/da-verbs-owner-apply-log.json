@@ -2,3648 +2,4447 @@
   "dryRun": false,
   "applied": [
     {
+      "auditId": "DA-VERB-0302",
+      "finding": 302,
+      "cardId": "verb-95",
+      "field": "praesens",
+      "action": "SET",
+      "ownerNew": "Det flyder"
+    },
+    {
+      "auditId": "DA-VERB-0303",
+      "finding": 303,
+      "cardId": "verb-96",
+      "field": "imperfektIndikativ",
+      "action": "SET",
+      "ownerNew": "Han råbte"
+    },
+    {
+      "auditId": "DA-VERB-0304",
+      "finding": 304,
+      "cardId": "verb-96",
+      "field": "imperfektKonjunktiv",
+      "action": "SET",
+      "ownerNew": "Han ville råbe"
+    },
+    {
+      "auditId": "DA-VERB-0306",
+      "finding": 306,
+      "cardId": "verb-96",
+      "field": "infinitiv",
+      "action": "SET",
+      "ownerNew": "At råbe"
+    },
+    {
+      "auditId": "DA-VERB-0307",
+      "finding": 307,
+      "cardId": "verb-96",
+      "field": "partizipVergangenheit",
+      "action": "SET",
+      "ownerNew": "Råbt"
+    },
+    {
+      "auditId": "DA-VERB-0308",
+      "finding": 308,
+      "cardId": "verb-96",
+      "field": "praesens",
+      "action": "SET",
+      "ownerNew": "Han råber"
+    },
+    {
+      "auditId": "DA-VERB-0309",
+      "finding": 309,
+      "cardId": "verb-97",
+      "field": "praesens",
+      "action": "SET",
+      "ownerNew": "Han salter"
+    },
+    {
+      "auditId": "DA-VERB-0311",
+      "finding": 311,
+      "cardId": "verb-98",
+      "field": "imperfektIndikativ",
+      "action": "SET",
+      "ownerNew": "Han drak"
+    },
+    {
+      "auditId": "DA-VERB-0313",
+      "finding": 313,
+      "cardId": "verb-98",
+      "field": "imperfektKonjunktiv",
+      "action": "SET",
+      "ownerNew": "Han ville drikke"
+    },
+    {
+      "auditId": "DA-VERB-0315",
+      "finding": 315,
+      "cardId": "verb-98",
+      "field": "infinitiv",
+      "action": "SET",
+      "ownerNew": "At drikke"
+    },
+    {
+      "auditId": "DA-VERB-0316",
+      "finding": 316,
+      "cardId": "verb-98",
+      "field": "partizipVergangenheit",
+      "action": "SET",
+      "ownerNew": "Drukket"
+    },
+    {
+      "auditId": "DA-VERB-0317",
+      "finding": 317,
+      "cardId": "verb-100",
+      "field": "partizipVergangenheit",
+      "action": "SET",
+      "ownerNew": "Skabt"
+    },
+    {
+      "auditId": "DA-VERB-0318",
+      "finding": 318,
+      "cardId": "verb-101",
+      "field": "imperfektIndikativ",
+      "action": "SET",
+      "ownerNew": "Det lød"
+    },
+    {
+      "auditId": "DA-VERB-0319",
+      "finding": 319,
+      "cardId": "verb-101",
+      "field": "imperfektKonjunktiv",
+      "action": "SET",
+      "ownerNew": "Det ville lyde"
+    },
+    {
+      "auditId": "DA-VERB-0320",
+      "finding": 320,
+      "cardId": "verb-101",
+      "field": "infinitiv",
+      "action": "SET",
+      "ownerNew": "At gjalde"
+    },
+    {
+      "auditId": "DA-VERB-0321",
+      "finding": 321,
+      "cardId": "verb-101",
+      "field": "partizipVergangenheit",
+      "action": "SET",
+      "ownerNew": "Lydt"
+    },
+    {
+      "auditId": "DA-VERB-0322",
+      "finding": 322,
+      "cardId": "verb-101",
+      "field": "praesens",
+      "action": "SET",
+      "ownerNew": "Det lyder"
+    },
+    {
+      "auditId": "DA-VERB-0323",
+      "finding": 323,
+      "cardId": "verb-102",
+      "field": "imperfektIndikativ",
+      "action": "SET",
+      "ownerNew": "Han blev skilt"
+    },
+    {
+      "auditId": "DA-VERB-0324",
+      "finding": 324,
+      "cardId": "verb-102",
+      "field": "imperfektKonjunktiv",
+      "action": "SET",
+      "ownerNew": "Han ville skilles"
+    },
+    {
+      "auditId": "DA-VERB-0325",
+      "finding": 325,
+      "cardId": "verb-102",
+      "field": "infinitiv",
+      "action": "SET",
+      "ownerNew": "At skilles"
+    },
+    {
+      "auditId": "DA-VERB-0326",
+      "finding": 326,
+      "cardId": "verb-102",
+      "field": "partizipVergangenheit",
+      "action": "SET",
+      "ownerNew": "Skilt"
+    },
+    {
+      "auditId": "DA-VERB-0327",
+      "finding": 327,
+      "cardId": "verb-102",
+      "field": "praesens",
+      "action": "SET",
+      "ownerNew": "Han skilles"
+    },
+    {
+      "auditId": "DA-VERB-0328",
+      "finding": 328,
+      "cardId": "verb-103",
+      "field": "imperfektIndikativ",
+      "action": "SET",
+      "ownerNew": "Han syntes"
+    },
+    {
+      "auditId": "DA-VERB-0329",
+      "finding": 329,
+      "cardId": "verb-103",
+      "field": "imperfektKonjunktiv",
+      "action": "SET",
+      "ownerNew": "Han ville synes"
+    },
+    {
+      "auditId": "DA-VERB-0330",
+      "finding": 330,
+      "cardId": "verb-103",
+      "field": "infinitiv",
+      "action": "SET",
+      "ownerNew": "At synes"
+    },
+    {
+      "auditId": "DA-VERB-0332",
+      "finding": 332,
+      "cardId": "verb-103",
+      "field": "partizipVergangenheit",
+      "action": "SET",
+      "ownerNew": "Syntes"
+    },
+    {
+      "auditId": "DA-VERB-0333",
+      "finding": 333,
+      "cardId": "verb-103",
+      "field": "praesens",
+      "action": "SET",
+      "ownerNew": "Han synes"
+    },
+    {
+      "auditId": "DA-VERB-0334",
+      "finding": 334,
+      "cardId": "verb-104",
+      "field": "imperfektIndikativ",
+      "action": "SET",
+      "ownerNew": "Han skældte ud"
+    },
+    {
+      "auditId": "DA-VERB-0335",
+      "finding": 335,
+      "cardId": "verb-104",
+      "field": "imperfektKonjunktiv",
+      "action": "SET",
+      "ownerNew": "Han ville skælde ud"
+    },
+    {
+      "auditId": "DA-VERB-0336",
+      "finding": 336,
+      "cardId": "verb-104",
+      "field": "infinitiv",
+      "action": "SET",
+      "ownerNew": "At skælde ud"
+    },
+    {
+      "auditId": "DA-VERB-0337",
+      "finding": 337,
+      "cardId": "verb-104",
+      "field": "partizipVergangenheit",
+      "action": "SET",
+      "ownerNew": "Skældt ud"
+    },
+    {
+      "auditId": "DA-VERB-0338",
+      "finding": 338,
+      "cardId": "verb-104",
+      "field": "praesens",
+      "action": "SET",
+      "ownerNew": "Han skælder ud"
+    },
+    {
+      "auditId": "DA-VERB-0339",
+      "finding": 339,
+      "cardId": "verb-105",
+      "field": "imperfektIndikativ",
+      "action": "SET",
+      "ownerNew": "Han klippede"
+    },
+    {
+      "auditId": "DA-VERB-0340",
+      "finding": 340,
+      "cardId": "verb-105",
+      "field": "imperfektKonjunktiv",
+      "action": "SET",
+      "ownerNew": "Han ville klippe"
+    },
+    {
+      "auditId": "DA-VERB-0341",
+      "finding": 341,
+      "cardId": "verb-105",
+      "field": "infinitiv",
+      "action": "SET",
+      "ownerNew": "At klippe"
+    },
+    {
+      "auditId": "DA-VERB-0342",
+      "finding": 342,
+      "cardId": "verb-105",
+      "field": "partizipVergangenheit",
+      "action": "SET",
+      "ownerNew": "Klippet"
+    },
+    {
+      "auditId": "DA-VERB-0343",
+      "finding": 343,
+      "cardId": "verb-105",
+      "field": "praesens",
+      "action": "SET",
+      "ownerNew": "Han klipper"
+    },
+    {
+      "auditId": "DA-VERB-0344",
+      "finding": 344,
+      "cardId": "verb-106",
+      "field": "infinitiv",
+      "action": "SET",
+      "ownerNew": "At skubbe"
+    },
+    {
+      "auditId": "DA-VERB-0345",
+      "finding": 345,
+      "cardId": "verb-106",
+      "field": "partizipVergangenheit",
+      "action": "SET",
+      "ownerNew": "Skubbet"
+    },
+    {
+      "auditId": "DA-VERB-0346",
+      "finding": 346,
+      "cardId": "verb-107",
+      "field": "partizipVergangenheit",
+      "action": "SET",
+      "ownerNew": "Skudt"
+    },
+    {
+      "auditId": "DA-VERB-0347",
+      "finding": 347,
+      "cardId": "verb-108",
+      "field": "imperfektIndikativ",
+      "action": "SET",
+      "ownerNew": "Han plagede"
+    },
+    {
+      "auditId": "DA-VERB-0348",
+      "finding": 348,
+      "cardId": "verb-108",
+      "field": "imperfektKonjunktiv",
+      "action": "SET",
+      "ownerNew": "Han ville pine"
+    },
+    {
+      "auditId": "DA-VERB-0350",
+      "finding": 350,
+      "cardId": "verb-109",
+      "field": "partizipVergangenheit",
+      "action": "SET",
+      "ownerNew": "Sovet"
+    }
+  ],
+  "skipped": [
+    {
       "auditId": "DA-VERB-0002",
       "finding": 2,
       "cardId": "verb-0",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At bage"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Cept",
+      "actual": "At bage"
     },
     {
       "auditId": "DA-VERB-0005",
       "finding": 5,
       "cardId": "verb-0",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Bagt"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Cepts / izcepts",
+      "actual": "Bagt"
     },
     {
       "auditId": "DA-VERB-0006",
       "finding": 6,
       "cardId": "verb-1",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Kommanderet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kommanderede",
+      "actual": "Kommanderet"
     },
     {
       "auditId": "DA-VERB-0007",
       "finding": 7,
       "cardId": "verb-2",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Startet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Startede",
+      "actual": "Startet"
     },
     {
       "auditId": "DA-VERB-0008",
       "finding": 8,
       "cardId": "verb-3",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han bed"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han kodede",
+      "actual": "Han bed"
     },
     {
       "auditId": "DA-VERB-0009",
       "finding": 9,
       "cardId": "verb-3",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville bide"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han bider",
+      "actual": "Han ville bide"
     },
     {
       "auditId": "DA-VERB-0010",
       "finding": 10,
       "cardId": "verb-3",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At bide"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kost",
+      "actual": "At bide"
     },
     {
       "auditId": "DA-VERB-0013",
       "finding": 13,
       "cardId": "verb-3",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Bidt"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kosts / sakosts",
+      "actual": "Bidt"
     },
     {
       "auditId": "DA-VERB-0015",
       "finding": 15,
       "cardId": "verb-4",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Bjærget"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Skjult / gemt",
+      "actual": "Bjærget"
     },
     {
       "auditId": "DA-VERB-0016",
       "finding": 16,
       "cardId": "verb-5",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville briste"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Brister han",
+      "actual": "Han ville briste"
     },
     {
       "auditId": "DA-VERB-0017",
       "finding": 17,
       "cardId": "verb-6",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han bevægede"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Opfordrede han",
+      "actual": "Han bevægede"
     },
     {
       "auditId": "DA-VERB-0018",
       "finding": 18,
       "cardId": "verb-6",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville bevæge"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville opmuntre",
+      "actual": "Han ville bevæge"
     },
     {
       "auditId": "DA-VERB-0019",
       "finding": 19,
       "cardId": "verb-6",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At bevæge"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "At opmuntre",
+      "actual": "At bevæge"
     },
     {
       "auditId": "DA-VERB-0020",
       "finding": 20,
       "cardId": "verb-6",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Bevæget"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Opmuntret",
+      "actual": "Bevæget"
     },
     {
       "auditId": "DA-VERB-0021",
       "finding": 21,
       "cardId": "verb-6",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han bevæger"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Spørger han",
+      "actual": "Han bevæger"
     },
     {
       "auditId": "DA-VERB-0023",
       "finding": 23,
       "cardId": "verb-8",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Tilbudt"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Lovet / tilbudt",
+      "actual": "Tilbudt"
     },
     {
       "auditId": "DA-VERB-0024",
       "finding": 24,
       "cardId": "verb-9",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han bandt"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han såede",
+      "actual": "Han bandt"
     },
     {
       "auditId": "DA-VERB-0025",
       "finding": 25,
       "cardId": "verb-9",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville binde"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han sigtede",
+      "actual": "Han ville binde"
     },
     {
       "auditId": "DA-VERB-0026",
       "finding": 26,
       "cardId": "verb-9",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At binde"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Sit",
+      "actual": "At binde"
     },
     {
       "auditId": "DA-VERB-0027",
       "finding": 27,
       "cardId": "verb-9",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Bundet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Siets",
+      "actual": "Bundet"
     },
     {
       "auditId": "DA-VERB-0028",
       "finding": 28,
       "cardId": "verb-9",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han binder"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han hø",
+      "actual": "Han binder"
     },
     {
       "auditId": "DA-VERB-0029",
       "finding": 29,
       "cardId": "verb-10",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han bad"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Spurgte han",
+      "actual": "Han bad"
     },
     {
       "auditId": "DA-VERB-0030",
       "finding": 30,
       "cardId": "verb-10",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Bedt"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Anmodet om",
+      "actual": "Bedt"
     },
     {
       "auditId": "DA-VERB-0031",
       "finding": 31,
       "cardId": "verb-12",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Det gærede"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Det gærer",
+      "actual": "Det gærede"
     },
     {
       "auditId": "DA-VERB-0032",
       "finding": 32,
       "cardId": "verb-12",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Det ville gære"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Det ville være bittert",
+      "actual": "Det ville gære"
     },
     {
       "auditId": "DA-VERB-0033",
       "finding": 33,
       "cardId": "verb-12",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Gæret"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Rug",
+      "actual": "Gæret"
     },
     {
       "auditId": "DA-VERB-0035",
       "finding": 35,
       "cardId": "verb-13",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Født"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Født / blev født",
+      "actual": "Født"
     },
     {
       "auditId": "DA-VERB-0036",
       "finding": 36,
       "cardId": "verb-13",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Hun føder"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "I hendes mave",
+      "actual": "Hun føder"
     },
     {
       "auditId": "DA-VERB-0037",
       "finding": 37,
       "cardId": "verb-14",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Det lykkedes"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Det virkede",
+      "actual": "Det lykkedes"
     },
     {
       "auditId": "DA-VERB-0038",
       "finding": 38,
       "cardId": "verb-14",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Det ville lykkes"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Tas izdotos",
+      "actual": "Det ville lykkes"
     },
     {
       "auditId": "DA-VERB-0039",
       "finding": 39,
       "cardId": "verb-14",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At lykkes"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Izdoties",
+      "actual": "At lykkes"
     },
     {
       "auditId": "DA-VERB-0040",
       "finding": 40,
       "cardId": "verb-14",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Lykkedes"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Izdevies",
+      "actual": "Lykkedes"
     },
     {
       "auditId": "DA-VERB-0041",
       "finding": 41,
       "cardId": "verb-14",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Det lykkes"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Tas izdodas",
+      "actual": "Det lykkes"
     },
     {
       "auditId": "DA-VERB-0043",
       "finding": 43,
       "cardId": "verb-15",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Det gjaldt"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han passede / var fit",
+      "actual": "Det gjaldt"
     },
     {
       "auditId": "DA-VERB-0045",
       "finding": 45,
       "cardId": "verb-15",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Det ville gælde"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville passe / det ville passe",
+      "actual": "Det ville gælde"
     },
     {
       "auditId": "DA-VERB-0047",
       "finding": 47,
       "cardId": "verb-15",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Gældt"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Anvendt / var gyldig",
+      "actual": "Gældt"
     },
     {
       "auditId": "DA-VERB-0049",
       "finding": 49,
       "cardId": "verb-15",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Det gælder"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han passer / er gyldig",
+      "actual": "Det gælder"
     },
     {
       "auditId": "DA-VERB-0050",
       "finding": 50,
       "cardId": "verb-16",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Blevet rask"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Blive rask",
+      "actual": "Blevet rask"
     },
     {
       "auditId": "DA-VERB-0051",
       "finding": 51,
       "cardId": "verb-17",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Nydt"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Nød",
+      "actual": "Nydt"
     },
     {
       "auditId": "DA-VERB-0052",
       "finding": 52,
       "cardId": "verb-18",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Det skete"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Tas notika",
+      "actual": "Det skete"
     },
     {
       "auditId": "DA-VERB-0053",
       "finding": 53,
       "cardId": "verb-18",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Det ville ske"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Tas notiktu",
+      "actual": "Det ville ske"
     },
     {
       "auditId": "DA-VERB-0054",
       "finding": 54,
       "cardId": "verb-18",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At ske"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Notikt",
+      "actual": "At ske"
     },
     {
       "auditId": "DA-VERB-0055",
       "finding": 55,
       "cardId": "verb-18",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Sket"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Noticis",
+      "actual": "Sket"
     },
     {
       "auditId": "DA-VERB-0056",
       "finding": 56,
       "cardId": "verb-18",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Det sker"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Tas notiek",
+      "actual": "Det sker"
     },
     {
       "auditId": "DA-VERB-0057",
       "finding": 57,
       "cardId": "verb-19",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville hælde"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han regner",
+      "actual": "Han ville hælde"
     },
     {
       "auditId": "DA-VERB-0058",
       "finding": 58,
       "cardId": "verb-19",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At hælde"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Liet",
+      "actual": "At hælde"
     },
     {
       "auditId": "DA-VERB-0059",
       "finding": 59,
       "cardId": "verb-19",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Hældt"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Liets",
+      "actual": "Hældt"
     },
     {
       "auditId": "DA-VERB-0060",
       "finding": 60,
       "cardId": "verb-20",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han lignede"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Efterlignede han",
+      "actual": "Han lignede"
     },
     {
       "auditId": "DA-VERB-0061",
       "finding": 61,
       "cardId": "verb-20",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville ligne"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville efterligne",
+      "actual": "Han ville ligne"
     },
     {
       "auditId": "DA-VERB-0062",
       "finding": 62,
       "cardId": "verb-20",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Lignet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Lignede",
+      "actual": "Lignet"
     },
     {
       "auditId": "DA-VERB-0063",
       "finding": 63,
       "cardId": "verb-21",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Glidet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Gled",
+      "actual": "Glidet"
     },
     {
       "auditId": "DA-VERB-0064",
       "finding": 64,
       "cardId": "verb-22",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At gløde"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Glødende",
+      "actual": "At gløde"
     },
     {
       "auditId": "DA-VERB-0065",
       "finding": 65,
       "cardId": "verb-22",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Glødet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Glødende",
+      "actual": "Glødet"
     },
     {
       "auditId": "DA-VERB-0066",
       "finding": 66,
       "cardId": "verb-23",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At grave"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Rakt",
+      "actual": "At grave"
     },
     {
       "auditId": "DA-VERB-0067",
       "finding": 67,
       "cardId": "verb-23",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Gravet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Rakter",
+      "actual": "Gravet"
     },
     {
       "auditId": "DA-VERB-0068",
       "finding": 68,
       "cardId": "verb-24",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Grebet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Fanget/grebet",
+      "actual": "Grebet"
     },
     {
       "auditId": "DA-VERB-0069",
       "finding": 69,
       "cardId": "verb-25",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han slog"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Knækkede han",
+      "actual": "Han slog"
     },
     {
       "auditId": "DA-VERB-0070",
       "finding": 70,
       "cardId": "verb-25",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville slå"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville skære",
+      "actual": "Han ville slå"
     },
     {
       "auditId": "DA-VERB-0071",
       "finding": 71,
       "cardId": "verb-25",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At slå"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Cirst",
+      "actual": "At slå"
     },
     {
       "auditId": "DA-VERB-0072",
       "finding": 72,
       "cardId": "verb-25",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Slået"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Cirsts",
+      "actual": "Slået"
     },
     {
       "auditId": "DA-VERB-0073",
       "finding": 73,
       "cardId": "verb-25",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han slår"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han valgte",
+      "actual": "Han slår"
     },
     {
       "auditId": "DA-VERB-0074",
       "finding": 74,
       "cardId": "verb-26",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han løftede"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han bragte",
+      "actual": "Han løftede"
     },
     {
       "auditId": "DA-VERB-0075",
       "finding": 75,
       "cardId": "verb-26",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville løfte"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville bygge",
+      "actual": "Han ville løfte"
     },
     {
       "auditId": "DA-VERB-0076",
       "finding": 76,
       "cardId": "verb-26",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At løfte"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Celt",
+      "actual": "At løfte"
     },
     {
       "auditId": "DA-VERB-0077",
       "finding": 77,
       "cardId": "verb-26",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Løftet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kelter",
+      "actual": "Løftet"
     },
     {
       "auditId": "DA-VERB-0078",
       "finding": 78,
       "cardId": "verb-26",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han løfter"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han rejser",
+      "actual": "Han løfter"
     },
     {
       "auditId": "DA-VERB-0079",
       "finding": 79,
       "cardId": "verb-27",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han kendte"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Pazina",
+      "actual": "Han kendte"
     },
     {
       "auditId": "DA-VERB-0080",
       "finding": 80,
       "cardId": "verb-27",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville kende"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Pazina",
+      "actual": "Han ville kende"
     },
     {
       "auditId": "DA-VERB-0083",
       "finding": 83,
       "cardId": "verb-27",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At kende"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "At vide / at vide",
+      "actual": "At kende"
     },
     {
       "auditId": "DA-VERB-0084",
       "finding": 84,
       "cardId": "verb-27",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Kendt"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Pazinis",
+      "actual": "Kendt"
     },
     {
       "auditId": "DA-VERB-0085",
       "finding": 85,
       "cardId": "verb-27",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han kender"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ved",
+      "actual": "Han kender"
     },
     {
       "auditId": "DA-VERB-0086",
       "finding": 86,
       "cardId": "verb-28",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Lydt"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Lød",
+      "actual": "Lydt"
     },
     {
       "auditId": "DA-VERB-0087",
       "finding": 87,
       "cardId": "verb-29",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At knibe"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kniebt",
+      "actual": "At knibe"
     },
     {
       "auditId": "DA-VERB-0088",
       "finding": 88,
       "cardId": "verb-29",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Knebet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kniebts",
+      "actual": "Knebet"
     },
     {
       "auditId": "DA-VERB-0089",
       "finding": 89,
       "cardId": "verb-29",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han kniber"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Spøger han",
+      "actual": "Han kniber"
     },
     {
       "auditId": "DA-VERB-0090",
       "finding": 90,
       "cardId": "verb-30",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At blive"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Palikt",
+      "actual": "At blive"
     },
     {
       "auditId": "DA-VERB-0091",
       "finding": 91,
       "cardId": "verb-30",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Blevet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Palicis",
+      "actual": "Blevet"
     },
     {
       "auditId": "DA-VERB-0092",
       "finding": 92,
       "cardId": "verb-31",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han blegnede"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Bleget",
+      "actual": "Han blegnede"
     },
     {
       "auditId": "DA-VERB-0093",
       "finding": 93,
       "cardId": "verb-31",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville blegne"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Bleget",
+      "actual": "Han ville blegne"
     },
     {
       "auditId": "DA-VERB-0097",
       "finding": 97,
       "cardId": "verb-32",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At stege"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Cept",
+      "actual": "At stege"
     },
     {
       "auditId": "DA-VERB-0100",
       "finding": 100,
       "cardId": "verb-32",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Stegt"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Cepts / izcepts",
+      "actual": "Stegt"
     },
     {
       "auditId": "DA-VERB-0101",
       "finding": 101,
       "cardId": "verb-33",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Lauzt",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0103",
       "finding": 103,
       "cardId": "verb-33",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT salauzts"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Lauzts / salauzts",
+      "actual": "LABOT salauzts"
     },
     {
       "auditId": "DA-VERB-0104",
       "finding": 104,
       "cardId": "verb-34",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Dega",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0105",
       "finding": 105,
       "cardId": "verb-34",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT brænde"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Dega",
+      "actual": "LABOT brænde"
     },
     {
       "auditId": "DA-VERB-0106",
       "finding": 106,
       "cardId": "verb-34",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Degt",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0107",
       "finding": 107,
       "cardId": "verb-34",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Dedzis",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0108",
       "finding": 108,
       "cardId": "verb-34",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "LABOT brand"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han er i brand",
+      "actual": "LABOT brand"
     },
     {
       "auditId": "DA-VERB-0109",
       "finding": 109,
       "cardId": "verb-35",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han bar",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0110",
       "finding": 110,
       "cardId": "verb-35",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Rede",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0112",
       "finding": 112,
       "cardId": "verb-35",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT atnest"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Reder / atnest",
+      "actual": "LABOT atnest"
     },
     {
       "auditId": "DA-VERB-0113",
       "finding": 113,
       "cardId": "verb-35",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han bærer",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0114",
       "finding": 114,
       "cardId": "verb-36",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT mene tænke"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Ville han mene",
+      "actual": "LABOT mene tænke"
     },
     {
       "auditId": "DA-VERB-0115",
       "finding": 115,
       "cardId": "verb-36",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Tilsigtet",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0116",
       "finding": 116,
       "cardId": "verb-37",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Ansat",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0117",
       "finding": 117,
       "cardId": "verb-37",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT ansætte ansætte"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Ansat",
+      "actual": "LABOT ansætte ansætte"
     },
     {
       "auditId": "DA-VERB-0118",
       "finding": 118,
       "cardId": "verb-37",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT at blive natural enige Danish form)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "At ansætte / at blive enige",
+      "actual": "LABOT at blive natural enige Danish form)"
     },
     {
       "auditId": "DA-VERB-0119",
       "finding": 119,
       "cardId": "verb-38",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT er drösche tilbede tærske"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville tilbede",
+      "actual": "LABOT er drösche tilbede tærske"
     },
     {
       "auditId": "DA-VERB-0120",
       "finding": 120,
       "cardId": "verb-38",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kult",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0121",
       "finding": 121,
       "cardId": "verb-38",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kulter",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0122",
       "finding": 122,
       "cardId": "verb-39",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Ielauzties",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0123",
       "finding": 123,
       "cardId": "verb-39",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT ist)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Ielauzies",
+      "actual": "LABOT ist)"
     },
     {
       "auditId": "DA-VERB-0124",
       "finding": 124,
       "cardId": "verb-40",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Det virkede",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0125",
       "finding": 125,
       "cardId": "verb-40",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT synes"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Det virkede",
+      "actual": "LABOT synes"
     },
     {
       "auditId": "DA-VERB-0126",
       "finding": 126,
       "cardId": "verb-41",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han kan",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0127",
       "finding": 127,
       "cardId": "verb-42",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Ieteikt",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0128",
       "finding": 128,
       "cardId": "verb-42",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Ieteikts",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0129",
       "finding": 129,
       "cardId": "verb-43",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Sajust",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0130",
       "finding": 130,
       "cardId": "verb-43",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Sajusts",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0131",
       "finding": 131,
       "cardId": "verb-44",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT forsvinde slukke slukkes"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville forsvinde",
+      "actual": "LABOT forsvinde slukke slukkes"
     },
     {
       "auditId": "DA-VERB-0132",
       "finding": 132,
       "cardId": "verb-44",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Izdzist",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0133",
       "finding": 133,
       "cardId": "verb-44",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT ist)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Izdzisis",
+      "actual": "LABOT ist)"
     },
     {
       "auditId": "DA-VERB-0134",
       "finding": 134,
       "cardId": "verb-45",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT forvirret bange forskrækket"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Blive forvirret",
+      "actual": "LABOT forvirret bange forskrækket"
     },
     {
       "auditId": "DA-VERB-0135",
       "finding": 135,
       "cardId": "verb-45",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT (er ist)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Sabijies",
+      "actual": "LABOT (er ist)"
     },
     {
       "auditId": "DA-VERB-0137",
       "finding": 137,
       "cardId": "verb-46",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT spist"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Spist / spist",
+      "actual": "LABOT spist"
     },
     {
       "auditId": "DA-VERB-0138",
       "finding": 138,
       "cardId": "verb-47",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Brakt",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0140",
       "finding": 140,
       "cardId": "verb-47",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT ist) aizbraucis"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Braucis / aizbraucis",
+      "actual": "LABOT ist) aizbraucis"
     },
     {
       "auditId": "DA-VERB-0141",
       "finding": 141,
       "cardId": "verb-48",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Krist",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0142",
       "finding": 142,
       "cardId": "verb-48",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT ist)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kritisk",
+      "actual": "LABOT ist)"
     },
     {
       "auditId": "DA-VERB-0145",
       "finding": 145,
       "cardId": "verb-49",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT fanget"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Fanget / fanget",
+      "actual": "LABOT fanget"
     },
     {
       "auditId": "DA-VERB-0146",
       "finding": 146,
       "cardId": "verb-50",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Atrast",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0147",
       "finding": 147,
       "cardId": "verb-50",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Atraster",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0148",
       "finding": 148,
       "cardId": "verb-51",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Laisties",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0149",
       "finding": 149,
       "cardId": "verb-51",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT ist)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Lidojis",
+      "actual": "LABOT ist)"
     },
     {
       "auditId": "DA-VERB-0150",
       "finding": 150,
       "cardId": "verb-52",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT ist)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Løb væk",
+      "actual": "LABOT ist)"
     },
     {
       "auditId": "DA-VERB-0151",
       "finding": 151,
       "cardId": "verb-53",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han løb",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0152",
       "finding": 152,
       "cardId": "verb-53",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT flyde"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville løbe",
+      "actual": "LABOT flyde"
     },
     {
       "auditId": "DA-VERB-0153",
       "finding": 153,
       "cardId": "verb-53",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT (er ist)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Bestået",
+      "actual": "LABOT (er ist)"
     },
     {
       "auditId": "DA-VERB-0154",
       "finding": 154,
       "cardId": "verb-53",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han løber",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0156",
       "finding": 156,
       "cardId": "verb-54",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT slugte natural Danish form)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han spiste / slugte",
+      "actual": "LABOT slugte natural Danish form)"
     },
     {
       "auditId": "DA-VERB-0158",
       "finding": 158,
       "cardId": "verb-54",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT spise / natural morgenmad Danish form)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville spise / morgenmad",
+      "actual": "LABOT spise / natural morgenmad Danish form)"
     },
     {
       "auditId": "DA-VERB-0159",
       "finding": 159,
       "cardId": "verb-54",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT sluges"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Spise i morgen",
+      "actual": "LABOT sluges"
     },
     {
       "auditId": "DA-VERB-0160",
       "finding": 160,
       "cardId": "verb-54",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Spist/morgen",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0162",
       "finding": 162,
       "cardId": "verb-54",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "LABOT sluger natural Danish form)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han spiser / sluger",
+      "actual": "LABOT sluger natural Danish form)"
     },
     {
       "auditId": "DA-VERB-0163",
       "finding": 163,
       "cardId": "verb-55",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ø",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0164",
       "finding": 164,
       "cardId": "verb-55",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT fryse"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han frøs",
+      "actual": "LABOT fryse"
     },
     {
       "auditId": "DA-VERB-0165",
       "finding": 165,
       "cardId": "verb-55",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Salt",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0166",
       "finding": 166,
       "cardId": "verb-55",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Salis",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0167",
       "finding": 167,
       "cardId": "verb-56",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Prik",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0168",
       "finding": 168,
       "cardId": "verb-56",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Prikker",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0170",
       "finding": 170,
       "cardId": "verb-57",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT Danish for this verb)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Izdoties",
+      "actual": "LABOT Danish for this verb)"
     },
     {
       "auditId": "DA-VERB-0171",
       "finding": 171,
       "cardId": "verb-57",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT ist)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Izdevies",
+      "actual": "LABOT ist)"
     },
     {
       "auditId": "DA-VERB-0172",
       "finding": 172,
       "cardId": "verb-58",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Iet",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0173",
       "finding": 173,
       "cardId": "verb-58",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT ist)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Gik",
+      "actual": "LABOT ist)"
     },
     {
       "auditId": "DA-VERB-0174",
       "finding": 174,
       "cardId": "verb-59",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han fik",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0175",
       "finding": 175,
       "cardId": "verb-59",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT er gewänne vinde"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville få",
+      "actual": "LABOT er gewänne vinde"
     },
     {
       "auditId": "DA-VERB-0176",
       "finding": 176,
       "cardId": "verb-59",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "At opnå",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0177",
       "finding": 177,
       "cardId": "verb-59",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Opnået",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0178",
       "finding": 178,
       "cardId": "verb-59",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han får",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0179",
       "finding": 179,
       "cardId": "verb-60",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Bija",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0180",
       "finding": 180,
       "cardId": "verb-60",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Bija",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0181",
       "finding": 181,
       "cardId": "verb-60",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT være/tilhøre"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "At være/tilhøre",
+      "actual": "LABOT være/tilhøre"
     },
     {
       "auditId": "DA-VERB-0182",
       "finding": 182,
       "cardId": "verb-60",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Bijis",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0183",
       "finding": 183,
       "cardId": "verb-61",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Holdt han",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0184",
       "finding": 184,
       "cardId": "verb-61",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Afholdt",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0185",
       "finding": 185,
       "cardId": "verb-61",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han der",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0187",
       "finding": 187,
       "cardId": "verb-62",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT han blev kaldt natural Danish form)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han kaldte / han blev kaldt",
+      "actual": "LABOT han blev kaldt natural Danish form)"
     },
     {
       "auditId": "DA-VERB-0189",
       "finding": 189,
       "cardId": "verb-62",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT kalde / han natural ville blive Danish form) kaldt"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville kalde / han ville blive kaldt",
+      "actual": "LABOT kalde / han natural ville blive Danish form) kaldt"
     },
     {
       "auditId": "DA-VERB-0190",
       "finding": 190,
       "cardId": "verb-62",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Saut",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0191",
       "finding": 191,
       "cardId": "verb-62",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Saukts",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0193",
       "finding": 193,
       "cardId": "verb-62",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "LABOT han kaldes natural Danish form)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han kalder / han kaldes",
+      "actual": "LABOT han kaldes natural Danish form)"
     },
     {
       "auditId": "DA-VERB-0194",
       "finding": 194,
       "cardId": "verb-63",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Hjalp",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0195",
       "finding": 195,
       "cardId": "verb-65",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kunne",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0196",
       "finding": 196,
       "cardId": "verb-65",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kunne",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0197",
       "finding": 197,
       "cardId": "verb-65",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kunne",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0198",
       "finding": 198,
       "cardId": "verb-66",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han regnede",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0199",
       "finding": 199,
       "cardId": "verb-66",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT krybe"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han regner",
+      "actual": "LABOT krybe"
     },
     {
       "auditId": "DA-VERB-0200",
       "finding": 200,
       "cardId": "verb-66",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Det regner",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0201",
       "finding": 201,
       "cardId": "verb-66",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT (er ist)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Gik bort",
+      "actual": "LABOT (er ist)"
     },
     {
       "auditId": "DA-VERB-0202",
       "finding": 202,
       "cardId": "verb-66",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han læner sig",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0204",
       "finding": 204,
       "cardId": "verb-67",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT / inviterede natural Danish form)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han indlæste / inviterede",
+      "actual": "LABOT / inviterede natural Danish form)"
     },
     {
       "auditId": "DA-VERB-0206",
       "finding": 206,
       "cardId": "verb-67",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT indlæse / natural invitere Danish form)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville indlæse / invitere",
+      "actual": "LABOT indlæse / natural invitere Danish form)"
     },
     {
       "auditId": "DA-VERB-0207",
       "finding": 207,
       "cardId": "verb-67",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT at invitere"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "At indlæse, at invitere",
+      "actual": "LABOT at invitere"
     },
     {
       "auditId": "DA-VERB-0209",
       "finding": 209,
       "cardId": "verb-67",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT inviteret natural Danish form)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Indlæst / inviteret",
+      "actual": "LABOT inviteret natural Danish form)"
     },
     {
       "auditId": "DA-VERB-0211",
       "finding": 211,
       "cardId": "verb-67",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "LABOT inviterer natural Danish form)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han stabler / inviterer",
+      "actual": "LABOT inviterer natural Danish form)"
     },
     {
       "auditId": "DA-VERB-0213",
       "finding": 213,
       "cardId": "verb-68",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT / tilladt natural Danish form)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han beordrede / tilladt",
+      "actual": "LABOT / tilladt natural Danish form)"
     },
     {
       "auditId": "DA-VERB-0215",
       "finding": 215,
       "cardId": "verb-68",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT sætte / lade natural Danish form)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville sætte / lade",
+      "actual": "LABOT sætte / lade natural Danish form)"
     },
     {
       "auditId": "DA-VERB-0216",
       "finding": 216,
       "cardId": "verb-68",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT lade"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "At sætte, at lade",
+      "actual": "LABOT lade"
     },
     {
       "auditId": "DA-VERB-0218",
       "finding": 218,
       "cardId": "verb-68",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT tilladt natural Danish form)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Sætte / tilladt",
+      "actual": "LABOT tilladt natural Danish form)"
     },
     {
       "auditId": "DA-VERB-0220",
       "finding": 220,
       "cardId": "verb-68",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "LABOT lader natural Danish form)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han sætter / lader",
+      "actual": "LABOT lader natural Danish form)"
     },
     {
       "auditId": "DA-VERB-0221",
       "finding": 221,
       "cardId": "verb-69",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Skriet",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0222",
       "finding": 222,
       "cardId": "verb-69",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT ist)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Løb",
+      "actual": "LABOT ist)"
     },
     {
       "auditId": "DA-VERB-0223",
       "finding": 223,
       "cardId": "verb-70",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Cyst",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0224",
       "finding": 224,
       "cardId": "verb-70",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Cyster",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0225",
       "finding": 225,
       "cardId": "verb-71",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Låne/låne",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0226",
       "finding": 226,
       "cardId": "verb-71",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Udlånt/lånt",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0227",
       "finding": 227,
       "cardId": "verb-72",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Læse",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0228",
       "finding": 228,
       "cardId": "verb-73",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han sov",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0229",
       "finding": 229,
       "cardId": "verb-73",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT sove ligge"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville sove",
+      "actual": "LABOT sove ligge"
     },
     {
       "auditId": "DA-VERB-0230",
       "finding": 230,
       "cardId": "verb-73",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "At sove",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0231",
       "finding": 231,
       "cardId": "verb-73",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Sov",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0232",
       "finding": 232,
       "cardId": "verb-73",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han sover",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0233",
       "finding": 233,
       "cardId": "verb-74",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Melot",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0234",
       "finding": 234,
       "cardId": "verb-74",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Melots",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0235",
       "finding": 235,
       "cardId": "verb-75",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han kant",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0236",
       "finding": 236,
       "cardId": "verb-75",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT male"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han maler",
+      "actual": "LABOT male"
     },
     {
       "auditId": "DA-VERB-0237",
       "finding": 237,
       "cardId": "verb-76",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Undgås",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0238",
       "finding": 238,
       "cardId": "verb-77",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT melkte"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han fejede",
+      "actual": "LABOT melkte"
     },
     {
       "auditId": "DA-VERB-0239",
       "finding": 239,
       "cardId": "verb-77",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Slaukt",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0240",
       "finding": 240,
       "cardId": "verb-77",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT gemelkt"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Slaukts",
+      "actual": "LABOT gemelkt"
     },
     {
       "auditId": "DA-VERB-0241",
       "finding": 241,
       "cardId": "verb-77",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "LABOT er melkt"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han fejer",
+      "actual": "LABOT er melkt"
     },
     {
       "auditId": "DA-VERB-0242",
       "finding": 242,
       "cardId": "verb-79",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Neizdoties",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0243",
       "finding": 243,
       "cardId": "verb-79",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Neizdevies",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0244",
       "finding": 244,
       "cardId": "verb-79",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Tas neizdodas",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0245",
       "finding": 245,
       "cardId": "verb-80",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT lide"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Patika",
+      "actual": "LABOT lide"
     },
     {
       "auditId": "DA-VERB-0246",
       "finding": 246,
       "cardId": "verb-80",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT lide"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Patika",
+      "actual": "LABOT lide"
     },
     {
       "auditId": "DA-VERB-0247",
       "finding": 247,
       "cardId": "verb-80",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Patik",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0248",
       "finding": 248,
       "cardId": "verb-80",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Paticis",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0249",
       "finding": 249,
       "cardId": "verb-81",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Burde have",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0250",
       "finding": 250,
       "cardId": "verb-81",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Burde have",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0251",
       "finding": 251,
       "cardId": "verb-81",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT at måtte"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "At have brug for",
+      "actual": "LABOT at måtte"
     },
     {
       "auditId": "DA-VERB-0252",
       "finding": 252,
       "cardId": "verb-81",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Nødvendige",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0253",
       "finding": 253,
       "cardId": "verb-83",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Ringede han",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0254",
       "finding": 254,
       "cardId": "verb-83",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Nosaukt",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0255",
       "finding": 255,
       "cardId": "verb-83",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Nosaukts",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0256",
       "finding": 256,
       "cardId": "verb-83",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han navngav",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0257",
       "finding": 257,
       "cardId": "verb-84",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Fløjtede han",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0258",
       "finding": 258,
       "cardId": "verb-84",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Svilpot",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0259",
       "finding": 259,
       "cardId": "verb-84",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Svilpots",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0260",
       "finding": 260,
       "cardId": "verb-85",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT pflog"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kopa",
+      "actual": "LABOT pflog"
     },
     {
       "auditId": "DA-VERB-0261",
       "finding": 261,
       "cardId": "verb-85",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT pflog pleje"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kopa",
+      "actual": "LABOT pflog pleje"
     },
     {
       "auditId": "DA-VERB-0262",
       "finding": 262,
       "cardId": "verb-85",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kopt",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0263",
       "finding": 263,
       "cardId": "verb-85",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT gepflogen"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kopter",
+      "actual": "LABOT gepflogen"
     },
     {
       "auditId": "DA-VERB-0264",
       "finding": 264,
       "cardId": "verb-85",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han bekymrer sig",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0265",
       "finding": 265,
       "cardId": "verb-86",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Rost",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0266",
       "finding": 266,
       "cardId": "verb-87",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT op"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han modnede",
+      "actual": "LABOT op"
     },
     {
       "auditId": "DA-VERB-0267",
       "finding": 267,
       "cardId": "verb-87",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT svulme op op"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han tyk",
+      "actual": "LABOT svulme op op"
     },
     {
       "auditId": "DA-VERB-0268",
       "finding": 268,
       "cardId": "verb-87",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Bryst",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0269",
       "finding": 269,
       "cardId": "verb-87",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT (er ist)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Uzbredis",
+      "actual": "LABOT (er ist)"
     },
     {
       "auditId": "DA-VERB-0270",
       "finding": 270,
       "cardId": "verb-87",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "LABOT op"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han bliver tyk",
+      "actual": "LABOT op"
     },
     {
       "auditId": "DA-VERB-0272",
       "finding": 272,
       "cardId": "verb-88",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT foreslog natural Danish form)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han foreslog / foreslog",
+      "actual": "LABOT foreslog natural Danish form)"
     },
     {
       "auditId": "DA-VERB-0274",
       "finding": 274,
       "cardId": "verb-88",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT foreslå / nævne natural Danish form)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville foreslå / nævne",
+      "actual": "LABOT foreslå / nævne natural Danish form)"
     },
     {
       "auditId": "DA-VERB-0275",
       "finding": 275,
       "cardId": "verb-88",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Foreslå/omtale",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0277",
       "finding": 277,
       "cardId": "verb-88",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "LABOT min natural Danish form)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han anbefaler / min",
+      "actual": "LABOT min natural Danish form)"
     },
     {
       "auditId": "DA-VERB-0278",
       "finding": 278,
       "cardId": "verb-89",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han gnider",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0279",
       "finding": 279,
       "cardId": "verb-89",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Berzt",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0280",
       "finding": 280,
       "cardId": "verb-89",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Berzts",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0281",
       "finding": 281,
       "cardId": "verb-90",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Knækkede han",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0282",
       "finding": 282,
       "cardId": "verb-90",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT rive"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Knækkede han",
+      "actual": "LABOT rive"
     },
     {
       "auditId": "DA-VERB-0283",
       "finding": 283,
       "cardId": "verb-90",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Raut",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0284",
       "finding": 284,
       "cardId": "verb-90",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Rauts",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0285",
       "finding": 285,
       "cardId": "verb-90",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Snapper han",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0286",
       "finding": 286,
       "cardId": "verb-91",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT ist)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Red",
+      "actual": "LABOT ist)"
     },
     {
       "auditId": "DA-VERB-0288",
       "finding": 288,
       "cardId": "verb-92",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT Danish for this verb)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Skriet",
+      "actual": "LABOT Danish for this verb)"
     },
     {
       "auditId": "DA-VERB-0289",
       "finding": 289,
       "cardId": "verb-92",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Løb",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0290",
       "finding": 290,
       "cardId": "verb-93",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han synger",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0291",
       "finding": 291,
       "cardId": "verb-93",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT lugte"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han havn",
+      "actual": "LABOT lugte"
     },
     {
       "auditId": "DA-VERB-0292",
       "finding": 292,
       "cardId": "verb-93",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Ost",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0293",
       "finding": 293,
       "cardId": "verb-93",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Osts",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0294",
       "finding": 294,
       "cardId": "verb-94",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Lauzties",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0295",
       "finding": 295,
       "cardId": "verb-94",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Laucies",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0296",
       "finding": 296,
       "cardId": "verb-94",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han knækker",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0297",
       "finding": 297,
       "cardId": "verb-95",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "LABOT"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han løb",
+      "actual": "LABOT"
     },
     {
       "auditId": "DA-VERB-0298",
       "finding": 298,
       "cardId": "verb-95",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "LABOT er rönne flyde"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville løbe",
+      "actual": "LABOT er rönne flyde"
     },
     {
       "auditId": "DA-VERB-0299",
       "finding": 299,
       "cardId": "verb-95",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "LABOT Danish for this verb)"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "At flyde",
+      "actual": "LABOT Danish for this verb)"
     },
     {
-      "auditId": "DA-VERB-0300",
-      "finding": 300,
+      "auditId": "DA-VERB-0301",
+      "finding": 301,
       "cardId": "verb-95",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "LABOT ist) koagulerede"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Flød / koagulerede",
+      "actual": "LABOT ist) koagulerede"
     },
     {
       "auditId": "DA-VERB-0351",
       "finding": 351,
       "cardId": "verb-110",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At slå"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Søster",
+      "actual": "At slå"
     },
     {
       "auditId": "DA-VERB-0352",
       "finding": 352,
       "cardId": "verb-110",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Slået"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Søster",
+      "actual": "Slået"
     },
     {
       "auditId": "DA-VERB-0353",
       "finding": 353,
       "cardId": "verb-111",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han sneg sig"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han regnede",
+      "actual": "Han sneg sig"
     },
     {
       "auditId": "DA-VERB-0354",
       "finding": 354,
       "cardId": "verb-111",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville snige sig"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han regner",
+      "actual": "Han ville snige sig"
     },
     {
       "auditId": "DA-VERB-0356",
       "finding": 356,
       "cardId": "verb-111",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At snige sig"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Det regner",
+      "actual": "At snige sig"
     },
     {
       "auditId": "DA-VERB-0357",
       "finding": 357,
       "cardId": "verb-111",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Sneget sig"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Gik bort",
+      "actual": "Sneget sig"
     },
     {
       "auditId": "DA-VERB-0358",
       "finding": 358,
       "cardId": "verb-111",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han sniger sig"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han læner sig",
+      "actual": "Han sniger sig"
     },
     {
       "auditId": "DA-VERB-0359",
       "finding": 359,
       "cardId": "verb-112",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville slibe"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville male",
+      "actual": "Han ville slibe"
     },
     {
       "auditId": "DA-VERB-0360",
       "finding": 360,
       "cardId": "verb-112",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At slibe"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "At male",
+      "actual": "At slibe"
     },
     {
       "auditId": "DA-VERB-0361",
       "finding": 361,
       "cardId": "verb-112",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han sliber"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han maler",
+      "actual": "Han sliber"
     },
     {
       "auditId": "DA-VERB-0362",
       "finding": 362,
       "cardId": "verb-114",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville sluge"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han morgen",
+      "actual": "Han ville sluge"
     },
     {
       "auditId": "DA-VERB-0363",
       "finding": 363,
       "cardId": "verb-114",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At sluge"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "I morgen",
+      "actual": "At sluge"
     },
     {
       "auditId": "DA-VERB-0364",
       "finding": 364,
       "cardId": "verb-114",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Slugt"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Morgenen",
+      "actual": "Slugt"
     },
     {
       "auditId": "DA-VERB-0365",
       "finding": 365,
       "cardId": "verb-115",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville kaste"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han kastede",
+      "actual": "Han ville kaste"
     },
     {
       "auditId": "DA-VERB-0366",
       "finding": 366,
       "cardId": "verb-115",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At kaste"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Mest",
+      "actual": "At kaste"
     },
     {
       "auditId": "DA-VERB-0367",
       "finding": 367,
       "cardId": "verb-115",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Kastet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Mests",
+      "actual": "Kastet"
     },
     {
       "auditId": "DA-VERB-0368",
       "finding": 368,
       "cardId": "verb-116",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han smeltede"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Stønnede han",
+      "actual": "Han smeltede"
     },
     {
       "auditId": "DA-VERB-0369",
       "finding": 369,
       "cardId": "verb-116",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville smelte"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han bevægede sig",
+      "actual": "Han ville smelte"
     },
     {
       "auditId": "DA-VERB-0370",
       "finding": 370,
       "cardId": "verb-116",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At smelte"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kust",
+      "actual": "At smelte"
     },
     {
       "auditId": "DA-VERB-0371",
       "finding": 371,
       "cardId": "verb-116",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Smeltet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kusis",
+      "actual": "Smeltet"
     },
     {
       "auditId": "DA-VERB-0372",
       "finding": 372,
       "cardId": "verb-117",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han fnøs"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Snøftede",
+      "actual": "Han fnøs"
     },
     {
       "auditId": "DA-VERB-0373",
       "finding": 373,
       "cardId": "verb-117",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville fnyse"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Snøftede",
+      "actual": "Han ville fnyse"
     },
     {
       "auditId": "DA-VERB-0374",
       "finding": 374,
       "cardId": "verb-117",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Fnyst"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Fnyse",
+      "actual": "Fnyst"
     },
     {
       "auditId": "DA-VERB-0375",
       "finding": 375,
       "cardId": "verb-117",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han fnyser"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Fnyser han",
+      "actual": "Han fnyser"
     },
     {
       "auditId": "DA-VERB-0376",
       "finding": 376,
       "cardId": "verb-118",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At skære"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Griezt",
+      "actual": "At skære"
     },
     {
       "auditId": "DA-VERB-0377",
       "finding": 377,
       "cardId": "verb-118",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Skåret"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Griezts",
+      "actual": "Skåret"
     },
     {
       "auditId": "DA-VERB-0378",
       "finding": 378,
       "cardId": "verb-118",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han skærer"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han spinder",
+      "actual": "Han skærer"
     },
     {
       "auditId": "DA-VERB-0379",
       "finding": 379,
       "cardId": "verb-119",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han skriver"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Skriver han",
+      "actual": "Han skriver"
     },
     {
       "auditId": "DA-VERB-0380",
       "finding": 380,
       "cardId": "verb-120",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At skrige"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kliegt",
+      "actual": "At skrige"
     },
     {
       "auditId": "DA-VERB-0381",
       "finding": 381,
       "cardId": "verb-120",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Skreget"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kliegts",
+      "actual": "Skreget"
     },
     {
       "auditId": "DA-VERB-0382",
       "finding": 382,
       "cardId": "verb-121",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At skride"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Gå",
+      "actual": "At skride"
     },
     {
       "auditId": "DA-VERB-0383",
       "finding": 383,
       "cardId": "verb-121",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Skredet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Gik",
+      "actual": "Skredet"
     },
     {
       "auditId": "DA-VERB-0384",
       "finding": 384,
       "cardId": "verb-122",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At tie"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Tie stille",
+      "actual": "At tie"
     },
     {
       "auditId": "DA-VERB-0385",
       "finding": 385,
       "cardId": "verb-122",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han tier"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han er tavs",
+      "actual": "Han tier"
     },
     {
       "auditId": "DA-VERB-0386",
       "finding": 386,
       "cardId": "verb-123",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Det svulmede"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han pampas",
+      "actual": "Det svulmede"
     },
     {
       "auditId": "DA-VERB-0387",
       "finding": 387,
       "cardId": "verb-123",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Det ville svulme"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville pumpe",
+      "actual": "Det ville svulme"
     },
     {
       "auditId": "DA-VERB-0388",
       "finding": 388,
       "cardId": "verb-123",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At svulme"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Pampt",
+      "actual": "At svulme"
     },
     {
       "auditId": "DA-VERB-0389",
       "finding": 389,
       "cardId": "verb-123",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Svulmet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Pampis",
+      "actual": "Svulmet"
     },
     {
       "auditId": "DA-VERB-0390",
       "finding": 390,
       "cardId": "verb-123",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Det svulmer"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han tuder",
+      "actual": "Det svulmer"
     },
     {
       "auditId": "DA-VERB-0391",
       "finding": 391,
       "cardId": "verb-124",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Svømmet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Svømmede",
+      "actual": "Svømmet"
     },
     {
       "auditId": "DA-VERB-0392",
       "finding": 392,
       "cardId": "verb-125",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At forsvinde"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Zust",
+      "actual": "At forsvinde"
     },
     {
       "auditId": "DA-VERB-0393",
       "finding": 393,
       "cardId": "verb-125",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Forsvundet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Zudis",
+      "actual": "Forsvundet"
     },
     {
       "auditId": "DA-VERB-0394",
       "finding": 394,
       "cardId": "verb-126",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han svingede"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han vinkede",
+      "actual": "Han svingede"
     },
     {
       "auditId": "DA-VERB-0395",
       "finding": 395,
       "cardId": "verb-126",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville svinge"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville vinke",
+      "actual": "Han ville svinge"
     },
     {
       "auditId": "DA-VERB-0396",
       "finding": 396,
       "cardId": "verb-126",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At svinge"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Bølge",
+      "actual": "At svinge"
     },
     {
       "auditId": "DA-VERB-0397",
       "finding": 397,
       "cardId": "verb-126",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Svinget"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Vinkede",
+      "actual": "Svinget"
     },
     {
       "auditId": "DA-VERB-0398",
       "finding": 398,
       "cardId": "verb-126",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han svinger"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han vinker",
+      "actual": "Han svinger"
     },
     {
       "auditId": "DA-VERB-0399",
       "finding": 399,
       "cardId": "verb-127",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville sværge"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville bande",
+      "actual": "Han ville sværge"
     },
     {
       "auditId": "DA-VERB-0401",
       "finding": 401,
       "cardId": "verb-129",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han var"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Bija",
+      "actual": "Han var"
     },
     {
       "auditId": "DA-VERB-0402",
       "finding": 402,
       "cardId": "verb-129",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville være"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Bija",
+      "actual": "Han ville være"
     },
     {
       "auditId": "DA-VERB-0404",
       "finding": 404,
       "cardId": "verb-129",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Været"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Bijis",
+      "actual": "Været"
     },
     {
       "auditId": "DA-VERB-0405",
       "finding": 405,
       "cardId": "verb-131",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Det kogte"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kogt",
+      "actual": "Det kogte"
     },
     {
       "auditId": "DA-VERB-0406",
       "finding": 406,
       "cardId": "verb-131",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Det ville koge"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kogt",
+      "actual": "Det ville koge"
     },
     {
       "auditId": "DA-VERB-0408",
       "finding": 408,
       "cardId": "verb-131",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Det koger"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han laver mad",
+      "actual": "Det koger"
     },
     {
       "auditId": "DA-VERB-0409",
       "finding": 409,
       "cardId": "verb-133",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han sank"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han fandt på",
+      "actual": "Han sank"
     },
     {
       "auditId": "DA-VERB-0410",
       "finding": 410,
       "cardId": "verb-133",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At synke"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Grimt",
+      "actual": "At synke"
     },
     {
       "auditId": "DA-VERB-0411",
       "finding": 411,
       "cardId": "verb-133",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Sunket"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Grimis",
+      "actual": "Sunket"
     },
     {
       "auditId": "DA-VERB-0412",
       "finding": 412,
       "cardId": "verb-134",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han grundede over"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Undrede han sig",
+      "actual": "Han grundede over"
     },
     {
       "auditId": "DA-VERB-0413",
       "finding": 413,
       "cardId": "verb-134",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At grunde over"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "At undre sig",
+      "actual": "At grunde over"
     },
     {
       "auditId": "DA-VERB-0414",
       "finding": 414,
       "cardId": "verb-134",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Grundet over"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Sindede",
+      "actual": "Grundet over"
     },
     {
       "auditId": "DA-VERB-0415",
       "finding": 415,
       "cardId": "verb-134",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han grunder over"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Undrer han sig",
+      "actual": "Han grunder over"
     },
     {
       "auditId": "DA-VERB-0416",
       "finding": 416,
       "cardId": "verb-135",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Siddet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Satte sig ned",
+      "actual": "Siddet"
     },
     {
       "auditId": "DA-VERB-0417",
       "finding": 417,
       "cardId": "verb-136",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han skulle"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Burde have",
+      "actual": "Han skulle"
     },
     {
       "auditId": "DA-VERB-0418",
       "finding": 418,
       "cardId": "verb-136",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han skulle"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Burde have",
+      "actual": "Han skulle"
     },
     {
       "auditId": "DA-VERB-0419",
       "finding": 419,
       "cardId": "verb-136",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At skulle / at burde"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Behøver/være forpligtet",
+      "actual": "At skulle / at burde"
     },
     {
       "auditId": "DA-VERB-0420",
       "finding": 420,
       "cardId": "verb-136",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Skullet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Nødvendige",
+      "actual": "Skullet"
     },
     {
       "auditId": "DA-VERB-0421",
       "finding": 421,
       "cardId": "verb-136",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han skal"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han har brug for",
+      "actual": "Han skal"
     },
     {
       "auditId": "DA-VERB-0422",
       "finding": 422,
       "cardId": "verb-137",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Spyttet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Spyttede ud",
+      "actual": "Spyttet"
     },
     {
       "auditId": "DA-VERB-0423",
       "finding": 423,
       "cardId": "verb-138",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han spandt"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han snurrede",
+      "actual": "Han spandt"
     },
     {
       "auditId": "DA-VERB-0424",
       "finding": 424,
       "cardId": "verb-138",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At spinde"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Spin",
+      "actual": "At spinde"
     },
     {
       "auditId": "DA-VERB-0425",
       "finding": 425,
       "cardId": "verb-138",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han spinder"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han vrider sig",
+      "actual": "Han spinder"
     },
     {
       "auditId": "DA-VERB-0426",
       "finding": 426,
       "cardId": "verb-139",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han splejsede"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Savienoja",
+      "actual": "Han splejsede"
     },
     {
       "auditId": "DA-VERB-0427",
       "finding": 427,
       "cardId": "verb-139",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville splejse"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Savienoja",
+      "actual": "Han ville splejse"
     },
     {
       "auditId": "DA-VERB-0428",
       "finding": 428,
       "cardId": "verb-139",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At splejse"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Savienot",
+      "actual": "At splejse"
     },
     {
       "auditId": "DA-VERB-0429",
       "finding": 429,
       "cardId": "verb-139",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Splejset"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Savienoter",
+      "actual": "Splejset"
     },
     {
       "auditId": "DA-VERB-0430",
       "finding": 430,
       "cardId": "verb-141",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Det spirede"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han trivedes",
+      "actual": "Det spirede"
     },
     {
       "auditId": "DA-VERB-0431",
       "finding": 431,
       "cardId": "verb-141",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Det ville spire"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han hylde",
+      "actual": "Det ville spire"
     },
     {
       "auditId": "DA-VERB-0432",
       "finding": 432,
       "cardId": "verb-141",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At spire"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Plaukt",
+      "actual": "At spire"
     },
     {
       "auditId": "DA-VERB-0433",
       "finding": 433,
       "cardId": "verb-141",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Spiret"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Plaucis",
+      "actual": "Spiret"
     },
     {
       "auditId": "DA-VERB-0434",
       "finding": 434,
       "cardId": "verb-141",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Det spirer"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han trives",
+      "actual": "Det spirer"
     },
     {
       "auditId": "DA-VERB-0435",
       "finding": 435,
       "cardId": "verb-142",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Hoppet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Linse",
+      "actual": "Hoppet"
     },
     {
       "auditId": "DA-VERB-0436",
       "finding": 436,
       "cardId": "verb-143",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han stak"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han slog",
+      "actual": "Han stak"
     },
     {
       "auditId": "DA-VERB-0437",
       "finding": 437,
       "cardId": "verb-143",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At stikke"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Durt",
+      "actual": "At stikke"
     },
     {
       "auditId": "DA-VERB-0438",
       "finding": 438,
       "cardId": "verb-143",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Stukket"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Durts",
+      "actual": "Stukket"
     },
     {
       "auditId": "DA-VERB-0439",
       "finding": 439,
       "cardId": "verb-144",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han stak"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Fyldte",
+      "actual": "Han stak"
     },
     {
       "auditId": "DA-VERB-0440",
       "finding": 440,
       "cardId": "verb-144",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville stikke"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Fyldte",
+      "actual": "Han ville stikke"
     },
     {
       "auditId": "DA-VERB-0441",
       "finding": 441,
       "cardId": "verb-144",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At stikke"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "At stikke / stikke ind",
+      "actual": "At stikke"
     },
     {
       "auditId": "DA-VERB-0442",
       "finding": 442,
       "cardId": "verb-144",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Stukket"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Fyldte",
+      "actual": "Stukket"
     },
     {
       "auditId": "DA-VERB-0443",
       "finding": 443,
       "cardId": "verb-144",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han stikker"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han skubber",
+      "actual": "Han stikker"
     },
     {
       "auditId": "DA-VERB-0444",
       "finding": 444,
       "cardId": "verb-146",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At stjæle"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Zagt",
+      "actual": "At stjæle"
     },
     {
       "auditId": "DA-VERB-0445",
       "finding": 445,
       "cardId": "verb-146",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Stjålet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Zagts",
+      "actual": "Stjålet"
     },
     {
       "auditId": "DA-VERB-0446",
       "finding": 446,
       "cardId": "verb-147",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Steget"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Klatrede",
+      "actual": "Steget"
     },
     {
       "auditId": "DA-VERB-0447",
       "finding": 447,
       "cardId": "verb-148",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At dø"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Mirt",
+      "actual": "At dø"
     },
     {
       "auditId": "DA-VERB-0448",
       "finding": 448,
       "cardId": "verb-148",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Død"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Miris",
+      "actual": "Død"
     },
     {
       "auditId": "DA-VERB-0449",
       "finding": 449,
       "cardId": "verb-148",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han dør"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han er døende",
+      "actual": "Han dør"
     },
     {
       "auditId": "DA-VERB-0450",
       "finding": 450,
       "cardId": "verb-149",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Det støvede"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Skummet",
+      "actual": "Det støvede"
     },
     {
       "auditId": "DA-VERB-0451",
       "finding": 451,
       "cardId": "verb-149",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Det ville støve"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Skummet",
+      "actual": "Det ville støve"
     },
     {
       "auditId": "DA-VERB-0452",
       "finding": 452,
       "cardId": "verb-149",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At hvirvle"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Skum / hvirvel",
+      "actual": "At hvirvle"
     },
     {
       "auditId": "DA-VERB-0453",
       "finding": 453,
       "cardId": "verb-149",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Hvirvlet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Forkælet",
+      "actual": "Hvirvlet"
     },
     {
       "auditId": "DA-VERB-0454",
       "finding": 454,
       "cardId": "verb-149",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Det hvirvler"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Tas sat",
+      "actual": "Det hvirvler"
     },
     {
       "auditId": "DA-VERB-0455",
       "finding": 455,
       "cardId": "verb-150",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Det stank"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Lugtede",
+      "actual": "Det stank"
     },
     {
       "auditId": "DA-VERB-0456",
       "finding": 456,
       "cardId": "verb-150",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Det ville stinke"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Lugtede",
+      "actual": "Det ville stinke"
     },
     {
       "auditId": "DA-VERB-0457",
       "finding": 457,
       "cardId": "verb-150",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At stinke"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "At lugte",
+      "actual": "At stinke"
     },
     {
       "auditId": "DA-VERB-0458",
       "finding": 458,
       "cardId": "verb-150",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Stinket"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Ildelugtende",
+      "actual": "Stinket"
     },
     {
       "auditId": "DA-VERB-0459",
       "finding": 459,
       "cardId": "verb-150",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Det stinker"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Det er sjovt",
+      "actual": "Det stinker"
     },
     {
       "auditId": "DA-VERB-0460",
       "finding": 460,
       "cardId": "verb-151",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville skubbe"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han skubbede",
+      "actual": "Han ville skubbe"
     },
     {
       "auditId": "DA-VERB-0462",
       "finding": 462,
       "cardId": "verb-152",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han strøg"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han malede / stribet",
+      "actual": "Han strøg"
     },
     {
       "auditId": "DA-VERB-0464",
       "finding": 464,
       "cardId": "verb-152",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville stryge"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville male / strippe",
+      "actual": "Han ville stryge"
     },
     {
       "auditId": "DA-VERB-0465",
       "finding": 465,
       "cardId": "verb-152",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At stryge"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Maling/strimmel",
+      "actual": "At stryge"
     },
     {
       "auditId": "DA-VERB-0467",
       "finding": 467,
       "cardId": "verb-152",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Strøget"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Malet / stribet",
+      "actual": "Strøget"
     },
     {
       "auditId": "DA-VERB-0469",
       "finding": 469,
       "cardId": "verb-152",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han stryger"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han maler / striber",
+      "actual": "Han stryger"
     },
     {
       "auditId": "DA-VERB-0470",
       "finding": 470,
       "cardId": "verb-153",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han skændtes"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han kæmpede",
+      "actual": "Han skændtes"
     },
     {
       "auditId": "DA-VERB-0471",
       "finding": 471,
       "cardId": "verb-153",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville skændes"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville kæmpe",
+      "actual": "Han ville skændes"
     },
     {
       "auditId": "DA-VERB-0472",
       "finding": 472,
       "cardId": "verb-153",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At skændes"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "At kæmpe",
+      "actual": "At skændes"
     },
     {
       "auditId": "DA-VERB-0473",
       "finding": 473,
       "cardId": "verb-153",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Skændtes"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kæmpede",
+      "actual": "Skændtes"
     },
     {
       "auditId": "DA-VERB-0474",
       "finding": 474,
       "cardId": "verb-153",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han skændes"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han kæmper",
+      "actual": "Han skændes"
     },
     {
       "auditId": "DA-VERB-0476",
       "finding": 476,
       "cardId": "verb-154",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At bære"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Rede",
+      "actual": "At bære"
     },
     {
       "auditId": "DA-VERB-0477",
       "finding": 477,
       "cardId": "verb-154",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Båret"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Reder",
+      "actual": "Båret"
     },
     {
       "auditId": "DA-VERB-0478",
       "finding": 478,
       "cardId": "verb-155",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han mødte"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han stødte på",
+      "actual": "Han mødte"
     },
     {
       "auditId": "DA-VERB-0479",
       "finding": 479,
       "cardId": "verb-155",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At møde"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Sastapt",
+      "actual": "At møde"
     },
     {
       "auditId": "DA-VERB-0480",
       "finding": 480,
       "cardId": "verb-155",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Mødt"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Sastapts",
+      "actual": "Mødt"
     },
     {
       "auditId": "DA-VERB-0481",
       "finding": 481,
       "cardId": "verb-156",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At drive"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Jage",
+      "actual": "At drive"
     },
     {
       "auditId": "DA-VERB-0482",
       "finding": 482,
       "cardId": "verb-156",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Drevet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Jaget",
+      "actual": "Drevet"
     },
     {
       "auditId": "DA-VERB-0484",
       "finding": 484,
       "cardId": "verb-157",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han trådte"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han stod / gik",
+      "actual": "Han trådte"
     },
     {
       "auditId": "DA-VERB-0485",
       "finding": 485,
       "cardId": "verb-157",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville træde"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville stå/gå",
+      "actual": "Han ville træde"
     },
     {
       "auditId": "DA-VERB-0486",
       "finding": 486,
       "cardId": "verb-157",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At træde"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Gå ind/gå",
+      "actual": "At træde"
     },
     {
       "auditId": "DA-VERB-0488",
       "finding": 488,
       "cardId": "verb-157",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Trådt"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Stod / gik",
+      "actual": "Trådt"
     },
     {
       "auditId": "DA-VERB-0490",
       "finding": 490,
       "cardId": "verb-157",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han træder"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han går ind / går",
+      "actual": "Han træder"
     },
     {
       "auditId": "DA-VERB-0491",
       "finding": 491,
       "cardId": "verb-158",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At drikke"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Dzert",
+      "actual": "At drikke"
     },
     {
       "auditId": "DA-VERB-0492",
       "finding": 492,
       "cardId": "verb-158",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Drukket"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Dzerts",
+      "actual": "Drukket"
     },
     {
       "auditId": "DA-VERB-0493",
       "finding": 493,
       "cardId": "verb-161",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At ødelægge"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Til skade",
+      "actual": "At ødelægge"
     },
     {
       "auditId": "DA-VERB-0494",
       "finding": 494,
       "cardId": "verb-162",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At ærgre"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "At forårsage irritation",
+      "actual": "At ærgre"
     },
     {
       "auditId": "DA-VERB-0495",
       "finding": 495,
       "cardId": "verb-162",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Ærgeret"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Ked af det",
+      "actual": "Ærgeret"
     },
     {
       "auditId": "DA-VERB-0496",
       "finding": 496,
       "cardId": "verb-163",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At glemme"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Aizmirst",
+      "actual": "At glemme"
     },
     {
       "auditId": "DA-VERB-0497",
       "finding": 497,
       "cardId": "verb-163",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Glemt"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Aizmirsts",
+      "actual": "Glemt"
     },
     {
       "auditId": "DA-VERB-0498",
       "finding": 498,
       "cardId": "verb-165",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At vokse"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Augt",
+      "actual": "At vokse"
     },
     {
       "auditId": "DA-VERB-0499",
       "finding": 499,
       "cardId": "verb-165",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Vokset"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Audzis",
+      "actual": "Vokset"
     },
     {
       "auditId": "DA-VERB-0500",
       "finding": 500,
       "cardId": "verb-167",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han vævede"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Auda",
+      "actual": "Han vævede"
     },
     {
       "auditId": "DA-VERB-0501",
       "finding": 501,
       "cardId": "verb-167",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville væve"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Auda",
+      "actual": "Han ville væve"
     },
     {
       "auditId": "DA-VERB-0502",
       "finding": 502,
       "cardId": "verb-167",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At væve"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Aust",
+      "actual": "At væve"
     },
     {
       "auditId": "DA-VERB-0503",
       "finding": 503,
       "cardId": "verb-167",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Vævet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Izausts",
+      "actual": "Vævet"
     },
     {
       "auditId": "DA-VERB-0504",
       "finding": 504,
       "cardId": "verb-168",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Viget"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Trække sig tilbage",
+      "actual": "Viget"
     },
     {
       "auditId": "DA-VERB-0505",
       "finding": 505,
       "cardId": "verb-169",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han viste"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Viste han",
+      "actual": "Han viste"
     },
     {
       "auditId": "DA-VERB-0506",
       "finding": 506,
       "cardId": "verb-169",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han viser"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Viser han",
+      "actual": "Han viser"
     },
     {
       "auditId": "DA-VERB-0508",
       "finding": 508,
       "cardId": "verb-170",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han vendte"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han vred / vendte sig",
+      "actual": "Han vendte"
     },
     {
       "auditId": "DA-VERB-0510",
       "finding": 510,
       "cardId": "verb-170",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville vende"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville ændre / omgøre",
+      "actual": "Han ville vende"
     },
     {
       "auditId": "DA-VERB-0512",
       "finding": 512,
       "cardId": "verb-170",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At vende"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Ændre / beskære",
+      "actual": "At vende"
     },
     {
       "auditId": "DA-VERB-0513",
       "finding": 513,
       "cardId": "verb-170",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Vendt"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Ændret/omgjort",
+      "actual": "Vendt"
     },
     {
       "auditId": "DA-VERB-0515",
       "finding": 515,
       "cardId": "verb-170",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han vender"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han vrider / vender sig",
+      "actual": "Han vender"
     },
     {
       "auditId": "DA-VERB-0516",
       "finding": 516,
       "cardId": "verb-171",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han rekrutterede"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han foreslog",
+      "actual": "Han rekrutterede"
     },
     {
       "auditId": "DA-VERB-0517",
       "finding": 517,
       "cardId": "verb-171",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville rekruttere"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville foreslå",
+      "actual": "Han ville rekruttere"
     },
     {
       "auditId": "DA-VERB-0518",
       "finding": 518,
       "cardId": "verb-171",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At rekruttere"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "At foreslå",
+      "actual": "At rekruttere"
     },
     {
       "auditId": "DA-VERB-0519",
       "finding": 519,
       "cardId": "verb-171",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Rekrutteret"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Foreslået at",
+      "actual": "Rekrutteret"
     },
     {
       "auditId": "DA-VERB-0520",
       "finding": 520,
       "cardId": "verb-171",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han rekrutterer"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han foreslår",
+      "actual": "Han rekrutterer"
     },
     {
       "auditId": "DA-VERB-0521",
       "finding": 521,
       "cardId": "verb-172",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han blev"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Blev",
+      "actual": "Han blev"
     },
     {
       "auditId": "DA-VERB-0522",
       "finding": 522,
       "cardId": "verb-172",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville blive"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Blev",
+      "actual": "Han ville blive"
     },
     {
       "auditId": "DA-VERB-0523",
       "finding": 523,
       "cardId": "verb-173",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville kaste"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han kastede",
+      "actual": "Han ville kaste"
     },
     {
       "auditId": "DA-VERB-0525",
       "finding": 525,
       "cardId": "verb-173",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At kaste"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Mest",
+      "actual": "At kaste"
     },
     {
       "auditId": "DA-VERB-0526",
       "finding": 526,
       "cardId": "verb-173",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Kastet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Mests",
+      "actual": "Kastet"
     },
     {
       "auditId": "DA-VERB-0527",
       "finding": 527,
       "cardId": "verb-174",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Vejet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Vægtet",
+      "actual": "Vejet"
     },
     {
       "auditId": "DA-VERB-0528",
       "finding": 528,
       "cardId": "verb-175",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han vred sig"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han fletter",
+      "actual": "Han vred sig"
     },
     {
       "auditId": "DA-VERB-0529",
       "finding": 529,
       "cardId": "verb-175",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville vride sig"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville flette",
+      "actual": "Han ville vride sig"
     },
     {
       "auditId": "DA-VERB-0530",
       "finding": 530,
       "cardId": "verb-175",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At vride sig"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Fletning",
+      "actual": "At vride sig"
     },
     {
       "auditId": "DA-VERB-0531",
       "finding": 531,
       "cardId": "verb-175",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Vredet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Flettet",
+      "actual": "Vredet"
     },
     {
       "auditId": "DA-VERB-0532",
       "finding": 532,
       "cardId": "verb-175",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han vrider sig"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han pin",
+      "actual": "Han vrider sig"
     },
     {
       "auditId": "DA-VERB-0534",
       "finding": 534,
       "cardId": "verb-176",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Vidst"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kendt",
+      "actual": "Vidst"
     },
     {
       "auditId": "DA-VERB-0535",
       "finding": 535,
       "cardId": "verb-177",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han ville"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Ville",
+      "actual": "Han ville"
     },
     {
       "auditId": "DA-VERB-0536",
       "finding": 536,
       "cardId": "verb-177",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Ville",
+      "actual": "Han ville"
     },
     {
       "auditId": "DA-VERB-0537",
       "finding": 537,
       "cardId": "verb-177",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Villet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Ville",
+      "actual": "Villet"
     },
     {
       "auditId": "DA-VERB-0538",
       "finding": 538,
       "cardId": "verb-178",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han vred"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Izgrieza",
+      "actual": "Han vred"
     },
     {
       "auditId": "DA-VERB-0539",
       "finding": 539,
       "cardId": "verb-178",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville vride"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Izgrieza",
+      "actual": "Han ville vride"
     },
     {
       "auditId": "DA-VERB-0541",
       "finding": 541,
       "cardId": "verb-178",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At vride"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Izgriezt / izspiest",
+      "actual": "At vride"
     },
     {
       "auditId": "DA-VERB-0542",
       "finding": 542,
       "cardId": "verb-178",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Vrundet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Izgriezts",
+      "actual": "Vrundet"
     },
     {
       "auditId": "DA-VERB-0543",
       "finding": 543,
       "cardId": "verb-178",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han vrider"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han skærer ud",
+      "actual": "Han vrider"
     },
     {
       "auditId": "DA-VERB-0544",
       "finding": 544,
       "cardId": "verb-179",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han bebrejdede"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Vainoja",
+      "actual": "Han bebrejdede"
     },
     {
       "auditId": "DA-VERB-0545",
       "finding": 545,
       "cardId": "verb-179",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville bebrejde"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Vainoja",
+      "actual": "Han ville bebrejde"
     },
     {
       "auditId": "DA-VERB-0546",
       "finding": 546,
       "cardId": "verb-179",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At bebrejde"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Vainot",
+      "actual": "At bebrejde"
     },
     {
       "auditId": "DA-VERB-0547",
       "finding": 547,
       "cardId": "verb-179",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Bebrejdet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Vainojis",
+      "actual": "Bebrejdet"
     },
     {
       "auditId": "DA-VERB-0548",
       "finding": 548,
       "cardId": "verb-180",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At trække"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Lyst",
+      "actual": "At trække"
     },
     {
       "auditId": "DA-VERB-0549",
       "finding": 549,
       "cardId": "verb-180",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Trukket"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Bygds",
+      "actual": "Trukket"
     },
     {
       "auditId": "DA-VERB-0550",
       "finding": 550,
       "cardId": "verb-181",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At tvinge"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Piepiest",
+      "actual": "At tvinge"
     },
     {
       "auditId": "DA-VERB-0551",
       "finding": 551,
       "cardId": "verb-181",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Tvunget"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Piepiests",
+      "actual": "Tvunget"
     },
     {
       "auditId": "DA-VERB-0552",
       "finding": 552,
       "cardId": "verb-183",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han overvejede"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Overvejede han",
+      "actual": "Han overvejede"
     },
     {
       "auditId": "DA-VERB-0553",
       "finding": 553,
       "cardId": "verb-183",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han overvejer"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Overvejer han",
+      "actual": "Han overvejer"
     },
     {
       "auditId": "DA-VERB-0554",
       "finding": 554,
       "cardId": "verb-184",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han fægtede"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han kæmpede",
+      "actual": "Han fægtede"
     },
     {
       "auditId": "DA-VERB-0555",
       "finding": 555,
       "cardId": "verb-184",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville fægte"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville kæmpe",
+      "actual": "Han ville fægte"
     },
     {
       "auditId": "DA-VERB-0557",
       "finding": 557,
       "cardId": "verb-184",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At fægte"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "At kæmpe",
+      "actual": "At fægte"
     },
     {
       "auditId": "DA-VERB-0558",
       "finding": 558,
       "cardId": "verb-184",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Fægtet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Kæmpede",
+      "actual": "Fægtet"
     },
     {
       "auditId": "DA-VERB-0559",
       "finding": 559,
       "cardId": "verb-184",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han fægter"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han kæmper",
+      "actual": "Han fægter"
     },
     {
       "auditId": "DA-VERB-0560",
       "finding": 560,
       "cardId": "verb-185",
       "field": "imperfektIndikativ",
-      "action": "SET",
-      "ownerNew": "Han flettede"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han fletter",
+      "actual": "Han flettede"
     },
     {
       "auditId": "DA-VERB-0562",
       "finding": 562,
       "cardId": "verb-185",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At flette"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Fletning",
+      "actual": "At flette"
     },
     {
       "auditId": "DA-VERB-0563",
       "finding": 563,
       "cardId": "verb-185",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han fletter"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han pin",
+      "actual": "Han fletter"
     },
     {
       "auditId": "DA-VERB-0564",
       "finding": 564,
       "cardId": "verb-186",
       "field": "imperfektKonjunktiv",
-      "action": "SET",
-      "ownerNew": "Han ville hænge"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville hænge sig",
+      "actual": "Han ville hænge"
     },
     {
       "auditId": "DA-VERB-0565",
       "finding": 565,
       "cardId": "verb-186",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Hængt"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Hæng på",
+      "actual": "Hængt"
     },
     {
       "auditId": "DA-VERB-0566",
       "finding": 566,
       "cardId": "verb-187",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Splittet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Dele",
+      "actual": "Splittet"
     },
     {
       "auditId": "DA-VERB-0567",
       "finding": 567,
       "cardId": "verb-187",
       "field": "praesens",
-      "action": "SET",
-      "ownerNew": "Han splitter"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han deler sig",
+      "actual": "Han splitter"
     },
     {
       "auditId": "DA-VERB-0568",
       "finding": 568,
       "cardId": "verb-188",
       "field": "infinitiv",
-      "action": "SET",
-      "ownerNew": "At tilgive"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Piedot",
+      "actual": "At tilgive"
     },
     {
       "auditId": "DA-VERB-0569",
       "finding": 569,
       "cardId": "verb-188",
       "field": "partizipVergangenheit",
-      "action": "SET",
-      "ownerNew": "Tilgivet"
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Piedoter",
+      "actual": "Tilgivet"
     }
   ],
-  "skipped": [],
   "failed": [],
   "summary": {
-    "applied": 454,
-    "skipped": 0,
+    "applied": 43,
+    "skipped": 454,
     "failed": 0,
     "count": 189,
     "daDeFieldChanges": 0,
     "deRefChanges": 0,
     "mirrorPass": true,
-    "signedGroups": 11
+    "signedGroups": 12
   }
 }

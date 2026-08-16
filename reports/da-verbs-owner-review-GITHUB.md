@@ -62,4 +62,4 @@
 
 ---
 
-**Findings:** **569** · **Applied:** **454** · **Group07 pending:** **50** · **DE changes:** **0**
+**Findings:** **569** · **Applied:** **43** · **Group07 pending:** **50** · **DE changes:** **0**

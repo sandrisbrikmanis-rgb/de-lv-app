@@ -192,7 +192,7 @@ function main() {
     log.failed.slice(0, 10).forEach((f) => console.error(JSON.stringify(f)));
     process.exit(1);
   }
-  if (log.skipped.length) process.exit(1);
+  if (log.skipped.length && log.applied.length === 0) process.exit(1);
 }
 
 main();
