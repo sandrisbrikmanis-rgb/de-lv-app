@@ -1,6 +1,105 @@
 {
   "batch": "batch-024",
   "auditor": "GPT-5.6 Luna",
-  "generatedAt": "2026-08-16T18:06:24.889Z",
-  "findings": []
+  "generatedAt": "2026-08-16T18:21:40.259Z",
+  "findings": [
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[7].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[7].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Wieviel Teller?",
+      "daCurrent": "Hvor mange plader?",
+      "proposedDa": "Hvor mange tallerkener?",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "reason": "I denne kontekst betyder tysk Teller tallerkener; plader er normalt flade skiver eller plader, ikke bordservice.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[16].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[16].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Der Lehrer nimmt ein Messer und spitzt den Bleistift an.",
+      "daCurrent": "Læreren tager en kniv og spidser en blyant.",
+      "proposedDa": "Læreren tager en kniv og spidser blyanten.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "Den tyske tekst har bestemt form: den Bleistift. Den danske tekst gør blyanten ubestemt og ændrer dermed referencen.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[18].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[18].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Das ist ein Federhalter.",
+      "daCurrent": "Det er en fyldepenholder.",
+      "proposedDa": "Det er en penneholder.",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "reason": "Federhalter betyder penneholder. Fyldepenholder er en smallere betydning og svarer til en holder til en fyldepen.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[19].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[19].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Wie ist der Federhalter?",
+      "daCurrent": "Hvordan er fyldepenholderen?",
+      "proposedDa": "Hvordan er penneholderen?",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "reason": "Federhalter bør oversættes som penneholder, ikke fyldepenholder, som har en mere specifik betydning.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[20].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[20].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Der Federhalter ist schwarz.",
+      "daCurrent": "Fyldepenholderen er sort.",
+      "proposedDa": "Penneholderen er sort.",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "reason": "Federhalter bør gengives som penneholder; fyldepenholder indsnævrer betydningen til en fountain-pen-holder.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.pronounsDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.pronounsDesc",
+      "fieldType": "uiString",
+      "deCurrent": "",
+      "daCurrent": "Nominativ, Akkusativ og Dativ former.",
+      "proposedDa": "Former i nominativ, akkusativ og dativ.",
+      "severity": "LOW",
+      "category": "GRAMMAR",
+      "reason": "Den nuværende formulering mangler en naturlig præposition eller sammensætning mellem kasusnavnene og former.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.verbBasics",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.verbBasics",
+      "fieldType": "uiString",
+      "deCurrent": "",
+      "daCurrent": "Verbets grundlag",
+      "proposedDa": "Grundlæggende verber",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "reason": "Verbets grundlag er en unaturlig og uklar overskrift på dansk for et afsnit om verbets grundlæggende emner.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    }
+  ]
 }

@@ -1,6 +1,105 @@
 {
   "batch": "batch-018",
   "auditor": "GPT-5.6 Luna",
-  "generatedAt": "2026-08-16T18:06:24.887Z",
-  "findings": []
+  "generatedAt": "2026-08-16T18:19:00.012Z",
+  "findings": [
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[37]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[37]",
+      "fieldType": "sectionItem",
+      "deCurrent": "so",
+      "daCurrent": "so — so",
+      "proposedDa": "så — så",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "reason": "Det tyske adverbium »so« oversættes til dansk »så«, ikke »so«.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[0].heading",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[0].heading",
+      "fieldType": "grammarHeading",
+      "deCurrent": "",
+      "daCurrent": "Wechselpräpositionen",
+      "proposedDa": "Vekselpræpositioner",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Overskriften står på tysk; den bør oversættes til dansk.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[1].text",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[1].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "Hvis der er en retning/bevægelse til et sted, er spørgsmålet, hvorhen? og bruger Akkusativ.",
+      "proposedDa": "Hvis der er en retning eller bevægelse hen imod et sted, er spørgsmålet »wohin?«, og der bruges Akkusativ.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "Det tyske målord »wohin?« erstattes fejlagtigt af dansk »hvorhen?«, og formuleringen er grammatisk tung.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[2].text",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[2].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "Hvis der er en placering, er spørgsmålet hvor? og bruger dativ.",
+      "proposedDa": "Hvis der er tale om en placering, er spørgsmålet »wo?«, og der bruges Dativ.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "Det tyske målord »wo?« bør stå uændret i forklaringen, og sætningen bør formuleres mere idiomatisk.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[6].text",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[6].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "Gehen - gå, når handlingen betyder at gå kontinuerligt. treten - at gå ind, at nærme sig, at træde på, hvis gang ender med en pause i handlingen.",
+      "proposedDa": "Gehen betyder »at gå«, når handlingen foregår kontinuerligt. Treten betyder »at gå ind«, »at nærme sig« eller »at træde på«, når gangen ender med en pause i handlingen.",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "reason": "Sætningen har upræcis tegnsætning, inkonsekvent stort begyndelsesbogstav og den unaturlige formulering »hvis gang«.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[3]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[3]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "I ordet der Strauch udtales st som sht.",
+      "proposedDa": "I ordet der Strauch udtales st som št.",
+      "severity": "LOW",
+      "category": "CONSISTENCY",
+      "reason": "Den fonetiske gengivelse er inkonsekvent med »št« i den foregående udtaleangivelse.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].title",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].title",
+      "fieldType": "sectionTitle",
+      "deCurrent": "",
+      "daCurrent": "Navne",
+      "proposedDa": "Ordforråd",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "reason": "»Navne« betyder navne på personer eller ting; sektionen er et ordforrådsafsnit og bør hedde »Ordforråd«.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    }
+  ]
 }
