@@ -1,0 +1,15 @@
+{
+  "findings": 131,
+  "groups": 3,
+  "groupSize": 50,
+  "branch": "cursor/da-kurss-final-closure-audit-fffe",
+  "auditPr": "574",
+  "filesWritten": 11,
+  "bySeverity": {
+    "HIGH": 29,
+    "LOW": 15,
+    "CRITICAL": 21,
+    "MEDIUM": 65,
+    "NEEDS_SOURCE_REVIEW": 1
+  }
+}
