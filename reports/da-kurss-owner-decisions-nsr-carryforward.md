@@ -1,0 +1,84 @@
+# DA–DE Kurss — OWNER decisions NSR carry-forward (prior audit #566)
+
+Avots: [da-kurss-owner-review-final-post-repair-README.md](./da-kurss-owner-review-final-post-repair-README.md)
+Findings: **73** ieraksti
+
+Sākotnēji visi: **Statuss: PENDING**, **OWNER_DECISION:** tukšs.
+
+| # | Audit ID | Lesson/ID | Path | DE_CURRENT | DA_CURRENT | PROPOSED_DA | Severity | Category | Statuss | OWNER_DECISION |
+|--:|----------|-----------|------|------------|------------|-------------|----------|----------|---------|----------------|
+| 1 | DA-KURSS-SYN-datadacourseLessonsj | `syntax` | `data/da/courseLessons.js` |  | (syntax failure) | (OWNER repair required) | CRITICAL | TECHNICAL | PENDING | |
+| 2 | DA-KURSS-SYN-wwwdatadacourseLesso | `syntax` | `www/data/da/courseLessons.js` |  | (syntax failure) | (OWNER repair required) | CRITICAL | TECHNICAL | PENDING | |
+| 3 | DA-KURSS-STR-lesson7ExerciseCardsDa[0].lv | `lesson7` | `lesson7ExerciseCardsDa[0].lv` |  | missing | (align with LV MASTER structure) | HIGH | STRUCTURE | PENDING | |
+| 4 | DA-KURSS-STR-lesson7ExerciseCardsDa[1].lv | `lesson7` | `lesson7ExerciseCardsDa[1].lv` |  | missing | (align with LV MASTER structure) | HIGH | STRUCTURE | PENDING | |
+| 5 | DA-KURSS-STR-lesson7ExerciseCardsDa[2].lv | `lesson7` | `lesson7ExerciseCardsDa[2].lv` |  | missing | (align with LV MASTER structure) | HIGH | STRUCTURE | PENDING | |
+| 6 | DA-KURSS-STR-lesson7ExerciseCardsDa[3].lv | `lesson7` | `lesson7ExerciseCardsDa[3].lv` |  | missing | (align with LV MASTER structure) | HIGH | STRUCTURE | PENDING | |
+| 7 | DA-KURSS-STR-lesson7ExerciseCardsDa[4].lv | `lesson7` | `lesson7ExerciseCardsDa[4].lv` |  | missing | (align with LV MASTER structure) | HIGH | STRUCTURE | PENDING | |
+| 8 | DA-KURSS-STR-lesson7ExerciseCardsDa[5].lv | `lesson7` | `lesson7ExerciseCardsDa[5].lv` |  | missing | (align with LV MASTER structure) | HIGH | STRUCTURE | PENDING | |
+| 9 | DA-KURSS-STR-lesson7ExerciseCardsDa[6].lv | `lesson7` | `lesson7ExerciseCardsDa[6].lv` |  | missing | (align with LV MASTER structure) | HIGH | STRUCTURE | PENDING | |
+| 10 | DA-KURSS-STR-lesson7ExerciseCardsDa[7].lv | `lesson7` | `lesson7ExerciseCardsDa[7].lv` |  | missing | (align with LV MASTER structure) | HIGH | STRUCTURE | PENDING | |
+| 11 | DA-KURSS-STR-lesson7ExerciseCardsDa[8].lv | `lesson7` | `lesson7ExerciseCardsDa[8].lv` |  | missing | (align with LV MASTER structure) | HIGH | STRUCTURE | PENDING | |
+| 12 | DA-KURSS-STR-lesson7ExerciseCardsDa[9].lv | `lesson7` | `lesson7ExerciseCardsDa[9].lv` |  | missing | (align with LV MASTER structure) | HIGH | STRUCTURE | PENDING | |
+| 13 | DA-KURSS-STR-lesson7ExerciseCardsDa[10].lv | `lesson7` | `lesson7ExerciseCardsDa[10].lv` |  | missing | (align with LV MASTER structure) | HIGH | STRUCTURE | PENDING | |
+| 14 | DA-KURSS-STR-lesson7ExerciseCardsDa[11].lv | `lesson7` | `lesson7ExerciseCardsDa[11].lv` |  | missing | (align with LV MASTER structure) | HIGH | STRUCTURE | PENDING | |
+| 15 | DA-KURSS-STR-lesson7ExerciseCardsDa[12].lv | `lesson7` | `lesson7ExerciseCardsDa[12].lv` |  | missing | (align with LV MASTER structure) | HIGH | STRUCTURE | PENDING | |
+| 16 | DA-KURSS-STR-lesson7ExerciseCardsDa[13].lv | `lesson7` | `lesson7ExerciseCardsDa[13].lv` |  | missing | (align with LV MASTER structure) | HIGH | STRUCTURE | PENDING | |
+| 17 | DA-KURSS-STR-lesson7ExerciseCardsDa[14].lv | `lesson7` | `lesson7ExerciseCardsDa[14].lv` |  | missing | (align with LV MASTER structure) | HIGH | STRUCTURE | PENDING | |
+| 18 | DA-KURSS-STR-lesson7ExerciseCardsDa[15].lv | `lesson7` | `lesson7ExerciseCardsDa[15].lv` |  | missing | (align with LV MASTER structure) | HIGH | STRUCTURE | PENDING | |
+| 19 | DA-KURSS-0003 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | <h3>Foredrag 1</h3> <p class="kurss-lesson-intro">Første for… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 20 | DA-KURSS-0006 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` |  | <h3>Foredrag 2</h3> <p class="kurss-lesson-intro">Anden fore… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 21 | DA-KURSS-0009 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` |  | <h3>Foredrag 3</h3> <p class="kurss-lesson-intro">Tredje for… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 22 | DA-KURSS-0012 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | <h3>Foredrag 4</h3> <p class="kurss-lesson-intro">Akkusativ,… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 23 | DA-KURSS-0015 | `lesson5` | `COURSE_LESSON_DATA.kurssLesson5.legacyHt…` |  | <h3>Foredrag 5</h3> <p class="kurss-lesson-intro">Wen?, akku… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 24 | DA-KURSS-0018 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` |  | <h3>Foredrag 6</h3> <p class="kurss-lesson-intro">Tal, flert… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 25 | DA-KURSS-0021 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` |  | <h3>Foredrag 7</h3> <p class="kurss-lesson-intro">Syvende le… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 26 | DA-KURSS-0031 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` |  | ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. … | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 27 | DA-KURSS-0032 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` |  | ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dē… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 28 | DA-KURSS-0033 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Vārdos Schüler, Bücher | Vārdos Schüler, Bücher — ü is long (ü) and Müller - short ü. | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 29 | DA-KURSS-0037 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` |  | Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2.… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 30 | DA-KURSS-0038 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` |  | Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e … | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 31 | DA-KURSS-0039 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` |  | Latviešu valodā atgriezeniskiem darbības vārdiem ir sava gal… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 32 | DA-KURSS-0040 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` |  | Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie si… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 33 | DA-KURSS-0061 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` |  | ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie … | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 34 | DA-KURSS-0062 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` |  | ü izrunā ar apaļotām lūpām kā i: Müller (müller), Bücher (bü… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 35 | DA-KURSS-0063 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` |  | Patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 36 | DA-KURSS-0064 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` |  | Ja patskanim seko viens līdzskanis, patskani izrunā gari: Vö… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 37 | DA-KURSS-0065 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` |  | Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrun… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 38 | DA-KURSS-0066 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` |  | Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piem… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 39 | DA-KURSS-0068 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` |  | Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich). | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 40 | DA-KURSS-0069 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` |  | Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celm… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 41 | DA-KURSS-0079 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | eu izrunā kā oi: der Freund (dēr froint), neun (noin). | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 42 | DA-KURSS-0080 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 43 | DA-KURSS-0081 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer). | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 44 | DA-KURSS-0082 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Latviešu datīvs un vācu nominatīvs/akuzatīvs | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 45 | DA-KURSS-0098 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` |  | Vārdos Schwester, am jüngsten st izrunā kā latviski parasts … | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 46 | DA-KURSS-0099 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der… | h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 47 | DA-KURSS-0111 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` |  | Hvis præpositionsdelen er understreget, adskilles den i nuti… | (OWNER: Danish replacement per DE/LV meaning) | MEDIUM | FOREIGN_REMNANT | PENDING | |
+| 48 | DA-KURSS-0120 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` |  | pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt. | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 49 | DA-KURSS-0128 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` |  | ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņ… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 50 | DA-KURSS-0129 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` |  | Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen,… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 51 | DA-KURSS-0131 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` |  | Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, i… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 52 | DA-KURSS-0132 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` |  | Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausā… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 53 | DA-KURSS-0136 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` | müssen | müssen — vajadzēt aiz nepieciešamības vai pārliecības | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 54 | DA-KURSS-0139 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` |  | I det sammensatte verbum entzweischneiden lægges vægten på p… | (OWNER: Danish replacement per DE/LV meaning) | MEDIUM | FOREIGN_REMNANT | PENDING | |
+| 55 | DA-KURSS-0141 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` |  | Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņ… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 56 | DA-KURSS-0142 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` |  | Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdz… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 57 | DA-KURSS-0144 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` |  | Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unrei… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 58 | DA-KURSS-0151 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Vārdos wem, dem, den, der | Vārdos wem, dem, den, der — In wem, dem, den, der, the e is … | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 59 | DA-KURSS-0157 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Womit gräbt der Knabe die Grube? | Womit gräbt der Knabe die Grube? — Ar ko zēns rok bedri? | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 60 | DA-KURSS-0159 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` |  | De sammensatte verber auffangen og abwischen har accent på p… | (OWNER: Danish replacement per DE/LV meaning) | MEDIUM | FOREIGN_REMNANT | PENDING | |
+| 61 | DA-KURSS-0161 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | wischen / abwischen | wischen / abwischen — slaucīt ar lupatu, drānu, noslaucīt pu… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 62 | DA-KURSS-0164 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` |  | Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Die… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 63 | DA-KURSS-0200 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | Vārdā der Stuhl: st izrunā kā št; h ir garuma zīme un netiek… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 64 | DA-KURSS-0230 | `kurssArticlesLesson` | `COURSE_LESSON_HTML.kurssArticlesLesson` |  | <h3>Artikler</h3> <div class="articles-info articles-intro-i… | (OWNER: Danish replacement per DE/LV meaning) | MEDIUM | FOREIGN_REMNANT | PENDING | |
+| 65 | DA-KURSS-0231 | `kurssPronunciationLesson` | `COURSE_LESSON_HTML.kurssPronunciationLes…` |  | <h3>Vokaler - lange og korte</h3> <p class="kurss-lesson-int… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 66 | DA-KURSS-0232 | `kurssConsonantsLesson` | `COURSE_LESSON_HTML.kurssConsonantsLesson` |  | <h3>Konsonanter og bogstavkombinationer</h3> <p class="kurss… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | FOREIGN_REMNANT | PENDING | |
+| 67 | DA-KURSS-L0220 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` |  | Hvis præfikset er ubetonet, er det ubetonet. | Hvis præfikset ikke er betonet, adskilles det ikke. | HIGH | SEMANTICS | PENDING | |
+| 68 | DA-KURSS-L0352 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Der Bruder geht mit dem Vater, mit der Mutter, mit dem Lehre… | En bror går med sin far, med sin mor, med sin lærer, med sin… | Broren går med sin far, sin mor, sin lærer, sin onkel, sin t… | HIGH | SEMANTICS | PENDING | |
+| 69 | DA-KURSS-L0360 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | Hvis handlingen indikerer en retnings- eller stedsændring, b… | Hvis handlingen indikerer en retnings- eller stedsændring, b… | MEDIUM | SEMANTICS | PENDING | |
+| 70 | DA-KURSS-L0374 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.subtitl…` |  | Wohin / wo, Akkusativ vai Dativ ar an / in / auf | wohin / wo, Akkusativ eller Dativ med an / in / auf | MEDIUM | FOREIGN_REMNANT | PENDING | |
+| 71 | DA-KURSS-L0430 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Er zeigt den Schülern und Schülerinnen viele Länder, Städte,… | Han viser drengene og pigerne mange byer, lande, bjerge, søe… | Han viser drengerne og pigerne mange lande, byer, bjerge, sø… | HIGH | SEMANTICS | PENDING | |
+| 72 | DA-KURSS-L0531 | `kurssPronounsLesson` | `COURSE_LESSON_HTML.kurssPronounsLesson` |  | <h3>Pronominer</h3> <div class="artikuli-info artikuli-intro… | Er — han | CRITICAL | SEMANTICS | PENDING | |
+| 73 | DA-KURSS-L0549 | `kurssSentenceStructureLesson` | `COURSE_LESSON_HTML.kurssSentenceStructur…` |  | <h3>Sætningsstruktur</h3> <p class="kurss-lesson-intro">I en… | Was tust du? — Hvad laver du? | HIGH | TRANSLATION | PENDING | |
+
+**Statuss:** LABOT | FALSE_POSITIVE | NELABOT | NEEDS_SOURCE_REVIEW
