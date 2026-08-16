@@ -1,0 +1,38 @@
+{
+  "batch": "batch-009",
+  "findings": [
+    {
+      "cardId": "verb-81",
+      "field": "praesens.lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "er muss",
+      "daCurrent": "Han har brug for",
+      "proposedDa": "Han skal",
+      "problem": "Semantic mismatch vs German müssen (must).",
+      "reason": "Han har brug for means need; müssen is must/have to. Infinitiv At skulle on this card confirms skulle/må modal, not brug for."
+    },
+    {
+      "cardId": "verb-86",
+      "field": "infinitiv.lv",
+      "severity": "HIGH",
+      "category": "PARADIGM",
+      "de": "preisen",
+      "daCurrent": "Ros",
+      "proposedDa": "At rose",
+      "problem": "Noun used instead of verb infinitive.",
+      "reason": "Ros is a noun (praise); infinitiv slot requires the verb At rose, matching roser/rost/rose/Roset on the same card."
+    },
+    {
+      "cardId": "verb-88",
+      "field": "partizipVergangenheit.lv",
+      "severity": "HIGH",
+      "category": "CONSISTENCY",
+      "de": "geraten",
+      "daCurrent": "Foreslået/nævnt",
+      "proposedDa": "Rådet",
+      "problem": "Participle does not match raten/råde paradigm on card.",
+      "reason": "Other forms use råde (At råde, Han råder, Han rådede). Foreslået/nævnt (suggested/mentioned) breaks the lemma and is a slash variant chain."
+    }
+  ]
+}
