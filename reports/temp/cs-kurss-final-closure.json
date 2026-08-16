@@ -1,23 +1,113 @@
 {
-  "generatedAt": "2026-08-16T09:03:14.235Z",
+  "generatedAt": "2026-08-16T09:08:57.459Z",
   "model": "gpt-5.6-luna",
   "closureStatus": "NOT CLOSED",
-  "closureReason": "Luna targeted regression nav pabeigts — OPENAI_API_KEY nav pieejama šajā vidē. Closure prasa obligātu GPT-5.6 Luna audit.",
+  "closureReason": "Regression findings vai deterministiskās pārbaudes neizturētas.",
   "applied218": 8,
   "mismatch218": 0,
-  "totalTargets": 0,
+  "totalTargets": 163,
   "severity": {
     "CRITICAL": 0,
-    "HIGH": 0,
-    "MEDIUM": 0,
-    "LOW": 0
+    "HIGH": 3,
+    "MEDIUM": 3,
+    "LOW": 1
   },
   "lvRemnants": 0,
   "placeholders": 0,
   "falsePositive": 0,
   "deChangesNon218": 0,
   "unexpectedChanges": 0,
-  "lunaStatus": "BLOCKED — no API key",
-  "lunaError": "OPENAI_API_KEY nav pieejama",
-  "validFindings": []
+  "lunaStatus": "COMPLETED",
+  "validFindings": [
+    {
+      "lessonSection": "kurssLesson13.sections[2].items[2].heading",
+      "cardId": "kurssLesson13.sections[2].items[2].heading",
+      "severity": "HIGH",
+      "currentCs": "Rozkazovací způsob se sich umkehren",
+      "proposedCs": "Rozkazovací způsob slovesa sich umkehren",
+      "reason": "Czech reflexive marker „se“ is incorrectly combined with the German „sich“, creating redundancy.",
+      "status": "PENDING_OWNER_REVIEW"
+    },
+    {
+      "lessonSection": "kurssLesson13.sections[2].items[4].heading",
+      "cardId": "kurssLesson13.sections[2].items[4].heading",
+      "severity": "MEDIUM",
+      "currentCs": "Rozkazovací způsob s atmen",
+      "proposedCs": "Rozkazovací způsob slovesa atmen",
+      "reason": "The preposition „s“ is unnatural here; Czech uses „slovesa“ to introduce the verb being described.",
+      "status": "PENDING_OWNER_REVIEW"
+    },
+    {
+      "lessonSection": "kurssLesson14.sections[3].items[4]",
+      "cardId": "kurssLesson14.sections[3].items[4]",
+      "severity": "MEDIUM",
+      "currentCs": "Před s nebo t se g může ve výslovnosti přiblížit k: du magst, ihr mögt.",
+      "proposedCs": "Před s nebo t se g může ve výslovnosti přiblížit hlásce k: du magst, ihr mögt.",
+      "reason": "Vazba „přiblížit se k“ je zde neúplná; chybí podstatné jméno označující hlásku.",
+      "status": "PENDING_OWNER_REVIEW"
+    },
+    {
+      "lessonSection": "kurssLesson14.sections[3].items[5]",
+      "cardId": "kurssLesson14.sections[3].items[5]",
+      "severity": "MEDIUM",
+      "currentCs": "V češtině se podobné spodoby znělosti vyskytují také u souhlásek na hranicích hlásek.",
+      "proposedCs": "V češtině se podobné spodoby znělosti vyskytují také na styku souhlásek.",
+      "reason": "Spojení „na hranicích hlásek“ není v češtině přirozené; vhodné je „na styku souhlásek“.",
+      "status": "PENDING_OWNER_REVIEW"
+    },
+    {
+      "lessonSection": "kurssLesson15.sections[3].items[4]",
+      "cardId": "kurssLesson15.sections[3].items[4]",
+      "severity": "LOW",
+      "currentCs": "Pamatuj: německá dvojhláska ei se vyslovuje jako ai: reif, unreif.",
+      "proposedCs": "Pamatuj: německá dvojhláska ei se vyslovuje jako aj: reif, unreif.",
+      "reason": "V českém přepisu výslovnosti se německé [aɪ] standardně zapisuje jako „aj“, nikoli „ai“.",
+      "status": "PENDING_OWNER_REVIEW"
+    },
+    {
+      "lessonSection": "kurssLesson17.sections[3].items[1]",
+      "cardId": "kurssLesson17.sections[3].items[1]",
+      "severity": "HIGH",
+      "currentCs": "Ve slově wieder je e otevřené: wieder.",
+      "proposedCs": "Ve slově wieder se ie vyslovuje jako dlouhé í: wieder.",
+      "reason": "V němčině se ie ve wieder vyslovuje jako dlouhé [iː], nikoli jako otevřené e.",
+      "status": "PENDING_OWNER_REVIEW"
+    },
+    {
+      "lessonSection": "kurssLesson20.sections[3].items[4]",
+      "cardId": "kurssLesson20.sections[3].items[4]",
+      "severity": "HIGH",
+      "currentCs": "Ve slovech die Wohnung, wohnen označuje h délku a nevyslovuje se.",
+      "proposedCs": "Ve slovech die Wohnung, wohnen h označuje délku a nevyslovuje se.",
+      "reason": "Současný slovosled nesprávně říká, že délka označuje h; předmět „h“ musí stát před slovesem.",
+      "status": "PENDING_OWNER_REVIEW"
+    }
+  ],
+  "apiUsage": {
+    "model": "gpt-5.6-luna",
+    "requestCount": 9,
+    "initialBatchRequests": 0,
+    "retryRequests": 0,
+    "batchCount": 9,
+    "batchSizes": [
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      3
+    ],
+    "retryCount": 0,
+    "retryReasons": {},
+    "inputTokens": 17876,
+    "cachedInputTokens": 0,
+    "outputTokens": 11420,
+    "reasoningTokens": 6461,
+    "totalTokens": 29296,
+    "findingsCount": 11,
+    "passCount": 160
+  }
 }
