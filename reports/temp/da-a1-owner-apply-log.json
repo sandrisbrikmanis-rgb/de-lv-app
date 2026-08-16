@@ -1,0 +1,861 @@
+{
+  "dryRun": false,
+  "applied": [
+    {
+      "finding": 12,
+      "cardId": "a1-sprechen-study",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 13,
+      "cardId": "a1-bitte",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 14,
+      "cardId": "a1-bitte",
+      "field": "study.explanation[3]",
+      "action": "SET"
+    },
+    {
+      "finding": 15,
+      "cardId": "a1-bitte",
+      "field": "study.explanation[4]",
+      "action": "SET"
+    },
+    {
+      "finding": 16,
+      "cardId": "a1-bitte",
+      "field": "study.explanation[0]",
+      "action": "SET"
+    },
+    {
+      "finding": 17,
+      "cardId": "a1-bitte-study",
+      "field": "study.explanation[0]",
+      "action": "SET"
+    },
+    {
+      "finding": 19,
+      "cardId": "a1-bitte-study",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 20,
+      "cardId": "a1-bringen",
+      "field": "lv",
+      "action": "SET"
+    },
+    {
+      "finding": 21,
+      "cardId": "a1-bringen",
+      "field": "study.translation",
+      "action": "SET"
+    },
+    {
+      "finding": 22,
+      "cardId": "a1-bringen",
+      "field": "study.examples[0].lv",
+      "action": "SET"
+    },
+    {
+      "finding": 23,
+      "cardId": "a1-bringen",
+      "field": "study.examples[1].lv",
+      "action": "SET"
+    },
+    {
+      "finding": 24,
+      "cardId": "a1-bringen",
+      "field": "study.examples[2].lv",
+      "action": "SET"
+    },
+    {
+      "finding": 25,
+      "cardId": "a1-bringen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 26,
+      "cardId": "a1-bringen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 27,
+      "cardId": "a1-bringen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 28,
+      "cardId": "a1-bringen",
+      "field": "study.comparison[3].example",
+      "action": "SET"
+    },
+    {
+      "finding": 29,
+      "cardId": "a1-fahren",
+      "field": "lv",
+      "action": "SET"
+    },
+    {
+      "finding": 30,
+      "cardId": "a1-ganz",
+      "field": "lv",
+      "action": "SET"
+    },
+    {
+      "finding": 31,
+      "cardId": "a1-bitte",
+      "field": "study.tip.text",
+      "action": "SET"
+    },
+    {
+      "finding": 32,
+      "cardId": "a1-bitte-study",
+      "field": "study.tip.text",
+      "action": "SET"
+    },
+    {
+      "finding": 33,
+      "cardId": "a1-sprechen-study",
+      "field": "study.examples[2].lv",
+      "action": "SET"
+    },
+    {
+      "finding": 34,
+      "cardId": "a1-bitte",
+      "field": "study.comparison[0].meaning",
+      "action": "SET"
+    },
+    {
+      "finding": 35,
+      "cardId": "a1-bitte",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 36,
+      "cardId": "a1-bitte",
+      "field": "study.comparison[1].meaning",
+      "action": "SET"
+    },
+    {
+      "finding": 37,
+      "cardId": "a1-bitte",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 38,
+      "cardId": "a1-bitte-study",
+      "field": "study.comparison[0].meaning",
+      "action": "SET"
+    },
+    {
+      "finding": 39,
+      "cardId": "a1-bitte-study",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 40,
+      "cardId": "a1-bitte-study",
+      "field": "study.comparison[1].meaning",
+      "action": "SET"
+    },
+    {
+      "finding": 41,
+      "cardId": "a1-bitte-study",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 42,
+      "cardId": "a1-bringen",
+      "field": "study.comparison[4].meaning",
+      "action": "SET"
+    },
+    {
+      "finding": 43,
+      "cardId": "a1-bringen",
+      "field": "study.comparison[4].example",
+      "action": "SET"
+    },
+    {
+      "finding": 44,
+      "cardId": "a1-ein",
+      "field": "study.examples[3].lv",
+      "action": "SET"
+    },
+    {
+      "finding": 45,
+      "cardId": "a1-ein",
+      "field": "study.comparison[0].meaning",
+      "action": "SET"
+    },
+    {
+      "finding": 46,
+      "cardId": "a1-ein",
+      "field": "study.comparison[1].meaning",
+      "action": "SET"
+    },
+    {
+      "finding": 47,
+      "cardId": "a1-ein",
+      "field": "study.comparison[3].meaning",
+      "action": "SET"
+    },
+    {
+      "finding": 48,
+      "cardId": "a1-eis",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 49,
+      "cardId": "a1-eis",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 50,
+      "cardId": "a1-eis",
+      "field": "study.comparison[3].example",
+      "action": "SET"
+    },
+    {
+      "finding": 51,
+      "cardId": "a1-erst",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 52,
+      "cardId": "a1-erst",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 53,
+      "cardId": "a1-erst",
+      "field": "study.comparison[3].example",
+      "action": "SET"
+    },
+    {
+      "finding": 54,
+      "cardId": "a1-es",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 55,
+      "cardId": "a1-es",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 56,
+      "cardId": "a1-etwas",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 57,
+      "cardId": "a1-etwas",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 58,
+      "cardId": "a1-euch",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 59,
+      "cardId": "a1-euch",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 60,
+      "cardId": "a1-euch",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 61,
+      "cardId": "a1-finden",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 62,
+      "cardId": "a1-haben",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 63,
+      "cardId": "a1-haben",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 64,
+      "cardId": "a1-haben",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 65,
+      "cardId": "a1-haben",
+      "field": "study.comparison[3].example",
+      "action": "SET"
+    },
+    {
+      "finding": 66,
+      "cardId": "a1-haben",
+      "field": "study.tip.text",
+      "action": "SET"
+    },
+    {
+      "finding": 67,
+      "cardId": "a1-haben",
+      "field": "study.sectionAccents.tip.left.purple[0]",
+      "action": "SET"
+    },
+    {
+      "finding": 68,
+      "cardId": "a1-halten",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 69,
+      "cardId": "a1-halten",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 70,
+      "cardId": "a1-halten",
+      "field": "study.comparison[3].example",
+      "action": "SET"
+    },
+    {
+      "finding": 71,
+      "cardId": "a1-heißen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 72,
+      "cardId": "a1-heißen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 73,
+      "cardId": "a1-heißen",
+      "field": "study.comparison[3].example",
+      "action": "SET"
+    },
+    {
+      "finding": 74,
+      "cardId": "a1-heißen",
+      "field": "study.comparison[4].meaning",
+      "action": "SET"
+    },
+    {
+      "finding": 75,
+      "cardId": "a1-heißen",
+      "field": "study.comparison[4].example",
+      "action": "SET"
+    },
+    {
+      "finding": 76,
+      "cardId": "a1-können",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 77,
+      "cardId": "a1-können",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 78,
+      "cardId": "a1-können",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 79,
+      "cardId": "a1-können",
+      "field": "study.comparison[3].example",
+      "action": "SET"
+    },
+    {
+      "finding": 80,
+      "cardId": "a1-kosten",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 81,
+      "cardId": "a1-kosten",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 82,
+      "cardId": "a1-kosten",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 83,
+      "cardId": "a1-kosten",
+      "field": "study.comparison[3].example",
+      "action": "SET"
+    },
+    {
+      "finding": 84,
+      "cardId": "a1-sein",
+      "field": "study.tip.text",
+      "action": "SET"
+    },
+    {
+      "finding": 85,
+      "cardId": "a1-sein",
+      "field": "study.sectionAccents.tip.left.purple[0]",
+      "action": "SET"
+    },
+    {
+      "finding": 86,
+      "cardId": "a1-fernsehen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 87,
+      "cardId": "a1-fernsehen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 88,
+      "cardId": "a1-fernsehen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 89,
+      "cardId": "a1-klein-study",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 90,
+      "cardId": "a1-klein-study",
+      "field": "study.explanation[2]",
+      "action": "SET"
+    },
+    {
+      "finding": 91,
+      "cardId": "a1-an",
+      "field": "study.explanation",
+      "action": "SET"
+    },
+    {
+      "finding": 92,
+      "cardId": "a1-an",
+      "field": "study.important[0]",
+      "action": "SET"
+    },
+    {
+      "finding": 93,
+      "cardId": "a1-auf",
+      "field": "study.explanation",
+      "action": "SET"
+    },
+    {
+      "finding": 94,
+      "cardId": "a1-auf",
+      "field": "study.important[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 95,
+      "cardId": "a1-bei",
+      "field": "study.explanation",
+      "action": "SET"
+    },
+    {
+      "finding": 96,
+      "cardId": "a1-bei",
+      "field": "study.comparison[1].meaning",
+      "action": "SET"
+    },
+    {
+      "finding": 97,
+      "cardId": "a1-dass",
+      "field": "study.examples[2].lv",
+      "action": "SET"
+    },
+    {
+      "finding": 98,
+      "cardId": "a1-finden",
+      "field": "study.comparison[3].example",
+      "action": "SET"
+    },
+    {
+      "finding": 99,
+      "cardId": "a1-gross-study",
+      "field": "study.explanation[5]",
+      "action": "SET"
+    },
+    {
+      "finding": 100,
+      "cardId": "a1-ihr",
+      "field": "study.explanation[0]",
+      "action": "SET"
+    },
+    {
+      "finding": 101,
+      "cardId": "a1-ihr",
+      "field": "study.tip[0]",
+      "action": "SET"
+    },
+    {
+      "finding": 102,
+      "cardId": "a1-wissen-study",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 103,
+      "cardId": "a1-lang",
+      "field": "study.explanation[2]",
+      "action": "SET"
+    },
+    {
+      "finding": 104,
+      "cardId": "a1-laut",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 105,
+      "cardId": "a1-laut-study",
+      "field": "study.explanation[0]",
+      "action": "SET"
+    },
+    {
+      "finding": 106,
+      "cardId": "a1-morgen",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 107,
+      "cardId": "a1-morgen-study",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 108,
+      "cardId": "a1-müssen",
+      "field": "study.important[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 109,
+      "cardId": "a1-natuerlich",
+      "field": "study.tip[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 110,
+      "cardId": "a1-neu",
+      "field": "study.explanation[4]",
+      "action": "SET"
+    },
+    {
+      "finding": 111,
+      "cardId": "a1-noch-study",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 112,
+      "cardId": "a1-oder",
+      "field": "study.explanation[3]",
+      "action": "SET"
+    },
+    {
+      "finding": 113,
+      "cardId": "a1-sagen-study",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 114,
+      "cardId": "a1-schon-study",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 115,
+      "cardId": "a1-seite",
+      "field": "study.explanation[0]",
+      "action": "SET"
+    },
+    {
+      "finding": 116,
+      "cardId": "a1-sie-study",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 117,
+      "cardId": "a1-sie-study",
+      "field": "study.explanation[3]",
+      "action": "SET"
+    },
+    {
+      "finding": 118,
+      "cardId": "a1-sie-study",
+      "field": "study.explanation[5]",
+      "action": "SET"
+    },
+    {
+      "finding": 119,
+      "cardId": "a1-sie-study-2",
+      "field": "study.explanation[3]",
+      "action": "SET"
+    },
+    {
+      "finding": 120,
+      "cardId": "a1-sie-study-2",
+      "field": "study.explanation[5]",
+      "action": "SET"
+    },
+    {
+      "finding": 121,
+      "cardId": "a1-zug",
+      "field": "study.explanation[2]",
+      "action": "SET"
+    },
+    {
+      "finding": 122,
+      "cardId": "a1-appetit",
+      "field": "study.explanation[0]",
+      "action": "SET"
+    },
+    {
+      "finding": 123,
+      "cardId": "a1-obst",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 124,
+      "cardId": "a1-bitte",
+      "field": "lv",
+      "action": "SET"
+    },
+    {
+      "finding": 125,
+      "cardId": "a1-bitte",
+      "field": "study.translation",
+      "action": "SET"
+    },
+    {
+      "finding": 126,
+      "cardId": "a1-bitte",
+      "field": "study.examples[0].lv",
+      "action": "SET"
+    },
+    {
+      "finding": 127,
+      "cardId": "a1-bitte",
+      "field": "study.examples[1].lv",
+      "action": "SET"
+    },
+    {
+      "finding": 128,
+      "cardId": "a1-bitte",
+      "field": "study.examples[2].lv",
+      "action": "SET"
+    },
+    {
+      "finding": 129,
+      "cardId": "a1-sprechen-study",
+      "field": "study.comparison[1].meaning",
+      "action": "SET"
+    },
+    {
+      "finding": 130,
+      "cardId": "a1-um",
+      "field": "study.important[0]",
+      "action": "SET"
+    },
+    {
+      "finding": 131,
+      "cardId": "a1-bis",
+      "field": "study.sectionAccents.comparison[2].example.yellow",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 132,
+      "cardId": "a1-bringen",
+      "field": "study.sectionAccents.examples[0].de.yellow",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 133,
+      "cardId": "a1-bringen",
+      "field": "study.sectionAccents.examples[1].de.green",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 134,
+      "cardId": "a1-bringen",
+      "field": "study.sectionAccents.examples[2].de.blue",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 135,
+      "cardId": "a1-bringen",
+      "field": "study.sectionAccents.examples[2].de.yellow",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 136,
+      "cardId": "a1-bringen",
+      "field": "study.sectionAccents.comparison[1].word.green",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 137,
+      "cardId": "a1-bringen",
+      "field": "study.sectionAccents.comparison[2].word.green",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 138,
+      "cardId": "a1-bringen",
+      "field": "study.sectionAccents.comparison[3].word.green",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 139,
+      "cardId": "a1-es",
+      "field": "study.sectionAccents.examples[0].root.blue",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 140,
+      "cardId": "a1-es",
+      "field": "study.sectionAccents.examples[2].root.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 141,
+      "cardId": "a1-es",
+      "field": "study.sectionAccents.examples[3].root.yellow",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 142,
+      "cardId": "a1-finden",
+      "field": "study.sectionAccents.examples[1].de.blue",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 143,
+      "cardId": "a1-halten",
+      "field": "study.sectionAccents.comparison[2].example.red",
+      "action": "FJERN_ACCENT"
+    }
+  ],
+  "failed": [],
+  "missing": [
+    {
+      "de": "Besuch",
+      "index": 87,
+      "status": "FULL_STUDY_CREATED",
+      "studyId": "a1-besuch"
+    },
+    {
+      "de": "besuchen",
+      "index": 89,
+      "status": "FULL_STUDY_CREATED",
+      "studyId": "a1-besuchen"
+    },
+    {
+      "de": "Fußball",
+      "index": 218,
+      "status": "FULL_STUDY_CREATED",
+      "studyId": "a1-fussball-study"
+    },
+    {
+      "de": "ganz",
+      "index": 219,
+      "status": "FULL_STUDY_CREATED",
+      "studyId": "a1-ganz-study"
+    },
+    {
+      "de": "gefallen",
+      "index": 225,
+      "status": "FULL_STUDY_CREATED",
+      "studyId": "a1-gefallen-study"
+    },
+    {
+      "de": "Geschichte",
+      "index": 233,
+      "status": "FULL_STUDY_CREATED",
+      "studyId": "a1-geschichte-study"
+    },
+    {
+      "de": "Geschwister",
+      "index": 234,
+      "status": "FULL_STUDY_CREATED",
+      "studyId": "a1-geschwister-study"
+    },
+    {
+      "de": "Großeltern",
+      "index": 251,
+      "status": "FULL_STUDY_CREATED",
+      "studyId": "a1-grosseltern-study"
+    },
+    {
+      "de": "Hand",
+      "index": 267,
+      "status": "FULL_STUDY_CREATED",
+      "studyId": "a1-hand-study"
+    },
+    {
+      "de": "hübsch",
+      "index": 288,
+      "status": "FULL_STUDY_CREATED",
+      "studyId": "a1-huebsch"
+    }
+  ],
+  "summary": {
+    "applied": 131,
+    "failed": 0,
+    "missingStudy": 10,
+    "studyCount": 134,
+    "deChanges": 0
+  }
+}

@@ -1,0 +1,956 @@
+[
+  {
+    "de": "Besuch",
+    "index": 87,
+    "cardId": "a1-Besuch-87",
+    "action": "CREATE",
+    "study": {
+      "id": "a1-besuch",
+      "layout": "standardStudy",
+      "translation": "Et besøg",
+      "explanation": [
+        "Hovedidé: der Besuch betyder et besøg hos en person, på et sted eller i forbindelse med en begivenhed.",
+        "På dansk oversættes Besuch normalt med besøg.",
+        "Det kan både være et socialt besøg og et besøg på for eksempel et museum.",
+        "Flertal: die Besuche."
+      ],
+      "examples": [
+        {
+          "de": "Der Besuch im Museum war interessant.",
+          "lv": "Besøget på museet var interessant."
+        },
+        {
+          "de": "Danke für deinen Besuch.",
+          "lv": "Tak for dit besøg."
+        },
+        {
+          "de": "Der Arzt macht einen Besuch.",
+          "lv": "Lægen kommer på hjemmebesøg."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Besuch",
+          "meaning": "apmeklējums • apciemojums • vizīte",
+          "example": "Danke für deinen Besuch. – Paldies par tavu apciemojumu."
+        },
+        {
+          "word": "der Besucher",
+          "meaning": "apmeklētājs",
+          "example": "Der Besucher wartet draußen. – Apmeklētājs gaida ārā."
+        },
+        {
+          "word": "besuchen",
+          "meaning": "apmeklēt • apciemot",
+          "example": "Ich besuche meine Großeltern. – Es apciemoju savus vecvecākus."
+        }
+      ],
+      "tip": {
+        "text": "Husk: Besuch er selve besøget, mens Besucher er personen, der besøger et sted."
+      },
+      "important": [
+        "der Besuch kan bruges om forskellige former for besøg.",
+        "Flertal: die Besuche."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Besuch",
+            "die Besuche"
+          ],
+          "purple": [
+            "apmeklējums",
+            "apciemojums",
+            "vizīte"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējums"
+              ],
+              "green": [
+                "Muzeja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemojumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vizītē"
+              ],
+              "green": [
+                "Ārsts"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklējums",
+                "apciemojums",
+                "vizīte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklētājs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "notikums",
+              "vizīte"
+            ],
+            "green": [
+              "Besucher"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "apmeklējums",
+              "apciemojums",
+              "vizīte"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "besuchen",
+    "index": 89,
+    "cardId": "a1-besuchen-89",
+    "action": "CREATE",
+    "study": {
+      "id": "a1-besuchen",
+      "layout": "standardStudy",
+      "translation": "At besøge",
+      "explanation": [
+        "Hovedidé: besuchen betyder at besøge en person eller et sted.",
+        "Man kan for eksempel besøge familie, venner, en by eller et museum.",
+        "I visse sammenhænge kan besuchen også bruges om at gå på eller deltage i noget, for eksempel en skole eller et kursus.",
+        "Bøjes: ich besuche, du besuchst, er/sie/es besucht."
+      ],
+      "examples": [
+        {
+          "de": "Ich besuche das Museum.",
+          "lv": "Jeg besøger mine bedsteforældre."
+        },
+        {
+          "de": "Wir besuchen einen Deutschkurs.",
+          "lv": "Vi besøger museet."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Han besøger en ven."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besuchen",
+          "meaning": "apmeklēt vietu vai pasākumu • apciemot personu",
+          "example": "Ich besuche meine Großeltern. – Es apciemoju savus vecvecākus."
+        },
+        {
+          "word": "treffen",
+          "meaning": "satikt",
+          "example": "Ich treffe meinen Freund. – Es satieku savu draugu."
+        },
+        {
+          "word": "zu jemandem gehen",
+          "meaning": "iet pie kāda",
+          "example": "Ich gehe zu meinem Freund. – Es eju pie sava drauga."
+        }
+      ],
+      "tip": {
+        "text": "Husk: besuchen = at besøge en person eller et sted."
+      },
+      "important": [
+        "besuchen bruges med akkusativ.",
+        "besuchen er ikke det samme som sehen (at se)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besuchen"
+          ],
+          "purple": [
+            "apmeklēt",
+            "apciemot"
+          ],
+          "green": [
+            "vietu",
+            "pasākumu",
+            "personu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklēju"
+              ],
+              "green": [
+                "muzeju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējam"
+              ],
+              "green": [
+                "vācu valodas kursu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemoju"
+              ],
+              "green": [
+                "vecvecākus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "apciemoju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "satikt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet pie kāda"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "bez prievārda"
+            ]
+          },
+          {
+            "green": [
+              "vietu",
+              "personu"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "Fußball",
+    "index": 218,
+    "cardId": "a1-Fußball-218",
+    "action": "CREATE",
+    "study": {
+      "id": "a1-fussball-study",
+      "layout": "standardStudy",
+      "translation": "Fodbold",
+      "explanation": [
+        "Hovedidé: Fußball betyder fodbold.",
+        "Ordet bruges oftest om sporten: Fußball spielen = at spille fodbold.",
+        "Det kan også betegne selve fodbolden, når sammenhængen gør det klart.",
+        "Flertal die Fußbälle bruges om flere fodbolde."
+      ],
+      "examples": [
+        {
+          "de": "Ich spiele Fußball.",
+          "lv": "Jeg spiller fodbold."
+        },
+        {
+          "de": "Der Fußball liegt im Garten.",
+          "lv": "Fodbolden er rund."
+        },
+        {
+          "de": "Wir kaufen zwei Fußbälle.",
+          "lv": "Vi ser fodbold i fjernsynet."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Fußball",
+          "meaning": "futbols kā sporta veids",
+          "example": "Ich spiele Fußball. – Es spēlēju futbolu."
+        },
+        {
+          "word": "der Fußball",
+          "meaning": "futbola bumba",
+          "example": "Der Fußball ist neu. – Futbola bumba ir jauna."
+        }
+      ],
+      "tip": [
+        "Bez artikula spielen Fußball parasti nozīmē spēlēt futbolu.",
+        "Skaitāmā nozīmē ein Fußball un die Fußbälle ir futbola bumba un futbola bumbas."
+      ],
+      "important": [
+        "der Fußball kan afhængigt af sammenhængen betegne sporten eller en fodbold."
+      ]
+    }
+  },
+  {
+    "de": "ganz",
+    "index": 219,
+    "cardId": "a1-ganz-219",
+    "action": "CREATE",
+    "study": {
+      "id": "a1-ganz-study",
+      "layout": "standardStudy",
+      "translation": "Hel • Helt",
+      "explanation": [
+        "Hovedidé: ganz kan betyde hel eller helt afhængigt af sammenhængen.",
+        "Foran et substantiv betyder ganz ofte hel: der ganze Tag = hele dagen.",
+        "Sammen med et adjektiv eller adverbium kan ganz betyde helt eller ret: ganz allein = helt alene, ganz gut = ret godt."
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite den ganzen Tag.",
+          "lv": "Jeg spiser hele æblet."
+        },
+        {
+          "de": "Das ganze Haus ist sauber.",
+          "lv": "Det er ret godt."
+        },
+        {
+          "de": "Das ist ganz sicher.",
+          "lv": "Han er helt alene."
+        },
+        {
+          "de": "Das Essen ist ganz gut.",
+          "lv": "ēdiens ir diezgan labs."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ganz",
+          "meaning": "vesels • viss kopumā • pilnīgi",
+          "example": "der ganze Tag – visa diena"
+        },
+        {
+          "word": "alles",
+          "meaning": "viss",
+          "example": "Alles ist gut. – Viss ir kārtībā."
+        }
+      ],
+      "tip": [
+        "Lietvārda priekšā ganz bieži nozīmē viss vai vesels.",
+        "Īpašības vārda priekšā ganz bieži nozīmē pilnīgi vai diezgan."
+      ],
+      "important": [
+        "Se på ordet efter ganz for at vælge den naturlige danske oversættelse."
+      ]
+    }
+  },
+  {
+    "de": "gefallen",
+    "index": 225,
+    "cardId": "a1-gefallen-225",
+    "action": "CREATE",
+    "study": {
+      "id": "a1-gefallen-study",
+      "layout": "standardStudy",
+      "translation": "At kunne lide",
+      "explanation": [
+        "Hovedidé: gefallen bruges, når nogen synes godt om noget.",
+        "Den tyske konstruktion er anderledes end den danske: Das gefällt mir = Det kan jeg godt lide.",
+        "Det, man synes om, er subjektet på tysk, mens personen står i dativ."
+      ],
+      "examples": [
+        {
+          "de": "Das gefällt mir.",
+          "lv": "Jeg kan godt lide bogen."
+        },
+        {
+          "de": "Gefällt dir das Kleid?",
+          "lv": "Vi kan godt lide filmen."
+        },
+        {
+          "de": "Der Film gefällt uns.",
+          "lv": "Hvad synes du om det?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefallen",
+          "meaning": "patikt • persona datīvā",
+          "example": "Das gefällt mir. – Man tas patīk."
+        },
+        {
+          "word": "mögen",
+          "meaning": "patikt • labprāt izvēlēties",
+          "example": "Ich mag das. – Man tas patīk."
+        }
+      ],
+      "tip": [
+        "Atceries konstrukciju: Das gefällt mir.",
+        "Neveido burtisku latviešu vārdu secību."
+      ],
+      "important": [
+        "Personen står i dativ: mir, dir, ihm, ihr, uns osv."
+      ]
+    }
+  },
+  {
+    "de": "Geschichte",
+    "index": 233,
+    "cardId": "a1-Geschichte-233",
+    "action": "CREATE",
+    "study": {
+      "id": "a1-geschichte-study",
+      "layout": "standardStudy",
+      "translation": "Historie • Fortælling",
+      "explanation": [
+        "Hovedidé: Geschichte kan betyde både historie og fortælling.",
+        "eine Geschichte er en historie eller fortælling, som man for eksempel kan læse eller fortælle.",
+        "Geschichte kan også være historie som skolefag eller fagområde."
+      ],
+      "examples": [
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "Historien er interessant."
+        },
+        {
+          "de": "Ich lerne Geschichte.",
+          "lv": "Jeg læser en historie."
+        },
+        {
+          "de": "Das ist die Geschichte Deutschlands.",
+          "lv": "Vi lærer historie i skolen."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eine Geschichte",
+          "meaning": "stāsts",
+          "example": "eine interessante Geschichte – interesants stāsts"
+        },
+        {
+          "word": "Geschichte",
+          "meaning": "vēsture",
+          "example": "Geschichte lernen – mācīties vēsturi"
+        }
+      ],
+      "tip": [
+        "Ar eine un daudzskaitlī parasti runa ir par stāstu.",
+        "Kā mācību priekšmets Geschichte nozīmē vēsturi."
+      ],
+      "important": [
+        "die Geschichte er hunkøn."
+      ]
+    }
+  },
+  {
+    "de": "Geschwister",
+    "index": 234,
+    "cardId": "a1-Geschwister-234",
+    "action": "CREATE",
+    "study": {
+      "id": "a1-geschwister-study",
+      "layout": "standardStudy",
+      "translation": "Søskende",
+      "explanation": [
+        "Hovedidé: Geschwister betyder søskende.",
+        "Ordet bruges om brødre og søstre samlet.",
+        "die Geschwister har samme form i flertal."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe zwei Geschwister.",
+          "lv": "Jeg har to søskende."
+        },
+        {
+          "de": "Meine Geschwister wohnen in Berlin.",
+          "lv": "Mine søskende bor i Berlin."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Geschwister",
+          "meaning": "brāļi un māsas",
+          "example": "Meine Geschwister – mani brāļi un māsas"
+        },
+        {
+          "word": "Bruder",
+          "meaning": "brālis",
+          "example": "mein Bruder – mans brālis"
+        },
+        {
+          "word": "Schwester",
+          "meaning": "māsa",
+          "example": "meine Schwester – mana māsa"
+        }
+      ],
+      "tip": [
+        "Geschwister parasti lieto daudzskaitlī.",
+        "Vienai personai izvēlies Bruder vai Schwester."
+      ],
+      "important": [
+        "Geschwister bruges normalt som flertalsord."
+      ]
+    }
+  },
+  {
+    "de": "Großeltern",
+    "index": 251,
+    "cardId": "a1-Großeltern-251",
+    "action": "CREATE",
+    "study": {
+      "id": "a1-grosseltern-study",
+      "layout": "standardStudy",
+      "translation": "Bedsteforældre",
+      "explanation": [
+        "Hovedidé: Großeltern betyder bedsteforældre.",
+        "Ordet bruges samlet om bedstemor og bedstefar.",
+        "die Großeltern bruges kun i flertal."
+      ],
+      "examples": [
+        {
+          "de": "Meine Großeltern wohnen auf dem Land.",
+          "lv": "Mine bedsteforældre bor på landet."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Jeg besøger mine bedsteforældre."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Großeltern",
+          "meaning": "vecvecāki",
+          "example": "meine Großeltern – mani vecvecāki"
+        },
+        {
+          "word": "Großmutter",
+          "meaning": "vecmāmiņa",
+          "example": "meine Großmutter – mana vecmāmiņa"
+        },
+        {
+          "word": "Großvater",
+          "meaning": "vectētiņš",
+          "example": "mein Großvater – mans vectētiņš"
+        }
+      ],
+      "tip": [
+        "Großeltern ir daudzskaitlis.",
+        "Vienai personai lieto Großmutter vai Großvater."
+      ],
+      "important": [
+        "Kun flertal: die Großeltern."
+      ]
+    }
+  },
+  {
+    "de": "Hand",
+    "index": 267,
+    "cardId": "a1-Hand-267",
+    "action": "CREATE",
+    "study": {
+      "id": "a1-hand-study",
+      "layout": "standardStudy",
+      "translation": "Hånd",
+      "explanation": [
+        "Hovedidé: die Hand betyder hånd.",
+        "Ordet bruges om kropsdelen fra håndleddet og ud til fingrene.",
+        "Flertal: die Hände."
+      ],
+      "examples": [
+        {
+          "de": "Ich wasche meine Hände.",
+          "lv": "Jeg vasker mine hænder."
+        },
+        {
+          "de": "Sie hält das Glas in der Hand.",
+          "lv": "Giv mig din hånd."
+        },
+        {
+          "de": "Mein Arm tut weh.",
+          "lv": "Han holder bogen i hånden."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hand",
+          "meaning": "plauksta",
+          "example": "in der Hand – plaukstā"
+        },
+        {
+          "word": "der Arm",
+          "meaning": "roka",
+          "example": "Mein Arm tut weh. – Man sāp roka."
+        }
+      ],
+      "tip": [
+        "Hand = plauksta.",
+        "Arm = roka no pleca līdz plaukstai."
+      ],
+      "important": [
+        "in der Hand = i hånden."
+      ]
+    }
+  },
+  {
+    "de": "hübsch",
+    "index": 288,
+    "cardId": "a1-hübsch-288",
+    "action": "CREATE",
+    "study": {
+      "id": "a1-huebsch",
+      "layout": "standardStudy",
+      "translation": "Pæn • Smuk",
+      "explanation": [
+        "Hovedidé: hübsch betyder pæn, smuk eller tiltalende.",
+        "Om personer oversættes det ofte med pæn eller smuk.",
+        "Om ting kan det ofte oversættes med pæn eller flot."
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt ein hübsches Kleid.",
+          "lv": "Pigen er pæn."
+        },
+        {
+          "de": "Das Zimmer ist hübsch.",
+          "lv": "En pæn kjole."
+        },
+        {
+          "de": "Das ist ein hübsches Bild.",
+          "lv": "Dit værelse er pænt."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hübsch",
+          "meaning": "glīts • pievilcīgs pēc izskata",
+          "example": "Das ist ein hübsches Kleid. – Tā ir glīta kleita."
+        },
+        {
+          "word": "schön",
+          "meaning": "skaists • patīkams",
+          "example": "Der Garten ist schön. – Dārzs ir skaists."
+        },
+        {
+          "word": "nett",
+          "meaning": "jauks • laipns",
+          "example": "Sie ist sehr nett. – Viņa ir ļoti jauka."
+        }
+      ],
+      "tip": {
+        "text": "Husk: hübsch beskriver noget eller nogen, der ser pæn, smuk eller tiltalende ud."
+      },
+      "important": [
+        "Betydningen afhænger af sammenhængen: pæn, smuk eller flot."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hübsch"
+          ],
+          "purple": [
+            "glīts",
+            "pievilcīgs",
+            "simpātisks"
+          ],
+          "green": [
+            "izskatu"
+          ],
+          "yellow": [
+            "nett"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ],
+              "green": [
+                "Kleid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ],
+              "green": [
+                "kleita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hübsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "glīts",
+                "pievilcīgs"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hübsches"
+              ],
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skaists",
+                "patīkams"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jauks",
+                "laipns"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts izskats"
+            ],
+            "yellow": [
+              "nett"
+            ],
+            "green": [
+              "jauks cilvēks"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts"
+            ]
+          },
+          {
+            "yellow": [
+              "nett"
+            ],
+            "purple": [
+              "jauks",
+              "laipns"
+            ]
+          }
+        ]
+      }
+    }
+  }
+]

@@ -41,7 +41,7 @@ const A1_WORDS = [
       "translation": "At tale",
       "explanation": [
         "Hovedidé: At tale, tale eller bruge sprog.",
-        "Sprechen betyder hovedsageligt: ​​at tale eller tale.",
+        "Sprechen betyder hovedsageligt: at tale.",
         "Ofte præget af: sprog/samtale.",
         "Sprechen beskriver at tale eller bruge sprog."
       ],
@@ -56,7 +56,7 @@ const A1_WORDS = [
         },
         {
           "de": "Sie spricht mit ihrer Lehrerin.",
-          "lv": "Viņa runā ar savu skolotāju."
+          "lv": "Hun taler med sin lærer."
         }
       ],
       "comparison": [
@@ -67,7 +67,7 @@ const A1_WORDS = [
         },
         {
           "word": "sagen",
-          "meaning": "Fortæl (en bestemt tekst)",
+          "meaning": "Sige (noget bestemt)",
           "example": "Sag mir die Wahrheit. – Fortæl mig sandheden."
         }
       ],
@@ -141,8 +141,8 @@ const A1_WORDS = [
       "translation": "Lille",
       "explanation": [
         "Hovedidé: Lille i størrelse eller omfang.",
-        "Klein betyder hovedsageligt: ​​lille størrelse.",
-        "Beskriver ofte: størrelsen af ​​en ting/person.",
+        "Klein betyder hovedsageligt: lille størrelse.",
+        "Beskriver ofte størrelsen på en ting eller person.",
         "Klein betyder i bund og grund: lille/ny.",
         "Beskriver ofte: et barn.",
         "Klein beskriver en lille størrelse."
@@ -273,7 +273,7 @@ const A1_WORDS = [
       "id": "a1-an",
       "layout": "standardStudy",
       "translation": "Kl • Til • Præsenter",
-      "explanation": "Bruges når noget er i nærheden af ​​en væg, vindue, dør, flod, strand eller anden kant/overflade.",
+      "explanation": "Bruges, når noget befinder sig ved en væg, et vindue, en dør, en flod, en strand eller en anden kant eller overflade.",
       "examples": [
         {
           "de": "an der Wand",
@@ -419,7 +419,7 @@ const A1_WORDS = [
         "text": "Husk: pie sienas/loga/malas → an."
       },
       "important": [
-        "da er ikke en hvilken som helst \"tarte\". Det betyder ofte ved siden af ​​en overflade, væg, vindue eller kant.",
+        "an betyder ikke bare \"på\". Det bruges ofte om placering ved en overflade, væg, et vindue eller en kant.",
         "Auf bruges normalt på en vandret overflade."
       ]
     }
@@ -1210,7 +1210,7 @@ const A1_WORDS = [
       "id": "a1-auf",
       "layout": "standardStudy",
       "translation": "Til",
-      "explanation": "Bruges til at angive en retning til et sted eller toppen af ​​en overflade.",
+      "explanation": "Bruges til at angive placering på eller bevægelse hen på en overflade eller et sted.",
       "examples": [
         {
           "de": "Ich stelle das Buch auf den Tisch.",
@@ -1352,7 +1352,7 @@ const A1_WORDS = [
       },
       "important": [
         "auf er ikke et hvilket som helst 'på'. Det betyder ofte at bevæge sig eller være på overfladen/overfladen.",
-        "Hvis noget er i nærheden af ​​en lodret overflade, har du ofte brug for en; hvis inde, skal ind."
+        "Ved en lodret overflade bruges ofte an; inde i noget bruges in."
       ]
     }
   },
@@ -2190,7 +2190,7 @@ const A1_WORDS = [
       "id": "a1-bei",
       "layout": "standardStudy",
       "translation": "På",
-      "explanation": "Bruges, når noget er i nærheden af ​​en person, organisation, sted eller under nogle omstændigheder sker.",
+      "explanation": "Bruges, når noget er hos eller i nærheden af en person, organisation eller et sted, og også i visse situationer eller omstændigheder.",
       "examples": [
         {
           "de": "Ich bin bei meinem Freund.",
@@ -2213,7 +2213,7 @@ const A1_WORDS = [
         },
         {
           "word": "an",
-          "meaning": "Ved væggen, kanten, kysten, kanten af ​​overfladen",
+          "meaning": "Ved en væg, kant, kyst eller anden afgrænset overflade",
           "example": "Das Bild hängt an der Wand. – Billedet hænger på væggen."
         },
         {
@@ -2373,7 +2373,191 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Besuche",
     "lv": "Et besøg",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuch",
+      "layout": "standardStudy",
+      "translation": "Et besøg",
+      "explanation": [
+        "Hovedidé: der Besuch betyder et besøg hos en person, på et sted eller i forbindelse med en begivenhed.",
+        "På dansk oversættes Besuch normalt med besøg.",
+        "Det kan både være et socialt besøg og et besøg på for eksempel et museum.",
+        "Flertal: die Besuche."
+      ],
+      "examples": [
+        {
+          "de": "Der Besuch im Museum war interessant.",
+          "lv": "Besøget på museet var interessant."
+        },
+        {
+          "de": "Danke für deinen Besuch.",
+          "lv": "Tak for dit besøg."
+        },
+        {
+          "de": "Der Arzt macht einen Besuch.",
+          "lv": "Lægen kommer på hjemmebesøg."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Besuch",
+          "meaning": "apmeklējums • apciemojums • vizīte",
+          "example": "Danke für deinen Besuch. – Paldies par tavu apciemojumu."
+        },
+        {
+          "word": "der Besucher",
+          "meaning": "apmeklētājs",
+          "example": "Der Besucher wartet draußen. – Apmeklētājs gaida ārā."
+        },
+        {
+          "word": "besuchen",
+          "meaning": "apmeklēt • apciemot",
+          "example": "Ich besuche meine Großeltern. – Es apciemoju savus vecvecākus."
+        }
+      ],
+      "tip": {
+        "text": "Husk: Besuch er selve besøget, mens Besucher er personen, der besøger et sted."
+      },
+      "important": [
+        "der Besuch kan bruges om forskellige former for besøg.",
+        "Flertal: die Besuche."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Besuch",
+            "die Besuche"
+          ],
+          "purple": [
+            "apmeklējums",
+            "apciemojums",
+            "vizīte"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējums"
+              ],
+              "green": [
+                "Muzeja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemojumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vizītē"
+              ],
+              "green": [
+                "Ārsts"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklējums",
+                "apciemojums",
+                "vizīte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklētājs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "notikums",
+              "vizīte"
+            ],
+            "green": [
+              "Besucher"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "apmeklējums",
+              "apciemojums",
+              "vizīte"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besucher",
@@ -2385,7 +2569,216 @@ const A1_WORDS = [
   {
     "de": "besuchen",
     "lv": "At deltage • At besøge",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuchen",
+      "layout": "standardStudy",
+      "translation": "At besøge",
+      "explanation": [
+        "Hovedidé: besuchen betyder at besøge en person eller et sted.",
+        "Man kan for eksempel besøge familie, venner, en by eller et museum.",
+        "I visse sammenhænge kan besuchen også bruges om at gå på eller deltage i noget, for eksempel en skole eller et kursus.",
+        "Bøjes: ich besuche, du besuchst, er/sie/es besucht."
+      ],
+      "examples": [
+        {
+          "de": "Ich besuche das Museum.",
+          "lv": "Jeg besøger mine bedsteforældre."
+        },
+        {
+          "de": "Wir besuchen einen Deutschkurs.",
+          "lv": "Vi besøger museet."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Han besøger en ven."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besuchen",
+          "meaning": "apmeklēt vietu vai pasākumu • apciemot personu",
+          "example": "Ich besuche meine Großeltern. – Es apciemoju savus vecvecākus."
+        },
+        {
+          "word": "treffen",
+          "meaning": "satikt",
+          "example": "Ich treffe meinen Freund. – Es satieku savu draugu."
+        },
+        {
+          "word": "zu jemandem gehen",
+          "meaning": "iet pie kāda",
+          "example": "Ich gehe zu meinem Freund. – Es eju pie sava drauga."
+        }
+      ],
+      "tip": {
+        "text": "Husk: besuchen = at besøge en person eller et sted."
+      },
+      "important": [
+        "besuchen bruges med akkusativ.",
+        "besuchen er ikke det samme som sehen (at se)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besuchen"
+          ],
+          "purple": [
+            "apmeklēt",
+            "apciemot"
+          ],
+          "green": [
+            "vietu",
+            "pasākumu",
+            "personu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklēju"
+              ],
+              "green": [
+                "muzeju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējam"
+              ],
+              "green": [
+                "vācu valodas kursu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemoju"
+              ],
+              "green": [
+                "vecvecākus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "apciemoju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "satikt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet pie kāda"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "bez prievārda"
+            ]
+          },
+          {
+            "green": [
+              "vietu",
+              "personu"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Bett",
@@ -2501,9 +2894,7 @@ const A1_WORDS = [
               ]
             },
             "example": {
-              "yellow": [
-                "bis dass"
-              ]
+              "yellow": []
             }
           }
         ],
@@ -2542,18 +2933,18 @@ const A1_WORDS = [
   },
   {
     "de": "bitte",
-    "lv": "Behage",
+    "lv": "Venligst",
     "level": "A1",
     "study": {
       "id": "a1-bitte",
       "layout": "standardStudy",
-      "translation": "Behage",
+      "translation": "Venligst",
       "explanation": [
-        "Hovedidé: Høfligt ord med små bogstaver. Har været høflig - tak.",
-        "Bitte betyder hovedsageligt: ​​høflighed.",
+        "Hovedidé: bitte med lille begyndelsesbogstav bruges som et høfligt ord, for eksempel i betydningen venligst.",
+        "Bitte bruges hovedsageligt som et høfligt ord, for eksempel i betydningen venligst.",
         "Beskriver ofte: et høfligt ord.",
-        "Bitte betyder hovedsageligt: ​​anmodning/anmodning.",
-        "Ofte karakteriseret ved: navneord (dø).",
+        "Bitte kan også bruges i forbindelse med en anmodning.",
+        "Som navneord skrives det med stort begyndelsesbogstav: die Bitte.",
         "Bitte med et lille bogstav er et høfligt ord - det betyder venligst (Bitte schön!, Eine Tasse Kaffee, bitte).",
         "Die Bitte med stort bogstav og artiklen die er et substantiv - det betyder en anmodning eller en anmodning (Ich habe eine Bitte = jeg har en anmodning).",
         "Flertal: die Bitten."
@@ -2561,15 +2952,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Eine Tasse Kaffee, bitte.",
-          "lv": "Behage!"
+          "lv": "En kop kaffe, tak."
         },
         {
           "de": "Komm bitte herein.",
-          "lv": "Behage!"
+          "lv": "Kom venligst ind."
         },
         {
           "de": "Bitte schön!",
-          "lv": "En kop kaffe, tak."
+          "lv": "Værsgo!"
         },
         {
           "de": "Kann ich bitte fragen?",
@@ -2584,10 +2975,9 @@ const A1_WORDS = [
           "lv": "Anmodningen er vigtig."
         }
       ],
-      "tip": [
-        "Lille bitte = please (Bitte schön!, Kaffee, bitte). die Bitte med stort bogstav = anmodning (eine Bitte, meine Bitte).",
-        "høflighedsnavn med små bogstaver. Har været høflig - tak."
-      ],
+      "tip": {
+        "text": "Husk: bitte med lille begyndelsesbogstav bruges som et høfligt ord; die Bitte med stort begyndelsesbogstav betyder en anmodning."
+      },
       "important": [
         "bitte er små bogstaver - det er et høfligt ord, ikke et substantiv.",
         "die Bitte med stort bogstav og artiklen die er et navneord.",
@@ -2666,13 +3056,13 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "bitte",
-          "meaning": "lūdzu",
-          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          "meaning": "venligst",
+          "example": "Komm bitte herein. -- Kom venligst ind."
         },
         {
           "word": "die Bitte",
-          "meaning": "lūgums",
-          "example": "Ich habe eine Bitte. – Man ir lūgums."
+          "meaning": "anmodning",
+          "example": "Ich habe eine Bitte. -- Jeg har en anmodning."
         }
       ]
     }
@@ -2688,8 +3078,8 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "En anmodning",
       "explanation": [
-        "Hovedidé: Navneord med artiklen dør og stort bogstav. En specifik anmodning eller anmodning.",
-        "Die Bitte betyder hovedsageligt: ​​høflighed.",
+        "Hovedidé: die Bitte er et navneord og betyder en anmodning.",
+        "Die Bitte betyder: en anmodning.",
         "Beskriver ofte: et høfligt ord.",
         "Die Bitte betyder i bund og grund: anmodning/anmodning.",
         "Ofte karakteriseret ved: navneord (dø).",
@@ -2723,10 +3113,9 @@ const A1_WORDS = [
           "lv": "Anmodningen er vigtig."
         }
       ],
-      "tip": [
-        "Lille bitte = please (Bitte schön!, Kaffee, bitte). die Bitte med stort bogstav = anmodning (eine Bitte, meine Bitte).",
-        "Navneord med artiklen dø og hovedstaden væk. En specifik anmodning eller anmodning."
-      ],
+      "tip": {
+        "text": "Husk: die Bitte er et navneord og betyder en anmodning; bitte med lille begyndelsesbogstav bruges som et høfligt ord."
+      },
       "important": [
         "bitte er små bogstaver - det er et høfligt ord, ikke et substantiv.",
         "die Bitte med stort bogstav og artiklen die er et navneord.",
@@ -2793,13 +3182,13 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "die Bitte",
-          "meaning": "lūgums",
-          "example": "Ich habe eine Bitte. – Man ir lūgums."
+          "meaning": "anmodning",
+          "example": "Ich habe eine Bitte. -- Jeg har en anmodning."
         },
         {
           "word": "bitte",
-          "meaning": "lūdzu",
-          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          "meaning": "venligst",
+          "example": "Komm bitte herein. -- Kom venligst ind."
         }
       ]
     }
@@ -3110,12 +3499,12 @@ const A1_WORDS = [
   },
   {
     "de": "bringen",
-    "lv": "Medbring • Take away",
+    "lv": "Medbringe",
     "level": "A1",
     "study": {
       "id": "a1-bringen",
       "layout": "standardStudy",
-      "translation": "Medbring • Take away",
+      "translation": "Medbringe",
       "explanation": [
         "Hovedidé: bringen betyder at bringe, bære eller levere noget til nogen.",
         "Bringen bruges, når noget flyttes til et andet sted eller til en anden person.",
@@ -3125,15 +3514,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich bringe dir ein Buch.",
-          "lv": "Bring mig venligst vand"
+          "lv": "Jeg bringer dig en bog."
         },
         {
           "de": "Ich bringe das Paket zur Post.",
-          "lv": "Jeg tager dig hjem"
+          "lv": "Jeg bringer pakken til posthuset."
         },
         {
           "de": "Ich bringe die Kinder zur Schule.",
-          "lv": "Han tager bogen med i skole."
+          "lv": "Jeg kører børnene i skole."
         },
         {
           "de": "Ich nehme das Buch.",
@@ -3144,27 +3533,27 @@ const A1_WORDS = [
         {
           "word": "bringen",
           "meaning": "Medbring/tag/lever",
-          "example": "Ich bringe dir ein Buch. – Bring mir Wasser."
+          "example": "Ich bringe dir ein Buch. -- Jeg bringer dig en bog."
         },
         {
           "word": "bringen",
           "meaning": "At tage / at tage",
-          "example": "Ich bringe das Paket zur Post. – Ich nehme das Buch."
+          "example": "Ich bringe das Paket zur Post. -- Jeg bringer pakken til posthuset."
         },
         {
           "word": "bringen",
           "meaning": "Gå efter/hent",
-          "example": "Ich bringe die Kinder zur Schule. – Ich hole Wasser."
+          "example": "Ich bringe die Kinder zur Schule. -- Jeg kører børnene i skole."
         },
         {
           "word": "bringen",
           "meaning": "Tag væk og medbring",
-          "example": "Ich bringe dir ein Buch. – Bringst du Brot mit?"
+          "example": "Bringst du Brot mit? -- Tager du brød med?"
         },
         {
           "word": "nehmen",
-          "meaning": "paņemt",
-          "example": "Ich nehme das Buch. – Es paņemu grāmatu."
+          "meaning": "at tage",
+          "example": "Ich nehme das Buch. -- Jeg tager bogen."
         }
       ],
       "tip": {
@@ -3186,9 +3575,7 @@ const A1_WORDS = [
               "blue": [
                 "Bring"
               ],
-              "yellow": [
-                "Wasser"
-              ]
+              "yellow": []
             },
             "lv": {
               "purple": [
@@ -3201,9 +3588,7 @@ const A1_WORDS = [
               "blue": [
                 "bringe"
               ],
-              "green": [
-                "dich"
-              ]
+              "green": []
             },
             "lv": {
               "purple": [
@@ -3213,12 +3598,8 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "blue": [
-                "bringt"
-              ],
-              "yellow": [
-                "Buch"
-              ]
+              "blue": [],
+              "yellow": []
             },
             "lv": {
               "purple": [
@@ -3267,9 +3648,7 @@ const A1_WORDS = [
           },
           {
             "word": {
-              "green": [
-                "nehmen"
-              ]
+              "green": []
             },
             "meaning": {
               "purple": [
@@ -3285,9 +3664,7 @@ const A1_WORDS = [
           },
           {
             "word": {
-              "green": [
-                "holen"
-              ]
+              "green": []
             },
             "meaning": {
               "purple": [
@@ -3303,9 +3680,7 @@ const A1_WORDS = [
           },
           {
             "word": {
-              "green": [
-                "mitbringen"
-              ]
+              "green": []
             },
             "meaning": {
               "purple": [
@@ -3836,7 +4211,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich glaube, dass das stimmt.",
-          "lv": "Jeg tror, ​​det er rigtigt."
+          "lv": "Jeg tror, det er rigtigt."
         }
       ],
       "comparison": [
@@ -4424,7 +4799,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ein Kind spielt.",
-          "lv": "Bērns spēlējas."
+          "lv": "Barnet leger."
         }
       ],
       "tip": {
@@ -4537,12 +4912,12 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "ein Mann",
-          "meaning": "vīriešu dzimte",
+          "meaning": "hankøn",
           "example": "Ein Mann wartet draußen."
         },
         {
           "word": "eine Frau",
-          "meaning": "sieviešu dzimte",
+          "meaning": "hunkøn",
           "example": "eine Frau"
         },
         {
@@ -4552,7 +4927,7 @@ const A1_WORDS = [
         },
         {
           "word": "einen Mann",
-          "meaning": "akuzatīvs",
+          "meaning": "akkusativ",
           "example": "einen Mann"
         }
       ]
@@ -4610,7 +4985,7 @@ const A1_WORDS = [
         {
           "word": "das Eis",
           "meaning": "Is / is",
-          "example": "Ich esse ein Eis. = Es ēdu saldējumu."
+          "example": "Ich esse ein Eis. = Jeg spiser en is."
         },
         {
           "word": "der Schnee",
@@ -4620,12 +4995,12 @@ const A1_WORDS = [
         {
           "word": "kalt",
           "meaning": "Kold",
-          "example": "Das Wasser ist kalt. = Ūdens ir auksts."
+          "example": "Das Wasser ist kalt. = Vandet er koldt."
         },
         {
           "word": "das Dessert",
           "meaning": "Dessert",
-          "example": "Eis ist ein Dessert. = Saldējums ir deserts."
+          "example": "Eis ist ein Dessert. = Is er en dessert."
         }
       ],
       "tip": {
@@ -4880,17 +5255,17 @@ const A1_WORDS = [
         {
           "word": "zuerst",
           "meaning": "Først • I begyndelsen",
-          "example": "Zuerst frühstücken wir. = Vispirms mēs brokastojam."
+          "example": "Zuerst frühstücken wir. = Først spiser vi morgenmad."
         },
         {
           "word": "nur",
           "meaning": "Kun",
-          "example": "Ich habe nur 5 Euro. = Man ir tikai 5 eiro."
+          "example": "Ich habe nur 5 Euro. = Jeg har kun 5 euro."
         },
         {
           "word": "dann",
           "meaning": "Så",
-          "example": "Dann gehen wir nach Hause. = Tad mēs ejam mājās."
+          "example": "Dann gehen wir nach Hause. = Så går vi hjem."
         }
       ],
       "tip": {
@@ -5074,9 +5449,7 @@ const A1_WORDS = [
       "sectionAccents": {
         "examples": [
           {
-            "blue": [
-              "Ich"
-            ]
+            "blue": []
           },
           {
             "blue": [
@@ -5084,14 +5457,10 @@ const A1_WORDS = [
             ]
           },
           {
-            "red": [
-              "Sie"
-            ]
+            "red": []
           },
           {
-            "yellow": [
-              "Das"
-            ]
+            "yellow": []
           },
           {
             "blue": [
@@ -5171,12 +5540,12 @@ const A1_WORDS = [
         {
           "word": "es",
           "meaning": "tas • bezpersoniska forma",
-          "example": "Es regnet. – Līst."
+          "example": "Es regnet. -- Det regner."
         },
         {
           "word": "ich",
           "meaning": "es (persona)",
-          "example": "Ich lerne Deutsch. – Es mācos vācu valodu."
+          "example": "Ich lerne Deutsch. -- Jeg lærer tysk."
         }
       ]
     }
@@ -5229,7 +5598,7 @@ const A1_WORDS = [
         {
           "word": "etwas",
           "meaning": "Noget/lidt",
-          "example": "Ich brauche etwas. = Man kaut kas vajadzīgs."
+          "example": "Ich brauche etwas. = Jeg har brug for noget."
         },
         {
           "word": "was",
@@ -5239,7 +5608,7 @@ const A1_WORDS = [
         {
           "word": "ein bisschen",
           "meaning": "Lidt",
-          "example": "Ich bin ein bisschen müde. = Es esmu mazliet noguris."
+          "example": "Ich bin ein bisschen müde. = Jeg er lidt træt."
         },
         {
           "word": "nichts",
@@ -5464,17 +5833,17 @@ const A1_WORDS = [
         {
           "word": "ihr",
           "meaning": "Du",
-          "example": "Ihr seid freundlich. = Jūs esat draudzīgi."
+          "example": "Ihr seid freundlich. = I er venlige."
         },
         {
           "word": "euch",
           "meaning": "Dig/til dig",
-          "example": "Ich helfe euch. = Es jums palīdzu."
+          "example": "Ich helfe euch. = Jeg hjælper jer."
         },
         {
           "word": "euer",
           "meaning": "Dine",
-          "example": "Das ist euer Haus. = Tā ir jūsu māja."
+          "example": "Das ist euer Haus. = Det er jeres hus."
         }
       ],
       "info": [
@@ -5506,7 +5875,7 @@ const A1_WORDS = [
   },
   {
     "de": "fahren",
-    "lv": "Kør • Bly • Take away",
+    "lv": "Køre",
     "level": "A1",
     "study": {
       "id": "a1-fahren",
@@ -5941,7 +6310,7 @@ const A1_WORDS = [
         {
           "word": "finden",
           "meaning": "Find/overvej",
-          "example": "Ich finde das gut. = Man tas šķiet labi."
+          "example": "Ich finde das gut. = Jeg synes, det er godt. ----------------------------------------------------------------------------------------------------------- - **Pārskatīti:** 50/50 - **LABOT:** 50 - **FALSE_POSITIVE:** 0 - **NELABOT:** 0 - **NEEDS_SOURCE_REVIEW:** 0 - **DE changes:** 0 formulējumi ir precizēti, lai dāņu skaidrojums būtu semantiski pareizs un dabisks. - Finding **28** salīdzinājums izlabots tā, lai DE piemērs atbilstu DA - Finding **30** galvenā nozīme sašaurināta uz **Hel • Helt**; - Finding **33** izmantots neitrālais dāņu **lærer**, nevis - Findings **35/41** izmantots dabisks un tiešs **Kom venligst ind.** Šis fails ir gatavs deterministiskam **COPY-ONLY** apply."
         },
         {
           "word": "suchen",
@@ -5956,7 +6325,7 @@ const A1_WORDS = [
         {
           "word": "glauben",
           "meaning": "Tro/tænk",
-          "example": "Ich glaube, er kommt. = Jeg tror, ​​han kommer."
+          "example": "Ich glaube, er kommt. = Jeg tror, han kommer."
         }
       ],
       "tip": {
@@ -5988,9 +6357,7 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "blue": [
-                "gefunden"
-              ]
+              "blue": []
             },
             "lv": {
               "purple": [
@@ -6592,12 +6959,103 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Fußbälle",
     "lv": "Fodbold",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-fussball-study",
+      "layout": "standardStudy",
+      "translation": "Fodbold",
+      "explanation": [
+        "Hovedidé: Fußball betyder fodbold.",
+        "Ordet bruges oftest om sporten: Fußball spielen = at spille fodbold.",
+        "Det kan også betegne selve fodbolden, når sammenhængen gør det klart.",
+        "Flertal die Fußbälle bruges om flere fodbolde."
+      ],
+      "examples": [
+        {
+          "de": "Ich spiele Fußball.",
+          "lv": "Jeg spiller fodbold."
+        },
+        {
+          "de": "Der Fußball liegt im Garten.",
+          "lv": "Fodbolden er rund."
+        },
+        {
+          "de": "Wir kaufen zwei Fußbälle.",
+          "lv": "Vi ser fodbold i fjernsynet."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Fußball",
+          "meaning": "futbols kā sporta veids",
+          "example": "Ich spiele Fußball. – Es spēlēju futbolu."
+        },
+        {
+          "word": "der Fußball",
+          "meaning": "futbola bumba",
+          "example": "Der Fußball ist neu. – Futbola bumba ir jauna."
+        }
+      ],
+      "tip": [
+        "Bez artikula spielen Fußball parasti nozīmē spēlēt futbolu.",
+        "Skaitāmā nozīmē ein Fußball un die Fußbälle ir futbola bumba un futbola bumbas."
+      ],
+      "important": [
+        "der Fußball kan afhængigt af sammenhængen betegne sporten eller en fodbold."
+      ]
+    }
   },
   {
     "de": "ganz",
-    "lv": "Alt",
-    "level": "A1"
+    "lv": "Hel • Helt",
+    "level": "A1",
+    "study": {
+      "id": "a1-ganz-study",
+      "layout": "standardStudy",
+      "translation": "Hel • Helt",
+      "explanation": [
+        "Hovedidé: ganz kan betyde hel eller helt afhængigt af sammenhængen.",
+        "Foran et substantiv betyder ganz ofte hel: der ganze Tag = hele dagen.",
+        "Sammen med et adjektiv eller adverbium kan ganz betyde helt eller ret: ganz allein = helt alene, ganz gut = ret godt."
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite den ganzen Tag.",
+          "lv": "Jeg spiser hele æblet."
+        },
+        {
+          "de": "Das ganze Haus ist sauber.",
+          "lv": "Det er ret godt."
+        },
+        {
+          "de": "Das ist ganz sicher.",
+          "lv": "Han er helt alene."
+        },
+        {
+          "de": "Das Essen ist ganz gut.",
+          "lv": "ēdiens ir diezgan labs."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ganz",
+          "meaning": "vesels • viss kopumā • pilnīgi",
+          "example": "der ganze Tag – visa diena"
+        },
+        {
+          "word": "alles",
+          "meaning": "viss",
+          "example": "Alles ist gut. – Viss ir kārtībā."
+        }
+      ],
+      "tip": [
+        "Lietvārda priekšā ganz bieži nozīmē viss vai vesels.",
+        "Īpašības vārda priekšā ganz bieži nozīmē pilnīgi vai diezgan."
+      ],
+      "important": [
+        "Se på ordet efter ganz for at vælge den naturlige danske oversættelse."
+      ]
+    }
   },
   {
     "de": "Garage",
@@ -6861,7 +7319,50 @@ const A1_WORDS = [
   {
     "de": "gefallen",
     "lv": "At kunne lide",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-gefallen-study",
+      "layout": "standardStudy",
+      "translation": "At kunne lide",
+      "explanation": [
+        "Hovedidé: gefallen bruges, når nogen synes godt om noget.",
+        "Den tyske konstruktion er anderledes end den danske: Das gefällt mir = Det kan jeg godt lide.",
+        "Det, man synes om, er subjektet på tysk, mens personen står i dativ."
+      ],
+      "examples": [
+        {
+          "de": "Das gefällt mir.",
+          "lv": "Jeg kan godt lide bogen."
+        },
+        {
+          "de": "Gefällt dir das Kleid?",
+          "lv": "Vi kan godt lide filmen."
+        },
+        {
+          "de": "Der Film gefällt uns.",
+          "lv": "Hvad synes du om det?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefallen",
+          "meaning": "patikt • persona datīvā",
+          "example": "Das gefällt mir. – Man tas patīk."
+        },
+        {
+          "word": "mögen",
+          "meaning": "patikt • labprāt izvēlēties",
+          "example": "Ich mag das. – Man tas patīk."
+        }
+      ],
+      "tip": [
+        "Atceries konstrukciju: Das gefällt mir.",
+        "Neveido burtisku latviešu vārdu secību."
+      ],
+      "important": [
+        "Personen står i dativ: mir, dir, ihm, ihr, uns osv."
+      ]
+    }
   },
   {
     "de": "gegen",
@@ -6904,13 +7405,100 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Geschichten",
     "lv": "Historie • Historie",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschichte-study",
+      "layout": "standardStudy",
+      "translation": "Historie • Fortælling",
+      "explanation": [
+        "Hovedidé: Geschichte kan betyde både historie og fortælling.",
+        "eine Geschichte er en historie eller fortælling, som man for eksempel kan læse eller fortælle.",
+        "Geschichte kan også være historie som skolefag eller fagområde."
+      ],
+      "examples": [
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "Historien er interessant."
+        },
+        {
+          "de": "Ich lerne Geschichte.",
+          "lv": "Jeg læser en historie."
+        },
+        {
+          "de": "Das ist die Geschichte Deutschlands.",
+          "lv": "Vi lærer historie i skolen."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eine Geschichte",
+          "meaning": "stāsts",
+          "example": "eine interessante Geschichte – interesants stāsts"
+        },
+        {
+          "word": "Geschichte",
+          "meaning": "vēsture",
+          "example": "Geschichte lernen – mācīties vēsturi"
+        }
+      ],
+      "tip": [
+        "Ar eine un daudzskaitlī parasti runa ir par stāstu.",
+        "Kā mācību priekšmets Geschichte nozīmē vēsturi."
+      ],
+      "important": [
+        "die Geschichte er hunkøn."
+      ]
+    }
   },
   {
     "de": "Geschwister",
     "de_article": "die",
     "lv": "Brødre og søstre",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschwister-study",
+      "layout": "standardStudy",
+      "translation": "Søskende",
+      "explanation": [
+        "Hovedidé: Geschwister betyder søskende.",
+        "Ordet bruges om brødre og søstre samlet.",
+        "die Geschwister har samme form i flertal."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe zwei Geschwister.",
+          "lv": "Jeg har to søskende."
+        },
+        {
+          "de": "Meine Geschwister wohnen in Berlin.",
+          "lv": "Mine søskende bor i Berlin."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Geschwister",
+          "meaning": "brāļi un māsas",
+          "example": "Meine Geschwister – mani brāļi un māsas"
+        },
+        {
+          "word": "Bruder",
+          "meaning": "brālis",
+          "example": "mein Bruder – mans brālis"
+        },
+        {
+          "word": "Schwester",
+          "meaning": "māsa",
+          "example": "meine Schwester – mana māsa"
+        }
+      ],
+      "tip": [
+        "Geschwister parasti lieto daudzskaitlī.",
+        "Vienai personai izvēlies Bruder vai Schwester."
+      ],
+      "important": [
+        "Geschwister bruges normalt som flertalsord."
+      ]
+    }
   },
   {
     "de": "Gesicht",
@@ -7165,7 +7753,7 @@ const A1_WORDS = [
         "Ofte karakteriseret ved: overordnet størrelse.",
         "Groß betyder primært: menneskelig højde.",
         "Beskriver ofte: en person.",
-        "Groß beskriver størrelse generelt eller højden af ​​en person."
+        "Groß beskriver størrelse generelt eller en persons højde."
       ],
       "examples": [
         {
@@ -7267,7 +7855,51 @@ const A1_WORDS = [
     "de": "Großeltern",
     "de_article": "die",
     "lv": "Bedsteforældre",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-grosseltern-study",
+      "layout": "standardStudy",
+      "translation": "Bedsteforældre",
+      "explanation": [
+        "Hovedidé: Großeltern betyder bedsteforældre.",
+        "Ordet bruges samlet om bedstemor og bedstefar.",
+        "die Großeltern bruges kun i flertal."
+      ],
+      "examples": [
+        {
+          "de": "Meine Großeltern wohnen auf dem Land.",
+          "lv": "Mine bedsteforældre bor på landet."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Jeg besøger mine bedsteforældre."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Großeltern",
+          "meaning": "vecvecāki",
+          "example": "meine Großeltern – mani vecvecāki"
+        },
+        {
+          "word": "Großmutter",
+          "meaning": "vecmāmiņa",
+          "example": "meine Großmutter – mana vecmāmiņa"
+        },
+        {
+          "word": "Großvater",
+          "meaning": "vectētiņš",
+          "example": "mein Großvater – mans vectētiņš"
+        }
+      ],
+      "tip": [
+        "Großeltern ir daudzskaitlis.",
+        "Vienai personai lieto Großmutter vai Großvater."
+      ],
+      "important": [
+        "Kun flertal: die Großeltern."
+      ]
+    }
   },
   {
     "de": "Großmutter",
@@ -7522,26 +8154,26 @@ const A1_WORDS = [
         {
           "word": "haben",
           "meaning": "Jeg har",
-          "example": "Ich habe Zeit. = Man ir laiks."
+          "example": "Ich habe Zeit. = Jeg har tid."
         },
         {
           "word": "sein",
           "meaning": "At være",
-          "example": "Ich bin hier. = Es esmu šeit."
+          "example": "Ich bin hier. = Jeg er her."
         },
         {
           "word": "bekommen",
           "meaning": "At modtage",
-          "example": "Ich bekomme ein Geschenk. = Es saņemu dāvanu."
+          "example": "Ich bekomme ein Geschenk. = Jeg får en gave."
         },
         {
           "word": "machen",
           "meaning": "At gøre/lave",
-          "example": "Ich mache das. = Es to daru."
+          "example": "Ich mache das. = Jeg gør det."
         }
       ],
       "tip": {
-        "text": "Husk: Ich habe → man ir."
+        "text": "Husk: Ich habe → jeg har."
       },
       "important": [
         "på dansk \"Jeg har\" = på tysk Ich habe + akkusativ. Brug ikke dativens kasus: forkert *mir habe.",
@@ -7683,7 +8315,7 @@ const A1_WORDS = [
               "Ich habe"
             ],
             "purple": [
-              "man ir"
+              "jeg har"
             ]
           }
         },
@@ -7757,17 +8389,17 @@ const A1_WORDS = [
         {
           "word": "nehmen",
           "meaning": "At tage",
-          "example": "Ich nehme die Tasche. = Es ņemu somu."
+          "example": "Ich nehme die Tasche. = Jeg tager tasken."
         },
         {
           "word": "anhalten",
           "meaning": "At stoppe",
-          "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
+          "example": "Bitte halten Sie an. = Stop venligst."
         },
         {
           "word": "denken",
           "meaning": "At tænke",
-          "example": "Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi."
+          "example": "Ich denke, das ist richtig. = Jeg tror, det er rigtigt."
         }
       ],
       "tip": {
@@ -7888,10 +8520,7 @@ const A1_WORDS = [
               ]
             },
             "example": {
-              "red": [
-                "Stoppen",
-                "Stoppen"
-              ]
+              "red": []
             }
           },
           {
@@ -7950,7 +8579,50 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Hände",
     "lv": "Hånd (håndflade)",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-hand-study",
+      "layout": "standardStudy",
+      "translation": "Hånd",
+      "explanation": [
+        "Hovedidé: die Hand betyder hånd.",
+        "Ordet bruges om kropsdelen fra håndleddet og ud til fingrene.",
+        "Flertal: die Hände."
+      ],
+      "examples": [
+        {
+          "de": "Ich wasche meine Hände.",
+          "lv": "Jeg vasker mine hænder."
+        },
+        {
+          "de": "Sie hält das Glas in der Hand.",
+          "lv": "Giv mig din hånd."
+        },
+        {
+          "de": "Mein Arm tut weh.",
+          "lv": "Han holder bogen i hånden."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hand",
+          "meaning": "plauksta",
+          "example": "in der Hand – plaukstā"
+        },
+        {
+          "word": "der Arm",
+          "meaning": "roka",
+          "example": "Mein Arm tut weh. – Man sāp roka."
+        }
+      ],
+      "tip": [
+        "Hand = plauksta.",
+        "Arm = roka no pleca līdz plaukstai."
+      ],
+      "important": [
+        "in der Hand = i hånden."
+      ]
+    }
   },
   {
     "de": "Handschuh",
@@ -8045,22 +8717,22 @@ const A1_WORDS = [
         {
           "word": "nennen",
           "meaning": "At ringe/navne",
-          "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
+          "example": "Er nennt mich Tom. = Han kalder mig Tom."
         },
         {
           "word": "bedeuten",
           "meaning": "Betyde",
-          "example": "Was bedeutet das? = Ko tas nozīmē?"
+          "example": "Was bedeutet das? = Hvad betyder det?"
         },
         {
           "word": "rufen",
           "meaning": "Ring/ring",
-          "example": "Ich rufe dich. = Es tevi pasaucu."
+          "example": "Ich rufe dich. = Jeg kalder på dig."
         },
         {
           "word": "anrufen",
-          "meaning": "zvanīt",
-          "example": "Ich rufe dich an. = Es tev piezvanu."
+          "meaning": "at ringe",
+          "example": "Ich rufe dich an. = Jeg ringer til dig."
         }
       ],
       "tip": {
@@ -8510,7 +9182,200 @@ const A1_WORDS = [
   {
     "de": "hübsch",
     "lv": "Pænt • Pænt",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-huebsch",
+      "layout": "standardStudy",
+      "translation": "Pæn • Smuk",
+      "explanation": [
+        "Hovedidé: hübsch betyder pæn, smuk eller tiltalende.",
+        "Om personer oversættes det ofte med pæn eller smuk.",
+        "Om ting kan det ofte oversættes med pæn eller flot."
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt ein hübsches Kleid.",
+          "lv": "Pigen er pæn."
+        },
+        {
+          "de": "Das Zimmer ist hübsch.",
+          "lv": "En pæn kjole."
+        },
+        {
+          "de": "Das ist ein hübsches Bild.",
+          "lv": "Dit værelse er pænt."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hübsch",
+          "meaning": "glīts • pievilcīgs pēc izskata",
+          "example": "Das ist ein hübsches Kleid. – Tā ir glīta kleita."
+        },
+        {
+          "word": "schön",
+          "meaning": "skaists • patīkams",
+          "example": "Der Garten ist schön. – Dārzs ir skaists."
+        },
+        {
+          "word": "nett",
+          "meaning": "jauks • laipns",
+          "example": "Sie ist sehr nett. – Viņa ir ļoti jauka."
+        }
+      ],
+      "tip": {
+        "text": "Husk: hübsch beskriver noget eller nogen, der ser pæn, smuk eller tiltalende ud."
+      },
+      "important": [
+        "Betydningen afhænger af sammenhængen: pæn, smuk eller flot."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hübsch"
+          ],
+          "purple": [
+            "glīts",
+            "pievilcīgs",
+            "simpātisks"
+          ],
+          "green": [
+            "izskatu"
+          ],
+          "yellow": [
+            "nett"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ],
+              "green": [
+                "Kleid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ],
+              "green": [
+                "kleita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hübsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "glīts",
+                "pievilcīgs"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hübsches"
+              ],
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skaists",
+                "patīkams"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jauks",
+                "laipns"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts izskats"
+            ],
+            "yellow": [
+              "nett"
+            ],
+            "green": [
+              "jauks cilvēks"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts"
+            ]
+          },
+          {
+            "yellow": [
+              "nett"
+            ],
+            "purple": [
+              "jauks",
+              "laipns"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "hundert",
@@ -8536,7 +9401,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Du • Hende",
       "explanation": [
-        "Hovedidé: ihr er to forskellige pronominer med samme stavemåde - henvender sig til flere personer (dig) og dativformen af ​​pronomenet sie (hende/hun).",
+        "Hovedidé: ihr har flere funktioner. Det kan være pronomenet \"I\" for flere personer eller dativformen af sie, \"hende\".",
         "Med små bogstaver ihr som adresse til flere personer oversættes som dig (Kommt ihr mit? = Kommer du med?).",
         "Ihr som besiddende pronomen betyder hende (ihr Buch = hendes bog).",
         "Ihr som dativform (af sie) betyder for hende (Ich gebe ihr das Buch. = jeg giver hende en bog.).",
@@ -8570,7 +9435,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "ihr med verbet dsk. form (kommt, habt) = dig; ihr ved siden af ​​et ord som dativ eller besiddelse = hendes/hendes.",
+        "ihr sammen med en verbalform som kommt eller habt betyder \"I\"; ihr i andre sammenhænge kan blandt andet betyde \"hende\" eller \"hendes\".",
         "Tjek: Har du...? / Kommt ihr...? = dig; Ich gebe ihr... / ihr Buch = for hende/hendes."
       ],
       "important": [
@@ -9978,7 +10843,7 @@ const A1_WORDS = [
       "translation": "At vide",
       "explanation": [
         "Hovedidé: At kende et faktum, svar eller information.",
-        "Wissen betyder hovedsageligt: ​​information/fakta.",
+        "Wissen betyder hovedsageligt: viden, information eller fakta.",
         "Ofte præget af: svar, data.",
         "Wissen bruges, når du kender et faktum, svar eller information."
       ],
@@ -10144,22 +11009,22 @@ const A1_WORDS = [
         {
           "word": "können",
           "meaning": "Kunne/kende",
-          "example": "Ich kann schwimmen. = Es protu peldēt."
+          "example": "Ich kann schwimmen. = Jeg kan svømme."
         },
         {
           "word": "dürfen",
           "meaning": "At få lov",
-          "example": "Darf ich gehen? = Vai drīkstu iet?"
+          "example": "Darf ich gehen? = Må jeg gå?"
         },
         {
           "word": "müssen",
           "meaning": "Behøver/være ja-",
-          "example": "Ich muss lernen. = Man jāmācās."
+          "example": "Ich muss lernen. = Jeg skal lære."
         },
         {
           "word": "wissen",
           "meaning": "At vide",
-          "example": "Ich weiß das. = Es to zinu."
+          "example": "Ich weiß das. = Jeg ved det."
         }
       ],
       "tip": {
@@ -10377,22 +11242,22 @@ const A1_WORDS = [
         {
           "word": "kosten",
           "meaning": "Betal (pris) • Hvor meget",
-          "example": "Das kostet 5 Euro. = Tas maksā 5 eiro."
+          "example": "Das kostet 5 Euro. = Det koster 5 euro."
         },
         {
           "word": "bezahlen",
           "meaning": "Betal • Betal (penge)",
-          "example": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
+          "example": "Ich bezahle die Rechnung. = Jeg betaler regningen."
         },
         {
           "word": "zahlen",
           "meaning": "At betale • At betale",
-          "example": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
+          "example": "Kann ich bar zahlen? = Kan jeg betale kontant?"
         },
         {
           "word": "Was kostet...?",
           "meaning": "Hvor meget koster det...?",
-          "example": "Was kostet das Buch? = Cik maksā grāmata?"
+          "example": "Was kostet das Buch? = Hvad koster bogen?"
         }
       ],
       "tip": [
@@ -11166,7 +12031,7 @@ const A1_WORDS = [
       "explanation": [
         "Hovedidé: lang rumligt betyder lang, tidsmæssigt lang.",
         "Når det kommer til størrelse eller afstand, er lang = lang (ein langer Tisch = langbord).",
-        "Når det kommer til længden af ​​tid, lang = lang (ein langer Tag = lang dag).",
+        "Når det handler om tid, betyder lang \"lang\": ein langer Tag = en lang dag.",
         "I sætningen den ganzen Tag lang betyder det hele dagen (i længden).",
         "Engelsk 'lang' i forskellige sammenhænge er to forskellige ord, men tysk lang dækker begge betydninger."
       ],
@@ -11759,7 +12624,7 @@ const A1_WORDS = [
       "translation": "Højt",
       "explanation": [
         "Hovedidé: Adjektiv med små bogstaver. Beskriver lydstyrke - hvor høj en lyd eller tale er.",
-        "Laut betyder hovedsageligt: ​​høj lyd.",
+        "Laut betyder hovedsageligt: høj eller kraftig lyd.",
         "Beskriver ofte: adjektiv.",
         "Laut betyder i bund og grund: lydsignal.",
         "Beskriver ofte: navneord (der).",
@@ -11917,7 +12782,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Lyden",
       "explanation": [
-        "Hovedidé: Et navneord med en artikel passer til og skrives med stort. Betyder lyd som en ting, et signal eller lyden af ​​sprog.",
+        "Hovedidé: Der Laut er et navneord og skrives med stort begyndelsesbogstav. Det betyder en lyd eller sproglyd.",
         "Der Laut betyder primært: høj lyd.",
         "Beskriver ofte: adjektiv.",
         "Der Laut betyder primært: lydsignal.",
@@ -13800,7 +14665,7 @@ const A1_WORDS = [
       "translation": "I morgen",
       "explanation": [
         "Hovedidé: Adverbiet af tid er små bogstaver. Betyder næste dag - i morgen.",
-        "Morgen betyder hovedsageligt: ​​næste dag.",
+        "morgen betyder hovedsageligt: den næste dag.",
         "Ofte præget af: vejr.",
         "Morgen betyder primært: en del af dagen.",
         "Beskriver ofte: navneord (der).",
@@ -13958,7 +14823,7 @@ const A1_WORDS = [
       "translation": "Morgenen",
       "explanation": [
         "Hovedidé: Et navneord med en artikel passer til og skrives med stort. Dag del - morgen.",
-        "Der Morgen betyder hovedsageligt: ​​næste dag.",
+        "Der Morgen betyder hovedsageligt: morgenen, den tidlige del af dagen.",
         "Ofte præget af: vejr.",
         "Der Morgen betyder primært: en del af dagen.",
         "Beskriver ofte: navneord (der).",
@@ -14170,7 +15035,7 @@ const A1_WORDS = [
       },
       "important": [
         "müssen er et modalt verbum.",
-        "Det andet verbum går normalt i slutningen af ​​sætningen: Ich muss heute arbeiten."
+        "Det andet verbum står normalt sidst i sætningen: Ich muss heute arbeiten."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14644,7 +15509,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Som et separat ord, bekræftelse eller besvarelse → selvfølgelig.",
-        "Ved siden af ​​et substantiv, der beskriver en oprindelse eller kvalitet → naturlig."
+        "Sammen med et substantiv kan natürlich beskrive noget naturligt eller en naturlig egenskab."
       ],
       "important": [
         "natürlich = selvfølgelig (adverbium, bekræftelse) ELLER naturlig (tillægsord).",
@@ -15022,7 +15887,7 @@ const A1_WORDS = [
         "Neu beskriver ting, enheder, tøj, huse, ideer osv. - ikke menneske- eller dyrealder.",
         "på dansk har ordet ung to betydninger: ung i alderen (jung) og ung/nyligt oprettet (neu).",
         "For en persons eller et dyrs alder bruges jung, ikke neu.",
-        "Neu bruges også billedligt: ​​nyt job, ny information, ny begyndelse.",
+        "Neu bruges også billedligt: nyt job, ny information, ny begyndelse.",
         "Det modsatte er alt (gammelt) • Navneordet das Neue betyder nyt."
       ],
       "examples": [
@@ -15254,7 +16119,7 @@ const A1_WORDS = [
       "translation": "Endnu",
       "explanation": [
         "Hovedidé: Noget der stadig foregår eller endnu ikke er færdigt.",
-        "Noch betyder hovedsageligt: ​​noget, der stadig foregår.",
+        "Noch betyder her hovedsageligt, at noget stadig foregår. --------------------------------------------------------------------------------------------------------------------- - **Pārskatīti:** 50/50 - **LABOT:** 50 - **FALSE_POSITIVE:** 0 - **NELABOT:** 0 - **NEEDS_SOURCE_REVIEW:** 0 - **DE changes:** 0 - **90--96:** ne tikai izņemti zero-width artefakti; salaboti arī mehāniski vai semantiski neveikli dāņu formulējumi. - **102--109:** mehāniskie skaidrojumi precizēti, kur vienkārša Unicode tīrīšana neatrisinātu satura kvalitāti. Fails gatavs deterministiskam **COPY-ONLY** apply.",
         "Beskriver ofte: fortsættelse eller ufærdig tilstand.",
         "Noch betyder stadig: noget, der stadig foregår eller endnu ikke afsluttet."
       ],
@@ -15747,7 +16612,7 @@ const A1_WORDS = [
         "Hovedidé: oder bruges, når vi vælger mellem to eller flere muligheder.",
         "på dansk betyder oder oftest eller.",
         "Det er ikke det samme som ob, som introducerer et indirekte spørgsmål.",
-        "I samtaler kan oder også stå i slutningen af ​​sætningen: Du kommst, oder?"
+        "I samtaler kan oder også stå i slutningen af sætningen: Du kommst, oder?"
       ],
       "examples": [
         {
@@ -16745,7 +17610,7 @@ const A1_WORDS = [
       "translation": "At sige",
       "explanation": [
         "Hovedidé: Fortæl en bestemt idé, ord eller sætning.",
-        "Sagen betyder hovedsageligt: ​​at komme med en bestemt pointe.",
+        "Sagen betyder hovedsageligt: at sige noget eller udtrykke en bestemt tanke.",
         "Beskriver ofte: ord/sætninger.",
         "Sagen bruges til en bestemt given tekst."
       ],
@@ -16996,7 +17861,7 @@ const A1_WORDS = [
       "translation": "Allerede",
       "explanation": [
         "Hovedidé: Noget er allerede sket eller er allerede i kraft.",
-        "Schon betyder hovedsageligt: ​​noget er allerede sket eller er i kraft.",
+        "Schon betyder hovedsageligt, at noget allerede er sket eller allerede gælder.",
         "Beskriver ofte: et faktum, der skete, eller en eksisterende tilstand.",
         "Schon betyder allerede: noget er allerede sket eller er allerede i kraft."
       ],
@@ -17638,7 +18503,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Husk: ich bin = es esmu; du bist = tu esi."
+        "text": "Husk: ich bin = jeg er; du bist = du er."
       },
       "important": [
         "sein-former skal læres særskilt: bin, bist, ist, sind.",
@@ -17774,7 +18639,7 @@ const A1_WORDS = [
               "du bist"
             ],
             "purple": [
-              "es esmu",
+              "jeg er",
               "tu esi"
             ]
           }
@@ -17805,7 +18670,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Side • Side",
       "explanation": [
-        "Hovedidé: Die Seite kan betyde siden af ​​en bog/dokument eller siden/kanten af ​​noget.",
+        "Hovedidé: Die Seite kan betyde en side i en bog eller et dokument, men også en side af noget.",
         "I en bog, et blad eller en hjemmeside er den Seite = side (Seite 5 = side 5).",
         "I rumlig forstand er die Seite = side (auf der linken Seite = til venstre).",
         "I overført betydning kan die Seite også betyde en side i konflikt eller tanker (auf meiner Seite = på min side).",
@@ -18350,11 +19215,11 @@ const A1_WORDS = [
       "translation": "De/hende",
       "explanation": [
         "Hovedidé: Flertal - taler om mere end én person. Verbet ender på -en: kochen, essen, gehen.",
-        "Sie betyder hovedsageligt: ​​én kvinde.",
+        "sie betyder her hovedsageligt: hun.",
         "Ofte karakteriseret ved: ental verbum (-t).",
-        "Sie betyder hovedsageligt: ​​flere personer.",
+        "sie betyder her hovedsageligt: de.",
         "Ofte karakteriseret ved: flertal verbum (-en).",
-        "Sie betyder hovedsageligt: ​​høflig adresse.",
+        "Sie betyder her hovedsageligt: De, som høflig tiltale.",
         "Ofte beskrevet: nødvendigvis med stort S.",
         "Den lille sie betyder hende, når verbet er ental (Sie kocht = hun laver mad)."
       ],
@@ -18504,9 +19369,9 @@ const A1_WORDS = [
         "Hovedidé: Høflighedsadresse - altid med stort S. på dansk: dig. Ofte med et verbum i flertal.",
         "Sie betyder grundlæggende: én kvinde.",
         "Ofte karakteriseret ved: ental verbum (-t).",
-        "Sie betyder hovedsageligt: ​​flere personer.",
+        "sie betyder her hovedsageligt: de.",
         "Ofte karakteriseret ved: flertal verbum (-en).",
-        "Sie betyder hovedsageligt: ​​høflig adresse.",
+        "Sie betyder her hovedsageligt: De, som høflig tiltale.",
         "Ofte beskrevet: nødvendigvis med stort S.",
         "Den lille sie betyder hende, når verbet er ental (Sie kocht = hun laver mad)."
       ],
@@ -19922,7 +20787,7 @@ const A1_WORDS = [
         "text": "Husk: um acht = klokken otte."
       },
       "important": [
-        "um ar laiku parasti ir “pulksten”.",
+        "Ved klokkeslæt svarer um normalt til \"klokken\" på dansk.",
         "um ... zu betyder ofte \"at ...\"."
       ],
       "sectionAccents": {
@@ -22738,7 +23603,7 @@ const A1_WORDS = [
       "explanation": [
         "Hovedidé: der Zug på A1-niveau betyder oftest tog.",
         "Det bruges i hverdagssituationer om kørsel, ankomst og afgang.",
-        "I nogle andre betydninger kan Zug være en march, et udkast eller et indslag, men disse er ikke hovedbetydningen af ​​A1.",
+        "Zug har også andre betydninger, men på A1-niveau er tog den vigtigste.",
         "Meget almindelige sætninger er mit dem Zug fahren og Der Zug kommt."
       ],
       "examples": [
@@ -23340,17 +24205,17 @@ const A1_WORDS = [
         {
           "word": "fernsehen",
           "meaning": "Se tv",
-          "example": "Ich sehe fern. = Es skatos televīziju."
+          "example": "Ich sehe fern. = Jeg ser fjernsyn."
         },
         {
           "word": "das Fernsehen",
           "meaning": "Fjernsyn (medier)",
-          "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
+          "example": "Im Fernsehen läuft ein Film. = Der vises en film i fjernsynet."
         },
         {
           "word": "sehen",
           "meaning": "At se",
-          "example": "Ich sehe einen Film. = Es redzu filmu."
+          "example": "Ich sehe einen Film. = Jeg ser en film."
         }
       ],
       "tip": {
@@ -23574,7 +24439,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Appetit",
       "explanation": [
-        "Hovedidé: Følelsen af ​​at ville spise. kun ental - ingen flertal.",
+        "Hovedidé: Appetit er lysten til at spise. Ordet bruges normalt i ental.",
         "Der Appetit betyder grundlæggende: lysten til at spise.",
         "Beskriver ofte: følelse (kun ental).",
         "Der Appetit er kun ental – appetit.",
@@ -24096,7 +24961,7 @@ const A1_WORDS = [
       "translation": "Frugter",
       "explanation": [
         "Hovedidé: Frugt generelt. Tysk har ingen flertalsform *die Obsts.",
-        "Das Obst betyder hovedsageligt: ​​frugt generelt.",
+        "Das Obst betyder hovedsageligt: frugt generelt.",
         "Ofte beskrevet: i ethvert køn (kun ental)."
       ],
       "examples": [
