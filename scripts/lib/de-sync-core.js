@@ -608,5 +608,8 @@ module.exports = {
   syncSectionAccentsDe,
   restoreDeFields,
   loadArray,
+  writeArrayFile,
+  findDash,
+  VAR_NAMES,
   LEVELS,
 };
