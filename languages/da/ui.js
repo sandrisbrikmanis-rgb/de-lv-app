@@ -249,7 +249,7 @@ window.LANGUAGE_UI_STRINGS = {
       "grammar": "Grammatik",
       "exercise": "Øvelse",
       "translate": "Oversæt",
-      "exerciseCombined": "Übung / Øvelse"
+      "exerciseCombined": "Øvelse"
     },
     "hints": {
       "tapToRevealAnswer": "Tryk på kortet for at se svaret.",
@@ -267,10 +267,10 @@ window.LANGUAGE_UI_STRINGS = {
       "transformFirstPlural": "Omskriv sætningen til 1. person flertal."
     },
     "exerciseMeta": {
-      "fillCase": "Übung I — Brug den rigtige bøjning",
+      "fillCase": "Øvelse I — Brug den rigtige bøjning",
       "chooseCasePlural": "Sæt den rigtige bøjning og lav flertal!",
       "answerPlural": "Svar nu i flertal.",
-      "translate": "Übung II — oversæt",
+      "translate": "Øvelse II — oversæt",
       "formDu": "Form 1/3: Du (ental)",
       "formIhr": "Form 2/3: I (flertal)",
       "formSie": "Form 3/3: Sie (høflig form)"
@@ -314,11 +314,11 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "10": {
         "title": "Lektion 10",
-        "menuDesc": "Sein, können, helbred, alder og erhverv."
+        "menuDesc": "Sein, können, sundhed, alder og erhverv."
       },
       "11": {
         "title": "Lektion 11",
-        "menuDesc": "Haben, kein/keine/keinen, possessiv og sammensatte substantiver."
+        "menuDesc": "Haben, kein/keine/keinen, ejedord og sammensatte substantiver."
       },
       "12": {
         "title": "Lektion 12",

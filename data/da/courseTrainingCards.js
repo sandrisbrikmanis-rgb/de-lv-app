@@ -53,7 +53,7 @@ window.lesson2TrainingCardsDa = [
     "back": "Wer fragt?"
   },
   {
-    "front": "Spørger Paul.",
+    "front": "Paul spørger.",
     "back": "Paul fragt."
   },
   {
@@ -112,7 +112,7 @@ window.lesson2TrainingCardsDa = [
 
 window.lesson3TrainingCardsDa = [
   {
-    "front": "Tæller du",
+    "front": "Tæller du?",
     "back": "Rechnest du?"
   },
   {
@@ -132,7 +132,7 @@ window.lesson3TrainingCardsDa = [
     "back": "Was liegt hier?"
   },
   {
-    "front": "Her er bogen.",
+    "front": "Her ligger en bog.",
     "back": "Hier liegt ein Buch."
   },
   {
@@ -196,7 +196,7 @@ window.lesson3TrainingCardsDa = [
     "back": "Was hängt dort?"
   },
   {
-    "front": "Der hænger en tavle der.",
+    "front": "Der hænger en tavle.",
     "back": "Dort hängt eine Tafel."
   }
 ];
@@ -239,7 +239,7 @@ window.lesson4TrainingCardsDa = [
     "back": "Ist das Messer stumpf?"
   },
   {
-    "front": "Nej, den er skarp.",
+    "front": "Nej, det er skarpt.",
     "back": "Nein, es ist scharf."
   },
   {
@@ -278,7 +278,7 @@ window.lesson5TrainingCardsDa = [
     "back": "Wen lobt die Lehrerin?"
   },
   {
-    "front": "Hvad tager du",
+    "front": "Hvad tager du?",
     "back": "Was nimmst du?"
   },
   {
@@ -290,7 +290,7 @@ window.lesson5TrainingCardsDa = [
     "back": "Wen tadelt der Lehrer?"
   },
   {
-    "front": "Spørger læreren eleven.",
+    "front": "Læreren spørger eleven.",
     "back": "Der Lehrer fragt den Schüler."
   },
   {
@@ -310,11 +310,11 @@ window.lesson5TrainingCardsDa = [
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
-    "front": "Pigen tager en fjerpen, en fjer og en kniv.",
+    "front": "Pigen tager en penneholder, en pen og en kniv.",
     "back": "Das Mädchen nimmt den Federhalter, die Feder und das Messer."
   },
   {
-    "front": "Hun lægger kniven og fjerpen.",
+    "front": "Hun lægger kniven og penneholderen.",
     "back": "Sie legt das Messer und den Federhalter hin."
   },
   {
@@ -373,7 +373,7 @@ window.lesson6TrainingCardsDa = [
     "back": "Ich nehme drei Nadeln."
   },
   {
-    "front": "Jeg satte to nåle.",
+    "front": "Jeg lægger to nåle.",
     "back": "Ich lege zwei Nadeln hin."
   },
   {
