@@ -49,7 +49,7 @@ function main() {
   md.push("# DA–DE A2 pilns lingvistiskais un kvalitātes audits");
   md.push("");
   md.push(`**Datums:** ${meta.date}`);
-  md.push("**Auditors:** GPT (READ-ONLY)");
+  md.push("**Auditors:** GPT-5.6 Luna (READ-ONLY)");
   md.push("**Production fails:** `data/da/a2.js` (primārais) + `www/data/da/a2.js` (mirror)");
   md.push(`**Piezīme:** ${meta.note}`);
   md.push(`**DE etalons (tikai lasīšana):** \`${meta.deReference}\``);
