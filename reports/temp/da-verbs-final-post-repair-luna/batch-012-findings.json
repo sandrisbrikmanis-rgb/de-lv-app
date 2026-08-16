@@ -1,0 +1,29 @@
+{
+  "batch": "batch-012",
+  "findings": [
+    {
+      "cardId": "verb-112",
+      "field": "imperfektIndikativ",
+      "de": "er schliff",
+      "daCurrent": "Han kværnede",
+      "severity": "HIGH",
+      "problem": "Inconsistent verb stem within schleifen card.",
+      "reason": "Infinitiv and present use slibe (grind/hone), but preterite uses kværne (mill/grind grain). schleifen in the sharpen/hone sense should stay on the slibe paradigm (Han sleb / Han slibede).",
+      "recommendedDa": "Han sleb",
+      "category": "CONSISTENCY",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-112",
+      "field": "partizipVergangenheit",
+      "de": "geschliffen",
+      "daCurrent": "Poleret",
+      "severity": "HIGH",
+      "problem": "Inconsistent verb stem within schleifen card.",
+      "reason": "Participle uses polere (polish) while infinitiv is At slibe. Past participle of slibe is Slibet, not Poleret — three different Danish verbs appear on one card.",
+      "recommendedDa": "Slibet",
+      "category": "CONSISTENCY",
+      "status": "FAIL"
+    }
+  ]
+}

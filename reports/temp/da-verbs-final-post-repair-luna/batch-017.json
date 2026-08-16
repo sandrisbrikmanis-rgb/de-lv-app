@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_final_post_repair",
+  "batch": "batch-017",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA (lv) vs DE for each verb form. Flag real Danish linguistic/semantic/paradigm issues. Do NOT suggest DE changes. FALSE_POSITIVE if grammatically valid.",
+  "forms": [
+    {
+      "cardId": "verb-160",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "tun",
+      "daCurrent": "At gøre",
+      "verbIndex": 160
+    },
+    {
+      "cardId": "verb-160",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er tut",
+      "daCurrent": "Det gør han",
+      "verbIndex": 160
+    },
+    {
+      "cardId": "verb-160",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er tat",
+      "daCurrent": "Det gjorde han",
+      "verbIndex": 160
+    },
+    {
+      "cardId": "verb-160",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er täte",
+      "daCurrent": "Han ville gøre",
+      "verbIndex": 160
+    },
+    {
+      "cardId": "verb-160",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "getan",
+      "daCurrent": "Gjort",
+      "verbIndex": 160
+    },
+    {
+      "cardId": "verb-161",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "verderben",
+      "daCurrent": "At ødelægge",
+      "verbIndex": 161
+    },
+    {
+      "cardId": "verb-161",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er verdirbt",
+      "daCurrent": "Han ødelægger",
+      "verbIndex": 161
+    },
+    {
+      "cardId": "verb-161",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er verdarb",
+      "daCurrent": "Han beskadigede",
+      "verbIndex": 161
+    },
+    {
+      "cardId": "verb-161",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er verdürbe",
+      "daCurrent": "Han ville skade",
+      "verbIndex": 161
+    },
+    {
+      "cardId": "verb-161",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "verdorben",
+      "daCurrent": "Beskadiget",
+      "verbIndex": 161
+    },
+    {
+      "cardId": "verb-162",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "verdrießen",
+      "daCurrent": "At ærgre",
+      "verbIndex": 162
+    },
+    {
+      "cardId": "verb-162",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er verdrießt",
+      "daCurrent": "Han volder ærgrelse",
+      "verbIndex": 162
+    },
+    {
+      "cardId": "verb-162",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er verdross",
+      "daCurrent": "Han voldte ærgrelse",
+      "verbIndex": 162
+    },
+    {
+      "cardId": "verb-162",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er verdrösse",
+      "daCurrent": "Han ville volde ærgrelse",
+      "verbIndex": 162
+    },
+    {
+      "cardId": "verb-162",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "verdrossen",
+      "daCurrent": "Ærgret",
+      "verbIndex": 162
+    },
+    {
+      "cardId": "verb-163",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "vergessen",
+      "daCurrent": "At glemme",
+      "verbIndex": 163
+    },
+    {
+      "cardId": "verb-163",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er vergisst",
+      "daCurrent": "Han glemmer",
+      "verbIndex": 163
+    },
+    {
+      "cardId": "verb-163",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er vergass",
+      "daCurrent": "Han glemte",
+      "verbIndex": 163
+    },
+    {
+      "cardId": "verb-163",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er vergäße",
+      "daCurrent": "Han ville glemme",
+      "verbIndex": 163
+    },
+    {
+      "cardId": "verb-163",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "vergessen",
+      "daCurrent": "Glemt",
+      "verbIndex": 163
+    },
+    {
+      "cardId": "verb-164",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "verlieren",
+      "daCurrent": "At tabe",
+      "verbIndex": 164
+    },
+    {
+      "cardId": "verb-164",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er verliert",
+      "daCurrent": "Han taber",
+      "verbIndex": 164
+    },
+    {
+      "cardId": "verb-164",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er verlor",
+      "daCurrent": "Han tabte",
+      "verbIndex": 164
+    },
+    {
+      "cardId": "verb-164",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er verlöre",
+      "daCurrent": "Han ville tabe",
+      "verbIndex": 164
+    },
+    {
+      "cardId": "verb-164",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "verloren",
+      "daCurrent": "Tabt",
+      "verbIndex": 164
+    },
+    {
+      "cardId": "verb-165",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "wachsen",
+      "daCurrent": "At vokse",
+      "verbIndex": 165
+    },
+    {
+      "cardId": "verb-165",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er wächst",
+      "daCurrent": "Han vokser",
+      "verbIndex": 165
+    },
+    {
+      "cardId": "verb-165",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er wuchs",
+      "daCurrent": "Han voksede op",
+      "verbIndex": 165
+    },
+    {
+      "cardId": "verb-165",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er wüchse",
+      "daCurrent": "Han ville vokse",
+      "verbIndex": 165
+    },
+    {
+      "cardId": "verb-165",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gewachsen (er ist)",
+      "daCurrent": "Vokset",
+      "verbIndex": 165
+    },
+    {
+      "cardId": "verb-166",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "waschen",
+      "daCurrent": "At vaske",
+      "verbIndex": 166
+    },
+    {
+      "cardId": "verb-166",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er wäscht",
+      "daCurrent": "Han vasker",
+      "verbIndex": 166
+    },
+    {
+      "cardId": "verb-166",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er wusch",
+      "daCurrent": "Han vaskede",
+      "verbIndex": 166
+    },
+    {
+      "cardId": "verb-166",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er wüsche",
+      "daCurrent": "Han ville vaske",
+      "verbIndex": 166
+    },
+    {
+      "cardId": "verb-166",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gewaschen",
+      "daCurrent": "Vasket",
+      "verbIndex": 166
+    },
+    {
+      "cardId": "verb-167",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "weben",
+      "daCurrent": "At væve",
+      "verbIndex": 167
+    },
+    {
+      "cardId": "verb-167",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er webt",
+      "daCurrent": "Han væver",
+      "verbIndex": 167
+    },
+    {
+      "cardId": "verb-167",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "wob",
+      "daCurrent": "Han vævede",
+      "verbIndex": 167
+    },
+    {
+      "cardId": "verb-167",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "wob",
+      "daCurrent": "Han ville væve",
+      "verbIndex": 167
+    },
+    {
+      "cardId": "verb-167",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gewoben",
+      "daCurrent": "Vævet",
+      "verbIndex": 167
+    },
+    {
+      "cardId": "verb-168",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "weichen",
+      "daCurrent": "At trække sig tilbage",
+      "verbIndex": 168
+    },
+    {
+      "cardId": "verb-168",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er weicht",
+      "daCurrent": "Han bakker",
+      "verbIndex": 168
+    },
+    {
+      "cardId": "verb-168",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er wich",
+      "daCurrent": "Han trådte tilbage",
+      "verbIndex": 168
+    },
+    {
+      "cardId": "verb-168",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er wiche",
+      "daCurrent": "Han ville trække sig",
+      "verbIndex": 168
+    },
+    {
+      "cardId": "verb-168",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gewichen (er ist)",
+      "daCurrent": "Viget",
+      "verbIndex": 168
+    },
+    {
+      "cardId": "verb-169",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "weisen",
+      "daCurrent": "Vise",
+      "verbIndex": 169
+    },
+    {
+      "cardId": "verb-169",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er weist",
+      "daCurrent": "Han viser",
+      "verbIndex": 169
+    },
+    {
+      "cardId": "verb-169",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er wies",
+      "daCurrent": "Han viste",
+      "verbIndex": 169
+    },
+    {
+      "cardId": "verb-169",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er wiese",
+      "daCurrent": "Han ville vise",
+      "verbIndex": 169
+    },
+    {
+      "cardId": "verb-169",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gewiesen",
+      "daCurrent": "Vist",
+      "verbIndex": 169
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_final_post_repair",
+  "batch": "batch-003",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA (lv) vs DE for each verb form. Flag real Danish linguistic/semantic/paradigm issues. Do NOT suggest DE changes. FALSE_POSITIVE if grammatically valid.",
+  "forms": [
+    {
+      "cardId": "verb-20",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "gleichen",
+      "daCurrent": "At ligne",
+      "verbIndex": 20
+    },
+    {
+      "cardId": "verb-20",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er gleicht",
+      "daCurrent": "Han ligner",
+      "verbIndex": 20
+    },
+    {
+      "cardId": "verb-20",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er glich",
+      "daCurrent": "Han lignede",
+      "verbIndex": 20
+    },
+    {
+      "cardId": "verb-20",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er gliche",
+      "daCurrent": "Han ville ligne",
+      "verbIndex": 20
+    },
+    {
+      "cardId": "verb-20",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geglichen",
+      "daCurrent": "Lignet",
+      "verbIndex": 20
+    },
+    {
+      "cardId": "verb-21",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "gleiten",
+      "daCurrent": "At glide",
+      "verbIndex": 21
+    },
+    {
+      "cardId": "verb-21",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er gleitet",
+      "daCurrent": "Han glider",
+      "verbIndex": 21
+    },
+    {
+      "cardId": "verb-21",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er glitt",
+      "daCurrent": "Han gled",
+      "verbIndex": 21
+    },
+    {
+      "cardId": "verb-21",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er glitte",
+      "daCurrent": "Han ville glide",
+      "verbIndex": 21
+    },
+    {
+      "cardId": "verb-21",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geglitten (er ist)",
+      "daCurrent": "Glidet",
+      "verbIndex": 21
+    },
+    {
+      "cardId": "verb-22",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "glimmen",
+      "daCurrent": "At gløde",
+      "verbIndex": 22
+    },
+    {
+      "cardId": "verb-22",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er glimmt",
+      "daCurrent": "Han gløder",
+      "verbIndex": 22
+    },
+    {
+      "cardId": "verb-22",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er glimmte / glomm",
+      "daCurrent": "Han glødede",
+      "verbIndex": 22
+    },
+    {
+      "cardId": "verb-22",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er glimmte",
+      "daCurrent": "Han ville gløde",
+      "verbIndex": 22
+    },
+    {
+      "cardId": "verb-22",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geglimmt / geglommen",
+      "daCurrent": "Glødet",
+      "verbIndex": 22
+    },
+    {
+      "cardId": "verb-23",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "graben",
+      "daCurrent": "At grave",
+      "verbIndex": 23
+    },
+    {
+      "cardId": "verb-23",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er gräbt",
+      "daCurrent": "Han graver",
+      "verbIndex": 23
+    },
+    {
+      "cardId": "verb-23",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er grub",
+      "daCurrent": "Han gravede",
+      "verbIndex": 23
+    },
+    {
+      "cardId": "verb-23",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er grübe",
+      "daCurrent": "Han ville grave",
+      "verbIndex": 23
+    },
+    {
+      "cardId": "verb-23",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gegraben",
+      "daCurrent": "Gravet",
+      "verbIndex": 23
+    },
+    {
+      "cardId": "verb-24",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "greifen",
+      "daCurrent": "At fange",
+      "verbIndex": 24
+    },
+    {
+      "cardId": "verb-24",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er greift",
+      "daCurrent": "Han fanger",
+      "verbIndex": 24
+    },
+    {
+      "cardId": "verb-24",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er griff",
+      "daCurrent": "Han fangede",
+      "verbIndex": 24
+    },
+    {
+      "cardId": "verb-24",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er griffe",
+      "daCurrent": "Han ville fange",
+      "verbIndex": 24
+    },
+    {
+      "cardId": "verb-24",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gegriffen",
+      "daCurrent": "Grebet",
+      "verbIndex": 24
+    },
+    {
+      "cardId": "verb-25",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "hauen",
+      "daCurrent": "At slå",
+      "verbIndex": 25
+    },
+    {
+      "cardId": "verb-25",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er haut",
+      "daCurrent": "Han slår",
+      "verbIndex": 25
+    },
+    {
+      "cardId": "verb-25",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er hieb",
+      "daCurrent": "Han slog",
+      "verbIndex": 25
+    },
+    {
+      "cardId": "verb-25",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er hiebe",
+      "daCurrent": "Han ville slå",
+      "verbIndex": 25
+    },
+    {
+      "cardId": "verb-25",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gehauen",
+      "daCurrent": "Slået",
+      "verbIndex": 25
+    },
+    {
+      "cardId": "verb-26",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "heben",
+      "daCurrent": "At løfte",
+      "verbIndex": 26
+    },
+    {
+      "cardId": "verb-26",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er hebt",
+      "daCurrent": "Han løfter",
+      "verbIndex": 26
+    },
+    {
+      "cardId": "verb-26",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er hob",
+      "daCurrent": "Han løftede",
+      "verbIndex": 26
+    },
+    {
+      "cardId": "verb-26",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er höbe",
+      "daCurrent": "Han ville løfte",
+      "verbIndex": 26
+    },
+    {
+      "cardId": "verb-26",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gehoben",
+      "daCurrent": "Løftet",
+      "verbIndex": 26
+    },
+    {
+      "cardId": "verb-27",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "kennen",
+      "daCurrent": "At kende",
+      "verbIndex": 27
+    },
+    {
+      "cardId": "verb-27",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er kennt",
+      "daCurrent": "Han kender",
+      "verbIndex": 27
+    },
+    {
+      "cardId": "verb-27",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "kannte",
+      "daCurrent": "Han kendte",
+      "verbIndex": 27
+    },
+    {
+      "cardId": "verb-27",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "kannte",
+      "daCurrent": "Han ville kende",
+      "verbIndex": 27
+    },
+    {
+      "cardId": "verb-27",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gekannt",
+      "daCurrent": "Kendt",
+      "verbIndex": 27
+    },
+    {
+      "cardId": "verb-28",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "klingen",
+      "daCurrent": "At lyde",
+      "verbIndex": 28
+    },
+    {
+      "cardId": "verb-28",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er klingt",
+      "daCurrent": "Lyder han",
+      "verbIndex": 28
+    },
+    {
+      "cardId": "verb-28",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er klang",
+      "daCurrent": "Lød han",
+      "verbIndex": 28
+    },
+    {
+      "cardId": "verb-28",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er klänge",
+      "daCurrent": "Ville han lyde",
+      "verbIndex": 28
+    },
+    {
+      "cardId": "verb-28",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geklungen",
+      "daCurrent": "Lydt",
+      "verbIndex": 28
+    },
+    {
+      "cardId": "verb-29",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "kneifen",
+      "daCurrent": "At knibe",
+      "verbIndex": 29
+    },
+    {
+      "cardId": "verb-29",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er kneift",
+      "daCurrent": "Han kniber",
+      "verbIndex": 29
+    },
+    {
+      "cardId": "verb-29",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er kniff",
+      "daCurrent": "Han knibede",
+      "verbIndex": 29
+    },
+    {
+      "cardId": "verb-29",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er kniffe",
+      "daCurrent": "Han ville knibe",
+      "verbIndex": 29
+    },
+    {
+      "cardId": "verb-29",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gekniffen",
+      "daCurrent": "Knibet",
+      "verbIndex": 29
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "batch": "batch-004",
+  "findings": [
+    {
+      "cardId": "verb-32",
+      "field": "praesens.lv",
+      "de": "er brät",
+      "daCurrent": "Han bager",
+      "severity": "HIGH",
+      "category": "PARADIGM",
+      "problem": "Present tense from wrong verb stem",
+      "reason": "Infinitive is 'At stege' (roast/fry) but present uses 'bager' from 'bage' (bake). braten means to roast/fry, not bake.",
+      "proposedDa": "Han steger",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-32",
+      "field": "imperfektIndikativ.lv",
+      "de": "er briet",
+      "daCurrent": "Han bagte",
+      "severity": "HIGH",
+      "category": "PARADIGM",
+      "problem": "Preterite from wrong verb stem",
+      "reason": "Uses 'bagte' (baked) instead of preterite of 'stege'. Should be 'stegte' to match infinitive 'At stege'.",
+      "proposedDa": "Han stegte",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-32",
+      "field": "imperfektKonjunktiv.lv",
+      "de": "er briete",
+      "daCurrent": "Han ville bage",
+      "severity": "HIGH",
+      "category": "PARADIGM",
+      "problem": "Subjunctive uses wrong verb stem",
+      "reason": "Uses 'bage' (bake) instead of 'stege' (roast/fry), inconsistent with infinitive 'At stege' and participle 'Stegt'.",
+      "proposedDa": "Han ville stege",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-35",
+      "field": "imperfektKonjunktiv.lv",
+      "de": "er brächte",
+      "daCurrent": "Han ville bære",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "problem": "Wrong verb in subjunctive",
+      "reason": "'bære' means to carry; bringen means to bring. Rest of card uses 'bringe' (bringer, bragte, Bragt). Subjunctive should use 'bringe', not 'bære'.",
+      "proposedDa": "Han ville bringe",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-39",
+      "field": "praesens.lv",
+      "de": "er dringt",
+      "daCurrent": "Han bryder ind",
+      "severity": "MEDIUM",
+      "category": "CONSISTENCY",
+      "problem": "Present uses different verb than infinitive",
+      "reason": "Infinitive and participle use 'trænge ind' (penetrate), but present uses 'bryde ind' (break in). dringen means to penetrate/press through; forms should stay on one verb.",
+      "proposedDa": "Han trænger ind",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-39",
+      "field": "imperfektIndikativ.lv",
+      "de": "er drang",
+      "daCurrent": "Han brød ind",
+      "severity": "MEDIUM",
+      "category": "CONSISTENCY",
+      "problem": "Preterite uses different verb than infinitive",
+      "reason": "Uses 'brød ind' (broke in) from 'bryde' instead of preterite of 'trænge ind'. Should be 'trængte ind' to match infinitive 'At trænge ind'.",
+      "proposedDa": "Han trængte ind",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-39",
+      "field": "imperfektKonjunktiv.lv",
+      "de": "er dränge",
+      "daCurrent": "Han ville bryde ind",
+      "severity": "MEDIUM",
+      "category": "CONSISTENCY",
+      "problem": "Subjunctive uses different verb than infinitive",
+      "reason": "Uses 'bryde ind' instead of 'trænge ind', inconsistent with infinitive and participle on the same card.",
+      "proposedDa": "Han ville trænge ind",
+      "status": "FAIL"
+    }
+  ]
+}

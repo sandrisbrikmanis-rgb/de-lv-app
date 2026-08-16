@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_final_post_repair",
+  "batch": "batch-018",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA (lv) vs DE for each verb form. Flag real Danish linguistic/semantic/paradigm issues. Do NOT suggest DE changes. FALSE_POSITIVE if grammatically valid.",
+  "forms": [
+    {
+      "cardId": "verb-170",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "wenden",
+      "daCurrent": "At vende",
+      "verbIndex": 170
+    },
+    {
+      "cardId": "verb-170",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er wendet",
+      "daCurrent": "Han vender",
+      "verbIndex": 170
+    },
+    {
+      "cardId": "verb-170",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er wandte / es wendete",
+      "daCurrent": "Han vendte",
+      "verbIndex": 170
+    },
+    {
+      "cardId": "verb-170",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er wendete",
+      "daCurrent": "Han ville vende",
+      "verbIndex": 170
+    },
+    {
+      "cardId": "verb-170",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gewandt / gewendet",
+      "daCurrent": "Vendt",
+      "verbIndex": 170
+    },
+    {
+      "cardId": "verb-171",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "werben",
+      "daCurrent": "At rekruttere",
+      "verbIndex": 171
+    },
+    {
+      "cardId": "verb-171",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er wirbt",
+      "daCurrent": "Han rekrutterer",
+      "verbIndex": 171
+    },
+    {
+      "cardId": "verb-171",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er warb",
+      "daCurrent": "Han rekrutterede",
+      "verbIndex": 171
+    },
+    {
+      "cardId": "verb-171",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er würbe",
+      "daCurrent": "Han ville rekruttere",
+      "verbIndex": 171
+    },
+    {
+      "cardId": "verb-171",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geworben",
+      "daCurrent": "Rekrutteret",
+      "verbIndex": 171
+    },
+    {
+      "cardId": "verb-172",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "werden",
+      "daCurrent": "At blive",
+      "verbIndex": 172
+    },
+    {
+      "cardId": "verb-172",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er wird",
+      "daCurrent": "Han bliver",
+      "verbIndex": 172
+    },
+    {
+      "cardId": "verb-172",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "wurde",
+      "daCurrent": "Han blev",
+      "verbIndex": 172
+    },
+    {
+      "cardId": "verb-172",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "wurde",
+      "daCurrent": "Han ville blive",
+      "verbIndex": 172
+    },
+    {
+      "cardId": "verb-172",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geworden",
+      "daCurrent": "Er blevet",
+      "verbIndex": 172
+    },
+    {
+      "cardId": "verb-173",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "werfen",
+      "daCurrent": "At kaste",
+      "verbIndex": 173
+    },
+    {
+      "cardId": "verb-173",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er wirft",
+      "daCurrent": "Han kaster",
+      "verbIndex": 173
+    },
+    {
+      "cardId": "verb-173",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er warf",
+      "daCurrent": "Han kastede",
+      "verbIndex": 173
+    },
+    {
+      "cardId": "verb-173",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er würfe",
+      "daCurrent": "Han ville kaste",
+      "verbIndex": 173
+    },
+    {
+      "cardId": "verb-173",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geworfen",
+      "daCurrent": "Kastet",
+      "verbIndex": 173
+    },
+    {
+      "cardId": "verb-174",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "wiegen",
+      "daCurrent": "At veje",
+      "verbIndex": 174
+    },
+    {
+      "cardId": "verb-174",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er wiegt",
+      "daCurrent": "Han vejer",
+      "verbIndex": 174
+    },
+    {
+      "cardId": "verb-174",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er wog",
+      "daCurrent": "Han vejede",
+      "verbIndex": 174
+    },
+    {
+      "cardId": "verb-174",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er wöge",
+      "daCurrent": "Han ville veje",
+      "verbIndex": 174
+    },
+    {
+      "cardId": "verb-174",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gewogen",
+      "daCurrent": "Vejet",
+      "verbIndex": 174
+    },
+    {
+      "cardId": "verb-175",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "winden",
+      "daCurrent": "At vride sig",
+      "verbIndex": 175
+    },
+    {
+      "cardId": "verb-175",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er windet",
+      "daCurrent": "Han vrider sig",
+      "verbIndex": 175
+    },
+    {
+      "cardId": "verb-175",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er wand",
+      "daCurrent": "Han vred sig",
+      "verbIndex": 175
+    },
+    {
+      "cardId": "verb-175",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er wände",
+      "daCurrent": "Han ville vride sig",
+      "verbIndex": 175
+    },
+    {
+      "cardId": "verb-175",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gewunden",
+      "daCurrent": "Vredet",
+      "verbIndex": 175
+    },
+    {
+      "cardId": "verb-176",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "wissen",
+      "daCurrent": "At vide",
+      "verbIndex": 176
+    },
+    {
+      "cardId": "verb-176",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er weiß",
+      "daCurrent": "Han ved",
+      "verbIndex": 176
+    },
+    {
+      "cardId": "verb-176",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er wusste",
+      "daCurrent": "Han vidste",
+      "verbIndex": 176
+    },
+    {
+      "cardId": "verb-176",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er wüsste",
+      "daCurrent": "Han ville vide",
+      "verbIndex": 176
+    },
+    {
+      "cardId": "verb-176",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gewusst",
+      "daCurrent": "Vidst",
+      "verbIndex": 176
+    },
+    {
+      "cardId": "verb-177",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "wollen",
+      "daCurrent": "Vil",
+      "verbIndex": 177
+    },
+    {
+      "cardId": "verb-177",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er will",
+      "daCurrent": "Han vil",
+      "verbIndex": 177
+    },
+    {
+      "cardId": "verb-177",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "wollte",
+      "daCurrent": "Han ville",
+      "verbIndex": 177
+    },
+    {
+      "cardId": "verb-177",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "wollte",
+      "daCurrent": "Han ville",
+      "verbIndex": 177
+    },
+    {
+      "cardId": "verb-177",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gewollt",
+      "daCurrent": "Villet",
+      "verbIndex": 177
+    },
+    {
+      "cardId": "verb-178",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "wringen",
+      "daCurrent": "At vride",
+      "verbIndex": 178
+    },
+    {
+      "cardId": "verb-178",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er wringt",
+      "daCurrent": "Han vrider",
+      "verbIndex": 178
+    },
+    {
+      "cardId": "verb-178",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "wrang",
+      "daCurrent": "Han vred",
+      "verbIndex": 178
+    },
+    {
+      "cardId": "verb-178",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "wrang",
+      "daCurrent": "Han ville vride",
+      "verbIndex": 178
+    },
+    {
+      "cardId": "verb-178",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gewrungen",
+      "daCurrent": "Vredet",
+      "verbIndex": 178
+    },
+    {
+      "cardId": "verb-179",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "zeihen",
+      "daCurrent": "At bebrejde",
+      "verbIndex": 179
+    },
+    {
+      "cardId": "verb-179",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er zeiht",
+      "daCurrent": "Han giver skylden",
+      "verbIndex": 179
+    },
+    {
+      "cardId": "verb-179",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "zieh",
+      "daCurrent": "Han bebrejdede",
+      "verbIndex": 179
+    },
+    {
+      "cardId": "verb-179",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "zieh",
+      "daCurrent": "Han ville bebrejde",
+      "verbIndex": 179
+    },
+    {
+      "cardId": "verb-179",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geziehen",
+      "daCurrent": "Bebrejdet",
+      "verbIndex": 179
+    }
+  ]
+}

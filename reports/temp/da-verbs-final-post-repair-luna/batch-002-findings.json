@@ -1,0 +1,29 @@
+{
+  "batch": "batch-002",
+  "findings": [
+    {
+      "cardId": "verb-10",
+      "field": "infinitiv.lv",
+      "de": "bitten",
+      "daCurrent": "At spørge",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "problem": "Wrong verb meaning in infinitive",
+      "reason": "bitten means to beg/request, not to ask (spørge). The rest of the card correctly uses beg semantics (tigger, bad, ville bede, Bedt). Infinitive should align.",
+      "proposedDa": "At bede",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-15",
+      "field": "infinitiv.lv",
+      "de": "gelten",
+      "daCurrent": "Komme til nytte",
+      "severity": "MEDIUM",
+      "category": "CONSISTENCY",
+      "problem": "Infinitive does not match paradigm verb",
+      "reason": "All other forms use 'gælde' (Det gælder, Det gjaldt, Det ville gælde, Gældt). The infinitive phrase 'Komme til nytte' introduces a different construction and verb entirely.",
+      "proposedDa": "At gælde",
+      "status": "FAIL"
+    }
+  ]
+}

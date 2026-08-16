@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_final_post_repair",
+  "batch": "batch-011",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA (lv) vs DE for each verb form. Flag real Danish linguistic/semantic/paradigm issues. Do NOT suggest DE changes. FALSE_POSITIVE if grammatically valid.",
+  "forms": [
+    {
+      "cardId": "verb-100",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schaffen",
+      "daCurrent": "At skabe",
+      "verbIndex": 100
+    },
+    {
+      "cardId": "verb-100",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schafft",
+      "daCurrent": "Han skaber",
+      "verbIndex": 100
+    },
+    {
+      "cardId": "verb-100",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er schuf",
+      "daCurrent": "Han skabte",
+      "verbIndex": 100
+    },
+    {
+      "cardId": "verb-100",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er schüfe",
+      "daCurrent": "Han ville skabe",
+      "verbIndex": 100
+    },
+    {
+      "cardId": "verb-100",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschaffen",
+      "daCurrent": "Skabt",
+      "verbIndex": 100
+    },
+    {
+      "cardId": "verb-101",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schallen",
+      "daCurrent": "At gjalde",
+      "verbIndex": 101
+    },
+    {
+      "cardId": "verb-101",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "es schallt",
+      "daCurrent": "Det lyder",
+      "verbIndex": 101
+    },
+    {
+      "cardId": "verb-101",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "schallte vai scholl",
+      "daCurrent": "Det lød",
+      "verbIndex": 101
+    },
+    {
+      "cardId": "verb-101",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "schallte vai scholl",
+      "daCurrent": "Det ville lyde",
+      "verbIndex": 101
+    },
+    {
+      "cardId": "verb-101",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschallt",
+      "daCurrent": "Lydt",
+      "verbIndex": 101
+    },
+    {
+      "cardId": "verb-102",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "scheiden",
+      "daCurrent": "At skilles",
+      "verbIndex": 102
+    },
+    {
+      "cardId": "verb-102",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er scheidet",
+      "daCurrent": "Han skilles",
+      "verbIndex": 102
+    },
+    {
+      "cardId": "verb-102",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er schied",
+      "daCurrent": "Han blev skilt",
+      "verbIndex": 102
+    },
+    {
+      "cardId": "verb-102",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er schiede",
+      "daCurrent": "Han ville skilles",
+      "verbIndex": 102
+    },
+    {
+      "cardId": "verb-102",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschieden (er hat / er ist)",
+      "daCurrent": "Skilt",
+      "verbIndex": 102
+    },
+    {
+      "cardId": "verb-103",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "scheinen",
+      "daCurrent": "At synes",
+      "verbIndex": 103
+    },
+    {
+      "cardId": "verb-103",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er scheint",
+      "daCurrent": "Han synes",
+      "verbIndex": 103
+    },
+    {
+      "cardId": "verb-103",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er schien",
+      "daCurrent": "Han syntes",
+      "verbIndex": 103
+    },
+    {
+      "cardId": "verb-103",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er schiene",
+      "daCurrent": "Han ville synes",
+      "verbIndex": 103
+    },
+    {
+      "cardId": "verb-103",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschienen",
+      "daCurrent": "Syntes",
+      "verbIndex": 103
+    },
+    {
+      "cardId": "verb-104",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schelten",
+      "daCurrent": "At skælde ud",
+      "verbIndex": 104
+    },
+    {
+      "cardId": "verb-104",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schilt",
+      "daCurrent": "Han skælder ud",
+      "verbIndex": 104
+    },
+    {
+      "cardId": "verb-104",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er schalt",
+      "daCurrent": "Han skældte ud",
+      "verbIndex": 104
+    },
+    {
+      "cardId": "verb-104",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er schölte / er schälte",
+      "daCurrent": "Han ville skælde ud",
+      "verbIndex": 104
+    },
+    {
+      "cardId": "verb-104",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gescholten",
+      "daCurrent": "Skældt ud",
+      "verbIndex": 104
+    },
+    {
+      "cardId": "verb-105",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "scheren",
+      "daCurrent": "At klippe",
+      "verbIndex": 105
+    },
+    {
+      "cardId": "verb-105",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schert",
+      "daCurrent": "Han klipper",
+      "verbIndex": 105
+    },
+    {
+      "cardId": "verb-105",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "schor vai scherte",
+      "daCurrent": "Han klippede",
+      "verbIndex": 105
+    },
+    {
+      "cardId": "verb-105",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "schor vai scherte",
+      "daCurrent": "Han ville klippe",
+      "verbIndex": 105
+    },
+    {
+      "cardId": "verb-105",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschoren vai geschert",
+      "daCurrent": "Klippet",
+      "verbIndex": 105
+    },
+    {
+      "cardId": "verb-106",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schieben",
+      "daCurrent": "At skubbe",
+      "verbIndex": 106
+    },
+    {
+      "cardId": "verb-106",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schiebt",
+      "daCurrent": "Han skubber",
+      "verbIndex": 106
+    },
+    {
+      "cardId": "verb-106",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er schob",
+      "daCurrent": "Han skubbede",
+      "verbIndex": 106
+    },
+    {
+      "cardId": "verb-106",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er schöbe",
+      "daCurrent": "Han ville skubbe",
+      "verbIndex": 106
+    },
+    {
+      "cardId": "verb-106",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschoben",
+      "daCurrent": "Skubbet",
+      "verbIndex": 106
+    },
+    {
+      "cardId": "verb-107",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schießen",
+      "daCurrent": "At skyde",
+      "verbIndex": 107
+    },
+    {
+      "cardId": "verb-107",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schießt",
+      "daCurrent": "Han skyder",
+      "verbIndex": 107
+    },
+    {
+      "cardId": "verb-107",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er schoss",
+      "daCurrent": "Han skød",
+      "verbIndex": 107
+    },
+    {
+      "cardId": "verb-107",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er schösse",
+      "daCurrent": "Han ville skyde",
+      "verbIndex": 107
+    },
+    {
+      "cardId": "verb-107",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschossen",
+      "daCurrent": "Skudt",
+      "verbIndex": 107
+    },
+    {
+      "cardId": "verb-108",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schinden",
+      "daCurrent": "Pine",
+      "verbIndex": 108
+    },
+    {
+      "cardId": "verb-108",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schindet",
+      "daCurrent": "Han plager",
+      "verbIndex": 108
+    },
+    {
+      "cardId": "verb-108",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "schindete",
+      "daCurrent": "Han plagede",
+      "verbIndex": 108
+    },
+    {
+      "cardId": "verb-108",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "schindete",
+      "daCurrent": "Han ville pine",
+      "verbIndex": 108
+    },
+    {
+      "cardId": "verb-108",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschunden",
+      "daCurrent": "Plaget",
+      "verbIndex": 108
+    },
+    {
+      "cardId": "verb-109",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schlafen",
+      "daCurrent": "At sove",
+      "verbIndex": 109
+    },
+    {
+      "cardId": "verb-109",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schläft",
+      "daCurrent": "Han sover",
+      "verbIndex": 109
+    },
+    {
+      "cardId": "verb-109",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er schlief",
+      "daCurrent": "Han sov",
+      "verbIndex": 109
+    },
+    {
+      "cardId": "verb-109",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er schliefe",
+      "daCurrent": "Han ville sove",
+      "verbIndex": 109
+    },
+    {
+      "cardId": "verb-109",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschlafen",
+      "daCurrent": "Sovet",
+      "verbIndex": 109
+    }
+  ]
+}

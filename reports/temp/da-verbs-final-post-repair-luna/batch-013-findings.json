@@ -1,0 +1,101 @@
+{
+  "batch": "batch-013",
+  "findings": [
+    {
+      "cardId": "verb-120",
+      "field": "praesens",
+      "de": "er schreit",
+      "daCurrent": "Råber han",
+      "severity": "HIGH",
+      "problem": "Semantic mismatch and paradigm split on schreien card.",
+      "reason": "schreien means scream/shriek; råbe means shout/call. Infinitiv (At skrige) and participle (Skreget) use skrige, but present uses råbe. Present should be Han skriger.",
+      "recommendedDa": "Han skriger",
+      "category": "SEMANTICS",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-120",
+      "field": "imperfektIndikativ",
+      "de": "er schrie",
+      "daCurrent": "Råbte han",
+      "severity": "HIGH",
+      "problem": "Inconsistent verb stem within schreien card.",
+      "reason": "Preterite uses råbe (Råbte) while infinitiv and participle use skrige. Preterite of skrige is Han skreg.",
+      "recommendedDa": "Han skreg",
+      "category": "CONSISTENCY",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-120",
+      "field": "imperfektKonjunktiv",
+      "de": "er schriee",
+      "daCurrent": "Ville han råbe",
+      "severity": "HIGH",
+      "problem": "Inconsistent verb stem within schreien card.",
+      "reason": "Konjunktiv II uses råbe while the card lemma is skrige. Should be Han ville skrige.",
+      "recommendedDa": "Han ville skrige",
+      "category": "CONSISTENCY",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-121",
+      "field": "praesens",
+      "de": "er schreitet",
+      "daCurrent": "Han går",
+      "severity": "MEDIUM",
+      "problem": "Inconsistent verb stem within schreiten card.",
+      "reason": "Infinitiv is At skride (stride) but present uses generic gå. schreiten denotes striding, not ordinary walking.",
+      "recommendedDa": "Han skrider",
+      "category": "CONSISTENCY",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-121",
+      "field": "imperfektIndikativ",
+      "de": "er schritt",
+      "daCurrent": "Han gik",
+      "severity": "MEDIUM",
+      "problem": "Inconsistent verb stem within schreiten card.",
+      "reason": "Preterite uses gik (gå) while infinitiv and participle use skride (Skredet). Preterite of skride is Han skred.",
+      "recommendedDa": "Han skred",
+      "category": "CONSISTENCY",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-121",
+      "field": "imperfektKonjunktiv",
+      "de": "er schritte",
+      "daCurrent": "Han ville gå",
+      "severity": "MEDIUM",
+      "problem": "Inconsistent verb stem within schreiten card.",
+      "reason": "Konjunktiv II uses gå while the card lemma is skride.",
+      "recommendedDa": "Han ville skride",
+      "category": "CONSISTENCY",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-122",
+      "field": "partizipVergangenheit",
+      "de": "geschwiegen",
+      "daCurrent": "Forstummet",
+      "severity": "MEDIUM",
+      "problem": "Inconsistent verb stem within schweigen card.",
+      "reason": "Infinitiv is At tie (be silent) but participle uses forstumme (become mute). Participle of tie is tiet.",
+      "recommendedDa": "Tiet",
+      "category": "CONSISTENCY",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-127",
+      "field": "infinitiv",
+      "de": "schwören",
+      "daCurrent": "At bande",
+      "severity": "HIGH",
+      "problem": "Inconsistent verb stem within schwören card.",
+      "reason": "Infinitiv uses bande (curse/profanity) but all conjugated forms use sværge (swear an oath). schwören primarily maps to sværge in Danish.",
+      "recommendedDa": "At sværge",
+      "category": "CONSISTENCY",
+      "status": "FAIL"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "batch": "batch-003",
+  "findings": [
+    {
+      "cardId": "verb-24",
+      "field": "partizipVergangenheit.lv",
+      "de": "gegriffen",
+      "daCurrent": "Grebet",
+      "severity": "MEDIUM",
+      "category": "PARADIGM",
+      "problem": "Participle from different verb than rest of card",
+      "reason": "Infinitive through subjunctive use 'fange' (catch: fanger, fangede, ville fange), but participle 'Grebet' is from 'gribe' (grasp/seize), which better matches greifen. Participle should be 'Fanget' to match the paradigm.",
+      "proposedDa": "Fanget",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-29",
+      "field": "imperfektIndikativ.lv",
+      "de": "er kniff",
+      "daCurrent": "Han knibede",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "problem": "Non-standard preterite form",
+      "reason": "Danish strong verb 'knibe' has preterite 'knib', not the regularised 'knibede'. Standard paradigm: kniber, knib, knibet.",
+      "proposedDa": "Han knib",
+      "status": "FAIL"
+    }
+  ]
+}

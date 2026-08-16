@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_final_post_repair",
+  "batch": "batch-004",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA (lv) vs DE for each verb form. Flag real Danish linguistic/semantic/paradigm issues. Do NOT suggest DE changes. FALSE_POSITIVE if grammatically valid.",
+  "forms": [
+    {
+      "cardId": "verb-30",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "bleiben",
+      "daCurrent": "At blive",
+      "verbIndex": 30
+    },
+    {
+      "cardId": "verb-30",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er bleibt",
+      "daCurrent": "Han bliver",
+      "verbIndex": 30
+    },
+    {
+      "cardId": "verb-30",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er blieb",
+      "daCurrent": "Han blev",
+      "verbIndex": 30
+    },
+    {
+      "cardId": "verb-30",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er bliebe",
+      "daCurrent": "Han ville blive",
+      "verbIndex": 30
+    },
+    {
+      "cardId": "verb-30",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geblieben (er ist)",
+      "daCurrent": "Blevet",
+      "verbIndex": 30
+    },
+    {
+      "cardId": "verb-31",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "bleichen",
+      "daCurrent": "Blege",
+      "verbIndex": 31
+    },
+    {
+      "cardId": "verb-31",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er bleicht",
+      "daCurrent": "Han bleger",
+      "verbIndex": 31
+    },
+    {
+      "cardId": "verb-31",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "blich",
+      "daCurrent": "Han blegnede",
+      "verbIndex": 31
+    },
+    {
+      "cardId": "verb-31",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "blich",
+      "daCurrent": "Han ville blegne",
+      "verbIndex": 31
+    },
+    {
+      "cardId": "verb-31",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geblichen",
+      "daCurrent": "Bleget",
+      "verbIndex": 31
+    },
+    {
+      "cardId": "verb-32",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "braten",
+      "daCurrent": "At stege",
+      "verbIndex": 32
+    },
+    {
+      "cardId": "verb-32",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er brät",
+      "daCurrent": "Han bager",
+      "verbIndex": 32
+    },
+    {
+      "cardId": "verb-32",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er briet",
+      "daCurrent": "Han bagte",
+      "verbIndex": 32
+    },
+    {
+      "cardId": "verb-32",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er briete",
+      "daCurrent": "Han ville bage",
+      "verbIndex": 32
+    },
+    {
+      "cardId": "verb-32",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gebraten",
+      "daCurrent": "Stegt",
+      "verbIndex": 32
+    },
+    {
+      "cardId": "verb-33",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "brechen",
+      "daCurrent": "At bryde",
+      "verbIndex": 33
+    },
+    {
+      "cardId": "verb-33",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er bricht",
+      "daCurrent": "Han knækker",
+      "verbIndex": 33
+    },
+    {
+      "cardId": "verb-33",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er brach",
+      "daCurrent": "Han brød",
+      "verbIndex": 33
+    },
+    {
+      "cardId": "verb-33",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er bräche",
+      "daCurrent": "Han ville bryde",
+      "verbIndex": 33
+    },
+    {
+      "cardId": "verb-33",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gebrochen",
+      "daCurrent": "Brudt",
+      "verbIndex": 33
+    },
+    {
+      "cardId": "verb-34",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "brennen",
+      "daCurrent": "At brænde",
+      "verbIndex": 34
+    },
+    {
+      "cardId": "verb-34",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er brennt",
+      "daCurrent": "Han brænder",
+      "verbIndex": 34
+    },
+    {
+      "cardId": "verb-34",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "brannte",
+      "daCurrent": "Han brændte",
+      "verbIndex": 34
+    },
+    {
+      "cardId": "verb-34",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "brannte",
+      "daCurrent": "Han ville brænde",
+      "verbIndex": 34
+    },
+    {
+      "cardId": "verb-34",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gebrannt",
+      "daCurrent": "Brændt",
+      "verbIndex": 34
+    },
+    {
+      "cardId": "verb-35",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "bringen",
+      "daCurrent": "At bringe",
+      "verbIndex": 35
+    },
+    {
+      "cardId": "verb-35",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er bringt",
+      "daCurrent": "Han bringer",
+      "verbIndex": 35
+    },
+    {
+      "cardId": "verb-35",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er brachte",
+      "daCurrent": "Han bragte",
+      "verbIndex": 35
+    },
+    {
+      "cardId": "verb-35",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er brächte",
+      "daCurrent": "Han ville bære",
+      "verbIndex": 35
+    },
+    {
+      "cardId": "verb-35",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gebracht",
+      "daCurrent": "Bragt",
+      "verbIndex": 35
+    },
+    {
+      "cardId": "verb-36",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "denken",
+      "daCurrent": "At tænke",
+      "verbIndex": 36
+    },
+    {
+      "cardId": "verb-36",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er denkt",
+      "daCurrent": "Tænker han",
+      "verbIndex": 36
+    },
+    {
+      "cardId": "verb-36",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er dachte",
+      "daCurrent": "Tænkte han",
+      "verbIndex": 36
+    },
+    {
+      "cardId": "verb-36",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er dächte",
+      "daCurrent": "Han ville tænke",
+      "verbIndex": 36
+    },
+    {
+      "cardId": "verb-36",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gedacht",
+      "daCurrent": "Tænkt",
+      "verbIndex": 36
+    },
+    {
+      "cardId": "verb-37",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "dingen",
+      "daCurrent": "At ansætte",
+      "verbIndex": 37
+    },
+    {
+      "cardId": "verb-37",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er dingt",
+      "daCurrent": "Han ansætter",
+      "verbIndex": 37
+    },
+    {
+      "cardId": "verb-37",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "dingte",
+      "daCurrent": "Han ansatte",
+      "verbIndex": 37
+    },
+    {
+      "cardId": "verb-37",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "dingte",
+      "daCurrent": "Han ville ansætte",
+      "verbIndex": 37
+    },
+    {
+      "cardId": "verb-37",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gedungen",
+      "daCurrent": "Ansat",
+      "verbIndex": 37
+    },
+    {
+      "cardId": "verb-38",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "dreschen",
+      "daCurrent": "At tærske",
+      "verbIndex": 38
+    },
+    {
+      "cardId": "verb-38",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er drischt",
+      "daCurrent": "Han tærsker",
+      "verbIndex": 38
+    },
+    {
+      "cardId": "verb-38",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er drasch / er drosch",
+      "daCurrent": "Han tærskede",
+      "verbIndex": 38
+    },
+    {
+      "cardId": "verb-38",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er dräsche / er drösche",
+      "daCurrent": "Han ville tærske",
+      "verbIndex": 38
+    },
+    {
+      "cardId": "verb-38",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gedroschen",
+      "daCurrent": "Tærsket",
+      "verbIndex": 38
+    },
+    {
+      "cardId": "verb-39",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "dringen",
+      "daCurrent": "At trænge ind",
+      "verbIndex": 39
+    },
+    {
+      "cardId": "verb-39",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er dringt",
+      "daCurrent": "Han bryder ind",
+      "verbIndex": 39
+    },
+    {
+      "cardId": "verb-39",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er drang",
+      "daCurrent": "Han brød ind",
+      "verbIndex": 39
+    },
+    {
+      "cardId": "verb-39",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er dränge",
+      "daCurrent": "Han ville bryde ind",
+      "verbIndex": 39
+    },
+    {
+      "cardId": "verb-39",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gedrungen (er ist)",
+      "daCurrent": "Trængt ind",
+      "verbIndex": 39
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "batch": "batch-017",
+  "findings": [
+    {
+      "auditId": "DA-VERB-FPR-017-001",
+      "cardId": "verb-161",
+      "field": "imperfektIndikativ",
+      "de": "er verdarb",
+      "daCurrent": "Han beskadigede",
+      "severity": "HIGH",
+      "problem": "Mixed verb stems within verderben card.",
+      "reason": "Infinitiv and Präsens use ødelægge/ødelægger (ruin/destroy), but Präteritum uses beskadigede from beskadige (damage). Learners cannot derive one Danish paradigm for verderben.",
+      "recommendedDa": "Han ødelagde",
+      "category": "CONSISTENCY",
+      "status": "FAIL"
+    },
+    {
+      "auditId": "DA-VERB-FPR-017-002",
+      "cardId": "verb-161",
+      "field": "imperfektKonjunktiv",
+      "de": "er verdürbe",
+      "daCurrent": "Han ville skade",
+      "severity": "HIGH",
+      "problem": "Mixed verb stems within verderben card.",
+      "reason": "Konjunktiv II uses skade (harm) while infinitiv is At ødelægge and Präsens is ødelægger. Conditional should mirror the same lemma as the rest of the card.",
+      "recommendedDa": "Han ville ødelægge",
+      "category": "CONSISTENCY",
+      "status": "FAIL"
+    },
+    {
+      "auditId": "DA-VERB-FPR-017-003",
+      "cardId": "verb-161",
+      "field": "partizipVergangenheit",
+      "de": "verdorben",
+      "daCurrent": "Beskadiget",
+      "severity": "HIGH",
+      "problem": "Participle from wrong verb stem.",
+      "reason": "Beskadiget is the participle of beskadige, not ødelægge. verdorben maps to ødelægge; standard participle is Ødelagt.",
+      "recommendedDa": "Ødelagt",
+      "category": "CONSISTENCY",
+      "status": "FAIL"
+    },
+    {
+      "auditId": "DA-VERB-FPR-017-004",
+      "cardId": "verb-165",
+      "field": "imperfektIndikativ",
+      "de": "er wuchs",
+      "daCurrent": "Han voksede op",
+      "severity": "MEDIUM",
+      "problem": "Added auf sense not present in German source.",
+      "reason": "er wuchs means he grew; voksede op specifically means grew up (aufwachsen). Präsens and other forms use plain vokse without op.",
+      "recommendedDa": "Han voksede",
+      "category": "SEMANTICS",
+      "status": "FAIL"
+    }
+  ]
+}

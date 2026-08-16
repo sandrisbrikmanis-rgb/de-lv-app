@@ -1,0 +1,18 @@
+{
+  "batch": "batch-016",
+  "findings": [
+    {
+      "auditId": "DA-VERB-FPR-016-001",
+      "cardId": "verb-155",
+      "field": "imperfektKonjunktiv",
+      "de": "er träfe",
+      "daCurrent": "Han ville støde på",
+      "severity": "MEDIUM",
+      "problem": "Inconsistent verb lemma within treffen card.",
+      "reason": "Infinitiv, Präsens, Präteritum, and Partizip II all use møde (møder / mødte / Mødt), but Konjunktiv II uses støde på (encounter). After owner repair aligned past to mødte, Konjunktiv II remains on a different verb.",
+      "recommendedDa": "Han ville møde",
+      "category": "CONSISTENCY",
+      "status": "FAIL"
+    }
+  ]
+}

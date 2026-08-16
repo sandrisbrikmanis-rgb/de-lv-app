@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_final_post_repair",
+  "batch": "batch-015",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA (lv) vs DE for each verb form. Flag real Danish linguistic/semantic/paradigm issues. Do NOT suggest DE changes. FALSE_POSITIVE if grammatically valid.",
+  "forms": [
+    {
+      "cardId": "verb-140",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "sprechen",
+      "daCurrent": "At tale",
+      "verbIndex": 140
+    },
+    {
+      "cardId": "verb-140",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er spricht",
+      "daCurrent": "Han taler",
+      "verbIndex": 140
+    },
+    {
+      "cardId": "verb-140",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er sprach",
+      "daCurrent": "Han talte",
+      "verbIndex": 140
+    },
+    {
+      "cardId": "verb-140",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er spräche",
+      "daCurrent": "Han ville tale",
+      "verbIndex": 140
+    },
+    {
+      "cardId": "verb-140",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gesprochen",
+      "daCurrent": "Talt",
+      "verbIndex": 140
+    },
+    {
+      "cardId": "verb-141",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "sprießen",
+      "daCurrent": "At spire",
+      "verbIndex": 141
+    },
+    {
+      "cardId": "verb-141",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er sprießt",
+      "daCurrent": "Det spirer",
+      "verbIndex": 141
+    },
+    {
+      "cardId": "verb-141",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er spross",
+      "daCurrent": "Det spirede",
+      "verbIndex": 141
+    },
+    {
+      "cardId": "verb-141",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er sprösse",
+      "daCurrent": "Det ville spire",
+      "verbIndex": 141
+    },
+    {
+      "cardId": "verb-141",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gesprossen (er ist)",
+      "daCurrent": "Spiret",
+      "verbIndex": 141
+    },
+    {
+      "cardId": "verb-142",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "springen",
+      "daCurrent": "At hoppe",
+      "verbIndex": 142
+    },
+    {
+      "cardId": "verb-142",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er springt",
+      "daCurrent": "Han hopper",
+      "verbIndex": 142
+    },
+    {
+      "cardId": "verb-142",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er sprang",
+      "daCurrent": "Han sprang",
+      "verbIndex": 142
+    },
+    {
+      "cardId": "verb-142",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er spränge",
+      "daCurrent": "Han ville hoppe",
+      "verbIndex": 142
+    },
+    {
+      "cardId": "verb-142",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gesprungen (er ist)",
+      "daCurrent": "Hoppet",
+      "verbIndex": 142
+    },
+    {
+      "cardId": "verb-143",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "stechen",
+      "daCurrent": "At stikke",
+      "verbIndex": 143
+    },
+    {
+      "cardId": "verb-143",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er sticht",
+      "daCurrent": "Han stikker",
+      "verbIndex": 143
+    },
+    {
+      "cardId": "verb-143",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er stach",
+      "daCurrent": "Han stak",
+      "verbIndex": 143
+    },
+    {
+      "cardId": "verb-143",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er stäche",
+      "daCurrent": "Han ville stikke",
+      "verbIndex": 143
+    },
+    {
+      "cardId": "verb-143",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gestochen",
+      "daCurrent": "Stukket",
+      "verbIndex": 143
+    },
+    {
+      "cardId": "verb-144",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "stecken",
+      "daCurrent": "At stikke",
+      "verbIndex": 144
+    },
+    {
+      "cardId": "verb-144",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er steckt",
+      "daCurrent": "Han stikker",
+      "verbIndex": 144
+    },
+    {
+      "cardId": "verb-144",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "stak vai steckte",
+      "daCurrent": "Han stak",
+      "verbIndex": 144
+    },
+    {
+      "cardId": "verb-144",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "stak vai steckte",
+      "daCurrent": "Han ville stikke",
+      "verbIndex": 144
+    },
+    {
+      "cardId": "verb-144",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gesteckt",
+      "daCurrent": "Stukket",
+      "verbIndex": 144
+    },
+    {
+      "cardId": "verb-145",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "stehen",
+      "daCurrent": "At stå",
+      "verbIndex": 145
+    },
+    {
+      "cardId": "verb-145",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er steht",
+      "daCurrent": "Han står",
+      "verbIndex": 145
+    },
+    {
+      "cardId": "verb-145",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er stand",
+      "daCurrent": "Han stod",
+      "verbIndex": 145
+    },
+    {
+      "cardId": "verb-145",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er stände / er stünde",
+      "daCurrent": "Han ville stå",
+      "verbIndex": 145
+    },
+    {
+      "cardId": "verb-145",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gestanden",
+      "daCurrent": "Stående",
+      "verbIndex": 145
+    },
+    {
+      "cardId": "verb-146",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "stehlen",
+      "daCurrent": "At stjæle",
+      "verbIndex": 146
+    },
+    {
+      "cardId": "verb-146",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er stiehlt",
+      "daCurrent": "Han stjæler",
+      "verbIndex": 146
+    },
+    {
+      "cardId": "verb-146",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er stahl",
+      "daCurrent": "Han stjal",
+      "verbIndex": 146
+    },
+    {
+      "cardId": "verb-146",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er stöhle / er stähle",
+      "daCurrent": "Han ville stjæle",
+      "verbIndex": 146
+    },
+    {
+      "cardId": "verb-146",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gestohlen",
+      "daCurrent": "Stjålet",
+      "verbIndex": 146
+    },
+    {
+      "cardId": "verb-147",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "steigen",
+      "daCurrent": "At klatre",
+      "verbIndex": 147
+    },
+    {
+      "cardId": "verb-147",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er steigt",
+      "daCurrent": "Han klatrer",
+      "verbIndex": 147
+    },
+    {
+      "cardId": "verb-147",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er stieg",
+      "daCurrent": "Han klatrede",
+      "verbIndex": 147
+    },
+    {
+      "cardId": "verb-147",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er stiege",
+      "daCurrent": "Han ville klatre",
+      "verbIndex": 147
+    },
+    {
+      "cardId": "verb-147",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gestiegen (er ist)",
+      "daCurrent": "Steget",
+      "verbIndex": 147
+    },
+    {
+      "cardId": "verb-148",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "sterben",
+      "daCurrent": "At dø",
+      "verbIndex": 148
+    },
+    {
+      "cardId": "verb-148",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er stirbt",
+      "daCurrent": "Han dør",
+      "verbIndex": 148
+    },
+    {
+      "cardId": "verb-148",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er starb",
+      "daCurrent": "Han døde",
+      "verbIndex": 148
+    },
+    {
+      "cardId": "verb-148",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er stürbe",
+      "daCurrent": "Han ville dø",
+      "verbIndex": 148
+    },
+    {
+      "cardId": "verb-148",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gestorben (er ist)",
+      "daCurrent": "Død",
+      "verbIndex": 148
+    },
+    {
+      "cardId": "verb-149",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "stieben",
+      "daCurrent": "At hvirvle",
+      "verbIndex": 149
+    },
+    {
+      "cardId": "verb-149",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "es stiebt",
+      "daCurrent": "Det hvirvler",
+      "verbIndex": 149
+    },
+    {
+      "cardId": "verb-149",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "stob vai stiebte",
+      "daCurrent": "Det hvirvlede",
+      "verbIndex": 149
+    },
+    {
+      "cardId": "verb-149",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "stob vai stiebte",
+      "daCurrent": "Det ville hvirvle",
+      "verbIndex": 149
+    },
+    {
+      "cardId": "verb-149",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gestoben vai gestiebt",
+      "daCurrent": "Hvirvlet",
+      "verbIndex": 149
+    }
+  ]
+}

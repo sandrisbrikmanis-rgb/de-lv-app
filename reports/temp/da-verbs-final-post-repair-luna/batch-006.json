@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_final_post_repair",
+  "batch": "batch-006",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA (lv) vs DE for each verb form. Flag real Danish linguistic/semantic/paradigm issues. Do NOT suggest DE changes. FALSE_POSITIVE if grammatically valid.",
+  "forms": [
+    {
+      "cardId": "verb-50",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "finden",
+      "daCurrent": "At finde",
+      "verbIndex": 50
+    },
+    {
+      "cardId": "verb-50",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er findet",
+      "daCurrent": "Han finder",
+      "verbIndex": 50
+    },
+    {
+      "cardId": "verb-50",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er fand",
+      "daCurrent": "Han fandt",
+      "verbIndex": 50
+    },
+    {
+      "cardId": "verb-50",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er fände",
+      "daCurrent": "Han ville finde",
+      "verbIndex": 50
+    },
+    {
+      "cardId": "verb-50",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gefunden",
+      "daCurrent": "Fundet",
+      "verbIndex": 50
+    },
+    {
+      "cardId": "verb-51",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "fliegen",
+      "daCurrent": "At flyve",
+      "verbIndex": 51
+    },
+    {
+      "cardId": "verb-51",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er fliegt",
+      "daCurrent": "Han flyver",
+      "verbIndex": 51
+    },
+    {
+      "cardId": "verb-51",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er flog",
+      "daCurrent": "Han fløj",
+      "verbIndex": 51
+    },
+    {
+      "cardId": "verb-51",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er flöge",
+      "daCurrent": "Han ville flyve",
+      "verbIndex": 51
+    },
+    {
+      "cardId": "verb-51",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geflogen (er ist)",
+      "daCurrent": "Fløjet",
+      "verbIndex": 51
+    },
+    {
+      "cardId": "verb-52",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "fliehen",
+      "daCurrent": "Løbe væk",
+      "verbIndex": 52
+    },
+    {
+      "cardId": "verb-52",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er flieht",
+      "daCurrent": "Han løber væk",
+      "verbIndex": 52
+    },
+    {
+      "cardId": "verb-52",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er floh",
+      "daCurrent": "Han løb væk",
+      "verbIndex": 52
+    },
+    {
+      "cardId": "verb-52",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er flöhe",
+      "daCurrent": "Han ville løbe væk",
+      "verbIndex": 52
+    },
+    {
+      "cardId": "verb-52",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geflohen (er ist)",
+      "daCurrent": "Flygtet",
+      "verbIndex": 52
+    },
+    {
+      "cardId": "verb-53",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "fließen",
+      "daCurrent": "At flyde",
+      "verbIndex": 53
+    },
+    {
+      "cardId": "verb-53",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er fließt",
+      "daCurrent": "Han flyder",
+      "verbIndex": 53
+    },
+    {
+      "cardId": "verb-53",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er floss",
+      "daCurrent": "Han flød",
+      "verbIndex": 53
+    },
+    {
+      "cardId": "verb-53",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er flösse",
+      "daCurrent": "Han ville flyde",
+      "verbIndex": 53
+    },
+    {
+      "cardId": "verb-53",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geflossen (er ist)",
+      "daCurrent": "Flydt",
+      "verbIndex": 53
+    },
+    {
+      "cardId": "verb-54",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "fressen",
+      "daCurrent": "At æde",
+      "verbIndex": 54
+    },
+    {
+      "cardId": "verb-54",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er frisst",
+      "daCurrent": "Han æder",
+      "verbIndex": 54
+    },
+    {
+      "cardId": "verb-54",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er frass",
+      "daCurrent": "Han åd",
+      "verbIndex": 54
+    },
+    {
+      "cardId": "verb-54",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er fräße",
+      "daCurrent": "Han ville æde",
+      "verbIndex": 54
+    },
+    {
+      "cardId": "verb-54",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gefressen",
+      "daCurrent": "Ædt",
+      "verbIndex": 54
+    },
+    {
+      "cardId": "verb-55",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "frieren",
+      "daCurrent": "At fryse",
+      "verbIndex": 55
+    },
+    {
+      "cardId": "verb-55",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er friert",
+      "daCurrent": "Han fryser",
+      "verbIndex": 55
+    },
+    {
+      "cardId": "verb-55",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er fror",
+      "daCurrent": "Han frøs",
+      "verbIndex": 55
+    },
+    {
+      "cardId": "verb-55",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er fröre",
+      "daCurrent": "Han ville fryse",
+      "verbIndex": 55
+    },
+    {
+      "cardId": "verb-55",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gefroren",
+      "daCurrent": "Frosset",
+      "verbIndex": 55
+    },
+    {
+      "cardId": "verb-56",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "geben",
+      "daCurrent": "At give",
+      "verbIndex": 56
+    },
+    {
+      "cardId": "verb-56",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er gibt",
+      "daCurrent": "Han giver",
+      "verbIndex": 56
+    },
+    {
+      "cardId": "verb-56",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er gab",
+      "daCurrent": "Han gav",
+      "verbIndex": 56
+    },
+    {
+      "cardId": "verb-56",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er gäbe",
+      "daCurrent": "Han ville give",
+      "verbIndex": 56
+    },
+    {
+      "cardId": "verb-56",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gegeben",
+      "daCurrent": "Givet",
+      "verbIndex": 56
+    },
+    {
+      "cardId": "verb-57",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "gedeihen",
+      "daCurrent": "At trives",
+      "verbIndex": 57
+    },
+    {
+      "cardId": "verb-57",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er gedeiht",
+      "daCurrent": "Han lykkes",
+      "verbIndex": 57
+    },
+    {
+      "cardId": "verb-57",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er gedieh",
+      "daCurrent": "Det lykkedes ham",
+      "verbIndex": 57
+    },
+    {
+      "cardId": "verb-57",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er gediehe",
+      "daCurrent": "Han ville lykkes",
+      "verbIndex": 57
+    },
+    {
+      "cardId": "verb-57",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gediehen (er ist)",
+      "daCurrent": "Trivedes",
+      "verbIndex": 57
+    },
+    {
+      "cardId": "verb-58",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "gehen",
+      "daCurrent": "At gå",
+      "verbIndex": 58
+    },
+    {
+      "cardId": "verb-58",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er geht",
+      "daCurrent": "Han går",
+      "verbIndex": 58
+    },
+    {
+      "cardId": "verb-58",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er ging",
+      "daCurrent": "Han gik",
+      "verbIndex": 58
+    },
+    {
+      "cardId": "verb-58",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er ginge",
+      "daCurrent": "Han ville gå",
+      "verbIndex": 58
+    },
+    {
+      "cardId": "verb-58",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gegangen (er ist)",
+      "daCurrent": "Gået",
+      "verbIndex": 58
+    },
+    {
+      "cardId": "verb-59",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "gewinnen",
+      "daCurrent": "At vinde",
+      "verbIndex": 59
+    },
+    {
+      "cardId": "verb-59",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er gewinnt",
+      "daCurrent": "Han vinder",
+      "verbIndex": 59
+    },
+    {
+      "cardId": "verb-59",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er gewann",
+      "daCurrent": "Han vandt",
+      "verbIndex": 59
+    },
+    {
+      "cardId": "verb-59",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er gewönne / er gewänne",
+      "daCurrent": "Han ville vinde",
+      "verbIndex": 59
+    },
+    {
+      "cardId": "verb-59",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gewonnen",
+      "daCurrent": "Vundet",
+      "verbIndex": 59
+    }
+  ]
+}

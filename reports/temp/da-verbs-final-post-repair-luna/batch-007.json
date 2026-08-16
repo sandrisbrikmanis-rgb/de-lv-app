@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_final_post_repair",
+  "batch": "batch-007",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA (lv) vs DE for each verb form. Flag real Danish linguistic/semantic/paradigm issues. Do NOT suggest DE changes. FALSE_POSITIVE if grammatically valid.",
+  "forms": [
+    {
+      "cardId": "verb-60",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "haben",
+      "daCurrent": "At have",
+      "verbIndex": 60
+    },
+    {
+      "cardId": "verb-60",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er hat",
+      "daCurrent": "Han har",
+      "verbIndex": 60
+    },
+    {
+      "cardId": "verb-60",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "hatte",
+      "daCurrent": "Han havde",
+      "verbIndex": 60
+    },
+    {
+      "cardId": "verb-60",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "hatte",
+      "daCurrent": "Han havde",
+      "verbIndex": 60
+    },
+    {
+      "cardId": "verb-60",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gehabt",
+      "daCurrent": "Haft",
+      "verbIndex": 60
+    },
+    {
+      "cardId": "verb-61",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "halten",
+      "daCurrent": "Holde",
+      "verbIndex": 61
+    },
+    {
+      "cardId": "verb-61",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er hält",
+      "daCurrent": "Han holder",
+      "verbIndex": 61
+    },
+    {
+      "cardId": "verb-61",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er hielt",
+      "daCurrent": "Han holdt",
+      "verbIndex": 61
+    },
+    {
+      "cardId": "verb-61",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er hielte",
+      "daCurrent": "Han ville holde",
+      "verbIndex": 61
+    },
+    {
+      "cardId": "verb-61",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gehalten",
+      "daCurrent": "Holdt",
+      "verbIndex": 61
+    },
+    {
+      "cardId": "verb-62",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "heißen",
+      "daCurrent": "At hedde",
+      "verbIndex": 62
+    },
+    {
+      "cardId": "verb-62",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er heißt",
+      "daCurrent": "Han hedder",
+      "verbIndex": 62
+    },
+    {
+      "cardId": "verb-62",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er hieß",
+      "daCurrent": "Han hed",
+      "verbIndex": 62
+    },
+    {
+      "cardId": "verb-62",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er hieße",
+      "daCurrent": "Han ville hedde",
+      "verbIndex": 62
+    },
+    {
+      "cardId": "verb-62",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geheißen",
+      "daCurrent": "Heddet",
+      "verbIndex": 62
+    },
+    {
+      "cardId": "verb-63",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "helfen",
+      "daCurrent": "At hjælpe",
+      "verbIndex": 63
+    },
+    {
+      "cardId": "verb-63",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er hilft",
+      "daCurrent": "Han hjælper",
+      "verbIndex": 63
+    },
+    {
+      "cardId": "verb-63",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er half",
+      "daCurrent": "Han hjalp",
+      "verbIndex": 63
+    },
+    {
+      "cardId": "verb-63",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er hülfe / er hälfe",
+      "daCurrent": "Han ville hjælpe",
+      "verbIndex": 63
+    },
+    {
+      "cardId": "verb-63",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geholfen",
+      "daCurrent": "Hjulpet",
+      "verbIndex": 63
+    },
+    {
+      "cardId": "verb-64",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "kommen",
+      "daCurrent": "At komme",
+      "verbIndex": 64
+    },
+    {
+      "cardId": "verb-64",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er kommt",
+      "daCurrent": "Han kommer",
+      "verbIndex": 64
+    },
+    {
+      "cardId": "verb-64",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er kam",
+      "daCurrent": "Han kom",
+      "verbIndex": 64
+    },
+    {
+      "cardId": "verb-64",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er käme",
+      "daCurrent": "Han ville komme",
+      "verbIndex": 64
+    },
+    {
+      "cardId": "verb-64",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gekommen (er ist)",
+      "daCurrent": "Er kommet",
+      "verbIndex": 64
+    },
+    {
+      "cardId": "verb-65",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "können",
+      "daCurrent": "Kunne",
+      "verbIndex": 65
+    },
+    {
+      "cardId": "verb-65",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er kann",
+      "daCurrent": "Han kan",
+      "verbIndex": 65
+    },
+    {
+      "cardId": "verb-65",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "konnte",
+      "daCurrent": "Han kunne",
+      "verbIndex": 65
+    },
+    {
+      "cardId": "verb-65",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "konnte",
+      "daCurrent": "Han kunne",
+      "verbIndex": 65
+    },
+    {
+      "cardId": "verb-65",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gekonnt",
+      "daCurrent": "Kunnet",
+      "verbIndex": 65
+    },
+    {
+      "cardId": "verb-66",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "kriechen",
+      "daCurrent": "At krybe",
+      "verbIndex": 66
+    },
+    {
+      "cardId": "verb-66",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er kriecht",
+      "daCurrent": "Han kryber",
+      "verbIndex": 66
+    },
+    {
+      "cardId": "verb-66",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er kroch",
+      "daCurrent": "Han krøb",
+      "verbIndex": 66
+    },
+    {
+      "cardId": "verb-66",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er kröche",
+      "daCurrent": "Han ville krybe",
+      "verbIndex": 66
+    },
+    {
+      "cardId": "verb-66",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gekrochen (er ist)",
+      "daCurrent": "Krøbet",
+      "verbIndex": 66
+    },
+    {
+      "cardId": "verb-67",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "laden",
+      "daCurrent": "At læsse",
+      "verbIndex": 67
+    },
+    {
+      "cardId": "verb-67",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er lädt",
+      "daCurrent": "Han læsser",
+      "verbIndex": 67
+    },
+    {
+      "cardId": "verb-67",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er lud",
+      "daCurrent": "Han læssede",
+      "verbIndex": 67
+    },
+    {
+      "cardId": "verb-67",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er lüde",
+      "daCurrent": "Han ville læsse",
+      "verbIndex": 67
+    },
+    {
+      "cardId": "verb-67",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geladen",
+      "daCurrent": "Læsset",
+      "verbIndex": 67
+    },
+    {
+      "cardId": "verb-68",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "lassen",
+      "daCurrent": "At lade",
+      "verbIndex": 68
+    },
+    {
+      "cardId": "verb-68",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er lässt",
+      "daCurrent": "Han lader",
+      "verbIndex": 68
+    },
+    {
+      "cardId": "verb-68",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er ließ",
+      "daCurrent": "Han lod",
+      "verbIndex": 68
+    },
+    {
+      "cardId": "verb-68",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er ließe",
+      "daCurrent": "Han ville lade",
+      "verbIndex": 68
+    },
+    {
+      "cardId": "verb-68",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gelassen",
+      "daCurrent": "Ladet",
+      "verbIndex": 68
+    },
+    {
+      "cardId": "verb-69",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "laufen",
+      "daCurrent": "At løbe",
+      "verbIndex": 69
+    },
+    {
+      "cardId": "verb-69",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er läuft",
+      "daCurrent": "Han løber",
+      "verbIndex": 69
+    },
+    {
+      "cardId": "verb-69",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er lief",
+      "daCurrent": "Han løb",
+      "verbIndex": 69
+    },
+    {
+      "cardId": "verb-69",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er liefe",
+      "daCurrent": "Han ville løbe",
+      "verbIndex": 69
+    },
+    {
+      "cardId": "verb-69",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gelaufen (er ist)",
+      "daCurrent": "Løbet",
+      "verbIndex": 69
+    }
+  ]
+}

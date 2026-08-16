@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_final_post_repair",
+  "batch": "batch-008",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA (lv) vs DE for each verb form. Flag real Danish linguistic/semantic/paradigm issues. Do NOT suggest DE changes. FALSE_POSITIVE if grammatically valid.",
+  "forms": [
+    {
+      "cardId": "verb-70",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "leiden",
+      "daCurrent": "At lide",
+      "verbIndex": 70
+    },
+    {
+      "cardId": "verb-70",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er leidet",
+      "daCurrent": "Han lider",
+      "verbIndex": 70
+    },
+    {
+      "cardId": "verb-70",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er litt",
+      "daCurrent": "Han led",
+      "verbIndex": 70
+    },
+    {
+      "cardId": "verb-70",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er litte",
+      "daCurrent": "Han ville lide",
+      "verbIndex": 70
+    },
+    {
+      "cardId": "verb-70",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gelitten",
+      "daCurrent": "Lidt",
+      "verbIndex": 70
+    },
+    {
+      "cardId": "verb-71",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "leihen",
+      "daCurrent": "At låne",
+      "verbIndex": 71
+    },
+    {
+      "cardId": "verb-71",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er leiht",
+      "daCurrent": "Han låner/låner",
+      "verbIndex": 71
+    },
+    {
+      "cardId": "verb-71",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er lieh",
+      "daCurrent": "Han lånte/lånte",
+      "verbIndex": 71
+    },
+    {
+      "cardId": "verb-71",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er liehe",
+      "daCurrent": "Han ville låne/låne",
+      "verbIndex": 71
+    },
+    {
+      "cardId": "verb-71",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geliehen",
+      "daCurrent": "Lånt",
+      "verbIndex": 71
+    },
+    {
+      "cardId": "verb-72",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "lesen",
+      "daCurrent": "At læse",
+      "verbIndex": 72
+    },
+    {
+      "cardId": "verb-72",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er liest",
+      "daCurrent": "Han læser",
+      "verbIndex": 72
+    },
+    {
+      "cardId": "verb-72",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er las",
+      "daCurrent": "Han læste",
+      "verbIndex": 72
+    },
+    {
+      "cardId": "verb-72",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er läse",
+      "daCurrent": "Han ville læse",
+      "verbIndex": 72
+    },
+    {
+      "cardId": "verb-72",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gelesen",
+      "daCurrent": "Læst",
+      "verbIndex": 72
+    },
+    {
+      "cardId": "verb-73",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "liegen",
+      "daCurrent": "At ligge",
+      "verbIndex": 73
+    },
+    {
+      "cardId": "verb-73",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er liegt",
+      "daCurrent": "Han ligger",
+      "verbIndex": 73
+    },
+    {
+      "cardId": "verb-73",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er lag",
+      "daCurrent": "Han lå",
+      "verbIndex": 73
+    },
+    {
+      "cardId": "verb-73",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er läge",
+      "daCurrent": "Han ville ligge",
+      "verbIndex": 73
+    },
+    {
+      "cardId": "verb-73",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gelegen",
+      "daCurrent": "Ligget",
+      "verbIndex": 73
+    },
+    {
+      "cardId": "verb-74",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "lügen",
+      "daCurrent": "At lyve",
+      "verbIndex": 74
+    },
+    {
+      "cardId": "verb-74",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er lügt",
+      "daCurrent": "Han lyver",
+      "verbIndex": 74
+    },
+    {
+      "cardId": "verb-74",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er log",
+      "daCurrent": "Han løj",
+      "verbIndex": 74
+    },
+    {
+      "cardId": "verb-74",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er löge",
+      "daCurrent": "Han ville lyve",
+      "verbIndex": 74
+    },
+    {
+      "cardId": "verb-74",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gelogen",
+      "daCurrent": "Løjet",
+      "verbIndex": 74
+    },
+    {
+      "cardId": "verb-75",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "mahlen",
+      "daCurrent": "Malt",
+      "verbIndex": 75
+    },
+    {
+      "cardId": "verb-75",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er mahlt",
+      "daCurrent": "Han maler",
+      "verbIndex": 75
+    },
+    {
+      "cardId": "verb-75",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er mahlte",
+      "daCurrent": "Han malede",
+      "verbIndex": 75
+    },
+    {
+      "cardId": "verb-75",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er malte",
+      "daCurrent": "Han ville male",
+      "verbIndex": 75
+    },
+    {
+      "cardId": "verb-75",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gemahlen",
+      "daCurrent": "Malt",
+      "verbIndex": 75
+    },
+    {
+      "cardId": "verb-76",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "meiden",
+      "daCurrent": "Undgå",
+      "verbIndex": 76
+    },
+    {
+      "cardId": "verb-76",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er meidet",
+      "daCurrent": "Han undgår",
+      "verbIndex": 76
+    },
+    {
+      "cardId": "verb-76",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er mied",
+      "daCurrent": "Han undgik",
+      "verbIndex": 76
+    },
+    {
+      "cardId": "verb-76",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er miede",
+      "daCurrent": "Han ville undgå",
+      "verbIndex": 76
+    },
+    {
+      "cardId": "verb-76",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gemieden",
+      "daCurrent": "Undgået",
+      "verbIndex": 76
+    },
+    {
+      "cardId": "verb-77",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "melken",
+      "daCurrent": "At malke",
+      "verbIndex": 77
+    },
+    {
+      "cardId": "verb-77",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er milkt / er melkt",
+      "daCurrent": "Han malker",
+      "verbIndex": 77
+    },
+    {
+      "cardId": "verb-77",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er molk / er melkte",
+      "daCurrent": "Han malkede",
+      "verbIndex": 77
+    },
+    {
+      "cardId": "verb-77",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er mölke / er melkte",
+      "daCurrent": "Han ville malke",
+      "verbIndex": 77
+    },
+    {
+      "cardId": "verb-77",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gemolken / gemelkt",
+      "daCurrent": "Malket",
+      "verbIndex": 77
+    },
+    {
+      "cardId": "verb-78",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "messen",
+      "daCurrent": "At måle",
+      "verbIndex": 78
+    },
+    {
+      "cardId": "verb-78",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er misst",
+      "daCurrent": "Han måler",
+      "verbIndex": 78
+    },
+    {
+      "cardId": "verb-78",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er mass",
+      "daCurrent": "Han målte",
+      "verbIndex": 78
+    },
+    {
+      "cardId": "verb-78",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er mäße",
+      "daCurrent": "Han ville måle",
+      "verbIndex": 78
+    },
+    {
+      "cardId": "verb-78",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gemessen",
+      "daCurrent": "Målt",
+      "verbIndex": 78
+    },
+    {
+      "cardId": "verb-79",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "misslingen",
+      "daCurrent": "At mislykkes",
+      "verbIndex": 79
+    },
+    {
+      "cardId": "verb-79",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "es misslingt",
+      "daCurrent": "Det mislykkes",
+      "verbIndex": 79
+    },
+    {
+      "cardId": "verb-79",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "misslang",
+      "daCurrent": "Mislykkedes",
+      "verbIndex": 79
+    },
+    {
+      "cardId": "verb-79",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "misslang",
+      "daCurrent": "Mislykkedes",
+      "verbIndex": 79
+    },
+    {
+      "cardId": "verb-79",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "misslungen",
+      "daCurrent": "Mislykket",
+      "verbIndex": 79
+    }
+  ]
+}

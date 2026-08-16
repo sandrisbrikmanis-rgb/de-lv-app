@@ -1,0 +1,41 @@
+{
+  "batch": "batch-015",
+  "findings": [
+    {
+      "cardId": "verb-142",
+      "field": "imperfektIndikativ",
+      "de": "er sprang",
+      "daCurrent": "Han sprang",
+      "severity": "HIGH",
+      "problem": "Inconsistent verb stem within springen card.",
+      "reason": "Infinitiv, present, Konjunktiv II, and participle use hoppe (Han hopper / Han ville hoppe / Hoppet), but preterite uses sprang from springe. Preterite of hoppe is Han hoppede.",
+      "recommendedDa": "Han hoppede",
+      "category": "CONSISTENCY",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-145",
+      "field": "partizipVergangenheit",
+      "de": "gestanden",
+      "daCurrent": "Stående",
+      "severity": "HIGH",
+      "problem": "Wrong part-of-speech for past participle.",
+      "reason": "Stående is a present participle/adjective ('standing'), not the past participle of stå. gestanden maps to Stået (havde stået).",
+      "recommendedDa": "Stået",
+      "category": "GRAMMAR",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-147",
+      "field": "partizipVergangenheit",
+      "de": "gestiegen (er ist)",
+      "daCurrent": "Steget",
+      "severity": "HIGH",
+      "problem": "Inconsistent verb stem within steigen card.",
+      "reason": "Infinitiv, present, and preterite use klatre (Han klatrer / Han klatrede), but participle uses Steget from stige. Participle of klatre is Klatret.",
+      "recommendedDa": "Klatret",
+      "category": "CONSISTENCY",
+      "status": "FAIL"
+    }
+  ]
+}

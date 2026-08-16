@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_final_post_repair",
+  "batch": "batch-016",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA (lv) vs DE for each verb form. Flag real Danish linguistic/semantic/paradigm issues. Do NOT suggest DE changes. FALSE_POSITIVE if grammatically valid.",
+  "forms": [
+    {
+      "cardId": "verb-150",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "stinken",
+      "daCurrent": "At stinke",
+      "verbIndex": 150
+    },
+    {
+      "cardId": "verb-150",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "es stinkt",
+      "daCurrent": "Det stinker",
+      "verbIndex": 150
+    },
+    {
+      "cardId": "verb-150",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "stank",
+      "daCurrent": "Det stank",
+      "verbIndex": 150
+    },
+    {
+      "cardId": "verb-150",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "stank",
+      "daCurrent": "Det ville stinke",
+      "verbIndex": 150
+    },
+    {
+      "cardId": "verb-150",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gestunken",
+      "daCurrent": "Stunket",
+      "verbIndex": 150
+    },
+    {
+      "cardId": "verb-151",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "stoßen",
+      "daCurrent": "Skubbe",
+      "verbIndex": 151
+    },
+    {
+      "cardId": "verb-151",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er stößt",
+      "daCurrent": "Han skubber",
+      "verbIndex": 151
+    },
+    {
+      "cardId": "verb-151",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er stieß",
+      "daCurrent": "Han skubbede",
+      "verbIndex": 151
+    },
+    {
+      "cardId": "verb-151",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er stieße",
+      "daCurrent": "Han ville skubbe",
+      "verbIndex": 151
+    },
+    {
+      "cardId": "verb-151",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gestoßen",
+      "daCurrent": "Skubbet",
+      "verbIndex": 151
+    },
+    {
+      "cardId": "verb-152",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "streichen",
+      "daCurrent": "At stryge",
+      "verbIndex": 152
+    },
+    {
+      "cardId": "verb-152",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er streicht",
+      "daCurrent": "Han stryger",
+      "verbIndex": 152
+    },
+    {
+      "cardId": "verb-152",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er strich",
+      "daCurrent": "Han strøg",
+      "verbIndex": 152
+    },
+    {
+      "cardId": "verb-152",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er striche",
+      "daCurrent": "Han ville stryge",
+      "verbIndex": 152
+    },
+    {
+      "cardId": "verb-152",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gestrichen",
+      "daCurrent": "Strøget",
+      "verbIndex": 152
+    },
+    {
+      "cardId": "verb-153",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "streiten",
+      "daCurrent": "At skændes",
+      "verbIndex": 153
+    },
+    {
+      "cardId": "verb-153",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er streitet",
+      "daCurrent": "Han skændes",
+      "verbIndex": 153
+    },
+    {
+      "cardId": "verb-153",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er stritt",
+      "daCurrent": "Han skændtes",
+      "verbIndex": 153
+    },
+    {
+      "cardId": "verb-153",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er stritte",
+      "daCurrent": "Han ville skændes",
+      "verbIndex": 153
+    },
+    {
+      "cardId": "verb-153",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gestritten",
+      "daCurrent": "Skændtes",
+      "verbIndex": 153
+    },
+    {
+      "cardId": "verb-154",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "tragen",
+      "daCurrent": "At bære",
+      "verbIndex": 154
+    },
+    {
+      "cardId": "verb-154",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er trägt",
+      "daCurrent": "Han bærer",
+      "verbIndex": 154
+    },
+    {
+      "cardId": "verb-154",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er trug",
+      "daCurrent": "Han bar",
+      "verbIndex": 154
+    },
+    {
+      "cardId": "verb-154",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er trüge",
+      "daCurrent": "Han ville bære",
+      "verbIndex": 154
+    },
+    {
+      "cardId": "verb-154",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "getragen",
+      "daCurrent": "Båret",
+      "verbIndex": 154
+    },
+    {
+      "cardId": "verb-155",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "treffen",
+      "daCurrent": "At møde",
+      "verbIndex": 155
+    },
+    {
+      "cardId": "verb-155",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er trifft",
+      "daCurrent": "Han møder",
+      "verbIndex": 155
+    },
+    {
+      "cardId": "verb-155",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er traf",
+      "daCurrent": "Han mødte",
+      "verbIndex": 155
+    },
+    {
+      "cardId": "verb-155",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er träfe",
+      "daCurrent": "Han ville støde på",
+      "verbIndex": 155
+    },
+    {
+      "cardId": "verb-155",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "getroffen",
+      "daCurrent": "Mødt",
+      "verbIndex": 155
+    },
+    {
+      "cardId": "verb-156",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "treiben",
+      "daCurrent": "At drive",
+      "verbIndex": 156
+    },
+    {
+      "cardId": "verb-156",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er treibt",
+      "daCurrent": "Han kører",
+      "verbIndex": 156
+    },
+    {
+      "cardId": "verb-156",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er trieb",
+      "daCurrent": "Han kørte",
+      "verbIndex": 156
+    },
+    {
+      "cardId": "verb-156",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er triebe",
+      "daCurrent": "Han ville køre",
+      "verbIndex": 156
+    },
+    {
+      "cardId": "verb-156",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "getrieben",
+      "daCurrent": "Drevet",
+      "verbIndex": 156
+    },
+    {
+      "cardId": "verb-157",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "treten",
+      "daCurrent": "At træde",
+      "verbIndex": 157
+    },
+    {
+      "cardId": "verb-157",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er tritt",
+      "daCurrent": "Han træder",
+      "verbIndex": 157
+    },
+    {
+      "cardId": "verb-157",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er trat",
+      "daCurrent": "Han trådte",
+      "verbIndex": 157
+    },
+    {
+      "cardId": "verb-157",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er träte",
+      "daCurrent": "Han ville træde",
+      "verbIndex": 157
+    },
+    {
+      "cardId": "verb-157",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "getreten (er ist)",
+      "daCurrent": "Trådt",
+      "verbIndex": 157
+    },
+    {
+      "cardId": "verb-158",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "trinken",
+      "daCurrent": "At drikke",
+      "verbIndex": 158
+    },
+    {
+      "cardId": "verb-158",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er trinkt",
+      "daCurrent": "Han drikker",
+      "verbIndex": 158
+    },
+    {
+      "cardId": "verb-158",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er trank",
+      "daCurrent": "Han drak",
+      "verbIndex": 158
+    },
+    {
+      "cardId": "verb-158",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er tränke",
+      "daCurrent": "Han ville drikke",
+      "verbIndex": 158
+    },
+    {
+      "cardId": "verb-158",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "getrunken",
+      "daCurrent": "Drukket",
+      "verbIndex": 158
+    },
+    {
+      "cardId": "verb-159",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "trügen",
+      "daCurrent": "At snyde",
+      "verbIndex": 159
+    },
+    {
+      "cardId": "verb-159",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er trögt",
+      "daCurrent": "Han snyder",
+      "verbIndex": 159
+    },
+    {
+      "cardId": "verb-159",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er trog",
+      "daCurrent": "Han snød",
+      "verbIndex": 159
+    },
+    {
+      "cardId": "verb-159",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er tröge",
+      "daCurrent": "Han ville snyde",
+      "verbIndex": 159
+    },
+    {
+      "cardId": "verb-159",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "getrogen",
+      "daCurrent": "Snydt",
+      "verbIndex": 159
+    }
+  ]
+}
