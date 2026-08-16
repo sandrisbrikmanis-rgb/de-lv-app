@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-035",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[10].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[10].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg er 20 år gammel.",
+      "deCurrent": "Ich bin zwanzig Jahre alt.",
+      "lvMasterDa": "Es esmu 20 gadus vecs.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[11].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[11].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Er Max stor?",
+      "deCurrent": "Ist Max groß?",
+      "lvMasterDa": "Vai Maksis ir liels?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[12].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[12].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Nej, Max er ikke stor, Rudolph er større.",
+      "deCurrent": "Nein, Max ist nicht groß, Rudolf ist größer.",
+      "lvMasterDa": "Nē, Maksis nav liels, Rūdolfs ir lielāks.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[13].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[13].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem er størst?",
+      "deCurrent": "Wer ist am größten?",
+      "lvMasterDa": "Kas ir vislielākais?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[14].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[14].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Francis er den største.",
+      "deCurrent": "Franz ist am größten.",
+      "lvMasterDa": "Francis ir vislielākais.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[15].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[15].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor gammel er moderen?",
+      "deCurrent": "Wie alt ist die Mutter?",
+      "lvMasterDa": "Cik veca ir māte?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[16].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[16].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Moderen er på samme alder som faderen.",
+      "deCurrent": "Die Mutter ist ebenso alt wie der Vater.",
+      "lvMasterDa": "Māte ir tikpat veca kā tēvs.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[17].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[17].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor mange søstre har du?",
+      "deCurrent": "Wieviel Schwestern hast du?",
+      "lvMasterDa": "Cik tev māsu?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[18].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[18].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg har tre søstre.",
+      "deCurrent": "Ich habe drei Schwestern.",
+      "lvMasterDa": "Man ir trīs māsas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[19].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[19].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad er deres navne?",
+      "deCurrent": "Wie heißen sie?",
+      "lvMasterDa": "Kā viņas sauc?",
+      "source": "lesson"
+    }
+  ]
+}

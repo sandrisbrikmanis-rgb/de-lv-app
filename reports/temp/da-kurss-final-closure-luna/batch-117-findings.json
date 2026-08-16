@@ -1,0 +1,36 @@
+{
+  "batch": "batch-117",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:28:50.086Z",
+  "findings": [
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[14].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[14].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Das sind Federn.",
+      "daCurrent": "De er fjer.",
+      "proposedDa": "Det er fjer.",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "reason": "Ved identifikation af ting bruges normalt det på dansk; De er fjer lyder som en henvisning til allerede nævnte fjer.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[18].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[18].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Das ist ein Federhalter.",
+      "daCurrent": "Det er en fyldepenholder.",
+      "proposedDa": "Det er en penneholder.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "Fyldepenholder betyder en holder til en fyldepen, mens Federhalter her betyder en almindelig penneholder.",
+      "confidence": 0.85,
+      "status": "FINDING"
+    }
+  ]
+}

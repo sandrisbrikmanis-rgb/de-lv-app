@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-088",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[6].heading",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[6].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "gehen / treten",
+      "deCurrent": "",
+      "lvMasterDa": "gehen / treten",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[6].text",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[6].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Gehen betyder »at gå«, mens treten bl.a. kan betyde »at træde« eller »at gå ind« afhængigt af sammenhængen.",
+      "deCurrent": "",
+      "lvMasterDa": "gehen — iet, ja darbība nozīmē nepārtrauktu iešanu. treten — ieiet, pieiet, uzkāpt, ja iešana beidzas ar darbības pārtraukumu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].title",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Udtale",
+      "deCurrent": "",
+      "lvMasterDa": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[0]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet vor udtales o langt.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā vor o izrunā gari.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[1]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet hinter udtales h, og e er åbent.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā hinter h ir dzirdams, un e ir plats.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[2]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet der Stuhl udtales st som št; h fungerer som længdetegn og udtales ikke.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā der Stuhl: st izrunā kā št; h ir garuma zīme un netiek izrunāts.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[3]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[3]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet der Strauch udtales st som sht.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā der Strauch: st izrunā kā št.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[4]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[4]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet wachsen udtales ch som k.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā wachsen: ch izrunā kā k.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[4].title",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[4].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Øvelse",
+      "deCurrent": "",
+      "lvMasterDa": "Vingrinājums",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[4].cards[0].task",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[4].cards[0].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wohin? → akkusativ, wo? → dativ.",
+      "deCurrent": "Anna geht in den Garten, an den Teich, vor die Mühle, hinter die Scheune, auf das Feld, über die Brücke, unter den Baum, zwischen den Strauch und die Laube.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wohin? → Akkusativ, wo? → Dativ.",
+      "source": "lesson"
+    }
+  ]
+}

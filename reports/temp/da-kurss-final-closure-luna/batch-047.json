@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-047",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[2]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "du musst — du skal / du er nødt til",
+      "deCurrent": "du musst",
+      "lvMasterDa": "du musst — tev vajag / tev jādara",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[3]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[3]",
+      "fieldType": "sectionItem",
+      "daCurrent": "er muss — han skal / han er nødt til",
+      "deCurrent": "er muss",
+      "lvMasterDa": "er muss — viņam vajag / viņam jādara",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[4]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[4]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sie muss — hun skal / hun er nødt til",
+      "deCurrent": "sie muss",
+      "lvMasterDa": "sie muss — viņai vajag / viņai jādara",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[5]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[5]",
+      "fieldType": "sectionItem",
+      "daCurrent": "es muss — det skal / det er nødt til",
+      "deCurrent": "es muss",
+      "lvMasterDa": "es muss — tam vajag / tam jādara",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[6]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[6]",
+      "fieldType": "sectionItem",
+      "daCurrent": "wir müssen — vi skal / vi er nødt til",
+      "deCurrent": "wir müssen",
+      "lvMasterDa": "wir müssen — mums vajag / mums jādara",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[7]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ihr müsst — I skal / I er nødt til",
+      "deCurrent": "ihr müsst",
+      "lvMasterDa": "ihr müsst — jums vajag / jums jādara",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[8]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[8]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sie müssen — de skal / de er nødt til",
+      "deCurrent": "sie müssen",
+      "lvMasterDa": "sie müssen — viņiem / viņām vajag",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[9]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[9]",
+      "fieldType": "sectionItem",
+      "daCurrent": "lernen — at lære",
+      "deCurrent": "lernen",
+      "lvMasterDa": "lernen — mācīties",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[10]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "daCurrent": "vorwärts — fremad",
+      "deCurrent": "vorwärts",
+      "lvMasterDa": "vorwärts — uz priekšu",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[11]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[11]",
+      "fieldType": "sectionItem",
+      "daCurrent": "vorwärts kommen — at komme fremad",
+      "deCurrent": "vorwärts kommen",
+      "lvMasterDa": "vorwärts kommen — tikt uz priekšu",
+      "source": "lesson"
+    }
+  ]
+}

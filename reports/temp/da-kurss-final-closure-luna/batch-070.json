@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-070",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[0].title",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[0].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Tekst/læsning",
+      "deCurrent": "",
+      "lvMasterDa": "Teksts / Lasīšana",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].title",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Ord",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdiņi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[0]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Spaten — spade",
+      "deCurrent": "der Spaten",
+      "lvMasterDa": "der Spaten — lāpsta",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[6]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[6]",
+      "fieldType": "sectionItem",
+      "daCurrent": "fangen — at fange",
+      "deCurrent": "fangen",
+      "lvMasterDa": "fangen — ķert",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[7]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "daCurrent": "auffangen — at gribe / opfange",
+      "deCurrent": "auffangen",
+      "lvMasterDa": "auffangen — uzķert / noķert",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[9]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[9]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Schuldiener — skolebetjent",
+      "deCurrent": "der Schuldiener",
+      "lvMasterDa": "der Schuldiener — skolas apkalpotājs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[11]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[11]",
+      "fieldType": "sectionItem",
+      "daCurrent": "fegen — at feje med en kost",
+      "deCurrent": "fegen",
+      "lvMasterDa": "fegen — slaucīt ar slotu",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[12]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Diele — gulv",
+      "deCurrent": "die Diele",
+      "lvMasterDa": "die Diele — grīda",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[13]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[13]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Lappen — klud / klæde",
+      "deCurrent": "der Lappen",
+      "lvMasterDa": "der Lappen — lupata / drāna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[14]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[14]",
+      "fieldType": "sectionItem",
+      "daCurrent": "wischen — at tørre af / aftørre",
+      "deCurrent": "wischen",
+      "lvMasterDa": "wischen — slaucīt / tīrīt",
+      "source": "lesson"
+    }
+  ]
+}

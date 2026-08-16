@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-012",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[0].title",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[0].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Dialoger / sætninger",
+      "deCurrent": "",
+      "lvMasterDa": "Dialogi / teikumi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].title",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Ord",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[0]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "mehrere (mērere) — flere",
+      "deCurrent": "mehrere (mērere)",
+      "lvMasterDa": "mehrere (mērere) — vairāki, vairākas",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[1]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "hier (hīr) — her",
+      "deCurrent": "hier (hīr)",
+      "lvMasterDa": "hier (hīr) — šeit, te",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[3]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[3]",
+      "fieldType": "sectionItem",
+      "daCurrent": "auch — også",
+      "deCurrent": "auch",
+      "lvMasterDa": "auch — arī",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[4]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[4]",
+      "fieldType": "sectionItem",
+      "daCurrent": "langsam (lankzām) — langsomt",
+      "deCurrent": "langsam (lankzām)",
+      "lvMasterDa": "langsam (lankzām) — lēni",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[5]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[5]",
+      "fieldType": "sectionItem",
+      "daCurrent": "schnell (šnel) — hurtigt",
+      "deCurrent": "schnell (šnel)",
+      "lvMasterDa": "schnell (šnel) — ātri",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[6]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[6]",
+      "fieldType": "sectionItem",
+      "daCurrent": "mehr (mēr) — mere",
+      "deCurrent": "mehr (mēr)",
+      "lvMasterDa": "mehr (mēr) — vairāk",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[7]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "daCurrent": "zumachen — lukke",
+      "deCurrent": "zumachen",
+      "lvMasterDa": "zumachen — aiztaisīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[9]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[9]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sitzen (zicen) — sidde",
+      "deCurrent": "sitzen (zicen)",
+      "lvMasterDa": "sitzen (zicen) — sēdēt",
+      "source": "lesson"
+    }
+  ]
+}

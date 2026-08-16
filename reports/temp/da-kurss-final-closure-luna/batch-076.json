@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-076",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[14].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[14].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Han tegner med blyant og kridt.",
+      "deCurrent": "Er zeichnet mit dem Bleistift und mit der Kreide.",
+      "lvMasterDa": "Viņš zīmē ar zīmuli un krītu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[15].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[15].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad holder du spaden med?",
+      "deCurrent": "Womit hältst du den Spaten?",
+      "lvMasterDa": "Ar ko tu turi lāpstu?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[16].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[16].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg holder spaden med hånden.",
+      "deCurrent": "Ich halte den Spaten mit der Hand.",
+      "lvMasterDa": "Es turu lāpstu ar roku.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[17].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[17].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Med hvad arbejder vi?",
+      "deCurrent": "Womit arbeiten wir?",
+      "lvMasterDa": "Ar ko mēs strādājam?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[18].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[18].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Vi arbejder med hænderne.",
+      "deCurrent": "Wir arbeiten mit den Händen.",
+      "lvMasterDa": "Mēs strādājam ar rokām.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[19].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[19].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad ser vi med?",
+      "deCurrent": "Womit sehen wir?",
+      "lvMasterDa": "Ar ko mēs redzam?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[20].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[20].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Vi ser med øjnene.",
+      "deCurrent": "Wir sehen mit den Augen.",
+      "lvMasterDa": "Mēs redzam ar acīm.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[21].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[21].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad hører vi med?",
+      "deCurrent": "Womit hören wir?",
+      "lvMasterDa": "Ar ko mēs dzirdam?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[22].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[22].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Vi hører med vores ører.",
+      "deCurrent": "Wir hören mit den Ohren.",
+      "lvMasterDa": "Mēs dzirdam ar ausīm.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[23].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[23].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Med hvem går broren?",
+      "deCurrent": "Mit wem geht der Bruder?",
+      "lvMasterDa": "Ar ko iet brālis?",
+      "source": "lesson"
+    }
+  ]
+}

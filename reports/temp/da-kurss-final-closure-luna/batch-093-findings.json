@@ -1,0 +1,22 @@
+{
+  "batch": "batch-093",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:26:10.935Z",
+  "findings": [
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[2].text",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[2].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "Hvis verbets stamme ender på t, d, m, n, så indsættes der i 2. og 3. person ental og i 2. person flertal ofte en -e- mellem stammen og slutningen for bedre udtale.",
+      "proposedDa": "Hvis verbets stamme ender på t, d, m eller n, indsættes der i 2. og 3. person ental samt i 2. person flertal ofte et -e- mellem stammen og endelsen for at lette udtalen.",
+      "severity": "LOW",
+      "category": "CONSISTENCY",
+      "reason": "“Slutningen” er mindre præcist og inkonsekvent med den grammatiske term “endelse”; “et -e-” og formuleringen er mere idiomatisk.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    }
+  ]
+}

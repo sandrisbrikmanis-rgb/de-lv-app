@@ -1,0 +1,58 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-127",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.19.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.19.menuDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
+      "deCurrent": "",
+      "lvMasterDa": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.20.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.20.title",
+      "fieldType": "uiString",
+      "daCurrent": "Lektion 20",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 20",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.20.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.20.menuDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Haus, etage, Dativ/Akkusativ og sammensatte substantiver.",
+      "deCurrent": "",
+      "lvMasterDa": "Haus, Stockwerk, Dativ/Akkusativ un saliktie lietvārdi.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.21.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.21.title",
+      "fieldType": "uiString",
+      "daCurrent": "Lektion 21",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 21",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.21.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.21.menuDesc",
+      "fieldType": "uiString",
+      "daCurrent": "woher / wohin / wo, von / aus / mit + Dativ.",
+      "deCurrent": "",
+      "lvMasterDa": "woher / wohin / wo, von / aus / mit + Dativ.",
+      "source": "ui"
+    }
+  ]
+}

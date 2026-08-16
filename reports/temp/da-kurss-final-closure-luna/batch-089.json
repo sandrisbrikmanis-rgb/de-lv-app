@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-089",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[4].cards[1].task",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[4].cards[1].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wohin? → akkusativ, wo? → dativ.",
+      "deCurrent": "Anna befindet sich oft in dem Garten, an dem Teich, vor der Mühle, hinter der Scheune, auf dem Feld, über dem Wasser, unter dem Baum, zwischen dem Strauch und der Laube.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wohin? → Akkusativ, wo? → Dativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].title",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Oversæt",
+      "deCurrent": "",
+      "lvMasterDa": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[0].lv",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[0].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Læreren kommer til klasseværelset.",
+      "deCurrent": "Der Lehrer kommt in die Klasse.",
+      "lvMasterDa": "Skolotājs nāk klasē.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[1].lv",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[1].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Han har et kort i hånden.",
+      "deCurrent": "Er hat eine Karte in der Hand.",
+      "lvMasterDa": "Viņam ir karte rokā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[2].lv",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[2].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Han hænger kortet på væggen.",
+      "deCurrent": "Er hängt die Karte an die Wand.",
+      "lvMasterDa": "Viņš piekar karti pie sienas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[3].lv",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[3].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Han viser eleverne mange lande, byer, bjerge, søer og floder.",
+      "deCurrent": "Er zeigt den Schülern und Schülerinnen viele Länder, Städte, Berge, Seen und Flüsse.",
+      "lvMasterDa": "Viņš rāda skolniekiem un skolniecēm daudz pilsētu, zemi, kalnu, ezeru un upi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[4].lv",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[4].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Så kalder læreren en elev frem.",
+      "deCurrent": "Dann ruft der Lehrer einen Schüler auf.",
+      "lvMasterDa": "Tad skolotājs uzsauc skolnieku.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[5].lv",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[5].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Eleven går hen til kortet.",
+      "deCurrent": "Der Schüler tritt an die Karte.",
+      "lvMasterDa": "Skolnieks pieiet pie kartes.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[6].lv",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[6].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Han bliver stående foran kortet.",
+      "deCurrent": "Er bleibt vor der Karte stehen.",
+      "lvMasterDa": "Viņš paliek kartes priekšā stāvam.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[7].lv",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[7].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Han navngiver og viser læreren byer, bjerge og floder.",
+      "deCurrent": "Er nennt und zeigt dem Lehrer die Städte, die Berge und die Flüsse.",
+      "lvMasterDa": "Viņš nosauc un parāda skolotājam pilsētas, kalnus un upes.",
+      "source": "lesson"
+    }
+  ]
+}

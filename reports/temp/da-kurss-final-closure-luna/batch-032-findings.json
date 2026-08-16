@@ -1,0 +1,36 @@
+{
+  "batch": "batch-032",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:19:06.124Z",
+  "findings": [
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[27]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[27]",
+      "fieldType": "sectionItem",
+      "deCurrent": "die Blume",
+      "daCurrent": "die Blume — blomsten",
+      "proposedDa": "die Blume — blomst",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "reason": "Den danske gloss er bestemt, mens den fungerer som en ubestemt ordbogsform; den bør være »blomst« for at følge den øvrige stil.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[30]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[30]",
+      "fieldType": "sectionItem",
+      "deCurrent": "die Kreide",
+      "daCurrent": "die Kreide — kridtet",
+      "proposedDa": "die Kreide — kridt",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "reason": "Den danske gloss er bestemt, mens den fungerer som en ubestemt ordbogsform; »kridt« er den korrekte lemmaform.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "batch": "batch-115",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:28:40.264Z",
+  "findings": [
+    {
+      "fieldId": "lesson5|lesson5TrainingCardsDa[10].front",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsDa[10].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Das Mädchen nimmt den Federhalter, die Feder und das Messer.",
+      "daCurrent": "Pigen tager fyldepenholderen, fjeren og kniven.",
+      "proposedDa": "Pigen tager penneholderen, fjeren og kniven.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "Fyldepenholderen betyder en holder til en fyldepen, mens Federhalter svarer til penneholderen.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    }
+  ]
+}

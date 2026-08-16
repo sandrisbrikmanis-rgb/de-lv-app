@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-075",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[4].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[4].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad tørrer pigen støvet af med?",
+      "deCurrent": "Womit wischt das Mädchen den Staub ab?",
+      "lvMasterDa": "Ar ko meitene noslauka putekļus?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[5].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[5].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Med hvem taler pigen?",
+      "deCurrent": "Mit wem spricht das Mädchen?",
+      "lvMasterDa": "Ar ko runā meitene?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[6].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[6].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hun taler med gartneren.",
+      "deCurrent": "Sie spricht mit dem Gärtner.",
+      "lvMasterDa": "Viņa runā ar dārznieku.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[7].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[7].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Taler hun med en ven?",
+      "deCurrent": "Spricht sie mit dem Freunde?",
+      "lvMasterDa": "Vai viņa runā ar draugu?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[8].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[8].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Nej, hun taler med sine venner.",
+      "deCurrent": "Nein, sie spricht mit den Freunden.",
+      "lvMasterDa": "Nē, viņa runā ar draugiem.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[9].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[9].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem hjælper drengen?",
+      "deCurrent": "Wem hilft der Knabe?",
+      "lvMasterDa": "Kam palīdz zēns?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[10].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[10].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Han hjælper gartneren.",
+      "deCurrent": "Er hilft dem Gärtner.",
+      "lvMasterDa": "Viņš palīdz dārzniekam.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[11].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[11].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad klipper han papiret over med?",
+      "deCurrent": "Womit schneidet er das Papier entzwei?",
+      "lvMasterDa": "Ar ko viņš pārgriež papīru?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[12].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[12].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Han klipper papiret med en saks.",
+      "deCurrent": "Er schneidet das Papier mit der Schere entzwei.",
+      "lvMasterDa": "Viņš pārgriež papīru ar šķērēm.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[13].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[13].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad tegner broderen med?",
+      "deCurrent": "Womit zeichnet der Bruder?",
+      "lvMasterDa": "Ar ko zīmē brālis?",
+      "source": "lesson"
+    }
+  ]
+}

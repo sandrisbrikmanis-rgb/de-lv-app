@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-030",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[19].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[19].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Står de?",
+      "deCurrent": "Stehen sie?",
+      "lvMasterDa": "Vai viņi stāv?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[20].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[20].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Nej, de sætter sig ned og studerer.",
+      "deCurrent": "Nein, sie setzen sich und lernen.",
+      "lvMasterDa": "Nē, viņi apsēžas un mācās.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.title",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.title",
+      "fieldType": "title",
+      "daCurrent": "Lektion 12",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 12",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.subtitle",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.subtitle",
+      "fieldType": "subtitle",
+      "daCurrent": "Gradbøjning, als / wie, alder, adjektiver og farver.",
+      "deCurrent": "",
+      "lvMasterDa": "Salīdzināmās pakāpes, als / wie, vecums, īpašības vārdi un krāsas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.intro",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.intro",
+      "fieldType": "intro",
+      "daCurrent": "Tolvte lektion: gradbøjning, als / wie, alder, adjektiver og farver.",
+      "deCurrent": "",
+      "lvMasterDa": "Divpadsmitā lekcija: salīdzināmās pakāpes, als / wie, vecums, īpašības vārdi un krāsas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[0].title",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[0].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Dialoger / sætninger",
+      "deCurrent": "",
+      "lvMasterDa": "Dialogi / teikumi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].title",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Ord",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[1]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "wie heißt du — hvad hedder du?",
+      "deCurrent": "wie heißt du",
+      "lvMasterDa": "wie heißt du — kā tevi sauc",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[2]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ich heiße — jeg hedder",
+      "deCurrent": "ich heiße",
+      "lvMasterDa": "ich heiße — mani sauc",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[5]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[5]",
+      "fieldType": "sectionItem",
+      "daCurrent": "Max (maks) — Max",
+      "deCurrent": "Max (maks)",
+      "lvMasterDa": "Max (maks) — Maksis",
+      "source": "lesson"
+    }
+  ]
+}

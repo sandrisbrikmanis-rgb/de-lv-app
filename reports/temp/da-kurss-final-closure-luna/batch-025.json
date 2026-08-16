@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-025",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[28]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[28]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Schwester (dī švester) — søster",
+      "deCurrent": "die Schwester (dī švester)",
+      "lvMasterDa": "die Schwester (dī švester) — māsa",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[29]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[29]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Schwestern — søstrene",
+      "deCurrent": "die Schwestern",
+      "lvMasterDa": "die Schwestern — māsas",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[2].title",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Udtale",
+      "deCurrent": "",
+      "lvMasterDa": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[2].items[0]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[2].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "eu udtales som oi: der Freund (dēr froint), neun (noin).",
+      "deCurrent": "",
+      "lvMasterDa": "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[2].items[1]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[2].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "h fungerer ofte som længdetegn for den foregående vokal og udtales ikke: der Stuhl (dēr štūl), zehn (cēn).",
+      "deCurrent": "",
+      "lvMasterDa": "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[2].items[2]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[2].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "z udtales som ts: Franz (frants), das Zimmer (tsimmer).",
+      "deCurrent": "",
+      "lvMasterDa": "z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].title",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Grammatik",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[0].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[0].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Haben",
+      "deCurrent": "",
+      "lvMasterDa": "Haben",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[0].text",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[0].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Hjælpeverbet haben på tysk udtrykker begrebet tilhørsforhold. På dansk udtrykkes det ofte med: Jeg har, du har, han har osv.",
+      "deCurrent": "",
+      "lvMasterDa": "Ar palīga darbības vārdu haben vācu valodā izsaka piederības jēdzienu. Latviski to bieži izsaka ar: man ir, tev ir, viņam ir u. t. t.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[1].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[1].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Haben — Präsens",
+      "deCurrent": "",
+      "lvMasterDa": "Haben — Präsens",
+      "source": "lesson"
+    }
+  ]
+}

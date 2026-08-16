@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-009",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[32].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[32].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Læs godt!",
+      "deCurrent": "Lies gut!",
+      "lvMasterDa": "Lasi labi!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[33].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[33].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Tal ikke stille!",
+      "deCurrent": "Sprich nicht leise!",
+      "lvMasterDa": "Nerunā klusi!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[34].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[34].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Læs godt!",
+      "deCurrent": "Lest gut!",
+      "lvMasterDa": "Lasiet labi!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[35].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[35].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hans skriver godt, men Anna skriver dårligt.",
+      "deCurrent": "Hans schreibt gut, aber Anna schreibt schlecht.",
+      "lvMasterDa": "Ansis raksta labi, bet Anna raksta slikti.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[36].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[36].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Frøken Müller, syng venligst en sang!",
+      "deCurrent": "Fräulein Müller, singen Sie, bitte, ein Lied!",
+      "lvMasterDa": "Müller jaunkundze, lūdzu dziediet dziesmu!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[37].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[37].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Lærer, sæt dig venligst ned!",
+      "deCurrent": "Herr Lehrer, bitte, setzen Sie sich!",
+      "lvMasterDa": "Skolotāja kungs, lūdzu sēdieties!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].title",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Oversættelse",
+      "deCurrent": "",
+      "lvMasterDa": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].description",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].description",
+      "fieldType": "sectionDescription",
+      "daCurrent": "Oversæt danske sætninger til tysk.",
+      "deCurrent": "",
+      "lvMasterDa": "Tulko latviskos teikumus vāciski.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[0].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[0].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hils på læreren og lærerinden!",
+      "deCurrent": "Grüße den Lehrer und die Lehrerin!",
+      "lvMasterDa": "Sveicini skolotāju un skolotāju.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[1].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[1].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Åbn alle vinduer!",
+      "deCurrent": "Öffnet alle Fenster!",
+      "lvMasterDa": "Atveriet visus logus!",
+      "source": "lesson"
+    }
+  ]
+}

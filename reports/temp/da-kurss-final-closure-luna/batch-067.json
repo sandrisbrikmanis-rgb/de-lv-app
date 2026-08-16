@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-067",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[4].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[4].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ/akkusativ efter sætningens mening.",
+      "deCurrent": "Der Vater ruft das Fräulein.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[5].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[5].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ/akkusativ efter sætningens mening.",
+      "deCurrent": "Der Vater ruft die Tante.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[6].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[6].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ.",
+      "deCurrent": "Der Vater nähert sich dem Knechte.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[7].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[7].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ.",
+      "deCurrent": "Der Vater nähert sich der Tochter.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[8].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[8].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ.",
+      "deCurrent": "Der Vater nähert sich der Magd.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[9].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[9].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ.",
+      "deCurrent": "Der Vater nähert sich dem Lehrer.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[10].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[10].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ.",
+      "deCurrent": "Der Vater nähert sich dem Tischler.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[11].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[11].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ.",
+      "deCurrent": "Der Vater nähert sich der Lehrerin.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[12].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[12].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ.",
+      "deCurrent": "Der Vater nähert sich dem Mädchen.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[13].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[13].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ.",
+      "deCurrent": "Der Vater nähert sich dem Jäger.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā.",
+      "source": "lesson"
+    }
+  ]
+}

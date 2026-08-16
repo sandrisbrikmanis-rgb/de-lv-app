@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-078",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[1].items[11]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[1].items[11]",
+      "fieldType": "sectionItem",
+      "daCurrent": "das Wasser — vand",
+      "deCurrent": "das Wasser",
+      "lvMasterDa": "das Wasser — ūdens",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[1].items[13]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[1].items[13]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Krug — kande",
+      "deCurrent": "der Krug",
+      "lvMasterDa": "der Krug — krūze",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[1].items[14]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[1].items[14]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Krüge — kander",
+      "deCurrent": "die Krüge",
+      "lvMasterDa": "die Krüge — krūzes",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[1].items[18]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[1].items[18]",
+      "fieldType": "sectionItem",
+      "daCurrent": "in — inden i / ind i",
+      "deCurrent": "in",
+      "lvMasterDa": "in — iekšā / uz iekšpusi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[1].items[21]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[1].items[21]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Diele — entré / gang",
+      "deCurrent": "die Diele",
+      "lvMasterDa": "die Diele — grīda",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].title",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Grammatik",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[0].heading",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[0].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "an / in / auf",
+      "deCurrent": "",
+      "lvMasterDa": "an / in / auf",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[0].text",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[0].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Præpositionerne an, in og auf kan bruges både med Akkusativ og med Dativ.",
+      "deCurrent": "",
+      "lvMasterDa": "Prievārdi an, in, auf var stāvēt gan ar Akkusativ, gan ar Dativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[1].heading",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[1].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Akkusativ: wohin?",
+      "deCurrent": "",
+      "lvMasterDa": "Akkusativ: wohin?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[1].text",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[1].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Hvis handlingen angiver en retning eller en ændring af placering, bruges Akkusativ. Spørgsmålet er: wohin? — hvorhen?",
+      "deCurrent": "",
+      "lvMasterDa": "Ja darbība norāda virzienu vai vietas maiņu, lieto Akkusativ. Jautājums: wohin? — kurp?",
+      "source": "lesson"
+    }
+  ]
+}

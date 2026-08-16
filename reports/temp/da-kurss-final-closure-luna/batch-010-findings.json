@@ -1,0 +1,22 @@
+{
+  "batch": "batch-010",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:16:22.906Z",
+  "findings": [
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[8].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[8].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Sprich nicht leise!",
+      "daCurrent": "Tal ikke stille!",
+      "proposedDa": "Tal ikke lavt!",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "reason": "“Tal ikke stille!” er forståeligt, men “Tal ikke lavt!” er den mere naturlige danske formulering for “Sprich nicht leise!”.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "batch": "batch-011",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:16:31.958Z",
+  "findings": [
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[18].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[18].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Herr Lehrer, bitte, setzen Sie sich!",
+      "daCurrent": "Hr. lærer, sæt dig venligst ned!",
+      "proposedDa": "Hr. lærer, sæt Dem venligst ned!",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "reason": "Det tyske høflige Sie-formen svarer til dansk tiltale med Dem, ikke det uformelle dig.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "batch": "batch-041",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:20:14.464Z",
+  "findings": [
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[2].items[5].text",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[5].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "Hvis præfiksdelen er betonet, adskilles den i præsens og placeres sidst i sætningen.",
+      "proposedDa": "Hvis præfikset er betonet, adskilles det i præsens og placeres sidst i sætningen.",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "reason": "Præfikset er den naturlige danske grammatiske betegnelse; præfiksdelen virker unødigt tungt.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    }
+  ]
+}

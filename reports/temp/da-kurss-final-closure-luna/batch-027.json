@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-027",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[7].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[7].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Kein / keine / keinen",
+      "deCurrent": "",
+      "lvMasterDa": "Kein / keine / keinen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[7].text",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[7].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Dansk dobbelt negation udtrykkes ikke på tysk med nægtelsesordet kein. Nægtelsesordet kein står kun foran substantivet.",
+      "deCurrent": "",
+      "lvMasterDa": "Latviešu valodas divkāršo noliegumu vāciski neizsaka ar noliedzamo vārdu kein. Noliedzamais vārds kein stāv tikai lietas vārda priekšā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[8].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[8].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Kein — ental",
+      "deCurrent": "",
+      "lvMasterDa": "Kein — vienskaitlis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[9].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[9].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Kein — flertal",
+      "deCurrent": "",
+      "lvMasterDa": "Kein — daudzskaitlis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[10].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[10].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Ordstilling med denn",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdu kārtība ar denn",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[10].text",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[10].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Hvis den fortællende sætning indeholder konjunktionen denn, forbliver verbet i 2. position. Konjunktionen denn tæller ikke som et led i sætningen.",
+      "deCurrent": "",
+      "lvMasterDa": "Ja stāstāmā teikumā ir saiklis denn, darbības vārds paliek 2. vietā. Saikli denn kā teikuma locekli neskaita.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[11].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[11].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Denn — eksempler",
+      "deCurrent": "",
+      "lvMasterDa": "Denn — piemēri",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[12].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[12].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Sammensatte substantiver",
+      "deCurrent": "",
+      "lvMasterDa": "Saliktie lietvārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[12].text",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[12].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Sammensatte navneord får artikel efter det sidste navneord. Trykket ligger på det første led.",
+      "deCurrent": "",
+      "lvMasterDa": "Salikto lietvārdu priekšā stāv pēdējā lietvārda artikuls. Uzsvars ir uz pirmā lietas vārda.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[13].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[13].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Sammensatte substantiver — eksempler",
+      "deCurrent": "",
+      "lvMasterDa": "Saliktie lietvārdi — piemēri",
+      "source": "lesson"
+    }
+  ]
+}

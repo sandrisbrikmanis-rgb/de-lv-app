@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-013",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[10]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ruhig (rū-ich) — rolig",
+      "deCurrent": "ruhig (rū",
+      "lvMasterDa": "ruhig (rū-ich) — mierīgi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[11]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[11]",
+      "fieldType": "sectionItem",
+      "daCurrent": "dieser (dīzer) — denne",
+      "deCurrent": "dieser (dīzer)",
+      "lvMasterDa": "dieser (dīzer) — šis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[12]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "daCurrent": "jener (jēner) — hin",
+      "deCurrent": "jener (jēner)",
+      "lvMasterDa": "jener (jēner) — tas",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[13]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[13]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Brief (dēr brīf) — et brev",
+      "deCurrent": "der Brief (dēr brīf)",
+      "lvMasterDa": "der Brief (dēr brīf) — vēstule",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[14]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[14]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Briefe — brevene",
+      "deCurrent": "die Briefe",
+      "lvMasterDa": "die Briefe — vēstules",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[15]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[15]",
+      "fieldType": "sectionItem",
+      "daCurrent": "kurz (kurc) — kort",
+      "deCurrent": "kurz (kurc)",
+      "lvMasterDa": "kurz (kurc) — īss",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[16]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "daCurrent": "rein — ren",
+      "deCurrent": "rein",
+      "lvMasterDa": "rein — tīrs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[17]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[17]",
+      "fieldType": "sectionItem",
+      "daCurrent": "schmutzig (šmucich) — beskidt",
+      "deCurrent": "schmutzig (šmucich)",
+      "lvMasterDa": "schmutzig (šmucich) — netīrs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[2].title",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Grammatik",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[2].items[0].heading",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[0].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Påpegende pronomener",
+      "deCurrent": "",
+      "lvMasterDa": "Norādāmie vietniekvārdi",
+      "source": "lesson"
+    }
+  ]
+}

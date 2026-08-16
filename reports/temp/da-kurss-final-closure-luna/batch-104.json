@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-104",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[3].items[3]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[3].items[3]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet die Brücke udtales ck som dobbelt k.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā die Brücke: ck izrunā kā dubultu k.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].title",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Øvelse",
+      "deCurrent": "",
+      "lvMasterDa": "Vingrinājums",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[0].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[0].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Der Vater kommt von dem Felde.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[1].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[1].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Er geht in die Scheune.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[2].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[2].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Er spricht in der Scheune mit den Holzhauern.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[3].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[3].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Der Mann steigt von dem Berge.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[4].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[4].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Er kommt auf den Hof.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[5].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[5].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Er findet den Vater auf dem Hof.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[6].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[6].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Die Mutter tritt aus dem Hause.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[7].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[7].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Sie geht auf den Hof.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    }
+  ]
+}

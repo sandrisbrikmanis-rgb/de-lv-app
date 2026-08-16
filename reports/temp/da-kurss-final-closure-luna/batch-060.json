@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-060",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].title",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Oversætte",
+      "deCurrent": "",
+      "lvMasterDa": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[0].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[0].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem er rask, hvem må arbejde?",
+      "deCurrent": "Wer ist gesund, wer darf arbeiten?",
+      "lvMasterDa": "Kas ir vesels, kas drīkst strādāt?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[1].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[1].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Franz er rask, han må arbejde.",
+      "deCurrent": "Franz ist gesund, er darf arbeiten.",
+      "lvMasterDa": "Francis ir vesels, viņš drīkst strādāt.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[2].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[2].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Må bedstefar arbejde?",
+      "deCurrent": "Darf der Großvater arbeiten?",
+      "lvMasterDa": "Vai vectēvs drīkst strādāt?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[3].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[3].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Nej, bedstefar må ikke arbejde, fordi han er syg.",
+      "deCurrent": "Nein, der Großvater darf nicht arbeiten, denn er ist krank.",
+      "lvMasterDa": "Nē, vectēvs nedrīkst strādāt, jo viņš ir slims.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[4].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[4].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Mor, må jeg spise blommer?",
+      "deCurrent": "Mutter, darf ich die Pflaumen essen?",
+      "lvMasterDa": "Māt, vai es drīkstu plūmes ēst?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[5].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[5].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Nej, du skal ikke spise blommerne, de er ikke modne.",
+      "deCurrent": "Nein, die Pflaumen sollst du nicht essen, sie sind unreif.",
+      "lvMasterDa": "Nē, plūmes tev nevajag ēst, tās ir neienākušās.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[6].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[6].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Spiser du et æble eller en pære?",
+      "deCurrent": "Isst du einen Apfel oder eine Birne?",
+      "lvMasterDa": "Vai tu ēdi ābolu vai bumbieri?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[7].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[7].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg spiser en pære.",
+      "deCurrent": "Ich esse eine Birne.",
+      "lvMasterDa": "Es ēdu bumbieri.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[8].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[8].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvordan smager pæren?",
+      "deCurrent": "Wie mundet die Birne?",
+      "lvMasterDa": "Kā garšo bumbieris?",
+      "source": "lesson"
+    }
+  ]
+}

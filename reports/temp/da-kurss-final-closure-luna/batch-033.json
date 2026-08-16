@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-033",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[0].heading",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[0].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Komparativ",
+      "deCurrent": "",
+      "lvMasterDa": "Komparativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[0].text",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[0].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Adjektivers komparativgrad (Komparativ) dannes ud fra grundgraden (Positiv) med endelsen -er.",
+      "deCurrent": "",
+      "lvMasterDa": "Īpašības vārdu pārāko pakāpi (Komparativ) darina no pamata pakāpes (Positiv) ar galotni -er.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[1].heading",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[1].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Omlyd i superlativ",
+      "deCurrent": "",
+      "lvMasterDa": "Umlaut pārākajā pakāpē",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[1].text",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[1].text",
+      "fieldType": "grammarText",
+      "daCurrent": "De fleste enstavelsesadjektiver med stammevokalen a, o, u har en Umlaut i komparativ- og superlativgraden.",
+      "deCurrent": "",
+      "lvMasterDa": "Lielākai daļai vienzilbīgu īpašības vārdu ar celma patskani a, o, u pārākā pakāpē ir Umlaut.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[2].heading",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[2].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Sammenligning med wie og als",
+      "deCurrent": "",
+      "lvMasterDa": "Salīdzināšana ar wie un als",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[2].text",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[2].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Wie bruges, når man udtrykker lighed. als bruges, når man udtrykker ulighed.",
+      "deCurrent": "",
+      "lvMasterDa": "wie lieto, kad izsaka vienādību. als lieto, kad izsaka nevienādību.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[3].heading",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[3].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Superlativ",
+      "deCurrent": "",
+      "lvMasterDa": "Superlativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[3].text",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[3].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Den højeste grad (Superlativ) dannes ved at tilføje endelsen -sten eller -esten til grundgraden og sætte ordet am foran.",
+      "deCurrent": "",
+      "lvMasterDa": "Vispārāko pakāpi (Superlativ) darina, pieliekot pamata pakāpei galotni -sten vai -esten un priekšā satiksmes vārdu am.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[4].heading",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[4].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Uregelmæssige gradbøjningsformer",
+      "deCurrent": "",
+      "lvMasterDa": "Neregulārās salīdzināmās pakāpes",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].title",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Oversætte",
+      "deCurrent": "",
+      "lvMasterDa": "Pārtulko",
+      "source": "lesson"
+    }
+  ]
+}

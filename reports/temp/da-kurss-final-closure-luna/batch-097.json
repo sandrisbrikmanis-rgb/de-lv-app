@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-097",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[11].prompt",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[11].prompt",
+      "fieldType": "cardPrompt",
+      "daCurrent": "Jener Mann steht unter (die Brücke).",
+      "deCurrent": "Jener Mann steht unter der Brücke.",
+      "lvMasterDa": "Jener Mann steht unter (die Brücke).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[11].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[11].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
+      "deCurrent": "Jener Mann steht unter der Brücke.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[12].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[12].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
+      "deCurrent": "Ein Spiegel hängt an der Wand.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[13].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[13].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
+      "deCurrent": "Der Bruder stellt die Vase vor den Spiegel.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[14].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[14].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
+      "deCurrent": "Das Kind geht gern auf die Straße.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[15].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[15].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
+      "deCurrent": "Das Kind spielt gern auf der Straße.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[16].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[16].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
+      "deCurrent": "Das Kind spielt gern in dem Garten.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].title",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Oversæt",
+      "deCurrent": "",
+      "lvMasterDa": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[0].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[0].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Kas ir augsts?",
+      "deCurrent": "Was ist hoch?",
+      "lvMasterDa": "Kas ir augsts?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[1].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[1].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor mange etager har huset?",
+      "deCurrent": "Wieviel Stockwerke hat das Haus?",
+      "lvMasterDa": "Cik stāvu ir mājai?",
+      "source": "lesson"
+    }
+  ]
+}

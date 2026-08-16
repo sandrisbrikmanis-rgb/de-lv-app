@@ -1,0 +1,36 @@
+{
+  "batch": "batch-088",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:25:32.805Z",
+  "findings": [
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[3]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[3]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "I ordet der Strauch udtales st som sht.",
+      "proposedDa": "I ordet der Strauch udtales st som št.",
+      "severity": "MEDIUM",
+      "category": "CONSISTENCY",
+      "reason": "Translitterationen af den tyske lyd [ʃt] bør være konsekvent med den foregående formulering og skrives »št«, ikke »sht«.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[4]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[4]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "I ordet wachsen udtales ch som k.",
+      "proposedDa": "I ordet wachsen udtales ch som ks.",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "reason": "I »wachsen« repræsenterer ch lyden [ks], ikke kun [k].",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

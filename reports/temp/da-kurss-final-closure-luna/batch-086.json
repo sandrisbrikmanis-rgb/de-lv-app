@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-086",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[19]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "daCurrent": "pflanzen — at plante",
+      "deCurrent": "pflanzen",
+      "lvMasterDa": "pflanzen — stādīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[20]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[20]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Strauch — busk",
+      "deCurrent": "der Strauch",
+      "lvMasterDa": "der Strauch — krūms",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[23]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[23]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Scheune — lade",
+      "deCurrent": "die Scheune",
+      "lvMasterDa": "die Scheune — šķūnis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[24]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Teich — dam",
+      "deCurrent": "der Teich",
+      "lvMasterDa": "der Teich — dīķis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[25]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[25]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Garten — have",
+      "deCurrent": "der Garten",
+      "lvMasterDa": "der Garten — dārzs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[31]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[31]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Stadt — by",
+      "deCurrent": "die Stadt",
+      "lvMasterDa": "die Stadt — pilsēta",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[35]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[35]",
+      "fieldType": "sectionItem",
+      "daCurrent": "zeigen — at vise",
+      "deCurrent": "zeigen",
+      "lvMasterDa": "zeigen — rādīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[37]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[37]",
+      "fieldType": "sectionItem",
+      "daCurrent": "so — så",
+      "deCurrent": "so",
+      "lvMasterDa": "so — tā",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].title",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Grammatik",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[0].heading",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[0].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Vekselpræpositioner",
+      "deCurrent": "",
+      "lvMasterDa": "Wechselpräpositionen",
+      "source": "lesson"
+    }
+  ]
+}

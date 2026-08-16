@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-066",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[11].text",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[11].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Ord, der ofte bruges uden artiklen: die Milch, das Brot.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdi, kas bieži lietojami bez artikula: die Milch, das Brot.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[3].title",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[3].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Udtale",
+      "deCurrent": "",
+      "lvMasterDa": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[3].items[0]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "DA-feltet kan lokaliseres til `I ordene wem, dem, den, der udtales e langt og smalt.`, men DE_CURRENT indeholder selv lettisk tekst (`Vārdos ...`). DE = STRICT READ-ONLY, tāpēc DE avots jāizskata atsevišķi.",
+      "deCurrent": "DA",
+      "lvMasterDa": "Vārdos wem, dem, den, der — e ir garš un šaurs.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[3].items[1]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[3].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet gehorchen udtales h: ge-hor-chen.",
+      "deCurrent": "I ordet gehorchen udtales h: ge",
+      "lvMasterDa": "Vārdā gehorchen h ir dzirdams: ge-hor-chen.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[3].items[4]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[3].items[4]",
+      "fieldType": "sectionItem",
+      "daCurrent": "-ie står for langt i: die Wiese.",
+      "deCurrent": "",
+      "lvMasterDa": "-ie ir garā ī apzīmējums: die Wiese.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].title",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Øvelse",
+      "deCurrent": "",
+      "lvMasterDa": "Vingrinājums",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[0].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[0].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ/akkusativ efter sætningens mening.",
+      "deCurrent": "Der Vater ruft den Mann.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[1].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[1].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ/akkusativ efter sætningens mening.",
+      "deCurrent": "Der Vater ruft die Frau.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[2].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[2].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ/akkusativ efter sætningens mening.",
+      "deCurrent": "Der Vater ruft das Kind.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[3].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[3].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ/akkusativ efter sætningens mening.",
+      "deCurrent": "Der Vater ruft den Sohn.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+      "source": "lesson"
+    }
+  ]
+}

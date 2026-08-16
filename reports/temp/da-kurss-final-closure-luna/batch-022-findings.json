@@ -1,0 +1,36 @@
+{
+  "batch": "batch-022",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:17:51.972Z",
+  "findings": [
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[15].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[15].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Was ist der Lehrer?",
+      "daCurrent": "Hvad er læreren?",
+      "proposedDa": "Hvem er læreren?",
+      "severity": "NEEDS_SOURCE_REVIEW",
+      "category": "SEMANTICS",
+      "reason": "“Hvad er læreren?” is unnatural for identifying a person. The German “Was ist der Lehrer?” may also indicate a source issue.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[18].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[18].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Die Lehrerin ist eine Frau.",
+      "daCurrent": "Læreren er en kvinde.",
+      "proposedDa": "Lærerinden er en kvinde.",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "reason": "“Læreren” is masculine or gender-neutral, but the German sentence explicitly refers to a female teacher.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

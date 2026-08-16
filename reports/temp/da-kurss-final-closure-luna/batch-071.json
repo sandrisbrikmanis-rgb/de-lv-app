@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-071",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[15]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[15]",
+      "fieldType": "sectionItem",
+      "daCurrent": "abwischen — at aftørre",
+      "deCurrent": "abwischen",
+      "lvMasterDa": "abwischen — noslaucīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[16]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "daCurrent": "helfen — at hjælpe",
+      "deCurrent": "helfen",
+      "lvMasterDa": "helfen — palīdzēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[22]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[22]",
+      "fieldType": "sectionItem",
+      "daCurrent": "mit wem — med hvem?",
+      "deCurrent": "mit wem",
+      "lvMasterDa": "mit wem — ar ko? / ar kuru?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[23]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[23]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Staub — støv",
+      "deCurrent": "der Staub",
+      "lvMasterDa": "der Staub — putekļi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[24]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Bruder — bror",
+      "deCurrent": "der Bruder",
+      "lvMasterDa": "der Bruder — brālis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[25]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[25]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Schwester — søster",
+      "deCurrent": "die Schwester",
+      "lvMasterDa": "die Schwester — māsa",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].title",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Grammatik",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[0].heading",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[0].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "mit + Dativ",
+      "deCurrent": "",
+      "lvMasterDa": "mit + Dativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[0].text",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[0].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Præpositionen mit styrer altid dativ. På dansk betyder mit = med.",
+      "deCurrent": "",
+      "lvMasterDa": "Prievārds mit vienmēr stāv ar datīvu. Latviski: mit = ar.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].heading",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "mit wem? / womit?",
+      "deCurrent": "",
+      "lvMasterDa": "mit wem? / womit?",
+      "source": "lesson"
+    }
+  ]
+}

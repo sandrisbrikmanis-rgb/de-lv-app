@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-062",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[0].title",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[0].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Tekst/læsning",
+      "deCurrent": "",
+      "lvMasterDa": "Teksts / Lasīšana",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].title",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Ord",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdiņi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[1]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "schenken — at forære",
+      "deCurrent": "schenken",
+      "lvMasterDa": "schenken — dāvināt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[2]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "dem Sohne — til sønnen",
+      "deCurrent": "dem Sohne",
+      "lvMasterDa": "dem Sohne — dēlam",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[3]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[3]",
+      "fieldType": "sectionItem",
+      "daCurrent": "den Söhnen — til sønnerne",
+      "deCurrent": "den Söhnen",
+      "lvMasterDa": "den Söhnen — dēliem",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[10]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "daCurrent": "er gibt — han giver",
+      "deCurrent": "er gibt",
+      "lvMasterDa": "er gibt — viņš dod",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[12]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "daCurrent": "Brot — brød",
+      "deCurrent": "Brot",
+      "lvMasterDa": "Brot — maize",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[14]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[14]",
+      "fieldType": "sectionItem",
+      "daCurrent": "gehorchen — adlyde",
+      "deCurrent": "gehorchen",
+      "lvMasterDa": "gehorchen — paklausīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[16]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "daCurrent": "gehören — at tilhøre",
+      "deCurrent": "gehören",
+      "lvMasterDa": "gehören — piederēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[17]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[17]",
+      "fieldType": "sectionItem",
+      "daCurrent": "das Feld — mark",
+      "deCurrent": "das Feld",
+      "lvMasterDa": "das Feld — lauks / tīrums",
+      "source": "lesson"
+    }
+  ]
+}

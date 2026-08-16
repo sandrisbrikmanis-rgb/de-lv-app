@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-007",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[3].items[8]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[8]",
+      "fieldType": "sectionItem",
+      "daCurrent": "På dansk har refleksive verber ikke en særlig bøjning. På tysk bøjes de som andre verber, men med det refleksive pronomen sich.",
+      "deCurrent": "",
+      "lvMasterDa": "Latviešu valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. Vācu valodā sevišķas konjugācijas nav. Tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[3].items[9]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[9]",
+      "fieldType": "sectionItem",
+      "daCurrent": "Præsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
+      "deCurrent": "",
+      "lvMasterDa": "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[3].items[10]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[10]",
+      "fieldType": "sectionItem",
+      "daCurrent": "Imperativ: setz(e) dich!, setzt euch!, setzen Sie sich!",
+      "deCurrent": "",
+      "lvMasterDa": "Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie sich!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].title",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Übung / Øvelse",
+      "deCurrent": "",
+      "lvMasterDa": "Übung / Vingrinājums",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].description",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].description",
+      "fieldType": "sectionDescription",
+      "daCurrent": "Übung I - Brug den korrekte bøjning. Übung II - Oversættelseskort.",
+      "deCurrent": "",
+      "lvMasterDa": "Übung I — lieto pareizo locījumu. Übung II — tulkošanas kartītes.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[17].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[17].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hils læreren og lærerinden!",
+      "deCurrent": "Grüße den Lehrer und die Lehrerin!",
+      "lvMasterDa": "Sveicini skolotāju un skolotāju!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[18].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[18].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem hilser du på?",
+      "deCurrent": "Wen grüßt du?",
+      "lvMasterDa": "Ko tu sveicini?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[19].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[19].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg hilser på frøkenen.",
+      "deCurrent": "Ich grüße das Fräulein.",
+      "lvMasterDa": "Es sveicinu jaunkundzi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[20].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[20].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Åbn alle vinduer!",
+      "deCurrent": "Öffnet alle Fenster!",
+      "lvMasterDa": "Atveriet visus logus!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[21].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[21].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Vi åbner alle vinduer.",
+      "deCurrent": "Wir öffnen alle Fenster.",
+      "lvMasterDa": "Mēs atveram visus logus.",
+      "source": "lesson"
+    }
+  ]
+}

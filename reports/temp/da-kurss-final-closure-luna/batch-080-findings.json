@@ -1,0 +1,22 @@
+{
+  "batch": "batch-080",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:24:30.309Z",
+  "findings": [
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[8].text",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[8].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "Gamle former som dem Tische, dem Kruge og im Walde bruges i dag ofte i en kortere form: dem Tisch, dem Krug og im Wald.",
+      "proposedDa": "Gamle former som dem Tische, dem Kruge og im Walde erstattes i dag ofte af kortere former: dem Tisch, dem Krug og im Wald.",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "reason": "Konstruktionen “bruges ... i en kortere form” er unaturlig og gør forholdet mellem de gamle og de korte former uklart.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ]
+}

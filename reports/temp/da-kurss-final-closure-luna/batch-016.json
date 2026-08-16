@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-016",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[13].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[13].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Anna, spids denne blyant!",
+      "deCurrent": "Anna, spitz diesen Bleistift an!",
+      "lvMasterDa": "Anna, uzasini šo zīmuli!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[14].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[14].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hr. lærer, spids venligst denne blyant!",
+      "deCurrent": "Herr Lehrer, bitte spitzen Sie diesen Bleistift an!",
+      "lvMasterDa": "Skolotāja kungs, lūdzu, uzasiniet šo zīmuli!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[15].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[15].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Læg den blyant derhen!",
+      "deCurrent": "Leg jenen Bleistift hin!",
+      "lvMasterDa": "Noliec to zīmuli!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[16].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[16].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Luk vinduet!",
+      "deCurrent": "Mach das Fenster zu!",
+      "lvMasterDa": "Aiztaisi logu!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[17].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[17].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad laver pigen endelig?",
+      "deCurrent": "Was macht das Mädchen endlich?",
+      "lvMasterDa": "Ko meitene beidzot dara?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[18].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[18].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hun lukker vinduet og går ud.",
+      "deCurrent": "Sie macht das Fenster zu und geht hinaus.",
+      "lvMasterDa": "Viņa aiztaisa logu un iziet ārā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.title",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.title",
+      "fieldType": "title",
+      "daCurrent": "Lektion 10",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 10",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.subtitle",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.subtitle",
+      "fieldType": "subtitle",
+      "daCurrent": "Sein, können, sundhed, alder og erhverv",
+      "deCurrent": "",
+      "lvMasterDa": "Sein, können, veselība, vecums un profesijas",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.intro",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.intro",
+      "fieldType": "intro",
+      "daCurrent": "Tiende lektion: sein, können, kommandoformer, sundhed, alder og erhverv.",
+      "deCurrent": "",
+      "lvMasterDa": "Desmitā lekcija: sein, können, pavēles formas, veselība, vecums un profesijas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[0].title",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[0].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Dialoger / sætninger",
+      "deCurrent": "",
+      "lvMasterDa": "Dialogi / teikumi",
+      "source": "lesson"
+    }
+  ]
+}

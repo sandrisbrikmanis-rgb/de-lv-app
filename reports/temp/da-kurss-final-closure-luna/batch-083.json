@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-083",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[1].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[1].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Han kommer ind i rummet.",
+      "deCurrent": "Er kommt in das Zimmer.",
+      "lvMasterDa": "Viņš nāk istabā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[2].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[2].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor arbejder han?",
+      "deCurrent": "Wo arbeitet er?",
+      "lvMasterDa": "Kur viņš strādā?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[3].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[3].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Han arbejder i rummet.",
+      "deCurrent": "Er arbeitet in dem Zimmer.",
+      "lvMasterDa": "Viņš strādā istabā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[4].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[4].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Manden stiller bænken hen til vinduet.",
+      "deCurrent": "Der Mann stellt die Bank an das Fenster.",
+      "lvMasterDa": "Vīrs noliek solu pie loga.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[5].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[5].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Bænken står ved vinduet.",
+      "deCurrent": "Die Bank steht an dem Fenster.",
+      "lvMasterDa": "Sols stāv pie loga.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[6].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[6].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Børnene går ind i skoven.",
+      "deCurrent": "Die Kinder gehen in den Wald.",
+      "lvMasterDa": "Bērni iet uz mežu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[7].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[7].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "De leder efter bær i skoven.",
+      "deCurrent": "Sie suchen Beeren in dem Walde.",
+      "lvMasterDa": "Viņi mežā lasa ogas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[8].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[8].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "De finder mange bær i skoven.",
+      "deCurrent": "Sie finden in dem Walde viele Beeren.",
+      "lvMasterDa": "Viņi mežā atrod daudz ogu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[9].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[9].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Moderen sætter kurven på skabet.",
+      "deCurrent": "Die Mutter stellt den Korb auf den Schrank.",
+      "lvMasterDa": "Māte noliek grozu uz skapja.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[10].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[10].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Kurven står på skabet.",
+      "deCurrent": "Der Korb steht auf dem Schrank.",
+      "lvMasterDa": "Grozs stāv uz skapja.",
+      "source": "lesson"
+    }
+  ]
+}

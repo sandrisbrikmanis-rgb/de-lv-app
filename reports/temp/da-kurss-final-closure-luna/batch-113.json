@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-113",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[4].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[4].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Er fjeren spids?",
+      "deCurrent": "Ist die Feder spitz?",
+      "lvMasterDa": "Vai spalva ir smaila?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[5].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[5].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Tager han en kniv?",
+      "deCurrent": "Nimmt er ein Messer?",
+      "lvMasterDa": "Vai viņš ņem nazi?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[6].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[6].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Nej, han tager en fjer.",
+      "deCurrent": "Nein, er nimmt eine Feder.",
+      "lvMasterDa": "Nē, viņš ņem spalvu.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[7].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[7].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Han lægger fjeren fra sig.",
+      "deCurrent": "Er legt die Feder hin.",
+      "lvMasterDa": "Viņš noliek spalvu.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[8].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[8].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Er kniven sløv?",
+      "deCurrent": "Ist das Messer stumpf?",
+      "lvMasterDa": "Vai nazis ir neass?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[9].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[9].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Nej, den er skarp.",
+      "deCurrent": "Nein, es ist scharf.",
+      "lvMasterDa": "Nē, tas ir ass.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[10].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[10].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvad laver pigen?",
+      "deCurrent": "Was tut das Mädchen?",
+      "lvMasterDa": "Ko dara meitene?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[11].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[11].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hun går ud og arbejder.",
+      "deCurrent": "Es geht hinaus und arbeitet.",
+      "lvMasterDa": "Viņa iet ārā un strādā.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[12].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[12].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvad viser Olga?",
+      "deCurrent": "Was zeigt Olga?",
+      "lvMasterDa": "Ko Olga rāda?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[13].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[13].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Olga viser en bog frem.",
+      "deCurrent": "Olga zeigt ein Buch.",
+      "lvMasterDa": "Olga rāda grāmatu.",
+      "source": "training"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-105",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[8].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[8].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Sie sieht den Mann auf dem Hof.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[9].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[9].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Die Magd kommt aus der Küche.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[10].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[10].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Sie eilt in den Keller.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[11].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[11].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Ein Eimer mit Milch steht im Keller.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[12].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[12].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Sie steigt aus dem Keller.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[13].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[13].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Sie geht in die Küche zurück.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[14].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[14].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Sie arbeitet fleißig in der Küche.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[5].title",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[5].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Oversæt",
+      "deCurrent": "",
+      "lvMasterDa": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[0].lv",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[0].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Alle notesbøgerne er i tasken.",
+      "deCurrent": "Alle Hefte sind in der Mappe.",
+      "lvMasterDa": "Visas burtnīcas ir somā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[1].lv",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[1].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg tager notesbøgerne op af min taske.",
+      "deCurrent": "Ich nehme die Hefte aus der Mappe.",
+      "lvMasterDa": "Es izņemu burtnīcas no somas.",
+      "source": "lesson"
+    }
+  ]
+}

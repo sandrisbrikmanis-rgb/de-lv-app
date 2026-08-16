@@ -1,0 +1,22 @@
+{
+  "batch": "batch-076",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:24:03.280Z",
+  "findings": [
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[17].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[17].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Womit arbeiten wir?",
+      "daCurrent": "Med hvad arbejder vi?",
+      "proposedDa": "Hvad arbejder vi med?",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "reason": "“Hvad arbejder vi med?” is the natural contemporary Danish word order; the current phrasing is unusually formal and stiff.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ]
+}

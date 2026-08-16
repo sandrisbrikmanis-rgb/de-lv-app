@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-081",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[3].title",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[3].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Udtale",
+      "deCurrent": "",
+      "lvMasterDa": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[3].items[0]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet wohin udtales h’et: wo-hin.",
+      "deCurrent": "I ordet wohin udtales h’et: wo",
+      "lvMasterDa": "Vārdā wohin h ir dzirdams: wo-hin.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[3].items[1]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[3].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet wo er o’et langt: wo.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā wo o ir garš: wo.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].title",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Øvelse",
+      "deCurrent": "",
+      "lvMasterDa": "Vingrinājums",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[0].prompt",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[0].prompt",
+      "fieldType": "cardPrompt",
+      "daCurrent": "Wohin geht das Mädchen?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
+      "deCurrent": "Das Mädchen geht in den Wald, in den Garten, auf die Wiese, auf den Hof.",
+      "lvMasterDa": "Wohin geht das Mädchen?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[0].task",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[0].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: dativ eller akkusativ.",
+      "deCurrent": "Das Mädchen geht in den Wald, in den Garten, auf die Wiese, auf den Hof.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[1].prompt",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[1].prompt",
+      "fieldType": "cardPrompt",
+      "daCurrent": "Wo spielt es?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
+      "deCurrent": "Es spielt in dem Walde, in dem Garten, auf der Wiese, auf dem Hofe.",
+      "lvMasterDa": "Wo spielt es?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[1].task",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[1].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: dativ eller akkusativ.",
+      "deCurrent": "Es spielt in dem Walde, in dem Garten, auf der Wiese, auf dem Hofe.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[2].prompt",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[2].prompt",
+      "fieldType": "cardPrompt",
+      "daCurrent": "Wohin kommt die Magd?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
+      "deCurrent": "Die Magd kommt in die Küche, in das Zimmer, in den Saal, in den Keller.",
+      "lvMasterDa": "Wohin kommt die Magd?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[2].task",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[2].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: dativ eller akkusativ.",
+      "deCurrent": "Die Magd kommt in die Küche, in das Zimmer, in den Saal, in den Keller.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+      "source": "lesson"
+    }
+  ]
+}

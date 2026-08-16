@@ -1,0 +1,50 @@
+{
+  "batch": "batch-033",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:19:20.688Z",
+  "findings": [
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[1].text",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[1].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "De fleste enstavelsesadjektiver med stammevokalen a, o, u har en Umlaut i komparativ- og superlativgraden.",
+      "proposedDa": "De fleste enstavelsesadjektiver med stammevokalen a, o, u har omlyd i komparativ- og superlativgraden.",
+      "severity": "MEDIUM",
+      "category": "CONSISTENCY",
+      "reason": "Overskriften bruger det danske fagudtryk omlyd, mens teksten unødvendigt skifter til det tyske Umlaut; formuleringen med en Umlaut er også mindre naturlig.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[2].text",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[2].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "Wie bruges, når man udtrykker lighed. als bruges, når man udtrykker ulighed.",
+      "proposedDa": "Wie bruges, når man udtrykker lighed. Als bruges, når man udtrykker ulighed.",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "reason": "Als skal skrives med stort begyndelsesbogstav efter punktum.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].title",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].title",
+      "fieldType": "sectionTitle",
+      "deCurrent": "",
+      "daCurrent": "Oversætte",
+      "proposedDa": "Oversæt",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "reason": "Som instruktionsoverskrift bør imperativen Oversæt bruges; Oversætte er infinitiv og lyder mindre naturligt i denne kontekst.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    }
+  ]
+}

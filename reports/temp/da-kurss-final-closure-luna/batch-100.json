@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-100",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[22].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[22].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad tænder du?",
+      "deCurrent": "Was zündest du an?",
+      "lvMasterDa": "Ko tu aizdedzini?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[23].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[23].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad brænder lyst?",
+      "deCurrent": "Was brennt hell?",
+      "lvMasterDa": "Kas deg gaiši?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.title",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.title",
+      "fieldType": "title",
+      "daCurrent": "Lektion 21",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 21",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.subtitle",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.subtitle",
+      "fieldType": "subtitle",
+      "daCurrent": "Woher / wohin / wo, von / aus / mit + Dativ",
+      "deCurrent": "",
+      "lvMasterDa": "woher / wohin / wo, von / aus / mit + Dativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.intro",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.intro",
+      "fieldType": "intro",
+      "daCurrent": "Enogtyvende forelæsning: woher / wohin / wo, von / aus / mit + Dativ.",
+      "deCurrent": "",
+      "lvMasterDa": "Divdesmit pirmā lekcija: woher / wohin / wo, von / aus / mit + Dativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[0].title",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[0].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Tekst/læsning",
+      "deCurrent": "",
+      "lvMasterDa": "Teksts / Lasīšana",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].title",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Ord",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdiņi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[0]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Holzhauer — skovhugger",
+      "deCurrent": "der Holzhauer",
+      "lvMasterDa": "der Holzhauer — malkas cirtējs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[1]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sägen — at save",
+      "deCurrent": "sägen",
+      "lvMasterDa": "sägen — zāģēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[2]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "spalten — at splitte",
+      "deCurrent": "spalten",
+      "lvMasterDa": "spalten — skaldīt",
+      "source": "lesson"
+    }
+  ]
+}

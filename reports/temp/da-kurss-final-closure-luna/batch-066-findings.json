@@ -1,0 +1,22 @@
+{
+  "batch": "batch-066",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:22:55.645Z",
+  "findings": [
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[3].items[0]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "deCurrent": "DA",
+      "daCurrent": "DA-feltet kan lokaliseres til `I ordene wem, dem, den, der udtales e langt og smalt.`, men DE_CURRENT indeholder selv lettisk tekst (`Vārdos ...`). DE = STRICT READ-ONLY, tāpēc DE avots jāizskata atsevišķi.",
+      "proposedDa": "I ordene wem, dem, den, der udtales e langt og smalt.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Feltet indeholder meta-tekst, lettisk og tekniske instruktioner i stedet for den danske udtalevejledning.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    }
+  ]
+}

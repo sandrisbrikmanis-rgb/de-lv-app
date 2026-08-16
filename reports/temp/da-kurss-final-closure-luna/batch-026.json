@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-026",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[2].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[2].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Dansk dativ og tysk nominativ/akkusativ",
+      "deCurrent": "",
+      "lvMasterDa": "Latviešu datīvs un vācu nominatīvs/akuzatīvs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[2].text",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[2].text",
+      "fieldType": "grammarText",
+      "daCurrent": "På lettisk står den person, som noget tilhører, i dativ, og subjektet i nominativ. På tysk står personen i nominativ kasus og den besatte genstand i akkusativ.",
+      "deCurrent": "",
+      "lvMasterDa": "Latviešu valodā persona, kam kas pieder, ir datīvā, bet priekšmets — nominatīvā. Vācu valodā persona ir nominatīvā, bet piederošais priekšmets — akuzatīvā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[3].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[3].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Eksempler",
+      "deCurrent": "",
+      "lvMasterDa": "Piemēri",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[4].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[4].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Sammenligning med andre sprog",
+      "deCurrent": "",
+      "lvMasterDa": "Salīdzinājums ar citām valodām",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[4].examples[0]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[4].examples[0]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "russisk: я имею тетрадь; отец имеет книгу.",
+      "deCurrent": "",
+      "lvMasterDa": "krievu: я имею тетрадь; отец имеет книгу.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[5].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[5].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Imperativ",
+      "deCurrent": "",
+      "lvMasterDa": "Imperativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[5].text",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[5].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Verbet haben skal læres grundigt og bruges korrekt. Du bør også kende imperativformerne.",
+      "deCurrent": "",
+      "lvMasterDa": "Darbības vārdu haben vajag labi iemācīties un pareizi lietot. Arī pavēles formas jāzina.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[6].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[6].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Imperativ — eksempler",
+      "deCurrent": "",
+      "lvMasterDa": "Imperativ — piemēri",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[6].examples[0]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[6].examples[0]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "habe Geduld! — hav tålmodighed!",
+      "deCurrent": "habe Geduld!",
+      "lvMasterDa": "habe Geduld! — pacietību! / lai tev ir pacietība!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[6].examples[1]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[6].examples[1]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "habt Geduld! — hav tålmodighed!",
+      "deCurrent": "habt Geduld!",
+      "lvMasterDa": "habt Geduld! — lai jums ir pacietība!",
+      "source": "lesson"
+    }
+  ]
+}

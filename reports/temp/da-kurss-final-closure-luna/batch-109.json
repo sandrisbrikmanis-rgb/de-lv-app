@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-109",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[1].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[1].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Paul spørger.",
+      "deCurrent": "Paul fragt.",
+      "lvMasterDa": "Pauls jautā.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[2].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[2].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "De spørger.",
+      "deCurrent": "Sie fragen.",
+      "lvMasterDa": "Viņi jautā.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[3].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[3].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Svarer Paul?",
+      "deCurrent": "Antwortet Paul?",
+      "lvMasterDa": "Vai Pauls atbild?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[4].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[4].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Nej, han svarer ikke, han spørger.",
+      "deCurrent": "Nein, er antwortet nicht, er fragt.",
+      "lvMasterDa": "Nē, viņš neatbild, viņš jautā.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[5].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[5].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Synger Paul og Marie?",
+      "deCurrent": "Singen Paul und Marie?",
+      "lvMasterDa": "Vai Pauls un Marija dzied?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[6].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[6].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Nej, de synger ikke, de regner.",
+      "deCurrent": "Nein, sie singen nicht, sie rechnen.",
+      "lvMasterDa": "Nē, viņi nedzied, viņi rēķina.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[7].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[7].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvad laver du?",
+      "deCurrent": "Was tust du?",
+      "lvMasterDa": "Ko tu dari?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[8].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[8].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Jeg står og synger.",
+      "deCurrent": "Ich stehe und singe.",
+      "lvMasterDa": "Es stāvu un dziedu.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[9].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[9].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Tegner I?",
+      "deCurrent": "Zeichnet ihr?",
+      "lvMasterDa": "Vai jūs zīmējat?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[10].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[10].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Ja, vi tegner, men Marie spiller.",
+      "deCurrent": "Ja, wir zeichnen, aber Marie spielt.",
+      "lvMasterDa": "Jā, mēs zīmējam, bet Marija spēlē.",
+      "source": "training"
+    }
+  ]
+}

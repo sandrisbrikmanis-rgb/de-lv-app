@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-068",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[14].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[14].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Omskriv til flertal.",
+      "deCurrent": "Der Vater ruft die Männer, die Frauen, die Kinder, die Söhne, die Fräulein, die Tanten.",
+      "lvMasterDa": "Pārveido daudzskaitlī.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[15].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[15].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Omskriv til flertal.",
+      "deCurrent": "Der Vater nähert sich den Knechten, den Töchtern, den Mägden, den Lehrern, den Tischlern, den Lehrerinnen, den Mädchen, den Jägern.",
+      "lvMasterDa": "Pārveido daudzskaitlī.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].title",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Oversætte",
+      "deCurrent": "",
+      "lvMasterDa": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[0].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[0].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem kalder faderen på?",
+      "deCurrent": "Wen ruft der Vater?",
+      "lvMasterDa": "Ko sauc tēvs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[1].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[1].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Han kalder på sønnen og datteren.",
+      "deCurrent": "Er ruft den Sohn und die Tochter.",
+      "lvMasterDa": "Viņš sauc dēlu un meitu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[2].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[2].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem ejer denne skov?",
+      "deCurrent": "Wem gehört dieser Wald?",
+      "lvMasterDa": "Kam pieder šis mežs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[3].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[3].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Denne skov tilhører bonden.",
+      "deCurrent": "Dieser Wald gehört dem Bauer.",
+      "lvMasterDa": "Šis mežs pieder zemniekam.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[4].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[4].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem adlyder hunden?",
+      "deCurrent": "Wem gehorcht der Hund?",
+      "lvMasterDa": "Kam paklausa suns?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[5].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[5].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hunden adlyder tjenerne og tjenestepigerne.",
+      "deCurrent": "Der Hund gehorcht den Knechten und den Mägden.",
+      "lvMasterDa": "Suns paklausa kalpiem un kalponēm.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[6].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[6].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor mange hunde har jægeren?",
+      "deCurrent": "Wieviel Hunde hat der Jäger?",
+      "lvMasterDa": "Cik suņu ir medniekam?",
+      "source": "lesson"
+    }
+  ]
+}

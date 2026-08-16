@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-079",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[2].heading",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[2].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Dativ: wo?",
+      "deCurrent": "",
+      "lvMasterDa": "Dativ: wo?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[2].text",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[2].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Hvis handlingen angiver placering eller tilstand, bruges dativ. Spørgsmål: wo? – hvor?",
+      "deCurrent": "",
+      "lvMasterDa": "Ja darbība norāda atrašanās vietu vai stāvokli, lieto Dativ. Jautājums: wo? — kur?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].heading",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Verber med wohin?",
+      "deCurrent": "",
+      "lvMasterDa": "Darbības vārdi ar wohin?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].text",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Disse verber angiver ofte retning og besvarer derfor spørgsmålet wohin?.",
+      "deCurrent": "",
+      "lvMasterDa": "Šie darbības vārdi bieži norāda virzienu un tāpēc atbild uz jautājumu wohin?.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].examples[8]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].examples[8]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "hängen — hænge noget op",
+      "deCurrent": "hängen",
+      "lvMasterDa": "hängen — kārt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].examples[9]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].examples[9]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "sich setzen — sætte sig",
+      "deCurrent": "sich setzen",
+      "lvMasterDa": "sich setzen — apsēsties",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].heading",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Verber med wo?",
+      "deCurrent": "",
+      "lvMasterDa": "Darbības vārdi ar wo?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].text",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Disse verber angiver ofte placering eller tilstand og besvarer derfor spørgsmålet wo?.",
+      "deCurrent": "",
+      "lvMasterDa": "Šie darbības vārdi bieži norāda atrašanās vietu vai stāvokli un tāpēc atbild uz jautājumu wo?.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[0]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[0]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "sein — være",
+      "deCurrent": "sein",
+      "lvMasterDa": "sein — būt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[5]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[5]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "hängen — hænge",
+      "deCurrent": "hängen",
+      "lvMasterDa": "hängen — karāties",
+      "source": "lesson"
+    }
+  ]
+}

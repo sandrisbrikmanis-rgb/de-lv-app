@@ -1,0 +1,22 @@
+{
+  "batch": "batch-064",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:22:35.786Z",
+  "findings": [
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[4].text",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[4].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "Feminine navneord har ikke en endelse i dativ ental.",
+      "proposedDa": "Hunkønsnavneord har ingen endelse i dativ ental.",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "“Feminine” er ikke dansk fagterminologi her; brug det danske “hunkønsnavneord”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

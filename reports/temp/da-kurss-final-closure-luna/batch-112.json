@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-112",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[16].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[16].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Kommer Paul?",
+      "deCurrent": "Kommt Paul?",
+      "lvMasterDa": "Vai Pauls nāk?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[17].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[17].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Nej, Paul kommer ikke, han står.",
+      "deCurrent": "Nein, Paul kommt nicht, er steht.",
+      "lvMasterDa": "Nē, Pauls nenāk, viņš stāv.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[18].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[18].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvad hænger der her?",
+      "deCurrent": "Was hängt hier?",
+      "lvMasterDa": "Kas še karājas?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[19].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[19].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Her hænger et billede.",
+      "deCurrent": "Hier hängt ein Bild.",
+      "lvMasterDa": "Še karājas bilde.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[20].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[20].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvad hænger der?",
+      "deCurrent": "Was hängt dort?",
+      "lvMasterDa": "Kas tur karājas?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[21].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[21].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Der hænger en tavle.",
+      "deCurrent": "Dort hängt eine Tafel.",
+      "lvMasterDa": "Tur karājas tāfele.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[0].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[0].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Pigen tager en fyldepenholder.",
+      "deCurrent": "Das Mädchen nimmt einen Federhalter.",
+      "lvMasterDa": "Meitene ņem spalvas kātu.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[1].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[1].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Fyldepenholderen er ikke hvid, den er sort.",
+      "deCurrent": "Der Federhalter ist nicht weiß, er ist schwarz.",
+      "lvMasterDa": "Spalvas kāts nav balts, viņš ir melns.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[2].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[2].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Paul tager en fjer.",
+      "deCurrent": "Paul nimmt eine Feder.",
+      "lvMasterDa": "Pauls ņem spalvu.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[3].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[3].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvordan er fjeren?",
+      "deCurrent": "Wie ist die Feder?",
+      "lvMasterDa": "Kāda ir spalva?",
+      "source": "training"
+    }
+  ]
+}

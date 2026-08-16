@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-056",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[22]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[22]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Pflaume — blomme",
+      "deCurrent": "die Pflaume",
+      "lvMasterDa": "die Pflaume — plūme",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[23]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[23]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Pflaumen — blommer",
+      "deCurrent": "die Pflaumen",
+      "lvMasterDa": "die Pflaumen — plūmes",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[24]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Kirsche — kirsebær",
+      "deCurrent": "die Kirsche",
+      "lvMasterDa": "die Kirsche — ķirsis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[25]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[25]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Kirschen — kirsebær",
+      "deCurrent": "die Kirschen",
+      "lvMasterDa": "die Kirschen — ķirši",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[26]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[26]",
+      "fieldType": "sectionItem",
+      "daCurrent": "gern — gerne",
+      "deCurrent": "gern",
+      "lvMasterDa": "gern — labprāt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[27]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[27]",
+      "fieldType": "sectionItem",
+      "daCurrent": "reif — moden",
+      "deCurrent": "reif",
+      "lvMasterDa": "reif — ienācies / nogatavojies",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[28]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[28]",
+      "fieldType": "sectionItem",
+      "daCurrent": "unreif — umoden",
+      "deCurrent": "unreif",
+      "lvMasterDa": "unreif — neienācies / nenogatavojies",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[29]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[29]",
+      "fieldType": "sectionItem",
+      "daCurrent": "nehmen — at tage",
+      "deCurrent": "nehmen",
+      "lvMasterDa": "nehmen — ņemt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[30]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[30]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ich nehme — jeg tager",
+      "deCurrent": "ich nehme",
+      "lvMasterDa": "ich nehme — es ņemu",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[31]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[31]",
+      "fieldType": "sectionItem",
+      "daCurrent": "du nimmst — du tager",
+      "deCurrent": "du nimmst",
+      "lvMasterDa": "du nimmst — tu ņem",
+      "source": "lesson"
+    }
+  ]
+}

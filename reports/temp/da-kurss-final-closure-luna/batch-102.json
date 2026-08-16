@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-102",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[29]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[29]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Säge — sav",
+      "deCurrent": "die Säge",
+      "lvMasterDa": "die Säge — zāģis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].title",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Grammatik",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].heading",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "mit / von / aus + Dativ",
+      "deCurrent": "",
+      "lvMasterDa": "mit / von / aus + Dativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].text",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Præpositionerne mit, von og aus står altid med dativ.",
+      "deCurrent": "",
+      "lvMasterDa": "Prepozīcijas mit, von un aus vienmēr stāv ar Dativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[2]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[2]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "aus — no / iz",
+      "deCurrent": "aus",
+      "lvMasterDa": "aus — no / iz",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[4]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[4]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "von dem Felde / vom Felde — fra marken",
+      "deCurrent": "von dem Felde / vom Felde",
+      "lvMasterDa": "von dem Felde / vom Felde — no lauka",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].heading",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "von dem = vom",
+      "deCurrent": "",
+      "lvMasterDa": "von dem = vom",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].text",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Præpositionen von kan smelte sammen med artiklen.",
+      "deCurrent": "",
+      "lvMasterDa": "Prepozīcija von var saplūst ar artikulu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].examples[0]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].examples[0]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "von dem Felde = vom Felde",
+      "deCurrent": "",
+      "lvMasterDa": "von dem Felde = vom Felde",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].examples[1]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].examples[1]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "von dem Berge = vom Berge",
+      "deCurrent": "",
+      "lvMasterDa": "von dem Berge = vom Berge",
+      "source": "lesson"
+    }
+  ]
+}

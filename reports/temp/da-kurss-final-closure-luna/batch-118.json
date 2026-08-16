@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-118",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.title",
+      "fieldType": "uiString",
+      "daCurrent": "Kursus",
+      "deCurrent": "",
+      "lvMasterDa": "Kurss",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.subtitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.subtitle",
+      "fieldType": "uiString",
+      "daCurrent": "Grundlæggende tysk trin for trin",
+      "deCurrent": "",
+      "lvMasterDa": "Vācu valodas pamati soli pa solim",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.back",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.back",
+      "fieldType": "uiString",
+      "daCurrent": "‹ Kursus",
+      "deCurrent": "",
+      "lvMasterDa": "‹ Kurss",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.closeCourse",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.closeCourse",
+      "fieldType": "uiString",
+      "daCurrent": "Luk kurset",
+      "deCurrent": "",
+      "lvMasterDa": "Aizvērt kursu",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.backToMain",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.backToMain",
+      "fieldType": "uiString",
+      "daCurrent": "Tilbage til hovedskærmen",
+      "deCurrent": "",
+      "lvMasterDa": "Atgriezties uz galveno ekrānu",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.tipTitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.tipTitle",
+      "fieldType": "uiString",
+      "daCurrent": "Råd",
+      "deCurrent": "",
+      "lvMasterDa": "Padoms",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.tipBody",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.tipBody",
+      "fieldType": "uiString",
+      "daCurrent": "Lyt, gentag og sammenlign. Dit øre er den bedste lærer!",
+      "deCurrent": "",
+      "lvMasterDa": "Klausies, atkārto un salīdzini. Tava auss ir labākais skolotājs!",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.pronunciation",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.pronunciation",
+      "fieldType": "uiString",
+      "daCurrent": "Udtale",
+      "deCurrent": "",
+      "lvMasterDa": "Izruna",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.pronunciationDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.pronunciationDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Grundlæggende tyske lyde og udtale.",
+      "deCurrent": "",
+      "lvMasterDa": "Vācu valodas skaņas un izrunas pamati.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.articles",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.articles",
+      "fieldType": "uiString",
+      "daCurrent": "Artikler",
+      "deCurrent": "",
+      "lvMasterDa": "Artikuli",
+      "source": "ui"
+    }
+  ]
+}

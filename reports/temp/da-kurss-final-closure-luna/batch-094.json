@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-094",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[3].text",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[3].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Sammensatte navneord tager normalt artiklen i det sidste ord.",
+      "deCurrent": "",
+      "lvMasterDa": "Saliktie lietvārdi parasti pieņem pēdējā vārda artikulu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[4].heading",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[4].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Dannelse af sammensatte substantiver",
+      "deCurrent": "",
+      "lvMasterDa": "Salikto lietvārdu veidošana",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[4].examples[0]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[4].examples[0]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "jung + die Frau = die Jungfrau",
+      "deCurrent": "",
+      "lvMasterDa": "jung + die Frau = die Jungfrau",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[4].examples[1]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[4].examples[1]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "groß + die Mutter = die Großmutter",
+      "deCurrent": "",
+      "lvMasterDa": "groß + die Mutter = die Großmutter",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[4].examples[2]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[4].examples[2]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "vor + das Haus = das Vorhaus",
+      "deCurrent": "",
+      "lvMasterDa": "vor + das Haus = das Vorhaus",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[4].examples[3]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[4].examples[3]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "schreiben + der Tisch = der Schreibtisch",
+      "deCurrent": "",
+      "lvMasterDa": "schreiben + der Tisch = der Schreibtisch",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[5].heading",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[5].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "tragen",
+      "deCurrent": "",
+      "lvMasterDa": "tragen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[5].text",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[5].text",
+      "fieldType": "grammarText",
+      "daCurrent": "I verbet tragen får stammevokalen a i 2. og 3. person ental en umlaut.",
+      "deCurrent": "",
+      "lvMasterDa": "Darbības vārdā tragen 2. un 3. personā vienskaitlī celma patskanis a iegūst Umlaut.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[3].title",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[3].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Udtale",
+      "deCurrent": "",
+      "lvMasterDa": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[3].items[0]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordene Stockwerk, Stein, Stadt, stecken udtales st som sht.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdos Stockwerk, Stein, Stadt, stecken: st izrunā kā št.",
+      "source": "lesson"
+    }
+  ]
+}

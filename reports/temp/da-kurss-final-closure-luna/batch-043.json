@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-043",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[0].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[0].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor mange arme har et menneske?",
+      "deCurrent": "Wie viele Arme hat der Mensch?",
+      "lvMasterDa": "Cik cilvēkam ir roku?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[1].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[1].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor mange ben har du?",
+      "deCurrent": "Wie viele Beine hast du?",
+      "lvMasterDa": "Cik tev ir kāju?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[2].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[2].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvordan er hovedet?",
+      "deCurrent": "Wie ist der Kopf?",
+      "lvMasterDa": "Kāda ir galva?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[3].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[3].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvordan er torsoen?",
+      "deCurrent": "Wie ist der Rumpf?",
+      "lvMasterDa": "Kāds ir rumpis?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[4].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[4].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvordan er armen?",
+      "deCurrent": "Wie ist der Arm?",
+      "lvMasterDa": "Kāda ir roka?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[5].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[5].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvordan er benet?",
+      "deCurrent": "Wie ist das Bein?",
+      "lvMasterDa": "Kāda ir kāja?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[6].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[6].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Armen er lille, men benet er stort.",
+      "deCurrent": "Der Arm ist klein, aber das Bein ist groß.",
+      "lvMasterDa": "Roka ir maza, bet kāja ir liela.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[7].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[7].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor er brystet?",
+      "deCurrent": "Wo ist die Brust?",
+      "lvMasterDa": "Kur ir krūtis?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[8].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[8].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor er ryggen?",
+      "deCurrent": "Wo ist der Rücken?",
+      "lvMasterDa": "Kur ir mugura?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[9].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[9].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Brystet er foran, ryggen er bagved.",
+      "deCurrent": "Die Brust ist vorn, der Rücken ist hinten.",
+      "lvMasterDa": "Krūtis ir priekšā, mugura ir aizmugurē.",
+      "source": "lesson"
+    }
+  ]
+}

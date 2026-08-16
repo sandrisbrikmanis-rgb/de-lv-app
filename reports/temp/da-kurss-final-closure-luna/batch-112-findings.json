@@ -1,0 +1,36 @@
+{
+  "batch": "batch-112",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:28:24.049Z",
+  "findings": [
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[0].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[0].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Das Mädchen nimmt einen Federhalter.",
+      "daCurrent": "Pigen tager en fyldepenholder.",
+      "proposedDa": "Pigen tager en penneholder.",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "reason": "“Federhalter” betyder penneholder, ikke specifikt fyldepenholder; den danske oversættelse indsnævrer betydningen.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[1].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[1].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Der Federhalter ist nicht weiß, er ist schwarz.",
+      "daCurrent": "Fyldepenholderen er ikke hvid, den er sort.",
+      "proposedDa": "Penneholderen er ikke hvid, den er sort.",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "reason": "“Federhalter” er oversat som fyldepenholder, hvilket fejlagtigt specificerer genstanden som en fountainpenholder.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "batch": "batch-079",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:24:21.895Z",
+  "findings": [
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].text",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "Disse verber angiver ofte retning og besvarer derfor spørgsmålet wohin?.",
+      "proposedDa": "Disse verber angiver ofte retning og besvarer derfor spørgsmålet wohin?",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "reason": "Et spørgsmålstegn afslutter allerede sætningen; det efterfølgende punktum er overflødigt.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].text",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "Disse verber angiver ofte placering eller tilstand og besvarer derfor spørgsmålet wo?.",
+      "proposedDa": "Disse verber angiver ofte placering eller tilstand og besvarer derfor spørgsmålet wo?",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "reason": "Et spørgsmålstegn afslutter allerede sætningen; det efterfølgende punktum er overflødigt.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

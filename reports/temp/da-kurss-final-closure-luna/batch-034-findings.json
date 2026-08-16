@@ -1,0 +1,22 @@
+{
+  "batch": "batch-034",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:19:28.633Z",
+  "findings": [
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[7].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[7].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Er heißt Johann.",
+      "daCurrent": "Han hedder Jan.",
+      "proposedDa": "Han hedder Johan.",
+      "severity": "MEDIUM",
+      "category": "NAMES",
+      "reason": "Det danske navn bør svare til det tyske Johann; Jan er et andet navn.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    }
+  ]
+}

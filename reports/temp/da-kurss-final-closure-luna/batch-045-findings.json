@@ -1,0 +1,50 @@
+{
+  "batch": "batch-045",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:20:37.262Z",
+  "findings": [
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[27].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[27].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Turnt Robert auch?",
+      "daCurrent": "Træner Robert også?",
+      "proposedDa": "Laver Robert også gymnastik?",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "Træner betyder typisk at træne, ikke specifikt at lave gymnastik som i den tyske sætning.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[28].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[28].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Nein, Robert und Johann turnen nicht.",
+      "daCurrent": "Nej, Robert og Jan laver ikke gymnastik.",
+      "proposedDa": "Nej, Robert og Johann laver ikke gymnastik.",
+      "severity": "HIGH",
+      "category": "NAMES",
+      "reason": "Det danske navn Jan svarer ikke til personnavnet Johann i den tyske kildetekst.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[29].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[29].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Robert, turne!",
+      "daCurrent": "Robert, motionér!",
+      "proposedDa": "Robert, lav gymnastik!",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "Motionér betyder at dyrke motion generelt og gengiver ikke den specifikke opfordring til at lave gymnastik.",
+      "confidence": 0.92,
+      "status": "FINDING"
+    }
+  ]
+}

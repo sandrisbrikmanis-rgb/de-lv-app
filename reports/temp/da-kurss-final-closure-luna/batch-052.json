@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-052",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[3].items[3]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[3]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ö i ordet mögen udtales som en tydelig ö-lyd.",
+      "deCurrent": "ö i ordet mögen udtales som en tydelig ö",
+      "lvMasterDa": "ö vārdā mögen izrunā kā skaidru ö skaņu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[3].items[4]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[4]",
+      "fieldType": "sectionItem",
+      "daCurrent": "Når g efterfølges af t, lyder g tættere på k: du magst, ihr mögt.",
+      "deCurrent": "",
+      "lvMasterDa": "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[3].items[5]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[5]",
+      "fieldType": "sectionItem",
+      "daCurrent": "Tilsvarende lyder g før s i det tyske ord “magst” tættere på k.",
+      "deCurrent": "",
+      "lvMasterDa": "Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[4].title",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[4].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Oversætte",
+      "deCurrent": "",
+      "lvMasterDa": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[0].lv",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[0].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem vil lære flittigt?",
+      "deCurrent": "Wer will fleißig lernen?",
+      "lvMasterDa": "Kas grib čakli mācīties?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[1].lv",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[1].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Alle elever vil lære flittigt.",
+      "deCurrent": "Alle Schüler wollen fleißig lernen.",
+      "lvMasterDa": "Visi skolnieki grib čakli mācīties.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[2].lv",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[2].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem skal komme i dag?",
+      "deCurrent": "Wer muss heute kommen?",
+      "lvMasterDa": "Kam šodien jānāk?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[3].lv",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[3].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg skal komme i dag.",
+      "deCurrent": "Ich muss heute kommen.",
+      "lvMasterDa": "Man šodien jānāk.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[4].lv",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[4].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Du skal skrive brevet.",
+      "deCurrent": "Du musst den Brief schreiben.",
+      "lvMasterDa": "Tev jāraksta vēstule.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[5].lv",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[5].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem skal lære flittigt?",
+      "deCurrent": "Wer muss fleißig lernen?",
+      "lvMasterDa": "Kam čakli jāmācās?",
+      "source": "lesson"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "batch": "batch-103",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:27:18.361Z",
+  "findings": [
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[2].heading",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[2].heading",
+      "fieldType": "grammarHeading",
+      "deCurrent": "",
+      "daCurrent": "Woher? — no kurienes?",
+      "proposedDa": "Woher? — hvorfra?",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Den lettiske oversættelse \"no kurienes?\" er et fremmedsprogsremnant i den danske kursustekst.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-024",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[11]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[11]",
+      "fieldType": "sectionItem",
+      "daCurrent": "hell — lys",
+      "deCurrent": "hell",
+      "lvMasterDa": "hell — gaišs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[13]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[13]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Schreibtisch (dēr šreibtīš) — et skrivebord",
+      "deCurrent": "der Schreibtisch (dēr šreibtīš)",
+      "lvMasterDa": "der Schreibtisch (dēr šreibtīš) — rakstāmgalds",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[16]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "daCurrent": "zusammen (cuzāmen) — sammen",
+      "deCurrent": "zusammen (cuzāmen)",
+      "lvMasterDa": "zusammen (cuzāmen) — kopā",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[17]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[17]",
+      "fieldType": "sectionItem",
+      "daCurrent": "oft — ofte",
+      "deCurrent": "oft",
+      "lvMasterDa": "oft — bieži",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[18]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[18]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Freund (dēr froint) — ven",
+      "deCurrent": "der Freund (dēr froint)",
+      "lvMasterDa": "der Freund (dēr froint) — draugs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[21]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[21]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Stuhl (dēr štūl) — en stol",
+      "deCurrent": "der Stuhl (dēr štūl)",
+      "lvMasterDa": "der Stuhl (dēr štūl) — krēsls",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[22]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[22]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Stühle — stolene",
+      "deCurrent": "die Stühle",
+      "lvMasterDa": "die Stühle — krēsli",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[24]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "daCurrent": "das Bücherbrett — bogreol",
+      "deCurrent": "das Bücherbrett",
+      "lvMasterDa": "das Bücherbrett — grāmatu plaukts",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[25]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[25]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Landkarte (dī lantkarte) — et landkort",
+      "deCurrent": "die Landkarte (dī lantkarte)",
+      "lvMasterDa": "die Landkarte (dī lantkarte) — ģeogrāfijas karte",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[26]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[26]",
+      "fieldType": "sectionItem",
+      "daCurrent": "glücklich — glad",
+      "deCurrent": "glücklich",
+      "lvMasterDa": "glücklich — laimīgs",
+      "source": "lesson"
+    }
+  ]
+}

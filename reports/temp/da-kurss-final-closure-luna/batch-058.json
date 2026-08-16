@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-058",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[0].text",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[0].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Sollen betyder at skulle i betydningen pligt.",
+      "deCurrent": "",
+      "lvMasterDa": "Sollen nozīmē vajadzēt pienākuma nozīmē.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].heading",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Sammenligning",
+      "deCurrent": "",
+      "lvMasterDa": "Salīdzinājums",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].examples[0]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].examples[0]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "müssen — at være nødt til på grund af nødvendighed eller overbevisning",
+      "deCurrent": "müssen",
+      "lvMasterDa": "müssen — vajadzēt aiz nepieciešamības vai pārliecības",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].examples[1]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].examples[1]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "sollen — skulle/burde i betydningen pligt eller forventning",
+      "deCurrent": "sollen",
+      "lvMasterDa": "sollen — vajadzēt pienākuma nozīmē",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[2].heading",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[2].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Sollen-former",
+      "deCurrent": "",
+      "lvMasterDa": "Sollen formas",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[2].text",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[2].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Verbet sollen har samme 1. og 3. person presens ental.",
+      "deCurrent": "",
+      "lvMasterDa": "Darbības vārdam sollen tagadnes vienskaitļa 1. un 3. persona ir vienāda.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[3].heading",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[3].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Dürfen",
+      "deCurrent": "",
+      "lvMasterDa": "Dürfen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[3].text",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[3].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Dürfen betyder at få lov. I Dürfen er stammevokalen a i ental og ü i flertal.",
+      "deCurrent": "",
+      "lvMasterDa": "Dürfen nozīmē drīkstēt. Dürfen vienskaitlī celma patskanis ir a, bet daudzskaitlī ü.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[4].heading",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[4].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Essen",
+      "deCurrent": "",
+      "lvMasterDa": "Essen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[4].text",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[4].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Essen bøjes som følger.",
+      "deCurrent": "",
+      "lvMasterDa": "Essen loka šādi.",
+      "source": "lesson"
+    }
+  ]
+}

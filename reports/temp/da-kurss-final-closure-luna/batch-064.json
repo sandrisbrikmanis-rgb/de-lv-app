@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-064",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[2].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[2].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Flertal",
+      "deCurrent": "",
+      "lvMasterDa": "Daudzskaitlis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Dativ på -e",
+      "deCurrent": "",
+      "lvMasterDa": "Datīva -e",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].text",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Hankøns- og intetkønssubstantiver i dativ ental kan have endelsen -e. Nu om dage bliver denne slutning ofte droppet.",
+      "deCurrent": "",
+      "lvMasterDa": "Vīriešu un vidējās kārtas lietvārdi vienskaitļa datīvā var pieņemt galotni -e. Mūsdienās šī galotne bieži atkrīt.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].examples[0]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].examples[0]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "dem Sohne / dem Sohn",
+      "deCurrent": "",
+      "lvMasterDa": "dem Sohne / dem Sohn",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].examples[1]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].examples[1]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "dem Kinde / dem Kind",
+      "deCurrent": "",
+      "lvMasterDa": "dem Kinde / dem Kind",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].examples[2]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].examples[2]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "dem Arme / dem Arm",
+      "deCurrent": "",
+      "lvMasterDa": "dem Arme / dem Arm",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].examples[3]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].examples[3]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "dem Beine / dem Bein",
+      "deCurrent": "",
+      "lvMasterDa": "dem Beine / dem Bein",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[4].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[4].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Hunkøn i dativ",
+      "deCurrent": "",
+      "lvMasterDa": "Sieviešu kārta datīvā",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[4].text",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[4].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Feminine navneord har ikke en endelse i dativ ental.",
+      "deCurrent": "",
+      "lvMasterDa": "Sieviešu kārtas lietvārdi vienskaitļa datīvā nepieņem galotni.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[5].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[5].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Den ubestemte artikel i dativ",
+      "deCurrent": "",
+      "lvMasterDa": "Nenoteiktais artikuls datīvā",
+      "source": "lesson"
+    }
+  ]
+}

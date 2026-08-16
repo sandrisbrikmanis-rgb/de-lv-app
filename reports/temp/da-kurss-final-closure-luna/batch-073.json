@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-073",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].examples[2]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].examples[2]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "wischen / abwischen — at tørre med en klud, at tørre støv af",
+      "deCurrent": "wischen / abwischen",
+      "lvMasterDa": "wischen / abwischen — slaucīt ar lupatu, drānu, noslaucīt putekļus",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[3].title",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[3].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Udtale",
+      "deCurrent": "",
+      "lvMasterDa": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[3].items[0]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet werfen er det første e åbent: werfen.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā werfen pirmais e ir plats: werfen.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[3].items[1]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet wieder er e åbent: wieder.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā wieder e ir plats: wieder.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[3].items[2]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordene wieder og die Diele betegner ie en lang i-lyd: wieder, die Diele.",
+      "deCurrent": "I ordene wieder og die Diele betegner ie en lang i",
+      "lvMasterDa": "Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Diele.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[3].items[3]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[3]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet der Spaten udtales sp som shp: der Spaten.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā der Spaten sp izrunā kā šp: der Spaten.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[4].title",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[4].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Øvelse",
+      "deCurrent": "",
+      "lvMasterDa": "Vingrinājums",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[0].task",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[0].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar i ental, derefter i flertal.",
+      "deCurrent": "Der Knecht sieht den Jäger, den Müller, den Tischler.",
+      "lvMasterDa": "Atbildi vienskaitlī, pēc tam daudzskaitlī.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[1].task",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[1].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar i ental, derefter i flertal.",
+      "deCurrent": "Der Knecht sieht den Besen, die Schaufel, den Garten.",
+      "lvMasterDa": "Atbildi vienskaitlī, pēc tam daudzskaitlī.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[2].prompt",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[2].prompt",
+      "fieldType": "cardPrompt",
+      "daCurrent": "Mit wem spricht der Knecht? (der Vetter, die Base, das Mädchen)",
+      "deCurrent": "Der Knecht spricht mit dem Vetter, mit der Base, mit dem Mädchen.",
+      "lvMasterDa": "Mit wem spricht der Knecht? (der Vetter, die Base, das Mädchen)",
+      "source": "lesson"
+    }
+  ]
+}

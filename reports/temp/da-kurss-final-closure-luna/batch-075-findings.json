@@ -1,0 +1,36 @@
+{
+  "batch": "batch-075",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:23:57.570Z",
+  "findings": [
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[9].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[9].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Wem hilft der Knabe?",
+      "daCurrent": "Hvem hjælper drengen?",
+      "proposedDa": "Hvem er det, drengen hjælper?",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "Den danske formulering er tvetydig og læses naturligt som 'Hvem hjælper drengen?' i stedet for 'Hvem hjælper drengen?' som objekt.",
+      "confidence": 0.88,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[12].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[12].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Er schneidet das Papier mit der Schere entzwei.",
+      "daCurrent": "Han klipper papiret med en saks.",
+      "proposedDa": "Han klipper papiret over med en saks.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "Den danske sætning mangler betydningen 'entzwei'/'over' og siger kun, at han klipper papiret med en saks.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ]
+}

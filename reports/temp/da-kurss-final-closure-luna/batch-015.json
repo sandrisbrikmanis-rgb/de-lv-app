@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-015",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[3].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[3].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad laver De?",
+      "deCurrent": "Was machen Sie?",
+      "lvMasterDa": "Ko jūs darāt?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[4].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[4].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Vi sidder og læser.",
+      "deCurrent": "Wir sitzen und lesen.",
+      "lvMasterDa": "Mēs sēžam un lasām.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[5].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[5].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Paul, sæt dig ned og læs!",
+      "deCurrent": "Paul, setz dich und lies!",
+      "lvMasterDa": "Paul, apsēdies un lasi!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[6].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[6].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hr. lærer, sæt Dem ned og læs!",
+      "deCurrent": "Herr Lehrer, setzen Sie sich und lesen Sie!",
+      "lvMasterDa": "Skolotāja kungs, apsēdieties un lasiet!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[7].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[7].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvordan skriver børn?",
+      "deCurrent": "Wie schreiben die Kinder?",
+      "lvMasterDa": "Kā bērni raksta?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[8].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[8].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Skriver de hurtigt eller langsomt?",
+      "deCurrent": "Schreiben sie schnell oder langsam?",
+      "lvMasterDa": "Vai viņi raksta ātri vai lēni?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[9].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[9].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "De skriver meget langsomt.",
+      "deCurrent": "Sie schreiben sehr langsam.",
+      "lvMasterDa": "Viņi raksta ļoti lēni.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[10].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[10].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvordan er denne tallerken?",
+      "deCurrent": "Wie ist dieser Teller?",
+      "lvMasterDa": "Kāds ir šis šķīvis?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[11].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[11].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Denne tallerken er ikke ren, den er snavset.",
+      "deCurrent": "Dieser Teller ist nicht rein, er ist schmutzig.",
+      "lvMasterDa": "Šis šķīvis nav tīrs, tas ir netīrs.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[12].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[12].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Er brevene lange eller korte?",
+      "deCurrent": "Sind die Briefe lang oder kurz?",
+      "lvMasterDa": "Vai vēstules ir garas vai īsas?",
+      "source": "lesson"
+    }
+  ]
+}

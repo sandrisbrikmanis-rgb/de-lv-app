@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-051",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[7].heading",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[7].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Wollen",
+      "deCurrent": "",
+      "lvMasterDa": "Wollen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[7].text",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[7].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Wollen betyder bevidst at ville gøre noget.",
+      "deCurrent": "",
+      "lvMasterDa": "Wollen nozīmē apzināti gribēt kaut ko darīt.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[8].heading",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[8].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Mögen",
+      "deCurrent": "",
+      "lvMasterDa": "Mögen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[8].text",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[8].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Mögen udtrykker et ønske eller en lyst.",
+      "deCurrent": "",
+      "lvMasterDa": "Mögen izsaka vēlēšanos vai patiku.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[9].heading",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[9].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Vigtigt",
+      "deCurrent": "",
+      "lvMasterDa": "Svarīgi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[9].text",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[9].text",
+      "fieldType": "grammarText",
+      "daCurrent": "På dansk siger vi ofte \"jeg skal studere\", \"du skal skrive\", \"han skal komme\". Tysk bruger ofte müssen i sådanne sætninger.",
+      "deCurrent": "",
+      "lvMasterDa": "Latviski bieži sakām “man jāmācās”, “tev jāraksta”, “viņam jānāk”. Vāciski šādos teikumos bieži lieto müssen.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[3].title",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[3].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Udtale",
+      "deCurrent": "",
+      "lvMasterDa": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[3].items[0]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ß udtales som s.",
+      "deCurrent": "",
+      "lvMasterDa": "ß izrunā kā latviešu s.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[3].items[1]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ß skrives i midten eller slutningen af et ord efter en lang vokal eller en diftong: die Füße, die Straße. Efter en kort vokal skrives ss: ich muss, er muss.",
+      "deCurrent": "",
+      "lvMasterDa": "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[3].items[2]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "Efter en lang vokal eller en diftong skrives ß også foran en endelse, fx Füße og heißt.",
+      "deCurrent": "",
+      "lvMasterDa": "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
+      "source": "lesson"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-018",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[15]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[15]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Mann — mand, ægtemand",
+      "deCurrent": "der Mann",
+      "lvMasterDa": "der Mann — vīrs, vīrietis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[17]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[17]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Großvater (dēr grōsfāter) — bedstefar",
+      "deCurrent": "der Großvater (dēr grōsfāter)",
+      "lvMasterDa": "der Großvater (dēr grōsfāter) — vectēvs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[19]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "daCurrent": "fleißig (fleišich) — flittig",
+      "deCurrent": "fleißig (fleišich)",
+      "lvMasterDa": "fleißig (fleišich) — čakls",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[20]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[20]",
+      "fieldType": "sectionItem",
+      "daCurrent": "lernen — lære",
+      "deCurrent": "lernen",
+      "lvMasterDa": "lernen — mācīties",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[22]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[22]",
+      "fieldType": "sectionItem",
+      "daCurrent": "das Jahr (jār) — år",
+      "deCurrent": "das Jahr (jār)",
+      "lvMasterDa": "das Jahr (jār) — gads",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[24]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "daCurrent": "wie — hvordan",
+      "deCurrent": "wie",
+      "lvMasterDa": "wie — kā, kāds, cik",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[2].title",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Udtale",
+      "deCurrent": "",
+      "lvMasterDa": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[2].items[0]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "Omlydsvokalerne skal udtales korrekt.",
+      "deCurrent": "",
+      "lvMasterDa": "Pareizi jāizrunā patskaņu pārkaņojumi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[2].items[1]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ö udtales med rundede læber som en e-lyd: wir können, ihr könnt, sie können, der Löffel.",
+      "deCurrent": "ö udtales med rundede læber som en e",
+      "lvMasterDa": "ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der Löffel.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[2].items[2]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ü udtales med rundede læber som en i-lyd: Müller (müller), Bücher (bücher).",
+      "deCurrent": "ü udtales med rundede læber som en i",
+      "lvMasterDa": "ü izrunā ar apaļotām lūpām kā i: Müller (müller), Bücher (bücher).",
+      "source": "lesson"
+    }
+  ]
+}

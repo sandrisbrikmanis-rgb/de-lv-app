@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-006",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[2].title",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Udtale",
+      "deCurrent": "",
+      "lvMasterDa": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[2].items[0]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ä udtales, som tidligere nævnt, både som en smal, kort e-lyd og som en smal, lang e-lyd. Eksempler: der Bäcker (bēker), das Mädchen (mētchen).",
+      "deCurrent": "ä udtales, som tidligere nævnt, både som en smal, kort e",
+      "lvMasterDa": "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[2].items[1]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ä udtales også som en åben e-lyd, for eksempel i ordet der Gärtner (dēr gertner).",
+      "deCurrent": "ä udtales også som en åben e",
+      "lvMasterDa": "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[2].items[2]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordene Schüler og Bücher er ü lang, mens ü i Müller er kort.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdos Schüler, Bücher — ü ir garš (ū), bet Müller — īss ü.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[2].items[3]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[3]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ie udtales som et langt i: liest (līst).",
+      "deCurrent": "",
+      "lvMasterDa": "ie izrunā kā garo ī: liest (līst).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[2].items[4]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[4]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ß udtales som s: grüßen (grüsen).",
+      "deCurrent": "",
+      "lvMasterDa": "ß izrunā kā s: grüßen (grüsen).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[2].items[5]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[5]",
+      "fieldType": "sectionItem",
+      "daCurrent": "eu udtales som oi: deutlich (doitlich).",
+      "deCurrent": "",
+      "lvMasterDa": "eu izrunā kā oi: deutlich (doitlich).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[3].title",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Grammatik",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[3].items[0]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I mange verber med vokalen e i stammen ændres e til i eller ie i 2. og 3. person ental i præsens.",
+      "deCurrent": "",
+      "lvMasterDa": "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[3].items[7]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[7]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I disse verber ændres e i stammen også til i eller ie i imperativ ental: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+      "deCurrent": "",
+      "lvMasterDa": "Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+      "source": "lesson"
+    }
+  ]
+}

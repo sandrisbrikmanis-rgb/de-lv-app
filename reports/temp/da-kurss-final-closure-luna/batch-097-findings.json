@@ -1,0 +1,50 @@
+{
+  "batch": "batch-097",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:26:42.159Z",
+  "findings": [
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[11].prompt",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[11].prompt",
+      "fieldType": "cardPrompt",
+      "deCurrent": "Jener Mann steht unter der Brücke.",
+      "daCurrent": "Jener Mann steht unter (die Brücke).",
+      "proposedDa": "Den mand står under (broen).",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Feltet indeholder tysk i stedet for dansk.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[0].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[0].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Was ist hoch?",
+      "daCurrent": "Kas ir augsts?",
+      "proposedDa": "Hvad er højt?",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Feltet indeholder lettisk i stedet for dansk.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[1].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[1].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Wieviel Stockwerke hat das Haus?",
+      "daCurrent": "Hvor mange etager har huset?",
+      "proposedDa": "Hvor mange etager har huset?",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Feltet er dansk, men ligger i et felt markeret som lv; kontrollér feltets sprogkonvention.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-050",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[0].heading",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[0].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Modalverber",
+      "deCurrent": "",
+      "lvMasterDa": "Modālie darbības vārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[0].text",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[0].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Verberne müssen, wollen og mögen er modale verber.",
+      "deCurrent": "",
+      "lvMasterDa": "Darbības vārdi müssen, wollen un mögen ir modālie darbības vārdi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[1].heading",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[1].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "1. og 3. person ental",
+      "deCurrent": "",
+      "lvMasterDa": "1. un 3. persona vienskaitlī",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[1].text",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[1].text",
+      "fieldType": "grammarText",
+      "daCurrent": "I nutid ental er 1. og 3. person ens.",
+      "deCurrent": "",
+      "lvMasterDa": "Tagadnes vienskaitlī 1. un 3. persona ir vienāda.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[2].heading",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[2].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Müssen",
+      "deCurrent": "",
+      "lvMasterDa": "Müssen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[3].heading",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[3].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Wollen",
+      "deCurrent": "",
+      "lvMasterDa": "Wollen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[4].heading",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[4].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Mögen",
+      "deCurrent": "",
+      "lvMasterDa": "Mögen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[5].heading",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[5].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Stammevokalskifte",
+      "deCurrent": "",
+      "lvMasterDa": "Celma patskaņu maiņa",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[6].heading",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[6].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Müssen",
+      "deCurrent": "",
+      "lvMasterDa": "Müssen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[6].text",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[6].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Müssen betyder at have behov for eller at være nødt til.",
+      "deCurrent": "",
+      "lvMasterDa": "Müssen nozīmē vajadzēt / būt nepieciešamam.",
+      "source": "lesson"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-004",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[9]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[9]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Kinder — børnene",
+      "deCurrent": "die Kinder",
+      "lvMasterDa": "die Kinder — bērni",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[10]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "daCurrent": "setzt euch (zect oich) — sæt jer ned!",
+      "deCurrent": "setzt euch (zect oich)",
+      "lvMasterDa": "setzt euch (zect oich) — sēstieties!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[11]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[11]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sie setzen sich — de sætter sig",
+      "deCurrent": "sie setzen sich",
+      "lvMasterDa": "sie setzen sich — viņi apsēžas",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[12]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "daCurrent": "fragen (med akkusativ) — at spørge",
+      "deCurrent": "fragen (med akkusativ)",
+      "lvMasterDa": "fragen (ar akuzatīvu) — jautāt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[13]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[13]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sprechen — tale",
+      "deCurrent": "sprechen",
+      "lvMasterDa": "sprechen — runāt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[14]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[14]",
+      "fieldType": "sectionItem",
+      "daCurrent": "er spricht — han taler",
+      "deCurrent": "er spricht",
+      "lvMasterDa": "er spricht — viņš runā",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[16]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sehr (zēr) — meget",
+      "deCurrent": "sehr (zēr)",
+      "lvMasterDa": "sehr (zēr) — ļoti",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[18]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[18]",
+      "fieldType": "sectionItem",
+      "daCurrent": "laut — højt",
+      "deCurrent": "laut",
+      "lvMasterDa": "laut — skaļi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[19]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "daCurrent": "jetzt (ject) — nu",
+      "deCurrent": "jetzt (ject)",
+      "lvMasterDa": "jetzt (ject) — tagad",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[20]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[20]",
+      "fieldType": "sectionItem",
+      "daCurrent": "lesen — læse",
+      "deCurrent": "lesen",
+      "lvMasterDa": "lesen — lasīt",
+      "source": "lesson"
+    }
+  ]
+}

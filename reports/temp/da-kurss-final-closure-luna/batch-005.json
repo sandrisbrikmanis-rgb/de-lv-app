@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-005",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[24]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "daCurrent": "deutlich (doitlich) — tydeligt, klart",
+      "deCurrent": "deutlich (doitlich)",
+      "lvMasterDa": "deutlich (doitlich) — skaidri, saprotami",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[25]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[25]",
+      "fieldType": "sectionItem",
+      "daCurrent": "schreiben — skrive",
+      "deCurrent": "schreiben",
+      "lvMasterDa": "schreiben — rakstīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[26]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[26]",
+      "fieldType": "sectionItem",
+      "daCurrent": "endlich (entlich) — endelig",
+      "deCurrent": "endlich (entlich)",
+      "lvMasterDa": "endlich (entlich) — beidzot",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[27]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[27]",
+      "fieldType": "sectionItem",
+      "daCurrent": "erzählen (ercēlen) — at fortælle",
+      "deCurrent": "erzählen (ercēlen)",
+      "lvMasterDa": "erzählen (ercēlen) — stāstīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[28]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[28]",
+      "fieldType": "sectionItem",
+      "daCurrent": "zuhören — lytte",
+      "deCurrent": "zuhören",
+      "lvMasterDa": "zuhören — klausīties",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[29]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[29]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sie hören zu — de lytter",
+      "deCurrent": "sie hören zu",
+      "lvMasterDa": "sie hören zu — viņi klausās",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[31]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[31]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Arbeiter — arbejderen",
+      "deCurrent": "der Arbeiter",
+      "lvMasterDa": "der Arbeiter — strādnieks",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[34]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[34]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Bäcker (dēr beker) — bageren",
+      "deCurrent": "der Bäcker (dēr beker)",
+      "lvMasterDa": "der Bäcker (dēr beker) — maiznieks",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[35]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[35]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Schneider (dēr šneider) — skrædderen",
+      "deCurrent": "der Schneider (dēr šneider)",
+      "lvMasterDa": "der Schneider (dēr šneider) — drēbnieks",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[36]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[36]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Gärtner (dēr gertner) — gartneren",
+      "deCurrent": "der Gärtner (dēr gertner)",
+      "lvMasterDa": "der Gärtner (dēr gertner) — dārznieks",
+      "source": "lesson"
+    }
+  ]
+}

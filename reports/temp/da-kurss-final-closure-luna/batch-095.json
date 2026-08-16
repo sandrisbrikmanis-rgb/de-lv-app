@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-095",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[3].items[1]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordene der Ofen og der Boden er o'et langt.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdos der Ofen, der Boden: o ir garš.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[3].items[2]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sch udtales som sh: der Schornstein, der Mensch.",
+      "deCurrent": "",
+      "lvMasterDa": "sch izrunā kā š: der Schornstein, der Mensch.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[3].items[3]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[3]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordene das Haus og das Holz udtales h'et tydeligt.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdos das Haus, das Holz: h ir dzirdams un jāizrunā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[3].items[4]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[4]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordene die Wohnung og wohnen markerer h'et en lang vokal og udtales ikke.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdos die Wohnung, wohnen: h ir garuma zīme, to neizrunā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[3].items[5]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[5]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordene die Küche, die Dächer udtales ch som en h-lignende lyd.",
+      "deCurrent": "I ordene die Küche, die Dächer udtales ch som en h",
+      "lvMasterDa": "Vārdos die Küche, die Dächer: ch izrunā kā “h” tipa skaņu, kā vācu ich-Laut.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[3].items[6]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[6]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet das Vorhaus udtales v som f.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā das Vorhaus: v izrunā kā f.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].title",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Øvelse",
+      "deCurrent": "",
+      "lvMasterDa": "Vingrinājums",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[0].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[0].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+      "deCurrent": "Der Wolf lebt in dem Wald.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[1].prompt",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[1].prompt",
+      "fieldType": "cardPrompt",
+      "daCurrent": "Dieser Mann lebt in (das Haus).",
+      "deCurrent": "Dieser Mann lebt in dem Haus.",
+      "lvMasterDa": "Dieser Mann lebt in (das Haus).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[1].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[1].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+      "deCurrent": "Dieser Mann lebt in dem Haus.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    }
+  ]
+}

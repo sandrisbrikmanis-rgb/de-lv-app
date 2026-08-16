@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-020",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[3].items[1].heading",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[1].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Sein — Präsens",
+      "deCurrent": "",
+      "lvMasterDa": "Sein — Präsens",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[3].items[2].heading",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[2].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Sein — Imperativ",
+      "deCurrent": "",
+      "lvMasterDa": "Sein — Imperativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[3].items[3].heading",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[3].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Können",
+      "deCurrent": "",
+      "lvMasterDa": "Können",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[3].items[3].text",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[3].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Ligeledes bøjes hjælpeverbet können - at kunne - uregelmæssigt.",
+      "deCurrent": "",
+      "lvMasterDa": "Tāpat nekārtni loka arī palīga darbības vārdu können — varēt.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[3].items[4].heading",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[4].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Können — Präsens",
+      "deCurrent": "",
+      "lvMasterDa": "Können — Präsens",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].title",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Oversæt",
+      "deCurrent": "",
+      "lvMasterDa": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[0].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[0].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Er du sund?",
+      "deCurrent": "Bist du gesund?",
+      "lvMasterDa": "Vai tu esi vesels?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[1].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[1].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Ja, jeg er sund.",
+      "deCurrent": "Ja, ich bin gesund.",
+      "lvMasterDa": "Jā, es esmu vesels.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[2].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[2].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Er Paul rask?",
+      "deCurrent": "Ist Paul gesund?",
+      "lvMasterDa": "Vai Pauls ir vesels?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[3].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[3].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Nein, Paul er ikke rask, han er syg.",
+      "deCurrent": "Nein, Paul ist nicht gesund, er ist krank.",
+      "lvMasterDa": "Nē, Pauls nav vesels, viņš ir slims.",
+      "source": "lesson"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-039",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[20]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[20]",
+      "fieldType": "sectionItem",
+      "daCurrent": "vorn — foran",
+      "deCurrent": "vorn",
+      "lvMasterDa": "vorn — priekšā",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[22]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[22]",
+      "fieldType": "sectionItem",
+      "daCurrent": "hinten — bagved",
+      "deCurrent": "hinten",
+      "lvMasterDa": "hinten — aizmugurē",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[27]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[27]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Zehe — tåen",
+      "deCurrent": "die Zehe",
+      "lvMasterDa": "die Zehe — kājas pirksts",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[32]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[32]",
+      "fieldType": "sectionItem",
+      "daCurrent": "reinigen — at rense",
+      "deCurrent": "reinigen",
+      "lvMasterDa": "reinigen — tīrīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[35]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[35]",
+      "fieldType": "sectionItem",
+      "daCurrent": "machen — at gøre / lave",
+      "deCurrent": "machen",
+      "lvMasterDa": "machen — darīt / taisīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[38]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[38]",
+      "fieldType": "sectionItem",
+      "daCurrent": "stehen — at stå",
+      "deCurrent": "stehen",
+      "lvMasterDa": "stehen — stāvēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[42]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[42]",
+      "fieldType": "sectionItem",
+      "daCurrent": "drehen — dreje",
+      "deCurrent": "drehen",
+      "lvMasterDa": "drehen — griezt / pagriezt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[45]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[45]",
+      "fieldType": "sectionItem",
+      "daCurrent": "halten — at holde",
+      "deCurrent": "halten",
+      "lvMasterDa": "halten — turēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[48]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[48]",
+      "fieldType": "sectionItem",
+      "daCurrent": "tief — dyb",
+      "deCurrent": "tief",
+      "lvMasterDa": "tief — dziļi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[2].title",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Grammatik",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "lesson"
+    }
+  ]
+}

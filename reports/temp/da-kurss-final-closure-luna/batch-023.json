@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-023",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[0].title",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Dialoger / sætninger",
+      "deCurrent": "",
+      "lvMasterDa": "Dialogi / teikumi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[0].items[23]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[23]",
+      "fieldType": "sectionItem",
+      "daCurrent": "Anna skriver og spørger: „Franz, skriver du også?“",
+      "deCurrent": "",
+      "lvMasterDa": "Anna schreibt und fragt: „Franz, schreibst du auch?“",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[0].items[24]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[24]",
+      "fieldType": "sectionItem",
+      "daCurrent": "Franz svarer: „Jeg kan ikke skrive. Jeg har ikke noget hæfte, nogen pen eller nogen blyant.“",
+      "deCurrent": "",
+      "lvMasterDa": "Franz antwortet: „Ich kann nicht schreiben. Ich habe kein Heft, keine Feder und keinen Bleistift.“",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[0].items[25]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[25]",
+      "fieldType": "sectionItem",
+      "daCurrent": "Anna siger: „Tag dette hæfte og denne blyant. Vi arbejder sammen.“",
+      "deCurrent": "",
+      "lvMasterDa": "Anna sagt: „Nimm dieses Heft und diesen Bleistift. Wir arbeiten zusammen.“",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].title",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Ord",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[2]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "er hat — han har",
+      "deCurrent": "er hat",
+      "lvMasterDa": "er hat — viņam ir",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[5]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[5]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sie haben — de har",
+      "deCurrent": "sie haben",
+      "lvMasterDa": "sie haben — viņiem ir",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[6]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[6]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Bruder (dēr brūder) — bror",
+      "deCurrent": "der Bruder (dēr brūder)",
+      "lvMasterDa": "der Bruder (dēr brūder) — brālis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[7]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Brüder — brødre",
+      "deCurrent": "die Brüder",
+      "lvMasterDa": "die Brüder — brāļi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[10]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "daCurrent": "groß (grōs) — stor",
+      "deCurrent": "groß (grōs)",
+      "lvMasterDa": "groß (grōs) — liels",
+      "source": "lesson"
+    }
+  ]
+}

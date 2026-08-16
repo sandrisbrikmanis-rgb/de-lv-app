@@ -1,0 +1,36 @@
+{
+  "batch": "batch-040",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:20:06.370Z",
+  "findings": [
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[2].items[0].text",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[0].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "Nogle verber med stammevokalen a eller au i nutid 2. og 3. person ental har en umlaut.",
+      "proposedDa": "Nogle verber med stammevokalen a eller au får en omlyd i 2. og 3. person ental i nutid.",
+      "severity": "MEDIUM",
+      "category": "CONSISTENCY",
+      "reason": "Teksten bruger både den danske term omlyd i overskriften og det tyske lånord umlaut i forklaringen; ordstillingen er også mindre naturlig.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[2].items[1].text",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[1].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "sich umkehren — vende sig",
+      "proposedDa": "sich umkehren — vende sig om",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "Den danske oversættelse mangler om, som er nødvendig for at gengive betydningen af umkehren og det tilsvarende eksempel kehr dich um.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ]
+}

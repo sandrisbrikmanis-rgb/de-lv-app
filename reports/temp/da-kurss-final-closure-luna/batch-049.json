@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-049",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[25]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[25]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sie mag — hun kan lide",
+      "deCurrent": "sie mag",
+      "lvMasterDa": "sie mag — viņa grib / viņai patīk",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[26]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[26]",
+      "fieldType": "sectionItem",
+      "daCurrent": "es mag — det kan lide",
+      "deCurrent": "es mag",
+      "lvMasterDa": "es mag — tas grib / tam patīk",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[27]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[27]",
+      "fieldType": "sectionItem",
+      "daCurrent": "wir mögen — vi kan lide",
+      "deCurrent": "wir mögen",
+      "lvMasterDa": "wir mögen — mēs gribam",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[28]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[28]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ihr mögt — I kan lide",
+      "deCurrent": "ihr mögt",
+      "lvMasterDa": "ihr mögt — jūs gribat",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[29]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[29]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sie mögen — de kan lide",
+      "deCurrent": "sie mögen",
+      "lvMasterDa": "sie mögen — viņi / viņas grib",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[31]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[31]",
+      "fieldType": "sectionItem",
+      "daCurrent": "munden — at smage godt",
+      "deCurrent": "munden",
+      "lvMasterDa": "munden — labi garšot",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[34]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[34]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ihm — til ham",
+      "deCurrent": "ihm",
+      "lvMasterDa": "ihm — viņam",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[35]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[35]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ihr — til hende",
+      "deCurrent": "ihr",
+      "lvMasterDa": "ihr — viņai",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[38]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[38]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ihnen — til dem",
+      "deCurrent": "ihnen",
+      "lvMasterDa": "ihnen — viņiem / viņām",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].title",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Grammatik",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "lesson"
+    }
+  ]
+}

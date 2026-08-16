@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-092",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[24]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "daCurrent": "licht — lys",
+      "deCurrent": "licht",
+      "lvMasterDa": "licht — gaišs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[25]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[25]",
+      "fieldType": "sectionItem",
+      "daCurrent": "hell — lys / klar",
+      "deCurrent": "hell",
+      "lvMasterDa": "hell — gaišs / spožs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[28]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[28]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Mensch — menneske",
+      "deCurrent": "der Mensch",
+      "lvMasterDa": "der Mensch — cilvēks",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].title",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Grammatik",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].heading",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Dativ ved wann?",
+      "deCurrent": "",
+      "lvMasterDa": "Dativs ar wann?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].text",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Tidsudtryk, der besvarer spørgsmålet wann? — hvornår?, kan stå i dativ.",
+      "deCurrent": "",
+      "lvMasterDa": "Satiksmes vārdi, kas 19. un 20. lekcijā atbild uz jautājumu wann? — kad?, stāv ar Dativ. Dativs atbild ne tikai uz wo? — kur?, bet arī uz wann? — kad?.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].examples[0]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].examples[0]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "an dem Tage / am Tage — om dagen",
+      "deCurrent": "an dem Tage / am Tage",
+      "lvMasterDa": "an dem Tage / am Tage — dienā",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].examples[2]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].examples[2]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "in dem Sommer / im Sommer — om sommeren",
+      "deCurrent": "in dem Sommer / im Sommer",
+      "lvMasterDa": "in dem Sommer / im Sommer — vasarā",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].examples[3]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].examples[3]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "in dem Januar / im Januar — i januar",
+      "deCurrent": "in dem Januar / im Januar",
+      "lvMasterDa": "in dem Januar / im Januar — janvārī",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].heading",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Præposition + artikel",
+      "deCurrent": "",
+      "lvMasterDa": "Prievārds + artikuls",
+      "source": "lesson"
+    }
+  ]
+}

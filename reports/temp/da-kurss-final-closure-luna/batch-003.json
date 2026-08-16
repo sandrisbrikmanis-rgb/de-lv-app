@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-003",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson7|COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "lessonId": "lesson7",
+      "path": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "fieldType": "legacyHtml",
+      "daCurrent": "<h3>Foredrag 7</h3> <p class=\"kurss-lesson-intro\">Syvende lektion: kommandoudtryk, tiltaleform og flertal.</p> <details class=\"lesson1-accordion\" open> <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoger / sætninger</span><span class=\"lesson1-chevron\">⌃</span></summary> <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hans, singe ein Lied! Was machst du? Ich singe ein Lied.</div><div class=\"kurss-example\">Hans, singe ein Lied! Was tust du? Ich singe ein Lied.</div><div class=\"kurss-example\">Hans und Olga, singt ein Lied! Was tut ihr? Wir singen ein Lied.</div><div class=\"kurss-example\">Fräulein Müller, singen Sie, bitte, ein Lied! Was tun Sie? Ich singe ein Lied.</div><div class=\"kurss-example\">Hans, zähle die Teller! Was tut Hans? Er zählt die Teller.</div><div class=\"kurss-example\">Hans und Olga, zählt die Teller! Was tun Hans und Olga? Sie zählen die Teller.</div><div class=\"kurss-example\">Fräulein Müller, zählen Sie, bitte, die Teller!</div><div class=\"kurss-example\">Hans, öffne das Fenster! Was tut Hans? Er öffnet das Fenster.</div><div class=\"kurss-example\">Hans und Olga, öffnet die Fenster! Was tun Hans und Olga? Sie öffnen die Fenster.</div><div class=\"kurss-example\">Fräulein Müller, öffnen Sie, bitte, alle Fenster!</div><div class=\"kurss-example\">Fräulein Müller öffnet alle Fenster.</div><div class=\"kurss-example\">Das ist der Spiegel. Das sind die Spiegel.</div><div class=\"kurss-example\">Das ist der Lappen. Das sind die Lappen.</div><div class=\"kurss-example\">Das ist der Spaten. Das sind die Spaten.</div><div class=\"kurss-example\">Das ist der Besen. Das sind die Besen.</div><div class=\"kurss-example\">Das ist die Schaufel. Das sind die Schaufeln.</div><div class=\"kurss-example\">Das ist die Schüssel. Das sind die Schüsseln.</div><div class=\"kurss-example\">Das ist das Zimmer. Das sind die Zimmer.</div></div></div> </details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Ord</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Synge — at synge</div><div class=\"kurss-example\">Synge — synge</div><div class=\"kurss-example\">Das ist das Ufer. Das sind die Ufer.</div><div class=\"kurss-example\">singen — synge</div><div class=\"kurss-example\">singe — syng</div><div class=\"kurss-example\">singt — synger</div><div class=\"kurss-example\">singen Sie — syng</div><div class=\"kurss-example\">das Lied (das līt) — ung dame</div><div class=\"kurss-example\">Sie — møller</div><div class=\"kurss-example\">zählen — åben</div><div class=\"kurss-example\">das Fräulein (froilein) — vindue</div><div class=\"kurss-example\">der Müller — møller</div><div class=\"kurss-example\">öffnen — åbne</div><div class=\"kurss-example\">das Fenster (fenster) — klud, moppe</div><div class=\"kurss-example\">alle — skovl</div><div class=\"kurss-example\">der Spiegel — spejl</div><div class=\"kurss-example\">der Lappen — skovl</div><div class=\"kurss-example\">der Spaten — skål</div><div class=\"kurss-example\">der Besen — værelse</div><div class=\"kurss-example\">die Schaufel — kyst</div></div></div></details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Udtale</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">die Schüssel — Sp i begyndelsen af ​​et ord eller en stavelse udtales som šp: der Spiegel (for špīgel).</div><div class=\"kurss-example\">das Zimmer — Sch udtales som letisk š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).</div><div class=\"kurss-example\">das Ufer (ūfer) — Diftongen äu udtales som letisk oi: das Fräulein (das froilein).</div></div></div></details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatik</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Kommandoer</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">sp vārda vai zilbes sākumā izrunā kā šp: der Spiegel (dēr špīgel).</div><div class=\"kurss-example\">sch izrunā kā latviešu š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).</div><div class=\"kurss-example\">Divskani äu izrunā kā latviešu oi: das Fräulein (das froilein).</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>Flertal kommando</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Pavēles izteiksme vienskaitļa 2. personā atbilst darbības vārda 2. personai vienskaitlī bez personu galotnes -Kommandoformen i 2. person flertal ligner 2. person nuværende flertal, men bruges uden pronomen.</div><div class=\"kurss-example\">Piemēri: antworte!, arbeite!, öffne!, zeichne!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Adresseform med Sie</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ļoti bieži galotne -Adresseformen med \"Du\" ligner 3. person flertal. Pronomenet Sie skrives med stort bogstav og står efter verbet.</div><div class=\"kurss-example\">Pavēles forma 2. personā daudzskaitlī līdzinās tagadnes daudzskaitļa 2. personai, bet tiek lietota bez vietniekvārda.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>Öffnen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Piemēri: antwortet!, arbeitet!, öffnet!, zeichnet!, geht!, steht!, tut!</div></div></section></div></details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Øvelse</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson7-exercise-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lecture 7 exercise card\"><span class=\"lesson1-training-progress\">Lektion 7 · Übung: 1/16</span><span class=\"lesson1-training-text\">fragen — at spørge</span></button><p class=\"lesson1-training-hint\">Tryk på kortet for at se kommandoformularer.</p></div></div></details>",
+      "deCurrent": "",
+      "lvMasterDa": "            <h3>Lekcija 7</h3>\n            <p class=\"kurss-lesson-intro\">Septītā lekcija: pavēles izteiksme, uzrunas forma un daudzskaitlis.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialogi / teikumi</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hans, singe ein Lied! Was tust du? Ich singe ein Lied.</div><div class=\"kurss-example\">Hans und Olga, singt ein Lied! Was tut ihr? Wir singen ein Lied.</div><div class=\"kurss-example\">Fräulein Müller, singen Sie, bitte, ein Lied! Was tun Sie? Ich singe ein Lied.</div><div class=\"kurss-example\">Hans, zähle die Teller! Was tut Hans? Er zählt die Teller.</div><div class=\"kurss-example\">Hans und Olga, zählt die Teller! Was tun Hans und Olga? Sie zählen die Teller.</div><div class=\"kurss-example\">Fräulein Müller, zählen Sie, bitte, die Teller!</div><div class=\"kurss-example\">Hans, öffne das Fenster! Was tut Hans? Er öffnet das Fenster.</div><div class=\"kurss-example\">Hans und Olga, öffnet die Fenster! Was tun Hans und Olga? Sie öffnen die Fenster.</div><div class=\"kurss-example\">Fräulein Müller, öffnen Sie, bitte, alle Fenster!</div><div class=\"kurss-example\">Fräulein Müller öffnet alle Fenster.</div><div class=\"kurss-example\">Das ist der Spiegel. Das sind die Spiegel.</div><div class=\"kurss-example\">Das ist der Lappen. Das sind die Lappen.</div><div class=\"kurss-example\">Das ist der Spaten. Das sind die Spaten.</div><div class=\"kurss-example\">Das ist der Besen. Das sind die Besen.</div><div class=\"kurss-example\">Das ist die Schaufel. Das sind die Schaufeln.</div><div class=\"kurss-example\">Das ist die Schüssel. Das sind die Schüsseln.</div><div class=\"kurss-example\">Das ist das Zimmer. Das sind die Zimmer.</div><div class=\"kurss-example\">Das ist das Ufer. Das sind die Ufer.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Vārdi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">singen — dziedāt</div><div class=\"kurss-example\">singe — dziedi</div><div class=\"kurss-example\">singt — dziediet</div><div class=\"kurss-example\">singen Sie — dziediet</div><div class=\"kurss-example\">das Lied (das līt) — dziesma</div><div class=\"kurss-example\">Sie — Jūs</div><div class=\"kurss-example\">zählen — skaitīt</div><div class=\"kurss-example\">das Fräulein (froilein) — jaunkundze</div><div class=\"kurss-example\">der Müller — dzirnavnieks</div><div class=\"kurss-example\">öffnen — atvērt</div><div class=\"kurss-example\">das Fenster (fenster) — logs</div><div class=\"kurss-example\">alle — visi</div><div class=\"kurss-example\">der Spiegel (špīgel) — spogulis</div><div class=\"kurss-example\">der Lappen — lupata, slaukis</div><div class=\"kurss-example\">der Spaten — lāpsta</div><div class=\"kurss-example\">der Besen — slota</div><div class=\"kurss-example\">die Schaufel — lāpstiņa</div><div class=\"kurss-example\">die Schüssel — bļoda</div><div class=\"kurss-example\">das Zimmer — istaba</div><div class=\"kurss-example\">das Ufer (ūfer) — krasts</div></div></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izruna</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">sp vārda vai zilbes sākumā izrunā kā šp: der Spiegel (dēr špīgel).</div><div class=\"kurss-example\">sch izrunā kā latviešu š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).</div><div class=\"kurss-example\">Divskani äu izrunā kā latviešu oi: das Fräulein (das froilein).</div></div></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Pavēles izteiksme</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Pavēles izteiksme vienskaitļa 2. personā atbilst darbības vārda 2. personai vienskaitlī bez personu galotnes -st, pieliekot galotni -e.</div><div class=\"kurss-example\">Piemēri: antworte!, arbeite!, öffne!, zeichne!</div><div class=\"kurss-example\">Ļoti bieži galotne -e netiek lietota, ja pavēles forma ar to kļūst vienzilbīga: geh!, steh!, komm!, tu!, sing!, frag!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>Daudzskaitļa pavēle</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Pavēles forma 2. personā daudzskaitlī līdzinās tagadnes daudzskaitļa 2. personai, bet tiek lietota bez vietniekvārda.</div><div class=\"kurss-example\">Piemēri: antwortet!, arbeitet!, öffnet!, zeichnet!, geht!, steht!, tut!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Uzrunas forma ar Sie</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Uzrunas forma ar “Jūs” līdzinās daudzskaitļa 3. personai. Vietniekvārds Sie rakstāms ar lielo burtu un stāv pēc darbības vārda.</div><div class=\"kurss-example\">Piemēri: antworten Sie!, arbeiten Sie!, öffnen Sie!, zeichnen Sie!, gehen Sie!, stehen Sie!, tun Sie!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>öffnen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Darbības vārdam öffnen vieglākas izrunas dēļ 2. un 3. personā vienskaitlī un 2. personā daudzskaitlī starp celmu un galotni iesprauž e: du öffnest, er öffnet, ihr öffnet.</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Übung / Vingrinājums</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson7-exercise-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 7 vingrinājuma kartīte\"><span class=\"lesson1-training-progress\">Lekcija 7 · Übung: 1 / 16</span><span class=\"lesson1-training-text\">fragen — jautāt</span></button><p class=\"lesson1-training-hint\">Pieskaries kartītei, lai redzētu pavēles formas.</p></div></div></details>",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.title",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.title",
+      "fieldType": "title",
+      "daCurrent": "Lektion 8",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 8",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.subtitle",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.subtitle",
+      "fieldType": "subtitle",
+      "daCurrent": "Refleksive verber, e → i/ie-ændring og akkusativ",
+      "deCurrent": "",
+      "lvMasterDa": "Refleksīvie darbības vārdi, e → i/ie maiņa un akuzatīvs.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[0].title",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[0].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Dialoger / sætninger",
+      "deCurrent": "",
+      "lvMasterDa": "Dialogi / teikumi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].title",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Ord",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[2]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "stehen auf — står op",
+      "deCurrent": "stehen auf",
+      "lvMasterDa": "stehen auf — pieceļas",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[3]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[3]",
+      "fieldType": "sectionItem",
+      "daCurrent": "grüßen (grüsen) — hilse",
+      "deCurrent": "grüßen (grüsen)",
+      "lvMasterDa": "grüßen (grüsen) — sveicināt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[4]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[4]",
+      "fieldType": "sectionItem",
+      "daCurrent": "guten Morgen — godmorgen",
+      "deCurrent": "guten Morgen",
+      "lvMasterDa": "guten Morgen — labrīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[6]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[6]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Morgen — morgenen",
+      "deCurrent": "der Morgen",
+      "lvMasterDa": "der Morgen — rīts",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[8]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[8]",
+      "fieldType": "sectionItem",
+      "daCurrent": "das Kind — barnet",
+      "deCurrent": "das Kind",
+      "lvMasterDa": "das Kind — bērns",
+      "source": "lesson"
+    }
+  ]
+}

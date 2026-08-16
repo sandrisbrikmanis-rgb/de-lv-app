@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-055",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[7]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "daCurrent": "dürfen — at måtte / have lov til",
+      "deCurrent": "dürfen",
+      "lvMasterDa": "dürfen — drīkstēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[8]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[8]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ich darf — jeg må / jeg har lov til",
+      "deCurrent": "ich darf",
+      "lvMasterDa": "ich darf — es drīkstu",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[9]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[9]",
+      "fieldType": "sectionItem",
+      "daCurrent": "du darfst — du må / du har lov til",
+      "deCurrent": "du darfst",
+      "lvMasterDa": "du darfst — tu drīksti",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[10]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "daCurrent": "er darf — han må / han har lov til",
+      "deCurrent": "er darf",
+      "lvMasterDa": "er darf — viņš drīkst",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[11]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[11]",
+      "fieldType": "sectionItem",
+      "daCurrent": "wir dürfen — vi må / vi har lov til",
+      "deCurrent": "wir dürfen",
+      "lvMasterDa": "wir dürfen — mēs drīkstam",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[12]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ihr dürft — I må / I har lov til",
+      "deCurrent": "ihr dürft",
+      "lvMasterDa": "ihr dürft — jūs drīkstat",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[13]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[13]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sie dürfen — de må / de har lov til",
+      "deCurrent": "sie dürfen",
+      "lvMasterDa": "sie dürfen — viņi / viņas drīkst",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[16]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Apfel — æble",
+      "deCurrent": "der Apfel",
+      "lvMasterDa": "der Apfel — ābols",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[17]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[17]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Äpfel — æbler",
+      "deCurrent": "die Äpfel",
+      "lvMasterDa": "die Äpfel — āboli",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[19]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "daCurrent": "entzweischneiden — at skære i to",
+      "deCurrent": "entzweischneiden",
+      "lvMasterDa": "entzweischneiden — pārgriezt uz pusēm",
+      "source": "lesson"
+    }
+  ]
+}

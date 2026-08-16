@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-085",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[0].title",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[0].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Tekst/læsning",
+      "deCurrent": "",
+      "lvMasterDa": "Teksts / Lasīšana",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].title",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Ord",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdiņi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[0]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "vor — foran / før",
+      "deCurrent": "vor",
+      "lvMasterDa": "vor — priekšā / pirms",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[3]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[3]",
+      "fieldType": "sectionItem",
+      "daCurrent": "über — over / hen over",
+      "deCurrent": "über",
+      "lvMasterDa": "über — virs / pāri",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[7]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "daCurrent": "stellen — at placere / sætte / lægge",
+      "deCurrent": "stellen",
+      "lvMasterDa": "stellen — novietot / nostādīt / nolikt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[12]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "daCurrent": "das Bild — billede",
+      "deCurrent": "das Bild",
+      "lvMasterDa": "das Bild — attēls / bilde",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[14]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[14]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Großvater — bedstefar",
+      "deCurrent": "der Großvater",
+      "lvMasterDa": "der Großvater — vectēvs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[15]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[15]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Großmutter — bedstemor",
+      "deCurrent": "die Großmutter",
+      "lvMasterDa": "die Großmutter — vecmāmiņa",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[16]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Stuhl — stol",
+      "deCurrent": "der Stuhl",
+      "lvMasterDa": "der Stuhl — krēsls",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[17]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[17]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Zaun — hegn",
+      "deCurrent": "der Zaun",
+      "lvMasterDa": "der Zaun — žogs",
+      "source": "lesson"
+    }
+  ]
+}

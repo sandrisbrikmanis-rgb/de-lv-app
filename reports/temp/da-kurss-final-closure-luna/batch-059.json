@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-059",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[5].heading",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[5].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Moderne stavemåde",
+      "deCurrent": "",
+      "lvMasterDa": "Mūsdienu rakstība",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[5].text",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[5].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Hvis projektet bruger moderne skrift, kan du skrive: du isst, er/sie/es isst, ihr esst.",
+      "deCurrent": "",
+      "lvMasterDa": "Ja projektā izmanto mūsdienu rakstību, drīkst rakstīt: du isst, er/sie/es isst, ihr esst.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[6].heading",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[6].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "entzweischneiden",
+      "deCurrent": "",
+      "lvMasterDa": "entzweischneiden",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[6].text",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[6].text",
+      "fieldType": "grammarText",
+      "daCurrent": "I det sammensatte verbum entzweischneiden ligger trykket på præfikset entzweí-, så præfikset i præsens adskilles og placeres sidst i sætningen.",
+      "deCurrent": "",
+      "lvMasterDa": "Saliktajā darbības vārdā entzweischneiden uzsvars ir uz priedēkļa entzweí-, tāpēc tagadnē priedēklis atdalās un nostājas teikuma beigās.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[3].title",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Udtale",
+      "deCurrent": "",
+      "lvMasterDa": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[3].items[0]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ä i ordene Äpfel og schälen udtales som en lukket e-lyd.",
+      "deCurrent": "ä i ordene Äpfel og schälen udtales som en lukket e",
+      "lvMasterDa": "ä vārdos Äpfel un schälen izrunā kā šauro e.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[3].items[1]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet Äpfel udtales ä kort, fordi der følger to konsonanter efter vokalen.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[3].items[2]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet schälen udtales ä langt, fordi der følger én konsonant efter vokalen.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[3].items[3]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[3]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet gern er e kort og åbent.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā gern e ir īss un plats.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[3].items[4]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[4]",
+      "fieldType": "sectionItem",
+      "daCurrent": "Husk: diftongen ei udtales som ai: reif, unreif.",
+      "deCurrent": "",
+      "lvMasterDa": "Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif.",
+      "source": "lesson"
+    }
+  ]
+}

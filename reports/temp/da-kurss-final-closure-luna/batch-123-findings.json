@@ -1,0 +1,36 @@
+{
+  "batch": "batch-123",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:29:18.057Z",
+  "findings": [
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formIhr",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formIhr",
+      "fieldType": "uiString",
+      "deCurrent": "",
+      "daCurrent": "Form 2/3: Ihr (flertal)",
+      "proposedDa": "Form 2/3: I (flertal)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "“Ihr” er tysk og bør erstattes af det danske flertalspronomen “I”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formSie",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formSie",
+      "fieldType": "uiString",
+      "deCurrent": "",
+      "daCurrent": "Form 3/3: Sie (høflig form)",
+      "proposedDa": "Form 3/3: De (høflig form)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "“Sie” er tysk og bør erstattes af det danske høflige pronomen “De”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

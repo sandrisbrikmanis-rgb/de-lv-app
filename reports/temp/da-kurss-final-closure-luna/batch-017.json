@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-017",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].title",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Ord",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[0]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "gesund (gezunt) — sund",
+      "deCurrent": "gesund (gezunt)",
+      "lvMasterDa": "gesund (gezunt) — vesels",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[3]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[3]",
+      "fieldType": "sectionItem",
+      "daCurrent": "wir sind — vi er",
+      "deCurrent": "wir sind",
+      "lvMasterDa": "wir sind — mēs esam",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[4]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[4]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ihr seid (īr zeit) — I er",
+      "deCurrent": "ihr seid (īr zeit)",
+      "lvMasterDa": "ihr seid (īr zeit) — jūs esat",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[7]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "daCurrent": "er kann — han kan",
+      "deCurrent": "er kann",
+      "lvMasterDa": "er kann — viņš var",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[8]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[8]",
+      "fieldType": "sectionItem",
+      "daCurrent": "wir können — vi kan",
+      "deCurrent": "wir können",
+      "lvMasterDa": "wir können — mēs varam",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[9]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[9]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ihr könnt — I kan",
+      "deCurrent": "ihr könnt",
+      "lvMasterDa": "ihr könnt — jūs varat",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[10]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sie können — de kan",
+      "deCurrent": "sie können",
+      "lvMasterDa": "sie können — viņi var",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[13]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[13]",
+      "fieldType": "sectionItem",
+      "daCurrent": "seien Sie gesund — vær rask!",
+      "deCurrent": "seien Sie gesund",
+      "lvMasterDa": "seien Sie gesund — esiet Jūs veseli!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[14]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[14]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Knabe (dēr knābe) — en dreng",
+      "deCurrent": "der Knabe (dēr knābe)",
+      "lvMasterDa": "der Knabe (dēr knābe) — zēns",
+      "source": "lesson"
+    }
+  ]
+}

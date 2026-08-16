@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-010",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[2].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[2].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Vi åbner alle vinduer.",
+      "deCurrent": "Wir öffnen alle Fenster.",
+      "lvMasterDa": "Mēs atveram visus logus.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[3].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[3].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Åbnede du vinduet?",
+      "deCurrent": "Hast du das Fenster geöffnet?",
+      "lvMasterDa": "Vai tu atvēri logu?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[4].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[4].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Nej, jeg åbnede ikke vinduet.",
+      "deCurrent": "Nein, ich habe das Fenster nicht geöffnet.",
+      "lvMasterDa": "Nē, es neatvēru logu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[5].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[5].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Alle elever sætter sig.",
+      "deCurrent": "Alle Schüler setzen sich.",
+      "lvMasterDa": "Visi skolnieki apsēžas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[6].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[6].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Paul, sæt dig ned!",
+      "deCurrent": "Paul, setz dich!",
+      "lvMasterDa": "Paul, sēdies!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[7].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[7].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Børn, sæt jer ned!",
+      "deCurrent": "Kinder, setzt euch!",
+      "lvMasterDa": "Bērni, sēdieties!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[8].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[8].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Tal ikke stille!",
+      "deCurrent": "Sprich nicht leise!",
+      "lvMasterDa": "Nerunā klusi!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[9].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[9].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvordan taler han?",
+      "deCurrent": "Wie spricht er?",
+      "lvMasterDa": "Kā viņš runā?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[10].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[10].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Alle elever taler højt.",
+      "deCurrent": "Alle Schüler sprechen laut.",
+      "lvMasterDa": "Visi skolnieki runā skaļi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[11].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[11].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem læser højt?",
+      "deCurrent": "Wer liest laut?",
+      "lvMasterDa": "Kas lasa skaļi?",
+      "source": "lesson"
+    }
+  ]
+}

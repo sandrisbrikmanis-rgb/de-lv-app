@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-122",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.cta.tapNextCard",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.cta.tapNextCard",
+      "fieldType": "uiString",
+      "daCurrent": "Tryk på næste kort",
+      "deCurrent": "",
+      "lvMasterDa": "Pieskaries nākamajai kartītei",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.cta.tapToRevealAnswer",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.cta.tapToRevealAnswer",
+      "fieldType": "uiString",
+      "daCurrent": "Tryk for at se svaret",
+      "deCurrent": "",
+      "lvMasterDa": "Pieskaries, lai redzētu atbildi",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.cta.tapContinue",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.cta.tapContinue",
+      "fieldType": "uiString",
+      "daCurrent": "Tryk for at fortsætte",
+      "deCurrent": "",
+      "lvMasterDa": "Pieskaries turpināt",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.cta.transformSentence",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.cta.transformSentence",
+      "fieldType": "uiString",
+      "daCurrent": "Omskriv sætningen.",
+      "deCurrent": "",
+      "lvMasterDa": "Pārveido teikumu.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.cta.transformThirdSingular",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.cta.transformThirdSingular",
+      "fieldType": "uiString",
+      "daCurrent": "Omskriv sætningen til 3. person ental.",
+      "deCurrent": "",
+      "lvMasterDa": "Pārveido teikumu 3. personā vienskaitlī.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.cta.transformFirstPlural",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.cta.transformFirstPlural",
+      "fieldType": "uiString",
+      "daCurrent": "Omskriv sætningen til 1. person flertal.",
+      "deCurrent": "",
+      "lvMasterDa": "Pārveido teikumu 1. personā daudzskaitlī.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.exerciseMeta.fillCase",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.fillCase",
+      "fieldType": "uiString",
+      "daCurrent": "Øvelse I — Brug den rigtige bøjning",
+      "deCurrent": "",
+      "lvMasterDa": "Übung I — lieto pareizo locījumu",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.exerciseMeta.chooseCasePlural",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.chooseCasePlural",
+      "fieldType": "uiString",
+      "daCurrent": "Sæt den rigtige bøjning og lav flertal!",
+      "deCurrent": "",
+      "lvMasterDa": "Liec pareizo locījumu un darini daudzskaitli!",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.exerciseMeta.answerPlural",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.answerPlural",
+      "fieldType": "uiString",
+      "daCurrent": "Svar nu i flertal.",
+      "deCurrent": "",
+      "lvMasterDa": "Tagad atbildi daudzskaitlī.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.exerciseMeta.translate",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.translate",
+      "fieldType": "uiString",
+      "daCurrent": "Øvelse II — oversæt",
+      "deCurrent": "",
+      "lvMasterDa": "Übung II — tulko",
+      "source": "ui"
+    }
+  ]
+}

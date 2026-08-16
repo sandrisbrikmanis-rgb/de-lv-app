@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-080",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[7]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[7]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "suchen — søge",
+      "deCurrent": "suchen",
+      "lvMasterDa": "suchen — meklēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[5].heading",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[5].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Stofnavne",
+      "deCurrent": "",
+      "lvMasterDa": "Vielu vārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[5].text",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[5].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Stofnavne står normalt uden en artikel.",
+      "deCurrent": "",
+      "lvMasterDa": "Vielu vārdi parasti stāv bez artikula.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[6].heading",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[6].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Et bestemt stof",
+      "deCurrent": "",
+      "lvMasterDa": "Konkrēta viela",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[6].text",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[6].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Hvis stoffet omtales i en bestemt mængde eller på et bestemt sted, bruges artiklen.",
+      "deCurrent": "",
+      "lvMasterDa": "Ja viela tiek minēta noteiktā daudzumā vai konkrētā vietā, tad lieto artikulu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].heading",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "in + sted",
+      "deCurrent": "",
+      "lvMasterDa": "in + vieta",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].text",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Hvis præpositionen in ikke udtrykker en retning »ind i«, men en placering »i«, bruges dativ.",
+      "deCurrent": "",
+      "lvMasterDa": "Ja prievārds in netulkojas kā “iekšā”, bet izsaka atrašanās vietu, to var tulkot ar lokatīvu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].examples[1]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].examples[1]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "in dem Zimmer — i værelset",
+      "deCurrent": "in dem Zimmer",
+      "lvMasterDa": "in dem Zimmer — istabā",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[8].heading",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[8].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Moderne former",
+      "deCurrent": "",
+      "lvMasterDa": "Mūsdienu formas",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[8].text",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[8].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Gamle former som dem Tische, dem Kruge og im Walde bruges i dag ofte i en kortere form: dem Tisch, dem Krug og im Wald.",
+      "deCurrent": "",
+      "lvMasterDa": "Vecās formas, piemēram, dem Tische, dem Kruge, im Walde, mūsdienās bieži lieto īsāk: dem Tisch, dem Krug, im Wald.",
+      "source": "lesson"
+    }
+  ]
+}

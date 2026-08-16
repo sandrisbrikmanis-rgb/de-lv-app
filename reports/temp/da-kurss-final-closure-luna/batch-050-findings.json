@@ -1,0 +1,22 @@
+{
+  "batch": "batch-050",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:21:01.798Z",
+  "findings": [
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[6].text",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[6].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "Müssen betyder at have behov for eller at være nødt til.",
+      "proposedDa": "Müssen betyder at skulle eller at være nødt til.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "“Have behov for” svarer snarere til brauchen; müssen udtrykker nødvendighed eller pligt.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ]
+}

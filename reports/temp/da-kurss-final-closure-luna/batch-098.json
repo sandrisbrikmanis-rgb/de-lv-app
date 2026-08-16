@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-098",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[2].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[2].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor er vinduer og døre?",
+      "deCurrent": "Wo sind Fenster und Türen?",
+      "lvMasterDa": "Kur ir logi un durvis?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[3].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[3].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad er væggene lavet af?",
+      "deCurrent": "Woraus sind die Mauern?",
+      "lvMasterDa": "No kā ir mūri?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[4].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[4].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad er dørene lavet af?",
+      "deCurrent": "Woraus sind die Türen?",
+      "lvMasterDa": "No kā ir durvis?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[5].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[5].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad er vinduerne lavet af?",
+      "deCurrent": "Woraus sind die Fenster?",
+      "lvMasterDa": "No kā ir logi?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[6].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[6].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor er ti lejligheder?",
+      "deCurrent": "Wo sind zehn Wohnungen?",
+      "lvMasterDa": "Kur ir desmit dzīvokļi?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[7].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[7].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad er der i hver lejlighed?",
+      "deCurrent": "Was hat jede Wohnung?",
+      "lvMasterDa": "Kas ir katrā dzīvoklī?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[8].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[8].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor er kælderen?",
+      "deCurrent": "Wo ist der Keller?",
+      "lvMasterDa": "Kur ir pagrabs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[9].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[9].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor er loftet?",
+      "deCurrent": "Wo ist der Boden?",
+      "lvMasterDa": "Kur ir bēniņi?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[10].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[10].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor er de tre skorstene?",
+      "deCurrent": "Wo sind drei Schornsteine?",
+      "lvMasterDa": "Kur ir trīs skursteņi?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[11].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[11].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor klatrer skorstensfejeren hen?",
+      "deCurrent": "Wohin steigt der Schornsteinfeger?",
+      "lvMasterDa": "Kurp kāpj skursteņslaucītājs?",
+      "source": "lesson"
+    }
+  ]
+}

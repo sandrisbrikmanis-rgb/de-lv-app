@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-087",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[0].text",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[0].text",
+      "fieldType": "grammarText",
+      "daCurrent": "I dette foredrag fortsætter vi med forholdsord, der kan stå både med Akkusativ og med Dativ.",
+      "deCurrent": "",
+      "lvMasterDa": "Šajā lekcijā turpinām prievārdus, kas var stāvēt gan ar Akkusativ, gan ar Dativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[1].heading",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[1].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Wohin? → Akkusativ",
+      "deCurrent": "",
+      "lvMasterDa": "Wohin? → Akkusativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[1].text",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[1].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Hvis der er en retning eller bevægelse hen imod et sted, er spørgsmålet »wohin?«, og der bruges Akkusativ.",
+      "deCurrent": "",
+      "lvMasterDa": "Ja ir virziens / kustība uz kaut kurieni, jautājums ir wohin? un lieto Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[2].heading",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[2].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Wo? → Dativ",
+      "deCurrent": "",
+      "lvMasterDa": "Wo? → Dativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[2].text",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[2].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Hvis der er tale om en placering, er spørgsmålet »wo?«, og der bruges Dativ.",
+      "deCurrent": "",
+      "lvMasterDa": "Ja ir atrašanās vieta, jautājums ir wo? un lieto Dativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[3].heading",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[3].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Præpositioner",
+      "deCurrent": "",
+      "lvMasterDa": "Prievārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[4].heading",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[4].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Opsummering: wohin?",
+      "deCurrent": "",
+      "lvMasterDa": "Kopsavilkums: wohin?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[4].text",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[4].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Wohin? → Akkusativ",
+      "deCurrent": "",
+      "lvMasterDa": "Wohin? → Akkusativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[5].heading",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[5].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Opsummering: wo?",
+      "deCurrent": "",
+      "lvMasterDa": "Kopsavilkums: wo?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[5].text",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[5].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Wo? → Dativ",
+      "deCurrent": "",
+      "lvMasterDa": "Wo? → Dativ",
+      "source": "lesson"
+    }
+  ]
+}

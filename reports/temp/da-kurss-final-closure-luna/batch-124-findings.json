@@ -1,0 +1,64 @@
+{
+  "batch": "batch-124",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:29:26.361Z",
+  "findings": [
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.4.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.4.menuDesc",
+      "fieldType": "uiString",
+      "deCurrent": "",
+      "daCurrent": "Akkusativ, nehmen, hinlegen, hinausgehen og adjektiver.",
+      "proposedDa": "akkusativ, nehmen, hinlegen, hinausgehen og adjektiver.",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "reason": "På dansk skrives grammatiske betegnelser normalt med lille begyndelsesbogstav; »akkusativ« bør derfor ikke have tysk substantivisk versal.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.5.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.5.menuDesc",
+      "fieldType": "uiString",
+      "deCurrent": "",
+      "daCurrent": "Wen?, Akkusativ, sitzen, fragen og endelsen -in.",
+      "proposedDa": "Wen?, akkusativ, sitzen, fragen og endelsen -in.",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "reason": "På dansk skrives grammatiske betegnelser normalt med lille begyndelsesbogstav; »akkusativ« bør ikke følge tysk substantivkapitalisering.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.7.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.7.menuDesc",
+      "fieldType": "uiString",
+      "deCurrent": "",
+      "daCurrent": "Imperativ, tiltaleform og flertal.",
+      "proposedDa": "imperativ, tiltaleform og flertal.",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "reason": "På dansk skrives grammatiske betegnelser normalt med lille begyndelsesbogstav; »imperativ« bør ikke have versal.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.8.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.8.menuDesc",
+      "fieldType": "uiString",
+      "deCurrent": "",
+      "daCurrent": "Refleksive verber, e → i/ie-skift og Akkusativ.",
+      "proposedDa": "Refleksive verber, e → i/ie-skift og akkusativ.",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "reason": "På dansk skrives grammatiske betegnelser normalt med lille begyndelsesbogstav; »akkusativ« bør ikke have tysk substantivisk versal.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ]
+}

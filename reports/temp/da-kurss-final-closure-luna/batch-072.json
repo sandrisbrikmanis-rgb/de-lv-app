@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-072",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].text",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].text",
+      "fieldType": "grammarText",
+      "daCurrent": "På tysk udtrykkes spørgsmålet »med hvem/med hvad?« på to måder: mit wem? bruges om personer, og womit? bruges om ting.",
+      "deCurrent": "",
+      "lvMasterDa": "Vāciski jautājumu “ar ko?” izsaka divējādi: mit wem? — par personām, womit? — par lietām/priekšmetiem.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[2].heading",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[2].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Mit + Dativ",
+      "deCurrent": "",
+      "lvMasterDa": "Mit + Dativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[3].heading",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[3].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "graben / fangen / auffangen",
+      "deCurrent": "",
+      "lvMasterDa": "graben / fangen / auffangen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[3].text",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[3].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Verberne graben, fangen, auffangen har Umlaut i 2. og 3. person ental.",
+      "deCurrent": "",
+      "lvMasterDa": "Darbības vārdiem graben, fangen, auffangen 2. un 3. personā vienskaitlī ir Umlaut.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[4].heading",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[4].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "helfen / werfen",
+      "deCurrent": "",
+      "lvMasterDa": "helfen / werfen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[4].text",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[4].text",
+      "fieldType": "grammarText",
+      "daCurrent": "I verberne helfen og werfen i 2. og 3. person ental ændres stammen e til i.",
+      "deCurrent": "",
+      "lvMasterDa": "Darbības vārdiem helfen un werfen 2. un 3. personā vienskaitlī celma e pārvēršas par i.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[5].heading",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[5].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Adskillelige præfikser",
+      "deCurrent": "",
+      "lvMasterDa": "Atdalāmie priedēkļi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[5].text",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[5].text",
+      "fieldType": "grammarText",
+      "daCurrent": "De sammensatte verber auffangen og abwischen har tryk på præfikset. Derfor adskilles præfikset i præsens og placeres sidst i sætningen.",
+      "deCurrent": "",
+      "lvMasterDa": "Saliktajiem darbības vārdiem auffangen un abwischen uzsvars ir uz priedēkļa. Tāpēc priedēklis tagadnē atdalās un nostājas teikuma beigās.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].heading",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "fegen / wischen",
+      "deCurrent": "",
+      "lvMasterDa": "fegen / wischen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].text",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Fegen betyder at feje, mens wischen betyder at tørre eller viske; de bruges forskelligt.",
+      "deCurrent": "",
+      "lvMasterDa": "Fegen un wischen abi nozīmē slaucīt, bet lietojums atšķiras.",
+      "source": "lesson"
+    }
+  ]
+}

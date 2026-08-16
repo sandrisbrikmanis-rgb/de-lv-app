@@ -1,0 +1,22 @@
+{
+  "batch": "batch-061",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:22:17.179Z",
+  "findings": [
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[15].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[15].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Das Kind soll das Messer nicht nehmen, denn das Messer ist scharf.",
+      "daCurrent": "Et barn bør ikke tage en kniv, fordi kniven er skarp.",
+      "proposedDa": "Barnet bør ikke tage kniven, fordi kniven er skarp.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "Danish uses indefinite nouns, but German refers to the specific child and knife with definite articles.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

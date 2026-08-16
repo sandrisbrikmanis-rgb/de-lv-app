@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-036",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[20].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[20].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Deres navne er Elsa, Marta og Alma.",
+      "deCurrent": "Sie heißen Elsa, Martha und Alma.",
+      "lvMasterDa": "Viņas sauc Elza, Marta un Alma.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[21].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[21].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor mange brødre har De?",
+      "deCurrent": "Wieviel Brüder haben Sie?",
+      "lvMasterDa": "Cik jums brāļu?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[22].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[22].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg har en bror.",
+      "deCurrent": "Ich habe einen Bruder.",
+      "lvMasterDa": "Man ir viens brālis.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[23].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[23].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvilken farve har blækket?",
+      "deCurrent": "Wie ist die Tinte?",
+      "lvMasterDa": "Kāda ir tinte?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[24].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[24].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Den er sort.",
+      "deCurrent": "Sie ist schwarz.",
+      "lvMasterDa": "Tā ir melna.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[25].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[25].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvilken farve har kridtet?",
+      "deCurrent": "Wie ist die Kreide?",
+      "lvMasterDa": "Kāds ir krīts?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[26].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[26].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Det er hvidt.",
+      "deCurrent": "Sie ist weiß.",
+      "lvMasterDa": "Tas ir balts.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[27].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[27].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvilken farve har blomsterne?",
+      "deCurrent": "Wie sind die Blumen?",
+      "lvMasterDa": "Kādas ir puķes?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[28].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[28].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "De er blå, røde, gule og hvide.",
+      "deCurrent": "Sie sind blau, rot, gelb und weiß.",
+      "lvMasterDa": "Tās ir zilas, sarkanas, dzeltenas un baltas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[29].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[29].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Er broderen rask?",
+      "deCurrent": "Ist der Bruder gesund?",
+      "lvMasterDa": "Vai brālis ir vesels?",
+      "source": "lesson"
+    }
+  ]
+}

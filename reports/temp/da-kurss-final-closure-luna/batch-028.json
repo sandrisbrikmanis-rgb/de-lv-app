@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-028",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].title",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Oversæt",
+      "deCurrent": "",
+      "lvMasterDa": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[0].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[0].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad har du?",
+      "deCurrent": "Was hast du?",
+      "lvMasterDa": "Kas tev ir?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[1].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[1].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg har bøger.",
+      "deCurrent": "Ich habe Bücher.",
+      "lvMasterDa": "Man ir grāmatas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[2].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[2].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvordan er bøgerne?",
+      "deCurrent": "Wie sind die Bücher?",
+      "lvMasterDa": "Kādas ir grāmatas?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[3].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[3].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Bøgerne er tykke.",
+      "deCurrent": "Die Bücher sind dick.",
+      "lvMasterDa": "Grāmatas ir biezas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[4].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[4].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Frøken Müller, har De hæfter?",
+      "deCurrent": "Fräulein Müller, haben Sie Hefte?",
+      "lvMasterDa": "Müller jaunkundze, vai Jums ir burtnīcas?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[5].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[5].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg har ingen hæfter.",
+      "deCurrent": "Ich habe keine Hefte.",
+      "lvMasterDa": "Man nav nevienas burtnīcas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[6].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[6].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Franc har ingen pen og ingen blyant.",
+      "deCurrent": "Franz hat keine Feder und keinen Bleistift.",
+      "lvMasterDa": "Francim nav nevienas spalvas un neviena zīmuļa.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[7].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[7].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvordan er rummet?",
+      "deCurrent": "Wie ist das Zimmer?",
+      "lvMasterDa": "Kāda ir istaba?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[8].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[8].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Rummet er stort, lyst og varmt.",
+      "deCurrent": "Das Zimmer ist groß, hell und warm.",
+      "lvMasterDa": "Istaba ir liela, gaiša un silta.",
+      "source": "lesson"
+    }
+  ]
+}

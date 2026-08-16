@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-108",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson1|lesson1TrainingCardsDa[2].front",
+      "lessonId": "lesson1",
+      "path": "lesson1TrainingCardsDa[2].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvem synger?",
+      "deCurrent": "Wer singt?",
+      "lvMasterDa": "Kas dzied?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson1|lesson1TrainingCardsDa[3].front",
+      "lessonId": "lesson1",
+      "path": "lesson1TrainingCardsDa[3].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Marta synger.",
+      "deCurrent": "Marta singt.",
+      "lvMasterDa": "Marta dzied.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson1|lesson1TrainingCardsDa[4].front",
+      "lessonId": "lesson1",
+      "path": "lesson1TrainingCardsDa[4].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Går de?",
+      "deCurrent": "Gehen sie?",
+      "lvMasterDa": "Vai viņi iet?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson1|lesson1TrainingCardsDa[5].front",
+      "lessonId": "lesson1",
+      "path": "lesson1TrainingCardsDa[5].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Ja, de går.",
+      "deCurrent": "Ja, sie gehen.",
+      "lvMasterDa": "Jā, viņi iet.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson1|lesson1TrainingCardsDa[6].front",
+      "lessonId": "lesson1",
+      "path": "lesson1TrainingCardsDa[6].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Står han?",
+      "deCurrent": "Steht er?",
+      "lvMasterDa": "Vai viņš stāv?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson1|lesson1TrainingCardsDa[7].front",
+      "lessonId": "lesson1",
+      "path": "lesson1TrainingCardsDa[7].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Ja, han står.",
+      "deCurrent": "Ja, er steht.",
+      "lvMasterDa": "Jā, viņš stāv.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson1|lesson1TrainingCardsDa[8].front",
+      "lessonId": "lesson1",
+      "path": "lesson1TrainingCardsDa[8].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Vi går.",
+      "deCurrent": "Wir gehen.",
+      "lvMasterDa": "Mēs ejam.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson1|lesson1TrainingCardsDa[9].front",
+      "lessonId": "lesson1",
+      "path": "lesson1TrainingCardsDa[9].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Går I?",
+      "deCurrent": "Geht ihr?",
+      "lvMasterDa": "Vai jūs ejat?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson1|lesson1TrainingCardsDa[10].front",
+      "lessonId": "lesson1",
+      "path": "lesson1TrainingCardsDa[10].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Albert og Marta kommer og går.",
+      "deCurrent": "Albert und Marta kommen und gehen.",
+      "lvMasterDa": "Albert un Marta nāk un iet.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[0].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[0].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvem spørger?",
+      "deCurrent": "Wer fragt?",
+      "lvMasterDa": "Kas jautā?",
+      "source": "training"
+    }
+  ]
+}

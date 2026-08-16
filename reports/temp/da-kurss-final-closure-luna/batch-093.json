@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-093",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].text",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Mange præpositioner slutter sig til artiklen.",
+      "deCurrent": "",
+      "lvMasterDa": "Daudzas prepozīcijas savienojas ar artikulu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].examples[0]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].examples[0]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "an das Fenster → ans Fenster",
+      "deCurrent": "",
+      "lvMasterDa": "an das Fenster → ans Fenster",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].examples[1]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].examples[1]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "an dem Fenster → am Fenster",
+      "deCurrent": "",
+      "lvMasterDa": "an dem Fenster → am Fenster",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].examples[2]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].examples[2]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "in das Zimmer → ins Zimmer",
+      "deCurrent": "",
+      "lvMasterDa": "in das Zimmer → ins Zimmer",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].examples[3]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].examples[3]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "in dem Zimmer → im Zimmer",
+      "deCurrent": "",
+      "lvMasterDa": "in dem Zimmer → im Zimmer",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].examples[4]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].examples[4]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "auf das Dach → aufs Dach",
+      "deCurrent": "",
+      "lvMasterDa": "auf das Dach → aufs Dach",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].examples[5]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].examples[5]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "über das Land → übers Land",
+      "deCurrent": "",
+      "lvMasterDa": "über das Land → übers Land",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[2].heading",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[2].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "-e- mellem stamme og endelse",
+      "deCurrent": "",
+      "lvMasterDa": "-e- starp celmu un galotni",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[2].text",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[2].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Hvis verbets stamme ender på t, d, m, n, så indsættes der i 2. og 3. person ental og i 2. person flertal ofte en -e- mellem stammen og slutningen for bedre udtale.",
+      "deCurrent": "",
+      "lvMasterDa": "Ja darbības vārda celms beidzas ar t, d, m, n, tad 2. un 3. personā vienskaitlī un 2. personā daudzskaitlī starp celmu un galotni bieži iestarpina -e- labākai izrunai.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[3].heading",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[3].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Sammensatte substantiver",
+      "deCurrent": "",
+      "lvMasterDa": "Saliktie lietvārdi",
+      "source": "lesson"
+    }
+  ]
+}

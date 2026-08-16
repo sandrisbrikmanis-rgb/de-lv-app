@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-063",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[18]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[18]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Felder — marker",
+      "deCurrent": "die Felder",
+      "lvMasterDa": "die Felder — lauki / tīrumi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[19]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Wiese — engen",
+      "deCurrent": "die Wiese",
+      "lvMasterDa": "die Wiese — pļava",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[20]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[20]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Wiesen — engene",
+      "deCurrent": "die Wiesen",
+      "lvMasterDa": "die Wiesen — pļavas",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[21]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[21]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Wald — skoven",
+      "deCurrent": "der Wald",
+      "lvMasterDa": "der Wald — mežs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[22]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[22]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Wälder — skovene",
+      "deCurrent": "die Wälder",
+      "lvMasterDa": "die Wälder — meži",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[27]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[27]",
+      "fieldType": "sectionItem",
+      "daCurrent": "treu — trofast",
+      "deCurrent": "treu",
+      "lvMasterDa": "treu — uzticīgs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].title",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Grammatik",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[0].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[0].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Dativ",
+      "deCurrent": "",
+      "lvMasterDa": "Dativs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[0].text",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[0].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Dativen besvarer spørgsmålet: wem? – til hvem?",
+      "deCurrent": "",
+      "lvMasterDa": "Dativs atbild uz jautājumu: wem? — kam?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[1].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[1].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Ental",
+      "deCurrent": "",
+      "lvMasterDa": "Vienskaitlis",
+      "source": "lesson"
+    }
+  ]
+}

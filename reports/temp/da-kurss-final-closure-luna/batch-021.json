@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-021",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[4].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[4].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Kan han arbejde?",
+      "deCurrent": "Kann er arbeiten?",
+      "lvMasterDa": "Vai viņš var strādāt?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[5].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[5].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Nej, han kan ikke arbejde.",
+      "deCurrent": "Nein, er kann nicht arbeiten.",
+      "lvMasterDa": "Nē, viņš nevar strādāt.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[6].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[6].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Er bedstefar gammel?",
+      "deCurrent": "Ist der Großvater alt?",
+      "lvMasterDa": "Vai vectēvs ir vecs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[7].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[7].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Ja, han er meget gammel.",
+      "deCurrent": "Ja, er ist sehr alt.",
+      "lvMasterDa": "Jā, viņš ir ļoti vecs.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[8].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[8].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Bedstefar og bedstemor er meget gamle.",
+      "deCurrent": "Der Großvater und die Großmutter sind sehr alt.",
+      "lvMasterDa": "Vectēvs un vecmāmiņa ir ļoti veci.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[9].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[9].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor gammel er Adolf?",
+      "deCurrent": "Wie alt ist Adolf?",
+      "lvMasterDa": "Cik vecs ir Adolfs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[10].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[10].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Adolf er ni år.",
+      "deCurrent": "Adolf ist neun Jahre alt.",
+      "lvMasterDa": "Adolfs ir deviņus gadus vecs.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[11].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[11].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem er du?",
+      "deCurrent": "Wer bist du?",
+      "lvMasterDa": "Kas tu esi?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[12].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[12].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg er en mand.",
+      "deCurrent": "Ich bin ein Mann.",
+      "lvMasterDa": "Es esmu vīrietis.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[13].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[13].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Er han lærer?",
+      "deCurrent": "Ist er ein Lehrer?",
+      "lvMasterDa": "Vai viņš ir skolotājs?",
+      "source": "lesson"
+    }
+  ]
+}

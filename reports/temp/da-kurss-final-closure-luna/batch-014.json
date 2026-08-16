@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-014",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[2].items[0].text",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[0].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Bøj pronominerne dieser og jener som den bestemte artikel.",
+      "deCurrent": "",
+      "lvMasterDa": "Norādāmos vietniekvārdus dieser un jener loka kā noteikto artikulu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[2].items[1].heading",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[1].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Ental",
+      "deCurrent": "",
+      "lvMasterDa": "Vienskaitlis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[2].items[2].heading",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[2].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Flertal",
+      "deCurrent": "",
+      "lvMasterDa": "Daudzskaitlis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[2].items[3].heading",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[3].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Artikel udelades",
+      "deCurrent": "",
+      "lvMasterDa": "Artikulu nelieto",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[2].items[3].text",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[3].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Hvis navneordet indledes med et pronomen eller et talord, bruges artiklen ikke.",
+      "deCurrent": "",
+      "lvMasterDa": "Ja lietvārda priekšā stāv vietniekvārds vai skaitļa vārds, artikulu nelieto.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[3].title",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Øvelse",
+      "deCurrent": "",
+      "lvMasterDa": "Übung / Vingrinājums",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].title",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Oversæt",
+      "deCurrent": "",
+      "lvMasterDa": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[0].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[0].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Pigen sætter sig ned og skriver et brev.",
+      "deCurrent": "Das Mädchen setzt sich und schreibt einen Brief.",
+      "lvMasterDa": "Meitene apsēžas un raksta vēstuli.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[1].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[1].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Er brevet kort?",
+      "deCurrent": "Ist der Brief kurz?",
+      "lvMasterDa": "Vai vēstule ir īsa?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[2].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[2].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Nej, brevet er ikke kort, det er langt.",
+      "deCurrent": "Nein, der Brief ist nicht kurz, er ist lang.",
+      "lvMasterDa": "Nē, vēstule nav īsa, tā ir gara.",
+      "source": "lesson"
+    }
+  ]
+}

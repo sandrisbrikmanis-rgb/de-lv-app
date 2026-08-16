@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-034",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[0].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[0].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem er ældre, dig eller mig?",
+      "deCurrent": "Wer ist älter, du oder ich?",
+      "lvMasterDa": "Kas ir vecāks, tu vai es?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[1].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[1].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Du er ældre end mig.",
+      "deCurrent": "Du bist älter als ich.",
+      "lvMasterDa": "Tu esi vecāks par mani.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[2].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[2].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem er den ældste?",
+      "deCurrent": "Wer ist am ältesten?",
+      "lvMasterDa": "Kas ir visvecākais?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[3].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[3].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Paul er den ældste.",
+      "deCurrent": "Paul ist am ältesten.",
+      "lvMasterDa": "Pauls ir visvecākais.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[4].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[4].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad hedder du?",
+      "deCurrent": "Wie heißt du?",
+      "lvMasterDa": "Kā tevi sauc?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[5].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[5].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg hedder Peter.",
+      "deCurrent": "Ich heiße Peter.",
+      "lvMasterDa": "Mani sauc Pēteris.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[6].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[6].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad hedder han?",
+      "deCurrent": "Wie heißt er?",
+      "lvMasterDa": "Kā viņu sauc?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[7].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[7].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Han hedder Jan.",
+      "deCurrent": "Er heißt Johann.",
+      "lvMasterDa": "Viņu sauc Jānis.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[8].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[8].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad hedder De?",
+      "deCurrent": "Wie heißen Sie?",
+      "lvMasterDa": "Kā Jūs sauc?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[9].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[9].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor gammel er De?",
+      "deCurrent": "Wie alt sind Sie?",
+      "lvMasterDa": "Cik vecs Jūs esat?",
+      "source": "lesson"
+    }
+  ]
+}

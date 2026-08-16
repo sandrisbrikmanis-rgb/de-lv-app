@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-116",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[2].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[2].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Han tegner en spand.",
+      "deCurrent": "Er zeichnet einen Eimer.",
+      "lvMasterDa": "Viņš zīmē spaini.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[3].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[3].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvem tegner en vogn?",
+      "deCurrent": "Wer zeichnet einen Wagen?",
+      "lvMasterDa": "Kas zīmē ratus?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[4].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[4].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Pigen tegner en slæde.",
+      "deCurrent": "Das Mädchen zeichnet einen Schlitten.",
+      "lvMasterDa": "Meitene zīmē ragavas.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[5].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[5].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvor mange nåle er der?",
+      "deCurrent": "Wieviel Nadeln sind hier?",
+      "lvMasterDa": "Cik adatu ir šeit?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[6].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[6].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Der er seks nåle her.",
+      "deCurrent": "Hier sind sechs Nadeln.",
+      "lvMasterDa": "Šeit ir sešas adatas.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[7].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[7].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvor mange tallerkener?",
+      "deCurrent": "Wieviel Teller?",
+      "lvMasterDa": "Cik šķīvju?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[8].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[8].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Jeg tager tre nåle.",
+      "deCurrent": "Ich nehme drei Nadeln.",
+      "lvMasterDa": "Es ņemu trīs adatas.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[9].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[9].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Jeg lægger to nåle.",
+      "deCurrent": "Ich lege zwei Nadeln hin.",
+      "lvMasterDa": "Es nolieku divas adatas.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[10].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[10].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvem tæller knive og tallerkener?",
+      "deCurrent": "Wer zählt die Messer und die Teller?",
+      "lvMasterDa": "Kas skaita nažus un šķīvjus?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[11].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[11].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Det er et låg.",
+      "deCurrent": "Das ist ein Deckel.",
+      "lvMasterDa": "Tas ir vāks.",
+      "source": "training"
+    }
+  ]
+}

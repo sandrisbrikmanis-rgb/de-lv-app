@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-061",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[9].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[9].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Pæren smager meget godt.",
+      "deCurrent": "Die Birne mundet sehr gut.",
+      "lvMasterDa": "Bumbieris garšo ļoti labi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[10].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[10].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem skal studere?",
+      "deCurrent": "Wer muss lernen?",
+      "lvMasterDa": "Kam jāmācās?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[11].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[11].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Eleven skal lære.",
+      "deCurrent": "Der Schüler muss lernen.",
+      "lvMasterDa": "Skolniekam jāmācās.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[12].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[12].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Vil han komme videre?",
+      "deCurrent": "Will er vorwärts kommen?",
+      "lvMasterDa": "Vai viņš grib uz priekšu tikt?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[13].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[13].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Ja, han vil gerne frem.",
+      "deCurrent": "Ja, er will vorwärts kommen.",
+      "lvMasterDa": "Jā, viņš grib uz priekšu tikt.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[14].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[14].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Må barnet tage kniven?",
+      "deCurrent": "Darf das Kind das Messer nehmen?",
+      "lvMasterDa": "Vai bērns drīkst nazi ņemt?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[15].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[15].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Et barn bør ikke tage en kniv, fordi kniven er skarp.",
+      "deCurrent": "Das Kind soll das Messer nicht nehmen, denn das Messer ist scharf.",
+      "lvMasterDa": "Bērnam nevajag nazi ņemt, jo nazis ir ass.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.title",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.title",
+      "fieldType": "title",
+      "daCurrent": "Lektion 16",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 16",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.subtitle",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.subtitle",
+      "fieldType": "subtitle",
+      "daCurrent": "Dativ, geben, sich nähern",
+      "deCurrent": "",
+      "lvMasterDa": "Dativs, geben, sich nähern",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.intro",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.intro",
+      "fieldType": "intro",
+      "daCurrent": "Sekstende lektion: dativ, geben, sich nähern og dativøvelser.",
+      "deCurrent": "",
+      "lvMasterDa": "Sešpadsmitā lekcija: datīvs, geben, sich nähern un datīva vingrinājumi.",
+      "source": "lesson"
+    }
+  ]
+}

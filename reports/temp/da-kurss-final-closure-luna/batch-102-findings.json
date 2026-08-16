@@ -1,0 +1,22 @@
+{
+  "batch": "batch-102",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:27:10.815Z",
+  "findings": [
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[2]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[2]",
+      "fieldType": "grammarExamples",
+      "deCurrent": "aus",
+      "daCurrent": "aus — no / iz",
+      "proposedDa": "aus — fra",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "reason": "“no / iz” are Latvian remnants; the Danish translation of “aus” is “fra”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

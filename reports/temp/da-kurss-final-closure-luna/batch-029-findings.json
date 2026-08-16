@@ -1,0 +1,22 @@
+{
+  "batch": "batch-029",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:18:49.655Z",
+  "findings": [
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[17].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[17].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Schreibt Franz auch?",
+      "daCurrent": "Skriver Francis også?",
+      "proposedDa": "Skriver Franz også?",
+      "severity": "MEDIUM",
+      "category": "NAMES",
+      "reason": "Navnet er Francis i stedet for Franz som i den tyske kildetekst; det ligner en rest fra LV-referencen.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

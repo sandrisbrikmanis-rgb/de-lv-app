@@ -1,0 +1,36 @@
+{
+  "batch": "batch-054",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:21:36.325Z",
+  "findings": [
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.intro",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.intro",
+      "fieldType": "intro",
+      "deCurrent": "",
+      "daCurrent": "Femtende forelæsning: sollen, dürfen, essen og frugtord.",
+      "proposedDa": "Femtende lektion: sollen, dürfen, essen og frugtord.",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "reason": "“Lektion” er den naturlige danske betegnelse i en kursusserie; “forelæsning” betyder snarere en akademisk lecture.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].title",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].title",
+      "fieldType": "sectionTitle",
+      "deCurrent": "",
+      "daCurrent": "Navne",
+      "proposedDa": "Ord",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "“Navne” betyder names, men afsnittet indeholder tyske ord og bøjninger, ikke person- eller stednavne.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ]
+}

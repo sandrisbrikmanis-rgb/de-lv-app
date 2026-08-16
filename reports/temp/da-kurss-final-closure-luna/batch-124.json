@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-124",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.4.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.4.menuDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Akkusativ, nehmen, hinlegen, hinausgehen og adjektiver.",
+      "deCurrent": "",
+      "lvMasterDa": "Akuzatīvs, nehmen, hinlegen, hinausgehen un īpašības vārdi.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.5.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.5.title",
+      "fieldType": "uiString",
+      "daCurrent": "Lektion 5",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 5",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.5.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.5.menuDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Wen?, Akkusativ, sitzen, fragen og endelsen -in.",
+      "deCurrent": "",
+      "lvMasterDa": "Wen?, akuzatīvs, sitzen, fragen un -in galotne.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.6.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.6.title",
+      "fieldType": "uiString",
+      "daCurrent": "Lektion 6",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 6",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.6.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.6.menuDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Tal, flertal, umlaut og substantivers flertalsformer.",
+      "deCurrent": "",
+      "lvMasterDa": "Skaitļi, daudzskaitlis, umlauti un lietvārdu daudzskaitļa formas.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.7.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.7.title",
+      "fieldType": "uiString",
+      "daCurrent": "Lektion 7",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 7",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.7.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.7.menuDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Imperativ, tiltaleform og flertal.",
+      "deCurrent": "",
+      "lvMasterDa": "Pavēles izteiksme, uzrunas forma un daudzskaitlis.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.8.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.8.title",
+      "fieldType": "uiString",
+      "daCurrent": "Lektion 8",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 8",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.8.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.8.menuDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Refleksive verber, e → i/ie-skift og Akkusativ.",
+      "deCurrent": "",
+      "lvMasterDa": "Refleksīvie darbības vārdi, e → i/ie maiņa un akuzatīvs.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.9.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.9.title",
+      "fieldType": "uiString",
+      "daCurrent": "Lektion 9",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 9",
+      "source": "ui"
+    }
+  ]
+}

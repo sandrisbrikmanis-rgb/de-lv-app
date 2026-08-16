@@ -1,0 +1,22 @@
+{
+  "batch": "batch-089",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:25:39.699Z",
+  "findings": [
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[7].lv",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[7].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Er nennt und zeigt dem Lehrer die Städte, die Berge und die Flüsse.",
+      "daCurrent": "Han navngiver og viser læreren byer, bjerge og floder.",
+      "proposedDa": "Han nævner og viser læreren byerne, bjergene og floderne.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "“Navngiver” betyder at give noget et navn; her betyder tysk “nennt” at nævne/opremse. De tyske bestemte artikler mangler også.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ]
+}

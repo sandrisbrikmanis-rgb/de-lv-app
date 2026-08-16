@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-120",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.pronounsSubtitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.pronounsSubtitle",
+      "fieldType": "uiString",
+      "daCurrent": "Nominativ, Akkusativ og Dativ — pronominer.",
+      "deCurrent": "",
+      "lvMasterDa": "Nominativ, Akkusativ un Dativ — vietniekvārdu formas.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.pronunciationSubtitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.pronunciationSubtitle",
+      "fieldType": "uiString",
+      "daCurrent": "Grundlæggende tyske lyde og udtale",
+      "deCurrent": "",
+      "lvMasterDa": "Vācu valodas skaņas un izrunas pamati",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.vowelsSubtitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.vowelsSubtitle",
+      "fieldType": "uiString",
+      "daCurrent": "Vokaler — lange og korte",
+      "deCurrent": "",
+      "lvMasterDa": "Patskaņi — garš un īss",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.consonantsSubtitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.consonantsSubtitle",
+      "fieldType": "uiString",
+      "daCurrent": "Konsonanter og bogstavkombinationer",
+      "deCurrent": "",
+      "lvMasterDa": "Līdzskaņi un burtu savienojumi",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonsSubtitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonsSubtitle",
+      "fieldType": "uiString",
+      "daCurrent": "Undervisningslektioner i rækkefølge fra 1 til 21.",
+      "deCurrent": "",
+      "lvMasterDa": "Mācību lekcijas secīgā kārtībā no 1 līdz 21.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.vowelsTitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.vowelsTitle",
+      "fieldType": "uiString",
+      "daCurrent": "Vokaler — lange og korte",
+      "deCurrent": "",
+      "lvMasterDa": "Patskaņi — garš un īss",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.vowelsDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.vowelsDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Lange og korte vokaler med eksempler.",
+      "deCurrent": "",
+      "lvMasterDa": "Garie un īsie patskaņi ar piemēriem.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.consonantsTitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.consonantsTitle",
+      "fieldType": "uiString",
+      "daCurrent": "Konsonanter og bogstavkombinationer",
+      "deCurrent": "",
+      "lvMasterDa": "Līdzskaņi un burtu savienojumi",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.consonantsDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.consonantsDesc",
+      "fieldType": "uiString",
+      "daCurrent": "De vigtigste konsonantlyde for begyndere.",
+      "deCurrent": "",
+      "lvMasterDa": "Svarīgākās līdzskaņu skaņas iesācējam.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonProgress",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonProgress",
+      "fieldType": "uiString",
+      "daCurrent": "Lektion {lesson} · Oversættelse: {current} / {total}",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija {lesson} · Pārtulko: {current} / {total}",
+      "source": "ui"
+    }
+  ]
+}

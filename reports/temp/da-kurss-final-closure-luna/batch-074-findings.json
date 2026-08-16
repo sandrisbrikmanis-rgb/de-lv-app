@@ -1,0 +1,36 @@
+{
+  "batch": "batch-074",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:23:47.304Z",
+  "findings": [
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[3].prompt",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[3].prompt",
+      "fieldType": "cardPrompt",
+      "deCurrent": "Der Knecht arbeitet mit dem Spaten, mit diesem Beil, mit jener Säge.",
+      "daCurrent": "Womit arbeitet der Knecht? (der Spaten, dieses Beil, jene Säge)",
+      "proposedDa": "Hvad arbejder karlen med? (spaden, denne økse, den dér sav)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Feltet indeholder tysk tekst i stedet for dansk og bør oversættes til dansk.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[4].prompt",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[4].prompt",
+      "fieldType": "cardPrompt",
+      "deCurrent": "Der Knecht hilft diesem Tischler, jener Frau, dem Fräulein.",
+      "daCurrent": "Wem hilft der Knecht? (dieser Tischler, jene Frau, das Fräulein)",
+      "proposedDa": "Hvem hjælper karlen? (denne snedker, den dér kvinde, frøkenen)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Feltet indeholder tysk tekst i stedet for dansk og bør oversættes til dansk.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

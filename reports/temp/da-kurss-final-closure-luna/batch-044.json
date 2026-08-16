@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-044",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[10].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[10].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor mange fingre har hånden?",
+      "deCurrent": "Wie viele Finger hat die Hand?",
+      "lvMasterDa": "Cik pirkstu ir plaukstai?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[11].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[11].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hånden har fem fingre.",
+      "deCurrent": "Die Hand hat fünf Finger.",
+      "lvMasterDa": "Plaukstai ir pieci pirksti.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[12].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[12].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor mange fingre har to hænder?",
+      "deCurrent": "Wie viele Finger haben zwei Hände?",
+      "lvMasterDa": "Cik pirkstu ir divām rokām?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[13].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[13].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "To hænder har ti fingre.",
+      "deCurrent": "Zwei Hände haben zehn Finger.",
+      "lvMasterDa": "Divām rokām ir desmit pirkstu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[14].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[14].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad har fingeren?",
+      "deCurrent": "Was hat der Finger?",
+      "lvMasterDa": "Kas ir pirkstam?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[15].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[15].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Fingeren har en negl.",
+      "deCurrent": "Der Finger hat einen Nagel.",
+      "lvMasterDa": "Pirkstam ir nags.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[16].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[16].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad laver du?",
+      "deCurrent": "Was tust du?",
+      "lvMasterDa": "Ko tu dari?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[17].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[17].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg klipper og renser mine negle.",
+      "deCurrent": "Ich beschneide und reinige die Nägel.",
+      "lvMasterDa": "Es apgriežu un tīru nagus.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[18].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[18].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad laver Paul?",
+      "deCurrent": "Was tut Paul?",
+      "lvMasterDa": "Ko Pauls dara?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[19].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[19].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Han laver gymnastik.",
+      "deCurrent": "Er turnt.",
+      "lvMasterDa": "Viņš vingro.",
+      "source": "lesson"
+    }
+  ]
+}

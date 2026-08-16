@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-117",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[12].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[12].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Det er låg.",
+      "deCurrent": "Das sind Deckel.",
+      "lvMasterDa": "Tie ir vāki.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[13].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[13].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Det er en fjer.",
+      "deCurrent": "Das ist eine Feder.",
+      "lvMasterDa": "Tā ir spalva.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[14].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[14].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "De er fjer.",
+      "deCurrent": "Das sind Federn.",
+      "lvMasterDa": "Tās ir spalvas.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[15].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[15].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvad laver læreren?",
+      "deCurrent": "Was tut der Lehrer?",
+      "lvMasterDa": "Ko dara skolotājs?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[16].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[16].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Læreren tager en kniv og spidser blyanten.",
+      "deCurrent": "Der Lehrer nimmt ein Messer und spitzt den Bleistift an.",
+      "lvMasterDa": "Skolotājs ņem nazi un uzsmailina zīmuli.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[17].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[17].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvad er det?",
+      "deCurrent": "Was ist das?",
+      "lvMasterDa": "Kas tas ir?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[18].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[18].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Det er en fyldepenholder.",
+      "deCurrent": "Das ist ein Federhalter.",
+      "lvMasterDa": "Tas ir spalvaskāts.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[19].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[19].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvordan er fyldepenholderen?",
+      "deCurrent": "Wie ist der Federhalter?",
+      "lvMasterDa": "Kāds ir spalvaskāts?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[20].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[20].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Fyldepenholderen er sort.",
+      "deCurrent": "Der Federhalter ist schwarz.",
+      "lvMasterDa": "Spalvaskāts ir melns.",
+      "source": "training"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.panelLabel",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.panelLabel",
+      "fieldType": "uiString",
+      "daCurrent": "Kursus",
+      "deCurrent": "",
+      "lvMasterDa": "Kurss",
+      "source": "ui"
+    }
+  ]
+}

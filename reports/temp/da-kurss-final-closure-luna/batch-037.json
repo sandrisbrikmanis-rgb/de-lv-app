@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-037",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[30].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[30].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Ja, broderen er rask, men søsteren er syg.",
+      "deCurrent": "Ja, der Bruder ist gesund, aber die Schwester ist krank.",
+      "lvMasterDa": "Jā, brālis ir vesels, bet māsa ir slima.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[31].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[31].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Er De glad?",
+      "deCurrent": "Sind Sie glücklich?",
+      "lvMasterDa": "Vai jūs esat laimīgi?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[32].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[32].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Ja, vi er glade, fordi vi er sunde.",
+      "deCurrent": "Ja, wir sind glücklich, denn wir sind gesund.",
+      "lvMasterDa": "Jā, mēs esam laimīgi, jo mēs esam veseli.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.title",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.title",
+      "fieldType": "title",
+      "daCurrent": "Lektion 13",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 13",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.subtitle",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.subtitle",
+      "fieldType": "subtitle",
+      "daCurrent": "Der Körper, kropsdele, turnen, jeder og flertal.",
+      "deCurrent": "",
+      "lvMasterDa": "Der Körper, ķermeņa daļas, turnen, jeder un daudzskaitlis.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.intro",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.intro",
+      "fieldType": "intro",
+      "daCurrent": "Lektion tretten: Der Körper, kropsdele, motion, refleksive verber og flertal.",
+      "deCurrent": "",
+      "lvMasterDa": "Trīspadsmitā lekcija: Der Körper, ķermeņa daļas, vingrošana, atgriezeniskie darbības vārdi un daudzskaitlis.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[0].title",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[0].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Tekst/læsning",
+      "deCurrent": "",
+      "lvMasterDa": "Teksts / Lasīšana",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].title",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Ord",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdiņi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[0]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Körper — kroppen",
+      "deCurrent": "der Körper",
+      "lvMasterDa": "der Körper — ķermenis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[1]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Mensch — mennesket",
+      "deCurrent": "der Mensch",
+      "lvMasterDa": "der Mensch — cilvēks",
+      "source": "lesson"
+    }
+  ]
+}

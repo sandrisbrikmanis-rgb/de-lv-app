@@ -1,0 +1,22 @@
+{
+  "batch": "batch-122",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:29:11.261Z",
+  "findings": [
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.exerciseMeta.chooseCasePlural",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.chooseCasePlural",
+      "fieldType": "uiString",
+      "deCurrent": "",
+      "daCurrent": "Sæt den rigtige bøjning og lav flertal!",
+      "proposedDa": "Sæt ordet i den rigtige bøjning, og dan flertalsformen!",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "reason": "Man sætter ikke en bøjning; formuleringen er unaturlig og mangler, hvad der skal bøjes.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ]
+}

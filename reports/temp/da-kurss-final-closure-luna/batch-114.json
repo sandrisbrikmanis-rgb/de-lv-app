@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-114",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[14].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[14].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvordan er bogen?",
+      "deCurrent": "Wie ist das Buch?",
+      "lvMasterDa": "Kāda ir grāmata?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[15].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[15].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Bogen er lille.",
+      "deCurrent": "Das Buch ist klein.",
+      "lvMasterDa": "Grāmata ir maza.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson5|lesson5TrainingCardsDa[0].front",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsDa[0].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvem elsker faren?",
+      "deCurrent": "Wen liebt der Vater?",
+      "lvMasterDa": "Ko mīl tēvs?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson5|lesson5TrainingCardsDa[1].front",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsDa[1].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvem roser læreren?",
+      "deCurrent": "Wen lobt die Lehrerin?",
+      "lvMasterDa": "Ko slavē skolotāja?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson5|lesson5TrainingCardsDa[2].front",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsDa[2].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvad tager du?",
+      "deCurrent": "Was nimmst du?",
+      "lvMasterDa": "Ko tu ņem?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson5|lesson5TrainingCardsDa[3].front",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsDa[3].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvem spørger du?",
+      "deCurrent": "Wen fragst du?",
+      "lvMasterDa": "Kam tu jautā?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson5|lesson5TrainingCardsDa[4].front",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsDa[4].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvem skælder læreren ud?",
+      "deCurrent": "Wen tadelt der Lehrer?",
+      "lvMasterDa": "Ko peļ skolotājs?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson5|lesson5TrainingCardsDa[5].front",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsDa[5].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Læreren spørger eleven.",
+      "deCurrent": "Der Lehrer fragt den Schüler.",
+      "lvMasterDa": "Skolotājs jautā skolniekam.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson5|lesson5TrainingCardsDa[6].front",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsDa[6].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvordan svarer eleven?",
+      "deCurrent": "Wie antwortet der Schüler?",
+      "lvMasterDa": "Kā skolnieks atbild?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson5|lesson5TrainingCardsDa[7].front",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsDa[7].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Eleven svarer dårligt.",
+      "deCurrent": "Der Schüler antwortet schlecht.",
+      "lvMasterDa": "Skolnieks atbild slikti.",
+      "source": "training"
+    }
+  ]
+}

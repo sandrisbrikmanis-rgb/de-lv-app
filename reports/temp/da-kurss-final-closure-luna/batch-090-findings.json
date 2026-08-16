@@ -1,0 +1,36 @@
+{
+  "batch": "batch-090",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:25:48.542Z",
+  "findings": [
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[8].lv",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[8].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "So arbeitet der Lehrer in der Klasse.",
+      "daCurrent": "Sådan arbejder en lærer i et klasseværelse.",
+      "proposedDa": "Sådan arbejder læreren i klassen.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "Den danske tekst ændrer den bestemte form og oversætter »in der Klasse« mindre idiomatisk som »i et klasseværelse«.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.intro",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.intro",
+      "fieldType": "intro",
+      "deCurrent": "",
+      "daCurrent": "Tyvende foredrag: hus, etager, Dativ/Akkusativ og sammensatte navneord.",
+      "proposedDa": "Tyvende lektion: hus, etager, Dativ/Akkusativ og sammensatte navneord.",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "reason": "»Foredrag« betyder typisk en tale eller præsentation; i en kursuslektion er »lektion« den naturlige betegnelse.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

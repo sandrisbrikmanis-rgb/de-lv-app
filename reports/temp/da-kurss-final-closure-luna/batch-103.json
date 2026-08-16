@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-103",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[2].heading",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[2].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Woher? — no kurienes?",
+      "deCurrent": "",
+      "lvMasterDa": "Woher? — no kurienes?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[2].text",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[2].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Hvis en person eller genstand er i et rum, sted eller beholder og kommer ud af det, skal du bruge aus.",
+      "deCurrent": "",
+      "lvMasterDa": "Ja persona vai priekšmets atrodas kādā telpā, vietā vai traukā un nāk ārā no tās, lieto aus.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[3].heading",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[3].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "von",
+      "deCurrent": "",
+      "lvMasterDa": "von",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[3].text",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[3].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Hvis en person eller genstand er over et sted eller på noget og bevæger sig væk fra det, bruges von.",
+      "deCurrent": "",
+      "lvMasterDa": "Ja persona vai priekšmets atrodas virs kādas vietas vai uz kaut kā un pārvietojas prom no tās, lieto von.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[4].heading",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[4].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Materiale",
+      "deCurrent": "",
+      "lvMasterDa": "Materiāls",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[4].text",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[4].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Når du taler om det materiale, som objektet er lavet af, skal du bruge aus.",
+      "deCurrent": "",
+      "lvMasterDa": "Ja runā par materiālu, no kā priekšmets pagatavots, lieto aus.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[3].title",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[3].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Udtale",
+      "deCurrent": "",
+      "lvMasterDa": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[3].items[0]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet die Axt udtales x som ks.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā die Axt: x izrunā kā ks.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[3].items[1]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[3].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordene arbeiten, das Beil, steigen udtales ei som aj.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[3].items[2]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[3].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet die Scheune udtales eu som oj.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā die Scheune: eu izrunā kā oi.",
+      "source": "lesson"
+    }
+  ]
+}

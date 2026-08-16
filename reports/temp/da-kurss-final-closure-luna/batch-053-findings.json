@@ -1,0 +1,22 @@
+{
+  "batch": "batch-053",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:21:28.881Z",
+  "findings": [
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.subtitle",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.subtitle",
+      "fieldType": "subtitle",
+      "deCurrent": "",
+      "daCurrent": "Sollen, dürfen, essen, frugt",
+      "proposedDa": "Skulle, måtte, spise, frugt",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Tre tyske ord står uberørt i den danske undertitel. De bør oversættes til dansk, så undertitlen er sprogligt konsekvent.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ]
+}

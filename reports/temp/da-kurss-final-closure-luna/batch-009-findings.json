@@ -1,0 +1,22 @@
+{
+  "batch": "batch-009",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:16:16.167Z",
+  "findings": [
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[37].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[37].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Herr Lehrer, bitte, setzen Sie sich!",
+      "daCurrent": "Lærer, sæt dig venligst ned!",
+      "proposedDa": "Hr. lærer, sæt Dem venligst ned!",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "Den danske tekst udelader tiltaleformen »Herr« og bruger uformelt »dig« i stedet for den formelle tiltale i den tyske sætning.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    }
+  ]
+}

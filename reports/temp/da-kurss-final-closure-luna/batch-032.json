@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-032",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[23]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[23]",
+      "fieldType": "sectionItem",
+      "daCurrent": "das Gummi (das gumī) — viskelæder",
+      "deCurrent": "das Gummi (das gumī)",
+      "lvMasterDa": "das Gummi (das gumī) — gumija",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[24]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "daCurrent": "grau — grå",
+      "deCurrent": "grau",
+      "lvMasterDa": "grau — pelēks",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[26]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[26]",
+      "fieldType": "sectionItem",
+      "daCurrent": "grün — grøn",
+      "deCurrent": "grün",
+      "lvMasterDa": "grün — zaļš",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[27]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[27]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Blume — blomsten",
+      "deCurrent": "die Blume",
+      "lvMasterDa": "die Blume — puķe",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[30]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[30]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Kreide — kridtet",
+      "deCurrent": "die Kreide",
+      "lvMasterDa": "die Kreide — krīts",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[2].title",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Udtale",
+      "deCurrent": "",
+      "lvMasterDa": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[2].items[0]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[2].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "x udtales som ks: Max (maks), Felix (feliks).",
+      "deCurrent": "",
+      "lvMasterDa": "x izrunā kā ks: Max (maks), Felix (feliks).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[2].items[1]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[2].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordene Schwester og am jüngsten udtales st som et almindeligt st: Schwester (švester), jüngsten (jünksten).",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[2].items[2]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[2].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet der Federhalter udtales h som en konsonantlyd, mens h i der Sohn fungerer som længdetegn og ikke udtales.",
+      "deCurrent": "",
+      "lvMasterDa": "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — garumzīme.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].title",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Grammatik",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "lesson"
+    }
+  ]
+}

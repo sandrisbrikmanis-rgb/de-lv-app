@@ -1,0 +1,36 @@
+{
+  "batch": "batch-111",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:28:17.377Z",
+  "findings": [
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[14].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[14].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Liegt dort ein Heft?",
+      "daCurrent": "Ligger der en notesbog?",
+      "proposedDa": "Ligger der et hæfte?",
+      "severity": "MEDIUM",
+      "category": "CONSISTENCY",
+      "reason": "“Heft” is more consistently translated as “hæfte”; “notesbog” means notebook and differs from the established Danish term “hæfte”.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[15].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[15].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Ja, dort liegt ein Heft.",
+      "daCurrent": "Ja, der er en notesbog.",
+      "proposedDa": "Ja, der ligger et hæfte.",
+      "severity": "MEDIUM",
+      "category": "CONSISTENCY",
+      "reason": "The Danish should preserve the German verb “liegt” and use the established equivalent “hæfte” rather than “notesbog”.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ]
+}

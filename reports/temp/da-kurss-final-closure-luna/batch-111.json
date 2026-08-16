@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-111",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[6].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[6].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Er bogen tynd?",
+      "deCurrent": "Ist das Buch dünn?",
+      "lvMasterDa": "Vai grāmata ir plāna?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[7].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[7].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Nej, bogen er tyk.",
+      "deCurrent": "Nein, das Buch ist dick.",
+      "lvMasterDa": "Nē, grāmata ir bieza.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[8].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[8].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvad er tyndt?",
+      "deCurrent": "Was ist dünn?",
+      "lvMasterDa": "Kas ir plāns?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[9].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[9].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Heftet er tyndt.",
+      "deCurrent": "Das Heft ist dünn.",
+      "lvMasterDa": "Burtnīca ir plāna.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[10].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[10].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvordan er bænken?",
+      "deCurrent": "Wie ist die Bank?",
+      "lvMasterDa": "Kāds ir sols?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[11].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[11].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Bænken er lav.",
+      "deCurrent": "Die Bank ist niedrig.",
+      "lvMasterDa": "Sols ir zems.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[12].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[12].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvordan er bordet?",
+      "deCurrent": "Wie ist der Tisch?",
+      "lvMasterDa": "Kāds ir galds?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[13].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[13].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Bordet er højt.",
+      "deCurrent": "Der Tisch ist hoch.",
+      "lvMasterDa": "Galds ir augsts.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[14].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[14].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Ligger der en notesbog?",
+      "deCurrent": "Liegt dort ein Heft?",
+      "lvMasterDa": "Vai tur ir / atrodas burtnīca?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[15].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[15].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Ja, der er en notesbog.",
+      "deCurrent": "Ja, dort liegt ein Heft.",
+      "lvMasterDa": "Jā, tur atrodas burtnīca.",
+      "source": "training"
+    }
+  ]
+}

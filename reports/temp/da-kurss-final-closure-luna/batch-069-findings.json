@@ -1,0 +1,22 @@
+{
+  "batch": "batch-069",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:23:12.840Z",
+  "findings": [
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[10].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[10].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Wie sind die Hunde?",
+      "daCurrent": "Hvordan er hunde?",
+      "proposedDa": "Hvordan er hundene?",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "Den tyske bestemthed er ikke gengivet: 'Die Hunde' svarer til 'hundene', ikke det ubestemte 'hunde'.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

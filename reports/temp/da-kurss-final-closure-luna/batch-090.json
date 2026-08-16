@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-090",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[8].lv",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[8].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Sådan arbejder en lærer i et klasseværelse.",
+      "deCurrent": "So arbeitet der Lehrer in der Klasse.",
+      "lvMasterDa": "Tā strādā skolotājs klasē.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.title",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.title",
+      "fieldType": "title",
+      "daCurrent": "Lektion 20",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 20",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.subtitle",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.subtitle",
+      "fieldType": "subtitle",
+      "daCurrent": "Haus, Stockwerk, Dativ/Akkusativ, sammensatte navneord",
+      "deCurrent": "",
+      "lvMasterDa": "Haus, Stockwerk, Dativ/Akkusativ, saliktie lietvārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.intro",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.intro",
+      "fieldType": "intro",
+      "daCurrent": "Tyvende foredrag: hus, etager, Dativ/Akkusativ og sammensatte navneord.",
+      "deCurrent": "",
+      "lvMasterDa": "Divdesmitā lekcija: māja, stāvi, Dativ/Akkusativ un saliktie lietvārdi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[0].title",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[0].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Tekst/læsning",
+      "deCurrent": "",
+      "lvMasterDa": "Teksts / Lasīšana",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].title",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Ord",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdiņi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[0]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "das Haus — huset",
+      "deCurrent": "das Haus",
+      "lvMasterDa": "das Haus — māja",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[1]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "das Stockwerk — etage",
+      "deCurrent": "das Stockwerk",
+      "lvMasterDa": "das Stockwerk — stāvs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[2]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Mauer — mur",
+      "deCurrent": "die Mauer",
+      "lvMasterDa": "die Mauer — mūris",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[7]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Wohnung — lejlighed",
+      "deCurrent": "die Wohnung",
+      "lvMasterDa": "die Wohnung — dzīvoklis",
+      "source": "lesson"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "batch": "batch-084",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:25:12.781Z",
+  "findings": [
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[11].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[11].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Der Schüler legt die Hefte in die Mappe.",
+      "daCurrent": "Eleven lægger notesbøgerne i posen.",
+      "proposedDa": "Eleven lægger hæfterne i mappen.",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "reason": "Både Hefte og Mappe er oversat forkert: notesbøgerne/posen betyder henholdsvis notesbøger/tasken i stedet for hæfterne/mappen.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[12].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[12].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Wo sind die Hefte?",
+      "daCurrent": "Hvor er notesbøgerne?",
+      "proposedDa": "Hvor er hæfterne?",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "reason": "Det tyske Hefte svarer her til hæfterne, ikke notesbøgerne.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[13].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[13].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Die Hefte sind jetzt in der Mappe.",
+      "daCurrent": "Notesbøgerne er nu i mappen.",
+      "proposedDa": "Hæfterne er nu i mappen.",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "reason": "Notesbøgerne oversætter Hefte upræcist; den tilsvarende danske betegnelse er hæfterne.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[17].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[17].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Der Lehrer sitzt in der Klasse.",
+      "daCurrent": "Læreren sidder i klasseværelset.",
+      "proposedDa": "Læreren sidder i klassen.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "Klasseværelset betyder det fysiske lokale, mens den tyske tekst siger i klassen.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    }
+  ]
+}

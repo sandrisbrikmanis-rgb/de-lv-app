@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-106",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[2].lv",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[2].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg tager uret ud af lommen.",
+      "deCurrent": "Ich ziehe die Uhr aus der Tasche.",
+      "lvMasterDa": "Es nesēju pulksteni no kabatas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[3].lv",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[3].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "En spand mælk står i kælderen.",
+      "deCurrent": "Ein Eimer mit Milch steht im Keller.",
+      "lvMasterDa": "Spainis ar pienu stāv pagrabā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[4].lv",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[4].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg bærer spanden ud af kælderen.",
+      "deCurrent": "Ich trage den Eimer aus dem Keller.",
+      "lvMasterDa": "Es nesu spaini no pagraba.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[5].lv",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[5].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg tager huen af hovedet.",
+      "deCurrent": "Ich nehme die Mütze vom Kopfe.",
+      "lvMasterDa": "Es noņemu cepuri no galvas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[6].lv",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[6].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Billedet hænger på væggen.",
+      "deCurrent": "Das Bild hängt an der Wand.",
+      "lvMasterDa": "Bilde karājas pie sienas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[7].lv",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[7].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Faderen fjerner billedet fra væggen.",
+      "deCurrent": "Der Vater nimmt das Bild von der Wand.",
+      "lvMasterDa": "Tēvs noņem bildi no sienas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[8].lv",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[8].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Nodearkene ligger på klaveret.",
+      "deCurrent": "Die Noten liegen auf dem Klavier.",
+      "lvMasterDa": "Notis atrodas uz klavierēm.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[9].lv",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[9].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg tager noderne fra klaveret.",
+      "deCurrent": "Ich nehme die Noten vom Klavier.",
+      "lvMasterDa": "Es noņemu notis no klavierēm.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[10].lv",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[10].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Vi kommer fra vennen.",
+      "deCurrent": "Wir kommen vom Freunde.",
+      "lvMasterDa": "Mēs nākam no drauga.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[11].lv",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[11].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Vi kommer fra veninden.",
+      "deCurrent": "Wir kommen von der Freundin.",
+      "lvMasterDa": "Mēs nākam no draudzenes.",
+      "source": "lesson"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "batch": "batch-070",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:23:18.429Z",
+  "findings": [
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[12]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "deCurrent": "die Diele",
+      "daCurrent": "die Diele — gulv",
+      "proposedDa": "die Diele — forstue",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "reason": "Die Diele betyder en forstue, entré eller gang; »gulv« er en forkert betydning.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

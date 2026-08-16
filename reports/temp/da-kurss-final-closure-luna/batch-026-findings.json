@@ -1,0 +1,36 @@
+{
+  "batch": "batch-026",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:18:14.998Z",
+  "findings": [
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[2].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[2].heading",
+      "fieldType": "grammarHeading",
+      "deCurrent": "",
+      "daCurrent": "Dansk dativ og tysk nominativ/akkusativ",
+      "proposedDa": "Lettisk dativ og tysk nominativ/akkusativ",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "reason": "Der står lettisk i teksten og kildereferencen; Dansk er en forkert sprogangivelse.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[2].text",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[2].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "På lettisk står den person, som noget tilhører, i dativ, og subjektet i nominativ. På tysk står personen i nominativ kasus og den besatte genstand i akkusativ.",
+      "proposedDa": "På lettisk står den person, som noget tilhører, i dativ, og den besatte genstand i nominativ. På tysk står personen i nominativ kasus og den besatte genstand i akkusativ.",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "reason": "Subjektet er forkert her; det er den besatte genstand, der står i nominativ på lettisk.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "batch": "batch-107",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:28:03.438Z",
+  "findings": [
+    {
+      "fieldId": "kurssArticlesLesson|COURSE_LESSON_HTML.kurssArticlesLesson",
+      "lessonId": "kurssArticlesLesson",
+      "path": "COURSE_LESSON_HTML.kurssArticlesLesson",
+      "fieldType": "legacyHtml",
+      "deCurrent": "",
+      "daCurrent": "Der Montag — mandag",
+      "proposedDa": "der Montag — mandag",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "reason": "In the embedded German example, the definite article is lowercase: der Montag.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "kurssVerbBasicsLesson|COURSE_LESSON_HTML.kurssVerbBasicsLesson",
+      "lessonId": "kurssVerbBasicsLesson",
+      "path": "COURSE_LESSON_HTML.kurssVerbBasicsLesson",
+      "fieldType": "legacyHtml",
+      "deCurrent": "",
+      "daCurrent": "<h3>Verbers grundlag</h3> <p class=\"kurss-lesson-intro\">1. lektions verber og bøjninger.</p>",
+      "proposedDa": "<h3>Grundlæggende verber</h3> <p class=\"kurss-lesson-intro\">Verber og bøjninger fra lektion 1.</p>",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "reason": "“Verbers grundlag” is unnatural Danish, and “1. lektions verber” is an incorrect/awkward genitive construction.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "batch": "batch-027",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:18:35.112Z",
+  "findings": [
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[7].text",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[7].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "Dansk dobbelt negation udtrykkes ikke på tysk med nægtelsesordet kein. Nægtelsesordet kein står kun foran substantivet.",
+      "proposedDa": "Dobbelt negation på dansk udtrykkes ikke på tysk med nægtelsesordet kein. Nægtelsesordet kein står kun foran substantivet.",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "reason": "Formuleringen \"Dansk dobbelt negation\" er unaturlig; \"dobbelt negation på dansk\" er den naturlige danske ordstilling.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[10].text",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[10].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "Hvis den fortællende sætning indeholder konjunktionen denn, forbliver verbet i 2. position. Konjunktionen denn tæller ikke som et led i sætningen.",
+      "proposedDa": "Hvis den fremsættende sætning indeholder konjunktionen denn, står verbet på andenpladsen. Konjunktionen denn tæller ikke som et sætningsled.",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "reason": "\"Fortællende sætning\" er ikke den rette danske grammatiske term for en deklarativ sætning; \"fremsættende sætning\" er korrekt.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-115",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson5|lesson5TrainingCardsDa[8].front",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsDa[8].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Svarer elevinden dårligt?",
+      "deCurrent": "Antwortet die Schülerin schlecht?",
+      "lvMasterDa": "Vai skolniece atbild slikti?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson5|lesson5TrainingCardsDa[9].front",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsDa[9].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Nej, eleven svarer ikke dårligt, hun svarer godt.",
+      "deCurrent": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut.",
+      "lvMasterDa": "Nē, skolniece neatbild slikti, viņa atbild labi.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson5|lesson5TrainingCardsDa[10].front",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsDa[10].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Pigen tager fyldepenholderen, fjeren og kniven.",
+      "deCurrent": "Das Mädchen nimmt den Federhalter, die Feder und das Messer.",
+      "lvMasterDa": "Meitene ņem spalvas kātu, spalvu un nazi.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson5|lesson5TrainingCardsDa[11].front",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsDa[11].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hun lægger kniven og penneholderen.",
+      "deCurrent": "Sie legt das Messer und den Federhalter hin.",
+      "lvMasterDa": "Viņa noliek nazi un spalvas kātu.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson5|lesson5TrainingCardsDa[12].front",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsDa[12].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Pigen går ud og arbejder.",
+      "deCurrent": "Das Mädchen geht hinaus und arbeitet.",
+      "lvMasterDa": "Meitene iziet ārā un strādā.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson5|lesson5TrainingCardsDa[13].front",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsDa[13].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvordan er barnet?",
+      "deCurrent": "Wie ist das Kind?",
+      "lvMasterDa": "Kāds ir bērns?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson5|lesson5TrainingCardsDa[14].front",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsDa[14].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Barnet er artigt.",
+      "deCurrent": "Das Kind ist artig.",
+      "lvMasterDa": "Bērns ir rātns.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson5|lesson5TrainingCardsDa[15].front",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsDa[15].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Far og mor elsker barnet.",
+      "deCurrent": "Der Vater und die Mutter lieben das Kind.",
+      "lvMasterDa": "Tēvs un māte mīl bērnu.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[0].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[0].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Paul tager en blyant og tegner.",
+      "deCurrent": "Paul nimmt einen Bleistift und zeichnet.",
+      "lvMasterDa": "Pauls ņem zīmuli un zīmē.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[1].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[1].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvad tegner han?",
+      "deCurrent": "Was zeichnet er?",
+      "lvMasterDa": "Ko viņš zīmē?",
+      "source": "training"
+    }
+  ]
+}

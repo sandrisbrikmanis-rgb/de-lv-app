@@ -1,0 +1,22 @@
+{
+  "batch": "batch-015",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:16:57.011Z",
+  "findings": [
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[8].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[8].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Schreiben sie schnell oder langsam?",
+      "daCurrent": "Skriver de hurtigt eller langsomt?",
+      "proposedDa": "Skriver de hurtigt eller langsomt?",
+      "severity": "NEEDS_SOURCE_REVIEW",
+      "category": "SEMANTICS",
+      "reason": "Danish is correct for plural 'they'. If 'sie' is intended as formal 'you', German should be capitalized 'Sie'; DE is read-only.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ]
+}

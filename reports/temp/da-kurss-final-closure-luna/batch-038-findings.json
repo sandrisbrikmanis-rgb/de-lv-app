@@ -1,0 +1,36 @@
+{
+  "batch": "batch-038",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:19:54.832Z",
+  "findings": [
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[10]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "deCurrent": "der Fuß",
+      "daCurrent": "der Fuß — foden",
+      "proposedDa": "der Fuß — fod",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "reason": "Den danske oversættelse er bestemt form; som ordbogsform skal den være ubestemt: »fod«.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[19]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "deCurrent": "die Brust",
+      "daCurrent": "die Brust — brystet",
+      "proposedDa": "die Brust — bryst",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "reason": "Den danske oversættelse er bestemt form; som ordbogsform skal den være ubestemt: »bryst«.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

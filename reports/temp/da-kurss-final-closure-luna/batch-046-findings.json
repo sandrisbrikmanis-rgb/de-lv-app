@@ -1,0 +1,22 @@
+{
+  "batch": "batch-046",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:20:45.462Z",
+  "findings": [
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[30].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[30].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Robert und Johann, turnt!",
+      "daCurrent": "Robert og Jan, motionér!",
+      "proposedDa": "Robert og Johann, motionér!",
+      "severity": "MEDIUM",
+      "category": "NAMES",
+      "reason": "Navnet Jan svarer ikke til Johann i den tyske kildetekst; personnavnet bør bevares som Johann.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ]
+}

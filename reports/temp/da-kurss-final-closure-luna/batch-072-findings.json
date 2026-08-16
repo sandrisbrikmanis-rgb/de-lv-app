@@ -1,0 +1,22 @@
+{
+  "batch": "batch-072",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:23:33.641Z",
+  "findings": [
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[4].text",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[4].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "I verberne helfen og werfen i 2. og 3. person ental ændres stammen e til i.",
+      "proposedDa": "I verberne helfen og werfen ændres stammens e til i i 2. og 3. person ental.",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "reason": "Efter ændres kræver stammen genitiv: stammens e. Den nuværende formulering er grammatisk ukorrekt på dansk.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ]
+}

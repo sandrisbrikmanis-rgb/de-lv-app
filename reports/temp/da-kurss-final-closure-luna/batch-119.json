@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-119",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.articlesDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.articlesDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Der, die, das og grundlæggende brug.",
+      "deCurrent": "",
+      "lvMasterDa": "Der, die, das un lietojuma pamati.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.pronouns",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.pronouns",
+      "fieldType": "uiString",
+      "daCurrent": "Pronominer",
+      "deCurrent": "",
+      "lvMasterDa": "Vietniekvārdi",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.pronounsDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.pronounsDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Former i nominativ, akkusativ og dativ.",
+      "deCurrent": "",
+      "lvMasterDa": "Nominativ, Akkusativ un Dativ formas.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessons",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessons",
+      "fieldType": "uiString",
+      "daCurrent": "Lektioner",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcijas",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonsDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonsDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Undervisningslektioner i rækkefølge fra 1 til 21.",
+      "deCurrent": "",
+      "lvMasterDa": "Mācību lekcijas secīgā kārtībā no 1 līdz 21.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.verbBasics",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.verbBasics",
+      "fieldType": "uiString",
+      "daCurrent": "Grundlæggende verber",
+      "deCurrent": "",
+      "lvMasterDa": "Darbības vārdu pamati",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.verbBasicsDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.verbBasicsDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Personer, former og almindelige verber.",
+      "deCurrent": "",
+      "lvMasterDa": "Personas, formas un biežākie darbības vārdi.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.sentenceStructure",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.sentenceStructure",
+      "fieldType": "uiString",
+      "daCurrent": "Sætningsstruktur",
+      "deCurrent": "",
+      "lvMasterDa": "Teikumu uzbūve",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.sentenceStructureDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.sentenceStructureDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Enkel ordstilling i tyske sætninger.",
+      "deCurrent": "",
+      "lvMasterDa": "Vienkārša vārdu secība vācu teikumos.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.articlesSubtitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.articlesSubtitle",
+      "fieldType": "uiString",
+      "daCurrent": "Der, die, das og grundlæggende brug.",
+      "deCurrent": "",
+      "lvMasterDa": "Der, die, das un lietojuma pamati.",
+      "source": "ui"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-082",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[3].prompt",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[3].prompt",
+      "fieldType": "cardPrompt",
+      "daCurrent": "Wo arbeitet sie?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
+      "deCurrent": "Sie arbeitet in der Küche, in dem Zimmer, in dem Saal, in dem Keller.",
+      "lvMasterDa": "Wo arbeitet sie?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[3].task",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[3].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: dativ eller akkusativ.",
+      "deCurrent": "Sie arbeitet in der Küche, in dem Zimmer, in dem Saal, in dem Keller.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[4].prompt",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[4].prompt",
+      "fieldType": "cardPrompt",
+      "daCurrent": "Wohin legst du den Teller?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
+      "deCurrent": "Ich lege den Teller auf die Bank, auf den Stuhl, auf den Tisch, auf das Fensterbrett.",
+      "lvMasterDa": "Wohin legst du den Teller?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[4].task",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[4].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: dativ eller akkusativ.",
+      "deCurrent": "Ich lege den Teller auf die Bank, auf den Stuhl, auf den Tisch, auf das Fensterbrett.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[5].prompt",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[5].prompt",
+      "fieldType": "cardPrompt",
+      "daCurrent": "Wo steht er?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
+      "deCurrent": "Er steht auf der Bank, auf dem Stuhl, auf dem Tisch, auf dem Fensterbrett.",
+      "lvMasterDa": "Wo steht er?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[5].task",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[5].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: dativ eller akkusativ.",
+      "deCurrent": "Er steht auf der Bank, auf dem Stuhl, auf dem Tisch, auf dem Fensterbrett.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[6].task",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[6].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: dativ eller akkusativ.",
+      "deCurrent": "Der Mann stellt sich an dieses Fenster, an jenen Tisch, an die Wand, an den Baum.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[7].task",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[7].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: dativ eller akkusativ.",
+      "deCurrent": "Er steht an diesem Fenster, an jenem Tisch, an der Wand, an dem Baum.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].title",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Oversæt",
+      "deCurrent": "",
+      "lvMasterDa": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[0].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[0].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor skal tjeneren hen?",
+      "deCurrent": "Wohin kommt der Diener?",
+      "lvMasterDa": "Kurp nāk apkalpotājs?",
+      "source": "lesson"
+    }
+  ]
+}

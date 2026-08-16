@@ -1,0 +1,22 @@
+{
+  "batch": "batch-098",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:26:49.994Z",
+  "findings": [
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[9].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[9].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Wo ist der Boden?",
+      "daCurrent": "Hvor er loftet?",
+      "proposedDa": "",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "reason": "Danish “loftet” means attic, matching the Latvian reference; German “Boden” means floor.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    }
+  ]
+}

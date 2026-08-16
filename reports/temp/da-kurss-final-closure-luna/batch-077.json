@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-077",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[24].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[24].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Broren går med sin far, med sin mor, med sin lærer, med sin onkel, med sin tante, med sin fætter og med sin kusine.",
+      "deCurrent": "Der Bruder geht mit dem Vater, mit der Mutter, mit dem Lehrer, mit dem Onkel, mit der Tante, mit dem Vetter, mit der Base.",
+      "lvMasterDa": "Brālis iet ar tēvu, ar māti, ar skolotāju, ar onkuli, ar tanti, ar brālēnu, ar māsīcu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.title",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.title",
+      "fieldType": "title",
+      "daCurrent": "Lektion 18",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 18",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.subtitle",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.subtitle",
+      "fieldType": "subtitle",
+      "daCurrent": "Wohin / wo, Akkusativ eller Dativ med an / in / auf",
+      "deCurrent": "",
+      "lvMasterDa": "wohin / wo, Akkusativ vai Dativ ar an / in / auf",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.intro",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.intro",
+      "fieldType": "intro",
+      "daCurrent": "Attende lektion: wohin / wo, Akkusativ eller Dativ med an / in / auf.",
+      "deCurrent": "",
+      "lvMasterDa": "Astoņpadsmitā lekcija: wohin / wo, Akkusativ vai Dativ ar an / in / auf.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[0].title",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[0].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Tekst/læsning",
+      "deCurrent": "",
+      "lvMasterDa": "Teksts / Lasīšana",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[1].title",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[1].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Ord",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdiņi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[1].items[5]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[1].items[5]",
+      "fieldType": "sectionItem",
+      "daCurrent": "er/sie/es trägt — han/hun/det bærer",
+      "deCurrent": "er/sie/es trägt",
+      "lvMasterDa": "er/sie/es trägt — viņš/viņa/tas nes",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[1].items[8]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[1].items[8]",
+      "fieldType": "sectionItem",
+      "daCurrent": "das Körbchen — kurv",
+      "deCurrent": "das Körbchen",
+      "lvMasterDa": "das Körbchen — groziņš / kurvītis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[1].items[9]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[1].items[9]",
+      "fieldType": "sectionItem",
+      "daCurrent": "stellen — at placere / sætte op",
+      "deCurrent": "stellen",
+      "lvMasterDa": "stellen — novietot / nolikt stāvus",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[1].items[10]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "daCurrent": "legen — at lægge ned",
+      "deCurrent": "legen",
+      "lvMasterDa": "legen — likt / nolikt guļus",
+      "source": "lesson"
+    }
+  ]
+}

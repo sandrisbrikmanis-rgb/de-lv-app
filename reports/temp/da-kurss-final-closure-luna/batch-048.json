@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-048",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[12]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "daCurrent": "wollen — at ville",
+      "deCurrent": "wollen",
+      "lvMasterDa": "wollen — gribēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[15]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[15]",
+      "fieldType": "sectionItem",
+      "daCurrent": "er will — han vil",
+      "deCurrent": "er will",
+      "lvMasterDa": "er will — viņš grib",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[16]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sie will — hun vil",
+      "deCurrent": "sie will",
+      "lvMasterDa": "sie will — viņa grib",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[18]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[18]",
+      "fieldType": "sectionItem",
+      "daCurrent": "wir wollen — vi vil",
+      "deCurrent": "wir wollen",
+      "lvMasterDa": "wir wollen — mēs gribam",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[19]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ihr wollt — I vil",
+      "deCurrent": "ihr wollt",
+      "lvMasterDa": "ihr wollt — jūs gribat",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[20]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[20]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sie wollen — de vil",
+      "deCurrent": "sie wollen",
+      "lvMasterDa": "sie wollen — viņi / viņas grib",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[21]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[21]",
+      "fieldType": "sectionItem",
+      "daCurrent": "mögen — at kunne lide",
+      "deCurrent": "mögen",
+      "lvMasterDa": "mögen — gribēt / vēlēties / patikt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[22]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[22]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ich mag — jeg kan lide",
+      "deCurrent": "ich mag",
+      "lvMasterDa": "ich mag — es gribu / man patīk",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[23]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[23]",
+      "fieldType": "sectionItem",
+      "daCurrent": "du magst — du kan lide",
+      "deCurrent": "du magst",
+      "lvMasterDa": "du magst — tu gribi / tev patīk",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[24]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "daCurrent": "er mag — han kan lide",
+      "deCurrent": "er mag",
+      "lvMasterDa": "er mag — viņš grib / viņam patīk",
+      "source": "lesson"
+    }
+  ]
+}

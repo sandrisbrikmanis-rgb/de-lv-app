@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-121",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.exerciseProgress",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseProgress",
+      "fieldType": "uiString",
+      "daCurrent": "Lektion {lesson} · Øvelse",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija {lesson} · Vingrinājums",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.sections.grammar",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.sections.grammar",
+      "fieldType": "uiString",
+      "daCurrent": "Grammatik",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.sections.exercise",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.sections.exercise",
+      "fieldType": "uiString",
+      "daCurrent": "Øvelse",
+      "deCurrent": "",
+      "lvMasterDa": "Vingrinājums",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.sections.translate",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.sections.translate",
+      "fieldType": "uiString",
+      "daCurrent": "Oversæt",
+      "deCurrent": "",
+      "lvMasterDa": "Pārtulko",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.sections.exerciseCombined",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.sections.exerciseCombined",
+      "fieldType": "uiString",
+      "daCurrent": "Øvelse",
+      "deCurrent": "",
+      "lvMasterDa": "Übung / Vingrinājums",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.hints.tapToRevealAnswer",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.hints.tapToRevealAnswer",
+      "fieldType": "uiString",
+      "daCurrent": "Tryk på kortet for at se svaret.",
+      "deCurrent": "",
+      "lvMasterDa": "Pieskaries kartītei, lai redzētu atbildi.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.hints.tapToContinue",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.hints.tapToContinue",
+      "fieldType": "uiString",
+      "daCurrent": "Tryk på kortet for at fortsætte.",
+      "deCurrent": "",
+      "lvMasterDa": "Pieskaries kartītei, lai turpinātu.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.hints.tapToRevealGerman",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.hints.tapToRevealGerman",
+      "fieldType": "uiString",
+      "daCurrent": "Tryk på kortet for at se den tyske oversættelse.",
+      "deCurrent": "",
+      "lvMasterDa": "Pieskaries kartītei, lai redzētu vācu tulkojumu.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.hints.tapNextStep",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.hints.tapNextStep",
+      "fieldType": "uiString",
+      "daCurrent": "Tryk på kortet for at gå til næste trin.",
+      "deCurrent": "",
+      "lvMasterDa": "Pieskaries kartītei, lai pārietu uz nākamo soli.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.hints.exerciseCardAria",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.hints.exerciseCardAria",
+      "fieldType": "uiString",
+      "daCurrent": "{title} øvelseskort",
+      "deCurrent": "",
+      "lvMasterDa": "{title} vingrinājuma kartīte",
+      "source": "ui"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "batch": "batch-094",
+  "auditor": "GPT-5.6 Luna",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-16T19:26:20.514Z",
+  "findings": [
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[3].text",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[3].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "Sammensatte navneord tager normalt artiklen i det sidste ord.",
+      "proposedDa": "Sammensatte navneord får normalt artiklen fra det sidste ord.",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "reason": "Formuleringen \"tager ... artiklen i det sidste ord\" er unaturlig på dansk; artiklen følger normalt det sidste led.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ]
+}

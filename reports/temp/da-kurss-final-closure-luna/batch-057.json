@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-057",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[32]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[32]",
+      "fieldType": "sectionItem",
+      "daCurrent": "er nimmt — han tager",
+      "deCurrent": "er nimmt",
+      "lvMasterDa": "er nimmt — viņš ņem",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[33]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[33]",
+      "fieldType": "sectionItem",
+      "daCurrent": "essen — at spise",
+      "deCurrent": "essen",
+      "lvMasterDa": "essen — ēst",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[34]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[34]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ich esse — jeg spiser",
+      "deCurrent": "ich esse",
+      "lvMasterDa": "ich esse — es ēdu",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[35]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[35]",
+      "fieldType": "sectionItem",
+      "daCurrent": "du isst — du spiser",
+      "deCurrent": "du isst",
+      "lvMasterDa": "du isst — tu ēd",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[36]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[36]",
+      "fieldType": "sectionItem",
+      "daCurrent": "er isst — han spiser",
+      "deCurrent": "er isst",
+      "lvMasterDa": "er isst — viņš ēd",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[37]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[37]",
+      "fieldType": "sectionItem",
+      "daCurrent": "wir essen — vi spiser",
+      "deCurrent": "wir essen",
+      "lvMasterDa": "wir essen — mēs ēdam",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[38]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[38]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ihr esst — I spiser",
+      "deCurrent": "ihr esst",
+      "lvMasterDa": "ihr esst — jūs ēdat",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[39]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[39]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sie essen — de spiser",
+      "deCurrent": "sie essen",
+      "lvMasterDa": "sie essen — viņi / viņas ēd",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].title",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Grammatik",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[0].heading",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[0].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Sollen",
+      "deCurrent": "",
+      "lvMasterDa": "Sollen",
+      "source": "lesson"
+    }
+  ]
+}

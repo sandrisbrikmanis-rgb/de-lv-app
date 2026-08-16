@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-053",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[6].lv",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[6].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Eleverne skal lære flittigt.",
+      "deCurrent": "Die Schüler müssen fleißig lernen.",
+      "lvMasterDa": "Skolniekiem čakli jāmācās.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[7].lv",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[7].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg vil ikke spise suppen, for jeg kan ikke lide den.",
+      "deCurrent": "Ich mag die Suppe nicht essen, denn sie mundet mir nicht.",
+      "lvMasterDa": "Es negribu zupu ēst, jo tā man negaršo.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[8].lv",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[8].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem vil spise suppe?",
+      "deCurrent": "Wer will die Suppe essen?",
+      "lvMasterDa": "Kas grib zupu ēst?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[9].lv",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[9].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Elsa vil spise suppe.",
+      "deCurrent": "Elsa will die Suppe essen.",
+      "lvMasterDa": "Elza grib zupu ēst.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[10].lv",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[10].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem skal læse bogen?",
+      "deCurrent": "Wer muss das Buch lesen?",
+      "lvMasterDa": "Kam jālasa grāmata?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[11].lv",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[11].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Broren skal læse bogen.",
+      "deCurrent": "Der Bruder muss das Buch lesen.",
+      "lvMasterDa": "Brālim jālasa grāmata.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[12].lv",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[12].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg gider ikke synge.",
+      "deCurrent": "Ich mag nicht singen.",
+      "lvMasterDa": "Es negribu dziedāt.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[13].lv",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[13].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Far skal købe et bord.",
+      "deCurrent": "Der Vater muss einen Tisch kaufen.",
+      "lvMasterDa": "Tēvam jāpērk galds.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.title",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.title",
+      "fieldType": "title",
+      "daCurrent": "Lektion 15",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 15",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.subtitle",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.subtitle",
+      "fieldType": "subtitle",
+      "daCurrent": "Sollen, dürfen, essen, frugt",
+      "deCurrent": "",
+      "lvMasterDa": "sollen, dürfen, essen, augļi",
+      "source": "lesson"
+    }
+  ]
+}

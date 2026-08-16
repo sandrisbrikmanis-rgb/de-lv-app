@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-074",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[2].task",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[2].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar i ental, derefter i flertal.",
+      "deCurrent": "Der Knecht spricht mit dem Vetter, mit der Base, mit dem Mädchen.",
+      "lvMasterDa": "Atbildi vienskaitlī, pēc tam daudzskaitlī.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[3].prompt",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[3].prompt",
+      "fieldType": "cardPrompt",
+      "daCurrent": "Womit arbeitet der Knecht? (der Spaten, dieses Beil, jene Säge)",
+      "deCurrent": "Der Knecht arbeitet mit dem Spaten, mit diesem Beil, mit jener Säge.",
+      "lvMasterDa": "Womit arbeitet der Knecht? (der Spaten, dieses Beil, jene Säge)",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[3].task",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[3].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar i ental, derefter i flertal.",
+      "deCurrent": "Der Knecht arbeitet mit dem Spaten, mit diesem Beil, mit jener Säge.",
+      "lvMasterDa": "Atbildi vienskaitlī, pēc tam daudzskaitlī.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[4].prompt",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[4].prompt",
+      "fieldType": "cardPrompt",
+      "daCurrent": "Wem hilft der Knecht? (dieser Tischler, jene Frau, das Fräulein)",
+      "deCurrent": "Der Knecht hilft diesem Tischler, jener Frau, dem Fräulein.",
+      "lvMasterDa": "Wem hilft der Knecht? (dieser Tischler, jene Frau, das Fräulein)",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[4].task",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[4].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar i ental, derefter i flertal.",
+      "deCurrent": "Der Knecht hilft diesem Tischler, jener Frau, dem Fräulein.",
+      "lvMasterDa": "Atbildi vienskaitlī, pēc tam daudzskaitlī.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].title",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Oversæt",
+      "deCurrent": "",
+      "lvMasterDa": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[0].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[0].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad er bredere, døren eller vinduet?",
+      "deCurrent": "Was ist breiter, die Tür oder das Fenster?",
+      "lvMasterDa": "Kas ir platāks, durvis vai logs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[1].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[1].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Døren er bredere end vinduet.",
+      "deCurrent": "Die Tür ist breiter als das Fenster.",
+      "lvMasterDa": "Durvis platākas par logu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[2].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[2].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad tørrer pigen af?",
+      "deCurrent": "Was wischt das Mädchen ab?",
+      "lvMasterDa": "Ko meitene noslauka?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[3].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[3].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Pigen tørrer tavlen af.",
+      "deCurrent": "Das Mädchen wischt die Tafel ab.",
+      "lvMasterDa": "Meitene noslauka tāfeli.",
+      "source": "lesson"
+    }
+  ]
+}

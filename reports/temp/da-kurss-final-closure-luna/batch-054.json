@@ -1,0 +1,108 @@
+{
+  "auditType": "da_kurss_final_closure",
+  "batch": "batch-054",
+  "model": "gpt-5.6-luna",
+  "instructions": "GPT-5.6 Luna READ-ONLY final closure audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for structure only. DE STRICT READ-ONLY.",
+  "fields": [
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.intro",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.intro",
+      "fieldType": "intro",
+      "daCurrent": "Femtende forelæsning: sollen, dürfen, essen og frugtord.",
+      "deCurrent": "",
+      "lvMasterDa": "Piecpadsmitā lekcija: sollen, dürfen, essen un augļu vārdi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[0].title",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[0].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Tekst/læsning",
+      "deCurrent": "",
+      "lvMasterDa": "Teksts / Lasīšana",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].title",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Navne",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdiņi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[0]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sollen — at skulle / at burde",
+      "deCurrent": "sollen",
+      "lvMasterDa": "sollen — vajadzēt / būt pienākumam",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[1]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ich soll — jeg skal / jeg bør",
+      "deCurrent": "ich soll",
+      "lvMasterDa": "ich soll — man vajag / man jādara",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[2]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "du sollst — du skal / du bør",
+      "deCurrent": "du sollst",
+      "lvMasterDa": "du sollst — tev vajag / tev jādara",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[3]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[3]",
+      "fieldType": "sectionItem",
+      "daCurrent": "er soll — han skal / han bør",
+      "deCurrent": "er soll",
+      "lvMasterDa": "er soll — viņam vajag / viņam jādara",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[4]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[4]",
+      "fieldType": "sectionItem",
+      "daCurrent": "wir sollen — vi skal / vi bør",
+      "deCurrent": "wir sollen",
+      "lvMasterDa": "wir sollen — mums vajag / mums jādara",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[5]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[5]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ihr sollt — I skal / I bør",
+      "deCurrent": "ihr sollt",
+      "lvMasterDa": "ihr sollt — jums vajag / jums jādara",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[6]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[6]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sie sollen — de skal / de bør",
+      "deCurrent": "sie sollen",
+      "lvMasterDa": "sie sollen — viņiem / viņām vajag",
+      "source": "lesson"
+    }
+  ]
+}
