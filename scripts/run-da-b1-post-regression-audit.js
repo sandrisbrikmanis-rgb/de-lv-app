@@ -296,6 +296,9 @@ function main() {
     `- **Repair scope:** targeted regression on **${targetedSummary?.changedCards ?? "—"}** changed cards — **${repairScopeClosed ? "PASS" : "FAIL"}** (CRITICAL/HIGH/MEDIUM).`,
     `- **OWNER apply map:** **${mainVerify.exactSet}** SET + **${mainVerify.exactFjern}** FJERN verified; mismatch **${mainVerify.mismatch}**.`,
     `- **Full discovery:** **${full.summary.total}** findings (pre-repair baseline **${PRE_REPAIR_TOTAL}**).`,
+    full.summary.total
+      ? `- **Optional follow-up:** [OWNER accepted residuals](./da-b1-owner-review-residual-README.md) (**61** sectionAccent stale).`
+      : "",
     ""
   );
 
