@@ -1,0 +1,507 @@
+{
+  "batch": "batch-701-750",
+  "results": [
+    {
+      "cardId": "sentence-700",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-701",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-702",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-703",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-704",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-705",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-706",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Sei mit dem Essen noch vorsichtig.",
+      "daCurrent": "Vær forsigtig med mad.",
+      "proposedDa": "Vær stadig forsigtig med maden.",
+      "reason": "Missing 'noch/stadig' (still) and definite article on 'maden'.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-707",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Sprichst du Deutsch?",
+      "daCurrent": "Taler du tysk",
+      "proposedDa": "Taler du tysk?",
+      "reason": "Missing question mark at end of sentence.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-708",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-709",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-710",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-711",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-712",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
+      "daCurrent": "Altid på udkig efter en mulighed for at tale tysk.",
+      "proposedDa": "Jeg er altid på udkig efter en mulighed for at tale tysk.",
+      "reason": "Sentence lacks subject; reads as fragment without 'Jeg er'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-713",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-714",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-715",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-716",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Womit kann ich Ihnen helfen?",
+      "daCurrent": "Hvordan kan jeg hjælpe?",
+      "proposedDa": "Hvad kan jeg hjælpe De med?",
+      "reason": "Formal 'Ihnen' missing; informal phrasing drops the customer reference.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-717",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Haben Sie ganz frische Eier?",
+      "daCurrent": "Har du friske æg?",
+      "proposedDa": "Har De meget friske æg?",
+      "reason": "Missing intensifier 'ganz' (very/quite fresh) and formal register.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-718",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-719",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-720",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Können Sie mir ein halbes Kilo abwiegen?",
+      "daCurrent": "Kan du veje et halvt kilo?",
+      "proposedDa": "Kan du veje et halvt kilo for mig?",
+      "reason": "Missing 'mir' (for me) from the German original.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-721",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-722",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-723",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-724",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-725",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-726",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Geben Sie mir zwei Kilo Hackfleisch.",
+      "daCurrent": "Giv to kilo hakket kød.",
+      "proposedDa": "Giv mig to kilo hakket kød.",
+      "reason": "Missing 'mir' (to me) from the German original.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-727",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
+      "daCurrent": "Et brød, tak, men ikke for hårdt.",
+      "proposedDa": "Et brød, tak, men ikke for sprødt.",
+      "reason": "'Knusprig' means crispy/crunchy, not hard ('hårdt').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-728",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-729",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-730",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-731",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-732",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-733",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Können Sie mir alles nach Hause liefern?",
+      "daCurrent": "Kan du levere alt hjem til dig?",
+      "proposedDa": "Kan du levere det hele hjem til mig?",
+      "reason": "'Nach Hause liefern' means deliver to my home, not 'to you' ('til dig').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-734",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-735",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-736",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-737",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-738",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-739",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-740",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-741",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "de": "Was kostet das Meter?",
+      "daCurrent": "Hvor mange meter?",
+      "proposedDa": "Hvad koster meteren?",
+      "reason": "Asks price per meter, not quantity ('Hvor mange meter?').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-742",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Dieser Stoff gefällt mir.",
+      "daCurrent": "Jeg elsker dette stof.",
+      "proposedDa": "Jeg kan lide dette stof.",
+      "reason": "'Gefällt mir' means I like it, not I love it ('elsker').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-743",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-744",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-745",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-746",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Geben Sie mir eine hellere.",
+      "daCurrent": "Giv lysere.",
+      "proposedDa": "Giv mig en lysere.",
+      "reason": "Incomplete sentence; missing object 'mir' and 'en' (a lighter one).",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-747",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-748",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "REGISTER",
+      "de": "Welche Handschuhe wünschen Sie?",
+      "daCurrent": "Hvilken slags handsker vil du have?",
+      "proposedDa": "Hvilken slags handsker ønsker De?",
+      "reason": "Formal 'Sie' rendered as informal 'du'.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-749",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-706",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Sei mit dem Essen noch vorsichtig.",
+      "daCurrent": "Vær forsigtig med mad.",
+      "proposedDa": "Vær stadig forsigtig med maden.",
+      "reason": "Missing 'noch/stadig' (still) and definite article on 'maden'.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-707",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Sprichst du Deutsch?",
+      "daCurrent": "Taler du tysk",
+      "proposedDa": "Taler du tysk?",
+      "reason": "Missing question mark at end of sentence.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-712",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
+      "daCurrent": "Altid på udkig efter en mulighed for at tale tysk.",
+      "proposedDa": "Jeg er altid på udkig efter en mulighed for at tale tysk.",
+      "reason": "Sentence lacks subject; reads as fragment without 'Jeg er'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-716",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Womit kann ich Ihnen helfen?",
+      "daCurrent": "Hvordan kan jeg hjælpe?",
+      "proposedDa": "Hvad kan jeg hjælpe De med?",
+      "reason": "Formal 'Ihnen' missing; informal phrasing drops the customer reference.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-717",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Haben Sie ganz frische Eier?",
+      "daCurrent": "Har du friske æg?",
+      "proposedDa": "Har De meget friske æg?",
+      "reason": "Missing intensifier 'ganz' (very/quite fresh) and formal register.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-720",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Können Sie mir ein halbes Kilo abwiegen?",
+      "daCurrent": "Kan du veje et halvt kilo?",
+      "proposedDa": "Kan du veje et halvt kilo for mig?",
+      "reason": "Missing 'mir' (for me) from the German original.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-726",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Geben Sie mir zwei Kilo Hackfleisch.",
+      "daCurrent": "Giv to kilo hakket kød.",
+      "proposedDa": "Giv mig to kilo hakket kød.",
+      "reason": "Missing 'mir' (to me) from the German original.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-727",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
+      "daCurrent": "Et brød, tak, men ikke for hårdt.",
+      "proposedDa": "Et brød, tak, men ikke for sprødt.",
+      "reason": "'Knusprig' means crispy/crunchy, not hard ('hårdt').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-733",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Können Sie mir alles nach Hause liefern?",
+      "daCurrent": "Kan du levere alt hjem til dig?",
+      "proposedDa": "Kan du levere det hele hjem til mig?",
+      "reason": "'Nach Hause liefern' means deliver to my home, not 'to you' ('til dig').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-741",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "de": "Was kostet das Meter?",
+      "daCurrent": "Hvor mange meter?",
+      "proposedDa": "Hvad koster meteren?",
+      "reason": "Asks price per meter, not quantity ('Hvor mange meter?').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-742",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Dieser Stoff gefällt mir.",
+      "daCurrent": "Jeg elsker dette stof.",
+      "proposedDa": "Jeg kan lide dette stof.",
+      "reason": "'Gefällt mir' means I like it, not I love it ('elsker').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-746",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Geben Sie mir eine hellere.",
+      "daCurrent": "Giv lysere.",
+      "proposedDa": "Giv mig en lysere.",
+      "reason": "Incomplete sentence; missing object 'mir' and 'en' (a lighter one).",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-748",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "REGISTER",
+      "de": "Welche Handschuhe wünschen Sie?",
+      "daCurrent": "Hvilken slags handsker vil du have?",
+      "proposedDa": "Hvilken slags handsker ønsker De?",
+      "reason": "Formal 'Sie' rendered as informal 'du'.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 37,
+  "completedAt": "2026-08-16T14:11:48.178Z",
+  "source": "gpt-5.6-luna"
+}

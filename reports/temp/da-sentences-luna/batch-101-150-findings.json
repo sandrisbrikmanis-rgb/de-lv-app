@@ -1,0 +1,427 @@
+{
+  "batch": "batch-101-150",
+  "auditor": "GPT-5.6 Luna",
+  "sentencesAudited": 50,
+  "results": [
+    {
+      "cardId": "sentence-100",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "sentence-101",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-102",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "LOW"
+    },
+    {
+      "cardId": "sentence-103",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-104",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-105",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-106",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-107",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-108",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-109",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-110",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-111",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-112",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-113",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-114",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-115",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-116",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-117",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-118",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "sentence-119",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-120",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-121",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-122",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-123",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-124",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-125",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-126",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-127",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-128",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "sentence-129",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-130",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-131",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-132",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-133",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-134",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-135",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-136",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-137",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-138",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-139",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-140",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-141",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-142",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-143",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-144",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-145",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-146",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-147",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-148",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-149",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-100",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Aus diesem Anlass.",
+      "daCurrent": "På grund af denne tid. • I denne forbindelse",
+      "proposedDa": "I anledning af dette. / I denne forbindelse.",
+      "reason": "'På grund af denne tid' means 'because of this time', not 'on this occasion'.",
+      "problem": "Wrong first variant: 'Anlass' ≠ 'tid'.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-102",
+      "field": "lv",
+      "severity": "LOW",
+      "de": "Was hast du da angerichtet?",
+      "daCurrent": "Hvad har du lavet der",
+      "proposedDa": "Hvad har du lavet der?",
+      "reason": "Missing closing question mark.",
+      "problem": "Punctuation: interrogative lacks '?'.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-104",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Du glaubst mir anscheinend nicht.",
+      "daCurrent": "Du synes ikke at tro mig.",
+      "proposedDa": "Du tror mig åbenbart ikke.",
+      "reason": "'Du synes ikke at tro mig' is ungrammatical/unnatural. Standard: 'Du tror mig tydeligvis/åbenbart ikke'.",
+      "problem": "Unnatural grammar for 'Du glaubst mir anscheinend nicht'.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-106",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Stell dich nicht so an!",
+      "daCurrent": "Lad være med at lade som om!",
+      "proposedDa": "Hold op med at stille dig sådan an!",
+      "reason": "'Stell dich nicht so an' means don't put on airs/act pretentiously. 'Lad være med at lade som om' means stop pretending — related but not equivalent.",
+      "problem": "Idiomatic nuance mismatch.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-107",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "An die Arbeit gehen.",
+      "daCurrent": "Kom på arbejde.",
+      "proposedDa": "Gå i gang med arbejdet. / Tag fat på arbejdet.",
+      "reason": "'An die Arbeit gehen' means to set/get to work. 'Kom på arbejde' means arrive at the workplace.",
+      "problem": "Semantic mismatch: start working vs arrive at work.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-118",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Wir müssen das Treffen verschieben.",
+      "daCurrent": "Vi er nødt til at omlægge mødet.",
+      "proposedDa": "Vi er nødt til at udskyde mødet.",
+      "reason": "'verschieben' means postpone/reschedule. 'omlægge' means restructure/reorganise.",
+      "problem": "Wrong verb: postpone vs restructure.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-119",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Sie hat mich aufgeregt.",
+      "daCurrent": "Hun irriterede mig.",
+      "proposedDa": "Hun gjorde mig ophidset / Hun gjorde mig urolig.",
+      "reason": "'aufgeregt' means agitated/upset/excited, not merely 'irritated'.",
+      "problem": "Emotional nuance mismatch.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-121",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Auf der Stelle.",
+      "daCurrent": "Straks.",
+      "proposedDa": "På stedet. / Med det samme.",
+      "reason": "'Auf der Stelle' can mean both 'immediately' and 'on the spot' (physically). 'Straks' only covers the temporal sense.",
+      "problem": "Lost spatial meaning of polysemous phrase.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-122",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Für den Schaden aufkommen.",
+      "daCurrent": "Dæk skaderne.",
+      "proposedDa": "Dække skaderne. / Stå for skaderne.",
+      "reason": "'Für den Schaden aufkommen' is an idiom meaning to bear/cover costs of damage. 'Dæk skaderne' is awkward imperative.",
+      "problem": "Unnatural idiom rendering.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-128",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Geh mir aus den Augen!",
+      "daCurrent": "Se ikke på mig igen!",
+      "proposedDa": "Forsvind! / Gå væk!",
+      "reason": "'Geh mir aus den Augen!' means get out of my sight. 'Se ikke på mig igen!' means don't look at me again — different imperative.",
+      "problem": "Wrong imperative semantics.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-129",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Unter vier Augen.",
+      "daCurrent": "I to. • Stille og roligt",
+      "proposedDa": "Under fire øjne. / Alene sammen.",
+      "reason": "'Stille og roligt' means quietly/calmly, not 'in private/confidentially' (unter vier Augen).",
+      "problem": "Wrong second variant in multi-variant string.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-140",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Wann wurden die Meisterschaftskämpfe ausgetragen?",
+      "daCurrent": "Hvornår var mesterskabet?",
+      "proposedDa": "Hvornår blev mesterskabet afholdt?",
+      "reason": "German asks when championships were held/contested ('ausgetragen'). DA only asks when the championship was, losing the event sense.",
+      "problem": "Lost verbal nuance of 'ausgetragen'.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-142",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Einfluss ausüben.",
+      "daCurrent": "At påvirke.",
+      "proposedDa": "Udøve indflydelse.",
+      "reason": "'Einfluss ausüben' specifically means to exert influence, not generic 'påvirke'.",
+      "problem": "Lost specificity of 'Einfluss'.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-145",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Mit der Bahn.",
+      "daCurrent": "Med jernbane.",
+      "proposedDa": "Med toget. / Med banen.",
+      "reason": "Identical DA as sentence-144 despite different DE phrasing; 'Mit der Bahn' is more naturally 'med toget'.",
+      "problem": "Duplicate DA for distinct DE sentences.",
+      "status": "PENDING"
+    }
+  ]
+}

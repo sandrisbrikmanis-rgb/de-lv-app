@@ -1,0 +1,450 @@
+{
+  "batch": "batch-601-650",
+  "results": [
+    {
+      "cardId": "sentence-600",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-601",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-602",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-603",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-604",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-605",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-606",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-607",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Muss ich in Koblenz umsteigen?",
+      "daCurrent": "Skal jeg skifte plads i Koblenz?",
+      "proposedDa": "Skal jeg skifte tog i Koblenz?",
+      "reason": "'Umsteigen' means changing trains, not changing seats ('skifte plads').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-608",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Ja, dort musst du umsteigen.",
+      "daCurrent": "Ja, du skal skifte plads der.",
+      "proposedDa": "Ja, du skal skifte tog der.",
+      "reason": "'Umsteigen' means changing trains, not changing seats ('skifte plads').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-609",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Ist dieser Platz frei?",
+      "daCurrent": "Er dette sted ledigt?",
+      "proposedDa": "Er dette sæde ledigt?",
+      "reason": "'Platz' here means seat, not place ('sted').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-610",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-611",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-612",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-613",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-614",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-615",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-616",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-617",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Wo muss ich umsteigen?",
+      "daCurrent": "Hvor skal jeg overføre?",
+      "proposedDa": "Hvor skal jeg skifte tog?",
+      "reason": "'Overføre' is not used for changing trains; 'skifte tog' is correct.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-618",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-619",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Dieser Wagen ist für Nichtraucher.",
+      "daCurrent": "Denne vogn er ikke-ryger.",
+      "proposedDa": "Denne vogn er for ikke-rygere.",
+      "reason": "Awkward phrasing; standard Danish is 'for ikke-rygere'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-620",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-621",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "de": "Hast du etwas zu verzollen?",
+      "daCurrent": "Har du noget at rydde op?",
+      "proposedDa": "Har du noget at fortolde?",
+      "reason": "'Verzollen' means customs declaration, not cleaning up ('rydde op').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-622",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-623",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-624",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Haben Sie freie Zimmer?",
+      "daCurrent": "Har du nogle ledige værelser?",
+      "proposedDa": "Har De ledige værelser?",
+      "reason": "Formal German 'Sie' should map to formal Danish, not informal 'du'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-625",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-626",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-627",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-628",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "de": "Die Rechnung, bitte!",
+      "daCurrent": "Bill, tak!",
+      "proposedDa": "Regningen, tak!",
+      "reason": "English remnant 'Bill' instead of Danish 'regning'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-629",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-630",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-631",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-632",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-633",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-634",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-635",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-636",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-637",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-638",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-639",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Kellner, zahlen bitte!",
+      "daCurrent": "Tjener, betal venligst!",
+      "proposedDa": "Tjener, regningen, tak!",
+      "reason": "Customer asks to pay the bill, not instructs waiter to pay.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-640",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-641",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-642",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-643",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-644",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-645",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Haben Sie etwas Erfrischendes?",
+      "daCurrent": "Har du noget forfriskende?",
+      "proposedDa": "Har De noget forfriskende?",
+      "reason": "Formal German 'Sie' should map to formal Danish, not informal 'du'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-646",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-647",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-648",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-649",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-607",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Muss ich in Koblenz umsteigen?",
+      "daCurrent": "Skal jeg skifte plads i Koblenz?",
+      "proposedDa": "Skal jeg skifte tog i Koblenz?",
+      "reason": "'Umsteigen' means changing trains, not changing seats ('skifte plads').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-608",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Ja, dort musst du umsteigen.",
+      "daCurrent": "Ja, du skal skifte plads der.",
+      "proposedDa": "Ja, du skal skifte tog der.",
+      "reason": "'Umsteigen' means changing trains, not changing seats ('skifte plads').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-609",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Ist dieser Platz frei?",
+      "daCurrent": "Er dette sted ledigt?",
+      "proposedDa": "Er dette sæde ledigt?",
+      "reason": "'Platz' here means seat, not place ('sted').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-617",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Wo muss ich umsteigen?",
+      "daCurrent": "Hvor skal jeg overføre?",
+      "proposedDa": "Hvor skal jeg skifte tog?",
+      "reason": "'Overføre' is not used for changing trains; 'skifte tog' is correct.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-619",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Dieser Wagen ist für Nichtraucher.",
+      "daCurrent": "Denne vogn er ikke-ryger.",
+      "proposedDa": "Denne vogn er for ikke-rygere.",
+      "reason": "Awkward phrasing; standard Danish is 'for ikke-rygere'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-621",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "de": "Hast du etwas zu verzollen?",
+      "daCurrent": "Har du noget at rydde op?",
+      "proposedDa": "Har du noget at fortolde?",
+      "reason": "'Verzollen' means customs declaration, not cleaning up ('rydde op').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-624",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Haben Sie freie Zimmer?",
+      "daCurrent": "Har du nogle ledige værelser?",
+      "proposedDa": "Har De ledige værelser?",
+      "reason": "Formal German 'Sie' should map to formal Danish, not informal 'du'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-628",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "de": "Die Rechnung, bitte!",
+      "daCurrent": "Bill, tak!",
+      "proposedDa": "Regningen, tak!",
+      "reason": "English remnant 'Bill' instead of Danish 'regning'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-639",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Kellner, zahlen bitte!",
+      "daCurrent": "Tjener, betal venligst!",
+      "proposedDa": "Tjener, regningen, tak!",
+      "reason": "Customer asks to pay the bill, not instructs waiter to pay.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-645",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Haben Sie etwas Erfrischendes?",
+      "daCurrent": "Har du noget forfriskende?",
+      "proposedDa": "Har De noget forfriskende?",
+      "reason": "Formal German 'Sie' should map to formal Danish, not informal 'du'.",
+      "confidence": "high",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 40,
+  "completedAt": "2026-08-16T14:11:48.178Z",
+  "source": "gpt-5.6-luna"
+}

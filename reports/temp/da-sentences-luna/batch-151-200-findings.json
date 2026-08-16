@@ -1,0 +1,499 @@
+{
+  "batch": "batch-151-200",
+  "auditor": "GPT-5.6 Luna",
+  "sentencesAudited": 50,
+  "results": [
+    {
+      "cardId": "sentence-150",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "sentence-151",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "sentence-152",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-153",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-154",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-155",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-156",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-157",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-158",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-159",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-160",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "sentence-161",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-162",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-163",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-164",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "sentence-165",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-166",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "sentence-167",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-168",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-169",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-170",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "sentence-171",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-172",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "sentence-173",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-174",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-175",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "sentence-176",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-177",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-178",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-179",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "LOW"
+    },
+    {
+      "cardId": "sentence-180",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "sentence-181",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-182",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-183",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-184",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-185",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-186",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-187",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-188",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "sentence-189",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-190",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-191",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-192",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-193",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-194",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-195",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-196",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-197",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "sentence-198",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-199",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-150",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Erz bauen.",
+      "daCurrent": "Få malm.",
+      "proposedDa": "Udvind malm. / Bryde malm.",
+      "reason": "'Erz bauen' means to mine/extract ore. 'Få malm' (get ore) does not convey mining activity.",
+      "problem": "Mining verb not translated.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-151",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Mist bauen.",
+      "daCurrent": "Skud. • Gør dig selv til grin",
+      "proposedDa": "Lave ballade. / Fucke op. / Gøre dig selv til grin.",
+      "reason": "'Mist bauen' (coll.) means to mess up/make a blunder. 'Skud' alone means 'shot' and is incorrect.",
+      "problem": "Wrong first variant ('Skud') for colloquial idiom.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-152",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Ich bin beauftragt.",
+      "daCurrent": "Jeg er blevet tildelt et job.",
+      "proposedDa": "Jeg er blevet bemyndiget. / Jeg har fået til opgave.",
+      "reason": "'beauftragt' means commissioned/assigned a task, not simply 'got a job'.",
+      "problem": "Semantic narrowing of 'beauftragt'.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-154",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Ich bedauere ihn.",
+      "daCurrent": "Jeg har ondt af ham.",
+      "proposedDa": "Jeg beklager det for ham.",
+      "reason": "'bedauern' means to regret, not 'have pity on' ('have ondt af').",
+      "problem": "Verb mismatch: regret vs pity.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-157",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Sie sieht bedrückt aus.",
+      "daCurrent": "Hun ser deprimeret ud.",
+      "proposedDa": "Hun ser nedtrykt ud. / Hun ser bedrøvet ud.",
+      "reason": "'bedrückt' means dejected/oppressed in spirit, not clinically 'depressed' ('deprimeret').",
+      "problem": "Overly clinical rendering of 'bedrückt'.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-160",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Mit der Post befördern.",
+      "daCurrent": "Send med mail.",
+      "proposedDa": "Sende med posten.",
+      "reason": "'Mit der Post befördern' means send by postal mail. 'mail' in Danish often implies email.",
+      "problem": "Postal vs electronic mail confusion.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-163",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Am Beginn.",
+      "daCurrent": "I begyndelsen.",
+      "proposedDa": "Ved begyndelsen. / Til at begynde med.",
+      "reason": "Identical DA as sentence-162 for distinct DE ('Am Beginn' vs 'Zu Beginn').",
+      "problem": "Duplicate DA for distinct DE sentences.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-164",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Bei Beginn.",
+      "daCurrent": "Starter",
+      "proposedDa": "Ved begyndelsen. / Ved starten.",
+      "reason": "'Bei Beginn' is a prepositional phrase 'at the beginning/on commencement', not the verb 'Starter'.",
+      "problem": "Fragment rendered as verb; incomplete translation.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-166",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Mit seiner Begleitung.",
+      "daCurrent": "Med akkompagnement.",
+      "proposedDa": "Med sin ledsager. / Med sin ledsagelse.",
+      "reason": "'Begleitung' means human escort/companion. 'akkompagnement' means musical accompaniment.",
+      "problem": "Wrong domain: person vs music.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-170",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Bei Sinnen sein.",
+      "daCurrent": "At være fornuftig.",
+      "proposedDa": "Være ved sine sanser. / Være ved fuld bevidsthed.",
+      "reason": "'Bei Sinnen sein' means to be conscious/of sound mind. 'fornuftig' means reasonable/sensible.",
+      "problem": "Consciousness vs reason mismatch.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-172",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Bei weitem nicht so.",
+      "daCurrent": "Slet ikke.",
+      "proposedDa": "Langt fra så … / På langt nær ikke så …",
+      "reason": "'Bei weitem nicht so' is a comparative ('not nearly so/by far not as'). 'Slet ikke' means 'not at all' — stronger and non-comparative.",
+      "problem": "Lost comparative structure.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-175",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "de": "Beifall finden.",
+      "daCurrent": "Indhent samtykke.",
+      "proposedDa": "Få bifald. / Vind anerkendelse.",
+      "reason": "'Beifall finden' means to meet with applause/approval. 'Indhent samtykke' means to obtain consent — entirely different.",
+      "problem": "Critical mistranslation: applause vs consent.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-176",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Beileid aussprechen.",
+      "daCurrent": "Udtryk kondolence.",
+      "proposedDa": "Udtrykke medfølelse. / Kondolere.",
+      "reason": "Identical DA as sentence-139 for related but distinct DE phrasing.",
+      "problem": "Duplicate DA for distinct DE sentences.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-177",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Auf eigenen Beinen stehen.",
+      "daCurrent": "At være økonomisk uafhængig.",
+      "proposedDa": "Stå på egne ben. / Klare sig selv.",
+      "reason": "'Auf eigenen Beinen stehen' means independence generally, not only economic.",
+      "problem": "Overly narrow rendering (economic only).",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-179",
+      "field": "lv",
+      "severity": "LOW",
+      "de": "Beistand leisten.",
+      "daCurrent": "At hjælpe. • Yde assistance",
+      "proposedDa": "Yde støtte. / Hjælpe.",
+      "reason": "Variant 'Yde assistance' uses English loanword where Danish 'hjælp/støtte' is natural.",
+      "problem": "Foreign remnant: English 'assistance' in variant.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-180",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Beitrag leisten.",
+      "daCurrent": "Invester din andel.",
+      "proposedDa": "Bidrage. / Yde et bidrag.",
+      "reason": "'Beitrag leisten' means to make/contribute one's share. 'Invester din andel' implies financial investment.",
+      "problem": "Contribution vs investment mismatch.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-183",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Belegte Brötchen.",
+      "daCurrent": "Sandwich med toppings.",
+      "proposedDa": "Smørrebrød.",
+      "reason": "'Belegte Brötchen' are open-faced topped bread rolls. 'Sandwich med toppings' uses English and is not idiomatic Danish.",
+      "problem": "Foreign remnant / non-idiomatic: English 'sandwich/toppings'.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-188",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Bereit sein.",
+      "daCurrent": "Vær klar. • Vær i fred",
+      "proposedDa": "Være klar. / Være parat.",
+      "reason": "'Vær i fred' means 'be at peace/leave me alone', not 'be ready' (bereit sein).",
+      "problem": "Wrong second variant in multi-variant string.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-197",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Beim besten Willen.",
+      "daCurrent": "Hvad end du vil.",
+      "proposedDa": "Om jeg så skulle. / Med al vilje i verden.",
+      "reason": "'Beim besten Willen' is an idiom expressing inability despite goodwill ('much as I'd like to'). 'Hvad end du vil' means 'whatever you want'.",
+      "problem": "Idiom completely mistranslated.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-198",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Am besten.",
+      "daCurrent": "Den bedste.",
+      "proposedDa": "Helst. / Det bedste ville være …",
+      "reason": "'Am besten' is adverbial 'preferably/best (to do X)', not nominal 'den bedste' (the best one).",
+      "problem": "Part of speech mismatch: adverb vs adjective.",
+      "status": "PENDING"
+    }
+  ]
+}

@@ -1,0 +1,469 @@
+{
+  "batch": "batch-651-700",
+  "results": [
+    {
+      "cardId": "sentence-650",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-651",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Erinnere mich morgen daran zu schreiben!",
+      "daCurrent": "Mind mig om at skrive under i morgen!",
+      "proposedDa": "Mind mig om at skrive i morgen!",
+      "reason": "'Schreiben' means write, not sign ('skrive under').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-652",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
+      "daCurrent": "Send venligst dette brev i postkassen!",
+      "proposedDa": "Smid venligst dette brev i postkassen!",
+      "reason": "'Werfen' means put/throw into mailbox; 'send' implies mailing, not depositing.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-653",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-654",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Kann ich dich später anrufen?",
+      "daCurrent": "Kan jeg ringe til dig senere",
+      "proposedDa": "Kan jeg ringe til dig senere?",
+      "reason": "Missing question mark at end of sentence.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-655",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-656",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Bitte schneiden Sie mir die Haare.",
+      "daCurrent": "Klip venligst mit hår.",
+      "proposedDa": "Vil De venligst klippe mit hår?",
+      "reason": "Formal 'Sie' should use formal address 'De', not bare imperative.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-657",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-658",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-659",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "de": "Es fängt um halb acht an.",
+      "daCurrent": "Det starter klokken halv ni.",
+      "proposedDa": "Det starter klokken halv otte.",
+      "reason": "German 'halb acht' (7:30) wrongly translated as Danish 'halv ni' (8:30).",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-660",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-661",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-662",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Wir lassen die Jacken in der Garderobe.",
+      "daCurrent": "Lad os lade jakkerne blive i garderoben.",
+      "proposedDa": "Vi efterlader jakkerne i garderoben.",
+      "reason": "Adds unsolicited 'lad os'; German simply states they leave jackets at cloakroom.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-663",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-664",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-665",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-666",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-667",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-668",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-669",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-670",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-671",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-672",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-673",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-674",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Ich stehe mit meinem Freund in Kontakt.",
+      "daCurrent": "Jeg er i korrespondance med min ven.",
+      "proposedDa": "Jeg holder kontakt med min ven.",
+      "reason": "'Korrespondance' implies letter-writing; 'in Kontakt' is general contact.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-675",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-676",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "de": "Ist alles eingeladen?",
+      "daCurrent": "Er alt indlæst?",
+      "proposedDa": "Er alle inviteret?",
+      "reason": "'Eingeladen' means invited, not uploaded/loaded ('indlæst').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-677",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-678",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Nun können wir alles wieder aufräumen.",
+      "daCurrent": "Nu kan vi samle det hele igen.",
+      "proposedDa": "Nu kan vi rydde op igen.",
+      "reason": "'Aufräumen' means tidy up, not gather/collect ('samle').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-679",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Wie viele Zimmer habt ihr?",
+      "daCurrent": "Hvor mange rum har du?",
+      "proposedDa": "Hvor mange rum har I?",
+      "reason": "Plural 'ihr' wrongly rendered as singular informal 'du'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-680",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-681",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Kannst du schwimmen?",
+      "daCurrent": "Kan du svømme",
+      "proposedDa": "Kan du svømme?",
+      "reason": "Missing question mark at end of sentence.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-682",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-683",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-684",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-685",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-686",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-687",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-688",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-689",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-690",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-691",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-692",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-693",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-694",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-695",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-696",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-697",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-698",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-699",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-651",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Erinnere mich morgen daran zu schreiben!",
+      "daCurrent": "Mind mig om at skrive under i morgen!",
+      "proposedDa": "Mind mig om at skrive i morgen!",
+      "reason": "'Schreiben' means write, not sign ('skrive under').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-652",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
+      "daCurrent": "Send venligst dette brev i postkassen!",
+      "proposedDa": "Smid venligst dette brev i postkassen!",
+      "reason": "'Werfen' means put/throw into mailbox; 'send' implies mailing, not depositing.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-654",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Kann ich dich später anrufen?",
+      "daCurrent": "Kan jeg ringe til dig senere",
+      "proposedDa": "Kan jeg ringe til dig senere?",
+      "reason": "Missing question mark at end of sentence.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-656",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Bitte schneiden Sie mir die Haare.",
+      "daCurrent": "Klip venligst mit hår.",
+      "proposedDa": "Vil De venligst klippe mit hår?",
+      "reason": "Formal 'Sie' should use formal address 'De', not bare imperative.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-659",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "de": "Es fängt um halb acht an.",
+      "daCurrent": "Det starter klokken halv ni.",
+      "proposedDa": "Det starter klokken halv otte.",
+      "reason": "German 'halb acht' (7:30) wrongly translated as Danish 'halv ni' (8:30).",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-662",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Wir lassen die Jacken in der Garderobe.",
+      "daCurrent": "Lad os lade jakkerne blive i garderoben.",
+      "proposedDa": "Vi efterlader jakkerne i garderoben.",
+      "reason": "Adds unsolicited 'lad os'; German simply states they leave jackets at cloakroom.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-674",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Ich stehe mit meinem Freund in Kontakt.",
+      "daCurrent": "Jeg er i korrespondance med min ven.",
+      "proposedDa": "Jeg holder kontakt med min ven.",
+      "reason": "'Korrespondance' implies letter-writing; 'in Kontakt' is general contact.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-676",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "de": "Ist alles eingeladen?",
+      "daCurrent": "Er alt indlæst?",
+      "proposedDa": "Er alle inviteret?",
+      "reason": "'Eingeladen' means invited, not uploaded/loaded ('indlæst').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-678",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Nun können wir alles wieder aufräumen.",
+      "daCurrent": "Nu kan vi samle det hele igen.",
+      "proposedDa": "Nu kan vi rydde op igen.",
+      "reason": "'Aufräumen' means tidy up, not gather/collect ('samle').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-679",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Wie viele Zimmer habt ihr?",
+      "daCurrent": "Hvor mange rum har du?",
+      "proposedDa": "Hvor mange rum har I?",
+      "reason": "Plural 'ihr' wrongly rendered as singular informal 'du'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-681",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Kannst du schwimmen?",
+      "daCurrent": "Kan du svømme",
+      "proposedDa": "Kan du svømme?",
+      "reason": "Missing question mark at end of sentence.",
+      "confidence": "high",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 39,
+  "completedAt": "2026-08-16T14:11:48.178Z",
+  "source": "gpt-5.6-luna"
+}

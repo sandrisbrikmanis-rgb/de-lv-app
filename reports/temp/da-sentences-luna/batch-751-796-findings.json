@@ -1,0 +1,449 @@
+{
+  "batch": "batch-751-796",
+  "results": [
+    {
+      "cardId": "sentence-750",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "So, nun passen sie gut.",
+      "daCurrent": "Så det fungerer fint nu.",
+      "proposedDa": "Så passer de godt nu.",
+      "reason": "'Passen' means fit (clothing), not function/work ('fungerer').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-751",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-752",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-753",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-754",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-755",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-756",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-757",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-758",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-759",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Können Sie die Schuhe heute reparieren?",
+      "daCurrent": "Kan du ordne dine sko i dag?",
+      "proposedDa": "Kan du reparere skoene i dag?",
+      "reason": "'Dine sko' implies customer's shoes addressed to shopkeeper; should be 'the shoes'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-760",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "de": "Wann kann ich die Schuhe abholen?",
+      "daCurrent": "Hvornår kan jeg medbringe skoene?",
+      "proposedDa": "Hvornår kan jeg hente skoene?",
+      "reason": "'Abholen' means pick up, not bring ('medbringe').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-761",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "ORTHOGRAPHY",
+      "de": "Meine Armbanduhr funktioniert nicht.",
+      "daCurrent": "Mit armbåndsur virker ikke.",
+      "proposedDa": "Mitt armbåndsur virker ikke.",
+      "reason": "Typo: 'Mit' should be 'Mitt' (my wristwatch).",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-762",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Sie geht fünf Minuten vor.",
+      "daCurrent": "Det er fem minutter for tidligt.",
+      "proposedDa": "Den går fem minutter for hurtigt.",
+      "reason": "Watch runs fast ('geht vor'), not that time is too early.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-763",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-764",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-765",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-766",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-767",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-768",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-769",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
+      "daCurrent": "Pak venligst og send hjem.",
+      "proposedDa": "Pak det venligst ind og send det hjem til mig.",
+      "reason": "Missing 'es/mir' (it, to me) and 'einpacken' (wrap/pack up).",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-770",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-771",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "de": "Bitte, fotografieren Sie mich.",
+      "daCurrent": "Tag venligst ein Bild af mig.",
+      "proposedDa": "Tag venligst et billede af mig.",
+      "reason": "German remnant 'ein' instead of Danish 'et billede'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-772",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-773",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Wann kann ich das Probebild sehen?",
+      "daCurrent": "Hvornår kan jeg se en prøve?",
+      "proposedDa": "Hvornår kan jeg se prøvebilledet?",
+      "reason": "'Probebild' is test/preview photo, not vague 'en prøve'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-774",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-775",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-776",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Die Fotos sind gut geworden.",
+      "daCurrent": "Billederne blev godt.",
+      "proposedDa": "Billederne blev gode.",
+      "reason": "Plural subject requires plural adjective 'gode', not 'godt'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-777",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-778",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-779",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-780",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-781",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-782",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-783",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-784",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-785",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Wie gefallen dir diese Ohrringe?",
+      "daCurrent": "Hvordan kan du lide disse øreringe?",
+      "proposedDa": "Hvad synes du om disse øreringer?",
+      "reason": "Ungrammatical construction; 'Hvordan kan du lide' is not valid Danish.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-786",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-787",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-788",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-789",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-790",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-791",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-792",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Bekomme ich die Schachtel gratis?",
+      "daCurrent": "Fik jeg kassen gratis?",
+      "proposedDa": "Får jeg æsken gratis?",
+      "reason": "Present question wrongly in past tense; 'Schachtel' is box ('æske'), not 'kasse'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-793",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-794",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-795",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-750",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "So, nun passen sie gut.",
+      "daCurrent": "Så det fungerer fint nu.",
+      "proposedDa": "Så passer de godt nu.",
+      "reason": "'Passen' means fit (clothing), not function/work ('fungerer').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-759",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Können Sie die Schuhe heute reparieren?",
+      "daCurrent": "Kan du ordne dine sko i dag?",
+      "proposedDa": "Kan du reparere skoene i dag?",
+      "reason": "'Dine sko' implies customer's shoes addressed to shopkeeper; should be 'the shoes'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-760",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "de": "Wann kann ich die Schuhe abholen?",
+      "daCurrent": "Hvornår kan jeg medbringe skoene?",
+      "proposedDa": "Hvornår kan jeg hente skoene?",
+      "reason": "'Abholen' means pick up, not bring ('medbringe').",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-761",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "ORTHOGRAPHY",
+      "de": "Meine Armbanduhr funktioniert nicht.",
+      "daCurrent": "Mit armbåndsur virker ikke.",
+      "proposedDa": "Mitt armbåndsur virker ikke.",
+      "reason": "Typo: 'Mit' should be 'Mitt' (my wristwatch).",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-762",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Sie geht fünf Minuten vor.",
+      "daCurrent": "Det er fem minutter for tidligt.",
+      "proposedDa": "Den går fem minutter for hurtigt.",
+      "reason": "Watch runs fast ('geht vor'), not that time is too early.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-769",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
+      "daCurrent": "Pak venligst og send hjem.",
+      "proposedDa": "Pak det venligst ind og send det hjem til mig.",
+      "reason": "Missing 'es/mir' (it, to me) and 'einpacken' (wrap/pack up).",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-771",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "de": "Bitte, fotografieren Sie mich.",
+      "daCurrent": "Tag venligst ein Bild af mig.",
+      "proposedDa": "Tag venligst et billede af mig.",
+      "reason": "German remnant 'ein' instead of Danish 'et billede'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-773",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Wann kann ich das Probebild sehen?",
+      "daCurrent": "Hvornår kan jeg se en prøve?",
+      "proposedDa": "Hvornår kan jeg se prøvebilledet?",
+      "reason": "'Probebild' is test/preview photo, not vague 'en prøve'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-776",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Die Fotos sind gut geworden.",
+      "daCurrent": "Billederne blev godt.",
+      "proposedDa": "Billederne blev gode.",
+      "reason": "Plural subject requires plural adjective 'gode', not 'godt'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-785",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Wie gefallen dir diese Ohrringe?",
+      "daCurrent": "Hvordan kan du lide disse øreringe?",
+      "proposedDa": "Hvad synes du om disse øreringer?",
+      "reason": "Ungrammatical construction; 'Hvordan kan du lide' is not valid Danish.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-792",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Bekomme ich die Schachtel gratis?",
+      "daCurrent": "Fik jeg kassen gratis?",
+      "proposedDa": "Får jeg æsken gratis?",
+      "reason": "Present question wrongly in past tense; 'Schachtel' is box ('æske'), not 'kasse'.",
+      "confidence": "high",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 35,
+  "completedAt": "2026-08-16T14:11:48.178Z",
+  "source": "gpt-5.6-luna"
+}

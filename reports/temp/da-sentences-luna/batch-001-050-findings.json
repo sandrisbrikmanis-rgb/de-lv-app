@@ -1,0 +1,499 @@
+{
+  "batch": "batch-001-050",
+  "auditor": "GPT-5.6 Luna",
+  "sentencesAudited": 50,
+  "results": [
+    {
+      "cardId": "sentence-0",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-1",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-2",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-3",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-4",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-5",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "sentence-6",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "sentence-7",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "sentence-8",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "sentence-9",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-10",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "sentence-11",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-12",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-13",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-14",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-15",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-16",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-17",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-18",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-19",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-20",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-21",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-22",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-23",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-24",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-25",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-26",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-27",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-28",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "sentence-29",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "sentence-30",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "sentence-31",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-32",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-33",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-34",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-35",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-36",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "sentence-37",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "sentence-38",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-39",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-40",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-41",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-42",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "sentence-43",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-44",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-45",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "sentence-46",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-47",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "sentence-48",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-49",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-1",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Wenn nichts dazwischenkommt.",
+      "daCurrent": "Hvis intet forstyrrer. • Hvis alt går efter planen.",
+      "proposedDa": "Hvis intet kommer i vejen.",
+      "reason": "Second variant 'Hvis alt går efter planen' means 'if all goes according to plan', which is not equivalent to 'Wenn nichts dazwischenkommt' (if nothing gets in the way).",
+      "problem": "Incorrect alternative translation in multi-variant string.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-5",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Desto mehr.",
+      "daCurrent": "Jo flere.",
+      "proposedDa": "Jo mere.",
+      "reason": "'Desto mehr' means 'all the more / so much the more' (uncountable comparative), not 'the more [items]'. Danish 'Jo flere' means 'the more [countable things]'.",
+      "problem": "Semantic mismatch: countable 'flere' used where German expresses uncountable 'mehr'.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-6",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Je mehr, desto besser.",
+      "daCurrent": "Jo flere jo bedre.",
+      "proposedDa": "Jo mere, jo bedre.",
+      "reason": "Standard Danish idiom is 'Jo mere, jo bedre'. 'Jo flere' is grammatically wrong for this general comparative proverb.",
+      "problem": "Wrong comparative form ('flere' vs 'mere') in fixed expression.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-7",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "de": "Alles deutet auf Regen.",
+      "daCurrent": "Alt peger på sagen.",
+      "proposedDa": "Alt peger på regn.",
+      "reason": "German 'Regen' means rain. Danish 'sagen' means 'the matter/case', producing a completely different meaning.",
+      "problem": "Critical mistranslation: 'Regen' rendered as 'sagen'.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-8",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Damit ist mir wenig gedient.",
+      "daCurrent": "Det giver lidt mening for mig.",
+      "proposedDa": "Det hjælper mig ikke ret meget.",
+      "reason": "'Damit ist mir wenig gedient' means the thing is of little use/benefit to the speaker. The DA says the opposite nuance ('giver lidt mening' = makes a little sense).",
+      "problem": "Semantic reversal: usefulness vs making sense.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-10",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "de": "Sprechen Sie doch!",
+      "daCurrent": "Sig op!",
+      "proposedDa": "Tal dog! / Sig noget!",
+      "reason": "'Sprechen Sie doch!' is an urging to speak. 'Sig op!' means 'resign/quit (a job)' in Danish — a dangerous false friend.",
+      "problem": "Critical false friend: 'Sig op' does not mean 'speak'.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-11",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Es donnert.",
+      "daCurrent": "Torden brøler.",
+      "proposedDa": "Det tordner.",
+      "reason": "'Torden brøler' is unnatural Danish; standard weather expression is 'Det tordner' or 'Der tordner'.",
+      "problem": "Unnatural phrasing for 'Es donnert'.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-17",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Kein Durchgang!",
+      "daCurrent": "Gå ikke igennem! • Udgang lukket!",
+      "proposedDa": "Ingen adgang! / Adgang forbudt!",
+      "reason": "'Kein Durchgang!' is a no-entry/no-through-traffic sign. 'Udgang lukket' means 'exit closed', which is a different concept.",
+      "problem": "Wrong alternative variant ('Udgang lukket') in multi-variant string.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-18",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Darf ich Sie bitten?",
+      "daCurrent": "Må jeg spørge dig",
+      "proposedDa": "Må jeg bede Dem? / Må jeg spørge Dem?",
+      "reason": "German 'Sie' (formal) is rendered as 'dig' (informal). The sentence is also truncated (missing '?') and 'bitten' is broader than 'spørge'.",
+      "problem": "Register mismatch, incomplete sentence, and imprecise verb choice.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-28",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Es war einmal.",
+      "daCurrent": "Engang var der.",
+      "proposedDa": "Der var engang …",
+      "reason": "'Es war einmal' is the standard fairy-tale opener. 'Engang var der' is incomplete and non-idiomatic in Danish.",
+      "problem": "Non-idiomatic, incomplete rendering of fixed phrase.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-29",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Steigen Sie bitte ein!",
+      "daCurrent": "Kom venligst ind!",
+      "proposedDa": "Stig venligst ind! / Tag venligst plads!",
+      "reason": "'Steigen Sie ein' means get into a vehicle. 'Kom ind' means enter a room/building.",
+      "problem": "Wrong domain: vehicle entry vs entering a space.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-30",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Treten Sie ein!",
+      "daCurrent": "Kom venligst ind!",
+      "proposedDa": "Træd venligst ind!",
+      "reason": "'Treten Sie ein!' means step/come in (typically into a room). Current DA matches sentence-29 and does not reflect 'eintreten'.",
+      "problem": "Wrong translation and duplicate of sentence-29 DA.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-36",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "de": "Wer war der Erste?",
+      "daCurrent": "Wen var først?",
+      "proposedDa": "Hvem var den første?",
+      "reason": "'Wen' is German, not Danish. Danish interrogative is 'Hvem'.",
+      "problem": "Foreign remnant: German 'Wen' in Danish field.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-37",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "de": "Wer fehlt heute?",
+      "daCurrent": "Wen er ikke kommet i dag?",
+      "proposedDa": "Hvem mangler i dag?",
+      "reason": "'Wen' is German. Meaning should be 'who is absent today', not 'who has not come'.",
+      "problem": "Foreign remnant: German 'Wen' in Danish field.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-38",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Was fehlt dir?",
+      "daCurrent": "Hvad er der galt med dig?",
+      "proposedDa": "Hvad mangler du? / Hvad er der i vejen?",
+      "reason": "'Was fehlt dir?' asks what is wrong/what do you lack (mild concern). 'Hvad er der galt med dig?' is accusatory ('what is wrong with you').",
+      "problem": "Tone/semantic mismatch — too accusatory.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-40",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Was soll das heißen?",
+      "daCurrent": "Hvad betyder det?",
+      "proposedDa": "Hvad skal det betyde?",
+      "reason": "'Was soll das heißen?' expresses indignation ('what is that supposed to mean?'). Neutral 'Hvad betyder det?' loses this.",
+      "problem": "Lost pragmatic force of indignant question.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-42",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Heraus mit der Sprache!",
+      "daCurrent": "Tale! • Historier!",
+      "proposedDa": "Ud med sproget! / Kom nu frem med det!",
+      "reason": "'Heraus mit der Sprache!' is an idiom demanding someone speak up/confess. 'Tale!' and 'Historier!' do not convey this.",
+      "problem": "Idiom not translated; fragments miss imperative sense.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-45",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "von heute an",
+      "daCurrent": "Starter i dag",
+      "proposedDa": "Fra i dag af",
+      "reason": "'von heute an' is a temporal phrase 'from today onward', not 'starts today' (verb phrase).",
+      "problem": "Phrase type mismatch: prepositional time marker rendered as verb phrase.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-46",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "heute früh",
+      "daCurrent": "Denne morgen",
+      "proposedDa": "I morges",
+      "reason": "'heute früh' in past context means 'this morning' (earlier today). 'Denne morgen' is less idiomatic for past reference.",
+      "problem": "Non-idiomatic temporal expression.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-47",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "heute Nacht",
+      "daCurrent": "I går aftes",
+      "proposedDa": "I nat",
+      "reason": "'heute Nacht' means tonight/last night (today's night). 'I går aftes' means yesterday evening — different time reference.",
+      "problem": "Wrong time reference (yesterday evening vs tonight).",
+      "status": "PENDING"
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "batch": "batch-051-100",
+  "auditor": "GPT-5.6 Luna",
+  "sentencesAudited": 50,
+  "results": [
+    {
+      "cardId": "sentence-50",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-51",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-52",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-53",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-54",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-55",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-56",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-57",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-58",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-59",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-60",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-61",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-62",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-63",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-64",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-65",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-66",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-67",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-68",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-69",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "LOW"
+    },
+    {
+      "cardId": "sentence-70",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-71",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-72",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-73",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-74",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-75",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-76",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-77",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-78",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "sentence-79",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-80",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-81",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-82",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "sentence-83",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-84",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-85",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-86",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-87",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-88",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-89",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-90",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-91",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-92",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "LOW"
+    },
+    {
+      "cardId": "sentence-93",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-94",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-95",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-96",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-97",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-98",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-99",
+      "status": "FINDING",
+      "field": "lv",
+      "severity": "LOW"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-69",
+      "field": "lv",
+      "severity": "LOW",
+      "de": "Ich habe die Ausbildung absolviert.",
+      "daCurrent": "Jeg afsluttede min uddannelse. • Jeg afsluttede min uddannelse.",
+      "proposedDa": "Jeg afsluttede min uddannelse.",
+      "reason": "The two bullet variants are identical duplicates.",
+      "problem": "Duplicate variant in multi-variant string.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-78",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Er ändert ständig seine Meinung.",
+      "daCurrent": "Han ændrer konstant mening.",
+      "proposedDa": "Han ændrer konstant sin mening.",
+      "reason": "Missing possessive 'sin' before 'mening' — ungrammatical in Danish.",
+      "problem": "Grammar error: missing possessive pronoun.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-82",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Dieses Kleid ist akademisch gekleidet.",
+      "daCurrent": "Denne kjole er stilfuldt konservativ.",
+      "proposedDa": "Dette kjole er akademisk klædt. / Kjolen er konservativt klædt.",
+      "reason": "German 'akademisch gekleidet' means conservatively/formally dressed (academic style). DA 'stilfuldt konservativ' changes meaning and mismatches adjective structure.",
+      "problem": "Semantic mismatch of 'akademisch gekleidet'.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-92",
+      "field": "lv",
+      "severity": "LOW",
+      "de": "Kannst du mich später anrufen?",
+      "daCurrent": "Kan du ringe til mig senere",
+      "proposedDa": "Kan du ringe til mig senere?",
+      "reason": "Missing closing question mark.",
+      "problem": "Punctuation/grammar: interrogative lacks '?'.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-99",
+      "field": "lv",
+      "severity": "LOW",
+      "de": "Es kommt darauf an.",
+      "daCurrent": "Det afhænger af det.",
+      "proposedDa": "Det afhænger. / Det kommer an på det.",
+      "reason": "'Det afhænger af det' is redundant; natural Danish omits or uses 'det kommer an på'.",
+      "problem": "Slightly unnatural/redundant phrasing.",
+      "status": "PENDING"
+    }
+  ]
+}
