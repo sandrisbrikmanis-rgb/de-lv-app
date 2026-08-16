@@ -19,11 +19,11 @@
 
 | Metric | Value |
 |--------|-------|
-| Signed LABOT fields expected (unique) | **550** |
+| Signed LABOT fields expected (unique) | **551** |
 | Original signed | **497** |
 | Regression signed | **188** |
-| Final post-repair signed | **64** |
-| OWNER_MATCH | **550/550** |
+| Final post-repair signed | **65** |
+| OWNER_MATCH | **551/551** |
 | OWNER_MISMATCH | **0** |
 | Missing card/field | **0** |
 | Critical artifacts (LABOT) | **0** |
@@ -35,7 +35,7 @@
 | CRITICAL | **0** |
 | HIGH | **0** |
 | MEDIUM | **0** |
-| LOW | **1** |
+| LOW | **0** |
 | Luna batches | **19** (945 forms) |
 | Luna loaded | **19/19** |
 
@@ -56,7 +56,7 @@
 
 ### Verdict
 
-**NEEDS OWNER REVIEW**
+**DA–DE VERBS FINAL POST-REPAIR AUDIT — PASS**
 
 ## Regression linguistic 13 — revalidation
 
@@ -85,22 +85,8 @@
 | CRITICAL | 0 | **0** |
 | HIGH | 0 | **0** |
 | MEDIUM | 0 | **0** |
-| LOW | 0 | **1** |
+| LOW | 0 | **0** |
 | Artifacts/placeholders | 0 | **0** |
 | Foreign remnants | 0 | **0** |
 | DE changes | 0 | **0** |
 | Syntax/structure/IDs | PASS | **PASS** |
-
-Closure blocked: **1** validated Luna findings remain. Prepare OWNER review — do not auto-apply.
-
-## Findings
-
-### DA-VERB-FPR-0001 [LOW] GRAMMAR
-
-- **Verb/Card ID:** `verb-119`
-- **Field:** `imperfektIndikativ.lv`
-- **DE_CURRENT:** er schrieb
-- **DA_CURRENT:** Skrev han
-- **Problem:** Inverted word order inconsistent with card paradigm.
-- **Reason:** Praesens was repaired to Han skriver, but preterite still uses inverted Skrev han. Project convention and the other forms on this card use Han + verb.
-- **PROPOSED_DA:** Han skrev

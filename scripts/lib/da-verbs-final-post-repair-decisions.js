@@ -77,9 +77,13 @@ function parseFinalPostRepairDecisionFile(filePath) {
 
 function listFinalPostRepairSignedFiles() {
   const reports = path.join(ROOT, "reports");
-  const target = path.join(reports, "da-verbs-owner-decisions-final-post-repair-signed.md");
-  if (!fs.existsSync(target)) return [];
-  return [target];
+  const names = [
+    "da-verbs-owner-decisions-final-post-repair-signed.md",
+    "da-verbs-owner-decisions-final-post-repair-micro-signed.md",
+  ];
+  return names
+    .map((name) => path.join(reports, name))
+    .filter((f) => fs.existsSync(f));
 }
 
 function parseAllFinalPostRepairDecisions() {

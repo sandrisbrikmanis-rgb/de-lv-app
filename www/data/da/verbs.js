@@ -2628,7 +2628,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er schrieb",
-      "lv": "Skrev han"
+      "lv": "Han skrev"
     },
     "imperfektKonjunktiv": {
       "de": "er schriebe",
