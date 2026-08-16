@@ -120,6 +120,10 @@ function batchMeta(category, batches) {
   });
 }
 
+function mdLink(filename) {
+  return `[${filename}](./${filename})`;
+}
+
 function renderReadme(groups, total) {
   const byCat = { comparison: 0, sectionaccents: 0, misc: 0 };
   groups.forEach((g) => {
@@ -127,20 +131,23 @@ function renderReadme(groups, total) {
   });
 
   const tableRows = groups
-    .map(
-      (g) =>
-        `| \`da-a2-owner-review-${g.slug}.md\` | ${g.range} | ${g.count} | ${g.category} | \`da-a2-owner-decisions-${g.slug}.md\` |`
-    )
+    .map((g) => {
+      const review = `da-a2-owner-review-${g.slug}.md`;
+      const decisions = `da-a2-owner-decisions-${g.slug}.md`;
+      return `| ${mdLink(review)} | ${g.range} | ${g.count} | ${g.category} | ${mdLink(decisions)} |`;
+    })
     .join("\n");
 
   return `# DA–DE A2 — OWNER review (Copy-Only workflow)
 
 Tas pats princips kā **DA–DE A1** un **CS–DE Kurss — Lekcijas**:
 
-1. Atver \`da-a2-owner-review-*.md\` failus (vai decisions tabulas).
+1. Zemāk tabulā **noklikšķini** uz Review vai Decisions faila (zilais links).
 2. Katram finding — **CURRENT_DA** ir nepareizais teksts production failā (\`data/da/a2.js\`, lauks \`lv\`).
-3. **ChatGPT / OWNER** ieraksta pareizo dāņu variantu laukā **OWNER_DECISION** (vai aizpilda \`da-a2-owner-decisions-*.md\`).
+3. **ChatGPT / OWNER** ieraksta pareizo dāņu variantu laukā **OWNER_DECISION** (vai aizpilda decisions tabulu).
 4. Atgriez aizpildītos failus — deterministisks **COPY-ONLY** apply uz \`data/da/a2.js\` + \`www/data/da/a2.js\`.
+
+**Mape ar visiem failiem:** [reports/](./)
 
 ## Kopsavilkums
 
@@ -180,7 +187,7 @@ node scripts/apply-da-a2-owner-repair.js
 - Production changes tikai pēc OWNER lēmumiem.
 - Comparison \`PROPOSED_DA\` dažās vietās ir mehāniski — OWNER jāpārbauda dabiskums.
 
-**Audits:** \`reports/da-a2-full-audit.md\`
+**Audits:** [da-a2-full-audit.md](./da-a2-full-audit.md)
 `;
 }
 
