@@ -108,39 +108,37 @@ function main() {
   }
 
   const allowedPaths = new Set(CASES.map((c) => c.field));
+  const low29CardIds = [...new Set(CASES.map((c) => c.cardId))];
+
+  function collectDiffPaths(b, a, prefix = "") {
+    const diffs = [];
+    const walk = (bv, av, p) => {
+      if (bv === av) return;
+      if (typeof bv !== typeof av || bv == null || av == null || typeof bv !== "object") {
+        diffs.push(p);
+        return;
+      }
+      if (Array.isArray(bv) && Array.isArray(av)) {
+        const len = Math.max(bv.length, av.length);
+        for (let j = 0; j < len; j++) walk(bv[j], av[j], `${p}[${j}]`);
+        return;
+      }
+      for (const k of new Set([...Object.keys(bv || {}), ...Object.keys(av || {})])) {
+        walk(bv[k], av[k], p ? `${p}.${k}` : k);
+      }
+    };
+    walk(b, a, prefix);
+    return diffs;
+  }
+
   let unexpected = 0;
   if (before) {
-    for (const c of CASES) {
-      const eb = findEntry(before, c.cardId);
-      const ea = findEntry(after, c.cardId);
-      if (JSON.stringify(getAt(eb, c.field)) === JSON.stringify(getAt(ea, c.field))) continue;
-    }
-    for (let i = 0; i < after.length; i++) {
-      const cardId = after[i].study?.id;
-      if (!cardId || !CASES.some((c) => c.cardId === cardId)) continue;
-      if (JSON.stringify(before[i]) === JSON.stringify(after[i])) continue;
-      const diffs = [];
-      const walk = (b, a, p) => {
-        if (b === a) return;
-        if (typeof b !== typeof a || b == null || a == null || typeof b !== "object") {
-          diffs.push(p);
-          return;
-        }
-        if (Array.isArray(b) && Array.isArray(a)) {
-          const len = Math.max(b.length, a.length);
-          for (let j = 0; j < len; j++) walk(b[j], a[j], `${p}[${j}]`);
-          return;
-        }
-        for (const k of new Set([...Object.keys(b || {}), ...Object.keys(a || {})])) {
-          walk(b[k], a[k], p ? `${p}.${k}` : k);
-        }
-      };
-      walk(before[i], after[i], "study");
-      for (const d of diffs) {
-        const full = d.startsWith("study.") ? d : `study.${d}`;
-        if (![...allowedPaths].some((ap) => full === ap || full.startsWith(ap.replace(/\[\d+\]$/, "")))) {
-          unexpected++;
-        }
+    for (const cardId of low29CardIds) {
+      const eb = findEntry(before, cardId);
+      const ea = findEntry(after, cardId);
+      if (!eb || !ea) continue;
+      for (const d of collectDiffPaths(eb, ea, "")) {
+        if (!allowedPaths.has(d)) unexpected++;
       }
     }
   }

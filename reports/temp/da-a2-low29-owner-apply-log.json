@@ -1,0 +1,278 @@
+{
+  "dryRun": false,
+  "applied": [
+    {
+      "id": 1,
+      "cardId": "a2-holen",
+      "field": "study.sectionAccents.examples[1].de.green[0]",
+      "term": "holen",
+      "status": "LABOT",
+      "ownerNew": "abholen",
+      "action": "SET"
+    },
+    {
+      "id": 2,
+      "cardId": "a2-holen",
+      "field": "study.sectionAccents.examples[1].de.green[1]",
+      "term": "holen",
+      "status": "LABOT",
+      "ownerNew": "abholen",
+      "action": "SET"
+    },
+    {
+      "id": 3,
+      "cardId": "a2-aufnehmen",
+      "field": "study.sectionAccents.examples[1].lv.purple[0]",
+      "term": "hospital",
+      "status": "LABOT",
+      "ownerNew": "Hospitalet",
+      "action": "SET"
+    },
+    {
+      "id": 4,
+      "cardId": "a2-aufnehmen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple[0]",
+      "term": "Accept",
+      "status": "LABOT",
+      "ownerNew": "Acceptere",
+      "action": "SET"
+    },
+    {
+      "id": 5,
+      "cardId": "a2-bank",
+      "field": "study.sectionAccents.important[0].example.purple[0]",
+      "term": "sandbank",
+      "status": "LABOT",
+      "ownerNew": "Sandbanke",
+      "action": "SET"
+    },
+    {
+      "id": 6,
+      "cardId": "a2-bank",
+      "field": "study.sectionAccents.important[0].example.red[0]",
+      "term": "Sandbank",
+      "status": "LABOT",
+      "ownerNew": "Sandbanke",
+      "action": "SET"
+    },
+    {
+      "id": 7,
+      "cardId": "a2-bedienung",
+      "field": "study.sectionAccents.examples[0].lv.purple[0]",
+      "term": "server",
+      "status": "LABOT",
+      "ownerNew": "Serveren",
+      "action": "SET"
+    },
+    {
+      "id": 8,
+      "cardId": "a2-bedienung",
+      "field": "study.sectionAccents.examples[1].lv.purple[0]",
+      "term": "service",
+      "status": "LABOT",
+      "ownerNew": "Servicen",
+      "action": "SET"
+    },
+    {
+      "id": 9,
+      "cardId": "a2-behalten",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "term": "Hold",
+      "status": "LABOT",
+      "ownerNew": "Holde",
+      "action": "SET"
+    },
+    {
+      "id": 10,
+      "cardId": "a2-bekannt",
+      "field": "study.sectionAccents.examples[1].lv.purple[0]",
+      "term": "problem",
+      "status": "LABOT",
+      "ownerNew": "Problemet",
+      "action": "SET"
+    },
+    {
+      "id": 11,
+      "cardId": "a2-bekannt",
+      "field": "study.sectionAccents.comparison[1].example.green[1]",
+      "term": "kendt",
+      "status": "LABOT",
+      "ownerNew": "berømt",
+      "action": "SET"
+    },
+    {
+      "id": 12,
+      "cardId": "a2-bekannt",
+      "field": "study.sectionAccents.comparison[1].example.purple[0]",
+      "term": "kendt",
+      "status": "LABOT",
+      "ownerNew": "FJERN `kendt",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "kendt"
+    },
+    {
+      "id": 13,
+      "cardId": "a2-damit",
+      "field": "study.sectionAccents.examples[2].lv.purple[0]",
+      "term": "problem",
+      "status": "LABOT",
+      "ownerNew": "FJERN `problem",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "problem"
+    },
+    {
+      "id": 14,
+      "cardId": "a2-einschalten",
+      "field": "study.sectionAccents.examples[5].lv.purple[1]",
+      "term": "radio",
+      "status": "LABOT",
+      "ownerNew": "radioen",
+      "action": "SET"
+    },
+    {
+      "id": 15,
+      "cardId": "a2-note",
+      "field": "study.sectionAccents.comparison[2].example.green[0]",
+      "term": "note",
+      "status": "LABOT",
+      "ownerNew": "Musiknoten",
+      "action": "SET"
+    },
+    {
+      "id": 16,
+      "cardId": "a2-note",
+      "field": "study.sectionAccents.comparison[2].example.yellow[5]",
+      "term": "note",
+      "status": "LABOT",
+      "ownerNew": "FJERN `note",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "note"
+    },
+    {
+      "id": 17,
+      "cardId": "a2-patient",
+      "field": "study.sectionAccents.examples[0].lv.purple[0]",
+      "term": "patient",
+      "status": "LABOT",
+      "ownerNew": "patienten",
+      "action": "SET"
+    },
+    {
+      "id": 18,
+      "cardId": "a2-patient",
+      "field": "study.sectionAccents.examples[1].lv.purple[0]",
+      "term": "patient",
+      "status": "LABOT",
+      "ownerNew": "patienten",
+      "action": "SET"
+    },
+    {
+      "id": 19,
+      "cardId": "a2-patient",
+      "field": "study.sectionAccents.examples[2].lv.purple[0]",
+      "term": "patient",
+      "status": "LABOT",
+      "ownerNew": "patienten",
+      "action": "SET"
+    },
+    {
+      "id": 20,
+      "cardId": "a2-stelle",
+      "field": "study.sectionAccents.important[0].example.yellow[0]",
+      "term": "fragment",
+      "status": "LABOT",
+      "ownerNew": "FJERN `fragment",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "fragment"
+    },
+    {
+      "id": 21,
+      "cardId": "a2-stoff",
+      "field": "study.sectionAccents.examples[2].lv.purple[0]",
+      "term": "material",
+      "status": "LABOT",
+      "ownerNew": "materiale",
+      "action": "SET"
+    },
+    {
+      "id": 22,
+      "cardId": "a2-stoff",
+      "field": "study.sectionAccents.comparison[0].meaning.purple[2]",
+      "term": "material",
+      "status": "LABOT",
+      "ownerNew": "materiale",
+      "action": "SET"
+    },
+    {
+      "id": 23,
+      "cardId": "a2-stoff",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "term": "Material",
+      "status": "LABOT",
+      "ownerNew": "Materiale",
+      "action": "SET"
+    },
+    {
+      "id": 24,
+      "cardId": "a2-tafel",
+      "field": "study.sectionAccents.examples[5].lv.purple[0]",
+      "term": "menu",
+      "status": "LABOT",
+      "ownerNew": "Menuen",
+      "action": "SET"
+    },
+    {
+      "id": 25,
+      "cardId": "a2-verbinden",
+      "field": "study.sectionAccents.comparison[0].example.blue[0]",
+      "term": "forbinder",
+      "status": "LABOT",
+      "ownerNew": "FJERN `forbinder",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "forbinder"
+    },
+    {
+      "id": 26,
+      "cardId": "a2-klein",
+      "field": "study.sectionAccents.examples[3].de.blue[0]",
+      "term": "klein",
+      "status": "LABOT",
+      "ownerNew": "kleine",
+      "action": "SET"
+    },
+    {
+      "id": 27,
+      "cardId": "a2-klein",
+      "field": "study.sectionAccents.examples[3].de.blue[1]",
+      "term": "klein",
+      "status": "LABOT",
+      "ownerNew": "kleine",
+      "action": "SET"
+    },
+    {
+      "id": 28,
+      "cardId": "a2-gleich",
+      "field": "study.sectionAccents.examples[3].de.green[0]",
+      "term": "gleich",
+      "status": "LABOT",
+      "ownerNew": "gleiche",
+      "action": "SET"
+    },
+    {
+      "id": 29,
+      "cardId": "a2-gleich",
+      "field": "study.sectionAccents.examples[3].de.green[1]",
+      "term": "gleich",
+      "status": "LABOT",
+      "ownerNew": "gleiche",
+      "action": "SET"
+    }
+  ],
+  "failed": [],
+  "skippedFalsePositive": 0,
+  "summary": {
+    "applied": 29,
+    "failed": 0,
+    "deChanges": 0
+  }
+}

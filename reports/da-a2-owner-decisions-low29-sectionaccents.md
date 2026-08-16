@@ -1,6 +1,6 @@
 # DA–DE A2 — OWNER decisions — low29-sectionaccents
 
-Avots: [da-a2-owner-review-low29-sectionaccents.md](./da-a2-owner-review-low29-sectionaccents.md)
+Avots: `da-a2-owner-review-low29-sectionaccents.md`
 
 | # | Reg ID | Card ID | Field | Term | Statuss | OWNER_DECISION |
 |---:|---|---|---|---|---|---|

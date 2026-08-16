@@ -1115,8 +1115,8 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "holen",
-                "holen"
+                "abholen",
+                "abholen"
               ]
             },
             "lv": {}
@@ -6992,7 +6992,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "hospital"
+                "Hospitalet"
               ]
             }
           },
@@ -7115,7 +7115,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Accept"
+                "Acceptere"
               ]
             },
             "example": {
@@ -11369,10 +11369,10 @@ const A2_WORDS = [
                 "Bank"
               ],
               "purple": [
-                "sandbank"
+                "Sandbanke"
               ],
               "red": [
-                "Sandbank",
+                "Sandbanke",
                 "Bank",
                 "Bank",
                 "Bank"
@@ -12850,7 +12850,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "server"
+                "Serveren"
               ]
             }
           },
@@ -12862,7 +12862,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "service"
+                "Servicen"
               ]
             }
           },
@@ -13341,7 +13341,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Hold"
+                "Holde"
               ]
             },
             "example": {
@@ -14056,7 +14056,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "problem",
+                "Problemet",
                 "Problemet"
               ]
             }
@@ -14154,11 +14154,9 @@ const A2_WORDS = [
             "example": {
               "green": [
                 "berømt",
-                "kendt"
+                "berømt"
               ],
-              "purple": [
-                "kendt"
-              ]
+              "purple": []
             }
           },
           {
@@ -19147,9 +19145,7 @@ const A2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "problem"
-              ]
+              "purple": []
             }
           },
           {
@@ -26493,7 +26489,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "Kan",
-                "radio"
+                "radioen"
               ]
             }
           }
@@ -44935,15 +44931,14 @@ const A2_WORDS = [
             },
             "example": {
               "green": [
-                "note"
+                "Musiknoten"
               ],
               "yellow": [
                 "die Musiknote",
                 "Musiknote",
                 "Die",
                 "Die",
-                "hoch",
-                "note"
+                "hoch"
               ],
               "purple": [
                 "Die"
@@ -46147,7 +46142,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "patient"
+                "patienten"
               ]
             }
           },
@@ -46159,7 +46154,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "patient"
+                "patienten"
               ]
             }
           },
@@ -46171,7 +46166,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "patient"
+                "patienten"
               ]
             }
           }
@@ -55690,9 +55685,7 @@ const A2_WORDS = [
               "blue": [
                 "Stelle"
               ],
-              "yellow": [
-                "fragment"
-              ],
+              "yellow": [],
               "red": [
                 "Tekststelle",
                 "dieser",
@@ -56307,7 +56300,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "material"
+                "materiale"
               ]
             }
           },
@@ -56369,7 +56362,7 @@ const A2_WORDS = [
               "purple": [
                 "Stof",
                 "Stof",
-                "material"
+                "materiale"
               ]
             },
             "example": {
@@ -56390,7 +56383,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Material"
+                "Materiale"
               ]
             },
             "example": {
@@ -56863,7 +56856,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "menu"
+                "Menuen"
               ]
             }
           }
@@ -60910,9 +60903,7 @@ const A2_WORDS = [
               ]
             },
             "example": {
-              "blue": [
-                "forbinder"
-              ],
+              "blue": [],
               "purple": [
                 "Die"
               ]
@@ -67568,8 +67559,8 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "klein",
-                "klein"
+                "kleine",
+                "kleine"
               ]
             },
             "lv": {
@@ -68481,8 +68472,8 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "gleich",
-                "gleich"
+                "gleiche",
+                "gleiche"
               ]
             },
             "lv": {

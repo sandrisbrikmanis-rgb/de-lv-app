@@ -18,18 +18,18 @@
 | CRITICAL | **0** |
 | HIGH | **0** |
 | MEDIUM | **0** |
-| LOW (sectionAccent stale residual) | **29** |
+| LOW (sectionAccent stale residual) | **0** |
 
 ### Verdict
 
-**DA–DE A2: FINAL CLOSED** (targeted regression PASS; 29 sectionAccent stale LOW residual)
+**DA–DE A2: FINAL CLOSED** (targeted regression PASS)
 
 ## Changed cards in scope
 
 - `a2-abfahren` (de: abfahren) — 21 leaf diff(s)
 - `a2-abgeben` (de: abgeben) — 10 leaf diff(s)
 - `a2-abgemacht-6` (de: abgemacht) — 1 leaf diff(s)
-- `a2-holen` (de: holen) — 1 leaf diff(s)
+- `a2-holen` (de: holen) — 3 leaf diff(s)
 - `a2-bringen` (de: bringen) — 2 leaf diff(s)
 - `a2-absagen` (de: absagen) — 13 leaf diff(s)
 - `a2-abschließen` (de: abschließen) — 13 leaf diff(s)
@@ -47,7 +47,7 @@
 - `a2-aufheben` (de: aufheben) — 13 leaf diff(s)
 - `a2-auflage` (de: Auflage) — 6 leaf diff(s)
 - `a2-aufnahme` (de: Aufnahme) — 8 leaf diff(s)
-- `a2-aufnehmen` (de: aufnehmen) — 12 leaf diff(s)
+- `a2-aufnehmen` (de: aufnehmen) — 14 leaf diff(s)
 - `a2-aufrichtig` (de: aufrichtig) — 11 leaf diff(s)
 - `a2-aufrufen` (de: aufrufen) — 6 leaf diff(s)
 - `a2-auftragen` (de: auftragen) — 18 leaf diff(s)
@@ -59,15 +59,15 @@
 - `a2-ausziehen` (de: ausziehen) — 7 leaf diff(s)
 - `a2-bahn` (de: Bahn) — 8 leaf diff(s)
 - `a2-band` (de: Band) — 10 leaf diff(s)
-- `a2-bank` (de: Bank) — 16 leaf diff(s)
+- `a2-bank` (de: Bank) — 18 leaf diff(s)
 - `a2-bauen` (de: bauen) — 13 leaf diff(s)
 - `a2-bauer` (de: Bauer) — 8 leaf diff(s)
 - `a2-bedienen` (de: bedienen) — 8 leaf diff(s)
-- `a2-bedienung` (de: Bedienung) — 5 leaf diff(s)
-- `a2-behalten` (de: behalten) — 8 leaf diff(s)
+- `a2-bedienung` (de: Bedienung) — 7 leaf diff(s)
+- `a2-behalten` (de: behalten) — 9 leaf diff(s)
 - `a2-beinahe` (de: beinahe) — 9 leaf diff(s)
 - `a2-beißen-223` (de: beißen) — 1 leaf diff(s)
-- `a2-bekannt` (de: bekannt) — 15 leaf diff(s)
+- `a2-bekannt` (de: bekannt) — 18 leaf diff(s)
 - `a2-beliebt-227` (de: beliebt) — 1 leaf diff(s)
 - `a2-besonders-240` (de: besonders) — 1 leaf diff(s)
 - `a2-bestellen` (de: bestellen) — 8 leaf diff(s)
@@ -84,7 +84,7 @@
 - `a2-Chance-306` (de: Chance) — 1 leaf diff(s)
 - `a2-dabei` (de: dabei) — 17 leaf diff(s)
 - `a2-dafür` (de: dafür) — 13 leaf diff(s)
-- `a2-damit` (de: damit) — 11 leaf diff(s)
+- `a2-damit` (de: damit) — 12 leaf diff(s)
 - `study-der-dank` (de: Dank) — 7 leaf diff(s)
 - `a2-darauf` (de: darauf) — 9 leaf diff(s)
 - `a2-darüber` (de: darüber) — 15 leaf diff(s)
@@ -103,7 +103,7 @@
 - `a2-ehrlich` (de: ehrlich) — 3 leaf diff(s)
 - `a2-eigentlich` (de: eigentlich) — 3 leaf diff(s)
 - `a2-einladen` (de: einladen) — 20 leaf diff(s)
-- `a2-einschalten` (de: einschalten) — 13 leaf diff(s)
+- `a2-einschalten` (de: einschalten) — 14 leaf diff(s)
 - `a2-einschlafen` (de: einschlafen) — 4 leaf diff(s)
 - `a2-einsteigen` (de: einsteigen) — 12 leaf diff(s)
 - `a2-eintritt` (de: Eintritt) — 2 leaf diff(s)
@@ -151,11 +151,11 @@
 - `a2-merken` (de: merken) — 4 leaf diff(s)
 - `a2-mittel` (de: Mittel) — 4 leaf diff(s)
 - `a2-nebeneinander-1000` (de: nebeneinander) — 1 leaf diff(s)
-- `a2-note` (de: Note) — 9 leaf diff(s)
+- `a2-note` (de: Note) — 11 leaf diff(s)
 - `a2-nutzen` (de: nutzen) — 2 leaf diff(s)
 - `a2-offen` (de: offen) — 4 leaf diff(s)
 - `a2-passieren` (de: passieren) — 1 leaf diff(s)
-- `a2-patient` (de: Patient) — 2 leaf diff(s)
+- `a2-patient` (de: Patient) — 5 leaf diff(s)
 - `a2-personal` (de: Personal) — 3 leaf diff(s)
 - `a2-pflaster` (de: Pflaster) — 9 leaf diff(s)
 - `a2-Reich-1143` (de: Reich) — 1 leaf diff(s)
@@ -177,10 +177,10 @@
 - `a2-sobald` (de: sobald) — 16 leaf diff(s)
 - `a2-sonst` (de: sonst) — 12 leaf diff(s)
 - `a2-steigen` (de: steigen) — 9 leaf diff(s)
-- `a2-stelle` (de: Stelle) — 5 leaf diff(s)
+- `a2-stelle` (de: Stelle) — 6 leaf diff(s)
 - `a2-stimmen` (de: stimmen) — 9 leaf diff(s)
-- `a2-stoff` (de: Stoff) — 10 leaf diff(s)
-- `a2-tafel` (de: Tafel) — 9 leaf diff(s)
+- `a2-stoff` (de: Stoff) — 13 leaf diff(s)
+- `a2-tafel` (de: Tafel) — 10 leaf diff(s)
 - `a2-teil` (de: Teil) — 16 leaf diff(s)
 - `a2-termin` (de: Termin) — 10 leaf diff(s)
 - `a2-tief` (de: tief) — 8 leaf diff(s)
@@ -190,7 +190,7 @@
 - `a2-übrig` (de: übrig) — 6 leaf diff(s)
 - `a2-übung` (de: Übung) — 7 leaf diff(s)
 - `a2-umsonst` (de: umsonst) — 11 leaf diff(s)
-- `a2-verbinden` (de: verbinden) — 7 leaf diff(s)
+- `a2-verbinden` (de: verbinden) — 8 leaf diff(s)
 - `a2-verkehr` (de: Verkehr) — 12 leaf diff(s)
 - `a2-viertel` (de: Viertel) — 11 leaf diff(s)
 - `a2-vorstellen` (de: vorstellen) — 13 leaf diff(s)
@@ -208,184 +208,12 @@
 - `a2-sagen` (de: sagen) — 1 leaf diff(s)
 - `a2-sprechen` (de: sprechen) — 1 leaf diff(s)
 - `a2-gross` (de: groß) — 1 leaf diff(s)
-- `a2-klein` (de: klein) — 2 leaf diff(s)
+- `a2-klein` (de: klein) — 4 leaf diff(s)
 - `a2-schon` (de: schon) — 1 leaf diff(s)
 - `a2-noch` (de: noch) — 1 leaf diff(s)
 - `a2-ueber` (de: über) — 2 leaf diff(s)
-- `a2-gleich` (de: gleich) — 1 leaf diff(s)
+- `a2-gleich` (de: gleich) — 3 leaf diff(s)
 
 ## Findings
 
-### DA-A2-REG-0001 [LOW]
-
-- **Card:** a2-holen
-- **Field:** sectionAccents.examples[1].de
-- **Problem:** sectionAccent target not in Study text: "holen"
-
-### DA-A2-REG-0002 [LOW]
-
-- **Card:** a2-holen
-- **Field:** sectionAccents.examples[1].de
-- **Problem:** sectionAccent target not in Study text: "holen"
-
-### DA-A2-REG-0003 [LOW]
-
-- **Card:** a2-aufnehmen
-- **Field:** sectionAccents.examples[1].lv
-- **Problem:** sectionAccent target not in Study text: "hospital"
-
-### DA-A2-REG-0004 [LOW]
-
-- **Card:** a2-aufnehmen
-- **Field:** sectionAccents.comparison[2].meaning
-- **Problem:** sectionAccent target not in Study text: "Accept"
-
-### DA-A2-REG-0005 [LOW]
-
-- **Card:** a2-bank
-- **Field:** sectionAccents.important[0].example
-- **Problem:** sectionAccent target not in Study text: "sandbank"
-
-### DA-A2-REG-0006 [LOW]
-
-- **Card:** a2-bank
-- **Field:** sectionAccents.important[0].example
-- **Problem:** sectionAccent target not in Study text: "Sandbank"
-
-### DA-A2-REG-0007 [LOW]
-
-- **Card:** a2-bedienung
-- **Field:** sectionAccents.examples[0].lv
-- **Problem:** sectionAccent target not in Study text: "server"
-
-### DA-A2-REG-0008 [LOW]
-
-- **Card:** a2-bedienung
-- **Field:** sectionAccents.examples[1].lv
-- **Problem:** sectionAccent target not in Study text: "service"
-
-### DA-A2-REG-0009 [LOW]
-
-- **Card:** a2-behalten
-- **Field:** sectionAccents.comparison[1].meaning
-- **Problem:** sectionAccent target not in Study text: "Hold"
-
-### DA-A2-REG-0010 [LOW]
-
-- **Card:** a2-bekannt
-- **Field:** sectionAccents.examples[1].lv
-- **Problem:** sectionAccent target not in Study text: "problem"
-
-### DA-A2-REG-0011 [LOW]
-
-- **Card:** a2-bekannt
-- **Field:** sectionAccents.comparison[1].example
-- **Problem:** sectionAccent target not in Study text: "kendt"
-
-### DA-A2-REG-0012 [LOW]
-
-- **Card:** a2-bekannt
-- **Field:** sectionAccents.comparison[1].example
-- **Problem:** sectionAccent target not in Study text: "kendt"
-
-### DA-A2-REG-0013 [LOW]
-
-- **Card:** a2-damit
-- **Field:** sectionAccents.examples[2].lv
-- **Problem:** sectionAccent target not in Study text: "problem"
-
-### DA-A2-REG-0014 [LOW]
-
-- **Card:** a2-einschalten
-- **Field:** sectionAccents.examples[5].lv
-- **Problem:** sectionAccent target not in Study text: "radio"
-
-### DA-A2-REG-0015 [LOW]
-
-- **Card:** a2-note
-- **Field:** sectionAccents.comparison[2].example
-- **Problem:** sectionAccent target not in Study text: "note"
-
-### DA-A2-REG-0016 [LOW]
-
-- **Card:** a2-note
-- **Field:** sectionAccents.comparison[2].example
-- **Problem:** sectionAccent target not in Study text: "note"
-
-### DA-A2-REG-0017 [LOW]
-
-- **Card:** a2-patient
-- **Field:** sectionAccents.examples[0].lv
-- **Problem:** sectionAccent target not in Study text: "patient"
-
-### DA-A2-REG-0018 [LOW]
-
-- **Card:** a2-patient
-- **Field:** sectionAccents.examples[1].lv
-- **Problem:** sectionAccent target not in Study text: "patient"
-
-### DA-A2-REG-0019 [LOW]
-
-- **Card:** a2-patient
-- **Field:** sectionAccents.examples[2].lv
-- **Problem:** sectionAccent target not in Study text: "patient"
-
-### DA-A2-REG-0020 [LOW]
-
-- **Card:** a2-stelle
-- **Field:** sectionAccents.important[0].example
-- **Problem:** sectionAccent target not in Study text: "fragment"
-
-### DA-A2-REG-0021 [LOW]
-
-- **Card:** a2-stoff
-- **Field:** sectionAccents.examples[2].lv
-- **Problem:** sectionAccent target not in Study text: "material"
-
-### DA-A2-REG-0022 [LOW]
-
-- **Card:** a2-stoff
-- **Field:** sectionAccents.comparison[0].meaning
-- **Problem:** sectionAccent target not in Study text: "material"
-
-### DA-A2-REG-0023 [LOW]
-
-- **Card:** a2-stoff
-- **Field:** sectionAccents.comparison[1].meaning
-- **Problem:** sectionAccent target not in Study text: "Material"
-
-### DA-A2-REG-0024 [LOW]
-
-- **Card:** a2-tafel
-- **Field:** sectionAccents.examples[5].lv
-- **Problem:** sectionAccent target not in Study text: "menu"
-
-### DA-A2-REG-0025 [LOW]
-
-- **Card:** a2-verbinden
-- **Field:** sectionAccents.comparison[0].example
-- **Problem:** sectionAccent target not in Study text: "forbinder"
-
-### DA-A2-REG-0026 [LOW]
-
-- **Card:** a2-klein
-- **Field:** sectionAccents.examples[3].de
-- **Problem:** sectionAccent target not in Study text: "klein"
-
-### DA-A2-REG-0027 [LOW]
-
-- **Card:** a2-klein
-- **Field:** sectionAccents.examples[3].de
-- **Problem:** sectionAccent target not in Study text: "klein"
-
-### DA-A2-REG-0028 [LOW]
-
-- **Card:** a2-gleich
-- **Field:** sectionAccents.examples[3].de
-- **Problem:** sectionAccent target not in Study text: "gleich"
-
-### DA-A2-REG-0029 [LOW]
-
-- **Card:** a2-gleich
-- **Field:** sectionAccents.examples[3].de
-- **Problem:** sectionAccent target not in Study text: "gleich"
+_No CRITICAL/HIGH/MEDIUM findings in targeted scope._
