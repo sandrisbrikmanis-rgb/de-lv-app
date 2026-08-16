@@ -1,0 +1,62 @@
+{
+  "auditType": "da_sentences_micro_regression",
+  "batch": "batch-01",
+  "sentences": [
+    {
+      "cardId": "sentence-17",
+      "auditId": "DA-SENT-REG-0003",
+      "de": "Kein Durchgang!",
+      "daCurrent": "Ingen gennemgang!",
+      "ownerNew": "Ingen gennemgang!"
+    },
+    {
+      "cardId": "sentence-42",
+      "auditId": "DA-SENT-REG-0004",
+      "de": "Heraus mit der Sprache!",
+      "daCurrent": "Ud med sproget!",
+      "ownerNew": "Ud med sproget!"
+    },
+    {
+      "cardId": "sentence-106",
+      "auditId": "DA-SENT-REG-0005",
+      "de": "Stell dich nicht so an!",
+      "daCurrent": "Lad være med at skabe dig!",
+      "ownerNew": "Lad være med at skabe dig!"
+    },
+    {
+      "cardId": "sentence-129",
+      "auditId": "DA-SENT-REG-0006",
+      "de": "Unter vier Augen.",
+      "daCurrent": "Under fire øjne.",
+      "ownerNew": "Under fire øjne."
+    },
+    {
+      "cardId": "sentence-152",
+      "auditId": "DA-SENT-REG-0007",
+      "de": "Ich bin beauftragt.",
+      "daCurrent": "Jeg har fået til opgave at gøre det.",
+      "ownerNew": "Jeg har fået til opgave at gøre det."
+    },
+    {
+      "cardId": "sentence-176",
+      "auditId": "DA-SENT-REG-0008",
+      "de": "Beileid aussprechen.",
+      "daCurrent": "Udtrykke sin medfølelse.",
+      "ownerNew": "Udtrykke sin medfølelse."
+    },
+    {
+      "cardId": "sentence-230",
+      "auditId": "DA-SENT-REG-0010",
+      "de": "Mit der Dame ziehen.",
+      "daCurrent": "Træk med damen.",
+      "ownerNew": "Træk med damen."
+    },
+    {
+      "cardId": "sentence-231",
+      "auditId": "DA-SENT-REG-0011",
+      "de": "Es dämmert.",
+      "daCurrent": "Det dæmrer.",
+      "ownerNew": "Det dæmrer."
+    }
+  ]
+}

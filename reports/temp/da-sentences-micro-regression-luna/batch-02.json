@@ -1,0 +1,62 @@
+{
+  "auditType": "da_sentences_micro_regression",
+  "batch": "batch-02",
+  "sentences": [
+    {
+      "cardId": "sentence-246",
+      "auditId": "DA-SENT-REG-0012",
+      "de": "Was hast du?",
+      "daCurrent": "Hvad er der galt med dig?",
+      "ownerNew": "Hvad er der galt med dig?"
+    },
+    {
+      "cardId": "sentence-283",
+      "auditId": "DA-SENT-REG-0013",
+      "de": "Leben Sie wohl!",
+      "daCurrent": "Lev vel!",
+      "ownerNew": "Lev vel!"
+    },
+    {
+      "cardId": "sentence-310",
+      "auditId": "DA-SENT-REG-0014",
+      "de": "Letzte Neuheit!",
+      "daCurrent": "Sidste nyhed!",
+      "ownerNew": "Sidste nyhed!"
+    },
+    {
+      "cardId": "sentence-383",
+      "auditId": "DA-SENT-REG-0019",
+      "de": "Vorhanden sein.",
+      "daCurrent": "Være til stede",
+      "ownerNew": "Være til stede"
+    },
+    {
+      "cardId": "sentence-409",
+      "auditId": "DA-SENT-REG-0020",
+      "de": "Von Rechts wegen.",
+      "daCurrent": "Ifølge loven.",
+      "ownerNew": "Ifølge loven."
+    },
+    {
+      "cardId": "sentence-503",
+      "auditId": "DA-SENT-REG-0021",
+      "de": "Steh auf, Hanna, es klingelt!",
+      "daCurrent": "Rejs dig, Hanna, det ringer på!",
+      "ownerNew": "Rejs dig, Hanna, det ringer på!"
+    },
+    {
+      "cardId": "sentence-559",
+      "auditId": "DA-SENT-REG-0022",
+      "de": "Das Gewitter zieht vorüber.",
+      "daCurrent": "Uvejret er ved at gå over.",
+      "ownerNew": "Uvejret er ved at gå over."
+    },
+    {
+      "cardId": "sentence-748",
+      "auditId": "DA-SENT-REG-0023",
+      "de": "Welche Handschuhe wünschen Sie?",
+      "daCurrent": "Hvilke handsker ønsker De?",
+      "ownerNew": "Hvilke handsker ønsker De?"
+    }
+  ]
+}

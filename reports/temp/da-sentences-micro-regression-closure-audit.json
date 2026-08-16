@@ -1,0 +1,18 @@
+{
+  "microMatch": {
+    "EXACT_MATCH": 16,
+    "MISMATCH": 0,
+    "MISSING": 0
+  },
+  "microLvChanges": 16,
+  "unexpectedChanges": 0,
+  "owner213Match": 197,
+  "bySev": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0
+  },
+  "pass": true,
+  "verdict": "DA–DE SENTENCES MICRO-REGRESSION CLOSURE AUDIT — PASS"
+}
