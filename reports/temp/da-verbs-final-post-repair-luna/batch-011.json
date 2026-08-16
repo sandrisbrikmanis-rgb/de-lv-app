@@ -48,7 +48,7 @@
       "field": "infinitiv.lv",
       "formKey": "infinitiv",
       "de": "schallen",
-      "daCurrent": "At gjalde",
+      "daCurrent": "At lyde",
       "verbIndex": 101
     },
     {
@@ -328,7 +328,7 @@
       "field": "infinitiv.lv",
       "formKey": "infinitiv",
       "de": "schinden",
-      "daCurrent": "Pine",
+      "daCurrent": "At plage",
       "verbIndex": 108
     },
     {
@@ -352,7 +352,7 @@
       "field": "imperfektKonjunktiv.lv",
       "formKey": "imperfektKonjunktiv",
       "de": "schindete",
-      "daCurrent": "Han ville pine",
+      "daCurrent": "Han ville plage",
       "verbIndex": 108
     },
     {

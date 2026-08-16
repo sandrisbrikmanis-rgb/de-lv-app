@@ -104,7 +104,7 @@
       "field": "imperfektIndikativ.lv",
       "formKey": "imperfektIndikativ",
       "de": "er begann",
-      "daCurrent": "Begyndte han",
+      "daCurrent": "Han startede",
       "verbIndex": 2
     },
     {
@@ -200,7 +200,7 @@
       "field": "partizipVergangenheit.lv",
       "formKey": "partizipVergangenheit",
       "de": "geborgen",
-      "daCurrent": "Bjærget",
+      "daCurrent": "Gemt",
       "verbIndex": 4
     },
     {
@@ -224,7 +224,7 @@
       "field": "imperfektIndikativ.lv",
       "formKey": "imperfektIndikativ",
       "de": "er barst / er borst",
-      "daCurrent": "Brød han ud",
+      "daCurrent": "Han bristede",
       "verbIndex": 5
     },
     {
@@ -240,7 +240,7 @@
       "field": "partizipVergangenheit.lv",
       "formKey": "partizipVergangenheit",
       "de": "geborsten (er ist)",
-      "daCurrent": "Brudt",
+      "daCurrent": "Bristet",
       "verbIndex": 5
     },
     {
@@ -360,7 +360,7 @@
       "field": "partizipVergangenheit.lv",
       "formKey": "partizipVergangenheit",
       "de": "geboten",
-      "daCurrent": "Tilbudt",
+      "daCurrent": "Lovet",
       "verbIndex": 8
     },
     {

@@ -1,7 +1,7 @@
 # DA–DE Verbs — OWNER review Group 02
 
 Avots: [da-verbs-final-post-repair-audit.md](./da-verbs-final-post-repair-audit.md)
-Findings: **51–64** (14 ieraksti)
+Findings: **51–76** (26 ieraksti)
 Fails: `reports/da-verbs-owner-review-final-post-repair-group02.md`
 
 > **PROPOSED_DA** ir Luna ieteikums — **nav** OWNER apstiprināts.
@@ -11,6 +11,246 @@ Fails: `reports/da-verbs-owner-review-final-post-repair-group02.md`
 ## Finding 1
 
 **Audit ID:** DA-VERB-FPR-0051
+**Verb/Card ID:** `verb-108`
+**ID / path:** `verb-108.infinitiv.lv`
+**DE (read-only):** schinden
+**Severity:** HIGH
+**Category:** CONSISTENCY
+**Field:** `infinitiv.lv`
+**Production file:** `data/da/verbs.js`
+**CURRENT_DA:** Pine
+**PROPOSED_DA:** At plage
+**Problēma:** Inconsistent verb stem within schinden card.
+**Audita pamatojums:** Infinitiv and Konjunktiv II use pine, but praesens, preterite, and participle use plage (Han plager / Han plagede / Plaget). schinden needs one consistent Danish lemma across all forms.
+**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-verbs-final-post-repair-audit.md`)
+
+**OWNER_DECISION:**
+
+---
+
+## Finding 2
+
+**Audit ID:** DA-VERB-FPR-0052
+**Verb/Card ID:** `verb-108`
+**ID / path:** `verb-108.imperfektKonjunktiv.lv`
+**DE (read-only):** schindete
+**Severity:** HIGH
+**Category:** CONSISTENCY
+**Field:** `imperfektKonjunktiv.lv`
+**Production file:** `data/da/verbs.js`
+**CURRENT_DA:** Han ville pine
+**PROPOSED_DA:** Han ville plage
+**Problēma:** Inconsistent verb stem within schinden card.
+**Audita pamatojums:** Konjunktiv II uses pine while all other indicative forms use plage. Align to plage (Han ville plage) or switch the whole card to pine.
+**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-verbs-final-post-repair-audit.md`)
+
+**OWNER_DECISION:**
+
+---
+
+## Finding 3
+
+**Audit ID:** DA-VERB-FPR-0053
+**Verb/Card ID:** `verb-112`
+**ID / path:** `verb-112.imperfektIndikativ.lv`
+**DE (read-only):** er schliff
+**Severity:** HIGH
+**Category:** CONSISTENCY
+**Field:** `imperfektIndikativ.lv`
+**Production file:** `data/da/verbs.js`
+**CURRENT_DA:** Han kværnede
+**PROPOSED_DA:** Han sleb
+**Problēma:** Inconsistent verb stem within schleifen card.
+**Audita pamatojums:** Infinitiv and present use slibe (grind/hone), but preterite uses kværne (mill/grind grain). schleifen in the sharpen/hone sense should stay on the slibe paradigm (Han sleb / Han slibede).
+**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-verbs-final-post-repair-audit.md`)
+
+**OWNER_DECISION:**
+
+---
+
+## Finding 4
+
+**Audit ID:** DA-VERB-FPR-0054
+**Verb/Card ID:** `verb-112`
+**ID / path:** `verb-112.partizipVergangenheit.lv`
+**DE (read-only):** geschliffen
+**Severity:** HIGH
+**Category:** CONSISTENCY
+**Field:** `partizipVergangenheit.lv`
+**Production file:** `data/da/verbs.js`
+**CURRENT_DA:** Poleret
+**PROPOSED_DA:** Slibet
+**Problēma:** Inconsistent verb stem within schleifen card.
+**Audita pamatojums:** Participle uses polere (polish) while infinitiv is At slibe. Past participle of slibe is Slibet, not Poleret — three different Danish verbs appear on one card.
+**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-verbs-final-post-repair-audit.md`)
+
+**OWNER_DECISION:**
+
+---
+
+## Finding 5
+
+**Audit ID:** DA-VERB-FPR-0055
+**Verb/Card ID:** `verb-119`
+**ID / path:** `verb-119.imperfektIndikativ.lv`
+**DE (read-only):** er schrieb
+**Severity:** LOW
+**Category:** GRAMMAR
+**Field:** `imperfektIndikativ.lv`
+**Production file:** `data/da/verbs.js`
+**CURRENT_DA:** Skrev han
+**PROPOSED_DA:** Han skrev
+**Problēma:** Inverted word order inconsistent with card paradigm.
+**Audita pamatojums:** Praesens was repaired to Han skriver, but preterite still uses inverted Skrev han. Project convention and the other forms on this card use Han + verb.
+**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-verbs-final-post-repair-audit.md`)
+
+**OWNER_DECISION:**
+
+---
+
+## Finding 6
+
+**Audit ID:** DA-VERB-FPR-0056
+**Verb/Card ID:** `verb-120`
+**ID / path:** `verb-120.praesens.lv`
+**DE (read-only):** er schreit
+**Severity:** HIGH
+**Category:** SEMANTICS
+**Field:** `praesens.lv`
+**Production file:** `data/da/verbs.js`
+**CURRENT_DA:** Råber han
+**PROPOSED_DA:** Han skriger
+**Problēma:** Semantic mismatch and paradigm split on schreien card.
+**Audita pamatojums:** schreien means scream/shriek; råbe means shout/call. Infinitiv (At skrige) and participle (Skreget) use skrige, but present uses råbe. Present should be Han skriger.
+**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-verbs-final-post-repair-audit.md`)
+
+**OWNER_DECISION:**
+
+---
+
+## Finding 7
+
+**Audit ID:** DA-VERB-FPR-0057
+**Verb/Card ID:** `verb-120`
+**ID / path:** `verb-120.imperfektIndikativ.lv`
+**DE (read-only):** er schrie
+**Severity:** HIGH
+**Category:** CONSISTENCY
+**Field:** `imperfektIndikativ.lv`
+**Production file:** `data/da/verbs.js`
+**CURRENT_DA:** Råbte han
+**PROPOSED_DA:** Han skreg
+**Problēma:** Inconsistent verb stem within schreien card.
+**Audita pamatojums:** Preterite uses råbe (Råbte) while infinitiv and participle use skrige. Preterite of skrige is Han skreg.
+**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-verbs-final-post-repair-audit.md`)
+
+**OWNER_DECISION:**
+
+---
+
+## Finding 8
+
+**Audit ID:** DA-VERB-FPR-0058
+**Verb/Card ID:** `verb-120`
+**ID / path:** `verb-120.imperfektKonjunktiv.lv`
+**DE (read-only):** er schriee
+**Severity:** HIGH
+**Category:** CONSISTENCY
+**Field:** `imperfektKonjunktiv.lv`
+**Production file:** `data/da/verbs.js`
+**CURRENT_DA:** Ville han råbe
+**PROPOSED_DA:** Han ville skrige
+**Problēma:** Inconsistent verb stem within schreien card.
+**Audita pamatojums:** Konjunktiv II uses råbe while the card lemma is skrige. Should be Han ville skrige.
+**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-verbs-final-post-repair-audit.md`)
+
+**OWNER_DECISION:**
+
+---
+
+## Finding 9
+
+**Audit ID:** DA-VERB-FPR-0059
+**Verb/Card ID:** `verb-121`
+**ID / path:** `verb-121.praesens.lv`
+**DE (read-only):** er schreitet
+**Severity:** MEDIUM
+**Category:** CONSISTENCY
+**Field:** `praesens.lv`
+**Production file:** `data/da/verbs.js`
+**CURRENT_DA:** Han går
+**PROPOSED_DA:** Han skrider
+**Problēma:** Inconsistent verb stem within schreiten card.
+**Audita pamatojums:** Infinitiv is At skride (stride) but present uses generic gå. schreiten denotes striding, not ordinary walking.
+**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-verbs-final-post-repair-audit.md`)
+
+**OWNER_DECISION:**
+
+---
+
+## Finding 10
+
+**Audit ID:** DA-VERB-FPR-0060
+**Verb/Card ID:** `verb-121`
+**ID / path:** `verb-121.imperfektIndikativ.lv`
+**DE (read-only):** er schritt
+**Severity:** MEDIUM
+**Category:** CONSISTENCY
+**Field:** `imperfektIndikativ.lv`
+**Production file:** `data/da/verbs.js`
+**CURRENT_DA:** Han gik
+**PROPOSED_DA:** Han skred
+**Problēma:** Inconsistent verb stem within schreiten card.
+**Audita pamatojums:** Preterite uses gik (gå) while infinitiv and participle use skride (Skredet). Preterite of skride is Han skred.
+**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-verbs-final-post-repair-audit.md`)
+
+**OWNER_DECISION:**
+
+---
+
+## Finding 11
+
+**Audit ID:** DA-VERB-FPR-0061
+**Verb/Card ID:** `verb-121`
+**ID / path:** `verb-121.imperfektKonjunktiv.lv`
+**DE (read-only):** er schritte
+**Severity:** MEDIUM
+**Category:** CONSISTENCY
+**Field:** `imperfektKonjunktiv.lv`
+**Production file:** `data/da/verbs.js`
+**CURRENT_DA:** Han ville gå
+**PROPOSED_DA:** Han ville skride
+**Problēma:** Inconsistent verb stem within schreiten card.
+**Audita pamatojums:** Konjunktiv II uses gå while the card lemma is skride.
+**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-verbs-final-post-repair-audit.md`)
+
+**OWNER_DECISION:**
+
+---
+
+## Finding 12
+
+**Audit ID:** DA-VERB-FPR-0062
+**Verb/Card ID:** `verb-122`
+**ID / path:** `verb-122.partizipVergangenheit.lv`
+**DE (read-only):** geschwiegen
+**Severity:** MEDIUM
+**Category:** CONSISTENCY
+**Field:** `partizipVergangenheit.lv`
+**Production file:** `data/da/verbs.js`
+**CURRENT_DA:** Forstummet
+**PROPOSED_DA:** Tiet
+**Problēma:** Inconsistent verb stem within schweigen card.
+**Audita pamatojums:** Infinitiv is At tie (be silent) but participle uses forstumme (become mute). Participle of tie is tiet.
+**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-verbs-final-post-repair-audit.md`)
+
+**OWNER_DECISION:**
+
+---
+
+## Finding 13
+
+**Audit ID:** DA-VERB-FPR-0063
 **Verb/Card ID:** `verb-127`
 **ID / path:** `verb-127.infinitiv.lv`
 **DE (read-only):** schwören
@@ -28,9 +268,9 @@ Fails: `reports/da-verbs-owner-review-final-post-repair-group02.md`
 
 ---
 
-## Finding 2
+## Finding 14
 
-**Audit ID:** DA-VERB-FPR-0052
+**Audit ID:** DA-VERB-FPR-0064
 **Verb/Card ID:** `verb-134`
 **ID / path:** `verb-134.imperfektKonjunktiv.lv`
 **DE (read-only):** er sönne / er sänne
@@ -48,9 +288,9 @@ Fails: `reports/da-verbs-owner-review-final-post-repair-group02.md`
 
 ---
 
-## Finding 3
+## Finding 15
 
-**Audit ID:** DA-VERB-FPR-0053
+**Audit ID:** DA-VERB-FPR-0065
 **Verb/Card ID:** `verb-139`
 **ID / path:** `verb-139.praesens.lv`
 **DE (read-only):** er spleißt
@@ -68,9 +308,9 @@ Fails: `reports/da-verbs-owner-review-final-post-repair-group02.md`
 
 ---
 
-## Finding 4
+## Finding 16
 
-**Audit ID:** DA-VERB-FPR-0054
+**Audit ID:** DA-VERB-FPR-0066
 **Verb/Card ID:** `verb-142`
 **ID / path:** `verb-142.imperfektIndikativ.lv`
 **DE (read-only):** er sprang
@@ -88,9 +328,9 @@ Fails: `reports/da-verbs-owner-review-final-post-repair-group02.md`
 
 ---
 
-## Finding 5
+## Finding 17
 
-**Audit ID:** DA-VERB-FPR-0055
+**Audit ID:** DA-VERB-FPR-0067
 **Verb/Card ID:** `verb-145`
 **ID / path:** `verb-145.partizipVergangenheit.lv`
 **DE (read-only):** gestanden
@@ -101,16 +341,16 @@ Fails: `reports/da-verbs-owner-review-final-post-repair-group02.md`
 **CURRENT_DA:** Stående
 **PROPOSED_DA:** Stået
 **Problēma:** Wrong part-of-speech for past participle.
-**Audita pamatojums:** Stående is a present participle/adjective ('standing'), not the past participle of stå. gestanden maps to Stået (havde stået).
+**Audita pamatojums:** Stående is a present participle/adjective (standing), not the past participle of stå. gestanden maps to Stået (havde stået).
 **Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-verbs-final-post-repair-audit.md`)
 
 **OWNER_DECISION:**
 
 ---
 
-## Finding 6
+## Finding 18
 
-**Audit ID:** DA-VERB-FPR-0056
+**Audit ID:** DA-VERB-FPR-0068
 **Verb/Card ID:** `verb-147`
 **ID / path:** `verb-147.partizipVergangenheit.lv`
 **DE (read-only):** gestiegen (er ist)
@@ -128,9 +368,9 @@ Fails: `reports/da-verbs-owner-review-final-post-repair-group02.md`
 
 ---
 
-## Finding 7
+## Finding 19
 
-**Audit ID:** DA-VERB-FPR-0057
+**Audit ID:** DA-VERB-FPR-0069
 **Verb/Card ID:** `verb-155`
 **ID / path:** `verb-155.imperfektKonjunktiv.lv`
 **DE (read-only):** er träfe
@@ -148,9 +388,9 @@ Fails: `reports/da-verbs-owner-review-final-post-repair-group02.md`
 
 ---
 
-## Finding 8
+## Finding 20
 
-**Audit ID:** DA-VERB-FPR-0058
+**Audit ID:** DA-VERB-FPR-0070
 **Verb/Card ID:** `verb-161`
 **ID / path:** `verb-161.imperfektIndikativ.lv`
 **DE (read-only):** er verdarb
@@ -168,9 +408,9 @@ Fails: `reports/da-verbs-owner-review-final-post-repair-group02.md`
 
 ---
 
-## Finding 9
+## Finding 21
 
-**Audit ID:** DA-VERB-FPR-0059
+**Audit ID:** DA-VERB-FPR-0071
 **Verb/Card ID:** `verb-161`
 **ID / path:** `verb-161.imperfektKonjunktiv.lv`
 **DE (read-only):** er verdürbe
@@ -188,9 +428,9 @@ Fails: `reports/da-verbs-owner-review-final-post-repair-group02.md`
 
 ---
 
-## Finding 10
+## Finding 22
 
-**Audit ID:** DA-VERB-FPR-0060
+**Audit ID:** DA-VERB-FPR-0072
 **Verb/Card ID:** `verb-161`
 **ID / path:** `verb-161.partizipVergangenheit.lv`
 **DE (read-only):** verdorben
@@ -208,9 +448,9 @@ Fails: `reports/da-verbs-owner-review-final-post-repair-group02.md`
 
 ---
 
-## Finding 11
+## Finding 23
 
-**Audit ID:** DA-VERB-FPR-0061
+**Audit ID:** DA-VERB-FPR-0073
 **Verb/Card ID:** `verb-165`
 **ID / path:** `verb-165.imperfektIndikativ.lv`
 **DE (read-only):** er wuchs
@@ -228,9 +468,9 @@ Fails: `reports/da-verbs-owner-review-final-post-repair-group02.md`
 
 ---
 
-## Finding 12
+## Finding 24
 
-**Audit ID:** DA-VERB-FPR-0062
+**Audit ID:** DA-VERB-FPR-0074
 **Verb/Card ID:** `verb-172`
 **ID / path:** `verb-172.partizipVergangenheit.lv`
 **DE (read-only):** geworden
@@ -248,9 +488,9 @@ Fails: `reports/da-verbs-owner-review-final-post-repair-group02.md`
 
 ---
 
-## Finding 13
+## Finding 25
 
-**Audit ID:** DA-VERB-FPR-0063
+**Audit ID:** DA-VERB-FPR-0075
 **Verb/Card ID:** `verb-179`
 **ID / path:** `verb-179.praesens.lv`
 **DE (read-only):** er zeiht
@@ -268,9 +508,9 @@ Fails: `reports/da-verbs-owner-review-final-post-repair-group02.md`
 
 ---
 
-## Finding 14
+## Finding 26
 
-**Audit ID:** DA-VERB-FPR-0064
+**Audit ID:** DA-VERB-FPR-0076
 **Verb/Card ID:** `verb-183`
 **ID / path:** `verb-183.imperfektKonjunktiv.lv`
 **DE (read-only):** er erwöge

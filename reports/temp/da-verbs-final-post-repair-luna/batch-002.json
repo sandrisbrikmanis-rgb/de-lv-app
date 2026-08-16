@@ -8,7 +8,7 @@
       "field": "infinitiv.lv",
       "formKey": "infinitiv",
       "de": "bitten",
-      "daCurrent": "At spørge",
+      "daCurrent": "At bede",
       "verbIndex": 10
     },
     {
@@ -208,7 +208,7 @@
       "field": "infinitiv.lv",
       "formKey": "infinitiv",
       "de": "gelten",
-      "daCurrent": "Komme til nytte",
+      "daCurrent": "At gælde",
       "verbIndex": 15
     },
     {

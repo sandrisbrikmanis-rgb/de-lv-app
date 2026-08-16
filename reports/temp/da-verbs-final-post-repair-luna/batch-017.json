@@ -64,7 +64,7 @@
       "field": "imperfektIndikativ.lv",
       "formKey": "imperfektIndikativ",
       "de": "er verdarb",
-      "daCurrent": "Han beskadigede",
+      "daCurrent": "Han ødelagde",
       "verbIndex": 161
     },
     {
@@ -72,7 +72,7 @@
       "field": "imperfektKonjunktiv.lv",
       "formKey": "imperfektKonjunktiv",
       "de": "er verdürbe",
-      "daCurrent": "Han ville skade",
+      "daCurrent": "Han ville ødelægge",
       "verbIndex": 161
     },
     {
@@ -80,7 +80,7 @@
       "field": "partizipVergangenheit.lv",
       "formKey": "partizipVergangenheit",
       "de": "verdorben",
-      "daCurrent": "Beskadiget",
+      "daCurrent": "Ødelagt",
       "verbIndex": 161
     },
     {
@@ -224,7 +224,7 @@
       "field": "imperfektIndikativ.lv",
       "formKey": "imperfektIndikativ",
       "de": "er wuchs",
-      "daCurrent": "Han voksede op",
+      "daCurrent": "Han voksede",
       "verbIndex": 165
     },
     {

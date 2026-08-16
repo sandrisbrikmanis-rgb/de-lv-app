@@ -104,7 +104,7 @@
       "field": "imperfektIndikativ.lv",
       "formKey": "imperfektIndikativ",
       "de": "er schliff",
-      "daCurrent": "Han kværnede",
+      "daCurrent": "Han sleb",
       "verbIndex": 112
     },
     {
@@ -120,7 +120,7 @@
       "field": "partizipVergangenheit.lv",
       "formKey": "partizipVergangenheit",
       "de": "geschliffen",
-      "daCurrent": "Poleret",
+      "daCurrent": "Slibet",
       "verbIndex": 112
     },
     {

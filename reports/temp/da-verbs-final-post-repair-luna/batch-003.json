@@ -200,7 +200,7 @@
       "field": "partizipVergangenheit.lv",
       "formKey": "partizipVergangenheit",
       "de": "gegriffen",
-      "daCurrent": "Grebet",
+      "daCurrent": "Fanget",
       "verbIndex": 24
     },
     {
@@ -384,7 +384,7 @@
       "field": "imperfektIndikativ.lv",
       "formKey": "imperfektIndikativ",
       "de": "er kniff",
-      "daCurrent": "Han knibede",
+      "daCurrent": "Han knib",
       "verbIndex": 29
     },
     {

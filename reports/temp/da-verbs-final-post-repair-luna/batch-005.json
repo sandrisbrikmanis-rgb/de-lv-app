@@ -8,7 +8,7 @@
       "field": "infinitiv.lv",
       "formKey": "infinitiv",
       "de": "dünken",
-      "daCurrent": "Det ser ud til",
+      "daCurrent": "At synes",
       "verbIndex": 40
     },
     {
@@ -16,7 +16,7 @@
       "field": "praesens.lv",
       "formKey": "praesens",
       "de": "es dünkt",
-      "daCurrent": "Det ser ud til",
+      "daCurrent": "Det synes",
       "verbIndex": 40
     },
     {
@@ -64,7 +64,7 @@
       "field": "imperfektIndikativ.lv",
       "formKey": "imperfektIndikativ",
       "de": "durfte",
-      "daCurrent": "Var tilladt",
+      "daCurrent": "Han måtte",
       "verbIndex": 41
     },
     {
@@ -72,7 +72,7 @@
       "field": "imperfektKonjunktiv.lv",
       "formKey": "imperfektKonjunktiv",
       "de": "durfte",
-      "daCurrent": "Var tilladt",
+      "daCurrent": "Han ville få lov",
       "verbIndex": 41
     },
     {
@@ -96,7 +96,7 @@
       "field": "praesens.lv",
       "formKey": "praesens",
       "de": "er empfiehlt",
-      "daCurrent": "Foreslår han",
+      "daCurrent": "Han anbefaler",
       "verbIndex": 42
     },
     {
@@ -104,7 +104,7 @@
       "field": "imperfektIndikativ.lv",
       "formKey": "imperfektIndikativ",
       "de": "er empfahl",
-      "daCurrent": "Foreslog han",
+      "daCurrent": "Han anbefalede",
       "verbIndex": 42
     },
     {
@@ -112,7 +112,7 @@
       "field": "imperfektKonjunktiv.lv",
       "formKey": "imperfektKonjunktiv",
       "de": "er empfähle / er empföhle",
-      "daCurrent": "Han vil anbefale",
+      "daCurrent": "Han ville anbefale",
       "verbIndex": 42
     },
     {

@@ -184,7 +184,7 @@
       "field": "imperfektIndikativ.lv",
       "formKey": "imperfektIndikativ",
       "de": "er rang",
-      "daCurrent": "Han brød sammen",
+      "daCurrent": "Han kæmpede",
       "verbIndex": 94
     },
     {
@@ -192,7 +192,7 @@
       "field": "imperfektKonjunktiv.lv",
       "formKey": "imperfektKonjunktiv",
       "de": "er ränge",
-      "daCurrent": "Han ville bryde",
+      "daCurrent": "Han ville kæmpe",
       "verbIndex": 94
     },
     {
@@ -224,7 +224,7 @@
       "field": "imperfektIndikativ.lv",
       "formKey": "imperfektIndikativ",
       "de": "er rann",
-      "daCurrent": "Det flød",
+      "daCurrent": "Det sivede",
       "verbIndex": 95
     },
     {
@@ -232,7 +232,7 @@
       "field": "imperfektKonjunktiv.lv",
       "formKey": "imperfektKonjunktiv",
       "de": "er ränne / er rönne",
-      "daCurrent": "Det ville flyde",
+      "daCurrent": "Det ville sive",
       "verbIndex": 95
     },
     {
@@ -240,7 +240,7 @@
       "field": "partizipVergangenheit.lv",
       "formKey": "partizipVergangenheit",
       "de": "geronnen (er ist)",
-      "daCurrent": "Størknet",
+      "daCurrent": "Sivet",
       "verbIndex": 95
     },
     {
@@ -288,7 +288,7 @@
       "field": "infinitiv.lv",
       "formKey": "infinitiv",
       "de": "salzen",
-      "daCurrent": "Til salt",
+      "daCurrent": "At salte",
       "verbIndex": 97
     },
     {

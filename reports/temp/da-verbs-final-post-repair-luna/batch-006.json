@@ -120,7 +120,7 @@
       "field": "partizipVergangenheit.lv",
       "formKey": "partizipVergangenheit",
       "de": "geflohen (er ist)",
-      "daCurrent": "Flygtet",
+      "daCurrent": "Løbet væk",
       "verbIndex": 52
     },
     {
@@ -296,7 +296,7 @@
       "field": "praesens.lv",
       "formKey": "praesens",
       "de": "er gedeiht",
-      "daCurrent": "Han lykkes",
+      "daCurrent": "Han trives",
       "verbIndex": 57
     },
     {
@@ -312,7 +312,7 @@
       "field": "imperfektKonjunktiv.lv",
       "formKey": "imperfektKonjunktiv",
       "de": "er gediehe",
-      "daCurrent": "Han ville lykkes",
+      "daCurrent": "Han ville trives",
       "verbIndex": 57
     },
     {
@@ -320,7 +320,7 @@
       "field": "partizipVergangenheit.lv",
       "formKey": "partizipVergangenheit",
       "de": "gediehen (er ist)",
-      "daCurrent": "Trivedes",
+      "daCurrent": "Trivdes",
       "verbIndex": 57
     },
     {

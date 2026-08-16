@@ -120,7 +120,7 @@
       "field": "partizipVergangenheit.lv",
       "formKey": "partizipVergangenheit",
       "de": "geworden",
-      "daCurrent": "Er blevet",
+      "daCurrent": "Blevet",
       "verbIndex": 172
     },
     {
@@ -376,7 +376,7 @@
       "field": "praesens.lv",
       "formKey": "praesens",
       "de": "er zeiht",
-      "daCurrent": "Han giver skylden",
+      "daCurrent": "Han bebrejder",
       "verbIndex": 179
     },
     {

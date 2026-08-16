@@ -192,7 +192,7 @@
       "field": "imperfektKonjunktiv.lv",
       "formKey": "imperfektKonjunktiv",
       "de": "er sönne / er sänne",
-      "daCurrent": "Ville han undre sig",
+      "daCurrent": "Han ville grunde over",
       "verbIndex": 134
     },
     {
@@ -376,7 +376,7 @@
       "field": "praesens.lv",
       "formKey": "praesens",
       "de": "er spleißt",
-      "daCurrent": "Han forbinder",
+      "daCurrent": "Han splejser",
       "verbIndex": 139
     },
     {

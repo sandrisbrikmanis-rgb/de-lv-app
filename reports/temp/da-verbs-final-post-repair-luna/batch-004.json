@@ -96,7 +96,7 @@
       "field": "praesens.lv",
       "formKey": "praesens",
       "de": "er brät",
-      "daCurrent": "Han bager",
+      "daCurrent": "Han steger",
       "verbIndex": 32
     },
     {
@@ -104,7 +104,7 @@
       "field": "imperfektIndikativ.lv",
       "formKey": "imperfektIndikativ",
       "de": "er briet",
-      "daCurrent": "Han bagte",
+      "daCurrent": "Han stegte",
       "verbIndex": 32
     },
     {
@@ -112,7 +112,7 @@
       "field": "imperfektKonjunktiv.lv",
       "formKey": "imperfektKonjunktiv",
       "de": "er briete",
-      "daCurrent": "Han ville bage",
+      "daCurrent": "Han ville stege",
       "verbIndex": 32
     },
     {
@@ -232,7 +232,7 @@
       "field": "imperfektKonjunktiv.lv",
       "formKey": "imperfektKonjunktiv",
       "de": "er brächte",
-      "daCurrent": "Han ville bære",
+      "daCurrent": "Han ville bringe",
       "verbIndex": 35
     },
     {
@@ -376,7 +376,7 @@
       "field": "praesens.lv",
       "formKey": "praesens",
       "de": "er dringt",
-      "daCurrent": "Han bryder ind",
+      "daCurrent": "Han trænger ind",
       "verbIndex": 39
     },
     {
@@ -384,7 +384,7 @@
       "field": "imperfektIndikativ.lv",
       "formKey": "imperfektIndikativ",
       "de": "er drang",
-      "daCurrent": "Han brød ind",
+      "daCurrent": "Han trængte ind",
       "verbIndex": 39
     },
     {
@@ -392,7 +392,7 @@
       "field": "imperfektKonjunktiv.lv",
       "formKey": "imperfektKonjunktiv",
       "de": "er dränge",
-      "daCurrent": "Han ville bryde ind",
+      "daCurrent": "Han ville trænge ind",
       "verbIndex": 39
     },
     {

@@ -314,9 +314,16 @@ function main() {
   const lunaLoaded = lunaFiles.length >= lunaBatches.length && lunaBatches.length > 0;
 
   for (const f of lunaFindings) {
+    const formKey = normalizeField(f.field || "lv");
+    const key = applyKey(f.cardId, formKey);
+    const exp = ownerByKey.get(key);
+    const entry = findEntry(after, f.cardId);
+    const actual = getDaValue(entry, `${formKey}.lv`);
+    if (exp && normalizeText(actual) === normalizeText(exp.ownerDecision)) {
+      continue; // Signed OWNER variant — not a new finding
+    }
     const cat = String(f.category || "LINGUISTIC").toUpperCase();
     if (NON_ERROR_CATEGORIES.has(cat) || f.severity === "FALSE_POSITIVE") continue;
-    const formKey = normalizeField(f.field || "lv");
     add(f.severity || "MEDIUM", f.cardId, `${formKey}.lv`, cat, f.problem || f.reason || "Luna finding", {
       deCurrent: f.de || f.deCurrent || "",
       daCurrent: f.daCurrent || "",
@@ -394,6 +401,7 @@ function main() {
     `| Signed LABOT fields expected (unique) | **${ownerMatch.expected}** |`,
     `| Original signed | **${owner.originalCount}** |`,
     `| Regression signed | **${owner.regressionCount}** |`,
+    `| Final post-repair signed | **${owner.fprCount || 0}** |`,
     `| OWNER_MATCH | **${ownerMatch.match}/${ownerMatch.expected}** |`,
     `| OWNER_MISMATCH | **${ownerMatch.mismatch}** |`,
     `| Missing card/field | **${ownerMatch.missing}** |`,
@@ -498,7 +506,11 @@ function main() {
         generatedAt: new Date().toISOString(),
         coverage,
         ownerMatch,
-        ownerMeta: { original: owner.originalCount, regression: owner.regressionCount },
+        ownerMeta: {
+          original: owner.originalCount,
+          regression: owner.regressionCount,
+          fpr: owner.fprCount || 0,
+        },
         remnantCounts,
         bySev,
         lingBySev,

@@ -10,7 +10,7 @@
 |-------|----------|
 | [OWNER README](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-verbs-final-post-repair-audit-fffe/reports/da-verbs-owner-review-final-post-repair-README.md) | Workflow + kopsavilkums |
 | [Šis indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-verbs-final-post-repair-audit-fffe/reports/da-verbs-owner-review-final-post-repair-GITHUB.md) | Visas GitHub saites |
-| [Final post-repair audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-verbs-final-post-repair-audit-fffe/reports/da-verbs-final-post-repair-audit.md) | NEEDS OWNER REVIEW · 64 findings |
+| [Final post-repair audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-verbs-final-post-repair-audit-fffe/reports/da-verbs-final-post-repair-audit.md) | NEEDS OWNER REVIEW · 1 findings |
 
 ## Konsolidētie faili
 
@@ -23,9 +23,8 @@
 
 | Findings | Preview | Decisions | Skaits |
 |----------|---------|-----------|--------|
-| 1–50 | [Preview](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-verbs-final-post-repair-audit-fffe/reports/da-verbs-owner-review-final-post-repair-group01.md) | [Decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-verbs-final-post-repair-audit-fffe/reports/da-verbs-owner-decisions-final-post-repair-group01.md) | 50 |
-| 51–64 | [Preview](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-verbs-final-post-repair-audit-fffe/reports/da-verbs-owner-review-final-post-repair-group02.md) | [Decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-verbs-final-post-repair-audit-fffe/reports/da-verbs-owner-decisions-final-post-repair-group02.md) | 14 |
+| 1–1 | [Preview](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-verbs-final-post-repair-audit-fffe/reports/da-verbs-owner-review-final-post-repair-group01.md) | [Decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-verbs-final-post-repair-audit-fffe/reports/da-verbs-owner-decisions-final-post-repair-group01.md) | 1 |
 
 ---
 
-**Findings:** **64** · **HIGH:** **37** · **MEDIUM:** **27** · **DE changes:** **0**
+**Findings:** **1** · **HIGH:** **0** · **MEDIUM:** **0** · **DE changes:** **0**

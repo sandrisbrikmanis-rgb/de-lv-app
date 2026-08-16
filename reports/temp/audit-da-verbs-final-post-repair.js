@@ -314,9 +314,16 @@ function main() {
   const lunaLoaded = lunaFiles.length >= lunaBatches.length && lunaBatches.length > 0;
 
   for (const f of lunaFindings) {
+    const formKey = normalizeField(f.field || "lv");
+    const key = applyKey(f.cardId, formKey);
+    const exp = ownerByKey.get(key);
+    const entry = findEntry(after, f.cardId);
+    const actual = getDaValue(entry, `${formKey}.lv`);
+    if (exp && normalizeText(actual) === normalizeText(exp.ownerDecision)) {
+      continue; // Signed OWNER variant — not a new finding
+    }
     const cat = String(f.category || "LINGUISTIC").toUpperCase();
     if (NON_ERROR_CATEGORIES.has(cat) || f.severity === "FALSE_POSITIVE") continue;
-    const formKey = normalizeField(f.field || "lv");
     add(f.severity || "MEDIUM", f.cardId, `${formKey}.lv`, cat, f.problem || f.reason || "Luna finding", {
       deCurrent: f.de || f.deCurrent || "",
       daCurrent: f.daCurrent || "",
@@ -394,6 +401,7 @@ function main() {
     `| Signed LABOT fields expected (unique) | **${ownerMatch.expected}** |`,
     `| Original signed | **${owner.originalCount}** |`,
     `| Regression signed | **${owner.regressionCount}** |`,
+    `| Final post-repair signed | **${owner.fprCount || 0}** |`,
     `| OWNER_MATCH | **${ownerMatch.match}/${ownerMatch.expected}** |`,
     `| OWNER_MISMATCH | **${ownerMatch.mismatch}** |`,
     `| Missing card/field | **${ownerMatch.missing}** |`,
@@ -431,6 +439,38 @@ function main() {
     "",
   ];
 
+  md.push("## Regression linguistic 13 — revalidation", "");
+  md.push("| Card | Field | Expected | Match |");
+  md.push("|------|-------|----------|-------|");
+  for (const spec of LINGUISTIC_13) {
+    const entry = findEntry(after, spec.cardId);
+    const actual = getDaValue(entry, `${spec.field}.lv`);
+    const ok = normalizeText(actual) === normalizeText(spec.expected);
+    md.push(`| \`${spec.cardId}\` | \`${spec.field}.lv\` | ${spec.expected} | **${ok ? "PASS" : "FAIL"}** |`);
+  }
+  md.push("");
+
+  md.push("## FINAL STATUS", "");
+  md.push("| Gate | Required | Actual |");
+  md.push("|------|----------|--------|");
+  md.push(`| Coverage | 100% | **${coveragePass ? "PASS" : "FAIL"}** |`);
+  md.push(`| OWNER_MISMATCH | 0 | **${ownerMatch.mismatch}** |`);
+  md.push(`| CRITICAL | 0 | **${lingBySev.CRITICAL}** |`);
+  md.push(`| HIGH | 0 | **${lingBySev.HIGH}** |`);
+  md.push(`| MEDIUM | 0 | **${lingBySev.MEDIUM}** |`);
+  md.push(`| LOW | 0 | **${lingBySev.LOW}** |`);
+  md.push(`| Artifacts/placeholders | 0 | **${remnantCounts.ARTIFACT + remnantCounts.PLACEHOLDER}** |`);
+  md.push(`| Foreign remnants | 0 | **${remnantCounts.LV + remnantCounts.EN}** |`);
+  md.push(`| DE changes | 0 | **${deChanges}** |`);
+  md.push(`| Syntax/structure/IDs | PASS | **${syntaxPass && countPass && idOrderPass ? "PASS" : "FAIL"}** |`);
+  md.push("");
+  if (!pass) {
+    md.push(
+      `Closure blocked: **${lingBySev.HIGH + lingBySev.MEDIUM + lingBySev.CRITICAL + lingBySev.LOW}** validated Luna findings remain. Prepare OWNER review — do not auto-apply.`,
+      ""
+    );
+  }
+
   const realFindings = findings.filter((f) => f.severity !== "FALSE_POSITIVE");
   if (realFindings.length) {
     md.push("## Findings", "");
@@ -466,7 +506,11 @@ function main() {
         generatedAt: new Date().toISOString(),
         coverage,
         ownerMatch,
-        ownerMeta: { original: owner.originalCount, regression: owner.regressionCount },
+        ownerMeta: {
+          original: owner.originalCount,
+          regression: owner.regressionCount,
+          fpr: owner.fprCount || 0,
+        },
         remnantCounts,
         bySev,
         lingBySev,

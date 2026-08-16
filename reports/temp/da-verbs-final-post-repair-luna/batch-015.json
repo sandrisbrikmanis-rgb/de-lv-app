@@ -104,7 +104,7 @@
       "field": "imperfektIndikativ.lv",
       "formKey": "imperfektIndikativ",
       "de": "er sprang",
-      "daCurrent": "Han sprang",
+      "daCurrent": "Han hoppede",
       "verbIndex": 142
     },
     {
@@ -240,7 +240,7 @@
       "field": "partizipVergangenheit.lv",
       "formKey": "partizipVergangenheit",
       "de": "gestanden",
-      "daCurrent": "Stående",
+      "daCurrent": "Stået",
       "verbIndex": 145
     },
     {
@@ -320,7 +320,7 @@
       "field": "partizipVergangenheit.lv",
       "formKey": "partizipVergangenheit",
       "de": "gestiegen (er ist)",
-      "daCurrent": "Steget",
+      "daCurrent": "Klatret",
       "verbIndex": 147
     },
     {

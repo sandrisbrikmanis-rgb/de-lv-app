@@ -56,7 +56,7 @@
       "field": "praesens.lv",
       "formKey": "praesens",
       "de": "er muss",
-      "daCurrent": "Han har brug for",
+      "daCurrent": "Han skal",
       "verbIndex": 81
     },
     {
@@ -248,7 +248,7 @@
       "field": "infinitiv.lv",
       "formKey": "infinitiv",
       "de": "preisen",
-      "daCurrent": "Ros",
+      "daCurrent": "At rose",
       "verbIndex": 86
     },
     {
@@ -360,7 +360,7 @@
       "field": "partizipVergangenheit.lv",
       "formKey": "partizipVergangenheit",
       "de": "geraten",
-      "daCurrent": "Foreslået/nævnt",
+      "daCurrent": "Rådet",
       "verbIndex": 88
     },
     {
