@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "date": "2026-08-16",
+    "auditor": "GPT-5.6 Luna",
+    "mode": "READ-ONLY",
+    "level": "C2",
+    "daFile": "data/da/c2.js",
+    "note": "Dāņu tulkojumi glabājas laukā lv (projekta konvencija).",
+    "deReference": "data/c2.js (DE parity only, READ-ONLY)",
+    "wwwFile": "www/data/da/c2.js",
+    "productionCards": 219,
+    "expectedCards": 219,
+    "studyCount": 1,
+    "deStudyCount": 1,
+    "expectedStudies": 1,
+    "flashcards": 218,
+    "regularCards": 218,
+    "standardStudy": 1,
+    "minimalStudy": 0,
+    "otherStudyTypes": 0,
+    "mirrorIdentical": true,
+    "syntaxOk": true,
+    "deChanges": 0,
+    "productionChanges": 0
+  },
+  "structural": {
+    "cardCountPass": true,
+    "studyCountPass": true,
+    "mirrorPass": true,
+    "deIntegrityPass": true,
+    "studyParityPass": true,
+    "studyIdsUnique": true
+  },
+  "summary": {
+    "total": 5,
+    "rawCandidates": 0,
+    "falsePositives": 0,
+    "realFindings": 5,
+    "bySeverity": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "MEDIUM": 5,
+      "LOW": 0
+    },
+    "byStatus": {
+      "LABOT": 5,
+      "NELABOT": 0,
+      "NEEDS_SOURCE_REVIEW": 0,
+      "FALSE_POSITIVE": 0
+    },
+    "verdict": "NEEDS REPAIR"
+  },
+  "findings": [
+    {
+      "id": "DA-C2-0001",
+      "cardId": "c2-Berichterstatter-86",
+      "productionIndex": 86,
+      "field": "lv",
+      "deContext": "Berichterstatter",
+      "currentDa": "Reporter • Reporter • Korrespondent • Reporter",
+      "proposedDa": "Reporter • Reporter",
+      "problem": "Garā sinonīmu ķēde priekšpusē (3+ • segmenti)",
+      "rationale": "C2 galvenajā laukā ieteicams 1–2 dabiski dāņu sinonīmi",
+      "severity": "MEDIUM",
+      "status": "LABOT"
+    },
+    {
+      "id": "DA-C2-0002",
+      "cardId": "c2-durchkreuzen-103",
+      "productionIndex": 103,
+      "field": "lv",
+      "deContext": "durchkreuzen",
+      "currentDa": "Slå ud • Kryds • Kryds • Forstyr",
+      "proposedDa": "Slå ud • Kryds",
+      "problem": "Garā sinonīmu ķēde priekšpusē (3+ • segmenti)",
+      "rationale": "C2 galvenajā laukā ieteicams 1–2 dabiski dāņu sinonīmi",
+      "severity": "MEDIUM",
+      "status": "LABOT"
+    },
+    {
+      "id": "DA-C2-0003",
+      "cardId": "c2-Entschlossenheit-113",
+      "productionIndex": 113,
+      "field": "lv",
+      "deContext": "Entschlossenheit",
+      "currentDa": "Sikkerhed • Beslutsomhed • Uden tvivl",
+      "proposedDa": "Sikkerhed • Beslutsomhed",
+      "problem": "Garā sinonīmu ķēde priekšpusē (3+ • segmenti)",
+      "rationale": "C2 galvenajā laukā ieteicams 1–2 dabiski dāņu sinonīmi",
+      "severity": "MEDIUM",
+      "status": "LABOT"
+    },
+    {
+      "id": "DA-C2-0004",
+      "cardId": "c2-Errungenschaft-117",
+      "productionIndex": 117,
+      "field": "lv",
+      "deContext": "Errungenschaft",
+      "currentDa": "Præstation • Udbytte • Gevinst",
+      "proposedDa": "Præstation • Udbytte",
+      "problem": "Garā sinonīmu ķēde priekšpusē (3+ • segmenti)",
+      "rationale": "C2 galvenajā laukā ieteicams 1–2 dabiski dāņu sinonīmi",
+      "severity": "MEDIUM",
+      "status": "LABOT"
+    },
+    {
+      "id": "DA-C2-0005",
+      "cardId": "c2-Leistungsfähigkeit-173",
+      "productionIndex": 173,
+      "field": "lv",
+      "deContext": "Leistungsfähigkeit",
+      "currentDa": "Arbejdskapacitet • Produktivitet • Kapacitet",
+      "proposedDa": "Arbejdskapacitet • Produktivitet",
+      "problem": "Garā sinonīmu ķēde priekšpusē (3+ • segmenti)",
+      "rationale": "C2 galvenajā laukā ieteicams 1–2 dabiski dāņu sinonīmi",
+      "severity": "MEDIUM",
+      "status": "LABOT"
+    }
+  ]
+}

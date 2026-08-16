@@ -1,0 +1,351 @@
+{
+  "dryRun": false,
+  "applied": [
+    {
+      "finding": 1,
+      "cardId": "c1-wahl",
+      "field": "study.explanation",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 2,
+      "cardId": "c1-Abgeordnete-197",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 3,
+      "cardId": "c1-beanspruchen-208",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 4,
+      "cardId": "c1-bedingungslos-210",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 5,
+      "cardId": "c1-beklagen-217",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 6,
+      "cardId": "c1-benachteiligen-220",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 7,
+      "cardId": "c1-Berufung-227",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 8,
+      "cardId": "c1-Beschaffenheit-229",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 9,
+      "cardId": "c1-Bescheinigung-231",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 10,
+      "cardId": "c1-beschlagnahmen-232",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 11,
+      "cardId": "c1-beträchtlich-235",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 13,
+      "cardId": "c1-bewerben, sich-242",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 14,
+      "cardId": "c1-dauerhaft-255",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 15,
+      "cardId": "c1-dazwischenkommen-256",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 16,
+      "cardId": "c1-ehrenhaft-277",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 17,
+      "cardId": "c1-Einlage-282",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 18,
+      "cardId": "c1-einreden-283",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 19,
+      "cardId": "c1-Einverständnis-288",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 21,
+      "cardId": "c1-entschlossen-300",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 22,
+      "cardId": "c1-festgesetzt-309",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 23,
+      "cardId": "c1-gelegentlich",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 24,
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[0].example",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 25,
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[1].example",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 26,
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[2].example",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 27,
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[3].example",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 28,
+      "cardId": "c1-geringschätzig-354",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 29,
+      "cardId": "c1-gewissermaßen-369",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 30,
+      "cardId": "c1-herunterkommen-390",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 31,
+      "cardId": "c1-Kaution-404",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 32,
+      "cardId": "c1-Liebeserklärung-419",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 33,
+      "cardId": "c1-Nachschlagewerk-430",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 34,
+      "cardId": "c1-Oppositionsführer-435",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 35,
+      "cardId": "c1-Spitzenleistung-479",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 36,
+      "cardId": "c1-Überschuss-493",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 37,
+      "cardId": "c1-veranschlagen-502",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 38,
+      "cardId": "c1-verdrießlich-503",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 39,
+      "cardId": "c1-Vergünstigung-508",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 40,
+      "cardId": "c1-verschlossen-522",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 41,
+      "cardId": "c1-Vollversammlung-538",
+      "field": "lv",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 42,
+      "cardId": "c1-wahlberechtigt",
+      "field": "study.comparison[0].example",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 43,
+      "cardId": "c1-wahlberechtigt",
+      "field": "study.comparison[1].example",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 44,
+      "cardId": "c1-wahlberechtigt",
+      "field": "study.comparison[2].example",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 45,
+      "cardId": "c1-voraussetzen",
+      "field": "study.explanation[1]",
+      "level": "c1",
+      "action": "SET"
+    },
+    {
+      "finding": 1,
+      "cardId": "c2-Berichterstatter-86",
+      "field": "lv",
+      "level": "c2",
+      "action": "SET"
+    },
+    {
+      "finding": 2,
+      "cardId": "c2-durchkreuzen-103",
+      "field": "lv",
+      "level": "c2",
+      "action": "SET"
+    },
+    {
+      "finding": 3,
+      "cardId": "c2-Entschlossenheit-113",
+      "field": "lv",
+      "level": "c2",
+      "action": "SET"
+    },
+    {
+      "finding": 4,
+      "cardId": "c2-Errungenschaft-117",
+      "field": "lv",
+      "level": "c2",
+      "action": "SET"
+    },
+    {
+      "finding": 5,
+      "cardId": "c2-Leistungsfähigkeit-173",
+      "field": "lv",
+      "level": "c2",
+      "action": "SET"
+    }
+  ],
+  "skipped": [],
+  "failed": [],
+  "summary": {
+    "applied": 48,
+    "skipped": 0,
+    "failed": 0,
+    "c1Studies": 15,
+    "c2Studies": 1,
+    "deChanges": 0
+  }
+}
