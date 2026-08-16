@@ -1,0 +1,3111 @@
+{
+  "generatedAt": "2026-08-16T13:23:18.566Z",
+  "files": [
+    "reports/da-b2-owner-decisions-01.md",
+    "reports/da-b2-owner-decisions-02.md",
+    "reports/da-b2-owner-decisions-03.md",
+    "reports/da-b2-owner-decisions-04.md",
+    "reports/da-b2-owner-decisions-05.md",
+    "reports/da-b2-owner-decisions-06.md",
+    "reports/da-b2-owner-decisions-07.md",
+    "reports/da-b2-owner-decisions-08.md"
+  ],
+  "apply": [
+    {
+      "finding": 1,
+      "cardId": "b2-abbringen-36",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Fraråde • Aflede",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 2,
+      "cardId": "b2-abfällig-41",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Nedsættende • Nedladende",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 3,
+      "cardId": "b2-abfertigen-42",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Ekspedere • Affærdige",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 4,
+      "cardId": "b2-ableiten-50",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Aflede • Udlede",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 5,
+      "cardId": "b2-Abnutzung-52",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Slitage • Nedslidning",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 6,
+      "cardId": "b2-abschlagen-59",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Afslå • Hugge af",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 7,
+      "cardId": "b2-absondern-63",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Udskille • Adskille",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 8,
+      "cardId": "b2-abtragen-71",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Fjerne • Nedrive",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 9,
+      "cardId": "b2-abtreten-72",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Træde tilbage • Overdrage",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 10,
+      "cardId": "b2-Anmut-85",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Ynde • Elegance",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 11,
+      "cardId": "b2-Äußerung-104",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Ytring • Udtalelse",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 12,
+      "cardId": "b2-aussetzen-105",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Udsætte • Suspendere",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 13,
+      "cardId": "b2-ausspannen-107",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Slappe af • Spænde fra",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 14,
+      "cardId": "b2-ausstopfen-110",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Stoppe ud • Udstoppe",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 15,
+      "cardId": "b2-ausströmen-111",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Strømme ud • Udstråle",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 16,
+      "cardId": "b2-austragen-112",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Udkæmpe • Levere",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 17,
+      "cardId": "b2-austreten-114",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Træde ud • Lække ud",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 18,
+      "cardId": "b2-ausweisen-117",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Udvise • Dokumentere",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 19,
+      "cardId": "b2-auszeichnen-120",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Udmærke • Hædre",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 20,
+      "cardId": "b2-Auszeichnung-121",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Udmærkelse • Pris",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 21,
+      "cardId": "b2-Beförderung-150",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Transport • Forfremmelse",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 22,
+      "cardId": "b2-begehren-152",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Begære • Ønske",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 23,
+      "cardId": "b2-begünstigen-156",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Begunstige • Fremme",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 24,
+      "cardId": "b2-beiläufig-162",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Henkastet • I forbifarten",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 25,
+      "cardId": "b2-beispiellos-163",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Uden fortilfælde • Enestående",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 26,
+      "cardId": "b2-belästigen-177",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Chikanere • Gene",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 27,
+      "cardId": "b2-beleibt-181",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Korpulent • Fyldig",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 28,
+      "cardId": "b2-Belieben-183",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Forgodtbefindende • Behag",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 29,
+      "cardId": "b2-Benennung-186",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Benævnelse • Navngivning",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 30,
+      "cardId": "b2-bergen-192",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Bjerge • Redde",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 31,
+      "cardId": "b2-bersten-195",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Briste • Sprænges",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 32,
+      "cardId": "b2-besänftigen-199",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Berolige • Formilde",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 33,
+      "cardId": "b2-Besatzung-200",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Besætning • Bemanding",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 34,
+      "cardId": "b2-beschimpfen-203",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Skælde ud • Fornærme",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 35,
+      "cardId": "b2-Beschützer-205",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Beskytter • Forsvarer",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 36,
+      "cardId": "b2-beschwören-206",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Besværge • Påkalde",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 37,
+      "cardId": "b2-besessen-207",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Besat • Besættelsespræget",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 38,
+      "cardId": "b2-Bestand-211",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Beholdning • Bestand",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 39,
+      "cardId": "b2-bestärken-213",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Styrke • Bekræfte",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 40,
+      "cardId": "b2-bestreiten-217",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Bestride • Afholde",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 41,
+      "cardId": "b2-bestürzt-218",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Forfærdet • Rystet",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 42,
+      "cardId": "b2-Betäubung-220",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Bedøvelse • Narkose",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 43,
+      "cardId": "b2-Betrug-225",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Bedrageri • Svindel",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 44,
+      "cardId": "b2-Beute-227",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Bytte • Rov",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 45,
+      "cardId": "b2-bewähren-229",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Bevise sit værd • Stå sin prøve",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 46,
+      "cardId": "b2-bewährt-230",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Afprøvet • Velprøvet",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 47,
+      "cardId": "b2-Bewerbung-234",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Ansøgning • Kandidatur",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 48,
+      "cardId": "b2-bewilligen-235",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Bevilge • Godkende",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 49,
+      "cardId": "b2-Bezug-239",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Relation • Betræk",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 50,
+      "cardId": "b2-bezwingen-241",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Overvinde • Besejre",
+      "source": "da-b2-owner-decisions-02.md",
+      "action": "SET"
+    },
+    {
+      "finding": 51,
+      "cardId": "b2-bisweilen-244",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Nogle gange • Til tider",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 52,
+      "cardId": "b2-bildlich-246",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Billedlig • Figurativ",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 53,
+      "cardId": "b2-Bildnis-247",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Portræt • Billede",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 54,
+      "cardId": "b2-Bindung-249",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Binding • Forbindelse",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 55,
+      "cardId": "b2-blähen-258",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Puste op • Udspile",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 56,
+      "cardId": "b2-bleichen-263",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Blege • Blegne",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 57,
+      "cardId": "b2-blenden-264",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Blænde • Vildlede",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 58,
+      "cardId": "b2-blödsinnig-271",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Tåbelig • Meningsløs",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 59,
+      "cardId": "b2-Blutalkohol-275",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Mængden af alkohol i blodet",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 60,
+      "cardId": "b2-Bodensatz-280",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Bundfald • Sediment",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 61,
+      "cardId": "b2-Böschung-289",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Skråning • Skrænt",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 62,
+      "cardId": "b2-Bote-290",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Budbringer • Sendebud",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 63,
+      "cardId": "b2-Buckel-310",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Pukkel • Ryg",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 64,
+      "cardId": "b2-Bügel-311",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Bøjle • Tøjbøjle",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 65,
+      "cardId": "b2-bürgerlich-321",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Borgerlig • Civil",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 66,
+      "cardId": "b2-Damm-340",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Dæmning • Vold",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 67,
+      "cardId": "b2-dämmern-341",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Skumre • Gry",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 68,
+      "cardId": "b2-Dämmerung-342",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Tusmørke • Daggry",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 69,
+      "cardId": "b2-dämpfen-344",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Dæmpe • Dampe",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 70,
+      "cardId": "b2-Darstellung-353",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Fremstilling • Afbildning",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 71,
+      "cardId": "b2-Defizit-365",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Underskud • Mangel",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 72,
+      "cardId": "b2-dehnbar-366",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Strækbar • Udvidelig",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 73,
+      "cardId": "b2-dehnen-367",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Strække • Udvide",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 74,
+      "cardId": "b2-denkbar-377",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Tænkelig • Mulig",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 75,
+      "cardId": "b2-deplaziert-378",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Upassende • Malplaceret",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 76,
+      "cardId": "b2-derartig-380",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Sådan • Af den slags",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 77,
+      "cardId": "b2-deuten-382",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Tyde • Fortolke",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 78,
+      "cardId": "b2-Deutung-383",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Tydning • Fortolkning",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 79,
+      "cardId": "b2-Diele-398",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Gulvbræt • Forstue",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 80,
+      "cardId": "b2-donnern-413",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Tordne • Brage",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 81,
+      "cardId": "b2-drängen-434",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Trænge • Presse",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 82,
+      "cardId": "b2-Dreck-435",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Snavs • Møg",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 83,
+      "cardId": "b2-dringen-443",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Trænge • Bryde igennem",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 84,
+      "cardId": "b2-dumpf-457",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Dæmpet • Indelukket",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 85,
+      "cardId": "b2-Dünkel-463",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Indbildskhed • Arrogance",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 86,
+      "cardId": "b2-Dunst-466",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Dis • Damp",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 87,
+      "cardId": "b2-durcharbeiten-467",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Gennemarbejde • Arbejde sig igennem",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 88,
+      "cardId": "b2-durchaus-468",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Absolut • Ganske",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 89,
+      "cardId": "b2-durchbrechen-469",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Bryde igennem • Gennembryde",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 90,
+      "cardId": "b2-durchbrennen-470",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Brænde igennem • Stikke af",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 91,
+      "cardId": "b2-durchbringen-471",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Få igennem • Forsørge",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 92,
+      "cardId": "b2-durchdringen-473",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Trænge igennem • Gennemtrænge",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 93,
+      "cardId": "b2-Durchführung-476",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Gennemførelse • Udførelse",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 94,
+      "cardId": "b2-durchmachen-479",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Gennemgå • Opleve",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 95,
+      "cardId": "b2-durchschlagen-484",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Slå igennem • Kæmpe sig igennem",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 96,
+      "cardId": "b2-durchsehen-485",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Gennemse • Kontrollere",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 97,
+      "cardId": "b2-dürr-488",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Tør • Mager",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 98,
+      "cardId": "b2-dürsten-490",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Tørste • Længes",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 99,
+      "cardId": "b2-edel-497",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Ædel • Fornem",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 100,
+      "cardId": "b2-ehren-505",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Ære • Hædre",
+      "source": "da-b2-owner-decisions-03.md",
+      "action": "SET"
+    },
+    {
+      "finding": 101,
+      "cardId": "b2-Eifer-521",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Iver • Begejstring",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 102,
+      "cardId": "b2-eifrig-522",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Ivrig • Flittig",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 103,
+      "cardId": "b2-eigenwillig-528",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Egenrådig • Stædig",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 104,
+      "cardId": "b2-Einbildung-534",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Indbildning • Fantasi",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 105,
+      "cardId": "b2-einbürgern-535",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Give statsborgerskab • Indføre",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 106,
+      "cardId": "b2-eindringen-537",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Trænge ind • Bryde ind",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 107,
+      "cardId": "b2-einfassen-540",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Indramme • Omslutte",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 108,
+      "cardId": "b2-einfrieren-543",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Fryse • Indefryse",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 109,
+      "cardId": "b2-Einfuhr-544",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Import • Indførsel",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 110,
+      "cardId": "b2-eingehen-549",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Indgå • Modtage",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 111,
+      "cardId": "b2-eingehend-550",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Grundig • Indgående",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 112,
+      "cardId": "b2-eingerechnet-552",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Medregnet • Inkluderet",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 113,
+      "cardId": "b2-einhüllen-560",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Indhylle • Pakke ind",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 114,
+      "cardId": "b2-Einigkeit-561",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Enighed • Samdrægtighed",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 115,
+      "cardId": "b2-einmachen-569",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Konservere • Sylte",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 116,
+      "cardId": "b2-Einschnitt-575",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Indsnit • Indgreb",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 117,
+      "cardId": "b2-Einspruch-581",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Indsigelse • Protest",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 118,
+      "cardId": "b2-eintauchen-585",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Dyppe • Dykke ned",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 119,
+      "cardId": "b2-eintönig-586",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Monoton • Ensformig",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 120,
+      "cardId": "b2-Eintracht-587",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Samdrægtighed • Harmoni",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 121,
+      "cardId": "b2-eitel-605",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Forfængelig • Indbildsk",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 122,
+      "cardId": "b2-Empörung-614",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Forargelse • Harme",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 123,
+      "cardId": "b2-emsig-615",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Flittig • Ihærdig",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 124,
+      "cardId": "b2-entbehren-616",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Undvære • Mangle",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 125,
+      "cardId": "b2-entbinden-617",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Fritage • Forløse",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 126,
+      "cardId": "b2-Entbindung-618",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Fødsel • Fritagelse",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 127,
+      "cardId": "b2-entfalten-623",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Udfolde • Udvikle",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 128,
+      "cardId": "b2-sich entfalten-624",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Udfolde sig • Udvikle sig",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 129,
+      "cardId": "b2-entflammen-625",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Antænde • Opflamme",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 130,
+      "cardId": "b2-entkräften-632",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Afkræfte • Svække",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 131,
+      "cardId": "b2-entlegen-636",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Afsides • Fjerntliggende",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 132,
+      "cardId": "b2-entnehmen-638",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Tage ud • Udtage",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 133,
+      "cardId": "b2-Entspannung-643",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Afslapning • Afspænding",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 134,
+      "cardId": "b2-entstellen-644",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Forvrænge • Vansire",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 135,
+      "cardId": "b2-entweichen-645",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Undslippe • Sive ud",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 136,
+      "cardId": "b2-Entwurf-649",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Udkast • Skitse",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 137,
+      "cardId": "b2-entwurzeln-650",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Rykke op med rode • Rodrive",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 138,
+      "cardId": "b2-entziehen-651",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Fratage • Unddrage",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 139,
+      "cardId": "b2-entzückend-653",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Henrivende • Dejlig",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 140,
+      "cardId": "b2-entzünden-655",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Antænde • Tænde",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 141,
+      "cardId": "b2-sich entzünden-656",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Antændes • Blive betændt",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 142,
+      "cardId": "b2-Entzündung-657",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Betændelse • Antændelse",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 143,
+      "cardId": "b2-ergiebig-674",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Udbytterig • Produktiv",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 144,
+      "cardId": "b2-erhaben-676",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Ophøjet • Sublim",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 145,
+      "cardId": "b2-erheben-677",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Hæve • Rejse",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 146,
+      "cardId": "b2-sich erheben-678",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Rejse sig • Hæve sig",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 147,
+      "cardId": "b2-erlangen-682",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Opnå • Erhverve",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 148,
+      "cardId": "b2-Erlass-683",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Dekret • Eftergivelse",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 149,
+      "cardId": "b2-erlassen-684",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Udstede • Eftergive",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 150,
+      "cardId": "b2-erleiden-687",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Lide • Pådrage sig",
+      "source": "da-b2-owner-decisions-04.md",
+      "action": "SET"
+    },
+    {
+      "finding": 151,
+      "cardId": "b2-erlöschen-688",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Slukke • Udløbe",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 152,
+      "cardId": "b2-Eröffnung-695",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Åbning • Indvielse",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 153,
+      "cardId": "b2-erregen-698",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Ophidse • Vække",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 154,
+      "cardId": "b2-Erscheinung-703",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Fænomen • Fremtoning",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 155,
+      "cardId": "b2-erschüttern-707",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Ryste • Chokere",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 156,
+      "cardId": "b2-ersparen-710",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Spare • Skåne",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 157,
+      "cardId": "b2-ersticken-713",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Kvæle • Kvæles",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 158,
+      "cardId": "b2-sich erstrecken-714",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Strække sig • Brede sig",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 159,
+      "cardId": "b2-erweisen-721",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Vise • Yde",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 160,
+      "cardId": "b2-Erwerb-723",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Erhvervelse • Erhverv",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 161,
+      "cardId": "b2-erwerben-724",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Erhverve • Anskaffe",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 162,
+      "cardId": "b2-erzielen-726",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Opnå",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 163,
+      "cardId": "b2-exklusiv-737",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Eksklusiv • Fornem",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 164,
+      "cardId": "b2-Exot-738",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Eksotisk person • Eksotisk væsen",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 165,
+      "cardId": "b2-sich-fassen",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "At tage sig sammen • At fatte sig",
+      "source": "da-b2-owner-decisions-01.md",
+      "action": "SET"
+    },
+    {
+      "finding": 166,
+      "cardId": "b2-Fassung-769",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Fatning • Version",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 167,
+      "cardId": "b2-Feingefühl-776",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Takt • Fingerspidsfornemmelse",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 168,
+      "cardId": "b2-Finsternis-790",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Mørke • Dunkelhed",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 169,
+      "cardId": "b2-Firmeninhaber-791",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Virksomhedsejer",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 170,
+      "cardId": "b2-fleckig-799",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Plettet • Skjoldet",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 171,
+      "cardId": "b2-flimmern-801",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Flimre • Blafre",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 172,
+      "cardId": "b2-flüchtig-805",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Flygtig • Kortvarig",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 173,
+      "cardId": "b2-formell-817",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Formel • Formelt korrekt",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 174,
+      "cardId": "b2-fortschaffen-821",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Fjerne • Transportere væk",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 175,
+      "cardId": "b2-freilich-831",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Ganske vist • Selvfølgelig",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 176,
+      "cardId": "b2-Furche-855",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Fure • Rille",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 177,
+      "cardId": "b2-Gebot-876",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Bud • Befaling",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 178,
+      "cardId": "b2-gebrechlich-877",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Skrøbelig • Svagelig",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 179,
+      "cardId": "b2-gedämpft-878",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Dæmpet • Lyddæmpet",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 180,
+      "cardId": "b2-gedeihen-880",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Trives • Blomstre",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 181,
+      "cardId": "b2-gedenken-881",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Mindes • Have til hensigt",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 182,
+      "cardId": "b2-gefällig-886",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Imødekommende • Behagelig",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 183,
+      "cardId": "b2-Gefüge-890",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Struktur • Sammenføjning",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 184,
+      "cardId": "b2-Gegensatz-894",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Modsætning • Kontrast",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 185,
+      "cardId": "b2-gehörig-896",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Behørig • Ordentlig",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 186,
+      "cardId": "b2-geläufig-902",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Velkendt • Flydende",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 187,
+      "cardId": "b2-gelegen-908",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Belejlig • Passende",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 188,
+      "cardId": "b2-Geliebte-910",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Elskede • Kæreste",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 189,
+      "cardId": "b2-gemäß-915",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Ifølge • I overensstemmelse med",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 190,
+      "cardId": "b2-Gemisch-918",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Blanding",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 191,
+      "cardId": "b2-Gemüt-920",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Sind • Gemyt",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 192,
+      "cardId": "b2-geraten-935",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Komme • Havne",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 193,
+      "cardId": "b2-geräuschlos-937",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Lydløs • Støjfri",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 194,
+      "cardId": "b2-Gerede-938",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Snak • Sladder",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 195,
+      "cardId": "b2-gerinnen-939",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Størkne • Koagulere",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 196,
+      "cardId": "b2-Gerippe-940",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Skelet • Ramme",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 197,
+      "cardId": "b2-Geschehnis-945",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Hændelse • Begivenhed",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 198,
+      "cardId": "b2-Geschöpf-947",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Væsen • Skabning",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 199,
+      "cardId": "b2-Geschwätz-950",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Sludder • Snak",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 200,
+      "cardId": "b2-geschwind-952",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Hurtig • Kvik",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 201,
+      "cardId": "b2-Geselle-955",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Svend • Håndværkersvend",
+      "source": "da-b2-owner-decisions-05.md",
+      "action": "SET"
+    },
+    {
+      "finding": 202,
+      "cardId": "b2-Gestell-965",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Stativ • Ramme",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 203,
+      "cardId": "b2-Gewähr-970",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Garanti • Sikkerhed",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 204,
+      "cardId": "b2-Gewerbe-977",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Erhverv • Næringsvirksomhed",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 205,
+      "cardId": "b2-Gewissheit-980",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Vished • Sikkerhed",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 206,
+      "cardId": "b2-gierig-982",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Grådig • Begærlig",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 207,
+      "cardId": "b2-Glied-1000",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Led • Medlem",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 208,
+      "cardId": "b2-glimmen-1002",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Ulme • Gløde",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 209,
+      "cardId": "b2-glühen-1004",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Gløde • Brænde",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 210,
+      "cardId": "b2-Glut-1005",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Glød • Hede",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 211,
+      "cardId": "b2-grässlich-1021",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Forfærdelig • Grufuld",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 212,
+      "cardId": "b2-Grenzbereich-1032",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Grænseområde • Grænsezone",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 213,
+      "cardId": "b2-Grimm-1033",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Raseri • Vrede",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 214,
+      "cardId": "b2-Guss-1046",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Støbning • Regnskyl",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 215,
+      "cardId": "b2-Güte-1048",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Godhed • Kvalitet",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 216,
+      "cardId": "b2-hemmen-1091",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Hæmme • Bremse",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 217,
+      "cardId": "b2-Hemmung-1092",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Hæmning • Hindring",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 218,
+      "cardId": "b2-herb-1103",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Bitter • Barsk",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 219,
+      "cardId": "b2-hervorrufen-1106",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Fremkalde • Forårsage",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 220,
+      "cardId": "b2-hetzen-1112",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Jage • Ophidse",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 221,
+      "cardId": "b2-hitzig-1131",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Hidsig • Opfarende",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 222,
+      "cardId": "b2-Höchstleistung-1143",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Toppræstation • Maksimal ydelse",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 223,
+      "cardId": "b2-hochwasser",
+      "field": "study.comparison[0].example",
+      "status": "LABOT",
+      "ownerNew": "Es gibt Hochwasser. = Der er oversvømmelse.",
+      "source": "da-b2-owner-decisions-01.md",
+      "action": "SET"
+    },
+    {
+      "finding": 224,
+      "cardId": "b2-hochwasser",
+      "field": "study.comparison[1].example",
+      "status": "LABOT",
+      "ownerNew": "Die Überschwemmung zerstörte Häuser. = Oversvømmelsen ødelagde huse.",
+      "source": "da-b2-owner-decisions-01.md",
+      "action": "SET"
+    },
+    {
+      "finding": 225,
+      "cardId": "b2-hochwasser",
+      "field": "study.comparison[2].example",
+      "status": "LABOT",
+      "ownerNew": "Der Pegel steigt. = Vandstanden stiger.",
+      "source": "da-b2-owner-decisions-01.md",
+      "action": "SET"
+    },
+    {
+      "finding": 226,
+      "cardId": "b2-Investition-1164",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Investering • Kapitalinvestering",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 227,
+      "cardId": "b2-Kapazität-1168",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Kapacitet • Ydeevne",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 229,
+      "cardId": "b2-Klasse-1180",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Klasse • Kategori",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 230,
+      "cardId": "b2-Konsequenz-1192",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Konsekvens • Konsekvensfasthed",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 231,
+      "cardId": "b2-Konzept-1197",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Koncept • Plan",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 232,
+      "cardId": "b2-Landung-1212",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Landing",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 233,
+      "cardId": "b2-leidlich-1236",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Tålelig • Nogenlunde",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 234,
+      "cardId": "b2-mächtig-1274",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Mægtig • Kraftfuld",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 235,
+      "cardId": "b2-mulmig-1341",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Utryg • Beklemt",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 236,
+      "cardId": "b2-münden-1342",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Munde ud • Udmunde",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 237,
+      "cardId": "b2-nachdruck",
+      "field": "study.comparison[0].example",
+      "status": "LABOT",
+      "ownerNew": "Er legt Nachdruck auf die Frist. = Han lægger vægt på fristen.",
+      "source": "da-b2-owner-decisions-01.md",
+      "action": "SET"
+    },
+    {
+      "finding": 238,
+      "cardId": "b2-nachdruck",
+      "field": "study.comparison[1].example",
+      "status": "LABOT",
+      "ownerNew": "Der Nachdruck erschien im Frühjahr. = Genoptrykket udkom i foråret.",
+      "source": "da-b2-owner-decisions-01.md",
+      "action": "SET"
+    },
+    {
+      "finding": 239,
+      "cardId": "b2-nachdruck",
+      "field": "study.comparison[2].example",
+      "status": "LABOT",
+      "ownerNew": "Unter Druck stehen = at være under pres.",
+      "source": "da-b2-owner-decisions-01.md",
+      "action": "SET"
+    },
+    {
+      "finding": 240,
+      "cardId": "b2-nachdrücklich-1350",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Eftertrykkelig • Bestemt",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 241,
+      "cardId": "b2-nachträglich-1357",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Efterfølgende • Senere",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 242,
+      "cardId": "b2-neuerdings-1374",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "På det seneste • For nylig",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 243,
+      "cardId": "b2-nichtig-1380",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Ugyldig • Ubetydelig",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 244,
+      "cardId": "b2-Niedergang-1381",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Nedgang • Forfald",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 245,
+      "cardId": "b2-niederlegen-1382",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Nedlægge • Fratræde",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 246,
+      "cardId": "b2-Order-1412",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Ordre • Bestilling",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 247,
+      "cardId": "b2-orientalisch-1418",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Orientalsk",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 248,
+      "cardId": "b2-pfuschen-1447",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Sjuskearbejde • Fuske",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 249,
+      "cardId": "b2-pikiert-1451",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Fornærmet • Stødt",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 250,
+      "cardId": "b2-Posse-1461",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Farce • Løjer",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 251,
+      "cardId": "b2-Possen-1462",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Løjer • Narrestreger",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 252,
+      "cardId": "b2-prägen-1464",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Præge • Forme",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 253,
+      "cardId": "b2-provisorisch-1476",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Midlertidig • Foreløbig",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 254,
+      "cardId": "b2-quellen-1482",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Sive • Svulme",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 255,
+      "cardId": "b2-ranzig-1492",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Harsk",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 256,
+      "cardId": "b2-rau-1493",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Ru • Barsk",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 257,
+      "cardId": "b2-recken-1503",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Strække • Strække sig",
+      "source": "da-b2-owner-decisions-06.md",
+      "action": "SET"
+    },
+    {
+      "finding": 258,
+      "cardId": "b2-rege-1508",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Livlig • Aktiv",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 259,
+      "cardId": "b2-Regung-1513",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Bevægelse • Følelse",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 260,
+      "cardId": "b2-Rückgang-1530",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Fald • Tilbagegang",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 261,
+      "cardId": "b2-rücksichtslos-1532",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Hensynsløs • Nådesløs",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 262,
+      "cardId": "b2-rühmen-1536",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Rose • Prale af",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 263,
+      "cardId": "b2-Sachlage-1543",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Situation • Omstændigheder",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 264,
+      "cardId": "b2-sättigen-1552",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Mætte • Gøre mæt",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 265,
+      "cardId": "b2-sausen-1554",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Suse • Fare afsted",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 266,
+      "cardId": "b2-Schaffen-1558",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Skaben • Virke",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 267,
+      "cardId": "b2-schärfsinnig-1564",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Skarpsindig • Klarsynet",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 268,
+      "cardId": "b2-scheiden-1569",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Skille • Adskille",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 269,
+      "cardId": "b2-Scheitel-1571",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Isse • Skilning",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 270,
+      "cardId": "b2-Schieber-1577",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Skyder • Spekulant",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 271,
+      "cardId": "b2-Schöpfung-1600",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Skabelse • Skaberværk",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 272,
+      "cardId": "b2-schroff-1604",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Barsk • Afvisende",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 273,
+      "cardId": "b2-schwärmen-1613",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Sværme • Være begejstret",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 274,
+      "cardId": "b2-schwinden-1623",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Svækkes • Forsvinde",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 275,
+      "cardId": "b2-Sonderausgabe-1656",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Særudgave • Specialudgave",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 276,
+      "cardId": "b2-Spaltung-1665",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Spaltning • Splittelse",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 277,
+      "cardId": "b2-spärlich-1666",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Sparsom • Knap",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 278,
+      "cardId": "b2-Spott-1673",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Hån • Spot",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 279,
+      "cardId": "b2-sprengen-1678",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Sprænge • Overskride",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 280,
+      "cardId": "b2-Spross-1680",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Skud • Afkom",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 281,
+      "cardId": "b2-Spruch-1681",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Ordsprog • Kendelse",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 282,
+      "cardId": "b2-Spuk-1683",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Spøgeri • Genfærd",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 283,
+      "cardId": "b2-starr-1693",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Stiv • Ubevægelig",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 284,
+      "cardId": "b2-tönen-1735",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Lyde • Klinge",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 285,
+      "cardId": "b2-überbringen-1761",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Overbringe • Levere",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 286,
+      "cardId": "b2-übergehen-1768",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Forbigå • Gå over til",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 287,
+      "cardId": "b2-Überlegung-1772",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Overvejelse • Betragtning",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 288,
+      "cardId": "b2-übertragen-1780",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Overføre • Transmittere",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 289,
+      "cardId": "b2-umfassen-1788",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Omfatte • Omfavne",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 290,
+      "cardId": "b2-umkreisen-1793",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Kredse om • Omkredse",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 291,
+      "cardId": "b2-umschließen-1797",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Omslutte • Indeslutte",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 292,
+      "cardId": "b2-Umschwung-1800",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Omsving • Pludselig ændring",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 293,
+      "cardId": "b2-umständlich-1803",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Omstændelig • Besværlig",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 294,
+      "cardId": "b2-unbedacht-1812",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Ubetænksom • Forhastet",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 295,
+      "cardId": "b2-unbewusst-1821",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Ubevidst • Ubevidst foretaget",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 296,
+      "cardId": "b2-unentgeltlich-1824",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Gratis • Vederlagsfri",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 297,
+      "cardId": "b2-Unfug-1827",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Uvæsen • Tåbeligheder",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 298,
+      "cardId": "b2-ungerade-1829",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Ulige • Skæv",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 299,
+      "cardId": "b2-unnütz-1833",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Unyttig • Ubrugelig",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 300,
+      "cardId": "b2-Untergang-1838",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Undergang • Forlis",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 301,
+      "cardId": "b2-Unterhalt-1840",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Underhold • Forsørgelse",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 302,
+      "cardId": "b2-Unterlage-1843",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Underlag • Dokumentation",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 303,
+      "cardId": "b2-untertauchen-1849",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Dykke ned • Gå under jorden",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 304,
+      "cardId": "b2-unwillkürlich-1858",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Uvilkårlig • Ufrivillig",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 305,
+      "cardId": "b2-Urheber-1862",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Ophavsmand • Forfatter",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 306,
+      "cardId": "b2-Ursprung-1865",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Oprindelse • Udspring",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 307,
+      "cardId": "b2-veranlassen-1872",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Foranledige • Iværksætte",
+      "source": "da-b2-owner-decisions-07.md",
+      "action": "SET"
+    },
+    {
+      "finding": 308,
+      "cardId": "b2-Verdruss-1877",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Ærgrelse • Irritation",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 309,
+      "cardId": "b2-verdünnen-1878",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Fortynde • Gøre tyndere",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 310,
+      "cardId": "b2-verehren-1879",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Ære • Højagte",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 311,
+      "cardId": "b2-Vereinigung-1882",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Forening • Sammenslutning",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 312,
+      "cardId": "b2-Verfahren-1884",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Fremgangsmåde • Procedure",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 313,
+      "cardId": "b2-Verfall-1885",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Forfald • Nedgang",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 314,
+      "cardId": "b2-verfallen-1886",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Forfalde • Udløbe",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 315,
+      "cardId": "b2-verfügen-1888",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Råde over • Bestemme",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 316,
+      "cardId": "b2-verkommen-1916",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Forfalde • Degenerere",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 317,
+      "cardId": "b2-vermitteln-1926",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Formidle • Mægle",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 318,
+      "cardId": "b2-verordnen-1930",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Ordinere • Foreskrive",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 319,
+      "cardId": "b2-versagen-1934",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Svigte • Nægte",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 320,
+      "cardId": "b2-Vertretung-1952",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Repræsentation • Stedfortrædelse",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 321,
+      "cardId": "b2-verwickeln-1959",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Indvikle • Involvere",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 322,
+      "cardId": "b2-verwirren-1960",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Forvirre • Bringe i vildrede",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 323,
+      "cardId": "b2-verzweifelt-1971",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Desperat • Fortvivlet",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 324,
+      "cardId": "b2-vollkommen-1980",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Fuldkommen • Helt",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 325,
+      "cardId": "b2-voran-1986",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Foran • Fremad",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 326,
+      "cardId": "b2-vornehmen-2000",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Foretage • Påtage sig",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 327,
+      "cardId": "b2-Vorspiel-2004",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Forspil • Præludium",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 328,
+      "cardId": "b2-Vorsprung-2005",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Forspring • Fordel",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 329,
+      "cardId": "b2-Vorstand-2006",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Bestyrelse • Ledelse",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 330,
+      "cardId": "b2-vortragen-2008",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Fremlægge • Recitere",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 331,
+      "cardId": "b2-Wesen-2060",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Væsen • Natur",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 332,
+      "cardId": "b2-wiedergeben-2073",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Gengive • Reproducere",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 333,
+      "cardId": "b2-winden-2077",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Vride • Sno",
+      "source": "da-b2-owner-decisions-08.md",
+      "action": "SET"
+    },
+    {
+      "finding": 334,
+      "cardId": "b2-zuweisen",
+      "field": "study.comparison[0].example",
+      "status": "LABOT",
+      "ownerNew": "Er weist die Aufgabe zu. = Han tildeler opgaven.",
+      "source": "da-b2-owner-decisions-01.md",
+      "action": "SET"
+    },
+    {
+      "finding": 335,
+      "cardId": "b2-zuweisen",
+      "field": "study.comparison[1].example",
+      "status": "LABOT",
+      "ownerNew": "Er gibt mir die Arbeit. = Han giver mig arbejdet.",
+      "source": "da-b2-owner-decisions-01.md",
+      "action": "SET"
+    },
+    {
+      "finding": 336,
+      "cardId": "b2-zuweisen",
+      "field": "study.comparison[2].example",
+      "status": "LABOT",
+      "ownerNew": "Er verteilt die Aufgaben. = Han fordeler opgaverne.",
+      "source": "da-b2-owner-decisions-01.md",
+      "action": "SET"
+    },
+    {
+      "finding": 337,
+      "cardId": "b2-zuwider",
+      "field": "lv",
+      "status": "LABOT",
+      "ownerNew": "Imod • Modbydelig",
+      "source": "da-b2-owner-decisions-01.md",
+      "action": "SET"
+    },
+    {
+      "finding": 338,
+      "cardId": "b2-zuwider",
+      "field": "study.comparison[1].example",
+      "status": "LABOT",
+      "ownerNew": "Es ist mir zuwider. = Det er mig imod.",
+      "source": "da-b2-owner-decisions-01.md",
+      "action": "SET"
+    },
+    {
+      "finding": 339,
+      "cardId": "b2-bieten",
+      "field": "study.explanation[1]",
+      "status": "LABOT",
+      "ownerNew": "Bieten betyder hovedsageligt: at give mulighed / fordel.",
+      "source": "da-b2-owner-decisions-01.md",
+      "action": "SET"
+    },
+    {
+      "finding": 340,
+      "cardId": "b2-bieten",
+      "field": "study.explanation[3]",
+      "status": "LABOT",
+      "ownerNew": "Bieten betyder hovedsageligt: at give en mulighed.",
+      "source": "da-b2-owner-decisions-01.md",
+      "action": "SET"
+    },
+    {
+      "finding": 341,
+      "cardId": "b2-anbieten",
+      "field": "study.comparison[0].example",
+      "status": "LABOT",
+      "ownerNew": "Ich biete Hilfe an. = Jeg tilbyder hjælp.",
+      "source": "da-b2-owner-decisions-01.md",
+      "action": "SET"
+    },
+    {
+      "finding": 342,
+      "cardId": "b2-anbieten",
+      "field": "study.comparison[1].example",
+      "status": "LABOT",
+      "ownerNew": "Er bietet viel Geld. = Han tilbyder mange penge.",
+      "source": "da-b2-owner-decisions-01.md",
+      "action": "SET"
+    },
+    {
+      "finding": 343,
+      "cardId": "b2-fordern",
+      "field": "study.explanation[1]",
+      "status": "LABOT",
+      "ownerNew": "Fordern betyder hovedsageligt: at kræve / forlange.",
+      "source": "da-b2-owner-decisions-01.md",
+      "action": "SET"
+    },
+    {
+      "finding": 344,
+      "cardId": "b2-fordern",
+      "field": "study.explanation[3]",
+      "status": "LABOT",
+      "ownerNew": "Fordern betyder hovedsageligt: at kræve en standard.",
+      "source": "da-b2-owner-decisions-01.md",
+      "action": "SET"
+    },
+    {
+      "finding": 345,
+      "cardId": "b2-foerdern",
+      "field": "study.explanation[5]",
+      "status": "LABOT",
+      "ownerNew": "Fördern betyder hovedsageligt: at udvikle talent.",
+      "source": "da-b2-owner-decisions-01.md",
+      "action": "SET"
+    }
+  ]
+}

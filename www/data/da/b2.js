@@ -201,7 +201,7 @@ const B2_WORDS = [
   },
   {
     "de": "abbringen",
-    "lv": "Fraråde • Fraråde • Aflede",
+    "lv": "Fraråde • Aflede",
     "level": "B2"
   },
   {
@@ -233,12 +233,12 @@ const B2_WORDS = [
   },
   {
     "de": "abfällig",
-    "lv": "Ugunstig • Negativ • Dårlig • Misbilligende",
+    "lv": "Nedsættende • Nedladende",
     "level": "B2"
   },
   {
     "de": "abfertigen",
-    "lv": "Send • Send afsted • Servér • Behandl uvenligt",
+    "lv": "Ekspedere • Affærdige",
     "level": "B2"
   },
   {
@@ -299,7 +299,7 @@ const B2_WORDS = [
   },
   {
     "de": "ableiten",
-    "lv": "Bly • Afled • Udled",
+    "lv": "Aflede • Udlede",
     "level": "B2"
   },
   {
@@ -313,7 +313,7 @@ const B2_WORDS = [
     "de": "Abnutzung",
     "de_article": "die",
     "de_plural": "die Abnutzungen",
-    "lv": "Nedslidning • Nedslidning • Nedslidning",
+    "lv": "Slitage • Nedslidning",
     "level": "B2"
   },
   {
@@ -354,7 +354,7 @@ const B2_WORDS = [
   },
   {
     "de": "abschlagen",
-    "lv": "Skær ned • Afvis • Frastød • Afvis",
+    "lv": "Afslå • Hugge af",
     "level": "B2"
   },
   {
@@ -376,7 +376,7 @@ const B2_WORDS = [
   },
   {
     "de": "absondern",
-    "lv": "Separat • Separat • Isolere",
+    "lv": "Udskille • Adskille",
     "level": "B2"
   },
   {
@@ -424,12 +424,12 @@ const B2_WORDS = [
   },
   {
     "de": "abtragen",
-    "lv": "Carry away • Carry away • Nedriv",
+    "lv": "Fjerne • Nedrive",
     "level": "B2"
   },
   {
     "de": "abtreten",
-    "lv": "Træk tilbage • Giv • Forlad",
+    "lv": "Træde tilbage • Overdrage",
     "level": "B2"
   },
   {
@@ -519,7 +519,7 @@ const B2_WORDS = [
   {
     "de": "Anmut",
     "de_article": "die",
-    "lv": "Tiltrækningskraft • Skønhed • Ynde",
+    "lv": "Ynde • Elegance",
     "level": "B2"
   },
   {
@@ -645,12 +645,12 @@ const B2_WORDS = [
     "de": "Äußerung",
     "de_article": "die",
     "de_plural": "die Äußerungen",
-    "lv": "Ytring • Udtryk • Udtryk",
+    "lv": "Ytring • Udtalelse",
     "level": "B2"
   },
   {
     "de": "aussetzen",
-    "lv": "Indlæg • Emne • Opponere • Stå",
+    "lv": "Udsætte • Suspendere",
     "level": "B2"
   },
   {
@@ -660,7 +660,7 @@ const B2_WORDS = [
   },
   {
     "de": "ausspannen",
-    "lv": "At udløse • At tage en partner fra sig • At hvile",
+    "lv": "Slappe af • Spænde fra",
     "level": "B2"
   },
   {
@@ -675,17 +675,17 @@ const B2_WORDS = [
   },
   {
     "de": "ausstopfen",
-    "lv": "At udfylde • At udfylde • At fylde ud",
+    "lv": "Stoppe ud • Udstoppe",
     "level": "B2"
   },
   {
     "de": "ausströmen",
-    "lv": "Ooze • Udstråle • Udstråle",
+    "lv": "Strømme ud • Udstråle",
     "level": "B2"
   },
   {
     "de": "austragen",
-    "lv": "Bær • Lever • Vind",
+    "lv": "Udkæmpe • Levere",
     "level": "B2"
   },
   {
@@ -695,7 +695,7 @@ const B2_WORDS = [
   },
   {
     "de": "austreten",
-    "lv": "Smid ud • Lej • Afslut",
+    "lv": "Træde ud • Lække ud",
     "level": "B2"
   },
   {
@@ -710,7 +710,7 @@ const B2_WORDS = [
   },
   {
     "de": "ausweisen",
-    "lv": "Udvis • Send ud • Bekræft • Bevis",
+    "lv": "Udvise • Dokumentere",
     "level": "B2"
   },
   {
@@ -725,14 +725,14 @@ const B2_WORDS = [
   },
   {
     "de": "auszeichnen",
-    "lv": "Pris • Pris • Skil dig ud",
+    "lv": "Udmærke • Hædre",
     "level": "B2"
   },
   {
     "de": "Auszeichnung",
     "de_article": "die",
     "de_plural": "die Auszeichnungen",
-    "lv": "Tildeling • Pris • Hæderstegn",
+    "lv": "Udmærkelse • Pris",
     "level": "B2"
   },
   {
@@ -936,7 +936,7 @@ const B2_WORDS = [
     "de": "Beförderung",
     "de_article": "die",
     "de_plural": "die Beförderungen",
-    "lv": "Levering • Transport • Kampagne • Kampagne",
+    "lv": "Transport • Forfremmelse",
     "level": "B2"
   },
   {
@@ -948,7 +948,7 @@ const B2_WORDS = [
   },
   {
     "de": "begehren",
-    "lv": "Efterspørgsel • Efterspørgsel • Kan lide • Begær • Begær",
+    "lv": "Begære • Ønske",
     "level": "B2"
   },
   {
@@ -987,7 +987,7 @@ const B2_WORDS = [
   },
   {
     "de": "begünstigen",
-    "lv": "Fremme • Facilitere • Beskytte • Støtte",
+    "lv": "Begunstige • Fremme",
     "level": "B2"
   },
   {
@@ -1019,12 +1019,12 @@ const B2_WORDS = [
   },
   {
     "de": "beiläufig",
-    "lv": "Utilsigtet • Afslappet • Forresten • Forbigående",
+    "lv": "Henkastet • I forbifarten",
     "level": "B2"
   },
   {
     "de": "beispiellos",
-    "lv": "Ikke været • Uset • Det der ikke kan sammenlignes med noget som helst",
+    "lv": "Uden fortilfælde • Enestående",
     "level": "B2"
   },
   {
@@ -1100,7 +1100,7 @@ const B2_WORDS = [
   },
   {
     "de": "belästigen",
-    "lv": "Generer • Gider • Stik ind",
+    "lv": "Chikanere • Gene",
     "level": "B2"
   },
   {
@@ -1120,7 +1120,7 @@ const B2_WORDS = [
   },
   {
     "de": "beleibt",
-    "lv": "Fed • Kære • Fyldig",
+    "lv": "Korpulent • Fyldig",
     "level": "B2"
   },
   {
@@ -1131,7 +1131,7 @@ const B2_WORDS = [
   {
     "de": "Belieben",
     "de_article": "das",
-    "lv": "Synes om • Synes om • Ønsker",
+    "lv": "Forgodtbefindende • Behag",
     "level": "B2"
   },
   {
@@ -1164,7 +1164,7 @@ const B2_WORDS = [
     "de": "Benennung",
     "de_article": "die",
     "de_plural": "die Benennungen",
-    "lv": "Navngivning • Navngivning • Navn",
+    "lv": "Benævnelse • Navngivning",
     "level": "B2"
   },
   {
@@ -1197,7 +1197,7 @@ const B2_WORDS = [
   },
   {
     "de": "bergen",
-    "lv": "Gem • Redning • Høst",
+    "lv": "Bjerge • Redde",
     "level": "B2"
   },
   {
@@ -1216,7 +1216,7 @@ const B2_WORDS = [
   },
   {
     "de": "bersten",
-    "lv": "At knække • At knække • At briste • At briste",
+    "lv": "Briste • Sprænges",
     "level": "B2"
   },
   {
@@ -1255,14 +1255,14 @@ const B2_WORDS = [
   },
   {
     "de": "besänftigen",
-    "lv": "Rolig • Formilde • Formilde • Stilhed",
+    "lv": "Berolige • Formilde",
     "level": "B2"
   },
   {
     "de": "Besatzung",
     "de_article": "die",
     "de_plural": "die Besatzungen",
-    "lv": "Kommando • Besætning • Besætning • Besættelsesmilitære enheder",
+    "lv": "Besætning • Bemanding",
     "level": "B2"
   },
   {
@@ -1277,7 +1277,7 @@ const B2_WORDS = [
   },
   {
     "de": "beschimpfen",
-    "lv": "At forbande • At stjæle • At fange",
+    "lv": "Skælde ud • Fornærme",
     "level": "B2"
   },
   {
@@ -1308,17 +1308,17 @@ const B2_WORDS = [
     "de": "Beschützer",
     "de_article": "der",
     "de_plural": "die Beschützer",
-    "lv": "Beskytter • Vagt • Forsvarer",
+    "lv": "Beskytter • Forsvarer",
     "level": "B2"
   },
   {
     "de": "beschwören",
-    "lv": "At sværge • At sværge • At bede meget",
+    "lv": "Besværge • Påkalde",
     "level": "B2"
   },
   {
     "de": "besessen",
-    "lv": "Besat • Overvældet • Overvældet",
+    "lv": "Besat • Besættelsespræget",
     "level": "B2"
   },
   {
@@ -1342,7 +1342,7 @@ const B2_WORDS = [
     "de": "Bestand",
     "de_article": "der",
     "de_plural": "die Bestände",
-    "lv": "Sammensætning • Inventar • Lager",
+    "lv": "Beholdning • Bestand",
     "level": "B2"
   },
   {
@@ -1352,7 +1352,7 @@ const B2_WORDS = [
   },
   {
     "de": "bestärken",
-    "lv": "At styrke • At styrke • At styrke",
+    "lv": "Styrke • Bekræfte",
     "level": "B2"
   },
   {
@@ -1372,12 +1372,12 @@ const B2_WORDS = [
   },
   {
     "de": "bestreiten",
-    "lv": "Tvist • Løn • Dækning",
+    "lv": "Bestride • Afholde",
     "level": "B2"
   },
   {
     "de": "bestürzt",
-    "lv": "Overrasket • Forvirret • Forvirret • Forvirret",
+    "lv": "Forfærdet • Rystet",
     "level": "B2"
   },
   {
@@ -1408,7 +1408,7 @@ const B2_WORDS = [
     "de": "Betäubung",
     "de_article": "die",
     "de_plural": "die Betäubungen",
-    "lv": "Bedøvelse • Stupor • Narkose • Anæstesi",
+    "lv": "Bedøvelse • Narkose",
     "level": "B2"
   },
   {
@@ -1438,7 +1438,7 @@ const B2_WORDS = [
     "de": "Betrug",
     "de_article": "der",
     "de_plural": "die Betrüge",
-    "lv": "Svindel • Fup • Falsk • Svindel",
+    "lv": "Bedrageri • Svindel",
     "level": "B2"
   },
   {
@@ -1449,7 +1449,7 @@ const B2_WORDS = [
   {
     "de": "Beute",
     "de_article": "die",
-    "lv": "Bytte • Gevinst • Trofæ",
+    "lv": "Bytte • Rov",
     "level": "B2"
   },
   {
@@ -1461,12 +1461,12 @@ const B2_WORDS = [
   },
   {
     "de": "bewähren",
-    "lv": "At beskytte • At beskytte • At beskytte • At gemme",
+    "lv": "Bevise sit værd • Stå sin prøve",
     "level": "B2"
   },
   {
     "de": "bewährt",
-    "lv": "Testet • Sikker • Pålidelig",
+    "lv": "Afprøvet • Velprøvet",
     "level": "B2"
   },
   {
@@ -1490,12 +1490,12 @@ const B2_WORDS = [
     "de": "Bewerbung",
     "de_article": "die",
     "de_plural": "die Bewerbungen",
-    "lv": "Ansøgning • Ansøgningsskema • Sæt af indsendte dokumenter",
+    "lv": "Ansøgning • Kandidatur",
     "level": "B2"
   },
   {
     "de": "bewilligen",
-    "lv": "Tillad • Tildel • Bevilling",
+    "lv": "Bevilge • Godkende",
     "level": "B2"
   },
   {
@@ -1519,7 +1519,7 @@ const B2_WORDS = [
     "de": "Bezug",
     "de_article": "der",
     "de_plural": "die Bezüge",
-    "lv": "Forhold • Tilslutning • Dæksel",
+    "lv": "Relation • Betræk",
     "level": "B2"
   },
   {
@@ -1529,7 +1529,7 @@ const B2_WORDS = [
   },
   {
     "de": "bezwingen",
-    "lv": "Overvinde • Nederlag • Beherske",
+    "lv": "Overvinde • Besejre",
     "level": "B2"
   },
   {
@@ -1546,7 +1546,7 @@ const B2_WORDS = [
   },
   {
     "de": "bisweilen",
-    "lv": "Nogle gange • Nogle gange • Til tider",
+    "lv": "Nogle gange • Til tider",
     "level": "B2"
   },
   {
@@ -1558,14 +1558,14 @@ const B2_WORDS = [
   },
   {
     "de": "bildlich",
-    "lv": "Billedlig • Fantasifuld • Figurativ",
+    "lv": "Billedlig • Figurativ",
     "level": "B2"
   },
   {
     "de": "Bildnis",
     "de_article": "das",
     "de_plural": "die Bildnisse",
-    "lv": "Efternavn • Portræt • Billede",
+    "lv": "Portræt • Billede",
     "level": "B2"
   },
   {
@@ -1577,7 +1577,7 @@ const B2_WORDS = [
     "de": "Bindung",
     "de_article": "die",
     "de_plural": "die Bindungen",
-    "lv": "Binding • Forbindelse • Kemisk binding • Bond • Remme • Følelsesmæssig binding",
+    "lv": "Binding • Forbindelse",
     "level": "B2"
   },
   {
@@ -1632,7 +1632,7 @@ const B2_WORDS = [
   },
   {
     "de": "blähen",
-    "lv": "At blæse • At puste op • At puste op",
+    "lv": "Puste op • Udspile",
     "level": "B2"
   },
   {
@@ -1661,12 +1661,12 @@ const B2_WORDS = [
   },
   {
     "de": "bleichen",
-    "lv": "Balat • Balot • Blegemiddel",
+    "lv": "Blege • Blegne",
     "level": "B2"
   },
   {
     "de": "blenden",
-    "lv": "Blænde • Blænde • Forvirre • Vildlede",
+    "lv": "Blænde • Vildlede",
     "level": "B2"
   },
   {
@@ -1713,7 +1713,7 @@ const B2_WORDS = [
   },
   {
     "de": "blödsinnig",
-    "lv": "Vanvittig • Tåbelig • Tåbelig • Dumt",
+    "lv": "Tåbelig • Meningsløs",
     "level": "B2"
   },
   {
@@ -1739,7 +1739,7 @@ const B2_WORDS = [
   {
     "de": "Blutalkohol",
     "de_article": "der",
-    "lv": "Mængden af ​​alkohol i blodet",
+    "lv": "Mængden af alkohol i blodet",
     "level": "B2"
   },
   {
@@ -1771,7 +1771,7 @@ const B2_WORDS = [
     "de": "Bodensatz",
     "de_article": "der",
     "de_plural": "die Bodensätze",
-    "lv": "Sediment • Afskum • Gær",
+    "lv": "Bundfald • Sediment",
     "level": "B2"
   },
   {
@@ -1831,14 +1831,14 @@ const B2_WORDS = [
     "de": "Böschung",
     "de_article": "die",
     "de_plural": "die Böschungen",
-    "lv": "Skråning • Skråning • Skrænt",
+    "lv": "Skråning • Skrænt",
     "level": "B2"
   },
   {
     "de": "Bote",
     "de_article": "der",
     "de_plural": "die Boten",
-    "lv": "Messenger • Messenger • Messenger",
+    "lv": "Budbringer • Sendebud",
     "level": "B2"
   },
   {
@@ -1967,14 +1967,14 @@ const B2_WORDS = [
     "de": "Buckel",
     "de_article": "der",
     "de_plural": "die Buckel",
-    "lv": "Pukkel • Kage • Ryg",
+    "lv": "Pukkel • Ryg",
     "level": "B2"
   },
   {
     "de": "Bügel",
     "de_article": "der",
     "de_plural": "die Bügel",
-    "lv": "Håndtag • Bøjle • Tøjbøjle • Trin",
+    "lv": "Bøjle • Tøjbøjle",
     "level": "B2"
   },
   {
@@ -2039,7 +2039,7 @@ const B2_WORDS = [
   },
   {
     "de": "bürgerlich",
-    "lv": "Civic • Borgere • Borgerlig • Borgerlig",
+    "lv": "Borgerlig • Civil",
     "level": "B2"
   },
   {
@@ -2165,19 +2165,19 @@ const B2_WORDS = [
     "de": "Damm",
     "de_article": "der",
     "de_plural": "die Dämme",
-    "lv": "Dæmning • Dæmning • Jernbanedæmning",
+    "lv": "Dæmning • Vold",
     "level": "B2"
   },
   {
     "de": "dämmern",
-    "lv": "I skumringen • Det bliver mørkt • Det gryer • Lyset sveder",
+    "lv": "Skumre • Gry",
     "level": "B2"
   },
   {
     "de": "Dämmerung",
     "de_article": "die",
     "de_plural": "die Dämmerungen",
-    "lv": "Twilight • Twilight • Dawn • Dawn",
+    "lv": "Tusmørke • Daggry",
     "level": "B2"
   },
   {
@@ -2187,7 +2187,7 @@ const B2_WORDS = [
   },
   {
     "de": "dämpfen",
-    "lv": "Til tavshed • At kvæle • At dampe • At stuve • At røre",
+    "lv": "Dæmpe • Dampe",
     "level": "B2"
   },
   {
@@ -2246,7 +2246,7 @@ const B2_WORDS = [
     "de": "Darstellung",
     "de_article": "die",
     "de_plural": "die Darstellungen",
-    "lv": "Afbildning • Afbildning • Omrids",
+    "lv": "Fremstilling • Afbildning",
     "level": "B2"
   },
   {
@@ -2327,17 +2327,17 @@ const B2_WORDS = [
     "de": "Defizit",
     "de_article": "das",
     "de_plural": "die Defizite",
-    "lv": "Mangel • Knaphed • Underskud",
+    "lv": "Underskud • Mangel",
     "level": "B2"
   },
   {
     "de": "dehnbar",
-    "lv": "Strækbar • Strækbar • Strækbar",
+    "lv": "Strækbar • Udvidelig",
     "level": "B2"
   },
   {
     "de": "dehnen",
-    "lv": "At strække • At strække • At strække • At strække • At trække",
+    "lv": "Strække • Udvide",
     "level": "B2"
   },
   {
@@ -2395,12 +2395,12 @@ const B2_WORDS = [
   },
   {
     "de": "denkbar",
-    "lv": "Formodet • Tænkeligt • Muligt",
+    "lv": "Tænkelig • Mulig",
     "level": "B2"
   },
   {
     "de": "deplaziert",
-    "lv": "Upassende • Ude af sted • Uden for tid",
+    "lv": "Upassende • Malplaceret",
     "level": "B2"
   },
   {
@@ -2410,7 +2410,7 @@ const B2_WORDS = [
   },
   {
     "de": "derartig",
-    "lv": "Sådan • Sådan • Lignende",
+    "lv": "Sådan • Af den slags",
     "level": "B2"
   },
   {
@@ -2420,14 +2420,14 @@ const B2_WORDS = [
   },
   {
     "de": "deuten",
-    "lv": "Forklar • Oversæt • Angiv",
+    "lv": "Tyde • Fortolke",
     "level": "B2"
   },
   {
     "de": "Deutung",
     "de_article": "die",
     "de_plural": "die Deutungen",
-    "lv": "Forklaring • Oversættelse • Forklaring • Oversættelse",
+    "lv": "Tydning • Fortolkning",
     "level": "B2"
   },
   {
@@ -2524,7 +2524,7 @@ const B2_WORDS = [
     "de": "Diele",
     "de_article": "die",
     "de_plural": "die Dielen",
-    "lv": "Gulv • Board • Vestibule",
+    "lv": "Gulvbræt • Forstue",
     "level": "B2"
   },
   {
@@ -2616,7 +2616,7 @@ const B2_WORDS = [
   },
   {
     "de": "donnern",
-    "lv": "Tordenbrøl • Rumble • Rumble",
+    "lv": "Tordne • Brage",
     "level": "B2"
   },
   {
@@ -2750,14 +2750,14 @@ const B2_WORDS = [
   },
   {
     "de": "drängen",
-    "lv": "Skub • Skub • Skynd dig • Skynd dig • Opmuntre",
+    "lv": "Trænge • Presse",
     "level": "B2"
   },
   {
     "de": "Dreck",
     "de_article": "der",
     "de_plural": "die Drecke",
-    "lv": "Møg • Snavs • Mudder • Snavs",
+    "lv": "Snavs • Møg",
     "level": "B2"
   },
   {
@@ -2808,7 +2808,7 @@ const B2_WORDS = [
   },
   {
     "de": "dringen",
-    "lv": "At trykke • At bryde • At skubbe ind • At bryde ind • At kræve • At kræve",
+    "lv": "Trænge • Bryde igennem",
     "level": "B2"
   },
   {
@@ -2900,7 +2900,7 @@ const B2_WORDS = [
   },
   {
     "de": "dumpf",
-    "lv": "Hul • Dæmpet • Indelukket • Kvælende • Tung • Undertrykt • Undertrykkende",
+    "lv": "Dæmpet • Indelukket",
     "level": "B2"
   },
   {
@@ -2939,7 +2939,7 @@ const B2_WORDS = [
   {
     "de": "Dünkel",
     "de_article": "der",
-    "lv": "Forfængelighed • Indbildsk • Arrogance",
+    "lv": "Indbildskhed • Arrogance",
     "level": "B2"
   },
   {
@@ -2956,32 +2956,32 @@ const B2_WORDS = [
     "de": "Dunst",
     "de_article": "der",
     "de_plural": "die Dünste",
-    "lv": "Damp • Røg • Røg • Damp • Tåge • Dis",
+    "lv": "Dis • Damp",
     "level": "B2"
   },
   {
     "de": "durcharbeiten",
-    "lv": "Udvikle • Læs omhyggeligt • Ælt omhyggeligt",
+    "lv": "Gennemarbejde • Arbejde sig igennem",
     "level": "B2"
   },
   {
     "de": "durchaus",
-    "lv": "Helt • Helt • Helt",
+    "lv": "Absolut • Ganske",
     "level": "B2"
   },
   {
     "de": "durchbrechen",
-    "lv": "Gennembrud • Gennembrud • Fremtræde • Gennembrud",
+    "lv": "Bryde igennem • Gennembryde",
     "level": "B2"
   },
   {
     "de": "durchbrennen",
-    "lv": "Brænd igennem • Brænd igennem • Brænd ud • Brænd ud",
+    "lv": "Brænde igennem • Stikke af",
     "level": "B2"
   },
   {
     "de": "durchbringen",
-    "lv": "Kom igennem • Bring igennem • Opnå • Cure • Spild",
+    "lv": "Få igennem • Forsørge",
     "level": "B2"
   },
   {
@@ -2993,7 +2993,7 @@ const B2_WORDS = [
   },
   {
     "de": "durchdringen",
-    "lv": "Skub igennem • Brække igennem • Bliv overvældet",
+    "lv": "Trænge igennem • Gennemtrænge",
     "level": "B2"
   },
   {
@@ -3013,7 +3013,7 @@ const B2_WORDS = [
     "de": "Durchführung",
     "de_article": "die",
     "de_plural": "die Durchführungen",
-    "lv": "At sætte noget igennem • At gøre • At gøre • Udføre • At realisere",
+    "lv": "Gennemførelse • Udførelse",
     "level": "B2"
   },
   {
@@ -3028,7 +3028,7 @@ const B2_WORDS = [
   },
   {
     "de": "durchmachen",
-    "lv": "Overlev • Fjern • Afslut",
+    "lv": "Gennemgå • Opleve",
     "level": "B2"
   },
   {
@@ -3057,12 +3057,12 @@ const B2_WORDS = [
   },
   {
     "de": "durchschlagen",
-    "lv": "Si • Før gennem en sigte • Slå igennem • Slå et hul",
+    "lv": "Slå igennem • Kæmpe sig igennem",
     "level": "B2"
   },
   {
     "de": "durchsehen",
-    "lv": "Undersøg • Undersøg • Se igennem",
+    "lv": "Gennemse • Kontrollere",
     "level": "B2"
   },
   {
@@ -3077,7 +3077,7 @@ const B2_WORDS = [
   },
   {
     "de": "dürr",
-    "lv": "Tør • Udtørret • Visen • Mager",
+    "lv": "Tør • Mager",
     "level": "B2"
   },
   {
@@ -3089,7 +3089,7 @@ const B2_WORDS = [
   },
   {
     "de": "dürsten",
-    "lv": "At tørste • At være tørst • At være tørst",
+    "lv": "Tørste • Længes",
     "level": "B2"
   },
   {
@@ -3132,7 +3132,7 @@ const B2_WORDS = [
   },
   {
     "de": "edel",
-    "lv": "Noble • Sublim • Noble",
+    "lv": "Ædel • Fornem",
     "level": "B2"
   },
   {
@@ -3182,7 +3182,7 @@ const B2_WORDS = [
   },
   {
     "de": "ehren",
-    "lv": "Ære • Respekt • Ære",
+    "lv": "Ære • Hædre",
     "level": "B2"
   },
   {
@@ -3287,12 +3287,12 @@ const B2_WORDS = [
     "de": "Eifer",
     "de_article": "der",
     "de_plural": "die Eifer",
-    "lv": "Flid • Flid • Passion • Iver • Iver",
+    "lv": "Iver • Begejstring",
     "level": "B2"
   },
   {
     "de": "eifrig",
-    "lv": "Flittig • Flittig • Flittig • Ivrig",
+    "lv": "Ivrig • Flittig",
     "level": "B2"
   },
   {
@@ -3325,7 +3325,7 @@ const B2_WORDS = [
   },
   {
     "de": "eigenwillig",
-    "lv": "Vilkårlig • Genstridig • Genstridig • Anmassende",
+    "lv": "Egenrådig • Stædig",
     "level": "B2"
   },
   {
@@ -3363,12 +3363,12 @@ const B2_WORDS = [
     "de": "Einbildung",
     "de_article": "die",
     "de_plural": "die Einbildungen",
-    "lv": "Fancy • Fantasi • Fantasi • Indbildsk • Indbildsk",
+    "lv": "Indbildning • Fantasi",
     "level": "B2"
   },
   {
     "de": "einbürgern",
-    "lv": "Giv en borgers ret • At introducere • At slå rod",
+    "lv": "Give statsborgerskab • Indføre",
     "level": "B2"
   },
   {
@@ -3378,7 +3378,7 @@ const B2_WORDS = [
   },
   {
     "de": "eindringen",
-    "lv": "Skub ind • Break in • Soak in • Dyk ned i",
+    "lv": "Trænge ind • Bryde ind",
     "level": "B2"
   },
   {
@@ -3393,7 +3393,7 @@ const B2_WORDS = [
   },
   {
     "de": "einfassen",
-    "lv": "Inkluder • Ramme • Ramme",
+    "lv": "Indramme • Omslutte",
     "level": "B2"
   },
   {
@@ -3408,14 +3408,14 @@ const B2_WORDS = [
   },
   {
     "de": "einfrieren",
-    "lv": "Frys • Frys • Stop",
+    "lv": "Fryse • Indefryse",
     "level": "B2"
   },
   {
     "de": "Einfuhr",
     "de_article": "die",
     "de_plural": "die Einfuhren",
-    "lv": "Introduktion • Import • Indbringelse • Import",
+    "lv": "Import • Indførsel",
     "level": "B2"
   },
   {
@@ -3446,12 +3446,12 @@ const B2_WORDS = [
   },
   {
     "de": "eingehen",
-    "lv": "Indtast • Ankomst • Indtast • Indtast • Krymp • Enig • Bet",
+    "lv": "Indgå • Modtage",
     "level": "B2"
   },
   {
     "de": "eingehend",
-    "lv": "Grundig • Smålig • Indgående",
+    "lv": "Grundig • Indgående",
     "level": "B2"
   },
   {
@@ -3463,7 +3463,7 @@ const B2_WORDS = [
   },
   {
     "de": "eingerechnet",
-    "lv": "Optalt • Krediteret • Tilføjet",
+    "lv": "Medregnet • Inkluderet",
     "level": "B2"
   },
   {
@@ -3508,14 +3508,14 @@ const B2_WORDS = [
   },
   {
     "de": "einhüllen",
-    "lv": "Wrap • Coil • Wrap",
+    "lv": "Indhylle • Pakke ind",
     "level": "B2"
   },
   {
     "de": "Einigkeit",
     "de_article": "die",
     "de_plural": "die Einigkeiten",
-    "lv": "Enhed • Enhed • Konsensus",
+    "lv": "Enighed • Samdrægtighed",
     "level": "B2"
   },
   {
@@ -3576,7 +3576,7 @@ const B2_WORDS = [
   },
   {
     "de": "einmachen",
-    "lv": "Konserver • Mariner • Kog op",
+    "lv": "Konservere • Sylte",
     "level": "B2"
   },
   {
@@ -3646,7 +3646,7 @@ const B2_WORDS = [
     "de": "Einschnitt",
     "de_article": "der",
     "de_plural": "die Einschnitte",
-    "lv": "Indsnit • Klip • Drej • Hak",
+    "lv": "Indsnit • Indgreb",
     "level": "B2"
   },
   {
@@ -3699,7 +3699,7 @@ const B2_WORDS = [
     "de": "Einspruch",
     "de_article": "der",
     "de_plural": "die Einsprüche",
-    "lv": "Indsigelse • Indsigelse • Protest",
+    "lv": "Indsigelse • Protest",
     "level": "B2"
   },
   {
@@ -3721,18 +3721,18 @@ const B2_WORDS = [
   },
   {
     "de": "eintauchen",
-    "lv": "Dip • Dip • Fordyb • Dyk",
+    "lv": "Dyppe • Dykke ned",
     "level": "B2"
   },
   {
     "de": "eintönig",
-    "lv": "Monoton • Monoton • Monoton",
+    "lv": "Monoton • Ensformig",
     "level": "B2"
   },
   {
     "de": "Eintracht",
     "de_article": "die",
-    "lv": "Konsensus • Aftale • Harmoni • Kompatibilitet",
+    "lv": "Samdrægtighed • Harmoni",
     "level": "B2"
   },
   {
@@ -3838,7 +3838,7 @@ const B2_WORDS = [
   },
   {
     "de": "eitel",
-    "lv": "Indbildsk • Indbildsk • Indbildsk • Overfladisk • Tom • Prangende",
+    "lv": "Forfængelig • Indbildsk",
     "level": "B2"
   },
   {
@@ -3930,29 +3930,29 @@ const B2_WORDS = [
     "de": "Empörung",
     "de_article": "die",
     "de_plural": "die Empörungen",
-    "lv": "Forargelse • Oprør • Mytteri",
+    "lv": "Forargelse • Harme",
     "level": "B2"
   },
   {
     "de": "emsig",
-    "lv": "Flittig • Livlig • Aktiv",
+    "lv": "Flittig • Ihærdig",
     "level": "B2"
   },
   {
     "de": "entbehren",
-    "lv": "Undgå • Udholde • Mangel",
+    "lv": "Undvære • Mangle",
     "level": "B2"
   },
   {
     "de": "entbinden",
-    "lv": "Slip • Slip • Fødsel",
+    "lv": "Fritage • Forløse",
     "level": "B2"
   },
   {
     "de": "Entbindung",
     "de_article": "die",
     "de_plural": "die Entbindungen",
-    "lv": "Frigivelse • Udfrielse • Fødsel",
+    "lv": "Fødsel • Fritagelse",
     "level": "B2"
   },
   {
@@ -3977,17 +3977,17 @@ const B2_WORDS = [
   },
   {
     "de": "entfalten",
-    "lv": "Slap af • Fold ud • Udvikle • Fold ud",
+    "lv": "Udfolde • Udvikle",
     "level": "B2"
   },
   {
     "de": "sich entfalten",
-    "lv": "Åbne op • Løsne • Udvikle • Fold ud",
+    "lv": "Udfolde sig • Udvikle sig",
     "level": "B2"
   },
   {
     "de": "entflammen",
-    "lv": "At tænde • At tænde • At ophidse • At antænde",
+    "lv": "Antænde • Opflamme",
     "level": "B2"
   },
   {
@@ -4041,7 +4041,7 @@ const B2_WORDS = [
   },
   {
     "de": "entkräften",
-    "lv": "Afmagre • Svække • Modbevise • Vælte",
+    "lv": "Afkræfte • Svække",
     "level": "B2"
   },
   {
@@ -4077,7 +4077,7 @@ const B2_WORDS = [
   },
   {
     "de": "entlegen",
-    "lv": "Fjernbetjening • Fjernbetjening • Fjern",
+    "lv": "Afsides • Fjerntliggende",
     "level": "B2"
   },
   {
@@ -4087,7 +4087,7 @@ const B2_WORDS = [
   },
   {
     "de": "entnehmen",
-    "lv": "Tage • Tage • Tage ud • Afslutte",
+    "lv": "Tage ud • Udtage",
     "level": "B2"
   },
   {
@@ -4149,17 +4149,17 @@ const B2_WORDS = [
     "de": "Entspannung",
     "de_article": "die",
     "de_plural": "die Entspannungen",
-    "lv": "Afslapning • Afspænding • Reduktion af spændinger",
+    "lv": "Afslapning • Afspænding",
     "level": "B2"
   },
   {
     "de": "entstellen",
-    "lv": "At forvrænge • At flippe ud • At forvrænge",
+    "lv": "Forvrænge • Vansire",
     "level": "B2"
   },
   {
     "de": "entweichen",
-    "lv": "Bevæg dig væk • Undslippe • Træk tilbage • Udgå",
+    "lv": "Undslippe • Sive ud",
     "level": "B2"
   },
   {
@@ -4185,17 +4185,17 @@ const B2_WORDS = [
     "de": "Entwurf",
     "de_article": "der",
     "de_plural": "die Entwürfe",
-    "lv": "Udkast • Skitse • Projekt",
+    "lv": "Udkast • Skitse",
     "level": "B2"
   },
   {
     "de": "entwurzeln",
-    "lv": "Udrydde • Udrydde • Udrydde fuldstændigt",
+    "lv": "Rykke op med rode • Rodrive",
     "level": "B2"
   },
   {
     "de": "entziehen",
-    "lv": "Tag • Væk • Undgå • Bryd væk • Undslip",
+    "lv": "Fratage • Unddrage",
     "level": "B2"
   },
   {
@@ -4205,7 +4205,7 @@ const B2_WORDS = [
   },
   {
     "de": "entzückend",
-    "lv": "Vidunderlig • Dejlig • Charmerende",
+    "lv": "Henrivende • Dejlig",
     "level": "B2"
   },
   {
@@ -4215,19 +4215,19 @@ const B2_WORDS = [
   },
   {
     "de": "entzünden",
-    "lv": "At antænde • At antænde • At tænde",
+    "lv": "Antænde • Tænde",
     "level": "B2"
   },
   {
     "de": "sich entzünden",
-    "lv": "At antænde • At tænde op • At tænde op",
+    "lv": "Antændes • Blive betændt",
     "level": "B2"
   },
   {
     "de": "Entzündung",
     "de_article": "die",
     "de_plural": "die Entzündungen",
-    "lv": "Ignition • Ignition • Inflammation",
+    "lv": "Betændelse • Antændelse",
     "level": "B2"
   },
   {
@@ -4369,7 +4369,7 @@ const B2_WORDS = [
   },
   {
     "de": "ergiebig",
-    "lv": "Frugtbar • Rentabel • Rig • Rigelig • Produktiv",
+    "lv": "Udbytterig • Produktiv",
     "level": "B2"
   },
   {
@@ -4379,17 +4379,17 @@ const B2_WORDS = [
   },
   {
     "de": "erhaben",
-    "lv": "Relief • Konveks • Fantastisk • Fantastisk • Højt • Sublim • Fremragende",
+    "lv": "Ophøjet • Sublim",
     "level": "B2"
   },
   {
     "de": "erheben",
-    "lv": "Raise • Raise • Raise • Protest",
+    "lv": "Hæve • Rejse",
     "level": "B2"
   },
   {
     "de": "sich erheben",
-    "lv": "Rise up • Rise up • Rise up",
+    "lv": "Rejse sig • Hæve sig",
     "level": "B2"
   },
   {
@@ -4411,19 +4411,19 @@ const B2_WORDS = [
   },
   {
     "de": "erlangen",
-    "lv": "At nå • At opnå • At få • At opnå",
+    "lv": "Opnå • Erhverve",
     "level": "B2"
   },
   {
     "de": "Erlass",
     "de_article": "der",
     "de_plural": "die Erlasse",
-    "lv": "Ordre • Ordre • Dekret • Afskedigelse",
+    "lv": "Dekret • Eftergivelse",
     "level": "B2"
   },
   {
     "de": "erlassen",
-    "lv": "Problem • Frigivelse • Frigivelse",
+    "lv": "Udstede • Eftergive",
     "level": "B2"
   },
   {
@@ -4440,12 +4440,12 @@ const B2_WORDS = [
   },
   {
     "de": "erleiden",
-    "lv": "Lide • Udholde • Udholde • Bliv besejret",
+    "lv": "Lide • Pådrage sig",
     "level": "B2"
   },
   {
     "de": "erlöschen",
-    "lv": "Sluk • Sluk • Ophører med at være gyldig • Udløber",
+    "lv": "Slukke • Udløbe",
     "level": "B2"
   },
   {
@@ -4503,7 +4503,7 @@ const B2_WORDS = [
     "de": "Eröffnung",
     "de_article": "die",
     "de_plural": "die Eröffnungen",
-    "lv": "Åbning • Discovery • Postkort • Annoncering • Discovery",
+    "lv": "Åbning • Indvielse",
     "level": "B2"
   },
   {
@@ -4518,7 +4518,7 @@ const B2_WORDS = [
   },
   {
     "de": "erregen",
-    "lv": "At ophidse • At ophidse • At forårsage • At forårsage • At ophidse",
+    "lv": "Ophidse • Vække",
     "level": "B2"
   },
   {
@@ -4566,7 +4566,7 @@ const B2_WORDS = [
     "de": "Erscheinung",
     "de_article": "die",
     "de_plural": "die Erscheinungen",
-    "lv": "Fænomen • Udseende • Udseende • Udseende",
+    "lv": "Fænomen • Fremtoning",
     "level": "B2"
   },
   {
@@ -4586,7 +4586,7 @@ const B2_WORDS = [
   },
   {
     "de": "erschüttern",
-    "lv": "At ryste • At chokere • At underminere",
+    "lv": "Ryste • Chokere",
     "level": "B2"
   },
   {
@@ -4601,7 +4601,7 @@ const B2_WORDS = [
   },
   {
     "de": "ersparen",
-    "lv": "At spare • At spare • At spare • At spare",
+    "lv": "Spare • Skåne",
     "level": "B2"
   },
   {
@@ -4618,12 +4618,12 @@ const B2_WORDS = [
   },
   {
     "de": "ersticken",
-    "lv": "Kvæles • Kvæles • Kvæles • Undertrykke • Undertrykke • Kvæles • Kvæles",
+    "lv": "Kvæle • Kvæles",
     "level": "B2"
   },
   {
     "de": "sich erstrecken",
-    "lv": "Spred ud • Stræk ud • Stræk ud",
+    "lv": "Strække sig • Brede sig",
     "level": "B2"
   },
   {
@@ -4660,7 +4660,7 @@ const B2_WORDS = [
   },
   {
     "de": "erweisen",
-    "lv": "Vis • Vis • Gør",
+    "lv": "Vise • Yde",
     "level": "B2"
   },
   {
@@ -4691,12 +4691,12 @@ const B2_WORDS = [
     "de": "Erwerb",
     "de_article": "der",
     "de_plural": "die Erwerbe",
-    "lv": "Indtjening • Overskud • Gevinst",
+    "lv": "Erhvervelse • Erhverv",
     "level": "B2"
   },
   {
     "de": "erwerben",
-    "lv": "Tjen • Få • Erhverv",
+    "lv": "Erhverve • Anskaffe",
     "level": "B2"
   },
   {
@@ -4708,7 +4708,7 @@ const B2_WORDS = [
   },
   {
     "de": "erzielen",
-    "lv": "At opnå • At opnå • At opnå",
+    "lv": "Opnå",
     "level": "B2"
   },
   {
@@ -4777,14 +4777,14 @@ const B2_WORDS = [
   },
   {
     "de": "exklusiv",
-    "lv": "Undersøgt • Fin • Aristokratisk",
+    "lv": "Eksklusiv • Fornem",
     "level": "B2"
   },
   {
     "de": "Exot",
     "de_article": "der",
     "de_plural": "die Exoten",
-    "lv": "Eksotisk person • Plante • Dyr",
+    "lv": "Eksotisk person • Eksotisk væsen",
     "level": "B2"
   },
   {
@@ -4971,7 +4971,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich fassen",
-    "lv": "At gribe • At modtage • At tilbageholde",
+    "lv": "At tage sig sammen • At fatte sig",
     "level": "B2",
     "study": {
       "id": "b2-sich-fassen",
@@ -4997,7 +4997,7 @@ const B2_WORDS = [
     "de": "Fassung",
     "de_article": "die",
     "de_plural": "die Fassungen",
-    "lv": "Ramme • Konvolut • Ordlyd",
+    "lv": "Fatning • Version",
     "level": "B2"
   },
   {
@@ -5037,7 +5037,7 @@ const B2_WORDS = [
   {
     "de": "Feingefühl",
     "de_article": "das",
-    "lv": "Delikatesse • ​​Takt",
+    "lv": "Takt • Fingerspidsfornemmelse",
     "level": "B2"
   },
   {
@@ -5127,14 +5127,14 @@ const B2_WORDS = [
     "de": "Finsternis",
     "de_article": "die",
     "de_plural": "die Finsternisse",
-    "lv": "Mørke • Mørke • Formørkelse",
+    "lv": "Mørke • Dunkelhed",
     "level": "B2"
   },
   {
     "de": "Firmeninhaber",
     "de_article": "der",
     "de_plural": "die Firmeninhaber",
-    "lv": "Ejeren af ​​virksomheden",
+    "lv": "Virksomhedsejer",
     "level": "B2"
   },
   {
@@ -5183,7 +5183,7 @@ const B2_WORDS = [
   },
   {
     "de": "fleckig",
-    "lv": "Plettet • Plettet • Plettet • Plettet • Plettet",
+    "lv": "Plettet • Skjoldet",
     "level": "B2"
   },
   {
@@ -5193,7 +5193,7 @@ const B2_WORDS = [
   },
   {
     "de": "flimmern",
-    "lv": "Twinkle • Twinkle • Twinkle • Twinkle • Twinkle",
+    "lv": "Flimre • Blafre",
     "level": "B2"
   },
   {
@@ -5219,7 +5219,7 @@ const B2_WORDS = [
   },
   {
     "de": "flüchtig",
-    "lv": "Flygtig • Overfladisk • Flygtig • Flygtig • Kortvarig",
+    "lv": "Flygtig • Kortvarig",
     "level": "B2"
   },
   {
@@ -5297,7 +5297,7 @@ const B2_WORDS = [
   },
   {
     "de": "formell",
-    "lv": "Korrekt • Høflig • Formel • Stiv",
+    "lv": "Formel • Formelt korrekt",
     "level": "B2"
   },
   {
@@ -5321,7 +5321,7 @@ const B2_WORDS = [
   },
   {
     "de": "fortschaffen",
-    "lv": "Skabe væk • Take away • Take away",
+    "lv": "Fjerne • Transportere væk",
     "level": "B2"
   },
   {
@@ -5379,7 +5379,7 @@ const B2_WORDS = [
   },
   {
     "de": "freilich",
-    "lv": "Selvfølgelig • Ingen tvivl • Men • Kun",
+    "lv": "Ganske vist • Selvfølgelig",
     "level": "B2"
   },
   {
@@ -5545,7 +5545,7 @@ const B2_WORDS = [
     "de": "Furche",
     "de_article": "die",
     "de_plural": "die Furchen",
-    "lv": "Fure • Rynke • Rynke",
+    "lv": "Fure • Rille",
     "level": "B2"
   },
   {
@@ -5686,17 +5686,17 @@ const B2_WORDS = [
     "de": "Gebot",
     "de_article": "das",
     "de_plural": "die Gebote",
-    "lv": "Kommando • Krav • Befaling",
+    "lv": "Bud • Befaling",
     "level": "B2"
   },
   {
     "de": "gebrechlich",
-    "lv": "Svag • Visnet • Gauden • Forkrøblet • Fuld af fejl",
+    "lv": "Skrøbelig • Svagelig",
     "level": "B2"
   },
   {
     "de": "gedämpft",
-    "lv": "Dæmpet • Lyddæmpet • Dæmpet",
+    "lv": "Dæmpet • Lyddæmpet",
     "level": "B2"
   },
   {
@@ -5708,12 +5708,12 @@ const B2_WORDS = [
   },
   {
     "de": "gedeihen",
-    "lv": "Gør det godt • Få succes • Trives • Trives",
+    "lv": "Trives • Blomstre",
     "level": "B2"
   },
   {
     "de": "gedenken",
-    "lv": "At være sindet • At huske • At huske • At nævne",
+    "lv": "Mindes • Have til hensigt",
     "level": "B2"
   },
   {
@@ -5745,7 +5745,7 @@ const B2_WORDS = [
   },
   {
     "de": "gefällig",
-    "lv": "Behagelig • Forpligtende • Imødekommende • Venlig",
+    "lv": "Imødekommende • Behagelig",
     "level": "B2"
   },
   {
@@ -5773,7 +5773,7 @@ const B2_WORDS = [
     "de": "Gefüge",
     "de_article": "das",
     "de_plural": "die Gefüge",
-    "lv": "Struktur • Struktur • Tilslutning • Splejsning",
+    "lv": "Struktur • Sammenføjning",
     "level": "B2"
   },
   {
@@ -5801,7 +5801,7 @@ const B2_WORDS = [
     "de": "Gegensatz",
     "de_article": "der",
     "de_plural": "die Gegensätze",
-    "lv": "Modsat • Kontrast • Modsigelse",
+    "lv": "Modsætning • Kontrast",
     "level": "B2"
   },
   {
@@ -5813,7 +5813,7 @@ const B2_WORDS = [
   },
   {
     "de": "gehörig",
-    "lv": "Tilhøre • Tilhøre • Ordentlig • Tilhørende",
+    "lv": "Behørig • Ordentlig",
     "level": "B2"
   },
   {
@@ -5849,7 +5849,7 @@ const B2_WORDS = [
   },
   {
     "de": "geläufig",
-    "lv": "Kendt • Velkendt • Vanlig • Flydende • Flydende",
+    "lv": "Velkendt • Flydende",
     "level": "B2"
   },
   {
@@ -5887,7 +5887,7 @@ const B2_WORDS = [
   },
   {
     "de": "gelegen",
-    "lv": "Praktisk • Praktisk • Praktisk • Afsondret",
+    "lv": "Belejlig • Passende",
     "level": "B2"
   },
   {
@@ -5901,7 +5901,7 @@ const B2_WORDS = [
     "de": "Geliebte",
     "de_article": "der",
     "de_plural": "die Geliebten",
-    "lv": "Elskede • Elskede • Elsker",
+    "lv": "Elskede • Kæreste",
     "level": "B2"
   },
   {
@@ -5934,7 +5934,7 @@ const B2_WORDS = [
   },
   {
     "de": "gemäß",
-    "lv": "Efter • Ifølge • Følgelig",
+    "lv": "Ifølge • I overensstemmelse med",
     "level": "B2"
   },
   {
@@ -5953,7 +5953,7 @@ const B2_WORDS = [
     "de": "Gemisch",
     "de_article": "das",
     "de_plural": "die Gemische",
-    "lv": "En blanding • En blanding • En blanding",
+    "lv": "Blanding",
     "level": "B2"
   },
   {
@@ -5966,7 +5966,7 @@ const B2_WORDS = [
     "de": "Gemüt",
     "de_article": "das",
     "de_plural": "die Gemüter",
-    "lv": "Karakter • Natur • Tanker • Sind",
+    "lv": "Sind • Gemyt",
     "level": "B2"
   },
   {
@@ -6079,7 +6079,7 @@ const B2_WORDS = [
   },
   {
     "de": "geraten",
-    "lv": "Ankommer • Kom til • Giv op • Lykkes • Hit",
+    "lv": "Komme • Havne",
     "level": "B2"
   },
   {
@@ -6090,26 +6090,26 @@ const B2_WORDS = [
   },
   {
     "de": "geräuschlos",
-    "lv": "Stille • Stille • Uden støj",
+    "lv": "Lydløs • Støjfri",
     "level": "B2"
   },
   {
     "de": "Gerede",
     "de_article": "das",
     "de_plural": "die Gerede",
-    "lv": "Tale • Tale • Folkesproget • Sladder",
+    "lv": "Snak • Sladder",
     "level": "B2"
   },
   {
     "de": "gerinnen",
-    "lv": "At koagulere • At størkne • At størkne • At størkne • At fryse",
+    "lv": "Størkne • Koagulere",
     "level": "B2"
   },
   {
     "de": "Gerippe",
     "de_article": "das",
     "de_plural": "die Gerippe",
-    "lv": "Skelet • Krop • Ramme",
+    "lv": "Skelet • Ramme",
     "level": "B2"
   },
   {
@@ -6142,7 +6142,7 @@ const B2_WORDS = [
     "de": "Geschehnis",
     "de_article": "das",
     "de_plural": "die Geschehnisse",
-    "lv": "Hændelse • Sag • Hændelse",
+    "lv": "Hændelse • Begivenhed",
     "level": "B2"
   },
   {
@@ -6156,7 +6156,7 @@ const B2_WORDS = [
     "de": "Geschöpf",
     "de_article": "das",
     "de_plural": "die Geschöpfe",
-    "lv": "Væsen • Væsen • Væren",
+    "lv": "Væsen • Skabning",
     "level": "B2"
   },
   {
@@ -6177,7 +6177,7 @@ const B2_WORDS = [
     "de": "Geschwätz",
     "de_article": "das",
     "de_plural": "die Geschwätze",
-    "lv": "Snadder • Lyver • Snadder",
+    "lv": "Sludder • Snak",
     "level": "B2"
   },
   {
@@ -6187,7 +6187,7 @@ const B2_WORDS = [
   },
   {
     "de": "geschwind",
-    "lv": "Hurtig • Kvik • Kvik",
+    "lv": "Hurtig • Kvik",
     "level": "B2"
   },
   {
@@ -6208,7 +6208,7 @@ const B2_WORDS = [
     "de": "Geselle",
     "de_article": "der",
     "de_plural": "die Gesellen",
-    "lv": "Zellis • Hjælper • Fyr • Håndværker, der bestod eksamen efter skoletid",
+    "lv": "Svend • Håndværkersvend",
     "level": "B2"
   },
   {
@@ -6308,7 +6308,7 @@ const B2_WORDS = [
     "de": "Gestell",
     "de_article": "das",
     "de_plural": "die Gestelle",
-    "lv": "Stativ • Støtteben • Chassis",
+    "lv": "Stativ • Ramme",
     "level": "B2"
   },
   {
@@ -6340,7 +6340,7 @@ const B2_WORDS = [
   {
     "de": "Gewähr",
     "de_article": "die",
-    "lv": "Sikkerhed • Kaution • Garanti",
+    "lv": "Garanti • Sikkerhed",
     "level": "B2"
   },
   {
@@ -6383,7 +6383,7 @@ const B2_WORDS = [
     "de": "Gewerbe",
     "de_article": "das",
     "de_plural": "die Gewerbe",
-    "lv": "Stilling • Handel • Fast arbejde inden for handel eller håndværk eller levering af tjenesteydelser",
+    "lv": "Erhverv • Næringsvirksomhed",
     "level": "B2"
   },
   {
@@ -6400,7 +6400,7 @@ const B2_WORDS = [
     "de": "Gewissheit",
     "de_article": "die",
     "de_plural": "die Gewissheiten",
-    "lv": "Klarhed • Sikkerhed • Sikkerhed",
+    "lv": "Vished • Sikkerhed",
     "level": "B2"
   },
   {
@@ -6411,7 +6411,7 @@ const B2_WORDS = [
   },
   {
     "de": "gierig",
-    "lv": "Ivrig • Begærlig • Grådig",
+    "lv": "Grådig • Begærlig",
     "level": "B2"
   },
   {
@@ -6521,7 +6521,7 @@ const B2_WORDS = [
     "de": "Glied",
     "de_article": "das",
     "de_plural": "die Glieder",
-    "lv": "Medlem • Lemme • Kædemedlem • Link",
+    "lv": "Led • Medlem",
     "level": "B2"
   },
   {
@@ -6531,7 +6531,7 @@ const B2_WORDS = [
   },
   {
     "de": "glimmen",
-    "lv": "At gløde • At gløde • At ulme",
+    "lv": "Ulme • Gløde",
     "level": "B2"
   },
   {
@@ -6541,14 +6541,14 @@ const B2_WORDS = [
   },
   {
     "de": "glühen",
-    "lv": "At gløde • At brænde • At brænde • At brænde",
+    "lv": "Gløde • Brænde",
     "level": "B2"
   },
   {
     "de": "Glut",
     "de_article": "die",
     "de_plural": "die Gluten",
-    "lv": "Glød • Glød • Fantastisk varme",
+    "lv": "Glød • Hede",
     "level": "B2"
   },
   {
@@ -6654,7 +6654,7 @@ const B2_WORDS = [
   },
   {
     "de": "grässlich",
-    "lv": "Forfærdeligt • Forfærdeligt • Ulækkert • Nasty",
+    "lv": "Forfærdelig • Grufuld",
     "level": "B2"
   },
   {
@@ -6739,13 +6739,13 @@ const B2_WORDS = [
     "de": "Grenzbereich",
     "de_article": "der",
     "de_plural": "die Grenzbereiche",
-    "lv": "Grænsestribe • Grænsezone • Territorium på begge sider af grænsen",
+    "lv": "Grænseområde • Grænsezone",
     "level": "B2"
   },
   {
     "de": "Grimm",
     "de_article": "der",
-    "lv": "Stor vrede • Raseri • Vrede",
+    "lv": "Raseri • Vrede",
     "level": "B2"
   },
   {
@@ -6828,7 +6828,7 @@ const B2_WORDS = [
     "de": "Guss",
     "de_article": "der",
     "de_plural": "die Güsse",
-    "lv": "Støbning • Hældning • Regnskyl",
+    "lv": "Støbning • Regnskyl",
     "level": "B2"
   },
   {
@@ -6841,7 +6841,7 @@ const B2_WORDS = [
   {
     "de": "Güte",
     "de_article": "die",
-    "lv": "Venlighed • Kvalitet • Fordel",
+    "lv": "Godhed • Kvalitet",
     "level": "B2"
   },
   {
@@ -7244,14 +7244,14 @@ const B2_WORDS = [
   },
   {
     "de": "hemmen",
-    "lv": "Hinder • Forsinkelse • Bremse",
+    "lv": "Hæmme • Bremse",
     "level": "B2"
   },
   {
     "de": "Hemmung",
     "de_article": "die",
     "de_plural": "die Hemmungen",
-    "lv": "Hindring • Forhindring • Forsinkelse",
+    "lv": "Hæmning • Hindring",
     "level": "B2"
   },
   {
@@ -7363,7 +7363,7 @@ const B2_WORDS = [
   },
   {
     "de": "herb",
-    "lv": "Bitter • Sur • Sur",
+    "lv": "Bitter • Barsk",
     "level": "B2"
   },
   {
@@ -7378,7 +7378,7 @@ const B2_WORDS = [
   },
   {
     "de": "hervorrufen",
-    "lv": "Fremkald • Årsag • Opret • Væk",
+    "lv": "Fremkalde • Forårsage",
     "level": "B2"
   },
   {
@@ -7433,7 +7433,7 @@ const B2_WORDS = [
   },
   {
     "de": "hetzen",
-    "lv": "Spark • Incite • Chase • Hit",
+    "lv": "Jage • Ophidse",
     "level": "B2"
   },
   {
@@ -7564,7 +7564,7 @@ const B2_WORDS = [
   },
   {
     "de": "hitzig",
-    "lv": "Varm • Glødende • Fremhævd • Hurtig til vrede",
+    "lv": "Hidsig • Opfarende",
     "level": "B2"
   },
   {
@@ -7766,7 +7766,7 @@ const B2_WORDS = [
     "de": "Höchstleistung",
     "de_article": "die",
     "de_plural": "die Höchstleistungen",
-    "lv": "Højeste præstation • Største kraft • Rekord",
+    "lv": "Toppræstation • Maksimal ydelse",
     "level": "B2"
   },
   {
@@ -7805,17 +7805,17 @@ const B2_WORDS = [
         {
           "word": "das Hochwasser",
           "meaning": "Oversvømmelse • Høj vandstand",
-          "example": "Es gibt Hochwasser. = Ir plūdi."
+          "example": "Es gibt Hochwasser. = Der er oversvømmelse."
         },
         {
           "word": "die Überschwemmung",
           "meaning": "Oversvømmelse (specifik)",
-          "example": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas."
+          "example": "Die Überschwemmung zerstörte Häuser. = Oversvømmelsen ødelagde huse."
         },
         {
           "word": "der Pegel",
           "meaning": "Vandstand",
-          "example": "Der Pegel steigt. = Ūdens līmenis ceļas."
+          "example": "Der Pegel steigt. = Vandstanden stiger."
         }
       ],
       "tip": {
@@ -7988,7 +7988,7 @@ const B2_WORDS = [
     "de": "Investition",
     "de_article": "die",
     "de_plural": "die Investitionen",
-    "lv": "Investering • Investering • Kapitalinvestering • Investering",
+    "lv": "Investering • Kapitalinvestering",
     "level": "B2"
   },
   {
@@ -8014,7 +8014,7 @@ const B2_WORDS = [
     "de": "Kapazität",
     "de_article": "die",
     "de_plural": "die Kapazitäten",
-    "lv": "Produktionskapacitet • Kapacitet • Volumen • Kapacitet",
+    "lv": "Kapacitet • Ydeevne",
     "level": "B2"
   },
   {
@@ -8089,7 +8089,7 @@ const B2_WORDS = [
     "de": "Klasse",
     "de_article": "die",
     "de_plural": "die Klassen",
-    "lv": "Social klasse • ​​Klasse • ​​Kategori",
+    "lv": "Klasse • Kategori",
     "level": "B2"
   },
   {
@@ -8162,7 +8162,7 @@ const B2_WORDS = [
     "de": "Konsequenz",
     "de_article": "die",
     "de_plural": "die Konsequenzen",
-    "lv": "Konsistens • Sekvens • Konklusion • Konsekvens",
+    "lv": "Konsekvens • Konsekvensfasthed",
     "level": "B2"
   },
   {
@@ -8194,7 +8194,7 @@ const B2_WORDS = [
     "de": "Konzept",
     "de_article": "das",
     "de_plural": "die Konzepte",
-    "lv": "Koncept • Udkast • Plan",
+    "lv": "Koncept • Plan",
     "level": "B2"
   },
   {
@@ -8293,7 +8293,7 @@ const B2_WORDS = [
     "de": "Landung",
     "de_article": "die",
     "de_plural": "die Landungen",
-    "lv": "Stand-off • Landing • Landing",
+    "lv": "Landing",
     "level": "B2"
   },
   {
@@ -8564,7 +8564,7 @@ const B2_WORDS = [
   },
   {
     "de": "leidlich",
-    "lv": "Tolerabel • Tolerabel • Halvgod",
+    "lv": "Tålelig • Nogenlunde",
     "level": "B2"
   },
   {
@@ -8805,7 +8805,7 @@ const B2_WORDS = [
   },
   {
     "de": "mächtig",
-    "lv": "Mægtig • Stærk • Kæmpe",
+    "lv": "Mægtig • Kraftfuld",
     "level": "B2"
   },
   {
@@ -9212,12 +9212,12 @@ const B2_WORDS = [
   },
   {
     "de": "mulmig",
-    "lv": "Utryg • Usikker • Frygtelig",
+    "lv": "Utryg • Beklemt",
     "level": "B2"
   },
   {
     "de": "münden",
-    "lv": "Flow ind • Flow in • Gå ud • Kør ud",
+    "lv": "Munde ud • Udmunde",
     "level": "B2"
   },
   {
@@ -9299,17 +9299,17 @@ const B2_WORDS = [
         {
           "word": "Nachdruck legen auf",
           "meaning": "Understreg, insister",
-          "example": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu."
+          "example": "Er legt Nachdruck auf die Frist. = Han lægger vægt på fristen."
         },
         {
           "word": "der Nachdruck (Buch)",
           "meaning": "Genudsted",
-          "example": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī."
+          "example": "Der Nachdruck erschien im Frühjahr. = Genoptrykket udkom i foråret."
         },
         {
           "word": "der Druck",
           "meaning": "Tryk / print",
-          "example": "Unter Druck stehen = būt spiedienā."
+          "example": "Unter Druck stehen = at være under pres."
         }
       ],
       "tip": [
@@ -9393,7 +9393,7 @@ const B2_WORDS = [
   },
   {
     "de": "nachdrücklich",
-    "lv": "Eftertrykkelig • Kraftig • Overbevisende • Kraftig • Overbevisende",
+    "lv": "Eftertrykkelig • Bestemt",
     "level": "B2"
   },
   {
@@ -9433,7 +9433,7 @@ const B2_WORDS = [
   },
   {
     "de": "nachträglich",
-    "lv": "Senere • Yderligere • Senere • For tillæg",
+    "lv": "Efterfølgende • Senere",
     "level": "B2"
   },
   {
@@ -9546,7 +9546,7 @@ const B2_WORDS = [
   },
   {
     "de": "neuerdings",
-    "lv": "For nylig • Disse dage • Igen • Igen",
+    "lv": "På det seneste • For nylig",
     "level": "B2"
   },
   {
@@ -9586,19 +9586,19 @@ const B2_WORDS = [
   },
   {
     "de": "nichtig",
-    "lv": "Ugyldig • Ugyldig • Bagatell • Ubetydelig",
+    "lv": "Ugyldig • Ubetydelig",
     "level": "B2"
   },
   {
     "de": "Niedergang",
     "de_article": "der",
     "de_plural": "die Niedergänge",
-    "lv": "Solnedgang • Afvis • Afvis",
+    "lv": "Nedgang • Forfald",
     "level": "B2"
   },
   {
     "de": "niederlegen",
-    "lv": "Læg ned • Stop arbejdet • Gå i strejke",
+    "lv": "Nedlægge • Fratræde",
     "level": "B2"
   },
   {
@@ -9789,7 +9789,7 @@ const B2_WORDS = [
     "de": "Order",
     "de_article": "die",
     "de_plural": "die Orders",
-    "lv": "Ordre • Kommando • Opgave",
+    "lv": "Ordre • Bestilling",
     "level": "B2"
   },
   {
@@ -9829,7 +9829,7 @@ const B2_WORDS = [
   },
   {
     "de": "orientalisch",
-    "lv": "Orientalsk • Orientalsk • Orientalsk",
+    "lv": "Orientalsk",
     "level": "B2"
   },
   {
@@ -10031,7 +10031,7 @@ const B2_WORDS = [
   },
   {
     "de": "pfuschen",
-    "lv": "Dårlig • Ufaglært • Slasket arbejde",
+    "lv": "Sjuskearbejde • Fuske",
     "level": "B2"
   },
   {
@@ -10057,7 +10057,7 @@ const B2_WORDS = [
   },
   {
     "de": "pikiert",
-    "lv": "Fornærmet • Fornærmet • Forarget",
+    "lv": "Fornærmet • Stødt",
     "level": "B2"
   },
   {
@@ -10124,14 +10124,14 @@ const B2_WORDS = [
     "de": "Posse",
     "de_article": "die",
     "de_plural": "die Possen",
-    "lv": "Farce • Joke leg • Grove joke",
+    "lv": "Farce • Løjer",
     "level": "B2"
   },
   {
     "de": "Possen",
     "de_article": "der",
     "de_plural": "die Possen",
-    "lv": "Farce • Joke leg • Grove joke",
+    "lv": "Løjer • Narrestreger",
     "level": "B2"
   },
   {
@@ -10141,7 +10141,7 @@ const B2_WORDS = [
   },
   {
     "de": "prägen",
-    "lv": "At præge penge • At trykke • At påtvinge • At danne • At lave",
+    "lv": "Præge • Forme",
     "level": "B2"
   },
   {
@@ -10213,7 +10213,7 @@ const B2_WORDS = [
   },
   {
     "de": "provisorisch",
-    "lv": "Foreløbig • Midlertidig • For en tid",
+    "lv": "Midlertidig • Foreløbig",
     "level": "B2"
   },
   {
@@ -10250,7 +10250,7 @@ const B2_WORDS = [
   },
   {
     "de": "quellen",
-    "lv": "Ooze • Ooze • Drench • Drench • Svulme",
+    "lv": "Sive • Svulme",
     "level": "B2"
   },
   {
@@ -10311,12 +10311,12 @@ const B2_WORDS = [
   },
   {
     "de": "ranzig",
-    "lv": "Harsk • Bitter til fløde • Fedt • Smør",
+    "lv": "Harsk",
     "level": "B2"
   },
   {
     "de": "rau",
-    "lv": "Ru • Ru • Grov • Hæs • Barsk • Uvenlig • Rå",
+    "lv": "Ru • Barsk",
     "level": "B2"
   },
   {
@@ -10376,7 +10376,7 @@ const B2_WORDS = [
   },
   {
     "de": "recken",
-    "lv": "At strække • At strække • At strække • At strække",
+    "lv": "Strække • Strække sig",
     "level": "B2"
   },
   {
@@ -10405,7 +10405,7 @@ const B2_WORDS = [
   },
   {
     "de": "rege",
-    "lv": "Levende • Livlig • Bevægende • Aktiv",
+    "lv": "Livlig • Aktiv",
     "level": "B2"
   },
   {
@@ -10438,7 +10438,7 @@ const B2_WORDS = [
     "de": "Regung",
     "de_article": "die",
     "de_plural": "die Regungen",
-    "lv": "Bevægelse • Følelsesbølge • Tilbøjelighed",
+    "lv": "Bevægelse • Følelse",
     "level": "B2"
   },
   {
@@ -10564,7 +10564,7 @@ const B2_WORDS = [
     "de": "Rückgang",
     "de_article": "der",
     "de_plural": "die Rückgänge",
-    "lv": "Fald • Regression • Fald",
+    "lv": "Fald • Tilbagegang",
     "level": "B2"
   },
   {
@@ -10576,7 +10576,7 @@ const B2_WORDS = [
   },
   {
     "de": "rücksichtslos",
-    "lv": "Skødesløs • Uhøflig • Nådesløs",
+    "lv": "Hensynsløs • Nådesløs",
     "level": "B2"
   },
   {
@@ -10600,7 +10600,7 @@ const B2_WORDS = [
   },
   {
     "de": "rühmen",
-    "lv": "At rose • At glorificere • At prale • At prale af noget",
+    "lv": "Rose • Prale af",
     "level": "B2"
   },
   {
@@ -10643,7 +10643,7 @@ const B2_WORDS = [
     "de": "Sachlage",
     "de_article": "die",
     "de_plural": "die Sachlagen",
-    "lv": "Tilstand • Omstændigheder • Situation",
+    "lv": "Situation • Omstændigheder",
     "level": "B2"
   },
   {
@@ -10698,7 +10698,7 @@ const B2_WORDS = [
   },
   {
     "de": "sättigen",
-    "lv": "[godt] foder • Fest • Chem. mætte",
+    "lv": "Mætte • Gøre mæt",
     "level": "B2"
   },
   {
@@ -10710,7 +10710,7 @@ const B2_WORDS = [
   },
   {
     "de": "sausen",
-    "lv": "Raslen • Fløjte • Swish • Swish",
+    "lv": "Suse • Fare afsted",
     "level": "B2"
   },
   {
@@ -10735,7 +10735,7 @@ const B2_WORDS = [
   {
     "de": "Schaffen",
     "de_article": "das",
-    "lv": "Kreativitet • Skabelse • Arbejde • Aktivitet • Skabelse",
+    "lv": "Skaben • Virke",
     "level": "B2"
   },
   {
@@ -10771,7 +10771,7 @@ const B2_WORDS = [
   },
   {
     "de": "schärfsinnig",
-    "lv": "Vittig • Med et skarpt sind • Ressourcestærk",
+    "lv": "Skarpsindig • Klarsynet",
     "level": "B2"
   },
   {
@@ -10802,7 +10802,7 @@ const B2_WORDS = [
   },
   {
     "de": "scheiden",
-    "lv": "[un]separate • Separate • Separate • Sich sch. lassen • Break up • Break up",
+    "lv": "Skille • Adskille",
     "level": "B2"
   },
   {
@@ -10816,7 +10816,7 @@ const B2_WORDS = [
     "de": "Scheitel",
     "de_article": "der",
     "de_plural": "die Scheitel",
-    "lv": "Hoved • Slæb • Sti",
+    "lv": "Isse • Skilning",
     "level": "B2"
   },
   {
@@ -10869,7 +10869,7 @@ const B2_WORDS = [
     "de": "Schieber",
     "de_article": "der",
     "de_plural": "die Schieber",
-    "lv": "Bolt • Pil • Spekulant",
+    "lv": "Skyder • Spekulant",
     "level": "B2"
   },
   {
@@ -11010,7 +11010,7 @@ const B2_WORDS = [
     "de": "Schöpfung",
     "de_article": "die",
     "de_plural": "die Schöpfungen",
-    "lv": "Skabelse • Skabelse • Arbejde",
+    "lv": "Skabelse • Skaberværk",
     "level": "B2"
   },
   {
@@ -11032,7 +11032,7 @@ const B2_WORDS = [
   },
   {
     "de": "schroff",
-    "lv": "Stejl • Brændt • Barsk • Skarp • Uvenlig",
+    "lv": "Barsk • Afvisende",
     "level": "B2"
   },
   {
@@ -11091,7 +11091,7 @@ const B2_WORDS = [
   },
   {
     "de": "schwärmen",
-    "lv": "Bliv begejstret • Rave • Drøm",
+    "lv": "Sværme • Være begejstret",
     "level": "B2"
   },
   {
@@ -11155,7 +11155,7 @@ const B2_WORDS = [
   },
   {
     "de": "schwinden",
-    "lv": "[minske] • [dis]appear • Fade away",
+    "lv": "Svækkes • Forsvinde",
     "level": "B2"
   },
   {
@@ -11632,7 +11632,7 @@ const B2_WORDS = [
     "de": "Sonderausgabe",
     "de_article": "die",
     "de_plural": "die Sonderausgaben",
-    "lv": "Særudgave af en bog • Særudgivelse af avis • Særudgivelse af frimærker",
+    "lv": "Særudgave • Specialudgave",
     "level": "B2"
   },
   {
@@ -11691,12 +11691,12 @@ const B2_WORDS = [
     "de": "Spaltung",
     "de_article": "die",
     "de_plural": "die Spaltungen",
-    "lv": "Splitting • [sa]splitting • [sa]splitting",
+    "lv": "Spaltning • Splittelse",
     "level": "B2"
   },
   {
     "de": "spärlich",
-    "lv": "Sjælden • Nærig • Sjælden",
+    "lv": "Sparsom • Knap",
     "level": "B2"
   },
   {
@@ -11740,7 +11740,7 @@ const B2_WORDS = [
   {
     "de": "Spott",
     "de_article": "der",
-    "lv": "Hån • Tænder • Onde vittighed",
+    "lv": "Hån • Spot",
     "level": "B2"
   },
   {
@@ -11767,7 +11767,7 @@ const B2_WORDS = [
   },
   {
     "de": "sprengen",
-    "lv": "[on]blast • Drys • Vand",
+    "lv": "Sprænge • Overskride",
     "level": "B2"
   },
   {
@@ -11781,14 +11781,14 @@ const B2_WORDS = [
     "de": "Spross",
     "de_article": "der",
     "de_plural": "die Sprosse",
-    "lv": "Bot. scion • Skyd • Trans. afkom • Afkom",
+    "lv": "Skud • Afkom",
     "level": "B2"
   },
   {
     "de": "Spruch",
     "de_article": "der",
     "de_plural": "die Sprüche",
-    "lv": "Udtryk • Aforisme • Jur. dom",
+    "lv": "Ordsprog • Kendelse",
     "level": "B2"
   },
   {
@@ -11802,7 +11802,7 @@ const B2_WORDS = [
     "de": "Spuk",
     "de_article": "der",
     "de_plural": "die Spuke",
-    "lv": "Spøgelse • Spøgelse • Tilsynekomst",
+    "lv": "Spøgeri • Genfærd",
     "level": "B2"
   },
   {
@@ -11866,7 +11866,7 @@ const B2_WORDS = [
   },
   {
     "de": "starr",
-    "lv": "Bevægelig • Følelsesløs • Stiv",
+    "lv": "Stiv • Ubevægelig",
     "level": "B2"
   },
   {
@@ -12126,7 +12126,7 @@ const B2_WORDS = [
   },
   {
     "de": "tönen",
-    "lv": "At lyde • At tone • At give en skygge",
+    "lv": "Lyde • Klinge",
     "level": "B2"
   },
   {
@@ -12291,7 +12291,7 @@ const B2_WORDS = [
   },
   {
     "de": "überbringen",
-    "lv": "Lever en besked • En hilsen • Et brev • En gave",
+    "lv": "Overbringe • Levere",
     "level": "B2"
   },
   {
@@ -12329,7 +12329,7 @@ const B2_WORDS = [
   },
   {
     "de": "übergehen",
-    "lv": "Overse • Ignorer • Udelad",
+    "lv": "Forbigå • Gå over til",
     "level": "B2"
   },
   {
@@ -12353,7 +12353,7 @@ const B2_WORDS = [
     "de": "Überlegung",
     "de_article": "die",
     "de_plural": "die Überlegungen",
-    "lv": "Refleksion • Overvejelse • Overvejelse",
+    "lv": "Overvejelse • Betragtning",
     "level": "B2"
   },
   {
@@ -12395,7 +12395,7 @@ const B2_WORDS = [
   },
   {
     "de": "übertragen",
-    "lv": "Sende • Overføre smitsomme sygdomme • Udsende via radio • [re]oversætte",
+    "lv": "Overføre • Transmittere",
     "level": "B2"
   },
   {
@@ -12438,7 +12438,7 @@ const B2_WORDS = [
   },
   {
     "de": "umfassen",
-    "lv": "At omfatte • At omfavne • At omfavne",
+    "lv": "Omfatte • Omfavne",
     "level": "B2"
   },
   {
@@ -12467,7 +12467,7 @@ const B2_WORDS = [
   },
   {
     "de": "umkreisen",
-    "lv": "Surround • Belejring • Hover • Launch • Circle",
+    "lv": "Kredse om • Omkredse",
     "level": "B2"
   },
   {
@@ -12493,7 +12493,7 @@ const B2_WORDS = [
   },
   {
     "de": "umschließen",
-    "lv": "Slå • Encompass • Encompass til",
+    "lv": "Omslutte • Indeslutte",
     "level": "B2"
   },
   {
@@ -12510,7 +12510,7 @@ const B2_WORDS = [
     "de": "Umschwung",
     "de_article": "der",
     "de_plural": "die Umschwünge",
-    "lv": "Vende • Pause • Pludselig ændring • Vende • Vende",
+    "lv": "Omsving • Pludselig ændring",
     "level": "B2"
   },
   {
@@ -12526,7 +12526,7 @@ const B2_WORDS = [
   },
   {
     "de": "umständlich",
-    "lv": "Meget detaljeret • For bred • Byrdefuld • Kompliceret",
+    "lv": "Omstændelig • Besværlig",
     "level": "B2"
   },
   {
@@ -12573,7 +12573,7 @@ const B2_WORDS = [
   },
   {
     "de": "unbedacht",
-    "lv": "Tankeløs • Forhastet • Uforsigtig",
+    "lv": "Ubetænksom • Forhastet",
     "level": "B2"
   },
   {
@@ -12618,7 +12618,7 @@ const B2_WORDS = [
   },
   {
     "de": "unbewusst",
-    "lv": "Ubevidst • Instinktiv • Utilsigtet • Utilsigtet",
+    "lv": "Ubevidst • Ubevidst foretaget",
     "level": "B2"
   },
   {
@@ -12633,7 +12633,7 @@ const B2_WORDS = [
   },
   {
     "de": "unentgeltlich",
-    "lv": "Uden kompensation • Gratis • For ingenting",
+    "lv": "Gratis • Vederlagsfri",
     "level": "B2"
   },
   {
@@ -12650,7 +12650,7 @@ const B2_WORDS = [
     "de": "Unfug",
     "de_article": "der",
     "de_plural": "die Unfuge",
-    "lv": "Misgerning • Fravær • Uanstændig handling",
+    "lv": "Uvæsen • Tåbeligheder",
     "level": "B2"
   },
   {
@@ -12660,7 +12660,7 @@ const B2_WORDS = [
   },
   {
     "de": "ungerade",
-    "lv": "Ikke helt lige • Skæv • Ulige",
+    "lv": "Ulige • Skæv",
     "level": "B2"
   },
   {
@@ -12683,7 +12683,7 @@ const B2_WORDS = [
   },
   {
     "de": "unnütz",
-    "lv": "Ubrugelig • Unødvendig • Forgæves",
+    "lv": "Unyttig • Ubrugelig",
     "level": "B2"
   },
   {
@@ -12712,7 +12712,7 @@ const B2_WORDS = [
     "de": "Untergang",
     "de_article": "der",
     "de_plural": "die Untergänge",
-    "lv": "Afvis • Afvis • Demise • Kollaps",
+    "lv": "Undergang • Forlis",
     "level": "B2"
   },
   {
@@ -12725,7 +12725,7 @@ const B2_WORDS = [
   {
     "de": "Unterhalt",
     "de_article": "der",
-    "lv": "Forsyning • Forsyning • Forsyning",
+    "lv": "Underhold • Forsørgelse",
     "level": "B2"
   },
   {
@@ -12742,7 +12742,7 @@ const B2_WORDS = [
     "de": "Unterlage",
     "de_article": "die",
     "de_plural": "die Unterlagen",
-    "lv": "Permanent • Måtte • Pad • Support • Data • Dokumentation",
+    "lv": "Underlag • Dokumentation",
     "level": "B2"
   },
   {
@@ -12776,7 +12776,7 @@ const B2_WORDS = [
   },
   {
     "de": "untertauchen",
-    "lv": "At dykke • At dyppe under vand • At dyppe • At dykke",
+    "lv": "Dykke ned • Gå under jorden",
     "level": "B2"
   },
   {
@@ -12821,7 +12821,7 @@ const B2_WORDS = [
   },
   {
     "de": "unwillkürlich",
-    "lv": "Ubevidst • Utilsigtet • Ubevidst",
+    "lv": "Uvilkårlig • Ufrivillig",
     "level": "B2"
   },
   {
@@ -12843,7 +12843,7 @@ const B2_WORDS = [
     "de": "Urheber",
     "de_article": "der",
     "de_plural": "die Urheber",
-    "lv": "Initiativtager • Initiativtager • Forfatter",
+    "lv": "Ophavsmand • Forfatter",
     "level": "B2"
   },
   {
@@ -12864,7 +12864,7 @@ const B2_WORDS = [
     "de": "Ursprung",
     "de_article": "der",
     "de_plural": "die Ursprünge",
-    "lv": "Oprindelse • Oprindelse • [før]begyndelse",
+    "lv": "Oprindelse • Udspring",
     "level": "B2"
   },
   {
@@ -12901,7 +12901,7 @@ const B2_WORDS = [
   },
   {
     "de": "veranlassen",
-    "lv": "Årsag • Igangsætte • Opmuntre",
+    "lv": "Foranledige • Iværksætte",
     "level": "B2"
   },
   {
@@ -12930,17 +12930,17 @@ const B2_WORDS = [
     "de": "Verdruss",
     "de_article": "der",
     "de_plural": "die Verdrusse",
-    "lv": "Kan ikke lide • Skuffelse • Irritation",
+    "lv": "Ærgrelse • Irritation",
     "level": "B2"
   },
   {
     "de": "verdünnen",
-    "lv": "Gør tyndere • Chem. fortyndes • Svækkes",
+    "lv": "Fortynde • Gøre tyndere",
     "level": "B2"
   },
   {
     "de": "verehren",
-    "lv": "Ære • Respekt • Komp. [at] give væk",
+    "lv": "Ære • Højagte",
     "level": "B2"
   },
   {
@@ -12976,7 +12976,7 @@ const B2_WORDS = [
     "de": "Vereinigung",
     "de_article": "die",
     "de_plural": "die Vereinigungen",
-    "lv": "Fagforening • Samfund • Kobling",
+    "lv": "Forening • Sammenslutning",
     "level": "B2"
   },
   {
@@ -12988,19 +12988,19 @@ const B2_WORDS = [
     "de": "Verfahren",
     "de_article": "das",
     "de_plural": "die Verfahren",
-    "lv": "Adfærd • Adfærd • Teknik • Metode • Jur. proces • Sag",
+    "lv": "Fremgangsmåde • Procedure",
     "level": "B2"
   },
   {
     "de": "Verfall",
     "de_article": "der",
     "de_plural": "die Verfälle",
-    "lv": "Skjul sammen • Afvis • Afvis",
+    "lv": "Forfald • Nedgang",
     "level": "B2"
   },
   {
     "de": "verfallen",
-    "lv": "Collapse • Collapse • Decline • Synk",
+    "lv": "Forfalde • Udløbe",
     "level": "B2"
   },
   {
@@ -13012,7 +13012,7 @@ const B2_WORDS = [
   },
   {
     "de": "verfügen",
-    "lv": "Bestem • Kommando • Tildel",
+    "lv": "Råde over • Bestemme",
     "level": "B2"
   },
   {
@@ -13183,7 +13183,7 @@ const B2_WORDS = [
   },
   {
     "de": "verkommen",
-    "lv": "At afslå • At synke • At gå på afveje",
+    "lv": "Forfalde • Degenerere",
     "level": "B2"
   },
   {
@@ -13233,7 +13233,7 @@ const B2_WORDS = [
   },
   {
     "de": "vermitteln",
-    "lv": "Formidle • Anskaffe • Fremme",
+    "lv": "Formidle • Mægle",
     "level": "B2"
   },
   {
@@ -13253,7 +13253,7 @@ const B2_WORDS = [
   },
   {
     "de": "verordnen",
-    "lv": "Bestem • Ordre • Med. at underskrive",
+    "lv": "Ordinere • Foreskrive",
     "level": "B2"
   },
   {
@@ -13273,7 +13273,7 @@ const B2_WORDS = [
   },
   {
     "de": "versagen",
-    "lv": "Benægte • Afvise • Afvise • Ulydige • Nægte at tjene • Fremstå fej og magtesløs",
+    "lv": "Svigte • Nægte",
     "level": "B2"
   },
   {
@@ -13426,7 +13426,7 @@ const B2_WORDS = [
     "de": "Vertretung",
     "de_article": "die",
     "de_plural": "die Vertretungen",
-    "lv": "Substitution • Substitution • Repræsentation • Repræsentere",
+    "lv": "Repræsentation • Stedfortrædelse",
     "level": "B2"
   },
   {
@@ -13465,12 +13465,12 @@ const B2_WORDS = [
   },
   {
     "de": "verwickeln",
-    "lv": "At forvirre • Adj. flette ind • Interfere",
+    "lv": "Indvikle • Involvere",
     "level": "B2"
   },
   {
     "de": "verwirren",
-    "lv": "At forvirre • Forvirre • Forvirre",
+    "lv": "Forvirre • Bringe i vildrede",
     "level": "B2"
   },
   {
@@ -13550,7 +13550,7 @@ const B2_WORDS = [
   },
   {
     "de": "verzweifelt",
-    "lv": "Desperat • Desperate • Fuld af fortvivlelse",
+    "lv": "Desperat • Fortvivlet",
     "level": "B2"
   },
   {
@@ -13602,7 +13602,7 @@ const B2_WORDS = [
   },
   {
     "de": "vollkommen",
-    "lv": "Komplet • Helt • Helt",
+    "lv": "Fuldkommen • Helt",
     "level": "B2"
   },
   {
@@ -13638,7 +13638,7 @@ const B2_WORDS = [
   },
   {
     "de": "voran",
-    "lv": "Foran • Foran • Ved hovedet",
+    "lv": "Foran • Fremad",
     "level": "B2"
   },
   {
@@ -13720,7 +13720,7 @@ const B2_WORDS = [
   },
   {
     "de": "vornehmen",
-    "lv": "At gøre • At præstere • At påtage sig • At forpligte sig til noget",
+    "lv": "Foretage • Påtage sig",
     "level": "B2"
   },
   {
@@ -13744,21 +13744,21 @@ const B2_WORDS = [
     "de": "Vorspiel",
     "de_article": "das",
     "de_plural": "die Vorspiele",
-    "lv": "Prolog • Præludium • Ouverture",
+    "lv": "Forspil • Præludium",
     "level": "B2"
   },
   {
     "de": "Vorsprung",
     "de_article": "der",
     "de_plural": "die Vorsprünge",
-    "lv": "Fremtræden • Overhøjhed • Overlegenhed",
+    "lv": "Forspring • Fordel",
     "level": "B2"
   },
   {
     "de": "Vorstand",
     "de_article": "der",
     "de_plural": "die Vorstände",
-    "lv": "Bestyrelse • Chef • Ledelse • Chef",
+    "lv": "Bestyrelse • Ledelse",
     "level": "B2"
   },
   {
@@ -13770,7 +13770,7 @@ const B2_WORDS = [
   },
   {
     "de": "vortragen",
-    "lv": "Foredrag • Optræde • Recitere • Spil",
+    "lv": "Fremlægge • Recitere",
     "level": "B2"
   },
   {
@@ -14113,7 +14113,7 @@ const B2_WORDS = [
     "de": "Wesen",
     "de_article": "das",
     "de_plural": "die Wesen",
-    "lv": "Væsen • Skabning • Essens • Natur",
+    "lv": "Væsen • Natur",
     "level": "B2"
   },
   {
@@ -14208,7 +14208,7 @@ const B2_WORDS = [
   },
   {
     "de": "wiedergeben",
-    "lv": "Give • Reproducere • Reproducere",
+    "lv": "Gengive • Reproducere",
     "level": "B2"
   },
   {
@@ -14231,7 +14231,7 @@ const B2_WORDS = [
   },
   {
     "de": "winden",
-    "lv": "Twist • Twist • Flet",
+    "lv": "Vride • Sno",
     "level": "B2"
   },
   {
@@ -14386,17 +14386,17 @@ const B2_WORDS = [
         {
           "word": "zuweisen",
           "meaning": "Tildel • Tildel",
-          "example": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu."
+          "example": "Er weist die Aufgabe zu. = Han tildeler opgaven."
         },
         {
           "word": "geben",
           "meaning": "At give",
-          "example": "Er gibt mir die Arbeit. = Viņš man dod darbu."
+          "example": "Er gibt mir die Arbeit. = Han giver mig arbejdet."
         },
         {
           "word": "verteilen",
           "meaning": "At dele",
-          "example": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus."
+          "example": "Er verteilt die Aufgaben. = Han fordeler opgaverne."
         }
       ],
       "tip": {
@@ -14466,7 +14466,7 @@ const B2_WORDS = [
   },
   {
     "de": "zuwider",
-    "lv": "Mod • Modsat • Kan ikke lide",
+    "lv": "Imod • Modbydelig",
     "level": "B2",
     "study": {
       "id": "b2-zuwider",
@@ -14496,7 +14496,7 @@ const B2_WORDS = [
         {
           "word": "jemandem zuwider sein",
           "meaning": "Nogen vil ikke lide det",
-          "example": "Es ist mir zuwider. = Man tas nepatīk."
+          "example": "Es ist mir zuwider. = Det er mig imod."
         },
         {
           "word": "wider",
@@ -14854,9 +14854,9 @@ const B2_WORDS = [
       "translation": "Tilbyde • Give",
       "explanation": [
         "Hovedidé: Tilbyd muligheder, kurser, tjenester eller fordele – som et sted eller et program tilbyder.",
-        "Bieten betyder hovedsageligt: ​​at give mulighed / fordel.",
+        "Bieten betyder hovedsageligt: at give mulighed / fordel.",
         "Beskriver ofte: hvad stedet/uddannelsen giver.",
-        "Bieten betyder hovedsageligt: ​​at give en mulighed.",
+        "Bieten betyder hovedsageligt: at give en mulighed.",
         "Ofte karakteriseret ved: mere formel.",
         "Bieten beskriver ofte, hvad et sted, et program eller en tjeneste giver (Die Schule bietet viele Kurse)."
       ],
@@ -15002,12 +15002,12 @@ const B2_WORDS = [
         {
           "word": "anbieten",
           "meaning": "Tilbud (aktiv)",
-          "example": "Ich biete Hilfe an. = Es piedāvāju palīdzību."
+          "example": "Ich biete Hilfe an. = Jeg tilbyder hjælp."
         },
         {
           "word": "bieten",
           "meaning": "Tilbyd • Giv",
-          "example": "Er bietet viel Geld. = Viņš piedāvā daudz naudas."
+          "example": "Er bietet viel Geld. = Han tilbyder mange penge."
         },
         {
           "word": "vorschlagen",
@@ -15084,9 +15084,9 @@ const B2_WORDS = [
       "translation": "Kræv • Kræv",
       "explanation": [
         "Hovedidé: At bede om penge, rettigheder, ændringer eller forpligtelser – et aktivt krav.",
-        "Fordern betyder hovedsageligt: ​​at kræve / at kræve.",
+        "Fordern betyder hovedsageligt: at kræve / forlange.",
         "Ofte karakteriseret ved: aktiv efterspørgsel.",
-        "Fordern betyder hovedsageligt: ​​at kræve en standard.",
+        "Fordern betyder hovedsageligt: at kræve en standard.",
         "Ofte karakteriseret ved: formel.",
         "Fordern bruges, når nogen beder om penge, rettigheder, vekslepenge eller en forpligtelse (Sie fordern mehr Geld)."
       ],
@@ -15225,7 +15225,7 @@ const B2_WORDS = [
         "Ofte karakteriseret ved: støtte / fremskridt.",
         "Fordern betyder hovedsagelig: at udvinde mineraler.",
         "Ofte kendetegnet ved: i industrien.",
-        "Fordern betyder hovedsageligt: ​​udvikle talent.",
+        "Fördern betyder hovedsageligt: at udvikle talent.",
         "Ofte præget af: i uddannelse.",
         "Fordern betyder at fremme udvikling, at støtte en person eller et projekt (Sport fördern die Gesundheit)."
       ],
