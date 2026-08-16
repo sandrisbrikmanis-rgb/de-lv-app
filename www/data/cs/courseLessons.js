@@ -102,7 +102,7 @@ const COURSE_LESSON_DATA = {
           "die Kinder — děti",
           "setzt euch (zect oich) — posaďte se!",
           "sie setzen sich — oni si sedají",
-          "fragen (ar akuzatīvu) — ptát se",
+          "fragen (s akuzativem) — ptát se",
           "sprechen — mluvit",
           "er spricht — on mluví",
           "aber — ale",
@@ -134,27 +134,27 @@ const COURSE_LESSON_DATA = {
         "title": "Výslovnost",
         "items": [
           "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
-          "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
+          "ä se také vyslovuje jako otevřené e, například ve slově der Gärtner (dēr gertner).",
           "Vārdos Schüler, Bücher — ü je ve slovech Schüler, Bücher dlouhé (ū), ale ve slově Müller je ü krátké.",
           "ie izrunā kā garo ī: liest (līst).",
-          "ß izrunā kā s: grüßen (grüsen).",
-          "eu izrunā kā oi: deutlich (doitlich)."
+          "ß se vyslovuje jako s: grüßen (grüsen).",
+          "eu se vyslovuje jako oi: deutlich (doitlich)."
         ]
       },
       {
         "title": "Gramatika",
         "items": [
-          "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
+          "U mnoha sloves se samohláskou e v kmeni se ve 2. a 3. osobě jednotného čísla přítomného času mění e na i nebo ie.",
           "sprechen — ich spreche, du sprichst, er spricht.",
           "geben — ich gebe, du gibst, er gibt.",
           "essen — ich esse, du isst, er isst.",
           "nehmen — ich nehme, du nimmst, er nimmt.",
           "lesen — ich lese, du liest, er liest.",
           "sehen — ich sehe, du siehst, er sieht.",
-          "Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
-          "Latviešu valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. Vācu valodā sevišķas konjugācijas nav. Tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.",
+          "U těchto sloves je také v rozkazovacím způsobu jednotného čísla v kmeni místo e samohláska i nebo ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+          "V češtině se zvratná slovesa tvoří pomocí zvratného zájmena. V němčině nemají zvláštní časování. Časují se stejně jako ostatní slovesa a přidává se zvratné zájmeno sich.",
           "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
-          "Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie sich!"
+          "Rozkazovací způsob: setz(e) dich!, setzt euch!, setzen Sie sich!"
         ]
       },
       {
@@ -483,7 +483,7 @@ const COURSE_LESSON_DATA = {
           "zumachen — zavřít",
           "ich mache zu — zavírám",
           "sitzen (zicen) — sedět",
-          "ruhig (rū-klidně",
+          "ruhig (rū-ich) — klidně",
           "dieser (dīzer) — tento",
           "jener (jēner) — onen",
           "der Brief (dēr brīf) — dopis",
@@ -497,7 +497,7 @@ const COURSE_LESSON_DATA = {
         "title": "Gramatika",
         "items": [
           {
-            "heading": "Norādāmie vietniekvārdi",
+            "heading": "Ukazovací zájmena",
             "text": "Ukazovací zájmena dieser a jener se skloňují podobně jako určitý člen."
           },
           {
@@ -959,16 +959,16 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Výslovnost",
         "items": [
-          "Pareizi jāizrunā patskaņu pārkaņojumi.",
-          "ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der Löffel.",
-          "ü izrunā ar apaļotām lūpām kā i: Müller (müller), Bücher (bücher).",
-          "Patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem.",
+          "Přehlásky samohlásek je třeba správně vyslovovat.",
+          "ö se vyslovuje se zaokrouhlenými rty přibližně jako e: wir können, ihr könnt, sie können, der Löffel.",
+          "ü se vyslovuje se zaokrouhlenými rty přibližně jako i: Müller (müller), Bücher (bücher).",
+          "Délka samohlásky závisí na následujících souhláskách.",
           "Ja patskanim seko viens līdzskanis, patskani izrunā gari: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
-          "Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir können, der Löffel, der Müller.",
-          "Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nominatīvs, fotogrāfs.",
-          "Pareizi izrunā: der Großvater (dēr grōsfāter).",
-          "Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).",
-          "Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celma ē ir garš un šaurs, galotnes e ir īss un plats."
+          "Pokud po samohlásce následují dvě nebo více souhlásek, vyslovuje se samohláska krátce: wir können, der Löffel, der Müller.",
+          "Německé o se vyslovuje jinak než české o v některých přejatých slovech. Příklady: Fonds, Nominativ, Fotograf.",
+          "Správně vyslovuj: der Großvater (dēr grōsfāter).",
+          "Dvojhláska ei se vyslovuje jako ai: seid (zait), fleißig (flaišich).",
+          "Německé e může být zavřené nebo otevřené: der Lehrer (dēr lērer). Kmenové e je dlouhé a zavřené, koncové e je krátké a otevřené."
         ]
       },
       {
@@ -1226,9 +1226,9 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Výslovnost",
         "items": [
-          "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
+          "eu se vyslovuje jako oi: der Freund (dēr froint), neun (noin).",
           "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
-          "z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer)."
+          "z se vyslovuje jako české c: Franz (franc), das Zimmer (cimer)."
         ]
       },
       {
@@ -1251,7 +1251,7 @@ const COURSE_LESSON_DATA = {
               ],
               [
                 "er/sie/es hat",
-                "viņam/viņai/tam ir"
+                "on/ona/ono má"
               ],
               [
                 "wir haben",
@@ -1263,16 +1263,16 @@ const COURSE_LESSON_DATA = {
               ],
               [
                 "sie haben",
-                "viņiem ir"
+                "oni/ony mají"
               ]
             ]
           },
           {
-            "heading": "Latviešu datīvs un vācu nominatīvs/akuzatīvs",
+            "heading": "Český dativ a německý nominativ/akuzativ",
             "text": "V češtině se vlastnictví běžně vyjadřuje slovesem mít. V němčině je osoba v nominativu a vlastněný předmět v akuzativu."
           },
           {
-            "heading": "Piemēri",
+            "heading": "Příklady",
             "examples": [
               "Ich habe einen Tisch — man ir galds",
               "Der Vater hat ein Buch — tēvam ir grāmata",
@@ -1280,10 +1280,10 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Salīdzinājums ar citām valodām",
+            "heading": "Srovnání s jinými jazyky",
             "examples": [
               "krievu: я имею тетрадь; отец имеет книгу.",
-              "angļu: I have a book; the father has a pencil."
+              "anglicky: I have a book; the father has a pencil."
             ]
           },
           {
@@ -1291,10 +1291,10 @@ const COURSE_LESSON_DATA = {
             "text": "Sloveso haben je třeba se dobře naučit a správně používat. Je třeba znát také jeho rozkazovací tvary."
           },
           {
-            "heading": "Imperativ — piemēri",
+            "heading": "Imperativ — příklady",
             "examples": [
-              "habe Geduld! — pacietību! / lai tev ir pacietība!",
-              "habt Geduld! — lai jums ir pacietība!",
+              "habe Geduld! — měj trpělivost! / buď trpělivý!",
+              "habt Geduld! — mějte trpělivost! / buďte trpěliví!",
               "Fräulein Müller, haben Sie Geduld!"
             ]
           },
@@ -1333,22 +1333,22 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Vārdu kārtība ar denn",
+            "heading": "Slovosled s denn",
             "text": "Je-li v oznamovací větě spojka denn, sloveso zůstává na 2. místě. Spojka denn se jako větný člen nepočítá."
           },
           {
-            "heading": "Denn — piemēri",
+            "heading": "Denn — příklady",
             "examples": [
               "Ich bin glücklich, denn ich habe Brüder.",
               "Wir sind glücklich, denn wir haben Schwestern."
             ]
           },
           {
-            "heading": "Saliktie lietvārdi",
+            "heading": "Složená podstatná jména",
             "text": "U složených podstatných jmen se rod a člen určují podle posledního podstatného jména. Přízvuk je na první části složeniny."
           },
           {
-            "heading": "Saliktie lietvārdi — piemēri",
+            "heading": "Složená podstatná jména — příklady",
             "examples": [
               "der Tisch + die Lampe = die Tischlampe",
               "die Bücher + das Brett = das Bücherbrett",
@@ -1526,9 +1526,9 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Výslovnost",
         "items": [
-          "x izrunā kā ks: Max (maks), Felix (feliks).",
-          "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
-          "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — Ve slově der Federhalter se h vyslovuje jako hláska, zatímco ve slově der Sohn označuje délku předcházející samohlásky."
+          "x se vyslovuje jako ks: Max (maks), Felix (feliks).",
+          "Ve slovech Schwester a am jüngsten se st vyslovuje jako běžné české st: Schwester (švester), jüngsten (jünksten).",
+          "Ve slově der Federhalter se h vyslovuje jako hláska, zatímco ve slově der Sohn pouze označuje délku předcházející samohlásky."
         ]
       },
       {
@@ -1544,7 +1544,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Umlaut pārākajā pakāpē",
+            "heading": "Přehláska ve 3. stupni",
             "text": "Většina jednoslabičných přídavných jmen s kmenovou samohláskou a, o, u dostává v komparativu přehlásku.",
             "examples": [
               "lang — länger",
@@ -1553,7 +1553,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Salīdzināšana ar wie un als",
+            "heading": "Srovnávání pomocí wie a als",
             "text": "Wie se používá při vyjádření rovnosti. Als se používá při vyjádření nerovnosti.",
             "examples": [
               "Elsa ist so alt wie mein Vetter.",
@@ -1569,7 +1569,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Neregulārās salīdzināmās pakāpes",
+            "heading": "Nepravidelné stupňování",
             "table": [
               [
                 "Positiv",
@@ -1834,7 +1834,7 @@ const COURSE_LESSON_DATA = {
         "title": "Gramatika",
         "items": [
           {
-            "heading": "Umlaut tagadnē",
+            "heading": "Přehláska v přítomném čase",
             "text": "Některá slovesa s kmenovou samohláskou a nebo au mají ve 2. a 3. osobě jednotného čísla přítomného času přehlásku.",
             "examples": [
               "halten — ich halte, du hältst, er hält",
@@ -1846,7 +1846,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Atgriezeniskais darbības vārds",
+            "heading": "Zvratné sloveso",
             "text": "sich umkehren — otočit se",
             "examples": [
               "ich kehre mich um",
@@ -1858,7 +1858,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar sich umkehren",
+            "heading": "Rozkazovací způsob se sich umkehren",
             "examples": [
               "kehr(e) dich um!",
               "kehrt euch um!",
@@ -1866,7 +1866,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Darbības vārds atmen",
+            "heading": "Sloveso atmen",
             "text": "atmen — dýchat",
             "examples": [
               "ich atme",
@@ -1878,7 +1878,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Pavēles forma ar atmen",
+            "heading": "Rozkazovací způsob s atmen",
             "examples": [
               "Paul, atme tief!",
               "Paul und Franz, atmet tief!",
@@ -1886,7 +1886,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Saliktie darbības vārdi",
+            "heading": "Složená slovesa",
             "text": "Je-li předpona přízvučná, v přítomném čase se odděluje a stojí na konci věty.",
             "examples": [
               "ausstrecken: ich strecke einen Arm aus.",
@@ -1894,7 +1894,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Neatdalāmie priedēkļi",
+            "heading": "Neodlučitelné předpony",
             "text": "Není-li předpona přízvučná, neodděluje se.",
             "examples": [
               "beschneiden: ich beschneide die Nägel.",
@@ -1902,23 +1902,23 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Vietniekvārds jeder",
+            "heading": "Zájmeno jeder",
             "text": "Zájmeno jeder se skloňuje jako členy der / die / das.",
             "table": [
               [
                 "",
-                "Vīriešu",
+                "Mužský",
                 "Sieviešu",
-                "Vidējā"
+                "Střední"
               ],
               [
-                "Nominatīvs",
+                "Nominativ",
                 "jeder Finger",
                 "jede Hand",
                 "jedes Bein"
               ],
               [
-                "Akuzatīvs",
+                "Akuzativ",
                 "jeden Finger",
                 "jede Hand",
                 "jedes Bein"
@@ -1981,12 +1981,12 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Výslovnost",
         "items": [
-          "h vārdā halten ir dzirdama skaņa.",
-          "h vārdā fahren rāda patskaņa garumu.",
-          "a vārdā halten izrunā īsi: halten.",
-          "a vārdā tragen izrunā gari: tragen.",
-          "äu izrunā kā oi: du läufst, er läuft.",
-          "pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt."
+          "Ve slově halten je h slyšitelné.",
+          "Ve slově fahren h označuje délku samohlásky.",
+          "Ve slově halten se a vyslovuje krátce: halten.",
+          "Ve slově tragen se a vyslovuje dlouze: tragen.",
+          "äu se vyslovuje jako oi: du läufst, er läuft.",
+          "Ve slově Kopf se pf vyslovuje tak, že jsou slyšet obě souhlásky."
         ]
       },
       {
@@ -2270,11 +2270,11 @@ const COURSE_LESSON_DATA = {
         "title": "Gramatika",
         "items": [
           {
-            "heading": "Modālie darbības vārdi",
+            "heading": "Modální slovesa",
             "text": "Slovesa müssen, wollen a mögen jsou modální slovesa."
           },
           {
-            "heading": "1. un 3. persona vienskaitlī",
+            "heading": "1. a 3. osoba jednotného čísla",
             "text": "V přítomném čase mají 1. a 3. osoba jednotného čísla stejný tvar.",
             "examples": [
               "ich muss",
@@ -2319,7 +2319,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Celma patskaņu maiņa",
+            "heading": "Změna kmenové samohlásky",
             "examples": [
               "müssen: ich muss — wir müssen",
               "wollen: ich will — wir wollen",
@@ -2349,7 +2349,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Svarīgi",
+            "heading": "Důležité",
             "text": "V češtině často říkáme „musím se učit“, „musíš psát“, „musí přijít“. V němčině se v takových větách často používá müssen.",
             "examples": [
               "Ich muss lernen.",
@@ -2362,12 +2362,12 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Výslovnost",
         "items": [
-          "ß izrunā kā latviešu s.",
-          "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
-          "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
-          "ö vārdā mögen izrunā kā skaidru ö skaņu.",
-          "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
-          "Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai."
+          "ß se vyslovuje jako české s.",
+          "ß se píše uprostřed nebo na konci slova po dlouhé samohlásce nebo dvojhlásce: die Füße, die Straße. Po krátké samohlásce se píše ss: ich muss, er muss.",
+          "V těchto tvarech zůstává ss: müssen, ich muss, du musst, ihr müsst.",
+          "ö ve slově mögen se vyslovuje jako zřetelná hláska ö.",
+          "Před s nebo t se g může ve výslovnosti přiblížit k: du magst, ihr mögt.",
+          "V češtině se podobné spodoby znělosti vyskytují také u souhlásek na hranicích hlásek."
         ]
       },
       {
@@ -2523,10 +2523,10 @@ const COURSE_LESSON_DATA = {
             "text": "Sollen znamená mít něco udělat nebo být povinen něco udělat."
           },
           {
-            "heading": "Salīdzinājums",
+            "heading": "Srovnání",
             "examples": [
-              "müssen — vajadzēt aiz nepieciešamības vai pārliecības",
-              "sollen — vajadzēt pienākuma nozīmē",
+              "müssen — muset z nutnosti nebo přesvědčení",
+              "sollen — mít povinnost / mít něco udělat",
               "Ich muss lernen. — Man jāmācās, jo tas ir nepieciešams.",
               "Ich soll lernen. — Man jāmācās, jo tas ir mans pienākums."
             ]
@@ -2568,7 +2568,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Mūsdienu rakstība",
+            "heading": "Současný pravopis",
             "text": "Pokud se v projektu používá současný pravopis, lze psát: du isst, er/sie/es isst, ihr esst."
           },
           {
@@ -2583,11 +2583,11 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Výslovnost",
         "items": [
-          "ä vārdos Äpfel un schälen izrunā kā šauro e.",
-          "Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.",
-          "Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.",
-          "Vārdā gern e ir īss un plats.",
-          "Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif."
+          "ä ve slovech Äpfel a schälen se vyslovuje jako zavřené e.",
+          "Ve slově Äpfel se ä vyslovuje krátce, protože po samohlásce následují dvě souhlásky.",
+          "Ve slově schälen se ä vyslovuje dlouze, protože po samohlásce následuje jedna souhláska.",
+          "Ve slově gern je e krátké a otevřené.",
+          "Pamatuj: německá dvojhláska ei se vyslovuje jako ai: reif, unreif."
         ]
       },
       {
@@ -2736,9 +2736,9 @@ const COURSE_LESSON_DATA = {
             "table": [
               [
                 "",
-                "Vīriešu",
+                "Mužský",
                 "Sieviešu",
-                "Vidējā"
+                "Střední"
               ],
               [
                 "Nominativ",
@@ -2765,9 +2765,9 @@ const COURSE_LESSON_DATA = {
             "table": [
               [
                 "",
-                "Vīriešu",
+                "Mužský",
                 "Sieviešu",
-                "Vidējā"
+                "Střední"
               ],
               [
                 "Nominativ",
@@ -2790,7 +2790,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Datīva -e",
+            "heading": "Dativní -e",
             "text": "Podstatná jména mužského a středního rodu mohou v dativu jednotného čísla přijímat koncovku -e. V současné němčině se tato koncovka často vynechává.",
             "examples": [
               "dem Sohne / dem Sohn",
@@ -2809,7 +2809,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Nenoteiktais artikuls datīvā",
+            "heading": "Neurčitý člen v dativu",
             "examples": [
               "ein Messer — einem Messer",
               "das Messer — dem Messer",
@@ -2820,7 +2820,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Daudzskaitļa datīvs",
+            "heading": "Dativ množného čísla",
             "text": "V dativu množného čísla podstatné jméno často přijímá koncovku -n.",
             "examples": [
               "die Bücher — den Büchern",
@@ -2872,8 +2872,8 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Výslovnost",
         "items": [
-          "Vārdos wem, dem, den, der — Ve slovech wem, dem, den a der je e dlouhé a vyslovuje se přibližně jako české é.",
-          "Vārdā gehorchen h ir dzirdams: ge-chen.",
+          "Ve slovech wem, dem, den a der je e dlouhé a vyslovuje se přibližně jako české é.",
+          "Ve slově gehorchen je h slyšitelné: ge-hor-chen.",
           "die Wälder: ä izrunā kā šaurais īsais e.",
           "die Bäuerinnen: äu izrunā kā oi.",
           "-Ve slově die Wiese se skupina ie vyslovuje jako dlouhé í.-Ve slově die Wiese se skupina ie vyslovuje jako dlouhé í."
@@ -3102,8 +3102,8 @@ const COURSE_LESSON_DATA = {
             "heading": "mit wem? / womit?",
             "text": "V němčině se otázka „s kým / s čím?“ vyjadřuje dvěma způsoby: mit wem? — u osob, womit? — u věcí a předmětů.",
             "examples": [
-              "Mit wem spricht der Bruder? — Ar ko runā brālis?",
-              "Womit gräbt der Knabe die Grube? — Ar ko zēns rok bedri?"
+              "Mit wem spricht der Bruder? — S kým mluví bratr?",
+              "Womit gräbt der Knabe die Grube? — Čím chlapec kope jámu?"
             ]
           },
           {
@@ -3147,7 +3147,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Atdalāmie priedēkļi",
+            "heading": "Odlučitelné předpony",
             "text": "U sloves auffangen a abwischen je přízvuk na předponě. Proto se předpona v přítomném čase odlučuje a stojí na konci věty.",
             "examples": [
               "Das Mädchen fängt den Ball auf.",
@@ -3158,9 +3158,9 @@ const COURSE_LESSON_DATA = {
             "heading": "fegen / wischen",
             "text": "Fegen i wischen mohou znamenat „zametat / stírat“, jejich použití se však liší.",
             "examples": [
-              "fegen — slaucīt ar slotu",
+              "fegen — zametat koštětem",
               "Wir fegen mit dem Besen.",
-              "wischen / abwischen — slaucīt ar lupatu, drānu, noslaucīt putekļus",
+              "wischen / abwischen — utírat hadrem, setřít prach",
               "Wir wischen den Staub ab.",
               "Wir wischen die Tafel ab."
             ]
@@ -3170,10 +3170,10 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Výslovnost",
         "items": [
-          "Vārdā werfen pirmais e ir plats: werfen.",
-          "Vārdā wieder e ir plats: wieder.",
-          "Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Diele.",
-          "Vārdā der Spaten sp izrunā kā šp: der Spaten."
+          "Ve slově werfen je první e otevřené: werfen.",
+          "Ve slově wieder je e otevřené: wieder.",
+          "Ve slovech wieder a die Diele označuje ie dlouhé í: wieder, die Diele.",
+          "Ve slově der Spaten se sp vyslovuje jako šp: der Spaten."
         ]
       },
       {
@@ -3182,35 +3182,35 @@ const COURSE_LESSON_DATA = {
           {
             "prompt": "Wen sieht der Knecht? (der Jäger, der Müller, der Tischler)",
             "task": "Odpověz nejprve v jednotném čísle, potom v množném čísle.",
-            "task2": "Tagad atbildi daudzskaitlī.",
+            "task2": "Nyní odpověz v množném čísle.",
             "answer": "Der Knecht sieht den Jäger, den Müller, den Tischler.",
             "answer2": "Der Knecht sieht die Jäger, die Müller, die Tischler."
           },
           {
             "prompt": "Was sieht der Knecht? (der Besen, die Schaufel, der Garten)",
             "task": "Odpověz nejprve v jednotném čísle, potom v množném čísle.",
-            "task2": "Tagad atbildi daudzskaitlī.",
+            "task2": "Nyní odpověz v množném čísle.",
             "answer": "Der Knecht sieht den Besen, die Schaufel, den Garten.",
             "answer2": "Der Knecht sieht die Besen, die Schaufeln, die Gärten."
           },
           {
             "prompt": "Mit wem spricht der Knecht? (der Vetter, die Base, das Mädchen)",
             "task": "Odpověz nejprve v jednotném čísle, potom v množném čísle.",
-            "task2": "Tagad atbildi daudzskaitlī.",
+            "task2": "Nyní odpověz v množném čísle.",
             "answer": "Der Knecht spricht mit dem Vetter, mit der Base, mit dem Mädchen.",
             "answer2": "Der Knecht spricht mit den Vettern, mit den Basen, mit den Mädchen."
           },
           {
             "prompt": "Womit arbeitet der Knecht? (der Spaten, dieses Beil, jene Säge)",
             "task": "Odpověz nejprve v jednotném čísle, potom v množném čísle.",
-            "task2": "Tagad atbildi daudzskaitlī.",
+            "task2": "Nyní odpověz v množném čísle.",
             "answer": "Der Knecht arbeitet mit dem Spaten, mit diesem Beil, mit jener Säge.",
             "answer2": "Der Knecht arbeitet mit den Spaten, mit diesen Beilen, mit jenen Sägen."
           },
           {
             "prompt": "Wem hilft der Knecht? (dieser Tischler, jene Frau, das Fräulein)",
             "task": "Odpověz nejprve v jednotném čísle, potom v množném čísle.",
-            "task2": "Tagad atbildi daudzskaitlī.",
+            "task2": "Nyní odpověz v množném čísle.",
             "answer": "Der Knecht hilft diesem Tischler, jener Frau, dem Fräulein.",
             "answer2": "Der Knecht hilft diesen Tischlern, jenen Frauen, den Fräulein."
           }
@@ -3412,49 +3412,49 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Darbības vārdi ar wohin?",
+            "heading": "Slovesa s wohin?",
             "text": "Tato slovesa často vyjadřují směr, a proto odpovídají na otázku wohin?.",
             "examples": [
               "gehen — iet",
-              "kommen — nākt",
+              "kommen — přijít",
               "fahren — braukt",
               "laufen — skriet",
               "fliegen — lidot",
-              "springen — lēkt",
-              "kriechen — rāpot",
-              "schleichen — līst",
-              "hängen — kārt",
-              "sich setzen — apsēsties",
-              "sich stellen — nostāties",
+              "springen — skákat",
+              "kriechen — lézt",
+              "schleichen — plížit se",
+              "hängen — pověsit",
+              "sich setzen — posadit se",
+              "sich stellen — postavit se",
               "werfen — mest",
-              "reiten — jāt"
+              "reiten — jet na koni"
             ]
           },
           {
-            "heading": "Darbības vārdi ar wo?",
+            "heading": "Slovesa s wo?",
             "text": "Tato slovesa často vyjadřují místo nebo polohu, a proto odpovídají na otázku wo?.",
             "examples": [
-              "sein — būt",
+              "sein — být",
               "sich befinden — atrasties",
-              "arbeiten — strādāt",
-              "liegen — gulēt / atrasties guļus",
-              "sitzen — sēdēt",
-              "hängen — karāties",
+              "arbeiten — pracovat",
+              "liegen — ležet / nacházet se vleže",
+              "sitzen — sedět",
+              "hängen — viset",
               "finden — atrast",
-              "suchen — meklēt",
-              "spielen — spēlēt"
+              "suchen — hledat",
+              "spielen — hrát"
             ]
           },
           {
-            "heading": "Vielu vārdi",
+            "heading": "Názvy látek",
             "text": "Názvy látek se obvykle používají bez členu.",
             "examples": [
               "Ich trinke Milch. — Es dzeru pienu.",
-              "In dem Eimer ist Wasser. — Spainī ir ūdens."
+              "In dem Eimer ist Wasser. — V kbelíku je voda."
             ]
           },
           {
-            "heading": "Konkrēta viela",
+            "heading": "Konkrétní látka",
             "text": "Pokud se mluví o určitém množství látky nebo o látce na konkrétním místě, používá se člen.",
             "examples": [
               "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
@@ -3464,12 +3464,12 @@ const COURSE_LESSON_DATA = {
             "heading": "in + vieta",
             "text": "Pokud předložka in nevyjadřuje směr dovnitř, ale místo, překládá se do češtiny zpravidla předložkou „v“.",
             "examples": [
-              "in dem Eimer — spainī",
-              "in dem Zimmer — istabā"
+              "in dem Eimer — v kbelíku",
+              "in dem Zimmer — v pokoji"
             ]
           },
           {
-            "heading": "Mūsdienu formas",
+            "heading": "Současné tvary",
             "text": "Starší tvary, například dem Tische, dem Kruge, im Walde, se dnes běžně používají v kratší podobě: dem Tisch, dem Krug, im Wald."
           }
         ]
@@ -3477,8 +3477,8 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Výslovnost",
         "items": [
-          "Vārdā wohin h ir dzirdams: wo-hin.",
-          "Vārdā wo o ir garš: wo."
+          "Ve slově wohin je h slyšitelné: wo-hin.",
+          "Ve slově wo je o dlouhé: wo."
         ]
       },
       {
@@ -3716,12 +3716,12 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Prievārdi",
+            "heading": "Předložky",
             "examples": [
-              "vor — priekšā",
+              "vor — před",
               "hinter — aiz",
               "unter — zem",
-              "über — virs / pāri",
+              "über — nad / přes",
               "neben — blakus",
               "zwischen — starp"
             ]
@@ -3771,11 +3771,11 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Výslovnost",
         "items": [
-          "Vārdā vor o izrunā gari.",
-          "Vārdā hinter h ir dzirdams, un e ir plats.",
-          "Vārdā der Stuhl: st izrunā kā št; h ir garuma zīme un netiek izrunāts.",
-          "Vārdā der Strauch: st izrunā kā št.",
-          "Vārdā wachsen: ch izrunā kā k."
+          "Ve slově vor se o vyslovuje dlouze.",
+          "Ve slově hinter je h slyšitelné a e je otevřené.",
+          "Ve slově der Stuhl se st vyslovuje jako št; h označuje délku a nevyslovuje se.",
+          "Ve slově der Strauch se st vyslovuje jako št.",
+          "Ve slově wachsen se ch vyslovuje jako k."
         ]
       },
       {
@@ -3912,15 +3912,15 @@ const COURSE_LESSON_DATA = {
             "heading": "Dativs ar wann?",
             "text": "Předložky, které v 19. a 20. lekci odpovídají na otázku wann? — kdy?, se pojí s dativem. Dativ odpovídá nejen na wo? — kde?, ale také na wann? — kdy?.",
             "examples": [
-              "an dem Tage / am Tage — dienā",
-              "in der Nacht — naktī",
-              "in dem Sommer / im Sommer — vasarā",
-              "in dem Januar / im Januar — janvārī",
-              "vor drei Tagen — pirms trīs dienām"
+              "an dem Tage / am Tage — ve dne",
+              "in der Nacht — v noci",
+              "in dem Sommer / im Sommer — v létě",
+              "in dem Januar / im Januar — v lednu",
+              "vor drei Tagen — před třemi dny"
             ]
           },
           {
-            "heading": "Prievārds + artikuls",
+            "heading": "Předložka + člen",
             "text": "Mnoho předložek se spojuje se členem.",
             "examples": [
               "an das Fenster → ans Fenster",
@@ -3942,7 +3942,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Saliktie lietvārdi",
+            "heading": "Složená podstatná jména",
             "text": "Složená podstatná jména obvykle přebírají člen posledního podstatného jména.",
             "examples": [
               "der Stock + das Werk = das Stockwerk",
@@ -3951,7 +3951,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Salikto lietvārdu veidošana",
+            "heading": "Tvoření složených podstatných jmen",
             "examples": [
               "jung + die Frau = die Jungfrau",
               "groß + die Mutter = die Großmutter",
@@ -3973,13 +3973,13 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Výslovnost",
         "items": [
-          "Vārdos Stockwerk, Stein, Stadt, stecken: st izrunā kā št.",
-          "Vārdos der Ofen, der Boden: o ir garš.",
-          "sch izrunā kā š: der Schornstein, der Mensch.",
-          "Vārdos das Haus, das Holz: h ir dzirdams un jāizrunā.",
-          "Vārdos die Wohnung, wohnen: h ir garuma zīme, to neizrunā.",
-          "Vārdos die Küche, die Dächer: ch izrunā kā “h” tipa skaņu, kā vācu ich-hláska [ç], která v češtině nemá přesný ekvivalent.",
-          "Vārdā das Vorhaus: v izrunā kā f."
+          "Ve slovech Stockwerk, Stein, Stadt, stecken se st vyslovuje jako št.",
+          "Ve slovech der Ofen, der Boden je o dlouhé.",
+          "sch se vyslovuje jako š: der Schornstein, der Mensch.",
+          "Ve slovech das Haus, das Holz je h slyšitelné a vyslovuje se.",
+          "Ve slovech die Wohnung, wohnen označuje h délku a nevyslovuje se.",
+          "Ve slovech die Küche, die Dächer se ch vyslovuje jako německá hláska ich-Laut [ç], která v češtině nemá přesný ekvivalent.",
+          "Ve slově das Vorhaus se v vyslovuje jako f."
         ]
       },
       {
@@ -4256,7 +4256,7 @@ const COURSE_LESSON_DATA = {
               "mit — ar",
               "von — no",
               "aus — no / iz",
-              "mit dem Mann — ar vīru",
+              "mit dem Mann — s mužem",
               "von dem Felde / vom Felde — no lauka",
               "aus der Küche — no virtuves"
             ]
@@ -4267,7 +4267,7 @@ const COURSE_LESSON_DATA = {
             "examples": [
               "von dem Felde = vom Felde",
               "von dem Berge = vom Berge",
-              "Mūsdienu forma: vom Feld, vom Berg."
+              "Současná forma: vom Feld, vom Berg."
             ]
           },
           {
@@ -4295,7 +4295,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Materiāls",
+            "heading": "Materiál",
             "text": "Když mluvíme o materiálu, ze kterého je předmět vyroben, používá se aus.",
             "examples": [
               "Die Türen sind aus Holz.",
@@ -4309,10 +4309,10 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Výslovnost",
         "items": [
-          "Vārdā die Axt: x izrunā kā ks.",
-          "Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai.",
-          "Vārdā die Scheune: eu izrunā kā oi.",
-          "Vārdā die Brücke: ck izrunā kā dubultu k."
+          "Ve slově die Axt se x vyslovuje jako ks.",
+          "Ve slovech arbeiten, das Beil, steigen se ei vyslovuje jako ai.",
+          "Ve slově die Scheune se eu vyslovuje jako oi.",
+          "Ve slově die Brücke se ck vyslovuje jako dvojité k."
         ]
       },
       {

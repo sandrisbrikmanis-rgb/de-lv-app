@@ -1,0 +1,1255 @@
+{
+  "generatedAt": "2026-08-16T08:55:29.351Z",
+  "ownerMappingsTotal": 168,
+  "uniqueTargets": 155,
+  "skipped": [],
+  "apply": [
+    {
+      "findingNum": 63,
+      "ownerPath": "kurssLesson8.sections[1].items[12]",
+      "normalizedPath": "kurssLesson8.sections[1].items[12]",
+      "current": "fragen (ar akuzatīvu) — ptát se",
+      "ownerNew": "fragen (s akuzativem) — ptát se",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 64,
+      "ownerPath": "kurssLesson8.sections[2].items[1]",
+      "normalizedPath": "kurssLesson8.sections[2].items[1]",
+      "current": "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
+      "ownerNew": "ä se také vyslovuje jako otevřené e, například ve slově der Gärtner (dēr gertner).",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 65,
+      "ownerPath": "kurssLesson8.sections[2].items[4]",
+      "normalizedPath": "kurssLesson8.sections[2].items[4]",
+      "current": "ß izrunā kā s: grüßen (grüsen).",
+      "ownerNew": "ß se vyslovuje jako s: grüßen (grüsen).",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 66,
+      "ownerPath": "kurssLesson8.sections[2].items[5]",
+      "normalizedPath": "kurssLesson8.sections[2].items[5]",
+      "current": "eu izrunā kā oi: deutlich (doitlich).",
+      "ownerNew": "eu se vyslovuje jako oi: deutlich (doitlich).",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 67,
+      "ownerPath": "kurssLesson8.sections[3].items[0]",
+      "normalizedPath": "kurssLesson8.sections[3].items[0]",
+      "current": "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
+      "ownerNew": "U mnoha sloves se samohláskou e v kmeni se ve 2. a 3. osobě jednotného čísla přítomného času mění e na i nebo ie.",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 68,
+      "ownerPath": "kurssLesson8.sections[3].items[7]",
+      "normalizedPath": "kurssLesson8.sections[3].items[7]",
+      "current": "Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+      "ownerNew": "U těchto sloves je také v rozkazovacím způsobu jednotného čísla v kmeni místo e samohláska i nebo ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 69,
+      "ownerPath": "kurssLesson8.sections[3].items[8]",
+      "normalizedPath": "kurssLesson8.sections[3].items[8]",
+      "current": "Latviešu valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. Vācu valodā sevišķas konjugācijas nav. Tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.",
+      "ownerNew": "V češtině se zvratná slovesa tvoří pomocí zvratného zájmena. V němčině nemají zvláštní časování. Časují se stejně jako ostatní slovesa a přidává se zvratné zájmeno sich.",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 70,
+      "ownerPath": "kurssLesson8.sections[3].items[10]",
+      "normalizedPath": "kurssLesson8.sections[3].items[10]",
+      "current": "Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie sich!",
+      "ownerNew": "Rozkazovací způsob: setz(e) dich!, setzt euch!, setzen Sie sich!",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 71,
+      "ownerPath": "kurssLesson9.sections[1].items[10]",
+      "normalizedPath": "kurssLesson9.sections[1].items[10]",
+      "current": "ruhig (rū-klidně",
+      "ownerNew": "ruhig (rū-ich) — klidně",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 72,
+      "ownerPath": "kurssLesson9.sections[2].items[0].heading",
+      "normalizedPath": "kurssLesson9.sections[2].items[0].heading",
+      "current": "Norādāmie vietniekvārdi",
+      "ownerNew": "Ukazovací zájmena",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 73,
+      "ownerPath": "kurssLesson10.sections[2].items[0]",
+      "normalizedPath": "kurssLesson10.sections[2].items[0]",
+      "current": "Pareizi jāizrunā patskaņu pārkaņojumi.",
+      "ownerNew": "Přehlásky samohlásek je třeba správně vyslovovat.",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 74,
+      "ownerPath": "kurssLesson10.sections[2].items[1]",
+      "normalizedPath": "kurssLesson10.sections[2].items[1]",
+      "current": "ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der Löffel.",
+      "ownerNew": "ö se vyslovuje se zaokrouhlenými rty přibližně jako e: wir können, ihr könnt, sie können, der Löffel.",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 75,
+      "ownerPath": "kurssLesson10.sections[2].items[2]",
+      "normalizedPath": "kurssLesson10.sections[2].items[2]",
+      "current": "ü izrunā ar apaļotām lūpām kā i: Müller (müller), Bücher (bücher).",
+      "ownerNew": "ü se vyslovuje se zaokrouhlenými rty přibližně jako i: Müller (müller), Bücher (bücher).",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 76,
+      "ownerPath": "kurssLesson10.sections[2].items[3]",
+      "normalizedPath": "kurssLesson10.sections[2].items[3]",
+      "current": "Patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem.",
+      "ownerNew": "Délka samohlásky závisí na následujících souhláskách.",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 77,
+      "ownerPath": "kurssLesson10.sections[2].items[5]",
+      "normalizedPath": "kurssLesson10.sections[2].items[5]",
+      "current": "Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir können, der Löffel, der Müller.",
+      "ownerNew": "Pokud po samohlásce následují dvě nebo více souhlásek, vyslovuje se samohláska krátce: wir können, der Löffel, der Müller.",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 78,
+      "ownerPath": "kurssLesson10.sections[2].items[6]",
+      "normalizedPath": "kurssLesson10.sections[2].items[6]",
+      "current": "Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nominatīvs, fotogrāfs.",
+      "ownerNew": "Německé o se vyslovuje jinak než české o v některých přejatých slovech. Příklady: Fonds, Nominativ, Fotograf.",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 79,
+      "ownerPath": "kurssLesson10.sections[2].items[7]",
+      "normalizedPath": "kurssLesson10.sections[2].items[7]",
+      "current": "Pareizi izrunā: der Großvater (dēr grōsfāter).",
+      "ownerNew": "Správně vyslovuj: der Großvater (dēr grōsfāter).",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 80,
+      "ownerPath": "kurssLesson10.sections[2].items[8]",
+      "normalizedPath": "kurssLesson10.sections[2].items[8]",
+      "current": "Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).",
+      "ownerNew": "Dvojhláska ei se vyslovuje jako ai: seid (zait), fleißig (flaišich).",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 81,
+      "ownerPath": "kurssLesson10.sections[2].items[9]",
+      "normalizedPath": "kurssLesson10.sections[2].items[9]",
+      "current": "Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celma ē ir garš un šaurs, galotnes e ir īss un plats.",
+      "ownerNew": "Německé e může být zavřené nebo otevřené: der Lehrer (dēr lērer). Kmenové e je dlouhé a zavřené, koncové e je krátké a otevřené.",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 82,
+      "ownerPath": "kurssLesson11.sections[2].items[0]",
+      "normalizedPath": "kurssLesson11.sections[2].items[0]",
+      "current": "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
+      "ownerNew": "eu se vyslovuje jako oi: der Freund (dēr froint), neun (noin).",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 83,
+      "ownerPath": "kurssLesson11.sections[2].items[2]",
+      "normalizedPath": "kurssLesson11.sections[2].items[2]",
+      "current": "z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer).",
+      "ownerNew": "z se vyslovuje jako české c: Franz (franc), das Zimmer (cimer).",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 84,
+      "ownerPath": "kurssLesson11.sections[3].items[1].table[2][1]",
+      "normalizedPath": "kurssLesson11.sections[3].items[1].table[2][1]",
+      "current": "viņam/viņai/tam ir",
+      "ownerNew": "on/ona/ono má",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 85,
+      "ownerPath": "kurssLesson11.sections[3].items[1].table[5][1]",
+      "normalizedPath": "kurssLesson11.sections[3].items[1].table[5][1]",
+      "current": "viņiem ir",
+      "ownerNew": "oni/ony mají",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 86,
+      "ownerPath": "kurssLesson11.sections[3].items[2].heading",
+      "normalizedPath": "kurssLesson11.sections[3].items[2].heading",
+      "current": "Latviešu datīvs un vācu nominatīvs/akuzatīvs",
+      "ownerNew": "Český dativ a německý nominativ/akuzativ",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 87,
+      "ownerPath": "kurssLesson11.sections[3].items[3].heading",
+      "normalizedPath": "kurssLesson11.sections[3].items[3].heading",
+      "current": "Piemēri",
+      "ownerNew": "Příklady",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 88,
+      "ownerPath": "kurssLesson11.sections[3].items[4].heading",
+      "normalizedPath": "kurssLesson11.sections[3].items[4].heading",
+      "current": "Salīdzinājums ar citām valodām",
+      "ownerNew": "Srovnání s jinými jazyky",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 89,
+      "ownerPath": "kurssLesson11.sections[3].items[4].examples[1]",
+      "normalizedPath": "kurssLesson11.sections[3].items[4].examples[1]",
+      "current": "angļu: I have a book; the father has a pencil.",
+      "ownerNew": "anglicky: I have a book; the father has a pencil.",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 90,
+      "ownerPath": "kurssLesson11.sections[3].items[6].heading",
+      "normalizedPath": "kurssLesson11.sections[3].items[6].heading",
+      "current": "Imperativ — piemēri",
+      "ownerNew": "Imperativ — příklady",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 91,
+      "ownerPath": "kurssLesson11.sections[3].items[6].examples[0]",
+      "normalizedPath": "kurssLesson11.sections[3].items[6].examples[0]",
+      "current": "habe Geduld! — pacietību! / lai tev ir pacietība!",
+      "ownerNew": "habe Geduld! — měj trpělivost! / buď trpělivý!",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 92,
+      "ownerPath": "kurssLesson11.sections[3].items[6].examples[1]",
+      "normalizedPath": "kurssLesson11.sections[3].items[6].examples[1]",
+      "current": "habt Geduld! — lai jums ir pacietība!",
+      "ownerNew": "habt Geduld! — mějte trpělivost! / buďte trpěliví!",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 93,
+      "ownerPath": "kurssLesson11.sections[3].items[10].heading",
+      "normalizedPath": "kurssLesson11.sections[3].items[10].heading",
+      "current": "Vārdu kārtība ar denn",
+      "ownerNew": "Slovosled s denn",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 94,
+      "ownerPath": "kurssLesson11.sections[3].items[11].heading",
+      "normalizedPath": "kurssLesson11.sections[3].items[11].heading",
+      "current": "Denn — piemēri",
+      "ownerNew": "Denn — příklady",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 95,
+      "ownerPath": "kurssLesson11.sections[3].items[12].heading",
+      "normalizedPath": "kurssLesson11.sections[3].items[12].heading",
+      "current": "Saliktie lietvārdi",
+      "ownerNew": "Složená podstatná jména",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 96,
+      "ownerPath": "kurssLesson11.sections[3].items[13].heading",
+      "normalizedPath": "kurssLesson11.sections[3].items[13].heading",
+      "current": "Saliktie lietvārdi — piemēri",
+      "ownerNew": "Složená podstatná jména — příklady",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 97,
+      "ownerPath": "kurssLesson12.sections[2].items[0]",
+      "normalizedPath": "kurssLesson12.sections[2].items[0]",
+      "current": "x izrunā kā ks: Max (maks), Felix (feliks).",
+      "ownerNew": "x se vyslovuje jako ks: Max (maks), Felix (feliks).",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 98,
+      "ownerPath": "kurssLesson12.sections[2].items[1]",
+      "normalizedPath": "kurssLesson12.sections[2].items[1]",
+      "current": "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
+      "ownerNew": "Ve slovech Schwester a am jüngsten se st vyslovuje jako běžné české st: Schwester (švester), jüngsten (jünksten).",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 99,
+      "ownerPath": "kurssLesson12.sections[2].items[2]",
+      "normalizedPath": "kurssLesson12.sections[2].items[2]",
+      "current": "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — Ve slově der Federhalter se h vyslovuje jako hláska, zatímco ve slově der Sohn označuje délku předcházející samohlásky.",
+      "ownerNew": "Ve slově der Federhalter se h vyslovuje jako hláska, zatímco ve slově der Sohn pouze označuje délku předcházející samohlásky.",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 100,
+      "ownerPath": "kurssLesson12.sections[3].items[1].heading",
+      "normalizedPath": "kurssLesson12.sections[3].items[1].heading",
+      "current": "Umlaut pārākajā pakāpē",
+      "ownerNew": "Přehláska ve 3. stupni",
+      "sourceFile": "cs-kurss-owner-decisions-group02.md"
+    },
+    {
+      "findingNum": 101,
+      "ownerPath": "kurssLesson12.sections[3].items[2].heading",
+      "normalizedPath": "kurssLesson12.sections[3].items[2].heading",
+      "current": "Salīdzināšana ar wie un als",
+      "ownerNew": "Srovnávání pomocí wie a als",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 102,
+      "ownerPath": "kurssLesson12.sections[3].items[4].heading",
+      "normalizedPath": "kurssLesson12.sections[3].items[4].heading",
+      "current": "Neregulārās salīdzināmās pakāpes",
+      "ownerNew": "Nepravidelné stupňování",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 103,
+      "ownerPath": "kurssLesson13.sections[2].items[0].heading",
+      "normalizedPath": "kurssLesson13.sections[2].items[0].heading",
+      "current": "Umlaut tagadnē",
+      "ownerNew": "Přehláska v přítomném čase",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 104,
+      "ownerPath": "kurssLesson13.sections[2].items[1].heading",
+      "normalizedPath": "kurssLesson13.sections[2].items[1].heading",
+      "current": "Atgriezeniskais darbības vārds",
+      "ownerNew": "Zvratné sloveso",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 105,
+      "ownerPath": "kurssLesson13.sections[2].items[2].heading",
+      "normalizedPath": "kurssLesson13.sections[2].items[2].heading",
+      "current": "Pavēles forma ar sich umkehren",
+      "ownerNew": "Rozkazovací způsob se sich umkehren",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 106,
+      "ownerPath": "kurssLesson13.sections[2].items[3].heading",
+      "normalizedPath": "kurssLesson13.sections[2].items[3].heading",
+      "current": "Darbības vārds atmen",
+      "ownerNew": "Sloveso atmen",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 107,
+      "ownerPath": "kurssLesson13.sections[2].items[4].heading",
+      "normalizedPath": "kurssLesson13.sections[2].items[4].heading",
+      "current": "Pavēles forma ar atmen",
+      "ownerNew": "Rozkazovací způsob s atmen",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 108,
+      "ownerPath": "kurssLesson13.sections[2].items[5].heading",
+      "normalizedPath": "kurssLesson13.sections[2].items[5].heading",
+      "current": "Saliktie darbības vārdi",
+      "ownerNew": "Složená slovesa",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 109,
+      "ownerPath": "kurssLesson13.sections[2].items[6].heading",
+      "normalizedPath": "kurssLesson13.sections[2].items[6].heading",
+      "current": "Neatdalāmie priedēkļi",
+      "ownerNew": "Neodlučitelné předpony",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 110,
+      "ownerPath": "kurssLesson13.sections[2].items[7].heading",
+      "normalizedPath": "kurssLesson13.sections[2].items[7].heading",
+      "current": "Vietniekvārds jeder",
+      "ownerNew": "Zájmeno jeder",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 111,
+      "ownerPath": "kurssLesson13.sections[2].items[7].table[0][1]",
+      "normalizedPath": "kurssLesson13.sections[2].items[7].table[0][1]",
+      "current": "Vīriešu",
+      "ownerNew": "Mužský",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 112,
+      "ownerPath": "kurssLesson13.sections[2].items[7].table[0][3]",
+      "normalizedPath": "kurssLesson13.sections[2].items[7].table[0][3]",
+      "current": "Vidējā",
+      "ownerNew": "Střední",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 113,
+      "ownerPath": "kurssLesson13.sections[2].items[7].table[1][0]",
+      "normalizedPath": "kurssLesson13.sections[2].items[7].table[1][0]",
+      "current": "Nominatīvs",
+      "ownerNew": "Nominativ",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 114,
+      "ownerPath": "kurssLesson13.sections[2].items[7].table[2][0]",
+      "normalizedPath": "kurssLesson13.sections[2].items[7].table[2][0]",
+      "current": "Akuzatīvs",
+      "ownerNew": "Akuzativ",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 115,
+      "ownerPath": "kurssLesson13.sections[3].items[0]",
+      "normalizedPath": "kurssLesson13.sections[3].items[0]",
+      "current": "h vārdā halten ir dzirdama skaņa.",
+      "ownerNew": "Ve slově halten je h slyšitelné.",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 116,
+      "ownerPath": "kurssLesson13.sections[3].items[1]",
+      "normalizedPath": "kurssLesson13.sections[3].items[1]",
+      "current": "h vārdā fahren rāda patskaņa garumu.",
+      "ownerNew": "Ve slově fahren h označuje délku samohlásky.",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 117,
+      "ownerPath": "kurssLesson13.sections[3].items[2]",
+      "normalizedPath": "kurssLesson13.sections[3].items[2]",
+      "current": "a vārdā halten izrunā īsi: halten.",
+      "ownerNew": "Ve slově halten se a vyslovuje krátce: halten.",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 118,
+      "ownerPath": "kurssLesson13.sections[3].items[3]",
+      "normalizedPath": "kurssLesson13.sections[3].items[3]",
+      "current": "a vārdā tragen izrunā gari: tragen.",
+      "ownerNew": "Ve slově tragen se a vyslovuje dlouze: tragen.",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 119,
+      "ownerPath": "kurssLesson13.sections[3].items[4]",
+      "normalizedPath": "kurssLesson13.sections[3].items[4]",
+      "current": "äu izrunā kā oi: du läufst, er läuft.",
+      "ownerNew": "äu se vyslovuje jako oi: du läufst, er läuft.",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 120,
+      "ownerPath": "kurssLesson13.sections[3].items[5]",
+      "normalizedPath": "kurssLesson13.sections[3].items[5]",
+      "current": "pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt.",
+      "ownerNew": "Ve slově Kopf se pf vyslovuje tak, že jsou slyšet obě souhlásky.",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 121,
+      "ownerPath": "kurssLesson14.sections[2].items[0].heading",
+      "normalizedPath": "kurssLesson14.sections[2].items[0].heading",
+      "current": "Modālie darbības vārdi",
+      "ownerNew": "Modální slovesa",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 122,
+      "ownerPath": "kurssLesson14.sections[2].items[1].heading",
+      "normalizedPath": "kurssLesson14.sections[2].items[1].heading",
+      "current": "1. un 3. persona vienskaitlī",
+      "ownerNew": "1. a 3. osoba jednotného čísla",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 123,
+      "ownerPath": "kurssLesson14.sections[2].items[5].heading",
+      "normalizedPath": "kurssLesson14.sections[2].items[5].heading",
+      "current": "Celma patskaņu maiņa",
+      "ownerNew": "Změna kmenové samohlásky",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 124,
+      "ownerPath": "kurssLesson14.sections[2].items[9].heading",
+      "normalizedPath": "kurssLesson14.sections[2].items[9].heading",
+      "current": "Svarīgi",
+      "ownerNew": "Důležité",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 125,
+      "ownerPath": "kurssLesson14.sections[3].items[0]",
+      "normalizedPath": "kurssLesson14.sections[3].items[0]",
+      "current": "ß izrunā kā latviešu s.",
+      "ownerNew": "ß se vyslovuje jako české s.",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 126,
+      "ownerPath": "kurssLesson14.sections[3].items[1]",
+      "normalizedPath": "kurssLesson14.sections[3].items[1]",
+      "current": "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
+      "ownerNew": "ß se píše uprostřed nebo na konci slova po dlouhé samohlásce nebo dvojhlásce: die Füße, die Straße. Po krátké samohlásce se píše ss: ich muss, er muss.",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 127,
+      "ownerPath": "kurssLesson14.sections[3].items[2]",
+      "normalizedPath": "kurssLesson14.sections[3].items[2]",
+      "current": "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
+      "ownerNew": "V těchto tvarech zůstává ss: müssen, ich muss, du musst, ihr müsst.",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 128,
+      "ownerPath": "kurssLesson14.sections[3].items[3]",
+      "normalizedPath": "kurssLesson14.sections[3].items[3]",
+      "current": "ö vārdā mögen izrunā kā skaidru ö skaņu.",
+      "ownerNew": "ö ve slově mögen se vyslovuje jako zřetelná hláska ö.",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 129,
+      "ownerPath": "kurssLesson14.sections[3].items[4]",
+      "normalizedPath": "kurssLesson14.sections[3].items[4]",
+      "current": "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
+      "ownerNew": "Před s nebo t se g může ve výslovnosti přiblížit k: du magst, ihr mögt.",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 130,
+      "ownerPath": "kurssLesson14.sections[3].items[5]",
+      "normalizedPath": "kurssLesson14.sections[3].items[5]",
+      "current": "Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai.",
+      "ownerNew": "V češtině se podobné spodoby znělosti vyskytují také u souhlásek na hranicích hlásek.",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 131,
+      "ownerPath": "kurssLesson15.sections[2].items[1].heading",
+      "normalizedPath": "kurssLesson15.sections[2].items[1].heading",
+      "current": "Salīdzinājums",
+      "ownerNew": "Srovnání",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 132,
+      "ownerPath": "kurssLesson15.sections[2].items[1].examples[0]",
+      "normalizedPath": "kurssLesson15.sections[2].items[1].examples[0]",
+      "current": "müssen — vajadzēt aiz nepieciešamības vai pārliecības",
+      "ownerNew": "müssen — muset z nutnosti nebo přesvědčení",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 133,
+      "ownerPath": "kurssLesson15.sections[2].items[1].examples[1]",
+      "normalizedPath": "kurssLesson15.sections[2].items[1].examples[1]",
+      "current": "sollen — vajadzēt pienākuma nozīmē",
+      "ownerNew": "sollen — mít povinnost / mít něco udělat",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 134,
+      "ownerPath": "kurssLesson15.sections[2].items[5].heading",
+      "normalizedPath": "kurssLesson15.sections[2].items[5].heading",
+      "current": "Mūsdienu rakstība",
+      "ownerNew": "Současný pravopis",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 135,
+      "ownerPath": "kurssLesson15.sections[3].items[0]",
+      "normalizedPath": "kurssLesson15.sections[3].items[0]",
+      "current": "ä vārdos Äpfel un schälen izrunā kā šauro e.",
+      "ownerNew": "ä ve slovech Äpfel a schälen se vyslovuje jako zavřené e.",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 136,
+      "ownerPath": "kurssLesson15.sections[3].items[1]",
+      "normalizedPath": "kurssLesson15.sections[3].items[1]",
+      "current": "Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.",
+      "ownerNew": "Ve slově Äpfel se ä vyslovuje krátce, protože po samohlásce následují dvě souhlásky.",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 137,
+      "ownerPath": "kurssLesson15.sections[3].items[2]",
+      "normalizedPath": "kurssLesson15.sections[3].items[2]",
+      "current": "Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.",
+      "ownerNew": "Ve slově schälen se ä vyslovuje dlouze, protože po samohlásce následuje jedna souhláska.",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 138,
+      "ownerPath": "kurssLesson15.sections[3].items[3]",
+      "normalizedPath": "kurssLesson15.sections[3].items[3]",
+      "current": "Vārdā gern e ir īss un plats.",
+      "ownerNew": "Ve slově gern je e krátké a otevřené.",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 139,
+      "ownerPath": "kurssLesson15.sections[3].items[4]",
+      "normalizedPath": "kurssLesson15.sections[3].items[4]",
+      "current": "Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif.",
+      "ownerNew": "Pamatuj: německá dvojhláska ei se vyslovuje jako ai: reif, unreif.",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 140,
+      "ownerPath": "kurssLesson16.sections[2].items[1].table[0][1]",
+      "normalizedPath": "kurssLesson16.sections[2].items[1].table[0][1]",
+      "current": "Vīriešu",
+      "ownerNew": "Mužský",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 141,
+      "ownerPath": "kurssLesson16.sections[2].items[1].table[0][3]",
+      "normalizedPath": "kurssLesson16.sections[2].items[1].table[0][3]",
+      "current": "Vidējā",
+      "ownerNew": "Střední",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 142,
+      "ownerPath": "kurssLesson16.sections[2].items[2].table[0][1]",
+      "normalizedPath": "kurssLesson16.sections[2].items[2].table[0][1]",
+      "current": "Vīriešu",
+      "ownerNew": "Mužský",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 143,
+      "ownerPath": "kurssLesson16.sections[2].items[2].table[0][3]",
+      "normalizedPath": "kurssLesson16.sections[2].items[2].table[0][3]",
+      "current": "Vidējā",
+      "ownerNew": "Střední",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 144,
+      "ownerPath": "kurssLesson16.sections[2].items[3].heading",
+      "normalizedPath": "kurssLesson16.sections[2].items[3].heading",
+      "current": "Datīva -e",
+      "ownerNew": "Dativní -e",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 145,
+      "ownerPath": "kurssLesson16.sections[2].items[5].heading",
+      "normalizedPath": "kurssLesson16.sections[2].items[5].heading",
+      "current": "Nenoteiktais artikuls datīvā",
+      "ownerNew": "Neurčitý člen v dativu",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 146,
+      "ownerPath": "kurssLesson16.sections[2].items[6].heading",
+      "normalizedPath": "kurssLesson16.sections[2].items[6].heading",
+      "current": "Daudzskaitļa datīvs",
+      "ownerNew": "Dativ množného čísla",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 147,
+      "ownerPath": "kurssLesson16.sections[3].items[0]",
+      "normalizedPath": "kurssLesson16.sections[3].items[0]",
+      "current": "Vārdos wem, dem, den, der — Ve slovech wem, dem, den a der je e dlouhé a vyslovuje se přibližně jako české é.",
+      "ownerNew": "Ve slovech wem, dem, den a der je e dlouhé a vyslovuje se přibližně jako české é.",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 148,
+      "ownerPath": "kurssLesson16.sections[3].items[1]",
+      "normalizedPath": "kurssLesson16.sections[3].items[1]",
+      "current": "Vārdā gehorchen h ir dzirdams: ge-chen.",
+      "ownerNew": "Ve slově gehorchen je h slyšitelné: ge-hor-chen.",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 149,
+      "ownerPath": "kurssLesson17.sections[2].items[1].examples[0]",
+      "normalizedPath": "kurssLesson17.sections[2].items[1].examples[0]",
+      "current": "Mit wem spricht der Bruder? — Ar ko runā brālis?",
+      "ownerNew": "Mit wem spricht der Bruder? — S kým mluví bratr?",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 150,
+      "ownerPath": "kurssLesson17.sections[2].items[1].examples[1]",
+      "normalizedPath": "kurssLesson17.sections[2].items[1].examples[1]",
+      "current": "Womit gräbt der Knabe die Grube? — Ar ko zēns rok bedri?",
+      "ownerNew": "Womit gräbt der Knabe die Grube? — Čím chlapec kope jámu?",
+      "sourceFile": "cs-kurss-owner-decisions-group03.md"
+    },
+    {
+      "findingNum": 151,
+      "ownerPath": "kurssLesson17.sections[2].items[5].heading",
+      "normalizedPath": "kurssLesson17.sections[2].items[5].heading",
+      "current": "Atdalāmie priedēkļi",
+      "ownerNew": "Odlučitelné předpony",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 152,
+      "ownerPath": "kurssLesson17.sections[2].items[6].examples[0]",
+      "normalizedPath": "kurssLesson17.sections[2].items[6].examples[0]",
+      "current": "fegen — slaucīt ar slotu",
+      "ownerNew": "fegen — zametat koštětem",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 153,
+      "ownerPath": "kurssLesson17.sections[2].items[6].examples[2]",
+      "normalizedPath": "kurssLesson17.sections[2].items[6].examples[2]",
+      "current": "wischen / abwischen — slaucīt ar lupatu, drānu, noslaucīt putekļus",
+      "ownerNew": "wischen / abwischen — utírat hadrem, setřít prach",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 154,
+      "ownerPath": "kurssLesson17.sections[3].items[0]",
+      "normalizedPath": "kurssLesson17.sections[3].items[0]",
+      "current": "Vārdā werfen pirmais e ir plats: werfen.",
+      "ownerNew": "Ve slově werfen je první e otevřené: werfen.",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 155,
+      "ownerPath": "kurssLesson17.sections[3].items[1]",
+      "normalizedPath": "kurssLesson17.sections[3].items[1]",
+      "current": "Vārdā wieder e ir plats: wieder.",
+      "ownerNew": "Ve slově wieder je e otevřené: wieder.",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 156,
+      "ownerPath": "kurssLesson17.sections[3].items[2]",
+      "normalizedPath": "kurssLesson17.sections[3].items[2]",
+      "current": "Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Diele.",
+      "ownerNew": "Ve slovech wieder a die Diele označuje ie dlouhé í: wieder, die Diele.",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 157,
+      "ownerPath": "kurssLesson17.sections[3].items[3]",
+      "normalizedPath": "kurssLesson17.sections[3].items[3]",
+      "current": "Vārdā der Spaten sp izrunā kā šp: der Spaten.",
+      "ownerNew": "Ve slově der Spaten se sp vyslovuje jako šp: der Spaten.",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 158,
+      "ownerPath": "kurssLesson17.sections[4].cards[0].task2",
+      "normalizedPath": "kurssLesson17.sections[4].cards[0].task2",
+      "current": "Tagad atbildi daudzskaitlī.",
+      "ownerNew": "Nyní odpověz v množném čísle.",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 159,
+      "ownerPath": "kurssLesson17.sections[4].cards[1].task2",
+      "normalizedPath": "kurssLesson17.sections[4].cards[1].task2",
+      "current": "Tagad atbildi daudzskaitlī.",
+      "ownerNew": "Nyní odpověz v množném čísle.",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 160,
+      "ownerPath": "kurssLesson17.sections[4].cards[2].task2",
+      "normalizedPath": "kurssLesson17.sections[4].cards[2].task2",
+      "current": "Tagad atbildi daudzskaitlī.",
+      "ownerNew": "Nyní odpověz v množném čísle.",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 161,
+      "ownerPath": "kurssLesson17.sections[4].cards[3].task2",
+      "normalizedPath": "kurssLesson17.sections[4].cards[3].task2",
+      "current": "Tagad atbildi daudzskaitlī.",
+      "ownerNew": "Nyní odpověz v množném čísle.",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 162,
+      "ownerPath": "kurssLesson17.sections[4].cards[4].task2",
+      "normalizedPath": "kurssLesson17.sections[4].cards[4].task2",
+      "current": "Tagad atbildi daudzskaitlī.",
+      "ownerNew": "Nyní odpověz v množném čísle.",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 163,
+      "ownerPath": "kurssLesson18.sections[2].items[3].heading",
+      "normalizedPath": "kurssLesson18.sections[2].items[3].heading",
+      "current": "Darbības vārdi ar wohin?",
+      "ownerNew": "Slovesa s wohin?",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 164,
+      "ownerPath": "kurssLesson18.sections[2].items[3].examples[1]",
+      "normalizedPath": "kurssLesson18.sections[2].items[3].examples[1]",
+      "current": "kommen — nākt",
+      "ownerNew": "kommen — přijít",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 165,
+      "ownerPath": "kurssLesson18.sections[2].items[3].examples[5]",
+      "normalizedPath": "kurssLesson18.sections[2].items[3].examples[5]",
+      "current": "springen — lēkt",
+      "ownerNew": "springen — skákat",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 166,
+      "ownerPath": "kurssLesson18.sections[2].items[3].examples[6]",
+      "normalizedPath": "kurssLesson18.sections[2].items[3].examples[6]",
+      "current": "kriechen — rāpot",
+      "ownerNew": "kriechen — lézt",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 167,
+      "ownerPath": "kurssLesson18.sections[2].items[3].examples[7]",
+      "normalizedPath": "kurssLesson18.sections[2].items[3].examples[7]",
+      "current": "schleichen — līst",
+      "ownerNew": "schleichen — plížit se",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 168,
+      "ownerPath": "kurssLesson18.sections[2].items[3].examples[8]",
+      "normalizedPath": "kurssLesson18.sections[2].items[3].examples[8]",
+      "current": "hängen — kārt",
+      "ownerNew": "hängen — pověsit",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 169,
+      "ownerPath": "kurssLesson18.sections[2].items[3].examples[9]",
+      "normalizedPath": "kurssLesson18.sections[2].items[3].examples[9]",
+      "current": "sich setzen — apsēsties",
+      "ownerNew": "sich setzen — posadit se",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 170,
+      "ownerPath": "kurssLesson18.sections[2].items[3].examples[10]",
+      "normalizedPath": "kurssLesson18.sections[2].items[3].examples[10]",
+      "current": "sich stellen — nostāties",
+      "ownerNew": "sich stellen — postavit se",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 171,
+      "ownerPath": "kurssLesson18.sections[2].items[3].examples[12]",
+      "normalizedPath": "kurssLesson18.sections[2].items[3].examples[12]",
+      "current": "reiten — jāt",
+      "ownerNew": "reiten — jet na koni",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 172,
+      "ownerPath": "kurssLesson18.sections[2].items[4].heading",
+      "normalizedPath": "kurssLesson18.sections[2].items[4].heading",
+      "current": "Darbības vārdi ar wo?",
+      "ownerNew": "Slovesa s wo?",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 173,
+      "ownerPath": "kurssLesson18.sections[2].items[4].examples[0]",
+      "normalizedPath": "kurssLesson18.sections[2].items[4].examples[0]",
+      "current": "sein — būt",
+      "ownerNew": "sein — být",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 174,
+      "ownerPath": "kurssLesson18.sections[2].items[4].examples[2]",
+      "normalizedPath": "kurssLesson18.sections[2].items[4].examples[2]",
+      "current": "arbeiten — strādāt",
+      "ownerNew": "arbeiten — pracovat",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 175,
+      "ownerPath": "kurssLesson18.sections[2].items[4].examples[3]",
+      "normalizedPath": "kurssLesson18.sections[2].items[4].examples[3]",
+      "current": "liegen — gulēt / atrasties guļus",
+      "ownerNew": "liegen — ležet / nacházet se vleže",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 176,
+      "ownerPath": "kurssLesson18.sections[2].items[4].examples[4]",
+      "normalizedPath": "kurssLesson18.sections[2].items[4].examples[4]",
+      "current": "sitzen — sēdēt",
+      "ownerNew": "sitzen — sedět",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 177,
+      "ownerPath": "kurssLesson18.sections[2].items[4].examples[5]",
+      "normalizedPath": "kurssLesson18.sections[2].items[4].examples[5]",
+      "current": "hängen — karāties",
+      "ownerNew": "hängen — viset",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 178,
+      "ownerPath": "kurssLesson18.sections[2].items[4].examples[7]",
+      "normalizedPath": "kurssLesson18.sections[2].items[4].examples[7]",
+      "current": "suchen — meklēt",
+      "ownerNew": "suchen — hledat",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 179,
+      "ownerPath": "kurssLesson18.sections[2].items[4].examples[8]",
+      "normalizedPath": "kurssLesson18.sections[2].items[4].examples[8]",
+      "current": "spielen — spēlēt",
+      "ownerNew": "spielen — hrát",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 180,
+      "ownerPath": "kurssLesson18.sections[2].items[5].heading",
+      "normalizedPath": "kurssLesson18.sections[2].items[5].heading",
+      "current": "Vielu vārdi",
+      "ownerNew": "Názvy látek",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 181,
+      "ownerPath": "kurssLesson18.sections[2].items[5].examples[1]",
+      "normalizedPath": "kurssLesson18.sections[2].items[5].examples[1]",
+      "current": "In dem Eimer ist Wasser. — Spainī ir ūdens.",
+      "ownerNew": "In dem Eimer ist Wasser. — V kbelíku je voda.",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 182,
+      "ownerPath": "kurssLesson18.sections[2].items[6].heading",
+      "normalizedPath": "kurssLesson18.sections[2].items[6].heading",
+      "current": "Konkrēta viela",
+      "ownerNew": "Konkrétní látka",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 183,
+      "ownerPath": "kurssLesson18.sections[2].items[7].examples[0]",
+      "normalizedPath": "kurssLesson18.sections[2].items[7].examples[0]",
+      "current": "in dem Eimer — spainī",
+      "ownerNew": "in dem Eimer — v kbelíku",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 184,
+      "ownerPath": "kurssLesson18.sections[2].items[7].examples[1]",
+      "normalizedPath": "kurssLesson18.sections[2].items[7].examples[1]",
+      "current": "in dem Zimmer — istabā",
+      "ownerNew": "in dem Zimmer — v pokoji",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 185,
+      "ownerPath": "kurssLesson18.sections[2].items[8].heading",
+      "normalizedPath": "kurssLesson18.sections[2].items[8].heading",
+      "current": "Mūsdienu formas",
+      "ownerNew": "Současné tvary",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 186,
+      "ownerPath": "kurssLesson18.sections[3].items[0]",
+      "normalizedPath": "kurssLesson18.sections[3].items[0]",
+      "current": "Vārdā wohin h ir dzirdams: wo-hin.",
+      "ownerNew": "Ve slově wohin je h slyšitelné: wo-hin.",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 187,
+      "ownerPath": "kurssLesson18.sections[3].items[1]",
+      "normalizedPath": "kurssLesson18.sections[3].items[1]",
+      "current": "Vārdā wo o ir garš: wo.",
+      "ownerNew": "Ve slově wo je o dlouhé: wo.",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 188,
+      "ownerPath": "kurssLesson19.sections[2].items[3].heading",
+      "normalizedPath": "kurssLesson19.sections[2].items[3].heading",
+      "current": "Prievārdi",
+      "ownerNew": "Předložky",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 189,
+      "ownerPath": "kurssLesson19.sections[2].items[3].examples[0]",
+      "normalizedPath": "kurssLesson19.sections[2].items[3].examples[0]",
+      "current": "vor — priekšā",
+      "ownerNew": "vor — před",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 190,
+      "ownerPath": "kurssLesson19.sections[2].items[3].examples[3]",
+      "normalizedPath": "kurssLesson19.sections[2].items[3].examples[3]",
+      "current": "über — virs / pāri",
+      "ownerNew": "über — nad / přes",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 191,
+      "ownerPath": "kurssLesson19.sections[3].items[0]",
+      "normalizedPath": "kurssLesson19.sections[3].items[0]",
+      "current": "Vārdā vor o izrunā gari.",
+      "ownerNew": "Ve slově vor se o vyslovuje dlouze.",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 192,
+      "ownerPath": "kurssLesson19.sections[3].items[1]",
+      "normalizedPath": "kurssLesson19.sections[3].items[1]",
+      "current": "Vārdā hinter h ir dzirdams, un e ir plats.",
+      "ownerNew": "Ve slově hinter je h slyšitelné a e je otevřené.",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 193,
+      "ownerPath": "kurssLesson19.sections[3].items[2]",
+      "normalizedPath": "kurssLesson19.sections[3].items[2]",
+      "current": "Vārdā der Stuhl: st izrunā kā št; h ir garuma zīme un netiek izrunāts.",
+      "ownerNew": "Ve slově der Stuhl se st vyslovuje jako št; h označuje délku a nevyslovuje se.",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 194,
+      "ownerPath": "kurssLesson19.sections[3].items[3]",
+      "normalizedPath": "kurssLesson19.sections[3].items[3]",
+      "current": "Vārdā der Strauch: st izrunā kā št.",
+      "ownerNew": "Ve slově der Strauch se st vyslovuje jako št.",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 195,
+      "ownerPath": "kurssLesson19.sections[3].items[4]",
+      "normalizedPath": "kurssLesson19.sections[3].items[4]",
+      "current": "Vārdā wachsen: ch izrunā kā k.",
+      "ownerNew": "Ve slově wachsen se ch vyslovuje jako k.",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 196,
+      "ownerPath": "kurssLesson20.sections[2].items[0].examples[0]",
+      "normalizedPath": "kurssLesson20.sections[2].items[0].examples[0]",
+      "current": "an dem Tage / am Tage — dienā",
+      "ownerNew": "an dem Tage / am Tage — ve dne",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 197,
+      "ownerPath": "kurssLesson20.sections[2].items[0].examples[1]",
+      "normalizedPath": "kurssLesson20.sections[2].items[0].examples[1]",
+      "current": "in der Nacht — naktī",
+      "ownerNew": "in der Nacht — v noci",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 198,
+      "ownerPath": "kurssLesson20.sections[2].items[0].examples[2]",
+      "normalizedPath": "kurssLesson20.sections[2].items[0].examples[2]",
+      "current": "in dem Sommer / im Sommer — vasarā",
+      "ownerNew": "in dem Sommer / im Sommer — v létě",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 199,
+      "ownerPath": "kurssLesson20.sections[2].items[0].examples[3]",
+      "normalizedPath": "kurssLesson20.sections[2].items[0].examples[3]",
+      "current": "in dem Januar / im Januar — janvārī",
+      "ownerNew": "in dem Januar / im Januar — v lednu",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 200,
+      "ownerPath": "kurssLesson20.sections[2].items[0].examples[4]",
+      "normalizedPath": "kurssLesson20.sections[2].items[0].examples[4]",
+      "current": "vor drei Tagen — pirms trīs dienām",
+      "ownerNew": "vor drei Tagen — před třemi dny",
+      "sourceFile": "cs-kurss-owner-decisions-group04.md"
+    },
+    {
+      "findingNum": 201,
+      "ownerPath": "kurssLesson20.sections[2].items[1].heading",
+      "normalizedPath": "kurssLesson20.sections[2].items[1].heading",
+      "current": "Prievārds + artikuls",
+      "ownerNew": "Předložka + člen",
+      "sourceFile": "cs-kurss-owner-decisions-group05.md"
+    },
+    {
+      "findingNum": 202,
+      "ownerPath": "kurssLesson20.sections[2].items[3].heading",
+      "normalizedPath": "kurssLesson20.sections[2].items[3].heading",
+      "current": "Saliktie lietvārdi",
+      "ownerNew": "Složená podstatná jména",
+      "sourceFile": "cs-kurss-owner-decisions-group05.md"
+    },
+    {
+      "findingNum": 203,
+      "ownerPath": "kurssLesson20.sections[2].items[4].heading",
+      "normalizedPath": "kurssLesson20.sections[2].items[4].heading",
+      "current": "Salikto lietvārdu veidošana",
+      "ownerNew": "Tvoření složených podstatných jmen",
+      "sourceFile": "cs-kurss-owner-decisions-group05.md"
+    },
+    {
+      "findingNum": 204,
+      "ownerPath": "kurssLesson20.sections[3].items[0]",
+      "normalizedPath": "kurssLesson20.sections[3].items[0]",
+      "current": "Vārdos Stockwerk, Stein, Stadt, stecken: st izrunā kā št.",
+      "ownerNew": "Ve slovech Stockwerk, Stein, Stadt, stecken se st vyslovuje jako št.",
+      "sourceFile": "cs-kurss-owner-decisions-group05.md"
+    },
+    {
+      "findingNum": 205,
+      "ownerPath": "kurssLesson20.sections[3].items[1]",
+      "normalizedPath": "kurssLesson20.sections[3].items[1]",
+      "current": "Vārdos der Ofen, der Boden: o ir garš.",
+      "ownerNew": "Ve slovech der Ofen, der Boden je o dlouhé.",
+      "sourceFile": "cs-kurss-owner-decisions-group05.md"
+    },
+    {
+      "findingNum": 206,
+      "ownerPath": "kurssLesson20.sections[3].items[2]",
+      "normalizedPath": "kurssLesson20.sections[3].items[2]",
+      "current": "sch izrunā kā š: der Schornstein, der Mensch.",
+      "ownerNew": "sch se vyslovuje jako š: der Schornstein, der Mensch.",
+      "sourceFile": "cs-kurss-owner-decisions-group05.md"
+    },
+    {
+      "findingNum": 207,
+      "ownerPath": "kurssLesson20.sections[3].items[3]",
+      "normalizedPath": "kurssLesson20.sections[3].items[3]",
+      "current": "Vārdos das Haus, das Holz: h ir dzirdams un jāizrunā.",
+      "ownerNew": "Ve slovech das Haus, das Holz je h slyšitelné a vyslovuje se.",
+      "sourceFile": "cs-kurss-owner-decisions-group05.md"
+    },
+    {
+      "findingNum": 208,
+      "ownerPath": "kurssLesson20.sections[3].items[4]",
+      "normalizedPath": "kurssLesson20.sections[3].items[4]",
+      "current": "Vārdos die Wohnung, wohnen: h ir garuma zīme, to neizrunā.",
+      "ownerNew": "Ve slovech die Wohnung, wohnen označuje h délku a nevyslovuje se.",
+      "sourceFile": "cs-kurss-owner-decisions-group05.md"
+    },
+    {
+      "findingNum": 209,
+      "ownerPath": "kurssLesson20.sections[3].items[5]",
+      "normalizedPath": "kurssLesson20.sections[3].items[5]",
+      "current": "Vārdos die Küche, die Dächer: ch izrunā kā “h” tipa skaņu, kā vācu ich-hláska [ç], která v češtině nemá přesný ekvivalent.",
+      "ownerNew": "Ve slovech die Küche, die Dächer se ch vyslovuje jako německá hláska ich-Laut [ç], která v češtině nemá přesný ekvivalent.",
+      "sourceFile": "cs-kurss-owner-decisions-group05.md"
+    },
+    {
+      "findingNum": 210,
+      "ownerPath": "kurssLesson20.sections[3].items[6]",
+      "normalizedPath": "kurssLesson20.sections[3].items[6]",
+      "current": "Vārdā das Vorhaus: v izrunā kā f.",
+      "ownerNew": "Ve slově das Vorhaus se v vyslovuje jako f.",
+      "sourceFile": "cs-kurss-owner-decisions-group05.md"
+    },
+    {
+      "findingNum": 211,
+      "ownerPath": "kurssLesson21.sections[2].items[0].examples[3]",
+      "normalizedPath": "kurssLesson21.sections[2].items[0].examples[3]",
+      "current": "mit dem Mann — ar vīru",
+      "ownerNew": "mit dem Mann — s mužem",
+      "sourceFile": "cs-kurss-owner-decisions-group05.md"
+    },
+    {
+      "findingNum": 212,
+      "ownerPath": "kurssLesson21.sections[2].items[1].examples[2]",
+      "normalizedPath": "kurssLesson21.sections[2].items[1].examples[2]",
+      "current": "Mūsdienu forma: vom Feld, vom Berg.",
+      "ownerNew": "Současná forma: vom Feld, vom Berg.",
+      "sourceFile": "cs-kurss-owner-decisions-group05.md"
+    },
+    {
+      "findingNum": 213,
+      "ownerPath": "kurssLesson21.sections[2].items[4].heading",
+      "normalizedPath": "kurssLesson21.sections[2].items[4].heading",
+      "current": "Materiāls",
+      "ownerNew": "Materiál",
+      "sourceFile": "cs-kurss-owner-decisions-group05.md"
+    },
+    {
+      "findingNum": 214,
+      "ownerPath": "kurssLesson21.sections[3].items[0]",
+      "normalizedPath": "kurssLesson21.sections[3].items[0]",
+      "current": "Vārdā die Axt: x izrunā kā ks.",
+      "ownerNew": "Ve slově die Axt se x vyslovuje jako ks.",
+      "sourceFile": "cs-kurss-owner-decisions-group05.md"
+    },
+    {
+      "findingNum": 215,
+      "ownerPath": "kurssLesson21.sections[3].items[1]",
+      "normalizedPath": "kurssLesson21.sections[3].items[1]",
+      "current": "Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai.",
+      "ownerNew": "Ve slovech arbeiten, das Beil, steigen se ei vyslovuje jako ai.",
+      "sourceFile": "cs-kurss-owner-decisions-group05.md"
+    },
+    {
+      "findingNum": 216,
+      "ownerPath": "kurssLesson21.sections[3].items[2]",
+      "normalizedPath": "kurssLesson21.sections[3].items[2]",
+      "current": "Vārdā die Scheune: eu izrunā kā oi.",
+      "ownerNew": "Ve slově die Scheune se eu vyslovuje jako oi.",
+      "sourceFile": "cs-kurss-owner-decisions-group05.md"
+    },
+    {
+      "findingNum": 217,
+      "ownerPath": "kurssLesson21.sections[3].items[3]",
+      "normalizedPath": "kurssLesson21.sections[3].items[3]",
+      "current": "Vārdā die Brücke: ck izrunā kā dubultu k.",
+      "ownerNew": "Ve slově die Brücke se ck vyslovuje jako dvojité k.",
+      "sourceFile": "cs-kurss-owner-decisions-group05.md"
+    }
+  ],
+  "statusCounts": {
+    "LABOT": 168,
+    "NELABOT": 19,
+    "FALSE_POSITIVE": 15,
+    "NEEDS_SOURCE_REVIEW": 15,
+    "OTHER": 0
+  }
+}
