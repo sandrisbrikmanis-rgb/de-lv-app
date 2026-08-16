@@ -1,0 +1,408 @@
+{
+  "batch": "batch-151-200",
+  "startIndex": 150,
+  "endIndex": 199,
+  "count": 50,
+  "sentences": [
+    {
+      "cardId": "sentence-150",
+      "index": 150,
+      "batch": "batch-151-200",
+      "de": "Erz bauen.",
+      "daCurrent": "Få malm.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-151",
+      "index": 151,
+      "batch": "batch-151-200",
+      "de": "Mist bauen.",
+      "daCurrent": "Skud. • Gør dig selv til grin",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-152",
+      "index": 152,
+      "batch": "batch-151-200",
+      "de": "Ich bin beauftragt.",
+      "daCurrent": "Jeg er blevet tildelt et job.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-153",
+      "index": 153,
+      "batch": "batch-151-200",
+      "de": "Nach Bedarf.",
+      "daCurrent": "Efter behov.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-154",
+      "index": 154,
+      "batch": "batch-151-200",
+      "de": "Ich bedauere ihn.",
+      "daCurrent": "Jeg har ondt af ham.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-155",
+      "index": 155,
+      "batch": "batch-151-200",
+      "de": "Was bedeutet dieses Wort?",
+      "daCurrent": "Hvad betyder dette ord?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-156",
+      "index": 156,
+      "batch": "batch-151-200",
+      "de": "Unter der Bedingung, dass...",
+      "daCurrent": "Forudsat at...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-157",
+      "index": 157,
+      "batch": "batch-151-200",
+      "de": "Sie sieht bedrückt aus.",
+      "daCurrent": "Hun ser deprimeret ud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-158",
+      "index": 158,
+      "batch": "batch-151-200",
+      "de": "Hinweise befolgen.",
+      "daCurrent": "Følg instruktionerne.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-159",
+      "index": 159,
+      "batch": "batch-151-200",
+      "de": "Befehle befolgen.",
+      "daCurrent": "Følg ordrer.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-160",
+      "index": 160,
+      "batch": "batch-151-200",
+      "de": "Mit der Post befördern.",
+      "daCurrent": "Send med mail.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-161",
+      "index": 161,
+      "batch": "batch-151-200",
+      "de": "Ich bin begierig zu wissen.",
+      "daCurrent": "Jeg vil virkelig gerne vide det.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-162",
+      "index": 162,
+      "batch": "batch-151-200",
+      "de": "Zu Beginn.",
+      "daCurrent": "I begyndelsen.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-163",
+      "index": 163,
+      "batch": "batch-151-200",
+      "de": "Am Beginn.",
+      "daCurrent": "I begyndelsen.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-164",
+      "index": 164,
+      "batch": "batch-151-200",
+      "de": "Bei Beginn.",
+      "daCurrent": "Starter",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-165",
+      "index": 165,
+      "batch": "batch-151-200",
+      "de": "In Begleitung.",
+      "daCurrent": "Ledsaget.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-166",
+      "index": 166,
+      "batch": "batch-151-200",
+      "de": "Mit seiner Begleitung.",
+      "daCurrent": "Med akkompagnement.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-167",
+      "index": 167,
+      "batch": "batch-151-200",
+      "de": "Er ist schwer von Begriff.",
+      "daCurrent": "Han er langsom til at opfatte. • Han tænker langsomt",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-168",
+      "index": 168,
+      "batch": "batch-151-200",
+      "de": "Im Gedächtnis behalten.",
+      "daCurrent": "Huske. • Gem i hukommelsen",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-169",
+      "index": 169,
+      "batch": "batch-151-200",
+      "de": "Bei Tisch.",
+      "daCurrent": "Ved bordet.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-170",
+      "index": 170,
+      "batch": "batch-151-200",
+      "de": "Bei Sinnen sein.",
+      "daCurrent": "At være fornuftig.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-171",
+      "index": 171,
+      "batch": "batch-151-200",
+      "de": "Bei Tage.",
+      "daCurrent": "I løbet af dagen.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-172",
+      "index": 172,
+      "batch": "batch-151-200",
+      "de": "Bei weitem nicht so.",
+      "daCurrent": "Slet ikke.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-173",
+      "index": 173,
+      "batch": "batch-151-200",
+      "de": "Alle beide.",
+      "daCurrent": "Begge to.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-174",
+      "index": 174,
+      "batch": "batch-151-200",
+      "de": "Stürmischer Beifall brach los.",
+      "daCurrent": "Der var tordnende klapsalver.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-175",
+      "index": 175,
+      "batch": "batch-151-200",
+      "de": "Beifall finden.",
+      "daCurrent": "Indhent samtykke.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-176",
+      "index": 176,
+      "batch": "batch-151-200",
+      "de": "Beileid aussprechen.",
+      "daCurrent": "Udtryk kondolence.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-177",
+      "index": 177,
+      "batch": "batch-151-200",
+      "de": "Auf eigenen Beinen stehen.",
+      "daCurrent": "At være økonomisk uafhængig.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-178",
+      "index": 178,
+      "batch": "batch-151-200",
+      "de": "Zum Beispiel.",
+      "daCurrent": "F.eks.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-179",
+      "index": 179,
+      "batch": "batch-151-200",
+      "de": "Beistand leisten.",
+      "daCurrent": "At hjælpe. • Yde assistance",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-180",
+      "index": 180,
+      "batch": "batch-151-200",
+      "de": "Beitrag leisten.",
+      "daCurrent": "Invester din andel.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-181",
+      "index": 181,
+      "batch": "batch-151-200",
+      "de": "Jemandes Bekanntschaft machen.",
+      "daCurrent": "Lær nogen at kende.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-182",
+      "index": 182,
+      "batch": "batch-151-200",
+      "de": "Bekanntschaft anknüpfen.",
+      "daCurrent": "Lær hinanden at kende. • Etabler kontakt",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-183",
+      "index": 183,
+      "batch": "batch-151-200",
+      "de": "Belegte Brötchen.",
+      "daCurrent": "Sandwich med toppings.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-184",
+      "index": 184,
+      "batch": "batch-151-200",
+      "de": "Nach Ihrem Belieben.",
+      "daCurrent": "Som du ønsker.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-185",
+      "index": 185,
+      "batch": "batch-151-200",
+      "de": "Zu jeder beliebigen Zeit.",
+      "daCurrent": "Til enhver tid.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-186",
+      "index": 186,
+      "batch": "batch-151-200",
+      "de": "Schweigen beobachten.",
+      "daCurrent": "At iagttage stilhed.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-187",
+      "index": 187,
+      "batch": "batch-151-200",
+      "de": "Zur Bequemlichkeit.",
+      "daCurrent": "For nemheds skyld.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-188",
+      "index": 188,
+      "batch": "batch-151-200",
+      "de": "Bereit sein.",
+      "daCurrent": "Vær klar. • Vær i fred",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-189",
+      "index": 189,
+      "batch": "batch-151-200",
+      "de": "Unfallopfer bergen.",
+      "daCurrent": "Redde ofre i tilfælde af en ulykke.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-190",
+      "index": 190,
+      "batch": "batch-151-200",
+      "de": "Bericht erstatten.",
+      "daCurrent": "Rapport. • Give en rapport • Give et overblik",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-191",
+      "index": 191,
+      "batch": "batch-151-200",
+      "de": "Alle Plätze sind besetzt.",
+      "daCurrent": "Alle pladser er optaget.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-192",
+      "index": 192,
+      "batch": "batch-151-200",
+      "de": "Neue Besen kehren gut.",
+      "daCurrent": "En ny kost fejer godt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-193",
+      "index": 193,
+      "batch": "batch-151-200",
+      "de": "Er besitzt ein Haus.",
+      "daCurrent": "Han ejer et hus.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-194",
+      "index": 194,
+      "batch": "batch-151-200",
+      "de": "Er besitzt viel Mut.",
+      "daCurrent": "Han har et stort mod.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-195",
+      "index": 195,
+      "batch": "batch-151-200",
+      "de": "Desto besser.",
+      "daCurrent": "Jo bedre.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-196",
+      "index": 196,
+      "batch": "batch-151-200",
+      "de": "Gute Besserung!",
+      "daCurrent": "Få det godt! • Bliv rask!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-197",
+      "index": 197,
+      "batch": "batch-151-200",
+      "de": "Beim besten Willen.",
+      "daCurrent": "Hvad end du vil.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-198",
+      "index": 198,
+      "batch": "batch-151-200",
+      "de": "Am besten.",
+      "daCurrent": "Den bedste.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-199",
+      "index": 199,
+      "batch": "batch-151-200",
+      "de": "Es besteht Zweifel.",
+      "daCurrent": "Der er tvivl.",
+      "level": "Sätze"
+    }
+  ]
+}

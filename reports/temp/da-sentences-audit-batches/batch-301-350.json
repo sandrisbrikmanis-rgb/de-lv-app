@@ -1,0 +1,408 @@
+{
+  "batch": "batch-301-350",
+  "startIndex": 300,
+  "endIndex": 349,
+  "count": 50,
+  "sentences": [
+    {
+      "cardId": "sentence-300",
+      "index": 300,
+      "batch": "batch-301-350",
+      "de": "Wir gehen mit Ihnen.",
+      "daCurrent": "Vi går med dig.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-301",
+      "index": 301,
+      "batch": "batch-301-350",
+      "de": "Ich fahre mit der Eisenbahn.",
+      "daCurrent": "Jeg rejser med tog.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-302",
+      "index": 302,
+      "batch": "batch-301-350",
+      "de": "am Mittwoch",
+      "daCurrent": "På onsdag",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-303",
+      "index": 303,
+      "batch": "batch-301-350",
+      "de": "Es mag sein.",
+      "daCurrent": "Måske.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-304",
+      "index": 304,
+      "batch": "batch-301-350",
+      "de": "Ich mag das nicht.",
+      "daCurrent": "Jeg kan ikke lide det.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-305",
+      "index": 305,
+      "batch": "batch-301-350",
+      "de": "am Montag",
+      "daCurrent": "På mandag",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-306",
+      "index": 306,
+      "batch": "batch-301-350",
+      "de": "Guten Morgen!",
+      "daCurrent": "Godmorgen!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-307",
+      "index": 307,
+      "batch": "batch-301-350",
+      "de": "am Morgen",
+      "daCurrent": "Om morgenen",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-308",
+      "index": 308,
+      "batch": "batch-301-350",
+      "de": "Gute Nacht!",
+      "daCurrent": "Godnat!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-309",
+      "index": 309,
+      "batch": "batch-301-350",
+      "de": "Nehmen Sie Platz!",
+      "daCurrent": "Sæt dig ned!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-310",
+      "index": 310,
+      "batch": "batch-301-350",
+      "de": "Letzte Neuheit!",
+      "daCurrent": "De seneste nyheder!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-311",
+      "index": 311,
+      "batch": "batch-301-350",
+      "de": "Nicht wahr?",
+      "daCurrent": "Højre?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-312",
+      "index": 312,
+      "batch": "batch-301-350",
+      "de": "Nicht doch!",
+      "daCurrent": "Nein, selvfølgelig! • Lad være!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-313",
+      "index": 313,
+      "batch": "batch-301-350",
+      "de": "Nun endlich!",
+      "daCurrent": "Nå, endelig!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-314",
+      "index": 314,
+      "batch": "batch-301-350",
+      "de": "Wozu nützt das?",
+      "daCurrent": "Hvad er det godt for?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-315",
+      "index": 315,
+      "batch": "batch-301-350",
+      "de": "Wozu nützt das alles?",
+      "daCurrent": "Hvad er alt dette til for?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-316",
+      "index": 316,
+      "batch": "batch-301-350",
+      "de": "Parken verboten!",
+      "daCurrent": "Parkering er forbudt!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-317",
+      "index": 317,
+      "batch": "batch-301-350",
+      "de": "Nicht parken!",
+      "daCurrent": "Parkering er forbudt!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-318",
+      "index": 318,
+      "batch": "batch-301-350",
+      "de": "Er hat Recht.",
+      "daCurrent": "Han har ret.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-319",
+      "index": 319,
+      "batch": "batch-301-350",
+      "de": "Wovon ist die Rede?",
+      "daCurrent": "Hvad handler det om?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-320",
+      "index": 320,
+      "batch": "batch-301-350",
+      "de": "Davon kann keine Rede sein.",
+      "daCurrent": "Det er udelukket.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-321",
+      "index": 321,
+      "batch": "batch-301-350",
+      "de": "Glückliche Reise!",
+      "daCurrent": "God rejse!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-322",
+      "index": 322,
+      "batch": "batch-301-350",
+      "de": "Mir reißt die Geduld.",
+      "daCurrent": "Jeg er ved at løbe tør for tålmodighed.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-323",
+      "index": 323,
+      "batch": "batch-301-350",
+      "de": "Man sagt, dass...",
+      "daCurrent": "De siger, at...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-324",
+      "index": 324,
+      "batch": "batch-301-350",
+      "de": "Schon gut!",
+      "daCurrent": "Det er allerede godt!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-325",
+      "index": 325,
+      "batch": "batch-301-350",
+      "de": "Bitte schön!",
+      "daCurrent": "Behage!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-326",
+      "index": 326,
+      "batch": "batch-301-350",
+      "de": "Was bin ich schuldig?",
+      "daCurrent": "Hvor meget skylder jeg? • Hvor meget skal jeg betale?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-327",
+      "index": 327,
+      "batch": "batch-301-350",
+      "de": "Vor dem Gebrauch schütteln!",
+      "daCurrent": "Ryst før brug!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-328",
+      "index": 328,
+      "batch": "batch-301-350",
+      "de": "Sehen Sie mal!",
+      "daCurrent": "Tag et kig!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-329",
+      "index": 329,
+      "batch": "batch-301-350",
+      "de": "Wie sehr auch...",
+      "daCurrent": "Hvor meget...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-330",
+      "index": 330,
+      "batch": "batch-301-350",
+      "de": "Seit wann?",
+      "daCurrent": "Siden hvornår?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-331",
+      "index": 331,
+      "batch": "batch-301-350",
+      "de": "Was soll ich tun?",
+      "daCurrent": "Hvad skal jeg gøre?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-332",
+      "index": 332,
+      "batch": "batch-301-350",
+      "de": "im Sommer",
+      "daCurrent": "Om sommeren",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-333",
+      "index": 333,
+      "batch": "batch-301-350",
+      "de": "Nicht nur..., sondern auch...",
+      "daCurrent": "Ikke kun... men også...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-334",
+      "index": 334,
+      "batch": "batch-301-350",
+      "de": "Sonst noch etwas?",
+      "daCurrent": "Noget andet?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-335",
+      "index": 335,
+      "batch": "batch-301-350",
+      "de": "Spaß beiseite!",
+      "daCurrent": "Ingen joke! • Jokes på kanten!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-336",
+      "index": 336,
+      "batch": "batch-301-350",
+      "de": "Wie spät ist es?",
+      "daCurrent": "Hvad er klokken",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-337",
+      "index": 337,
+      "batch": "batch-301-350",
+      "de": "Durchfahrt gesperrt!",
+      "daCurrent": "Det er forbudt at køre igennem!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-338",
+      "index": 338,
+      "batch": "batch-301-350",
+      "de": "Sprechen Sie deutsch?",
+      "daCurrent": "Taler du tysk?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-339",
+      "index": 339,
+      "batch": "batch-301-350",
+      "de": "Statt zu...",
+      "daCurrent": "I stedet for...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-340",
+      "index": 340,
+      "batch": "batch-301-350",
+      "de": "Wie steht’s?",
+      "daCurrent": "Hvordan har du det",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-341",
+      "index": 341,
+      "batch": "batch-301-350",
+      "de": "Dieser Hut steht ihr gut.",
+      "daCurrent": "Denne hat klæder hende godt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-342",
+      "index": 342,
+      "batch": "batch-301-350",
+      "de": "Guten Tag!",
+      "daCurrent": "Hej!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-343",
+      "index": 343,
+      "batch": "batch-301-350",
+      "de": "Wo treffen wir uns?",
+      "daCurrent": "Hvor skal vi mødes?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-344",
+      "index": 344,
+      "batch": "batch-301-350",
+      "de": "Treten Sie näher!",
+      "daCurrent": "Kom tættere på!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-345",
+      "index": 345,
+      "batch": "batch-301-350",
+      "de": "Ehrlichkeit ist eine Tugend.",
+      "daCurrent": "Ærlighed er en dyd.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-346",
+      "index": 346,
+      "batch": "batch-301-350",
+      "de": "Ich habe viel zu tun.",
+      "daCurrent": "Jeg har meget at lave.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-347",
+      "index": 347,
+      "batch": "batch-301-350",
+      "de": "Nicht übel!",
+      "daCurrent": "Meget godt! • Der er ingen indvendinger",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-348",
+      "index": 348,
+      "batch": "batch-301-350",
+      "de": "Er wohnt über mir.",
+      "daCurrent": "Han bor over mig.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-349",
+      "index": 349,
+      "batch": "batch-301-350",
+      "de": "Er ist davon überzeugt.",
+      "daCurrent": "Det er han sikker på.",
+      "level": "Sätze"
+    }
+  ]
+}

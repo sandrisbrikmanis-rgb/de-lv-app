@@ -1,0 +1,408 @@
+{
+  "batch": "batch-251-300",
+  "startIndex": 250,
+  "endIndex": 299,
+  "count": 50,
+  "sentences": [
+    {
+      "cardId": "sentence-250",
+      "index": 250,
+      "batch": "batch-251-300",
+      "de": "gestern früh",
+      "daCurrent": "Tidligt i går morges",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-251",
+      "index": 251,
+      "batch": "batch-251-300",
+      "de": "gestern Abend",
+      "daCurrent": "I går aftes",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-252",
+      "index": 252,
+      "batch": "batch-251-300",
+      "de": "Es ist mir gleichgültig, ob...",
+      "daCurrent": "Jeg er ligeglad med...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-253",
+      "index": 253,
+      "batch": "batch-251-300",
+      "de": "Was ist geschehen?",
+      "daCurrent": "Hvad skete der?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-254",
+      "index": 254,
+      "batch": "batch-251-300",
+      "de": "Mach keine Geschichten!",
+      "daCurrent": "Gør ikke noget sludder! • Lav ikke vittigheder!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-255",
+      "index": 255,
+      "batch": "batch-251-300",
+      "de": "Geschweige denn...",
+      "daCurrent": "For ikke at nævne det. • Hvor ellers",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-256",
+      "index": 256,
+      "batch": "batch-251-300",
+      "de": "Gehen Sie geradeaus!",
+      "daCurrent": "Gå ligeud!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-257",
+      "index": 257,
+      "batch": "batch-251-300",
+      "de": "Wie geht es Ihnen?",
+      "daCurrent": "Hvordan har du det • Hvordan har du det?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-258",
+      "index": 258,
+      "batch": "batch-251-300",
+      "de": "Frag ihn gelegentlich, ob...",
+      "daCurrent": "Spørg ham, om han kommer ud, hvis...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-259",
+      "index": 259,
+      "batch": "batch-251-300",
+      "de": "morgen früh",
+      "daCurrent": "I morgen tidlig",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-260",
+      "index": 260,
+      "batch": "batch-251-300",
+      "de": "im Frühling",
+      "daCurrent": "I foråret",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-261",
+      "index": 261,
+      "batch": "batch-251-300",
+      "de": "Was gibt’s Neues?",
+      "daCurrent": "Hvad er nyt?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-262",
+      "index": 262,
+      "batch": "batch-251-300",
+      "de": "Aus diesem Brief folgt, dass...",
+      "daCurrent": "Det fremgår af dette brev, at...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-263",
+      "index": 263,
+      "batch": "batch-251-300",
+      "de": "Fahre fort!",
+      "daCurrent": "Hold det op!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-264",
+      "index": 264,
+      "batch": "batch-251-300",
+      "de": "Er ist kein Freund von...",
+      "daCurrent": "Han kan ikke lide...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-265",
+      "index": 265,
+      "batch": "batch-251-300",
+      "de": "Es erwies sich, dass...",
+      "daCurrent": "Det viste sig, at...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-266",
+      "index": 266,
+      "batch": "batch-251-300",
+      "de": "Gedenkst du meiner?",
+      "daCurrent": "Kan du huske mig • Har du tænkt på mig?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-267",
+      "index": 267,
+      "batch": "batch-251-300",
+      "de": "im Winter",
+      "daCurrent": "Om vinteren",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-268",
+      "index": 268,
+      "batch": "batch-251-300",
+      "de": "Welcher Jahrgang sind Sie?",
+      "daCurrent": "Hvilket år er du født?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-269",
+      "index": 269,
+      "batch": "batch-251-300",
+      "de": "Es jammert mich zu sehen...",
+      "daCurrent": "Trist at se...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-270",
+      "index": 270,
+      "batch": "batch-251-300",
+      "de": "je mehr, desto besser",
+      "daCurrent": "Jo flere jo bedre",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-271",
+      "index": 271,
+      "batch": "batch-251-300",
+      "de": "bis jetzt",
+      "daCurrent": "Indtil nu",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-272",
+      "index": 272,
+      "batch": "batch-251-300",
+      "de": "Wie komme ich zum Bahnhof?",
+      "daCurrent": "Hvordan kommer man til stationen?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-273",
+      "index": 273,
+      "batch": "batch-251-300",
+      "de": "Komm her!",
+      "daCurrent": "Kom her!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-274",
+      "index": 274,
+      "batch": "batch-251-300",
+      "de": "Könnte ich Frau N. sprechen?",
+      "daCurrent": "Må jeg tale med fru N.?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-275",
+      "index": 275,
+      "batch": "batch-251-300",
+      "de": "Was kostet das?",
+      "daCurrent": "Hvor meget koster det?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-276",
+      "index": 276,
+      "batch": "batch-251-300",
+      "de": "Wie lange dauert die Vorstellung?",
+      "daCurrent": "Hvor længe varer forestillingen?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-277",
+      "index": 277,
+      "batch": "batch-251-300",
+      "de": "Lass das!",
+      "daCurrent": "Stop det! • Drop det!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-278",
+      "index": 278,
+      "batch": "batch-251-300",
+      "de": "Lass mich in Ruhe!",
+      "daCurrent": "Lad mig være i fred!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-279",
+      "index": 279,
+      "batch": "batch-251-300",
+      "de": "Lassen Sie mich Ihnen helfen!",
+      "daCurrent": "Lad mig hjælpe dig!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-280",
+      "index": 280,
+      "batch": "batch-251-300",
+      "de": "Lasst uns gehen!",
+      "daCurrent": "Lad os gå!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-281",
+      "index": 281,
+      "batch": "batch-251-300",
+      "de": "Na, wie läufts?",
+      "daCurrent": "Hvordan har du det",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-282",
+      "index": 282,
+      "batch": "batch-251-300",
+      "de": "Es lebe!",
+      "daCurrent": "Længe leve!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-283",
+      "index": 283,
+      "batch": "batch-251-300",
+      "de": "Leben Sie wohl!",
+      "daCurrent": "Lev sundt! • Farvel!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-284",
+      "index": 284,
+      "batch": "batch-251-300",
+      "de": "Was ist los?",
+      "daCurrent": "Hvad skete der?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-285",
+      "index": 285,
+      "batch": "batch-251-300",
+      "de": "Der Job ist anstrengend.",
+      "daCurrent": "Arbejdet er udmattende.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-286",
+      "index": 286,
+      "batch": "batch-251-300",
+      "de": "Das war ein anstrengender Tag.",
+      "daCurrent": "Det var en travl dag.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-287",
+      "index": 287,
+      "batch": "batch-251-300",
+      "de": "Deutsch lernen kann anstrengend sein.",
+      "daCurrent": "At lære tysk kan være udmattende.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-288",
+      "index": 288,
+      "batch": "batch-251-300",
+      "de": "Er verlangt eine Erklärung.",
+      "daCurrent": "Han kræver en forklaring.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-289",
+      "index": 289,
+      "batch": "batch-251-300",
+      "de": "Der Verkäufer verlangt zu viel Geld.",
+      "daCurrent": "Sælgeren beder om for mange penge.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-290",
+      "index": 290,
+      "batch": "batch-251-300",
+      "de": "Das Gesetz verlangt es so.",
+      "daCurrent": "Loven kræver det.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-291",
+      "index": 291,
+      "batch": "batch-251-300",
+      "de": "Das ist gar nicht so schwer.",
+      "daCurrent": "Det er slet ikke så svært.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-292",
+      "index": 292,
+      "batch": "batch-251-300",
+      "de": "Ich habe gar kein Geld.",
+      "daCurrent": "Jeg har ingen penge overhovedet.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-293",
+      "index": 293,
+      "batch": "batch-251-300",
+      "de": "Er hat gar nichts gesagt.",
+      "daCurrent": "Han sagde slet ikke noget.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-294",
+      "index": 294,
+      "batch": "batch-251-300",
+      "de": "Der Hund ist los.",
+      "daCurrent": "Hunden er sluppet fri.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-295",
+      "index": 295,
+      "batch": "batch-251-300",
+      "de": "Hier ist viel los.",
+      "daCurrent": "Der sker meget her.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-296",
+      "index": 296,
+      "batch": "batch-251-300",
+      "de": "Halt die Luft an!",
+      "daCurrent": "Hold vejret!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-297",
+      "index": 297,
+      "batch": "batch-251-300",
+      "de": "Was machst du?",
+      "daCurrent": "Hvad laver du",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-298",
+      "index": 298,
+      "batch": "batch-251-300",
+      "de": "Sag mal!",
+      "daCurrent": "Sig ja!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-299",
+      "index": 299,
+      "batch": "batch-251-300",
+      "de": "Was meinen Sie damit?",
+      "daCurrent": "Hvad mener du med det? • Hvad synes du?",
+      "level": "Sätze"
+    }
+  ]
+}

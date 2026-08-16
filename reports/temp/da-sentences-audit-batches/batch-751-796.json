@@ -1,0 +1,376 @@
+{
+  "batch": "batch-751-796",
+  "startIndex": 750,
+  "endIndex": 795,
+  "count": 46,
+  "sentences": [
+    {
+      "cardId": "sentence-750",
+      "index": 750,
+      "batch": "batch-751-796",
+      "de": "So, nun passen sie gut.",
+      "daCurrent": "Så det fungerer fint nu.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-751",
+      "index": 751,
+      "batch": "batch-751-796",
+      "de": "Kannst du mir einen guten Schneider empfehlen?",
+      "daCurrent": "Kan du anbefale en god skrædder?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-752",
+      "index": 752,
+      "batch": "batch-751-796",
+      "de": "Ich will einen Anzug bestellen.",
+      "daCurrent": "Jeg vil bestille et jakkesæt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-753",
+      "index": 753,
+      "batch": "batch-751-796",
+      "de": "Wann wird er fertig sein?",
+      "daCurrent": "Hvornår vil den være klar?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-754",
+      "index": 754,
+      "batch": "batch-751-796",
+      "de": "Der Anzug sitzt gut.",
+      "daCurrent": "Dragten sidder godt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-755",
+      "index": 755,
+      "batch": "batch-751-796",
+      "de": "Die Hose ist zu lang.",
+      "daCurrent": "Bukserne er for lange.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-756",
+      "index": 756,
+      "batch": "batch-751-796",
+      "de": "Bitte reinigen und bügeln Sie ihn!",
+      "daCurrent": "Rengør og stryg det!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-757",
+      "index": 757,
+      "batch": "batch-751-796",
+      "de": "Wann wird das Kleid fertig sein?",
+      "daCurrent": "Hvornår er kjolen klar?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-758",
+      "index": 758,
+      "batch": "batch-751-796",
+      "de": "Die Schuhe sind zu eng.",
+      "daCurrent": "Skoene er for stramme.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-759",
+      "index": 759,
+      "batch": "batch-751-796",
+      "de": "Können Sie die Schuhe heute reparieren?",
+      "daCurrent": "Kan du ordne dine sko i dag?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-760",
+      "index": 760,
+      "batch": "batch-751-796",
+      "de": "Wann kann ich die Schuhe abholen?",
+      "daCurrent": "Hvornår kan jeg medbringe skoene?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-761",
+      "index": 761,
+      "batch": "batch-751-796",
+      "de": "Meine Armbanduhr funktioniert nicht.",
+      "daCurrent": "Mit armbåndsur virker ikke.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-762",
+      "index": 762,
+      "batch": "batch-751-796",
+      "de": "Sie geht fünf Minuten vor.",
+      "daCurrent": "Det er fem minutter for tidligt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-763",
+      "index": 763,
+      "batch": "batch-751-796",
+      "de": "Bist du kurzsichtig oder weitsichtig?",
+      "daCurrent": "Er du nærsynet eller langsynet?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-764",
+      "index": 764,
+      "batch": "batch-751-796",
+      "de": "Ich möchte eine Brille kaufen.",
+      "daCurrent": "Jeg vil gerne købe briller.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-765",
+      "index": 765,
+      "batch": "batch-751-796",
+      "de": "Können Sie meine Brille reparieren?",
+      "daCurrent": "Kan du ordne mine briller?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-766",
+      "index": 766,
+      "batch": "batch-751-796",
+      "de": "Das dauert nur eine Viertelstunde.",
+      "daCurrent": "Det vil kun tage femten minutter.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-767",
+      "index": 767,
+      "batch": "batch-751-796",
+      "de": "Der Preis ist mir zu hoch.",
+      "daCurrent": "Prisen er for høj for mig.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-768",
+      "index": 768,
+      "batch": "batch-751-796",
+      "de": "Ich brauche zwei Fotos für meinen Pass.",
+      "daCurrent": "Jeg skal bruge to pasbilleder.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-769",
+      "index": 769,
+      "batch": "batch-751-796",
+      "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
+      "daCurrent": "Pak venligst og send hjem.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-770",
+      "index": 770,
+      "batch": "batch-751-796",
+      "de": "Wir haben feste Preise.",
+      "daCurrent": "Vi har faste priser.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-771",
+      "index": 771,
+      "batch": "batch-751-796",
+      "de": "Bitte, fotografieren Sie mich.",
+      "daCurrent": "Tag venligst ein Bild af mig.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-772",
+      "index": 772,
+      "batch": "batch-751-796",
+      "de": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!",
+      "daCurrent": "Sæt dig ned, kig direkte ind i kameraet og bevæg dig ikke!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-773",
+      "index": 773,
+      "batch": "batch-751-796",
+      "de": "Wann kann ich das Probebild sehen?",
+      "daCurrent": "Hvornår kan jeg se en prøve?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-774",
+      "index": 774,
+      "batch": "batch-751-796",
+      "de": "Wann sind die Fotos fertig?",
+      "daCurrent": "Hvornår er billederne klar?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-775",
+      "index": 775,
+      "batch": "batch-751-796",
+      "de": "Die Aufnahme ist gelungen.",
+      "daCurrent": "Billedet var vellykket.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-776",
+      "index": 776,
+      "batch": "batch-751-796",
+      "de": "Die Fotos sind gut geworden.",
+      "daCurrent": "Billederne blev godt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-777",
+      "index": 777,
+      "batch": "batch-751-796",
+      "de": "Können Sie das Foto auch vergrößern?",
+      "daCurrent": "Kan du også forstørre billedet?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-778",
+      "index": 778,
+      "batch": "batch-751-796",
+      "de": "Sind diese Steine echt?",
+      "daCurrent": "Er disse sten ægte?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-779",
+      "index": 779,
+      "batch": "batch-751-796",
+      "de": "Ist das echtes Gold?",
+      "daCurrent": "Er det ægte guld?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-780",
+      "index": 780,
+      "batch": "batch-751-796",
+      "de": "Zeigen Sie mir bitte Trauringe.",
+      "daCurrent": "Vis mig vielsesringene, tak.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-781",
+      "index": 781,
+      "batch": "batch-751-796",
+      "de": "Der Ring ist mir etwas zu weit.",
+      "daCurrent": "Ringen er lidt for stor til mig.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-782",
+      "index": 782,
+      "batch": "batch-751-796",
+      "de": "Ich kann ihn enger machen.",
+      "daCurrent": "Jeg kan indsnævre det.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-783",
+      "index": 783,
+      "batch": "batch-751-796",
+      "de": "Dieser Ring passt mir.",
+      "daCurrent": "Denne ring passer til mig.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-784",
+      "index": 784,
+      "batch": "batch-751-796",
+      "de": "Zeigen Sie mir schöne Geschenkideen.",
+      "daCurrent": "Fremvis smukke gaveideer.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-785",
+      "index": 785,
+      "batch": "batch-751-796",
+      "de": "Wie gefallen dir diese Ohrringe?",
+      "daCurrent": "Hvordan kan du lide disse øreringe?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-786",
+      "index": 786,
+      "batch": "batch-751-796",
+      "de": "Diese Brosche ist wirklich schön.",
+      "daCurrent": "Denne broche er meget smuk.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-787",
+      "index": 787,
+      "batch": "batch-751-796",
+      "de": "Der Stein ist ein Saphir.",
+      "daCurrent": "Denne sten er en safir.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-788",
+      "index": 788,
+      "batch": "batch-751-796",
+      "de": "Das ist kein echter Stein, das ist Glas.",
+      "daCurrent": "Dette er ikke ægte sten, det er glas.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-789",
+      "index": 789,
+      "batch": "batch-751-796",
+      "de": "Dieses Armband kann ich Ihnen besonders empfehlen.",
+      "daCurrent": "Jeg kan især anbefale dette armbånd.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-790",
+      "index": 790,
+      "batch": "batch-751-796",
+      "de": "Es ist besonders schön gearbeitet.",
+      "daCurrent": "Det er ekstremt fint udformet.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-791",
+      "index": 791,
+      "batch": "batch-751-796",
+      "de": "Der Preis ist nicht hoch.",
+      "daCurrent": "Prisen er ikke høj.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-792",
+      "index": 792,
+      "batch": "batch-751-796",
+      "de": "Bekomme ich die Schachtel gratis?",
+      "daCurrent": "Fik jeg kassen gratis?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-793",
+      "index": 793,
+      "batch": "batch-751-796",
+      "de": "Alle Schmuckstücke sind gestempelt.",
+      "daCurrent": "Alle smykker er stemplet.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-794",
+      "index": 794,
+      "batch": "batch-751-796",
+      "de": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?",
+      "daCurrent": "Hvis min kone ikke kan lide det, kan jeg så bytte det?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-795",
+      "index": 795,
+      "batch": "batch-751-796",
+      "de": "Natürlich, jederzeit.",
+      "daCurrent": "Når som helst, selvfølgelig.",
+      "level": "Sätze"
+    }
+  ]
+}

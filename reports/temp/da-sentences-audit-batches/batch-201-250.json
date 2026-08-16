@@ -1,0 +1,408 @@
+{
+  "batch": "batch-201-250",
+  "startIndex": 200,
+  "endIndex": 249,
+  "count": 50,
+  "sentences": [
+    {
+      "cardId": "sentence-200",
+      "index": 200,
+      "batch": "batch-201-250",
+      "de": "Seine Aufgabe besteht darin...",
+      "daCurrent": "Hans opgave er...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-201",
+      "index": 201,
+      "batch": "batch-201-250",
+      "de": "Grüße bestellen.",
+      "daCurrent": "Sig hej.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-202",
+      "index": 202,
+      "batch": "batch-201-250",
+      "de": "Ganz bestimmt.",
+      "daCurrent": "Definitivt. • Fuldstændig sikker",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-203",
+      "index": 203,
+      "batch": "batch-201-250",
+      "de": "Zu Besuch kommen.",
+      "daCurrent": "Kom på besøg.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-204",
+      "index": 204,
+      "batch": "batch-201-250",
+      "de": "Zu Besuch sein.",
+      "daCurrent": "At besøge. • At besøge",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-205",
+      "index": 205,
+      "batch": "batch-201-250",
+      "de": "Oft Konzerte besuchen.",
+      "daCurrent": "Går ofte til koncerter.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-206",
+      "index": 206,
+      "batch": "batch-201-250",
+      "de": "Welche Schule hat er besucht?",
+      "daCurrent": "Hvilken skole gik han på?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-207",
+      "index": 207,
+      "batch": "batch-201-250",
+      "de": "In Betracht ziehen.",
+      "daCurrent": "Tage hensyn. • Overvej",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-208",
+      "index": 208,
+      "batch": "batch-201-250",
+      "de": "Außer Betracht lassen.",
+      "daCurrent": "Se bort fra. • Overvej ikke",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-209",
+      "index": 209,
+      "batch": "batch-201-250",
+      "de": "Er betreibt ein Hotel.",
+      "daCurrent": "Han driver et hotel.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-210",
+      "index": 210,
+      "batch": "batch-201-250",
+      "de": "Alle beiden.",
+      "daCurrent": "Begge to.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-211",
+      "index": 211,
+      "batch": "batch-201-250",
+      "de": "Alles bezahlen.",
+      "daCurrent": "Betal alt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-212",
+      "index": 212,
+      "batch": "batch-201-250",
+      "de": "Bezüglich auf etwas.",
+      "daCurrent": "Angående noget.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-213",
+      "index": 213,
+      "batch": "batch-201-250",
+      "de": "Bitte schön.",
+      "daCurrent": "Behage",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-214",
+      "index": 214,
+      "batch": "batch-201-250",
+      "de": "Wie bitte?",
+      "daCurrent": "Hvordan venligst",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-215",
+      "index": 215,
+      "batch": "batch-201-250",
+      "de": "Bitte sehr.",
+      "daCurrent": "Behage",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-216",
+      "index": 216,
+      "batch": "batch-201-250",
+      "de": "Ich habe eine Bitte an Sie.",
+      "daCurrent": "Jeg har en anmodning til dig.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-217",
+      "index": 217,
+      "batch": "batch-201-250",
+      "de": "Trompete blasen.",
+      "daCurrent": "Blæs i trompet.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-218",
+      "index": 218,
+      "batch": "batch-201-250",
+      "de": "In einem Buch blättern.",
+      "daCurrent": "Sorter bogen.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-219",
+      "index": 219,
+      "batch": "batch-201-250",
+      "de": "Mit bloßen Füßen.",
+      "daCurrent": "Bare fødder.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-220",
+      "index": 220,
+      "batch": "batch-201-250",
+      "de": "Mit bloßem Auge.",
+      "daCurrent": "Med det blotte øje.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-221",
+      "index": 221,
+      "batch": "batch-201-250",
+      "de": "Danke für die Blumen!",
+      "daCurrent": "Tak for blomsterne!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-222",
+      "index": 222,
+      "batch": "batch-201-250",
+      "de": "Alles in Butter.",
+      "daCurrent": "Alt er fint.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-223",
+      "index": 223,
+      "batch": "batch-201-250",
+      "de": "Bitte checken.",
+      "daCurrent": "Check. • Tjek",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-224",
+      "index": 224,
+      "batch": "batch-201-250",
+      "de": "Da ist er!",
+      "daCurrent": "Her er han!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-225",
+      "index": 225,
+      "batch": "batch-201-250",
+      "de": "Alles spricht dafür.",
+      "daCurrent": "Alt taler godt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-226",
+      "index": 226,
+      "batch": "batch-201-250",
+      "de": "Ich kann nichts dafür.",
+      "daCurrent": "Jeg kan ikke gøre noget der.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-227",
+      "index": 227,
+      "batch": "batch-201-250",
+      "de": "Ich bin dagegen.",
+      "daCurrent": "Jeg er imod det.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-228",
+      "index": 228,
+      "batch": "batch-201-250",
+      "de": "Ich habe nichts dagegen.",
+      "daCurrent": "Det har jeg ikke noget imod.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-229",
+      "index": 229,
+      "batch": "batch-201-250",
+      "de": "Von daheim.",
+      "daCurrent": "Hjemmefra.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-230",
+      "index": 230,
+      "batch": "batch-201-250",
+      "de": "Mit der Dame ziehen.",
+      "daCurrent": "Lav en dames bevægelse.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-231",
+      "index": 231,
+      "batch": "batch-201-250",
+      "de": "Es dämmert.",
+      "daCurrent": "Det er ved at blive mørkt. • Daggry bryder ind.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-232",
+      "index": 232,
+      "batch": "batch-201-250",
+      "de": "Danke schön!",
+      "daCurrent": "Tak! • Tak!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-233",
+      "index": 233,
+      "batch": "batch-201-250",
+      "de": "Dann und wann.",
+      "daCurrent": "Nu og da.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-234",
+      "index": 234,
+      "batch": "batch-201-250",
+      "de": "Darauf kannst du dich verlassen.",
+      "daCurrent": "Det kan du regne med.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-235",
+      "index": 235,
+      "batch": "batch-201-250",
+      "de": "Daraus wird nichts.",
+      "daCurrent": "Det kommer der ikke noget ud af.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-236",
+      "index": 236,
+      "batch": "batch-201-250",
+      "de": "So dass...",
+      "daCurrent": "Så det...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-237",
+      "index": 237,
+      "batch": "batch-201-250",
+      "de": "Für wen halten Sie mich?",
+      "daCurrent": "Hvad tror du, jeg er?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-238",
+      "index": 238,
+      "batch": "batch-201-250",
+      "de": "Hände weg!",
+      "daCurrent": "Hænderne af!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-239",
+      "index": 239,
+      "batch": "batch-201-250",
+      "de": "Lass den Kopf nicht hängen!",
+      "daCurrent": "Sænk ikke hovedet!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-240",
+      "index": 240,
+      "batch": "batch-201-250",
+      "de": "zu Hause",
+      "daCurrent": "Hjemme",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-241",
+      "index": 241,
+      "batch": "batch-201-250",
+      "de": "nach Hause gehen",
+      "daCurrent": "Gå hjem",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-242",
+      "index": 242,
+      "batch": "batch-201-250",
+      "de": "von Haus aus",
+      "daCurrent": "Siden barndommen • Helt fra begyndelsen",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-243",
+      "index": 243,
+      "batch": "batch-201-250",
+      "de": "Meinen herzlichsten Glückwunsch!",
+      "daCurrent": "Tillykke!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-244",
+      "index": 244,
+      "batch": "batch-201-250",
+      "de": "Seien Sie so gut!",
+      "daCurrent": "Vær så venlig! • Vær så god!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-245",
+      "index": 245,
+      "batch": "batch-201-250",
+      "de": "Haben Sie die Güte!",
+      "daCurrent": "Vær så venlig!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-246",
+      "index": 246,
+      "batch": "batch-201-250",
+      "de": "Was hast du?",
+      "daCurrent": "Hvad er der galt med dig? • Hvad skete der?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-247",
+      "index": 247,
+      "batch": "batch-201-250",
+      "de": "Gestatten Sie bitte!",
+      "daCurrent": "Tillad mig, tak!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-248",
+      "index": 248,
+      "batch": "batch-201-250",
+      "de": "Ist es gestattet zu rauchen?",
+      "daCurrent": "Må jeg ryge?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-249",
+      "index": 249,
+      "batch": "batch-201-250",
+      "de": "Ich muss gestehen, dass...",
+      "daCurrent": "Jeg må indrømme at...",
+      "level": "Sätze"
+    }
+  ]
+}

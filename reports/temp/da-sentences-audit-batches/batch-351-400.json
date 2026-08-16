@@ -1,0 +1,408 @@
+{
+  "batch": "batch-351-400",
+  "startIndex": 350,
+  "endIndex": 399,
+  "count": 50,
+  "sentences": [
+    {
+      "cardId": "sentence-350",
+      "index": 350,
+      "batch": "batch-351-400",
+      "de": "So ist es üblich.",
+      "daCurrent": "Det er accepteret.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-351",
+      "index": 351,
+      "batch": "batch-351-400",
+      "de": "Deine Uhr geht nach.",
+      "daCurrent": "Dit ur er bagud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-352",
+      "index": 352,
+      "batch": "batch-351-400",
+      "de": "Wie viel Uhr ist es?",
+      "daCurrent": "Hvad er klokken?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-353",
+      "index": 353,
+      "batch": "batch-351-400",
+      "de": "Um acht Uhr früh.",
+      "daCurrent": "Klokken otte om morgenen.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-354",
+      "index": 354,
+      "batch": "batch-351-400",
+      "de": "umso mehr",
+      "daCurrent": "Jo flere",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-355",
+      "index": 355,
+      "batch": "batch-351-400",
+      "de": "Rechts um!",
+      "daCurrent": "Drej til højre!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-356",
+      "index": 356,
+      "batch": "batch-351-400",
+      "de": "Und ob!",
+      "daCurrent": "Og hvad ellers!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-357",
+      "index": 357,
+      "batch": "batch-351-400",
+      "de": "und zwar",
+      "daCurrent": "Nemlig",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-358",
+      "index": 358,
+      "batch": "batch-351-400",
+      "de": "Auf Unkosten von...",
+      "daCurrent": "På bekostning af...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-359",
+      "index": 359,
+      "batch": "batch-351-400",
+      "de": "Er saß unter den Zuschauern.",
+      "daCurrent": "Han sad blandt publikum.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-360",
+      "index": 360,
+      "batch": "batch-351-400",
+      "de": "Keine Ursache!",
+      "daCurrent": "Intet for ingenting!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-361",
+      "index": 361,
+      "batch": "batch-351-400",
+      "de": "Es geschah, wie verabredet.",
+      "daCurrent": "Det skete som aftalt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-362",
+      "index": 362,
+      "batch": "batch-351-400",
+      "de": "Rauchen verboten!",
+      "daCurrent": "Rygning er forbudt!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-363",
+      "index": 363,
+      "batch": "batch-351-400",
+      "de": "Falsch verbunden!",
+      "daCurrent": "Forkert forbindelse!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-364",
+      "index": 364,
+      "batch": "batch-351-400",
+      "de": "Eintritt verboten!",
+      "daCurrent": "Adgang er forbudt!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-365",
+      "index": 365,
+      "batch": "batch-351-400",
+      "de": "Verstehen Sie mich?",
+      "daCurrent": "Forstår du mig?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-366",
+      "index": 366,
+      "batch": "batch-351-400",
+      "de": "Er versteht nichts davon.",
+      "daCurrent": "Han forstår ikke noget af det.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-367",
+      "index": 367,
+      "batch": "batch-351-400",
+      "de": "Seine Ansicht vertreten.",
+      "daCurrent": "Forsvar din mening.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-368",
+      "index": 368,
+      "batch": "batch-351-400",
+      "de": "Streit verursachen.",
+      "daCurrent": "Skabe et skænderi.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-369",
+      "index": 369,
+      "batch": "batch-351-400",
+      "de": "Viel besser.",
+      "daCurrent": "Meget bedre.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-370",
+      "index": 370,
+      "batch": "batch-351-400",
+      "de": "Zu viel.",
+      "daCurrent": "For meget.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-371",
+      "index": 371,
+      "batch": "batch-351-400",
+      "de": "Vom Hörensagen.",
+      "daCurrent": "Efter at have hørt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-372",
+      "index": 372,
+      "batch": "batch-351-400",
+      "de": "Von Zeit zu Zeit.",
+      "daCurrent": "Fra tid til anden.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-373",
+      "index": 373,
+      "batch": "batch-351-400",
+      "de": "Von Beruf.",
+      "daCurrent": "Af profession.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-374",
+      "index": 374,
+      "batch": "batch-351-400",
+      "de": "Er ist Berliner von Geburt.",
+      "daCurrent": "Han er berliner af fødsel.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-375",
+      "index": 375,
+      "batch": "batch-351-400",
+      "de": "Er steht vor dem Fenster.",
+      "daCurrent": "Han står ved vinduet.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-376",
+      "index": 376,
+      "batch": "batch-351-400",
+      "de": "Vor Sonnenaufgang.",
+      "daCurrent": "Før solopgang.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-377",
+      "index": 377,
+      "batch": "batch-351-400",
+      "de": "Vor vierzehn Tagen.",
+      "daCurrent": "For to uger siden.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-378",
+      "index": 378,
+      "batch": "batch-351-400",
+      "de": "Vor Freude.",
+      "daCurrent": "For sjov.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-379",
+      "index": 379,
+      "batch": "batch-351-400",
+      "de": "Vor allem.",
+      "daCurrent": "Først og fremmest. • Først og fremmest",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-380",
+      "index": 380,
+      "batch": "batch-351-400",
+      "de": "Im Voraus.",
+      "daCurrent": "Tidligere.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-381",
+      "index": 381,
+      "batch": "batch-351-400",
+      "de": "Unter der Voraussetzung, dass...",
+      "daCurrent": "Forudsat at...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-382",
+      "index": 382,
+      "batch": "batch-351-400",
+      "de": "Unter dem Vorbehalt.",
+      "daCurrent": "Betinget.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-383",
+      "index": 383,
+      "batch": "batch-351-400",
+      "de": "Vorhanden sein.",
+      "daCurrent": "At være. • Vær til stede • Vær tilgængelig",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-384",
+      "index": 384,
+      "batch": "batch-351-400",
+      "de": "In der vorigen Woche.",
+      "daCurrent": "Sidste uge.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-385",
+      "index": 385,
+      "batch": "batch-351-400",
+      "de": "Vorkehrungen treffen.",
+      "daCurrent": "Træf foranstaltninger til beskyttelse.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-386",
+      "index": 386,
+      "batch": "batch-351-400",
+      "de": "Sie kommt mir bekannt vor.",
+      "daCurrent": "Hun ser bekendt ud for mig.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-387",
+      "index": 387,
+      "batch": "batch-351-400",
+      "de": "Er hat Vorliebe für Literatur.",
+      "daCurrent": "Han holder meget af litteratur.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-388",
+      "index": 388,
+      "batch": "batch-351-400",
+      "de": "Heute Vormittag.",
+      "daCurrent": "Denne morgen. • I dag om morgenen",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-389",
+      "index": 389,
+      "batch": "batch-351-400",
+      "de": "Von vorn.",
+      "daCurrent": "Forfra.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-390",
+      "index": 390,
+      "batch": "batch-351-400",
+      "de": "Nach vorn.",
+      "daCurrent": "Forward.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-391",
+      "index": 391,
+      "batch": "batch-351-400",
+      "de": "Von vornherein.",
+      "daCurrent": "Allerede i begyndelsen.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-392",
+      "index": 392,
+      "batch": "batch-351-400",
+      "de": "Im Vorteil sein.",
+      "daCurrent": "Vær i en bedre position.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-393",
+      "index": 393,
+      "batch": "batch-351-400",
+      "de": "Wach sein.",
+      "daCurrent": "At være vågen.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-394",
+      "index": 394,
+      "batch": "batch-351-400",
+      "de": "Wach werden.",
+      "daCurrent": "Vågn op.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-395",
+      "index": 395,
+      "batch": "batch-351-400",
+      "de": "Auf Wache sein.",
+      "daCurrent": "Stå vagt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-396",
+      "index": 396,
+      "batch": "batch-351-400",
+      "de": "Während eines Jahres.",
+      "daCurrent": "I løbet af året.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-397",
+      "index": 397,
+      "batch": "batch-351-400",
+      "de": "Während des Krieges.",
+      "daCurrent": "Under krigen.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-398",
+      "index": 398,
+      "batch": "batch-351-400",
+      "de": "Gegen eine Wand reden.",
+      "daCurrent": "Tal forgæves.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-399",
+      "index": 399,
+      "batch": "batch-351-400",
+      "de": "Hier haben die Wände Ohren.",
+      "daCurrent": "Her har væggene ører.",
+      "level": "Sätze"
+    }
+  ]
+}

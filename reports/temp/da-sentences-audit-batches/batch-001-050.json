@@ -1,0 +1,408 @@
+{
+  "batch": "batch-001-050",
+  "startIndex": 0,
+  "endIndex": 49,
+  "count": 50,
+  "sentences": [
+    {
+      "cardId": "sentence-0",
+      "index": 0,
+      "batch": "batch-001-050",
+      "de": "Hüte dich davor!",
+      "daCurrent": "Pas på det!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-1",
+      "index": 1,
+      "batch": "batch-001-050",
+      "de": "Wenn nichts dazwischenkommt.",
+      "daCurrent": "Hvis intet forstyrrer. • Hvis alt går efter planen.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-2",
+      "index": 2,
+      "batch": "batch-001-050",
+      "de": "Das kann ich mir denken!",
+      "daCurrent": "Jeg ved det!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-3",
+      "index": 3,
+      "batch": "batch-001-050",
+      "de": "Ist er denn krank?",
+      "daCurrent": "Er han så syg?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-4",
+      "index": 4,
+      "batch": "batch-001-050",
+      "de": "Was denn?",
+      "daCurrent": "Hvad så?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-5",
+      "index": 5,
+      "batch": "batch-001-050",
+      "de": "Desto mehr.",
+      "daCurrent": "Jo flere.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-6",
+      "index": 6,
+      "batch": "batch-001-050",
+      "de": "Je mehr, desto besser.",
+      "daCurrent": "Jo flere jo bedre.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-7",
+      "index": 7,
+      "batch": "batch-001-050",
+      "de": "Alles deutet auf Regen.",
+      "daCurrent": "Alt peger på sagen.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-8",
+      "index": 8,
+      "batch": "batch-001-050",
+      "de": "Damit ist mir wenig gedient.",
+      "daCurrent": "Det giver lidt mening for mig.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-9",
+      "index": 9,
+      "batch": "batch-001-050",
+      "de": "Er ist dienstlich verhindert.",
+      "daCurrent": "Han kan ikke komme på grund af arbejde.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-10",
+      "index": 10,
+      "batch": "batch-001-050",
+      "de": "Sprechen Sie doch!",
+      "daCurrent": "Sig op!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-11",
+      "index": 11,
+      "batch": "batch-001-050",
+      "de": "Es donnert.",
+      "daCurrent": "Torden brøler.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-12",
+      "index": 12,
+      "batch": "batch-001-050",
+      "de": "Doppelt so groß.",
+      "daCurrent": "Dobbelt så stor.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-13",
+      "index": 13,
+      "batch": "batch-001-050",
+      "de": "Von dort.",
+      "daCurrent": "Derfra.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-14",
+      "index": 14,
+      "batch": "batch-001-050",
+      "de": "Die Zeit drängt.",
+      "daCurrent": "Tiden løber ud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-15",
+      "index": 15,
+      "batch": "batch-001-050",
+      "de": "Ihn drücken Sorgen.",
+      "daCurrent": "Han er overvældet af bekymring.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-16",
+      "index": 16,
+      "batch": "batch-001-050",
+      "de": "Hast du das Buch durchgearbeitet?",
+      "daCurrent": "Har du gennemgået bogen nøje?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-17",
+      "index": 17,
+      "batch": "batch-001-050",
+      "de": "Kein Durchgang!",
+      "daCurrent": "Gå ikke igennem! • Udgang lukket!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-18",
+      "index": 18,
+      "batch": "batch-001-050",
+      "de": "Darf ich Sie bitten?",
+      "daCurrent": "Må jeg spørge dig",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-19",
+      "index": 19,
+      "batch": "batch-001-050",
+      "de": "Ich bin durstig.",
+      "daCurrent": "Jeg er tørstig.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-20",
+      "index": 20,
+      "batch": "batch-001-050",
+      "de": "Eben das meine ich.",
+      "daCurrent": "Det er præcis, hvad jeg mener.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-21",
+      "index": 21,
+      "batch": "batch-001-050",
+      "de": "Es ist ganz egal.",
+      "daCurrent": "Det betyder overhovedet ikke noget.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-22",
+      "index": 22,
+      "batch": "batch-001-050",
+      "de": "Was wollen Sie eigentlich?",
+      "daCurrent": "Hvad vil du egentlig?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-23",
+      "index": 23,
+      "batch": "batch-001-050",
+      "de": "Eilt es mit dieser Sache?",
+      "daCurrent": "Er denne sag presserende?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-24",
+      "index": 24,
+      "batch": "batch-001-050",
+      "de": "Eilt sehr!",
+      "daCurrent": "Meget presserende!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-25",
+      "index": 25,
+      "batch": "batch-001-050",
+      "de": "Ich habe es eilig.",
+      "daCurrent": "Jeg har travlt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-26",
+      "index": 26,
+      "batch": "batch-001-050",
+      "de": "Du bildest dir nur ein, krank zu sein.",
+      "daCurrent": "Du forestiller dig bare, at du er syg.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-27",
+      "index": 27,
+      "batch": "batch-001-050",
+      "de": "Was fällt dir ein?",
+      "daCurrent": "Hvad falder dig ind?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-28",
+      "index": 28,
+      "batch": "batch-001-050",
+      "de": "Es war einmal.",
+      "daCurrent": "Engang var der.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-29",
+      "index": 29,
+      "batch": "batch-001-050",
+      "de": "Steigen Sie bitte ein!",
+      "daCurrent": "Kom venligst ind!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-30",
+      "index": 30,
+      "batch": "batch-001-050",
+      "de": "Treten Sie ein!",
+      "daCurrent": "Kom venligst ind!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-31",
+      "index": 31,
+      "batch": "batch-001-050",
+      "de": "Einzelnes hat mir dort gefallen.",
+      "daCurrent": "Jeg kunne godt lide nogle ting der.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-32",
+      "index": 32,
+      "batch": "batch-001-050",
+      "de": "Es empfiehlt sich.",
+      "daCurrent": "Det anbefales.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-33",
+      "index": 33,
+      "batch": "batch-001-050",
+      "de": "Diese Flasche enthält Essig.",
+      "daCurrent": "Denne flaske indeholder eddike.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-34",
+      "index": 34,
+      "batch": "batch-001-050",
+      "de": "Entschuldigen Sie bitte!",
+      "daCurrent": "Undskyld mig, tak!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-35",
+      "index": 35,
+      "batch": "batch-001-050",
+      "de": "Entweder... oder...",
+      "daCurrent": "Enten... eller...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-36",
+      "index": 36,
+      "batch": "batch-001-050",
+      "de": "Wer war der Erste?",
+      "daCurrent": "Wen var først?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-37",
+      "index": 37,
+      "batch": "batch-001-050",
+      "de": "Wer fehlt heute?",
+      "daCurrent": "Wen er ikke kommet i dag?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-38",
+      "index": 38,
+      "batch": "batch-001-050",
+      "de": "Was fehlt dir?",
+      "daCurrent": "Hvad er der galt med dig?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-39",
+      "index": 39,
+      "batch": "batch-001-050",
+      "de": "Wie heißen Sie?",
+      "daCurrent": "Hvad er dit navn?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-40",
+      "index": 40,
+      "batch": "batch-001-050",
+      "de": "Was soll das heißen?",
+      "daCurrent": "Hvad betyder det?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-41",
+      "index": 41,
+      "batch": "batch-001-050",
+      "de": "Bitte treten Sie näher heran!",
+      "daCurrent": "Kom venligst nærmere!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-42",
+      "index": 42,
+      "batch": "batch-001-050",
+      "de": "Heraus mit der Sprache!",
+      "daCurrent": "Tale! • Historier!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-43",
+      "index": 43,
+      "batch": "batch-001-050",
+      "de": "im Herbst",
+      "daCurrent": "I efteråret",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-44",
+      "index": 44,
+      "batch": "batch-001-050",
+      "de": "Meine Herrschaften!",
+      "daCurrent": "Mine damer og herrer!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-45",
+      "index": 45,
+      "batch": "batch-001-050",
+      "de": "von heute an",
+      "daCurrent": "Starter i dag",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-46",
+      "index": 46,
+      "batch": "batch-001-050",
+      "de": "heute früh",
+      "daCurrent": "Denne morgen",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-47",
+      "index": 47,
+      "batch": "batch-001-050",
+      "de": "heute Nacht",
+      "daCurrent": "I går aftes",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-48",
+      "index": 48,
+      "batch": "batch-001-050",
+      "de": "Zu Hilfe!",
+      "daCurrent": "Hjælp!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-49",
+      "index": 49,
+      "batch": "batch-001-050",
+      "de": "Ich lerne jeden Tag Deutsch.",
+      "daCurrent": "Jeg studerer tysk hver dag.",
+      "level": "Sätze"
+    }
+  ]
+}

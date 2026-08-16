@@ -1,0 +1,408 @@
+{
+  "batch": "batch-601-650",
+  "startIndex": 600,
+  "endIndex": 649,
+  "count": 50,
+  "sentences": [
+    {
+      "cardId": "sentence-600",
+      "index": 600,
+      "batch": "batch-601-650",
+      "de": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!",
+      "daCurrent": "Ring til en taxa, ellers går jeg glip af toget!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-601",
+      "index": 601,
+      "batch": "batch-601-650",
+      "de": "Fahr bitte zum Bahnhof!",
+      "daCurrent": "Tag mig venligst til stationen!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-602",
+      "index": 602,
+      "batch": "batch-601-650",
+      "de": "Ich muss mich beeilen.",
+      "daCurrent": "Jeg skal skynde mig.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-603",
+      "index": 603,
+      "batch": "batch-601-650",
+      "de": "Ist der Schalter schon offen?",
+      "daCurrent": "Er billetkontoret åbent endnu?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-604",
+      "index": 604,
+      "batch": "batch-601-650",
+      "de": "Eine Fahrkarte nach Köln, bitte.",
+      "daCurrent": "En billet til Köln, tak.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-605",
+      "index": 605,
+      "batch": "batch-601-650",
+      "de": "Wann fährt der Zug ab?",
+      "daCurrent": "Hvornår kører toget?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-606",
+      "index": 606,
+      "batch": "batch-601-650",
+      "de": "Der Zug fährt gleich ab.",
+      "daCurrent": "Toget kører snart.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-607",
+      "index": 607,
+      "batch": "batch-601-650",
+      "de": "Muss ich in Koblenz umsteigen?",
+      "daCurrent": "Skal jeg skifte plads i Koblenz?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-608",
+      "index": 608,
+      "batch": "batch-601-650",
+      "de": "Ja, dort musst du umsteigen.",
+      "daCurrent": "Ja, du skal skifte plads der.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-609",
+      "index": 609,
+      "batch": "batch-601-650",
+      "de": "Ist dieser Platz frei?",
+      "daCurrent": "Er dette sted ledigt?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-610",
+      "index": 610,
+      "batch": "batch-601-650",
+      "de": "Nein, hier sitzt niemand.",
+      "daCurrent": "Nein, her sidder ingen.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-611",
+      "index": 611,
+      "batch": "batch-601-650",
+      "de": "Wo ist der Bahnsteigkartenautomat?",
+      "daCurrent": "Hvor er platformsbilletautomaten?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-612",
+      "index": 612,
+      "batch": "batch-601-650",
+      "de": "Stell mein Handgepäck ins Gepäcknetz.",
+      "daCurrent": "Læg min håndbagage i nettet.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-613",
+      "index": 613,
+      "batch": "batch-601-650",
+      "de": "Kann ich das Fenster aufmachen?",
+      "daCurrent": "Må jeg åbne vinduet?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-614",
+      "index": 614,
+      "batch": "batch-601-650",
+      "de": "Es zieht, schließ bitte das Fenster!",
+      "daCurrent": "Træk igennem, luk venligst vinduet!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-615",
+      "index": 615,
+      "batch": "batch-601-650",
+      "de": "Welche ist die nächste Station?",
+      "daCurrent": "Hvad er næste stop?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-616",
+      "index": 616,
+      "batch": "batch-601-650",
+      "de": "Wie lange hält der Zug?",
+      "daCurrent": "Hvor længe står toget?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-617",
+      "index": 617,
+      "batch": "batch-601-650",
+      "de": "Wo muss ich umsteigen?",
+      "daCurrent": "Hvor skal jeg overføre?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-618",
+      "index": 618,
+      "batch": "batch-601-650",
+      "de": "Der Zug hat Verspätung.",
+      "daCurrent": "Toget er forsinket.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-619",
+      "index": 619,
+      "batch": "batch-601-650",
+      "de": "Dieser Wagen ist für Nichtraucher.",
+      "daCurrent": "Denne vogn er ikke-ryger.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-620",
+      "index": 620,
+      "batch": "batch-601-650",
+      "de": "Wir fahren jetzt über die Grenze.",
+      "daCurrent": "Nu kører vi over grænsen.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-621",
+      "index": 621,
+      "batch": "batch-601-650",
+      "de": "Hast du etwas zu verzollen?",
+      "daCurrent": "Har du noget at rydde op?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-622",
+      "index": 622,
+      "batch": "batch-601-650",
+      "de": "Wir sind in Berlin angekommen.",
+      "daCurrent": "Vi er ankommet til Berlin.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-623",
+      "index": 623,
+      "batch": "batch-601-650",
+      "de": "Kannst du mir ein gutes Hotel empfehlen?",
+      "daCurrent": "Kan du anbefale et godt hotel?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-624",
+      "index": 624,
+      "batch": "batch-601-650",
+      "de": "Haben Sie freie Zimmer?",
+      "daCurrent": "Har du nogle ledige værelser?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-625",
+      "index": 625,
+      "batch": "batch-601-650",
+      "de": "Ein Zimmer mit zwei Betten, bitte.",
+      "daCurrent": "Et værelse med to senge, tak.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-626",
+      "index": 626,
+      "batch": "batch-601-650",
+      "de": "Was kostet das Zimmer pro Nacht?",
+      "daCurrent": "Hvor meget koster værelset per nat?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-627",
+      "index": 627,
+      "batch": "batch-601-650",
+      "de": "Morgen reise ich ab. Weck mich um sieben Uhr!",
+      "daCurrent": "Jeg tager afsted i morgen. Væk mig klokken syv!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-628",
+      "index": 628,
+      "batch": "batch-601-650",
+      "de": "Die Rechnung, bitte!",
+      "daCurrent": "Bill, tak!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-629",
+      "index": 629,
+      "batch": "batch-601-650",
+      "de": "Wo ist die Stadtbibliothek?",
+      "daCurrent": "Hvor er byens bibliotek?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-630",
+      "index": 630,
+      "batch": "batch-601-650",
+      "de": "Wann hat das Museum geöffnet?",
+      "daCurrent": "Hvornår er museet åbent?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-631",
+      "index": 631,
+      "batch": "batch-601-650",
+      "de": "Wollen wir ins Museum gehen?",
+      "daCurrent": "Skal vi gå på museum?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-632",
+      "index": 632,
+      "batch": "batch-601-650",
+      "de": "Fahren wir mit dem Bus oder der U-Bahn?",
+      "daCurrent": "Skal vi med bus eller metro?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-633",
+      "index": 633,
+      "batch": "batch-601-650",
+      "de": "Wo ist die nächste Bushaltestelle?",
+      "daCurrent": "Hvor er det nærmeste busstoppested?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-634",
+      "index": 634,
+      "batch": "batch-601-650",
+      "de": "Ich habe großen Hunger.",
+      "daCurrent": "Jeg er meget sulten.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-635",
+      "index": 635,
+      "batch": "batch-601-650",
+      "de": "Gehen wir zusammen essen?",
+      "daCurrent": "Skal vi spise sammen?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-636",
+      "index": 636,
+      "batch": "batch-601-650",
+      "de": "Kellner, die Speisekarte, bitte!",
+      "daCurrent": "Tjener, menu, tak!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-637",
+      "index": 637,
+      "batch": "batch-601-650",
+      "de": "Ist der Fisch frisch?",
+      "daCurrent": "Er fisken frisk?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-638",
+      "index": 638,
+      "batch": "batch-601-650",
+      "de": "Das schmeckt ausgezeichnet!",
+      "daCurrent": "Det smager fantastisk!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-639",
+      "index": 639,
+      "batch": "batch-601-650",
+      "de": "Kellner, zahlen bitte!",
+      "daCurrent": "Tjener, betal venligst!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-640",
+      "index": 640,
+      "batch": "batch-601-650",
+      "de": "Ich gehe ins Café einen Kaffee trinken.",
+      "daCurrent": "Jeg vil gå på cafe for at drikke kaffe.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-641",
+      "index": 641,
+      "batch": "batch-601-650",
+      "de": "Willst du mitkommen?",
+      "daCurrent": "Vil du med?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-642",
+      "index": 642,
+      "batch": "batch-601-650",
+      "de": "Eine Tasse Kaffee mit Milch, bitte!",
+      "daCurrent": "En kop kaffe med mælk, tak!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-643",
+      "index": 643,
+      "batch": "batch-601-650",
+      "de": "Bitte schneller, ich habe es eilig!",
+      "daCurrent": "Hurtigere tak, jeg skal skynde mig!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-644",
+      "index": 644,
+      "batch": "batch-601-650",
+      "de": "Lass deinen Kaffee nicht kalt werden!",
+      "daCurrent": "Lad ikke kaffen blive kold!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-645",
+      "index": 645,
+      "batch": "batch-601-650",
+      "de": "Haben Sie etwas Erfrischendes?",
+      "daCurrent": "Har du noget forfriskende?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-646",
+      "index": 646,
+      "batch": "batch-601-650",
+      "de": "Eine Portion Eis, bitte!",
+      "daCurrent": "En portion is, tak!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-647",
+      "index": 647,
+      "batch": "batch-601-650",
+      "de": "Heute Morgen habe ich einen Brief bekommen.",
+      "daCurrent": "Jeg modtog et brev i morges.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-648",
+      "index": 648,
+      "batch": "batch-601-650",
+      "de": "Ich muss ihm gleich schreiben.",
+      "daCurrent": "Jeg må skrive til ham nu.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-649",
+      "index": 649,
+      "batch": "batch-601-650",
+      "de": "Wo ist der nächste Briefkasten?",
+      "daCurrent": "Hvor er den nærmeste postkasse?",
+      "level": "Sätze"
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "batch": "batch-401-450",
+  "startIndex": 400,
+  "endIndex": 449,
+  "count": 50,
+  "sentences": [
+    {
+      "cardId": "sentence-400",
+      "index": 400,
+      "batch": "batch-401-450",
+      "de": "Bis wann?",
+      "daCurrent": "Indtil hvornår?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-401",
+      "index": 401,
+      "batch": "batch-401-450",
+      "de": "Es ist warm.",
+      "daCurrent": "Det er varmt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-402",
+      "index": 402,
+      "batch": "batch-401-450",
+      "de": "Auf eine Nachricht warten.",
+      "daCurrent": "Vent på beskeden.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-403",
+      "index": 403,
+      "batch": "batch-401-450",
+      "de": "Was wollen Sie?",
+      "daCurrent": "Hvad vil du?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-404",
+      "index": 404,
+      "batch": "batch-401-450",
+      "de": "Was für ein...?",
+      "daCurrent": "Hvilken...? • Hvad for en...?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-405",
+      "index": 405,
+      "batch": "batch-401-450",
+      "de": "Auf halbem Wege.",
+      "daCurrent": "Halvvejs.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-406",
+      "index": 406,
+      "batch": "batch-401-450",
+      "de": "Auf diesem Wege.",
+      "daCurrent": "På den måde. • For sådanne midler",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-407",
+      "index": 407,
+      "batch": "batch-401-450",
+      "de": "Auf friedlichem Wege.",
+      "daCurrent": "På fredens vej.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-408",
+      "index": 408,
+      "batch": "batch-401-450",
+      "de": "Unserer Freundschaft wegen.",
+      "daCurrent": "På grund af vores venskab.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-409",
+      "index": 409,
+      "batch": "batch-401-450",
+      "de": "Von Rechts wegen.",
+      "daCurrent": "Ved retfærdighed.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-410",
+      "index": 410,
+      "batch": "batch-401-450",
+      "de": "Weh tun.",
+      "daCurrent": "At gøre ondt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-411",
+      "index": 411,
+      "batch": "batch-401-450",
+      "de": "Zu Weihnachten.",
+      "daCurrent": "I julen.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-412",
+      "index": 412,
+      "batch": "batch-401-450",
+      "de": "Auf welche Weise?",
+      "daCurrent": "På hvilken måde?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-413",
+      "index": 413,
+      "batch": "batch-401-450",
+      "de": "Art und Weise.",
+      "daCurrent": "Type.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-414",
+      "index": 414,
+      "batch": "batch-401-450",
+      "de": "Ohne weiteres.",
+      "daCurrent": "Straks. • Straks",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-415",
+      "index": 415,
+      "batch": "batch-401-450",
+      "de": "Bis auf weiteres.",
+      "daCurrent": "Indtil videre.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-416",
+      "index": 416,
+      "batch": "batch-401-450",
+      "de": "Und so weiter.",
+      "daCurrent": "Og så videre.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-417",
+      "index": 417,
+      "batch": "batch-401-450",
+      "de": "Weiter nichts.",
+      "daCurrent": "Ikke mere.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-418",
+      "index": 418,
+      "batch": "batch-401-450",
+      "de": "An welchem Tag?",
+      "daCurrent": "På hvilken dag?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-419",
+      "index": 419,
+      "batch": "batch-401-450",
+      "de": "Alle Welt.",
+      "daCurrent": "Hele verden. • Alle",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-420",
+      "index": 420,
+      "batch": "batch-401-450",
+      "de": "In wenigen Tagen.",
+      "daCurrent": "I nogle dage.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-421",
+      "index": 421,
+      "batch": "batch-401-450",
+      "de": "Zu wenig.",
+      "daCurrent": "For lidt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-422",
+      "index": 422,
+      "batch": "batch-401-450",
+      "de": "Wenn auch.",
+      "daCurrent": "Skønt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-423",
+      "index": 423,
+      "batch": "batch-401-450",
+      "de": "Wer da?",
+      "daCurrent": "Hvad er der?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-424",
+      "index": 424,
+      "batch": "batch-401-450",
+      "de": "Gesammelte Werke von Schiller.",
+      "daCurrent": "Schillers samlede skrifter.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-425",
+      "index": 425,
+      "batch": "batch-401-450",
+      "de": "Ausgewählte Werke.",
+      "daCurrent": "Et udvalg af værker.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-426",
+      "index": 426,
+      "batch": "batch-401-450",
+      "de": "Er ist wert, dass...",
+      "daCurrent": "Han fortjener at...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-427",
+      "index": 427,
+      "batch": "batch-401-450",
+      "de": "Es ist zwei Euro wert.",
+      "daCurrent": "Det koster to euro.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-428",
+      "index": 428,
+      "batch": "batch-401-450",
+      "de": "Nach Westen.",
+      "daCurrent": "Mod vest.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-429",
+      "index": 429,
+      "batch": "batch-401-450",
+      "de": "Von Westen.",
+      "daCurrent": "Fra vest.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-430",
+      "index": 430,
+      "batch": "batch-401-450",
+      "de": "In Wettbewerb treten.",
+      "daCurrent": "Deltag i konkurrencen.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-431",
+      "index": 431,
+      "batch": "batch-401-450",
+      "de": "Um die Wette laufen.",
+      "daCurrent": "Løb løbet.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-432",
+      "index": 432,
+      "batch": "batch-401-450",
+      "de": "Was gilt die Wette?",
+      "daCurrent": "Hvad forhandler vi om?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-433",
+      "index": 433,
+      "batch": "batch-401-450",
+      "de": "Wie wird das Wetter?",
+      "daCurrent": "Hvordan bliver vejret?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-434",
+      "index": 434,
+      "batch": "batch-401-450",
+      "de": "Wettkampf im Turnen.",
+      "daCurrent": "Konkurrencer i gymnastik.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-435",
+      "index": 435,
+      "batch": "batch-401-450",
+      "de": "Wider meinen Willen.",
+      "daCurrent": "Mod min vilje.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-436",
+      "index": 436,
+      "batch": "batch-401-450",
+      "de": "Widerspruch erheben.",
+      "daCurrent": "At protestere. • Fremsætte indsigelser",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-437",
+      "index": 437,
+      "batch": "batch-401-450",
+      "de": "Wie alt ist er?",
+      "daCurrent": "Hvor gammel er han?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-438",
+      "index": 438,
+      "batch": "batch-401-450",
+      "de": "Wie lange?",
+      "daCurrent": "Hvor længe",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-439",
+      "index": 439,
+      "batch": "batch-401-450",
+      "de": "Auf Wiederhören!",
+      "daCurrent": "Farvel!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-440",
+      "index": 440,
+      "batch": "batch-401-450",
+      "de": "Auf Wiedersehen!",
+      "daCurrent": "Farvel!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-441",
+      "index": 441,
+      "batch": "batch-401-450",
+      "de": "Wilde Tiere.",
+      "daCurrent": "Vilde dyr.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-442",
+      "index": 442,
+      "batch": "batch-401-450",
+      "de": "Herzlich willkommen!",
+      "daCurrent": "Varme hilsner!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-443",
+      "index": 443,
+      "batch": "batch-401-450",
+      "de": "Du musst ziehen.",
+      "daCurrent": "Du har et træk.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-444",
+      "index": 444,
+      "batch": "batch-401-450",
+      "de": "Es zieht.",
+      "daCurrent": "Træk",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-445",
+      "index": 445,
+      "batch": "batch-401-450",
+      "de": "Ziemlich kalt.",
+      "daCurrent": "Ganske koldt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-446",
+      "index": 446,
+      "batch": "batch-401-450",
+      "de": "Zipfel einer Wurst.",
+      "daCurrent": "Pølse tip.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-447",
+      "index": 447,
+      "batch": "batch-401-450",
+      "de": "Zu ihm gehen.",
+      "daCurrent": "Gå til ham.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-448",
+      "index": 448,
+      "batch": "batch-401-450",
+      "de": "Zur Schule gehen.",
+      "daCurrent": "Gå i skole.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-449",
+      "index": 449,
+      "batch": "batch-401-450",
+      "de": "Zu Hause bleiben.",
+      "daCurrent": "Bliv hjemme.",
+      "level": "Sätze"
+    }
+  ]
+}

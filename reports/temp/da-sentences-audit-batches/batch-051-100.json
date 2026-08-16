@@ -1,0 +1,408 @@
+{
+  "batch": "batch-051-100",
+  "startIndex": 50,
+  "endIndex": 99,
+  "count": 50,
+  "sentences": [
+    {
+      "cardId": "sentence-50",
+      "index": 50,
+      "batch": "batch-051-100",
+      "de": "Kannst du das bitte wiederholen?",
+      "daCurrent": "Kan du venligst gentage det?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-51",
+      "index": 51,
+      "batch": "batch-051-100",
+      "de": "Wir treffen uns am Bahnhof.",
+      "daCurrent": "Vi mødes på banegården.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-52",
+      "index": 52,
+      "batch": "batch-051-100",
+      "de": "Ich stimme dir teilweise zu.",
+      "daCurrent": "Jeg er til dels enig med dig.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-53",
+      "index": 53,
+      "batch": "batch-051-100",
+      "de": "Diese Entscheidung hat weitreichende Folgen.",
+      "daCurrent": "Denne beslutning har vidtrækkende konsekvenser.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-54",
+      "index": 54,
+      "batch": "batch-051-100",
+      "de": "Man sollte mehrere Perspektiven berücksichtigen.",
+      "daCurrent": "Flere perspektiver bør overvejes.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-55",
+      "index": 55,
+      "batch": "batch-051-100",
+      "de": "Könnten Sie das näher erläutern?",
+      "daCurrent": "Kan du forklare dette mere detaljeret?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-56",
+      "index": 56,
+      "batch": "batch-051-100",
+      "de": "Was mich anbelangt,...",
+      "daCurrent": "Hvad mig angår...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-57",
+      "index": 57,
+      "batch": "batch-051-100",
+      "de": "Wie alt sind Sie?",
+      "daCurrent": "Hvor gammel er du?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-58",
+      "index": 58,
+      "batch": "batch-051-100",
+      "de": "Ich bin zwanzig Jahre alt.",
+      "daCurrent": "Jeg er tyve år gammel.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-59",
+      "index": 59,
+      "batch": "batch-051-100",
+      "de": "Von heute an.",
+      "daCurrent": "Fra i dag.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-60",
+      "index": 60,
+      "batch": "batch-051-100",
+      "de": "Von jetzt an.",
+      "daCurrent": "Fra nu af.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-61",
+      "index": 61,
+      "batch": "batch-051-100",
+      "de": "Anders geht es nicht.",
+      "daCurrent": "Der er ingen anden måde.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-62",
+      "index": 62,
+      "batch": "batch-051-100",
+      "de": "Rufen Sie mich an.",
+      "daCurrent": "Ring til mig.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-63",
+      "index": 63,
+      "batch": "batch-051-100",
+      "de": "Bitte stellen Sie das Radio ab.",
+      "daCurrent": "Sluk venligst for radioen.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-64",
+      "index": 64,
+      "batch": "batch-051-100",
+      "de": "Achte bitte auf den Verkehr.",
+      "daCurrent": "Vær opmærksom på trafikken.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-65",
+      "index": 65,
+      "batch": "batch-051-100",
+      "de": "Darauf musst du achten.",
+      "daCurrent": "Det bør du være opmærksom på.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-66",
+      "index": 66,
+      "batch": "batch-051-100",
+      "de": "Heute mache ich es anders.",
+      "daCurrent": "I dag vil jeg gøre det anderledes.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-67",
+      "index": 67,
+      "batch": "batch-051-100",
+      "de": "Wir warten auf den Bus.",
+      "daCurrent": "Vi venter på bussen.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-68",
+      "index": 68,
+      "batch": "batch-051-100",
+      "de": "Er wohnt allein.",
+      "daCurrent": "Han bor alene.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-69",
+      "index": 69,
+      "batch": "batch-051-100",
+      "de": "Ich habe die Ausbildung absolviert.",
+      "daCurrent": "Jeg afsluttede min uddannelse. • Jeg afsluttede min uddannelse.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-70",
+      "index": 70,
+      "batch": "batch-051-100",
+      "de": "Ich warte den Regen ab.",
+      "daCurrent": "Jeg venter på, at regnen holder op.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-71",
+      "index": 71,
+      "batch": "batch-051-100",
+      "de": "Er arbeitet in der Verkaufsabteilung.",
+      "daCurrent": "Han arbejder i salgsafdelingen.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-72",
+      "index": 72,
+      "batch": "batch-051-100",
+      "de": "Ich bin allergisch gegen Katzen.",
+      "daCurrent": "Jeg er allergisk over for katte.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-73",
+      "index": 73,
+      "batch": "batch-051-100",
+      "de": "Andererseits verstehe ich ihn.",
+      "daCurrent": "På den anden side forstår jeg ham.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-74",
+      "index": 74,
+      "batch": "batch-051-100",
+      "de": "Ich habe die Situation analysiert.",
+      "daCurrent": "Jeg analyserede situationen.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-75",
+      "index": 75,
+      "batch": "batch-051-100",
+      "de": "Sie hat meinen Vorschlag akzeptiert.",
+      "daCurrent": "Hun accepterede mit forslag.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-76",
+      "index": 76,
+      "batch": "batch-051-100",
+      "de": "Ich möchte das genauer analysieren.",
+      "daCurrent": "Jeg vil gerne analysere det mere præcist.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-77",
+      "index": 77,
+      "batch": "batch-051-100",
+      "de": "Ich möchte den Vertrag ändern.",
+      "daCurrent": "Jeg vil ændre kontrakten.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-78",
+      "index": 78,
+      "batch": "batch-051-100",
+      "de": "Er ändert ständig seine Meinung.",
+      "daCurrent": "Han ændrer konstant mening.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-79",
+      "index": 79,
+      "batch": "batch-051-100",
+      "de": "Ähnliche Probleme hatten wir schon früher.",
+      "daCurrent": "Vi havde lignende problemer før.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-80",
+      "index": 80,
+      "batch": "batch-051-100",
+      "de": "Keine Ahnung!",
+      "daCurrent": "Ingen anelse!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-81",
+      "index": 81,
+      "batch": "batch-051-100",
+      "de": "Hör auf zu jammern.",
+      "daCurrent": "Lad være med at klage.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-82",
+      "index": 82,
+      "batch": "batch-051-100",
+      "de": "Dieses Kleid ist akademisch gekleidet.",
+      "daCurrent": "Denne kjole er stilfuldt konservativ.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-83",
+      "index": 83,
+      "batch": "batch-051-100",
+      "de": "Ich höre gerne Akkordeonmusik.",
+      "daCurrent": "Jeg kan godt lide at lytte til harmonikamusik.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-84",
+      "index": 84,
+      "batch": "batch-051-100",
+      "de": "Kannst du das Gerät anklicken?",
+      "daCurrent": "Kan du klikke på enheden?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-85",
+      "index": 85,
+      "batch": "batch-051-100",
+      "de": "Bitte öffne die Datei und klicke darauf.",
+      "daCurrent": "Åbn venligst filen og klik på den.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-86",
+      "index": 86,
+      "batch": "batch-051-100",
+      "de": "Ich habe einen Unfall gehabt.",
+      "daCurrent": "Jeg var ude for en ulykke.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-87",
+      "index": 87,
+      "batch": "batch-051-100",
+      "de": "Wir laufen zum Bahnhof.",
+      "daCurrent": "Vi går til stationen.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-88",
+      "index": 88,
+      "batch": "batch-051-100",
+      "de": "Bitte schalte den Fernseher an.",
+      "daCurrent": "Tænd venligst for tv'et.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-89",
+      "index": 89,
+      "batch": "batch-051-100",
+      "de": "Mein Computer ist abgestürzt.",
+      "daCurrent": "Min computer er gået ned.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-90",
+      "index": 90,
+      "batch": "batch-051-100",
+      "de": "Am Wochenende gehe ich angeln.",
+      "daCurrent": "Jeg skal ud at fiske i weekenden.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-91",
+      "index": 91,
+      "batch": "batch-051-100",
+      "de": "Ich habe den Anruf verpasst.",
+      "daCurrent": "Jeg gik glip af opkaldet.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-92",
+      "index": 92,
+      "batch": "batch-051-100",
+      "de": "Kannst du mich später anrufen?",
+      "daCurrent": "Kan du ringe til mig senere",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-93",
+      "index": 93,
+      "batch": "batch-051-100",
+      "de": "Bitte nimm meinen Vorschlag an.",
+      "daCurrent": "Accepter venligst mit forslag.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-94",
+      "index": 94,
+      "batch": "batch-051-100",
+      "de": "Ich nehme dein Angebot an.",
+      "daCurrent": "Jeg accepterer dit tilbud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-95",
+      "index": 95,
+      "batch": "batch-051-100",
+      "de": "Er nahm die Einladung an.",
+      "daCurrent": "Han tog imod invitationen.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-96",
+      "index": 96,
+      "batch": "batch-051-100",
+      "de": "Ich habe Angst vor Spinnen.",
+      "daCurrent": "Jeg er bange for edderkopper.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-97",
+      "index": 97,
+      "batch": "batch-051-100",
+      "de": "Keine Angst, alles wird gut.",
+      "daCurrent": "Vær ikke bange, alt vil være godt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-98",
+      "index": 98,
+      "batch": "batch-051-100",
+      "de": "Anklang finden.",
+      "daCurrent": "Find et ekko. • Find lydhørhed",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-99",
+      "index": 99,
+      "batch": "batch-051-100",
+      "de": "Es kommt darauf an.",
+      "daCurrent": "Det afhænger af det.",
+      "level": "Sätze"
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "batch": "batch-551-600",
+  "startIndex": 550,
+  "endIndex": 599,
+  "count": 50,
+  "sentences": [
+    {
+      "cardId": "sentence-550",
+      "index": 550,
+      "batch": "batch-551-600",
+      "de": "Nimm den Regenschirm mit!",
+      "daCurrent": "Tag en paraply med!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-551",
+      "index": 551,
+      "batch": "batch-551-600",
+      "de": "Es regnet.",
+      "daCurrent": "Det regner.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-552",
+      "index": 552,
+      "batch": "batch-551-600",
+      "de": "Ich bin schon ganz nass.",
+      "daCurrent": "Jeg er allerede helt våd.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-553",
+      "index": 553,
+      "batch": "batch-551-600",
+      "de": "Glaubst du, dass es den ganzen Tag regnen wird?",
+      "daCurrent": "Tror du, det kommer til at regne hele dagen?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-554",
+      "index": 554,
+      "batch": "batch-551-600",
+      "de": "Es hört auf zu regnen.",
+      "daCurrent": "Regnen stopper.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-555",
+      "index": 555,
+      "batch": "batch-551-600",
+      "de": "Die Sonne scheint wieder.",
+      "daCurrent": "Solen skinner igen.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-556",
+      "index": 556,
+      "batch": "batch-551-600",
+      "de": "Es ist sehr warm.",
+      "daCurrent": "Det er meget varmt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-557",
+      "index": 557,
+      "batch": "batch-551-600",
+      "de": "Es sieht nach Regen aus.",
+      "daCurrent": "Det ser ud til, at det kommer til at regne.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-558",
+      "index": 558,
+      "batch": "batch-551-600",
+      "de": "Wir bekommen gleich ein Gewitter.",
+      "daCurrent": "Vi er ved at få en storm.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-559",
+      "index": 559,
+      "batch": "batch-551-600",
+      "de": "Das Gewitter zieht vorüber.",
+      "daCurrent": "Stormen er forbi.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-560",
+      "index": 560,
+      "batch": "batch-551-600",
+      "de": "Die Wolken verziehen sich.",
+      "daCurrent": "Skyerne spreder sig.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-561",
+      "index": 561,
+      "batch": "batch-551-600",
+      "de": "Siehst du den Regenbogen?",
+      "daCurrent": "Ser du regnbuen?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-562",
+      "index": 562,
+      "batch": "batch-551-600",
+      "de": "Der Winter ist da, es hat geschneit.",
+      "daCurrent": "Vinteren er her, det sneede om natten.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-563",
+      "index": 563,
+      "batch": "batch-551-600",
+      "de": "Es schneit.",
+      "daCurrent": "Det sner.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-564",
+      "index": 564,
+      "batch": "batch-551-600",
+      "de": "Wie schön ist es im Wald im Winter!",
+      "daCurrent": "Hvor er det smukt i skoven om vinteren!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-565",
+      "index": 565,
+      "batch": "batch-551-600",
+      "de": "Mir ist kalt, ich friere.",
+      "daCurrent": "Jeg er kold, jeg fryser.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-566",
+      "index": 566,
+      "batch": "batch-551-600",
+      "de": "Draußen ist Glatteis, pass auf!",
+      "daCurrent": "Det er glat udenfor, pas på!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-567",
+      "index": 567,
+      "batch": "batch-551-600",
+      "de": "Wollen wir auf die Eisbahn gehen?",
+      "daCurrent": "Skal vi stå på skøjter?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-568",
+      "index": 568,
+      "batch": "batch-551-600",
+      "de": "Zieh die Jacke an, du kannst dich erkälten.",
+      "daCurrent": "Tag en jakke på, du kan blive forkølet.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-569",
+      "index": 569,
+      "batch": "batch-551-600",
+      "de": "Es ist halb sieben.",
+      "daCurrent": "Klokken er halv otte.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-570",
+      "index": 570,
+      "batch": "batch-551-600",
+      "de": "Meine Uhr geht fünf Minuten vor.",
+      "daCurrent": "Mit ur er hurtigt fem minutter.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-571",
+      "index": 571,
+      "batch": "batch-551-600",
+      "de": "Weck mich morgen früh um sieben Uhr!",
+      "daCurrent": "Væk mig klokken syv i morgen!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-572",
+      "index": 572,
+      "batch": "batch-551-600",
+      "de": "Was ist heute für ein Datum?",
+      "daCurrent": "Hvad er datoen i dag?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-573",
+      "index": 573,
+      "batch": "batch-551-600",
+      "de": "Heute ist der elfte Juli.",
+      "daCurrent": "I dag er det den ellevte juli.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-574",
+      "index": 574,
+      "batch": "batch-551-600",
+      "de": "Was machst du gewöhnlich am Abend?",
+      "daCurrent": "Hvad plejer du at lave om aftenen?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-575",
+      "index": 575,
+      "batch": "batch-551-600",
+      "de": "Es ist schon lange her, dass wir uns gesehen haben.",
+      "daCurrent": "Vi har ikke mødt hinanden i lang tid.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-576",
+      "index": 576,
+      "batch": "batch-551-600",
+      "de": "Wie geht es dir?",
+      "daCurrent": "Hvordan har du det",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-577",
+      "index": 577,
+      "batch": "batch-551-600",
+      "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
+      "daCurrent": "Undskyld mig, jeg vil diskutere noget med dig.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-578",
+      "index": 578,
+      "batch": "batch-551-600",
+      "de": "Gehen wir spazieren!",
+      "daCurrent": "Lad os gå en tur!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-579",
+      "index": 579,
+      "batch": "batch-551-600",
+      "de": "Hast du Lust, mit mir in den Park zu gehen?",
+      "daCurrent": "Vil du med mig i parken?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-580",
+      "index": 580,
+      "batch": "batch-551-600",
+      "de": "Ich komme, um dich zum Spaziergang abzuholen.",
+      "daCurrent": "Jeg kom for at tage dig en tur.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-581",
+      "index": 581,
+      "batch": "batch-551-600",
+      "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
+      "daCurrent": "Gå lidt langsommere, jeg kan ikke følge med dig!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-582",
+      "index": 582,
+      "batch": "batch-551-600",
+      "de": "Ich bin zum ersten Mal in dieser Gegend.",
+      "daCurrent": "Jeg er her for første gang.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-583",
+      "index": 583,
+      "batch": "batch-551-600",
+      "de": "Ruhen wir uns ein wenig aus.",
+      "daCurrent": "Lad os hvile lidt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-584",
+      "index": 584,
+      "batch": "batch-551-600",
+      "de": "Jetzt können wir zurückgehen.",
+      "daCurrent": "Nu kan vi gå tilbage.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-585",
+      "index": 585,
+      "batch": "batch-551-600",
+      "de": "Ehrlich gesagt bin ich ziemlich müde.",
+      "daCurrent": "Helt ærligt, jeg er ret træt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-586",
+      "index": 586,
+      "batch": "batch-551-600",
+      "de": "Entschuldige, wo ist die nächste U-Bahn-Station?",
+      "daCurrent": "Undskyld mig, hvor er den nærmeste metrostation?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-587",
+      "index": 587,
+      "batch": "batch-551-600",
+      "de": "Welcher ist der kürzeste Weg?",
+      "daCurrent": "Hvilken er den korteste vej?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-588",
+      "index": 588,
+      "batch": "batch-551-600",
+      "de": "Geh hier die zweite Straße links und dann immer geradeaus.",
+      "daCurrent": "Her tager du den anden gade til venstre og går ligeud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-589",
+      "index": 589,
+      "batch": "batch-551-600",
+      "de": "Wie komme ich am schnellsten zum Bahnhof?",
+      "daCurrent": "Hvordan kommer man hurtigere til stationen?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-590",
+      "index": 590,
+      "batch": "batch-551-600",
+      "de": "Ich habe vor, morgen zu verreisen.",
+      "daCurrent": "Jeg har tænkt mig at tage afsted i morgen.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-591",
+      "index": 591,
+      "batch": "batch-551-600",
+      "de": "Wohin willst du fahren?",
+      "daCurrent": "Hvor vil du hen?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-592",
+      "index": 592,
+      "batch": "batch-551-600",
+      "de": "Reist du geschäftlich oder privat?",
+      "daCurrent": "Rejser du for arbejde eller fritid?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-593",
+      "index": 593,
+      "batch": "batch-551-600",
+      "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
+      "daCurrent": "Finn kører til Berlin, så skal han til havet.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-594",
+      "index": 594,
+      "batch": "batch-551-600",
+      "de": "Wann fährt das Schiff ab?",
+      "daCurrent": "Hvornår afgår skibet?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-595",
+      "index": 595,
+      "batch": "batch-551-600",
+      "de": "In einer halben Stunde.",
+      "daCurrent": "Efter en halv time.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-596",
+      "index": 596,
+      "batch": "batch-551-600",
+      "de": "Kann ich noch eine Kabine bekommen?",
+      "daCurrent": "Kan jeg stadig få en hytte?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-597",
+      "index": 597,
+      "batch": "batch-551-600",
+      "de": "Vergiss deinen Pass nicht!",
+      "daCurrent": "Glem ikke dit pas!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-598",
+      "index": 598,
+      "batch": "batch-551-600",
+      "de": "Es ist Zeit, den Koffer zu packen.",
+      "daCurrent": "Det er tid til at pakke kufferten.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-599",
+      "index": 599,
+      "batch": "batch-551-600",
+      "de": "Der Zug fährt um halb sieben ab.",
+      "daCurrent": "Toget går klokken halv otte.",
+      "level": "Sätze"
+    }
+  ]
+}

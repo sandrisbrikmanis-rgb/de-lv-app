@@ -1,0 +1,408 @@
+{
+  "batch": "batch-451-500",
+  "startIndex": 450,
+  "endIndex": 499,
+  "count": 50,
+  "sentences": [
+    {
+      "cardId": "sentence-450",
+      "index": 450,
+      "batch": "batch-451-500",
+      "de": "Von Tag zu Tag.",
+      "daCurrent": "På daglig basis.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-451",
+      "index": 451,
+      "batch": "batch-451-500",
+      "de": "Zum Glück.",
+      "daCurrent": "Heldigvis.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-452",
+      "index": 452,
+      "batch": "batch-451-500",
+      "de": "Wasser zum Trinken.",
+      "daCurrent": "Vand til at drikke.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-453",
+      "index": 453,
+      "batch": "batch-451-500",
+      "de": "Zu Fuß.",
+      "daCurrent": "Til benene.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-454",
+      "index": 454,
+      "batch": "batch-451-500",
+      "de": "Zu Pferde.",
+      "daCurrent": "Ja.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-455",
+      "index": 455,
+      "batch": "batch-451-500",
+      "de": "Zu Rad.",
+      "daCurrent": "På cykel.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-456",
+      "index": 456,
+      "batch": "batch-451-500",
+      "de": "Es hörte auf zu regnen.",
+      "daCurrent": "Det holdt op med at regne.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-457",
+      "index": 457,
+      "batch": "batch-451-500",
+      "de": "Ich habe noch viel zu tun.",
+      "daCurrent": "Jeg har stadig meget at lave.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-458",
+      "index": 458,
+      "batch": "batch-451-500",
+      "de": "Zu früh.",
+      "daCurrent": "For tidligt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-459",
+      "index": 459,
+      "batch": "batch-451-500",
+      "de": "Zu groß.",
+      "daCurrent": "For stor.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-460",
+      "index": 460,
+      "batch": "batch-451-500",
+      "de": "Mit den Achseln zucken.",
+      "daCurrent": "Træk på skuldrene.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-461",
+      "index": 461,
+      "batch": "batch-451-500",
+      "de": "In einem Zug trinken.",
+      "daCurrent": "Drik i én slurk.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-462",
+      "index": 462,
+      "batch": "batch-451-500",
+      "de": "Zugrunde gehen.",
+      "daCurrent": "Omkomme.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-463",
+      "index": 463,
+      "batch": "batch-451-500",
+      "de": "Zugrunde legen.",
+      "daCurrent": "Sæt på grundlag. • Tag udgangspunkt i.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-464",
+      "index": 464,
+      "batch": "batch-451-500",
+      "de": "Zum ersten Mal.",
+      "daCurrent": "For første gang.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-465",
+      "index": 465,
+      "batch": "batch-451-500",
+      "de": "Machen Sie bitte die Tür zu!",
+      "daCurrent": "Luk venligst døren!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-466",
+      "index": 466,
+      "batch": "batch-451-500",
+      "de": "Er hat zugenommen.",
+      "daCurrent": "Han tog på i vægt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-467",
+      "index": 467,
+      "batch": "batch-451-500",
+      "de": "Die Tage nehmen zu.",
+      "daCurrent": "Dagene bliver længere.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-468",
+      "index": 468,
+      "batch": "batch-451-500",
+      "de": "Zusammenhängen mit etwas.",
+      "daCurrent": "At blive forbundet med noget.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-469",
+      "index": 469,
+      "batch": "batch-451-500",
+      "de": "Die Tür ist zu.",
+      "daCurrent": "Døren er lukket.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-470",
+      "index": 470,
+      "batch": "batch-451-500",
+      "de": "Das hätte ich ihm nicht zugetraut.",
+      "daCurrent": "Det havde jeg ikke forventet af ham.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-471",
+      "index": 471,
+      "batch": "batch-451-500",
+      "de": "Freier Zutritt.",
+      "daCurrent": "Gratis adgang.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-472",
+      "index": 472,
+      "batch": "batch-451-500",
+      "de": "Zutritt verboten!",
+      "daCurrent": "Adgang er forbudt!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-473",
+      "index": 473,
+      "batch": "batch-451-500",
+      "de": "Das ist zu viel!",
+      "daCurrent": "Det er for meget!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-474",
+      "index": 474,
+      "batch": "batch-451-500",
+      "de": "Zuwider werden.",
+      "daCurrent": "Bliv ulækker. • Bliv syg",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-475",
+      "index": 475,
+      "batch": "batch-451-500",
+      "de": "Und zwar.",
+      "daCurrent": "Nemlig.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-476",
+      "index": 476,
+      "batch": "batch-451-500",
+      "de": "Es steht außer Zweifel.",
+      "daCurrent": "Der er ingen tvivl.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-477",
+      "index": 477,
+      "batch": "batch-451-500",
+      "de": "Ohne Zweifel.",
+      "daCurrent": "Uden tøven.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-478",
+      "index": 478,
+      "batch": "batch-451-500",
+      "de": "Zum Zweiten.",
+      "daCurrent": "For det andet.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-479",
+      "index": 479,
+      "batch": "batch-451-500",
+      "de": "Frohes neues Jahr!",
+      "daCurrent": "Godt nytår!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-480",
+      "index": 480,
+      "batch": "batch-451-500",
+      "de": "Herzlichen Glückwunsch zum Geburtstag!",
+      "daCurrent": "Tillykke med fødselsdagen!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-481",
+      "index": 481,
+      "batch": "batch-451-500",
+      "de": "Gute Reise!",
+      "daCurrent": "God rejse!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-482",
+      "index": 482,
+      "batch": "batch-451-500",
+      "de": "Es freut mich, Sie kennenzulernen.",
+      "daCurrent": "Jeg er glad for at møde dig.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-483",
+      "index": 483,
+      "batch": "batch-451-500",
+      "de": "Wären Sie bitte so nett?",
+      "daCurrent": "Vil du venligst være så venlig?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-484",
+      "index": 484,
+      "batch": "batch-451-500",
+      "de": "Ich bin Ihnen sehr dankbar.",
+      "daCurrent": "Jeg er dig meget taknemmelig.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-485",
+      "index": 485,
+      "batch": "batch-451-500",
+      "de": "Setzt euch bitte hin!",
+      "daCurrent": "Sæt dig ned, tak!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-486",
+      "index": 486,
+      "batch": "batch-451-500",
+      "de": "Ben, komm bitte an die Tafel!",
+      "daCurrent": "Ben, kom venligst til bestyrelsen!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-487",
+      "index": 487,
+      "batch": "batch-451-500",
+      "de": "Schlagt bitte die Lehrbücher auf!",
+      "daCurrent": "Åbn lærebøgerne, tak!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-488",
+      "index": 488,
+      "batch": "batch-451-500",
+      "de": "Geht bitte in die Sporthalle!",
+      "daCurrent": "Gå venligst i fitnesscenteret!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-489",
+      "index": 489,
+      "batch": "batch-451-500",
+      "de": "Schläfst du noch?",
+      "daCurrent": "Sover du stadig",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-490",
+      "index": 490,
+      "batch": "batch-451-500",
+      "de": "Schlafen Sie noch?",
+      "daCurrent": "Sover du stadig?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-491",
+      "index": 491,
+      "batch": "batch-451-500",
+      "de": "Er ist fest eingeschlafen.",
+      "daCurrent": "Han sover hurtigt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-492",
+      "index": 492,
+      "batch": "batch-451-500",
+      "de": "Wecke ihn bitte auf, es ist schon spät!",
+      "daCurrent": "Væk ham venligst, det er allerede sent!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-493",
+      "index": 493,
+      "batch": "batch-451-500",
+      "de": "Es tut mir sehr leid!",
+      "daCurrent": "Jeg er så ked af det!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-494",
+      "index": 494,
+      "batch": "batch-451-500",
+      "de": "Vielen Dank!",
+      "daCurrent": "Mange tak!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-495",
+      "index": 495,
+      "batch": "batch-451-500",
+      "de": "Finn, fang bitte an!",
+      "daCurrent": "Finn, start, tak!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-496",
+      "index": 496,
+      "batch": "batch-451-500",
+      "de": "Lest bitte mit!",
+      "daCurrent": "Læs venligst videre!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-497",
+      "index": 497,
+      "batch": "batch-451-500",
+      "de": "Emma, schau bitte nicht aus dem Fenster!",
+      "daCurrent": "Emma, ​​kig venligst ikke ud af vinduet!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-498",
+      "index": 498,
+      "batch": "batch-451-500",
+      "de": "Jonas, bring bitte die Hefte!",
+      "daCurrent": "Jonas, tag venligst notesbøgerne med!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-499",
+      "index": 499,
+      "batch": "batch-451-500",
+      "de": "Geh bitte zurück an deinen Platz!",
+      "daCurrent": "Gå tilbage til dit sted!",
+      "level": "Sätze"
+    }
+  ]
+}

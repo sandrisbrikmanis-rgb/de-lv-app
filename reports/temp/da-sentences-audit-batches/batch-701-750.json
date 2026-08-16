@@ -1,0 +1,408 @@
+{
+  "batch": "batch-701-750",
+  "startIndex": 700,
+  "endIndex": 749,
+  "count": 50,
+  "sentences": [
+    {
+      "cardId": "sentence-700",
+      "index": 700,
+      "batch": "batch-701-750",
+      "de": "Weißt du, dass Finn krank ist?",
+      "daCurrent": "Ved du, at Finn er syg?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-701",
+      "index": 701,
+      "batch": "batch-701-750",
+      "de": "Laut Arzt wird er bald wieder gesund.",
+      "daCurrent": "Ifølge lægen bliver han snart rask igen.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-702",
+      "index": 702,
+      "batch": "batch-701-750",
+      "de": "Ich will meine Wohnung neu möblieren.",
+      "daCurrent": "Jeg vil gerne ommøblere lejligheden.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-703",
+      "index": 703,
+      "batch": "batch-701-750",
+      "de": "Kann ich das auf Raten kaufen?",
+      "daCurrent": "Kan jeg købe på afbetaling?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-704",
+      "index": 704,
+      "batch": "batch-701-750",
+      "de": "Bleib im Bett, bis es dir besser geht!",
+      "daCurrent": "Bliv i sengen, indtil du har det bedre!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-705",
+      "index": 705,
+      "batch": "batch-701-750",
+      "de": "Noah hat in zwei Wochen schwimmen gelernt.",
+      "daCurrent": "Noah lærte at svømme på to uger.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-706",
+      "index": 706,
+      "batch": "batch-701-750",
+      "de": "Sei mit dem Essen noch vorsichtig.",
+      "daCurrent": "Vær forsigtig med mad.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-707",
+      "index": 707,
+      "batch": "batch-701-750",
+      "de": "Sprichst du Deutsch?",
+      "daCurrent": "Taler du tysk",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-708",
+      "index": 708,
+      "batch": "batch-701-750",
+      "de": "Ja, ein bisschen.",
+      "daCurrent": "Ja, lidt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-709",
+      "index": 709,
+      "batch": "batch-701-750",
+      "de": "Du sprichst ziemlich fließend.",
+      "daCurrent": "Du taler ret flydende.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-710",
+      "index": 710,
+      "batch": "batch-701-750",
+      "de": "Wo hast du Deutsch gelernt?",
+      "daCurrent": "Hvor lærte du tysk?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-711",
+      "index": 711,
+      "batch": "batch-701-750",
+      "de": "Ich nehme seit einem Jahr Deutschstunden.",
+      "daCurrent": "Jeg har taget tyskundervisning i et år.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-712",
+      "index": 712,
+      "batch": "batch-701-750",
+      "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
+      "daCurrent": "Altid på udkig efter en mulighed for at tale tysk.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-713",
+      "index": 713,
+      "batch": "batch-701-750",
+      "de": "Ist das Buch noch vorrätig?",
+      "daCurrent": "Er denne bog stadig tilgængelig?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-714",
+      "index": 714,
+      "batch": "batch-701-750",
+      "de": "Das Buch ist leider ausverkauft.",
+      "daCurrent": "Bogen er desværre udsolgt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-715",
+      "index": 715,
+      "batch": "batch-701-750",
+      "de": "Wann erscheint die neue Auflage?",
+      "daCurrent": "Hvornår udkommer den nye udgave?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-716",
+      "index": 716,
+      "batch": "batch-701-750",
+      "de": "Womit kann ich Ihnen helfen?",
+      "daCurrent": "Hvordan kan jeg hjælpe?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-717",
+      "index": 717,
+      "batch": "batch-701-750",
+      "de": "Haben Sie ganz frische Eier?",
+      "daCurrent": "Har du friske æg?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-718",
+      "index": 718,
+      "batch": "batch-701-750",
+      "de": "Was kosten die?",
+      "daCurrent": "Hvor meget koster de?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-719",
+      "index": 719,
+      "batch": "batch-701-750",
+      "de": "Das ist zu teuer.",
+      "daCurrent": "Det er for dyrt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-720",
+      "index": 720,
+      "batch": "batch-701-750",
+      "de": "Können Sie mir ein halbes Kilo abwiegen?",
+      "daCurrent": "Kan du veje et halvt kilo?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-721",
+      "index": 721,
+      "batch": "batch-701-750",
+      "de": "Wie viel muss ich zahlen?",
+      "daCurrent": "Hvor meget skal jeg betale?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-722",
+      "index": 722,
+      "batch": "batch-701-750",
+      "de": "Wie viel kostet das Kilo?",
+      "daCurrent": "Hvor meget koster et kilo?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-723",
+      "index": 723,
+      "batch": "batch-701-750",
+      "de": "Wiegen Sie mir bitte zwei Kilo ab.",
+      "daCurrent": "Vej venligst to kilo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-724",
+      "index": 724,
+      "batch": "batch-701-750",
+      "de": "Haben Sie auch Karotten?",
+      "daCurrent": "Har du også gulerødder?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-725",
+      "index": 725,
+      "batch": "batch-701-750",
+      "de": "Haben Sie gutes Rindfleisch?",
+      "daCurrent": "Har du godt oksekød?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-726",
+      "index": 726,
+      "batch": "batch-701-750",
+      "de": "Geben Sie mir zwei Kilo Hackfleisch.",
+      "daCurrent": "Giv to kilo hakket kød.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-727",
+      "index": 727,
+      "batch": "batch-701-750",
+      "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
+      "daCurrent": "Et brød, tak, men ikke for hårdt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-728",
+      "index": 728,
+      "batch": "batch-701-750",
+      "de": "Das Brot ist frisch gebacken.",
+      "daCurrent": "Brødet er nybagt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-729",
+      "index": 729,
+      "batch": "batch-701-750",
+      "de": "Was für Obst haben Sie heute?",
+      "daCurrent": "Hvilken frugt har du i dag?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-730",
+      "index": 730,
+      "batch": "batch-701-750",
+      "de": "Was kosten die Äpfel?",
+      "daCurrent": "Hvor meget koster æbler?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-731",
+      "index": 731,
+      "batch": "batch-701-750",
+      "de": "Dann nehme ich zwei Kilo Äpfel.",
+      "daCurrent": "Så tager jeg to kilo æbler.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-732",
+      "index": 732,
+      "batch": "batch-701-750",
+      "de": "Die Birnen sind sehr teuer.",
+      "daCurrent": "Pærer er meget dyre.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-733",
+      "index": 733,
+      "batch": "batch-701-750",
+      "de": "Können Sie mir alles nach Hause liefern?",
+      "daCurrent": "Kan du levere alt hjem til dig?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-734",
+      "index": 734,
+      "batch": "batch-701-750",
+      "de": "Haben Sie Reis?",
+      "daCurrent": "Har du ris?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-735",
+      "index": 735,
+      "batch": "batch-701-750",
+      "de": "Geben Sie mir bitte ein Kilo Reis.",
+      "daCurrent": "Giv mig et kilo ris, tak.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-736",
+      "index": 736,
+      "batch": "batch-701-750",
+      "de": "Danke, diesmal nicht.",
+      "daCurrent": "Tak, ikke denne gang.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-737",
+      "index": 737,
+      "batch": "batch-701-750",
+      "de": "Wie viel kostet dieser Teppich?",
+      "daCurrent": "Hvor meget koster dette tæppe?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-738",
+      "index": 738,
+      "batch": "batch-701-750",
+      "de": "Können Sie die Möbel in meine Wohnung liefern?",
+      "daCurrent": "Kan du levere møbler til lejligheden?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-739",
+      "index": 739,
+      "batch": "batch-701-750",
+      "de": "Bitte an der Kasse zahlen.",
+      "daCurrent": "Betal venligst i kassen.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-740",
+      "index": 740,
+      "batch": "batch-701-750",
+      "de": "Bitte, machen Sie die Rechnung.",
+      "daCurrent": "Udsted venligst en faktura.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-741",
+      "index": 741,
+      "batch": "batch-701-750",
+      "de": "Was kostet das Meter?",
+      "daCurrent": "Hvor mange meter?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-742",
+      "index": 742,
+      "batch": "batch-701-750",
+      "de": "Dieser Stoff gefällt mir.",
+      "daCurrent": "Jeg elsker dette stof.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-743",
+      "index": 743,
+      "batch": "batch-701-750",
+      "de": "Schneiden Sie mir bitte drei Meter ab.",
+      "daCurrent": "Skær venligst tre meter af for mig.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-744",
+      "index": 744,
+      "batch": "batch-701-750",
+      "de": "Haben Sie auch andere Muster?",
+      "daCurrent": "Har du andre prøver?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-745",
+      "index": 745,
+      "batch": "batch-701-750",
+      "de": "Diese Farbe gefällt mir nicht.",
+      "daCurrent": "Jeg kan ikke lide denne farve.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-746",
+      "index": 746,
+      "batch": "batch-701-750",
+      "de": "Geben Sie mir eine hellere.",
+      "daCurrent": "Giv lysere.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-747",
+      "index": 747,
+      "batch": "batch-701-750",
+      "de": "Was kosten diese Socken?",
+      "daCurrent": "Hvor meget koster disse sokker?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-748",
+      "index": 748,
+      "batch": "batch-701-750",
+      "de": "Welche Handschuhe wünschen Sie?",
+      "daCurrent": "Hvilken slags handsker vil du have?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-749",
+      "index": 749,
+      "batch": "batch-701-750",
+      "de": "Die sind mir etwas zu eng.",
+      "daCurrent": "De er lidt for stramme til mig.",
+      "level": "Sätze"
+    }
+  ]
+}
