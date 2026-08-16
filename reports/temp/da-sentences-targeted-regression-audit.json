@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-08-16T14:39:59.203Z",
+  "statusCounts": {
+    "LABOT": 228,
+    "NELABOT": 22,
+    "NEEDS_SOURCE_REVIEW": 2,
+    "FALSE_POSITIVE": 0
+  },
+  "ownerMatch": {
+    "EXACT_MATCH": 213,
+    "MISMATCH": 0,
+    "MISSING_SENTENCE": 0,
+    "MISSING_FIELD": 0
+  },
+  "uniqueRepairsExpected": 213,
+  "uniqueRepairsFound": 213,
+  "productionLvStrict": 208,
+  "productionLvNormalized": 207,
+  "noOpLabot": 6,
+  "zeroWidthOnly": 1,
+  "unauthorizedNelabot": 1,
+  "unauthorizedNeedsReview": 0,
+  "unexpectedChanges": 0,
+  "deChanges": 0,
+  "remnantCounts": {
+    "LV": 0,
+    "EN": 0,
+    "OTHER": 0,
+    "MIXED": 0,
+    "PLACEHOLDER": 0,
+    "ZERO_WIDTH": 0,
+    "MOJIBAKE": 0,
+    "OWNER_RISK": 1
+  },
+  "bySev": {
+    "CRITICAL": 0,
+    "HIGH": 7,
+    "MEDIUM": 13,
+    "LOW": 3,
+    "FALSE_POSITIVE": 0
+  },
+  "lunaFindings": 61,
+  "pass": false,
+  "verdict": "DA–DE SENTENCES TARGETED REGRESSION AUDIT — FAIL"
+}

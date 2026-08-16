@@ -1,0 +1,265 @@
+{
+  "auditType": "da_sentences_targeted_regression",
+  "batch": "batch-02",
+  "instructions": "Audit production DA (lv) vs DE after OWNER repair. OWNER NEW is authoritative expected value; flag real linguistic/semantic issues even if production matches OWNER NEW.",
+  "sentences": [
+    {
+      "cardId": "sentence-170",
+      "de": "Bei Sinnen sein.",
+      "daCurrent": "Være ved sine fulde fem.",
+      "ownerNew": "Være ved sine fulde fem."
+    },
+    {
+      "cardId": "sentence-172",
+      "de": "Bei weitem nicht so.",
+      "daCurrent": "På langt nær ikke så …",
+      "ownerNew": "På langt nær ikke så …"
+    },
+    {
+      "cardId": "sentence-175",
+      "de": "Beifall finden.",
+      "daCurrent": "Få bifald.",
+      "ownerNew": "Få bifald."
+    },
+    {
+      "cardId": "sentence-176",
+      "de": "Beileid aussprechen.",
+      "daCurrent": "Udtrykke medfølelse.",
+      "ownerNew": "Udtrykke medfølelse."
+    },
+    {
+      "cardId": "sentence-177",
+      "de": "Auf eigenen Beinen stehen.",
+      "daCurrent": "Stå på egne ben.",
+      "ownerNew": "Stå på egne ben."
+    },
+    {
+      "cardId": "sentence-179",
+      "de": "Beistand leisten.",
+      "daCurrent": "Yde støtte.",
+      "ownerNew": "Yde støtte."
+    },
+    {
+      "cardId": "sentence-180",
+      "de": "Beitrag leisten.",
+      "daCurrent": "Yde et bidrag.",
+      "ownerNew": "Yde et bidrag."
+    },
+    {
+      "cardId": "sentence-183",
+      "de": "Belegte Brötchen.",
+      "daCurrent": "Smørrebrød.",
+      "ownerNew": "Smørrebrød."
+    },
+    {
+      "cardId": "sentence-188",
+      "de": "Bereit sein.",
+      "daCurrent": "Være klar.",
+      "ownerNew": "Være klar."
+    },
+    {
+      "cardId": "sentence-197",
+      "de": "Beim besten Willen.",
+      "daCurrent": "Selv med den bedste vilje.",
+      "ownerNew": "Selv med den bedste vilje."
+    },
+    {
+      "cardId": "sentence-198",
+      "de": "Am besten.",
+      "daCurrent": "Helst.",
+      "ownerNew": "Helst."
+    },
+    {
+      "cardId": "sentence-204",
+      "de": "Zu Besuch sein.",
+      "daCurrent": "Være på besøg",
+      "ownerNew": "Være på besøg"
+    },
+    {
+      "cardId": "sentence-213",
+      "de": "Bitte schön.",
+      "daCurrent": "Værsgo",
+      "ownerNew": "Værsgo"
+    },
+    {
+      "cardId": "sentence-214",
+      "de": "Wie bitte?",
+      "daCurrent": "Undskyld?",
+      "ownerNew": "Undskyld?"
+    },
+    {
+      "cardId": "sentence-215",
+      "de": "Bitte sehr.",
+      "daCurrent": "Værsgo",
+      "ownerNew": "Værsgo"
+    },
+    {
+      "cardId": "sentence-218",
+      "de": "In einem Buch blättern.",
+      "daCurrent": "Bladre i en bog",
+      "ownerNew": "Bladre i en bog"
+    },
+    {
+      "cardId": "sentence-219",
+      "de": "Mit bloßen Füßen.",
+      "daCurrent": "Med bare fødder",
+      "ownerNew": "Med bare fødder"
+    },
+    {
+      "cardId": "sentence-223",
+      "de": "Bitte checken.",
+      "daCurrent": "Tjek venligst",
+      "ownerNew": "Tjek venligst"
+    },
+    {
+      "cardId": "sentence-225",
+      "de": "Alles spricht dafür.",
+      "daCurrent": "Alt taler for det",
+      "ownerNew": "Alt taler for det"
+    },
+    {
+      "cardId": "sentence-226",
+      "de": "Ich kann nichts dafür.",
+      "daCurrent": "Det kan jeg ikke gøre noget ved",
+      "ownerNew": "Det kan jeg ikke gøre noget ved"
+    },
+    {
+      "cardId": "sentence-230",
+      "de": "Mit der Dame ziehen.",
+      "daCurrent": "Spil damen",
+      "ownerNew": "Spil damen"
+    },
+    {
+      "cardId": "sentence-231",
+      "de": "Es dämmert.",
+      "daCurrent": "Det er ved at blive mørkt",
+      "ownerNew": "Det er ved at blive mørkt"
+    },
+    {
+      "cardId": "sentence-242",
+      "de": "von Haus aus",
+      "daCurrent": "Af naturen.",
+      "ownerNew": "Af naturen."
+    },
+    {
+      "cardId": "sentence-246",
+      "de": "Was hast du?",
+      "daCurrent": "Hvad er der galt?",
+      "ownerNew": "Hvad er der galt?"
+    },
+    {
+      "cardId": "sentence-254",
+      "de": "Mach keine Geschichten!",
+      "daCurrent": "Lad være med at finde på historier!",
+      "ownerNew": "Lad være med at finde på historier!"
+    },
+    {
+      "cardId": "sentence-255",
+      "de": "Geschweige denn...",
+      "daCurrent": "End ikke",
+      "ownerNew": "End ikke"
+    },
+    {
+      "cardId": "sentence-258",
+      "de": "Frag ihn gelegentlich, ob...",
+      "daCurrent": "Spørg ham af og til, om...",
+      "ownerNew": "Spørg ham af og til, om..."
+    },
+    {
+      "cardId": "sentence-263",
+      "de": "Fahre fort!",
+      "daCurrent": "Fortsæt!",
+      "ownerNew": "Fortsæt!"
+    },
+    {
+      "cardId": "sentence-269",
+      "de": "Es jammert mich zu sehen...",
+      "daCurrent": "Det gør mig ondt at se...",
+      "ownerNew": "Det gør mig ondt at se..."
+    },
+    {
+      "cardId": "sentence-281",
+      "de": "Na, wie läufts?",
+      "daCurrent": "Hvordan går det?",
+      "ownerNew": "Hvordan går det?"
+    },
+    {
+      "cardId": "sentence-283",
+      "de": "Leben Sie wohl!",
+      "daCurrent": "Farvel!",
+      "ownerNew": "Farvel!"
+    },
+    {
+      "cardId": "sentence-284",
+      "de": "Was ist los?",
+      "daCurrent": "Hvad er der galt?",
+      "ownerNew": "Hvad er der galt?"
+    },
+    {
+      "cardId": "sentence-286",
+      "de": "Das war ein anstrengender Tag.",
+      "daCurrent": "Det var en anstrengende dag",
+      "ownerNew": "Det var en anstrengende dag"
+    },
+    {
+      "cardId": "sentence-297",
+      "de": "Was machst du?",
+      "daCurrent": "Hvad laver du?",
+      "ownerNew": "Hvad laver du?"
+    },
+    {
+      "cardId": "sentence-298",
+      "de": "Sag mal!",
+      "daCurrent": "Sig mig!",
+      "ownerNew": "Sig mig!"
+    },
+    {
+      "cardId": "sentence-299",
+      "de": "Was meinen Sie damit?",
+      "daCurrent": "Hvad mener De med det?",
+      "ownerNew": "Hvad mener De med det?"
+    },
+    {
+      "cardId": "sentence-310",
+      "de": "Letzte Neuheit!",
+      "daCurrent": "Seneste nyhed!",
+      "ownerNew": "Seneste nyhed!"
+    },
+    {
+      "cardId": "sentence-311",
+      "de": "Nicht wahr?",
+      "daCurrent": "Ikke sandt?",
+      "ownerNew": "Ikke sandt?"
+    },
+    {
+      "cardId": "sentence-324",
+      "de": "Schon gut!",
+      "daCurrent": "Det er okay",
+      "ownerNew": "Det er okay"
+    },
+    {
+      "cardId": "sentence-325",
+      "de": "Bitte schön!",
+      "daCurrent": "Værsgo!",
+      "ownerNew": "Værsgo!"
+    },
+    {
+      "cardId": "sentence-335",
+      "de": "Spaß beiseite!",
+      "daCurrent": "Spøg til side!",
+      "ownerNew": "Spøg til side!"
+    },
+    {
+      "cardId": "sentence-336",
+      "de": "Wie spät ist es?",
+      "daCurrent": "Hvad er klokken?",
+      "ownerNew": "Hvad er klokken?"
+    },
+    {
+      "cardId": "sentence-340",
+      "de": "Wie steht’s?",
+      "daCurrent": "Hvordan går det?",
+      "ownerNew": "Hvordan går det?"
+    }
+  ]
+}

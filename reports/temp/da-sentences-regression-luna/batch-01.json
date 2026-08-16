@@ -1,0 +1,265 @@
+{
+  "auditType": "da_sentences_targeted_regression",
+  "batch": "batch-01",
+  "instructions": "Audit production DA (lv) vs DE after OWNER repair. OWNER NEW is authoritative expected value; flag real linguistic/semantic issues even if production matches OWNER NEW.",
+  "sentences": [
+    {
+      "cardId": "sentence-1",
+      "de": "Wenn nichts dazwischenkommt.",
+      "daCurrent": "Hvis intet kommer i vejen.",
+      "ownerNew": "Hvis intet kommer i vejen."
+    },
+    {
+      "cardId": "sentence-5",
+      "de": "Desto mehr.",
+      "daCurrent": "Jo mere.",
+      "ownerNew": "Jo mere."
+    },
+    {
+      "cardId": "sentence-6",
+      "de": "Je mehr, desto besser.",
+      "daCurrent": "Jo mere, jo bedre.",
+      "ownerNew": "Jo mere, jo bedre."
+    },
+    {
+      "cardId": "sentence-7",
+      "de": "Alles deutet auf Regen.",
+      "daCurrent": "Alt peger på regn.",
+      "ownerNew": "Alt peger på regn."
+    },
+    {
+      "cardId": "sentence-8",
+      "de": "Damit ist mir wenig gedient.",
+      "daCurrent": "Det hjælper mig ikke ret meget.",
+      "ownerNew": "Det hjælper mig ikke ret meget."
+    },
+    {
+      "cardId": "sentence-10",
+      "de": "Sprechen Sie doch!",
+      "daCurrent": "Tal dog!",
+      "ownerNew": "Tal dog!"
+    },
+    {
+      "cardId": "sentence-11",
+      "de": "Es donnert.",
+      "daCurrent": "Det tordner.",
+      "ownerNew": "Det tordner."
+    },
+    {
+      "cardId": "sentence-17",
+      "de": "Kein Durchgang!",
+      "daCurrent": "Ingen adgang!",
+      "ownerNew": "Ingen adgang!"
+    },
+    {
+      "cardId": "sentence-18",
+      "de": "Darf ich Sie bitten?",
+      "daCurrent": "Må jeg bede Dem?",
+      "ownerNew": "Må jeg bede Dem?"
+    },
+    {
+      "cardId": "sentence-28",
+      "de": "Es war einmal.",
+      "daCurrent": "Der var engang …",
+      "ownerNew": "Der var engang …"
+    },
+    {
+      "cardId": "sentence-29",
+      "de": "Steigen Sie bitte ein!",
+      "daCurrent": "Stig venligst ind!",
+      "ownerNew": "Stig venligst ind!"
+    },
+    {
+      "cardId": "sentence-30",
+      "de": "Treten Sie ein!",
+      "daCurrent": "Træd venligst ind!",
+      "ownerNew": "Træd venligst ind!"
+    },
+    {
+      "cardId": "sentence-36",
+      "de": "Wer war der Erste?",
+      "daCurrent": "Hvem var den første?",
+      "ownerNew": "Hvem var den første?"
+    },
+    {
+      "cardId": "sentence-37",
+      "de": "Wer fehlt heute?",
+      "daCurrent": "Hvem mangler i dag?",
+      "ownerNew": "Hvem mangler i dag?"
+    },
+    {
+      "cardId": "sentence-40",
+      "de": "Was soll das heißen?",
+      "daCurrent": "Hvad skal det betyde?",
+      "ownerNew": "Hvad skal det betyde?"
+    },
+    {
+      "cardId": "sentence-42",
+      "de": "Heraus mit der Sprache!",
+      "daCurrent": "Kom nu frem med det!",
+      "ownerNew": "Kom nu frem med det!"
+    },
+    {
+      "cardId": "sentence-45",
+      "de": "von heute an",
+      "daCurrent": "Fra i dag af",
+      "ownerNew": "Fra i dag af"
+    },
+    {
+      "cardId": "sentence-46",
+      "de": "heute früh",
+      "daCurrent": "I morges",
+      "ownerNew": "I morges"
+    },
+    {
+      "cardId": "sentence-47",
+      "de": "heute Nacht",
+      "daCurrent": "I nat",
+      "ownerNew": "I nat"
+    },
+    {
+      "cardId": "sentence-69",
+      "de": "Ich habe die Ausbildung absolviert.",
+      "daCurrent": "Jeg afsluttede min uddannelse.",
+      "ownerNew": "Jeg afsluttede min uddannelse."
+    },
+    {
+      "cardId": "sentence-78",
+      "de": "Er ändert ständig seine Meinung.",
+      "daCurrent": "Han ændrer konstant sin mening.",
+      "ownerNew": "Han ændrer konstant sin mening."
+    },
+    {
+      "cardId": "sentence-92",
+      "de": "Kannst du mich später anrufen?",
+      "daCurrent": "Kan du ringe til mig senere?",
+      "ownerNew": "Kan du ringe til mig senere?"
+    },
+    {
+      "cardId": "sentence-99",
+      "de": "Es kommt darauf an.",
+      "daCurrent": "Det afhænger.",
+      "ownerNew": "Det afhænger."
+    },
+    {
+      "cardId": "sentence-100",
+      "de": "Aus diesem Anlass.",
+      "daCurrent": "I anledning af dette.",
+      "ownerNew": "I anledning af dette."
+    },
+    {
+      "cardId": "sentence-102",
+      "de": "Was hast du da angerichtet?",
+      "daCurrent": "Hvad har du lavet der?",
+      "ownerNew": "Hvad har du lavet der?"
+    },
+    {
+      "cardId": "sentence-104",
+      "de": "Du glaubst mir anscheinend nicht.",
+      "daCurrent": "Du tror mig åbenbart ikke.",
+      "ownerNew": "Du tror mig åbenbart ikke."
+    },
+    {
+      "cardId": "sentence-106",
+      "de": "Stell dich nicht so an!",
+      "daCurrent": "Lad nu være!",
+      "ownerNew": "Lad nu være!"
+    },
+    {
+      "cardId": "sentence-107",
+      "de": "An die Arbeit gehen.",
+      "daCurrent": "Gå i gang med arbejdet.",
+      "ownerNew": "Gå i gang med arbejdet."
+    },
+    {
+      "cardId": "sentence-118",
+      "de": "Wir müssen das Treffen verschieben.",
+      "daCurrent": "Vi er nødt til at udskyde mødet.",
+      "ownerNew": "Vi er nødt til at udskyde mødet."
+    },
+    {
+      "cardId": "sentence-122",
+      "de": "Für den Schaden aufkommen.",
+      "daCurrent": "Dække skaden.",
+      "ownerNew": "Dække skaden."
+    },
+    {
+      "cardId": "sentence-128",
+      "de": "Geh mir aus den Augen!",
+      "daCurrent": "Forsvind!",
+      "ownerNew": "Forsvind!"
+    },
+    {
+      "cardId": "sentence-129",
+      "de": "Unter vier Augen.",
+      "daCurrent": "Alene sammen.",
+      "ownerNew": "Alene sammen."
+    },
+    {
+      "cardId": "sentence-140",
+      "de": "Wann wurden die Meisterschaftskämpfe ausgetragen?",
+      "daCurrent": "Hvornår blev mesterskabet afholdt?",
+      "ownerNew": "Hvornår blev mesterskabet afholdt?"
+    },
+    {
+      "cardId": "sentence-142",
+      "de": "Einfluss ausüben.",
+      "daCurrent": "Udøve indflydelse.",
+      "ownerNew": "Udøve indflydelse."
+    },
+    {
+      "cardId": "sentence-145",
+      "de": "Mit der Bahn.",
+      "daCurrent": "Med toget.",
+      "ownerNew": "Med toget."
+    },
+    {
+      "cardId": "sentence-150",
+      "de": "Erz bauen.",
+      "daCurrent": "Bryde malm.",
+      "ownerNew": "Bryde malm."
+    },
+    {
+      "cardId": "sentence-151",
+      "de": "Mist bauen.",
+      "daCurrent": "Lave noget rod.",
+      "ownerNew": "Lave noget rod."
+    },
+    {
+      "cardId": "sentence-152",
+      "de": "Ich bin beauftragt.",
+      "daCurrent": "Jeg har fået til opgave.",
+      "ownerNew": "Jeg har fået til opgave."
+    },
+    {
+      "cardId": "sentence-157",
+      "de": "Sie sieht bedrückt aus.",
+      "daCurrent": "Hun ser nedtrykt ud.",
+      "ownerNew": "Hun ser nedtrykt ud."
+    },
+    {
+      "cardId": "sentence-160",
+      "de": "Mit der Post befördern.",
+      "daCurrent": "Sende med posten.",
+      "ownerNew": "Sende med posten."
+    },
+    {
+      "cardId": "sentence-163",
+      "de": "Am Beginn.",
+      "daCurrent": "I begyndelsen.",
+      "ownerNew": "I begyndelsen."
+    },
+    {
+      "cardId": "sentence-164",
+      "de": "Bei Beginn.",
+      "daCurrent": "Ved begyndelsen.",
+      "ownerNew": "Ved begyndelsen."
+    },
+    {
+      "cardId": "sentence-166",
+      "de": "Mit seiner Begleitung.",
+      "daCurrent": "Med sin ledsager.",
+      "ownerNew": "Med sin ledsager."
+    }
+  ]
+}

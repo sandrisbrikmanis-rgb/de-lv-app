@@ -1,0 +1,57 @@
+{
+  "batch": "batch-01",
+  "auditor": "GPT-5.6 Luna",
+  "sentencesAudited": 43,
+  "findings": [
+    {
+      "cardId": "sentence-17",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC",
+      "de": "Kein Durchgang!",
+      "daCurrent": "Ingen adgang!",
+      "proposedDa": "Ingen gennemgang!",
+      "reason": "'Kein Durchgang' is a no-through-traffic / no-passage sign (do not pass through), not a no-entry sign. 'Ingen adgang' means no access/admission — a different concept."
+    },
+    {
+      "cardId": "sentence-42",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC",
+      "de": "Heraus mit der Sprache!",
+      "daCurrent": "Kom nu frem med det!",
+      "proposedDa": "Ud med sproget!",
+      "reason": "German explicitly demands speech ('mit der Sprache'). Danish 'Kom nu frem med det' is a generic 'come on, reveal it' and does not convey the speak-up/confess idiom tied to language."
+    },
+    {
+      "cardId": "sentence-106",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTIC",
+      "de": "Stell dich nicht so an!",
+      "daCurrent": "Lad nu være!",
+      "proposedDa": "Hold op med at stille dig sådan an!",
+      "reason": "'Stell dich nicht so an' means don't put on airs or act pretentiously. 'Lad nu være' is a vague 'stop it' and loses the pretentious-acting sense entirely."
+    },
+    {
+      "cardId": "sentence-129",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "NATURALNESS",
+      "de": "Unter vier Augen.",
+      "daCurrent": "Alene sammen.",
+      "proposedDa": "Under fire øjne.",
+      "reason": "'Unter vier Augen' is the standard idiom for privately/confidentially (between us). 'Alene sammen' is not a Danish idiom and reads as an awkward calque rather than natural Danish."
+    },
+    {
+      "cardId": "sentence-152",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Ich bin beauftragt.",
+      "daCurrent": "Jeg har fået til opgave.",
+      "proposedDa": "Jeg er blevet bemyndiget.",
+      "reason": "'Jeg har fået til opgave' is grammatically incomplete in Danish; the idiom requires an object ('det' or 'en opgave') or a different construction. 'Ich bin beauftragt' means commissioned/authorized, not merely assigned a task in broken form."
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "auditType": "da_sentences_targeted_regression",
+  "batch": "batch-03",
+  "instructions": "Audit production DA (lv) vs DE after OWNER repair. OWNER NEW is authoritative expected value; flag real linguistic/semantic issues even if production matches OWNER NEW.",
+  "sentences": [
+    {
+      "cardId": "sentence-341",
+      "de": "Dieser Hut steht ihr gut.",
+      "daCurrent": "Den hat klæder hende godt",
+      "ownerNew": "Den hat klæder hende godt"
+    },
+    {
+      "cardId": "sentence-342",
+      "de": "Guten Tag!",
+      "daCurrent": "God dag!",
+      "ownerNew": "God dag!"
+    },
+    {
+      "cardId": "sentence-347",
+      "de": "Nicht übel!",
+      "daCurrent": "Ikke dårligt!",
+      "ownerNew": "Ikke dårligt!"
+    },
+    {
+      "cardId": "sentence-350",
+      "de": "So ist es üblich.",
+      "daCurrent": "Sådan plejer man at gøre.",
+      "ownerNew": "Sådan plejer man at gøre."
+    },
+    {
+      "cardId": "sentence-354",
+      "de": "umso mehr",
+      "daCurrent": "Desto mere",
+      "ownerNew": "Desto mere"
+    },
+    {
+      "cardId": "sentence-356",
+      "de": "Und ob!",
+      "daCurrent": "Jo da!",
+      "ownerNew": "Jo da!"
+    },
+    {
+      "cardId": "sentence-360",
+      "de": "Keine Ursache!",
+      "daCurrent": "Selv tak!",
+      "ownerNew": "Selv tak!"
+    },
+    {
+      "cardId": "sentence-367",
+      "de": "Seine Ansicht vertreten.",
+      "daCurrent": "Forsvare sin mening",
+      "ownerNew": "Forsvare sin mening"
+    },
+    {
+      "cardId": "sentence-371",
+      "de": "Vom Hörensagen.",
+      "daCurrent": "Efter sigende",
+      "ownerNew": "Efter sigende"
+    },
+    {
+      "cardId": "sentence-374",
+      "de": "Er ist Berliner von Geburt.",
+      "daCurrent": "Han er berliner af fødsel",
+      "ownerNew": "Han er berliner af fødsel"
+    },
+    {
+      "cardId": "sentence-375",
+      "de": "Er steht vor dem Fenster.",
+      "daCurrent": "Han står foran vinduet",
+      "ownerNew": "Han står foran vinduet"
+    },
+    {
+      "cardId": "sentence-378",
+      "de": "Vor Freude.",
+      "daCurrent": "Af glæde",
+      "ownerNew": "Af glæde"
+    },
+    {
+      "cardId": "sentence-380",
+      "de": "Im Voraus.",
+      "daCurrent": "På forhånd",
+      "ownerNew": "På forhånd"
+    },
+    {
+      "cardId": "sentence-382",
+      "de": "Unter dem Vorbehalt.",
+      "daCurrent": "Med forbehold",
+      "ownerNew": "Med forbehold"
+    },
+    {
+      "cardId": "sentence-383",
+      "de": "Vorhanden sein.",
+      "daCurrent": "Være til stede • Være tilgængelig",
+      "ownerNew": "Være til stede • Være tilgængelig"
+    },
+    {
+      "cardId": "sentence-385",
+      "de": "Vorkehrungen treffen.",
+      "daCurrent": "Træffe foranstaltninger",
+      "ownerNew": "Træffe foranstaltninger"
+    },
+    {
+      "cardId": "sentence-390",
+      "de": "Nach vorn.",
+      "daCurrent": "Fremad",
+      "ownerNew": "Fremad"
+    },
+    {
+      "cardId": "sentence-402",
+      "de": "Auf eine Nachricht warten.",
+      "daCurrent": "Vent på en besked.",
+      "ownerNew": "Vent på en besked."
+    },
+    {
+      "cardId": "sentence-403",
+      "de": "Was wollen Sie?",
+      "daCurrent": "Hvad vil De?",
+      "ownerNew": "Hvad vil De?"
+    },
+    {
+      "cardId": "sentence-406",
+      "de": "Auf diesem Wege.",
+      "daCurrent": "På den måde.",
+      "ownerNew": "På den måde."
+    },
+    {
+      "cardId": "sentence-409",
+      "de": "Von Rechts wegen.",
+      "daCurrent": "Af ret.",
+      "ownerNew": "Af ret."
+    },
+    {
+      "cardId": "sentence-413",
+      "de": "Art und Weise.",
+      "daCurrent": "Måde og form.",
+      "ownerNew": "Måde og form."
+    },
+    {
+      "cardId": "sentence-414",
+      "de": "Ohne weiteres.",
+      "daCurrent": "Uden videre.",
+      "ownerNew": "Uden videre."
+    },
+    {
+      "cardId": "sentence-419",
+      "de": "Alle Welt.",
+      "daCurrent": "Hele verden.",
+      "ownerNew": "Hele verden."
+    },
+    {
+      "cardId": "sentence-423",
+      "de": "Wer da?",
+      "daCurrent": "Hvem er der?",
+      "ownerNew": "Hvem er der?"
+    },
+    {
+      "cardId": "sentence-427",
+      "de": "Es ist zwei Euro wert.",
+      "daCurrent": "Det er to euro værd.",
+      "ownerNew": "Det er to euro værd."
+    },
+    {
+      "cardId": "sentence-430",
+      "de": "In Wettbewerb treten.",
+      "daCurrent": "Deltag i en konkurrence.",
+      "ownerNew": "Deltag i en konkurrence."
+    },
+    {
+      "cardId": "sentence-431",
+      "de": "Um die Wette laufen.",
+      "daCurrent": "Løbe om kap.",
+      "ownerNew": "Løbe om kap."
+    },
+    {
+      "cardId": "sentence-432",
+      "de": "Was gilt die Wette?",
+      "daCurrent": "Hvad er væddemålet?",
+      "ownerNew": "Hvad er væddemålet?"
+    },
+    {
+      "cardId": "sentence-434",
+      "de": "Wettkampf im Turnen.",
+      "daCurrent": "Konkurrence i gymnastik.",
+      "ownerNew": "Konkurrence i gymnastik."
+    },
+    {
+      "cardId": "sentence-438",
+      "de": "Wie lange?",
+      "daCurrent": "Hvor længe?",
+      "ownerNew": "Hvor længe?"
+    },
+    {
+      "cardId": "sentence-439",
+      "de": "Auf Wiederhören!",
+      "daCurrent": "Vi tales!",
+      "ownerNew": "Vi tales!"
+    },
+    {
+      "cardId": "sentence-440",
+      "de": "Auf Wiedersehen!",
+      "daCurrent": "Farvel!",
+      "ownerNew": "Farvel!"
+    },
+    {
+      "cardId": "sentence-442",
+      "de": "Herzlich willkommen!",
+      "daCurrent": "Velkommen!",
+      "ownerNew": "Velkommen!"
+    },
+    {
+      "cardId": "sentence-443",
+      "de": "Du musst ziehen.",
+      "daCurrent": "Du skal trække.",
+      "ownerNew": "Du skal trække."
+    },
+    {
+      "cardId": "sentence-444",
+      "de": "Es zieht.",
+      "daCurrent": "Det trækker.",
+      "ownerNew": "Det trækker."
+    },
+    {
+      "cardId": "sentence-446",
+      "de": "Zipfel einer Wurst.",
+      "daCurrent": "Spidsen af en pølse.",
+      "ownerNew": "Spidsen af en pølse."
+    },
+    {
+      "cardId": "sentence-453",
+      "de": "Zu Fuß.",
+      "daCurrent": "Til fods.",
+      "ownerNew": "Til fods."
+    },
+    {
+      "cardId": "sentence-454",
+      "de": "Zu Pferde.",
+      "daCurrent": "Til hest.",
+      "ownerNew": "Til hest."
+    },
+    {
+      "cardId": "sentence-463",
+      "de": "Zugrunde legen.",
+      "daCurrent": "Lægge til grund.",
+      "ownerNew": "Lægge til grund."
+    },
+    {
+      "cardId": "sentence-472",
+      "de": "Zutritt verboten!",
+      "daCurrent": "Adgang forbudt!",
+      "ownerNew": "Adgang forbudt!"
+    },
+    {
+      "cardId": "sentence-477",
+      "de": "Ohne Zweifel.",
+      "daCurrent": "Uden tvivl.",
+      "ownerNew": "Uden tvivl."
+    },
+    {
+      "cardId": "sentence-481",
+      "de": "Gute Reise!",
+      "daCurrent": "God rejse!",
+      "ownerNew": "God rejse!"
+    }
+  ]
+}

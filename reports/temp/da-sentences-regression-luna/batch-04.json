@@ -1,0 +1,265 @@
+{
+  "auditType": "da_sentences_targeted_regression",
+  "batch": "batch-04",
+  "instructions": "Audit production DA (lv) vs DE after OWNER repair. OWNER NEW is authoritative expected value; flag real linguistic/semantic issues even if production matches OWNER NEW.",
+  "sentences": [
+    {
+      "cardId": "sentence-482",
+      "de": "Es freut mich, Sie kennenzulernen.",
+      "daCurrent": "Det glæder mig at møde Dem.",
+      "ownerNew": "Det glæder mig at møde Dem."
+    },
+    {
+      "cardId": "sentence-483",
+      "de": "Wären Sie bitte so nett?",
+      "daCurrent": "Vil De være så venlig?",
+      "ownerNew": "Vil De være så venlig?"
+    },
+    {
+      "cardId": "sentence-484",
+      "de": "Ich bin Ihnen sehr dankbar.",
+      "daCurrent": "Jeg er Dem meget taknemmelig.",
+      "ownerNew": "Jeg er Dem meget taknemmelig."
+    },
+    {
+      "cardId": "sentence-485",
+      "de": "Setzt euch bitte hin!",
+      "daCurrent": "Sæt jer venligst ned!",
+      "ownerNew": "Sæt jer venligst ned!"
+    },
+    {
+      "cardId": "sentence-486",
+      "de": "Ben, komm bitte an die Tafel!",
+      "daCurrent": "Ben, kom venligst til tavlen!",
+      "ownerNew": "Ben, kom venligst til tavlen!"
+    },
+    {
+      "cardId": "sentence-488",
+      "de": "Geht bitte in die Sporthalle!",
+      "daCurrent": "Gå venligst til gymnastiksalen!",
+      "ownerNew": "Gå venligst til gymnastiksalen!"
+    },
+    {
+      "cardId": "sentence-489",
+      "de": "Schläfst du noch?",
+      "daCurrent": "Sover du stadig?",
+      "ownerNew": "Sover du stadig?"
+    },
+    {
+      "cardId": "sentence-490",
+      "de": "Schlafen Sie noch?",
+      "daCurrent": "Sover De stadig?",
+      "ownerNew": "Sover De stadig?"
+    },
+    {
+      "cardId": "sentence-491",
+      "de": "Er ist fest eingeschlafen.",
+      "daCurrent": "Han sover dybt.",
+      "ownerNew": "Han sover dybt."
+    },
+    {
+      "cardId": "sentence-496",
+      "de": "Lest bitte mit!",
+      "daCurrent": "Læs med!",
+      "ownerNew": "Læs med!"
+    },
+    {
+      "cardId": "sentence-497",
+      "de": "Emma, schau bitte nicht aus dem Fenster!",
+      "daCurrent": "Emma, kig venligst ikke ud af vinduet!",
+      "ownerNew": "Emma, kig venligst ikke ud af vinduet!"
+    },
+    {
+      "cardId": "sentence-499",
+      "de": "Geh bitte zurück an deinen Platz!",
+      "daCurrent": "Gå tilbage til din plads!",
+      "ownerNew": "Gå tilbage til din plads!"
+    },
+    {
+      "cardId": "sentence-503",
+      "de": "Steh auf, Hanna, es klingelt!",
+      "daCurrent": "Rejs dig, Hanna, det ringer!",
+      "ownerNew": "Rejs dig, Hanna, det ringer!"
+    },
+    {
+      "cardId": "sentence-506",
+      "de": "Wo ist das Handtuch?",
+      "daCurrent": "Hvor er håndklædet?",
+      "ownerNew": "Hvor er håndklædet?"
+    },
+    {
+      "cardId": "sentence-509",
+      "de": "Ich möchte mich anziehen.",
+      "daCurrent": "Jeg vil gerne tage tøj på.",
+      "ownerNew": "Jeg vil gerne tage tøj på."
+    },
+    {
+      "cardId": "sentence-511",
+      "de": "Kleide dich wärmer an, draußen ist es kühl.",
+      "daCurrent": "Klæd dig varmere på, det er køligt udenfor.",
+      "ownerNew": "Klæd dig varmere på, det er køligt udenfor."
+    },
+    {
+      "cardId": "sentence-514",
+      "de": "Was gibt es Neues?",
+      "daCurrent": "Hvad er nyt?",
+      "ownerNew": "Hvad er nyt?"
+    },
+    {
+      "cardId": "sentence-519",
+      "de": "Am liebsten trinke ich schwarzen Kaffee.",
+      "daCurrent": "Jeg drikker helst sort kaffe.",
+      "ownerNew": "Jeg drikker helst sort kaffe."
+    },
+    {
+      "cardId": "sentence-528",
+      "de": "Wann esst ihr zu Mittag?",
+      "daCurrent": "Hvornår spiser I frokost?",
+      "ownerNew": "Hvornår spiser I frokost?"
+    },
+    {
+      "cardId": "sentence-531",
+      "de": "Wie schmeckt dir die Suppe?",
+      "daCurrent": "Hvad synes du om suppen?",
+      "ownerNew": "Hvad synes du om suppen?"
+    },
+    {
+      "cardId": "sentence-538",
+      "de": "Bist du heute Abend frei?",
+      "daCurrent": "Har du fri i aften?",
+      "ownerNew": "Har du fri i aften?"
+    },
+    {
+      "cardId": "sentence-539",
+      "de": "Komm doch heute zum Mittagessen vorbei!",
+      "daCurrent": "Kom til frokost i dag!",
+      "ownerNew": "Kom til frokost i dag!"
+    },
+    {
+      "cardId": "sentence-541",
+      "de": "Bitte, bedien dich!",
+      "daCurrent": "Tag for dig!",
+      "ownerNew": "Tag for dig!"
+    },
+    {
+      "cardId": "sentence-544",
+      "de": "Wann gehst du ins Bett?",
+      "daCurrent": "Hvornår går du i seng?",
+      "ownerNew": "Hvornår går du i seng?"
+    },
+    {
+      "cardId": "sentence-547",
+      "de": "Es ist schönes Wetter.",
+      "daCurrent": "Det er dejligt vejr.",
+      "ownerNew": "Det er dejligt vejr."
+    },
+    {
+      "cardId": "sentence-558",
+      "de": "Wir bekommen gleich ein Gewitter.",
+      "daCurrent": "Vi får snart et uvejr med torden.",
+      "ownerNew": "Vi får snart et uvejr med torden."
+    },
+    {
+      "cardId": "sentence-559",
+      "de": "Das Gewitter zieht vorüber.",
+      "daCurrent": "Uvejret er passeret.",
+      "ownerNew": "Uvejret er passeret."
+    },
+    {
+      "cardId": "sentence-560",
+      "de": "Die Wolken verziehen sich.",
+      "daCurrent": "Skyerne trækker væk.",
+      "ownerNew": "Skyerne trækker væk."
+    },
+    {
+      "cardId": "sentence-562",
+      "de": "Der Winter ist da, es hat geschneit.",
+      "daCurrent": "Vinteren er her, det har sneet.",
+      "ownerNew": "Vinteren er her, det har sneet."
+    },
+    {
+      "cardId": "sentence-567",
+      "de": "Wollen wir auf die Eisbahn gehen?",
+      "daCurrent": "Skal vi gå på skøjter?",
+      "ownerNew": "Skal vi gå på skøjter?"
+    },
+    {
+      "cardId": "sentence-569",
+      "de": "Es ist halb sieben.",
+      "daCurrent": "Klokken er halv syv.",
+      "ownerNew": "Klokken er halv syv."
+    },
+    {
+      "cardId": "sentence-570",
+      "de": "Meine Uhr geht fünf Minuten vor.",
+      "daCurrent": "Mit ur går fem minutter for hurtigt.",
+      "ownerNew": "Mit ur går fem minutter for hurtigt."
+    },
+    {
+      "cardId": "sentence-576",
+      "de": "Wie geht es dir?",
+      "daCurrent": "Hvordan har du det?",
+      "ownerNew": "Hvordan har du det?"
+    },
+    {
+      "cardId": "sentence-577",
+      "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
+      "daCurrent": "Undskyld, jeg vil tale med dig om noget.",
+      "ownerNew": "Undskyld, jeg vil tale med dig om noget."
+    },
+    {
+      "cardId": "sentence-580",
+      "de": "Ich komme, um dich zum Spaziergang abzuholen.",
+      "daCurrent": "Jeg kommer for at hente dig til en gåtur.",
+      "ownerNew": "Jeg kommer for at hente dig til en gåtur."
+    },
+    {
+      "cardId": "sentence-582",
+      "de": "Ich bin zum ersten Mal in dieser Gegend.",
+      "daCurrent": "Det er første gang, jeg er i dette område.",
+      "ownerNew": "Det er første gang, jeg er i dette område."
+    },
+    {
+      "cardId": "sentence-589",
+      "de": "Wie komme ich am schnellsten zum Bahnhof?",
+      "daCurrent": "Hvordan kommer jeg hurtigst til stationen?",
+      "ownerNew": "Hvordan kommer jeg hurtigst til stationen?"
+    },
+    {
+      "cardId": "sentence-595",
+      "de": "In einer halben Stunde.",
+      "daCurrent": "Om en halv time.",
+      "ownerNew": "Om en halv time."
+    },
+    {
+      "cardId": "sentence-596",
+      "de": "Kann ich noch eine Kabine bekommen?",
+      "daCurrent": "Kan jeg stadig få en kabine?",
+      "ownerNew": "Kan jeg stadig få en kabine?"
+    },
+    {
+      "cardId": "sentence-599",
+      "de": "Der Zug fährt um halb sieben ab.",
+      "daCurrent": "Toget går klokken halv syv.",
+      "ownerNew": "Toget går klokken halv syv."
+    },
+    {
+      "cardId": "sentence-607",
+      "de": "Muss ich in Koblenz umsteigen?",
+      "daCurrent": "Skal jeg skifte tog i Koblenz?",
+      "ownerNew": "Skal jeg skifte tog i Koblenz?"
+    },
+    {
+      "cardId": "sentence-608",
+      "de": "Ja, dort musst du umsteigen.",
+      "daCurrent": "Ja, du skal skifte tog der.",
+      "ownerNew": "Ja, du skal skifte tog der."
+    },
+    {
+      "cardId": "sentence-609",
+      "de": "Ist dieser Platz frei?",
+      "daCurrent": "Er dette sæde ledigt?",
+      "ownerNew": "Er dette sæde ledigt?"
+    }
+  ]
+}

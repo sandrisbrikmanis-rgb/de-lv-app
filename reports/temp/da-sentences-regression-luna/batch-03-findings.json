@@ -1,0 +1,49 @@
+{
+  "batch": "batch-03",
+  "auditor": "GPT-5.6 Luna",
+  "sentencesAudited": 43,
+  "findings": [
+    {
+      "cardId": "sentence-374",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Er ist Berliner von Geburt.",
+      "daCurrent": "Han er berliner af fødsel",
+      "ownerNew": "Han er berliner af fødsel",
+      "proposedDa": "Han er Berliner af fødsel",
+      "reason": "Nationality/origin adjective from a place name should be capitalized in Danish.",
+      "problem": "Lowercase 'berliner' reads as the pastry, not a native of Berlin.",
+      "productionMatchesOwner": true,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-383",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "OWNER_RISK",
+      "de": "Vorhanden sein.",
+      "daCurrent": "Være til stede • Være tilgængelig",
+      "ownerNew": "Være til stede • Være tilgængelig",
+      "proposedDa": "Være til stede",
+      "reason": "Bullet-separated multi-variant gloss (•) is an OWNER risk pattern; both variants are semantically valid but the field should ideally be a single natural Danish phrase.",
+      "problem": "MULTI_VARIANT_BULLET: two infinitive variants joined by •.",
+      "productionMatchesOwner": true,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-409",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Von Rechts wegen.",
+      "daCurrent": "Af ret.",
+      "ownerNew": "Af ret.",
+      "proposedDa": "Ifølge loven",
+      "reason": "'Von Rechts wegen' is a fixed legal phrase meaning by law / on legal grounds, not by justice or fairness.",
+      "problem": "'Af ret.' is not idiomatic Danish; it reads as an incomplete fragment rather than a legal equivalent.",
+      "productionMatchesOwner": true,
+      "status": "FINDING"
+    }
+  ]
+}

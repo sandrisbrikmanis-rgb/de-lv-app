@@ -1,0 +1,253 @@
+{
+  "auditType": "da_sentences_targeted_regression",
+  "batch": "batch-05",
+  "instructions": "Audit production DA (lv) vs DE after OWNER repair. OWNER NEW is authoritative expected value; flag real linguistic/semantic issues even if production matches OWNER NEW.",
+  "sentences": [
+    {
+      "cardId": "sentence-617",
+      "de": "Wo muss ich umsteigen?",
+      "daCurrent": "Hvor skal jeg skifte tog?",
+      "ownerNew": "Hvor skal jeg skifte tog?"
+    },
+    {
+      "cardId": "sentence-619",
+      "de": "Dieser Wagen ist für Nichtraucher.",
+      "daCurrent": "Denne vogn er for ikke-rygere.",
+      "ownerNew": "Denne vogn er for ikke-rygere."
+    },
+    {
+      "cardId": "sentence-621",
+      "de": "Hast du etwas zu verzollen?",
+      "daCurrent": "Har du noget at fortolde?",
+      "ownerNew": "Har du noget at fortolde?"
+    },
+    {
+      "cardId": "sentence-624",
+      "de": "Haben Sie freie Zimmer?",
+      "daCurrent": "Har De ledige værelser?",
+      "ownerNew": "Har De ledige værelser?"
+    },
+    {
+      "cardId": "sentence-628",
+      "de": "Die Rechnung, bitte!",
+      "daCurrent": "Regningen, tak!",
+      "ownerNew": "Regningen, tak!"
+    },
+    {
+      "cardId": "sentence-639",
+      "de": "Kellner, zahlen bitte!",
+      "daCurrent": "Tjener, regningen, tak!",
+      "ownerNew": "Tjener, regningen, tak!"
+    },
+    {
+      "cardId": "sentence-645",
+      "de": "Haben Sie etwas Erfrischendes?",
+      "daCurrent": "Har De noget forfriskende?",
+      "ownerNew": "Har De noget forfriskende?"
+    },
+    {
+      "cardId": "sentence-651",
+      "de": "Erinnere mich morgen daran zu schreiben!",
+      "daCurrent": "Mind mig om at skrive i morgen!",
+      "ownerNew": "Mind mig om at skrive i morgen!"
+    },
+    {
+      "cardId": "sentence-652",
+      "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
+      "daCurrent": "Læg venligst dette brev i postkassen!",
+      "ownerNew": "Læg venligst dette brev i postkassen!"
+    },
+    {
+      "cardId": "sentence-654",
+      "de": "Kann ich dich später anrufen?",
+      "daCurrent": "Kan jeg ringe til dig senere?",
+      "ownerNew": "Kan jeg ringe til dig senere?"
+    },
+    {
+      "cardId": "sentence-656",
+      "de": "Bitte schneiden Sie mir die Haare.",
+      "daCurrent": "Vil De venligst klippe mit hår?",
+      "ownerNew": "Vil De venligst klippe mit hår?"
+    },
+    {
+      "cardId": "sentence-659",
+      "de": "Es fängt um halb acht an.",
+      "daCurrent": "Det starter klokken halv otte.",
+      "ownerNew": "Det starter klokken halv otte."
+    },
+    {
+      "cardId": "sentence-662",
+      "de": "Wir lassen die Jacken in der Garderobe.",
+      "daCurrent": "Vi efterlader jakkerne i garderoben.",
+      "ownerNew": "Vi efterlader jakkerne i garderoben."
+    },
+    {
+      "cardId": "sentence-674",
+      "de": "Ich stehe mit meinem Freund in Kontakt.",
+      "daCurrent": "Jeg er i kontakt med min ven.",
+      "ownerNew": "Jeg er i kontakt med min ven."
+    },
+    {
+      "cardId": "sentence-678",
+      "de": "Nun können wir alles wieder aufräumen.",
+      "daCurrent": "Nu kan vi rydde op igen.",
+      "ownerNew": "Nu kan vi rydde op igen."
+    },
+    {
+      "cardId": "sentence-679",
+      "de": "Wie viele Zimmer habt ihr?",
+      "daCurrent": "Hvor mange rum har I?",
+      "ownerNew": "Hvor mange rum har I?"
+    },
+    {
+      "cardId": "sentence-681",
+      "de": "Kannst du schwimmen?",
+      "daCurrent": "Kan du svømme?",
+      "ownerNew": "Kan du svømme?"
+    },
+    {
+      "cardId": "sentence-706",
+      "de": "Sei mit dem Essen noch vorsichtig.",
+      "daCurrent": "Vær stadig forsigtig med maden.",
+      "ownerNew": "Vær stadig forsigtig med maden."
+    },
+    {
+      "cardId": "sentence-707",
+      "de": "Sprichst du Deutsch?",
+      "daCurrent": "Taler du tysk?",
+      "ownerNew": "Taler du tysk?"
+    },
+    {
+      "cardId": "sentence-712",
+      "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
+      "daCurrent": "Jeg er altid på udkig efter en mulighed for at tale tysk.",
+      "ownerNew": "Jeg er altid på udkig efter en mulighed for at tale tysk."
+    },
+    {
+      "cardId": "sentence-716",
+      "de": "Womit kann ich Ihnen helfen?",
+      "daCurrent": "Hvad kan jeg hjælpe Dem med?",
+      "ownerNew": "Hvad kan jeg hjælpe Dem med?"
+    },
+    {
+      "cardId": "sentence-717",
+      "de": "Haben Sie ganz frische Eier?",
+      "daCurrent": "Har De helt friske æg?",
+      "ownerNew": "Har De helt friske æg?"
+    },
+    {
+      "cardId": "sentence-720",
+      "de": "Können Sie mir ein halbes Kilo abwiegen?",
+      "daCurrent": "Kan De veje et halvt kilo af til mig?",
+      "ownerNew": "Kan De veje et halvt kilo af til mig?"
+    },
+    {
+      "cardId": "sentence-726",
+      "de": "Geben Sie mir zwei Kilo Hackfleisch.",
+      "daCurrent": "Giv mig to kilo hakket kød.",
+      "ownerNew": "Giv mig to kilo hakket kød."
+    },
+    {
+      "cardId": "sentence-727",
+      "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
+      "daCurrent": "Et brød, tak, men ikke for sprødt.",
+      "ownerNew": "Et brød, tak, men ikke for sprødt."
+    },
+    {
+      "cardId": "sentence-733",
+      "de": "Können Sie mir alles nach Hause liefern?",
+      "daCurrent": "Kan De levere det hele hjem til mig?",
+      "ownerNew": "Kan De levere det hele hjem til mig?"
+    },
+    {
+      "cardId": "sentence-741",
+      "de": "Was kostet das Meter?",
+      "daCurrent": "Hvad koster meteren?",
+      "ownerNew": "Hvad koster meteren?"
+    },
+    {
+      "cardId": "sentence-742",
+      "de": "Dieser Stoff gefällt mir.",
+      "daCurrent": "Jeg kan lide dette stof.",
+      "ownerNew": "Jeg kan lide dette stof."
+    },
+    {
+      "cardId": "sentence-746",
+      "de": "Geben Sie mir eine hellere.",
+      "daCurrent": "Giv mig en lysere.",
+      "ownerNew": "Giv mig en lysere."
+    },
+    {
+      "cardId": "sentence-748",
+      "de": "Welche Handschuhe wünschen Sie?",
+      "daCurrent": "Hvilken slags handsker ønsker De?",
+      "ownerNew": "Hvilken slags handsker ønsker De?"
+    },
+    {
+      "cardId": "sentence-750",
+      "de": "So, nun passen sie gut.",
+      "daCurrent": "Så passer de godt nu.",
+      "ownerNew": "Så passer de godt nu."
+    },
+    {
+      "cardId": "sentence-759",
+      "de": "Können Sie die Schuhe heute reparieren?",
+      "daCurrent": "Kan De reparere skoene i dag?",
+      "ownerNew": "Kan De reparere skoene i dag?"
+    },
+    {
+      "cardId": "sentence-760",
+      "de": "Wann kann ich die Schuhe abholen?",
+      "daCurrent": "Hvornår kan jeg hente skoene?",
+      "ownerNew": "Hvornår kan jeg hente skoene?"
+    },
+    {
+      "cardId": "sentence-761",
+      "de": "Meine Armbanduhr funktioniert nicht.",
+      "daCurrent": "Mit armbåndsur virker ikke.",
+      "ownerNew": "Mit armbåndsur virker ikke."
+    },
+    {
+      "cardId": "sentence-762",
+      "de": "Sie geht fünf Minuten vor.",
+      "daCurrent": "Den går fem minutter for hurtigt.",
+      "ownerNew": "Den går fem minutter for hurtigt."
+    },
+    {
+      "cardId": "sentence-769",
+      "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
+      "daCurrent": "Pak det venligst ind og send det hjem til mig.",
+      "ownerNew": "Pak det venligst ind og send det hjem til mig."
+    },
+    {
+      "cardId": "sentence-771",
+      "de": "Bitte, fotografieren Sie mich.",
+      "daCurrent": "Tag venligst et billede af mig.",
+      "ownerNew": "Tag venligst et billede af mig."
+    },
+    {
+      "cardId": "sentence-773",
+      "de": "Wann kann ich das Probebild sehen?",
+      "daCurrent": "Hvornår kan jeg se prøvebilledet?",
+      "ownerNew": "Hvornår kan jeg se prøvebilledet?"
+    },
+    {
+      "cardId": "sentence-776",
+      "de": "Die Fotos sind gut geworden.",
+      "daCurrent": "Billederne blev gode.",
+      "ownerNew": "Billederne blev gode."
+    },
+    {
+      "cardId": "sentence-785",
+      "de": "Wie gefallen dir diese Ohrringe?",
+      "daCurrent": "Hvad synes du om disse øreringer?",
+      "ownerNew": "Hvad synes du om disse øreringer?"
+    },
+    {
+      "cardId": "sentence-792",
+      "de": "Bekomme ich die Schachtel gratis?",
+      "daCurrent": "Får jeg æsken gratis?",
+      "ownerNew": "Får jeg æsken gratis?"
+    }
+  ]
+}

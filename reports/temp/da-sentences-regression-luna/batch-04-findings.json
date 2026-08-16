@@ -1,0 +1,271 @@
+{
+  "batch": "batch-04",
+  "auditType": "da_sentences_targeted_regression",
+  "results": [
+    {
+      "cardId": "sentence-482",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-483",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-484",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-485",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-486",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-488",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-489",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-490",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-491",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-496",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-497",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-499",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-503",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Steh auf, Hanna, es klingelt!",
+      "daCurrent": "Rejs dig, Hanna, det ringer!",
+      "proposedDa": "Rejs dig, Hanna, der er ringet på!",
+      "reason": "DE es klingelt means the doorbell; det ringer in DA usually means the phone is ringing.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-506",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-509",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-511",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-514",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-519",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-528",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-531",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-538",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-539",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-541",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-544",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-547",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-558",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-559",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Das Gewitter zieht vorüber.",
+      "daCurrent": "Uvejret er passeret.",
+      "proposedDa": "Uvejret er ved at gå over.",
+      "reason": "DE present progressive (storm passing now); er passeret reads as already finished and sounds stiff.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-560",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-562",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-567",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-569",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-570",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-576",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-577",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-580",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-582",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-589",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-595",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-596",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-599",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-607",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-608",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-609",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-503",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Steh auf, Hanna, es klingelt!",
+      "daCurrent": "Rejs dig, Hanna, det ringer!",
+      "proposedDa": "Rejs dig, Hanna, der er ringet på!",
+      "reason": "DE es klingelt means the doorbell; det ringer in DA usually means the phone is ringing.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-559",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Das Gewitter zieht vorüber.",
+      "daCurrent": "Uvejret er passeret.",
+      "proposedDa": "Uvejret er ved at gå over.",
+      "reason": "DE present progressive (storm passing now); er passeret reads as already finished and sounds stiff.",
+      "confidence": "high",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 41,
+  "findingCount": 2,
+  "severityCounts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 2,
+    "LOW": 0
+  },
+  "completedAt": "2026-08-16T14:40:00.000Z",
+  "source": "gpt-5.6-luna-regression"
+}

@@ -1,0 +1,107 @@
+{
+  "batch": "batch-02",
+  "auditor": "GPT-5.6 Luna",
+  "sentencesAudited": 44,
+  "findings": [
+    {
+      "cardId": "sentence-176",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Beileid aussprechen.",
+      "daCurrent": "Udtrykke medfølelse.",
+      "proposedDa": "Kondolere. / Udtrykke kondolence.",
+      "reason": "'Beileid aussprechen' is specifically to offer condolences (at bereavement). 'Udtrykke medfølelse' is broader sympathy and does not pin the condolence register."
+    },
+    {
+      "cardId": "sentence-215",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Bitte sehr.",
+      "daCurrent": "Værsgo",
+      "proposedDa": "Selv tak. / Velbekomme.",
+      "reason": "'Bitte sehr' most often answers thanks ('you're welcome'). 'Værsgo' means 'here you are/help yourself' and mismatches that response sense; it also duplicates sentence-213/325 without distinguishing functions."
+    },
+    {
+      "cardId": "sentence-230",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Mit der Dame ziehen.",
+      "daCurrent": "Spil damen",
+      "proposedDa": "Træk med damen. / Spil dronningen.",
+      "reason": "'Mit der Dame ziehen' is a card/chess idiom for playing the queen card/piece. Danish 'spil damen' is ambiguous: 'dam' most commonly denotes the board game checkers, and the chess queen is normally 'dronningen'."
+    },
+    {
+      "cardId": "sentence-231",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Es dämmert.",
+      "daCurrent": "Det er ved at blive mørkt",
+      "proposedDa": "Det dæmrer.",
+      "reason": "'Es dämmert' covers both dawn and dusk/twilight. The current rendering only expresses fading light (dusk) and drops the equally common dawn sense."
+    },
+    {
+      "cardId": "sentence-246",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Was hast du?",
+      "daCurrent": "Hvad er der galt?",
+      "proposedDa": "Hvad er der galt med dig? / Hvad fejler du?",
+      "reason": "Colloquial 'Was hast du?' addresses the person directly ('what's wrong with you?'). The Danish lacks the second-person target and reads as a generic 'what's wrong?'"
+    },
+    {
+      "cardId": "sentence-283",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Leben Sie wohl!",
+      "daCurrent": "Farvel!",
+      "proposedDa": "Leve vel!",
+      "reason": "'Leben Sie wohl' is a formal, literary valediction ('fare thee well'). 'Farvel' is neutral everyday goodbye and loses the formal register and 'live well' nuance."
+    },
+    {
+      "cardId": "sentence-310",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Letzte Neuheit!",
+      "daCurrent": "Seneste nyhed!",
+      "proposedDa": "Helt nyt! / Nyeste vare!",
+      "reason": "'Letzte Neuheit' is a retail novelty/new-product headline, not news. 'Seneste nyhed' reads as 'latest news' (Nachricht), which is the wrong semantic field."
+    },
+    {
+      "cardId": "sentence-324",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "REGISTER",
+      "de": "Schon gut!",
+      "daCurrent": "Det er okay",
+      "proposedDa": "Ro på! / Det er godt nok!",
+      "reason": "'Schon gut!' dismissively calms or cuts off concern ('alright already / enough'). 'Det er okay' is neutral reassurance and softens the impatient, closing tone."
+    },
+    {
+      "cardId": "sentence-335",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "IDIOMATICITY",
+      "de": "Spaß beiseite!",
+      "daCurrent": "Spøg til side!",
+      "proposedDa": "Skæmt til side! / Nu alvorligt!",
+      "reason": "'Spaß beiseite' is a fixed phrase meaning 'joking aside / seriously now'. 'Spøg til side' is a calque and not idiomatic Danish; natural equivalents use 'skæmt' or an adverbial framing."
+    },
+    {
+      "cardId": "sentence-336",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Wie spät ist es?",
+      "daCurrent": "Hvad er klokken?",
+      "proposedDa": "Hvad er klokken?",
+      "reason": "Interrogative Danish should carry a question mark to match the German source punctuation and learner expectations."
+    }
+  ]
+}

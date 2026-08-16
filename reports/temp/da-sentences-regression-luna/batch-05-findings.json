@@ -1,0 +1,222 @@
+{
+  "batch": "batch-05",
+  "auditType": "da_sentences_targeted_regression",
+  "source": "gpt-5.6-luna",
+  "completedAt": "2026-08-16T14:40:00.000Z",
+  "passCount": 40,
+  "findingCount": 1,
+  "findings": [
+    {
+      "cardId": "sentence-617",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-619",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-621",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-624",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-628",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-639",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-645",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-651",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-652",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-654",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-656",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-659",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-662",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-674",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-678",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-679",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-681",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-706",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-707",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-712",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-716",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-717",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-720",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-726",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-727",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-733",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-741",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-742",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-746",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-748",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Welche Handschuhe wünschen Sie?",
+      "daCurrent": "Hvilken slags handsker ønsker De?",
+      "proposedDa": "Hvilke handsker ønsker De?",
+      "reason": "Singular determiner 'hvilken slags' does not agree with plural 'handsker'; German 'Welche Handschuhe' is a direct which-gloves question, not what-kind.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-750",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-759",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-760",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-761",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-762",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-769",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-771",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-773",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-776",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-785",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-792",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ]
+}
