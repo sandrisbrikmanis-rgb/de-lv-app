@@ -2,7 +2,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "backen",
-      "lv": "Cept"
+      "lv": "At bage"
     },
     "praesens": {
       "de": "er bäckt",
@@ -18,7 +18,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gebacken",
-      "lv": "Cepts / izcepts"
+      "lv": "Bagt"
     }
   },
   {
@@ -40,7 +40,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "befohlen",
-      "lv": "Kommanderede"
+      "lv": "Kommanderet"
     }
   },
   {
@@ -62,13 +62,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "begonnen",
-      "lv": "Startede"
+      "lv": "Startet"
     }
   },
   {
     "infinitiv": {
       "de": "beißen",
-      "lv": "Kost"
+      "lv": "At bide"
     },
     "praesens": {
       "de": "er beißt",
@@ -76,15 +76,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er biss",
-      "lv": "Han kodede"
+      "lv": "Han bed"
     },
     "imperfektKonjunktiv": {
       "de": "er bisse",
-      "lv": "Han bider"
+      "lv": "Han ville bide"
     },
     "partizipVergangenheit": {
       "de": "gebissen",
-      "lv": "Kosts / sakosts"
+      "lv": "Bidt"
     }
   },
   {
@@ -106,7 +106,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geborgen",
-      "lv": "Skjult / gemt"
+      "lv": "Bjærget"
     }
   },
   {
@@ -124,7 +124,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er bärste / er börste",
-      "lv": "Brister han"
+      "lv": "Han ville briste"
     },
     "partizipVergangenheit": {
       "de": "geborsten (er ist)",
@@ -134,23 +134,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "bewegen",
-      "lv": "At opmuntre"
+      "lv": "At bevæge"
     },
     "praesens": {
       "de": "er bewegt",
-      "lv": "Spørger han"
+      "lv": "Han bevæger"
     },
     "imperfektIndikativ": {
       "de": "er bewog",
-      "lv": "Opfordrede han"
+      "lv": "Han bevægede"
     },
     "imperfektKonjunktiv": {
       "de": "er bewöge",
-      "lv": "Han ville opmuntre"
+      "lv": "Han ville bevæge"
     },
     "partizipVergangenheit": {
       "de": "bewogen",
-      "lv": "Opmuntret"
+      "lv": "Bevæget"
     }
   },
   {
@@ -194,29 +194,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geboten",
-      "lv": "Lovet / tilbudt"
+      "lv": "Tilbudt"
     }
   },
   {
     "infinitiv": {
       "de": "binden",
-      "lv": "Sit"
+      "lv": "At binde"
     },
     "praesens": {
       "de": "er bindet",
-      "lv": "Han hø"
+      "lv": "Han binder"
     },
     "imperfektIndikativ": {
       "de": "er band",
-      "lv": "Han såede"
+      "lv": "Han bandt"
     },
     "imperfektKonjunktiv": {
       "de": "er bände",
-      "lv": "Han sigtede"
+      "lv": "Han ville binde"
     },
     "partizipVergangenheit": {
       "de": "gebunden",
-      "lv": "Siets"
+      "lv": "Bundet"
     }
   },
   {
@@ -230,7 +230,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er bat",
-      "lv": "Spurgte han"
+      "lv": "Han bad"
     },
     "imperfektKonjunktiv": {
       "de": "er bäte",
@@ -238,7 +238,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gebeten",
-      "lv": "Anmodet om"
+      "lv": "Bedt"
     }
   },
   {
@@ -274,15 +274,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "es gor / es gärte",
-      "lv": "Det gærer"
+      "lv": "Det gærede"
     },
     "imperfektKonjunktiv": {
       "de": "es göre / es gärte",
-      "lv": "Det ville være bittert"
+      "lv": "Det ville gære"
     },
     "partizipVergangenheit": {
       "de": "gegoren / gegärt",
-      "lv": "Rug"
+      "lv": "Gæret"
     }
   },
   {
@@ -292,7 +292,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "sie gebiert",
-      "lv": "I hendes mave"
+      "lv": "Hun føder"
     },
     "imperfektIndikativ": {
       "de": "sie gebar",
@@ -304,29 +304,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geboren",
-      "lv": "Født / blev født"
+      "lv": "Født"
     }
   },
   {
     "infinitiv": {
       "de": "gelingen",
-      "lv": "Izdoties"
+      "lv": "At lykkes"
     },
     "praesens": {
       "de": "es gelingt",
-      "lv": "Tas izdodas"
+      "lv": "Det lykkes"
     },
     "imperfektIndikativ": {
       "de": "es gelang",
-      "lv": "Det virkede"
+      "lv": "Det lykkedes"
     },
     "imperfektKonjunktiv": {
       "de": "es gelänge",
-      "lv": "Tas izdotos"
+      "lv": "Det ville lykkes"
     },
     "partizipVergangenheit": {
       "de": "gelungen (es ist)",
-      "lv": "Izdevies"
+      "lv": "Lykkedes"
     }
   },
   {
@@ -336,19 +336,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er gilt",
-      "lv": "Han passer / er gyldig"
+      "lv": "Det gælder"
     },
     "imperfektIndikativ": {
       "de": "er galt",
-      "lv": "Han passede / var fit"
+      "lv": "Det gjaldt"
     },
     "imperfektKonjunktiv": {
       "de": "er gölte / es gälte",
-      "lv": "Han ville passe / det ville passe"
+      "lv": "Det ville gælde"
     },
     "partizipVergangenheit": {
       "de": "gegolten",
-      "lv": "Anvendt / var gyldig"
+      "lv": "Gældt"
     }
   },
   {
@@ -370,7 +370,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "genesen (er ist)",
-      "lv": "Blive rask"
+      "lv": "Blevet rask"
     }
   },
   {
@@ -392,35 +392,35 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "genossen",
-      "lv": "Nød"
+      "lv": "Nydt"
     }
   },
   {
     "infinitiv": {
       "de": "geschehen",
-      "lv": "Notikt"
+      "lv": "At ske"
     },
     "praesens": {
       "de": "es geschieht",
-      "lv": "Tas notiek"
+      "lv": "Det sker"
     },
     "imperfektIndikativ": {
       "de": "es geschah",
-      "lv": "Tas notika"
+      "lv": "Det skete"
     },
     "imperfektKonjunktiv": {
       "de": "es geschähe",
-      "lv": "Tas notiktu"
+      "lv": "Det ville ske"
     },
     "partizipVergangenheit": {
       "de": "geschehen (es ist)",
-      "lv": "Noticis"
+      "lv": "Sket"
     }
   },
   {
     "infinitiv": {
       "de": "gießen",
-      "lv": "Liet"
+      "lv": "At hælde"
     },
     "praesens": {
       "de": "er gießt",
@@ -432,11 +432,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er gösse",
-      "lv": "Han regner"
+      "lv": "Han ville hælde"
     },
     "partizipVergangenheit": {
       "de": "gegossen",
-      "lv": "Liets"
+      "lv": "Hældt"
     }
   },
   {
@@ -450,15 +450,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er glich",
-      "lv": "Efterlignede han"
+      "lv": "Han lignede"
     },
     "imperfektKonjunktiv": {
       "de": "er gliche",
-      "lv": "Han ville efterligne"
+      "lv": "Han ville ligne"
     },
     "partizipVergangenheit": {
       "de": "geglichen",
-      "lv": "Lignede"
+      "lv": "Lignet"
     }
   },
   {
@@ -480,13 +480,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geglitten (er ist)",
-      "lv": "Gled"
+      "lv": "Glidet"
     }
   },
   {
     "infinitiv": {
       "de": "glimmen",
-      "lv": "Glødende"
+      "lv": "At gløde"
     },
     "praesens": {
       "de": "er glimmt",
@@ -502,13 +502,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geglimmt / geglommen",
-      "lv": "Glødende"
+      "lv": "Glødet"
     }
   },
   {
     "infinitiv": {
       "de": "graben",
-      "lv": "Rakt"
+      "lv": "At grave"
     },
     "praesens": {
       "de": "er gräbt",
@@ -524,7 +524,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gegraben",
-      "lv": "Rakter"
+      "lv": "Gravet"
     }
   },
   {
@@ -546,73 +546,73 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gegriffen",
-      "lv": "Fanget/grebet"
+      "lv": "Grebet"
     }
   },
   {
     "infinitiv": {
       "de": "hauen",
-      "lv": "Cirst"
+      "lv": "At slå"
     },
     "praesens": {
       "de": "er haut",
-      "lv": "Han valgte"
+      "lv": "Han slår"
     },
     "imperfektIndikativ": {
       "de": "er hieb",
-      "lv": "Knækkede han"
+      "lv": "Han slog"
     },
     "imperfektKonjunktiv": {
       "de": "er hiebe",
-      "lv": "Han ville skære"
+      "lv": "Han ville slå"
     },
     "partizipVergangenheit": {
       "de": "gehauen",
-      "lv": "Cirsts"
+      "lv": "Slået"
     }
   },
   {
     "infinitiv": {
       "de": "heben",
-      "lv": "Celt"
+      "lv": "At løfte"
     },
     "praesens": {
       "de": "er hebt",
-      "lv": "Han rejser"
+      "lv": "Han løfter"
     },
     "imperfektIndikativ": {
       "de": "er hob",
-      "lv": "Han bragte"
+      "lv": "Han løftede"
     },
     "imperfektKonjunktiv": {
       "de": "er höbe",
-      "lv": "Han ville bygge"
+      "lv": "Han ville løfte"
     },
     "partizipVergangenheit": {
       "de": "gehoben",
-      "lv": "Kelter"
+      "lv": "Løftet"
     }
   },
   {
     "infinitiv": {
       "de": "kennen",
-      "lv": "At vide / at vide"
+      "lv": "At kende"
     },
     "praesens": {
       "de": "er kennt",
-      "lv": "Han ved"
+      "lv": "Han kender"
     },
     "imperfektIndikativ": {
       "de": "kannte",
-      "lv": "Pazina"
+      "lv": "Han kendte"
     },
     "imperfektKonjunktiv": {
       "de": "kannte",
-      "lv": "Pazina"
+      "lv": "Han ville kende"
     },
     "partizipVergangenheit": {
       "de": "gekannt",
-      "lv": "Pazinis"
+      "lv": "Kendt"
     }
   },
   {
@@ -634,17 +634,17 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geklungen",
-      "lv": "Lød"
+      "lv": "Lydt"
     }
   },
   {
     "infinitiv": {
       "de": "kneifen",
-      "lv": "Kniebt"
+      "lv": "At knibe"
     },
     "praesens": {
       "de": "er kneift",
-      "lv": "Spøger han"
+      "lv": "Han kniber"
     },
     "imperfektIndikativ": {
       "de": "er kniff",
@@ -656,13 +656,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gekniffen",
-      "lv": "Kniebts"
+      "lv": "Knebet"
     }
   },
   {
     "infinitiv": {
       "de": "bleiben",
-      "lv": "Palikt"
+      "lv": "At blive"
     },
     "praesens": {
       "de": "er bleibt",
@@ -678,7 +678,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geblieben (er ist)",
-      "lv": "Palicis"
+      "lv": "Blevet"
     }
   },
   {
@@ -692,11 +692,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "blich",
-      "lv": "Bleget"
+      "lv": "Han blegnede"
     },
     "imperfektKonjunktiv": {
       "de": "blich",
-      "lv": "Bleget"
+      "lv": "Han ville blegne"
     },
     "partizipVergangenheit": {
       "de": "geblichen",
@@ -706,7 +706,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "braten",
-      "lv": "Cept"
+      "lv": "At stege"
     },
     "praesens": {
       "de": "er brät",
@@ -722,13 +722,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gebraten",
-      "lv": "Cepts / izcepts"
+      "lv": "Stegt"
     }
   },
   {
     "infinitiv": {
       "de": "brechen",
-      "lv": "Lauzt"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er bricht",
@@ -744,43 +744,43 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gebrochen",
-      "lv": "Lauzts / salauzts"
+      "lv": "LABOT salauzts"
     }
   },
   {
     "infinitiv": {
       "de": "brennen",
-      "lv": "Degt"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er brennt",
-      "lv": "Han er i brand"
+      "lv": "LABOT brand"
     },
     "imperfektIndikativ": {
       "de": "brannte",
-      "lv": "Dega"
+      "lv": "LABOT"
     },
     "imperfektKonjunktiv": {
       "de": "brannte",
-      "lv": "Dega"
+      "lv": "LABOT brænde"
     },
     "partizipVergangenheit": {
       "de": "gebrannt",
-      "lv": "Dedzis"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "bringen",
-      "lv": "Rede"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er bringt",
-      "lv": "Han bærer"
+      "lv": "LABOT"
     },
     "imperfektIndikativ": {
       "de": "er brachte",
-      "lv": "Han bar"
+      "lv": "LABOT"
     },
     "imperfektKonjunktiv": {
       "de": "er brächte",
@@ -788,7 +788,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gebracht",
-      "lv": "Reder / atnest"
+      "lv": "LABOT atnest"
     }
   },
   {
@@ -806,17 +806,17 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er dächte",
-      "lv": "Ville han mene"
+      "lv": "LABOT mene tænke"
     },
     "partizipVergangenheit": {
       "de": "gedacht",
-      "lv": "Tilsigtet"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "dingen",
-      "lv": "At ansætte / at blive enige"
+      "lv": "LABOT at blive natural enige Danish form)"
     },
     "praesens": {
       "de": "er dingt",
@@ -824,11 +824,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "dingte",
-      "lv": "Ansat"
+      "lv": "LABOT"
     },
     "imperfektKonjunktiv": {
       "de": "dingte",
-      "lv": "Ansat"
+      "lv": "LABOT ansætte ansætte"
     },
     "partizipVergangenheit": {
       "de": "gedungen",
@@ -838,7 +838,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "dreschen",
-      "lv": "Kult"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er drischt",
@@ -850,17 +850,17 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er dräsche / er drösche",
-      "lv": "Han ville tilbede"
+      "lv": "LABOT er drösche tilbede tærske"
     },
     "partizipVergangenheit": {
       "de": "gedroschen",
-      "lv": "Kulter"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "dringen",
-      "lv": "Ielauzties"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er dringt",
@@ -876,7 +876,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gedrungen (er ist)",
-      "lv": "Ielauzies"
+      "lv": "LABOT ist)"
     }
   },
   {
@@ -890,11 +890,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "deuchte",
-      "lv": "Det virkede"
+      "lv": "LABOT"
     },
     "imperfektKonjunktiv": {
       "de": "deuchte",
-      "lv": "Det virkede"
+      "lv": "LABOT synes"
     },
     "partizipVergangenheit": {
       "de": "gedünkt",
@@ -908,7 +908,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er darf",
-      "lv": "Han kan"
+      "lv": "LABOT"
     },
     "imperfektIndikativ": {
       "de": "durfte",
@@ -926,7 +926,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "empfehlen",
-      "lv": "Ieteikt"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er empfiehlt",
@@ -942,13 +942,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "empfohlen",
-      "lv": "Ieteikts"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "empfinden",
-      "lv": "Sajust"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er empfindet",
@@ -964,13 +964,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "empfunden",
-      "lv": "Sajusts"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "erlöschen",
-      "lv": "Izdzist"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er erlischt",
@@ -982,17 +982,17 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er erlösche",
-      "lv": "Han ville forsvinde"
+      "lv": "LABOT forsvinde slukke slukkes"
     },
     "partizipVergangenheit": {
       "de": "erloschen (er ist)",
-      "lv": "Izdzisis"
+      "lv": "LABOT ist)"
     }
   },
   {
     "infinitiv": {
       "de": "erschrecken",
-      "lv": "Blive forvirret"
+      "lv": "LABOT forvirret bange forskrækket"
     },
     "praesens": {
       "de": "er erschrickt",
@@ -1008,7 +1008,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "erschrocken (er ist)",
-      "lv": "Sabijies"
+      "lv": "LABOT (er ist)"
     }
   },
   {
@@ -1030,13 +1030,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gegessen",
-      "lv": "Spist / spist"
+      "lv": "LABOT spist"
     }
   },
   {
     "infinitiv": {
       "de": "fahren",
-      "lv": "Brakt"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er fährt",
@@ -1052,13 +1052,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gefahren (er ist)",
-      "lv": "Braucis / aizbraucis"
+      "lv": "LABOT ist) aizbraucis"
     }
   },
   {
     "infinitiv": {
       "de": "fallen",
-      "lv": "Krist"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er fällt",
@@ -1074,7 +1074,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gefallen (er ist)",
-      "lv": "Kritisk"
+      "lv": "LABOT ist)"
     }
   },
   {
@@ -1096,13 +1096,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gefangen",
-      "lv": "Fanget / fanget"
+      "lv": "LABOT fanget"
     }
   },
   {
     "infinitiv": {
       "de": "finden",
-      "lv": "Atrast"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er findet",
@@ -1118,13 +1118,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gefunden",
-      "lv": "Atraster"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "fliegen",
-      "lv": "Laisties"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er fliegt",
@@ -1140,7 +1140,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geflogen (er ist)",
-      "lv": "Lidojis"
+      "lv": "LABOT ist)"
     }
   },
   {
@@ -1162,7 +1162,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geflohen (er ist)",
-      "lv": "Løb væk"
+      "lv": "LABOT ist)"
     }
   },
   {
@@ -1172,47 +1172,47 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er fließt",
-      "lv": "Han løber"
+      "lv": "LABOT"
     },
     "imperfektIndikativ": {
       "de": "er floss",
-      "lv": "Han løb"
+      "lv": "LABOT"
     },
     "imperfektKonjunktiv": {
       "de": "er flösse",
-      "lv": "Han ville løbe"
+      "lv": "LABOT flyde"
     },
     "partizipVergangenheit": {
       "de": "geflossen (er ist)",
-      "lv": "Bestået"
+      "lv": "LABOT (er ist)"
     }
   },
   {
     "infinitiv": {
       "de": "fressen",
-      "lv": "Spise i morgen"
+      "lv": "LABOT sluges"
     },
     "praesens": {
       "de": "er frisst",
-      "lv": "Han spiser / sluger"
+      "lv": "LABOT sluger natural Danish form)"
     },
     "imperfektIndikativ": {
       "de": "er frass",
-      "lv": "Han spiste / slugte"
+      "lv": "LABOT slugte natural Danish form)"
     },
     "imperfektKonjunktiv": {
       "de": "er fräße",
-      "lv": "Han ville spise / morgenmad"
+      "lv": "LABOT spise / natural morgenmad Danish form)"
     },
     "partizipVergangenheit": {
       "de": "gefressen",
-      "lv": "Spist/morgen"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "frieren",
-      "lv": "Salt"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er friert",
@@ -1220,21 +1220,21 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er fror",
-      "lv": "Han ø"
+      "lv": "LABOT"
     },
     "imperfektKonjunktiv": {
       "de": "er fröre",
-      "lv": "Han frøs"
+      "lv": "LABOT fryse"
     },
     "partizipVergangenheit": {
       "de": "gefroren",
-      "lv": "Salis"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "geben",
-      "lv": "Prik"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er gibt",
@@ -1250,13 +1250,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gegeben",
-      "lv": "Prikker"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "gedeihen",
-      "lv": "Izdoties"
+      "lv": "LABOT Danish for this verb)"
     },
     "praesens": {
       "de": "er gedeiht",
@@ -1272,13 +1272,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gediehen (er ist)",
-      "lv": "Izdevies"
+      "lv": "LABOT ist)"
     }
   },
   {
     "infinitiv": {
       "de": "gehen",
-      "lv": "Iet"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er geht",
@@ -1294,35 +1294,35 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gegangen (er ist)",
-      "lv": "Gik"
+      "lv": "LABOT ist)"
     }
   },
   {
     "infinitiv": {
       "de": "gewinnen",
-      "lv": "At opnå"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er gewinnt",
-      "lv": "Han får"
+      "lv": "LABOT"
     },
     "imperfektIndikativ": {
       "de": "er gewann",
-      "lv": "Han fik"
+      "lv": "LABOT"
     },
     "imperfektKonjunktiv": {
       "de": "er gewönne / er gewänne",
-      "lv": "Han ville få"
+      "lv": "LABOT er gewänne vinde"
     },
     "partizipVergangenheit": {
       "de": "gewonnen",
-      "lv": "Opnået"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "haben",
-      "lv": "At være/tilhøre"
+      "lv": "LABOT være/tilhøre"
     },
     "praesens": {
       "de": "er hat",
@@ -1330,15 +1330,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "hatte",
-      "lv": "Bija"
+      "lv": "LABOT"
     },
     "imperfektKonjunktiv": {
       "de": "hatte",
-      "lv": "Bija"
+      "lv": "LABOT"
     },
     "partizipVergangenheit": {
       "de": "gehabt",
-      "lv": "Bijis"
+      "lv": "LABOT"
     }
   },
   {
@@ -1348,11 +1348,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er hält",
-      "lv": "Han der"
+      "lv": "LABOT"
     },
     "imperfektIndikativ": {
       "de": "er hielt",
-      "lv": "Holdt han"
+      "lv": "LABOT"
     },
     "imperfektKonjunktiv": {
       "de": "er hielte",
@@ -1360,29 +1360,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gehalten",
-      "lv": "Afholdt"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "heißen",
-      "lv": "Saut"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er heißt",
-      "lv": "Han kalder / han kaldes"
+      "lv": "LABOT han kaldes natural Danish form)"
     },
     "imperfektIndikativ": {
       "de": "er hieß",
-      "lv": "Han kaldte / han blev kaldt"
+      "lv": "LABOT han blev kaldt natural Danish form)"
     },
     "imperfektKonjunktiv": {
       "de": "er hieße",
-      "lv": "Han ville kalde / han ville blive kaldt"
+      "lv": "LABOT kalde / han natural ville blive Danish form) kaldt"
     },
     "partizipVergangenheit": {
       "de": "geheißen",
-      "lv": "Saukts"
+      "lv": "LABOT"
     }
   },
   {
@@ -1404,7 +1404,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geholfen",
-      "lv": "Hjalp"
+      "lv": "LABOT"
     }
   },
   {
@@ -1440,87 +1440,87 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "konnte",
-      "lv": "Kunne"
+      "lv": "LABOT"
     },
     "imperfektKonjunktiv": {
       "de": "konnte",
-      "lv": "Kunne"
+      "lv": "LABOT"
     },
     "partizipVergangenheit": {
       "de": "gekonnt",
-      "lv": "Kunne"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "kriechen",
-      "lv": "Det regner"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er kriecht",
-      "lv": "Han læner sig"
+      "lv": "LABOT"
     },
     "imperfektIndikativ": {
       "de": "er kroch",
-      "lv": "Han regnede"
+      "lv": "LABOT"
     },
     "imperfektKonjunktiv": {
       "de": "er kröche",
-      "lv": "Han regner"
+      "lv": "LABOT krybe"
     },
     "partizipVergangenheit": {
       "de": "gekrochen (er ist)",
-      "lv": "Gik bort"
+      "lv": "LABOT (er ist)"
     }
   },
   {
     "infinitiv": {
       "de": "laden",
-      "lv": "At indlæse, at invitere"
+      "lv": "LABOT at invitere"
     },
     "praesens": {
       "de": "er lädt",
-      "lv": "Han stabler / inviterer"
+      "lv": "LABOT inviterer natural Danish form)"
     },
     "imperfektIndikativ": {
       "de": "er lud",
-      "lv": "Han indlæste / inviterede"
+      "lv": "LABOT / inviterede natural Danish form)"
     },
     "imperfektKonjunktiv": {
       "de": "er lüde",
-      "lv": "Han ville indlæse / invitere"
+      "lv": "LABOT indlæse / natural invitere Danish form)"
     },
     "partizipVergangenheit": {
       "de": "geladen",
-      "lv": "Indlæst / inviteret"
+      "lv": "LABOT inviteret natural Danish form)"
     }
   },
   {
     "infinitiv": {
       "de": "lassen",
-      "lv": "At sætte, at lade"
+      "lv": "LABOT lade"
     },
     "praesens": {
       "de": "er lässt",
-      "lv": "Han sætter / lader"
+      "lv": "LABOT lader natural Danish form)"
     },
     "imperfektIndikativ": {
       "de": "er ließ",
-      "lv": "Han beordrede / tilladt"
+      "lv": "LABOT / tilladt natural Danish form)"
     },
     "imperfektKonjunktiv": {
       "de": "er ließe",
-      "lv": "Han ville sætte / lade"
+      "lv": "LABOT sætte / lade natural Danish form)"
     },
     "partizipVergangenheit": {
       "de": "gelassen",
-      "lv": "Sætte / tilladt"
+      "lv": "LABOT tilladt natural Danish form)"
     }
   },
   {
     "infinitiv": {
       "de": "laufen",
-      "lv": "Skriet"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er läuft",
@@ -1536,13 +1536,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gelaufen (er ist)",
-      "lv": "Løb"
+      "lv": "LABOT ist)"
     }
   },
   {
     "infinitiv": {
       "de": "leiden",
-      "lv": "Cyst"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er leidet",
@@ -1558,13 +1558,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gelitten",
-      "lv": "Cyster"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "leihen",
-      "lv": "Låne/låne"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er leiht",
@@ -1580,7 +1580,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geliehen",
-      "lv": "Udlånt/lånt"
+      "lv": "LABOT"
     }
   },
   {
@@ -1602,35 +1602,35 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gelesen",
-      "lv": "Læse"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "liegen",
-      "lv": "At sove"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er liegt",
-      "lv": "Han sover"
+      "lv": "LABOT"
     },
     "imperfektIndikativ": {
       "de": "er lag",
-      "lv": "Han sov"
+      "lv": "LABOT"
     },
     "imperfektKonjunktiv": {
       "de": "er läge",
-      "lv": "Han ville sove"
+      "lv": "LABOT sove ligge"
     },
     "partizipVergangenheit": {
       "de": "gelegen",
-      "lv": "Sov"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "lügen",
-      "lv": "Melot"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er lügt",
@@ -1646,7 +1646,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gelogen",
-      "lv": "Melots"
+      "lv": "LABOT"
     }
   },
   {
@@ -1660,11 +1660,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er mahlte",
-      "lv": "Han kant"
+      "lv": "LABOT"
     },
     "imperfektKonjunktiv": {
       "de": "er malte",
-      "lv": "Han maler"
+      "lv": "LABOT male"
     },
     "partizipVergangenheit": {
       "de": "gemahlen",
@@ -1690,21 +1690,21 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gemieden",
-      "lv": "Undgås"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "melken",
-      "lv": "Slaukt"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er milkt / er melkt",
-      "lv": "Han fejer"
+      "lv": "LABOT er melkt"
     },
     "imperfektIndikativ": {
       "de": "er molk / er melkte",
-      "lv": "Han fejede"
+      "lv": "LABOT melkte"
     },
     "imperfektKonjunktiv": {
       "de": "er mölke / er melkte",
@@ -1712,7 +1712,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gemolken / gemelkt",
-      "lv": "Slaukts"
+      "lv": "LABOT gemelkt"
     }
   },
   {
@@ -1740,11 +1740,11 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "misslingen",
-      "lv": "Neizdoties"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "es misslingt",
-      "lv": "Tas neizdodas"
+      "lv": "LABOT"
     },
     "imperfektIndikativ": {
       "de": "misslang",
@@ -1756,13 +1756,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "misslungen",
-      "lv": "Neizdevies"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "mögen",
-      "lv": "Patik"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er mag",
@@ -1770,21 +1770,21 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "mochte",
-      "lv": "Patika"
+      "lv": "LABOT lide"
     },
     "imperfektKonjunktiv": {
       "de": "mochte",
-      "lv": "Patika"
+      "lv": "LABOT lide"
     },
     "partizipVergangenheit": {
       "de": "gemocht",
-      "lv": "Paticis"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "müssen",
-      "lv": "At have brug for"
+      "lv": "LABOT at måtte"
     },
     "praesens": {
       "de": "er muss",
@@ -1792,15 +1792,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "musste",
-      "lv": "Burde have"
+      "lv": "LABOT"
     },
     "imperfektKonjunktiv": {
       "de": "musste",
-      "lv": "Burde have"
+      "lv": "LABOT"
     },
     "partizipVergangenheit": {
       "de": "gemusst",
-      "lv": "Nødvendige"
+      "lv": "LABOT"
     }
   },
   {
@@ -1828,15 +1828,15 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "nennen",
-      "lv": "Nosaukt"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er nennt",
-      "lv": "Han navngav"
+      "lv": "LABOT"
     },
     "imperfektIndikativ": {
       "de": "er nannte",
-      "lv": "Ringede han"
+      "lv": "LABOT"
     },
     "imperfektKonjunktiv": {
       "de": "er nennte",
@@ -1844,13 +1844,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "genannt",
-      "lv": "Nosaukts"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "pfeifen",
-      "lv": "Svilpot"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er pfeift",
@@ -1858,7 +1858,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er pfiff",
-      "lv": "Fløjtede han"
+      "lv": "LABOT"
     },
     "imperfektKonjunktiv": {
       "de": "er pfiffe",
@@ -1866,29 +1866,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gepfiffen",
-      "lv": "Svilpots"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "pflegen",
-      "lv": "Kopt"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er pflegt",
-      "lv": "Han bekymrer sig"
+      "lv": "LABOT"
     },
     "imperfektIndikativ": {
       "de": "pflegte vai pflog",
-      "lv": "Kopa"
+      "lv": "LABOT pflog"
     },
     "imperfektKonjunktiv": {
       "de": "pflegte vai pflog",
-      "lv": "Kopa"
+      "lv": "LABOT pflog pleje"
     },
     "partizipVergangenheit": {
       "de": "gepflegt vai gepflogen",
-      "lv": "Kopter"
+      "lv": "LABOT gepflogen"
     }
   },
   {
@@ -1910,47 +1910,47 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gepriesen",
-      "lv": "Rost"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "quellen",
-      "lv": "Bryst"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er quillt",
-      "lv": "Han bliver tyk"
+      "lv": "LABOT op"
     },
     "imperfektIndikativ": {
       "de": "er quoll",
-      "lv": "Han modnede"
+      "lv": "LABOT op"
     },
     "imperfektKonjunktiv": {
       "de": "er quölle",
-      "lv": "Han tyk"
+      "lv": "LABOT svulme op op"
     },
     "partizipVergangenheit": {
       "de": "gequollen (er ist)",
-      "lv": "Uzbredis"
+      "lv": "LABOT (er ist)"
     }
   },
   {
     "infinitiv": {
       "de": "raten",
-      "lv": "Foreslå/omtale"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er rät",
-      "lv": "Han anbefaler / min"
+      "lv": "LABOT min natural Danish form)"
     },
     "imperfektIndikativ": {
       "de": "er riet",
-      "lv": "Han foreslog / foreslog"
+      "lv": "LABOT foreslog natural Danish form)"
     },
     "imperfektKonjunktiv": {
       "de": "er riete",
-      "lv": "Han ville foreslå / nævne"
+      "lv": "LABOT foreslå / nævne natural Danish form)"
     },
     "partizipVergangenheit": {
       "de": "geraten",
@@ -1960,7 +1960,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "reiben",
-      "lv": "Berzt"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er reibt",
@@ -1968,7 +1968,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er rieb",
-      "lv": "Han gnider"
+      "lv": "LABOT"
     },
     "imperfektKonjunktiv": {
       "de": "er riebe",
@@ -1976,29 +1976,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gerieben",
-      "lv": "Berzts"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "reißen",
-      "lv": "Raut"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er reißt",
-      "lv": "Snapper han"
+      "lv": "LABOT"
     },
     "imperfektIndikativ": {
       "de": "er riss",
-      "lv": "Knækkede han"
+      "lv": "LABOT"
     },
     "imperfektKonjunktiv": {
       "de": "er risse",
-      "lv": "Knækkede han"
+      "lv": "LABOT rive"
     },
     "partizipVergangenheit": {
       "de": "gerissen",
-      "lv": "Rauts"
+      "lv": "LABOT"
     }
   },
   {
@@ -2020,13 +2020,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geritten (er ist)",
-      "lv": "Red"
+      "lv": "LABOT ist)"
     }
   },
   {
     "infinitiv": {
       "de": "rennen",
-      "lv": "Skriet"
+      "lv": "LABOT Danish for this verb)"
     },
     "praesens": {
       "de": "er rennt",
@@ -2042,13 +2042,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gerannt",
-      "lv": "Løb"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "riechen",
-      "lv": "Ost"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er riecht",
@@ -2056,25 +2056,25 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er roch",
-      "lv": "Han synger"
+      "lv": "LABOT"
     },
     "imperfektKonjunktiv": {
       "de": "er röche",
-      "lv": "Han havn"
+      "lv": "LABOT lugte"
     },
     "partizipVergangenheit": {
       "de": "gerochen",
-      "lv": "Osts"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "ringen",
-      "lv": "Lauzties"
+      "lv": "LABOT"
     },
     "praesens": {
       "de": "er ringt",
-      "lv": "Han knækker"
+      "lv": "LABOT"
     },
     "imperfektIndikativ": {
       "de": "er rang",
@@ -2086,13 +2086,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gerungen",
-      "lv": "Laucies"
+      "lv": "LABOT"
     }
   },
   {
     "infinitiv": {
       "de": "rinnen",
-      "lv": "At flyde"
+      "lv": "LABOT Danish for this verb)"
     },
     "praesens": {
       "de": "er rinnt",
@@ -2100,15 +2100,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er rann",
-      "lv": "Han løb"
+      "lv": "LABOT"
     },
     "imperfektKonjunktiv": {
       "de": "er ränne / er rönne",
-      "lv": "Han ville løbe"
+      "lv": "LABOT er rönne flyde"
     },
     "partizipVergangenheit": {
       "de": "geronnen (er ist)",
-      "lv": "Flød / koagulerede"
+      "lv": "LABOT ist) koagulerede"
     }
   },
   {
@@ -2422,7 +2422,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schlagen",
-      "lv": "Søster"
+      "lv": "At slå"
     },
     "praesens": {
       "de": "er schlägt",
@@ -2438,39 +2438,39 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschlagen",
-      "lv": "Søster"
+      "lv": "Slået"
     }
   },
   {
     "infinitiv": {
       "de": "schleichen",
-      "lv": "Det regner"
+      "lv": "At snige sig"
     },
     "praesens": {
       "de": "er schleicht",
-      "lv": "Han læner sig"
+      "lv": "Han sniger sig"
     },
     "imperfektIndikativ": {
       "de": "er schlich",
-      "lv": "Han regnede"
+      "lv": "Han sneg sig"
     },
     "imperfektKonjunktiv": {
       "de": "er schliche",
-      "lv": "Han regner"
+      "lv": "Han ville snige sig"
     },
     "partizipVergangenheit": {
       "de": "geschlichen (er ist)",
-      "lv": "Gik bort"
+      "lv": "Sneget sig"
     }
   },
   {
     "infinitiv": {
       "de": "schleifen",
-      "lv": "At male"
+      "lv": "At slibe"
     },
     "praesens": {
       "de": "er schleift",
-      "lv": "Han maler"
+      "lv": "Han sliber"
     },
     "imperfektIndikativ": {
       "de": "er schliff",
@@ -2478,7 +2478,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er schliffe",
-      "lv": "Han ville male"
+      "lv": "Han ville slibe"
     },
     "partizipVergangenheit": {
       "de": "geschliffen",
@@ -2510,7 +2510,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schlingen",
-      "lv": "I morgen"
+      "lv": "At sluge"
     },
     "praesens": {
       "de": "er schlingt",
@@ -2522,17 +2522,17 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er schlänge",
-      "lv": "Han morgen"
+      "lv": "Han ville sluge"
     },
     "partizipVergangenheit": {
       "de": "geschlungen",
-      "lv": "Morgenen"
+      "lv": "Slugt"
     }
   },
   {
     "infinitiv": {
       "de": "schmeißen",
-      "lv": "Mest"
+      "lv": "At kaste"
     },
     "praesens": {
       "de": "er schmeißt",
@@ -2544,17 +2544,17 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er schmisse",
-      "lv": "Han kastede"
+      "lv": "Han ville kaste"
     },
     "partizipVergangenheit": {
       "de": "geschmissen",
-      "lv": "Mests"
+      "lv": "Kastet"
     }
   },
   {
     "infinitiv": {
       "de": "schmelzen",
-      "lv": "Kust"
+      "lv": "At smelte"
     },
     "praesens": {
       "de": "er schmilzt",
@@ -2562,15 +2562,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er schmolz",
-      "lv": "Stønnede han"
+      "lv": "Han smeltede"
     },
     "imperfektKonjunktiv": {
       "de": "er schmölze",
-      "lv": "Han bevægede sig"
+      "lv": "Han ville smelte"
     },
     "partizipVergangenheit": {
       "de": "geschmolzen (er ist)",
-      "lv": "Kusis"
+      "lv": "Smeltet"
     }
   },
   {
@@ -2580,29 +2580,29 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er schnaubt",
-      "lv": "Fnyser han"
+      "lv": "Han fnyser"
     },
     "imperfektIndikativ": {
       "de": "schnaubte vai schnob",
-      "lv": "Snøftede"
+      "lv": "Han fnøs"
     },
     "imperfektKonjunktiv": {
       "de": "schnaubte vai schnob",
-      "lv": "Snøftede"
+      "lv": "Han ville fnyse"
     },
     "partizipVergangenheit": {
       "de": "geschnaubt vai geschnoben",
-      "lv": "Fnyse"
+      "lv": "Fnyst"
     }
   },
   {
     "infinitiv": {
       "de": "schneiden",
-      "lv": "Griezt"
+      "lv": "At skære"
     },
     "praesens": {
       "de": "er schneidet",
-      "lv": "Han spinder"
+      "lv": "Han skærer"
     },
     "imperfektIndikativ": {
       "de": "er schnitt",
@@ -2614,7 +2614,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschnitten",
-      "lv": "Griezts"
+      "lv": "Skåret"
     }
   },
   {
@@ -2624,7 +2624,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er schreibt",
-      "lv": "Skriver han"
+      "lv": "Han skriver"
     },
     "imperfektIndikativ": {
       "de": "er schrieb",
@@ -2642,7 +2642,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schreien",
-      "lv": "Kliegt"
+      "lv": "At skrige"
     },
     "praesens": {
       "de": "er schreit",
@@ -2658,13 +2658,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschrien",
-      "lv": "Kliegts"
+      "lv": "Skreget"
     }
   },
   {
     "infinitiv": {
       "de": "schreiten",
-      "lv": "Gå"
+      "lv": "At skride"
     },
     "praesens": {
       "de": "er schreitet",
@@ -2680,17 +2680,17 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschritten (er ist)",
-      "lv": "Gik"
+      "lv": "Skredet"
     }
   },
   {
     "infinitiv": {
       "de": "schweigen",
-      "lv": "Tie stille"
+      "lv": "At tie"
     },
     "praesens": {
       "de": "er schweigt",
-      "lv": "Han er tavs"
+      "lv": "Han tier"
     },
     "imperfektIndikativ": {
       "de": "er schwieg",
@@ -2708,23 +2708,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schwellen",
-      "lv": "Pampt"
+      "lv": "At svulme"
     },
     "praesens": {
       "de": "er schwillt",
-      "lv": "Han tuder"
+      "lv": "Det svulmer"
     },
     "imperfektIndikativ": {
       "de": "er schwoll",
-      "lv": "Han pampas"
+      "lv": "Det svulmede"
     },
     "imperfektKonjunktiv": {
       "de": "er schwölle",
-      "lv": "Han ville pumpe"
+      "lv": "Det ville svulme"
     },
     "partizipVergangenheit": {
       "de": "geschwollen (er ist)",
-      "lv": "Pampis"
+      "lv": "Svulmet"
     }
   },
   {
@@ -2746,13 +2746,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschwommen (er ist)",
-      "lv": "Svømmede"
+      "lv": "Svømmet"
     }
   },
   {
     "infinitiv": {
       "de": "schwinden",
-      "lv": "Zust"
+      "lv": "At forsvinde"
     },
     "praesens": {
       "de": "er schwindet",
@@ -2768,29 +2768,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschwunden (er ist)",
-      "lv": "Zudis"
+      "lv": "Forsvundet"
     }
   },
   {
     "infinitiv": {
       "de": "schwingen",
-      "lv": "Bølge"
+      "lv": "At svinge"
     },
     "praesens": {
       "de": "er schwingt",
-      "lv": "Han vinker"
+      "lv": "Han svinger"
     },
     "imperfektIndikativ": {
       "de": "er schwang",
-      "lv": "Han vinkede"
+      "lv": "Han svingede"
     },
     "imperfektKonjunktiv": {
       "de": "er schwänge",
-      "lv": "Han ville vinke"
+      "lv": "Han ville svinge"
     },
     "partizipVergangenheit": {
       "de": "geschwungen",
-      "lv": "Vinkede"
+      "lv": "Svinget"
     }
   },
   {
@@ -2808,7 +2808,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er schwöre",
-      "lv": "Han ville bande"
+      "lv": "Han ville sværge"
     },
     "partizipVergangenheit": {
       "de": "geschworen",
@@ -2848,15 +2848,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "war",
-      "lv": "Bija"
+      "lv": "Han var"
     },
     "imperfektKonjunktiv": {
       "de": "war",
-      "lv": "Bija"
+      "lv": "Han ville være"
     },
     "partizipVergangenheit": {
       "de": "gewesen",
-      "lv": "Bijis"
+      "lv": "Været"
     }
   },
   {
@@ -2888,15 +2888,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er siedet",
-      "lv": "Han laver mad"
+      "lv": "Det koger"
     },
     "imperfektIndikativ": {
       "de": "sott vai siedete",
-      "lv": "Kogt"
+      "lv": "Det kogte"
     },
     "imperfektKonjunktiv": {
       "de": "sott vai siedete",
-      "lv": "Kogt"
+      "lv": "Det ville koge"
     },
     "partizipVergangenheit": {
       "de": "gesotten vai gesiedet",
@@ -2928,7 +2928,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "sinken",
-      "lv": "Grimt"
+      "lv": "At synke"
     },
     "praesens": {
       "de": "er sinkt",
@@ -2936,7 +2936,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er sank",
-      "lv": "Han fandt på"
+      "lv": "Han sank"
     },
     "imperfektKonjunktiv": {
       "de": "er sänke",
@@ -2944,21 +2944,21 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gesunken (er ist)",
-      "lv": "Grimis"
+      "lv": "Sunket"
     }
   },
   {
     "infinitiv": {
       "de": "sinnen",
-      "lv": "At undre sig"
+      "lv": "At grunde over"
     },
     "praesens": {
       "de": "er sinnt",
-      "lv": "Undrer han sig"
+      "lv": "Han grunder over"
     },
     "imperfektIndikativ": {
       "de": "er sann",
-      "lv": "Undrede han sig"
+      "lv": "Han grundede over"
     },
     "imperfektKonjunktiv": {
       "de": "er sönne / er sänne",
@@ -2966,7 +2966,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gesonnen",
-      "lv": "Sindede"
+      "lv": "Grundet over"
     }
   },
   {
@@ -2988,29 +2988,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gesessen",
-      "lv": "Satte sig ned"
+      "lv": "Siddet"
     }
   },
   {
     "infinitiv": {
       "de": "sollen",
-      "lv": "Behøver/være forpligtet"
+      "lv": "At skulle / at burde"
     },
     "praesens": {
       "de": "er soll",
-      "lv": "Han har brug for"
+      "lv": "Han skal"
     },
     "imperfektIndikativ": {
       "de": "sollte",
-      "lv": "Burde have"
+      "lv": "Han skulle"
     },
     "imperfektKonjunktiv": {
       "de": "sollte",
-      "lv": "Burde have"
+      "lv": "Han skulle"
     },
     "partizipVergangenheit": {
       "de": "gesollt",
-      "lv": "Nødvendige"
+      "lv": "Skullet"
     }
   },
   {
@@ -3032,21 +3032,21 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gespien",
-      "lv": "Spyttede ud"
+      "lv": "Spyttet"
     }
   },
   {
     "infinitiv": {
       "de": "spinnen",
-      "lv": "Spin"
+      "lv": "At spinde"
     },
     "praesens": {
       "de": "er spinnt",
-      "lv": "Han vrider sig"
+      "lv": "Han spinder"
     },
     "imperfektIndikativ": {
       "de": "er spann",
-      "lv": "Han snurrede"
+      "lv": "Han spandt"
     },
     "imperfektKonjunktiv": {
       "de": "er spönne / er spänne",
@@ -3060,7 +3060,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "spleißen",
-      "lv": "Savienot"
+      "lv": "At splejse"
     },
     "praesens": {
       "de": "er spleißt",
@@ -3068,15 +3068,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "spliss",
-      "lv": "Savienoja"
+      "lv": "Han splejsede"
     },
     "imperfektKonjunktiv": {
       "de": "spliss",
-      "lv": "Savienoja"
+      "lv": "Han ville splejse"
     },
     "partizipVergangenheit": {
       "de": "gesplissen",
-      "lv": "Savienoter"
+      "lv": "Splejset"
     }
   },
   {
@@ -3104,23 +3104,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "sprießen",
-      "lv": "Plaukt"
+      "lv": "At spire"
     },
     "praesens": {
       "de": "er sprießt",
-      "lv": "Han trives"
+      "lv": "Det spirer"
     },
     "imperfektIndikativ": {
       "de": "er spross",
-      "lv": "Han trivedes"
+      "lv": "Det spirede"
     },
     "imperfektKonjunktiv": {
       "de": "er sprösse",
-      "lv": "Han hylde"
+      "lv": "Det ville spire"
     },
     "partizipVergangenheit": {
       "de": "gesprossen (er ist)",
-      "lv": "Plaucis"
+      "lv": "Spiret"
     }
   },
   {
@@ -3142,13 +3142,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gesprungen (er ist)",
-      "lv": "Linse"
+      "lv": "Hoppet"
     }
   },
   {
     "infinitiv": {
       "de": "stechen",
-      "lv": "Durt"
+      "lv": "At stikke"
     },
     "praesens": {
       "de": "er sticht",
@@ -3156,7 +3156,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er stach",
-      "lv": "Han slog"
+      "lv": "Han stak"
     },
     "imperfektKonjunktiv": {
       "de": "er stäche",
@@ -3164,29 +3164,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gestochen",
-      "lv": "Durts"
+      "lv": "Stukket"
     }
   },
   {
     "infinitiv": {
       "de": "stecken",
-      "lv": "At stikke / stikke ind"
+      "lv": "At stikke"
     },
     "praesens": {
       "de": "er steckt",
-      "lv": "Han skubber"
+      "lv": "Han stikker"
     },
     "imperfektIndikativ": {
       "de": "stak vai steckte",
-      "lv": "Fyldte"
+      "lv": "Han stak"
     },
     "imperfektKonjunktiv": {
       "de": "stak vai steckte",
-      "lv": "Fyldte"
+      "lv": "Han ville stikke"
     },
     "partizipVergangenheit": {
       "de": "gesteckt",
-      "lv": "Fyldte"
+      "lv": "Stukket"
     }
   },
   {
@@ -3214,7 +3214,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "stehlen",
-      "lv": "Zagt"
+      "lv": "At stjæle"
     },
     "praesens": {
       "de": "er stiehlt",
@@ -3230,7 +3230,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gestohlen",
-      "lv": "Zagts"
+      "lv": "Stjålet"
     }
   },
   {
@@ -3252,17 +3252,17 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gestiegen (er ist)",
-      "lv": "Klatrede"
+      "lv": "Steget"
     }
   },
   {
     "infinitiv": {
       "de": "sterben",
-      "lv": "Mirt"
+      "lv": "At dø"
     },
     "praesens": {
       "de": "er stirbt",
-      "lv": "Han er døende"
+      "lv": "Han dør"
     },
     "imperfektIndikativ": {
       "de": "er starb",
@@ -3274,51 +3274,51 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gestorben (er ist)",
-      "lv": "Miris"
+      "lv": "Død"
     }
   },
   {
     "infinitiv": {
       "de": "stieben",
-      "lv": "Skum / hvirvel"
+      "lv": "At hvirvle"
     },
     "praesens": {
       "de": "es stiebt",
-      "lv": "Tas sat"
+      "lv": "Det hvirvler"
     },
     "imperfektIndikativ": {
       "de": "stob vai stiebte",
-      "lv": "Skummet"
+      "lv": "Det støvede"
     },
     "imperfektKonjunktiv": {
       "de": "stob vai stiebte",
-      "lv": "Skummet"
+      "lv": "Det ville støve"
     },
     "partizipVergangenheit": {
       "de": "gestoben vai gestiebt",
-      "lv": "Forkælet"
+      "lv": "Hvirvlet"
     }
   },
   {
     "infinitiv": {
       "de": "stinken",
-      "lv": "At lugte"
+      "lv": "At stinke"
     },
     "praesens": {
       "de": "es stinkt",
-      "lv": "Det er sjovt"
+      "lv": "Det stinker"
     },
     "imperfektIndikativ": {
       "de": "stank",
-      "lv": "Lugtede"
+      "lv": "Det stank"
     },
     "imperfektKonjunktiv": {
       "de": "stank",
-      "lv": "Lugtede"
+      "lv": "Det ville stinke"
     },
     "partizipVergangenheit": {
       "de": "gestunken",
-      "lv": "Ildelugtende"
+      "lv": "Stinket"
     }
   },
   {
@@ -3336,7 +3336,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er stieße",
-      "lv": "Han skubbede"
+      "lv": "Han ville skubbe"
     },
     "partizipVergangenheit": {
       "de": "gestoßen",
@@ -3346,51 +3346,51 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "streichen",
-      "lv": "Maling/strimmel"
+      "lv": "At stryge"
     },
     "praesens": {
       "de": "er streicht",
-      "lv": "Han maler / striber"
+      "lv": "Han stryger"
     },
     "imperfektIndikativ": {
       "de": "er strich",
-      "lv": "Han malede / stribet"
+      "lv": "Han strøg"
     },
     "imperfektKonjunktiv": {
       "de": "er striche",
-      "lv": "Han ville male / strippe"
+      "lv": "Han ville stryge"
     },
     "partizipVergangenheit": {
       "de": "gestrichen",
-      "lv": "Malet / stribet"
+      "lv": "Strøget"
     }
   },
   {
     "infinitiv": {
       "de": "streiten",
-      "lv": "At kæmpe"
+      "lv": "At skændes"
     },
     "praesens": {
       "de": "er streitet",
-      "lv": "Han kæmper"
+      "lv": "Han skændes"
     },
     "imperfektIndikativ": {
       "de": "er stritt",
-      "lv": "Han kæmpede"
+      "lv": "Han skændtes"
     },
     "imperfektKonjunktiv": {
       "de": "er stritte",
-      "lv": "Han ville kæmpe"
+      "lv": "Han ville skændes"
     },
     "partizipVergangenheit": {
       "de": "gestritten",
-      "lv": "Kæmpede"
+      "lv": "Skændtes"
     }
   },
   {
     "infinitiv": {
       "de": "tragen",
-      "lv": "Rede"
+      "lv": "At bære"
     },
     "praesens": {
       "de": "er trägt",
@@ -3406,13 +3406,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "getragen",
-      "lv": "Reder"
+      "lv": "Båret"
     }
   },
   {
     "infinitiv": {
       "de": "treffen",
-      "lv": "Sastapt"
+      "lv": "At møde"
     },
     "praesens": {
       "de": "er trifft",
@@ -3420,7 +3420,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er traf",
-      "lv": "Han stødte på"
+      "lv": "Han mødte"
     },
     "imperfektKonjunktiv": {
       "de": "er träfe",
@@ -3428,13 +3428,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "getroffen",
-      "lv": "Sastapts"
+      "lv": "Mødt"
     }
   },
   {
     "infinitiv": {
       "de": "treiben",
-      "lv": "Jage"
+      "lv": "At drive"
     },
     "praesens": {
       "de": "er treibt",
@@ -3450,35 +3450,35 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "getrieben",
-      "lv": "Jaget"
+      "lv": "Drevet"
     }
   },
   {
     "infinitiv": {
       "de": "treten",
-      "lv": "Gå ind/gå"
+      "lv": "At træde"
     },
     "praesens": {
       "de": "er tritt",
-      "lv": "Han går ind / går"
+      "lv": "Han træder"
     },
     "imperfektIndikativ": {
       "de": "er trat",
-      "lv": "Han stod / gik"
+      "lv": "Han trådte"
     },
     "imperfektKonjunktiv": {
       "de": "er träte",
-      "lv": "Han ville stå/gå"
+      "lv": "Han ville træde"
     },
     "partizipVergangenheit": {
       "de": "getreten (er ist)",
-      "lv": "Stod / gik"
+      "lv": "Trådt"
     }
   },
   {
     "infinitiv": {
       "de": "trinken",
-      "lv": "Dzert"
+      "lv": "At drikke"
     },
     "praesens": {
       "de": "er trinkt",
@@ -3494,7 +3494,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "getrunken",
-      "lv": "Dzerts"
+      "lv": "Drukket"
     }
   },
   {
@@ -3544,7 +3544,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "verderben",
-      "lv": "Til skade"
+      "lv": "At ødelægge"
     },
     "praesens": {
       "de": "er verdirbt",
@@ -3566,7 +3566,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "verdrießen",
-      "lv": "At forårsage irritation"
+      "lv": "At ærgre"
     },
     "praesens": {
       "de": "er verdrießt",
@@ -3582,13 +3582,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "verdrossen",
-      "lv": "Ked af det"
+      "lv": "Ærgeret"
     }
   },
   {
     "infinitiv": {
       "de": "vergessen",
-      "lv": "Aizmirst"
+      "lv": "At glemme"
     },
     "praesens": {
       "de": "er vergisst",
@@ -3604,7 +3604,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "vergessen",
-      "lv": "Aizmirsts"
+      "lv": "Glemt"
     }
   },
   {
@@ -3632,7 +3632,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "wachsen",
-      "lv": "Augt"
+      "lv": "At vokse"
     },
     "praesens": {
       "de": "er wächst",
@@ -3648,7 +3648,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewachsen (er ist)",
-      "lv": "Audzis"
+      "lv": "Vokset"
     }
   },
   {
@@ -3676,7 +3676,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "weben",
-      "lv": "Aust"
+      "lv": "At væve"
     },
     "praesens": {
       "de": "er webt",
@@ -3684,15 +3684,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "wob",
-      "lv": "Auda"
+      "lv": "Han vævede"
     },
     "imperfektKonjunktiv": {
       "de": "wob",
-      "lv": "Auda"
+      "lv": "Han ville væve"
     },
     "partizipVergangenheit": {
       "de": "gewoben",
-      "lv": "Izausts"
+      "lv": "Vævet"
     }
   },
   {
@@ -3714,7 +3714,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewichen (er ist)",
-      "lv": "Trække sig tilbage"
+      "lv": "Viget"
     }
   },
   {
@@ -3724,11 +3724,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er weist",
-      "lv": "Viser han"
+      "lv": "Han viser"
     },
     "imperfektIndikativ": {
       "de": "er wies",
-      "lv": "Viste han"
+      "lv": "Han viste"
     },
     "imperfektKonjunktiv": {
       "de": "er wiese",
@@ -3742,45 +3742,45 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "wenden",
-      "lv": "Ændre / beskære"
+      "lv": "At vende"
     },
     "praesens": {
       "de": "er wendet",
-      "lv": "Han vrider / vender sig"
+      "lv": "Han vender"
     },
     "imperfektIndikativ": {
       "de": "er wandte / es wendete",
-      "lv": "Han vred / vendte sig"
+      "lv": "Han vendte"
     },
     "imperfektKonjunktiv": {
       "de": "er wendete",
-      "lv": "Han ville ændre / omgøre"
+      "lv": "Han ville vende"
     },
     "partizipVergangenheit": {
       "de": "gewandt / gewendet",
-      "lv": "Ændret/omgjort"
+      "lv": "Vendt"
     }
   },
   {
     "infinitiv": {
       "de": "werben",
-      "lv": "At foreslå"
+      "lv": "At rekruttere"
     },
     "praesens": {
       "de": "er wirbt",
-      "lv": "Han foreslår"
+      "lv": "Han rekrutterer"
     },
     "imperfektIndikativ": {
       "de": "er warb",
-      "lv": "Han foreslog"
+      "lv": "Han rekrutterede"
     },
     "imperfektKonjunktiv": {
       "de": "er würbe",
-      "lv": "Han ville foreslå"
+      "lv": "Han ville rekruttere"
     },
     "partizipVergangenheit": {
       "de": "geworben",
-      "lv": "Foreslået at"
+      "lv": "Rekrutteret"
     }
   },
   {
@@ -3794,11 +3794,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "wurde",
-      "lv": "Blev"
+      "lv": "Han blev"
     },
     "imperfektKonjunktiv": {
       "de": "wurde",
-      "lv": "Blev"
+      "lv": "Han ville blive"
     },
     "partizipVergangenheit": {
       "de": "geworden",
@@ -3808,7 +3808,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "werfen",
-      "lv": "Mest"
+      "lv": "At kaste"
     },
     "praesens": {
       "de": "er wirft",
@@ -3820,11 +3820,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er würfe",
-      "lv": "Han kastede"
+      "lv": "Han ville kaste"
     },
     "partizipVergangenheit": {
       "de": "geworfen",
-      "lv": "Mests"
+      "lv": "Kastet"
     }
   },
   {
@@ -3846,29 +3846,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewogen",
-      "lv": "Vægtet"
+      "lv": "Vejet"
     }
   },
   {
     "infinitiv": {
       "de": "winden",
-      "lv": "Fletning"
+      "lv": "At vride sig"
     },
     "praesens": {
       "de": "er windet",
-      "lv": "Han pin"
+      "lv": "Han vrider sig"
     },
     "imperfektIndikativ": {
       "de": "er wand",
-      "lv": "Han fletter"
+      "lv": "Han vred sig"
     },
     "imperfektKonjunktiv": {
       "de": "er wände",
-      "lv": "Han ville flette"
+      "lv": "Han ville vride sig"
     },
     "partizipVergangenheit": {
       "de": "gewunden",
-      "lv": "Flettet"
+      "lv": "Vredet"
     }
   },
   {
@@ -3890,7 +3890,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewusst",
-      "lv": "Kendt"
+      "lv": "Vidst"
     }
   },
   {
@@ -3904,43 +3904,43 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "wollte",
-      "lv": "Ville"
+      "lv": "Han ville"
     },
     "imperfektKonjunktiv": {
       "de": "wollte",
-      "lv": "Ville"
+      "lv": "Han ville"
     },
     "partizipVergangenheit": {
       "de": "gewollt",
-      "lv": "Ville"
+      "lv": "Villet"
     }
   },
   {
     "infinitiv": {
       "de": "wringen",
-      "lv": "Izgriezt / izspiest"
+      "lv": "At vride"
     },
     "praesens": {
       "de": "er wringt",
-      "lv": "Han skærer ud"
+      "lv": "Han vrider"
     },
     "imperfektIndikativ": {
       "de": "wrang",
-      "lv": "Izgrieza"
+      "lv": "Han vred"
     },
     "imperfektKonjunktiv": {
       "de": "wrang",
-      "lv": "Izgrieza"
+      "lv": "Han ville vride"
     },
     "partizipVergangenheit": {
       "de": "gewrungen",
-      "lv": "Izgriezts"
+      "lv": "Vrundet"
     }
   },
   {
     "infinitiv": {
       "de": "zeihen",
-      "lv": "Vainot"
+      "lv": "At bebrejde"
     },
     "praesens": {
       "de": "er zeiht",
@@ -3948,21 +3948,21 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "zieh",
-      "lv": "Vainoja"
+      "lv": "Han bebrejdede"
     },
     "imperfektKonjunktiv": {
       "de": "zieh",
-      "lv": "Vainoja"
+      "lv": "Han ville bebrejde"
     },
     "partizipVergangenheit": {
       "de": "geziehen",
-      "lv": "Vainojis"
+      "lv": "Bebrejdet"
     }
   },
   {
     "infinitiv": {
       "de": "ziehen",
-      "lv": "Lyst"
+      "lv": "At trække"
     },
     "praesens": {
       "de": "er zieht",
@@ -3978,13 +3978,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gezogen",
-      "lv": "Bygds"
+      "lv": "Trukket"
     }
   },
   {
     "infinitiv": {
       "de": "zwingen",
-      "lv": "Piepiest"
+      "lv": "At tvinge"
     },
     "praesens": {
       "de": "er zwingt",
@@ -4000,7 +4000,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gezwungen",
-      "lv": "Piepiests"
+      "lv": "Tvunget"
     }
   },
   {
@@ -4032,11 +4032,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er erwägt",
-      "lv": "Overvejer han"
+      "lv": "Han overvejer"
     },
     "imperfektIndikativ": {
       "de": "er erwog",
-      "lv": "Overvejede han"
+      "lv": "Han overvejede"
     },
     "imperfektKonjunktiv": {
       "de": "er erwöge",
@@ -4050,37 +4050,37 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "fechten",
-      "lv": "At kæmpe"
+      "lv": "At fægte"
     },
     "praesens": {
       "de": "er ficht",
-      "lv": "Han kæmper"
+      "lv": "Han fægter"
     },
     "imperfektIndikativ": {
       "de": "er focht",
-      "lv": "Han kæmpede"
+      "lv": "Han fægtede"
     },
     "imperfektKonjunktiv": {
       "de": "er föchte",
-      "lv": "Han ville kæmpe"
+      "lv": "Han ville fægte"
     },
     "partizipVergangenheit": {
       "de": "gefochten",
-      "lv": "Kæmpede"
+      "lv": "Fægtet"
     }
   },
   {
     "infinitiv": {
       "de": "flechten",
-      "lv": "Fletning"
+      "lv": "At flette"
     },
     "praesens": {
       "de": "er flicht",
-      "lv": "Han pin"
+      "lv": "Han fletter"
     },
     "imperfektIndikativ": {
       "de": "er flocht",
-      "lv": "Han fletter"
+      "lv": "Han flettede"
     },
     "imperfektKonjunktiv": {
       "de": "er flöchte",
@@ -4106,11 +4106,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er hinge",
-      "lv": "Han ville hænge sig"
+      "lv": "Han ville hænge"
     },
     "partizipVergangenheit": {
       "de": "gehangen",
-      "lv": "Hæng på"
+      "lv": "Hængt"
     }
   },
   {
@@ -4120,7 +4120,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er spaltet",
-      "lv": "Han deler sig"
+      "lv": "Han splitter"
     },
     "imperfektIndikativ": {
       "de": "er spaltete",
@@ -4132,13 +4132,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gespalten",
-      "lv": "Dele"
+      "lv": "Splittet"
     }
   },
   {
     "infinitiv": {
       "de": "verzeihen",
-      "lv": "Piedot"
+      "lv": "At tilgive"
     },
     "praesens": {
       "de": "er verzeiht",
@@ -4154,7 +4154,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "verziehen",
-      "lv": "Piedoter"
+      "lv": "Tilgivet"
     }
   }
 ];
