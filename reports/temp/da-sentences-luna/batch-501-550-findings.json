@@ -1,0 +1,507 @@
+{
+  "batch": "batch-501-550",
+  "results": [
+    {
+      "cardId": "sentence-500",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-501",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-502",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-503",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Steh auf, Hanna, es klingelt!",
+      "daCurrent": "Rejs dig op, Hannah, klokken ringer!",
+      "proposedDa": "Rejs dig, Hanna, der ringer!",
+      "reason": "DE doorbell rings; klokken ringer means clock rings.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-504",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-505",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-506",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Wo ist das Handtuch?",
+      "daCurrent": "Hvor er håndklædet",
+      "proposedDa": "Hvor er håndklædet?",
+      "reason": "Missing question mark in DA interrogative.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-507",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-508",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-509",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Ich möchte mich anziehen.",
+      "daCurrent": "Jeg vil gerne klædes på.",
+      "proposedDa": "Jeg vil gerne tage tøj på.",
+      "reason": "Klædes på is stilted; tage tøj på is natural Danish.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-510",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-511",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Kleide dich wärmer an, draußen ist es kühl.",
+      "daCurrent": "Klæd dig varmt på, det er koldt udenfor.",
+      "proposedDa": "Klæd dig varmere på, det er køligt udenfor.",
+      "reason": "DE warmer and cool; DA warm and cold loses nuance.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-512",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-513",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-514",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Was gibt es Neues?",
+      "daCurrent": "Hvad er nyt?",
+      "proposedDa": "Hvad nyt?",
+      "reason": "Same DA as sentence-261; distinct DE entries should differ or note pair.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-515",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-516",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-517",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-518",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-519",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Am liebsten trinke ich schwarzen Kaffee.",
+      "daCurrent": "Jeg drikker bedst sort kaffe.",
+      "proposedDa": "Helst drikker jeg sort kaffe.",
+      "reason": "DE most preferably; drikker bedst is unnatural for preference.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-520",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-521",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-522",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-523",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-524",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-525",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-526",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-527",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-528",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Wann esst ihr zu Mittag?",
+      "daCurrent": "Hvornår spiser du frokost",
+      "proposedDa": "Hvornår spiser I frokost?",
+      "reason": "DE plural ihr; DA singular du; missing question mark.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-529",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-530",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-531",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Wie schmeckt dir die Suppe?",
+      "daCurrent": "Hvordan kan du lide suppen?",
+      "proposedDa": "Hvad synes du om suppen?",
+      "reason": "Awkward DA; synes om is natural for how does it taste to you.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-532",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-533",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-534",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-535",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-536",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-537",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-538",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Bist du heute Abend frei?",
+      "daCurrent": "Har du fri i aften",
+      "proposedDa": "Har du fri i aften?",
+      "reason": "Missing question mark in DA interrogative.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-539",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Komm doch heute zum Mittagessen vorbei!",
+      "daCurrent": "Kom og besøg til frokost i dag!",
+      "proposedDa": "Kom til frokost i dag!",
+      "reason": "Awkward besøg til frokost; natural invite is kom til frokost.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-540",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-541",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Bitte, bedien dich!",
+      "daCurrent": "Spis så meget du vil!",
+      "proposedDa": "Tag for dig!",
+      "reason": "DE help yourself; DA eat as much as you want is wrong.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-542",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-543",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-544",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Wann gehst du ins Bett?",
+      "daCurrent": "Hvornår går du i seng",
+      "proposedDa": "Hvornår går du i seng?",
+      "reason": "Missing question mark in DA interrogative.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-545",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-546",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-547",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "de": "Es ist schönes Wetter.",
+      "daCurrent": "Det er en dejlig tid.",
+      "proposedDa": "Det er dejligt vejr.",
+      "reason": "DE beautiful weather; DA lovely time is completely wrong.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-548",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-549",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-503",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Steh auf, Hanna, es klingelt!",
+      "daCurrent": "Rejs dig op, Hannah, klokken ringer!",
+      "proposedDa": "Rejs dig, Hanna, der ringer!",
+      "reason": "DE doorbell rings; klokken ringer means clock rings.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-506",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Wo ist das Handtuch?",
+      "daCurrent": "Hvor er håndklædet",
+      "proposedDa": "Hvor er håndklædet?",
+      "reason": "Missing question mark in DA interrogative.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-509",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Ich möchte mich anziehen.",
+      "daCurrent": "Jeg vil gerne klædes på.",
+      "proposedDa": "Jeg vil gerne tage tøj på.",
+      "reason": "Klædes på is stilted; tage tøj på is natural Danish.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-511",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Kleide dich wärmer an, draußen ist es kühl.",
+      "daCurrent": "Klæd dig varmt på, det er koldt udenfor.",
+      "proposedDa": "Klæd dig varmere på, det er køligt udenfor.",
+      "reason": "DE warmer and cool; DA warm and cold loses nuance.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-514",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Was gibt es Neues?",
+      "daCurrent": "Hvad er nyt?",
+      "proposedDa": "Hvad nyt?",
+      "reason": "Same DA as sentence-261; distinct DE entries should differ or note pair.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-519",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Am liebsten trinke ich schwarzen Kaffee.",
+      "daCurrent": "Jeg drikker bedst sort kaffe.",
+      "proposedDa": "Helst drikker jeg sort kaffe.",
+      "reason": "DE most preferably; drikker bedst is unnatural for preference.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-528",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Wann esst ihr zu Mittag?",
+      "daCurrent": "Hvornår spiser du frokost",
+      "proposedDa": "Hvornår spiser I frokost?",
+      "reason": "DE plural ihr; DA singular du; missing question mark.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-531",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Wie schmeckt dir die Suppe?",
+      "daCurrent": "Hvordan kan du lide suppen?",
+      "proposedDa": "Hvad synes du om suppen?",
+      "reason": "Awkward DA; synes om is natural for how does it taste to you.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-538",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Bist du heute Abend frei?",
+      "daCurrent": "Har du fri i aften",
+      "proposedDa": "Har du fri i aften?",
+      "reason": "Missing question mark in DA interrogative.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-539",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Komm doch heute zum Mittagessen vorbei!",
+      "daCurrent": "Kom og besøg til frokost i dag!",
+      "proposedDa": "Kom til frokost i dag!",
+      "reason": "Awkward besøg til frokost; natural invite is kom til frokost.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-541",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Bitte, bedien dich!",
+      "daCurrent": "Spis så meget du vil!",
+      "proposedDa": "Tag for dig!",
+      "reason": "DE help yourself; DA eat as much as you want is wrong.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-544",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Wann gehst du ins Bett?",
+      "daCurrent": "Hvornår går du i seng",
+      "proposedDa": "Hvornår går du i seng?",
+      "reason": "Missing question mark in DA interrogative.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-547",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "de": "Es ist schönes Wetter.",
+      "daCurrent": "Det er en dejlig tid.",
+      "proposedDa": "Det er dejligt vejr.",
+      "reason": "DE beautiful weather; DA lovely time is completely wrong.",
+      "confidence": "high",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 37,
+  "completedAt": "2026-08-16T14:12:11.395Z",
+  "source": "gpt-5.6-luna-manual"
+}

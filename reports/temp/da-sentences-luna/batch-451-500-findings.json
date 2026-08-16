@@ -1,0 +1,621 @@
+{
+  "batch": "batch-451-500",
+  "results": [
+    {
+      "cardId": "sentence-450",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-451",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-452",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-453",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "de": "Zu Fuß.",
+      "daCurrent": "Til benene.",
+      "proposedDa": "På fod.",
+      "reason": "Til benene means to the legs; DE on foot requires på fod.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-454",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "de": "Zu Pferde.",
+      "daCurrent": "Ja.",
+      "proposedDa": "På hest.",
+      "reason": "DA Ja is completely wrong; DE means on horseback/riding.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-455",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-456",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-457",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-458",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-459",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-460",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-461",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-462",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-463",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Zugrunde legen.",
+      "daCurrent": "Sæt på grundlag. • Tag udgangspunkt i.",
+      "proposedDa": "Ødelægge.",
+      "reason": "Variants mean base on; DE here means destroy/lay waste (zugrunde legen).",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-464",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-465",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Machen Sie bitte die Tür zu!",
+      "daCurrent": "Luk venligst døren!",
+      "proposedDa": "Luk venligst døren, De!",
+      "reason": "Formal Sie in DE; DA lacks formal address.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-466",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-467",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-468",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-469",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-470",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-471",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-472",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Zutritt verboten!",
+      "daCurrent": "Adgang er forbudt!",
+      "proposedDa": "Adgang forbudt!",
+      "reason": "Same DA as sentence-364 Eintritt verboten; distinct DE entries need distinct DA.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-473",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-474",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-475",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-476",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-477",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Ohne Zweifel.",
+      "daCurrent": "Uden tøven.",
+      "proposedDa": "Uden tvivl.",
+      "reason": "DE without doubt; DA without hesitation is wrong meaning.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-478",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-479",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-480",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-481",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Gute Reise!",
+      "daCurrent": "God rejse!",
+      "proposedDa": "God tur!",
+      "reason": "Same DA as sentence-321 Glückliche Reise; distinct DE entries need distinct DA.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-482",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Es freut mich, Sie kennenzulernen.",
+      "daCurrent": "Jeg er glad for at møde dig.",
+      "proposedDa": "Jeg er glad for at møde Dem.",
+      "reason": "Formal Sie in DE; DA uses informal dig.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-483",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Wären Sie bitte so nett?",
+      "daCurrent": "Vil du venligst være så venlig?",
+      "proposedDa": "Vil De venligst være så venlig?",
+      "reason": "Formal Sie in DE; DA uses informal du.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-484",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Ich bin Ihnen sehr dankbar.",
+      "daCurrent": "Jeg er dig meget taknemmelig.",
+      "proposedDa": "Jeg er Dem meget taknemmelig.",
+      "reason": "Formal Ihnen in DE; DA uses informal dig.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-485",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Setzt euch bitte hin!",
+      "daCurrent": "Sæt dig ned, tak!",
+      "proposedDa": "Sæt jer ned, tak!",
+      "reason": "DE plural euch; DA uses singular dig.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-486",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Ben, komm bitte an die Tafel!",
+      "daCurrent": "Ben, kom venligst til bestyrelsen!",
+      "proposedDa": "Ben, kom venligst til tavlen!",
+      "reason": "DE Tafel is blackboard; bestyrelsen means board of directors.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-487",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-488",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Geht bitte in die Sporthalle!",
+      "daCurrent": "Gå venligst i fitnesscenteret!",
+      "proposedDa": "Gå venligst til gymnastiksalen!",
+      "reason": "DE sports hall/gym; fitnesscenter is wrong venue.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-489",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Schläfst du noch?",
+      "daCurrent": "Sover du stadig",
+      "proposedDa": "Sover du stadig?",
+      "reason": "Missing question mark in DA interrogative.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-490",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Schlafen Sie noch?",
+      "daCurrent": "Sover du stadig?",
+      "proposedDa": "Sover De stadig?",
+      "reason": "Formal Sie in DE; DA uses informal du.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-491",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Er ist fest eingeschlafen.",
+      "daCurrent": "Han sover hurtigt.",
+      "proposedDa": "Han sover dybt.",
+      "reason": "DE sound/fast asleep; hurtigt means quickly, wrong sense.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-492",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-493",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-494",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-495",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-496",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Lest bitte mit!",
+      "daCurrent": "Læs venligst videre!",
+      "proposedDa": "Læs med!",
+      "reason": "DE read along/with; videre means continue reading, wrong.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-497",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TECHNICAL",
+      "de": "Emma, schau bitte nicht aus dem Fenster!",
+      "daCurrent": "Emma, ​​kig venligst ikke ud af vinduet!",
+      "proposedDa": "Emma, kig venligst ikke ud af vinduet!",
+      "reason": "Zero-width space artifact after comma in DA string.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-498",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-499",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Geh bitte zurück an deinen Platz!",
+      "daCurrent": "Gå tilbage til dit sted!",
+      "proposedDa": "Gå tilbage til din plads!",
+      "reason": "Sted is vague; plads matches DE Platz/seat in classroom.",
+      "confidence": "high",
+      "status": "FINDING"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-453",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "de": "Zu Fuß.",
+      "daCurrent": "Til benene.",
+      "proposedDa": "På fod.",
+      "reason": "Til benene means to the legs; DE on foot requires på fod.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-454",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "de": "Zu Pferde.",
+      "daCurrent": "Ja.",
+      "proposedDa": "På hest.",
+      "reason": "DA Ja is completely wrong; DE means on horseback/riding.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-463",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Zugrunde legen.",
+      "daCurrent": "Sæt på grundlag. • Tag udgangspunkt i.",
+      "proposedDa": "Ødelægge.",
+      "reason": "Variants mean base on; DE here means destroy/lay waste (zugrunde legen).",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-465",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Machen Sie bitte die Tür zu!",
+      "daCurrent": "Luk venligst døren!",
+      "proposedDa": "Luk venligst døren, De!",
+      "reason": "Formal Sie in DE; DA lacks formal address.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-472",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Zutritt verboten!",
+      "daCurrent": "Adgang er forbudt!",
+      "proposedDa": "Adgang forbudt!",
+      "reason": "Same DA as sentence-364 Eintritt verboten; distinct DE entries need distinct DA.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-477",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Ohne Zweifel.",
+      "daCurrent": "Uden tøven.",
+      "proposedDa": "Uden tvivl.",
+      "reason": "DE without doubt; DA without hesitation is wrong meaning.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-481",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Gute Reise!",
+      "daCurrent": "God rejse!",
+      "proposedDa": "God tur!",
+      "reason": "Same DA as sentence-321 Glückliche Reise; distinct DE entries need distinct DA.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-482",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Es freut mich, Sie kennenzulernen.",
+      "daCurrent": "Jeg er glad for at møde dig.",
+      "proposedDa": "Jeg er glad for at møde Dem.",
+      "reason": "Formal Sie in DE; DA uses informal dig.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-483",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Wären Sie bitte so nett?",
+      "daCurrent": "Vil du venligst være så venlig?",
+      "proposedDa": "Vil De venligst være så venlig?",
+      "reason": "Formal Sie in DE; DA uses informal du.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-484",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Ich bin Ihnen sehr dankbar.",
+      "daCurrent": "Jeg er dig meget taknemmelig.",
+      "proposedDa": "Jeg er Dem meget taknemmelig.",
+      "reason": "Formal Ihnen in DE; DA uses informal dig.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-485",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Setzt euch bitte hin!",
+      "daCurrent": "Sæt dig ned, tak!",
+      "proposedDa": "Sæt jer ned, tak!",
+      "reason": "DE plural euch; DA uses singular dig.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-486",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Ben, komm bitte an die Tafel!",
+      "daCurrent": "Ben, kom venligst til bestyrelsen!",
+      "proposedDa": "Ben, kom venligst til tavlen!",
+      "reason": "DE Tafel is blackboard; bestyrelsen means board of directors.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-488",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Geht bitte in die Sporthalle!",
+      "daCurrent": "Gå venligst i fitnesscenteret!",
+      "proposedDa": "Gå venligst til gymnastiksalen!",
+      "reason": "DE sports hall/gym; fitnesscenter is wrong venue.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-489",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Schläfst du noch?",
+      "daCurrent": "Sover du stadig",
+      "proposedDa": "Sover du stadig?",
+      "reason": "Missing question mark in DA interrogative.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-490",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Schlafen Sie noch?",
+      "daCurrent": "Sover du stadig?",
+      "proposedDa": "Sover De stadig?",
+      "reason": "Formal Sie in DE; DA uses informal du.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-491",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Er ist fest eingeschlafen.",
+      "daCurrent": "Han sover hurtigt.",
+      "proposedDa": "Han sover dybt.",
+      "reason": "DE sound/fast asleep; hurtigt means quickly, wrong sense.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-496",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Lest bitte mit!",
+      "daCurrent": "Læs venligst videre!",
+      "proposedDa": "Læs med!",
+      "reason": "DE read along/with; videre means continue reading, wrong.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-497",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TECHNICAL",
+      "de": "Emma, schau bitte nicht aus dem Fenster!",
+      "daCurrent": "Emma, ​​kig venligst ikke ud af vinduet!",
+      "proposedDa": "Emma, kig venligst ikke ud af vinduet!",
+      "reason": "Zero-width space artifact after comma in DA string.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-499",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Geh bitte zurück an deinen Platz!",
+      "daCurrent": "Gå tilbage til dit sted!",
+      "proposedDa": "Gå tilbage til din plads!",
+      "reason": "Sted is vague; plads matches DE Platz/seat in classroom.",
+      "confidence": "high",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 31,
+  "completedAt": "2026-08-16T14:12:11.395Z",
+  "source": "gpt-5.6-luna-manual"
+}

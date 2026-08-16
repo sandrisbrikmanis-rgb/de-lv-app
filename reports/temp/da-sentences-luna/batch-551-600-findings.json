@@ -1,0 +1,545 @@
+{
+  "batch": "batch-551-600",
+  "results": [
+    {
+      "cardId": "sentence-550",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-551",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-552",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-553",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-554",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-555",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-556",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-557",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-558",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Wir bekommen gleich ein Gewitter.",
+      "daCurrent": "Vi er ved at få en storm.",
+      "proposedDa": "Vi får snart et uvejr med torden.",
+      "reason": "DE thunderstorm; storm alone misses Gewitter/torden.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-559",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Das Gewitter zieht vorüber.",
+      "daCurrent": "Stormen er forbi.",
+      "proposedDa": "Uvejret er passeret.",
+      "reason": "DE thunderstorm passing; stormen is too generic.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-560",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "TRANSLATION",
+      "de": "Die Wolken verziehen sich.",
+      "daCurrent": "Skyerne spreder sig.",
+      "proposedDa": "Skyerne trækker væk.",
+      "reason": "DE clouds disperse/move away; spreder sig means spread out.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-561",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-562",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Der Winter ist da, es hat geschneit.",
+      "daCurrent": "Vinteren er her, det sneede om natten.",
+      "proposedDa": "Vinteren er her, det har sneet.",
+      "reason": "DA adds om natten not present in DE.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-563",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-564",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-565",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-566",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-567",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Wollen wir auf die Eisbahn gehen?",
+      "daCurrent": "Skal vi stå på skøjter?",
+      "proposedDa": "Skal vi gå på skøjter?",
+      "reason": "DE go to ice rink; stå på skøjter omits going to rink.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-568",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-569",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Es ist halb sieben.",
+      "daCurrent": "Klokken er halv otte.",
+      "proposedDa": "Klokken er halv syv.",
+      "reason": "DE halb sieben=6:30; DA halv otte=7:30; also duplicates sentence-500 time phrase.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-570",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Meine Uhr geht fünf Minuten vor.",
+      "daCurrent": "Mit ur er hurtigt fem minutter.",
+      "proposedDa": "Mit ur går fem minutter for.",
+      "reason": "DA er hurtigt is ungrammatical; clock runs fast needs går for.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-571",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-572",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-573",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-574",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-575",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-576",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Wie geht es dir?",
+      "daCurrent": "Hvordan har du det",
+      "proposedDa": "Hvordan har du det?",
+      "reason": "Same DA as formal sentence-257; missing question mark.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-577",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
+      "daCurrent": "Undskyld mig, jeg vil diskutere noget med dig.",
+      "proposedDa": "Undskyld, jeg vil tale med dig om noget.",
+      "reason": "DE discuss/talk about; diskutere implies argue; Undskyld mig stilted.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-578",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-579",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-580",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Ich komme, um dich zum Spaziergang abzuholen.",
+      "daCurrent": "Jeg kom for at tage dig en tur.",
+      "proposedDa": "Jeg kommer for at hente dig til en gåtur.",
+      "reason": "DA tage dig en tur is ungrammatical; DE pick up for walk.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-582",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ich bin zum ersten Mal in dieser Gegend.",
+      "daCurrent": "Jeg er her for første gang.",
+      "proposedDa": "Det er første gang, jeg er i dette område.",
+      "reason": "DE in this area/neighborhood; DA loses Gegend specificity.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-581",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-583",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-584",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-585",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-586",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-587",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-588",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-589",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Wie komme ich am schnellsten zum Bahnhof?",
+      "daCurrent": "Hvordan kommer man hurtigere til stationen?",
+      "proposedDa": "Hvordan kommer jeg hurtigst til stationen?",
+      "reason": "DE fastest way; DA faster comparative is wrong degree.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-590",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-591",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-592",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-593",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-594",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-595",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "In einer halben Stunde.",
+      "daCurrent": "Efter en halv time.",
+      "proposedDa": "Om en halv time.",
+      "reason": "DE in half an hour (from now); efter means after elapsed time.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-596",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Kann ich noch eine Kabine bekommen?",
+      "daCurrent": "Kan jeg stadig få en hytte?",
+      "proposedDa": "Kan jeg stadig få en kahyt?",
+      "reason": "DE ship cabin Kabine; hytte means cottage/hut.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-597",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-598",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-599",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Der Zug fährt um halb sieben ab.",
+      "daCurrent": "Toget går klokken halv otte.",
+      "proposedDa": "Toget går klokken halv syv.",
+      "reason": "DE halb sieben departure=6:30; DA halv otte wrongly gives 7:30.",
+      "confidence": "high",
+      "status": "FINDING"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-558",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Wir bekommen gleich ein Gewitter.",
+      "daCurrent": "Vi er ved at få en storm.",
+      "proposedDa": "Vi får snart et uvejr med torden.",
+      "reason": "DE thunderstorm; storm alone misses Gewitter/torden.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-559",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Das Gewitter zieht vorüber.",
+      "daCurrent": "Stormen er forbi.",
+      "proposedDa": "Uvejret er passeret.",
+      "reason": "DE thunderstorm passing; stormen is too generic.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-560",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "TRANSLATION",
+      "de": "Die Wolken verziehen sich.",
+      "daCurrent": "Skyerne spreder sig.",
+      "proposedDa": "Skyerne trækker væk.",
+      "reason": "DE clouds disperse/move away; spreder sig means spread out.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-562",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Der Winter ist da, es hat geschneit.",
+      "daCurrent": "Vinteren er her, det sneede om natten.",
+      "proposedDa": "Vinteren er her, det har sneet.",
+      "reason": "DA adds om natten not present in DE.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-567",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Wollen wir auf die Eisbahn gehen?",
+      "daCurrent": "Skal vi stå på skøjter?",
+      "proposedDa": "Skal vi gå på skøjter?",
+      "reason": "DE go to ice rink; stå på skøjter omits going to rink.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-569",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Es ist halb sieben.",
+      "daCurrent": "Klokken er halv otte.",
+      "proposedDa": "Klokken er halv syv.",
+      "reason": "DE halb sieben=6:30; DA halv otte=7:30; also duplicates sentence-500 time phrase.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-570",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Meine Uhr geht fünf Minuten vor.",
+      "daCurrent": "Mit ur er hurtigt fem minutter.",
+      "proposedDa": "Mit ur går fem minutter for.",
+      "reason": "DA er hurtigt is ungrammatical; clock runs fast needs går for.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-576",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Wie geht es dir?",
+      "daCurrent": "Hvordan har du det",
+      "proposedDa": "Hvordan har du det?",
+      "reason": "Same DA as formal sentence-257; missing question mark.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-577",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
+      "daCurrent": "Undskyld mig, jeg vil diskutere noget med dig.",
+      "proposedDa": "Undskyld, jeg vil tale med dig om noget.",
+      "reason": "DE discuss/talk about; diskutere implies argue; Undskyld mig stilted.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-580",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Ich komme, um dich zum Spaziergang abzuholen.",
+      "daCurrent": "Jeg kom for at tage dig en tur.",
+      "proposedDa": "Jeg kommer for at hente dig til en gåtur.",
+      "reason": "DA tage dig en tur is ungrammatical; DE pick up for walk.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-582",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ich bin zum ersten Mal in dieser Gegend.",
+      "daCurrent": "Jeg er her for første gang.",
+      "proposedDa": "Det er første gang, jeg er i dette område.",
+      "reason": "DE in this area/neighborhood; DA loses Gegend specificity.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-589",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Wie komme ich am schnellsten zum Bahnhof?",
+      "daCurrent": "Hvordan kommer man hurtigere til stationen?",
+      "proposedDa": "Hvordan kommer jeg hurtigst til stationen?",
+      "reason": "DE fastest way; DA faster comparative is wrong degree.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-595",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "In einer halben Stunde.",
+      "daCurrent": "Efter en halv time.",
+      "proposedDa": "Om en halv time.",
+      "reason": "DE in half an hour (from now); efter means after elapsed time.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-596",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Kann ich noch eine Kabine bekommen?",
+      "daCurrent": "Kan jeg stadig få en hytte?",
+      "proposedDa": "Kan jeg stadig få en kahyt?",
+      "reason": "DE ship cabin Kabine; hytte means cottage/hut.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-599",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Der Zug fährt um halb sieben ab.",
+      "daCurrent": "Toget går klokken halv otte.",
+      "proposedDa": "Toget går klokken halv syv.",
+      "reason": "DE halb sieben departure=6:30; DA halv otte wrongly gives 7:30.",
+      "confidence": "high",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 35,
+  "completedAt": "2026-08-16T14:12:11.395Z",
+  "source": "gpt-5.6-luna-manual"
+}

@@ -1,0 +1,640 @@
+{
+  "batch": "batch-401-450",
+  "results": [
+    {
+      "cardId": "sentence-400",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-401",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-402",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Auf eine Nachricht warten.",
+      "daCurrent": "Vent på beskeden.",
+      "proposedDa": "Vent på en besked.",
+      "reason": "DE indefinite eine Nachricht; DA uses definite beskeden.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-403",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "REGISTER",
+      "de": "Was wollen Sie?",
+      "daCurrent": "Hvad vil du?",
+      "proposedDa": "Hvad vil De?",
+      "reason": "Formal Sie in DE; DA uses informal du.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-404",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-405",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-406",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Auf diesem Wege.",
+      "daCurrent": "På den måde. • For sådanne midler",
+      "proposedDa": "På den måde.",
+      "reason": "Second variant misrenders DE; means by such means, not on this way.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-407",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-408",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-409",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Von Rechts wegen.",
+      "daCurrent": "Ved retfærdighed.",
+      "proposedDa": "Af ret.",
+      "reason": "DE means by right/lawfully, not by justice/fairness.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-410",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-411",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-412",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-413",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Art und Weise.",
+      "daCurrent": "Type.",
+      "proposedDa": "Måde og form.",
+      "reason": "DE manner/way; DA Type alone is incomplete and wrong.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-414",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "TECHNICAL",
+      "de": "Ohne weiteres.",
+      "daCurrent": "Straks. • Straks",
+      "proposedDa": "Straks.",
+      "reason": "Duplicate variant entry; remove redundant Straks.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-415",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-416",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-417",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-418",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-419",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Alle Welt.",
+      "daCurrent": "Hele verden. • Alle",
+      "proposedDa": "Hele verden.",
+      "reason": "Second variant Alle is incomplete fragment, not valid translation.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-420",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-421",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-422",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-423",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Wer da?",
+      "daCurrent": "Hvad er der?",
+      "proposedDa": "Hvem er der?",
+      "reason": "DE asks who is there; DA asks what is there.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-424",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-425",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-426",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-427",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Es ist zwei Euro wert.",
+      "daCurrent": "Det koster to euro.",
+      "proposedDa": "Det er to euro værd.",
+      "reason": "DE states value/worth; DA states price/cost.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-428",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-429",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-430",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "TRANSLATION",
+      "de": "In Wettbewerb treten.",
+      "daCurrent": "Deltag i konkurrencen.",
+      "proposedDa": "Deltag i en konkurrence.",
+      "reason": "DE generic competition; DA uses definite konkurrencen.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-431",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "de": "Um die Wette laufen.",
+      "daCurrent": "Løb løbet.",
+      "proposedDa": "Løbe om kap.",
+      "reason": "DA Løb løbet is nonsensical; does not mean run a race/bet.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-432",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Was gilt die Wette?",
+      "daCurrent": "Hvad forhandler vi om?",
+      "proposedDa": "Hvad er væddemålet?",
+      "reason": "DE asks about bet stakes; DA asks what we negotiate about.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-433",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-434",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "GRAMMAR",
+      "de": "Wettkampf im Turnen.",
+      "daCurrent": "Konkurrencer i gymnastik.",
+      "proposedDa": "Konkurrence i gymnastik.",
+      "reason": "DE singular Wettkampf; DA uses plural konkurrencer.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-435",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-436",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-437",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-438",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Wie lange?",
+      "daCurrent": "Hvor længe",
+      "proposedDa": "Hvor længe?",
+      "reason": "Missing question mark in DA interrogative.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-439",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Auf Wiederhören!",
+      "daCurrent": "Farvel!",
+      "proposedDa": "Vi tales!",
+      "reason": "DE phone farewell; generic Farvel loses auf Wiederhören sense.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-440",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Auf Wiedersehen!",
+      "daCurrent": "Farvel!",
+      "proposedDa": "Vi ses!",
+      "reason": "Generic Farvel; also duplicates sentence-439 DA for distinct DE farewells.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-441",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-442",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Herzlich willkommen!",
+      "daCurrent": "Varme hilsner!",
+      "proposedDa": "Velkommen!",
+      "reason": "DE welcomes; DA warm greetings is wrong meaning.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-443",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Du musst ziehen.",
+      "daCurrent": "Du har et træk.",
+      "proposedDa": "Du skal trække.",
+      "reason": "DE imperative you must pull/draw; DA states you have a draw.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-444",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Es zieht.",
+      "daCurrent": "Træk",
+      "proposedDa": "Det trækker.",
+      "reason": "DA fragment; incomplete sentence for there is a draft/it pulls.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-445",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-446",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Zipfel einer Wurst.",
+      "daCurrent": "Pølse tip.",
+      "proposedDa": "Spidsen af en pølse.",
+      "reason": "Awkward English-style word order; unnatural Danish.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-447",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-448",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-449",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-402",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Auf eine Nachricht warten.",
+      "daCurrent": "Vent på beskeden.",
+      "proposedDa": "Vent på en besked.",
+      "reason": "DE indefinite eine Nachricht; DA uses definite beskeden.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-403",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "REGISTER",
+      "de": "Was wollen Sie?",
+      "daCurrent": "Hvad vil du?",
+      "proposedDa": "Hvad vil De?",
+      "reason": "Formal Sie in DE; DA uses informal du.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-406",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Auf diesem Wege.",
+      "daCurrent": "På den måde. • For sådanne midler",
+      "proposedDa": "På den måde.",
+      "reason": "Second variant misrenders DE; means by such means, not on this way.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-409",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Von Rechts wegen.",
+      "daCurrent": "Ved retfærdighed.",
+      "proposedDa": "Af ret.",
+      "reason": "DE means by right/lawfully, not by justice/fairness.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-413",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Art und Weise.",
+      "daCurrent": "Type.",
+      "proposedDa": "Måde og form.",
+      "reason": "DE manner/way; DA Type alone is incomplete and wrong.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-414",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "TECHNICAL",
+      "de": "Ohne weiteres.",
+      "daCurrent": "Straks. • Straks",
+      "proposedDa": "Straks.",
+      "reason": "Duplicate variant entry; remove redundant Straks.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-419",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Alle Welt.",
+      "daCurrent": "Hele verden. • Alle",
+      "proposedDa": "Hele verden.",
+      "reason": "Second variant Alle is incomplete fragment, not valid translation.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-423",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Wer da?",
+      "daCurrent": "Hvad er der?",
+      "proposedDa": "Hvem er der?",
+      "reason": "DE asks who is there; DA asks what is there.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-427",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Es ist zwei Euro wert.",
+      "daCurrent": "Det koster to euro.",
+      "proposedDa": "Det er to euro værd.",
+      "reason": "DE states value/worth; DA states price/cost.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-430",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "TRANSLATION",
+      "de": "In Wettbewerb treten.",
+      "daCurrent": "Deltag i konkurrencen.",
+      "proposedDa": "Deltag i en konkurrence.",
+      "reason": "DE generic competition; DA uses definite konkurrencen.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-431",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "de": "Um die Wette laufen.",
+      "daCurrent": "Løb løbet.",
+      "proposedDa": "Løbe om kap.",
+      "reason": "DA Løb løbet is nonsensical; does not mean run a race/bet.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-432",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Was gilt die Wette?",
+      "daCurrent": "Hvad forhandler vi om?",
+      "proposedDa": "Hvad er væddemålet?",
+      "reason": "DE asks about bet stakes; DA asks what we negotiate about.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-434",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "GRAMMAR",
+      "de": "Wettkampf im Turnen.",
+      "daCurrent": "Konkurrencer i gymnastik.",
+      "proposedDa": "Konkurrence i gymnastik.",
+      "reason": "DE singular Wettkampf; DA uses plural konkurrencer.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-438",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Wie lange?",
+      "daCurrent": "Hvor længe",
+      "proposedDa": "Hvor længe?",
+      "reason": "Missing question mark in DA interrogative.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-439",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Auf Wiederhören!",
+      "daCurrent": "Farvel!",
+      "proposedDa": "Vi tales!",
+      "reason": "DE phone farewell; generic Farvel loses auf Wiederhören sense.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-440",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Auf Wiedersehen!",
+      "daCurrent": "Farvel!",
+      "proposedDa": "Vi ses!",
+      "reason": "Generic Farvel; also duplicates sentence-439 DA for distinct DE farewells.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-442",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Herzlich willkommen!",
+      "daCurrent": "Varme hilsner!",
+      "proposedDa": "Velkommen!",
+      "reason": "DE welcomes; DA warm greetings is wrong meaning.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-443",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Du musst ziehen.",
+      "daCurrent": "Du har et træk.",
+      "proposedDa": "Du skal trække.",
+      "reason": "DE imperative you must pull/draw; DA states you have a draw.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-444",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Es zieht.",
+      "daCurrent": "Træk",
+      "proposedDa": "Det trækker.",
+      "reason": "DA fragment; incomplete sentence for there is a draft/it pulls.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-446",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Zipfel einer Wurst.",
+      "daCurrent": "Pølse tip.",
+      "proposedDa": "Spidsen af en pølse.",
+      "reason": "Awkward English-style word order; unnatural Danish.",
+      "confidence": "high",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 30,
+  "completedAt": "2026-08-16T14:12:11.395Z",
+  "source": "gpt-5.6-luna-manual"
+}
