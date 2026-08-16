@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-08-16T13:04:51.636Z",
+  "branch": "cursor/da-b1-owner-repair-sectionaccents-misc-fffe",
+  "head": "2568cdeaea29e0b2fc7c707a6a2fc1b098e9ab2d",
+  "preMicroSha": "4bf7c487e2f0f13855f0be8f858012a7a3b2d8db",
+  "mainBase": "6ebf38b471a9bc10962cf246c73d4218033c5370",
+  "microStats": {
+    "requested": 11,
+    "checked": 11,
+    "EXACT_MATCH": 11,
+    "MISMATCH": 0,
+    "MISSING_CARD": 0,
+    "MISSING_FIELD": 0,
+    "UNEXPECTED_VALUE": 0
+  },
+  "microPass": true,
+  "microUnexpected": 0,
+  "microStudyContentChanges": 0,
+  "fullStats": {
+    "checked": 1643,
+    "EXACT_MATCH": 1643,
+    "MISMATCH": 0,
+    "MISSING_CARD": 0,
+    "MISSING_FIELD": 0,
+    "UNEXPECTED_VALUE": 0
+  },
+  "fullPass": true,
+  "changedCards": 314,
+  "bySeverity": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "FALSE_POSITIVE": 0,
+    "NEEDS_SOURCE_REVIEW": 0
+  },
+  "staleAccentCount": 0,
+  "foreignAccentCount": 0,
+  "placeholderCount": 0,
+  "invalidPathCount": 0,
+  "unexpectedChanges": 0,
+  "deChanges": 0,
+  "structural": {
+    "syntaxPass": true,
+    "mirrorPass": true,
+    "cardCountPass": true,
+    "studyCountPass": true,
+    "idOrderPass": true,
+    "parityPass": true,
+    "structurePass": true,
+    "deReadOnlyPass": true
+  },
+  "closed": true,
+  "verdict": "DA–DE B1 — OWNER ACCEPTED / FULLY CLOSED",
+  "findings": [],
+  "microDetails": []
+}
