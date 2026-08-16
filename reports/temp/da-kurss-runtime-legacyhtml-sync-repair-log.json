@@ -1,0 +1,321 @@
+{
+  "generatedAt": "2026-08-16T19:06:52.582Z",
+  "dryRun": false,
+  "signedLabot": 244,
+  "runtimeMatchBefore": 235,
+  "runtimeMismatchBefore": 9,
+  "runtimeMatchAfter": 244,
+  "runtimeMismatchAfter": 0,
+  "legacyHtmlPathsChecked": 21,
+  "dataHtmlMatch": 21,
+  "dataHtmlDivergence": 0,
+  "deChanges": 0,
+  "unexpectedChanges": 0,
+  "referenceConversions": 7,
+  "syntax": "PASS",
+  "validateKurss": "PASS",
+  "mirror": "PASS",
+  "structure": "PASS",
+  "idsOrder": "PASS",
+  "rendererCompatibility": "PASS",
+  "targeted": {
+    "mapped": 9,
+    "applied": 9,
+    "matchAfter": 9,
+    "rows": [
+      {
+        "id": "DA-KURSS-FPR-0069",
+        "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml#word-list",
+        "ownerNew": "spielen — at spille; nein — nej; nicht — ikke; arbeiten — at arbejde; fragen — at spørge; was tut er? — hvad laver han?",
+        "runtimeBefore": "inline-stale",
+        "runtimeAfter": "<h3>Foredrag 2</h3> <p class=\"kurss-lesson-intro\">Anden forelæsning: dialoger, ord, udtale, grammatik og oversættelse.</",
+        "match": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0070",
+        "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml#pronunciation",
+        "ownerNew": "I ordene ich, nicht, rechnen og zeichnen udtales ch-lyden blødt.",
+        "runtimeBefore": "inline-stale",
+        "runtimeAfter": "<h3>Foredrag 2</h3> <p class=\"kurss-lesson-intro\">Anden forelæsning: dialoger, ord, udtale, grammatik og oversættelse.</",
+        "match": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0071",
+        "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml#grammar-examples",
+        "ownerNew": "Ich rechne; Ich tue; Er tut; Was tust du?",
+        "runtimeBefore": "inline-stale",
+        "runtimeAfter": "<h3>Foredrag 2</h3> <p class=\"kurss-lesson-intro\">Anden forelæsning: dialoger, ord, udtale, grammatik og oversættelse.</",
+        "match": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0073",
+        "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml#word-list",
+        "ownerNew": "wer — hvem; was — hvad; hier — her; dort — der; der Tisch — bord; ein Tisch — et bord",
+        "runtimeBefore": "inline-stale",
+        "runtimeAfter": "<h3>Foredrag 3</h3> <p class=\"kurss-lesson-intro\">Tredje forelæsning: dialoger, ord, udtale, grammatik og oversættelse.<",
+        "match": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0076",
+        "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml#word-list",
+        "ownerNew": "nehmen (nēmen) — at tage; zeigen — at vise; schwarz — sort; die Feder — fjer; hinlegen — lægge ned",
+        "runtimeBefore": "inline-stale",
+        "runtimeAfter": "<h3>Foredrag 4</h3> <p class=\"kurss-lesson-intro\">Akkusativ, nehmen, hinlegen, hinausgehen og adjektiver.</p> <details c",
+        "match": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0079",
+        "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml#word-list",
+        "ownerNew": "wen (vēn) — hvem; loben — at rose; tadeln — at skælde ud; der Vater (fāter) — far",
+        "runtimeBefore": "inline-stale",
+        "runtimeAfter": "<h3>Foredrag 5</h3> <p class=\"kurss-lesson-intro\">Wen?, akkusativ, sitzen, fragen og -in endelse.</p> <details class=\"le",
+        "match": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0082",
+        "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml#word-list",
+        "ownerNew": "anspitzen (anšpicen) — at spidse; er spitzt an — han spidser; leicht — let; hier — her",
+        "runtimeBefore": "inline-stale",
+        "runtimeAfter": "<h3>Foredrag 6</h3> <p class=\"kurss-lesson-intro\">Tal, flertal, omlyd og flertalsformer af substantiver.</p> <details cl",
+        "match": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0084",
+        "path": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml#word-list",
+        "ownerNew": "singe — syng; singt — synger; singen Sie — syng; der Müller — møller; öffnen — åbne; der Spiegel — spejl",
+        "runtimeBefore": "inline-stale",
+        "runtimeAfter": "<h3>Foredrag 7</h3> <p class=\"kurss-lesson-intro\">Syvende lektion: kommandoudtryk, tiltaleform og flertal.</p> <details ",
+        "match": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0086",
+        "path": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml#exercise",
+        "ownerNew": "Øvelse; fragen — at spørge",
+        "runtimeBefore": "inline-stale",
+        "runtimeAfter": "<h3>Foredrag 7</h3> <p class=\"kurss-lesson-intro\">Syvende lektion: kommandoudtryk, tiltaleform og flertal.</p> <details ",
+        "match": true
+      }
+    ]
+  },
+  "finalStatus": "DA–DE KURSS RUNTIME LEGACYHTML SYNC REPAIR — PASS",
+  "runtimeBefore": {
+    "DA-KURSS-FPR-0069": {
+      "id": "DA-KURSS-FPR-0069",
+      "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml#word-list",
+      "ownerNew": "spielen — at spille; nein — nej; nicht — ikke; arbeiten — at arbejde; fragen — at spørge; was tut er? — hvad laver han?",
+      "runtimeBefore": "inline-stale",
+      "runtimeAfter": "<h3>Foredrag 2</h3> <p class=\"kurss-lesson-intro\">Anden forelæsning: dialoger, ord, udtale, grammatik og oversættelse.</",
+      "match": false
+    },
+    "DA-KURSS-FPR-0070": {
+      "id": "DA-KURSS-FPR-0070",
+      "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml#pronunciation",
+      "ownerNew": "I ordene ich, nicht, rechnen og zeichnen udtales ch-lyden blødt.",
+      "runtimeBefore": "inline-stale",
+      "runtimeAfter": "<h3>Foredrag 2</h3> <p class=\"kurss-lesson-intro\">Anden forelæsning: dialoger, ord, udtale, grammatik og oversættelse.</",
+      "match": false
+    },
+    "DA-KURSS-FPR-0071": {
+      "id": "DA-KURSS-FPR-0071",
+      "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml#grammar-examples",
+      "ownerNew": "Ich rechne; Ich tue; Er tut; Was tust du?",
+      "runtimeBefore": "inline-stale",
+      "runtimeAfter": "<h3>Foredrag 2</h3> <p class=\"kurss-lesson-intro\">Anden forelæsning: dialoger, ord, udtale, grammatik og oversættelse.</",
+      "match": false
+    },
+    "DA-KURSS-FPR-0073": {
+      "id": "DA-KURSS-FPR-0073",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml#word-list",
+      "ownerNew": "wer — hvem; was — hvad; hier — her; dort — der; der Tisch — bord; ein Tisch — et bord",
+      "runtimeBefore": "inline-stale",
+      "runtimeAfter": "<h3>Foredrag 3</h3> <p class=\"kurss-lesson-intro\">Tredje forelæsning: dialoger, ord, udtale, grammatik og oversættelse.<",
+      "match": false
+    },
+    "DA-KURSS-FPR-0076": {
+      "id": "DA-KURSS-FPR-0076",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml#word-list",
+      "ownerNew": "nehmen (nēmen) — at tage; zeigen — at vise; schwarz — sort; die Feder — fjer; hinlegen — lægge ned",
+      "runtimeBefore": "inline-stale",
+      "runtimeAfter": "<h3>Foredrag 4</h3> <p class=\"kurss-lesson-intro\">Akkusativ, nehmen, hinlegen, hinausgehen og adjektiver.</p> <details c",
+      "match": false
+    },
+    "DA-KURSS-FPR-0079": {
+      "id": "DA-KURSS-FPR-0079",
+      "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml#word-list",
+      "ownerNew": "wen (vēn) — hvem; loben — at rose; tadeln — at skælde ud; der Vater (fāter) — far",
+      "runtimeBefore": "inline-stale",
+      "runtimeAfter": "<h3>Foredrag 5</h3> <p class=\"kurss-lesson-intro\">Wen?, akkusativ, sitzen, fragen og -in endelse.</p> <details class=\"le",
+      "match": false
+    },
+    "DA-KURSS-FPR-0082": {
+      "id": "DA-KURSS-FPR-0082",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml#word-list",
+      "ownerNew": "anspitzen (anšpicen) — at spidse; er spitzt an — han spidser; leicht — let; hier — her",
+      "runtimeBefore": "inline-stale",
+      "runtimeAfter": "<h3>Foredrag 6</h3> <p class=\"kurss-lesson-intro\">Tal, flertal, omlyd og flertalsformer af substantiver.</p> <details cl",
+      "match": false
+    },
+    "DA-KURSS-FPR-0084": {
+      "id": "DA-KURSS-FPR-0084",
+      "path": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml#word-list",
+      "ownerNew": "singe — syng; singt — synger; singen Sie — syng; der Müller — møller; öffnen — åbne; der Spiegel — spejl",
+      "runtimeBefore": "inline-stale",
+      "runtimeAfter": "<h3>Foredrag 7</h3> <p class=\"kurss-lesson-intro\">Syvende lektion: kommandoudtryk, tiltaleform og flertal.</p> <details ",
+      "match": false
+    },
+    "DA-KURSS-FPR-0086": {
+      "id": "DA-KURSS-FPR-0086",
+      "path": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml#exercise",
+      "ownerNew": "Øvelse; fragen — at spørge",
+      "runtimeBefore": "inline-stale",
+      "runtimeAfter": "<h3>Foredrag 7</h3> <p class=\"kurss-lesson-intro\">Syvende lektion: kommandoudtryk, tiltaleform og flertal.</p> <details ",
+      "match": false
+    }
+  },
+  "beforePrereq": {
+    "signedLabot": 244,
+    "apply571Applied": 235,
+    "apply572Applied": 9,
+    "runtimeOwnerMatch": 235,
+    "runtimeOwnerMismatch": 9,
+    "legacyHtmlHtmlMapMatch": 10,
+    "dataHtmlDivergenceCount": 20,
+    "prerequisitePass": false,
+    "runtimeMiss": [
+      {
+        "id": "DA-KURSS-FPR-0069",
+        "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml#word-list",
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0070",
+        "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml#pronunciation",
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0071",
+        "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml#grammar-examples",
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0073",
+        "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml#word-list",
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0076",
+        "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml#word-list",
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0079",
+        "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml#word-list",
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0082",
+        "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml#word-list",
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0084",
+        "path": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml#word-list",
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0086",
+        "path": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml#exercise",
+        "htmlMapOk": true
+      }
+    ],
+    "dataHtmlDivergence": [
+      {
+        "id": "DA-KURSS-FPR-0063",
+        "runtimeOk": true,
+        "htmlMapOk": false
+      },
+      {
+        "id": "DA-KURSS-FPR-0064",
+        "runtimeOk": true,
+        "htmlMapOk": false
+      },
+      {
+        "id": "DA-KURSS-FPR-0065",
+        "runtimeOk": true,
+        "htmlMapOk": false
+      },
+      {
+        "id": "DA-KURSS-FPR-0066",
+        "runtimeOk": true,
+        "htmlMapOk": false
+      },
+      {
+        "id": "DA-KURSS-FPR-0067",
+        "runtimeOk": true,
+        "htmlMapOk": false
+      },
+      {
+        "id": "DA-KURSS-FPR-0068",
+        "runtimeOk": true,
+        "htmlMapOk": false
+      },
+      {
+        "id": "DA-KURSS-FPR-0069",
+        "runtimeOk": false,
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0070",
+        "runtimeOk": false,
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0071",
+        "runtimeOk": false,
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0073",
+        "runtimeOk": false,
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0074",
+        "runtimeOk": true,
+        "htmlMapOk": false
+      },
+      {
+        "id": "DA-KURSS-FPR-0076",
+        "runtimeOk": false,
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0077",
+        "runtimeOk": true,
+        "htmlMapOk": false
+      },
+      {
+        "id": "DA-KURSS-FPR-0078",
+        "runtimeOk": true,
+        "htmlMapOk": false
+      },
+      {
+        "id": "DA-KURSS-FPR-0079",
+        "runtimeOk": false,
+        "htmlMapOk": true
+      }
+    ]
+  },
+  "afterPrereq": {
+    "signedLabot": 244,
+    "apply571Applied": 235,
+    "apply572Applied": 9,
+    "runtimeOwnerMatch": 244,
+    "runtimeOwnerMismatch": 0,
+    "legacyHtmlHtmlMapMatch": 21,
+    "dataHtmlDivergenceCount": 0,
+    "prerequisitePass": true,
+    "runtimeMiss": [],
+    "dataHtmlDivergence": []
+  }
+}
