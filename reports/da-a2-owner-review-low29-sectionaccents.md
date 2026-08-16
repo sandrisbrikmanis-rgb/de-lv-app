@@ -1,10 +1,11 @@
 # DA–DE A2 — OWNER review (29 LOW sectionAccent residuals)
 
-Avots: `reports/da-a2-targeted-regression-audit.md` (LOW = 29)
+Avots: [da-a2-targeted-regression-audit.md](./da-a2-targeted-regression-audit.md) (LOW = 29)
 
-> **PROPOSED** = Luna ieteikums pēc faktiskā DA Study teksta. OWNER apstiprina vai labo.
+> Katram ierakstam aizpildi **Statuss** un **OWNER_DECISION** [decisions tabulā](./da-a2-owner-decisions-low29-sectionaccents.md).
+> **PROPOSED** = Luna ieteikums pēc faktiskā DA Study teksta — nav automātiski apstiprināts.
 > **DE nemainīt.** Tikai sectionAccents termini.
-> Statusi: **LABOT** (jauns DA terms) | **FJERN** `termins` | **FALSE_POSITIVE**
+> Statusi: **LABOT** (precīzs DA terms) | **FJERN** `termins` | **FALSE_POSITIVE** (validators kļūdās)
 
 ## 1. DA-A2-REG-0001
 
